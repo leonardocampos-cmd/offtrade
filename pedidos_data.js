@@ -1,5 +1,5 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "15/07/2026 14:07",
+  "atualizado_em": "15/07/2026 15:19",
   "periodo_dias": 90,
   "fontes_indisponiveis": [],
   "pedidos_feitos": [
@@ -37,6 +37,70 @@ const PEDIDOS_DATA = {
           "desc": "ST PIERRE LATA RED MINT LT 24X270ML",
           "qt": 10,
           "val": 959.0
+        }
+      ]
+    },
+    {
+      "numped": "159005052",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "GISELLE BARFER - OFF TRADE",
+      "cliente": "CHOPERIA FORTE BEER LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "obs": "",
+      "total": 856.88,
+      "itens": [
+        {
+          "desc": "RED BULL 24X250ML",
+          "qt": 3,
+          "val": 517.68
+        },
+        {
+          "desc": "GIN LARIOS ORIGINAL 700ML",
+          "qt": 6,
+          "val": 197.4
+        },
+        {
+          "desc": "WHISKY JIM BEAM APPLE 1L",
+          "qt": 2,
+          "val": 141.8
+        }
+      ]
+    },
+    {
+      "numped": "153001305",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "ANGELO NEVES SUZART - OFF TRADE",
+      "cliente": "CEREAIS MARREQUINHO DE NOVA CAMPINAS LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "obs": "pagamento de descarga no valor de R$40,00 por pallets",
+      "total": 643.0,
+      "itens": [
+        {
+          "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+          "qt": 5,
+          "val": 326.4
+        },
+        {
+          "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "qt": 24,
+          "val": 280.8
+        },
+        {
+          "desc": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
+          "qt": 2,
+          "val": 35.8
         }
       ]
     },
@@ -147,6 +211,273 @@ const PEDIDOS_DATA = {
       ]
     },
     {
+      "numped": "439000261",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "MATEUS CARDOSO - OFF TRADE",
+      "cliente": "MERCADO PRAIA BRAVA DE ANGRA DOS REIS LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "obs": "",
+      "total": 567.36,
+      "itens": [
+        {
+          "desc": "VILLA ROSA TINTO 750ML",
+          "qt": 12,
+          "val": 358.8
+        },
+        {
+          "desc": "RC ATUM SOLIDO NATURAL 24X170G",
+          "qt": 1,
+          "val": 208.56
+        }
+      ]
+    },
+    {
+      "numped": "379001248",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "JORGE MACIEL - OFF TRADE",
+      "cliente": "DENISE ESTEVES PINHEIRO 09969562711",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "obs": "",
+      "total": 525.6,
+      "itens": [
+        {
+          "desc": "RUM MONTILLA CARTA BRANCA 1L",
+          "qt": 12,
+          "val": 262.8
+        },
+        {
+          "desc": "RUM MONTILLA OURO 1L",
+          "qt": 12,
+          "val": 262.8
+        }
+      ]
+    },
+    {
+      "numped": "379001250",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "JORGE MACIEL - OFF TRADE",
+      "cliente": "LEANDRO FREITAS RODRIGUES 13755860767",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "obs": "",
+      "total": 1434.79,
+      "itens": [
+        {
+          "desc": "PIRASSUNUNGA 51 965 ML",
+          "qt": 3,
+          "val": 38.7
+        },
+        {
+          "desc": "APERITIVO APEROL 750 ML",
+          "qt": 1,
+          "val": 39.9
+        },
+        {
+          "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 3,
+          "val": 110.7
+        },
+        {
+          "desc": "COQUETEL BANANINHA REGGIANI 950ML",
+          "qt": 4,
+          "val": 71.6
+        },
+        {
+          "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "qt": 2,
+          "val": 119.8
+        },
+        {
+          "desc": "GIN MARINA 750ML",
+          "qt": 1,
+          "val": 39.9
+        },
+        {
+          "desc": "SMIRNOFF RED PET 1750 ML",
+          "qt": 3,
+          "val": 134.7
+        },
+        {
+          "desc": "VINHO TINTO AZUL VENTOZELO 750ML",
+          "qt": 1,
+          "val": 62.9
+        },
+        {
+          "desc": "CACHACA TATUZINHO PET 750 ML",
+          "qt": 1,
+          "val": 3.99
+        },
+        {
+          "desc": "CHANDON GARDEN SPRITZ 750 ML",
+          "qt": 3,
+          "val": 224.7
+        },
+        {
+          "desc": "VINHO FREIXO TERROIR BRANCO 750ML",
+          "qt": 1,
+          "val": 83.9
+        },
+        {
+          "desc": "AGUA NA LATA C/ GAS 12X310ML",
+          "qt": 1,
+          "val": 28.9
+        },
+        {
+          "desc": "ESPUMANTE MELT SPRITZ E BITTER LARANJA",
+          "qt": 1,
+          "val": 54.9
+        },
+        {
+          "desc": "VINHO FINCA FELIZ TESORO TTO BONARDA",
+          "qt": 1,
+          "val": 92.9
+        },
+        {
+          "desc": "VINHO ARESTI RESERVA CARMENERE 750ML",
+          "qt": 2,
+          "val": 107.8
+        },
+        {
+          "desc": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
+          "qt": 1,
+          "val": 81.9
+        },
+        {
+          "desc": "ESPU MOSCATEL ROSE QNTA DO MORGADO 660ML",
+          "qt": 3,
+          "val": 65.7
+        },
+        {
+          "desc": "BAER MATE LN 12X350ML",
+          "qt": 1,
+          "val": 71.9
+        }
+      ]
+    },
+    {
+      "numped": "159005051",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "GISELLE BARFER - OFF TRADE",
+      "cliente": "CHOPERIA FORTE BEER LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "obs": "",
+      "total": 6473.52,
+      "itens": [
+        {
+          "desc": "RED BULL 24X250ML",
+          "qt": 27,
+          "val": 4723.92
+        },
+        {
+          "desc": "RED BULL TROPICAL 24X250ML",
+          "qt": 10,
+          "val": 1749.6
+        }
+      ]
+    },
+    {
+      "numped": "439000259",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "MATEUS CARDOSO - OFF TRADE",
+      "cliente": "V CABRAL COMERCIO VAREJISTA LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "obs": "",
+      "total": 89.7,
+      "itens": [
+        {
+          "desc": "VINHO GRAVEDAD SAUV. BLANC 750ML",
+          "qt": 1,
+          "val": 29.9
+        },
+        {
+          "desc": "VINHO GRAVEDAD CAB. SAUV.",
+          "qt": 2,
+          "val": 59.8
+        }
+      ]
+    },
+    {
+      "numped": "439000258",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "MATEUS CARDOSO - OFF TRADE",
+      "cliente": "V CABRAL COMERCIO VAREJISTA LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "obs": "Data entrega: 16/07/26",
+      "total": 598.7,
+      "itens": [
+        {
+          "desc": "CONHAQUE DOMECQ 1L",
+          "qt": 1,
+          "val": 28.9
+        },
+        {
+          "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 6,
+          "val": 221.4
+        },
+        {
+          "desc": "CATUABA SELVAGEM 900ML",
+          "qt": 6,
+          "val": 91.2
+        },
+        {
+          "desc": "VILLA ROSA TINTO 750ML",
+          "qt": 4,
+          "val": 119.6
+        },
+        {
+          "desc": "VINHO CAVAS DE ORO MALBEC 750ML",
+          "qt": 2,
+          "val": 59.8
+        },
+        {
+          "desc": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "qt": 1,
+          "val": 38.9
+        },
+        {
+          "desc": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
+          "qt": 1,
+          "val": 38.9
+        }
+      ]
+    },
+    {
       "numped": "471000430",
       "numnota": "",
       "data": "15/07/2026",
@@ -187,6 +518,38 @@ const PEDIDOS_DATA = {
           "desc": "4 PACK RED BULL",
           "qt": 9,
           "val": 269.64
+        }
+      ]
+    },
+    {
+      "numped": "439000260",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "MATEUS CARDOSO - OFF TRADE",
+      "cliente": "MERCADO PRAIA BRAVA DE ANGRA DOS REIS LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "obs": "Data entrega : 16/07/26",
+      "total": 1474.08,
+      "itens": [
+        {
+          "desc": "COMARY MELFORT COQUETEL DE MEL 1L",
+          "qt": 12,
+          "val": 130.8
+        },
+        {
+          "desc": "VILLA ROSA TINTO 750ML",
+          "qt": 24,
+          "val": 717.6
+        },
+        {
+          "desc": "RC ATUM SOLIDO NATURAL 24X170G",
+          "qt": 3,
+          "val": 625.68
         }
       ]
     },
@@ -327,6 +690,60 @@ const PEDIDOS_DATA = {
       ]
     },
     {
+      "numped": "275000626",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "MARIA LUIZA - OFF TRADE",
+      "cliente": "DOM ATACAREJO S.A.",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "obs": "ENTREGA AGENDADA 16/07",
+      "total": 3468.0,
+      "itens": [
+        {
+          "desc": "VILLA ROSA TINTO 750ML",
+          "qt": 60,
+          "val": 1734.0
+        },
+        {
+          "desc": "VILLA ROSA  ROSE 750ML",
+          "qt": 60,
+          "val": 1734.0
+        }
+      ]
+    },
+    {
+      "numped": "275000629",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "MARIA LUIZA - OFF TRADE",
+      "cliente": "DOM ATACAREJO S.A.",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "obs": "ENTREGA AGENDADA PARA 16/07",
+      "total": 1560.6,
+      "itens": [
+        {
+          "desc": "VILLA ROSA TINTO 750ML",
+          "qt": 30,
+          "val": 867.0
+        },
+        {
+          "desc": "VILLA ROSA  ROSE 750ML",
+          "qt": 24,
+          "val": 693.6
+        }
+      ]
+    },
+    {
       "numped": "379001247",
       "numnota": "",
       "data": "15/07/2026",
@@ -349,56 +766,214 @@ const PEDIDOS_DATA = {
       ]
     },
     {
-      "numped": "370001399",
+      "numped": "159005053",
       "numnota": "",
       "data": "15/07/2026",
       "data_ord": "2026-07-15",
-      "nome": "FRANZ BENEVIDES - OFF TRADE",
-      "cliente": "CHURRASCARIA E RESTAURANTE NOVA GAUCHAO LTDA",
+      "nome": "GISELLE BARFER - OFF TRADE",
+      "cliente": "CHOPERIA FORTE BEER LTDA",
       "sistema": "CRC",
-      "estado": "ES",
-      "supervisor": "SUPERVISOR HIBRIDO ES",
-      "gerente": "EROCLES OLIVEIRA",
+      "estado": "RJ",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
       "status_ped": "",
       "obs": "",
-      "total": 29.16,
+      "total": 709.0,
       "itens": [
         {
-          "desc": "4 PACK RED BULL SF NECTARINA 4X250ML",
-          "qt": 1,
-          "val": 29.16
+          "desc": "WHISKY JIM BEAM APPLE 1L",
+          "qt": 10,
+          "val": 709.0
         }
       ]
     },
     {
-      "numped": "378000499",
+      "numped": "155003879",
       "numnota": "",
       "data": "15/07/2026",
       "data_ord": "2026-07-15",
-      "nome": "FABIO VALOTTI - OFF TRADE",
-      "cliente": "PAIS E FILHOS LANCHONETE E RESTAURANTE EIRELI",
+      "nome": "RAPHAEL SANTOS - OFF TRADE",
+      "cliente": "TAIS TERRA MONTEIRO",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "obs": "",
+      "total": 8636.16,
+      "itens": [
+        {
+          "desc": "RUM MONTILLA CRISTAL 1L",
+          "qt": 24,
+          "val": 525.6
+        },
+        {
+          "desc": "RUM MONTILLA CARTA BRANCA 1L",
+          "qt": 24,
+          "val": 525.6
+        },
+        {
+          "desc": "VODKA ABSOLUT 1L",
+          "qt": 60,
+          "val": 3174.0
+        },
+        {
+          "desc": "RUM MONTILLA OURO 1L",
+          "qt": 36,
+          "val": 788.4
+        },
+        {
+          "desc": "RUM MALIBU 750ML",
+          "qt": 12,
+          "val": 598.8
+        },
+        {
+          "desc": "GIN BEEFEATER 750ML",
+          "qt": 36,
+          "val": 2192.4
+        },
+        {
+          "desc": "GIN GORDONS 750 ML",
+          "qt": 12,
+          "val": 658.8
+        },
+        {
+          "desc": "RED BULL MORANGO PESSEGO 24X250ML",
+          "qt": 1,
+          "val": 172.56
+        }
+      ]
+    },
+    {
+      "numped": "238000766",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "DANIELLE MOURA - OFF TRADE",
+      "cliente": "LUZ PROMOCOES E EVENTOS LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "obs": "entrega horario comercial - 16/07",
+      "total": 1438.2,
+      "itens": [
+        {
+          "desc": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 6,
+          "val": 479.4
+        },
+        {
+          "desc": "WHISKY JIM BEAM HONEY 1L",
+          "qt": 4,
+          "val": 319.6
+        },
+        {
+          "desc": "WHISKY JIM BEAM BLACK CHERRY 1L",
+          "qt": 4,
+          "val": 319.6
+        },
+        {
+          "desc": "WHISKY JIM BEAM APPLE 1L",
+          "qt": 4,
+          "val": 319.6
+        }
+      ]
+    },
+    {
+      "numped": "275000627",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "MARIA LUIZA - OFF TRADE",
+      "cliente": "DOM ATACAREJO S.A.",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "obs": "ENTREGA AGENDADA PARA 16/07",
+      "total": 2076.48,
+      "itens": [
+        {
+          "desc": "VILLA ROSA TINTO 750ML",
+          "qt": 30,
+          "val": 867.0
+        },
+        {
+          "desc": "GIN LARIOS ORIGINAL 700ML",
+          "qt": 12,
+          "val": 515.88
+        },
+        {
+          "desc": "VILLA ROSA  ROSE 750ML",
+          "qt": 24,
+          "val": 693.6
+        }
+      ]
+    },
+    {
+      "numped": "153001302",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "ANGELO NEVES SUZART - OFF TRADE",
+      "cliente": "MERCADO RC DE ITAGUAI LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "obs": "entregar no dia 16/07 com pagamento de descarga no valor de R$60,00 por pal",
+      "total": 2284.8,
+      "itens": [
+        {
+          "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "qt": 5,
+          "val": 326.4
+        },
+        {
+          "desc": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+          "qt": 30,
+          "val": 1958.4
+        }
+      ]
+    },
+    {
+      "numped": "379001249",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "JORGE MACIEL - OFF TRADE",
+      "cliente": "MERCADO E PADARIA PONTO ALTO DO KM 32 LTDA",
       "sistema": "CRC",
       "estado": "RJ",
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
       "obs": "",
-      "total": 303.36,
+      "total": 474.0,
       "itens": [
         {
-          "desc": "4 PACK RED BULL",
-          "qt": 2,
-          "val": 59.92
+          "desc": "CERVEJA HEINEKEN LONG 24X330ML",
+          "qt": 1,
+          "val": 127.9
         },
         {
-          "desc": "AGUA MINERAL MAMBA WATER C/ GAS - 24X350",
-          "qt": 2,
-          "val": 123.6
+          "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "qt": 1,
+          "val": 62.9
         },
         {
-          "desc": "4 PACK RED BULL ZERO",
-          "qt": 4,
-          "val": 119.84
+          "desc": "RC ATUM SOLIDO NATURAL 24X170G",
+          "qt": 1,
+          "val": 141.6
+        },
+        {
+          "desc": "RC ATUM SOLIDO OLEO 24X170G",
+          "qt": 1,
+          "val": 141.6
         }
       ]
     },
@@ -573,429 +1148,269 @@ const PEDIDOS_DATA = {
       ]
     },
     {
-      "numped": "370001400",
+      "numped": "486000084",
       "numnota": "",
       "data": "15/07/2026",
       "data_ord": "2026-07-15",
-      "nome": "FRANZ BENEVIDES - OFF TRADE",
-      "cliente": "TERRAZZO DEI NONNI LTDA",
-      "sistema": "CRC",
-      "estado": "ES",
-      "supervisor": "SUPERVISOR HIBRIDO ES",
-      "gerente": "EROCLES OLIVEIRA",
-      "status_ped": "",
-      "obs": "",
-      "total": 29.16,
-      "itens": [
-        {
-          "desc": "4 PACK RED BULL",
-          "qt": 1,
-          "val": 29.16
-        }
-      ]
-    },
-    {
-      "numped": "588003046",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "W.S",
-      "cliente": "DISTRIB DE BEBIDAS MARLENE LT",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "obs": "",
-      "total": 5835.0,
-      "itens": [
-        {
-          "desc": "RUM MONTILLA CARTA BRANCA 1L",
-          "qt": 180,
-          "val": 3501.0
-        },
-        {
-          "desc": "RUM MONTILLA OURO 1L",
-          "qt": 120,
-          "val": 2334.0
-        }
-      ]
-    },
-    {
-      "numped": "588003052",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "W.S",
-      "cliente": "BARRETO CENTRAL DE ALIMENTOS E BEBIDAS LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "obs": "",
-      "total": 11202.6,
-      "itens": [
-        {
-          "desc": "VODKA GREY GOOSE LE CITRON 750ML",
-          "qt": 30,
-          "val": 2997.0
-        },
-        {
-          "desc": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "qt": 60,
-          "val": 3294.0
-        },
-        {
-          "desc": "VODKA ABSOLUT TOMORROWLAND 700ML",
-          "qt": 60,
-          "val": 3594.0
-        },
-        {
-          "desc": "VODKA ABSOLUT TABASCO 750ML",
-          "qt": 24,
-          "val": 1317.6
-        }
-      ]
-    },
-    {
-      "numped": "588003056",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "W.S",
-      "cliente": "SANTA VITTA GASTROBAR LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "obs": "",
-      "total": 1078.8,
-      "itens": [
-        {
-          "desc": "LICOR COINTREAU 700 ML",
-          "qt": 12,
-          "val": 1078.8
-        }
-      ]
-    },
-    {
-      "numped": "391000207",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "ANDRE SILVA - OFF TRADE",
-      "cliente": "SUPERMERCADO DA FREGUESIA LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "ANDERSON CANAVEIS",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "obs": "",
-      "total": 551.52,
-      "itens": [
-        {
-          "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
-          "qt": 2,
-          "val": 551.52
-        }
-      ]
-    },
-    {
-      "numped": "468000095",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "RENATO JUNIOR - OFF TRADE",
-      "cliente": "TROSTOLF COMERCIO ATACADISTA LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "obs": "",
-      "total": 23616.0,
-      "itens": [
-        {
-          "desc": "VINHO DOM BOSCO TINTO SUAVE 750ML",
-          "qt": 2880,
-          "val": 23616.0
-        }
-      ]
-    },
-    {
-      "numped": "489000048",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "FERNANDO BERTIN - OFF TRADE",
-      "cliente": "COMERCIAL ANDREOZI LTDA",
+      "nome": "LEONARDO FLOREZI - OFF TRADE",
+      "cliente": "GESIO FUJII CARDOSO COMERCIO DE BEBIDAS",
       "sistema": "SPON",
       "estado": "SP",
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
       "obs": "",
-      "total": 1283.4,
-      "itens": [
-        {
-          "desc": "WHISKY JACK DANIELS 1L",
-          "qt": 3,
-          "val": 299.7
-        },
-        {
-          "desc": "WHISKY BALLANTINE S FINEST 1L",
-          "qt": 3,
-          "val": 158.7
-        },
-        {
-          "desc": "TEQUILA J CUERVO GOLD 750ML",
-          "qt": 3,
-          "val": 251.7
-        },
-        {
-          "desc": "WHISKY JAMESON 750ML",
-          "qt": 3,
-          "val": 173.7
-        },
-        {
-          "desc": "WHISKY JACK DANIELS APPLE 1L - DEST",
-          "qt": 4,
-          "val": 399.6
-        }
-      ]
-    },
-    {
-      "numped": "433000174",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "MANUELA ZAPPACOSTA - OFF TRADE",
-      "cliente": "CDB DISTRIBUIDORA DE BEBIDAS E ALIMENTOS LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "obs": "",
-      "total": 3228.0,
+      "total": 1121.5,
       "itens": [
         {
           "desc": "CONHAQUE DOMECQ 1L",
-          "qt": 120,
-          "val": 3228.0
-        }
-      ]
-    },
-    {
-      "numped": "491000012",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "GILSON DE OLIVEIRA - OFF TRADE",
-      "cliente": "SUPERMERCADO PEGORIN LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "obs": "",
-      "total": 1329.72,
-      "itens": [
-        {
-          "desc": "WHISKY PASSPORT 1L",
-          "qt": 12,
-          "val": 394.8
+          "qt": 5,
+          "val": 134.5
         },
-        {
-          "desc": "TEQUILA J CUERVO GOLD 750ML",
-          "qt": 6,
-          "val": 503.4
-        },
-        {
-          "desc": "VINHO DOM BOSCO TINTO SUAVE 750ML",
-          "qt": 48,
-          "val": 431.52
-        }
-      ]
-    },
-    {
-      "numped": "588003047",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "W.S",
-      "cliente": "HELENA ALVES DA SILVA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "obs": "",
-      "total": 1167.0,
-      "itens": [
-        {
-          "desc": "RUM MONTILLA OURO 1L",
-          "qt": 60,
-          "val": 1167.0
-        }
-      ]
-    },
-    {
-      "numped": "477000055",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "LUCIANO TOSCHI - OFF TRADE",
-      "cliente": "ELIAS DIAS RAMOS & CIA LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "obs": "",
-      "total": 643.2,
-      "itens": [
         {
           "desc": "WHISKY JACK DANIELS 1L",
+          "qt": 4,
+          "val": 399.6
+        },
+        {
+          "desc": "SMIRNOFF ICE 24X275ML LONG",
+          "qt": 1,
+          "val": 125.9
+        },
+        {
+          "desc": "WHISKEY JACK DANIELS HONEY 1 L",
           "qt": 3,
           "val": 299.7
         },
         {
-          "desc": "CONHAQUE DREHER 900ML",
-          "qt": 12,
-          "val": 202.8
+          "desc": "GIN BEEFEATER PINK 750ML",
+          "qt": 1,
+          "val": 61.9
         },
         {
-          "desc": "WHISKY BALLANTINE S FINEST 750ML",
-          "qt": 3,
-          "val": 140.7
+          "desc": "WHISKY JACK DANIELS FIRE 1000 ML",
+          "qt": 1,
+          "val": 99.9
         }
       ]
     },
     {
-      "numped": "474000047",
+      "numped": "470000033",
       "numnota": "",
       "data": "15/07/2026",
       "data_ord": "2026-07-15",
-      "nome": "FRANCIS SILVA - OFF TRADE",
-      "cliente": "SBO VISTA ALEGRE SUPERMERCADO LTDA",
+      "nome": "PRISCILLA BONACHE - OFF TRADE",
+      "cliente": "67.078.441 JESSICA DE CARVALHO ESPINOSA CONCEICAO",
       "sistema": "SPON",
       "estado": "SP",
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
       "obs": "",
-      "total": 394.8,
+      "total": 1522.24,
       "itens": [
         {
+          "desc": "VODKA ABSOLUT 1L",
+          "qt": 2,
+          "val": 105.8
+        },
+        {
+          "desc": "WHISKY JACK DANIELS 1L",
+          "qt": 1,
+          "val": 99.9
+        },
+        {
+          "desc": "WHISKY BALLANTINE S FINEST 1L",
+          "qt": 2,
+          "val": 105.8
+        },
+        {
           "desc": "WHISKY PASSPORT 1L",
-          "qt": 12,
-          "val": 394.8
+          "qt": 1,
+          "val": 32.9
+        },
+        {
+          "desc": "CONHAQUE DREHER 900ML",
+          "qt": 2,
+          "val": 33.8
+        },
+        {
+          "desc": "TEQUILA J CUERVO GOLD 750ML",
+          "qt": 1,
+          "val": 83.9
+        },
+        {
+          "desc": "TEQUILA J CUERVO SILVER 750ML",
+          "qt": 1,
+          "val": 83.9
+        },
+        {
+          "desc": "GIN BEEFEATER 750ML",
+          "qt": 2,
+          "val": 119.8
+        },
+        {
+          "desc": "WHISKEY JACK DANIELS HONEY 1 L",
+          "qt": 1,
+          "val": 99.9
+        },
+        {
+          "desc": "WHISKY JACK DANIELS FIRE 1000 ML",
+          "qt": 1,
+          "val": 99.9
+        },
+        {
+          "desc": "LICOR BALLENA MORANGO 750ML",
+          "qt": 2,
+          "val": 159.8
+        },
+        {
+          "desc": "GIN ROCKS 1LT",
+          "qt": 6,
+          "val": 123.3
+        },
+        {
+          "desc": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
+          "qt": 2,
+          "val": 159.8
+        },
+        {
+          "desc": "LICOR BALLENA COCO 750ML",
+          "qt": 2,
+          "val": 159.8
+        },
+        {
+          "desc": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "qt": 6,
+          "val": 53.94
         }
       ]
     },
     {
-      "numped": "588003048",
+      "numped": "425000150",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "BRUNO BARBOSA - OFF TRADE",
+      "cliente": "PIRANA - AUTO SERVICO LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "obs": "",
+      "total": 2869.6,
+      "itens": [
+        {
+          "desc": "WHISKY ROYAL SALUTE MALT 700ML",
+          "qt": 1,
+          "val": 659.9
+        },
+        {
+          "desc": "WHISKY ROYAL SALUTE POLO RJ 700ML",
+          "qt": 2,
+          "val": 1629.8
+        },
+        {
+          "desc": "WHISKY ROYAL SALUTE GRAIN 700ML",
+          "qt": 1,
+          "val": 579.9
+        }
+      ]
+    },
+    {
+      "numped": "588003057",
       "numnota": "",
       "data": "15/07/2026",
       "data_ord": "2026-07-15",
       "nome": "W.S",
-      "cliente": "ADEGA ISA VITORIA LTDA",
+      "cliente": "N.S.A COMERCIO VAREJISTA E DISTRIBUICAO LTDA",
       "sistema": "SPON",
       "estado": "SP",
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
       "obs": "",
-      "total": 11988.0,
+      "total": 6832.8,
       "itens": [
         {
-          "desc": "WHISKY JACK DANIELS 1L",
-          "qt": 120,
-          "val": 11988.0
-        }
-      ]
-    },
-    {
-      "numped": "461000128",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "SUELY SANTOS - OFF TRADE",
-      "cliente": "TALITA APARECIDA TISO 36267755851",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "obs": "",
-      "total": 999.0,
-      "itens": [
-        {
-          "desc": "WHISKY JACK DANIELS 1L",
-          "qt": 10,
-          "val": 999.0
-        }
-      ]
-    },
-    {
-      "numped": "477000054",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "LUCIANO TOSCHI - OFF TRADE",
-      "cliente": "GIULIANO APARECIDO VITORINO TEIXEIRA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "obs": "",
-      "total": 543.4,
-      "itens": [
-        {
-          "desc": "APERITIVO CAMPARI 998ML",
-          "qt": 1,
-          "val": 49.9
+          "desc": "VODKA ABSOLUT 750ML",
+          "qt": 36,
+          "val": 1796.4
         },
         {
-          "desc": "WHISKY PASSPORT APPLE 670ML",
-          "qt": 15,
-          "val": 493.5
+          "desc": "WHISKY GENTLEMAN JACK 1L - DEST",
+          "qt": 36,
+          "val": 5036.4
         }
       ]
     },
     {
-      "numped": "477000056",
+      "numped": "473000010",
       "numnota": "",
       "data": "15/07/2026",
       "data_ord": "2026-07-15",
-      "nome": "LUCIANO TOSCHI - OFF TRADE",
-      "cliente": "JAIME LARA CAMARGO FILHO MERCADO",
+      "nome": "MARCELO PEREIRA - OFF TRADE",
+      "cliente": "F M P DA SILVA LOJAS DE CONVENIENCIA",
       "sistema": "SPON",
       "estado": "SP",
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
       "obs": "",
-      "total": 637.26,
+      "total": 685.4,
       "itens": [
         {
-          "desc": "RUM BACARDI GOLD 980ML",
-          "qt": 6,
-          "val": 224.1
+          "desc": "CACHAÇA SAO FRANCISCO 970ML",
+          "qt": 24,
+          "val": 525.6
+        },
+        {
+          "desc": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
+          "qt": 2,
+          "val": 159.8
+        }
+      ]
+    },
+    {
+      "numped": "476000207",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "RODRIGO LIMA - OFF TRADE",
+      "cliente": "ERIK VIEIRA PALADINO",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "obs": "",
+      "total": 735.7,
+      "itens": [
+        {
+          "desc": "WHISKY JACK DANIELS 1L",
+          "qt": 1,
+          "val": 99.9
+        },
+        {
+          "desc": "WHISKY PASSPORT 1L",
+          "qt": 3,
+          "val": 98.7
+        },
+        {
+          "desc": "LICOR 43 DIEGO ZAMORA 700ML",
+          "qt": 2,
+          "val": 233.8
+        },
+        {
+          "desc": "WHISKY JACK DANIELS APPLE 1L - DEST",
+          "qt": 2,
+          "val": 199.8
         },
         {
           "desc": "WHISKY PASSPORT HONEY 670ML",
-          "qt": 6,
-          "val": 197.4
-        },
-        {
-          "desc": "VINHO DOM BOSCO TINTO SUAVE 750ML",
-          "qt": 24,
-          "val": 215.76
+          "qt": 3,
+          "val": 103.5
         }
       ]
     },
@@ -1032,38 +1447,6 @@ const PEDIDOS_DATA = {
       ]
     },
     {
-      "numped": "588003050",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "W.S",
-      "cliente": "MATEUS COSTA DE OLIVEIRA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "obs": "",
-      "total": 3493.8,
-      "itens": [
-        {
-          "desc": "GIN BEEFEATER 750ML",
-          "qt": 12,
-          "val": 718.8
-        },
-        {
-          "desc": "JACK DANIELS BLACKBERRY 1L",
-          "qt": 12,
-          "val": 2158.8
-        },
-        {
-          "desc": "GIN ROCKS WATERMELON 1LT",
-          "qt": 30,
-          "val": 616.2
-        }
-      ]
-    },
-    {
       "numped": "472000051",
       "numnota": "",
       "data": "15/07/2026",
@@ -1091,223 +1474,46 @@ const PEDIDOS_DATA = {
       ]
     },
     {
-      "numped": "391000206",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "ANDRE SILVA - OFF TRADE",
-      "cliente": "SUPERMERCADO DA FREGUESIA LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "ANDERSON CANAVEIS",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "obs": "",
-      "total": 4136.4,
-      "itens": [
-        {
-          "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
-          "qt": 15,
-          "val": 4136.4
-        }
-      ]
-    },
-    {
-      "numped": "486000083",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "LEONARDO FLOREZI - OFF TRADE",
-      "cliente": "SUP BRASIL",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "obs": "",
-      "total": 1462.44,
-      "itens": [
-        {
-          "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
-          "qt": 1,
-          "val": 275.76
-        },
-        {
-          "desc": "VINHO DOM BOSCO TINTO SUAVE 750ML",
-          "qt": 120,
-          "val": 1078.8
-        },
-        {
-          "desc": "VINHO DOM BOSCO TINTO SECO 750ML",
-          "qt": 12,
-          "val": 107.88
-        }
-      ]
-    },
-    {
-      "numped": "474000046",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "FRANCIS SILVA - OFF TRADE",
-      "cliente": "ANDERSON SILVA NASCIMENTO",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "obs": "",
-      "total": 1078.2,
-      "itens": [
-        {
-          "desc": "GIN BEEFEATER 750ML",
-          "qt": 12,
-          "val": 718.8
-        },
-        {
-          "desc": "GIN GORDONS 750 ML",
-          "qt": 6,
-          "val": 359.4
-        }
-      ]
-    },
-    {
-      "numped": "588003049",
+      "numped": "588003058",
       "numnota": "",
       "data": "15/07/2026",
       "data_ord": "2026-07-15",
       "nome": "W.S",
-      "cliente": "DISTRIBUIDORA DO ALEMAO MIRIZOLA LTDA",
+      "cliente": "M ALMEIDA DE SOUZA FILHOS BEBIDAS",
       "sistema": "SPON",
       "estado": "SP",
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
       "obs": "",
-      "total": 11988.0,
+      "total": 7188.0,
       "itens": [
         {
-          "desc": "WHISKY JACK DANIELS 1L",
+          "desc": "GIN BEEFEATER 750ML",
           "qt": 120,
-          "val": 11988.0
+          "val": 7188.0
         }
       ]
     },
     {
-      "numped": "433000173",
+      "numped": "500000003",
       "numnota": "",
       "data": "15/07/2026",
       "data_ord": "2026-07-15",
-      "nome": "MANUELA ZAPPACOSTA - OFF TRADE",
-      "cliente": "JEWINE COMERCIAL LTDA",
+      "nome": "PAULO MOREIRA - OFF TRADE",
+      "cliente": "MINIMERCADO MAR DO SUL LTDA",
       "sistema": "SPON",
       "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
+      "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
       "obs": "",
-      "total": 8575.2,
+      "total": 701.4,
       "itens": [
         {
-          "desc": "VODKA ABSOLUT 1L",
-          "qt": 144,
-          "val": 7257.6
-        },
-        {
-          "desc": "VODKA ABSOLUT TABASCO 750ML",
-          "qt": 24,
-          "val": 1317.6
-        }
-      ]
-    },
-    {
-      "numped": "474000045",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "FRANCIS SILVA - OFF TRADE",
-      "cliente": "JOANA FRANCISCO DE OLIVEIRA TOMAZ 19043092835",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "obs": "",
-      "total": 171.7,
-      "itens": [
-        {
-          "desc": "WHISKY JACK DANIELS 1L",
-          "qt": 1,
-          "val": 99.9
-        },
-        {
-          "desc": "APERITIVO CAMPARI 998ML",
-          "qt": 1,
-          "val": 49.9
-        },
-        {
-          "desc": "CACHAÇA SAO FRANCISCO 970ML",
-          "qt": 1,
-          "val": 21.9
-        }
-      ]
-    },
-    {
-      "numped": "476000205",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "RODRIGO LIMA - OFF TRADE",
-      "cliente": "STEFANI COMERCIO ATACADISTA DE BEBIDAS LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "obs": "",
-      "total": 505.7,
-      "itens": [
-        {
-          "desc": "RUM MONTILLA OURO 1L",
-          "qt": 26,
-          "val": 505.7
-        }
-      ]
-    },
-    {
-      "numped": "489000047",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "FERNANDO BERTIN - OFF TRADE",
-      "cliente": "DISTRIBUIDORA DE BEBIDAS CIDADE JARDIM LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "obs": "",
-      "total": 5641.8,
-      "itens": [
-        {
-          "desc": "WHISKY CHIVAS REGAL 18 ANOS 750ML",
-          "qt": 6,
-          "val": 1739.4
-        },
-        {
-          "desc": "WHISKY SINGLE MALT ARDBEG 10YO 750ML",
-          "qt": 6,
-          "val": 2327.4
-        },
-        {
-          "desc": "WHISKY ABERLOUR 12 ANOS 700ML",
-          "qt": 6,
-          "val": 1355.4
-        },
-        {
-          "desc": "VODKA ABSOLUT TABASCO 750ML",
-          "qt": 4,
-          "val": 219.6
+          "desc": "WHISKY J WALKER RED LABEL 750ML",
+          "qt": 12,
+          "val": 701.4
         }
       ]
     },
@@ -1356,33 +1562,6 @@ const PEDIDOS_DATA = {
       ]
     },
     {
-      "numped": "476000206",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "RODRIGO LIMA - OFF TRADE",
-      "cliente": "ADEGA E MERCEARIA CAPITAO LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "obs": "",
-      "total": 799.2,
-      "itens": [
-        {
-          "desc": "VODKA GREY GOOSE LE CITRON 750ML",
-          "qt": 2,
-          "val": 199.8
-        },
-        {
-          "desc": "WHISKY JACK DANIELS APPLE 1L - DEST",
-          "qt": 6,
-          "val": 599.4
-        }
-      ]
-    },
-    {
       "numped": "489000049",
       "numnota": "",
       "data": "15/07/2026",
@@ -1420,56 +1599,103 @@ const PEDIDOS_DATA = {
       ]
     },
     {
-      "numped": "327009426",
+      "numped": "344000499",
       "numnota": "",
       "data": "15/07/2026",
       "data_ord": "2026-07-15",
-      "nome": "JOÃO SANTOS - OFF TRADE",
-      "cliente": "EL MAI LTDA",
+      "nome": "TIAGO ANDRADE - OFF TRADE",
+      "cliente": "R. X. CLEMENTE",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "obs": "entrega depois de 13:30",
+      "total": 510.9,
+      "itens": [
+        {
+          "desc": "WHISKY JACK DANIELS 1L",
+          "qt": 1,
+          "val": 129.9
+        },
+        {
+          "desc": "APERITIVO APEROL 750 ML",
+          "qt": 4,
+          "val": 171.6
+        },
+        {
+          "desc": "CACHACA SELETA 600ML",
+          "qt": 6,
+          "val": 209.4
+        }
+      ]
+    },
+    {
+      "numped": "344000501",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "TIAGO ANDRADE - OFF TRADE",
+      "cliente": "DIAMOND FOODS LTDA",
       "sistema": "MGON",
       "estado": "MG",
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
       "obs": "",
-      "total": 1821.0,
+      "total": 434.38,
       "itens": [
         {
-          "desc": "VINHO ARESTI EST SEL CHARDONNAY 750ML",
-          "qt": 12,
-          "val": 550.8
+          "desc": "VODKA ABSOLUT - 1 LITRO",
+          "qt": 1,
+          "val": 74.9
         },
         {
-          "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-          "qt": 12,
-          "val": 922.8
+          "desc": "GIN BEEFEATER 750ML",
+          "qt": 1,
+          "val": 74.9
         },
         {
-          "desc": "VINHO MARQUÉS DE TEJARES 750ML",
-          "qt": 6,
-          "val": 347.4
+          "desc": "4 PACK RED BULL MELANCIA",
+          "qt": 2,
+          "val": 63.92
+        },
+        {
+          "desc": "VINHO ADELE ROSE 750ML",
+          "qt": 1,
+          "val": 76.9
+        },
+        {
+          "desc": "CERVEJA HEINEKEN  LONG ZERO 24X330ML",
+          "qt": 1,
+          "val": 143.76
         }
       ]
     },
     {
-      "numped": "327009427",
+      "numped": "344000503",
       "numnota": "",
       "data": "15/07/2026",
       "data_ord": "2026-07-15",
-      "nome": "JOÃO SANTOS - OFF TRADE",
-      "cliente": "LUC2 COMERCIO DE ALIMENTOS LTDA",
+      "nome": "TIAGO ANDRADE - OFF TRADE",
+      "cliente": "ESTACAO PARADA DO CARDOSO PIZZARIA E RESTAURANTE LTDA",
       "sistema": "MGON",
       "estado": "MG",
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
-      "obs": "restaurante tip top Savassi",
-      "total": 314.3,
+      "obs": "entrega de 13:30 as 16:00",
+      "total": 783.0,
       "itens": [
         {
-          "desc": "ESPUMANTE ALUD BRANCO 750ML",
-          "qt": 7,
-          "val": 314.3
+          "desc": "VINHO ARESTI EST SEL PINOT NOIR 750ML",
+          "qt": 6,
+          "val": 329.4
+        },
+        {
+          "desc": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
+          "qt": 24,
+          "val": 453.6
         }
       ]
     },
@@ -1496,24 +1722,24 @@ const PEDIDOS_DATA = {
       ]
     },
     {
-      "numped": "327009425",
+      "numped": "327009430",
       "numnota": "",
       "data": "15/07/2026",
       "data_ord": "2026-07-15",
       "nome": "JOÃO SANTOS - OFF TRADE",
-      "cliente": "SUSHINARA PREMIUM LTDA",
+      "cliente": "CULINARIA JAPAN GDA LTDA",
       "sistema": "MGON",
       "estado": "MG",
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
-      "obs": "restaurante dentro do shopping",
-      "total": 383.52,
+      "obs": "restaurante Nashy Savassi",
+      "total": 862.56,
       "itens": [
         {
-          "desc": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-          "qt": 2,
-          "val": 383.52
+          "desc": "CERVEJA HEINEKEN LONG 24X330ML",
+          "qt": 6,
+          "val": 862.56
         }
       ]
     },
@@ -1555,6 +1781,124 @@ const PEDIDOS_DATA = {
       ]
     },
     {
+      "numped": "344000502",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "TIAGO ANDRADE - OFF TRADE",
+      "cliente": "DOISMAISUM EMPREENDIMENTOS GASTRONOMICOS LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "obs": "",
+      "total": 624.3,
+      "itens": [
+        {
+          "desc": "APERITIVO APEROL 750 ML",
+          "qt": 4,
+          "val": 175.6
+        },
+        {
+          "desc": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "qt": 1,
+          "val": 122.0
+        },
+        {
+          "desc": "VERMUT ARG CARPANO ROSSO 950 ML",
+          "qt": 1,
+          "val": 116.9
+        },
+        {
+          "desc": "NIB BITTER 150ML",
+          "qt": 2,
+          "val": 209.8
+        }
+      ]
+    },
+    {
+      "numped": "327009429",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "JOÃO SANTOS - OFF TRADE",
+      "cliente": "CULINARIA JAPAN GDA LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "obs": "restaurante Nashy Getulio Vargas",
+      "total": 431.28,
+      "itens": [
+        {
+          "desc": "CERVEJA HEINEKEN LONG 24X330ML",
+          "qt": 3,
+          "val": 431.28
+        }
+      ]
+    },
+    {
+      "numped": "344000500",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "TIAGO ANDRADE - OFF TRADE",
+      "cliente": "VILLAGE FOODS LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "obs": "",
+      "total": 434.0,
+      "itens": [
+        {
+          "desc": "WHISKY JACK DANIELS 1L",
+          "qt": 1,
+          "val": 129.9
+        },
+        {
+          "desc": "GIN BEEFEATER 750ML",
+          "qt": 2,
+          "val": 149.8
+        },
+        {
+          "desc": "APERITIVO APEROL 750 ML",
+          "qt": 1,
+          "val": 44.5
+        },
+        {
+          "desc": "VINHO CAVAS DE ORO CABERNET SAUV 750ML",
+          "qt": 2,
+          "val": 109.8
+        }
+      ]
+    },
+    {
+      "numped": "360000358",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
+      "cliente": "SUPERMERCADO SUPER LUNA S.A",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "obs": "",
+      "total": 15016.32,
+      "itens": [
+        {
+          "desc": "GIN BEEFEATER 750ML",
+          "qt": 216,
+          "val": 15016.32
+        }
+      ]
+    },
+    {
       "numped": "327009424",
       "numnota": "",
       "data": "15/07/2026",
@@ -1583,210 +1927,6 @@ const PEDIDOS_DATA = {
           "desc": "RED BULL MELANCIA 24X250ML",
           "qt": 1,
           "val": 191.76
-        }
-      ]
-    },
-    {
-      "numped": "327009428",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "JOÃO SANTOS - OFF TRADE",
-      "cliente": "B.R.C. HAMBURGUERS EIRELI",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "obs": "",
-      "total": 322.8,
-      "itens": [
-        {
-          "desc": "ST PIERRE SUGAR FREE LT 270MLX6",
-          "qt": 4,
-          "val": 107.6
-        },
-        {
-          "desc": "ST PIERRE TONICA LT 270MLX6",
-          "qt": 4,
-          "val": 107.6
-        },
-        {
-          "desc": "ST PIERRE ZERO GREEN APPLE 310 ML",
-          "qt": 1,
-          "val": 26.9
-        },
-        {
-          "desc": "ST PIERRE ZERO PINK LEMON  310 ML",
-          "qt": 1,
-          "val": 26.9
-        },
-        {
-          "desc": "ST PIERRE ZERO TROPICAL  310 ML",
-          "qt": 1,
-          "val": 26.9
-        },
-        {
-          "desc": "ST PIERRE RED MINTL ZERO 310 ML",
-          "qt": 1,
-          "val": 26.9
-        }
-      ]
-    },
-    {
-      "numped": "388001177",
-      "numnota": "",
-      "data": "14/07/2026",
-      "data_ord": "2026-07-14",
-      "nome": "EUDES MORGAN - OFF TRADE",
-      "cliente": "SUPERMERCADOS CELEIRO LTDA",
-      "sistema": "CRC",
-      "estado": "ES",
-      "supervisor": "SUPERVISOR OFF - ES",
-      "gerente": "EROCLES OLIVEIRA",
-      "status_ped": "",
-      "obs": "Obrigatorio constar na Nota Fiscal o numero do pedido do cliente.",
-      "total": 1756.0,
-      "itens": [
-        {
-          "desc": "RC SARDINHA EM OLEO 50X125G",
-          "qt": 5,
-          "val": 1097.5
-        },
-        {
-          "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "qt": 3,
-          "val": 658.5
-        }
-      ]
-    },
-    {
-      "numped": "388001176",
-      "numnota": "",
-      "data": "14/07/2026",
-      "data_ord": "2026-07-14",
-      "nome": "EUDES MORGAN - OFF TRADE",
-      "cliente": "AUTO SERVICOS IDEAL LTDA",
-      "sistema": "CRC",
-      "estado": "ES",
-      "supervisor": "SUPERVISOR OFF - ES",
-      "gerente": "EROCLES OLIVEIRA",
-      "status_ped": "",
-      "obs": "",
-      "total": 658.5,
-      "itens": [
-        {
-          "desc": "RC SARDINHA EM OLEO 50X125G",
-          "qt": 2,
-          "val": 439.0
-        },
-        {
-          "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "qt": 1,
-          "val": 219.5
-        }
-      ]
-    },
-    {
-      "numped": "388001178",
-      "numnota": "",
-      "data": "14/07/2026",
-      "data_ord": "2026-07-14",
-      "nome": "EUDES MORGAN - OFF TRADE",
-      "cliente": "SUPERMERCADO FALQUETO LTDA",
-      "sistema": "CRC",
-      "estado": "ES",
-      "supervisor": "SUPERVISOR OFF - ES",
-      "gerente": "EROCLES OLIVEIRA",
-      "status_ped": "",
-      "obs": "",
-      "total": 658.5,
-      "itens": [
-        {
-          "desc": "RC SARDINHA EM OLEO 50X125G",
-          "qt": 3,
-          "val": 658.5
-        }
-      ]
-    },
-    {
-      "numped": "388001187",
-      "numnota": "",
-      "data": "14/07/2026",
-      "data_ord": "2026-07-14",
-      "nome": "EUDES MORGAN - OFF TRADE",
-      "cliente": "A L M SUPERMERCADOS LTDA",
-      "sistema": "CRC",
-      "estado": "ES",
-      "supervisor": "SUPERVISOR OFF - ES",
-      "gerente": "EROCLES OLIVEIRA",
-      "status_ped": "",
-      "obs": "",
-      "total": 2414.5,
-      "itens": [
-        {
-          "desc": "RC SARDINHA EM OLEO 50X125G",
-          "qt": 7,
-          "val": 1536.5
-        },
-        {
-          "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "qt": 4,
-          "val": 878.0
-        }
-      ]
-    },
-    {
-      "numped": "388001180",
-      "numnota": "",
-      "data": "14/07/2026",
-      "data_ord": "2026-07-14",
-      "nome": "EUDES MORGAN - OFF TRADE",
-      "cliente": "ECOREAL SUPERMERCADOS LTDA",
-      "sistema": "CRC",
-      "estado": "ES",
-      "supervisor": "SUPERVISOR OFF - ES",
-      "gerente": "EROCLES OLIVEIRA",
-      "status_ped": "",
-      "obs": "",
-      "total": 878.0,
-      "itens": [
-        {
-          "desc": "RC SARDINHA EM OLEO 50X125G",
-          "qt": 2,
-          "val": 439.0
-        },
-        {
-          "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "qt": 2,
-          "val": 439.0
-        }
-      ]
-    },
-    {
-      "numped": "388001186",
-      "numnota": "",
-      "data": "14/07/2026",
-      "data_ord": "2026-07-14",
-      "nome": "EUDES MORGAN - OFF TRADE",
-      "cliente": "SUPERMERCADOS NOROESTE LTDA",
-      "sistema": "CRC",
-      "estado": "ES",
-      "supervisor": "SUPERVISOR OFF - ES",
-      "gerente": "EROCLES OLIVEIRA",
-      "status_ped": "",
-      "obs": "",
-      "total": 3512.0,
-      "itens": [
-        {
-          "desc": "RC SARDINHA EM OLEO 50X125G",
-          "qt": 10,
-          "val": 2195.0
-        },
-        {
-          "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "qt": 6,
-          "val": 1317.0
         }
       ]
     },
@@ -1833,33 +1973,6 @@ const PEDIDOS_DATA = {
       ]
     },
     {
-      "numped": "388001184",
-      "numnota": "",
-      "data": "14/07/2026",
-      "data_ord": "2026-07-14",
-      "nome": "EUDES MORGAN - OFF TRADE",
-      "cliente": "IPAMAR COMERCIAL LTDA",
-      "sistema": "CRC",
-      "estado": "ES",
-      "supervisor": "SUPERVISOR OFF - ES",
-      "gerente": "EROCLES OLIVEIRA",
-      "status_ped": "",
-      "obs": "",
-      "total": 658.5,
-      "itens": [
-        {
-          "desc": "RC SARDINHA EM OLEO 50X125G",
-          "qt": 1,
-          "val": 219.5
-        },
-        {
-          "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "qt": 2,
-          "val": 439.0
-        }
-      ]
-    },
-    {
       "numped": "439000255",
       "numnota": "",
       "data": "14/07/2026",
@@ -1898,38 +2011,6 @@ const PEDIDOS_DATA = {
           "desc": "GIN ROCKS GREEN APPLE 1000ML",
           "qt": 6,
           "val": 135.0
-        }
-      ]
-    },
-    {
-      "numped": "388001179",
-      "numnota": "",
-      "data": "14/07/2026",
-      "data_ord": "2026-07-14",
-      "nome": "EUDES MORGAN - OFF TRADE",
-      "cliente": "COMERCIAL DEVENS LTDA",
-      "sistema": "CRC",
-      "estado": "ES",
-      "supervisor": "SUPERVISOR OFF - ES",
-      "gerente": "EROCLES OLIVEIRA",
-      "status_ped": "",
-      "obs": "",
-      "total": 1290.4,
-      "itens": [
-        {
-          "desc": "RC ATUM RALADO NATURAL 24X140G",
-          "qt": 2,
-          "val": 271.92
-        },
-        {
-          "desc": "RC ATUM RALADO OLEO 24X140G",
-          "qt": 2,
-          "val": 271.92
-        },
-        {
-          "desc": "RC ATUM SOLIDO OLEO 24X170G",
-          "qt": 4,
-          "val": 746.56
         }
       ]
     },
@@ -1977,33 +2058,6 @@ const PEDIDOS_DATA = {
           "desc": "NECTAR MISTO UVA E PERA 12X1000ML",
           "qt": 1,
           "val": 58.68
-        }
-      ]
-    },
-    {
-      "numped": "388001183",
-      "numnota": "",
-      "data": "14/07/2026",
-      "data_ord": "2026-07-14",
-      "nome": "EUDES MORGAN - OFF TRADE",
-      "cliente": "ALIANCA MERCANTIL LTDA",
-      "sistema": "CRC",
-      "estado": "ES",
-      "supervisor": "SUPERVISOR OFF - ES",
-      "gerente": "EROCLES OLIVEIRA",
-      "status_ped": "",
-      "obs": "",
-      "total": 439.0,
-      "itens": [
-        {
-          "desc": "RC SARDINHA EM OLEO 50X125G",
-          "qt": 1,
-          "val": 219.5
-        },
-        {
-          "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "qt": 1,
-          "val": 219.5
         }
       ]
     },
@@ -2072,60 +2126,6 @@ const PEDIDOS_DATA = {
       ]
     },
     {
-      "numped": "388001185",
-      "numnota": "",
-      "data": "14/07/2026",
-      "data_ord": "2026-07-14",
-      "nome": "EUDES MORGAN - OFF TRADE",
-      "cliente": "SUPERMERCADOS CELEIRO LTDA",
-      "sistema": "CRC",
-      "estado": "ES",
-      "supervisor": "SUPERVISOR OFF - ES",
-      "gerente": "EROCLES OLIVEIRA",
-      "status_ped": "",
-      "obs": "",
-      "total": 1975.5,
-      "itens": [
-        {
-          "desc": "RC SARDINHA EM OLEO 50X125G",
-          "qt": 5,
-          "val": 1097.5
-        },
-        {
-          "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "qt": 4,
-          "val": 878.0
-        }
-      ]
-    },
-    {
-      "numped": "388001182",
-      "numnota": "",
-      "data": "14/07/2026",
-      "data_ord": "2026-07-14",
-      "nome": "EUDES MORGAN - OFF TRADE",
-      "cliente": "ALIANCA MERCANTIL LTDA",
-      "sistema": "CRC",
-      "estado": "ES",
-      "supervisor": "SUPERVISOR OFF - ES",
-      "gerente": "EROCLES OLIVEIRA",
-      "status_ped": "",
-      "obs": "",
-      "total": 439.0,
-      "itens": [
-        {
-          "desc": "RC SARDINHA EM OLEO 50X125G",
-          "qt": 1,
-          "val": 219.5
-        },
-        {
-          "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "qt": 1,
-          "val": 219.5
-        }
-      ]
-    },
-    {
       "numped": "439000251",
       "numnota": "",
       "data": "14/07/2026",
@@ -2154,33 +2154,6 @@ const PEDIDOS_DATA = {
           "desc": "CACHACA TATUZINHO PET 750 ML",
           "qt": 60,
           "val": 239.4
-        }
-      ]
-    },
-    {
-      "numped": "388001181",
-      "numnota": "",
-      "data": "14/07/2026",
-      "data_ord": "2026-07-14",
-      "nome": "EUDES MORGAN - OFF TRADE",
-      "cliente": "SUPERMERCADO R.D.E. LTDA",
-      "sistema": "CRC",
-      "estado": "ES",
-      "supervisor": "SUPERVISOR OFF - ES",
-      "gerente": "EROCLES OLIVEIRA",
-      "status_ped": "",
-      "obs": "",
-      "total": 2195.0,
-      "itens": [
-        {
-          "desc": "RC SARDINHA EM OLEO 50X125G",
-          "qt": 5,
-          "val": 1097.5
-        },
-        {
-          "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "qt": 5,
-          "val": 1097.5
         }
       ]
     },
@@ -2257,70 +2230,6 @@ const PEDIDOS_DATA = {
           "desc": "WHISKY PASSPORT 1L",
           "qt": 12,
           "val": 394.8
-        }
-      ]
-    },
-    {
-      "numped": "486000082",
-      "numnota": "",
-      "data": "14/07/2026",
-      "data_ord": "2026-07-14",
-      "nome": "LEONARDO FLOREZI - OFF TRADE",
-      "cliente": "SUPERMERCADO OLGUIM LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "obs": "",
-      "total": 419.4,
-      "itens": [
-        {
-          "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-          "qt": 6,
-          "val": 419.4
-        }
-      ]
-    },
-    {
-      "numped": "463000048",
-      "numnota": "",
-      "data": "14/07/2026",
-      "data_ord": "2026-07-14",
-      "nome": "ROBERTO DOS SANTOS - OFF TRADE",
-      "cliente": "SUPERMERCADO RIMAR LIMITADA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "obs": "",
-      "total": 471.18,
-      "itens": [
-        {
-          "desc": "RUM MONTILLA CARTA BRANCA 1L",
-          "qt": 3,
-          "val": 58.35
-        },
-        {
-          "desc": "RUM MONTILLA OURO 1L",
-          "qt": 3,
-          "val": 58.35
-        },
-        {
-          "desc": "GIN ROCKS 1LT",
-          "qt": 6,
-          "val": 123.3
-        },
-        {
-          "desc": "GIN ROCKS STRAWBERRY 1LT",
-          "qt": 6,
-          "val": 123.3
-        },
-        {
-          "desc": "VINHO DOM BOSCO TINTO SECO 750ML",
-          "qt": 12,
-          "val": 107.88
         }
       ]
     },
@@ -3407,6 +3316,1064 @@ const PEDIDOS_DATA = {
   ],
   "faturados": [
     {
+      "numped": "275000624",
+      "numnota": "6698",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "MARIA LUIZA - OFF TRADE",
+      "cliente": "DOM ATACAREJO S.A.",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "obs": "ENTREGA AGENDADA AMANHÃ 16/07",
+      "total": 5141.64,
+      "itens": [
+        {
+          "desc": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 12,
+          "val": 1015.92
+        },
+        {
+          "desc": "VILLA ROSA TINTO 750ML",
+          "qt": 60,
+          "val": 1734.0
+        },
+        {
+          "desc": "VILLA ROSA  ROSE 750ML",
+          "qt": 36,
+          "val": 1040.4
+        },
+        {
+          "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "qt": 6,
+          "val": 335.4
+        },
+        {
+          "desc": "WHISKY JIM BEAM BLACK CHERRY 1L",
+          "qt": 12,
+          "val": 1015.92
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "153001303",
+      "numnota": "412256",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "ANGELO NEVES SUZART - OFF TRADE",
+      "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "obs": "",
+      "total": 2374.08,
+      "itens": [
+        {
+          "desc": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
+          "qt": 1,
+          "val": 202.8
+        },
+        {
+          "desc": "RC SARDINHA EM OLEO 50X125G",
+          "qt": 5,
+          "val": 997.5
+        },
+        {
+          "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "qt": 3,
+          "val": 598.5
+        },
+        {
+          "desc": "RC ATUM RALADO NATURAL 24X140G",
+          "qt": 1,
+          "val": 191.76
+        },
+        {
+          "desc": "RC ATUM SOLIDO OLEO 24X170G",
+          "qt": 1,
+          "val": 191.76
+        },
+        {
+          "desc": "RC ATUM PEDACOS NATURAL 24X140G",
+          "qt": 1,
+          "val": 191.76
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "370001399",
+      "numnota": "42893",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "FRANZ BENEVIDES - OFF TRADE",
+      "cliente": "CHURRASCARIA E RESTAURANTE NOVA GAUCHAO LTDA",
+      "sistema": "CRC",
+      "estado": "ES",
+      "supervisor": "SUPERVISOR HIBRIDO ES",
+      "gerente": "EROCLES OLIVEIRA",
+      "status_ped": "",
+      "obs": "",
+      "total": 29.16,
+      "itens": [
+        {
+          "desc": "4 PACK RED BULL SF NECTARINA 4X250ML",
+          "qt": 1,
+          "val": 29.16
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "370001400",
+      "numnota": "42892",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "FRANZ BENEVIDES - OFF TRADE",
+      "cliente": "TERRAZZO DEI NONNI LTDA",
+      "sistema": "CRC",
+      "estado": "ES",
+      "supervisor": "SUPERVISOR HIBRIDO ES",
+      "gerente": "EROCLES OLIVEIRA",
+      "status_ped": "",
+      "obs": "",
+      "total": 29.16,
+      "itens": [
+        {
+          "desc": "4 PACK RED BULL",
+          "qt": 1,
+          "val": 29.16
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "508000014",
+      "numnota": "42880",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "MARCELO DE SOUZA - OFF TRADE",
+      "cliente": "SANTOS IMPORTACAO E INTERMEDIACAO DE NEGOCIOS LTDA",
+      "sistema": "CRC",
+      "estado": "ES",
+      "supervisor": "SUPERVISOR OFF - ES",
+      "gerente": "EROCLES OLIVEIRA",
+      "status_ped": "",
+      "obs": "",
+      "total": 77656.32,
+      "itens": [
+        {
+          "desc": "RED BULL 24X250ML",
+          "qt": 288,
+          "val": 51770.88
+        },
+        {
+          "desc": "RED BULL TROPICAL 24X250ML",
+          "qt": 144,
+          "val": 25885.44
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "378000499",
+      "numnota": "412265",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "FABIO VALOTTI - OFF TRADE",
+      "cliente": "PAIS E FILHOS LANCHONETE E RESTAURANTE EIRELI",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "obs": "",
+      "total": 303.36,
+      "itens": [
+        {
+          "desc": "4 PACK RED BULL",
+          "qt": 2,
+          "val": 59.92
+        },
+        {
+          "desc": "AGUA MINERAL MAMBA WATER C/ GAS - 24X350",
+          "qt": 2,
+          "val": 123.6
+        },
+        {
+          "desc": "4 PACK RED BULL ZERO",
+          "qt": 4,
+          "val": 119.84
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "275000628",
+      "numnota": "880550",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "MARIA LUIZA - OFF TRADE",
+      "cliente": "DOM ATACAREJO S.A.",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "obs": "ENTREGA AGENDADA PARA 16/07",
+      "total": 1756.8,
+      "itens": [
+        {
+          "desc": "VILLA ROSA TINTO 750ML",
+          "qt": 30,
+          "val": 867.0
+        },
+        {
+          "desc": "VILLA ROSA  ROSE 750ML",
+          "qt": 24,
+          "val": 693.6
+        },
+        {
+          "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "qt": 6,
+          "val": 196.2
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "461000128",
+      "numnota": "178827",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "SUELY SANTOS - OFF TRADE",
+      "cliente": "TALITA APARECIDA TISO 36267755851",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "obs": "",
+      "total": 999.0,
+      "itens": [
+        {
+          "desc": "WHISKY JACK DANIELS 1L",
+          "qt": 10,
+          "val": 999.0
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "391000206",
+      "numnota": "178802",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "ANDRE SILVA - OFF TRADE",
+      "cliente": "SUPERMERCADO DA FREGUESIA LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "obs": "",
+      "total": 4136.4,
+      "itens": [
+        {
+          "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+          "qt": 15,
+          "val": 4136.4
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "433000173",
+      "numnota": "178806",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "MANUELA ZAPPACOSTA - OFF TRADE",
+      "cliente": "JEWINE COMERCIAL LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "obs": "",
+      "total": 8575.2,
+      "itens": [
+        {
+          "desc": "VODKA ABSOLUT 1L",
+          "qt": 144,
+          "val": 7257.6
+        },
+        {
+          "desc": "VODKA ABSOLUT TABASCO 750ML",
+          "qt": 24,
+          "val": 1317.6
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "433000174",
+      "numnota": "178807",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "MANUELA ZAPPACOSTA - OFF TRADE",
+      "cliente": "CDB DISTRIBUIDORA DE BEBIDAS E ALIMENTOS LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "obs": "",
+      "total": 3228.0,
+      "itens": [
+        {
+          "desc": "CONHAQUE DOMECQ 1L",
+          "qt": 120,
+          "val": 3228.0
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "468000095",
+      "numnota": "178810",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "RENATO JUNIOR - OFF TRADE",
+      "cliente": "TROSTOLF COMERCIO ATACADISTA LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "obs": "",
+      "total": 23616.0,
+      "itens": [
+        {
+          "desc": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "qt": 2880,
+          "val": 23616.0
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "491000012",
+      "numnota": "6600",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "GILSON DE OLIVEIRA - OFF TRADE",
+      "cliente": "SUPERMERCADO PEGORIN LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "obs": "",
+      "total": 1329.72,
+      "itens": [
+        {
+          "desc": "WHISKY PASSPORT 1L",
+          "qt": 12,
+          "val": 394.8
+        },
+        {
+          "desc": "TEQUILA J CUERVO GOLD 750ML",
+          "qt": 6,
+          "val": 503.4
+        },
+        {
+          "desc": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "qt": 48,
+          "val": 431.52
+        }
+      ],
+      "status_log": "ENTREGUE"
+    },
+    {
+      "numped": "588003046",
+      "numnota": "178812",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "W.S",
+      "cliente": "DISTRIB DE BEBIDAS MARLENE LT",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "obs": "",
+      "total": 5835.0,
+      "itens": [
+        {
+          "desc": "RUM MONTILLA CARTA BRANCA 1L",
+          "qt": 180,
+          "val": 3501.0
+        },
+        {
+          "desc": "RUM MONTILLA OURO 1L",
+          "qt": 120,
+          "val": 2334.0
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "588003047",
+      "numnota": "178826",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "W.S",
+      "cliente": "HELENA ALVES DA SILVA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "obs": "",
+      "total": 1167.0,
+      "itens": [
+        {
+          "desc": "RUM MONTILLA OURO 1L",
+          "qt": 60,
+          "val": 1167.0
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "588003048",
+      "numnota": "178821",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "W.S",
+      "cliente": "ADEGA ISA VITORIA LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "obs": "",
+      "total": 11988.0,
+      "itens": [
+        {
+          "desc": "WHISKY JACK DANIELS 1L",
+          "qt": 120,
+          "val": 11988.0
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "588003049",
+      "numnota": "178794",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "W.S",
+      "cliente": "DISTRIBUIDORA DO ALEMAO MIRIZOLA LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "obs": "",
+      "total": 11988.0,
+      "itens": [
+        {
+          "desc": "WHISKY JACK DANIELS 1L",
+          "qt": 120,
+          "val": 11988.0
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "588003050",
+      "numnota": "178829",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "W.S",
+      "cliente": "MATEUS COSTA DE OLIVEIRA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "obs": "",
+      "total": 3493.8,
+      "itens": [
+        {
+          "desc": "GIN BEEFEATER 750ML",
+          "qt": 12,
+          "val": 718.8
+        },
+        {
+          "desc": "JACK DANIELS BLACKBERRY 1L",
+          "qt": 12,
+          "val": 2158.8
+        },
+        {
+          "desc": "GIN ROCKS WATERMELON 1LT",
+          "qt": 30,
+          "val": 616.2
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "588003052",
+      "numnota": "178823",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "W.S",
+      "cliente": "BARRETO CENTRAL DE ALIMENTOS E BEBIDAS LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "obs": "",
+      "total": 11202.6,
+      "itens": [
+        {
+          "desc": "VODKA GREY GOOSE LE CITRON 750ML",
+          "qt": 30,
+          "val": 2997.0
+        },
+        {
+          "desc": "VODKA ABSOLUT RASPBERRY - 750ML",
+          "qt": 60,
+          "val": 3294.0
+        },
+        {
+          "desc": "VODKA ABSOLUT TOMORROWLAND 700ML",
+          "qt": 60,
+          "val": 3594.0
+        },
+        {
+          "desc": "VODKA ABSOLUT TABASCO 750ML",
+          "qt": 24,
+          "val": 1317.6
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "588003056",
+      "numnota": "178828",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "W.S",
+      "cliente": "SANTA VITTA GASTROBAR LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "obs": "",
+      "total": 1078.8,
+      "itens": [
+        {
+          "desc": "LICOR COINTREAU 700 ML",
+          "qt": 12,
+          "val": 1078.8
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "474000045",
+      "numnota": "6592",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "FRANCIS SILVA - OFF TRADE",
+      "cliente": "JOANA FRANCISCO DE OLIVEIRA TOMAZ 19043092835",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "obs": "",
+      "total": 171.7,
+      "itens": [
+        {
+          "desc": "WHISKY JACK DANIELS 1L",
+          "qt": 1,
+          "val": 99.9
+        },
+        {
+          "desc": "APERITIVO CAMPARI 998ML",
+          "qt": 1,
+          "val": 49.9
+        },
+        {
+          "desc": "CACHAÇA SAO FRANCISCO 970ML",
+          "qt": 1,
+          "val": 21.9
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "474000046",
+      "numnota": "178798",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "FRANCIS SILVA - OFF TRADE",
+      "cliente": "ANDERSON SILVA NASCIMENTO",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "obs": "",
+      "total": 1078.2,
+      "itens": [
+        {
+          "desc": "GIN BEEFEATER 750ML",
+          "qt": 12,
+          "val": 718.8
+        },
+        {
+          "desc": "GIN GORDONS 750 ML",
+          "qt": 6,
+          "val": 359.4
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "474000047",
+      "numnota": "6593",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "FRANCIS SILVA - OFF TRADE",
+      "cliente": "SBO VISTA ALEGRE SUPERMERCADO LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "obs": "",
+      "total": 394.8,
+      "itens": [
+        {
+          "desc": "WHISKY PASSPORT 1L",
+          "qt": 12,
+          "val": 394.8
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "476000205",
+      "numnota": "6596",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "RODRIGO LIMA - OFF TRADE",
+      "cliente": "STEFANI COMERCIO ATACADISTA DE BEBIDAS LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "obs": "",
+      "total": 505.7,
+      "itens": [
+        {
+          "desc": "RUM MONTILLA OURO 1L",
+          "qt": 26,
+          "val": 505.7
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "476000206",
+      "numnota": "6597",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "RODRIGO LIMA - OFF TRADE",
+      "cliente": "ADEGA E MERCEARIA CAPITAO LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "obs": "",
+      "total": 199.8,
+      "itens": [
+        {
+          "desc": "VODKA GREY GOOSE LE CITRON 750ML",
+          "qt": 2,
+          "val": 199.8
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "477000054",
+      "numnota": "6598",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "LUCIANO TOSCHI - OFF TRADE",
+      "cliente": "GIULIANO APARECIDO VITORINO TEIXEIRA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "obs": "",
+      "total": 543.4,
+      "itens": [
+        {
+          "desc": "APERITIVO CAMPARI 998ML",
+          "qt": 1,
+          "val": 49.9
+        },
+        {
+          "desc": "WHISKY PASSPORT APPLE 670ML",
+          "qt": 15,
+          "val": 493.5
+        }
+      ],
+      "status_log": "ENTREGUE"
+    },
+    {
+      "numped": "477000055",
+      "numnota": "6602",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "LUCIANO TOSCHI - OFF TRADE",
+      "cliente": "ELIAS DIAS RAMOS & CIA LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "obs": "",
+      "total": 643.2,
+      "itens": [
+        {
+          "desc": "WHISKY JACK DANIELS 1L",
+          "qt": 3,
+          "val": 299.7
+        },
+        {
+          "desc": "CONHAQUE DREHER 900ML",
+          "qt": 12,
+          "val": 202.8
+        },
+        {
+          "desc": "WHISKY BALLANTINE S FINEST 750ML",
+          "qt": 3,
+          "val": 140.7
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "477000056",
+      "numnota": "6601",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "LUCIANO TOSCHI - OFF TRADE",
+      "cliente": "JAIME LARA CAMARGO FILHO MERCADO",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "obs": "",
+      "total": 637.26,
+      "itens": [
+        {
+          "desc": "RUM BACARDI GOLD 980ML",
+          "qt": 6,
+          "val": 224.1
+        },
+        {
+          "desc": "WHISKY PASSPORT HONEY 670ML",
+          "qt": 6,
+          "val": 197.4
+        },
+        {
+          "desc": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "qt": 24,
+          "val": 215.76
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "486000083",
+      "numnota": "6588",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "LEONARDO FLOREZI - OFF TRADE",
+      "cliente": "SUP BRASIL",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "obs": "",
+      "total": 1462.44,
+      "itens": [
+        {
+          "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+          "qt": 1,
+          "val": 275.76
+        },
+        {
+          "desc": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "qt": 120,
+          "val": 1078.8
+        },
+        {
+          "desc": "VINHO DOM BOSCO TINTO SECO 750ML",
+          "qt": 12,
+          "val": 107.88
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "489000047",
+      "numnota": "6594",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "FERNANDO BERTIN - OFF TRADE",
+      "cliente": "DISTRIBUIDORA DE BEBIDAS CIDADE JARDIM LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "obs": "",
+      "total": 5641.8,
+      "itens": [
+        {
+          "desc": "WHISKY CHIVAS REGAL 18 ANOS 750ML",
+          "qt": 6,
+          "val": 1739.4
+        },
+        {
+          "desc": "WHISKY SINGLE MALT ARDBEG 10YO 750ML",
+          "qt": 6,
+          "val": 2327.4
+        },
+        {
+          "desc": "WHISKY ABERLOUR 12 ANOS 700ML",
+          "qt": 6,
+          "val": 1355.4
+        },
+        {
+          "desc": "VODKA ABSOLUT TABASCO 750ML",
+          "qt": 4,
+          "val": 219.6
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "489000048",
+      "numnota": "6595",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "FERNANDO BERTIN - OFF TRADE",
+      "cliente": "COMERCIAL ANDREOZI LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "obs": "",
+      "total": 883.8,
+      "itens": [
+        {
+          "desc": "WHISKY JACK DANIELS 1L",
+          "qt": 3,
+          "val": 299.7
+        },
+        {
+          "desc": "WHISKY BALLANTINE S FINEST 1L",
+          "qt": 3,
+          "val": 158.7
+        },
+        {
+          "desc": "TEQUILA J CUERVO GOLD 750ML",
+          "qt": 3,
+          "val": 251.7
+        },
+        {
+          "desc": "WHISKY JAMESON 750ML",
+          "qt": 3,
+          "val": 173.7
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "391000207",
+      "numnota": "178801",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "ANDRE SILVA - OFF TRADE",
+      "cliente": "SUPERMERCADO DA FREGUESIA LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "obs": "",
+      "total": 551.52,
+      "itens": [
+        {
+          "desc": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+          "qt": 2,
+          "val": 551.52
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "327009425",
+      "numnota": "125131",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "JOÃO SANTOS - OFF TRADE",
+      "cliente": "SUSHINARA PREMIUM LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "obs": "restaurante dentro do shopping",
+      "total": 383.52,
+      "itens": [
+        {
+          "desc": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "qt": 2,
+          "val": 383.52
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "327009426",
+      "numnota": "125132",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "JOÃO SANTOS - OFF TRADE",
+      "cliente": "EL MAI LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "obs": "",
+      "total": 1821.0,
+      "itens": [
+        {
+          "desc": "VINHO ARESTI EST SEL CHARDONNAY 750ML",
+          "qt": 12,
+          "val": 550.8
+        },
+        {
+          "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "qt": 12,
+          "val": 922.8
+        },
+        {
+          "desc": "VINHO MARQUÉS DE TEJARES 750ML",
+          "qt": 6,
+          "val": 347.4
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "327009427",
+      "numnota": "125133",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "JOÃO SANTOS - OFF TRADE",
+      "cliente": "LUC2 COMERCIO DE ALIMENTOS LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "obs": "restaurante tip top Savassi",
+      "total": 314.3,
+      "itens": [
+        {
+          "desc": "ESPUMANTE ALUD BRANCO 750ML",
+          "qt": 7,
+          "val": 314.3
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "327009428",
+      "numnota": "125134",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "JOÃO SANTOS - OFF TRADE",
+      "cliente": "B.R.C. HAMBURGUERS EIRELI",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "obs": "",
+      "total": 322.8,
+      "itens": [
+        {
+          "desc": "ST PIERRE SUGAR FREE LT 270MLX6",
+          "qt": 4,
+          "val": 107.6
+        },
+        {
+          "desc": "ST PIERRE TONICA LT 270MLX6",
+          "qt": 4,
+          "val": 107.6
+        },
+        {
+          "desc": "ST PIERRE ZERO GREEN APPLE 310 ML",
+          "qt": 1,
+          "val": 26.9
+        },
+        {
+          "desc": "ST PIERRE ZERO PINK LEMON  310 ML",
+          "qt": 1,
+          "val": 26.9
+        },
+        {
+          "desc": "ST PIERRE ZERO TROPICAL  310 ML",
+          "qt": 1,
+          "val": 26.9
+        },
+        {
+          "desc": "ST PIERRE RED MINTL ZERO 310 ML",
+          "qt": 1,
+          "val": 26.9
+        }
+      ],
+      "status_log": ""
+    },
+    {
       "numped": "344000497",
       "numnota": "125096",
       "data": "15/07/2026",
@@ -4019,54 +4986,337 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
-      "numped": "153001299",
-      "numnota": "412216",
+      "numped": "388001176",
+      "numnota": "42889",
       "data": "14/07/2026",
       "data_ord": "2026-07-14",
-      "nome": "ANGELO NEVES SUZART - OFF TRADE",
-      "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
+      "nome": "EUDES MORGAN - OFF TRADE",
+      "cliente": "AUTO SERVICOS IDEAL LTDA",
       "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
+      "estado": "ES",
+      "supervisor": "SUPERVISOR OFF - ES",
+      "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
       "obs": "",
-      "total": 2576.88,
+      "total": 658.5,
       "itens": [
         {
-          "desc": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
-          "qt": 1,
-          "val": 202.8
+          "desc": "RC SARDINHA EM OLEO 50X125G",
+          "qt": 2,
+          "val": 439.0
         },
         {
-          "desc": "MOLHO TABASCO GREEN PEPPER SAUCE 12X60ML",
+          "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
           "qt": 1,
-          "val": 202.8
-        },
+          "val": 219.5
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "388001177",
+      "numnota": "42888",
+      "data": "14/07/2026",
+      "data_ord": "2026-07-14",
+      "nome": "EUDES MORGAN - OFF TRADE",
+      "cliente": "SUPERMERCADOS CELEIRO LTDA",
+      "sistema": "CRC",
+      "estado": "ES",
+      "supervisor": "SUPERVISOR OFF - ES",
+      "gerente": "EROCLES OLIVEIRA",
+      "status_ped": "",
+      "obs": "Obrigatorio constar na Nota Fiscal o numero do pedido do cliente.",
+      "total": 1756.0,
+      "itens": [
         {
           "desc": "RC SARDINHA EM OLEO 50X125G",
           "qt": 5,
-          "val": 997.5
+          "val": 1097.5
         },
         {
           "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
           "qt": 3,
-          "val": 598.5
-        },
+          "val": 658.5
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "388001178",
+      "numnota": "42886",
+      "data": "14/07/2026",
+      "data_ord": "2026-07-14",
+      "nome": "EUDES MORGAN - OFF TRADE",
+      "cliente": "SUPERMERCADO FALQUETO LTDA",
+      "sistema": "CRC",
+      "estado": "ES",
+      "supervisor": "SUPERVISOR OFF - ES",
+      "gerente": "EROCLES OLIVEIRA",
+      "status_ped": "",
+      "obs": "",
+      "total": 658.5,
+      "itens": [
+        {
+          "desc": "RC SARDINHA EM OLEO 50X125G",
+          "qt": 3,
+          "val": 658.5
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "388001179",
+      "numnota": "42891",
+      "data": "14/07/2026",
+      "data_ord": "2026-07-14",
+      "nome": "EUDES MORGAN - OFF TRADE",
+      "cliente": "COMERCIAL DEVENS LTDA",
+      "sistema": "CRC",
+      "estado": "ES",
+      "supervisor": "SUPERVISOR OFF - ES",
+      "gerente": "EROCLES OLIVEIRA",
+      "status_ped": "",
+      "obs": "",
+      "total": 1290.4,
+      "itens": [
         {
           "desc": "RC ATUM RALADO NATURAL 24X140G",
-          "qt": 1,
-          "val": 191.76
+          "qt": 2,
+          "val": 271.92
+        },
+        {
+          "desc": "RC ATUM RALADO OLEO 24X140G",
+          "qt": 2,
+          "val": 271.92
         },
         {
           "desc": "RC ATUM SOLIDO OLEO 24X170G",
-          "qt": 1,
-          "val": 191.76
+          "qt": 4,
+          "val": 746.56
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "388001180",
+      "numnota": "42895",
+      "data": "14/07/2026",
+      "data_ord": "2026-07-14",
+      "nome": "EUDES MORGAN - OFF TRADE",
+      "cliente": "ECOREAL SUPERMERCADOS LTDA",
+      "sistema": "CRC",
+      "estado": "ES",
+      "supervisor": "SUPERVISOR OFF - ES",
+      "gerente": "EROCLES OLIVEIRA",
+      "status_ped": "",
+      "obs": "",
+      "total": 878.0,
+      "itens": [
+        {
+          "desc": "RC SARDINHA EM OLEO 50X125G",
+          "qt": 2,
+          "val": 439.0
         },
         {
-          "desc": "RC ATUM PEDACOS NATURAL 24X140G",
+          "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "qt": 2,
+          "val": 439.0
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "388001181",
+      "numnota": "42884",
+      "data": "14/07/2026",
+      "data_ord": "2026-07-14",
+      "nome": "EUDES MORGAN - OFF TRADE",
+      "cliente": "SUPERMERCADO R.D.E. LTDA",
+      "sistema": "CRC",
+      "estado": "ES",
+      "supervisor": "SUPERVISOR OFF - ES",
+      "gerente": "EROCLES OLIVEIRA",
+      "status_ped": "",
+      "obs": "",
+      "total": 2195.0,
+      "itens": [
+        {
+          "desc": "RC SARDINHA EM OLEO 50X125G",
+          "qt": 5,
+          "val": 1097.5
+        },
+        {
+          "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "qt": 5,
+          "val": 1097.5
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "388001182",
+      "numnota": "42881",
+      "data": "14/07/2026",
+      "data_ord": "2026-07-14",
+      "nome": "EUDES MORGAN - OFF TRADE",
+      "cliente": "ALIANCA MERCANTIL LTDA",
+      "sistema": "CRC",
+      "estado": "ES",
+      "supervisor": "SUPERVISOR OFF - ES",
+      "gerente": "EROCLES OLIVEIRA",
+      "status_ped": "",
+      "obs": "",
+      "total": 439.0,
+      "itens": [
+        {
+          "desc": "RC SARDINHA EM OLEO 50X125G",
           "qt": 1,
-          "val": 191.76
+          "val": 219.5
+        },
+        {
+          "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "qt": 1,
+          "val": 219.5
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "388001183",
+      "numnota": "42882",
+      "data": "14/07/2026",
+      "data_ord": "2026-07-14",
+      "nome": "EUDES MORGAN - OFF TRADE",
+      "cliente": "ALIANCA MERCANTIL LTDA",
+      "sistema": "CRC",
+      "estado": "ES",
+      "supervisor": "SUPERVISOR OFF - ES",
+      "gerente": "EROCLES OLIVEIRA",
+      "status_ped": "",
+      "obs": "",
+      "total": 439.0,
+      "itens": [
+        {
+          "desc": "RC SARDINHA EM OLEO 50X125G",
+          "qt": 1,
+          "val": 219.5
+        },
+        {
+          "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "qt": 1,
+          "val": 219.5
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "388001184",
+      "numnota": "42894",
+      "data": "14/07/2026",
+      "data_ord": "2026-07-14",
+      "nome": "EUDES MORGAN - OFF TRADE",
+      "cliente": "IPAMAR COMERCIAL LTDA",
+      "sistema": "CRC",
+      "estado": "ES",
+      "supervisor": "SUPERVISOR OFF - ES",
+      "gerente": "EROCLES OLIVEIRA",
+      "status_ped": "",
+      "obs": "",
+      "total": 658.5,
+      "itens": [
+        {
+          "desc": "RC SARDINHA EM OLEO 50X125G",
+          "qt": 1,
+          "val": 219.5
+        },
+        {
+          "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "qt": 2,
+          "val": 439.0
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "388001185",
+      "numnota": "42890",
+      "data": "14/07/2026",
+      "data_ord": "2026-07-14",
+      "nome": "EUDES MORGAN - OFF TRADE",
+      "cliente": "SUPERMERCADOS CELEIRO LTDA",
+      "sistema": "CRC",
+      "estado": "ES",
+      "supervisor": "SUPERVISOR OFF - ES",
+      "gerente": "EROCLES OLIVEIRA",
+      "status_ped": "",
+      "obs": "",
+      "total": 1975.5,
+      "itens": [
+        {
+          "desc": "RC SARDINHA EM OLEO 50X125G",
+          "qt": 5,
+          "val": 1097.5
+        },
+        {
+          "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "qt": 4,
+          "val": 878.0
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "388001186",
+      "numnota": "42883",
+      "data": "14/07/2026",
+      "data_ord": "2026-07-14",
+      "nome": "EUDES MORGAN - OFF TRADE",
+      "cliente": "SUPERMERCADOS NOROESTE LTDA",
+      "sistema": "CRC",
+      "estado": "ES",
+      "supervisor": "SUPERVISOR OFF - ES",
+      "gerente": "EROCLES OLIVEIRA",
+      "status_ped": "",
+      "obs": "",
+      "total": 3512.0,
+      "itens": [
+        {
+          "desc": "RC SARDINHA EM OLEO 50X125G",
+          "qt": 10,
+          "val": 2195.0
+        },
+        {
+          "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "qt": 6,
+          "val": 1317.0
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "388001187",
+      "numnota": "42885",
+      "data": "14/07/2026",
+      "data_ord": "2026-07-14",
+      "nome": "EUDES MORGAN - OFF TRADE",
+      "cliente": "A L M SUPERMERCADOS LTDA",
+      "sistema": "CRC",
+      "estado": "ES",
+      "supervisor": "SUPERVISOR OFF - ES",
+      "gerente": "EROCLES OLIVEIRA",
+      "status_ped": "",
+      "obs": "",
+      "total": 2414.5,
+      "itens": [
+        {
+          "desc": "RC SARDINHA EM OLEO 50X125G",
+          "qt": 7,
+          "val": 1536.5
+        },
+        {
+          "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "qt": 4,
+          "val": 878.0
         }
       ],
       "status_log": ""
@@ -4692,49 +5942,6 @@ const PEDIDOS_DATA = {
           "desc": "WHISKY ROYAL SALUTE 700ML",
           "qt": 2,
           "val": 1399.8
-        }
-      ],
-      "status_log": ""
-    },
-    {
-      "numped": "156003707",
-      "numnota": "412123",
-      "data": "14/07/2026",
-      "data_ord": "2026-07-14",
-      "nome": "MARILENA TRAGEL - OFF TRADE",
-      "cliente": "AUTO SERVICO PRIMEIRO DO BRASIL LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "obs": "",
-      "total": 426.5,
-      "itens": [
-        {
-          "desc": "VODCA SMIRNOFF RED 998 ML",
-          "qt": 1,
-          "val": 27.9
-        },
-        {
-          "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
-          "qt": 1,
-          "val": 139.9
-        },
-        {
-          "desc": "WHISKY J WALKER RED LABEL 1L",
-          "qt": 2,
-          "val": 153.8
-        },
-        {
-          "desc": "GIN GORDONS 750 ML",
-          "qt": 1,
-          "val": 59.9
-        },
-        {
-          "desc": "VODKA SMIRNOFF 600 ML",
-          "qt": 2,
-          "val": 45.0
         }
       ],
       "status_log": ""
@@ -5553,54 +6760,6 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
-      "numped": "378000496",
-      "numnota": "412071",
-      "data": "14/07/2026",
-      "data_ord": "2026-07-14",
-      "nome": "FABIO VALOTTI - OFF TRADE",
-      "cliente": "GOLLAN'S LANCHES LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "obs": "",
-      "total": 563.38,
-      "itens": [
-        {
-          "desc": "4 PACK RED BULL ZERO",
-          "qt": 3,
-          "val": 89.88
-        },
-        {
-          "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-          "qt": 1,
-          "val": 94.7
-        },
-        {
-          "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "qt": 1,
-          "val": 94.7
-        },
-        {
-          "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "qt": 1,
-          "val": 94.7
-        },
-        {
-          "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 1,
-          "val": 94.7
-        },
-        {
-          "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-          "qt": 1,
-          "val": 94.7
-        }
-      ],
-      "status_log": ""
-    },
-    {
       "numped": "439000141",
       "numnota": "34676",
       "data": "14/07/2026",
@@ -5809,6 +6968,49 @@ const PEDIDOS_DATA = {
           "desc": "WHISKY JIM BEAM WHITE 1L",
           "qt": 12,
           "val": 754.8
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "463000048",
+      "numnota": "178809",
+      "data": "14/07/2026",
+      "data_ord": "2026-07-14",
+      "nome": "ROBERTO DOS SANTOS - OFF TRADE",
+      "cliente": "SUPERMERCADO RIMAR LIMITADA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "obs": "",
+      "total": 471.18,
+      "itens": [
+        {
+          "desc": "RUM MONTILLA CARTA BRANCA 1L",
+          "qt": 3,
+          "val": 58.35
+        },
+        {
+          "desc": "RUM MONTILLA OURO 1L",
+          "qt": 3,
+          "val": 58.35
+        },
+        {
+          "desc": "GIN ROCKS 1LT",
+          "qt": 6,
+          "val": 123.3
+        },
+        {
+          "desc": "GIN ROCKS STRAWBERRY 1LT",
+          "qt": 6,
+          "val": 123.3
+        },
+        {
+          "desc": "VINHO DOM BOSCO TINTO SECO 750ML",
+          "qt": 12,
+          "val": 107.88
         }
       ],
       "status_log": ""
@@ -7551,6 +8753,29 @@ const PEDIDOS_DATA = {
           "desc": "WHISKY BALLANTINE S FINEST 1L",
           "qt": 24,
           "val": 1269.6
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "486000082",
+      "numnota": "6599",
+      "data": "14/07/2026",
+      "data_ord": "2026-07-14",
+      "nome": "LEONARDO FLOREZI - OFF TRADE",
+      "cliente": "SUPERMERCADO OLGUIM LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "obs": "",
+      "total": 419.4,
+      "itens": [
+        {
+          "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "qt": 6,
+          "val": 419.4
         }
       ],
       "status_log": ""
@@ -92794,7 +94019,7 @@ const PEDIDOS_DATA = {
           "val": 377.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "476000082",
@@ -92817,7 +94042,7 @@ const PEDIDOS_DATA = {
           "val": 2397.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "426000330",
@@ -92888,7 +94113,7 @@ const PEDIDOS_DATA = {
           "val": 718.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "433000094",
@@ -93084,7 +94309,7 @@ const PEDIDOS_DATA = {
           "val": 82.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "588002802",
@@ -93741,7 +94966,7 @@ const PEDIDOS_DATA = {
           "val": 629.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "327009236",
@@ -98042,7 +99267,7 @@ const PEDIDOS_DATA = {
           "val": 1014.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "476000073",
@@ -98225,7 +99450,7 @@ const PEDIDOS_DATA = {
           "val": 195.78
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "438000112",
@@ -98430,7 +99655,7 @@ const PEDIDOS_DATA = {
           "val": 1629.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "433000090",
@@ -98567,7 +99792,7 @@ const PEDIDOS_DATA = {
           "val": 119.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "466000031",
@@ -98697,7 +99922,7 @@ const PEDIDOS_DATA = {
           "val": 1601.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "588002787",
@@ -98926,7 +100151,7 @@ const PEDIDOS_DATA = {
           "val": 329.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "469000033",
@@ -99185,7 +100410,7 @@ const PEDIDOS_DATA = {
           "val": 190.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "487000011",
@@ -102691,7 +103916,7 @@ const PEDIDOS_DATA = {
           "val": 202.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "461000069",
@@ -102953,7 +104178,7 @@ const PEDIDOS_DATA = {
           "val": 62.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "475000013",
@@ -102991,7 +104216,7 @@ const PEDIDOS_DATA = {
           "val": 131.88
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "476000071",
@@ -103014,7 +104239,7 @@ const PEDIDOS_DATA = {
           "val": 334.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "426000315",
@@ -103182,7 +104407,7 @@ const PEDIDOS_DATA = {
           "val": 985.92
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "466000029",
@@ -103220,7 +104445,7 @@ const PEDIDOS_DATA = {
           "val": 1557.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "468000045",
@@ -103487,7 +104712,7 @@ const PEDIDOS_DATA = {
           "val": 49480.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "490000002",
@@ -103566,7 +104791,7 @@ const PEDIDOS_DATA = {
           "val": 219.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "472000036",
@@ -103589,7 +104814,7 @@ const PEDIDOS_DATA = {
           "val": 251.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "474000016",
@@ -103665,7 +104890,7 @@ const PEDIDOS_DATA = {
           "val": 304.66
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "477000027",
@@ -103693,7 +104918,7 @@ const PEDIDOS_DATA = {
           "val": 246.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "489000001",
@@ -107703,7 +108928,7 @@ const PEDIDOS_DATA = {
           "val": 67.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "460000059",
@@ -107980,7 +109205,7 @@ const PEDIDOS_DATA = {
           "val": 377.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "391000173",
@@ -108300,7 +109525,7 @@ const PEDIDOS_DATA = {
           "val": 414.0
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "426000312",
@@ -108338,7 +109563,7 @@ const PEDIDOS_DATA = {
           "val": 3594.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "428000035",
@@ -108424,7 +109649,7 @@ const PEDIDOS_DATA = {
           "val": 1006.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "433000084",
@@ -108505,7 +109730,7 @@ const PEDIDOS_DATA = {
           "val": 874.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "433000086",
@@ -108614,7 +109839,7 @@ const PEDIDOS_DATA = {
           "val": 2516.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "466000028",
@@ -108647,7 +109872,7 @@ const PEDIDOS_DATA = {
           "val": 134.87
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "468000040",
@@ -109188,7 +110413,7 @@ const PEDIDOS_DATA = {
           "val": 123.3
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "327009195",
@@ -113857,7 +115082,7 @@ const PEDIDOS_DATA = {
           "val": 1096.7
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "460000056",
@@ -113910,7 +115135,7 @@ const PEDIDOS_DATA = {
           "val": 1848.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "460000057",
@@ -113958,7 +115183,7 @@ const PEDIDOS_DATA = {
           "val": 3688.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "461000062",
@@ -114169,7 +115394,7 @@ const PEDIDOS_DATA = {
           "val": 319.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "476000065",
@@ -114192,7 +115417,7 @@ const PEDIDOS_DATA = {
           "val": 2419.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "438000110",
@@ -114385,7 +115610,7 @@ const PEDIDOS_DATA = {
           "val": 718.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "426000307",
@@ -114413,7 +115638,7 @@ const PEDIDOS_DATA = {
           "val": 2397.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "426000308",
@@ -114451,7 +115676,7 @@ const PEDIDOS_DATA = {
           "val": 658.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "426000309",
@@ -114489,7 +115714,7 @@ const PEDIDOS_DATA = {
           "val": 1198.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "433000078",
@@ -114560,7 +115785,7 @@ const PEDIDOS_DATA = {
           "val": 718.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "433000081",
@@ -114796,7 +116021,7 @@ const PEDIDOS_DATA = {
           "val": 14896.8
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "588002754",
@@ -115069,7 +116294,7 @@ const PEDIDOS_DATA = {
           "val": 525.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "477000025",
@@ -115092,7 +116317,7 @@ const PEDIDOS_DATA = {
           "val": 701.15
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "486000008",
@@ -115120,7 +116345,7 @@ const PEDIDOS_DATA = {
           "val": 275.76
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "486000009",
@@ -115188,7 +116413,7 @@ const PEDIDOS_DATA = {
           "val": 322.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "312000034",
@@ -119604,7 +120829,7 @@ const PEDIDOS_DATA = {
           "val": 239.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "476000060",
@@ -119627,7 +120852,7 @@ const PEDIDOS_DATA = {
           "val": 1198.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "476000061",
@@ -119655,7 +120880,7 @@ const PEDIDOS_DATA = {
           "val": 2016.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "476000062",
@@ -119729,7 +120954,7 @@ const PEDIDOS_DATA = {
           "val": 395.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "466000027",
@@ -119822,7 +121047,7 @@ const PEDIDOS_DATA = {
           "val": 377.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "468000037",
@@ -120112,7 +121337,7 @@ const PEDIDOS_DATA = {
           "val": 1557.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "588002745",
@@ -120282,7 +121507,7 @@ const PEDIDOS_DATA = {
           "val": 202.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "472000032",
@@ -120305,7 +121530,7 @@ const PEDIDOS_DATA = {
           "val": 1194.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "472000033",
@@ -120328,7 +121553,7 @@ const PEDIDOS_DATA = {
           "val": 3560.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "477000023",
@@ -120361,7 +121586,7 @@ const PEDIDOS_DATA = {
           "val": 233.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "477000024",
@@ -120399,7 +121624,7 @@ const PEDIDOS_DATA = {
           "val": 115.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "483000003",
@@ -120445,7 +121670,7 @@ const PEDIDOS_DATA = {
           "val": 9726.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "327009149",
@@ -125260,7 +126485,7 @@ const PEDIDOS_DATA = {
           "val": 93.8
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "460000051",
@@ -125379,7 +126604,7 @@ const PEDIDOS_DATA = {
           "val": 250.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "461000057",
@@ -125699,7 +126924,7 @@ const PEDIDOS_DATA = {
           "val": 449.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "475000008",
@@ -125727,7 +126952,7 @@ const PEDIDOS_DATA = {
           "val": 202.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "475000009",
@@ -125750,7 +126975,7 @@ const PEDIDOS_DATA = {
           "val": 579.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "475000010",
@@ -125773,7 +126998,7 @@ const PEDIDOS_DATA = {
           "val": 95.14
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "476000052",
@@ -125796,7 +127021,7 @@ const PEDIDOS_DATA = {
           "val": 1341.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "476000053",
@@ -125819,7 +127044,7 @@ const PEDIDOS_DATA = {
           "val": 806.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "476000054",
@@ -125867,7 +127092,7 @@ const PEDIDOS_DATA = {
           "val": 125.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "476000055",
@@ -125923,7 +127148,7 @@ const PEDIDOS_DATA = {
           "val": 414.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "426000298",
@@ -125946,7 +127171,7 @@ const PEDIDOS_DATA = {
           "val": 11988.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "426000299",
@@ -125969,7 +127194,7 @@ const PEDIDOS_DATA = {
           "val": 9819.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "426000300",
@@ -126017,7 +127242,7 @@ const PEDIDOS_DATA = {
           "val": 739.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "426000301",
@@ -126083,7 +127308,7 @@ const PEDIDOS_DATA = {
           "val": 4032.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "433000075",
@@ -126106,7 +127331,7 @@ const PEDIDOS_DATA = {
           "val": 3294.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "433000076",
@@ -126376,7 +127601,7 @@ const PEDIDOS_DATA = {
           "val": 831.92
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "588002725",
@@ -126641,7 +127866,7 @@ const PEDIDOS_DATA = {
           "val": 1198.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000034",
@@ -126687,7 +127912,7 @@ const PEDIDOS_DATA = {
           "val": 125.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "472000031",
@@ -126735,7 +127960,7 @@ const PEDIDOS_DATA = {
           "val": 1232.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "477000022",
@@ -126758,7 +127983,7 @@ const PEDIDOS_DATA = {
           "val": 778.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "487000006",
@@ -126791,7 +128016,7 @@ const PEDIDOS_DATA = {
           "val": 259.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "327009132",
@@ -132298,7 +133523,7 @@ const PEDIDOS_DATA = {
           "val": 319.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "425000106",
@@ -132326,7 +133551,7 @@ const PEDIDOS_DATA = {
           "val": 128.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "371000226",
@@ -132614,7 +133839,7 @@ const PEDIDOS_DATA = {
           "val": 11988.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "426000293",
@@ -132944,7 +134169,7 @@ const PEDIDOS_DATA = {
           "val": 1976.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "588002708",
@@ -133337,7 +134562,7 @@ const PEDIDOS_DATA = {
           "val": 125.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000032",
@@ -133365,7 +134590,7 @@ const PEDIDOS_DATA = {
           "val": 169.16
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000033",
@@ -133482,7 +134707,7 @@ const PEDIDOS_DATA = {
           "val": 166.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "487000001",
@@ -133510,7 +134735,7 @@ const PEDIDOS_DATA = {
           "val": 437.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "487000002",
@@ -133538,7 +134763,7 @@ const PEDIDOS_DATA = {
           "val": 164.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "487000003",
@@ -133576,7 +134801,7 @@ const PEDIDOS_DATA = {
           "val": 403.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "487000004",
@@ -133599,7 +134824,7 @@ const PEDIDOS_DATA = {
           "val": 1198.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "487000005",
@@ -133622,7 +134847,7 @@ const PEDIDOS_DATA = {
           "val": 403.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "310000022",
@@ -138810,7 +140035,7 @@ const PEDIDOS_DATA = {
           "val": 1509.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "460000048",
@@ -138878,7 +140103,7 @@ const PEDIDOS_DATA = {
           "val": 93.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "460000049",
@@ -138931,7 +140156,7 @@ const PEDIDOS_DATA = {
           "val": 369.72
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "461000054",
@@ -139296,7 +140521,7 @@ const PEDIDOS_DATA = {
           "val": 223.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "371000224",
@@ -139405,7 +140630,7 @@ const PEDIDOS_DATA = {
           "val": 123.24
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "476000050",
@@ -139453,7 +140678,7 @@ const PEDIDOS_DATA = {
           "val": 218.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "476000051",
@@ -139476,7 +140701,7 @@ const PEDIDOS_DATA = {
           "val": 1554.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "438000105",
@@ -139545,7 +140770,7 @@ const PEDIDOS_DATA = {
           "val": 14028.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "426000290",
@@ -139568,7 +140793,7 @@ const PEDIDOS_DATA = {
           "val": 4032.0
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "426000291",
@@ -139685,7 +140910,7 @@ const PEDIDOS_DATA = {
           "val": 179.28
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "465000023",
@@ -139733,7 +140958,7 @@ const PEDIDOS_DATA = {
           "val": 20.54
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "465000024",
@@ -139756,7 +140981,7 @@ const PEDIDOS_DATA = {
           "val": 274.8
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "466000023",
@@ -139794,7 +141019,7 @@ const PEDIDOS_DATA = {
           "val": 69.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "467000023",
@@ -139817,7 +141042,7 @@ const PEDIDOS_DATA = {
           "val": 1557.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "588002688",
@@ -140158,7 +141383,7 @@ const PEDIDOS_DATA = {
           "val": 11995.2
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "588002700",
@@ -140204,7 +141429,7 @@ const PEDIDOS_DATA = {
           "val": 3838.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "588002702",
@@ -140324,7 +141549,7 @@ const PEDIDOS_DATA = {
           "val": 99.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "469000030",
@@ -140362,7 +141587,7 @@ const PEDIDOS_DATA = {
           "val": 618.26
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "469000031",
@@ -140580,7 +141805,7 @@ const PEDIDOS_DATA = {
           "val": 163.44
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000028",
@@ -140689,7 +141914,7 @@ const PEDIDOS_DATA = {
           "val": 119.88
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": "CANCELADA"
     },
     {
       "numped": "483000002",
@@ -146903,7 +148128,7 @@ const PEDIDOS_DATA = {
           "val": 1198.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "426000283",
@@ -146954,7 +148179,7 @@ const PEDIDOS_DATA = {
           "val": 99.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "476000048",
@@ -146997,7 +148222,7 @@ const PEDIDOS_DATA = {
           "val": 69.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "438000104",
@@ -147414,7 +148639,7 @@ const PEDIDOS_DATA = {
           "val": 319.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "588002687",
@@ -147576,7 +148801,7 @@ const PEDIDOS_DATA = {
           "val": 131.88
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "474000012",
@@ -147619,7 +148844,7 @@ const PEDIDOS_DATA = {
           "val": 958.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "485000010",
@@ -147685,7 +148910,7 @@ const PEDIDOS_DATA = {
           "val": 299.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "486000004",
@@ -147733,7 +148958,7 @@ const PEDIDOS_DATA = {
           "val": 141.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "486000005",
@@ -147781,7 +149006,7 @@ const PEDIDOS_DATA = {
           "val": 350.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "312000032",
@@ -148849,7 +150074,7 @@ const PEDIDOS_DATA = {
           "val": 504.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "275000544",
@@ -150077,7 +151302,7 @@ const PEDIDOS_DATA = {
           "val": 467.4
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "477000019",
@@ -150105,7 +151330,7 @@ const PEDIDOS_DATA = {
           "val": 2043.47
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "241000489",
@@ -152175,7 +153400,7 @@ const PEDIDOS_DATA = {
           "val": 199.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "463000015",
@@ -152301,7 +153526,7 @@ const PEDIDOS_DATA = {
           "val": 21.34
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "463000018",
@@ -152384,7 +153609,7 @@ const PEDIDOS_DATA = {
           "val": 85.36
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "463000019",
@@ -152472,7 +153697,7 @@ const PEDIDOS_DATA = {
           "val": 42.68
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "391000162",
@@ -152622,7 +153847,7 @@ const PEDIDOS_DATA = {
           "val": 199.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "438000097",
@@ -153103,7 +154328,7 @@ const PEDIDOS_DATA = {
           "val": 15048.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "588002676",
@@ -153283,7 +154508,7 @@ const PEDIDOS_DATA = {
           "val": 646.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000020",
@@ -159486,7 +160711,7 @@ const PEDIDOS_DATA = {
           "val": 1198.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "477000018",
@@ -159509,7 +160734,7 @@ const PEDIDOS_DATA = {
           "val": 1254.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "362000093",
@@ -164107,7 +165332,7 @@ const PEDIDOS_DATA = {
           "val": 1258.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "476000036",
@@ -164593,7 +165818,7 @@ const PEDIDOS_DATA = {
           "val": 14994.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "588002640",
@@ -164659,7 +165884,7 @@ const PEDIDOS_DATA = {
           "val": 718.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "588002642",
@@ -165000,7 +166225,7 @@ const PEDIDOS_DATA = {
           "val": 377.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "477000015",
@@ -165061,7 +166286,7 @@ const PEDIDOS_DATA = {
           "val": 599.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "486000001",
@@ -169424,7 +170649,7 @@ const PEDIDOS_DATA = {
           "val": 1848.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "588002628",
@@ -170897,7 +172122,7 @@ const PEDIDOS_DATA = {
           "val": 62.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "275000534",
@@ -172354,7 +173579,7 @@ const PEDIDOS_DATA = {
           "val": 38352.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "275000528",
@@ -172601,7 +173826,7 @@ const PEDIDOS_DATA = {
           "val": 57.33
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "439000176",
@@ -172751,7 +173976,7 @@ const PEDIDOS_DATA = {
           "val": 189.36
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004732",
@@ -172837,7 +174062,7 @@ const PEDIDOS_DATA = {
           "val": 48.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "174000032",
@@ -173039,7 +174264,7 @@ const PEDIDOS_DATA = {
           "val": 177.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001283",
@@ -173062,7 +174287,7 @@ const PEDIDOS_DATA = {
           "val": 88.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001284",
@@ -173234,7 +174459,7 @@ const PEDIDOS_DATA = {
           "val": 59.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001289",
@@ -173272,7 +174497,7 @@ const PEDIDOS_DATA = {
           "val": 102.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001290",
@@ -173300,7 +174525,7 @@ const PEDIDOS_DATA = {
           "val": 561.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001163",
@@ -173366,7 +174591,7 @@ const PEDIDOS_DATA = {
           "val": 85.1
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "153001167",
@@ -174221,7 +175446,7 @@ const PEDIDOS_DATA = {
           "val": 179.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003564",
@@ -174315,7 +175540,7 @@ const PEDIDOS_DATA = {
           "val": 65.28
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379001012",
@@ -174338,7 +175563,7 @@ const PEDIDOS_DATA = {
           "val": 314.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379001015",
@@ -174361,7 +175586,7 @@ const PEDIDOS_DATA = {
           "val": 199.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379001018",
@@ -174475,7 +175700,7 @@ const PEDIDOS_DATA = {
           "val": 89.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379001022",
@@ -174523,7 +175748,7 @@ const PEDIDOS_DATA = {
           "val": 185.76
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379001023",
@@ -175073,7 +176298,7 @@ const PEDIDOS_DATA = {
           "val": 257.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000266",
@@ -175157,7 +176382,7 @@ const PEDIDOS_DATA = {
           "val": 354.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001465",
@@ -175180,7 +176405,7 @@ const PEDIDOS_DATA = {
           "val": 177.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001467",
@@ -175208,7 +176433,7 @@ const PEDIDOS_DATA = {
           "val": 588.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001468",
@@ -175259,7 +176484,7 @@ const PEDIDOS_DATA = {
           "val": 449.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001470",
@@ -175287,7 +176512,7 @@ const PEDIDOS_DATA = {
           "val": 532.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001471",
@@ -175459,7 +176684,7 @@ const PEDIDOS_DATA = {
           "val": 371.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000392",
@@ -175482,7 +176707,7 @@ const PEDIDOS_DATA = {
           "val": 299.0
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "419000605",
@@ -175705,7 +176930,7 @@ const PEDIDOS_DATA = {
           "val": 286.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000190",
@@ -176107,7 +177332,7 @@ const PEDIDOS_DATA = {
           "val": 131.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "371000204",
@@ -176539,7 +177764,7 @@ const PEDIDOS_DATA = {
           "val": 1079.4
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "438000084",
@@ -176933,7 +178158,7 @@ const PEDIDOS_DATA = {
           "val": 2397.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "588002623",
@@ -177376,7 +178601,7 @@ const PEDIDOS_DATA = {
           "val": 477.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "470000004",
@@ -177409,7 +178634,7 @@ const PEDIDOS_DATA = {
           "val": 83.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "470000005",
@@ -177485,7 +178710,7 @@ const PEDIDOS_DATA = {
           "val": 419.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "474000009",
@@ -179632,7 +180857,7 @@ const PEDIDOS_DATA = {
           "val": 5922.0
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "159004717",
@@ -179665,7 +180890,7 @@ const PEDIDOS_DATA = {
           "val": 171.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004718",
@@ -179688,7 +180913,7 @@ const PEDIDOS_DATA = {
           "val": 1567.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004719",
@@ -179782,7 +181007,7 @@ const PEDIDOS_DATA = {
           "val": 294.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "174000027",
@@ -179941,7 +181166,7 @@ const PEDIDOS_DATA = {
           "val": 115.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001161",
@@ -179964,7 +181189,7 @@ const PEDIDOS_DATA = {
           "val": 286.8
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "153001162",
@@ -180027,7 +181252,7 @@ const PEDIDOS_DATA = {
           "val": 45.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "370001368",
@@ -180802,7 +182027,7 @@ const PEDIDOS_DATA = {
           "val": 186.58
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379001004",
@@ -180900,7 +182125,7 @@ const PEDIDOS_DATA = {
           "val": 29.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379001007",
@@ -180973,7 +182198,7 @@ const PEDIDOS_DATA = {
           "val": 143.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379001009",
@@ -180996,7 +182221,7 @@ const PEDIDOS_DATA = {
           "val": 943.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "257002345",
@@ -181434,7 +182659,7 @@ const PEDIDOS_DATA = {
           "val": 1259.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000256",
@@ -181462,7 +182687,7 @@ const PEDIDOS_DATA = {
           "val": 405.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000258",
@@ -181485,7 +182710,7 @@ const PEDIDOS_DATA = {
           "val": 4194.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000259",
@@ -181551,7 +182776,7 @@ const PEDIDOS_DATA = {
           "val": 99.84
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000261",
@@ -181579,7 +182804,7 @@ const PEDIDOS_DATA = {
           "val": 65.28
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000262",
@@ -181607,7 +182832,7 @@ const PEDIDOS_DATA = {
           "val": 162.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000263",
@@ -181655,7 +182880,7 @@ const PEDIDOS_DATA = {
           "val": 109.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001456",
@@ -181708,7 +182933,7 @@ const PEDIDOS_DATA = {
           "val": 389.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001457",
@@ -181731,7 +182956,7 @@ const PEDIDOS_DATA = {
           "val": 750.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001458",
@@ -181764,7 +182989,7 @@ const PEDIDOS_DATA = {
           "val": 648.0
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "144001459",
@@ -181797,7 +183022,7 @@ const PEDIDOS_DATA = {
           "val": 648.0
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "144001460",
@@ -181825,7 +183050,7 @@ const PEDIDOS_DATA = {
           "val": 39.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001461",
@@ -181848,7 +183073,7 @@ const PEDIDOS_DATA = {
           "val": 259.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001462",
@@ -181919,7 +183144,7 @@ const PEDIDOS_DATA = {
           "val": 50.98
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003462",
@@ -181992,7 +183217,7 @@ const PEDIDOS_DATA = {
           "val": 78.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003464",
@@ -182035,7 +183260,7 @@ const PEDIDOS_DATA = {
           "val": 189.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003465",
@@ -182093,7 +183318,7 @@ const PEDIDOS_DATA = {
           "val": 189.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003466",
@@ -182126,7 +183351,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003467",
@@ -182247,7 +183472,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003469",
@@ -182335,7 +183560,7 @@ const PEDIDOS_DATA = {
           "val": 49.92
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003471",
@@ -182368,7 +183593,7 @@ const PEDIDOS_DATA = {
           "val": 131.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003473",
@@ -182530,7 +183755,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003477",
@@ -182618,7 +183843,7 @@ const PEDIDOS_DATA = {
           "val": 371.4
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "156003478",
@@ -182681,7 +183906,7 @@ const PEDIDOS_DATA = {
           "val": 87.48
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000982",
@@ -182714,7 +183939,7 @@ const PEDIDOS_DATA = {
           "val": 95.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000984",
@@ -182747,7 +183972,7 @@ const PEDIDOS_DATA = {
           "val": 214.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000985",
@@ -182795,7 +184020,7 @@ const PEDIDOS_DATA = {
           "val": 94.68
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000986",
@@ -182823,7 +184048,7 @@ const PEDIDOS_DATA = {
           "val": 71.76
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "431000987",
@@ -182871,7 +184096,7 @@ const PEDIDOS_DATA = {
           "val": 59.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000391",
@@ -182894,7 +184119,7 @@ const PEDIDOS_DATA = {
           "val": 262.08
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "419000602",
@@ -182980,7 +184205,7 @@ const PEDIDOS_DATA = {
           "val": 499.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000604",
@@ -183008,7 +184233,7 @@ const PEDIDOS_DATA = {
           "val": 299.52
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "450000185",
@@ -183089,7 +184314,7 @@ const PEDIDOS_DATA = {
           "val": 1160.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "299000071",
@@ -183390,7 +184615,7 @@ const PEDIDOS_DATA = {
           "val": 202.8
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "476000023",
@@ -183672,7 +184897,7 @@ const PEDIDOS_DATA = {
           "val": 5035.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "588002598",
@@ -184002,7 +185227,7 @@ const PEDIDOS_DATA = {
           "val": 7190.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "588002613",
@@ -184213,7 +185438,7 @@ const PEDIDOS_DATA = {
           "val": 778.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "472000021",
@@ -184276,7 +185501,7 @@ const PEDIDOS_DATA = {
           "val": 29.1
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "472000022",
@@ -184368,7 +185593,7 @@ const PEDIDOS_DATA = {
           "val": 394.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "542000188",
@@ -185772,7 +186997,7 @@ const PEDIDOS_DATA = {
           "val": 257.4
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "158000331",
@@ -186172,7 +187397,7 @@ const PEDIDOS_DATA = {
           "val": 251.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "439000172",
@@ -186215,7 +187440,7 @@ const PEDIDOS_DATA = {
           "val": 29.8
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "439000173",
@@ -186253,7 +187478,7 @@ const PEDIDOS_DATA = {
           "val": 138.72
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "439000174",
@@ -186362,7 +187587,7 @@ const PEDIDOS_DATA = {
           "val": 639.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004702",
@@ -186418,7 +187643,7 @@ const PEDIDOS_DATA = {
           "val": 1522.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004705",
@@ -186464,7 +187689,7 @@ const PEDIDOS_DATA = {
           "val": 68.82
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004707",
@@ -186571,7 +187796,7 @@ const PEDIDOS_DATA = {
           "val": 598.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004711",
@@ -186655,7 +187880,7 @@ const PEDIDOS_DATA = {
           "val": 253.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004715",
@@ -186889,7 +188114,7 @@ const PEDIDOS_DATA = {
           "val": 286.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001278",
@@ -186932,7 +188157,7 @@ const PEDIDOS_DATA = {
           "val": 24.96
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001151",
@@ -186955,7 +188180,7 @@ const PEDIDOS_DATA = {
           "val": 537.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001152",
@@ -187001,7 +188226,7 @@ const PEDIDOS_DATA = {
           "val": 280.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001154",
@@ -187039,7 +188264,7 @@ const PEDIDOS_DATA = {
           "val": 326.4
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "153001155",
@@ -187062,7 +188287,7 @@ const PEDIDOS_DATA = {
           "val": 280.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001156",
@@ -187105,7 +188330,7 @@ const PEDIDOS_DATA = {
           "val": 130.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001158",
@@ -187474,7 +188699,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003550",
@@ -187497,7 +188722,7 @@ const PEDIDOS_DATA = {
           "val": 449.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003551",
@@ -187520,7 +188745,7 @@ const PEDIDOS_DATA = {
           "val": 251.3
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003552",
@@ -187548,7 +188773,7 @@ const PEDIDOS_DATA = {
           "val": 189.36
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003553",
@@ -187601,7 +188826,7 @@ const PEDIDOS_DATA = {
           "val": 173.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003554",
@@ -187644,7 +188869,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003556",
@@ -187682,7 +188907,7 @@ const PEDIDOS_DATA = {
           "val": 164.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003557",
@@ -187725,7 +188950,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003558",
@@ -187753,7 +188978,7 @@ const PEDIDOS_DATA = {
           "val": 1514.88
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003559",
@@ -187776,7 +189001,7 @@ const PEDIDOS_DATA = {
           "val": 378.72
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000997",
@@ -187804,7 +189029,7 @@ const PEDIDOS_DATA = {
           "val": 399.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000998",
@@ -187862,7 +189087,7 @@ const PEDIDOS_DATA = {
           "val": 117.36
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000999",
@@ -187910,7 +189135,7 @@ const PEDIDOS_DATA = {
           "val": 154.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379001001",
@@ -187948,7 +189173,7 @@ const PEDIDOS_DATA = {
           "val": 45.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "257002334",
@@ -188611,7 +189836,7 @@ const PEDIDOS_DATA = {
           "val": 954.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000253",
@@ -188644,7 +189869,7 @@ const PEDIDOS_DATA = {
           "val": 38.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "417000330",
@@ -188710,7 +189935,7 @@ const PEDIDOS_DATA = {
           "val": 406.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001449",
@@ -188743,7 +189968,7 @@ const PEDIDOS_DATA = {
           "val": 5490.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001450",
@@ -188766,7 +189991,7 @@ const PEDIDOS_DATA = {
           "val": 3195.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001451",
@@ -188814,7 +190039,7 @@ const PEDIDOS_DATA = {
           "val": 119.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001452",
@@ -188847,7 +190072,7 @@ const PEDIDOS_DATA = {
           "val": 1798.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001453",
@@ -188870,7 +190095,7 @@ const PEDIDOS_DATA = {
           "val": 329.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001455",
@@ -188893,7 +190118,7 @@ const PEDIDOS_DATA = {
           "val": 329.7
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "156003451",
@@ -188931,7 +190156,7 @@ const PEDIDOS_DATA = {
           "val": 87.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003452",
@@ -188964,7 +190189,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "156003453",
@@ -189017,7 +190242,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003454",
@@ -189050,7 +190275,7 @@ const PEDIDOS_DATA = {
           "val": 65.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003455",
@@ -189088,7 +190313,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003456",
@@ -189116,7 +190341,7 @@ const PEDIDOS_DATA = {
           "val": 374.85
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003458",
@@ -189159,7 +190384,7 @@ const PEDIDOS_DATA = {
           "val": 60.32
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003459",
@@ -189197,7 +190422,7 @@ const PEDIDOS_DATA = {
           "val": 87.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000972",
@@ -189230,7 +190455,7 @@ const PEDIDOS_DATA = {
           "val": 156.33
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000975",
@@ -189263,7 +190488,7 @@ const PEDIDOS_DATA = {
           "val": 71.76
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000976",
@@ -189336,7 +190561,7 @@ const PEDIDOS_DATA = {
           "val": 94.68
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000977",
@@ -189369,7 +190594,7 @@ const PEDIDOS_DATA = {
           "val": 65.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000978",
@@ -189392,7 +190617,7 @@ const PEDIDOS_DATA = {
           "val": 863.64
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000979",
@@ -189430,7 +190655,7 @@ const PEDIDOS_DATA = {
           "val": 187.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000980",
@@ -189453,7 +190678,7 @@ const PEDIDOS_DATA = {
           "val": 256.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000981",
@@ -189481,7 +190706,7 @@ const PEDIDOS_DATA = {
           "val": 185.4
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "378000390",
@@ -189509,7 +190734,7 @@ const PEDIDOS_DATA = {
           "val": 326.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000600",
@@ -189537,7 +190762,7 @@ const PEDIDOS_DATA = {
           "val": 299.52
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000601",
@@ -189583,7 +190808,7 @@ const PEDIDOS_DATA = {
           "val": 946.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000182",
@@ -189631,7 +190856,7 @@ const PEDIDOS_DATA = {
           "val": 1135.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "554000894",
@@ -189941,7 +191166,7 @@ const PEDIDOS_DATA = {
           "val": 250.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "371000202",
@@ -190311,7 +191536,7 @@ const PEDIDOS_DATA = {
           "val": 359.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "476000021",
@@ -190372,7 +191597,7 @@ const PEDIDOS_DATA = {
           "val": 719.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "438000081",
@@ -190754,7 +191979,7 @@ const PEDIDOS_DATA = {
           "val": 184.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "474000005",
@@ -190924,7 +192149,7 @@ const PEDIDOS_DATA = {
           "val": 789.6
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "542000187",
@@ -192003,7 +193228,7 @@ const PEDIDOS_DATA = {
           "val": 946.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "158000330",
@@ -192026,7 +193251,7 @@ const PEDIDOS_DATA = {
           "val": 9870.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "343000154",
@@ -192148,7 +193373,7 @@ const PEDIDOS_DATA = {
           "val": 279.8
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "439000167",
@@ -192181,7 +193406,7 @@ const PEDIDOS_DATA = {
           "val": 85.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "439000170",
@@ -192214,7 +193439,7 @@ const PEDIDOS_DATA = {
           "val": 76.9
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "159004687",
@@ -192242,7 +193467,7 @@ const PEDIDOS_DATA = {
           "val": 199.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004688",
@@ -192316,7 +193541,7 @@ const PEDIDOS_DATA = {
           "val": 239.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004691",
@@ -192339,7 +193564,7 @@ const PEDIDOS_DATA = {
           "val": 1917.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004692",
@@ -192362,7 +193587,7 @@ const PEDIDOS_DATA = {
           "val": 440.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004694",
@@ -192385,7 +193610,7 @@ const PEDIDOS_DATA = {
           "val": 251.1
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004695",
@@ -192408,7 +193633,7 @@ const PEDIDOS_DATA = {
           "val": 568.08
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004696",
@@ -192446,7 +193671,7 @@ const PEDIDOS_DATA = {
           "val": 189.36
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004697",
@@ -192469,7 +193694,7 @@ const PEDIDOS_DATA = {
           "val": 334.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "336002005",
@@ -192604,7 +193829,7 @@ const PEDIDOS_DATA = {
           "val": 103.9
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "412001275",
@@ -192632,7 +193857,7 @@ const PEDIDOS_DATA = {
           "val": 311.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001276",
@@ -192660,7 +193885,7 @@ const PEDIDOS_DATA = {
           "val": 129.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001147",
@@ -192688,7 +193913,7 @@ const PEDIDOS_DATA = {
           "val": 13618.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001148",
@@ -192721,7 +193946,7 @@ const PEDIDOS_DATA = {
           "val": 32.76
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001149",
@@ -192797,7 +194022,7 @@ const PEDIDOS_DATA = {
           "val": 216.66
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": "CANCELADA"
     },
     {
       "numped": "370001356",
@@ -193018,7 +194243,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003545",
@@ -193046,7 +194271,7 @@ const PEDIDOS_DATA = {
           "val": 419.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003546",
@@ -193132,7 +194357,7 @@ const PEDIDOS_DATA = {
           "val": 419.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003548",
@@ -193155,7 +194380,7 @@ const PEDIDOS_DATA = {
           "val": 378.72
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000993",
@@ -193183,7 +194408,7 @@ const PEDIDOS_DATA = {
           "val": 95.76
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000994",
@@ -193206,7 +194431,7 @@ const PEDIDOS_DATA = {
           "val": 987.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000995",
@@ -193239,7 +194464,7 @@ const PEDIDOS_DATA = {
           "val": 391.68
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "257002333",
@@ -193853,7 +195078,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003439",
@@ -193896,7 +195121,7 @@ const PEDIDOS_DATA = {
           "val": 454.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003441",
@@ -194024,7 +195249,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "335000808",
@@ -194379,7 +195604,7 @@ const PEDIDOS_DATA = {
           "val": 300.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000247",
@@ -194412,7 +195637,7 @@ const PEDIDOS_DATA = {
           "val": 103.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000248",
@@ -194450,7 +195675,7 @@ const PEDIDOS_DATA = {
           "val": 38.9
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "471000250",
@@ -194473,7 +195698,7 @@ const PEDIDOS_DATA = {
           "val": 348.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000251",
@@ -194516,7 +195741,7 @@ const PEDIDOS_DATA = {
           "val": 117.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001443",
@@ -194589,7 +195814,7 @@ const PEDIDOS_DATA = {
           "val": 64.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001444",
@@ -194612,7 +195837,7 @@ const PEDIDOS_DATA = {
           "val": 116.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001445",
@@ -194660,7 +195885,7 @@ const PEDIDOS_DATA = {
           "val": 160.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001446",
@@ -194688,7 +195913,7 @@ const PEDIDOS_DATA = {
           "val": 131.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003442",
@@ -194716,7 +195941,7 @@ const PEDIDOS_DATA = {
           "val": 236.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003443",
@@ -194759,7 +195984,7 @@ const PEDIDOS_DATA = {
           "val": 454.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003446",
@@ -194782,7 +196007,7 @@ const PEDIDOS_DATA = {
           "val": 259.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003447",
@@ -194825,7 +196050,7 @@ const PEDIDOS_DATA = {
           "val": 454.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003448",
@@ -194848,7 +196073,7 @@ const PEDIDOS_DATA = {
           "val": 87.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000962",
@@ -194876,7 +196101,7 @@ const PEDIDOS_DATA = {
           "val": 94.68
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000963",
@@ -194904,7 +196129,7 @@ const PEDIDOS_DATA = {
           "val": 61.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000965",
@@ -194937,7 +196162,7 @@ const PEDIDOS_DATA = {
           "val": 86.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000966",
@@ -194965,7 +196190,7 @@ const PEDIDOS_DATA = {
           "val": 189.36
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000967",
@@ -195018,7 +196243,7 @@ const PEDIDOS_DATA = {
           "val": 299.88
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000968",
@@ -195041,7 +196266,7 @@ const PEDIDOS_DATA = {
           "val": 256.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000969",
@@ -195104,7 +196329,7 @@ const PEDIDOS_DATA = {
           "val": 860.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000971",
@@ -195127,7 +196352,7 @@ const PEDIDOS_DATA = {
           "val": 258.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000387",
@@ -195150,7 +196375,7 @@ const PEDIDOS_DATA = {
           "val": 284.1
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000388",
@@ -195178,7 +196403,7 @@ const PEDIDOS_DATA = {
           "val": 65.52
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000389",
@@ -195211,7 +196436,7 @@ const PEDIDOS_DATA = {
           "val": 169.92
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000597",
@@ -195259,7 +196484,7 @@ const PEDIDOS_DATA = {
           "val": 64.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000598",
@@ -195292,7 +196517,7 @@ const PEDIDOS_DATA = {
           "val": 29.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000173",
@@ -195325,7 +196550,7 @@ const PEDIDOS_DATA = {
           "val": 525.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000174",
@@ -195708,7 +196933,7 @@ const PEDIDOS_DATA = {
           "val": 298.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "554000891",
@@ -196130,7 +197355,7 @@ const PEDIDOS_DATA = {
           "val": 1006.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "476000012",
@@ -196206,7 +197431,7 @@ const PEDIDOS_DATA = {
           "val": 176.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "476000014",
@@ -196252,7 +197477,7 @@ const PEDIDOS_DATA = {
           "val": 414.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "476000016",
@@ -196290,7 +197515,7 @@ const PEDIDOS_DATA = {
           "val": 97.89
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "37013394",
@@ -196633,7 +197858,7 @@ const PEDIDOS_DATA = {
           "val": 86.01
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "466000020",
@@ -196656,7 +197881,7 @@ const PEDIDOS_DATA = {
           "val": 701.4
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "467000014",
@@ -199655,7 +200880,7 @@ const PEDIDOS_DATA = {
           "val": 166704.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "342000146",
@@ -199817,7 +201042,7 @@ const PEDIDOS_DATA = {
           "val": 391.68
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "439000164",
@@ -199855,7 +201080,7 @@ const PEDIDOS_DATA = {
           "val": 195.84
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "439000165",
@@ -199916,7 +201141,7 @@ const PEDIDOS_DATA = {
           "val": 466.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004676",
@@ -199939,7 +201164,7 @@ const PEDIDOS_DATA = {
           "val": 55.58
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004678",
@@ -199972,7 +201197,7 @@ const PEDIDOS_DATA = {
           "val": 139.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004681",
@@ -200000,7 +201225,7 @@ const PEDIDOS_DATA = {
           "val": 838.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004683",
@@ -200033,7 +201258,7 @@ const PEDIDOS_DATA = {
           "val": 63.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004684",
@@ -200056,7 +201281,7 @@ const PEDIDOS_DATA = {
           "val": 814.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004685",
@@ -200104,7 +201329,7 @@ const PEDIDOS_DATA = {
           "val": 151.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004686",
@@ -200132,7 +201357,7 @@ const PEDIDOS_DATA = {
           "val": 12.34
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "336002003",
@@ -200271,7 +201496,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001271",
@@ -200299,7 +201524,7 @@ const PEDIDOS_DATA = {
           "val": 77.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001272",
@@ -200327,7 +201552,7 @@ const PEDIDOS_DATA = {
           "val": 129.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001273",
@@ -200355,7 +201580,7 @@ const PEDIDOS_DATA = {
           "val": 578.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001143",
@@ -200378,7 +201603,7 @@ const PEDIDOS_DATA = {
           "val": 1974.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001144",
@@ -200411,7 +201636,7 @@ const PEDIDOS_DATA = {
           "val": 197.4
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "153001145",
@@ -200444,7 +201669,7 @@ const PEDIDOS_DATA = {
           "val": 216.66
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "153001146",
@@ -200477,7 +201702,7 @@ const PEDIDOS_DATA = {
           "val": 233.64
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "370001353",
@@ -201464,7 +202689,7 @@ const PEDIDOS_DATA = {
           "val": 393.12
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003531",
@@ -201487,7 +202712,7 @@ const PEDIDOS_DATA = {
           "val": 259.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003532",
@@ -201525,7 +202750,7 @@ const PEDIDOS_DATA = {
           "val": 107.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003533",
@@ -201576,7 +202801,7 @@ const PEDIDOS_DATA = {
           "val": 34.41
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003536",
@@ -201604,7 +202829,7 @@ const PEDIDOS_DATA = {
           "val": 189.36
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003538",
@@ -201632,7 +202857,7 @@ const PEDIDOS_DATA = {
           "val": 1256.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003539",
@@ -201665,7 +202890,7 @@ const PEDIDOS_DATA = {
           "val": 126.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003540",
@@ -201731,7 +202956,7 @@ const PEDIDOS_DATA = {
           "val": 299.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000986",
@@ -201769,7 +202994,7 @@ const PEDIDOS_DATA = {
           "val": 65.28
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000987",
@@ -201807,7 +203032,7 @@ const PEDIDOS_DATA = {
           "val": 979.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000989",
@@ -201860,7 +203085,7 @@ const PEDIDOS_DATA = {
           "val": 83.94
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000990",
@@ -201893,7 +203118,7 @@ const PEDIDOS_DATA = {
           "val": 141.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000991",
@@ -201916,7 +203141,7 @@ const PEDIDOS_DATA = {
           "val": 5922.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000992",
@@ -201939,7 +203164,7 @@ const PEDIDOS_DATA = {
           "val": 3506.1
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "257002328",
@@ -202341,7 +203566,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003426",
@@ -202374,7 +203599,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003427",
@@ -202397,7 +203622,7 @@ const PEDIDOS_DATA = {
           "val": 419.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003428",
@@ -202430,7 +203655,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003429",
@@ -202463,7 +203688,7 @@ const PEDIDOS_DATA = {
           "val": 450.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003430",
@@ -202496,7 +203721,7 @@ const PEDIDOS_DATA = {
           "val": 450.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003431",
@@ -202524,7 +203749,7 @@ const PEDIDOS_DATA = {
           "val": 179.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003432",
@@ -202552,7 +203777,7 @@ const PEDIDOS_DATA = {
           "val": 124.95
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003433",
@@ -202575,7 +203800,7 @@ const PEDIDOS_DATA = {
           "val": 259.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003434",
@@ -202603,7 +203828,7 @@ const PEDIDOS_DATA = {
           "val": 77.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003435",
@@ -202766,7 +203991,7 @@ const PEDIDOS_DATA = {
           "val": 87.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003436",
@@ -202794,7 +204019,7 @@ const PEDIDOS_DATA = {
           "val": 209.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "335000805",
@@ -203034,7 +204259,7 @@ const PEDIDOS_DATA = {
           "val": 66.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000241",
@@ -203115,7 +204340,7 @@ const PEDIDOS_DATA = {
           "val": 38.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000243",
@@ -203138,7 +204363,7 @@ const PEDIDOS_DATA = {
           "val": 116.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000244",
@@ -203171,7 +204396,7 @@ const PEDIDOS_DATA = {
           "val": 130.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001438",
@@ -203204,7 +204429,7 @@ const PEDIDOS_DATA = {
           "val": 190.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001439",
@@ -203257,7 +204482,7 @@ const PEDIDOS_DATA = {
           "val": 32.76
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001441",
@@ -203280,7 +204505,7 @@ const PEDIDOS_DATA = {
           "val": 3528.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000959",
@@ -203328,7 +204553,7 @@ const PEDIDOS_DATA = {
           "val": 189.36
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000960",
@@ -203391,7 +204616,7 @@ const PEDIDOS_DATA = {
           "val": 575.76
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000386",
@@ -203429,7 +204654,7 @@ const PEDIDOS_DATA = {
           "val": 43.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000592",
@@ -203507,7 +204732,7 @@ const PEDIDOS_DATA = {
           "val": 165.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000594",
@@ -203530,7 +204755,7 @@ const PEDIDOS_DATA = {
           "val": 286.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000596",
@@ -203558,7 +204783,7 @@ const PEDIDOS_DATA = {
           "val": 105.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "420000023",
@@ -203601,7 +204826,7 @@ const PEDIDOS_DATA = {
           "val": 4039.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000171",
@@ -203634,7 +204859,7 @@ const PEDIDOS_DATA = {
           "val": 340.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000172",
@@ -203657,7 +204882,7 @@ const PEDIDOS_DATA = {
           "val": 7896.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "439000098",
@@ -203842,7 +205067,7 @@ const PEDIDOS_DATA = {
           "val": 2104.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "461000031",
@@ -203992,7 +205217,7 @@ const PEDIDOS_DATA = {
           "val": 125.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "391000151",
@@ -204157,7 +205382,7 @@ const PEDIDOS_DATA = {
           "val": 1134.28
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "371000195",
@@ -204341,7 +205566,7 @@ const PEDIDOS_DATA = {
           "val": 5611.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "438000079",
@@ -205763,7 +206988,7 @@ const PEDIDOS_DATA = {
           "val": 83.94
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "471000239",
@@ -205796,7 +207021,7 @@ const PEDIDOS_DATA = {
           "val": 234.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "462000007",
@@ -206342,7 +207567,7 @@ const PEDIDOS_DATA = {
           "val": 1588.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "343000153",
@@ -206423,7 +207648,7 @@ const PEDIDOS_DATA = {
           "val": 69.36
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "159004667",
@@ -206718,7 +207943,7 @@ const PEDIDOS_DATA = {
           "val": 17976.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001267",
@@ -206822,7 +208047,7 @@ const PEDIDOS_DATA = {
           "val": 393.12
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001134",
@@ -206855,7 +208080,7 @@ const PEDIDOS_DATA = {
           "val": 652.8
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "153001136",
@@ -206903,7 +208128,7 @@ const PEDIDOS_DATA = {
           "val": 170.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001139",
@@ -206961,7 +208186,7 @@ const PEDIDOS_DATA = {
           "val": 91.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001140",
@@ -207039,7 +208264,7 @@ const PEDIDOS_DATA = {
           "val": 45.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001141",
@@ -207072,7 +208297,7 @@ const PEDIDOS_DATA = {
           "val": 657.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001142",
@@ -207115,7 +208340,7 @@ const PEDIDOS_DATA = {
           "val": 132.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "370001351",
@@ -208507,7 +209732,7 @@ const PEDIDOS_DATA = {
           "val": 261.12
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000977",
@@ -208722,7 +209947,7 @@ const PEDIDOS_DATA = {
           "val": 326.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000983",
@@ -209217,7 +210442,7 @@ const PEDIDOS_DATA = {
           "val": 136.51
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000238",
@@ -209306,7 +210531,7 @@ const PEDIDOS_DATA = {
           "val": 85.07
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001437",
@@ -209344,7 +210569,7 @@ const PEDIDOS_DATA = {
           "val": 2697.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000957",
@@ -209372,7 +210597,7 @@ const PEDIDOS_DATA = {
           "val": 143.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000958",
@@ -209483,7 +210708,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "439000095",
@@ -209636,7 +210861,7 @@ const PEDIDOS_DATA = {
           "val": 2016.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "465000014",
@@ -210118,7 +211343,7 @@ const PEDIDOS_DATA = {
           "val": 1254.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "426000247",
@@ -210169,7 +211394,7 @@ const PEDIDOS_DATA = {
           "val": 2419.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "426000249",
@@ -210280,7 +211505,7 @@ const PEDIDOS_DATA = {
           "val": 125.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "476000009",
@@ -210722,7 +211947,7 @@ const PEDIDOS_DATA = {
           "val": 75.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "588002557",
@@ -210968,7 +212193,7 @@ const PEDIDOS_DATA = {
           "val": 1739.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "588002565",
@@ -211521,7 +212746,7 @@ const PEDIDOS_DATA = {
           "val": 97.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "241000470",
@@ -211554,7 +212779,7 @@ const PEDIDOS_DATA = {
           "val": 150.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "342000144",
@@ -211676,7 +212901,7 @@ const PEDIDOS_DATA = {
           "val": 225.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "439000159",
@@ -211699,7 +212924,7 @@ const PEDIDOS_DATA = {
           "val": 229.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "439000160",
@@ -211745,7 +212970,7 @@ const PEDIDOS_DATA = {
           "val": 346.8
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "159004660",
@@ -211783,7 +213008,7 @@ const PEDIDOS_DATA = {
           "val": 27.8
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "159004661",
@@ -211831,7 +213056,7 @@ const PEDIDOS_DATA = {
           "val": 219.6
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "159004662",
@@ -211869,7 +213094,7 @@ const PEDIDOS_DATA = {
           "val": 299.4
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "159004663",
@@ -211897,7 +213122,7 @@ const PEDIDOS_DATA = {
           "val": 39.9
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "159004665",
@@ -211958,7 +213183,7 @@ const PEDIDOS_DATA = {
           "val": 324.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "336001997",
@@ -212110,7 +213335,7 @@ const PEDIDOS_DATA = {
           "val": 238.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001264",
@@ -212133,7 +213358,7 @@ const PEDIDOS_DATA = {
           "val": 298.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001133",
@@ -212156,7 +213381,7 @@ const PEDIDOS_DATA = {
           "val": 592.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "370001349",
@@ -212260,7 +213485,7 @@ const PEDIDOS_DATA = {
           "val": 103.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003516",
@@ -212293,7 +213518,7 @@ const PEDIDOS_DATA = {
           "val": 635.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003518",
@@ -212336,7 +213561,7 @@ const PEDIDOS_DATA = {
           "val": 269.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003519",
@@ -212359,7 +213584,7 @@ const PEDIDOS_DATA = {
           "val": 419.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003520",
@@ -212397,7 +213622,7 @@ const PEDIDOS_DATA = {
           "val": 133.26
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003521",
@@ -212430,7 +213655,7 @@ const PEDIDOS_DATA = {
           "val": 99.9
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "379000970",
@@ -212453,7 +213678,7 @@ const PEDIDOS_DATA = {
           "val": 129.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000972",
@@ -212872,7 +214097,7 @@ const PEDIDOS_DATA = {
           "val": 64.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003414",
@@ -212895,7 +214120,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003415",
@@ -212918,7 +214143,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003416",
@@ -212991,7 +214216,7 @@ const PEDIDOS_DATA = {
           "val": 57.2
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "156003417",
@@ -213024,7 +214249,7 @@ const PEDIDOS_DATA = {
           "val": 47.84
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "156003418",
@@ -213052,7 +214277,7 @@ const PEDIDOS_DATA = {
           "val": 74.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003419",
@@ -213135,7 +214360,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003420",
@@ -213158,7 +214383,7 @@ const PEDIDOS_DATA = {
           "val": 279.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003421",
@@ -213181,7 +214406,7 @@ const PEDIDOS_DATA = {
           "val": 181.3
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "335000800",
@@ -213318,7 +214543,7 @@ const PEDIDOS_DATA = {
           "val": 234.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000229",
@@ -213369,7 +214594,7 @@ const PEDIDOS_DATA = {
           "val": 419.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001435",
@@ -213392,7 +214617,7 @@ const PEDIDOS_DATA = {
           "val": 383.92
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001436",
@@ -213415,7 +214640,7 @@ const PEDIDOS_DATA = {
           "val": 191.98
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000942",
@@ -213443,7 +214668,7 @@ const PEDIDOS_DATA = {
           "val": 166.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000943",
@@ -213516,7 +214741,7 @@ const PEDIDOS_DATA = {
           "val": 87.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000944",
@@ -213539,7 +214764,7 @@ const PEDIDOS_DATA = {
           "val": 286.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000945",
@@ -213562,7 +214787,7 @@ const PEDIDOS_DATA = {
           "val": 189.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000946",
@@ -213585,7 +214810,7 @@ const PEDIDOS_DATA = {
           "val": 299.88
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000947",
@@ -213618,7 +214843,7 @@ const PEDIDOS_DATA = {
           "val": 71.76
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "431000948",
@@ -213651,7 +214876,7 @@ const PEDIDOS_DATA = {
           "val": 71.76
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000950",
@@ -213699,7 +214924,7 @@ const PEDIDOS_DATA = {
           "val": 210.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000384",
@@ -213727,7 +214952,7 @@ const PEDIDOS_DATA = {
           "val": 131.04
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000590",
@@ -213775,7 +215000,7 @@ const PEDIDOS_DATA = {
           "val": 92.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000591",
@@ -213808,7 +215033,7 @@ const PEDIDOS_DATA = {
           "val": 64.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000165",
@@ -213831,7 +215056,7 @@ const PEDIDOS_DATA = {
           "val": 1092.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "439000094",
@@ -214077,7 +215302,7 @@ const PEDIDOS_DATA = {
           "val": 93.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "461000030",
@@ -214161,7 +215386,7 @@ const PEDIDOS_DATA = {
           "val": 372.12
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "391000149",
@@ -214456,7 +215681,7 @@ const PEDIDOS_DATA = {
           "val": 629.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "476000004",
@@ -214479,7 +215704,7 @@ const PEDIDOS_DATA = {
           "val": 1004.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "476000005",
@@ -214502,7 +215727,7 @@ const PEDIDOS_DATA = {
           "val": 545.52
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "476000006",
@@ -214716,7 +215941,7 @@ const PEDIDOS_DATA = {
           "val": 2518.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "468000023",
@@ -214977,7 +216202,7 @@ const PEDIDOS_DATA = {
           "val": 250.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "312000029",
@@ -216122,7 +217347,7 @@ const PEDIDOS_DATA = {
           "val": 988.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "275000498",
@@ -216178,7 +217403,7 @@ const PEDIDOS_DATA = {
           "val": 8604.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "158000326",
@@ -216226,7 +217451,7 @@ const PEDIDOS_DATA = {
           "val": 362.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "439000152",
@@ -216289,7 +217514,7 @@ const PEDIDOS_DATA = {
           "val": 71.76
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "439000157",
@@ -216322,7 +217547,7 @@ const PEDIDOS_DATA = {
           "val": 135.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004647",
@@ -216345,7 +217570,7 @@ const PEDIDOS_DATA = {
           "val": 734.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004648",
@@ -216416,7 +217641,7 @@ const PEDIDOS_DATA = {
           "val": 65.52
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004650",
@@ -216444,7 +217669,7 @@ const PEDIDOS_DATA = {
           "val": 65.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004653",
@@ -216482,7 +217707,7 @@ const PEDIDOS_DATA = {
           "val": 46.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004656",
@@ -216530,7 +217755,7 @@ const PEDIDOS_DATA = {
           "val": 115.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004658",
@@ -216588,7 +217813,7 @@ const PEDIDOS_DATA = {
           "val": 383.52
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "336001992",
@@ -216788,7 +218013,7 @@ const PEDIDOS_DATA = {
           "val": 181.3
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001260",
@@ -216816,7 +218041,7 @@ const PEDIDOS_DATA = {
           "val": 155.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001262",
@@ -216869,7 +218094,7 @@ const PEDIDOS_DATA = {
           "val": 99.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001263",
@@ -216892,7 +218117,7 @@ const PEDIDOS_DATA = {
           "val": 204.48
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001130",
@@ -216960,7 +218185,7 @@ const PEDIDOS_DATA = {
           "val": 170.4
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "153001131",
@@ -217028,7 +218253,7 @@ const PEDIDOS_DATA = {
           "val": 85.2
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "370001343",
@@ -217821,7 +219046,7 @@ const PEDIDOS_DATA = {
           "val": 1499.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000967",
@@ -217849,7 +219074,7 @@ const PEDIDOS_DATA = {
           "val": 47.88
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000968",
@@ -217877,7 +219102,7 @@ const PEDIDOS_DATA = {
           "val": 313.29
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000969",
@@ -217905,7 +219130,7 @@ const PEDIDOS_DATA = {
           "val": 789.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "257002315",
@@ -218077,7 +219302,7 @@ const PEDIDOS_DATA = {
           "val": 388.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003404",
@@ -218199,7 +219424,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003408",
@@ -218227,7 +219452,7 @@ const PEDIDOS_DATA = {
           "val": 245.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003409",
@@ -218255,7 +219480,7 @@ const PEDIDOS_DATA = {
           "val": 294.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003410",
@@ -218293,7 +219518,7 @@ const PEDIDOS_DATA = {
           "val": 31.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003411",
@@ -218326,7 +219551,7 @@ const PEDIDOS_DATA = {
           "val": 19.43
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003412",
@@ -218359,7 +219584,7 @@ const PEDIDOS_DATA = {
           "val": 16.06
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000224",
@@ -218537,7 +219762,7 @@ const PEDIDOS_DATA = {
           "val": 328.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "417000327",
@@ -218565,7 +219790,7 @@ const PEDIDOS_DATA = {
           "val": 629.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "417000328",
@@ -218588,7 +219813,7 @@ const PEDIDOS_DATA = {
           "val": 3588.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001430",
@@ -218621,7 +219846,7 @@ const PEDIDOS_DATA = {
           "val": 598.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001431",
@@ -218644,7 +219869,7 @@ const PEDIDOS_DATA = {
           "val": 233.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001432",
@@ -218692,7 +219917,7 @@ const PEDIDOS_DATA = {
           "val": 179.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001433",
@@ -218730,7 +219955,7 @@ const PEDIDOS_DATA = {
           "val": 131.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001434",
@@ -218758,7 +219983,7 @@ const PEDIDOS_DATA = {
           "val": 98.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000934",
@@ -218781,7 +220006,7 @@ const PEDIDOS_DATA = {
           "val": 61.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000935",
@@ -218809,7 +220034,7 @@ const PEDIDOS_DATA = {
           "val": 275.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000939",
@@ -218847,7 +220072,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000941",
@@ -218880,7 +220105,7 @@ const PEDIDOS_DATA = {
           "val": 59.88
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000380",
@@ -218913,7 +220138,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "378000381",
@@ -218936,7 +220161,7 @@ const PEDIDOS_DATA = {
           "val": 69.96
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000383",
@@ -218959,7 +220184,7 @@ const PEDIDOS_DATA = {
           "val": 195.78
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000588",
@@ -218982,7 +220207,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000589",
@@ -219010,7 +220235,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "460000024",
@@ -219048,7 +220273,7 @@ const PEDIDOS_DATA = {
           "val": 125.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "460000025",
@@ -219239,7 +220464,7 @@ const PEDIDOS_DATA = {
           "val": 790.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "425000088",
@@ -219262,7 +220487,7 @@ const PEDIDOS_DATA = {
           "val": 3087.36
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "425000089",
@@ -219285,7 +220510,7 @@ const PEDIDOS_DATA = {
           "val": 790.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "425000090",
@@ -219308,7 +220533,7 @@ const PEDIDOS_DATA = {
           "val": 2372.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "425000091",
@@ -219336,7 +220561,7 @@ const PEDIDOS_DATA = {
           "val": 65.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "371000192",
@@ -219438,7 +220663,7 @@ const PEDIDOS_DATA = {
           "val": 2372.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "426000224",
@@ -219494,7 +220719,7 @@ const PEDIDOS_DATA = {
           "val": 18720.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "426000226",
@@ -219537,7 +220762,7 @@ const PEDIDOS_DATA = {
           "val": 1821.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "426000227",
@@ -219621,7 +220846,7 @@ const PEDIDOS_DATA = {
           "val": 2508.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "476000002",
@@ -219674,7 +220899,7 @@ const PEDIDOS_DATA = {
           "val": 123.24
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "476000003",
@@ -219732,7 +220957,7 @@ const PEDIDOS_DATA = {
           "val": 790.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "438000073",
@@ -219857,7 +221082,7 @@ const PEDIDOS_DATA = {
           "val": 395.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "433000041",
@@ -219880,7 +221105,7 @@ const PEDIDOS_DATA = {
           "val": 3414.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "466000012",
@@ -219931,7 +221156,7 @@ const PEDIDOS_DATA = {
           "val": 12468.0
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": "VOLTOU"
     },
     {
       "numped": "588002539",
@@ -220043,7 +221268,7 @@ const PEDIDOS_DATA = {
           "val": 630.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "588002543",
@@ -220211,7 +221436,7 @@ const PEDIDOS_DATA = {
           "val": 119.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "472000014",
@@ -221309,7 +222534,7 @@ const PEDIDOS_DATA = {
           "val": 95.88
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "241000468",
@@ -221337,7 +222562,7 @@ const PEDIDOS_DATA = {
           "val": 476.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "275000494",
@@ -221360,7 +222585,7 @@ const PEDIDOS_DATA = {
           "val": 84521.1
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "275000496",
@@ -221393,7 +222618,7 @@ const PEDIDOS_DATA = {
           "val": 294.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "158000324",
@@ -221426,7 +222651,7 @@ const PEDIDOS_DATA = {
           "val": 952.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "91000239",
@@ -221520,7 +222745,7 @@ const PEDIDOS_DATA = {
           "val": 221.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "439000150",
@@ -221553,7 +222778,7 @@ const PEDIDOS_DATA = {
           "val": 38.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "439000151",
@@ -221576,7 +222801,7 @@ const PEDIDOS_DATA = {
           "val": 229.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004629",
@@ -221614,7 +222839,7 @@ const PEDIDOS_DATA = {
           "val": 649.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004630",
@@ -221647,7 +222872,7 @@ const PEDIDOS_DATA = {
           "val": 65.52
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004631",
@@ -221680,7 +222905,7 @@ const PEDIDOS_DATA = {
           "val": 429.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004634",
@@ -221703,7 +222928,7 @@ const PEDIDOS_DATA = {
           "val": 539.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004636",
@@ -221731,7 +222956,7 @@ const PEDIDOS_DATA = {
           "val": 55.1
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004637",
@@ -221759,7 +222984,7 @@ const PEDIDOS_DATA = {
           "val": 64.21
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004638",
@@ -221782,7 +223007,7 @@ const PEDIDOS_DATA = {
           "val": 161.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004644",
@@ -221805,7 +223030,7 @@ const PEDIDOS_DATA = {
           "val": 197.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004645",
@@ -221828,7 +223053,7 @@ const PEDIDOS_DATA = {
           "val": 209.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004646",
@@ -221940,7 +223165,7 @@ const PEDIDOS_DATA = {
           "val": 129.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001257",
@@ -221983,7 +223208,7 @@ const PEDIDOS_DATA = {
           "val": 34.3
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001122",
@@ -222021,7 +223246,7 @@ const PEDIDOS_DATA = {
           "val": 1305.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001123",
@@ -222102,7 +223327,7 @@ const PEDIDOS_DATA = {
           "val": 660.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001127",
@@ -222125,7 +223350,7 @@ const PEDIDOS_DATA = {
           "val": 85.2
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "153001129",
@@ -222404,7 +223629,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003504",
@@ -222516,7 +223741,7 @@ const PEDIDOS_DATA = {
           "val": 119.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003509",
@@ -222549,7 +223774,7 @@ const PEDIDOS_DATA = {
           "val": 479.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003510",
@@ -222582,7 +223807,7 @@ const PEDIDOS_DATA = {
           "val": 55.1
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003511",
@@ -222638,7 +223863,7 @@ const PEDIDOS_DATA = {
           "val": 399.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000965",
@@ -222671,7 +223896,7 @@ const PEDIDOS_DATA = {
           "val": 47.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000966",
@@ -222704,7 +223929,7 @@ const PEDIDOS_DATA = {
           "val": 72.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "257002313",
@@ -222901,7 +224126,7 @@ const PEDIDOS_DATA = {
           "val": 45.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003397",
@@ -222984,7 +224209,7 @@ const PEDIDOS_DATA = {
           "val": 47.84
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003398",
@@ -223067,7 +224292,7 @@ const PEDIDOS_DATA = {
           "val": 60.32
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003399",
@@ -223150,7 +224375,7 @@ const PEDIDOS_DATA = {
           "val": 49.92
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003400",
@@ -223183,7 +224408,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003401",
@@ -223326,7 +224551,7 @@ const PEDIDOS_DATA = {
           "val": 59.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003402",
@@ -223349,7 +224574,7 @@ const PEDIDOS_DATA = {
           "val": 220.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "335000798",
@@ -223506,7 +224731,7 @@ const PEDIDOS_DATA = {
           "val": 43.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000205",
@@ -223529,7 +224754,7 @@ const PEDIDOS_DATA = {
           "val": 195.84
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000207",
@@ -223552,7 +224777,7 @@ const PEDIDOS_DATA = {
           "val": 39.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000208",
@@ -223580,7 +224805,7 @@ const PEDIDOS_DATA = {
           "val": 274.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000209",
@@ -223608,7 +224833,7 @@ const PEDIDOS_DATA = {
           "val": 942.3
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000210",
@@ -223631,7 +224856,7 @@ const PEDIDOS_DATA = {
           "val": 343.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001424",
@@ -223659,7 +224884,7 @@ const PEDIDOS_DATA = {
           "val": 64.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001425",
@@ -223682,7 +224907,7 @@ const PEDIDOS_DATA = {
           "val": 3948.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001426",
@@ -223705,7 +224930,7 @@ const PEDIDOS_DATA = {
           "val": 1974.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001427",
@@ -223728,7 +224953,7 @@ const PEDIDOS_DATA = {
           "val": 383.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001428",
@@ -223751,7 +224976,7 @@ const PEDIDOS_DATA = {
           "val": 191.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001429",
@@ -223794,7 +225019,7 @@ const PEDIDOS_DATA = {
           "val": 231.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000932",
@@ -223827,7 +225052,7 @@ const PEDIDOS_DATA = {
           "val": 71.76
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "431000933",
@@ -223860,7 +225085,7 @@ const PEDIDOS_DATA = {
           "val": 71.76
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000376",
@@ -223888,7 +225113,7 @@ const PEDIDOS_DATA = {
           "val": 284.1
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000587",
@@ -223916,7 +225141,7 @@ const PEDIDOS_DATA = {
           "val": 180.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000164",
@@ -223989,7 +225214,7 @@ const PEDIDOS_DATA = {
           "val": 1342.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "554000881",
@@ -224233,7 +225458,7 @@ const PEDIDOS_DATA = {
           "val": 125.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "461000024",
@@ -224256,7 +225481,7 @@ const PEDIDOS_DATA = {
           "val": 778.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "461000025",
@@ -224378,7 +225603,7 @@ const PEDIDOS_DATA = {
           "val": 298.76
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "119000089",
@@ -224490,7 +225715,7 @@ const PEDIDOS_DATA = {
           "val": 343.94
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "371000183",
@@ -224981,7 +226206,7 @@ const PEDIDOS_DATA = {
           "val": 1974.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "433000033",
@@ -225187,7 +226412,7 @@ const PEDIDOS_DATA = {
           "val": 430.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "588002524",
@@ -225322,7 +226547,7 @@ const PEDIDOS_DATA = {
           "val": 281.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "588002529",
@@ -226669,7 +227894,7 @@ const PEDIDOS_DATA = {
           "val": 209.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "241000466",
@@ -226702,7 +227927,7 @@ const PEDIDOS_DATA = {
           "val": 63.92
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "275000491",
@@ -226730,7 +227955,7 @@ const PEDIDOS_DATA = {
           "val": 592.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "439000148",
@@ -226758,7 +227983,7 @@ const PEDIDOS_DATA = {
           "val": 153.36
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004617",
@@ -226791,7 +228016,7 @@ const PEDIDOS_DATA = {
           "val": 393.12
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004618",
@@ -226824,7 +228049,7 @@ const PEDIDOS_DATA = {
           "val": 333.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004619",
@@ -226847,7 +228072,7 @@ const PEDIDOS_DATA = {
           "val": 958.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004620",
@@ -226870,7 +228095,7 @@ const PEDIDOS_DATA = {
           "val": 110.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004621",
@@ -226893,7 +228118,7 @@ const PEDIDOS_DATA = {
           "val": 281.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004622",
@@ -226936,7 +228161,7 @@ const PEDIDOS_DATA = {
           "val": 165.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004624",
@@ -226974,7 +228199,7 @@ const PEDIDOS_DATA = {
           "val": 91.8
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "159004625",
@@ -226997,7 +228222,7 @@ const PEDIDOS_DATA = {
           "val": 1438.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004626",
@@ -227020,7 +228245,7 @@ const PEDIDOS_DATA = {
           "val": 165.3
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "336001987",
@@ -227129,7 +228354,7 @@ const PEDIDOS_DATA = {
           "val": 310.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001252",
@@ -227152,7 +228377,7 @@ const PEDIDOS_DATA = {
           "val": 690.03
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001253",
@@ -227210,7 +228435,7 @@ const PEDIDOS_DATA = {
           "val": 509.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001114",
@@ -227266,7 +228491,7 @@ const PEDIDOS_DATA = {
           "val": 393.12
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001116",
@@ -227294,7 +228519,7 @@ const PEDIDOS_DATA = {
           "val": 214.8
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "153001117",
@@ -227327,7 +228552,7 @@ const PEDIDOS_DATA = {
           "val": 140.4
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "153001118",
@@ -227355,7 +228580,7 @@ const PEDIDOS_DATA = {
           "val": 418.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001119",
@@ -227383,7 +228608,7 @@ const PEDIDOS_DATA = {
           "val": 131.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001121",
@@ -227571,7 +228796,7 @@ const PEDIDOS_DATA = {
           "val": 149.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003495",
@@ -227594,7 +228819,7 @@ const PEDIDOS_DATA = {
           "val": 282.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003496",
@@ -227637,7 +228862,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003497",
@@ -227670,7 +228895,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003498",
@@ -227693,7 +228918,7 @@ const PEDIDOS_DATA = {
           "val": 419.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003499",
@@ -227716,7 +228941,7 @@ const PEDIDOS_DATA = {
           "val": 48.21
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003501",
@@ -227754,7 +228979,7 @@ const PEDIDOS_DATA = {
           "val": 179.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003502",
@@ -227845,7 +229070,7 @@ const PEDIDOS_DATA = {
           "val": 59.88
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000958",
@@ -227878,7 +229103,7 @@ const PEDIDOS_DATA = {
           "val": 257.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000959",
@@ -227926,7 +229151,7 @@ const PEDIDOS_DATA = {
           "val": 86.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000960",
@@ -227949,7 +229174,7 @@ const PEDIDOS_DATA = {
           "val": 644.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000961",
@@ -227992,7 +229217,7 @@ const PEDIDOS_DATA = {
           "val": 71.97
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000962",
@@ -228030,7 +229255,7 @@ const PEDIDOS_DATA = {
           "val": 89.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000963",
@@ -228053,7 +229278,7 @@ const PEDIDOS_DATA = {
           "val": 447.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "257002312",
@@ -228180,7 +229405,7 @@ const PEDIDOS_DATA = {
           "val": 45.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003377",
@@ -228258,7 +229483,7 @@ const PEDIDOS_DATA = {
           "val": 43.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003378",
@@ -228306,7 +229531,7 @@ const PEDIDOS_DATA = {
           "val": 104.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003379",
@@ -228334,7 +229559,7 @@ const PEDIDOS_DATA = {
           "val": 245.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003380",
@@ -228367,7 +229592,7 @@ const PEDIDOS_DATA = {
           "val": 245.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003381",
@@ -228395,7 +229620,7 @@ const PEDIDOS_DATA = {
           "val": 49.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003382",
@@ -228433,7 +229658,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003383",
@@ -228506,7 +229731,7 @@ const PEDIDOS_DATA = {
           "val": 75.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003384",
@@ -228534,7 +229759,7 @@ const PEDIDOS_DATA = {
           "val": 87.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003385",
@@ -228567,7 +229792,7 @@ const PEDIDOS_DATA = {
           "val": 65.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003386",
@@ -228605,7 +229830,7 @@ const PEDIDOS_DATA = {
           "val": 51.49
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003387",
@@ -228643,7 +229868,7 @@ const PEDIDOS_DATA = {
           "val": 52.52
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003388",
@@ -228671,7 +229896,7 @@ const PEDIDOS_DATA = {
           "val": 219.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003389",
@@ -228699,7 +229924,7 @@ const PEDIDOS_DATA = {
           "val": 219.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003390",
@@ -228752,7 +229977,7 @@ const PEDIDOS_DATA = {
           "val": 78.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003392",
@@ -228810,7 +230035,7 @@ const PEDIDOS_DATA = {
           "val": 101.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003393",
@@ -228848,7 +230073,7 @@ const PEDIDOS_DATA = {
           "val": 450.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003394",
@@ -228886,7 +230111,7 @@ const PEDIDOS_DATA = {
           "val": 450.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003395",
@@ -228985,7 +230210,7 @@ const PEDIDOS_DATA = {
           "val": 199.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000198",
@@ -229018,7 +230243,7 @@ const PEDIDOS_DATA = {
           "val": 59.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000201",
@@ -229051,7 +230276,7 @@ const PEDIDOS_DATA = {
           "val": 29.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "417000314",
@@ -229079,7 +230304,7 @@ const PEDIDOS_DATA = {
           "val": 284.04
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "417000315",
@@ -229107,7 +230332,7 @@ const PEDIDOS_DATA = {
           "val": 473.4
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "417000316",
@@ -229130,7 +230355,7 @@ const PEDIDOS_DATA = {
           "val": 350.4
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "417000317",
@@ -229158,7 +230383,7 @@ const PEDIDOS_DATA = {
           "val": 473.4
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "417000318",
@@ -229216,7 +230441,7 @@ const PEDIDOS_DATA = {
           "val": 239.4
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "417000320",
@@ -229254,7 +230479,7 @@ const PEDIDOS_DATA = {
           "val": 239.4
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "417000322",
@@ -229307,7 +230532,7 @@ const PEDIDOS_DATA = {
           "val": 239.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "417000324",
@@ -229360,7 +230585,7 @@ const PEDIDOS_DATA = {
           "val": 239.4
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "417000325",
@@ -229403,7 +230628,7 @@ const PEDIDOS_DATA = {
           "val": 239.4
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "417000326",
@@ -229426,7 +230651,7 @@ const PEDIDOS_DATA = {
           "val": 209.4
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "144001419",
@@ -229474,7 +230699,7 @@ const PEDIDOS_DATA = {
           "val": 588.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001420",
@@ -229502,7 +230727,7 @@ const PEDIDOS_DATA = {
           "val": 59.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001421",
@@ -229530,7 +230755,7 @@ const PEDIDOS_DATA = {
           "val": 270.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001423",
@@ -229558,7 +230783,7 @@ const PEDIDOS_DATA = {
           "val": 116.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000924",
@@ -229586,7 +230811,7 @@ const PEDIDOS_DATA = {
           "val": 47.98
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000928",
@@ -229649,7 +230874,7 @@ const PEDIDOS_DATA = {
           "val": 114.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000929",
@@ -229730,7 +230955,7 @@ const PEDIDOS_DATA = {
           "val": 210.4
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "378000373",
@@ -229758,7 +230983,7 @@ const PEDIDOS_DATA = {
           "val": 43.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000374",
@@ -229781,7 +231006,7 @@ const PEDIDOS_DATA = {
           "val": 4056.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000583",
@@ -229844,7 +231069,7 @@ const PEDIDOS_DATA = {
           "val": 81.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000585",
@@ -229872,7 +231097,7 @@ const PEDIDOS_DATA = {
           "val": 30.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000586",
@@ -229900,7 +231125,7 @@ const PEDIDOS_DATA = {
           "val": 32.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "420000019",
@@ -229923,7 +231148,7 @@ const PEDIDOS_DATA = {
           "val": 105321.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "420000022",
@@ -229961,7 +231186,7 @@ const PEDIDOS_DATA = {
           "val": 11502.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "554000880",
@@ -230042,7 +231267,7 @@ const PEDIDOS_DATA = {
           "val": 62.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "460000021",
@@ -230387,7 +231612,7 @@ const PEDIDOS_DATA = {
           "val": 6048.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "426000216",
@@ -231786,7 +233011,7 @@ const PEDIDOS_DATA = {
           "val": 5148.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "426000205",
@@ -231880,7 +233105,7 @@ const PEDIDOS_DATA = {
           "val": 528.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "554000875",
@@ -232055,7 +233280,7 @@ const PEDIDOS_DATA = {
           "val": 6426.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "158000323",
@@ -232078,7 +233303,7 @@ const PEDIDOS_DATA = {
           "val": 3553.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "91000238",
@@ -232243,7 +233468,7 @@ const PEDIDOS_DATA = {
           "val": 2744.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004615",
@@ -232286,7 +233511,7 @@ const PEDIDOS_DATA = {
           "val": 55.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004616",
@@ -232314,7 +233539,7 @@ const PEDIDOS_DATA = {
           "val": 107.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "336001986",
@@ -232433,7 +233658,7 @@ const PEDIDOS_DATA = {
           "val": 49.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000942",
@@ -232456,7 +233681,7 @@ const PEDIDOS_DATA = {
           "val": 259.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000943",
@@ -232479,7 +233704,7 @@ const PEDIDOS_DATA = {
           "val": 155.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000944",
@@ -232502,7 +233727,7 @@ const PEDIDOS_DATA = {
           "val": 20.16
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000945",
@@ -232525,7 +233750,7 @@ const PEDIDOS_DATA = {
           "val": 314.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000946",
@@ -232548,7 +233773,7 @@ const PEDIDOS_DATA = {
           "val": 89.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000947",
@@ -232576,7 +233801,7 @@ const PEDIDOS_DATA = {
           "val": 95.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000949",
@@ -232609,7 +233834,7 @@ const PEDIDOS_DATA = {
           "val": 65.28
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000950",
@@ -232647,7 +233872,7 @@ const PEDIDOS_DATA = {
           "val": 195.84
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000951",
@@ -232680,7 +233905,7 @@ const PEDIDOS_DATA = {
           "val": 779.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000952",
@@ -232703,7 +233928,7 @@ const PEDIDOS_DATA = {
           "val": 129.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000955",
@@ -232726,7 +233951,7 @@ const PEDIDOS_DATA = {
           "val": 59.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000956",
@@ -232759,7 +233984,7 @@ const PEDIDOS_DATA = {
           "val": 66.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "257002310",
@@ -232944,7 +234169,7 @@ const PEDIDOS_DATA = {
           "val": 999.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003366",
@@ -232972,7 +234197,7 @@ const PEDIDOS_DATA = {
           "val": 131.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003367",
@@ -233060,7 +234285,7 @@ const PEDIDOS_DATA = {
           "val": 143.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003369",
@@ -233103,7 +234328,7 @@ const PEDIDOS_DATA = {
           "val": 209.88
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003370",
@@ -233126,7 +234351,7 @@ const PEDIDOS_DATA = {
           "val": 245.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003372",
@@ -233179,7 +234404,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003373",
@@ -233252,7 +234477,7 @@ const PEDIDOS_DATA = {
           "val": 87.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "335000790",
@@ -233470,7 +234695,7 @@ const PEDIDOS_DATA = {
           "val": 1299.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000190",
@@ -233503,7 +234728,7 @@ const PEDIDOS_DATA = {
           "val": 65.28
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000191",
@@ -233541,7 +234766,7 @@ const PEDIDOS_DATA = {
           "val": 43.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000193",
@@ -233569,7 +234794,7 @@ const PEDIDOS_DATA = {
           "val": 86.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000194",
@@ -233592,7 +234817,7 @@ const PEDIDOS_DATA = {
           "val": 659.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000195",
@@ -233620,7 +234845,7 @@ const PEDIDOS_DATA = {
           "val": 216.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000196",
@@ -233643,7 +234868,7 @@ const PEDIDOS_DATA = {
           "val": 216.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "417000309",
@@ -233749,7 +234974,7 @@ const PEDIDOS_DATA = {
           "val": 299.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000918",
@@ -233772,7 +234997,7 @@ const PEDIDOS_DATA = {
           "val": 385.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000919",
@@ -233795,7 +235020,7 @@ const PEDIDOS_DATA = {
           "val": 256.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000920",
@@ -233818,7 +235043,7 @@ const PEDIDOS_DATA = {
           "val": 71.76
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000922",
@@ -233866,7 +235091,7 @@ const PEDIDOS_DATA = {
           "val": 114.98
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000577",
@@ -233919,7 +235144,7 @@ const PEDIDOS_DATA = {
           "val": 65.52
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000578",
@@ -233972,7 +235197,7 @@ const PEDIDOS_DATA = {
           "val": 65.52
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000579",
@@ -234025,7 +235250,7 @@ const PEDIDOS_DATA = {
           "val": 65.52
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000580",
@@ -234078,7 +235303,7 @@ const PEDIDOS_DATA = {
           "val": 65.52
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000581",
@@ -234131,7 +235356,7 @@ const PEDIDOS_DATA = {
           "val": 65.52
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000582",
@@ -234182,7 +235407,7 @@ const PEDIDOS_DATA = {
           "val": 18160.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000160",
@@ -234255,7 +235480,7 @@ const PEDIDOS_DATA = {
           "val": 1342.8
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "450000161",
@@ -234278,7 +235503,7 @@ const PEDIDOS_DATA = {
           "val": 370.83
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "439000093",
@@ -236228,7 +237453,7 @@ const PEDIDOS_DATA = {
           "val": 1428.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "275000489",
@@ -236294,7 +237519,7 @@ const PEDIDOS_DATA = {
           "val": 176.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "343000147",
@@ -236365,7 +237590,7 @@ const PEDIDOS_DATA = {
           "val": 102.38
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004602",
@@ -236388,7 +237613,7 @@ const PEDIDOS_DATA = {
           "val": 49.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004603",
@@ -236411,7 +237636,7 @@ const PEDIDOS_DATA = {
           "val": 16779.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004604",
@@ -236434,7 +237659,7 @@ const PEDIDOS_DATA = {
           "val": 958.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004605",
@@ -236457,7 +237682,7 @@ const PEDIDOS_DATA = {
           "val": 613.44
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004607",
@@ -236495,7 +237720,7 @@ const PEDIDOS_DATA = {
           "val": 91.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004608",
@@ -236543,7 +237768,7 @@ const PEDIDOS_DATA = {
           "val": 47.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004610",
@@ -236566,7 +237791,7 @@ const PEDIDOS_DATA = {
           "val": 81.33
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004611",
@@ -236604,7 +237829,7 @@ const PEDIDOS_DATA = {
           "val": 127.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004612",
@@ -236662,7 +237887,7 @@ const PEDIDOS_DATA = {
           "val": 32.76
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "336001981",
@@ -236920,7 +238145,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001241",
@@ -236943,7 +238168,7 @@ const PEDIDOS_DATA = {
           "val": 129.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001244",
@@ -236966,7 +238191,7 @@ const PEDIDOS_DATA = {
           "val": 1059.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001245",
@@ -236994,7 +238219,7 @@ const PEDIDOS_DATA = {
           "val": 43.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001246",
@@ -237017,7 +238242,7 @@ const PEDIDOS_DATA = {
           "val": 286.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001248",
@@ -237040,7 +238265,7 @@ const PEDIDOS_DATA = {
           "val": 129.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001249",
@@ -237063,7 +238288,7 @@ const PEDIDOS_DATA = {
           "val": 129.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001250",
@@ -237086,7 +238311,7 @@ const PEDIDOS_DATA = {
           "val": 662.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001105",
@@ -237119,7 +238344,7 @@ const PEDIDOS_DATA = {
           "val": 783.36
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001106",
@@ -237167,7 +238392,7 @@ const PEDIDOS_DATA = {
           "val": 537.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001108",
@@ -237220,7 +238445,7 @@ const PEDIDOS_DATA = {
           "val": 442.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001110",
@@ -237258,7 +238483,7 @@ const PEDIDOS_DATA = {
           "val": 414.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001111",
@@ -237296,7 +238521,7 @@ const PEDIDOS_DATA = {
           "val": 414.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001112",
@@ -237319,7 +238544,7 @@ const PEDIDOS_DATA = {
           "val": 255.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001113",
@@ -237362,7 +238587,7 @@ const PEDIDOS_DATA = {
           "val": 191.88
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "370001331",
@@ -237418,7 +238643,7 @@ const PEDIDOS_DATA = {
           "val": 167.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003484",
@@ -237441,7 +238666,7 @@ const PEDIDOS_DATA = {
           "val": 2301.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003485",
@@ -237484,7 +238709,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003486",
@@ -237512,7 +238737,7 @@ const PEDIDOS_DATA = {
           "val": 613.44
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003487",
@@ -237540,7 +238765,7 @@ const PEDIDOS_DATA = {
           "val": 299.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003488",
@@ -237563,7 +238788,7 @@ const PEDIDOS_DATA = {
           "val": 1581.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000937",
@@ -237591,7 +238816,7 @@ const PEDIDOS_DATA = {
           "val": 47.88
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000938",
@@ -237624,7 +238849,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000939",
@@ -237647,7 +238872,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "260001266",
@@ -237698,7 +238923,7 @@ const PEDIDOS_DATA = {
           "val": 245.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003345",
@@ -237809,7 +239034,7 @@ const PEDIDOS_DATA = {
           "val": 87.6
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "156003348",
@@ -237952,7 +239177,7 @@ const PEDIDOS_DATA = {
           "val": 87.48
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003349",
@@ -238000,7 +239225,7 @@ const PEDIDOS_DATA = {
           "val": 29.88
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003350",
@@ -238028,7 +239253,7 @@ const PEDIDOS_DATA = {
           "val": 152.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003352",
@@ -238066,7 +239291,7 @@ const PEDIDOS_DATA = {
           "val": 78.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003353",
@@ -238144,7 +239369,7 @@ const PEDIDOS_DATA = {
           "val": 157.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003355",
@@ -238187,7 +239412,7 @@ const PEDIDOS_DATA = {
           "val": 159.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003356",
@@ -238215,7 +239440,7 @@ const PEDIDOS_DATA = {
           "val": 149.94
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003357",
@@ -238283,7 +239508,7 @@ const PEDIDOS_DATA = {
           "val": 197.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003358",
@@ -238306,7 +239531,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003359",
@@ -238329,7 +239554,7 @@ const PEDIDOS_DATA = {
           "val": 250.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003360",
@@ -238352,7 +239577,7 @@ const PEDIDOS_DATA = {
           "val": 259.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003361",
@@ -238380,7 +239605,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003362",
@@ -238403,7 +239628,7 @@ const PEDIDOS_DATA = {
           "val": 31.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003363",
@@ -238426,7 +239651,7 @@ const PEDIDOS_DATA = {
           "val": 67.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003364",
@@ -238479,7 +239704,7 @@ const PEDIDOS_DATA = {
           "val": 87.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "335000782",
@@ -238722,7 +239947,7 @@ const PEDIDOS_DATA = {
           "val": 197.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "417000307",
@@ -238745,7 +239970,7 @@ const PEDIDOS_DATA = {
           "val": 280.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003482",
@@ -238768,7 +239993,7 @@ const PEDIDOS_DATA = {
           "val": 166.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001415",
@@ -238826,7 +240051,7 @@ const PEDIDOS_DATA = {
           "val": 64.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001416",
@@ -238854,7 +240079,7 @@ const PEDIDOS_DATA = {
           "val": 64.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001417",
@@ -238912,7 +240137,7 @@ const PEDIDOS_DATA = {
           "val": 299.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000910",
@@ -238970,7 +240195,7 @@ const PEDIDOS_DATA = {
           "val": 94.68
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000912",
@@ -238993,7 +240218,7 @@ const PEDIDOS_DATA = {
           "val": 171.44
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000913",
@@ -239051,7 +240276,7 @@ const PEDIDOS_DATA = {
           "val": 34.65
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000914",
@@ -239079,7 +240304,7 @@ const PEDIDOS_DATA = {
           "val": 71.76
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "431000915",
@@ -239112,7 +240337,7 @@ const PEDIDOS_DATA = {
           "val": 71.76
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000917",
@@ -239145,7 +240370,7 @@ const PEDIDOS_DATA = {
           "val": 71.76
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000371",
@@ -239178,7 +240403,7 @@ const PEDIDOS_DATA = {
           "val": 65.28
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "378000372",
@@ -239201,7 +240426,7 @@ const PEDIDOS_DATA = {
           "val": 394.8
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "419000573",
@@ -239234,7 +240459,7 @@ const PEDIDOS_DATA = {
           "val": 60.26
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000576",
@@ -239272,7 +240497,7 @@ const PEDIDOS_DATA = {
           "val": 155.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000157",
@@ -239300,7 +240525,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000158",
@@ -239333,7 +240558,7 @@ const PEDIDOS_DATA = {
           "val": 7923.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "299000061",
@@ -239447,7 +240672,7 @@ const PEDIDOS_DATA = {
           "val": 250.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "317000090",
@@ -239662,7 +240887,7 @@ const PEDIDOS_DATA = {
           "val": 123.24
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "426000192",
@@ -239896,7 +241121,7 @@ const PEDIDOS_DATA = {
           "val": 353.4
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "469000014",
@@ -240398,7 +241623,7 @@ const PEDIDOS_DATA = {
           "val": 4765.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "349000285",
@@ -241542,7 +242767,7 @@ const PEDIDOS_DATA = {
           "val": 628.2
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "275000488",
@@ -241590,7 +242815,7 @@ const PEDIDOS_DATA = {
           "val": 410.15
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "342000140",
@@ -241830,7 +243055,7 @@ const PEDIDOS_DATA = {
           "val": 29.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "439000145",
@@ -241863,7 +243088,7 @@ const PEDIDOS_DATA = {
           "val": 479.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "439000146",
@@ -241916,7 +243141,7 @@ const PEDIDOS_DATA = {
           "val": 69.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "439000147",
@@ -241939,7 +243164,7 @@ const PEDIDOS_DATA = {
           "val": 113.88
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000906",
@@ -241962,7 +243187,7 @@ const PEDIDOS_DATA = {
           "val": 119.52
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000907",
@@ -241995,7 +243220,7 @@ const PEDIDOS_DATA = {
           "val": 71.76
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000908",
@@ -242018,7 +243243,7 @@ const PEDIDOS_DATA = {
           "val": 68.25
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004582",
@@ -242061,7 +243286,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004583",
@@ -242084,7 +243309,7 @@ const PEDIDOS_DATA = {
           "val": 276.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004586",
@@ -242122,7 +243347,7 @@ const PEDIDOS_DATA = {
           "val": 98.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004587",
@@ -242150,7 +243375,7 @@ const PEDIDOS_DATA = {
           "val": 199.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004588",
@@ -242178,7 +243403,7 @@ const PEDIDOS_DATA = {
           "val": 419.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004589",
@@ -242201,7 +243426,7 @@ const PEDIDOS_DATA = {
           "val": 48.21
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004590",
@@ -242229,7 +243454,7 @@ const PEDIDOS_DATA = {
           "val": 552.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004591",
@@ -242252,7 +243477,7 @@ const PEDIDOS_DATA = {
           "val": 34.41
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004592",
@@ -242275,7 +243500,7 @@ const PEDIDOS_DATA = {
           "val": 2516.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004593",
@@ -242308,7 +243533,7 @@ const PEDIDOS_DATA = {
           "val": 65.52
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004595",
@@ -242331,7 +243556,7 @@ const PEDIDOS_DATA = {
           "val": 139.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004596",
@@ -242354,7 +243579,7 @@ const PEDIDOS_DATA = {
           "val": 299.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004597",
@@ -242377,7 +243602,7 @@ const PEDIDOS_DATA = {
           "val": 209.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004598",
@@ -242420,7 +243645,7 @@ const PEDIDOS_DATA = {
           "val": 24.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004599",
@@ -242443,7 +243668,7 @@ const PEDIDOS_DATA = {
           "val": 239.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004600",
@@ -242691,7 +243916,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001233",
@@ -242754,7 +243979,7 @@ const PEDIDOS_DATA = {
           "val": 59.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001234",
@@ -242792,7 +244017,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001235",
@@ -242855,7 +244080,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001237",
@@ -242878,7 +244103,7 @@ const PEDIDOS_DATA = {
           "val": 187.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001103",
@@ -242926,7 +244151,7 @@ const PEDIDOS_DATA = {
           "val": 298.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001104",
@@ -242964,7 +244189,7 @@ const PEDIDOS_DATA = {
           "val": 1305.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "370001325",
@@ -243235,7 +244460,7 @@ const PEDIDOS_DATA = {
           "val": 67.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000928",
@@ -243273,7 +244498,7 @@ const PEDIDOS_DATA = {
           "val": 156.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000929",
@@ -243321,7 +244546,7 @@ const PEDIDOS_DATA = {
           "val": 69.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000930",
@@ -243349,7 +244574,7 @@ const PEDIDOS_DATA = {
           "val": 117.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000931",
@@ -243377,7 +244602,7 @@ const PEDIDOS_DATA = {
           "val": 114.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000932",
@@ -243405,7 +244630,7 @@ const PEDIDOS_DATA = {
           "val": 59.88
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000933",
@@ -243438,7 +244663,7 @@ const PEDIDOS_DATA = {
           "val": 70.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "257002308",
@@ -243668,7 +244893,7 @@ const PEDIDOS_DATA = {
           "val": 980.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003339",
@@ -243696,7 +244921,7 @@ const PEDIDOS_DATA = {
           "val": 980.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003341",
@@ -243724,7 +244949,7 @@ const PEDIDOS_DATA = {
           "val": 87.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "335000774",
@@ -243928,7 +245153,7 @@ const PEDIDOS_DATA = {
           "val": 274.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "417000300",
@@ -243961,7 +245186,7 @@ const PEDIDOS_DATA = {
           "val": 394.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "417000301",
@@ -244009,7 +245234,7 @@ const PEDIDOS_DATA = {
           "val": 418.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "417000303",
@@ -244042,7 +245267,7 @@ const PEDIDOS_DATA = {
           "val": 209.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003472",
@@ -244070,7 +245295,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003473",
@@ -244108,7 +245333,7 @@ const PEDIDOS_DATA = {
           "val": 149.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003474",
@@ -244151,7 +245376,7 @@ const PEDIDOS_DATA = {
           "val": 251.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003475",
@@ -244174,7 +245399,7 @@ const PEDIDOS_DATA = {
           "val": 179.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003479",
@@ -244212,7 +245437,7 @@ const PEDIDOS_DATA = {
           "val": 394.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003480",
@@ -244245,7 +245470,7 @@ const PEDIDOS_DATA = {
           "val": 407.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003481",
@@ -244278,7 +245503,7 @@ const PEDIDOS_DATA = {
           "val": 48.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001412",
@@ -244306,7 +245531,7 @@ const PEDIDOS_DATA = {
           "val": 64.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001413",
@@ -244329,7 +245554,7 @@ const PEDIDOS_DATA = {
           "val": 786.24
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001414",
@@ -244357,7 +245582,7 @@ const PEDIDOS_DATA = {
           "val": 64.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000909",
@@ -244385,7 +245610,7 @@ const PEDIDOS_DATA = {
           "val": 61.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000571",
@@ -244413,7 +245638,7 @@ const PEDIDOS_DATA = {
           "val": 142.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000572",
@@ -244436,7 +245661,7 @@ const PEDIDOS_DATA = {
           "val": 419.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "420000016",
@@ -244484,7 +245709,7 @@ const PEDIDOS_DATA = {
           "val": 5138.64
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "420000017",
@@ -244537,7 +245762,7 @@ const PEDIDOS_DATA = {
           "val": 7668.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000156",
@@ -244560,7 +245785,7 @@ const PEDIDOS_DATA = {
           "val": 161.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "439000089",
@@ -245054,7 +246279,7 @@ const PEDIDOS_DATA = {
           "val": 83.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "465000006",
@@ -245092,7 +246317,7 @@ const PEDIDOS_DATA = {
           "val": 125.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "317000085",
@@ -245728,7 +246953,7 @@ const PEDIDOS_DATA = {
           "val": 575.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "466000009",
@@ -245837,7 +247062,7 @@ const PEDIDOS_DATA = {
           "val": 125.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "469000008",
@@ -245952,7 +247177,7 @@ const PEDIDOS_DATA = {
           "val": 1132.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "469000013",
@@ -247783,7 +249008,7 @@ const PEDIDOS_DATA = {
           "val": 697.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "275000470",
@@ -247839,7 +249064,7 @@ const PEDIDOS_DATA = {
           "val": 418.8
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "275000472",
@@ -247862,7 +249087,7 @@ const PEDIDOS_DATA = {
           "val": 418.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "275000473",
@@ -247910,7 +249135,7 @@ const PEDIDOS_DATA = {
           "val": 410.15
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "275000474",
@@ -247958,7 +249183,7 @@ const PEDIDOS_DATA = {
           "val": 410.15
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "275000478",
@@ -248064,7 +249289,7 @@ const PEDIDOS_DATA = {
           "val": 820.3
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "275000481",
@@ -248092,7 +249317,7 @@ const PEDIDOS_DATA = {
           "val": 2097.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "275000483",
@@ -248150,7 +249375,7 @@ const PEDIDOS_DATA = {
           "val": 164.06
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "275000484",
@@ -248241,7 +249466,7 @@ const PEDIDOS_DATA = {
           "val": 410.15
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "158000316",
@@ -248264,7 +249489,7 @@ const PEDIDOS_DATA = {
           "val": 357.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "158000319",
@@ -248292,7 +249517,7 @@ const PEDIDOS_DATA = {
           "val": 7896.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "158000321",
@@ -248315,7 +249540,7 @@ const PEDIDOS_DATA = {
           "val": 34237.21
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "91000235",
@@ -248408,7 +249633,7 @@ const PEDIDOS_DATA = {
           "val": 2134.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "91000236",
@@ -248486,7 +249711,7 @@ const PEDIDOS_DATA = {
           "val": 279.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "91000237",
@@ -248509,7 +249734,7 @@ const PEDIDOS_DATA = {
           "val": 2519.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "342000136",
@@ -248716,7 +249941,7 @@ const PEDIDOS_DATA = {
           "val": 286.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000901",
@@ -248749,7 +249974,7 @@ const PEDIDOS_DATA = {
           "val": 71.76
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000902",
@@ -248797,7 +250022,7 @@ const PEDIDOS_DATA = {
           "val": 94.68
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000903",
@@ -248835,7 +250060,7 @@ const PEDIDOS_DATA = {
           "val": 209.96
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000904",
@@ -248863,7 +250088,7 @@ const PEDIDOS_DATA = {
           "val": 94.68
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000905",
@@ -248886,7 +250111,7 @@ const PEDIDOS_DATA = {
           "val": 94.68
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004570",
@@ -248909,7 +250134,7 @@ const PEDIDOS_DATA = {
           "val": 393.12
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004571",
@@ -248932,7 +250157,7 @@ const PEDIDOS_DATA = {
           "val": 197.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004573",
@@ -248960,7 +250185,7 @@ const PEDIDOS_DATA = {
           "val": 79.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004575",
@@ -249003,7 +250228,7 @@ const PEDIDOS_DATA = {
           "val": 278.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004576",
@@ -249026,7 +250251,7 @@ const PEDIDOS_DATA = {
           "val": 1039.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004577",
@@ -249054,7 +250279,7 @@ const PEDIDOS_DATA = {
           "val": 98.28
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004578",
@@ -249077,7 +250302,7 @@ const PEDIDOS_DATA = {
           "val": 454.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004581",
@@ -249313,7 +250538,7 @@ const PEDIDOS_DATA = {
           "val": 359.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001229",
@@ -249336,7 +250561,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001230",
@@ -249384,7 +250609,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001231",
@@ -249440,7 +250665,7 @@ const PEDIDOS_DATA = {
           "val": 317.02
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "370001322",
@@ -249516,7 +250741,7 @@ const PEDIDOS_DATA = {
           "val": 130.56
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "379000919",
@@ -249559,7 +250784,7 @@ const PEDIDOS_DATA = {
           "val": 117.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000920",
@@ -249632,7 +250857,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000921",
@@ -249660,7 +250885,7 @@ const PEDIDOS_DATA = {
           "val": 1887.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000922",
@@ -249688,7 +250913,7 @@ const PEDIDOS_DATA = {
           "val": 235.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "257002301",
@@ -250087,7 +251312,7 @@ const PEDIDOS_DATA = {
           "val": 389.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003311",
@@ -250150,7 +251375,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "156003312",
@@ -250213,7 +251438,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003313",
@@ -250236,7 +251461,7 @@ const PEDIDOS_DATA = {
           "val": 185.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003314",
@@ -250284,7 +251509,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003315",
@@ -250317,7 +251542,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003316",
@@ -250415,7 +251640,7 @@ const PEDIDOS_DATA = {
           "val": 45.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003317",
@@ -250478,7 +251703,7 @@ const PEDIDOS_DATA = {
           "val": 71.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003320",
@@ -250541,7 +251766,7 @@ const PEDIDOS_DATA = {
           "val": 68.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003321",
@@ -250614,7 +251839,7 @@ const PEDIDOS_DATA = {
           "val": 267.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003322",
@@ -250642,7 +251867,7 @@ const PEDIDOS_DATA = {
           "val": 33.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003324",
@@ -250695,7 +251920,7 @@ const PEDIDOS_DATA = {
           "val": 23.94
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003325",
@@ -250738,7 +251963,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003326",
@@ -250786,7 +252011,7 @@ const PEDIDOS_DATA = {
           "val": 78.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003327",
@@ -250809,7 +252034,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003328",
@@ -250837,7 +252062,7 @@ const PEDIDOS_DATA = {
           "val": 175.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003329",
@@ -250865,7 +252090,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003330",
@@ -250888,7 +252113,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003331",
@@ -250911,7 +252136,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003332",
@@ -250934,7 +252159,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003333",
@@ -250957,7 +252182,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003334",
@@ -250985,7 +252210,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "335000770",
@@ -251132,7 +252357,7 @@ const PEDIDOS_DATA = {
           "val": 652.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000182",
@@ -251170,7 +252395,7 @@ const PEDIDOS_DATA = {
           "val": 43.2
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "471000183",
@@ -251198,7 +252423,7 @@ const PEDIDOS_DATA = {
           "val": 77.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000184",
@@ -251221,7 +252446,7 @@ const PEDIDOS_DATA = {
           "val": 96.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "417000296",
@@ -251279,7 +252504,7 @@ const PEDIDOS_DATA = {
           "val": 175.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "417000297",
@@ -251302,7 +252527,7 @@ const PEDIDOS_DATA = {
           "val": 249.5
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "417000298",
@@ -251330,7 +252555,7 @@ const PEDIDOS_DATA = {
           "val": 71.76
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "417000299",
@@ -251353,7 +252578,7 @@ const PEDIDOS_DATA = {
           "val": 910.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003459",
@@ -251401,7 +252626,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003460",
@@ -251434,7 +252659,7 @@ const PEDIDOS_DATA = {
           "val": 64.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003461",
@@ -251467,7 +252692,7 @@ const PEDIDOS_DATA = {
           "val": 50.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003462",
@@ -251500,7 +252725,7 @@ const PEDIDOS_DATA = {
           "val": 1267.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003463",
@@ -251523,7 +252748,7 @@ const PEDIDOS_DATA = {
           "val": 1197.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003464",
@@ -251546,7 +252771,7 @@ const PEDIDOS_DATA = {
           "val": 193.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003465",
@@ -251574,7 +252799,7 @@ const PEDIDOS_DATA = {
           "val": 98.28
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003466",
@@ -251602,7 +252827,7 @@ const PEDIDOS_DATA = {
           "val": 489.3
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003467",
@@ -251645,7 +252870,7 @@ const PEDIDOS_DATA = {
           "val": 259.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003468",
@@ -251683,7 +252908,7 @@ const PEDIDOS_DATA = {
           "val": 68.82
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003469",
@@ -251721,7 +252946,7 @@ const PEDIDOS_DATA = {
           "val": 1078.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001407",
@@ -251779,7 +253004,7 @@ const PEDIDOS_DATA = {
           "val": 383.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001409",
@@ -251817,7 +253042,7 @@ const PEDIDOS_DATA = {
           "val": 194.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001410",
@@ -251845,7 +253070,7 @@ const PEDIDOS_DATA = {
           "val": 57.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001411",
@@ -251868,7 +253093,7 @@ const PEDIDOS_DATA = {
           "val": 1296.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000370",
@@ -251911,7 +253136,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000570",
@@ -251944,7 +253169,7 @@ const PEDIDOS_DATA = {
           "val": 29.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000154",
@@ -252010,7 +253235,7 @@ const PEDIDOS_DATA = {
           "val": 149.4
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "91000331",
@@ -252252,7 +253477,7 @@ const PEDIDOS_DATA = {
           "val": 2508.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "461000017",
@@ -252843,7 +254068,7 @@ const PEDIDOS_DATA = {
           "val": 1186.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "438000064",
@@ -253026,7 +254251,7 @@ const PEDIDOS_DATA = {
           "val": 1132.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "469000006",
@@ -254717,7 +255942,7 @@ const PEDIDOS_DATA = {
           "val": 767.04
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "275000461",
@@ -254821,7 +256046,7 @@ const PEDIDOS_DATA = {
           "val": 988.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "158000315",
@@ -254844,7 +256069,7 @@ const PEDIDOS_DATA = {
           "val": 34279.2
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "343000145",
@@ -254905,7 +256130,7 @@ const PEDIDOS_DATA = {
           "val": 654.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000897",
@@ -254938,7 +256163,7 @@ const PEDIDOS_DATA = {
           "val": 87.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000898",
@@ -254966,7 +256191,7 @@ const PEDIDOS_DATA = {
           "val": 71.76
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000899",
@@ -254994,7 +256219,7 @@ const PEDIDOS_DATA = {
           "val": 61.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000900",
@@ -255022,7 +256247,7 @@ const PEDIDOS_DATA = {
           "val": 47.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004554",
@@ -255073,7 +256298,7 @@ const PEDIDOS_DATA = {
           "val": 65.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004556",
@@ -255106,7 +256331,7 @@ const PEDIDOS_DATA = {
           "val": 243.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004557",
@@ -255134,7 +256359,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004558",
@@ -255172,7 +256397,7 @@ const PEDIDOS_DATA = {
           "val": 155.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004559",
@@ -255195,7 +256420,7 @@ const PEDIDOS_DATA = {
           "val": 137.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004560",
@@ -255218,7 +256443,7 @@ const PEDIDOS_DATA = {
           "val": 1965.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004561",
@@ -255241,7 +256466,7 @@ const PEDIDOS_DATA = {
           "val": 589.68
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004562",
@@ -255269,7 +256494,7 @@ const PEDIDOS_DATA = {
           "val": 70.1
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004563",
@@ -255302,7 +256527,7 @@ const PEDIDOS_DATA = {
           "val": 28.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004564",
@@ -255345,7 +256570,7 @@ const PEDIDOS_DATA = {
           "val": 339.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004565",
@@ -255368,7 +256593,7 @@ const PEDIDOS_DATA = {
           "val": 79.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004566",
@@ -255401,7 +256626,7 @@ const PEDIDOS_DATA = {
           "val": 79.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004567",
@@ -255424,7 +256649,7 @@ const PEDIDOS_DATA = {
           "val": 197.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004568",
@@ -255447,7 +256672,7 @@ const PEDIDOS_DATA = {
           "val": 28.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "336001963",
@@ -255675,7 +256900,7 @@ const PEDIDOS_DATA = {
           "val": 191.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001090",
@@ -255761,7 +256986,7 @@ const PEDIDOS_DATA = {
           "val": 600.66
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001093",
@@ -255799,7 +257024,7 @@ const PEDIDOS_DATA = {
           "val": 396.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001094",
@@ -255832,7 +257057,7 @@ const PEDIDOS_DATA = {
           "val": 215.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001095",
@@ -255890,7 +257115,7 @@ const PEDIDOS_DATA = {
           "val": 658.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001096",
@@ -255913,7 +257138,7 @@ const PEDIDOS_DATA = {
           "val": 65.28
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001099",
@@ -255936,7 +257161,7 @@ const PEDIDOS_DATA = {
           "val": 128.16
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001100",
@@ -255959,7 +257184,7 @@ const PEDIDOS_DATA = {
           "val": 426.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001101",
@@ -256162,7 +257387,7 @@ const PEDIDOS_DATA = {
           "val": 183.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "370001320",
@@ -256251,7 +257476,7 @@ const PEDIDOS_DATA = {
           "val": 573.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000909",
@@ -256334,7 +257559,7 @@ const PEDIDOS_DATA = {
           "val": 141.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000910",
@@ -256362,7 +257587,7 @@ const PEDIDOS_DATA = {
           "val": 130.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000911",
@@ -256385,7 +257610,7 @@ const PEDIDOS_DATA = {
           "val": 188.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000912",
@@ -256408,7 +257633,7 @@ const PEDIDOS_DATA = {
           "val": 262.08
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000914",
@@ -256441,7 +257666,7 @@ const PEDIDOS_DATA = {
           "val": 69.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000915",
@@ -256469,7 +257694,7 @@ const PEDIDOS_DATA = {
           "val": 300.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "257002299",
@@ -256744,7 +257969,7 @@ const PEDIDOS_DATA = {
           "val": 157.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003299",
@@ -256842,7 +258067,7 @@ const PEDIDOS_DATA = {
           "val": 87.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003300",
@@ -256895,7 +258120,7 @@ const PEDIDOS_DATA = {
           "val": 87.48
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003301",
@@ -256918,7 +258143,7 @@ const PEDIDOS_DATA = {
           "val": 203.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003302",
@@ -256946,7 +258171,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003303",
@@ -256969,7 +258194,7 @@ const PEDIDOS_DATA = {
           "val": 77.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003304",
@@ -257022,7 +258247,7 @@ const PEDIDOS_DATA = {
           "val": 98.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003305",
@@ -257045,7 +258270,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "156003306",
@@ -257068,7 +258293,7 @@ const PEDIDOS_DATA = {
           "val": 309.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003309",
@@ -257151,7 +258376,7 @@ const PEDIDOS_DATA = {
           "val": 46.72
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "335000766",
@@ -257273,7 +258498,7 @@ const PEDIDOS_DATA = {
           "val": 1015.92
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "442000223",
@@ -257397,7 +258622,7 @@ const PEDIDOS_DATA = {
           "val": 130.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003453",
@@ -257455,7 +258680,7 @@ const PEDIDOS_DATA = {
           "val": 219.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003454",
@@ -257493,7 +258718,7 @@ const PEDIDOS_DATA = {
           "val": 78.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003455",
@@ -257521,7 +258746,7 @@ const PEDIDOS_DATA = {
           "val": 131.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003457",
@@ -257594,7 +258819,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003458",
@@ -257617,7 +258842,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001401",
@@ -257640,7 +258865,7 @@ const PEDIDOS_DATA = {
           "val": 958.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001403",
@@ -257673,7 +258898,7 @@ const PEDIDOS_DATA = {
           "val": 64.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001404",
@@ -257746,7 +258971,7 @@ const PEDIDOS_DATA = {
           "val": 957.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001406",
@@ -257774,7 +258999,7 @@ const PEDIDOS_DATA = {
           "val": 75.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000369",
@@ -257807,7 +259032,7 @@ const PEDIDOS_DATA = {
           "val": 50.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000153",
@@ -258104,7 +259329,7 @@ const PEDIDOS_DATA = {
           "val": 28842.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "465000004",
@@ -258234,7 +259459,7 @@ const PEDIDOS_DATA = {
           "val": 434.7
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "425000083",
@@ -258343,7 +259568,7 @@ const PEDIDOS_DATA = {
           "val": 369.72
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "438000063",
@@ -258465,7 +259690,7 @@ const PEDIDOS_DATA = {
           "val": 9702.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "588002431",
@@ -258656,7 +259881,7 @@ const PEDIDOS_DATA = {
           "val": 1254.0
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "588002440",
@@ -258813,7 +260038,7 @@ const PEDIDOS_DATA = {
           "val": 406.32
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "588002444",
@@ -258925,7 +260150,7 @@ const PEDIDOS_DATA = {
           "val": 2539.2
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "327008771",
@@ -259929,7 +261154,7 @@ const PEDIDOS_DATA = {
           "val": 57.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "238000738",
@@ -259985,7 +261210,7 @@ const PEDIDOS_DATA = {
           "val": 1373.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000150",
@@ -260028,7 +261253,7 @@ const PEDIDOS_DATA = {
           "val": 1056.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000151",
@@ -260066,7 +261291,7 @@ const PEDIDOS_DATA = {
           "val": 528.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000152",
@@ -260099,7 +261324,7 @@ const PEDIDOS_DATA = {
           "val": 264.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "588002426",
@@ -260264,7 +261489,7 @@ const PEDIDOS_DATA = {
           "val": 594.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004550",
@@ -260287,7 +261512,7 @@ const PEDIDOS_DATA = {
           "val": 789.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004552",
@@ -260310,7 +261535,7 @@ const PEDIDOS_DATA = {
           "val": 479.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004553",
@@ -260333,7 +261558,7 @@ const PEDIDOS_DATA = {
           "val": 55.1
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "336001956",
@@ -260602,7 +261827,7 @@ const PEDIDOS_DATA = {
           "val": 276.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001223",
@@ -260658,7 +261883,7 @@ const PEDIDOS_DATA = {
           "val": 189.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001225",
@@ -260719,7 +261944,7 @@ const PEDIDOS_DATA = {
           "val": 87.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001089",
@@ -260752,7 +261977,7 @@ const PEDIDOS_DATA = {
           "val": 987.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000896",
@@ -260785,7 +262010,7 @@ const PEDIDOS_DATA = {
           "val": 65.28
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000897",
@@ -260813,7 +262038,7 @@ const PEDIDOS_DATA = {
           "val": 130.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000899",
@@ -260861,7 +262086,7 @@ const PEDIDOS_DATA = {
           "val": 110.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000901",
@@ -260894,7 +262119,7 @@ const PEDIDOS_DATA = {
           "val": 58.8
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "379000904",
@@ -260937,7 +262162,7 @@ const PEDIDOS_DATA = {
           "val": 419.4
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "379000906",
@@ -261364,7 +262589,7 @@ const PEDIDOS_DATA = {
           "val": 109.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003284",
@@ -261422,7 +262647,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003285",
@@ -261500,7 +262725,7 @@ const PEDIDOS_DATA = {
           "val": 32.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003286",
@@ -261533,7 +262758,7 @@ const PEDIDOS_DATA = {
           "val": 59.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003287",
@@ -261594,7 +262819,7 @@ const PEDIDOS_DATA = {
           "val": 1049.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003290",
@@ -261617,7 +262842,7 @@ const PEDIDOS_DATA = {
           "val": 599.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003291",
@@ -261660,7 +262885,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003292",
@@ -261693,7 +262918,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003293",
@@ -261716,7 +262941,7 @@ const PEDIDOS_DATA = {
           "val": 309.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003294",
@@ -261739,7 +262964,7 @@ const PEDIDOS_DATA = {
           "val": 309.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003295",
@@ -261762,7 +262987,7 @@ const PEDIDOS_DATA = {
           "val": 306.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003296",
@@ -261785,7 +263010,7 @@ const PEDIDOS_DATA = {
           "val": 199.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003297",
@@ -261808,7 +263033,7 @@ const PEDIDOS_DATA = {
           "val": 92.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "335000763",
@@ -261887,7 +263112,7 @@ const PEDIDOS_DATA = {
           "val": 1016.04
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "442000222",
@@ -261938,7 +263163,7 @@ const PEDIDOS_DATA = {
           "val": 473.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003445",
@@ -261966,7 +263191,7 @@ const PEDIDOS_DATA = {
           "val": 248.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003447",
@@ -261999,7 +263224,7 @@ const PEDIDOS_DATA = {
           "val": 150.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003448",
@@ -262052,7 +263277,7 @@ const PEDIDOS_DATA = {
           "val": 420.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003449",
@@ -262080,7 +263305,7 @@ const PEDIDOS_DATA = {
           "val": 70.1
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003450",
@@ -262118,7 +263343,7 @@ const PEDIDOS_DATA = {
           "val": 239.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000368",
@@ -262181,7 +263406,7 @@ const PEDIDOS_DATA = {
           "val": 65.52
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000567",
@@ -262229,7 +263454,7 @@ const PEDIDOS_DATA = {
           "val": 65.52
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000568",
@@ -262277,7 +263502,7 @@ const PEDIDOS_DATA = {
           "val": 65.52
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000569",
@@ -262330,7 +263555,7 @@ const PEDIDOS_DATA = {
           "val": 65.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000143",
@@ -262368,7 +263593,7 @@ const PEDIDOS_DATA = {
           "val": 396.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000145",
@@ -262391,7 +263616,7 @@ const PEDIDOS_DATA = {
           "val": 238.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000146",
@@ -262414,7 +263639,7 @@ const PEDIDOS_DATA = {
           "val": 149.4
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "450000147",
@@ -262437,7 +263662,7 @@ const PEDIDOS_DATA = {
           "val": 298.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000148",
@@ -262490,7 +263715,7 @@ const PEDIDOS_DATA = {
           "val": 690.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "439000086",
@@ -264931,7 +266156,7 @@ const PEDIDOS_DATA = {
           "val": 94.68
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000884",
@@ -264964,7 +266189,7 @@ const PEDIDOS_DATA = {
           "val": 61.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000886",
@@ -265007,7 +266232,7 @@ const PEDIDOS_DATA = {
           "val": 94.68
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000890",
@@ -265030,7 +266255,7 @@ const PEDIDOS_DATA = {
           "val": 154.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000892",
@@ -265053,7 +266278,7 @@ const PEDIDOS_DATA = {
           "val": 393.12
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000895",
@@ -265076,7 +266301,7 @@ const PEDIDOS_DATA = {
           "val": 74.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004540",
@@ -265109,7 +266334,7 @@ const PEDIDOS_DATA = {
           "val": 255.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004541",
@@ -265142,7 +266367,7 @@ const PEDIDOS_DATA = {
           "val": 239.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004542",
@@ -265185,7 +266410,7 @@ const PEDIDOS_DATA = {
           "val": 699.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004543",
@@ -265218,7 +266443,7 @@ const PEDIDOS_DATA = {
           "val": 207.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004544",
@@ -265261,7 +266486,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004545",
@@ -265284,7 +266509,7 @@ const PEDIDOS_DATA = {
           "val": 197.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004546",
@@ -265307,7 +266532,7 @@ const PEDIDOS_DATA = {
           "val": 28.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004548",
@@ -265330,7 +266555,7 @@ const PEDIDOS_DATA = {
           "val": 254.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004549",
@@ -265353,7 +266578,7 @@ const PEDIDOS_DATA = {
           "val": 276.0
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "336001947",
@@ -265713,7 +266938,7 @@ const PEDIDOS_DATA = {
           "val": 129.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001088",
@@ -265736,7 +266961,7 @@ const PEDIDOS_DATA = {
           "val": 786.24
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "388001007",
@@ -265827,7 +267052,7 @@ const PEDIDOS_DATA = {
           "val": 71.52
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000886",
@@ -265860,7 +267085,7 @@ const PEDIDOS_DATA = {
           "val": 1320.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000887",
@@ -265893,7 +267118,7 @@ const PEDIDOS_DATA = {
           "val": 326.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000888",
@@ -265921,7 +267146,7 @@ const PEDIDOS_DATA = {
           "val": 128.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000889",
@@ -265969,7 +267194,7 @@ const PEDIDOS_DATA = {
           "val": 270.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000890",
@@ -265992,7 +267217,7 @@ const PEDIDOS_DATA = {
           "val": 1299.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000891",
@@ -266015,7 +267240,7 @@ const PEDIDOS_DATA = {
           "val": 943.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000894",
@@ -266630,7 +267855,7 @@ const PEDIDOS_DATA = {
           "val": 284.1
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003281",
@@ -266658,7 +267883,7 @@ const PEDIDOS_DATA = {
           "val": 92.7
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "335000758",
@@ -266924,7 +268149,7 @@ const PEDIDOS_DATA = {
           "val": 43.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "417000295",
@@ -266962,7 +268187,7 @@ const PEDIDOS_DATA = {
           "val": 209.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003438",
@@ -266985,7 +268210,7 @@ const PEDIDOS_DATA = {
           "val": 389.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003439",
@@ -267008,7 +268233,7 @@ const PEDIDOS_DATA = {
           "val": 599.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003440",
@@ -267051,7 +268276,7 @@ const PEDIDOS_DATA = {
           "val": 56.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003441",
@@ -267094,7 +268319,7 @@ const PEDIDOS_DATA = {
           "val": 199.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003442",
@@ -267117,7 +268342,7 @@ const PEDIDOS_DATA = {
           "val": 259.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001400",
@@ -267150,7 +268375,7 @@ const PEDIDOS_DATA = {
           "val": 2768.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000366",
@@ -267183,7 +268408,7 @@ const PEDIDOS_DATA = {
           "val": 95.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000367",
@@ -267206,7 +268431,7 @@ const PEDIDOS_DATA = {
           "val": 43.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000564",
@@ -267244,7 +268469,7 @@ const PEDIDOS_DATA = {
           "val": 274.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000565",
@@ -267272,7 +268497,7 @@ const PEDIDOS_DATA = {
           "val": 29.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000566",
@@ -267305,7 +268530,7 @@ const PEDIDOS_DATA = {
           "val": 138.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "420000013",
@@ -267343,7 +268568,7 @@ const PEDIDOS_DATA = {
           "val": 2379.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000141",
@@ -267376,7 +268601,7 @@ const PEDIDOS_DATA = {
           "val": 2157.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "439000084",
@@ -267841,7 +269066,7 @@ const PEDIDOS_DATA = {
           "val": 7524.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "426000175",
@@ -269508,7 +270733,7 @@ const PEDIDOS_DATA = {
           "val": 94.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "241000461",
@@ -269531,7 +270756,7 @@ const PEDIDOS_DATA = {
           "val": 714.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "158000313",
@@ -269589,7 +270814,7 @@ const PEDIDOS_DATA = {
           "val": 594.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "439000136",
@@ -269612,7 +270837,7 @@ const PEDIDOS_DATA = {
           "val": 259.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "439000139",
@@ -269635,7 +270860,7 @@ const PEDIDOS_DATA = {
           "val": 389.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000877",
@@ -269658,7 +270883,7 @@ const PEDIDOS_DATA = {
           "val": 324.67
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000879",
@@ -269681,7 +270906,7 @@ const PEDIDOS_DATA = {
           "val": 294.8
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "431000881",
@@ -269729,7 +270954,7 @@ const PEDIDOS_DATA = {
           "val": 171.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000882",
@@ -269752,7 +270977,7 @@ const PEDIDOS_DATA = {
           "val": 135.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004519",
@@ -269775,7 +271000,7 @@ const PEDIDOS_DATA = {
           "val": 7101.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004520",
@@ -269833,7 +271058,7 @@ const PEDIDOS_DATA = {
           "val": 29.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004521",
@@ -269861,7 +271086,7 @@ const PEDIDOS_DATA = {
           "val": 32.76
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004522",
@@ -269884,7 +271109,7 @@ const PEDIDOS_DATA = {
           "val": 55.1
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004523",
@@ -269922,7 +271147,7 @@ const PEDIDOS_DATA = {
           "val": 519.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004524",
@@ -269945,7 +271170,7 @@ const PEDIDOS_DATA = {
           "val": 197.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004526",
@@ -269988,7 +271213,7 @@ const PEDIDOS_DATA = {
           "val": 359.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004527",
@@ -270016,7 +271241,7 @@ const PEDIDOS_DATA = {
           "val": 55.1
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004528",
@@ -270074,7 +271299,7 @@ const PEDIDOS_DATA = {
           "val": 274.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004529",
@@ -270102,7 +271327,7 @@ const PEDIDOS_DATA = {
           "val": 778.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004530",
@@ -270125,7 +271350,7 @@ const PEDIDOS_DATA = {
           "val": 107.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004531",
@@ -270163,7 +271388,7 @@ const PEDIDOS_DATA = {
           "val": 393.12
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004533",
@@ -270206,7 +271431,7 @@ const PEDIDOS_DATA = {
           "val": 197.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004534",
@@ -270249,7 +271474,7 @@ const PEDIDOS_DATA = {
           "val": 28.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004535",
@@ -270272,7 +271497,7 @@ const PEDIDOS_DATA = {
           "val": 15600.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004537",
@@ -270300,7 +271525,7 @@ const PEDIDOS_DATA = {
           "val": 38.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004538",
@@ -270328,7 +271553,7 @@ const PEDIDOS_DATA = {
           "val": 2368.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004539",
@@ -270401,7 +271626,7 @@ const PEDIDOS_DATA = {
           "val": 71.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "336001943",
@@ -270621,7 +271846,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001214",
@@ -270664,7 +271889,7 @@ const PEDIDOS_DATA = {
           "val": 438.0
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "412001215",
@@ -270762,7 +271987,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001216",
@@ -270795,7 +272020,7 @@ const PEDIDOS_DATA = {
           "val": 38.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001217",
@@ -270833,7 +272058,7 @@ const PEDIDOS_DATA = {
           "val": 378.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001218",
@@ -270856,7 +272081,7 @@ const PEDIDOS_DATA = {
           "val": 442.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001083",
@@ -270894,7 +272119,7 @@ const PEDIDOS_DATA = {
           "val": 1305.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001084",
@@ -270917,7 +272142,7 @@ const PEDIDOS_DATA = {
           "val": 1305.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001087",
@@ -270955,7 +272180,7 @@ const PEDIDOS_DATA = {
           "val": 274.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000136",
@@ -271008,7 +272233,7 @@ const PEDIDOS_DATA = {
           "val": 473.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "370001314",
@@ -271319,7 +272544,7 @@ const PEDIDOS_DATA = {
           "val": 199.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000881",
@@ -271357,7 +272582,7 @@ const PEDIDOS_DATA = {
           "val": 22.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000882",
@@ -271420,7 +272645,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000884",
@@ -271468,7 +272693,7 @@ const PEDIDOS_DATA = {
           "val": 128.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "257002285",
@@ -271749,7 +272974,7 @@ const PEDIDOS_DATA = {
           "val": 30.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003273",
@@ -271807,7 +273032,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003275",
@@ -271885,7 +273110,7 @@ const PEDIDOS_DATA = {
           "val": 89.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003276",
@@ -271973,7 +273198,7 @@ const PEDIDOS_DATA = {
           "val": 189.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003277",
@@ -272006,7 +273231,7 @@ const PEDIDOS_DATA = {
           "val": 245.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003278",
@@ -272029,7 +273254,7 @@ const PEDIDOS_DATA = {
           "val": 203.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "335000753",
@@ -272123,7 +273348,7 @@ const PEDIDOS_DATA = {
           "val": 4374.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "417000293",
@@ -272146,7 +273371,7 @@ const PEDIDOS_DATA = {
           "val": 1368.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "417000294",
@@ -272174,7 +273399,7 @@ const PEDIDOS_DATA = {
           "val": 143.52
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003429",
@@ -272197,7 +273422,7 @@ const PEDIDOS_DATA = {
           "val": 1198.0
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "155003430",
@@ -272220,7 +273445,7 @@ const PEDIDOS_DATA = {
           "val": 674.1
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003431",
@@ -272243,7 +273468,7 @@ const PEDIDOS_DATA = {
           "val": 1965.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003432",
@@ -272286,7 +273511,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003433",
@@ -272314,7 +273539,7 @@ const PEDIDOS_DATA = {
           "val": 1197.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003434",
@@ -272347,7 +273572,7 @@ const PEDIDOS_DATA = {
           "val": 429.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003435",
@@ -272370,7 +273595,7 @@ const PEDIDOS_DATA = {
           "val": 48.21
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003436",
@@ -272393,7 +273618,7 @@ const PEDIDOS_DATA = {
           "val": 1960.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003437",
@@ -272426,7 +273651,7 @@ const PEDIDOS_DATA = {
           "val": 131.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001394",
@@ -272449,7 +273674,7 @@ const PEDIDOS_DATA = {
           "val": 639.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001396",
@@ -272477,7 +273702,7 @@ const PEDIDOS_DATA = {
           "val": 68.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001397",
@@ -272515,7 +273740,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001399",
@@ -272548,7 +273773,7 @@ const PEDIDOS_DATA = {
           "val": 101.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000362",
@@ -272571,7 +273796,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "378000364",
@@ -272609,7 +273834,7 @@ const PEDIDOS_DATA = {
           "val": 197.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000553",
@@ -272632,7 +273857,7 @@ const PEDIDOS_DATA = {
           "val": 99.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000554",
@@ -272670,7 +273895,7 @@ const PEDIDOS_DATA = {
           "val": 60.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000555",
@@ -272812,7 +274037,7 @@ const PEDIDOS_DATA = {
           "val": 127.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000559",
@@ -272903,7 +274128,7 @@ const PEDIDOS_DATA = {
           "val": 299.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000561",
@@ -272966,7 +274191,7 @@ const PEDIDOS_DATA = {
           "val": 60.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000562",
@@ -273120,7 +274345,7 @@ const PEDIDOS_DATA = {
           "val": 198.12
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000138",
@@ -273158,7 +274383,7 @@ const PEDIDOS_DATA = {
           "val": 394.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "554000867",
@@ -273491,7 +274716,7 @@ const PEDIDOS_DATA = {
           "val": 5934.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "428000032",
@@ -274030,7 +275255,7 @@ const PEDIDOS_DATA = {
           "val": 514.8
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "588002357",
@@ -274218,7 +275443,7 @@ const PEDIDOS_DATA = {
           "val": 1940.4
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "588002363",
@@ -274465,7 +275690,7 @@ const PEDIDOS_DATA = {
           "val": 58.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "312000026",
@@ -275264,7 +276489,7 @@ const PEDIDOS_DATA = {
           "val": 119.88
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "275000452",
@@ -275310,7 +276535,7 @@ const PEDIDOS_DATA = {
           "val": 9870.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "158000310",
@@ -275338,7 +276563,7 @@ const PEDIDOS_DATA = {
           "val": 1974.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "158000311",
@@ -275646,7 +276871,7 @@ const PEDIDOS_DATA = {
           "val": 94.68
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000872",
@@ -275694,7 +276919,7 @@ const PEDIDOS_DATA = {
           "val": 131.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000873",
@@ -275732,7 +276957,7 @@ const PEDIDOS_DATA = {
           "val": 165.36
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000874",
@@ -275755,7 +276980,7 @@ const PEDIDOS_DATA = {
           "val": 71.76
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000875",
@@ -275778,7 +277003,7 @@ const PEDIDOS_DATA = {
           "val": 102.38
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004507",
@@ -275801,7 +277026,7 @@ const PEDIDOS_DATA = {
           "val": 935.3
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004508",
@@ -275824,7 +277049,7 @@ const PEDIDOS_DATA = {
           "val": 2097.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004510",
@@ -275857,7 +277082,7 @@ const PEDIDOS_DATA = {
           "val": 229.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004511",
@@ -275885,7 +277110,7 @@ const PEDIDOS_DATA = {
           "val": 511.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004513",
@@ -275913,7 +277138,7 @@ const PEDIDOS_DATA = {
           "val": 299.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004514",
@@ -275941,7 +277166,7 @@ const PEDIDOS_DATA = {
           "val": 34.41
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004516",
@@ -275969,7 +277194,7 @@ const PEDIDOS_DATA = {
           "val": 987.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004517",
@@ -275997,7 +277222,7 @@ const PEDIDOS_DATA = {
           "val": 119.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004518",
@@ -276020,7 +277245,7 @@ const PEDIDOS_DATA = {
           "val": 9038.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "336001936",
@@ -276299,7 +277524,7 @@ const PEDIDOS_DATA = {
           "val": 98.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001210",
@@ -276322,7 +277547,7 @@ const PEDIDOS_DATA = {
           "val": 741.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001212",
@@ -276465,7 +277690,7 @@ const PEDIDOS_DATA = {
           "val": 179.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001073",
@@ -276662,7 +277887,7 @@ const PEDIDOS_DATA = {
           "val": 718.08
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001077",
@@ -276733,7 +277958,7 @@ const PEDIDOS_DATA = {
           "val": 136.92
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001079",
@@ -276837,7 +278062,7 @@ const PEDIDOS_DATA = {
           "val": 718.08
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000116",
@@ -276875,7 +278100,7 @@ const PEDIDOS_DATA = {
           "val": 660.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000117",
@@ -276923,7 +278148,7 @@ const PEDIDOS_DATA = {
           "val": 396.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000118",
@@ -276961,7 +278186,7 @@ const PEDIDOS_DATA = {
           "val": 132.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000119",
@@ -276999,7 +278224,7 @@ const PEDIDOS_DATA = {
           "val": 132.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000121",
@@ -277037,7 +278262,7 @@ const PEDIDOS_DATA = {
           "val": 528.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000122",
@@ -277224,7 +278449,7 @@ const PEDIDOS_DATA = {
           "val": 396.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000126",
@@ -277267,7 +278492,7 @@ const PEDIDOS_DATA = {
           "val": 132.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000127",
@@ -277300,7 +278525,7 @@ const PEDIDOS_DATA = {
           "val": 528.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000128",
@@ -277323,7 +278548,7 @@ const PEDIDOS_DATA = {
           "val": 972.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000129",
@@ -277366,7 +278591,7 @@ const PEDIDOS_DATA = {
           "val": 528.0
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "450000130",
@@ -277457,7 +278682,7 @@ const PEDIDOS_DATA = {
           "val": 264.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000132",
@@ -277495,7 +278720,7 @@ const PEDIDOS_DATA = {
           "val": 132.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000133",
@@ -277533,7 +278758,7 @@ const PEDIDOS_DATA = {
           "val": 264.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000134",
@@ -277566,7 +278791,7 @@ const PEDIDOS_DATA = {
           "val": 194.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "370001312",
@@ -277650,7 +278875,7 @@ const PEDIDOS_DATA = {
           "val": 135.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "257002279",
@@ -277964,7 +279189,7 @@ const PEDIDOS_DATA = {
           "val": 139.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003260",
@@ -277997,7 +279222,7 @@ const PEDIDOS_DATA = {
           "val": 185.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003261",
@@ -278050,7 +279275,7 @@ const PEDIDOS_DATA = {
           "val": 75.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003262",
@@ -278088,7 +279313,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003263",
@@ -278131,7 +279356,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003264",
@@ -278214,7 +279439,7 @@ const PEDIDOS_DATA = {
           "val": 189.4
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "156003265",
@@ -278267,7 +279492,7 @@ const PEDIDOS_DATA = {
           "val": 215.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003267",
@@ -278290,7 +279515,7 @@ const PEDIDOS_DATA = {
           "val": 154.5
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "156003269",
@@ -278313,7 +279538,7 @@ const PEDIDOS_DATA = {
           "val": 219.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003270",
@@ -278356,7 +279581,7 @@ const PEDIDOS_DATA = {
           "val": 284.1
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003271",
@@ -278379,7 +279604,7 @@ const PEDIDOS_DATA = {
           "val": 87.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "335000751",
@@ -278637,7 +279862,7 @@ const PEDIDOS_DATA = {
           "val": 65.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003421",
@@ -278670,7 +279895,7 @@ const PEDIDOS_DATA = {
           "val": 134.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003422",
@@ -278693,7 +279918,7 @@ const PEDIDOS_DATA = {
           "val": 199.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003423",
@@ -278716,7 +279941,7 @@ const PEDIDOS_DATA = {
           "val": 509.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003424",
@@ -278744,7 +279969,7 @@ const PEDIDOS_DATA = {
           "val": 286.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003425",
@@ -278767,7 +279992,7 @@ const PEDIDOS_DATA = {
           "val": 121.36
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003426",
@@ -278800,7 +280025,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003427",
@@ -278833,7 +280058,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003428",
@@ -278876,7 +280101,7 @@ const PEDIDOS_DATA = {
           "val": 934.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001390",
@@ -278929,7 +280154,7 @@ const PEDIDOS_DATA = {
           "val": 169.92
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001392",
@@ -278967,7 +280192,7 @@ const PEDIDOS_DATA = {
           "val": 5527.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001393",
@@ -278995,7 +280220,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000359",
@@ -279023,7 +280248,7 @@ const PEDIDOS_DATA = {
           "val": 28.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000552",
@@ -279061,7 +280286,7 @@ const PEDIDOS_DATA = {
           "val": 39.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "439000080",
@@ -279586,7 +280811,7 @@ const PEDIDOS_DATA = {
           "val": 4744.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "425000074",
@@ -279749,7 +280974,7 @@ const PEDIDOS_DATA = {
           "val": 3108.0
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "426000166",
@@ -281398,7 +282623,7 @@ const PEDIDOS_DATA = {
           "val": 1016.04
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "343000140",
@@ -281527,7 +282752,7 @@ const PEDIDOS_DATA = {
           "val": 94.68
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000865",
@@ -281630,7 +282855,7 @@ const PEDIDOS_DATA = {
           "val": 94.68
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000866",
@@ -281653,7 +282878,7 @@ const PEDIDOS_DATA = {
           "val": 71.76
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000867",
@@ -281681,7 +282906,7 @@ const PEDIDOS_DATA = {
           "val": 165.36
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000868",
@@ -281719,7 +282944,7 @@ const PEDIDOS_DATA = {
           "val": 61.36
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000869",
@@ -281775,7 +283000,7 @@ const PEDIDOS_DATA = {
           "val": 71.76
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004487",
@@ -281798,7 +283023,7 @@ const PEDIDOS_DATA = {
           "val": 2058.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004488",
@@ -281821,7 +283046,7 @@ const PEDIDOS_DATA = {
           "val": 137.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004489",
@@ -281844,7 +283069,7 @@ const PEDIDOS_DATA = {
           "val": 419.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004490",
@@ -281882,7 +283107,7 @@ const PEDIDOS_DATA = {
           "val": 89.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004491",
@@ -281920,7 +283145,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004492",
@@ -281943,7 +283168,7 @@ const PEDIDOS_DATA = {
           "val": 142.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004494",
@@ -281991,7 +283216,7 @@ const PEDIDOS_DATA = {
           "val": 98.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004496",
@@ -282034,7 +283259,7 @@ const PEDIDOS_DATA = {
           "val": 133.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004497",
@@ -282057,7 +283282,7 @@ const PEDIDOS_DATA = {
           "val": 1107.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004498",
@@ -282105,7 +283330,7 @@ const PEDIDOS_DATA = {
           "val": 23.96
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004499",
@@ -282143,7 +283368,7 @@ const PEDIDOS_DATA = {
           "val": 95.76
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004500",
@@ -282166,7 +283391,7 @@ const PEDIDOS_DATA = {
           "val": 27.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004501",
@@ -282189,7 +283414,7 @@ const PEDIDOS_DATA = {
           "val": 94.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004502",
@@ -282222,7 +283447,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004503",
@@ -282315,7 +283540,7 @@ const PEDIDOS_DATA = {
           "val": 24.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004506",
@@ -282358,7 +283583,7 @@ const PEDIDOS_DATA = {
           "val": 153.3
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001204",
@@ -282391,7 +283616,7 @@ const PEDIDOS_DATA = {
           "val": 279.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001205",
@@ -282414,7 +283639,7 @@ const PEDIDOS_DATA = {
           "val": 425.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001206",
@@ -282442,7 +283667,7 @@ const PEDIDOS_DATA = {
           "val": 149.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001066",
@@ -282470,7 +283695,7 @@ const PEDIDOS_DATA = {
           "val": 393.12
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001068",
@@ -282744,7 +283969,7 @@ const PEDIDOS_DATA = {
           "val": 1958.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001071",
@@ -282911,7 +284136,7 @@ const PEDIDOS_DATA = {
           "val": 528.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000115",
@@ -282994,7 +284219,7 @@ const PEDIDOS_DATA = {
           "val": 132.06
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "370001308",
@@ -283093,7 +284318,7 @@ const PEDIDOS_DATA = {
           "val": 270.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000876",
@@ -283121,7 +284346,7 @@ const PEDIDOS_DATA = {
           "val": 1995.0
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "379000877",
@@ -283154,7 +284379,7 @@ const PEDIDOS_DATA = {
           "val": 66.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000878",
@@ -283182,7 +284407,7 @@ const PEDIDOS_DATA = {
           "val": 66.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "257002272",
@@ -283793,7 +285018,7 @@ const PEDIDOS_DATA = {
           "val": 183.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003244",
@@ -283826,7 +285051,7 @@ const PEDIDOS_DATA = {
           "val": 53.52
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003245",
@@ -283864,7 +285089,7 @@ const PEDIDOS_DATA = {
           "val": 131.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003248",
@@ -283912,7 +285137,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003249",
@@ -283945,7 +285170,7 @@ const PEDIDOS_DATA = {
           "val": 30.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003250",
@@ -283968,7 +285193,7 @@ const PEDIDOS_DATA = {
           "val": 109.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003251",
@@ -283996,7 +285221,7 @@ const PEDIDOS_DATA = {
           "val": 79.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003252",
@@ -284034,7 +285259,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003254",
@@ -284092,7 +285317,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003255",
@@ -284125,7 +285350,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003256",
@@ -284148,7 +285373,7 @@ const PEDIDOS_DATA = {
           "val": 78.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003257",
@@ -284201,7 +285426,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003258",
@@ -284224,7 +285449,7 @@ const PEDIDOS_DATA = {
           "val": 190.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "335000749",
@@ -284328,7 +285553,7 @@ const PEDIDOS_DATA = {
           "val": 224.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003400",
@@ -284361,7 +285586,7 @@ const PEDIDOS_DATA = {
           "val": 63.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003401",
@@ -284384,7 +285609,7 @@ const PEDIDOS_DATA = {
           "val": 1959.72
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003402",
@@ -284417,7 +285642,7 @@ const PEDIDOS_DATA = {
           "val": 175.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003404",
@@ -284475,7 +285700,7 @@ const PEDIDOS_DATA = {
           "val": 219.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003405",
@@ -284498,7 +285723,7 @@ const PEDIDOS_DATA = {
           "val": 324.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003406",
@@ -284536,7 +285761,7 @@ const PEDIDOS_DATA = {
           "val": 109.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003407",
@@ -284559,7 +285784,7 @@ const PEDIDOS_DATA = {
           "val": 377.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003408",
@@ -284587,7 +285812,7 @@ const PEDIDOS_DATA = {
           "val": 245.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003409",
@@ -284645,7 +285870,7 @@ const PEDIDOS_DATA = {
           "val": 79.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003410",
@@ -284668,7 +285893,7 @@ const PEDIDOS_DATA = {
           "val": 279.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003411",
@@ -284711,7 +285936,7 @@ const PEDIDOS_DATA = {
           "val": 786.24
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003412",
@@ -284744,7 +285969,7 @@ const PEDIDOS_DATA = {
           "val": 359.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003413",
@@ -284767,7 +285992,7 @@ const PEDIDOS_DATA = {
           "val": 55.1
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003414",
@@ -284790,7 +286015,7 @@ const PEDIDOS_DATA = {
           "val": 276.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003415",
@@ -284838,7 +286063,7 @@ const PEDIDOS_DATA = {
           "val": 279.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003416",
@@ -284861,7 +286086,7 @@ const PEDIDOS_DATA = {
           "val": 459.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003417",
@@ -284884,7 +286109,7 @@ const PEDIDOS_DATA = {
           "val": 328.28
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003418",
@@ -284907,7 +286132,7 @@ const PEDIDOS_DATA = {
           "val": 315.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003419",
@@ -284935,7 +286160,7 @@ const PEDIDOS_DATA = {
           "val": 419.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003420",
@@ -284958,7 +286183,7 @@ const PEDIDOS_DATA = {
           "val": 81.3
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001384",
@@ -284986,7 +286211,7 @@ const PEDIDOS_DATA = {
           "val": 1150.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001385",
@@ -285009,7 +286234,7 @@ const PEDIDOS_DATA = {
           "val": 1648.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000356",
@@ -285052,7 +286277,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000357",
@@ -285075,7 +286300,7 @@ const PEDIDOS_DATA = {
           "val": 39.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000358",
@@ -285098,7 +286323,7 @@ const PEDIDOS_DATA = {
           "val": 153.3
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000551",
@@ -285121,7 +286346,7 @@ const PEDIDOS_DATA = {
           "val": 461.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "391000122",
@@ -285324,7 +286549,7 @@ const PEDIDOS_DATA = {
           "val": 372.12
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "425000070",
@@ -285347,7 +286572,7 @@ const PEDIDOS_DATA = {
           "val": 191.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "425000071",
@@ -285408,7 +286633,7 @@ const PEDIDOS_DATA = {
           "val": 1627.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "371000166",
@@ -285625,7 +286850,7 @@ const PEDIDOS_DATA = {
           "val": 257.4
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "588002311",
@@ -287450,7 +288675,7 @@ const PEDIDOS_DATA = {
           "val": 94.68
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "450000104",
@@ -287473,7 +288698,7 @@ const PEDIDOS_DATA = {
           "val": 115.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000106",
@@ -287496,7 +288721,7 @@ const PEDIDOS_DATA = {
           "val": 115.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000107",
@@ -287519,7 +288744,7 @@ const PEDIDOS_DATA = {
           "val": 946.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000108",
@@ -287542,7 +288767,7 @@ const PEDIDOS_DATA = {
           "val": 946.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000871",
@@ -287570,7 +288795,7 @@ const PEDIDOS_DATA = {
           "val": 58.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000872",
@@ -287598,7 +288823,7 @@ const PEDIDOS_DATA = {
           "val": 150.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003396",
@@ -287621,7 +288846,7 @@ const PEDIDOS_DATA = {
           "val": 765.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003397",
@@ -287659,7 +288884,7 @@ const PEDIDOS_DATA = {
           "val": 74.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003398",
@@ -287692,7 +288917,7 @@ const PEDIDOS_DATA = {
           "val": 122.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003399",
@@ -287715,7 +288940,7 @@ const PEDIDOS_DATA = {
           "val": 159.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "425000069",
@@ -287803,7 +289028,7 @@ const PEDIDOS_DATA = {
           "val": 562.8
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "426000160",
@@ -288048,7 +289273,7 @@ const PEDIDOS_DATA = {
           "val": 88200.0
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "275000443",
@@ -288086,7 +289311,7 @@ const PEDIDOS_DATA = {
           "val": 209.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "275000444",
@@ -288137,7 +289362,7 @@ const PEDIDOS_DATA = {
           "val": 1962.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "275000446",
@@ -288160,7 +289385,7 @@ const PEDIDOS_DATA = {
           "val": 1015.92
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "275000447",
@@ -288234,7 +289459,7 @@ const PEDIDOS_DATA = {
           "val": 18000.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "343000138",
@@ -288328,7 +289553,7 @@ const PEDIDOS_DATA = {
           "val": 47.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000861",
@@ -288351,7 +289576,7 @@ const PEDIDOS_DATA = {
           "val": 71.76
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000862",
@@ -288374,7 +289599,7 @@ const PEDIDOS_DATA = {
           "val": 165.36
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "336001932",
@@ -288491,7 +289716,7 @@ const PEDIDOS_DATA = {
           "val": 365.31
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001193",
@@ -288519,7 +289744,7 @@ const PEDIDOS_DATA = {
           "val": 482.97
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001194",
@@ -288562,7 +289787,7 @@ const PEDIDOS_DATA = {
           "val": 87.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001195",
@@ -288605,7 +289830,7 @@ const PEDIDOS_DATA = {
           "val": 795.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001196",
@@ -288628,7 +289853,7 @@ const PEDIDOS_DATA = {
           "val": 333.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001198",
@@ -288656,7 +289881,7 @@ const PEDIDOS_DATA = {
           "val": 92.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001199",
@@ -288689,7 +289914,7 @@ const PEDIDOS_DATA = {
           "val": 43.9
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "412001200",
@@ -288727,7 +289952,7 @@ const PEDIDOS_DATA = {
           "val": 59.9
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "412001201",
@@ -288750,7 +289975,7 @@ const PEDIDOS_DATA = {
           "val": 597.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001203",
@@ -288803,7 +290028,7 @@ const PEDIDOS_DATA = {
           "val": 229.32
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001055",
@@ -288846,7 +290071,7 @@ const PEDIDOS_DATA = {
           "val": 392.16
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001056",
@@ -289022,7 +290247,7 @@ const PEDIDOS_DATA = {
           "val": 199.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001058",
@@ -289045,7 +290270,7 @@ const PEDIDOS_DATA = {
           "val": 179.64
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001059",
@@ -289068,7 +290293,7 @@ const PEDIDOS_DATA = {
           "val": 214.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001060",
@@ -289091,7 +290316,7 @@ const PEDIDOS_DATA = {
           "val": 1977.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001061",
@@ -289114,7 +290339,7 @@ const PEDIDOS_DATA = {
           "val": 53.7
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "153001062",
@@ -289175,7 +290400,7 @@ const PEDIDOS_DATA = {
           "val": 82.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001064",
@@ -289208,7 +290433,7 @@ const PEDIDOS_DATA = {
           "val": 82.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001065",
@@ -289292,7 +290517,7 @@ const PEDIDOS_DATA = {
           "val": 414.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000077",
@@ -289320,7 +290545,7 @@ const PEDIDOS_DATA = {
           "val": 276.0
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "450000078",
@@ -289348,7 +290573,7 @@ const PEDIDOS_DATA = {
           "val": 138.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000079",
@@ -289371,7 +290596,7 @@ const PEDIDOS_DATA = {
           "val": 138.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000080",
@@ -289404,7 +290629,7 @@ const PEDIDOS_DATA = {
           "val": 118.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000081",
@@ -289427,7 +290652,7 @@ const PEDIDOS_DATA = {
           "val": 94.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000082",
@@ -289480,7 +290705,7 @@ const PEDIDOS_DATA = {
           "val": 175.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000083",
@@ -289513,7 +290738,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000084",
@@ -289561,7 +290786,7 @@ const PEDIDOS_DATA = {
           "val": 75.12
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000085",
@@ -289624,7 +290849,7 @@ const PEDIDOS_DATA = {
           "val": 75.12
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000086",
@@ -289687,7 +290912,7 @@ const PEDIDOS_DATA = {
           "val": 264.12
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000087",
@@ -289750,7 +290975,7 @@ const PEDIDOS_DATA = {
           "val": 75.12
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000088",
@@ -289783,7 +291008,7 @@ const PEDIDOS_DATA = {
           "val": 199.74
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "450000089",
@@ -289826,7 +291051,7 @@ const PEDIDOS_DATA = {
           "val": 75.12
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000090",
@@ -289854,7 +291079,7 @@ const PEDIDOS_DATA = {
           "val": 75.24
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "450000091",
@@ -289887,7 +291112,7 @@ const PEDIDOS_DATA = {
           "val": 116.82
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000093",
@@ -289930,7 +291155,7 @@ const PEDIDOS_DATA = {
           "val": 198.12
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000094",
@@ -290018,7 +291243,7 @@ const PEDIDOS_DATA = {
           "val": 497.88
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000095",
@@ -290051,7 +291276,7 @@ const PEDIDOS_DATA = {
           "val": 274.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000098",
@@ -290074,7 +291299,7 @@ const PEDIDOS_DATA = {
           "val": 743.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000099",
@@ -290107,7 +291332,7 @@ const PEDIDOS_DATA = {
           "val": 274.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000100",
@@ -290130,7 +291355,7 @@ const PEDIDOS_DATA = {
           "val": 743.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000101",
@@ -290198,7 +291423,7 @@ const PEDIDOS_DATA = {
           "val": 137.52
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "370001307",
@@ -291054,7 +292279,7 @@ const PEDIDOS_DATA = {
           "val": 67.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000864",
@@ -291097,7 +292322,7 @@ const PEDIDOS_DATA = {
           "val": 128.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000865",
@@ -291130,7 +292355,7 @@ const PEDIDOS_DATA = {
           "val": 128.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000866",
@@ -291153,7 +292378,7 @@ const PEDIDOS_DATA = {
           "val": 65.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000867",
@@ -291181,7 +292406,7 @@ const PEDIDOS_DATA = {
           "val": 74.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000868",
@@ -291204,7 +292429,7 @@ const PEDIDOS_DATA = {
           "val": 65.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000869",
@@ -291242,7 +292467,7 @@ const PEDIDOS_DATA = {
           "val": 326.4
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "379000870",
@@ -291265,7 +292490,7 @@ const PEDIDOS_DATA = {
           "val": 65.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "257002266",
@@ -291827,7 +293052,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003234",
@@ -291855,7 +293080,7 @@ const PEDIDOS_DATA = {
           "val": 30.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003235",
@@ -291883,7 +293108,7 @@ const PEDIDOS_DATA = {
           "val": 109.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003236",
@@ -291916,7 +293141,7 @@ const PEDIDOS_DATA = {
           "val": 189.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003237",
@@ -291944,7 +293169,7 @@ const PEDIDOS_DATA = {
           "val": 109.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003238",
@@ -291982,7 +293207,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003239",
@@ -292025,7 +293250,7 @@ const PEDIDOS_DATA = {
           "val": 189.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003241",
@@ -292058,7 +293283,7 @@ const PEDIDOS_DATA = {
           "val": 45.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "238000735",
@@ -292185,7 +293410,7 @@ const PEDIDOS_DATA = {
           "val": 147.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000160",
@@ -292228,7 +293453,7 @@ const PEDIDOS_DATA = {
           "val": 88.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000161",
@@ -292251,7 +293476,7 @@ const PEDIDOS_DATA = {
           "val": 156.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000162",
@@ -292284,7 +293509,7 @@ const PEDIDOS_DATA = {
           "val": 326.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000163",
@@ -292307,7 +293532,7 @@ const PEDIDOS_DATA = {
           "val": 65.28
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "471000164",
@@ -292330,7 +293555,7 @@ const PEDIDOS_DATA = {
           "val": 573.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000165",
@@ -292383,7 +293608,7 @@ const PEDIDOS_DATA = {
           "val": 333.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000166",
@@ -292426,7 +293651,7 @@ const PEDIDOS_DATA = {
           "val": 105.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000167",
@@ -292449,7 +293674,7 @@ const PEDIDOS_DATA = {
           "val": 6480.0
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "471000168",
@@ -292482,7 +293707,7 @@ const PEDIDOS_DATA = {
           "val": 286.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000169",
@@ -292505,7 +293730,7 @@ const PEDIDOS_DATA = {
           "val": 65.28
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000170",
@@ -292528,7 +293753,7 @@ const PEDIDOS_DATA = {
           "val": 43.2
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "471000171",
@@ -292556,7 +293781,7 @@ const PEDIDOS_DATA = {
           "val": 43.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000173",
@@ -292579,7 +293804,7 @@ const PEDIDOS_DATA = {
           "val": 392.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000175",
@@ -292642,7 +293867,7 @@ const PEDIDOS_DATA = {
           "val": 838.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "417000291",
@@ -292665,7 +293890,7 @@ const PEDIDOS_DATA = {
           "val": 350.4
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "417000292",
@@ -292693,7 +293918,7 @@ const PEDIDOS_DATA = {
           "val": 521.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003391",
@@ -292721,7 +293946,7 @@ const PEDIDOS_DATA = {
           "val": 313.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003392",
@@ -292744,7 +293969,7 @@ const PEDIDOS_DATA = {
           "val": 290.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003393",
@@ -292772,7 +293997,7 @@ const PEDIDOS_DATA = {
           "val": 139.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003394",
@@ -292820,7 +294045,7 @@ const PEDIDOS_DATA = {
           "val": 299.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003395",
@@ -292843,7 +294068,7 @@ const PEDIDOS_DATA = {
           "val": 419.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001378",
@@ -292876,7 +294101,7 @@ const PEDIDOS_DATA = {
           "val": 299.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001379",
@@ -292914,7 +294139,7 @@ const PEDIDOS_DATA = {
           "val": 139.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001380",
@@ -292942,7 +294167,7 @@ const PEDIDOS_DATA = {
           "val": 49.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001381",
@@ -292965,7 +294190,7 @@ const PEDIDOS_DATA = {
           "val": 690.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001382",
@@ -292988,7 +294213,7 @@ const PEDIDOS_DATA = {
           "val": 172.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001383",
@@ -293011,7 +294236,7 @@ const PEDIDOS_DATA = {
           "val": 179.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000350",
@@ -293069,7 +294294,7 @@ const PEDIDOS_DATA = {
           "val": 1420.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000351",
@@ -293092,7 +294317,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "378000352",
@@ -293120,7 +294345,7 @@ const PEDIDOS_DATA = {
           "val": 32.76
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "378000353",
@@ -293148,7 +294373,7 @@ const PEDIDOS_DATA = {
           "val": 32.76
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "378000354",
@@ -293176,7 +294401,7 @@ const PEDIDOS_DATA = {
           "val": 32.76
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "378000355",
@@ -293252,7 +294477,7 @@ const PEDIDOS_DATA = {
           "val": 137.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000548",
@@ -293280,7 +294505,7 @@ const PEDIDOS_DATA = {
           "val": 197.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "554000862",
@@ -293392,7 +294617,7 @@ const PEDIDOS_DATA = {
           "val": 83.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "461000007",
@@ -293889,7 +295114,7 @@ const PEDIDOS_DATA = {
           "val": 5273.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "438000051",
@@ -294092,7 +295317,7 @@ const PEDIDOS_DATA = {
           "val": 250.8
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "588002285",
@@ -296255,7 +297480,7 @@ const PEDIDOS_DATA = {
           "val": 366.0
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "342000129",
@@ -297099,7 +298324,7 @@ const PEDIDOS_DATA = {
           "val": 298.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000850",
@@ -297280,7 +298505,7 @@ const PEDIDOS_DATA = {
           "val": 30.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000858",
@@ -297580,7 +298805,7 @@ const PEDIDOS_DATA = {
           "val": 589.68
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004476",
@@ -297867,7 +299092,7 @@ const PEDIDOS_DATA = {
           "val": 94.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004485",
@@ -298168,7 +299393,7 @@ const PEDIDOS_DATA = {
           "val": 123.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001189",
@@ -298351,7 +299576,7 @@ const PEDIDOS_DATA = {
           "val": 140.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001052",
@@ -298424,7 +299649,7 @@ const PEDIDOS_DATA = {
           "val": 88.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001053",
@@ -298447,7 +299672,7 @@ const PEDIDOS_DATA = {
           "val": 88.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001054",
@@ -298728,7 +299953,7 @@ const PEDIDOS_DATA = {
           "val": 150.0
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "379000858",
@@ -299320,7 +300545,7 @@ const PEDIDOS_DATA = {
           "val": 18.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003231",
@@ -299763,7 +300988,7 @@ const PEDIDOS_DATA = {
           "val": 979.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000155",
@@ -299796,7 +301021,7 @@ const PEDIDOS_DATA = {
           "val": 419.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000156",
@@ -300661,7 +301886,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "378000347",
@@ -300826,7 +302051,7 @@ const PEDIDOS_DATA = {
           "val": 117.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000543",
@@ -300859,7 +302084,7 @@ const PEDIDOS_DATA = {
           "val": 135.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000544",
@@ -300882,7 +302107,7 @@ const PEDIDOS_DATA = {
           "val": 215.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000545",
@@ -300910,7 +302135,7 @@ const PEDIDOS_DATA = {
           "val": 107.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000546",
@@ -300938,7 +302163,7 @@ const PEDIDOS_DATA = {
           "val": 107.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "439000079",
@@ -301700,7 +302925,7 @@ const PEDIDOS_DATA = {
           "val": 110352.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "428000029",
@@ -302148,7 +303373,7 @@ const PEDIDOS_DATA = {
           "val": 3108.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "588002272",
@@ -303767,7 +304992,7 @@ const PEDIDOS_DATA = {
           "val": 54482.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "91000232",
@@ -304128,7 +305353,7 @@ const PEDIDOS_DATA = {
           "val": 94.68
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000840",
@@ -304171,7 +305396,7 @@ const PEDIDOS_DATA = {
           "val": 94.68
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000842",
@@ -304199,7 +305424,7 @@ const PEDIDOS_DATA = {
           "val": 107.94
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000843",
@@ -304222,7 +305447,7 @@ const PEDIDOS_DATA = {
           "val": 298.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000844",
@@ -304245,7 +305470,7 @@ const PEDIDOS_DATA = {
           "val": 298.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000845",
@@ -304291,7 +305516,7 @@ const PEDIDOS_DATA = {
           "val": 330.72
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004457",
@@ -304522,7 +305747,7 @@ const PEDIDOS_DATA = {
           "val": 94.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004464",
@@ -304555,7 +305780,7 @@ const PEDIDOS_DATA = {
           "val": 131.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "336001926",
@@ -304880,7 +306105,7 @@ const PEDIDOS_DATA = {
           "val": 59.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001181",
@@ -304913,7 +306138,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001182",
@@ -304999,7 +306224,7 @@ const PEDIDOS_DATA = {
           "val": 473.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001044",
@@ -305129,7 +306354,7 @@ const PEDIDOS_DATA = {
           "val": 715.26
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "370001301",
@@ -305200,7 +306425,7 @@ const PEDIDOS_DATA = {
           "val": 196.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000849",
@@ -305223,7 +306448,7 @@ const PEDIDOS_DATA = {
           "val": 59.88
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000850",
@@ -305256,7 +306481,7 @@ const PEDIDOS_DATA = {
           "val": 9.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000851",
@@ -305299,7 +306524,7 @@ const PEDIDOS_DATA = {
           "val": 139.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000852",
@@ -305408,7 +306633,7 @@ const PEDIDOS_DATA = {
           "val": 89.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000855",
@@ -305431,7 +306656,7 @@ const PEDIDOS_DATA = {
           "val": 23.94
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000856",
@@ -305469,7 +306694,7 @@ const PEDIDOS_DATA = {
           "val": 628.2
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "257002248",
@@ -307159,7 +308384,7 @@ const PEDIDOS_DATA = {
           "val": 189.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003218",
@@ -307202,7 +308427,7 @@ const PEDIDOS_DATA = {
           "val": 99.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003219",
@@ -307230,7 +308455,7 @@ const PEDIDOS_DATA = {
           "val": 65.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003220",
@@ -307916,7 +309141,7 @@ const PEDIDOS_DATA = {
           "val": 38.4
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "238000732",
@@ -308429,7 +309654,7 @@ const PEDIDOS_DATA = {
           "val": 94.68
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003373",
@@ -308586,7 +309811,7 @@ const PEDIDOS_DATA = {
           "val": 251.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001374",
@@ -308614,7 +309839,7 @@ const PEDIDOS_DATA = {
           "val": 214.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000337",
@@ -308708,7 +309933,7 @@ const PEDIDOS_DATA = {
           "val": 65.52
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000340",
@@ -308754,7 +309979,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000342",
@@ -308820,7 +310045,7 @@ const PEDIDOS_DATA = {
           "val": 60.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000537",
@@ -308876,7 +310101,7 @@ const PEDIDOS_DATA = {
           "val": 114.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "420000008",
@@ -308942,7 +310167,7 @@ const PEDIDOS_DATA = {
           "val": 951.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "420000010",
@@ -308975,7 +310200,7 @@ const PEDIDOS_DATA = {
           "val": 951.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "439000078",
@@ -312118,7 +313343,7 @@ const PEDIDOS_DATA = {
           "val": 90.64
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "158000303",
@@ -312141,7 +313366,7 @@ const PEDIDOS_DATA = {
           "val": 11520.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "342000120",
@@ -312518,7 +313743,7 @@ const PEDIDOS_DATA = {
           "val": 70.08
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004447",
@@ -312556,7 +313781,7 @@ const PEDIDOS_DATA = {
           "val": 197.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004448",
@@ -312594,7 +313819,7 @@ const PEDIDOS_DATA = {
           "val": 98.28
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004449",
@@ -312617,7 +313842,7 @@ const PEDIDOS_DATA = {
           "val": 239.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004450",
@@ -312655,7 +313880,7 @@ const PEDIDOS_DATA = {
           "val": 95.76
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004451",
@@ -312693,7 +313918,7 @@ const PEDIDOS_DATA = {
           "val": 224.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004452",
@@ -312716,7 +313941,7 @@ const PEDIDOS_DATA = {
           "val": 669.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004453",
@@ -312774,7 +313999,7 @@ const PEDIDOS_DATA = {
           "val": 593.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004454",
@@ -312825,7 +314050,7 @@ const PEDIDOS_DATA = {
           "val": 492.88
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "431000822",
@@ -312873,7 +314098,7 @@ const PEDIDOS_DATA = {
           "val": 94.68
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "431000823",
@@ -312911,7 +314136,7 @@ const PEDIDOS_DATA = {
           "val": 85.92
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000824",
@@ -312959,7 +314184,7 @@ const PEDIDOS_DATA = {
           "val": 94.68
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000825",
@@ -312997,7 +314222,7 @@ const PEDIDOS_DATA = {
           "val": 47.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000826",
@@ -313020,7 +314245,7 @@ const PEDIDOS_DATA = {
           "val": 47.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000827",
@@ -313063,7 +314288,7 @@ const PEDIDOS_DATA = {
           "val": 378.72
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000828",
@@ -313096,7 +314321,7 @@ const PEDIDOS_DATA = {
           "val": 85.92
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000829",
@@ -313139,7 +314364,7 @@ const PEDIDOS_DATA = {
           "val": 87.48
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000830",
@@ -313172,7 +314397,7 @@ const PEDIDOS_DATA = {
           "val": 87.58
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000831",
@@ -313235,7 +314460,7 @@ const PEDIDOS_DATA = {
           "val": 165.36
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000832",
@@ -313278,7 +314503,7 @@ const PEDIDOS_DATA = {
           "val": 94.68
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000833",
@@ -313331,7 +314556,7 @@ const PEDIDOS_DATA = {
           "val": 94.68
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000834",
@@ -313359,7 +314584,7 @@ const PEDIDOS_DATA = {
           "val": 28.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000835",
@@ -313382,7 +314607,7 @@ const PEDIDOS_DATA = {
           "val": 327.35
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "159004455",
@@ -313405,7 +314630,7 @@ const PEDIDOS_DATA = {
           "val": 1107.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "336001925",
@@ -313569,7 +314794,7 @@ const PEDIDOS_DATA = {
           "val": 199.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001171",
@@ -313612,7 +314837,7 @@ const PEDIDOS_DATA = {
           "val": 43.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001172",
@@ -313645,7 +314870,7 @@ const PEDIDOS_DATA = {
           "val": 51.27
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "412001173",
@@ -313777,7 +315002,7 @@ const PEDIDOS_DATA = {
           "val": 81.48
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001041",
@@ -313800,7 +315025,7 @@ const PEDIDOS_DATA = {
           "val": 2102.4
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "153001042",
@@ -314309,7 +315534,7 @@ const PEDIDOS_DATA = {
           "val": 898.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000844",
@@ -314367,7 +315592,7 @@ const PEDIDOS_DATA = {
           "val": 69.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000845",
@@ -314400,7 +315625,7 @@ const PEDIDOS_DATA = {
           "val": 23.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000846",
@@ -314448,7 +315673,7 @@ const PEDIDOS_DATA = {
           "val": 22.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000847",
@@ -314481,7 +315706,7 @@ const PEDIDOS_DATA = {
           "val": 1949.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "257002243",
@@ -314704,7 +315929,7 @@ const PEDIDOS_DATA = {
           "val": 418.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003208",
@@ -314727,7 +315952,7 @@ const PEDIDOS_DATA = {
           "val": 1049.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003209",
@@ -314755,7 +315980,7 @@ const PEDIDOS_DATA = {
           "val": 300.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003210",
@@ -314783,7 +316008,7 @@ const PEDIDOS_DATA = {
           "val": 47.88
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003211",
@@ -314806,7 +316031,7 @@ const PEDIDOS_DATA = {
           "val": 219.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003212",
@@ -314839,7 +316064,7 @@ const PEDIDOS_DATA = {
           "val": 173.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003213",
@@ -314867,7 +316092,7 @@ const PEDIDOS_DATA = {
           "val": 418.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003214",
@@ -314890,7 +316115,7 @@ const PEDIDOS_DATA = {
           "val": 139.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003215",
@@ -314981,7 +316206,7 @@ const PEDIDOS_DATA = {
           "val": 61.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "335000733",
@@ -315060,7 +316285,7 @@ const PEDIDOS_DATA = {
           "val": 449.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "238000729",
@@ -315088,7 +316313,7 @@ const PEDIDOS_DATA = {
           "val": 1962.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "238000730",
@@ -315111,7 +316336,7 @@ const PEDIDOS_DATA = {
           "val": 132.3
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "471000138",
@@ -315159,7 +316384,7 @@ const PEDIDOS_DATA = {
           "val": 326.3
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000139",
@@ -315197,7 +316422,7 @@ const PEDIDOS_DATA = {
           "val": 97.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000140",
@@ -315220,7 +316445,7 @@ const PEDIDOS_DATA = {
           "val": 1078.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000142",
@@ -315263,7 +316488,7 @@ const PEDIDOS_DATA = {
           "val": 664.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003353",
@@ -315296,7 +316521,7 @@ const PEDIDOS_DATA = {
           "val": 107.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003354",
@@ -315329,7 +316554,7 @@ const PEDIDOS_DATA = {
           "val": 129.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003356",
@@ -315362,7 +316587,7 @@ const PEDIDOS_DATA = {
           "val": 324.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003357",
@@ -315390,7 +316615,7 @@ const PEDIDOS_DATA = {
           "val": 449.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003358",
@@ -315443,7 +316668,7 @@ const PEDIDOS_DATA = {
           "val": 539.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003359",
@@ -315481,7 +316706,7 @@ const PEDIDOS_DATA = {
           "val": 66.59
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003361",
@@ -315519,7 +316744,7 @@ const PEDIDOS_DATA = {
           "val": 129.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003362",
@@ -315552,7 +316777,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003363",
@@ -315590,7 +316815,7 @@ const PEDIDOS_DATA = {
           "val": 151.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003364",
@@ -315613,7 +316838,7 @@ const PEDIDOS_DATA = {
           "val": 596.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003365",
@@ -315646,7 +316871,7 @@ const PEDIDOS_DATA = {
           "val": 43.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001363",
@@ -315669,7 +316894,7 @@ const PEDIDOS_DATA = {
           "val": 383.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001365",
@@ -315697,7 +316922,7 @@ const PEDIDOS_DATA = {
           "val": 1186.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001366",
@@ -315730,7 +316955,7 @@ const PEDIDOS_DATA = {
           "val": 55.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001367",
@@ -315763,7 +316988,7 @@ const PEDIDOS_DATA = {
           "val": 207.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001368",
@@ -315791,7 +317016,7 @@ const PEDIDOS_DATA = {
           "val": 59.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001369",
@@ -315819,7 +317044,7 @@ const PEDIDOS_DATA = {
           "val": 59.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000329",
@@ -315847,7 +317072,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000330",
@@ -315905,7 +317130,7 @@ const PEDIDOS_DATA = {
           "val": 32.76
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000331",
@@ -315968,7 +317193,7 @@ const PEDIDOS_DATA = {
           "val": 32.76
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000332",
@@ -316001,7 +317226,7 @@ const PEDIDOS_DATA = {
           "val": 28.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000333",
@@ -316024,7 +317249,7 @@ const PEDIDOS_DATA = {
           "val": 65.52
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000334",
@@ -316052,7 +317277,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000335",
@@ -316085,7 +317310,7 @@ const PEDIDOS_DATA = {
           "val": 395.75
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "378000336",
@@ -316118,7 +317343,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000533",
@@ -316141,7 +317366,7 @@ const PEDIDOS_DATA = {
           "val": 285.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000534",
@@ -316184,7 +317409,7 @@ const PEDIDOS_DATA = {
           "val": 11.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000535",
@@ -316227,7 +317452,7 @@ const PEDIDOS_DATA = {
           "val": 60.0
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "461000001",
@@ -318997,7 +320222,7 @@ const PEDIDOS_DATA = {
           "val": 47.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000820",
@@ -319025,7 +320250,7 @@ const PEDIDOS_DATA = {
           "val": 99.5
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "336001924",
@@ -319455,7 +320680,7 @@ const PEDIDOS_DATA = {
           "val": 1962.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "417000276",
@@ -319503,7 +320728,7 @@ const PEDIDOS_DATA = {
           "val": 239.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "417000277",
@@ -319566,7 +320791,7 @@ const PEDIDOS_DATA = {
           "val": 239.4
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "417000278",
@@ -319803,7 +321028,7 @@ const PEDIDOS_DATA = {
           "val": 150.3
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001362",
@@ -319886,7 +321111,7 @@ const PEDIDOS_DATA = {
           "val": 900.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "588002206",
@@ -320071,7 +321296,7 @@ const PEDIDOS_DATA = {
           "val": 100022.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "158000300",
@@ -320265,7 +321490,7 @@ const PEDIDOS_DATA = {
           "val": 718.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004445",
@@ -320288,7 +321513,7 @@ const PEDIDOS_DATA = {
           "val": 592.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000812",
@@ -320316,7 +321541,7 @@ const PEDIDOS_DATA = {
           "val": 165.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000813",
@@ -320364,7 +321589,7 @@ const PEDIDOS_DATA = {
           "val": 34.68
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000814",
@@ -320432,7 +321657,7 @@ const PEDIDOS_DATA = {
           "val": 94.68
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000815",
@@ -320455,7 +321680,7 @@ const PEDIDOS_DATA = {
           "val": 165.36
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000816",
@@ -320483,7 +321708,7 @@ const PEDIDOS_DATA = {
           "val": 28.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000817",
@@ -320511,7 +321736,7 @@ const PEDIDOS_DATA = {
           "val": 59.88
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000818",
@@ -320539,7 +321764,7 @@ const PEDIDOS_DATA = {
           "val": 94.68
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "336001919",
@@ -320749,7 +321974,7 @@ const PEDIDOS_DATA = {
           "val": 107.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001167",
@@ -320777,7 +322002,7 @@ const PEDIDOS_DATA = {
           "val": 139.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001168",
@@ -320820,7 +322045,7 @@ const PEDIDOS_DATA = {
           "val": 269.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001038",
@@ -320943,7 +322168,7 @@ const PEDIDOS_DATA = {
           "val": 224.46
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "153001039",
@@ -320971,7 +322196,7 @@ const PEDIDOS_DATA = {
           "val": 275.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001040",
@@ -321019,7 +322244,7 @@ const PEDIDOS_DATA = {
           "val": 179.64
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "402000759",
@@ -321258,7 +322483,7 @@ const PEDIDOS_DATA = {
           "val": 175.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000837",
@@ -321296,7 +322521,7 @@ const PEDIDOS_DATA = {
           "val": 66.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000838",
@@ -321334,7 +322559,7 @@ const PEDIDOS_DATA = {
           "val": 43.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000839",
@@ -321367,7 +322592,7 @@ const PEDIDOS_DATA = {
           "val": 139.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000840",
@@ -321410,7 +322635,7 @@ const PEDIDOS_DATA = {
           "val": 13.99
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000841",
@@ -321443,7 +322668,7 @@ const PEDIDOS_DATA = {
           "val": 223.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000842",
@@ -321491,7 +322716,7 @@ const PEDIDOS_DATA = {
           "val": 41.97
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "257002240",
@@ -321663,7 +322888,7 @@ const PEDIDOS_DATA = {
           "val": 87.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003190",
@@ -321686,7 +322911,7 @@ const PEDIDOS_DATA = {
           "val": 559.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003191",
@@ -321719,7 +322944,7 @@ const PEDIDOS_DATA = {
           "val": 53.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003192",
@@ -321752,7 +322977,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003193",
@@ -321795,7 +323020,7 @@ const PEDIDOS_DATA = {
           "val": 109.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003194",
@@ -321823,7 +323048,7 @@ const PEDIDOS_DATA = {
           "val": 265.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003195",
@@ -321861,7 +323086,7 @@ const PEDIDOS_DATA = {
           "val": 53.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003196",
@@ -321894,7 +323119,7 @@ const PEDIDOS_DATA = {
           "val": 87.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003199",
@@ -321917,7 +323142,7 @@ const PEDIDOS_DATA = {
           "val": 419.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003200",
@@ -321950,7 +323175,7 @@ const PEDIDOS_DATA = {
           "val": 119.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003202",
@@ -321978,7 +323203,7 @@ const PEDIDOS_DATA = {
           "val": 80.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003203",
@@ -322001,7 +323226,7 @@ const PEDIDOS_DATA = {
           "val": 328.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003204",
@@ -322024,7 +323249,7 @@ const PEDIDOS_DATA = {
           "val": 202.3
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003205",
@@ -322052,7 +323277,7 @@ const PEDIDOS_DATA = {
           "val": 53.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003206",
@@ -322080,7 +323305,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "238000704",
@@ -322123,7 +323348,7 @@ const PEDIDOS_DATA = {
           "val": 784.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "238000705",
@@ -322255,7 +323480,7 @@ const PEDIDOS_DATA = {
           "val": 588.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "238000709",
@@ -322278,7 +323503,7 @@ const PEDIDOS_DATA = {
           "val": 1031.52
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "238000710",
@@ -322344,7 +323569,7 @@ const PEDIDOS_DATA = {
           "val": 1031.52
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "238000712",
@@ -322405,7 +323630,7 @@ const PEDIDOS_DATA = {
           "val": 588.6
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "238000714",
@@ -322438,7 +323663,7 @@ const PEDIDOS_DATA = {
           "val": 1015.92
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "238000715",
@@ -322489,7 +323714,7 @@ const PEDIDOS_DATA = {
           "val": 3924.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "238000717",
@@ -322517,7 +323742,7 @@ const PEDIDOS_DATA = {
           "val": 588.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "238000718",
@@ -322596,7 +323821,7 @@ const PEDIDOS_DATA = {
           "val": 981.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "238000721",
@@ -322619,7 +323844,7 @@ const PEDIDOS_DATA = {
           "val": 1962.0
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "238000722",
@@ -322642,7 +323867,7 @@ const PEDIDOS_DATA = {
           "val": 588.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "238000724",
@@ -322675,7 +323900,7 @@ const PEDIDOS_DATA = {
           "val": 867.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "442000205",
@@ -322731,7 +323956,7 @@ const PEDIDOS_DATA = {
           "val": 71.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000135",
@@ -322754,7 +323979,7 @@ const PEDIDOS_DATA = {
           "val": 1965.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000137",
@@ -322792,7 +324017,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003344",
@@ -322820,7 +324045,7 @@ const PEDIDOS_DATA = {
           "val": 275.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003345",
@@ -322848,7 +324073,7 @@ const PEDIDOS_DATA = {
           "val": 164.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003346",
@@ -322876,7 +324101,7 @@ const PEDIDOS_DATA = {
           "val": 68.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003347",
@@ -322899,7 +324124,7 @@ const PEDIDOS_DATA = {
           "val": 45.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003348",
@@ -322922,7 +324147,7 @@ const PEDIDOS_DATA = {
           "val": 279.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003349",
@@ -323005,7 +324230,7 @@ const PEDIDOS_DATA = {
           "val": 98.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003351",
@@ -323028,7 +324253,7 @@ const PEDIDOS_DATA = {
           "val": 299.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003352",
@@ -323051,7 +324276,7 @@ const PEDIDOS_DATA = {
           "val": 732.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001358",
@@ -323079,7 +324304,7 @@ const PEDIDOS_DATA = {
           "val": 135.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001359",
@@ -323107,7 +324332,7 @@ const PEDIDOS_DATA = {
           "val": 1798.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001361",
@@ -323135,7 +324360,7 @@ const PEDIDOS_DATA = {
           "val": 150.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000328",
@@ -323163,7 +324388,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000529",
@@ -323196,7 +324421,7 @@ const PEDIDOS_DATA = {
           "val": 30.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000530",
@@ -323224,7 +324449,7 @@ const PEDIDOS_DATA = {
           "val": 286.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000531",
@@ -323252,7 +324477,7 @@ const PEDIDOS_DATA = {
           "val": 430.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000532",
@@ -323415,7 +324640,7 @@ const PEDIDOS_DATA = {
           "val": 169.44
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "420000006",
@@ -323448,7 +324673,7 @@ const PEDIDOS_DATA = {
           "val": 951.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "420000007",
@@ -323481,7 +324706,7 @@ const PEDIDOS_DATA = {
           "val": 951.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "439000077",
@@ -325869,7 +327094,7 @@ const PEDIDOS_DATA = {
           "val": 1428.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "343000116",
@@ -325930,7 +327155,7 @@ const PEDIDOS_DATA = {
           "val": 384.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004438",
@@ -325953,7 +327178,7 @@ const PEDIDOS_DATA = {
           "val": 1592.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004439",
@@ -325996,7 +327221,7 @@ const PEDIDOS_DATA = {
           "val": 29.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004441",
@@ -326019,7 +327244,7 @@ const PEDIDOS_DATA = {
           "val": 898.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004442",
@@ -326047,7 +327272,7 @@ const PEDIDOS_DATA = {
           "val": 89.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004443",
@@ -326090,7 +327315,7 @@ const PEDIDOS_DATA = {
           "val": 119.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "336001918",
@@ -326286,7 +327511,7 @@ const PEDIDOS_DATA = {
           "val": 198.12
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "402000752",
@@ -326936,7 +328161,7 @@ const PEDIDOS_DATA = {
           "val": 80.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000833",
@@ -326959,7 +328184,7 @@ const PEDIDOS_DATA = {
           "val": 269.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000834",
@@ -326982,7 +328207,7 @@ const PEDIDOS_DATA = {
           "val": 215.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "257002236",
@@ -327127,7 +328352,7 @@ const PEDIDOS_DATA = {
           "val": 109.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003188",
@@ -327155,7 +328380,7 @@ const PEDIDOS_DATA = {
           "val": 65.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "335000731",
@@ -327323,7 +328548,7 @@ const PEDIDOS_DATA = {
           "val": 473.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "417000271",
@@ -327366,7 +328591,7 @@ const PEDIDOS_DATA = {
           "val": 473.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "417000272",
@@ -327399,7 +328624,7 @@ const PEDIDOS_DATA = {
           "val": 473.4
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "417000273",
@@ -327526,7 +328751,7 @@ const PEDIDOS_DATA = {
           "val": 245.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003336",
@@ -327549,7 +328774,7 @@ const PEDIDOS_DATA = {
           "val": 366.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003337",
@@ -327572,7 +328797,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003338",
@@ -327615,7 +328840,7 @@ const PEDIDOS_DATA = {
           "val": 393.12
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003339",
@@ -327638,7 +328863,7 @@ const PEDIDOS_DATA = {
           "val": 1366.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003340",
@@ -327681,7 +328906,7 @@ const PEDIDOS_DATA = {
           "val": 359.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003341",
@@ -327704,7 +328929,7 @@ const PEDIDOS_DATA = {
           "val": 597.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003342",
@@ -327727,7 +328952,7 @@ const PEDIDOS_DATA = {
           "val": 398.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003343",
@@ -327755,7 +328980,7 @@ const PEDIDOS_DATA = {
           "val": 621.3
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000326",
@@ -327783,7 +329008,7 @@ const PEDIDOS_DATA = {
           "val": 43.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "91000318",
@@ -331245,7 +332470,7 @@ const PEDIDOS_DATA = {
           "val": 657.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004436",
@@ -331268,7 +332493,7 @@ const PEDIDOS_DATA = {
           "val": 1179.36
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000802",
@@ -331296,7 +332521,7 @@ const PEDIDOS_DATA = {
           "val": 47.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000803",
@@ -331354,7 +332579,7 @@ const PEDIDOS_DATA = {
           "val": 117.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000804",
@@ -331382,7 +332607,7 @@ const PEDIDOS_DATA = {
           "val": 47.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000805",
@@ -331420,7 +332645,7 @@ const PEDIDOS_DATA = {
           "val": 47.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000806",
@@ -331448,7 +332673,7 @@ const PEDIDOS_DATA = {
           "val": 71.76
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "431000807",
@@ -331476,7 +332701,7 @@ const PEDIDOS_DATA = {
           "val": 94.68
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000808",
@@ -331504,7 +332729,7 @@ const PEDIDOS_DATA = {
           "val": 189.36
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000809",
@@ -331577,7 +332802,7 @@ const PEDIDOS_DATA = {
           "val": 94.68
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000810",
@@ -331600,7 +332825,7 @@ const PEDIDOS_DATA = {
           "val": 94.68
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "431000811",
@@ -331658,7 +332883,7 @@ const PEDIDOS_DATA = {
           "val": 94.68
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "336001911",
@@ -332007,7 +333232,7 @@ const PEDIDOS_DATA = {
           "val": 161.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001160",
@@ -332075,7 +333300,7 @@ const PEDIDOS_DATA = {
           "val": 153.36
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001161",
@@ -332113,7 +333338,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001162",
@@ -332166,7 +333391,7 @@ const PEDIDOS_DATA = {
           "val": 150.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001163",
@@ -332194,7 +333419,7 @@ const PEDIDOS_DATA = {
           "val": 43.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001165",
@@ -332237,7 +333462,7 @@ const PEDIDOS_DATA = {
           "val": 87.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "402000749",
@@ -332485,7 +333710,7 @@ const PEDIDOS_DATA = {
           "val": 438.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000830",
@@ -332513,7 +333738,7 @@ const PEDIDOS_DATA = {
           "val": 66.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000831",
@@ -332551,7 +333776,7 @@ const PEDIDOS_DATA = {
           "val": 159.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "257002229",
@@ -332854,7 +334079,7 @@ const PEDIDOS_DATA = {
           "val": 189.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003175",
@@ -332907,7 +334132,7 @@ const PEDIDOS_DATA = {
           "val": 68.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003176",
@@ -332990,7 +334215,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003177",
@@ -333023,7 +334248,7 @@ const PEDIDOS_DATA = {
           "val": 74.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003178",
@@ -333046,7 +334271,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003179",
@@ -333069,7 +334294,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003181",
@@ -333102,7 +334327,7 @@ const PEDIDOS_DATA = {
           "val": 43.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003182",
@@ -333145,7 +334370,7 @@ const PEDIDOS_DATA = {
           "val": 175.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003183",
@@ -333168,7 +334393,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003184",
@@ -333206,7 +334431,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003185",
@@ -333234,7 +334459,7 @@ const PEDIDOS_DATA = {
           "val": 157.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "442000197",
@@ -333411,7 +334636,7 @@ const PEDIDOS_DATA = {
           "val": 156.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003331",
@@ -333484,7 +334709,7 @@ const PEDIDOS_DATA = {
           "val": 393.12
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003332",
@@ -333517,7 +334742,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003333",
@@ -333545,7 +334770,7 @@ const PEDIDOS_DATA = {
           "val": 199.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003334",
@@ -333588,7 +334813,7 @@ const PEDIDOS_DATA = {
           "val": 77.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001352",
@@ -333621,7 +334846,7 @@ const PEDIDOS_DATA = {
           "val": 262.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001353",
@@ -333649,7 +334874,7 @@ const PEDIDOS_DATA = {
           "val": 299.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001355",
@@ -333672,7 +334897,7 @@ const PEDIDOS_DATA = {
           "val": 2034.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001356",
@@ -333705,7 +334930,7 @@ const PEDIDOS_DATA = {
           "val": 3076.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000319",
@@ -333733,7 +334958,7 @@ const PEDIDOS_DATA = {
           "val": 32.76
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000320",
@@ -333761,7 +334986,7 @@ const PEDIDOS_DATA = {
           "val": 95.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000321",
@@ -333794,7 +335019,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000322",
@@ -333822,7 +335047,7 @@ const PEDIDOS_DATA = {
           "val": 1375.92
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000323",
@@ -333855,7 +335080,7 @@ const PEDIDOS_DATA = {
           "val": 1965.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000324",
@@ -333888,7 +335113,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "554000843",
@@ -337092,7 +338317,7 @@ const PEDIDOS_DATA = {
           "val": 418.8
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "275000438",
@@ -337175,7 +338400,7 @@ const PEDIDOS_DATA = {
           "val": 1138.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004426",
@@ -337208,7 +338433,7 @@ const PEDIDOS_DATA = {
           "val": 183.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004427",
@@ -337231,7 +338456,7 @@ const PEDIDOS_DATA = {
           "val": 466.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004428",
@@ -337254,7 +338479,7 @@ const PEDIDOS_DATA = {
           "val": 66.68
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004429",
@@ -337282,7 +338507,7 @@ const PEDIDOS_DATA = {
           "val": 131.04
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004430",
@@ -337305,7 +338530,7 @@ const PEDIDOS_DATA = {
           "val": 23.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004433",
@@ -337338,7 +338563,7 @@ const PEDIDOS_DATA = {
           "val": 1438.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004434",
@@ -337361,7 +338586,7 @@ const PEDIDOS_DATA = {
           "val": 193.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000131",
@@ -337384,7 +338609,7 @@ const PEDIDOS_DATA = {
           "val": 1078.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000132",
@@ -337465,7 +338690,7 @@ const PEDIDOS_DATA = {
           "val": 348.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003316",
@@ -337488,7 +338713,7 @@ const PEDIDOS_DATA = {
           "val": 159.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003317",
@@ -337526,7 +338751,7 @@ const PEDIDOS_DATA = {
           "val": 94.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003318",
@@ -337549,7 +338774,7 @@ const PEDIDOS_DATA = {
           "val": 276.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003319",
@@ -337617,7 +338842,7 @@ const PEDIDOS_DATA = {
           "val": 111.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003320",
@@ -337640,7 +338865,7 @@ const PEDIDOS_DATA = {
           "val": 393.12
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003321",
@@ -337663,7 +338888,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003322",
@@ -337706,7 +338931,7 @@ const PEDIDOS_DATA = {
           "val": 287.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003323",
@@ -337754,7 +338979,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003324",
@@ -337782,7 +339007,7 @@ const PEDIDOS_DATA = {
           "val": 114.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003325",
@@ -337825,7 +339050,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003326",
@@ -337853,7 +339078,7 @@ const PEDIDOS_DATA = {
           "val": 139.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003327",
@@ -337896,7 +339121,7 @@ const PEDIDOS_DATA = {
           "val": 114.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003328",
@@ -337929,7 +339154,7 @@ const PEDIDOS_DATA = {
           "val": 9.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003329",
@@ -337957,7 +339182,7 @@ const PEDIDOS_DATA = {
           "val": 145.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "554000840",
@@ -338216,7 +339441,7 @@ const PEDIDOS_DATA = {
           "val": 442.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "275000433",
@@ -338244,7 +339469,7 @@ const PEDIDOS_DATA = {
           "val": 988.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "275000435",
@@ -338312,7 +339537,7 @@ const PEDIDOS_DATA = {
           "val": 410.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "342000112",
@@ -338522,7 +339747,7 @@ const PEDIDOS_DATA = {
           "val": 65.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004419",
@@ -338575,7 +339800,7 @@ const PEDIDOS_DATA = {
           "val": 134.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004420",
@@ -338608,7 +339833,7 @@ const PEDIDOS_DATA = {
           "val": 159.84
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004421",
@@ -338646,7 +339871,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004422",
@@ -338669,7 +339894,7 @@ const PEDIDOS_DATA = {
           "val": 265.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004423",
@@ -338702,7 +339927,7 @@ const PEDIDOS_DATA = {
           "val": 139.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004425",
@@ -338725,7 +339950,7 @@ const PEDIDOS_DATA = {
           "val": 959.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000794",
@@ -338753,7 +339978,7 @@ const PEDIDOS_DATA = {
           "val": 71.76
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000795",
@@ -338786,7 +340011,7 @@ const PEDIDOS_DATA = {
           "val": 47.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000797",
@@ -338814,7 +340039,7 @@ const PEDIDOS_DATA = {
           "val": 47.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000798",
@@ -338887,7 +340112,7 @@ const PEDIDOS_DATA = {
           "val": 94.68
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000799",
@@ -338935,7 +340160,7 @@ const PEDIDOS_DATA = {
           "val": 114.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000800",
@@ -338958,7 +340183,7 @@ const PEDIDOS_DATA = {
           "val": 56.38
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "336001906",
@@ -339128,7 +340353,7 @@ const PEDIDOS_DATA = {
           "val": 134.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001029",
@@ -339151,7 +340376,7 @@ const PEDIDOS_DATA = {
           "val": 219.0
         }
       ],
-      "status_log": "VOLTOU"
+      "status_log": ""
     },
     {
       "numped": "153001030",
@@ -339239,7 +340464,7 @@ const PEDIDOS_DATA = {
           "val": 139.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001033",
@@ -339287,7 +340512,7 @@ const PEDIDOS_DATA = {
           "val": 91.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "450000070",
@@ -339375,7 +340600,7 @@ const PEDIDOS_DATA = {
           "val": 132.68
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "370001284",
@@ -339658,7 +340883,7 @@ const PEDIDOS_DATA = {
           "val": 270.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000825",
@@ -339681,7 +340906,7 @@ const PEDIDOS_DATA = {
           "val": 23.94
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000826",
@@ -339709,7 +340934,7 @@ const PEDIDOS_DATA = {
           "val": 134.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000827",
@@ -339772,7 +340997,7 @@ const PEDIDOS_DATA = {
           "val": 131.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000828",
@@ -339825,7 +341050,7 @@ const PEDIDOS_DATA = {
           "val": 67.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "257002224",
@@ -340000,7 +341225,7 @@ const PEDIDOS_DATA = {
           "val": 144.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003157",
@@ -340043,7 +341268,7 @@ const PEDIDOS_DATA = {
           "val": 115.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003159",
@@ -340076,7 +341301,7 @@ const PEDIDOS_DATA = {
           "val": 87.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003161",
@@ -340099,7 +341324,7 @@ const PEDIDOS_DATA = {
           "val": 995.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003162",
@@ -340132,7 +341357,7 @@ const PEDIDOS_DATA = {
           "val": 578.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003164",
@@ -340185,7 +341410,7 @@ const PEDIDOS_DATA = {
           "val": 219.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003166",
@@ -340218,7 +341443,7 @@ const PEDIDOS_DATA = {
           "val": 109.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003168",
@@ -340241,7 +341466,7 @@ const PEDIDOS_DATA = {
           "val": 80.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003169",
@@ -340264,7 +341489,7 @@ const PEDIDOS_DATA = {
           "val": 269.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003170",
@@ -340292,7 +341517,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003171",
@@ -340340,7 +341565,7 @@ const PEDIDOS_DATA = {
           "val": 71.82
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003172",
@@ -340373,7 +341598,7 @@ const PEDIDOS_DATA = {
           "val": 189.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003173",
@@ -340396,7 +341621,7 @@ const PEDIDOS_DATA = {
           "val": 219.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "335000727",
@@ -340829,7 +342054,7 @@ const PEDIDOS_DATA = {
           "val": 1078.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000128",
@@ -340852,7 +342077,7 @@ const PEDIDOS_DATA = {
           "val": 838.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000129",
@@ -340880,7 +342105,7 @@ const PEDIDOS_DATA = {
           "val": 107.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000130",
@@ -340903,7 +342128,7 @@ const PEDIDOS_DATA = {
           "val": 134.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "417000267",
@@ -340954,7 +342179,7 @@ const PEDIDOS_DATA = {
           "val": 117.0
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "155003297",
@@ -340982,7 +342207,7 @@ const PEDIDOS_DATA = {
           "val": 79.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003298",
@@ -341020,7 +342245,7 @@ const PEDIDOS_DATA = {
           "val": 70.1
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003299",
@@ -341078,7 +342303,7 @@ const PEDIDOS_DATA = {
           "val": 91.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003300",
@@ -341126,7 +342351,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003301",
@@ -341154,7 +342379,7 @@ const PEDIDOS_DATA = {
           "val": 419.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003302",
@@ -341182,7 +342407,7 @@ const PEDIDOS_DATA = {
           "val": 394.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003303",
@@ -341205,7 +342430,7 @@ const PEDIDOS_DATA = {
           "val": 199.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003304",
@@ -341228,7 +342453,7 @@ const PEDIDOS_DATA = {
           "val": 298.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003305",
@@ -341261,7 +342486,7 @@ const PEDIDOS_DATA = {
           "val": 131.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003306",
@@ -341284,7 +342509,7 @@ const PEDIDOS_DATA = {
           "val": 299.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003307",
@@ -341332,7 +342557,7 @@ const PEDIDOS_DATA = {
           "val": 407.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003308",
@@ -341375,7 +342600,7 @@ const PEDIDOS_DATA = {
           "val": 48.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003309",
@@ -341398,7 +342623,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003310",
@@ -341421,7 +342646,7 @@ const PEDIDOS_DATA = {
           "val": 159.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003311",
@@ -341454,7 +342679,7 @@ const PEDIDOS_DATA = {
           "val": 197.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003312",
@@ -341502,7 +342727,7 @@ const PEDIDOS_DATA = {
           "val": 211.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003313",
@@ -341535,7 +342760,7 @@ const PEDIDOS_DATA = {
           "val": 299.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003314",
@@ -341601,7 +342826,7 @@ const PEDIDOS_DATA = {
           "val": 199.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001347",
@@ -341768,7 +342993,7 @@ const PEDIDOS_DATA = {
           "val": 104.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "439000076",
@@ -343028,7 +344253,7 @@ const PEDIDOS_DATA = {
           "val": 135.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "238000695",
@@ -343071,7 +344296,7 @@ const PEDIDOS_DATA = {
           "val": 198.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "238000696",
@@ -343104,7 +344329,7 @@ const PEDIDOS_DATA = {
           "val": 695.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "471000126",
@@ -343132,7 +344357,7 @@ const PEDIDOS_DATA = {
           "val": 1078.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003293",
@@ -343155,7 +344380,7 @@ const PEDIDOS_DATA = {
           "val": 159.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003294",
@@ -343178,7 +344403,7 @@ const PEDIDOS_DATA = {
           "val": 279.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003295",
@@ -343211,7 +344436,7 @@ const PEDIDOS_DATA = {
           "val": 221.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003296",
@@ -343234,7 +344459,7 @@ const PEDIDOS_DATA = {
           "val": 1780.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "241000444",
@@ -343257,7 +344482,7 @@ const PEDIDOS_DATA = {
           "val": 419.79
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "241000445",
@@ -344003,7 +345228,7 @@ const PEDIDOS_DATA = {
           "val": 994.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004407",
@@ -344046,7 +345271,7 @@ const PEDIDOS_DATA = {
           "val": 49.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004408",
@@ -344139,7 +345364,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004409",
@@ -344167,7 +345392,7 @@ const PEDIDOS_DATA = {
           "val": 2476.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004410",
@@ -344195,7 +345420,7 @@ const PEDIDOS_DATA = {
           "val": 404.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004411",
@@ -344228,7 +345453,7 @@ const PEDIDOS_DATA = {
           "val": 18.1
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004412",
@@ -344271,7 +345496,7 @@ const PEDIDOS_DATA = {
           "val": 196.56
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004413",
@@ -344334,7 +345559,7 @@ const PEDIDOS_DATA = {
           "val": 219.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004414",
@@ -344357,7 +345582,7 @@ const PEDIDOS_DATA = {
           "val": 239.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004415",
@@ -344415,7 +345640,7 @@ const PEDIDOS_DATA = {
           "val": 175.2
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "159004416",
@@ -344463,7 +345688,7 @@ const PEDIDOS_DATA = {
           "val": 99.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000784",
@@ -344496,7 +345721,7 @@ const PEDIDOS_DATA = {
           "val": 78.9
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "431000785",
@@ -344524,7 +345749,7 @@ const PEDIDOS_DATA = {
           "val": 71.76
         }
       ],
-      "status_log": "CANCELADA"
+      "status_log": ""
     },
     {
       "numped": "431000786",
@@ -344547,7 +345772,7 @@ const PEDIDOS_DATA = {
           "val": 94.68
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000787",
@@ -344595,7 +345820,7 @@ const PEDIDOS_DATA = {
           "val": 131.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000788",
@@ -344623,7 +345848,7 @@ const PEDIDOS_DATA = {
           "val": 47.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000789",
@@ -344686,7 +345911,7 @@ const PEDIDOS_DATA = {
           "val": 155.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000790",
@@ -344709,7 +345934,7 @@ const PEDIDOS_DATA = {
           "val": 165.36
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "431000793",
@@ -344747,7 +345972,7 @@ const PEDIDOS_DATA = {
           "val": 21.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "336001895",
@@ -344963,7 +346188,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001153",
@@ -344996,7 +346221,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001154",
@@ -345024,7 +346249,7 @@ const PEDIDOS_DATA = {
           "val": 77.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001155",
@@ -345067,7 +346292,7 @@ const PEDIDOS_DATA = {
           "val": 65.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "412001156",
@@ -345090,7 +346315,7 @@ const PEDIDOS_DATA = {
           "val": 107.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001026",
@@ -345176,7 +346401,7 @@ const PEDIDOS_DATA = {
           "val": 270.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "153001028",
@@ -345214,7 +346439,7 @@ const PEDIDOS_DATA = {
           "val": 29.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "370001283",
@@ -345280,7 +346505,7 @@ const PEDIDOS_DATA = {
           "val": 270.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000819",
@@ -345303,7 +346528,7 @@ const PEDIDOS_DATA = {
           "val": 109.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000820",
@@ -345336,7 +346561,7 @@ const PEDIDOS_DATA = {
           "val": 66.6
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000821",
@@ -345379,7 +346604,7 @@ const PEDIDOS_DATA = {
           "val": 92.28
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "379000822",
@@ -345432,7 +346657,7 @@ const PEDIDOS_DATA = {
           "val": 92.28
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "257002221",
@@ -345657,7 +346882,7 @@ const PEDIDOS_DATA = {
           "val": 94.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003148",
@@ -345695,7 +346920,7 @@ const PEDIDOS_DATA = {
           "val": 219.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003149",
@@ -345728,7 +346953,7 @@ const PEDIDOS_DATA = {
           "val": 109.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003150",
@@ -345771,7 +346996,7 @@ const PEDIDOS_DATA = {
           "val": 26.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003151",
@@ -345809,7 +347034,7 @@ const PEDIDOS_DATA = {
           "val": 219.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003152",
@@ -345837,7 +347062,7 @@ const PEDIDOS_DATA = {
           "val": 65.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "156003154",
@@ -345860,7 +347085,7 @@ const PEDIDOS_DATA = {
           "val": 790.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "260001176",
@@ -346073,7 +347298,7 @@ const PEDIDOS_DATA = {
           "val": 188.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003278",
@@ -346096,7 +347321,7 @@ const PEDIDOS_DATA = {
           "val": 313.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003279",
@@ -346119,7 +347344,7 @@ const PEDIDOS_DATA = {
           "val": 162.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003280",
@@ -346142,7 +347367,7 @@ const PEDIDOS_DATA = {
           "val": 398.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003281",
@@ -346165,7 +347390,7 @@ const PEDIDOS_DATA = {
           "val": 1780.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003282",
@@ -346188,7 +347413,7 @@ const PEDIDOS_DATA = {
           "val": 152.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003283",
@@ -346226,7 +347451,7 @@ const PEDIDOS_DATA = {
           "val": 203.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003284",
@@ -346269,7 +347494,7 @@ const PEDIDOS_DATA = {
           "val": 280.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003285",
@@ -346292,7 +347517,7 @@ const PEDIDOS_DATA = {
           "val": 197.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003286",
@@ -346325,7 +347550,7 @@ const PEDIDOS_DATA = {
           "val": 199.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003287",
@@ -346348,7 +347573,7 @@ const PEDIDOS_DATA = {
           "val": 419.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003288",
@@ -346371,7 +347596,7 @@ const PEDIDOS_DATA = {
           "val": 89.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003289",
@@ -346424,7 +347649,7 @@ const PEDIDOS_DATA = {
           "val": 55.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003290",
@@ -346462,7 +347687,7 @@ const PEDIDOS_DATA = {
           "val": 221.4
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003291",
@@ -346500,7 +347725,7 @@ const PEDIDOS_DATA = {
           "val": 78.9
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "155003292",
@@ -346563,7 +347788,7 @@ const PEDIDOS_DATA = {
           "val": 71.88
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001342",
@@ -346601,7 +347826,7 @@ const PEDIDOS_DATA = {
           "val": 270.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001343",
@@ -346634,7 +347859,7 @@ const PEDIDOS_DATA = {
           "val": 261.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001344",
@@ -346662,7 +347887,7 @@ const PEDIDOS_DATA = {
           "val": 598.8
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "144001346",
@@ -346710,7 +347935,7 @@ const PEDIDOS_DATA = {
           "val": 594.5
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000317",
@@ -346748,7 +347973,7 @@ const PEDIDOS_DATA = {
           "val": 26.0
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "378000318",
@@ -346791,7 +348016,7 @@ const PEDIDOS_DATA = {
           "val": 33.96
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "419000524",
@@ -346824,7 +348049,7 @@ const PEDIDOS_DATA = {
           "val": 269.7
         }
       ],
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "299000046",
@@ -348273,6 +349498,58 @@ const PEDIDOS_DATA = {
   ],
   "cancelados": [
     {
+      "numped": "153001299",
+      "numnota": "412216",
+      "data": "14/07/2026",
+      "data_ord": "2026-07-14",
+      "nome": "ANGELO NEVES SUZART - OFF TRADE",
+      "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "CANCELADA",
+      "obs": "",
+      "total": 0.0,
+      "itens": [
+        {
+          "desc": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
+          "qt": 0,
+          "val": 0.0
+        },
+        {
+          "desc": "MOLHO TABASCO GREEN PEPPER SAUCE 12X60ML",
+          "qt": 0,
+          "val": 0.0
+        },
+        {
+          "desc": "RC SARDINHA EM OLEO 50X125G",
+          "qt": 0,
+          "val": 0.0
+        },
+        {
+          "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "qt": 0,
+          "val": 0.0
+        },
+        {
+          "desc": "RC ATUM RALADO NATURAL 24X140G",
+          "qt": 0,
+          "val": 0.0
+        },
+        {
+          "desc": "RC ATUM SOLIDO OLEO 24X170G",
+          "qt": 0,
+          "val": 0.0
+        },
+        {
+          "desc": "RC ATUM PEDACOS NATURAL 24X140G",
+          "qt": 0,
+          "val": 0.0
+        }
+      ]
+    },
+    {
       "numped": "155003873",
       "numnota": "412094",
       "data": "14/07/2026",
@@ -348289,6 +349566,95 @@ const PEDIDOS_DATA = {
       "itens": [
         {
           "desc": "AGUA SAN PELLEGRINO C/GÁS 250ML",
+          "qt": 0,
+          "val": 0.0
+        }
+      ]
+    },
+    {
+      "numped": "156003707",
+      "numnota": "412123",
+      "data": "14/07/2026",
+      "data_ord": "2026-07-14",
+      "nome": "MARILENA TRAGEL - OFF TRADE",
+      "cliente": "AUTO SERVICO PRIMEIRO DO BRASIL LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "CANCELADA",
+      "obs": "",
+      "total": 0.0,
+      "itens": [
+        {
+          "desc": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 0,
+          "val": 0.0
+        },
+        {
+          "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "qt": 0,
+          "val": 0.0
+        },
+        {
+          "desc": "WHISKY J WALKER RED LABEL 1L",
+          "qt": 0,
+          "val": 0.0
+        },
+        {
+          "desc": "GIN GORDONS 750 ML",
+          "qt": 0,
+          "val": 0.0
+        },
+        {
+          "desc": "VODKA SMIRNOFF 600 ML",
+          "qt": 0,
+          "val": 0.0
+        }
+      ]
+    },
+    {
+      "numped": "378000496",
+      "numnota": "412071",
+      "data": "14/07/2026",
+      "data_ord": "2026-07-14",
+      "nome": "FABIO VALOTTI - OFF TRADE",
+      "cliente": "GOLLAN'S LANCHES LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "CANCELADA",
+      "obs": "",
+      "total": 0.0,
+      "itens": [
+        {
+          "desc": "4 PACK RED BULL ZERO",
+          "qt": 0,
+          "val": 0.0
+        },
+        {
+          "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "qt": 0,
+          "val": 0.0
+        },
+        {
+          "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 0,
+          "val": 0.0
+        },
+        {
+          "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 0,
+          "val": 0.0
+        },
+        {
+          "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 0,
+          "val": 0.0
+        },
+        {
+          "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
           "qt": 0,
           "val": 0.0
         }
