@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "14/07/2026 17:30",
+  "atualizado_em": "15/07/2026 09:26",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,7 +50,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 84039.46,
+        "fat": 88565.76,
         "pos": 57,
         "fat_ant": 343937.59
       }
@@ -209,7 +209,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 896376.5
       },
       "Jul/26": {
-        "fat": 163210.56,
+        "fat": 303193.62,
         "pos": 7,
         "fat_ant": 1039602.9
       }
@@ -236,8 +236,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 33623.38,
-        "pos": 35,
+        "fat": 35222.66,
+        "pos": 36,
         "fat_ant": 85308.22
       }
     },
@@ -45761,6 +45761,33 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "14/07/2026",
+          "codcli": "31777",
+          "cliente": "CB BH COMERCIO DE ALIMENTOS LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 629.4
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "31777",
+          "cliente": "CB BH COMERCIO DE ALIMENTOS LTDA",
+          "produto": "CHANDON BRUT ROSE 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 689.4
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "31777",
+          "cliente": "CB BH COMERCIO DE ALIMENTOS LTDA",
+          "produto": "MOET CHANDON BRUT IMPERIAL 750 NPP",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 2639.4
+        },
+        {
+          "data": "14/07/2026",
           "codcli": "33631",
           "cliente": "CB CONCEITO BH COMERCIO DE ALIMENTOS LTDA",
           "produto": "LICOR FRANGELICO 700ML",
@@ -45839,6 +45866,42 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 2,
           "valor": 187.8
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "32823",
+          "cliente": "F A MENDONCA GASTRONOMIA LTDA",
+          "produto": "VINHO GRAVEDAD SAUV. BLANC 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 89.8
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "32823",
+          "cliente": "F A MENDONCA GASTRONOMIA LTDA",
+          "produto": "VINHO FOODKILLER CAB SAUV MERLOT 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 97.8
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "32823",
+          "cliente": "F A MENDONCA GASTRONOMIA LTDA",
+          "produto": "VILLA ROSA COLHEITA TINTO  750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 149.8
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "32823",
+          "cliente": "F A MENDONCA GASTRONOMIA LTDA",
+          "produto": "HUMB. CANALE DENARIO MALBEC 750ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 230.7
         }
       ]
     },
@@ -74558,6 +74621,105 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 132,
           "valor": 6586.8
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "37710",
+          "cliente": "MULTICOM ATACADO E VAREJO S/A",
+          "produto": "VODKA ORLOFF 1L DEST",
+          "fantasia": "",
+          "qt": 1728,
+          "valor": 35285.76
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "37710",
+          "cliente": "MULTICOM ATACADO E VAREJO S/A",
+          "produto": "VODKA ORLOFF 1L DEST",
+          "fantasia": "",
+          "qt": 1728,
+          "valor": 35285.76
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "37710",
+          "cliente": "MULTICOM ATACADO E VAREJO S/A",
+          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "fantasia": "",
+          "qt": 120,
+          "valor": 13440.0
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "37710",
+          "cliente": "MULTICOM ATACADO E VAREJO S/A",
+          "produto": "WHISKY BALLANTINE'S FINEST 750 ML",
+          "fantasia": "",
+          "qt": 180,
+          "valor": 8226.0
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "37710",
+          "cliente": "MULTICOM ATACADO E VAREJO S/A",
+          "produto": "RUM MONTILLA OURO 1000ML",
+          "fantasia": "",
+          "qt": 480,
+          "valor": 9984.0
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "37710",
+          "cliente": "MULTICOM ATACADO E VAREJO S/A",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "fantasia": "",
+          "qt": 120,
+          "valor": 7675.2
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "37710",
+          "cliente": "MULTICOM ATACADO E VAREJO S/A",
+          "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
+          "fantasia": "",
+          "qt": 360,
+          "valor": 7488.0
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "37710",
+          "cliente": "MULTICOM ATACADO E VAREJO S/A",
+          "produto": "RUM MONTILLA CRISTAL 1000 ML",
+          "fantasia": "",
+          "qt": 120,
+          "valor": 2496.0
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "37710",
+          "cliente": "MULTICOM ATACADO E VAREJO S/A",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "",
+          "qt": 120,
+          "valor": 3637.2
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "37710",
+          "cliente": "MULTICOM ATACADO E VAREJO S/A",
+          "produto": "WHISKY BALLANTINES SUNSHINE 700ML",
+          "fantasia": "",
+          "qt": 102,
+          "valor": 4703.22
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "37710",
+          "cliente": "MULTICOM ATACADO E VAREJO S/A",
+          "produto": "VODKA ORLOFF 1L DEST",
+          "fantasia": "",
+          "qt": 576,
+          "valor": 11761.92
         }
       ]
     },
@@ -85067,6 +85229,15 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "14/07/2026",
+          "codcli": "34010",
+          "cliente": "NOVA UAINER VINHOS E ENTRETENIMENTO LTDA",
+          "produto": "VILLA ROSA BRANCO 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 257.4
+        },
+        {
+          "data": "14/07/2026",
           "codcli": "36028",
           "cliente": "ORGANIZACOES JRF LTDA",
           "produto": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
@@ -85136,6 +85307,96 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 76.9
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "33637",
+          "cliente": "DIAMOND FOODS LTDA",
+          "produto": "APERITIVO APEROL 750 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 89.0
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "33637",
+          "cliente": "DIAMOND FOODS LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 149.8
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "33637",
+          "cliente": "DIAMOND FOODS LTDA",
+          "produto": "WHISKY JACK DANIELS 1L",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 129.9
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "33637",
+          "cliente": "DIAMOND FOODS LTDA",
+          "produto": "VINHO CAVAS DE ORO CABERNET SAUV 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 109.8
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "34357",
+          "cliente": "VILLAGE FOODS LTDA",
+          "produto": "VINHO ADELE ROSE 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 76.9
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "34357",
+          "cliente": "VILLAGE FOODS LTDA",
+          "produto": "4 PACK RED BULL MELANCIA",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 63.92
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "34357",
+          "cliente": "VILLAGE FOODS LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 74.9
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "34357",
+          "cliente": "VILLAGE FOODS LTDA",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 74.9
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "34357",
+          "cliente": "VILLAGE FOODS LTDA",
+          "produto": "CERVEJA HEINEKEN  LONG ZERO 24X330ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 1,
+          "valor": 143.76
+        },
+        {
+          "data": "14/07/2026",
+          "codcli": "34010",
+          "cliente": "NOVA UAINER VINHOS E ENTRETENIMENTO LTDA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "",
+          "qt": 10,
+          "valor": 429.0
         }
       ]
     },
