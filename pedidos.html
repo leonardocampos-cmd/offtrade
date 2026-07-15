@@ -63,13 +63,39 @@
       font-weight: 700; cursor: pointer; font-family: inherit;
     }
     .btn-csv:hover { opacity: .88; }
-    .chk-hoje {
-      display: flex; align-items: center; gap: 7px;
+    .ms-data { position: relative; }
+    .ms-toggle {
       background: var(--card); border: 1px solid var(--border);
-      border-radius: 8px; padding: 8px 14px; font-size: .88rem;
-      cursor: pointer; user-select: none;
+      color: var(--text); border-radius: 8px; padding: 8px 12px;
+      font-size: .88rem; outline: none; font-family: inherit;
+      min-width: 240px; text-align: left; cursor: pointer;
+      display: flex; justify-content: space-between; align-items: center; gap: 8px;
     }
-    .chk-hoje input { cursor: pointer; accent-color: var(--accent); width: 15px; height: 15px; }
+    .ms-toggle:hover, .ms-toggle.open { border-color: var(--blue); }
+    .ms-toggle span:last-child { color: var(--muted); font-size: .72rem; }
+    .ms-panel {
+      position: absolute; top: calc(100% + 4px); left: 0; z-index: 20;
+      background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+      min-width: 240px; max-height: 280px; overflow-y: auto;
+      box-shadow: 0 8px 24px rgba(0,0,0,.4); padding: 6px;
+    }
+    .ms-panel.hidden { display: none; }
+    .ms-actions {
+      display: flex; justify-content: space-between; padding: 4px 6px 8px;
+      border-bottom: 1px solid var(--border); margin-bottom: 4px;
+    }
+    .ms-actions button {
+      background: none; border: none; color: var(--blue); font-size: .76rem;
+      cursor: pointer; font-family: inherit; padding: 0;
+    }
+    .ms-actions button:hover { text-decoration: underline; }
+    .ms-option {
+      display: flex; align-items: center; gap: 8px; padding: 6px 8px;
+      border-radius: 6px; font-size: .85rem; cursor: pointer;
+    }
+    .ms-option:hover { background: var(--card2); }
+    .ms-option input { cursor: pointer; accent-color: var(--accent); }
+    .ms-empty { padding: 10px; color: var(--muted); font-size: .82rem; text-align: center; }
     .info { font-size: .8rem; color: var(--muted); margin-left: auto; }
     .table-wrap { overflow-x: auto; border-radius: 10px; border: 1px solid var(--border); }
     table { width: 100%; border-collapse: collapse; font-size: .82rem; }
@@ -99,6 +125,18 @@
     .status-log-retorno   { background: rgba(249,115,22,.15); color: var(--orange); }
     .status-log-cancelada { background: rgba(239,68,68,.15);  color: var(--red); }
     .status-log-outro     { background: var(--card2); border: 1px solid var(--border); color: var(--text); }
+    .badge-agendado {
+      display: inline-block; background: rgba(59,130,246,.15); color: var(--blue);
+      border-radius: 20px; padding: 1px 8px; font-size: .68rem; font-weight: 700;
+      white-space: nowrap;
+    }
+    .chk-toggle {
+      display: flex; align-items: center; gap: 7px;
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 8px; padding: 8px 14px; font-size: .88rem;
+      cursor: pointer; user-select: none;
+    }
+    .chk-toggle input { cursor: pointer; accent-color: var(--accent); width: 15px; height: 15px; }
     .expand-icon { display:inline-block; width: 14px; color: var(--muted); }
     .itens-table { width: 100%; border-collapse: collapse; font-size: .78rem; margin-top: 6px; }
     .itens-table th { text-align:left; color: var(--muted); font-weight: 600; padding: 4px 8px; white-space: normal; }
@@ -130,12 +168,18 @@
   <select id="sel-supervisor" onchange="onSupervisorChange()">
     <option value="">Todos os Supervisores</option>
   </select>
-  <select id="sel-vendedor" onchange="aplicarFiltro()">
+  <select id="sel-vendedor" onchange="onVendedorChange()">
     <option value="">Todos os Vendedores</option>
   </select>
+  <div class="ms-data" id="ms-data">
+    <button type="button" class="ms-toggle" id="ms-data-toggle" onclick="toggleDataPanel(event)">
+      <span id="ms-data-label">Todas as Datas</span><span>▾</span>
+    </button>
+    <div class="ms-panel hidden" id="ms-data-panel"></div>
+  </div>
   <input type="text" id="busca" placeholder="Buscar por cliente, pedido, NF..." oninput="aplicarFiltro()">
-  <label class="chk-hoje">
-    <input type="checkbox" id="chk-hoje" onchange="aplicarFiltro()"> Só hoje
+  <label class="chk-toggle">
+    <input type="checkbox" id="chk-agendamento" onchange="aplicarFiltro()"> 📅 Agendamento
   </label>
   <button class="btn-csv" onclick="exportarCSV()">⬇ Exportar CSV</button>
   <span class="info" id="info-count"></span>
@@ -147,7 +191,7 @@
       <tr>
         <th></th>
         <th onclick="ordenarPor('numped')">Pedido</th>
-        <th onclick="ordenarPor('numnota')">NF</th>
+        <th id="th-nf" onclick="ordenarPor('numnota')">NF</th>
         <th onclick="ordenarPor('data')">Data</th>
         <th onclick="ordenarPor('nome')">Vendedor</th>
         <th onclick="ordenarPor('cliente')">Cliente</th>
@@ -180,6 +224,7 @@ const ABAS = [
 let _abaAtual = 'pedidos_feitos';
 let _ordem = { campo: 'data', asc: false };
 let _expandidos = new Set();
+let _datasSelecionadas = new Set();
 
 if (!DATA) {
   document.getElementById('tbody').innerHTML = '<tr><td colspan="8" class="empty">Dados não encontrados. Execute pedidos.py para gerar pedidos_data.js.</td></tr>';
@@ -203,6 +248,12 @@ function montarTabs() {
   const th = document.getElementById('th-extra');
   th.textContent = abaInfo.colExtra.label;
   th.onclick = () => ordenarPor(abaInfo.colExtra.campo);
+
+  document.getElementById('th-nf').style.display = _abaAtual === 'pedidos_feitos' ? 'none' : '';
+}
+
+function _totalColunas() {
+  return _abaAtual === 'pedidos_feitos' ? 7 : 8;
 }
 
 function trocarAba(chave) {
@@ -294,7 +345,97 @@ function montarVendedores() {
     sel.appendChild(o);
   });
   if (atual && !base.some(p => p.nome === atual)) sel.value = '';
+
+  montarDatas();
 }
+
+function montarDatas() {
+  const estado     = document.getElementById('sel-estado').value;
+  const gerente    = document.getElementById('sel-gerente').value;
+  const supervisor = document.getElementById('sel-supervisor').value;
+  const vendedor   = document.getElementById('sel-vendedor').value;
+  const base = _listaAtual().filter(p =>
+    (!estado || p.estado === estado) &&
+    (!gerente || p.gerente === gerente) &&
+    (!supervisor || p.supervisor === supervisor) &&
+    (!vendedor || p.nome === vendedor)
+  );
+
+  const datas = [...new Map(base.map(p => [p.data_ord, p.data])).entries()]
+    .filter(([ord]) => ord)
+    .sort((a, b) => b[0].localeCompare(a[0]));
+
+  // Descarta seleções que sumiram da base atual (troca de aba/outro filtro)
+  const ordsDisponiveis = new Set(datas.map(([ord]) => ord));
+  [..._datasSelecionadas].forEach(ord => { if (!ordsDisponiveis.has(ord)) _datasSelecionadas.delete(ord); });
+
+  const panel = document.getElementById('ms-data-panel');
+  if (!datas.length) {
+    panel.innerHTML = '<div class="ms-empty">Nenhuma data disponível.</div>';
+  } else {
+    const acoes = `<div class="ms-actions">
+      <button type="button" onclick="_selecionarTodasDatas()">Selecionar todas</button>
+      <button type="button" onclick="_limparDatas()">Limpar</button>
+    </div>`;
+    const opts = datas.map(([ord, disp]) => `
+      <label class="ms-option">
+        <input type="checkbox" value="${ord}" ${_datasSelecionadas.has(ord) ? 'checked' : ''} onchange="_toggleData('${ord}', this.checked)">
+        ${disp}
+      </label>`).join('');
+    panel.innerHTML = acoes + opts;
+  }
+  _atualizarLabelDatas();
+}
+
+function _toggleData(ord, checked) {
+  if (checked) _datasSelecionadas.add(ord); else _datasSelecionadas.delete(ord);
+  _atualizarLabelDatas();
+  aplicarFiltro();
+}
+
+function _selecionarTodasDatas() {
+  document.querySelectorAll('#ms-data-panel input[type=checkbox]').forEach(cb => {
+    cb.checked = true;
+    _datasSelecionadas.add(cb.value);
+  });
+  _atualizarLabelDatas();
+  aplicarFiltro();
+}
+
+function _limparDatas() {
+  _datasSelecionadas.clear();
+  document.querySelectorAll('#ms-data-panel input[type=checkbox]').forEach(cb => cb.checked = false);
+  _atualizarLabelDatas();
+  aplicarFiltro();
+}
+
+function _atualizarLabelDatas() {
+  const label = document.getElementById('ms-data-label');
+  const n = _datasSelecionadas.size;
+  if (n === 0) {
+    label.textContent = 'Todas as Datas';
+  } else if (n === 1) {
+    const ord = [..._datasSelecionadas][0];
+    const item = _listaAtual().find(p => p.data_ord === ord);
+    label.textContent = item ? item.data : ord;
+  } else {
+    label.textContent = `${n} datas selecionadas`;
+  }
+}
+
+function toggleDataPanel(ev) {
+  ev.stopPropagation();
+  document.getElementById('ms-data-panel').classList.toggle('hidden');
+  document.getElementById('ms-data-toggle').classList.toggle('open');
+}
+
+document.addEventListener('click', (ev) => {
+  const wrap = document.getElementById('ms-data');
+  if (wrap && !wrap.contains(ev.target)) {
+    document.getElementById('ms-data-panel').classList.add('hidden');
+    document.getElementById('ms-data-toggle').classList.remove('open');
+  }
+});
 
 function onEstadoChange() {
   montarGerentes();
@@ -311,6 +452,11 @@ function onSupervisorChange() {
   aplicarFiltro();
 }
 
+function onVendedorChange() {
+  montarDatas();
+  aplicarFiltro();
+}
+
 function ordenarPor(campo) {
   if (_ordem.campo === campo) {
     _ordem.asc = !_ordem.asc;
@@ -320,28 +466,23 @@ function ordenarPor(campo) {
   aplicarFiltro();
 }
 
-function _hojeISO() {
-  const d = new Date();
-  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
-}
-
 function _filtrados() {
   const estado     = document.getElementById('sel-estado').value;
   const gerente    = document.getElementById('sel-gerente').value;
   const supervisor = document.getElementById('sel-supervisor').value;
   const vendedor   = document.getElementById('sel-vendedor').value;
   const busca      = document.getElementById('busca').value.trim().toLowerCase();
-  const soHoje     = document.getElementById('chk-hoje').checked;
-  const hoje       = _hojeISO();
+  const soAgendado = document.getElementById('chk-agendamento').checked;
   let lista = _listaAtual().filter(p => {
     const matchEstado     = !estado || p.estado === estado;
     const matchGerente    = !gerente || p.gerente === gerente;
     const matchSupervisor = !supervisor || p.supervisor === supervisor;
     const matchVendedor   = !vendedor || p.nome === vendedor;
-    const matchHoje       = !soHoje || p.data_ord === hoje;
+    const matchData       = _datasSelecionadas.size === 0 || _datasSelecionadas.has(p.data_ord);
+    const matchAgendado   = !soAgendado || !!_agendamento(p.obs);
     const matchBusca = !busca || [p.cliente, p.numped, p.numnota]
       .some(v => v && String(v).toLowerCase().includes(busca));
-    return matchEstado && matchGerente && matchSupervisor && matchVendedor && matchHoje && matchBusca;
+    return matchEstado && matchGerente && matchSupervisor && matchVendedor && matchData && matchAgendado && matchBusca;
   });
   const { campo, asc } = _ordem;
   const campoOrd = campo === 'data' ? 'data_ord' : campo;
@@ -379,30 +520,42 @@ function aplicarFiltro() {
   document.getElementById('info-count').textContent = lista.length + ' pedido(s)';
 
   const tbody = document.getElementById('tbody');
+  const totalCols = _totalColunas();
   if (!lista.length) {
-    tbody.innerHTML = '<tr><td colspan="8" class="empty">Nenhum pedido encontrado.</td></tr>';
+    tbody.innerHTML = `<tr><td colspan="${totalCols}" class="empty">Nenhum pedido encontrado.</td></tr>`;
     return;
   }
 
   const abaInfo = ABAS.find(a => a.chave === _abaAtual);
+  const mostraNf = _abaAtual !== 'pedidos_feitos';
   tbody.innerHTML = lista.map(p => {
     const chave = p.numped + '_' + p.numnota;
     const expandido = _expandidos.has(chave);
+    const agendado = _agendamento(p.obs);
     return `
     <tr class="linha-pedido" onclick="toggleItens('${_esc(chave)}')">
       <td class="expand-icon">${expandido ? '▾' : '▸'}</td>
       <td class="cod">${_esc(p.numped)}</td>
-      <td class="cod">${_esc(p.numnota) || '—'}</td>
+      ${mostraNf ? `<td class="cod">${_esc(p.numnota) || '—'}</td>` : ''}
       <td>${_esc(p.data)}</td>
       <td><span class="rca-badge">${_esc((p.nome || '').replace(' - OFF TRADE',''))}</span></td>
-      <td>${_esc(p.cliente)}</td>
+      <td>${_esc(p.cliente)}${agendado ? ` <span class="badge-agendado">📅 ${agendado}</span>` : ''}</td>
       <td>${abaInfo.colExtra.render(p)}</td>
       <td>${brl(p.total)}</td>
     </tr>
     <tr class="linha-itens ${expandido ? '' : 'oculta'}" id="itens-${_esc(chave)}">
-      <td colspan="8">${_montarItens(p)}</td>
+      <td colspan="${totalCols}">${_montarItens(p)}</td>
     </tr>`;
   }).join('');
+}
+
+function _agendamento(obs) {
+  if (!obs) return null;
+  const m = obs.match(/Data\s*entrega:?\s*(\d{2})\/?(\d{2})\/?(\d{2,4})/i);
+  if (!m) return null;
+  let [, dd, mm, yy] = m;
+  if (yy.length === 2) yy = '20' + yy;
+  return `${dd}/${mm}/${yy}`;
 }
 
 function _montarItens(p) {
