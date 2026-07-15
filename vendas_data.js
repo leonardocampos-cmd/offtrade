@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "15/07/2026 12:22",
+  "atualizado_em": "15/07/2026 13:21",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -492720,6 +492720,16 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "15/07/2026",
+          "codcli": "31529",
+          "cliente": "MASSAS MADONINA LTDA",
+          "produto": "VINHO DO PORTO DALVA TAWNY 750ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 359.7,
+          "tipo": "Venda"
+        },
+        {
           "data": "13/07/2026",
           "codcli": "31850",
           "cliente": "LA MACELLERIA VILA DA SERRA ACOUGUE GOURMET E RESTAURANTE LT",
@@ -492857,6 +492867,26 @@ const VENDAS_DATA = {
           "fantasia": "HEINEKEN BRASIL",
           "qt": 3,
           "valor": 431.28,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "33464",
+          "cliente": "KRABI EXPRESS RESTAURANTE LTDA",
+          "produto": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 453.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "33464",
+          "cliente": "KRABI EXPRESS RESTAURANTE LTDA",
+          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 453.6,
           "tipo": "Venda"
         },
         {

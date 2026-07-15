@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "15/07/2026 12:22",
+  "atualizado_em": "15/07/2026 13:21",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -118,6 +118,21 @@ const GERENTES_DATA = {
                       "qt": 178
                     }
                   }
+                }
+              ]
+            },
+            {
+              "nome": "SUPERVISOR HIBRIDO - ES",
+              "estados": [
+                "ES"
+              ],
+              "por_mes": {},
+              "vendedores": [
+                {
+                  "nome": "HUMBERTO DA SILVA - OFF TRADE",
+                  "rca": "398",
+                  "estado": "ES",
+                  "por_mes": {}
                 }
               ]
             },
@@ -510,8 +525,8 @@ const GERENTES_DATA = {
           "qt": 18156
         },
         "Jul/26": {
-          "fat": 513920.38,
-          "qt": 11705
+          "fat": 515187.28,
+          "qt": 11756
         },
         "Jun/26": {
           "fat": 1754601.37,
@@ -542,8 +557,8 @@ const GERENTES_DATA = {
               "qt": 18156
             },
             "Jul/26": {
-              "fat": 513920.38,
-              "qt": 11705
+              "fat": 515187.28,
+              "qt": 11756
             },
             "Jun/26": {
               "fat": 1754601.37,
@@ -574,8 +589,8 @@ const GERENTES_DATA = {
                   "qt": 18156
                 },
                 "Jul/26": {
-                  "fat": 513920.38,
-                  "qt": 11705
+                  "fat": 515187.28,
+                  "qt": 11756
                 },
                 "Jun/26": {
                   "fat": 1754601.37,
@@ -774,8 +789,8 @@ const GERENTES_DATA = {
                       "qt": 1375
                     },
                     "Jul/26": {
-                      "fat": 35222.66,
-                      "qt": 576
+                      "fat": 36489.56,
+                      "qt": 627
                     },
                     "Jun/26": {
                       "fat": 85308.22,
@@ -1063,6 +1078,12 @@ const GERENTES_DATA = {
                       "qt": 995
                     }
                   }
+                },
+                {
+                  "nome": "BARBARA CABRAL - OFF TRADE ",
+                  "rca": "412",
+                  "estado": "RJ",
+                  "por_mes": {}
                 },
                 {
                   "nome": "DANIELLE MOURA - OFF TRADE",
@@ -1536,6 +1557,42 @@ const GERENTES_DATA = {
               },
               "vendedores": [
                 {
+                  "nome": "ALEXSANDRO DOS SANTOS - OFF TRADE",
+                  "rca": "255",
+                  "estado": "RJ",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "ANDRESSA BARROS FERREIRA - OFF TRADE",
+                  "rca": "146",
+                  "estado": "RJ",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "ARLLEY FIGUEIREDO - OFF TRADE",
+                  "rca": "161",
+                  "estado": "RJ",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "CLAUDIO NOBREGA - OFF TRADE",
+                  "rca": "170",
+                  "estado": "RJ",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "FERNANDA DE OLIVEIRA - OFF TRADE",
+                  "rca": "173",
+                  "estado": "RJ",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "FÁBIO OLIVEIRA - OFF TRADE",
+                  "rca": "415",
+                  "estado": "RJ",
+                  "por_mes": {}
+                },
+                {
                   "nome": "GISELLE BARFER - OFF TRADE",
                   "rca": "159",
                   "estado": "RJ",
@@ -1565,6 +1622,24 @@ const GERENTES_DATA = {
                       "qt": 4719
                     }
                   }
+                },
+                {
+                  "nome": "JOAO PEDRO - OFF TRADE",
+                  "rca": "172",
+                  "estado": "RJ",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "LORRAYNE SANTOS - OFF TRADE",
+                  "rca": "416",
+                  "estado": "RJ",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "MAYCON COELHO FERRAZ - OFF TRADE",
+                  "rca": "405",
+                  "estado": "RJ",
+                  "por_mes": {}
                 },
                 {
                   "nome": "RAPHAEL SANTOS - OFF TRADE",
@@ -1670,28 +1745,28 @@ const GERENTES_DATA = {
           ],
           "por_mes": {
             "Abr/26": {
-              "fat": 3092959.92,
-              "qt": 61303
+              "fat": 3133740.84,
+              "qt": 61830
             },
             "Fev/26": {
-              "fat": 3400065.17,
-              "qt": 80520
+              "fat": 3413505.75,
+              "qt": 80641
             },
             "Jul/26": {
               "fat": 1253360.15,
-              "qt": 31252
+              "qt": 31260
             },
             "Jun/26": {
-              "fat": 2414043.53,
-              "qt": 56951
+              "fat": 2447376.44,
+              "qt": 57108
             },
             "Mai/26": {
-              "fat": 2028315.23,
-              "qt": 52716
+              "fat": 2028656.87,
+              "qt": 52867
             },
             "Mar/26": {
-              "fat": 4116331.75,
-              "qt": 95315
+              "fat": 4131423.13,
+              "qt": 95485
             }
           },
           "supervisores": [
@@ -1702,28 +1777,28 @@ const GERENTES_DATA = {
               ],
               "por_mes": {
                 "Abr/26": {
-                  "fat": 3092959.92,
-                  "qt": 61303
+                  "fat": 3133740.84,
+                  "qt": 61830
                 },
                 "Fev/26": {
-                  "fat": 3400065.17,
-                  "qt": 80520
+                  "fat": 3413505.75,
+                  "qt": 80641
                 },
                 "Jul/26": {
                   "fat": 1253360.15,
-                  "qt": 31252
+                  "qt": 31260
                 },
                 "Jun/26": {
-                  "fat": 2414043.53,
-                  "qt": 56951
+                  "fat": 2447376.44,
+                  "qt": 57108
                 },
                 "Mai/26": {
-                  "fat": 2028315.23,
-                  "qt": 52716
+                  "fat": 2028656.87,
+                  "qt": 52867
                 },
                 "Mar/26": {
-                  "fat": 4116331.75,
-                  "qt": 95315
+                  "fat": 4131423.13,
+                  "qt": 95485
                 }
               },
               "vendedores": [
@@ -1733,8 +1808,28 @@ const GERENTES_DATA = {
                   "estado": "SP",
                   "por_mes": {
                     "Abr/26": {
-                      "fat": 35114.98,
-                      "qt": 230
+                      "fat": 75895.9,
+                      "qt": 757
+                    },
+                    "Fev/26": {
+                      "fat": 13440.58,
+                      "qt": 121
+                    },
+                    "Jul/26": {
+                      "fat": 0.0,
+                      "qt": 8
+                    },
+                    "Jun/26": {
+                      "fat": 33332.91,
+                      "qt": 157
+                    },
+                    "Mai/26": {
+                      "fat": 341.64,
+                      "qt": 151
+                    },
+                    "Mar/26": {
+                      "fat": 15091.38,
+                      "qt": 170
                     }
                   }
                 },
@@ -1780,28 +1875,28 @@ const GERENTES_DATA = {
           ],
           "por_mes": {
             "Abr/26": {
-              "fat": 2740107.26,
-              "qt": 60932
+              "fat": 2699326.34,
+              "qt": 60405
             },
             "Fev/26": {
-              "fat": 1108929.44,
-              "qt": 26352
+              "fat": 1095488.86,
+              "qt": 26231
             },
             "Jul/26": {
               "fat": 1708713.6,
-              "qt": 40864
+              "qt": 40856
             },
             "Jun/26": {
-              "fat": 5065549.2,
-              "qt": 133081
+              "fat": 5032216.29,
+              "qt": 132924
             },
             "Mai/26": {
-              "fat": 4851426.18,
-              "qt": 129589
+              "fat": 4851084.54,
+              "qt": 129438
             },
             "Mar/26": {
-              "fat": 1808047.28,
-              "qt": 50185
+              "fat": 1792955.9,
+              "qt": 50015
             }
           },
           "supervisores": [
@@ -2078,28 +2173,28 @@ const GERENTES_DATA = {
               ],
               "por_mes": {
                 "Abr/26": {
-                  "fat": 306787.44,
-                  "qt": 10666
+                  "fat": 266006.52,
+                  "qt": 10139
+                },
+                "Jun/26": {
+                  "fat": 614808.02,
+                  "qt": 16015
                 },
                 "Fev/26": {
-                  "fat": 14373.58,
-                  "qt": 129
+                  "fat": 933.0,
+                  "qt": 8
+                },
+                "Mar/26": {
+                  "fat": 6588.0,
+                  "qt": 120
+                },
+                "Mai/26": {
+                  "fat": 1552597.82,
+                  "qt": 49469
                 },
                 "Jul/26": {
                   "fat": 735460.7,
-                  "qt": 17143
-                },
-                "Jun/26": {
-                  "fat": 648140.93,
-                  "qt": 16172
-                },
-                "Mai/26": {
-                  "fat": 1552939.46,
-                  "qt": 49620
-                },
-                "Mar/26": {
-                  "fat": 21679.38,
-                  "qt": 290
+                  "qt": 17135
                 }
               },
               "vendedores": [
@@ -2131,32 +2226,20 @@ const GERENTES_DATA = {
                 },
                 {
                   "nome": "BRYAN PALOPOLI - OFF TRADE",
-                  "rca": "299",
+                  "rca": "399",
                   "estado": "SP",
                   "por_mes": {
-                    "Abr/26": {
-                      "fat": 40780.92,
-                      "qt": 527
-                    },
                     "Fev/26": {
-                      "fat": 14373.58,
-                      "qt": 129
-                    },
-                    "Jul/26": {
-                      "fat": 0.0,
+                      "fat": 933.0,
                       "qt": 8
                     },
                     "Jun/26": {
-                      "fat": 36626.91,
-                      "qt": 217
-                    },
-                    "Mai/26": {
-                      "fat": 341.64,
-                      "qt": 151
+                      "fat": 3294.0,
+                      "qt": 60
                     },
                     "Mar/26": {
-                      "fat": 21679.38,
-                      "qt": 290
+                      "fat": 6588.0,
+                      "qt": 120
                     }
                   }
                 },
@@ -2905,250 +2988,6 @@ const GERENTES_DATA = {
           "por_mes": {},
           "supervisores": [
             {
-              "nome": "BRUNA GEROLIS",
-              "estados": [],
-              "por_mes": {},
-              "vendedores": [
-                {
-                  "nome": "VIVIANI ALVES - OFF TRADE",
-                  "rca": "119",
-                  "estado": "",
-                  "por_mes": {}
-                }
-              ]
-            },
-            {
-              "nome": "DANIEL DINIZ",
-              "estados": [],
-              "por_mes": {},
-              "vendedores": [
-                {
-                  "nome": "ADEILSON GONÇALVEZ - OFF TRADE",
-                  "rca": "431",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "ALEXSANDRO DOS SANTOS - OFF TRADE",
-                  "rca": "255",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "ALLAN PAES - OFF TRADE",
-                  "rca": "174",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "ANGELO NEVES SUZART - OFF TRADE",
-                  "rca": "153",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "ARETHA AGUIAR - OFF TRADE",
-                  "rca": "408",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "ARLLEY FIGUEIREDO - OFF TRADE",
-                  "rca": "161",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "BARBARA CABRAL - OFF TRADE ",
-                  "rca": "412",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "DANIEL COSTA - OFF TRADE",
-                  "rca": "239",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "DANIELLE MOURA - OFF TRADE",
-                  "rca": "238",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "DIMAS GIRARD - OFF TRADE",
-                  "rca": "409",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "ELIEL MAIA - OFF TRADE",
-                  "rca": "246",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "FABIO VALOTTI - OFF TRADE",
-                  "rca": "378",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "FERNANDA DE OLIVEIRA - OFF TRADE",
-                  "rca": "173",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "FLÁVIO ALVES - OFF TRADE ",
-                  "rca": "248",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "FÁBIO OLIVEIRA - OFF TRADE",
-                  "rca": "415",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "JOAO PEDRO - OFF TRADE",
-                  "rca": "172",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "JORGE LUIZ - OFF TRADE",
-                  "rca": "406",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "JORGE MACIEL - OFF TRADE",
-                  "rca": "379",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "JOSE MARCELO CARDOSO - OFF TRADE",
-                  "rca": "158",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "KELLY RAMOS - OFF TRADE",
-                  "rca": "420",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "LORRAYNE SANTOS - OFF TRADE",
-                  "rca": "416",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "MARCELO SANCHES - OFF TRADE",
-                  "rca": "410",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "MARIA LUIZA - OFF TRADE",
-                  "rca": "275",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "MARILENA TRAGEL - OFF TRADE",
-                  "rca": "156",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "MAYCON COELHO FERRAZ - OFF TRADE",
-                  "rca": "405",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "MOACIR FILHO - OFF TRADE",
-                  "rca": "247",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "NÁTALI DE OLIVEIRA - OFF TRADE",
-                  "rca": "419",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "SAMARION DE SOUZA FONSECA - OFF TRADE",
-                  "rca": "404",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "WEBERT FIGUEIREDO - OFF TRADE",
-                  "rca": "245",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "ZEINALDO DE OLIVEIRA - OFF TRADE",
-                  "rca": "241",
-                  "estado": "",
-                  "por_mes": {}
-                }
-              ]
-            },
-            {
-              "nome": "GRANDE VITORIA",
-              "estados": [],
-              "por_mes": {},
-              "vendedores": [
-                {
-                  "nome": "DOUGLAS SCHADE - OFF TRADE",
-                  "rca": "260",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "ENEIVA RODRIGUES - OFF TRADE",
-                  "rca": "230",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "EUDES MORGAN - OFF TRADE",
-                  "rca": "388",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "HUMBERTO DA SILVA - OFF TRADE",
-                  "rca": "398",
-                  "estado": "",
-                  "por_mes": {}
-                }
-              ]
-            },
-            {
-              "nome": "PATRICK MORAES",
-              "estados": [],
-              "por_mes": {},
-              "vendedores": [
-                {
-                  "nome": "GISELLE BARFER - OFF TRADE",
-                  "rca": "159",
-                  "estado": "",
-                  "por_mes": {}
-                }
-              ]
-            },
-            {
               "nome": "RCAs INATIVOS",
               "estados": [],
               "por_mes": {},
@@ -3162,31 +3001,6 @@ const GERENTES_DATA = {
               ]
             },
             {
-              "nome": "ROGERIO DONATO",
-              "estados": [],
-              "por_mes": {},
-              "vendedores": [
-                {
-                  "nome": "ANDRESSA BARROS FERREIRA - OFF TRADE",
-                  "rca": "146",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "CLAUDIO NOBREGA - OFF TRADE",
-                  "rca": "170",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "DIOGO RAPOSO - OFF TRADE",
-                  "rca": "144",
-                  "estado": "",
-                  "por_mes": {}
-                }
-              ]
-            },
-            {
               "nome": "SUPERVISOR - ES",
               "estados": [],
               "por_mes": {},
@@ -3194,19 +3008,6 @@ const GERENTES_DATA = {
                 {
                   "nome": "DIEGO PAULINO - OFF TRADE",
                   "rca": "444",
-                  "estado": "",
-                  "por_mes": {}
-                }
-              ]
-            },
-            {
-              "nome": "TELEVENDAS RJ",
-              "estados": [],
-              "por_mes": {},
-              "vendedores": [
-                {
-                  "nome": "RAPHAEL SANTOS - OFF TRADE",
-                  "rca": "155",
                   "estado": "",
                   "por_mes": {}
                 }
@@ -3263,6 +3064,12 @@ const GERENTES_DATA = {
                 {
                   "nome": "JORGE LUIZ - OFF TRADE",
                   "rca": "406",
+                  "estado": "",
+                  "por_mes": {}
+                },
+                {
+                  "nome": "KELLY RAMOS - OFF TRADE",
+                  "rca": "420",
                   "estado": "",
                   "por_mes": {}
                 },
