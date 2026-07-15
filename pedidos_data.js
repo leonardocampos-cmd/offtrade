@@ -1,8 +1,82 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "15/07/2026 12:08",
+  "atualizado_em": "15/07/2026 13:07",
   "periodo_dias": 90,
   "fontes_indisponiveis": [],
   "pedidos_feitos": [
+    {
+      "numped": "439000256",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "MATEUS CARDOSO - OFF TRADE",
+      "cliente": "PORTO MIX DISTRIBUIDORA DE BEBIDAS E CONVENIÊNCIA LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "obs": "Data entrega: 16/07/26",
+      "total": 1868.6,
+      "itens": [
+        {
+          "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 12,
+          "val": 442.8
+        },
+        {
+          "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 6,
+          "val": 233.4
+        },
+        {
+          "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "qt": 6,
+          "val": 233.4
+        },
+        {
+          "desc": "ST PIERRE LATA RED MINT LT 24X270ML",
+          "qt": 10,
+          "val": 959.0
+        }
+      ]
+    },
+    {
+      "numped": "471000432",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "ANA CLARA FASSANO - OFF TRADE",
+      "cliente": "CAFE E BAR REDENTOR LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "obs": "",
+      "total": 729.96,
+      "itens": [
+        {
+          "desc": "RED BULL 24X250ML",
+          "qt": 1,
+          "val": 179.76
+        },
+        {
+          "desc": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 6,
+          "val": 167.4
+        },
+        {
+          "desc": "CONHAQUE DOMECQ 1L",
+          "qt": 6,
+          "val": 168.0
+        },
+        {
+          "desc": "COQUETEL BANANINHA REGGIANI 950ML",
+          "qt": 12,
+          "val": 214.8
+        }
+      ]
+    },
     {
       "numped": "431001141",
       "numnota": "",
@@ -27,6 +101,48 @@ const PEDIDOS_DATA = {
           "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
           "qt": 2,
           "val": 143.52
+        }
+      ]
+    },
+    {
+      "numped": "241000526",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "ZEINALDO DE OLIVEIRA - OFF TRADE",
+      "cliente": "FAVORITTO DEPOSITO & MERCEARIA LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "obs": "",
+      "total": 2530.32,
+      "itens": [
+        {
+          "desc": "CONHAQUE DOMECQ 1L",
+          "qt": 12,
+          "val": 358.8
+        },
+        {
+          "desc": "CACHACA VELHO BARREIRO 910 ML",
+          "qt": 12,
+          "val": 151.92
+        },
+        {
+          "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 6,
+          "val": 221.4
+        },
+        {
+          "desc": "JACK DANIELS HONEY 1 L",
+          "qt": 12,
+          "val": 1438.8
+        },
+        {
+          "desc": "WHISKY BALLANTINE S SUNSHINE 700ML",
+          "qt": 6,
+          "val": 359.4
         }
       ]
     },
@@ -75,69 +191,24 @@ const PEDIDOS_DATA = {
       ]
     },
     {
-      "numped": "431001143",
+      "numped": "153001301",
       "numnota": "",
       "data": "15/07/2026",
       "data_ord": "2026-07-15",
-      "nome": "ADEILSON GONÇALVEZ - OFF TRADE",
-      "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+      "nome": "ANGELO NEVES SUZART - OFF TRADE",
+      "cliente": "R L CORDEIRO COMERCIO LTDA",
       "sistema": "CRC",
       "estado": "RJ",
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
-      "obs": "",
-      "total": 1164.06,
+      "obs": "entregar no dia 20/07",
+      "total": 309.6,
       "itens": [
         {
-          "desc": "MOLHO TABASCO GREEN PEPPER SAUCE 12X60ML",
-          "qt": 1,
-          "val": 202.8
-        },
-        {
-          "desc": "PINATI PROTEIN CUPS AVELA 18X21G",
-          "qt": 1,
-          "val": 102.03
-        },
-        {
-          "desc": "PINATI SWEET COCADINHA CHOCO 24X14G",
-          "qt": 1,
-          "val": 300.39
-        },
-        {
-          "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-          "qt": 1,
-          "val": 94.68
-        },
-        {
-          "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "qt": 1,
-          "val": 94.68
-        },
-        {
-          "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "qt": 1,
-          "val": 94.68
-        },
-        {
-          "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 1,
-          "val": 94.68
-        },
-        {
-          "desc": "PINATI DOUBLE BAR DOCE DE LEITE 16X35G",
-          "qt": 1,
-          "val": 61.52
-        },
-        {
-          "desc": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
-          "qt": 1,
-          "val": 59.3
-        },
-        {
-          "desc": "PINATI DOUBLE BAR COCO E AMENDOIM 16X35G",
-          "qt": 1,
-          "val": 59.3
+          "desc": "VINHO CASA RODRIGUES TINTO SUAVE",
+          "qt": 24,
+          "val": 309.6
         }
       ]
     },
@@ -165,6 +236,93 @@ const PEDIDOS_DATA = {
           "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
           "qt": 2,
           "val": 143.52
+        }
+      ]
+    },
+    {
+      "numped": "144001652",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "DIOGO RAPOSO - OFF TRADE",
+      "cliente": "MAYRON S BAR LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "obs": "",
+      "total": 4051.08,
+      "itens": [
+        {
+          "desc": "RED BULL 24X250ML",
+          "qt": 1,
+          "val": 179.76
+        },
+        {
+          "desc": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 12,
+          "val": 294.0
+        },
+        {
+          "desc": "WHISKY BUCHANANS 12 YEARS 1000 ML",
+          "qt": 2,
+          "val": 299.8
+        },
+        {
+          "desc": "RUM BACARDI SUPERIOR 980ML",
+          "qt": 2,
+          "val": 75.8
+        },
+        {
+          "desc": "VODKA ABSOLUT 1L",
+          "qt": 4,
+          "val": 243.6
+        },
+        {
+          "desc": "GIN TANQUERAY  750 ML",
+          "qt": 4,
+          "val": 359.6
+        },
+        {
+          "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "qt": 3,
+          "val": 359.7
+        },
+        {
+          "desc": "WHISKY J WALKER BLACK LABEL 1L",
+          "qt": 4,
+          "val": 599.6
+        },
+        {
+          "desc": "APERITIVO APEROL 750 ML",
+          "qt": 6,
+          "val": 234.0
+        },
+        {
+          "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 2,
+          "val": 67.8
+        },
+        {
+          "desc": "RED BULL TROPICAL 24X250ML",
+          "qt": 2,
+          "val": 359.52
+        },
+        {
+          "desc": "GIN MARINA 750ML",
+          "qt": 18,
+          "val": 718.2
+        },
+        {
+          "desc": "ESPUMANTE ALUD BRANCO 750ML",
+          "qt": 3,
+          "val": 80.7
+        },
+        {
+          "desc": "RED BULL ZERO  24X250ML",
+          "qt": 1,
+          "val": 179.0
         }
       ]
     },
@@ -233,6 +391,60 @@ const PEDIDOS_DATA = {
       ]
     },
     {
+      "numped": "378000499",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "FABIO VALOTTI - OFF TRADE",
+      "cliente": "PAIS E FILHOS LANCHONETE E RESTAURANTE EIRELI",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "obs": "",
+      "total": 303.36,
+      "itens": [
+        {
+          "desc": "4 PACK RED BULL",
+          "qt": 2,
+          "val": 59.92
+        },
+        {
+          "desc": "AGUA MINERAL MAMBA WATER C/ GAS - 24X350",
+          "qt": 2,
+          "val": 123.6
+        },
+        {
+          "desc": "4 PACK RED BULL ZERO",
+          "qt": 4,
+          "val": 119.84
+        }
+      ]
+    },
+    {
+      "numped": "439000257",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "MATEUS CARDOSO - OFF TRADE",
+      "cliente": "RESTAURANTE E LANCHONETE BIG RUSSO LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "obs": "Data entrega: 16/07/26",
+      "total": 298.26,
+      "itens": [
+        {
+          "desc": "GUARAVITA NATURAL 24X290ML",
+          "qt": 10,
+          "val": 298.26
+        }
+      ]
+    },
+    {
       "numped": "471000431",
       "numnota": "",
       "data": "15/07/2026",
@@ -251,6 +463,28 @@ const PEDIDOS_DATA = {
           "desc": "CERVEJA HEINEKEN LONG 24X330ML",
           "qt": 3,
           "val": 386.7
+        }
+      ]
+    },
+    {
+      "numped": "155003876",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "RAPHAEL SANTOS - OFF TRADE",
+      "cliente": "NATALIA DA SILVA DUARTE 10656196777",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "obs": "",
+      "total": 313.8,
+      "itens": [
+        {
+          "desc": "LICOR ESP DIEGO ZAMORA 43 CREME BRULEE",
+          "qt": 2,
+          "val": 313.8
         }
       ]
     },
@@ -315,6 +549,28 @@ const PEDIDOS_DATA = {
           "desc": "VODKA ABSOLUT TABASCO 750ML",
           "qt": 24,
           "val": 1317.6
+        }
+      ]
+    },
+    {
+      "numped": "588003056",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "W.S",
+      "cliente": "SANTA VITTA GASTROBAR LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "obs": "",
+      "total": 1078.8,
+      "itens": [
+        {
+          "desc": "LICOR COINTREAU 700 ML",
+          "qt": 12,
+          "val": 1078.8
         }
       ]
     },
@@ -967,6 +1223,82 @@ const PEDIDOS_DATA = {
       ]
     },
     {
+      "numped": "327009426",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "JOÃO SANTOS - OFF TRADE",
+      "cliente": "EL MAI LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "obs": "",
+      "total": 1821.0,
+      "itens": [
+        {
+          "desc": "VINHO ARESTI EST SEL CHARDONNAY 750ML",
+          "qt": 12,
+          "val": 550.8
+        },
+        {
+          "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "qt": 12,
+          "val": 922.8
+        },
+        {
+          "desc": "VINHO MARQUÉS DE TEJARES 750ML",
+          "qt": 6,
+          "val": 347.4
+        }
+      ]
+    },
+    {
+      "numped": "327009427",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "JOÃO SANTOS - OFF TRADE",
+      "cliente": "LUC2 COMERCIO DE ALIMENTOS LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "obs": "restaurante tip top Savassi",
+      "total": 314.3,
+      "itens": [
+        {
+          "desc": "ESPUMANTE ALUD BRANCO 750ML",
+          "qt": 7,
+          "val": 314.3
+        }
+      ]
+    },
+    {
+      "numped": "360000357",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
+      "cliente": "MULTICOM ATACADO E VAREJO S/A",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "obs": "",
+      "total": 6463.8,
+      "itens": [
+        {
+          "desc": "VODKA ORLOFF 1,75L",
+          "qt": 162,
+          "val": 6463.8
+        }
+      ]
+    },
+    {
       "numped": "327009425",
       "numnota": "",
       "data": "15/07/2026",
@@ -1022,55 +1354,6 @@ const PEDIDOS_DATA = {
           "desc": "ÁGUA SÃO LOURENÇO S/GÁS 300 ML",
           "qt": 6,
           "val": 155.4
-        }
-      ]
-    },
-    {
-      "numped": "344000498",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "TIAGO ANDRADE - OFF TRADE",
-      "cliente": "MASSAS MADONINA LTDA",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "obs": "",
-      "total": 359.7,
-      "itens": [
-        {
-          "desc": "VINHO DO PORTO DALVA TAWNY 750ML",
-          "qt": 3,
-          "val": 359.7
-        }
-      ]
-    },
-    {
-      "numped": "344000497",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "TIAGO ANDRADE - OFF TRADE",
-      "cliente": "KRABI EXPRESS RESTAURANTE LTDA",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "obs": "SHOPPING DIAMOND",
-      "total": 907.2,
-      "itens": [
-        {
-          "desc": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
-          "qt": 24,
-          "val": 453.6
-        },
-        {
-          "desc": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
-          "qt": 24,
-          "val": 453.6
         }
       ]
     },
@@ -2486,6 +2769,57 @@ const PEDIDOS_DATA = {
     }
   ],
   "faturados": [
+    {
+      "numped": "344000497",
+      "numnota": "125096",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "TIAGO ANDRADE - OFF TRADE",
+      "cliente": "KRABI EXPRESS RESTAURANTE LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "obs": "SHOPPING DIAMOND",
+      "total": 907.2,
+      "itens": [
+        {
+          "desc": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+          "qt": 24,
+          "val": 453.6
+        },
+        {
+          "desc": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
+          "qt": 24,
+          "val": 453.6
+        }
+      ],
+      "status_log": ""
+    },
+    {
+      "numped": "344000498",
+      "numnota": "125102",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "TIAGO ANDRADE - OFF TRADE",
+      "cliente": "MASSAS MADONINA LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "obs": "",
+      "total": 359.7,
+      "itens": [
+        {
+          "desc": "VINHO DO PORTO DALVA TAWNY 750ML",
+          "qt": 3,
+          "val": 359.7
+        }
+      ],
+      "status_log": ""
+    },
     {
       "numped": "241000525",
       "numnota": "411918",
@@ -20350,8 +20684,8 @@ const PEDIDOS_DATA = {
       "cliente": "BRYAN OLIVEIRA PALOPOLI",
       "sistema": "CASTAS",
       "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
       "status_ped": "",
       "obs": "",
       "total": 349.16,
@@ -52322,8 +52656,8 @@ const PEDIDOS_DATA = {
       "cliente": "SUPERMERCADOS MAMBO LTDA.",
       "sistema": "CASTAS",
       "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
       "status_ped": "",
       "obs": "",
       "total": 32280.0,
@@ -95938,8 +96272,8 @@ const PEDIDOS_DATA = {
       "cliente": "SUPERMERCADO VILA DAS FRUTAS ABRAAO DE MORAIS - LTDA.",
       "sistema": "CASTAS",
       "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
       "status_ped": "",
       "obs": "",
       "total": 463.32,
@@ -95966,8 +96300,8 @@ const PEDIDOS_DATA = {
       "cliente": "JARDINEIRA GRILL LTDA",
       "sistema": "CASTAS",
       "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
       "status_ped": "",
       "obs": "",
       "total": 581.4,
@@ -146932,8 +147266,8 @@ const PEDIDOS_DATA = {
       "cliente": "MINI MERCADO HORTISABOR LTDA",
       "sistema": "CASTAS",
       "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
       "status_ped": "",
       "obs": "",
       "total": 1137.6,
@@ -146965,8 +147299,8 @@ const PEDIDOS_DATA = {
       "cliente": "52.498.810 JARDEL FRANK BARBOSA DOS SANTOS",
       "sistema": "CASTAS",
       "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
       "status_ped": "",
       "obs": "",
       "total": 471.51,
@@ -163625,8 +163959,8 @@ const PEDIDOS_DATA = {
       "cliente": "BRYAN OLIVEIRA PALOPOLI",
       "sistema": "CASTAS",
       "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
       "status_ped": "",
       "obs": "",
       "total": 775.11,
@@ -169875,8 +170209,8 @@ const PEDIDOS_DATA = {
       "cliente": "BRYAN OLIVEIRA PALOPOLI",
       "sistema": "CASTAS",
       "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
       "status_ped": "",
       "obs": "",
       "total": 1703.58,
@@ -180055,8 +180389,8 @@ const PEDIDOS_DATA = {
       "cliente": "VILA CONCEICAO DIBACO - RESTAURANTE LTDA",
       "sistema": "CASTAS",
       "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
       "status_ped": "",
       "obs": "",
       "total": 341.64,
@@ -180088,8 +180422,8 @@ const PEDIDOS_DATA = {
       "cliente": "BRYAN OLIVEIRA PALOPOLI",
       "sistema": "CASTAS",
       "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
       "status_ped": "",
       "obs": "",
       "total": 332.99,
@@ -186446,8 +186780,8 @@ const PEDIDOS_DATA = {
       "cliente": "BRYAN OLIVEIRA PALOPOLI",
       "sistema": "CASTAS",
       "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
       "status_ped": "",
       "obs": "",
       "total": 256.8,
@@ -194401,8 +194735,8 @@ const PEDIDOS_DATA = {
       "cliente": "VILA CONCEICAO DIBACO - RESTAURANTE LTDA",
       "sistema": "CASTAS",
       "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
       "status_ped": "",
       "obs": "",
       "total": 2778.3,
@@ -194444,8 +194778,8 @@ const PEDIDOS_DATA = {
       "cliente": "BRYAN OLIVEIRA PALOPOLI",
       "sistema": "CASTAS",
       "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
       "status_ped": "",
       "obs": "",
       "total": 919.1,
@@ -202784,8 +203118,8 @@ const PEDIDOS_DATA = {
       "cliente": "BRYAN OLIVEIRA PALOPOLI",
       "sistema": "CASTAS",
       "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
       "status_ped": "",
       "obs": "",
       "total": 894.2,
@@ -216755,8 +217089,8 @@ const PEDIDOS_DATA = {
       "cliente": "BRYAN OLIVEIRA PALOPOLI",
       "sistema": "CASTAS",
       "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
       "status_ped": "",
       "obs": "",
       "total": 639.26,
@@ -232797,8 +233131,8 @@ const PEDIDOS_DATA = {
       "cliente": "BRYAN OLIVEIRA PALOPOLI",
       "sistema": "CASTAS",
       "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
       "status_ped": "",
       "obs": "",
       "total": 1489.8,
@@ -250474,8 +250808,8 @@ const PEDIDOS_DATA = {
       "cliente": "MINI MERCADO HORTISABOR LTDA",
       "sistema": "CASTAS",
       "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
       "status_ped": "",
       "obs": "",
       "total": 1560.72,
@@ -250512,8 +250846,8 @@ const PEDIDOS_DATA = {
       "cliente": "BRYAN OLIVEIRA PALOPOLI",
       "sistema": "CASTAS",
       "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
       "status_ped": "",
       "obs": "",
       "total": 1401.4,
@@ -262271,8 +262605,8 @@ const PEDIDOS_DATA = {
       "cliente": "MINI MERCADO HORTISABOR LTDA",
       "sistema": "CASTAS",
       "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
       "status_ped": "",
       "obs": "",
       "total": 16800.0,
@@ -289889,8 +290223,8 @@ const PEDIDOS_DATA = {
       "cliente": "PG WINE COMERCIO DE BEBIDAS LTDA",
       "sistema": "CASTAS",
       "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
       "status_ped": "",
       "obs": "",
       "total": 3000.0,
@@ -305731,8 +306065,8 @@ const PEDIDOS_DATA = {
       "cliente": "BRYAN OLIVEIRA PALOPOLI",
       "sistema": "CASTAS",
       "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
       "status_ped": "",
       "obs": "",
       "total": 1244.4,
@@ -305827,8 +306161,8 @@ const PEDIDOS_DATA = {
       "cliente": "HORTIFRUTI VILA DAS FRUTAS BOSQUE DA SAUDE LTDA.",
       "sistema": "CASTAS",
       "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
       "status_ped": "",
       "obs": "",
       "total": 3418.8,
@@ -305855,8 +306189,8 @@ const PEDIDOS_DATA = {
       "cliente": "SUPERMERCADO VILA DAS FRUTAS KLABIN LTDA",
       "sistema": "CASTAS",
       "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
       "status_ped": "",
       "obs": "",
       "total": 3418.8,
@@ -305883,8 +306217,8 @@ const PEDIDOS_DATA = {
       "cliente": "SUPERMERCADO VILA DAS FRUTAS ABRAAO DE MORAIS - LTDA.",
       "sistema": "CASTAS",
       "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
       "status_ped": "",
       "obs": "",
       "total": 3418.8,
@@ -305911,8 +306245,8 @@ const PEDIDOS_DATA = {
       "cliente": "SUPERMERCADO HORTIFRUTI VILA DAS FRUTAS LTDA",
       "sistema": "CASTAS",
       "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
       "status_ped": "",
       "obs": "",
       "total": 6837.6,
@@ -315353,8 +315687,8 @@ const PEDIDOS_DATA = {
       "cliente": "VILA CONCEICAO DIBACO - RESTAURANTE LTDA",
       "sistema": "CASTAS",
       "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
       "obs": "",
       "total": 0.0,
@@ -315558,8 +315892,8 @@ const PEDIDOS_DATA = {
       "cliente": "VILA CONCEICAO DIBACO - RESTAURANTE LTDA",
       "sistema": "CASTAS",
       "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
       "obs": "",
       "total": 0.0,
@@ -318675,8 +319009,8 @@ const PEDIDOS_DATA = {
       "cliente": "BRYAN OLIVEIRA PALOPOLI",
       "sistema": "CASTAS",
       "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
       "obs": "",
       "total": 0.0,
@@ -318712,8 +319046,8 @@ const PEDIDOS_DATA = {
       "cliente": "BRYAN OLIVEIRA PALOPOLI",
       "sistema": "CASTAS",
       "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
       "obs": "",
       "total": 0.0,
@@ -320026,8 +320360,8 @@ const PEDIDOS_DATA = {
       "cliente": "PG WINE COMERCIO DE BEBIDAS LTDA",
       "sistema": "CASTAS",
       "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
       "obs": "",
       "total": 0.0,
