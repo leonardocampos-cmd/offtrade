@@ -1,39 +1,39 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "15/07/2026 13:43",
+  "atualizado_em": "15/07/2026 14:03",
   "mes": "Jul/26",
   "mes_ant": "Jun/26",
   "dias_corridos": 15,
   "dias_no_mes": 31,
   "dias_restantes": 16,
   "resumo": {
-    "fat": 4601899.68,
+    "fat": 4597782.9,
     "fat_ant": 5059653.17,
-    "fat_ant_completo": 13056700.16,
-    "pos": 959,
+    "fat_ant_completo": 13056416.86,
+    "pos": 958,
     "pos_ant": 1046,
-    "pos_ant_completo": 1787
+    "pos_ant_completo": 1786
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 4601899.68,
+    "fat": 4597782.9,
     "fat_ant": 5059653.17,
-    "fat_ant_completo": 13056700.16,
-    "pct": 32.0,
-    "nec_dia": 612381.27
+    "fat_ant_completo": 13056416.86,
+    "pct": 31.9,
+    "nec_dia": 612638.57
   },
   "estados": [
     {
       "estado": "RJ",
       "label": "Rio de Janeiro",
       "meta": 3900000.0,
-      "fat": 950458.99,
+      "fat": 946342.21,
       "fat_ant": 1396415.15,
-      "pos": 385,
-      "pct": 24.4,
-      "nec_dia": 184346.31,
-      "fat_ant_completo": 2642839.89,
+      "pos": 384,
+      "pct": 24.3,
+      "nec_dia": 184603.61,
+      "fat_ant_completo": 2642556.59,
       "pos_ant": 454,
-      "pos_ant_completo": 732
+      "pos_ant_completo": 731
     },
     {
       "estado": "SP",
@@ -111,10 +111,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "BEAM SUNTORY",
-      "fat": 166687.2,
+      "fat": 163270.8,
       "fat_ant": 101882.57,
       "por_estado": {
-        "RJ": 166687.2,
+        "RJ": 163270.8,
         "SP": 0.0,
         "ES": 0.0,
         "MG": 0.0
@@ -177,10 +177,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "TATUZINHO",
-      "fat": 87155.55,
+      "fat": 86663.37,
       "fat_ant": 131272.99,
       "por_estado": {
-        "RJ": 42012.03,
+        "RJ": 41519.85,
         "SP": 8823.6,
         "ES": 36319.92,
         "MG": 0.0
@@ -517,23 +517,23 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
-      "fantasia": "AGUA NA CAIXA",
-      "fat": 1518.3,
-      "fat_ant": 291.1,
-      "por_estado": {
-        "RJ": 1518.3,
-        "SP": 0.0,
-        "ES": 0.0,
-        "MG": 0.0
-      }
-    },
-    {
       "fantasia": "NUTRIFRIOS",
       "fat": 1497.0,
       "fat_ant": 798.4,
       "por_estado": {
         "RJ": 0.0,
         "SP": 1497.0,
+        "ES": 0.0,
+        "MG": 0.0
+      }
+    },
+    {
+      "fantasia": "AGUA NA CAIXA",
+      "fat": 1310.1,
+      "fat_ant": 291.1,
+      "por_estado": {
+        "RJ": 1310.1,
+        "SP": 0.0,
         "ES": 0.0,
         "MG": 0.0
       }
