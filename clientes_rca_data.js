@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "15/07/2026 15:23",
+  "atualizado_em": "15/07/2026 16:17",
   "total": 4284,
   "clientes": [
     {
@@ -36061,7 +36061,7 @@ const CLIENTES_RCA_DATA = {
       "cidade": "RIO DE JANEIRO",
       "cnpj": "00.935.769/0001-00",
       "estado": "RJ",
-      "ramo": "MERCADO",
+      "ramo": "MINI-MERCADO",
       "codusur1": "144",
       "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
       "codusur2": "312",
@@ -45231,7 +45231,7 @@ const CLIENTES_RCA_DATA = {
       "cidade": "ANGRA DOS REIS",
       "cnpj": "39.717.498/0001-43",
       "estado": "RJ",
-      "ramo": "MERCADO",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
       "codusur1": "439",
       "nome_usur1": "MATEUS CARDOSO - OFF TRADE",
       "codusur2": "",
