@@ -1,5 +1,5 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "15/07/2026 13:07",
+  "atualizado_em": "15/07/2026 13:24",
   "periodo_dias": 90,
   "fontes_indisponiveis": [],
   "pedidos_feitos": [
@@ -423,6 +423,53 @@ const PEDIDOS_DATA = {
       ]
     },
     {
+      "numped": "155003877",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "RAPHAEL SANTOS - OFF TRADE",
+      "cliente": "NA BRASA BROTHERS BBQ LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "obs": "",
+      "total": 2483.28,
+      "itens": [
+        {
+          "desc": "RED BULL 24X250ML",
+          "qt": 2,
+          "val": 345.12
+        },
+        {
+          "desc": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
+          "qt": 1,
+          "val": 229.9
+        },
+        {
+          "desc": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "qt": 2,
+          "val": 199.8
+        },
+        {
+          "desc": "VODKA GREY GOOSE LE CITRON 750ML",
+          "qt": 1,
+          "val": 137.9
+        },
+        {
+          "desc": "RED BULL TROPICAL 24X250ML",
+          "qt": 1,
+          "val": 172.56
+        },
+        {
+          "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "qt": 20,
+          "val": 1398.0
+        }
+      ]
+    },
+    {
       "numped": "439000257",
       "numnota": "",
       "data": "15/07/2026",
@@ -485,6 +532,63 @@ const PEDIDOS_DATA = {
           "desc": "LICOR ESP DIEGO ZAMORA 43 CREME BRULEE",
           "qt": 2,
           "val": 313.8
+        }
+      ]
+    },
+    {
+      "numped": "155003878",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "RAPHAEL SANTOS - OFF TRADE",
+      "cliente": "67.321.498 MATHEUS CARVALHO MARTINS",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "obs": "",
+      "total": 1333.9,
+      "itens": [
+        {
+          "desc": "RUM BACARDI SUPERIOR 980ML",
+          "qt": 3,
+          "val": 107.7
+        },
+        {
+          "desc": "RUM MONTILLA CRISTAL 1L",
+          "qt": 3,
+          "val": 65.7
+        },
+        {
+          "desc": "GIN BOMBAY SAPPHIRE 750ML",
+          "qt": 2,
+          "val": 141.8
+        },
+        {
+          "desc": "RUM MONTILLA OURO 1L",
+          "qt": 3,
+          "val": 68.7
+        },
+        {
+          "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 6,
+          "val": 221.4
+        },
+        {
+          "desc": "ESPUM CASA PERINI BRUT 750ML",
+          "qt": 6,
+          "val": 239.4
+        },
+        {
+          "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 6,
+          "val": 239.4
+        },
+        {
+          "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "qt": 2,
+          "val": 249.8
         }
       ]
     },
@@ -1386,6 +1490,53 @@ const PEDIDOS_DATA = {
           "desc": "RED BULL MELANCIA 24X250ML",
           "qt": 1,
           "val": 191.76
+        }
+      ]
+    },
+    {
+      "numped": "327009428",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "JOÃO SANTOS - OFF TRADE",
+      "cliente": "B.R.C. HAMBURGUERS EIRELI",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "obs": "",
+      "total": 322.8,
+      "itens": [
+        {
+          "desc": "ST PIERRE SUGAR FREE LT 270MLX6",
+          "qt": 4,
+          "val": 107.6
+        },
+        {
+          "desc": "ST PIERRE TONICA LT 270MLX6",
+          "qt": 4,
+          "val": 107.6
+        },
+        {
+          "desc": "ST PIERRE ZERO GREEN APPLE 310 ML",
+          "qt": 1,
+          "val": 26.9
+        },
+        {
+          "desc": "ST PIERRE ZERO PINK LEMON  310 ML",
+          "qt": 1,
+          "val": 26.9
+        },
+        {
+          "desc": "ST PIERRE ZERO TROPICAL  310 ML",
+          "qt": 1,
+          "val": 26.9
+        },
+        {
+          "desc": "ST PIERRE RED MINTL ZERO 310 ML",
+          "qt": 1,
+          "val": 26.9
         }
       ]
     },
