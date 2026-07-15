@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "15/07/2026 13:05",
+  "atualizado_em": "15/07/2026 13:23",
   "data_rota": "15.07",
   "vendedores": [
     {
@@ -14860,6 +14860,106 @@ const ENTREGAS_DATA = {
               "desc": "LICOR ESP DIEGO ZAMORA 43 CREME BRULEE",
               "qt": 2,
               "val": 313.8
+            }
+          ]
+        },
+        {
+          "numped": "155003877",
+          "numnota": "",
+          "data": "15/07/2026",
+          "cliente": "NA BRASA BROTHERS BBQ LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 2483.28,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 2,
+              "val": 345.12
+            },
+            {
+              "desc": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
+              "qt": 1,
+              "val": 229.9
+            },
+            {
+              "desc": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+              "qt": 2,
+              "val": 199.8
+            },
+            {
+              "desc": "VODKA GREY GOOSE LE CITRON 750ML",
+              "qt": 1,
+              "val": 137.9
+            },
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 1,
+              "val": 172.56
+            },
+            {
+              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+              "qt": 20,
+              "val": 1398.0
+            }
+          ]
+        },
+        {
+          "numped": "155003878",
+          "numnota": "",
+          "data": "15/07/2026",
+          "cliente": "67.321.498 MATHEUS CARVALHO MARTINS",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1333.9,
+          "itens": [
+            {
+              "desc": "RUM BACARDI SUPERIOR 980ML",
+              "qt": 3,
+              "val": 107.7
+            },
+            {
+              "desc": "RUM MONTILLA CRISTAL 1L",
+              "qt": 3,
+              "val": 65.7
+            },
+            {
+              "desc": "GIN BOMBAY SAPPHIRE 750ML",
+              "qt": 2,
+              "val": 141.8
+            },
+            {
+              "desc": "RUM MONTILLA OURO 1L",
+              "qt": 3,
+              "val": 68.7
+            },
+            {
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 6,
+              "val": 221.4
+            },
+            {
+              "desc": "ESPUM CASA PERINI BRUT 750ML",
+              "qt": 6,
+              "val": 239.4
+            },
+            {
+              "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
+              "qt": 6,
+              "val": 239.4
+            },
+            {
+              "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
+              "qt": 2,
+              "val": 249.8
             }
           ]
         }
