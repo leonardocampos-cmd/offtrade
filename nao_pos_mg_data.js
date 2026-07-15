@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "15/07/2026 14:09",
+  "atualizado_em": "15/07/2026 15:22",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -1461,38 +1461,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30041",
-        "cliente": "B.R.C. HAMBURGUERS EIRELI",
-        "bairro": "LOURDES",
-        "dtultcomp": "11/05/2026",
-        "produtos": [
-          {
-            "produto": "LICOR BAILEYS - 750ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 143.9
-          },
-          {
-            "produto": "RUM BACARDI GOLD 980ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 51.9
-          },
-          {
-            "produto": "VODKA ABSOLUT - 1 LITRO",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 79.9
-          },
-          {
-            "produto": "VODKA SMIRNOFF RED 998 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 61.8
-          }
-        ]
-      },
-      {
         "codcli": "29917",
         "cliente": "CASA FIGATA COMERCIO E DISTRIBUIDORA LTDA",
         "bairro": "VILA DA SERRA",
@@ -2157,26 +2125,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30905",
-        "cliente": "LUC2 COMERCIO DE ALIMENTOS LTDA",
-        "bairro": "SAVASSI",
-        "dtultcomp": "02/06/2026",
-        "produtos": [
-          {
-            "produto": "ESPUMANTE ALUD BRANCO 750ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 269.4
-          },
-          {
-            "produto": "ESPUMANTE ALUD ROSE 750ML",
-            "fantasia": "",
-            "qt": 5,
-            "valor": 224.5
-          }
-        ]
-      },
-      {
         "codcli": "36812",
         "cliente": "GILBERTO A.D. FERNANDES",
         "bairro": "ESTORIL",
@@ -2645,7 +2593,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35398",
+        "codcli": "38896",
         "cliente": "LCA COMERCIO LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "12/06/2026",
@@ -2683,8 +2631,8 @@ const NAO_POS_MG_DATA = {
           {
             "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
             "fantasia": "",
-            "qt": 2,
-            "valor": 282.72
+            "qt": 1,
+            "valor": 141.36
           },
           {
             "produto": "RED BULL ZERO 24X250ML",
@@ -2745,7 +2693,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "38896",
+        "codcli": "35398",
         "cliente": "LCA COMERCIO LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "12/06/2026",
@@ -2783,8 +2731,8 @@ const NAO_POS_MG_DATA = {
           {
             "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
             "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
+            "qt": 2,
+            "valor": 282.72
           },
           {
             "produto": "RED BULL ZERO 24X250ML",
@@ -2891,7 +2839,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35392",
+        "codcli": "35387",
         "cliente": "HR - LANCHES PROMOCOES E EVENTOS LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "15/06/2026",
@@ -2917,7 +2865,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35387",
+        "codcli": "35392",
         "cliente": "HR - LANCHES PROMOCOES E EVENTOS LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "15/06/2026",
@@ -3681,32 +3629,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 2,
             "valor": 99.8
-          }
-        ]
-      },
-      {
-        "codcli": "30801",
-        "cliente": "SUSHINARA PREMIUM LTDA",
-        "bairro": "INGA ALTO",
-        "dtultcomp": "23/06/2026",
-        "produtos": [
-          {
-            "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 89.9
-          },
-          {
-            "produto": "LICOR STOCK PESSEGO 720 ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 56.9
-          },
-          {
-            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 191.76
           }
         ]
       },
