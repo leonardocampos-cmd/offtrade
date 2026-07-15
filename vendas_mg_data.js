@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "15/07/2026 10:13",
+  "atualizado_em": "15/07/2026 13:08",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,7 +50,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 88565.76,
+        "fat": 87485.96,
         "pos": 57,
         "fat_ant": 343937.59
       }
@@ -236,7 +236,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 35222.66,
+        "fat": 36489.56,
         "pos": 36,
         "fat_ant": 85308.22
       }
@@ -45383,15 +45383,6 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "10/07/2026",
-          "codcli": "33010",
-          "cliente": "GOLDEN ALIMENTOS LTDA",
-          "produto": "MOET CHANDON BRUT IMPERIAL 750 NPP",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 1079.8
-        },
-        {
-          "data": "10/07/2026",
           "codcli": "33951",
           "cliente": "RESTAURANTE LA TRAVIATA",
           "produto": "AZEITE DE OLIVA EV ESSENZA 5L",
@@ -85397,6 +85388,33 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 10,
           "valor": 429.0
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "31529",
+          "cliente": "MASSAS MADONINA LTDA",
+          "produto": "VINHO DO PORTO DALVA TAWNY 750ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 359.7
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "33464",
+          "cliente": "KRABI EXPRESS RESTAURANTE LTDA",
+          "produto": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 453.6
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "33464",
+          "cliente": "KRABI EXPRESS RESTAURANTE LTDA",
+          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 453.6
         }
       ]
     },
