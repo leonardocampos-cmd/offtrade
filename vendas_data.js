@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "15/07/2026 09:09",
+  "atualizado_em": "15/07/2026 10:03",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -276049,76 +276049,6 @@ const VENDAS_DATA = {
           "fantasia": "BACARDI",
           "qt": 12,
           "valor": 427.68,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "78311",
-          "cliente": "ITAPOA SUPERMERCADO LTDA.",
-          "produto": "ST PIERRE BLUEBERRY LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 233.92,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "78311",
-          "cliente": "ITAPOA SUPERMERCADO LTDA.",
-          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 233.92,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "78311",
-          "cliente": "ITAPOA SUPERMERCADO LTDA.",
-          "produto": "ST PIERRE VIDRO RED MINT LN 275X12",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 122.38,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "78311",
-          "cliente": "ITAPOA SUPERMERCADO LTDA.",
-          "produto": "ST PIERRE LATA SUGAR FREE LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 218.72,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "78311",
-          "cliente": "ITAPOA SUPERMERCADO LTDA.",
-          "produto": "ST PIERRE VIDRO SUGAR FREE LN 275X12",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 114.36,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "78311",
-          "cliente": "ITAPOA SUPERMERCADO LTDA.",
-          "produto": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 122.38,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "78311",
-          "cliente": "ITAPOA SUPERMERCADO LTDA.",
-          "produto": "ST PIERRE VIDRO GINGER LN 12X275ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 122.38,
           "tipo": "Venda"
         },
         {
