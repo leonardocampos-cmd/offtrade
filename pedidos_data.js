@@ -1,47 +1,8 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "15/07/2026 18:18",
+  "atualizado_em": "15/07/2026 18:32",
   "periodo_dias": 90,
   "fontes_indisponiveis": [],
   "pedidos_feitos": [
-    {
-      "numped": "153001305",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "ANGELO NEVES SUZART - OFF TRADE",
-      "cliente": "CEREAIS MARREQUINHO DE NOVA CAMPINAS LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "obs": "pagamento de descarga no valor de R$40,00 por pallets",
-      "total": 643.0,
-      "itens": [
-        {
-          "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-          "qt": 5,
-          "val": 326.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "qt": 24,
-          "val": 280.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
-          "qt": 2,
-          "val": 35.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false
-    },
     {
       "numped": "153001306",
       "numnota": "",
@@ -54,6 +15,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :7606",
       "obs": "nao paga descarga",
       "total": 268.31,
       "itens": [
@@ -114,6 +77,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :129",
       "obs": "",
       "total": 3156.0,
       "itens": [
@@ -135,6 +100,75 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
+      "numped": "159005062",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "GISELLE BARFER - OFF TRADE",
+      "cliente": "PAELO COMERCIO DE ALIMENTOS LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :4232",
+      "obs": "",
+      "total": 325.84,
+      "itens": [
+        {
+          "desc": "VINHO ARESTI ESTATE S. SAUV BLANC 750ML",
+          "qt": 1,
+          "val": 27.73,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "qt": 1,
+          "val": 44.55,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "ESPUMANTE ALUD BRANCO 750ML",
+          "qt": 2,
+          "val": 49.28,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI ESTATE S. CAB SAUV 187ML",
+          "qt": 8,
+          "val": 93.36,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI ESTATE S. CAB SAUV 750ML",
+          "qt": 2,
+          "val": 55.46,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI ESTATE S. MERLOT 750ML",
+          "qt": 1,
+          "val": 27.73,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI ESTATE S. CHARDONNAY 750ML",
+          "qt": 1,
+          "val": 27.73,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
       "numped": "159005058",
       "numnota": "",
       "data": "15/07/2026",
@@ -146,8 +180,10 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
-      "total": 724.32,
+      "total": 546.92,
       "itens": [
         {
           "desc": "NOSSO CHOP RED DRAFT PET 6X1,5L",
@@ -160,13 +196,6 @@ const PEDIDOS_DATA = {
           "desc": "RED BULL 24X250ML",
           "qt": 2,
           "val": 345.12,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
-          "qt": 2,
-          "val": 177.4,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -185,6 +214,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "",
       "obs": "",
       "total": 333.0,
       "itens": [
@@ -210,6 +241,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :3643",
       "obs": "Data entrega: 16/07/26",
       "total": 1561.2,
       "itens": [
@@ -266,6 +299,47 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
+      "numped": "159005059",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "GISELLE BARFER - OFF TRADE",
+      "cliente": "PRAJNA AMORA ALIMENTOS LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 1018.2,
+      "itens": [
+        {
+          "desc": "VINHO ARESTI ESTATE S. MERLOT 750ML",
+          "qt": 6,
+          "val": 269.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI ESTATE S. CARMENERE 750ML",
+          "qt": 6,
+          "val": 269.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI TRISQUEL MERLOT 750ML",
+          "qt": 6,
+          "val": 479.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
       "numped": "471000437",
       "numnota": "",
       "data": "15/07/2026",
@@ -277,6 +351,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "Bloqueio de Pedidos bonificado",
       "obs": "",
       "total": 166.5,
       "itens": [
@@ -302,6 +378,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "Item com desconto acima do permitido :3247",
       "obs": "",
       "total": 474.48,
       "itens": [
@@ -316,24 +394,68 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
-      "numped": "379001251",
+      "numped": "159005060",
       "numnota": "",
       "data": "15/07/2026",
       "data_ord": "2026-07-15",
-      "nome": "JORGE MACIEL - OFF TRADE",
-      "cliente": "JOAO CANDIDO DE AZEVEDO NETO 05732934308",
+      "nome": "GISELLE BARFER - OFF TRADE",
+      "cliente": "TARAXACUM COMERCIO DE ALIMENTOS LTDA",
       "sistema": "CRC",
       "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :3151",
       "obs": "",
-      "total": 629.0,
+      "total": 1280.28,
       "itens": [
         {
-          "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
-          "qt": 10,
-          "val": 629.0,
+          "desc": "WHISKY JIM BEAM APPLE 1L",
+          "qt": 2,
+          "val": 141.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 2,
+          "val": 141.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "APERITIVO APEROL 750 ML",
+          "qt": 4,
+          "val": 167.6,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "RUM BACARDI SUPERIOR 700ML",
+          "qt": 2,
+          "val": 71.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "RED BULL TROPICAL 24X250ML",
+          "qt": 2,
+          "val": 345.12,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "RED BULL SUGAR FREE 24X250ML",
+          "qt": 1,
+          "val": 172.56,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VODKA ABSOLUT 1L",
+          "qt": 4,
+          "val": 239.6,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -352,6 +474,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "",
       "obs": "",
       "total": 1363.5,
       "itens": [
@@ -384,6 +508,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "",
       "obs": "",
       "total": 349.72,
       "itens": [
@@ -437,6 +563,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "Item com desconto acima do permitido :6256",
       "obs": "",
       "total": 269.7,
       "itens": [
@@ -476,6 +604,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
       "obs": "entregar no dia 20/07",
       "total": 309.6,
       "itens": [
@@ -501,6 +631,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 919.45,
       "itens": [
@@ -582,6 +714,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :110",
       "obs": "",
       "total": 362.7,
       "itens": [
@@ -621,6 +755,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :2089",
       "obs": "",
       "total": 2238.2,
       "itens": [
@@ -667,6 +803,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :902",
       "obs": "",
       "total": 575.2,
       "itens": [
@@ -702,6 +840,33 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
+      "numped": "159005063",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "GISELLE BARFER - OFF TRADE",
+      "cliente": "57.255.316 DANIELE RODRIGUES FERREIRA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
+      "obs": "ENTREGAR DE IMEDIATO",
+      "total": 263.2,
+      "itens": [
+        {
+          "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 8,
+          "val": 263.2,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
       "numped": "159005056",
       "numnota": "",
       "data": "15/07/2026",
@@ -713,6 +878,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :3011",
       "obs": "",
       "total": 4473.0,
       "itens": [
@@ -783,52 +950,6 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
-      "numped": "379001249",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "JORGE MACIEL - OFF TRADE",
-      "cliente": "MERCADO E PADARIA PONTO ALTO DO KM 32 LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "obs": "",
-      "total": 474.0,
-      "itens": [
-        {
-          "desc": "RC ATUM SOLIDO OLEO 24X170G",
-          "qt": 1,
-          "val": 141.6,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM SOLIDO NATURAL 24X170G",
-          "qt": 1,
-          "val": 141.6,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
-          "qt": 1,
-          "val": 62.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "CERVEJA HEINEKEN LONG 24X330ML",
-          "qt": 1,
-          "val": 127.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false
-    },
-    {
       "numped": "419000704",
       "numnota": "",
       "data": "15/07/2026",
@@ -840,6 +961,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "",
       "obs": "ENTREGA: 16/07 - APÓS AS 10HRS",
       "total": 2782.2,
       "itens": [
@@ -875,6 +998,33 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
+      "numped": "159005061",
+      "numnota": "",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "GISELLE BARFER - OFF TRADE",
+      "cliente": "IMPERIO DO ESPETO RESTAURANTE LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :2799",
+      "obs": "",
+      "total": 345.12,
+      "itens": [
+        {
+          "desc": "RED BULL MELANCIA 250ML CX C/24",
+          "qt": 2,
+          "val": 345.12,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
       "numped": "588003065",
       "numnota": "",
       "data": "15/07/2026",
@@ -886,6 +1036,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
       "obs": "",
       "total": 1810.2,
       "itens": [
@@ -918,6 +1070,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
       "obs": "",
       "total": 1761.3,
       "itens": [
@@ -957,6 +1111,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "",
       "obs": "",
       "total": 5547.6,
       "itens": [
@@ -1003,6 +1159,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
       "obs": "",
       "total": 478.56,
       "itens": [
@@ -1042,6 +1200,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "",
       "obs": "",
       "total": 5751.0,
       "itens": [
@@ -1067,6 +1227,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
       "obs": "",
       "total": 2894.0,
       "itens": [
@@ -1113,6 +1275,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "",
       "obs": "",
       "total": 1218.96,
       "itens": [
@@ -1159,6 +1323,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "",
       "obs": "",
       "total": 8274.74,
       "itens": [
@@ -1254,6 +1420,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "",
       "obs": "",
       "total": 1875.36,
       "itens": [
@@ -1335,6 +1503,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
       "obs": "",
       "total": 413.57,
       "itens": [
@@ -1374,6 +1544,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "",
       "obs": "",
       "total": 4935.0,
       "itens": [
@@ -1399,6 +1571,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "O valor limite de credito foi excedido.  Vl. Ped.: 789.6 Cre",
       "obs": "",
       "total": 789.6,
       "itens": [
@@ -1424,6 +1598,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "",
       "obs": "",
       "total": 5751.0,
       "itens": [
@@ -1449,6 +1625,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
       "obs": "",
       "total": 1689.36,
       "itens": [
@@ -1488,6 +1666,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
       "obs": "",
       "total": 466.8,
       "itens": [
@@ -1520,6 +1700,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "",
       "obs": "",
       "total": 17556.0,
       "itens": [
@@ -1545,6 +1727,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "",
       "obs": "",
       "total": 2856.12,
       "itens": [
@@ -1591,6 +1775,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "O Cliente esta bloqueado.",
       "obs": "",
       "total": 4794.0,
       "itens": [
@@ -1616,6 +1802,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "",
       "obs": "",
       "total": 1898.1,
       "itens": [
@@ -1648,6 +1836,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
       "obs": "",
       "total": 701.4,
       "itens": [
@@ -1673,6 +1863,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
       "obs": "",
       "total": 202.8,
       "itens": [
@@ -1698,6 +1890,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "",
       "obs": "",
       "total": 2705.4,
       "itens": [
@@ -1730,6 +1924,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "O Cliente esta bloqueado.",
       "obs": "",
       "total": 5994.0,
       "itens": [
@@ -1755,6 +1951,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
       "obs": "",
       "total": 514.56,
       "itens": [
@@ -1801,6 +1999,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "Item com desconto acima do permitido :119",
       "obs": "cliente so recebe apos 15:00Horas",
       "total": 1629.36,
       "itens": [
@@ -1833,6 +2033,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "Item com desconto acima do permitido :3706",
       "obs": "cliente recebe segunda ou terca",
       "total": 389.1,
       "itens": [
@@ -1861,31 +2063,6 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
-      "numped": "354000628",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "MATHEUS DE SOUZA - OFF TRADE",
-      "cliente": "PARANAIBA LAGOA SANTA VARZEA SUPERMERCADO EIRELI",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "obs": "",
-      "total": 335.4,
-      "itens": [
-        {
-          "desc": "GIN GORDONS 750 ML",
-          "qt": 6,
-          "val": 335.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false
-    },
-    {
       "numped": "344000501",
       "numnota": "",
       "data": "15/07/2026",
@@ -1897,6 +2074,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "Item com desconto acima do permitido :2841",
       "obs": "",
       "total": 434.38,
       "itens": [
@@ -1939,38 +2118,6 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
-      "numped": "354000626",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "MATHEUS DE SOUZA - OFF TRADE",
-      "cliente": "LEILA APARECIDA PEREIRA DIAS",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "obs": "vai ser retirado pelo",
-      "total": 67.92,
-      "itens": [
-        {
-          "desc": "4 PACK  RED BULL",
-          "qt": 1,
-          "val": 33.96,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "4 PACK  RED BULL MORANGO PESSEGO",
-          "qt": 1,
-          "val": 33.96,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false
-    },
-    {
       "numped": "360000357",
       "numnota": "",
       "data": "15/07/2026",
@@ -1982,6 +2129,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "P",
+      "motivo": "Item com desconto acima do permitido :3498",
       "obs": "",
       "total": 6463.8,
       "itens": [
@@ -2007,6 +2156,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "Item com desconto acima do permitido :129",
       "obs": "",
       "total": 678.0,
       "itens": [
@@ -2053,6 +2204,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "Item com desconto acima do permitido :644",
       "obs": "",
       "total": 624.3,
       "itens": [
@@ -2099,6 +2252,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "Item com desconto acima do permitido :674",
       "obs": "",
       "total": 1317.6,
       "itens": [
@@ -2131,6 +2286,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "Item com desconto acima do permitido :644",
       "obs": "",
       "total": 434.0,
       "itens": [
@@ -2166,31 +2323,6 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
-      "numped": "360000358",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
-      "cliente": "SUPERMERCADO SUPER LUNA S.A",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "obs": "",
-      "total": 15016.32,
-      "itens": [
-        {
-          "desc": "GIN BEEFEATER 750ML",
-          "qt": 216,
-          "val": 15016.32,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false
-    },
-    {
       "numped": "344000507",
       "numnota": "",
       "data": "15/07/2026",
@@ -2202,6 +2334,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "",
       "obs": "",
       "total": 718.2,
       "itens": [
@@ -2227,6 +2361,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "",
       "obs": "APÓS AS 16H",
       "total": 2077.84,
       "itens": [
@@ -2283,45 +2419,6 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
-      "numped": "354000624",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "MATHEUS DE SOUZA - OFF TRADE",
-      "cliente": "PARANAIBA CENTRO SUPERMERCADO LTDA",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "obs": "",
-      "total": 1756.8,
-      "itens": [
-        {
-          "desc": "WHISKY J WALKER BLACK LABEL 1L",
-          "qt": 6,
-          "val": 917.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "JACK DANIELS HONEY 1 L",
-          "qt": 3,
-          "val": 389.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
-          "qt": 3,
-          "val": 449.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false
-    },
-    {
       "numped": "344000505",
       "numnota": "",
       "data": "15/07/2026",
@@ -2333,6 +2430,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "Item com desconto acima do permitido :424",
       "obs": "entrega terca feira dia 21/7",
       "total": 19155.6,
       "itens": [
@@ -2393,6 +2492,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "",
       "obs": "",
       "total": 419.6,
       "itens": [
@@ -2400,38 +2501,6 @@ const PEDIDOS_DATA = {
           "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
           "qt": 4,
           "val": 419.6,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false
-    },
-    {
-      "numped": "354000623",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "MATHEUS DE SOUZA - OFF TRADE",
-      "cliente": "ARTHUR FELIPE FERNANDES REIS",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "obs": "vai ser retirado pelo vendedor Matheus",
-      "total": 53.8,
-      "itens": [
-        {
-          "desc": "ST PIERRE ZERO GREEN APPLE 310 ML",
-          "qt": 1,
-          "val": 26.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "ST PIERRE ZERO COLA 310ML",
-          "qt": 1,
-          "val": 26.9,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -2450,6 +2519,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "",
       "obs": "",
       "total": 166.16,
       "itens": [
@@ -2475,6 +2546,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :2799",
       "obs": "",
       "total": 349.52,
       "itens": [
@@ -2514,6 +2587,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "Item com desconto acima do permitido :3960",
       "obs": "",
       "total": 4156.2,
       "itens": [
@@ -2581,6 +2656,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "",
       "obs": "",
       "total": 166.16,
       "itens": [
@@ -2606,6 +2683,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "Item com desconto acima do permitido :463",
       "obs": "cafeteira",
       "total": 297.1,
       "itens": [
@@ -2645,6 +2724,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "",
       "obs": "",
       "total": 166.16,
       "itens": [
@@ -2652,95 +2733,6 @@ const PEDIDOS_DATA = {
           "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
           "qt": 2,
           "val": 166.16,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false
-    },
-    {
-      "numped": "354000627",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "MATHEUS DE SOUZA - OFF TRADE",
-      "cliente": "GILBERTO TRAJANO CASSIMIRO JUNIOR",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "obs": "vai ser retirado pelo",
-      "total": 69.8,
-      "itens": [
-        {
-          "desc": "ST PIERRE BLUEBERRY LT 270MLX6",
-          "qt": 1,
-          "val": 26.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "ESPUMANTE ALUD ROSE 750ML",
-          "qt": 1,
-          "val": 42.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false
-    },
-    {
-      "numped": "354000629",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "MATHEUS DE SOUZA - OFF TRADE",
-      "cliente": "PARANAIBA LAGOA SANTA SUPERMERCADOS LTDA.",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "obs": "",
-      "total": 422.1,
-      "itens": [
-        {
-          "desc": "VINHO VILLA ROSA FRISANTE ROSE 750ML",
-          "qt": 6,
-          "val": 197.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-          "qt": 3,
-          "val": 224.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false
-    },
-    {
-      "numped": "354000625",
-      "numnota": "",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "MATHEUS DE SOUZA - OFF TRADE",
-      "cliente": "KAUAN GUSTAVO FERNANDES FREITAS",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "obs": "pedido vai ser retirado",
-      "total": 61.9,
-      "itens": [
-        {
-          "desc": "GIN GORDONS 750 ML",
-          "qt": 1,
-          "val": 61.9,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -2759,6 +2751,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "Item com desconto acima do permitido :16",
       "obs": "",
       "total": 658.5,
       "itens": [
@@ -2819,6 +2813,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
       "obs": "",
       "total": 1050.18,
       "itens": [
@@ -2858,6 +2854,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Valor do pedido menor que minimo para pedido",
       "obs": "",
       "total": 125.9,
       "itens": [
@@ -2883,6 +2881,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Pedido com cobranÃ§a boleto (BK) com valor abaixo do mÃ­nimo",
       "obs": "",
       "total": 394.8,
       "itens": [
@@ -2908,6 +2908,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "O Cliente esta bloqueado.",
       "obs": "",
       "total": 3228.0,
       "itens": [
@@ -2933,6 +2935,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
       "obs": "",
       "total": 350.57,
       "itens": [
@@ -2958,6 +2962,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
       "obs": "",
       "total": 1035.0,
       "itens": [
@@ -2983,6 +2989,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Pedido com itens bonificados bloqueado.",
       "obs": "",
       "total": 4283.5,
       "itens": [
@@ -3015,6 +3023,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "O Cliente esta bloqueado.",
       "obs": "",
       "total": 3656.88,
       "itens": [
@@ -3061,6 +3071,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
       "obs": "",
       "total": 1930.74,
       "itens": [
@@ -3107,6 +3119,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "O Cliente esta bloqueado.",
       "obs": "",
       "total": 1198.8,
       "itens": [
@@ -3132,6 +3146,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
       "obs": "",
       "total": 788.4,
       "itens": [
@@ -3157,6 +3173,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
       "obs": "",
       "total": 431.52,
       "itens": [
@@ -3189,6 +3207,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "O valor limite de credito foi excedido.  Vl. Ped.: 2977.5 Cr",
       "obs": "",
       "total": 2977.5,
       "itens": [
@@ -3228,6 +3248,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
       "obs": "",
       "total": 727.78,
       "itens": [
@@ -3260,6 +3282,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
       "obs": "",
       "total": 732.56,
       "itens": [
@@ -3292,6 +3316,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
       "obs": "",
       "total": 431.52,
       "itens": [
@@ -3317,6 +3343,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 178.8,
       "itens": [
@@ -3342,6 +3370,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "O valor limite de credito foi excedido.  Vl. Ped.: 2296.8 Cr",
       "obs": "",
       "total": 2296.8,
       "itens": [
@@ -3367,6 +3397,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "O valor limite de credito foi excedido.  Vl. Ped.: 1040.2 Cr",
       "obs": "",
       "total": 1040.2,
       "itens": [
@@ -3399,6 +3431,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Valor do pedido menor que minimo para pedido",
       "obs": "",
       "total": 16.5,
       "itens": [
@@ -3424,6 +3458,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "O valor limite de credito foi excedido.  Vl. Ped.: 1837.97 C",
       "obs": "",
       "total": 1837.97,
       "itens": [
@@ -3484,6 +3520,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "O valor limite de credito foi excedido.  Vl. Ped.: 2364.9 Cr",
       "obs": "",
       "total": 2364.9,
       "itens": [
@@ -3523,6 +3561,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "P",
+      "motivo": "PEDIDO COM ITENS FALTANTES",
       "obs": "",
       "total": 164.7,
       "itens": [
@@ -3548,6 +3588,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "",
       "obs": "ENTREGAR DE 08:00 AS 15:00",
       "total": 2556.35,
       "itens": [
@@ -3594,6 +3636,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "P",
+      "motivo": "Item com desconto acima do permitido :246",
       "obs": "",
       "total": 1651.58,
       "itens": [
@@ -3724,6 +3768,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "P",
+      "motivo": "Item com desconto acima do permitido :64",
       "obs": "",
       "total": 561.6,
       "itens": [
@@ -3756,6 +3802,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "P",
+      "motivo": "Item com desconto acima do permitido :64",
       "obs": "",
       "total": 8696.52,
       "itens": [
@@ -3781,6 +3829,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "",
       "obs": "2844/009",
       "total": 3762.0,
       "itens": [
@@ -3806,6 +3856,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "P",
+      "motivo": "3396- Item com desconto acima do permitido",
       "obs": "",
       "total": 1797.35,
       "itens": [
@@ -3868,6 +3920,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :381",
       "obs": "",
       "total": 2530.32,
       "itens": [
@@ -3922,6 +3976,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA AMANHÃ 16/07",
       "total": 5141.64,
       "itens": [
@@ -3976,6 +4032,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA 16/07",
       "total": 3468.0,
       "itens": [
@@ -4009,6 +4067,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA PARA 16/07",
       "total": 2076.48,
       "itens": [
@@ -4049,6 +4109,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA PARA 16/07",
       "total": 1756.8,
       "itens": [
@@ -4089,6 +4151,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA PARA 16/07",
       "total": 1560.6,
       "itens": [
@@ -4122,6 +4186,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGAR 17/07",
       "total": 4016.28,
       "itens": [
@@ -4183,6 +4249,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :666",
       "obs": "Data entrega: 16/07/26",
       "total": 1868.6,
       "itens": [
@@ -4230,6 +4298,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :378",
       "obs": "Data entrega: 16/07/26",
       "total": 298.26,
       "itens": [
@@ -4256,6 +4326,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2614",
       "obs": "Data entrega: 16/07/26",
       "total": 598.7,
       "itens": [
@@ -4324,6 +4396,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2614",
       "obs": "Data entrega : 16/07/26",
       "total": 1474.08,
       "itens": [
@@ -4364,6 +4438,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4677",
       "obs": "Data entrega:16/07/26",
       "total": 698.16,
       "itens": [
@@ -4411,6 +4487,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6917",
       "obs": "entregar no dia 16/07 com pagamento de descarga no valor de R$60,00 por pal",
       "total": 1958.4,
       "itens": [
@@ -4437,6 +4515,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 2374.08,
       "itens": [
@@ -4487,6 +4567,48 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
+      "numped": "153001305",
+      "numnota": "412547",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "ANGELO NEVES SUZART - OFF TRADE",
+      "cliente": "CEREAIS MARREQUINHO DE NOVA CAMPINAS LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7017",
+      "obs": "pagamento de descarga no valor de R$40,00 por pallets",
+      "total": 643.0,
+      "itens": [
+        {
+          "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+          "qt": 5,
+          "val": 326.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "qt": 24,
+          "val": 280.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
+          "qt": 2,
+          "val": 35.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
       "numped": "370001399",
       "numnota": "42893",
       "data": "15/07/2026",
@@ -4498,6 +4620,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 29.16,
       "itens": [
@@ -4524,6 +4648,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 29.16,
       "itens": [
@@ -4550,6 +4676,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 778.8,
       "itens": [
@@ -4576,6 +4704,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 525.6,
       "itens": [
@@ -4598,6 +4728,55 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
+      "numped": "379001249",
+      "numnota": "412546",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "JORGE MACIEL - OFF TRADE",
+      "cliente": "MERCADO E PADARIA PONTO ALTO DO KM 32 LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5586",
+      "obs": "",
+      "total": 474.0,
+      "itens": [
+        {
+          "desc": "RC ATUM SOLIDO OLEO 24X170G",
+          "qt": 1,
+          "val": 141.6,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "RC ATUM SOLIDO NATURAL 24X170G",
+          "qt": 1,
+          "val": 141.6,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "qt": 1,
+          "val": 62.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "CERVEJA HEINEKEN LONG 24X330ML",
+          "qt": 1,
+          "val": 127.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
       "numped": "379001250",
       "numnota": "412417",
       "data": "15/07/2026",
@@ -4609,6 +4788,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PRECO ABAIXO DO MINIMO PERMITIDO",
       "obs": "",
       "total": 1426.09,
       "itens": [
@@ -4743,6 +4924,34 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
+      "numped": "379001251",
+      "numnota": "412548",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "JORGE MACIEL - OFF TRADE",
+      "cliente": "JOAO CANDIDO DE AZEVEDO NETO 05732934308",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2710",
+      "obs": "",
+      "total": 629.0,
+      "itens": [
+        {
+          "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "qt": 10,
+          "val": 629.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
       "numped": "471000430",
       "numnota": "412292",
       "data": "15/07/2026",
@@ -4754,6 +4963,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :486",
       "obs": "",
       "total": 899.4,
       "itens": [
@@ -4780,6 +4991,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :119",
       "obs": "",
       "total": 386.7,
       "itens": [
@@ -4806,6 +5019,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2089",
       "obs": "",
       "total": 729.96,
       "itens": [
@@ -4853,6 +5068,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :902",
       "obs": "",
       "total": 6473.52,
       "itens": [
@@ -4886,6 +5103,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 856.88,
       "itens": [
@@ -4926,6 +5145,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3151",
       "obs": "",
       "total": 709.0,
       "itens": [
@@ -4952,6 +5173,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :463",
       "obs": "",
       "total": 4176.12,
       "itens": [
@@ -5027,6 +5250,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PRECO ABAIXO DO MINIMO PERMITIDO",
       "obs": "",
       "total": 4051.08,
       "itens": [
@@ -5144,6 +5369,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 313.8,
       "itens": [
@@ -5170,6 +5397,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2710",
       "obs": "",
       "total": 2483.28,
       "itens": [
@@ -5231,6 +5460,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :857",
       "obs": "",
       "total": 1268.2,
       "itens": [
@@ -5299,6 +5530,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :463",
       "obs": "",
       "total": 8110.56,
       "itens": [
@@ -5367,6 +5600,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 265.8,
       "itens": [
@@ -5400,6 +5635,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :313",
       "obs": "",
       "total": 2814.6,
       "itens": [
@@ -5440,6 +5677,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7019",
       "obs": "",
       "total": 143.52,
       "itens": [
@@ -5466,6 +5705,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7019",
       "obs": "",
       "total": 159.96,
       "itens": [
@@ -5492,6 +5733,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :997",
       "obs": "",
       "total": 269.64,
       "itens": [
@@ -5518,6 +5761,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :997",
       "obs": "",
       "total": 303.36,
       "itens": [
@@ -5558,6 +5803,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5384",
       "obs": "",
       "total": 274.46,
       "itens": [
@@ -5598,6 +5845,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 347.55,
       "itens": [
@@ -5666,6 +5915,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2699",
       "obs": "",
       "total": 299.6,
       "itens": [
@@ -5706,6 +5957,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5579",
       "obs": "data entrega: 16/07",
       "total": 1974.0,
       "itens": [
@@ -5739,6 +5992,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 1506.2,
       "itens": [
@@ -5765,6 +6020,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 1499.82,
       "itens": [
@@ -5798,6 +6055,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 3012.4,
       "itens": [
@@ -5824,6 +6083,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 3012.4,
       "itens": [
@@ -5850,6 +6111,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 301.24,
       "itens": [
@@ -5876,6 +6139,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 451.86,
       "itens": [
@@ -5902,6 +6167,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 1063.8,
       "itens": [
@@ -5928,6 +6195,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1329.59,
       "itens": [
@@ -5975,6 +6244,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 999.0,
       "itens": [
@@ -6001,6 +6272,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 4136.4,
       "itens": [
@@ -6013,7 +6286,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "391000207",
@@ -6027,6 +6300,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Bloqueio de Pedidos bonificado",
       "obs": "",
       "total": 551.52,
       "itens": [
@@ -6039,7 +6314,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000150",
@@ -6053,6 +6328,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1239.8,
       "itens": [
@@ -6072,7 +6349,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000173",
@@ -6086,6 +6363,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 8575.2,
       "itens": [
@@ -6105,7 +6384,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000174",
@@ -6119,6 +6398,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3228.0,
       "itens": [
@@ -6131,7 +6412,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "468000095",
@@ -6145,6 +6426,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 23616.0,
       "itens": [
@@ -6157,7 +6440,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "491000012",
@@ -6171,6 +6454,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1329.72,
       "itens": [
@@ -6197,7 +6482,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "493000031",
@@ -6211,6 +6496,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1123.8,
       "itens": [
@@ -6230,7 +6517,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "512000001",
@@ -6244,6 +6531,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1078.8,
       "itens": [
@@ -6256,7 +6545,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003046",
@@ -6270,6 +6559,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 5835.0,
       "itens": [
@@ -6289,7 +6580,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003047",
@@ -6303,6 +6594,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1167.0,
       "itens": [
@@ -6315,7 +6608,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003048",
@@ -6329,6 +6622,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 11988.0,
       "itens": [
@@ -6341,7 +6636,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003049",
@@ -6355,6 +6650,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 11988.0,
       "itens": [
@@ -6367,7 +6664,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003050",
@@ -6381,6 +6678,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3493.8,
       "itens": [
@@ -6407,7 +6706,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003052",
@@ -6421,6 +6720,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 11202.6,
       "itens": [
@@ -6454,7 +6755,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003056",
@@ -6468,6 +6769,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1078.8,
       "itens": [
@@ -6480,7 +6783,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003057",
@@ -6494,6 +6797,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 6832.8,
       "itens": [
@@ -6513,7 +6818,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003058",
@@ -6527,6 +6832,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 7188.0,
       "itens": [
@@ -6539,7 +6846,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003059",
@@ -6553,6 +6860,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 12912.0,
       "itens": [
@@ -6565,7 +6874,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003060",
@@ -6579,6 +6888,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 9870.0,
       "itens": [
@@ -6591,7 +6902,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "470000033",
@@ -6605,6 +6916,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1522.24,
       "itens": [
@@ -6715,7 +7028,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "473000010",
@@ -6729,6 +7042,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 685.4,
       "itens": [
@@ -6748,7 +7063,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "474000045",
@@ -6762,6 +7077,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 171.7,
       "itens": [
@@ -6788,7 +7105,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "474000046",
@@ -6802,6 +7119,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1078.2,
       "itens": [
@@ -6821,7 +7140,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "474000047",
@@ -6835,6 +7154,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 394.8,
       "itens": [
@@ -6847,7 +7168,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000205",
@@ -6861,6 +7182,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 505.7,
       "itens": [
@@ -6873,7 +7196,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000206",
@@ -6887,6 +7210,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 199.8,
       "itens": [
@@ -6899,7 +7224,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000207",
@@ -6913,6 +7238,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 535.9,
       "itens": [
@@ -6946,7 +7273,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000054",
@@ -6960,6 +7287,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 543.4,
       "itens": [
@@ -6979,7 +7308,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000055",
@@ -6993,6 +7322,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 643.2,
       "itens": [
@@ -7019,7 +7350,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000056",
@@ -7033,6 +7364,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 637.26,
       "itens": [
@@ -7059,7 +7392,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000083",
@@ -7073,6 +7406,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1462.44,
       "itens": [
@@ -7099,7 +7434,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000084",
@@ -7113,6 +7448,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1121.5,
       "itens": [
@@ -7160,7 +7497,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000085",
@@ -7174,6 +7511,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1231.0,
       "itens": [
@@ -7207,7 +7546,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "489000047",
@@ -7221,6 +7560,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 5641.8,
       "itens": [
@@ -7254,7 +7595,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "489000048",
@@ -7268,6 +7609,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 883.8,
       "itens": [
@@ -7301,7 +7644,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "327009425",
@@ -7315,6 +7658,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :902",
       "obs": "restaurante dentro do shopping",
       "total": 383.52,
       "itens": [
@@ -7341,6 +7686,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "restaurante tip top Savassi",
       "total": 314.3,
       "itens": [
@@ -7367,6 +7714,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 322.8,
       "itens": [
@@ -7428,6 +7777,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :119",
       "obs": "restaurante Nashy Getulio Vargas",
       "total": 431.28,
       "itens": [
@@ -7454,6 +7805,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :119",
       "obs": "restaurante Nashy Savassi",
       "total": 862.56,
       "itens": [
@@ -7480,6 +7833,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :119",
       "obs": "restaurante Nashy Lourdes",
       "total": 431.28,
       "itens": [
@@ -7506,6 +7861,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :119",
       "obs": "restaurante Nashy contagem",
       "total": 575.04,
       "itens": [
@@ -7532,6 +7889,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4252",
       "obs": "cliente so recebe apos 16:00 horas",
       "total": 874.64,
       "itens": [
@@ -7586,6 +7945,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :129",
       "obs": "",
       "total": 323.2,
       "itens": [
@@ -7626,6 +7987,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "restaurante Nashy Lourdes",
       "total": 419.6,
       "itens": [
@@ -7652,6 +8015,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "restaurante Nashy Getulio Vargas",
       "total": 419.6,
       "itens": [
@@ -7659,6 +8024,244 @@ const PEDIDOS_DATA = {
           "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
           "qt": 4,
           "val": 419.6,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "354000623",
+      "numnota": "125184",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "MATHEUS DE SOUZA - OFF TRADE",
+      "cliente": "ARTHUR FELIPE FERNANDES REIS",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
+      "obs": "vai ser retirado pelo vendedor Matheus",
+      "total": 53.8,
+      "itens": [
+        {
+          "desc": "ST PIERRE ZERO GREEN APPLE 310 ML",
+          "qt": 1,
+          "val": 26.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "ST PIERRE ZERO COLA 310ML",
+          "qt": 1,
+          "val": 26.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "354000624",
+      "numnota": "125181",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "MATHEUS DE SOUZA - OFF TRADE",
+      "cliente": "PARANAIBA CENTRO SUPERMERCADO LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :449",
+      "obs": "",
+      "total": 1756.8,
+      "itens": [
+        {
+          "desc": "WHISKY J WALKER BLACK LABEL 1L",
+          "qt": 6,
+          "val": 917.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "JACK DANIELS HONEY 1 L",
+          "qt": 3,
+          "val": 389.7,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "qt": 3,
+          "val": 449.7,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "354000625",
+      "numnota": "125178",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "MATHEUS DE SOUZA - OFF TRADE",
+      "cliente": "KAUAN GUSTAVO FERNANDES FREITAS",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
+      "obs": "pedido vai ser retirado",
+      "total": 61.9,
+      "itens": [
+        {
+          "desc": "GIN GORDONS 750 ML",
+          "qt": 1,
+          "val": 61.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "354000626",
+      "numnota": "125179",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "MATHEUS DE SOUZA - OFF TRADE",
+      "cliente": "LEILA APARECIDA PEREIRA DIAS",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
+      "obs": "vai ser retirado pelo",
+      "total": 67.92,
+      "itens": [
+        {
+          "desc": "4 PACK  RED BULL",
+          "qt": 1,
+          "val": 33.96,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "4 PACK  RED BULL MORANGO PESSEGO",
+          "qt": 1,
+          "val": 33.96,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "354000627",
+      "numnota": "125183",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "MATHEUS DE SOUZA - OFF TRADE",
+      "cliente": "GILBERTO TRAJANO CASSIMIRO JUNIOR",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
+      "obs": "vai ser retirado pelo",
+      "total": 69.8,
+      "itens": [
+        {
+          "desc": "ST PIERRE BLUEBERRY LT 270MLX6",
+          "qt": 1,
+          "val": 26.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "ESPUMANTE ALUD ROSE 750ML",
+          "qt": 1,
+          "val": 42.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "354000628",
+      "numnota": "125180",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "MATHEUS DE SOUZA - OFF TRADE",
+      "cliente": "PARANAIBA LAGOA SANTA VARZEA SUPERMERCADO EIRELI",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :674",
+      "obs": "",
+      "total": 335.4,
+      "itens": [
+        {
+          "desc": "GIN GORDONS 750 ML",
+          "qt": 6,
+          "val": 335.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "354000629",
+      "numnota": "125182",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "MATHEUS DE SOUZA - OFF TRADE",
+      "cliente": "PARANAIBA LAGOA SANTA SUPERMERCADOS LTDA.",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
+      "obs": "",
+      "total": 422.1,
+      "itens": [
+        {
+          "desc": "VINHO VILLA ROSA FRISANTE ROSE 750ML",
+          "qt": 6,
+          "val": 197.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+          "qt": 3,
+          "val": 224.7,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -7678,6 +8281,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "SHOPPING DIAMOND",
       "total": 907.2,
       "itens": [
@@ -7711,6 +8316,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 359.7,
       "itens": [
@@ -7737,6 +8344,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :644",
       "obs": "entrega depois de 13:30",
       "total": 510.9,
       "itens": [
@@ -7777,6 +8386,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "entrega de 13:30 as 16:00",
       "total": 783.0,
       "itens": [
@@ -7810,6 +8421,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 267.9,
       "itens": [
@@ -7817,6 +8430,34 @@ const PEDIDOS_DATA = {
           "desc": "AZEITE DE OLIVA EV ESSENZA 5L",
           "qt": 1,
           "val": 267.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "360000358",
+      "numnota": "125177",
+      "data": "15/07/2026",
+      "data_ord": "2026-07-15",
+      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
+      "cliente": "SUPERMERCADO SUPER LUNA S.A",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :463",
+      "obs": "",
+      "total": 15016.32,
+      "itens": [
+        {
+          "desc": "GIN BEEFEATER 750ML",
+          "qt": 216,
+          "val": 15016.32,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -7836,6 +8477,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 359.52,
       "itens": [
@@ -7862,6 +8505,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGAR 15/07",
       "total": 1560.6,
       "itens": [
@@ -7895,6 +8540,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGAR 15/07",
       "total": 1560.6,
       "itens": [
@@ -7928,6 +8575,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1314.49,
       "itens": [
@@ -7975,6 +8624,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1721.94,
       "itens": [
@@ -8029,6 +8680,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4677",
       "obs": "Data entrega: 16/07/26",
       "total": 1024.74,
       "itens": [
@@ -8069,6 +8722,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4677",
       "obs": "Data entrega: 16/07/26",
       "total": 359.0,
       "itens": [
@@ -8109,6 +8764,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2613",
       "obs": "Data entrega: 16/07/26",
       "total": 472.2,
       "itens": [
@@ -8163,6 +8820,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :66",
       "obs": "Data entrega: 16/07/26",
       "total": 936.6,
       "itens": [
@@ -8217,6 +8876,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 29.16,
       "itens": [
@@ -8243,6 +8904,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 754.73,
       "itens": [
@@ -8276,6 +8939,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7081",
       "obs": "",
       "total": 266.2,
       "itens": [
@@ -8316,6 +8981,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5579",
       "obs": "",
       "total": 250.0,
       "itens": [
@@ -8342,6 +9009,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3319",
       "obs": "",
       "total": 245.4,
       "itens": [
@@ -8368,6 +9037,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5579",
       "obs": "",
       "total": 250.0,
       "itens": [
@@ -8394,6 +9065,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 235.5,
       "itens": [
@@ -8441,6 +9114,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7095",
       "obs": "entregar no dia 15/07 com agendamento para essa data  pagamento de descarga",
       "total": 1432.8,
       "itens": [
@@ -8502,6 +9177,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7207",
       "obs": "entregar no dia 15/07 com pagamento de descarga no valor R$60,00",
       "total": 1326.05,
       "itens": [
@@ -8584,6 +9261,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA: 15/07 - 08HRS AS 15HRS",
       "total": 1411.2,
       "itens": [
@@ -8631,6 +9310,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA: 15/07 - 08HRS AS 15HRS",
       "total": 3942.6,
       "itens": [
@@ -8671,6 +9352,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5579",
       "obs": "",
       "total": 658.5,
       "itens": [
@@ -8704,6 +9387,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5580",
       "obs": "Obrigatorio constar na Nota Fiscal o numero do pedido do cliente.",
       "total": 1756.0,
       "itens": [
@@ -8737,6 +9422,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5579",
       "obs": "",
       "total": 658.5,
       "itens": [
@@ -8763,6 +9450,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5582",
       "obs": "",
       "total": 1290.4,
       "itens": [
@@ -8803,6 +9492,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5580",
       "obs": "",
       "total": 878.0,
       "itens": [
@@ -8836,6 +9527,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5580",
       "obs": "",
       "total": 2195.0,
       "itens": [
@@ -8869,6 +9562,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5580",
       "obs": "",
       "total": 439.0,
       "itens": [
@@ -8902,6 +9597,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5580",
       "obs": "",
       "total": 439.0,
       "itens": [
@@ -8935,6 +9632,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5580",
       "obs": "",
       "total": 658.5,
       "itens": [
@@ -8968,6 +9667,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5580",
       "obs": "",
       "total": 1975.5,
       "itens": [
@@ -9001,6 +9702,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5580",
       "obs": "",
       "total": 3512.0,
       "itens": [
@@ -9034,6 +9737,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5580",
       "obs": "",
       "total": 2414.5,
       "itens": [
@@ -9067,6 +9772,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3817",
       "obs": "",
       "total": 695.6,
       "itens": [
@@ -9107,6 +9814,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5579",
       "obs": "",
       "total": 617.27,
       "itens": [
@@ -9154,6 +9863,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :37",
       "obs": "",
       "total": 732.0,
       "itens": [
@@ -9187,6 +9898,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :235",
       "obs": "",
       "total": 328.2,
       "itens": [
@@ -9227,6 +9940,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5387",
       "obs": "",
       "total": 874.8,
       "itens": [
@@ -9253,6 +9968,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2710",
       "obs": "",
       "total": 377.4,
       "itens": [
@@ -9279,6 +9996,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5985",
       "obs": "",
       "total": 352.08,
       "itens": [
@@ -9340,6 +10059,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :378",
       "obs": "",
       "total": 1453.26,
       "itens": [
@@ -9373,6 +10094,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :463",
       "obs": "",
       "total": 746.0,
       "itens": [
@@ -9427,6 +10150,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 287.56,
       "itens": [
@@ -9467,6 +10192,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 361.63,
       "itens": [
@@ -9514,6 +10241,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :664",
       "obs": "",
       "total": 279.3,
       "itens": [
@@ -9540,6 +10269,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :69",
       "obs": "",
       "total": 1092.0,
       "itens": [
@@ -9573,6 +10304,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2710",
       "obs": "",
       "total": 504.44,
       "itens": [
@@ -9613,6 +10346,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :34",
       "obs": "",
       "total": 1043.92,
       "itens": [
@@ -9667,6 +10402,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2208",
       "obs": "",
       "total": 1417.8,
       "itens": [
@@ -9707,6 +10444,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2848",
       "obs": "",
       "total": 279.6,
       "itens": [
@@ -9733,6 +10472,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3011",
       "obs": "",
       "total": 279.3,
       "itens": [
@@ -9759,6 +10500,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5405",
       "obs": "",
       "total": 448.54,
       "itens": [
@@ -9820,6 +10563,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :64",
       "obs": "",
       "total": 15300.0,
       "itens": [
@@ -9846,6 +10591,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :119",
       "obs": "",
       "total": 1015.2,
       "itens": [
@@ -9872,6 +10619,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2614",
       "obs": "",
       "total": 358.8,
       "itens": [
@@ -9898,6 +10647,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3639",
       "obs": "Horario de recebimento",
       "total": 539.28,
       "itens": [
@@ -9938,6 +10689,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4477",
       "obs": "",
       "total": 359.6,
       "itens": [
@@ -9964,6 +10717,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :902",
       "obs": "",
       "total": 2156.52,
       "itens": [
@@ -10004,6 +10759,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2799",
       "obs": "",
       "total": 996.48,
       "itens": [
@@ -10037,6 +10794,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :381",
       "obs": "",
       "total": 539.1,
       "itens": [
@@ -10077,6 +10836,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :902",
       "obs": "",
       "total": 517.68,
       "itens": [
@@ -10117,6 +10878,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :902",
       "obs": "",
       "total": 404.46,
       "itens": [
@@ -10157,6 +10920,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3011",
       "obs": "",
       "total": 903.6,
       "itens": [
@@ -10211,6 +10976,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 914.34,
       "itens": [
@@ -10265,6 +11032,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 410.8,
       "itens": [
@@ -10298,6 +11067,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1141.5,
       "itens": [
@@ -10324,6 +11095,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3818",
       "obs": "",
       "total": 335.74,
       "itens": [
@@ -10357,6 +11130,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5989",
       "obs": "",
       "total": 262.68,
       "itens": [
@@ -10390,6 +11165,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 284.5,
       "itens": [
@@ -10437,6 +11214,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 266.18,
       "itens": [
@@ -10484,6 +11263,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :381",
       "obs": "",
       "total": 236.85,
       "itens": [
@@ -10524,6 +11305,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7062",
       "obs": "",
       "total": 345.38,
       "itens": [
@@ -10564,6 +11347,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7081",
       "obs": "",
       "total": 309.6,
       "itens": [
@@ -10590,6 +11375,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :463",
       "obs": "data entrega: 15/07",
       "total": 282.3,
       "itens": [
@@ -10623,6 +11410,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2799",
       "obs": "data entrega: 15/07",
       "total": 2437.98,
       "itens": [
@@ -10670,6 +11459,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA: 15/07 - ATÉ AS 17HRS",
       "total": 1680.06,
       "itens": [
@@ -10710,6 +11501,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 6616.36,
       "itens": [
@@ -10757,6 +11550,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1825.9,
       "itens": [
@@ -10804,7 +11599,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "461000122",
@@ -10818,6 +11613,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1434.0,
       "itens": [
@@ -10837,7 +11634,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "461000123",
@@ -10851,6 +11648,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1418.4,
       "itens": [
@@ -10898,6 +11697,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1067.92,
       "itens": [
@@ -10931,7 +11732,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "461000127",
@@ -10945,6 +11746,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 754.8,
       "itens": [
@@ -10971,6 +11774,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 471.18,
       "itens": [
@@ -11011,7 +11816,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "391000205",
@@ -11025,6 +11830,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 5044.8,
       "itens": [
@@ -11051,7 +11858,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000147",
@@ -11065,6 +11872,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 955.1,
       "itens": [
@@ -11098,7 +11907,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000374",
@@ -11112,6 +11921,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 7192.8,
       "itens": [
@@ -11124,7 +11935,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "426000375",
@@ -11138,6 +11949,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 5940.0,
       "itens": [
@@ -11171,7 +11984,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "433000168",
@@ -11185,6 +11998,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3228.0,
       "itens": [
@@ -11211,6 +12026,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2490.0,
       "itens": [
@@ -11244,6 +12061,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1048.75,
       "itens": [
@@ -11263,7 +12082,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "465000042",
@@ -11277,6 +12096,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 591.5,
       "itens": [
@@ -11303,7 +12124,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "465000043",
@@ -11317,6 +12138,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 6486.96,
       "itens": [
@@ -11336,7 +12159,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "465000044",
@@ -11350,6 +12173,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 306.64,
       "itens": [
@@ -11376,7 +12201,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "468000093",
@@ -11390,6 +12215,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 11007.9,
       "itens": [
@@ -11451,6 +12278,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3501.0,
       "itens": [
@@ -11477,6 +12306,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 530.3,
       "itens": [
@@ -11510,7 +12341,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "490000022",
@@ -11524,6 +12355,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2827.72,
       "itens": [
@@ -11620,7 +12453,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "491000011",
@@ -11634,6 +12467,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 778.5,
       "itens": [
@@ -11660,7 +12495,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "498000010",
@@ -11674,6 +12509,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2394.0,
       "itens": [
@@ -11686,7 +12523,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "498000011",
@@ -11700,6 +12537,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 399.6,
       "itens": [
@@ -11712,7 +12551,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "504000005",
@@ -11726,6 +12565,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 467.4,
       "itens": [
@@ -11752,7 +12593,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "509000001",
@@ -11766,6 +12607,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1674.0,
       "itens": [
@@ -11778,7 +12621,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003023",
@@ -11792,6 +12635,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 13140.0,
       "itens": [
@@ -11818,6 +12663,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1677.6,
       "itens": [
@@ -11851,6 +12698,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 6210.0,
       "itens": [
@@ -11877,6 +12726,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3985.8,
       "itens": [
@@ -11910,6 +12761,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 127314.0,
       "itens": [
@@ -11950,6 +12803,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 43512.0,
       "itens": [
@@ -11976,6 +12831,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 13794.0,
       "itens": [
@@ -12002,6 +12859,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 9952.8,
       "itens": [
@@ -12035,6 +12894,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 12912.0,
       "itens": [
@@ -12061,6 +12922,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2123.16,
       "itens": [
@@ -12115,6 +12978,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 12161.7,
       "itens": [
@@ -12134,7 +12999,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003037",
@@ -12148,6 +13013,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 75523.8,
       "itens": [
@@ -12188,6 +13055,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2228.4,
       "itens": [
@@ -12221,6 +13090,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 18810.0,
       "itens": [
@@ -12233,7 +13104,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003041",
@@ -12247,6 +13118,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 18810.0,
       "itens": [
@@ -12259,7 +13132,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003042",
@@ -12273,6 +13146,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1167.0,
       "itens": [
@@ -12299,6 +13174,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1031.88,
       "itens": [
@@ -12311,7 +13188,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "469000048",
@@ -12325,6 +13202,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 4866.9,
       "itens": [
@@ -12393,7 +13272,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "473000009",
@@ -12407,6 +13286,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 9815.76,
       "itens": [
@@ -12426,7 +13307,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "474000042",
@@ -12440,6 +13321,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1198.8,
       "itens": [
@@ -12452,7 +13335,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "474000044",
@@ -12466,6 +13349,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1829.1,
       "itens": [
@@ -12499,7 +13384,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "476000198",
@@ -12513,6 +13398,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 394.2,
       "itens": [
@@ -12546,7 +13433,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "476000199",
@@ -12560,6 +13447,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 483.4,
       "itens": [
@@ -12586,7 +13475,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "476000200",
@@ -12600,6 +13489,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 598.88,
       "itens": [
@@ -12633,7 +13524,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "476000202",
@@ -12647,6 +13538,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 634.8,
       "itens": [
@@ -12659,7 +13552,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000204",
@@ -12673,6 +13566,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1198.8,
       "itens": [
@@ -12685,7 +13580,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000074",
@@ -12699,6 +13594,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2318.76,
       "itens": [
@@ -12746,7 +13643,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000075",
@@ -12760,6 +13657,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 553.5,
       "itens": [
@@ -12779,7 +13678,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000076",
@@ -12793,6 +13692,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2484.86,
       "itens": [
@@ -12868,7 +13769,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000078",
@@ -12882,6 +13783,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 984.5,
       "itens": [
@@ -12922,7 +13825,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "486000079",
@@ -12936,6 +13839,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 6348.0,
       "itens": [
@@ -12948,7 +13853,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "486000080",
@@ -12962,6 +13867,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 465.9,
       "itens": [
@@ -12981,7 +13888,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000081",
@@ -12995,6 +13902,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1269.6,
       "itens": [
@@ -13007,7 +13916,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000082",
@@ -13021,6 +13930,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 419.4,
       "itens": [
@@ -13033,7 +13944,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "489000040",
@@ -13047,6 +13958,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2747.1,
       "itens": [
@@ -13066,7 +13979,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "489000041",
@@ -13080,6 +13993,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 552.0,
       "itens": [
@@ -13092,7 +14007,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "489000042",
@@ -13106,6 +14021,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1447.27,
       "itens": [
@@ -13146,7 +14063,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "489000043",
@@ -13160,6 +14077,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3943.8,
       "itens": [
@@ -13207,7 +14126,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "489000044",
@@ -13221,6 +14140,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 9684.0,
       "itens": [
@@ -13233,7 +14154,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "489000045",
@@ -13247,6 +14168,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 599.3,
       "itens": [
@@ -13266,7 +14189,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "312000039",
@@ -13280,6 +14203,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "HORÁRIO  DE RECIBMENTOS: 3 ª A 6ª  DAS 09:00 AS 16:00 HS",
       "total": 621.6,
       "itens": [
@@ -13306,6 +14231,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :266",
       "obs": "Restaurante coco bambu",
       "total": 437.3,
       "itens": [
@@ -13353,6 +14280,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "restaurante coco bambu",
       "total": 608.9,
       "itens": [
@@ -13407,6 +14336,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3585",
       "obs": "",
       "total": 463.36,
       "itens": [
@@ -13461,6 +14392,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "cliente so recebe de 14:00 as 17:00",
       "total": 568.1,
       "itens": [
@@ -13508,6 +14441,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :10",
       "obs": "restaurante coco bambu",
       "total": 3958.2,
       "itens": [
@@ -13548,6 +14483,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 346.82,
       "itens": [
@@ -13581,6 +14518,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :69",
       "obs": "",
       "total": 294.0,
       "itens": [
@@ -13614,6 +14553,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :674",
       "obs": "",
       "total": 335.4,
       "itens": [
@@ -13640,6 +14581,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :674",
       "obs": "",
       "total": 335.4,
       "itens": [
@@ -13666,6 +14609,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :40",
       "obs": "pedido:00004515",
       "total": 251.6,
       "itens": [
@@ -13699,6 +14644,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :40",
       "obs": "pedido:00004830",
       "total": 351.7,
       "itens": [
@@ -13732,6 +14679,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :119",
       "obs": "SHOPPING DIAMOND",
       "total": 431.28,
       "itens": [
@@ -13758,6 +14707,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1043.0,
       "itens": [
@@ -13819,6 +14770,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1495.9,
       "itens": [
@@ -13894,6 +14847,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "entrega de 9:00as17:00",
       "total": 1030.8,
       "itens": [
@@ -13927,6 +14882,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 453.6,
       "itens": [
@@ -13960,6 +14917,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :644",
       "obs": "",
       "total": 478.5,
       "itens": [
@@ -14007,6 +14966,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2841",
       "obs": "",
       "total": 434.38,
       "itens": [
@@ -14061,6 +15022,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 686.4,
       "itens": [
@@ -14094,6 +15057,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 65.64,
       "itens": [
@@ -14127,6 +15092,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3551",
       "obs": "",
       "total": 35285.76,
       "itens": [
@@ -14153,6 +15120,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3551",
       "obs": "",
       "total": 35285.76,
       "itens": [
@@ -14179,6 +15148,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3551",
       "obs": "Ceasa",
       "total": 11761.92,
       "itens": [
@@ -14205,6 +15176,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PRECO ABAIXO DO MINIMO PERMITIDO",
       "obs": "",
       "total": 21666.0,
       "itens": [
@@ -14238,6 +15211,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :129",
       "obs": "Ceasa",
       "total": 27643.2,
       "itens": [
@@ -14285,6 +15260,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PRECO ABAIXO DO MINIMO PERMITIDO",
       "obs": "Ceasa",
       "total": 8340.42,
       "itens": [
@@ -14318,6 +15295,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 359.52,
       "itens": [
@@ -14344,6 +15323,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGAR 14/07 (AGENDADO)",
       "total": 5877.0,
       "itens": [
@@ -14384,6 +15365,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGA AGENDADA (14/07)",
       "total": 335.4,
       "itens": [
@@ -14410,6 +15393,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGAR DIA 16/07",
       "total": 36321.6,
       "itens": [
@@ -14436,6 +15421,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGAR 14/07",
       "total": 56400.0,
       "itens": [
@@ -14469,6 +15456,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :100",
       "obs": "Data entrega: 16/07/26",
       "total": 264.7,
       "itens": [
@@ -14502,6 +15491,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :378",
       "obs": "Data entrega: 16/09/26",
       "total": 298.26,
       "itens": [
@@ -14528,6 +15519,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :378",
       "obs": "Data entrega: 16/07/26",
       "total": 298.26,
       "itens": [
@@ -14554,6 +15547,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5582",
       "obs": "",
       "total": 302.92,
       "itens": [
@@ -14608,6 +15603,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5580",
       "obs": "",
       "total": 503.6,
       "itens": [
@@ -14669,6 +15666,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 640.8,
       "itens": [
@@ -14702,6 +15701,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "DAS 08:00H AS 14:00H - DESCARGA 30,00",
       "total": 6603.24,
       "itens": [
@@ -14756,6 +15757,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 29.16,
       "itens": [
@@ -14782,6 +15785,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5580",
       "obs": "Cliente so recebe mercadorias com horario agendado.",
       "total": 18253.8,
       "itens": [
@@ -14822,6 +15827,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 597.0,
       "itens": [
@@ -14848,6 +15855,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6049",
       "obs": "",
       "total": 85.92,
       "itens": [
@@ -14881,6 +15890,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7702",
       "obs": "",
       "total": 615.9,
       "itens": [
@@ -14963,6 +15974,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :1518",
       "obs": "",
       "total": 860.06,
       "itens": [
@@ -15003,6 +16016,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :435",
       "obs": "",
       "total": 3900.0,
       "itens": [
@@ -15029,6 +16044,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4843",
       "obs": "",
       "total": 686.69,
       "itens": [
@@ -15076,6 +16093,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :187",
       "obs": "",
       "total": 253.7,
       "itens": [
@@ -15116,6 +16135,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3451",
       "obs": "",
       "total": 1399.8,
       "itens": [
@@ -15142,6 +16163,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :119",
       "obs": "",
       "total": 295.74,
       "itens": [
@@ -15182,6 +16205,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :644",
       "obs": "",
       "total": 487.4,
       "itens": [
@@ -15222,6 +16247,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 321.3,
       "itens": [
@@ -15255,6 +16282,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 598.8,
       "itens": [
@@ -15281,6 +16310,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :902",
       "obs": "",
       "total": 431.4,
       "itens": [
@@ -15321,6 +16352,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 517.68,
       "itens": [
@@ -15347,6 +16380,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 335.76,
       "itens": [
@@ -15387,6 +16422,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 345.12,
       "itens": [
@@ -15420,6 +16457,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 477.6,
       "itens": [
@@ -15446,6 +16485,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3433",
       "obs": "",
       "total": 276.0,
       "itens": [
@@ -15472,6 +16513,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5759",
       "obs": "",
       "total": 575.28,
       "itens": [
@@ -15498,6 +16541,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA: 14/07 - 08HRS AS 16HRS",
       "total": 1376.4,
       "itens": [
@@ -15552,6 +16597,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3759",
       "obs": "",
       "total": 4078.8,
       "itens": [
@@ -15599,6 +16646,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 517.68,
       "itens": [
@@ -15625,6 +16674,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 539.28,
       "itens": [
@@ -15658,6 +16709,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :902",
       "obs": "",
       "total": 359.52,
       "itens": [
@@ -15691,6 +16744,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :129",
       "obs": "",
       "total": 359.4,
       "itens": [
@@ -15717,6 +16772,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :1526",
       "obs": "",
       "total": 373.5,
       "itens": [
@@ -15757,6 +16814,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3063",
       "obs": "",
       "total": 326.1,
       "itens": [
@@ -15790,6 +16849,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :1526",
       "obs": "",
       "total": 308.5,
       "itens": [
@@ -15830,6 +16891,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5387",
       "obs": "",
       "total": 1459.66,
       "itens": [
@@ -15891,6 +16954,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4178",
       "obs": "",
       "total": 327.8,
       "itens": [
@@ -15924,6 +16989,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :857",
       "obs": "",
       "total": 663.1,
       "itens": [
@@ -15964,6 +17031,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7081",
       "obs": "",
       "total": 333.6,
       "itens": [
@@ -15990,6 +17059,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6012",
       "obs": "",
       "total": 513.32,
       "itens": [
@@ -16072,6 +17143,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :997",
       "obs": "",
       "total": 261.31,
       "itens": [
@@ -16105,6 +17178,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7081",
       "obs": "",
       "total": 243.85,
       "itens": [
@@ -16152,6 +17227,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 2144.41,
       "itens": [
@@ -16227,6 +17304,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :447",
       "obs": "data entrega: 13/07",
       "total": 342.8,
       "itens": [
@@ -16267,6 +17346,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA DIA 14/07",
       "total": 634.68,
       "itens": [
@@ -16307,6 +17388,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA: 14/07",
       "total": 510.48,
       "itens": [
@@ -16347,6 +17430,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGA: 14/07",
       "total": 311.88,
       "itens": [
@@ -16380,6 +17465,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA: 14/07",
       "total": 371.64,
       "itens": [
@@ -16420,6 +17507,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 39346.56,
       "itens": [
@@ -16460,6 +17549,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3423.9,
       "itens": [
@@ -16549,6 +17640,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 3255.8,
       "itens": [
@@ -16575,6 +17668,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 715.8,
       "itens": [
@@ -16601,7 +17696,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "461000116",
@@ -16615,6 +17710,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 820.53,
       "itens": [
@@ -16648,6 +17745,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1291.2,
       "itens": [
@@ -16674,6 +17773,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1198.8,
       "itens": [
@@ -16686,7 +17787,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "461000120",
@@ -16700,6 +17801,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 958.4,
       "itens": [
@@ -16733,6 +17836,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 399.5,
       "itens": [
@@ -16766,6 +17871,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1160.7,
       "itens": [
@@ -16778,7 +17885,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000141",
@@ -16792,6 +17899,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 4247.57,
       "itens": [
@@ -16909,7 +18018,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000142",
@@ -16923,6 +18032,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1840.5,
       "itens": [
@@ -16942,7 +18053,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "371000299",
@@ -16956,6 +18067,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1406.4,
       "itens": [
@@ -16989,6 +18102,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1012.05,
       "itens": [
@@ -17015,7 +18130,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000153",
@@ -17029,6 +18144,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1402.8,
       "itens": [
@@ -17041,7 +18158,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000154",
@@ -17055,6 +18172,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 755.16,
       "itens": [
@@ -17074,7 +18193,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000155",
@@ -17088,6 +18207,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 647.28,
       "itens": [
@@ -17107,7 +18228,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000156",
@@ -17121,6 +18242,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 539.4,
       "itens": [
@@ -17154,6 +18277,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1078.8,
       "itens": [
@@ -17187,6 +18312,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 647.28,
       "itens": [
@@ -17220,6 +18347,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 863.04,
       "itens": [
@@ -17253,6 +18382,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 539.4,
       "itens": [
@@ -17279,6 +18410,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 539.4,
       "itens": [
@@ -17305,6 +18438,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1440.48,
       "itens": [
@@ -17338,6 +18473,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1614.0,
       "itens": [
@@ -17364,6 +18501,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3228.0,
       "itens": [
@@ -17390,6 +18529,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 16366.8,
       "itens": [
@@ -17626,7 +18767,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000166",
@@ -17640,6 +18781,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2303.28,
       "itens": [
@@ -17680,6 +18823,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1987.3,
       "itens": [
@@ -17692,7 +18837,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "466000047",
@@ -17706,6 +18851,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2967.3,
       "itens": [
@@ -17739,7 +18886,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "466000048",
@@ -17753,6 +18900,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1810.5,
       "itens": [
@@ -17786,7 +18935,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "467000046",
@@ -17800,6 +18949,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2803.4,
       "itens": [
@@ -17861,6 +19012,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 5380.0,
       "itens": [
@@ -17887,6 +19040,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 52134.2,
       "itens": [
@@ -17962,6 +19117,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3228.0,
       "itens": [
@@ -17974,7 +19131,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "490000020",
@@ -17988,6 +19145,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3228.0,
       "itens": [
@@ -18000,7 +19159,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "493000029",
@@ -18014,6 +19173,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 647.28,
       "itens": [
@@ -18047,6 +19208,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 7884.0,
       "itens": [
@@ -18073,6 +19236,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1051.2,
       "itens": [
@@ -18099,6 +19264,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 23538.0,
       "itens": [
@@ -18118,7 +19285,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003012",
@@ -18132,6 +19299,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 6772.8,
       "itens": [
@@ -18200,6 +19369,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 47376.0,
       "itens": [
@@ -18219,7 +19390,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003014",
@@ -18233,6 +19404,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 4312.8,
       "itens": [
@@ -18259,6 +19432,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 12912.0,
       "itens": [
@@ -18285,6 +19460,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 19368.0,
       "itens": [
@@ -18311,6 +19488,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 12912.0,
       "itens": [
@@ -18323,7 +19502,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003021",
@@ -18337,6 +19516,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2348.4,
       "itens": [
@@ -18377,6 +19558,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 394.8,
       "itens": [
@@ -18389,7 +19572,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000191",
@@ -18403,6 +19586,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1114.1,
       "itens": [
@@ -18422,7 +19607,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000192",
@@ -18436,6 +19621,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 350.7,
       "itens": [
@@ -18448,7 +19635,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000193",
@@ -18462,6 +19649,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 525.6,
       "itens": [
@@ -18474,7 +19663,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000194",
@@ -18488,6 +19677,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1018.8,
       "itens": [
@@ -18507,7 +19698,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000195",
@@ -18521,6 +19712,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1198.8,
       "itens": [
@@ -18533,7 +19726,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000196",
@@ -18547,6 +19740,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 394.8,
       "itens": [
@@ -18559,7 +19754,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000053",
@@ -18573,6 +19768,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 382.8,
       "itens": [
@@ -18585,7 +19782,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000073",
@@ -18599,6 +19796,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3006.16,
       "itens": [
@@ -18688,7 +19887,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "487000022",
@@ -18702,6 +19901,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 952.2,
       "itens": [
@@ -18714,7 +19915,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "487000023",
@@ -18728,6 +19929,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 952.2,
       "itens": [
@@ -18740,7 +19943,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "489000037",
@@ -18754,6 +19957,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3481.8,
       "itens": [
@@ -18787,7 +19992,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "327009405",
@@ -18801,6 +20006,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "cliente so recebe apos 9:30 horas",
       "total": 2792.5,
       "itens": [
@@ -18869,6 +20076,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "tel. 31 9 99753553. Lucas.",
       "total": 302.28,
       "itens": [
@@ -18930,6 +20139,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :11",
       "obs": "",
       "total": 2425.6,
       "itens": [
@@ -18963,6 +20174,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1011.46,
       "itens": [
@@ -18996,6 +20209,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "cliente so recebe apos 17:00 horas",
       "total": 692.6,
       "itens": [
@@ -19029,6 +20244,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 538.8,
       "itens": [
@@ -19055,6 +20272,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PRECO ABAIXO DO MINIMO PERMITIDO",
       "obs": "cliente recebe apos 10:00 horas",
       "total": 798.24,
       "itens": [
@@ -19088,6 +20307,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "cliente so recebe apos 13:00 horas",
       "total": 1329.8,
       "itens": [
@@ -19114,6 +20335,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "cliente so recebe ate 15:00 horas",
       "total": 2394.0,
       "itens": [
@@ -19140,6 +20363,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :463",
       "obs": "",
       "total": 563.0,
       "itens": [
@@ -19187,6 +20412,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :997",
       "obs": "cliente recebe apos 16:00 horas",
       "total": 1149.52,
       "itens": [
@@ -19237,32 +20464,6 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
-      "numped": "362000155",
-      "numnota": "124841",
-      "data": "13/07/2026",
-      "data_ord": "2026-07-13",
-      "nome": "BRUNA CASTRO MELLO - OFF TRADE",
-      "cliente": "EMPORIO LOS MANOS LTDA",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "obs": "Favor entregar o pedido no",
-      "total": 495.6,
-      "itens": [
-        {
-          "desc": "WHISKY JACK DANIELS APPLE 1L",
-          "qt": 4,
-          "val": 495.6,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
       "numped": "354000611",
       "numnota": "124843",
       "data": "13/07/2026",
@@ -19274,6 +20475,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :674",
       "obs": "",
       "total": 463.0,
       "itens": [
@@ -19314,6 +20517,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :674",
       "obs": "",
       "total": 670.8,
       "itens": [
@@ -19340,6 +20545,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 394.8,
       "itens": [
@@ -19373,6 +20580,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :40",
       "obs": "pedido:00003739",
       "total": 783.2,
       "itens": [
@@ -19427,6 +20636,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "pedido:00000645",
       "total": 423.2,
       "itens": [
@@ -19467,6 +20678,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :40",
       "obs": "pedido 00002112",
       "total": 577.3,
       "itens": [
@@ -19514,6 +20727,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4236",
       "obs": "",
       "total": 389.4,
       "itens": [
@@ -19521,6 +20736,34 @@ const PEDIDOS_DATA = {
           "desc": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
           "qt": 6,
           "val": 389.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "362000155",
+      "numnota": "124841",
+      "data": "13/07/2026",
+      "data_ord": "2026-07-13",
+      "nome": "BRUNA CASTRO MELLO - OFF TRADE",
+      "cliente": "EMPORIO LOS MANOS LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3170",
+      "obs": "Favor entregar o pedido no",
+      "total": 495.6,
+      "itens": [
+        {
+          "desc": "WHISKY JACK DANIELS APPLE 1L",
+          "qt": 4,
+          "val": 495.6,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -19540,6 +20783,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3198",
       "obs": "",
       "total": 799.0,
       "itens": [
@@ -19566,6 +20811,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :644",
       "obs": "",
       "total": 353.4,
       "itens": [
@@ -19599,6 +20846,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 898.0,
       "itens": [
@@ -19625,6 +20874,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1085.2,
       "itens": [
@@ -19672,6 +20923,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 404.7,
       "itens": [
@@ -19705,6 +20958,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :266",
       "obs": "",
       "total": 267.4,
       "itens": [
@@ -19745,6 +21000,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "entrega de 10:00as16:00",
       "total": 907.2,
       "itens": [
@@ -19771,6 +21028,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :246",
       "obs": "Ceasa",
       "total": 6586.8,
       "itens": [
@@ -19797,6 +21056,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3764",
       "obs": "CD",
       "total": 25869.6,
       "itens": [
@@ -19837,6 +21098,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4252",
       "obs": "lanchonete dentro do Mater Dei",
       "total": 383.52,
       "itens": [
@@ -19870,6 +21133,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "DESCARGA DE 30,00 POR PALLET",
       "total": 7420.47,
       "itens": [
@@ -19959,6 +21224,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "DESCARGA 30,00 POR PALLET",
       "total": 4365.18,
       "itens": [
@@ -20048,6 +21315,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 7752.68,
       "itens": [
@@ -20151,6 +21420,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "DESCARGA 35,00 POR PALLET",
       "total": 4455.1,
       "itens": [
@@ -20233,6 +21504,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "DESCARGA DE 30,00 POR PALLET",
       "total": 2299.8,
       "itens": [
@@ -20273,6 +21546,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "DESCARGA DE 30,00 POR PALLET",
       "total": 1907.4,
       "itens": [
@@ -20306,6 +21581,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "DESCARGA DE 30,00 POR PALLET",
       "total": 1907.4,
       "itens": [
@@ -20339,6 +21616,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 588.6,
       "itens": [
@@ -20365,6 +21644,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2668.56,
       "itens": [
@@ -20454,6 +21735,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "CARGA DESCARGA 60,00 PLT",
       "total": 3195.6,
       "itens": [
@@ -20550,6 +21833,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 7555.8,
       "itens": [
@@ -20688,6 +21973,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 341.3,
       "itens": [
@@ -20721,6 +22008,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "DESCARGA 60,00 POR PALLET",
       "total": 1653.6,
       "itens": [
@@ -20782,6 +22071,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "DESCARGA 60,00 POR PALLET",
       "total": 1653.6,
       "itens": [
@@ -20843,6 +22134,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "DESCARGA 60,00 POR PALLET",
       "total": 2203.2,
       "itens": [
@@ -20918,6 +22211,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "DESCARGA 60,00 POR PALLET",
       "total": 1724.4,
       "itens": [
@@ -20986,6 +22281,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "DESCARGA  PLT 60,00",
       "total": 4214.8,
       "itens": [
@@ -21096,6 +22393,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1145.4,
       "itens": [
@@ -21157,6 +22456,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 250.0,
       "itens": [
@@ -21183,6 +22484,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 346.8,
       "itens": [
@@ -21209,6 +22512,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2694.48,
       "itens": [
@@ -21263,6 +22568,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 5137.32,
       "itens": [
@@ -21387,6 +22694,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 274.8,
       "itens": [
@@ -21413,6 +22722,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 346.8,
       "itens": [
@@ -21439,6 +22750,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2965",
       "obs": "entregar ate as 14:00hs",
       "total": 1655.76,
       "itens": [
@@ -21507,6 +22820,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3109",
       "obs": "entregar ate as 14:00hs",
       "total": 700.56,
       "itens": [
@@ -21554,6 +22869,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7081",
       "obs": "entregar ate as 14:00hs",
       "total": 276.0,
       "itens": [
@@ -21580,6 +22897,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5392",
       "obs": "entregar ate as 14:00hs",
       "total": 191.04,
       "itens": [
@@ -21613,6 +22932,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2965",
       "obs": "entregar ate as 14:00hs",
       "total": 658.08,
       "itens": [
@@ -21667,6 +22988,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5392",
       "obs": "entregar ate as 14:00hs",
       "total": 477.6,
       "itens": [
@@ -21714,6 +23037,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2988.4,
       "itens": [
@@ -21768,7 +23093,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000072",
@@ -21782,6 +23107,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 24379.7,
       "itens": [
@@ -21976,7 +23303,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "241000522",
@@ -21990,6 +23317,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :64",
       "obs": "",
       "total": 1734.0,
       "itens": [
@@ -22016,6 +23345,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2613",
       "obs": "Data entrega: 16/07/26",
       "total": 994.64,
       "itens": [
@@ -22105,6 +23436,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 29.16,
       "itens": [
@@ -22131,6 +23464,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 29.16,
       "itens": [
@@ -22157,6 +23492,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 29.16,
       "itens": [
@@ -22183,6 +23520,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 274.7,
       "itens": [
@@ -22216,6 +23555,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 384.98,
       "itens": [
@@ -22249,6 +23590,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 387.1,
       "itens": [
@@ -22289,6 +23632,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6917",
       "obs": "entregar no dia 13/07 com pagamento de descarga no valor de R$60,00 por pal",
       "total": 3059.34,
       "itens": [
@@ -22329,6 +23674,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :119",
       "obs": "",
       "total": 803.0,
       "itens": [
@@ -22425,6 +23772,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :902",
       "obs": "",
       "total": 3499.2,
       "itens": [
@@ -22458,6 +23807,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 29.16,
       "itens": [
@@ -22484,6 +23835,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 29.16,
       "itens": [
@@ -22510,6 +23863,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 29.16,
       "itens": [
@@ -22536,6 +23891,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 29.16,
       "itens": [
@@ -22562,6 +23919,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 29.16,
       "itens": [
@@ -22588,6 +23947,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 29.16,
       "itens": [
@@ -22614,6 +23975,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 29.16,
       "itens": [
@@ -22640,6 +24003,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 29.16,
       "itens": [
@@ -22666,6 +24031,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 29.16,
       "itens": [
@@ -22692,6 +24059,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 29.16,
       "itens": [
@@ -22718,6 +24087,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2629",
       "obs": "entrega 13/07 - horario comercial",
       "total": 2418.0,
       "itens": [
@@ -22744,6 +24115,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :37",
       "obs": "cliente fica logo no inicio da rua do valao",
       "total": 280.72,
       "itens": [
@@ -22791,6 +24164,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6565",
       "obs": "",
       "total": 728.4,
       "itens": [
@@ -22824,6 +24199,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 585.5,
       "itens": [
@@ -22857,6 +24234,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 539.4,
       "itens": [
@@ -22883,6 +24262,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :187",
       "obs": "",
       "total": 4728.4,
       "itens": [
@@ -23007,6 +24388,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3764",
       "obs": "",
       "total": 1648.2,
       "itens": [
@@ -23047,6 +24430,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 408.02,
       "itens": [
@@ -23080,6 +24465,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 345.12,
       "itens": [
@@ -23113,6 +24500,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :1804",
       "obs": "",
       "total": 291.6,
       "itens": [
@@ -23160,6 +24549,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 1338.72,
       "itens": [
@@ -23200,6 +24591,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7207",
       "obs": "",
       "total": 267.68,
       "itens": [
@@ -23233,6 +24626,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 514.02,
       "itens": [
@@ -23266,6 +24661,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 514.02,
       "itens": [
@@ -23299,6 +24696,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3643",
       "obs": "",
       "total": 2728.56,
       "itens": [
@@ -23388,6 +24787,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :997",
       "obs": "",
       "total": 572.7,
       "itens": [
@@ -23421,6 +24822,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 379.29,
       "itens": [
@@ -23482,6 +24885,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2710",
       "obs": "",
       "total": 252.0,
       "itens": [
@@ -23508,6 +24913,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :381",
       "obs": "",
       "total": 341.36,
       "itens": [
@@ -23548,6 +24955,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :902",
       "obs": "data entrega: 11/07",
       "total": 2670.0,
       "itens": [
@@ -23595,6 +25004,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3742",
       "obs": "data entrega: 11/07",
       "total": 594.1,
       "itens": [
@@ -23635,6 +25046,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 4687.78,
       "itens": [
@@ -23696,6 +25109,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 526.4,
       "itens": [
@@ -23722,6 +25137,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2329.41,
       "itens": [
@@ -23776,6 +25193,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 11202.0,
       "itens": [
@@ -23809,6 +25228,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1567.03,
       "itens": [
@@ -23835,7 +25256,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "464000022",
@@ -23849,6 +25270,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 735.94,
       "itens": [
@@ -23910,6 +25333,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 330.36,
       "itens": [
@@ -23929,7 +25354,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "371000289",
@@ -23943,6 +25368,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 281.88,
       "itens": [
@@ -23976,6 +25403,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 281.88,
       "itens": [
@@ -24009,6 +25438,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 281.88,
       "itens": [
@@ -24042,6 +25473,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 281.88,
       "itens": [
@@ -24075,6 +25508,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 281.88,
       "itens": [
@@ -24108,6 +25543,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 5117.32,
       "itens": [
@@ -24155,6 +25592,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 9353.4,
       "itens": [
@@ -24216,6 +25655,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 281.88,
       "itens": [
@@ -24249,6 +25690,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 281.88,
       "itens": [
@@ -24282,6 +25725,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 281.88,
       "itens": [
@@ -24315,6 +25760,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 9108.0,
       "itens": [
@@ -24341,6 +25788,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 5854.7,
       "itens": [
@@ -24360,7 +25809,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000146",
@@ -24374,6 +25823,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 826.2,
       "itens": [
@@ -24400,6 +25851,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 753.2,
       "itens": [
@@ -24426,6 +25879,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 11853.7,
       "itens": [
@@ -24438,7 +25893,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "467000045",
@@ -24452,6 +25907,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1198.8,
       "itens": [
@@ -24478,6 +25935,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 337.73,
       "itens": [
@@ -24518,7 +25977,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "492000002",
@@ -24532,6 +25991,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 341.66,
       "itens": [
@@ -24565,6 +26026,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 490.4,
       "itens": [
@@ -24619,6 +26082,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 909.48,
       "itens": [
@@ -24652,7 +26117,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "504000004",
@@ -24666,6 +26131,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1673.68,
       "itens": [
@@ -24727,7 +26194,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003003",
@@ -24741,6 +26208,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3808.8,
       "itens": [
@@ -24767,6 +26236,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 8673.6,
       "itens": [
@@ -24800,6 +26271,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1403.64,
       "itens": [
@@ -24819,7 +26292,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "469000047",
@@ -24833,6 +26306,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3320.44,
       "itens": [
@@ -24887,7 +26362,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "471000038",
@@ -24901,6 +26376,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1312.26,
       "itens": [
@@ -24948,6 +26425,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 9555.0,
       "itens": [
@@ -24974,7 +26453,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "474000039",
@@ -24988,6 +26467,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 570.13,
       "itens": [
@@ -25007,7 +26488,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "474000040",
@@ -25021,6 +26502,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 322.18,
       "itens": [
@@ -25033,7 +26516,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "474000041",
@@ -25047,6 +26530,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 164.7,
       "itens": [
@@ -25073,7 +26558,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000180",
@@ -25087,6 +26572,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1198.8,
       "itens": [
@@ -25099,7 +26586,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "476000181",
@@ -25113,6 +26600,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1148.4,
       "itens": [
@@ -25125,7 +26614,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "476000182",
@@ -25139,6 +26628,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 634.8,
       "itens": [
@@ -25151,7 +26642,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "476000186",
@@ -25165,6 +26656,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2296.8,
       "itens": [
@@ -25191,6 +26684,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 916.2,
       "itens": [
@@ -25210,7 +26705,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000188",
@@ -25224,6 +26719,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1020.8,
       "itens": [
@@ -25278,6 +26775,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 679.3,
       "itens": [
@@ -25304,7 +26803,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "486000060",
@@ -25318,6 +26817,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 299.7,
       "itens": [
@@ -25344,7 +26845,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "486000061",
@@ -25358,6 +26859,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3596.4,
       "itens": [
@@ -25384,7 +26887,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "486000063",
@@ -25398,6 +26901,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 799.2,
       "itens": [
@@ -25424,7 +26929,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "486000064",
@@ -25438,6 +26943,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 799.2,
       "itens": [
@@ -25464,7 +26971,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000065",
@@ -25478,6 +26985,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1609.7,
       "itens": [
@@ -25560,7 +27069,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000067",
@@ -25574,6 +27083,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 998.24,
       "itens": [
@@ -25628,7 +27139,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000068",
@@ -25642,6 +27153,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 479.4,
       "itens": [
@@ -25654,7 +27167,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "489000030",
@@ -25668,6 +27181,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3236.4,
       "itens": [
@@ -25687,7 +27202,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "489000031",
@@ -25701,6 +27216,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3931.2,
       "itens": [
@@ -25734,7 +27251,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "489000032",
@@ -25748,6 +27265,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 517.5,
       "itens": [
@@ -25774,6 +27293,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 5136.3,
       "itens": [
@@ -25800,7 +27321,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "489000034",
@@ -25814,6 +27335,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 4968.0,
       "itens": [
@@ -25826,7 +27349,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "327009397",
@@ -25840,6 +27363,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :129",
       "obs": "Retirar no galpao hoje vendedor",
       "total": 629.4,
       "itens": [
@@ -25873,6 +27398,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "Retirar no galpao hoje vendedor",
       "total": 109.8,
       "itens": [
@@ -25899,6 +27426,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "retirar no galpao hoje vendedor",
       "total": 998.0,
       "itens": [
@@ -25925,6 +27454,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "Restaurante topo do mundo",
       "total": 1415.4,
       "itens": [
@@ -25958,6 +27489,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "recebe de 8 ate as 16:00 horas",
       "total": 779.7,
       "itens": [
@@ -25984,6 +27517,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 559.6,
       "itens": [
@@ -26010,6 +27545,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "cliente recebe apos 10: horas",
       "total": 898.8,
       "itens": [
@@ -26043,6 +27580,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "Favor fazer a entrega no seguinte endereco",
       "total": 1678.8,
       "itens": [
@@ -26069,6 +27608,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PRECO ABAIXO DO MINIMO PERMITIDO",
       "obs": "",
       "total": 409.7,
       "itens": [
@@ -26102,6 +27643,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3903",
       "obs": "",
       "total": 184.7,
       "itens": [
@@ -26142,6 +27685,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3903",
       "obs": "",
       "total": 129.84,
       "itens": [
@@ -26168,6 +27713,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "entrega a partir das 9:00",
       "total": 319.2,
       "itens": [
@@ -26194,6 +27741,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4440",
       "obs": "",
       "total": 7600.2,
       "itens": [
@@ -26234,6 +27783,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3502.21,
       "itens": [
@@ -26302,6 +27853,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGAR 10/07",
       "total": 3948.0,
       "itens": [
@@ -26328,6 +27881,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1185.28,
       "itens": [
@@ -26375,6 +27930,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "Data entrega: 16/07/26",
       "total": 548.7,
       "itens": [
@@ -26408,6 +27965,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6565",
       "obs": "Data entrega: 16/07/26",
       "total": 1434.0,
       "itens": [
@@ -26434,6 +27993,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :902",
       "obs": "entregar no dia 10/07 nao tem pagamento de descarga",
       "total": 575.28,
       "itens": [
@@ -26460,6 +28021,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7207",
       "obs": "entregar no dia 13/07 com pagamento de descarga no valor de R$60,00 por pal",
       "total": 3497.5,
       "itens": [
@@ -26563,6 +28126,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "entregar no dia 10/07 nao paga descarga",
       "total": 7196.4,
       "itens": [
@@ -26603,6 +28168,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3558.0,
       "itens": [
@@ -26657,6 +28224,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5987",
       "obs": "entregar no dia 13/07 com pagamento de descarga no valor de R$60,00 por pal",
       "total": 1199.88,
       "itens": [
@@ -26725,6 +28294,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7095",
       "obs": "entregar no dia 13/07 com pagamento de descarga no valor R$60,00",
       "total": 850.8,
       "itens": [
@@ -26758,6 +28329,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7095",
       "obs": "entregar no dia 13/07 com pagamento de descarga no valor R$60,00 por pallet",
       "total": 1417.62,
       "itens": [
@@ -26805,6 +28378,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :119",
       "obs": "",
       "total": 211.66,
       "itens": [
@@ -26852,6 +28427,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5580",
       "obs": "",
       "total": 199.5,
       "itens": [
@@ -26878,6 +28455,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7064",
       "obs": "",
       "total": 199.8,
       "itens": [
@@ -26904,6 +28483,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :71",
       "obs": "",
       "total": 453.6,
       "itens": [
@@ -26937,6 +28518,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 262.8,
       "itens": [
@@ -26963,6 +28546,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :378",
       "obs": "entrega agendada para o dia 01/07",
       "total": 437.34,
       "itens": [
@@ -27024,6 +28609,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :857",
       "obs": "",
       "total": 1213.8,
       "itens": [
@@ -27057,6 +28644,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5405",
       "obs": "",
       "total": 1218.0,
       "itens": [
@@ -27097,6 +28686,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5405",
       "obs": "",
       "total": 178.8,
       "itens": [
@@ -27123,6 +28714,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :296",
       "obs": "",
       "total": 279.8,
       "itens": [
@@ -27149,6 +28742,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 403.96,
       "itens": [
@@ -27189,6 +28784,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 318.89,
       "itens": [
@@ -27229,6 +28826,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 321.16,
       "itens": [
@@ -27276,6 +28875,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6254",
       "obs": "",
       "total": 695.6,
       "itens": [
@@ -27337,6 +28938,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6254",
       "obs": "",
       "total": 695.6,
       "itens": [
@@ -27398,6 +29001,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 443.0,
       "itens": [
@@ -27431,6 +29036,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 868.0,
       "itens": [
@@ -27457,6 +29064,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6566",
       "obs": "",
       "total": 399.8,
       "itens": [
@@ -27483,6 +29092,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2487.0,
       "itens": [
@@ -27530,6 +29141,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :644",
       "obs": "",
       "total": 507.7,
       "itens": [
@@ -27584,6 +29197,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2925",
       "obs": "",
       "total": 717.6,
       "itens": [
@@ -27631,6 +29246,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTRGA 10/07",
       "total": 921.6,
       "itens": [
@@ -27713,6 +29330,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :997",
       "obs": "",
       "total": 258.84,
       "itens": [
@@ -27767,6 +29386,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2799",
       "obs": "",
       "total": 2172.3,
       "itens": [
@@ -27814,6 +29435,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :237",
       "obs": "",
       "total": 1408.12,
       "itens": [
@@ -27861,6 +29484,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGA DIA 10/07  DE 10H AS 17H",
       "total": 725.4,
       "itens": [
@@ -27887,6 +29512,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 4496.7,
       "itens": [
@@ -28004,6 +29631,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 5629.37,
       "itens": [
@@ -28086,6 +29715,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 517.5,
       "itens": [
@@ -28098,7 +29729,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "460000103",
@@ -28112,6 +29743,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1536.51,
       "itens": [
@@ -28138,7 +29771,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "460000104",
@@ -28152,6 +29785,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1019.01,
       "itens": [
@@ -28171,7 +29806,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "460000105",
@@ -28185,6 +29820,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1221.0,
       "itens": [
@@ -28211,7 +29848,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "460000106",
@@ -28225,6 +29862,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1475.23,
       "itens": [
@@ -28244,7 +29883,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "460000107",
@@ -28258,6 +29897,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1019.01,
       "itens": [
@@ -28277,7 +29918,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000145",
@@ -28291,6 +29932,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 790.8,
       "itens": [
@@ -28317,6 +29960,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1258.8,
       "itens": [
@@ -28343,6 +29988,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "AGENDAMENTO",
       "total": 7042.8,
       "itens": [
@@ -28383,6 +30030,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :119",
       "obs": "cliente recebe ate as 15:00 horas",
       "total": 768.7,
       "itens": [
@@ -28416,6 +30065,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 384.58,
       "itens": [
@@ -28463,6 +30114,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "cliente so recebe apos 16:00 horas",
       "total": 658.8,
       "itens": [
@@ -28489,6 +30142,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "cliente recebe apos 9:00 horas",
       "total": 738.4,
       "itens": [
@@ -28529,6 +30184,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :313",
       "obs": "cliente so recebe apos 13:00 horas",
       "total": 3928.66,
       "itens": [
@@ -28583,6 +30240,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :424",
       "obs": "",
       "total": 899.4,
       "itens": [
@@ -28609,6 +30268,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :296",
       "obs": "",
       "total": 801.38,
       "itens": [
@@ -28663,6 +30324,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :129",
       "obs": "",
       "total": 898.8,
       "itens": [
@@ -28689,6 +30352,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3585",
       "obs": "cliente recebe apos 12:00 horas",
       "total": 1776.96,
       "itens": [
@@ -28729,6 +30394,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :997",
       "obs": "",
       "total": 406.96,
       "itens": [
@@ -28769,6 +30436,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :902",
       "obs": "cliente so recebe apos 16:00 horas",
       "total": 767.04,
       "itens": [
@@ -28816,6 +30485,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3428",
       "obs": "",
       "total": 438.48,
       "itens": [
@@ -28823,98 +30494,6 @@ const PEDIDOS_DATA = {
           "desc": "CERVEJA AMSTEL RETORNAVEL 24X600ML",
           "qt": 3,
           "val": 438.48,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
-      "numped": "362000148",
-      "numnota": "124618",
-      "data": "09/07/2026",
-      "data_ord": "2026-07-09",
-      "nome": "BRUNA CASTRO MELLO - OFF TRADE",
-      "cliente": "36.947.510 JOAO PAULO DE FREITAS GODINHO",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "obs": "",
-      "total": 809.7,
-      "itens": [
-        {
-          "desc": "WHISKY WALKER RED LABEL 1L",
-          "qt": 7,
-          "val": 510.3,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "APERITIVO CAMPARI 998 ML",
-          "qt": 6,
-          "val": 299.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
-      "numped": "362000151",
-      "numnota": "124703",
-      "data": "09/07/2026",
-      "data_ord": "2026-07-09",
-      "nome": "BRUNA CASTRO MELLO - OFF TRADE",
-      "cliente": "COMERCIAL PRISMA LTDA",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "obs": "",
-      "total": 504.5,
-      "itens": [
-        {
-          "desc": "BEEFEATER PINK 700ML",
-          "qt": 3,
-          "val": 224.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY JACK DANIELS BLACKBERRY 1L",
-          "qt": 2,
-          "val": 279.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
-      "numped": "362000152",
-      "numnota": "124707",
-      "data": "09/07/2026",
-      "data_ord": "2026-07-09",
-      "nome": "BRUNA CASTRO MELLO - OFF TRADE",
-      "cliente": "CHAMA DISTRIBUIDORA LTDA",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "obs": "",
-      "total": 839.4,
-      "itens": [
-        {
-          "desc": "WHISKY JACK DANIELS BLACKBERRY 1L",
-          "qt": 6,
-          "val": 839.4,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -28934,6 +30513,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :40",
       "obs": "pedido:00004945",
       "total": 337.6,
       "itens": [
@@ -28974,6 +30555,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :857",
       "obs": "pedido:00004807",
       "total": 487.3,
       "itens": [
@@ -29014,6 +30597,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :40",
       "obs": "pedido:00004512",
       "total": 509.6,
       "itens": [
@@ -29054,6 +30639,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :674",
       "obs": "pedido:0495396",
       "total": 6282.6,
       "itens": [
@@ -29094,6 +30681,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :738",
       "obs": "",
       "total": 779.4,
       "itens": [
@@ -29127,6 +30716,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :187",
       "obs": "",
       "total": 1558.8,
       "itens": [
@@ -29153,6 +30744,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :315",
       "obs": "pedido:0496409",
       "total": 41950.32,
       "itens": [
@@ -29266,6 +30859,104 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
+      "numped": "362000148",
+      "numnota": "124618",
+      "data": "09/07/2026",
+      "data_ord": "2026-07-09",
+      "nome": "BRUNA CASTRO MELLO - OFF TRADE",
+      "cliente": "36.947.510 JOAO PAULO DE FREITAS GODINHO",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3903",
+      "obs": "",
+      "total": 809.7,
+      "itens": [
+        {
+          "desc": "WHISKY WALKER RED LABEL 1L",
+          "qt": 7,
+          "val": 510.3,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "APERITIVO CAMPARI 998 ML",
+          "qt": 6,
+          "val": 299.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "362000151",
+      "numnota": "124703",
+      "data": "09/07/2026",
+      "data_ord": "2026-07-09",
+      "nome": "BRUNA CASTRO MELLO - OFF TRADE",
+      "cliente": "COMERCIAL PRISMA LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2320",
+      "obs": "",
+      "total": 504.5,
+      "itens": [
+        {
+          "desc": "BEEFEATER PINK 700ML",
+          "qt": 3,
+          "val": 224.7,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY JACK DANIELS BLACKBERRY 1L",
+          "qt": 2,
+          "val": 279.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "362000152",
+      "numnota": "124707",
+      "data": "09/07/2026",
+      "data_ord": "2026-07-09",
+      "nome": "BRUNA CASTRO MELLO - OFF TRADE",
+      "cliente": "CHAMA DISTRIBUIDORA LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
+      "obs": "",
+      "total": 839.4,
+      "itens": [
+        {
+          "desc": "WHISKY JACK DANIELS BLACKBERRY 1L",
+          "qt": 6,
+          "val": 839.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
       "numped": "344000472",
       "numnota": "124587",
       "data": "09/07/2026",
@@ -29277,6 +30968,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 1184.64,
       "itens": [
@@ -29303,6 +30996,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :313",
       "obs": "",
       "total": 441.3,
       "itens": [
@@ -29343,6 +31038,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 429.0,
       "itens": [
@@ -29369,6 +31066,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :1804",
       "obs": "CD",
       "total": 15580.8,
       "itens": [
@@ -29402,6 +31101,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4236",
       "obs": "CD",
       "total": 3894.0,
       "itens": [
@@ -29428,6 +31129,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2684",
       "obs": "loja",
       "total": 2077.08,
       "itens": [
@@ -29454,6 +31157,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :64",
       "obs": "",
       "total": 3468.0,
       "itens": [
@@ -29480,6 +31185,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :64",
       "obs": "",
       "total": 3468.0,
       "itens": [
@@ -29506,6 +31213,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "DAS 08 AS 15:00H",
       "total": 6303.91,
       "itens": [
@@ -29609,6 +31318,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "CARGA E DESCARGA R$ 60,00 POR PALETE",
       "total": 10206.0,
       "itens": [
@@ -29656,6 +31367,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2613",
       "obs": "Data entrega: 09/07/26",
       "total": 448.5,
       "itens": [
@@ -29710,6 +31423,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :378",
       "obs": "Data entrega: 09/07/26",
       "total": 298.26,
       "itens": [
@@ -29736,6 +31451,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 257.88,
       "itens": [
@@ -29762,6 +31479,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5988",
       "obs": "",
       "total": 1012.22,
       "itens": [
@@ -29844,6 +31563,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "CARGA E DESCARGA R$ 60,00 POR PALETE",
       "total": 608.4,
       "itens": [
@@ -29870,6 +31591,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "CARGA E DESCARGA R$ 60,00 POR PALETE",
       "total": 490.8,
       "itens": [
@@ -29896,6 +31619,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "Cliente so recebe mercadorias com horario agendado.",
       "total": 5736.72,
       "itens": [
@@ -29936,6 +31661,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7017",
       "obs": "",
       "total": 326.4,
       "itens": [
@@ -29962,6 +31689,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6887",
       "obs": "",
       "total": 1752.1,
       "itens": [
@@ -30016,6 +31745,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6565",
       "obs": "",
       "total": 828.6,
       "itens": [
@@ -30056,6 +31787,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "O Cliente esta bloqueado.",
       "obs": "",
       "total": 417.12,
       "itens": [
@@ -30096,6 +31829,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 305.4,
       "itens": [
@@ -30122,6 +31857,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :64",
       "obs": "",
       "total": 9813.0,
       "itens": [
@@ -30211,6 +31948,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2710",
       "obs": "",
       "total": 4932.68,
       "itens": [
@@ -30293,6 +32032,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :315",
       "obs": "",
       "total": 2291.28,
       "itens": [
@@ -30326,6 +32067,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :857",
       "obs": "",
       "total": 1784.76,
       "itens": [
@@ -30359,6 +32102,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :902",
       "obs": "",
       "total": 517.68,
       "itens": [
@@ -30406,6 +32151,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :902",
       "obs": "",
       "total": 345.12,
       "itens": [
@@ -30439,6 +32186,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2799",
       "obs": "",
       "total": 463.06,
       "itens": [
@@ -30486,6 +32235,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2848",
       "obs": "",
       "total": 727.38,
       "itens": [
@@ -30533,6 +32284,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1284.0,
       "itens": [
@@ -30566,6 +32319,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2710",
       "obs": "",
       "total": 1119.0,
       "itens": [
@@ -30599,6 +32354,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2710",
       "obs": "",
       "total": 12380.0,
       "itens": [
@@ -30625,6 +32382,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 938.4,
       "itens": [
@@ -30665,6 +32424,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2089",
       "obs": "",
       "total": 250.6,
       "itens": [
@@ -30691,6 +32452,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :857",
       "obs": "",
       "total": 1523.02,
       "itens": [
@@ -30766,6 +32529,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :857",
       "obs": "",
       "total": 312.5,
       "itens": [
@@ -30813,6 +32578,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 270.88,
       "itens": [
@@ -30846,6 +32613,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 315.3,
       "itens": [
@@ -30879,6 +32648,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 4911.36,
       "itens": [
@@ -30975,6 +32746,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5407",
       "obs": "",
       "total": 357.6,
       "itens": [
@@ -31008,6 +32781,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :997",
       "obs": "",
       "total": 274.46,
       "itens": [
@@ -31055,6 +32830,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 573.26,
       "itens": [
@@ -31102,6 +32879,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 466.8,
       "itens": [
@@ -31135,6 +32914,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :463",
       "obs": "data entrega: 09/07",
       "total": 575.06,
       "itens": [
@@ -31175,6 +32956,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :66",
       "obs": "data entrega: 09/07",
       "total": 1087.7,
       "itens": [
@@ -31271,6 +33054,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "PEDIDO - 10062286",
       "total": 17038.8,
       "itens": [
@@ -31297,6 +33082,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "HORARIO 09:00H AS 17:00H",
       "total": 4537.6,
       "itens": [
@@ -31337,6 +33124,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "HORARIO: 08 :00 AS 16:00H",
       "total": 24019.2,
       "itens": [
@@ -31468,6 +33257,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 629.4,
       "itens": [
@@ -31480,7 +33271,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000131",
@@ -31494,6 +33285,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 6858.37,
       "itens": [
@@ -31597,7 +33390,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "425000132",
@@ -31611,6 +33404,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 6316.82,
       "itens": [
@@ -31735,7 +33530,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000133",
@@ -31749,6 +33544,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 4708.57,
       "itens": [
@@ -31859,7 +33656,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000134",
@@ -31873,6 +33670,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 4610.82,
       "itens": [
@@ -31969,7 +33768,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "425000135",
@@ -31983,6 +33782,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 4480.19,
       "itens": [
@@ -32086,7 +33887,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "425000136",
@@ -32100,6 +33901,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 6674.09,
       "itens": [
@@ -32238,7 +34041,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "371000288",
@@ -32252,6 +34055,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 8160.0,
       "itens": [
@@ -32278,6 +34083,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 371.8,
       "itens": [
@@ -32297,7 +34104,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000177",
@@ -32311,6 +34118,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 5281.2,
       "itens": [
@@ -32358,7 +34167,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000364",
@@ -32372,6 +34181,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 7014.0,
       "itens": [
@@ -32398,6 +34209,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 7014.0,
       "itens": [
@@ -32424,6 +34237,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 599.4,
       "itens": [
@@ -32450,6 +34265,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2397.6,
       "itens": [
@@ -32476,6 +34293,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 4042.2,
       "itens": [
@@ -32509,6 +34328,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 4779.0,
       "itens": [
@@ -32528,7 +34349,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000143",
@@ -32542,6 +34363,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 543.9,
       "itens": [
@@ -32568,6 +34391,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1047.9,
       "itens": [
@@ -32601,6 +34426,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 299.3,
       "itens": [
@@ -32620,7 +34447,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "467000044",
@@ -32634,6 +34461,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2397.6,
       "itens": [
@@ -32667,6 +34496,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 12931.44,
       "itens": [
@@ -32700,6 +34531,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2959.0,
       "itens": [
@@ -32712,7 +34545,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "490000018",
@@ -32726,6 +34559,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2286.5,
       "itens": [
@@ -32738,7 +34573,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "491000009",
@@ -32752,6 +34587,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1006.48,
       "itens": [
@@ -32778,7 +34615,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "492000001",
@@ -32792,6 +34629,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 279.98,
       "itens": [
@@ -32818,6 +34657,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 562.92,
       "itens": [
@@ -32837,7 +34678,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "498000008",
@@ -32851,6 +34692,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2236.53,
       "itens": [
@@ -32926,7 +34769,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "498000009",
@@ -32940,6 +34783,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2678.84,
       "itens": [
@@ -33015,7 +34860,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588002991",
@@ -33029,6 +34874,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3691.8,
       "itens": [
@@ -33076,6 +34923,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 4026.54,
       "itens": [
@@ -33130,6 +34979,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 9230.4,
       "itens": [
@@ -33149,7 +35000,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588002994",
@@ -33163,6 +35014,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1914.0,
       "itens": [
@@ -33175,7 +35028,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "588002995",
@@ -33189,6 +35042,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3186.6,
       "itens": [
@@ -33229,6 +35084,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1728.3,
       "itens": [
@@ -33262,6 +35119,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 23973.6,
       "itens": [
@@ -33274,7 +35133,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "588002998",
@@ -33288,6 +35147,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1114.2,
       "itens": [
@@ -33314,6 +35175,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 6216.0,
       "itens": [
@@ -33340,6 +35203,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1182.2,
       "itens": [
@@ -33401,7 +35266,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "472000049",
@@ -33415,6 +35280,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 479.4,
       "itens": [
@@ -33448,7 +35315,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "474000038",
@@ -33462,6 +35329,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1541.4,
       "itens": [
@@ -33488,7 +35357,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000051",
@@ -33502,6 +35371,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1182.42,
       "itens": [
@@ -33542,7 +35413,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000058",
@@ -33556,6 +35427,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2253.74,
       "itens": [
@@ -33610,7 +35483,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000059",
@@ -33624,6 +35497,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1458.02,
       "itens": [
@@ -33699,7 +35574,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "327009369",
@@ -33713,6 +35588,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2699",
       "obs": "",
       "total": 348.06,
       "itens": [
@@ -33767,6 +35644,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3428",
       "obs": "cliente recebe apos 11:00 horas",
       "total": 438.48,
       "itens": [
@@ -33793,6 +35672,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "cliente so recebe apos 16:00 horas",
       "total": 779.7,
       "itens": [
@@ -33819,6 +35700,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :315",
       "obs": "Entrega sexta feira  parte da manha",
       "total": 1477.36,
       "itens": [
@@ -33880,6 +35763,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3691",
       "obs": "cliente so recebe apos 16:00 horas",
       "total": 358.0,
       "itens": [
@@ -33934,6 +35819,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "cliente so recebe apos 16:00 horas",
       "total": 329.5,
       "itens": [
@@ -33981,6 +35868,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3768",
       "obs": "cliente so recebe de 8:00 as 12:00",
       "total": 494.3,
       "itens": [
@@ -34028,6 +35917,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 166.16,
       "itens": [
@@ -34054,6 +35945,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :235",
       "obs": "cliente coco bambu",
       "total": 464.94,
       "itens": [
@@ -34087,6 +35980,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :315",
       "obs": "",
       "total": 910.8,
       "itens": [
@@ -34134,6 +36029,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 366.42,
       "itens": [
@@ -34174,6 +36071,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "cliente so recebe apos 15:00 horas",
       "total": 323.52,
       "itens": [
@@ -34196,6 +36095,132 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
+      "numped": "354000601",
+      "numnota": "124481",
+      "data": "08/07/2026",
+      "data_ord": "2026-07-08",
+      "nome": "MATHEUS DE SOUZA - OFF TRADE",
+      "cliente": "SUPERMERCADO NOVOS HORIZONTES METROPOLITANO LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :169",
+      "obs": "pedido:00004624",
+      "total": 793.0,
+      "itens": [
+        {
+          "desc": "RUM BACARDI MOJITO 980ML",
+          "qt": 2,
+          "val": 97.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "MARTINI EXTRA DRY 750 ML",
+          "qt": 2,
+          "val": 87.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "TEQUILA J CUERVO SILVER 750ML",
+          "qt": 2,
+          "val": 259.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "TEQUILA J CUERVO GOLD 750ML",
+          "qt": 2,
+          "val": 259.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "MARTINI BIANCO 750 ML",
+          "qt": 2,
+          "val": 87.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "354000602",
+      "numnota": "124480",
+      "data": "08/07/2026",
+      "data_ord": "2026-07-08",
+      "nome": "MATHEUS DE SOUZA - OFF TRADE",
+      "cliente": "SUPERMERCADO NOVO HORIZONTE MELO VIANA LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2320",
+      "obs": "pedido 00003276",
+      "total": 1196.6,
+      "itens": [
+        {
+          "desc": "RUM MALIBU 750 ML",
+          "qt": 2,
+          "val": 109.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "TEQUILA J CUERVO SILVER 750ML",
+          "qt": 2,
+          "val": 259.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "TEQUILA J CUERVO GOLD 750ML",
+          "qt": 2,
+          "val": 259.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "RUM BACARDI CARTA BLANCA 980 ML",
+          "qt": 2,
+          "val": 97.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY BALLANTINES 10 YO 1L",
+          "qt": 2,
+          "val": 199.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "GIN ORLOFF 1L",
+          "qt": 2,
+          "val": 99.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "BEEFEATER PINK 700ML",
+          "qt": 2,
+          "val": 169.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
       "numped": "362000143",
       "numnota": "124482",
       "data": "08/07/2026",
@@ -34207,6 +36232,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3903",
       "obs": "",
       "total": 1265.6,
       "itens": [
@@ -34254,6 +36281,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4236",
       "obs": "",
       "total": 2131.08,
       "itens": [
@@ -34336,6 +36365,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4447",
       "obs": "",
       "total": 1046.8,
       "itens": [
@@ -34400,128 +36431,6 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
-      "numped": "354000601",
-      "numnota": "124481",
-      "data": "08/07/2026",
-      "data_ord": "2026-07-08",
-      "nome": "MATHEUS DE SOUZA - OFF TRADE",
-      "cliente": "SUPERMERCADO NOVOS HORIZONTES METROPOLITANO LTDA",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "obs": "pedido:00004624",
-      "total": 793.0,
-      "itens": [
-        {
-          "desc": "RUM BACARDI MOJITO 980ML",
-          "qt": 2,
-          "val": 97.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "MARTINI EXTRA DRY 750 ML",
-          "qt": 2,
-          "val": 87.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "TEQUILA J CUERVO SILVER 750ML",
-          "qt": 2,
-          "val": 259.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "TEQUILA J CUERVO GOLD 750ML",
-          "qt": 2,
-          "val": 259.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "MARTINI BIANCO 750 ML",
-          "qt": 2,
-          "val": 87.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
-      "numped": "354000602",
-      "numnota": "124480",
-      "data": "08/07/2026",
-      "data_ord": "2026-07-08",
-      "nome": "MATHEUS DE SOUZA - OFF TRADE",
-      "cliente": "SUPERMERCADO NOVO HORIZONTE MELO VIANA LTDA",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "obs": "pedido 00003276",
-      "total": 1196.6,
-      "itens": [
-        {
-          "desc": "RUM MALIBU 750 ML",
-          "qt": 2,
-          "val": 109.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "TEQUILA J CUERVO SILVER 750ML",
-          "qt": 2,
-          "val": 259.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "TEQUILA J CUERVO GOLD 750ML",
-          "qt": 2,
-          "val": 259.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RUM BACARDI CARTA BLANCA 980 ML",
-          "qt": 2,
-          "val": 97.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY BALLANTINES 10 YO 1L",
-          "qt": 2,
-          "val": 199.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN ORLOFF 1L",
-          "qt": 2,
-          "val": 99.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "BEEFEATER PINK 700ML",
-          "qt": 2,
-          "val": 169.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
       "numped": "344000461",
       "numnota": "124392",
       "data": "08/07/2026",
@@ -34533,6 +36442,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :266",
       "obs": "",
       "total": 787.4,
       "itens": [
@@ -34566,6 +36477,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :266",
       "obs": "",
       "total": 760.8,
       "itens": [
@@ -34613,6 +36526,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1330.2,
       "itens": [
@@ -34653,6 +36568,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1599.6,
       "itens": [
@@ -34700,6 +36617,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 329.4,
       "itens": [
@@ -34726,6 +36645,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :902",
       "obs": "",
       "total": 1092.96,
       "itens": [
@@ -34766,6 +36687,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 249.24,
       "itens": [
@@ -34792,6 +36715,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PRECO ABAIXO DO MINIMO PERMITIDO",
       "obs": "",
       "total": 910.8,
       "itens": [
@@ -34832,6 +36757,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :463",
       "obs": "",
       "total": 315.8,
       "itens": [
@@ -34872,6 +36799,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1161.8,
       "itens": [
@@ -34954,6 +36883,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3347",
       "obs": "loja",
       "total": 957.6,
       "itens": [
@@ -34980,6 +36911,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2614",
       "obs": "",
       "total": 478.8,
       "itens": [
@@ -35006,6 +36939,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2614",
       "obs": "",
       "total": 478.8,
       "itens": [
@@ -35032,6 +36967,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5580",
       "obs": "Data entrega: 09/07/26",
       "total": 487.99,
       "itens": [
@@ -35107,6 +37044,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :295",
       "obs": "Favor se atentar ao cliente correto, posto em frente ao Supermarket na rua",
       "total": 384.7,
       "itens": [
@@ -35140,6 +37079,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7095",
       "obs": "entregar no dia 08/07 com pagamento de descarga no valor de R$60,00 por pal",
       "total": 710.4,
       "itens": [
@@ -35173,6 +37114,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA: 08/07",
       "total": 1675.68,
       "itens": [
@@ -35234,6 +37177,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 288.36,
       "itens": [
@@ -35267,6 +37212,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :902",
       "obs": "",
       "total": 431.4,
       "itens": [
@@ -35307,6 +37254,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2340.89,
       "itens": [
@@ -35431,6 +37380,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PRECO ABAIXO DO MINIMO PERMITIDO",
       "obs": "",
       "total": 2876.16,
       "itens": [
@@ -35471,6 +37422,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGA: 08/07 - 09HRS AS 15HRS",
       "total": 3948.0,
       "itens": [
@@ -35497,6 +37450,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5165",
       "obs": "",
       "total": 816.0,
       "itens": [
@@ -35523,6 +37478,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5165",
       "obs": "",
       "total": 408.0,
       "itens": [
@@ -35549,6 +37506,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5165",
       "obs": "",
       "total": 816.0,
       "itens": [
@@ -35575,6 +37534,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5165",
       "obs": "",
       "total": 816.0,
       "itens": [
@@ -35601,6 +37562,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1660.48,
       "itens": [
@@ -35676,6 +37639,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1068.0,
       "itens": [
@@ -35751,6 +37716,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 468.88,
       "itens": [
@@ -35805,6 +37772,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 290.88,
       "itens": [
@@ -35845,6 +37814,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1887.52,
       "itens": [
@@ -35934,6 +37905,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 350.64,
       "itens": [
@@ -35974,6 +37947,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 478.8,
       "itens": [
@@ -36000,6 +37975,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2851",
       "obs": "",
       "total": 909.1,
       "itens": [
@@ -36047,6 +38024,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 478.8,
       "itens": [
@@ -36073,6 +38052,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 478.8,
       "itens": [
@@ -36099,6 +38080,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :378",
       "obs": "",
       "total": 1193.85,
       "itens": [
@@ -36153,6 +38136,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :663",
       "obs": "",
       "total": 465.34,
       "itens": [
@@ -36200,6 +38185,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2927",
       "obs": "",
       "total": 1181.9,
       "itens": [
@@ -36289,6 +38276,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :857",
       "obs": "",
       "total": 459.6,
       "itens": [
@@ -36329,6 +38318,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :290",
       "obs": "",
       "total": 324.35,
       "itens": [
@@ -36376,6 +38367,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 255.94,
       "itens": [
@@ -36402,6 +38395,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :449",
       "obs": "",
       "total": 1067.5,
       "itens": [
@@ -36505,6 +38500,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2848",
       "obs": "",
       "total": 751.2,
       "itens": [
@@ -36573,6 +38570,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 364.6,
       "itens": [
@@ -36613,6 +38612,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 614.2,
       "itens": [
@@ -36681,6 +38682,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :857",
       "obs": "",
       "total": 516.5,
       "itens": [
@@ -36714,6 +38717,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1886.68,
       "itens": [
@@ -36761,6 +38766,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGAR DE IMEDIATO",
       "total": 394.8,
       "itens": [
@@ -36787,6 +38794,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 1991.2,
       "itens": [
@@ -36834,6 +38843,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2710",
       "obs": "",
       "total": 1909.0,
       "itens": [
@@ -36867,6 +38878,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5982",
       "obs": "",
       "total": 481.44,
       "itens": [
@@ -36921,6 +38934,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 1822.38,
       "itens": [
@@ -36975,6 +38990,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 778.8,
       "itens": [
@@ -37008,6 +39025,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5989",
       "obs": "",
       "total": 700.8,
       "itens": [
@@ -37048,6 +39067,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3011",
       "obs": "",
       "total": 763.8,
       "itens": [
@@ -37088,6 +39109,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7550",
       "obs": "",
       "total": 387.06,
       "itens": [
@@ -37128,6 +39151,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :997",
       "obs": "",
       "total": 451.73,
       "itens": [
@@ -37168,6 +39193,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 292.6,
       "itens": [
@@ -37194,6 +39221,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4677",
       "obs": "data entrega: 08/07",
       "total": 430.2,
       "itens": [
@@ -37234,6 +39263,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2089",
       "obs": "data entrega: 08/07",
       "total": 1325.8,
       "itens": [
@@ -37274,6 +39305,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :902",
       "obs": "data entrega: 08/07",
       "total": 4989.46,
       "itens": [
@@ -37356,6 +39389,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5387",
       "obs": "data entrega: 08/07",
       "total": 1371.5,
       "itens": [
@@ -37424,6 +39459,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA: 08/07",
       "total": 3344.0,
       "itens": [
@@ -37506,6 +39543,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4598",
       "obs": "entregar ate as 17:00hs",
       "total": 525.6,
       "itens": [
@@ -37539,6 +39578,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5985",
       "obs": "entregar ate as 15:00hs",
       "total": 1217.56,
       "itens": [
@@ -37621,6 +39662,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3104.91,
       "itens": [
@@ -37668,6 +39711,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3348.4,
       "itens": [
@@ -37701,6 +39746,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 492.96,
       "itens": [
@@ -37734,6 +39781,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 770.44,
       "itens": [
@@ -37774,6 +39823,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3381.11,
       "itens": [
@@ -37835,6 +39886,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2553.96,
       "itens": [
@@ -37868,6 +39921,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 634.8,
       "itens": [
@@ -37894,6 +39949,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 634.8,
       "itens": [
@@ -37920,6 +39977,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 4330.06,
       "itens": [
@@ -37967,6 +40026,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 42937.2,
       "itens": [
@@ -38000,7 +40061,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "463000046",
@@ -38014,6 +40075,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 634.8,
       "itens": [
@@ -38040,6 +40103,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 5760.0,
       "itens": [
@@ -38052,7 +40117,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "391000204",
@@ -38066,6 +40131,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2264.4,
       "itens": [
@@ -38078,7 +40145,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "371000287",
@@ -38092,6 +40159,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 549.0,
       "itens": [
@@ -38118,6 +40187,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1078.8,
       "itens": [
@@ -38130,7 +40201,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "475000030",
@@ -38144,6 +40215,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2468.4,
       "itens": [
@@ -38163,7 +40236,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000167",
@@ -38177,6 +40250,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 342.85,
       "itens": [
@@ -38189,7 +40264,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000168",
@@ -38203,6 +40278,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 4365.6,
       "itens": [
@@ -38236,7 +40313,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000169",
@@ -38250,6 +40327,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1798.2,
       "itens": [
@@ -38269,7 +40348,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "476000170",
@@ -38283,6 +40362,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 4686.8,
       "itens": [
@@ -38330,7 +40411,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "476000171",
@@ -38344,6 +40425,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2985.3,
       "itens": [
@@ -38391,7 +40474,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "426000363",
@@ -38405,6 +40488,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2587.5,
       "itens": [
@@ -38417,7 +40502,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "428000038",
@@ -38431,6 +40516,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 10037.22,
       "itens": [
@@ -38555,7 +40642,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "433000140",
@@ -38569,6 +40656,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 986.16,
       "itens": [
@@ -38602,6 +40691,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1544.03,
       "itens": [
@@ -38642,7 +40733,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "467000040",
@@ -38656,6 +40747,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3596.4,
       "itens": [
@@ -38689,6 +40782,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3479.4,
       "itens": [
@@ -38722,6 +40817,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 10788.0,
       "itens": [
@@ -38748,6 +40845,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 1857.0,
       "itens": [
@@ -38774,6 +40873,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 687.7,
       "itens": [
@@ -38800,6 +40901,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2540.76,
       "itens": [
@@ -38826,7 +40929,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "490000016",
@@ -38840,6 +40943,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1389.6,
       "itens": [
@@ -38852,7 +40957,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "497000002",
@@ -38866,6 +40971,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 440.4,
       "itens": [
@@ -38885,7 +40992,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "498000006",
@@ -38899,6 +41006,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 665.85,
       "itens": [
@@ -38925,6 +41034,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 704.52,
       "itens": [
@@ -38965,6 +41076,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 15222.36,
       "itens": [
@@ -38991,6 +41104,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3174.0,
       "itens": [
@@ -39017,6 +41132,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 5778.0,
       "itens": [
@@ -39064,6 +41181,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 25312.75,
       "itens": [
@@ -39111,7 +41230,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "588002984",
@@ -39125,6 +41244,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1741.56,
       "itens": [
@@ -39172,6 +41293,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1377.6,
       "itens": [
@@ -39205,6 +41328,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 13216.8,
       "itens": [
@@ -39266,6 +41391,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 1114.2,
       "itens": [
@@ -39278,7 +41405,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588002988",
@@ -39292,6 +41419,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 1947.0,
       "itens": [
@@ -39318,6 +41447,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 788.4,
       "itens": [
@@ -39330,7 +41461,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "474000037",
@@ -39344,6 +41475,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1213.8,
       "itens": [
@@ -39384,6 +41517,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 557.61,
       "itens": [
@@ -39410,7 +41545,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000048",
@@ -39424,6 +41559,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1917.6,
       "itens": [
@@ -39436,7 +41573,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000049",
@@ -39450,6 +41587,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 491.1,
       "itens": [
@@ -39469,7 +41608,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000050",
@@ -39483,6 +41622,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 382.8,
       "itens": [
@@ -39495,7 +41636,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "486000056",
@@ -39509,6 +41650,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1451.48,
       "itens": [
@@ -39605,7 +41748,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "487000021",
@@ -39619,6 +41762,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 4689.0,
       "itens": [
@@ -39638,7 +41783,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "327009357",
@@ -39652,6 +41797,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :119",
       "obs": "cafeteira Eddie  patio Savassi",
       "total": 575.04,
       "itens": [
@@ -39678,6 +41825,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "cliente recebe apos 10:00 horas",
       "total": 957.6,
       "itens": [
@@ -39704,6 +41853,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3284",
       "obs": "cliente so recebe apos 11:00 horas",
       "total": 436.32,
       "itens": [
@@ -39730,6 +41881,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3674",
       "obs": "cliente recebe apos 16:30 horas",
       "total": 1594.48,
       "itens": [
@@ -39812,6 +41965,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3498",
       "obs": "coco bambu shopping del Rey",
       "total": 300.3,
       "itens": [
@@ -39838,6 +41993,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "Retirar no galpao hoje vendedor.",
       "total": 728.6,
       "itens": [
@@ -39878,6 +42035,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 6090.0,
       "itens": [
@@ -39918,6 +42077,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :129",
       "obs": "cliente so recebe apos 12:00 horas",
       "total": 1438.2,
       "itens": [
@@ -39961,6 +42122,90 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
+      "numped": "354000599",
+      "numnota": "124345",
+      "data": "07/07/2026",
+      "data_ord": "2026-07-07",
+      "nome": "MATHEUS DE SOUZA - OFF TRADE",
+      "cliente": "MARIA PAULINA VIEIRA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :484",
+      "obs": "",
+      "total": 308.06,
+      "itens": [
+        {
+          "desc": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 1,
+          "val": 89.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "CERVEJA HEINEKEN RETORNAVEL 24X600ML",
+          "qt": 1,
+          "val": 218.16,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "354000600",
+      "numnota": "124343",
+      "data": "07/07/2026",
+      "data_ord": "2026-07-07",
+      "nome": "MATHEUS DE SOUZA - OFF TRADE",
+      "cliente": "SUPERMERCADO NOVO HORIZONTE CATAGUASES PLUS LTDA.",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4005",
+      "obs": "pedido 00004953",
+      "total": 577.1,
+      "itens": [
+        {
+          "desc": "RUM BACARDI MOJITO 980ML",
+          "qt": 2,
+          "val": 97.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "GIN ORLOFF 1L",
+          "qt": 3,
+          "val": 149.7,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "LICOR BALLENA MORANGO 750ML",
+          "qt": 2,
+          "val": 231.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "RUM BACARDI LIMON 980 ML",
+          "qt": 2,
+          "val": 97.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
       "numped": "362000140",
       "numnota": "124234",
       "data": "07/07/2026",
@@ -39972,6 +42217,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4417",
       "obs": "",
       "total": 1242.0,
       "itens": [
@@ -40012,6 +42259,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4236",
       "obs": "",
       "total": 507.9,
       "itens": [
@@ -40055,86 +42304,6 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
-      "numped": "354000599",
-      "numnota": "124345",
-      "data": "07/07/2026",
-      "data_ord": "2026-07-07",
-      "nome": "MATHEUS DE SOUZA - OFF TRADE",
-      "cliente": "MARIA PAULINA VIEIRA",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "obs": "",
-      "total": 308.06,
-      "itens": [
-        {
-          "desc": "WHISKY JIM BEAM WHITE 1L",
-          "qt": 1,
-          "val": 89.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "CERVEJA HEINEKEN RETORNAVEL 24X600ML",
-          "qt": 1,
-          "val": 218.16,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
-      "numped": "354000600",
-      "numnota": "124343",
-      "data": "07/07/2026",
-      "data_ord": "2026-07-07",
-      "nome": "MATHEUS DE SOUZA - OFF TRADE",
-      "cliente": "SUPERMERCADO NOVO HORIZONTE CATAGUASES PLUS LTDA.",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "obs": "pedido 00004953",
-      "total": 577.1,
-      "itens": [
-        {
-          "desc": "RUM BACARDI MOJITO 980ML",
-          "qt": 2,
-          "val": 97.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN ORLOFF 1L",
-          "qt": 3,
-          "val": 149.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "LICOR BALLENA MORANGO 750ML",
-          "qt": 2,
-          "val": 231.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RUM BACARDI LIMON 980 ML",
-          "qt": 2,
-          "val": 97.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
       "numped": "344000456",
       "numnota": "124260",
       "data": "07/07/2026",
@@ -40146,6 +42315,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 332.32,
       "itens": [
@@ -40172,6 +42343,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 839.2,
       "itens": [
@@ -40198,6 +42371,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :644",
       "obs": "",
       "total": 273.88,
       "itens": [
@@ -40231,6 +42406,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :40",
       "obs": "CD",
       "total": 37201.2,
       "itens": [
@@ -40257,6 +42434,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4236",
       "obs": "Entrega Ceasa",
       "total": 3894.0,
       "itens": [
@@ -40283,6 +42462,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4005",
       "obs": "Entrega CD",
       "total": 19782.0,
       "itens": [
@@ -40309,6 +42490,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 517.68,
       "itens": [
@@ -40335,6 +42518,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7081",
       "obs": "entregar no dia 07/07 por ordem de chegada",
       "total": 854.16,
       "itens": [
@@ -40382,6 +42567,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5579",
       "obs": "entregar no dia 07/07 com pagamento de descarga no valor de R$60,00 por pal",
       "total": 1316.1,
       "itens": [
@@ -40422,6 +42609,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7095",
       "obs": "entregar no dia 07/07 com pagamento de descarga no valor de descarga R$50,0",
       "total": 973.92,
       "itens": [
@@ -40469,6 +42658,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 399.0,
       "itens": [
@@ -40495,6 +42686,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5988",
       "obs": "",
       "total": 280.32,
       "itens": [
@@ -40521,6 +42714,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2893",
       "obs": "",
       "total": 619.62,
       "itens": [
@@ -40582,6 +42777,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :315",
       "obs": "",
       "total": 345.12,
       "itens": [
@@ -40615,6 +42812,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 995.0,
       "itens": [
@@ -40641,6 +42840,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "Cliente so recebe mercadorias com horario agendado.",
       "total": 23025.6,
       "itens": [
@@ -40667,6 +42868,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5579",
       "obs": "",
       "total": 998.1,
       "itens": [
@@ -40707,6 +42910,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :997",
       "obs": "",
       "total": 275.6,
       "itens": [
@@ -40740,6 +42945,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :378",
       "obs": "",
       "total": 1156.25,
       "itens": [
@@ -40801,6 +43008,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7095",
       "obs": "",
       "total": 1960.08,
       "itens": [
@@ -40918,6 +43127,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :290",
       "obs": "",
       "total": 204.0,
       "itens": [
@@ -40944,6 +43155,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5990",
       "obs": "",
       "total": 1201.08,
       "itens": [
@@ -41019,6 +43232,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 284.1,
       "itens": [
@@ -41059,6 +43274,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4459",
       "obs": "",
       "total": 359.57,
       "itens": [
@@ -41099,6 +43316,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :381",
       "obs": "",
       "total": 286.4,
       "itens": [
@@ -41132,6 +43351,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :663",
       "obs": "",
       "total": 742.4,
       "itens": [
@@ -41179,6 +43400,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 639.86,
       "itens": [
@@ -41205,6 +43428,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :902",
       "obs": "",
       "total": 589.02,
       "itens": [
@@ -41238,6 +43463,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :997",
       "obs": "",
       "total": 752.76,
       "itens": [
@@ -41299,6 +43526,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :381",
       "obs": "",
       "total": 626.96,
       "itens": [
@@ -41353,6 +43582,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6633",
       "obs": "data entrega: 07/07",
       "total": 297.64,
       "itens": [
@@ -41393,6 +43624,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGA: 07/07 - 08HRS AS 17HRS",
       "total": 394.8,
       "itens": [
@@ -41419,6 +43652,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGA: 07/07",
       "total": 394.8,
       "itens": [
@@ -41445,6 +43680,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGA: 07/07",
       "total": 394.8,
       "itens": [
@@ -41471,6 +43708,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5989",
       "obs": "entregar ate as 16:00hs",
       "total": 310.8,
       "itens": [
@@ -41518,6 +43757,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5985",
       "obs": "entregar ate as 16:00hs",
       "total": 622.32,
       "itens": [
@@ -41579,6 +43820,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGAR 07/07 ATE AS 16H",
       "total": 1074.48,
       "itens": [
@@ -41654,6 +43897,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGAR 07/07 ATE AS 16H",
       "total": 1291.34,
       "itens": [
@@ -41750,6 +43995,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA 07/07 ATE AS 16H",
       "total": 1177.37,
       "itens": [
@@ -41825,6 +44072,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1186.79,
       "itens": [
@@ -41893,6 +44142,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 371.4,
       "itens": [
@@ -41919,6 +44170,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1570.2,
       "itens": [
@@ -41952,6 +44205,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3668.16,
       "itens": [
@@ -41985,6 +44240,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 492.96,
       "itens": [
@@ -42018,6 +44275,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 14028.0,
       "itens": [
@@ -42030,7 +44289,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "391000200",
@@ -42044,6 +44303,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 4071.6,
       "itens": [
@@ -42084,6 +44345,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1508.94,
       "itens": [
@@ -42166,6 +44429,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 33594.0,
       "itens": [
@@ -42192,6 +44457,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 660.52,
       "itens": [
@@ -42204,7 +44471,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "475000027",
@@ -42218,6 +44485,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1198.8,
       "itens": [
@@ -42230,7 +44499,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "475000028",
@@ -42244,6 +44513,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 599.4,
       "itens": [
@@ -42256,7 +44527,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000159",
@@ -42270,6 +44541,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 437.4,
       "itens": [
@@ -42282,7 +44555,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000160",
@@ -42296,6 +44569,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1077.7,
       "itens": [
@@ -42308,7 +44583,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000161",
@@ -42322,6 +44597,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 598.56,
       "itens": [
@@ -42341,7 +44618,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000162",
@@ -42355,6 +44632,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 744.9,
       "itens": [
@@ -42402,7 +44681,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000163",
@@ -42416,6 +44695,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1669.8,
       "itens": [
@@ -42435,7 +44716,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000361",
@@ -42449,6 +44730,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 8317.8,
       "itens": [
@@ -42482,7 +44765,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000362",
@@ -42496,6 +44779,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 11544.0,
       "itens": [
@@ -42536,7 +44821,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "428000037",
@@ -42550,6 +44835,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 11403.5,
       "itens": [
@@ -42597,7 +44884,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000135",
@@ -42611,6 +44898,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1488.46,
       "itens": [
@@ -42637,6 +44926,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 5359.2,
       "itens": [
@@ -42649,7 +44940,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000137",
@@ -42663,6 +44954,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2104.2,
       "itens": [
@@ -42689,6 +44982,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1242.0,
       "itens": [
@@ -42701,7 +44996,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "466000044",
@@ -42715,6 +45010,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 431.52,
       "itens": [
@@ -42727,7 +45024,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "467000039",
@@ -42741,6 +45038,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1269.6,
       "itens": [
@@ -42767,6 +45066,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1024.8,
       "itens": [
@@ -42800,6 +45101,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 209.8,
       "itens": [
@@ -42826,6 +45129,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1584.12,
       "itens": [
@@ -42908,6 +45213,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 6512.9,
       "itens": [
@@ -42962,6 +45269,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 880.18,
       "itens": [
@@ -42981,7 +45290,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "504000003",
@@ -42995,6 +45304,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 470.62,
       "itens": [
@@ -43014,7 +45325,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588002972",
@@ -43028,6 +45339,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1386.0,
       "itens": [
@@ -43061,6 +45374,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 12912.0,
       "itens": [
@@ -43087,6 +45402,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 5191.62,
       "itens": [
@@ -43120,7 +45437,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "588002975",
@@ -43134,6 +45451,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 9768.0,
       "itens": [
@@ -43167,6 +45486,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 9703.5,
       "itens": [
@@ -43221,7 +45542,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "469000045",
@@ -43235,6 +45556,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1310.9,
       "itens": [
@@ -43268,7 +45591,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "470000031",
@@ -43282,6 +45605,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 246.6,
       "itens": [
@@ -43294,7 +45619,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "470000032",
@@ -43308,6 +45633,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1198.8,
       "itens": [
@@ -43320,7 +45647,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "472000047",
@@ -43334,6 +45661,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 215.76,
       "itens": [
@@ -43346,7 +45675,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000054",
@@ -43360,6 +45689,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 211.35,
       "itens": [
@@ -43386,7 +45717,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000055",
@@ -43400,6 +45731,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 423.5,
       "itens": [
@@ -43426,7 +45759,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "489000028",
@@ -43440,6 +45773,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1505.14,
       "itens": [
@@ -43508,7 +45843,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "312000038",
@@ -43522,6 +45857,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "HORÁRIO DE RECEBIMENTOS : 3ª A 6ª DAS 09:00 AS 16:00 HS",
       "total": 513.6,
       "itens": [
@@ -43555,6 +45892,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "cliente so recebe apos 16:00 horas",
       "total": 376.2,
       "itens": [
@@ -43581,6 +45920,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3702",
       "obs": "tel. 31 9 93032392.  Pedro",
       "total": 294.5,
       "itens": [
@@ -43628,6 +45969,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :902",
       "obs": "cliente so recebe apos 16: horas",
       "total": 488.42,
       "itens": [
@@ -43668,6 +46011,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :16",
       "obs": "cliente so recebe apos 14:00 horas",
       "total": 1137.6,
       "itens": [
@@ -43708,6 +46053,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :266",
       "obs": "",
       "total": 2471.76,
       "itens": [
@@ -43769,6 +46116,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "cliente recebe apos 13:00 horas",
       "total": 299.4,
       "itens": [
@@ -43809,6 +46158,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :69",
       "obs": "cliente recebe apos 16:00 horas",
       "total": 257.4,
       "itens": [
@@ -43842,6 +46193,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4236",
       "obs": "CD",
       "total": 3894.0,
       "itens": [
@@ -43868,6 +46221,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 7014.0,
       "itens": [
@@ -43894,6 +46249,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1413.35,
       "itens": [
@@ -43934,6 +46291,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA: 06/07 - 08HRS AS 15HRS",
       "total": 1455.18,
       "itens": [
@@ -43988,6 +46347,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGA: 06/07 - 08HRS AS 16HRS",
       "total": 2512.8,
       "itens": [
@@ -44021,6 +46382,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA:06/07 - 08HRS AS 15HRS",
       "total": 1036.5,
       "itens": [
@@ -44054,6 +46417,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGAR DE IMEDIATO",
       "total": 483.0,
       "itens": [
@@ -44094,6 +46459,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGAR APÓS AS 10HRS",
       "total": 487.96,
       "itens": [
@@ -44141,6 +46508,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA: 06/07 - 08HRS AS 15HRS",
       "total": 1607.94,
       "itens": [
@@ -44174,6 +46543,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 1936.98,
       "itens": [
@@ -44270,6 +46641,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 270.0,
       "itens": [
@@ -44303,6 +46676,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4068",
       "obs": "",
       "total": 621.6,
       "itens": [
@@ -44329,6 +46704,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 473.5,
       "itens": [
@@ -44355,6 +46732,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 356.52,
       "itens": [
@@ -44388,6 +46767,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3011",
       "obs": "",
       "total": 263.2,
       "itens": [
@@ -44414,6 +46795,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2893",
       "obs": "",
       "total": 1093.7,
       "itens": [
@@ -44503,6 +46886,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3011",
       "obs": "",
       "total": 1338.62,
       "itens": [
@@ -44627,6 +47012,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3151",
       "obs": "",
       "total": 141.8,
       "itens": [
@@ -44660,6 +47047,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 517.68,
       "itens": [
@@ -44686,6 +47075,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 296.7,
       "itens": [
@@ -44712,6 +47103,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1263.2,
       "itens": [
@@ -44759,6 +47152,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PRODUTO SEM ESTOQUE",
       "obs": "Entrega agendada para o dia   07/07/26.",
       "total": 1831.2,
       "itens": [
@@ -44785,6 +47180,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7331",
       "obs": "Cliente so recebe mercadorias com horario agendado.",
       "total": 44023.15,
       "itens": [
@@ -44839,6 +47236,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7351",
       "obs": "Entrega agendada para o dia  07/07/26.",
       "total": 9724.3,
       "itens": [
@@ -44956,6 +47355,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4348",
       "obs": "",
       "total": 1244.79,
       "itens": [
@@ -45017,6 +47418,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :119",
       "obs": "",
       "total": 570.3,
       "itens": [
@@ -45050,6 +47453,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :378",
       "obs": "",
       "total": 1009.75,
       "itens": [
@@ -45118,6 +47523,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 452.89,
       "itens": [
@@ -45179,6 +47586,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1772.04,
       "itens": [
@@ -45219,6 +47628,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :18",
       "obs": "",
       "total": 959.2,
       "itens": [
@@ -45266,6 +47677,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 294.0,
       "itens": [
@@ -45292,6 +47705,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4370",
       "obs": "",
       "total": 955.0,
       "itens": [
@@ -45339,6 +47754,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :18",
       "obs": "",
       "total": 257.8,
       "itens": [
@@ -45372,6 +47789,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :16",
       "obs": "",
       "total": 1888.2,
       "itens": [
@@ -45419,6 +47838,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 2157.12,
       "itens": [
@@ -45452,6 +47873,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :902",
       "obs": "",
       "total": 517.68,
       "itens": [
@@ -45478,6 +47901,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :100",
       "obs": "",
       "total": 333.56,
       "itens": [
@@ -45511,6 +47936,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6633",
       "obs": "data entrega: 04/07",
       "total": 275.6,
       "itens": [
@@ -45551,6 +47978,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6633",
       "obs": "data entrega: 04/07",
       "total": 1088.9,
       "itens": [
@@ -45598,6 +48027,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 749.5,
       "itens": [
@@ -45624,6 +48055,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 645.6,
       "itens": [
@@ -45650,6 +48083,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1723.08,
       "itens": [
@@ -45711,6 +48146,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 48582.0,
       "itens": [
@@ -45737,6 +48174,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 7833.84,
       "itens": [
@@ -45763,7 +48202,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000127",
@@ -45777,6 +48216,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 7833.84,
       "itens": [
@@ -45803,7 +48244,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000128",
@@ -45817,6 +48258,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 7833.84,
       "itens": [
@@ -45843,7 +48286,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000129",
@@ -45857,6 +48300,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 7833.84,
       "itens": [
@@ -45883,7 +48328,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "371000280",
@@ -45897,6 +48342,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 299.7,
       "itens": [
@@ -45923,6 +48370,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 599.4,
       "itens": [
@@ -45949,6 +48398,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 549.0,
       "itens": [
@@ -45975,6 +48426,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 599.4,
       "itens": [
@@ -46001,6 +48454,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 299.7,
       "itens": [
@@ -46027,6 +48482,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 766.8,
       "itens": [
@@ -46067,6 +48524,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1294.5,
       "itens": [
@@ -46107,6 +48566,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 902.04,
       "itens": [
@@ -46147,7 +48608,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "475000025",
@@ -46161,6 +48622,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 5270.4,
       "itens": [
@@ -46208,7 +48671,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000157",
@@ -46222,6 +48685,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 599.4,
       "itens": [
@@ -46234,7 +48699,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000357",
@@ -46248,6 +48713,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2061.0,
       "itens": [
@@ -46281,7 +48748,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000358",
@@ -46295,6 +48762,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2850.0,
       "itens": [
@@ -46314,7 +48783,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000359",
@@ -46328,6 +48797,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 13528.8,
       "itens": [
@@ -46361,7 +48832,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000129",
@@ -46375,6 +48846,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 4422.9,
       "itens": [
@@ -46415,7 +48888,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000130",
@@ -46429,6 +48902,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3291.0,
       "itens": [
@@ -46462,7 +48937,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000132",
@@ -46476,6 +48951,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3152.4,
       "itens": [
@@ -46516,6 +48993,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2319.6,
       "itens": [
@@ -46528,7 +49007,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "467000037",
@@ -46542,6 +49021,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 658.8,
       "itens": [
@@ -46568,6 +49049,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1739.7,
       "itens": [
@@ -46594,6 +49077,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 399.5,
       "itens": [
@@ -46634,6 +49119,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 739.68,
       "itens": [
@@ -46653,7 +49140,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588002952",
@@ -46667,6 +49154,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2395.44,
       "itens": [
@@ -46707,6 +49196,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2268.6,
       "itens": [
@@ -46754,7 +49245,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588002954",
@@ -46768,6 +49259,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 77472.0,
       "itens": [
@@ -46794,6 +49287,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3318.0,
       "itens": [
@@ -46841,6 +49336,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 8806.0,
       "itens": [
@@ -46874,6 +49371,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 5994.0,
       "itens": [
@@ -46900,6 +49399,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3596.4,
       "itens": [
@@ -46926,6 +49427,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3586.68,
       "itens": [
@@ -46952,7 +49455,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588002967",
@@ -46966,6 +49469,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 4776.0,
       "itens": [
@@ -46978,7 +49483,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588002968",
@@ -46992,6 +49497,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 12247.4,
       "itens": [
@@ -47004,7 +49511,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588002969",
@@ -47018,6 +49525,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 35604.0,
       "itens": [
@@ -47030,7 +49539,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "469000044",
@@ -47044,6 +49553,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 4603.2,
       "itens": [
@@ -47084,7 +49595,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "232000015",
@@ -47098,6 +49609,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 478.8,
       "itens": [
@@ -47124,6 +49637,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 636.85,
       "itens": [
@@ -47136,7 +49651,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000052",
@@ -47150,6 +49665,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 865.9,
       "itens": [
@@ -47169,7 +49686,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "487000019",
@@ -47183,6 +49700,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 788.4,
       "itens": [
@@ -47195,7 +49714,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "487000020",
@@ -47209,6 +49728,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 676.8,
       "itens": [
@@ -47228,7 +49749,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "489000027",
@@ -47242,6 +49763,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1998.0,
       "itens": [
@@ -47261,7 +49784,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "327009336",
@@ -47275,6 +49798,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PRECO ABAIXO DO MINIMO PERMITIDO",
       "obs": "",
       "total": 1734.0,
       "itens": [
@@ -47301,6 +49826,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PRECO ABAIXO DO MINIMO PERMITIDO",
       "obs": "",
       "total": 431.28,
       "itens": [
@@ -47308,53 +49835,6 @@ const PEDIDOS_DATA = {
           "desc": "CERVEJA HEINEKEN  LONG ZERO 24X330ML",
           "qt": 3,
           "val": 431.28,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
-      "numped": "354000592",
-      "numnota": "124048",
-      "data": "03/07/2026",
-      "data_ord": "2026-07-03",
-      "nome": "MATHEUS DE SOUZA - OFF TRADE",
-      "cliente": "MERCEARIA NASCIMENTO NOVO HORIZONTE LTDA",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "obs": "numero do pedido : 00004641",
-      "total": 691.3,
-      "itens": [
-        {
-          "desc": "AMARULA C LIQUEUR 750 ML",
-          "qt": 1,
-          "val": 119.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
-          "qt": 1,
-          "val": 159.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "LICOR BALLENA COCO 750ML",
-          "qt": 2,
-          "val": 231.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY BALLANTINES SUNSHINE 700ML",
-          "qt": 3,
-          "val": 179.7,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -47374,6 +49854,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :857",
       "obs": "00004211",
       "total": 1102.8,
       "itens": [
@@ -47428,6 +49910,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4150",
       "obs": "00004700",
       "total": 391.6,
       "itens": [
@@ -47461,6 +49945,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :40",
       "obs": "00003035",
       "total": 624.2,
       "itens": [
@@ -47508,6 +49994,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :857",
       "obs": "00003289",
       "total": 729.2,
       "itens": [
@@ -47537,6 +50025,55 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
+      "numped": "354000592",
+      "numnota": "124048",
+      "data": "03/07/2026",
+      "data_ord": "2026-07-03",
+      "nome": "MATHEUS DE SOUZA - OFF TRADE",
+      "cliente": "MERCEARIA NASCIMENTO NOVO HORIZONTE LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :40",
+      "obs": "numero do pedido : 00004641",
+      "total": 691.3,
+      "itens": [
+        {
+          "desc": "AMARULA C LIQUEUR 750 ML",
+          "qt": 1,
+          "val": 119.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "qt": 1,
+          "val": 159.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "LICOR BALLENA COCO 750ML",
+          "qt": 2,
+          "val": 231.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY BALLANTINES SUNSHINE 700ML",
+          "qt": 3,
+          "val": 179.7,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
       "numped": "344000446",
       "numnota": "124032",
       "data": "03/07/2026",
@@ -47548,6 +50085,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1337.6,
       "itens": [
@@ -47609,6 +50148,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PRECO ABAIXO DO MINIMO PERMITIDO",
       "obs": "CD",
       "total": 16884.0,
       "itens": [
@@ -47649,6 +50190,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :644",
       "obs": "",
       "total": 609.0,
       "itens": [
@@ -47682,6 +50225,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6532",
       "obs": "",
       "total": 319.7,
       "itens": [
@@ -47715,6 +50260,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6532",
       "obs": "",
       "total": 369.6,
       "itens": [
@@ -47748,6 +50295,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1019.46,
       "itens": [
@@ -47851,6 +50400,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 429.6,
       "itens": [
@@ -47884,6 +50435,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6570",
       "obs": "",
       "total": 3237.0,
       "itens": [
@@ -47910,6 +50463,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4459",
       "obs": "",
       "total": 537.48,
       "itens": [
@@ -47936,6 +50491,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4459",
       "obs": "",
       "total": 892.91,
       "itens": [
@@ -47969,6 +50526,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 627.0,
       "itens": [
@@ -47995,6 +50554,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :16",
       "obs": "",
       "total": 294.0,
       "itens": [
@@ -48021,6 +50582,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2515.0,
       "itens": [
@@ -48075,6 +50638,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENDEREÇO: AV ADAUTO BOTELHO, 29 - COLONIA JULIANO MOREIRA",
       "total": 622.0,
       "itens": [
@@ -48115,6 +50680,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 1429.08,
       "itens": [
@@ -48162,6 +50729,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "Favor entregar 03/07 , sem falta (Evento)",
       "total": 5371.2,
       "itens": [
@@ -48209,6 +50778,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 1835.84,
       "itens": [
@@ -48256,6 +50827,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 994.6,
       "itens": [
@@ -48296,6 +50869,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 7931.1,
       "itens": [
@@ -48441,6 +51016,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 26924.18,
       "itens": [
@@ -48488,6 +51065,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 999.9,
       "itens": [
@@ -48514,6 +51093,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1401.6,
       "itens": [
@@ -48533,7 +51114,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "475000023",
@@ -48547,6 +51128,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 539.4,
       "itens": [
@@ -48566,7 +51149,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "476000146",
@@ -48580,6 +51163,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1148.4,
       "itens": [
@@ -48592,7 +51177,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "476000147",
@@ -48606,6 +51191,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 765.6,
       "itens": [
@@ -48618,7 +51205,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "476000148",
@@ -48632,6 +51219,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 789.6,
       "itens": [
@@ -48644,7 +51233,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000149",
@@ -48658,6 +51247,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3760.94,
       "itens": [
@@ -48719,7 +51310,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000152",
@@ -48733,6 +51324,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1531.2,
       "itens": [
@@ -48745,7 +51338,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000153",
@@ -48759,6 +51352,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 797.5,
       "itens": [
@@ -48771,7 +51366,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "476000154",
@@ -48785,6 +51380,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 877.08,
       "itens": [
@@ -48818,7 +51415,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "426000355",
@@ -48832,6 +51429,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 4569.92,
       "itens": [
@@ -48872,6 +51471,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 12542.4,
       "itens": [
@@ -48905,6 +51506,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3571.2,
       "itens": [
@@ -48952,6 +51555,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 5862.6,
       "itens": [
@@ -48985,7 +51590,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "433000127",
@@ -48999,6 +51604,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 4386.0,
       "itens": [
@@ -49039,6 +51646,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 22633.63,
       "itens": [
@@ -49079,6 +51688,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 479.4,
       "itens": [
@@ -49119,6 +51730,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1349.5,
       "itens": [
@@ -49159,7 +51772,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "493000026",
@@ -49173,6 +51786,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 486.58,
       "itens": [
@@ -49213,7 +51828,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "497000001",
@@ -49227,6 +51842,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 539.4,
       "itens": [
@@ -49239,7 +51856,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588002932",
@@ -49253,6 +51870,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 18810.0,
       "itens": [
@@ -49265,7 +51884,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "588002933",
@@ -49279,6 +51898,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 18810.0,
       "itens": [
@@ -49291,7 +51912,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588002935",
@@ -49305,6 +51926,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1078.8,
       "itens": [
@@ -49324,7 +51947,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "588002937",
@@ -49338,6 +51961,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 10114.2,
       "itens": [
@@ -49371,6 +51996,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1783.2,
       "itens": [
@@ -49390,7 +52017,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "469000043",
@@ -49404,6 +52031,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1670.3,
       "itens": [
@@ -49437,7 +52066,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "472000046",
@@ -49451,6 +52080,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 4794.0,
       "itens": [
@@ -49463,7 +52094,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "474000036",
@@ -49477,6 +52108,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1259.7,
       "itens": [
@@ -49524,6 +52157,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1348.2,
       "itens": [
@@ -49543,7 +52178,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "486000050",
@@ -49557,6 +52192,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 459.96,
       "itens": [
@@ -49597,7 +52234,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "487000016",
@@ -49611,6 +52248,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3380.4,
       "itens": [
@@ -49637,7 +52276,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "487000017",
@@ -49651,6 +52290,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2095.8,
       "itens": [
@@ -49691,7 +52332,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "489000024",
@@ -49705,6 +52346,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 828.0,
       "itens": [
@@ -49717,7 +52360,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "489000026",
@@ -49731,6 +52374,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 5873.4,
       "itens": [
@@ -49764,7 +52409,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "327009329",
@@ -49778,6 +52423,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :119",
       "obs": "Hotel Quality. Av. Antonio Carlos",
       "total": 2156.4,
       "itens": [
@@ -49804,6 +52451,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3823",
       "obs": "cliente so recebe apos 17:00 horas",
       "total": 1242.12,
       "itens": [
@@ -49844,6 +52493,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :119",
       "obs": "pode ligar 0:30 minutos antes",
       "total": 630.08,
       "itens": [
@@ -49891,6 +52542,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 1078.2,
       "itens": [
@@ -49917,6 +52570,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 319.64,
       "itens": [
@@ -49964,6 +52619,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "FAVOR ENTREGAR TERCA-FEIRA DIA 07/07",
       "total": 559.62,
       "itens": [
@@ -50025,6 +52682,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4424",
       "obs": "",
       "total": 767.04,
       "itens": [
@@ -50065,6 +52724,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3498",
       "obs": "Ceasa",
       "total": 46602.6,
       "itens": [
@@ -50105,6 +52766,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "LOJA",
       "total": 8630.28,
       "itens": [
@@ -50131,6 +52794,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA A AGENDAR",
       "total": 63294.0,
       "itens": [
@@ -50178,6 +52843,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2728.2,
       "itens": [
@@ -50232,6 +52899,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 2995.2,
       "itens": [
@@ -50265,6 +52934,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 690.24,
       "itens": [
@@ -50298,6 +52969,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PRECO ABAIXO DO MINIMO PERMITIDO",
       "obs": "",
       "total": 2130.24,
       "itens": [
@@ -50352,6 +53025,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 1175.52,
       "itens": [
@@ -50406,6 +53081,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :463",
       "obs": "",
       "total": 2156.4,
       "itens": [
@@ -50446,6 +53123,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3828",
       "obs": "",
       "total": 505.7,
       "itens": [
@@ -50486,6 +53165,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :1834",
       "obs": "Entregar este pedido urgente.",
       "total": 832.44,
       "itens": [
@@ -50512,6 +53193,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :1834",
       "obs": "Entregar este pedido urgente.",
       "total": 832.44,
       "itens": [
@@ -50538,6 +53221,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :235",
       "obs": "Entregar este pedido urgente.",
       "total": 1198.68,
       "itens": [
@@ -50571,6 +53256,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5240",
       "obs": "Entregar este pedido urgente.",
       "total": 774.16,
       "itens": [
@@ -50618,6 +53305,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :663",
       "obs": "",
       "total": 418.8,
       "itens": [
@@ -50644,6 +53333,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7777",
       "obs": "",
       "total": 309.6,
       "itens": [
@@ -50670,6 +53361,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :100",
       "obs": "",
       "total": 238.26,
       "itens": [
@@ -50710,6 +53403,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4843",
       "obs": "",
       "total": 634.8,
       "itens": [
@@ -50736,6 +53431,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4459",
       "obs": "entrega agendada para o dia 2/7",
       "total": 315.93,
       "itens": [
@@ -50783,6 +53480,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 547.2,
       "itens": [
@@ -50809,6 +53508,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2566.4,
       "itens": [
@@ -50877,6 +53578,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 689.1,
       "itens": [
@@ -50945,6 +53648,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 435.3,
       "itens": [
@@ -50992,6 +53697,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5759",
       "obs": "",
       "total": 575.28,
       "itens": [
@@ -51018,6 +53725,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :1794",
       "obs": "",
       "total": 7910.3,
       "itens": [
@@ -51065,6 +53774,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2710",
       "obs": "",
       "total": 1278.0,
       "itens": [
@@ -51091,6 +53802,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :902",
       "obs": "",
       "total": 1749.0,
       "itens": [
@@ -51124,6 +53837,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :119",
       "obs": "",
       "total": 749.5,
       "itens": [
@@ -51150,6 +53865,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3054",
       "obs": "",
       "total": 629.3,
       "itens": [
@@ -51190,6 +53907,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :110",
       "obs": "",
       "total": 475.6,
       "itens": [
@@ -51223,6 +53942,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3845.82,
       "itens": [
@@ -51242,7 +53963,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "460000095",
@@ -51256,6 +53977,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1369.98,
       "itens": [
@@ -51303,6 +54026,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1198.8,
       "itens": [
@@ -51329,6 +54054,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1439.76,
       "itens": [
@@ -51355,6 +54082,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2397.6,
       "itens": [
@@ -51388,6 +54117,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 405.6,
       "itens": [
@@ -51414,6 +54145,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 323.64,
       "itens": [
@@ -51433,7 +54166,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000136",
@@ -51447,6 +54180,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 705.2,
       "itens": [
@@ -51487,7 +54222,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000141",
@@ -51501,6 +54236,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1198.8,
       "itens": [
@@ -51513,7 +54250,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "476000143",
@@ -51527,6 +54264,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1629.9,
       "itens": [
@@ -51553,7 +54292,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "426000352",
@@ -51567,6 +54306,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 10421.4,
       "itens": [
@@ -51600,6 +54341,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2169.0,
       "itens": [
@@ -51633,6 +54376,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 9522.0,
       "itens": [
@@ -51659,6 +54404,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 13186.8,
       "itens": [
@@ -51671,7 +54418,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "466000038",
@@ -51685,6 +54432,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 772.8,
       "itens": [
@@ -51704,7 +54453,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "468000069",
@@ -51718,6 +54467,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1198.8,
       "itens": [
@@ -51744,6 +54495,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3399.9,
       "itens": [
@@ -51777,7 +54530,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "588002922",
@@ -51791,6 +54544,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 6199.2,
       "itens": [
@@ -51824,6 +54579,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2008.8,
       "itens": [
@@ -51850,6 +54607,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2276.88,
       "itens": [
@@ -51883,6 +54642,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 11988.0,
       "itens": [
@@ -51909,6 +54670,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 15002.0,
       "itens": [
@@ -51991,7 +54754,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "588002929",
@@ -52005,6 +54768,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 7492.5,
       "itens": [
@@ -52031,6 +54796,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 6550.94,
       "itens": [
@@ -52064,7 +54831,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "588002931",
@@ -52078,6 +54845,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3228.0,
       "itens": [
@@ -52104,6 +54873,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 881.4,
       "itens": [
@@ -52123,7 +54894,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "486000049",
@@ -52137,6 +54908,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 285.48,
       "itens": [
@@ -52177,7 +54950,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "489000023",
@@ -52191,6 +54964,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1148.4,
       "itens": [
@@ -52203,7 +54978,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "327009318",
@@ -52217,6 +54992,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1091.01,
       "itens": [
@@ -52264,6 +55041,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :119",
       "obs": "cliente so recebe apos 15:30 horas",
       "total": 3026.96,
       "itens": [
@@ -52297,6 +55076,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 300.3,
       "itens": [
@@ -52323,6 +55104,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :119",
       "obs": "cliente recebe apos 10:00 horas",
       "total": 718.8,
       "itens": [
@@ -52349,6 +55132,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :674",
       "obs": "",
       "total": 335.4,
       "itens": [
@@ -52375,6 +55160,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :674",
       "obs": "",
       "total": 335.4,
       "itens": [
@@ -52401,6 +55188,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :902",
       "obs": "",
       "total": 522.26,
       "itens": [
@@ -52441,6 +55230,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 763.3,
       "itens": [
@@ -52467,6 +55258,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3909.0,
       "itens": [
@@ -52500,6 +55293,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGAR QUARTA FEIRA 01/07",
       "total": 274.8,
       "itens": [
@@ -52526,6 +55321,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGAR QUARTA FEIRA 01/07",
       "total": 5308.2,
       "itens": [
@@ -52566,6 +55363,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGAR QUARTA FEIRA 01/07",
       "total": 5070.0,
       "itens": [
@@ -52606,6 +55405,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGAR QUARTA FEIRA 01/07",
       "total": 1974.0,
       "itens": [
@@ -52632,6 +55433,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGAR QUINTA FEIRA 02/07",
       "total": 1974.0,
       "itens": [
@@ -52658,6 +55461,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGAR QUARTA FEIRA 01/07",
       "total": 2661.0,
       "itens": [
@@ -52698,6 +55503,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGAR QUARTA FEIRA 01/07",
       "total": 1201.8,
       "itens": [
@@ -52738,6 +55545,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGAR QUARTA FEIRA 01/07",
       "total": 1401.0,
       "itens": [
@@ -52778,6 +55587,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "PEDIDO 9171901",
       "total": 28044.0,
       "itens": [
@@ -52811,6 +55622,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGAR 02/07",
       "total": 5385.0,
       "itens": [
@@ -52844,6 +55657,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA: 01/07",
       "total": 6010.2,
       "itens": [
@@ -52905,6 +55720,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5762",
       "obs": "Descarga AdonaiPallet R$25,00Filmagem de Pallet R$ 10,00 por Pallet",
       "total": 5665.68,
       "itens": [
@@ -53008,6 +55825,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5762",
       "obs": "Descarga AdonaiPallet R$25,00Filmagem de Pallet R$ 10,00 por Pallet",
       "total": 2317.18,
       "itens": [
@@ -53111,6 +55930,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5762",
       "obs": "Pallet R$25,00Filmagem de Pallet R$ 10,00 por Pallet",
       "total": 5665.68,
       "itens": [
@@ -53214,6 +56035,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5762",
       "obs": "Pallet R$25,00Filmagem de Pallet R$ 10,00 por Pallet",
       "total": 5665.68,
       "itens": [
@@ -53317,6 +56140,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5762",
       "obs": "Pallet R$25,00Filmagem de Pallet R$ 10,00 por Pallet",
       "total": 5665.68,
       "itens": [
@@ -53420,6 +56245,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5762",
       "obs": "Pallet R$25,00Filmagem de Pallet R$ 10,00 por Pallet",
       "total": 5665.68,
       "itens": [
@@ -53523,6 +56350,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5762",
       "obs": "Pallet R$25,00Filmagem de Pallet R$ 10,00 por Pallet",
       "total": 5665.68,
       "itens": [
@@ -53626,6 +56455,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5762",
       "obs": "Descarga AdonaiPallet R$25,00Filmagem de Pallet R$ 10,00 por Pallet",
       "total": 2067.68,
       "itens": [
@@ -53722,6 +56553,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5762",
       "obs": "Descarga AdonaiPallet R$25,00Filmagem de Pallet R$ 10,00 por Pallet",
       "total": 2317.18,
       "itens": [
@@ -53825,6 +56658,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5762",
       "obs": "Descarga AdonaiPallet R$25,00Filmagem de Pallet R$ 10,00 por Pallet",
       "total": 3303.58,
       "itens": [
@@ -53921,6 +56756,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5762",
       "obs": "Descarga AdonaiPallet R$25,00Filmagem de Pallet R$ 10,00 por Pallet",
       "total": 3069.78,
       "itens": [
@@ -54010,6 +56847,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5762",
       "obs": "Descarga AdonaiPallet R$25,00Filmagem de Pallet R$ 10,00 por Pallet",
       "total": 3808.58,
       "itens": [
@@ -54113,6 +56952,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5762",
       "obs": "Pallet R$25,00Filmagem de Pallet R$ 10,00 por Pallet",
       "total": 3928.48,
       "itens": [
@@ -54216,6 +57057,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5762",
       "obs": "Pallet R$25,00Filmagem de Pallet R$ 10,00 por Pallet",
       "total": 3828.7,
       "itens": [
@@ -54305,6 +57148,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PEDIDO COM ITENS FALTANTES",
       "obs": "Descarga AdonaiPallet R$25,00Filmagem de Pallet R$ 10,00 por Pallet",
       "total": 499.0,
       "itens": [
@@ -54331,6 +57176,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PEDIDO COM ITENS FALTANTES",
       "obs": "Descarga AdonaiPallet R$25,00Filmagem de Pallet R$ 10,00 por Pallet",
       "total": 249.5,
       "itens": [
@@ -54357,6 +57204,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PEDIDO COM ITENS FALTANTES",
       "obs": "Pallet R$25,00Filmagem de Pallet R$ 10,00 por Pallet",
       "total": 748.5,
       "itens": [
@@ -54383,6 +57232,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 359.7,
       "itens": [
@@ -54409,6 +57260,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5579",
       "obs": "entregar no dia 02/07 com pagamento de descarga no valor de R$60,00 por pal",
       "total": 8586.39,
       "itens": [
@@ -54533,6 +57386,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2001.0,
       "itens": [
@@ -54566,6 +57421,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3627",
       "obs": "",
       "total": 558.14,
       "itens": [
@@ -54613,6 +57470,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2927",
       "obs": "",
       "total": 8246.4,
       "itens": [
@@ -54779,6 +57638,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PRECO ABAIXO DO MINIMO PERMITIDO",
       "obs": "",
       "total": 158160.0,
       "itens": [
@@ -54819,6 +57680,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 10260.0,
       "itens": [
@@ -54845,6 +57708,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7601",
       "obs": "Entregar este pedido urgente  - degustacao no cliente.",
       "total": 494.92,
       "itens": [
@@ -54885,6 +57750,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :99",
       "obs": "Entregar este pedido urgente  - degustacao no cliente.",
       "total": 1483.56,
       "itens": [
@@ -54918,6 +57785,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5167",
       "obs": "Cliente so recebe mercadorias com horario agendado.",
       "total": 1785.6,
       "itens": [
@@ -54958,6 +57827,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5165",
       "obs": "Cliente so recebe mercadorias com horario agendado.",
       "total": 535.68,
       "itens": [
@@ -54984,6 +57855,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5167",
       "obs": "Cliente so recebe mercadorias com horario agendado.",
       "total": 446.4,
       "itens": [
@@ -55017,6 +57890,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5167",
       "obs": "Cliente so recebe mercadorias com horario agendado.",
       "total": 624.96,
       "itens": [
@@ -55050,6 +57925,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5167",
       "obs": "Cliente so recebe mercadorias com horario agendado.",
       "total": 1517.76,
       "itens": [
@@ -55090,6 +57967,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5167",
       "obs": "Cliente so recebe mercadorias com horario agendado.",
       "total": 1339.2,
       "itens": [
@@ -55123,6 +58002,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5167",
       "obs": "Cliente so recebe mercadorias com horario agendado.",
       "total": 892.8,
       "itens": [
@@ -55156,6 +58037,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5167",
       "obs": "Cliente so recebe mercadorias com horario agendado.",
       "total": 446.4,
       "itens": [
@@ -55189,6 +58072,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5167",
       "obs": "Cliente so recebe mercadorias com horario agendado.",
       "total": 1785.6,
       "itens": [
@@ -55229,6 +58114,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7389",
       "obs": "Cliente so recebe mercadorias com horario agendado.",
       "total": 3723.0,
       "itens": [
@@ -55269,6 +58156,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5165",
       "obs": "Cliente so recebe mercadorias com horario agendado.",
       "total": 535.68,
       "itens": [
@@ -55295,6 +58184,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :674",
       "obs": "",
       "total": 688.8,
       "itens": [
@@ -55328,6 +58219,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7081",
       "obs": "",
       "total": 514.24,
       "itens": [
@@ -55368,6 +58261,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 325.92,
       "itens": [
@@ -55394,6 +58289,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5086",
       "obs": "",
       "total": 2170.56,
       "itens": [
@@ -55455,6 +58352,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6259",
       "obs": "entrega agendada para o dia 01/07",
       "total": 315.93,
       "itens": [
@@ -55502,6 +58401,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6259",
       "obs": "entrega agendada para o dia 01/07",
       "total": 315.93,
       "itens": [
@@ -55549,6 +58450,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5405",
       "obs": "",
       "total": 536.4,
       "itens": [
@@ -55575,6 +58478,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6565",
       "obs": "entregar nas caixas originais e integras",
       "total": 2748.0,
       "itens": [
@@ -55601,6 +58506,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 472.8,
       "itens": [
@@ -55634,6 +58541,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 472.8,
       "itens": [
@@ -55667,6 +58576,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 282.3,
       "itens": [
@@ -55707,6 +58618,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :119",
       "obs": "",
       "total": 4985.0,
       "itens": [
@@ -55740,6 +58653,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 5410.6,
       "itens": [
@@ -55843,6 +58758,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA: 01/07 - DEPOIS DAS 10HRS",
       "total": 1931.6,
       "itens": [
@@ -55904,6 +58821,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 491.6,
       "itens": [
@@ -55930,6 +58849,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PRECO ABAIXO DO MINIMO PERMITIDO",
       "obs": "",
       "total": 736.52,
       "itens": [
@@ -55984,6 +58905,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 269.9,
       "itens": [
@@ -56017,6 +58940,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7081",
       "obs": "entrega 08:00hs as 15:00hs",
       "total": 276.0,
       "itens": [
@@ -56043,6 +58968,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7081",
       "obs": "entrega 08:00hs as 15:00hs",
       "total": 690.0,
       "itens": [
@@ -56069,6 +58996,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7081",
       "obs": "entrega 08:00hs as 15:00hs",
       "total": 276.0,
       "itens": [
@@ -56095,6 +59024,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7081",
       "obs": "entrega 08:00hs as 15:00hs",
       "total": 276.0,
       "itens": [
@@ -56121,6 +59052,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7081",
       "obs": "entrega 08:00hs as 15:00hs",
       "total": 414.0,
       "itens": [
@@ -56147,6 +59080,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7081",
       "obs": "entrega 08:00hs as 15:00hs",
       "total": 276.0,
       "itens": [
@@ -56173,6 +59108,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7081",
       "obs": "entrega 08:00hs as 15:00hs",
       "total": 276.0,
       "itens": [
@@ -56199,6 +59136,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGAR 03/07",
       "total": 2290.14,
       "itens": [
@@ -56288,6 +59227,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGAR 06/07",
       "total": 1450.5,
       "itens": [
@@ -56356,6 +59297,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGAR 06/07",
       "total": 2229.66,
       "itens": [
@@ -56438,6 +59381,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGAR 06/07",
       "total": 364.38,
       "itens": [
@@ -56478,6 +59423,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGAR 06/07",
       "total": 670.2,
       "itens": [
@@ -56525,6 +59472,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 488.47,
       "itens": [
@@ -56558,6 +59507,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 10899.2,
       "itens": [
@@ -57144,6 +60095,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 32280.0,
       "itens": [
@@ -57170,6 +60123,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 634.5,
       "itens": [
@@ -57189,7 +60144,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "460000084",
@@ -57203,6 +60158,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 5022.0,
       "itens": [
@@ -57215,7 +60172,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "460000085",
@@ -57229,6 +60186,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1913.34,
       "itens": [
@@ -57276,7 +60235,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "460000088",
@@ -57290,6 +60249,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 20844.0,
       "itens": [
@@ -57302,7 +60263,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "460000090",
@@ -57316,6 +60277,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 517.5,
       "itens": [
@@ -57342,6 +60305,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 295.37,
       "itens": [
@@ -57375,6 +60340,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1712.4,
       "itens": [
@@ -57422,6 +60389,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 13895.28,
       "itens": [
@@ -57504,6 +60473,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1014.0,
       "itens": [
@@ -57530,6 +60501,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 215.76,
       "itens": [
@@ -57556,6 +60529,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 6697.51,
       "itens": [
@@ -57610,6 +60585,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 929.5,
       "itens": [
@@ -57657,6 +60634,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2277.12,
       "itens": [
@@ -57704,6 +60683,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1184.46,
       "itens": [
@@ -57751,6 +60732,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 369.84,
       "itens": [
@@ -57784,6 +60767,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1239.46,
       "itens": [
@@ -57831,6 +60816,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1031.58,
       "itens": [
@@ -57871,6 +60858,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1409.04,
       "itens": [
@@ -57918,6 +60907,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1256.26,
       "itens": [
@@ -57965,6 +60956,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 7287.6,
       "itens": [
@@ -58005,6 +60998,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 790.8,
       "itens": [
@@ -58031,6 +61026,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1388.4,
       "itens": [
@@ -58071,6 +61068,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 43184.0,
       "itens": [
@@ -58097,6 +61096,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 28795.2,
       "itens": [
@@ -58109,7 +61110,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "391000192",
@@ -58123,6 +61124,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 4136.4,
       "itens": [
@@ -58149,6 +61152,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1832.4,
       "itens": [
@@ -58175,7 +61180,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000121",
@@ -58189,6 +61194,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 9056.28,
       "itens": [
@@ -58236,7 +61243,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000123",
@@ -58250,6 +61257,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2734.44,
       "itens": [
@@ -58290,7 +61299,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "371000268",
@@ -58304,6 +61313,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 23136.72,
       "itens": [
@@ -58428,6 +61439,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1898.34,
       "itens": [
@@ -58503,6 +61516,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 377.4,
       "itens": [
@@ -58536,6 +61551,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1103.04,
       "itens": [
@@ -58562,6 +61579,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2537.34,
       "itens": [
@@ -58644,6 +61663,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 445.74,
       "itens": [
@@ -58684,6 +61705,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1173.54,
       "itens": [
@@ -58745,6 +61768,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 625.74,
       "itens": [
@@ -58792,6 +61817,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1491.6,
       "itens": [
@@ -58846,6 +61873,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 607.74,
       "itens": [
@@ -58886,6 +61915,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 845.26,
       "itens": [
@@ -58912,7 +61943,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000125",
@@ -58926,6 +61957,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 326.7,
       "itens": [
@@ -58938,7 +61971,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000127",
@@ -58952,6 +61985,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 539.4,
       "itens": [
@@ -58964,7 +61999,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000128",
@@ -58978,6 +62013,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3009.0,
       "itens": [
@@ -58997,7 +62034,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "476000131",
@@ -59011,6 +62048,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 912.3,
       "itens": [
@@ -59030,7 +62069,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000132",
@@ -59044,6 +62083,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3976.8,
       "itens": [
@@ -59063,7 +62104,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000348",
@@ -59077,6 +62118,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2779.32,
       "itens": [
@@ -59110,7 +62153,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000349",
@@ -59124,6 +62167,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3954.0,
       "itens": [
@@ -59136,7 +62181,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000350",
@@ -59150,6 +62195,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2456.58,
       "itens": [
@@ -59183,7 +62230,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "426000351",
@@ -59197,6 +62244,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 27208.2,
       "itens": [
@@ -59251,7 +62300,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000116",
@@ -59265,6 +62314,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 6770.4,
       "itens": [
@@ -59298,7 +62349,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000117",
@@ -59312,6 +62363,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 4781.4,
       "itens": [
@@ -59338,7 +62391,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000118",
@@ -59352,6 +62405,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1974.0,
       "itens": [
@@ -59364,7 +62419,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000120",
@@ -59378,6 +62433,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2872.8,
       "itens": [
@@ -59397,7 +62454,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000121",
@@ -59411,6 +62468,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3539.4,
       "itens": [
@@ -59444,6 +62503,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 910.18,
       "itens": [
@@ -59463,7 +62524,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "466000036",
@@ -59477,6 +62538,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1040.4,
       "itens": [
@@ -59489,7 +62552,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "467000035",
@@ -59503,6 +62566,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1510.7,
       "itens": [
@@ -59536,6 +62601,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2397.6,
       "itens": [
@@ -59562,6 +62629,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 11113.29,
       "itens": [
@@ -59623,6 +62692,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 2757.6,
       "itens": [
@@ -59649,6 +62720,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 535.36,
       "itens": [
@@ -59689,6 +62762,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 443.4,
       "itens": [
@@ -59736,6 +62811,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1035.78,
       "itens": [
@@ -59797,6 +62874,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 409.23,
       "itens": [
@@ -59872,6 +62951,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2334.0,
       "itens": [
@@ -59905,6 +62986,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 4660.2,
       "itens": [
@@ -59938,7 +63021,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588002919",
@@ -59952,6 +63035,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 16140.0,
       "itens": [
@@ -59978,6 +63063,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 427808.88,
       "itens": [
@@ -60053,7 +63140,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "474000032",
@@ -60067,6 +63154,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1121.6,
       "itens": [
@@ -60107,6 +63196,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 479.2,
       "itens": [
@@ -60133,6 +63224,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 467208.0,
       "itens": [
@@ -60159,6 +63252,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 265550.4,
       "itens": [
@@ -60185,6 +63280,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 470379.0,
       "itens": [
@@ -60246,6 +63343,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 270293.4,
       "itens": [
@@ -60328,6 +63427,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3407.88,
       "itens": [
@@ -60389,7 +63490,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "485000011",
@@ -60403,6 +63504,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2372.4,
       "itens": [
@@ -60429,6 +63532,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 276.7,
       "itens": [
@@ -60455,7 +63560,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000042",
@@ -60469,6 +63574,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 219.7,
       "itens": [
@@ -60488,7 +63595,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000043",
@@ -60502,6 +63609,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1228.35,
       "itens": [
@@ -60591,7 +63700,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000045",
@@ -60605,6 +63714,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1378.8,
       "itens": [
@@ -60617,7 +63728,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000046",
@@ -60631,6 +63742,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 551.52,
       "itens": [
@@ -60643,7 +63756,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000047",
@@ -60657,6 +63770,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 1378.8,
       "itens": [
@@ -60669,7 +63784,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "312000037",
@@ -60683,6 +63798,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "HORÁRIO COMERCIAL DE 2ª A 6ª SE POSSÍVEL ENTREGAR ATÉ 6ª",
       "total": 502.8,
       "itens": [
@@ -60709,6 +63826,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :129",
       "obs": "cliente recebe apos 15:30 horas",
       "total": 326.5,
       "itens": [
@@ -60756,6 +63875,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :674",
       "obs": "",
       "total": 2934.0,
       "itens": [
@@ -60782,6 +63903,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :674",
       "obs": "",
       "total": 207.6,
       "itens": [
@@ -60815,6 +63938,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4394",
       "obs": "",
       "total": 369.36,
       "itens": [
@@ -60855,6 +63980,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :237",
       "obs": "",
       "total": 2626.0,
       "itens": [
@@ -60895,6 +64022,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2703",
       "obs": "colocar prazo 30/45/60",
       "total": 2993.4,
       "itens": [
@@ -60949,6 +64078,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2703",
       "obs": "colocar prazo: 30/45/60",
       "total": 2993.4,
       "itens": [
@@ -61003,6 +64134,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :16",
       "obs": "",
       "total": 302.3,
       "itens": [
@@ -61036,6 +64169,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :16",
       "obs": "",
       "total": 625.82,
       "itens": [
@@ -61076,6 +64211,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 329.4,
       "itens": [
@@ -61102,6 +64239,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1126.0,
       "itens": [
@@ -61170,6 +64309,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :1039",
       "obs": "CD",
       "total": 214156.8,
       "itens": [
@@ -61217,6 +64358,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PRECO ABAIXO DO MINIMO PERMITIDO",
       "obs": "CD",
       "total": 62122.8,
       "itens": [
@@ -61271,6 +64414,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4443",
       "obs": "CD",
       "total": 6615.0,
       "itens": [
@@ -61325,6 +64470,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4427",
       "obs": "CD",
       "total": 31008.0,
       "itens": [
@@ -61351,6 +64498,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2703",
       "obs": "",
       "total": 478.8,
       "itens": [
@@ -61384,6 +64533,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "AGENDAMENTO",
       "total": 55800.0,
       "itens": [
@@ -61410,6 +64561,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "PEDIDO 2168070",
       "total": 1006.2,
       "itens": [
@@ -61450,6 +64603,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "PEDIDO 2168071",
       "total": 676.2,
       "itens": [
@@ -61490,6 +64645,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "PEDIDO 2168072",
       "total": 1215.6,
       "itens": [
@@ -61537,6 +64694,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "PEDIDO 2168073",
       "total": 539.4,
       "itens": [
@@ -61563,6 +64722,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "PEDIDO 2168074",
       "total": 1215.6,
       "itens": [
@@ -61610,6 +64771,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "PEDIDO 2168070",
       "total": 676.2,
       "itens": [
@@ -61650,6 +64813,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "PEDIDO 2168076",
       "total": 909.6,
       "itens": [
@@ -61697,6 +64862,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "PEDIDO 2168077",
       "total": 700.2,
       "itens": [
@@ -61737,6 +64904,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7331",
       "obs": "Cliente so recebe mercadorias com horario agendado.",
       "total": 8246.64,
       "itens": [
@@ -61826,6 +64995,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7351",
       "obs": "Entregar este pedido urgente.",
       "total": 2461.4,
       "itens": [
@@ -61936,6 +65107,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :418",
       "obs": "Entregar este pedido urgente.",
       "total": 1521.24,
       "itens": [
@@ -61976,6 +65149,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7356",
       "obs": "Entregar este pedido urgente.",
       "total": 114.6,
       "itens": [
@@ -62002,6 +65177,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7351",
       "obs": "Entregar este pedido urgente.",
       "total": 2124.73,
       "itens": [
@@ -62112,6 +65289,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3054",
       "obs": "Entregar este pedido urgente.",
       "total": 3796.54,
       "itens": [
@@ -62173,6 +65352,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7351",
       "obs": "Entregar este pedido no dia   03/07/26.",
       "total": 6228.98,
       "itens": [
@@ -62304,6 +65485,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3054",
       "obs": "Entregar este pedido no dia   03/07/26.",
       "total": 2949.12,
       "itens": [
@@ -62358,6 +65541,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7351",
       "obs": "Entregar este pedido urgente.",
       "total": 2232.52,
       "itens": [
@@ -62475,6 +65660,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :99",
       "obs": "Entregar este pedido urgente.",
       "total": 3297.36,
       "itens": [
@@ -62529,6 +65716,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7702",
       "obs": "",
       "total": 539.4,
       "itens": [
@@ -62555,6 +65744,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5579",
       "obs": "",
       "total": 540.6,
       "itens": [
@@ -62595,6 +65786,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :18",
       "obs": "",
       "total": 3393.6,
       "itens": [
@@ -62628,6 +65821,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7702",
       "obs": "",
       "total": 267.3,
       "itens": [
@@ -62661,6 +65856,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7081",
       "obs": "",
       "total": 345.6,
       "itens": [
@@ -62694,6 +65891,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGA AGENDADA: 30/06 - 08HRS AS 15HRS",
       "total": 452.28,
       "itens": [
@@ -62734,6 +65933,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 47124.0,
       "itens": [
@@ -62788,6 +65989,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 817.5,
       "itens": [
@@ -62835,6 +66038,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :378",
       "obs": "",
       "total": 382.4,
       "itens": [
@@ -62868,6 +66073,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4689",
       "obs": "",
       "total": 3200.3,
       "itens": [
@@ -62978,6 +66185,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3764",
       "obs": "",
       "total": 3054.28,
       "itens": [
@@ -63151,6 +66360,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4459",
       "obs": "",
       "total": 685.9,
       "itens": [
@@ -63205,6 +66416,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7017",
       "obs": "",
       "total": 64.8,
       "itens": [
@@ -63231,6 +66444,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PEDIDO COM ITENS FALTANTES",
       "obs": "",
       "total": 64.8,
       "itens": [
@@ -63257,6 +66472,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA: 30/06 - 09HRS AS 17HRS",
       "total": 667.06,
       "itens": [
@@ -63311,6 +66528,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4824",
       "obs": "",
       "total": 449.5,
       "itens": [
@@ -63351,6 +66570,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7018",
       "obs": "",
       "total": 186.01,
       "itens": [
@@ -63384,6 +66605,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7018",
       "obs": "",
       "total": 979.2,
       "itens": [
@@ -63424,6 +66647,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PRODUTO SEM ESTOQUE",
       "obs": "",
       "total": 216.21,
       "itens": [
@@ -63457,6 +66682,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "PEDIDO 10058665",
       "total": 39897.6,
       "itens": [
@@ -63490,6 +66717,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA: 30/06 - 08HRS AS 16HRS",
       "total": 862.8,
       "itens": [
@@ -63530,6 +66759,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA: 30/06 - 08HRS AS 16HRS",
       "total": 828.24,
       "itens": [
@@ -63584,6 +66815,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA: 30/06 - 08HRS AS 16HRS",
       "total": 828.24,
       "itens": [
@@ -63638,6 +66871,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA: 30/06 - 08HRS AS 16HRS",
       "total": 828.24,
       "itens": [
@@ -63692,6 +66927,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA: 30/06 - 08HRS AS 16HRS",
       "total": 828.24,
       "itens": [
@@ -63746,6 +66983,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 467.1,
       "itens": [
@@ -63779,6 +67018,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 512.04,
       "itens": [
@@ -63819,6 +67060,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 503.4,
       "itens": [
@@ -63831,7 +67074,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000124",
@@ -63845,6 +67088,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 973.6,
       "itens": [
@@ -63871,7 +67116,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000344",
@@ -63885,6 +67130,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 20791.2,
       "itens": [
@@ -63925,7 +67172,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "426000345",
@@ -63939,6 +67186,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2157.24,
       "itens": [
@@ -63972,7 +67221,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "426000347",
@@ -63986,6 +67235,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 10380.0,
       "itens": [
@@ -64019,6 +67270,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2397.6,
       "itens": [
@@ -64045,6 +67298,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2494.67,
       "itens": [
@@ -64106,7 +67361,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588002901",
@@ -64120,6 +67375,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "O Cliente esta bloqueado.",
       "obs": "",
       "total": 2486.4,
       "itens": [
@@ -64146,6 +67403,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 7308.0,
       "itens": [
@@ -64179,6 +67438,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 10600.9,
       "itens": [
@@ -64240,7 +67501,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588002907",
@@ -64254,6 +67515,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 5500.8,
       "itens": [
@@ -64287,6 +67550,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 5256.0,
       "itens": [
@@ -64299,7 +67564,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "491000003",
@@ -64313,6 +67578,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 4754.9,
       "itens": [
@@ -64339,7 +67606,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "491000004",
@@ -64353,6 +67620,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1917.4,
       "itens": [
@@ -64386,7 +67655,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "491000005",
@@ -64400,6 +67669,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 878.9,
       "itens": [
@@ -64412,7 +67683,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "491000006",
@@ -64426,6 +67697,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3009.9,
       "itens": [
@@ -64459,7 +67732,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588002909",
@@ -64473,6 +67746,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 57542.4,
       "itens": [
@@ -64485,7 +67760,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "469000040",
@@ -64499,6 +67774,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 13664.8,
       "itens": [
@@ -64567,7 +67844,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "470000027",
@@ -64581,6 +67858,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 414.0,
       "itens": [
@@ -64593,7 +67872,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000041",
@@ -64607,6 +67886,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 729.6,
       "itens": [
@@ -64626,7 +67907,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "489000020",
@@ -64640,6 +67921,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 828.0,
       "itens": [
@@ -64652,7 +67935,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "354000585",
@@ -64666,6 +67949,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3764",
       "obs": "entregar o pedido dia 01/07/2026",
       "total": 1564.68,
       "itens": [
@@ -64706,6 +67991,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "08:00 AS 15:00",
       "total": 1103.56,
       "itens": [
@@ -64746,6 +68033,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 862.8,
       "itens": [
@@ -64772,6 +68061,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 23940.0,
       "itens": [
@@ -64798,6 +68089,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2710",
       "obs": "",
       "total": 1266.9,
       "itens": [
@@ -64852,6 +68145,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3154",
       "obs": "",
       "total": 639.5,
       "itens": [
@@ -64878,6 +68173,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 325.92,
       "itens": [
@@ -64911,6 +68208,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 450.49,
       "itens": [
@@ -64958,6 +68257,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 325.92,
       "itens": [
@@ -64984,6 +68285,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 325.92,
       "itens": [
@@ -65017,6 +68320,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 919.68,
       "itens": [
@@ -65064,6 +68369,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 325.92,
       "itens": [
@@ -65097,6 +68404,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2419.08,
       "itens": [
@@ -65179,6 +68488,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6047",
       "obs": "",
       "total": 375.36,
       "itens": [
@@ -65212,6 +68523,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 505.1,
       "itens": [
@@ -65252,6 +68565,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 294.0,
       "itens": [
@@ -65278,6 +68593,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :378",
       "obs": "",
       "total": 199.0,
       "itens": [
@@ -65304,6 +68621,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 302.7,
       "itens": [
@@ -65330,6 +68649,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 585.0,
       "itens": [
@@ -65370,6 +68691,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2159.64,
       "itens": [
@@ -65396,6 +68719,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 9487.2,
       "itens": [
@@ -65436,6 +68761,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 41159.9,
       "itens": [
@@ -65483,7 +68810,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "476000120",
@@ -65497,6 +68824,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 985.92,
       "itens": [
@@ -65509,7 +68838,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000121",
@@ -65523,6 +68852,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 467.6,
       "itens": [
@@ -65535,7 +68866,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000122",
@@ -65549,6 +68880,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2661.6,
       "itens": [
@@ -65568,7 +68901,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "438000113",
@@ -65582,6 +68915,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2334.0,
       "itens": [
@@ -65608,6 +68943,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 6348.0,
       "itens": [
@@ -65634,6 +68971,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 10428.0,
       "itens": [
@@ -65653,7 +68992,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000112",
@@ -65667,6 +69006,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2755.2,
       "itens": [
@@ -65700,7 +69041,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588002885",
@@ -65714,6 +69055,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Prazo mÃ©dio do plano Ã© superior ao prazo mÃ©dio do cliente",
       "obs": "",
       "total": 1867.2,
       "itens": [
@@ -65754,6 +69097,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 12912.0,
       "itens": [
@@ -65780,6 +69125,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 34914.0,
       "itens": [
@@ -65792,7 +69139,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588002892",
@@ -65806,6 +69153,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3632.4,
       "itens": [
@@ -65832,7 +69181,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588002894",
@@ -65846,6 +69195,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3261/004",
       "total": 13794.0,
       "itens": [
@@ -65872,6 +69223,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3258/008",
       "total": 3331.2,
       "itens": [
@@ -65912,6 +69265,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1815.06,
       "itens": [
@@ -65959,6 +69314,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 7192.8,
       "itens": [
@@ -65985,6 +69342,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2876.4,
       "itens": [
@@ -66004,7 +69363,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "490000013",
@@ -66018,6 +69377,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3475.2,
       "itens": [
@@ -66037,7 +69398,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "493000012",
@@ -66051,6 +69412,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 430.51,
       "itens": [
@@ -66091,6 +69454,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "O Cliente esta bloqueado.",
       "obs": "",
       "total": 407.4,
       "itens": [
@@ -66117,6 +69482,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1513.23,
       "itens": [
@@ -66192,6 +69559,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2104.48,
       "itens": [
@@ -66246,7 +69615,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000039",
@@ -66260,6 +69629,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 539.4,
       "itens": [
@@ -66272,7 +69643,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "477000040",
@@ -66286,6 +69657,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1091.92,
       "itens": [
@@ -66340,7 +69713,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "327009290",
@@ -66354,6 +69727,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "09H AS 13H",
       "total": 206.92,
       "itens": [
@@ -66394,6 +69769,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :119",
       "obs": "ligar cliente. 30:00 minutos antes",
       "total": 415.36,
       "itens": [
@@ -66427,6 +69804,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :315",
       "obs": "pedido 0494741",
       "total": 9007.2,
       "itens": [
@@ -66495,6 +69874,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "DATA DA ENTREGA 30/06",
       "total": 1184.64,
       "itens": [
@@ -66521,6 +69902,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 856.8,
       "itens": [
@@ -66561,6 +69944,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4427",
       "obs": "cD",
       "total": 13872.0,
       "itens": [
@@ -66587,6 +69972,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :674",
       "obs": "Ceasa",
       "total": 65178.0,
       "itens": [
@@ -66641,6 +70028,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PRECO ABAIXO DO MINIMO PERMITIDO",
       "obs": "Ceasa",
       "total": 5752.8,
       "itens": [
@@ -66681,6 +70070,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGAR SEGUNDA-FEIRA (29/06)",
       "total": 14998.2,
       "itens": [
@@ -66721,6 +70112,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 223.95,
       "itens": [
@@ -66747,6 +70140,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA DAS 08H ÀS 15H - TAXA DE DESCARGA R$ 40,00 POR PALLET",
       "total": 4718.28,
       "itens": [
@@ -66801,6 +70196,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2799",
       "obs": "",
       "total": 3401.18,
       "itens": [
@@ -66904,6 +70301,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3011",
       "obs": "",
       "total": 562.5,
       "itens": [
@@ -66951,6 +70350,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :34",
       "obs": "Cliente so recebe mercadorias com horario agendado.",
       "total": 427.68,
       "itens": [
@@ -66977,6 +70378,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3761",
       "obs": "Cliente so recebe mercadorias com horario agendado.",
       "total": 6989.28,
       "itens": [
@@ -67045,6 +70448,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3480",
       "obs": "",
       "total": 2799.6,
       "itens": [
@@ -67071,6 +70476,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5038",
       "obs": "",
       "total": 309.8,
       "itens": [
@@ -67097,6 +70504,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :37",
       "obs": "",
       "total": 431.28,
       "itens": [
@@ -67137,6 +70546,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7016",
       "obs": "",
       "total": 476.4,
       "itens": [
@@ -67177,6 +70588,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PEDIDO COM ITENS FALTANTES",
       "obs": "",
       "total": 66.6,
       "itens": [
@@ -67203,6 +70616,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGAR SEGUNDA-FEIRA (29/06)",
       "total": 13200.0,
       "itens": [
@@ -67229,6 +70644,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5089",
       "obs": "",
       "total": 1276.8,
       "itens": [
@@ -67283,6 +70700,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "PEDIDO 201117",
       "total": 816.0,
       "itens": [
@@ -67309,6 +70728,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "PEDIDO 78458",
       "total": 408.0,
       "itens": [
@@ -67335,6 +70756,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 597.0,
       "itens": [
@@ -67361,6 +70784,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 1077.6,
       "itens": [
@@ -67387,6 +70812,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2710",
       "obs": "",
       "total": 727.9,
       "itens": [
@@ -67420,6 +70847,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 1749.0,
       "itens": [
@@ -67446,6 +70875,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1079.4,
       "itens": [
@@ -67479,6 +70910,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 357.6,
       "itens": [
@@ -67512,6 +70945,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 592.68,
       "itens": [
@@ -67545,6 +70980,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2089",
       "obs": "",
       "total": 429.6,
       "itens": [
@@ -67571,6 +71008,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 299.6,
       "itens": [
@@ -67611,6 +71050,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :479",
       "obs": "data entrega: 26/06",
       "total": 3484.64,
       "itens": [
@@ -67658,6 +71099,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 1704.0,
       "itens": [
@@ -67698,6 +71141,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 341.2,
       "itens": [
@@ -67717,7 +71162,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "463000039",
@@ -67731,6 +71176,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 323.64,
       "itens": [
@@ -67764,6 +71211,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 6348.0,
       "itens": [
@@ -67776,7 +71225,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000117",
@@ -67790,6 +71239,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 6348.0,
       "itens": [
@@ -67802,7 +71253,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000118",
@@ -67816,6 +71267,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 7090.8,
       "itens": [
@@ -67835,7 +71288,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000119",
@@ -67849,6 +71302,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 7090.8,
       "itens": [
@@ -67868,7 +71323,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000118",
@@ -67882,6 +71337,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1198.8,
       "itens": [
@@ -67894,7 +71351,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000119",
@@ -67908,6 +71365,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1198.8,
       "itens": [
@@ -67920,7 +71379,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000337",
@@ -67934,6 +71393,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "Seg a Sex das 8 as 12 e das 14 as 17 grs",
       "total": 2805.6,
       "itens": [
@@ -67946,7 +71407,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000338",
@@ -67960,6 +71421,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2484.0,
       "itens": [
@@ -67972,7 +71435,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000339",
@@ -67986,6 +71449,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 4420.2,
       "itens": [
@@ -68012,7 +71477,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "433000108",
@@ -68026,6 +71491,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "horario de recebimento de seg a sex das 8 as 16h",
       "total": 358.8,
       "itens": [
@@ -68052,6 +71519,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "entrega agendada para sabado dia 27/05 das 8 as 14h",
       "total": 1198.8,
       "itens": [
@@ -68078,6 +71547,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "horario de recebimento de seg a sex das 8 as 12 e das 14 as 18h",
       "total": 19995.6,
       "itens": [
@@ -68111,7 +71582,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "467000033",
@@ -68125,6 +71596,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 419.4,
       "itens": [
@@ -68151,6 +71624,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2334.0,
       "itens": [
@@ -68184,6 +71659,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 4458.9,
       "itens": [
@@ -68287,6 +71764,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3267/008",
       "total": 6706.8,
       "itens": [
@@ -68327,6 +71806,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3246/004",
       "total": 16140.0,
       "itens": [
@@ -68353,6 +71834,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3250/004",
       "total": 2334.0,
       "itens": [
@@ -68386,6 +71869,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3252/003",
       "total": 4842.0,
       "itens": [
@@ -68412,6 +71897,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "O Cliente esta bloqueado.",
       "obs": "3073/006",
       "total": 2397.6,
       "itens": [
@@ -68438,6 +71925,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3263/007",
       "total": 11988.0,
       "itens": [
@@ -68464,6 +71953,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 7228.8,
       "itens": [
@@ -68483,7 +71974,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "469000038",
@@ -68497,6 +71988,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 597.94,
       "itens": [
@@ -68523,7 +72016,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "470000025",
@@ -68537,6 +72030,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 275.76,
       "itens": [
@@ -68549,7 +72044,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "470000026",
@@ -68563,6 +72058,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 275.76,
       "itens": [
@@ -68575,7 +72072,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000036",
@@ -68589,6 +72086,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 539.4,
       "itens": [
@@ -68601,7 +72100,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000038",
@@ -68615,6 +72114,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 334.8,
       "itens": [
@@ -68627,7 +72128,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "488000003",
@@ -68641,6 +72142,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 6513.6,
       "itens": [
@@ -68674,7 +72177,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "327009273",
@@ -68688,6 +72191,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "cliente recebe apos 16:00 horas",
       "total": 807.1,
       "itens": [
@@ -68742,6 +72247,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :463",
       "obs": "",
       "total": 305.78,
       "itens": [
@@ -68789,6 +72296,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PRECO ABAIXO DO MINIMO PERMITIDO",
       "obs": "",
       "total": 2045.7,
       "itens": [
@@ -68836,6 +72345,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :674",
       "obs": "",
       "total": 395.5,
       "itens": [
@@ -68869,6 +72380,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3198",
       "obs": "Loja",
       "total": 12955.32,
       "itens": [
@@ -68895,6 +72408,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGAR AMANHÃ (25/06)",
       "total": 13230.0,
       "itens": [
@@ -68921,6 +72436,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGAR AMANHÃ (25/06)",
       "total": 5792.78,
       "itens": [
@@ -68975,6 +72492,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA:25/06 - 08HRS AS 15HRS",
       "total": 658.8,
       "itens": [
@@ -69015,6 +72534,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA: 25/06 - 08HRS AS 15HRS",
       "total": 5798.7,
       "itens": [
@@ -69111,6 +72632,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2077.2,
       "itens": [
@@ -69172,6 +72695,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :296",
       "obs": "",
       "total": 419.7,
       "itens": [
@@ -69198,6 +72723,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 489.3,
       "itens": [
@@ -69224,6 +72751,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3766",
       "obs": "",
       "total": 1863.6,
       "itens": [
@@ -69271,6 +72800,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3759",
       "obs": "",
       "total": 1450.2,
       "itens": [
@@ -69304,6 +72835,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3642",
       "obs": "",
       "total": 377.2,
       "itens": [
@@ -69358,6 +72891,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4884",
       "obs": "",
       "total": 1353.0,
       "itens": [
@@ -69461,6 +72996,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7207",
       "obs": "",
       "total": 438.0,
       "itens": [
@@ -69515,6 +73052,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7702",
       "obs": "apos as 9h",
       "total": 254.6,
       "itens": [
@@ -69555,6 +73094,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7018",
       "obs": "entrega urgente",
       "total": 193.68,
       "itens": [
@@ -69588,6 +73129,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA 25/06 - ATE AS 14H",
       "total": 1017.6,
       "itens": [
@@ -69628,6 +73171,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1077.0,
       "itens": [
@@ -69675,6 +73220,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 5616.0,
       "itens": [
@@ -69701,6 +73248,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 525.6,
       "itens": [
@@ -69727,6 +73276,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 40407.5,
       "itens": [
@@ -69774,7 +73325,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "463000038",
@@ -69788,6 +73339,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 862.2,
       "itens": [
@@ -69828,6 +73381,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 13821.6,
       "itens": [
@@ -69861,6 +73416,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 43184.0,
       "itens": [
@@ -69887,6 +73444,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 7016.04,
       "itens": [
@@ -69997,6 +73556,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 23701.32,
       "itens": [
@@ -70170,6 +73731,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "recebimento de seg a sex das 9h as 17h",
       "total": 933.3,
       "itens": [
@@ -70196,6 +73759,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "recebimento de seg a sex das 6h as 12h",
       "total": 2508.0,
       "itens": [
@@ -70222,6 +73787,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "recebimento de seg a sex das 6h as 12h",
       "total": 8365.8,
       "itens": [
@@ -70269,6 +73836,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "recebimento de seg a sex das 6h as 12h",
       "total": 25375.2,
       "itens": [
@@ -70323,6 +73892,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "recebimento de seg a sex das 6h as 12h",
       "total": 12205.2,
       "itens": [
@@ -70363,6 +73934,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "recebimento de seg a sex das 6h as 12h",
       "total": 9145.2,
       "itens": [
@@ -70410,6 +73983,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "recebimento de seg a sex das 6h as 12h",
       "total": 10297.8,
       "itens": [
@@ -70457,6 +74032,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "recebimento de seg a sex das 6h as 12h",
       "total": 5371.2,
       "itens": [
@@ -70497,6 +74074,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "recebimento de seg a sex das 6h as 12h",
       "total": 5371.2,
       "itens": [
@@ -70537,6 +74116,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 167.8,
       "itens": [
@@ -70549,7 +74130,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000112",
@@ -70563,6 +74144,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 789.6,
       "itens": [
@@ -70575,7 +74158,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000101",
@@ -70589,6 +74172,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "horario de recebimento de ter a sex das 8 as 12 e das 14 as 18h",
       "total": 2628.0,
       "itens": [
@@ -70601,7 +74186,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000102",
@@ -70615,6 +74200,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "horario de recebimento de seg a sex das 8 as 17j",
       "total": 2397.6,
       "itens": [
@@ -70641,6 +74228,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "horario de recebimento de seg a sex das 8 as 16h",
       "total": 4027.2,
       "itens": [
@@ -70674,6 +74263,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "horario de recebimento de seg a sex das 7:30 as 17h",
       "total": 778.8,
       "itens": [
@@ -70700,6 +74291,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3236/007",
       "total": 355.3,
       "itens": [
@@ -70712,7 +74305,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588002857",
@@ -70726,6 +74319,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3237/007",
       "total": 4847.1,
       "itens": [
@@ -70759,7 +74354,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "588002858",
@@ -70773,6 +74368,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3238/007",
       "total": 2741.46,
       "itens": [
@@ -70806,6 +74403,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3232/008",
       "total": 7428.0,
       "itens": [
@@ -70832,6 +74431,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3166/006",
       "total": 7008.0,
       "itens": [
@@ -70865,6 +74466,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3180/009",
       "total": 1544.4,
       "itens": [
@@ -70891,6 +74494,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3245/007",
       "total": 10040.28,
       "itens": [
@@ -70903,7 +74508,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "588002869",
@@ -70917,6 +74522,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3241/003",
       "total": 19740.0,
       "itens": [
@@ -70943,6 +74550,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3086/007",
       "total": 3880.8,
       "itens": [
@@ -70969,6 +74578,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "2990/008",
       "total": 3776.4,
       "itens": [
@@ -70995,6 +74606,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 203.4,
       "itens": [
@@ -71007,7 +74620,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "490000012",
@@ -71021,6 +74634,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 629.6,
       "itens": [
@@ -71040,7 +74655,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "470000024",
@@ -71054,6 +74669,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 275.76,
       "itens": [
@@ -71066,7 +74683,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "473000006",
@@ -71080,6 +74697,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1006.8,
       "itens": [
@@ -71092,7 +74711,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "477000034",
@@ -71106,6 +74725,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 793.76,
       "itens": [
@@ -71125,7 +74746,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000034",
@@ -71139,6 +74760,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 599.4,
       "itens": [
@@ -71151,7 +74774,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000035",
@@ -71165,6 +74788,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 599.4,
       "itens": [
@@ -71177,7 +74802,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000036",
@@ -71191,6 +74816,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2588.28,
       "itens": [
@@ -71217,7 +74844,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "487000012",
@@ -71231,6 +74858,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1713.7,
       "itens": [
@@ -71257,7 +74886,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "489000012",
@@ -71271,6 +74900,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 959.4,
       "itens": [
@@ -71297,7 +74928,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "489000013",
@@ -71311,6 +74942,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2631.1,
       "itens": [
@@ -71372,7 +75005,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "312000036",
@@ -71386,6 +75019,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 621.6,
       "itens": [
@@ -71412,6 +75047,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 8728.6,
       "itens": [
@@ -71452,6 +75089,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4401",
       "obs": "",
       "total": 338.36,
       "itens": [
@@ -71506,6 +75145,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :738",
       "obs": "PEDIDO \n0494407",
       "total": 56531.76,
       "itens": [
@@ -71651,6 +75292,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 213.78,
       "itens": [
@@ -71698,6 +75341,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4061",
       "obs": "",
       "total": 3893.1,
       "itens": [
@@ -71731,6 +75376,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 77103.6,
       "itens": [
@@ -71771,6 +75418,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PEDIDO COM ITENS FALTANTES",
       "obs": "entregar no dia 24/06 nao temos pagamento de descarga",
       "total": 383.52,
       "itens": [
@@ -71797,6 +75446,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7095",
       "obs": "entregar no dia 24/06 com pagamento de descarga no valor de R$60,00 por pal",
       "total": 1722.48,
       "itens": [
@@ -71858,6 +75509,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3627",
       "obs": "",
       "total": 287.52,
       "itens": [
@@ -71884,6 +75537,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :857",
       "obs": "",
       "total": 368.3,
       "itens": [
@@ -71931,6 +75586,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :34",
       "obs": "",
       "total": 257.7,
       "itens": [
@@ -71978,6 +75635,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5160",
       "obs": "",
       "total": 373.71,
       "itens": [
@@ -72025,6 +75684,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PRECO ABAIXO DO MINIMO PERMITIDO",
       "obs": "",
       "total": 2893.79,
       "itens": [
@@ -72072,6 +75733,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PRECO ABAIXO DO MINIMO PERMITIDO",
       "obs": "",
       "total": 4551.12,
       "itens": [
@@ -72154,6 +75817,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7389",
       "obs": "",
       "total": 2225.4,
       "itens": [
@@ -72194,6 +75859,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "entregar com caixas integras e intactas",
       "total": 1632.0,
       "itens": [
@@ -72227,6 +75894,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :378",
       "obs": "",
       "total": 267.78,
       "itens": [
@@ -72267,6 +75936,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6571",
       "obs": "",
       "total": 1224.23,
       "itens": [
@@ -72342,6 +76013,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2703",
       "obs": "",
       "total": 673.89,
       "itens": [
@@ -72431,6 +76104,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :449",
       "obs": "",
       "total": 1341.0,
       "itens": [
@@ -72576,6 +76251,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGA AGENDADA: 24/06/26 - 11H AS 17H",
       "total": 5922.0,
       "itens": [
@@ -72602,6 +76279,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :34",
       "obs": "",
       "total": 5077.2,
       "itens": [
@@ -72649,6 +76328,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6565",
       "obs": "data entrega 24/06",
       "total": 286.8,
       "itens": [
@@ -72675,6 +76356,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGAR AMANHÃ (24/06)",
       "total": 21576.0,
       "itens": [
@@ -72701,6 +76384,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "PEDIDO 10060882",
       "total": 134419.2,
       "itens": [
@@ -72776,6 +76461,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "PEDIDO 10060926",
       "total": 49795.2,
       "itens": [
@@ -72823,6 +76510,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6053",
       "obs": "entregar ate as 15:00hs",
       "total": 436.68,
       "itens": [
@@ -72891,6 +76580,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6053",
       "obs": "entregar ate as 15:00hs",
       "total": 802.92,
       "itens": [
@@ -72938,6 +76629,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6053",
       "obs": "entregar ate as 15:00hs",
       "total": 760.44,
       "itens": [
@@ -72992,6 +76685,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7081",
       "obs": "entregar ate as 15:00hs",
       "total": 838.56,
       "itens": [
@@ -73039,6 +76734,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PEDIDO COM ITENS FALTANTES",
       "obs": "entregar ate as 15:00hs",
       "total": 47.76,
       "itens": [
@@ -73065,6 +76762,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGAR AMANHÃ (24/06) ATÉ AS 10H",
       "total": 34992.0,
       "itens": [
@@ -73091,6 +76790,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 427.08,
       "itens": [
@@ -73131,6 +76832,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 559.08,
       "itens": [
@@ -73185,6 +76888,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 458.88,
       "itens": [
@@ -73225,6 +76930,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 493.38,
       "itens": [
@@ -73272,6 +76979,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 7102.8,
       "itens": [
@@ -73298,6 +77007,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "Entregar somente apos Agendamento",
       "total": 3840.0,
       "itens": [
@@ -73345,6 +77056,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 6787.21,
       "itens": [
@@ -73364,7 +77077,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000097",
@@ -73378,6 +77091,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 241.5,
       "itens": [
@@ -73390,7 +77105,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000098",
@@ -73404,6 +77119,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1341.6,
       "itens": [
@@ -73416,7 +77133,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000103",
@@ -73430,6 +77147,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2647.2,
       "itens": [
@@ -73456,7 +77175,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000108",
@@ -73470,6 +77189,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3020.4,
       "itens": [
@@ -73489,7 +77210,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000100",
@@ -73503,6 +77224,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "horario de recebimento de seg a sex das 9 as 17h",
       "total": 14095.2,
       "itens": [
@@ -73536,6 +77259,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3217/008",
       "total": 1185.6,
       "itens": [
@@ -73569,6 +77294,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3228/008",
       "total": 6900.0,
       "itens": [
@@ -73616,6 +77343,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3113/007",
       "total": 46905.6,
       "itens": [
@@ -73656,6 +77385,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3172/016",
       "total": 3948.0,
       "itens": [
@@ -73682,6 +77413,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3596.4,
       "itens": [
@@ -73708,7 +77441,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "470000023",
@@ -73722,6 +77455,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1292.1,
       "itens": [
@@ -73762,7 +77497,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "474000021",
@@ -73776,6 +77511,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1872.5,
       "itens": [
@@ -73809,7 +77546,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000031",
@@ -73823,6 +77560,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 737.1,
       "itens": [
@@ -73842,7 +77581,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "344000415",
@@ -73856,6 +77595,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1145.2,
       "itens": [
@@ -73931,6 +77672,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4236",
       "obs": "CD",
       "total": 11682.0,
       "itens": [
@@ -73957,6 +77700,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7389",
       "obs": "Cliente so recebe mercadorias com horario agendado.",
       "total": 5760.0,
       "itens": [
@@ -74004,6 +77749,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7389",
       "obs": "Cliente so recebe mercadorias com horario agendado.",
       "total": 1810.2,
       "itens": [
@@ -74044,6 +77791,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7390",
       "obs": "Cliente so recebe mercadorias com horario agendado.",
       "total": 2078.4,
       "itens": [
@@ -74084,6 +77833,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7388",
       "obs": "Cliente so recebe mercadorias com horario agendado.",
       "total": 1302.0,
       "itens": [
@@ -74110,6 +77861,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7388",
       "obs": "Cliente so recebe mercadorias com horario agendado.",
       "total": 1302.0,
       "itens": [
@@ -74136,6 +77889,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7388",
       "obs": "Cliente so recebe mercadorias com horario agendado.",
       "total": 1302.0,
       "itens": [
@@ -74162,6 +77917,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2710",
       "obs": "",
       "total": 605.0,
       "itens": [
@@ -74230,6 +77987,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3764",
       "obs": "",
       "total": 1061.4,
       "itens": [
@@ -74270,6 +78029,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3814",
       "obs": "",
       "total": 1094.44,
       "itens": [
@@ -74359,6 +78120,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :378",
       "obs": "",
       "total": 1140.43,
       "itens": [
@@ -74483,6 +78246,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 2157.12,
       "itens": [
@@ -74509,6 +78274,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1682.4,
       "itens": [
@@ -74563,6 +78330,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 2023.8,
       "itens": [
@@ -74589,6 +78358,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 1172.2,
       "itens": [
@@ -74615,6 +78386,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 43184.0,
       "itens": [
@@ -74641,6 +78414,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "recebimento de seg a sex das 9h as 15h",
       "total": 765.3,
       "itens": [
@@ -74674,6 +78449,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "recebimento de seg a sex das 9h as 15h",
       "total": 605.04,
       "itens": [
@@ -74721,6 +78498,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "recebimento de seg a sex das 9h as 15h",
       "total": 507.0,
       "itens": [
@@ -74768,6 +78547,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "recebimento de seg a sex das 9h as 15h",
       "total": 251.1,
       "itens": [
@@ -74794,6 +78575,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "recebimento de seg a sex das 9h as 15h",
       "total": 338.44,
       "itens": [
@@ -74841,6 +78624,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "recebimento de seg a sex das 9h as 15h",
       "total": 605.41,
       "itens": [
@@ -74902,6 +78687,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "recebimento de seg a sex das 9h as 15h",
       "total": 199.8,
       "itens": [
@@ -74928,6 +78715,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "recebimento de seg a sex das 9h as 15h",
       "total": 261.54,
       "itens": [
@@ -74961,6 +78750,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "recebimento de seg a sex das 9h as 15h",
       "total": 470.18,
       "itens": [
@@ -75008,6 +78799,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "Horario Conercial.",
       "total": 838.8,
       "itens": [
@@ -75034,6 +78827,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "O valor limite de credito foi excedido.  Vl. Ped.: 5994 Cred",
       "obs": "horario de recebimento de terca a sex das 9 as 17h",
       "total": 5994.0,
       "itens": [
@@ -75046,7 +78841,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588002832",
@@ -75060,6 +78855,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3203/008",
       "total": 5379.6,
       "itens": [
@@ -75100,6 +78897,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3201/012",
       "total": 8150.4,
       "itens": [
@@ -75112,7 +78911,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000029",
@@ -75126,6 +78925,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 907.19,
       "itens": [
@@ -75152,7 +78953,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "371000250",
@@ -75166,6 +78967,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "recebimento de seg a sex das 9h as 15h",
       "total": 669.63,
       "itens": [
@@ -75227,6 +79030,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :11",
       "obs": "loja  IORANE.  ( rotatoria)",
       "total": 1078.8,
       "itens": [
@@ -75253,6 +79058,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :11",
       "obs": "loja de  roupas.  IORANE    4 Andar",
       "total": 1078.8,
       "itens": [
@@ -75279,6 +79086,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4252",
       "obs": "",
       "total": 1150.56,
       "itens": [
@@ -75319,6 +79128,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA: 22/06 - 08HRS AS 15HRS",
       "total": 2283.6,
       "itens": [
@@ -75373,6 +79184,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 13050.0,
       "itens": [
@@ -75392,7 +79205,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "153001232",
@@ -75406,6 +79219,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7081",
       "obs": "entregar no dia 22/06 com pagamento de descarga no valor de R$60,00",
       "total": 776.4,
       "itens": [
@@ -75439,6 +79254,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGAR DIA 22/06",
       "total": 2542.68,
       "itens": [
@@ -75465,6 +79282,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5167",
       "obs": "Cliente so recebe mercadorias com horario agendado.",
       "total": 1517.76,
       "itens": [
@@ -75505,6 +79324,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5165",
       "obs": "Cliente so recebe mercadorias com horario agendado,",
       "total": 535.68,
       "itens": [
@@ -75538,6 +79359,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5167",
       "obs": "Cliente so recebe mercadorias com horario agendado.",
       "total": 446.4,
       "itens": [
@@ -75571,6 +79394,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5165",
       "obs": "Cliente so recebe mercadorias com horario agendado.",
       "total": 446.4,
       "itens": [
@@ -75604,6 +79429,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7391",
       "obs": "Cliente so recebe mercadorias com horario agendado.",
       "total": 480.0,
       "itens": [
@@ -75630,6 +79457,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7388",
       "obs": "Cliente so recebe mercadorias com horario agendado.",
       "total": 1302.0,
       "itens": [
@@ -75656,6 +79485,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7389",
       "obs": "Cliente so recebe mercadorias com horario agendado.",
       "total": 2043.0,
       "itens": [
@@ -75689,6 +79520,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7388",
       "obs": "Cliente so recebe mercadorias com horario agendado.",
       "total": 1302.0,
       "itens": [
@@ -75715,6 +79548,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PRECO ABAIXO DO MINIMO PERMITIDO",
       "obs": "",
       "total": 779.0,
       "itens": [
@@ -75748,6 +79583,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2089",
       "obs": "",
       "total": 429.6,
       "itens": [
@@ -75774,6 +79611,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "2993/012",
       "total": 1868.4,
       "itens": [
@@ -75793,7 +79632,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "588002804",
@@ -75807,6 +79646,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "O valor limite de credito foi excedido.  Vl. Ped.: 766.46 Cr",
       "obs": "2991/008",
       "total": 474.3,
       "itens": [
@@ -75826,7 +79667,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588002805",
@@ -75840,6 +79681,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3182/001",
       "total": 75025.66,
       "itens": [
@@ -75922,7 +79765,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "588002814",
@@ -75936,6 +79779,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3185/008",
       "total": 1322.06,
       "itens": [
@@ -75983,6 +79828,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3187/008",
       "total": 9998.64,
       "itens": [
@@ -76051,6 +79898,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3186/008",
       "total": 6859.2,
       "itens": [
@@ -76098,6 +79947,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 629.5,
       "itens": [
@@ -76110,7 +79961,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "327009236",
@@ -76124,6 +79975,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "Bar do Pompeu.",
       "total": 524.88,
       "itens": [
@@ -76164,6 +80017,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4252",
       "obs": "Entrega segunda feira UFMG",
       "total": 2403.12,
       "itens": [
@@ -76246,6 +80101,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :674",
       "obs": "",
       "total": 423.2,
       "itens": [
@@ -76279,6 +80136,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :902",
       "obs": "",
       "total": 282.72,
       "itens": [
@@ -76312,6 +80171,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :237",
       "obs": "",
       "total": 20370.0,
       "itens": [
@@ -76338,6 +80199,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :484",
       "obs": "",
       "total": 2670.84,
       "itens": [
@@ -76364,6 +80227,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :220",
       "obs": "",
       "total": 7844.88,
       "itens": [
@@ -76404,6 +80269,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :228",
       "obs": "",
       "total": 5268.0,
       "itens": [
@@ -76430,6 +80297,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 9897.73,
       "itens": [
@@ -76519,6 +80388,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 6011.94,
       "itens": [
@@ -76566,6 +80437,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA: 19/06",
       "total": 515.88,
       "itens": [
@@ -76592,6 +80465,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "entregar no dia 19/06 sem pagamento de descarga",
       "total": 8988.0,
       "itens": [
@@ -76632,6 +80507,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :766",
       "obs": "",
       "total": 1144.0,
       "itens": [
@@ -76672,6 +80549,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5240",
       "obs": "",
       "total": 2851.64,
       "itens": [
@@ -76740,6 +80619,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5988",
       "obs": "",
       "total": 1177.2,
       "itens": [
@@ -76864,6 +80745,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :449",
       "obs": "",
       "total": 2194.0,
       "itens": [
@@ -76946,6 +80829,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3267.0,
       "itens": [
@@ -77007,6 +80892,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1140.4,
       "itens": [
@@ -77054,6 +80941,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 4139.4,
       "itens": [
@@ -77080,6 +80969,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 43184.0,
       "itens": [
@@ -77106,6 +80997,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 6838.8,
       "itens": [
@@ -77132,6 +81025,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3419.4,
       "itens": [
@@ -77158,6 +81053,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3419.4,
       "itens": [
@@ -77184,6 +81081,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 6838.8,
       "itens": [
@@ -77210,6 +81109,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "recebimento de seg a sex das 9h as 15h",
       "total": 372.04,
       "itens": [
@@ -77257,6 +81158,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "recebimento de seg a sex das 9h as 15h",
       "total": 505.51,
       "itens": [
@@ -77311,6 +81214,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 322.68,
       "itens": [
@@ -77330,7 +81235,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000072",
@@ -77344,6 +81249,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1014.0,
       "itens": [
@@ -77356,7 +81263,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000326",
@@ -77370,6 +81277,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "Entrega Seg a Sex das 9 as 16 hrs",
       "total": 5994.0,
       "itens": [
@@ -77396,6 +81305,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "Entrega Seg a Sex das 9 as 16 hrs",
       "total": 5994.0,
       "itens": [
@@ -77422,6 +81333,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "horario de recebimento de seg a sex das 8 as 16h",
       "total": 2398.2,
       "itens": [
@@ -77455,6 +81368,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3177/007",
       "total": 28695.0,
       "itens": [
@@ -77509,6 +81424,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2105.1,
       "itens": [
@@ -77563,7 +81480,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "470000009",
@@ -77577,6 +81494,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1198.8,
       "itens": [
@@ -77589,7 +81508,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "471000035",
@@ -77603,6 +81522,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1167.4,
       "itens": [
@@ -77650,7 +81571,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "344000400",
@@ -77664,6 +81585,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4339",
       "obs": "",
       "total": 738.24,
       "itens": [
@@ -77711,6 +81634,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PRECO ABAIXO DO MINIMO PERMITIDO",
       "obs": "",
       "total": 69620.4,
       "itens": [
@@ -77737,6 +81662,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "DESCARGA 35 POR PALLET",
       "total": 515.88,
       "itens": [
@@ -77763,6 +81690,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "DESCARGA 35 POR PALLET",
       "total": 1231.75,
       "itens": [
@@ -77789,6 +81718,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "entregar no dia 18/06 com urgencia",
       "total": 1958.4,
       "itens": [
@@ -77815,6 +81746,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7081",
       "obs": "entregar no dia 18/06 nao temos pagamento de descarga",
       "total": 702.0,
       "itens": [
@@ -77841,6 +81774,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGA AGENDADA: 18/06",
       "total": 19980.0,
       "itens": [
@@ -77867,6 +81802,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA: 18/06",
       "total": 874.44,
       "itens": [
@@ -77907,6 +81844,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 2876.16,
       "itens": [
@@ -77940,6 +81879,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 386.3,
       "itens": [
@@ -77980,6 +81921,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 4850.2,
       "itens": [
@@ -78202,6 +82145,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5579",
       "obs": "",
       "total": 2145.0,
       "itens": [
@@ -78235,6 +82180,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA 18/06 - 8H AS 15H",
       "total": 1445.88,
       "itens": [
@@ -78282,6 +82229,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 837.6,
       "itens": [
@@ -78322,6 +82271,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "NUMERO DO PEDIDO:2599644",
       "total": 720.6,
       "itens": [
@@ -78348,6 +82299,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6254",
       "obs": "entregar de 08:00hs as 15:00hs",
       "total": 5433.66,
       "itens": [
@@ -78493,6 +82446,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGA 18/06 - 8H AS 14H",
       "total": 5287.0,
       "itens": [
@@ -78547,6 +82502,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 12418.2,
       "itens": [
@@ -78573,6 +82530,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 334.8,
       "itens": [
@@ -78585,7 +82544,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "468000046",
@@ -78599,6 +82558,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 634.8,
       "itens": [
@@ -78632,6 +82593,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3173/009",
       "total": 7249.56,
       "itens": [
@@ -78672,6 +82635,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 968.86,
       "itens": [
@@ -78698,7 +82663,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "327009213",
@@ -78712,6 +82677,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "cerveja Monka",
       "total": 4722.0,
       "itens": [
@@ -78745,6 +82712,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "22121047",
       "total": 11377.8,
       "itens": [
@@ -78778,6 +82747,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :313",
       "obs": "",
       "total": 28248.0,
       "itens": [
@@ -78818,6 +82789,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "25,00 POR PALETE",
       "total": 556.2,
       "itens": [
@@ -78851,6 +82824,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "25 00 POR PALETE",
       "total": 772.2,
       "itens": [
@@ -78877,6 +82852,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 36321.6,
       "itens": [
@@ -78903,6 +82880,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 406.8,
       "itens": [
@@ -78936,6 +82915,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 694.2,
       "itens": [
@@ -78976,6 +82957,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2883.6,
       "itens": [
@@ -79023,6 +83006,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1647.6,
       "itens": [
@@ -79098,6 +83083,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 743.28,
       "itens": [
@@ -79159,6 +83146,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3053.64,
       "itens": [
@@ -79234,6 +83223,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1071.0,
       "itens": [
@@ -79274,6 +83265,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 4373.4,
       "itens": [
@@ -79328,6 +83321,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "PEDIDO 2599644 - SENHA 92944",
       "total": 24754.44,
       "itens": [
@@ -79417,6 +83412,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 8982.0,
       "itens": [
@@ -79457,6 +83454,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1198.8,
       "itens": [
@@ -79483,6 +83482,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "recebimento de seg a sex das 9h as 15h",
       "total": 765.6,
       "itens": [
@@ -79523,6 +83524,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "3884- Item com desconto acima do permitido",
       "obs": "Entrega com Agendamento, me avisar 4 dias antes para agendar.",
       "total": 1288.8,
       "itens": [
@@ -79542,7 +83545,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000312",
@@ -79556,6 +83559,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "187- Item com desconto acima do permitido",
       "obs": "Entrega Seg a Sex das 8 as 12 e das 14 as 17 hrs",
       "total": 58023.3,
       "itens": [
@@ -79589,7 +83594,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000083",
@@ -79603,6 +83608,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "187- Item com desconto acima do permitido",
       "obs": "entrega somente com agendamento",
       "total": 2205.6,
       "itens": [
@@ -79622,7 +83629,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000087",
@@ -79636,6 +83643,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "horario de recebimento de seg a sex das 7:30 as 17h",
       "total": 1588.2,
       "itens": [
@@ -79669,6 +83678,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "463- Item com desconto acima do permitido",
       "obs": "",
       "total": 4970.39,
       "itens": [
@@ -79695,7 +83706,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "327009198",
@@ -79709,6 +83720,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4005",
       "obs": "cliente recebe apos 16:00 horas",
       "total": 695.4,
       "itens": [
@@ -79749,6 +83762,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4005",
       "obs": "cliente recebe apos 16:00 horas",
       "total": 695.4,
       "itens": [
@@ -79789,6 +83804,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "cliente recebe apos 16:00 horas",
       "total": 766.4,
       "itens": [
@@ -79850,6 +83867,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :187",
       "obs": "cliente recebe apos 16:00 horas",
       "total": 806.6,
       "itens": [
@@ -79890,6 +83909,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7095",
       "obs": "entregar no dia 16/06 das 08:00 as 15:00 por ordem de chegada",
       "total": 896.16,
       "itens": [
@@ -79930,6 +83951,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5579",
       "obs": "entregar no dia 16/06 nao tem pagamento de descarga",
       "total": 997.74,
       "itens": [
@@ -79963,6 +83986,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5579",
       "obs": "pagamento de descarga no valor de R$60,00 por pallets  entregar no dia 10/0",
       "total": 6410.45,
       "itens": [
@@ -80115,6 +84140,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7059",
       "obs": "entregar no dia 16/06 com pagamento de descarga no valor de R$60,00 por pal",
       "total": 775.46,
       "itens": [
@@ -80162,6 +84189,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2949",
       "obs": "",
       "total": 2394.0,
       "itens": [
@@ -80188,6 +84217,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5167",
       "obs": "",
       "total": 734.4,
       "itens": [
@@ -80228,6 +84259,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5165",
       "obs": "",
       "total": 816.0,
       "itens": [
@@ -80261,6 +84294,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5167",
       "obs": "",
       "total": 652.8,
       "itens": [
@@ -80294,6 +84329,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "PEDIDO 2778928",
       "total": 88830.0,
       "itens": [
@@ -80320,6 +84357,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5089",
       "obs": "",
       "total": 1615.68,
       "itens": [
@@ -80381,6 +84420,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6259",
       "obs": "",
       "total": 459.24,
       "itens": [
@@ -80428,6 +84469,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6259",
       "obs": "",
       "total": 743.28,
       "itens": [
@@ -80489,6 +84532,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6259",
       "obs": "",
       "total": 1647.6,
       "itens": [
@@ -80564,6 +84609,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7207",
       "obs": "",
       "total": 553.92,
       "itens": [
@@ -80611,6 +84658,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 553.92,
       "itens": [
@@ -80658,6 +84707,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2207.4,
       "itens": [
@@ -80691,6 +84742,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PEDIDO COM ITENS FALTANTES",
       "obs": "",
       "total": 123.9,
       "itens": [
@@ -80717,6 +84770,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGA 16/06 - 8H AS 14H",
       "total": 266.88,
       "itens": [
@@ -80743,6 +84798,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA 16/06 - 8H AS 14H",
       "total": 671.28,
       "itens": [
@@ -80776,6 +84833,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGA 16/06 - 8H AS 14H",
       "total": 276.48,
       "itens": [
@@ -80802,6 +84861,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "3668- Item com desconto acima do permitido",
       "obs": "",
       "total": 1374.83,
       "itens": [
@@ -80877,7 +84938,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "542000192",
@@ -80891,6 +84952,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "21943757",
       "total": 3792.6,
       "itens": [
@@ -80924,6 +84987,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA: 15/06 - 08HRS AS 15HRS",
       "total": 1641.6,
       "itens": [
@@ -80964,6 +85029,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGA AGENDADA: 15/06 - 08HRS AS 15HRS",
       "total": 400.32,
       "itens": [
@@ -80990,6 +85057,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGA AGENDADA: 15/06 - 08HRS AS 15HRS",
       "total": 400.32,
       "itens": [
@@ -81016,6 +85085,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA: 15/06 - 08HRS AS 15HRS",
       "total": 1677.4,
       "itens": [
@@ -81049,6 +85120,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGA AGENDADA: 15/06 - 08HRS AS 15HRS",
       "total": 400.32,
       "itens": [
@@ -81075,6 +85148,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGA AGENDADA: 15/06 - 08HRS AS 15HRS",
       "total": 266.88,
       "itens": [
@@ -81101,6 +85176,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGA AGENDADA: 15/06 - 08HRS AS 15HRS",
       "total": 266.88,
       "itens": [
@@ -81127,6 +85204,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA 15/06/2026 8H AS 13H - DESCARGA 25 POR PALLET",
       "total": 24975.6,
       "itens": [
@@ -81174,6 +85253,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3070/008",
       "total": 1198.8,
       "itens": [
@@ -81200,6 +85281,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 2636.0,
       "itens": [
@@ -81226,6 +85309,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "AGENDAR ENTREGA E ALINHAR VALOR DA DESCARGA ATRAVES DO WHATSAPP",
       "total": 9726.5,
       "itens": [
@@ -81238,7 +85323,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "354000544",
@@ -81252,6 +85337,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :315",
       "obs": "pedido:0492580",
       "total": 13811.04,
       "itens": [
@@ -81327,6 +85414,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA PARA SEGUNDA-FEIRA (15/06)",
       "total": 9348.0,
       "itens": [
@@ -81360,6 +85449,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA PARA SEGUNDA-FEIRA (15/06)",
       "total": 1875.12,
       "itens": [
@@ -81400,6 +85491,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3643",
       "obs": "",
       "total": 664.56,
       "itens": [
@@ -81468,6 +85561,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "SEM VALOR DE CARGA E DESCARGA",
       "total": 987.0,
       "itens": [
@@ -81494,6 +85589,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :902",
       "obs": "",
       "total": 1642.82,
       "itens": [
@@ -81534,6 +85631,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :769",
       "obs": "",
       "total": 227.52,
       "itens": [
@@ -81574,6 +85673,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :237",
       "obs": "",
       "total": 2400.5,
       "itens": [
@@ -81635,6 +85736,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6254",
       "obs": "horario de entrega ate as 14:00hs",
       "total": 828.24,
       "itens": [
@@ -81689,6 +85792,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6254",
       "obs": "horario de entrega ate as 14:00hs",
       "total": 828.24,
       "itens": [
@@ -81743,6 +85848,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 322.68,
       "itens": [
@@ -81762,7 +85869,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588002720",
@@ -81776,6 +85883,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3098/008",
       "total": 3596.4,
       "itens": [
@@ -81802,6 +85911,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 1925.04,
       "itens": [
@@ -81828,6 +85939,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :484",
       "obs": "CD",
       "total": 20039.4,
       "itens": [
@@ -81868,6 +85981,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :11",
       "obs": "CD",
       "total": 55671.0,
       "itens": [
@@ -81901,6 +86016,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "SERÁ AGENDADO COM O CLIENTE",
       "total": 59220.0,
       "itens": [
@@ -81927,6 +86044,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7095",
       "obs": "Entrega dia 12/06 junto com o pedido enviado pela CRC 2",
       "total": 2099.06,
       "itens": [
@@ -82058,6 +86177,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "DESCARGA  60,00 POR PALETE",
       "total": 2322.48,
       "itens": [
@@ -82119,6 +86240,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3643",
       "obs": "",
       "total": 7945.48,
       "itens": [
@@ -82159,6 +86282,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1076.4,
       "itens": [
@@ -82199,6 +86324,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3054",
       "obs": "Entregar urgente,",
       "total": 2674.44,
       "itens": [
@@ -82260,6 +86387,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :99",
       "obs": "Entrega agendada para o dia   16/06/26",
       "total": 15131.04,
       "itens": [
@@ -82370,6 +86499,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5089",
       "obs": "",
       "total": 1004.24,
       "itens": [
@@ -82438,6 +86569,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :997",
       "obs": "",
       "total": 965.1,
       "itens": [
@@ -82499,6 +86632,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2848",
       "obs": "",
       "total": 329.5,
       "itens": [
@@ -82532,6 +86667,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :449",
       "obs": "",
       "total": 14886.31,
       "itens": [
@@ -82670,6 +86807,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6254",
       "obs": "entregas ate as 14:00hs",
       "total": 1656.48,
       "itens": [
@@ -82724,6 +86863,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6254",
       "obs": "entrega ate as 14:00hs",
       "total": 1656.48,
       "itens": [
@@ -82778,6 +86919,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6254",
       "obs": "entrega ate as 14:00hs",
       "total": 1656.48,
       "itens": [
@@ -82832,6 +86975,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6254",
       "obs": "entrega ate as 14:00hs",
       "total": 828.24,
       "itens": [
@@ -82886,6 +87031,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3071/008",
       "total": 7192.44,
       "itens": [
@@ -82919,6 +87066,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3094/004",
       "total": 32986.8,
       "itens": [
@@ -82945,6 +87094,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "3662- Item com desconto acima do permitido",
       "obs": "",
       "total": 1482.3,
       "itens": [
@@ -82964,7 +87115,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "327009108",
@@ -82978,6 +87129,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4252",
       "obs": "cliente so recebe apos 14:00 horas",
       "total": 383.52,
       "itens": [
@@ -83004,6 +87157,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "21943756",
       "total": 592.5,
       "itens": [
@@ -83051,6 +87206,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6259",
       "obs": "entregar no dia 10/06 com pagamento de descarga no valor de R$60,00 por pal",
       "total": 2996.4,
       "itens": [
@@ -83133,6 +87290,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 2007.54,
       "itens": [
@@ -83180,6 +87339,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4201",
       "obs": "",
       "total": 932.88,
       "itens": [
@@ -83234,6 +87395,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2255.94,
       "itens": [
@@ -83316,6 +87479,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2710",
       "obs": "",
       "total": 4676.4,
       "itens": [
@@ -83363,6 +87528,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PEDIDO COM ITENS FALTANTES",
       "obs": "",
       "total": 23.36,
       "itens": [
@@ -83389,6 +87556,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 16410.88,
       "itens": [
@@ -83443,6 +87612,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :484",
       "obs": "",
       "total": 2156.4,
       "itens": [
@@ -83469,6 +87640,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "1347- Item com desconto acima do permitido",
       "obs": "",
       "total": 891.72,
       "itens": [
@@ -83495,7 +87668,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "471000025",
@@ -83509,6 +87682,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :1347",
       "obs": "",
       "total": 3994.2,
       "itens": [
@@ -83570,6 +87745,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :1347",
       "obs": "",
       "total": 2340.84,
       "itens": [
@@ -83617,6 +87794,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :1347",
       "obs": "",
       "total": 1580.4,
       "itens": [
@@ -83664,6 +87843,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :1347",
       "obs": "",
       "total": 2441.4,
       "itens": [
@@ -83718,6 +87899,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3539",
       "obs": "",
       "total": 747.84,
       "itens": [
@@ -83758,6 +87941,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 13840.22,
       "itens": [
@@ -83826,6 +88011,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3011",
       "obs": "",
       "total": 1109.2,
       "itens": [
@@ -83859,6 +88046,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 61624.2,
       "itens": [
@@ -83941,6 +88130,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGA: AGUARDANDO AGENDAMENTO",
       "total": 1866.0,
       "itens": [
@@ -83967,6 +88158,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5580",
       "obs": "",
       "total": 976.22,
       "itens": [
@@ -84021,6 +88214,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "HORARIO: 7H AS 11:30",
       "total": 42120.0,
       "itens": [
@@ -84047,6 +88242,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :435",
       "obs": "",
       "total": 73774.2,
       "itens": [
@@ -84101,6 +88298,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3049/008",
       "total": 10310.0,
       "itens": [
@@ -84134,6 +88333,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "08/06 - 8H 15H",
       "total": 1284.96,
       "itens": [
@@ -84209,6 +88410,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5240",
       "obs": "",
       "total": 874.76,
       "itens": [
@@ -84263,6 +88466,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5586",
       "obs": "",
       "total": 1080.0,
       "itens": [
@@ -84296,6 +88501,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5112",
       "obs": "",
       "total": 999.8,
       "itens": [
@@ -84322,6 +88529,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "CD",
       "total": 2511.0,
       "itens": [
@@ -84369,6 +88578,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 35747.41,
       "itens": [
@@ -84423,6 +88634,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "CD",
       "total": 10211.4,
       "itens": [
@@ -84470,6 +88683,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 669.6,
       "itens": [
@@ -84496,6 +88711,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3008/009",
       "total": 3415.08,
       "itens": [
@@ -84536,6 +88753,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "3013/008",
       "total": 3596.4,
       "itens": [
@@ -84562,6 +88781,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "2995/008",
       "total": 5152.8,
       "itens": [
@@ -84581,7 +88802,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "471000019",
@@ -84595,6 +88816,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "246- Item com desconto acima do permitido",
       "obs": "",
       "total": 1230.73,
       "itens": [
@@ -84642,7 +88865,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "155003588",
@@ -84656,6 +88879,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :18",
       "obs": "",
       "total": 488.7,
       "itens": [
@@ -84682,6 +88907,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6054",
       "obs": "",
       "total": 1328.3,
       "itens": [
@@ -84736,6 +88963,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3294.0,
       "itens": [
@@ -84762,6 +88991,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "2997/008",
       "total": 5994.0,
       "itens": [
@@ -84788,6 +89019,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PRECO ABAIXO DO MINIMO PERMITIDO",
       "obs": "pedido:0491248",
       "total": 37393.32,
       "itens": [
@@ -84884,6 +89117,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :484",
       "obs": "Ceasa",
       "total": 4794.0,
       "itens": [
@@ -84910,6 +89145,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "Data entrega: 05/06/26",
       "total": 1314.36,
       "itens": [
@@ -84964,6 +89201,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PEDIDO COM ITENS FALTANTES",
       "obs": "",
       "total": 371.6,
       "itens": [
@@ -84990,6 +89229,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3065",
       "obs": "contato: Matheus (21)9",
       "total": 11357.02,
       "itens": [
@@ -85079,6 +89320,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "2981/004",
       "total": 17992.8,
       "itens": [
@@ -85105,6 +89348,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "2985/008",
       "total": 7188.0,
       "itens": [
@@ -85131,6 +89376,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "AGENDAMENTO",
       "total": 1799.64,
       "itens": [
@@ -85185,6 +89432,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "AGENDAMENTO",
       "total": 1199.76,
       "itens": [
@@ -85232,6 +89481,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 1480.8,
       "itens": [
@@ -85258,6 +89509,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2749",
       "obs": "CD",
       "total": 14358.0,
       "itens": [
@@ -85298,6 +89551,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "PEDIDO Nº 555772 - TAXA DE DESCARGA - R$35,00 POR PALLET",
       "total": 1015.92,
       "itens": [
@@ -85324,6 +89579,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "PEDIDO Nº 555771 - TAXA DE DESCARGA - R$35,00 POR PALLET",
       "total": 1800.72,
       "itens": [
@@ -85357,6 +89614,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA PARA 01/06/2026 - HORARIO DAS 08 ÀS 15HS",
       "total": 5112.69,
       "itens": [
@@ -85418,6 +89677,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :997",
       "obs": "",
       "total": 254.92,
       "itens": [
@@ -85465,6 +89726,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 3373.0,
       "itens": [
@@ -85491,6 +89754,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 2805.5,
       "itens": [
@@ -85517,6 +89782,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA - AGUARDANDO",
       "total": 515.88,
       "itens": [
@@ -85543,6 +89810,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGA AGENDADA: 02/06 - 08HRS AS 15HRS",
       "total": 418.8,
       "itens": [
@@ -85569,6 +89838,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGA AGENDADA: 02/06 - 08HRS AS 15HRS",
       "total": 418.8,
       "itens": [
@@ -85595,6 +89866,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2925",
       "obs": "",
       "total": 3803.0,
       "itens": [
@@ -85712,6 +89985,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "CLIENTE SO RECEBE MERCADORIA COM HORÁRIO AGENDADO",
       "total": 52323.88,
       "itens": [
@@ -85899,6 +90174,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGAR URGENTE",
       "total": 2630.13,
       "itens": [
@@ -86009,6 +90286,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGAR URGENTE",
       "total": 8771.52,
       "itens": [
@@ -86126,6 +90405,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA PARA 02/06",
       "total": 4541.4,
       "itens": [
@@ -86187,6 +90468,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA PARA O DIA 02/06",
       "total": 1872.0,
       "itens": [
@@ -86227,6 +90510,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGAAR URGENTE",
       "total": 5017.53,
       "itens": [
@@ -86337,6 +90622,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGAR URGENTE",
       "total": 7329.96,
       "itens": [
@@ -86412,6 +90699,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 3692.84,
       "itens": [
@@ -86522,6 +90811,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "2977/008",
       "total": 6300.0,
       "itens": [
@@ -86548,6 +90839,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "2976/008",
       "total": 6300.0,
       "itens": [
@@ -86574,6 +90867,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ws",
       "total": 5597.9,
       "itens": [
@@ -86978,6 +91273,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PRECO ABAIXO DO MINIMO PERMITIDO",
       "obs": "pedidos:0490604",
       "total": 15212.16,
       "itens": [
@@ -87053,6 +91350,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :416",
       "obs": "",
       "total": 15348.0,
       "itens": [
@@ -87079,6 +91378,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4252",
       "obs": "pedido;0490604",
       "total": 17635.68,
       "itens": [
@@ -87133,6 +91434,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :39",
       "obs": "supermercado",
       "total": 4194.0,
       "itens": [
@@ -87159,6 +91462,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3823",
       "obs": "CD",
       "total": 1798.8,
       "itens": [
@@ -87185,6 +91490,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3823",
       "obs": "CD",
       "total": 1798.8,
       "itens": [
@@ -87211,6 +91518,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA: 02/06",
       "total": 1031.76,
       "itens": [
@@ -87237,6 +91546,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA: 02/06",
       "total": 1031.76,
       "itens": [
@@ -87263,6 +91574,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA: 02/06",
       "total": 2281.68,
       "itens": [
@@ -87310,6 +91623,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA: 02/06",
       "total": 2354.4,
       "itens": [
@@ -87343,6 +91658,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGA AGENDADA: 02/06",
       "total": 1177.2,
       "itens": [
@@ -87369,6 +91686,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA: 02/06",
       "total": 8597.46,
       "itens": [
@@ -87437,6 +91756,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGA AGENDADA: 02/06",
       "total": 1569.6,
       "itens": [
@@ -87463,6 +91784,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA: 02/06",
       "total": 5641.02,
       "itens": [
@@ -87531,6 +91854,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGA AGENDADA: 02/06",
       "total": 392.4,
       "itens": [
@@ -87557,6 +91882,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "ENTREGA AGENDADA: 02/06",
       "total": 4316.4,
       "itens": [
@@ -87583,6 +91910,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA: 02/06",
       "total": 18177.54,
       "itens": [
@@ -87672,6 +92001,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2998",
       "obs": "Entrega 29/05- 08h as 17h-  21999943896",
       "total": 4882.2,
       "itens": [
@@ -87775,6 +92106,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :902",
       "obs": "",
       "total": 589.68,
       "itens": [
@@ -87801,6 +92134,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "2955/008",
       "total": 5035.2,
       "itens": [
@@ -87813,7 +92148,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "542000188",
@@ -87827,6 +92162,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "AGENDAMENTO",
       "total": 6264.78,
       "itens": [
@@ -87874,6 +92211,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6565",
       "obs": "",
       "total": 863.64,
       "itens": [
@@ -87900,6 +92239,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "21756003",
       "total": 10113.6,
       "itens": [
@@ -87926,6 +92267,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :484",
       "obs": "CD",
       "total": 21427.2,
       "itens": [
@@ -87959,6 +92302,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "CD",
       "total": 183230.28,
       "itens": [
@@ -88013,6 +92358,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5486",
       "obs": "",
       "total": 5994.0,
       "itens": [
@@ -88039,6 +92386,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7389",
       "obs": "Obrigatorio agendar esta entrega.",
       "total": 1822.2,
       "itens": [
@@ -88079,6 +92428,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7390",
       "obs": "Cliente so recebe mercadorias com horario agendado.",
       "total": 392.4,
       "itens": [
@@ -88112,6 +92463,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 95633.52,
       "itens": [
@@ -88159,6 +92512,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "2937/008",
       "total": 6801.0,
       "itens": [
@@ -88206,6 +92561,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4150",
       "obs": "cliente so recebe apos 16:00 horas",
       "total": 705.72,
       "itens": [
@@ -88267,6 +92624,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4096",
       "obs": "cliente so recebe apos 16:00",
       "total": 188.8,
       "itens": [
@@ -88300,6 +92659,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "ENTREGA AGENDADA: 26/05",
       "total": 2903.88,
       "itens": [
@@ -88340,6 +92701,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1593.91,
       "itens": [
@@ -88436,6 +92799,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4236",
       "obs": "CD",
       "total": 7422.84,
       "itens": [
@@ -88462,6 +92827,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "Embarcar caixas originais",
       "total": 786.24,
       "itens": [
@@ -88495,6 +92862,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 359.6,
       "itens": [
@@ -88542,6 +92911,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "2918/008",
       "total": 5016.0,
       "itens": [
@@ -88568,6 +92939,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2778.3,
       "itens": [
@@ -88622,6 +92995,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "PEDIDO 21756002",
       "total": 9561.24,
       "itens": [
@@ -88683,6 +93058,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "CD SUPERMERCADO",
       "total": 9353.4,
       "itens": [
@@ -88744,6 +93121,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5165",
       "obs": "CLIENTE SO RECEBE MERCADORIA COM HORARIO AGENDADO, OBRIGATORIO CONSTAR NA",
       "total": 963.36,
       "itens": [
@@ -88791,6 +93170,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5165",
       "obs": "Cliente so recebe mercadorias com horario agendado",
       "total": 1231.2,
       "itens": [
@@ -88838,6 +93219,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :64",
       "obs": "",
       "total": 3588.0,
       "itens": [
@@ -88853,6 +93236,76 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGUE"
     },
     {
+      "numped": "354000474",
+      "numnota": "119098",
+      "data": "20/05/2026",
+      "data_ord": "2026-05-20",
+      "nome": "MATHEUS DE SOUZA - OFF TRADE",
+      "cliente": "DAKI BELO HORIZONTE LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
+      "obs": "PEDIDO :0489407",
+      "total": 24219.36,
+      "itens": [
+        {
+          "desc": "RED BULL 250ML CAIXA C/24 UNID",
+          "qt": 38,
+          "val": 7606.08,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "RED BULL SUGAR FREE  250 ML CX C/24",
+          "qt": 27,
+          "val": 5404.32,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "qt": 24,
+          "val": 4803.84,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "RED BULL CEREJA 24X250ML",
+          "qt": 1,
+          "val": 200.16,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "RED BULL SF POMELO 24X250ML",
+          "qt": 9,
+          "val": 1801.44,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "RED BULL NECTARINA SF 24X250ML",
+          "qt": 8,
+          "val": 1601.28,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "RED BULL MAÇA SF 250ML  C/24 UNID",
+          "qt": 14,
+          "val": 2802.24,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
       "numped": "275000494",
       "numnota": "395116",
       "data": "19/05/2026",
@@ -88864,6 +93317,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "PEDIDO Nº 4524194329",
       "total": 84521.1,
       "itens": [
@@ -88890,6 +93345,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 36630.0,
       "itens": [
@@ -88923,6 +93380,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :664",
       "obs": "",
       "total": 221.4,
       "itens": [
@@ -88949,6 +93408,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7019",
       "obs": "entregar no dia 20/05 com pagamento de descarga no valor de R$60,00 por pal",
       "total": 1521.12,
       "itens": [
@@ -89003,6 +93464,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "DESCARGA SECA - R$ 20,00 POR PALETE FILMADO, R$ 1,00 POR BATIDA, 25,00 POR",
       "total": 24518.88,
       "itens": [
@@ -89099,6 +93562,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "pedido 1002780932",
       "total": 143304.0,
       "itens": [
@@ -89132,6 +93597,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "pedido 1002771921",
       "total": 129738.0,
       "itens": [
@@ -89165,6 +93632,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :738",
       "obs": "pedido:0489308",
       "total": 24754.08,
       "itens": [
@@ -89254,6 +93723,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1023.6,
       "itens": [
@@ -89287,6 +93758,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4009",
       "obs": "Data da entrega: 21/05/26",
       "total": 213.3,
       "itens": [
@@ -89320,6 +93793,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PEDIDO COM ITENS FALTANTES",
       "obs": "",
       "total": 336.0,
       "itens": [
@@ -89346,6 +93821,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PEDIDO COM ITENS FALTANTES",
       "obs": "",
       "total": 98.4,
       "itens": [
@@ -89372,6 +93849,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3539",
       "obs": "",
       "total": 369.12,
       "itens": [
@@ -89405,6 +93884,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3539",
       "obs": "",
       "total": 369.12,
       "itens": [
@@ -89438,6 +93919,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3539",
       "obs": "",
       "total": 369.12,
       "itens": [
@@ -89471,6 +93954,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "VALOR DE DESCARGA: 1,00 REAL POR CAIXA BATIDA",
       "total": 3553.2,
       "itens": [
@@ -89497,6 +93982,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "DESCARGA SECA AGENDADA: 20,00 REAIS - POR PALLET FILMADO",
       "total": 18160.8,
       "itens": [
@@ -89523,6 +94010,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "2836/006",
       "total": 785.58,
       "itens": [
@@ -89584,6 +94073,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "2853/007",
       "total": 18648.0,
       "itens": [
@@ -89610,6 +94101,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4383",
       "obs": "",
       "total": 2256.0,
       "itens": [
@@ -89636,6 +94129,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4383",
       "obs": "",
       "total": 2256.0,
       "itens": [
@@ -89662,6 +94157,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 1480.5,
       "itens": [
@@ -89688,6 +94185,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 1480.5,
       "itens": [
@@ -89714,6 +94213,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :484",
       "obs": "CD",
       "total": 14582.52,
       "itens": [
@@ -89754,6 +94255,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 255.6,
       "itens": [
@@ -89780,6 +94283,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "DESCARGA SECA AGENDADA: 20,00 REAIS POR PALLET FILMADO",
       "total": 23239.92,
       "itens": [
@@ -89820,6 +94325,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "AGENDAMENTO",
       "total": 1945.7,
       "itens": [
@@ -89874,6 +94381,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1413.6,
       "itens": [
@@ -89907,6 +94416,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 5835.36,
       "itens": [
@@ -89968,6 +94479,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2320",
       "obs": "Data da Entrega:14/05/26",
       "total": 658.8,
       "itens": [
@@ -90029,6 +94542,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :666",
       "obs": "Data da Entrega: 09:00 hs as 18:00 hs",
       "total": 948.6,
       "itens": [
@@ -90069,6 +94584,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3642",
       "obs": "Data da Entrega: 14/05/26",
       "total": 449.66,
       "itens": [
@@ -90137,6 +94654,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 113.88,
       "itens": [
@@ -90163,6 +94682,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "2810/008",
       "total": 501.6,
       "itens": [
@@ -90196,6 +94717,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "AGENDAMENTO",
       "total": 46803.6,
       "itens": [
@@ -90250,6 +94773,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4394",
       "obs": "",
       "total": 388.08,
       "itens": [
@@ -90283,6 +94808,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 1480.8,
       "itens": [
@@ -90309,6 +94836,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 4523.52,
       "itens": [
@@ -90342,6 +94871,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 556.2,
       "itens": [
@@ -90375,6 +94906,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "Data da Entrega: 14/05/26",
       "total": 878.76,
       "itens": [
@@ -90429,6 +94962,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 189.4,
       "itens": [
@@ -90462,6 +94997,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 22122.6,
       "itens": [
@@ -90586,6 +95123,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "2649/015",
       "total": 19848.0,
       "itens": [
@@ -90633,6 +95172,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "DATA DE SAIDA, 12/05/2026",
       "total": 1015.92,
       "itens": [
@@ -90659,6 +95200,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "2786/015",
       "total": 14885.16,
       "itens": [
@@ -90723,46 +95266,6 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGA TOTAL"
     },
     {
-      "numped": "238000739",
-      "numnota": "4803",
-      "data": "09/05/2026",
-      "data_ord": "2026-05-09",
-      "nome": "DANIELLE MOURA - OFF TRADE",
-      "cliente": "DOM ATACAREJO S.A.",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "obs": "",
-      "total": 6941.12,
-      "itens": [
-        {
-          "desc": "GIN LARIOS ORIGINAL 700ML",
-          "qt": 24,
-          "val": 1031.52,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "qt": 150,
-          "val": 4536.2,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "qt": 42,
-          "val": 1373.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
       "numped": "156003294",
       "numnota": "392417",
       "data": "08/05/2026",
@@ -90774,6 +95277,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PRODUTO SEM ESTOQUE",
       "obs": "",
       "total": 309.0,
       "itens": [
@@ -90781,46 +95286,6 @@ const PEDIDOS_DATA = {
           "desc": "GUARAVITON GINSENG 12X500ML",
           "qt": 10,
           "val": 309.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "238000737",
-      "numnota": "4799",
-      "data": "08/05/2026",
-      "data_ord": "2026-05-08",
-      "nome": "DANIELLE MOURA - OFF TRADE",
-      "cliente": "DOM ATACAREJO S.A.",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "obs": "DESCARGA 60,00 POR PALLET, ENTREGAR 09/05/2026",
-      "total": 5132.18,
-      "itens": [
-        {
-          "desc": "GIN LARIOS ORIGINAL 700ML",
-          "qt": 24,
-          "val": 1031.52,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "qt": 102,
-          "val": 3084.62,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY JIM BEAM BLACK CHERRY 1L",
-          "qt": 12,
-          "val": 1016.04,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -90840,6 +95305,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4394",
       "obs": "",
       "total": 320.52,
       "itens": [
@@ -90880,6 +95347,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "2769/015",
       "total": 4493.52,
       "itens": [
@@ -90920,6 +95389,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 35527.8,
       "itens": [
@@ -90960,6 +95431,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2870.62,
       "itens": [
@@ -91143,46 +95616,6 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGUE"
     },
     {
-      "numped": "275000450",
-      "numnota": "4591",
-      "data": "04/05/2026",
-      "data_ord": "2026-05-04",
-      "nome": "MARIA LUIZA - OFF TRADE",
-      "cliente": "DOM ATACAREJO S.A.",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "obs": "",
-      "total": 3063.6,
-      "itens": [
-        {
-          "desc": "GIN LARIOS ORIGINAL 700ML",
-          "qt": 24,
-          "val": 1031.52,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY JIM BEAM WHITE 1L",
-          "qt": 12,
-          "val": 1016.04,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY JIM BEAM BLACK CHERRY 1L",
-          "qt": 12,
-          "val": 1016.04,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
       "numped": "344000139",
       "numnota": "117041",
       "data": "04/05/2026",
@@ -91194,6 +95627,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 2961.6,
       "itens": [
@@ -91209,32 +95644,6 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
-      "numped": "275000445",
-      "numnota": "4515",
-      "data": "30/04/2026",
-      "data_ord": "2026-04-30",
-      "nome": "MARIA LUIZA - OFF TRADE",
-      "cliente": "DOM ATACAREJO S.A.",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "obs": "",
-      "total": 1962.0,
-      "itens": [
-        {
-          "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "qt": 60,
-          "val": 1962.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
       "numped": "343000139",
       "numnota": "40863",
       "data": "30/04/2026",
@@ -91246,6 +95655,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :6654",
       "obs": "",
       "total": 464.24,
       "itens": [
@@ -91300,6 +95711,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 539.08,
       "itens": [
@@ -91354,6 +95767,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 797.04,
       "itens": [
@@ -91415,6 +95830,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5167",
       "obs": "Cliente so recebe mercadorias com horario agendado",
       "total": 446.4,
       "itens": [
@@ -91441,6 +95858,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :99",
       "obs": "Entrega agendada para o dia  04/05/26",
       "total": 4714.56,
       "itens": [
@@ -91530,6 +95949,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 620.8,
       "itens": [
@@ -91591,6 +96012,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 314.2,
       "itens": [
@@ -91631,6 +96054,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1122.84,
       "itens": [
@@ -91699,6 +96124,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 384.61,
       "itens": [
@@ -91753,6 +96180,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2097.0,
       "itens": [
@@ -91779,6 +96208,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "O.C 21037700",
       "total": 46069.5,
       "itens": [
@@ -91819,6 +96250,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3932",
       "obs": "CD",
       "total": 2278.8,
       "itens": [
@@ -91845,6 +96278,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 393.12,
       "itens": [
@@ -91878,6 +96313,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "2522/015",
       "total": 9814.8,
       "itens": [
@@ -91925,6 +96362,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :220",
       "obs": "CD",
       "total": 13276.26,
       "itens": [
@@ -92042,6 +96481,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2629",
       "obs": "CD",
       "total": 6169.2,
       "itens": [
@@ -92096,6 +96537,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "PRECO ABAIXO DO MINIMO PERMITIDO",
       "obs": "CD",
       "total": 31788.0,
       "itens": [
@@ -92192,6 +96635,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7389",
       "obs": "Cliente so recebe mercadorias com horario agendado",
       "total": 1223.76,
       "itens": [
@@ -92246,6 +96691,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7391",
       "obs": "Cliente so recebe mercadorias com horario agendado",
       "total": 2603.4,
       "itens": [
@@ -92293,6 +96740,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :7391",
       "obs": "Cliente so recebe mercadorias com horario agendado",
       "total": 2603.4,
       "itens": [
@@ -92329,86 +96778,6 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
-      "numped": "238000726",
-      "numnota": "4366",
-      "data": "25/04/2026",
-      "data_ord": "2026-04-25",
-      "nome": "DANIELLE MOURA - OFF TRADE",
-      "cliente": "DOM ATACAREJO S.A.",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "obs": "TAXA DESCARGA: R$35,00 / CHEGAR ATÉ AS 11H",
-      "total": 9468.12,
-      "itens": [
-        {
-          "desc": "GIN LARIOS ORIGINAL 700ML",
-          "qt": 24,
-          "val": 1031.52,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "ESPUM CASA PERINI BRUT 750ML",
-          "qt": 90,
-          "val": 2943.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "qt": 90,
-          "val": 2943.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "qt": 60,
-          "val": 1962.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "ESPUM CASA PERINI PROSECCO 750ML",
-          "qt": 18,
-          "val": 588.6,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "238000709",
-      "numnota": "4333",
-      "data": "24/04/2026",
-      "data_ord": "2026-04-24",
-      "nome": "DANIELLE MOURA - OFF TRADE",
-      "cliente": "DOM ATACAREJO S.A.",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "obs": "504780",
-      "total": 1031.52,
-      "itens": [
-        {
-          "desc": "GIN LARIOS ORIGINAL 700ML",
-          "qt": 24,
-          "val": 1031.52,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
       "numped": "471000137",
       "numnota": "387726",
       "data": "24/04/2026",
@@ -92420,6 +96789,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "entrega agendada para sabado, se cliente nao estiver ligar que ele pega",
       "total": 1122.7,
       "itens": [
@@ -92467,6 +96838,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "2540/006",
       "total": 21564.0,
       "itens": [
@@ -92500,6 +96873,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "2607/006",
       "total": 24657.6,
       "itens": [
@@ -92533,6 +96908,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "2592/008",
       "total": 5934.0,
       "itens": [
@@ -92559,6 +96936,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "2543/008",
       "total": 5934.0,
       "itens": [
@@ -92585,6 +96964,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3539",
       "obs": "",
       "total": 1174.32,
       "itens": [
@@ -92611,6 +96992,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 899.4,
       "itens": [
@@ -92637,6 +97020,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "AGENDAMENTO",
       "total": 21325.2,
       "itens": [
@@ -92677,6 +97062,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 657.0,
       "itens": [
@@ -92703,6 +97090,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 27706.54,
       "itens": [
@@ -92855,6 +97244,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 539.04,
       "itens": [
@@ -92902,6 +97293,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 1440.0,
       "itens": [
@@ -92935,6 +97328,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "O.C 21215839",
       "total": 2915.1,
       "itens": [
@@ -92996,6 +97391,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5698",
       "obs": "",
       "total": 4944.94,
       "itens": [
@@ -93043,6 +97440,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 2041.0,
       "itens": [
@@ -93111,6 +97510,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2969",
       "obs": "",
       "total": 3470.28,
       "itens": [
@@ -93200,6 +97601,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
       "obs": "",
       "total": 6920.4,
       "itens": [
@@ -93250,7 +97653,6 @@ const PEDIDOS_DATA = {
       "status_log": ""
     }
   ],
-  "cortados": [],
   "cancelados": [
     {
       "numped": "327009426",
@@ -93264,6 +97666,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :3960",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -93303,6 +97707,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -93370,6 +97776,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :296",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -93423,6 +97831,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -93448,6 +97858,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :5384",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -93508,6 +97920,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por JENNIFER FREITAS DE OLIVEIRA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -93561,6 +97975,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -93614,6 +98030,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -93639,6 +98057,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -93664,6 +98084,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -93717,6 +98139,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "DAS 08:00H AS 14;00 H - R$ 30,00 POR PLT",
       "total": 0.0,
       "itens": [
@@ -93770,6 +98194,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :5580",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -93802,6 +98228,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :3063",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -93834,6 +98262,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "PRODUTO SEM ESTOQUE",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -93894,6 +98324,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :5384",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -93954,6 +98386,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por GISELLE TENORIO DA COSTA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -93993,6 +98427,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -94018,6 +98454,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :3643",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -94078,6 +98516,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -94152,6 +98592,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -94380,6 +98822,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -94419,6 +98863,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :6253",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -94486,6 +98932,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "HORARIO  08:00H AS 15:00H",
       "total": 0.0,
       "itens": [
@@ -94560,6 +99008,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :4677",
       "obs": "Data entrega: 09/07/26",
       "total": 0.0,
       "itens": [
@@ -94606,6 +99056,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -94757,6 +99209,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :674",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -94803,6 +99257,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -94828,6 +99284,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :64",
       "obs": "Data entrega: 09/07/26",
       "total": 0.0,
       "itens": [
@@ -94867,6 +99325,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :3429",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -94913,6 +99373,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :313",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -94959,6 +99421,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :2710",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -95019,6 +99483,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :3627",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -95072,6 +99538,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :663",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -95146,6 +99614,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :2614",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -95171,6 +99641,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Bloqueio de Pedidos bonificado",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -95210,6 +99682,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ISADORA SALVADOR PORTO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -95242,6 +99716,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ISADORA SALVADOR PORTO",
       "obs": "ENVIAR JUNTO AO PEDIDO",
       "total": 0.0,
       "itens": [
@@ -95274,6 +99750,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "ENTREGAR 07/07 ATE AS 16H",
       "total": 0.0,
       "itens": [
@@ -95348,6 +99826,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por BRENA DOS SANTOS DAMASCENO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -95401,6 +99881,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -95426,6 +99908,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -95458,6 +99942,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -95490,6 +99976,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ISADORA SALVADOR PORTO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -95571,6 +100059,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :2799",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -95603,6 +100093,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :666",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -95656,6 +100148,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :5580",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -95695,6 +100189,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :4746",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -95769,6 +100265,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -95815,6 +100313,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :857",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -95840,6 +100340,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :5387",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -95949,6 +100451,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :129",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -95981,6 +100485,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :2710",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -96027,6 +100533,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "PRECO ABAIXO DO MINIMO PERMITIDO",
       "obs": "Favor entregar terca-feira dia 07/07",
       "total": 0.0,
       "itens": [
@@ -96087,6 +100595,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :4236",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -96112,6 +100622,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :3198",
       "obs": "loja",
       "total": 0.0,
       "itens": [
@@ -96137,6 +100649,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "NOTA TESTE",
       "total": 0.0,
       "itens": [
@@ -96344,6 +100858,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :7702",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -96369,6 +100885,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :7702",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -96394,6 +100912,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :6256",
       "obs": "entrega agendada para o dia 01/07",
       "total": 0.0,
       "itens": [
@@ -96454,6 +100974,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "ENTREGAR DIA 01/07",
       "total": 0.0,
       "itens": [
@@ -96514,6 +101036,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "ENTREGAR DIA 2/07",
       "total": 0.0,
       "itens": [
@@ -96588,6 +101112,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "ENTREGAR 01/07",
       "total": 0.0,
       "itens": [
@@ -96655,6 +101181,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "ENTREGAR 01/07",
       "total": 0.0,
       "itens": [
@@ -96708,6 +101236,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "ENTREGAR 02/07",
       "total": 0.0,
       "itens": [
@@ -96768,6 +101298,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "ENTREGAR DIA 01/07",
       "total": 0.0,
       "itens": [
@@ -96849,6 +101381,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "ENTREGAR DIA 01/07",
       "total": 0.0,
       "itens": [
@@ -96888,6 +101422,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "ENTREGAR 02/07",
       "total": 0.0,
       "itens": [
@@ -96927,6 +101463,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -97050,6 +101588,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -97075,6 +101615,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -97128,6 +101670,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -97167,6 +101711,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :997",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -97213,6 +101759,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -97245,6 +101793,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :6570",
       "obs": "data entrega 26/06",
       "total": 0.0,
       "itens": [
@@ -97277,6 +101827,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -97323,6 +101875,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -97355,6 +101909,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :313",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -97408,6 +101964,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -97468,6 +102026,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :5554",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -97528,6 +102088,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "ENTREGA 25.06 - ATE AS 14H",
       "total": 0.0,
       "itens": [
@@ -97574,6 +102136,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por PCADMIN",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -97599,6 +102163,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -97624,6 +102190,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -97740,6 +102308,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -97919,6 +102489,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :1039",
       "obs": "Nota Teste",
       "total": 0.0,
       "itens": [
@@ -97986,6 +102558,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :3334",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -98011,6 +102585,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :7678",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -98106,6 +102682,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :4843",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -98138,6 +102716,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :2089",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -98163,6 +102743,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -98188,6 +102770,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -98213,6 +102797,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -98238,6 +102824,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -98277,6 +102865,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -98316,6 +102906,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ISADORA SALVADOR PORTO",
       "obs": "cliente recebe 8:00 as 16:00 horas",
       "total": 0.0,
       "itens": [
@@ -98355,6 +102947,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :5029",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -98429,6 +103023,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :7492",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -98510,6 +103106,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -98542,6 +103140,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "3193/005",
       "total": 0.0,
       "itens": [
@@ -98581,6 +103181,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -98627,6 +103229,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :3138",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -98904,6 +103508,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :7017",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -98950,6 +103556,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :7017",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -98996,6 +103604,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "a partir das 9h",
       "total": 0.0,
       "itens": [
@@ -99028,6 +103638,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -99060,6 +103672,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :3932",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -99092,6 +103706,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :2949",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -99138,6 +103754,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :2927",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -99366,6 +103984,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -99391,6 +104011,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "EVENTO BAR RED BULL WSL",
       "total": 0.0,
       "itens": [
@@ -99416,6 +104038,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "DESCARGA DE 25,00 POR PALETE",
       "total": 0.0,
       "itens": [
@@ -99476,6 +104100,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :7678",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -99522,6 +104148,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -99547,6 +104175,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por DAVID YURI CARDOSO DA SILVA",
       "obs": "ENTREGA AGENDADA: 17/06 - 08HRS AS 14HRS",
       "total": 0.0,
       "itens": [
@@ -99579,6 +104209,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "N PEDIDO 2599644 - SENHA 92944",
       "total": 0.0,
       "itens": [
@@ -99674,6 +104306,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -99706,6 +104340,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :100",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -99738,6 +104374,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -99763,6 +104401,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :3642",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -99816,6 +104456,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :3249",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -99862,6 +104504,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "3888- Item com desconto acima do permitido",
       "obs": "horario de recebimento de seg a sex das 8 as 12h e das 14 as 17h",
       "total": 0.0,
       "itens": [
@@ -99901,6 +104545,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -99947,6 +104593,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :7016",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -99986,6 +104634,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :3817",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -100109,6 +104759,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -100134,6 +104786,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :2949",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -100180,6 +104834,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -100205,6 +104861,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :3309",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -100300,6 +104958,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :3309",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -100346,6 +105006,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :6917",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -100413,6 +105075,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :1837",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -100452,6 +105116,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :296",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -100519,6 +105185,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :3764",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -100698,6 +105366,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :7092",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -100765,6 +105435,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :73",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -100832,6 +105504,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :119",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -100864,6 +105538,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :7019",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -100889,6 +105565,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "endereco correto: Rua Nestor, 1000",
       "total": 0.0,
       "itens": [
@@ -100935,6 +105613,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -100981,6 +105661,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ANDRE MORAIS DE PAIVA RODRIGUES",
       "obs": "21943757",
       "total": 0.0,
       "itens": [
@@ -101013,6 +105695,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :11",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -101045,6 +105729,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR BALCAO - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -101119,6 +105805,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :7017",
       "obs": "entregar no dia 10/06 com pagamento de descarga no valor de R$60,00 por pal",
       "total": 0.0,
       "itens": [
@@ -101165,6 +105853,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -101211,6 +105901,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -101250,6 +105942,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :1518",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -101331,6 +106025,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :7081",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -101384,6 +106080,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "PRECO ABAIXO DO MINIMO PERMITIDO",
       "obs": "Entrega na UFMG",
       "total": 0.0,
       "itens": [
@@ -101430,6 +106128,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :70",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -101455,6 +106155,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :4843",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -101494,6 +106196,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :7675",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -101540,6 +106244,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :6571",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -101593,6 +106299,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :16",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -101702,6 +106410,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -101776,6 +106486,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -101829,6 +106541,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por PCADMIN",
       "obs": "ENTREGAR APOS AS 10H",
       "total": 0.0,
       "itens": [
@@ -101917,6 +106631,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :378",
       "obs": "agendado para dia 08/06",
       "total": 0.0,
       "itens": [
@@ -101963,6 +106679,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por PCADMIN",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -101988,6 +106706,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ISADORA SALVADOR PORTO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -102041,6 +106761,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -102094,6 +106816,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :6917",
       "obs": "entregar no dia 05/06 com pagamento de descarga no valor de R$60,00 por pal",
       "total": 0.0,
       "itens": [
@@ -102154,6 +106878,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :902",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -102298,6 +107024,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "VALOR DA DESCARGA 35,00 POR PALET",
       "total": 0.0,
       "itens": [
@@ -102393,6 +107121,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "35,00 POR PALLET 22998066371",
       "total": 0.0,
       "itens": [
@@ -102488,6 +107218,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -102576,6 +107308,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :16",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -102650,6 +107384,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :7702",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -102689,6 +107425,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "ENTREGAR DIA 03.06 ATE AS 16:00",
       "total": 0.0,
       "itens": [
@@ -102791,6 +107529,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "ENTREGAR DIA 03.06 ATE AS 16:00",
       "total": 0.0,
       "itens": [
@@ -102893,6 +107633,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "2917- Item com desconto acima do permitido",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -102946,6 +107688,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :3765",
       "obs": "CD",
       "total": 0.0,
       "itens": [
@@ -102971,6 +107715,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -102996,6 +107742,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -103042,6 +107790,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :7096",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -103109,6 +107859,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :7702",
       "obs": "contato: Matheus (21)981190098",
       "total": 0.0,
       "itens": [
@@ -103190,6 +107942,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por GABRIELE OLIVEIRA DO CARMO",
       "obs": "ODC: 299275741",
       "total": 0.0,
       "itens": [
@@ -103243,6 +107997,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :7680",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -103275,6 +108031,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "Data entrega : 05/06/26",
       "total": 0.0,
       "itens": [
@@ -103314,6 +108072,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :7019",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -103367,6 +108127,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :6043",
       "obs": "entregar no dia 01/06 com pagamento de descarga no valor de R$22,00 por pal",
       "total": 0.0,
       "itens": [
@@ -103392,6 +108154,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :5583",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -103424,6 +108188,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :3668",
       "obs": "recebimento de seg a sex das 6h as 12h",
       "total": 0.0,
       "itens": [
@@ -103484,6 +108250,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :187",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -103600,6 +108368,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :1837",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -103688,6 +108458,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ISADORA SALVADOR PORTO",
       "obs": "entrega de 11:00 as 11:30",
       "total": 0.0,
       "itens": [
@@ -103748,6 +108520,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ISADORA SALVADOR PORTO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -103808,6 +108582,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :7102",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -103889,6 +108665,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :640",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -103935,6 +108713,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :7017",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -104072,6 +108852,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :5586",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -104125,6 +108907,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por PCADMIN",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -104150,6 +108934,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :266",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -104231,6 +109017,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "Data entrega: 28/05/26",
       "total": 0.0,
       "itens": [
@@ -104270,6 +109058,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :7107",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -104295,6 +109085,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -104320,6 +109112,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -104345,6 +109139,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :7019",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -104377,6 +109173,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "2934/003",
       "total": 0.0,
       "itens": [
@@ -104423,6 +109221,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :40",
       "obs": "CD",
       "total": 0.0,
       "itens": [
@@ -104476,6 +109276,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :7107",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -104501,6 +109303,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -104533,6 +109337,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -104586,6 +109392,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -104688,6 +109496,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -104783,6 +109593,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por CAMILA DE JESUS CRUZ",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -104836,6 +109648,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por JANAINA ALVES DA SILVA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -104868,6 +109682,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :315",
       "obs": "Entrega segunda feira UFMG",
       "total": 0.0,
       "itens": [
@@ -104921,6 +109737,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :902",
       "obs": "Entrega segunda feira UFMG",
       "total": 0.0,
       "itens": [
@@ -105009,6 +109827,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :3959",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -105090,6 +109910,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -105122,6 +109944,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por CAMILA DE JESUS CRUZ",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -105175,6 +109999,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "PRECO ABAIXO DO MINIMO PERMITIDO",
       "obs": "CD Supermercado",
       "total": 0.0,
       "itens": [
@@ -105235,6 +110061,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :5899",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -105309,6 +110137,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :5240",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -105425,6 +110255,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :5096",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -105506,6 +110338,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :7016",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -105545,6 +110379,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :315",
       "obs": "pedido :0489407",
       "total": 0.0,
       "itens": [
@@ -105619,6 +110455,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :5240",
       "obs": "Entregar este pedido urgente.",
       "total": 0.0,
       "itens": [
@@ -105693,6 +110531,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :5240",
       "obs": "Entregar este pedido urgente.",
       "total": 0.0,
       "itens": [
@@ -105788,6 +110628,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :6565",
       "obs": "entrega agendada para o dia 20/5",
       "total": 0.0,
       "itens": [
@@ -106037,6 +110879,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por PCADMIN",
       "obs": "ENTREGAR DE 08:00 AS 15:00",
       "total": 0.0,
       "itens": [
@@ -106076,6 +110920,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por WAGNER LUIZ VALENTE MANUCI JÚNIOR",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -106129,6 +110975,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :997",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -106189,6 +111037,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :2699",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -106270,6 +111120,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "ENTREGA 19/05",
       "total": 0.0,
       "itens": [
@@ -106302,6 +111154,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -106383,6 +111237,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :2228",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -106422,6 +111278,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :7024",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -106503,6 +111361,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "PEDIDO 10053937",
       "total": 0.0,
       "itens": [
@@ -106556,6 +111416,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ANDRE MORAIS DE PAIVA RODRIGUES",
       "obs": "CEASA",
       "total": 0.0,
       "itens": [
@@ -106609,6 +111471,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :37",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -106655,6 +111519,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :3556",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -106680,6 +111546,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :6012",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -106754,6 +111622,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -106779,6 +111649,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :110",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -106853,6 +111725,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :4383",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -106878,6 +111752,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :4383",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -106903,6 +111779,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :3272",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -106935,6 +111813,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :663",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -106967,6 +111847,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :6011",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -107041,6 +111923,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :6917",
       "obs": "AO LADO DO POSTO BRASIL ILHA DA LUZ",
       "total": 0.0,
       "itens": [
@@ -107101,6 +111985,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :378",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -107133,6 +112019,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :3067",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -107200,6 +112088,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :3067",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -107267,6 +112157,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :7092",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -107299,6 +112191,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :6012",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -107345,6 +112239,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -107398,6 +112294,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -107465,6 +112363,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por JANAINA ALVES DA SILVA",
       "obs": "2815/007",
       "total": 0.0,
       "itens": [
@@ -107518,6 +112418,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por JULIA ESTELA DA SILVA SOUZA",
       "obs": "AGENDAMENTO",
       "total": 0.0,
       "itens": [
@@ -107571,6 +112473,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :69",
       "obs": "numero pedido:00002770",
       "total": 0.0,
       "itens": [
@@ -107603,6 +112507,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -107684,6 +112590,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -107758,6 +112666,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por JANAINA ALVES DA SILVA",
       "obs": "Data da Entrega: 14/05/26",
       "total": 0.0,
       "itens": [
@@ -107790,6 +112700,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por JANAINA ALVES DA SILVA",
       "obs": "EVENTO - UPRISE DE ARACRUZ",
       "total": 0.0,
       "itens": [
@@ -107843,6 +112755,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -107875,6 +112789,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Bloqueio de Pedidos bonificado",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -107900,6 +112816,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -107967,6 +112885,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -107992,6 +112912,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -108024,6 +112946,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por JANAINA ALVES DA SILVA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -108077,6 +113001,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por JANAINA ALVES DA SILVA",
       "obs": "2805/003",
       "total": 0.0,
       "itens": [
@@ -108151,6 +113077,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "PRODUTO SEM ESTOQUE",
       "obs": "entregar no dia 13/05 com pagamento de descarga no valor de R$60,00 por pal",
       "total": 0.0,
       "itens": [
@@ -108456,6 +113384,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "PEDIDO COM ITENS FALTANTES",
       "obs": "entregar no dia 13/05 com pagamento de descarga no valor de R$60,00 por pal",
       "total": 0.0,
       "itens": [
@@ -108488,6 +113418,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "PRODUTO SEM ESTOQUE",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -108534,6 +113466,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "DATA DE SAIDA 12/05/2026",
       "total": 0.0,
       "itens": [
@@ -108566,6 +113500,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -108605,6 +113541,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por JANAINA ALVES DA SILVA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -108651,6 +113589,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -108690,6 +113630,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por JANAINA ALVES DA SILVA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -108743,6 +113685,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "2743/006",
       "total": 0.0,
       "itens": [
@@ -108768,6 +113712,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -108793,6 +113739,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -108825,6 +113773,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -108850,6 +113800,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -108875,6 +113827,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -108900,6 +113854,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -108932,6 +113888,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -108957,6 +113915,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -109010,6 +113970,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "PRODUTO SEM ESTOQUE",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -109077,6 +114039,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "PRODUTO SEM ESTOQUE",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -109179,6 +114143,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -109211,6 +114177,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :5016",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -109250,6 +114218,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -109296,6 +114266,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -109328,6 +114300,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por JANAINA ALVES DA SILVA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -109353,6 +114327,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -109385,6 +114361,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "PRODUTO SEM ESTOQUE",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -109592,6 +114570,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -109624,6 +114604,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -109663,6 +114645,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por CAMILA DE JESUS CRUZ",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -109709,6 +114693,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por CAMILA DE JESUS CRUZ",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -109790,6 +114776,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :4383",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -109822,6 +114810,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :187",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -109854,6 +114844,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por GABRIELE OLIVEIRA DO CARMO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -109914,6 +114906,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "PRODUTO SEM ESTOQUE",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -109967,6 +114961,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -110083,6 +115079,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por JANAINA ALVES DA SILVA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -110122,6 +115120,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :296",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -110189,6 +115189,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -110214,6 +115216,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -110239,6 +115243,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -110264,6 +115270,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -110289,6 +115297,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -110349,6 +115359,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -110402,6 +115414,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "entregar no dia 29/04 nao temos pagamento de descarga",
       "total": 0.0,
       "itens": [
@@ -110462,6 +115476,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por JANAINA ALVES DA SILVA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -110522,6 +115538,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -110589,6 +115607,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -110614,6 +115634,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -110639,6 +115661,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por JANAINA ALVES DA SILVA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -110664,6 +115688,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por JANAINA ALVES DA SILVA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -110717,6 +115743,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -110749,6 +115777,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "PRODUTO SEM ESTOQUE",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -110788,6 +115818,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :11",
       "obs": "horario de entrega das 7:00 as 15:00 horas",
       "total": 0.0,
       "itens": [
@@ -110813,6 +115845,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :4383",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -110838,6 +115872,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -110870,6 +115906,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -110895,6 +115933,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VICTORIA RHAYANE AZEVEDO MOSTAPHIA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -110997,6 +116037,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -111036,6 +116078,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -111089,6 +116133,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por JANAINA ALVES DA SILVA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -111121,6 +116167,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por KAIO VINICIUS VIANA SANTOS",
       "obs": "ROTA DE JUIZ DE FORA",
       "total": 0.0,
       "itens": [
@@ -111174,6 +116222,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :3764",
       "obs": "pagamento ja realizado via Pix",
       "total": 0.0,
       "itens": [
@@ -111199,6 +116249,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por JANAINA ALVES DA SILVA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -111266,6 +116318,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -111298,6 +116352,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -111337,6 +116393,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "PEDIDO COM ITENS FALTANTES",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -111362,6 +116420,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -111401,6 +116461,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por MARLLON MACSON DO CARMO SANTOS",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -111454,6 +116516,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por MARLLON MACSON DO CARMO SANTOS",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -111493,6 +116557,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -111518,6 +116584,8 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "3516- Item com desconto acima do permitido",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -111550,6 +116618,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "2545/008",
       "total": 0.0,
       "itens": [
@@ -111596,6 +116666,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
       "obs": "2541/008",
       "total": 0.0,
       "itens": [
@@ -111663,6 +116735,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VAGNER SANTOS",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -111702,6 +116776,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por MARLLON MACSON DO CARMO SANTOS",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -111783,6 +116859,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VAGNER SANTOS",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -111843,6 +116921,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VAGNER SANTOS",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -111868,6 +116948,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por MARLLON MACSON DO CARMO SANTOS",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -111914,6 +116996,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :4042",
       "obs": "recebimento de seg a sex das 6h as 12h",
       "total": 0.0,
       "itens": [
@@ -111995,6 +117079,8 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :4841",
       "obs": "recebimento de seg a sex das 9h as 17h",
       "total": 0.0,
       "itens": [
@@ -112020,6 +117106,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :463",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -112087,6 +117175,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :4252",
       "obs": "pagamento ja realizado via link",
       "total": 0.0,
       "itens": [
@@ -112112,6 +117202,8 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :119",
       "obs": "cliente recebe ate 15:00 horas",
       "total": 0.0,
       "itens": [
@@ -112144,6 +117236,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VAGNER SANTOS",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -112169,6 +117263,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por MARLLON MACSON DO CARMO SANTOS",
       "obs": "pagamento de descarga no valor de R$65,00 por pallets",
       "total": 0.0,
       "itens": [
@@ -112236,6 +117332,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :4628",
       "obs": "Cliente so recebe mercadorias com horario agendado",
       "total": 0.0,
       "itens": [
@@ -112394,6 +117492,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por MARLLON MACSON DO CARMO SANTOS",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -112433,6 +117533,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por MARLLON MACSON DO CARMO SANTOS",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -112472,6 +117574,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "PRODUTO SEM ESTOQUE",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -112504,6 +117608,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VAGNER SANTOS",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -112613,6 +117719,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por MARLLON MACSON DO CARMO SANTOS",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -112680,6 +117788,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por MARLLON MACSON DO CARMO SANTOS",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -112733,6 +117843,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por RENATO JEFFERSON DE SOUZA NOGUEIRA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -112772,6 +117884,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por VAGNER SANTOS",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -112811,6 +117925,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por RENATO JEFFERSON DE SOUZA NOGUEIRA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -112899,6 +118015,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -112924,6 +118042,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por RENATO JEFFERSON DE SOUZA NOGUEIRA",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -112956,6 +118076,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por MARLLON MACSON DO CARMO SANTOS",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -113030,6 +118152,8 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por MARLLON MACSON DO CARMO SANTOS",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -113132,6 +118256,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por MARLLON MACSON DO CARMO SANTOS",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -113192,6 +118318,8 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por MARLLON MACSON DO CARMO SANTOS",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -113252,6 +118380,8 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :34",
       "obs": "Entrega: Seg a Sex das das 9 as 17h",
       "total": 0.0,
       "itens": [
