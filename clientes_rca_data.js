@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "15/07/2026 13:25",
-  "total": 4278,
+  "atualizado_em": "15/07/2026 13:49",
+  "total": 4276,
   "clientes": [
     {
       "codcli": "31683",
@@ -53240,20 +53240,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "53.332.185/0003-60",
       "estado": "SP",
       "ramo": "MERCADO",
-      "codusur1": "487",
-      "nome_usur1": "LUIZ RIGLER - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "51335",
-      "razao": "SUPERMERCADO BLENTAN LTDA",
-      "fantasia": "SAO JOSE SUPERMERCADO",
-      "bairro": "CENTRO",
-      "cidade": "ITAPOLIS",
-      "cnpj": "53.332.185/0001-06",
-      "estado": "SP",
-      "ramo": "MERCADO",
       "codusur1": "498",
       "nome_usur1": "CELSO OLIVEIRA - OFF TRADE",
       "codusur2": "",
@@ -56800,20 +56786,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "144",
       "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
-    },
-    {
-      "codcli": "47269",
-      "razao": "TEMPO DIVINO COMERCIO DE BEBIDAS E ALIMENTOS LIMITADA",
-      "fantasia": "TEMPO DIVINO COMERCIO DE BEBIDAS E ALIMENTOS LIMITADA",
-      "bairro": "PIRAJUSSARA",
-      "cidade": "SAO PAULO",
-      "cnpj": "63.576.392/0001-51",
-      "estado": "SP",
-      "ramo": "MERCADO",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "11683",
