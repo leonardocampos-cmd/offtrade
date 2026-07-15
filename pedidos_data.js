@@ -1,5 +1,5 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "15/07/2026 18:33",
+  "atualizado_em": "15/07/2026 18:40",
   "periodo_dias": 90,
   "fontes_indisponiveis": [],
   "pedidos_feitos": [
@@ -77,7 +77,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :129",
       "obs": "",
       "total": 3156.0,
@@ -180,7 +180,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 546.92,
@@ -241,7 +241,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :3643",
       "obs": "Data entrega: 16/07/26",
       "total": 1561.2,
@@ -310,7 +310,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "",
       "obs": "",
       "total": 1018.2,
@@ -405,7 +405,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :3151",
       "obs": "",
       "total": 1280.28,
@@ -631,7 +631,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 919.45,
@@ -714,7 +714,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :110",
       "obs": "",
       "total": 362.7,
@@ -755,7 +755,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :2089",
       "obs": "",
       "total": 2238.2,
@@ -803,7 +803,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :902",
       "obs": "",
       "total": 575.2,
@@ -878,7 +878,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :3011",
       "obs": "",
       "total": 4473.0,
@@ -1009,7 +1009,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :2799",
       "obs": "",
       "total": 345.12,
@@ -2129,7 +2129,7 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
-      "posicao": "P",
+      "posicao": "Pendente",
       "motivo": "Item com desconto acima do permitido :3498",
       "obs": "",
       "total": 6463.8,
@@ -3561,7 +3561,7 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
-      "posicao": "P",
+      "posicao": "Pendente",
       "motivo": "PEDIDO COM ITENS FALTANTES",
       "obs": "",
       "total": 164.7,
@@ -3636,7 +3636,7 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
-      "posicao": "P",
+      "posicao": "Pendente",
       "motivo": "Item com desconto acima do permitido :246",
       "obs": "",
       "total": 1651.58,
@@ -3768,7 +3768,7 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
-      "posicao": "P",
+      "posicao": "Pendente",
       "motivo": "Item com desconto acima do permitido :64",
       "obs": "",
       "total": 561.6,
@@ -3802,7 +3802,7 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
-      "posicao": "P",
+      "posicao": "Pendente",
       "motivo": "Item com desconto acima do permitido :64",
       "obs": "",
       "total": 8696.52,
@@ -3856,7 +3856,7 @@ const PEDIDOS_DATA = {
       "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
-      "posicao": "P",
+      "posicao": "Pendente",
       "motivo": "3396- Item com desconto acima do permitido",
       "obs": "",
       "total": 1797.35,
@@ -10198,6 +10198,13 @@ const PEDIDOS_DATA = {
       "total": 361.63,
       "itens": [
         {
+          "desc": "WHISKY J WALKER RED LABEL 1L",
+          "qt": 2,
+          "val": 153.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
           "desc": "VODCA SMIRNOFF RED 998 ML",
           "qt": 1,
           "val": 27.9,
@@ -10208,13 +10215,6 @@ const PEDIDOS_DATA = {
           "desc": "GIN GORDONS 750 ML",
           "qt": 1,
           "val": 55.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY J WALKER RED LABEL 1L",
-          "qt": 2,
-          "val": 153.8,
           "qtfalta": 0.0,
           "cortado": false
         },
@@ -17394,6 +17394,13 @@ const PEDIDOS_DATA = {
       "total": 510.48,
       "itens": [
         {
+          "desc": "WHISKY BLACK STONE 1LT",
+          "qt": 6,
+          "val": 75.24,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
           "desc": "ESPUMANTE ALUD ROSE 750ML",
           "qt": 6,
           "val": 161.4,
@@ -17404,13 +17411,6 @@ const PEDIDOS_DATA = {
           "desc": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
           "qt": 12,
           "val": 273.84,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY BLACK STONE 1LT",
-          "qt": 6,
-          "val": 75.24,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -21258,6 +21258,13 @@ const PEDIDOS_DATA = {
           "cortado": false
         },
         {
+          "desc": "CACHACA JOIA DA SERRA OURO 1L",
+          "qt": 12,
+          "val": 390.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
           "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
           "qt": 2,
           "val": 164.06,
@@ -21275,13 +21282,6 @@ const PEDIDOS_DATA = {
           "desc": "MOVING BOOSTER LIMAO 24X310ML",
           "qt": 2,
           "val": 303.6,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "CACHACA JOIA DA SERRA OURO 1L",
-          "qt": 12,
-          "val": 390.0,
           "qtfalta": 0.0,
           "cortado": false
         },
@@ -22014,6 +22014,13 @@ const PEDIDOS_DATA = {
       "total": 1653.6,
       "itens": [
         {
+          "desc": "GIN ROCKS WATERMELON 1000ML",
+          "qt": 18,
+          "val": 396.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
           "desc": "CONHAQUE DOMECQ 1L",
           "qt": 12,
           "val": 346.8,
@@ -22031,13 +22038,6 @@ const PEDIDOS_DATA = {
           "desc": "GIN ROCKS 1000ML",
           "qt": 12,
           "val": 264.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN ROCKS WATERMELON 1000ML",
-          "qt": 18,
-          "val": 396.0,
           "qtfalta": 0.0,
           "cortado": false
         },
@@ -29546,16 +29546,16 @@ const PEDIDOS_DATA = {
           "cortado": false
         },
         {
-          "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "qt": 30,
-          "val": 987.0,
+          "desc": "ESPU MOSCATEL ROSE QNTA DO MORGADO 660ML",
+          "qt": 12,
+          "val": 260.4,
           "qtfalta": 0.0,
           "cortado": false
         },
         {
-          "desc": "ESPU MOSCATEL ROSE QNTA DO MORGADO 660ML",
-          "qt": 12,
-          "val": 260.4,
+          "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 30,
+          "val": 987.0,
           "qtfalta": 0.0,
           "cortado": false
         },
@@ -31324,14 +31324,14 @@ const PEDIDOS_DATA = {
       "total": 10206.0,
       "itens": [
         {
-          "desc": "WHISKY JIM BEAM APPLE 1L",
+          "desc": "WHISKY JIM BEAM BLACK CHERRY 1L",
           "qt": 12,
           "val": 1134.0,
           "qtfalta": 0.0,
           "cortado": false
         },
         {
-          "desc": "WHISKY JIM BEAM BLACK CHERRY 1L",
+          "desc": "WHISKY JIM BEAM APPLE 1L",
           "qt": 12,
           "val": 1134.0,
           "qtfalta": 0.0,
@@ -55327,6 +55327,13 @@ const PEDIDOS_DATA = {
       "total": 5308.2,
       "itens": [
         {
+          "desc": "VILLA ROSA BRANCO 750ML",
+          "qt": 18,
+          "val": 412.2,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
           "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
           "qt": 120,
           "val": 3948.0,
@@ -55337,13 +55344,6 @@ const PEDIDOS_DATA = {
           "desc": "CHANDON PASSION ON ICE 750 ML",
           "qt": 12,
           "val": 948.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VILLA ROSA BRANCO 750ML",
-          "qt": 18,
-          "val": 412.2,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -59247,6 +59247,13 @@ const PEDIDOS_DATA = {
           "cortado": false
         },
         {
+          "desc": "RUM MONTILLA OURO 1L",
+          "qt": 6,
+          "val": 122.7,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
           "desc": "GIN ROCKS 1000ML",
           "qt": 6,
           "val": 135.0,
@@ -59264,13 +59271,6 @@ const PEDIDOS_DATA = {
           "desc": "RUM MONTILLA CARTA BRANCA 1L",
           "qt": 6,
           "val": 115.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RUM MONTILLA OURO 1L",
-          "qt": 6,
-          "val": 122.7,
           "qtfalta": 0.0,
           "cortado": false
         },
@@ -64868,14 +64868,14 @@ const PEDIDOS_DATA = {
       "total": 700.2,
       "itens": [
         {
-          "desc": "ESPUM CASA PERINI BRUT 750ML",
+          "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
           "qt": 6,
           "val": 233.4,
           "qtfalta": 0.0,
           "cortado": false
         },
         {
-          "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "desc": "ESPUM CASA PERINI BRUT 750ML",
           "qt": 6,
           "val": 233.4,
           "qtfalta": 0.0,
@@ -65750,6 +65750,13 @@ const PEDIDOS_DATA = {
       "total": 540.6,
       "itens": [
         {
+          "desc": "RC ATUM RALADO NATURAL 24X140G",
+          "qt": 1,
+          "val": 141.6,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
           "desc": "RC SARDINHA EM OLEO 50X125G",
           "qt": 1,
           "val": 199.5,
@@ -65760,13 +65767,6 @@ const PEDIDOS_DATA = {
           "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
           "qt": 1,
           "val": 199.5,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM RALADO NATURAL 24X140G",
-          "qt": 1,
-          "val": 141.6,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -66296,6 +66296,13 @@ const PEDIDOS_DATA = {
           "cortado": false
         },
         {
+          "desc": "GIN ROCKS WATERMELON 1000ML",
+          "qt": 1,
+          "val": 24.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
           "desc": "WHISKY JACK DANIELS APPLE 1L",
           "qt": 1,
           "val": 131.9,
@@ -66313,13 +66320,6 @@ const PEDIDOS_DATA = {
           "desc": "WHISKY J WALKER RED LABEL 1L",
           "qt": 2,
           "val": 157.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN ROCKS WATERMELON 1000ML",
-          "qt": 1,
-          "val": 24.9,
           "qtfalta": 0.0,
           "cortado": false
         },
@@ -66611,6 +66611,13 @@ const PEDIDOS_DATA = {
       "total": 979.2,
       "itens": [
         {
+          "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "qt": 5,
+          "val": 326.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
           "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
           "qt": 5,
           "val": 326.4,
@@ -66619,13 +66626,6 @@ const PEDIDOS_DATA = {
         },
         {
           "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-          "qt": 5,
-          "val": 326.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
           "qt": 5,
           "val": 326.4,
           "qtfalta": 0.0,
@@ -68179,14 +68179,14 @@ const PEDIDOS_DATA = {
       "total": 325.92,
       "itens": [
         {
-          "desc": "RED BULL 24X250ML",
+          "desc": "RED BULL MELANCIA 250ML CX C/24",
           "qt": 1,
           "val": 162.96,
           "qtfalta": 0.0,
           "cortado": false
         },
         {
-          "desc": "RED BULL MELANCIA 250ML CX C/24",
+          "desc": "RED BULL 24X250ML",
           "qt": 1,
           "val": 162.96,
           "qtfalta": 0.0,
@@ -68214,6 +68214,13 @@ const PEDIDOS_DATA = {
       "total": 450.49,
       "itens": [
         {
+          "desc": "PINATI DB WHEY BANANOFFE 12X50G",
+          "qt": 1,
+          "val": 80.55,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
           "desc": "RED BULL 24X250ML",
           "qt": 1,
           "val": 162.96,
@@ -68231,13 +68238,6 @@ const PEDIDOS_DATA = {
           "desc": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
           "qt": 1,
           "val": 44.02,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "PINATI DB WHEY BANANOFFE 12X50G",
-          "qt": 1,
-          "val": 80.55,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -68655,16 +68655,16 @@ const PEDIDOS_DATA = {
       "total": 585.0,
       "itens": [
         {
-          "desc": "VODCA SMIRNOFF RED 998 ML",
-          "qt": 4,
-          "val": 111.6,
+          "desc": "CONHAQUE DREHER 900ML",
+          "qt": 3,
+          "val": 50.7,
           "qtfalta": 0.0,
           "cortado": false
         },
         {
-          "desc": "CONHAQUE DREHER 900ML",
-          "qt": 3,
-          "val": 50.7,
+          "desc": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 4,
+          "val": 111.6,
           "qtfalta": 0.0,
           "cortado": false
         },
@@ -70251,6 +70251,13 @@ const PEDIDOS_DATA = {
           "cortado": false
         },
         {
+          "desc": "WHISKY JIM BEAM APPLE 1L",
+          "qt": 3,
+          "val": 212.7,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
           "desc": "LICOR ESDIEGOZAMORA 43 + 2 COPO",
           "qt": 2,
           "val": 319.8,
@@ -70268,13 +70275,6 @@ const PEDIDOS_DATA = {
           "desc": "TEQUILA J CUERVO GOLD 750ML",
           "qt": 3,
           "val": 299.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY JIM BEAM APPLE 1L",
-          "qt": 3,
-          "val": 212.7,
           "qtfalta": 0.0,
           "cortado": false
         },
@@ -70650,6 +70650,13 @@ const PEDIDOS_DATA = {
       "total": 1276.8,
       "itens": [
         {
+          "desc": "NG BARRA NEUGE 80G P&B (DP 16X80G)",
+          "qt": 4,
+          "val": 255.36,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
           "desc": "NG BARRA NEUGE 80G AMENDOIM (DP 16X80G)",
           "qt": 4,
           "val": 255.36,
@@ -70665,13 +70672,6 @@ const PEDIDOS_DATA = {
         },
         {
           "desc": "NG BARRA NEUGE 80G COOKIES BRANCO (DP 16",
-          "qt": 4,
-          "val": 255.36,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "NG BARRA NEUGE 80G P&B (DP 16X80G)",
           "qt": 4,
           "val": 255.36,
           "qtfalta": 0.0,
@@ -73135,6 +73135,13 @@ const PEDIDOS_DATA = {
       "total": 1017.6,
       "itens": [
         {
+          "desc": "VILLA ROSA TINTO 750ML",
+          "qt": 12,
+          "val": 310.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
           "desc": "VILLA ROSA BRANCO 750ML",
           "qt": 12,
           "val": 310.8,
@@ -73145,13 +73152,6 @@ const PEDIDOS_DATA = {
           "desc": "VINHO LATITUD 33 MALBEC  750 ML",
           "qt": 12,
           "val": 396.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VILLA ROSA TINTO 750ML",
-          "qt": 12,
-          "val": 310.8,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -75767,6 +75767,13 @@ const PEDIDOS_DATA = {
           "cortado": false
         },
         {
+          "desc": "ST PIERRE LATA RED MINT LT 24X270ML",
+          "qt": 2,
+          "val": 216.48,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
           "desc": "ST PIERRE VIDRO GINGER LN 12X275ML",
           "qt": 3,
           "val": 169.92,
@@ -75782,13 +75789,6 @@ const PEDIDOS_DATA = {
         },
         {
           "desc": "ST PIERRE LATA PINK LEMON LT 24X270ML",
-          "qt": 2,
-          "val": 216.48,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "ST PIERRE LATA RED MINT LT 24X270ML",
           "qt": 2,
           "val": 216.48,
           "qtfalta": 0.0,
@@ -76194,6 +76194,13 @@ const PEDIDOS_DATA = {
           "cortado": false
         },
         {
+          "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "qt": 1,
+          "val": 13.99,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
           "desc": "VODKA SMIRNOFF 600 ML",
           "qt": 3,
           "val": 67.5,
@@ -76211,13 +76218,6 @@ const PEDIDOS_DATA = {
           "desc": "GIN ROCKS WATERMELON 1000ML",
           "qt": 1,
           "val": 24.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "qt": 1,
-          "val": 13.99,
           "qtfalta": 0.0,
           "cortado": false
         },
@@ -77923,6 +77923,13 @@ const PEDIDOS_DATA = {
       "total": 605.0,
       "itens": [
         {
+          "desc": "VINHO GRAVEDAD CAB. SAUV.",
+          "qt": 1,
+          "val": 29.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
           "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
           "qt": 4,
           "val": 251.6,
@@ -77940,13 +77947,6 @@ const PEDIDOS_DATA = {
           "desc": "VINHO TINTO QUINTA DO MORGADO 750ML",
           "qt": 6,
           "val": 69.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO GRAVEDAD CAB. SAUV.",
-          "qt": 1,
-          "val": 29.9,
           "qtfalta": 0.0,
           "cortado": false
         },
@@ -78056,6 +78056,13 @@ const PEDIDOS_DATA = {
           "cortado": false
         },
         {
+          "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 10,
+          "val": 289.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
           "desc": "ESPUM MOSCATEL QUINTA DO MORGADO 660ML",
           "qt": 1,
           "val": 22.5,
@@ -78073,13 +78080,6 @@ const PEDIDOS_DATA = {
           "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
           "qt": 15,
           "val": 298.5,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
-          "qt": 10,
-          "val": 289.0,
           "qtfalta": 0.0,
           "cortado": false
         },
@@ -79330,16 +79330,16 @@ const PEDIDOS_DATA = {
       "total": 535.68,
       "itens": [
         {
-          "desc": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
-          "qt": 2,
-          "val": 89.28,
+          "desc": "PINATI SIMPLE WHEY PISTACHE 16X35G",
+          "qt": 10,
+          "val": 446.4,
           "qtfalta": 0.0,
           "cortado": false
         },
         {
-          "desc": "PINATI SIMPLE WHEY PISTACHE 16X35G",
-          "qt": 10,
-          "val": 446.4,
+          "desc": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "qt": 2,
+          "val": 89.28,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -82088,6 +82088,13 @@ const PEDIDOS_DATA = {
           "cortado": false
         },
         {
+          "desc": "VINHO ARESTI CABINA 56 SAUV BLANC 750ML",
+          "qt": 2,
+          "val": 129.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
           "desc": "VINHO ARESTI TRISQUEL GRAN R SYRAH 750ML",
           "qt": 2,
           "val": 159.8,
@@ -82105,13 +82112,6 @@ const PEDIDOS_DATA = {
           "desc": "VINHO ARESTI TRISQUEL GRAN R GEWUR 750ML",
           "qt": 2,
           "val": 159.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO ARESTI CABINA 56 SAUV BLANC 750ML",
-          "qt": 2,
-          "val": 129.8,
           "qtfalta": 0.0,
           "cortado": false
         },
@@ -82452,6 +82452,13 @@ const PEDIDOS_DATA = {
       "total": 5287.0,
       "itens": [
         {
+          "desc": "WHISKY JIM BEAM HONEY 1L",
+          "qt": 12,
+          "val": 1128.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
           "desc": "WHISKY JIM BEAM BLACK CHERRY 1L",
           "qt": 12,
           "val": 1128.0,
@@ -82469,13 +82476,6 @@ const PEDIDOS_DATA = {
           "desc": "WHISKY BOURBON MAKERS MARK 750 ML",
           "qt": 5,
           "val": 775.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY JIM BEAM HONEY 1L",
-          "qt": 12,
-          "val": 1128.0,
           "qtfalta": 0.0,
           "cortado": false
         },
@@ -82963,6 +82963,13 @@ const PEDIDOS_DATA = {
       "total": 2883.6,
       "itens": [
         {
+          "desc": "ESPUM CASA PERINI PROSECCO 750ML",
+          "qt": 6,
+          "val": 233.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
           "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
           "qt": 60,
           "val": 1974.0,
@@ -82973,13 +82980,6 @@ const PEDIDOS_DATA = {
           "desc": "ESPUM CASA PERINI BRUT 750ML",
           "qt": 12,
           "val": 466.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "ESPUM CASA PERINI PROSECCO 750ML",
-          "qt": 6,
-          "val": 233.4,
           "qtfalta": 0.0,
           "cortado": false
         },
@@ -83026,6 +83026,13 @@ const PEDIDOS_DATA = {
           "cortado": false
         },
         {
+          "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "qt": 1,
+          "val": 94.68,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
           "desc": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
           "qt": 1,
           "val": 175.2,
@@ -83041,13 +83048,6 @@ const PEDIDOS_DATA = {
         },
         {
           "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-          "qt": 1,
-          "val": 94.68,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
           "qt": 1,
           "val": 94.68,
           "qtfalta": 0.0,
@@ -84433,6 +84433,13 @@ const PEDIDOS_DATA = {
           "cortado": false
         },
         {
+          "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "qt": 1,
+          "val": 94.68,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
           "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
           "qt": 1,
           "val": 94.68,
@@ -84441,13 +84448,6 @@ const PEDIDOS_DATA = {
         },
         {
           "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-          "qt": 1,
-          "val": 94.68,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
           "qt": 1,
           "val": 94.68,
           "qtfalta": 0.0,
@@ -86078,6 +86078,13 @@ const PEDIDOS_DATA = {
           "cortado": false
         },
         {
+          "desc": "MOVING JUICE PROTEIN UVA 12X300ML",
+          "qt": 1,
+          "val": 87.6,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
           "desc": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
           "qt": 1,
           "val": 125.88,
@@ -86093,13 +86100,6 @@ const PEDIDOS_DATA = {
         },
         {
           "desc": "MOVING JUICE PROTEIN MACA 12X300ML",
-          "qt": 1,
-          "val": 87.6,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "MOVING JUICE PROTEIN UVA 12X300ML",
           "qt": 1,
           "val": 87.6,
           "qtfalta": 0.0,
@@ -86393,16 +86393,16 @@ const PEDIDOS_DATA = {
       "total": 15131.04,
       "itens": [
         {
-          "desc": "CACHACA VELHO BARREIRO 910 ML",
-          "qt": 120,
-          "val": 1831.2,
+          "desc": "GIN BOMBAY SAPPHIRE 750ML",
+          "qt": 12,
+          "val": 1055.88,
           "qtfalta": 0.0,
           "cortado": false
         },
         {
-          "desc": "GIN BOMBAY SAPPHIRE 750ML",
-          "qt": 12,
-          "val": 1055.88,
+          "desc": "CACHACA VELHO BARREIRO 910 ML",
+          "qt": 120,
+          "val": 1831.2,
           "qtfalta": 0.0,
           "cortado": false
         },
@@ -86820,6 +86820,13 @@ const PEDIDOS_DATA = {
           "cortado": false
         },
         {
+          "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 4,
+          "val": 345.12,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
           "desc": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
           "qt": 2,
           "val": 310.56,
@@ -86835,13 +86842,6 @@ const PEDIDOS_DATA = {
         },
         {
           "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "qt": 4,
-          "val": 345.12,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
           "qt": 4,
           "val": 345.12,
           "qtfalta": 0.0,
@@ -97453,6 +97453,13 @@ const PEDIDOS_DATA = {
           "cortado": false
         },
         {
+          "desc": "GUARAVITA NATURAL 24X290ML",
+          "qt": 10,
+          "val": 219.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
           "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
           "qt": 10,
           "val": 289.0,
@@ -97468,13 +97475,6 @@ const PEDIDOS_DATA = {
         },
         {
           "desc": "AGUA MINALBA C/ GAS 6X1,5L",
-          "qt": 10,
-          "val": 219.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GUARAVITA NATURAL 24X290ML",
           "qt": 10,
           "val": 219.0,
           "qtfalta": 0.0,
@@ -100669,6 +100669,13 @@ const PEDIDOS_DATA = {
           "cortado": true
         },
         {
+          "desc": "WHISKY JIM BEAM APPLE 1L",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true
+        },
+        {
           "desc": "VEUVE CLICQUOT BRUT 750 ML",
           "qt": 0,
           "val": 0.0,
@@ -100684,13 +100691,6 @@ const PEDIDOS_DATA = {
         },
         {
           "desc": "LICOR BALLENA MORANGO 750 ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "cortado": true
-        },
-        {
-          "desc": "WHISKY JIM BEAM APPLE 1L",
           "qt": 0,
           "val": 0.0,
           "qtfalta": 1.0,
@@ -100774,6 +100774,13 @@ const PEDIDOS_DATA = {
           "cortado": true
         },
         {
+          "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true
+        },
+        {
           "desc": "VINHO LATITUD 33 CHARDONNAY 750 ML",
           "qt": 0,
           "val": 0.0,
@@ -100789,13 +100796,6 @@ const PEDIDOS_DATA = {
         },
         {
           "desc": "MOET ROSE IMPERIAL 750 ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "cortado": true
-        },
-        {
-          "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
           "qt": 0,
           "val": 0.0,
           "qtfalta": 1.0,
@@ -101049,6 +101049,13 @@ const PEDIDOS_DATA = {
           "cortado": true
         },
         {
+          "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 3.0,
+          "cortado": true
+        },
+        {
           "desc": "CHANDON PASSION ON ICE 750 ML",
           "qt": 0,
           "val": 0.0,
@@ -101060,13 +101067,6 @@ const PEDIDOS_DATA = {
           "qt": 0,
           "val": 0.0,
           "qtfalta": 18.0,
-          "cortado": true
-        },
-        {
-          "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 3.0,
           "cortado": true
         },
         {
@@ -102640,6 +102640,13 @@ const PEDIDOS_DATA = {
           "cortado": true
         },
         {
+          "desc": "COQUETEL BANANINHA REGGIANI 950ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 2.0,
+          "cortado": true
+        },
+        {
           "desc": "WHISKY BALLANTINE S FINEST 1L",
           "qt": 0,
           "val": 0.0,
@@ -102655,13 +102662,6 @@ const PEDIDOS_DATA = {
         },
         {
           "desc": "VODKA ABSOLUT 1L",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 2.0,
-          "cortado": true
-        },
-        {
-          "desc": "COQUETEL BANANINHA REGGIANI 950ML",
           "qt": 0,
           "val": 0.0,
           "qtfalta": 2.0,
@@ -103879,6 +103879,13 @@ const PEDIDOS_DATA = {
           "cortado": true
         },
         {
+          "desc": "VINHO GRAVEDAD CAB. SAUV.",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 6.0,
+          "cortado": true
+        },
+        {
           "desc": "VILLA ROSA BRANCO 750ML",
           "qt": 0,
           "val": 0.0,
@@ -103894,13 +103901,6 @@ const PEDIDOS_DATA = {
         },
         {
           "desc": "VILLA ROSA TINTO 750ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 6.0,
-          "cortado": true
-        },
-        {
-          "desc": "VINHO GRAVEDAD CAB. SAUV.",
           "qt": 0,
           "val": 0.0,
           "qtfalta": 6.0,
@@ -104215,6 +104215,13 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
+          "desc": "VODKA ORLOFF 1L",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 12.0,
+          "cortado": true
+        },
+        {
           "desc": "RUM MONTILLA CARTA BRANCA 1L",
           "qt": 0,
           "val": 0.0,
@@ -104233,13 +104240,6 @@ const PEDIDOS_DATA = {
           "qt": 0,
           "val": 0.0,
           "qtfalta": 24.0,
-          "cortado": true
-        },
-        {
-          "desc": "VODKA ORLOFF 1L",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 12.0,
           "cortado": true
         },
         {
@@ -105143,6 +105143,13 @@ const PEDIDOS_DATA = {
           "cortado": true
         },
         {
+          "desc": "BLACK LABEL 50 ML CX/12",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true
+        },
+        {
           "desc": "VODCA SMIRNOFF RED 998 ML",
           "qt": 0,
           "val": 0.0,
@@ -105158,13 +105165,6 @@ const PEDIDOS_DATA = {
         },
         {
           "desc": "WHISKY JACK DANIELS APPLE 1L",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "cortado": true
-        },
-        {
-          "desc": "BLACK LABEL 50 ML CX/12",
           "qt": 0,
           "val": 0.0,
           "qtfalta": 1.0,
@@ -105393,6 +105393,13 @@ const PEDIDOS_DATA = {
           "cortado": true
         },
         {
+          "desc": "GIN TANQUERAY  750 ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 2.0,
+          "cortado": true
+        },
+        {
           "desc": "VODKA CIROC 750 ML",
           "qt": 0,
           "val": 0.0,
@@ -105408,13 +105415,6 @@ const PEDIDOS_DATA = {
         },
         {
           "desc": "WHISKY BUCHANANS 12 YEARS 1000 ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 2.0,
-          "cortado": true
-        },
-        {
-          "desc": "GIN TANQUERAY  750 ML",
           "qt": 0,
           "val": 0.0,
           "qtfalta": 2.0,
@@ -105735,6 +105735,13 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
+          "desc": "RUM BACARDI SUPERIOR 980ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 120.0,
+          "cortado": true
+        },
+        {
           "desc": "MARTINI ROSSO 750 ML",
           "qt": 0,
           "val": 0.0,
@@ -105746,13 +105753,6 @@ const PEDIDOS_DATA = {
           "qt": 0,
           "val": 0.0,
           "qtfalta": 1.0,
-          "cortado": true
-        },
-        {
-          "desc": "RUM BACARDI SUPERIOR 980ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 120.0,
           "cortado": true
         },
         {
@@ -107535,14 +107535,14 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "AGUARDENTE OLD CESAR 88 965 ML",
+          "desc": "COQUETEL BANANINHA REGGIANI 950ML",
           "qt": 0,
           "val": 0.0,
           "qtfalta": 12.0,
           "cortado": true
         },
         {
-          "desc": "COQUETEL BANANINHA REGGIANI 950ML",
+          "desc": "AGUARDENTE OLD CESAR 88 965 ML",
           "qt": 0,
           "val": 0.0,
           "qtfalta": 12.0,
@@ -117394,6 +117394,13 @@ const PEDIDOS_DATA = {
           "cortado": true
         },
         {
+          "desc": "ST PIERRE LATA SUGAR FREE LT 24X270ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 7.0,
+          "cortado": true
+        },
+        {
           "desc": "ST PIERRE LATA GINGER LT 24X270ML",
           "qt": 0,
           "val": 0.0,
@@ -117412,13 +117419,6 @@ const PEDIDOS_DATA = {
           "qt": 0,
           "val": 0.0,
           "qtfalta": 23.0,
-          "cortado": true
-        },
-        {
-          "desc": "ST PIERRE LATA SUGAR FREE LT 24X270ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 7.0,
           "cortado": true
         },
         {
@@ -118262,6 +118262,13 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
+          "desc": "RED BULL MORANGO PESSEGO 24X250ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true
+        },
+        {
           "desc": "RED BULL SF MAÇA 24X250ML",
           "qt": 0,
           "val": 0.0,
@@ -118277,13 +118284,6 @@ const PEDIDOS_DATA = {
         },
         {
           "desc": "RED BULL SF AMORA 24X250ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "cortado": true
-        },
-        {
-          "desc": "RED BULL MORANGO PESSEGO 24X250ML",
           "qt": 0,
           "val": 0.0,
           "qtfalta": 1.0,
@@ -118324,6 +118324,13 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
+          "desc": "RED BULL MORANGO PESSEGO 24X250ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true
+        },
+        {
           "desc": "RED BULL SF AMORA 24X250ML",
           "qt": 0,
           "val": 0.0,
@@ -118335,13 +118342,6 @@ const PEDIDOS_DATA = {
           "qt": 0,
           "val": 0.0,
           "qtfalta": 3.0,
-          "cortado": true
-        },
-        {
-          "desc": "RED BULL MORANGO PESSEGO 24X250ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
           "cortado": true
         },
         {
