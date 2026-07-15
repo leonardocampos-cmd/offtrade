@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "15/07/2026 15:21",
+  "atualizado_em": "15/07/2026 16:15",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -295,8 +295,8 @@ const VENDAS_ES_DATA = {
         "fat_ant": 118062.39
       },
       "Jul/26": {
-        "fat": 131164.8,
-        "pos": 22,
+        "fat": 131938.96,
+        "pos": 23,
         "fat_ant": 89348.53
       }
     },
@@ -402,8 +402,8 @@ const VENDAS_ES_DATA = {
     },
     "MARCELO DE SOUZA": {
       "Jul/26": {
-        "fat": 86238.72,
-        "pos": 7,
+        "fat": 86655.84,
+        "pos": 8,
         "fat_ant": 1224.0
       },
       "Jun/26": {
@@ -77134,6 +77134,15 @@ const VENDAS_ES_DATA = {
           "valor": 69.81
         },
         {
+          "data": "15/07/2026",
+          "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 279.24
+        },
+        {
           "data": "07/07/2026",
           "codcli": "85439",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
@@ -77161,6 +77170,15 @@ const VENDAS_ES_DATA = {
           "valor": 98.61
         },
         {
+          "data": "15/07/2026",
+          "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 197.22
+        },
+        {
           "data": "06/07/2026",
           "codcli": "85436",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
@@ -77168,6 +77186,15 @@ const VENDAS_ES_DATA = {
           "fantasia": "PINATI",
           "qt": 8,
           "valor": 401.92
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR COCO E AMENDOIM 16X35G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 100.48
         },
         {
           "data": "06/07/2026",
@@ -77186,6 +77213,15 @@ const VENDAS_ES_DATA = {
           "fantasia": "PINATI",
           "qt": 2,
           "valor": 98.61
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BANANA AMENDOIM 16X35G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 197.22
         },
         {
           "data": "06/07/2026",
@@ -88416,6 +88452,15 @@ const VENDAS_ES_DATA = {
           "valor": 233.76
         },
         {
+          "data": "15/07/2026",
+          "codcli": "78311",
+          "cliente": "ITAPOA SUPERMERCADO LTDA.",
+          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 116.88
+        },
+        {
           "data": "07/07/2026",
           "codcli": "20942",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
@@ -88578,6 +88623,15 @@ const VENDAS_ES_DATA = {
           "valor": 183.36
         },
         {
+          "data": "15/07/2026",
+          "codcli": "78311",
+          "cliente": "ITAPOA SUPERMERCADO LTDA.",
+          "produto": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
+          "fantasia": "TATUZINHO",
+          "qt": 3,
+          "valor": 183.36
+        },
+        {
           "data": "07/07/2026",
           "codcli": "20942",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
@@ -88599,6 +88653,15 @@ const VENDAS_ES_DATA = {
           "data": "07/07/2026",
           "codcli": "20943",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE ZERO LATA PINK LEMON  24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 116.88
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "78311",
+          "cliente": "ITAPOA SUPERMERCADO LTDA.",
           "produto": "ST PIERRE ZERO LATA PINK LEMON  24X310ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
