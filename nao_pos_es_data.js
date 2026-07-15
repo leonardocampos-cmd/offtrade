@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "15/07/2026 13:25",
+  "atualizado_em": "15/07/2026 13:48",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -11721,38 +11721,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "95512",
-        "cliente": "42.091.059 THIAGO JEFFERSON PETIT",
-        "bairro": "IMBETIBA",
-        "dtultcomp": "25/06/2026",
-        "produtos": [
-          {
-            "produto": "APERITIVO APEROL 750 ML",
-            "fantasia": "CAMPARI",
-            "qt": 2,
-            "valor": 85.8
-          },
-          {
-            "produto": "GIN MARINA 750ML",
-            "fantasia": "HOB",
-            "qt": 3,
-            "valor": 119.7
-          },
-          {
-            "produto": "VODCA SMIRNOFF RED 998 ML",
-            "fantasia": "DIAGEO",
-            "qt": 1,
-            "valor": 27.9
-          },
-          {
-            "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
-            "fantasia": "1883",
-            "qt": 1,
-            "valor": 49.9
-          }
-        ]
-      },
-      {
         "codcli": "79261",
         "cliente": "C J A SOARES RESTAURANTE E BAR -LTDA",
         "bairro": "CAVALEIROS",
@@ -12017,6 +11985,13 @@ const NAO_POS_ES_DATA = {
             "valor": 1413.6
           }
         ]
+      },
+      {
+        "codcli": "95512",
+        "cliente": "42.091.059 THIAGO JEFFERSON PETIT",
+        "bairro": "IMBETIBA",
+        "dtultcomp": "nan",
+        "produtos": []
       },
       {
         "codcli": "95589",
@@ -14833,9 +14808,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95666",
+        "codcli": "95664",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "CAMPO GRANDE",
+        "bairro": "ANIL",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -14847,13 +14822,6 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95671",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "TANQUE",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "95673",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
         "bairro": "PARADA DE LUCAS",
@@ -14861,16 +14829,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95664",
+        "codcli": "95666",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "ANIL",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "95668",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "CASCADURA",
+        "bairro": "CAMPO GRANDE",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -14892,6 +14853,20 @@ const NAO_POS_ES_DATA = {
         "codcli": "95670",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
         "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95671",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "TANQUE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95668",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "CASCADURA",
         "dtultcomp": "nan",
         "produtos": []
       }
