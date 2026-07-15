@@ -34,10 +34,10 @@ _SOURCES = [
 ]
 
 
-def _nome_filter(extra_nomes=None):
-    base = "PED.NOME LIKE '%OFF TRADE%'"
+def _nome_filter(extra_nomes=None, alias='PED'):
+    base = f"{alias}.NOME LIKE '%OFF TRADE%'"
     if extra_nomes:
-        extras = " OR ".join(f"PED.NOME LIKE '{p}'" for p in extra_nomes)
+        extras = " OR ".join(f"{alias}.NOME LIKE '{p}'" for p in extra_nomes)
         return f"({base} OR {extras})"
     return base
 
@@ -47,12 +47,14 @@ def _query_pedidos(schema, extra_nomes=None, filiais=None):
     filial_f = f"AND PED.CODFILIAL IN ({','.join(map(str, filiais))})" if filiais else ""
     return f"""
         SELECT PED.NUMPED, PED.NUMNOTA, PED.NOME, PED.DATA, PED.CODUSUR, PED.CLIENTE, PED.STATUS,
-               PED.DESCRICAO, PED.PVENDA, PED.QT, PED.TOTAL, PED.OBSENTREGA1,
+               PED.DESCRICAO, PED.PVENDA, PED.QT, PED.QTFALTA, PED.TOTAL, PED.OBSENTREGA1,
+               PED.FUNC_CANCEL, PC.POSICAO, PC.MOTIVOPOSICAO,
                U.ESTADO AS ESTADO_VENDEDOR, S.NOME AS NOME_SUPERVISOR, G.NOMEGERENTE
         FROM {schema}.PBI_PCPEDI PED
         LEFT JOIN {schema}.PCUSUARI  U ON U.CODUSUR        = PED.CODUSUR
         LEFT JOIN {schema}.PCSUPERV  S ON U.CODSUPERVISOR  = S.CODSUPERVISOR
         LEFT JOIN {schema}.PCGERENTE G ON S.CODGERENTE     = G.CODGERENTE
+        LEFT JOIN {schema}.PCPEDC    PC ON PC.NUMPED       = PED.NUMPED
         WHERE {nome_f}
           {filial_f}
           AND PED.DATA >= SYSDATE - {DIAS_JANELA}
@@ -77,6 +79,7 @@ tabela_pedidos = pd.concat(_parts, ignore_index=True)
 tabela_pedidos.columns = tabela_pedidos.columns.str.upper()
 tabela_pedidos['TOTAL']       = pd.to_numeric(tabela_pedidos['TOTAL'], errors='coerce').fillna(0)
 tabela_pedidos['QT']          = pd.to_numeric(tabela_pedidos['QT'],    errors='coerce').fillna(0).astype(int)
+tabela_pedidos['QTFALTA']     = pd.to_numeric(tabela_pedidos['QTFALTA'], errors='coerce').fillna(0)
 tabela_pedidos['NUMNOTA_NUM'] = pd.to_numeric(tabela_pedidos['NUMNOTA'], errors='coerce')
 tabela_pedidos['DATA_DT']     = pd.to_datetime(tabela_pedidos['DATA'], errors='coerce')
 tabela_pedidos['DATA']        = tabela_pedidos['DATA_DT'].dt.strftime('%d/%m/%Y')
@@ -85,6 +88,23 @@ tabela_pedidos['STATUS']      = tabela_pedidos['STATUS'].fillna('').astype(str).
 tabela_pedidos['ESTADO'] = tabela_pedidos['ESTADO_VENDEDOR'].fillna('').astype(str).str.strip().str.upper().replace('', 'Sem Estado')
 tabela_pedidos['NOME_SUPERVISOR'] = tabela_pedidos['NOME_SUPERVISOR'].fillna('').astype(str).str.strip().replace('', 'Sem Supervisor')
 tabela_pedidos['NOMEGERENTE']     = tabela_pedidos['NOMEGERENTE'].fillna('').astype(str).str.strip().replace('', 'Sem Gerente')
+
+# ── Posição do pedido (PCPEDC.POSICAO) e motivo (MOTIVOPOSICAO/FUNC_CANCEL) ────
+# Códigos vistos em produção: F=Faturado, C=Cancelado, L=Liberado, B=Bloqueado,
+# M=Bloqueado (alçada) — qualquer outro mostra o próprio código.
+_POSICAO_LABEL = {
+    'F': 'Faturado', 'C': 'Cancelado', 'L': 'Liberado',
+    'B': 'Bloqueado', 'M': 'Bloqueado (alçada)', 'A': 'Digitando',
+    'P': 'Pendente',
+}
+tabela_pedidos['POSICAO'] = tabela_pedidos['POSICAO'].fillna('').astype(str).str.strip().str.upper()
+tabela_pedidos['POSICAO_LABEL'] = tabela_pedidos['POSICAO'].map(_POSICAO_LABEL).fillna(tabela_pedidos['POSICAO'])
+
+tabela_pedidos['MOTIVOPOSICAO'] = tabela_pedidos['MOTIVOPOSICAO'].fillna('').astype(str).str.strip()
+tabela_pedidos['FUNC_CANCEL']   = tabela_pedidos['FUNC_CANCEL'].fillna('').astype(str).str.strip()
+tabela_pedidos['MOTIVO'] = tabela_pedidos['MOTIVOPOSICAO']
+_sem_motivo_mas_cancelado = (tabela_pedidos['MOTIVO'] == '') & (tabela_pedidos['STATUS'] == 'CANCELADA') & (tabela_pedidos['FUNC_CANCEL'] != '')
+tabela_pedidos.loc[_sem_motivo_mas_cancelado, 'MOTIVO'] = 'Cancelado por ' + tabela_pedidos.loc[_sem_motivo_mas_cancelado, 'FUNC_CANCEL']
 
 # ── Mapeia Oracle name → display name (igual ao entregas.py) ──────────────────
 
@@ -170,19 +190,80 @@ for _ano, _mes in _meses_recentes():
 
 print(f"Status de logística: {len(_status_por_nf)} NF(s) mapeada(s) (últimos {_meses_recentes.__defaults__[0]} meses)")
 
+# ── Status de entrega SP (Canhoto Digital / ComprovaFácil) ────────────────────
+# Cache gerado por canhoto_digital.py (scraping, roda separado — ver esse
+# arquivo). Cobre só pedidos do sistema SPON; outras bases ficam sem status
+# aqui mesmo (RJ já vem de _status_por_nf acima).
 
-def _status_log(numnota):
+_canhoto_path = Path(__file__).parent / 'canhoto_status.json'
+_canhoto_por_nf: dict = {}
+if _canhoto_path.exists():
+    try:
+        _canhoto_raw = json.loads(_canhoto_path.read_text(encoding='utf-8'))
+        _canhoto_por_nf = {
+            nf: (info.get('sub_status') or info.get('status') or '')
+            for nf, info in _canhoto_raw.items()
+        }
+        print(f"Canhoto Digital: {len(_canhoto_por_nf)} NF(s) mapeada(s) (cache local)")
+    except Exception as e:
+        print(f"Aviso: falha ao ler canhoto_status.json ({e})")
+
+
+def _status_log(numnota, sistema=''):
+    if sistema == 'SPON':
+        return _canhoto_por_nf.get(_nf_clean(numnota), '')
     try:
         return _status_por_nf.get(int(float(numnota)), '')
     except (ValueError, TypeError):
         return ''
 
 
-# ── Separação em 3 baldes mutuamente exclusivos ────────────────────────────────
+# ── PCPREST — títulos já pagos saem de Faturados ───────────────────────────────
+# "Faturado" aqui representa nota em aberto pro financeiro; uma vez que TODAS
+# as parcelas do pedido (PCPREST.DTPAG) estão pagas, a nota sai da lista —
+# mesma tabela usada em exportacao_inadimplencia.py, join por NUMPED (mais
+# confiável que casar por DUPLIC/NUMNOTA em texto).
+
+def _query_pcprest(schema, extra_nomes=None):
+    nome_f = _nome_filter(extra_nomes, alias='U')
+    return f"""
+        SELECT P.NUMPED, P.DTPAG
+        FROM {schema}.PCPREST P
+        JOIN {schema}.PCUSUARI U ON U.CODUSUR = P.CODUSUR
+        WHERE {nome_f}
+          AND P.DTVENC >= SYSDATE - {DIAS_JANELA + 60}
+    """
+
+
+_pcprest_partes = []
+for _nome, _eng, _extra, _filiais in _SOURCES:
+    try:
+        _df_pp = carregar_dados(_query_pcprest(_nome, _extra), _eng, f"pcprest_{_nome}")
+        _pcprest_partes.append(_df_pp)
+    except Exception as ex:
+        print(f"[AVISO] pcprest_{_nome} falhou ({str(ex)[:80]}) — ignorado (pagamentos dessa base ficam sem checar)")
+
+_numpeds_pagos = set()
+if _pcprest_partes:
+    _tabela_pcprest = pd.concat(_pcprest_partes, ignore_index=True)
+    _tabela_pcprest.columns = _tabela_pcprest.columns.str.upper()
+    _tabela_pcprest['NUMPED'] = pd.to_numeric(_tabela_pcprest['NUMPED'], errors='coerce')
+    _resumo_pag = _tabela_pcprest.groupby('NUMPED')['DTPAG'].agg(lambda s: s.notna().all())
+    _numpeds_pagos = set(_resumo_pag[_resumo_pag].index)
+    print(f"PCPREST: {len(_numpeds_pagos)} pedido(s) com todas as parcelas pagas — saem de Faturados")
+
+# ── Separação em baldes mutuamente exclusivos ──────────────────────────────────
+# "Cancelados" já cobre o corte total na prática: neste Winthor, STATUS só
+# vira CANCELADA depois que a NF existe (as 364 notas canceladas do período
+# têm NUMNOTA preenchido — não existe "cancelado sem nunca ter faturado").
+# Corte parcial (entregou parte, faltou parte) fica dentro de Faturados
+# mesmo, só marca quais itens foram cortados (ver _agrupar/'tem_corte').
 
 _cancelados = tabela_pedidos[tabela_pedidos['STATUS'] == 'CANCELADA']
 _faturados  = tabela_pedidos[
-    tabela_pedidos['NUMNOTA_NUM'].notna() & (tabela_pedidos['STATUS'] != 'CANCELADA')
+    tabela_pedidos['NUMNOTA_NUM'].notna()
+    & (tabela_pedidos['STATUS'] != 'CANCELADA')
+    & ~tabela_pedidos['NUMPED'].astype(str).isin({str(int(n)) for n in _numpeds_pagos})
 ]
 _feitos     = tabela_pedidos[
     tabela_pedidos['NUMNOTA_NUM'].isna() & (tabela_pedidos['STATUS'] != 'CANCELADA')
@@ -220,19 +301,24 @@ def _agrupar(df, com_status_log=False):
             'supervisor': _s(r0['NOME_SUPERVISOR']),
             'gerente':    _s(r0['NOMEGERENTE']),
             'status_ped': _s(r0['STATUS']),
+            'posicao':    _s(r0['POSICAO_LABEL']),
+            'motivo':     _s(r0['MOTIVO']),
             'obs':        _s(r0['OBSENTREGA1']),
             'total':      round(float(grp['TOTAL'].sum()), 2),
             'itens': [
                 {
-                    'desc': _s(row['DESCRICAO']),
-                    'qt':   int(row['QT']),
-                    'val':  round(float(row['TOTAL']), 2),
+                    'desc':     _s(row['DESCRICAO']),
+                    'qt':       int(row['QT']),
+                    'val':      round(float(row['TOTAL']), 2),
+                    'qtfalta':  float(row['QTFALTA']),
+                    'cortado':  bool(row['QTFALTA'] > 0),
                 }
                 for _, row in grp.iterrows()
             ],
         }
+        item['tem_corte'] = any(it['cortado'] for it in item['itens'])
         if com_status_log:
-            item['status_log'] = _status_log(nf) if nf else ''
+            item['status_log'] = _status_log(nf, sistema) if nf else ''
         result.append(item)
     result.sort(key=lambda p: p['data_ord'], reverse=True)
     return result
@@ -254,7 +340,7 @@ with open(out, 'w', encoding='utf-8') as f:
 print(
     f"OK - {len(payload['pedidos_feitos'])} pedido(s) feito(s), "
     f"{len(payload['faturados'])} faturado(s), "
-    f"{len(payload['cancelados'])} cancelado(s) -> {out}"
+    f"{len(payload['cancelados'])} cortado(s)/cancelado(s) -> {out}"
 )
 
 import subprocess

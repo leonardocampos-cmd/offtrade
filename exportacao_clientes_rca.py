@@ -21,14 +21,18 @@ def _query(schema):
             COALESCE(C.ESTENT, '')     AS ESTADO,
             COALESCE(C.CGCENT, '')     AS CNPJ,
             COALESCE(A.RAMO, '')       AS RAMO,
+            COALESCE(C.CLASSEVENDA, '') AS CLASSEVENDA,
+            C.CODREDE,
+            COALESCE(R.DESCRICAO, '')  AS REDE,
             C.CODUSUR1,
             C.CODUSUR2,
             COALESCE(U1.NOME, '')      AS NOME_USUR1,
             COALESCE(U2.NOME, '')      AS NOME_USUR2
         FROM {s}.PCCLIENT C
-        LEFT JOIN {s}.PCATIVI  A  ON C.CODATV1  = A.CODATIV
-        LEFT JOIN {s}.PCUSUARI U1 ON C.CODUSUR1 = U1.CODUSUR
-        LEFT JOIN {s}.PCUSUARI U2 ON C.CODUSUR2 = U2.CODUSUR
+        LEFT JOIN {s}.PCATIVI       A  ON C.CODATV1  = A.CODATIV
+        LEFT JOIN {s}.PCUSUARI      U1 ON C.CODUSUR1 = U1.CODUSUR
+        LEFT JOIN {s}.PCUSUARI      U2 ON C.CODUSUR2 = U2.CODUSUR
+        LEFT JOIN {s}.PCREDECLIENTE R  ON C.CODREDE  = R.CODREDE
         WHERE (U1.NOME LIKE '%OFF TRADE%' OR U2.NOME LIKE '%OFF TRADE%'
                OR U1.NOME = 'W.S' OR U2.NOME = 'W.S')
     """
@@ -67,6 +71,8 @@ df['CIDADE']     = df['CIDADE'].fillna('').str.strip()
 df['ESTADO']     = df['ESTADO'].fillna('').str.strip().str.upper()
 df['CNPJ']       = df['CNPJ'].fillna('').str.strip()
 df['RAMO']       = df['RAMO'].fillna('').str.strip()
+df['CLASSEVENDA'] = df['CLASSEVENDA'].fillna('').str.strip().str.upper()
+df['REDE']         = df['REDE'].fillna('').str.strip()
 df['NOME_USUR1'] = df['NOME_USUR1'].fillna('').str.strip()
 df['NOME_USUR2'] = df['NOME_USUR2'].fillna('').str.strip()
 
@@ -95,6 +101,8 @@ for _, r in df.iterrows():
         'cnpj':       r['CNPJ'],
         'estado':     r['ESTADO'] or 'RJ',
         'ramo':       r['RAMO'],
+        'key_account': r['CLASSEVENDA'] == 'A',
+        'rede':       r['REDE'],
         'codusur1':   str(int(r['CODUSUR1'])) if pd.notna(r['CODUSUR1']) else '',
         'nome_usur1': n1,
         'codusur2':   str(int(r['CODUSUR2'])) if pd.notna(r['CODUSUR2']) else '',

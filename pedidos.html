@@ -120,15 +120,36 @@
     .status-feito     { background: rgba(59,130,246,.15);  color: var(--blue); }
     .status-faturado  { background: rgba(34,197,94,.15);   color: var(--green); }
     .status-cancelado { background: rgba(239,68,68,.15);   color: var(--red); }
+    .status-cortado   { background: rgba(249,115,22,.15);  color: var(--orange); }
     .status-none { color: var(--muted); font-size:.78rem; }
     .status-log-entregue  { background: rgba(34,197,94,.15);  color: var(--green); }
     .status-log-retorno   { background: rgba(249,115,22,.15); color: var(--orange); }
     .status-log-cancelada { background: rgba(239,68,68,.15);  color: var(--red); }
     .status-log-outro     { background: var(--card2); border: 1px solid var(--border); color: var(--text); }
+    .status-log-carregado { background: rgba(59,130,246,.15);  color: var(--blue); }
+    .status-log-aberto    { background: var(--card2); border: 1px solid var(--border); color: var(--muted); }
     .badge-agendado {
       display: inline-block; background: rgba(59,130,246,.15); color: var(--blue);
       border-radius: 20px; padding: 1px 8px; font-size: .68rem; font-weight: 700;
       white-space: nowrap;
+    }
+    .badge-corte {
+      display: inline-block; background: rgba(249,115,22,.15); color: var(--orange);
+      border-radius: 20px; padding: 1px 8px; font-size: .68rem; font-weight: 700;
+      white-space: nowrap;
+    }
+    .item-cortado td { color: var(--orange); }
+    .badge-posicao {
+      display: inline-block; border-radius: 20px; padding: 1px 8px;
+      font-size: .68rem; font-weight: 700; white-space: nowrap;
+    }
+    .badge-posicao-bloqueado  { background: rgba(239,68,68,.15);  color: var(--red); }
+    .badge-posicao-liberado   { background: rgba(34,197,94,.15);  color: var(--green); }
+    .badge-posicao-pendente   { background: rgba(249,115,22,.15); color: var(--orange); }
+    .badge-posicao-digitando  { background: var(--card2); border: 1px solid var(--border); color: var(--muted); }
+    .tag-falta {
+      display: inline-block; margin-left: 6px; font-size: .68rem; font-weight: 700;
+      color: var(--orange);
     }
     .expand-icon { display:inline-block; width: 14px; color: var(--muted); }
     .itens-table { width: 100%; border-collapse: collapse; font-size: .78rem; margin-top: 6px; }
@@ -176,6 +197,9 @@
     <option value="sim">Sim</option>
     <option value="nao">Não</option>
   </select>
+  <select id="sel-status-log" onchange="aplicarFiltro()">
+    <option value="">Status Logística</option>
+  </select>
   <button class="btn-csv" onclick="exportarCSV()">⬇ Exportar CSV</button>
   <span class="info" id="info-count"></span>
 </div>
@@ -211,8 +235,8 @@ const ABAS = [
     colExtra: { campo: 'status_log', label: 'Status Logística', render: p => _statusLogBadge(p.status_log) },
   },
   {
-    chave: 'cancelados', label: 'Cancelados', cor: 'status-cancelado',
-    colExtra: { campo: 'status_ped', label: 'Status Winthor', render: p => _statusBadge(p.status_ped, 'status-cancelado') },
+    chave: 'cancelados', label: 'Cortados/Cancelados', cor: 'status-cancelado',
+    colExtra: { campo: 'motivo', label: 'Motivo', render: p => p.motivo ? _esc(p.motivo) : '<span class="status-none">—</span>' },
   },
 ];
 
@@ -228,6 +252,7 @@ if (!DATA) {
     'Atualizado ' + DATA.atualizado_em + ' · últimos ' + DATA.periodo_dias + ' dias';
   montarTabs();
   montarEstados();
+  montarStatusLog();
   aplicarFiltro();
 }
 
@@ -245,6 +270,26 @@ function montarTabs() {
   th.onclick = () => ordenarPor(abaInfo.colExtra.campo);
 
   document.getElementById('th-nf').style.display = _abaAtual === 'pedidos_feitos' ? 'none' : '';
+  document.getElementById('sel-status-log').style.display = _abaAtual === 'faturados' ? '' : 'none';
+}
+
+function montarStatusLog() {
+  const sel = document.getElementById('sel-status-log');
+  const atual = sel.value;
+  if (_abaAtual !== 'faturados') {
+    sel.innerHTML = '<option value="">Status Logística</option>';
+    return;
+  }
+  const valores = [...new Set(_listaAtual().map(p => p.status_log || '(sem status)'))].sort();
+  sel.innerHTML = '<option value="">Status Logística</option>';
+  valores.forEach(v => {
+    const o = document.createElement('option');
+    o.value = v;
+    o.textContent = v;
+    if (v === atual) o.selected = true;
+    sel.appendChild(o);
+  });
+  if (atual && !valores.includes(atual)) sel.value = '';
 }
 
 function _totalColunas() {
@@ -256,6 +301,7 @@ function trocarAba(chave) {
   _expandidos.clear();
   montarTabs();
   montarEstados();
+  montarStatusLog();
   aplicarFiltro();
 }
 
@@ -468,6 +514,7 @@ function _filtrados() {
   const vendedor   = document.getElementById('sel-vendedor').value;
   const busca      = document.getElementById('busca').value.trim().toLowerCase();
   const agendamento = document.getElementById('sel-agendamento').value;
+  const statusLog   = document.getElementById('sel-status-log').value;
   let lista = _listaAtual().filter(p => {
     const matchEstado     = !estado || p.estado === estado;
     const matchGerente    = !gerente || p.gerente === gerente;
@@ -475,9 +522,10 @@ function _filtrados() {
     const matchVendedor   = !vendedor || p.nome === vendedor;
     const matchData       = _datasSelecionadas.size === 0 || _datasSelecionadas.has(p.data_ord);
     const matchAgendado   = !agendamento || (agendamento === 'sim' ? !!_agendamento(p.obs) : !_agendamento(p.obs));
+    const matchStatusLog  = !statusLog || (p.status_log || '(sem status)') === statusLog;
     const matchBusca = !busca || [p.cliente, p.numped, p.numnota]
       .some(v => v && String(v).toLowerCase().includes(busca));
-    return matchEstado && matchGerente && matchSupervisor && matchVendedor && matchData && matchAgendado && matchBusca;
+    return matchEstado && matchGerente && matchSupervisor && matchVendedor && matchData && matchAgendado && matchStatusLog && matchBusca;
   });
   const { campo, asc } = _ordem;
   const campoOrd = campo === 'data' ? 'data_ord' : campo;
@@ -534,7 +582,7 @@ function aplicarFiltro() {
       ${mostraNf ? `<td class="cod">${_esc(p.numnota) || '—'}</td>` : ''}
       <td>${_esc(p.data)}</td>
       <td><span class="rca-badge">${_esc((p.nome || '').replace(' - OFF TRADE',''))}</span></td>
-      <td>${_esc(p.cliente)}${agendado ? ` <span class="badge-agendado">📅 ${agendado}</span>` : ''}</td>
+      <td>${_esc(p.cliente)}${agendado ? ` <span class="badge-agendado">📅 ${agendado}</span>` : ''}${(_abaAtual === 'faturados' && p.tem_corte) ? ` <span class="badge-corte">✂ CORTE PARCIAL</span>` : ''}${_abaAtual === 'pedidos_feitos' ? _posicaoBadge(p.posicao) : ''}</td>
       <td>${abaInfo.colExtra.render(p)}</td>
       <td>${brl(p.total)}</td>
     </tr>
@@ -544,13 +592,25 @@ function aplicarFiltro() {
   }).join('');
 }
 
+function _posicaoBadge(posicao) {
+  if (!posicao || posicao === 'Faturado') return '';
+  const p = posicao.toLowerCase();
+  const cls = p.includes('bloqueado') ? 'badge-posicao-bloqueado'
+    : p === 'liberado' ? 'badge-posicao-liberado'
+    : p === 'pendente' ? 'badge-posicao-pendente'
+    : 'badge-posicao-digitando';
+  return ` <span class="badge-posicao ${cls}">${_esc(posicao)}</span>`;
+}
+
 function _agendamento(obs) {
   if (!obs) return null;
   // Cobre variações reais vistas nas obs: "ENTREGA AGENDADA: dd/mm/aa",
   // "entrega agendada para o dia dd/mm", "ENTREGAR [dia da semana] dd/mm",
-  // "Data entrega: dd/mm/aa", "entregar no dia dd/mm...", etc. — o texto é
-  // livre, então busca a palavra "entreg" seguida de uma data por perto.
-  const m = obs.match(/entreg\w*[^\d]{0,30}?(\d{1,2})\/(\d{1,2})(?:\/(\d{2,4}))?/i);
+  // "Data entrega: dd/mm/aa", "entregar no dia dd/mm...", "agendado para
+  // dia dd/mm" (sem a palavra entreg), datas com ponto (dd.mm) etc. — o
+  // texto é livre, então busca "entreg"/"agend" seguido de uma data por perto,
+  // aceitando "/", "." ou "-" como separador (checado contra ~650 obs reais).
+  const m = obs.match(/(?:entreg|agend)\w*[^\d]{0,30}?(\d{1,2})[/.\-](\d{1,2})(?:[/.\-](\d{2,4}))?/i);
   if (!m) return null;
   const dd = m[1].padStart(2, '0');
   const mm = m[2].padStart(2, '0');
@@ -563,13 +623,14 @@ function _agendamento(obs) {
 function _montarItens(p) {
   if (!p.itens || !p.itens.length) return '<span class="status-none">Sem itens.</span>';
   const linhas = p.itens.map(it => `
-    <tr><td>${_esc(it.desc)}</td><td>${it.qt}</td><td>${brl(it.val)}</td></tr>
+    <tr class="${it.cortado ? 'item-cortado' : ''}"><td>${_esc(it.desc)}${it.cortado ? `<span class="tag-falta">faltou ${it.qtfalta}</span>` : ''}</td><td>${it.qt}</td><td>${brl(it.val)}</td></tr>
   `).join('');
+  const motivo = p.motivo ? `<div style="margin-top:6px;color:var(--orange);font-size:.78rem">Motivo: ${_esc(p.motivo)}</div>` : '';
   const obs = p.obs ? `<div style="margin-top:6px;color:var(--muted);font-size:.78rem">Obs.: ${_esc(p.obs)}</div>` : '';
   return `<table class="itens-table">
     <thead><tr><th>Produto</th><th>Qtd</th><th>Valor</th></tr></thead>
     <tbody>${linhas}</tbody>
-  </table>${obs}`;
+  </table>${motivo}${obs}`;
 }
 
 function toggleItens(chave) {
@@ -589,9 +650,14 @@ function _statusBadge(status, cls) {
 function _statusLogBadge(status) {
   if (!status) return '<span class="status-none">—</span>';
   const s = status.toUpperCase();
-  const cls = s === 'ENTREGUE' ? 'status-log-entregue'
-    : s === 'RETORNO' ? 'status-log-retorno'
+  // ENTREGUE/RETORNO/CANCELADA vêm da planilha RJ; ENTREGA TOTAL/COMPROVADO,
+  // CARREGADO e ABERTO vêm do Canhoto Digital (SP) — mesmo semáforo visual.
+  const cls =
+    (s === 'ENTREGUE' || s.includes('ENTREGA TOTAL') || s === 'COMPROVADO') ? 'status-log-entregue'
+    : (s === 'RETORNO' || s.includes('ENTREGA PARCIAL')) ? 'status-log-retorno'
     : s === 'CANCELADA' ? 'status-log-cancelada'
+    : s === 'CARREGADO' ? 'status-log-carregado'
+    : s === 'ABERTO' ? 'status-log-aberto'
     : 'status-log-outro';
   return `<span class="status-badge ${cls}">${_esc(status)}</span>`;
 }

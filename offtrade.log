@@ -2758,3 +2758,1914 @@ OK Servico ativo - https://offtrade.duckdns.org
  4 files changed, 11269 insertions(+), 10943 deletions(-)
 To https://github.com/leonardocampos-cmd/offtrade.git
    fcabe2c..d49a6ae  master -> master
+[master 03fc9dc] Atualiza entregas_data.js - 15/07/2026
+ 1 file changed, 1133 insertions(+), 385 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   762a142..03fc9dc  master -> master
+
+==================================================
+  OFFTRADE - 15/07/2026 15:00
+==================================================
+
+--------------------------------------------------
+  0/8 - Baixando planilhas do Google Drive
+--------------------------------------------------
+[AVISO] falha ao baixar via caminho_metas_rj: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+[AVISO] falha ao baixar via caminho_metas_sp: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+[AVISO] falha ao baixar via caminho_tabela_preco_rj: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+[AVISO] falha ao baixar via caminho_preco_promo: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+[AVISO] falha ao baixar via caminho_profit_rj: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+
+
+--------------------------------------------------
+  1/8 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/3)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/3)...
+OK vendas_thekings carregada!
+-> Lendo vendas_CASTAS (Tentativa 1/3)...
+OK vendas_CASTAS carregada!
+-> Lendo vendas_GARRIDO (Tentativa 1/3)...
+OK vendas_GARRIDO carregada!
+-> Lendo vendas_SPON (Tentativa 1/3)...
+OK vendas_SPON carregada!
+-> Lendo vendas_MGON (Tentativa 1/3)...
+OK vendas_MGON carregada!
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS\METAS RJ.xlsx
+-> Lendo vendas_anterior_CRC (Tentativa 1/3)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/3)...
+OK vendas_anterior_thekings carregada!
+-> Lendo vendas_anterior_CASTAS (Tentativa 1/3)...
+OK vendas_anterior_CASTAS carregada!
+-> Lendo vendas_anterior_GARRIDO (Tentativa 1/3)...
+OK vendas_anterior_GARRIDO carregada!
+-> Lendo vendas_anterior_SPON (Tentativa 1/3)...
+OK vendas_anterior_SPON carregada!
+
+--------------------------------------------------
+  2/8 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/3)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/3)...
+OK nao_pos_thekings carregada!
+-> Lendo nao_pos_CASTAS (Tentativa 1/3)...
+OK nao_pos_CASTAS carregada!
+-> Lendo nao_pos_GARRIDO (Tentativa 1/3)...
+OK nao_pos_GARRIDO carregada!
+-> Lendo nao_pos_SPON (Tentativa 1/3)...
+OK nao_pos_SPON carregada!
+Clientes nao positivados em 07/2026: 3052
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_07-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/3)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/3)...
+OK map_rca_thekings carregada!
+-> Lendo map_rca_CASTAS (Tentativa 1/3)...
+OK map_rca_CASTAS carregada!
+-> Lendo map_rca_GARRIDO (Tentativa 1/3)...
+OK map_rca_GARRIDO carregada!
+-> Lendo map_rca_SPON (Tentativa 1/3)...
+OK map_rca_SPON carregada!
+-> Lendo map_rca_MGON (Tentativa 1/3)...
+OK map_rca_MGON carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/3)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/3)...
+OK vendas_hist_thekings carregada!
+-> Lendo vendas_hist_CASTAS (Tentativa 1/3)...
+OK vendas_hist_CASTAS carregada!
+-> Lendo vendas_hist_GARRIDO (Tentativa 1/3)...
+OK vendas_hist_GARRIDO carregada!
+-> Lendo vendas_hist_SPON (Tentativa 1/3)...
+OK vendas_hist_SPON carregada!
+-> Lendo vendas_hist_MGON (Tentativa 1/3)...
+OK vendas_hist_MGON carregada!
+-> Lendo cadastros_CRC (Tentativa 1/3)...
+OK cadastros_CRC carregada!
+-> Lendo cadastros_thekings (Tentativa 1/3)...
+OK cadastros_thekings carregada!
+-> Lendo cadastros_spon (Tentativa 1/3)...
+OK cadastros_spon carregada!
+-> Lendo cadastros_CASTAS (Tentativa 1/3)...
+OK cadastros_CASTAS carregada!
+-> Lendo cadastros_GARRIDO (Tentativa 1/3)...
+OK cadastros_GARRIDO carregada!
+OK cadastros: 321 clientes, 14 vendedores
+-> Lendo historico_CRC (Tentativa 1/3)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/3)...
+OK historico_thekings carregada!
+-> Lendo historico_CASTAS (Tentativa 1/3)...
+OK historico_CASTAS carregada!
+-> Lendo historico_GARRIDO (Tentativa 1/3)...
+OK historico_GARRIDO carregada!
+-> Lendo historico_SPON (Tentativa 1/3)...
+OK historico_SPON carregada!
+OK metas_data.js gerado — 23 vendedores, meses: ['Jul/26', 'Jun/26']
+OK fontes_status_data.js gerado — todas as bases OK
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+-> Lendo hier_CRC (Tentativa 1/3)...
+OK hier_CRC carregada!
+-> Lendo hier_thekings (Tentativa 1/3)...
+OK hier_thekings carregada!
+-> Lendo hier_CASTAS (Tentativa 1/3)...
+OK hier_CASTAS carregada!
+-> Lendo hier_GARRIDO (Tentativa 1/3)...
+OK hier_GARRIDO carregada!
+-> Lendo hier_SPON (Tentativa 1/3)...
+OK hier_SPON carregada!
+-> Lendo hier_MGON (Tentativa 1/3)...
+OK hier_MGON carregada!
+OK gerentes_data.js gerado — 5 estados
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/8 - Metas Gerais por estado/indústria (metas_gerais_data.js)
+--------------------------------------------------
+[master 347a285] Atualiza metas_gerais_data.js - 15/07/2026
+ 1 file changed, 69 insertions(+), 69 deletions(-)
+
+=== Carregando industrias (mes atual) ===
+  Consultando RJ (CRC filiais=['2', '4'])…
+    OK 39 indústrias, fat=945,713
+  Consultando ES (CRC filiais=['1'])…
+    OK 8 indústrias, fat=203,254
+  Consultando SP (SPON filiais=['1', '2'])…
+    OK 24 indústrias, fat=3,099,513
+  Consultando MG (MGON filiais=['1', '2'])…
+    OK 8 indústrias, fat=518,029
+
+=== Carregando industrias (mes anterior, dias corridos p/ comparativo de ritmo) ===
+  Consultando RJ (CRC filiais=['2', '4'])…
+    OK 44 indústrias, fat=1,396,415
+  Consultando ES (CRC filiais=['1'])…
+    OK 19 indústrias, fat=506,148
+  Consultando SP (SPON filiais=['1', '2'])…
+    OK 23 indústrias, fat=2,598,540
+  Consultando MG (MGON filiais=['1', '2'])…
+    OK 6 indústrias, fat=558,550
+
+=== Carregando totais reais (mes atual) ===
+
+=== Carregando totais reais (mes anterior, dias corridos p/ comparativo de ritmo) ===
+
+=== Carregando totais reais (mes anterior FECHADO, sem corte de dia) ===
+
+OK metas_gerais_data.js - 50 industrias -> G:\Meu Drive\offtrade\metas_gerais_data.js
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  3b - Vendas por Indústria (industria_data.js)
+--------------------------------------------------
+[master 391b1c4] Atualiza pedidos_data.js - 15/07/2026
+ 1 file changed, 4386 insertions(+), 3020 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   03fc9dc..391b1c4  master -> master
+[master fba26e6] Atualiza industria_data.js - 15/07/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+=== Carregando vendas por indústria (6 meses, RJ/SP/ES/MG) ===
+  Consultando RJ (CRC filiais=['2', '4']) — tentativa 1/3…
+    OK 111894 linhas
+  Consultando ES (CRC filiais=['1']) — tentativa 1/3…
+    OK 14481 linhas
+  Consultando SP (SPON filiais=['1', '2']) — tentativa 1/3…
+    OK 63021 linhas
+  Consultando MG (MGON filiais=['1', '2']) — tentativa 1/3…
+    OK 38027 linhas
+
+OK industria_data.js — 93388 registros (envelopes), 94 fornecedores, 47.6MB -> G:\Meu Drive\offtrade\industria_data.js
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  4/8 - Campanha Robinson Crusoe (crusoe_data.js)
+--------------------------------------------------
+[master 6d0d8cb] Atualiza crusoe_data.js - 15/07/2026
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+-> Lendo vendas_CRC (Tentativa 1/3)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/3)...
+OK vendas_thekings carregada!
+-> Lendo vendas_CASTAS (Tentativa 1/3)...
+OK vendas_CASTAS carregada!
+-> Lendo vendas_GARRIDO (Tentativa 1/3)...
+OK vendas_GARRIDO carregada!
+-> Lendo vendas_SPON (Tentativa 1/3)...
+OK vendas_SPON carregada!
+-> Lendo vendas_MGON (Tentativa 1/3)...
+OK vendas_MGON carregada!
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS\METAS RJ.xlsx
+-> Lendo vendas_anterior_CRC (Tentativa 1/3)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/3)...
+OK vendas_anterior_thekings carregada!
+-> Lendo vendas_anterior_CASTAS (Tentativa 1/3)...
+OK vendas_anterior_CASTAS carregada!
+-> Lendo vendas_anterior_GARRIDO (Tentativa 1/3)...
+OK vendas_anterior_GARRIDO carregada!
+-> Lendo vendas_anterior_SPON (Tentativa 1/3)...
+OK vendas_anterior_SPON carregada!
+-> Lendo crusoe_CRC (Tentativa 1/3)...
+OK crusoe_CRC carregada!
+OK crusoe_data.js — 13 vendedores em 3 times, 162 linhas no período
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  4/8 - Conferência de preços
+--------------------------------------------------
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\EQUIPE DE VENDAS RJ\TABELA DE PREÇO RJ.xlsx
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\Off Trade\Campanhas e Metas\PREÇO PROMO.xlsx
+-> Lendo conferencia_preco (Tentativa 1/3)...
+OK conferencia_preco carregada!
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\Profit RJ\Controle de ultima entrada, descontos-acréscimos e precificação RJ - versão 1.xlsb
+
+--------------------------------------------------
+  5/8 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/3)...
+OK pedidos carregada!
+-> Lendo pedidos_abertos (Tentativa 1/3)...
+OK pedidos_abertos carregada!
+-> Lendo pedidos_cancelados (Tentativa 1/3)...
+OK pedidos_cancelados carregada!
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\07 JULHO\07 JULHO CONTROLE DE NOTAS.xlsx
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\07 JULHO\07 JULHO CONTROLE DE NOTAS.xlsx | aba: 15-07 | 379 linhas
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\04 ABRIL\04 ABRIL - Controle de Notas Abril 2026.xlsx
+Histórico logística 04/2026: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\04 ABRIL\04 ABRIL - Controle de Notas Abril 2026.xlsx | 25 aba(s)
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\05 MAIO\05 MAIO - Controle de Notas 2026.xlsx
+Histórico logística 05/2026: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\05 MAIO\05 MAIO - Controle de Notas 2026.xlsx | 26 aba(s)
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\06 JUNHO\06 JUNHO - Controle de Notas 2026.xlsx
+Histórico logística 06/2026: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\06 JUNHO\06 JUNHO - Controle de Notas 2026.xlsx | 26 aba(s)
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\07 JULHO\07 JULHO CONTROLE DE NOTAS.xlsx
+Histórico logística 07/2026: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\07 JULHO\07 JULHO CONTROLE DE NOTAS.xlsx | 13 aba(s)
+   26105 NF(s) com rota já registrada em algum dia (histórico)
+OK - 22 vendedores, rota do dia 15.07 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5b - Gerando página de pedidos (pedidos_data.js)
+--------------------------------------------------
+-> Lendo pedidos_CRC (Tentativa 1/3)...
+OK pedidos_CRC carregada!
+-> Lendo pedidos_thekings (Tentativa 1/3)...
+OK pedidos_thekings carregada!
+-> Lendo pedidos_CASTAS (Tentativa 1/3)...
+OK pedidos_CASTAS carregada!
+-> Lendo pedidos_GARRIDO (Tentativa 1/3)...
+OK pedidos_GARRIDO carregada!
+-> Lendo pedidos_SPON (Tentativa 1/3)...
+OK pedidos_SPON carregada!
+-> Lendo pedidos_MGON (Tentativa 1/3)...
+OK pedidos_MGON carregada!
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\07 JULHO\07 JULHO CONTROLE DE NOTAS.xlsx
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\06 JUNHO\06 JUNHO - Controle de Notas 2026.xlsx
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\05 MAIO\CARIOCARGA - MAIO.xlsx
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\04 ABRIL\Cópia de Gabriel Froes de FINANCEIRO - Controle de Notas Abril 2026.xlsx
+Status de logística: 11165 NF(s) mapeada(s) (últimos 4 meses)
+OK - 100 pedido(s) feito(s), 9905 faturado(s), 361 cancelado(s) -> g:\Meu Drive\offtrade\pedidos_data.js
+OK pedidos_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  6/8 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master 645325b] Atualiza vendas_sp_data.js - 15/07/2026
+ 1 file changed, 12247 insertions(+), 11751 deletions(-)
+-> Lendo vendas_SP (Tentativa 1/3)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO', 'ADRIANO VEZZANI', 'ALEXANDRE TONON', 'ANA PAULA', 'ANDERSON CANAVEIS', 'ANDERSON MOTTA', 'ANDRE PINHEIRO', 'ANDRE SILVA', 'BRUNO BARBOSA', 'BRYAN PALOPOLI', 'CARLOS DE ALMEIDA', 'CARLOS TERRA', 'CAROLINA SOUZA', 'CELSO OLIVEIRA', 'CIARA PADULA', 'CRISTIANE MORAIS', 'DANIELLE DOS SANTOS', 'DOUGLAS TEIXEIRA', 'ELIZANGELA RODRIGUES', 'FABIANO RIBEIRO', 'FERNANDO BERTIN', 'FLAVIO RIBEIRO', 'FRANCIS SILVA', 'GILSON DE OLIVEIRA', 'GILVAN AMORIM', 'JESSICA FREITAS', 'JOAO LUPORINI', 'JOSE SILVA', 'LEONARDO FLOREZI', 'LEONARDO MILAN', 'LUCAS BUENO', 'LUCIANO TOSCHI', 'LUIS MACHADO', 'LUIZ RIGLER', 'MANUELA ZAPPACOSTA', 'MARCELO DE CAMPOS', 'MARCELO PEREIRA', 'MARCIA RITA', 'MARCUS TANAMACHI', 'MARIO RAFAEL FERRARI', 'MARLENE RODRIGUES', 'PATRICIA RAMOS', 'PATRICIO MASSAGARDI', 'PAULO JUNIOR', 'PAULO MOREIRA', 'PRISCILLA BONACHE', 'RENATO JUNIOR', 'ROBERTO DA SILVA', 'ROBERTO DOS SANTOS', 'ROBSON DA SILVA', 'RODRIGO LIMA', 'SUELY SANTOS', 'W.S', 'WANDO MACHADO']
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS\METAS SP.xlsx
+Metas SP: 56 vendedores
+Realizado SP: 54 vendedores
+OK vendas_sp_data.js gerado — 54 vendedores, meses: ['Jul/26', 'Jun/26', 'Mai/26', 'Abr/26', 'Mar/26', 'Fev/26']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6b - Exportando dashboard ES (vendas_es_data.js)
+--------------------------------------------------
+[master 533123a] Atualiza vendas_es_data.js - 15/07/2026
+ 1 file changed, 259 insertions(+), 7 deletions(-)
+-> Lendo vendas_ES (Tentativa 1/3)...
+OK vendas_ES carregada!
+Vendedores ES: ['ALDICEIA PEIXOTO', 'CARLOS TERRA', 'DOUGLAS SCHADE', 'ENEIVA RODRIGUES', 'EUDES MORGAN', 'FRANZ BENEVIDES', 'GILDO ADRIANO', 'JEAN MENEZES', 'JOAO VICTOR DA ROCHA', 'JOSIETH LIMA', 'LUCAS LIMA', 'MARA DEPOLLI', 'MARCELO DE SOUZA', 'RAQUEL ARAUJO', 'RICARDO CLAUDIO', 'ROSENIR RIBEIRO', 'TIAGO SILVA', 'WANDERSON FERREIRA']
+Realizado ES: 18 vendedores
+OK vendas_es_data.js — 18 vendedores, meses: ['Jul/26', 'Jun/26', 'Mai/26', 'Abr/26', 'Mar/26', 'Fev/26']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6c - Exportando dashboard MG (vendas_mg_data.js)
+--------------------------------------------------
+[master b3995e2] Atualiza vendas_mg_data.js - 15/07/2026
+ 1 file changed, 102 insertions(+), 3 deletions(-)
+-> Lendo vendas_MG (Tentativa 1/3)...
+OK vendas_MG carregada!
+Vendedores MG: ['BRUNA CASTRO MELLO', 'FERNANDO RISSON', 'JANAIRA MARQUES', 'JOÃO SANTOS', 'LEANDRO OLIVEIRA', 'LUIZ FERNANDO SALGADO', 'MATHEUS DE SOUZA', 'SAVIO NETO', 'TIAGO ANDRADE', 'WILLIAM ALVES DA SILVA']
+Realizado MG: 10 vendedores
+OK vendas_mg_data.js — 10 vendedores, meses: ['Jul/26', 'Jun/26', 'Mai/26', 'Abr/26', 'Mar/26', 'Fev/26']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  7/9 - Nao positivados SP (nao_pos_sp_data.js)
+--------------------------------------------------
+[master 5b20c59] Atualiza nao_pos_sp_data.js - 15/07/2026
+ 1 file changed, 172 insertions(+), 369 deletions(-)
+-> Consultando não positivados SP (SPON)...
+OK 980 clientes não positivados SP
+OK nao_pos_sp_data.js — 57 vendedores, 980 clientes
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  7b - Nao positivados ES (nao_pos_es_data.js)
+--------------------------------------------------
+[master 84f9d8d] Atualiza nao_pos_es_data.js - 15/07/2026
+ 1 file changed, 19 insertions(+), 5 deletions(-)
+-> Consultando nao positivados ES (CRC filial 2)...
+OK 1271 clientes nao positivados ES
+OK nao_pos_es_data.js — 38 vendedores, 1271 clientes
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  7c - Nao positivados MG (nao_pos_mg_data.js)
+--------------------------------------------------
+[master ff7722f] Atualiza nao_pos_mg_data.js - 15/07/2026
+ 1 file changed, 9 insertions(+), 87 deletions(-)
+-> Consultando nao positivados MG (MGON filiais 1 e 2)...
+OK 306 clientes nao positivados MG
+OK nao_pos_mg_data.js — 8 vendedores, 306 clientes
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  8/9 - Base de clientes por RCA (clientes_rca_data.js)
+--------------------------------------------------
+[master f0981b1] Atualiza clientes_rca_data.js - 15/07/2026
+ 1 file changed, 114 insertions(+), 2 deletions(-)
+-> Lendo vendas_CRC (Tentativa 1/3)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/3)...
+OK vendas_thekings carregada!
+-> Lendo vendas_CASTAS (Tentativa 1/3)...
+OK vendas_CASTAS carregada!
+-> Lendo vendas_GARRIDO (Tentativa 1/3)...
+OK vendas_GARRIDO carregada!
+-> Lendo vendas_SPON (Tentativa 1/3)...
+OK vendas_SPON carregada!
+-> Lendo vendas_MGON (Tentativa 1/3)...
+OK vendas_MGON carregada!
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS\METAS RJ.xlsx
+-> Lendo vendas_anterior_CRC (Tentativa 1/3)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/3)...
+OK vendas_anterior_thekings carregada!
+-> Lendo vendas_anterior_CASTAS (Tentativa 1/3)...
+OK vendas_anterior_CASTAS carregada!
+-> Lendo vendas_anterior_GARRIDO (Tentativa 1/3)...
+OK vendas_anterior_GARRIDO carregada!
+-> Lendo vendas_anterior_SPON (Tentativa 1/3)...
+OK vendas_anterior_SPON carregada!
+-> Lendo clientes_CRC (Tentativa 1/3)...
+OK clientes_CRC carregada!
+-> Lendo clientes_thekings (Tentativa 1/3)...
+OK clientes_thekings carregada!
+-> Lendo clientes_CASTAS (Tentativa 1/3)...
+OK clientes_CASTAS carregada!
+-> Lendo clientes_GARRIDO (Tentativa 1/3)...
+OK clientes_GARRIDO carregada!
+-> Lendo clientes_SPON (Tentativa 1/3)...
+OK clientes_SPON carregada!
+OK clientes_rca_data.js — 4284 clientes exportados
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  8/9 - Clientes migrados RCA 588 (clientes_588_data.js)
+--------------------------------------------------
+[master b654be8] Atualiza clientes_588_data.js - 15/07/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo clientes_588_jan_abr (Tentativa 1/5)...
+OK clientes_588_jan_abr carregada!
+-> Lendo vendas_maio_outros (Tentativa 1/5)...
+OK vendas_maio_outros carregada!
+-> Lendo vendas_maio_588 (Tentativa 1/5)...
+OK vendas_maio_588 carregada!
+OK clientes_588_data.js — 49 clientes migraram
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  8/9 - Exportando auth de vendedores (vendedores_auth_data.js)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/3)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/3)...
+OK vendas_thekings carregada!
+-> Lendo vendas_CASTAS (Tentativa 1/3)...
+OK vendas_CASTAS carregada!
+-> Lendo vendas_GARRIDO (Tentativa 1/3)...
+OK vendas_GARRIDO carregada!
+-> Lendo vendas_SPON (Tentativa 1/3)...
+OK vendas_SPON carregada!
+-> Lendo vendas_MGON (Tentativa 1/3)...
+OK vendas_MGON carregada!
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS\METAS RJ.xlsx
+-> Lendo vendas_anterior_CRC (Tentativa 1/3)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/3)...
+OK vendas_anterior_thekings carregada!
+-> Lendo vendas_anterior_CASTAS (Tentativa 1/3)...
+OK vendas_anterior_CASTAS carregada!
+-> Lendo vendas_anterior_GARRIDO (Tentativa 1/3)...
+OK vendas_anterior_GARRIDO carregada!
+-> Lendo vendas_anterior_SPON (Tentativa 1/3)...
+OK vendas_anterior_SPON carregada!
+-> Lendo vendedores_auth (Tentativa 1/3)...
+OK vendedores_auth carregada!
+[OK] vendedores_auth_data.js — 17 vendedores exportados
+
+
+--------------------------------------------------
+  9/9 - Clientes inativos / sem compra / novos (clientes_inativos_data.js)
+--------------------------------------------------
+[master 60a6bc5] Atualiza clientes_inativos_data.js - 15/07/2026
+ 1 file changed, 1238 insertions(+), 1391 deletions(-)
+-> media_CRC (tentativa 1)...
+   OK 1586 linhas
+-> inativos_CRC (tentativa 1)...
+   OK 244 linhas
+-> sem_compra_CRC (tentativa 1)...
+   OK 668 linhas
+-> novos_CRC (tentativa 1)...
+   OK 40 linhas
+-> media_thekings (tentativa 1)...
+   OK 29 linhas
+-> inativos_thekings (tentativa 1)...
+   OK 0 linhas
+-> sem_compra_thekings (tentativa 1)...
+   OK 1 linhas
+-> novos_thekings (tentativa 1)...
+   OK 0 linhas
+-> media_SPON (tentativa 1)...
+   OK 945 linhas
+-> inativos_SPON (tentativa 1)...
+   OK 529 linhas
+-> sem_compra_SPON (tentativa 1)...
+   OK 337 linhas
+-> novos_SPON (tentativa 1)...
+   OK 329 linhas
+-> media_MGON (tentativa 1)...
+   OK 455 linhas
+-> inativos_MGON (tentativa 1)...
+   OK 215 linhas
+-> sem_compra_MGON (tentativa 1)...
+   OK 165 linhas
+-> novos_MGON (tentativa 1)...
+   OK 14 linhas
+-> hier_CRC (tentativa 1)...
+   OK 48 linhas
+-> hier_thekings (tentativa 1)...
+   OK 4 linhas
+-> hier_SPON (tentativa 1)...
+   OK 66 linhas
+-> hier_MGON (tentativa 1)...
+   OK 9 linhas
+Hierarquia: 5 estados, 123 vendedores
+
+OK clientes_inativos_data.js — 99 vendedores | 988 inativos | 1171 sem compra | 383 novos
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  9b - Inadimplencia (inadimplencia_data.js)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/3)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/3)...
+OK vendas_thekings carregada!
+-> Lendo vendas_CASTAS (Tentativa 1/3)...
+OK vendas_CASTAS carregada!
+-> Lendo vendas_GARRIDO (Tentativa 1/3)...
+OK vendas_GARRIDO carregada!
+-> Lendo vendas_SPON (Tentativa 1/3)...
+OK vendas_SPON carregada!
+-> Lendo vendas_MGON (Tentativa 1/3)...
+OK vendas_MGON carregada!
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS\METAS RJ.xlsx
+-> Lendo vendas_anterior_CRC (Tentativa 1/3)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/3)...
+OK vendas_anterior_thekings carregada!
+-> Lendo vendas_anterior_CASTAS (Tentativa 1/3)...
+OK vendas_anterior_CASTAS carregada!
+-> Lendo vendas_anterior_GARRIDO (Tentativa 1/3)...
+OK vendas_anterior_GARRIDO carregada!
+-> Lendo vendas_anterior_SPON (Tentativa 1/3)...
+OK vendas_anterior_SPON carregada!
+-> Lendo inadimplencia_CRC (Tentativa 1/3)...
+OK inadimplencia_CRC carregada!
+-> Lendo inadimplencia_thekings (Tentativa 1/3)...
+OK inadimplencia_thekings carregada!
+-> Lendo inadimplencia_CASTAS (Tentativa 1/3)...
+OK inadimplencia_CASTAS carregada!
+-> Lendo inadimplencia_GARRIDO (Tentativa 1/3)...
+OK inadimplencia_GARRIDO carregada!
+-> Lendo inadimplencia_SPON (Tentativa 1/3)...
+OK inadimplencia_SPON carregada!
+-> Lendo inadimplencia_MGON (Tentativa 1/3)...
+OK inadimplencia_MGON carregada!
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\07 JULHO\07 JULHO CONTROLE DE NOTAS.xlsx
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\06 JUNHO\06 JUNHO - Controle de Notas 2026.xlsx
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\05 MAIO\CARIOCARGA - MAIO.xlsx
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\04 ABRIL\Cópia de Gabriel Froes de FINANCEIRO - Controle de Notas Abril 2026.xlsx
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\03 MARÇO\CARIOCARGA MARÇO.xlsx
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\02 FEVEREIRO\NFS ENTREGAS E RETORNOS.xlsx
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\01 JANEIRO\NFS ENTREGA E RETORNO.xlsx
+[AVISO] Controle de Notas 12/2025 indisponível (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceede) — ignorado
+[AVISO] Controle de Notas 11/2025 indisponível (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceede) — ignorado
+[AVISO] Controle de Notas 10/2025 indisponível (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceede) — ignorado
+[AVISO] Controle de Notas 09/2025 indisponível (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceede) — ignorado
+[AVISO] Controle de Notas 08/2025 indisponível (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceede) — ignorado
+[AVISO] Controle de Notas 07/2025 indisponível (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceede) — ignorado
+Status de logística: 11165 NF(s) mapeada(s) (últimos 13 meses)
+OK inadimplencia_data.js — 495 titulo(s) em aberto, R$ 2,318,690.92
+
+
+--------------------------------------------------
+  10/10 - Alertas (pulado — SEND_ALERTS=0 neste ambiente)
+--------------------------------------------------
+
+--------------------------------------------------
+  11/11 - Deploy para VPS
+--------------------------------------------------
+-> Conectando a VPS 147.79.107.137...
+
+-> Sincronizando arquivos estáticos...
+   amarula.html -> /opt/offtrade-static/amarula.html
+   catalogo.html -> /opt/offtrade-static/catalogo.html
+   clientes_588.html -> /opt/offtrade-static/clientes_588.html
+   clientes_inativos.html -> /opt/offtrade-static/clientes_inativos.html
+   clientes_rca.html -> /opt/offtrade-static/clientes_rca.html
+   crusoe.html -> /opt/offtrade-static/crusoe.html
+   entregas.html -> /opt/offtrade-static/entregas.html
+   es.html -> /opt/offtrade-static/es.html
+   inadimplencia.html -> /opt/offtrade-static/inadimplencia.html
+   index.html -> /opt/offtrade-static/index.html
+   industria.html -> /opt/offtrade-static/industria.html
+   login.html -> /opt/offtrade-static/login.html
+   login_vendedor.html -> /opt/offtrade-static/login_vendedor.html
+   metas.html -> /opt/offtrade-static/metas.html
+   metas_gerais.html -> /opt/offtrade-static/metas_gerais.html
+   mg.html -> /opt/offtrade-static/mg.html
+   moving.html -> /opt/offtrade-static/moving.html
+   pedidos.html -> /opt/offtrade-static/pedidos.html
+   pernod.html -> /opt/offtrade-static/pernod.html
+   pinati.html -> /opt/offtrade-static/pinati.html
+   produtos.html -> /opt/offtrade-static/produtos.html
+   sp.html -> /opt/offtrade-static/sp.html
+   vendedor.html -> /opt/offtrade-static/vendedor.html
+   amarula_data.js -> /opt/offtrade-static/amarula_data.js
+   auth.js -> /opt/offtrade-static/auth.js
+   auth_vendedor.js -> /opt/offtrade-static/auth_vendedor.js
+   catalogo_data.js -> /opt/offtrade-static/catalogo_data.js
+   clientes_588_data.js -> /opt/offtrade-static/clientes_588_data.js
+   clientes_inativos_data.js -> /opt/offtrade-static/clientes_inativos_data.js
+   clientes_rca_data.js -> /opt/offtrade-static/clientes_rca_data.js
+   crusoe_data.js -> /opt/offtrade-static/crusoe_data.js
+   entregas_data.js -> /opt/offtrade-static/entregas_data.js
+   fontes_alert.js -> /opt/offtrade-static/fontes_alert.js
+   fontes_status_data.js -> /opt/offtrade-static/fontes_status_data.js
+   gerentes_data.js -> /opt/offtrade-static/gerentes_data.js
+   inadimplencia_data.js -> /opt/offtrade-static/inadimplencia_data.js
+   industria_data.js -> /opt/offtrade-static/industria_data.js
+   metas_data.js -> /opt/offtrade-static/metas_data.js
+   metas_gerais_data.js -> /opt/offtrade-static/metas_gerais_data.js
+   nao_pos_es_data.js -> /opt/offtrade-static/nao_pos_es_data.js
+   nao_pos_mg_data.js -> /opt/offtrade-static/nao_pos_mg_data.js
+   nao_pos_sp_data.js -> /opt/offtrade-static/nao_pos_sp_data.js
+   pedidos_data.js -> /opt/offtrade-static/pedidos_data.js
+   vendas_data.js -> /opt/offtrade-static/vendas_data.js
+   vendas_es_data.js -> /opt/offtrade-static/vendas_es_data.js
+   vendas_mg_data.js -> /opt/offtrade-static/vendas_mg_data.js
+   vendas_sp_data.js -> /opt/offtrade-static/vendas_sp_data.js
+   vendedores_auth_data.js -> /opt/offtrade-static/vendedores_auth_data.js
+
+OK site estático atualizado em /opt/offtrade-static - https://offtrade.duckdns.org
+
+-> Conectando a VPS 147.79.107.137...
+
+-> Sincronizando arquivos raiz...
+   app.py -> /opt/offtrade/app.py
+   utils.py -> /opt/offtrade/utils.py
+   requirements.txt -> /opt/offtrade/requirements.txt
+   .env -> /opt/offtrade/.env
+   metas_config.json -> /opt/offtrade/metas_config.json
+
+-> Limpando pages/ remoto (evita sobras de páginas removidas)...
+
+-> Sincronizando diretorios...
+   pages\Admin_Metas.py -> /opt/offtrade/pages/Admin_Metas.py
+   pages\Credito_e_Cadastro.py -> /opt/offtrade/pages/Credito_e_Cadastro.py
+   .streamlit\config.toml -> /opt/offtrade/.streamlit/config.toml
+
+-> Instalando dependências Python (se necessário)...
+
+-> Reiniciando servico offtrade...
+active
+
+OK Servico ativo - https://offtrade.duckdns.org
+
+
+==================================================
+  Concluído em 2018s
+==================================================
+
+[15/07/2026 15:33:52,34] OK 
+---------------------------------------- 
+[15/07/2026 16:00:00,66] Iniciando... 
+2026-07-15 16:02:16.722 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-15 16:02:16.757 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-15 16:02:16.771 No runtime found, using MemoryCacheStorageManager
+[master ad7c49e] Atualiza metas_data.js + vendas_data.js - 15/07/2026
+ 4 files changed, 6396 insertions(+), 4948 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   60a6bc5..ad7c49e  master -> master
+[master b7e7047] Atualiza entregas_data.js - 15/07/2026
+ 1 file changed, 1057 insertions(+), 1476 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   3de0d6f..b7e7047  master -> master
+
+==================================================
+  OFFTRADE - 15/07/2026 16:00
+==================================================
+
+--------------------------------------------------
+  0/8 - Baixando planilhas do Google Drive
+--------------------------------------------------
+[AVISO] falha ao baixar via caminho_metas_rj: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+[AVISO] falha ao baixar via caminho_metas_sp: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+[AVISO] falha ao baixar via caminho_tabela_preco_rj: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+[AVISO] falha ao baixar via caminho_preco_promo: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+[AVISO] falha ao baixar via caminho_profit_rj: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+
+
+--------------------------------------------------
+  1/8 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/3)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/3)...
+OK vendas_thekings carregada!
+-> Lendo vendas_CASTAS (Tentativa 1/3)...
+OK vendas_CASTAS carregada!
+-> Lendo vendas_GARRIDO (Tentativa 1/3)...
+OK vendas_GARRIDO carregada!
+-> Lendo vendas_SPON (Tentativa 1/3)...
+OK vendas_SPON carregada!
+-> Lendo vendas_MGON (Tentativa 1/3)...
+OK vendas_MGON carregada!
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS\METAS RJ.xlsx
+-> Lendo vendas_anterior_CRC (Tentativa 1/3)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/3)...
+OK vendas_anterior_thekings carregada!
+-> Lendo vendas_anterior_CASTAS (Tentativa 1/3)...
+OK vendas_anterior_CASTAS carregada!
+-> Lendo vendas_anterior_GARRIDO (Tentativa 1/3)...
+OK vendas_anterior_GARRIDO carregada!
+-> Lendo vendas_anterior_SPON (Tentativa 1/3)...
+OK vendas_anterior_SPON carregada!
+
+--------------------------------------------------
+  2/8 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/3)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/3)...
+OK nao_pos_thekings carregada!
+-> Lendo nao_pos_CASTAS (Tentativa 1/3)...
+OK nao_pos_CASTAS carregada!
+-> Lendo nao_pos_GARRIDO (Tentativa 1/3)...
+OK nao_pos_GARRIDO carregada!
+-> Lendo nao_pos_SPON (Tentativa 1/3)...
+OK nao_pos_SPON carregada!
+Clientes nao positivados em 07/2026: 3060
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_07-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/3)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/3)...
+OK map_rca_thekings carregada!
+-> Lendo map_rca_CASTAS (Tentativa 1/3)...
+OK map_rca_CASTAS carregada!
+-> Lendo map_rca_GARRIDO (Tentativa 1/3)...
+OK map_rca_GARRIDO carregada!
+-> Lendo map_rca_SPON (Tentativa 1/3)...
+OK map_rca_SPON carregada!
+-> Lendo map_rca_MGON (Tentativa 1/3)...
+OK map_rca_MGON carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/3)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/3)...
+OK vendas_hist_thekings carregada!
+-> Lendo vendas_hist_CASTAS (Tentativa 1/3)...
+OK vendas_hist_CASTAS carregada!
+-> Lendo vendas_hist_GARRIDO (Tentativa 1/3)...
+OK vendas_hist_GARRIDO carregada!
+-> Lendo vendas_hist_SPON (Tentativa 1/3)...
+OK vendas_hist_SPON carregada!
+-> Lendo vendas_hist_MGON (Tentativa 1/3)...
+OK vendas_hist_MGON carregada!
+-> Lendo cadastros_CRC (Tentativa 1/3)...
+OK cadastros_CRC carregada!
+-> Lendo cadastros_thekings (Tentativa 1/3)...
+OK cadastros_thekings carregada!
+-> Lendo cadastros_spon (Tentativa 1/3)...
+OK cadastros_spon carregada!
+-> Lendo cadastros_CASTAS (Tentativa 1/3)...
+OK cadastros_CASTAS carregada!
+-> Lendo cadastros_GARRIDO (Tentativa 1/3)...
+OK cadastros_GARRIDO carregada!
+OK cadastros: 323 clientes, 14 vendedores
+-> Lendo historico_CRC (Tentativa 1/3)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/3)...
+OK historico_thekings carregada!
+-> Lendo historico_CASTAS (Tentativa 1/3)...
+OK historico_CASTAS carregada!
+-> Lendo historico_GARRIDO (Tentativa 1/3)...
+OK historico_GARRIDO carregada!
+-> Lendo historico_SPON (Tentativa 1/3)...
+OK historico_SPON carregada!
+OK metas_data.js gerado — 23 vendedores, meses: ['Jul/26', 'Jun/26']
+OK fontes_status_data.js gerado — todas as bases OK
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+-> Lendo hier_CRC (Tentativa 1/3)...
+OK hier_CRC carregada!
+-> Lendo hier_thekings (Tentativa 1/3)...
+OK hier_thekings carregada!
+-> Lendo hier_CASTAS (Tentativa 1/3)...
+OK hier_CASTAS carregada!
+-> Lendo hier_GARRIDO (Tentativa 1/3)...
+OK hier_GARRIDO carregada!
+-> Lendo hier_SPON (Tentativa 1/3)...
+OK hier_SPON carregada!
+-> Lendo hier_MGON (Tentativa 1/3)...
+OK hier_MGON carregada!
+OK gerentes_data.js gerado — 5 estados
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/8 - Metas Gerais por estado/indústria (metas_gerais_data.js)
+--------------------------------------------------
+[master ef09c49] Atualiza metas_gerais_data.js - 15/07/2026
+ 1 file changed, 102 insertions(+), 102 deletions(-)
+
+=== Carregando industrias (mes atual) ===
+  Consultando RJ (CRC filiais=['2', '4'])…
+    OK 39 indústrias, fat=981,319
+  Consultando ES (CRC filiais=['1'])…
+    OK 8 indústrias, fat=220,187
+  Consultando SP (SPON filiais=['1', '2'])…
+    OK 24 indústrias, fat=3,112,346
+  Consultando MG (MGON filiais=['1', '2'])…
+    OK 8 indústrias, fat=516,208
+
+=== Carregando industrias (mes anterior, dias corridos p/ comparativo de ritmo) ===
+  Consultando RJ (CRC filiais=['2', '4'])…
+    OK 44 indústrias, fat=1,396,415
+  Consultando ES (CRC filiais=['1'])…
+    OK 19 indústrias, fat=506,148
+  Consultando SP (SPON filiais=['1', '2'])…
+    OK 23 indústrias, fat=2,598,540
+  Consultando MG (MGON filiais=['1', '2'])…
+    OK 6 indústrias, fat=558,550
+
+=== Carregando totais reais (mes atual) ===
+
+=== Carregando totais reais (mes anterior, dias corridos p/ comparativo de ritmo) ===
+
+=== Carregando totais reais (mes anterior FECHADO, sem corte de dia) ===
+
+OK metas_gerais_data.js - 50 industrias -> G:\Meu Drive\offtrade\metas_gerais_data.js
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  3b - Vendas por Indústria (industria_data.js)
+--------------------------------------------------
+[master a06ef8f] Atualiza pedidos_data.js - 15/07/2026
+ 1 file changed, 6560 insertions(+), 5398 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   b7e7047..a06ef8f  master -> master
+[master 54e9af3] Atualiza industria_data.js - 15/07/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+=== Carregando vendas por indústria (6 meses, RJ/SP/ES/MG) ===
+  Consultando RJ (CRC filiais=['2', '4']) — tentativa 1/3…
+    OK 112110 linhas
+  Consultando ES (CRC filiais=['1']) — tentativa 1/3…
+    OK 14487 linhas
+  Consultando SP (SPON filiais=['1', '2']) — tentativa 1/3…
+    OK 63062 linhas
+  Consultando MG (MGON filiais=['1', '2']) — tentativa 1/3…
+    OK 38028 linhas
+
+OK industria_data.js — 93539 registros (envelopes), 94 fornecedores, 47.6MB -> G:\Meu Drive\offtrade\industria_data.js
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  4/8 - Campanha Robinson Crusoe (crusoe_data.js)
+--------------------------------------------------
+[master 3de0d6f] Atualiza crusoe_data.js - 15/07/2026
+ 1 file changed, 60 insertions(+), 9 deletions(-)
+-> Lendo vendas_CRC (Tentativa 1/3)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/3)...
+OK vendas_thekings carregada!
+-> Lendo vendas_CASTAS (Tentativa 1/3)...
+OK vendas_CASTAS carregada!
+-> Lendo vendas_GARRIDO (Tentativa 1/3)...
+OK vendas_GARRIDO carregada!
+-> Lendo vendas_SPON (Tentativa 1/3)...
+OK vendas_SPON carregada!
+-> Lendo vendas_MGON (Tentativa 1/3)...
+OK vendas_MGON carregada!
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS\METAS RJ.xlsx
+-> Lendo vendas_anterior_CRC (Tentativa 1/3)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/3)...
+OK vendas_anterior_thekings carregada!
+-> Lendo vendas_anterior_CASTAS (Tentativa 1/3)...
+OK vendas_anterior_CASTAS carregada!
+-> Lendo vendas_anterior_GARRIDO (Tentativa 1/3)...
+OK vendas_anterior_GARRIDO carregada!
+-> Lendo vendas_anterior_SPON (Tentativa 1/3)...
+OK vendas_anterior_SPON carregada!
+-> Lendo crusoe_CRC (Tentativa 1/3)...
+OK crusoe_CRC carregada!
+OK crusoe_data.js — 13 vendedores em 3 times, 165 linhas no período
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  4/8 - Conferência de preços
+--------------------------------------------------
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\EQUIPE DE VENDAS RJ\TABELA DE PREÇO RJ.xlsx
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\Off Trade\Campanhas e Metas\PREÇO PROMO.xlsx
+-> Lendo conferencia_preco (Tentativa 1/3)...
+OK conferencia_preco carregada!
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\Profit RJ\Controle de ultima entrada, descontos-acréscimos e precificação RJ - versão 1.xlsb
+
+--------------------------------------------------
+  5/8 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/3)...
+OK pedidos carregada!
+-> Lendo pedidos_abertos (Tentativa 1/3)...
+OK pedidos_abertos carregada!
+-> Lendo pedidos_cancelados (Tentativa 1/3)...
+OK pedidos_cancelados carregada!
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\07 JULHO\07 JULHO CONTROLE DE NOTAS.xlsx
+Logística: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\07 JULHO\07 JULHO CONTROLE DE NOTAS.xlsx | aba: 15-07 | 379 linhas
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\04 ABRIL\04 ABRIL - Controle de Notas Abril 2026.xlsx
+Histórico logística 04/2026: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\04 ABRIL\04 ABRIL - Controle de Notas Abril 2026.xlsx | 25 aba(s)
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\05 MAIO\05 MAIO - Controle de Notas 2026.xlsx
+Histórico logística 05/2026: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\05 MAIO\05 MAIO - Controle de Notas 2026.xlsx | 26 aba(s)
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\06 JUNHO\06 JUNHO - Controle de Notas 2026.xlsx
+Histórico logística 06/2026: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\06 JUNHO\06 JUNHO - Controle de Notas 2026.xlsx | 26 aba(s)
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\07 JULHO\07 JULHO CONTROLE DE NOTAS.xlsx
+Histórico logística 07/2026: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\07 JULHO\07 JULHO CONTROLE DE NOTAS.xlsx | 13 aba(s)
+   26105 NF(s) com rota já registrada em algum dia (histórico)
+OK - 22 vendedores, rota do dia 15.07 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5b - Gerando página de pedidos (pedidos_data.js)
+--------------------------------------------------
+-> Lendo pedidos_CRC (Tentativa 1/3)...
+OK pedidos_CRC carregada!
+-> Lendo pedidos_thekings (Tentativa 1/3)...
+OK pedidos_thekings carregada!
+-> Lendo pedidos_CASTAS (Tentativa 1/3)...
+OK pedidos_CASTAS carregada!
+-> Lendo pedidos_GARRIDO (Tentativa 1/3)...
+OK pedidos_GARRIDO carregada!
+-> Lendo pedidos_SPON (Tentativa 1/3)...
+OK pedidos_SPON carregada!
+-> Lendo pedidos_MGON (Tentativa 1/3)...
+OK pedidos_MGON carregada!
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\07 JULHO\07 JULHO CONTROLE DE NOTAS.xlsx
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\06 JUNHO\06 JUNHO - Controle de Notas 2026.xlsx
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\05 MAIO\CARIOCARGA - MAIO.xlsx
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\04 ABRIL\Cópia de Gabriel Froes de FINANCEIRO - Controle de Notas Abril 2026.xlsx
+Status de logística: 11165 NF(s) mapeada(s) (últimos 4 meses)
+OK - 99 pedido(s) feito(s), 9939 faturado(s), 362 cancelado(s) -> g:\Meu Drive\offtrade\pedidos_data.js
+OK pedidos_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  6/8 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master 067e5cc] Atualiza vendas_sp_data.js - 15/07/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo vendas_SP (Tentativa 1/3)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO', 'ADRIANO VEZZANI', 'ALEXANDRE TONON', 'ANA PAULA', 'ANDERSON CANAVEIS', 'ANDERSON MOTTA', 'ANDRE PINHEIRO', 'ANDRE SILVA', 'BRUNO BARBOSA', 'BRYAN PALOPOLI', 'CARLOS DE ALMEIDA', 'CARLOS TERRA', 'CAROLINA SOUZA', 'CELSO OLIVEIRA', 'CIARA PADULA', 'CRISTIANE MORAIS', 'DANIELLE DOS SANTOS', 'DOUGLAS TEIXEIRA', 'ELIZANGELA RODRIGUES', 'FABIANO RIBEIRO', 'FERNANDO BERTIN', 'FLAVIO RIBEIRO', 'FRANCIS SILVA', 'GILSON DE OLIVEIRA', 'GILVAN AMORIM', 'JESSICA FREITAS', 'JOAO LUPORINI', 'JOSE SILVA', 'LEONARDO FLOREZI', 'LEONARDO MILAN', 'LUCAS BUENO', 'LUCIANO TOSCHI', 'LUIS MACHADO', 'LUIZ RIGLER', 'MANUELA ZAPPACOSTA', 'MARCELO DE CAMPOS', 'MARCELO PEREIRA', 'MARCIA RITA', 'MARCUS TANAMACHI', 'MARIO RAFAEL FERRARI', 'MARLENE RODRIGUES', 'PATRICIA RAMOS', 'PATRICIO MASSAGARDI', 'PAULO JUNIOR', 'PAULO MOREIRA', 'PRISCILLA BONACHE', 'RENATO JUNIOR', 'ROBERTO DA SILVA', 'ROBERTO DOS SANTOS', 'ROBSON DA SILVA', 'RODRIGO LIMA', 'SUELY SANTOS', 'W.S', 'WANDO MACHADO']
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS\METAS SP.xlsx
+Metas SP: 56 vendedores
+Realizado SP: 54 vendedores
+OK vendas_sp_data.js gerado — 54 vendedores, meses: ['Jul/26', 'Jun/26', 'Mai/26', 'Abr/26', 'Mar/26', 'Fev/26']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6b - Exportando dashboard ES (vendas_es_data.js)
+--------------------------------------------------
+[master 2fd1665] Atualiza vendas_es_data.js - 15/07/2026
+ 1 file changed, 68 insertions(+), 5 deletions(-)
+-> Lendo vendas_ES (Tentativa 1/3)...
+OK vendas_ES carregada!
+Vendedores ES: ['ALDICEIA PEIXOTO', 'CARLOS TERRA', 'DOUGLAS SCHADE', 'ENEIVA RODRIGUES', 'EUDES MORGAN', 'FRANZ BENEVIDES', 'GILDO ADRIANO', 'JEAN MENEZES', 'JOAO VICTOR DA ROCHA', 'JOSIETH LIMA', 'LUCAS LIMA', 'MARA DEPOLLI', 'MARCELO DE SOUZA', 'RAQUEL ARAUJO', 'RICARDO CLAUDIO', 'ROSENIR RIBEIRO', 'TIAGO SILVA', 'WANDERSON FERREIRA']
+Realizado ES: 18 vendedores
+OK vendas_es_data.js — 18 vendedores, meses: ['Jul/26', 'Jun/26', 'Mai/26', 'Abr/26', 'Mar/26', 'Fev/26']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6c - Exportando dashboard MG (vendas_mg_data.js)
+--------------------------------------------------
+[master bc3163e] Atualiza vendas_mg_data.js - 15/07/2026
+ 1 file changed, 3 insertions(+), 39 deletions(-)
+-> Lendo vendas_MG (Tentativa 1/3)...
+OK vendas_MG carregada!
+Vendedores MG: ['BRUNA CASTRO MELLO', 'FERNANDO RISSON', 'JANAIRA MARQUES', 'JOÃO SANTOS', 'LEANDRO OLIVEIRA', 'LUIZ FERNANDO SALGADO', 'MATHEUS DE SOUZA', 'SAVIO NETO', 'TIAGO ANDRADE', 'WILLIAM ALVES DA SILVA']
+Realizado MG: 10 vendedores
+OK vendas_mg_data.js — 10 vendedores, meses: ['Jul/26', 'Jun/26', 'Mai/26', 'Abr/26', 'Mar/26', 'Fev/26']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  7/9 - Nao positivados SP (nao_pos_sp_data.js)
+--------------------------------------------------
+[master a0d7bc0] Atualiza nao_pos_sp_data.js - 15/07/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Consultando não positivados SP (SPON)...
+OK 980 clientes não positivados SP
+OK nao_pos_sp_data.js — 57 vendedores, 980 clientes
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  7b - Nao positivados ES (nao_pos_es_data.js)
+--------------------------------------------------
+[master bdea2c3] Atualiza nao_pos_es_data.js - 15/07/2026
+ 1 file changed, 166 insertions(+), 550 deletions(-)
+-> Consultando nao positivados ES (CRC filial 2)...
+OK 1256 clientes nao positivados ES
+OK nao_pos_es_data.js — 38 vendedores, 1256 clientes
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  7c - Nao positivados MG (nao_pos_mg_data.js)
+--------------------------------------------------
+[master 050ea78] Atualiza nao_pos_mg_data.js - 15/07/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Consultando nao positivados MG (MGON filiais 1 e 2)...
+OK 306 clientes nao positivados MG
+OK nao_pos_mg_data.js — 8 vendedores, 306 clientes
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  8/9 - Base de clientes por RCA (clientes_rca_data.js)
+--------------------------------------------------
+[master eaffad1] Atualiza clientes_rca_data.js - 15/07/2026
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+-> Lendo vendas_CRC (Tentativa 1/3)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/3)...
+OK vendas_thekings carregada!
+-> Lendo vendas_CASTAS (Tentativa 1/3)...
+OK vendas_CASTAS carregada!
+-> Lendo vendas_GARRIDO (Tentativa 1/3)...
+OK vendas_GARRIDO carregada!
+-> Lendo vendas_SPON (Tentativa 1/3)...
+OK vendas_SPON carregada!
+-> Lendo vendas_MGON (Tentativa 1/3)...
+OK vendas_MGON carregada!
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS\METAS RJ.xlsx
+-> Lendo vendas_anterior_CRC (Tentativa 1/3)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/3)...
+OK vendas_anterior_thekings carregada!
+-> Lendo vendas_anterior_CASTAS (Tentativa 1/3)...
+OK vendas_anterior_CASTAS carregada!
+-> Lendo vendas_anterior_GARRIDO (Tentativa 1/3)...
+OK vendas_anterior_GARRIDO carregada!
+-> Lendo vendas_anterior_SPON (Tentativa 1/3)...
+OK vendas_anterior_SPON carregada!
+-> Lendo clientes_CRC (Tentativa 1/3)...
+OK clientes_CRC carregada!
+-> Lendo clientes_thekings (Tentativa 1/3)...
+OK clientes_thekings carregada!
+-> Lendo clientes_CASTAS (Tentativa 1/3)...
+OK clientes_CASTAS carregada!
+-> Lendo clientes_GARRIDO (Tentativa 1/3)...
+OK clientes_GARRIDO carregada!
+-> Lendo clientes_SPON (Tentativa 1/3)...
+OK clientes_SPON carregada!
+OK clientes_rca_data.js — 4284 clientes exportados
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  8/9 - Clientes migrados RCA 588 (clientes_588_data.js)
+--------------------------------------------------
+[master a4116b1] Atualiza clientes_588_data.js - 15/07/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo clientes_588_jan_abr (Tentativa 1/5)...
+OK clientes_588_jan_abr carregada!
+-> Lendo vendas_maio_outros (Tentativa 1/5)...
+OK vendas_maio_outros carregada!
+-> Lendo vendas_maio_588 (Tentativa 1/5)...
+OK vendas_maio_588 carregada!
+OK clientes_588_data.js — 49 clientes migraram
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  8/9 - Exportando auth de vendedores (vendedores_auth_data.js)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/3)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/3)...
+OK vendas_thekings carregada!
+-> Lendo vendas_CASTAS (Tentativa 1/3)...
+OK vendas_CASTAS carregada!
+-> Lendo vendas_GARRIDO (Tentativa 1/3)...
+OK vendas_GARRIDO carregada!
+-> Lendo vendas_SPON (Tentativa 1/3)...
+OK vendas_SPON carregada!
+-> Lendo vendas_MGON (Tentativa 1/3)...
+OK vendas_MGON carregada!
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS\METAS RJ.xlsx
+-> Lendo vendas_anterior_CRC (Tentativa 1/3)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/3)...
+OK vendas_anterior_thekings carregada!
+-> Lendo vendas_anterior_CASTAS (Tentativa 1/3)...
+OK vendas_anterior_CASTAS carregada!
+-> Lendo vendas_anterior_GARRIDO (Tentativa 1/3)...
+OK vendas_anterior_GARRIDO carregada!
+-> Lendo vendas_anterior_SPON (Tentativa 1/3)...
+OK vendas_anterior_SPON carregada!
+-> Lendo vendedores_auth (Tentativa 1/3)...
+OK vendedores_auth carregada!
+[OK] vendedores_auth_data.js — 17 vendedores exportados
+
+
+--------------------------------------------------
+  9/9 - Clientes inativos / sem compra / novos (clientes_inativos_data.js)
+--------------------------------------------------
+[master 135c268] Atualiza clientes_inativos_data.js - 15/07/2026
+ 1 file changed, 519 insertions(+), 581 deletions(-)
+-> media_CRC (tentativa 1)...
+   OK 1586 linhas
+-> inativos_CRC (tentativa 1)...
+   OK 244 linhas
+-> sem_compra_CRC (tentativa 1)...
+   OK 662 linhas
+-> novos_CRC (tentativa 1)...
+   OK 40 linhas
+-> media_thekings (tentativa 1)...
+   OK 29 linhas
+-> inativos_thekings (tentativa 1)...
+   OK 0 linhas
+-> sem_compra_thekings (tentativa 1)...
+   OK 1 linhas
+-> novos_thekings (tentativa 1)...
+   OK 0 linhas
+-> media_SPON (tentativa 1)...
+   OK 945 linhas
+-> inativos_SPON (tentativa 1)...
+   OK 529 linhas
+-> sem_compra_SPON (tentativa 1)...
+   OK 337 linhas
+-> novos_SPON (tentativa 1)...
+   OK 329 linhas
+-> media_MGON (tentativa 1)...
+   OK 455 linhas
+-> inativos_MGON (tentativa 1)...
+   OK 215 linhas
+-> sem_compra_MGON (tentativa 1)...
+   OK 165 linhas
+-> novos_MGON (tentativa 1)...
+   OK 14 linhas
+-> hier_CRC (tentativa 1)...
+   OK 48 linhas
+-> hier_thekings (tentativa 1)...
+   OK 4 linhas
+-> hier_SPON (tentativa 1)...
+   OK 66 linhas
+-> hier_MGON (tentativa 1)...
+   OK 9 linhas
+Hierarquia: 5 estados, 123 vendedores
+
+OK clientes_inativos_data.js — 98 vendedores | 988 inativos | 1165 sem compra | 383 novos
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  9b - Inadimplencia (inadimplencia_data.js)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/3)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/3)...
+OK vendas_thekings carregada!
+-> Lendo vendas_CASTAS (Tentativa 1/3)...
+OK vendas_CASTAS carregada!
+-> Lendo vendas_GARRIDO (Tentativa 1/3)...
+OK vendas_GARRIDO carregada!
+-> Lendo vendas_SPON (Tentativa 1/3)...
+OK vendas_SPON carregada!
+-> Lendo vendas_MGON (Tentativa 1/3)...
+OK vendas_MGON carregada!
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS\METAS RJ.xlsx
+-> Lendo vendas_anterior_CRC (Tentativa 1/3)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/3)...
+OK vendas_anterior_thekings carregada!
+-> Lendo vendas_anterior_CASTAS (Tentativa 1/3)...
+OK vendas_anterior_CASTAS carregada!
+-> Lendo vendas_anterior_GARRIDO (Tentativa 1/3)...
+OK vendas_anterior_GARRIDO carregada!
+-> Lendo vendas_anterior_SPON (Tentativa 1/3)...
+OK vendas_anterior_SPON carregada!
+-> Lendo inadimplencia_CRC (Tentativa 1/3)...
+OK inadimplencia_CRC carregada!
+-> Lendo inadimplencia_thekings (Tentativa 1/3)...
+OK inadimplencia_thekings carregada!
+-> Lendo inadimplencia_CASTAS (Tentativa 1/3)...
+OK inadimplencia_CASTAS carregada!
+-> Lendo inadimplencia_GARRIDO (Tentativa 1/3)...
+OK inadimplencia_GARRIDO carregada!
+-> Lendo inadimplencia_SPON (Tentativa 1/3)...
+OK inadimplencia_SPON carregada!
+-> Lendo inadimplencia_MGON (Tentativa 1/3)...
+OK inadimplencia_MGON carregada!
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\07 JULHO\07 JULHO CONTROLE DE NOTAS.xlsx
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\06 JUNHO\06 JUNHO - Controle de Notas 2026.xlsx
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\05 MAIO\CARIOCARGA - MAIO.xlsx
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\04 ABRIL\Cópia de Gabriel Froes de FINANCEIRO - Controle de Notas Abril 2026.xlsx
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\03 MARÇO\CARIOCARGA MARÇO.xlsx
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\02 FEVEREIRO\NFS ENTREGAS E RETORNOS.xlsx
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\01-Logística\LOGÍSTICA RJ\APOIO LOGÍSTICO\CONTROLE DE NOTAS\2026\01 JANEIRO\NFS ENTREGA E RETORNO.xlsx
+[AVISO] Controle de Notas 12/2025 indisponível (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceede) — ignorado
+[AVISO] Controle de Notas 11/2025 indisponível (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceede) — ignorado
+[AVISO] Controle de Notas 10/2025 indisponível (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceede) — ignorado
+[AVISO] Controle de Notas 09/2025 indisponível (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceede) — ignorado
+[AVISO] Controle de Notas 08/2025 indisponível (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceede) — ignorado
+[AVISO] Controle de Notas 07/2025 indisponível (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceede) — ignorado
+Status de logística: 11165 NF(s) mapeada(s) (últimos 13 meses)
+OK inadimplencia_data.js — 495 titulo(s) em aberto, R$ 2,318,690.92
+
+
+--------------------------------------------------
+  10/10 - Alertas (pulado — SEND_ALERTS=0 neste ambiente)
+--------------------------------------------------
+
+--------------------------------------------------
+  11/11 - Deploy para VPS
+--------------------------------------------------
+-> Conectando a VPS 147.79.107.137...
+
+-> Sincronizando arquivos estáticos...
+   amarula.html -> /opt/offtrade-static/amarula.html
+   catalogo.html -> /opt/offtrade-static/catalogo.html
+   clientes_588.html -> /opt/offtrade-static/clientes_588.html
+   clientes_inativos.html -> /opt/offtrade-static/clientes_inativos.html
+   clientes_rca.html -> /opt/offtrade-static/clientes_rca.html
+   crusoe.html -> /opt/offtrade-static/crusoe.html
+   entregas.html -> /opt/offtrade-static/entregas.html
+   es.html -> /opt/offtrade-static/es.html
+   inadimplencia.html -> /opt/offtrade-static/inadimplencia.html
+   index.html -> /opt/offtrade-static/index.html
+   industria.html -> /opt/offtrade-static/industria.html
+   login.html -> /opt/offtrade-static/login.html
+   login_vendedor.html -> /opt/offtrade-static/login_vendedor.html
+   metas.html -> /opt/offtrade-static/metas.html
+   metas_gerais.html -> /opt/offtrade-static/metas_gerais.html
+   mg.html -> /opt/offtrade-static/mg.html
+   moving.html -> /opt/offtrade-static/moving.html
+   pedidos.html -> /opt/offtrade-static/pedidos.html
+   pernod.html -> /opt/offtrade-static/pernod.html
+   pinati.html -> /opt/offtrade-static/pinati.html
+   produtos.html -> /opt/offtrade-static/produtos.html
+   sp.html -> /opt/offtrade-static/sp.html
+   vendedor.html -> /opt/offtrade-static/vendedor.html
+   amarula_data.js -> /opt/offtrade-static/amarula_data.js
+   auth.js -> /opt/offtrade-static/auth.js
+   auth_vendedor.js -> /opt/offtrade-static/auth_vendedor.js
+   catalogo_data.js -> /opt/offtrade-static/catalogo_data.js
+   clientes_588_data.js -> /opt/offtrade-static/clientes_588_data.js
+   clientes_inativos_data.js -> /opt/offtrade-static/clientes_inativos_data.js
+   clientes_rca_data.js -> /opt/offtrade-static/clientes_rca_data.js
+   crusoe_data.js -> /opt/offtrade-static/crusoe_data.js
+   entregas_data.js -> /opt/offtrade-static/entregas_data.js
+   fontes_alert.js -> /opt/offtrade-static/fontes_alert.js
+   fontes_status_data.js -> /opt/offtrade-static/fontes_status_data.js
+   gerentes_data.js -> /opt/offtrade-static/gerentes_data.js
+   inadimplencia_data.js -> /opt/offtrade-static/inadimplencia_data.js
+   industria_data.js -> /opt/offtrade-static/industria_data.js
+   metas_data.js -> /opt/offtrade-static/metas_data.js
+   metas_gerais_data.js -> /opt/offtrade-static/metas_gerais_data.js
+   nao_pos_es_data.js -> /opt/offtrade-static/nao_pos_es_data.js
+   nao_pos_mg_data.js -> /opt/offtrade-static/nao_pos_mg_data.js
+   nao_pos_sp_data.js -> /opt/offtrade-static/nao_pos_sp_data.js
+   pedidos_data.js -> /opt/offtrade-static/pedidos_data.js
+   vendas_data.js -> /opt/offtrade-static/vendas_data.js
+   vendas_es_data.js -> /opt/offtrade-static/vendas_es_data.js
+   vendas_mg_data.js -> /opt/offtrade-static/vendas_mg_data.js
+   vendas_sp_data.js -> /opt/offtrade-static/vendas_sp_data.js
+   vendedores_auth_data.js -> /opt/offtrade-static/vendedores_auth_data.js
+
+OK site estático atualizado em /opt/offtrade-static - https://offtrade.duckdns.org
+
+-> Conectando a VPS 147.79.107.137...
+
+-> Sincronizando arquivos raiz...
+   app.py -> /opt/offtrade/app.py
+   utils.py -> /opt/offtrade/utils.py
+   requirements.txt -> /opt/offtrade/requirements.txt
+   .env -> /opt/offtrade/.env
+   metas_config.json -> /opt/offtrade/metas_config.json
+
+-> Limpando pages/ remoto (evita sobras de páginas removidas)...
+
+-> Sincronizando diretorios...
+   pages\Admin_Metas.py -> /opt/offtrade/pages/Admin_Metas.py
+   pages\Credito_e_Cadastro.py -> /opt/offtrade/pages/Credito_e_Cadastro.py
+   .streamlit\config.toml -> /opt/offtrade/.streamlit/config.toml
+
+-> Instalando dependências Python (se necessário)...
+
+-> Reiniciando servico offtrade...
+active
+
+OK Servico ativo - https://offtrade.duckdns.org
+
+
+==================================================
+  Concluído em 1561s
+==================================================
+
+[15/07/2026 16:26:05,01] OK 
+---------------------------------------- 
+[15/07/2026 17:06:30,67] Iniciando... 
+[15/07/2026 18:00:00,85] Iniciando... 
+[AVISO] Já existe uma execução do pipeline em andamento (lock criado há 3204s) — abortando esta execução para não escrever em cima dela.
+[15/07/2026 18:00:01,85] OK 
+---------------------------------------- 
+[15/07/2026 19:00:00,65] Iniciando... 
+2026-07-15 19:05:06.269 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-15 19:05:07.410 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-15 19:05:07.984 No runtime found, using MemoryCacheStorageManager
+[master 9dec9a9] Atualiza metas_data.js + vendas_data.js - 15/07/2026
+ 4 files changed, 18003 insertions(+), 15504 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   6a4fa3b..9dec9a9  master -> master
+[master 28ddba3] Atualiza entregas_data.js - 15/07/2026
+ 1 file changed, 768 insertions(+), 956 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   4a00804..28ddba3  master -> master
+[master 96353a2] Atualiza pedidos_data.js - 15/07/2026
+ 1 file changed, 816 insertions(+), 737 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   28ddba3..96353a2  master -> master
+[AVISO] Lock encontrado mas expirado/inválido — assumindo execução anterior travada, prosseguindo.
+
+==================================================
+  OFFTRADE - 15/07/2026 19:00
+==================================================
+
+--------------------------------------------------
+  0/8 - Baixando planilhas do Google Drive
+--------------------------------------------------
+[OK] 'METAS RJ.xlsx' baixado -> G:\Meu Drive\offtrade\planilhas_cache\METAS RJ.xlsx
+[OK] 'METAS SP.xlsx' baixado -> G:\Meu Drive\offtrade\planilhas_cache\METAS SP.xlsx
+[OK] 'TABELA DE PREÇO RJ.xlsx' baixado -> G:\Meu Drive\offtrade\planilhas_cache\TABELA DE PREÇO RJ.xlsx
+[OK] 'PREÇO PROMO.xlsx' baixado -> G:\Meu Drive\offtrade\planilhas_cache\PREÇO PROMO.xlsx
+
+
+--------------------------------------------------
+  1/8 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/3)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/3)...
+OK vendas_thekings carregada!
+-> Lendo vendas_CASTAS (Tentativa 1/3)...
+OK vendas_CASTAS carregada!
+-> Lendo vendas_GARRIDO (Tentativa 1/3)...
+OK vendas_GARRIDO carregada!
+-> Lendo vendas_SPON (Tentativa 1/3)...
+OK vendas_SPON carregada!
+-> Lendo vendas_MGON (Tentativa 1/3)...
+OK vendas_MGON carregada!
+[OK] 'METAS RJ.xlsx' baixado -> g:\Meu Drive\offtrade\planilhas_cache\METAS RJ.xlsx
+-> Lendo vendas_anterior_CRC (Tentativa 1/3)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/3)...
+OK vendas_anterior_thekings carregada!
+-> Lendo vendas_anterior_CASTAS (Tentativa 1/3)...
+OK vendas_anterior_CASTAS carregada!
+-> Lendo vendas_anterior_GARRIDO (Tentativa 1/3)...
+OK vendas_anterior_GARRIDO carregada!
+-> Lendo vendas_anterior_SPON (Tentativa 1/3)...
+OK vendas_anterior_SPON carregada!
+
+--------------------------------------------------
+  2/8 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/3)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/3)...
+OK nao_pos_thekings carregada!
+-> Lendo nao_pos_CASTAS (Tentativa 1/3)...
+OK nao_pos_CASTAS carregada!
+-> Lendo nao_pos_GARRIDO (Tentativa 1/3)...
+OK nao_pos_GARRIDO carregada!
+-> Lendo nao_pos_SPON (Tentativa 1/3)...
+OK nao_pos_SPON carregada!
+Clientes nao positivados em 07/2026: 3069
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_07-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/3)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/3)...
+OK map_rca_thekings carregada!
+-> Lendo map_rca_CASTAS (Tentativa 1/3)...
+OK map_rca_CASTAS carregada!
+-> Lendo map_rca_GARRIDO (Tentativa 1/3)...
+OK map_rca_GARRIDO carregada!
+-> Lendo map_rca_SPON (Tentativa 1/3)...
+OK map_rca_SPON carregada!
+-> Lendo map_rca_MGON (Tentativa 1/3)...
+OK map_rca_MGON carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/3)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/3)...
+OK vendas_hist_thekings carregada!
+-> Lendo vendas_hist_CASTAS (Tentativa 1/3)...
+OK vendas_hist_CASTAS carregada!
+-> Lendo vendas_hist_GARRIDO (Tentativa 1/3)...
+OK vendas_hist_GARRIDO carregada!
+-> Lendo vendas_hist_SPON (Tentativa 1/3)...
+OK vendas_hist_SPON carregada!
+-> Lendo vendas_hist_MGON (Tentativa 1/3)...
+OK vendas_hist_MGON carregada!
+-> Lendo cadastros_CRC (Tentativa 1/3)...
+OK cadastros_CRC carregada!
+-> Lendo cadastros_thekings (Tentativa 1/3)...
+OK cadastros_thekings carregada!
+-> Lendo cadastros_spon (Tentativa 1/3)...
+OK cadastros_spon carregada!
+-> Lendo cadastros_CASTAS (Tentativa 1/3)...
+OK cadastros_CASTAS carregada!
+-> Lendo cadastros_GARRIDO (Tentativa 1/3)...
+OK cadastros_GARRIDO carregada!
+OK cadastros: 327 clientes, 14 vendedores
+-> Lendo historico_CRC (Tentativa 1/3)...
+OK historico_CRC carregada!
+-> Lendo historico_thekings (Tentativa 1/3)...
+OK historico_thekings carregada!
+-> Lendo historico_CASTAS (Tentativa 1/3)...
+OK historico_CASTAS carregada!
+-> Lendo historico_GARRIDO (Tentativa 1/3)...
+OK historico_GARRIDO carregada!
+-> Lendo historico_SPON (Tentativa 1/3)...
+OK historico_SPON carregada!
+OK metas_data.js gerado — 23 vendedores, meses: ['Jul/26', 'Jun/26']
+OK fontes_status_data.js gerado — todas as bases OK
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+-> Lendo hier_CRC (Tentativa 1/3)...
+OK hier_CRC carregada!
+-> Lendo hier_thekings (Tentativa 1/3)...
+OK hier_thekings carregada!
+-> Lendo hier_CASTAS (Tentativa 1/3)...
+OK hier_CASTAS carregada!
+-> Lendo hier_GARRIDO (Tentativa 1/3)...
+OK hier_GARRIDO carregada!
+-> Lendo hier_SPON (Tentativa 1/3)...
+OK hier_SPON carregada!
+-> Lendo hier_MGON (Tentativa 1/3)...
+OK hier_MGON carregada!
+OK gerentes_data.js gerado — 5 estados
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/8 - Metas Gerais por estado/indústria (metas_gerais_data.js)
+--------------------------------------------------
+[master 6c78c13] Atualiza metas_gerais_data.js - 15/07/2026
+ 1 file changed, 153 insertions(+), 153 deletions(-)
+
+=== Carregando industrias (mes atual) ===
+  Consultando RJ (CRC filiais=['2', '4'])…
+    OK 39 indústrias, fat=1,021,930
+  Consultando ES (CRC filiais=['1'])…
+    OK 8 indústrias, fat=221,378
+  Consultando SP (SPON filiais=['1', '2'])…
+    OK 24 indústrias, fat=3,155,947
+  Consultando MG (MGON filiais=['1', '2'])…
+    OK 8 indústrias, fat=545,494
+
+=== Carregando industrias (mes anterior, dias corridos p/ comparativo de ritmo) ===
+  Consultando RJ (CRC filiais=['2', '4'])…
+    OK 44 indústrias, fat=1,396,415
+  Consultando ES (CRC filiais=['1'])…
+    OK 19 indústrias, fat=506,148
+  Consultando SP (SPON filiais=['1', '2'])…
+    OK 23 indústrias, fat=2,598,540
+  Consultando MG (MGON filiais=['1', '2'])…
+    OK 6 indústrias, fat=558,550
+
+=== Carregando totais reais (mes atual) ===
+
+=== Carregando totais reais (mes anterior, dias corridos p/ comparativo de ritmo) ===
+
+=== Carregando totais reais (mes anterior FECHADO, sem corte de dia) ===
+
+OK metas_gerais_data.js - 50 industrias -> G:\Meu Drive\offtrade\metas_gerais_data.js
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  3b - Vendas por Indústria (industria_data.js)
+--------------------------------------------------
+[master 8bc89ef] Atualiza industria_data.js - 15/07/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+=== Carregando vendas por indústria (6 meses, RJ/SP/ES/MG) ===
+  Consultando RJ (CRC filiais=['2', '4']) — tentativa 1/3…
+    OK 112729 linhas
+  Consultando ES (CRC filiais=['1']) — tentativa 1/3…
+    OK 14512 linhas
+  Consultando SP (SPON filiais=['1', '2']) — tentativa 1/3…
+    OK 63223 linhas
+  Consultando MG (MGON filiais=['1', '2']) — tentativa 1/3…
+    OK 38207 linhas
+
+OK industria_data.js — 93968 registros (envelopes), 94 fornecedores, 47.8MB -> G:\Meu Drive\offtrade\industria_data.js
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  4/8 - Campanha Robinson Crusoe (crusoe_data.js)
+--------------------------------------------------
+[master 4a00804] Atualiza crusoe_data.js - 15/07/2026
+ 1 file changed, 153 insertions(+), 99 deletions(-)
+-> Lendo vendas_CRC (Tentativa 1/3)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/3)...
+OK vendas_thekings carregada!
+-> Lendo vendas_CASTAS (Tentativa 1/3)...
+OK vendas_CASTAS carregada!
+-> Lendo vendas_GARRIDO (Tentativa 1/3)...
+OK vendas_GARRIDO carregada!
+-> Lendo vendas_SPON (Tentativa 1/3)...
+OK vendas_SPON carregada!
+-> Lendo vendas_MGON (Tentativa 1/3)...
+OK vendas_MGON carregada!
+[OK] 'METAS RJ.xlsx' baixado -> G:\Meu Drive\offtrade\planilhas_cache\METAS RJ.xlsx
+-> Lendo vendas_anterior_CRC (Tentativa 1/3)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/3)...
+OK vendas_anterior_thekings carregada!
+-> Lendo vendas_anterior_CASTAS (Tentativa 1/3)...
+OK vendas_anterior_CASTAS carregada!
+-> Lendo vendas_anterior_GARRIDO (Tentativa 1/3)...
+OK vendas_anterior_GARRIDO carregada!
+-> Lendo vendas_anterior_SPON (Tentativa 1/3)...
+OK vendas_anterior_SPON carregada!
+-> Lendo crusoe_CRC (Tentativa 1/3)...
+OK crusoe_CRC carregada!
+OK crusoe_data.js — 13 vendedores em 3 times, 169 linhas no período
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  4/8 - Conferência de preços
+--------------------------------------------------
+[OK] 'TABELA DE PREÇO RJ.xlsx' baixado -> g:\Meu Drive\offtrade\planilhas_cache\TABELA DE PREÇO RJ.xlsx
+[OK] 'PREÇO PROMO.xlsx' baixado -> g:\Meu Drive\offtrade\planilhas_cache\PREÇO PROMO.xlsx
+-> Lendo conferencia_preco (Tentativa 1/3)...
+OK conferencia_preco carregada!
+
+--------------------------------------------------
+  5/8 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/3)...
+OK pedidos carregada!
+-> Lendo pedidos_abertos (Tentativa 1/3)...
+OK pedidos_abertos carregada!
+-> Lendo pedidos_cancelados (Tentativa 1/3)...
+OK pedidos_cancelados carregada!
+Logística: g:\Meu Drive\offtrade\planilhas_cache\controle_notas_07_julho.xlsx | aba: 15-07 | 379 linhas
+Histórico logística 04/2026: g:\Meu Drive\offtrade\planilhas_cache\controle_notas_04_abril.xlsx | 25 aba(s)
+Histórico logística 05/2026: g:\Meu Drive\offtrade\planilhas_cache\controle_notas_05_maio.xlsx | 26 aba(s)
+Histórico logística 06/2026: g:\Meu Drive\offtrade\planilhas_cache\controle_notas_06_junho.xlsx | 26 aba(s)
+Histórico logística 07/2026: g:\Meu Drive\offtrade\planilhas_cache\controle_notas_07_julho.xlsx | 13 aba(s)
+   26105 NF(s) com rota já registrada em algum dia (histórico)
+OK - 22 vendedores, rota do dia 15.07 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5b - Gerando página de pedidos (pedidos_data.js)
+--------------------------------------------------
+-> Lendo pedidos_CRC (Tentativa 1/3)...
+OK pedidos_CRC carregada!
+-> Lendo pedidos_thekings (Tentativa 1/3)...
+OK pedidos_thekings carregada!
+-> Lendo pedidos_CASTAS (Tentativa 1/3)...
+OK pedidos_CASTAS carregada!
+-> Lendo pedidos_GARRIDO (Tentativa 1/3)...
+OK pedidos_GARRIDO carregada!
+-> Lendo pedidos_SPON (Tentativa 1/3)...
+OK pedidos_SPON carregada!
+-> Lendo pedidos_MGON (Tentativa 1/3)...
+OK pedidos_MGON carregada!
+Status de logística: 24424 NF(s) mapeada(s) (últimos 4 meses)
+Canhoto Digital: 786 NF(s) mapeada(s) (cache local)
+-> Lendo pcprest_CRC (Tentativa 1/3)...
+OK pcprest_CRC carregada!
+-> Lendo pcprest_thekings (Tentativa 1/3)...
+OK pcprest_thekings carregada!
+-> Lendo pcprest_CASTAS (Tentativa 1/3)...
+OK pcprest_CASTAS carregada!
+-> Lendo pcprest_GARRIDO (Tentativa 1/3)...
+OK pcprest_GARRIDO carregada!
+-> Lendo pcprest_SPON (Tentativa 1/3)...
+OK pcprest_SPON carregada!
+-> Lendo pcprest_MGON (Tentativa 1/3)...
+OK pcprest_MGON carregada!
+PCPREST: 17776 pedido(s) com todas as parcelas pagas — saem de Faturados
+OK - 85 pedido(s) feito(s), 2084 faturado(s), 364 cortado(s)/cancelado(s) -> g:\Meu Drive\offtrade\pedidos_data.js
+OK pedidos_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  6/8 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master e7c7d2f] Atualiza vendas_sp_data.js - 15/07/2026
+ 1 file changed, 361 insertions(+), 53 deletions(-)
+-> Lendo vendas_SP (Tentativa 1/3)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO', 'ADRIANO VEZZANI', 'ALEXANDRE TONON', 'ANA PAULA', 'ANDERSON CANAVEIS', 'ANDERSON MOTTA', 'ANDRE PINHEIRO', 'ANDRE SILVA', 'BRUNO BARBOSA', 'BRYAN PALOPOLI', 'CARLOS DE ALMEIDA', 'CARLOS TERRA', 'CAROLINA SOUZA', 'CELSO OLIVEIRA', 'CIARA PADULA', 'CRISTIANE MORAIS', 'DANIELLE DOS SANTOS', 'DOUGLAS TEIXEIRA', 'ELIZANGELA RODRIGUES', 'FABIANO RIBEIRO', 'FERNANDO BERTIN', 'FLAVIO RIBEIRO', 'FRANCIS SILVA', 'GILSON DE OLIVEIRA', 'GILVAN AMORIM', 'JESSICA FREITAS', 'JOAO LUPORINI', 'JOSE SILVA', 'LEONARDO FLOREZI', 'LEONARDO MILAN', 'LUCAS BUENO', 'LUCIANO TOSCHI', 'LUIS MACHADO', 'LUIZ RIGLER', 'MANUELA ZAPPACOSTA', 'MARCELO DE CAMPOS', 'MARCELO PEREIRA', 'MARCIA RITA', 'MARCUS TANAMACHI', 'MARIO RAFAEL FERRARI', 'MARLENE RODRIGUES', 'PATRICIA RAMOS', 'PATRICIO MASSAGARDI', 'PAULO JUNIOR', 'PAULO MOREIRA', 'PRISCILLA BONACHE', 'RENATO JUNIOR', 'ROBERTO DA SILVA', 'ROBERTO DOS SANTOS', 'ROBSON DA SILVA', 'RODRIGO LIMA', 'SUELY SANTOS', 'W.S', 'WANDO MACHADO']
+[OK] 'METAS SP.xlsx' baixado -> G:\Meu Drive\offtrade\planilhas_cache\METAS SP.xlsx
+Metas SP: 56 vendedores
+Realizado SP: 54 vendedores
+OK vendas_sp_data.js gerado — 54 vendedores, meses: ['Jul/26', 'Jun/26', 'Mai/26', 'Abr/26', 'Mar/26', 'Fev/26']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6b - Exportando dashboard ES (vendas_es_data.js)
+--------------------------------------------------
+[master aad58cf] Atualiza vendas_es_data.js - 15/07/2026
+ 1 file changed, 3 insertions(+), 12 deletions(-)
+-> Lendo vendas_ES (Tentativa 1/3)...
+OK vendas_ES carregada!
+Vendedores ES: ['ALDICEIA PEIXOTO', 'CARLOS TERRA', 'DOUGLAS SCHADE', 'ENEIVA RODRIGUES', 'EUDES MORGAN', 'FRANZ BENEVIDES', 'GILDO ADRIANO', 'JEAN MENEZES', 'JOAO VICTOR DA ROCHA', 'JOSIETH LIMA', 'LUCAS LIMA', 'MARA DEPOLLI', 'MARCELO DE SOUZA', 'RAQUEL ARAUJO', 'RICARDO CLAUDIO', 'ROSENIR RIBEIRO', 'TIAGO SILVA', 'WANDERSON FERREIRA']
+Realizado ES: 18 vendedores
+OK vendas_es_data.js — 18 vendedores, meses: ['Jul/26', 'Jun/26', 'Mai/26', 'Abr/26', 'Mar/26', 'Fev/26']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6c - Exportando dashboard MG (vendas_mg_data.js)
+--------------------------------------------------
+[master b7dc980] Atualiza vendas_mg_data.js - 15/07/2026
+ 1 file changed, 624 insertions(+), 75 deletions(-)
+-> Lendo vendas_MG (Tentativa 1/3)...
+OK vendas_MG carregada!
+Vendedores MG: ['BRUNA CASTRO MELLO', 'FERNANDO RISSON', 'JANAIRA MARQUES', 'JOÃO SANTOS', 'LEANDRO OLIVEIRA', 'LUIZ FERNANDO SALGADO', 'MATHEUS DE SOUZA', 'SAVIO NETO', 'TIAGO ANDRADE', 'WILLIAM ALVES DA SILVA']
+Realizado MG: 10 vendedores
+OK vendas_mg_data.js — 10 vendedores, meses: ['Jul/26', 'Jun/26', 'Mai/26', 'Abr/26', 'Mar/26', 'Fev/26']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  7/9 - Nao positivados SP (nao_pos_sp_data.js)
+--------------------------------------------------
+[master b5485b5] Atualiza nao_pos_sp_data.js - 15/07/2026
+ 1 file changed, 273 insertions(+), 305 deletions(-)
+-> Consultando não positivados SP (SPON)...
+OK 979 clientes não positivados SP
+OK nao_pos_sp_data.js — 57 vendedores, 979 clientes
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  7b - Nao positivados ES (nao_pos_es_data.js)
+--------------------------------------------------
+[master ca4eb98] Atualiza nao_pos_es_data.js - 15/07/2026
+ 1 file changed, 193 insertions(+), 556 deletions(-)
+-> Consultando nao positivados ES (CRC filial 2)...
+OK 1245 clientes nao positivados ES
+OK nao_pos_es_data.js — 38 vendedores, 1245 clientes
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  7c - Nao positivados MG (nao_pos_mg_data.js)
+--------------------------------------------------
+[master 718e3a7] Atualiza nao_pos_mg_data.js - 15/07/2026
+ 1 file changed, 118 insertions(+), 462 deletions(-)
+-> Consultando nao positivados MG (MGON filiais 1 e 2)...
+OK 290 clientes nao positivados MG
+OK nao_pos_mg_data.js — 8 vendedores, 290 clientes
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  8/9 - Base de clientes por RCA (clientes_rca_data.js)
+--------------------------------------------------
+[master 8eb4c5d] Atualiza clientes_rca_data.js - 15/07/2026
+ 2 files changed, 36 insertions(+), 6 deletions(-)
+-> Lendo vendas_CRC (Tentativa 1/3)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/3)...
+OK vendas_thekings carregada!
+-> Lendo vendas_CASTAS (Tentativa 1/3)...
+OK vendas_CASTAS carregada!
+-> Lendo vendas_GARRIDO (Tentativa 1/3)...
+OK vendas_GARRIDO carregada!
+-> Lendo vendas_SPON (Tentativa 1/3)...
+OK vendas_SPON carregada!
+-> Lendo vendas_MGON (Tentativa 1/3)...
+OK vendas_MGON carregada!
+[OK] 'METAS RJ.xlsx' baixado -> G:\Meu Drive\offtrade\planilhas_cache\METAS RJ.xlsx
+-> Lendo vendas_anterior_CRC (Tentativa 1/3)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/3)...
+OK vendas_anterior_thekings carregada!
+-> Lendo vendas_anterior_CASTAS (Tentativa 1/3)...
+OK vendas_anterior_CASTAS carregada!
+-> Lendo vendas_anterior_GARRIDO (Tentativa 1/3)...
+OK vendas_anterior_GARRIDO carregada!
+-> Lendo vendas_anterior_SPON (Tentativa 1/3)...
+OK vendas_anterior_SPON carregada!
+-> Lendo clientes_CRC (Tentativa 1/3)...
+OK clientes_CRC carregada!
+-> Lendo clientes_thekings (Tentativa 1/3)...
+OK clientes_thekings carregada!
+-> Lendo clientes_CASTAS (Tentativa 1/3)...
+OK clientes_CASTAS carregada!
+-> Lendo clientes_GARRIDO (Tentativa 1/3)...
+OK clientes_GARRIDO carregada!
+-> Lendo clientes_SPON (Tentativa 1/3)...
+OK clientes_SPON carregada!
+OK clientes_rca_data.js — 4291 clientes exportados
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  8/9 - Clientes migrados RCA 588 (clientes_588_data.js)
+--------------------------------------------------
+[master 514973a] Atualiza clientes_588_data.js - 15/07/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo clientes_588_jan_abr (Tentativa 1/5)...
+OK clientes_588_jan_abr carregada!
+-> Lendo vendas_maio_outros (Tentativa 1/5)...
+OK vendas_maio_outros carregada!
+-> Lendo vendas_maio_588 (Tentativa 1/5)...
+OK vendas_maio_588 carregada!
+OK clientes_588_data.js — 49 clientes migraram
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  8/9 - Exportando auth de vendedores (vendedores_auth_data.js)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/3)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/3)...
+OK vendas_thekings carregada!
+-> Lendo vendas_CASTAS (Tentativa 1/3)...
+OK vendas_CASTAS carregada!
+-> Lendo vendas_GARRIDO (Tentativa 1/3)...
+OK vendas_GARRIDO carregada!
+-> Lendo vendas_SPON (Tentativa 1/3)...
+OK vendas_SPON carregada!
+-> Lendo vendas_MGON (Tentativa 1/3)...
+OK vendas_MGON carregada!
+[OK] 'METAS RJ.xlsx' baixado -> G:\Meu Drive\offtrade\planilhas_cache\METAS RJ.xlsx
+-> Lendo vendas_anterior_CRC (Tentativa 1/3)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/3)...
+OK vendas_anterior_thekings carregada!
+-> Lendo vendas_anterior_CASTAS (Tentativa 1/3)...
+OK vendas_anterior_CASTAS carregada!
+-> Lendo vendas_anterior_GARRIDO (Tentativa 1/3)...
+OK vendas_anterior_GARRIDO carregada!
+-> Lendo vendas_anterior_SPON (Tentativa 1/3)...
+OK vendas_anterior_SPON carregada!
+-> Lendo vendedores_auth (Tentativa 1/3)...
+OK vendedores_auth carregada!
+[OK] vendedores_auth_data.js — 17 vendedores exportados
+
+
+--------------------------------------------------
+  9/9 - Clientes inativos / sem compra / novos (clientes_inativos_data.js)
+--------------------------------------------------
+[master 46fb0a5] Atualiza clientes_inativos_data.js - 15/07/2026
+ 1 file changed, 1244 insertions(+), 1316 deletions(-)
+-> media_CRC (tentativa 1)...
+   OK 1586 linhas
+-> inativos_CRC (tentativa 1)...
+   OK 244 linhas
+-> sem_compra_CRC (tentativa 1)...
+   OK 659 linhas
+-> novos_CRC (tentativa 1)...
+   OK 40 linhas
+-> media_thekings (tentativa 1)...
+   OK 29 linhas
+-> inativos_thekings (tentativa 1)...
+   OK 0 linhas
+-> sem_compra_thekings (tentativa 1)...
+   OK 1 linhas
+-> novos_thekings (tentativa 1)...
+   OK 0 linhas
+-> media_SPON (tentativa 1)...
+   OK 945 linhas
+-> inativos_SPON (tentativa 1)...
+   OK 529 linhas
+-> sem_compra_SPON (tentativa 1)...
+   OK 338 linhas
+-> novos_SPON (tentativa 1)...
+   OK 328 linhas
+-> media_MGON (tentativa 1)...
+   OK 455 linhas
+-> inativos_MGON (tentativa 1)...
+   OK 215 linhas
+-> sem_compra_MGON (tentativa 1)...
+   OK 160 linhas
+-> novos_MGON (tentativa 1)...
+   OK 14 linhas
+-> hier_CRC (tentativa 1)...
+   OK 48 linhas
+-> hier_thekings (tentativa 1)...
+   OK 4 linhas
+-> hier_SPON (tentativa 1)...
+   OK 66 linhas
+-> hier_MGON (tentativa 1)...
+   OK 9 linhas
+Hierarquia: 5 estados, 123 vendedores
+
+OK clientes_inativos_data.js — 98 vendedores | 988 inativos | 1158 sem compra | 382 novos
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  9b - Inadimplencia (inadimplencia_data.js)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/3)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/3)...
+OK vendas_thekings carregada!
+-> Lendo vendas_CASTAS (Tentativa 1/3)...
+OK vendas_CASTAS carregada!
+-> Lendo vendas_GARRIDO (Tentativa 1/3)...
+OK vendas_GARRIDO carregada!
+-> Lendo vendas_SPON (Tentativa 1/3)...
+OK vendas_SPON carregada!
+-> Lendo vendas_MGON (Tentativa 1/3)...
+OK vendas_MGON carregada!
+[OK] 'METAS RJ.xlsx' baixado -> G:\Meu Drive\offtrade\planilhas_cache\METAS RJ.xlsx
+-> Lendo vendas_anterior_CRC (Tentativa 1/3)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/3)...
+OK vendas_anterior_thekings carregada!
+-> Lendo vendas_anterior_CASTAS (Tentativa 1/3)...
+OK vendas_anterior_CASTAS carregada!
+-> Lendo vendas_anterior_GARRIDO (Tentativa 1/3)...
+OK vendas_anterior_GARRIDO carregada!
+-> Lendo vendas_anterior_SPON (Tentativa 1/3)...
+OK vendas_anterior_SPON carregada!
+-> Lendo inadimplencia_CRC (Tentativa 1/3)...
+OK inadimplencia_CRC carregada!
+-> Lendo inadimplencia_thekings (Tentativa 1/3)...
+OK inadimplencia_thekings carregada!
+-> Lendo inadimplencia_CASTAS (Tentativa 1/3)...
+OK inadimplencia_CASTAS carregada!
+-> Lendo inadimplencia_GARRIDO (Tentativa 1/3)...
+OK inadimplencia_GARRIDO carregada!
+-> Lendo inadimplencia_SPON (Tentativa 1/3)...
+OK inadimplencia_SPON carregada!
+-> Lendo inadimplencia_MGON (Tentativa 1/3)...
+OK inadimplencia_MGON carregada!
+[AVISO] Controle de Notas 12/2025 indisponível (Controle de Notas de DEZEMBRO não encontrado no Drive.) — ignorado
+[AVISO] Controle de Notas 11/2025 indisponível (Controle de Notas de NOVEMBRO não encontrado no Drive.) — ignorado
+[AVISO] Controle de Notas 10/2025 indisponível (Controle de Notas de OUTUBRO não encontrado no Drive.) — ignorado
+Status de logística: 56180 NF(s) mapeada(s) (últimos 13 meses)
+OK inadimplencia_data.js — 487 titulo(s) em aberto, R$ 2,312,820.28
+
+
+--------------------------------------------------
+  10/10 - Alertas (pulado — SEND_ALERTS=0 neste ambiente)
+--------------------------------------------------
+
+--------------------------------------------------
+  11/11 - Deploy para VPS
+--------------------------------------------------
+-> Conectando a VPS 147.79.107.137...
+
+-> Sincronizando arquivos estáticos...
+   amarula.html -> /opt/offtrade-static/amarula.html
+   catalogo.html -> /opt/offtrade-static/catalogo.html
+   clientes_588.html -> /opt/offtrade-static/clientes_588.html
+   clientes_inativos.html -> /opt/offtrade-static/clientes_inativos.html
+   clientes_rca.html -> /opt/offtrade-static/clientes_rca.html
+   crusoe.html -> /opt/offtrade-static/crusoe.html
+   entregas.html -> /opt/offtrade-static/entregas.html
+   es.html -> /opt/offtrade-static/es.html
+   inadimplencia.html -> /opt/offtrade-static/inadimplencia.html
+   index.html -> /opt/offtrade-static/index.html
+   industria.html -> /opt/offtrade-static/industria.html
+   login.html -> /opt/offtrade-static/login.html
+   login_vendedor.html -> /opt/offtrade-static/login_vendedor.html
+   metas.html -> /opt/offtrade-static/metas.html
+   metas_gerais.html -> /opt/offtrade-static/metas_gerais.html
+   mg.html -> /opt/offtrade-static/mg.html
+   moving.html -> /opt/offtrade-static/moving.html
+   pedidos.html -> /opt/offtrade-static/pedidos.html
+   pernod.html -> /opt/offtrade-static/pernod.html
+   pinati.html -> /opt/offtrade-static/pinati.html
+   produtos.html -> /opt/offtrade-static/produtos.html
+   sp.html -> /opt/offtrade-static/sp.html
+   vendedor.html -> /opt/offtrade-static/vendedor.html
+   amarula_data.js -> /opt/offtrade-static/amarula_data.js
+   auth.js -> /opt/offtrade-static/auth.js
+   auth_vendedor.js -> /opt/offtrade-static/auth_vendedor.js
+   catalogo_data.js -> /opt/offtrade-static/catalogo_data.js
+   clientes_588_data.js -> /opt/offtrade-static/clientes_588_data.js
+   clientes_inativos_data.js -> /opt/offtrade-static/clientes_inativos_data.js
+   clientes_rca_data.js -> /opt/offtrade-static/clientes_rca_data.js
+   crusoe_data.js -> /opt/offtrade-static/crusoe_data.js
+   entregas_data.js -> /opt/offtrade-static/entregas_data.js
+   fontes_alert.js -> /opt/offtrade-static/fontes_alert.js
+   fontes_status_data.js -> /opt/offtrade-static/fontes_status_data.js
+   gerentes_data.js -> /opt/offtrade-static/gerentes_data.js
+   inadimplencia_data.js -> /opt/offtrade-static/inadimplencia_data.js
+   industria_data.js -> /opt/offtrade-static/industria_data.js
+   metas_data.js -> /opt/offtrade-static/metas_data.js
+   metas_gerais_data.js -> /opt/offtrade-static/metas_gerais_data.js
+   nao_pos_es_data.js -> /opt/offtrade-static/nao_pos_es_data.js
+   nao_pos_mg_data.js -> /opt/offtrade-static/nao_pos_mg_data.js
+   nao_pos_sp_data.js -> /opt/offtrade-static/nao_pos_sp_data.js
+   pedidos_data.js -> /opt/offtrade-static/pedidos_data.js
+   vendas_data.js -> /opt/offtrade-static/vendas_data.js
+   vendas_es_data.js -> /opt/offtrade-static/vendas_es_data.js
+   vendas_mg_data.js -> /opt/offtrade-static/vendas_mg_data.js
+   vendas_sp_data.js -> /opt/offtrade-static/vendas_sp_data.js
+   vendedores_auth_data.js -> /opt/offtrade-static/vendedores_auth_data.js
+
+OK site estático atualizado em /opt/offtrade-static - https://offtrade.duckdns.org
+
+-> Conectando a VPS 147.79.107.137...
+
+-> Sincronizando arquivos raiz...
+   app.py -> /opt/offtrade/app.py
+   utils.py -> /opt/offtrade/utils.py
+   requirements.txt -> /opt/offtrade/requirements.txt
+   .env -> /opt/offtrade/.env
+   metas_config.json -> /opt/offtrade/metas_config.json
+
+-> Limpando pages/ remoto (evita sobras de páginas removidas)...
+
+-> Sincronizando diretorios...
+   pages\Admin_Metas.py -> /opt/offtrade/pages/Admin_Metas.py
+   pages\Credito_e_Cadastro.py -> /opt/offtrade/pages/Credito_e_Cadastro.py
+   .streamlit\config.toml -> /opt/offtrade/.streamlit/config.toml
+
+-> Instalando dependências Python (se necessário)...
+
+-> Reiniciando servico offtrade...
+active
+
+OK Servico ativo - https://offtrade.duckdns.org
+
+
+==================================================
+  Concluído em 1304s
+==================================================
+
+[15/07/2026 19:21:48,75] OK 
+---------------------------------------- 

@@ -350,7 +350,7 @@ function render() {
         <thead><tr>
           <th>Cód</th><th>Cliente</th>
           <th class="hide-mob">Bairro</th><th class="hide-mob">Cidade</th>
-          <th>Últ. Compra</th><th class="hide-mob">Cadastro</th><th>Média/mês</th>
+          <th>Últ. Compra</th><th>Dias sem compra</th><th>Média/mês</th>
         </tr></thead><tbody>` +
         lista.map(c => `<tr>
           <td style="color:var(--muted)">${c.codcli}</td>
@@ -358,7 +358,7 @@ function render() {
           <td class="hide-mob" style="color:var(--muted)">${c.bairro || '—'}</td>
           <td class="hide-mob" style="color:var(--muted)">${c.cidade || '—'}</td>
           <td>${c.dtultcomp || '<span style="color:var(--muted)">—</span>'}</td>
-          <td class="hide-mob" style="color:var(--muted)">${c.dtcadastro || '—'}</td>
+          <td>${c.dias != null ? `<span class="dias-pill ${_diasCls(c.dias)}">${c.dias}d</span>` : '<span style="color:var(--muted)">—</span>'}</td>
           <td style="color:var(--red);font-weight:700">${parseFloat(c.media||0)>0 ? fmtR(parseFloat(c.media)) : '<span style="color:var(--muted)">—</span>'}</td>
         </tr>`).join('') + '</tbody></table>';
     } else if (_tab === 'sem_compra') {
@@ -415,7 +415,7 @@ function exportCSV() {
   const busca = document.getElementById('fil-busca').value.trim().toLowerCase();
 
   const headers = {
-    inativos:   ['Vendedor','Estado','RCA','Cód Cliente','Cliente','Bairro','Cidade','Últ. Compra','Cadastro'],
+    inativos:   ['Vendedor','Estado','RCA','Cód Cliente','Cliente','Bairro','Cidade','Últ. Compra','Dias sem compra','Média/mês'],
     sem_compra: ['Vendedor','Estado','RCA','Cód Cliente','Cliente','Bairro','Cidade','Últ. Compra','Dias'],
     novos:      ['Vendedor','Estado','RCA','Cód Cliente','Cliente','Bairro','Cidade','Cadastro','Últ. Compra'],
   };
@@ -428,7 +428,7 @@ function exportCSV() {
     if (tab === 'novos')      lista = _filtrarClientes(v.novos);
     lista.forEach(c => {
       if (tab === 'inativos')
-        rows.push([nome, v.estado, v.rca, c.codcli, c.cliente, c.bairro, c.cidade, c.dtultcomp||'', c.dtcadastro||'']);
+        rows.push([nome, v.estado, v.rca, c.codcli, c.cliente, c.bairro, c.cidade, c.dtultcomp||'', c.dias||'', c.media||'']);
       else if (tab === 'sem_compra')
         rows.push([nome, v.estado, v.rca, c.codcli, c.cliente, c.bairro, c.cidade, c.dtultcomp||'', c.dias||'']);
       else

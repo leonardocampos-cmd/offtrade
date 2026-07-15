@@ -97,6 +97,9 @@
   <select id="sel-rca" onchange="aplicarFiltro()">
     <option value="">Todos os RCAs</option>
   </select>
+  <select id="sel-rede" onchange="aplicarFiltro()">
+    <option value="">Todas as Redes</option>
+  </select>
   <input type="text" id="busca" placeholder="Buscar por nome, fantasia, CNPJ..." oninput="aplicarFiltro()">
   <label class="chk-ka">
     <input type="checkbox" id="chk-ka" onchange="aplicarFiltro()"> ⭐ Key Account
@@ -114,6 +117,7 @@
         <th>Razão Social</th>
         <th>Fantasia</th>
         <th>Ramo</th>
+        <th>Rede</th>
         <th>Bairro</th>
         <th>Cidade</th>
         <th>UF</th>
@@ -129,11 +133,12 @@
 const DATA = typeof CLIENTES_RCA_DATA !== 'undefined' ? CLIENTES_RCA_DATA : null;
 
 if (!DATA) {
-  document.getElementById('tbody').innerHTML = '<tr><td colspan="9" class="empty">Dados não encontrados. Execute o pipeline para gerar clientes_rca_data.js.</td></tr>';
+  document.getElementById('tbody').innerHTML = '<tr><td colspan="11" class="empty">Dados não encontrados. Execute o pipeline para gerar clientes_rca_data.js.</td></tr>';
 } else {
   document.getElementById('header-sub').textContent = 'Atualizado ' + DATA.atualizado_em;
   montarEstados();
   reconstruirRcas();
+  montarRedes();
   aplicarFiltro();
 }
 
@@ -179,8 +184,26 @@ function reconstruirRcas() {
   if (rcaAtual && !rcaMap[rcaAtual]) sel.value = '';
 }
 
+function montarRedes() {
+  const estado = document.getElementById('sel-estado').value.trim();
+  const atual = document.getElementById('sel-rede').value;
+  const base = !estado ? DATA.clientes : DATA.clientes.filter(c => c.estado === estado);
+
+  const sel = document.getElementById('sel-rede');
+  sel.innerHTML = '<option value="">Todas as Redes</option>';
+  [...new Set(base.map(c => c.rede).filter(Boolean))].sort().forEach(rede => {
+    const o = document.createElement('option');
+    o.value = rede;
+    o.textContent = rede;
+    if (rede === atual) o.selected = true;
+    sel.appendChild(o);
+  });
+  if (atual && !base.some(c => c.rede === atual)) sel.value = '';
+}
+
 function onEstadoChange() {
   reconstruirRcas();
+  montarRedes();
   aplicarFiltro();
 }
 
@@ -188,15 +211,17 @@ function _filtrados() {
   if (!DATA) return [];
   const estado = document.getElementById('sel-estado').value.trim();
   const rca    = document.getElementById('sel-rca').value.trim();
+  const rede   = document.getElementById('sel-rede').value;
   const busca  = document.getElementById('busca').value.trim().toLowerCase();
   const soKA   = document.getElementById('chk-ka').checked;
   return DATA.clientes.filter(c => {
     const matchEstado = !estado || c.estado === estado;
     const matchRca    = !rca || c.codusur1 === rca || c.codusur2 === rca;
+    const matchRede    = !rede || c.rede === rede;
     const matchKA      = !soKA || c.key_account;
-    const matchBusca  = !busca || [c.razao, c.fantasia, c.cnpj, c.codcli, c.ramo]
+    const matchBusca  = !busca || [c.razao, c.fantasia, c.cnpj, c.codcli, c.ramo, c.rede]
       .some(v => v && v.toLowerCase().includes(busca));
-    return matchEstado && matchRca && matchKA && matchBusca;
+    return matchEstado && matchRca && matchRede && matchKA && matchBusca;
   });
 }
 
@@ -206,7 +231,7 @@ function aplicarFiltro() {
 
   const tbody = document.getElementById('tbody');
   if (!lista.length) {
-    tbody.innerHTML = '<tr><td colspan="8" class="empty">Nenhum cliente encontrado.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="11" class="empty">Nenhum cliente encontrado.</td></tr>';
     return;
   }
 
@@ -217,6 +242,7 @@ function aplicarFiltro() {
       <td>${_esc(c.razao)}${c.key_account ? '<span class="badge-ka">⭐ KA</span>' : ''}</td>
       <td style="color:var(--muted)">${_esc(c.fantasia)}</td>
       <td style="color:var(--muted);font-size:.78rem">${_esc(c.ramo)}</td>
+      <td style="color:var(--muted);font-size:.78rem">${_esc(c.rede)}</td>
       <td style="color:var(--muted)">${_esc(c.bairro)}</td>
       <td style="color:var(--muted)">${_esc(c.cidade)}</td>
       <td style="color:var(--muted);font-size:.78rem;font-weight:700">${c.estado || ''}</td>
@@ -237,13 +263,14 @@ function _fmtCnpj(v) {
 
 function exportarCSV() {
   const lista = _filtrados();
-  const header = ['Codigo','CNPJ','Razao Social','Fantasia','Ramo','Bairro','Cidade','UF','Key Account','Cod RCA1','RCA1','Cod RCA2','RCA2'];
+  const header = ['Codigo','CNPJ','Razao Social','Fantasia','Ramo','Rede','Bairro','Cidade','UF','Key Account','Cod RCA1','RCA1','Cod RCA2','RCA2'];
   const linhas = lista.map(c => [
     c.codcli,
     c.cnpj,
     c.razao,
     c.fantasia,
     c.ramo,
+    c.rede,
     c.bairro,
     c.cidade,
     c.estado,

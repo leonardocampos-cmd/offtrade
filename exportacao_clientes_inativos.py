@@ -62,13 +62,34 @@ def _q_inativos(s, nf):
     return f"""
     SELECT C.CODCLI, C.CLIENTE, C.BAIRROENT AS BAIRRO, C.MUNICENT AS CIDADE,
            TO_CHAR(C.DTULTCOMP,  'DD/MM/YYYY') AS DTULTCOMP,
-           TO_CHAR(C.DTCADASTRO, 'DD/MM/YYYY') AS DTCADASTRO,
+           TRUNC(SYSDATE) - TRUNC(C.DTULTCOMP) AS DIAS,
            U.NOME AS NOME_RCA, U.CODUSUR AS RCA
     FROM {s}.PCCLIENT C
     JOIN {s}.PCUSUARI U ON C.CODUSUR2 = U.CODUSUR
     WHERE C.BLOQUEIO = 'S' AND C.CODUSUR1 = 10
       AND {nf}
     ORDER BY U.NOME, C.CLIENTE
+    """
+
+
+def _q_media_inativos(s, nf):
+    """Média mensal dos INATIVOS não pode ser relativa a hoje (por definição
+    eles não compraram nos últimos meses, daria sempre 0) — usa os 3 meses
+    que terminam no mês da última compra de cada cliente, ou seja, quanto
+    ele gastava por mês quando ainda estava ativo."""
+    return f"""
+    SELECT M.CODCLI, ROUND(SUM(M.PUNIT * M.QT) / 3, 2) AS MEDIA_MENSAL
+    FROM {s}.PCMOV M
+    JOIN {s}.PCUSUARI U ON M.CODUSUR = U.CODUSUR
+    JOIN {s}.PCCLIENT C ON M.CODCLI = C.CODCLI
+    WHERE M.DTMOV >= ADD_MONTHS(TRUNC(C.DTULTCOMP, 'MM'), -2)
+      AND M.DTMOV <  ADD_MONTHS(TRUNC(C.DTULTCOMP, 'MM'), 1)
+      AND M.CODOPER IN ('S', 'SB')
+      AND M.NUMNOTADEV IS NULL
+      AND M.DTCANCEL  IS NULL
+      AND C.BLOQUEIO = 'S' AND C.CODUSUR1 = 10
+      AND {nf}
+    GROUP BY M.CODCLI
     """
 
 
@@ -127,12 +148,13 @@ def _row(r, cols):
 
 
 por_vendedor = {}
-_media_map   = {}  # {schema: {codcli_str: media_mensal}}
+_media_map          = {}  # {schema: {codcli_str: media_mensal}} — 3 meses relativos a hoje
+_media_map_inativos = {}  # {schema: {codcli_str: media_mensal}} — 3 meses relativos à última compra
 
 for schema, dsn, nome_filter, estado, usr, pwd in SCHEMAS:
     eng = _eng(dsn, usr, pwd)
 
-    # Média 3 meses por cliente
+    # Média 3 meses por cliente (relativa a hoje — usada em sem_compra/novos)
     df_med = _load(_q_media(schema, nome_filter), eng, f"media_{schema}")
     if not df_med.empty:
         _media_map[schema] = {
@@ -143,13 +165,25 @@ for schema, dsn, nome_filter, estado, usr, pwd in SCHEMAS:
     else:
         _media_map[schema] = {}
 
-    for label, query, cat, cols in [
+    # Média 3 meses dos inativos (relativa à última compra de cada um — ver
+    # docstring de _q_media_inativos)
+    df_med_inat = _load(_q_media_inativos(schema, nome_filter), eng, f"media_inativos_{schema}")
+    if not df_med_inat.empty:
+        _media_map_inativos[schema] = {
+            str(int(float(r["CODCLI"]))): round(float(r["MEDIA_MENSAL"]), 2)
+            for _, r in df_med_inat.iterrows()
+            if pd.notna(r.get("MEDIA_MENSAL")) and pd.notna(r.get("CODCLI"))
+        }
+    else:
+        _media_map_inativos[schema] = {}
+
+    for label, query, cat, cols, mapa_media in [
         (f"inativos_{schema}",   _q_inativos(schema, nome_filter),   "inativos",
-         ["CODCLI","CLIENTE","BAIRRO","CIDADE","DTULTCOMP","DTCADASTRO"]),
+         ["CODCLI","CLIENTE","BAIRRO","CIDADE","DTULTCOMP","DIAS"], _media_map_inativos),
         (f"sem_compra_{schema}", _q_sem_compra(schema, nome_filter), "sem_compra",
-         ["CODCLI","CLIENTE","BAIRRO","CIDADE","DTULTCOMP","DIAS"]),
+         ["CODCLI","CLIENTE","BAIRRO","CIDADE","DTULTCOMP","DIAS"], _media_map),
         (f"novos_{schema}",      _q_novos(schema, nome_filter),      "novos",
-         ["CODCLI","CLIENTE","BAIRRO","CIDADE","DTCADASTRO","DTULTCOMP"]),
+         ["CODCLI","CLIENTE","BAIRRO","CIDADE","DTCADASTRO","DTULTCOMP"], _media_map),
     ]:
         df = _load(query, eng, label)
         if df.empty:
@@ -166,7 +200,7 @@ for schema, dsn, nome_filter, estado, usr, pwd in SCHEMAS:
             entry = _row(r, cols)
             codcli_raw = r.get("CODCLI")
             codcli_key = str(int(float(codcli_raw))) if pd.notna(codcli_raw) else ""
-            entry["media"] = _media_map.get(schema, {}).get(codcli_key, 0.0)
+            entry["media"] = mapa_media.get(schema, {}).get(codcli_key, 0.0)
             v[cat].append(entry)
 
 # ── Hierarquia (estado → gerente → supervisor → vendedor) ────────────────────
