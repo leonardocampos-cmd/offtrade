@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "15/07/2026 14:09",
+  "atualizado_em": "15/07/2026 15:22",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -3502,9 +3502,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "95525",
+        "codcli": "95534",
         "cliente": "G5 DROGARIAS LTDA",
-        "bairro": "COPACABANA",
+        "bairro": "IPANEMA",
         "dtultcomp": "30/06/2026",
         "produtos": [
           {
@@ -3540,9 +3540,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "95534",
+        "codcli": "95525",
         "cliente": "G5 DROGARIAS LTDA",
-        "bairro": "IPANEMA",
+        "bairro": "COPACABANA",
         "dtultcomp": "30/06/2026",
         "produtos": [
           {
@@ -3604,6 +3604,13 @@ const NAO_POS_ES_DATA = {
             "valor": 536.4
           }
         ]
+      },
+      {
+        "codcli": "95720",
+        "cliente": "CASAGRANDE KAISERMANN COMESTIVEIS FINOS LTDA",
+        "bairro": "IPANEMA",
+        "dtultcomp": "nan",
+        "produtos": []
       },
       {
         "codcli": "95387",
@@ -14529,6 +14536,13 @@ const NAO_POS_ES_DATA = {
         "codcli": "86094",
         "cliente": "MERCADOS BOM PRECO DE SAO JOAO LTDA",
         "bairro": "AGOSTINHO PORTO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95718",
+        "cliente": "MINIMARKET MENA LTDA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
