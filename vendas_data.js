@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "15/07/2026 15:04",
+  "atualizado_em": "15/07/2026 16:03",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -67104,6 +67104,146 @@ const VENDAS_DATA = {
           "tipo": "Bonificado"
         },
         {
+          "data": "15/07/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 294.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 4,
+          "valor": 243.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "GIN MARINA 750ML",
+          "fantasia": "HOB",
+          "qt": 18,
+          "valor": 718.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "fantasia": "DIAGEO",
+          "qt": 3,
+          "valor": 359.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "GIN TANQUERAY  750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 4,
+          "valor": 359.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 4,
+          "valor": 599.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "WHISKY BUCHANANS 12 YEARS 1000 ML",
+          "fantasia": "DIAGEO",
+          "qt": 2,
+          "valor": 299.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 2,
+          "valor": 67.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "ESPUMANTE ALUD BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 3,
+          "valor": 80.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "APERITIVO APEROL 750 ML",
+          "fantasia": "CAMPARI",
+          "qt": 6,
+          "valor": 234.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "RUM BACARDI SUPERIOR 980ML",
+          "fantasia": "BACARDI",
+          "qt": 2,
+          "valor": 75.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 179.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "RED BULL TROPICAL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 359.52,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "81490",
+          "cliente": "MAYRON S BAR LTDA",
+          "produto": "RED BULL ZERO  24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 179.0,
+          "tipo": "Venda"
+        },
+        {
           "data": "01/07/2026",
           "codcli": "83071",
           "cliente": "PADARIA MERCADINHO MENDES LTDA",
@@ -92506,6 +92646,16 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "15/07/2026",
+          "codcli": "91491",
+          "cliente": "MERCADO ELLISCH E KELLER LTDA",
+          "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+          "fantasia": "RECKITT",
+          "qt": 2,
+          "valor": 143.52,
+          "tipo": "Venda"
+        },
+        {
           "data": "06/07/2026",
           "codcli": "91357",
           "cliente": "JLCC MM COM PROD FARMACEUTICOS LTDA",
@@ -92713,6 +92863,16 @@ const VENDAS_DATA = {
           "fantasia": "TIAL",
           "qt": 1,
           "valor": 59.88,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "91477",
+          "cliente": "CHRISTIAN ALEXANDRE DE OLIVEIRA GONCALVES VELOSO 07448639706",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 5,
+          "valor": 159.96,
           "tipo": "Venda"
         },
         {
@@ -118312,6 +118472,16 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "15/07/2026",
+          "codcli": "53108",
+          "cliente": "GRAO DE MOSTARDA DERIVADOS DE CHOCOLATES LTDA",
+          "produto": "WHISKY BOURBON MAKERS MARK 750 ML",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 6,
+          "valor": 899.4,
+          "tipo": "Venda"
+        },
+        {
           "data": "09/07/2026",
           "codcli": "63723",
           "cliente": "FONTES DE PRODUTOS NATURAIS LTDA",
@@ -118739,6 +118909,16 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 94.68,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "95199",
+          "cliente": "LUIZ ALOISE 74035169749",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "KAISER",
+          "qt": 3,
+          "valor": 386.7,
           "tipo": "Venda"
         },
         {
@@ -122889,6 +123069,36 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 12,
           "valor": 346.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "8263",
+          "cliente": "PAIS E FILHOS LANCHONETE E RESTAURANTE EIRELI",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 59.92,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "8263",
+          "cliente": "PAIS E FILHOS LANCHONETE E RESTAURANTE EIRELI",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "RED BULL",
+          "qt": 4,
+          "valor": 119.84,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "8263",
+          "cliente": "PAIS E FILHOS LANCHONETE E RESTAURANTE EIRELI",
+          "produto": "AGUA MINERAL MAMBA WATER C/ GAS - 24X350",
+          "fantasia": "KAISER",
+          "qt": 2,
+          "valor": 123.6,
           "tipo": "Venda"
         },
         {
@@ -159527,6 +159737,16 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 179.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "67090",
+          "cliente": "NATALIA DA SILVA DUARTE 10656196777",
+          "produto": "LICOR ESP DIEGO ZAMORA 43 CREME BRULEE",
+          "fantasia": "AURORA",
+          "qt": 2,
+          "valor": 313.8,
           "tipo": "Venda"
         },
         {
@@ -252854,6 +253074,36 @@ const VENDAS_DATA = {
       ],
       "Jul/26": [
         {
+          "data": "15/07/2026",
+          "codcli": "6003",
+          "cliente": "FRADE SPOT PARTICIPACOES S/A",
+          "produto": "CONHAQUE DREHER 900ML",
+          "fantasia": "CAMPARI",
+          "qt": 6,
+          "valor": 125.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "6003",
+          "cliente": "FRADE SPOT PARTICIPACOES S/A",
+          "produto": "TEQUILA ALTOS PLATA 750ML",
+          "fantasia": "PERNOD",
+          "qt": 3,
+          "valor": 423.3,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "13729",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
+          "produto": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
+          "fantasia": "CASTAS",
+          "qt": 5,
+          "valor": 1434.0,
+          "tipo": "Venda"
+        },
+        {
           "data": "11/07/2026",
           "codcli": "13729",
           "cliente": "SUPERMERCADO PRECOTIMO LTDA",
@@ -253004,6 +253254,16 @@ const VENDAS_DATA = {
           "tipo": "Bonificado"
         },
         {
+          "data": "15/07/2026",
+          "codcli": "95038",
+          "cliente": "GABRIEL BARROS MELO",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 10,
+          "valor": 298.26,
+          "tipo": "Venda"
+        },
+        {
           "data": "08/07/2026",
           "codcli": "69649",
           "cliente": "MERCADO ENSEADA DO SOL LTDA",
@@ -253032,6 +253292,86 @@ const VENDAS_DATA = {
           "qt": 1,
           "valor": 0.0,
           "tipo": "Bonificado"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "69649",
+          "cliente": "MERCADO ENSEADA DO SOL LTDA",
+          "produto": "CACHACA TATUZINHO PET 750 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 60,
+          "valor": 239.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "69649",
+          "cliente": "MERCADO ENSEADA DO SOL LTDA",
+          "produto": "VILLA ROSA BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 59.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "69649",
+          "cliente": "MERCADO ENSEADA DO SOL LTDA",
+          "produto": "VINHO GRAVEDAD CAB. SAUV.",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 59.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "69965",
+          "cliente": "DISTRIBUIDORA DE DOCES E BEBIDAS BORBOREMA LTDA",
+          "produto": "GIN ROCKS SUNSET 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 135.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "69965",
+          "cliente": "DISTRIBUIDORA DE DOCES E BEBIDAS BORBOREMA LTDA",
+          "produto": "GIN ROCKS GREEN APPLE 1000ML",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 135.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "69965",
+          "cliente": "DISTRIBUIDORA DE DOCES E BEBIDAS BORBOREMA LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 221.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "69965",
+          "cliente": "DISTRIBUIDORA DE DOCES E BEBIDAS BORBOREMA LTDA",
+          "produto": "RUM MONTILLA CRISTAL 1L",
+          "fantasia": "PERNOD",
+          "qt": 8,
+          "valor": 175.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "69965",
+          "cliente": "DISTRIBUIDORA DE DOCES E BEBIDAS BORBOREMA LTDA",
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 270.0,
+          "tipo": "Venda"
         },
         {
           "data": "08/07/2026",
@@ -253114,6 +253454,266 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "15/07/2026",
+          "codcli": "74979",
+          "cliente": "CLEVERSON CARLOS SANTOS LIMA 07449307740",
+          "produto": "CACHACA TATUZINHO PET 750 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 6,
+          "valor": 23.94,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "74979",
+          "cliente": "CLEVERSON CARLOS SANTOS LIMA 07449307740",
+          "produto": "COMARY MELFORT COQUETEL DE MEL 1L",
+          "fantasia": "COMARY",
+          "qt": 60,
+          "valor": 654.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "74979",
+          "cliente": "CLEVERSON CARLOS SANTOS LIMA 07449307740",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 346.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "76017",
+          "cliente": "DAVID WESLEY FERREIRA DOS SANTOS 16810532765",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 0.0,
+          "tipo": "Bonificado"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "76017",
+          "cliente": "DAVID WESLEY FERREIRA DOS SANTOS 16810532765",
+          "produto": "VINHO GRAVEDAD CARMENERE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 0.0,
+          "tipo": "Bonificado"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "76017",
+          "cliente": "DAVID WESLEY FERREIRA DOS SANTOS 16810532765",
+          "produto": "VILLA ROSA BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 59.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "76017",
+          "cliente": "DAVID WESLEY FERREIRA DOS SANTOS 16810532765",
+          "produto": "VINHO GRAVEDAD SAUV. BLANC 750ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 0.0,
+          "tipo": "Bonificado"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "76017",
+          "cliente": "DAVID WESLEY FERREIRA DOS SANTOS 16810532765",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 59.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "76017",
+          "cliente": "DAVID WESLEY FERREIRA DOS SANTOS 16810532765",
+          "produto": "VINHO GRAVEDAD CAB. SAUV.",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 59.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "76017",
+          "cliente": "DAVID WESLEY FERREIRA DOS SANTOS 16810532765",
+          "produto": "CACHACA TATUZINHO PET 750 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 12,
+          "valor": 47.88,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "76017",
+          "cliente": "DAVID WESLEY FERREIRA DOS SANTOS 16810532765",
+          "produto": "ST PIERRE LATA PINK LEMON LT 6X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 22.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "76017",
+          "cliente": "DAVID WESLEY FERREIRA DOS SANTOS 16810532765",
+          "produto": "ST PIERRE LATA RED MINT LT 6X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 29.68,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "76017",
+          "cliente": "DAVID WESLEY FERREIRA DOS SANTOS 16810532765",
+          "produto": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 105.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "76017",
+          "cliente": "DAVID WESLEY FERREIRA DOS SANTOS 16810532765",
+          "produto": "RC ATUM SOLIDO OLEO 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 208.56,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "76017",
+          "cliente": "DAVID WESLEY FERREIRA DOS SANTOS 16810532765",
+          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 208.56,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "76017",
+          "cliente": "DAVID WESLEY FERREIRA DOS SANTOS 16810532765",
+          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 191.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "74964",
+          "cliente": "FABIO HENRIQUE DA CONCEICAO MATTOS 12761196740",
+          "produto": "VILLA ROSA BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 59.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "74964",
+          "cliente": "FABIO HENRIQUE DA CONCEICAO MATTOS 12761196740",
+          "produto": "VINHO GRAVEDAD SAUV. BLANC 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 59.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "74964",
+          "cliente": "FABIO HENRIQUE DA CONCEICAO MATTOS 12761196740",
+          "produto": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 59.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "74964",
+          "cliente": "FABIO HENRIQUE DA CONCEICAO MATTOS 12761196740",
+          "produto": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 0.0,
+          "tipo": "Bonificado"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "74964",
+          "cliente": "FABIO HENRIQUE DA CONCEICAO MATTOS 12761196740",
+          "produto": "VILLA ROSA BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 0.0,
+          "tipo": "Bonificado"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "74964",
+          "cliente": "FABIO HENRIQUE DA CONCEICAO MATTOS 12761196740",
+          "produto": "VINHO GRAVEDAD SAUV. BLANC 750ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 0.0,
+          "tipo": "Bonificado"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "74964",
+          "cliente": "FABIO HENRIQUE DA CONCEICAO MATTOS 12761196740",
+          "produto": "COMARY MELFORT COQUETEL DE MEL 1L",
+          "fantasia": "COMARY",
+          "qt": 12,
+          "valor": 130.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "74964",
+          "cliente": "FABIO HENRIQUE DA CONCEICAO MATTOS 12761196740",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 12,
+          "valor": 162.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "75460",
+          "cliente": "52.637.598 JOELMA ABREU DOS SANTOS",
+          "produto": "ICE 51 LIMAO LONG NECK 24X275ML",
+          "fantasia": "51",
+          "qt": 1,
+          "valor": 120.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "75460",
+          "cliente": "52.637.598 JOELMA ABREU DOS SANTOS",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 5,
+          "valor": 143.8,
+          "tipo": "Venda"
+        },
+        {
           "data": "01/07/2026",
           "codcli": "74928",
           "cliente": "RESTAURANTE E LANCHONETE BIG RUSSO LTDA",
@@ -253127,6 +253727,26 @@ const VENDAS_DATA = {
           "data": "08/07/2026",
           "codcli": "74928",
           "cliente": "RESTAURANTE E LANCHONETE BIG RUSSO LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 10,
+          "valor": 298.26,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "74928",
+          "cliente": "RESTAURANTE E LANCHONETE BIG RUSSO LTDA",
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "fantasia": "VITON",
+          "qt": 10,
+          "valor": 298.26,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "75420",
+          "cliente": "LIGIA MERCADO OSB LTDA",
           "produto": "GUARAVITA NATURAL 24X290ML",
           "fantasia": "VITON",
           "qt": 10,
@@ -253241,6 +253861,46 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 6,
           "valor": 173.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "93110",
+          "cliente": "PORTO MIX DISTRIBUIDORA DE BEBIDAS E CONVENIÊNCIA LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 12,
+          "valor": 442.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "93110",
+          "cliente": "PORTO MIX DISTRIBUIDORA DE BEBIDAS E CONVENIÊNCIA LTDA",
+          "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 233.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "93110",
+          "cliente": "PORTO MIX DISTRIBUIDORA DE BEBIDAS E CONVENIÊNCIA LTDA",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 233.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "93110",
+          "cliente": "PORTO MIX DISTRIBUIDORA DE BEBIDAS E CONVENIÊNCIA LTDA",
+          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 10,
+          "valor": 959.0,
           "tipo": "Venda"
         },
         {
@@ -257104,6 +257764,86 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "15/07/2026",
+          "codcli": "21027",
+          "cliente": "SUPERMERCADOS NOROESTE LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 6,
+          "valor": 1317.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "21027",
+          "cliente": "SUPERMERCADOS NOROESTE LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 10,
+          "valor": 2195.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "21014",
+          "cliente": "ECOREAL SUPERMERCADOS LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 439.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "21014",
+          "cliente": "ECOREAL SUPERMERCADOS LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 439.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "21028",
+          "cliente": "SUPERMERCADOS CELEIRO LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 5,
+          "valor": 1097.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "21028",
+          "cliente": "SUPERMERCADOS CELEIRO LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 3,
+          "valor": 658.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "21162",
+          "cliente": "IPAMAR COMERCIAL LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 439.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "21162",
+          "cliente": "IPAMAR COMERCIAL LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 219.5,
+          "tipo": "Venda"
+        },
+        {
           "data": "02/07/2026",
           "codcli": "21217",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
@@ -257304,6 +258044,46 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "15/07/2026",
+          "codcli": "81760",
+          "cliente": "A L M SUPERMERCADOS LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 4,
+          "valor": 878.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "81760",
+          "cliente": "A L M SUPERMERCADOS LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 7,
+          "valor": 1536.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "80907",
+          "cliente": "AUTO SERVICOS IDEAL LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 439.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "80907",
+          "cliente": "AUTO SERVICOS IDEAL LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 219.5,
+          "tipo": "Venda"
+        },
+        {
           "data": "07/07/2026",
           "codcli": "79819",
           "cliente": "SUPERMERCADOS CASAGRANDE LTDA",
@@ -257311,6 +258091,56 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1440,
           "valor": 23025.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "79754",
+          "cliente": "SUPERMERCADO R.D.E. LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 5,
+          "valor": 1097.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "79754",
+          "cliente": "SUPERMERCADO R.D.E. LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 5,
+          "valor": 1097.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "81797",
+          "cliente": "SUPERMERCADO FALQUETO LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 3,
+          "valor": 658.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "81885",
+          "cliente": "SUPERMERCADOS CELEIRO LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 4,
+          "valor": 878.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "81885",
+          "cliente": "SUPERMERCADOS CELEIRO LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 5,
+          "valor": 1097.5,
           "tipo": "Venda"
         },
         {
@@ -257641,6 +258471,76 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 12,
           "valor": 832.44,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "91826",
+          "cliente": "COMERCIAL DEVENS LTDA",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 271.92,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "91826",
+          "cliente": "COMERCIAL DEVENS LTDA",
+          "produto": "RC ATUM RALADO OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 271.92,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "91826",
+          "cliente": "COMERCIAL DEVENS LTDA",
+          "produto": "RC ATUM SOLIDO OLEO 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 4,
+          "valor": 746.56,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "95661",
+          "cliente": "ALIANCA MERCANTIL LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 219.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "95661",
+          "cliente": "ALIANCA MERCANTIL LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 219.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "95662",
+          "cliente": "ALIANCA MERCANTIL LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 219.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "95662",
+          "cliente": "ALIANCA MERCANTIL LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 219.5,
           "tipo": "Venda"
         }
       ],
@@ -290816,6 +291716,26 @@ const VENDAS_DATA = {
       ],
       "Jul/26": [
         {
+          "data": "15/07/2026",
+          "codcli": "71966",
+          "cliente": "TERRAZZO DEI NONNI LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "83930",
+          "cliente": "CHURRASCARIA E RESTAURANTE NOVA GAUCHAO LTDA",
+          "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16,
+          "tipo": "Venda"
+        },
+        {
           "data": "13/07/2026",
           "codcli": "92928",
           "cliente": "MODOLETTO BOTECO E LOUNGE LTDA",
@@ -295940,6 +296860,56 @@ const VENDAS_DATA = {
       ],
       "Jul/26": [
         {
+          "data": "15/07/2026",
+          "codcli": "60846",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "VILLA ROSA  ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 36,
+          "valor": 1040.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "60846",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 60,
+          "valor": 1734.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "60846",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 12,
+          "valor": 1015.92,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "60846",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 12,
+          "valor": 1015.92,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "60846",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 335.4,
+          "tipo": "Venda"
+        },
+        {
           "data": "01/07/2026",
           "codcli": "60708",
           "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
@@ -296072,6 +297042,76 @@ const VENDAS_DATA = {
         {
           "data": "11/07/2026",
           "codcli": "74406",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 30,
+          "valor": 867.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "74407",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "VILLA ROSA  ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 60,
+          "valor": 1734.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "74407",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 60,
+          "valor": 1734.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "79591",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "VILLA ROSA  ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 24,
+          "valor": 693.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "79591",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 30,
+          "valor": 867.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "79595",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "GIN LARIOS ORIGINAL 700ML",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 12,
+          "valor": 515.88,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "79595",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "VILLA ROSA  ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 24,
+          "valor": 693.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "79595",
           "cliente": "DOM ATACAREJO S.A.",
           "produto": "VILLA ROSA TINTO 750ML",
           "fantasia": "CASTAS",
@@ -296750,6 +297790,66 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "15/07/2026",
+          "codcli": "84033",
+          "cliente": "EMISE SUPERMERCADO LTDA",
+          "produto": "AGUA NA CAIXA 12X500ML",
+          "fantasia": "AGUA NA CAIXA",
+          "qt": 3,
+          "valor": 107.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "84033",
+          "cliente": "EMISE SUPERMERCADO LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 164.06,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "84033",
+          "cliente": "EMISE SUPERMERCADO LTDA",
+          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 164.06,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "84033",
+          "cliente": "EMISE SUPERMERCADO LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 164.06,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "84033",
+          "cliente": "EMISE SUPERMERCADO LTDA",
+          "produto": "WHISKY JIM BEAM APPLE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 12,
+          "valor": 1138.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "84033",
+          "cliente": "EMISE SUPERMERCADO LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 24,
+          "valor": 2277.6,
+          "tipo": "Venda"
+        },
+        {
           "data": "11/07/2026",
           "codcli": "79683",
           "cliente": "DOM ATACAREJO S.A.",
@@ -296827,6 +297927,36 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 6,
           "valor": 335.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "74402",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 196.2,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "74402",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "VILLA ROSA  ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 24,
+          "valor": 693.6,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "74402",
+          "cliente": "DOM ATACAREJO S.A.",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 30,
+          "valor": 867.0,
           "tipo": "Venda"
         },
         {
@@ -351288,16 +352418,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "10/03/2026",
-          "codcli": "50465",
-          "cliente": "FPS - COMERCIO E IMPORTACAO DE ALIMENTOS E BEBIDAS EIRELI",
-          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
-          "fantasia": "",
-          "qt": 48,
-          "valor": 614.4,
-          "tipo": "Venda"
-        },
-        {
           "data": "12/03/2026",
           "codcli": "90710",
           "cliente": "ALPHA GASTRONOMIA LTDA",
@@ -351305,6 +352425,16 @@ const VENDAS_DATA = {
           "fantasia": "",
           "qt": 24,
           "valor": 456.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "10/03/2026",
+          "codcli": "50465",
+          "cliente": "FPS - COMERCIO E IMPORTACAO DE ALIMENTOS E BEBIDAS EIRELI",
+          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+          "fantasia": "",
+          "qt": 48,
+          "valor": 614.4,
           "tipo": "Venda"
         },
         {
@@ -355811,6 +356941,56 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 60,
           "valor": 1734.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "85484",
+          "cliente": "FAVORITTO DEPOSITO & MERCEARIA LTDA",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 12,
+          "valor": 151.92,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "85484",
+          "cliente": "FAVORITTO DEPOSITO & MERCEARIA LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 358.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "85484",
+          "cliente": "FAVORITTO DEPOSITO & MERCEARIA LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 6,
+          "valor": 221.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "85484",
+          "cliente": "FAVORITTO DEPOSITO & MERCEARIA LTDA",
+          "produto": "WHISKY BALLANTINE S SUNSHINE 700ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 359.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "85484",
+          "cliente": "FAVORITTO DEPOSITO & MERCEARIA LTDA",
+          "produto": "JACK DANIELS HONEY 1 L",
+          "fantasia": "BROWN",
+          "qt": 12,
+          "valor": 1438.8,
           "tipo": "Venda"
         },
         {
@@ -446066,6 +447246,16 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "15/07/2026",
+          "codcli": "51782",
+          "cliente": "SUPERMERCADO OLGUIM LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "MOET HENNESY",
+          "qt": 6,
+          "valor": 419.4,
+          "tipo": "Venda"
+        },
+        {
           "data": "07/07/2026",
           "codcli": "51537",
           "cliente": "EDSON BARROS DA SILVA",
@@ -446253,6 +447443,36 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 6,
           "valor": 123.24,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "51815",
+          "cliente": "SUP BRASIL",
+          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 275.76,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "51815",
+          "cliente": "SUP BRASIL",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 120,
+          "valor": 1078.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "51815",
+          "cliente": "SUP BRASIL",
+          "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 12,
+          "valor": 107.88,
           "tipo": "Venda"
         }
       ],
@@ -449122,6 +450342,16 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "15/07/2026",
+          "codcli": "51069",
+          "cliente": "SBO VISTA ALEGRE SUPERMERCADO LTDA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 394.8,
+          "tipo": "Venda"
+        },
+        {
           "data": "02/07/2026",
           "codcli": "51229",
           "cliente": "56.909.359 OTAVIO AUGUSTO DIAS DE FREITAS",
@@ -449169,6 +450399,36 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 6,
           "valor": 266.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "50707",
+          "cliente": "JOANA FRANCISCO DE OLIVEIRA TOMAZ 19043092835",
+          "produto": "WHISKY JACK DANIELS 1L",
+          "fantasia": "BROWN",
+          "qt": 1,
+          "valor": 99.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "50707",
+          "cliente": "JOANA FRANCISCO DE OLIVEIRA TOMAZ 19043092835",
+          "produto": "APERITIVO CAMPARI 998ML",
+          "fantasia": "CAMPARI",
+          "qt": 1,
+          "valor": 49.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "50707",
+          "cliente": "JOANA FRANCISCO DE OLIVEIRA TOMAZ 19043092835",
+          "produto": "CACHAÇA SAO FRANCISCO 970ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 21.9,
           "tipo": "Venda"
         },
         {
@@ -453698,6 +454958,46 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "15/07/2026",
+          "codcli": "51168",
+          "cliente": "COMERCIAL ANDREOZI LTDA",
+          "produto": "WHISKY JACK DANIELS 1L",
+          "fantasia": "BROWN",
+          "qt": 3,
+          "valor": 299.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "51168",
+          "cliente": "COMERCIAL ANDREOZI LTDA",
+          "produto": "WHISKY BALLANTINE S FINEST 1L",
+          "fantasia": "PERNOD",
+          "qt": 3,
+          "valor": 158.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "51168",
+          "cliente": "COMERCIAL ANDREOZI LTDA",
+          "produto": "TEQUILA J CUERVO GOLD 750ML",
+          "fantasia": "AURORA",
+          "qt": 3,
+          "valor": 251.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "51168",
+          "cliente": "COMERCIAL ANDREOZI LTDA",
+          "produto": "WHISKY JAMESON 750ML",
+          "fantasia": "PERNOD",
+          "qt": 3,
+          "valor": 173.7,
+          "tipo": "Venda"
+        },
+        {
           "data": "06/07/2026",
           "codcli": "51169",
           "cliente": "ROGERIO DAS NEVES BOITUVA",
@@ -454005,6 +455305,46 @@ const VENDAS_DATA = {
           "fantasia": "MOET HENNESY",
           "qt": 3,
           "valor": 1069.5,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "51110",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS CIDADE JARDIM LTDA",
+          "produto": "WHISKY CHIVAS REGAL 18 ANOS 750ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 1739.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "51110",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS CIDADE JARDIM LTDA",
+          "produto": "WHISKY SINGLE MALT ARDBEG 10YO 750ML",
+          "fantasia": "MOET HENNESY",
+          "qt": 6,
+          "valor": 2327.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "51110",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS CIDADE JARDIM LTDA",
+          "produto": "WHISKY ABERLOUR 12 ANOS 700ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 1355.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "51110",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS CIDADE JARDIM LTDA",
+          "produto": "VODKA ABSOLUT TABASCO 750ML",
+          "fantasia": "PERNOD",
+          "qt": 4,
+          "valor": 219.6,
           "tipo": "Venda"
         }
       ]
@@ -464726,6 +466066,16 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "15/07/2026",
+          "codcli": "51565",
+          "cliente": "STEFANI COMERCIO ATACADISTA DE BEBIDAS LTDA",
+          "produto": "RUM MONTILLA OURO 1L",
+          "fantasia": "PERNOD",
+          "qt": 26,
+          "valor": 505.7,
+          "tipo": "Venda"
+        },
+        {
           "data": "08/07/2026",
           "codcli": "50773",
           "cliente": "40.420.535 DANILO APARECIDO DE OLIVEIRA",
@@ -465483,6 +466833,16 @@ const VENDAS_DATA = {
           "fantasia": "AURORA",
           "qt": 6,
           "valor": 701.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "50422",
+          "cliente": "ADEGA E MERCEARIA CAPITAO LTDA",
+          "produto": "VODKA GREY GOOSE LE CITRON 750ML",
+          "fantasia": "BACARDI",
+          "qt": 2,
+          "valor": 199.8,
           "tipo": "Venda"
         }
       ],
@@ -468356,6 +469716,26 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "15/07/2026",
+          "codcli": "49922",
+          "cliente": "GIULIANO APARECIDO VITORINO TEIXEIRA",
+          "produto": "APERITIVO CAMPARI 998ML",
+          "fantasia": "CAMPARI",
+          "qt": 1,
+          "valor": 49.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "49922",
+          "cliente": "GIULIANO APARECIDO VITORINO TEIXEIRA",
+          "produto": "WHISKY PASSPORT APPLE 670ML",
+          "fantasia": "PERNOD",
+          "qt": 15,
+          "valor": 493.5,
+          "tipo": "Venda"
+        },
+        {
           "data": "03/07/2026",
           "codcli": "50047",
           "cliente": "COMERCIAL DE PRODUTOS ALIMENTICIOS MINARDI LTDA",
@@ -468546,6 +469926,36 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
+          "data": "15/07/2026",
+          "codcli": "50476",
+          "cliente": "ELIAS DIAS RAMOS & CIA LTDA",
+          "produto": "WHISKY JACK DANIELS 1L",
+          "fantasia": "BROWN",
+          "qt": 3,
+          "valor": 299.7,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "50476",
+          "cliente": "ELIAS DIAS RAMOS & CIA LTDA",
+          "produto": "CONHAQUE DREHER 900ML",
+          "fantasia": "CAMPARI",
+          "qt": 12,
+          "valor": 202.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "50476",
+          "cliente": "ELIAS DIAS RAMOS & CIA LTDA",
+          "produto": "WHISKY BALLANTINE S FINEST 750ML",
+          "fantasia": "PERNOD",
+          "qt": 3,
+          "valor": 140.7,
+          "tipo": "Venda"
+        },
+        {
           "data": "06/07/2026",
           "codcli": "50761",
           "cliente": "WALLACE MORAES ANTUNES 44143439840",
@@ -468563,6 +469973,36 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 12,
           "valor": 382.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "51105",
+          "cliente": "JAIME LARA CAMARGO FILHO MERCADO",
+          "produto": "RUM BACARDI GOLD 980ML",
+          "fantasia": "BACARDI",
+          "qt": 6,
+          "valor": 224.1,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "51105",
+          "cliente": "JAIME LARA CAMARGO FILHO MERCADO",
+          "produto": "WHISKY PASSPORT HONEY 670ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 197.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "51105",
+          "cliente": "JAIME LARA CAMARGO FILHO MERCADO",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 24,
+          "valor": 215.76,
           "tipo": "Venda"
         }
       ]
@@ -472243,6 +473683,36 @@ const VENDAS_DATA = {
           "fantasia": "AURORA",
           "qt": 6,
           "valor": 701.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "51172",
+          "cliente": "SUPERMERCADO PEGORIN LTDA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 394.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "51172",
+          "cliente": "SUPERMERCADO PEGORIN LTDA",
+          "produto": "TEQUILA J CUERVO GOLD 750ML",
+          "fantasia": "AURORA",
+          "qt": 6,
+          "valor": 503.4,
+          "tipo": "Venda"
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "51172",
+          "cliente": "SUPERMERCADO PEGORIN LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 48,
+          "valor": 431.52,
           "tipo": "Venda"
         },
         {
@@ -535192,36 +536662,6 @@ const VENDAS_DATA = {
           "qt": 10,
           "valor": 0.0,
           "tipo": "Bonificado"
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "30374",
-          "cliente": "EL MAI LTDA",
-          "produto": "VINHO ARESTI EST SEL CHARDONNAY 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 550.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "30374",
-          "cliente": "EL MAI LTDA",
-          "produto": "VINHO MARQUÉS DE TEJARES 750ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 347.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "30374",
-          "cliente": "EL MAI LTDA",
-          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 922.8,
-          "tipo": "Venda"
         },
         {
           "data": "03/07/2026",
