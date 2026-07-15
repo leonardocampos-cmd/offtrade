@@ -158,6 +158,13 @@ def main():
             print("[AVISO] entregas falhou — entregas_data.js não será atualizado, pipeline continua.")
             traceback.print_exc()
 
+        step("5b - Gerando página de pedidos (pedidos_data.js)")
+        try:
+            import pedidos
+        except Exception:
+            print("[AVISO] pedidos falhou — pedidos_data.js não será atualizado, pipeline continua.")
+            traceback.print_exc()
+
         step("6/8 - Exportando dashboard SP (vendas_sp_data.js)")
         try:
             import subprocess, sys as _sys

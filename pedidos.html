@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <script src="auth.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedidos OFF TRADE</title>
+  <script src="pedidos_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --card2: #22263a;
+      --accent: #f5c518; --blue: #3b82f6; --text: #e2e8f0;
+      --muted: #94a3b8; --border: #2d3144; --green: #22c55e;
+      --red: #ef4444; --orange: #f97316;
+    }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh; padding: 16px;
+    }
+    header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 20px; padding-bottom: 16px;
+      border-bottom: 1px solid var(--border); gap: 12px; flex-wrap: wrap;
+    }
+    header h1 { font-size: 1.1rem; font-weight: 700; color: var(--accent); }
+    header p  { font-size: .8rem; color: var(--muted); margin-top: 3px; }
+    .kpis { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 16px; }
+    .kpi {
+      background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+      padding: 14px 18px; flex: 1; min-width: 160px;
+    }
+    .kpi .label {
+      font-size: .65rem; text-transform: uppercase; letter-spacing: .08em;
+      color: var(--muted); margin-bottom: 6px;
+    }
+    .kpi .val { font-size: 1.25rem; font-weight: 800; }
+    .tabs { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+    .tab-btn {
+      background: var(--card); border: 1px solid var(--border); color: var(--muted);
+      border-radius: 8px; padding: 9px 16px; font-size: .85rem; font-weight: 700;
+      cursor: pointer; font-family: inherit;
+    }
+    .tab-btn.active { background: var(--accent); color: #0f1117; border-color: var(--accent); }
+    .controls {
+      display: flex; gap: 10px; flex-wrap: wrap;
+      margin-bottom: 16px; align-items: center;
+    }
+    select, input[type=text] {
+      background: var(--card); border: 1px solid var(--border);
+      color: var(--text); border-radius: 8px; padding: 8px 12px;
+      font-size: .88rem; outline: none; font-family: inherit;
+    }
+    select:focus, input[type=text]:focus { border-color: var(--blue); }
+    select { min-width: 240px; }
+    input[type=text] { min-width: 220px; }
+    .btn-csv {
+      background: var(--green); color: #0f1117; border: none;
+      border-radius: 8px; padding: 8px 16px; font-size: .88rem;
+      font-weight: 700; cursor: pointer; font-family: inherit;
+    }
+    .btn-csv:hover { opacity: .88; }
+    .info { font-size: .8rem; color: var(--muted); margin-left: auto; }
+    .table-wrap { overflow-x: auto; border-radius: 10px; border: 1px solid var(--border); }
+    table { width: 100%; border-collapse: collapse; font-size: .82rem; }
+    thead th {
+      background: var(--card2); padding: 10px 12px; text-align: left;
+      font-size: .72rem; text-transform: uppercase; letter-spacing: .05em;
+      color: var(--muted); border-bottom: 1px solid var(--border);
+      white-space: nowrap; cursor: pointer;
+    }
+    thead th:hover { color: var(--text); }
+    tbody tr.linha-pedido { border-bottom: 1px solid var(--border); cursor: pointer; }
+    tbody tr.linha-pedido:hover { background: var(--card2); }
+    tbody tr.linha-itens td { background: #14161f; padding: 0 12px 12px 34px; }
+    tbody tr.linha-itens.oculta { display: none; }
+    tbody td { padding: 9px 12px; vertical-align: middle; white-space: nowrap; }
+    .cod  { color: var(--muted); font-size: .78rem; font-family: monospace; }
+    .rca-badge {
+      display: inline-block; background: var(--card2); border: 1px solid var(--border);
+      border-radius: 5px; padding: 2px 7px; font-size: .72rem; color: var(--accent);
+    }
+    .status-badge { display:inline-block; border-radius:20px; padding:2px 8px; font-size:.72rem; font-weight:700; white-space:normal; }
+    .status-feito     { background: rgba(59,130,246,.15);  color: var(--blue); }
+    .status-faturado  { background: rgba(34,197,94,.15);   color: var(--green); }
+    .status-cancelado { background: rgba(239,68,68,.15);   color: var(--red); }
+    .status-none { color: var(--muted); font-size:.78rem; }
+    .expand-icon { display:inline-block; width: 14px; color: var(--muted); }
+    .itens-table { width: 100%; border-collapse: collapse; font-size: .78rem; margin-top: 6px; }
+    .itens-table th { text-align:left; color: var(--muted); font-weight: 600; padding: 4px 8px; white-space: normal; }
+    .itens-table td { padding: 4px 8px; color: var(--text); white-space: normal; }
+    .empty { text-align: center; padding: 48px; color: var(--muted); font-size: .9rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>📦 PEDIDOS — OFF TRADE</h1>
+    <p id="header-sub">—</p>
+  </div>
+  <a href="index.html" style="color:var(--muted);font-size:.8rem;text-decoration:none">← Painel</a>
+</header>
+
+<div class="kpis" id="kpis"></div>
+
+<div class="tabs" id="tabs"></div>
+
+<div class="controls">
+  <select id="sel-vendedor" onchange="aplicarFiltro()">
+    <option value="">Todos os Vendedores</option>
+  </select>
+  <input type="text" id="busca" placeholder="Buscar por cliente, pedido, NF..." oninput="aplicarFiltro()">
+  <button class="btn-csv" onclick="exportarCSV()">⬇ Exportar CSV</button>
+  <span class="info" id="info-count"></span>
+</div>
+
+<div class="table-wrap">
+  <table id="tabela">
+    <thead>
+      <tr>
+        <th></th>
+        <th onclick="ordenarPor('numped')">Pedido</th>
+        <th onclick="ordenarPor('numnota')">NF</th>
+        <th onclick="ordenarPor('data')">Data</th>
+        <th onclick="ordenarPor('nome')">Vendedor</th>
+        <th onclick="ordenarPor('cliente')">Cliente</th>
+        <th onclick="ordenarPor('status_ped')">Status Winthor</th>
+        <th onclick="ordenarPor('total')">Total</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+</div>
+
+<script>
+const DATA = typeof PEDIDOS_DATA !== 'undefined' ? PEDIDOS_DATA : null;
+
+const ABAS = [
+  { chave: 'pedidos_feitos', label: 'Pedidos Feitos',  cor: 'status-feito' },
+  { chave: 'faturados',      label: 'Faturados',       cor: 'status-faturado' },
+  { chave: 'cancelados',     label: 'Cancelados',      cor: 'status-cancelado' },
+];
+
+let _abaAtual = 'pedidos_feitos';
+let _ordem = { campo: 'data', asc: false };
+let _expandidos = new Set();
+
+if (!DATA) {
+  document.getElementById('tbody').innerHTML = '<tr><td colspan="8" class="empty">Dados não encontrados. Execute pedidos.py para gerar pedidos_data.js.</td></tr>';
+} else {
+  document.getElementById('header-sub').textContent =
+    'Atualizado ' + DATA.atualizado_em + ' · últimos ' + DATA.periodo_dias + ' dias';
+  montarTabs();
+  montarVendedores();
+  aplicarFiltro();
+}
+
+function montarTabs() {
+  const el = document.getElementById('tabs');
+  el.innerHTML = ABAS.map(a => {
+    const qtd = (DATA[a.chave] || []).length;
+    const ativo = a.chave === _abaAtual ? 'active' : '';
+    return `<button class="tab-btn ${ativo}" onclick="trocarAba('${a.chave}')">${a.label} (${qtd})</button>`;
+  }).join('');
+}
+
+function trocarAba(chave) {
+  _abaAtual = chave;
+  _expandidos.clear();
+  montarTabs();
+  montarVendedores();
+  aplicarFiltro();
+}
+
+function _listaAtual() {
+  return DATA ? (DATA[_abaAtual] || []) : [];
+}
+
+function montarVendedores() {
+  const atual = document.getElementById('sel-vendedor').value;
+  const sel = document.getElementById('sel-vendedor');
+  sel.innerHTML = '<option value="">Todos os Vendedores</option>';
+  [...new Set(_listaAtual().map(p => p.nome))].sort().forEach(nome => {
+    const o = document.createElement('option');
+    o.value = nome;
+    o.textContent = nome.replace(/ - OFF TRADE.*/i, '');
+    if (nome === atual) o.selected = true;
+    sel.appendChild(o);
+  });
+  if (atual && !_listaAtual().some(p => p.nome === atual)) sel.value = '';
+}
+
+function ordenarPor(campo) {
+  if (_ordem.campo === campo) {
+    _ordem.asc = !_ordem.asc;
+  } else {
+    _ordem = { campo, asc: true };
+  }
+  aplicarFiltro();
+}
+
+function _filtrados() {
+  const vendedor = document.getElementById('sel-vendedor').value;
+  const busca = document.getElementById('busca').value.trim().toLowerCase();
+  let lista = _listaAtual().filter(p => {
+    const matchVendedor = !vendedor || p.nome === vendedor;
+    const matchBusca = !busca || [p.cliente, p.numped, p.numnota]
+      .some(v => v && String(v).toLowerCase().includes(busca));
+    return matchVendedor && matchBusca;
+  });
+  const { campo, asc } = _ordem;
+  lista = [...lista].sort((a, b) => {
+    let va = a[campo], vb = b[campo];
+    if (typeof va === 'string') { va = va.toLowerCase(); vb = (vb || '').toLowerCase(); }
+    if (va < vb) return asc ? -1 : 1;
+    if (va > vb) return asc ? 1 : -1;
+    return 0;
+  });
+  return lista;
+}
+
+function montarKpis(lista) {
+  const total = lista.reduce((s, p) => s + (Number(p.total) || 0), 0);
+  const qtdClientes = new Set(lista.map(p => p.cliente)).size;
+  document.getElementById('kpis').innerHTML = `
+    <div class="kpi">
+      <div class="label">Valor Total</div>
+      <div class="val">${brl(total)}</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Pedidos</div>
+      <div class="val">${lista.length}</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Clientes</div>
+      <div class="val">${qtdClientes}</div>
+    </div>`;
+}
+
+function aplicarFiltro() {
+  const lista = _filtrados();
+  montarKpis(lista);
+  document.getElementById('info-count').textContent = lista.length + ' pedido(s)';
+
+  const tbody = document.getElementById('tbody');
+  if (!lista.length) {
+    tbody.innerHTML = '<tr><td colspan="8" class="empty">Nenhum pedido encontrado.</td></tr>';
+    return;
+  }
+
+  const abaInfo = ABAS.find(a => a.chave === _abaAtual);
+  tbody.innerHTML = lista.map(p => {
+    const chave = p.numped + '_' + p.numnota;
+    const expandido = _expandidos.has(chave);
+    return `
+    <tr class="linha-pedido" onclick="toggleItens('${_esc(chave)}')">
+      <td class="expand-icon">${expandido ? '▾' : '▸'}</td>
+      <td class="cod">${_esc(p.numped)}</td>
+      <td class="cod">${_esc(p.numnota) || '—'}</td>
+      <td>${_esc(p.data)}</td>
+      <td><span class="rca-badge">${_esc((p.nome || '').replace(' - OFF TRADE',''))}</span></td>
+      <td>${_esc(p.cliente)}</td>
+      <td>${_statusBadge(p.status_ped, abaInfo.cor)}</td>
+      <td>${brl(p.total)}</td>
+    </tr>
+    <tr class="linha-itens ${expandido ? '' : 'oculta'}" id="itens-${_esc(chave)}">
+      <td colspan="8">${_montarItens(p)}</td>
+    </tr>`;
+  }).join('');
+}
+
+function _montarItens(p) {
+  if (!p.itens || !p.itens.length) return '<span class="status-none">Sem itens.</span>';
+  const linhas = p.itens.map(it => `
+    <tr><td>${_esc(it.desc)}</td><td>${it.qt}</td><td>${brl(it.val)}</td></tr>
+  `).join('');
+  const obs = p.obs ? `<div style="margin-top:6px;color:var(--muted);font-size:.78rem">Obs.: ${_esc(p.obs)}</div>` : '';
+  return `<table class="itens-table">
+    <thead><tr><th>Produto</th><th>Qtd</th><th>Valor</th></tr></thead>
+    <tbody>${linhas}</tbody>
+  </table>${obs}`;
+}
+
+function toggleItens(chave) {
+  if (_expandidos.has(chave)) {
+    _expandidos.delete(chave);
+  } else {
+    _expandidos.add(chave);
+  }
+  aplicarFiltro();
+}
+
+function _statusBadge(status, cls) {
+  if (!status) return '<span class="status-none">—</span>';
+  return `<span class="status-badge ${cls}">${_esc(status)}</span>`;
+}
+
+function brl(v) {
+  return 'R$ ' + Number(v || 0).toLocaleString('pt-BR', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+}
+
+function _esc(s) {
+  return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function exportarCSV() {
+  const lista = _filtrados();
+  const header = ['Pedido','NF','Data','Vendedor','Cliente','Status Winthor','Total'];
+  const linhas = lista.map(p => [
+    p.numped,
+    p.numnota,
+    p.data,
+    (p.nome || '').replace(' - OFF TRADE',''),
+    p.cliente,
+    p.status_ped,
+    p.total,
+  ].map(v => `"${String(v??'').replace(/"/g,'""')}"`).join(';'));
+
+  const csv = '﻿' + [header.join(';'), ...linhas].join('\r\n');
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `pedidos_${_abaAtual}_${new Date().toISOString().slice(0,10)}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+</script>
+</body>
+</html>
