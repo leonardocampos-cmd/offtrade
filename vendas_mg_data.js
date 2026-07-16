@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "16/07/2026 09:07",
+  "atualizado_em": "16/07/2026 13:18",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,7 +50,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 103499.0,
+        "fat": 104457.8,
         "pos": 68,
         "fat_ant": 341993.95
       }
@@ -209,7 +209,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 896376.5
       },
       "Jul/26": {
-        "fat": 316111.14,
+        "fat": 317546.34,
         "pos": 8,
         "fat_ant": 1039602.9
       }
@@ -236,8 +236,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 60735.44,
-        "pos": 42,
+        "fat": 62797.34,
+        "pos": 43,
         "fat_ant": 85308.22
       }
     },
@@ -46352,6 +46352,15 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 4,
           "valor": 107.6
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "31838",
+          "cliente": "SCP ADMINISTRADORA HOTEL PAMPULHA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 958.8
         }
       ]
     },
@@ -75287,6 +75296,15 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 216,
           "valor": 15016.32
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "30232",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "CHANDON BABY BRUT ROSE 187 ML",
+          "fantasia": "",
+          "qt": 48,
+          "valor": 1435.2
         }
       ]
     },
@@ -85877,42 +85895,6 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "14/07/2026",
-          "codcli": "33637",
-          "cliente": "DIAMOND FOODS LTDA",
-          "produto": "APERITIVO APEROL 750 ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 89.0
-        },
-        {
-          "data": "14/07/2026",
-          "codcli": "33637",
-          "cliente": "DIAMOND FOODS LTDA",
-          "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 149.8
-        },
-        {
-          "data": "14/07/2026",
-          "codcli": "33637",
-          "cliente": "DIAMOND FOODS LTDA",
-          "produto": "WHISKY JACK DANIELS 1L",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 129.9
-        },
-        {
-          "data": "14/07/2026",
-          "codcli": "33637",
-          "cliente": "DIAMOND FOODS LTDA",
-          "produto": "VINHO CAVAS DE ORO CABERNET SAUV 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 109.8
-        },
-        {
-          "data": "14/07/2026",
           "codcli": "34357",
           "cliente": "VILLAGE FOODS LTDA",
           "produto": "VINHO ADELE ROSE 750ML",
@@ -86243,6 +86225,24 @@ const VENDAS_MG_DATA = {
           "fantasia": "NSG",
           "qt": 1,
           "valor": 267.9
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "34916",
+          "cliente": "SODEXO DO BRASIL COMERCIAL S A",
+          "produto": "RED BULL ZERO 24X250ML",
+          "fantasia": "",
+          "qt": 15,
+          "valor": 2221.2
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "29613",
+          "cliente": "CADAR ALIMENTACAO LTDA",
+          "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+          "fantasia": "",
+          "qt": 8,
+          "valor": 319.2
         }
       ]
     },
