@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "16/07/2026 10:03",
+  "atualizado_em": "16/07/2026 12:02",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -254835,26 +254835,6 @@ const VENDAS_DATA = {
         },
         {
           "data": "15/07/2026",
-          "codcli": "6003",
-          "cliente": "FRADE SPOT PARTICIPACOES S/A",
-          "produto": "CONHAQUE DREHER 900ML",
-          "fantasia": "CAMPARI",
-          "qt": 6,
-          "valor": 125.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "6003",
-          "cliente": "FRADE SPOT PARTICIPACOES S/A",
-          "produto": "TEQUILA ALTOS PLATA 750ML",
-          "fantasia": "PERNOD",
-          "qt": 3,
-          "valor": 423.3,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/07/2026",
           "codcli": "13729",
           "cliente": "SUPERMERCADO PRECOTIMO LTDA",
           "produto": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
@@ -255214,7 +255194,7 @@ const VENDAS_DATA = {
           "tipo": "Bonificado"
         },
         {
-          "data": "15/07/2026",
+          "data": "16/07/2026",
           "codcli": "75476",
           "cliente": "MERCADO PRAIA BRAVA DE ANGRA DOS REIS LTDA",
           "produto": "VILLA ROSA TINTO 750ML",
@@ -255224,17 +255204,7 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "15/07/2026",
-          "codcli": "75476",
-          "cliente": "MERCADO PRAIA BRAVA DE ANGRA DOS REIS LTDA",
-          "produto": "COMARY MELFORT COQUETEL DE MEL 1L",
-          "fantasia": "COMARY",
-          "qt": 12,
-          "valor": 130.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/07/2026",
+          "data": "16/07/2026",
           "codcli": "75476",
           "cliente": "MERCADO PRAIA BRAVA DE ANGRA DOS REIS LTDA",
           "produto": "RC ATUM SOLIDO NATURAL 24X170G",
@@ -255527,36 +255497,6 @@ const VENDAS_DATA = {
           "data": "15/07/2026",
           "codcli": "74964",
           "cliente": "FABIO HENRIQUE DA CONCEICAO MATTOS 12761196740",
-          "produto": "VILLA ROSA BRANCO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 2,
-          "valor": 59.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "74964",
-          "cliente": "FABIO HENRIQUE DA CONCEICAO MATTOS 12761196740",
-          "produto": "VINHO GRAVEDAD SAUV. BLANC 750ML",
-          "fantasia": "CASTAS",
-          "qt": 2,
-          "valor": 59.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "74964",
-          "cliente": "FABIO HENRIQUE DA CONCEICAO MATTOS 12761196740",
-          "produto": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
-          "fantasia": "CASTAS",
-          "qt": 2,
-          "valor": 59.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "74964",
-          "cliente": "FABIO HENRIQUE DA CONCEICAO MATTOS 12761196740",
           "produto": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
           "fantasia": "CASTAS",
           "qt": 1,
@@ -255584,23 +255524,43 @@ const VENDAS_DATA = {
           "tipo": "Bonificado"
         },
         {
-          "data": "15/07/2026",
-          "codcli": "74964",
-          "cliente": "FABIO HENRIQUE DA CONCEICAO MATTOS 12761196740",
-          "produto": "COMARY MELFORT COQUETEL DE MEL 1L",
-          "fantasia": "COMARY",
-          "qt": 12,
-          "valor": 130.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/07/2026",
+          "data": "16/07/2026",
           "codcli": "74964",
           "cliente": "FABIO HENRIQUE DA CONCEICAO MATTOS 12761196740",
           "produto": "CACHACA VELHO BARREIRO 910 ML",
           "fantasia": "TATUZINHO",
           "qt": 12,
           "valor": 162.0,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "74964",
+          "cliente": "FABIO HENRIQUE DA CONCEICAO MATTOS 12761196740",
+          "produto": "VILLA ROSA BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 59.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "74964",
+          "cliente": "FABIO HENRIQUE DA CONCEICAO MATTOS 12761196740",
+          "produto": "VINHO GRAVEDAD SAUV. BLANC 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 59.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "74964",
+          "cliente": "FABIO HENRIQUE DA CONCEICAO MATTOS 12761196740",
+          "produto": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 59.8,
           "tipo": "Venda"
         },
         {
@@ -367054,6 +367014,16 @@ const VENDAS_DATA = {
       ],
       "Jul/26": [
         {
+          "data": "16/07/2026",
+          "codcli": "81067",
+          "cliente": "LANCHONETE GILBERTO ROSALEM LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16,
+          "tipo": "Venda"
+        },
+        {
           "data": "07/07/2026",
           "codcli": "94250",
           "cliente": "PATRICIA REGINA DE ARAÚJO",
@@ -428050,16 +428020,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "13/07/2026",
-          "codcli": "30685",
-          "cliente": "CIE - BEBIDAS IMPORTADAS LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 120,
-          "valor": 3228.0,
-          "tipo": "Venda"
-        },
-        {
           "data": "15/07/2026",
           "codcli": "36582",
           "cliente": "CDB DISTRIBUIDORA DE BEBIDAS E ALIMENTOS LTDA",
@@ -430681,16 +430641,6 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 108,
           "valor": 7009.2,
-          "tipo": "Venda"
-        },
-        {
-          "data": "09/06/2026",
-          "codcli": "48007",
-          "cliente": "ANDORINHA SUPERMERCADO LTDA",
-          "produto": "WHISKY BALLANTINE S FINEST 1L",
-          "fantasia": "PERNOD",
-          "qt": 36,
-          "valor": 2012.4,
           "tipo": "Venda"
         },
         {
@@ -460175,26 +460125,6 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 2016,
           "valor": 38102.4,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "40664",
-          "cliente": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO LIMITADA",
-          "produto": "WHISKY BALLANTINE S FINEST 1L",
-          "fantasia": "PERNOD",
-          "qt": 2880,
-          "valor": 143712.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "40664",
-          "cliente": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO LIMITADA",
-          "produto": "TEQUILA J CUERVO GOLD 750ML",
-          "fantasia": "AURORA",
-          "qt": 240,
-          "valor": 20400.0,
           "tipo": "Venda"
         },
         {
@@ -497541,46 +497471,6 @@ const VENDAS_DATA = {
           "fantasia": "MSLR",
           "qt": 1,
           "valor": 59.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "14/07/2026",
-          "codcli": "33637",
-          "cliente": "DIAMOND FOODS LTDA",
-          "produto": "APERITIVO APEROL 750 ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 89.0,
-          "tipo": "Venda"
-        },
-        {
-          "data": "14/07/2026",
-          "codcli": "33637",
-          "cliente": "DIAMOND FOODS LTDA",
-          "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 149.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "14/07/2026",
-          "codcli": "33637",
-          "cliente": "DIAMOND FOODS LTDA",
-          "produto": "WHISKY JACK DANIELS 1L",
-          "fantasia": "",
-          "qt": 1,
-          "valor": 129.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "14/07/2026",
-          "codcli": "33637",
-          "cliente": "DIAMOND FOODS LTDA",
-          "produto": "VINHO CAVAS DE ORO CABERNET SAUV 750ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 109.8,
           "tipo": "Venda"
         },
         {
