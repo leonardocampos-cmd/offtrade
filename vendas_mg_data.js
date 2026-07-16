@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "15/07/2026 19:15",
+  "atualizado_em": "16/07/2026 09:07",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 99053.18,
-        "pos": 65,
+        "fat": 103499.0,
+        "pos": 68,
         "fat_ant": 341993.95
       }
     },
@@ -236,8 +236,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 39544.04,
-        "pos": 39,
+        "fat": 60735.44,
+        "pos": 42,
         "fat_ant": 85308.22
       }
     },
@@ -45833,6 +45833,60 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "15/07/2026",
+          "codcli": "32771",
+          "cliente": "DEVOTOS LOURDES BAR E RESTAURANTES LTD",
+          "produto": "RED BULL MELANCIA 24X250ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 191.76
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "32771",
+          "cliente": "DEVOTOS LOURDES BAR E RESTAURANTES LTD",
+          "produto": "4 PACK  RED BULL",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 31.96
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "32771",
+          "cliente": "DEVOTOS LOURDES BAR E RESTAURANTES LTD",
+          "produto": "WHISKY WHITE HORSE - 1L",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 125.8
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "36812",
+          "cliente": "GILBERTO A.D. FERNANDES",
+          "produto": "XAROPE 1883 DE KIWI 1LT",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 55.9
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "36812",
+          "cliente": "GILBERTO A.D. FERNANDES",
+          "produto": "XAROPE 1883 DE LIMAO SICILIANO 1LT",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 111.8
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "36812",
+          "cliente": "GILBERTO A.D. FERNANDES",
+          "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 221.4
+        },
+        {
+          "data": "15/07/2026",
           "codcli": "37618",
           "cliente": "SAKAI FOOD SERVICE LTDA",
           "produto": "CERVEJA HEINEKEN LONG 24X330ML",
@@ -46217,6 +46271,87 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 4,
           "valor": 419.6
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "34150",
+          "cliente": "BAR E RESTAURANTE BUTECO DO XONADAO LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 575.28
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "34150",
+          "cliente": "BAR E RESTAURANTE BUTECO DO XONADAO LTDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 191.76
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "34150",
+          "cliente": "BAR E RESTAURANTE BUTECO DO XONADAO LTDA",
+          "produto": "LE FRUIT JABUTICABA MONIN 1L",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 159.0
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "34150",
+          "cliente": "BAR E RESTAURANTE BUTECO DO XONADAO LTDA",
+          "produto": "LE FRUIT MORANGO MONIN 1L",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 79.5
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "31673",
+          "cliente": "ESQUINA DO CHOPP JARA LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN BRASIL",
+          "qt": 10,
+          "valor": 1437.6
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "31673",
+          "cliente": "ESQUINA DO CHOPP JARA LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 191.76
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "34150",
+          "cliente": "BAR E RESTAURANTE BUTECO DO XONADAO LTDA",
+          "produto": "PURÊ DE FRUTAS VERMELHAS 1L",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 89.9
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "34150",
+          "cliente": "BAR E RESTAURANTE BUTECO DO XONADAO LTDA",
+          "produto": "WHISKY WALKER RED LABEL 1L",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 874.8
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "34150",
+          "cliente": "BAR E RESTAURANTE BUTECO DO XONADAO LTDA",
+          "produto": "ST PIERRE PALOMA 270MLX6",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 107.6
         }
       ]
     },
@@ -85859,6 +85994,78 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "15/07/2026",
+          "codcli": "37813",
+          "cliente": "ARMAZEM BELO HORIZONTE COMERCIO DE BEBIDAS E CONEXOS LTDA",
+          "produto": "GIN GORDONS 750 ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 658.8
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "37813",
+          "cliente": "ARMAZEM BELO HORIZONTE COMERCIO DE BEBIDAS E CONEXOS LTDA",
+          "produto": "GIN GORDONS PINK 700ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 658.8
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "38497",
+          "cliente": "PRODUTOS ALIMENTICIOS BETINENSE LTDA",
+          "produto": "WHISKY OLD PARR GOLD 1 L",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 7494.0
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "38497",
+          "cliente": "PRODUTOS ALIMENTICIOS BETINENSE LTDA",
+          "produto": "VODKA ORLOFF 1L DEST",
+          "fantasia": "",
+          "qt": 360,
+          "valor": 7351.2
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "38497",
+          "cliente": "PRODUTOS ALIMENTICIOS BETINENSE LTDA",
+          "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 1077.6
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "38497",
+          "cliente": "PRODUTOS ALIMENTICIOS BETINENSE LTDA",
+          "produto": "XAROPE MONIN LIMAO SICILIANO 700 ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 1077.6
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "38497",
+          "cliente": "PRODUTOS ALIMENTICIOS BETINENSE LTDA",
+          "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 1077.6
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "38497",
+          "cliente": "PRODUTOS ALIMENTICIOS BETINENSE LTDA",
+          "produto": "XAROPE MONIN MELANCIA 700ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 1077.6
+        },
+        {
+          "data": "15/07/2026",
           "codcli": "32231",
           "cliente": "DOISMAISUM EMPREENDIMENTOS GASTRONOMICOS LTDA",
           "produto": "APERITIVO APEROL 750 ML",
@@ -85892,6 +86099,15 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 2,
           "valor": 209.8
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "33466",
+          "cliente": "DEL CARLO DRINKS LTDA.",
+          "produto": "YVY DESTILADO GIN MAR GF 750ML",
+          "fantasia": "",
+          "qt": 18,
+          "valor": 718.2
         },
         {
           "data": "15/07/2026",
