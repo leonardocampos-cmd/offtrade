@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "16/07/2026 13:10",
+  "atualizado_em": "16/07/2026 15:10",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -2016,14 +2016,14 @@ const CRUSOE_DATA = {
         {
           "rca": 153,
           "vendedor": "Angelo Neves Suzart",
-          "pedidos": 7,
+          "pedidos": 6,
           "positivacoes": 1,
           "novos_skus": 5,
-          "faturamento": 11496.75,
+          "faturamento": 9325.47,
           "pontos_positivacao": 5,
           "pontos_novos_skus": 20,
-          "pontos_pedidos_valor": 10,
-          "pontos_total": 35,
+          "pontos_pedidos_valor": 8,
+          "pontos_total": 33,
           "vendas": [
             {
               "numnota": "408274",
@@ -2143,65 +2143,6 @@ const CRUSOE_DATA = {
                   "qt": 5.0,
                   "valor": 997.5,
                   "pontuacoes": []
-                }
-              ]
-            },
-            {
-              "numnota": "412256",
-              "data": "15/07/2026",
-              "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
-              "valor_pedido": 2171.28,
-              "eventos": [
-                {
-                  "tipo": "pedido (R$1001-3000)",
-                  "pontos": 2
-                }
-              ],
-              "itens": [
-                {
-                  "produto": "RC SARDINHA EM OLEO 50X125G",
-                  "qt": 5.0,
-                  "valor": 997.5,
-                  "pontuacoes": []
-                },
-                {
-                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-                  "qt": 3.0,
-                  "valor": 598.5,
-                  "pontuacoes": []
-                },
-                {
-                  "produto": "RC ATUM RALADO NATURAL 24X140G",
-                  "qt": 1.0,
-                  "valor": 191.76,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM SOLIDO OLEO 24X170G",
-                  "qt": 1.0,
-                  "valor": 191.76,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-                  "qt": 1.0,
-                  "valor": 191.76,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
                 }
               ]
             },
