@@ -4669,3 +4669,7 @@ OK Servico ativo - https://offtrade.duckdns.org
 
 [15/07/2026 19:21:48,75] OK 
 ---------------------------------------- 
+[16/07/2026  6:30:27,81] Iniciando... 
+2026-07-16 06:32:29.620 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-16 06:32:29.664 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-16 06:32:29.682 No runtime found, using MemoryCacheStorageManager

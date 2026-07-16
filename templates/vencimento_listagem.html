@@ -92,6 +92,17 @@
     .acao-editar:hover  { border-color: var(--accent); color: var(--accent); }
     .acao-excluir { color: var(--red); }
     .acao-excluir:hover { border-color: var(--red); }
+
+    .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+    @media (max-width: 640px) {
+      body { padding: 12px; }
+      .h-title { font-size: 1.05rem; }
+      table { font-size: .78rem; }
+      thead th, tbody td { padding: 9px 10px; }
+      .hide-mob { display: none; }
+      .acoes { flex-direction: column; gap: 6px; }
+    }
   </style>
 </head>
 <body>
@@ -115,47 +126,62 @@
 
   <div class="card">
     {% if registros %}
+    <div class="table-wrap">
     <table>
       <thead>
         <tr>
-          <th>Data Registro</th>
+          <th class="hide-mob">Data Registro</th>
           <th>Código</th>
           <th>Produto</th>
           <th style="text-align:right">Qtd</th>
           <th>Data Vencimento</th>
-          <th>Chave Única</th>
+          <th class="hide-mob">Chave Única</th>
           <th></th>
         </tr>
       </thead>
       <tbody>
         {% for r in registros %}
         <tr>
-          <td>{{ r.data_registro }}</td>
+          <td class="hide-mob">{{ r.data_registro }}</td>
           <td class="cod-badge">{{ r.codprod }}</td>
           <td>{{ r.produto }}</td>
           <td class="qtd">{{ r.qtd | int }}</td>
           <td>{{ r.data_vencimento | data_br }}</td>
-          <td class="chave">{{ r.chave_unica }}</td>
+          <td class="chave hide-mob">{{ r.chave_unica }}</td>
           <td>
-            {% if e_de_hoje(r) %}
             <div class="acoes">
+              {% if e_de_hoje(r) %}
               <a class="acao-btn acao-editar" href="{{ url_for('vencimento.editar_form', chave=r.chave_unica) }}">Editar</a>
               <form method="POST" action="{{ url_for('vencimento.excluir', chave=r.chave_unica) }}"
                     onsubmit="return confirm('Excluir o registro {{ r.chave_unica }}?');">
                 <button type="submit" class="acao-btn acao-excluir">Excluir</button>
               </form>
+              {% else %}
+              <form method="POST" action="{{ url_for('vencimento.excluir', chave=r.chave_unica) }}"
+                    onsubmit="return pedirSenhaExclusao(this);">
+                <input type="hidden" name="senha" class="senha-input">
+                <button type="submit" class="acao-btn acao-excluir" title="Registro de outro dia — exige senha">Excluir</button>
+              </form>
+              {% endif %}
             </div>
-            {% else %}
-            <span style="font-size:.72rem;color:var(--muted)" title="Só é possível editar/excluir registros criados hoje">&mdash;</span>
-            {% endif %}
           </td>
         </tr>
         {% endfor %}
       </tbody>
     </table>
+    </div>
     {% else %}
     <div class="empty">Nenhum registro ainda. <a href="{{ url_for('vencimento.index') }}" style="color:var(--accent)">Criar o primeiro →</a></div>
     {% endif %}
   </div>
+
+  <script>
+    function pedirSenhaExclusao(form) {
+      const senha = prompt('Registro de outro dia — digite a senha para excluir:');
+      if (senha === null || senha.trim() === '') return false;
+      form.querySelector('.senha-input').value = senha.trim();
+      return confirm('Excluir este registro?');
+    }
+  </script>
 </body>
 </html>

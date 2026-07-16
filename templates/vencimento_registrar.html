@@ -80,6 +80,13 @@
     .dropdown-item:hover { background: var(--border); }
     .dropdown-item .cod { color: var(--accent); font-weight: 700; margin-right: 8px; }
     .dropdown-empty { padding: 10px 13px; font-size: .82rem; color: var(--muted); }
+    .dropdown-loading { padding: 10px 13px; font-size: .82rem; color: var(--muted); display: flex; align-items: center; gap: 8px; }
+    .spinner {
+      width: 13px; height: 13px; border-radius: 50%;
+      border: 2px solid var(--border); border-top-color: var(--accent);
+      animation: spin .7s linear infinite; flex-shrink: 0;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
 
     .produto-selecionado {
       display: none; margin-top: 10px; padding: 10px 13px;
@@ -100,6 +107,12 @@
     .btn-salvar:disabled { opacity: .4; cursor: not-allowed; }
 
     .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+
+    @media (max-width: 380px) {
+      body { padding: 12px; }
+      .card { padding: 16px; }
+      .grid-2 { grid-template-columns: 1fr; }
+    }
   </style>
 </head>
 <body>
@@ -188,6 +201,9 @@
         dropdown.classList.remove('open');
         return;
       }
+      dropdown.innerHTML = '<div class="dropdown-loading"><span class="spinner"></span>Buscando produtos...</div>';
+      dropdown.classList.add('open');
+
       debounceTimer = setTimeout(async () => {
         const resp = await fetch(`${API_PRODUTOS}?q=${encodeURIComponent(termo)}`);
         const data = await resp.json();

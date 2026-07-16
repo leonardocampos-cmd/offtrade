@@ -143,7 +143,12 @@ def _row(r, cols):
     out = {}
     for c in cols:
         val = r.get(c)
-        out[c.lower()] = str(val) if pd.notna(val) else None
+        if not pd.notna(val):
+            out[c.lower()] = None
+        elif c == "DIAS":
+            out[c.lower()] = int(val)
+        else:
+            out[c.lower()] = str(val)
     return out
 
 

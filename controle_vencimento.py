@@ -227,14 +227,17 @@ def editar_salvar(chave):
     return redirect(url_for("vencimento.listagem", ok=1))
 
 
+SENHA_EXCLUSAO_ANTIGA = "918273"
+
+
 @bp.route("/excluir/<chave>", methods=["POST"])
 def excluir(chave):
     registros = _carregar_registros()
     registro = registros.get(chave)
     if not registro:
         abort(404)
-    if not _e_de_hoje(registro):
-        abort(403, "Só é possível excluir registros criados hoje.")
+    if not _e_de_hoje(registro) and request.form.get("senha", "") != SENHA_EXCLUSAO_ANTIGA:
+        abort(403, "Senha incorreta para excluir registro de outro dia.")
     registros.pop(chave)
     _salvar_registros(registros)
     return redirect(url_for("vencimento.listagem", excluido=1))
