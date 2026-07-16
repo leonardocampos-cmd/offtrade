@@ -1,36 +1,36 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "16/07/2026 10:03",
+  "atualizado_em": "16/07/2026 13:08",
   "mes": "Jul/26",
   "mes_ant": "Jun/26",
   "dias_corridos": 16,
   "dias_no_mes": 31,
   "dias_restantes": 15,
   "resumo": {
-    "fat": 5035629.63,
-    "fat_ant": 5310755.49,
-    "fat_ant_completo": 13054473.22,
-    "pos": 1078,
+    "fat": 5036076.39,
+    "fat_ant": 5308743.09,
+    "fat_ant_completo": 12888348.82,
+    "pos": 1079,
     "pos_ant": 1108,
     "pos_ant_completo": 1785
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 5035629.63,
-    "fat_ant": 5310755.49,
-    "fat_ant_completo": 13054473.22,
+    "fat": 5036076.39,
+    "fat_ant": 5308743.09,
+    "fat_ant_completo": 12888348.82,
     "pct": 35.0,
-    "nec_dia": 624291.36
+    "nec_dia": 624261.57
   },
   "estados": [
     {
       "estado": "RJ",
       "label": "Rio de Janeiro",
       "meta": 3900000.0,
-      "fat": 1042714.42,
+      "fat": 1041904.12,
       "fat_ant": 1523866.52,
-      "pos": 433,
+      "pos": 432,
       "pct": 26.7,
-      "nec_dia": 190485.71,
+      "nec_dia": 190539.73,
       "fat_ant_completo": 2642556.59,
       "pos_ant": 480,
       "pos_ant_completo": 731
@@ -39,12 +39,12 @@ const METAS_GERAIS_DATA = {
       "estado": "SP",
       "label": "São Paulo",
       "meta": 6600000.0,
-      "fat": 3200405.38,
-      "fat_ant": 2688391.61,
+      "fat": 3197177.38,
+      "fat_ant": 2686379.21,
       "pos": 425,
-      "pct": 48.5,
-      "nec_dia": 226639.64,
-      "fat_ant_completo": 7699206.14,
+      "pct": 48.4,
+      "nec_dia": 226854.84,
+      "fat_ant_completo": 7533081.74,
       "pos_ant": 360,
       "pos_ant_completo": 640
     },
@@ -52,11 +52,11 @@ const METAS_GERAIS_DATA = {
       "estado": "ES",
       "label": "Espírito Santo",
       "meta": 1800000.0,
-      "fat": 221378.39,
+      "fat": 221407.55,
       "fat_ant": 522151.02,
-      "pos": 50,
+      "pos": 51,
       "pct": 12.3,
-      "nec_dia": 105241.44,
+      "nec_dia": 105239.5,
       "fat_ant_completo": 960052.76,
       "pos_ant": 70,
       "pos_ant_completo": 131
@@ -65,11 +65,11 @@ const METAS_GERAIS_DATA = {
       "estado": "MG",
       "label": "Minas Gerais",
       "meta": 2100000.0,
-      "fat": 571131.44,
+      "fat": 575587.34,
       "fat_ant": 576346.34,
-      "pos": 170,
-      "pct": 27.2,
-      "nec_dia": 101924.57,
+      "pos": 171,
+      "pct": 27.4,
+      "nec_dia": 101627.51,
       "fat_ant_completo": 1752657.73,
       "pos_ant": 198,
       "pos_ant_completo": 283
@@ -78,11 +78,11 @@ const METAS_GERAIS_DATA = {
   "industrias": [
     {
       "fantasia": "PERNOD",
-      "fat": 2201267.09,
-      "fat_ant": 1454662.76,
+      "fat": 2197615.79,
+      "fat_ant": 1452650.36,
       "por_estado": {
-        "RJ": 208897.27,
-        "SP": 1989506.26,
+        "RJ": 208473.97,
+        "SP": 1986278.26,
         "ES": 2863.56,
         "MG": 0.0
       }
@@ -100,23 +100,23 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "SEM FORNECEDOR",
-      "fat": 499340.59,
+      "fat": 503796.49,
       "fat_ant": 501095.86,
       "por_estado": {
         "RJ": 0.0,
         "SP": 790.45,
         "ES": 0.0,
-        "MG": 498550.14
+        "MG": 503006.04
       }
     },
     {
       "fantasia": "RED BULL",
-      "fat": 180561.48,
+      "fat": 180590.64,
       "fat_ant": 545313.9,
       "por_estado": {
         "RJ": 101404.52,
         "SP": 0.0,
-        "ES": 79156.96,
+        "ES": 79186.12,
         "MG": 0.0
       }
     },
@@ -331,10 +331,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "CAMPARI",
-      "fat": 16707.23,
+      "fat": 16581.83,
       "fat_ant": 22594.08,
       "por_estado": {
-        "RJ": 3366.53,
+        "RJ": 3241.13,
         "SP": 13340.7,
         "ES": 0.0,
         "MG": 0.0
@@ -419,10 +419,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "COMARY",
-      "fat": 5873.65,
+      "fat": 5612.05,
       "fat_ant": 5665.58,
       "por_estado": {
-        "RJ": 5470.77,
+        "RJ": 5209.17,
         "SP": 402.88,
         "ES": 0.0,
         "MG": 0.0
