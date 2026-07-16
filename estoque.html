@@ -127,6 +127,9 @@
     <input type="checkbox" id="chk-sem-estoque" onchange="aplicarFiltro()"> Só sem estoque
   </label>
   <label class="chk-flag">
+    <input type="checkbox" id="chk-risco-ruptura" onchange="aplicarFiltro()"> ⚠ Risco de ruptura (&lt;7 dias)
+  </label>
+  <label class="chk-flag">
     <input type="checkbox" id="chk-esconder-fora-linha" onchange="aplicarFiltro()" checked> Esconder fora de linha
   </label>
   <button class="btn-csv" onclick="exportarCSV()">⬇ Exportar CSV</button>
@@ -146,7 +149,10 @@
         <th class="hide-mob right" style="text-align:right" onclick="ordenarPor('qtbloqueada')">Bloqueado</th>
         <th class="hide-mob right" style="text-align:right" onclick="ordenarPor('qtreserv')">Reservado</th>
         <th class="hide-mob" onclick="ordenarPor('dtultent')">Últ. Entrada</th>
-        <th onclick="ordenarPor('dtultsaida')">Últ. Saída</th>
+        <th class="hide-mob" onclick="ordenarPor('dtultsaida')">Últ. Saída</th>
+        <th class="hide-mob right" style="text-align:right" onclick="ordenarPor('mediavendadia')">Média Venda/dia</th>
+        <th class="right" style="text-align:right" onclick="ordenarPor('diasestoque')">Dias de Estoque</th>
+        <th onclick="ordenarPor('previsaoesgotar')">Previsão de Esgotar</th>
         <th class="hide-mob right" style="text-align:right" onclick="ordenarPor('precounit')">Preço Unit.</th>
         <th class="right" style="text-align:right" onclick="ordenarPor('valorestoque')">Valor em Estoque</th>
         <th onclick="ordenarPor('estado')">Empresa</th>
@@ -162,7 +168,7 @@ const DATA = typeof ESTOQUE_DATA !== 'undefined' ? ESTOQUE_DATA : null;
 let _ordem = { campo: 'descricao', asc: true };
 
 if (!DATA) {
-  document.getElementById('tbody').innerHTML = '<tr><td colspan="14" class="empty">Dados não encontrados. Execute exportacao_estoque.py para gerar estoque_data.js.</td></tr>';
+  document.getElementById('tbody').innerHTML = '<tr><td colspan="16" class="empty">Dados não encontrados. Execute exportacao_estoque.py para gerar estoque_data.js.</td></tr>';
 } else {
   document.getElementById('header-sub').textContent =
     'Atualizado ' + DATA.atualizado_em + (DATA.fontes_indisponiveis.length ? ' · fontes indisponíveis: ' + DATA.fontes_indisponiveis.join(', ') : '');
@@ -190,6 +196,7 @@ function montarFiltros() {
 
 function montarKpis(lista) {
   const semEstoque = lista.filter(p => p.qtestoque <= 0).length;
+  const riscoRuptura = lista.filter(p => p.qtestoque > 0 && p.diasestoque !== null && p.diasestoque < 7).length;
   const valorTotal = lista.reduce((s, p) => s + p.valorestoque, 0);
   document.getElementById('kpis').innerHTML = `
     <div class="kpi">
@@ -199,6 +206,10 @@ function montarKpis(lista) {
     <div class="kpi">
       <div class="label">Sem Estoque</div>
       <div class="val" style="color:var(--red)">${semEstoque.toLocaleString('pt-BR')}</div>
+    </div>
+    <div class="kpi">
+      <div class="label">⚠ Risco de Ruptura (&lt;7 dias)</div>
+      <div class="val" style="color:var(--orange)">${riscoRuptura.toLocaleString('pt-BR')}</div>
     </div>
     <div class="kpi">
       <div class="label">Valor em Estoque (preço unit.)</div>
@@ -217,6 +228,7 @@ function _filtrados() {
   const depto   = document.getElementById('sel-depto').value;
   const busca   = document.getElementById('busca').value.trim().toLowerCase();
   const semEstoque   = document.getElementById('chk-sem-estoque').checked;
+  const riscoRuptura = document.getElementById('chk-risco-ruptura').checked;
   const esconderForaLinha = document.getElementById('chk-esconder-fora-linha').checked;
 
   let lista = DATA.produtos.filter(p => {
@@ -225,8 +237,9 @@ function _filtrados() {
     const matchBusca   = !busca || [p.descricao, p.codprod, p.fornecedor, p.fantasia]
       .some(v => v && String(v).toLowerCase().includes(busca));
     const matchEstoque = !semEstoque || p.qtestoque <= 0;
+    const matchRisco   = !riscoRuptura || (p.qtestoque > 0 && p.diasestoque !== null && p.diasestoque < 7);
     const matchForaLinha = !esconderForaLinha || !p.foralinha;
-    return matchEmpresa && matchDepto && matchBusca && matchEstoque && matchForaLinha;
+    return matchEmpresa && matchDepto && matchBusca && matchEstoque && matchRisco && matchForaLinha;
   });
 
   const { campo, asc } = _ordem;
@@ -247,7 +260,7 @@ function aplicarFiltro() {
 
   const tbody = document.getElementById('tbody');
   if (!lista.length) {
-    tbody.innerHTML = '<tr><td colspan="14" class="empty">Nenhum produto encontrado.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="16" class="empty">Nenhum produto encontrado.</td></tr>';
     return;
   }
 
@@ -268,7 +281,12 @@ function aplicarFiltro() {
       <td class="hide-mob qtd">${fmtNum(p.qtbloqueada)}</td>
       <td class="hide-mob qtd">${fmtNum(p.qtreserv)}</td>
       <td class="hide-mob">${p.dtultent || '<span style="color:var(--muted)">—</span>'}</td>
-      <td>${p.dtultsaida || '<span style="color:var(--muted)">—</span>'}</td>
+      <td class="hide-mob">${p.dtultsaida || '<span style="color:var(--muted)">—</span>'}</td>
+      <td class="hide-mob qtd">${p.mediavendadia > 0 ? fmtDec(p.mediavendadia) : '<span style="color:var(--muted)">—</span>'}</td>
+      <td class="qtd ${_diasCls(p)}">${_diasTexto(p)}</td>
+      <td>${p.previsaoesgotar
+          ? `<span class="${_diasCls(p)}">${p.previsaoesgotar}</span>`
+          : (p.qtestoque <= 0 ? '<span class="tag-fora-linha">ESGOTADO</span>' : '<span style="color:var(--muted)">—</span>')}</td>
       <td class="hide-mob qtd">${brl(p.precounit)}</td>
       <td class="qtd">${brl(p.valorestoque)}</td>
       <td><span class="empresa-badge">${_esc(p.estado)}</span></td>
@@ -277,7 +295,7 @@ function aplicarFiltro() {
 
   if (lista.length > LIMITE) {
     tbody.insertAdjacentHTML('beforeend',
-      `<tr><td colspan="14" class="empty">Mostrando ${LIMITE.toLocaleString('pt-BR')} de ${lista.length.toLocaleString('pt-BR')} — refine a busca ou os filtros para ver o restante.</td></tr>`);
+      `<tr><td colspan="16" class="empty">Mostrando ${LIMITE.toLocaleString('pt-BR')} de ${lista.length.toLocaleString('pt-BR')} — refine a busca ou os filtros para ver o restante.</td></tr>`);
   }
 }
 
@@ -287,8 +305,26 @@ function _qtdCls(v) {
   return '';
 }
 
+function _diasCls(p) {
+  if (p.qtestoque <= 0) return 'qtd-zero';
+  if (p.diasestoque === null || p.diasestoque === undefined) return '';
+  if (p.diasestoque < 7) return 'qtd-zero';
+  if (p.diasestoque < 30) return 'qtd-baixo';
+  return '';
+}
+
+function _diasTexto(p) {
+  if (p.qtestoque <= 0) return 'ESGOTADO';
+  if (p.diasestoque === null || p.diasestoque === undefined) return '<span style="color:var(--muted)">sem venda</span>';
+  return fmtDec(p.diasestoque) + 'd';
+}
+
 function fmtNum(v) {
   return Number(v || 0).toLocaleString('pt-BR', { maximumFractionDigits: 0 });
+}
+
+function fmtDec(v) {
+  return Number(v || 0).toLocaleString('pt-BR', { maximumFractionDigits: 1 });
 }
 
 function brl(v) {
@@ -301,11 +337,12 @@ function _esc(s) {
 
 function exportarCSV() {
   const lista = _filtrados();
-  const header = ['Codigo','Produto','Fornecedor','Departamento','Secao','Estoque UN','Estoque CX','Pendente','Bloqueado','Reservado','Ult Entrada','Ult Saida','Preco Unitario','Valor em Estoque','Empresa','Filial','Fora de Linha'];
+  const header = ['Codigo','Produto','Fornecedor','Departamento','Secao','Estoque UN','Estoque CX','Pendente','Bloqueado','Reservado','Ult Entrada','Ult Saida','Media Venda Dia','Dias de Estoque','Previsao Esgotar','Preco Unitario','Valor em Estoque','Empresa','Filial','Fora de Linha'];
   const linhas = lista.map(p => [
     p.codprod, p.descricao, p.fornecedor, p.departamento, p.secao,
     p.qtestoque, p.qtestoquecx, p.qtpendente, p.qtbloqueada, p.qtreserv,
-    p.dtultent, p.dtultsaida, p.precounit, p.valorestoque, p.estado, p.codfilial, p.foralinha ? 'Sim' : 'Não',
+    p.dtultent, p.dtultsaida, p.mediavendadia, p.diasestoque ?? '', p.previsaoesgotar,
+    p.precounit, p.valorestoque, p.estado, p.codfilial, p.foralinha ? 'Sim' : 'Não',
   ].map(v => `"${String(v ?? '').replace(/"/g,'""')}"`).join(';'));
 
   const csv = '﻿' + [header.join(';'), ...linhas].join('\r\n');
