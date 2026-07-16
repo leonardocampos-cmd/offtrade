@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "16/07/2026 08:58",
+  "atualizado_em": "16/07/2026 10:03",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -105638,36 +105638,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "14/07/2026",
-          "codcli": "72641",
-          "cliente": "DENISE ESTEVES PINHEIRO 09969562711",
-          "produto": "RED BULL 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 179.76,
-          "tipo": "Venda"
-        },
-        {
-          "data": "14/07/2026",
-          "codcli": "72641",
-          "cliente": "DENISE ESTEVES PINHEIRO 09969562711",
-          "produto": "RED BULL MELANCIA 250ML CX C/24",
-          "fantasia": "RED BULL",
-          "qt": 10,
-          "valor": 1797.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "14/07/2026",
-          "codcli": "72641",
-          "cliente": "DENISE ESTEVES PINHEIRO 09969562711",
-          "produto": "RED BULL ZERO  24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 5,
-          "valor": 898.8,
-          "tipo": "Venda"
-        },
-        {
           "data": "15/07/2026",
           "codcli": "72641",
           "cliente": "DENISE ESTEVES PINHEIRO 09969562711",
@@ -208797,36 +208767,6 @@ const VENDAS_DATA = {
           "fantasia": "BEAM SUNTORY",
           "qt": 1,
           "valor": 70.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/07/2026",
-          "codcli": "84171",
-          "cliente": "LRTT ENGENHARIA E SOLUCOOES LTDA",
-          "produto": "RED BULL 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 1,
-          "valor": 172.56,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/07/2026",
-          "codcli": "84171",
-          "cliente": "LRTT ENGENHARIA E SOLUCOOES LTDA",
-          "produto": "GIN ROCKS STRAWBERRY 1000ML",
-          "fantasia": "FANTE",
-          "qt": 4,
-          "valor": 103.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "13/07/2026",
-          "codcli": "84171",
-          "cliente": "LRTT ENGENHARIA E SOLUCOOES LTDA",
-          "produto": "CATUABA SELVAGEM 900ML",
-          "fantasia": "COMARY",
-          "qt": 4,
-          "valor": 59.6,
           "tipo": "Venda"
         },
         {
@@ -406841,16 +406781,6 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 12,
           "valor": 634.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "14/07/2026",
-          "codcli": "42942",
-          "cliente": "LS ATACADO DE BEBIDAS E ALIMENTOS LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 480,
-          "valor": 12912.0,
           "tipo": "Venda"
         },
         {
