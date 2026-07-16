@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "16/07/2026 15:17",
+  "atualizado_em": "16/07/2026 16:11",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -817,32 +817,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "PINATI",
             "qt": 1,
             "valor": 47.9
-          },
-          {
-            "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-            "fantasia": "RECKITT",
-            "qt": 1,
-            "valor": 71.76
-          }
-        ]
-      },
-      {
-        "codcli": "94264",
-        "cliente": "35.583.360 ALISSON DE ALMEIDA MAGALHAES",
-        "bairro": "PIEDADE",
-        "dtultcomp": "14/05/2026",
-        "produtos": [
-          {
-            "produto": "PINATI SWEET COCADINHA QUEIMADA 24X14G",
-            "fantasia": "PINATI",
-            "qt": 1,
-            "valor": 47.9
-          },
-          {
-            "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-            "fantasia": "RECKITT",
-            "qt": 1,
-            "valor": 71.76
           },
           {
             "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
@@ -2253,26 +2227,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "94063",
-        "cliente": "COMIDA CASEIRA DO RUSSO LTDA",
-        "bairro": "MARECHAL HERMES",
-        "dtultcomp": "29/06/2026",
-        "produtos": [
-          {
-            "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-            "fantasia": "RECKITT",
-            "qt": 1,
-            "valor": 71.76
-          },
-          {
-            "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-            "fantasia": "RECKITT",
-            "qt": 1,
-            "valor": 71.76
-          }
-        ]
-      },
-      {
         "codcli": "92278",
         "cliente": "DROGARIA ZULIA LTDA",
         "bairro": "TAQUARA",
@@ -3356,44 +3310,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "95536",
-        "cliente": "G5 DROGARIAS LTDA",
-        "bairro": "COPACABANA",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "GUARAVITON GINSENG 12X500ML",
-            "fantasia": "VITON",
-            "qt": 1,
-            "valor": 31.89
-          },
-          {
-            "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          }
-        ]
-      },
-      {
         "codcli": "95525",
         "cliente": "G5 DROGARIAS LTDA",
         "bairro": "COPACABANA",
@@ -3413,6 +3329,44 @@ const NAO_POS_ES_DATA = {
           },
           {
             "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          }
+        ]
+      },
+      {
+        "codcli": "95536",
+        "cliente": "G5 DROGARIAS LTDA",
+        "bairro": "COPACABANA",
+        "dtultcomp": "30/06/2026",
+        "produtos": [
+          {
+            "produto": "GUARAVITON GINSENG 12X500ML",
+            "fantasia": "VITON",
+            "qt": 1,
+            "valor": 31.89
+          },
+          {
+            "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
             "fantasia": "TATUZINHO",
             "qt": 1,
             "valor": 94.68
@@ -3983,6 +3937,26 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
+        "codcli": "83642",
+        "cliente": "MINIMERCADO JARDIM ROSARIO LTDA",
+        "bairro": "JARDIM ROSARIO",
+        "dtultcomp": "19/03/2026",
+        "produtos": [
+          {
+            "produto": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
+            "fantasia": "FANTE",
+            "qt": 24,
+            "valor": 403.2
+          },
+          {
+            "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+            "fantasia": "FANTE",
+            "qt": 60,
+            "valor": 702.0
+          }
+        ]
+      },
+      {
         "codcli": "18918",
         "cliente": "MERCADO JARDINS DA ILHA LTDA",
         "bairro": "JARDIM GAUNABARA",
@@ -4285,6 +4259,38 @@ const NAO_POS_ES_DATA = {
             "fantasia": "TIAL",
             "qt": 1,
             "valor": 26.28
+          }
+        ]
+      },
+      {
+        "codcli": "93515",
+        "cliente": "SUPERMERCADO TRADICAO RJ LTDA",
+        "bairro": "PARQUE PAULISTA",
+        "dtultcomp": "05/05/2026",
+        "produtos": [
+          {
+            "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+            "fantasia": "RECKITT",
+            "qt": 5,
+            "valor": 326.4
+          },
+          {
+            "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+            "fantasia": "RECKITT",
+            "qt": 2,
+            "valor": 130.56
+          },
+          {
+            "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+            "fantasia": "RECKITT",
+            "qt": 2,
+            "valor": 130.56
+          },
+          {
+            "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+            "fantasia": "RECKITT",
+            "qt": 11,
+            "valor": 718.08
           }
         ]
       },
@@ -4841,46 +4847,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "TIAL",
             "qt": 5,
             "valor": 242.4
-          }
-        ]
-      },
-      {
-        "codcli": "93515",
-        "cliente": "SUPERMERCADO TRADICAO RJ LTDA",
-        "bairro": "PARQUE PAULISTA",
-        "dtultcomp": "15/06/2026",
-        "produtos": [
-          {
-            "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
-            "fantasia": "TIAL",
-            "qt": 2,
-            "valor": 119.76
-          },
-          {
-            "produto": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
-            "fantasia": "FANTE",
-            "qt": 12,
-            "valor": 214.8
-          },
-          {
-            "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-            "fantasia": "FANTE",
-            "qt": 48,
-            "valor": 561.6
-          }
-        ]
-      },
-      {
-        "codcli": "83642",
-        "cliente": "MINIMERCADO JARDIM ROSARIO LTDA",
-        "bairro": "JARDIM ROSARIO",
-        "dtultcomp": "17/06/2026",
-        "produtos": [
-          {
-            "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-            "fantasia": "FANTE",
-            "qt": 60,
-            "valor": 702.0
           }
         ]
       },
@@ -9402,14 +9368,14 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "93650",
+        "codcli": "77557",
         "cliente": "COBATA COMERCIO E DISTRIBUICAO LTDA",
         "bairro": "TERMINAL INTERMODAL DA SERRA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "77557",
+        "codcli": "93650",
         "cliente": "COBATA COMERCIO E DISTRIBUICAO LTDA",
         "bairro": "TERMINAL INTERMODAL DA SERRA",
         "dtultcomp": "nan",
@@ -13846,13 +13812,6 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95718",
-        "cliente": "MINIMARKET MENA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "95137",
         "cliente": "ORGANIZACOES VICTORIA & PENEDO LTDA",
         "bairro": "CABUÇU",
@@ -14142,6 +14101,20 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
+        "codcli": "95669",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "RECREIO DOS BANDEIRANTES",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95668",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "CASCADURA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "95664",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
         "bairro": "ANIL",
@@ -14156,23 +14129,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95672",
+        "codcli": "95665",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "PEDRA DE GUARATIBA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "95673",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "PARADA DE LUCAS",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "95671",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "TANQUE",
+        "bairro": "GUARATIBA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -14184,23 +14143,23 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95665",
+        "codcli": "95671",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "GUARATIBA",
+        "bairro": "TANQUE",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "95668",
+        "codcli": "95673",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "CASCADURA",
+        "bairro": "PARADA DE LUCAS",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "95669",
+        "codcli": "95672",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "RECREIO DOS BANDEIRANTES",
+        "bairro": "PEDRA DE GUARATIBA",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -21643,9 +21602,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "94888",
+        "codcli": "94884",
         "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
-        "bairro": "BANGU",
+        "bairro": "BARRA DA TIJUCA",
         "dtultcomp": "05/06/2026",
         "produtos": [
           {
@@ -21699,9 +21658,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "94884",
+        "codcli": "94888",
         "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
-        "bairro": "BARRA DA TIJUCA",
+        "bairro": "BANGU",
         "dtultcomp": "05/06/2026",
         "produtos": [
           {
@@ -22065,38 +22024,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "90151",
-        "cliente": "ELECILDO SIMAO DA SILVA 90866959491",
-        "bairro": "PACIENCIA",
-        "dtultcomp": "29/06/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
-            "fantasia": "KAISER",
-            "qt": 1,
-            "valor": 64.9
-          },
-          {
-            "produto": "CONHAQUE DOMECQ 1L",
-            "fantasia": "PERNOD",
-            "qt": 6,
-            "valor": 197.4
-          },
-          {
-            "produto": "NOSSO CHOP RED DRAFT PET 12X600ML",
-            "fantasia": "NOSSO CHOPE",
-            "qt": 2,
-            "valor": 177.4
-          },
-          {
-            "produto": "VILLA ROSA TINTO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 1,
-            "valor": 29.9
-          }
-        ]
-      },
-      {
         "codcli": "95284",
         "cliente": "59.034.690 CARLA FERREIRA DA SILVA",
         "bairro": "SANTA CRUZ",
@@ -22203,20 +22130,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "NOSSO CHOPE",
             "qt": 2,
             "valor": 177.4
-          }
-        ]
-      },
-      {
-        "codcli": "95386",
-        "cliente": "PADARIA DO ZINHO LTDA",
-        "bairro": "SANTA CRUZ",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
-            "fantasia": "CASTAS",
-            "qt": 1,
-            "valor": 286.8
           }
         ]
       },
@@ -23541,20 +23454,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "BEAM SUNTORY",
             "qt": 3,
             "valor": 212.7
-          }
-        ]
-      },
-      {
-        "codcli": "86500",
-        "cliente": "ESPACO HARMONIA SERVICOS DE BAR E RESTAURANTE LTDA",
-        "bairro": "CAMBOINHAS",
-        "dtultcomp": "26/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL TROPICAL 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 345.12
           }
         ]
       },
