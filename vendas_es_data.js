@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "16/07/2026 15:16",
+  "atualizado_em": "16/07/2026 16:10",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -263,8 +263,8 @@ const VENDAS_ES_DATA = {
         "fat_ant": 106627.23
       },
       "Jul/26": {
-        "fat": 87.48,
-        "pos": 3,
+        "fat": 116.64,
+        "pos": 4,
         "fat_ant": 24655.69
       }
     },
@@ -64821,6 +64821,15 @@ const VENDAS_ES_DATA = {
           "codcli": "71966",
           "cliente": "TERRAZZO DEI NONNI LTDA",
           "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "76323",
+          "cliente": "FAMILIA GILLES LANCHONETE E RESTAURANTE CASA DA BICA LTDA",
+          "produto": "4 PACK RED BULL MELÃO C/ MARACUJA",
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 29.16
