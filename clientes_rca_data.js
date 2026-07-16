@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "16/07/2026 15:18",
-  "total": 4319,
+  "atualizado_em": "16/07/2026 16:12",
+  "total": 4322,
   "clientes": [
     {
       "codcli": "31683",
@@ -6046,8 +6046,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "ADEGA",
       "key_account": false,
       "rede": "",
-      "codusur1": "232",
-      "nome_usur1": "ANDERSON CANAVEIS - OFF TRADE",
+      "codusur1": "513",
+      "nome_usur1": "IGOR OLIVEIRA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -30340,6 +30340,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
+      "codcli": "51849",
+      "razao": "J J PSILVA SUPERMERCADOS LTDA",
+      "fantasia": "MERCADO RAIZ",
+      "bairro": "DOM PEDRO II",
+      "cidade": "SAO JOSE DOS CAMPOS",
+      "cnpj": "54.541.501/0001-04",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "460",
+      "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "84321",
       "razao": "J LOPES GONCALVES POSTO LTDA",
       "fantasia": "POSTO SANTA FILOMENA - JACAREPAGUA",
@@ -38422,12 +38438,12 @@ const CLIENTES_RCA_DATA = {
     {
       "codcli": "50536",
       "razao": "MAX FOODS DISTRIBUICAO LTDA",
-      "fantasia": "MAX FOODS DISTRIBUICAO LTDA",
+      "fantasia": "MAX FOODS DISTRIBUICAO",
       "bairro": "RETIRO SAO JOAQUIM",
       "cidade": "ITABORAI",
       "cnpj": "25.371.748/0001-21",
       "estado": "RJ",
-      "ramo": "MERCADO",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
       "key_account": false,
       "rede": "",
       "codusur1": "158",
@@ -42000,6 +42016,38 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "450",
       "nome_usur1": "LEANDRO SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51848",
+      "razao": "MERCADO RAIZ 3 LTDA",
+      "fantasia": "MERCADO RAIZ 3",
+      "bairro": "JARDIM TORRÃO DE OURO",
+      "cidade": "SAO JOSE DOS CAMPOS",
+      "cnpj": "59.267.587/0001-42",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "460",
+      "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51847",
+      "razao": "MERCADO RAIZ LTDA",
+      "fantasia": "MERCADO RAIZ",
+      "bairro": "CAMPO DOS ALEMAES",
+      "cidade": "SAO JOSE DOS CAMPOS",
+      "cnpj": "18.944.154/0001-05",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "460",
+      "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
