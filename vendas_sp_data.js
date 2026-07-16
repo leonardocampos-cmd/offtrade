@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "16/07/2026 09:07",
+  "atualizado_em": "16/07/2026 13:17",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50042,15 +50042,6 @@ const VENDAS_SP_DATA = {
           "valor": 233.4
         },
         {
-          "data": "13/07/2026",
-          "codcli": "30685",
-          "cliente": "CIE - BEBIDAS IMPORTADAS LTDA",
-          "produto": "CONHAQUE DOMECQ 1L",
-          "fantasia": "PERNOD",
-          "qt": 120,
-          "valor": 3228.0
-        },
-        {
           "data": "15/07/2026",
           "codcli": "36582",
           "cliente": "CDB DISTRIBUIDORA DE BEBIDAS E ALIMENTOS LTDA",
@@ -52458,15 +52449,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 108,
           "valor": 7009.2
-        },
-        {
-          "data": "09/06/2026",
-          "codcli": "48007",
-          "cliente": "ANDORINHA SUPERMERCADO LTDA",
-          "produto": "WHISKY BALLANTINE S FINEST 1L",
-          "fantasia": "PERNOD",
-          "qt": 36,
-          "valor": 2012.4
         },
         {
           "data": "09/06/2026",
@@ -78933,24 +78915,6 @@ const VENDAS_SP_DATA = {
           "data": "30/06/2026",
           "codcli": "40664",
           "cliente": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO LIMITADA",
-          "produto": "WHISKY BALLANTINE S FINEST 1L",
-          "fantasia": "PERNOD",
-          "qt": 2880,
-          "valor": 143712.0
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "40664",
-          "cliente": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO LIMITADA",
-          "produto": "TEQUILA J CUERVO GOLD 750ML",
-          "fantasia": "AURORA",
-          "qt": 240,
-          "valor": 20400.0
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "40664",
-          "cliente": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO LIMITADA",
           "produto": "RUM MONTILLA CARTA BRANCA 1L",
           "fantasia": "PERNOD",
           "qt": 576,
@@ -95036,9 +95000,9 @@ const VENDAS_SP_DATA = {
     },
     "MANUELA ZAPPACOSTA": {
       "Jul/26": {
-        "fat": 158448.09,
+        "fat": 155220.09,
         "pos": 34.0,
-        "fat_pernod": 74085.0,
+        "fat_pernod": 70857.0,
         "fat_crs": 20534.64
       },
       "Jun/26": {
@@ -95285,9 +95249,9 @@ const VENDAS_SP_DATA = {
         "fat_crs": 53.94
       },
       "Jun/26": {
-        "fat": 1053818.58,
+        "fat": 889706.58,
         "pos": 10.0,
-        "fat_pernod": 903286.08,
+        "fat_pernod": 759574.08,
         "fat_crs": 56.94,
         "fat_essenza": 1006.08
       },
@@ -95637,9 +95601,9 @@ const VENDAS_SP_DATA = {
     },
     "MARCIA RITA": {
       "Jun/26": {
-        "fat": 213339.86,
+        "fat": 211327.46,
         "pos": 9.0,
-        "fat_pernod": 193510.1
+        "fat_pernod": 191497.7
       },
       "Mai/26": {
         "fat": 317650.91,
