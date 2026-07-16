@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "16/07/2026 15:10",
+  "atualizado_em": "16/07/2026 16:08",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -1568,14 +1568,14 @@ const CRUSOE_DATA = {
         {
           "rca": 419,
           "vendedor": "Natali de Oliveira",
-          "pedidos": 13,
-          "positivacoes": 11,
-          "novos_skus": 13,
-          "faturamento": 1875.42,
-          "pontos_positivacao": 55,
-          "pontos_novos_skus": 52,
+          "pedidos": 14,
+          "positivacoes": 12,
+          "novos_skus": 14,
+          "faturamento": 2115.42,
+          "pontos_positivacao": 60,
+          "pontos_novos_skus": 56,
           "pontos_pedidos_valor": 0,
-          "pontos_total": 107,
+          "pontos_total": 116,
           "vendas": [
             {
               "numnota": "409254",
@@ -1871,6 +1871,31 @@ const CRUSOE_DATA = {
               "numnota": "412503",
               "data": "15/07/2026",
               "cliente": "CHARLES SILVA DE AQUINO 15692489740",
+              "valor_pedido": 240.0,
+              "eventos": [
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 1.0,
+                  "valor": 240.0,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "412836",
+              "data": "16/07/2026",
+              "cliente": "PADARIA DO ZINHO LTDA",
               "valor_pedido": 240.0,
               "eventos": [
                 {
@@ -2320,7 +2345,7 @@ const CRUSOE_DATA = {
           "rca": 431,
           "vendedor": "Adeilson Gonçalvez",
           "clientes_gourmet": 1,
-          "faturamento": 259.8,
+          "faturamento": 796.68,
           "faturamento_gourmet": 259.8,
           "pontos_total": 1,
           "vendas": [
@@ -2353,7 +2378,7 @@ const CRUSOE_DATA = {
           "rca": 379,
           "vendedor": "Jorge Maciel",
           "clientes_gourmet": 0,
-          "faturamento": 4399.0,
+          "faturamento": 5462.38,
           "faturamento_gourmet": 0.0,
           "pontos_total": 0,
           "vendas": []
