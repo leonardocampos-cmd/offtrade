@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "16/07/2026 09:07",
+  "atualizado_em": "16/07/2026 13:17",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -158,8 +158,8 @@ const VENDAS_ES_DATA = {
         "fat_ant": 0.0
       },
       "Jul/26": {
-        "fat": 190.12,
-        "pos": 1,
+        "fat": 219.28,
+        "pos": 2,
         "fat_ant": 41723.93
       }
     },
@@ -32772,6 +32772,15 @@ const VENDAS_ES_DATA = {
           "fantasia": "RED BULL",
           "qt": 2,
           "valor": 54.32
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "81067",
+          "cliente": "LANCHONETE GILBERTO ROSALEM LTDA",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16
         },
         {
           "data": "07/07/2026",
