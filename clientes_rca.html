@@ -78,6 +78,15 @@
       color: var(--accent); border-radius: 20px; padding: 1px 8px;
       font-size: .68rem; font-weight: 700; white-space: nowrap;
     }
+
+    @media (max-width: 640px) {
+      body { padding: 12px; }
+      select { min-width: 150px; }
+      input[type=text] { min-width: 150px; }
+      table { font-size: .78rem; }
+      thead th, tbody td { padding: 8px 9px; }
+      .hide-mob { display: none; }
+    }
   </style>
 </head>
 <body>
@@ -112,17 +121,17 @@
   <table id="tabela">
     <thead>
       <tr>
-        <th>Cód.</th>
-        <th>CNPJ</th>
+        <th class="hide-mob">Cód.</th>
+        <th class="hide-mob">CNPJ</th>
         <th>Razão Social</th>
         <th>Fantasia</th>
-        <th>Ramo</th>
-        <th>Rede</th>
-        <th>Bairro</th>
+        <th class="hide-mob">Ramo</th>
+        <th class="hide-mob">Rede</th>
+        <th class="hide-mob">Bairro</th>
         <th>Cidade</th>
         <th>UF</th>
         <th>RCA 1</th>
-        <th>RCA 2</th>
+        <th class="hide-mob">RCA 2</th>
       </tr>
     </thead>
     <tbody id="tbody"></tbody>
@@ -237,17 +246,17 @@ function aplicarFiltro() {
 
   tbody.innerHTML = lista.map(c => `
     <tr>
-      <td class="cod">${c.codcli}</td>
-      <td class="cnpj">${_fmtCnpj(c.cnpj)}</td>
+      <td class="cod hide-mob">${c.codcli}</td>
+      <td class="cnpj hide-mob">${_fmtCnpj(c.cnpj)}</td>
       <td>${_esc(c.razao)}${c.key_account ? '<span class="badge-ka">⭐ KA</span>' : ''}</td>
       <td style="color:var(--muted)">${_esc(c.fantasia)}</td>
-      <td style="color:var(--muted);font-size:.78rem">${_esc(c.ramo)}</td>
-      <td style="color:var(--muted);font-size:.78rem">${_esc(c.rede)}</td>
-      <td style="color:var(--muted)">${_esc(c.bairro)}</td>
+      <td class="hide-mob" style="color:var(--muted);font-size:.78rem">${_esc(c.ramo)}</td>
+      <td class="hide-mob" style="color:var(--muted);font-size:.78rem">${_esc(c.rede)}</td>
+      <td class="hide-mob" style="color:var(--muted)">${_esc(c.bairro)}</td>
       <td style="color:var(--muted)">${_esc(c.cidade)}</td>
       <td style="color:var(--muted);font-size:.78rem;font-weight:700">${c.estado || ''}</td>
       <td>${c.codusur1 ? `<span class="rca-badge">${c.codusur1} · ${_esc(c.nome_usur1.replace(' - OFF TRADE',''))}</span>` : ''}</td>
-      <td>${c.codusur2 ? `<span class="rca-badge">${c.codusur2} · ${_esc(c.nome_usur2.replace(' - OFF TRADE',''))}</span>` : ''}</td>
+      <td class="hide-mob">${c.codusur2 ? `<span class="rca-badge">${c.codusur2} · ${_esc(c.nome_usur2.replace(' - OFF TRADE',''))}</span>` : ''}</td>
     </tr>`).join('');
 }
 
