@@ -1,11 +1,42 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "16/07/2026 09:04",
+  "atualizado_em": "16/07/2026 10:08",
   "data_rota": "16.07",
   "vendedores": [
     {
       "nome": "ADEILSON GONÇALVEZ - OFF TRADE",
       "em_rota": [],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "431001144",
+          "numnota": "",
+          "data": "16/07/2026",
+          "cliente": "WALLAF DA SILVA MENEZES GOMES MERCADO E PADARIA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 323.4,
+          "itens": [
+            {
+              "desc": "NECTAR MISTO UVA E PERA 12X1000ML",
+              "qt": 1,
+              "val": 59.88
+            },
+            {
+              "desc": "RC ATUM PEDACOS EM OLEO 24X140G",
+              "qt": 1,
+              "val": 191.76
+            },
+            {
+              "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+              "qt": 1,
+              "val": 71.76
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "431000848",
@@ -1114,7 +1145,38 @@ const ENTREGAS_DATA = {
     {
       "nome": "ANA CLARA FASSANO - OFF TRADE",
       "em_rota": [],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "471000438",
+          "numnota": "",
+          "data": "16/07/2026",
+          "cliente": "DELICATESSEN LEBLON EIRELI EPP",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 417.3,
+          "itens": [
+            {
+              "desc": "CACHACA JOIA DA SERRA TRADICIONAL 1L",
+              "qt": 6,
+              "val": 131.4
+            },
+            {
+              "desc": "CACHACA JOIA DA SERRA OURO 1L",
+              "qt": 6,
+              "val": 131.4
+            },
+            {
+              "desc": "AGUA NA CAIXA 12X330ML",
+              "qt": 5,
+              "val": 154.5
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "471000434",
@@ -7050,6 +7112,56 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "379001253",
+          "numnota": "",
+          "data": "16/07/2026",
+          "cliente": "DROGARIA MENOS PRECO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 583.69,
+          "itens": [
+            {
+              "desc": "NECTAR LARANJA 12X1000ML",
+              "qt": 1,
+              "val": 58.8
+            },
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 1,
+              "val": 174.96
+            },
+            {
+              "desc": "CERVEJA HEINEKEN LONG 24X330ML",
+              "qt": 1,
+              "val": 127.9
+            },
+            {
+              "desc": "4 PACK RED BULL CEREJA",
+              "qt": 2,
+              "val": 59.92
+            },
+            {
+              "desc": "4 PACK RED BULL SF AMORA",
+              "qt": 2,
+              "val": 59.92
+            },
+            {
+              "desc": "4 PACK RED BULL ZERO",
+              "qt": 2,
+              "val": 59.92
+            },
+            {
+              "desc": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
+              "qt": 1,
+              "val": 42.27
+            }
+          ]
+        },
+        {
           "numped": "379001252",
           "numnota": "",
           "data": "16/07/2026",
@@ -7063,11 +7175,6 @@ const ENTREGAS_DATA = {
           "total": 482.7,
           "itens": [
             {
-              "desc": "RC ATUM SOLIDO OLEO 24X170G",
-              "qt": 1,
-              "val": 141.6
-            },
-            {
               "desc": "RC SARDINHA EM OLEO 50X125G",
               "qt": 1,
               "val": 199.5
@@ -7076,6 +7183,66 @@ const ENTREGAS_DATA = {
               "desc": "RC ATUM SOLIDO NATURAL 24X170G",
               "qt": 1,
               "val": 141.6
+            },
+            {
+              "desc": "RC ATUM SOLIDO OLEO 24X170G",
+              "qt": 1,
+              "val": 141.6
+            }
+          ]
+        },
+        {
+          "numped": "379001254",
+          "numnota": "",
+          "data": "16/07/2026",
+          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1277.88,
+          "itens": [
+            {
+              "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
+              "qt": 6,
+              "val": 209.4
+            },
+            {
+              "desc": "ST PIERRE ZERO LATA PINK LEMON  24X310ML",
+              "qt": 1,
+              "val": 105.9
+            },
+            {
+              "desc": "RC SARDINHA EM OLEO 50X125G",
+              "qt": 1,
+              "val": 199.5
+            },
+            {
+              "desc": "NECTAR GOIABA 12X1000ML",
+              "qt": 2,
+              "val": 117.6
+            },
+            {
+              "desc": "NECTAR LARANJA 12X1000ML",
+              "qt": 2,
+              "val": 117.36
+            },
+            {
+              "desc": "NECTAR MANGA 12X1000ML",
+              "qt": 3,
+              "val": 176.04
+            },
+            {
+              "desc": "NECTAR PESSEGO 12X1000ML",
+              "qt": 3,
+              "val": 176.04
+            },
+            {
+              "desc": "NECTAR MISTO UVA E PERA 12X1000ML",
+              "qt": 3,
+              "val": 176.04
             }
           ]
         }
