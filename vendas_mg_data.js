@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "16/07/2026 13:18",
+  "atualizado_em": "16/07/2026 15:16",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,7 +50,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 104457.8,
+        "fat": 106572.4,
         "pos": 68,
         "fat_ant": 341993.95
       }
@@ -46352,6 +46352,78 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 4,
           "valor": 107.6
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "31792",
+          "cliente": "CUAREIM ALIMENTOS LTDA",
+          "produto": "ESPUMANTE ALUD BRANCO 750ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 119.7
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "31792",
+          "cliente": "CUAREIM ALIMENTOS LTDA",
+          "produto": "VILLA ROSA COLHEITA BRANCO 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 149.8
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "33951",
+          "cliente": "RESTAURANTE LA TRAVIATA",
+          "produto": "VILLA ROSA COLHEITA TINTO 375ML",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 209.5
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "33951",
+          "cliente": "RESTAURANTE LA TRAVIATA",
+          "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 219.6
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "33951",
+          "cliente": "RESTAURANTE LA TRAVIATA",
+          "produto": "VINHO MARQUÉS DE TEJARES 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 347.4
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "33951",
+          "cliente": "RESTAURANTE LA TRAVIATA",
+          "produto": "VILLA ROSA COLHEITA TINTO  750ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 299.6
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "33951",
+          "cliente": "RESTAURANTE LA TRAVIATA",
+          "produto": "HUMB. CANALE DENARIO MALBEC 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 461.4
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "33951",
+          "cliente": "RESTAURANTE LA TRAVIATA",
+          "produto": "VINHO TTO BERTOLI CHIANTI DOCG 750ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 307.6
         },
         {
           "data": "16/07/2026",
