@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "16/07/2026 13:19",
-  "total": 4311,
+  "atualizado_em": "16/07/2026 15:18",
+  "total": 4319,
   "clientes": [
     {
       "codcli": "31683",
@@ -3323,7 +3323,7 @@ const CLIENTES_RCA_DATA = {
       "cidade": "CABO FRIO",
       "cnpj": "58.799.098/0001-79",
       "estado": "RJ",
-      "ramo": "MERCADO",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
       "key_account": false,
       "rede": "",
       "codusur1": "159",
@@ -3952,6 +3952,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "159",
       "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51844",
+      "razao": "63.316.132 CARLOS APARECIDO SALES DE OLIVEIRA",
+      "fantasia": "CARLOS APARECIDO SALES DE OLIVEIRA",
+      "bairro": "JARDIM MELINA I",
+      "cidade": "CAMPINAS",
+      "cnpj": "63.316.132/0001-47",
+      "estado": "SP",
+      "ramo": "BAR",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -17058,6 +17074,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ANGELO NEVES SUZART - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
+    },
+    {
+      "codcli": "51843",
+      "razao": "COMERCIO DE BEBIDAS E ALIMENTOS SANGUINE LTDA",
+      "fantasia": "60 E BEBE",
+      "bairro": "PARQUE MODELO",
+      "cidade": "AMPARO",
+      "cnpj": "15.186.830/0001-22",
+      "estado": "SP",
+      "ramo": "BAR",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "78463",
@@ -30404,6 +30436,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "50565",
+      "razao": "J R MORUMBI COMERCIO DE ALIMENTOS LTDA",
+      "fantasia": "J R MORUMBI COMERCIO DE ALIMENTOS",
+      "bairro": "CIDADE MORUMBI",
+      "cidade": "SAO JOSE DOS CAMPOS",
+      "cnpj": "17.805.213/0001-93",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "460",
+      "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "1160",
       "razao": "J REJANIO DE LIMA MERCEARIA ME",
       "fantasia": "",
@@ -30672,6 +30720,54 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "477",
       "nome_usur1": "LUCIANO TOSCHI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "50560",
+      "razao": "J.R CRUZEIRO COMERCIO DE ALIMENTOS LTDA",
+      "fantasia": "J.R CRUZEIRO COMERCIO DE ALIMENTOS",
+      "bairro": "CENTRO",
+      "cidade": "CRUZEIRO",
+      "cnpj": "28.757.176/0001-01",
+      "estado": "SP",
+      "ramo": "MERCEARIA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "460",
+      "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "50558",
+      "razao": "J.R LORENA COMERCIO DE ALIMENTOS LTDA",
+      "fantasia": "J.R LORENA COMERCIO DE ALIMENTOS",
+      "bairro": "OLARIA",
+      "cidade": "LORENA",
+      "cnpj": "29.980.458/0001-36",
+      "estado": "SP",
+      "ramo": "MERCEARIA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "460",
+      "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "50564",
+      "razao": "J.R PINDA COMERCIO DE ALIMENTOS LTDA",
+      "fantasia": "J.R PINDA COMERCIO DE ALIMENTOS",
+      "bairro": "CENTRO",
+      "cidade": "PINDAMONHANGABA",
+      "cnpj": "33.561.026/0001-68",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "460",
+      "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -49591,7 +49687,7 @@ const CLIENTES_RCA_DATA = {
       "codcli": "50295",
       "razao": "PADARIA E MERCEARIA PRINCIPE DO RINCAO LTDA",
       "fantasia": "PADARIA E MERCEARIA PRINCIPE DO RINCAO",
-      "bairro": "JARDIM SHANGRILA (ZONA NORTE)",
+      "bairro": "JARDIM SHANGRILA (ZONA NORTE)",
       "cidade": "SAO PAULO",
       "cnpj": "30.796.575/0001-23",
       "estado": "SP",
@@ -57988,6 +58084,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "50566",
+      "razao": "ROSALINA CRUZEIRO COMERCIO DE ALIMENTOS LTDA",
+      "fantasia": "ROSALINA CRUZEIRO COMERCIO DE ALIMENTOS",
+      "bairro": "CENTRO",
+      "cidade": "CRUZEIRO",
+      "cnpj": "57.618.477/0001-52",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "460",
+      "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "42184",
       "razao": "ROSANA CELESTE MEOTT 78193770706",
       "fantasia": "ROSANA CELESTE MEOTT",
@@ -58002,6 +58114,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "50561",
+      "razao": "ROSARIA DA SILVA RODRIGUES",
+      "fantasia": "MERCEARIA ROSALINA",
+      "bairro": "JARDIM TORRAO DE OURO",
+      "cidade": "SAO JOSE DOS CAMPOS",
+      "cnpj": "02.880.476/0001-90",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "460",
+      "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "50289",
