@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "16/07/2026 10:05",
+  "atualizado_em": "16/07/2026 13:10",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -1983,8 +1983,8 @@ const CRUSOE_DATA = {
               ]
             },
             {
-              "numnota": "412527",
-              "data": "15/07/2026",
+              "numnota": "412727",
+              "data": "16/07/2026",
               "cliente": "MERCADO PRAIA BRAVA DE ANGRA DOS REIS LTDA",
               "valor_pedido": 625.68,
               "eventos": [
