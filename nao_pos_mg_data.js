@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "16/07/2026 16:11",
+  "atualizado_em": "17/07/2026 09:17",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -1795,20 +1795,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "32882",
-        "cliente": "PIZZARIA E RESTAURANTE DA NONNA LTDA",
-        "bairro": "AEROPORTO",
-        "dtultcomp": "26/05/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN MAR GF 750ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 478.8
-          }
-        ]
-      },
-      {
         "codcli": "33683",
         "cliente": "AH! BON CAFETERIA LTDA",
         "bairro": "FUNCIONÁRIOS",
@@ -2819,7 +2805,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35387",
+        "codcli": "35392",
         "cliente": "HR - LANCHES PROMOCOES E EVENTOS LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "15/06/2026",
@@ -2845,7 +2831,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35392",
+        "codcli": "35387",
         "cliente": "HR - LANCHES PROMOCOES E EVENTOS LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "15/06/2026",
@@ -3461,62 +3447,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 3,
             "valor": 70.68
-          }
-        ]
-      },
-      {
-        "codcli": "39400",
-        "cliente": "FABRICA DE MONSTROS CT BETIM LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "22/06/2026",
-        "produtos": [
-          {
-            "produto": "ST PIERRE RED MINTL ZERO 310 ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 80.7
-          },
-          {
-            "produto": "ST PIERRE ZERO GREEN APPLE 310 ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 80.7
-          },
-          {
-            "produto": "ST PIERRE ZERO PINK LEMON  310 ML",
-            "fantasia": "",
-            "qt": 4,
-            "valor": 107.6
-          },
-          {
-            "produto": "ST PIERRE ZERO TROPICAL  310 ML",
-            "fantasia": "",
-            "qt": 4,
-            "valor": 107.6
-          },
-          {
-            "produto": "XAROPE MONIN GRENADINE 700 ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 49.9
-          },
-          {
-            "produto": "XAROPE MONIN LIMAO SICILIANO 700 ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 49.9
-          },
-          {
-            "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 49.9
-          },
-          {
-            "produto": "XAROPE MONIN TANGERINA (MANDARIM) 700ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 49.9
           }
         ]
       },
@@ -4779,6 +4709,26 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "38043",
+        "cliente": "SUPERMERCADO SERRA DO CIPO LTDA",
+        "bairro": "CARDEAL MOTA",
+        "dtultcomp": "06/05/2026",
+        "produtos": [
+          {
+            "produto": "GIN GORDONS 750 ML",
+            "fantasia": "",
+            "qt": 6,
+            "valor": 329.4
+          },
+          {
+            "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
+            "fantasia": "",
+            "qt": 20,
+            "valor": 2395.2
+          }
+        ]
+      },
+      {
         "codcli": "39321",
         "cliente": "JEFERSON COSTA CARDOSO",
         "bairro": "VILA ZILAH SPÓSITO",
@@ -4795,6 +4745,20 @@ const NAO_POS_MG_DATA = {
             "fantasia": "HEINEKEN BRASIL",
             "qt": 1,
             "valor": 141.36
+          }
+        ]
+      },
+      {
+        "codcli": "38025",
+        "cliente": "LATICINIOS DA LAPA LTDA",
+        "bairro": "DOM PEDRO I",
+        "dtultcomp": "26/05/2026",
+        "produtos": [
+          {
+            "produto": "AZEITE DE OLIVA EV ESSENZA 500ML",
+            "fantasia": "NSG",
+            "qt": 12,
+            "valor": 322.8
           }
         ]
       },
@@ -4937,26 +4901,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "29384",
-        "cliente": "VAREJAO PARANAIBA LTDA",
-        "bairro": "JAQUELINE",
-        "dtultcomp": "08/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN GORDONS 750 ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 164.7
-          },
-          {
-            "produto": "GIN GORDONS PINK 700ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 164.7
-          }
-        ]
-      },
-      {
         "codcli": "37705",
         "cliente": "PARANAIBA VILA DAS FLORES ALIMENTOS LTDA",
         "bairro": "VILA DAS FLORES",
@@ -5029,88 +4973,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 3,
             "valor": 74.7
-          }
-        ]
-      },
-      {
-        "codcli": "29514",
-        "cliente": "PARANAIBA GUANABARA ALIMENTOS LTDA",
-        "bairro": "JARDIM GUANABARA",
-        "dtultcomp": "15/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN GORDONS 750 ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 335.4
-          },
-          {
-            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-            "fantasia": "MSLR",
-            "qt": 6,
-            "valor": 449.4
-          },
-          {
-            "produto": "WHISKY BALLANTINE'S FINEST 1L",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 419.4
-          },
-          {
-            "produto": "WHISKY JIM BEAM WHITE 1L",
-            "fantasia": "BEAM SUNTORY BRASIL",
-            "qt": 6,
-            "valor": 539.4
-          },
-          {
-            "produto": "WHISKY PASSPORT  SELECTION 1L",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 158.7
-          },
-          {
-            "produto": "XAROPE  MONIN  MAÇA VERDE 330 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 45.8
-          },
-          {
-            "produto": "XAROPE  MONIN TANGERINA 330 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 45.8
-          },
-          {
-            "produto": "XAROPE MONIN MARACUJA 330 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 45.8
-          }
-        ]
-      },
-      {
-        "codcli": "29896",
-        "cliente": "NACIONAL PARANAIBA ALIMENTOS EIRELI",
-        "bairro": "SÃO JANUÁRIO (JUSTINÓPOLIS)",
-        "dtultcomp": "16/06/2026",
-        "produtos": [
-          {
-            "produto": "XAROPE  MONIN  MAÇA VERDE 330 ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 68.7
-          },
-          {
-            "produto": "XAROPE MONIN MARACUJA 330 ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 68.7
-          },
-          {
-            "produto": "XAROPE MONIN MORANGO 330 ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 68.7
           }
         ]
       },
@@ -5239,26 +5101,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "38043",
-        "cliente": "SUPERMERCADO SERRA DO CIPO LTDA",
-        "bairro": "CARDEAL MOTA",
-        "dtultcomp": "19/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN GORDONS 750 ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 317.4
-          },
-          {
-            "produto": "GIN GORDONS PINK 700ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 105.8
-          }
-        ]
-      },
-      {
         "codcli": "34498",
         "cliente": "ORGANIZACAO PANEFLORENCA LTDA",
         "bairro": "SANTOS DUMONT",
@@ -5301,38 +5143,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "HEINEKEN BRASIL",
             "qt": 2,
             "valor": 287.52
-          }
-        ]
-      },
-      {
-        "codcli": "38025",
-        "cliente": "LATICINIOS DA LAPA LTDA",
-        "bairro": "DOM PEDRO I",
-        "dtultcomp": "24/06/2026",
-        "produtos": [
-          {
-            "produto": "ST PIERRE PINK LEMONADE LN 200MLX12",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 52.38
-          },
-          {
-            "produto": "ST PIERRE RED MINTL ZERO 310 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 53.8
-          },
-          {
-            "produto": "ST PIERRE ZERO PINK LEMON  310 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 53.8
-          },
-          {
-            "produto": "ST PIERRE ZERO TROPICAL  310 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 53.8
           }
         ]
       },
@@ -5397,44 +5207,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 6,
             "valor": 367.08
-          }
-        ]
-      },
-      {
-        "codcli": "29894",
-        "cliente": "VAREJAO PLANALTO LTDA.",
-        "bairro": "PLANALTO",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA BRANCO 750ML",
-            "fantasia": "",
-            "qt": 18,
-            "valor": 603.0
-          },
-          {
-            "produto": "VILLA ROSA ROSE 750ML",
-            "fantasia": "",
-            "qt": 18,
-            "valor": 603.0
-          },
-          {
-            "produto": "VILLA ROSA TINTO 750ML",
-            "fantasia": "",
-            "qt": 18,
-            "valor": 603.0
-          },
-          {
-            "produto": "VINHO VILLA ROSA FRISANTE BRANCO 750ML",
-            "fantasia": "",
-            "qt": 18,
-            "valor": 592.2
-          },
-          {
-            "produto": "VINHO VILLA ROSA FRISANTE ROSE 750ML",
-            "fantasia": "",
-            "qt": 18,
-            "valor": 592.2
           }
         ]
       },
@@ -6919,50 +6691,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "HEINEKEN BRASIL",
             "qt": 4,
             "valor": 565.44
-          }
-        ]
-      },
-      {
-        "codcli": "36583",
-        "cliente": "RESTAURANTE E CHURRASCARIA CHEFAO LTDA",
-        "bairro": "JARDIM CANADA",
-        "dtultcomp": "25/06/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA ROSE 750ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 128.7
-          },
-          {
-            "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
-            "fantasia": "",
-            "qt": 4,
-            "valor": 219.6
-          },
-          {
-            "produto": "VINHO ARESTI EST SEL CHARDONNAY 750ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 164.7
-          },
-          {
-            "produto": "VINHO ARESTI EST SEL PINOT NOIR 750ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 164.7
-          },
-          {
-            "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
-            "fantasia": "",
-            "qt": 8,
-            "valor": 151.2
-          },
-          {
-            "produto": "VINHO MARQUÉS DE TEJARES 750ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 173.7
           }
         ]
       },
