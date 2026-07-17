@@ -1,5 +1,5 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "17/07/2026 13:39",
+  "atualizado_em": "17/07/2026 14:08",
   "periodo_dias": 90,
   "fontes_indisponiveis": [],
   "pedidos_feitos": [
@@ -144,7 +144,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :664",
       "obs": "",
       "total": 514.8,
@@ -171,7 +171,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :5992",
       "obs": "",
       "total": 254.52,
@@ -404,7 +404,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "PLANO DE PAGAMENTO DEP",
       "obs": "",
       "total": 382.2,
@@ -445,7 +445,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :381",
       "obs": "",
       "total": 689.8,
@@ -479,7 +479,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "",
       "obs": "loja fica na rua do canal logo no inicio",
       "total": 359.8,
@@ -506,7 +506,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "",
       "obs": "",
       "total": 334.8,
@@ -699,7 +699,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "",
       "obs": "",
       "total": 271.4,
@@ -783,6 +783,109 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
+      "numped": "155003900",
+      "numnota": "",
+      "data": "17/07/2026",
+      "data_ord": "2026-07-17",
+      "nome": "RAPHAEL SANTOS - OFF TRADE",
+      "cliente": "DIEGO DE CARVALHO ALONSO 14657823701",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :857",
+      "obs": "",
+      "total": 1029.76,
+      "itens": [
+        {
+          "desc": "RED BULL 24X250ML",
+          "qt": 1,
+          "val": 179.76,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY BUCHANANS 12 YEARS 1000 ML",
+          "qt": 2,
+          "val": 319.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "APERITIVO APEROL 750 ML",
+          "qt": 2,
+          "val": 95.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 2,
+          "val": 73.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "qt": 1,
+          "val": 124.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "GIN BEEFEATER PINK 700ML",
+          "qt": 2,
+          "val": 139.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "ST PIERRE LATA RED MINT LT 24X270ML",
+          "qt": 1,
+          "val": 95.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "476000210",
+      "numnota": "",
+      "data": "17/07/2026",
+      "data_ord": "2026-07-17",
+      "nome": "RODRIGO LIMA - OFF TRADE",
+      "cliente": "34.668.039 BRUNO SILVA CANCIO",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 1569.6,
+      "itens": [
+        {
+          "desc": "WHISKY JACK DANIELS APPLE 1L",
+          "qt": 12,
+          "val": 1306.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "CACHAÇA SAO FRANCISCO 970ML",
+          "qt": 12,
+          "val": 262.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
       "numped": "588003111",
       "numnota": "",
       "data": "17/07/2026",
@@ -794,7 +897,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "",
       "obs": "",
       "total": 5032.8,
@@ -821,7 +924,7 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "",
       "obs": "",
       "total": 802.2,
@@ -851,6 +954,33 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
+      "numped": "512000006",
+      "numnota": "",
+      "data": "17/07/2026",
+      "data_ord": "2026-07-17",
+      "nome": "WILLIAM GONCALVES - OFF TRADE",
+      "cliente": "DJ DISTRIBUIDORA DE BEBIDAS LTDA",
+      "sistema": "SPON",
+      "estado": "Sem Estado",
+      "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 2008.8,
+      "itens": [
+        {
+          "desc": "CONHAQUE DOMECQ 1L",
+          "qt": 72,
+          "val": 2008.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
       "numped": "504000007",
       "numnota": "",
       "data": "17/07/2026",
@@ -862,7 +992,7 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "",
       "obs": "",
       "total": 560.5,
@@ -878,6 +1008,40 @@ const PEDIDOS_DATA = {
           "desc": "LICOR 43 DIEGO ZAMORA CREME BRULEE 700ML",
           "qt": 2,
           "val": 209.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "360000361",
+      "numnota": "",
+      "data": "17/07/2026",
+      "data_ord": "2026-07-17",
+      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
+      "cliente": "RARO INDUSTRIA DE ALIMENTOS LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :484",
+      "obs": "CD",
+      "total": 22731.0,
+      "itens": [
+        {
+          "desc": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 132,
+          "val": 12394.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+          "qt": 138,
+          "val": 10336.2,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -937,7 +1101,7 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :2699",
       "obs": "",
       "total": 430.64,
@@ -978,7 +1142,7 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "",
       "obs": "",
       "total": 2690.69,
@@ -1022,6 +1186,61 @@ const PEDIDOS_DATA = {
           "desc": "VINHO GRAVEDAD CARMENERE 750ML",
           "qt": 6,
           "val": 203.94,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "344000514",
+      "numnota": "",
+      "data": "17/07/2026",
+      "data_ord": "2026-07-17",
+      "nome": "TIAGO ANDRADE - OFF TRADE",
+      "cliente": "VILLA FERNANDA FOODS LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "",
+      "obs": "",
+      "total": 1540.7,
+      "itens": [
+        {
+          "desc": "J W RED LABEL 12/50 ML",
+          "qt": 4,
+          "val": 311.6,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "J W BLACK LABEL 12/50 ML",
+          "qt": 2,
+          "val": 501.6,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "MINIATURA BEEFEATER  12 X 50ML",
+          "qt": 2,
+          "val": 307.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "MINIATURA CHIVAS 12YO 12 X 50ML",
+          "qt": 2,
+          "val": 319.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "MINIATURA JAMESON 12 X 50ML",
+          "qt": 1,
+          "val": 99.9,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -2184,7 +2403,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :3011",
       "obs": "",
       "total": 49.28,
@@ -2903,7 +3122,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "O valor limite de credito foi excedido.  Vl. Ped.: 11354.4 C",
       "obs": "",
       "total": 11354.4,
@@ -2951,7 +3170,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "O valor limite de credito foi excedido.  Vl. Ped.: 5956.2 Cr",
       "obs": "",
       "total": 5956.2,
@@ -2985,7 +3204,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "O valor limite de credito foi excedido.  Vl. Ped.: 5994 Cred",
       "obs": "",
       "total": 5994.0,
@@ -3012,7 +3231,7 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "O valor limite de credito foi excedido.  Vl. Ped.: 14044.8 C",
       "obs": "",
       "total": 14044.8,
@@ -3232,7 +3451,7 @@ const PEDIDOS_DATA = {
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "O valor limite de credito foi excedido.  Vl. Ped.: 25073.64",
       "obs": "",
       "total": 25073.64,
@@ -3390,7 +3609,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "O valor limite de credito foi excedido.  Vl. Ped.: 5114.58 C",
       "obs": "",
       "total": 5114.58,
@@ -3452,7 +3671,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "O valor limite de credito foi excedido.  Vl. Ped.: 4315.2 Cr",
       "obs": "",
       "total": 4315.2,
@@ -3479,7 +3698,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "O valor limite de credito foi excedido.  Vl. Ped.: 5256 Cred",
       "obs": "",
       "total": 5256.0,
@@ -3506,7 +3725,7 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "",
       "obs": "",
       "total": 33672.36,
@@ -3561,7 +3780,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "O valor limite de credito foi excedido.  Vl. Ped.: 14530.2 C",
       "obs": "",
       "total": 14530.2,
@@ -3684,7 +3903,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "O valor limite de credito foi excedido.  Vl. Ped.: 5256 Cred",
       "obs": "",
       "total": 5256.0,
@@ -3711,7 +3930,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "O valor limite de credito foi excedido.  Vl. Ped.: 1544.4 Cr",
       "obs": "",
       "total": 1544.4,
@@ -3738,7 +3957,7 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "",
       "obs": "",
       "total": 251.8,
@@ -3813,7 +4032,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "O valor limite de credito foi excedido.  Vl. Ped.: 2348.4 Cr",
       "obs": "",
       "total": 2348.4,
@@ -4066,7 +4285,7 @@ const PEDIDOS_DATA = {
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "O valor limite de credito foi excedido.  Vl. Ped.: 789.6 Cre",
       "obs": "",
       "total": 789.6,
@@ -4134,7 +4353,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "O Cliente esta bloqueado.",
       "obs": "",
       "total": 4794.0,
@@ -12066,41 +12285,6 @@ const PEDIDOS_DATA = {
       ],
       "tem_corte": false,
       "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "159005057",
-      "numnota": "412658",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "GISELLE BARFER - OFF TRADE",
-      "cliente": "JOELI CARVALHO BUFFET & EVENTOS LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :129",
-      "obs": "",
-      "total": 3156.0,
-      "itens": [
-        {
-          "desc": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "qt": 20,
-          "val": 1958.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VODKA ABSOLUT 1L",
-          "qt": 20,
-          "val": 1198.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
     },
     {
       "numped": "159005058",
@@ -23337,62 +23521,6 @@ const PEDIDOS_DATA = {
           "desc": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
           "qt": 12,
           "val": 226.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
-      "numped": "344000493",
-      "numnota": "125085",
-      "data": "14/07/2026",
-      "data_ord": "2026-07-14",
-      "nome": "TIAGO ANDRADE - OFF TRADE",
-      "cliente": "VILLAGE FOODS LTDA",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :2841",
-      "obs": "",
-      "total": 434.38,
-      "itens": [
-        {
-          "desc": "VODKA ABSOLUT - 1 LITRO",
-          "qt": 1,
-          "val": 74.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN BEEFEATER 750ML",
-          "qt": 1,
-          "val": 74.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "4 PACK RED BULL MELANCIA",
-          "qt": 2,
-          "val": 63.92,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO ADELE ROSE 750ML",
-          "qt": 1,
-          "val": 76.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "CERVEJA HEINEKEN  LONG ZERO 24X330ML",
-          "qt": 1,
-          "val": 143.76,
           "qtfalta": 0.0,
           "cortado": false
         }
