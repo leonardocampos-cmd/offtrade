@@ -1,10 +1,58 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "17/07/2026 16:17",
+  "atualizado_em": "17/07/2026 17:15",
   "periodo_dias": 90,
   "fontes_indisponiveis": [
     "SPON"
   ],
   "pedidos_feitos": [
+    {
+      "numped": "155003902",
+      "numnota": "",
+      "data": "17/07/2026",
+      "data_ord": "2026-07-17",
+      "nome": "RAPHAEL SANTOS - OFF TRADE",
+      "cliente": "PORTO MANGUINHOS BAR E RESTAURANTE LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "Item com desconto acima do permitido :3011",
+      "obs": "",
+      "total": 2375.4,
+      "itens": [
+        {
+          "desc": "VILLA ROSA  ROSE 750ML",
+          "qt": 12,
+          "val": 358.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO FOODKILLER CHARDONNAY 750ML",
+          "qt": 24,
+          "val": 957.6,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "ESPUMANTE ALUD BRANCO 750ML",
+          "qt": 24,
+          "val": 789.6,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI ESTATE S. CHARDONNAY 750ML",
+          "qt": 6,
+          "val": 269.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
     {
       "numped": "439000269",
       "numnota": "",
@@ -26,61 +74,6 @@ const PEDIDOS_DATA = {
           "desc": "TEQUILA ALTOS PLATA 750ML",
           "qt": 3,
           "val": 423.3,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false
-    },
-    {
-      "numped": "379001263",
-      "numnota": "",
-      "data": "17/07/2026",
-      "data_ord": "2026-07-17",
-      "nome": "JORGE MACIEL - OFF TRADE",
-      "cliente": "AUTO POSTO ALIANCA DE CABUCU LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Bloqueado (alçada)",
-      "motivo": "Item com desconto acima do permitido :663",
-      "obs": "posto de gasolina. rua principal",
-      "total": 669.9,
-      "itens": [
-        {
-          "desc": "VODKA ABSOLUT 1L",
-          "qt": 3,
-          "val": 194.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "qt": 3,
-          "val": 104.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
-          "qt": 1,
-          "val": 105.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY BALLANTINE S SUNSHINE 700ML",
-          "qt": 3,
-          "val": 158.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "LICOR BALLENA COCO 750ML",
-          "qt": 1,
-          "val": 105.9,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -164,177 +157,40 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
-      "numped": "379001266",
+      "numped": "412001420",
       "numnota": "",
       "data": "17/07/2026",
       "data_ord": "2026-07-17",
-      "nome": "JORGE MACIEL - OFF TRADE",
-      "cliente": "MONTES DOCES MARECHAL HERMES LTDA",
+      "nome": "BARBARA CABRAL - OFF TRADE",
+      "cliente": "WMDIAS 24H LTDA",
       "sistema": "CRC",
       "estado": "RJ",
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Bloqueado (alçada)",
-      "motivo": "Item com desconto acima do permitido :4843",
+      "posicao": "Liberado",
+      "motivo": "PRODUTO SEM ESTOQUE",
       "obs": "",
-      "total": 348.5,
+      "total": 1723.01,
       "itens": [
         {
-          "desc": "GIN BEEFEATER 750ML",
-          "qt": 1,
-          "val": 69.9,
+          "desc": "GUARAVITA NATURAL 24X290ML",
+          "qt": 10,
+          "val": 319.93,
           "qtfalta": 0.0,
           "cortado": false
         },
         {
-          "desc": "GIN BEEFEATER PINK 700ML",
-          "qt": 1,
-          "val": 69.9,
+          "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "qt": 15,
+          "val": 298.5,
           "qtfalta": 0.0,
           "cortado": false
         },
-        {
-          "desc": "WHISKY BALLANTINE S SUNSHINE 700ML",
-          "qt": 1,
-          "val": 52.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
-          "qt": 1,
-          "val": 95.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VODKA ABSOLUT TABASCO 750ML",
-          "qt": 1,
-          "val": 59.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false
-    },
-    {
-      "numped": "144001664",
-      "numnota": "",
-      "data": "17/07/2026",
-      "data_ord": "2026-07-17",
-      "nome": "DIOGO RAPOSO - OFF TRADE",
-      "cliente": "MARCIO GARCIA SANCHES 01351218760",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Bloqueado (alçada)",
-      "motivo": "Item com desconto acima do permitido :5991",
-      "obs": "",
-      "total": 902.4,
-      "itens": [
-        {
-          "desc": "NECTAR ABACAXI 12X1000ML",
-          "qt": 3,
-          "val": 169.2,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "NECTAR GOIABA 12X1000ML",
-          "qt": 3,
-          "val": 169.2,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "NECTAR LARANJA 12X1000ML",
-          "qt": 5,
-          "val": 282.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "NECTAR PESSEGO 12X1000ML",
-          "qt": 5,
-          "val": 282.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false
-    },
-    {
-      "numped": "155003901",
-      "numnota": "",
-      "data": "17/07/2026",
-      "data_ord": "2026-07-17",
-      "nome": "RAPHAEL SANTOS - OFF TRADE",
-      "cliente": "J. W. DEPOSITO DE BEBIDAS LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Bloqueado (alçada)",
-      "motivo": "Item com desconto acima do permitido :3272",
-      "obs": "",
-      "total": 617.18,
-      "itens": [
-        {
-          "desc": "RED BULL 24X250ML",
-          "qt": 1,
-          "val": 179.76,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RED BULL TROPICAL 24X250ML",
-          "qt": 1,
-          "val": 179.76,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RED BULL MELANCIA 250ML CX C/24",
-          "qt": 1,
-          "val": 179.76,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "COQUETEL PINK MOON 12X600ML - PET",
-          "qt": 1,
-          "val": 77.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false
-    },
-    {
-      "numped": "156003719",
-      "numnota": "",
-      "data": "17/07/2026",
-      "data_ord": "2026-07-17",
-      "nome": "MARILENA TRAGEL - OFF TRADE",
-      "cliente": "POSTO HILARIO DE GOUVEIA LIMITADA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Bloqueado (alçada)",
-      "motivo": "",
-      "obs": "",
-      "total": 562.5,
-      "itens": [
         {
           "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
-          "qt": 20,
-          "val": 418.0,
+          "qt": 30,
+          "val": 627.0,
           "qtfalta": 0.0,
           "cortado": false
         },
@@ -344,9 +200,16 @@ const PEDIDOS_DATA = {
           "val": 144.5,
           "qtfalta": 0.0,
           "cortado": false
+        },
+        {
+          "desc": "GUARAVITON GINSENG 12X500ML",
+          "qt": 9,
+          "val": 333.08,
+          "qtfalta": 1.0,
+          "cortado": true
         }
       ],
-      "tem_corte": false
+      "tem_corte": true
     },
     {
       "numped": "153001309",
@@ -474,60 +337,6 @@ const PEDIDOS_DATA = {
           "desc": "NECTAR MACA TIAL 12X1000ML",
           "qt": 3,
           "val": 163.44,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false
-    },
-    {
-      "numped": "144001665",
-      "numnota": "",
-      "data": "17/07/2026",
-      "data_ord": "2026-07-17",
-      "nome": "DIOGO RAPOSO - OFF TRADE",
-      "cliente": "MARCIO GARCIA SANCHES 01351218760",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Bloqueado (alçada)",
-      "motivo": "Item com desconto acima do permitido :5989",
-      "obs": "",
-      "total": 282.0,
-      "itens": [
-        {
-          "desc": "NECTAR MANGA 12X1000ML",
-          "qt": 5,
-          "val": 282.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false
-    },
-    {
-      "numped": "379001265",
-      "numnota": "",
-      "data": "17/07/2026",
-      "data_ord": "2026-07-17",
-      "nome": "JORGE MACIEL - OFF TRADE",
-      "cliente": "NASOLI COMERCIO DE BEBIDAS LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Bloqueado (alçada)",
-      "motivo": "Item com desconto acima do permitido :2089",
-      "obs": "",
-      "total": 420.0,
-      "itens": [
-        {
-          "desc": "COQUETEL BANANINHA REGGIANI 950ML",
-          "qt": 24,
-          "val": 420.0,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -2874,6 +2683,132 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
+      "numped": "379001263",
+      "numnota": "413277",
+      "data": "17/07/2026",
+      "data_ord": "2026-07-17",
+      "nome": "JORGE MACIEL - OFF TRADE",
+      "cliente": "AUTO POSTO ALIANCA DE CABUCU LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :663",
+      "obs": "posto de gasolina. rua principal",
+      "total": 511.2,
+      "itens": [
+        {
+          "desc": "VODKA ABSOLUT 1L",
+          "qt": 3,
+          "val": 194.7,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 3,
+          "val": 104.7,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
+          "qt": 1,
+          "val": 105.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "LICOR BALLENA COCO 750ML",
+          "qt": 1,
+          "val": 105.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "379001265",
+      "numnota": "413278",
+      "data": "17/07/2026",
+      "data_ord": "2026-07-17",
+      "nome": "JORGE MACIEL - OFF TRADE",
+      "cliente": "NASOLI COMERCIO DE BEBIDAS LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2089",
+      "obs": "",
+      "total": 420.0,
+      "itens": [
+        {
+          "desc": "COQUETEL BANANINHA REGGIANI 950ML",
+          "qt": 24,
+          "val": 420.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "379001266",
+      "numnota": "413267",
+      "data": "17/07/2026",
+      "data_ord": "2026-07-17",
+      "nome": "JORGE MACIEL - OFF TRADE",
+      "cliente": "MONTES DOCES MARECHAL HERMES LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4843",
+      "obs": "",
+      "total": 295.6,
+      "itens": [
+        {
+          "desc": "GIN BEEFEATER 750ML",
+          "qt": 1,
+          "val": 69.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "GIN BEEFEATER PINK 700ML",
+          "qt": 1,
+          "val": 69.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+          "qt": 1,
+          "val": 95.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VODKA ABSOLUT TABASCO 750ML",
+          "qt": 1,
+          "val": 59.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
       "numped": "471000441",
       "numnota": "413205",
       "data": "17/07/2026",
@@ -2971,6 +2906,118 @@ const PEDIDOS_DATA = {
           "desc": "VINHO ARESTI ESTATE S.  ROSE 187ML",
           "qt": 6,
           "val": 89.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "156003719",
+      "numnota": "413315",
+      "data": "17/07/2026",
+      "data_ord": "2026-07-17",
+      "nome": "MARILENA TRAGEL - OFF TRADE",
+      "cliente": "POSTO HILARIO DE GOUVEIA LIMITADA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
+      "obs": "",
+      "total": 562.5,
+      "itens": [
+        {
+          "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "qt": 20,
+          "val": 418.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "qt": 5,
+          "val": 144.5,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "144001664",
+      "numnota": "413286",
+      "data": "17/07/2026",
+      "data_ord": "2026-07-17",
+      "nome": "DIOGO RAPOSO - OFF TRADE",
+      "cliente": "MARCIO GARCIA SANCHES 01351218760",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5991",
+      "obs": "",
+      "total": 902.4,
+      "itens": [
+        {
+          "desc": "NECTAR ABACAXI 12X1000ML",
+          "qt": 3,
+          "val": 169.2,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "NECTAR GOIABA 12X1000ML",
+          "qt": 3,
+          "val": 169.2,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "NECTAR LARANJA 12X1000ML",
+          "qt": 5,
+          "val": 282.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "NECTAR PESSEGO 12X1000ML",
+          "qt": 5,
+          "val": 282.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "144001665",
+      "numnota": "413285",
+      "data": "17/07/2026",
+      "data_ord": "2026-07-17",
+      "nome": "DIOGO RAPOSO - OFF TRADE",
+      "cliente": "MARCIO GARCIA SANCHES 01351218760",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :5989",
+      "obs": "",
+      "total": 282.0,
+      "itens": [
+        {
+          "desc": "NECTAR MANGA 12X1000ML",
+          "qt": 5,
+          "val": 282.0,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -3153,6 +3200,55 @@ const PEDIDOS_DATA = {
           "desc": "GIN ROCKS 1000ML",
           "qt": 4,
           "val": 116.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "155003901",
+      "numnota": "413289",
+      "data": "17/07/2026",
+      "data_ord": "2026-07-17",
+      "nome": "RAPHAEL SANTOS - OFF TRADE",
+      "cliente": "J. W. DEPOSITO DE BEBIDAS LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3272",
+      "obs": "",
+      "total": 617.18,
+      "itens": [
+        {
+          "desc": "RED BULL 24X250ML",
+          "qt": 1,
+          "val": 179.76,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "RED BULL TROPICAL 24X250ML",
+          "qt": 1,
+          "val": 179.76,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "RED BULL MELANCIA 250ML CX C/24",
+          "qt": 1,
+          "val": 179.76,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "COQUETEL PINK MOON 12X600ML - PET",
+          "qt": 1,
+          "val": 77.9,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -59042,76 +59138,6 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
-      "numped": "354000474",
-      "numnota": "119098",
-      "data": "20/05/2026",
-      "data_ord": "2026-05-20",
-      "nome": "MATHEUS DE SOUZA - OFF TRADE",
-      "cliente": "DAKI BELO HORIZONTE LTDA",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "PEDIDO :0489407",
-      "total": 24219.36,
-      "itens": [
-        {
-          "desc": "RED BULL 250ML CAIXA C/24 UNID",
-          "qt": 38,
-          "val": 7606.08,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RED BULL SUGAR FREE  250 ML CX C/24",
-          "qt": 27,
-          "val": 5404.32,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-          "qt": 24,
-          "val": 4803.84,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RED BULL CEREJA 24X250ML",
-          "qt": 1,
-          "val": 200.16,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RED BULL SF POMELO 24X250ML",
-          "qt": 9,
-          "val": 1801.44,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RED BULL NECTARINA SF 24X250ML",
-          "qt": 8,
-          "val": 1601.28,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RED BULL MAÇA SF 250ML  C/24 UNID",
-          "qt": 14,
-          "val": 2802.24,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
       "numped": "275000494",
       "numnota": "395116",
       "data": "19/05/2026",
@@ -59321,97 +59347,6 @@ const PEDIDOS_DATA = {
           "desc": "GIN DUBAR 960ML",
           "qt": 72,
           "val": 1342.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
-      "numped": "354000467",
-      "numnota": "118902",
-      "data": "19/05/2026",
-      "data_ord": "2026-05-19",
-      "nome": "MATHEUS DE SOUZA - OFF TRADE",
-      "cliente": "DAKI BELO HORIZONTE LTDA",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :738",
-      "obs": "pedido:0489308",
-      "total": 24754.08,
-      "itens": [
-        {
-          "desc": "VODKA SMIRNOFF RED 998 ML",
-          "qt": 48,
-          "val": 1675.2,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
-          "qt": 3,
-          "val": 394.08,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN TANQUERAY  750 ML",
-          "qt": 12,
-          "val": 1234.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY WALKER RED LABEL 1L",
-          "qt": 48,
-          "val": 3835.2,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY OLD PARR GOLD 1 L",
-          "qt": 12,
-          "val": 1704.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY J WALKER BLACK LABEL 1L",
-          "qt": 12,
-          "val": 1894.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN GORDONS 750 ML",
-          "qt": 12,
-          "val": 706.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "JACK DANIELS HONEY 1 L",
-          "qt": 24,
-          "val": 3165.6,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
-          "qt": 36,
-          "val": 5396.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN BOMBAY SAPPHIRE 750ML DEST",
-          "qt": 48,
-          "val": 4747.2,
           "qtfalta": 0.0,
           "cortado": false
         }
