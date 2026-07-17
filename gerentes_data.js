@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "17/07/2026 14:03",
+  "atualizado_em": "17/07/2026 14:21",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -1721,8 +1721,8 @@ const GERENTES_DATA = {
           "qt": 106872
         },
         "Jul/26": {
-          "fat": 3327720.77,
-          "qt": 85355
+          "fat": 3338066.65,
+          "qt": 85787
         },
         "Jun/26": {
           "fat": 7312916.81,
@@ -1883,8 +1883,8 @@ const GERENTES_DATA = {
               "qt": 26231
             },
             "Jul/26": {
-              "fat": 1882423.85,
-              "qt": 46603
+              "fat": 1892769.73,
+              "qt": 47035
             },
             "Jun/26": {
               "fat": 4865540.37,
@@ -1915,8 +1915,8 @@ const GERENTES_DATA = {
                   "qt": 23685
                 },
                 "Jul/26": {
-                  "fat": 206067.02,
-                  "qt": 3593
+                  "fat": 216412.9,
+                  "qt": 4025
                 },
                 "Jun/26": {
                   "fat": 2088361.96,
@@ -2169,6 +2169,17 @@ const GERENTES_DATA = {
                   "rca": "480",
                   "estado": "SP",
                   "por_mes": {}
+                },
+                {
+                  "nome": "WILLIAM GONCALVES - OFF TRADE",
+                  "rca": "512",
+                  "estado": "SP",
+                  "por_mes": {
+                    "Jul/26": {
+                      "fat": 10345.88,
+                      "qt": 432
+                    }
+                  }
                 }
               ]
             },
@@ -2953,10 +2964,6 @@ const GERENTES_DATA = {
         "Fev/26": {
           "fat": 60587.64,
           "qt": 2430
-        },
-        "Jul/26": {
-          "fat": 10345.88,
-          "qt": 432
         }
       },
       "gerentes": [
@@ -3142,22 +3149,12 @@ const GERENTES_DATA = {
         {
           "nome": "MARCUS TANAMACHI",
           "estados": [],
-          "por_mes": {
-            "Jul/26": {
-              "fat": 10345.88,
-              "qt": 432
-            }
-          },
+          "por_mes": {},
           "supervisores": [
             {
               "nome": "ANDERSON CANAVEIS",
               "estados": [],
-              "por_mes": {
-                "Jul/26": {
-                  "fat": 10345.88,
-                  "qt": 432
-                }
-              },
+              "por_mes": {},
               "vendedores": [
                 {
                   "nome": "HELENA CAVALCANTI - OFF TRADE",
@@ -3182,17 +3179,6 @@ const GERENTES_DATA = {
                   "rca": "515",
                   "estado": "",
                   "por_mes": {}
-                },
-                {
-                  "nome": "WILLIAM GONCALVES - OFF TRADE",
-                  "rca": "512",
-                  "estado": "",
-                  "por_mes": {
-                    "Jul/26": {
-                      "fat": 10345.88,
-                      "qt": 432
-                    }
-                  }
                 }
               ]
             },
