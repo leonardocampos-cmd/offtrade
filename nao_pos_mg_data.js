@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "17/07/2026 16:19",
+  "atualizado_em": "17/07/2026 17:17",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -2207,7 +2207,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35400",
+        "codcli": "38896",
         "cliente": "LCA COMERCIO LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "12/06/2026",
@@ -2215,32 +2215,32 @@ const NAO_POS_MG_DATA = {
           {
             "produto": "RED BULL 250ML CAIXA C/24 UNID",
             "fantasia": "",
-            "qt": 3,
-            "valor": 424.08
+            "qt": 2,
+            "valor": 282.72
           },
           {
             "produto": "RED BULL AMORA EDITION SF 24X250ML",
             "fantasia": "",
-            "qt": 2,
-            "valor": 282.72
+            "qt": 1,
+            "valor": 141.36
           },
           {
             "produto": "RED BULL MELANCIA 24X250ML",
             "fantasia": "",
-            "qt": 2,
-            "valor": 282.72
+            "qt": 1,
+            "valor": 141.36
           },
           {
             "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
             "fantasia": "",
-            "qt": 2,
-            "valor": 282.72
+            "qt": 1,
+            "valor": 141.36
           },
           {
             "produto": "RED BULL NECTARINA SF 24X250ML",
             "fantasia": "",
-            "qt": 2,
-            "valor": 282.72
+            "qt": 1,
+            "valor": 141.36
           },
           {
             "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
@@ -2251,8 +2251,8 @@ const NAO_POS_MG_DATA = {
           {
             "produto": "RED BULL ZERO 24X250ML",
             "fantasia": "",
-            "qt": 2,
-            "valor": 282.72
+            "qt": 1,
+            "valor": 141.36
           }
         ]
       },
@@ -2307,7 +2307,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "38896",
+        "codcli": "35400",
         "cliente": "LCA COMERCIO LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "12/06/2026",
@@ -2315,32 +2315,32 @@ const NAO_POS_MG_DATA = {
           {
             "produto": "RED BULL 250ML CAIXA C/24 UNID",
             "fantasia": "",
-            "qt": 2,
-            "valor": 282.72
+            "qt": 3,
+            "valor": 424.08
           },
           {
             "produto": "RED BULL AMORA EDITION SF 24X250ML",
             "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
+            "qt": 2,
+            "valor": 282.72
           },
           {
             "produto": "RED BULL MELANCIA 24X250ML",
             "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
+            "qt": 2,
+            "valor": 282.72
           },
           {
             "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
             "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
+            "qt": 2,
+            "valor": 282.72
           },
           {
             "produto": "RED BULL NECTARINA SF 24X250ML",
             "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
+            "qt": 2,
+            "valor": 282.72
           },
           {
             "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
@@ -2351,8 +2351,8 @@ const NAO_POS_MG_DATA = {
           {
             "produto": "RED BULL ZERO 24X250ML",
             "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
+            "qt": 2,
+            "valor": 282.72
           }
         ]
       },
@@ -2837,26 +2837,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33014",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "",
-            "qt": 4,
-            "valor": 159.6
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "",
-            "qt": 4,
-            "valor": 159.6
-          }
-        ]
-      },
-      {
         "codcli": "32871",
         "cliente": "ER COZINHA ARTESANAL LTDA",
         "bairro": "VILA DA SERRA",
@@ -2873,6 +2853,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 6,
             "valor": 239.4
+          }
+        ]
+      },
+      {
+        "codcli": "33014",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "LOURDES",
+        "dtultcomp": "18/06/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "",
+            "qt": 4,
+            "valor": 159.6
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "",
+            "qt": 4,
+            "valor": 159.6
           }
         ]
       },
@@ -3678,6 +3678,13 @@ const NAO_POS_MG_DATA = {
         "codcli": "39580",
         "cliente": "CLUB GOURMET LTDA.",
         "bairro": "LOURDES",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39632",
+        "cliente": "ROTA BEBIDAS LTDA",
+        "bairro": "JARDIM AMÉRICA",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -6328,20 +6335,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "34920",
-        "cliente": "RESTAURANTE BETANIA LTDA",
-        "bairro": "BETANIA",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
-            "fantasia": "",
-            "qt": 5,
-            "valor": 898.8
-          }
-        ]
-      },
-      {
         "codcli": "33356",
         "cliente": "EVA APARECIDA DOS REIS",
         "bairro": "SANTOS DUMONT",
@@ -6382,6 +6375,32 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "30323",
+        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
+        "bairro": "SANTO ANTONIO",
+        "dtultcomp": "23/06/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK RED BULL MELANCIA",
+            "fantasia": "",
+            "qt": 3,
+            "valor": 89.88
+          },
+          {
+            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
+            "fantasia": "",
+            "qt": 3,
+            "valor": 89.88
+          },
+          {
+            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 179.76
+          }
+        ]
+      },
+      {
         "codcli": "38776",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
         "bairro": "ESTORIL",
@@ -6410,32 +6429,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 1,
             "valor": 29.96
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 179.76
-          }
-        ]
-      },
-      {
-        "codcli": "30323",
-        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "SANTO ANTONIO",
-        "dtultcomp": "23/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 89.88
-          },
-          {
-            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 89.88
           },
           {
             "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
