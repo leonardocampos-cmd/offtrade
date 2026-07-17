@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "17/07/2026 14:11",
-  "total": 4342,
+  "atualizado_em": "17/07/2026 15:10",
+  "total": 4343,
   "clientes": [
     {
       "codcli": "31683",
@@ -61650,6 +61650,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JOSE MARCELO CARDOSO - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
+    },
+    {
+      "codcli": "3754",
+      "razao": "SUPERMERCADO BARRA OESTE LTDA",
+      "fantasia": "SUPER MARKET",
+      "bairro": "RECREIO DOS BANDEIRANTES",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "08.719.835/0001-08",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "REDE SUPERMARKET",
+      "codusur1": "158",
+      "nome_usur1": "JOSE MARCELO CARDOSO - OFF TRADE",
+      "codusur2": "117",
+      "nome_usur2": "LISTA DE RCA ANTIGO"
     },
     {
       "codcli": "67821",
