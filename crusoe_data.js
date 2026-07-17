@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "17/07/2026 14:07",
+  "atualizado_em": "17/07/2026 15:05",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -1878,6 +1878,208 @@ const CRUSOE_DATA = {
           ]
         },
         {
+          "rca": 153,
+          "vendedor": "Angelo Neves Suzart",
+          "pedidos": 6,
+          "positivacoes": 2,
+          "novos_skus": 7,
+          "faturamento": 9325.47,
+          "pontos_positivacao": 10,
+          "pontos_novos_skus": 28,
+          "pontos_pedidos_valor": 8,
+          "pontos_total": 46,
+          "vendas": [
+            {
+              "numnota": "408274",
+              "data": "01/07/2026",
+              "cliente": "MERCADO RC DE ITAGUAI LTDA",
+              "valor_pedido": 4361.19,
+              "eventos": [
+                {
+                  "tipo": "pedido (acima de R$3001)",
+                  "pontos": 3
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 10.0,
+                  "valor": 1995.0,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 10.0,
+                  "valor": 1995.0,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
+                  "qt": 3.0,
+                  "valor": 371.19,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "409882",
+              "data": "06/07/2026",
+              "cliente": "MERCADO RIO SUL DA FIGUEIRA LTDA",
+              "valor_pedido": 997.5,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$500-1000)",
+                  "pontos": 1
+                },
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 5.0,
+                  "valor": 997.5,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "409917",
+              "data": "06/07/2026",
+              "cliente": "MERCADO RIO SUL DA FIGUEIRA LTDA",
+              "valor_pedido": 399.0,
+              "eventos": [],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 2.0,
+                  "valor": 399.0,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "411066",
+              "data": "10/07/2026",
+              "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+              "valor_pedido": 997.5,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$500-1000)",
+                  "pontos": 1
+                },
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 5.0,
+                  "valor": 997.5,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "411352",
+              "data": "11/07/2026",
+              "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
+              "valor_pedido": 997.5,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$500-1000)",
+                  "pontos": 1
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 5.0,
+                  "valor": 997.5,
+                  "pontuacoes": []
+                }
+              ]
+            },
+            {
+              "numnota": "412707",
+              "data": "15/07/2026",
+              "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
+              "valor_pedido": 1572.78,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$1001-3000)",
+                  "pontos": 2
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 5.0,
+                  "valor": 997.5,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC ATUM RALADO NATURAL 24X140G",
+                  "qt": 1.0,
+                  "valor": 191.76,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM SOLIDO OLEO 24X170G",
+                  "qt": 1.0,
+                  "valor": 191.76,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+                  "qt": 1.0,
+                  "valor": 191.76,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "rca": 439,
           "vendedor": "Mateus Cardoso",
           "pedidos": 3,
@@ -1985,194 +2187,6 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM SOLIDO NATURAL 24X170G",
                   "qt": 3.0,
                   "valor": 625.68,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "rca": 153,
-          "vendedor": "Angelo Neves Suzart",
-          "pedidos": 6,
-          "positivacoes": 1,
-          "novos_skus": 5,
-          "faturamento": 9325.47,
-          "pontos_positivacao": 5,
-          "pontos_novos_skus": 20,
-          "pontos_pedidos_valor": 8,
-          "pontos_total": 33,
-          "vendas": [
-            {
-              "numnota": "408274",
-              "data": "01/07/2026",
-              "cliente": "MERCADO RC DE ITAGUAI LTDA",
-              "valor_pedido": 4361.19,
-              "eventos": [
-                {
-                  "tipo": "pedido (acima de R$3001)",
-                  "pontos": 3
-                }
-              ],
-              "itens": [
-                {
-                  "produto": "RC SARDINHA EM OLEO 50X125G",
-                  "qt": 10.0,
-                  "valor": 1995.0,
-                  "pontuacoes": []
-                },
-                {
-                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-                  "qt": 10.0,
-                  "valor": 1995.0,
-                  "pontuacoes": []
-                },
-                {
-                  "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
-                  "qt": 3.0,
-                  "valor": 371.19,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "numnota": "409882",
-              "data": "06/07/2026",
-              "cliente": "MERCADO RIO SUL DA FIGUEIRA LTDA",
-              "valor_pedido": 997.5,
-              "eventos": [
-                {
-                  "tipo": "pedido (R$500-1000)",
-                  "pontos": 1
-                }
-              ],
-              "itens": [
-                {
-                  "produto": "RC SARDINHA EM OLEO 50X125G",
-                  "qt": 5.0,
-                  "valor": 997.5,
-                  "pontuacoes": []
-                }
-              ]
-            },
-            {
-              "numnota": "409917",
-              "data": "06/07/2026",
-              "cliente": "MERCADO RIO SUL DA FIGUEIRA LTDA",
-              "valor_pedido": 399.0,
-              "eventos": [],
-              "itens": [
-                {
-                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-                  "qt": 2.0,
-                  "valor": 399.0,
-                  "pontuacoes": []
-                }
-              ]
-            },
-            {
-              "numnota": "411066",
-              "data": "10/07/2026",
-              "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
-              "valor_pedido": 997.5,
-              "eventos": [
-                {
-                  "tipo": "pedido (R$500-1000)",
-                  "pontos": 1
-                },
-                {
-                  "tipo": "positivação (novo/reativação)",
-                  "pontos": 5
-                }
-              ],
-              "itens": [
-                {
-                  "produto": "RC SARDINHA EM OLEO 50X125G",
-                  "qt": 5.0,
-                  "valor": 997.5,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "numnota": "411352",
-              "data": "11/07/2026",
-              "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-              "valor_pedido": 997.5,
-              "eventos": [
-                {
-                  "tipo": "pedido (R$500-1000)",
-                  "pontos": 1
-                }
-              ],
-              "itens": [
-                {
-                  "produto": "RC SARDINHA EM OLEO 50X125G",
-                  "qt": 5.0,
-                  "valor": 997.5,
-                  "pontuacoes": []
-                }
-              ]
-            },
-            {
-              "numnota": "412707",
-              "data": "15/07/2026",
-              "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
-              "valor_pedido": 1572.78,
-              "eventos": [
-                {
-                  "tipo": "pedido (R$1001-3000)",
-                  "pontos": 2
-                }
-              ],
-              "itens": [
-                {
-                  "produto": "RC SARDINHA EM OLEO 50X125G",
-                  "qt": 5.0,
-                  "valor": 997.5,
-                  "pontuacoes": []
-                },
-                {
-                  "produto": "RC ATUM RALADO NATURAL 24X140G",
-                  "qt": 1.0,
-                  "valor": 191.76,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM SOLIDO OLEO 24X170G",
-                  "qt": 1.0,
-                  "valor": 191.76,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-                  "qt": 1.0,
-                  "valor": 191.76,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
