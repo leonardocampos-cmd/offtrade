@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "17/07/2026 13:33",
+  "atualizado_em": "17/07/2026 14:03",
   "meses": [
     "Jul/26",
     "Jun/26"
@@ -7455,27 +7455,27 @@ const METAS_DATA = {
         {
           "mes": "Aug/25",
           "fat": 215387.78,
-          "pos": 47
+          "pos": 46
         },
         {
           "mes": "Sep/25",
           "fat": 125217.14,
-          "pos": 26
+          "pos": 25
         },
         {
           "mes": "Oct/25",
           "fat": 581596.58,
-          "pos": 42
+          "pos": 40
         },
         {
           "mes": "Nov/25",
           "fat": 311150.36,
-          "pos": 36
+          "pos": 35
         },
         {
           "mes": "Dec/25",
           "fat": 179735.07,
-          "pos": 27
+          "pos": 26
         },
         {
           "mes": "Jan/26",
@@ -7500,7 +7500,7 @@ const METAS_DATA = {
         {
           "mes": "May/26",
           "fat": 118697.02,
-          "pos": 39
+          "pos": 38
         },
         {
           "mes": "Jun/26",
@@ -7517,7 +7517,7 @@ const METAS_DATA = {
         "fat_proj": 136371.99,
         "fat_media_hist": 118460.01,
         "pos_proj": 38.9,
-        "pos_media_hist": 28.7,
+        "pos_media_hist": 28.3,
         "du_passados": 13,
         "du_total": 23
       }
@@ -7631,7 +7631,7 @@ const METAS_DATA = {
           },
           "pos_tt": {
             "meta": 10,
-            "realizado": 6
+            "realizado": 5
           },
           "pos_hob_azeite": {
             "meta": 0,
@@ -7663,11 +7663,11 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 25
+            "realizado": 15
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 5
+            "realizado": 3
           },
           "industrias": {
             "meta": 0,
@@ -7995,12 +7995,12 @@ const METAS_DATA = {
         {
           "mes": "Sep/25",
           "fat": 321026.47,
-          "pos": 8
+          "pos": 7
         },
         {
           "mes": "Oct/25",
           "fat": 726945.18,
-          "pos": 15
+          "pos": 14
         },
         {
           "mes": "Nov/25",
@@ -8045,13 +8045,13 @@ const METAS_DATA = {
         {
           "mes": "Jul/26",
           "fat": 120884.09,
-          "pos": 6
+          "pos": 5
         }
       ],
       "previsao": {
         "fat_proj": 213871.85,
         "fat_media_hist": 408865.06,
-        "pos_proj": 10.6,
+        "pos_proj": 8.8,
         "pos_media_hist": 7.7,
         "du_passados": 13,
         "du_total": 23
@@ -9613,7 +9613,7 @@ const METAS_DATA = {
         {
           "mes": "Oct/25",
           "fat": 157257.26,
-          "pos": 37
+          "pos": 36
         },
         {
           "mes": "Nov/25",
@@ -9823,7 +9823,7 @@ const METAS_DATA = {
           }
         }
       },
-      "clientes_cadastrados": 2,
+      "clientes_cadastrados": 1,
       "nao_positivados": [
         {
           "CODCLI": "81490",
@@ -11142,7 +11142,7 @@ const METAS_DATA = {
         {
           "mes": "Dec/25",
           "fat": 394010.4,
-          "pos": 53
+          "pos": 52
         },
         {
           "mes": "Jan/26",
@@ -12095,22 +12095,22 @@ const METAS_DATA = {
         {
           "mes": "Sep/25",
           "fat": 741049.11,
-          "pos": 18
+          "pos": 17
         },
         {
           "mes": "Oct/25",
           "fat": 1002870.1,
-          "pos": 20
+          "pos": 19
         },
         {
           "mes": "Nov/25",
           "fat": 682282.05,
-          "pos": 16
+          "pos": 15
         },
         {
           "mes": "Dec/25",
           "fat": 852135.94,
-          "pos": 17
+          "pos": 16
         },
         {
           "mes": "Jan/26",
@@ -12120,12 +12120,12 @@ const METAS_DATA = {
         {
           "mes": "Feb/26",
           "fat": 416954.18,
-          "pos": 23
+          "pos": 22
         },
         {
           "mes": "Mar/26",
           "fat": 577934.51,
-          "pos": 50
+          "pos": 49
         },
         {
           "mes": "Apr/26",
@@ -13514,12 +13514,12 @@ const METAS_DATA = {
         {
           "mes": "Feb/26",
           "fat": 85632.96,
-          "pos": 27
+          "pos": 25
         },
         {
           "mes": "Mar/26",
           "fat": 79224.92,
-          "pos": 28
+          "pos": 24
         },
         {
           "mes": "Apr/26",
@@ -13805,7 +13805,7 @@ const METAS_DATA = {
           },
           "pos_tt": {
             "meta": 70,
-            "realizado": 55
+            "realizado": 54
           },
           "pos_hob_azeite": {
             "meta": 4,
@@ -13825,7 +13825,7 @@ const METAS_DATA = {
           },
           "pos_redbull": {
             "meta": 0,
-            "realizado": 19
+            "realizado": 18
           },
           "pos_pinatti": {
             "meta": 12,
@@ -13837,11 +13837,11 @@ const METAS_DATA = {
           },
           "bonus_pernod": {
             "meta": 0,
-            "realizado": 55
+            "realizado": 40
           },
           "pos_pernod": {
             "meta": 0,
-            "realizado": 11
+            "realizado": 8
           },
           "industrias": {
             "meta": 0,
@@ -16194,22 +16194,22 @@ const METAS_DATA = {
         {
           "mes": "Oct/25",
           "fat": 14106.73,
-          "pos": 29
+          "pos": 28
         },
         {
           "mes": "Nov/25",
           "fat": 40183.12,
-          "pos": 76
+          "pos": 75
         },
         {
           "mes": "Dec/25",
           "fat": 67598.76,
-          "pos": 53
+          "pos": 52
         },
         {
           "mes": "Jan/26",
           "fat": 42407.53,
-          "pos": 55
+          "pos": 54
         },
         {
           "mes": "Feb/26",
@@ -16234,7 +16234,7 @@ const METAS_DATA = {
         {
           "mes": "Jun/26",
           "fat": 58255.14,
-          "pos": 55
+          "pos": 54
         },
         {
           "mes": "Jul/26",
@@ -16246,7 +16246,7 @@ const METAS_DATA = {
         "fat_proj": 31737.22,
         "fat_media_hist": 47711.44,
         "pos_proj": 53.1,
-        "pos_media_hist": 62.3,
+        "pos_media_hist": 62.0,
         "du_passados": 13,
         "du_total": 23
       }
@@ -16360,7 +16360,7 @@ const METAS_DATA = {
           },
           "pos_tt": {
             "meta": 70,
-            "realizado": 45
+            "realizado": 44
           },
           "pos_hob_azeite": {
             "meta": 0,
@@ -18711,13 +18711,13 @@ const METAS_DATA = {
         {
           "mes": "Jul/26",
           "fat": 53232.26,
-          "pos": 45
+          "pos": 44
         }
       ],
       "previsao": {
         "fat_proj": 94180.15,
         "fat_media_hist": 82100.27,
-        "pos_proj": 79.6,
+        "pos_proj": 77.8,
         "pos_media_hist": 68.0,
         "du_passados": 13,
         "du_total": 23
@@ -21144,11 +21144,11 @@ const METAS_DATA = {
           },
           "pos_tt": {
             "meta": 0,
-            "realizado": 3
+            "realizado": 1
           },
           "pos_hob_azeite": {
             "meta": 0,
-            "realizado": 2
+            "realizado": 0
           },
           "pos_reckit": {
             "meta": 0,
@@ -21172,7 +21172,7 @@ const METAS_DATA = {
           },
           "pos_essenza_hob": {
             "meta": 0,
-            "realizado": 2
+            "realizado": 0
           },
           "bonus_pernod": {
             "meta": 0,
@@ -21188,7 +21188,7 @@ const METAS_DATA = {
           }
         }
       },
-      "clientes_cadastrados": 2,
+      "clientes_cadastrados": 1,
       "nao_positivados": [
         {
           "CODCLI": "90710",
@@ -21799,7 +21799,7 @@ const METAS_DATA = {
         {
           "mes": "Aug/25",
           "fat": 140751.0,
-          "pos": 2
+          "pos": 0
         },
         {
           "mes": "Sep/25",
@@ -21809,7 +21809,7 @@ const METAS_DATA = {
         {
           "mes": "Oct/25",
           "fat": 472524.34,
-          "pos": 5
+          "pos": 3
         },
         {
           "mes": "Nov/25",
@@ -21819,22 +21819,22 @@ const METAS_DATA = {
         {
           "mes": "Dec/25",
           "fat": 163721.72,
-          "pos": 15
+          "pos": 13
         },
         {
           "mes": "Jan/26",
           "fat": 91392.28,
-          "pos": 16
+          "pos": 12
         },
         {
           "mes": "Feb/26",
           "fat": 64301.49,
-          "pos": 10
+          "pos": 5
         },
         {
           "mes": "Mar/26",
           "fat": 502895.1,
-          "pos": 17
+          "pos": 15
         },
         {
           "mes": "Apr/26",
@@ -21854,13 +21854,13 @@ const METAS_DATA = {
         {
           "mes": "Jul/26",
           "fat": 55261.7,
-          "pos": 3
+          "pos": 1
         }
       ],
       "previsao": {
         "fat_proj": 97770.7,
         "fat_media_hist": 211509.23,
-        "pos_proj": 5.3,
+        "pos_proj": 1.8,
         "pos_media_hist": 11.0,
         "du_passados": 13,
         "du_total": 23
@@ -22235,7 +22235,7 @@ const METAS_DATA = {
         {
           "mes": "Nov/25",
           "fat": 271.3,
-          "pos": 1
+          "pos": 0
         },
         {
           "mes": "Dec/25",
@@ -22381,7 +22381,7 @@ const METAS_DATA = {
           },
           "pos_tt": {
             "meta": 0,
-            "realizado": 52
+            "realizado": 51
           },
           "pos_hob_azeite": {
             "meta": 0,
@@ -22425,7 +22425,7 @@ const METAS_DATA = {
           }
         }
       },
-      "clientes_cadastrados": 4,
+      "clientes_cadastrados": 3,
       "nao_positivados": [
         {
           "CODCLI": "76745",
@@ -24695,13 +24695,13 @@ const METAS_DATA = {
         {
           "mes": "Jul/26",
           "fat": 119843.68,
-          "pos": 52
+          "pos": 51
         }
       ],
       "previsao": {
         "fat_proj": 212031.13,
         "fat_media_hist": 194640.68,
-        "pos_proj": 92.0,
+        "pos_proj": 90.2,
         "pos_media_hist": 69.7,
         "du_passados": 13,
         "du_total": 23
@@ -24860,7 +24860,7 @@ const METAS_DATA = {
           }
         }
       },
-      "clientes_cadastrados": 4,
+      "clientes_cadastrados": 3,
       "nao_positivados": [
         {
           "CODCLI": "86500",
@@ -27075,12 +27075,12 @@ const METAS_DATA = {
         {
           "mes": "Aug/25",
           "fat": 110663.92,
-          "pos": 71
+          "pos": 69
         },
         {
           "mes": "Sep/25",
           "fat": 191781.61,
-          "pos": 72
+          "pos": 71
         },
         {
           "mes": "Oct/25",
@@ -27095,7 +27095,7 @@ const METAS_DATA = {
         {
           "mes": "Dec/25",
           "fat": 621003.95,
-          "pos": 115
+          "pos": 114
         },
         {
           "mes": "Jan/26",
@@ -27916,7 +27916,7 @@ const METAS_DATA = {
           }
         }
       },
-      "clientes_cadastrados": 7,
+      "clientes_cadastrados": 6,
       "nao_positivados": [
         {
           "CODCLI": "3593",
