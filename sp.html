@@ -486,6 +486,14 @@ function _buildVendorCards(mes) {
 
   var npData = (typeof NAO_POS_SP_DATA !== 'undefined' && NAO_POS_SP_DATA.por_vendedor) || {};
 
+  function _fatOrdenacao(nome) {
+    var real = ((VENDAS_SP_DATA.realizado || {})[nome] || {})[mes] || {};
+    if (real.fat !== undefined) return real.fat;
+    var vendas = (VENDAS_SP_DATA.por_vendedor[nome] || {})[mes] || [];
+    return vendas.reduce(function(s, v) { return s + v.valor; }, 0);
+  }
+  nomes.sort(function(a, b) { return _fatOrdenacao(b) - _fatOrdenacao(a); });
+
   return nomes.map(function(nome, idx) {
     var vendas = (VENDAS_SP_DATA.por_vendedor[nome] || {})[mes] || [];
     var fat    = vendas.reduce(function(s, v) { return s + v.valor; }, 0);

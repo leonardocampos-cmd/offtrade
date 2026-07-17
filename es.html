@@ -278,7 +278,12 @@ function _buildVendorCards(mes) {
   var permitidos = _vendedoresPermitidos();
   if (permitidos) nomes = nomes.filter(function(n) { return permitidos.has(_normNome(n)); });
   if (!nomes.length) return '<div class="no-data">Nenhum vendedor encontrado.</div>';
-  return nomes.sort().map(function(nome, idx) {
+  nomes.sort(function(a, b) {
+    var fatA = ((D.resumo && D.resumo[a] && D.resumo[a][mes]) || {}).fat || 0;
+    var fatB = ((D.resumo && D.resumo[b] && D.resumo[b][mes]) || {}).fat || 0;
+    return fatB - fatA;
+  });
+  return nomes.map(function(nome, idx) {
     var res    = (D.resumo && D.resumo[nome] && D.resumo[nome][mes]) || {};
     var fat    = res.fat     || 0;
     var ant    = res.fat_ant || 0;
