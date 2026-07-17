@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "17/07/2026 10:14",
+  "atualizado_em": "17/07/2026 13:40",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -223,64 +223,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33073",
-        "cliente": "VAREJAO AVENIDA LIMITADA",
-        "bairro": "CENTRO",
-        "dtultcomp": "12/05/2026",
-        "produtos": [
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 6,
-            "valor": 659.4
-          },
-          {
-            "produto": "TEQUILA J CUERVO GOLD 750ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 1438.8
-          },
-          {
-            "produto": "VINHO LATITUD 33 CABERNET SAUVIGNON",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 658.8
-          },
-          {
-            "produto": "VINHO LATITUD 33 CHARDONNAY 750 ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 329.4
-          },
-          {
-            "produto": "VINHO LATITUD 33 MALBEC TTO 750 ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 329.4
-          },
-          {
-            "produto": "VINHO LATITUD 33 SAUVIGNON BLANC",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 329.4
-          }
-        ]
-      },
-      {
-        "codcli": "33072",
-        "cliente": "VAREJAO AVENIDA LIMITADA",
-        "bairro": "CAETÉ",
-        "dtultcomp": "12/05/2026",
-        "produtos": [
-          {
-            "produto": "TEQUILA J CUERVO GOLD 750ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 1438.8
-          }
-        ]
-      },
-      {
         "codcli": "39239",
         "cliente": "52.180.332 BARBARA LUIZA SALES",
         "bairro": "CÂNDIDA FERREIRA",
@@ -298,6 +240,26 @@ const NAO_POS_MG_DATA = {
         "codcli": "35726",
         "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
         "bairro": "MILIONÁRIOS (BARREIRO)",
+        "dtultcomp": "18/05/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 184.56
+          },
+          {
+            "produto": "RED BULL SUGAR FREE 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 184.56
+          }
+        ]
+      },
+      {
+        "codcli": "35725",
+        "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
+        "bairro": "MINEIRÃO",
         "dtultcomp": "18/05/2026",
         "produtos": [
           {
@@ -334,26 +296,6 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "RED BULL TROPICAL 24X250 ML - ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          }
-        ]
-      },
-      {
-        "codcli": "35725",
-        "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
-        "bairro": "MINEIRÃO",
-        "dtultcomp": "18/05/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          },
-          {
-            "produto": "RED BULL SUGAR FREE 24X250ML ENERG",
             "fantasia": "",
             "qt": 1,
             "valor": 184.56
@@ -615,44 +557,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "MSLR",
             "qt": 12,
             "valor": 778.8
-          }
-        ]
-      },
-      {
-        "codcli": "30089",
-        "cliente": "VILLA FERNANDA FOODS LTDA",
-        "bairro": "VILA DA SERRA",
-        "dtultcomp": "17/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN TANQUERAY LD 1X12/50ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 114.9
-          },
-          {
-            "produto": "MINIATURA BEEFEATER  12 X 50ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 153.9
-          },
-          {
-            "produto": "MINIATURA CHIVAS 12YO 12 X 50ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 159.9
-          },
-          {
-            "produto": "MINIATURA JAMESON 12 X 50ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 99.9
-          },
-          {
-            "produto": "VODKA ABSOLUT 12 X  50ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 119.88
           }
         ]
       },
@@ -2549,7 +2453,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35392",
+        "codcli": "35387",
         "cliente": "HR - LANCHES PROMOCOES E EVENTOS LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "15/06/2026",
@@ -2575,7 +2479,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35387",
+        "codcli": "35392",
         "cliente": "HR - LANCHES PROMOCOES E EVENTOS LTDA",
         "bairro": "PAMPULHA",
         "dtultcomp": "15/06/2026",
@@ -3615,38 +3519,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "BEAM SUNTORY BRASIL",
             "qt": 3,
             "valor": 269.7
-          }
-        ]
-      },
-      {
-        "codcli": "31812",
-        "cliente": "ELTON MUNHOZ DIAS JUNIOR",
-        "bairro": "JARDIM ATLANTICO",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN BEEFEATER 750ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 81.9
-          },
-          {
-            "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 54.9
-          },
-          {
-            "produto": "VINHO ARESTI EST SEL MERLOT 750ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 109.8
-          },
-          {
-            "produto": "VODKA ABSOLUT - 1 LITRO",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 79.9
           }
         ]
       },
@@ -4725,6 +4597,64 @@ const NAO_POS_MG_DATA = {
             "fantasia": "BALLENA",
             "qt": 6,
             "valor": 659.4
+          }
+        ]
+      },
+      {
+        "codcli": "33073",
+        "cliente": "VAREJAO AVENIDA LIMITADA",
+        "bairro": "CENTRO",
+        "dtultcomp": "12/05/2026",
+        "produtos": [
+          {
+            "produto": "LICOR BALLENA MORANGO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 6,
+            "valor": 659.4
+          },
+          {
+            "produto": "TEQUILA J CUERVO GOLD 750ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 1438.8
+          },
+          {
+            "produto": "VINHO LATITUD 33 CABERNET SAUVIGNON",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 658.8
+          },
+          {
+            "produto": "VINHO LATITUD 33 CHARDONNAY 750 ML",
+            "fantasia": "",
+            "qt": 6,
+            "valor": 329.4
+          },
+          {
+            "produto": "VINHO LATITUD 33 MALBEC TTO 750 ML",
+            "fantasia": "",
+            "qt": 6,
+            "valor": 329.4
+          },
+          {
+            "produto": "VINHO LATITUD 33 SAUVIGNON BLANC",
+            "fantasia": "",
+            "qt": 6,
+            "valor": 329.4
+          }
+        ]
+      },
+      {
+        "codcli": "33072",
+        "cliente": "VAREJAO AVENIDA LIMITADA",
+        "bairro": "CAETÉ",
+        "dtultcomp": "12/05/2026",
+        "produtos": [
+          {
+            "produto": "TEQUILA J CUERVO GOLD 750ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 1438.8
           }
         ]
       },
@@ -5909,9 +5839,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30324",
+        "codcli": "39403",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "BELVEDERE",
+        "bairro": "COMITECO",
         "dtultcomp": "29/05/2026",
         "produtos": [
           {
@@ -5929,9 +5859,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "39403",
+        "codcli": "30324",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "COMITECO",
+        "bairro": "BELVEDERE",
         "dtultcomp": "29/05/2026",
         "produtos": [
           {
@@ -6421,6 +6351,44 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "30089",
+        "cliente": "VILLA FERNANDA FOODS LTDA",
+        "bairro": "VILA DA SERRA",
+        "dtultcomp": "17/06/2026",
+        "produtos": [
+          {
+            "produto": "GIN TANQUERAY LD 1X12/50ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 114.9
+          },
+          {
+            "produto": "MINIATURA BEEFEATER  12 X 50ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 153.9
+          },
+          {
+            "produto": "MINIATURA CHIVAS 12YO 12 X 50ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 159.9
+          },
+          {
+            "produto": "MINIATURA JAMESON 12 X 50ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 99.9
+          },
+          {
+            "produto": "VODKA ABSOLUT 12 X  50ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 119.88
+          }
+        ]
+      },
+      {
         "codcli": "34960",
         "cliente": "DRIL EMPREENDIMENTOS STUDIO BIKE PAMPULHA BH LTDA",
         "bairro": "OURO PRETO",
@@ -6527,6 +6495,32 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "30323",
+        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
+        "bairro": "SANTO ANTONIO",
+        "dtultcomp": "23/06/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK RED BULL MELANCIA",
+            "fantasia": "",
+            "qt": 3,
+            "valor": 89.88
+          },
+          {
+            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
+            "fantasia": "",
+            "qt": 3,
+            "valor": 89.88
+          },
+          {
+            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 179.76
+          }
+        ]
+      },
+      {
         "codcli": "38776",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
         "bairro": "ESTORIL",
@@ -6555,32 +6549,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 1,
             "valor": 29.96
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 179.76
-          }
-        ]
-      },
-      {
-        "codcli": "30323",
-        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "SANTO ANTONIO",
-        "dtultcomp": "23/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 89.88
-          },
-          {
-            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 89.88
           },
           {
             "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
