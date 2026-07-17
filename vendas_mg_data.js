@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "17/07/2026 15:08",
+  "atualizado_em": "17/07/2026 16:18",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -209,8 +209,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 896376.5
       },
       "Jul/26": {
-        "fat": 320179.74,
-        "pos": 8,
+        "fat": 342910.74,
+        "pos": 9,
         "fat_ant": 1039602.9
       }
     },
@@ -83812,6 +83812,26 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 66,
           "valor": 2633.4,
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "34006",
+          "cliente": "RARO INDUSTRIA DE ALIMENTOS LTDA",
+          "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+          "fantasia": "MSLR",
+          "qt": 138,
+          "valor": 10336.2,
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "34006",
+          "cliente": "RARO INDUSTRIA DE ALIMENTOS LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "qt": 132,
+          "valor": 12394.8,
           "offtrade": true
         },
         {
