@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "17/07/2026 13:41",
-  "total": 4341,
+  "atualizado_em": "17/07/2026 14:11",
+  "total": 4342,
   "clientes": [
     {
       "codcli": "31683",
@@ -16443,13 +16443,13 @@ const CLIENTES_RCA_DATA = {
       "cidade": "SAO PAULO",
       "cnpj": "00.744.432/0001-07",
       "estado": "SP",
-      "ramo": "BAR",
+      "ramo": "ADEGA",
       "key_account": false,
       "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "194",
-      "nome_usur2": "ARACELI ALVES"
+      "codusur1": "340",
+      "nome_usur1": "PEDRO HENRIQUE DUARTE",
+      "codusur2": "588",
+      "nome_usur2": "W.S"
     },
     {
       "codcli": "50047",
@@ -61652,16 +61652,16 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "95664",
+      "codcli": "67821",
       "razao": "SUPERMERCADO BARRA OESTE LTDA",
-      "fantasia": "REDE SUPERMARKET",
-      "bairro": "ANIL",
+      "fantasia": "REDE SUPERMARKET - BARRA DA TIJUCA",
+      "bairro": "BARRA DA TIJUCA",
       "cidade": "RIO DE JANEIRO",
-      "cnpj": "08.719.835/0008-84",
+      "cnpj": "08.719.835/0003-70",
       "estado": "RJ",
       "ramo": "MERCADO",
       "key_account": false,
-      "rede": "",
+      "rede": "REDE SUPERMARKET",
       "codusur1": "158",
       "nome_usur1": "JOSE MARCELO CARDOSO - OFF TRADE",
       "codusur2": "",
@@ -69362,6 +69362,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "155",
       "nome_usur2": "RAPHAEL SANTOS - OFF TRADE"
+    },
+    {
+      "codcli": "51879",
+      "razao": "YONGHUI GUO SUPERMERCADO LTDA",
+      "fantasia": "YONGHUI GUO SUPERMERCADO",
+      "bairro": "PARQUE DAS AMÉRICAS",
+      "cidade": "MAUA",
+      "cnpj": "39.314.564/0001-34",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "493",
+      "nome_usur1": "CAROLINA SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "31553",
