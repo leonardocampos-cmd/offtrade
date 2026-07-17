@@ -489,7 +489,7 @@ function _buildVendorCards(mes) {
   return nomes.map(function(nome, idx) {
     var vendas = (VENDAS_SP_DATA.por_vendedor[nome] || {})[mes] || [];
     var fat    = vendas.reduce(function(s, v) { return s + v.valor; }, 0);
-    var nCli   = new Set(vendas.map(function(v) { return v.codcli; })).size;
+    var nCli   = new Set(vendas.filter(function(v) { return v.offtrade; }).map(function(v) { return v.codcli; })).size;
     var npList = npData[nome] || [];
     var nNP    = npList.length;
     var secId  = 'card-np-' + idx;
@@ -549,7 +549,7 @@ function _atualizarTabelaSP(nome) {
   });
   var fat  = lista.reduce(function(s, r) { return s + r.valor; }, 0);
   var qt   = lista.reduce(function(s, r) { return s + r.qt; }, 0);
-  var nCli = new Set(lista.map(function(r) { return r.codcli || r.cliente; })).size;
+  var nCli = new Set(lista.filter(function(r) { return r.offtrade; }).map(function(r) { return r.codcli || r.cliente; })).size;
 
   var meta = _getMeta(nome, mes);
   var real = ((VENDAS_SP_DATA.realizado || {})[nome] || {})[mes] || {};
