@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "17/07/2026 15:09",
+  "atualizado_em": "17/07/2026 16:19",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -3916,32 +3916,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "34006",
-        "cliente": "RARO INDUSTRIA DE ALIMENTOS LTDA",
-        "bairro": "TAPERA",
-        "dtultcomp": "01/06/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY ESC MACALLAN DOUBLE 12 YO 700ML",
-            "fantasia": "BEAM SUNTORY BRASIL",
-            "qt": 6,
-            "valor": 4776.0
-          },
-          {
-            "produto": "WHISKY HIBIKI JAPANESE HARMONY 700ML",
-            "fantasia": "BEAM SUNTORY BRASIL",
-            "qt": 12,
-            "valor": 7188.0
-          },
-          {
-            "produto": "WHISKY SUNTORY CHITA 700ML",
-            "fantasia": "BEAM SUNTORY BRASIL",
-            "qt": 6,
-            "valor": 2394.0
-          }
-        ]
-      },
-      {
         "codcli": "31062",
         "cliente": "SUPERMERCADOS REX LTDA",
         "bairro": "SANTA EFIGENIA",
@@ -5165,6 +5139,13 @@ const NAO_POS_MG_DATA = {
         "codcli": "39610",
         "cliente": "REDE BONZAO DE SUPERMERCADOS LTDA",
         "bairro": "CIDADE DE DEUS",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39631",
+        "cliente": "VALCIBAR COMERCIO DE BEBIDAS LTDA",
+        "bairro": "GUARANI",
         "dtultcomp": "nan",
         "produtos": []
       }
