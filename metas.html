@@ -2038,8 +2038,15 @@ function _posVendasMes(nomeVendedor, mes) {
   return new Set(vendas.filter(x => x.offtrade).map(x => x.codcli || x.cliente)).size;
 }
 
+function _fatOrdenacao(v, mes) {
+  const pm   = _pm(v, mes);
+  const fatM = _mv(pm, 'fat_tt', 'meta');
+  return fatM > 0 ? _mv(pm, 'fat_tt', 'realizado') : _fatVendasMes(v.nome, mes);
+}
+
 function _buildCards(vendedores, mes) {
-  return vendedores.map((v, idx) => {
+  const ordenados = [...vendedores].sort((a, b) => _fatOrdenacao(b, mes) - _fatOrdenacao(a, mes));
+  return ordenados.map((v, idx) => {
     const pm    = _pm(v, mes);
     const fatM  = _mv(pm, 'fat_tt', 'meta');
     const fat   = fatM > 0 ? _mv(pm, 'fat_tt', 'realizado') : _fatVendasMes(v.nome, mes);
