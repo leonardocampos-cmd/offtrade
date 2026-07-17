@@ -151,7 +151,8 @@
         <th class="hide-mob" onclick="ordenarPor('dtultent')">Últ. Entrada</th>
         <th class="hide-mob" onclick="ordenarPor('dtultsaida')">Últ. Saída</th>
         <th class="hide-mob right" style="text-align:right" onclick="ordenarPor('mediavendadia')">Média Venda/dia</th>
-        <th class="right" style="text-align:right" onclick="ordenarPor('diasestoque')">Dias de Estoque</th>
+        <th class="right" style="text-align:right" onclick="ordenarPor('diasemestoque')">Dias em Estoque</th>
+        <th class="right" style="text-align:right" onclick="ordenarPor('diassemvenda')">Dias sem Venda</th>
         <th onclick="ordenarPor('previsaoesgotar')">Previsão de Esgotar</th>
         <th class="hide-mob right" style="text-align:right" onclick="ordenarPor('precounit')">Preço Unit.</th>
         <th class="right" style="text-align:right" onclick="ordenarPor('valorestoque')">Valor em Estoque</th>
@@ -168,7 +169,7 @@ const DATA = typeof ESTOQUE_DATA !== 'undefined' ? ESTOQUE_DATA : null;
 let _ordem = { campo: 'descricao', asc: true };
 
 if (!DATA) {
-  document.getElementById('tbody').innerHTML = '<tr><td colspan="16" class="empty">Dados não encontrados. Execute exportacao_estoque.py para gerar estoque_data.js.</td></tr>';
+  document.getElementById('tbody').innerHTML = '<tr><td colspan="17" class="empty">Dados não encontrados. Execute exportacao_estoque.py para gerar estoque_data.js.</td></tr>';
 } else {
   document.getElementById('header-sub').textContent =
     'Atualizado ' + DATA.atualizado_em + (DATA.fontes_indisponiveis.length ? ' · fontes indisponíveis: ' + DATA.fontes_indisponiveis.join(', ') : '');
@@ -196,7 +197,7 @@ function montarFiltros() {
 
 function montarKpis(lista) {
   const semEstoque = lista.filter(p => p.qtestoque <= 0).length;
-  const riscoRuptura = lista.filter(p => p.qtestoque > 0 && p.diasestoque !== null && p.diasestoque < 7).length;
+  const riscoRuptura = lista.filter(p => p.qtestoque > 0 && p.diasparaesgotar !== null && p.diasparaesgotar < 7).length;
   const valorTotal = lista.reduce((s, p) => s + p.valorestoque, 0);
   document.getElementById('kpis').innerHTML = `
     <div class="kpi">
@@ -237,7 +238,7 @@ function _filtrados() {
     const matchBusca   = !busca || [p.descricao, p.codprod, p.fornecedor, p.fantasia]
       .some(v => v && String(v).toLowerCase().includes(busca));
     const matchEstoque = !semEstoque || p.qtestoque <= 0;
-    const matchRisco   = !riscoRuptura || (p.qtestoque > 0 && p.diasestoque !== null && p.diasestoque < 7);
+    const matchRisco   = !riscoRuptura || (p.qtestoque > 0 && p.diasparaesgotar !== null && p.diasparaesgotar < 7);
     const matchForaLinha = !esconderForaLinha || !p.foralinha;
     return matchEmpresa && matchDepto && matchBusca && matchEstoque && matchRisco && matchForaLinha;
   });
@@ -260,7 +261,7 @@ function aplicarFiltro() {
 
   const tbody = document.getElementById('tbody');
   if (!lista.length) {
-    tbody.innerHTML = '<tr><td colspan="16" class="empty">Nenhum produto encontrado.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="17" class="empty">Nenhum produto encontrado.</td></tr>';
     return;
   }
 
@@ -283,7 +284,8 @@ function aplicarFiltro() {
       <td class="hide-mob">${p.dtultent || '<span style="color:var(--muted)">—</span>'}</td>
       <td class="hide-mob">${p.dtultsaida || '<span style="color:var(--muted)">—</span>'}</td>
       <td class="hide-mob qtd">${p.mediavendadia > 0 ? fmtDec(p.mediavendadia) : '<span style="color:var(--muted)">—</span>'}</td>
-      <td class="qtd ${_diasCls(p)}">${_diasTexto(p)}</td>
+      <td class="qtd">${p.diasemestoque !== null && p.diasemestoque !== undefined ? fmtNum(p.diasemestoque) + 'd' : '<span style="color:var(--muted)">—</span>'}</td>
+      <td class="qtd">${p.diassemvenda !== null && p.diassemvenda !== undefined ? fmtNum(p.diassemvenda) + 'd' : '<span style="color:var(--muted)">—</span>'}</td>
       <td>${p.previsaoesgotar
           ? `<span class="${_diasCls(p)}">${p.previsaoesgotar}</span>`
           : (p.qtestoque <= 0 ? '<span class="tag-fora-linha">ESGOTADO</span>' : '<span style="color:var(--muted)">—</span>')}</td>
@@ -295,7 +297,7 @@ function aplicarFiltro() {
 
   if (lista.length > LIMITE) {
     tbody.insertAdjacentHTML('beforeend',
-      `<tr><td colspan="16" class="empty">Mostrando ${LIMITE.toLocaleString('pt-BR')} de ${lista.length.toLocaleString('pt-BR')} — refine a busca ou os filtros para ver o restante.</td></tr>`);
+      `<tr><td colspan="17" class="empty">Mostrando ${LIMITE.toLocaleString('pt-BR')} de ${lista.length.toLocaleString('pt-BR')} — refine a busca ou os filtros para ver o restante.</td></tr>`);
   }
 }
 
@@ -307,16 +309,10 @@ function _qtdCls(v) {
 
 function _diasCls(p) {
   if (p.qtestoque <= 0) return 'qtd-zero';
-  if (p.diasestoque === null || p.diasestoque === undefined) return '';
-  if (p.diasestoque < 7) return 'qtd-zero';
-  if (p.diasestoque < 30) return 'qtd-baixo';
+  if (p.diasparaesgotar === null || p.diasparaesgotar === undefined) return '';
+  if (p.diasparaesgotar < 7) return 'qtd-zero';
+  if (p.diasparaesgotar < 30) return 'qtd-baixo';
   return '';
-}
-
-function _diasTexto(p) {
-  if (p.qtestoque <= 0) return 'ESGOTADO';
-  if (p.diasestoque === null || p.diasestoque === undefined) return '<span style="color:var(--muted)">sem venda</span>';
-  return fmtDec(p.diasestoque) + 'd';
 }
 
 function fmtNum(v) {
@@ -337,11 +333,11 @@ function _esc(s) {
 
 function exportarCSV() {
   const lista = _filtrados();
-  const header = ['Codigo','Produto','Fornecedor','Departamento','Secao','Estoque UN','Estoque CX','Pendente','Bloqueado','Reservado','Ult Entrada','Ult Saida','Media Venda Dia','Dias de Estoque','Previsao Esgotar','Preco Unitario','Valor em Estoque','Empresa','Filial','Fora de Linha'];
+  const header = ['Codigo','Produto','Fornecedor','Departamento','Secao','Estoque UN','Estoque CX','Pendente','Bloqueado','Reservado','Ult Entrada','Ult Saida','Media Venda Dia','Dias em Estoque','Dias sem Venda','Previsao Esgotar','Preco Unitario','Valor em Estoque','Empresa','Filial','Fora de Linha'];
   const linhas = lista.map(p => [
     p.codprod, p.descricao, p.fornecedor, p.departamento, p.secao,
     p.qtestoque, p.qtestoquecx, p.qtpendente, p.qtbloqueada, p.qtreserv,
-    p.dtultent, p.dtultsaida, p.mediavendadia, p.diasestoque ?? '', p.previsaoesgotar,
+    p.dtultent, p.dtultsaida, p.mediavendadia, p.diasemestoque ?? '', p.diassemvenda ?? '', p.previsaoesgotar,
     p.precounit, p.valorestoque, p.estado, p.codfilial, p.foralinha ? 'Sim' : 'Não',
   ].map(v => `"${String(v ?? '').replace(/"/g,'""')}"`).join(';'));
 
