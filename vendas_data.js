@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "17/07/2026 10:02",
+  "atualizado_em": "17/07/2026 13:33",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -42854,7 +42854,17 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "16/07/2026",
+          "data": "17/07/2026",
+          "codcli": "3654",
+          "cliente": "DISTRIBUIDORA WAY DE COMBUSTIVEIS LTDA",
+          "produto": "GIN BEEFEATER PINK 700ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 72.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "17/07/2026",
           "codcli": "3654",
           "cliente": "DISTRIBUIDORA WAY DE COMBUSTIVEIS LTDA",
           "produto": "VINHO ARESTI ESTATE S.  ROSE 187ML",
@@ -42864,7 +42874,7 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "16/07/2026",
+          "data": "17/07/2026",
           "codcli": "3654",
           "cliente": "DISTRIBUIDORA WAY DE COMBUSTIVEIS LTDA",
           "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
@@ -42874,33 +42884,13 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "16/07/2026",
-          "codcli": "3654",
-          "cliente": "DISTRIBUIDORA WAY DE COMBUSTIVEIS LTDA",
-          "produto": "NECTAR LARANJA TIAL 12X250ML",
-          "fantasia": "TIAL",
-          "qt": 1,
-          "valor": 17.88,
-          "tipo": "Venda"
-        },
-        {
-          "data": "16/07/2026",
+          "data": "17/07/2026",
           "codcli": "3654",
           "cliente": "DISTRIBUIDORA WAY DE COMBUSTIVEIS LTDA",
           "produto": "COQUETEL BANANINHA REGGIANI 950ML",
           "fantasia": "CATUABA",
           "qt": 3,
           "valor": 57.9,
-          "tipo": "Venda"
-        },
-        {
-          "data": "16/07/2026",
-          "codcli": "3654",
-          "cliente": "DISTRIBUIDORA WAY DE COMBUSTIVEIS LTDA",
-          "produto": "GIN BEEFEATER PINK 700ML",
-          "fantasia": "PERNOD",
-          "qt": 1,
-          "valor": 72.9,
           "tipo": "Venda"
         },
         {
@@ -230284,16 +230274,6 @@ const VENDAS_DATA = {
           "tipo": "Venda"
         },
         {
-          "data": "01/07/2026",
-          "codcli": "17484",
-          "cliente": "MERCADO ADONAI DE INHOAIBA LTDA",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 249.5,
-          "tipo": "Venda"
-        },
-        {
           "data": "07/07/2026",
           "codcli": "60217",
           "cliente": "POSTO DE ABASTECIMENTO BARRA CACHAMORRA LTDA",
@@ -230981,126 +230961,6 @@ const VENDAS_DATA = {
           "fantasia": "MINALBA",
           "qt": 13,
           "valor": 470.6,
-          "tipo": "Venda"
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "93379",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 3,
-          "valor": 575.28,
-          "tipo": "Venda"
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "93379",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 3,
-          "valor": 575.28,
-          "tipo": "Venda"
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "93379",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 3,
-          "valor": 575.28,
-          "tipo": "Venda"
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "93379",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 3,
-          "valor": 748.5,
-          "tipo": "Venda"
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "93379",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 3,
-          "valor": 748.5,
-          "tipo": "Venda"
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "93379",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "RC ATUM RALADO NATURAL 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 153.36,
-          "tipo": "Venda"
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "93379",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "RC ATUM RALADO OLEO 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 153.36,
-          "tipo": "Venda"
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "93379",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 153.36,
-          "tipo": "Venda"
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "93379",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 251.8,
-          "tipo": "Venda"
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "93379",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 3,
-          "valor": 625.68,
-          "tipo": "Venda"
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "93379",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "RC ATUM SOLIDO OLEO 24X170G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 3,
-          "valor": 625.68,
-          "tipo": "Venda"
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "93379",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 4,
-          "valor": 479.6,
           "tipo": "Venda"
         },
         {
@@ -262005,26 +261865,6 @@ const VENDAS_DATA = {
         },
         {
           "data": "15/07/2026",
-          "codcli": "95661",
-          "cliente": "ALIANCA MERCANTIL LTDA",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 219.5,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "95661",
-          "cliente": "ALIANCA MERCANTIL LTDA",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 219.5,
-          "tipo": "Venda"
-        },
-        {
-          "data": "15/07/2026",
           "codcli": "95662",
           "cliente": "ALIANCA MERCANTIL LTDA",
           "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
@@ -277487,116 +277327,6 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1278.16,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "78311",
-          "cliente": "ITAPOA SUPERMERCADO LTDA.",
-          "produto": "ST PIERRE BLUEBERRY LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 116.95,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "78311",
-          "cliente": "ITAPOA SUPERMERCADO LTDA.",
-          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 116.96,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "78311",
-          "cliente": "ITAPOA SUPERMERCADO LTDA.",
-          "produto": "ST PIERRE VIDRO SUGAR FREE LN 275X12",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 57.18,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "78311",
-          "cliente": "ITAPOA SUPERMERCADO LTDA.",
-          "produto": "ST PIERRE LATA MARGARITA LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 233.92,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "78311",
-          "cliente": "ITAPOA SUPERMERCADO LTDA.",
-          "produto": "ST PIERRE LATA PALOMA LT 270MLX24",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 233.92,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "78311",
-          "cliente": "ITAPOA SUPERMERCADO LTDA.",
-          "produto": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 122.38,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "78311",
-          "cliente": "ITAPOA SUPERMERCADO LTDA.",
-          "produto": "ST PIERRE LT GINGER LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 116.96,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "78311",
-          "cliente": "ITAPOA SUPERMERCADO LTDA.",
-          "produto": "ST PIERRE VIDRO GINGER LN 12X275ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 122.38,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "78311",
-          "cliente": "ITAPOA SUPERMERCADO LTDA.",
-          "produto": "ST PIERRE VIDRO RED MINT LN 275X12",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 122.38,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "78311",
-          "cliente": "ITAPOA SUPERMERCADO LTDA.",
-          "produto": "ST PIERRE ZERO LATA PINK LEMON  24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 233.92,
-          "tipo": "Venda"
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "78311",
-          "cliente": "ITAPOA SUPERMERCADO LTDA.",
-          "produto": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 116.96,
           "tipo": "Venda"
         },
         {
@@ -543885,6 +543615,46 @@ const VENDAS_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 68.9,
+          "tipo": "Venda"
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "31812",
+          "cliente": "ELTON MUNHOZ DIAS JUNIOR",
+          "produto": "4 PACK  RED BULL",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 31.96,
+          "tipo": "Venda"
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "31812",
+          "cliente": "ELTON MUNHOZ DIAS JUNIOR",
+          "produto": "4 PACK RED BULL TROPICAL",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 31.96,
+          "tipo": "Venda"
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "31812",
+          "cliente": "ELTON MUNHOZ DIAS JUNIOR",
+          "produto": "APERITIVO CAMPARI 998 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 109.8,
+          "tipo": "Venda"
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "31812",
+          "cliente": "ELTON MUNHOZ DIAS JUNIOR",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 99.8,
           "tipo": "Venda"
         },
         {
