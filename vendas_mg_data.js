@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "17/07/2026 16:18",
+  "atualizado_em": "17/07/2026 17:16",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,7 +50,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 108007.22,
+        "fat": 109842.62,
         "pos": 71,
         "fat_ant": 341993.95
       }
@@ -236,8 +236,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 65821.42,
-        "pos": 46,
+        "fat": 66325.18,
+        "pos": 47,
         "fat_ant": 85308.22
       }
     },
@@ -51671,6 +51671,46 @@ const VENDAS_MG_DATA = {
           "qt": 2,
           "valor": 99.8,
           "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "32902",
+          "cliente": "LANCHERIA CANTINA AZUL LTDA",
+          "produto": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 453.6,
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "32902",
+          "cliente": "LANCHERIA CANTINA AZUL LTDA",
+          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 453.6,
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "32902",
+          "cliente": "LANCHERIA CANTINA AZUL LTDA",
+          "produto": "VINHO GRAVEDAD CAB. SAUV.",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 478.8,
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "32902",
+          "cliente": "LANCHERIA CANTINA AZUL LTDA",
+          "produto": "VILLA ROSA COLHEITA TINTO  750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 449.4,
+          "offtrade": true
         }
       ]
     },
@@ -96024,6 +96064,16 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 2,
           "valor": 383.52,
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "34920",
+          "cliente": "RESTAURANTE BETANIA LTDA",
+          "produto": "VODKA ORLOFF 1L DEST",
+          "fantasia": "",
+          "qt": 24,
+          "valor": 503.76,
           "offtrade": true
         },
         {
