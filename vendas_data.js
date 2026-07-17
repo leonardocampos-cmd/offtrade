@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "17/07/2026 14:21",
+  "atualizado_em": "17/07/2026 15:02",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -74151,6 +74151,83 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
+          "data": "17/07/2026",
+          "codcli": "84459",
+          "cliente": "COLDBEER COMERCIO DE BEBIDAS LTDA",
+          "produto": "WHISKY J WALKER RED LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 840.0,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "84459",
+          "cliente": "COLDBEER COMERCIO DE BEBIDAS LTDA",
+          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 5,
+          "valor": 459.5,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "84459",
+          "cliente": "COLDBEER COMERCIO DE BEBIDAS LTDA",
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 1728.0,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "84459",
+          "cliente": "COLDBEER COMERCIO DE BEBIDAS LTDA",
+          "produto": "WHISKY BALLANTINE S SUNSHINE 700ML",
+          "fantasia": "PERNOD",
+          "qt": 3,
+          "valor": 143.7,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "84459",
+          "cliente": "COLDBEER COMERCIO DE BEBIDAS LTDA",
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 330.0,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "84459",
+          "cliente": "COLDBEER COMERCIO DE BEBIDAS LTDA",
+          "produto": "WHISKY BUCHANANS 12 YEARS 1000 ML",
+          "fantasia": "DIAGEO",
+          "qt": 6,
+          "valor": 864.0,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "84459",
+          "cliente": "COLDBEER COMERCIO DE BEBIDAS LTDA",
+          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 5,
+          "valor": 459.5,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
           "data": "01/07/2026",
           "codcli": "82860",
           "cliente": "TARGET FOODS MERCADO E PADARIA LTDA",
@@ -137624,6 +137701,28 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
+          "data": "17/07/2026",
+          "codcli": "94255",
+          "cliente": "AILTON EUGENIO DE ALMEIDA GOMES",
+          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
+          "fantasia": "CATUABA",
+          "qt": 2,
+          "valor": 35.8,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "94255",
+          "cliente": "AILTON EUGENIO DE ALMEIDA GOMES",
+          "produto": "4 PACK RED BULL",
+          "fantasia": "RED BULL",
+          "qt": 4,
+          "valor": 119.84,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
           "data": "01/07/2026",
           "codcli": "94256",
           "cliente": "E.F.DO VALE MERCEARIA",
@@ -183053,28 +183152,6 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 60,
           "valor": 882.0,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "83653",
-          "cliente": "MERCADO RIO SUL DA FIGUEIRA LTDA",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 3,
-          "valor": 598.74,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "15/06/2026",
-          "codcli": "83653",
-          "cliente": "MERCADO RIO SUL DA FIGUEIRA LTDA",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 399.0,
           "tipo": "Venda",
           "offtrade": true
         },
@@ -549846,6 +549923,61 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
+          "data": "17/07/2026",
+          "codcli": "30089",
+          "cliente": "VILLA FERNANDA FOODS LTDA",
+          "produto": "J W RED LABEL 12/50 ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 311.6,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "30089",
+          "cliente": "VILLA FERNANDA FOODS LTDA",
+          "produto": "J W BLACK LABEL 12/50 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 501.6,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "30089",
+          "cliente": "VILLA FERNANDA FOODS LTDA",
+          "produto": "MINIATURA BEEFEATER  12 X 50ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 307.8,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "30089",
+          "cliente": "VILLA FERNANDA FOODS LTDA",
+          "produto": "MINIATURA CHIVAS 12YO 12 X 50ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 319.8,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "30089",
+          "cliente": "VILLA FERNANDA FOODS LTDA",
+          "produto": "MINIATURA JAMESON 12 X 50ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 99.9,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
           "data": "09/07/2026",
           "codcli": "30059",
           "cliente": "BRAVA RESTAURANT CELEBRATION LTDA",
@@ -551527,6 +551659,28 @@ const VENDAS_DATA = {
           "valor": 1077.6,
           "tipo": "Venda",
           "offtrade": false
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "38612",
+          "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
+          "produto": "4 PACK RED BULL TROPICAL",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 123.04,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "38612",
+          "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 184.56,
+          "tipo": "Venda",
+          "offtrade": true
         },
         {
           "data": "09/07/2026",
@@ -596951,6 +597105,72 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
+          "data": "17/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "ESPUMANTE ALUD BRANCO 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 0.0,
+          "tipo": "Bonificado",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO GRAVEDAD CARMENERE 750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 0.0,
+          "tipo": "Bonificado",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO ARESTI EST SEL CHARDONNAY 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 0.0,
+          "tipo": "Bonificado",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO ARESTI EST SEL PINOT NOIR 750ML",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 0.0,
+          "tipo": "Bonificado",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "fantasia": "",
+          "qt": 15,
+          "valor": 0.0,
+          "tipo": "Bonificado",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "HUMB. CANALE DENARIO RESERVA PINOT NOIR",
+          "fantasia": "",
+          "qt": 7,
+          "valor": 0.0,
+          "tipo": "Bonificado",
+          "offtrade": true
+        },
+        {
           "data": "03/07/2026",
           "codcli": "31632",
           "cliente": "TONEL BEBIDAS LTDA",
@@ -621454,17 +621674,6 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
-          "data": "16/07/2026",
-          "codcli": "30232",
-          "cliente": "ORGANIZACAO VERDEMAR LTDA",
-          "produto": "CHANDON BABY BRUT ROSE 187 ML",
-          "fantasia": "",
-          "qt": 48,
-          "valor": 1435.2,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
           "data": "06/07/2026",
           "codcli": "30231",
           "cliente": "ORGANIZACAO VERDEMAR LTDA",
@@ -621527,6 +621736,17 @@ const VENDAS_DATA = {
           "fantasia": "",
           "qt": 180,
           "valor": 7059.6,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "CHANDON BABY BRUT ROSE 187 ML",
+          "fantasia": "",
+          "qt": 48,
+          "valor": 1435.2,
           "tipo": "Venda",
           "offtrade": true
         },
