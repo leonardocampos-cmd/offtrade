@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "17/07/2026 10:13",
+  "atualizado_em": "17/07/2026 13:40",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -113,7 +113,7 @@ const VENDAS_ES_DATA = {
       "Jun/26": {
         "fat": 29330.7,
         "pos": 16,
-        "fat_ant": 95796.91
+        "fat_ant": 94203.0
       },
       "Mar/26": {
         "fat": 62317.78,
@@ -126,7 +126,7 @@ const VENDAS_ES_DATA = {
         "fat_ant": 62317.78
       },
       "Mai/26": {
-        "fat": 95796.91,
+        "fat": 94203.0,
         "pos": 38,
         "fat_ant": 30212.62
       }
@@ -295,8 +295,8 @@ const VENDAS_ES_DATA = {
         "fat_ant": 118062.39
       },
       "Jul/26": {
-        "fat": 131938.96,
-        "pos": 23,
+        "fat": 131499.96,
+        "pos": 22,
         "fat_ant": 89348.53
       }
     },
@@ -26685,15 +26685,6 @@ const VENDAS_ES_DATA = {
           "valor": 233.92
         },
         {
-          "data": "27/05/2026",
-          "codcli": "78311",
-          "cliente": "ITAPOA SUPERMERCADO LTDA.",
-          "produto": "ST PIERRE LT GINGER LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 116.96
-        },
-        {
           "data": "04/05/2026",
           "codcli": "20942",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
@@ -26775,15 +26766,6 @@ const VENDAS_ES_DATA = {
           "valor": 233.92
         },
         {
-          "data": "27/05/2026",
-          "codcli": "78311",
-          "cliente": "ITAPOA SUPERMERCADO LTDA.",
-          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 116.96
-        },
-        {
           "data": "04/05/2026",
           "codcli": "20939",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
@@ -26829,15 +26811,6 @@ const VENDAS_ES_DATA = {
           "valor": 233.92
         },
         {
-          "data": "27/05/2026",
-          "codcli": "78311",
-          "cliente": "ITAPOA SUPERMERCADO LTDA.",
-          "produto": "ST PIERRE BLUEBERRY LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 116.95
-        },
-        {
           "data": "04/05/2026",
           "codcli": "20942",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
@@ -26883,15 +26856,6 @@ const VENDAS_ES_DATA = {
           "valor": 183.57
         },
         {
-          "data": "27/05/2026",
-          "codcli": "78311",
-          "cliente": "ITAPOA SUPERMERCADO LTDA.",
-          "produto": "ST PIERRE VIDRO GINGER LN 12X275ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 122.38
-        },
-        {
           "data": "25/05/2026",
           "codcli": "78311",
           "cliente": "ITAPOA SUPERMERCADO LTDA.",
@@ -26917,15 +26881,6 @@ const VENDAS_ES_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 3,
           "valor": 171.54
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "78311",
-          "cliente": "ITAPOA SUPERMERCADO LTDA.",
-          "produto": "ST PIERRE VIDRO SUGAR FREE LN 275X12",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 57.18
         },
         {
           "data": "04/05/2026",
@@ -26958,15 +26913,6 @@ const VENDAS_ES_DATA = {
           "data": "26/05/2026",
           "codcli": "20938",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
-          "produto": "ST PIERRE VIDRO RED MINT LN 275X12",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 122.38
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "78311",
-          "cliente": "ITAPOA SUPERMERCADO LTDA.",
           "produto": "ST PIERRE VIDRO RED MINT LN 275X12",
           "fantasia": "TATUZINHO",
           "qt": 2,
@@ -27007,15 +26953,6 @@ const VENDAS_ES_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 3,
           "valor": 183.57
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "78311",
-          "cliente": "ITAPOA SUPERMERCADO LTDA.",
-          "produto": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 122.38
         },
         {
           "data": "04/05/2026",
@@ -27171,15 +27108,6 @@ const VENDAS_ES_DATA = {
           "valor": 233.92
         },
         {
-          "data": "27/05/2026",
-          "codcli": "78311",
-          "cliente": "ITAPOA SUPERMERCADO LTDA.",
-          "produto": "ST PIERRE LATA MARGARITA LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 233.92
-        },
-        {
           "data": "04/05/2026",
           "codcli": "20939",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
@@ -27216,15 +27144,6 @@ const VENDAS_ES_DATA = {
           "valor": 233.92
         },
         {
-          "data": "27/05/2026",
-          "codcli": "78311",
-          "cliente": "ITAPOA SUPERMERCADO LTDA.",
-          "produto": "ST PIERRE LATA PALOMA LT 270MLX24",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 233.92
-        },
-        {
           "data": "25/05/2026",
           "codcli": "78311",
           "cliente": "ITAPOA SUPERMERCADO LTDA.",
@@ -27237,15 +27156,6 @@ const VENDAS_ES_DATA = {
           "data": "26/05/2026",
           "codcli": "20940",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
-          "produto": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 116.96
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "78311",
-          "cliente": "ITAPOA SUPERMERCADO LTDA.",
           "produto": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -27309,15 +27219,6 @@ const VENDAS_ES_DATA = {
           "data": "26/05/2026",
           "codcli": "20938",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
-          "produto": "ST PIERRE ZERO LATA PINK LEMON  24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 233.92
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "78311",
-          "cliente": "ITAPOA SUPERMERCADO LTDA.",
           "produto": "ST PIERRE ZERO LATA PINK LEMON  24X310ML",
           "fantasia": "TATUZINHO",
           "qt": 2,
@@ -76757,15 +76658,6 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "15/07/2026",
-          "codcli": "95661",
-          "cliente": "ALIANCA MERCANTIL LTDA",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 219.5
-        },
-        {
-          "data": "15/07/2026",
           "codcli": "80907",
           "cliente": "AUTO SERVICOS IDEAL LTDA",
           "produto": "RC SARDINHA EM OLEO 50X125G",
@@ -76862,15 +76754,6 @@ const VENDAS_ES_DATA = {
           "fantasia": "ROBINSON CRUSOE",
           "qt": 6,
           "valor": 1317.0
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "95661",
-          "cliente": "ALIANCA MERCANTIL LTDA",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 219.5
         },
         {
           "data": "15/07/2026",
