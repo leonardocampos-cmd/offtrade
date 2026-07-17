@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "17/07/2026 15:02",
+  "atualizado_em": "17/07/2026 16:05",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -525,8 +525,8 @@ const GERENTES_DATA = {
           "qt": 18156
         },
         "Jul/26": {
-          "fat": 585914.44,
-          "qt": 13168
+          "fat": 608645.44,
+          "qt": 13438
         },
         "Jun/26": {
           "fat": 1752020.75,
@@ -557,8 +557,8 @@ const GERENTES_DATA = {
               "qt": 18156
             },
             "Jul/26": {
-              "fat": 585914.44,
-              "qt": 13168
+              "fat": 608645.44,
+              "qt": 13438
             },
             "Jun/26": {
               "fat": 1752020.75,
@@ -589,8 +589,8 @@ const GERENTES_DATA = {
                   "qt": 18156
                 },
                 "Jul/26": {
-                  "fat": 585914.44,
-                  "qt": 13168
+                  "fat": 608645.44,
+                  "qt": 13438
                 },
                 "Jun/26": {
                   "fat": 1752020.75,
@@ -685,8 +685,8 @@ const GERENTES_DATA = {
                       "qt": 9320
                     },
                     "Jul/26": {
-                      "fat": 320179.74,
-                      "qt": 9360
+                      "fat": 342910.74,
+                      "qt": 9630
                     },
                     "Jun/26": {
                       "fat": 1039602.9,
@@ -847,28 +847,28 @@ const GERENTES_DATA = {
       "nome": "RJ",
       "por_mes": {
         "Abr/26": {
-          "fat": 3174741.03,
-          "qt": 59370
+          "fat": 3169521.63,
+          "qt": 59364
         },
         "Fev/26": {
-          "fat": 2858159.59,
-          "qt": 45013
+          "fat": 2804879.59,
+          "qt": 44893
         },
         "Jul/26": {
-          "fat": 1156417.6,
-          "qt": 21920
+          "fat": 1111753.68,
+          "qt": 21818
         },
         "Jun/26": {
-          "fat": 3096684.76,
-          "qt": 56182
+          "fat": 2843738.36,
+          "qt": 53766
         },
         "Mai/26": {
-          "fat": 3102328.87,
-          "qt": 52429
+          "fat": 2975548.47,
+          "qt": 51962
         },
         "Mar/26": {
-          "fat": 3378030.52,
-          "qt": 62404
+          "fat": 3110205.92,
+          "qt": 61440
         }
       },
       "gerentes": [
@@ -879,28 +879,28 @@ const GERENTES_DATA = {
           ],
           "por_mes": {
             "Abr/26": {
-              "fat": 2764258.53,
-              "qt": 50757
+              "fat": 2759039.13,
+              "qt": 50751
             },
             "Jun/26": {
-              "fat": 2629825.46,
-              "qt": 48262
+              "fat": 2376879.06,
+              "qt": 45846
             },
             "Mai/26": {
-              "fat": 2781758.47,
-              "qt": 46203
+              "fat": 2654978.07,
+              "qt": 45736
             },
             "Mar/26": {
-              "fat": 2739703.65,
-              "qt": 52699
+              "fat": 2471879.05,
+              "qt": 51735
             },
             "Fev/26": {
-              "fat": 1954069.04,
-              "qt": 32838
+              "fat": 1900789.04,
+              "qt": 32718
             },
             "Jul/26": {
-              "fat": 935590.41,
-              "qt": 17846
+              "fat": 889758.09,
+              "qt": 17714
             }
           },
           "supervisores": [
@@ -911,28 +911,28 @@ const GERENTES_DATA = {
               ],
               "por_mes": {
                 "Abr/26": {
-                  "fat": 2764258.53,
-                  "qt": 50757
+                  "fat": 2759039.13,
+                  "qt": 50751
                 },
                 "Jun/26": {
-                  "fat": 2629825.46,
-                  "qt": 48262
+                  "fat": 2376879.06,
+                  "qt": 45846
                 },
                 "Mai/26": {
-                  "fat": 2781758.47,
-                  "qt": 46203
+                  "fat": 2654978.07,
+                  "qt": 45736
                 },
                 "Mar/26": {
-                  "fat": 2739703.65,
-                  "qt": 52699
+                  "fat": 2471879.05,
+                  "qt": 51735
                 },
                 "Fev/26": {
-                  "fat": 1954069.04,
-                  "qt": 32838
+                  "fat": 1900789.04,
+                  "qt": 32718
                 },
                 "Jul/26": {
-                  "fat": 935590.41,
-                  "qt": 17846
+                  "fat": 889758.09,
+                  "qt": 17714
                 }
               },
               "vendedores": [
@@ -950,8 +950,8 @@ const GERENTES_DATA = {
                       "qt": 970
                     },
                     "Jul/26": {
-                      "fat": 17938.43,
-                      "qt": 659
+                      "fat": 19469.69,
+                      "qt": 696
                     },
                     "Jun/26": {
                       "fat": 58255.15,
@@ -1000,8 +1000,8 @@ const GERENTES_DATA = {
                       "qt": 624
                     },
                     "Jul/26": {
-                      "fat": 22634.06,
-                      "qt": 531
+                      "fat": 23353.66,
+                      "qt": 537
                     },
                     "Jun/26": {
                       "fat": 43411.4,
@@ -1130,8 +1130,8 @@ const GERENTES_DATA = {
                       "qt": 1426
                     },
                     "Jul/26": {
-                      "fat": 87990.54,
-                      "qt": 1835
+                      "fat": 87714.84,
+                      "qt": 1832
                     },
                     "Jun/26": {
                       "fat": 201291.65,
@@ -1229,8 +1229,8 @@ const GERENTES_DATA = {
                       "qt": 892
                     },
                     "Jul/26": {
-                      "fat": 53232.26,
-                      "qt": 1099
+                      "fat": 54006.78,
+                      "qt": 1107
                     },
                     "Jun/26": {
                       "fat": 76343.09,
@@ -1444,8 +1444,8 @@ const GERENTES_DATA = {
                       "qt": 752
                     },
                     "Jun/26": {
-                      "fat": 105672.51,
-                      "qt": 2558
+                      "fat": 62944.11,
+                      "qt": 842
                     },
                     "Mai/26": {
                       "fat": 38615.83,
@@ -1463,28 +1463,28 @@ const GERENTES_DATA = {
                   "estado": "RJ",
                   "por_mes": {
                     "Abr/26": {
-                      "fat": 72633.87,
-                      "qt": 729
+                      "fat": 67414.47,
+                      "qt": 723
                     },
                     "Jun/26": {
-                      "fat": 257964.92,
-                      "qt": 1238
+                      "fat": 47746.92,
+                      "qt": 538
                     },
                     "Mai/26": {
-                      "fat": 303928.9,
-                      "qt": 1427
+                      "fat": 177148.5,
+                      "qt": 960
                     },
                     "Mar/26": {
-                      "fat": 502895.1,
-                      "qt": 2852
+                      "fat": 235070.5,
+                      "qt": 1888
                     },
                     "Fev/26": {
-                      "fat": 64301.49,
-                      "qt": 242
+                      "fat": 11021.49,
+                      "qt": 122
                     },
                     "Jul/26": {
-                      "fat": 55261.7,
-                      "qt": 243
+                      "fat": 6679.7,
+                      "qt": 63
                     }
                   }
                 }
@@ -1507,8 +1507,8 @@ const GERENTES_DATA = {
               "qt": 12175
             },
             "Jul/26": {
-              "fat": 220827.19,
-              "qt": 4074
+              "fat": 221995.59,
+              "qt": 4104
             },
             "Jun/26": {
               "fat": 466859.3,
@@ -1539,8 +1539,8 @@ const GERENTES_DATA = {
                   "qt": 12175
                 },
                 "Jul/26": {
-                  "fat": 220827.19,
-                  "qt": 4074
+                  "fat": 221995.59,
+                  "qt": 4104
                 },
                 "Jun/26": {
                   "fat": 466859.3,
@@ -1607,7 +1607,7 @@ const GERENTES_DATA = {
                     },
                     "Jul/26": {
                       "fat": 119843.68,
-                      "qt": 2296
+                      "qt": 2298
                     },
                     "Jun/26": {
                       "fat": 229741.84,
@@ -1655,8 +1655,8 @@ const GERENTES_DATA = {
                       "qt": 6267
                     },
                     "Jul/26": {
-                      "fat": 87578.61,
-                      "qt": 1378
+                      "fat": 88747.01,
+                      "qt": 1406
                     },
                     "Jun/26": {
                       "fat": 208188.28,
@@ -1713,28 +1713,28 @@ const GERENTES_DATA = {
       "nome": "SP",
       "por_mes": {
         "Abr/26": {
-          "fat": 5833067.18,
-          "qt": 122235
+          "fat": 75895.9,
+          "qt": 757
         },
         "Fev/26": {
-          "fat": 4508994.61,
-          "qt": 106872
+          "fat": 13440.58,
+          "qt": 121
         },
         "Jul/26": {
-          "fat": 3338066.65,
-          "qt": 85787
+          "fat": 0.0,
+          "qt": 8
         },
         "Jun/26": {
-          "fat": 7312916.81,
-          "qt": 186874
+          "fat": 33332.91,
+          "qt": 157
         },
         "Mai/26": {
-          "fat": 6879741.41,
-          "qt": 182305
+          "fat": 341.64,
+          "qt": 151
         },
         "Mar/26": {
-          "fat": 5924379.03,
-          "qt": 145500
+          "fat": 15091.38,
+          "qt": 170
         }
       },
       "gerentes": [
@@ -1745,28 +1745,28 @@ const GERENTES_DATA = {
           ],
           "por_mes": {
             "Abr/26": {
-              "fat": 3133740.84,
-              "qt": 61830
+              "fat": 75895.9,
+              "qt": 757
             },
             "Fev/26": {
-              "fat": 3413505.75,
-              "qt": 80641
+              "fat": 13440.58,
+              "qt": 121
             },
             "Jul/26": {
-              "fat": 1445296.92,
-              "qt": 38752
+              "fat": 0.0,
+              "qt": 8
             },
             "Jun/26": {
-              "fat": 2447376.44,
-              "qt": 57108
+              "fat": 33332.91,
+              "qt": 157
             },
             "Mai/26": {
-              "fat": 2028656.87,
-              "qt": 52867
+              "fat": 341.64,
+              "qt": 151
             },
             "Mar/26": {
-              "fat": 4131423.13,
-              "qt": 95485
+              "fat": 15091.38,
+              "qt": 170
             }
           },
           "supervisores": [
@@ -1777,28 +1777,28 @@ const GERENTES_DATA = {
               ],
               "por_mes": {
                 "Abr/26": {
-                  "fat": 3133740.84,
-                  "qt": 61830
+                  "fat": 75895.9,
+                  "qt": 757
                 },
                 "Fev/26": {
-                  "fat": 3413505.75,
-                  "qt": 80641
+                  "fat": 13440.58,
+                  "qt": 121
                 },
                 "Jul/26": {
-                  "fat": 1445296.92,
-                  "qt": 38752
+                  "fat": 0.0,
+                  "qt": 8
                 },
                 "Jun/26": {
-                  "fat": 2447376.44,
-                  "qt": 57108
+                  "fat": 33332.91,
+                  "qt": 157
                 },
                 "Mai/26": {
-                  "fat": 2028656.87,
-                  "qt": 52867
+                  "fat": 341.64,
+                  "qt": 151
                 },
                 "Mar/26": {
-                  "fat": 4131423.13,
-                  "qt": 95485
+                  "fat": 15091.38,
+                  "qt": 170
                 }
               },
               "vendedores": [
@@ -1830,1125 +1830,6 @@ const GERENTES_DATA = {
                     "Mar/26": {
                       "fat": 15091.38,
                       "qt": 170
-                    }
-                  }
-                },
-                {
-                  "nome": "W.S",
-                  "rca": "588",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Abr/26": {
-                      "fat": 3057844.94,
-                      "qt": 61073
-                    },
-                    "Fev/26": {
-                      "fat": 3400065.17,
-                      "qt": 80520
-                    },
-                    "Jul/26": {
-                      "fat": 1445296.92,
-                      "qt": 38744
-                    },
-                    "Jun/26": {
-                      "fat": 2414043.53,
-                      "qt": 56951
-                    },
-                    "Mai/26": {
-                      "fat": 2028315.23,
-                      "qt": 52716
-                    },
-                    "Mar/26": {
-                      "fat": 4116331.75,
-                      "qt": 95315
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "MARCUS TANAMACHI",
-          "estados": [
-            "SP"
-          ],
-          "por_mes": {
-            "Abr/26": {
-              "fat": 2699326.34,
-              "qt": 60405
-            },
-            "Fev/26": {
-              "fat": 1095488.86,
-              "qt": 26231
-            },
-            "Jul/26": {
-              "fat": 1892769.73,
-              "qt": 47035
-            },
-            "Jun/26": {
-              "fat": 4865540.37,
-              "qt": 129766
-            },
-            "Mai/26": {
-              "fat": 4851084.54,
-              "qt": 129438
-            },
-            "Mar/26": {
-              "fat": 1792955.9,
-              "qt": 50015
-            }
-          },
-          "supervisores": [
-            {
-              "nome": "ANDERSON CANAVEIS",
-              "estados": [
-                "SP"
-              ],
-              "por_mes": {
-                "Abr/26": {
-                  "fat": 1248159.46,
-                  "qt": 29594
-                },
-                "Fev/26": {
-                  "fat": 973179.39,
-                  "qt": 23685
-                },
-                "Jul/26": {
-                  "fat": 216412.9,
-                  "qt": 4025
-                },
-                "Jun/26": {
-                  "fat": 2088361.96,
-                  "qt": 58417
-                },
-                "Mai/26": {
-                  "fat": 1072395.92,
-                  "qt": 21561
-                },
-                "Mar/26": {
-                  "fat": 1536899.36,
-                  "qt": 44543
-                }
-              },
-              "vendedores": [
-                {
-                  "nome": "ANDERSON CANAVEIS - OFF TRADE",
-                  "rca": "232",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Jul/26": {
-                      "fat": 2345.34,
-                      "qt": 78
-                    },
-                    "Jun/26": {
-                      "fat": 1476502.11,
-                      "qt": 48071
-                    }
-                  }
-                },
-                {
-                  "nome": "ANDRE SILVA - OFF TRADE",
-                  "rca": "391",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Abr/26": {
-                      "fat": 331089.89,
-                      "qt": 5852
-                    },
-                    "Fev/26": {
-                      "fat": 541093.05,
-                      "qt": 15542
-                    },
-                    "Jul/26": {
-                      "fat": 144828.84,
-                      "qt": 1230
-                    },
-                    "Jun/26": {
-                      "fat": 141022.2,
-                      "qt": 2151
-                    },
-                    "Mai/26": {
-                      "fat": 248776.43,
-                      "qt": 6379
-                    },
-                    "Mar/26": {
-                      "fat": 166766.57,
-                      "qt": 4668
-                    }
-                  }
-                },
-                {
-                  "nome": "CARLOS DE ALMEIDA - OFF TRADE",
-                  "rca": "371",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Abr/26": {
-                      "fat": 319986.31,
-                      "qt": 7213
-                    },
-                    "Fev/26": {
-                      "fat": 327130.38,
-                      "qt": 4899
-                    },
-                    "Jul/26": {
-                      "fat": 31249.66,
-                      "qt": 1443
-                    },
-                    "Jun/26": {
-                      "fat": 209207.7,
-                      "qt": 4237
-                    },
-                    "Mai/26": {
-                      "fat": 428989.75,
-                      "qt": 10724
-                    },
-                    "Mar/26": {
-                      "fat": 762868.6,
-                      "qt": 18796
-                    }
-                  }
-                },
-                {
-                  "nome": "DEMETRIUS PELEGRINI - OFF TRADE",
-                  "rca": "496",
-                  "estado": "SP",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "JOAO LUPORINI - OFF TRADE",
-                  "rca": "312",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Abr/26": {
-                      "fat": 2892.0,
-                      "qt": 10
-                    },
-                    "Fev/26": {
-                      "fat": 919.2,
-                      "qt": 4
-                    },
-                    "Jul/26": {
-                      "fat": 1135.2,
-                      "qt": 4
-                    },
-                    "Jun/26": {
-                      "fat": 2881.2,
-                      "qt": 20
-                    },
-                    "Mai/26": {
-                      "fat": 2259.6,
-                      "qt": 18
-                    },
-                    "Mar/26": {
-                      "fat": 12118.8,
-                      "qt": 45
-                    }
-                  }
-                },
-                {
-                  "nome": "JOSE SILVA - OFF TRADE",
-                  "rca": "499",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Jul/26": {
-                      "fat": 490.4,
-                      "qt": 26
-                    }
-                  }
-                },
-                {
-                  "nome": "LUCELIA BARROS - OFF TRADE",
-                  "rca": "505",
-                  "estado": "SP",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "LUIS MACHADO - OFF TRADE",
-                  "rca": "497",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Jul/26": {
-                      "fat": 979.8,
-                      "qt": 74
-                    }
-                  }
-                },
-                {
-                  "nome": "MARCIA RITA - OFF TRADE",
-                  "rca": "438",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Abr/26": {
-                      "fat": 544946.32,
-                      "qt": 15325
-                    },
-                    "Jun/26": {
-                      "fat": 211327.46,
-                      "qt": 2581
-                    },
-                    "Mai/26": {
-                      "fat": 317650.91,
-                      "qt": 2793
-                    },
-                    "Mar/26": {
-                      "fat": 518686.19,
-                      "qt": 19168
-                    }
-                  }
-                },
-                {
-                  "nome": "MARIA PEREIRA - OFF TRADE",
-                  "rca": "478",
-                  "estado": "SP",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "PATRICIO MASSAGARDI - OFF TRADE",
-                  "rca": "464",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Jul/26": {
-                      "fat": 7728.94,
-                      "qt": 171
-                    },
-                    "Jun/26": {
-                      "fat": 8281.38,
-                      "qt": 130
-                    },
-                    "Mai/26": {
-                      "fat": 10845.62,
-                      "qt": 136
-                    }
-                  }
-                },
-                {
-                  "nome": "PAULO MOREIRA - OFF TRADE",
-                  "rca": "500",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Jul/26": {
-                      "fat": 1614.0,
-                      "qt": 81
-                    }
-                  }
-                },
-                {
-                  "nome": "ROBSON DA SILVA - OFF TRADE",
-                  "rca": "317",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Abr/26": {
-                      "fat": 49244.94,
-                      "qt": 1194
-                    },
-                    "Fev/26": {
-                      "fat": 104036.76,
-                      "qt": 3240
-                    },
-                    "Jul/26": {
-                      "fat": 15694.84,
-                      "qt": 486
-                    },
-                    "Jun/26": {
-                      "fat": 39139.91,
-                      "qt": 1227
-                    },
-                    "Mai/26": {
-                      "fat": 63873.61,
-                      "qt": 1511
-                    },
-                    "Mar/26": {
-                      "fat": 76459.2,
-                      "qt": 1866
-                    }
-                  }
-                },
-                {
-                  "nome": "VITORIA VIEIRA - OFF TRADE",
-                  "rca": "480",
-                  "estado": "SP",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "WILLIAM GONCALVES - OFF TRADE",
-                  "rca": "512",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Jul/26": {
-                      "fat": 10345.88,
-                      "qt": 432
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "nome": "MARCUS TANAMACHI",
-              "estados": [
-                "SP"
-              ],
-              "por_mes": {
-                "Abr/26": {
-                  "fat": 266006.52,
-                  "qt": 10139
-                },
-                "Jun/26": {
-                  "fat": 614808.02,
-                  "qt": 16015
-                },
-                "Fev/26": {
-                  "fat": 933.0,
-                  "qt": 8
-                },
-                "Mar/26": {
-                  "fat": 6588.0,
-                  "qt": 120
-                },
-                "Mai/26": {
-                  "fat": 1552597.82,
-                  "qt": 49469
-                },
-                "Jul/26": {
-                  "fat": 776865.09,
-                  "qt": 20548
-                }
-              },
-              "vendedores": [
-                {
-                  "nome": "ANDERSON MOTTA - OFF TRADE",
-                  "rca": "492",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Jul/26": {
-                      "fat": 1425.54,
-                      "qt": 58
-                    }
-                  }
-                },
-                {
-                  "nome": "ANDRE PINHEIRO - OFF TRADE",
-                  "rca": "485",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Jun/26": {
-                      "fat": 3954.0,
-                      "qt": 60
-                    },
-                    "Mai/26": {
-                      "fat": 790.8,
-                      "qt": 12
-                    }
-                  }
-                },
-                {
-                  "nome": "BRYAN PALOPOLI - OFF TRADE",
-                  "rca": "399",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Fev/26": {
-                      "fat": 933.0,
-                      "qt": 8
-                    },
-                    "Jun/26": {
-                      "fat": 3294.0,
-                      "qt": 60
-                    },
-                    "Mar/26": {
-                      "fat": 6588.0,
-                      "qt": 120
-                    }
-                  }
-                },
-                {
-                  "nome": "CARLOS TERRA - OFF TRADE",
-                  "rca": "310",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Abr/26": {
-                      "fat": 43596.0,
-                      "qt": 840
-                    },
-                    "Jun/26": {
-                      "fat": 111372.0,
-                      "qt": 1960
-                    }
-                  }
-                },
-                {
-                  "nome": "CAROLINA SOUZA - OFF TRADE",
-                  "rca": "493",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Jul/26": {
-                      "fat": 4337.74,
-                      "qt": 259
-                    },
-                    "Jun/26": {
-                      "fat": 16518.11,
-                      "qt": 588
-                    }
-                  }
-                },
-                {
-                  "nome": "CIARA PADULA - OFF TRADE",
-                  "rca": "465",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Abr/26": {
-                      "fat": 1704.9,
-                      "qt": 51
-                    },
-                    "Jul/26": {
-                      "fat": 7684.4,
-                      "qt": 125
-                    },
-                    "Jun/26": {
-                      "fat": 9876.85,
-                      "qt": 374
-                    },
-                    "Mai/26": {
-                      "fat": 53499.24,
-                      "qt": 1977
-                    }
-                  }
-                },
-                {
-                  "nome": "CRISTIANE MORAIS - OFF TRADE",
-                  "rca": "460",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Abr/26": {
-                      "fat": 1113.12,
-                      "qt": 33
-                    },
-                    "Jul/26": {
-                      "fat": 74222.2,
-                      "qt": 1687
-                    },
-                    "Jun/26": {
-                      "fat": 158477.09,
-                      "qt": 4529
-                    },
-                    "Mai/26": {
-                      "fat": 59264.83,
-                      "qt": 1787
-                    }
-                  }
-                },
-                {
-                  "nome": "DANIELLE DOS SANTOS - OFF TRADE",
-                  "rca": "466",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Abr/26": {
-                      "fat": 3810.24,
-                      "qt": 132
-                    },
-                    "Jul/26": {
-                      "fat": 17631.61,
-                      "qt": 446
-                    },
-                    "Jun/26": {
-                      "fat": 23817.81,
-                      "qt": 449
-                    },
-                    "Mai/26": {
-                      "fat": 23626.11,
-                      "qt": 532
-                    }
-                  }
-                },
-                {
-                  "nome": "EDUARDO COUTO - OFF TRADE",
-                  "rca": "495",
-                  "estado": "SP",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "FLAVIO RIBEIRO - OFF TRADE",
-                  "rca": "472",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Jul/26": {
-                      "fat": 17273.09,
-                      "qt": 480
-                    },
-                    "Jun/26": {
-                      "fat": 21236.32,
-                      "qt": 656
-                    },
-                    "Mai/26": {
-                      "fat": 22904.64,
-                      "qt": 662
-                    }
-                  }
-                },
-                {
-                  "nome": "MARCUS TANAMACHI - OFF TRADE",
-                  "rca": "318",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Abr/26": {
-                      "fat": 174034.2,
-                      "qt": 8268
-                    },
-                    "Jul/26": {
-                      "fat": 437623.2,
-                      "qt": 8568
-                    },
-                    "Mai/26": {
-                      "fat": 900095.4,
-                      "qt": 29706
-                    }
-                  }
-                },
-                {
-                  "nome": "MARLENE RODRIGUES - OFF TRADE",
-                  "rca": "467",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Abr/26": {
-                      "fat": 7266.6,
-                      "qt": 254
-                    },
-                    "Jul/26": {
-                      "fat": 37158.8,
-                      "qt": 1621
-                    },
-                    "Jun/26": {
-                      "fat": 52463.84,
-                      "qt": 1900
-                    },
-                    "Mai/26": {
-                      "fat": 107487.4,
-                      "qt": 1727
-                    }
-                  }
-                },
-                {
-                  "nome": "PAULO JUNIOR - OFF TRADE",
-                  "rca": "471",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Jul/26": {
-                      "fat": 2419.06,
-                      "qt": 25
-                    },
-                    "Jun/26": {
-                      "fat": 22522.14,
-                      "qt": 616
-                    },
-                    "Mai/26": {
-                      "fat": 17486.74,
-                      "qt": 418
-                    }
-                  }
-                },
-                {
-                  "nome": "RENATO JUNIOR - OFF TRADE",
-                  "rca": "468",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Jul/26": {
-                      "fat": 125687.36,
-                      "qt": 6109
-                    },
-                    "Jun/26": {
-                      "fat": 34230.14,
-                      "qt": 826
-                    },
-                    "Mai/26": {
-                      "fat": 286653.34,
-                      "qt": 10982
-                    }
-                  }
-                },
-                {
-                  "nome": "ROBERTO DOS SANTOS - OFF TRADE",
-                  "rca": "463",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Jul/26": {
-                      "fat": 3265.4,
-                      "qt": 143
-                    },
-                    "Jun/26": {
-                      "fat": 53175.75,
-                      "qt": 1424
-                    },
-                    "Mai/26": {
-                      "fat": 7656.4,
-                      "qt": 266
-                    }
-                  }
-                },
-                {
-                  "nome": "SUELY SANTOS - OFF TRADE",
-                  "rca": "461",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Abr/26": {
-                      "fat": 34481.46,
-                      "qt": 561
-                    },
-                    "Jul/26": {
-                      "fat": 48136.69,
-                      "qt": 1027
-                    },
-                    "Jun/26": {
-                      "fat": 103869.97,
-                      "qt": 2573
-                    },
-                    "Mai/26": {
-                      "fat": 73132.92,
-                      "qt": 1400
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "nome": "PRISCILLA BONACHE",
-              "estados": [
-                "SP"
-              ],
-              "por_mes": {
-                "Abr/26": {
-                  "fat": 1185160.36,
-                  "qt": 20672
-                },
-                "Fev/26": {
-                  "fat": 121376.47,
-                  "qt": 2538
-                },
-                "Jul/26": {
-                  "fat": 899491.74,
-                  "qt": 22462
-                },
-                "Jun/26": {
-                  "fat": 2162370.39,
-                  "qt": 55334
-                },
-                "Mai/26": {
-                  "fat": 2226090.8,
-                  "qt": 58408
-                },
-                "Mar/26": {
-                  "fat": 249468.54,
-                  "qt": 5352
-                }
-              },
-              "vendedores": [
-                {
-                  "nome": "ADER ALONSO - OFF TRADE",
-                  "rca": "426",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Abr/26": {
-                      "fat": 772099.48,
-                      "qt": 15030
-                    },
-                    "Fev/26": {
-                      "fat": 76064.58,
-                      "qt": 1962
-                    },
-                    "Jul/26": {
-                      "fat": 160300.92,
-                      "qt": 3100
-                    },
-                    "Jun/26": {
-                      "fat": 475975.58,
-                      "qt": 9746
-                    },
-                    "Mai/26": {
-                      "fat": 917060.17,
-                      "qt": 24849
-                    },
-                    "Mar/26": {
-                      "fat": 218666.62,
-                      "qt": 4929
-                    }
-                  }
-                },
-                {
-                  "nome": "ADRIANO VEZZANI - OFF TRADE",
-                  "rca": "488",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Jun/26": {
-                      "fat": 10916.4,
-                      "qt": 456
-                    }
-                  }
-                },
-                {
-                  "nome": "ALEXANDRE TONON - OFF TRADE",
-                  "rca": "483",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Jul/26": {
-                      "fat": 790.8,
-                      "qt": 12
-                    },
-                    "Jun/26": {
-                      "fat": 4579.64,
-                      "qt": 76
-                    }
-                  }
-                },
-                {
-                  "nome": "BRUNO BARBOSA - OFF TRADE",
-                  "rca": "425",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Abr/26": {
-                      "fat": 72324.12,
-                      "qt": 926
-                    },
-                    "Fev/26": {
-                      "fat": 34234.29,
-                      "qt": 430
-                    },
-                    "Jul/26": {
-                      "fat": 100832.78,
-                      "qt": 2591
-                    },
-                    "Jun/26": {
-                      "fat": 59276.18,
-                      "qt": 784
-                    },
-                    "Mai/26": {
-                      "fat": 43682.64,
-                      "qt": 623
-                    },
-                    "Mar/26": {
-                      "fat": 23236.24,
-                      "qt": 248
-                    }
-                  }
-                },
-                {
-                  "nome": "CELSO OLIVEIRA - OFF TRADE",
-                  "rca": "498",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Jul/26": {
-                      "fat": 27247.64,
-                      "qt": 732
-                    }
-                  }
-                },
-                {
-                  "nome": "DOUGLAS TEIXEIRA - OFF TRADE",
-                  "rca": "490",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Jul/26": {
-                      "fat": 20339.38,
-                      "qt": 748
-                    },
-                    "Jun/26": {
-                      "fat": 14579.78,
-                      "qt": 592
-                    }
-                  }
-                },
-                {
-                  "nome": "ELIZANGELA RODRIGUES - OFF TRADE",
-                  "rca": "462",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Abr/26": {
-                      "fat": 28176.0,
-                      "qt": 840
-                    },
-                    "Jul/26": {
-                      "fat": 42937.2,
-                      "qt": 948
-                    },
-                    "Jun/26": {
-                      "fat": 165876.4,
-                      "qt": 7306
-                    },
-                    "Mai/26": {
-                      "fat": 121577.16,
-                      "qt": 4884
-                    }
-                  }
-                },
-                {
-                  "nome": "FERNANDO BERTIN - OFF TRADE",
-                  "rca": "489",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Jul/26": {
-                      "fat": 96516.97,
-                      "qt": 2531
-                    },
-                    "Jun/26": {
-                      "fat": 28703.02,
-                      "qt": 627
-                    }
-                  }
-                },
-                {
-                  "nome": "FRANCIS SILVA - OFF TRADE",
-                  "rca": "474",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Jul/26": {
-                      "fat": 10421.31,
-                      "qt": 182
-                    },
-                    "Jun/26": {
-                      "fat": 21107.07,
-                      "qt": 329
-                    },
-                    "Mai/26": {
-                      "fat": 4509.8,
-                      "qt": 54
-                    }
-                  }
-                },
-                {
-                  "nome": "GILSON DE OLIVEIRA - OFF TRADE",
-                  "rca": "491",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Jul/26": {
-                      "fat": 7300.53,
-                      "qt": 229
-                    },
-                    "Jun/26": {
-                      "fat": 10786.35,
-                      "qt": 178
-                    }
-                  }
-                },
-                {
-                  "nome": "GILVAN AMORIM - OFF TRADE",
-                  "rca": "504",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Jul/26": {
-                      "fat": 4926.06,
-                      "qt": 149
-                    }
-                  }
-                },
-                {
-                  "nome": "JESSICA LIMA -  OFF TRADE",
-                  "rca": "501",
-                  "estado": "SP",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "LEONARDO FLOREZI - OFF TRADE",
-                  "rca": "486",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Jul/26": {
-                      "fat": 70583.49,
-                      "qt": 1586
-                    },
-                    "Jun/26": {
-                      "fat": 25769.14,
-                      "qt": 447
-                    }
-                  }
-                },
-                {
-                  "nome": "LUCAS BUENO - OFF TRADE",
-                  "rca": "475",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Jul/26": {
-                      "fat": 14457.1,
-                      "qt": 532
-                    },
-                    "Jun/26": {
-                      "fat": 6883.26,
-                      "qt": 274
-                    },
-                    "Mai/26": {
-                      "fat": 4040.1,
-                      "qt": 63
-                    }
-                  }
-                },
-                {
-                  "nome": "LUCIANO TOSCHI - OFF TRADE",
-                  "rca": "477",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Jul/26": {
-                      "fat": 12715.08,
-                      "qt": 451
-                    },
-                    "Jun/26": {
-                      "fat": 33475.4,
-                      "qt": 995
-                    },
-                    "Mai/26": {
-                      "fat": 14757.0,
-                      "qt": 390
-                    }
-                  }
-                },
-                {
-                  "nome": "LUIZ RIGLER - OFF TRADE",
-                  "rca": "487",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Jul/26": {
-                      "fat": 20324.0,
-                      "qt": 430
-                    },
-                    "Jun/26": {
-                      "fat": 20314.9,
-                      "qt": 510
-                    }
-                  }
-                },
-                {
-                  "nome": "MANUELA ZAPPACOSTA - OFF TRADE",
-                  "rca": "433",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Abr/26": {
-                      "fat": 262330.44,
-                      "qt": 2972
-                    },
-                    "Jul/26": {
-                      "fat": 165487.77,
-                      "qt": 5243
-                    },
-                    "Jun/26": {
-                      "fat": 224919.91,
-                      "qt": 4942
-                    },
-                    "Mai/26": {
-                      "fat": 449220.07,
-                      "qt": 2401
-                    }
-                  }
-                },
-                {
-                  "nome": "MARCELO PEREIRA - OFF TRADE",
-                  "rca": "473",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Jul/26": {
-                      "fat": 11245.56,
-                      "qt": 306
-                    },
-                    "Jun/26": {
-                      "fat": 3443.8,
-                      "qt": 62
-                    },
-                    "Mai/26": {
-                      "fat": 19765.2,
-                      "qt": 780
-                    }
-                  }
-                },
-                {
-                  "nome": "MARIO RAFAEL FERRARI - OFF TRADE",
-                  "rca": "428",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Abr/26": {
-                      "fat": 50230.32,
-                      "qt": 904
-                    },
-                    "Fev/26": {
-                      "fat": 11077.6,
-                      "qt": 146
-                    },
-                    "Jul/26": {
-                      "fat": 21440.72,
-                      "qt": 192
-                    },
-                    "Jun/26": {
-                      "fat": 9258.47,
-                      "qt": 69
-                    },
-                    "Mai/26": {
-                      "fat": 10959.84,
-                      "qt": 282
-                    },
-                    "Mar/26": {
-                      "fat": 7565.68,
-                      "qt": 175
-                    }
-                  }
-                },
-                {
-                  "nome": "PATRICIA RAMOS - OFF TRADE",
-                  "rca": "469",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Jul/26": {
-                      "fat": 16953.94,
-                      "qt": 349
-                    },
-                    "Jun/26": {
-                      "fat": 29240.47,
-                      "qt": 438
-                    },
-                    "Mai/26": {
-                      "fat": 39288.21,
-                      "qt": 689
-                    }
-                  }
-                },
-                {
-                  "nome": "PRISCILLA BONACHE - OFF TRADE",
-                  "rca": "470",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Jul/26": {
-                      "fat": 2967.64,
-                      "qt": 56
-                    },
-                    "Jun/26": {
-                      "fat": 889706.58,
-                      "qt": 24850
-                    },
-                    "Mai/26": {
-                      "fat": 557508.08,
-                      "qt": 22458
-                    }
-                  }
-                },
-                {
-                  "nome": "ROBERTO DA SILVA - OFF TRADE",
-                  "rca": "509",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Jul/26": {
-                      "fat": 1674.0,
-                      "qt": 60
-                    }
-                  }
-                },
-                {
-                  "nome": "RODRIGO LIMA - OFF TRADE",
-                  "rca": "476",
-                  "estado": "SP",
-                  "por_mes": {
-                    "Jul/26": {
-                      "fat": 90028.85,
-                      "qt": 2035
-                    },
-                    "Jun/26": {
-                      "fat": 127558.04,
-                      "qt": 2653
-                    },
-                    "Mai/26": {
-                      "fat": 43722.53,
-                      "qt": 935
                     }
                   }
                 }
@@ -3139,82 +2020,6 @@ const GERENTES_DATA = {
                 {
                   "nome": "MARIA LUIZA - OFF TRADE",
                   "rca": "904",
-                  "estado": "",
-                  "por_mes": {}
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "nome": "MARCUS TANAMACHI",
-          "estados": [],
-          "por_mes": {},
-          "supervisores": [
-            {
-              "nome": "ANDERSON CANAVEIS",
-              "estados": [],
-              "por_mes": {},
-              "vendedores": [
-                {
-                  "nome": "HELENA CAVALCANTI - OFF TRADE",
-                  "rca": "514",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "IGOR OLIVEIRA - OFF TRADE",
-                  "rca": "513",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "JOAO AUGUSTO -  OFF TRADE",
-                  "rca": "507",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "RAFAEL REIS - OFF TRADE",
-                  "rca": "515",
-                  "estado": "",
-                  "por_mes": {}
-                }
-              ]
-            },
-            {
-              "nome": "MARCUS TANAMACHI",
-              "estados": [],
-              "por_mes": {},
-              "vendedores": [
-                {
-                  "nome": "ALEXANDRE SOUZA - OFF TRADE",
-                  "rca": "511",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "RAPHAEL CAMPOS - OFF TRADE",
-                  "rca": "506",
-                  "estado": "",
-                  "por_mes": {}
-                }
-              ]
-            },
-            {
-              "nome": "PRISCILLA BONACHE",
-              "estados": [],
-              "por_mes": {},
-              "vendedores": [
-                {
-                  "nome": "PAULO SALES - OFF TRADE",
-                  "rca": "508",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "ROSANA AFFONSO - OFF TRADE",
-                  "rca": "510",
                   "estado": "",
                   "por_mes": {}
                 }
