@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "17/07/2026 16:05",
+  "atualizado_em": "17/07/2026 17:03",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -73832,6 +73832,61 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
+          "data": "17/07/2026",
+          "codcli": "78141",
+          "cliente": "MARCIO GARCIA SANCHES 01351218760",
+          "produto": "NECTAR PESSEGO 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 5,
+          "valor": 282.0,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "78141",
+          "cliente": "MARCIO GARCIA SANCHES 01351218760",
+          "produto": "NECTAR LARANJA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 5,
+          "valor": 282.0,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "78141",
+          "cliente": "MARCIO GARCIA SANCHES 01351218760",
+          "produto": "NECTAR GOIABA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 3,
+          "valor": 169.2,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "78141",
+          "cliente": "MARCIO GARCIA SANCHES 01351218760",
+          "produto": "NECTAR ABACAXI 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 3,
+          "valor": 169.2,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "78141",
+          "cliente": "MARCIO GARCIA SANCHES 01351218760",
+          "produto": "NECTAR MANGA 12X1000ML",
+          "fantasia": "TIAL",
+          "qt": 5,
+          "valor": 282.0,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
           "data": "02/07/2026",
           "codcli": "78947",
           "cliente": "SUPERMERCADO SHOW DE ECONOMIA LTDA.",
@@ -111449,6 +111504,17 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
+          "data": "17/07/2026",
+          "codcli": "70802",
+          "cliente": "NASOLI COMERCIO DE BEBIDAS LTDA",
+          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
+          "fantasia": "CATUABA",
+          "qt": 24,
+          "valor": 420.0,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
           "data": "16/07/2026",
           "codcli": "69779",
           "cliente": "DISTRIBUIDORA DE DOCES AFIF LTDA",
@@ -112183,6 +112249,50 @@ const VENDAS_DATA = {
           "qt": 1,
           "valor": 0.0,
           "tipo": "Bonificado",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "91337",
+          "cliente": "MONTES DOCES MARECHAL HERMES LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 69.9,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "91337",
+          "cliente": "MONTES DOCES MARECHAL HERMES LTDA",
+          "produto": "GIN BEEFEATER PINK 700ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 69.9,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "91337",
+          "cliente": "MONTES DOCES MARECHAL HERMES LTDA",
+          "produto": "VODKA ABSOLUT TABASCO 750ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 59.9,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "91337",
+          "cliente": "MONTES DOCES MARECHAL HERMES LTDA",
+          "produto": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 95.9,
+          "tipo": "Venda",
           "offtrade": true
         },
         {
@@ -113800,6 +113910,50 @@ const VENDAS_DATA = {
           "qt": 1,
           "valor": 0.0,
           "tipo": "Bonificado",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "95723",
+          "cliente": "AUTO POSTO ALIANCA DE CABUCU LTDA",
+          "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "fantasia": "CASA PERINI",
+          "qt": 3,
+          "valor": 104.7,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "95723",
+          "cliente": "AUTO POSTO ALIANCA DE CABUCU LTDA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 3,
+          "valor": 194.7,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "95723",
+          "cliente": "AUTO POSTO ALIANCA DE CABUCU LTDA",
+          "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 1,
+          "valor": 105.9,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "95723",
+          "cliente": "AUTO POSTO ALIANCA DE CABUCU LTDA",
+          "produto": "LICOR BALLENA COCO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 1,
+          "valor": 105.9,
+          "tipo": "Venda",
           "offtrade": true
         },
         {
@@ -180329,6 +180483,50 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 3,
           "valor": 517.68,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "94000",
+          "cliente": "J. W. DEPOSITO DE BEBIDAS LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 179.76,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "94000",
+          "cliente": "J. W. DEPOSITO DE BEBIDAS LTDA",
+          "produto": "RED BULL TROPICAL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 179.76,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "94000",
+          "cliente": "J. W. DEPOSITO DE BEBIDAS LTDA",
+          "produto": "RED BULL MELANCIA 250ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 179.76,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "94000",
+          "cliente": "J. W. DEPOSITO DE BEBIDAS LTDA",
+          "produto": "COQUETEL PINK MOON 12X600ML - PET",
+          "fantasia": "COMARY",
+          "qt": 1,
+          "valor": 77.9,
           "tipo": "Venda",
           "offtrade": true
         },
