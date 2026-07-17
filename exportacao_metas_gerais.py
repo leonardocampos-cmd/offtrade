@@ -39,7 +39,11 @@ BASES = [
     {"dsn": os.getenv("DSN_MG", "mgon_oci"),  "schema": "MGON", "estado": "MG", "filiais": ["1","2"]},
 ]
 
-METAS_FAT_ESTADO = {
+# RJ e SP têm meta mensal cadastrada por vendedor nas planilhas do Drive
+# (METAS RJ.xlsx / METAS SP.xlsx) — a meta do estado é a soma dessas metas
+# pro mês atual (ver _meta_estado_do_mes). ES e MG ainda não têm esse
+# processo de meta mensal, então continuam com valor fixo.
+METAS_FAT_ESTADO_FALLBACK = {
     "RJ": 3_900_000.0,
     "SP": 6_600_000.0,
     "ES": 1_800_000.0,
@@ -89,7 +93,7 @@ def _query_industria(schema: str, filiais: list | None, mes_offset: int = 0, lim
     return f"""
         SELECT PCFORNEC.FANTASIA                     AS FANTASIA,
                SUM(PCMOV.PUNIT * PCMOV.QT)          AS FATURAMENTO,
-               COUNT(DISTINCT PCCLIENT.CODCLI)       AS POSITIVADOS
+               COUNT(DISTINCT CASE WHEN PCCLIENT.OFFTRADE = 'S' THEN PCCLIENT.CODCLI END) AS POSITIVADOS
         FROM {p}PCMOV
         JOIN {p}PCUSUARI  ON PCMOV.CODUSUR      = PCUSUARI.CODUSUR
         JOIN {p}PCPRODUT  ON PCMOV.CODPROD      = PCPRODUT.CODPROD
@@ -108,7 +112,7 @@ def _query_totais(schema: str, filiais: list | None, mes_offset: int = 0, limit_
     p, ref, fil_clause, day_clause = _where(schema, filiais, mes_offset, limit_day)
     return f"""
         SELECT SUM(PCMOV.PUNIT * PCMOV.QT)    AS FATURAMENTO,
-               COUNT(DISTINCT PCCLIENT.CODCLI) AS POSITIVADOS
+               COUNT(DISTINCT CASE WHEN PCCLIENT.OFFTRADE = 'S' THEN PCCLIENT.CODCLI END) AS POSITIVADOS
         FROM {p}PCMOV
         JOIN {p}PCUSUARI ON PCMOV.CODUSUR = PCUSUARI.CODUSUR
         JOIN {p}PCCLIENT ON PCMOV.CODCLI  = PCCLIENT.CODCLI
@@ -195,9 +199,53 @@ def _carregar_totais(mes_offset: int = 0, limit_day: bool = False) -> dict:
     return result
 
 
+def _norm_col(s) -> str:
+    import unicodedata
+    return unicodedata.normalize('NFKD', str(s)).encode('ascii', 'ignore').decode().upper().strip()
+
+
+def _meta_estado_do_mes(caminho_fn, fallback_path: str, mes_ym: str, fallback_valor: float) -> float:
+    """Soma META FATURAMENTO de todos os vendedores no mês atual, a partir da
+    planilha de metas (METAS RJ.xlsx / METAS SP.xlsx no Drive) — cai no valor
+    fixo se a planilha, a coluna ou o mês não estiverem disponíveis."""
+    try:
+        import baixar_planilhas_drive as _bpd
+        df = pd.read_excel(_bpd.com_fallback(caminho_fn, fallback_path))
+        df.columns = df.columns.str.strip()
+        cols_norm = {_norm_col(c): c for c in df.columns}
+        col_mes  = cols_norm.get('MES')
+        col_meta = cols_norm.get('META FATURAMENTO')
+        if not col_mes or not col_meta:
+            raise ValueError("colunas MES/META FATURAMENTO não encontradas")
+        df['_MES'] = pd.to_datetime(df[col_mes], errors='coerce')
+        linhas = df[df['_MES'].dt.strftime('%Y-%m') == mes_ym]
+        soma = float(pd.to_numeric(linhas[col_meta], errors='coerce').sum())
+        if soma <= 0:
+            raise ValueError(f"sem meta cadastrada para {mes_ym}")
+        return soma
+    except Exception as e:
+        print(f"[AVISO] meta do mês via planilha falhou ({str(e)[:100]}) — usando valor fixo de fallback.")
+        return fallback_valor
+
+
 # ── Carrega mês atual e anterior ───────────────────────────────────────────────
 
 hoje = date.today()
+
+print("\n=== Carregando meta mensal RJ/SP (planilhas do Drive) ===")
+import baixar_planilhas_drive as _bpd
+_mes_ym_atual = hoje.strftime('%Y-%m')
+METAS_FAT_ESTADO = dict(METAS_FAT_ESTADO_FALLBACK)
+METAS_FAT_ESTADO["RJ"] = _meta_estado_do_mes(
+    _bpd.caminho_metas_rj, r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS\METAS RJ.xlsx",
+    _mes_ym_atual, METAS_FAT_ESTADO_FALLBACK["RJ"],
+)
+METAS_FAT_ESTADO["SP"] = _meta_estado_do_mes(
+    _bpd.caminho_metas_sp, r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS\METAS SP.xlsx",
+    _mes_ym_atual, METAS_FAT_ESTADO_FALLBACK["SP"],
+)
+print(f"  RJ meta {METAS_FAT_ESTADO['RJ']:,.0f} · SP meta {METAS_FAT_ESTADO['SP']:,.0f}")
+
 print("\n=== Carregando industrias (mes atual) ===")
 df_atual  = _carregar(0, False)
 print("\n=== Carregando industrias (mes anterior, dias corridos p/ comparativo de ritmo) ===")

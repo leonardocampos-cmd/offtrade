@@ -37,6 +37,7 @@ PIPELINE_FILES = [
     "meta.py",
     "nao_positivados.py",
     "entregas.py",
+    "pedidos.py",
     "conferencia_preco.py",
     "envio_whatsapp.py",
     "report_diario_vendedor.py",

@@ -156,6 +156,17 @@
     .itens-table th { text-align:left; color: var(--muted); font-weight: 600; padding: 4px 8px; white-space: normal; }
     .itens-table td { padding: 4px 8px; color: var(--text); white-space: normal; }
     .empty { text-align: center; padding: 48px; color: var(--muted); font-size: .9rem; }
+
+    @media (max-width: 640px) {
+      body { padding: 12px; }
+      .kpi { min-width: 130px; padding: 12px 14px; }
+      select { min-width: 150px; }
+      input[type=text] { min-width: 150px; }
+      .ms-toggle { min-width: 150px; }
+      table { font-size: .76rem; }
+      thead th, tbody td { padding: 8px 9px; }
+      .hide-mob { display: none; }
+    }
   </style>
 </head>
 <body>
@@ -209,10 +220,10 @@
     <thead>
       <tr>
         <th></th>
-        <th onclick="ordenarPor('numped')">Pedido</th>
-        <th id="th-nf" onclick="ordenarPor('numnota')">NF</th>
+        <th class="hide-mob" onclick="ordenarPor('numped')">Pedido</th>
+        <th id="th-nf" class="hide-mob" onclick="ordenarPor('numnota')">NF</th>
         <th onclick="ordenarPor('data')">Data</th>
-        <th onclick="ordenarPor('nome')">Vendedor</th>
+        <th class="hide-mob" onclick="ordenarPor('nome')">Vendedor</th>
         <th onclick="ordenarPor('cliente')">Cliente</th>
         <th id="th-extra"></th>
         <th onclick="ordenarPor('total')">Total</th>
@@ -578,10 +589,10 @@ function aplicarFiltro() {
     return `
     <tr class="linha-pedido" onclick="toggleItens('${_esc(chave)}')">
       <td class="expand-icon">${expandido ? '▾' : '▸'}</td>
-      <td class="cod">${_esc(p.numped)}</td>
-      ${mostraNf ? `<td class="cod">${_esc(p.numnota) || '—'}</td>` : ''}
+      <td class="cod hide-mob">${_esc(p.numped)}</td>
+      ${mostraNf ? `<td class="cod hide-mob">${_esc(p.numnota) || '—'}</td>` : ''}
       <td>${_esc(p.data)}</td>
-      <td><span class="rca-badge">${_esc((p.nome || '').replace(' - OFF TRADE',''))}</span></td>
+      <td class="hide-mob"><span class="rca-badge">${_esc((p.nome || '').replace(' - OFF TRADE',''))}</span></td>
       <td>${_esc(p.cliente)}${agendado ? ` <span class="badge-agendado">📅 ${agendado}</span>` : ''}${(_abaAtual === 'faturados' && p.tem_corte) ? ` <span class="badge-corte">✂ CORTE PARCIAL</span>` : ''}${_abaAtual === 'pedidos_feitos' ? _posicaoBadge(p.posicao) : ''}</td>
       <td>${abaInfo.colExtra.render(p)}</td>
       <td>${brl(p.total)}</td>

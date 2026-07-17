@@ -77,11 +77,14 @@ def _nome_filter(extra_nomes=None):
         return f"({base} OR {extras})"
     return base
 
-def _query_vendas_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=None, extra_nomes=None):
+def _query_vendas_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=None, extra_nomes=None, tem_offtrade=True):
     s = schema.upper()
     extra_filial = f"\n          AND M.CODFILIAL IN {filtro_filial}" if filtro_filial else ""
     extra_estent = f"\n          AND U.ESTADO = '{filtro_estent}'" if filtro_estent else ""
     nome_f = _nome_filter(extra_nomes)
+    # PCCLIENT.OFFTRADE não existe em todas as bases (ex.: GARRIDO) — nesses
+    # casos usa 'S' literal pra não filtrar indevidamente a positivação.
+    offtrade_col = "C.OFFTRADE" if tem_offtrade else "'S'"
     return f"""
         SELECT
             TRUNC(M.DTMOV, 'MM')            AS MES,
@@ -94,7 +97,8 @@ def _query_vendas_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=Non
             (M.PUNIT * M.QT)               AS VALOR,
             M.CODOPER,
             U.CODUSUR                       AS RCA,
-            U.NOME                          AS NOME_ORACLE
+            U.NOME                          AS NOME_ORACLE,
+            {offtrade_col}                  AS OFFTRADE
         FROM {s}.PCMOV M
         JOIN {s}.PCUSUARI U ON M.CODUSUR = U.CODUSUR
         LEFT JOIN {s}.PCCLIENT C ON M.CODCLI = C.CODCLI
@@ -110,17 +114,17 @@ def _query_vendas_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=Non
 _SPON_EXTRA = ['%W.S%']
 
 _VH_CONFIGS = [
-    ("CRC",     engine,         "vendas_hist_CRC",     "(1, 2, 4)", None,  "CRC",       None),
-    ("thekings",engine_theking, "vendas_hist_thekings","(1, 2, 4)", None,  "The Kings", None),
-    ("CASTAS",  engine_castas,  "vendas_hist_CASTAS",  None,        None,  "Castas",    None),
-    ("GARRIDO", engine_garrido, "vendas_hist_GARRIDO", None,        None,  "Garrido",   None),
-    ("SPON",    engine_spon,    "vendas_hist_SPON",    None,        None,  "SPON",      _SPON_EXTRA),
-    ("MGON",    engine_mgon,    "vendas_hist_MGON",    "(1, 2)",    None,  "MGON",      _SPON_EXTRA),
+    ("CRC",     engine,         "vendas_hist_CRC",     "(1, 2, 4)", None,  "CRC",       None,       True),
+    ("thekings",engine_theking, "vendas_hist_thekings","(1, 2, 4)", None,  "The Kings", None,       True),
+    ("CASTAS",  engine_castas,  "vendas_hist_CASTAS",  None,        None,  "Castas",    None,       True),
+    ("GARRIDO", engine_garrido, "vendas_hist_GARRIDO", None,        None,  "Garrido",   None,       False),
+    ("SPON",    engine_spon,    "vendas_hist_SPON",    None,        None,  "SPON",      _SPON_EXTRA, True),
+    ("MGON",    engine_mgon,    "vendas_hist_MGON",    "(1, 2)",    None,  "MGON",      _SPON_EXTRA, True),
 ]
 _vh_parts = []
-for _s, _e, _n, _ff, _fe, _emp, _en in _VH_CONFIGS:
+for _s, _e, _n, _ff, _fe, _emp, _en, _to in _VH_CONFIGS:
     try:
-        _df = carregar_dados(_query_vendas_historico(_s, filtro_filial=_ff, filtro_estent=_fe, extra_nomes=_en), _e, _n)
+        _df = carregar_dados(_query_vendas_historico(_s, filtro_filial=_ff, filtro_estent=_fe, extra_nomes=_en, tem_offtrade=_to), _e, _n)
         _df['EMPRESA'] = _emp
         _vh_parts.append(_df)
     except Exception as _ex:
@@ -134,6 +138,7 @@ _vh['RCA']    = pd.to_numeric(_vh['RCA'],    errors='coerce')
 _vh['CLIENTE']  = _vh['CLIENTE'].fillna(_vh['CODCLI'])
 _vh['FANTASIA'] = _vh['FANTASIA'].fillna('')
 _vh['PRODUTO']  = _vh['PRODUTO'].fillna('')
+_vh['OFFTRADE'] = _vh['OFFTRADE'].fillna('N')
 
 # Oracle name → display name (ver meta.nome_display_por_oracle)
 _oracle_to_display = nome_display_por_oracle(metas_com_nome)
@@ -164,27 +169,30 @@ def _cnpj_chave(cgc):
     d = _re.sub(r'\D', '', str(cgc) if cgc else '')
     return d[:8] if len(d) == 14 else (d if d else None)
 
-def _query_cadastros(schema, col_usur="CODUSUR1"):
+def _query_cadastros(schema, col_usur="CODUSUR1", tem_offtrade=True):
     s = schema.upper()
     filtro = (
         f"TRUNC(C.DTCADASTRO, 'MM') = DATE '{_ref_date_cad}'"
         if _ref_date_cad
         else "TRUNC(C.DTCADASTRO, 'MM') = TRUNC(SYSDATE, 'MM')"
     )
+    # PCCLIENT.OFFTRADE não existe em todas as bases (ex.: GARRIDO) — nesses
+    # casos não filtra por essa flag, mantém comportamento anterior.
+    offtrade_clausula = "\n          AND C.OFFTRADE = 'S'" if tem_offtrade else ""
     return f"""
         SELECT C.CODCLI, C.CGCENT AS CGC, U.NOME AS NOME_RCA
         FROM {s}.PCCLIENT C
         JOIN {s}.PCUSUARI U ON C.{col_usur} = U.CODUSUR
         WHERE U.NOME LIKE '%OFF TRADE%'
-          AND {filtro}
+          AND {filtro}{offtrade_clausula}
     """
 
 _cadastros_por_display: dict = {}
 try:
     _frames_cad = []
-    for _schema, _eng, _col in [("CRC", engine, "CODUSUR1"), ("thekings", engine_theking, "CODUSUR1"), ("spon", engine_spon, "CODUSUR1"), ("CASTAS", engine_castas, "CODUSUR1"), ("GARRIDO", engine_garrido, "CODUSUR1")]:
+    for _schema, _eng, _col, _to in [("CRC", engine, "CODUSUR1", True), ("thekings", engine_theking, "CODUSUR1", True), ("spon", engine_spon, "CODUSUR1", True), ("CASTAS", engine_castas, "CODUSUR1", True), ("GARRIDO", engine_garrido, "CODUSUR1", False)]:
         try:
-            _df_part = carregar_dados(_query_cadastros(_schema, _col), _eng, f"cadastros_{_schema}")
+            _df_part = carregar_dados(_query_cadastros(_schema, _col, tem_offtrade=_to), _eng, f"cadastros_{_schema}")
             _df_part.columns = _df_part.columns.str.upper()
             _df_part['_SRC'] = _schema
             _frames_cad.append(_df_part)
@@ -235,13 +243,17 @@ def _realizado_mes(df):
         sub = df[mask] if mask is not None else df
         return float(sub['VALOR'].sum().round(2))
 
+    # Positivação (contagem de clientes) só considera clientes com PCCLIENT.OFFTRADE = 'S'
+    # — faturamento (fat) continua somando todas as vendas do vendedor OFF TRADE, sem esse filtro.
+    _off_mask = df['OFFTRADE'] == 'S'
+
     def pos(mask=None):
-        sub = df[mask] if mask is not None else df
+        sub = df[_off_mask & mask] if mask is not None else df[_off_mask]
         return int(sub['CODCLI'].nunique())
 
     # Campanha PERNOD: pares únicos (cliente, produto) com FANTASIA=PERNOD; JAMERSON=10, demais=5
     mask_pernod   = df['FANTASIA'].str.contains('PERNOD', case=False, na=False)
-    pernod_pairs  = df[mask_pernod].drop_duplicates(subset=['CODCLI', 'PRODUTO'])
+    pernod_pairs  = df[mask_pernod & _off_mask].drop_duplicates(subset=['CODCLI', 'PRODUTO'])
     mask_jamerson = pernod_pairs['PRODUTO'].str.contains('JAMERSON', case=False, na=False)
     n_jamerson    = int(mask_jamerson.sum())
     n_outros      = int((~mask_jamerson).sum())
@@ -273,21 +285,24 @@ def _realizado_mes(df):
 
 # ── Histórico mensal agregado (para gráficos) ─────────────────────────────────
 
-def _query_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=None, extra_nomes=None):
+def _query_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=None, extra_nomes=None, tem_offtrade=True):
     s = schema.upper()
     extra_filial = f"\n          AND M.CODFILIAL IN {filtro_filial}" if filtro_filial else ""
-    join_cli     = f"\n        JOIN {s}.PCCLIENT C ON M.CODCLI = C.CODCLI" if filtro_estent else ""
     extra_estent = f"\n          AND U.ESTADO = '{filtro_estent}'" if filtro_estent else ""
     nome_f = _nome_filter(extra_nomes)
+    # Positivação só conta clientes com PCCLIENT.OFFTRADE = 'S'; onde a coluna
+    # não existe (ex.: GARRIDO), conta todo mundo (não há como filtrar).
+    positivacao_expr = "COUNT(DISTINCT CASE WHEN C.OFFTRADE = 'S' THEN M.CODCLI END)" if tem_offtrade else "COUNT(DISTINCT M.CODCLI)"
     return f"""
         SELECT
             TRUNC(M.DTMOV, 'MM')         AS MES,
             M.CODUSUR                     AS CODUSUR,
             U.NOME                         AS NOME_ORACLE,
             SUM(M.PUNIT * M.QT)          AS FATURAMENTO,
-            COUNT(DISTINCT M.CODCLI)     AS POSITIVACAO
+            {positivacao_expr}           AS POSITIVACAO
         FROM {s}.PCMOV M
-        JOIN {s}.PCUSUARI U ON M.CODUSUR = U.CODUSUR{join_cli}
+        JOIN {s}.PCUSUARI U ON M.CODUSUR = U.CODUSUR
+        LEFT JOIN {s}.PCCLIENT C ON M.CODCLI = C.CODCLI
         WHERE M.DTMOV >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -11)
           AND M.CODOPER = 'S'
           AND M.NUMNOTADEV IS NULL
@@ -297,15 +312,15 @@ def _query_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=None, extr
     """
 
 _hist_parts = []
-for _s, _e, _n, _ff, _fe, _en in [
-    ("CRC",      engine,         "historico_CRC",      "(1, 2, 4)", None, None),
-    ("thekings", engine_theking, "historico_thekings",  "(1, 2, 4)", None, None),
-    ("CASTAS",   engine_castas,  "historico_CASTAS",    None,        None, None),
-    ("GARRIDO",  engine_garrido, "historico_GARRIDO",   None,        None, None),
-    ("SPON",     engine_spon,    "historico_SPON",      None,        None, _SPON_EXTRA),
+for _s, _e, _n, _ff, _fe, _en, _to in [
+    ("CRC",      engine,         "historico_CRC",      "(1, 2, 4)", None, None,        True),
+    ("thekings", engine_theking, "historico_thekings",  "(1, 2, 4)", None, None,        True),
+    ("CASTAS",   engine_castas,  "historico_CASTAS",    None,        None, None,        True),
+    ("GARRIDO",  engine_garrido, "historico_GARRIDO",   None,        None, None,        False),
+    ("SPON",     engine_spon,    "historico_SPON",      None,        None, _SPON_EXTRA, True),
 ]:
     try:
-        _hist_parts.append(carregar_dados(_query_historico(_s, filtro_filial=_ff, filtro_estent=_fe, extra_nomes=_en), _e, _n))
+        _hist_parts.append(carregar_dados(_query_historico(_s, filtro_filial=_ff, filtro_estent=_fe, extra_nomes=_en, tem_offtrade=_to), _e, _n))
     except Exception as _ex:
         print(f"[AVISO] {_n} falhou — ignorado")
         FONTES_INDISPONIVEIS.append(_n)
@@ -504,6 +519,7 @@ for _, row in _vh.iterrows():
         'qt':      int(row['QT']),
         'valor':   float(row['VALOR']),
         'tipo':    'Bonificado' if str(row.get('CODOPER', 'S')).upper() == 'SB' else 'Venda',
+        'offtrade': row['OFFTRADE'] == 'S',
     })
 
 _rcas_map = {v['nome']: v['rca'] for v in vendedores_out}

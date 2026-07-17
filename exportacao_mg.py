@@ -61,7 +61,8 @@ QUERY_VENDAS_MG = """
         M.QT,
         (M.PUNIT * M.QT)               AS VALOR,
         U.NOME                          AS NOME_ORACLE,
-        U.CODUSUR                       AS CODUSUR
+        U.CODUSUR                       AS CODUSUR,
+        C.OFFTRADE                      AS OFFTRADE
     FROM MGON.PCMOV M
     JOIN MGON.PCUSUARI U  ON M.CODUSUR   = U.CODUSUR
     LEFT JOIN MGON.PCCLIENT C ON M.CODCLI = C.CODCLI
@@ -83,6 +84,7 @@ _vh['VALOR']    = pd.to_numeric(_vh['VALOR'],  errors='coerce').fillna(0).round(
 _vh['CLIENTE']  = _vh['CLIENTE'].fillna(_vh['CODCLI'].astype(str))
 _vh['FANTASIA'] = _vh['FANTASIA'].fillna('')
 _vh['PRODUTO']  = _vh['PRODUTO'].fillna('')
+_vh['OFFTRADE'] = _vh['OFFTRADE'].fillna('N')
 _vh['MES_STR']  = _vh['MES'].apply(_mes_pt)
 _vh['VENDEDOR'] = (
     _vh['NOME_ORACLE']
@@ -114,6 +116,7 @@ for _, row in _vh.iterrows():
         'fantasia': str(row['FANTASIA']),
         'qt':       int(row['QT']),
         'valor':    float(row['VALOR']),
+        'offtrade': row['OFFTRADE'] == 'S',
     })
 
 # ── Resumo: fat, fat_ant, pos por vendedor/mês ───────────────────────────────
@@ -122,7 +125,7 @@ _resumo: dict = {}
 for nome, meses_data in _por_vendedor.items():
     for mes, vendas in meses_data.items():
         fat = round(sum(v['valor'] for v in vendas), 2)
-        pos = len(set(v['codcli'] for v in vendas))
+        pos = len(set(v['codcli'] for v in vendas if v['offtrade']))
         _resumo.setdefault(nome, {})[mes] = {'fat': fat, 'pos': pos, 'fat_ant': 0.0}
 
 for nome in _resumo:

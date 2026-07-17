@@ -1111,7 +1111,7 @@ function _atualizarTabela(nomeVendedor) {
   // Resumo
   const total    = lista.reduce((s, r) => s + r.valor, 0);
   const totalQt  = lista.reduce((s, r) => s + r.qt, 0);
-  const nClientes = new Set(lista.map(r => r.codcli || r.cliente)).size;
+  const nClientes = new Set(lista.filter(r => r.offtrade).map(r => r.codcli || r.cliente)).size;
   document.getElementById('vendas-resumo').innerHTML = `
     <div class="vendas-resumo-box">
       <div class="vendas-resumo-label">Faturamento</div>
@@ -1295,7 +1295,7 @@ function renderDetail(v, mes) {
   // ── Seção: Faturamento do mês ─────────────────────────────
   const _vendas  = _vendasDoMes(v.nome, mes);
   const _fatVend = _vendas.reduce((s, x) => s + x.valor, 0);
-  const _nCli    = new Set(_vendas.map(x => x.codcli || x.cliente)).size;
+  const _nCli    = new Set(_vendas.filter(x => x.offtrade).map(x => x.codcli || x.cliente)).size;
   const _nItens  = _vendas.reduce((s, x) => s + x.qt, 0);
 
   const vendasHtml = `
@@ -1485,7 +1485,7 @@ function buildCampanha(mes) {
           // Calcula live de VENDAS_DATA por vendedor (igual ao SP)
           const _vendorStats = vendedores.map(v => {
             const vendas     = (VENDAS_DATA.por_vendedor[v.nome] || {})[mes] || [];
-            const pernodVend = vendas.filter(s => s.fantasia && s.fantasia.toUpperCase().includes('PERNOD'));
+            const pernodVend = vendas.filter(s => s.offtrade && s.fantasia && s.fantasia.toUpperCase().includes('PERNOD'));
             const paresMap   = new Map();
             for (const sv of pernodVend) {
               const key = `${sv.codcli}|${sv.produto}`;
@@ -1498,7 +1498,7 @@ function buildCampanha(mes) {
 
           const todaPernod  = vendedores.flatMap(v =>
             ((VENDAS_DATA.por_vendedor[v.nome] || {})[mes] || [])
-            .filter(s => s.fantasia && s.fantasia.toUpperCase().includes('PERNOD'))
+            .filter(s => s.offtrade && s.fantasia && s.fantasia.toUpperCase().includes('PERNOD'))
           );
           const _posPernod  = new Set(todaPernod.map(s => s.codcli)).size;
           const _paresCount = new Set(todaPernod.map(s => `${s.codcli}|${s.produto}`)).size;
@@ -1630,7 +1630,7 @@ function buildCampanhaDetail(v, mes) {
         const isPernodDet = camp.nome.includes('PERNOD') && typeof VENDAS_DATA !== 'undefined';
         if (isPernodDet) {
           const pv = ((VENDAS_DATA.por_vendedor[v.nome] || {})[mes] || [])
-            .filter(s => s.fantasia && s.fantasia.toUpperCase().includes('PERNOD'));
+            .filter(s => s.offtrade && s.fantasia && s.fantasia.toUpperCase().includes('PERNOD'));
           const paresMap = new Map();
           for (const sv of pv) {
             const key = `${sv.codcli}|${sv.produto}`;
@@ -2035,7 +2035,7 @@ function _fatVendasMes(nomeVendedor, mes) {
 function _posVendasMes(nomeVendedor, mes) {
   if (typeof VENDAS_DATA === 'undefined') return 0;
   const vendas = (VENDAS_DATA.por_vendedor[nomeVendedor] || {})[mes] || [];
-  return new Set(vendas.map(x => x.codcli || x.cliente)).size;
+  return new Set(vendas.filter(x => x.offtrade).map(x => x.codcli || x.cliente)).size;
 }
 
 function _buildCards(vendedores, mes) {

@@ -74,7 +74,8 @@ QUERY_VENDAS_SP = """
         M.QT,
         (M.PUNIT * M.QT)               AS VALOR,
         U.NOME                          AS NOME_ORACLE,
-        U.CODUSUR                       AS CODUSUR
+        U.CODUSUR                       AS CODUSUR,
+        C.OFFTRADE                      AS OFFTRADE
     FROM SPON.PCMOV M
     JOIN SPON.PCUSUARI U  ON M.CODUSUR  = U.CODUSUR
     LEFT JOIN SPON.PCCLIENT C ON M.CODCLI = C.CODCLI
@@ -98,6 +99,7 @@ _vh['VALOR']    = pd.to_numeric(_vh['VALOR'],  errors='coerce').fillna(0).round(
 _vh['CLIENTE']  = _vh['CLIENTE'].fillna(_vh['CODCLI'].astype(str))
 _vh['FANTASIA'] = _vh['FANTASIA'].fillna('')
 _vh['PRODUTO']  = _vh['PRODUTO'].fillna('')
+_vh['OFFTRADE'] = _vh['OFFTRADE'].fillna('N')
 _vh['MES_STR']  = _vh['MES'].apply(_mes_pt)
 
 # Remove sufixo/prefixo "OFF TRADE" do nome para exibição
@@ -197,6 +199,7 @@ for _, row in _vh.iterrows():
         'fantasia': str(row['FANTASIA']),
         'qt':       int(row['QT']),
         'valor':    float(row['VALOR']),
+        'offtrade': row['OFFTRADE'] == 'S',
     })
 
 # ── Escreve vendas_sp_data.js ─────────────────────────────────────────────────
@@ -205,7 +208,7 @@ for _, row in _vh.iterrows():
 
 _CALCULOS_SP = {
     'fat':         lambda df: df.groupby('CODUSUR')['VALOR'].sum(),
-    'pos':         lambda df: df.groupby('CODUSUR')['CODCLI'].nunique(),
+    'pos':         lambda df: df[df['OFFTRADE'] == 'S'].groupby('CODUSUR')['CODCLI'].nunique(),
     'fat_pernod':  lambda df: df[df['FANTASIA'].str.contains('PERNOD',     na=False, case=False)].groupby('CODUSUR')['VALOR'].sum(),
     'fat_crs':     lambda df: df[df['FANTASIA'].str.contains('CRS BRANDS', na=False, case=False)].groupby('CODUSUR')['VALOR'].sum(),
     'fat_essenza': lambda df: df[df['PRODUTO'].str.contains('ESSENZA',     na=False, case=False)].groupby('CODUSUR')['VALOR'].sum(),
