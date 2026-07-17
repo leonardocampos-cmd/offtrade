@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "17/07/2026 09:17",
+  "atualizado_em": "17/07/2026 10:14",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -197,262 +197,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "38294",
-        "cliente": "CEVAROLI SUPERMERCADOS LTDA",
-        "bairro": "NAZARE",
-        "dtultcomp": "12/05/2026",
-        "produtos": [
-          {
-            "produto": "CHANDON BABY BRUT 187 ML",
-            "fantasia": "",
-            "qt": 24,
-            "valor": 744.0
-          },
-          {
-            "produto": "CHANDON BABY BRUT ROSE 187 ML",
-            "fantasia": "",
-            "qt": 24,
-            "valor": 744.0
-          },
-          {
-            "produto": "CHANDON BRUT ROSE 750ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 513.0
-          },
-          {
-            "produto": "CHANDON RICHE DEMI-SEC 750ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 256.5
-          },
-          {
-            "produto": "GIN BOMBAY SAPPHIRE 750ML DEST",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 539.4
-          },
-          {
-            "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750 M",
-            "fantasia": "BALLENA",
-            "qt": 12,
-            "valor": 1318.8
-          },
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 30,
-            "valor": 3297.0
-          },
-          {
-            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-            "fantasia": "MSLR",
-            "qt": 18,
-            "valor": 1078.2
-          },
-          {
-            "produto": "TEQUILA J CUERVO GOLD 750ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 1438.8
-          },
-          {
-            "produto": "VINHO LATITUD 33 CABERNET SAUVIGNON",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 329.4
-          },
-          {
-            "produto": "VINHO LATITUD 33 CHARDONNAY 750 ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 329.4
-          },
-          {
-            "produto": "VINHO LATITUD 33 MALBEC TTO 750 ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 329.4
-          },
-          {
-            "produto": "VINHO LATITUD 33 SAUVIGNON BLANC",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 329.4
-          }
-        ]
-      },
-      {
-        "codcli": "33077",
-        "cliente": "CEVAROLI SUPERMERCADOS LTDA",
-        "bairro": "VILA CLORIS",
-        "dtultcomp": "12/05/2026",
-        "produtos": [
-          {
-            "produto": "CHANDON BRUT ROSE 750ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 1030.8
-          },
-          {
-            "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750 M",
-            "fantasia": "BALLENA",
-            "qt": 12,
-            "valor": 1318.8
-          },
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 12,
-            "valor": 1318.8
-          },
-          {
-            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-            "fantasia": "MSLR",
-            "qt": 18,
-            "valor": 1078.2
-          },
-          {
-            "produto": "TEQUILA J CUERVO GOLD 750ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 1428.0
-          },
-          {
-            "produto": "VINHO LATITUD 33 CABERNET SAUVIGNON",
-            "fantasia": "",
-            "qt": 18,
-            "valor": 988.2
-          },
-          {
-            "produto": "VINHO LATITUD 33 CHARDONNAY 750 ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 329.4
-          },
-          {
-            "produto": "VINHO LATITUD 33 MALBEC TTO 750 ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 658.8
-          },
-          {
-            "produto": "VINHO LATITUD 33 SAUVIGNON BLANC",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 329.4
-          }
-        ]
-      },
-      {
-        "codcli": "33076",
-        "cliente": "CEVAROLI SUPERMERCADOS LTDA",
-        "bairro": "FERNÃO DIAS",
-        "dtultcomp": "12/05/2026",
-        "produtos": [
-          {
-            "produto": "CHANDON BRUT ROSE 750ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 1026.0
-          },
-          {
-            "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750 M",
-            "fantasia": "BALLENA",
-            "qt": 18,
-            "valor": 1978.2
-          },
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 30,
-            "valor": 3297.0
-          },
-          {
-            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-            "fantasia": "MSLR",
-            "qt": 12,
-            "valor": 718.8
-          },
-          {
-            "produto": "TEQUILA J CUERVO GOLD 750ML",
-            "fantasia": "",
-            "qt": 11,
-            "valor": 1318.9
-          },
-          {
-            "produto": "VINHO LATITUD 33 MALBEC TTO 750 ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 658.8
-          },
-          {
-            "produto": "VINHO LATITUD 33 SAUVIGNON BLANC",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 658.8
-          }
-        ]
-      },
-      {
-        "codcli": "33075",
-        "cliente": "HIPER OPA LTDA",
-        "bairro": "GUARANI",
-        "dtultcomp": "12/05/2026",
-        "produtos": [
-          {
-            "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750 M",
-            "fantasia": "BALLENA",
-            "qt": 6,
-            "valor": 659.4
-          },
-          {
-            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-            "fantasia": "MSLR",
-            "qt": 12,
-            "valor": 718.8
-          },
-          {
-            "produto": "VINHO LATITUD 33 CABERNET SAUVIGNON",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 658.8
-          },
-          {
-            "produto": "VINHO LATITUD 33 CHARDONNAY 750 ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 329.4
-          },
-          {
-            "produto": "VINHO LATITUD 33 MALBEC TTO 750 ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 329.4
-          },
-          {
-            "produto": "VINHO LATITUD 33 SAUVIGNON BLANC",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 329.4
-          }
-        ]
-      },
-      {
-        "codcli": "33074",
-        "cliente": "HIPER OPA LTDA",
-        "bairro": "PROVIDÊNCIA",
-        "dtultcomp": "12/05/2026",
-        "produtos": [
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 6,
-            "valor": 659.4
-          }
-        ]
-      },
-      {
         "codcli": "39295",
         "cliente": "LOJA MENDONCA 2000 LTDA",
         "bairro": "ANA LÚCIA",
@@ -551,26 +295,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35727",
-        "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
-        "bairro": "ITAIPU (BARREIRO)",
-        "dtultcomp": "18/05/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          },
-          {
-            "produto": "RED BULL SUGAR FREE 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          }
-        ]
-      },
-      {
         "codcli": "35726",
         "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
         "bairro": "MILIONÁRIOS (BARREIRO)",
@@ -620,6 +344,26 @@ const NAO_POS_MG_DATA = {
         "codcli": "35725",
         "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
         "bairro": "MINEIRÃO",
+        "dtultcomp": "18/05/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 184.56
+          },
+          {
+            "produto": "RED BULL SUGAR FREE 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 184.56
+          }
+        ]
+      },
+      {
+        "codcli": "35727",
+        "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
+        "bairro": "ITAIPU (BARREIRO)",
         "dtultcomp": "18/05/2026",
         "produtos": [
           {
@@ -4725,6 +4469,262 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 20,
             "valor": 2395.2
+          }
+        ]
+      },
+      {
+        "codcli": "38294",
+        "cliente": "CEVAROLI SUPERMERCADOS LTDA",
+        "bairro": "NAZARE",
+        "dtultcomp": "12/05/2026",
+        "produtos": [
+          {
+            "produto": "CHANDON BABY BRUT 187 ML",
+            "fantasia": "",
+            "qt": 24,
+            "valor": 744.0
+          },
+          {
+            "produto": "CHANDON BABY BRUT ROSE 187 ML",
+            "fantasia": "",
+            "qt": 24,
+            "valor": 744.0
+          },
+          {
+            "produto": "CHANDON BRUT ROSE 750ML",
+            "fantasia": "",
+            "qt": 6,
+            "valor": 513.0
+          },
+          {
+            "produto": "CHANDON RICHE DEMI-SEC 750ML",
+            "fantasia": "",
+            "qt": 3,
+            "valor": 256.5
+          },
+          {
+            "produto": "GIN BOMBAY SAPPHIRE 750ML DEST",
+            "fantasia": "",
+            "qt": 6,
+            "valor": 539.4
+          },
+          {
+            "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750 M",
+            "fantasia": "BALLENA",
+            "qt": 12,
+            "valor": 1318.8
+          },
+          {
+            "produto": "LICOR BALLENA MORANGO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 30,
+            "valor": 3297.0
+          },
+          {
+            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+            "fantasia": "MSLR",
+            "qt": 18,
+            "valor": 1078.2
+          },
+          {
+            "produto": "TEQUILA J CUERVO GOLD 750ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 1438.8
+          },
+          {
+            "produto": "VINHO LATITUD 33 CABERNET SAUVIGNON",
+            "fantasia": "",
+            "qt": 6,
+            "valor": 329.4
+          },
+          {
+            "produto": "VINHO LATITUD 33 CHARDONNAY 750 ML",
+            "fantasia": "",
+            "qt": 6,
+            "valor": 329.4
+          },
+          {
+            "produto": "VINHO LATITUD 33 MALBEC TTO 750 ML",
+            "fantasia": "",
+            "qt": 6,
+            "valor": 329.4
+          },
+          {
+            "produto": "VINHO LATITUD 33 SAUVIGNON BLANC",
+            "fantasia": "",
+            "qt": 6,
+            "valor": 329.4
+          }
+        ]
+      },
+      {
+        "codcli": "33077",
+        "cliente": "CEVAROLI SUPERMERCADOS LTDA",
+        "bairro": "VILA CLORIS",
+        "dtultcomp": "12/05/2026",
+        "produtos": [
+          {
+            "produto": "CHANDON BRUT ROSE 750ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 1030.8
+          },
+          {
+            "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750 M",
+            "fantasia": "BALLENA",
+            "qt": 12,
+            "valor": 1318.8
+          },
+          {
+            "produto": "LICOR BALLENA MORANGO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 12,
+            "valor": 1318.8
+          },
+          {
+            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+            "fantasia": "MSLR",
+            "qt": 18,
+            "valor": 1078.2
+          },
+          {
+            "produto": "TEQUILA J CUERVO GOLD 750ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 1428.0
+          },
+          {
+            "produto": "VINHO LATITUD 33 CABERNET SAUVIGNON",
+            "fantasia": "",
+            "qt": 18,
+            "valor": 988.2
+          },
+          {
+            "produto": "VINHO LATITUD 33 CHARDONNAY 750 ML",
+            "fantasia": "",
+            "qt": 6,
+            "valor": 329.4
+          },
+          {
+            "produto": "VINHO LATITUD 33 MALBEC TTO 750 ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 658.8
+          },
+          {
+            "produto": "VINHO LATITUD 33 SAUVIGNON BLANC",
+            "fantasia": "",
+            "qt": 6,
+            "valor": 329.4
+          }
+        ]
+      },
+      {
+        "codcli": "33076",
+        "cliente": "CEVAROLI SUPERMERCADOS LTDA",
+        "bairro": "FERNÃO DIAS",
+        "dtultcomp": "12/05/2026",
+        "produtos": [
+          {
+            "produto": "CHANDON BRUT ROSE 750ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 1026.0
+          },
+          {
+            "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750 M",
+            "fantasia": "BALLENA",
+            "qt": 18,
+            "valor": 1978.2
+          },
+          {
+            "produto": "LICOR BALLENA MORANGO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 30,
+            "valor": 3297.0
+          },
+          {
+            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+            "fantasia": "MSLR",
+            "qt": 12,
+            "valor": 718.8
+          },
+          {
+            "produto": "TEQUILA J CUERVO GOLD 750ML",
+            "fantasia": "",
+            "qt": 11,
+            "valor": 1318.9
+          },
+          {
+            "produto": "VINHO LATITUD 33 MALBEC TTO 750 ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 658.8
+          },
+          {
+            "produto": "VINHO LATITUD 33 SAUVIGNON BLANC",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 658.8
+          }
+        ]
+      },
+      {
+        "codcli": "33075",
+        "cliente": "HIPER OPA LTDA",
+        "bairro": "GUARANI",
+        "dtultcomp": "12/05/2026",
+        "produtos": [
+          {
+            "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750 M",
+            "fantasia": "BALLENA",
+            "qt": 6,
+            "valor": 659.4
+          },
+          {
+            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+            "fantasia": "MSLR",
+            "qt": 12,
+            "valor": 718.8
+          },
+          {
+            "produto": "VINHO LATITUD 33 CABERNET SAUVIGNON",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 658.8
+          },
+          {
+            "produto": "VINHO LATITUD 33 CHARDONNAY 750 ML",
+            "fantasia": "",
+            "qt": 6,
+            "valor": 329.4
+          },
+          {
+            "produto": "VINHO LATITUD 33 MALBEC TTO 750 ML",
+            "fantasia": "",
+            "qt": 6,
+            "valor": 329.4
+          },
+          {
+            "produto": "VINHO LATITUD 33 SAUVIGNON BLANC",
+            "fantasia": "",
+            "qt": 6,
+            "valor": 329.4
+          }
+        ]
+      },
+      {
+        "codcli": "33074",
+        "cliente": "HIPER OPA LTDA",
+        "bairro": "PROVIDÊNCIA",
+        "dtultcomp": "12/05/2026",
+        "produtos": [
+          {
+            "produto": "LICOR BALLENA MORANGO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 6,
+            "valor": 659.4
           }
         ]
       },
