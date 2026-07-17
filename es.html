@@ -322,7 +322,7 @@ function _atualizarTabela(nome) {
   var res = (D.resumo && D.resumo[nome] && D.resumo[nome][mes]) || {};
   var fat = res.fat || lista.reduce(function(s,r){return s+r.valor;},0);
   var qt  = lista.reduce(function(s,r){return s+r.qt;},0);
-  var pos = res.pos || new Set(lista.map(function(r){return r.codcli||r.cliente;})).size;
+  var pos = res.pos !== undefined ? res.pos : new Set(lista.filter(function(r){return r.offtrade;}).map(function(r){return r.codcli||r.cliente;})).size;
   var ant = res.fat_ant || 0;
   document.getElementById('det-kpis').innerHTML =
     '<div><div class="kpi-label">Faturamento</div><div class="kpi-val">' + fmt(fat) + '</div>' +
