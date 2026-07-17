@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "17/07/2026 09:18",
-  "total": 4326,
+  "atualizado_em": "17/07/2026 10:14",
+  "total": 4335,
   "clientes": [
     {
       "codcli": "31683",
@@ -5358,8 +5358,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "ADEGA",
       "key_account": false,
       "rede": "",
-      "codusur1": "512",
-      "nome_usur1": "WILLIAM GONCALVES - OFF TRADE",
+      "codusur1": "513",
+      "nome_usur1": "IGOR OLIVEIRA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -5678,8 +5678,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
+      "codusur1": "513",
+      "nome_usur1": "IGOR OLIVEIRA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -28094,8 +28094,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
+      "codusur1": "513",
+      "nome_usur1": "IGOR OLIVEIRA - OFF TRADE",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -31282,6 +31282,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "GISELLE BARFER - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "75220",
+      "razao": "JEAN CARLO DE S MACHADO AÇOUGUE",
+      "fantasia": "ACOUGUE E MERCADO DO JEAN",
+      "bairro": "VEROLME",
+      "cidade": "ANGRA DOS REIS",
+      "cnpj": "00.664.743/0001-66",
+      "estado": "RJ",
+      "ramo": "ACOUGUE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "439",
+      "nome_usur1": "MATEUS CARDOSO - OFF TRADE",
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "89975",
@@ -34942,8 +34958,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
+      "codusur1": "513",
+      "nome_usur1": "IGOR OLIVEIRA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -36882,6 +36898,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "MICHELE ALCANTARA",
       "codusur2": "378",
       "nome_usur2": "FABIO VALOTTI - OFF TRADE"
+    },
+    {
+      "codcli": "50163",
+      "razao": "MA BEBIDAS E COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+      "fantasia": "MA BEBIDAS",
+      "bairro": "PORTAL VILLE AZALEIA",
+      "cidade": "BOITUVA",
+      "cnpj": "43.967.425/0001-87",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "508",
+      "nome_usur1": "PAULO SALES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "46749",
@@ -45824,6 +45856,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "588",
       "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51865",
+      "razao": "MIRANDA & ARRIBAMAR LTDA",
+      "fantasia": "MIRANDA & ARRIBAMAR",
+      "bairro": "CENTRO",
+      "cidade": "SALTO DE PIRAPORA",
+      "cnpj": "09.310.092/0002-61",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "508",
+      "nome_usur1": "PAULO SALES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -59076,6 +59124,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51863",
+      "razao": "SANTO COMERCIO E IMPORTACAO DE PRODUTOS ALIMENTICIOS LTDA",
+      "fantasia": "SANTO COMERCIO E IMPORTACAO DE PRODUTOS ALIMENTICIOS",
+      "bairro": "VILA BARCELONA",
+      "cidade": "SOROCABA",
+      "cnpj": "50.368.976/0002-70",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "508",
+      "nome_usur1": "PAULO SALES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "6141",
       "razao": "SANTO EXPEDITO CASASHOPPING ALIMENTOS LT",
       "fantasia": "MANEKINEKO CASA SHOPPING",
@@ -59216,6 +59280,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "378",
       "nome_usur1": "FABIO VALOTTI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51866",
+      "razao": "SATO & NISHI LTDA.",
+      "fantasia": "SATO & NISHI",
+      "bairro": "JARDIM BONSUCESSO",
+      "cidade": "SOROCABA",
+      "cnpj": "68.953.587/0003-59",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "508",
+      "nome_usur1": "PAULO SALES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -61140,6 +61220,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "49806",
+      "razao": "SUPER MERCADO JOIA LIMITADA",
+      "fantasia": "SUPER MERCADO JOIA LIMITADA",
+      "bairro": "PITANGUEIRAS",
+      "cidade": "GUARUJA",
+      "cnpj": "48.697.825/0002-14",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "507",
+      "nome_usur1": "JOAO AUGUSTO -  OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "3127",
       "razao": "SUPER MERCADO REAL DE EDEN LTDA",
       "fantasia": "REAL DE EDEN - CENTRAL",
@@ -62830,8 +62926,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
+      "codusur1": "513",
+      "nome_usur1": "IGOR OLIVEIRA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -63056,6 +63152,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "486",
       "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "47173",
+      "razao": "SUPERMERCADO PAULISTANO DE SALTO DE PIRAPORA LTDA.",
+      "fantasia": "SUPERMERCADO PAULISTANO",
+      "bairro": "JARDIM PAULISTANO",
+      "cidade": "SALTO DE PIRAPORA",
+      "cnpj": "38.386.784/0001-00",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "508",
+      "nome_usur1": "PAULO SALES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -64692,6 +64804,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
+      "codcli": "51868",
+      "razao": "SUPERMERCADOS M FARIA E R GRAVINA LTDA",
+      "fantasia": "SUPERMERCADOS M FARIA E R GRAVINA",
+      "bairro": "CAMPO GRANDE",
+      "cidade": "SANTOS",
+      "cnpj": "05.661.225/0001-02",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "500",
+      "nome_usur1": "PAULO MOREIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "30313",
       "razao": "SUPERMERCADOS MAMBO LTDA",
       "fantasia": "CD BARUERI",
@@ -65106,6 +65234,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "241",
       "nome_usur2": "ZEINALDO DE OLIVEIRA - OFF TRADE"
+    },
+    {
+      "codcli": "51867",
+      "razao": "T M IMOTO MERCEARIA LTDA",
+      "fantasia": "T M IMOTO MERCEARIA",
+      "bairro": "JARDIM NOVO MUNDO",
+      "cidade": "SOROCABA",
+      "cnpj": "61.216.404/0001-01",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "508",
+      "nome_usur1": "PAULO SALES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "90207",
