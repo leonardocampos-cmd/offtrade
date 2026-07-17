@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "17/07/2026 10:13",
+  "atualizado_em": "17/07/2026 13:40",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 107733.7,
-        "pos": 70,
+        "fat": 108007.22,
+        "pos": 71,
         "fat_ant": 341993.95
       }
     },
@@ -46496,6 +46496,42 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 6,
           "valor": 449.4
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "31812",
+          "cliente": "ELTON MUNHOZ DIAS JUNIOR",
+          "produto": "4 PACK  RED BULL",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 31.96
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "31812",
+          "cliente": "ELTON MUNHOZ DIAS JUNIOR",
+          "produto": "4 PACK RED BULL TROPICAL",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 31.96
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "31812",
+          "cliente": "ELTON MUNHOZ DIAS JUNIOR",
+          "produto": "APERITIVO CAMPARI 998 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 109.8
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "31812",
+          "cliente": "ELTON MUNHOZ DIAS JUNIOR",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 99.8
         }
       ]
     },
