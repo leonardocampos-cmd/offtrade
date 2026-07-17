@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "16/07/2026 16:11",
+  "atualizado_em": "17/07/2026 09:16",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 106572.4,
-        "pos": 68,
+        "fat": 107733.7,
+        "pos": 70,
         "fat_ant": 341993.95
       }
     },
@@ -77,14 +77,14 @@ const VENDAS_MG_DATA = {
         "fat_ant": 58591.42
       },
       "Jun/26": {
-        "fat": 168779.58,
-        "pos": 51,
+        "fat": 168142.6,
+        "pos": 49,
         "fat_ant": 175829.04
       },
       "Jul/26": {
-        "fat": 69184.2,
-        "pos": 36,
-        "fat_ant": 168779.58
+        "fat": 70304.4,
+        "pos": 40,
+        "fat_ant": 168142.6
       }
     },
     "JANAIRA MARQUES": {
@@ -209,7 +209,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 896376.5
       },
       "Jul/26": {
-        "fat": 317546.34,
+        "fat": 320179.74,
         "pos": 8,
         "fat_ant": 1039602.9
       }
@@ -236,8 +236,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 62797.34,
-        "pos": 43,
+        "fat": 64407.5,
+        "pos": 45,
         "fat_ant": 85308.22
       }
     },
@@ -46355,6 +46355,33 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "16/07/2026",
+          "codcli": "32882",
+          "cliente": "PIZZARIA E RESTAURANTE DA NONNA LTDA",
+          "produto": "XAROPE MONIN TANGERINA (MANDARIM) 700ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 49.9
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "32882",
+          "cliente": "PIZZARIA E RESTAURANTE DA NONNA LTDA",
+          "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 239.4
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "32882",
+          "cliente": "PIZZARIA E RESTAURANTE DA NONNA LTDA",
+          "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 99.8
+        },
+        {
+          "data": "16/07/2026",
           "codcli": "31792",
           "cliente": "CUAREIM ALIMENTOS LTDA",
           "produto": "ESPUMANTE ALUD BRANCO 750ML",
@@ -46433,6 +46460,42 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 5,
           "valor": 958.8
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "39400",
+          "cliente": "FABRICA DE MONSTROS CT BETIM LTDA",
+          "produto": "ST PIERRE ZERO TROPICAL  310 ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 107.6
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "39400",
+          "cliente": "FABRICA DE MONSTROS CT BETIM LTDA",
+          "produto": "ST PIERRE RED MINTL ZERO 310 ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 107.6
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "39400",
+          "cliente": "FABRICA DE MONSTROS CT BETIM LTDA",
+          "produto": "ST PIERRE ZERO PINK LEMON  310 ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 107.6
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "33010",
+          "cliente": "GOLDEN ALIMENTOS LTDA",
+          "produto": "VILLA ROSA COLHEITA TINTO  750ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 449.4
         }
       ]
     },
@@ -53035,24 +53098,6 @@ const VENDAS_MG_DATA = {
           "valor": 301.68
         },
         {
-          "data": "19/06/2026",
-          "codcli": "38043",
-          "cliente": "SUPERMERCADO SERRA DO CIPO LTDA",
-          "produto": "GIN GORDONS 750 ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 317.4
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "38043",
-          "cliente": "SUPERMERCADO SERRA DO CIPO LTDA",
-          "produto": "GIN GORDONS PINK 700ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 105.8
-        },
-        {
           "data": "22/06/2026",
           "codcli": "29894",
           "cliente": "VAREJAO PLANALTO LTDA.",
@@ -53177,42 +53222,6 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 15,
           "valor": 1543.5
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "38025",
-          "cliente": "LATICINIOS DA LAPA LTDA",
-          "produto": "ST PIERRE PINK LEMONADE LN 200MLX12",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 52.38
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "38025",
-          "cliente": "LATICINIOS DA LAPA LTDA",
-          "produto": "ST PIERRE RED MINTL ZERO 310 ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 53.8
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "38025",
-          "cliente": "LATICINIOS DA LAPA LTDA",
-          "produto": "ST PIERRE ZERO TROPICAL  310 ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 53.8
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "38025",
-          "cliente": "LATICINIOS DA LAPA LTDA",
-          "produto": "ST PIERRE ZERO PINK LEMON  310 ML",
-          "fantasia": "",
-          "qt": 2,
-          "valor": 53.8
         },
         {
           "data": "24/06/2026",
@@ -54637,6 +54646,51 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 3,
           "valor": 449.7
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "29384",
+          "cliente": "VAREJAO PARANAIBA LTDA",
+          "produto": "GIN GORDONS 750 ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 167.7
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "29384",
+          "cliente": "VAREJAO PARANAIBA LTDA",
+          "produto": "GIN GORDONS PINK 700ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 167.7
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "29896",
+          "cliente": "NACIONAL PARANAIBA ALIMENTOS EIRELI",
+          "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+          "fantasia": "MSLR",
+          "qt": 3,
+          "valor": 224.7
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "29894",
+          "cliente": "VAREJAO PLANALTO LTDA.",
+          "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+          "fantasia": "MSLR",
+          "qt": 3,
+          "valor": 224.7
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "29514",
+          "cliente": "PARANAIBA GUANABARA ALIMENTOS LTDA",
+          "produto": "GIN GORDONS 750 ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 335.4
         }
       ]
     },
@@ -75371,6 +75425,15 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "16/07/2026",
+          "codcli": "37710",
+          "cliente": "MULTICOM ATACADO E VAREJO S/A",
+          "produto": "VODKA ORLOFF 1,75L",
+          "fantasia": "",
+          "qt": 66,
+          "valor": 2633.4
+        },
+        {
+          "data": "16/07/2026",
           "codcli": "30232",
           "cliente": "ORGANIZACAO VERDEMAR LTDA",
           "produto": "CHANDON BABY BRUT ROSE 187 ML",
@@ -86300,6 +86363,51 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "16/07/2026",
+          "codcli": "36583",
+          "cliente": "RESTAURANTE E CHURRASCARIA CHEFAO LTDA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 85.8
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "36583",
+          "cliente": "RESTAURANTE E CHURRASCARIA CHEFAO LTDA",
+          "produto": "VINHO ARESTI EST SEL MERLOT 750ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 109.8
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "36583",
+          "cliente": "RESTAURANTE E CHURRASCARIA CHEFAO LTDA",
+          "produto": "VINHO ARESTI EST SEL CHARDONNAY 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 54.9
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "36583",
+          "cliente": "RESTAURANTE E CHURRASCARIA CHEFAO LTDA",
+          "produto": "VINHO MARQUÉS DE TEJARES 750ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 57.9
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "36583",
+          "cliente": "RESTAURANTE E CHURRASCARIA CHEFAO LTDA",
+          "produto": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
+          "fantasia": "",
+          "qt": 8,
+          "valor": 151.2
+        },
+        {
+          "data": "16/07/2026",
           "codcli": "34916",
           "cliente": "SODEXO DO BRASIL COMERCIAL S A",
           "produto": "RED BULL ZERO 24X250ML",
@@ -86315,6 +86423,33 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 8,
           "valor": 319.2
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "38122",
+          "cliente": "ESPETINHO DO BOLOTA - REI DA PICANHA LTDA",
+          "produto": "RED BULL MELANCIA 24X250ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 383.52
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "38122",
+          "cliente": "ESPETINHO DO BOLOTA - REI DA PICANHA LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 383.52
+        },
+        {
+          "data": "16/07/2026",
+          "codcli": "38122",
+          "cliente": "ESPETINHO DO BOLOTA - REI DA PICANHA LTDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 383.52
         }
       ]
     },
