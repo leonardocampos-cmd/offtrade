@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "16/07/2026 16:12",
-  "total": 4322,
+  "atualizado_em": "17/07/2026 09:18",
+  "total": 4326,
   "clientes": [
     {
       "codcli": "31683",
@@ -5340,6 +5340,22 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "07.620.572/0001-12",
       "estado": "SP",
       "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "512",
+      "nome_usur1": "WILLIAM GONCALVES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "38618",
+      "razao": "ADEGA BOM BARDEIO LTDA",
+      "fantasia": "ADEGA BOM BARDEIO",
+      "bairro": "JARDIM MARILU",
+      "cidade": "ITAPECERICA DA SERRA",
+      "cnpj": "38.729.223/0001-67",
+      "estado": "SP",
+      "ramo": "ADEGA",
       "key_account": false,
       "rede": "",
       "codusur1": "512",
@@ -11730,6 +11746,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "95733",
+      "razao": "BELLAVIDA RESTAURANTE LTDA",
+      "fantasia": "BELLAVIDA RESTAURANTE",
+      "bairro": "BARRA DA TIJUCA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "51.092.692/0001-86",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "71193",
@@ -25922,6 +25954,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "84077",
+      "razao": "FORNERIA ORIGINAL COZINHA E COMESTIVEIS LTDA",
+      "fantasia": "FORNERIA ORIGINAL COZINHA - CAMORIM",
+      "bairro": "CAMORIM",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "40.134.717/0001-40",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "144",
+      "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "23823",
@@ -46398,8 +46446,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "419",
-      "nome_usur1": "NÁTALI DE OLIVEIRA - OFF TRADE",
+      "codusur1": "431",
+      "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
       "codusur2": "431",
       "nome_usur2": "ADEILSON GONÇALVEZ - OFF TRADE"
     },
@@ -55796,16 +55844,16 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "95634",
-      "razao": "RAMIGOS SUPERMERCADOS S.A.",
-      "fantasia": "SUPERMARKET",
-      "bairro": "ANCHIETA",
+      "codcli": "7173",
+      "razao": "RAMIGOS SUPERMERCADOS LTDA",
+      "fantasia": "REDE SUPERMARKET - BANGU",
+      "bairro": "BANGU",
       "cidade": "RIO DE JANEIRO",
-      "cnpj": "11.552.261/0001-30",
+      "cnpj": "11.552.261/0004-83",
       "estado": "RJ",
-      "ramo": "MINI-MERCADO",
+      "ramo": "MERCADO",
       "key_account": false,
-      "rede": "",
+      "rede": "REDE SUPERMARKET",
       "codusur1": "379",
       "nome_usur1": "JORGE MACIEL - OFF TRADE",
       "codusur2": "",
@@ -56578,6 +56626,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
       "codusur2": "229",
       "nome_usur2": "LUIZA HASSEN"
+    },
+    {
+      "codcli": "51862",
+      "razao": "RENATO GABRIEL DA SILVA 42778467858",
+      "fantasia": "RENATO GABRIEL DA SILVA",
+      "bairro": "JARDIM PALOS VERDES",
+      "cidade": "BOTUCATU",
+      "cnpj": "44.240.154/0001-26",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "51390",
