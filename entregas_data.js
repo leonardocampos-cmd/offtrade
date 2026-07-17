@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "17/07/2026 09:12",
+  "atualizado_em": "17/07/2026 10:10",
   "data_rota": "17.07",
   "vendedores": [
     {
@@ -2233,14 +2233,14 @@ const ENTREGAS_DATA = {
               "val": 71.52
             },
             {
-              "desc": "NECTAR PESSEGO 12X1000ML",
-              "qt": 1,
-              "val": 57.48
-            },
-            {
               "desc": "NECTAR MISTO UVA E PERA 12X1000ML",
               "qt": 3,
               "val": 172.44
+            },
+            {
+              "desc": "SUCO MANGA 100% TIAL 12X1000 ML",
+              "qt": 1,
+              "val": 142.68
             },
             {
               "desc": "SUCO PESSEGO 100% TIAL 12X1000 ML",
@@ -2258,9 +2258,9 @@ const ENTREGAS_DATA = {
               "val": 57.48
             },
             {
-              "desc": "SUCO MANGA 100% TIAL 12X1000 ML",
+              "desc": "NECTAR PESSEGO 12X1000ML",
               "qt": 1,
-              "val": 142.68
+              "val": 57.48
             }
           ]
         },
@@ -5885,7 +5885,43 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "378000506",
+          "numnota": "",
+          "data": "17/07/2026",
+          "cliente": "AILTON EUGENIO DE ALMEIDA GOMES",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 254.52,
+          "itens": [
+            {
+              "desc": "PIRASSUNUNGA 51 965 ML",
+              "qt": 3,
+              "val": 39.0
+            },
+            {
+              "desc": "4 PACK RED BULL",
+              "qt": 4,
+              "val": 119.84
+            },
+            {
+              "desc": "COQUETEL BANANINHA REGGIANI 950ML",
+              "qt": 2,
+              "val": 35.8
+            },
+            {
+              "desc": "NECTAR MISTO UVA E PERA 12X1000ML",
+              "qt": 1,
+              "val": 59.88
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "378000461",
