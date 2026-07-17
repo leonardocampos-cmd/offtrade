@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "17/07/2026 14:23",
+  "atualizado_em": "17/07/2026 15:08",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -236,8 +236,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 63973.12,
-        "pos": 44,
+        "fat": 65821.42,
+        "pos": 46,
         "fat_ant": 85308.22
       }
     },
@@ -83815,8 +83815,8 @@ const VENDAS_MG_DATA = {
           "offtrade": true
         },
         {
-          "data": "16/07/2026",
-          "codcli": "30232",
+          "data": "17/07/2026",
+          "codcli": "30231",
           "cliente": "ORGANIZACAO VERDEMAR LTDA",
           "produto": "CHANDON BABY BRUT ROSE 187 ML",
           "fantasia": "",
@@ -96004,6 +96004,76 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 2,
           "valor": 383.52,
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "38612",
+          "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
+          "produto": "4 PACK RED BULL TROPICAL",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 123.04,
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "38612",
+          "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 184.56,
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "30089",
+          "cliente": "VILLA FERNANDA FOODS LTDA",
+          "produto": "J W RED LABEL 12/50 ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 311.6,
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "30089",
+          "cliente": "VILLA FERNANDA FOODS LTDA",
+          "produto": "J W BLACK LABEL 12/50 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 501.6,
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "30089",
+          "cliente": "VILLA FERNANDA FOODS LTDA",
+          "produto": "MINIATURA BEEFEATER  12 X 50ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 307.8,
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "30089",
+          "cliente": "VILLA FERNANDA FOODS LTDA",
+          "produto": "MINIATURA CHIVAS 12YO 12 X 50ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 319.8,
+          "offtrade": true
+        },
+        {
+          "data": "17/07/2026",
+          "codcli": "30089",
+          "cliente": "VILLA FERNANDA FOODS LTDA",
+          "produto": "MINIATURA JAMESON 12 X 50ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 99.9,
           "offtrade": true
         }
       ]
