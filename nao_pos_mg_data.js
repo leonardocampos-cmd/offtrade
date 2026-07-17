@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "17/07/2026 14:11",
+  "atualizado_em": "17/07/2026 15:09",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -2257,56 +2257,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "38896",
-        "cliente": "LCA COMERCIO LTDA",
-        "bairro": "PAMPULHA",
-        "dtultcomp": "12/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL AMORA EDITION SF 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL NECTARINA SF 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 141.36
-          }
-        ]
-      },
-      {
         "codcli": "35398",
         "cliente": "LCA COMERCIO LTDA",
         "bairro": "PAMPULHA",
@@ -2347,6 +2297,56 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 2,
             "valor": 282.72
+          },
+          {
+            "produto": "RED BULL ZERO 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          }
+        ]
+      },
+      {
+        "codcli": "38896",
+        "cliente": "LCA COMERCIO LTDA",
+        "bairro": "PAMPULHA",
+        "dtultcomp": "12/06/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "fantasia": "",
+            "qt": 2,
+            "valor": 282.72
+          },
+          {
+            "produto": "RED BULL AMORA EDITION SF 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL MELANCIA 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL NECTARINA SF 24X250ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 141.36
           },
           {
             "produto": "RED BULL ZERO 24X250ML",
@@ -4431,6 +4431,56 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "33076",
+        "cliente": "CEVAROLI SUPERMERCADOS LTDA",
+        "bairro": "FERNÃO DIAS",
+        "dtultcomp": "12/05/2026",
+        "produtos": [
+          {
+            "produto": "CHANDON BRUT ROSE 750ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 1026.0
+          },
+          {
+            "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750 M",
+            "fantasia": "BALLENA",
+            "qt": 18,
+            "valor": 1978.2
+          },
+          {
+            "produto": "LICOR BALLENA MORANGO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 30,
+            "valor": 3297.0
+          },
+          {
+            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+            "fantasia": "MSLR",
+            "qt": 12,
+            "valor": 718.8
+          },
+          {
+            "produto": "TEQUILA J CUERVO GOLD 750ML",
+            "fantasia": "",
+            "qt": 11,
+            "valor": 1318.9
+          },
+          {
+            "produto": "VINHO LATITUD 33 MALBEC TTO 750 ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 658.8
+          },
+          {
+            "produto": "VINHO LATITUD 33 SAUVIGNON BLANC",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 658.8
+          }
+        ]
+      },
+      {
         "codcli": "33077",
         "cliente": "CEVAROLI SUPERMERCADOS LTDA",
         "bairro": "VILA CLORIS",
@@ -4489,56 +4539,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 6,
             "valor": 329.4
-          }
-        ]
-      },
-      {
-        "codcli": "33076",
-        "cliente": "CEVAROLI SUPERMERCADOS LTDA",
-        "bairro": "FERNÃO DIAS",
-        "dtultcomp": "12/05/2026",
-        "produtos": [
-          {
-            "produto": "CHANDON BRUT ROSE 750ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 1026.0
-          },
-          {
-            "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750 M",
-            "fantasia": "BALLENA",
-            "qt": 18,
-            "valor": 1978.2
-          },
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 30,
-            "valor": 3297.0
-          },
-          {
-            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-            "fantasia": "MSLR",
-            "qt": 12,
-            "valor": 718.8
-          },
-          {
-            "produto": "TEQUILA J CUERVO GOLD 750ML",
-            "fantasia": "",
-            "qt": 11,
-            "valor": 1318.9
-          },
-          {
-            "produto": "VINHO LATITUD 33 MALBEC TTO 750 ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 658.8
-          },
-          {
-            "produto": "VINHO LATITUD 33 SAUVIGNON BLANC",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 658.8
           }
         ]
       },
@@ -5451,62 +5451,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "38612",
-        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "JARDIM ATLÂNTICO",
-        "dtultcomp": "19/05/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK  RED BULL",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 61.52
-          },
-          {
-            "produto": "4 PACK  RED BULL  MAÇA SF",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 30.76
-          },
-          {
-            "produto": "4 PACK  RED BULL MORANGO PESSEGO",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 30.76
-          },
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 61.52
-          },
-          {
-            "produto": "4 PACK RED BULL POMELO SF",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 30.76
-          },
-          {
-            "produto": "4 PACK RED BULL SUGAR FREE",
-            "fantasia": "",
-            "qt": 4,
-            "valor": 123.04
-          },
-          {
-            "produto": "4 PACK RED BULL TROPICAL",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 61.52
-          },
-          {
-            "produto": "4 PACK RED BULL ZERO",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 61.52
-          }
-        ]
-      },
-      {
         "codcli": "30909",
         "cliente": "PRODUTOS ALIMENTICIOS BETINENSE LTDA",
         "bairro": "NITEROI",
@@ -5839,9 +5783,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30324",
+        "codcli": "39403",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "BELVEDERE",
+        "bairro": "COMITECO",
         "dtultcomp": "29/05/2026",
         "produtos": [
           {
@@ -5859,9 +5803,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "39403",
+        "codcli": "30324",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "COMITECO",
+        "bairro": "BELVEDERE",
         "dtultcomp": "29/05/2026",
         "produtos": [
           {
@@ -6351,44 +6295,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30089",
-        "cliente": "VILLA FERNANDA FOODS LTDA",
-        "bairro": "VILA DA SERRA",
-        "dtultcomp": "17/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN TANQUERAY LD 1X12/50ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 114.9
-          },
-          {
-            "produto": "MINIATURA BEEFEATER  12 X 50ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 153.9
-          },
-          {
-            "produto": "MINIATURA CHIVAS 12YO 12 X 50ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 159.9
-          },
-          {
-            "produto": "MINIATURA JAMESON 12 X 50ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 99.9
-          },
-          {
-            "produto": "VODKA ABSOLUT 12 X  50ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 119.88
-          }
-        ]
-      },
-      {
         "codcli": "34960",
         "cliente": "DRIL EMPREENDIMENTOS STUDIO BIKE PAMPULHA BH LTDA",
         "bairro": "OURO PRETO",
@@ -6495,32 +6401,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30323",
-        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "SANTO ANTONIO",
-        "dtultcomp": "23/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 89.88
-          },
-          {
-            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 89.88
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 179.76
-          }
-        ]
-      },
-      {
         "codcli": "38776",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
         "bairro": "ESTORIL",
@@ -6549,6 +6429,32 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 1,
             "valor": 29.96
+          },
+          {
+            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 179.76
+          }
+        ]
+      },
+      {
+        "codcli": "30323",
+        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
+        "bairro": "SANTO ANTONIO",
+        "dtultcomp": "23/06/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK RED BULL MELANCIA",
+            "fantasia": "",
+            "qt": 3,
+            "valor": 89.88
+          },
+          {
+            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
+            "fantasia": "",
+            "qt": 3,
+            "valor": 89.88
           },
           {
             "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
