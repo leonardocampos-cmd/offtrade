@@ -51,15 +51,25 @@
     .cobertura-bar-fill { height: 100%; border-radius: 3px; }
     .secao-mini { font-size: .68rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin: 14px 0 8px; }
     .cidades-list { display: flex; flex-direction: column; gap: 4px; }
-    .cidade-item { display: flex; justify-content: space-between; font-size: .82rem; }
     .cidade-nome { color: var(--text); }
+    .cidade-item { display: flex; justify-content: space-between; font-size: .82rem; }
     .cidade-qtd { color: var(--muted); font-weight: 600; }
     .meses-mini { display: flex; gap: 3px; align-items: flex-end; height: 36px; margin-top: 6px; }
     .mes-bar { flex: 1; background: var(--accent); border-radius: 2px 2px 0 0; opacity: .75; min-height: 2px; }
     .resumo-total {
       background: var(--card); border: 1px solid var(--border); border-radius: 14px;
       padding: 18px 20px; margin-bottom: 20px; display: flex; gap: 32px; flex-wrap: wrap;
+      align-items: center;
     }
+    .filtro-vendedor { margin-left: auto; display: flex; flex-direction: column; gap: 5px; }
+    .filtro-vendedor label { font-size: .68rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+    .filtro-vendedor select {
+      padding: 8px 12px; border-radius: 8px; border: 1px solid var(--border);
+      background: var(--bg); color: var(--text); font-size: .85rem; outline: none;
+      min-width: 220px;
+    }
+    .filtro-vendedor select:focus { border-color: var(--accent); }
+    .sem-clientes { color: var(--muted); font-size: .85rem; text-align: center; padding: 24px; grid-column: 1/-1; }
   </style>
 </head>
 <body>
@@ -90,57 +100,89 @@
     document.getElementById('atualizacao').textContent =
       `Atualizado em ${data.atualizado_em} · mês de referência: ${data.mes_atual}`;
 
-    const totalClientes = data.canais.reduce((s, c) => s + c.total_clientes, 0);
-    const totalFatYtd = data.canais.reduce((s, c) => s + c.faturamento_ytd, 0);
-    const totalAtivos = data.canais.reduce((s, c) => s + c.clientes_ativos_mes, 0);
+    function metricasCanal(c, rca) {
+      if (!rca) return c;
+      return c.por_vendedor && c.por_vendedor[rca] ? c.por_vendedor[rca] : null;
+    }
 
-    document.getElementById('resumo-total').innerHTML = `
-      <div><div class="kpi-label">Total de clientes (todos os canais)</div><div class="kpi-valor">${totalClientes.toLocaleString('pt-BR')}</div></div>
-      <div><div class="kpi-label">Ativos em ${data.mes_atual}</div><div class="kpi-valor">${totalAtivos.toLocaleString('pt-BR')}</div></div>
-      <div><div class="kpi-label">Faturamento YTD</div><div class="kpi-valor">${brl(totalFatYtd)}</div></div>
-      <div><div class="kpi-label">Canais mapeados</div><div class="kpi-valor">${data.canais.length}</div></div>
-    `;
+    function render(rca) {
+      const canaisComDado = data.canais
+        .map(c => ({ ramo: c.ramo, m: metricasCanal(c, rca) }))
+        .filter(x => x.m);
 
-    const grid = document.getElementById('grid-canais');
-    grid.innerHTML = data.canais.map(c => {
-      const meses = data.meses_com_dado.map(m => c.por_mes[m] || 0);
-      const maxMes = Math.max(...meses, 1);
-      const barrasMes = meses.map(v => `<div class="mes-bar" style="height:${Math.max(v / maxMes * 100, 3)}%" title="${brl(v)}"></div>`).join('');
-      const cidades = (c.top_cidades || []).slice(0, 6).map(ci => `
-        <div class="cidade-item"><span class="cidade-nome">${ci.cidade}</span><span class="cidade-qtd">${ci.clientes}</span></div>
-      `).join('') || '<div class="cidade-item"><span class="cidade-nome">Sem dados de cidade</span></div>';
+      const totalClientes = canaisComDado.reduce((s, x) => s + x.m.total_clientes, 0);
+      const totalFatYtd = canaisComDado.reduce((s, x) => s + x.m.faturamento_ytd, 0);
+      const totalAtivos = canaisComDado.reduce((s, x) => s + x.m.clientes_ativos_mes, 0);
 
-      return `
-        <div class="card">
-          <div class="card-ramo">${c.ramo}</div>
-          <div class="kpi-row">
-            <div class="kpi">
-              <div class="kpi-label">Total na base</div>
-              <div class="kpi-valor">${c.total_clientes.toLocaleString('pt-BR')}</div>
-            </div>
-            <div class="kpi">
-              <div class="kpi-label">Cobertura (${data.mes_atual})</div>
-              <div class="kpi-valor" style="color:${cobCor(c.cobertura_pct)}">${c.cobertura_pct}%</div>
-              <div class="cobertura-bar-bg"><div class="cobertura-bar-fill" style="width:${Math.min(c.cobertura_pct,100)}%;background:${cobCor(c.cobertura_pct)}"></div></div>
-            </div>
-          </div>
-          <div class="kpi-row">
-            <div class="kpi">
-              <div class="kpi-label">Faturamento YTD</div>
-              <div class="kpi-valor">${brl(c.faturamento_ytd)}</div>
-            </div>
-            <div class="kpi">
-              <div class="kpi-label">Média mensal</div>
-              <div class="kpi-valor">${brl(c.media_mensal)}</div>
-            </div>
-          </div>
-          <div class="secao-mini">Evolução mensal</div>
-          <div class="meses-mini">${barrasMes}</div>
-          <div class="secao-mini">Top cidades</div>
-          <div class="cidades-list">${cidades}</div>
+      document.getElementById('resumo-total').innerHTML = `
+        <div><div class="kpi-label">Total de clientes (todos os canais)</div><div class="kpi-valor">${totalClientes.toLocaleString('pt-BR')}</div></div>
+        <div><div class="kpi-label">Ativos em ${data.mes_atual}</div><div class="kpi-valor">${totalAtivos.toLocaleString('pt-BR')}</div></div>
+        <div><div class="kpi-label">Faturamento YTD</div><div class="kpi-valor">${brl(totalFatYtd)}</div></div>
+        <div><div class="kpi-label">Canais mapeados</div><div class="kpi-valor">${canaisComDado.length}</div></div>
+        <div class="filtro-vendedor">
+          <label for="filtro-rca">Filtrar por vendedor</label>
+          <select id="filtro-rca"></select>
         </div>
       `;
-    }).join('');
+      montaFiltro(rca);
+
+      const grid = document.getElementById('grid-canais');
+      if (!canaisComDado.length) {
+        grid.innerHTML = '<div class="sem-clientes">Este vendedor não tem clientes em nenhum canal mapeado.</div>';
+        return;
+      }
+
+      grid.innerHTML = canaisComDado.map(({ ramo, m }) => {
+        const meses = data.meses_com_dado.map(mes => m.por_mes[mes] || 0);
+        const maxMes = Math.max(...meses, 1);
+        const barrasMes = meses.map(v => `<div class="mes-bar" style="height:${Math.max(v / maxMes * 100, 3)}%" title="${brl(v)}"></div>`).join('');
+        const cidades = (m.top_cidades || []).slice(0, 6).map(ci => `
+          <div class="cidade-item"><span class="cidade-nome">${ci.cidade}</span><span class="cidade-qtd">${ci.clientes}</span></div>
+        `).join('') || '<div class="cidade-item"><span class="cidade-nome">Sem dados de cidade</span></div>';
+
+        return `
+          <div class="card">
+            <div class="card-ramo">${ramo}</div>
+            <div class="kpi-row">
+              <div class="kpi">
+                <div class="kpi-label">Total na base</div>
+                <div class="kpi-valor">${m.total_clientes.toLocaleString('pt-BR')}</div>
+              </div>
+              <div class="kpi">
+                <div class="kpi-label">Cobertura (${data.mes_atual})</div>
+                <div class="kpi-valor" style="color:${cobCor(m.cobertura_pct)}">${m.cobertura_pct}%</div>
+                <div class="cobertura-bar-bg"><div class="cobertura-bar-fill" style="width:${Math.min(m.cobertura_pct,100)}%;background:${cobCor(m.cobertura_pct)}"></div></div>
+              </div>
+            </div>
+            <div class="kpi-row">
+              <div class="kpi">
+                <div class="kpi-label">Faturamento YTD</div>
+                <div class="kpi-valor">${brl(m.faturamento_ytd)}</div>
+              </div>
+              <div class="kpi">
+                <div class="kpi-label">Média mensal</div>
+                <div class="kpi-valor">${brl(m.media_mensal)}</div>
+              </div>
+            </div>
+            <div class="secao-mini">Evolução mensal</div>
+            <div class="meses-mini">${barrasMes}</div>
+            <div class="secao-mini">Top cidades</div>
+            <div class="cidades-list">${cidades}</div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function montaFiltro(rcaSelecionado) {
+      const sel = document.getElementById('filtro-rca');
+      const opcoes = ['<option value="">Todos os vendedores</option>']
+        .concat((data.vendedores || []).map(v => `<option value="${v.rca}">${v.nome} (${v.rca})</option>`));
+      sel.innerHTML = opcoes.join('');
+      sel.value = rcaSelecionado || '';
+      sel.addEventListener('change', () => render(sel.value));
+    }
+
+    render('');
   </script>
 </body>
 </html>
