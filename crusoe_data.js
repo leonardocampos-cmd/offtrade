@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "20/07/2026 13:53",
+  "atualizado_em": "20/07/2026 18:33",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -1880,14 +1880,14 @@ const CRUSOE_DATA = {
         {
           "rca": 153,
           "vendedor": "Angelo Neves Suzart",
-          "pedidos": 6,
-          "positivacoes": 2,
-          "novos_skus": 7,
-          "faturamento": 9325.47,
-          "pontos_positivacao": 10,
-          "pontos_novos_skus": 28,
-          "pontos_pedidos_valor": 8,
-          "pontos_total": 46,
+          "pedidos": 7,
+          "positivacoes": 3,
+          "novos_skus": 9,
+          "faturamento": 9898.64,
+          "pontos_positivacao": 15,
+          "pontos_novos_skus": 36,
+          "pontos_pedidos_valor": 9,
+          "pontos_total": 60,
           "vendas": [
             {
               "numnota": "408274",
@@ -2068,6 +2068,46 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM PEDACOS NATURAL 24X140G",
                   "qt": 1.0,
                   "valor": 191.76,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "413798",
+              "data": "20/07/2026",
+              "cliente": "MERCADAO DE ALIMENTOS UNIDOS BRASIL LTDA",
+              "valor_pedido": 573.17,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$500-1000)",
+                  "pontos": 1
+                },
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 2.0,
+                  "valor": 399.8,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM RALADO NATURAL 24X140G",
+                  "qt": 1.0,
+                  "valor": 173.37,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -2350,7 +2390,7 @@ const CRUSOE_DATA = {
           "rca": 379,
           "vendedor": "Jorge Maciel",
           "clientes_gourmet": 0,
-          "faturamento": 6826.78,
+          "faturamento": 7158.28,
           "faturamento_gourmet": 0.0,
           "pontos_total": 0,
           "vendas": []
