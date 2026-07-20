@@ -21,7 +21,9 @@ load_dotenv(Path(__file__).parent / ".env")
 from urllib.parse import quote_plus
 
 from utils import ORACLE_LIB
-oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
+# meta.py já chama oracledb.init_oracle_client() — importar antes evita o erro
+# "Oracle Client library has already been initialized" (só pode rodar 1x/processo).
+from meta import _com_timeout_forcado
 
 USER     = os.environ["VPN_USER"]
 PASSWORD = os.environ["VPN_PASSWORD"]
@@ -136,12 +138,15 @@ def _carregar() -> tuple[pd.DataFrame, list[str], list[dict]]:
                 fontes_indisponiveis.append(estado)
                 continue
 
+        def _fazer_query(_dsn=dsn, _schema=schema, _filiais=filiais):
+            with engines[_dsn].connect() as conn:
+                return pd.read_sql(_query(_schema, _filiais), conn)
+
         ok = False
         for tentativa in range(1, 4):
             try:
                 print(f"  Consultando {estado} ({schema} filiais={filiais}) — tentativa {tentativa}/3…")
-                with engines[dsn].connect() as conn:
-                    df = pd.read_sql(_query(schema, filiais), conn)
+                df = _com_timeout_forcado(_fazer_query, 90)
                 df.columns = df.columns.str.upper()
                 df["ESTADO"] = estado
                 frames.append(df)
@@ -164,8 +169,10 @@ def _carregar() -> tuple[pd.DataFrame, list[str], list[dict]]:
             continue
         vistos.add((dsn, schema))
         try:
-            with engines[dsn].connect() as conn:
-                df_h = pd.read_sql(_query_hierarquia(schema), conn)
+            def _fazer_query_h(_dsn=dsn, _schema=schema):
+                with engines[_dsn].connect() as conn:
+                    return pd.read_sql(_query_hierarquia(_schema), conn)
+            df_h = _com_timeout_forcado(_fazer_query_h, 90)
             df_h.columns = df_h.columns.str.upper()
             for _, r in df_h.iterrows():
                 nome_v = str(r.get("NOME_VENDEDOR") or "").strip()

@@ -12,7 +12,9 @@ from dotenv import load_dotenv
 load_dotenv(Path(__file__).parent / ".env")
 
 from utils import ORACLE_LIB
-oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
+# meta.py já chama oracledb.init_oracle_client() — importar antes evita o erro
+# "Oracle Client library has already been initialized".
+from meta import _com_timeout_forcado
 
 _crc_user = os.environ["CRC_USER"]
 _crc_pass = os.environ["CRC_PASSWORD"]
@@ -65,8 +67,10 @@ ORDER BY U.NOME, LV.DTULTCOMP ASC, C.CLIENTE, P.DESCRICAO
 """
 
 print("-> Consultando nao positivados ES (CRC filial 2)...")
-with engine_es.connect() as conn:
-    df = pd.read_sql(QUERY, conn)
+def _fazer_query():
+    with engine_es.connect() as conn:
+        return pd.read_sql(QUERY, conn)
+df = _com_timeout_forcado(_fazer_query, 90)
 df.columns  = df.columns.str.upper()
 df['QT']    = pd.to_numeric(df['QT'],    errors='coerce').fillna(0).astype(int)
 df['VALOR'] = pd.to_numeric(df['VALOR'], errors='coerce').fillna(0).round(2)

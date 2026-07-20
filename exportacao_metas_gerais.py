@@ -22,7 +22,9 @@ load_dotenv(Path(__file__).parent / ".env")
 from urllib.parse import quote_plus
 
 from utils import ORACLE_LIB
-oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
+# meta.py já chama oracledb.init_oracle_client() — importar antes evita o erro
+# "Oracle Client library has already been initialized".
+from meta import _com_timeout_forcado
 
 USER     = os.environ["VPN_USER"]
 PASSWORD = os.environ["VPN_PASSWORD"]
@@ -68,10 +70,13 @@ FONTES_INDISPONIVEIS: list[str] = []
 
 
 def _ler_com_retry(engine, query: str, estado: str, max_tentativas: int = 3) -> pd.DataFrame:
+    def _fazer_query():
+        with engine.connect() as conn:
+            return pd.read_sql(query, conn)
+
     for tentativa in range(1, max_tentativas + 1):
         try:
-            with engine.connect() as conn:
-                return pd.read_sql(query, conn)
+            return _com_timeout_forcado(_fazer_query, 90)
         except Exception as e:
             print(f"    [tentativa {tentativa}/{max_tentativas}] {estado}: {str(e)[:100]}")
             engine.dispose()

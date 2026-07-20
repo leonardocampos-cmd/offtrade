@@ -15,7 +15,9 @@ load_dotenv(Path(__file__).parent / ".env")
 
 import oracledb
 from utils import ORACLE_LIB
-oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
+# meta.py já chama oracledb.init_oracle_client() — importar antes evita o erro
+# "Oracle Client library has already been initialized".
+from meta import _com_timeout_forcado
 
 from sqlalchemy import create_engine, text
 
@@ -124,11 +126,14 @@ def _q_novos(s, nf):
 
 
 def _load(query, engine, label, max_try=3):
+    def _fazer_query():
+        with engine.connect() as conn:
+            return pd.read_sql(query, conn)
+
     for t in range(1, max_try + 1):
         try:
             print(f"-> {label} (tentativa {t})...")
-            with engine.connect() as conn:
-                df = pd.read_sql(query, conn)
+            df = _com_timeout_forcado(_fazer_query, 90)
             df.columns = df.columns.str.upper()
             print(f"   OK {len(df)} linhas")
             return df
