@@ -22,7 +22,10 @@ from urllib.parse import quote_plus
 
 load_dotenv()
 
-oracledb.init_oracle_client(lib_dir=os.getenv("ORACLE_LIB", "/opt/oracle/instantclient_21_1"))
+# meta.py já chama oracledb.init_oracle_client() — importar antes de qualquer
+# chamada local evita o erro "Oracle Client library has already been
+# initialized" (init só pode rodar uma vez por processo).
+from meta import _com_timeout_forcado
 
 user     = os.environ["VPN_USER"]
 password = os.environ["VPN_PASSWORD"]
@@ -118,12 +121,14 @@ def carregar_metas_do_mes():
     return por_vendedor
 
 
-def carregar_dados(query, engine, nome_tabela="tabela"):
+def carregar_dados(query, engine, nome_tabela="tabela", timeout=90):
     print(f"-> Lendo {nome_tabela}...")
-    with engine.connect() as conn:
-        df = pd.read_sql(query, con=conn)
-        df.columns = df.columns.str.strip().str.upper()
-        return df
+    def _fazer_query():
+        with engine.connect() as conn:
+            df = pd.read_sql(query, con=conn)
+            df.columns = df.columns.str.strip().str.upper()
+            return df
+    return _com_timeout_forcado(_fazer_query, timeout)
 
 
 def montar_resumos_do_mes():

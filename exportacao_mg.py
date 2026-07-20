@@ -7,6 +7,7 @@ from datetime import date, datetime
 from pathlib import Path
 
 from utils import ORACLE_LIB
+from meta import _com_timeout_forcado
 oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
 
 _user = os.environ["VPN_USER"]
@@ -34,16 +35,20 @@ def _mes_sort_key(mes_str):
     except Exception:
         return (0, 0)
 
-def carregar_dados(query, engine, nome='tabela', max_tentativas=3):
+def carregar_dados(query, engine, nome='tabela', max_tentativas=3, timeout_por_tentativa=90):
+    def _fazer_query():
+        with engine.connect() as conn:
+            chunks = [chunk for chunk in pd.read_sql(query, con=conn, chunksize=5000)]
+            df = pd.concat(chunks, ignore_index=True)
+            df.columns = df.columns.str.strip().str.upper()
+            return df
+
     for tentativa in range(1, max_tentativas + 1):
         try:
             print(f"-> Lendo {nome} (Tentativa {tentativa}/{max_tentativas})...")
-            with engine.connect() as conn:
-                chunks = [chunk for chunk in pd.read_sql(query, con=conn, chunksize=5000)]
-                df = pd.concat(chunks, ignore_index=True)
-                df.columns = df.columns.str.strip().str.upper()
-                print(f"OK {nome} carregada!")
-                return df
+            df = _com_timeout_forcado(_fazer_query, timeout_por_tentativa)
+            print(f"OK {nome} carregada!")
+            return df
         except Exception as e:
             print(f"Erro na {nome}: {str(e)[:120]}")
             engine.dispose()

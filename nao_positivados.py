@@ -3,13 +3,16 @@ import time
 import pandas as pd
 from datetime import datetime
 from pathlib import Path
-from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, tabela_vendas, FONTES_INDISPONIVEIS
+from meta import (
+    engine, engine_theking, engine_castas, engine_garrido, engine_spon,
+    tabela_vendas, FONTES_INDISPONIVEIS, _com_timeout_forcado,
+)
 
-def _read_sql_retry(query, con, engine_obj, nome, dtype=str, max_tentativas=3):
+def _read_sql_retry(query, con, engine_obj, nome, dtype=str, max_tentativas=3, timeout_por_tentativa=90):
     for tentativa in range(1, max_tentativas + 1):
         try:
             print(f"-> Lendo {nome} (Tentativa {tentativa}/{max_tentativas})...")
-            df = pd.read_sql(query, con=con, dtype=dtype)
+            df = _com_timeout_forcado(lambda: pd.read_sql(query, con=con, dtype=dtype), timeout_por_tentativa)
             print(f"OK {nome} carregada!")
             return df
         except Exception as e:

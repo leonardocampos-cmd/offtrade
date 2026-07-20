@@ -12,6 +12,7 @@ from dotenv import load_dotenv
 load_dotenv(Path(__file__).parent / ".env")
 
 from utils import ORACLE_LIB
+from meta import _com_timeout_forcado
 oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
 
 user     = os.environ["SPON_USER"]
@@ -25,16 +26,20 @@ engine_spon = create_engine(
 
 RCA_REF = 588
 
-def carregar(query, nome, max_tent=5):
+def carregar(query, nome, max_tent=5, timeout_por_tentativa=90):
+    def _fazer_query():
+        with engine_spon.connect() as conn:
+            chunks = [c for c in pd.read_sql(query, con=conn, chunksize=5000)]
+            df = pd.concat(chunks, ignore_index=True)
+            df.columns = df.columns.str.strip().str.upper()
+            return df
+
     for t in range(1, max_tent + 1):
         try:
             print(f"-> Lendo {nome} (Tentativa {t}/{max_tent})...")
-            with engine_spon.connect() as conn:
-                chunks = [c for c in pd.read_sql(query, con=conn, chunksize=5000)]
-                df = pd.concat(chunks, ignore_index=True)
-                df.columns = df.columns.str.strip().str.upper()
-                print(f"OK {nome} carregada!")
-                return df
+            df = _com_timeout_forcado(_fazer_query, timeout_por_tentativa)
+            print(f"OK {nome} carregada!")
+            return df
         except Exception as e:
             print(f"Erro na {nome}: {str(e)[:100]}")
             engine_spon.dispose()
