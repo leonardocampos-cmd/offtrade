@@ -12,6 +12,8 @@ Fluxo:
      módulo em vez de apontar direto pro caminho G:\\...
 """
 import io
+import socket
+import threading
 from pathlib import Path
 
 BASE       = Path(__file__).parent
@@ -22,10 +24,26 @@ SCOPES     = ["https://www.googleapis.com/auth/drive.readonly"]
 _service = None
 
 
+DRIVE_TIMEOUT = 30  # segundos — evita travar pra sempre numa conexão morta com o Google
+
+# Timeout global de socket: o timeout do httplib2.Http(timeout=...) abaixo não
+# cobre TODO caminho de rede usado por baixo dos panos (ex: refresh de token
+# OAuth, que passa por google.auth.transport.requests / urllib3, não
+# httplib2) — confirmado na prática: uma conexão https com o Google ficava
+# em CLOSE_WAIT com o processo bloqueado num read() que nunca retornava,
+# mesmo com o timeout do httplib2 configurado. socket.setdefaulttimeout()
+# vira o piso para qualquer socket Python que não define o próprio timeout —
+# não afeta o Oracle (thick client usa a lib C da Oracle, não o módulo
+# socket do Python). Travou o pipeline da VPS por horas em 2026-07-20.
+socket.setdefaulttimeout(DRIVE_TIMEOUT)
+
+
 def _get_service():
     # Import tardio: se o pacote não estiver instalado (ex: venv local ainda
     # não atualizado), quem chama pode capturar o erro e cair no caminho
     # G:\ sincronizado, em vez do módulo inteiro falhar ao ser importado.
+    import httplib2
+    import google_auth_httplib2
     from google.oauth2.credentials import Credentials
     from google.auth.transport.requests import Request
     from googleapiclient.discovery import build
@@ -48,7 +66,8 @@ def _get_service():
                 "Token do Drive inválido ou sem refresh_token. "
                 "Rode google_auth_setup.py novamente para reautorizar."
             )
-    _service = build("drive", "v3", credentials=creds)
+    http = google_auth_httplib2.AuthorizedHttp(creds, http=httplib2.Http(timeout=DRIVE_TIMEOUT))
+    _service = build("drive", "v3", http=http)
     return _service
 
 
@@ -171,12 +190,39 @@ def caminho_controle_notas(mm: str, mes_upper: str) -> Path:
     return destino
 
 
+def _com_timeout_forcado(func, timeout):
+    """Roda `func` numa thread daemon e desiste após `timeout`s, mesmo que a
+    thread continue pendurada pra sempre. Necessário porque os timeouts das
+    próprias libs do Google (httplib2, socket.setdefaulttimeout) já se
+    mostraram insuficientes na prática — uma conexão que o Google derruba em
+    silêncio (CLOSE_WAIT) deixa o processo bloqueado num read() que nenhum
+    desses timeouts interrompe. Como a thread é daemon, ela não impede o
+    processo de encerrar mesmo que nunca retorne. Travou o pipeline da VPS
+    por dias em 2026-07-20 até essa correção."""
+    resultado = {}
+
+    def _run():
+        try:
+            resultado['valor'] = func()
+        except Exception as e:
+            resultado['erro'] = e
+
+    t = threading.Thread(target=_run, daemon=True)
+    t.start()
+    t.join(timeout)
+    if t.is_alive():
+        raise TimeoutError(f"Download do Drive não respondeu em {timeout}s (conexão travada)")
+    if 'erro' in resultado:
+        raise resultado['erro']
+    return resultado['valor']
+
+
 def com_fallback(bpd_func, caminho_local_fallback: str) -> Path:
     """Tenta baixar via Drive; se falhar por qualquer motivo (pacote ausente,
     token expirado, rede etc.) e o caminho local sincronizado (G:\\...) ainda
     existir, usa ele em vez de propagar o erro."""
     try:
-        return bpd_func()
+        return _com_timeout_forcado(bpd_func, DRIVE_TIMEOUT * 2)
     except Exception as e:
         p = Path(caminho_local_fallback)
         if p.exists():
@@ -186,9 +232,13 @@ def com_fallback(bpd_func, caminho_local_fallback: str) -> Path:
 
 
 if __name__ == "__main__":
+    # main.py roda este arquivo standalone (step "0/8") via subprocess — esse
+    # caminho NÃO passa por com_fallback(), então sem o timeout forçado aqui
+    # também ele trava pra sempre do mesmo jeito (confirmado em 2026-07-20:
+    # com_fallback já protegido, mas esse loop ainda travava o pipeline).
     for fn in (caminho_metas_rj, caminho_metas_sp, caminho_tabela_preco_rj,
                caminho_preco_promo, caminho_profit_rj):
         try:
-            fn()
+            _com_timeout_forcado(fn, DRIVE_TIMEOUT * 2)
         except Exception as e:
             print(f"[AVISO] falha ao baixar via {fn.__name__}: {e}")

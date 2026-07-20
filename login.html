@@ -142,9 +142,20 @@
         document.getElementById('google-btn-wrap').style.display = 'flex';
         return;
       }
-      // Sempre mostra email+senha E Google para qualquer vendedor
-      document.getElementById('vend-fields').style.display    = 'flex';
-      document.getElementById('divider-google').style.display = 'flex';
+      // Só mostra e-mail+senha pra quem tem gmail pessoal cadastrado (o login
+      // por e-mail existe pra esse caso). Quem só tem e-mail corporativo
+      // @rigarr entra direto pelo botão do Google, sem precisar digitar nada.
+      const vendedor = VENDEDORES_AUTH[rca];
+      const temGmail = !!vendedor && [vendedor.email, vendedor.email2]
+        .filter(Boolean).some(e => e.toLowerCase().endsWith('@gmail.com'));
+
+      if (temGmail) {
+        document.getElementById('vend-fields').style.display    = 'flex';
+        document.getElementById('divider-google').style.display = 'flex';
+      } else {
+        document.getElementById('vend-fields').style.display    = 'none';
+        document.getElementById('divider-google').style.display = 'none';
+      }
       document.getElementById('google-btn-wrap').style.display = 'flex';
     });
 

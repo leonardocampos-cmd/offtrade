@@ -71,6 +71,7 @@ def main():
         step("1/8 - Carregando metas e vendas (Oracle + Excel)")
         try:
             import meta
+            meta.tabela_vendas  # força o carregamento pesado aqui (lazy por padrão, ver meta.py)
         except Exception:
             print("[AVISO] meta falhou — metas_data.js não será atualizado, pipeline continua.")
             traceback.print_exc()
