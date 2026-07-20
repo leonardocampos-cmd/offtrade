@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raio X de Indústrias — Rigarr</title>
+  <script src="auth.js"></script>
+  <script src="raiox_industrias_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --accent: #f5c518;
+      --text: #e2e8f0; --muted: #94a3b8; --border: #2d3144;
+    }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh; padding: 0 0 48px;
+    }
+    header {
+      background: var(--card); border-bottom: 1px solid var(--border);
+      padding: 16px 24px; display: flex; align-items: center; gap: 16px;
+      flex-wrap: wrap;
+    }
+    .logo { font-size: 1.05rem; font-weight: 800; color: var(--accent); }
+    .nav { display: flex; gap: 8px; margin-left: auto; flex-wrap: wrap; }
+    .nav a {
+      color: var(--muted); text-decoration: none; font-size: .82rem;
+      padding: 6px 12px; border-radius: 7px; border: 1px solid var(--border);
+      transition: all .15s;
+    }
+    .nav a:hover, .nav a.ativo { border-color: var(--accent); color: var(--accent); }
+    .container { max-width: 1000px; margin: 0 auto; padding: 24px 20px; }
+    .titulo { font-size: 1.3rem; font-weight: 800; margin-bottom: 4px; }
+    .atualizacao { font-size: .78rem; color: var(--muted); margin-bottom: 20px; }
+    .resumo-total {
+      background: var(--card); border: 1px solid var(--border); border-radius: 14px;
+      padding: 18px 20px; margin-bottom: 20px; display: flex; gap: 32px; flex-wrap: wrap;
+    }
+    .kpi-label { font-size: .68rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 4px; }
+    .kpi-valor { font-size: 1.25rem; font-weight: 800; }
+    .filtro { margin-bottom: 14px; }
+    .filtro input {
+      width: 100%; max-width: 320px; padding: 9px 12px; border-radius: 8px;
+      border: 1px solid var(--border); background: var(--card); color: var(--text);
+      font-size: .88rem; outline: none;
+    }
+    .filtro input:focus { border-color: var(--accent); }
+    table { width: 100%; border-collapse: collapse; background: var(--card); border-radius: 12px; overflow: hidden; border: 1px solid var(--border); }
+    th {
+      background: #1f2233; padding: 10px 14px; font-size: .7rem; color: var(--muted);
+      text-transform: uppercase; letter-spacing: .05em; text-align: right; font-weight: 600;
+    }
+    th:first-child, th:nth-child(2) { text-align: left; }
+    td { padding: 10px 14px; font-size: .85rem; border-top: 1px solid var(--border); text-align: right; }
+    td:first-child, td:nth-child(2) { text-align: left; }
+    td:first-child { color: var(--muted); font-weight: 600; }
+    tr:hover td { background: #1f2233; }
+    .part-bar-bg { display: inline-block; width: 60px; height: 5px; background: #2d3144; border-radius: 3px; overflow: hidden; margin-left: 8px; vertical-align: middle; }
+    .part-bar-fill { height: 100%; background: var(--accent); border-radius: 3px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Rigarr</div>
+    <div class="nav">
+      <a href="raiox_clientes.html">Raio X Clientes</a>
+      <a href="raiox_vendedores.html">Raio X Vendedores</a>
+      <a href="raiox_industrias.html" class="ativo">Raio X Indústrias</a>
+      <a href="index.html">← Painel</a>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="titulo">Raio X de Indústrias — Ranking de Fornecedores (RJ)</div>
+    <div class="atualizacao" id="atualizacao">Carregando…</div>
+
+    <div class="resumo-total" id="resumo-total"></div>
+
+    <div class="filtro">
+      <input type="text" id="busca" placeholder="Buscar fornecedor...">
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Fornecedor</th>
+          <th>Faturamento YTD</th>
+          <th>Participação</th>
+          <th>Faturamento (mês atual)</th>
+          <th>Clientes positivados</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+
+  <script>
+    const brl = v => new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL', maximumFractionDigits: 0 }).format(v);
+    const data = RAIOX_INDUSTRIAS_DATA;
+    document.getElementById('atualizacao').textContent =
+      `Atualizado em ${data.atualizado_em} · mês de referência: ${data.mes_atual}`;
+
+    document.getElementById('resumo-total').innerHTML = `
+      <div><div class="kpi-label">Faturamento total YTD</div><div class="kpi-valor">${brl(data.faturamento_total_ytd)}</div></div>
+      <div><div class="kpi-label">Fornecedores ativos</div><div class="kpi-valor">${data.fornecedores.length}</div></div>
+    `;
+
+    function render(lista) {
+      document.getElementById('tbody').innerHTML = lista.map(f => `
+        <tr>
+          <td>${f.posicao}</td>
+          <td>${f.fantasia}</td>
+          <td>${brl(f.faturamento_ytd)}</td>
+          <td>${f.participacao_pct}%<span class="part-bar-bg"><span class="part-bar-fill" style="width:${Math.min(f.participacao_pct * 4, 100)}%"></span></span></td>
+          <td>${brl(f.faturamento_mes_atual)}</td>
+          <td>${f.clientes_positivados}</td>
+        </tr>
+      `).join('') || '<tr><td colspan="6" style="color:var(--muted)">Nenhum fornecedor encontrado.</td></tr>';
+    }
+    render(data.fornecedores);
+
+    document.getElementById('busca').addEventListener('input', function () {
+      const q = this.value.trim().toUpperCase();
+      render(data.fornecedores.filter(f => f.fantasia.toUpperCase().includes(q)));
+    });
+  </script>
+</body>
+</html>

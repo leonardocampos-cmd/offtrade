@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raio X de Clientes — Rigarr</title>
+  <script src="auth.js"></script>
+  <script src="raiox_clientes_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --accent: #f5c518;
+      --text: #e2e8f0; --muted: #94a3b8; --border: #2d3144;
+      --green: #22c55e; --yellow: #f59e0b; --red: #ef4444;
+    }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh; padding: 0 0 48px;
+    }
+    header {
+      background: var(--card); border-bottom: 1px solid var(--border);
+      padding: 16px 24px; display: flex; align-items: center; gap: 16px;
+      flex-wrap: wrap;
+    }
+    .logo { font-size: 1.05rem; font-weight: 800; color: var(--accent); }
+    .nav { display: flex; gap: 8px; margin-left: auto; flex-wrap: wrap; }
+    .nav a {
+      color: var(--muted); text-decoration: none; font-size: .82rem;
+      padding: 6px 12px; border-radius: 7px; border: 1px solid var(--border);
+      transition: all .15s;
+    }
+    .nav a:hover, .nav a.ativo { border-color: var(--accent); color: var(--accent); }
+    .container { max-width: 1100px; margin: 0 auto; padding: 24px 20px; }
+    .titulo { font-size: 1.3rem; font-weight: 800; margin-bottom: 4px; }
+    .atualizacao { font-size: .78rem; color: var(--muted); margin-bottom: 24px; }
+    .grid-canais {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 14px; padding: 20px;
+    }
+    .card-ramo { font-size: 1.05rem; font-weight: 700; margin-bottom: 14px; }
+    .kpi-row { display: flex; gap: 18px; flex-wrap: wrap; margin-bottom: 14px; }
+    .kpi { min-width: 100px; }
+    .kpi-label { font-size: .68rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 4px; }
+    .kpi-valor { font-size: 1.25rem; font-weight: 800; }
+    .cobertura-bar-bg { height: 6px; background: #2d3144; border-radius: 3px; overflow: hidden; margin-top: 6px; }
+    .cobertura-bar-fill { height: 100%; border-radius: 3px; }
+    .secao-mini { font-size: .68rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin: 14px 0 8px; }
+    .cidades-list { display: flex; flex-direction: column; gap: 4px; }
+    .cidade-item { display: flex; justify-content: space-between; font-size: .82rem; }
+    .cidade-nome { color: var(--text); }
+    .cidade-qtd { color: var(--muted); font-weight: 600; }
+    .meses-mini { display: flex; gap: 3px; align-items: flex-end; height: 36px; margin-top: 6px; }
+    .mes-bar { flex: 1; background: var(--accent); border-radius: 2px 2px 0 0; opacity: .75; min-height: 2px; }
+    .resumo-total {
+      background: var(--card); border: 1px solid var(--border); border-radius: 14px;
+      padding: 18px 20px; margin-bottom: 20px; display: flex; gap: 32px; flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Rigarr</div>
+    <div class="nav">
+      <a href="raiox_clientes.html" class="ativo">Raio X Clientes</a>
+      <a href="raiox_vendedores.html">Raio X Vendedores</a>
+      <a href="raiox_industrias.html">Raio X Indústrias</a>
+      <a href="index.html">← Painel</a>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="titulo">Raio X de Clientes — RJ</div>
+    <div class="atualizacao" id="atualizacao">Carregando…</div>
+
+    <div class="resumo-total" id="resumo-total"></div>
+
+    <div class="grid-canais" id="grid-canais"></div>
+  </div>
+
+  <script>
+    const brl = v => new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL', maximumFractionDigits: 0 }).format(v);
+    const cobCor = p => p >= 40 ? 'var(--green)' : p >= 20 ? 'var(--yellow)' : 'var(--red)';
+
+    const data = RAIOX_CLIENTES_DATA;
+    document.getElementById('atualizacao').textContent =
+      `Atualizado em ${data.atualizado_em} · mês de referência: ${data.mes_atual}`;
+
+    const totalClientes = data.canais.reduce((s, c) => s + c.total_clientes, 0);
+    const totalFatYtd = data.canais.reduce((s, c) => s + c.faturamento_ytd, 0);
+    const totalAtivos = data.canais.reduce((s, c) => s + c.clientes_ativos_mes, 0);
+
+    document.getElementById('resumo-total').innerHTML = `
+      <div><div class="kpi-label">Total de clientes (todos os canais)</div><div class="kpi-valor">${totalClientes.toLocaleString('pt-BR')}</div></div>
+      <div><div class="kpi-label">Ativos em ${data.mes_atual}</div><div class="kpi-valor">${totalAtivos.toLocaleString('pt-BR')}</div></div>
+      <div><div class="kpi-label">Faturamento YTD</div><div class="kpi-valor">${brl(totalFatYtd)}</div></div>
+      <div><div class="kpi-label">Canais mapeados</div><div class="kpi-valor">${data.canais.length}</div></div>
+    `;
+
+    const grid = document.getElementById('grid-canais');
+    grid.innerHTML = data.canais.map(c => {
+      const meses = data.meses_com_dado.map(m => c.por_mes[m] || 0);
+      const maxMes = Math.max(...meses, 1);
+      const barrasMes = meses.map(v => `<div class="mes-bar" style="height:${Math.max(v / maxMes * 100, 3)}%" title="${brl(v)}"></div>`).join('');
+      const cidades = (c.top_cidades || []).slice(0, 6).map(ci => `
+        <div class="cidade-item"><span class="cidade-nome">${ci.cidade}</span><span class="cidade-qtd">${ci.clientes}</span></div>
+      `).join('') || '<div class="cidade-item"><span class="cidade-nome">Sem dados de cidade</span></div>';
+
+      return `
+        <div class="card">
+          <div class="card-ramo">${c.ramo}</div>
+          <div class="kpi-row">
+            <div class="kpi">
+              <div class="kpi-label">Total na base</div>
+              <div class="kpi-valor">${c.total_clientes.toLocaleString('pt-BR')}</div>
+            </div>
+            <div class="kpi">
+              <div class="kpi-label">Cobertura (${data.mes_atual})</div>
+              <div class="kpi-valor" style="color:${cobCor(c.cobertura_pct)}">${c.cobertura_pct}%</div>
+              <div class="cobertura-bar-bg"><div class="cobertura-bar-fill" style="width:${Math.min(c.cobertura_pct,100)}%;background:${cobCor(c.cobertura_pct)}"></div></div>
+            </div>
+          </div>
+          <div class="kpi-row">
+            <div class="kpi">
+              <div class="kpi-label">Faturamento YTD</div>
+              <div class="kpi-valor">${brl(c.faturamento_ytd)}</div>
+            </div>
+            <div class="kpi">
+              <div class="kpi-label">Média mensal</div>
+              <div class="kpi-valor">${brl(c.media_mensal)}</div>
+            </div>
+          </div>
+          <div class="secao-mini">Evolução mensal</div>
+          <div class="meses-mini">${barrasMes}</div>
+          <div class="secao-mini">Top cidades</div>
+          <div class="cidades-list">${cidades}</div>
+        </div>
+      `;
+    }).join('');
+  </script>
+</body>
+</html>

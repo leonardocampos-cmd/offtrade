@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raio X de Vendedores — Rigarr</title>
+  <script src="auth.js"></script>
+  <script src="raiox_vendedores_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --accent: #f5c518;
+      --text: #e2e8f0; --muted: #94a3b8; --border: #2d3144;
+    }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh; padding: 0 0 48px;
+    }
+    header {
+      background: var(--card); border-bottom: 1px solid var(--border);
+      padding: 16px 24px; display: flex; align-items: center; gap: 16px;
+      flex-wrap: wrap;
+    }
+    .logo { font-size: 1.05rem; font-weight: 800; color: var(--accent); }
+    .nav { display: flex; gap: 8px; margin-left: auto; flex-wrap: wrap; }
+    .nav a {
+      color: var(--muted); text-decoration: none; font-size: .82rem;
+      padding: 6px 12px; border-radius: 7px; border: 1px solid var(--border);
+      transition: all .15s;
+    }
+    .nav a:hover, .nav a.ativo { border-color: var(--accent); color: var(--accent); }
+    .container { max-width: 1100px; margin: 0 auto; padding: 24px 20px; }
+    .titulo { font-size: 1.3rem; font-weight: 800; margin-bottom: 4px; }
+    .atualizacao { font-size: .78rem; color: var(--muted); margin-bottom: 24px; }
+    .time-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 14px; padding: 20px; margin-bottom: 18px;
+    }
+    .time-header {
+      display: flex; justify-content: space-between; align-items: baseline;
+      flex-wrap: wrap; gap: 10px; margin-bottom: 14px;
+      border-bottom: 1px solid var(--border); padding-bottom: 12px;
+    }
+    .time-label { font-size: 1.1rem; font-weight: 700; }
+    .time-kpis { display: flex; gap: 20px; font-size: .82rem; color: var(--muted); }
+    .time-kpis b { color: var(--text); font-size: .95rem; }
+    .conteudo-time { display: grid; grid-template-columns: 1.3fr 1fr; gap: 20px; }
+    @media (max-width: 800px) { .conteudo-time { grid-template-columns: 1fr; } }
+    .vendedores-table { width: 100%; border-collapse: collapse; }
+    .vendedores-table th {
+      text-align: left; font-size: .68rem; color: var(--muted);
+      text-transform: uppercase; letter-spacing: .05em; padding: 6px 8px;
+      border-bottom: 1px solid var(--border);
+    }
+    .vendedores-table td { padding: 7px 8px; font-size: .85rem; border-bottom: 1px solid #232738; }
+    .vendedores-table td:last-child, .vendedores-table th:last-child { text-align: right; }
+    .regioes-list { display: flex; flex-direction: column; gap: 5px; }
+    .regiao-item { display: flex; justify-content: space-between; font-size: .82rem; }
+    .regiao-bar-bg { flex: 1; height: 5px; background: #2d3144; border-radius: 3px; margin: 0 10px; overflow: hidden; align-self: center; }
+    .regiao-bar-fill { height: 100%; background: var(--accent); border-radius: 3px; }
+    .secao-mini { font-size: .68rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 8px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Rigarr</div>
+    <div class="nav">
+      <a href="raiox_clientes.html">Raio X Clientes</a>
+      <a href="raiox_vendedores.html" class="ativo">Raio X Vendedores</a>
+      <a href="raiox_industrias.html">Raio X Indústrias</a>
+      <a href="index.html">← Painel</a>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="titulo">Raio X de Vendedores — Estrutura da Equipe (RJ)</div>
+    <div class="atualizacao" id="atualizacao">Carregando…</div>
+    <div id="times"></div>
+  </div>
+
+  <script>
+    const data = RAIOX_VENDEDORES_DATA;
+    document.getElementById('atualizacao').textContent = `Atualizado em ${data.atualizado_em}`;
+
+    document.getElementById('times').innerHTML = data.times.map(t => {
+      const maxRegiao = Math.max(...t.regioes.map(r => r.clientes), 1);
+      const regioesHtml = t.regioes.slice(0, 10).map(r => `
+        <div class="regiao-item">
+          <span>${r.cidade}</span>
+          <div class="regiao-bar-bg"><div class="regiao-bar-fill" style="width:${r.clientes / maxRegiao * 100}%"></div></div>
+          <span>${r.clientes}</span>
+        </div>
+      `).join('') || '<div class="regiao-item"><span>Sem dados de região</span></div>';
+
+      const vendedoresHtml = t.vendedores.map(v => `
+        <tr>
+          <td>${v.nome}</td>
+          <td style="color:var(--muted)">${v.rca}</td>
+          <td>${v.total_clientes}</td>
+        </tr>
+      `).join('') || '<tr><td colspan="3" style="color:var(--muted)">Nenhum vendedor neste time</td></tr>';
+
+      return `
+        <div class="time-card">
+          <div class="time-header">
+            <div class="time-label">${t.label}</div>
+            <div class="time-kpis">
+              <div><b>${t.qtd_vendedores}</b> vendedor(es)</div>
+              <div><b>${t.total_clientes.toLocaleString('pt-BR')}</b> clientes atendidos</div>
+            </div>
+          </div>
+          <div class="conteudo-time">
+            <div>
+              <div class="secao-mini">Vendedores</div>
+              <table class="vendedores-table">
+                <thead><tr><th>Nome</th><th>RCA</th><th>Clientes</th></tr></thead>
+                <tbody>${vendedoresHtml}</tbody>
+              </table>
+            </div>
+            <div>
+              <div class="secao-mini">Distribuição por região (cidade)</div>
+              <div class="regioes-list">${regioesHtml}</div>
+            </div>
+          </div>
+        </div>
+      `;
+    }).join('');
+  </script>
+</body>
+</html>
