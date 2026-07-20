@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "20/07/2026 12:06",
+  "atualizado_em": "20/07/2026 18:40",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -58,8 +58,8 @@ const VENDAS_ES_DATA = {
         "fat_ant": 284639.24
       },
       "Jul/26": {
-        "fat": 131499.96,
-        "pos": 22,
+        "fat": 190393.24,
+        "pos": 27,
         "fat_ant": 89348.53
       }
     },
@@ -334,8 +334,8 @@ const VENDAS_ES_DATA = {
         "fat_ant": 123102.29
       },
       "Jul/26": {
-        "fat": 219.28,
-        "pos": 2,
+        "fat": 248.44,
+        "pos": 3,
         "fat_ant": 41507.45
       }
     },
@@ -346,7 +346,7 @@ const VENDAS_ES_DATA = {
         "fat_ant": 0.0
       },
       "Jul/26": {
-        "fat": 86655.84,
+        "fat": 87315.12,
         "pos": 8,
         "fat_ant": 1224.0
       }
@@ -14204,6 +14204,596 @@ const VENDAS_ES_DATA = {
           "fantasia": "ROBINSON CRUSOE",
           "qt": 2,
           "valor": 439.0,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82538",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 30,
+          "valor": 6985.8,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82538",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 391.92,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82538",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM SOLIDO OLEO 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 391.92,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82538",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 3,
+          "valor": 698.58,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82538",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82538",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82538",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82538",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.4,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82538",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82538",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM RALADO OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21216",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21216",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 20,
+          "valor": 4657.2,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21216",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM RALADO OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21216",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 391.92,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21216",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM SOLIDO OLEO 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 391.92,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21216",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 3,
+          "valor": 698.58,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21216",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21216",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21216",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21216",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21215",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM RALADO OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21215",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 391.92,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21215",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21215",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21215",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21215",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21215",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM SOLIDO OLEO 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 391.92,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21215",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 3,
+          "valor": 698.58,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21215",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 30,
+          "valor": 6985.8,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21217",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21217",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21217",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21217",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21217",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21217",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM RALADO OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21217",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 3,
+          "valor": 698.58,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21217",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 20,
+          "valor": 4657.2,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21217",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 391.92,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21217",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM SOLIDO OLEO 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 391.92,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "74418",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "74418",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "74418",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM RALADO OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "74418",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 391.92,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "74418",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM SOLIDO OLEO 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 391.92,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "74418",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 3,
+          "valor": 698.58,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "74418",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "74418",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 40,
+          "valor": 9314.4,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "74418",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "74418",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82541",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82541",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82541",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82541",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82541",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82541",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM RALADO OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82541",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 391.92,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82541",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM SOLIDO OLEO 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 391.92,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82541",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 3,
+          "valor": 698.58,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82541",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 30,
+          "valor": 6985.8,
           "offtrade": true
         }
       ]
@@ -83311,6 +83901,16 @@ const VENDAS_ES_DATA = {
           "qt": 1,
           "valor": 29.16,
           "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "83805",
+          "cliente": "SPACE GASTROBAR LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16,
+          "offtrade": true
         }
       ]
     },
@@ -83796,6 +84396,56 @@ const VENDAS_ES_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 116.88,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "20943",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "SAQUE FUJI SECO 740ML",
+          "fantasia": "DIALCOOL",
+          "qt": 6,
+          "valor": 131.88,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "20939",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "SAQUE FUJI SECO 740ML",
+          "fantasia": "DIALCOOL",
+          "qt": 6,
+          "valor": 131.88,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "SAQUE FUJI SECO 740ML",
+          "fantasia": "DIALCOOL",
+          "qt": 6,
+          "valor": 131.88,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "20944",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "SAQUE FUJI SECO 740ML",
+          "fantasia": "DIALCOOL",
+          "qt": 6,
+          "valor": 131.76,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "20942",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "SAQUE FUJI SECO 740ML",
+          "fantasia": "DIALCOOL",
+          "qt": 6,
+          "valor": 131.88,
           "offtrade": true
         }
       ]
