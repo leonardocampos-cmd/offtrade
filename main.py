@@ -58,7 +58,7 @@ def main():
             import subprocess, sys as _sys
             result = subprocess.run(
                 [_sys.executable, "baixar_planilhas_drive.py"],
-                capture_output=True, text=True
+                capture_output=True, text=True, timeout=600
             )
             print(result.stdout)
             if result.returncode != 0:
@@ -88,7 +88,7 @@ def main():
             import subprocess, sys as _sys
             result = subprocess.run(
                 [_sys.executable, "exportacao_metas_gerais.py"],
-                capture_output=True, text=True
+                capture_output=True, text=True, timeout=600
             )
             print(result.stdout)
             if result.returncode != 0:
@@ -103,7 +103,7 @@ def main():
             import subprocess, sys as _sys
             result = subprocess.run(
                 [_sys.executable, "exportacao_industria.py"],
-                capture_output=True, text=True
+                capture_output=True, text=True, timeout=600
             )
             print(result.stdout)
             if result.returncode != 0:
@@ -135,7 +135,7 @@ def main():
             import subprocess, sys as _sys
             result = subprocess.run(
                 [_sys.executable, "campanha_crusoe.py"],
-                capture_output=True, text=True
+                capture_output=True, text=True, timeout=600
             )
             print(result.stdout)
             if result.returncode != 0:
@@ -171,7 +171,7 @@ def main():
             import subprocess, sys as _sys
             result = subprocess.run(
                 [_sys.executable, "exportacao_sp.py"],
-                capture_output=True, text=True
+                capture_output=True, text=True, timeout=600
             )
             print(result.stdout)
             if result.returncode != 0:
@@ -186,7 +186,7 @@ def main():
             import subprocess, sys as _sys
             result = subprocess.run(
                 [_sys.executable, "exportacao_es.py"],
-                capture_output=True, text=True
+                capture_output=True, text=True, timeout=600
             )
             print(result.stdout)
             if result.returncode != 0:
@@ -201,7 +201,7 @@ def main():
             import subprocess, sys as _sys
             result = subprocess.run(
                 [_sys.executable, "exportacao_mg.py"],
-                capture_output=True, text=True
+                capture_output=True, text=True, timeout=600
             )
             print(result.stdout)
             if result.returncode != 0:
@@ -216,7 +216,7 @@ def main():
             import subprocess, sys as _sys
             result = subprocess.run(
                 [_sys.executable, "exportacao_nao_pos_sp.py"],
-                capture_output=True, text=True
+                capture_output=True, text=True, timeout=600
             )
             print(result.stdout)
             if result.returncode != 0:
@@ -231,7 +231,7 @@ def main():
             import subprocess, sys as _sys
             result = subprocess.run(
                 [_sys.executable, "exportacao_nao_pos_es.py"],
-                capture_output=True, text=True
+                capture_output=True, text=True, timeout=600
             )
             print(result.stdout)
             if result.returncode != 0:
@@ -246,7 +246,7 @@ def main():
             import subprocess, sys as _sys
             result = subprocess.run(
                 [_sys.executable, "exportacao_nao_pos_mg.py"],
-                capture_output=True, text=True
+                capture_output=True, text=True, timeout=600
             )
             print(result.stdout)
             if result.returncode != 0:
@@ -261,7 +261,7 @@ def main():
             import subprocess, sys as _sys
             result = subprocess.run(
                 [_sys.executable, "exportacao_clientes_rca.py"],
-                capture_output=True, text=True
+                capture_output=True, text=True, timeout=600
             )
             print(result.stdout)
             if result.returncode != 0:
@@ -276,7 +276,7 @@ def main():
             import subprocess, sys as _sys
             result = subprocess.run(
                 [_sys.executable, "exportacao_588.py"],
-                capture_output=True, text=True
+                capture_output=True, text=True, timeout=600
             )
             print(result.stdout)
             if result.returncode != 0:
@@ -291,7 +291,7 @@ def main():
             import subprocess, sys as _sys
             result = subprocess.run(
                 [_sys.executable, "exportacao_vendedores_auth.py"],
-                capture_output=True, text=True
+                capture_output=True, text=True, timeout=600
             )
             print(result.stdout)
             if result.returncode != 0:
@@ -306,7 +306,7 @@ def main():
             import subprocess, sys as _sys
             result = subprocess.run(
                 [_sys.executable, "exportacao_clientes_inativos.py"],
-                capture_output=True, text=True
+                capture_output=True, text=True, timeout=600
             )
             print(result.stdout)
             if result.returncode != 0:
@@ -321,7 +321,7 @@ def main():
             import subprocess, sys as _sys
             result = subprocess.run(
                 [_sys.executable, "exportacao_inadimplencia.py"],
-                capture_output=True, text=True
+                capture_output=True, text=True, timeout=600
             )
             print(result.stdout)
             if result.returncode != 0:
@@ -336,7 +336,7 @@ def main():
             import subprocess, sys as _sys
             result = subprocess.run(
                 [_sys.executable, "exportacao_estoque.py"],
-                capture_output=True, text=True
+                capture_output=True, text=True, timeout=600
             )
             print(result.stdout)
             if result.returncode != 0:
@@ -352,7 +352,7 @@ def main():
                 import subprocess, sys as _sys
                 result = subprocess.run(
                     [_sys.executable, "alerta_logistica_rj.py"],
-                    capture_output=True
+                    capture_output=True, timeout=600
                 )
                 print(result.stdout.decode("utf-8", errors="replace"))
                 if result.returncode != 0:
@@ -391,7 +391,7 @@ def main():
                     import subprocess, sys as _sys
                     result = subprocess.run(
                         [_sys.executable, script],
-                        capture_output=True, text=True
+                        capture_output=True, text=True, timeout=600
                     )
                     print(result.stdout)
                     if result.returncode != 0:
