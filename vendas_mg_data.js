@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "20/07/2026 18:40",
+  "atualizado_em": "20/07/2026 20:59",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,7 +50,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 134199.02,
+        "fat": 135636.62,
         "pos": 74,
         "fat_ant": 341993.95
       }
@@ -150,8 +150,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 35798.3
       },
       "Jul/26": {
-        "fat": 41159.55,
-        "pos": 5,
+        "fat": 73003.96,
+        "pos": 6,
         "fat_ant": 57054.36
       }
     },
@@ -209,7 +209,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 896376.5
       },
       "Jul/26": {
-        "fat": 344631.54,
+        "fat": 355458.54,
         "pos": 9,
         "fat_ant": 1039602.9
       }
@@ -236,7 +236,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 67814.38,
+        "fat": 69152.38,
         "pos": 47,
         "fat_ant": 85308.22
       }
@@ -51734,6 +51734,36 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "20/07/2026",
+          "codcli": "33925",
+          "cliente": "CULINARIA JAPAN GDA LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 4,
+          "valor": 575.04,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "33024",
+          "cliente": "CASA OUTONO 571 MUSICA E CULTURA LTDA",
+          "produto": "CERVEJA HEINEKEN  LONG ZERO 24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 2,
+          "valor": 287.52,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "33024",
+          "cliente": "CASA OUTONO 571 MUSICA E CULTURA LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 4,
+          "valor": 575.04,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
           "codcli": "31722",
           "cliente": "THAYANE MICELE SILVA MATOS VIANA",
           "produto": "RED BULL 250ML CAIXA C/24 UNID",
@@ -77450,6 +77480,26 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "20/07/2026",
+          "codcli": "33979",
+          "cliente": "BERNARDO GONCALVES DOMINGOS DE ABREU",
+          "produto": "WHISKY WALKER RED LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 36,
+          "valor": 2444.4,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "33979",
+          "cliente": "BERNARDO GONCALVES DOMINGOS DE ABREU",
+          "produto": "VODKA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 1200,
+          "valor": 29400.01,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
           "codcli": "36560",
           "cliente": "ADEGA BEBIDAS LTDA",
           "produto": "VODKA ORLOFF 1L DEST",
@@ -84562,6 +84612,66 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 48,
           "valor": 1435.2,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "PURE MONIN MANGA MARACUJÁ  330ML",
+          "fantasia": "MONIN",
+          "qt": 30,
+          "valor": 735.0,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "PURE MONIN FRUTAS VERMELHAS 330ML",
+          "fantasia": "MONIN",
+          "qt": 30,
+          "valor": 735.0,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "XAROPE  MONIN  MAÇA VERDE 330 ML",
+          "fantasia": "MONIN",
+          "qt": 42,
+          "valor": 1029.0,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "XAROPE MONIN MORANGO 330 ML",
+          "fantasia": "MONIN",
+          "qt": 24,
+          "valor": 588.0,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "XAROPE  MONIN TANGERINA 330 ML",
+          "fantasia": "MONIN",
+          "qt": 60,
+          "valor": 1470.0,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "YVY DESTILADO GIN TERRA LT 710ML",
+          "fantasia": "YVY",
+          "qt": 300,
+          "valor": 6270.0,
           "offtrade": true
         },
         {
@@ -96835,6 +96945,26 @@ const VENDAS_MG_DATA = {
           "qt": 1,
           "valor": 99.9,
           "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "38332",
+          "cliente": "ELEGANCE DRINKS E COQUETEIS LTDA",
+          "produto": "VODKA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 24,
+          "valor": 588.0,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "31893",
+          "cliente": "NOMAD SPORTS COMERCIO LTDA",
+          "produto": "VINHO GRAVEDAD CARMENERE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 20,
+          "valor": 750.0,
+          "offtrade": false
         },
         {
           "data": "20/07/2026",
