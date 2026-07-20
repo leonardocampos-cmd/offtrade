@@ -1,5 +1,6 @@
 #META
 import os
+import threading
 import pandas as pd
 import oracledb
 from sqlalchemy import create_engine
@@ -69,21 +70,55 @@ FONTES_INDISPONIVEIS: list[str] = []
 # assume-se indisponível pro resto do processo e falha na hora.
 _FONTES_MORTAS: dict[int, Exception] = {}
 
-def carregar_dados(query, engine, nome_tabela="tabela", max_tentativas=3):
+def _com_timeout_forcado(func, timeout):
+    """Roda `func` numa thread daemon e desiste após `timeout`s, mesmo que a
+    thread continue pendurada pra sempre. Necessário porque nem o
+    pool_pre_ping do SQLAlchemy nem o expire_time do oracledb bastam quando o
+    Oracle derruba a sessão em silêncio (socket parece vivo, mas o servidor já
+    fechou do lado dele) — o ping de verificação da pool ou a própria query
+    ficam bloqueados num read() que nenhum desses timeouts interrompe. Como a
+    thread é daemon, ela não impede o processo de seguir mesmo que nunca
+    retorne. Travou o pipeline da VPS por horas em 2026-07-20 (stack real
+    confirmado via py-spy: preso em sqlalchemy pool_pre_ping -> oracledb
+    cursor.execute)."""
+    resultado = {}
+
+    def _run():
+        try:
+            resultado['valor'] = func()
+        except Exception as e:
+            resultado['erro'] = e
+
+    t = threading.Thread(target=_run, daemon=True)
+    t.start()
+    t.join(timeout)
+    if t.is_alive():
+        raise TimeoutError(f"Consulta não respondeu em {timeout}s (conexão travada)")
+    if 'erro' in resultado:
+        raise resultado['erro']
+    return resultado['valor']
+
+
+def carregar_dados(query, engine, nome_tabela="tabela", max_tentativas=3, timeout_por_tentativa=90):
     if id(engine) in _FONTES_MORTAS:
         print(f"-> Pulando {nome_tabela}: fonte já indisponível nesta execução")
         raise _FONTES_MORTAS[id(engine)]
+
+    def _fazer_query():
+        with engine.connect() as conn:
+            chunks = []
+            for chunk in pd.read_sql(query, con=conn, chunksize=5000):
+                chunks.append(chunk)
+            df = pd.concat(chunks, ignore_index=True)
+            df.columns = df.columns.str.strip().str.upper()
+            return df
+
     for tentativa in range(1, max_tentativas + 1):
         try:
             print(f"-> Lendo {nome_tabela} (Tentativa {tentativa}/{max_tentativas})...")
-            with engine.connect() as conn:
-                chunks = []
-                for chunk in pd.read_sql(query, con=conn, chunksize=5000):
-                    chunks.append(chunk)
-                df = pd.concat(chunks, ignore_index=True)
-                df.columns = df.columns.str.strip().str.upper()
-                print(f"OK {nome_tabela} carregada!")
-                return df
+            df = _com_timeout_forcado(_fazer_query, timeout_por_tentativa)
+            print(f"OK {nome_tabela} carregada!")
+            return df
         except Exception as e:
             print(f"Erro na {nome_tabela}: {str(e)[:100]}")
             engine.dispose()
