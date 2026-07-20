@@ -37,7 +37,7 @@ TIME_LABEL = {
 }
 
 vendedores_off_trade = carregar_dados("""
-    SELECT CODUSUR, NOME FROM CRC.PCUSUARI WHERE NOME LIKE '%OFF TRADE%'
+    SELECT CODUSUR, NOME FROM CRC.PCUSUARI WHERE NOME LIKE '%OFF TRADE%' AND ESTADO = 'RJ'
 """, engine, "raiox_vendedores_off_trade")
 vendedores_off_trade.columns = vendedores_off_trade.columns.str.upper()
 _nomes_por_rca = {
