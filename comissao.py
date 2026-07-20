@@ -15,12 +15,14 @@ from sqlalchemy import create_engine
 import os
 import numpy as np
 import time
+from dotenv import load_dotenv
 
-oracledb.init_oracle_client(lib_dir=r"C:\instantclient")
+load_dotenv()
+oracledb.init_oracle_client(lib_dir=os.getenv("ORACLE_LIB", r"C:\instantclient"))
 
-user = "vpn"
-password = "vpn2320vpn"
-dsn = "crc_oci" 
+user = os.environ["VPN_USER"]
+password = os.environ["VPN_PASSWORD"]
+dsn = "crc_oci"
 
 engine = create_engine(
     f'oracle+oracledb://{user}:{password}@{dsn}',

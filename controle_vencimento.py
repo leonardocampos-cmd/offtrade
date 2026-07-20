@@ -31,8 +31,8 @@ RUNTIME = os.getenv("OFFTRADE_RUNTIME", "local")
 
 oracledb.init_oracle_client(lib_dir=os.getenv("ORACLE_LIB", "/opt/oracle/instantclient_21_1"))
 
-_user = os.getenv("VPN_USER", "vpn")
-_pass = os.getenv("VPN_PASSWORD", "vpn2320vpn")
+_user = os.environ["VPN_USER"]
+_pass = os.environ["VPN_PASSWORD"]
 _crc_user = os.getenv("CRC_USER", _user)
 _crc_pass = os.getenv("CRC_PASSWORD", _pass)
 

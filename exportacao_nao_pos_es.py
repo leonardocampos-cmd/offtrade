@@ -14,8 +14,8 @@ load_dotenv(Path(__file__).parent / ".env")
 from utils import ORACLE_LIB
 oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
 
-_crc_user = os.getenv("CRC_USER", os.getenv("VPN_USER", "vpn"))
-_crc_pass = os.getenv("CRC_PASSWORD", os.getenv("VPN_PASSWORD", "vpn2320vpn"))
+_crc_user = os.environ["CRC_USER"]
+_crc_pass = os.environ["CRC_PASSWORD"]
 
 engine_es = create_engine(
     f'oracle+oracledb://{_crc_user}:{quote_plus(_crc_pass)}@crc_oci',

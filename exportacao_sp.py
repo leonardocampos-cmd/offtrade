@@ -1,21 +1,25 @@
 # exportacao_sp.py — Gera vendas_sp_data.js a partir do banco SP (spon_oci, schema sp)
 import json
+import os
 import time
 import pandas as pd
 import oracledb
 from sqlalchemy import create_engine
 from datetime import date, datetime
 from pathlib import Path
+from urllib.parse import quote_plus
+from dotenv import load_dotenv
+load_dotenv(Path(__file__).parent / ".env")
 
 from utils import ORACLE_LIB
 oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
 
-user     = "vpn"
-password = "vpn2320vpn"
+user     = os.environ["SPON_USER"]
+password = os.environ["SPON_PASSWORD"]
 dsn_sp   = "spon_oci"
 
 engine_sp = create_engine(
-    f'oracle+oracledb://{user}:{password}@{dsn_sp}',
+    f'oracle+oracledb://{user}:{quote_plus(password)}@{dsn_sp}',
     pool_pre_ping=True,
     pool_recycle=3600,
     connect_args={"expire_time": 2}

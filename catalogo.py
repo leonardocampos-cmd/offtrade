@@ -23,8 +23,8 @@ load_dotenv(Path(__file__).parent / ".env")
 from utils import ORACLE_LIB
 oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
 
-USER     = os.getenv("CRC_USER", os.getenv("VPN_USER", "vpn"))
-PASSWORD = os.getenv("CRC_PASSWORD", os.getenv("VPN_PASSWORD", "vpn2320vpn"))
+USER     = os.environ["CRC_USER"]
+PASSWORD = os.environ["CRC_PASSWORD"]
 DSN      = os.getenv("DSN_RJ", "crc_oci")
 
 engine = create_engine(

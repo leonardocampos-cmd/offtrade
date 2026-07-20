@@ -1,5 +1,5 @@
 # exportacao_nao_pos_mg.py — Clientes nao positivados MG (MGON filiais 1 e 2)
-import json, re, subprocess
+import json, re, subprocess, os
 import pandas as pd
 import oracledb
 from sqlalchemy import create_engine
@@ -9,8 +9,10 @@ from pathlib import Path
 from utils import ORACLE_LIB
 oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
 
+_user = os.environ["VPN_USER"]
+_pass = os.environ["VPN_PASSWORD"]
 engine_mg = create_engine(
-    'oracle+oracledb://vpn:vpn2320vpn@mgon_oci',
+    f'oracle+oracledb://{_user}:{_pass}@{os.getenv("DSN_MG", "mgon_oci")}',
     pool_pre_ping=True, pool_recycle=3600,
     connect_args={"expire_time": 2}
 )

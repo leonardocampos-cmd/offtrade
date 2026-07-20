@@ -1,5 +1,5 @@
 # exportacao_nao_pos_sp.py — gera nao_pos_sp_data.js com clientes e produtos da última compra
-import json, re
+import json, re, os
 import pandas as pd
 import oracledb
 from sqlalchemy import create_engine
@@ -10,8 +10,8 @@ import subprocess, sys
 from utils import ORACLE_LIB
 oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
 
-user     = "vpn"
-password = "vpn2320vpn"
+user     = os.environ["SPON_USER"]
+password = os.environ["SPON_PASSWORD"]
 dsn_sp   = "spon_oci"
 
 engine_sp = create_engine(

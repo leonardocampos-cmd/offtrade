@@ -1,20 +1,24 @@
 # exportacao_588.py — Clientes do RCA 588 que migraram para outro vendedor em Maio/26
 import json
+import os
 import time
 import pandas as pd
 import oracledb
 from sqlalchemy import create_engine
 from datetime import datetime, date
 from pathlib import Path
+from urllib.parse import quote_plus
+from dotenv import load_dotenv
+load_dotenv(Path(__file__).parent / ".env")
 
 from utils import ORACLE_LIB
 oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
 
-user     = "vpn"
-password = "vpn2320vpn"
+user     = os.environ["SPON_USER"]
+password = os.environ["SPON_PASSWORD"]
 
 engine_spon = create_engine(
-    f'oracle+oracledb://{user}:{password}@spon_oci',
+    f'oracle+oracledb://{user}:{quote_plus(password)}@spon_oci',
     pool_pre_ping=True, pool_recycle=3600,
     connect_args={"expire_time": 2}
 )

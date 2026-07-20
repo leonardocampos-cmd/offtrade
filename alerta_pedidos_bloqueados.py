@@ -25,10 +25,12 @@ load_dotenv()
 
 oracledb.init_oracle_client(lib_dir=os.getenv("ORACLE_LIB", "/opt/oracle/instantclient_21_1"))
 
-user     = os.getenv("VPN_USER", "vpn")
-password = os.getenv("VPN_PASSWORD", "vpn2320vpn")
+user     = os.environ["VPN_USER"]
+password = os.environ["VPN_PASSWORD"]
 crc_user = os.getenv("CRC_USER", user)
 crc_pass = os.getenv("CRC_PASSWORD", password)
+spon_user = os.getenv("SPON_USER", user)
+spon_pass = os.getenv("SPON_PASSWORD", password)
 
 TEST_NUMBERS = ["5521970922712", "5521992085320", "5521966632125"]
 

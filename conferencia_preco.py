@@ -1,4 +1,5 @@
 #CONFERENCIA PREÇO
+import os
 import pandas as pd
 import oracledb
 from sqlalchemy import create_engine
@@ -12,8 +13,8 @@ warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl")
 # 1. Configuração de Conexão
 from utils import ORACLE_LIB
 oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
-user = "vpn"
-password = "vpn2320vpn"
+user = os.environ["VPN_USER"]
+password = os.environ["VPN_PASSWORD"]
 dsn = "crc_oci"
 engine = create_engine(
     f'oracle+oracledb://{user}:{password}@{dsn}',

@@ -14,8 +14,8 @@ from meta import engine, engine_theking, engine_castas, engine_garrido, engine_s
 import baixar_planilhas_drive as _bpd
 
 # MGON nao tem engine pronto em meta.py — cria aqui, igual exportacao_metas_gerais.py
-_VPN_USER     = os.getenv("VPN_USER",     "vpn")
-_VPN_PASSWORD = os.getenv("VPN_PASSWORD", "vpn2320vpn")
+_VPN_USER     = os.environ["VPN_USER"]
+_VPN_PASSWORD = os.environ["VPN_PASSWORD"]
 _DSN_MG       = os.getenv("DSN_MG", "mgon_oci")
 engine_mgon = create_engine(
     f"oracle+oracledb://{_VPN_USER}:{quote_plus(_VPN_PASSWORD)}@{_DSN_MG}",

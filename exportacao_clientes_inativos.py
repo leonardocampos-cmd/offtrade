@@ -19,10 +19,10 @@ oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
 
 from sqlalchemy import create_engine, text
 
-_crc_user = os.getenv("CRC_USER", os.getenv("VPN_USER", "vpn"))
-_crc_pass = os.getenv("CRC_PASSWORD", os.getenv("VPN_PASSWORD", "vpn2320vpn"))
-_vpn_user = os.getenv("VPN_USER", "vpn")
-_vpn_pass = os.getenv("VPN_PASSWORD", "vpn2320vpn")
+_crc_user = os.environ["CRC_USER"]
+_crc_pass = os.environ["CRC_PASSWORD"]
+_vpn_user = os.environ["VPN_USER"]
+_vpn_pass = os.environ["VPN_PASSWORD"]
 
 def _eng(dsn, user=None, pwd=None):
     u = user or _vpn_user

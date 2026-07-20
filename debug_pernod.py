@@ -1,11 +1,16 @@
+import os
 import pandas as pd
 import oracledb
 from sqlalchemy import create_engine
 from datetime import date
+from dotenv import load_dotenv
 
-oracledb.init_oracle_client(lib_dir=r"C:\instantclient")
-engine        = create_engine('oracle+oracledb://vpn:vpn2320vpn@crc_oci')
-engine_theking = create_engine('oracle+oracledb://vpn:vpn2320vpn@theking_oci')
+load_dotenv()
+oracledb.init_oracle_client(lib_dir=os.getenv("ORACLE_LIB", r"C:\instantclient"))
+_user = os.environ["VPN_USER"]
+_pass = os.environ["VPN_PASSWORD"]
+engine        = create_engine(f'oracle+oracledb://{_user}:{_pass}@crc_oci')
+engine_theking = create_engine(f'oracle+oracledb://{_user}:{_pass}@theking_oci')
 
 def _query(schema):
     s = schema.upper()

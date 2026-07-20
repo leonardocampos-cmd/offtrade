@@ -24,11 +24,14 @@ from urllib.parse import quote_plus
 from utils import ORACLE_LIB
 oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
 
-USER     = os.getenv("VPN_USER",     "vpn")
-PASSWORD = os.getenv("VPN_PASSWORD", "vpn2320vpn")
+USER     = os.environ["VPN_USER"]
+PASSWORD = os.environ["VPN_PASSWORD"]
 CRC_USER = os.getenv("CRC_USER",     USER)
 CRC_PASS = os.getenv("CRC_PASSWORD", PASSWORD)
 _CRC_DSN = os.getenv("DSN_CRC", "crc_oci")
+SPON_USER = os.getenv("SPON_USER",     USER)
+SPON_PASS = os.getenv("SPON_PASSWORD", PASSWORD)
+_SPON_DSN = os.getenv("DSN_SP", "spon_oci")
 
 # Bases: dsn → lista de (estado, filiais_or_None)
 # RJ e ES compartilham o mesmo Oracle (crc_oci), diferem pela filial
@@ -135,8 +138,12 @@ def _carregar(mes_offset: int = 0, limit_day: bool = False) -> pd.DataFrame:
 
         if dsn not in engines:
             try:
-                _u = CRC_USER if dsn == _CRC_DSN else USER
-                _p = CRC_PASS if dsn == _CRC_DSN else PASSWORD
+                if dsn == _CRC_DSN:
+                    _u, _p = CRC_USER, CRC_PASS
+                elif dsn == _SPON_DSN:
+                    _u, _p = SPON_USER, SPON_PASS
+                else:
+                    _u, _p = USER, PASSWORD
                 engines[dsn] = create_engine(
                     f"oracle+oracledb://{_u}:{quote_plus(_p)}@{dsn}",
                     pool_pre_ping=True,
@@ -177,8 +184,12 @@ def _carregar_totais(mes_offset: int = 0, limit_day: bool = False) -> dict:
             continue
         if dsn not in engines:
             try:
-                _u = CRC_USER if dsn == _CRC_DSN else USER
-                _p = CRC_PASS if dsn == _CRC_DSN else PASSWORD
+                if dsn == _CRC_DSN:
+                    _u, _p = CRC_USER, CRC_PASS
+                elif dsn == _SPON_DSN:
+                    _u, _p = SPON_USER, SPON_PASS
+                else:
+                    _u, _p = USER, PASSWORD
                 engines[dsn] = create_engine(
                     f"oracle+oracledb://{_u}:{quote_plus(_p)}@{dsn}",
                     pool_pre_ping=True, pool_recycle=3600,

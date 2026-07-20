@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import oracledb
 from sqlalchemy import create_engine
@@ -54,8 +55,10 @@ def _caminho_logistica(d: date) -> str:
 
 from utils import ORACLE_LIB
 oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
+_user = os.environ["VPN_USER"]
+_pass = os.environ["VPN_PASSWORD"]
 engine = create_engine(
-    'oracle+oracledb://vpn:vpn2320vpn@crc_oci',
+    f'oracle+oracledb://{_user}:{_pass}@crc_oci',
     pool_pre_ping=True,
     pool_recycle=3600,
     connect_args={"expire_time": 2}
