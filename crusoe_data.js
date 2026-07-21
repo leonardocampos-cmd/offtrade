@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "21/07/2026 14:05",
+  "atualizado_em": "21/07/2026 16:21",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -2443,7 +2443,7 @@ const CRUSOE_DATA = {
           "rca": 378,
           "vendedor": "Fabio Valotti",
           "clientes_gourmet": 0,
-          "faturamento": 129.9,
+          "faturamento": 519.6,
           "faturamento_gourmet": 0.0,
           "pontos_total": 0,
           "vendas": []
