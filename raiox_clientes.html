@@ -61,12 +61,13 @@
       padding: 18px 20px; margin-bottom: 20px; display: flex; gap: 32px; flex-wrap: wrap;
       align-items: center;
     }
-    .filtro-vendedor { margin-left: auto; display: flex; flex-direction: column; gap: 5px; }
+    .filtros-wrap { margin-left: auto; display: flex; gap: 14px; flex-wrap: wrap; }
+    .filtro-vendedor { display: flex; flex-direction: column; gap: 5px; }
     .filtro-vendedor label { font-size: .68rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
     .filtro-vendedor select {
       padding: 8px 12px; border-radius: 8px; border: 1px solid var(--border);
       background: var(--bg); color: var(--text); font-size: .85rem; outline: none;
-      min-width: 220px;
+      min-width: 180px;
     }
     .filtro-vendedor select:focus { border-color: var(--accent); }
     .sem-clientes { color: var(--muted); font-size: .85rem; text-align: center; padding: 24px; grid-column: 1/-1; }
@@ -107,14 +108,57 @@
     document.getElementById('atualizacao').textContent =
       `Atualizado em ${data.atualizado_em} · mês de referência: ${data.mes_atual}`;
 
-    function metricasCanal(c, rca) {
-      if (!rca) return c;
-      return c.por_vendedor && c.por_vendedor[rca] ? c.por_vendedor[rca] : null;
+    let filtroEstado = '', filtroGerente = '', filtroSupervisor = '', filtroVendedor = '';
+
+    function vendedoresFiltrados(estado, gerente, supervisor) {
+      return (data.vendedores || []).filter(v =>
+        (!estado || v.estado === estado) &&
+        (!gerente || v.gerente === gerente) &&
+        (!supervisor || v.supervisor === supervisor)
+      );
     }
 
-    function render(rca) {
+    function chavesAtivas() {
+      let lista = vendedoresFiltrados(filtroEstado, filtroGerente, filtroSupervisor);
+      if (filtroVendedor) lista = lista.filter(v => v.chave === filtroVendedor);
+      return lista.map(v => v.chave);
+    }
+
+    function semFiltroAlgum() {
+      return !filtroEstado && !filtroGerente && !filtroSupervisor && !filtroVendedor;
+    }
+
+    function metricasMescladas(canal, chaves) {
+      const objs = chaves.map(ch => canal.por_vendedor && canal.por_vendedor[ch]).filter(Boolean);
+      if (!objs.length) return null;
+      const total_clientes = objs.reduce((s, o) => s + o.total_clientes, 0);
+      const clientes_ativos_mes = objs.reduce((s, o) => s + o.clientes_ativos_mes, 0);
+      const faturamento_ytd = objs.reduce((s, o) => s + o.faturamento_ytd, 0);
+      const cobertura_pct = total_clientes ? Math.round(clientes_ativos_mes / total_clientes * 1000) / 10 : 0;
+      const por_mes = {};
+      objs.forEach(o => Object.entries(o.por_mes || {}).forEach(([k, v]) => { por_mes[k] = (por_mes[k] || 0) + v; }));
+      const nMeses = Object.keys(por_mes).length || 1;
+      const cidadesMap = {};
+      objs.forEach(o => (o.top_cidades || []).forEach(c => { cidadesMap[c.cidade] = (cidadesMap[c.cidade] || 0) + c.clientes; }));
+      const top_cidades = Object.entries(cidadesMap).sort((a, b) => b[1] - a[1]).slice(0, 10).map(([cidade, clientes]) => ({ cidade, clientes }));
+      return {
+        total_clientes, clientes_ativos_mes, cobertura_pct,
+        faturamento_ytd: Math.round(faturamento_ytd * 100) / 100,
+        media_mensal: Math.round(faturamento_ytd / nMeses * 100) / 100,
+        por_mes, top_cidades,
+      };
+    }
+
+    function metricasCanal(c, chaves, semFiltro) {
+      if (semFiltro) return c;
+      return metricasMescladas(c, chaves);
+    }
+
+    function render() {
+      const chaves = chavesAtivas();
+      const semFiltro = semFiltroAlgum();
       const canaisComDado = data.canais
-        .map(c => ({ ramo: c.ramo, m: metricasCanal(c, rca) }))
+        .map(c => ({ ramo: c.ramo, m: metricasCanal(c, chaves, semFiltro) }))
         .filter(x => x.m);
 
       const totalClientes = canaisComDado.reduce((s, x) => s + x.m.total_clientes, 0);
@@ -126,18 +170,26 @@
         <div><div class="kpi-label">Ativos em ${data.mes_atual}</div><div class="kpi-valor">${totalAtivos.toLocaleString('pt-BR')}</div></div>
         <div><div class="kpi-label">Faturamento YTD</div><div class="kpi-valor">${brl(totalFatYtd)}</div></div>
         <div><div class="kpi-label">Canais mapeados</div><div class="kpi-valor">${canaisComDado.length}</div></div>
-        <div class="filtro-vendedor">
-          <label for="filtro-rca">Filtrar por vendedor</label>
-          <select id="filtro-rca"></select>
+        <div class="filtros-wrap">
+          <div class="filtro-vendedor"><label for="filtro-estado">Estado</label><select id="filtro-estado"></select></div>
+          <div class="filtro-vendedor"><label for="filtro-gerente">Gerente</label><select id="filtro-gerente"></select></div>
+          <div class="filtro-vendedor"><label for="filtro-supervisor">Supervisor</label><select id="filtro-supervisor"></select></div>
+          <div class="filtro-vendedor"><label for="filtro-rca">Vendedor</label><select id="filtro-rca"></select></div>
         </div>
       `;
-      montaFiltro(rca);
+      montaFiltros();
 
       const grid = document.getElementById('grid-canais');
       if (!canaisComDado.length) {
-        grid.innerHTML = '<div class="sem-clientes">Este vendedor não tem clientes em nenhum canal mapeado.</div>';
+        grid.innerHTML = '<div class="sem-clientes">Este filtro não tem clientes em nenhum canal mapeado.</div>';
         return;
       }
+
+      const paramsLink = new URLSearchParams();
+      if (filtroEstado) paramsLink.set('estado', filtroEstado);
+      if (filtroGerente) paramsLink.set('gerente', filtroGerente);
+      if (filtroSupervisor) paramsLink.set('supervisor', filtroSupervisor);
+      if (filtroVendedor) paramsLink.set('vendedor', filtroVendedor);
 
       grid.innerHTML = canaisComDado.map(({ ramo, m }) => {
         const meses = data.meses_com_dado.map(mes => m.por_mes[mes] || 0);
@@ -151,7 +203,7 @@
           <div class="card">
             <div class="card-header">
               <div class="card-ramo">${ramo}</div>
-              <a class="btn-ver" href="raiox_cliente_detalhe.html?ramo=${encodeURIComponent(ramo)}">Ver clientes →</a>
+              <a class="btn-ver" href="raiox_cliente_detalhe.html?ramo=${encodeURIComponent(ramo)}${paramsLink.toString() ? '&' + paramsLink.toString() : ''}">Ver clientes →</a>
             </div>
             <div class="kpi-row">
               <div class="kpi">
@@ -183,16 +235,52 @@
       }).join('');
     }
 
-    function montaFiltro(rcaSelecionado) {
-      const sel = document.getElementById('filtro-rca');
-      const opcoes = ['<option value="">Todos os vendedores</option>']
-        .concat((data.vendedores || []).map(v => `<option value="${v.chave}">${v.nome} (${v.estado} · ${v.rca})</option>`));
-      sel.innerHTML = opcoes.join('');
-      sel.value = rcaSelecionado || '';
-      sel.addEventListener('change', () => render(sel.value));
+    function montaFiltros() {
+      const selEstado = document.getElementById('filtro-estado');
+      const selGerente = document.getElementById('filtro-gerente');
+      const selSupervisor = document.getElementById('filtro-supervisor');
+      const selVendedor = document.getElementById('filtro-rca');
+
+      const estados = [...new Set((data.vendedores || []).map(v => v.estado))].sort();
+      selEstado.innerHTML = ['<option value="">Todos</option>']
+        .concat(estados.map(e => `<option value="${e}">${e}</option>`)).join('');
+      selEstado.value = filtroEstado;
+
+      const gerentes = [...new Set(vendedoresFiltrados(filtroEstado, '', '').map(v => v.gerente))].sort();
+      selGerente.innerHTML = ['<option value="">Todos</option>']
+        .concat(gerentes.map(g => `<option value="${g}">${g}</option>`)).join('');
+      selGerente.value = filtroGerente;
+
+      const supervisores = [...new Set(vendedoresFiltrados(filtroEstado, filtroGerente, '').map(v => v.supervisor))].sort();
+      selSupervisor.innerHTML = ['<option value="">Todos</option>']
+        .concat(supervisores.map(s => `<option value="${s}">${s}</option>`)).join('');
+      selSupervisor.value = filtroSupervisor;
+
+      const vendedores = vendedoresFiltrados(filtroEstado, filtroGerente, filtroSupervisor)
+        .sort((a, b) => a.nome.localeCompare(b.nome));
+      selVendedor.innerHTML = ['<option value="">Todos</option>']
+        .concat(vendedores.map(v => `<option value="${v.chave}">${v.nome} (${v.estado} · ${v.rca})</option>`)).join('');
+      selVendedor.value = filtroVendedor;
+
+      selEstado.addEventListener('change', () => {
+        filtroEstado = selEstado.value; filtroGerente = ''; filtroSupervisor = ''; filtroVendedor = '';
+        render();
+      });
+      selGerente.addEventListener('change', () => {
+        filtroGerente = selGerente.value; filtroSupervisor = ''; filtroVendedor = '';
+        render();
+      });
+      selSupervisor.addEventListener('change', () => {
+        filtroSupervisor = selSupervisor.value; filtroVendedor = '';
+        render();
+      });
+      selVendedor.addEventListener('change', () => {
+        filtroVendedor = selVendedor.value;
+        render();
+      });
     }
 
-    render('');
+    render();
   </script>
 </body>
 </html>

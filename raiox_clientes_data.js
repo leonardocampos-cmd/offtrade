@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const RAIOX_CLIENTES_DATA = {
-  "atualizado_em": "21/07/2026 18:11",
+  "atualizado_em": "21/07/2026 18:40",
   "mes_atual": "07/2026",
   "meses_com_dado": [
     "2026-01",
@@ -16,665 +16,883 @@ const RAIOX_CLIENTES_DATA = {
       "rca": 431,
       "estado": "RJ",
       "chave": "RJ-431",
-      "nome": "ADEILSON GONÇALVEZ"
+      "nome": "ADEILSON GONÇALVEZ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES"
     },
     {
       "rca": 426,
       "estado": "SP",
       "chave": "SP-426",
-      "nome": "ADER ALONSO"
+      "nome": "ADER ALONSO",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 488,
       "estado": "SP",
       "chave": "SP-488",
-      "nome": "ADRIANO VEZZANI"
+      "nome": "ADRIANO VEZZANI",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 440,
       "estado": "ES",
       "chave": "ES-440",
-      "nome": "ALDICEIA PEIXOTO"
+      "nome": "ALDICEIA PEIXOTO",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ"
     },
     {
       "rca": 511,
       "estado": "SP",
       "chave": "SP-511",
-      "nome": "ALEXANDRE SOUZA"
+      "nome": "ALEXANDRE SOUZA",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 483,
       "estado": "SP",
       "chave": "SP-483",
-      "nome": "ALEXANDRE TONON"
+      "nome": "ALEXANDRE TONON",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 174,
       "estado": "RJ",
       "chave": "RJ-174",
-      "nome": "ALLAN PAES"
+      "nome": "ALLAN PAES",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES"
     },
     {
       "rca": 471,
       "estado": "RJ",
       "chave": "RJ-471",
-      "nome": "ANA CLARA FASSANO"
+      "nome": "ANA CLARA FASSANO",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES"
     },
     {
       "rca": 356,
       "estado": "SP",
       "chave": "SP-356",
-      "nome": "ANA PAULA"
+      "nome": "ANA PAULA",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 232,
       "estado": "SP",
       "chave": "SP-232",
-      "nome": "ANDERSON CANAVEIS"
+      "nome": "ANDERSON CANAVEIS",
+      "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 492,
       "estado": "SP",
       "chave": "SP-492",
-      "nome": "ANDERSON MOTTA"
+      "nome": "ANDERSON MOTTA",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 485,
       "estado": "SP",
       "chave": "SP-485",
-      "nome": "ANDRE PINHEIRO"
+      "nome": "ANDRE PINHEIRO",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 391,
       "estado": "SP",
       "chave": "SP-391",
-      "nome": "ANDRE SILVA"
+      "nome": "ANDRE SILVA",
+      "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 153,
       "estado": "RJ",
       "chave": "RJ-153",
-      "nome": "ANGELO NEVES SUZART"
+      "nome": "ANGELO NEVES SUZART",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES"
     },
     {
       "rca": 161,
       "estado": "RJ",
       "chave": "RJ-161",
-      "nome": "ARLLEY FIGUEIREDO"
+      "nome": "ARLLEY FIGUEIREDO",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ"
     },
     {
       "rca": 412,
       "estado": "RJ",
       "chave": "RJ-412",
-      "nome": "BARBARA CABRAL"
+      "nome": "BARBARA CABRAL",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES"
     },
     {
       "rca": 362,
       "estado": "MG",
       "chave": "MG-362",
-      "nome": "BRUNA CASTRO MELLO"
+      "nome": "BRUNA CASTRO MELLO",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON"
     },
     {
       "rca": 425,
       "estado": "SP",
       "chave": "SP-425",
-      "nome": "BRUNO BARBOSA"
+      "nome": "BRUNO BARBOSA",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 458,
       "estado": "ES",
       "chave": "ES-458",
-      "nome": "BRUNO COSMO"
+      "nome": "BRUNO COSMO",
+      "supervisor": "SUPERVISOR OFF - ES",
+      "gerente": "EROCLES OLIVEIRA"
     },
     {
       "rca": 399,
       "estado": "SP",
       "chave": "SP-399",
-      "nome": "BRYAN PALOPOLI"
+      "nome": "BRYAN PALOPOLI",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 371,
       "estado": "SP",
       "chave": "SP-371",
-      "nome": "CARLOS DE ALMEIDA"
+      "nome": "CARLOS DE ALMEIDA",
+      "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 376,
       "estado": "ES",
       "chave": "ES-376",
-      "nome": "CARLOS TERRA"
+      "nome": "CARLOS TERRA",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 310,
       "estado": "SP",
       "chave": "SP-310",
-      "nome": "CARLOS TERRA"
+      "nome": "CARLOS TERRA",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 493,
       "estado": "SP",
       "chave": "SP-493",
-      "nome": "CAROLINA SOUZA"
+      "nome": "CAROLINA SOUZA",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 498,
       "estado": "SP",
       "chave": "SP-498",
-      "nome": "CELSO OLIVEIRA"
+      "nome": "CELSO OLIVEIRA",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 465,
       "estado": "SP",
       "chave": "SP-465",
-      "nome": "CIARA PADULA"
+      "nome": "CIARA PADULA",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 170,
       "estado": "RJ",
       "chave": "RJ-170",
-      "nome": "CLAUDIO NOBREGA"
+      "nome": "CLAUDIO NOBREGA",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ"
     },
     {
       "rca": 460,
       "estado": "SP",
       "chave": "SP-460",
-      "nome": "CRISTIANE MORAIS"
+      "nome": "CRISTIANE MORAIS",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 466,
       "estado": "SP",
       "chave": "SP-466",
-      "nome": "DANIELLE DOS SANTOS"
+      "nome": "DANIELLE DOS SANTOS",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 238,
       "estado": "RJ",
       "chave": "RJ-238",
-      "nome": "DANIELLE MOURA"
+      "nome": "DANIELLE MOURA",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES"
     },
     {
       "rca": 496,
       "estado": "SP",
       "chave": "SP-496",
-      "nome": "DEMETRIUS PELEGRINI"
+      "nome": "DEMETRIUS PELEGRINI",
+      "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 144,
       "estado": "RJ",
       "chave": "RJ-144",
-      "nome": "DIOGO RAPOSO"
+      "nome": "DIOGO RAPOSO",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES"
     },
     {
       "rca": 260,
       "estado": "ES",
       "chave": "ES-260",
-      "nome": "DOUGLAS SCHADE"
+      "nome": "DOUGLAS SCHADE",
+      "supervisor": "SUPERVISOR OFF - ES",
+      "gerente": "EROCLES OLIVEIRA"
     },
     {
       "rca": 490,
       "estado": "SP",
       "chave": "SP-490",
-      "nome": "DOUGLAS TEIXEIRA"
+      "nome": "DOUGLAS TEIXEIRA",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 495,
       "estado": "SP",
       "chave": "SP-495",
-      "nome": "EDUARDO COUTO"
+      "nome": "EDUARDO COUTO",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 462,
       "estado": "SP",
       "chave": "SP-462",
-      "nome": "ELIZANGELA RODRIGUES"
+      "nome": "ELIZANGELA RODRIGUES",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 230,
       "estado": "ES",
       "chave": "ES-230",
-      "nome": "ENEIVA RODRIGUES"
+      "nome": "ENEIVA RODRIGUES",
+      "supervisor": "SUPERVISOR BALCAO - ES",
+      "gerente": "EROCLES OLIVEIRA"
     },
     {
       "rca": 388,
       "estado": "ES",
       "chave": "ES-388",
-      "nome": "EUDES MORGAN"
+      "nome": "EUDES MORGAN",
+      "supervisor": "SUPERVISOR OFF - ES",
+      "gerente": "EROCLES OLIVEIRA"
     },
     {
       "rca": 378,
       "estado": "RJ",
       "chave": "RJ-378",
-      "nome": "FABIO VALOTTI"
+      "nome": "FABIO VALOTTI",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES"
     },
     {
       "rca": 489,
       "estado": "SP",
       "chave": "SP-489",
-      "nome": "FERNANDO BERTIN"
+      "nome": "FERNANDO BERTIN",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 343,
       "estado": "MG",
       "chave": "MG-343",
-      "nome": "FERNANDO RISSON"
+      "nome": "FERNANDO RISSON",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON"
     },
     {
       "rca": 472,
       "estado": "SP",
       "chave": "SP-472",
-      "nome": "FLAVIO RIBEIRO"
+      "nome": "FLAVIO RIBEIRO",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 474,
       "estado": "SP",
       "chave": "SP-474",
-      "nome": "FRANCIS SILVA"
+      "nome": "FRANCIS SILVA",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 370,
       "estado": "ES",
       "chave": "ES-370",
-      "nome": "FRANZ BENEVIDES"
+      "nome": "FRANZ BENEVIDES",
+      "supervisor": "SUPERVISOR HIBRIDO ES",
+      "gerente": "EROCLES OLIVEIRA"
     },
     {
       "rca": 415,
       "estado": "RJ",
       "chave": "RJ-415",
-      "nome": "FÁBIO OLIVEIRA"
+      "nome": "FÁBIO OLIVEIRA",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ"
     },
     {
       "rca": 491,
       "estado": "SP",
       "chave": "SP-491",
-      "nome": "GILSON DE OLIVEIRA"
+      "nome": "GILSON DE OLIVEIRA",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 504,
       "estado": "SP",
       "chave": "SP-504",
-      "nome": "GILVAN AMORIM"
+      "nome": "GILVAN AMORIM",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 159,
       "estado": "RJ",
       "chave": "RJ-159",
-      "nome": "GISELLE BARFER"
+      "nome": "GISELLE BARFER",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ"
     },
     {
       "rca": 502,
       "estado": "SP",
       "chave": "SP-502",
-      "nome": "GUSTAVO MARTINS"
+      "nome": "GUSTAVO MARTINS",
+      "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 513,
       "estado": "SP",
       "chave": "SP-513",
-      "nome": "IGOR OLIVEIRA"
+      "nome": "IGOR OLIVEIRA",
+      "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 460,
       "estado": "RJ",
       "chave": "RJ-460",
-      "nome": "IVANILDO MAIA"
+      "nome": "IVANILDO MAIA",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES"
     },
     {
       "rca": 336,
       "estado": "ES",
       "chave": "ES-336",
-      "nome": "JEAN MENEZES"
+      "nome": "JEAN MENEZES",
+      "supervisor": "SUPERVISOR HIBRIDO ES",
+      "gerente": "EROCLES OLIVEIRA"
     },
     {
       "rca": 312,
       "estado": "SP",
       "chave": "SP-312",
-      "nome": "JOAO LUPORINI"
+      "nome": "JOAO LUPORINI",
+      "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 172,
       "estado": "RJ",
       "chave": "RJ-172",
-      "nome": "JOAO PEDRO"
+      "nome": "JOAO PEDRO",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ"
     },
     {
       "rca": 435,
       "estado": "ES",
       "chave": "ES-435",
-      "nome": "JOAO VICTOR DA ROCHA"
+      "nome": "JOAO VICTOR DA ROCHA",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ"
     },
     {
       "rca": 516,
       "estado": "SP",
       "chave": "SP-516",
-      "nome": "JOAQUIM ANGELO"
+      "nome": "JOAQUIM ANGELO",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 379,
       "estado": "RJ",
       "chave": "RJ-379",
-      "nome": "JORGE MACIEL"
+      "nome": "JORGE MACIEL",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES"
     },
     {
       "rca": 158,
       "estado": "RJ",
       "chave": "RJ-158",
-      "nome": "JOSE MARCELO CARDOSO"
+      "nome": "JOSE MARCELO CARDOSO",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES"
     },
     {
       "rca": 499,
       "estado": "SP",
       "chave": "SP-499",
-      "nome": "JOSE SILVA"
+      "nome": "JOSE SILVA",
+      "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 343,
       "estado": "ES",
       "chave": "ES-343",
-      "nome": "JOSIETH LIMA"
+      "nome": "JOSIETH LIMA",
+      "supervisor": "SUPERVISOR HIBRIDO ES",
+      "gerente": "EROCLES OLIVEIRA"
     },
     {
       "rca": 327,
       "estado": "MG",
       "chave": "MG-327",
-      "nome": "JOÃO SANTOS"
+      "nome": "JOÃO SANTOS",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON"
     },
     {
       "rca": 420,
       "estado": "RJ",
       "chave": "RJ-420",
-      "nome": "KELLY RAMOS"
+      "nome": "KELLY RAMOS",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES"
     },
     {
       "rca": 360,
       "estado": "MG",
       "chave": "MG-360",
-      "nome": "LEANDRO OLIVEIRA"
+      "nome": "LEANDRO OLIVEIRA",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON"
     },
     {
       "rca": 450,
       "estado": "RJ",
       "chave": "RJ-450",
-      "nome": "LEANDRO SOUZA"
+      "nome": "LEANDRO SOUZA",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES"
     },
     {
       "rca": 486,
       "estado": "SP",
       "chave": "SP-486",
-      "nome": "LEONARDO FLOREZI"
+      "nome": "LEONARDO FLOREZI",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 475,
       "estado": "SP",
       "chave": "SP-475",
-      "nome": "LUCAS BUENO"
+      "nome": "LUCAS BUENO",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 505,
       "estado": "SP",
       "chave": "SP-505",
-      "nome": "LUCELIA BARROS"
+      "nome": "LUCELIA BARROS",
+      "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 477,
       "estado": "SP",
       "chave": "SP-477",
-      "nome": "LUCIANO TOSCHI"
+      "nome": "LUCIANO TOSCHI",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 497,
       "estado": "SP",
       "chave": "SP-497",
-      "nome": "LUIS MACHADO"
+      "nome": "LUIS MACHADO",
+      "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 542,
       "estado": "MG",
       "chave": "MG-542",
-      "nome": "LUIZ FERNANDO SALGADO"
+      "nome": "LUIZ FERNANDO SALGADO",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON"
     },
     {
       "rca": 487,
       "estado": "SP",
       "chave": "SP-487",
-      "nome": "LUIZ RIGLER"
+      "nome": "LUIZ RIGLER",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 433,
       "estado": "SP",
       "chave": "SP-433",
-      "nome": "MANUELA ZAPPACOSTA"
+      "nome": "MANUELA ZAPPACOSTA",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 335,
       "estado": "ES",
       "chave": "ES-335",
-      "nome": "MARA DEPOLLI"
+      "nome": "MARA DEPOLLI",
+      "supervisor": "SUPERVISOR HIBRIDO ES",
+      "gerente": "EROCLES OLIVEIRA"
     },
     {
       "rca": 508,
       "estado": "ES",
       "chave": "ES-508",
-      "nome": "MARCELO DE SOUZA"
+      "nome": "MARCELO DE SOUZA",
+      "supervisor": "SUPERVISOR OFF - ES",
+      "gerente": "EROCLES OLIVEIRA"
     },
     {
       "rca": 473,
       "estado": "SP",
       "chave": "SP-473",
-      "nome": "MARCELO PEREIRA"
+      "nome": "MARCELO PEREIRA",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 438,
       "estado": "SP",
       "chave": "SP-438",
-      "nome": "MARCIA RITA"
+      "nome": "MARCIA RITA",
+      "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 318,
       "estado": "SP",
       "chave": "SP-318",
-      "nome": "MARCUS TANAMACHI"
+      "nome": "MARCUS TANAMACHI",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 275,
       "estado": "RJ",
       "chave": "RJ-275",
-      "nome": "MARIA LUIZA"
+      "nome": "MARIA LUIZA",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES"
     },
     {
       "rca": 478,
       "estado": "SP",
       "chave": "SP-478",
-      "nome": "MARIA PEREIRA"
+      "nome": "MARIA PEREIRA",
+      "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 156,
       "estado": "RJ",
       "chave": "RJ-156",
-      "nome": "MARILENA TRAGEL"
+      "nome": "MARILENA TRAGEL",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES"
     },
     {
       "rca": 428,
       "estado": "SP",
       "chave": "SP-428",
-      "nome": "MARIO RAFAEL FERRARI"
+      "nome": "MARIO RAFAEL FERRARI",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 467,
       "estado": "SP",
       "chave": "SP-467",
-      "nome": "MARLENE RODRIGUES"
+      "nome": "MARLENE RODRIGUES",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 439,
       "estado": "RJ",
       "chave": "RJ-439",
-      "nome": "MATEUS CARDOSO"
+      "nome": "MATEUS CARDOSO",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES"
     },
     {
       "rca": 354,
       "estado": "MG",
       "chave": "MG-354",
-      "nome": "MATHEUS DE SOUZA"
+      "nome": "MATHEUS DE SOUZA",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON"
     },
     {
       "rca": 405,
       "estado": "RJ",
       "chave": "RJ-405",
-      "nome": "MAYCON COELHO FERRAZ"
+      "nome": "MAYCON COELHO FERRAZ",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ"
     },
     {
       "rca": 419,
       "estado": "RJ",
       "chave": "RJ-419",
-      "nome": "NÁTALI DE OLIVEIRA"
+      "nome": "NÁTALI DE OLIVEIRA",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES"
     },
     {
       "rca": 469,
       "estado": "SP",
       "chave": "SP-469",
-      "nome": "PATRICIA RAMOS"
+      "nome": "PATRICIA RAMOS",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 464,
       "estado": "SP",
       "chave": "SP-464",
-      "nome": "PATRICIO MASSAGARDI"
+      "nome": "PATRICIO MASSAGARDI",
+      "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 471,
       "estado": "SP",
       "chave": "SP-471",
-      "nome": "PAULO JUNIOR"
+      "nome": "PAULO JUNIOR",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 500,
       "estado": "SP",
       "chave": "SP-500",
-      "nome": "PAULO MOREIRA"
+      "nome": "PAULO MOREIRA",
+      "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 470,
       "estado": "SP",
       "chave": "SP-470",
-      "nome": "PRISCILLA BONACHE"
+      "nome": "PRISCILLA BONACHE",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 515,
       "estado": "SP",
       "chave": "SP-515",
-      "nome": "RAFAEL REIS"
+      "nome": "RAFAEL REIS",
+      "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 155,
       "estado": "RJ",
       "chave": "RJ-155",
-      "nome": "RAPHAEL SANTOS"
+      "nome": "RAPHAEL SANTOS",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ"
     },
     {
       "rca": 442,
       "estado": "ES",
       "chave": "ES-442",
-      "nome": "RAQUEL ARAUJO"
+      "nome": "RAQUEL ARAUJO",
+      "supervisor": "SUPERVISOR HIBRIDO ES",
+      "gerente": "EROCLES OLIVEIRA"
     },
     {
       "rca": 468,
       "estado": "SP",
       "chave": "SP-468",
-      "nome": "RENATO JUNIOR"
+      "nome": "RENATO JUNIOR",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 342,
       "estado": "ES",
       "chave": "ES-342",
-      "nome": "RICARDO CLAUDIO"
+      "nome": "RICARDO CLAUDIO",
+      "supervisor": "SUPERVISOR HIBRIDO ES",
+      "gerente": "EROCLES OLIVEIRA"
     },
     {
       "rca": 509,
       "estado": "SP",
       "chave": "SP-509",
-      "nome": "ROBERTO DA SILVA"
+      "nome": "ROBERTO DA SILVA",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 463,
       "estado": "SP",
       "chave": "SP-463",
-      "nome": "ROBERTO DOS SANTOS"
+      "nome": "ROBERTO DOS SANTOS",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 317,
       "estado": "SP",
       "chave": "SP-317",
-      "nome": "ROBSON DA SILVA"
+      "nome": "ROBSON DA SILVA",
+      "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 476,
       "estado": "SP",
       "chave": "SP-476",
-      "nome": "RODRIGO LIMA"
+      "nome": "RODRIGO LIMA",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 331,
       "estado": "MG",
       "chave": "MG-331",
-      "nome": "SAVIO NETO"
+      "nome": "SAVIO NETO",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON"
     },
     {
       "rca": 461,
       "estado": "SP",
       "chave": "SP-461",
-      "nome": "SUELY SANTOS"
+      "nome": "SUELY SANTOS",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 344,
       "estado": "MG",
       "chave": "MG-344",
-      "nome": "TIAGO ANDRADE"
+      "nome": "TIAGO ANDRADE",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON"
     },
     {
       "rca": 91,
       "estado": "RJ",
       "chave": "RJ-91",
-      "nome": "VIVIANI ALVES"
+      "nome": "VIVIANI ALVES",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES"
     },
     {
       "rca": 119,
       "estado": "RJ",
       "chave": "RJ-119",
-      "nome": "VIVIANI ALVES"
+      "nome": "VIVIANI ALVES",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES"
     },
     {
       "rca": 429,
       "estado": "SP",
       "chave": "SP-429",
-      "nome": "WANDO MACHADO"
+      "nome": "WANDO MACHADO",
+      "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 349,
       "estado": "MG",
       "chave": "MG-349",
-      "nome": "WILLIAM ALVES DA SILVA"
+      "nome": "WILLIAM ALVES DA SILVA",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON"
     },
     {
       "rca": 512,
       "estado": "SP",
       "chave": "SP-512",
-      "nome": "WILLIAM GONCALVES"
+      "nome": "WILLIAM GONCALVES",
+      "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 241,
       "estado": "RJ",
       "chave": "RJ-241",
-      "nome": "ZEINALDO DE OLIVEIRA"
+      "nome": "ZEINALDO DE OLIVEIRA",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ"
     }
   ],
   "canais": [
     {
       "ramo": "MERCADO",
       "total_clientes": 1743,
-      "clientes_ativos_mes": 523,
-      "cobertura_pct": 30.0,
-      "faturamento_ytd": 48833159.32,
-      "media_mensal": 6976165.62,
+      "clientes_ativos_mes": 524,
+      "cobertura_pct": 30.1,
+      "faturamento_ytd": 48835416.62,
+      "media_mensal": 6976488.09,
       "por_mes": {
         "2026-01": 5658280.31,
         "2026-02": 5064593.76,
@@ -682,7 +900,7 @@ const RAIOX_CLIENTES_DATA = {
         "2026-04": 6675562.52,
         "2026-05": 9080246.9,
         "2026-06": 9458937.37,
-        "2026-07": 4545105.01
+        "2026-07": 4547362.31
       },
       "top_cidades": [
         {
@@ -1637,10 +1855,10 @@ const RAIOX_CLIENTES_DATA = {
         },
         "RJ-379": {
           "total_clientes": 55,
-          "clientes_ativos_mes": 26,
-          "cobertura_pct": 47.3,
-          "faturamento_ytd": 633230.92,
-          "media_mensal": 90461.56,
+          "clientes_ativos_mes": 27,
+          "cobertura_pct": 49.1,
+          "faturamento_ytd": 635128.42,
+          "media_mensal": 90732.63,
           "por_mes": {
             "2026-01": 33355.37,
             "2026-02": 28592.39,
@@ -1648,7 +1866,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 32518.65,
             "2026-05": 41135.14,
             "2026-06": 51674.87,
-            "2026-07": 34091.61
+            "2026-07": 35989.11
           },
           "top_cidades": [
             {
@@ -1922,8 +2140,8 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 23,
           "clientes_ativos_mes": 14,
           "cobertura_pct": 60.9,
-          "faturamento_ytd": 104152.7,
-          "media_mensal": 14878.96,
+          "faturamento_ytd": 104512.5,
+          "media_mensal": 14930.36,
           "por_mes": {
             "2026-01": 1793.0,
             "2026-02": 2313.6,
@@ -1931,7 +2149,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 21208.44,
             "2026-05": 31992.95,
             "2026-06": 19720.62,
-            "2026-07": 10056.44
+            "2026-07": 10416.24
           },
           "top_cidades": [
             {
@@ -3787,8 +4005,8 @@ const RAIOX_CLIENTES_DATA = {
       "total_clientes": 357,
       "clientes_ativos_mes": 85,
       "cobertura_pct": 23.8,
-      "faturamento_ytd": 10976939.79,
-      "media_mensal": 1568134.26,
+      "faturamento_ytd": 10987357.23,
+      "media_mensal": 1569622.46,
       "por_mes": {
         "2026-01": 1858689.74,
         "2026-02": 2296586.72,
@@ -3796,7 +4014,7 @@ const RAIOX_CLIENTES_DATA = {
         "2026-04": 1962964.84,
         "2026-05": 1527700.14,
         "2026-06": 1356528.9,
-        "2026-07": 366449.03
+        "2026-07": 376866.47
       },
       "top_cidades": [
         {
@@ -3893,8 +4111,8 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 255,
           "clientes_ativos_mes": 41,
           "cobertura_pct": 16.1,
-          "faturamento_ytd": 7916855.78,
-          "media_mensal": 1130979.4,
+          "faturamento_ytd": 7927273.22,
+          "media_mensal": 1132467.6,
           "por_mes": {
             "2026-01": 1266429.6,
             "2026-02": 1861613.2,
@@ -3902,7 +4120,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 1270719.2,
             "2026-05": 1013656.98,
             "2026-06": 851296.96,
-            "2026-07": 231739.4
+            "2026-07": 242156.84
           },
           "top_cidades": [
             {
@@ -4073,8 +4291,8 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 23,
           "clientes_ativos_mes": 8,
           "cobertura_pct": 34.8,
-          "faturamento_ytd": 3852311.2,
-          "media_mensal": 550330.17,
+          "faturamento_ytd": 3862728.64,
+          "media_mensal": 551818.38,
           "por_mes": {
             "2026-01": 484543.74,
             "2026-02": 475752.9,
@@ -4082,7 +4300,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 760557.96,
             "2026-05": 536782.84,
             "2026-06": 896156.1,
-            "2026-07": 135976.68
+            "2026-07": 146394.12
           },
           "top_cidades": [
             {
@@ -5852,10 +6070,10 @@ const RAIOX_CLIENTES_DATA = {
     {
       "ramo": "RESTAURANTE",
       "total_clientes": 332,
-      "clientes_ativos_mes": 144,
-      "cobertura_pct": 43.4,
-      "faturamento_ytd": 2413593.83,
-      "media_mensal": 344799.12,
+      "clientes_ativos_mes": 145,
+      "cobertura_pct": 43.7,
+      "faturamento_ytd": 2418087.51,
+      "media_mensal": 345441.07,
       "por_mes": {
         "2026-01": 452584.44,
         "2026-02": 325797.56,
@@ -5863,7 +6081,7 @@ const RAIOX_CLIENTES_DATA = {
         "2026-04": 354449.23,
         "2026-05": 356241.78,
         "2026-06": 347332.7,
-        "2026-07": 211781.74
+        "2026-07": 216275.42
       },
       "top_cidades": [
         {
@@ -6282,10 +6500,10 @@ const RAIOX_CLIENTES_DATA = {
         },
         "RJ-155": {
           "total_clientes": 37,
-          "clientes_ativos_mes": 18,
-          "cobertura_pct": 48.6,
-          "faturamento_ytd": 423694.29,
-          "media_mensal": 60527.76,
+          "clientes_ativos_mes": 19,
+          "cobertura_pct": 51.4,
+          "faturamento_ytd": 424112.05,
+          "media_mensal": 60587.44,
           "por_mes": {
             "2026-01": 91921.98,
             "2026-02": 75786.33,
@@ -6293,7 +6511,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 67643.93,
             "2026-05": 50065.18,
             "2026-06": 52976.06,
-            "2026-07": 27279.0
+            "2026-07": 27696.76
           },
           "top_cidades": [
             {
@@ -6344,8 +6562,8 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 42,
           "clientes_ativos_mes": 25,
           "cobertura_pct": 59.5,
-          "faturamento_ytd": 343048.88,
-          "media_mensal": 49006.98,
+          "faturamento_ytd": 347124.8,
+          "media_mensal": 49589.26,
           "por_mes": {
             "2026-01": 93143.58,
             "2026-02": 42762.99,
@@ -6353,7 +6571,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 32348.94,
             "2026-05": 32850.13,
             "2026-06": 48841.08,
-            "2026-07": 37652.54
+            "2026-07": 41728.46
           },
           "top_cidades": [
             {
@@ -7751,8 +7969,8 @@ const RAIOX_CLIENTES_DATA = {
       "total_clientes": 143,
       "clientes_ativos_mes": 54,
       "cobertura_pct": 37.8,
-      "faturamento_ytd": 1934463.37,
-      "media_mensal": 276351.91,
+      "faturamento_ytd": 1947879.37,
+      "media_mensal": 278268.48,
       "por_mes": {
         "2026-01": 408557.09,
         "2026-02": 206695.34,
@@ -7760,7 +7978,7 @@ const RAIOX_CLIENTES_DATA = {
         "2026-04": 125499.11,
         "2026-05": 337479.68,
         "2026-06": 442588.75,
-        "2026-07": 325990.29
+        "2026-07": 339406.29
       },
       "top_cidades": [
         {
@@ -8026,15 +8244,15 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 4,
           "clientes_ativos_mes": 2,
           "cobertura_pct": 50.0,
-          "faturamento_ytd": 130097.3,
-          "media_mensal": 21682.88,
+          "faturamento_ytd": 143513.3,
+          "media_mensal": 23918.88,
           "por_mes": {
             "2026-01": 13403.7,
             "2026-02": 12235.8,
             "2026-04": 266.7,
             "2026-05": 51870.6,
             "2026-06": 36120.9,
-            "2026-07": 16199.6
+            "2026-07": 29615.6
           },
           "top_cidades": [
             {
@@ -9725,10 +9943,10 @@ const RAIOX_CLIENTES_DATA = {
     {
       "ramo": "MINI-MERCADO",
       "total_clientes": 243,
-      "clientes_ativos_mes": 86,
-      "cobertura_pct": 35.4,
-      "faturamento_ytd": 985364.12,
-      "media_mensal": 140766.3,
+      "clientes_ativos_mes": 88,
+      "cobertura_pct": 36.2,
+      "faturamento_ytd": 988487.92,
+      "media_mensal": 141212.56,
       "por_mes": {
         "2026-01": 51675.94,
         "2026-02": 83104.85,
@@ -9736,7 +9954,7 @@ const RAIOX_CLIENTES_DATA = {
         "2026-04": 197565.11,
         "2026-05": 135611.06,
         "2026-06": 184196.03,
-        "2026-07": 220064.75
+        "2026-07": 223188.55
       },
       "top_cidades": [
         {
@@ -9940,10 +10158,10 @@ const RAIOX_CLIENTES_DATA = {
         },
         "RJ-379": {
           "total_clientes": 21,
-          "clientes_ativos_mes": 9,
-          "cobertura_pct": 42.9,
-          "faturamento_ytd": 68362.24,
-          "media_mensal": 9766.03,
+          "clientes_ativos_mes": 11,
+          "cobertura_pct": 52.4,
+          "faturamento_ytd": 71486.04,
+          "media_mensal": 10212.29,
           "por_mes": {
             "2026-01": 17175.85,
             "2026-02": 6288.56,
@@ -9951,7 +10169,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 10397.4,
             "2026-05": 6961.48,
             "2026-06": 9916.2,
-            "2026-07": 11926.74
+            "2026-07": 15050.54
           },
           "top_cidades": [
             {
@@ -11055,8 +11273,8 @@ const RAIOX_CLIENTES_DATA = {
       "total_clientes": 88,
       "clientes_ativos_mes": 35,
       "cobertura_pct": 39.8,
-      "faturamento_ytd": 659825.36,
-      "media_mensal": 94260.77,
+      "faturamento_ytd": 661383.44,
+      "media_mensal": 94483.35,
       "por_mes": {
         "2026-01": 143865.61,
         "2026-02": 242860.56,
@@ -11064,7 +11282,7 @@ const RAIOX_CLIENTES_DATA = {
         "2026-04": 40164.7,
         "2026-05": 50953.42,
         "2026-06": 80689.24,
-        "2026-07": 47504.6
+        "2026-07": 49062.68
       },
       "top_cidades": [
         {
@@ -11596,8 +11814,8 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 8,
           "clientes_ativos_mes": 4,
           "cobertura_pct": 50.0,
-          "faturamento_ytd": 162905.61,
-          "media_mensal": 23272.23,
+          "faturamento_ytd": 164463.69,
+          "media_mensal": 23494.81,
           "por_mes": {
             "2026-01": 49824.12,
             "2026-02": 48618.18,
@@ -11605,7 +11823,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 13673.0,
             "2026-05": 20522.0,
             "2026-06": 10271.19,
-            "2026-07": 9112.58
+            "2026-07": 10670.66
           },
           "top_cidades": [
             {
@@ -11786,10 +12004,10 @@ const RAIOX_CLIENTES_DATA = {
     {
       "ramo": "PADARIA",
       "total_clientes": 144,
-      "clientes_ativos_mes": 14,
-      "cobertura_pct": 9.7,
-      "faturamento_ytd": 389685.35,
-      "media_mensal": 55669.34,
+      "clientes_ativos_mes": 15,
+      "cobertura_pct": 10.4,
+      "faturamento_ytd": 405965.21,
+      "media_mensal": 57995.03,
       "por_mes": {
         "2026-01": 50747.09,
         "2026-02": 40706.89,
@@ -11797,7 +12015,7 @@ const RAIOX_CLIENTES_DATA = {
         "2026-04": 81903.38,
         "2026-05": 52739.69,
         "2026-06": 50769.01,
-        "2026-07": 26298.57
+        "2026-07": 42578.43
       },
       "top_cidades": [
         {
@@ -12019,16 +12237,17 @@ const RAIOX_CLIENTES_DATA = {
         },
         "MG-354": {
           "total_clientes": 2,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 16556.22,
-          "media_mensal": 3311.24,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 32836.08,
+          "media_mensal": 5472.68,
           "por_mes": {
             "2026-01": 8932.74,
             "2026-02": 569.4,
             "2026-04": 1582.2,
             "2026-05": 2535.3,
-            "2026-06": 2936.58
+            "2026-06": 2936.58,
+            "2026-07": 16279.86
           },
           "top_cidades": [
             {
@@ -13755,10 +13974,10 @@ const RAIOX_CLIENTES_DATA = {
     {
       "ramo": "HOTELARIA",
       "total_clientes": 21,
-      "clientes_ativos_mes": 6,
-      "cobertura_pct": 28.6,
-      "faturamento_ytd": 210369.0,
-      "media_mensal": 30052.71,
+      "clientes_ativos_mes": 7,
+      "cobertura_pct": 33.3,
+      "faturamento_ytd": 210648.2,
+      "media_mensal": 30092.6,
       "por_mes": {
         "2026-01": 34085.72,
         "2026-02": 37404.24,
@@ -13766,7 +13985,7 @@ const RAIOX_CLIENTES_DATA = {
         "2026-04": 31678.72,
         "2026-05": 42614.33,
         "2026-06": 25970.68,
-        "2026-07": 7795.32
+        "2026-07": 8074.52
       },
       "top_cidades": [
         {
@@ -13907,10 +14126,10 @@ const RAIOX_CLIENTES_DATA = {
         },
         "RJ-155": {
           "total_clientes": 5,
-          "clientes_ativos_mes": 4,
-          "cobertura_pct": 80.0,
-          "faturamento_ytd": 59326.0,
-          "media_mensal": 8475.14,
+          "clientes_ativos_mes": 5,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 59605.2,
+          "media_mensal": 8515.03,
           "por_mes": {
             "2026-01": 17111.0,
             "2026-02": 8758.6,
@@ -13918,7 +14137,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 6017.7,
             "2026-05": 8345.7,
             "2026-06": 2966.6,
-            "2026-07": 4443.8
+            "2026-07": 4723.0
           },
           "top_cidades": [
             {
@@ -14535,10 +14754,10 @@ const RAIOX_CLIENTES_DATA = {
     {
       "ramo": "SERVIÇOS",
       "total_clientes": 54,
-      "clientes_ativos_mes": 14,
-      "cobertura_pct": 25.9,
-      "faturamento_ytd": 170628.16,
-      "media_mensal": 24375.45,
+      "clientes_ativos_mes": 15,
+      "cobertura_pct": 27.8,
+      "faturamento_ytd": 170987.96,
+      "media_mensal": 24426.85,
       "por_mes": {
         "2026-01": 24649.97,
         "2026-02": 5246.97,
@@ -14546,7 +14765,7 @@ const RAIOX_CLIENTES_DATA = {
         "2026-04": 5062.48,
         "2026-05": 17686.43,
         "2026-06": 50713.21,
-        "2026-07": 49150.11
+        "2026-07": 49509.91
       },
       "top_cidades": [
         {
@@ -14907,10 +15126,10 @@ const RAIOX_CLIENTES_DATA = {
         },
         "RJ-419": {
           "total_clientes": 3,
-          "clientes_ativos_mes": 2,
-          "cobertura_pct": 66.7,
-          "faturamento_ytd": 43115.46,
-          "media_mensal": 6159.35,
+          "clientes_ativos_mes": 3,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 43475.26,
+          "media_mensal": 6210.75,
           "por_mes": {
             "2026-01": 12441.11,
             "2026-02": 69.8,
@@ -14918,7 +15137,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 1301.0,
             "2026-05": 2411.6,
             "2026-06": 5230.16,
-            "2026-07": 11159.66
+            "2026-07": 11519.46
           },
           "top_cidades": [
             {
@@ -16815,6 +17034,67 @@ const RAIOX_CLIENTES_DATA = {
       }
     },
     {
+      "ramo": "CASA NOTURNA",
+      "total_clientes": 2,
+      "clientes_ativos_mes": 1,
+      "cobertura_pct": 50.0,
+      "faturamento_ytd": 12746.62,
+      "media_mensal": 2549.32,
+      "por_mes": {
+        "2026-01": 1701.6,
+        "2026-03": 8034.86,
+        "2026-04": 461.4,
+        "2026-06": 1131.48,
+        "2026-07": 1417.28
+      },
+      "top_cidades": [
+        {
+          "cidade": "ARMACAO DOS BUZ",
+          "clientes": 1
+        },
+        {
+          "cidade": "RIO DAS OSTRAS",
+          "clientes": 1
+        }
+      ],
+      "por_vendedor": {
+        "RJ-159": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 12746.62,
+          "media_mensal": 2549.32,
+          "por_mes": {
+            "2026-01": 1701.6,
+            "2026-03": 8034.86,
+            "2026-04": 461.4,
+            "2026-06": 1131.48,
+            "2026-07": 1417.28
+          },
+          "top_cidades": [
+            {
+              "cidade": "RIO DAS OSTRAS",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-399": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "ARMACAO DOS BUZ",
+              "clientes": 1
+            }
+          ]
+        }
+      }
+    },
+    {
       "ramo": "FORNEC. DE ALIMENTOS PREPARADOS",
       "total_clientes": 3,
       "clientes_ativos_mes": 1,
@@ -16863,67 +17143,6 @@ const RAIOX_CLIENTES_DATA = {
             },
             {
               "cidade": "SANTA LUZIA",
-              "clientes": 1
-            }
-          ]
-        }
-      }
-    },
-    {
-      "ramo": "CASA NOTURNA",
-      "total_clientes": 2,
-      "clientes_ativos_mes": 1,
-      "cobertura_pct": 50.0,
-      "faturamento_ytd": 12228.94,
-      "media_mensal": 2445.79,
-      "por_mes": {
-        "2026-01": 1701.6,
-        "2026-03": 8034.86,
-        "2026-04": 461.4,
-        "2026-06": 1131.48,
-        "2026-07": 899.6
-      },
-      "top_cidades": [
-        {
-          "cidade": "ARMACAO DOS BUZ",
-          "clientes": 1
-        },
-        {
-          "cidade": "RIO DAS OSTRAS",
-          "clientes": 1
-        }
-      ],
-      "por_vendedor": {
-        "RJ-159": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 100.0,
-          "faturamento_ytd": 12228.94,
-          "media_mensal": 2445.79,
-          "por_mes": {
-            "2026-01": 1701.6,
-            "2026-03": 8034.86,
-            "2026-04": 461.4,
-            "2026-06": 1131.48,
-            "2026-07": 899.6
-          },
-          "top_cidades": [
-            {
-              "cidade": "RIO DAS OSTRAS",
-              "clientes": 1
-            }
-          ]
-        },
-        "SP-399": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
-          "top_cidades": [
-            {
-              "cidade": "ARMACAO DOS BUZ",
               "clientes": 1
             }
           ]
@@ -17006,8 +17225,8 @@ const RAIOX_CLIENTES_DATA = {
       "total_clientes": 5,
       "clientes_ativos_mes": 2,
       "cobertura_pct": 40.0,
-      "faturamento_ytd": 7080.28,
-      "media_mensal": 1011.47,
+      "faturamento_ytd": 7379.88,
+      "media_mensal": 1054.27,
       "por_mes": {
         "2026-01": 2596.72,
         "2026-02": 1000.88,
@@ -17015,7 +17234,7 @@ const RAIOX_CLIENTES_DATA = {
         "2026-04": 339.84,
         "2026-05": 1274.12,
         "2026-06": 642.08,
-        "2026-07": 824.64
+        "2026-07": 1124.24
       },
       "top_cidades": [
         {
@@ -17071,8 +17290,8 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 3,
           "clientes_ativos_mes": 2,
           "cobertura_pct": 66.7,
-          "faturamento_ytd": 5942.26,
-          "media_mensal": 848.89,
+          "faturamento_ytd": 6241.86,
+          "media_mensal": 891.69,
           "por_mes": {
             "2026-01": 2203.3,
             "2026-02": 643.2,
@@ -17080,7 +17299,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 339.84,
             "2026-05": 1104.48,
             "2026-06": 424.8,
-            "2026-07": 824.64
+            "2026-07": 1124.24
           },
           "top_cidades": [
             {
