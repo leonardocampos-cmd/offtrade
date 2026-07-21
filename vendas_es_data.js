@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "21/07/2026 14:36",
+  "atualizado_em": "21/07/2026 16:32",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -402,7 +402,7 @@ const VENDAS_ES_DATA = {
     },
     "MARCELO DE SOUZA": {
       "Jul/26": {
-        "fat": 104687.88,
+        "fat": 109175.88,
         "pos": 8,
         "fat_ant": 1224.0
       },
@@ -99462,6 +99462,66 @@ const VENDAS_ES_DATA = {
           "fantasia": "PINATI",
           "qt": 20,
           "valor": 816.0,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20944",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "fantasia": "PINATI",
+          "qt": 5,
+          "valor": 408.0,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20942",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "fantasia": "PINATI",
+          "qt": 15,
+          "valor": 1224.0,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20944",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
+          "fantasia": "PINATI",
+          "qt": 5,
+          "valor": 408.0,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20942",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
+          "fantasia": "PINATI",
+          "qt": 10,
+          "valor": 816.0,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20944",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 5,
+          "valor": 408.0,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20942",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 15,
+          "valor": 1224.0,
           "offtrade": true
         },
         {
