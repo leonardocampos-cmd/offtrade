@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "21/07/2026 08:48",
+  "atualizado_em": "21/07/2026 09:54",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -1487,6 +1487,15 @@ const INATIVOS_DATA = {
         }
       ],
       "novos": [
+        {
+          "codcli": "95750",
+          "cliente": "MINIMERCADO DEUS E FIEL LTDA",
+          "bairro": "RIO COMPRIDO",
+          "cidade": "RIO DE JANEIRO",
+          "dtcadastro": "21/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
         {
           "codcli": "95585",
           "cliente": "A C SUPLEMENTOS E ARTIGOS ESPORTIVOS LTDA",
