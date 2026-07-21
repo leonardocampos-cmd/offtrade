@@ -124,21 +124,21 @@
     const params = new URLSearchParams(location.search);
     let vendedorAtual = null;
 
-    function montaFiltro(rcaSelecionado) {
+    function montaFiltro(chaveSelecionada) {
       const sel = document.getElementById('sel-vendedor');
       sel.innerHTML = ['<option value="">Selecione...</option>']
-        .concat(data.vendedores.map(v => `<option value="${v.rca}">${v.nome} — ${v.time_label} (${v.rca})</option>`))
+        .concat(data.vendedores.map(v => `<option value="${v.chave}">${v.nome} — ${v.time_label} (${v.estado} · ${v.rca})</option>`))
         .join('');
-      sel.value = rcaSelecionado || '';
-      sel.addEventListener('change', () => selecionarVendedor(parseInt(sel.value, 10)));
+      sel.value = chaveSelecionada || '';
+      sel.addEventListener('change', () => selecionarVendedor(sel.value));
     }
 
-    function selecionarVendedor(rca) {
-      const v = data.vendedores.find(x => x.rca === rca);
+    function selecionarVendedor(chave) {
+      const v = data.vendedores.find(x => x.chave === chave);
       if (!v) return;
       vendedorAtual = v;
-      document.getElementById('sel-vendedor').value = String(rca);
-      history.replaceState(null, '', `?rca=${rca}`);
+      document.getElementById('sel-vendedor').value = chave;
+      history.replaceState(null, '', `?chave=${encodeURIComponent(chave)}`);
       renderFicha(v);
     }
 
@@ -169,7 +169,7 @@
           <div>
             <div class="ficha-nome">${v.nome}</div>
             <div class="ficha-tags">
-              <span class="tag">RCA ${v.rca}</span>
+              <span class="tag">${v.estado} · RCA ${v.rca}</span>
               <span class="tag">${v.time_label}</span>
               <span class="tag">${v.total_clientes_ativos} clientes ativos no período</span>
             </div>
@@ -225,16 +225,16 @@
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
-      a.download = `raiox_vendedor_${v.rca}_${v.nome.replace(/[^a-z0-9]+/gi, '_')}.csv`;
+      a.download = `raiox_vendedor_${v.estado}_${v.rca}_${v.nome.replace(/[^a-z0-9]+/gi, '_')}.csv`;
       a.click();
       URL.revokeObjectURL(url);
     }
 
     document.getElementById('conteudo').innerHTML = '<div class="sem-selecao">Selecione um vendedor acima para ver o Raio X completo.</div>';
 
-    const rcaUrl = params.get('rca');
-    montaFiltro(rcaUrl || '');
-    if (rcaUrl) selecionarVendedor(parseInt(rcaUrl, 10));
+    const chaveUrl = params.get('chave');
+    montaFiltro(chaveUrl || '');
+    if (chaveUrl) selecionarVendedor(chaveUrl);
   </script>
 </body>
 </html>
