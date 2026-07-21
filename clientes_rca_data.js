@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "21/07/2026 14:39",
-  "total": 4071,
+  "atualizado_em": "21/07/2026 16:34",
+  "total": 4077,
   "clientes": [
     {
       "codcli": "31683",
@@ -15204,6 +15204,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51963",
+      "razao": "CLODOALDO DA COSTA",
+      "fantasia": "MERCADO DO LAZARO",
+      "bairro": "LAZARO",
+      "cidade": "UBATUBA",
+      "cnpj": "12.307.032/0001-13",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "516",
+      "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "21736",
       "razao": "CLUB 151 PRAIA DO CANTO EIRELI",
       "fantasia": "CLUB 151",
@@ -16100,6 +16116,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
+      "codcli": "47040",
+      "razao": "COMERCIAL ROYALLE LTDA",
+      "fantasia": "ROYALLE EMPÓRIO DE BEBIDAS",
+      "bairro": "CENTRO",
+      "cidade": "SAO ROQUE",
+      "cnpj": "54.289.874/0001-30",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "508",
+      "nome_usur1": "PAULO SALES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "24103",
       "razao": "COMERCIAL RS EIRELI",
       "fantasia": "COMERCIAL RS EIRELLI",
@@ -16498,6 +16530,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "W.S",
       "codusur2": "461",
       "nome_usur2": "SUELY SANTOS - OFF TRADE"
+    },
+    {
+      "codcli": "47401",
+      "razao": "COMERCIO DE BEBIDAS ROYALLE LTDA",
+      "fantasia": "ROYALLE EMPORIO DE BEBIDAS",
+      "bairro": "CENTRO",
+      "cidade": "SAO ROQUE",
+      "cnpj": "64.478.728/0001-06",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "508",
+      "nome_usur1": "PAULO SALES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "36749",
@@ -17666,22 +17714,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
-    },
-    {
-      "codcli": "8497",
-      "razao": "D' PLANETA BEBIDAS E COMEST¿VEIS LTDA",
-      "fantasia": "D' PLANETA BEBIDAS E COMEST¿VEIS",
-      "bairro": "COPACABANA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "04.629.948/0001-61",
-      "estado": "RJ",
-      "ramo": "CAFETERIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "471",
-      "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
-      "codusur2": "295",
-      "nome_usur2": "JOÃO VITOR BRAGA"
     },
     {
       "codcli": "94404",
@@ -20160,6 +20192,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "588",
       "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51961",
+      "razao": "DOUGLAS VINICIUS DE OLIVEIRA RODRIGUES LTDA",
+      "fantasia": "DOUGLAS VINICIUS DE OLIVEIRA RODRIGUES",
+      "bairro": "ITAGUA",
+      "cidade": "UBATUBA",
+      "cnpj": "39.743.733/0001-51",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "516",
+      "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -22996,6 +23044,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "24998",
+      "razao": "ESTDP COMERCIO E PARTICIPACOES LTDA",
+      "fantasia": "TAVERNA DO CHEF NICO",
+      "bairro": "PARQUE DAS FLORES",
+      "cidade": "CAMPINAS",
+      "cnpj": "07.913.830/0001-59",
+      "estado": "SP",
+      "ramo": "RESTAURANTE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "425",
+      "nome_usur1": "BRUNO BARBOSA - OFF TRADE",
+      "codusur2": "435",
+      "nome_usur2": "LUCAS MACIEL"
+    },
+    {
       "codcli": "40844",
       "razao": "ESTRADA DA CACHAMORRA OLEOS LUBRIFICANTES LTDA",
       "fantasia": "ESTRADA DA CACHAMORRA OLEOS LUBRIFICANTE",
@@ -23042,6 +23106,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
+    },
+    {
+      "codcli": "38919",
+      "razao": "ESTS COMERCIO E PARTICIPACOES LTDA",
+      "fantasia": "EMPORIO SANTA THEREZINHA SOROCABA",
+      "bairro": "PARQUE BELA VISTA",
+      "cidade": "VOTORANTIM",
+      "cnpj": "51.990.842/0001-79",
+      "estado": "SP",
+      "ramo": "RESTAURANTE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "425",
+      "nome_usur1": "BRUNO BARBOSA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "80859",
@@ -39378,6 +39458,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "51960",
+      "razao": "MERCADO MV ATACADO LTDA",
+      "fantasia": "MERCADO MV ATACADO",
+      "bairro": "ITAGUA",
+      "cidade": "UBATUBA",
+      "cnpj": "26.519.889/0001-01",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "516",
+      "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "82072",
