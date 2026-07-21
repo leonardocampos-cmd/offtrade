@@ -157,14 +157,14 @@
         return;
       }
       box.innerHTML = resultados.map(c => `
-        <div class="sugestao-item" data-codcli="${c.codcli}">
+        <div class="sugestao-item" data-chave="${c.chave}">
           <div class="sugestao-nome">${c.nome}</div>
-          <div class="sugestao-meta">${c.ramo} · ${c.cidade} · Cód. ${c.codcli}</div>
+          <div class="sugestao-meta">${c.ramo} · ${c.estado} · ${c.cidade} · Cód. ${c.codcli}</div>
         </div>
       `).join('');
       box.classList.add('aberto');
-      box.querySelectorAll('.sugestao-item[data-codcli]').forEach(el => {
-        el.addEventListener('click', () => selecionarCliente(parseInt(el.dataset.codcli, 10)));
+      box.querySelectorAll('.sugestao-item[data-chave]').forEach(el => {
+        el.addEventListener('click', () => selecionarCliente(el.dataset.chave));
       });
     }
 
@@ -175,13 +175,13 @@
       if (!e.target.closest('.busca-wrap')) document.getElementById('sugestoes').classList.remove('aberto');
     });
 
-    function selecionarCliente(codcli) {
-      const c = data.clientes.find(x => x.codcli === codcli);
+    function selecionarCliente(chave) {
+      const c = data.clientes.find(x => x.chave === chave);
       if (!c) return;
       clienteAtual = c;
       document.getElementById('busca').value = c.nome;
       document.getElementById('sugestoes').classList.remove('aberto');
-      history.replaceState(null, '', `?codcli=${codcli}${ramoFiltro ? '&ramo=' + encodeURIComponent(ramoFiltro) : ''}`);
+      history.replaceState(null, '', `?chave=${encodeURIComponent(chave)}${ramoFiltro ? '&ramo=' + encodeURIComponent(ramoFiltro) : ''}`);
       renderFicha(c);
     }
 
@@ -223,9 +223,10 @@
         <div class="ficha-header">
           <div>
             <div class="ficha-nome">${c.nome}</div>
-            <div class="ficha-razao">${c.razao_social} · Cód. ${c.codcli}</div>
+            <div class="ficha-razao">${c.razao_social} · ${c.estado} · Cód. ${c.codcli}</div>
             <div class="ficha-tags">
               <span class="tag">${c.ramo}</span>
+              <span class="tag">${c.estado}</span>
               <span class="tag">${c.cidade}</span>
               <span class="tag">${vendedores}</span>
               <span class="tag">Última compra: ${c.ultima_compra || 'N/D'}</span>
@@ -294,15 +295,15 @@
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
-      a.download = `raiox_cliente_${c.codcli}_${c.nome.replace(/[^a-z0-9]+/gi, '_')}.csv`;
+      a.download = `raiox_cliente_${c.estado}_${c.codcli}_${c.nome.replace(/[^a-z0-9]+/gi, '_')}.csv`;
       a.click();
       URL.revokeObjectURL(url);
     }
 
     document.getElementById('conteudo').innerHTML = '<div class="sem-selecao">Busque um cliente pelo nome acima para ver o Raio X completo.</div>';
 
-    const codcliUrl = params.get('codcli');
-    if (codcliUrl) selecionarCliente(parseInt(codcliUrl, 10));
+    const chaveUrl = params.get('chave');
+    if (chaveUrl) selecionarCliente(chaveUrl);
   </script>
 </body>
 </html>
