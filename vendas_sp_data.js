@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "21/07/2026 12:22",
+  "atualizado_em": "21/07/2026 14:35",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -60063,16 +60063,6 @@ const VENDAS_SP_DATA = {
           "offtrade": true
         },
         {
-          "data": "20/06/2026",
-          "codcli": "50505",
-          "cliente": "ROD RAF CENTER CONVENIÊNCIAS LTDA",
-          "produto": "AGUARDENTE OLD CESAR 88 965 ML",
-          "fantasia": "CRS BRANDS",
-          "qt": 6,
-          "valor": 59.94,
-          "offtrade": true
-        },
-        {
           "data": "22/06/2026",
           "codcli": "50518",
           "cliente": "MERCADO JUQUICENTER LTDA",
@@ -60100,16 +60090,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "CRS BRANDS",
           "qt": 6,
           "valor": 59.94,
-          "offtrade": true
-        },
-        {
-          "data": "20/06/2026",
-          "codcli": "50505",
-          "cliente": "ROD RAF CENTER CONVENIÊNCIAS LTDA",
-          "produto": "GIN BOMBAY SAPPHIRE 750ML",
-          "fantasia": "BACARDI",
-          "qt": 2,
-          "valor": 141.8,
           "offtrade": true
         },
         {
@@ -60323,16 +60303,6 @@ const VENDAS_SP_DATA = {
           "offtrade": true
         },
         {
-          "data": "20/06/2026",
-          "codcli": "50505",
-          "cliente": "ROD RAF CENTER CONVENIÊNCIAS LTDA",
-          "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "PERNOD",
-          "qt": 3,
-          "valor": 100.8,
-          "offtrade": true
-        },
-        {
           "data": "22/06/2026",
           "codcli": "50518",
           "cliente": "MERCADO JUQUICENTER LTDA",
@@ -60373,16 +60343,6 @@ const VENDAS_SP_DATA = {
           "offtrade": true
         },
         {
-          "data": "20/06/2026",
-          "codcli": "50505",
-          "cliente": "ROD RAF CENTER CONVENIÊNCIAS LTDA",
-          "produto": "WHISKY BELLS 700ML",
-          "fantasia": "DIAGEO",
-          "qt": 3,
-          "valor": 119.07,
-          "offtrade": true
-        },
-        {
           "data": "22/06/2026",
           "codcli": "50505",
           "cliente": "ROD RAF CENTER CONVENIÊNCIAS LTDA",
@@ -60390,16 +60350,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "DIAGEO",
           "qt": 3,
           "valor": 119.07,
-          "offtrade": true
-        },
-        {
-          "data": "20/06/2026",
-          "codcli": "50505",
-          "cliente": "ROD RAF CENTER CONVENIÊNCIAS LTDA",
-          "produto": "TEQUILA J CUERVO GOLD 750ML",
-          "fantasia": "AURORA",
-          "qt": 1,
-          "valor": 83.9,
           "offtrade": true
         },
         {
@@ -110943,10 +110893,10 @@ const VENDAS_SP_DATA = {
         "fat_crs": 10415.04
       },
       "Jun/26": {
-        "fat": 209207.7,
+        "fat": 208702.19,
         "pos": 36.0,
-        "fat_pernod": 66310.2,
-        "fat_crs": 20602.32,
+        "fat_pernod": 66209.4,
+        "fat_crs": 20542.38,
         "fat_essenza": 2279.04
       },
       "Mai/26": {
