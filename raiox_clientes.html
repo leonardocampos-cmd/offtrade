@@ -186,7 +186,7 @@
     function montaFiltro(rcaSelecionado) {
       const sel = document.getElementById('filtro-rca');
       const opcoes = ['<option value="">Todos os vendedores</option>']
-        .concat((data.vendedores || []).map(v => `<option value="${v.rca}">${v.nome} (${v.rca})</option>`));
+        .concat((data.vendedores || []).map(v => `<option value="${v.chave}">${v.nome} (${v.estado} · ${v.rca})</option>`));
       sel.innerHTML = opcoes.join('');
       sel.value = rcaSelecionado || '';
       sel.addEventListener('change', () => render(sel.value));
