@@ -28,6 +28,12 @@ ROOT_FILES = [
     ".env",
 ]
 
+# ORACLE_LIB é específico de cada máquina (aqui é um caminho Windows tipo
+# "C:\instantclient"; na VPS é este diretório Linux do instantclient). Sincronizar
+# o .env local por cima do da VPS sobrescrevia esse valor com o caminho Windows
+# e quebrava o Oracle no Streamlit (DPI-1047) — corrigido de volta após o envio.
+VPS_ORACLE_LIB = "/opt/oracle/instantclient_21_1"
+
 # Diretórios a sincronizar (recursivo)
 SYNC_DIRS = [
     "pages",
@@ -95,6 +101,8 @@ def deploy():
             print(f"   {fname} -> {REMOTE_DIR}/{fname}")
         else:
             print(f"   [skip] {fname} não encontrado")
+
+    ssh_run(client, f"sed -i 's|^ORACLE_LIB=.*|ORACLE_LIB={VPS_ORACLE_LIB}|' {REMOTE_DIR}/.env", check=False)
 
     for fname in OPTIONAL_FILES:
         local = HERE / fname

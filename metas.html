@@ -647,7 +647,29 @@
   const _vend   = _p.get('vendedor');
   const _rca    = _p.get('rca');
 
-  if (sessionStorage.getItem('rg_auth') === HASH) return; // gestor: acesso total
+  // SSO com o Streamlit (botão "Pedir limite e cadastro" -> Credito_e_Cadastro):
+  // renova o cookie offtrade_token aqui também, não só no login.html, porque
+  // uma sessão já aberta antes desse recurso existir nunca passa pelo
+  // login.html de novo — sem isso o botão continuava pedindo login mesmo com
+  // o usuário já autenticado (mesmo esquema de utils.py:_decode_email, que
+  // não valida assinatura, só o e-mail no payload).
+  function _b64urlEncode(obj) {
+    const b64 = btoa(unescape(encodeURIComponent(JSON.stringify(obj))));
+    return b64.replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+  }
+  function _refreshSsoCookie(email) {
+    if (!email) return;
+    const header  = _b64urlEncode({ alg: 'none', typ: 'JWT' });
+    const payload = _b64urlEncode({ email });
+    const ssoToken = JSON.stringify({ id_token: `${header}.${payload}.sso` });
+    document.cookie = 'offtrade_token=' + encodeURIComponent(ssoToken) +
+      '; path=/; max-age=' + (60 * 60 * 8) + '; SameSite=Lax; Secure';
+  }
+
+  if (sessionStorage.getItem('rg_auth') === HASH) {
+    _refreshSsoCookie(sessionStorage.getItem('rg_email'));
+    return; // gestor: acesso total
+  }
 
   const _goLogin = () => {
     sessionStorage.setItem('rg_redirect', location.pathname + location.search);
@@ -668,6 +690,7 @@
           return vv ? String(vv.rca) : null;
         })();
     if (!rcaUrl || String(s.rca) !== rcaUrl) throw 0;
+    _refreshSsoCookie(s.email);
   } catch { _goLogin(); }
 })();
 </script>

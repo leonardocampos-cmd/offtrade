@@ -109,9 +109,38 @@
       'andre.massensini@rigarr.com.br',
     ];
 
+    // SSO com o Streamlit (Credito_e_Cadastro, Admin_Metas): mesmo domínio
+    // (nginx roteia tudo por offtrade.duckdns.org), então um cookie aqui já
+    // é lido por require_auth() do lado do Streamlit (CookieController lê
+    // "offtrade_token" no mesmo formato que o próprio login OAuth2 salva) —
+    // sem isso, era preciso logar de novo ao clicar em "Pedir limite e
+    // cadastro". O Streamlit só decodifica o e-mail do token, sem checar
+    // assinatura (utils.py:_decode_email), então basta o token "parecer"
+    // um JWT válido — funciona tanto com o id_token real do Google quanto
+    // com um token fabricado localmente pro fluxo de RCA+senha (que nunca
+    // passa pelo Google). Definida antes dos atalhos de "já autenticado"
+    // abaixo pra poder renovar o cookie mesmo quando o login em si não
+    // roda de novo nesta aba.
+    function _b64urlEncode(obj) {
+      const b64 = btoa(unescape(encodeURIComponent(JSON.stringify(obj))));
+      return b64.replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+    }
+    function _setSsoCookie(idToken) {
+      const ssoToken = JSON.stringify({ id_token: idToken });
+      document.cookie = 'offtrade_token=' + encodeURIComponent(ssoToken) +
+        '; path=/; max-age=' + (60 * 60 * 8) + '; SameSite=Lax; Secure';
+    }
+    function _setSsoCookieParaEmail(email) {
+      const header  = _b64urlEncode({ alg: 'none', typ: 'JWT' });
+      const payload = _b64urlEncode({ email });
+      _setSsoCookie(`${header}.${payload}.sso`);
+    }
+
     // Já autenticado como gestor
     const _stored = sessionStorage.getItem('rg_auth');
     if (_stored === AUTH_HASH) {
+      const _email = sessionStorage.getItem('rg_email');
+      if (_email) _setSsoCookieParaEmail(_email);
       location.replace('index.html');
     } else if (_stored) {
       sessionStorage.removeItem('rg_auth');
@@ -121,7 +150,10 @@
     // Já autenticado como vendedor
     try {
       const sv = JSON.parse(sessionStorage.getItem('rg_vendedor') || '{}');
-      if (sv.rca && sv.nome) location.replace('metas.html?rca=' + encodeURIComponent(sv.rca));
+      if (sv.rca && sv.nome) {
+        if (sv.email) _setSsoCookieParaEmail(sv.email);
+        location.replace('metas.html?rca=' + encodeURIComponent(sv.rca));
+      }
     } catch {}
 
     function showErro(msg) { document.getElementById('erro').textContent = msg; }
@@ -192,6 +224,7 @@
       sessionStorage.setItem('rg_vendedor', JSON.stringify({
         rca, nome: vendedor.nome, email: vendedor.email
       }));
+      _setSsoCookieParaEmail(vendedor.email);
       _doRedirect(rca);
     });
 
@@ -223,6 +256,7 @@
           return;
         }
         sessionStorage.setItem('rg_vendedor', JSON.stringify({ rca, nome: vendedor.nome, email: vendedor.email }));
+        _setSsoCookie(response.credential);
         _doRedirect(rca);
         return;
       }
@@ -234,15 +268,8 @@
         return;
       }
       sessionStorage.setItem('rg_auth', AUTH_HASH);
-
-      // SSO com o Streamlit (Credito_e_Cadastro, Admin_Metas): mesmo domínio
-      // (nginx roteia tudo por offtrade.duckdns.org), então um cookie aqui já
-      // é lido por require_auth() do lado do Streamlit (CookieController lê
-      // "offtrade_token" no mesmo formato que o próprio login OAuth2 salva) —
-      // sem isso, era preciso logar de novo ao entrar nessas páginas.
-      const ssoToken = JSON.stringify({ id_token: response.credential });
-      document.cookie = 'offtrade_token=' + encodeURIComponent(ssoToken) +
-        '; path=/; max-age=' + (60 * 60 * 8) + '; SameSite=Lax; Secure';
+      sessionStorage.setItem('rg_email', email);
+      _setSsoCookie(response.credential);
 
       const redir = sessionStorage.getItem('rg_redirect') || '';
       sessionStorage.removeItem('rg_redirect');
