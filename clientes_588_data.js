@@ -1,5 +1,5 @@
 const CLIENTES_588_DATA = {
-  "atualizado_em": "21/07/2026 16:35",
+  "atualizado_em": "21/07/2026 17:54",
   "rca_ref": 588,
   "periodo_fid": "Jan/26 – Abr/26",
   "mes_migracao": "Mai/26",
@@ -400,12 +400,6 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "18/05/2026",
-              "PRODUTO": "BEEFEATER PINK 700ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 3894.0
-            },
-            {
-              "DATA": "18/05/2026",
               "PRODUTO": "GIN MONKEY 47 500ML",
               "FANTASIA": "PERNOD",
               "VALOR": 1428.0
@@ -415,6 +409,12 @@ const CLIENTES_588_DATA = {
               "PRODUTO": "RUM HAVANA CLUB 3 YEARS OLD 700 ML",
               "FANTASIA": "PERNOD",
               "VALOR": 3954.0
+            },
+            {
+              "DATA": "18/05/2026",
+              "PRODUTO": "BEEFEATER PINK 700ML",
+              "FANTASIA": "PERNOD",
+              "VALOR": 3894.0
             },
             {
               "DATA": "19/05/2026",
@@ -960,15 +960,15 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "14/05/2026",
-              "PRODUTO": "GLENMORANGIE THE ORIGINAL 10 ANOS 750ML",
-              "FANTASIA": "MOET HENNESY",
-              "VALOR": 1098.0
-            },
-            {
-              "DATA": "14/05/2026",
               "PRODUTO": "GLENMORANGIE QUINTA RUBAN 750ML",
               "FANTASIA": "MOET HENNESY",
               "VALOR": 1782.0
+            },
+            {
+              "DATA": "14/05/2026",
+              "PRODUTO": "GLENMORANGIE THE ORIGINAL 10 ANOS 750ML",
+              "FANTASIA": "MOET HENNESY",
+              "VALOR": 1098.0
             },
             {
               "DATA": "23/05/2026",
