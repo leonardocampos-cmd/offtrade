@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "21/07/2026 09:45",
+  "atualizado_em": "21/07/2026 12:22",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -274,6 +274,11 @@ const VENDAS_ES_DATA = {
         "pos": 21,
         "fat_ant": 0.0
       },
+      "Jul/26": {
+        "fat": 328764.65,
+        "pos": 29,
+        "fat_ant": 89348.53
+      },
       "Mar/26": {
         "fat": 295024.96,
         "pos": 24,
@@ -293,11 +298,6 @@ const VENDAS_ES_DATA = {
         "fat": 284639.24,
         "pos": 45,
         "fat_ant": 118062.39
-      },
-      "Jul/26": {
-        "fat": 190393.24,
-        "pos": 27,
-        "fat_ant": 89348.53
       }
     },
     "MARA DEPOLLI": {
@@ -402,7 +402,7 @@ const VENDAS_ES_DATA = {
     },
     "MARCELO DE SOUZA": {
       "Jul/26": {
-        "fat": 87315.12,
+        "fat": 104687.88,
         "pos": 8,
         "fat_ant": 1224.0
       },
@@ -74515,6 +74515,1928 @@ const VENDAS_ES_DATA = {
           "offtrade": true
         }
       ],
+      "Jul/26": [
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "CACHACA JOIA DA SERRA TRADICIONAL 1L",
+          "fantasia": "HOB",
+          "qt": 36,
+          "valor": 1405.69,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "MARTINI EXTRA DRY 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 96,
+          "valor": 3421.44,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "MARTINI BIANCO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 180,
+          "valor": 6415.2,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "MARTINI ROSATO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 120,
+          "valor": 4276.8,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "VODKA NATASHA 900ML",
+          "fantasia": "BACARDI",
+          "qt": 120,
+          "valor": 2665.2,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "MARTINI RISERVA AMBRATTO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 1722.48,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "MARTINI ROSSO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 120,
+          "valor": 4276.8,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "RUM BACARDI BIG APPLE 700ML",
+          "fantasia": "BACARDI",
+          "qt": 180,
+          "valor": 6415.2,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "RUM BACARDI MOJITO 700ML",
+          "fantasia": "BACARDI",
+          "qt": 180,
+          "valor": 6415.2,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "RUM BACARDI SUPERIOR 700ML",
+          "fantasia": "BACARDI",
+          "qt": 180,
+          "valor": 6415.2,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "RUM BACARDI GOLD 700ML",
+          "fantasia": "BACARDI",
+          "qt": 180,
+          "valor": 6710.4,
+          "offtrade": true
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "85617",
+          "cliente": "MULTIMERCADO COMERCIO DE ALIMENTOS LTDA",
+          "produto": "VODKA ORLOFF 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 366.24,
+          "offtrade": true
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "86391",
+          "cliente": "ARMAZEM SAO SEBASTIAO LTDA",
+          "produto": "WHISKY BALLANTINE S FINEST 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 832.44,
+          "offtrade": true
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "77449",
+          "cliente": "ARMAZEM SAO SEBASTIAO LTDA",
+          "produto": "WHISKY BALLANTINE S FINEST 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 832.44,
+          "offtrade": true
+        },
+        {
+          "data": "01/07/2026",
+          "codcli": "85617",
+          "cliente": "MULTIMERCADO COMERCIO DE ALIMENTOS LTDA",
+          "produto": "WHISKY BALLANTINE S FINEST 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 832.44,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 240,
+          "valor": 23976.0,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "WHISKY BOURBON MAKERS MARK 750 ML",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 36,
+          "valor": 7273.44,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 120,
+          "valor": 11988.0,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "WHISKY JIM BEAM APPLE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 60,
+          "valor": 5994.0,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "LICOR BALLENA MORANGO 750 ML",
+          "fantasia": "BALLENA",
+          "qt": 12,
+          "valor": 1572.0,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "LICOR BALLENA COCO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 12,
+          "valor": 1572.0,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "GIN TONICA 275ML",
+          "fantasia": "DIALCOOL",
+          "qt": 24,
+          "valor": 216.94,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "SAQUE FUJI SECO 740ML",
+          "fantasia": "DIALCOOL",
+          "qt": 30,
+          "valor": 621.3,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "VINHO LATITUD 33 MALBEC  750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 36,
+          "valor": 1933.2,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "LATITUD 33 CABERNET SAUVIGNON",
+          "fantasia": "HENNESSY",
+          "qt": 30,
+          "valor": 1611.0,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "TERRAZAS EL YAIMA COSECHA 375ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 1902.18,
+          "offtrade": true
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD SACHE 90G",
+          "fantasia": "DADINHO",
+          "qt": 120,
+          "valor": 732.0,
+          "offtrade": true
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD SACHE 90G",
+          "fantasia": "DADINHO",
+          "qt": 40,
+          "valor": 244.0,
+          "offtrade": true
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO ZERO ACUCAR 90G",
+          "fantasia": "DADINHO",
+          "qt": 120,
+          "valor": 1076.4,
+          "offtrade": true
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO ZERO ACUCAR 90G",
+          "fantasia": "DADINHO",
+          "qt": 40,
+          "valor": 358.8,
+          "offtrade": true
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD 420GR",
+          "fantasia": "DADINHO",
+          "qt": 90,
+          "valor": 1524.6,
+          "offtrade": true
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD 420GR",
+          "fantasia": "DADINHO",
+          "qt": 18,
+          "valor": 304.92,
+          "offtrade": true
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM DADINHO ESPEC 198G",
+          "fantasia": "DADINHO",
+          "qt": 120,
+          "valor": 790.8,
+          "offtrade": true
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM DADINHO ESPEC 198G",
+          "fantasia": "DADINHO",
+          "qt": 30,
+          "valor": 197.7,
+          "offtrade": true
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
+          "fantasia": "DADINHO",
+          "qt": 60,
+          "valor": 1717.2,
+          "offtrade": true
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
+          "fantasia": "DADINHO",
+          "qt": 12,
+          "valor": 343.44,
+          "offtrade": true
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO BITZ AO LEITE 105G",
+          "fantasia": "DADINHO",
+          "qt": 120,
+          "valor": 458.4,
+          "offtrade": true
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO BITZ AO LEITE 105G",
+          "fantasia": "DADINHO",
+          "qt": 30,
+          "valor": 114.6,
+          "offtrade": true
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "76076",
+          "cliente": "DRIFT COM. DE ALIMENTOS SA",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 15,
+          "valor": 1953.0,
+          "offtrade": true
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "76076",
+          "cliente": "DRIFT COM. DE ALIMENTOS SA",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 10,
+          "valor": 1482.0,
+          "offtrade": true
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "76076",
+          "cliente": "DRIFT COM. DE ALIMENTOS SA",
+          "produto": "CREME DE LEITE NAVEIA 24X200G",
+          "fantasia": "NAVEIA",
+          "qt": 3,
+          "valor": 288.0,
+          "offtrade": true
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 80,
+          "valor": 18628.8,
+          "offtrade": true
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 50,
+          "valor": 11643.0,
+          "offtrade": true
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "81760",
+          "cliente": "A L M SUPERMERCADOS LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 7,
+          "valor": 1536.5,
+          "offtrade": true
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "81797",
+          "cliente": "SUPERMERCADO FALQUETO LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 3,
+          "valor": 658.5,
+          "offtrade": true
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "21028",
+          "cliente": "SUPERMERCADOS CELEIRO LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 5,
+          "valor": 1097.5,
+          "offtrade": true
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "21162",
+          "cliente": "IPAMAR COMERCIAL LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 219.5,
+          "offtrade": true
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "21027",
+          "cliente": "SUPERMERCADOS NOROESTE LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 10,
+          "valor": 2195.0,
+          "offtrade": true
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "80907",
+          "cliente": "AUTO SERVICOS IDEAL LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 439.0,
+          "offtrade": true
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "95662",
+          "cliente": "ALIANCA MERCANTIL LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 219.5,
+          "offtrade": true
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "79754",
+          "cliente": "SUPERMERCADO R.D.E. LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 5,
+          "valor": 1097.5,
+          "offtrade": true
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "81885",
+          "cliente": "SUPERMERCADOS CELEIRO LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 5,
+          "valor": 1097.5,
+          "offtrade": true
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "21014",
+          "cliente": "ECOREAL SUPERMERCADOS LTDA",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 439.0,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82538",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 30,
+          "valor": 6985.8,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21216",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 20,
+          "valor": 4657.2,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21215",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 30,
+          "valor": 6985.8,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21217",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 20,
+          "valor": 4657.2,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "74418",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 40,
+          "valor": 9314.4,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82541",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 30,
+          "valor": 6985.8,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "91463",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 30,
+          "valor": 6985.8,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "82542",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 20,
+          "valor": 4657.2,
+          "offtrade": true
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 30,
+          "valor": 6985.8,
+          "offtrade": true
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 10,
+          "valor": 2328.6,
+          "offtrade": true
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "81760",
+          "cliente": "A L M SUPERMERCADOS LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 4,
+          "valor": 878.0,
+          "offtrade": true
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "21162",
+          "cliente": "IPAMAR COMERCIAL LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 439.0,
+          "offtrade": true
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "21028",
+          "cliente": "SUPERMERCADOS CELEIRO LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 3,
+          "valor": 658.5,
+          "offtrade": true
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "21027",
+          "cliente": "SUPERMERCADOS NOROESTE LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 6,
+          "valor": 1317.0,
+          "offtrade": true
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "80907",
+          "cliente": "AUTO SERVICOS IDEAL LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 219.5,
+          "offtrade": true
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "95662",
+          "cliente": "ALIANCA MERCANTIL LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 219.5,
+          "offtrade": true
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "79754",
+          "cliente": "SUPERMERCADO R.D.E. LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 5,
+          "valor": 1097.5,
+          "offtrade": true
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "81885",
+          "cliente": "SUPERMERCADOS CELEIRO LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 4,
+          "valor": 878.0,
+          "offtrade": true
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "21014",
+          "cliente": "ECOREAL SUPERMERCADOS LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 439.0,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82538",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 3,
+          "valor": 698.58,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21216",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 3,
+          "valor": 698.58,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21215",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 3,
+          "valor": 698.58,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21217",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 3,
+          "valor": 698.58,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "74418",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 3,
+          "valor": 698.58,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82541",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 3,
+          "valor": 698.58,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "91463",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 3,
+          "valor": 698.58,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "82542",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 3,
+          "valor": 698.58,
+          "offtrade": true
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "91826",
+          "cliente": "COMERCIAL DEVENS LTDA",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 271.92,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82538",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21216",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21215",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21217",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "74418",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82541",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "91463",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "82542",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 20,
+          "valor": 2854.8,
+          "offtrade": true
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "91826",
+          "cliente": "COMERCIAL DEVENS LTDA",
+          "produto": "RC ATUM RALADO OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 271.92,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82538",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM RALADO OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21216",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM RALADO OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21215",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM RALADO OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21217",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM RALADO OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "74418",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM RALADO OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82541",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM RALADO OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "91463",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM RALADO OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "82542",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM RALADO OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 60,
+          "valor": 11757.6,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82538",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 391.92,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21216",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 391.92,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21215",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 391.92,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21217",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 391.92,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "74418",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 391.92,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82541",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 391.92,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "91463",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 391.92,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "82542",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 391.92,
+          "offtrade": true
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "RC ATUM SOLIDO OLEO 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 30,
+          "valor": 5878.8,
+          "offtrade": true
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "91826",
+          "cliente": "COMERCIAL DEVENS LTDA",
+          "produto": "RC ATUM SOLIDO OLEO 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 4,
+          "valor": 746.56,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82538",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM SOLIDO OLEO 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 391.92,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21216",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM SOLIDO OLEO 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 391.92,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21215",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM SOLIDO OLEO 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 391.92,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21217",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM SOLIDO OLEO 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 391.92,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "74418",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM SOLIDO OLEO 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 391.92,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82541",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM SOLIDO OLEO 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 391.92,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "91463",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM SOLIDO OLEO 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 391.92,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "82542",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM SOLIDO OLEO 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 391.92,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82538",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21216",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21215",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21217",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "74418",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82541",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "91463",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "82542",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82538",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21216",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21215",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21217",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "74418",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82541",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "91463",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "82542",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "03/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 5,
+          "valor": 772.15,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82538",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21216",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21215",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21217",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "74418",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82541",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "91463",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "82542",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 5,
+          "valor": 772.15,
+          "offtrade": true
+        },
+        {
+          "data": "13/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 30,
+          "valor": 4282.2,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82538",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.4,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21216",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "21217",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "74418",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "20/07/2026",
+          "codcli": "82541",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "91463",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "82542",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 3,
+          "valor": 428.22,
+          "offtrade": true
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ORIGINAL 20X30G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 77.6,
+          "offtrade": true
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "82540",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "fantasia": "PINATI",
+          "qt": 12,
+          "valor": 535.68,
+          "offtrade": true
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "76076",
+          "cliente": "DRIFT COM. DE ALIMENTOS SA",
+          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "fantasia": "PINATI",
+          "qt": 20,
+          "valor": 892.8,
+          "offtrade": true
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "76076",
+          "cliente": "DRIFT COM. DE ALIMENTOS SA",
+          "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
+          "fantasia": "PINATI",
+          "qt": 10,
+          "valor": 446.4,
+          "offtrade": true
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "21217",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 178.56,
+          "offtrade": true
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "76076",
+          "cliente": "DRIFT COM. DE ALIMENTOS SA",
+          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 10,
+          "valor": 446.4,
+          "offtrade": true
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "21217",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 6,
+          "valor": 267.84,
+          "offtrade": true
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS COCO 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 355.2,
+          "offtrade": true
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS COCO 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 88.8,
+          "offtrade": true
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS BANANA 16X4X30G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 355.2,
+          "offtrade": true
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS BANANA 16X4X30G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 88.8,
+          "offtrade": true
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ZERO COCO 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 355.2,
+          "offtrade": true
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ZERO COCO 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 88.8,
+          "offtrade": true
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ZERO ORIGINAL 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 355.2,
+          "offtrade": true
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ZERO ORIGINAL 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 88.8,
+          "offtrade": true
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
+          "fantasia": "PINATI",
+          "qt": 6,
+          "valor": 418.86,
+          "offtrade": true
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 69.81,
+          "offtrade": true
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 279.24,
+          "offtrade": true
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS BANANA 20X30G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 77.6,
+          "offtrade": true
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 12,
+          "valor": 591.66,
+          "offtrade": true
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 98.61,
+          "offtrade": true
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 197.22,
+          "offtrade": true
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR COCO E AMENDOIM 16X35G",
+          "fantasia": "PINATI",
+          "qt": 8,
+          "valor": 401.92,
+          "offtrade": true
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR COCO E AMENDOIM 16X35G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 100.48,
+          "offtrade": true
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BANANA AMENDOIM 16X35G",
+          "fantasia": "PINATI",
+          "qt": 12,
+          "valor": 591.66,
+          "offtrade": true
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BANANA AMENDOIM 16X35G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 98.61,
+          "offtrade": true
+        },
+        {
+          "data": "15/07/2026",
+          "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BANANA AMENDOIM 16X35G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 197.22,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "LICOR BANANINHA CARIOCA 750ML",
+          "fantasia": "BANANINHA CARIOCA",
+          "qt": 24,
+          "valor": 2280.0,
+          "offtrade": true
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 120,
+          "valor": 1831.2,
+          "offtrade": true
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "79819",
+          "cliente": "SUPERMERCADOS CASAGRANDE LTDA",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1440,
+          "valor": 23025.6,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "EASY BOOZE LATA 24X270ML RED MINT",
+          "fantasia": "TATUZINHO",
+          "qt": 10,
+          "valor": 1332.0,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "EASY BOOZE VIDRO 12X275ML RED MINT",
+          "fantasia": "TATUZINHO",
+          "qt": 9,
+          "valor": 668.43,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "EASY BOOZE VIDRO 12X275ML GINGER",
+          "fantasia": "TATUZINHO",
+          "qt": 4,
+          "valor": 297.08,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "EASY BOOZE VIDRO 12X275ML PINK LEMON",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 74.24,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "EASY BOOZE LATA 24X270ML PINK LEMON",
+          "fantasia": "TATUZINHO",
+          "qt": 15,
+          "valor": 1998.0,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "EASY BOOZE LATA 24X269ML SPRITZ",
+          "fantasia": "TATUZINHO",
+          "qt": 4,
+          "valor": 532.8,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "EASY BOOZE VIDRO 12X275ML BLUEBERRY",
+          "fantasia": "TATUZINHO",
+          "qt": 6,
+          "valor": 445.62,
+          "offtrade": true
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 20,
+          "valor": 2164.8,
+          "offtrade": true
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 13,
+          "valor": 1407.12,
+          "offtrade": true
+        },
+        {
+          "data": "09/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE ZERO LATA PINK LEMON  24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 20,
+          "valor": 2164.8,
+          "offtrade": true
+        }
+      ],
       "Mar/26": [
         {
           "data": "13/03/2026",
@@ -84850,1408 +86772,6 @@ const VENDAS_ES_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 5,
           "valor": 659.5,
-          "offtrade": true
-        }
-      ],
-      "Jul/26": [
-        {
-          "data": "01/07/2026",
-          "codcli": "85617",
-          "cliente": "MULTIMERCADO COMERCIO DE ALIMENTOS LTDA",
-          "produto": "VODKA ORLOFF 1L",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 366.24,
-          "offtrade": true
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "86391",
-          "cliente": "ARMAZEM SAO SEBASTIAO LTDA",
-          "produto": "WHISKY BALLANTINE S FINEST 750ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 832.44,
-          "offtrade": true
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "77449",
-          "cliente": "ARMAZEM SAO SEBASTIAO LTDA",
-          "produto": "WHISKY BALLANTINE S FINEST 750ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 832.44,
-          "offtrade": true
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "85617",
-          "cliente": "MULTIMERCADO COMERCIO DE ALIMENTOS LTDA",
-          "produto": "WHISKY BALLANTINE S FINEST 750ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 832.44,
-          "offtrade": true
-        },
-        {
-          "data": "06/07/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO TRAD SACHE 90G",
-          "fantasia": "DADINHO",
-          "qt": 120,
-          "valor": 732.0,
-          "offtrade": true
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "85439",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO TRAD SACHE 90G",
-          "fantasia": "DADINHO",
-          "qt": 40,
-          "valor": 244.0,
-          "offtrade": true
-        },
-        {
-          "data": "06/07/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO ZERO ACUCAR 90G",
-          "fantasia": "DADINHO",
-          "qt": 120,
-          "valor": 1076.4,
-          "offtrade": true
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "85439",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO ZERO ACUCAR 90G",
-          "fantasia": "DADINHO",
-          "qt": 40,
-          "valor": 358.8,
-          "offtrade": true
-        },
-        {
-          "data": "06/07/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO TRAD 420GR",
-          "fantasia": "DADINHO",
-          "qt": 90,
-          "valor": 1524.6,
-          "offtrade": true
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "85439",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO TRAD 420GR",
-          "fantasia": "DADINHO",
-          "qt": 18,
-          "valor": 304.92,
-          "offtrade": true
-        },
-        {
-          "data": "06/07/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP BOMBOM DADINHO ESPEC 198G",
-          "fantasia": "DADINHO",
-          "qt": 120,
-          "valor": 790.8,
-          "offtrade": true
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "85439",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP BOMBOM DADINHO ESPEC 198G",
-          "fantasia": "DADINHO",
-          "qt": 30,
-          "valor": 197.7,
-          "offtrade": true
-        },
-        {
-          "data": "06/07/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
-          "fantasia": "DADINHO",
-          "qt": 60,
-          "valor": 1717.2,
-          "offtrade": true
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "85439",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
-          "fantasia": "DADINHO",
-          "qt": 12,
-          "valor": 343.44,
-          "offtrade": true
-        },
-        {
-          "data": "06/07/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "DADINHO",
-          "qt": 120,
-          "valor": 458.4,
-          "offtrade": true
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "85439",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "DADINHO",
-          "qt": 30,
-          "valor": 114.6,
-          "offtrade": true
-        },
-        {
-          "data": "02/07/2026",
-          "codcli": "76076",
-          "cliente": "DRIFT COM. DE ALIMENTOS SA",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 15,
-          "valor": 1953.0,
-          "offtrade": true
-        },
-        {
-          "data": "02/07/2026",
-          "codcli": "76076",
-          "cliente": "DRIFT COM. DE ALIMENTOS SA",
-          "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 10,
-          "valor": 1482.0,
-          "offtrade": true
-        },
-        {
-          "data": "02/07/2026",
-          "codcli": "76076",
-          "cliente": "DRIFT COM. DE ALIMENTOS SA",
-          "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "NAVEIA",
-          "qt": 3,
-          "valor": 288.0,
-          "offtrade": true
-        },
-        {
-          "data": "03/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 80,
-          "valor": 18628.8,
-          "offtrade": true
-        },
-        {
-          "data": "13/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 50,
-          "valor": 11643.0,
-          "offtrade": true
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "81760",
-          "cliente": "A L M SUPERMERCADOS LTDA",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 7,
-          "valor": 1536.5,
-          "offtrade": true
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "81797",
-          "cliente": "SUPERMERCADO FALQUETO LTDA",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 3,
-          "valor": 658.5,
-          "offtrade": true
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "21028",
-          "cliente": "SUPERMERCADOS CELEIRO LTDA",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 5,
-          "valor": 1097.5,
-          "offtrade": true
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "21162",
-          "cliente": "IPAMAR COMERCIAL LTDA",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 219.5,
-          "offtrade": true
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "21027",
-          "cliente": "SUPERMERCADOS NOROESTE LTDA",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 10,
-          "valor": 2195.0,
-          "offtrade": true
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "80907",
-          "cliente": "AUTO SERVICOS IDEAL LTDA",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 439.0,
-          "offtrade": true
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "95662",
-          "cliente": "ALIANCA MERCANTIL LTDA",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 219.5,
-          "offtrade": true
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "79754",
-          "cliente": "SUPERMERCADO R.D.E. LTDA",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 5,
-          "valor": 1097.5,
-          "offtrade": true
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "81885",
-          "cliente": "SUPERMERCADOS CELEIRO LTDA",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 5,
-          "valor": 1097.5,
-          "offtrade": true
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "21014",
-          "cliente": "ECOREAL SUPERMERCADOS LTDA",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 439.0,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "82538",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 30,
-          "valor": 6985.8,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "21216",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 20,
-          "valor": 4657.2,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "21215",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 30,
-          "valor": 6985.8,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "21217",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 20,
-          "valor": 4657.2,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "74418",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 40,
-          "valor": 9314.4,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "82541",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 30,
-          "valor": 6985.8,
-          "offtrade": true
-        },
-        {
-          "data": "03/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 30,
-          "valor": 6985.8,
-          "offtrade": true
-        },
-        {
-          "data": "13/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 10,
-          "valor": 2328.6,
-          "offtrade": true
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "81760",
-          "cliente": "A L M SUPERMERCADOS LTDA",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 4,
-          "valor": 878.0,
-          "offtrade": true
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "21162",
-          "cliente": "IPAMAR COMERCIAL LTDA",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 439.0,
-          "offtrade": true
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "21028",
-          "cliente": "SUPERMERCADOS CELEIRO LTDA",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 3,
-          "valor": 658.5,
-          "offtrade": true
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "21027",
-          "cliente": "SUPERMERCADOS NOROESTE LTDA",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 6,
-          "valor": 1317.0,
-          "offtrade": true
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "80907",
-          "cliente": "AUTO SERVICOS IDEAL LTDA",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 219.5,
-          "offtrade": true
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "95662",
-          "cliente": "ALIANCA MERCANTIL LTDA",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 219.5,
-          "offtrade": true
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "79754",
-          "cliente": "SUPERMERCADO R.D.E. LTDA",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 5,
-          "valor": 1097.5,
-          "offtrade": true
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "81885",
-          "cliente": "SUPERMERCADOS CELEIRO LTDA",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 4,
-          "valor": 878.0,
-          "offtrade": true
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "21014",
-          "cliente": "ECOREAL SUPERMERCADOS LTDA",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 439.0,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "82538",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 3,
-          "valor": 698.58,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "21216",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 3,
-          "valor": 698.58,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "21215",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 3,
-          "valor": 698.58,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "21217",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 3,
-          "valor": 698.58,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "74418",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 3,
-          "valor": 698.58,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "82541",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 3,
-          "valor": 698.58,
-          "offtrade": true
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "91826",
-          "cliente": "COMERCIAL DEVENS LTDA",
-          "produto": "RC ATUM RALADO NATURAL 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 271.92,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "82538",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "RC ATUM RALADO NATURAL 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 285.48,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "21216",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "RC ATUM RALADO NATURAL 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 285.48,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "21215",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "RC ATUM RALADO NATURAL 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 285.48,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "21217",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "RC ATUM RALADO NATURAL 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 285.48,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "74418",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "RC ATUM RALADO NATURAL 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 285.48,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "82541",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "RC ATUM RALADO NATURAL 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 285.48,
-          "offtrade": true
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "91826",
-          "cliente": "COMERCIAL DEVENS LTDA",
-          "produto": "RC ATUM RALADO OLEO 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 271.92,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "82538",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "RC ATUM RALADO OLEO 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 285.48,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "21216",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "RC ATUM RALADO OLEO 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 285.48,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "21215",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "RC ATUM RALADO OLEO 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 285.48,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "21217",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "RC ATUM RALADO OLEO 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 285.48,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "74418",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "RC ATUM RALADO OLEO 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 285.48,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "82541",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "RC ATUM RALADO OLEO 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 285.48,
-          "offtrade": true
-        },
-        {
-          "data": "03/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 60,
-          "valor": 11757.6,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "82538",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 391.92,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "21216",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 391.92,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "21215",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 391.92,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "21217",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 391.92,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "74418",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 391.92,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "82541",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 391.92,
-          "offtrade": true
-        },
-        {
-          "data": "03/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "RC ATUM SOLIDO OLEO 24X170G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 30,
-          "valor": 5878.8,
-          "offtrade": true
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "91826",
-          "cliente": "COMERCIAL DEVENS LTDA",
-          "produto": "RC ATUM SOLIDO OLEO 24X170G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 4,
-          "valor": 746.56,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "82538",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "RC ATUM SOLIDO OLEO 24X170G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 391.92,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "21216",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "RC ATUM SOLIDO OLEO 24X170G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 391.92,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "21215",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "RC ATUM SOLIDO OLEO 24X170G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 391.92,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "21217",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "RC ATUM SOLIDO OLEO 24X170G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 391.92,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "74418",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "RC ATUM SOLIDO OLEO 24X170G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 391.92,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "82541",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "RC ATUM SOLIDO OLEO 24X170G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 391.92,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "82538",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 308.86,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "21216",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 308.86,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "21215",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 308.86,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "21217",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 308.86,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "74418",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 308.86,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "82541",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 308.86,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "82538",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 308.86,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "21216",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 308.86,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "21215",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 308.86,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "21217",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 308.86,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "74418",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 308.86,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "82541",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 308.86,
-          "offtrade": true
-        },
-        {
-          "data": "03/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 5,
-          "valor": 772.15,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "82538",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 308.86,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "21216",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 308.86,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "21215",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 308.86,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "21217",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 308.86,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "74418",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 308.86,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "82541",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 308.86,
-          "offtrade": true
-        },
-        {
-          "data": "13/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 30,
-          "valor": 4282.2,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "82538",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 285.4,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "21216",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 285.48,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "21217",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 285.48,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "74418",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 285.48,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "82541",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 285.48,
-          "offtrade": true
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "85439",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "PINATI NUTS ORIGINAL 20X30G",
-          "fantasia": "PINATI",
-          "qt": 2,
-          "valor": 77.6,
-          "offtrade": true
-        },
-        {
-          "data": "02/07/2026",
-          "codcli": "82540",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
-          "fantasia": "PINATI",
-          "qt": 12,
-          "valor": 535.68,
-          "offtrade": true
-        },
-        {
-          "data": "02/07/2026",
-          "codcli": "76076",
-          "cliente": "DRIFT COM. DE ALIMENTOS SA",
-          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
-          "fantasia": "PINATI",
-          "qt": 20,
-          "valor": 892.8,
-          "offtrade": true
-        },
-        {
-          "data": "02/07/2026",
-          "codcli": "76076",
-          "cliente": "DRIFT COM. DE ALIMENTOS SA",
-          "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
-          "fantasia": "PINATI",
-          "qt": 10,
-          "valor": 446.4,
-          "offtrade": true
-        },
-        {
-          "data": "02/07/2026",
-          "codcli": "21217",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
-          "fantasia": "PINATI",
-          "qt": 4,
-          "valor": 178.56,
-          "offtrade": true
-        },
-        {
-          "data": "02/07/2026",
-          "codcli": "76076",
-          "cliente": "DRIFT COM. DE ALIMENTOS SA",
-          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
-          "fantasia": "PINATI",
-          "qt": 10,
-          "valor": 446.4,
-          "offtrade": true
-        },
-        {
-          "data": "02/07/2026",
-          "codcli": "21217",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
-          "fantasia": "PINATI",
-          "qt": 6,
-          "valor": 267.84,
-          "offtrade": true
-        },
-        {
-          "data": "06/07/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "PINATI NUTS COCO 16X4X25G",
-          "fantasia": "PINATI",
-          "qt": 4,
-          "valor": 355.2,
-          "offtrade": true
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "85439",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "PINATI NUTS COCO 16X4X25G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 88.8,
-          "offtrade": true
-        },
-        {
-          "data": "06/07/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "PINATI NUTS BANANA 16X4X30G",
-          "fantasia": "PINATI",
-          "qt": 4,
-          "valor": 355.2,
-          "offtrade": true
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "85439",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "PINATI NUTS BANANA 16X4X30G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 88.8,
-          "offtrade": true
-        },
-        {
-          "data": "06/07/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "PINATI NUTS ZERO COCO 16X4X25G",
-          "fantasia": "PINATI",
-          "qt": 4,
-          "valor": 355.2,
-          "offtrade": true
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "85439",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "PINATI NUTS ZERO COCO 16X4X25G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 88.8,
-          "offtrade": true
-        },
-        {
-          "data": "06/07/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "PINATI NUTS ZERO ORIGINAL 16X4X25G",
-          "fantasia": "PINATI",
-          "qt": 4,
-          "valor": 355.2,
-          "offtrade": true
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "85439",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "PINATI NUTS ZERO ORIGINAL 16X4X25G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 88.8,
-          "offtrade": true
-        },
-        {
-          "data": "06/07/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
-          "fantasia": "PINATI",
-          "qt": 6,
-          "valor": 418.86,
-          "offtrade": true
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "85439",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
-          "fantasia": "PINATI",
-          "qt": 1,
-          "valor": 69.81,
-          "offtrade": true
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "91292",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
-          "fantasia": "PINATI",
-          "qt": 4,
-          "valor": 279.24,
-          "offtrade": true
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "85439",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "PINATI NUTS BANANA 20X30G",
-          "fantasia": "PINATI",
-          "qt": 2,
-          "valor": 77.6,
-          "offtrade": true
-        },
-        {
-          "data": "06/07/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
-          "fantasia": "PINATI",
-          "qt": 12,
-          "valor": 591.66,
-          "offtrade": true
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "85439",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
-          "fantasia": "PINATI",
-          "qt": 2,
-          "valor": 98.61,
-          "offtrade": true
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "91292",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
-          "fantasia": "PINATI",
-          "qt": 4,
-          "valor": 197.22,
-          "offtrade": true
-        },
-        {
-          "data": "06/07/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "PINATI DOUBLE BAR COCO E AMENDOIM 16X35G",
-          "fantasia": "PINATI",
-          "qt": 8,
-          "valor": 401.92,
-          "offtrade": true
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "91292",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "PINATI DOUBLE BAR COCO E AMENDOIM 16X35G",
-          "fantasia": "PINATI",
-          "qt": 2,
-          "valor": 100.48,
-          "offtrade": true
-        },
-        {
-          "data": "06/07/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "PINATI DOUBLE BAR BANANA AMENDOIM 16X35G",
-          "fantasia": "PINATI",
-          "qt": 12,
-          "valor": 591.66,
-          "offtrade": true
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "85439",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "PINATI DOUBLE BAR BANANA AMENDOIM 16X35G",
-          "fantasia": "PINATI",
-          "qt": 2,
-          "valor": 98.61,
-          "offtrade": true
-        },
-        {
-          "data": "15/07/2026",
-          "codcli": "91292",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "PINATI DOUBLE BAR BANANA AMENDOIM 16X35G",
-          "fantasia": "PINATI",
-          "qt": 4,
-          "valor": 197.22,
-          "offtrade": true
-        },
-        {
-          "data": "06/07/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "CACHACA VELHO BARREIRO 910 ML",
-          "fantasia": "TATUZINHO",
-          "qt": 120,
-          "valor": 1831.2,
-          "offtrade": true
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "79819",
-          "cliente": "SUPERMERCADOS CASAGRANDE LTDA",
-          "produto": "CACHACA VELHO BARREIRO 910 ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1440,
-          "valor": 23025.6,
-          "offtrade": true
-        },
-        {
-          "data": "09/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 20,
-          "valor": 2164.8,
-          "offtrade": true
-        },
-        {
-          "data": "09/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 13,
-          "valor": 1407.12,
-          "offtrade": true
-        },
-        {
-          "data": "09/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE ZERO LATA PINK LEMON  24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 20,
-          "valor": 2164.8,
           "offtrade": true
         }
       ]
@@ -98535,6 +99055,256 @@ const VENDAS_ES_DATA = {
           "offtrade": true
         },
         {
+          "data": "21/07/2026",
+          "codcli": "78311",
+          "cliente": "ITAPOA SUPERMERCADO LTDA.",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 1064.16,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20938",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 532.08,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20944",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 1064.64,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 532.08,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20939",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 1064.16,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20938",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "RUM MONTILLA OURO 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 380.88,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20944",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "RUM MONTILLA OURO 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 380.88,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "RUM MONTILLA OURO 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 380.88,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20939",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "RUM MONTILLA OURO 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 380.88,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20942",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 682.56,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20944",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 682.56,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 682.56,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "78311",
+          "cliente": "ITAPOA SUPERMERCADO LTDA.",
+          "produto": "RUM MONTILLA CRISTAL 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 380.88,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20943",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "RUM MONTILLA CRISTAL 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 380.88,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20942",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "RUM MONTILLA CRISTAL 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 380.88,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20944",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "RUM MONTILLA CRISTAL 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 380.88,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "RUM MONTILLA CRISTAL 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 380.88,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20942",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "RUM MONTILLA CARTA BRANCA 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 380.88,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20939",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "RUM MONTILLA CARTA BRANCA 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 380.88,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20942",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "RUM MALIBU 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 800.88,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "78311",
+          "cliente": "ITAPOA SUPERMERCADO LTDA.",
+          "produto": "WHISKY BALLANTINE S SUNSHINE 700ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 651.6,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20938",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "WHISKY BALLANTINE S SUNSHINE 700ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 651.6,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20943",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "WHISKY BALLANTINE S SUNSHINE 700ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 651.6,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20944",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "WHISKY BALLANTINE S SUNSHINE 700ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 651.6,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "WHISKY BALLANTINE S SUNSHINE 700ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 651.6,
+          "offtrade": true
+        },
+        {
           "data": "20/07/2026",
           "codcli": "20943",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
@@ -98582,6 +99352,76 @@ const VENDAS_ES_DATA = {
           "fantasia": "DIALCOOL",
           "qt": 6,
           "valor": 131.88,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "78311",
+          "cliente": "ITAPOA SUPERMERCADO LTDA.",
+          "produto": "SAQUE FUJI SECO 740ML",
+          "fantasia": "DIALCOOL",
+          "qt": 6,
+          "valor": 131.88,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20938",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "SAQUE FUJI SECO 740ML",
+          "fantasia": "DIALCOOL",
+          "qt": 6,
+          "valor": 131.88,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "78311",
+          "cliente": "ITAPOA SUPERMERCADO LTDA.",
+          "produto": "XAROPE FABBRI MORANGO 560ML",
+          "fantasia": "FABBRI",
+          "qt": 6,
+          "valor": 247.14,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20943",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "XAROPE FABBRI MORANGO 560ML",
+          "fantasia": "FABBRI",
+          "qt": 6,
+          "valor": 247.14,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20938",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "XAROPE FABBRI MORANGO 560ML",
+          "fantasia": "FABBRI",
+          "qt": 6,
+          "valor": 247.14,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20944",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "CHANDON PASSION ON ICE 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 604.74,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "CHANDON PASSION ON ICE 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 12,
+          "valor": 1209.48,
           "offtrade": true
         },
         {
