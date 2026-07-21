@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "21/07/2026 14:36",
+  "atualizado_em": "21/07/2026 16:32",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,7 +50,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 145935.8,
+        "fat": 150883.4,
         "pos": 76,
         "fat_ant": 341993.95
       }
@@ -150,8 +150,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 35798.3
       },
       "Jul/26": {
-        "fat": 76841.56,
-        "pos": 6,
+        "fat": 44997.15,
+        "pos": 5,
         "fat_ant": 57054.36
       }
     },
@@ -51974,6 +51974,36 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "21/07/2026",
+          "codcli": "31402",
+          "cliente": "RESTAURANTE E LANCHONETE UNIVERSITARIO II LTDA",
+          "produto": "RED BULL ZERO 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 10,
+          "valor": 1413.6,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "31402",
+          "cliente": "RESTAURANTE E LANCHONETE UNIVERSITARIO II LTDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 10,
+          "valor": 1413.6,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "31402",
+          "cliente": "RESTAURANTE E LANCHONETE UNIVERSITARIO II LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "RED BULL",
+          "qt": 15,
+          "valor": 2120.4,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
           "codcli": "31722",
           "cliente": "THAYANE MICELE SILVA MATOS VIANA",
           "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
@@ -77626,26 +77656,6 @@ const VENDAS_MG_DATA = {
           "fantasia": "DIAGEO",
           "qt": 5,
           "valor": 512.85,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "33979",
-          "cliente": "BERNARDO GONCALVES DOMINGOS DE ABREU",
-          "produto": "WHISKY WALKER RED LABEL 1L",
-          "fantasia": "DIAGEO",
-          "qt": 36,
-          "valor": 2444.4,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "33979",
-          "cliente": "BERNARDO GONCALVES DOMINGOS DE ABREU",
-          "produto": "VODKA SMIRNOFF RED 998 ML",
-          "fantasia": "DIAGEO",
-          "qt": 1200,
-          "valor": 29400.01,
           "offtrade": true
         },
         {
