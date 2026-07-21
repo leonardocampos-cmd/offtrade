@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "21/07/2026 16:34",
-  "total": 4077,
+  "atualizado_em": "21/07/2026 17:53",
+  "total": 4080,
   "clientes": [
     {
       "codcli": "31683",
@@ -14082,6 +14082,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "EUDES MORGAN - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "39407",
+      "razao": "CCJ COMERCIAL CAMPO JOIA LTDA",
+      "fantasia": "CCJ COMERCIAL CAMPO JOIA",
+      "bairro": "VILA FIGUEIRA",
+      "cidade": "SUZANO",
+      "cnpj": "26.559.110/0001-81",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "468",
+      "nome_usur1": "RENATO JUNIOR - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "36582",
@@ -36148,6 +36164,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
+      "codcli": "51971",
+      "razao": "MARTA MARIA GUAGLIANO DE LUCCA",
+      "fantasia": "CHUVAS",
+      "bairro": "JARDIM DO SOL",
+      "cidade": "CARAGUATATUBA",
+      "cnpj": "00.017.316/0001-96",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "516",
+      "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "50421",
       "razao": "MARTINS ARAUJO E DA SILVA SUPERMERCADO LTDA",
       "fantasia": "MARTINS ARAUJO E DA SILVA SUPERMERCADO",
@@ -39554,6 +39586,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "51970",
+      "razao": "MERCADO NOVO LIDER PONTO CERTO LTDA",
+      "fantasia": "MERCADO NOVO LIDER PONTO CERTO",
+      "bairro": "VILA ANDRADE",
+      "cidade": "SAO PAULO",
+      "cnpj": "47.397.361/0001-87",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "232",
+      "nome_usur1": "ANDERSON CANAVEIS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "50644",
