@@ -101,9 +101,9 @@
       const vendedoresHtml = t.vendedores.map(v => `
         <tr>
           <td>${v.nome}</td>
-          <td style="color:var(--muted)">${v.rca}</td>
+          <td style="color:var(--muted)">${v.estado} · ${v.rca}</td>
           <td>${v.total_clientes}</td>
-          <td><a class="btn-ver" href="raiox_vendedor_detalhe.html?rca=${v.rca}">Ver detalhe →</a></td>
+          <td><a class="btn-ver" href="raiox_vendedor_detalhe.html?chave=${encodeURIComponent(v.chave)}">Ver detalhe →</a></td>
         </tr>
       `).join('') || '<tr><td colspan="4" style="color:var(--muted)">Nenhum vendedor neste time</td></tr>';
 
@@ -120,7 +120,7 @@
             <div>
               <div class="secao-mini">Vendedores</div>
               <table class="vendedores-table">
-                <thead><tr><th>Nome</th><th>RCA</th><th>Clientes</th><th></th></tr></thead>
+                <thead><tr><th>Nome</th><th>Estado · RCA</th><th>Clientes</th><th></th></tr></thead>
                 <tbody>${vendedoresHtml}</tbody>
               </table>
             </div>
