@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "21/07/2026 08:35",
+  "atualizado_em": "21/07/2026 09:35",
   "data_rota": "21.07",
   "vendedores": [
     {
@@ -10820,7 +10820,38 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "156003723",
+          "numnota": "",
+          "data": "21/07/2026",
+          "cliente": "J LOPES GONCALVES POSTO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 515.1,
+          "itens": [
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 5,
+              "val": 139.5
+            },
+            {
+              "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
+              "qt": 2,
+              "val": 249.8
+            },
+            {
+              "desc": "WHISKY BALLANTINE S FINEST 1L",
+              "qt": 2,
+              "val": 125.8
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "156003654",
