@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const RAIOX_VENDEDORES_DATA = {
-  "atualizado_em": "21/07/2026 18:12",
+  "atualizado_em": "21/07/2026 18:40",
   "times": [
     {
       "time": "KEY_ACCOUNT",
@@ -13,6 +13,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "RJ",
           "chave": "RJ-158",
           "nome": "Jose Marcelo Cardoso",
+          "gerente": "ALLAN PAES",
+          "supervisor": "DANIELLE MOURA",
           "total_clientes": 28,
           "cidades": [
             {
@@ -42,6 +44,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "RJ",
           "chave": "RJ-275",
           "nome": "Maria Luiza",
+          "gerente": "ALLAN PAES",
+          "supervisor": "DANIELLE MOURA",
           "total_clientes": 52,
           "cidades": [
             {
@@ -257,6 +261,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "RJ",
           "chave": "RJ-471",
           "nome": "Ana Clara Fassano",
+          "gerente": "ALLAN PAES",
+          "supervisor": "DANIELLE MOURA",
           "total_clientes": 73,
           "cidades": [
             {
@@ -270,6 +276,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "RJ",
           "chave": "RJ-153",
           "nome": "Angelo Neves Suzart",
+          "gerente": "ALLAN PAES",
+          "supervisor": "DANIELLE MOURA",
           "total_clientes": 70,
           "cidades": [
             {
@@ -339,6 +347,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "RJ",
           "chave": "RJ-412",
           "nome": "Barbara Cabral",
+          "gerente": "ALLAN PAES",
+          "supervisor": "DANIELLE MOURA",
           "total_clientes": 82,
           "cidades": [
             {
@@ -392,6 +402,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "RJ",
           "chave": "RJ-144",
           "nome": "Diogo Raposo",
+          "gerente": "ALLAN PAES",
+          "supervisor": "DANIELLE MOURA",
           "total_clientes": 74,
           "cidades": [
             {
@@ -417,6 +429,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "RJ",
           "chave": "RJ-450",
           "nome": "Leandro Souza",
+          "gerente": "ALLAN PAES",
+          "supervisor": "DANIELLE MOURA",
           "total_clientes": 64,
           "cidades": [
             {
@@ -482,6 +496,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "RJ",
           "chave": "RJ-439",
           "nome": "Mateus Cardoso",
+          "gerente": "ALLAN PAES",
+          "supervisor": "DANIELLE MOURA",
           "total_clientes": 57,
           "cidades": [
             {
@@ -515,6 +531,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "RJ",
           "chave": "RJ-419",
           "nome": "Natali de Oliveira",
+          "gerente": "ALLAN PAES",
+          "supervisor": "DANIELLE MOURA",
           "total_clientes": 58,
           "cidades": [
             {
@@ -666,6 +684,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "RJ",
           "chave": "RJ-431",
           "nome": "Adeilson Gonçalvez",
+          "gerente": "ALLAN PAES",
+          "supervisor": "DANIELLE MOURA",
           "total_clientes": 116,
           "cidades": [
             {
@@ -687,6 +707,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "RJ",
           "chave": "RJ-378",
           "nome": "Fabio Valotti",
+          "gerente": "ALLAN PAES",
+          "supervisor": "DANIELLE MOURA",
           "total_clientes": 63,
           "cidades": [
             {
@@ -716,6 +738,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "RJ",
           "chave": "RJ-379",
           "nome": "Jorge Maciel",
+          "gerente": "ALLAN PAES",
+          "supervisor": "DANIELLE MOURA",
           "total_clientes": 116,
           "cidades": [
             {
@@ -753,6 +777,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "RJ",
           "chave": "RJ-156",
           "nome": "Marilena Tragel",
+          "gerente": "ALLAN PAES",
+          "supervisor": "DANIELLE MOURA",
           "total_clientes": 230,
           "cidades": [
             {
@@ -916,6 +942,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-479",
           "nome": "ADELINO SANTOS",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "PRISCILLA BONACHE",
           "total_clientes": 0,
           "cidades": []
         },
@@ -924,6 +952,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-426",
           "nome": "ADER ALONSO",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "PRISCILLA BONACHE",
           "total_clientes": 74,
           "cidades": [
             {
@@ -1069,6 +1099,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-488",
           "nome": "ADRIANO VEZZANI",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "PRISCILLA BONACHE",
           "total_clientes": 3,
           "cidades": [
             {
@@ -1082,6 +1114,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "ES",
           "chave": "ES-440",
           "nome": "ALDICEIA PEIXOTO",
+          "gerente": "DANIEL DINIZ",
+          "supervisor": "DANIEL DINIZ",
           "total_clientes": 2,
           "cidades": [
             {
@@ -1099,6 +1133,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-511",
           "nome": "ALEXANDRE SOUZA",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "MARCUS TANAMACHI",
           "total_clientes": 11,
           "cidades": [
             {
@@ -1120,6 +1156,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-483",
           "nome": "ALEXANDRE TONON",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "PRISCILLA BONACHE",
           "total_clientes": 1,
           "cidades": [
             {
@@ -1133,6 +1171,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "RJ",
           "chave": "RJ-255",
           "nome": "ALEXSANDRO DOS SANTOS",
+          "gerente": "DANIEL DINIZ",
+          "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
           "cidades": []
         },
@@ -1141,6 +1181,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "RJ",
           "chave": "RJ-174",
           "nome": "ALLAN PAES",
+          "gerente": "ALLAN PAES",
+          "supervisor": "DANIELLE MOURA",
           "total_clientes": 5,
           "cidades": [
             {
@@ -1158,6 +1200,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-356",
           "nome": "ANA PAULA",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "MARCUS TANAMACHI",
           "total_clientes": 1,
           "cidades": [
             {
@@ -1171,6 +1215,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-232",
           "nome": "ANDERSON CANAVEIS",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "ANDERSON CANAVEIS",
           "total_clientes": 8,
           "cidades": [
             {
@@ -1192,6 +1238,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-492",
           "nome": "ANDERSON MOTTA",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "MARCUS TANAMACHI",
           "total_clientes": 7,
           "cidades": [
             {
@@ -1205,6 +1253,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-485",
           "nome": "ANDRE PINHEIRO",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "MARCUS TANAMACHI",
           "total_clientes": 6,
           "cidades": [
             {
@@ -1222,6 +1272,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-391",
           "nome": "ANDRE SILVA",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "ANDERSON CANAVEIS",
           "total_clientes": 29,
           "cidades": [
             {
@@ -1267,6 +1319,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "RJ",
           "chave": "RJ-146",
           "nome": "ANDRESSA BARROS FERREIRA",
+          "gerente": "DANIEL DINIZ",
+          "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
           "cidades": []
         },
@@ -1275,6 +1329,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "RJ",
           "chave": "RJ-161",
           "nome": "ARLLEY FIGUEIREDO",
+          "gerente": "DANIEL DINIZ",
+          "supervisor": "DANIEL DINIZ",
           "total_clientes": 2,
           "cidades": [
             {
@@ -1292,6 +1348,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "MG",
           "chave": "MG-362",
           "nome": "BRUNA CASTRO MELLO",
+          "gerente": "FERNANDO RISSON",
+          "supervisor": "FERNANDO RISSON",
           "total_clientes": 49,
           "cidades": [
             {
@@ -1325,6 +1383,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-425",
           "nome": "BRUNO BARBOSA",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "PRISCILLA BONACHE",
           "total_clientes": 40,
           "cidades": [
             {
@@ -1402,6 +1462,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "ES",
           "chave": "ES-458",
           "nome": "BRUNO COSMO",
+          "gerente": "EROCLES OLIVEIRA",
+          "supervisor": "SUPERVISOR OFF - ES",
           "total_clientes": 21,
           "cidades": [
             {
@@ -1427,6 +1489,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "RJ",
           "chave": "RJ-45",
           "nome": "BRUNO FRANCISCO",
+          "gerente": "DANIEL DINIZ",
+          "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
           "cidades": []
         },
@@ -1435,6 +1499,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-399",
           "nome": "BRYAN PALOPOLI",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "MARCUS TANAMACHI",
           "total_clientes": 577,
           "cidades": [
             {
@@ -1656,6 +1722,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-299",
           "nome": "BRYAN PALOPOLI  - INATIVO",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "MARCUS TANAMACHI",
           "total_clientes": 0,
           "cidades": []
         },
@@ -1664,6 +1732,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-371",
           "nome": "CARLOS DE ALMEIDA",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "ANDERSON CANAVEIS",
           "total_clientes": 54,
           "cidades": [
             {
@@ -1697,6 +1767,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "ES",
           "chave": "ES-376",
           "nome": "CARLOS TERRA",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "MARCUS TANAMACHI",
           "total_clientes": 2,
           "cidades": [
             {
@@ -1714,6 +1786,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-310",
           "nome": "CARLOS TERRA",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "MARCUS TANAMACHI",
           "total_clientes": 2,
           "cidades": [
             {
@@ -1727,6 +1801,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-493",
           "nome": "CAROLINA SOUZA",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "MARCUS TANAMACHI",
           "total_clientes": 29,
           "cidades": [
             {
@@ -1760,6 +1836,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-498",
           "nome": "CELSO OLIVEIRA",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "PRISCILLA BONACHE",
           "total_clientes": 15,
           "cidades": [
             {
@@ -1789,6 +1867,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-465",
           "nome": "CIARA PADULA",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "MARCUS TANAMACHI",
           "total_clientes": 21,
           "cidades": [
             {
@@ -1814,6 +1894,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "RJ",
           "chave": "RJ-170",
           "nome": "CLAUDIO NOBREGA",
+          "gerente": "DANIEL DINIZ",
+          "supervisor": "DANIEL DINIZ",
           "total_clientes": 7,
           "cidades": [
             {
@@ -1827,6 +1909,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-460",
           "nome": "CRISTIANE MORAIS",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "MARCUS TANAMACHI",
           "total_clientes": 56,
           "cidades": [
             {
@@ -1868,6 +1952,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-466",
           "nome": "DANIELLE DOS SANTOS",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "MARCUS TANAMACHI",
           "total_clientes": 22,
           "cidades": [
             {
@@ -1921,6 +2007,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "RJ",
           "chave": "RJ-238",
           "nome": "DANIELLE MOURA",
+          "gerente": "ALLAN PAES",
+          "supervisor": "DANIELLE MOURA",
           "total_clientes": 8,
           "cidades": [
             {
@@ -1946,6 +2034,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-496",
           "nome": "DEMETRIUS PELEGRINI",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "ANDERSON CANAVEIS",
           "total_clientes": 1,
           "cidades": [
             {
@@ -1959,6 +2049,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-432",
           "nome": "DIEGO PAULINO",
+          "gerente": "DANIEL DINIZ",
+          "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
           "cidades": []
         },
@@ -1967,6 +2059,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "RJ",
           "chave": "RJ-417",
           "nome": "DIRLEI ARAUJO",
+          "gerente": "ALLAN PAES",
+          "supervisor": "DANIELLE MOURA",
           "total_clientes": 0,
           "cidades": []
         },
@@ -1975,6 +2069,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "ES",
           "chave": "ES-260",
           "nome": "DOUGLAS SCHADE",
+          "gerente": "EROCLES OLIVEIRA",
+          "supervisor": "SUPERVISOR OFF - ES",
           "total_clientes": 33,
           "cidades": [
             {
@@ -2000,6 +2096,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-490",
           "nome": "DOUGLAS TEIXEIRA",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "PRISCILLA BONACHE",
           "total_clientes": 13,
           "cidades": [
             {
@@ -2045,6 +2143,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-495",
           "nome": "EDUARDO COUTO",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "MARCUS TANAMACHI",
           "total_clientes": 29,
           "cidades": [
             {
@@ -2118,6 +2218,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-462",
           "nome": "ELIZANGELA RODRIGUES",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "PRISCILLA BONACHE",
           "total_clientes": 1,
           "cidades": [
             {
@@ -2131,6 +2233,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "ES",
           "chave": "ES-230",
           "nome": "ENEIVA RODRIGUES",
+          "gerente": "EROCLES OLIVEIRA",
+          "supervisor": "SUPERVISOR BALCAO - ES",
           "total_clientes": 3,
           "cidades": [
             {
@@ -2148,6 +2252,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "ES",
           "chave": "ES-388",
           "nome": "EUDES MORGAN",
+          "gerente": "EROCLES OLIVEIRA",
+          "supervisor": "SUPERVISOR OFF - ES",
           "total_clientes": 72,
           "cidades": [
             {
@@ -2229,6 +2335,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-367",
           "nome": "FABIANO RIBEIRO",
+          "gerente": "DANIEL DINIZ",
+          "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
           "cidades": []
         },
@@ -2237,6 +2345,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "RJ",
           "chave": "RJ-173",
           "nome": "FERNANDA DE OLIVEIRA",
+          "gerente": "DANIEL DINIZ",
+          "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
           "cidades": []
         },
@@ -2245,6 +2355,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-489",
           "nome": "FERNANDO BERTIN",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "PRISCILLA BONACHE",
           "total_clientes": 18,
           "cidades": [
             {
@@ -2282,6 +2394,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "MG",
           "chave": "MG-343",
           "nome": "FERNANDO RISSON",
+          "gerente": "FERNANDO RISSON",
+          "supervisor": "FERNANDO RISSON",
           "total_clientes": 340,
           "cidades": [
             {
@@ -2623,6 +2737,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-472",
           "nome": "FLAVIO RIBEIRO",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "MARCUS TANAMACHI",
           "total_clientes": 17,
           "cidades": [
             {
@@ -2640,6 +2756,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-474",
           "nome": "FRANCIS SILVA",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "PRISCILLA BONACHE",
           "total_clientes": 14,
           "cidades": [
             {
@@ -2673,6 +2791,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "ES",
           "chave": "ES-370",
           "nome": "FRANZ BENEVIDES",
+          "gerente": "EROCLES OLIVEIRA",
+          "supervisor": "SUPERVISOR HIBRIDO ES",
           "total_clientes": 48,
           "cidades": [
             {
@@ -2722,6 +2842,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "RJ",
           "chave": "RJ-415",
           "nome": "FÁBIO OLIVEIRA",
+          "gerente": "DANIEL DINIZ",
+          "supervisor": "DANIEL DINIZ",
           "total_clientes": 1,
           "cidades": [
             {
@@ -2735,6 +2857,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "ES",
           "chave": "ES-402",
           "nome": "GILDO ADRIANO",
+          "gerente": "DANIEL DINIZ",
+          "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
           "cidades": []
         },
@@ -2743,6 +2867,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-491",
           "nome": "GILSON DE OLIVEIRA",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "PRISCILLA BONACHE",
           "total_clientes": 14,
           "cidades": [
             {
@@ -2772,6 +2898,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-504",
           "nome": "GILVAN AMORIM",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "PRISCILLA BONACHE",
           "total_clientes": 35,
           "cidades": [
             {
@@ -2841,6 +2969,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "RJ",
           "chave": "RJ-159",
           "nome": "GISELLE BARFER",
+          "gerente": "DANIEL DINIZ",
+          "supervisor": "DANIEL DINIZ",
           "total_clientes": 121,
           "cidades": [
             {
@@ -2914,6 +3044,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-406",
           "nome": "GONZALO LEIVA",
+          "gerente": "DANIEL DINIZ",
+          "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
           "cidades": []
         },
@@ -2922,6 +3054,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-502",
           "nome": "GUSTAVO MARTINS",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "ANDERSON CANAVEIS",
           "total_clientes": 46,
           "cidades": [
             {
@@ -2943,6 +3077,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-427",
           "nome": "HAMILTON BEVILACQUA",
+          "gerente": "DANIEL DINIZ",
+          "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
           "cidades": []
         },
@@ -2951,6 +3087,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "ES",
           "chave": "ES-398",
           "nome": "HUMBERTO DA SILVA",
+          "gerente": "EROCLES OLIVEIRA",
+          "supervisor": "SUPERVISOR HIBRIDO ES",
           "total_clientes": 0,
           "cidades": []
         },
@@ -2959,6 +3097,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-513",
           "nome": "IGOR OLIVEIRA",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "ANDERSON CANAVEIS",
           "total_clientes": 5,
           "cidades": [
             {
@@ -2980,6 +3120,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "RJ",
           "chave": "RJ-460",
           "nome": "IVANILDO MAIA",
+          "gerente": "ALLAN PAES",
+          "supervisor": "DANIELLE MOURA",
           "total_clientes": 7,
           "cidades": [
             {
@@ -2993,6 +3135,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "MG",
           "chave": "MG-335",
           "nome": "JANAIRA MARQUES",
+          "gerente": "FERNANDO RISSON",
+          "supervisor": "FERNANDO RISSON",
           "total_clientes": 0,
           "cidades": []
         },
@@ -3001,6 +3145,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "ES",
           "chave": "ES-336",
           "nome": "JEAN MENEZES",
+          "gerente": "EROCLES OLIVEIRA",
+          "supervisor": "SUPERVISOR HIBRIDO ES",
           "total_clientes": 61,
           "cidades": [
             {
@@ -3022,6 +3168,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-405",
           "nome": "JESSICA FREITAS",
+          "gerente": "DANIEL DINIZ",
+          "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
           "cidades": []
         },
@@ -3030,6 +3178,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-501",
           "nome": "JESSICA LIMA -  OFF TRADE",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "PRISCILLA BONACHE",
           "total_clientes": 0,
           "cidades": []
         },
@@ -3038,6 +3188,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-312",
           "nome": "JOAO LUPORINI",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "ANDERSON CANAVEIS",
           "total_clientes": 3,
           "cidades": [
             {
@@ -3051,6 +3203,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-431",
           "nome": "JOAO LUPORINI",
+          "gerente": "DANIEL DINIZ",
+          "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
           "cidades": []
         },
@@ -3059,6 +3213,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "RJ",
           "chave": "RJ-172",
           "nome": "JOAO PEDRO",
+          "gerente": "DANIEL DINIZ",
+          "supervisor": "DANIEL DINIZ",
           "total_clientes": 8,
           "cidades": [
             {
@@ -3076,6 +3232,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "ES",
           "chave": "ES-435",
           "nome": "JOAO VICTOR DA ROCHA",
+          "gerente": "DANIEL DINIZ",
+          "supervisor": "DANIEL DINIZ",
           "total_clientes": 1,
           "cidades": [
             {
@@ -3089,6 +3247,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-516",
           "nome": "JOAQUIM ANGELO",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "MARCUS TANAMACHI",
           "total_clientes": 10,
           "cidades": [
             {
@@ -3106,6 +3266,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-499",
           "nome": "JOSE SILVA",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "ANDERSON CANAVEIS",
           "total_clientes": 12,
           "cidades": [
             {
@@ -3131,6 +3293,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "ES",
           "chave": "ES-343",
           "nome": "JOSIETH LIMA",
+          "gerente": "EROCLES OLIVEIRA",
+          "supervisor": "SUPERVISOR HIBRIDO ES",
           "total_clientes": 14,
           "cidades": [
             {
@@ -3148,6 +3312,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "MG",
           "chave": "MG-327",
           "nome": "JOÃO SANTOS",
+          "gerente": "FERNANDO RISSON",
+          "supervisor": "FERNANDO RISSON",
           "total_clientes": 181,
           "cidades": [
             {
@@ -3181,6 +3347,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "RJ",
           "chave": "RJ-420",
           "nome": "KELLY RAMOS",
+          "gerente": "ALLAN PAES",
+          "supervisor": "DANIELLE MOURA",
           "total_clientes": 3,
           "cidades": [
             {
@@ -3194,6 +3362,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "MG",
           "chave": "MG-360",
           "nome": "LEANDRO OLIVEIRA",
+          "gerente": "FERNANDO RISSON",
+          "supervisor": "FERNANDO RISSON",
           "total_clientes": 26,
           "cidades": [
             {
@@ -3263,6 +3433,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-486",
           "nome": "LEONARDO FLOREZI",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "PRISCILLA BONACHE",
           "total_clientes": 51,
           "cidades": [
             {
@@ -3332,6 +3504,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-315",
           "nome": "LEONARDO MILAN",
+          "gerente": "DANIEL DINIZ",
+          "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
           "cidades": []
         },
@@ -3340,6 +3514,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "RJ",
           "chave": "RJ-416",
           "nome": "LORRAYNE SANTOS",
+          "gerente": "DANIEL DINIZ",
+          "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
           "cidades": []
         },
@@ -3348,6 +3524,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-475",
           "nome": "LUCAS BUENO",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "PRISCILLA BONACHE",
           "total_clientes": 15,
           "cidades": [
             {
@@ -3373,6 +3551,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "ES",
           "chave": "ES-265",
           "nome": "LUCAS LIMA",
+          "gerente": "EROCLES OLIVEIRA",
+          "supervisor": "SUPERVISOR OFF - ES",
           "total_clientes": 0,
           "cidades": []
         },
@@ -3381,6 +3561,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-505",
           "nome": "LUCELIA BARROS",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "ANDERSON CANAVEIS",
           "total_clientes": 1,
           "cidades": [
             {
@@ -3394,6 +3576,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-258",
           "nome": "LUCIANA DE OLIVEIRA",
+          "gerente": "DANIEL DINIZ",
+          "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
           "cidades": []
         },
@@ -3402,6 +3586,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-477",
           "nome": "LUCIANO TOSCHI",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "PRISCILLA BONACHE",
           "total_clientes": 24,
           "cidades": [
             {
@@ -3463,6 +3649,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-497",
           "nome": "LUIS MACHADO",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "ANDERSON CANAVEIS",
           "total_clientes": 39,
           "cidades": [
             {
@@ -3512,6 +3700,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "MG",
           "chave": "MG-542",
           "nome": "LUIZ FERNANDO SALGADO",
+          "gerente": "FERNANDO RISSON",
+          "supervisor": "FERNANDO RISSON",
           "total_clientes": 1,
           "cidades": [
             {
@@ -3525,6 +3715,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-487",
           "nome": "LUIZ RIGLER",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "PRISCILLA BONACHE",
           "total_clientes": 18,
           "cidades": [
             {
@@ -3566,6 +3758,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-433",
           "nome": "MANUELA ZAPPACOSTA",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "PRISCILLA BONACHE",
           "total_clientes": 85,
           "cidades": [
             {
@@ -3711,6 +3905,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "ES",
           "chave": "ES-335",
           "nome": "MARA DEPOLLI",
+          "gerente": "EROCLES OLIVEIRA",
+          "supervisor": "SUPERVISOR HIBRIDO ES",
           "total_clientes": 43,
           "cidades": [
             {
@@ -3740,6 +3936,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "ES",
           "chave": "ES-502",
           "nome": "MARCELO DE CAMPOS",
+          "gerente": "EROCLES OLIVEIRA",
+          "supervisor": "SUPERVISOR HIBRIDO ES",
           "total_clientes": 0,
           "cidades": []
         },
@@ -3748,6 +3946,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-392",
           "nome": "MARCELO DE CAMPOS",
+          "gerente": "DANIEL DINIZ",
+          "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
           "cidades": []
         },
@@ -3756,6 +3956,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "ES",
           "chave": "ES-508",
           "nome": "MARCELO DE SOUZA",
+          "gerente": "EROCLES OLIVEIRA",
+          "supervisor": "SUPERVISOR OFF - ES",
           "total_clientes": 8,
           "cidades": [
             {
@@ -3785,6 +3987,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-473",
           "nome": "MARCELO PEREIRA",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "PRISCILLA BONACHE",
           "total_clientes": 6,
           "cidades": [
             {
@@ -3814,6 +4018,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-313",
           "nome": "MARCELO SANCHEZ",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "MARCUS TANAMACHI",
           "total_clientes": 0,
           "cidades": []
         },
@@ -3822,6 +4028,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-438",
           "nome": "MARCIA RITA",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "ANDERSON CANAVEIS",
           "total_clientes": 6,
           "cidades": [
             {
@@ -3843,6 +4051,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-318",
           "nome": "MARCUS TANAMACHI",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "MARCUS TANAMACHI",
           "total_clientes": 2,
           "cidades": [
             {
@@ -3860,6 +4070,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-478",
           "nome": "MARIA PEREIRA",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "ANDERSON CANAVEIS",
           "total_clientes": 1,
           "cidades": [
             {
@@ -3873,6 +4085,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-428",
           "nome": "MARIO RAFAEL FERRARI",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "PRISCILLA BONACHE",
           "total_clientes": 2,
           "cidades": [
             {
@@ -3890,6 +4104,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-467",
           "nome": "MARLENE RODRIGUES",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "MARCUS TANAMACHI",
           "total_clientes": 17,
           "cidades": [
             {
@@ -3911,6 +4127,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "MG",
           "chave": "MG-354",
           "nome": "MATHEUS DE SOUZA",
+          "gerente": "FERNANDO RISSON",
+          "supervisor": "FERNANDO RISSON",
           "total_clientes": 80,
           "cidades": [
             {
@@ -3992,6 +4210,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "RJ",
           "chave": "RJ-405",
           "nome": "MAYCON COELHO FERRAZ",
+          "gerente": "DANIEL DINIZ",
+          "supervisor": "DANIEL DINIZ",
           "total_clientes": 2,
           "cidades": [
             {
@@ -4005,6 +4225,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-469",
           "nome": "PATRICIA RAMOS",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "PRISCILLA BONACHE",
           "total_clientes": 26,
           "cidades": [
             {
@@ -4038,6 +4260,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-464",
           "nome": "PATRICIO MASSAGARDI",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "ANDERSON CANAVEIS",
           "total_clientes": 10,
           "cidades": [
             {
@@ -4055,6 +4279,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-471",
           "nome": "PAULO JUNIOR",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "MARCUS TANAMACHI",
           "total_clientes": 19,
           "cidades": [
             {
@@ -4084,6 +4310,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-500",
           "nome": "PAULO MOREIRA",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "ANDERSON CANAVEIS",
           "total_clientes": 9,
           "cidades": [
             {
@@ -4109,6 +4337,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-470",
           "nome": "PRISCILLA BONACHE",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "PRISCILLA BONACHE",
           "total_clientes": 15,
           "cidades": [
             {
@@ -4146,6 +4376,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-319",
           "nome": "RAFAEL FONSECA",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "MARCUS TANAMACHI",
           "total_clientes": 0,
           "cidades": []
         },
@@ -4154,6 +4386,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-515",
           "nome": "RAFAEL REIS",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "ANDERSON CANAVEIS",
           "total_clientes": 4,
           "cidades": [
             {
@@ -4179,6 +4413,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "RJ",
           "chave": "RJ-155",
           "nome": "RAPHAEL SANTOS",
+          "gerente": "DANIEL DINIZ",
+          "supervisor": "DANIEL DINIZ",
           "total_clientes": 131,
           "cidades": [
             {
@@ -4236,6 +4472,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "ES",
           "chave": "ES-442",
           "nome": "RAQUEL ARAUJO",
+          "gerente": "EROCLES OLIVEIRA",
+          "supervisor": "SUPERVISOR HIBRIDO ES",
           "total_clientes": 30,
           "cidades": [
             {
@@ -4281,6 +4519,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-481",
           "nome": "RENAN SOUZA",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "PRISCILLA BONACHE",
           "total_clientes": 0,
           "cidades": []
         },
@@ -4289,6 +4529,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-468",
           "nome": "RENATO JUNIOR",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "MARCUS TANAMACHI",
           "total_clientes": 39,
           "cidades": [
             {
@@ -4322,6 +4564,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "ES",
           "chave": "ES-342",
           "nome": "RICARDO CLAUDIO",
+          "gerente": "EROCLES OLIVEIRA",
+          "supervisor": "SUPERVISOR HIBRIDO ES",
           "total_clientes": 22,
           "cidades": [
             {
@@ -4351,6 +4595,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-509",
           "nome": "ROBERTO DA SILVA",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "PRISCILLA BONACHE",
           "total_clientes": 8,
           "cidades": [
             {
@@ -4364,6 +4610,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-463",
           "nome": "ROBERTO DOS SANTOS",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "MARCUS TANAMACHI",
           "total_clientes": 29,
           "cidades": [
             {
@@ -4405,6 +4653,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-317",
           "nome": "ROBSON DA SILVA",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "ANDERSON CANAVEIS",
           "total_clientes": 15,
           "cidades": [
             {
@@ -4458,6 +4708,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-476",
           "nome": "RODRIGO LIMA",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "PRISCILLA BONACHE",
           "total_clientes": 63,
           "cidades": [
             {
@@ -4503,6 +4755,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "ES",
           "chave": "ES-268",
           "nome": "ROSENIR RIBEIRO",
+          "gerente": "DANIEL DINIZ",
+          "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
           "cidades": []
         },
@@ -4511,6 +4765,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "MG",
           "chave": "MG-331",
           "nome": "SAVIO NETO",
+          "gerente": "FERNANDO RISSON",
+          "supervisor": "FERNANDO RISSON",
           "total_clientes": 12,
           "cidades": [
             {
@@ -4528,6 +4784,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-461",
           "nome": "SUELY SANTOS",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "MARCUS TANAMACHI",
           "total_clientes": 34,
           "cidades": [
             {
@@ -4561,6 +4819,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "MG",
           "chave": "MG-344",
           "nome": "TIAGO ANDRADE",
+          "gerente": "FERNANDO RISSON",
+          "supervisor": "FERNANDO RISSON",
           "total_clientes": 114,
           "cidades": [
             {
@@ -4598,6 +4858,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "ES",
           "chave": "ES-257",
           "nome": "TIAGO SILVA",
+          "gerente": "EROCLES OLIVEIRA",
+          "supervisor": "SUPERVISOR HIBRIDO ES",
           "total_clientes": 0,
           "cidades": []
         },
@@ -4606,6 +4868,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-480",
           "nome": "VITORIA VIEIRA",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "ANDERSON CANAVEIS",
           "total_clientes": 0,
           "cidades": []
         },
@@ -4614,6 +4878,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "RJ",
           "chave": "RJ-91",
           "nome": "VIVIANI ALVES",
+          "gerente": "ALLAN PAES",
+          "supervisor": "DANIELLE MOURA",
           "total_clientes": 83,
           "cidades": [
             {
@@ -4687,6 +4953,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "RJ",
           "chave": "RJ-119",
           "nome": "VIVIANI ALVES",
+          "gerente": "ALLAN PAES",
+          "supervisor": "DANIELLE MOURA",
           "total_clientes": 1,
           "cidades": [
             {
@@ -4700,6 +4968,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "ES",
           "chave": "ES-341",
           "nome": "WANDERSON FERREIRA",
+          "gerente": "DANIEL DINIZ",
+          "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
           "cidades": []
         },
@@ -4708,6 +4978,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-429",
           "nome": "WANDO MACHADO",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "ANDERSON CANAVEIS",
           "total_clientes": 3,
           "cidades": [
             {
@@ -4725,6 +4997,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "MG",
           "chave": "MG-349",
           "nome": "WILLIAM ALVES DA SILVA",
+          "gerente": "FERNANDO RISSON",
+          "supervisor": "FERNANDO RISSON",
           "total_clientes": 11,
           "cidades": [
             {
@@ -4742,6 +5016,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "SP",
           "chave": "SP-512",
           "nome": "WILLIAM GONCALVES",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "ANDERSON CANAVEIS",
           "total_clientes": 22,
           "cidades": [
             {
@@ -4767,6 +5043,8 @@ const RAIOX_VENDEDORES_DATA = {
           "estado": "RJ",
           "chave": "RJ-241",
           "nome": "ZEINALDO DE OLIVEIRA",
+          "gerente": "DANIEL DINIZ",
+          "supervisor": "DANIEL DINIZ",
           "total_clientes": 37,
           "cidades": [
             {

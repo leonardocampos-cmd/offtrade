@@ -65,6 +65,20 @@
       border: 1px solid var(--border); border-radius: 7px; padding: 4px 9px; transition: all .15s;
     }
     .btn-ver:hover { border-color: var(--accent); background: rgba(245,197,24,.08); }
+    .resumo-filtros {
+      background: var(--card); border: 1px solid var(--border); border-radius: 14px;
+      padding: 16px 20px; margin-bottom: 18px; display: flex;
+    }
+    .filtros-wrap { display: flex; gap: 14px; flex-wrap: wrap; }
+    .filtro-vendedor { display: flex; flex-direction: column; gap: 5px; }
+    .filtro-vendedor label { font-size: .68rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+    .filtro-vendedor select {
+      padding: 8px 12px; border-radius: 8px; border: 1px solid var(--border);
+      background: var(--bg); color: var(--text); font-size: .85rem; outline: none;
+      min-width: 180px;
+    }
+    .filtro-vendedor select:focus { border-color: var(--accent); }
+    .sem-clientes { color: var(--muted); font-size: .85rem; text-align: center; padding: 24px; }
   </style>
 </head>
 <body>
@@ -79,8 +93,9 @@
   </header>
 
   <div class="container">
-    <div class="titulo">Raio X de Vendedores — Estrutura da Equipe (RJ)</div>
+    <div class="titulo">Raio X de Vendedores — Estrutura da Equipe</div>
     <div class="atualizacao" id="atualizacao">Carregando…</div>
+    <div class="resumo-filtros" id="filtros"></div>
     <div id="times"></div>
   </div>
 
@@ -88,50 +103,122 @@
     const data = RAIOX_VENDEDORES_DATA;
     document.getElementById('atualizacao').textContent = `Atualizado em ${data.atualizado_em}`;
 
-    document.getElementById('times').innerHTML = data.times.map(t => {
-      const maxRegiao = Math.max(...t.regioes.map(r => r.clientes), 1);
-      const regioesHtml = t.regioes.slice(0, 10).map(r => `
-        <div class="regiao-item">
-          <span>${r.cidade}</span>
-          <div class="regiao-bar-bg"><div class="regiao-bar-fill" style="width:${r.clientes / maxRegiao * 100}%"></div></div>
-          <span>${r.clientes}</span>
-        </div>
-      `).join('') || '<div class="regiao-item"><span>Sem dados de região</span></div>';
+    let filtroEstado = '', filtroGerente = '', filtroSupervisor = '';
 
-      const vendedoresHtml = t.vendedores.map(v => `
-        <tr>
-          <td>${v.nome}</td>
-          <td style="color:var(--muted)">${v.estado} · ${v.rca}</td>
-          <td>${v.total_clientes}</td>
-          <td><a class="btn-ver" href="raiox_vendedor_detalhe.html?chave=${encodeURIComponent(v.chave)}">Ver detalhe →</a></td>
-        </tr>
-      `).join('') || '<tr><td colspan="4" style="color:var(--muted)">Nenhum vendedor neste time</td></tr>';
+    function todosVendedores() {
+      return data.times.flatMap(t => t.vendedores);
+    }
 
-      return `
-        <div class="time-card">
-          <div class="time-header">
-            <div class="time-label">${t.label}</div>
-            <div class="time-kpis">
-              <div><b>${t.qtd_vendedores}</b> vendedor(es)</div>
-              <div><b>${t.total_clientes.toLocaleString('pt-BR')}</b> clientes atendidos</div>
-            </div>
-          </div>
-          <div class="conteudo-time">
-            <div>
-              <div class="secao-mini">Vendedores</div>
-              <table class="vendedores-table">
-                <thead><tr><th>Nome</th><th>Estado · RCA</th><th>Clientes</th><th></th></tr></thead>
-                <tbody>${vendedoresHtml}</tbody>
-              </table>
-            </div>
-            <div>
-              <div class="secao-mini">Distribuição por região (cidade)</div>
-              <div class="regioes-list">${regioesHtml}</div>
-            </div>
-          </div>
+    function vendedoresFiltrados(estado, gerente, supervisor) {
+      return todosVendedores().filter(v =>
+        (!estado || v.estado === estado) &&
+        (!gerente || v.gerente === gerente) &&
+        (!supervisor || v.supervisor === supervisor)
+      );
+    }
+
+    function montaFiltros() {
+      const selEstado = document.getElementById('f-estado');
+      const selGerente = document.getElementById('f-gerente');
+      const selSupervisor = document.getElementById('f-supervisor');
+
+      const estados = [...new Set(todosVendedores().map(v => v.estado))].sort();
+      selEstado.innerHTML = ['<option value="">Todos</option>']
+        .concat(estados.map(e => `<option value="${e}">${e}</option>`)).join('');
+      selEstado.value = filtroEstado;
+
+      const gerentes = [...new Set(vendedoresFiltrados(filtroEstado, '', '').map(v => v.gerente))].sort();
+      selGerente.innerHTML = ['<option value="">Todos</option>']
+        .concat(gerentes.map(g => `<option value="${g}">${g}</option>`)).join('');
+      selGerente.value = filtroGerente;
+
+      const supervisores = [...new Set(vendedoresFiltrados(filtroEstado, filtroGerente, '').map(v => v.supervisor))].sort();
+      selSupervisor.innerHTML = ['<option value="">Todos</option>']
+        .concat(supervisores.map(s => `<option value="${s}">${s}</option>`)).join('');
+      selSupervisor.value = filtroSupervisor;
+
+      selEstado.addEventListener('change', () => {
+        filtroEstado = selEstado.value; filtroGerente = ''; filtroSupervisor = '';
+        render();
+      });
+      selGerente.addEventListener('change', () => {
+        filtroGerente = selGerente.value; filtroSupervisor = '';
+        render();
+      });
+      selSupervisor.addEventListener('change', () => {
+        filtroSupervisor = selSupervisor.value;
+        render();
+      });
+    }
+
+    function render() {
+      document.getElementById('filtros').innerHTML = `
+        <div class="filtros-wrap">
+          <div class="filtro-vendedor"><label for="f-estado">Estado</label><select id="f-estado"></select></div>
+          <div class="filtro-vendedor"><label for="f-gerente">Gerente</label><select id="f-gerente"></select></div>
+          <div class="filtro-vendedor"><label for="f-supervisor">Supervisor</label><select id="f-supervisor"></select></div>
         </div>
       `;
-    }).join('');
+      montaFiltros();
+
+      const blocos = data.times.map(t => {
+        const vendedores = vendedoresFiltrados(filtroEstado, filtroGerente, filtroSupervisor)
+          .filter(v => t.vendedores.some(tv => tv.chave === v.chave));
+        if (!vendedores.length) return '';
+
+        const totalClientes = vendedores.reduce((s, v) => s + v.total_clientes, 0);
+        const regioesMap = {};
+        vendedores.forEach(v => (v.cidades || []).forEach(c => { regioesMap[c.cidade] = (regioesMap[c.cidade] || 0) + c.clientes; }));
+        const regioes = Object.entries(regioesMap).sort((a, b) => b[1] - a[1]).slice(0, 10).map(([cidade, clientes]) => ({ cidade, clientes }));
+        const maxRegiao = Math.max(...regioes.map(r => r.clientes), 1);
+
+        const regioesHtml = regioes.map(r => `
+          <div class="regiao-item">
+            <span>${r.cidade}</span>
+            <div class="regiao-bar-bg"><div class="regiao-bar-fill" style="width:${r.clientes / maxRegiao * 100}%"></div></div>
+            <span>${r.clientes}</span>
+          </div>
+        `).join('') || '<div class="regiao-item"><span>Sem dados de região</span></div>';
+
+        const vendedoresHtml = vendedores.sort((a, b) => a.nome.localeCompare(b.nome)).map(v => `
+          <tr>
+            <td>${v.nome}</td>
+            <td style="color:var(--muted)">${v.estado} · ${v.rca}</td>
+            <td>${v.total_clientes}</td>
+            <td><a class="btn-ver" href="raiox_vendedor_detalhe.html?chave=${encodeURIComponent(v.chave)}">Ver detalhe →</a></td>
+          </tr>
+        `).join('');
+
+        return `
+          <div class="time-card">
+            <div class="time-header">
+              <div class="time-label">${t.label}</div>
+              <div class="time-kpis">
+                <div><b>${vendedores.length}</b> vendedor(es)</div>
+                <div><b>${totalClientes.toLocaleString('pt-BR')}</b> clientes atendidos</div>
+              </div>
+            </div>
+            <div class="conteudo-time">
+              <div>
+                <div class="secao-mini">Vendedores</div>
+                <table class="vendedores-table">
+                  <thead><tr><th>Nome</th><th>Estado · RCA</th><th>Clientes</th><th></th></tr></thead>
+                  <tbody>${vendedoresHtml}</tbody>
+                </table>
+              </div>
+              <div>
+                <div class="secao-mini">Distribuição por região (cidade)</div>
+                <div class="regioes-list">${regioesHtml}</div>
+              </div>
+            </div>
+          </div>
+        `;
+      }).filter(Boolean).join('');
+
+      document.getElementById('times').innerHTML = blocos || '<div class="sem-clientes">Nenhum vendedor encontrado para este filtro.</div>';
+    }
+
+    render();
   </script>
 </body>
 </html>
