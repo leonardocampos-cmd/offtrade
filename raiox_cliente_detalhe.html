@@ -138,10 +138,66 @@
 
     const params = new URLSearchParams(location.search);
     const ramoFiltro = params.get('ramo') || '';
+    const vendedorFiltro = params.get('vendedor') || '';
+    const estadoFiltro = params.get('estado') || '';
+    const gerenteFiltro = params.get('gerente') || '';
+    const supervisorFiltro = params.get('supervisor') || '';
+    const temFiltro = !!(ramoFiltro || vendedorFiltro || estadoFiltro || gerenteFiltro || supervisorFiltro);
     let clienteAtual = null;
 
     function listaBase() {
-      return ramoFiltro ? data.clientes.filter(c => c.ramo === ramoFiltro) : data.clientes;
+      return data.clientes.filter(c => {
+        if (ramoFiltro && c.ramo !== ramoFiltro) return false;
+        if (vendedorFiltro && !c.vendedores_cadastro.some(v => `${c.estado}-${v.rca}` === vendedorFiltro)) return false;
+        if (estadoFiltro && c.estado !== estadoFiltro) return false;
+        if (gerenteFiltro && c.gerente !== gerenteFiltro) return false;
+        if (supervisorFiltro && c.supervisor !== supervisorFiltro) return false;
+        return true;
+      });
+    }
+
+    function nomeVendedorFiltro() {
+      if (!vendedorFiltro) return '';
+      for (const c of data.clientes) {
+        const v = c.vendedores_cadastro.find(x => `${c.estado}-${x.rca}` === vendedorFiltro);
+        if (v) return v.nome;
+      }
+      return vendedorFiltro;
+    }
+
+    function renderListaFiltrada() {
+      if (!temFiltro) return;
+      const lista = listaBase().sort((a, b) => b.faturamento_ytd - a.faturamento_ytd);
+      const filtrosHtml = [
+        estadoFiltro ? `<span class="tag">Estado: ${estadoFiltro}</span>` : '',
+        gerenteFiltro ? `<span class="tag">Gerente: ${gerenteFiltro}</span>` : '',
+        supervisorFiltro ? `<span class="tag">Supervisor: ${supervisorFiltro}</span>` : '',
+        ramoFiltro ? `<span class="tag">Ramo: ${ramoFiltro}</span>` : '',
+        vendedorFiltro ? `<span class="tag">Vendedor: ${nomeVendedorFiltro()}</span>` : '',
+      ].join('');
+
+      const linhas = lista.map(c => `
+        <tr data-chave="${c.chave}" style="cursor:pointer">
+          <td>${c.nome}</td>
+          <td style="color:var(--muted)">${c.estado} · ${c.cidade}</td>
+          <td style="text-align:right">${brl(c.faturamento_ytd)}</td>
+        </tr>
+      `).join('') || '<tr><td colspan="3" style="color:var(--muted)">Nenhum cliente encontrado para este filtro.</td></tr>';
+
+      document.getElementById('conteudo').innerHTML = `
+        <div class="card">
+          <div class="card-titulo">Clientes filtrados (${lista.length}) ${filtrosHtml}</div>
+          <div class="historico-wrap">
+            <table>
+              <thead><tr><th>Cliente</th><th>Estado · Cidade</th><th style="text-align:right">Faturamento YTD</th></tr></thead>
+              <tbody>${linhas}</tbody>
+            </table>
+          </div>
+        </div>
+      `;
+      document.querySelectorAll('#conteudo tr[data-chave]').forEach(el => {
+        el.addEventListener('click', () => selecionarCliente(el.dataset.chave));
+      });
     }
 
     function renderSugestoes(termo) {
@@ -303,7 +359,11 @@
     document.getElementById('conteudo').innerHTML = '<div class="sem-selecao">Busque um cliente pelo nome acima para ver o Raio X completo.</div>';
 
     const chaveUrl = params.get('chave');
-    if (chaveUrl) selecionarCliente(chaveUrl);
+    if (chaveUrl) {
+      selecionarCliente(chaveUrl);
+    } else if (temFiltro) {
+      renderListaFiltrada();
+    }
   </script>
 </body>
 </html>
