@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "21/07/2026 09:48",
-  "total": 4043,
+  "atualizado_em": "21/07/2026 12:26",
+  "total": 4052,
   "clientes": [
     {
       "codcli": "31683",
@@ -1088,6 +1088,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "482",
       "nome_usur1": "NÁTALI DE OLIVEIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "72530",
+      "razao": "38.494.727 CARLA CRISTINA RODRIGUES LIMA",
+      "fantasia": "38.494.727 CARLA CRISTINA RODRIGUES LIMA",
+      "bairro": "CATUMBI",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "38.494.727/0001-45",
+      "estado": "RJ",
+      "ramo": "BAR",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "378",
+      "nome_usur1": "FABIO VALOTTI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -2340,6 +2356,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
+      "codcli": "51945",
+      "razao": "53.460.470 JAQUELINE CRISTINA DA SILVA RODRIGUES",
+      "fantasia": "53.460.470 JAQUELINE CRISTINA DA SILVA RODRIGUES",
+      "bairro": "JARDIM FLAMBOYANT",
+      "cidade": "BOTUCATU",
+      "cnpj": "53.460.470/0001-02",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "79160",
       "razao": "53.530.578 RICIELLE DE OLIVEIRA SOUZA",
       "fantasia": "RICIELLE DE OLIVEIRA SOUZA",
@@ -3040,6 +3072,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "474",
       "nome_usur1": "FRANCIS SILVA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "79715",
+      "razao": "57.680.658 JOAO PAULO DA SILVA FILHO",
+      "fantasia": "JOAO PAULO DA SILVA FILHO",
+      "bairro": "PARQUE ANCHIETA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "57.680.658/0001-09",
+      "estado": "RJ",
+      "ramo": "BAR",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "379",
+      "nome_usur1": "JORGE MACIEL - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -3924,6 +3972,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "93328",
+      "razao": "64.877.489 MARILEIDE BORGES DE OMENA",
+      "fantasia": "MARILEIDE BORGES DE OMENA",
+      "bairro": "MIRAMAR",
+      "cidade": "MACAE",
+      "cnpj": "64.877.489/0001-67",
+      "estado": "RJ",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "94837",
       "razao": "65.295.756 JHONATHAN AXEL GONCALVES FONTINELI FONSECA",
       "fantasia": "JHONATHAN AXEL GONCALVES FONTINELI",
@@ -4688,6 +4752,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "511",
       "nome_usur1": "ALEXANDRE SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51182",
+      "razao": "A. MARIA LUCIO CARNIETTO LTDA",
+      "fantasia": "A. MARIA LUCIO CARNIETTO",
+      "bairro": "VILA PAULISTA",
+      "cidade": "BOTUCATU",
+      "cnpj": "66.021.170/0001-60",
+      "estado": "SP",
+      "ramo": "BAR",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -7152,6 +7232,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "476",
       "nome_usur1": "RODRIGO LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "46649",
+      "razao": "AMERICA DISTRIBUICAO E LOGISTICA LTDA",
+      "fantasia": "AMERICA DISTRIBUICAO & LOGISTICA",
+      "bairro": "POIARES",
+      "cidade": "CARAGUATATUBA",
+      "cnpj": "40.102.783/0001-39",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "516",
+      "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -15508,6 +15604,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "51946",
+      "razao": "COMERCIAL DE ALIMENTOS IDEIAL LTDA",
+      "fantasia": "COMERCIAL DE ALIMENTOS IDEIAL",
+      "bairro": "CONJUNTO HABITACIONAL TERRA DOS IPES",
+      "cidade": "PINDAMONHANGABA",
+      "cnpj": "52.662.246/0001-22",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "472",
+      "nome_usur1": "FLAVIO RIBEIRO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "50268",
       "razao": "COMERCIAL DE ALIMENTOS IRMAOS MAIA LTDA",
       "fantasia": "MERCADINHO DA DINHA",
@@ -18082,22 +18194,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
-    },
-    {
-      "codcli": "2218",
-      "razao": "DELI BOTAFOGO LTDA EPP",
-      "fantasia": "LE DEPANNEUR BOTAFOGO",
-      "bairro": "BOTAFOGO",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "20.364.502/0001-09",
-      "estado": "RJ",
-      "ramo": "CAFETERIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "471",
-      "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
-      "codusur2": "316",
-      "nome_usur2": "RODRIGO FREITAS"
     },
     {
       "codcli": "76806",
@@ -22560,6 +22656,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "476",
       "nome_usur1": "RODRIGO LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51944",
+      "razao": "ERIK WILLIAM LIMA DA CRUZ MINIMERCADO",
+      "fantasia": "ERIK WILLIAM LIMA DA CRUZ MINIMERCADO",
+      "bairro": "UMUARAMA",
+      "cidade": "UBATUBA",
+      "cnpj": "43.631.789/0001-91",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "516",
+      "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -44004,6 +44116,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "79973",
+      "razao": "N T F MERCADO E DISTRIBUIDORA LTDA.",
+      "fantasia": "NTF MERCADO",
+      "bairro": "CENTRO",
+      "cidade": "CABO FRIO",
+      "cnpj": "50.224.033/0001-93",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "43",
+      "nome_usur2": "SOUZA"
+    },
+    {
       "codcli": "30223",
       "razao": "N.R DISTRIBUIDORA DE BEBIDAS E ALIMENTOS LIMITADA",
       "fantasia": "ATACADO DO GUANDU",
@@ -44166,12 +44294,12 @@ const CLIENTES_RCA_DATA = {
     {
       "codcli": "70802",
       "razao": "NASOLI COMERCIO DE BEBIDAS LTDA",
-      "fantasia": "NASOLI COMERCIO DE BEBIDAS LTDA",
+      "fantasia": "NASOLI COMERCIO DE BEBIDAS",
       "bairro": "NOVA CIDADE",
       "cidade": "NILOPOLIS",
       "cnpj": "39.952.831/0001-07",
       "estado": "RJ",
-      "ramo": "BAR",
+      "ramo": "ADEGA",
       "key_account": false,
       "rede": "",
       "codusur1": "379",
@@ -59382,6 +59510,22 @@ const CLIENTES_RCA_DATA = {
     {
       "codcli": "18606",
       "razao": "SUPERMERCADO SAO TARCISIO LTDA",
+      "fantasia": "SUPERMERCADO SAO TARCISIO",
+      "bairro": "SEPETIBA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "32.916.969/0001-01",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "450",
+      "nome_usur1": "LEANDRO SOUZA - OFF TRADE",
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
+    },
+    {
+      "codcli": "18606",
+      "razao": "SUPERMERCADO SAO TARCISIO LTDA",
       "fantasia": "SUPERMERCADO SAO TARCISIO LTDA",
       "bairro": "SEPETIBA",
       "cidade": "RIO DE JANEIRO",
@@ -60396,7 +60540,7 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "36.525.319/0001-88",
       "estado": "RJ",
       "ramo": "MERCADO",
-      "key_account": false,
+      "key_account": true,
       "rede": "REDE ECONOMIA",
       "codusur1": "158",
       "nome_usur1": "JOSE MARCELO CARDOSO - OFF TRADE",
