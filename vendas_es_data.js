@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "21/07/2026 16:32",
+  "atualizado_em": "21/07/2026 17:49",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -402,7 +402,7 @@ const VENDAS_ES_DATA = {
     },
     "MARCELO DE SOUZA": {
       "Jul/26": {
-        "fat": 109175.88,
+        "fat": 112439.88,
         "pos": 8,
         "fat_ant": 1224.0
       },
@@ -7219,26 +7219,6 @@ const VENDAS_ES_DATA = {
           "offtrade": true
         },
         {
-          "data": "23/03/2026",
-          "codcli": "84916",
-          "cliente": "JOSE MANOEL FONSECA JORDAIM",
-          "produto": "DP BOMBOM DADINHO ESPEC 198G",
-          "fantasia": "DADINHO",
-          "qt": 4,
-          "valor": 39.2,
-          "offtrade": true
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "89979",
-          "cliente": "RAYSSA DA SILVA ALVES",
-          "produto": "PF MENTOS GF P.FRESH MINT DP/6",
-          "fantasia": "MENTOS",
-          "qt": 1,
-          "valor": 60.54,
-          "offtrade": true
-        },
-        {
           "data": "04/03/2026",
           "codcli": "86246",
           "cliente": "PADARIA BICHO PAPAO LTDA",
@@ -9366,6 +9346,26 @@ const VENDAS_ES_DATA = {
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 40.8,
+          "offtrade": true
+        },
+        {
+          "data": "23/03/2026",
+          "codcli": "84916",
+          "cliente": "JOSE MANOEL FONSECA JORDAIM",
+          "produto": "DP BOMBOM DADINHO ESPEC 198G",
+          "fantasia": "DADINHO",
+          "qt": 4,
+          "valor": 39.2,
+          "offtrade": true
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "89979",
+          "cliente": "RAYSSA DA SILVA ALVES",
+          "produto": "PF MENTOS GF P.FRESH MINT DP/6",
+          "fantasia": "MENTOS",
+          "qt": 1,
+          "valor": 60.54,
           "offtrade": true
         },
         {
@@ -14193,66 +14193,6 @@ const VENDAS_ES_DATA = {
           "offtrade": true
         },
         {
-          "data": "11/05/2026",
-          "codcli": "76102",
-          "cliente": "ERICA SASSEMBURG",
-          "produto": "PF MENTOS STICK 14 B. FR.VER DP/16",
-          "fantasia": "MENTOS",
-          "qt": 1,
-          "valor": 32.64,
-          "offtrade": true
-        },
-        {
-          "data": "08/05/2026",
-          "codcli": "93334",
-          "cliente": "SHAMAH COMERCIO DE PRODUTOS FARMACEUTICOS LTDA",
-          "produto": "PF MENTOS STICK 14 B. FRUTAS DP/16",
-          "fantasia": "MENTOS",
-          "qt": 1,
-          "valor": 32.64,
-          "offtrade": true
-        },
-        {
-          "data": "11/05/2026",
-          "codcli": "76102",
-          "cliente": "ERICA SASSEMBURG",
-          "produto": "PF MENTOS STICK 14 B. FRUTAS DP/16",
-          "fantasia": "MENTOS",
-          "qt": 1,
-          "valor": 32.64,
-          "offtrade": true
-        },
-        {
-          "data": "12/05/2026",
-          "codcli": "84597",
-          "cliente": "MAIS PAES PANIFICADORA LTDA",
-          "produto": "PF MENTOS STICK 14 B. FRUTAS DP/16",
-          "fantasia": "MENTOS",
-          "qt": 1,
-          "valor": 32.64,
-          "offtrade": true
-        },
-        {
-          "data": "20/05/2026",
-          "codcli": "84551",
-          "cliente": "PADARIA E CONFEITARIA PAO DA VIDA LTDA",
-          "produto": "PF MENTOS STICK 14 B. FRUTAS DP/16",
-          "fantasia": "MENTOS",
-          "qt": 1,
-          "valor": 32.64,
-          "offtrade": true
-        },
-        {
-          "data": "20/05/2026",
-          "codcli": "84551",
-          "cliente": "PADARIA E CONFEITARIA PAO DA VIDA LTDA",
-          "produto": "PF MENTOS STICK 14 B. MINT DP/16",
-          "fantasia": "MENTOS",
-          "qt": 1,
-          "valor": 32.64,
-          "offtrade": true
-        },
-        {
           "data": "05/05/2026",
           "codcli": "76398",
           "cliente": "ONDA SHOP LOJA DE CONVENIENCIA BAR E RESTAURANTE LTDA",
@@ -14740,6 +14680,66 @@ const VENDAS_ES_DATA = {
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 112.5,
+          "offtrade": true
+        },
+        {
+          "data": "11/05/2026",
+          "codcli": "76102",
+          "cliente": "ERICA SASSEMBURG",
+          "produto": "PF MENTOS STICK 14 B. FR.VER DP/16",
+          "fantasia": "MENTOS",
+          "qt": 1,
+          "valor": 32.64,
+          "offtrade": true
+        },
+        {
+          "data": "08/05/2026",
+          "codcli": "93334",
+          "cliente": "SHAMAH COMERCIO DE PRODUTOS FARMACEUTICOS LTDA",
+          "produto": "PF MENTOS STICK 14 B. FRUTAS DP/16",
+          "fantasia": "MENTOS",
+          "qt": 1,
+          "valor": 32.64,
+          "offtrade": true
+        },
+        {
+          "data": "11/05/2026",
+          "codcli": "76102",
+          "cliente": "ERICA SASSEMBURG",
+          "produto": "PF MENTOS STICK 14 B. FRUTAS DP/16",
+          "fantasia": "MENTOS",
+          "qt": 1,
+          "valor": 32.64,
+          "offtrade": true
+        },
+        {
+          "data": "12/05/2026",
+          "codcli": "84597",
+          "cliente": "MAIS PAES PANIFICADORA LTDA",
+          "produto": "PF MENTOS STICK 14 B. FRUTAS DP/16",
+          "fantasia": "MENTOS",
+          "qt": 1,
+          "valor": 32.64,
+          "offtrade": true
+        },
+        {
+          "data": "20/05/2026",
+          "codcli": "84551",
+          "cliente": "PADARIA E CONFEITARIA PAO DA VIDA LTDA",
+          "produto": "PF MENTOS STICK 14 B. FRUTAS DP/16",
+          "fantasia": "MENTOS",
+          "qt": 1,
+          "valor": 32.64,
+          "offtrade": true
+        },
+        {
+          "data": "20/05/2026",
+          "codcli": "84551",
+          "cliente": "PADARIA E CONFEITARIA PAO DA VIDA LTDA",
+          "produto": "PF MENTOS STICK 14 B. MINT DP/16",
+          "fantasia": "MENTOS",
+          "qt": 1,
+          "valor": 32.64,
           "offtrade": true
         },
         {
@@ -15871,16 +15871,6 @@ const VENDAS_ES_DATA = {
           "offtrade": true
         },
         {
-          "data": "23/03/2026",
-          "codcli": "93857",
-          "cliente": "ARLON DA SILVA FURTADO",
-          "produto": "DP DADINHO ZERO ACUCAR 90G",
-          "fantasia": "DADINHO",
-          "qt": 1,
-          "valor": 9.81,
-          "offtrade": true
-        },
-        {
           "data": "04/03/2026",
           "codcli": "21162",
           "cliente": "IPAMAR COMERCIAL LTDA",
@@ -15978,6 +15968,16 @@ const VENDAS_ES_DATA = {
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 44.02,
+          "offtrade": true
+        },
+        {
+          "data": "23/03/2026",
+          "codcli": "93857",
+          "cliente": "ARLON DA SILVA FURTADO",
+          "produto": "DP DADINHO ZERO ACUCAR 90G",
+          "fantasia": "DADINHO",
+          "qt": 1,
+          "valor": 9.81,
           "offtrade": true
         },
         {
@@ -24915,56 +24915,6 @@ const VENDAS_ES_DATA = {
           "offtrade": true
         },
         {
-          "data": "19/03/2026",
-          "codcli": "86540",
-          "cliente": "59.867.585 JOELMA PEREIRA SANTOS DE OLIVEIRA",
-          "produto": "DP GAMADINHO TRAD 60G",
-          "fantasia": "DADINHO",
-          "qt": 22,
-          "valor": 79.64,
-          "offtrade": true
-        },
-        {
-          "data": "24/03/2026",
-          "codcli": "85346",
-          "cliente": "ALDEMAR TEIXEIRA RIBEIRO FILHO",
-          "produto": "DP GAMADINHO TRAD 60G",
-          "fantasia": "DADINHO",
-          "qt": 15,
-          "valor": 54.3,
-          "offtrade": true
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "82386",
-          "cliente": "RIVA SERVICOS LTDA",
-          "produto": "DP GAMADINHO TRAD 60G",
-          "fantasia": "DADINHO",
-          "qt": 1,
-          "valor": 3.62,
-          "offtrade": true
-        },
-        {
-          "data": "27/03/2026",
-          "codcli": "84840",
-          "cliente": "ERICA RAMOS OLIVEIRA 18736185736",
-          "produto": "DP GAMADINHO TRAD 60G",
-          "fantasia": "DADINHO",
-          "qt": 6,
-          "valor": 21.72,
-          "offtrade": true
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "81322",
-          "cliente": "22.532.974 SAMARA XAVIER FERNANDES COSTA",
-          "produto": "DP GAMADINHO TRAD 60G",
-          "fantasia": "DADINHO",
-          "qt": 3,
-          "valor": 9.43,
-          "offtrade": true
-        },
-        {
           "data": "31/03/2026",
           "codcli": "74864",
           "cliente": "AUTO SERVICO FAE LTDA",
@@ -26072,6 +26022,56 @@ const VENDAS_ES_DATA = {
           "fantasia": "NATIKOS",
           "qt": 1,
           "valor": 38.58,
+          "offtrade": true
+        },
+        {
+          "data": "19/03/2026",
+          "codcli": "86540",
+          "cliente": "59.867.585 JOELMA PEREIRA SANTOS DE OLIVEIRA",
+          "produto": "DP GAMADINHO TRAD 60G",
+          "fantasia": "DADINHO",
+          "qt": 22,
+          "valor": 79.64,
+          "offtrade": true
+        },
+        {
+          "data": "24/03/2026",
+          "codcli": "85346",
+          "cliente": "ALDEMAR TEIXEIRA RIBEIRO FILHO",
+          "produto": "DP GAMADINHO TRAD 60G",
+          "fantasia": "DADINHO",
+          "qt": 15,
+          "valor": 54.3,
+          "offtrade": true
+        },
+        {
+          "data": "27/03/2026",
+          "codcli": "82386",
+          "cliente": "RIVA SERVICOS LTDA",
+          "produto": "DP GAMADINHO TRAD 60G",
+          "fantasia": "DADINHO",
+          "qt": 1,
+          "valor": 3.62,
+          "offtrade": true
+        },
+        {
+          "data": "27/03/2026",
+          "codcli": "84840",
+          "cliente": "ERICA RAMOS OLIVEIRA 18736185736",
+          "produto": "DP GAMADINHO TRAD 60G",
+          "fantasia": "DADINHO",
+          "qt": 6,
+          "valor": 21.72,
+          "offtrade": true
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "81322",
+          "cliente": "22.532.974 SAMARA XAVIER FERNANDES COSTA",
+          "produto": "DP GAMADINHO TRAD 60G",
+          "fantasia": "DADINHO",
+          "qt": 3,
+          "valor": 9.43,
           "offtrade": true
         },
         {
@@ -30913,16 +30913,6 @@ const VENDAS_ES_DATA = {
           "offtrade": true
         },
         {
-          "data": "31/03/2026",
-          "codcli": "94250",
-          "cliente": "PATRICIA REGINA DE ARAÚJO",
-          "produto": "DP PACOCA DADINHO ZERO 8X18G",
-          "fantasia": "DADINHO",
-          "qt": 2,
-          "valor": 19.12,
-          "offtrade": true
-        },
-        {
           "data": "10/03/2026",
           "codcli": "91826",
           "cliente": "COMERCIAL DEVENS LTDA",
@@ -31973,6 +31963,16 @@ const VENDAS_ES_DATA = {
           "offtrade": true
         },
         {
+          "data": "31/03/2026",
+          "codcli": "94250",
+          "cliente": "PATRICIA REGINA DE ARAÚJO",
+          "produto": "DP PACOCA DADINHO ZERO 8X18G",
+          "fantasia": "DADINHO",
+          "qt": 2,
+          "valor": 19.12,
+          "offtrade": true
+        },
+        {
           "data": "24/03/2026",
           "codcli": "94126",
           "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
@@ -32725,26 +32725,6 @@ const VENDAS_ES_DATA = {
           "offtrade": true
         },
         {
-          "data": "13/05/2026",
-          "codcli": "85056",
-          "cliente": "ACOUGUE E MERCEARIA RAMPINELLI LTDA",
-          "produto": "DP GAMADINHO TRAD 420G",
-          "fantasia": "DADINHO",
-          "qt": 1,
-          "valor": 17.94,
-          "offtrade": true
-        },
-        {
-          "data": "13/05/2026",
-          "codcli": "85056",
-          "cliente": "ACOUGUE E MERCEARIA RAMPINELLI LTDA",
-          "produto": "DP BOMBOM GAMADINHO ESPEC 198G",
-          "fantasia": "DADINHO",
-          "qt": 4,
-          "valor": 45.89,
-          "offtrade": true
-        },
-        {
           "data": "08/05/2026",
           "codcli": "85951",
           "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
@@ -33232,6 +33212,26 @@ const VENDAS_ES_DATA = {
           "fantasia": "NATIKOS",
           "qt": 1,
           "valor": 101.49,
+          "offtrade": true
+        },
+        {
+          "data": "13/05/2026",
+          "codcli": "85056",
+          "cliente": "ACOUGUE E MERCEARIA RAMPINELLI LTDA",
+          "produto": "DP GAMADINHO TRAD 420G",
+          "fantasia": "DADINHO",
+          "qt": 1,
+          "valor": 17.94,
+          "offtrade": true
+        },
+        {
+          "data": "13/05/2026",
+          "codcli": "85056",
+          "cliente": "ACOUGUE E MERCEARIA RAMPINELLI LTDA",
+          "produto": "DP BOMBOM GAMADINHO ESPEC 198G",
+          "fantasia": "DADINHO",
+          "qt": 4,
+          "valor": 45.89,
           "offtrade": true
         },
         {
@@ -33817,76 +33817,6 @@ const VENDAS_ES_DATA = {
           "offtrade": true
         },
         {
-          "data": "19/06/2026",
-          "codcli": "71515",
-          "cliente": "ORIUNDI SUPERMERCADOS LTDA",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 5,
-          "valor": 678.6,
-          "offtrade": true
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "71539",
-          "cliente": "ORIUNDI SUPERMERCADOS LTDA",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 5,
-          "valor": 678.6,
-          "offtrade": true
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "71515",
-          "cliente": "ORIUNDI SUPERMERCADOS LTDA",
-          "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 5,
-          "valor": 773.4,
-          "offtrade": true
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "71539",
-          "cliente": "ORIUNDI SUPERMERCADOS LTDA",
-          "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 5,
-          "valor": 773.4,
-          "offtrade": true
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "71515",
-          "cliente": "ORIUNDI SUPERMERCADOS LTDA",
-          "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 5,
-          "valor": 773.4,
-          "offtrade": true
-        },
-        {
-          "data": "24/06/2026",
-          "codcli": "71539",
-          "cliente": "ORIUNDI SUPERMERCADOS LTDA",
-          "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 5,
-          "valor": 773.4,
-          "offtrade": true
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "71515",
-          "cliente": "ORIUNDI SUPERMERCADOS LTDA",
-          "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 215.04,
-          "offtrade": true
-        },
-        {
           "data": "30/06/2026",
           "codcli": "85951",
           "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
@@ -34264,6 +34194,76 @@ const VENDAS_ES_DATA = {
           "fantasia": "PINATI",
           "qt": 4,
           "valor": 448.4,
+          "offtrade": true
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "71515",
+          "cliente": "ORIUNDI SUPERMERCADOS LTDA",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 5,
+          "valor": 678.6,
+          "offtrade": true
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "71539",
+          "cliente": "ORIUNDI SUPERMERCADOS LTDA",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 5,
+          "valor": 678.6,
+          "offtrade": true
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "71515",
+          "cliente": "ORIUNDI SUPERMERCADOS LTDA",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 5,
+          "valor": 773.4,
+          "offtrade": true
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "71539",
+          "cliente": "ORIUNDI SUPERMERCADOS LTDA",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 5,
+          "valor": 773.4,
+          "offtrade": true
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "71515",
+          "cliente": "ORIUNDI SUPERMERCADOS LTDA",
+          "produto": "NAVEIA CHOCOLATE 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 5,
+          "valor": 773.4,
+          "offtrade": true
+        },
+        {
+          "data": "24/06/2026",
+          "codcli": "71539",
+          "cliente": "ORIUNDI SUPERMERCADOS LTDA",
+          "produto": "NAVEIA CHOCOLATE 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 5,
+          "valor": 773.4,
+          "offtrade": true
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "71515",
+          "cliente": "ORIUNDI SUPERMERCADOS LTDA",
+          "produto": "CREME DE LEITE NAVEIA 24X200G",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 215.04,
           "offtrade": true
         },
         {
@@ -40377,26 +40377,6 @@ const VENDAS_ES_DATA = {
           "offtrade": true
         },
         {
-          "data": "31/03/2026",
-          "codcli": "94282",
-          "cliente": "PETIT DOCERIA LTDA",
-          "produto": "MIX PRATICO 6X1KG",
-          "fantasia": "PRATICO",
-          "qt": 4,
-          "valor": 560.16,
-          "offtrade": true
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "81831",
-          "cliente": "PAO FRANCES PADARIA E CATERING LTDA",
-          "produto": "PF MENTOS STICK 14 B. RAINBOW DP/16",
-          "fantasia": "MENTOS",
-          "qt": 1,
-          "valor": 32.64,
-          "offtrade": true
-        },
-        {
           "data": "04/03/2026",
           "codcli": "71359",
           "cliente": "J.S. PETROLEO E COMERCIO LTDA",
@@ -41014,6 +40994,26 @@ const VENDAS_ES_DATA = {
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 40.88,
+          "offtrade": true
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "94282",
+          "cliente": "PETIT DOCERIA LTDA",
+          "produto": "MIX PRATICO 6X1KG",
+          "fantasia": "PRATICO",
+          "qt": 4,
+          "valor": 560.16,
+          "offtrade": true
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "81831",
+          "cliente": "PAO FRANCES PADARIA E CATERING LTDA",
+          "produto": "PF MENTOS STICK 14 B. RAINBOW DP/16",
+          "fantasia": "MENTOS",
+          "qt": 1,
+          "valor": 32.64,
           "offtrade": true
         },
         {
@@ -46601,136 +46601,6 @@ const VENDAS_ES_DATA = {
           "offtrade": true
         },
         {
-          "data": "28/04/2026",
-          "codcli": "21015",
-          "cliente": "LA DOLINA RESTAURANTE LTDA",
-          "produto": "DP PACOCA GAMADINHO POTE 50X15G",
-          "fantasia": "DADINHO",
-          "qt": 2,
-          "valor": 60.1,
-          "offtrade": true
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "71359",
-          "cliente": "J.S. PETROLEO E COMERCIO LTDA",
-          "produto": "PF FRUTTELLA MAST.MOR.NAT DP/16",
-          "fantasia": "MENTOS",
-          "qt": 2,
-          "valor": 65.76,
-          "offtrade": true
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "71359",
-          "cliente": "J.S. PETROLEO E COMERCIO LTDA",
-          "produto": "PF FRUTTELLA SWIRL CARAMELO DP/15",
-          "fantasia": "MENTOS",
-          "qt": 1,
-          "valor": 32.88,
-          "offtrade": true
-        },
-        {
-          "data": "23/04/2026",
-          "codcli": "82771",
-          "cliente": "HORTIFRUTI TAMANHON LTDA",
-          "produto": "PF FRUTTELLA SWIRL CARAMELO DP/15",
-          "fantasia": "MENTOS",
-          "qt": 1,
-          "valor": 32.88,
-          "offtrade": true
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "71359",
-          "cliente": "J.S. PETROLEO E COMERCIO LTDA",
-          "produto": "PF FRUTTELLA SWIRL MORANG DP/15",
-          "fantasia": "MENTOS",
-          "qt": 1,
-          "valor": 32.88,
-          "offtrade": true
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "81953",
-          "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
-          "produto": "PF MENTOS GF MELANCIA DP/6",
-          "fantasia": "MENTOS",
-          "qt": 1,
-          "valor": 60.54,
-          "offtrade": true
-        },
-        {
-          "data": "28/04/2026",
-          "codcli": "81953",
-          "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
-          "produto": "PF MENTOS GF MELANCIA DP/6",
-          "fantasia": "MENTOS",
-          "qt": 1,
-          "valor": 60.54,
-          "offtrade": true
-        },
-        {
-          "data": "06/04/2026",
-          "codcli": "81953",
-          "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
-          "produto": "PF MENTOS GF P.FRESH WINT DP/6",
-          "fantasia": "MENTOS",
-          "qt": 1,
-          "valor": 60.54,
-          "offtrade": true
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "71359",
-          "cliente": "J.S. PETROLEO E COMERCIO LTDA",
-          "produto": "PF MENTOS GF P.FRESH WINT DP/6",
-          "fantasia": "MENTOS",
-          "qt": 2,
-          "valor": 121.08,
-          "offtrade": true
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "71359",
-          "cliente": "J.S. PETROLEO E COMERCIO LTDA",
-          "produto": "PF MENTOS STICK 14 B. RAINBOW DP/16",
-          "fantasia": "MENTOS",
-          "qt": 2,
-          "valor": 72.99,
-          "offtrade": true
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "71359",
-          "cliente": "J.S. PETROLEO E COMERCIO LTDA",
-          "produto": "PF MENTOS STICK 14 B. FR.VER DP/16",
-          "fantasia": "MENTOS",
-          "qt": 2,
-          "valor": 72.99,
-          "offtrade": true
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "71359",
-          "cliente": "J.S. PETROLEO E COMERCIO LTDA",
-          "produto": "PF MENTOS STICK 14 B. FRUTAS DP/16",
-          "fantasia": "MENTOS",
-          "qt": 2,
-          "valor": 72.99,
-          "offtrade": true
-        },
-        {
-          "data": "17/04/2026",
-          "codcli": "71359",
-          "cliente": "J.S. PETROLEO E COMERCIO LTDA",
-          "produto": "PF MENTOS STICK 14 B. MINT DP/16",
-          "fantasia": "MENTOS",
-          "qt": 2,
-          "valor": 72.99,
-          "offtrade": true
-        },
-        {
           "data": "30/04/2026",
           "codcli": "76776",
           "cliente": "MERCEARIA BASSANI LTDA",
@@ -47038,6 +46908,136 @@ const VENDAS_ES_DATA = {
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 40.88,
+          "offtrade": true
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "21015",
+          "cliente": "LA DOLINA RESTAURANTE LTDA",
+          "produto": "DP PACOCA GAMADINHO POTE 50X15G",
+          "fantasia": "DADINHO",
+          "qt": 2,
+          "valor": 60.1,
+          "offtrade": true
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "71359",
+          "cliente": "J.S. PETROLEO E COMERCIO LTDA",
+          "produto": "PF FRUTTELLA MAST.MOR.NAT DP/16",
+          "fantasia": "MENTOS",
+          "qt": 2,
+          "valor": 65.76,
+          "offtrade": true
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "71359",
+          "cliente": "J.S. PETROLEO E COMERCIO LTDA",
+          "produto": "PF FRUTTELLA SWIRL CARAMELO DP/15",
+          "fantasia": "MENTOS",
+          "qt": 1,
+          "valor": 32.88,
+          "offtrade": true
+        },
+        {
+          "data": "23/04/2026",
+          "codcli": "82771",
+          "cliente": "HORTIFRUTI TAMANHON LTDA",
+          "produto": "PF FRUTTELLA SWIRL CARAMELO DP/15",
+          "fantasia": "MENTOS",
+          "qt": 1,
+          "valor": 32.88,
+          "offtrade": true
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "71359",
+          "cliente": "J.S. PETROLEO E COMERCIO LTDA",
+          "produto": "PF FRUTTELLA SWIRL MORANG DP/15",
+          "fantasia": "MENTOS",
+          "qt": 1,
+          "valor": 32.88,
+          "offtrade": true
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "81953",
+          "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
+          "produto": "PF MENTOS GF MELANCIA DP/6",
+          "fantasia": "MENTOS",
+          "qt": 1,
+          "valor": 60.54,
+          "offtrade": true
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "81953",
+          "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
+          "produto": "PF MENTOS GF MELANCIA DP/6",
+          "fantasia": "MENTOS",
+          "qt": 1,
+          "valor": 60.54,
+          "offtrade": true
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "81953",
+          "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
+          "produto": "PF MENTOS GF P.FRESH WINT DP/6",
+          "fantasia": "MENTOS",
+          "qt": 1,
+          "valor": 60.54,
+          "offtrade": true
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "71359",
+          "cliente": "J.S. PETROLEO E COMERCIO LTDA",
+          "produto": "PF MENTOS GF P.FRESH WINT DP/6",
+          "fantasia": "MENTOS",
+          "qt": 2,
+          "valor": 121.08,
+          "offtrade": true
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "71359",
+          "cliente": "J.S. PETROLEO E COMERCIO LTDA",
+          "produto": "PF MENTOS STICK 14 B. RAINBOW DP/16",
+          "fantasia": "MENTOS",
+          "qt": 2,
+          "valor": 72.99,
+          "offtrade": true
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "71359",
+          "cliente": "J.S. PETROLEO E COMERCIO LTDA",
+          "produto": "PF MENTOS STICK 14 B. FR.VER DP/16",
+          "fantasia": "MENTOS",
+          "qt": 2,
+          "valor": 72.99,
+          "offtrade": true
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "71359",
+          "cliente": "J.S. PETROLEO E COMERCIO LTDA",
+          "produto": "PF MENTOS STICK 14 B. FRUTAS DP/16",
+          "fantasia": "MENTOS",
+          "qt": 2,
+          "valor": 72.99,
+          "offtrade": true
+        },
+        {
+          "data": "17/04/2026",
+          "codcli": "71359",
+          "cliente": "J.S. PETROLEO E COMERCIO LTDA",
+          "produto": "PF MENTOS STICK 14 B. MINT DP/16",
+          "fantasia": "MENTOS",
+          "qt": 2,
+          "valor": 72.99,
           "offtrade": true
         },
         {
@@ -49273,46 +49273,6 @@ const VENDAS_ES_DATA = {
           "offtrade": true
         },
         {
-          "data": "18/06/2026",
-          "codcli": "95091",
-          "cliente": "KG COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 1,
-          "valor": 142.97,
-          "offtrade": true
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "95426",
-          "cliente": "CAFFE LORENZON LTDA",
-          "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 309.42,
-          "offtrade": true
-        },
-        {
-          "data": "18/06/2026",
-          "codcli": "95091",
-          "cliente": "KG COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
-          "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 1,
-          "valor": 162.86,
-          "offtrade": true
-        },
-        {
-          "data": "03/06/2026",
-          "codcli": "94282",
-          "cliente": "PETIT DOCERIA LTDA",
-          "produto": "MIX PRATICO 6X1KG",
-          "fantasia": "PRATICO",
-          "qt": 2,
-          "valor": 280.08,
-          "offtrade": true
-        },
-        {
           "data": "23/06/2026",
           "codcli": "81831",
           "cliente": "PAO FRANCES PADARIA E CATERING LTDA",
@@ -49620,6 +49580,46 @@ const VENDAS_ES_DATA = {
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 112.95,
+          "offtrade": true
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "95091",
+          "cliente": "KG COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 1,
+          "valor": 142.97,
+          "offtrade": true
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "95426",
+          "cliente": "CAFFE LORENZON LTDA",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 309.42,
+          "offtrade": true
+        },
+        {
+          "data": "18/06/2026",
+          "codcli": "95091",
+          "cliente": "KG COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 1,
+          "valor": 162.86,
+          "offtrade": true
+        },
+        {
+          "data": "03/06/2026",
+          "codcli": "94282",
+          "cliente": "PETIT DOCERIA LTDA",
+          "produto": "MIX PRATICO 6X1KG",
+          "fantasia": "PRATICO",
+          "qt": 2,
+          "valor": 280.08,
           "offtrade": true
         },
         {
@@ -52835,16 +52835,6 @@ const VENDAS_ES_DATA = {
           "offtrade": true
         },
         {
-          "data": "13/05/2026",
-          "codcli": "81953",
-          "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
-          "produto": "PF MENTOS GF P.FRESH WINT DP/6",
-          "fantasia": "MENTOS",
-          "qt": 1,
-          "valor": 60.54,
-          "offtrade": true
-        },
-        {
           "data": "05/05/2026",
           "codcli": "80378",
           "cliente": "POSTO PRIME NORTE SUL LTDA",
@@ -53242,6 +53232,16 @@ const VENDAS_ES_DATA = {
           "fantasia": "PINATI",
           "qt": 2,
           "valor": 161.1,
+          "offtrade": true
+        },
+        {
+          "data": "13/05/2026",
+          "codcli": "81953",
+          "cliente": "QUINTAL DA NATUREZA COMERCIO VAREJISTA DE PRODUTOS NATURAIS",
+          "produto": "PF MENTOS GF P.FRESH WINT DP/6",
+          "fantasia": "MENTOS",
+          "qt": 1,
+          "valor": 60.54,
           "offtrade": true
         },
         {
@@ -54695,56 +54695,6 @@ const VENDAS_ES_DATA = {
           "offtrade": true
         },
         {
-          "data": "30/03/2026",
-          "codcli": "94134",
-          "cliente": "JOAO LUIZ PIROLA DE OLIVEIRA",
-          "produto": "DR SCHAR BISNAGUINHA 6X150G",
-          "fantasia": "PRATICO",
-          "qt": 1,
-          "valor": 77.05,
-          "offtrade": true
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "94134",
-          "cliente": "JOAO LUIZ PIROLA DE OLIVEIRA",
-          "produto": "CRACKERS 5X210G",
-          "fantasia": "PRATICO",
-          "qt": 2,
-          "valor": 307.65,
-          "offtrade": true
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "94134",
-          "cliente": "JOAO LUIZ PIROLA DE OLIVEIRA",
-          "produto": "PANE CASERECCIO 5X240G",
-          "fantasia": "PRATICO",
-          "qt": 1,
-          "valor": 138.51,
-          "offtrade": true
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "94134",
-          "cliente": "JOAO LUIZ PIROLA DE OLIVEIRA",
-          "produto": "PAO DE FORMA MULTIGRAOS 8X200G",
-          "fantasia": "PRATICO",
-          "qt": 2,
-          "valor": 219.84,
-          "offtrade": true
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "94134",
-          "cliente": "JOAO LUIZ PIROLA DE OLIVEIRA",
-          "produto": "PAO DE FORMA TRADICIONAL 8X200G",
-          "fantasia": "PRATICO",
-          "qt": 2,
-          "valor": 197.0,
-          "offtrade": true
-        },
-        {
           "data": "24/03/2026",
           "codcli": "94111",
           "cliente": "TIAGO DE AVELAR LOPES",
@@ -55142,6 +55092,56 @@ const VENDAS_ES_DATA = {
           "fantasia": "NATIKOS",
           "qt": 1,
           "valor": 38.58,
+          "offtrade": true
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "94134",
+          "cliente": "JOAO LUIZ PIROLA DE OLIVEIRA",
+          "produto": "DR SCHAR BISNAGUINHA 6X150G",
+          "fantasia": "PRATICO",
+          "qt": 1,
+          "valor": 77.05,
+          "offtrade": true
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "94134",
+          "cliente": "JOAO LUIZ PIROLA DE OLIVEIRA",
+          "produto": "CRACKERS 5X210G",
+          "fantasia": "PRATICO",
+          "qt": 2,
+          "valor": 307.65,
+          "offtrade": true
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "94134",
+          "cliente": "JOAO LUIZ PIROLA DE OLIVEIRA",
+          "produto": "PANE CASERECCIO 5X240G",
+          "fantasia": "PRATICO",
+          "qt": 1,
+          "valor": 138.51,
+          "offtrade": true
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "94134",
+          "cliente": "JOAO LUIZ PIROLA DE OLIVEIRA",
+          "produto": "PAO DE FORMA MULTIGRAOS 8X200G",
+          "fantasia": "PRATICO",
+          "qt": 2,
+          "valor": 219.84,
+          "offtrade": true
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "94134",
+          "cliente": "JOAO LUIZ PIROLA DE OLIVEIRA",
+          "produto": "PAO DE FORMA TRADICIONAL 8X200G",
+          "fantasia": "PRATICO",
+          "qt": 2,
+          "valor": 197.0,
           "offtrade": true
         },
         {
@@ -55597,16 +55597,6 @@ const VENDAS_ES_DATA = {
           "offtrade": true
         },
         {
-          "data": "29/04/2026",
-          "codcli": "94134",
-          "cliente": "JOAO LUIZ PIROLA DE OLIVEIRA",
-          "produto": "DP DADINHO ZERO ACUCAR 90G",
-          "fantasia": "DADINHO",
-          "qt": 24,
-          "valor": 204.57,
-          "offtrade": true
-        },
-        {
           "data": "24/04/2026",
           "codcli": "21028",
           "cliente": "SUPERMERCADOS CELEIRO LTDA",
@@ -55684,6 +55674,16 @@ const VENDAS_ES_DATA = {
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 95.23,
+          "offtrade": true
+        },
+        {
+          "data": "29/04/2026",
+          "codcli": "94134",
+          "cliente": "JOAO LUIZ PIROLA DE OLIVEIRA",
+          "produto": "DP DADINHO ZERO ACUCAR 90G",
+          "fantasia": "DADINHO",
+          "qt": 24,
+          "valor": 204.57,
           "offtrade": true
         },
         {
@@ -59314,206 +59314,6 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "30/03/2026",
-          "codcli": "90611",
-          "cliente": "WANDERSON ANGELO LOPES GONÇALVES",
-          "produto": "DP PACOCA GAMADINHO POTE 50X15G",
-          "fantasia": "DADINHO",
-          "qt": 1,
-          "valor": 27.3,
-          "offtrade": true
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "77450",
-          "cliente": "25.169.980 FERNANDA ROCHA DE PAULA JAHRING",
-          "produto": "DP PACOCA GAMADINHO POTE 50X15G",
-          "fantasia": "DADINHO",
-          "qt": 1,
-          "valor": 27.3,
-          "offtrade": true
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "9107",
-          "cliente": "EUDES MARIO TRARBACH",
-          "produto": "DP PACOCA GAMADINHO POTE 50X15G",
-          "fantasia": "DADINHO",
-          "qt": 1,
-          "valor": 27.3,
-          "offtrade": true
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "90609",
-          "cliente": "SÔNIA LOPES COELHO",
-          "produto": "DP PACOCA GAMADINHO POTE 50X15G",
-          "fantasia": "DADINHO",
-          "qt": 1,
-          "valor": 27.3,
-          "offtrade": true
-        },
-        {
-          "data": "18/03/2026",
-          "codcli": "91041",
-          "cliente": "INDUSTRIA PANIFICADORA RICHIOTTO LTDA",
-          "produto": "PACOCA GAMADINHO 100X15G",
-          "fantasia": "DADINHO",
-          "qt": 1,
-          "valor": 25.0,
-          "offtrade": true
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "90611",
-          "cliente": "WANDERSON ANGELO LOPES GONÇALVES",
-          "produto": "PACOCA GAMADINHO 100X15G",
-          "fantasia": "DADINHO",
-          "qt": 1,
-          "valor": 38.68,
-          "offtrade": true
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "77529",
-          "cliente": "DALIZETE NASCIMENTO CABRAL HERBST 09746657704",
-          "produto": "PACOCA GAMADINHO 100X15G",
-          "fantasia": "DADINHO",
-          "qt": 2,
-          "valor": 77.36,
-          "offtrade": true
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "77450",
-          "cliente": "25.169.980 FERNANDA ROCHA DE PAULA JAHRING",
-          "produto": "PACOCA GAMADINHO 100X15G",
-          "fantasia": "DADINHO",
-          "qt": 1,
-          "valor": 38.68,
-          "offtrade": true
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "9107",
-          "cliente": "EUDES MARIO TRARBACH",
-          "produto": "PACOCA GAMADINHO 100X15G",
-          "fantasia": "DADINHO",
-          "qt": 1,
-          "valor": 38.68,
-          "offtrade": true
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "63784",
-          "cliente": "ADEMAR DE ANGELI",
-          "produto": "PACOCA GAMADINHO 100X15G",
-          "fantasia": "DADINHO",
-          "qt": 2,
-          "valor": 77.36,
-          "offtrade": true
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "90609",
-          "cliente": "SÔNIA LOPES COELHO",
-          "produto": "PACOCA GAMADINHO 100X15G",
-          "fantasia": "DADINHO",
-          "qt": 1,
-          "valor": 38.68,
-          "offtrade": true
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "91582",
-          "cliente": "I. DOS SANTOS BIKE E ACESSORIOS",
-          "produto": "PF FRUTTELLA MAST.MOR.NAT DP/16",
-          "fantasia": "MENTOS",
-          "qt": 1,
-          "valor": 35.0,
-          "offtrade": true
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "94267",
-          "cliente": "22.321.273 JOSEANE PAGIO",
-          "produto": "PF FRUTTELLA MAST.MOR.NAT DP/16",
-          "fantasia": "MENTOS",
-          "qt": 1,
-          "valor": 35.0,
-          "offtrade": true
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "85944",
-          "cliente": "MERCEARIA NEGA LTDA",
-          "produto": "PF MENTOS GF P.FRESH MOR DP/6",
-          "fantasia": "MENTOS",
-          "qt": 1,
-          "valor": 59.0,
-          "offtrade": true
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "85944",
-          "cliente": "MERCEARIA NEGA LTDA",
-          "produto": "PF MENTOS GF MELANCIA DP/6",
-          "fantasia": "MENTOS",
-          "qt": 1,
-          "valor": 59.0,
-          "offtrade": true
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "91582",
-          "cliente": "I. DOS SANTOS BIKE E ACESSORIOS",
-          "produto": "PF MENTOS STICK 14 B. RAINBOW DP/16",
-          "fantasia": "MENTOS",
-          "qt": 1,
-          "valor": 32.0,
-          "offtrade": true
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "94267",
-          "cliente": "22.321.273 JOSEANE PAGIO",
-          "produto": "PF MENTOS STICK 14 B. FR.VER DP/16",
-          "fantasia": "MENTOS",
-          "qt": 1,
-          "valor": 32.0,
-          "offtrade": true
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "90778",
-          "cliente": "BAR E RESTAURANTE GALETO DE PRATA LTDA",
-          "produto": "PF MENTOS STICK 14 B. FRUTAS DP/16",
-          "fantasia": "MENTOS",
-          "qt": 1,
-          "valor": 32.0,
-          "offtrade": true
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "93653",
-          "cliente": "DISK PIZZA DO TONY LTDA",
-          "produto": "PF MENTOS STICK 14 B. MINT DP/16",
-          "fantasia": "MENTOS",
-          "qt": 1,
-          "valor": 32.0,
-          "offtrade": true
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "90778",
-          "cliente": "BAR E RESTAURANTE GALETO DE PRATA LTDA",
-          "produto": "PF MENTOS STICK 14 B. MINT DP/16",
-          "fantasia": "MENTOS",
-          "qt": 1,
-          "valor": 32.0,
-          "offtrade": true
-        },
-        {
-          "data": "30/03/2026",
           "codcli": "90469",
           "cliente": "58.353.200 ILAINA RAASCH KLIPPEL ANDRADE",
           "produto": "NG BARRA 360G 40% MEIO AMARGO (DP 40X9G)",
@@ -61220,6 +61020,206 @@ const VENDAS_ES_DATA = {
           "fantasia": "NATIKOS",
           "qt": 1,
           "valor": 50.0,
+          "offtrade": true
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "90611",
+          "cliente": "WANDERSON ANGELO LOPES GONÇALVES",
+          "produto": "DP PACOCA GAMADINHO POTE 50X15G",
+          "fantasia": "DADINHO",
+          "qt": 1,
+          "valor": 27.3,
+          "offtrade": true
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "77450",
+          "cliente": "25.169.980 FERNANDA ROCHA DE PAULA JAHRING",
+          "produto": "DP PACOCA GAMADINHO POTE 50X15G",
+          "fantasia": "DADINHO",
+          "qt": 1,
+          "valor": 27.3,
+          "offtrade": true
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "9107",
+          "cliente": "EUDES MARIO TRARBACH",
+          "produto": "DP PACOCA GAMADINHO POTE 50X15G",
+          "fantasia": "DADINHO",
+          "qt": 1,
+          "valor": 27.3,
+          "offtrade": true
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "90609",
+          "cliente": "SÔNIA LOPES COELHO",
+          "produto": "DP PACOCA GAMADINHO POTE 50X15G",
+          "fantasia": "DADINHO",
+          "qt": 1,
+          "valor": 27.3,
+          "offtrade": true
+        },
+        {
+          "data": "18/03/2026",
+          "codcli": "91041",
+          "cliente": "INDUSTRIA PANIFICADORA RICHIOTTO LTDA",
+          "produto": "PACOCA GAMADINHO 100X15G",
+          "fantasia": "DADINHO",
+          "qt": 1,
+          "valor": 25.0,
+          "offtrade": true
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "90611",
+          "cliente": "WANDERSON ANGELO LOPES GONÇALVES",
+          "produto": "PACOCA GAMADINHO 100X15G",
+          "fantasia": "DADINHO",
+          "qt": 1,
+          "valor": 38.68,
+          "offtrade": true
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "77529",
+          "cliente": "DALIZETE NASCIMENTO CABRAL HERBST 09746657704",
+          "produto": "PACOCA GAMADINHO 100X15G",
+          "fantasia": "DADINHO",
+          "qt": 2,
+          "valor": 77.36,
+          "offtrade": true
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "77450",
+          "cliente": "25.169.980 FERNANDA ROCHA DE PAULA JAHRING",
+          "produto": "PACOCA GAMADINHO 100X15G",
+          "fantasia": "DADINHO",
+          "qt": 1,
+          "valor": 38.68,
+          "offtrade": true
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "9107",
+          "cliente": "EUDES MARIO TRARBACH",
+          "produto": "PACOCA GAMADINHO 100X15G",
+          "fantasia": "DADINHO",
+          "qt": 1,
+          "valor": 38.68,
+          "offtrade": true
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "63784",
+          "cliente": "ADEMAR DE ANGELI",
+          "produto": "PACOCA GAMADINHO 100X15G",
+          "fantasia": "DADINHO",
+          "qt": 2,
+          "valor": 77.36,
+          "offtrade": true
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "90609",
+          "cliente": "SÔNIA LOPES COELHO",
+          "produto": "PACOCA GAMADINHO 100X15G",
+          "fantasia": "DADINHO",
+          "qt": 1,
+          "valor": 38.68,
+          "offtrade": true
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "91582",
+          "cliente": "I. DOS SANTOS BIKE E ACESSORIOS",
+          "produto": "PF FRUTTELLA MAST.MOR.NAT DP/16",
+          "fantasia": "MENTOS",
+          "qt": 1,
+          "valor": 35.0,
+          "offtrade": true
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "94267",
+          "cliente": "22.321.273 JOSEANE PAGIO",
+          "produto": "PF FRUTTELLA MAST.MOR.NAT DP/16",
+          "fantasia": "MENTOS",
+          "qt": 1,
+          "valor": 35.0,
+          "offtrade": true
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "85944",
+          "cliente": "MERCEARIA NEGA LTDA",
+          "produto": "PF MENTOS GF P.FRESH MOR DP/6",
+          "fantasia": "MENTOS",
+          "qt": 1,
+          "valor": 59.0,
+          "offtrade": true
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "85944",
+          "cliente": "MERCEARIA NEGA LTDA",
+          "produto": "PF MENTOS GF MELANCIA DP/6",
+          "fantasia": "MENTOS",
+          "qt": 1,
+          "valor": 59.0,
+          "offtrade": true
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "91582",
+          "cliente": "I. DOS SANTOS BIKE E ACESSORIOS",
+          "produto": "PF MENTOS STICK 14 B. RAINBOW DP/16",
+          "fantasia": "MENTOS",
+          "qt": 1,
+          "valor": 32.0,
+          "offtrade": true
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "94267",
+          "cliente": "22.321.273 JOSEANE PAGIO",
+          "produto": "PF MENTOS STICK 14 B. FR.VER DP/16",
+          "fantasia": "MENTOS",
+          "qt": 1,
+          "valor": 32.0,
+          "offtrade": true
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "90778",
+          "cliente": "BAR E RESTAURANTE GALETO DE PRATA LTDA",
+          "produto": "PF MENTOS STICK 14 B. FRUTAS DP/16",
+          "fantasia": "MENTOS",
+          "qt": 1,
+          "valor": 32.0,
+          "offtrade": true
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "93653",
+          "cliente": "DISK PIZZA DO TONY LTDA",
+          "produto": "PF MENTOS STICK 14 B. MINT DP/16",
+          "fantasia": "MENTOS",
+          "qt": 1,
+          "valor": 32.0,
+          "offtrade": true
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "90778",
+          "cliente": "BAR E RESTAURANTE GALETO DE PRATA LTDA",
+          "produto": "PF MENTOS STICK 14 B. MINT DP/16",
+          "fantasia": "MENTOS",
+          "qt": 1,
+          "valor": 32.0,
           "offtrade": true
         },
         {
@@ -67393,56 +67393,6 @@ const VENDAS_ES_DATA = {
           "offtrade": true
         },
         {
-          "data": "25/03/2026",
-          "codcli": "83939",
-          "cliente": "VNI DOCES E EMBALAGENS LTDA",
-          "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "DADINHO",
-          "qt": 2,
-          "valor": 11.8,
-          "offtrade": true
-        },
-        {
-          "data": "30/03/2026",
-          "codcli": "84651",
-          "cliente": "50.484.621 HEMILY MOGNOL DA SILVEIRA",
-          "produto": "DP PACOCA DADINHO ZERO 24X18G",
-          "fantasia": "DADINHO",
-          "qt": 1,
-          "valor": 27.24,
-          "offtrade": true
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "77388",
-          "cliente": "BREPAN PADARIA LTDA.",
-          "produto": "DP PACOCA DADINHO ZERO 24X18G",
-          "fantasia": "DADINHO",
-          "qt": 1,
-          "valor": 27.29,
-          "offtrade": true
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "94261",
-          "cliente": "CLAUDINEI DE OLIVEIRA SILVA",
-          "produto": "PACOCA GAMADINHO 100X15G",
-          "fantasia": "DADINHO",
-          "qt": 1,
-          "valor": 38.2,
-          "offtrade": true
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "77388",
-          "cliente": "BREPAN PADARIA LTDA.",
-          "produto": "PF MENTOS STICK 14 B. FRUTAS DP/16",
-          "fantasia": "MENTOS",
-          "qt": 1,
-          "valor": 32.88,
-          "offtrade": true
-        },
-        {
           "data": "04/03/2026",
           "codcli": "84278",
           "cliente": "PADARIA PAO DO GENARO LTDA",
@@ -68890,6 +68840,56 @@ const VENDAS_ES_DATA = {
           "fantasia": "NATIKOS",
           "qt": 1,
           "valor": 50.72,
+          "offtrade": true
+        },
+        {
+          "data": "25/03/2026",
+          "codcli": "83939",
+          "cliente": "VNI DOCES E EMBALAGENS LTDA",
+          "produto": "DP DADINHO BITZ AO LEITE 105G",
+          "fantasia": "DADINHO",
+          "qt": 2,
+          "valor": 11.8,
+          "offtrade": true
+        },
+        {
+          "data": "30/03/2026",
+          "codcli": "84651",
+          "cliente": "50.484.621 HEMILY MOGNOL DA SILVEIRA",
+          "produto": "DP PACOCA DADINHO ZERO 24X18G",
+          "fantasia": "DADINHO",
+          "qt": 1,
+          "valor": 27.24,
+          "offtrade": true
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "77388",
+          "cliente": "BREPAN PADARIA LTDA.",
+          "produto": "DP PACOCA DADINHO ZERO 24X18G",
+          "fantasia": "DADINHO",
+          "qt": 1,
+          "valor": 27.29,
+          "offtrade": true
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "94261",
+          "cliente": "CLAUDINEI DE OLIVEIRA SILVA",
+          "produto": "PACOCA GAMADINHO 100X15G",
+          "fantasia": "DADINHO",
+          "qt": 1,
+          "valor": 38.2,
+          "offtrade": true
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "77388",
+          "cliente": "BREPAN PADARIA LTDA.",
+          "produto": "PF MENTOS STICK 14 B. FRUTAS DP/16",
+          "fantasia": "MENTOS",
+          "qt": 1,
+          "valor": 32.88,
           "offtrade": true
         },
         {
@@ -71178,76 +71178,6 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "15/04/2026",
-          "codcli": "83934",
-          "cliente": "COMERCIAL GIUBBINI LTDA",
-          "produto": "DP DADINHO BITZ BLACK 105G",
-          "fantasia": "DADINHO",
-          "qt": 15,
-          "valor": 84.0,
-          "offtrade": true
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "79791",
-          "cliente": "COMERCIAL FIORESE LTDA",
-          "produto": "DP DADINHO BITZ BLACK 105G",
-          "fantasia": "DADINHO",
-          "qt": 30,
-          "valor": 167.4,
-          "offtrade": true
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "83934",
-          "cliente": "COMERCIAL GIUBBINI LTDA",
-          "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "DADINHO",
-          "qt": 15,
-          "valor": 84.0,
-          "offtrade": true
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "79791",
-          "cliente": "COMERCIAL FIORESE LTDA",
-          "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "DADINHO",
-          "qt": 30,
-          "valor": 167.4,
-          "offtrade": true
-        },
-        {
-          "data": "07/04/2026",
-          "codcli": "83937",
-          "cliente": "FARMACIA JDL LTDA",
-          "produto": "DP PACOCA DADINHO ZERO 24X18G",
-          "fantasia": "DADINHO",
-          "qt": 1,
-          "valor": 28.53,
-          "offtrade": true
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "83934",
-          "cliente": "COMERCIAL GIUBBINI LTDA",
-          "produto": "DP PACOCA GAMADINHO QUADRADA 40X20G",
-          "fantasia": "DADINHO",
-          "qt": 1,
-          "valor": 23.17,
-          "offtrade": true
-        },
-        {
-          "data": "15/04/2026",
-          "codcli": "79791",
-          "cliente": "COMERCIAL FIORESE LTDA",
-          "produto": "PACOCA GAMADINHO 100X15G",
-          "fantasia": "DADINHO",
-          "qt": 1,
-          "valor": 38.68,
-          "offtrade": true
-        },
-        {
-          "data": "15/04/2026",
           "codcli": "84714",
           "cliente": "DANIELA QUEZIA DE LIMA SILVA",
           "produto": "NG DOCE DE LEITE MUMU 350G",
@@ -71384,6 +71314,76 @@ const VENDAS_ES_DATA = {
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 98.12,
+          "offtrade": true
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "83934",
+          "cliente": "COMERCIAL GIUBBINI LTDA",
+          "produto": "DP DADINHO BITZ BLACK 105G",
+          "fantasia": "DADINHO",
+          "qt": 15,
+          "valor": 84.0,
+          "offtrade": true
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "79791",
+          "cliente": "COMERCIAL FIORESE LTDA",
+          "produto": "DP DADINHO BITZ BLACK 105G",
+          "fantasia": "DADINHO",
+          "qt": 30,
+          "valor": 167.4,
+          "offtrade": true
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "83934",
+          "cliente": "COMERCIAL GIUBBINI LTDA",
+          "produto": "DP DADINHO BITZ AO LEITE 105G",
+          "fantasia": "DADINHO",
+          "qt": 15,
+          "valor": 84.0,
+          "offtrade": true
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "79791",
+          "cliente": "COMERCIAL FIORESE LTDA",
+          "produto": "DP DADINHO BITZ AO LEITE 105G",
+          "fantasia": "DADINHO",
+          "qt": 30,
+          "valor": 167.4,
+          "offtrade": true
+        },
+        {
+          "data": "07/04/2026",
+          "codcli": "83937",
+          "cliente": "FARMACIA JDL LTDA",
+          "produto": "DP PACOCA DADINHO ZERO 24X18G",
+          "fantasia": "DADINHO",
+          "qt": 1,
+          "valor": 28.53,
+          "offtrade": true
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "83934",
+          "cliente": "COMERCIAL GIUBBINI LTDA",
+          "produto": "DP PACOCA GAMADINHO QUADRADA 40X20G",
+          "fantasia": "DADINHO",
+          "qt": 1,
+          "valor": 23.17,
+          "offtrade": true
+        },
+        {
+          "data": "15/04/2026",
+          "codcli": "79791",
+          "cliente": "COMERCIAL FIORESE LTDA",
+          "produto": "PACOCA GAMADINHO 100X15G",
+          "fantasia": "DADINHO",
+          "qt": 1,
+          "valor": 38.68,
           "offtrade": true
         },
         {
@@ -74777,156 +74777,6 @@ const VENDAS_ES_DATA = {
           "offtrade": true
         },
         {
-          "data": "06/07/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO TRAD SACHE 90G",
-          "fantasia": "DADINHO",
-          "qt": 120,
-          "valor": 732.0,
-          "offtrade": true
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "85439",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO TRAD SACHE 90G",
-          "fantasia": "DADINHO",
-          "qt": 40,
-          "valor": 244.0,
-          "offtrade": true
-        },
-        {
-          "data": "06/07/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO ZERO ACUCAR 90G",
-          "fantasia": "DADINHO",
-          "qt": 120,
-          "valor": 1076.4,
-          "offtrade": true
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "85439",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO ZERO ACUCAR 90G",
-          "fantasia": "DADINHO",
-          "qt": 40,
-          "valor": 358.8,
-          "offtrade": true
-        },
-        {
-          "data": "06/07/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO TRAD 420GR",
-          "fantasia": "DADINHO",
-          "qt": 90,
-          "valor": 1524.6,
-          "offtrade": true
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "85439",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO TRAD 420GR",
-          "fantasia": "DADINHO",
-          "qt": 18,
-          "valor": 304.92,
-          "offtrade": true
-        },
-        {
-          "data": "06/07/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP BOMBOM DADINHO ESPEC 198G",
-          "fantasia": "DADINHO",
-          "qt": 120,
-          "valor": 790.8,
-          "offtrade": true
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "85439",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP BOMBOM DADINHO ESPEC 198G",
-          "fantasia": "DADINHO",
-          "qt": 30,
-          "valor": 197.7,
-          "offtrade": true
-        },
-        {
-          "data": "06/07/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
-          "fantasia": "DADINHO",
-          "qt": 60,
-          "valor": 1717.2,
-          "offtrade": true
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "85439",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
-          "fantasia": "DADINHO",
-          "qt": 12,
-          "valor": 343.44,
-          "offtrade": true
-        },
-        {
-          "data": "06/07/2026",
-          "codcli": "85436",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "DADINHO",
-          "qt": 120,
-          "valor": 458.4,
-          "offtrade": true
-        },
-        {
-          "data": "07/07/2026",
-          "codcli": "85439",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "DADINHO",
-          "qt": 30,
-          "valor": 114.6,
-          "offtrade": true
-        },
-        {
-          "data": "02/07/2026",
-          "codcli": "76076",
-          "cliente": "DRIFT COM. DE ALIMENTOS SA",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 15,
-          "valor": 1953.0,
-          "offtrade": true
-        },
-        {
-          "data": "02/07/2026",
-          "codcli": "76076",
-          "cliente": "DRIFT COM. DE ALIMENTOS SA",
-          "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 10,
-          "valor": 1482.0,
-          "offtrade": true
-        },
-        {
-          "data": "02/07/2026",
-          "codcli": "76076",
-          "cliente": "DRIFT COM. DE ALIMENTOS SA",
-          "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "NAVEIA",
-          "qt": 3,
-          "valor": 288.0,
-          "offtrade": true
-        },
-        {
           "data": "03/07/2026",
           "codcli": "74376",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
@@ -76314,6 +76164,156 @@ const VENDAS_ES_DATA = {
           "fantasia": "BANANINHA CARIOCA",
           "qt": 24,
           "valor": 2280.0,
+          "offtrade": true
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD SACHE 90G",
+          "fantasia": "DADINHO",
+          "qt": 120,
+          "valor": 732.0,
+          "offtrade": true
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD SACHE 90G",
+          "fantasia": "DADINHO",
+          "qt": 40,
+          "valor": 244.0,
+          "offtrade": true
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO ZERO ACUCAR 90G",
+          "fantasia": "DADINHO",
+          "qt": 120,
+          "valor": 1076.4,
+          "offtrade": true
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO ZERO ACUCAR 90G",
+          "fantasia": "DADINHO",
+          "qt": 40,
+          "valor": 358.8,
+          "offtrade": true
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD 420GR",
+          "fantasia": "DADINHO",
+          "qt": 90,
+          "valor": 1524.6,
+          "offtrade": true
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD 420GR",
+          "fantasia": "DADINHO",
+          "qt": 18,
+          "valor": 304.92,
+          "offtrade": true
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM DADINHO ESPEC 198G",
+          "fantasia": "DADINHO",
+          "qt": 120,
+          "valor": 790.8,
+          "offtrade": true
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM DADINHO ESPEC 198G",
+          "fantasia": "DADINHO",
+          "qt": 30,
+          "valor": 197.7,
+          "offtrade": true
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
+          "fantasia": "DADINHO",
+          "qt": 60,
+          "valor": 1717.2,
+          "offtrade": true
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
+          "fantasia": "DADINHO",
+          "qt": 12,
+          "valor": 343.44,
+          "offtrade": true
+        },
+        {
+          "data": "06/07/2026",
+          "codcli": "85436",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO BITZ AO LEITE 105G",
+          "fantasia": "DADINHO",
+          "qt": 120,
+          "valor": 458.4,
+          "offtrade": true
+        },
+        {
+          "data": "07/07/2026",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO BITZ AO LEITE 105G",
+          "fantasia": "DADINHO",
+          "qt": 30,
+          "valor": 114.6,
+          "offtrade": true
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "76076",
+          "cliente": "DRIFT COM. DE ALIMENTOS SA",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 15,
+          "valor": 1953.0,
+          "offtrade": true
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "76076",
+          "cliente": "DRIFT COM. DE ALIMENTOS SA",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 10,
+          "valor": 1482.0,
+          "offtrade": true
+        },
+        {
+          "data": "02/07/2026",
+          "codcli": "76076",
+          "cliente": "DRIFT COM. DE ALIMENTOS SA",
+          "produto": "CREME DE LEITE NAVEIA 24X200G",
+          "fantasia": "NAVEIA",
+          "qt": 3,
+          "valor": 288.0,
           "offtrade": true
         },
         {
@@ -79202,446 +79202,6 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "30/06/2026",
-          "codcli": "85437",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO TRAD SACHE 90G",
-          "fantasia": "DADINHO",
-          "qt": 40,
-          "valor": 244.0,
-          "offtrade": true
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "85410",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO TRAD SACHE 90G",
-          "fantasia": "DADINHO",
-          "qt": 40,
-          "valor": 244.0,
-          "offtrade": true
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "85438",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO TRAD SACHE 90G",
-          "fantasia": "DADINHO",
-          "qt": 120,
-          "valor": 732.0,
-          "offtrade": true
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "85896",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO TRAD SACHE 90G",
-          "fantasia": "DADINHO",
-          "qt": 40,
-          "valor": 244.0,
-          "offtrade": true
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "85437",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO ZERO ACUCAR 90G",
-          "fantasia": "DADINHO",
-          "qt": 40,
-          "valor": 358.8,
-          "offtrade": true
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "85410",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO ZERO ACUCAR 90G",
-          "fantasia": "DADINHO",
-          "qt": 40,
-          "valor": 358.8,
-          "offtrade": true
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "85438",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO ZERO ACUCAR 90G",
-          "fantasia": "DADINHO",
-          "qt": 120,
-          "valor": 1076.4,
-          "offtrade": true
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "85896",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO ZERO ACUCAR 90G",
-          "fantasia": "DADINHO",
-          "qt": 40,
-          "valor": 358.8,
-          "offtrade": true
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "85437",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO TRAD 420GR",
-          "fantasia": "DADINHO",
-          "qt": 18,
-          "valor": 304.92,
-          "offtrade": true
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "85410",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO TRAD 420GR",
-          "fantasia": "DADINHO",
-          "qt": 36,
-          "valor": 609.84,
-          "offtrade": true
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "85438",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO TRAD 420GR",
-          "fantasia": "DADINHO",
-          "qt": 54,
-          "valor": 914.76,
-          "offtrade": true
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "85896",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO TRAD 420GR",
-          "fantasia": "DADINHO",
-          "qt": 18,
-          "valor": 304.92,
-          "offtrade": true
-        },
-        {
-          "data": "05/06/2026",
-          "codcli": "91292",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP BOMBOM DADINHO ESPEC 198G",
-          "fantasia": "DADINHO",
-          "qt": 30,
-          "valor": 197.7,
-          "offtrade": true
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "85437",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP BOMBOM DADINHO ESPEC 198G",
-          "fantasia": "DADINHO",
-          "qt": 30,
-          "valor": 197.7,
-          "offtrade": true
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "85410",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP BOMBOM DADINHO ESPEC 198G",
-          "fantasia": "DADINHO",
-          "qt": 30,
-          "valor": 197.7,
-          "offtrade": true
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "85438",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP BOMBOM DADINHO ESPEC 198G",
-          "fantasia": "DADINHO",
-          "qt": 90,
-          "valor": 593.1,
-          "offtrade": true
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "85896",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP BOMBOM DADINHO ESPEC 198G",
-          "fantasia": "DADINHO",
-          "qt": 30,
-          "valor": 197.7,
-          "offtrade": true
-        },
-        {
-          "data": "05/06/2026",
-          "codcli": "91292",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
-          "fantasia": "DADINHO",
-          "qt": 12,
-          "valor": 343.44,
-          "offtrade": true
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "85437",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
-          "fantasia": "DADINHO",
-          "qt": 12,
-          "valor": 343.44,
-          "offtrade": true
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "85410",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
-          "fantasia": "DADINHO",
-          "qt": 12,
-          "valor": 343.44,
-          "offtrade": true
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "85438",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
-          "fantasia": "DADINHO",
-          "qt": 36,
-          "valor": 1030.32,
-          "offtrade": true
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "85896",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
-          "fantasia": "DADINHO",
-          "qt": 12,
-          "valor": 343.44,
-          "offtrade": true
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "85410",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "DADINHO",
-          "qt": 30,
-          "valor": 114.6,
-          "offtrade": true
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "85437",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "DADINHO",
-          "qt": 30,
-          "valor": 114.6,
-          "offtrade": true
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "85438",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "DADINHO",
-          "qt": 90,
-          "valor": 343.8,
-          "offtrade": true
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "85896",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "DADINHO",
-          "qt": 30,
-          "valor": 114.6,
-          "offtrade": true
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "21215",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 10,
-          "valor": 1302.0,
-          "offtrade": true
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "21216",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 10,
-          "valor": 1302.0,
-          "offtrade": true
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "82541",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 10,
-          "valor": 1302.0,
-          "offtrade": true
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "76075",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 20,
-          "valor": 2604.0,
-          "offtrade": true
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "76073",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 10,
-          "valor": 1302.0,
-          "offtrade": true
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "82542",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 6,
-          "valor": 781.2,
-          "offtrade": true
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "76072",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 10,
-          "valor": 1302.0,
-          "offtrade": true
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "82537",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 10,
-          "valor": 1302.0,
-          "offtrade": true
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "82538",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 10,
-          "valor": 1302.0,
-          "offtrade": true
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "21216",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 5,
-          "valor": 741.0,
-          "offtrade": true
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "76075",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 10,
-          "valor": 1482.0,
-          "offtrade": true
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "82542",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 5,
-          "valor": 741.0,
-          "offtrade": true
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "76075",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 10,
-          "valor": 1482.0,
-          "offtrade": true
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "82538",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 296.4,
-          "offtrade": true
-        },
-        {
-          "data": "19/06/2026",
-          "codcli": "76071",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "NAVEIA",
-          "qt": 5,
-          "valor": 480.0,
-          "offtrade": true
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "76075",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 192.0,
-          "offtrade": true
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "82542",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "NAVEIA",
-          "qt": 3,
-          "valor": 288.0,
-          "offtrade": true
-        },
-        {
-          "data": "23/06/2026",
-          "codcli": "82538",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "NAVEIA",
-          "qt": 5,
-          "valor": 480.0,
-          "offtrade": true
-        },
-        {
-          "data": "30/06/2026",
           "codcli": "82242",
           "cliente": "CCB CENTRAL DE COMPRAS DO BRASIL LTDA",
           "produto": "RC SARDINHA EM OLEO 50X125G",
@@ -80371,6 +79931,446 @@ const VENDAS_ES_DATA = {
           "offtrade": true
         },
         {
+          "data": "30/06/2026",
+          "codcli": "85437",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD SACHE 90G",
+          "fantasia": "DADINHO",
+          "qt": 40,
+          "valor": 244.0,
+          "offtrade": true
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85410",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD SACHE 90G",
+          "fantasia": "DADINHO",
+          "qt": 40,
+          "valor": 244.0,
+          "offtrade": true
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85438",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD SACHE 90G",
+          "fantasia": "DADINHO",
+          "qt": 120,
+          "valor": 732.0,
+          "offtrade": true
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85896",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD SACHE 90G",
+          "fantasia": "DADINHO",
+          "qt": 40,
+          "valor": 244.0,
+          "offtrade": true
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85437",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO ZERO ACUCAR 90G",
+          "fantasia": "DADINHO",
+          "qt": 40,
+          "valor": 358.8,
+          "offtrade": true
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85410",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO ZERO ACUCAR 90G",
+          "fantasia": "DADINHO",
+          "qt": 40,
+          "valor": 358.8,
+          "offtrade": true
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85438",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO ZERO ACUCAR 90G",
+          "fantasia": "DADINHO",
+          "qt": 120,
+          "valor": 1076.4,
+          "offtrade": true
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85896",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO ZERO ACUCAR 90G",
+          "fantasia": "DADINHO",
+          "qt": 40,
+          "valor": 358.8,
+          "offtrade": true
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85437",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD 420GR",
+          "fantasia": "DADINHO",
+          "qt": 18,
+          "valor": 304.92,
+          "offtrade": true
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85410",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD 420GR",
+          "fantasia": "DADINHO",
+          "qt": 36,
+          "valor": 609.84,
+          "offtrade": true
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85438",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD 420GR",
+          "fantasia": "DADINHO",
+          "qt": 54,
+          "valor": 914.76,
+          "offtrade": true
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85896",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD 420GR",
+          "fantasia": "DADINHO",
+          "qt": 18,
+          "valor": 304.92,
+          "offtrade": true
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM DADINHO ESPEC 198G",
+          "fantasia": "DADINHO",
+          "qt": 30,
+          "valor": 197.7,
+          "offtrade": true
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85437",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM DADINHO ESPEC 198G",
+          "fantasia": "DADINHO",
+          "qt": 30,
+          "valor": 197.7,
+          "offtrade": true
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85410",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM DADINHO ESPEC 198G",
+          "fantasia": "DADINHO",
+          "qt": 30,
+          "valor": 197.7,
+          "offtrade": true
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85438",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM DADINHO ESPEC 198G",
+          "fantasia": "DADINHO",
+          "qt": 90,
+          "valor": 593.1,
+          "offtrade": true
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85896",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM DADINHO ESPEC 198G",
+          "fantasia": "DADINHO",
+          "qt": 30,
+          "valor": 197.7,
+          "offtrade": true
+        },
+        {
+          "data": "05/06/2026",
+          "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
+          "fantasia": "DADINHO",
+          "qt": 12,
+          "valor": 343.44,
+          "offtrade": true
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85437",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
+          "fantasia": "DADINHO",
+          "qt": 12,
+          "valor": 343.44,
+          "offtrade": true
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85410",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
+          "fantasia": "DADINHO",
+          "qt": 12,
+          "valor": 343.44,
+          "offtrade": true
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85438",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
+          "fantasia": "DADINHO",
+          "qt": 36,
+          "valor": 1030.32,
+          "offtrade": true
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85896",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
+          "fantasia": "DADINHO",
+          "qt": 12,
+          "valor": 343.44,
+          "offtrade": true
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85410",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO BITZ AO LEITE 105G",
+          "fantasia": "DADINHO",
+          "qt": 30,
+          "valor": 114.6,
+          "offtrade": true
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85437",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO BITZ AO LEITE 105G",
+          "fantasia": "DADINHO",
+          "qt": 30,
+          "valor": 114.6,
+          "offtrade": true
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85438",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO BITZ AO LEITE 105G",
+          "fantasia": "DADINHO",
+          "qt": 90,
+          "valor": 343.8,
+          "offtrade": true
+        },
+        {
+          "data": "30/06/2026",
+          "codcli": "85896",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO BITZ AO LEITE 105G",
+          "fantasia": "DADINHO",
+          "qt": 30,
+          "valor": 114.6,
+          "offtrade": true
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "21215",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 10,
+          "valor": 1302.0,
+          "offtrade": true
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "21216",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 10,
+          "valor": 1302.0,
+          "offtrade": true
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "82541",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 10,
+          "valor": 1302.0,
+          "offtrade": true
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "76075",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 20,
+          "valor": 2604.0,
+          "offtrade": true
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "76073",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 10,
+          "valor": 1302.0,
+          "offtrade": true
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "82542",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 6,
+          "valor": 781.2,
+          "offtrade": true
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "76072",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 10,
+          "valor": 1302.0,
+          "offtrade": true
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "82537",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 10,
+          "valor": 1302.0,
+          "offtrade": true
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "82538",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 10,
+          "valor": 1302.0,
+          "offtrade": true
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "21216",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 5,
+          "valor": 741.0,
+          "offtrade": true
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "76075",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 10,
+          "valor": 1482.0,
+          "offtrade": true
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "82542",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 5,
+          "valor": 741.0,
+          "offtrade": true
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "76075",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "NAVEIA CHOCOLATE 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 10,
+          "valor": 1482.0,
+          "offtrade": true
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "82538",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA CHOCOLATE 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 296.4,
+          "offtrade": true
+        },
+        {
+          "data": "19/06/2026",
+          "codcli": "76071",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "CREME DE LEITE NAVEIA 24X200G",
+          "fantasia": "NAVEIA",
+          "qt": 5,
+          "valor": 480.0,
+          "offtrade": true
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "76075",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "CREME DE LEITE NAVEIA 24X200G",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 192.0,
+          "offtrade": true
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "82542",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "CREME DE LEITE NAVEIA 24X200G",
+          "fantasia": "NAVEIA",
+          "qt": 3,
+          "valor": 288.0,
+          "offtrade": true
+        },
+        {
+          "data": "23/06/2026",
+          "codcli": "82538",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "CREME DE LEITE NAVEIA 24X200G",
+          "fantasia": "NAVEIA",
+          "qt": 5,
+          "valor": 480.0,
+          "offtrade": true
+        },
+        {
           "data": "11/06/2026",
           "codcli": "85436",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
@@ -80690,406 +80690,6 @@ const VENDAS_ES_DATA = {
           "fantasia": "FABBRI",
           "qt": 54,
           "valor": 2088.0,
-          "offtrade": true
-        },
-        {
-          "data": "24/04/2026",
-          "codcli": "80859",
-          "cliente": "EUDES VENTORIN MORGAN",
-          "produto": "DP PACOCA DADINHO ZERO 8X18G",
-          "fantasia": "DADINHO",
-          "qt": 12,
-          "valor": 109.08,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "21217",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 260.4,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "82537",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 6,
-          "valor": 781.2,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "82540",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 3,
-          "valor": 390.6,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "74418",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 260.4,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "76071",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 6,
-          "valor": 781.2,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "82542",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 260.4,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "21215",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 260.4,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "76074",
-          "cliente": "DRIFT COM. DE ALIMENTOS SA",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 6,
-          "valor": 781.2,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "21216",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 260.4,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "82538",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 260.4,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "91463",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 260.4,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "76072",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 6,
-          "valor": 781.2,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "76073",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 6,
-          "valor": 781.2,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "76076",
-          "cliente": "DRIFT COM. DE ALIMENTOS SA",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 6,
-          "valor": 781.2,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "82541",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 260.4,
-          "offtrade": true
-        },
-        {
-          "data": "28/04/2026",
-          "codcli": "76075",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 6,
-          "valor": 781.2,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "74418",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 296.4,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "76071",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 5,
-          "valor": 741.0,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "82542",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 296.4,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "21215",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 296.4,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "76074",
-          "cliente": "DRIFT COM. DE ALIMENTOS SA",
-          "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 5,
-          "valor": 741.0,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "82538",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 296.4,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "76076",
-          "cliente": "DRIFT COM. DE ALIMENTOS SA",
-          "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 5,
-          "valor": 741.0,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "82541",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 296.4,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "74418",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 296.4,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "76071",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 5,
-          "valor": 741.0,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "82542",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 296.4,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "21215",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 296.4,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "76074",
-          "cliente": "DRIFT COM. DE ALIMENTOS SA",
-          "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 6,
-          "valor": 889.2,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "76076",
-          "cliente": "DRIFT COM. DE ALIMENTOS SA",
-          "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 6,
-          "valor": 889.2,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "82541",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 296.4,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "74418",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 192.0,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "76071",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 192.0,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "82542",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 192.0,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "21215",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 192.0,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "76074",
-          "cliente": "DRIFT COM. DE ALIMENTOS SA",
-          "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 192.0,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "82538",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "NAVEIA",
-          "qt": 1,
-          "valor": 96.0,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "76076",
-          "cliente": "DRIFT COM. DE ALIMENTOS SA",
-          "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 192.0,
-          "offtrade": true
-        },
-        {
-          "data": "27/04/2026",
-          "codcli": "82541",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 192.0,
           "offtrade": true
         },
         {
@@ -82080,6 +81680,406 @@ const VENDAS_ES_DATA = {
           "fantasia": "PINATI",
           "qt": 2,
           "valor": 77.6,
+          "offtrade": true
+        },
+        {
+          "data": "24/04/2026",
+          "codcli": "80859",
+          "cliente": "EUDES VENTORIN MORGAN",
+          "produto": "DP PACOCA DADINHO ZERO 8X18G",
+          "fantasia": "DADINHO",
+          "qt": 12,
+          "valor": 109.08,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "21217",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 260.4,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "82537",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 6,
+          "valor": 781.2,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "82540",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 3,
+          "valor": 390.6,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "74418",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 260.4,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "76071",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 6,
+          "valor": 781.2,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "82542",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 260.4,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "21215",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 260.4,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "76074",
+          "cliente": "DRIFT COM. DE ALIMENTOS SA",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 6,
+          "valor": 781.2,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "21216",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 260.4,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "82538",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 260.4,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "91463",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 260.4,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "76072",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 6,
+          "valor": 781.2,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "76073",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 6,
+          "valor": 781.2,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "76076",
+          "cliente": "DRIFT COM. DE ALIMENTOS SA",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 6,
+          "valor": 781.2,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "82541",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 260.4,
+          "offtrade": true
+        },
+        {
+          "data": "28/04/2026",
+          "codcli": "76075",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 6,
+          "valor": 781.2,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "74418",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 296.4,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "76071",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 5,
+          "valor": 741.0,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "82542",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 296.4,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "21215",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 296.4,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "76074",
+          "cliente": "DRIFT COM. DE ALIMENTOS SA",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 5,
+          "valor": 741.0,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "82538",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 296.4,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "76076",
+          "cliente": "DRIFT COM. DE ALIMENTOS SA",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 5,
+          "valor": 741.0,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "82541",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 296.4,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "74418",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA CHOCOLATE 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 296.4,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "76071",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA CHOCOLATE 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 5,
+          "valor": 741.0,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "82542",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA CHOCOLATE 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 296.4,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "21215",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "NAVEIA CHOCOLATE 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 296.4,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "76074",
+          "cliente": "DRIFT COM. DE ALIMENTOS SA",
+          "produto": "NAVEIA CHOCOLATE 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 6,
+          "valor": 889.2,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "76076",
+          "cliente": "DRIFT COM. DE ALIMENTOS SA",
+          "produto": "NAVEIA CHOCOLATE 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 6,
+          "valor": 889.2,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "82541",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA CHOCOLATE 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 296.4,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "74418",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "CREME DE LEITE NAVEIA 24X200G",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 192.0,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "76071",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "CREME DE LEITE NAVEIA 24X200G",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 192.0,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "82542",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "CREME DE LEITE NAVEIA 24X200G",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 192.0,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "21215",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "CREME DE LEITE NAVEIA 24X200G",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 192.0,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "76074",
+          "cliente": "DRIFT COM. DE ALIMENTOS SA",
+          "produto": "CREME DE LEITE NAVEIA 24X200G",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 192.0,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "82538",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "CREME DE LEITE NAVEIA 24X200G",
+          "fantasia": "NAVEIA",
+          "qt": 1,
+          "valor": 96.0,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "76076",
+          "cliente": "DRIFT COM. DE ALIMENTOS SA",
+          "produto": "CREME DE LEITE NAVEIA 24X200G",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 192.0,
+          "offtrade": true
+        },
+        {
+          "data": "27/04/2026",
+          "codcli": "82541",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "CREME DE LEITE NAVEIA 24X200G",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 192.0,
           "offtrade": true
         },
         {
@@ -84145,696 +84145,6 @@ const VENDAS_ES_DATA = {
           "offtrade": true
         },
         {
-          "data": "28/05/2026",
-          "codcli": "85400",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO TRAD SACHE 90G",
-          "fantasia": "DADINHO",
-          "qt": 120,
-          "valor": 732.0,
-          "offtrade": true
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "85433",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO TRAD SACHE 90G",
-          "fantasia": "DADINHO",
-          "qt": 120,
-          "valor": 732.0,
-          "offtrade": true
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "85432",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO TRAD SACHE 90G",
-          "fantasia": "DADINHO",
-          "qt": 120,
-          "valor": 732.0,
-          "offtrade": true
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "85424",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO TRAD SACHE 90G",
-          "fantasia": "DADINHO",
-          "qt": 80,
-          "valor": 488.0,
-          "offtrade": true
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "85438",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO TRAD SACHE 90G",
-          "fantasia": "DADINHO",
-          "qt": 40,
-          "valor": 244.0,
-          "offtrade": true
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "85401",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO TRAD SACHE 90G",
-          "fantasia": "DADINHO",
-          "qt": 80,
-          "valor": 488.0,
-          "offtrade": true
-        },
-        {
-          "data": "29/05/2026",
-          "codcli": "85836",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO TRAD SACHE 90G",
-          "fantasia": "DADINHO",
-          "qt": 120,
-          "valor": 732.0,
-          "offtrade": true
-        },
-        {
-          "data": "29/05/2026",
-          "codcli": "85411",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO TRAD SACHE 90G",
-          "fantasia": "DADINHO",
-          "qt": 160,
-          "valor": 976.0,
-          "offtrade": true
-        },
-        {
-          "data": "29/05/2026",
-          "codcli": "85410",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO TRAD SACHE 90G",
-          "fantasia": "DADINHO",
-          "qt": 40,
-          "valor": 244.0,
-          "offtrade": true
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "85400",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO ZERO ACUCAR 90G",
-          "fantasia": "DADINHO",
-          "qt": 120,
-          "valor": 1076.4,
-          "offtrade": true
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "85433",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO ZERO ACUCAR 90G",
-          "fantasia": "DADINHO",
-          "qt": 120,
-          "valor": 1076.4,
-          "offtrade": true
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "85432",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO ZERO ACUCAR 90G",
-          "fantasia": "DADINHO",
-          "qt": 120,
-          "valor": 1076.4,
-          "offtrade": true
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "85424",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO ZERO ACUCAR 90G",
-          "fantasia": "DADINHO",
-          "qt": 80,
-          "valor": 717.6,
-          "offtrade": true
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "85438",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO ZERO ACUCAR 90G",
-          "fantasia": "DADINHO",
-          "qt": 40,
-          "valor": 358.8,
-          "offtrade": true
-        },
-        {
-          "data": "29/05/2026",
-          "codcli": "85411",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO ZERO ACUCAR 90G",
-          "fantasia": "DADINHO",
-          "qt": 160,
-          "valor": 1435.2,
-          "offtrade": true
-        },
-        {
-          "data": "29/05/2026",
-          "codcli": "85410",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO ZERO ACUCAR 90G",
-          "fantasia": "DADINHO",
-          "qt": 40,
-          "valor": 358.8,
-          "offtrade": true
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "85400",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO TRAD 420GR",
-          "fantasia": "DADINHO",
-          "qt": 90,
-          "valor": 1524.6,
-          "offtrade": true
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "85433",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO TRAD 420GR",
-          "fantasia": "DADINHO",
-          "qt": 90,
-          "valor": 1524.6,
-          "offtrade": true
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "85432",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO TRAD 420GR",
-          "fantasia": "DADINHO",
-          "qt": 90,
-          "valor": 1524.6,
-          "offtrade": true
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "85401",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO TRAD 420GR",
-          "fantasia": "DADINHO",
-          "qt": 54,
-          "valor": 914.76,
-          "offtrade": true
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "85400",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP BOMBOM DADINHO ESPEC 198G",
-          "fantasia": "DADINHO",
-          "qt": 90,
-          "valor": 593.1,
-          "offtrade": true
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "85433",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP BOMBOM DADINHO ESPEC 198G",
-          "fantasia": "DADINHO",
-          "qt": 150,
-          "valor": 988.5,
-          "offtrade": true
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "85432",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP BOMBOM DADINHO ESPEC 198G",
-          "fantasia": "DADINHO",
-          "qt": 120,
-          "valor": 790.8,
-          "offtrade": true
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "85424",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP BOMBOM DADINHO ESPEC 198G",
-          "fantasia": "DADINHO",
-          "qt": 60,
-          "valor": 395.4,
-          "offtrade": true
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "85401",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP BOMBOM DADINHO ESPEC 198G",
-          "fantasia": "DADINHO",
-          "qt": 30,
-          "valor": 197.7,
-          "offtrade": true
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "85400",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
-          "fantasia": "DADINHO",
-          "qt": 60,
-          "valor": 1717.2,
-          "offtrade": true
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "85433",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
-          "fantasia": "DADINHO",
-          "qt": 60,
-          "valor": 1717.2,
-          "offtrade": true
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "85432",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
-          "fantasia": "DADINHO",
-          "qt": 60,
-          "valor": 1717.2,
-          "offtrade": true
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "85424",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
-          "fantasia": "DADINHO",
-          "qt": 24,
-          "valor": 686.88,
-          "offtrade": true
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "85438",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
-          "fantasia": "DADINHO",
-          "qt": 24,
-          "valor": 686.88,
-          "offtrade": true
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "85401",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
-          "fantasia": "DADINHO",
-          "qt": 60,
-          "valor": 1717.2,
-          "offtrade": true
-        },
-        {
-          "data": "29/05/2026",
-          "codcli": "85410",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
-          "fantasia": "DADINHO",
-          "qt": 12,
-          "valor": 343.44,
-          "offtrade": true
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "85400",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "DADINHO",
-          "qt": 90,
-          "valor": 343.8,
-          "offtrade": true
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "85433",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "DADINHO",
-          "qt": 150,
-          "valor": 573.0,
-          "offtrade": true
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "85432",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "DADINHO",
-          "qt": 120,
-          "valor": 458.4,
-          "offtrade": true
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "85424",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "DADINHO",
-          "qt": 60,
-          "valor": 229.2,
-          "offtrade": true
-        },
-        {
-          "data": "28/05/2026",
-          "codcli": "85401",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "DADINHO",
-          "qt": 60,
-          "valor": 229.2,
-          "offtrade": true
-        },
-        {
-          "data": "29/05/2026",
-          "codcli": "85836",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "DADINHO",
-          "qt": 60,
-          "valor": 229.2,
-          "offtrade": true
-        },
-        {
-          "data": "29/05/2026",
-          "codcli": "85410",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "fantasia": "DADINHO",
-          "qt": 30,
-          "valor": 114.6,
-          "offtrade": true
-        },
-        {
-          "data": "06/05/2026",
-          "codcli": "82539",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA ORIGINAL 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 3,
-          "valor": 390.6,
-          "offtrade": true
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "76073",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 5,
-          "valor": 741.0,
-          "offtrade": true
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "21216",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 296.4,
-          "offtrade": true
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "21217",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 296.4,
-          "offtrade": true
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "82537",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 5,
-          "valor": 741.0,
-          "offtrade": true
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "82540",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 3,
-          "valor": 444.6,
-          "offtrade": true
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "91463",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 296.4,
-          "offtrade": true
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "82539",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 3,
-          "valor": 444.6,
-          "offtrade": true
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "76072",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 5,
-          "valor": 741.0,
-          "offtrade": true
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "76075",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "NAVEIA BARISTA 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 5,
-          "valor": 741.0,
-          "offtrade": true
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "76073",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 6,
-          "valor": 889.2,
-          "offtrade": true
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "21216",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 296.4,
-          "offtrade": true
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "21217",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 296.4,
-          "offtrade": true
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "82537",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 6,
-          "valor": 889.2,
-          "offtrade": true
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "82540",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 3,
-          "valor": 444.6,
-          "offtrade": true
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "91463",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 296.4,
-          "offtrade": true
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "82539",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 3,
-          "valor": 444.6,
-          "offtrade": true
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "76072",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 6,
-          "valor": 889.2,
-          "offtrade": true
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "76075",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 6,
-          "valor": 889.2,
-          "offtrade": true
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "82538",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "NAVEIA CHOCOLATE 12X1L",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 296.4,
-          "offtrade": true
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "76073",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 192.0,
-          "offtrade": true
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "21216",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 192.0,
-          "offtrade": true
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "21217",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 192.0,
-          "offtrade": true
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "82537",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 192.0,
-          "offtrade": true
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "82540",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 192.0,
-          "offtrade": true
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "91463",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 192.0,
-          "offtrade": true
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "82539",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 192.0,
-          "offtrade": true
-        },
-        {
-          "data": "21/05/2026",
-          "codcli": "76072",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 192.0,
-          "offtrade": true
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "76075",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "NAVEIA",
-          "qt": 2,
-          "valor": 192.0,
-          "offtrade": true
-        },
-        {
-          "data": "27/05/2026",
-          "codcli": "82538",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "produto": "CREME DE LEITE NAVEIA 24X200G",
-          "fantasia": "NAVEIA",
-          "qt": 1,
-          "valor": 96.0,
-          "offtrade": true
-        },
-        {
           "data": "13/05/2026",
           "codcli": "80859",
           "cliente": "EUDES VENTORIN MORGAN",
@@ -86685,6 +85995,696 @@ const VENDAS_ES_DATA = {
           "offtrade": true
         },
         {
+          "data": "28/05/2026",
+          "codcli": "85400",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD SACHE 90G",
+          "fantasia": "DADINHO",
+          "qt": 120,
+          "valor": 732.0,
+          "offtrade": true
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "85433",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD SACHE 90G",
+          "fantasia": "DADINHO",
+          "qt": 120,
+          "valor": 732.0,
+          "offtrade": true
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "85432",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD SACHE 90G",
+          "fantasia": "DADINHO",
+          "qt": 120,
+          "valor": 732.0,
+          "offtrade": true
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "85424",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD SACHE 90G",
+          "fantasia": "DADINHO",
+          "qt": 80,
+          "valor": 488.0,
+          "offtrade": true
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "85438",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD SACHE 90G",
+          "fantasia": "DADINHO",
+          "qt": 40,
+          "valor": 244.0,
+          "offtrade": true
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "85401",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD SACHE 90G",
+          "fantasia": "DADINHO",
+          "qt": 80,
+          "valor": 488.0,
+          "offtrade": true
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "85836",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD SACHE 90G",
+          "fantasia": "DADINHO",
+          "qt": 120,
+          "valor": 732.0,
+          "offtrade": true
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "85411",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD SACHE 90G",
+          "fantasia": "DADINHO",
+          "qt": 160,
+          "valor": 976.0,
+          "offtrade": true
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "85410",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD SACHE 90G",
+          "fantasia": "DADINHO",
+          "qt": 40,
+          "valor": 244.0,
+          "offtrade": true
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "85400",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO ZERO ACUCAR 90G",
+          "fantasia": "DADINHO",
+          "qt": 120,
+          "valor": 1076.4,
+          "offtrade": true
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "85433",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO ZERO ACUCAR 90G",
+          "fantasia": "DADINHO",
+          "qt": 120,
+          "valor": 1076.4,
+          "offtrade": true
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "85432",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO ZERO ACUCAR 90G",
+          "fantasia": "DADINHO",
+          "qt": 120,
+          "valor": 1076.4,
+          "offtrade": true
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "85424",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO ZERO ACUCAR 90G",
+          "fantasia": "DADINHO",
+          "qt": 80,
+          "valor": 717.6,
+          "offtrade": true
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "85438",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO ZERO ACUCAR 90G",
+          "fantasia": "DADINHO",
+          "qt": 40,
+          "valor": 358.8,
+          "offtrade": true
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "85411",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO ZERO ACUCAR 90G",
+          "fantasia": "DADINHO",
+          "qt": 160,
+          "valor": 1435.2,
+          "offtrade": true
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "85410",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO ZERO ACUCAR 90G",
+          "fantasia": "DADINHO",
+          "qt": 40,
+          "valor": 358.8,
+          "offtrade": true
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "85400",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD 420GR",
+          "fantasia": "DADINHO",
+          "qt": 90,
+          "valor": 1524.6,
+          "offtrade": true
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "85433",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD 420GR",
+          "fantasia": "DADINHO",
+          "qt": 90,
+          "valor": 1524.6,
+          "offtrade": true
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "85432",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD 420GR",
+          "fantasia": "DADINHO",
+          "qt": 90,
+          "valor": 1524.6,
+          "offtrade": true
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "85401",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD 420GR",
+          "fantasia": "DADINHO",
+          "qt": 54,
+          "valor": 914.76,
+          "offtrade": true
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "85400",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM DADINHO ESPEC 198G",
+          "fantasia": "DADINHO",
+          "qt": 90,
+          "valor": 593.1,
+          "offtrade": true
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "85433",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM DADINHO ESPEC 198G",
+          "fantasia": "DADINHO",
+          "qt": 150,
+          "valor": 988.5,
+          "offtrade": true
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "85432",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM DADINHO ESPEC 198G",
+          "fantasia": "DADINHO",
+          "qt": 120,
+          "valor": 790.8,
+          "offtrade": true
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "85424",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM DADINHO ESPEC 198G",
+          "fantasia": "DADINHO",
+          "qt": 60,
+          "valor": 395.4,
+          "offtrade": true
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "85401",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM DADINHO ESPEC 198G",
+          "fantasia": "DADINHO",
+          "qt": 30,
+          "valor": 197.7,
+          "offtrade": true
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "85400",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
+          "fantasia": "DADINHO",
+          "qt": 60,
+          "valor": 1717.2,
+          "offtrade": true
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "85433",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
+          "fantasia": "DADINHO",
+          "qt": 60,
+          "valor": 1717.2,
+          "offtrade": true
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "85432",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
+          "fantasia": "DADINHO",
+          "qt": 60,
+          "valor": 1717.2,
+          "offtrade": true
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "85424",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
+          "fantasia": "DADINHO",
+          "qt": 24,
+          "valor": 686.88,
+          "offtrade": true
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "85438",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
+          "fantasia": "DADINHO",
+          "qt": 24,
+          "valor": 686.88,
+          "offtrade": true
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "85401",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
+          "fantasia": "DADINHO",
+          "qt": 60,
+          "valor": 1717.2,
+          "offtrade": true
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "85410",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
+          "fantasia": "DADINHO",
+          "qt": 12,
+          "valor": 343.44,
+          "offtrade": true
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "85400",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO BITZ AO LEITE 105G",
+          "fantasia": "DADINHO",
+          "qt": 90,
+          "valor": 343.8,
+          "offtrade": true
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "85433",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO BITZ AO LEITE 105G",
+          "fantasia": "DADINHO",
+          "qt": 150,
+          "valor": 573.0,
+          "offtrade": true
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "85432",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO BITZ AO LEITE 105G",
+          "fantasia": "DADINHO",
+          "qt": 120,
+          "valor": 458.4,
+          "offtrade": true
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "85424",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO BITZ AO LEITE 105G",
+          "fantasia": "DADINHO",
+          "qt": 60,
+          "valor": 229.2,
+          "offtrade": true
+        },
+        {
+          "data": "28/05/2026",
+          "codcli": "85401",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO BITZ AO LEITE 105G",
+          "fantasia": "DADINHO",
+          "qt": 60,
+          "valor": 229.2,
+          "offtrade": true
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "85836",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO BITZ AO LEITE 105G",
+          "fantasia": "DADINHO",
+          "qt": 60,
+          "valor": 229.2,
+          "offtrade": true
+        },
+        {
+          "data": "29/05/2026",
+          "codcli": "85410",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO BITZ AO LEITE 105G",
+          "fantasia": "DADINHO",
+          "qt": 30,
+          "valor": 114.6,
+          "offtrade": true
+        },
+        {
+          "data": "06/05/2026",
+          "codcli": "82539",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA ORIGINAL 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 3,
+          "valor": 390.6,
+          "offtrade": true
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "76073",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 5,
+          "valor": 741.0,
+          "offtrade": true
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "21216",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 296.4,
+          "offtrade": true
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "21217",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 296.4,
+          "offtrade": true
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "82537",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 5,
+          "valor": 741.0,
+          "offtrade": true
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "82540",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 3,
+          "valor": 444.6,
+          "offtrade": true
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "91463",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 296.4,
+          "offtrade": true
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "82539",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 3,
+          "valor": 444.6,
+          "offtrade": true
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "76072",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 5,
+          "valor": 741.0,
+          "offtrade": true
+        },
+        {
+          "data": "27/05/2026",
+          "codcli": "76075",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 5,
+          "valor": 741.0,
+          "offtrade": true
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "76073",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA CHOCOLATE 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 6,
+          "valor": 889.2,
+          "offtrade": true
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "21216",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "NAVEIA CHOCOLATE 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 296.4,
+          "offtrade": true
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "21217",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "NAVEIA CHOCOLATE 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 296.4,
+          "offtrade": true
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "82537",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA CHOCOLATE 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 6,
+          "valor": 889.2,
+          "offtrade": true
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "82540",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA CHOCOLATE 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 3,
+          "valor": 444.6,
+          "offtrade": true
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "91463",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA CHOCOLATE 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 296.4,
+          "offtrade": true
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "82539",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA CHOCOLATE 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 3,
+          "valor": 444.6,
+          "offtrade": true
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "76072",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA CHOCOLATE 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 6,
+          "valor": 889.2,
+          "offtrade": true
+        },
+        {
+          "data": "27/05/2026",
+          "codcli": "76075",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "NAVEIA CHOCOLATE 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 6,
+          "valor": 889.2,
+          "offtrade": true
+        },
+        {
+          "data": "27/05/2026",
+          "codcli": "82538",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "NAVEIA CHOCOLATE 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 296.4,
+          "offtrade": true
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "76073",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "CREME DE LEITE NAVEIA 24X200G",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 192.0,
+          "offtrade": true
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "21216",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "CREME DE LEITE NAVEIA 24X200G",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 192.0,
+          "offtrade": true
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "21217",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "CREME DE LEITE NAVEIA 24X200G",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 192.0,
+          "offtrade": true
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "82537",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "CREME DE LEITE NAVEIA 24X200G",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 192.0,
+          "offtrade": true
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "82540",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "CREME DE LEITE NAVEIA 24X200G",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 192.0,
+          "offtrade": true
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "91463",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "CREME DE LEITE NAVEIA 24X200G",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 192.0,
+          "offtrade": true
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "82539",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "CREME DE LEITE NAVEIA 24X200G",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 192.0,
+          "offtrade": true
+        },
+        {
+          "data": "21/05/2026",
+          "codcli": "76072",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "CREME DE LEITE NAVEIA 24X200G",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 192.0,
+          "offtrade": true
+        },
+        {
+          "data": "27/05/2026",
+          "codcli": "76075",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "produto": "CREME DE LEITE NAVEIA 24X200G",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 192.0,
+          "offtrade": true
+        },
+        {
+          "data": "27/05/2026",
+          "codcli": "82538",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "CREME DE LEITE NAVEIA 24X200G",
+          "fantasia": "NAVEIA",
+          "qt": 1,
+          "valor": 96.0,
+          "offtrade": true
+        },
+        {
           "data": "29/05/2026",
           "codcli": "74376",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
@@ -88066,26 +88066,6 @@ const VENDAS_ES_DATA = {
           "fantasia": "HENNESSY",
           "qt": 6,
           "valor": 618.0,
-          "offtrade": true
-        },
-        {
-          "data": "31/03/2026",
-          "codcli": "90303",
-          "cliente": "SILVEIRA E NOGUEIRA LTDA",
-          "produto": "DP BOMBOM LOVERS AVELA 660G",
-          "fantasia": "DADINHO",
-          "qt": 1,
-          "valor": 35.25,
-          "offtrade": true
-        },
-        {
-          "data": "19/03/2026",
-          "codcli": "90302",
-          "cliente": "M L DA SILVA VASCONCELOS MINIMERCADO E PADARIA",
-          "produto": "DP GAMADINHO TRAD 60G",
-          "fantasia": "DADINHO",
-          "qt": 7,
-          "valor": 24.55,
           "offtrade": true
         },
         {
@@ -89806,6 +89786,26 @@ const VENDAS_ES_DATA = {
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 44.46,
+          "offtrade": true
+        },
+        {
+          "data": "31/03/2026",
+          "codcli": "90303",
+          "cliente": "SILVEIRA E NOGUEIRA LTDA",
+          "produto": "DP BOMBOM LOVERS AVELA 660G",
+          "fantasia": "DADINHO",
+          "qt": 1,
+          "valor": 35.25,
+          "offtrade": true
+        },
+        {
+          "data": "19/03/2026",
+          "codcli": "90302",
+          "cliente": "M L DA SILVA VASCONCELOS MINIMERCADO E PADARIA",
+          "produto": "DP GAMADINHO TRAD 60G",
+          "fantasia": "DADINHO",
+          "qt": 7,
+          "valor": 24.55,
           "offtrade": true
         },
         {
@@ -91663,16 +91663,6 @@ const VENDAS_ES_DATA = {
           "offtrade": true
         },
         {
-          "data": "06/04/2026",
-          "codcli": "93519",
-          "cliente": "R.V.L.QUEIROZ",
-          "produto": "DP GAMADINHO TRAD 420G",
-          "fantasia": "DADINHO",
-          "qt": 1,
-          "valor": 17.39,
-          "offtrade": true
-        },
-        {
           "data": "20/04/2026",
           "codcli": "90959",
           "cliente": "RENATO SOUZA JACINTO DE ALMEIDA 07041038777",
@@ -91910,6 +91900,16 @@ const VENDAS_ES_DATA = {
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 98.12,
+          "offtrade": true
+        },
+        {
+          "data": "06/04/2026",
+          "codcli": "93519",
+          "cliente": "R.V.L.QUEIROZ",
+          "produto": "DP GAMADINHO TRAD 420G",
+          "fantasia": "DADINHO",
+          "qt": 1,
+          "valor": 17.39,
           "offtrade": true
         }
       ],
@@ -93547,16 +93547,6 @@ const VENDAS_ES_DATA = {
       ],
       "Mai/26": [
         {
-          "data": "20/05/2026",
-          "codcli": "90306",
-          "cliente": "MÁRCIA QUELLEM NASCIMENTO DOS SANTOS",
-          "produto": "PF MENTOS STICK 14 B. RAINBOW DP/16",
-          "fantasia": "MENTOS",
-          "qt": 1,
-          "valor": 30.9,
-          "offtrade": true
-        },
-        {
           "data": "08/05/2026",
           "codcli": "90306",
           "cliente": "MÁRCIA QUELLEM NASCIMENTO DOS SANTOS",
@@ -93564,6 +93554,16 @@ const VENDAS_ES_DATA = {
           "fantasia": "NOIG",
           "qt": 1,
           "valor": 8.43,
+          "offtrade": true
+        },
+        {
+          "data": "20/05/2026",
+          "codcli": "90306",
+          "cliente": "MÁRCIA QUELLEM NASCIMENTO DOS SANTOS",
+          "produto": "PF MENTOS STICK 14 B. RAINBOW DP/16",
+          "fantasia": "MENTOS",
+          "qt": 1,
+          "valor": 30.9,
           "offtrade": true
         },
         {
@@ -99476,6 +99476,16 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "21/07/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "fantasia": "PINATI",
+          "qt": 15,
+          "valor": 1224.0,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
           "codcli": "20942",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
           "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
@@ -99496,6 +99506,16 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "21/07/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
+          "fantasia": "PINATI",
+          "qt": 10,
+          "valor": 816.0,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
           "codcli": "20942",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
           "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
@@ -99512,6 +99532,16 @@ const VENDAS_ES_DATA = {
           "fantasia": "PINATI",
           "qt": 5,
           "valor": 408.0,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 15,
+          "valor": 1224.0,
           "offtrade": true
         },
         {
