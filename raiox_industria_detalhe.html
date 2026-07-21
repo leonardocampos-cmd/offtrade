@@ -182,11 +182,11 @@
       `).join('');
 
       const clientesHtml = (f.top_clientes || []).map(c => `
-        <tr><td>${c.nome}</td><td style="color:var(--muted)">${c.codcli}</td><td>${brl(c.faturamento)}</td></tr>
+        <tr><td>${c.nome}</td><td style="color:var(--muted)">${c.estado} · ${c.codcli}</td><td>${brl(c.faturamento)}</td></tr>
       `).join('') || '<tr><td colspan="3" style="color:var(--muted)">Sem dados.</td></tr>';
 
       const vendedoresHtml = (f.top_vendedores || []).map(v => `
-        <tr><td>${v.nome}</td><td style="color:var(--muted)">${v.rca}</td><td>${brl(v.faturamento)}</td></tr>
+        <tr><td>${v.nome}</td><td style="color:var(--muted)">${v.estado} · ${v.rca}</td><td>${brl(v.faturamento)}</td></tr>
       `).join('') || '<tr><td colspan="3" style="color:var(--muted)">Sem dados.</td></tr>';
 
       document.getElementById('conteudo').innerHTML = `
@@ -218,14 +218,14 @@
           <div class="card">
             <div class="card-titulo">Melhores clientes</div>
             <table>
-              <thead><tr><th>Cliente</th><th>Cód.</th><th>Faturamento</th></tr></thead>
+              <thead><tr><th>Cliente</th><th>Estado · Cód.</th><th>Faturamento</th></tr></thead>
               <tbody>${clientesHtml}</tbody>
             </table>
           </div>
           <div class="card">
             <div class="card-titulo">Melhores vendedores</div>
             <table>
-              <thead><tr><th>Vendedor</th><th>RCA</th><th>Faturamento</th></tr></thead>
+              <thead><tr><th>Vendedor</th><th>Estado · RCA</th><th>Faturamento</th></tr></thead>
               <tbody>${vendedoresHtml}</tbody>
             </table>
           </div>
@@ -239,11 +239,11 @@
       const linhas = [['Mês', 'Faturamento']];
       data.meses_com_dado.forEach(m => linhas.push([m, (f.por_mes[m] || 0).toFixed(2).replace('.', ',')]));
       linhas.push([]);
-      linhas.push(['Cliente', 'Código', 'Faturamento']);
-      (f.top_clientes || []).forEach(c => linhas.push([c.nome, c.codcli, c.faturamento.toFixed(2).replace('.', ',')]));
+      linhas.push(['Cliente', 'Estado', 'Código', 'Faturamento']);
+      (f.top_clientes || []).forEach(c => linhas.push([c.nome, c.estado, c.codcli, c.faturamento.toFixed(2).replace('.', ',')]));
       linhas.push([]);
-      linhas.push(['Vendedor', 'RCA', 'Faturamento']);
-      (f.top_vendedores || []).forEach(v => linhas.push([v.nome, v.rca, v.faturamento.toFixed(2).replace('.', ',')]));
+      linhas.push(['Vendedor', 'Estado', 'RCA', 'Faturamento']);
+      (f.top_vendedores || []).forEach(v => linhas.push([v.nome, v.estado, v.rca, v.faturamento.toFixed(2).replace('.', ',')]));
 
       const csv = linhas.map(l => l.map(x => `"${String(x ?? '').replace(/"/g, '""')}"`).join(';')).join('\n');
       const blob = new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8;' });
