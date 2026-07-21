@@ -21,7 +21,13 @@ def step(nome):
 # execuções concorrentes escrevem nos mesmos _data.js/git ao mesmo tempo
 # (aconteceu em 2026-07-06, gerou commits duplicados em sequência).
 LOCK_PATH = Path(__file__).parent / ".pipeline.lock"
-LOCK_EXPIRA_SEG = 3600  # pipeline normal leva minutos a ~45min; acima disso, trava é considerada órfã
+# Pipeline normal leva ~35-45min, mas com os timeouts forçados adicionados em
+# 2026-07-20/21 (subprocess.run(timeout=600) em cada um dos ~18 passos +
+# _com_timeout_forcado nas queries em-processo) o pior caso deixou de ser
+# "trava pra sempre" e passou a ser "demora horas" quando a VPN/Oracle está
+# ruim — 1h de expiração do lock virou curta demais e chegou a deixar dois
+# main.py rodando ao mesmo tempo (confirmado em 2026-07-21, VPN lenta).
+LOCK_EXPIRA_SEG = 18000  # 5h — acima disso, trava é considerada órfã
 
 def _adquirir_lock():
     if LOCK_PATH.exists():
