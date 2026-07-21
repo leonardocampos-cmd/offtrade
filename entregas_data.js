@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "21/07/2026 12:14",
+  "atualizado_em": "21/07/2026 14:09",
   "data_rota": "21.07",
   "vendedores": [
     {
@@ -141,7 +141,88 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "431001157",
+          "numnota": "",
+          "data": "21/07/2026",
+          "cliente": "MERCADINHO E MERCEARIA LIMA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1151.2,
+          "itens": [
+            {
+              "desc": "WHISKY OLD PARR 12Y 1 L",
+              "qt": 1,
+              "val": 149.9
+            },
+            {
+              "desc": "4 PACK RED BULL",
+              "qt": 6,
+              "val": 179.76
+            },
+            {
+              "desc": "COQUETEL COMPOSTO PINK MOON 24X300ML",
+              "qt": 2,
+              "val": 157.8
+            },
+            {
+              "desc": "LICOR CAN FIREBALL CX C/ 6X50ML",
+              "qt": 1,
+              "val": 20.9
+            },
+            {
+              "desc": "NECTAR ABACAXI 12X1000ML",
+              "qt": 1,
+              "val": 59.88
+            },
+            {
+              "desc": "NECTAR CAJU 12X1000ML",
+              "qt": 1,
+              "val": 59.88
+            },
+            {
+              "desc": "NECTAR GOIABA 12X1000ML",
+              "qt": 1,
+              "val": 59.88
+            },
+            {
+              "desc": "NECTAR LARANJA 12X1000ML",
+              "qt": 1,
+              "val": 59.88
+            },
+            {
+              "desc": "NECTAR MANGA 12X1000ML",
+              "qt": 1,
+              "val": 59.88
+            },
+            {
+              "desc": "NECTAR MARACUJA 12X1000ML",
+              "qt": 1,
+              "val": 59.88
+            },
+            {
+              "desc": "NECTAR PESSEGO 12X1000ML",
+              "qt": 1,
+              "val": 59.88
+            },
+            {
+              "desc": "NECTAR MACA TIAL 12X1000ML",
+              "qt": 1,
+              "val": 59.88
+            },
+            {
+              "desc": "COQUETEL PINK MOON 12X600ML - PET",
+              "qt": 2,
+              "val": 163.8
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "431000847",
@@ -4439,6 +4520,66 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "144001671",
+          "numnota": "",
+          "data": "21/07/2026",
+          "cliente": "SUPERMERCADO SHOW DE ECONOMIA LTDA.",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENDERECO: AV ADAUTO BOTELHO, 29 - COLONIA JULIANO MOREIRA",
+          "total": 614.4,
+          "itens": [
+            {
+              "desc": "COQUETEL COMPOSTO PINK MOON 6X2L",
+              "qt": 2,
+              "val": 258.0
+            },
+            {
+              "desc": "COQUETEL COMPOSTO PINK MOON 24X300ML",
+              "qt": 2,
+              "val": 199.8
+            },
+            {
+              "desc": "COQUETEL PINK MOON 12X600ML - PET",
+              "qt": 2,
+              "val": 156.6
+            }
+          ]
+        },
+        {
+          "numped": "144001668",
+          "numnota": "",
+          "data": "21/07/2026",
+          "cliente": "57.131.206 FLAVIA DA SILVA PAULA DE CARVALHO",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 493.3,
+          "itens": [
+            {
+              "desc": "CERVEJA HEINEKEN LONG 24X330ML",
+              "qt": 1,
+              "val": 127.9
+            },
+            {
+              "desc": "CERVEJA AMSTEL PURO MALTE 12X473 ML",
+              "qt": 2,
+              "val": 109.8
+            },
+            {
+              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+              "qt": 4,
+              "val": 255.6
+            }
+          ]
+        },
+        {
           "numped": "144001669",
           "numnota": "",
           "data": "21/07/2026",
@@ -4475,36 +4616,6 @@ const ENTREGAS_DATA = {
               "desc": "WHISKY J WALKER BLACK LABEL 1L",
               "qt": 1,
               "val": 149.9
-            }
-          ]
-        },
-        {
-          "numped": "144001668",
-          "numnota": "",
-          "data": "21/07/2026",
-          "cliente": "57.131.206 FLAVIA DA SILVA PAULA DE CARVALHO",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 493.3,
-          "itens": [
-            {
-              "desc": "CERVEJA HEINEKEN LONG 24X330ML",
-              "qt": 1,
-              "val": 127.9
-            },
-            {
-              "desc": "CERVEJA AMSTEL PURO MALTE 12X473 ML",
-              "qt": 2,
-              "val": 109.8
-            },
-            {
-              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
-              "qt": 4,
-              "val": 255.6
             }
           ]
         }
@@ -5629,31 +5740,6 @@ const ENTREGAS_DATA = {
           "total": 770.53,
           "itens": [
             {
-              "desc": "4 PACK RED BULL SUGAR FREE",
-              "qt": 2,
-              "val": 59.92
-            },
-            {
-              "desc": "4 PACK RED BULL TROPICAL 4X250ML",
-              "qt": 2,
-              "val": 59.92
-            },
-            {
-              "desc": "4 PACK RED BULL MELANCIA",
-              "qt": 2,
-              "val": 59.92
-            },
-            {
-              "desc": "4 PACK RED BULL MORANGO PESSEGO",
-              "qt": 2,
-              "val": 59.92
-            },
-            {
-              "desc": "4 PACK RED BULL CEREJA",
-              "qt": 2,
-              "val": 59.92
-            },
-            {
               "desc": "4 PACK RED BULL MELÃO C/ MARACUJA",
               "qt": 2,
               "val": 59.92
@@ -5692,6 +5778,66 @@ const ENTREGAS_DATA = {
               "desc": "4 PACK RED BULL",
               "qt": 2,
               "val": 59.92
+            },
+            {
+              "desc": "4 PACK RED BULL SUGAR FREE",
+              "qt": 2,
+              "val": 59.92
+            },
+            {
+              "desc": "4 PACK RED BULL TROPICAL 4X250ML",
+              "qt": 2,
+              "val": 59.92
+            },
+            {
+              "desc": "4 PACK RED BULL MELANCIA",
+              "qt": 2,
+              "val": 59.92
+            },
+            {
+              "desc": "4 PACK RED BULL MORANGO PESSEGO",
+              "qt": 2,
+              "val": 59.92
+            },
+            {
+              "desc": "4 PACK RED BULL CEREJA",
+              "qt": 2,
+              "val": 59.92
+            }
+          ]
+        },
+        {
+          "numped": "378000520",
+          "numnota": "",
+          "data": "21/07/2026",
+          "cliente": "SANTA TEREZA IRMAOS MERCEARIA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 331.86,
+          "itens": [
+            {
+              "desc": "PIRASSUNUNGA 51 965 ML",
+              "qt": 12,
+              "val": 162.0
+            },
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 2,
+              "val": 63.99
+            },
+            {
+              "desc": "4 PACK RED BULL",
+              "qt": 2,
+              "val": 59.92
+            },
+            {
+              "desc": "ZIN TONICA RASPBERRY 12X310ML",
+              "qt": 1,
+              "val": 45.95
             }
           ]
         },
@@ -5752,41 +5898,6 @@ const ENTREGAS_DATA = {
               "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
               "qt": 1,
               "val": 129.9
-            }
-          ]
-        },
-        {
-          "numped": "378000520",
-          "numnota": "",
-          "data": "21/07/2026",
-          "cliente": "SANTA TEREZA IRMAOS MERCEARIA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 331.86,
-          "itens": [
-            {
-              "desc": "PIRASSUNUNGA 51 965 ML",
-              "qt": 12,
-              "val": 162.0
-            },
-            {
-              "desc": "GUARAVITA NATURAL 24X290ML",
-              "qt": 2,
-              "val": 63.99
-            },
-            {
-              "desc": "4 PACK RED BULL",
-              "qt": 2,
-              "val": 59.92
-            },
-            {
-              "desc": "ZIN TONICA RASPBERRY 12X310ML",
-              "qt": 1,
-              "val": 45.95
             }
           ]
         }
@@ -6743,107 +6854,22 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
-          "numped": "159005095",
+          "numped": "159005099",
           "numnota": "",
           "data": "21/07/2026",
-          "cliente": "CASA DE PRAIA SECA LTDA",
+          "cliente": "R R RESTAURANTE CARIOCA LTDA",
           "placa": "",
           "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 353.4,
+          "total": 440.8,
           "itens": [
             {
-              "desc": "WHISKY BALLANTINE S SUNSHINE 700ML",
-              "qt": 6,
-              "val": 353.4
-            }
-          ]
-        },
-        {
-          "numped": "159005092",
-          "numnota": "",
-          "data": "21/07/2026",
-          "cliente": "CASA DE PRAIA SECA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "DEPOSITO",
-          "total": 899.6,
-          "itens": [
-            {
-              "desc": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
-              "qt": 2,
-              "val": 539.8
-            },
-            {
-              "desc": "WHISKY J WALKER BLACK LABEL 1L",
-              "qt": 2,
-              "val": 359.8
-            }
-          ]
-        },
-        {
-          "numped": "159005090",
-          "numnota": "",
-          "data": "21/07/2026",
-          "cliente": "P PEREIRA DO AMARAL LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 2973.16,
-          "itens": [
-            {
-              "desc": "RED BULL 24X250ML",
+              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
               "qt": 8,
-              "val": 1438.08
-            },
-            {
-              "desc": "AGUA MINERAL MINALBA S/ GAS 12X310ML",
-              "qt": 10,
-              "val": 145.0
-            },
-            {
-              "desc": "RED BULL TROPICAL 24X250ML",
-              "qt": 3,
-              "val": 539.28
-            },
-            {
-              "desc": "WHISKY JACK DANIELS FIRE 1L",
-              "qt": 6,
-              "val": 719.4
-            },
-            {
-              "desc": "AGUA MINERAL MINALBA C/ GAS 12X310ML",
-              "qt": 6,
-              "val": 131.4
-            }
-          ]
-        },
-        {
-          "numped": "159005091",
-          "numnota": "",
-          "data": "21/07/2026",
-          "cliente": "P PEREIRA DO AMARAL LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 517.68,
-          "itens": [
-            {
-              "desc": "RED BULL TROPICAL 24X250ML",
-              "qt": 3,
-              "val": 517.68
+              "val": 440.8
             }
           ]
         },
@@ -6939,6 +6965,181 @@ const ENTREGAS_DATA = {
               "desc": "RED BULL SF NECTARINA 24X250ML",
               "qt": 10,
               "val": 957.6
+            }
+          ]
+        },
+        {
+          "numped": "159005098",
+          "numnota": "",
+          "data": "21/07/2026",
+          "cliente": "R R RESTAURANTE CARIOCA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1917.6,
+          "itens": [
+            {
+              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+              "qt": 24,
+              "val": 1917.6
+            }
+          ]
+        },
+        {
+          "numped": "159005095",
+          "numnota": "",
+          "data": "21/07/2026",
+          "cliente": "CASA DE PRAIA SECA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 353.4,
+          "itens": [
+            {
+              "desc": "WHISKY BALLANTINE S SUNSHINE 700ML",
+              "qt": 6,
+              "val": 353.4
+            }
+          ]
+        },
+        {
+          "numped": "159005092",
+          "numnota": "",
+          "data": "21/07/2026",
+          "cliente": "CASA DE PRAIA SECA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 899.6,
+          "itens": [
+            {
+              "desc": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
+              "qt": 2,
+              "val": 539.8
+            },
+            {
+              "desc": "WHISKY J WALKER BLACK LABEL 1L",
+              "qt": 2,
+              "val": 359.8
+            }
+          ]
+        },
+        {
+          "numped": "159005096",
+          "numnota": "",
+          "data": "21/07/2026",
+          "cliente": "64.877.489 MARILEIDE BORGES DE OMENA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 899.6,
+          "itens": [
+            {
+              "desc": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
+              "qt": 2,
+              "val": 539.8
+            },
+            {
+              "desc": "WHISKY J WALKER BLACK LABEL 1L",
+              "qt": 2,
+              "val": 359.8
+            }
+          ]
+        },
+        {
+          "numped": "159005090",
+          "numnota": "",
+          "data": "21/07/2026",
+          "cliente": "P PEREIRA DO AMARAL LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 2973.16,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 8,
+              "val": 1438.08
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 12X310ML",
+              "qt": 10,
+              "val": 145.0
+            },
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 3,
+              "val": 539.28
+            },
+            {
+              "desc": "WHISKY JACK DANIELS FIRE 1L",
+              "qt": 6,
+              "val": 719.4
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA C/ GAS 12X310ML",
+              "qt": 6,
+              "val": 131.4
+            }
+          ]
+        },
+        {
+          "numped": "159005091",
+          "numnota": "",
+          "data": "21/07/2026",
+          "cliente": "P PEREIRA DO AMARAL LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 517.68,
+          "itens": [
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 3,
+              "val": 517.68
+            }
+          ]
+        },
+        {
+          "numped": "159005097",
+          "numnota": "",
+          "data": "21/07/2026",
+          "cliente": "64.877.489 MARILEIDE BORGES DE OMENA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 449.8,
+          "itens": [
+            {
+              "desc": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
+              "qt": 1,
+              "val": 269.9
+            },
+            {
+              "desc": "WHISKY J WALKER BLACK LABEL 1L",
+              "qt": 1,
+              "val": 179.9
             }
           ]
         },
@@ -8623,7 +8824,88 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "379001286",
+          "numnota": "",
+          "data": "21/07/2026",
+          "cliente": "ELITE MERITI COMERCIO ATACADISTA E VAREJISTA DE BEBIDAS E PR",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 2799.36,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 8,
+              "val": 1399.68
+            },
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 3,
+              "val": 524.88
+            },
+            {
+              "desc": "RED BULL MELANCIA 250ML CX C/24",
+              "qt": 2,
+              "val": 349.92
+            },
+            {
+              "desc": "RED BULL MORANGO PESSEGO 24X250ML",
+              "qt": 2,
+              "val": 349.92
+            },
+            {
+              "desc": "RED BULL ZERO  24X250ML",
+              "qt": 1,
+              "val": 174.96
+            }
+          ]
+        },
+        {
+          "numped": "379001285",
+          "numnota": "",
+          "data": "21/07/2026",
+          "cliente": "57.680.658 JOAO PAULO DA SILVA FILHO",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 179.9,
+          "itens": [
+            {
+              "desc": "WHISKY J WALKER BLACK LABEL 1L",
+              "qt": 1,
+              "val": 179.9
+            }
+          ]
+        },
+        {
+          "numped": "379001284",
+          "numnota": "",
+          "data": "21/07/2026",
+          "cliente": "57.680.658 JOAO PAULO DA SILVA FILHO",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 359.8,
+          "itens": [
+            {
+              "desc": "WHISKY J WALKER BLACK LABEL 1L",
+              "qt": 2,
+              "val": 359.8
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "379000858",
@@ -11288,6 +11570,46 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "156003725",
+          "numnota": "",
+          "data": "21/07/2026",
+          "cliente": "AUTO POSTO MAQUINE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 623.86,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 2,
+              "val": 53.46
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+              "qt": 10,
+              "val": 199.0
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+              "qt": 7,
+              "val": 146.3
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+              "qt": 4,
+              "val": 115.6
+            },
+            {
+              "desc": "AGUA MINALBA C/ GAS 6X1,5L",
+              "qt": 5,
+              "val": 109.5
+            }
+          ]
+        },
+        {
           "numped": "156003724",
           "numnota": "",
           "data": "21/07/2026",
@@ -11349,46 +11671,6 @@ const ENTREGAS_DATA = {
               "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
               "qt": 2,
               "val": 249.8
-            }
-          ]
-        },
-        {
-          "numped": "156003725",
-          "numnota": "",
-          "data": "21/07/2026",
-          "cliente": "AUTO POSTO MAQUINE LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 623.86,
-          "itens": [
-            {
-              "desc": "GUARAVITA NATURAL 24X290ML",
-              "qt": 2,
-              "val": 53.46
-            },
-            {
-              "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
-              "qt": 10,
-              "val": 199.0
-            },
-            {
-              "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
-              "qt": 7,
-              "val": 146.3
-            },
-            {
-              "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
-              "qt": 4,
-              "val": 115.6
-            },
-            {
-              "desc": "AGUA MINALBA C/ GAS 6X1,5L",
-              "qt": 5,
-              "val": 109.5
             }
           ]
         }
@@ -12934,6 +13216,101 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "439000278",
+          "numnota": "",
+          "data": "21/07/2026",
+          "cliente": "SUPERMERCADO PRECOTIMO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Data entrega: 23/07/26",
+          "total": 3736.9,
+          "itens": [
+            {
+              "desc": "PINATI DB WHEY AVELA E LEITE 12X50G",
+              "qt": 1,
+              "val": 77.75
+            },
+            {
+              "desc": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+              "qt": 1,
+              "val": 95.9
+            },
+            {
+              "desc": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+              "qt": 1,
+              "val": 105.9
+            },
+            {
+              "desc": "ST PIERRE ZERO LATA PINK LEMON  24X310ML",
+              "qt": 1,
+              "val": 105.9
+            },
+            {
+              "desc": "PINATI DB WHEY FRAPE DE COCO 12X50G",
+              "qt": 1,
+              "val": 77.75
+            },
+            {
+              "desc": "PINATI SLIM WHEY BRIGADEIRO 16X35G",
+              "qt": 1,
+              "val": 57.3
+            },
+            {
+              "desc": "RC ATUM RALADO NATURAL 24X140G",
+              "qt": 4,
+              "val": 519.6
+            },
+            {
+              "desc": "RC ATUM RALADO OLEO 24X140G",
+              "qt": 3,
+              "val": 389.7
+            },
+            {
+              "desc": "RC ATUM PEDACOS EM OLEO 24X140G",
+              "qt": 3,
+              "val": 509.7
+            },
+            {
+              "desc": "RC ATUM PEDACOS NATURAL 24X140G",
+              "qt": 4,
+              "val": 679.6
+            },
+            {
+              "desc": "ST PIERRE ZERO AGUA DE COCO LT 24X310ML",
+              "qt": 1,
+              "val": 105.9
+            },
+            {
+              "desc": "MOVING PROTEIN AGUA DE COCO 12X300ML",
+              "qt": 1,
+              "val": 87.6
+            },
+            {
+              "desc": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+              "qt": 3,
+              "val": 389.7
+            },
+            {
+              "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+              "qt": 3,
+              "val": 389.7
+            },
+            {
+              "desc": "PINATI SLIM WHEY BEIJINHO (4) 16X35G",
+              "qt": 1,
+              "val": 57.3
+            },
+            {
+              "desc": "MOVING JUICE PROTEIN MACA 12X300ML",
+              "qt": 1,
+              "val": 87.6
+            }
+          ]
+        },
+        {
           "numped": "439000271",
           "numnota": "",
           "data": "20/07/2026",
@@ -14049,7 +14426,68 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "419000716",
+          "numnota": "",
+          "data": "21/07/2026",
+          "cliente": "37.598.352 LUCAS DA SILVA GOMES",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "data entrega: 22/07",
+          "total": 287.7,
+          "itens": [
+            {
+              "desc": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+              "qt": 3,
+              "val": 287.7
+            }
+          ]
+        },
+        {
+          "numped": "419000717",
+          "numnota": "",
+          "data": "21/07/2026",
+          "cliente": "JANSEN SARDINHA DA SILVA 05661663722",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "data entrega: 22/07",
+          "total": 179.9,
+          "itens": [
+            {
+              "desc": "WHISKY J WALKER BLACK LABEL 1L",
+              "qt": 1,
+              "val": 179.9
+            }
+          ]
+        },
+        {
+          "numped": "419000715",
+          "numnota": "",
+          "data": "21/07/2026",
+          "cliente": "JANSEN SARDINHA DA SILVA 05661663722",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "data entrega: 22/07",
+          "total": 359.8,
+          "itens": [
+            {
+              "desc": "WHISKY J WALKER BLACK LABEL 1L",
+              "qt": 2,
+              "val": 359.8
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "419000673",
@@ -15037,6 +15475,111 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "155003928",
+          "numnota": "",
+          "data": "21/07/2026",
+          "cliente": "MACHARETE COMERCIO DE BEBIDAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 3034.9,
+          "itens": [
+            {
+              "desc": "WHISKY J WALKER GREEN LABEL - 750ML",
+              "qt": 2,
+              "val": 859.8
+            },
+            {
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 6,
+              "val": 221.4
+            },
+            {
+              "desc": "WHISKY JACK DANIELS APPLE 1L",
+              "qt": 5,
+              "val": 599.5
+            },
+            {
+              "desc": "CHANDON RESERVE BRUT ROSE 750ML",
+              "qt": 6,
+              "val": 455.4
+            },
+            {
+              "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+              "qt": 6,
+              "val": 443.4
+            },
+            {
+              "desc": "CHANDON PASSION ON ICE 750 ML",
+              "qt": 6,
+              "val": 455.4
+            }
+          ]
+        },
+        {
+          "numped": "155003929",
+          "numnota": "",
+          "data": "21/07/2026",
+          "cliente": "64.820.232 CAIO DE GEORGIUS DA SILVA GONCALVES",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 308.26,
+          "itens": [
+            {
+              "desc": "WHISKY BALLANTINE S FINEST 1L",
+              "qt": 4,
+              "val": 219.6
+            },
+            {
+              "desc": "4 PACK RED BULL",
+              "qt": 1,
+              "val": 28.76
+            },
+            {
+              "desc": "WHISKY BALLANTINES SWEET BLEND 700ML",
+              "qt": 1,
+              "val": 59.9
+            }
+          ]
+        },
+        {
+          "numped": "155003925",
+          "numnota": "",
+          "data": "21/07/2026",
+          "cliente": "J M FERNANDES DISTRIBUIDORA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 3414.36,
+          "itens": [
+            {
+              "desc": "GIN BEEFEATER 750ML",
+              "qt": 36,
+              "val": 2156.4
+            },
+            {
+              "desc": "GIN BEEFEATER PINK 700ML",
+              "qt": 18,
+              "val": 1078.2
+            },
+            {
+              "desc": "RED BULL MELANCIA 250ML CX C/24",
+              "qt": 1,
+              "val": 179.76
+            }
+          ]
+        },
+        {
           "numped": "155003926",
           "numnota": "",
           "data": "21/07/2026",
@@ -15078,6 +15621,31 @@ const ENTREGAS_DATA = {
               "desc": "RED BULL ZERO  24X250ML",
               "qt": 1,
               "val": 179.76
+            }
+          ]
+        },
+        {
+          "numped": "155003930",
+          "numnota": "",
+          "data": "21/07/2026",
+          "cliente": "CONVENIENCIA E TABACARIA DA DRICA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 292.36,
+          "itens": [
+            {
+              "desc": "WHISKY JAMESON 750ML",
+              "qt": 2,
+              "val": 119.8
+            },
+            {
+              "desc": "RED BULL ZERO  24X250ML",
+              "qt": 1,
+              "val": 172.56
             }
           ]
         },
@@ -15133,36 +15701,6 @@ const ENTREGAS_DATA = {
               "desc": "RED BULL MELANCIA 250ML CX C/24",
               "qt": 1,
               "val": 172.56
-            }
-          ]
-        },
-        {
-          "numped": "155003925",
-          "numnota": "",
-          "data": "21/07/2026",
-          "cliente": "J M FERNANDES DISTRIBUIDORA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 3414.36,
-          "itens": [
-            {
-              "desc": "GIN BEEFEATER 750ML",
-              "qt": 36,
-              "val": 2156.4
-            },
-            {
-              "desc": "GIN BEEFEATER PINK 700ML",
-              "qt": 18,
-              "val": 1078.2
-            },
-            {
-              "desc": "RED BULL MELANCIA 250ML CX C/24",
-              "qt": 1,
-              "val": 179.76
             }
           ]
         }
