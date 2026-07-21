@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "21/07/2026 12:23",
+  "atualizado_em": "21/07/2026 14:36",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 135636.62,
-        "pos": 74,
+        "fat": 145935.8,
+        "pos": 76,
         "fat_ant": 341993.95
       }
     },
@@ -150,7 +150,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 35798.3
       },
       "Jul/26": {
-        "fat": 73003.96,
+        "fat": 76841.56,
         "pos": 6,
         "fat_ant": 57054.36
       }
@@ -236,7 +236,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 69152.38,
+        "fat": 76016.02,
         "pos": 47,
         "fat_ant": 85308.22
       }
@@ -51951,6 +51951,156 @@ const VENDAS_MG_DATA = {
           "qt": 12,
           "valor": 538.8,
           "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "31908",
+          "cliente": "POINT BAIANO BAR E RESTAURANTE LTDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 191.76,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "31908",
+          "cliente": "POINT BAIANO BAR E RESTAURANTE LTDA",
+          "produto": "RED BULL MELANCIA 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 191.76,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "31722",
+          "cliente": "THAYANE MICELE SILVA MATOS VIANA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 10,
+          "valor": 1917.6,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "31722",
+          "cliente": "THAYANE MICELE SILVA MATOS VIANA",
+          "produto": "RED BULL MELANCIA 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 10,
+          "valor": 1917.6,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "31722",
+          "cliente": "THAYANE MICELE SILVA MATOS VIANA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "RED BULL",
+          "qt": 20,
+          "valor": 3835.2,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "33353",
+          "cliente": "CANGA E CANDEIA DANCING BAR LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 4,
+          "valor": 575.04,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "33353",
+          "cliente": "CANGA E CANDEIA DANCING BAR LTDA",
+          "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
+          "fantasia": "MONIN",
+          "qt": 2,
+          "valor": 99.8,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "33353",
+          "cliente": "CANGA E CANDEIA DANCING BAR LTDA",
+          "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
+          "fantasia": "MONIN",
+          "qt": 1,
+          "valor": 49.9,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "33353",
+          "cliente": "CANGA E CANDEIA DANCING BAR LTDA",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 79.9,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "33353",
+          "cliente": "CANGA E CANDEIA DANCING BAR LTDA",
+          "produto": "GIN TANQUERAY  750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 93.9,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "33353",
+          "cliente": "CANGA E CANDEIA DANCING BAR LTDA",
+          "produto": "XAROPE MONIN GRENADINE 700 ML",
+          "fantasia": "MONIN",
+          "qt": 1,
+          "valor": 49.9,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "29917",
+          "cliente": "CASA FIGATA COMERCIO E DISTRIBUIDORA LTDA",
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 6,
+          "valor": 833.4,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "29725",
+          "cliente": "RAFAEL ARAUJO GORI RESTAURANTE",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 191.76,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "29725",
+          "cliente": "RAFAEL ARAUJO GORI RESTAURANTE",
+          "produto": "RED BULL MELANCIA 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 191.76,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "29725",
+          "cliente": "RAFAEL ARAUJO GORI RESTAURANTE",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 79.9,
+          "offtrade": true
         }
       ]
     },
@@ -77587,6 +77737,16 @@ const VENDAS_MG_DATA = {
           "qt": 36,
           "valor": 1796.4,
           "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "36560",
+          "cliente": "ADEGA BEBIDAS LTDA",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "fantasia": "PERNOD",
+          "qt": 60,
+          "valor": 3837.6,
+          "offtrade": true
         }
       ]
     },
@@ -97014,6 +97174,456 @@ const VENDAS_MG_DATA = {
           "fantasia": "CASTAS",
           "qt": 3,
           "valor": 134.7,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "35993",
+          "cliente": "MFB COMERCIAL LTDA",
+          "produto": "VILLA ROSA COLHEITA BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 149.8,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "35993",
+          "cliente": "MFB COMERCIAL LTDA",
+          "produto": "VINHO ADELE ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 153.8,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "35993",
+          "cliente": "MFB COMERCIAL LTDA",
+          "produto": "ESPUMANTE ALUD BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 4,
+          "valor": 179.6,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "35993",
+          "cliente": "MFB COMERCIAL LTDA",
+          "produto": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 113.4,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "35993",
+          "cliente": "MFB COMERCIAL LTDA",
+          "produto": "VINHO ARESTI EST SEL ROSE 187ML",
+          "fantasia": "CASTAS",
+          "qt": 4,
+          "valor": 75.6,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "35993",
+          "cliente": "MFB COMERCIAL LTDA",
+          "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
+          "fantasia": "CASTAS",
+          "qt": 4,
+          "valor": 219.6,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "35993",
+          "cliente": "MFB COMERCIAL LTDA",
+          "produto": "VINHO ARESTI EST SEL CARMENERE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 8,
+          "valor": 439.2,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "34139",
+          "cliente": "CHEF PALMEIRA & CIA LTDA",
+          "produto": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
+          "fantasia": "CASTAS",
+          "qt": 10,
+          "valor": 189.0,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "34139",
+          "cliente": "CHEF PALMEIRA & CIA LTDA",
+          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+          "fantasia": "CASTAS",
+          "qt": 10,
+          "valor": 189.0,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "34139",
+          "cliente": "CHEF PALMEIRA & CIA LTDA",
+          "produto": "VINHO ARESTI EST SEL ROSE 187ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 113.4,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "34139",
+          "cliente": "CHEF PALMEIRA & CIA LTDA",
+          "produto": "VINHO HORIZONTE BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 478.8,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "34139",
+          "cliente": "CHEF PALMEIRA & CIA LTDA",
+          "produto": "ESPUMANTE ALUD BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 269.4,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "35229",
+          "cliente": "LA MACELLERIA LOURDES ACOUGUE GOURMET E RESTAURANTE LTDA",
+          "produto": "APERITIVO APEROL 750 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 89.0,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "35229",
+          "cliente": "LA MACELLERIA LOURDES ACOUGUE GOURMET E RESTAURANTE LTDA",
+          "produto": "RUM BACARDI CARTA BLANCA 980 ML",
+          "fantasia": "BACARDI",
+          "qt": 1,
+          "valor": 46.9,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "35229",
+          "cliente": "LA MACELLERIA LOURDES ACOUGUE GOURMET E RESTAURANTE LTDA",
+          "produto": "WHISKY JACK DANIELS 1L",
+          "fantasia": "BROWN-FORMAN",
+          "qt": 1,
+          "valor": 129.9,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "35229",
+          "cliente": "LA MACELLERIA LOURDES ACOUGUE GOURMET E RESTAURANTE LTDA",
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 148.9,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "37622",
+          "cliente": "KESCO ENGENHARIA E COMERCIO LTDA",
+          "produto": "CERVEJA HEINEKEN RETORNAVEL 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 2,
+          "valor": 436.32,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "37622",
+          "cliente": "KESCO ENGENHARIA E COMERCIO LTDA",
+          "produto": "MINIATURA CAN FIREBALL C/12",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 58.68,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "34357",
+          "cliente": "VILLAGE FOODS LTDA",
+          "produto": "VINHO ARESTI EST SEL PINOT NOIR 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 109.8,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "34357",
+          "cliente": "VILLAGE FOODS LTDA",
+          "produto": "VINHO CAVAS DE ORO CABERNET SAUV 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 359.4,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "34357",
+          "cliente": "VILLAGE FOODS LTDA",
+          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 153.8,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "33637",
+          "cliente": "DIAMOND FOODS LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 4,
+          "valor": 575.04,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "33637",
+          "cliente": "DIAMOND FOODS LTDA",
+          "produto": "XAROPE MONIN LIMAO SICILIANO 700 ML",
+          "fantasia": "MONIN",
+          "qt": 1,
+          "valor": 47.9,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "33637",
+          "cliente": "DIAMOND FOODS LTDA",
+          "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+          "fantasia": "DON LUIZ",
+          "qt": 1,
+          "valor": 59.9,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "34357",
+          "cliente": "VILLAGE FOODS LTDA",
+          "produto": "XAROPE MONIN LIMAO SICILIANO 700 ML",
+          "fantasia": "MONIN",
+          "qt": 1,
+          "valor": 47.9,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "34357",
+          "cliente": "VILLAGE FOODS LTDA",
+          "produto": "APERITIVO CAMPARI 998 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 49.9,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "34357",
+          "cliente": "VILLAGE FOODS LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 74.9,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "34357",
+          "cliente": "VILLAGE FOODS LTDA",
+          "produto": "GIN ORLOFF 1L",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 49.9,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "34357",
+          "cliente": "VILLAGE FOODS LTDA",
+          "produto": "XAROPE MONIN MELANCIA 700ML",
+          "fantasia": "MONIN",
+          "qt": 1,
+          "valor": 47.9,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "34357",
+          "cliente": "VILLAGE FOODS LTDA",
+          "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
+          "fantasia": "MONIN",
+          "qt": 1,
+          "valor": 47.9,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "34357",
+          "cliente": "VILLAGE FOODS LTDA",
+          "produto": "XAROPE MONIN TANGERINA (MANDARIM) 700ML",
+          "fantasia": "MONIN",
+          "qt": 3,
+          "valor": 143.7,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "33637",
+          "cliente": "DIAMOND FOODS LTDA",
+          "produto": "APERITIVO CAMPARI 998 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 49.9,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "33637",
+          "cliente": "DIAMOND FOODS LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 3,
+          "valor": 224.7,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "33637",
+          "cliente": "DIAMOND FOODS LTDA",
+          "produto": "GIN ORLOFF 1L",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 49.9,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "33637",
+          "cliente": "DIAMOND FOODS LTDA",
+          "produto": "VODKA ORLOFF 1L DEST",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 25.5,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "33637",
+          "cliente": "DIAMOND FOODS LTDA",
+          "produto": "WHISKY JAMESON 750ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 74.9,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
+          "fantasia": "CASTAS",
+          "qt": 3,
+          "valor": 56.7,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+          "fantasia": "CASTAS",
+          "qt": 4,
+          "valor": 75.6,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VINHO ARESTI EST SEL ROSE 187ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 18.9,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VILLA ROSA COLHEITA ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 149.8,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VINHO ADELE ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 76.9,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "HUMB. CANALE DENARIO MALBEC 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 153.8,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 329.4,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VINHO ARESTI EST SEL CARMENERE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 5,
+          "valor": 274.5,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VINHO ARESTI EST SEL SAUV BLANC 750ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 54.9,
           "offtrade": true
         }
       ]
