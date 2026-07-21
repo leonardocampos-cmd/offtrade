@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "21/07/2026 09:21",
+  "atualizado_em": "21/07/2026 12:04",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -124056,68 +124056,68 @@ const VENDAS_DATA = {
         {
           "data": "08/04/2026",
           "codcli": "2218",
-          "cliente": "DELI BOTAFOGO LTDA EPP",
+          "cliente": "DELI BOTAFOGO LTDA",
           "produto": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
           "fantasia": "AURORA",
           "qt": 2,
           "valor": 357.6,
           "tipo": "Venda",
-          "offtrade": true
+          "offtrade": false
         },
         {
           "data": "08/04/2026",
           "codcli": "2218",
-          "cliente": "DELI BOTAFOGO LTDA EPP",
+          "cliente": "DELI BOTAFOGO LTDA",
           "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 47.9,
           "tipo": "Venda",
-          "offtrade": true
+          "offtrade": false
         },
         {
           "data": "08/04/2026",
           "codcli": "2218",
-          "cliente": "DELI BOTAFOGO LTDA EPP",
+          "cliente": "DELI BOTAFOGO LTDA",
           "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
           "fantasia": "PINATI",
           "qt": 1,
           "valor": 43.2,
           "tipo": "Venda",
-          "offtrade": true
+          "offtrade": false
         },
         {
           "data": "30/04/2026",
           "codcli": "2218",
-          "cliente": "DELI BOTAFOGO LTDA EPP",
+          "cliente": "DELI BOTAFOGO LTDA",
           "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
           "fantasia": "CASTAS",
           "qt": 1,
           "valor": 286.8,
           "tipo": "Venda",
-          "offtrade": true
+          "offtrade": false
         },
         {
           "data": "30/04/2026",
           "codcli": "2218",
-          "cliente": "DELI BOTAFOGO LTDA EPP",
+          "cliente": "DELI BOTAFOGO LTDA",
           "produto": "RC SARDINHA EM OLEO 50X125G",
           "fantasia": "ROBINSON CRUSOE",
           "qt": 1,
           "valor": 224.5,
           "tipo": "Venda",
-          "offtrade": true
+          "offtrade": false
         },
         {
           "data": "30/04/2026",
           "codcli": "2218",
-          "cliente": "DELI BOTAFOGO LTDA EPP",
+          "cliente": "DELI BOTAFOGO LTDA",
           "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
           "fantasia": "ROBINSON CRUSOE",
           "qt": 1,
           "valor": 224.5,
           "tipo": "Venda",
-          "offtrade": true
+          "offtrade": false
         },
         {
           "data": "16/04/2026",
@@ -125807,35 +125807,35 @@ const VENDAS_DATA = {
         {
           "data": "18/05/2026",
           "codcli": "2218",
-          "cliente": "DELI BOTAFOGO LTDA EPP",
+          "cliente": "DELI BOTAFOGO LTDA",
           "produto": "AGUA NA CAIXA 12X330ML",
           "fantasia": "AGUA NA CAIXA",
           "qt": 2,
           "valor": 61.8,
           "tipo": "Venda",
-          "offtrade": true
+          "offtrade": false
         },
         {
           "data": "18/05/2026",
           "codcli": "2218",
-          "cliente": "DELI BOTAFOGO LTDA EPP",
+          "cliente": "DELI BOTAFOGO LTDA",
           "produto": "AGUA NA CAIXA 12X500ML",
           "fantasia": "AGUA NA CAIXA",
           "qt": 2,
           "valor": 63.8,
           "tipo": "Venda",
-          "offtrade": true
+          "offtrade": false
         },
         {
           "data": "18/05/2026",
           "codcli": "2218",
-          "cliente": "DELI BOTAFOGO LTDA EPP",
+          "cliente": "DELI BOTAFOGO LTDA",
           "produto": "AGUA NA LATA C/ GAS 12X310ML",
           "fantasia": "AGUA NA CAIXA",
           "qt": 1,
           "valor": 29.9,
           "tipo": "Venda",
-          "offtrade": true
+          "offtrade": false
         },
         {
           "data": "18/05/2026",
@@ -128042,79 +128042,79 @@ const VENDAS_DATA = {
         {
           "data": "03/06/2026",
           "codcli": "2218",
-          "cliente": "DELI BOTAFOGO LTDA EPP",
+          "cliente": "DELI BOTAFOGO LTDA",
           "produto": "AGUA NA CAIXA 12X330ML",
           "fantasia": "AGUA NA CAIXA",
           "qt": 2,
           "valor": 61.8,
           "tipo": "Venda",
-          "offtrade": true
+          "offtrade": false
         },
         {
           "data": "03/06/2026",
           "codcli": "2218",
-          "cliente": "DELI BOTAFOGO LTDA EPP",
+          "cliente": "DELI BOTAFOGO LTDA",
           "produto": "AGUA NA CAIXA 12X500ML",
           "fantasia": "AGUA NA CAIXA",
           "qt": 2,
           "valor": 63.8,
           "tipo": "Venda",
-          "offtrade": true
+          "offtrade": false
         },
         {
           "data": "03/06/2026",
           "codcli": "2218",
-          "cliente": "DELI BOTAFOGO LTDA EPP",
+          "cliente": "DELI BOTAFOGO LTDA",
           "produto": "AGUA NA LATA C/ GAS 12X310ML",
           "fantasia": "AGUA NA CAIXA",
           "qt": 1,
           "valor": 29.9,
           "tipo": "Venda",
-          "offtrade": true
+          "offtrade": false
         },
         {
           "data": "26/06/2026",
           "codcli": "2218",
-          "cliente": "DELI BOTAFOGO LTDA EPP",
+          "cliente": "DELI BOTAFOGO LTDA",
           "produto": "SUCO MACA 100% DO BEM 24X200ML",
           "fantasia": "TIAL",
           "qt": 1,
           "valor": 88.56,
           "tipo": "Venda",
-          "offtrade": true
+          "offtrade": false
         },
         {
           "data": "26/06/2026",
           "codcli": "2218",
-          "cliente": "DELI BOTAFOGO LTDA EPP",
+          "cliente": "DELI BOTAFOGO LTDA",
           "produto": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
           "fantasia": "CASTAS",
           "qt": 1,
           "valor": 286.8,
           "tipo": "Venda",
-          "offtrade": true
+          "offtrade": false
         },
         {
           "data": "30/06/2026",
           "codcli": "2218",
-          "cliente": "DELI BOTAFOGO LTDA EPP",
+          "cliente": "DELI BOTAFOGO LTDA",
           "produto": "AGUA MAMBA PROTEIN ABACAXI HORT 6X350ML",
           "fantasia": "KAISER",
           "qt": 4,
           "valor": 236.4,
           "tipo": "Venda",
-          "offtrade": true
+          "offtrade": false
         },
         {
           "data": "30/06/2026",
           "codcli": "2218",
-          "cliente": "DELI BOTAFOGO LTDA EPP",
+          "cliente": "DELI BOTAFOGO LTDA",
           "produto": "AGUA MAMBA PROTEIN LIMAO E FRAMB 6X350ML",
           "fantasia": "KAISER",
           "qt": 4,
           "valor": 236.4,
           "tipo": "Venda",
-          "offtrade": true
+          "offtrade": false
         },
         {
           "data": "16/06/2026",
@@ -130255,24 +130255,24 @@ const VENDAS_DATA = {
         {
           "data": "19/03/2026",
           "codcli": "2218",
-          "cliente": "DELI BOTAFOGO LTDA EPP",
+          "cliente": "DELI BOTAFOGO LTDA",
           "produto": "AGUA NA CAIXA 12X330ML",
           "fantasia": "AGUA NA CAIXA",
           "qt": 3,
           "valor": 98.7,
           "tipo": "Venda",
-          "offtrade": true
+          "offtrade": false
         },
         {
           "data": "19/03/2026",
           "codcli": "2218",
-          "cliente": "DELI BOTAFOGO LTDA EPP",
+          "cliente": "DELI BOTAFOGO LTDA",
           "produto": "AGUA NA CAIXA 12X500ML",
           "fantasia": "AGUA NA CAIXA",
           "qt": 2,
           "valor": 69.8,
           "tipo": "Venda",
-          "offtrade": true
+          "offtrade": false
         },
         {
           "data": "24/03/2026",
@@ -292767,6 +292767,358 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "MARTINI ROSATO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 120,
+          "valor": 4276.8,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "MARTINI ROSSO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 120,
+          "valor": 4276.8,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "TERRAZAS EL YAIMA COSECHA 375ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 1902.18,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "LATITUD 33 CABERNET SAUVIGNON",
+          "fantasia": "HENNESSY",
+          "qt": 30,
+          "valor": 1611.0,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "VINHO LATITUD 33 MALBEC  750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 36,
+          "valor": 1933.2,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "VODKA NATASHA 900ML",
+          "fantasia": "BACARDI",
+          "qt": 120,
+          "valor": 2665.2,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 240,
+          "valor": 23976.0,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "WHISKY BOURBON MAKERS MARK 750 ML",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 36,
+          "valor": 7273.44,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 5,
+          "valor": 772.15,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 20,
+          "valor": 2854.8,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "EASY BOOZE VIDRO 12X275ML GINGER",
+          "fantasia": "TATUZINHO",
+          "qt": 4,
+          "valor": 297.08,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "EASY BOOZE VIDRO 12X275ML BLUEBERRY",
+          "fantasia": "TATUZINHO",
+          "qt": 6,
+          "valor": 445.62,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "EASY BOOZE VIDRO 12X275ML RED MINT",
+          "fantasia": "TATUZINHO",
+          "qt": 9,
+          "valor": 668.43,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "EASY BOOZE LATA 24X270ML PINK LEMON",
+          "fantasia": "TATUZINHO",
+          "qt": 15,
+          "valor": 1998.0,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "EASY BOOZE LATA 24X270ML RED MINT",
+          "fantasia": "TATUZINHO",
+          "qt": 10,
+          "valor": 1332.0,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "EASY BOOZE LATA 24X269ML SPRITZ",
+          "fantasia": "TATUZINHO",
+          "qt": 4,
+          "valor": 532.8,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "GIN TONICA 275ML",
+          "fantasia": "DIALCOOL",
+          "qt": 24,
+          "valor": 216.94,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "EASY BOOZE VIDRO 12X275ML PINK LEMON",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 74.24,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "CACHACA JOIA DA SERRA TRADICIONAL 1L",
+          "fantasia": "HOB",
+          "qt": 36,
+          "valor": 1405.69,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "LICOR BALLENA COCO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 12,
+          "valor": 1572.0,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "LICOR BALLENA MORANGO 750 ML",
+          "fantasia": "BALLENA",
+          "qt": 12,
+          "valor": 1572.0,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "LICOR BANANINHA CARIOCA 750ML",
+          "fantasia": "BANANINHA CARIOCA",
+          "qt": 24,
+          "valor": 2280.0,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "WHISKY JIM BEAM APPLE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 60,
+          "valor": 5994.0,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 120,
+          "valor": 11988.0,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "RUM BACARDI BIG APPLE 700ML",
+          "fantasia": "BACARDI",
+          "qt": 180,
+          "valor": 6415.2,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "RUM BACARDI GOLD 700ML",
+          "fantasia": "BACARDI",
+          "qt": 180,
+          "valor": 6710.4,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "RUM BACARDI SUPERIOR 700ML",
+          "fantasia": "BACARDI",
+          "qt": 180,
+          "valor": 6415.2,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "RUM BACARDI MOJITO 700ML",
+          "fantasia": "BACARDI",
+          "qt": 180,
+          "valor": 6415.2,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "SAQUE FUJI SECO 740ML",
+          "fantasia": "DIALCOOL",
+          "qt": 30,
+          "valor": 621.3,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "MARTINI BIANCO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 180,
+          "valor": 6415.2,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "MARTINI RISERVA AMBRATTO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 1722.48,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "MARTINI EXTRA DRY 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 96,
+          "valor": 3421.44,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
           "data": "20/07/2026",
           "codcli": "74418",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
@@ -293170,6 +293522,116 @@ const VENDAS_DATA = {
           "fantasia": "ROBINSON CRUSOE",
           "qt": 30,
           "valor": 6985.8,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "82542",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "82542",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "82542",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "82542",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "82542",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 3,
+          "valor": 428.22,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "82542",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM RALADO OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "82542",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 3,
+          "valor": 698.58,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "82542",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 20,
+          "valor": 4657.2,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "82542",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 391.92,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "82542",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM SOLIDO OLEO 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 391.92,
           "tipo": "Venda",
           "offtrade": true
         },
@@ -293676,6 +294138,116 @@ const VENDAS_DATA = {
           "fantasia": "ROBINSON CRUSOE",
           "qt": 4,
           "valor": 746.56,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "91463",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "91463",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "91463",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "91463",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM RALADO OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 285.48,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "91463",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "91463",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 308.86,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "91463",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 391.92,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "91463",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC ATUM SOLIDO OLEO 24X170G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 391.92,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "91463",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 3,
+          "valor": 698.58,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "91463",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "produto": "RC SARDINHA EM OLEO 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 30,
+          "valor": 6985.8,
           "tipo": "Venda",
           "offtrade": true
         },
@@ -318841,6 +319413,72 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
+          "data": "21/07/2026",
+          "codcli": "20944",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 682.56,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20944",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "RUM MONTILLA OURO 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 380.88,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20944",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 1064.64,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20944",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "RUM MONTILLA CRISTAL 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 380.88,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20944",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "CHANDON PASSION ON ICE 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 604.74,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20944",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "WHISKY BALLANTINE S SUNSHINE 700ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 651.6,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
           "data": "07/07/2026",
           "codcli": "20938",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
@@ -318940,6 +319578,61 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
+          "data": "21/07/2026",
+          "codcli": "20938",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "WHISKY BALLANTINE S SUNSHINE 700ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 651.6,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20938",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "RUM MONTILLA OURO 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 380.88,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20938",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 532.08,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20938",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "XAROPE FABBRI MORANGO 560ML",
+          "fantasia": "FABBRI",
+          "qt": 6,
+          "valor": 247.14,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20938",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "SAQUE FUJI SECO 740ML",
+          "fantasia": "DIALCOOL",
+          "qt": 6,
+          "valor": 131.88,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
           "data": "07/07/2026",
           "codcli": "20943",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
@@ -318980,6 +319673,39 @@ const VENDAS_DATA = {
           "fantasia": "DIALCOOL",
           "qt": 6,
           "valor": 131.88,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20943",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "RUM MONTILLA CRISTAL 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 380.88,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20943",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "XAROPE FABBRI MORANGO 560ML",
+          "fantasia": "FABBRI",
+          "qt": 6,
+          "valor": 247.14,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20943",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "WHISKY BALLANTINE S SUNSHINE 700ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 651.6,
           "tipo": "Venda",
           "offtrade": true
         },
@@ -319046,6 +319772,39 @@ const VENDAS_DATA = {
           "fantasia": "DIALCOOL",
           "qt": 6,
           "valor": 131.88,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20939",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "RUM MONTILLA OURO 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 380.88,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20939",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 1064.16,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20939",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "RUM MONTILLA CARTA BRANCA 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 380.88,
           "tipo": "Venda",
           "offtrade": true
         },
@@ -319182,6 +319941,72 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
+          "data": "21/07/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 682.56,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "RUM MONTILLA OURO 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 380.88,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 532.08,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "RUM MONTILLA CRISTAL 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 380.88,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "WHISKY BALLANTINE S SUNSHINE 700ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 651.6,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "CHANDON PASSION ON ICE 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 12,
+          "valor": 1209.48,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
           "data": "07/07/2026",
           "codcli": "20942",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
@@ -319292,6 +320117,50 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
+          "data": "21/07/2026",
+          "codcli": "20942",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 682.56,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20942",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "RUM MALIBU 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 800.88,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20942",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "RUM MONTILLA CARTA BRANCA 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 380.88,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "20942",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "RUM MONTILLA CRISTAL 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 380.88,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
           "data": "15/07/2026",
           "codcli": "78311",
           "cliente": "ITAPOA SUPERMERCADO LTDA.",
@@ -319321,6 +320190,61 @@ const VENDAS_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 116.88,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "78311",
+          "cliente": "ITAPOA SUPERMERCADO LTDA.",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 1064.16,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "78311",
+          "cliente": "ITAPOA SUPERMERCADO LTDA.",
+          "produto": "RUM MONTILLA CRISTAL 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 380.88,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "78311",
+          "cliente": "ITAPOA SUPERMERCADO LTDA.",
+          "produto": "XAROPE FABBRI MORANGO 560ML",
+          "fantasia": "FABBRI",
+          "qt": 6,
+          "valor": 247.14,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "78311",
+          "cliente": "ITAPOA SUPERMERCADO LTDA.",
+          "produto": "WHISKY BALLANTINE S SUNSHINE 700ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 651.6,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "78311",
+          "cliente": "ITAPOA SUPERMERCADO LTDA.",
+          "produto": "SAQUE FUJI SECO 740ML",
+          "fantasia": "DIALCOOL",
+          "qt": 6,
+          "valor": 131.88,
           "tipo": "Venda",
           "offtrade": true
         },
