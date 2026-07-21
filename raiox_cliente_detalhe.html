@@ -82,6 +82,7 @@
     .kpi-label { font-size: .68rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 4px; }
     .kpi-valor { font-size: 1.2rem; font-weight: 800; }
 
+    .historico-wrap { max-height: 420px; overflow-y: auto; }
     .grid-2 { display: grid; grid-template-columns: 1.2fr 1fr; gap: 18px; }
     @media (max-width: 850px) { .grid-2 { grid-template-columns: 1fr; } }
     .card {
@@ -100,6 +101,7 @@
       text-align: left; font-size: .68rem; color: var(--muted); text-transform: uppercase;
       letter-spacing: .05em; padding: 6px 8px; border-bottom: 1px solid var(--border);
     }
+    .historico-wrap th { position: sticky; top: 0; background: var(--card); }
     td { padding: 7px 8px; font-size: .85rem; border-bottom: 1px solid #232738; }
     th:last-child, td:last-child { text-align: right; }
     .part-bar-bg { display: inline-block; width: 50px; height: 5px; background: #2d3144; border-radius: 3px; overflow: hidden; margin-left: 6px; vertical-align: middle; }
@@ -207,6 +209,16 @@
         <tr><td>${v.nome}</td><td style="color:var(--muted)">${v.rca}</td><td>${brl(v.faturamento)}</td></tr>
       `).join('') || '<tr><td colspan="3" style="color:var(--muted)">Sem dados.</td></tr>';
 
+      const historicoHtml = (c.historico_compras || []).map(h => `
+        <tr>
+          <td>${h.data}</td>
+          <td>${h.industria}</td>
+          <td>${h.produto}</td>
+          <td style="text-align:right">${h.quantidade.toLocaleString('pt-BR')}</td>
+          <td style="text-align:right">${brl(h.valor)}</td>
+        </tr>
+      `).join('') || '<tr><td colspan="5" style="color:var(--muted)">Sem compras no período.</td></tr>';
+
       document.getElementById('conteudo').innerHTML = `
         <div class="ficha-header">
           <div>
@@ -231,6 +243,16 @@
         <div class="card">
           <div class="card-titulo">Histórico mensal de compras</div>
           <div class="meses-chart">${mesesHtml}</div>
+        </div>
+
+        <div class="card">
+          <div class="card-titulo">Histórico detalhado de compras (${(c.historico_compras || []).length})</div>
+          <div class="historico-wrap">
+            <table>
+              <thead><tr><th>Data</th><th>Indústria</th><th>Produto</th><th style="text-align:right">Qtd.</th><th style="text-align:right">Valor</th></tr></thead>
+              <tbody>${historicoHtml}</tbody>
+            </table>
+          </div>
         </div>
 
         <div class="grid-2">
@@ -263,6 +285,9 @@
       linhas.push([]);
       linhas.push(['Vendedor', 'RCA', 'Faturamento']);
       (c.top_vendedores || []).forEach(v => linhas.push([v.nome, v.rca, v.faturamento.toFixed(2).replace('.', ',')]));
+      linhas.push([]);
+      linhas.push(['Data', 'Indústria', 'Produto', 'Quantidade', 'Valor']);
+      (c.historico_compras || []).forEach(h => linhas.push([h.data, h.industria, h.produto, h.quantidade, h.valor.toFixed(2).replace('.', ',')]));
 
       const csv = linhas.map(l => l.map(v => `"${String(v ?? '').replace(/"/g, '""')}"`).join(';')).join('\n');
       const blob = new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8;' });
