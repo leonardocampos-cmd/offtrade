@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "21/07/2026 08:42",
-  "total": 4038,
+  "atualizado_em": "21/07/2026 09:48",
+  "total": 4043,
   "clientes": [
     {
       "codcli": "31683",
@@ -3040,22 +3040,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "474",
       "nome_usur1": "FRANCIS SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "79715",
-      "razao": "57.680.658 JOAO PAULO DA SILVA FILHO",
-      "fantasia": "JOAO PAULO DA SILVA FILHO",
-      "bairro": "PARQUE ANCHIETA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "57.680.658/0001-09",
-      "estado": "RJ",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "379",
-      "nome_usur1": "JORGE MACIEL - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -7952,6 +7936,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "450",
       "nome_usur1": "LEANDRO SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51925",
+      "razao": "ARMAZEM BALARDIN LTDA",
+      "fantasia": "ARMAZEM DO BALARDIN JUNDIAI",
+      "bairro": "CHACARA URBANA",
+      "cidade": "JUNDIAI",
+      "cnpj": "04.080.618/0002-40",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "425",
+      "nome_usur1": "BRUNO BARBOSA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -28996,6 +28996,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
+      "codcli": "51928",
+      "razao": "J.L. SANGUINE COMERCIO DE ALIMENTOS LTDA",
+      "fantasia": "ICE SHAKE SORVETERIA",
+      "bairro": "CENTRO",
+      "cidade": "AMPARO",
+      "cnpj": "42.423.356/0001-88",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "50500",
       "razao": "J.M.L.C. SUPERMERCADO BOA ESPERANCA LTDA",
       "fantasia": "SUPERMERCADO BOA ESPERANCA",
@@ -30226,6 +30242,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "439",
       "nome_usur2": "MATEUS CARDOSO - OFF TRADE"
+    },
+    {
+      "codcli": "51935",
+      "razao": "JOSE CLAUDIMAR DA SILVA UBATUBA",
+      "fantasia": "LARA'S GRILL",
+      "bairro": "ENSEADA",
+      "cidade": "UBATUBA",
+      "cnpj": "05.631.994/0001-68",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "516",
+      "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "82130",
@@ -34464,6 +34496,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "433",
       "nome_usur1": "MANUELA ZAPPACOSTA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51929",
+      "razao": "M. T. DE O. MOURA SUPERMERCADO LTDA",
+      "fantasia": "SUPERMERCADO PRAIA DURA",
+      "bairro": "PRAIA DURA",
+      "cidade": "UBATUBA",
+      "cnpj": "13.887.418/0001-04",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "506",
+      "nome_usur1": "RAPHAEL CAMPOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -42644,6 +42692,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "95750",
+      "razao": "MINIMERCADO DEUS E FIEL LTDA",
+      "fantasia": "MINIMERCADO DEUS E FIEL",
+      "bairro": "RIO COMPRIDO",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "67.148.626/0001-10",
+      "estado": "RJ",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "378",
+      "nome_usur1": "FABIO VALOTTI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "94121",
       "razao": "MINIMERCADO DISTRIBUIDORA DO FRANCA LEITE LTDA",
       "fantasia": "FRANCA LEITE",
@@ -44580,12 +44644,12 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ANDRE MATTOS"
     },
     {
-      "codcli": "51563",
+      "codcli": "48032",
       "razao": "NINKI SUPERMERCADOS LTDA",
       "fantasia": "NINKI SUPERMERCADOS",
-      "bairro": "CAMPOS ELISEOS",
+      "bairro": "CASA VERDE",
       "cidade": "SAO PAULO",
-      "cnpj": "07.577.664/0001-67",
+      "cnpj": "07.577.664/0002-48",
       "estado": "SP",
       "ramo": "MERCADO",
       "key_account": false,
@@ -57056,6 +57120,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "476",
       "nome_usur1": "RODRIGO LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51927",
+      "razao": "SUPER SETE SUPERMERCADO LTDA",
+      "fantasia": "SUPER SETE SUPERMERCADO",
+      "bairro": "VILA AEROPORTO",
+      "cidade": "CAMPINAS",
+      "cnpj": "11.191.654/0001-66",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
