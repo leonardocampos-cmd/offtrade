@@ -1,25 +1,25 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "21/07/2026 12:09",
+  "atualizado_em": "21/07/2026 14:02",
   "mes": "Jul/26",
   "mes_ant": "Jun/26",
   "dias_corridos": 21,
   "dias_no_mes": 31,
   "dias_restantes": 10,
   "resumo": {
-    "fat": 6667912.48,
+    "fat": 6675063.02,
     "fat_ant": 6730041.6,
-    "fat_ant_completo": 12859884.59,
-    "pos": 1283,
+    "fat_ant_completo": 12859370.35,
+    "pos": 1284,
     "pos_ant": 1289,
-    "pos_ant_completo": 1762
+    "pos_ant_completo": 1761
   },
   "total": {
     "meta": 14900000.0,
-    "fat": 6667912.48,
+    "fat": 6675063.02,
     "fat_ant": 6730041.6,
-    "fat_ant_completo": 12859884.59,
+    "fat_ant_completo": 12859370.35,
     "pct": 44.8,
-    "nec_dia": 823208.75
+    "nec_dia": 822493.7
   },
   "estados": [
     {
@@ -31,9 +31,9 @@ const METAS_GERAIS_DATA = {
       "pos": 506,
       "pct": 44.7,
       "nec_dia": 165875.9,
-      "fat_ant_completo": 2633967.03,
+      "fat_ant_completo": 2633452.79,
       "pos_ant": 539,
-      "pos_ant_completo": 726
+      "pos_ant_completo": 725
     },
     {
       "estado": "SP",
@@ -65,11 +65,11 @@ const METAS_GERAIS_DATA = {
       "estado": "MG",
       "label": "Minas Gerais",
       "meta": 2100000.0,
-      "fat": 742090.88,
+      "fat": 749241.42,
       "fat_ant": 892759.59,
-      "pos": 198,
-      "pct": 35.3,
-      "nec_dia": 135790.91,
+      "pos": 199,
+      "pct": 35.7,
+      "nec_dia": 135075.86,
       "fat_ant_completo": 1752020.75,
       "pos_ant": 235,
       "pos_ant_completo": 281
@@ -78,13 +78,13 @@ const METAS_GERAIS_DATA = {
   "industrias": [
     {
       "fantasia": "PERNOD",
-      "fat": 3211211.47,
+      "fat": 3215548.87,
       "fat_ant": 2016141.12,
       "por_estado": {
         "RJ": 219918.03,
         "SP": 2703007.92,
         "ES": 17416.92,
-        "MG": 270868.6
+        "MG": 275206.0
       }
     },
     {
@@ -133,13 +133,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "DIAGEO",
-      "fat": 193886.06,
+      "fat": 194868.36,
       "fat_ant": 523446.59,
       "por_estado": {
         "RJ": 55833.82,
         "SP": 44472.94,
         "ES": 0.0,
-        "MG": 93579.3
+        "MG": 94561.6
       }
     },
     {
@@ -166,13 +166,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "BACARDI",
-      "fat": 155095.98,
+      "fat": 155142.88,
       "fat_ant": 159020.32,
       "por_estado": {
         "RJ": 12732.72,
         "SP": 88948.74,
         "ES": 48733.92,
-        "MG": 4680.6
+        "MG": 4727.5
       }
     },
     {
@@ -276,13 +276,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "MONIN",
-      "fat": 40032.3,
+      "fat": 40367.6,
       "fat_ant": 36589.1,
       "por_estado": {
         "RJ": 0.0,
         "SP": 0.0,
         "ES": 0.0,
-        "MG": 40032.3
+        "MG": 40367.6
       }
     },
     {
@@ -309,13 +309,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "SEM FORNECEDOR",
-      "fat": 31480.47,
+      "fat": 31727.95,
       "fat_ant": 157163.78,
       "por_estado": {
         "RJ": 0.0,
         "SP": 926.05,
         "ES": 0.0,
-        "MG": 30554.42
+        "MG": 30801.9
       }
     },
     {
@@ -353,24 +353,24 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "HEINEKEN",
-      "fat": 24952.6,
+      "fat": 25963.96,
       "fat_ant": 33335.92,
       "por_estado": {
         "RJ": 0.0,
         "SP": 0.0,
         "ES": 0.0,
-        "MG": 24952.6
+        "MG": 25963.96
       }
     },
     {
       "fantasia": "DON LUIZ",
-      "fat": 24459.4,
+      "fat": 24519.3,
       "fat_ant": 2276.6,
       "por_estado": {
         "RJ": 0.0,
         "SP": 0.0,
         "ES": 0.0,
-        "MG": 24459.4
+        "MG": 24519.3
       }
     },
     {
@@ -397,13 +397,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "BROWN-FORMAN",
-      "fat": 13318.9,
+      "fat": 13448.8,
       "fat_ant": 40454.4,
       "por_estado": {
         "RJ": 0.0,
         "SP": 0.0,
         "ES": 0.0,
-        "MG": 13318.9
+        "MG": 13448.8
       }
     },
     {
