@@ -1,8 +1,11 @@
 """
 Gera raiox_vendedor_detalhe_data.js — ficha individual de cada vendedor OFF
-TRADE (RJ): faturamento mensal, ranking de indústrias que ele mais vende e
-ranking de melhores clientes. Alimenta raiox_vendedor_detalhe.html
-(acessível a partir dos botões "Ver detalhe" em raiox_vendedores.html).
+TRADE em todas as bases (RJ e ES via CRC, SP via SPON, MG via MGON):
+faturamento mensal, ranking de indústrias que ele mais vende e ranking de
+melhores clientes. CODUSUR não é único entre bases — cada vendedor é
+identificado pela chave composta "ESTADO-RCA". Alimenta
+raiox_vendedor_detalhe.html (acessível a partir dos botões "Ver detalhe"
+em raiox_vendedores.html).
 """
 import json
 import subprocess
@@ -11,14 +14,22 @@ from pathlib import Path
 
 import pandas as pd
 
-from meta import engine, carregar_dados
+from meta import engine, engine_spon, engine_mgon, carregar_dados
 
 ANO = 2026
 MES_INI = f"{ANO}-01-01"
 MES_FIM = f"{ANO}-07-31"
 
-# RCA -> (nome, time). Mesma fonte de exportacao_raiox_vendedores.py.
-TIMES = {
+BASES = [
+    {"estado": "RJ", "engine": engine,      "schema": "CRC",  "filiais": ["2", "4"]},
+    {"estado": "ES", "engine": engine,      "schema": "CRC",  "filiais": ["1"]},
+    {"estado": "SP", "engine": engine_spon, "schema": "SPON", "filiais": ["1", "2"]},
+    {"estado": "MG", "engine": engine_mgon, "schema": "MGON", "filiais": ["1", "2"]},
+]
+
+# RCA -> (nome, time). Só cobre o RJ (mesma fonte de exportacao_raiox_vendedores.py);
+# vendedores de outros estados entram como "Outros".
+TIMES_RJ = {
     275: ("Maria Luiza", "KEY_ACCOUNT"),
     158: ("Jose Marcelo Cardoso", "KEY_ACCOUNT"),
     144: ("Diogo Raposo", "ATACAREJO"),
@@ -40,45 +51,78 @@ TIME_LABEL = {
     "OUTROS": "Outros / sem time definido",
 }
 
-vendedores_off_trade = carregar_dados("""
-    SELECT CODUSUR, NOME FROM CRC.PCUSUARI WHERE NOME LIKE '%OFF TRADE%' AND ESTADO = 'RJ'
-""", engine, "raiox_venddet_vendedores")
-vendedores_off_trade.columns = vendedores_off_trade.columns.str.upper()
-_nome_por_rca = {
-    int(r['CODUSUR']): r['NOME'].replace('- OFF TRADE', '').replace('-OFF TRADE', '').strip()
+
+def _query_vendedores(schema, estado):
+    # RJ e ES compartilham o schema CRC — sem o filtro de ESTADO, as duas
+    # iterações trariam o mesmo roster de vendedores duplicado.
+    return f"SELECT CODUSUR, NOME FROM {schema}.PCUSUARI WHERE NOME LIKE '%OFF TRADE%' AND ESTADO = '{estado}'"
+
+
+def _query_vendas(schema, filiais):
+    fil_clause = f"AND M.CODFILIAL IN ({','.join(filiais)})" if filiais else ""
+    return f"""
+        SELECT M.CODUSUR, M.CODCLI, COALESCE(C.FANTASIA, C.CLIENTE) NOME_CLIENTE,
+               COALESCE(F.FANTASIA,'SEM FANTASIA') AS FORNECEDOR,
+               TRUNC(M.DTMOV,'MM') AS MES, SUM(M.PUNIT*M.QT) AS FATURAMENTO
+        FROM {schema}.PCMOV M
+        JOIN {schema}.PCCLIENT C ON M.CODCLI = C.CODCLI
+        JOIN {schema}.PCFORNEC F ON M.CODFORNEC = F.CODFORNEC
+        JOIN {schema}.PCUSUARI U ON M.CODUSUR = U.CODUSUR
+        WHERE U.NOME LIKE '%OFF TRADE%'
+          {fil_clause}
+          AND M.CODOPER = 'S'
+          AND M.NUMNOTADEV IS NULL
+          AND M.DTCANCEL IS NULL
+          AND TRUNC(M.DTMOV) >= TO_DATE('{MES_INI}','YYYY-MM-DD')
+          AND TRUNC(M.DTMOV) <= TO_DATE('{MES_FIM}','YYYY-MM-DD')
+        GROUP BY M.CODUSUR, M.CODCLI, COALESCE(C.FANTASIA, C.CLIENTE),
+                 COALESCE(F.FANTASIA,'SEM FANTASIA'), TRUNC(M.DTMOV,'MM')
+    """
+
+
+_vend_partes, _vendas_partes = [], []
+fontes_indisponiveis = []
+
+for base in BASES:
+    estado, eng, schema, filiais = base["estado"], base["engine"], base["schema"], base["filiais"]
+    try:
+        v = carregar_dados(_query_vendedores(schema, estado), eng, f"raiox_venddet_vendedores_{estado}")
+        v.columns = v.columns.str.upper()
+        v['ESTADO'] = estado
+        _vend_partes.append(v)
+
+        vd = carregar_dados(_query_vendas(schema, filiais), eng, f"raiox_venddet_vendas_{estado}")
+        vd.columns = vd.columns.str.upper()
+        vd['ESTADO'] = estado
+        _vendas_partes.append(vd)
+        print(f"  OK {estado}: {len(v)} vendedores, {len(vd)} linhas")
+    except Exception as e:
+        print(f"  [AVISO] {estado} falhou ({str(e)[:150]}) — ignorado")
+        fontes_indisponiveis.append(estado)
+
+vendedores_off_trade = pd.concat(_vend_partes, ignore_index=True) if _vend_partes else pd.DataFrame(columns=['CODUSUR', 'NOME', 'ESTADO'])
+_nome_por_chave = {
+    (r['ESTADO'], int(r['CODUSUR'])): r['NOME'].replace('- OFF TRADE', '').replace('-OFF TRADE', '').strip()
     for _, r in vendedores_off_trade.iterrows()
 }
-todos_rcas = sorted(_nome_por_rca)
+todas_chaves = sorted(_nome_por_chave)
 
-vendas = carregar_dados(f"""
-    SELECT M.CODUSUR, M.CODCLI, COALESCE(C.FANTASIA, C.CLIENTE) NOME_CLIENTE,
-           COALESCE(F.FANTASIA,'SEM FANTASIA') AS FORNECEDOR,
-           TRUNC(M.DTMOV,'MM') AS MES, SUM(M.PUNIT*M.QT) AS FATURAMENTO
-    FROM CRC.PCMOV M
-    JOIN CRC.PCCLIENT C ON M.CODCLI = C.CODCLI
-    JOIN CRC.PCFORNEC F ON M.CODFORNEC = F.CODFORNEC
-    JOIN CRC.PCUSUARI U ON M.CODUSUR = U.CODUSUR
-    WHERE U.NOME LIKE '%OFF TRADE%' AND U.ESTADO = 'RJ'
-      AND M.CODFILIAL IN (2,4)
-      AND M.CODOPER = 'S'
-      AND M.NUMNOTADEV IS NULL
-      AND M.DTCANCEL IS NULL
-      AND TRUNC(M.DTMOV) >= TO_DATE('{MES_INI}','YYYY-MM-DD')
-      AND TRUNC(M.DTMOV) <= TO_DATE('{MES_FIM}','YYYY-MM-DD')
-    GROUP BY M.CODUSUR, M.CODCLI, COALESCE(C.FANTASIA, C.CLIENTE),
-             COALESCE(F.FANTASIA,'SEM FANTASIA'), TRUNC(M.DTMOV,'MM')
-""", engine, "raiox_venddet_vendas")
-vendas.columns = vendas.columns.str.upper()
+vendas = pd.concat(_vendas_partes, ignore_index=True) if _vendas_partes else pd.DataFrame(
+    columns=['CODUSUR', 'CODCLI', 'NOME_CLIENTE', 'FORNECEDOR', 'MES', 'FATURAMENTO', 'ESTADO'])
 vendas['MES'] = pd.to_datetime(vendas['MES'])
 vendas['FORNECEDOR'] = vendas['FORNECEDOR'].fillna('SEM FANTASIA').str.strip()
 vendas['NOME_CLIENTE'] = vendas['NOME_CLIENTE'].fillna('').str.strip()
+vendas['CLIENTE_KEY'] = vendas['ESTADO'] + '-' + vendas['CODCLI'].astype(str)
 
 meses_com_dado = sorted(vendas['MES'].dt.strftime('%Y-%m').unique())
 
 vendedores = []
-for rca in todos_rcas:
-    nome, time_key = TIMES.get(rca, (_nome_por_rca.get(rca, f"RCA {rca}"), "OUTROS"))
-    v_rca = vendas[vendas['CODUSUR'] == rca]
+for estado, rca in todas_chaves:
+    if estado == "RJ" and rca in TIMES_RJ:
+        nome, time_key = TIMES_RJ[rca]
+    else:
+        nome, time_key = _nome_por_chave.get((estado, rca), f"RCA {rca}"), "OUTROS"
+    v_rca = vendas[(vendas['ESTADO'] == estado) & (vendas['CODUSUR'] == rca)]
 
     fat_ytd = float(v_rca['FATURAMENTO'].sum())
     n_meses = v_rca['MES'].nunique() or 1
@@ -97,20 +141,22 @@ for rca in todos_rcas:
     ]
 
     top_clientes_s = (
-        v_rca.groupby(['CODCLI', 'NOME_CLIENTE'])['FATURAMENTO'].sum()
+        v_rca.groupby(['CLIENTE_KEY', 'NOME_CLIENTE'])['FATURAMENTO'].sum()
         .sort_values(ascending=False)
     )
     top_clientes = [
-        {'codcli': int(codcli), 'nome': nome_cli or f"Cliente {codcli}", 'faturamento': round(float(v), 2)}
-        for (codcli, nome_cli), v in top_clientes_s.head(15).items()
+        {'codcli': chave_cli.split('-', 1)[1], 'nome': nome_cli or f"Cliente {chave_cli}", 'faturamento': round(float(v), 2)}
+        for (chave_cli, nome_cli), v in top_clientes_s.head(15).items()
     ]
 
     vendedores.append({
         'rca': int(rca),
+        'estado': estado,
+        'chave': f"{estado}-{rca}",
         'nome': nome,
         'time': time_key,
         'time_label': TIME_LABEL[time_key],
-        'total_clientes_ativos': int(v_rca['CODCLI'].nunique()),
+        'total_clientes_ativos': int(v_rca['CLIENTE_KEY'].nunique()),
         'faturamento_ytd': round(fat_ytd, 2),
         'media_mensal': round(media_mensal, 2),
         'por_mes': por_mes,
@@ -124,6 +170,7 @@ payload = {
     'atualizado_em': datetime.now().strftime('%d/%m/%Y %H:%M'),
     'meses_com_dado': meses_com_dado,
     'vendedores': vendedores,
+    'fontes_indisponiveis': fontes_indisponiveis,
 }
 
 out_path = Path(__file__).parent / "raiox_vendedor_detalhe_data.js"
@@ -131,6 +178,8 @@ with open(out_path, 'w', encoding='utf-8') as f:
     f.write(f"// Gerado automaticamente\nconst RAIOX_VENDEDOR_DETALHE_DATA = {json.dumps(payload, ensure_ascii=False, indent=2)};\n")
 
 print(f"OK raiox_vendedor_detalhe_data.js — {len(vendedores)} vendedores")
+if fontes_indisponiveis:
+    print(f"[AVISO] Fontes indisponíveis: {fontes_indisponiveis}")
 
 repo_dir = str(Path(__file__).parent)
 subprocess.run(["git", "-C", repo_dir, "add", "raiox_vendedor_detalhe_data.js", "raiox_vendedor_detalhe.html"], check=False)

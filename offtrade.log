@@ -12093,3 +12093,865 @@ OK historico_CRC carregada!
 OK historico_thekings carregada!
 -> Pulando historico_CASTAS: fonte já indisponível nesta execução
 [AVISO] historico_CASTAS falhou — ignorado
+[master 73be7f3e] Atualiza pedidos_data.js - 21/07/2026
+ 1 file changed, 3680 insertions(+), 1177 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   929f0e0c..73be7f3e  master -> master
+-> Lendo historico_GARRIDO (Tentativa 1/3)...
+OK historico_GARRIDO carregada!
+-> Lendo historico_SPON (Tentativa 1/3)...
+Erro na historico_SPON: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo historico_SPON (Tentativa 2/3)...
+Erro na historico_SPON: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo historico_SPON (Tentativa 3/3)...
+OK historico_SPON carregada!
+OK metas_data.js gerado — 23 vendedores, meses: ['Jul/26', 'Jun/26']
+[AVISO] Fontes indisponíveis nesta execução: ['cadastros_CASTAS', 'historico_CASTAS', 'map_rca_CASTAS', 'nao_pos_CASTAS', 'vendas_CASTAS', 'vendas_anterior_CASTAS', 'vendas_hist_CASTAS'] — resultados podem estar incompletos.
+OK fontes_status_data.js gerado — ['CASTAS']
+OK vendas_data.js gerado -> g:\Meu Drive\offtrade\vendas_data.js
+-> Lendo hier_CRC (Tentativa 1/3)...
+Erro na hier_CRC: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo hier_CRC (Tentativa 2/3)...
+OK hier_CRC carregada!
+-> Lendo hier_thekings (Tentativa 1/3)...
+OK hier_thekings carregada!
+-> Pulando hier_CASTAS: fonte já indisponível nesta execução
+-> Pulando hier_CASTAS_basic: fonte já indisponível nesta execução
+[AVISO] hier_CASTAS falhou ((oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeo) — ignorado
+-> Lendo hier_GARRIDO (Tentativa 1/3)...
+OK hier_GARRIDO carregada!
+-> Lendo hier_SPON (Tentativa 1/3)...
+Erro na hier_SPON: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo hier_SPON (Tentativa 2/3)...
+Erro na hier_SPON: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo hier_SPON (Tentativa 3/3)...
+OK hier_SPON carregada!
+-> Lendo hier_MGON (Tentativa 1/3)...
+OK hier_MGON carregada!
+OK gerentes_data.js gerado — 5 estados
+OK GitHub Pages atualizado.
+
+--------------------------------------------------
+  3/8 - Metas Gerais por estado/indústria (metas_gerais_data.js)
+--------------------------------------------------
+[master c4e473c8] Atualiza metas_gerais_data.js - 21/07/2026
+ 1 file changed, 83 insertions(+), 83 deletions(-)
+
+=== Carregando meta mensal RJ/SP (planilhas do Drive) ===
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS\METAS RJ.xlsx
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS\METAS SP.xlsx
+  RJ meta 3,000,000 · SP meta 8,000,000
+
+=== Carregando industrias (mes atual) ===
+  Consultando RJ (CRC filiais=['2', '4'])…
+    OK 39 indústrias, fat=1,473,432
+  Consultando ES (CRC filiais=['1'])…
+    OK 15 indústrias, fat=444,076
+  Consultando SP (SPON filiais=['1', '2'])…
+    OK 25 indústrias, fat=4,162,547
+  Consultando MG (MGON filiais=['1', '2'])…
+    OK 18 indústrias, fat=750,371
+
+=== Carregando industrias (mes anterior, dias corridos p/ comparativo de ritmo) ===
+  Consultando RJ (CRC filiais=['2', '4'])…
+    OK 45 indústrias, fat=1,738,107
+  Consultando ES (CRC filiais=['1'])…
+    OK 20 indústrias, fat=549,176
+  Consultando SP (SPON filiais=['1', '2'])…
+    OK 24 indústrias, fat=3,549,034
+  Consultando MG (MGON filiais=['1', '2'])…
+    OK 17 indústrias, fat=892,760
+
+=== Carregando totais reais (mes atual) ===
+
+=== Carregando totais reais (mes anterior, dias corridos p/ comparativo de ritmo) ===
+
+=== Carregando totais reais (mes anterior FECHADO, sem corte de dia) ===
+
+OK metas_gerais_data.js - 50 industrias -> G:\Meu Drive\offtrade\metas_gerais_data.js
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  3b - Vendas por Indústria (industria_data.js)
+--------------------------------------------------
+[master bf302dfb] Atualiza industria_data.js - 21/07/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+=== Carregando vendas por indústria (6 meses, RJ/SP/ES/MG) ===
+  Consultando RJ (CRC filiais=['2', '4']) — tentativa 1/3…
+    OK 115669 linhas
+  Consultando ES (CRC filiais=['1']) — tentativa 1/3…
+    Erro: (oracledb.exceptions.DatabaseError) DPY-4011: the database or network closed the connection
+DPI-1080: connection was closed by ORA-03113
+ORA-03113: en
+  Consultando ES (CRC filiais=['1']) — tentativa 2/3…
+    Erro: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 10.107.111.152 port 1521. (CONNECTION_ID=Pb8+ioIuS3
+  Consultando ES (CRC filiais=['1']) — tentativa 3/3…
+    Erro: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 10.107.111.152 port 1521. (CONNECTION_ID=YceQBTIsSx
+  Consultando SP (SPON filiais=['1', '2']) — tentativa 1/3…
+    OK 65234 linhas
+  Consultando MG (MGON filiais=['1', '2']) — tentativa 1/3…
+    OK 39127 linhas
+
+OK industria_data.js — 98708 registros (envelopes), 89 fornecedores, 48.6MB -> G:\Meu Drive\offtrade\industria_data.js
+[AVISO] Fontes indisponíveis: ['ES'] — resultados podem estar incompletos.
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  4/8 - Campanha Robinson Crusoe (crusoe_data.js)
+--------------------------------------------------
+[master a9469783] Atualiza crusoe_data.js - 21/07/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+-> Lendo crusoe_CRC (Tentativa 1/3)...
+OK crusoe_CRC carregada!
+OK crusoe_data.js — 13 vendedores em 3 times, 190 linhas no período
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  4/8 - Conferência de preços
+--------------------------------------------------
+[OK] 'TABELA DE PREÇO RJ.xlsx' baixado -> g:\Meu Drive\offtrade\planilhas_cache\TABELA DE PREÇO RJ.xlsx
+-> Lendo conferencia_preco (Tentativa 1/3)...
+OK conferencia_preco carregada!
+[OK] 'Controle de ultima entrada, descontos-acréscimos e precificação RJ - versão 1.xlsb' baixado -> g:\Meu Drive\offtrade\planilhas_cache\Controle de ultima entrada, descontos-acréscimos e precificação RJ - versão 1.xlsb
+
+--------------------------------------------------
+  5/8 - Gerando página de entregas (entregas_data.js)
+--------------------------------------------------
+-> Lendo pedidos (Tentativa 1/3)...
+OK pedidos carregada!
+-> Lendo pedidos_abertos (Tentativa 1/3)...
+OK pedidos_abertos carregada!
+-> Lendo pedidos_cancelados (Tentativa 1/3)...
+OK pedidos_cancelados carregada!
+Logística: g:\Meu Drive\offtrade\planilhas_cache\controle_notas_07_julho.xlsx | aba: 21-07 | 309 linhas
+Histórico logística 04/2026: g:\Meu Drive\offtrade\planilhas_cache\controle_notas_04_abril.xlsx | 25 aba(s)
+Histórico logística 05/2026: g:\Meu Drive\offtrade\planilhas_cache\controle_notas_05_maio.xlsx | 26 aba(s)
+Histórico logística 06/2026: g:\Meu Drive\offtrade\planilhas_cache\controle_notas_06_junho.xlsx | 26 aba(s)
+Histórico logística 07/2026: g:\Meu Drive\offtrade\planilhas_cache\controle_notas_07_julho.xlsx | 19 aba(s)
+   27485 NF(s) com rota já registrada em algum dia (histórico)
+OK - 22 vendedores, rota do dia 21.07 -> g:\Meu Drive\offtrade\entregas_data.js
+OK entregas_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  5b - Gerando página de pedidos (pedidos_data.js)
+--------------------------------------------------
+-> Lendo pedidos_CRC (Tentativa 1/3)...
+OK pedidos_CRC carregada!
+-> Lendo pedidos_thekings (Tentativa 1/3)...
+OK pedidos_thekings carregada!
+-> Pulando pedidos_CASTAS: fonte já indisponível nesta execução
+[AVISO] pedidos_CASTAS falhou ((oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeo) — ignorado
+-> Lendo pedidos_GARRIDO (Tentativa 1/3)...
+OK pedidos_GARRIDO carregada!
+-> Lendo pedidos_SPON (Tentativa 1/3)...
+Erro na pedidos_SPON: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo pedidos_SPON (Tentativa 2/3)...
+OK pedidos_SPON carregada!
+-> Lendo pedidos_MGON (Tentativa 1/3)...
+OK pedidos_MGON carregada!
+Status de logística: 25824 NF(s) mapeada(s) (últimos 4 meses)
+Canhoto Digital: 1024 NF(s) mapeada(s) (cache local)
+-> Lendo pcprest_CRC (Tentativa 1/3)...
+Erro na pcprest_CRC: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo pcprest_CRC (Tentativa 2/3)...
+Erro na pcprest_CRC: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo pcprest_CRC (Tentativa 3/3)...
+OK pcprest_CRC carregada!
+-> Lendo pcprest_thekings (Tentativa 1/3)...
+OK pcprest_thekings carregada!
+-> Pulando pcprest_CASTAS: fonte já indisponível nesta execução
+[AVISO] pcprest_CASTAS falhou ((oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeo) — ignorado (pagamentos dessa base ficam sem checar)
+-> Lendo pcprest_GARRIDO (Tentativa 1/3)...
+Erro na pcprest_GARRIDO: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo pcprest_GARRIDO (Tentativa 2/3)...
+Erro na pcprest_GARRIDO: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo pcprest_GARRIDO (Tentativa 3/3)...
+OK pcprest_GARRIDO carregada!
+-> Lendo pcprest_SPON (Tentativa 1/3)...
+OK pcprest_SPON carregada!
+-> Lendo pcprest_MGON (Tentativa 1/3)...
+OK pcprest_MGON carregada!
+PCPREST: 17616 pedido(s) com todas as parcelas pagas — saem de Faturados
+OK - 124 pedido(s) feito(s), 2070 faturado(s), 355 cortado(s)/cancelado(s) -> g:\Meu Drive\offtrade\pedidos_data.js
+OK pedidos_data.js enviado ao GitHub Pages.
+
+--------------------------------------------------
+  6/8 - Exportando dashboard SP (vendas_sp_data.js)
+--------------------------------------------------
+[master 506a09f8] Atualiza vendas_sp_data.js - 21/07/2026
+ 1 file changed, 254 insertions(+), 134 deletions(-)
+-> Lendo vendas_SP (Tentativa 1/3)...
+Erro na vendas_SP: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 10.107.214.181 port 1
+-> Lendo vendas_SP (Tentativa 2/3)...
+Erro na vendas_SP: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 10.107.214.181 port 1
+-> Lendo vendas_SP (Tentativa 3/3)...
+OK vendas_SP carregada!
+Vendedores SP encontrados: ['ADER ALONSO', 'ADRIANO VEZZANI', 'ALEXANDRE SOUZA', 'ALEXANDRE TONON', 'ANA PAULA', 'ANDERSON CANAVEIS', 'ANDERSON MOTTA', 'ANDRE PINHEIRO', 'ANDRE SILVA', 'BRUNO BARBOSA', 'BRYAN PALOPOLI', 'CARLOS DE ALMEIDA', 'CARLOS TERRA', 'CAROLINA SOUZA', 'CELSO OLIVEIRA', 'CIARA PADULA', 'CRISTIANE MORAIS', 'DANIELLE DOS SANTOS', 'DOUGLAS TEIXEIRA', 'ELIZANGELA RODRIGUES', 'FABIANO RIBEIRO', 'FERNANDO BERTIN', 'FLAVIO RIBEIRO', 'FRANCIS SILVA', 'GILSON DE OLIVEIRA', 'GILVAN AMORIM', 'IGOR OLIVEIRA', 'JESSICA FREITAS', 'JOAO LUPORINI', 'JOSE SILVA', 'LEONARDO FLOREZI', 'LEONARDO MILAN', 'LUCAS BUENO', 'LUCELIA BARROS', 'LUCIANO TOSCHI', 'LUIS MACHADO', 'LUIZ RIGLER', 'MANUELA ZAPPACOSTA', 'MARCELO DE CAMPOS', 'MARCELO PEREIRA', 'MARCIA RITA', 'MARCUS TANAMACHI', 'MARIO RAFAEL FERRARI', 'MARLENE RODRIGUES', 'PATRICIA RAMOS', 'PATRICIO MASSAGARDI', 'PAULO JUNIOR', 'PAULO MOREIRA', 'PRISCILLA BONACHE', 'RAFAEL REIS', 'RENATO JUNIOR', 'ROBERTO DA SILVA', 'ROBERTO DOS SANTOS', 'ROBSON DA SILVA', 'RODRIGO LIMA', 'SUELY SANTOS', 'W.S', 'WANDO MACHADO', 'WILLIAM GONCALVES']
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS\METAS SP.xlsx
+Metas SP: 68 vendedores
+Realizado SP: 59 vendedores
+OK vendas_sp_data.js gerado — 59 vendedores, meses: ['Jul/26', 'Jun/26', 'Mai/26', 'Abr/26', 'Mar/26', 'Fev/26']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6b - Exportando dashboard ES (vendas_es_data.js)
+--------------------------------------------------
+[master 51a3f495] Atualiza vendas_es_data.js - 21/07/2026
+ 1 file changed, 3404 insertions(+), 3374 deletions(-)
+-> Lendo vendas_ES (Tentativa 1/3)...
+Erro na vendas_ES: Execution failed on sql '
+    SELECT
+        TRUNC(M.DTMOV, 'MM')            AS MES,
+        TO_CHAR(M.DTMOV, 'DD/MM/YYY
+-> Lendo vendas_ES (Tentativa 2/3)...
+Erro na vendas_ES: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 10.107.111.152 port 1
+-> Lendo vendas_ES (Tentativa 3/3)...
+OK vendas_ES carregada!
+Vendedores ES: ['ALDICEIA PEIXOTO', 'CARLOS TERRA', 'DOUGLAS SCHADE', 'ENEIVA RODRIGUES', 'EUDES MORGAN', 'FRANZ BENEVIDES', 'GILDO ADRIANO', 'JEAN MENEZES', 'JOAO VICTOR DA ROCHA', 'JOSIETH LIMA', 'LUCAS LIMA', 'MARA DEPOLLI', 'MARCELO DE SOUZA', 'RAQUEL ARAUJO', 'RICARDO CLAUDIO', 'ROSENIR RIBEIRO', 'TIAGO SILVA', 'WANDERSON FERREIRA']
+Realizado ES: 18 vendedores
+OK vendas_es_data.js — 18 vendedores, meses: ['Jul/26', 'Jun/26', 'Mai/26', 'Abr/26', 'Mar/26', 'Fev/26']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  6c - Exportando dashboard MG (vendas_mg_data.js)
+--------------------------------------------------
+[master a858e2d3] Atualiza vendas_mg_data.js - 21/07/2026
+ 1 file changed, 187 insertions(+), 47 deletions(-)
+-> Lendo vendas_MG (Tentativa 1/3)...
+OK vendas_MG carregada!
+Vendedores MG: ['BRUNA CASTRO MELLO', 'FERNANDO RISSON', 'JANAIRA MARQUES', 'JOÃO SANTOS', 'LEANDRO OLIVEIRA', 'LUIZ FERNANDO SALGADO', 'MATHEUS DE SOUZA', 'SAVIO NETO', 'TIAGO ANDRADE', 'WILLIAM ALVES DA SILVA']
+Realizado MG: 10 vendedores
+OK vendas_mg_data.js — 10 vendedores, meses: ['Jul/26', 'Jun/26', 'Mai/26', 'Abr/26', 'Mar/26', 'Fev/26']
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  7/9 - Nao positivados SP (nao_pos_sp_data.js)
+--------------------------------------------------
+-> Consultando não positivados SP (SPON)...
+
+[AVISO] exportacao_nao_pos_sp falhou — ignorado, pipeline continua.
+2026-07-21 17:50:29.906 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-21 17:50:29.922 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-21 17:50:29.937 No runtime found, using MemoryCacheStorageManager
+Traceback (most recent call last):
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 143, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3317, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 448, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 1272, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 712, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    with util.safe_reraise():
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 121, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 175, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 389, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 674, in __init__
+    self.__connect()
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 900, in __connect
+    with util.safe_reraise():
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 121, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 896, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\create.py", line 667, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 630, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\oracledb\connection.py", line 1698, in connect
+    return conn_class(dsn=dsn, pool=pool, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\oracledb\connection.py", line 895, in __init__
+    impl.connect(params_impl, pool_impl)
+  File "src/oracledb/impl/thick/connection.pyx", line 527, in oracledb.thick_impl.ThickConnImpl.connect
+  File "src/oracledb/impl/thick/utils.pyx", line 474, in oracledb.thick_impl._raise_from_info
+oracledb.exceptions.DatabaseError: ORA-12154: Cannot connect to database. Cannot find alias ;@spon_oci in C:\instantclient\network\admin\tnsnames.ora.
+Help: https://docs.oracle.com/error-help/db/ora-12154/
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\exportacao_nao_pos_sp.py", line 66, in <module>
+    df = _com_timeout_forcado(_fazer_query, 90)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Meu Drive\offtrade\meta.py", line 98, in _com_timeout_forcado
+    raise resultado['erro']
+  File "G:\Meu Drive\offtrade\meta.py", line 88, in _run
+    resultado['valor'] = func()
+                         ^^^^^^
+  File "G:\Meu Drive\offtrade\exportacao_nao_pos_sp.py", line 64, in _fazer_query
+    with engine_sp.connect() as conn:
+         ^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3293, in connect
+    return self._connection_cls(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 145, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2448, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 143, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3317, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 448, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 1272, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 712, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    with util.safe_reraise():
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 121, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 175, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 389, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 674, in __init__
+    self.__connect()
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 900, in __connect
+    with util.safe_reraise():
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 121, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 896, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\create.py", line 667, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 630, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\oracledb\connection.py", line 1698, in connect
+    return conn_class(dsn=dsn, pool=pool, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\oracledb\connection.py", line 895, in __init__
+    impl.connect(params_impl, pool_impl)
+  File "src/oracledb/impl/thick/connection.pyx", line 527, in oracledb.thick_impl.ThickConnImpl.connect
+  File "src/oracledb/impl/thick/utils.pyx", line 474, in oracledb.thick_impl._raise_from_info
+sqlalchemy.exc.DatabaseError: (oracledb.exceptions.DatabaseError) ORA-12154: Cannot connect to database. Cannot find alias ;@spon_oci in C:\instantclient\network\admin\tnsnames.ora.
+Help: https://docs.oracle.com/error-help/db/ora-12154/
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+
+
+--------------------------------------------------
+  7b - Nao positivados ES (nao_pos_es_data.js)
+--------------------------------------------------
+[master 3f1a71af] Atualiza nao_pos_es_data.js - 21/07/2026
+ 1 file changed, 195 insertions(+), 165 deletions(-)
+-> Consultando nao positivados ES (CRC filial 2)...
+OK 1105 clientes nao positivados ES
+OK nao_pos_es_data.js — 37 vendedores, 1105 clientes
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  7c - Nao positivados MG (nao_pos_mg_data.js)
+--------------------------------------------------
+-> Consultando nao positivados MG (MGON filiais 1 e 2)...
+
+[AVISO] exportacao_nao_pos_mg falhou — ignorado, pipeline continua.
+2026-07-21 17:50:57.400 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-21 17:50:57.429 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-21 17:50:57.447 No runtime found, using MemoryCacheStorageManager
+Traceback (most recent call last):
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 143, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3317, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 448, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 1272, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 712, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    with util.safe_reraise():
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 121, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 175, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 389, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 674, in __init__
+    self.__connect()
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 900, in __connect
+    with util.safe_reraise():
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 121, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 896, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\create.py", line 667, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 630, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\oracledb\connection.py", line 1698, in connect
+    return conn_class(dsn=dsn, pool=pool, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\oracledb\connection.py", line 895, in __init__
+    impl.connect(params_impl, pool_impl)
+  File "src/oracledb/impl/thick/connection.pyx", line 527, in oracledb.thick_impl.ThickConnImpl.connect
+  File "src/oracledb/impl/thick/utils.pyx", line 474, in oracledb.thick_impl._raise_from_info
+oracledb.exceptions.DatabaseError: ORA-12170: Cannot connect. TCP connect timeout of 20s for host 10.102.41.234 port 1521. (CONNECTION_ID=CkSJrz99R7yIjZP6D2jKvQ==)
+Help: https://docs.oracle.com/error-help/db/ora-12170/
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "G:\Meu Drive\offtrade\exportacao_nao_pos_mg.py", line 67, in <module>
+    df = _com_timeout_forcado(_fazer_query, 90)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Meu Drive\offtrade\meta.py", line 98, in _com_timeout_forcado
+    raise resultado['erro']
+  File "G:\Meu Drive\offtrade\meta.py", line 88, in _run
+    resultado['valor'] = func()
+                         ^^^^^^
+  File "G:\Meu Drive\offtrade\exportacao_nao_pos_mg.py", line 65, in _fazer_query
+    with engine_mg.connect() as conn:
+         ^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3293, in connect
+    return self._connection_cls(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 145, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2448, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 143, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3317, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 448, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 1272, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 712, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    with util.safe_reraise():
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 121, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 175, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 389, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 674, in __init__
+    self.__connect()
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 900, in __connect
+    with util.safe_reraise():
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 121, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 896, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\create.py", line 667, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 630, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\oracledb\connection.py", line 1698, in connect
+    return conn_class(dsn=dsn, pool=pool, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Meu Drive\offtrade\.venv\Lib\site-packages\oracledb\connection.py", line 895, in __init__
+    impl.connect(params_impl, pool_impl)
+  File "src/oracledb/impl/thick/connection.pyx", line 527, in oracledb.thick_impl.ThickConnImpl.connect
+  File "src/oracledb/impl/thick/utils.pyx", line 474, in oracledb.thick_impl._raise_from_info
+sqlalchemy.exc.DatabaseError: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 10.102.41.234 port 1521. (CONNECTION_ID=CkSJrz99R7yIjZP6D2jKvQ==)
+Help: https://docs.oracle.com/error-help/db/ora-12170/
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+Traceback (most recent call last):
+  File "g:\Meu Drive\offtrade\main.py", line 328, in main
+    result = subprocess.run(
+             ^^^^^^^^^^^^^^^
+  File "C:\Users\LeonardoCampos\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LeonardoCampos\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LeonardoCampos\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1630, in _communicate
+    raise TimeoutExpired(self.args, orig_timeout)
+subprocess.TimeoutExpired: Command '['g:\\Meu Drive\\offtrade\\.venv\\Scripts\\python.exe', 'exportacao_inadimplencia.py']' timed out after 600 seconds
+
+
+--------------------------------------------------
+  8/9 - Base de clientes por RCA (clientes_rca_data.js)
+--------------------------------------------------
+[master 6b8695ba] Atualiza clientes_rca_data.js - 21/07/2026
+ 1 file changed, 50 insertions(+), 2 deletions(-)
+-> Lendo clientes_CRC (Tentativa 1/3)...
+Erro na clientes_CRC: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo clientes_CRC (Tentativa 2/3)...
+OK clientes_CRC carregada!
+-> Lendo clientes_thekings (Tentativa 1/3)...
+OK clientes_thekings carregada!
+-> Lendo clientes_CASTAS (Tentativa 1/3)...
+Erro na clientes_CASTAS: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo clientes_CASTAS (Tentativa 2/3)...
+Erro na clientes_CASTAS: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo clientes_CASTAS (Tentativa 3/3)...
+Erro na clientes_CASTAS: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+[AVISO] clientes_CASTAS falhou ((oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeo) — ignorado
+-> Lendo clientes_GARRIDO (Tentativa 1/3)...
+Erro na clientes_GARRIDO: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo clientes_GARRIDO (Tentativa 2/3)...
+OK clientes_GARRIDO carregada!
+-> Lendo clientes_SPON (Tentativa 1/3)...
+OK clientes_SPON carregada!
+OK clientes_rca_data.js — 4080 clientes exportados
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  8/9 - Clientes migrados RCA 588 (clientes_588_data.js)
+--------------------------------------------------
+[master 283e9805] Atualiza clientes_588_data.js - 21/07/2026
+ 1 file changed, 11 insertions(+), 11 deletions(-)
+-> Lendo clientes_588_jan_abr (Tentativa 1/5)...
+OK clientes_588_jan_abr carregada!
+-> Lendo vendas_maio_outros (Tentativa 1/5)...
+OK vendas_maio_outros carregada!
+-> Lendo vendas_maio_588 (Tentativa 1/5)...
+OK vendas_maio_588 carregada!
+OK clientes_588_data.js — 49 clientes migraram
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  8/9 - Exportando auth de vendedores (vendedores_auth_data.js)
+--------------------------------------------------
+-> Lendo vendedores_auth_CRC (Tentativa 1/3)...
+Erro na vendedores_auth_CRC: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo vendedores_auth_CRC (Tentativa 2/3)...
+OK vendedores_auth_CRC carregada!
+-> Lendo vendedores_auth_thekings (Tentativa 1/3)...
+OK vendedores_auth_thekings carregada!
+-> Lendo vendedores_auth_CASTAS (Tentativa 1/3)...
+Erro na vendedores_auth_CASTAS: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo vendedores_auth_CASTAS (Tentativa 2/3)...
+Erro na vendedores_auth_CASTAS: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo vendedores_auth_CASTAS (Tentativa 3/3)...
+Erro na vendedores_auth_CASTAS: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+[AVISO] vendedores_auth_CASTAS falhou — ignorado ((oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 10.131.62.40 port 1576. (CONNECTION_ID=4m7VtVCPReafUhqHz4z/Pg==)
+Help: https://docs.oracle.com/error-help/db/ora-12170/
+(Background on this error at: https://sqlalche.me/e/20/4xp6))
+-> Lendo vendedores_auth_GARRIDO (Tentativa 1/3)...
+Erro na vendedores_auth_GARRIDO: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo vendedores_auth_GARRIDO (Tentativa 2/3)...
+OK vendedores_auth_GARRIDO carregada!
+-> Lendo vendedores_auth_SPON (Tentativa 1/3)...
+OK vendedores_auth_SPON carregada!
+-> Lendo vendedores_auth_MGON (Tentativa 1/3)...
+OK vendedores_auth_MGON carregada!
+[OK] vendedores_auth_data.js — 30 vendedores exportados
+
+
+--------------------------------------------------
+  9/9 - Clientes inativos / sem compra / novos (clientes_inativos_data.js)
+--------------------------------------------------
+[master 203d7d0d] Atualiza clientes_inativos_data.js - 21/07/2026
+ 1 file changed, 289 insertions(+), 298 deletions(-)
+-> media_CRC (tentativa 1)...
+   OK 1586 linhas
+-> media_inativos_CRC (tentativa 1)...
+   OK 1964 linhas
+-> inativos_CRC (tentativa 1)...
+   OK 244 linhas
+-> sem_compra_CRC (tentativa 1)...
+   OK 628 linhas
+-> novos_CRC (tentativa 1)...
+   OK 35 linhas
+-> media_thekings (tentativa 1)...
+   OK 29 linhas
+-> media_inativos_thekings (tentativa 1)...
+   OK 0 linhas
+-> inativos_thekings (tentativa 1)...
+   OK 0 linhas
+-> sem_compra_thekings (tentativa 1)...
+   OK 1 linhas
+-> novos_thekings (tentativa 1)...
+   OK 0 linhas
+-> media_SPON (tentativa 1)...
+   Erro: Execution failed on sql '
+    SELECT M.CODCLI,
+           ROUND(SUM(M.PUNIT * M.QT) / 3, 2) AS MEDIA_MENSAL
+    FROM SPO
+-> media_SPON (tentativa 2)...
+   Erro: Execution failed on sql '
+    SELECT M.CODCLI,
+           ROUND(SUM(M.PUNIT * M.QT) / 3, 2) AS MEDIA_MENSAL
+    FROM SPO
+-> media_SPON (tentativa 3)...
+   Erro: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 10.107.214.181 port 1
+-> media_inativos_SPON (tentativa 1)...
+   Erro: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 10.107.214.181 port 1
+-> media_inativos_SPON (tentativa 2)...
+   Erro: Execution failed on sql '
+    SELECT M.CODCLI, ROUND(SUM(M.PUNIT * M.QT) / 3, 2) AS MEDIA_MENSAL
+    FROM SPON.PCMOV M
+ 
+-> media_inativos_SPON (tentativa 3)...
+   Erro: Execution failed on sql '
+    SELECT M.CODCLI, ROUND(SUM(M.PUNIT * M.QT) / 3, 2) AS MEDIA_MENSAL
+    FROM SPON.PCMOV M
+ 
+-> inativos_SPON (tentativa 1)...
+   Erro: Execution failed on sql '
+    SELECT C.CODCLI, C.CLIENTE, C.BAIRROENT AS BAIRRO, C.MUNICENT AS CIDADE,
+           TO_CHA
+-> inativos_SPON (tentativa 2)...
+   Erro: Execution failed on sql '
+    SELECT C.CODCLI, C.CLIENTE, C.BAIRROENT AS BAIRRO, C.MUNICENT AS CIDADE,
+           TO_CHA
+-> inativos_SPON (tentativa 3)...
+   Erro: Execution failed on sql '
+    SELECT C.CODCLI, C.CLIENTE, C.BAIRROENT AS BAIRRO, C.MUNICENT AS CIDADE,
+           TO_CHA
+-> sem_compra_SPON (tentativa 1)...
+   Erro: Execution failed on sql '
+    SELECT C.CODCLI, C.CLIENTE, C.BAIRROENT AS BAIRRO, C.MUNICENT AS CIDADE,
+           TO_CHA
+-> sem_compra_SPON (tentativa 2)...
+   Erro: Execution failed on sql '
+    SELECT C.CODCLI, C.CLIENTE, C.BAIRROENT AS BAIRRO, C.MUNICENT AS CIDADE,
+           TO_CHA
+-> sem_compra_SPON (tentativa 3)...
+   Erro: Execution failed on sql '
+    SELECT C.CODCLI, C.CLIENTE, C.BAIRROENT AS BAIRRO, C.MUNICENT AS CIDADE,
+           TO_CHA
+-> novos_SPON (tentativa 1)...
+   Erro: Execution failed on sql '
+    SELECT C.CODCLI, C.CLIENTE, C.BAIRROENT AS BAIRRO, C.MUNICENT AS CIDADE,
+           TO_CHA
+-> novos_SPON (tentativa 2)...
+   Erro: Execution failed on sql '
+    SELECT C.CODCLI, C.CLIENTE, C.BAIRROENT AS BAIRRO, C.MUNICENT AS CIDADE,
+           TO_CHA
+-> novos_SPON (tentativa 3)...
+   Erro: Execution failed on sql '
+    SELECT C.CODCLI, C.CLIENTE, C.BAIRROENT AS BAIRRO, C.MUNICENT AS CIDADE,
+           TO_CHA
+-> media_MGON (tentativa 1)...
+   OK 455 linhas
+-> media_inativos_MGON (tentativa 1)...
+   OK 449 linhas
+-> inativos_MGON (tentativa 1)...
+   OK 212 linhas
+-> sem_compra_MGON (tentativa 1)...
+   OK 174 linhas
+-> novos_MGON (tentativa 1)...
+   OK 19 linhas
+-> hier_CRC (tentativa 1)...
+   OK 48 linhas
+-> hier_thekings (tentativa 1)...
+   OK 4 linhas
+-> hier_SPON (tentativa 1)...
+   Erro: Execution failed on sql '
+    SELECT U.CODUSUR, U.NOME AS NOME_VENDEDOR, U.ESTADO AS ESTADO_VENDEDOR,
+           S.CODSU
+-> hier_SPON (tentativa 2)...
+   Erro: Execution failed on sql '
+    SELECT U.CODUSUR, U.NOME AS NOME_VENDEDOR, U.ESTADO AS ESTADO_VENDEDOR,
+           S.CODSU
+-> hier_SPON (tentativa 3)...
+   Erro: Execution failed on sql '
+    SELECT U.CODUSUR, U.NOME AS NOME_VENDEDOR, U.ESTADO AS ESTADO_VENDEDOR,
+           S.CODSU
+-> hier_MGON (tentativa 1)...
+   OK 9 linhas
+Hierarquia: 5 estados, 59 vendedores
+
+OK clientes_inativos_data.js — 45 vendedores | 456 inativos | 803 sem compra | 54 novos
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  9b - Inadimplencia (inadimplencia_data.js)
+--------------------------------------------------
+[AVISO] exportacao_inadimplencia falhou — ignorado, pipeline continua.
+
+--------------------------------------------------
+  9c - Estoque (estoque_data.js)
+--------------------------------------------------
+[master 67e9e509] Atualiza estoque_data.js - 21/07/2026
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+=== Carregando posição de estoque (ROTINA_105) ===
+-> Lendo estoque_CRC (Tentativa 1/3)...
+Erro na estoque_CRC: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo estoque_CRC (Tentativa 2/3)...
+OK estoque_CRC carregada!
+-> Lendo vendas30d_CRC (Tentativa 1/3)...
+OK vendas30d_CRC carregada!
+-> Lendo estoque_THEKINGS (Tentativa 1/3)...
+OK estoque_THEKINGS carregada!
+-> Lendo vendas30d_THEKINGS (Tentativa 1/3)...
+OK vendas30d_THEKINGS carregada!
+-> Lendo estoque_GARRIDO (Tentativa 1/3)...
+OK estoque_GARRIDO carregada!
+-> Lendo vendas30d_GARRIDO (Tentativa 1/3)...
+OK vendas30d_GARRIDO carregada!
+-> Lendo estoque_SPON (Tentativa 1/3)...
+OK estoque_SPON carregada!
+-> Lendo vendas30d_SPON (Tentativa 1/3)...
+OK vendas30d_SPON carregada!
+-> Lendo estoque_MGON (Tentativa 1/3)...
+OK estoque_MGON carregada!
+-> Lendo vendas30d_MGON (Tentativa 1/3)...
+OK vendas30d_MGON carregada!
+OK estoque_data.js — 17018 produtos, 9.4MB
+OK GitHub Pages atualizado.
+
+
+--------------------------------------------------
+  10/10 - Alertas (pulado — SEND_ALERTS=0 neste ambiente)
+--------------------------------------------------
+
+--------------------------------------------------
+  11/11 - Deploy para VPS
+--------------------------------------------------
+-> Conectando a VPS 147.79.107.137...
+
+-> Sincronizando arquivos estáticos...
+   amarula.html -> /opt/offtrade-static/amarula.html
+   catalogo.html -> /opt/offtrade-static/catalogo.html
+   clientes_588.html -> /opt/offtrade-static/clientes_588.html
+   clientes_inativos.html -> /opt/offtrade-static/clientes_inativos.html
+   clientes_rca.html -> /opt/offtrade-static/clientes_rca.html
+   crusoe.html -> /opt/offtrade-static/crusoe.html
+   entregas.html -> /opt/offtrade-static/entregas.html
+   es.html -> /opt/offtrade-static/es.html
+   estoque.html -> /opt/offtrade-static/estoque.html
+   inadimplencia.html -> /opt/offtrade-static/inadimplencia.html
+   index.html -> /opt/offtrade-static/index.html
+   industria.html -> /opt/offtrade-static/industria.html
+   login.html -> /opt/offtrade-static/login.html
+   login_vendedor.html -> /opt/offtrade-static/login_vendedor.html
+   metas.html -> /opt/offtrade-static/metas.html
+   metas_gerais.html -> /opt/offtrade-static/metas_gerais.html
+   mg.html -> /opt/offtrade-static/mg.html
+   moving.html -> /opt/offtrade-static/moving.html
+   pedidos.html -> /opt/offtrade-static/pedidos.html
+   pernod.html -> /opt/offtrade-static/pernod.html
+   pinati.html -> /opt/offtrade-static/pinati.html
+   produtos.html -> /opt/offtrade-static/produtos.html
+   raiox_cliente_detalhe.html -> /opt/offtrade-static/raiox_cliente_detalhe.html
+   raiox_clientes.html -> /opt/offtrade-static/raiox_clientes.html
+   raiox_industria_detalhe.html -> /opt/offtrade-static/raiox_industria_detalhe.html
+   raiox_industrias.html -> /opt/offtrade-static/raiox_industrias.html
+   raiox_vendedor_detalhe.html -> /opt/offtrade-static/raiox_vendedor_detalhe.html
+   raiox_vendedores.html -> /opt/offtrade-static/raiox_vendedores.html
+   sp.html -> /opt/offtrade-static/sp.html
+   vendedor.html -> /opt/offtrade-static/vendedor.html
+   amarula_data.js -> /opt/offtrade-static/amarula_data.js
+   auth.js -> /opt/offtrade-static/auth.js
+   auth_vendedor.js -> /opt/offtrade-static/auth_vendedor.js
+   catalogo_data.js -> /opt/offtrade-static/catalogo_data.js
+   clientes_588_data.js -> /opt/offtrade-static/clientes_588_data.js
+   clientes_inativos_data.js -> /opt/offtrade-static/clientes_inativos_data.js
+   clientes_rca_data.js -> /opt/offtrade-static/clientes_rca_data.js
+   crusoe_data.js -> /opt/offtrade-static/crusoe_data.js
+   entregas_data.js -> /opt/offtrade-static/entregas_data.js
+   estoque_data.js -> /opt/offtrade-static/estoque_data.js
+   fontes_alert.js -> /opt/offtrade-static/fontes_alert.js
+   fontes_status_data.js -> /opt/offtrade-static/fontes_status_data.js
+   gerentes_data.js -> /opt/offtrade-static/gerentes_data.js
+   inadimplencia_data.js -> /opt/offtrade-static/inadimplencia_data.js
+   industria_data.js -> /opt/offtrade-static/industria_data.js
+   metas_data.js -> /opt/offtrade-static/metas_data.js
+   metas_gerais_data.js -> /opt/offtrade-static/metas_gerais_data.js
+   nao_pos_es_data.js -> /opt/offtrade-static/nao_pos_es_data.js
+   nao_pos_mg_data.js -> /opt/offtrade-static/nao_pos_mg_data.js
+   nao_pos_sp_data.js -> /opt/offtrade-static/nao_pos_sp_data.js
+   pedidos_data.js -> /opt/offtrade-static/pedidos_data.js
+   raiox_cliente_detalhe_data.js -> /opt/offtrade-static/raiox_cliente_detalhe_data.js
+   raiox_clientes_data.js -> /opt/offtrade-static/raiox_clientes_data.js
+   raiox_industria_detalhe_data.js -> /opt/offtrade-static/raiox_industria_detalhe_data.js
+   raiox_industrias_data.js -> /opt/offtrade-static/raiox_industrias_data.js
+   raiox_vendedor_detalhe_data.js -> /opt/offtrade-static/raiox_vendedor_detalhe_data.js
+   raiox_vendedores_data.js -> /opt/offtrade-static/raiox_vendedores_data.js
+   vendas_data.js -> /opt/offtrade-static/vendas_data.js
+   vendas_es_data.js -> /opt/offtrade-static/vendas_es_data.js
+   vendas_mg_data.js -> /opt/offtrade-static/vendas_mg_data.js
+   vendas_sp_data.js -> /opt/offtrade-static/vendas_sp_data.js
+   vendedores_auth_data.js -> /opt/offtrade-static/vendedores_auth_data.js
+
+OK site estático atualizado em /opt/offtrade-static - https://offtrade.duckdns.org
+
+-> Conectando a VPS 147.79.107.137...
+
+-> Sincronizando arquivos raiz...
+   app.py -> /opt/offtrade/app.py
+   utils.py -> /opt/offtrade/utils.py
+   requirements.txt -> /opt/offtrade/requirements.txt
+   .env -> /opt/offtrade/.env
+   metas_config.json -> /opt/offtrade/metas_config.json
+
+-> Limpando pages/ remoto (evita sobras de páginas removidas)...
+
+-> Sincronizando diretorios...
+   pages\Admin_Metas.py -> /opt/offtrade/pages/Admin_Metas.py
+   pages\Credito_e_Cadastro.py -> /opt/offtrade/pages/Credito_e_Cadastro.py
+   .streamlit\config.toml -> /opt/offtrade/.streamlit/config.toml
+
+-> Instalando dependências Python (se necessário)...
+
+-> Reiniciando servico offtrade...
+active
+
+OK Servico ativo - https://offtrade.duckdns.org
+
+
+==================================================
+  Concluído em 4364s
+==================================================
+
+[21/07/2026 18:15:04,37] OK 
+---------------------------------------- 
