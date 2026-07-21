@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "21/07/2026 09:47",
+  "atualizado_em": "21/07/2026 16:32",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -151,26 +151,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35402",
-        "cliente": "RAW E ALPES BEBIDAS LTDA",
-        "bairro": "RENASCENÇA",
-        "dtultcomp": "11/05/2026",
-        "produtos": [
-          {
-            "produto": "APERITIVO APEROL 750 ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 562.8
-          },
-          {
-            "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
-            "fantasia": "AURORA",
-            "qt": 2,
-            "valor": 295.8
-          }
-        ]
-      },
-      {
         "codcli": "39295",
         "cliente": "LOJA MENDONCA 2000 LTDA",
         "bairro": "ANA LÚCIA",
@@ -207,6 +187,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "HEINEKEN",
             "qt": 3,
             "valor": 640.08
+          }
+        ]
+      },
+      {
+        "codcli": "35727",
+        "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
+        "bairro": "ITAIPU (BARREIRO)",
+        "dtultcomp": "18/05/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 184.56
+          },
+          {
+            "produto": "RED BULL SUGAR FREE 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 184.56
           }
         ]
       },
@@ -270,26 +270,6 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "RED BULL TROPICAL 24X250 ML - ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          }
-        ]
-      },
-      {
-        "codcli": "35727",
-        "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
-        "bairro": "ITAIPU (BARREIRO)",
-        "dtultcomp": "18/05/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          },
-          {
-            "produto": "RED BULL SUGAR FREE 24X250ML ENERG",
             "fantasia": "",
             "qt": 1,
             "valor": 184.56
@@ -859,6 +839,38 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "37137",
+        "cliente": "OMNI CENTRO DE TREINAMENTO LTDA",
+        "bairro": "SÃO PEDRO",
+        "dtultcomp": "28/01/2026",
+        "produtos": [
+          {
+            "produto": "MOVING  MORANGO ACEROLA 270M X6",
+            "fantasia": "TATUZINHO",
+            "qt": 4,
+            "valor": 175.28
+          },
+          {
+            "produto": "MOVING AÇAI 270ML",
+            "fantasia": "TATUZINHO",
+            "qt": 2,
+            "valor": 87.64
+          },
+          {
+            "produto": "MOVING AÇAI GUARANÁ 270ML",
+            "fantasia": "TATUZINHO",
+            "qt": 2,
+            "valor": 87.64
+          },
+          {
+            "produto": "ST PIERRE ZERO PINK LEMON  310 ML",
+            "fantasia": "TATUZINHO",
+            "qt": 4,
+            "valor": 95.76
+          }
+        ]
+      },
+      {
         "codcli": "35386",
         "cliente": "A&G LANCHES, EVENTOS E PROMOCOES LTDA",
         "bairro": "CENTRO",
@@ -1151,38 +1163,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "RED BULL",
             "qt": 1,
             "valor": 189.36
-          }
-        ]
-      },
-      {
-        "codcli": "29917",
-        "cliente": "CASA FIGATA COMERCIO E DISTRIBUIDORA LTDA",
-        "bairro": "VILA DA SERRA",
-        "dtultcomp": "11/05/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK  RED BULL",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 94.68
-          },
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 63.12
-          },
-          {
-            "produto": "4 PACK RED BULL TROPICAL",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 63.12
-          },
-          {
-            "produto": "ÁGUA SAN PELLEGRINO C/GÁS 750 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 760.0
           }
         ]
       },
@@ -2253,56 +2233,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35400",
-        "cliente": "LCA COMERCIO LTDA",
-        "bairro": "PAMPULHA",
-        "dtultcomp": "12/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 424.08
-          },
-          {
-            "produto": "RED BULL AMORA EDITION SF 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL NECTARINA SF 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 282.72
-          }
-        ]
-      },
-      {
         "codcli": "35398",
         "cliente": "LCA COMERCIO LTDA",
         "bairro": "PAMPULHA",
@@ -2349,6 +2279,56 @@ const NAO_POS_MG_DATA = {
             "fantasia": "RED BULL",
             "qt": 1,
             "valor": 141.36
+          }
+        ]
+      },
+      {
+        "codcli": "35400",
+        "cliente": "LCA COMERCIO LTDA",
+        "bairro": "PAMPULHA",
+        "dtultcomp": "12/06/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 424.08
+          },
+          {
+            "produto": "RED BULL AMORA EDITION SF 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 282.72
+          },
+          {
+            "produto": "RED BULL MELANCIA 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 282.72
+          },
+          {
+            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 282.72
+          },
+          {
+            "produto": "RED BULL NECTARINA SF 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 282.72
+          },
+          {
+            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL ZERO 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 282.72
           }
         ]
       },
@@ -3203,62 +3183,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "31908",
-        "cliente": "POINT BAIANO BAR E RESTAURANTE LTDA",
-        "bairro": "SAVASSI",
-        "dtultcomp": "24/06/2026",
-        "produtos": [
-          {
-            "produto": "AZEITE DE OLIVA EV ESSENZA 5L",
-            "fantasia": "NSG",
-            "qt": 1,
-            "valor": 259.9
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 191.76
-          },
-          {
-            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 191.76
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 191.76
-          },
-          {
-            "produto": "WHISKY JIM BEAM APPLE 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 1,
-            "valor": 89.9
-          },
-          {
-            "produto": "WHISKY JIM BEAM CHERRY 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 1,
-            "valor": 89.9
-          },
-          {
-            "produto": "WHISKY JIM BEAM HONEY 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 1,
-            "valor": 89.9
-          },
-          {
-            "produto": "WHISKY JIM BEAM WHITE 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 1,
-            "valor": 89.9
-          }
-        ]
-      },
-      {
         "codcli": "32756",
         "cliente": "BAR E RESTAURANTE DUARTE COMEDORIA LTDA",
         "bairro": "ANGOLA",
@@ -3684,20 +3608,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37255",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "SION",
-        "dtultcomp": "28/04/2026",
-        "produtos": [
-          {
-            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-            "fantasia": "DON LUIZ",
-            "qt": 6,
-            "valor": 419.4
-          }
-        ]
-      },
-      {
         "codcli": "33294",
         "cliente": "ARMAZEM BRASIL LIMITADA",
         "bairro": "ROCHEDO",
@@ -3714,6 +3624,20 @@ const NAO_POS_MG_DATA = {
             "fantasia": "DIAGEO",
             "qt": 12,
             "valor": 372.6
+          }
+        ]
+      },
+      {
+        "codcli": "37255",
+        "cliente": "ARMAZEM BRASIL LIMITADA",
+        "bairro": "SION",
+        "dtultcomp": "28/04/2026",
+        "produtos": [
+          {
+            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+            "fantasia": "DON LUIZ",
+            "qt": 6,
+            "valor": 419.4
           }
         ]
       },
@@ -4103,6 +4027,50 @@ const NAO_POS_MG_DATA = {
             "fantasia": "BALLENA",
             "qt": 6,
             "valor": 654.0
+          }
+        ]
+      },
+      {
+        "codcli": "37501",
+        "cliente": "SUPERMERCADOS CIDADE LTDA",
+        "bairro": "NOVA PAMPULHA",
+        "dtultcomp": "30/09/2025",
+        "produtos": [
+          {
+            "produto": "4 PACK  RED BULL",
+            "fantasia": "RED BULL",
+            "qt": 55,
+            "valor": 1471.8
+          },
+          {
+            "produto": "4 PACK  RED BULL MORANGO PESSEGO",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 26.76
+          },
+          {
+            "produto": "4 PACK RED BULL AMORA SUGAR FREE 250ML",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 26.76
+          },
+          {
+            "produto": "4 PACK RED BULL POMELO SF",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 26.76
+          },
+          {
+            "produto": "4 PACK RED BULL SUGAR FREE",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 26.76
+          },
+          {
+            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 26.76
           }
         ]
       },
@@ -4916,6 +4884,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 2,
             "valor": 137.8
+          }
+        ]
+      },
+      {
+        "codcli": "35402",
+        "cliente": "RAW E ALPES BEBIDAS LTDA",
+        "bairro": "RENASCENÇA",
+        "dtultcomp": "11/05/2026",
+        "produtos": [
+          {
+            "produto": "APERITIVO APEROL 750 ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 562.8
+          },
+          {
+            "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+            "fantasia": "AURORA",
+            "qt": 2,
+            "valor": 295.8
           }
         ]
       },
@@ -5946,32 +5934,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30323",
-        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "SANTO ANTONIO",
-        "dtultcomp": "23/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 89.88
-          },
-          {
-            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 89.88
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 179.76
-          }
-        ]
-      },
-      {
         "codcli": "38776",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
         "bairro": "ESTORIL",
@@ -6000,6 +5962,32 @@ const NAO_POS_MG_DATA = {
             "fantasia": "RED BULL",
             "qt": 1,
             "valor": 29.96
+          },
+          {
+            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 179.76
+          }
+        ]
+      },
+      {
+        "codcli": "30323",
+        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
+        "bairro": "SANTO ANTONIO",
+        "dtultcomp": "23/06/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK RED BULL MELANCIA",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 89.88
+          },
+          {
+            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 89.88
           },
           {
             "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
@@ -6348,6 +6336,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 6,
             "valor": 299.94
+          }
+        ]
+      },
+      {
+        "codcli": "33979",
+        "cliente": "BERNARDO GONCALVES DOMINGOS DE ABREU",
+        "bairro": "JARDIM DE ALÁ",
+        "dtultcomp": "17/06/2026",
+        "produtos": [
+          {
+            "produto": "GIN GORDONS PINK 700ML",
+            "fantasia": "DIAGEO",
+            "qt": 12,
+            "valor": 611.28
+          },
+          {
+            "produto": "WHISKY JAMESON 750ML",
+            "fantasia": "PERNOD",
+            "qt": 6,
+            "valor": 449.4
           }
         ]
       },
