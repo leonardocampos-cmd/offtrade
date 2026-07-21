@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "21/07/2026 12:26",
-  "total": 4052,
+  "atualizado_em": "21/07/2026 14:39",
+  "total": 4071,
   "clientes": [
     {
       "codcli": "31683",
@@ -11204,6 +11204,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "49180",
+      "razao": "BEBIUNA DISTRIBUIDORA DE BEBIDAS LTDA",
+      "fantasia": "BEBIUNA",
+      "bairro": "CENTRO",
+      "cidade": "IBIUNA",
+      "cnpj": "69.278.109/0001-91",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "46826",
       "razao": "BEER EXPRESS MINIMERCADO LTDA",
       "fantasia": "BEER EXPRESS",
@@ -12802,6 +12818,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "GISELLE BARFER - OFF TRADE",
       "codusur2": "43",
       "nome_usur2": "SOUZA"
+    },
+    {
+      "codcli": "84067",
+      "razao": "C PEREIRA DE SOUZA",
+      "fantasia": "COMERCIAL BEM ESTAR",
+      "bairro": "MARCÍLIO DE NORONHA",
+      "cidade": "VIANA",
+      "cnpj": "19.512.893/0001-82",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "51891",
@@ -15042,6 +15074,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "47135",
+      "razao": "CLAUDINEI ANTUNES SILVA",
+      "fantasia": "PIT STOP DA BEBIDA",
+      "bairro": "BELÉM ESTAÇÃO",
+      "cidade": "FRANCISCO MORATO",
+      "cnpj": "45.842.708/0001-28",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "51448",
@@ -17696,6 +17744,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "588",
       "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51951",
+      "razao": "D. V. RODRIGUES MERCADO LTDA",
+      "fantasia": "D. V. RODRIGUES MERCADO",
+      "bairro": "VILA NORMA",
+      "cidade": "SAO PAULO",
+      "cnpj": "26.913.242/0001-60",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "468",
+      "nome_usur1": "RENATO JUNIOR - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -27860,6 +27924,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
+      "codcli": "51947",
+      "razao": "I.B.L IMPORTS LTDA",
+      "fantasia": "GIGI",
+      "bairro": "PARQUE RESIDENCIAL MARENGO",
+      "cidade": "ITAQUAQUECETUBA",
+      "cnpj": "31.017.685/0001-02",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "34724",
       "razao": "IB COMERCIO E INDUSTRIA LTDA",
       "fantasia": "SACADA BARRA SHOPPING RJ",
@@ -30848,6 +30928,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "588",
       "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51956",
+      "razao": "JSK SUPERMERCADO LTDA",
+      "fantasia": "JSK SUPERMERCADO",
+      "bairro": "JARDIM SÃO PAULO(ZONA LESTE)",
+      "cidade": "SAO PAULO",
+      "cnpj": "51.815.461/0001-53",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "468",
+      "nome_usur1": "RENATO JUNIOR - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -43428,6 +43524,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "25618",
+      "razao": "MONICA LOPES DA SILVA 41533136882",
+      "fantasia": "SANTA MONICA",
+      "bairro": "JARDIM MATARAZZO",
+      "cidade": "SAO PAULO",
+      "cnpj": "28.584.082/0001-88",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "492",
+      "nome_usur1": "ANDERSON MOTTA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "91337",
       "razao": "MONTES DOCES MARECHAL HERMES LTDA",
       "fantasia": "LOBDOCES LTDA",
@@ -44132,6 +44244,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "SOUZA"
     },
     {
+      "codcli": "51952",
+      "razao": "N.N.K SUPERMERCADOS LTDA",
+      "fantasia": "N.N.K SUPERMERCADOS",
+      "bairro": "JARDIM VERÔNIA",
+      "cidade": "SAO PAULO",
+      "cnpj": "32.096.520/0001-36",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "468",
+      "nome_usur1": "RENATO JUNIOR - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "30223",
       "razao": "N.R DISTRIBUIDORA DE BEBIDAS E ALIMENTOS LIMITADA",
       "fantasia": "ATACADO DO GUANDU",
@@ -44306,6 +44434,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JORGE MACIEL - OFF TRADE",
       "codusur2": "95",
       "nome_usur2": "VINICIUS AMARAL"
+    },
+    {
+      "codcli": "95754",
+      "razao": "NASOLI COMERCIO E DESCARTAVEIS LTDA",
+      "fantasia": "TOP 10 PRODUCOES E EVENTOS",
+      "bairro": "NOVA CIDADE",
+      "cidade": "NILOPOLIS",
+      "cnpj": "21.799.170/0001-58",
+      "estado": "RJ",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "379",
+      "nome_usur1": "JORGE MACIEL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "51825",
@@ -45108,6 +45252,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
+      "codcli": "51955",
+      "razao": "NOVO LAR SUPERMERCADO LTDA",
+      "fantasia": "NOVO LAR SUPERMERCADO",
+      "bairro": "JARDIM IZILDINHA",
+      "cidade": "GUARULHOS",
+      "cnpj": "39.974.737/0001-40",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "468",
+      "nome_usur1": "RENATO JUNIOR - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "93889",
       "razao": "NOVO LATICINIO LTDA",
       "fantasia": "NOVO LATICINIO",
@@ -45170,6 +45330,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "156",
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
+    },
+    {
+      "codcli": "51949",
+      "razao": "NSX SUPERMERCADO LTDA",
+      "fantasia": "NSX SUPERMERCADO",
+      "bairro": "JARDIM NOVE DE JULHO",
+      "cidade": "SAO PAULO",
+      "cnpj": "57.979.927/0001-32",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "468",
+      "nome_usur1": "RENATO JUNIOR - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "82011",
@@ -45662,8 +45838,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": true,
       "rede": "ORIUNDI",
-      "codusur1": "442",
-      "nome_usur1": "RAQUEL ARAUJO - OFF TRADE",
+      "codusur1": "521",
+      "nome_usur1": "WESLEY DE ALEXANDRE CARCHENO - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
@@ -47552,6 +47728,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "470",
       "nome_usur1": "PRISCILLA BONACHE - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "95753",
+      "razao": "PANIFICADORA IMPERIO ELLISCH E KELLER LTDA",
+      "fantasia": "PADARIA SUPER PAO",
+      "bairro": "CAMPO GRANDE",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "57.399.470/0001-97",
+      "estado": "RJ",
+      "ramo": "PADARIA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "431",
+      "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -56660,6 +56852,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "RENATO JUNIOR - OFF TRADE"
     },
     {
+      "codcli": "51950",
+      "razao": "SPK SUPERMERCADO LTDA",
+      "fantasia": "SPK SUPERMERCADO",
+      "bairro": "CIDADE SÃO MATEUS",
+      "cidade": "SAO PAULO",
+      "cnpj": "49.972.611/0001-90",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "468",
+      "nome_usur1": "RENATO JUNIOR - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "40700",
       "razao": "SPON DISTRIBUIDORA DE BEBIDAS S.A",
       "fantasia": "SPON DISTRIBUIDORA",
@@ -57296,6 +57504,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "391",
       "nome_usur1": "ANDRE SILVA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51959",
+      "razao": "SUPER YAMA SUPERMERCADO LTDA",
+      "fantasia": "SUPER YAMA SUPERMERCADO",
+      "bairro": "CHACARA DA ENSEADA",
+      "cidade": "SAO PAULO",
+      "cnpj": "49.107.277/0003-79",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "505",
+      "nome_usur1": "LUCELIA BARROS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -58352,6 +58576,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "419",
       "nome_usur1": "NÁTALI DE OLIVEIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51954",
+      "razao": "SUPERMERCADO JPX LTDA",
+      "fantasia": "SUPERMERCADO JPX",
+      "bairro": "JARDIM SANTO ANDRE",
+      "cidade": "SAO PAULO",
+      "cnpj": "35.386.080/0001-40",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "468",
+      "nome_usur1": "RENATO JUNIOR - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -59538,6 +59778,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "50666",
+      "razao": "SUPERMERCADO SEMPRE LEAL LTDA",
+      "fantasia": "SUPERMERCADO SEMPRE LEAL",
+      "bairro": "JARDIM AMERICA",
+      "cidade": "VARZEA PAULISTA",
+      "cnpj": "20.259.835/0001-78",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "475",
+      "nome_usur1": "LUCAS BUENO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "51870",
@@ -62404,6 +62660,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
     {
+      "codcli": "51953",
+      "razao": "UBA SUPERMERCADO LTDA",
+      "fantasia": "UBA SUPERMERCADO",
+      "bairro": "BARRA DA LAGOA",
+      "cidade": "UBATUBA",
+      "cnpj": "47.372.193/0001-75",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "516",
+      "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "51458",
       "razao": "ULISSES ALVES DOMINGUES CIA LTDA",
       "fantasia": "AO FIEL BARATEIRO",
@@ -63344,6 +63616,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "470",
       "nome_usur1": "PRISCILLA BONACHE - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "86494",
+      "razao": "VICTOR HUGO SOARES TEIXEIRA 13550375735",
+      "fantasia": "VICTOR HUGO SOARES TEIXEIRA",
+      "bairro": "JARDIM GUANABARA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "46.574.191/0001-04",
+      "estado": "RJ",
+      "ramo": "LOJA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "431",
+      "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -64736,6 +65024,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "493",
       "nome_usur1": "CAROLINA SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "50869",
+      "razao": "YPE SUPERMERCADOS LTDA",
+      "fantasia": "YPE SUPERMERCADOS",
+      "bairro": "JARDIM YPE",
+      "cidade": "BOTUCATU",
+      "cnpj": "43.686.118/0001-28",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
