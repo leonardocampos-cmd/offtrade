@@ -59,10 +59,16 @@ for base in BASES:
     try:
         # RJ e ES compartilham o schema CRC — sem o filtro de ESTADO, as duas
         # iterações trariam o mesmo roster de vendedores/clientes duplicado.
-        v = carregar_dados(
-            f"SELECT CODUSUR, NOME FROM {schema}.PCUSUARI WHERE NOME LIKE '%OFF TRADE%' AND ESTADO = '{estado}'",
-            eng, f"raiox_vendedores_off_trade_{estado}"
-        )
+        # Traz supervisor/gerente pra alimentar os filtros em cascata da página.
+        v = carregar_dados(f"""
+            SELECT U.CODUSUR, U.NOME,
+                   COALESCE(S.NOME, 'Sem supervisor') AS SUPERVISOR,
+                   COALESCE(G.NOMEGERENTE, 'Sem gerente') AS GERENTE
+            FROM {schema}.PCUSUARI U
+            LEFT JOIN {schema}.PCSUPERV S ON U.CODSUPERVISOR = S.CODSUPERVISOR
+            LEFT JOIN {schema}.PCGERENTE G ON S.CODGERENTE = G.CODGERENTE
+            WHERE U.NOME LIKE '%OFF TRADE%' AND U.ESTADO = '{estado}'
+        """, eng, f"raiox_vendedores_off_trade_{estado}")
         v.columns = v.columns.str.upper()
         v['ESTADO'] = estado
         _vendedores_partes.append(v)
@@ -83,9 +89,13 @@ for base in BASES:
         print(f"  [AVISO] {estado} falhou ({str(e)[:150]}) — ignorado")
         fontes_indisponiveis.append(estado)
 
-vendedores_off_trade = pd.concat(_vendedores_partes, ignore_index=True) if _vendedores_partes else pd.DataFrame(columns=['CODUSUR', 'NOME', 'ESTADO'])
+vendedores_off_trade = pd.concat(_vendedores_partes, ignore_index=True) if _vendedores_partes else pd.DataFrame(columns=['CODUSUR', 'NOME', 'SUPERVISOR', 'GERENTE', 'ESTADO'])
 _nomes_por_chave = {
     (r['ESTADO'], int(r['CODUSUR'])): r['NOME'].replace('- OFF TRADE', '').replace('-OFF TRADE', '').strip()
+    for _, r in vendedores_off_trade.iterrows()
+}
+_hier_por_chave = {
+    (r['ESTADO'], int(r['CODUSUR'])): {'supervisor': r['SUPERVISOR'], 'gerente': r['GERENTE']}
     for _, r in vendedores_off_trade.iterrows()
 }
 todas_chaves = sorted(_nomes_por_chave)
@@ -112,11 +122,14 @@ for estado, rca in todas_chaves:
         cli_v.groupby('CIDADE')['CLIENTE_KEY'].nunique()
         .sort_values(ascending=False)
     )
+    hier = _hier_por_chave.get((estado, rca), {})
     vendedor = {
         'rca': int(rca),
         'estado': estado,
         'chave': f"{estado}-{rca}",
         'nome': nome,
+        'gerente': hier.get('gerente', 'Sem gerente'),
+        'supervisor': hier.get('supervisor', 'Sem supervisor'),
         'total_clientes': int(cli_v['CLIENTE_KEY'].nunique()),
         'cidades': [
             {'cidade': c or 'N/D', 'clientes': int(n)}

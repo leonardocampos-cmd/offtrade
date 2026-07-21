@@ -32,8 +32,17 @@ BASES = [
 def _query_vendedores(schema, estado):
     # RJ e ES compartilham o schema CRC — sem o filtro de ESTADO do vendedor,
     # as duas iterações trariam o roster inteiro duplicado (mesmo bug corrigido
-    # abaixo para a base de clientes).
-    return f"SELECT CODUSUR, NOME FROM {schema}.PCUSUARI WHERE NOME LIKE '%OFF TRADE%' AND ESTADO = '{estado}'"
+    # abaixo para a base de clientes). Traz também supervisor/gerente pra
+    # alimentar os filtros em cascata Estado -> Gerente -> Supervisor -> Vendedor.
+    return f"""
+        SELECT U.CODUSUR, U.NOME,
+               COALESCE(S.NOME, 'Sem supervisor') AS SUPERVISOR,
+               COALESCE(G.NOMEGERENTE, 'Sem gerente') AS GERENTE
+        FROM {schema}.PCUSUARI U
+        LEFT JOIN {schema}.PCSUPERV S ON U.CODSUPERVISOR = S.CODSUPERVISOR
+        LEFT JOIN {schema}.PCGERENTE G ON S.CODGERENTE = G.CODGERENTE
+        WHERE U.NOME LIKE '%OFF TRADE%' AND U.ESTADO = '{estado}'
+    """
 
 
 def _query_clientes(schema, estado):
@@ -98,9 +107,13 @@ for base in BASES:
         print(f"  [AVISO] {estado} falhou ({str(e)[:150]}) — ignorado")
         fontes_indisponiveis.append(estado)
 
-vendedores_off_trade = pd.concat(_vendedores_partes, ignore_index=True) if _vendedores_partes else pd.DataFrame(columns=['CODUSUR', 'NOME', 'ESTADO'])
+vendedores_off_trade = pd.concat(_vendedores_partes, ignore_index=True) if _vendedores_partes else pd.DataFrame(columns=['CODUSUR', 'NOME', 'SUPERVISOR', 'GERENTE', 'ESTADO'])
 _nome_por_rca = {
     (r['ESTADO'], int(r['CODUSUR'])): r['NOME'].replace('- OFF TRADE', '').replace('-OFF TRADE', '').strip()
+    for _, r in vendedores_off_trade.iterrows()
+}
+_hier_por_rca = {
+    (r['ESTADO'], int(r['CODUSUR'])): {'supervisor': r['SUPERVISOR'], 'gerente': r['GERENTE']}
     for _, r in vendedores_off_trade.iterrows()
 }
 
@@ -191,7 +204,9 @@ canais.sort(key=lambda c: c['faturamento_ytd'], reverse=True)
 
 vendedores_lista = sorted(
     ({'rca': rca, 'estado': estado, 'chave': f"{estado}-{rca}",
-      'nome': _nome_por_rca.get((estado, rca), f"RCA {rca}")}
+      'nome': _nome_por_rca.get((estado, rca), f"RCA {rca}"),
+      'supervisor': _hier_por_rca.get((estado, rca), {}).get('supervisor', 'Sem supervisor'),
+      'gerente': _hier_por_rca.get((estado, rca), {}).get('gerente', 'Sem gerente')}
      for estado, rca in rcas_com_cliente),
     key=lambda v: v['nome']
 )

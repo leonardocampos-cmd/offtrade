@@ -33,7 +33,16 @@ BASES = [
 def _query_vendedores(schema, estado):
     # RJ e ES compartilham o schema CRC — sem o filtro de ESTADO, as duas
     # iterações trariam o mesmo roster de vendedores/clientes duplicado.
-    return f"SELECT CODUSUR, NOME FROM {schema}.PCUSUARI WHERE NOME LIKE '%OFF TRADE%' AND ESTADO = '{estado}'"
+    # Traz supervisor/gerente pra alimentar os filtros em cascata da página.
+    return f"""
+        SELECT U.CODUSUR, U.NOME,
+               COALESCE(S.NOME, 'Sem supervisor') AS SUPERVISOR,
+               COALESCE(G.NOMEGERENTE, 'Sem gerente') AS GERENTE
+        FROM {schema}.PCUSUARI U
+        LEFT JOIN {schema}.PCSUPERV S ON U.CODSUPERVISOR = S.CODSUPERVISOR
+        LEFT JOIN {schema}.PCGERENTE G ON S.CODGERENTE = G.CODGERENTE
+        WHERE U.NOME LIKE '%OFF TRADE%' AND U.ESTADO = '{estado}'
+    """
 
 
 def _query_clientes(schema, estado):
@@ -126,9 +135,13 @@ for base in BASES:
         print(f"  [AVISO] {estado} falhou ({str(e)[:150]}) — ignorado")
         fontes_indisponiveis.append(estado)
 
-vendedores_off_trade = pd.concat(_vend_partes, ignore_index=True) if _vend_partes else pd.DataFrame(columns=['CODUSUR', 'NOME', 'ESTADO'])
+vendedores_off_trade = pd.concat(_vend_partes, ignore_index=True) if _vend_partes else pd.DataFrame(columns=['CODUSUR', 'NOME', 'SUPERVISOR', 'GERENTE', 'ESTADO'])
 _nome_por_chave = {
     (r['ESTADO'], int(r['CODUSUR'])): r['NOME'].replace('- OFF TRADE', '').replace('-OFF TRADE', '').strip()
+    for _, r in vendedores_off_trade.iterrows()
+}
+_hier_por_chave = {
+    (r['ESTADO'], int(r['CODUSUR'])): {'supervisor': r['SUPERVISOR'], 'gerente': r['GERENTE']}
     for _, r in vendedores_off_trade.iterrows()
 }
 
@@ -209,6 +222,16 @@ for _, c in clientes.iterrows():
         if (estado, rca) in _nome_por_chave
     ]
 
+    # Hierarquia do cliente = a do vendedor principal (CODUSUR1), com
+    # fallback pro CODUSUR2 — usada nos filtros em cascata da página.
+    _hier_cliente = None
+    for rca in (c['CODUSUR1'], c['CODUSUR2']):
+        if (estado, rca) in _hier_por_chave:
+            _hier_cliente = _hier_por_chave[(estado, rca)]
+            break
+    gerente = _hier_cliente['gerente'] if _hier_cliente else 'Sem gerente'
+    supervisor = _hier_cliente['supervisor'] if _hier_cliente else 'Sem supervisor'
+
     ultima_compra = ''
     if pd.notna(c.get('DTULTCOMP')):
         try:
@@ -224,6 +247,8 @@ for _, c in clientes.iterrows():
         'razao_social': c['CLIENTE'],
         'cidade': c['CIDADE'] or 'N/D',
         'ramo': c['RAMO'],
+        'gerente': gerente,
+        'supervisor': supervisor,
         'vendedores_cadastro': vendedores_cadastro,
         'ultima_compra': ultima_compra,
         'ativo_periodo': chave in clientes_com_venda,
