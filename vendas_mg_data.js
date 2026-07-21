@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "21/07/2026 16:32",
+  "atualizado_em": "21/07/2026 17:50",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 150883.4,
-        "pos": 76,
+        "fat": 151350.06,
+        "pos": 77,
         "fat_ant": 341993.95
       }
     },
@@ -82,8 +82,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 175829.04
       },
       "Jul/26": {
-        "fat": 94280.52,
-        "pos": 47,
+        "fat": 103345.62,
+        "pos": 51,
         "fat_ant": 168142.6
       }
     },
@@ -150,8 +150,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 35798.3
       },
       "Jul/26": {
-        "fat": 44997.15,
-        "pos": 5,
+        "fat": 49642.35,
+        "pos": 6,
         "fat_ant": 57054.36
       }
     },
@@ -307,7 +307,7 @@ const VENDAS_MG_DATA = {
           "codcli": "31113",
           "cliente": "FELIPE ROBERTO SILVA RIBEIRO 08734193677",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 4,
           "valor": 102.0,
           "offtrade": true
@@ -5577,7 +5577,7 @@ const VENDAS_MG_DATA = {
           "codcli": "31113",
           "cliente": "FELIPE ROBERTO SILVA RIBEIRO 08734193677",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 3,
           "valor": 92.7,
           "offtrade": true
@@ -8949,7 +8949,7 @@ const VENDAS_MG_DATA = {
           "codcli": "34350",
           "cliente": "FAE INDUSTRIA E COMERCIO DE ALIMENTOS LTDA",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 12,
           "valor": 358.8,
           "offtrade": true
@@ -13609,7 +13609,7 @@ const VENDAS_MG_DATA = {
           "codcli": "31113",
           "cliente": "FELIPE ROBERTO SILVA RIBEIRO 08734193677",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 4,
           "valor": 115.6,
           "offtrade": true
@@ -14009,7 +14009,7 @@ const VENDAS_MG_DATA = {
           "codcli": "30219",
           "cliente": "POSTO TOCANTINS LTDA",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 12,
           "valor": 294.0,
           "offtrade": true
@@ -15829,7 +15829,7 @@ const VENDAS_MG_DATA = {
           "codcli": "31113",
           "cliente": "FELIPE ROBERTO SILVA RIBEIRO 08734193677",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 4,
           "valor": 119.6,
           "offtrade": true
@@ -17829,7 +17829,7 @@ const VENDAS_MG_DATA = {
           "codcli": "34211",
           "cliente": "PEDRO HENRIQUE OLIVEIRA EVENTOS",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 12,
           "valor": 322.8,
           "offtrade": true
@@ -18729,7 +18729,7 @@ const VENDAS_MG_DATA = {
           "codcli": "31673",
           "cliente": "ESQUINA DO CHOPP JARA LTDA",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 1,
           "valor": 26.9,
           "offtrade": true
@@ -18759,7 +18759,7 @@ const VENDAS_MG_DATA = {
           "codcli": "32781",
           "cliente": "E M DE AZEVEDO",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 12,
           "valor": 322.8,
           "offtrade": true
@@ -20511,7 +20511,7 @@ const VENDAS_MG_DATA = {
           "codcli": "31113",
           "cliente": "FELIPE ROBERTO SILVA RIBEIRO 08734193677",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 6,
           "valor": 153.0,
           "offtrade": true
@@ -52094,6 +52094,36 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "21/07/2026",
+          "codcli": "32776",
+          "cliente": "S C SOLUCOES E COMERCIO DE ALIMENTOS LTDA",
+          "produto": "JACK DANIELS HONEY 1 L",
+          "fantasia": "BROWN-FORMAN",
+          "qt": 2,
+          "valor": 259.8,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "32776",
+          "cliente": "S C SOLUCOES E COMERCIO DE ALIMENTOS LTDA",
+          "produto": "WHISKY WHITE HORSE - 1L",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 62.9,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "32776",
+          "cliente": "S C SOLUCOES E COMERCIO DE ALIMENTOS LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 143.96,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
           "codcli": "29917",
           "cliente": "CASA FIGATA COMERCIO E DISTRIBUIDORA LTDA",
           "produto": "WHISKY J WALKER BLACK LABEL 1L",
@@ -61241,7 +61271,7 @@ const VENDAS_MG_DATA = {
           "codcli": "33075",
           "cliente": "HIPER OPA LTDA",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 24,
           "valor": 501.6,
           "offtrade": true
@@ -61331,7 +61361,7 @@ const VENDAS_MG_DATA = {
           "codcli": "33072",
           "cliente": "VAREJAO AVENIDA LIMITADA",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 72,
           "valor": 1504.8,
           "offtrade": true
@@ -61391,7 +61421,7 @@ const VENDAS_MG_DATA = {
           "codcli": "38294",
           "cliente": "CEVAROLI SUPERMERCADOS LTDA",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 12,
           "valor": 250.8,
           "offtrade": true
@@ -61461,7 +61491,7 @@ const VENDAS_MG_DATA = {
           "codcli": "33076",
           "cliente": "CEVAROLI SUPERMERCADOS LTDA",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 60,
           "valor": 1254.0,
           "offtrade": true
@@ -61534,6 +61564,86 @@ const VENDAS_MG_DATA = {
           "fantasia": "BEAM SUNTORY",
           "qt": 12,
           "valor": 958.8,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "29333",
+          "cliente": "PARANAIBA LAGOA SANTA VARZEA SUPERMERCADO EIRELI",
+          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "fantasia": "AURORA",
+          "qt": 6,
+          "valor": 899.4,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "29332",
+          "cliente": "PARANAIBA LAGOA SANTA SUPERMERCADOS LTDA.",
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 6,
+          "valor": 833.4,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "29514",
+          "cliente": "PARANAIBA GUANABARA ALIMENTOS LTDA",
+          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "fantasia": "AURORA",
+          "qt": 6,
+          "valor": 899.4,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "37501",
+          "cliente": "SUPERMERCADOS CIDADE LTDA",
+          "produto": "WHISKY WALKER RED LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 36,
+          "valor": 2444.4,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "35137",
+          "cliente": "SUPERMERCADOS CIDADE LTDA",
+          "produto": "WHISKY WALKER RED LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 36,
+          "valor": 2444.4,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "35137",
+          "cliente": "SUPERMERCADOS CIDADE LTDA",
+          "produto": "VODKA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 294.0,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "30614",
+          "cliente": "PARANAIBA SAO BENEDITO ALIMENTOS LTDA",
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 6,
+          "valor": 833.4,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "33265",
+          "cliente": "SUPERMERCADO PARANAIBA BELA VISTA LTDA",
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 3,
+          "valor": 416.7,
           "offtrade": true
         }
       ]
@@ -70287,7 +70397,7 @@ const VENDAS_MG_DATA = {
           "codcli": "35981",
           "cliente": "RESTAURANTE GRAN SABOR LTDA",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 4,
           "valor": 102.0,
           "offtrade": true
@@ -72939,7 +73049,7 @@ const VENDAS_MG_DATA = {
           "codcli": "37776",
           "cliente": "QUIOSQUE JN INDEPENDENCIA DO CHOPP LTDA",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 12,
           "valor": 294.0,
           "offtrade": true
@@ -75023,7 +75133,7 @@ const VENDAS_MG_DATA = {
           "codcli": "30530",
           "cliente": "DISTRIBUIDORA CAMPOS - BARBACENA LTDA",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 360,
           "valor": 7884.0,
           "offtrade": true
@@ -75075,7 +75185,7 @@ const VENDAS_MG_DATA = {
           "codcli": "36304",
           "cliente": "ORGANIZACOES PAIS & FILHOS LTDA",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 24,
           "valor": 597.6,
           "offtrade": true
@@ -75135,7 +75245,7 @@ const VENDAS_MG_DATA = {
           "codcli": "38148",
           "cliente": "ORGANIZACOES PAIS & FILHOS LTDA",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 24,
           "valor": 597.6,
           "offtrade": true
@@ -75205,7 +75315,7 @@ const VENDAS_MG_DATA = {
           "codcli": "35024",
           "cliente": "ORGANIZACOES PAIS & FILHOS LTDA",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 36,
           "valor": 896.4,
           "offtrade": true
@@ -75235,7 +75345,7 @@ const VENDAS_MG_DATA = {
           "codcli": "35114",
           "cliente": "ORGANIZACOES PAIS FILHOS LTDA",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 36,
           "valor": 896.4,
           "offtrade": true
@@ -75325,7 +75435,7 @@ const VENDAS_MG_DATA = {
           "codcli": "35116",
           "cliente": "ORGANIZACOES PAIS FILHOS LTDA",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 36,
           "valor": 896.4,
           "offtrade": true
@@ -75405,7 +75515,7 @@ const VENDAS_MG_DATA = {
           "codcli": "35135",
           "cliente": "ORGANIZACOES PAIS FILHOS LTDA",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 24,
           "valor": 597.6,
           "offtrade": true
@@ -75435,7 +75545,7 @@ const VENDAS_MG_DATA = {
           "codcli": "37752",
           "cliente": "ORGANIZAÇOES PAIS & FILHOS LTDA",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 36,
           "valor": 896.4,
           "offtrade": true
@@ -75485,7 +75595,7 @@ const VENDAS_MG_DATA = {
           "codcli": "36282",
           "cliente": "ORGANIZACOES PAIS & FILHOS LTDA",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 24,
           "valor": 597.6,
           "offtrade": true
@@ -77583,7 +77693,7 @@ const VENDAS_MG_DATA = {
           "codcli": "36560",
           "cliente": "ADEGA BEBIDAS LTDA",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 720,
           "valor": 14328.0,
           "offtrade": true
@@ -77633,7 +77743,7 @@ const VENDAS_MG_DATA = {
           "codcli": "37449",
           "cliente": "EDILSON AGOSTINHO DE AGUIAR 04220369600",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 36,
           "valor": 752.4,
           "offtrade": true
@@ -77663,7 +77773,7 @@ const VENDAS_MG_DATA = {
           "codcli": "36560",
           "cliente": "ADEGA BEBIDAS LTDA",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 60,
           "valor": 1225.2,
           "offtrade": true
@@ -77746,6 +77856,36 @@ const VENDAS_MG_DATA = {
           "fantasia": "DIAGEO",
           "qt": 36,
           "valor": 1796.4,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "33979",
+          "cliente": "BERNARDO GONCALVES DOMINGOS DE ABREU",
+          "produto": "WHISKY WALKER RED LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 36,
+          "valor": 2444.4,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "33979",
+          "cliente": "BERNARDO GONCALVES DOMINGOS DE ABREU",
+          "produto": "VODKA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 36,
+          "valor": 882.0,
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "36560",
+          "cliente": "ADEGA BEBIDAS LTDA",
+          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 1318.8,
           "offtrade": true
         },
         {
@@ -80521,7 +80661,7 @@ const VENDAS_MG_DATA = {
           "codcli": "33491",
           "cliente": "SUPERMERCADO SUPER LUNA S.A",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 444,
           "valor": 10167.6,
           "offtrade": true
@@ -80833,7 +80973,7 @@ const VENDAS_MG_DATA = {
           "codcli": "37710",
           "cliente": "MULTICOM ATACADO E VAREJO S/A",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 720,
           "valor": 16488.0,
           "offtrade": true
@@ -81003,7 +81143,7 @@ const VENDAS_MG_DATA = {
           "codcli": "30231",
           "cliente": "ORGANIZACAO VERDEMAR LTDA",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 240,
           "valor": 5496.0,
           "offtrade": true
@@ -81903,7 +82043,7 @@ const VENDAS_MG_DATA = {
           "codcli": "33491",
           "cliente": "SUPERMERCADO SUPER LUNA S.A",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 432,
           "valor": 9158.4,
           "offtrade": true
@@ -81933,7 +82073,7 @@ const VENDAS_MG_DATA = {
           "codcli": "30231",
           "cliente": "ORGANIZACAO VERDEMAR LTDA",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 120,
           "valor": 2508.0,
           "offtrade": true
@@ -84629,7 +84769,7 @@ const VENDAS_MG_DATA = {
           "codcli": "37710",
           "cliente": "MULTICOM ATACADO E VAREJO S/A",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 1728,
           "valor": 35285.76,
           "offtrade": true
@@ -84639,7 +84779,7 @@ const VENDAS_MG_DATA = {
           "codcli": "37710",
           "cliente": "MULTICOM ATACADO E VAREJO S/A",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 1728,
           "valor": 35285.76,
           "offtrade": true
@@ -84729,7 +84869,7 @@ const VENDAS_MG_DATA = {
           "codcli": "37710",
           "cliente": "MULTICOM ATACADO E VAREJO S/A",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 576,
           "valor": 11761.92,
           "offtrade": true
@@ -87967,7 +88107,7 @@ const VENDAS_MG_DATA = {
           "codcli": "37813",
           "cliente": "ARMAZEM BELO HORIZONTE COMERCIO DE BEBIDAS E CONEXOS LTDA",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 24,
           "valor": 549.6,
           "offtrade": true
@@ -96691,7 +96831,7 @@ const VENDAS_MG_DATA = {
           "codcli": "38497",
           "cliente": "PRODUTOS ALIMENTICIOS BETINENSE LTDA",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 360,
           "valor": 7351.2,
           "offtrade": false
@@ -97041,7 +97181,7 @@ const VENDAS_MG_DATA = {
           "codcli": "34920",
           "cliente": "RESTAURANTE BETANIA LTDA",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 24,
           "valor": 503.76,
           "offtrade": true
@@ -97531,7 +97671,7 @@ const VENDAS_MG_DATA = {
           "codcli": "33637",
           "cliente": "DIAMOND FOODS LTDA",
           "produto": "VODKA ORLOFF 1L DEST",
-          "fantasia": "PERNOD",
+          "fantasia": "",
           "qt": 1,
           "valor": 25.5,
           "offtrade": true
