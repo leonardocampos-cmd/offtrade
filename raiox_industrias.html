@@ -46,6 +46,15 @@
       font-size: .88rem; outline: none;
     }
     .filtro input:focus { border-color: var(--accent); }
+    .filtros-wrap { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 14px; }
+    .filtro-vendedor { display: flex; flex-direction: column; gap: 5px; }
+    .filtro-vendedor label { font-size: .68rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+    .filtro-vendedor select {
+      padding: 8px 12px; border-radius: 8px; border: 1px solid var(--border);
+      background: var(--card); color: var(--text); font-size: .85rem; outline: none;
+      min-width: 180px;
+    }
+    .filtro-vendedor select:focus { border-color: var(--accent); }
     table { width: 100%; border-collapse: collapse; background: var(--card); border-radius: 12px; overflow: hidden; border: 1px solid var(--border); }
     th {
       background: #1f2233; padding: 10px 14px; font-size: .7rem; color: var(--muted);
@@ -77,10 +86,12 @@
   </header>
 
   <div class="container">
-    <div class="titulo">Raio X de Indústrias — Ranking de Fornecedores (RJ)</div>
+    <div class="titulo">Raio X de Indústrias — Ranking de Fornecedores</div>
     <div class="atualizacao" id="atualizacao">Carregando…</div>
 
     <div class="resumo-total" id="resumo-total"></div>
+
+    <div class="filtros-wrap" id="filtros"></div>
 
     <div class="filtro">
       <input type="text" id="busca" placeholder="Buscar fornecedor...">
@@ -108,12 +119,126 @@
     document.getElementById('atualizacao').textContent =
       `Atualizado em ${data.atualizado_em} · mês de referência: ${data.mes_atual}`;
 
-    document.getElementById('resumo-total').innerHTML = `
-      <div><div class="kpi-label">Faturamento total YTD</div><div class="kpi-valor">${brl(data.faturamento_total_ytd)}</div></div>
-      <div><div class="kpi-label">Fornecedores ativos</div><div class="kpi-valor">${data.fornecedores.length}</div></div>
-    `;
+    let filtroEstado = '', filtroGerente = '', filtroSupervisor = '', filtroVendedor = '', buscaTexto = '';
 
-    function render(lista) {
+    function vendedoresFiltrados(estado, gerente, supervisor) {
+      return (data.vendedores || []).filter(v =>
+        (!estado || v.estado === estado) &&
+        (!gerente || v.gerente === gerente) &&
+        (!supervisor || v.supervisor === supervisor)
+      );
+    }
+
+    function chavesAtivas() {
+      let lista = vendedoresFiltrados(filtroEstado, filtroGerente, filtroSupervisor);
+      if (filtroVendedor) lista = lista.filter(v => v.chave === filtroVendedor);
+      return lista.map(v => v.chave);
+    }
+
+    function semFiltroAlgum() {
+      return !filtroEstado && !filtroGerente && !filtroSupervisor && !filtroVendedor;
+    }
+
+    function metricasMescladas(fornecedor, chaves) {
+      const objs = chaves.map(ch => fornecedor.por_vendedor && fornecedor.por_vendedor[ch]).filter(Boolean);
+      if (!objs.length) return null;
+      const faturamento_ytd = objs.reduce((s, o) => s + o.faturamento_ytd, 0);
+      const clientes_positivados = objs.reduce((s, o) => s + o.clientes_positivados, 0);
+      const por_mes = {};
+      objs.forEach(o => Object.entries(o.por_mes || {}).forEach(([k, v]) => { por_mes[k] = (por_mes[k] || 0) + v; }));
+      const mesAtualKey = Object.keys(por_mes).sort().slice(-1)[0];
+      return {
+        fantasia: fornecedor.fantasia,
+        faturamento_ytd: Math.round(faturamento_ytd * 100) / 100,
+        faturamento_mes_atual: Math.round((por_mes[mesAtualKey] || 0) * 100) / 100,
+        clientes_positivados,
+      };
+    }
+
+    function metricasFornecedor(f, chaves, semFiltro) {
+      if (semFiltro) return f;
+      return metricasMescladas(f, chaves);
+    }
+
+    function montaFiltros() {
+      const selEstado = document.getElementById('f-estado');
+      const selGerente = document.getElementById('f-gerente');
+      const selSupervisor = document.getElementById('f-supervisor');
+      const selVendedor = document.getElementById('f-vendedor');
+
+      const estados = [...new Set((data.vendedores || []).map(v => v.estado))].sort();
+      selEstado.innerHTML = ['<option value="">Todos</option>']
+        .concat(estados.map(e => `<option value="${e}">${e}</option>`)).join('');
+      selEstado.value = filtroEstado;
+
+      const gerentes = [...new Set(vendedoresFiltrados(filtroEstado, '', '').map(v => v.gerente))].sort();
+      selGerente.innerHTML = ['<option value="">Todos</option>']
+        .concat(gerentes.map(g => `<option value="${g}">${g}</option>`)).join('');
+      selGerente.value = filtroGerente;
+
+      const supervisores = [...new Set(vendedoresFiltrados(filtroEstado, filtroGerente, '').map(v => v.supervisor))].sort();
+      selSupervisor.innerHTML = ['<option value="">Todos</option>']
+        .concat(supervisores.map(s => `<option value="${s}">${s}</option>`)).join('');
+      selSupervisor.value = filtroSupervisor;
+
+      const vendedores = vendedoresFiltrados(filtroEstado, filtroGerente, filtroSupervisor)
+        .sort((a, b) => a.nome.localeCompare(b.nome));
+      selVendedor.innerHTML = ['<option value="">Todos</option>']
+        .concat(vendedores.map(v => `<option value="${v.chave}">${v.nome} (${v.estado} · ${v.rca})</option>`)).join('');
+      selVendedor.value = filtroVendedor;
+
+      selEstado.addEventListener('change', () => {
+        filtroEstado = selEstado.value; filtroGerente = ''; filtroSupervisor = ''; filtroVendedor = '';
+        render();
+      });
+      selGerente.addEventListener('change', () => {
+        filtroGerente = selGerente.value; filtroSupervisor = ''; filtroVendedor = '';
+        render();
+      });
+      selSupervisor.addEventListener('change', () => {
+        filtroSupervisor = selSupervisor.value; filtroVendedor = '';
+        render();
+      });
+      selVendedor.addEventListener('change', () => {
+        filtroVendedor = selVendedor.value;
+        render();
+      });
+    }
+
+    function render() {
+      document.getElementById('filtros').innerHTML = `
+        <div class="filtro-vendedor"><label for="f-estado">Estado</label><select id="f-estado"></select></div>
+        <div class="filtro-vendedor"><label for="f-gerente">Gerente</label><select id="f-gerente"></select></div>
+        <div class="filtro-vendedor"><label for="f-supervisor">Supervisor</label><select id="f-supervisor"></select></div>
+        <div class="filtro-vendedor"><label for="f-vendedor">Vendedor</label><select id="f-vendedor"></select></div>
+      `;
+      montaFiltros();
+
+      const chaves = chavesAtivas();
+      const semFiltro = semFiltroAlgum();
+      let lista = data.fornecedores
+        .map(f => metricasFornecedor(f, chaves, semFiltro))
+        .filter(Boolean);
+
+      if (!semFiltro) {
+        const totalFiltrado = lista.reduce((s, f) => s + f.faturamento_ytd, 0);
+        lista = lista.map(f => ({ ...f, participacao_pct: totalFiltrado ? Math.round(f.faturamento_ytd / totalFiltrado * 10000) / 100 : 0 }));
+        lista.sort((a, b) => b.faturamento_ytd - a.faturamento_ytd);
+        lista.forEach((f, i) => { f.posicao = i + 1; });
+      }
+
+      document.getElementById('resumo-total').innerHTML = `
+        <div><div class="kpi-label">Faturamento total YTD</div><div class="kpi-valor">${brl(lista.reduce((s, f) => s + f.faturamento_ytd, 0))}</div></div>
+        <div><div class="kpi-label">Fornecedores ativos</div><div class="kpi-valor">${lista.length}</div></div>
+      `;
+
+      if (buscaTexto) {
+        lista = lista.filter(f => f.fantasia.toUpperCase().includes(buscaTexto));
+      }
+      renderTabela(lista);
+    }
+
+    function renderTabela(lista) {
       document.getElementById('tbody').innerHTML = lista.map(f => `
         <tr>
           <td>${f.posicao}</td>
@@ -126,12 +251,13 @@
         </tr>
       `).join('') || '<tr><td colspan="7" style="color:var(--muted)">Nenhum fornecedor encontrado.</td></tr>';
     }
-    render(data.fornecedores);
 
     document.getElementById('busca').addEventListener('input', function () {
-      const q = this.value.trim().toUpperCase();
-      render(data.fornecedores.filter(f => f.fantasia.toUpperCase().includes(q)));
+      buscaTexto = this.value.trim().toUpperCase();
+      render();
     });
+
+    render();
   </script>
 </body>
 </html>
