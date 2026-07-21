@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "21/07/2026 12:04",
+  "atualizado_em": "21/07/2026 13:57",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -113407,6 +113407,39 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
+          "data": "21/07/2026",
+          "codcli": "91515",
+          "cliente": "BAR E MERCEARIA SANTOS MIRIM LTDA",
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "fantasia": "FANTE",
+          "qt": 12,
+          "valor": 166.8,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "91515",
+          "cliente": "BAR E MERCEARIA SANTOS MIRIM LTDA",
+          "produto": "CANTINA DA SERRA 750ML",
+          "fantasia": "COMARY",
+          "qt": 6,
+          "valor": 32.94,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "91515",
+          "cliente": "BAR E MERCEARIA SANTOS MIRIM LTDA",
+          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "fantasia": "KAISER",
+          "qt": 5,
+          "valor": 314.5,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
           "data": "13/07/2026",
           "codcli": "91379",
           "cliente": "DROGARIA MENOS PRECO LTDA",
@@ -119138,39 +119171,6 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 60,
           "valor": 750.0,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "91515",
-          "cliente": "BAR E MERCEARIA SANTOS MIRIM LTDA",
-          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "fantasia": "FANTE",
-          "qt": 12,
-          "valor": 166.8,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "91515",
-          "cliente": "BAR E MERCEARIA SANTOS MIRIM LTDA",
-          "produto": "CANTINA DA SERRA 750ML",
-          "fantasia": "COMARY",
-          "qt": 6,
-          "valor": 32.94,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "91515",
-          "cliente": "BAR E MERCEARIA SANTOS MIRIM LTDA",
-          "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
-          "fantasia": "KAISER",
-          "qt": 5,
-          "valor": 314.5,
           "tipo": "Venda",
           "offtrade": true
         },
@@ -557184,6 +557184,94 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
+          "data": "21/07/2026",
+          "codcli": "33637",
+          "cliente": "DIAMOND FOODS LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 4,
+          "valor": 575.04,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "33637",
+          "cliente": "DIAMOND FOODS LTDA",
+          "produto": "XAROPE MONIN LIMAO SICILIANO 700 ML",
+          "fantasia": "MONIN",
+          "qt": 1,
+          "valor": 47.9,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "33637",
+          "cliente": "DIAMOND FOODS LTDA",
+          "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+          "fantasia": "DON LUIZ",
+          "qt": 1,
+          "valor": 59.9,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "33637",
+          "cliente": "DIAMOND FOODS LTDA",
+          "produto": "APERITIVO CAMPARI 998 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 49.9,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "33637",
+          "cliente": "DIAMOND FOODS LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 3,
+          "valor": 224.7,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "33637",
+          "cliente": "DIAMOND FOODS LTDA",
+          "produto": "GIN ORLOFF 1L",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 49.9,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "33637",
+          "cliente": "DIAMOND FOODS LTDA",
+          "produto": "VODKA ORLOFF 1L DEST",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 25.5,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "33637",
+          "cliente": "DIAMOND FOODS LTDA",
+          "produto": "WHISKY JAMESON 750ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 74.9,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
           "data": "08/07/2026",
           "codcli": "32231",
           "cliente": "DOISMAISUM EMPREENDIMENTOS GASTRONOMICOS LTDA",
@@ -557411,6 +557499,83 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 2,
           "valor": 109.8,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "34357",
+          "cliente": "VILLAGE FOODS LTDA",
+          "produto": "XAROPE MONIN LIMAO SICILIANO 700 ML",
+          "fantasia": "MONIN",
+          "qt": 1,
+          "valor": 47.9,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "34357",
+          "cliente": "VILLAGE FOODS LTDA",
+          "produto": "APERITIVO CAMPARI 998 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 49.9,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "34357",
+          "cliente": "VILLAGE FOODS LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 74.9,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "34357",
+          "cliente": "VILLAGE FOODS LTDA",
+          "produto": "GIN ORLOFF 1L",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 49.9,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "34357",
+          "cliente": "VILLAGE FOODS LTDA",
+          "produto": "XAROPE MONIN MELANCIA 700ML",
+          "fantasia": "MONIN",
+          "qt": 1,
+          "valor": 47.9,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "34357",
+          "cliente": "VILLAGE FOODS LTDA",
+          "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
+          "fantasia": "MONIN",
+          "qt": 1,
+          "valor": 47.9,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "34357",
+          "cliente": "VILLAGE FOODS LTDA",
+          "produto": "XAROPE MONIN TANGERINA (MANDARIM) 700ML",
+          "fantasia": "MONIN",
+          "qt": 3,
+          "valor": 143.7,
           "tipo": "Venda",
           "offtrade": true
         },
@@ -557653,6 +557818,50 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 3,
           "valor": 83.7,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "35229",
+          "cliente": "LA MACELLERIA LOURDES ACOUGUE GOURMET E RESTAURANTE LTDA",
+          "produto": "APERITIVO APEROL 750 ML",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 89.0,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "35229",
+          "cliente": "LA MACELLERIA LOURDES ACOUGUE GOURMET E RESTAURANTE LTDA",
+          "produto": "RUM BACARDI CARTA BLANCA 980 ML",
+          "fantasia": "BACARDI",
+          "qt": 1,
+          "valor": 46.9,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "35229",
+          "cliente": "LA MACELLERIA LOURDES ACOUGUE GOURMET E RESTAURANTE LTDA",
+          "produto": "WHISKY JACK DANIELS 1L",
+          "fantasia": "BROWN-FORMAN",
+          "qt": 1,
+          "valor": 129.9,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "35229",
+          "cliente": "LA MACELLERIA LOURDES ACOUGUE GOURMET E RESTAURANTE LTDA",
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 148.9,
           "tipo": "Venda",
           "offtrade": true
         },
@@ -558093,6 +558302,28 @@ const VENDAS_DATA = {
           "fantasia": "HEINEKEN",
           "qt": 2,
           "valor": 436.32,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "37622",
+          "cliente": "KESCO ENGENHARIA E COMERCIO LTDA",
+          "produto": "CERVEJA HEINEKEN RETORNAVEL 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 2,
+          "valor": 436.32,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "37622",
+          "cliente": "KESCO ENGENHARIA E COMERCIO LTDA",
+          "produto": "MINIATURA CAN FIREBALL C/12",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 58.68,
           "tipo": "Venda",
           "offtrade": true
         },
@@ -602847,6 +603078,17 @@ const VENDAS_DATA = {
         }
       ],
       "Jul/26": [
+        {
+          "data": "21/07/2026",
+          "codcli": "29917",
+          "cliente": "CASA FIGATA COMERCIO E DISTRIBUIDORA LTDA",
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 6,
+          "valor": 833.4,
+          "tipo": "Venda",
+          "offtrade": true
+        },
         {
           "data": "15/07/2026",
           "codcli": "30041",
@@ -648438,6 +648680,17 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 36,
           "valor": 882.0,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "21/07/2026",
+          "codcli": "36560",
+          "cliente": "ADEGA BEBIDAS LTDA",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "fantasia": "PERNOD",
+          "qt": 60,
+          "valor": 3837.6,
           "tipo": "Venda",
           "offtrade": true
         },
