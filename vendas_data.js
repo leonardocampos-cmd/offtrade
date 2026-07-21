@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "20/07/2026 20:41",
+  "atualizado_em": "21/07/2026 06:58",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -180039,18 +180039,7 @@ const VENDAS_DATA = {
           "data": "20/07/2026",
           "codcli": "79271",
           "cliente": "XERE BAR E RESTAURANTE LTDA",
-          "produto": "CHABLIS THIERRY LAFFAY BCO 2022 750ML",
-          "fantasia": "CASTAS",
-          "qt": 1,
-          "valor": 269.9,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "79271",
-          "cliente": "XERE BAR E RESTAURANTE LTDA",
-          "produto": "VINHO ADELE ROSE 750ML",
+          "produto": "HUMB. CANALE DENARIO MALBEC 750ML",
           "fantasia": "CASTAS",
           "qt": 3,
           "valor": 0.0,
@@ -180061,18 +180050,7 @@ const VENDAS_DATA = {
           "data": "20/07/2026",
           "codcli": "79271",
           "cliente": "XERE BAR E RESTAURANTE LTDA",
-          "produto": "CHABLIS THIERRY LAFFAY BCO 2022 750ML",
-          "fantasia": "CASTAS",
-          "qt": 1,
-          "valor": 0.0,
-          "tipo": "Bonificado",
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "79271",
-          "cliente": "XERE BAR E RESTAURANTE LTDA",
-          "produto": "HUMB. CANALE DENARIO MALBEC 750ML",
+          "produto": "VINHO ADELE ROSE 750ML",
           "fantasia": "CASTAS",
           "qt": 3,
           "valor": 0.0,
@@ -208987,17 +208965,6 @@ const VENDAS_DATA = {
           "fantasia": "BROWN",
           "qt": 6,
           "valor": 893.88,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "9604",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-          "produto": "VINHO LATITUD 33 MALBEC  750 ML",
-          "fantasia": "HENNESSY",
-          "qt": 18,
-          "valor": 594.0,
           "tipo": "Venda",
           "offtrade": true
         },
@@ -259747,138 +259714,6 @@ const VENDAS_DATA = {
           "fantasia": "ROBINSON CRUSOE",
           "qt": 1,
           "valor": 153.36,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "93386",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 3,
-          "valor": 748.5,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "93386",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 3,
-          "valor": 575.28,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "93386",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 3,
-          "valor": 575.28,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "93386",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 3,
-          "valor": 575.28,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "93386",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "RC ATUM RALADO NATURAL 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 153.36,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "93386",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "RC ATUM RALADO OLEO 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 153.36,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "93386",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 1,
-          "valor": 153.36,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "93386",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 2,
-          "valor": 251.8,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "93386",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 3,
-          "valor": 625.68,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "93386",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "RC ATUM SOLIDO OLEO 24X170G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 3,
-          "valor": 625.68,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "93386",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 4,
-          "valor": 479.6,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "01/07/2026",
-          "codcli": "93386",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "produto": "RC SARDINHA EM OLEO 50X125G",
-          "fantasia": "ROBINSON CRUSOE",
-          "qt": 3,
-          "valor": 748.5,
           "tipo": "Venda",
           "offtrade": true
         },
@@ -450522,17 +450357,6 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
-          "data": "17/07/2026",
-          "codcli": "40591",
-          "cliente": "MARESIAS DISTRIBUIDORA DE BEBIDAS E SERVICOS LTDA",
-          "produto": "WHISKY PASSPORT HONEY 670ML",
-          "fantasia": "PERNOD",
-          "qt": 120,
-          "valor": 4140.0,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
           "data": "16/07/2026",
           "codcli": "40826",
           "cliente": "BRUNO CREM VENTURI",
@@ -451354,39 +451178,6 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 900,
           "valor": 18810.0,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "17/07/2026",
-          "codcli": "47403",
-          "cliente": "ALCANTARA COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
-          "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "PERNOD",
-          "qt": 576,
-          "valor": 19872.0,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "17/07/2026",
-          "codcli": "47403",
-          "cliente": "ALCANTARA COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
-          "produto": "WHISKY PASSPORT APPLE 670ML",
-          "fantasia": "PERNOD",
-          "qt": 225,
-          "valor": 7762.5,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "17/07/2026",
-          "codcli": "47403",
-          "cliente": "ALCANTARA COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
-          "produto": "WHISKY PASSPORT HONEY 670ML",
-          "fantasia": "PERNOD",
-          "qt": 300,
-          "valor": 10350.0,
           "tipo": "Venda",
           "offtrade": true
         },
@@ -498593,28 +498384,6 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 24,
           "valor": 1437.6,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "51903",
-          "cliente": "FABIANA VIEIRA DA SILVA SANTOS 35438149828",
-          "produto": "WHISKY JACK DANIELS 375 ML - DEST",
-          "fantasia": "BROWN",
-          "qt": 24,
-          "valor": 1077.6,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "51903",
-          "cliente": "FABIANA VIEIRA DA SILVA SANTOS 35438149828",
-          "produto": "JACK DANIELS BLACKBERRY 1L",
-          "fantasia": "BROWN",
-          "qt": 2,
-          "valor": 279.8,
           "tipo": "Venda",
           "offtrade": true
         },
