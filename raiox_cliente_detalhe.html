@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raio X do Cliente — Rigarr</title>
+  <script src="auth.js"></script>
+  <script src="raiox_cliente_detalhe_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --accent: #f5c518;
+      --text: #e2e8f0; --muted: #94a3b8; --border: #2d3144;
+      --green: #22c55e; --yellow: #f59e0b; --red: #ef4444;
+    }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh; padding: 0 0 48px;
+    }
+    header {
+      background: var(--card); border-bottom: 1px solid var(--border);
+      padding: 16px 24px; display: flex; align-items: center; gap: 16px;
+      flex-wrap: wrap;
+    }
+    .logo { font-size: 1.05rem; font-weight: 800; color: var(--accent); }
+    .nav { display: flex; gap: 8px; margin-left: auto; flex-wrap: wrap; }
+    .nav a {
+      color: var(--muted); text-decoration: none; font-size: .82rem;
+      padding: 6px 12px; border-radius: 7px; border: 1px solid var(--border);
+      transition: all .15s;
+    }
+    .nav a:hover, .nav a.ativo { border-color: var(--accent); color: var(--accent); }
+    .container { max-width: 1100px; margin: 0 auto; padding: 24px 20px; }
+    .titulo { font-size: 1.3rem; font-weight: 800; margin-bottom: 4px; }
+    .atualizacao { font-size: .78rem; color: var(--muted); margin-bottom: 20px; }
+
+    .busca-wrap { position: relative; max-width: 460px; margin-bottom: 20px; }
+    .busca-wrap input {
+      width: 100%; padding: 12px 14px; border-radius: 10px;
+      border: 1px solid var(--border); background: var(--card); color: var(--text);
+      font-size: .95rem; outline: none;
+    }
+    .busca-wrap input:focus { border-color: var(--accent); }
+    .sugestoes {
+      position: absolute; top: 100%; left: 0; right: 0; margin-top: 4px;
+      background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+      max-height: 320px; overflow-y: auto; z-index: 10; display: none;
+    }
+    .sugestoes.aberto { display: block; }
+    .sugestao-item { padding: 10px 14px; cursor: pointer; font-size: .85rem; border-bottom: 1px solid #232738; }
+    .sugestao-item:last-child { border-bottom: none; }
+    .sugestao-item:hover, .sugestao-item.ativa { background: #232738; }
+    .sugestao-nome { color: var(--text); }
+    .sugestao-meta { color: var(--muted); font-size: .74rem; margin-top: 2px; }
+
+    .sem-selecao { color: var(--muted); text-align: center; padding: 60px 20px; }
+
+    .ficha-header {
+      background: var(--card); border: 1px solid var(--border); border-radius: 14px;
+      padding: 20px 22px; margin-bottom: 20px; display: flex; justify-content: space-between;
+      align-items: flex-start; gap: 16px; flex-wrap: wrap;
+    }
+    .ficha-nome { font-size: 1.15rem; font-weight: 800; }
+    .ficha-razao { font-size: .78rem; color: var(--muted); margin-top: 2px; }
+    .ficha-tags { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+    .tag {
+      font-size: .72rem; padding: 3px 10px; border-radius: 20px; border: 1px solid var(--border);
+      color: var(--muted);
+    }
+    .btn-extrair {
+      background: var(--accent); color: #111; border: none; border-radius: 8px;
+      padding: 9px 16px; font-size: .82rem; font-weight: 700; cursor: pointer; white-space: nowrap;
+    }
+    .btn-extrair:hover { background: #d4a90e; }
+
+    .kpi-row { display: flex; gap: 18px; flex-wrap: wrap; margin-bottom: 20px; }
+    .kpi-card {
+      background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+      padding: 14px 18px; min-width: 140px; flex: 1;
+    }
+    .kpi-label { font-size: .68rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 4px; }
+    .kpi-valor { font-size: 1.2rem; font-weight: 800; }
+
+    .grid-2 { display: grid; grid-template-columns: 1.2fr 1fr; gap: 18px; }
+    @media (max-width: 850px) { .grid-2 { grid-template-columns: 1fr; } }
+    .card {
+      background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 20px;
+      margin-bottom: 18px;
+    }
+    .card-titulo { font-size: .7rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 14px; }
+    .meses-chart { display: flex; gap: 6px; align-items: flex-end; height: 120px; }
+    .mes-col { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 6px; }
+    .mes-bar-bg { width: 100%; height: 90px; display: flex; align-items: flex-end; }
+    .mes-bar { width: 100%; background: var(--accent); border-radius: 3px 3px 0 0; opacity: .85; min-height: 2px; }
+    .mes-label { font-size: .62rem; color: var(--muted); }
+
+    table { width: 100%; border-collapse: collapse; }
+    th {
+      text-align: left; font-size: .68rem; color: var(--muted); text-transform: uppercase;
+      letter-spacing: .05em; padding: 6px 8px; border-bottom: 1px solid var(--border);
+    }
+    td { padding: 7px 8px; font-size: .85rem; border-bottom: 1px solid #232738; }
+    th:last-child, td:last-child { text-align: right; }
+    .part-bar-bg { display: inline-block; width: 50px; height: 5px; background: #2d3144; border-radius: 3px; overflow: hidden; margin-left: 6px; vertical-align: middle; }
+    .part-bar-fill { height: 100%; background: var(--accent); border-radius: 3px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Rigarr</div>
+    <div class="nav">
+      <a href="raiox_clientes.html">Raio X Clientes</a>
+      <a href="raiox_vendedores.html">Raio X Vendedores</a>
+      <a href="raiox_industrias.html">Raio X Indústrias</a>
+      <a href="index.html">← Painel</a>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="titulo">Raio X do Cliente</div>
+    <div class="atualizacao" id="atualizacao">Carregando…</div>
+
+    <div class="busca-wrap">
+      <input type="text" id="busca" placeholder="Buscar cliente por nome...">
+      <div class="sugestoes" id="sugestoes"></div>
+    </div>
+
+    <div id="conteudo"></div>
+  </div>
+
+  <script>
+    const brl = v => new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL', maximumFractionDigits: 0 }).format(v);
+    const data = RAIOX_CLIENTE_DETALHE_DATA;
+    document.getElementById('atualizacao').textContent = `Atualizado em ${data.atualizado_em}`;
+
+    const params = new URLSearchParams(location.search);
+    const ramoFiltro = params.get('ramo') || '';
+    let clienteAtual = null;
+
+    function listaBase() {
+      return ramoFiltro ? data.clientes.filter(c => c.ramo === ramoFiltro) : data.clientes;
+    }
+
+    function renderSugestoes(termo) {
+      const box = document.getElementById('sugestoes');
+      const q = termo.trim().toUpperCase();
+      if (!q) { box.classList.remove('aberto'); box.innerHTML = ''; return; }
+      const resultados = listaBase()
+        .filter(c => c.nome.toUpperCase().includes(q) || c.razao_social.toUpperCase().includes(q))
+        .slice(0, 30);
+      if (!resultados.length) {
+        box.innerHTML = '<div class="sugestao-item" style="color:var(--muted)">Nenhum cliente encontrado.</div>';
+        box.classList.add('aberto');
+        return;
+      }
+      box.innerHTML = resultados.map(c => `
+        <div class="sugestao-item" data-codcli="${c.codcli}">
+          <div class="sugestao-nome">${c.nome}</div>
+          <div class="sugestao-meta">${c.ramo} · ${c.cidade} · Cód. ${c.codcli}</div>
+        </div>
+      `).join('');
+      box.classList.add('aberto');
+      box.querySelectorAll('.sugestao-item[data-codcli]').forEach(el => {
+        el.addEventListener('click', () => selecionarCliente(parseInt(el.dataset.codcli, 10)));
+      });
+    }
+
+    document.getElementById('busca').addEventListener('input', function () {
+      renderSugestoes(this.value);
+    });
+    document.addEventListener('click', e => {
+      if (!e.target.closest('.busca-wrap')) document.getElementById('sugestoes').classList.remove('aberto');
+    });
+
+    function selecionarCliente(codcli) {
+      const c = data.clientes.find(x => x.codcli === codcli);
+      if (!c) return;
+      clienteAtual = c;
+      document.getElementById('busca').value = c.nome;
+      document.getElementById('sugestoes').classList.remove('aberto');
+      history.replaceState(null, '', `?codcli=${codcli}${ramoFiltro ? '&ramo=' + encodeURIComponent(ramoFiltro) : ''}`);
+      renderFicha(c);
+    }
+
+    function renderFicha(c) {
+      const vendedores = c.vendedores_cadastro.map(v => `${v.nome} (${v.rca})`).join(', ') || 'Sem vendedor cadastrado';
+
+      const meses = data.meses_com_dado.map(m => ({ mes: m, valor: c.por_mes[m] || 0 }));
+      const maxMes = Math.max(...meses.map(m => m.valor), 1);
+      const mesesHtml = meses.map(m => `
+        <div class="mes-col">
+          <div class="mes-bar-bg"><div class="mes-bar" style="height:${Math.max(m.valor / maxMes * 100, 2)}%" title="${brl(m.valor)}"></div></div>
+          <div class="mes-label">${m.mes.slice(5)}</div>
+        </div>
+      `).join('');
+
+      const industriasHtml = (c.top_industrias || []).map(i => `
+        <tr>
+          <td>${i.fantasia}</td>
+          <td>${brl(i.faturamento)}</td>
+          <td>${i.pct}%<span class="part-bar-bg"><span class="part-bar-fill" style="width:${Math.min(i.pct * 2, 100)}%"></span></span></td>
+        </tr>
+      `).join('') || '<tr><td colspan="3" style="color:var(--muted)">Sem compras no período.</td></tr>';
+
+      const vendedoresVendaHtml = (c.top_vendedores || []).map(v => `
+        <tr><td>${v.nome}</td><td style="color:var(--muted)">${v.rca}</td><td>${brl(v.faturamento)}</td></tr>
+      `).join('') || '<tr><td colspan="3" style="color:var(--muted)">Sem dados.</td></tr>';
+
+      document.getElementById('conteudo').innerHTML = `
+        <div class="ficha-header">
+          <div>
+            <div class="ficha-nome">${c.nome}</div>
+            <div class="ficha-razao">${c.razao_social} · Cód. ${c.codcli}</div>
+            <div class="ficha-tags">
+              <span class="tag">${c.ramo}</span>
+              <span class="tag">${c.cidade}</span>
+              <span class="tag">${vendedores}</span>
+              <span class="tag">Última compra: ${c.ultima_compra || 'N/D'}</span>
+            </div>
+          </div>
+          <button class="btn-extrair" onclick="extrairCliente()">&#128190; Extrair CSV</button>
+        </div>
+
+        <div class="kpi-row">
+          <div class="kpi-card"><div class="kpi-label">Faturamento YTD</div><div class="kpi-valor">${brl(c.faturamento_ytd)}</div></div>
+          <div class="kpi-card"><div class="kpi-label">Média mensal</div><div class="kpi-valor">${brl(c.media_mensal)}</div></div>
+          <div class="kpi-card"><div class="kpi-label">Meses ativos</div><div class="kpi-valor">${Object.keys(c.por_mes).length} / ${data.meses_com_dado.length}</div></div>
+        </div>
+
+        <div class="card">
+          <div class="card-titulo">Histórico mensal de compras</div>
+          <div class="meses-chart">${mesesHtml}</div>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <div class="card-titulo">Faturamento por indústria</div>
+            <table>
+              <thead><tr><th>Indústria</th><th>Faturamento</th><th>Participação</th></tr></thead>
+              <tbody>${industriasHtml}</tbody>
+            </table>
+          </div>
+          <div class="card">
+            <div class="card-titulo">Faturamento por vendedor</div>
+            <table>
+              <thead><tr><th>Vendedor</th><th>RCA</th><th>Faturamento</th></tr></thead>
+              <tbody>${vendedoresVendaHtml}</tbody>
+            </table>
+          </div>
+        </div>
+      `;
+    }
+
+    function extrairCliente() {
+      if (!clienteAtual) return;
+      const c = clienteAtual;
+      const linhas = [['Mês', 'Faturamento']];
+      data.meses_com_dado.forEach(m => linhas.push([m, (c.por_mes[m] || 0).toFixed(2).replace('.', ',')]));
+      linhas.push([]);
+      linhas.push(['Indústria', 'Faturamento', 'Participação %']);
+      (c.top_industrias || []).forEach(i => linhas.push([i.fantasia, i.faturamento.toFixed(2).replace('.', ','), i.pct]));
+      linhas.push([]);
+      linhas.push(['Vendedor', 'RCA', 'Faturamento']);
+      (c.top_vendedores || []).forEach(v => linhas.push([v.nome, v.rca, v.faturamento.toFixed(2).replace('.', ',')]));
+
+      const csv = linhas.map(l => l.map(v => `"${String(v ?? '').replace(/"/g, '""')}"`).join(';')).join('\n');
+      const blob = new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `raiox_cliente_${c.codcli}_${c.nome.replace(/[^a-z0-9]+/gi, '_')}.csv`;
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    document.getElementById('conteudo').innerHTML = '<div class="sem-selecao">Busque um cliente pelo nome acima para ver o Raio X completo.</div>';
+
+    const codcliUrl = params.get('codcli');
+    if (codcliUrl) selecionarCliente(parseInt(codcliUrl, 10));
+  </script>
+</body>
+</html>

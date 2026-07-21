@@ -58,6 +58,11 @@
     tr:hover td { background: #1f2233; }
     .part-bar-bg { display: inline-block; width: 60px; height: 5px; background: #2d3144; border-radius: 3px; overflow: hidden; margin-left: 8px; vertical-align: middle; }
     .part-bar-fill { height: 100%; background: var(--accent); border-radius: 3px; }
+    .btn-ver {
+      font-size: .74rem; color: var(--accent); text-decoration: none; white-space: nowrap;
+      border: 1px solid var(--border); border-radius: 7px; padding: 4px 9px; transition: all .15s;
+    }
+    .btn-ver:hover { border-color: var(--accent); background: rgba(245,197,24,.08); }
   </style>
 </head>
 <body>
@@ -90,6 +95,7 @@
           <th>Participação</th>
           <th>Faturamento (mês atual)</th>
           <th>Clientes positivados</th>
+          <th></th>
         </tr>
       </thead>
       <tbody id="tbody"></tbody>
@@ -116,8 +122,9 @@
           <td>${f.participacao_pct}%<span class="part-bar-bg"><span class="part-bar-fill" style="width:${Math.min(f.participacao_pct * 4, 100)}%"></span></span></td>
           <td>${brl(f.faturamento_mes_atual)}</td>
           <td>${f.clientes_positivados}</td>
+          <td><a class="btn-ver" href="raiox_industria_detalhe.html?fornecedor=${encodeURIComponent(f.fantasia)}">Ver detalhe →</a></td>
         </tr>
-      `).join('') || '<tr><td colspan="6" style="color:var(--muted)">Nenhum fornecedor encontrado.</td></tr>';
+      `).join('') || '<tr><td colspan="7" style="color:var(--muted)">Nenhum fornecedor encontrado.</td></tr>';
     }
     render(data.fornecedores);
 

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raio X do Vendedor — Rigarr</title>
+  <script src="auth.js"></script>
+  <script src="raiox_vendedor_detalhe_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --accent: #f5c518;
+      --text: #e2e8f0; --muted: #94a3b8; --border: #2d3144;
+    }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh; padding: 0 0 48px;
+    }
+    header {
+      background: var(--card); border-bottom: 1px solid var(--border);
+      padding: 16px 24px; display: flex; align-items: center; gap: 16px;
+      flex-wrap: wrap;
+    }
+    .logo { font-size: 1.05rem; font-weight: 800; color: var(--accent); }
+    .nav { display: flex; gap: 8px; margin-left: auto; flex-wrap: wrap; }
+    .nav a {
+      color: var(--muted); text-decoration: none; font-size: .82rem;
+      padding: 6px 12px; border-radius: 7px; border: 1px solid var(--border);
+      transition: all .15s;
+    }
+    .nav a:hover, .nav a.ativo { border-color: var(--accent); color: var(--accent); }
+    .container { max-width: 1100px; margin: 0 auto; padding: 24px 20px; }
+    .titulo { font-size: 1.3rem; font-weight: 800; margin-bottom: 4px; }
+    .atualizacao { font-size: .78rem; color: var(--muted); margin-bottom: 20px; }
+
+    .filtro-wrap { max-width: 380px; margin-bottom: 20px; display: flex; flex-direction: column; gap: 5px; }
+    .filtro-wrap label { font-size: .68rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+    .filtro-wrap select {
+      padding: 10px 12px; border-radius: 8px; border: 1px solid var(--border);
+      background: var(--card); color: var(--text); font-size: .9rem; outline: none;
+    }
+    .filtro-wrap select:focus { border-color: var(--accent); }
+
+    .sem-selecao { color: var(--muted); text-align: center; padding: 60px 20px; }
+
+    .ficha-header {
+      background: var(--card); border: 1px solid var(--border); border-radius: 14px;
+      padding: 20px 22px; margin-bottom: 20px; display: flex; justify-content: space-between;
+      align-items: flex-start; gap: 16px; flex-wrap: wrap;
+    }
+    .ficha-nome { font-size: 1.15rem; font-weight: 800; }
+    .ficha-tags { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+    .tag {
+      font-size: .72rem; padding: 3px 10px; border-radius: 20px; border: 1px solid var(--border);
+      color: var(--muted);
+    }
+    .btn-extrair {
+      background: var(--accent); color: #111; border: none; border-radius: 8px;
+      padding: 9px 16px; font-size: .82rem; font-weight: 700; cursor: pointer; white-space: nowrap;
+    }
+    .btn-extrair:hover { background: #d4a90e; }
+
+    .kpi-row { display: flex; gap: 18px; flex-wrap: wrap; margin-bottom: 20px; }
+    .kpi-card {
+      background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+      padding: 14px 18px; min-width: 140px; flex: 1;
+    }
+    .kpi-label { font-size: .68rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 4px; }
+    .kpi-valor { font-size: 1.2rem; font-weight: 800; }
+
+    .grid-2 { display: grid; grid-template-columns: 1.2fr 1fr; gap: 18px; }
+    @media (max-width: 850px) { .grid-2 { grid-template-columns: 1fr; } }
+    .card {
+      background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 20px;
+      margin-bottom: 18px;
+    }
+    .card-titulo { font-size: .7rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 14px; }
+    .meses-chart { display: flex; gap: 6px; align-items: flex-end; height: 120px; }
+    .mes-col { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 6px; }
+    .mes-bar-bg { width: 100%; height: 90px; display: flex; align-items: flex-end; }
+    .mes-bar { width: 100%; background: var(--accent); border-radius: 3px 3px 0 0; opacity: .85; min-height: 2px; }
+    .mes-label { font-size: .62rem; color: var(--muted); }
+
+    table { width: 100%; border-collapse: collapse; }
+    th {
+      text-align: left; font-size: .68rem; color: var(--muted); text-transform: uppercase;
+      letter-spacing: .05em; padding: 6px 8px; border-bottom: 1px solid var(--border);
+    }
+    td { padding: 7px 8px; font-size: .85rem; border-bottom: 1px solid #232738; }
+    th:last-child, td:last-child { text-align: right; }
+    .part-bar-bg { display: inline-block; width: 50px; height: 5px; background: #2d3144; border-radius: 3px; overflow: hidden; margin-left: 6px; vertical-align: middle; }
+    .part-bar-fill { height: 100%; background: var(--accent); border-radius: 3px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Rigarr</div>
+    <div class="nav">
+      <a href="raiox_clientes.html">Raio X Clientes</a>
+      <a href="raiox_vendedores.html">Raio X Vendedores</a>
+      <a href="raiox_industrias.html">Raio X Indústrias</a>
+      <a href="index.html">← Painel</a>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="titulo">Raio X do Vendedor</div>
+    <div class="atualizacao" id="atualizacao">Carregando…</div>
+
+    <div class="filtro-wrap">
+      <label for="sel-vendedor">Selecionar vendedor</label>
+      <select id="sel-vendedor"></select>
+    </div>
+
+    <div id="conteudo"></div>
+  </div>
+
+  <script>
+    const brl = v => new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL', maximumFractionDigits: 0 }).format(v);
+    const data = RAIOX_VENDEDOR_DETALHE_DATA;
+    document.getElementById('atualizacao').textContent = `Atualizado em ${data.atualizado_em}`;
+
+    const params = new URLSearchParams(location.search);
+    let vendedorAtual = null;
+
+    function montaFiltro(rcaSelecionado) {
+      const sel = document.getElementById('sel-vendedor');
+      sel.innerHTML = ['<option value="">Selecione...</option>']
+        .concat(data.vendedores.map(v => `<option value="${v.rca}">${v.nome} — ${v.time_label} (${v.rca})</option>`))
+        .join('');
+      sel.value = rcaSelecionado || '';
+      sel.addEventListener('change', () => selecionarVendedor(parseInt(sel.value, 10)));
+    }
+
+    function selecionarVendedor(rca) {
+      const v = data.vendedores.find(x => x.rca === rca);
+      if (!v) return;
+      vendedorAtual = v;
+      document.getElementById('sel-vendedor').value = String(rca);
+      history.replaceState(null, '', `?rca=${rca}`);
+      renderFicha(v);
+    }
+
+    function renderFicha(v) {
+      const meses = data.meses_com_dado.map(m => ({ mes: m, valor: v.por_mes[m] || 0 }));
+      const maxMes = Math.max(...meses.map(m => m.valor), 1);
+      const mesesHtml = meses.map(m => `
+        <div class="mes-col">
+          <div class="mes-bar-bg"><div class="mes-bar" style="height:${Math.max(m.valor / maxMes * 100, 2)}%" title="${brl(m.valor)}"></div></div>
+          <div class="mes-label">${m.mes.slice(5)}</div>
+        </div>
+      `).join('');
+
+      const industriasHtml = (v.top_industrias || []).map(i => `
+        <tr>
+          <td>${i.fantasia}</td>
+          <td>${brl(i.faturamento)}</td>
+          <td>${i.pct}%<span class="part-bar-bg"><span class="part-bar-fill" style="width:${Math.min(i.pct * 2, 100)}%"></span></span></td>
+        </tr>
+      `).join('') || '<tr><td colspan="3" style="color:var(--muted)">Sem dados.</td></tr>';
+
+      const clientesHtml = (v.top_clientes || []).map(c => `
+        <tr><td>${c.nome}</td><td style="color:var(--muted)">${c.codcli}</td><td>${brl(c.faturamento)}</td></tr>
+      `).join('') || '<tr><td colspan="3" style="color:var(--muted)">Sem dados.</td></tr>';
+
+      document.getElementById('conteudo').innerHTML = `
+        <div class="ficha-header">
+          <div>
+            <div class="ficha-nome">${v.nome}</div>
+            <div class="ficha-tags">
+              <span class="tag">RCA ${v.rca}</span>
+              <span class="tag">${v.time_label}</span>
+              <span class="tag">${v.total_clientes_ativos} clientes ativos no período</span>
+            </div>
+          </div>
+          <button class="btn-extrair" onclick="extrairVendedor()">&#128190; Extrair CSV</button>
+        </div>
+
+        <div class="kpi-row">
+          <div class="kpi-card"><div class="kpi-label">Faturamento YTD</div><div class="kpi-valor">${brl(v.faturamento_ytd)}</div></div>
+          <div class="kpi-card"><div class="kpi-label">Média mensal</div><div class="kpi-valor">${brl(v.media_mensal)}</div></div>
+          <div class="kpi-card"><div class="kpi-label">Melhor indústria</div><div class="kpi-valor" style="font-size:.95rem">${(v.top_industrias[0] || {}).fantasia || 'N/D'}</div></div>
+          <div class="kpi-card"><div class="kpi-label">Melhor cliente</div><div class="kpi-valor" style="font-size:.95rem">${(v.top_clientes[0] || {}).nome || 'N/D'}</div></div>
+        </div>
+
+        <div class="card">
+          <div class="card-titulo">Evolução mensal do faturamento</div>
+          <div class="meses-chart">${mesesHtml}</div>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <div class="card-titulo">Indústrias que mais vende</div>
+            <table>
+              <thead><tr><th>Indústria</th><th>Faturamento</th><th>Participação</th></tr></thead>
+              <tbody>${industriasHtml}</tbody>
+            </table>
+          </div>
+          <div class="card">
+            <div class="card-titulo">Melhores clientes</div>
+            <table>
+              <thead><tr><th>Cliente</th><th>Cód.</th><th>Faturamento</th></tr></thead>
+              <tbody>${clientesHtml}</tbody>
+            </table>
+          </div>
+        </div>
+      `;
+    }
+
+    function extrairVendedor() {
+      if (!vendedorAtual) return;
+      const v = vendedorAtual;
+      const linhas = [['Mês', 'Faturamento']];
+      data.meses_com_dado.forEach(m => linhas.push([m, (v.por_mes[m] || 0).toFixed(2).replace('.', ',')]));
+      linhas.push([]);
+      linhas.push(['Indústria', 'Faturamento', 'Participação %']);
+      (v.top_industrias || []).forEach(i => linhas.push([i.fantasia, i.faturamento.toFixed(2).replace('.', ','), i.pct]));
+      linhas.push([]);
+      linhas.push(['Cliente', 'Código', 'Faturamento']);
+      (v.top_clientes || []).forEach(c => linhas.push([c.nome, c.codcli, c.faturamento.toFixed(2).replace('.', ',')]));
+
+      const csv = linhas.map(l => l.map(x => `"${String(x ?? '').replace(/"/g, '""')}"`).join(';')).join('\n');
+      const blob = new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `raiox_vendedor_${v.rca}_${v.nome.replace(/[^a-z0-9]+/gi, '_')}.csv`;
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    document.getElementById('conteudo').innerHTML = '<div class="sem-selecao">Selecione um vendedor acima para ver o Raio X completo.</div>';
+
+    const rcaUrl = params.get('rca');
+    montaFiltro(rcaUrl || '');
+    if (rcaUrl) selecionarVendedor(parseInt(rcaUrl, 10));
+  </script>
+</body>
+</html>
