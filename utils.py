@@ -19,14 +19,23 @@ REDIRECT_URI  = "https://offtrade.duckdns.org/"
 AUTHORIZE_URL = "https://accounts.google.com/o/oauth2/v2/auth"
 TOKEN_URL     = "https://oauth2.googleapis.com/token"
 
+# Mantida em sincronia manual com EMAILS_OK em login.html — as duas listas
+# ficaram divergentes por um tempo e bloqueavam gestores autorizados no site
+# estático quando entravam no Streamlit (confirmado em 2026-07-21).
 EMAILS_ADMIN = {
+    "danielle.soares@rigarr.com.br",
+    "allan.correa@rigarr.com.br",
+    "leonardo.campos@rigarr.com.br",
     "alexsandro.nunes@rigarr.com.br",
     "giovani.cabral@rigarr.com.br",
     "kaliel.caro@rigarr.com.br",
     "artur.furlan@rigarr.com.br",
     "daniel.diniz@rigarr.com.br",
-    "allan.correa@rigarr.com.br",
     "marcus.tanamachi@rigarr.com.br",
+    "geovanna.lescano@rigarr.com.br",
+    "fernando.risson@rigarr.com.br",
+    "erocles.oliveira@rigarr.com.br",
+    "andre.massensini@rigarr.com.br",
 }
 
 ORACLE_LIB = os.getenv("ORACLE_LIB", "/opt/oracle/instantclient_21_1")

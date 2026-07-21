@@ -234,6 +234,16 @@
         return;
       }
       sessionStorage.setItem('rg_auth', AUTH_HASH);
+
+      // SSO com o Streamlit (Credito_e_Cadastro, Admin_Metas): mesmo domínio
+      // (nginx roteia tudo por offtrade.duckdns.org), então um cookie aqui já
+      // é lido por require_auth() do lado do Streamlit (CookieController lê
+      // "offtrade_token" no mesmo formato que o próprio login OAuth2 salva) —
+      // sem isso, era preciso logar de novo ao entrar nessas páginas.
+      const ssoToken = JSON.stringify({ id_token: response.credential });
+      document.cookie = 'offtrade_token=' + encodeURIComponent(ssoToken) +
+        '; path=/; max-age=' + (60 * 60 * 8) + '; SameSite=Lax; Secure';
+
       const redir = sessionStorage.getItem('rg_redirect') || '';
       sessionStorage.removeItem('rg_redirect');
       location.replace(redir || 'index.html');
