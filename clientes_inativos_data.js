@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "21/07/2026 12:32",
+  "atualizado_em": "21/07/2026 14:46",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -34,7 +34,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "22/04/2026",
           "dias": 90,
-          "media": 80.81
+          "media": 0.0
         },
         {
           "codcli": "548",
@@ -43,7 +43,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "22/04/2026",
           "dias": 90,
-          "media": 63.12
+          "media": 0.0
         },
         {
           "codcli": "94401",
@@ -52,7 +52,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "22/04/2026",
           "dias": 90,
-          "media": 51.48
+          "media": 0.0
         },
         {
           "codcli": "92284",
@@ -70,7 +70,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "27/04/2026",
           "dias": 85,
-          "media": 661.44
+          "media": 0.0
         },
         {
           "codcli": "90993",
@@ -79,7 +79,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "28/04/2026",
           "dias": 84,
-          "media": 245.28
+          "media": 0.0
         },
         {
           "codcli": "94263",
@@ -97,7 +97,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/04/2026",
           "dias": 83,
-          "media": 23.92
+          "media": 0.0
         },
         {
           "codcli": "94793",
@@ -106,7 +106,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/04/2026",
           "dias": 83,
-          "media": 47.84
+          "media": 0.0
         },
         {
           "codcli": "91413",
@@ -115,7 +115,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/04/2026",
           "dias": 83,
-          "media": 27.56
+          "media": 0.0
         },
         {
           "codcli": "94808",
@@ -124,7 +124,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/04/2026",
           "dias": 82,
-          "media": 15.97
+          "media": 0.0
         },
         {
           "codcli": "94206",
@@ -133,7 +133,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "02/05/2026",
           "dias": 80,
-          "media": 165.08
+          "media": 0.0
         },
         {
           "codcli": "94818",
@@ -142,7 +142,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "02/05/2026",
           "dias": 80,
-          "media": 55.12
+          "media": 0.0
         },
         {
           "codcli": "91161",
@@ -151,7 +151,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "04/05/2026",
           "dias": 78,
-          "media": 76.43
+          "media": 0.0
         },
         {
           "codcli": "91254",
@@ -160,7 +160,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "04/05/2026",
           "dias": 78,
-          "media": 72.24
+          "media": 0.0
         },
         {
           "codcli": "91644",
@@ -169,7 +169,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "05/05/2026",
           "dias": 77,
-          "media": 23.92
+          "media": 0.0
         },
         {
           "codcli": "94419",
@@ -178,7 +178,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "06/05/2026",
           "dias": 76,
-          "media": 187.26
+          "media": 0.0
         },
         {
           "codcli": "91091",
@@ -187,7 +187,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "06/05/2026",
           "dias": 76,
-          "media": 90.4
+          "media": 0.0
         },
         {
           "codcli": "84064",
@@ -196,7 +196,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "07/05/2026",
           "dias": 75,
-          "media": 1096.19
+          "media": 0.0
         },
         {
           "codcli": "94777",
@@ -205,7 +205,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "07/05/2026",
           "dias": 75,
-          "media": 1509.47
+          "media": 0.0
         },
         {
           "codcli": "92326",
@@ -214,7 +214,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/05/2026",
           "dias": 71,
-          "media": 61.8
+          "media": 0.0
         },
         {
           "codcli": "76914",
@@ -223,7 +223,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/05/2026",
           "dias": 71,
-          "media": 48.89
+          "media": 0.0
         },
         {
           "codcli": "94407",
@@ -232,7 +232,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "13/05/2026",
           "dias": 69,
-          "media": 81.39
+          "media": 0.0
         },
         {
           "codcli": "94449",
@@ -241,7 +241,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "14/05/2026",
           "dias": 68,
-          "media": 301.58
+          "media": 0.0
         },
         {
           "codcli": "94980",
@@ -268,7 +268,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "15/05/2026",
           "dias": 67,
-          "media": 23.92
+          "media": 0.0
         },
         {
           "codcli": "93696",
@@ -277,7 +277,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "18/05/2026",
           "dias": 64,
-          "media": 111.05
+          "media": 0.0
         },
         {
           "codcli": "93452",
@@ -286,7 +286,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "19/05/2026",
           "dias": 63,
-          "media": 15.97
+          "media": 0.0
         },
         {
           "codcli": "94820",
@@ -295,7 +295,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "21/05/2026",
           "dias": 61,
-          "media": 316.92
+          "media": 0.0
         },
         {
           "codcli": "93997",
@@ -304,7 +304,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "22/05/2026",
           "dias": 60,
-          "media": 204.76
+          "media": 0.0
         },
         {
           "codcli": "2511",
@@ -313,7 +313,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "25/05/2026",
           "dias": 57,
-          "media": 851.29
+          "media": 0.0
         },
         {
           "codcli": "90876",
@@ -322,7 +322,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "26/05/2026",
           "dias": 56,
-          "media": 85.6
+          "media": 0.0
         },
         {
           "codcli": "19666",
@@ -331,7 +331,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "27/05/2026",
           "dias": 55,
-          "media": 217.59
+          "media": 0.0
         },
         {
           "codcli": "91410",
@@ -340,7 +340,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "27/05/2026",
           "dias": 55,
-          "media": 37.31
+          "media": 0.0
         },
         {
           "codcli": "76961",
@@ -349,7 +349,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "28/05/2026",
           "dias": 54,
-          "media": 110.87
+          "media": 0.0
         },
         {
           "codcli": "93767",
@@ -358,7 +358,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "02/06/2026",
           "dias": 49,
-          "media": 102.81
+          "media": 0.0
         },
         {
           "codcli": "94266",
@@ -367,7 +367,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "08/06/2026",
           "dias": 43,
-          "media": 578.03
+          "media": 0.0
         },
         {
           "codcli": "92917",
@@ -376,7 +376,7 @@ const INATIVOS_DATA = {
           "cidade": "SAQUAREMA",
           "dtultcomp": "08/06/2026",
           "dias": 43,
-          "media": 966.05
+          "media": 0.0
         },
         {
           "codcli": "89433",
@@ -385,7 +385,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "08/06/2026",
           "dias": 43,
-          "media": 34.13
+          "media": 0.0
         },
         {
           "codcli": "93630",
@@ -394,7 +394,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "09/06/2026",
           "dias": 42,
-          "media": 358.43
+          "media": 0.0
         },
         {
           "codcli": "91317",
@@ -403,7 +403,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/06/2026",
           "dias": 40,
-          "media": 309.58
+          "media": 0.0
         },
         {
           "codcli": "93414",
@@ -412,7 +412,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "12/06/2026",
           "dias": 39,
-          "media": 71.76
+          "media": 0.0
         },
         {
           "codcli": "90866",
@@ -421,7 +421,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "15/06/2026",
           "dias": 36,
-          "media": 352.06
+          "media": 0.0
         },
         {
           "codcli": "92207",
@@ -430,7 +430,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "15/06/2026",
           "dias": 36,
-          "media": 472.08
+          "media": 0.0
         },
         {
           "codcli": "94813",
@@ -439,7 +439,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "15/06/2026",
           "dias": 36,
-          "media": 151.37
+          "media": 0.0
         },
         {
           "codcli": "91330",
@@ -448,7 +448,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "16/06/2026",
           "dias": 35,
-          "media": 824.11
+          "media": 0.0
         },
         {
           "codcli": "91332",
@@ -457,7 +457,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "16/06/2026",
           "dias": 35,
-          "media": 262.16
+          "media": 0.0
         },
         {
           "codcli": "91378",
@@ -466,7 +466,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "16/06/2026",
           "dias": 35,
-          "media": 109.74
+          "media": 0.0
         },
         {
           "codcli": "94985",
@@ -475,7 +475,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "16/06/2026",
           "dias": 35,
-          "media": 173.09
+          "media": 0.0
         },
         {
           "codcli": "94392",
@@ -484,7 +484,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "16/06/2026",
           "dias": 35,
-          "media": 99.96
+          "media": 0.0
         },
         {
           "codcli": "91243",
@@ -493,7 +493,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "17/06/2026",
           "dias": 34,
-          "media": 473.78
+          "media": 0.0
         },
         {
           "codcli": "95008",
@@ -502,7 +502,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "17/06/2026",
           "dias": 34,
-          "media": 424.49
+          "media": 0.0
         },
         {
           "codcli": "95427",
@@ -511,7 +511,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "18/06/2026",
           "dias": 33,
-          "media": 358.15
+          "media": 0.0
         },
         {
           "codcli": "86899",
@@ -520,7 +520,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "18/06/2026",
           "dias": 33,
-          "media": 180.33
+          "media": 0.0
         },
         {
           "codcli": "76809",
@@ -529,10 +529,20 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "18/06/2026",
           "dias": 33,
-          "media": 67.8
+          "media": 0.0
         }
       ],
-      "novos": []
+      "novos": [
+        {
+          "codcli": "95753",
+          "cliente": "PANIFICADORA IMPERIO ELLISCH E KELLER LTDA",
+          "bairro": "CAMPO GRANDE",
+          "cidade": "RIO DE JANEIRO",
+          "dtcadastro": "21/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        }
+      ]
     },
     "ANA CLARA FASSANO - OFF TRADE": {
       "rca": "471",
@@ -556,7 +566,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/05/2026",
           "dias": 71,
-          "media": 266.16
+          "media": 0.0
         },
         {
           "codcli": "3435",
@@ -565,7 +575,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "19/05/2026",
           "dias": 63,
-          "media": 364.1
+          "media": 0.0
         },
         {
           "codcli": "95074",
@@ -583,7 +593,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "26/05/2026",
           "dias": 56,
-          "media": 130.56
+          "media": 0.0
         },
         {
           "codcli": "93996",
@@ -592,7 +602,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "26/05/2026",
           "dias": 56,
-          "media": 314.83
+          "media": 0.0
         },
         {
           "codcli": "20697",
@@ -601,7 +611,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/05/2026",
           "dias": 53,
-          "media": 489.24
+          "media": 0.0
         },
         {
           "codcli": "10734",
@@ -610,7 +620,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "03/06/2026",
           "dias": 48,
-          "media": 131.2
+          "media": 0.0
         },
         {
           "codcli": "95208",
@@ -619,7 +629,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "04/06/2026",
           "dias": 47,
-          "media": 528.0
+          "media": 0.0
         },
         {
           "codcli": "93757",
@@ -628,7 +638,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "09/06/2026",
           "dias": 42,
-          "media": 852.21
+          "media": 0.0
         },
         {
           "codcli": "3602",
@@ -637,7 +647,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "10/06/2026",
           "dias": 41,
-          "media": 241.46
+          "media": 0.0
         },
         {
           "codcli": "94417",
@@ -646,7 +656,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/06/2026",
           "dias": 40,
-          "media": 847.5
+          "media": 0.0
         },
         {
           "codcli": "1311",
@@ -655,7 +665,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "16/06/2026",
           "dias": 35,
-          "media": 364.67
+          "media": 0.0
         }
       ],
       "novos": [
@@ -791,7 +801,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "22/04/2026",
           "dias": 90,
-          "media": 70.57
+          "media": 0.0
         },
         {
           "codcli": "15053",
@@ -800,7 +810,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "24/04/2026",
           "dias": 88,
-          "media": 200.53
+          "media": 0.0
         },
         {
           "codcli": "76806",
@@ -809,7 +819,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "27/04/2026",
           "dias": 85,
-          "media": 75.13
+          "media": 0.0
         },
         {
           "codcli": "89945",
@@ -818,7 +828,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/04/2026",
           "dias": 83,
-          "media": 88.73
+          "media": 0.0
         },
         {
           "codcli": "79479",
@@ -827,7 +837,7 @@ const INATIVOS_DATA = {
           "cidade": "NOVA IGUACU",
           "dtultcomp": "04/05/2026",
           "dias": 78,
-          "media": 67.2
+          "media": 0.0
         },
         {
           "codcli": "94238",
@@ -836,7 +846,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "04/05/2026",
           "dias": 78,
-          "media": 45.37
+          "media": 0.0
         },
         {
           "codcli": "91905",
@@ -845,7 +855,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "06/05/2026",
           "dias": 76,
-          "media": 52.91
+          "media": 0.0
         },
         {
           "codcli": "79324",
@@ -854,7 +864,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "06/05/2026",
           "dias": 76,
-          "media": 442.93
+          "media": 0.0
         },
         {
           "codcli": "89938",
@@ -863,7 +873,7 @@ const INATIVOS_DATA = {
           "cidade": "NITEROI",
           "dtultcomp": "12/05/2026",
           "dias": 70,
-          "media": 101.35
+          "media": 0.0
         },
         {
           "codcli": "89952",
@@ -872,7 +882,7 @@ const INATIVOS_DATA = {
           "cidade": "SAQUAREMA",
           "dtultcomp": "13/05/2026",
           "dias": 69,
-          "media": 62.52
+          "media": 0.0
         },
         {
           "codcli": "94235",
@@ -881,7 +891,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "13/05/2026",
           "dias": 69,
-          "media": 335.21
+          "media": 0.0
         },
         {
           "codcli": "79253",
@@ -890,7 +900,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "14/05/2026",
           "dias": 68,
-          "media": 346.03
+          "media": 0.0
         },
         {
           "codcli": "78327",
@@ -899,7 +909,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "14/05/2026",
           "dias": 68,
-          "media": 209.37
+          "media": 0.0
         },
         {
           "codcli": "81055",
@@ -908,7 +918,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "20/05/2026",
           "dias": 62,
-          "media": 60.43
+          "media": 0.0
         },
         {
           "codcli": "90883",
@@ -917,7 +927,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "25/05/2026",
           "dias": 57,
-          "media": 237.03
+          "media": 0.0
         },
         {
           "codcli": "89949",
@@ -926,7 +936,7 @@ const INATIVOS_DATA = {
           "cidade": "NILOPOLIS",
           "dtultcomp": "26/05/2026",
           "dias": 56,
-          "media": 640.29
+          "media": 0.0
         },
         {
           "codcli": "82480",
@@ -944,7 +954,7 @@ const INATIVOS_DATA = {
           "cidade": "ITAGUAI",
           "dtultcomp": "29/05/2026",
           "dias": 53,
-          "media": 1367.13
+          "media": 0.0
         },
         {
           "codcli": "95175",
@@ -953,7 +963,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/05/2026",
           "dias": 53,
-          "media": 103.13
+          "media": 0.0
         },
         {
           "codcli": "80157",
@@ -962,7 +972,7 @@ const INATIVOS_DATA = {
           "cidade": "SEROPEDICA",
           "dtultcomp": "05/06/2026",
           "dias": 46,
-          "media": 7633.57
+          "media": 0.0
         },
         {
           "codcli": "82911",
@@ -971,7 +981,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "08/06/2026",
           "dias": 43,
-          "media": 367.44
+          "media": 0.0
         },
         {
           "codcli": "94495",
@@ -980,7 +990,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "08/06/2026",
           "dias": 43,
-          "media": 163.49
+          "media": 0.0
         },
         {
           "codcli": "90885",
@@ -989,7 +999,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "10/06/2026",
           "dias": 41,
-          "media": 192.98
+          "media": 0.0
         },
         {
           "codcli": "89940",
@@ -998,7 +1008,7 @@ const INATIVOS_DATA = {
           "cidade": "PETROPOLIS",
           "dtultcomp": "10/06/2026",
           "dias": 41,
-          "media": 323.12
+          "media": 0.0
         },
         {
           "codcli": "91230",
@@ -1007,7 +1017,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "10/06/2026",
           "dias": 41,
-          "media": 19740.0
+          "media": 0.0
         },
         {
           "codcli": "84274",
@@ -1016,7 +1026,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "12/06/2026",
           "dias": 39,
-          "media": 378.8
+          "media": 0.0
         },
         {
           "codcli": "76866",
@@ -1025,7 +1035,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "15/06/2026",
           "dias": 36,
-          "media": 155.8
+          "media": 0.0
         },
         {
           "codcli": "76233",
@@ -1034,7 +1044,7 @@ const INATIVOS_DATA = {
           "cidade": "SEROPEDICA",
           "dtultcomp": "15/06/2026",
           "dias": 36,
-          "media": 270.97
+          "media": 0.0
         },
         {
           "codcli": "74838",
@@ -1043,7 +1053,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "15/06/2026",
           "dias": 36,
-          "media": 4208.16
+          "media": 0.0
         },
         {
           "codcli": "89944",
@@ -1052,7 +1062,7 @@ const INATIVOS_DATA = {
           "cidade": "NITEROI",
           "dtultcomp": "15/06/2026",
           "dias": 36,
-          "media": 86.85
+          "media": 0.0
         },
         {
           "codcli": "90670",
@@ -1061,7 +1071,7 @@ const INATIVOS_DATA = {
           "cidade": "TERESOPOLIS",
           "dtultcomp": "17/06/2026",
           "dias": 34,
-          "media": 516.13
+          "media": 0.0
         }
       ],
       "novos": []
@@ -1176,7 +1186,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "10/06/2026",
           "dias": 41,
-          "media": 534.46
+          "media": 0.0
         }
       ],
       "novos": []
@@ -1266,7 +1276,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/04/2026",
           "dias": 82,
-          "media": 24.8
+          "media": 0.0
         },
         {
           "codcli": "84950",
@@ -1275,7 +1285,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/05/2026",
           "dias": 71,
-          "media": 1449.43
+          "media": 0.0
         },
         {
           "codcli": "81852",
@@ -1293,7 +1303,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "20/05/2026",
           "dias": 62,
-          "media": 1317.4
+          "media": 0.0
         },
         {
           "codcli": "94840",
@@ -1302,7 +1312,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "28/05/2026",
           "dias": 54,
-          "media": 7401.2
+          "media": 0.0
         },
         {
           "codcli": "86431",
@@ -1311,7 +1321,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "28/05/2026",
           "dias": 54,
-          "media": 604.8
+          "media": 0.0
         },
         {
           "codcli": "91706",
@@ -1320,7 +1330,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "28/05/2026",
           "dias": 54,
-          "media": 86.4
+          "media": 0.0
         },
         {
           "codcli": "86433",
@@ -1329,7 +1339,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "02/06/2026",
           "dias": 49,
-          "media": 1167.34
+          "media": 0.0
         },
         {
           "codcli": "95138",
@@ -1338,7 +1348,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "02/06/2026",
           "dias": 49,
-          "media": 276.77
+          "media": 0.0
         },
         {
           "codcli": "3863",
@@ -1347,7 +1357,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "03/06/2026",
           "dias": 48,
-          "media": 14659.43
+          "media": 0.0
         },
         {
           "codcli": "83863",
@@ -1356,7 +1366,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "09/06/2026",
           "dias": 42,
-          "media": 2472.97
+          "media": 0.0
         },
         {
           "codcli": "60369",
@@ -1365,7 +1375,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "09/06/2026",
           "dias": 42,
-          "media": 171.6
+          "media": 0.0
         },
         {
           "codcli": "86239",
@@ -1374,7 +1384,7 @@ const INATIVOS_DATA = {
           "cidade": "MIGUEL PEREIRA",
           "dtultcomp": "10/06/2026",
           "dias": 41,
-          "media": 176.12
+          "media": 0.0
         },
         {
           "codcli": "86240",
@@ -1383,7 +1393,7 @@ const INATIVOS_DATA = {
           "cidade": "MIGUEL PEREIRA",
           "dtultcomp": "10/06/2026",
           "dias": 41,
-          "media": 899.44
+          "media": 0.0
         },
         {
           "codcli": "81847",
@@ -1392,7 +1402,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/06/2026",
           "dias": 40,
-          "media": 943.73
+          "media": 0.0
         },
         {
           "codcli": "73317",
@@ -1401,7 +1411,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "17/06/2026",
           "dias": 34,
-          "media": 2188.53
+          "media": 0.0
         },
         {
           "codcli": "91995",
@@ -1410,7 +1420,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "18/06/2026",
           "dias": 33,
-          "media": 507.87
+          "media": 0.0
         },
         {
           "codcli": "85451",
@@ -1419,7 +1429,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "18/06/2026",
           "dias": 33,
-          "media": 996.33
+          "media": 0.0
         }
       ],
       "novos": [
@@ -1465,7 +1475,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "07/05/2026",
           "dias": 75,
-          "media": 50.8
+          "media": 0.0
         },
         {
           "codcli": "90261",
@@ -1474,7 +1484,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "20/05/2026",
           "dias": 62,
-          "media": 65.52
+          "media": 0.0
         },
         {
           "codcli": "8268",
@@ -1483,7 +1493,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "02/06/2026",
           "dias": 49,
-          "media": 109.2
+          "media": 0.0
         },
         {
           "codcli": "52102",
@@ -1492,7 +1502,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "04/06/2026",
           "dias": 47,
-          "media": 882.01
+          "media": 0.0
         },
         {
           "codcli": "91739",
@@ -1574,7 +1584,7 @@ const INATIVOS_DATA = {
           "cidade": "ARARUAMA",
           "dtultcomp": "29/04/2026",
           "dias": 83,
-          "media": 232.87
+          "media": 0.0
         },
         {
           "codcli": "91101",
@@ -1583,7 +1593,7 @@ const INATIVOS_DATA = {
           "cidade": "PETROPOLIS",
           "dtultcomp": "29/04/2026",
           "dias": 83,
-          "media": 598.73
+          "media": 0.0
         },
         {
           "codcli": "75791",
@@ -1592,7 +1602,7 @@ const INATIVOS_DATA = {
           "cidade": "MACAE",
           "dtultcomp": "04/05/2026",
           "dias": 78,
-          "media": 139.8
+          "media": 0.0
         },
         {
           "codcli": "93329",
@@ -1601,7 +1611,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "07/05/2026",
           "dias": 75,
-          "media": 1914.87
+          "media": 0.0
         },
         {
           "codcli": "91806",
@@ -1610,7 +1620,7 @@ const INATIVOS_DATA = {
           "cidade": "ARRAIAL DO CABO",
           "dtultcomp": "07/05/2026",
           "dias": 75,
-          "media": 2474.2
+          "media": 0.0
         },
         {
           "codcli": "81867",
@@ -1619,7 +1629,7 @@ const INATIVOS_DATA = {
           "cidade": "CABO FRIO",
           "dtultcomp": "09/05/2026",
           "dias": 73,
-          "media": 459.76
+          "media": 0.0
         },
         {
           "codcli": "92906",
@@ -1628,7 +1638,7 @@ const INATIVOS_DATA = {
           "cidade": "CABO FRIO",
           "dtultcomp": "12/05/2026",
           "dias": 70,
-          "media": 151.6
+          "media": 0.0
         },
         {
           "codcli": "80458",
@@ -1637,7 +1647,7 @@ const INATIVOS_DATA = {
           "cidade": "MACAE",
           "dtultcomp": "13/05/2026",
           "dias": 69,
-          "media": 344.16
+          "media": 0.0
         },
         {
           "codcli": "84245",
@@ -1646,7 +1656,7 @@ const INATIVOS_DATA = {
           "cidade": "ARRAIAL DO CABO",
           "dtultcomp": "13/05/2026",
           "dias": 69,
-          "media": 225.32
+          "media": 0.0
         },
         {
           "codcli": "90911",
@@ -1664,7 +1674,7 @@ const INATIVOS_DATA = {
           "cidade": "MACAE",
           "dtultcomp": "18/05/2026",
           "dias": 64,
-          "media": 275.0
+          "media": 0.0
         },
         {
           "codcli": "84857",
@@ -1673,7 +1683,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "19/05/2026",
           "dias": 63,
-          "media": 479.4
+          "media": 0.0
         },
         {
           "codcli": "85795",
@@ -1682,7 +1692,7 @@ const INATIVOS_DATA = {
           "cidade": "CASIMIRO DE ABR",
           "dtultcomp": "21/05/2026",
           "dias": 61,
-          "media": 115.6
+          "media": 0.0
         },
         {
           "codcli": "72031",
@@ -1691,7 +1701,7 @@ const INATIVOS_DATA = {
           "cidade": "ARRAIAL DO CABO",
           "dtultcomp": "21/05/2026",
           "dias": 61,
-          "media": 436.13
+          "media": 0.0
         },
         {
           "codcli": "80310",
@@ -1709,7 +1719,7 @@ const INATIVOS_DATA = {
           "cidade": "ARRAIAL DO CABO",
           "dtultcomp": "26/05/2026",
           "dias": 56,
-          "media": 543.47
+          "media": 0.0
         },
         {
           "codcli": "67322",
@@ -1727,7 +1737,7 @@ const INATIVOS_DATA = {
           "cidade": "TERESOPOLIS",
           "dtultcomp": "27/05/2026",
           "dias": 55,
-          "media": 182.05
+          "media": 0.0
         },
         {
           "codcli": "80803",
@@ -1745,7 +1755,7 @@ const INATIVOS_DATA = {
           "cidade": "MACAE",
           "dtultcomp": "27/05/2026",
           "dias": 55,
-          "media": 573.0
+          "media": 0.0
         },
         {
           "codcli": "73858",
@@ -1754,7 +1764,7 @@ const INATIVOS_DATA = {
           "cidade": "MACAE",
           "dtultcomp": "30/05/2026",
           "dias": 52,
-          "media": 514.8
+          "media": 0.0
         },
         {
           "codcli": "77976",
@@ -1763,7 +1773,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "01/06/2026",
           "dias": 50,
-          "media": 395.2
+          "media": 0.0
         },
         {
           "codcli": "79314",
@@ -1772,7 +1782,7 @@ const INATIVOS_DATA = {
           "cidade": "CABO FRIO",
           "dtultcomp": "02/06/2026",
           "dias": 49,
-          "media": 119.0
+          "media": 0.0
         },
         {
           "codcli": "94014",
@@ -1781,7 +1791,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "02/06/2026",
           "dias": 49,
-          "media": 131.6
+          "media": 0.0
         },
         {
           "codcli": "92712",
@@ -1790,7 +1800,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "02/06/2026",
           "dias": 49,
-          "media": 1359.77
+          "media": 0.0
         },
         {
           "codcli": "81309",
@@ -1799,7 +1809,7 @@ const INATIVOS_DATA = {
           "cidade": "MACAE",
           "dtultcomp": "03/06/2026",
           "dias": 48,
-          "media": 1087.6
+          "media": 0.0
         },
         {
           "codcli": "80309",
@@ -1808,7 +1818,7 @@ const INATIVOS_DATA = {
           "cidade": "MACAE",
           "dtultcomp": "03/06/2026",
           "dias": 48,
-          "media": 503.54
+          "media": 0.0
         },
         {
           "codcli": "90950",
@@ -1817,7 +1827,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "08/06/2026",
           "dias": 43,
-          "media": 1330.13
+          "media": 0.0
         },
         {
           "codcli": "75531",
@@ -1826,7 +1836,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "08/06/2026",
           "dias": 43,
-          "media": 374.47
+          "media": 0.0
         },
         {
           "codcli": "83459",
@@ -1835,7 +1845,7 @@ const INATIVOS_DATA = {
           "cidade": "MACAE",
           "dtultcomp": "08/06/2026",
           "dias": 43,
-          "media": 459.87
+          "media": 0.0
         },
         {
           "codcli": "85141",
@@ -1844,7 +1854,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "08/06/2026",
           "dias": 43,
-          "media": 363.73
+          "media": 0.0
         },
         {
           "codcli": "81924",
@@ -1853,7 +1863,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "09/06/2026",
           "dias": 42,
-          "media": 3070.01
+          "media": 0.0
         },
         {
           "codcli": "82201",
@@ -1862,7 +1872,7 @@ const INATIVOS_DATA = {
           "cidade": "CABO FRIO",
           "dtultcomp": "09/06/2026",
           "dias": 42,
-          "media": 1051.9
+          "media": 0.0
         },
         {
           "codcli": "77909",
@@ -1871,7 +1881,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "09/06/2026",
           "dias": 42,
-          "media": 530.96
+          "media": 0.0
         },
         {
           "codcli": "95223",
@@ -1880,7 +1890,7 @@ const INATIVOS_DATA = {
           "cidade": "CABO FRIO",
           "dtultcomp": "09/06/2026",
           "dias": 42,
-          "media": 513.69
+          "media": 0.0
         },
         {
           "codcli": "95330",
@@ -1889,7 +1899,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "10/06/2026",
           "dias": 41,
-          "media": 798.0
+          "media": 0.0
         },
         {
           "codcli": "93669",
@@ -1898,7 +1908,7 @@ const INATIVOS_DATA = {
           "cidade": "MACAE",
           "dtultcomp": "15/06/2026",
           "dias": 36,
-          "media": 187.6
+          "media": 0.0
         },
         {
           "codcli": "95332",
@@ -1907,7 +1917,7 @@ const INATIVOS_DATA = {
           "cidade": "MACAE",
           "dtultcomp": "16/06/2026",
           "dias": 35,
-          "media": 296.0
+          "media": 0.0
         },
         {
           "codcli": "95418",
@@ -1916,7 +1926,7 @@ const INATIVOS_DATA = {
           "cidade": "SAQUAREMA",
           "dtultcomp": "18/06/2026",
           "dias": 33,
-          "media": 575.2
+          "media": 0.0
         },
         {
           "codcli": "76873",
@@ -1925,7 +1935,7 @@ const INATIVOS_DATA = {
           "cidade": "SAQUAREMA",
           "dtultcomp": "19/06/2026",
           "dias": 32,
-          "media": 179.76
+          "media": 0.0
         }
       ],
       "novos": [
@@ -2042,7 +2052,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "23/04/2026",
           "dias": 89,
-          "media": 85.6
+          "media": 0.0
         },
         {
           "codcli": "84958",
@@ -2051,7 +2061,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "27/04/2026",
           "dias": 85,
-          "media": 149.8
+          "media": 0.0
         },
         {
           "codcli": "91570",
@@ -2060,7 +2070,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO JOAO DE MER",
           "dtultcomp": "30/04/2026",
           "dias": 82,
-          "media": 21.97
+          "media": 0.0
         },
         {
           "codcli": "83387",
@@ -2078,7 +2088,7 @@ const INATIVOS_DATA = {
           "cidade": "NOVA IGUACU",
           "dtultcomp": "06/05/2026",
           "dias": 76,
-          "media": 2156.55
+          "media": 0.0
         },
         {
           "codcli": "94812",
@@ -2087,7 +2097,7 @@ const INATIVOS_DATA = {
           "cidade": "NILOPOLIS",
           "dtultcomp": "08/05/2026",
           "dias": 74,
-          "media": 65.28
+          "media": 0.0
         },
         {
           "codcli": "91672",
@@ -2096,7 +2106,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "12/05/2026",
           "dias": 70,
-          "media": 674.5
+          "media": 0.0
         },
         {
           "codcli": "91710",
@@ -2105,7 +2115,7 @@ const INATIVOS_DATA = {
           "cidade": "NILOPOLIS",
           "dtultcomp": "12/05/2026",
           "dias": 70,
-          "media": 1705.93
+          "media": 0.0
         },
         {
           "codcli": "89919",
@@ -2114,7 +2124,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO JOAO DE MER",
           "dtultcomp": "12/05/2026",
           "dias": 70,
-          "media": 131.84
+          "media": 0.0
         },
         {
           "codcli": "91642",
@@ -2123,7 +2133,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO JOAO DE MER",
           "dtultcomp": "15/05/2026",
           "dias": 67,
-          "media": 111.55
+          "media": 0.0
         },
         {
           "codcli": "95069",
@@ -2132,7 +2142,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "20/05/2026",
           "dias": 62,
-          "media": 493.0
+          "media": 0.0
         },
         {
           "codcli": "95072",
@@ -2141,7 +2151,7 @@ const INATIVOS_DATA = {
           "cidade": "BELFORD ROXO",
           "dtultcomp": "22/05/2026",
           "dias": 60,
-          "media": 65.28
+          "media": 0.0
         },
         {
           "codcli": "95070",
@@ -2150,7 +2160,7 @@ const INATIVOS_DATA = {
           "cidade": "BELFORD ROXO",
           "dtultcomp": "22/05/2026",
           "dias": 60,
-          "media": 131.37
+          "media": 0.0
         },
         {
           "codcli": "91752",
@@ -2159,7 +2169,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "26/05/2026",
           "dias": 56,
-          "media": 217.6
+          "media": 0.0
         },
         {
           "codcli": "95116",
@@ -2168,7 +2178,7 @@ const INATIVOS_DATA = {
           "cidade": "NOVA IGUACU",
           "dtultcomp": "26/05/2026",
           "dias": 56,
-          "media": 180.2
+          "media": 0.0
         },
         {
           "codcli": "93891",
@@ -2177,7 +2187,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO JOAO DE MER",
           "dtultcomp": "27/05/2026",
           "dias": 55,
-          "media": 962.4
+          "media": 0.0
         },
         {
           "codcli": "95132",
@@ -2186,7 +2196,7 @@ const INATIVOS_DATA = {
           "cidade": "MESQUITA",
           "dtultcomp": "29/05/2026",
           "dias": 53,
-          "media": 88.26
+          "media": 0.0
         },
         {
           "codcli": "95118",
@@ -2195,7 +2205,7 @@ const INATIVOS_DATA = {
           "cidade": "NOVA IGUACU",
           "dtultcomp": "30/05/2026",
           "dias": 52,
-          "media": 3669.9
+          "media": 0.0
         },
         {
           "codcli": "94404",
@@ -2204,7 +2214,7 @@ const INATIVOS_DATA = {
           "cidade": "MESQUITA",
           "dtultcomp": "02/06/2026",
           "dias": 49,
-          "media": 539.6
+          "media": 0.0
         },
         {
           "codcli": "91353",
@@ -2213,7 +2223,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "02/06/2026",
           "dias": 49,
-          "media": 1247.0
+          "media": 0.0
         },
         {
           "codcli": "77896",
@@ -2222,7 +2232,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO JOAO DE MER",
           "dtultcomp": "02/06/2026",
           "dias": 49,
-          "media": 1286.53
+          "media": 0.0
         },
         {
           "codcli": "91449",
@@ -2231,7 +2241,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO JOAO DE MER",
           "dtultcomp": "02/06/2026",
           "dias": 49,
-          "media": 59.76
+          "media": 0.0
         },
         {
           "codcli": "92040",
@@ -2240,7 +2250,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO JOAO DE MER",
           "dtultcomp": "02/06/2026",
           "dias": 49,
-          "media": 1605.09
+          "media": 0.0
         },
         {
           "codcli": "95255",
@@ -2249,7 +2259,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO JOAO DE MER",
           "dtultcomp": "03/06/2026",
           "dias": 48,
-          "media": 100.87
+          "media": 0.0
         },
         {
           "codcli": "92392",
@@ -2258,7 +2268,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO JOAO DE MER",
           "dtultcomp": "06/06/2026",
           "dias": 45,
-          "media": 110.83
+          "media": 0.0
         },
         {
           "codcli": "91507",
@@ -2267,7 +2277,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "09/06/2026",
           "dias": 42,
-          "media": 347.84
+          "media": 0.0
         },
         {
           "codcli": "91751",
@@ -2276,7 +2286,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "09/06/2026",
           "dias": 42,
-          "media": 285.6
+          "media": 0.0
         },
         {
           "codcli": "91712",
@@ -2285,7 +2295,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO JOAO DE MER",
           "dtultcomp": "10/06/2026",
           "dias": 41,
-          "media": 301.95
+          "media": 0.0
         },
         {
           "codcli": "95073",
@@ -2294,10 +2304,19 @@ const INATIVOS_DATA = {
           "cidade": "BELFORD ROXO",
           "dtultcomp": "18/06/2026",
           "dias": 33,
-          "media": 491.37
+          "media": 0.0
         }
       ],
       "novos": [
+        {
+          "codcli": "95754",
+          "cliente": "NASOLI COMERCIO E DESCARTAVEIS LTDA",
+          "bairro": "NOVA CIDADE",
+          "cidade": "NILOPOLIS",
+          "dtcadastro": "21/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
         {
           "codcli": "95729",
           "cliente": "MERCADO PDA LTDA",
@@ -2385,7 +2404,7 @@ const INATIVOS_DATA = {
           "cidade": "MARATAIZES",
           "dtultcomp": "28/04/2026",
           "dias": 84,
-          "media": 1273.33
+          "media": 0.0
         },
         {
           "codcli": "94780",
@@ -2394,7 +2413,7 @@ const INATIVOS_DATA = {
           "cidade": "PIUMA",
           "dtultcomp": "28/04/2026",
           "dias": 84,
-          "media": 1233.33
+          "media": 0.0
         },
         {
           "codcli": "94779",
@@ -2412,7 +2431,7 @@ const INATIVOS_DATA = {
           "cidade": "VARGEM ALTA",
           "dtultcomp": "28/04/2026",
           "dias": 84,
-          "media": 213.6
+          "media": 0.0
         },
         {
           "codcli": "93283",
@@ -2421,7 +2440,7 @@ const INATIVOS_DATA = {
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "28/04/2026",
           "dias": 84,
-          "media": 98.03
+          "media": 0.0
         },
         {
           "codcli": "76386",
@@ -2430,7 +2449,7 @@ const INATIVOS_DATA = {
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "11/05/2026",
           "dias": 71,
-          "media": 417.67
+          "media": 0.0
         },
         {
           "codcli": "79415",
@@ -2448,7 +2467,7 @@ const INATIVOS_DATA = {
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "11/05/2026",
           "dias": 71,
-          "media": 292.23
+          "media": 0.0
         },
         {
           "codcli": "83764",
@@ -2457,7 +2476,7 @@ const INATIVOS_DATA = {
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "11/05/2026",
           "dias": 71,
-          "media": 157.8
+          "media": 0.0
         },
         {
           "codcli": "91115",
@@ -2466,7 +2485,7 @@ const INATIVOS_DATA = {
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "11/05/2026",
           "dias": 71,
-          "media": 278.45
+          "media": 0.0
         },
         {
           "codcli": "91023",
@@ -2475,7 +2494,7 @@ const INATIVOS_DATA = {
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "12/05/2026",
           "dias": 70,
-          "media": 80.09
+          "media": 0.0
         },
         {
           "codcli": "91010",
@@ -2484,7 +2503,7 @@ const INATIVOS_DATA = {
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "12/05/2026",
           "dias": 70,
-          "media": 78.8
+          "media": 0.0
         },
         {
           "codcli": "94994",
@@ -2493,7 +2512,7 @@ const INATIVOS_DATA = {
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "14/05/2026",
           "dias": 68,
-          "media": 135.71
+          "media": 0.0
         },
         {
           "codcli": "90302",
@@ -2502,7 +2521,7 @@ const INATIVOS_DATA = {
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "14/05/2026",
           "dias": 68,
-          "media": 69.07
+          "media": 0.0
         },
         {
           "codcli": "90216",
@@ -2511,7 +2530,7 @@ const INATIVOS_DATA = {
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "14/05/2026",
           "dias": 68,
-          "media": 403.0
+          "media": 0.0
         },
         {
           "codcli": "90443",
@@ -2520,7 +2539,7 @@ const INATIVOS_DATA = {
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "15/05/2026",
           "dias": 67,
-          "media": 258.24
+          "media": 0.0
         },
         {
           "codcli": "90118",
@@ -2529,7 +2548,7 @@ const INATIVOS_DATA = {
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "21/05/2026",
           "dias": 61,
-          "media": 296.63
+          "media": 0.0
         },
         {
           "codcli": "83812",
@@ -2547,7 +2566,7 @@ const INATIVOS_DATA = {
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "21/05/2026",
           "dias": 61,
-          "media": 259.67
+          "media": 0.0
         },
         {
           "codcli": "89957",
@@ -2556,7 +2575,7 @@ const INATIVOS_DATA = {
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "25/05/2026",
           "dias": 57,
-          "media": 843.16
+          "media": 0.0
         },
         {
           "codcli": "93519",
@@ -2565,7 +2584,7 @@ const INATIVOS_DATA = {
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "25/05/2026",
           "dias": 57,
-          "media": 493.42
+          "media": 0.0
         },
         {
           "codcli": "77542",
@@ -2574,7 +2593,7 @@ const INATIVOS_DATA = {
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "25/05/2026",
           "dias": 57,
-          "media": 194.49
+          "media": 0.0
         },
         {
           "codcli": "83761",
@@ -2592,7 +2611,7 @@ const INATIVOS_DATA = {
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "28/05/2026",
           "dias": 54,
-          "media": 135.42
+          "media": 0.0
         },
         {
           "codcli": "93802",
@@ -2610,7 +2629,7 @@ const INATIVOS_DATA = {
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "28/05/2026",
           "dias": 54,
-          "media": 480.24
+          "media": 0.0
         },
         {
           "codcli": "93421",
@@ -2619,7 +2638,7 @@ const INATIVOS_DATA = {
           "cidade": "CASTELO",
           "dtultcomp": "28/05/2026",
           "dias": 54,
-          "media": 232.76
+          "media": 0.0
         },
         {
           "codcli": "90653",
@@ -2628,7 +2647,7 @@ const INATIVOS_DATA = {
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "29/05/2026",
           "dias": 53,
-          "media": 298.71
+          "media": 0.0
         },
         {
           "codcli": "76740",
@@ -2646,7 +2665,7 @@ const INATIVOS_DATA = {
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "15/06/2026",
           "dias": 36,
-          "media": 583.19
+          "media": 0.0
         },
         {
           "codcli": "93420",
@@ -2655,7 +2674,7 @@ const INATIVOS_DATA = {
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "15/06/2026",
           "dias": 36,
-          "media": 83.88
+          "media": 0.0
         },
         {
           "codcli": "82549",
@@ -2664,7 +2683,7 @@ const INATIVOS_DATA = {
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "15/06/2026",
           "dias": 36,
-          "media": 933.18
+          "media": 0.0
         },
         {
           "codcli": "83759",
@@ -2673,7 +2692,7 @@ const INATIVOS_DATA = {
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "15/06/2026",
           "dias": 36,
-          "media": 96.58
+          "media": 0.0
         },
         {
           "codcli": "91306",
@@ -3618,7 +3637,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/04/2026",
           "dias": 83,
-          "media": 29.3
+          "media": 0.0
         },
         {
           "codcli": "2406",
@@ -3627,7 +3646,7 @@ const INATIVOS_DATA = {
           "cidade": "NITEROI",
           "dtultcomp": "30/04/2026",
           "dias": 82,
-          "media": 102.83
+          "media": 0.0
         },
         {
           "codcli": "82914",
@@ -3636,7 +3655,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "08/05/2026",
           "dias": 74,
-          "media": 172.3
+          "media": 0.0
         },
         {
           "codcli": "2573",
@@ -3645,7 +3664,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/05/2026",
           "dias": 71,
-          "media": 67.8
+          "media": 0.0
         },
         {
           "codcli": "91976",
@@ -3654,7 +3673,7 @@ const INATIVOS_DATA = {
           "cidade": "ITABORAI",
           "dtultcomp": "12/05/2026",
           "dias": 70,
-          "media": 424.9
+          "media": 0.0
         },
         {
           "codcli": "79924",
@@ -3663,7 +3682,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "12/05/2026",
           "dias": 70,
-          "media": 126.27
+          "media": 0.0
         },
         {
           "codcli": "4621",
@@ -3672,7 +3691,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "12/05/2026",
           "dias": 70,
-          "media": 335.5
+          "media": 0.0
         },
         {
           "codcli": "82868",
@@ -3681,7 +3700,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "14/05/2026",
           "dias": 68,
-          "media": 316.5
+          "media": 0.0
         },
         {
           "codcli": "2138",
@@ -3690,7 +3709,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "15/05/2026",
           "dias": 67,
-          "media": 81.67
+          "media": 0.0
         },
         {
           "codcli": "82596",
@@ -3699,7 +3718,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "18/05/2026",
           "dias": 64,
-          "media": 268.13
+          "media": 0.0
         },
         {
           "codcli": "83362",
@@ -3708,7 +3727,7 @@ const INATIVOS_DATA = {
           "cidade": "DUQUE DE CAXIAS",
           "dtultcomp": "19/05/2026",
           "dias": 63,
-          "media": 788.75
+          "media": 0.0
         },
         {
           "codcli": "93012",
@@ -3717,7 +3736,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "19/05/2026",
           "dias": 63,
-          "media": 310.73
+          "media": 0.0
         },
         {
           "codcli": "92886",
@@ -3726,7 +3745,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "20/05/2026",
           "dias": 62,
-          "media": 737.2
+          "media": 0.0
         },
         {
           "codcli": "3110",
@@ -3735,7 +3754,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "21/05/2026",
           "dias": 61,
-          "media": 686.33
+          "media": 0.0
         },
         {
           "codcli": "3713",
@@ -3744,7 +3763,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "22/05/2026",
           "dias": 60,
-          "media": 582.2
+          "media": 0.0
         },
         {
           "codcli": "20777",
@@ -3753,7 +3772,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "25/05/2026",
           "dias": 57,
-          "media": 515.06
+          "media": 0.0
         },
         {
           "codcli": "82380",
@@ -3762,7 +3781,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "25/05/2026",
           "dias": 57,
-          "media": 2184.53
+          "media": 0.0
         },
         {
           "codcli": "625",
@@ -3771,7 +3790,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "27/05/2026",
           "dias": 55,
-          "media": 224.74
+          "media": 0.0
         },
         {
           "codcli": "90925",
@@ -3780,7 +3799,7 @@ const INATIVOS_DATA = {
           "cidade": "MARICA",
           "dtultcomp": "29/05/2026",
           "dias": 53,
-          "media": 161.3
+          "media": 0.0
         },
         {
           "codcli": "86258",
@@ -3789,7 +3808,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/05/2026",
           "dias": 53,
-          "media": 266.67
+          "media": 0.0
         },
         {
           "codcli": "2454",
@@ -3798,7 +3817,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "01/06/2026",
           "dias": 50,
-          "media": 468.57
+          "media": 0.0
         },
         {
           "codcli": "84107",
@@ -3807,7 +3826,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "01/06/2026",
           "dias": 50,
-          "media": 168.8
+          "media": 0.0
         },
         {
           "codcli": "3656",
@@ -3816,7 +3835,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "02/06/2026",
           "dias": 49,
-          "media": 565.97
+          "media": 0.0
         },
         {
           "codcli": "55271",
@@ -3825,7 +3844,7 @@ const INATIVOS_DATA = {
           "cidade": "NOVA IGUACU",
           "dtultcomp": "03/06/2026",
           "dias": 48,
-          "media": 245.31
+          "media": 0.0
         },
         {
           "codcli": "76228",
@@ -3834,7 +3853,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "05/06/2026",
           "dias": 46,
-          "media": 303.56
+          "media": 0.0
         },
         {
           "codcli": "82830",
@@ -3843,7 +3862,7 @@ const INATIVOS_DATA = {
           "cidade": "DUQUE DE CAXIAS",
           "dtultcomp": "06/06/2026",
           "dias": 45,
-          "media": 1920.4
+          "media": 0.0
         },
         {
           "codcli": "91093",
@@ -3852,7 +3871,7 @@ const INATIVOS_DATA = {
           "cidade": "DUQUE DE CAXIAS",
           "dtultcomp": "08/06/2026",
           "dias": 43,
-          "media": 3423.29
+          "media": 0.0
         },
         {
           "codcli": "84240",
@@ -3861,7 +3880,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "08/06/2026",
           "dias": 43,
-          "media": 207.73
+          "media": 0.0
         },
         {
           "codcli": "91122",
@@ -3870,7 +3889,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "09/06/2026",
           "dias": 42,
-          "media": 1300.73
+          "media": 0.0
         },
         {
           "codcli": "84747",
@@ -3879,7 +3898,7 @@ const INATIVOS_DATA = {
           "cidade": "PETROPOLIS",
           "dtultcomp": "10/06/2026",
           "dias": 41,
-          "media": 662.77
+          "media": 0.0
         },
         {
           "codcli": "604",
@@ -3888,7 +3907,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "10/06/2026",
           "dias": 41,
-          "media": 1969.44
+          "media": 0.0
         },
         {
           "codcli": "2310",
@@ -3897,7 +3916,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "10/06/2026",
           "dias": 41,
-          "media": 1144.44
+          "media": 0.0
         },
         {
           "codcli": "83308",
@@ -3906,7 +3925,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "10/06/2026",
           "dias": 41,
-          "media": 464.97
+          "media": 0.0
         },
         {
           "codcli": "79820",
@@ -3915,7 +3934,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/06/2026",
           "dias": 40,
-          "media": 366.48
+          "media": 0.0
         },
         {
           "codcli": "2075",
@@ -3924,7 +3943,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "12/06/2026",
           "dias": 39,
-          "media": 726.1
+          "media": 0.0
         },
         {
           "codcli": "89964",
@@ -3933,7 +3952,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "15/06/2026",
           "dias": 36,
-          "media": 866.19
+          "media": 0.0
         },
         {
           "codcli": "85686",
@@ -3942,7 +3961,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "16/06/2026",
           "dias": 35,
-          "media": 1098.73
+          "media": 0.0
         },
         {
           "codcli": "85672",
@@ -3951,7 +3970,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "18/06/2026",
           "dias": 33,
-          "media": 1558.94
+          "media": 0.0
         },
         {
           "codcli": "85671",
@@ -3960,7 +3979,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "18/06/2026",
           "dias": 33,
-          "media": 1472.12
+          "media": 0.0
         },
         {
           "codcli": "85669",
@@ -3969,7 +3988,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "18/06/2026",
           "dias": 33,
-          "media": 1270.13
+          "media": 0.0
         },
         {
           "codcli": "80886",
@@ -3978,7 +3997,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "18/06/2026",
           "dias": 33,
-          "media": 260.13
+          "media": 0.0
         },
         {
           "codcli": "82253",
@@ -3987,7 +4006,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "18/06/2026",
           "dias": 33,
-          "media": 217.93
+          "media": 0.0
         },
         {
           "codcli": "79254",
@@ -3996,7 +4015,7 @@ const INATIVOS_DATA = {
           "cidade": "DUQUE DE CAXIAS",
           "dtultcomp": "18/06/2026",
           "dias": 33,
-          "media": 3388.0
+          "media": 0.0
         },
         {
           "codcli": "73247",
@@ -4005,7 +4024,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO JOAO DE MER",
           "dtultcomp": "18/06/2026",
           "dias": 33,
-          "media": 622.5
+          "media": 0.0
         },
         {
           "codcli": "95421",
@@ -4014,7 +4033,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "18/06/2026",
           "dias": 33,
-          "media": 408.97
+          "media": 0.0
         },
         {
           "codcli": "95366",
@@ -4023,7 +4042,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "18/06/2026",
           "dias": 33,
-          "media": 913.09
+          "media": 0.0
         },
         {
           "codcli": "82919",
@@ -4032,7 +4051,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "19/06/2026",
           "dias": 32,
-          "media": 1248.92
+          "media": 0.0
         }
       ],
       "novos": []
@@ -4068,7 +4087,7 @@ const INATIVOS_DATA = {
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "25/04/2026",
           "dias": 87,
-          "media": 633.6
+          "media": 0.0
         },
         {
           "codcli": "93338",
@@ -4077,7 +4096,7 @@ const INATIVOS_DATA = {
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "29/04/2026",
           "dias": 83,
-          "media": 745.8
+          "media": 0.0
         },
         {
           "codcli": "74901",
@@ -4086,7 +4105,7 @@ const INATIVOS_DATA = {
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "06/05/2026",
           "dias": 76,
-          "media": 216.5
+          "media": 0.0
         },
         {
           "codcli": "69309",
@@ -4113,7 +4132,7 @@ const INATIVOS_DATA = {
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "27/05/2026",
           "dias": 55,
-          "media": 195.84
+          "media": 0.0
         },
         {
           "codcli": "61399",
@@ -4122,7 +4141,7 @@ const INATIVOS_DATA = {
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "27/05/2026",
           "dias": 55,
-          "media": 369.92
+          "media": 0.0
         },
         {
           "codcli": "75423",
@@ -4131,7 +4150,7 @@ const INATIVOS_DATA = {
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "02/06/2026",
           "dias": 49,
-          "media": 98.9
+          "media": 0.0
         },
         {
           "codcli": "79194",
@@ -4140,7 +4159,7 @@ const INATIVOS_DATA = {
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "10/06/2026",
           "dias": 41,
-          "media": 554.65
+          "media": 0.0
         },
         {
           "codcli": "76150",
@@ -4149,7 +4168,7 @@ const INATIVOS_DATA = {
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "10/06/2026",
           "dias": 41,
-          "media": 901.4
+          "media": 0.0
         },
         {
           "codcli": "94760",
@@ -4158,7 +4177,7 @@ const INATIVOS_DATA = {
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "10/06/2026",
           "dias": 41,
-          "media": 258.19
+          "media": 0.0
         },
         {
           "codcli": "78916",
@@ -4167,7 +4186,7 @@ const INATIVOS_DATA = {
           "cidade": "MANGARATIBA",
           "dtultcomp": "10/06/2026",
           "dias": 41,
-          "media": 2927.68
+          "media": 0.0
         },
         {
           "codcli": "8875",
@@ -4176,7 +4195,7 @@ const INATIVOS_DATA = {
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "16/06/2026",
           "dias": 35,
-          "media": 135.6
+          "media": 0.0
         },
         {
           "codcli": "79321",
@@ -4185,7 +4204,7 @@ const INATIVOS_DATA = {
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "16/06/2026",
           "dias": 35,
-          "media": 357.0
+          "media": 0.0
         },
         {
           "codcli": "79318",
@@ -4194,7 +4213,7 @@ const INATIVOS_DATA = {
           "cidade": "PARATI",
           "dtultcomp": "16/06/2026",
           "dias": 35,
-          "media": 231.4
+          "media": 0.0
         },
         {
           "codcli": "79320",
@@ -4203,7 +4222,7 @@ const INATIVOS_DATA = {
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "17/06/2026",
           "dias": 34,
-          "media": 2475.68
+          "media": 0.0
         },
         {
           "codcli": "92006",
@@ -4212,7 +4231,7 @@ const INATIVOS_DATA = {
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "17/06/2026",
           "dias": 34,
-          "media": 794.88
+          "media": 0.0
         },
         {
           "codcli": "74975",
@@ -4221,7 +4240,7 @@ const INATIVOS_DATA = {
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "17/06/2026",
           "dias": 34,
-          "media": 615.35
+          "media": 0.0
         },
         {
           "codcli": "8876",
@@ -4230,7 +4249,7 @@ const INATIVOS_DATA = {
           "cidade": "PARATI",
           "dtultcomp": "17/06/2026",
           "dias": 34,
-          "media": 2059.6
+          "media": 0.0
         },
         {
           "codcli": "79160",
@@ -4239,7 +4258,7 @@ const INATIVOS_DATA = {
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "17/06/2026",
           "dias": 34,
-          "media": 259.68
+          "media": 0.0
         },
         {
           "codcli": "8878",
@@ -4248,7 +4267,7 @@ const INATIVOS_DATA = {
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "17/06/2026",
           "dias": 34,
-          "media": 3146.53
+          "media": 0.0
         },
         {
           "codcli": "69866",
@@ -4257,7 +4276,7 @@ const INATIVOS_DATA = {
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "17/06/2026",
           "dias": 34,
-          "media": 269.71
+          "media": 0.0
         },
         {
           "codcli": "8877",
@@ -4266,7 +4285,7 @@ const INATIVOS_DATA = {
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "17/06/2026",
           "dias": 34,
-          "media": 495.52
+          "media": 0.0
         },
         {
           "codcli": "81289",
@@ -4337,7 +4356,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/04/2026",
           "dias": 83,
-          "media": 71.8
+          "media": 0.0
         },
         {
           "codcli": "81634",
@@ -4346,7 +4365,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/04/2026",
           "dias": 83,
-          "media": 107.6
+          "media": 0.0
         },
         {
           "codcli": "94889",
@@ -4355,7 +4374,7 @@ const INATIVOS_DATA = {
           "cidade": "NILOPOLIS",
           "dtultcomp": "08/05/2026",
           "dias": 74,
-          "media": 218.4
+          "media": 0.0
         },
         {
           "codcli": "94890",
@@ -4364,7 +4383,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "08/05/2026",
           "dias": 74,
-          "media": 218.4
+          "media": 0.0
         },
         {
           "codcli": "94891",
@@ -4373,7 +4392,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "08/05/2026",
           "dias": 74,
-          "media": 240.3
+          "media": 0.0
         },
         {
           "codcli": "93931",
@@ -4382,7 +4401,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "20/05/2026",
           "dias": 62,
-          "media": 119.17
+          "media": 0.0
         },
         {
           "codcli": "19228",
@@ -4391,7 +4410,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "20/05/2026",
           "dias": 62,
-          "media": 63.13
+          "media": 0.0
         },
         {
           "codcli": "62177",
@@ -4400,7 +4419,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "28/05/2026",
           "dias": 54,
-          "media": 331.28
+          "media": 0.0
         },
         {
           "codcli": "94884",
@@ -4409,7 +4428,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "05/06/2026",
           "dias": 46,
-          "media": 568.54
+          "media": 0.0
         },
         {
           "codcli": "90210",
@@ -4418,7 +4437,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "06/06/2026",
           "dias": 45,
-          "media": 163.2
+          "media": 0.0
         },
         {
           "codcli": "90148",
@@ -4427,7 +4446,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "08/06/2026",
           "dias": 43,
-          "media": 10509.03
+          "media": 0.0
         },
         {
           "codcli": "81632",
@@ -4436,7 +4455,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "10/06/2026",
           "dias": 41,
-          "media": 290.68
+          "media": 0.0
         },
         {
           "codcli": "67706",
@@ -4445,7 +4464,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "15/06/2026",
           "dias": 36,
-          "media": 1076.01
+          "media": 0.0
         },
         {
           "codcli": "90147",
@@ -4454,7 +4473,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "18/06/2026",
           "dias": 33,
-          "media": 3045.66
+          "media": 0.0
         }
       ],
       "novos": [
@@ -4572,7 +4591,7 @@ const INATIVOS_DATA = {
           "cidade": "CABO FRIO",
           "dtultcomp": "22/04/2026",
           "dias": 90,
-          "media": 165.8
+          "media": 0.0
         },
         {
           "codcli": "91973",
@@ -4581,7 +4600,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "30/04/2026",
           "dias": 82,
-          "media": 139.8
+          "media": 0.0
         },
         {
           "codcli": "81242",
@@ -4590,7 +4609,7 @@ const INATIVOS_DATA = {
           "cidade": "CABO FRIO",
           "dtultcomp": "02/05/2026",
           "dias": 80,
-          "media": 624.2
+          "media": 0.0
         },
         {
           "codcli": "94837",
@@ -4599,7 +4618,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "04/05/2026",
           "dias": 78,
-          "media": 125.8
+          "media": 0.0
         },
         {
           "codcli": "83127",
@@ -4608,7 +4627,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "05/05/2026",
           "dias": 77,
-          "media": 103.7
+          "media": 0.0
         },
         {
           "codcli": "93681",
@@ -4617,7 +4636,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "08/05/2026",
           "dias": 74,
-          "media": 886.97
+          "media": 0.0
         },
         {
           "codcli": "55490",
@@ -4626,7 +4645,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "12/05/2026",
           "dias": 70,
-          "media": 195.13
+          "media": 0.0
         },
         {
           "codcli": "82099",
@@ -4635,7 +4654,7 @@ const INATIVOS_DATA = {
           "cidade": "CABO FRIO",
           "dtultcomp": "14/05/2026",
           "dias": 68,
-          "media": 688.03
+          "media": 0.0
         },
         {
           "codcli": "86020",
@@ -4644,7 +4663,7 @@ const INATIVOS_DATA = {
           "cidade": "CABO FRIO",
           "dtultcomp": "18/05/2026",
           "dias": 64,
-          "media": 276.2
+          "media": 0.0
         },
         {
           "codcli": "71989",
@@ -4653,7 +4672,7 @@ const INATIVOS_DATA = {
           "cidade": "SAQUAREMA",
           "dtultcomp": "22/05/2026",
           "dias": 60,
-          "media": 204.5
+          "media": 0.0
         },
         {
           "codcli": "73774",
@@ -4662,7 +4681,7 @@ const INATIVOS_DATA = {
           "cidade": "CABO FRIO",
           "dtultcomp": "25/05/2026",
           "dias": 57,
-          "media": 126.24
+          "media": 0.0
         },
         {
           "codcli": "5762",
@@ -4671,7 +4690,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "25/05/2026",
           "dias": 57,
-          "media": 126.9
+          "media": 0.0
         },
         {
           "codcli": "58597",
@@ -4680,7 +4699,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "26/05/2026",
           "dias": 56,
-          "media": 209.6
+          "media": 0.0
         },
         {
           "codcli": "79753",
@@ -4689,7 +4708,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "27/05/2026",
           "dias": 55,
-          "media": 267.67
+          "media": 0.0
         },
         {
           "codcli": "72402",
@@ -4698,7 +4717,7 @@ const INATIVOS_DATA = {
           "cidade": "CABO FRIO",
           "dtultcomp": "28/05/2026",
           "dias": 54,
-          "media": 99.8
+          "media": 0.0
         },
         {
           "codcli": "5761",
@@ -4707,7 +4726,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "30/05/2026",
           "dias": 52,
-          "media": 1503.33
+          "media": 0.0
         },
         {
           "codcli": "94795",
@@ -4716,7 +4735,7 @@ const INATIVOS_DATA = {
           "cidade": "CABO FRIO",
           "dtultcomp": "02/06/2026",
           "dias": 49,
-          "media": 1806.2
+          "media": 0.0
         },
         {
           "codcli": "77836",
@@ -4725,7 +4744,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "02/06/2026",
           "dias": 49,
-          "media": 1935.57
+          "media": 0.0
         },
         {
           "codcli": "50875",
@@ -4734,7 +4753,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "02/06/2026",
           "dias": 49,
-          "media": 2760.54
+          "media": 0.0
         },
         {
           "codcli": "81046",
@@ -4743,7 +4762,7 @@ const INATIVOS_DATA = {
           "cidade": "ARRAIAL DO CABO",
           "dtultcomp": "02/06/2026",
           "dias": 49,
-          "media": 486.74
+          "media": 0.0
         },
         {
           "codcli": "93339",
@@ -4752,7 +4771,7 @@ const INATIVOS_DATA = {
           "cidade": "IGUABA GRANDE",
           "dtultcomp": "02/06/2026",
           "dias": 49,
-          "media": 2541.04
+          "media": 0.0
         },
         {
           "codcli": "93122",
@@ -4761,7 +4780,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "05/06/2026",
           "dias": 46,
-          "media": 210.3
+          "media": 0.0
         },
         {
           "codcli": "82648",
@@ -4770,7 +4789,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "09/06/2026",
           "dias": 42,
-          "media": 1681.8
+          "media": 0.0
         },
         {
           "codcli": "50446",
@@ -4779,7 +4798,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "09/06/2026",
           "dias": 42,
-          "media": 404.2
+          "media": 0.0
         },
         {
           "codcli": "78847",
@@ -4797,7 +4816,7 @@ const INATIVOS_DATA = {
           "cidade": "ARARUAMA",
           "dtultcomp": "11/06/2026",
           "dias": 40,
-          "media": 896.0
+          "media": 0.0
         },
         {
           "codcli": "93497",
@@ -4806,7 +4825,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "11/06/2026",
           "dias": 40,
-          "media": 677.6
+          "media": 0.0
         },
         {
           "codcli": "82700",
@@ -4815,7 +4834,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "11/06/2026",
           "dias": 40,
-          "media": 2988.03
+          "media": 0.0
         },
         {
           "codcli": "72637",
@@ -4824,7 +4843,7 @@ const INATIVOS_DATA = {
           "cidade": "ARRAIAL DO CABO",
           "dtultcomp": "15/06/2026",
           "dias": 36,
-          "media": 638.4
+          "media": 0.0
         },
         {
           "codcli": "58768",
@@ -4833,7 +4852,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "19/06/2026",
           "dias": 32,
-          "media": 1874.97
+          "media": 0.0
         },
         {
           "codcli": "82524",
@@ -4842,7 +4861,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "19/06/2026",
           "dias": 32,
-          "media": 356.99
+          "media": 0.0
         }
       ],
       "novos": [
@@ -5607,7 +5626,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "28/04/2026",
           "dias": 84,
-          "media": 221.4
+          "media": 0.0
         },
         {
           "codcli": "91029",
@@ -5616,7 +5635,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "28/04/2026",
           "dias": 84,
-          "media": 268.77
+          "media": 0.0
         },
         {
           "codcli": "86480",
@@ -5625,7 +5644,7 @@ const INATIVOS_DATA = {
           "cidade": "CASIMIRO DE ABR",
           "dtultcomp": "18/05/2026",
           "dias": 64,
-          "media": 302.53
+          "media": 0.0
         },
         {
           "codcli": "90319",
@@ -5634,7 +5653,7 @@ const INATIVOS_DATA = {
           "cidade": "MACAE",
           "dtultcomp": "19/05/2026",
           "dias": 63,
-          "media": 653.39
+          "media": 0.0
         },
         {
           "codcli": "95164",
@@ -5643,7 +5662,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "27/05/2026",
           "dias": 55,
-          "media": 241.6
+          "media": 0.0
         },
         {
           "codcli": "91610",
@@ -5652,7 +5671,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "01/06/2026",
           "dias": 50,
-          "media": 582.64
+          "media": 0.0
         },
         {
           "codcli": "85075",
@@ -5661,7 +5680,7 @@ const INATIVOS_DATA = {
           "cidade": "CABO FRIO",
           "dtultcomp": "02/06/2026",
           "dias": 49,
-          "media": 207.87
+          "media": 0.0
         },
         {
           "codcli": "90603",
@@ -5670,7 +5689,7 @@ const INATIVOS_DATA = {
           "cidade": "MACAE",
           "dtultcomp": "03/06/2026",
           "dias": 48,
-          "media": 2513.14
+          "media": 0.0
         },
         {
           "codcli": "93312",
@@ -5679,7 +5698,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "03/06/2026",
           "dias": 48,
-          "media": 1454.93
+          "media": 0.0
         },
         {
           "codcli": "90206",
@@ -5688,7 +5707,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "05/06/2026",
           "dias": 46,
-          "media": 992.32
+          "media": 0.0
         },
         {
           "codcli": "85937",
@@ -5697,7 +5716,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "09/06/2026",
           "dias": 42,
-          "media": 119.84
+          "media": 0.0
         },
         {
           "codcli": "85368",
@@ -5706,7 +5725,7 @@ const INATIVOS_DATA = {
           "cidade": "CASIMIRO DE ABR",
           "dtultcomp": "11/06/2026",
           "dias": 40,
-          "media": 1498.0
+          "media": 0.0
         },
         {
           "codcli": "85148",
@@ -5715,7 +5734,7 @@ const INATIVOS_DATA = {
           "cidade": "CASIMIRO DE ABR",
           "dtultcomp": "15/06/2026",
           "dias": 36,
-          "media": 1131.19
+          "media": 0.0
         },
         {
           "codcli": "90318",
@@ -5724,7 +5743,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "17/06/2026",
           "dias": 34,
-          "media": 299.6
+          "media": 0.0
         },
         {
           "codcli": "90048",
@@ -5733,7 +5752,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "19/06/2026",
           "dias": 32,
-          "media": 119.84
+          "media": 0.0
         }
       ],
       "novos": []
@@ -5785,7 +5804,7 @@ const INATIVOS_DATA = {
           "cidade": "QUEIMADOS",
           "dtultcomp": "26/05/2026",
           "dias": 56,
-          "media": 45636.48
+          "media": 0.0
         },
         {
           "codcli": "87116",
@@ -5794,7 +5813,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/05/2026",
           "dias": 53,
-          "media": 7747.2
+          "media": 0.0
         }
       ],
       "novos": []
@@ -5838,7 +5857,7 @@ const INATIVOS_DATA = {
           "cidade": "DUQUE DE CAXIAS",
           "dtultcomp": "30/04/2026",
           "dias": 82,
-          "media": 66.5
+          "media": 0.0
         },
         {
           "codcli": "90669",
@@ -5847,7 +5866,7 @@ const INATIVOS_DATA = {
           "cidade": "NOVA IGUACU",
           "dtultcomp": "02/05/2026",
           "dias": 80,
-          "media": 71.6
+          "media": 0.0
         },
         {
           "codcli": "84303",
@@ -5865,7 +5884,7 @@ const INATIVOS_DATA = {
           "cidade": "NOVA IGUACU",
           "dtultcomp": "09/05/2026",
           "dias": 73,
-          "media": 2500.4
+          "media": 0.0
         },
         {
           "codcli": "94855",
@@ -5874,7 +5893,7 @@ const INATIVOS_DATA = {
           "cidade": "DUQUE DE CAXIAS",
           "dtultcomp": "11/05/2026",
           "dias": 71,
-          "media": 435.2
+          "media": 0.0
         },
         {
           "codcli": "91150",
@@ -5883,7 +5902,7 @@ const INATIVOS_DATA = {
           "cidade": "GUAPIMIRIM",
           "dtultcomp": "11/05/2026",
           "dias": 71,
-          "media": 215.4
+          "media": 0.0
         },
         {
           "codcli": "91634",
@@ -5892,7 +5911,7 @@ const INATIVOS_DATA = {
           "cidade": "BELFORD ROXO",
           "dtultcomp": "14/05/2026",
           "dias": 68,
-          "media": 304.64
+          "media": 0.0
         },
         {
           "codcli": "83980",
@@ -5901,7 +5920,7 @@ const INATIVOS_DATA = {
           "cidade": "MAGE",
           "dtultcomp": "14/05/2026",
           "dias": 68,
-          "media": 515.43
+          "media": 0.0
         },
         {
           "codcli": "60349",
@@ -5910,7 +5929,7 @@ const INATIVOS_DATA = {
           "cidade": "DUQUE DE CAXIAS",
           "dtultcomp": "18/05/2026",
           "dias": 64,
-          "media": 408.88
+          "media": 0.0
         },
         {
           "codcli": "73083",
@@ -5919,7 +5938,7 @@ const INATIVOS_DATA = {
           "cidade": "DUQUE DE CAXIAS",
           "dtultcomp": "25/05/2026",
           "dias": 57,
-          "media": 1433.8
+          "media": 0.0
         },
         {
           "codcli": "92391",
@@ -5928,7 +5947,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "25/05/2026",
           "dias": 57,
-          "media": 1123.81
+          "media": 0.0
         },
         {
           "codcli": "86307",
@@ -5955,7 +5974,7 @@ const INATIVOS_DATA = {
           "cidade": "JAPERI",
           "dtultcomp": "28/05/2026",
           "dias": 54,
-          "media": 720.73
+          "media": 0.0
         },
         {
           "codcli": "84046",
@@ -5973,7 +5992,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/05/2026",
           "dias": 52,
-          "media": 506.0
+          "media": 0.0
         },
         {
           "codcli": "94175",
@@ -5982,7 +6001,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "01/06/2026",
           "dias": 50,
-          "media": 217.6
+          "media": 0.0
         },
         {
           "codcli": "95241",
@@ -5991,7 +6010,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "04/06/2026",
           "dias": 47,
-          "media": 91.6
+          "media": 0.0
         },
         {
           "codcli": "78216",
@@ -6009,7 +6028,7 @@ const INATIVOS_DATA = {
           "cidade": "DUQUE DE CAXIAS",
           "dtultcomp": "08/06/2026",
           "dias": 43,
-          "media": 1790.42
+          "media": 0.0
         },
         {
           "codcli": "18918",
@@ -6018,7 +6037,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "13/06/2026",
           "dias": 38,
-          "media": 1118.0
+          "media": 0.0
         },
         {
           "codcli": "3127",
@@ -6027,7 +6046,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "15/06/2026",
           "dias": 36,
-          "media": 2549.16
+          "media": 0.0
         },
         {
           "codcli": "95024",
@@ -6036,7 +6055,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PEDRO DA AL",
           "dtultcomp": "17/06/2026",
           "dias": 34,
-          "media": 10989.0
+          "media": 0.0
         },
         {
           "codcli": "2006",
@@ -6045,7 +6064,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "19/06/2026",
           "dias": 32,
-          "media": 6660.0
+          "media": 0.0
         },
         {
           "codcli": "90880",
@@ -6054,7 +6073,7 @@ const INATIVOS_DATA = {
           "cidade": "PETROPOLIS",
           "dtultcomp": "20/06/2026",
           "dias": 31,
-          "media": 119.6
+          "media": 0.0
         }
       ],
       "novos": []
@@ -6071,7 +6090,7 @@ const INATIVOS_DATA = {
           "cidade": "CARIACICA",
           "dtultcomp": "22/04/2026",
           "dias": 90,
-          "media": 103.99
+          "media": 0.0
         },
         {
           "codcli": "81247",
@@ -6098,7 +6117,7 @@ const INATIVOS_DATA = {
           "cidade": "VILA VELHA",
           "dtultcomp": "13/05/2026",
           "dias": 69,
-          "media": 417.84
+          "media": 0.0
         },
         {
           "codcli": "81246",
@@ -6116,7 +6135,7 @@ const INATIVOS_DATA = {
           "cidade": "CARIACICA",
           "dtultcomp": "27/05/2026",
           "dias": 55,
-          "media": 1751.02
+          "media": 0.0
         },
         {
           "codcli": "81679",
@@ -6125,7 +6144,7 @@ const INATIVOS_DATA = {
           "cidade": "CARIACICA",
           "dtultcomp": "27/05/2026",
           "dias": 55,
-          "media": 2038.06
+          "media": 0.0
         },
         {
           "codcli": "81696",
@@ -6134,7 +6153,7 @@ const INATIVOS_DATA = {
           "cidade": "CARIACICA",
           "dtultcomp": "27/05/2026",
           "dias": 55,
-          "media": 1802.19
+          "media": 0.0
         },
         {
           "codcli": "81681",
@@ -6143,7 +6162,7 @@ const INATIVOS_DATA = {
           "cidade": "CARIACICA",
           "dtultcomp": "27/05/2026",
           "dias": 55,
-          "media": 1774.94
+          "media": 0.0
         },
         {
           "codcli": "81690",
@@ -6152,7 +6171,7 @@ const INATIVOS_DATA = {
           "cidade": "CARIACICA",
           "dtultcomp": "27/05/2026",
           "dias": 55,
-          "media": 2038.06
+          "media": 0.0
         },
         {
           "codcli": "81677",
@@ -6161,7 +6180,7 @@ const INATIVOS_DATA = {
           "cidade": "VILA VELHA",
           "dtultcomp": "27/05/2026",
           "dias": 55,
-          "media": 1082.13
+          "media": 0.0
         },
         {
           "codcli": "81701",
@@ -6170,7 +6189,7 @@ const INATIVOS_DATA = {
           "cidade": "VILA VELHA",
           "dtultcomp": "10/06/2026",
           "dias": 41,
-          "media": 2861.6
+          "media": 0.0
         },
         {
           "codcli": "77045",
@@ -6179,7 +6198,7 @@ const INATIVOS_DATA = {
           "cidade": "VILA VELHA",
           "dtultcomp": "10/06/2026",
           "dias": 41,
-          "media": 1175.04
+          "media": 0.0
         },
         {
           "codcli": "74864",
@@ -6188,7 +6207,7 @@ const INATIVOS_DATA = {
           "cidade": "VILA VELHA",
           "dtultcomp": "10/06/2026",
           "dias": 41,
-          "media": 3540.44
+          "media": 0.0
         }
       ],
       "novos": [
@@ -6251,7 +6270,7 @@ const INATIVOS_DATA = {
           "cidade": "VILA VELHA",
           "dtultcomp": "15/06/2026",
           "dias": 36,
-          "media": 336441.6
+          "media": 0.0
         }
       ],
       "novos": []
@@ -6268,7 +6287,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "29/04/2026",
           "dias": 83,
-          "media": 105.17
+          "media": 0.0
         },
         {
           "codcli": "91074",
@@ -6286,7 +6305,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "05/05/2026",
           "dias": 77,
-          "media": 105.09
+          "media": 0.0
         },
         {
           "codcli": "87126",
@@ -6304,7 +6323,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "06/05/2026",
           "dias": 76,
-          "media": 289.27
+          "media": 0.0
         },
         {
           "codcli": "86540",
@@ -6313,7 +6332,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "06/05/2026",
           "dias": 76,
-          "media": 128.24
+          "media": 0.0
         },
         {
           "codcli": "84721",
@@ -6322,7 +6341,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "07/05/2026",
           "dias": 75,
-          "media": 158.9
+          "media": 0.0
         },
         {
           "codcli": "81121",
@@ -6331,7 +6350,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "13/05/2026",
           "dias": 69,
-          "media": 128.24
+          "media": 0.0
         },
         {
           "codcli": "83932",
@@ -6340,7 +6359,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "13/05/2026",
           "dias": 69,
-          "media": 120.46
+          "media": 0.0
         },
         {
           "codcli": "21171",
@@ -6349,7 +6368,7 @@ const INATIVOS_DATA = {
           "cidade": "DOMINGOS MARTIN",
           "dtultcomp": "15/05/2026",
           "dias": 67,
-          "media": 67.52
+          "media": 0.0
         },
         {
           "codcli": "82386",
@@ -6358,7 +6377,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "15/05/2026",
           "dias": 67,
-          "media": 563.94
+          "media": 0.0
         },
         {
           "codcli": "93770",
@@ -6367,7 +6386,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "18/05/2026",
           "dias": 64,
-          "media": 79.24
+          "media": 0.0
         },
         {
           "codcli": "81668",
@@ -6376,7 +6395,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "19/05/2026",
           "dias": 63,
-          "media": 128.24
+          "media": 0.0
         },
         {
           "codcli": "90610",
@@ -6385,7 +6404,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "20/05/2026",
           "dias": 62,
-          "media": 159.77
+          "media": 0.0
         },
         {
           "codcli": "76709",
@@ -6394,7 +6413,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "21/05/2026",
           "dias": 61,
-          "media": 103.87
+          "media": 0.0
         },
         {
           "codcli": "90369",
@@ -6403,7 +6422,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "22/05/2026",
           "dias": 60,
-          "media": 259.72
+          "media": 0.0
         },
         {
           "codcli": "85346",
@@ -6412,7 +6431,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "26/05/2026",
           "dias": 56,
-          "media": 220.83
+          "media": 0.0
         },
         {
           "codcli": "83803",
@@ -6421,7 +6440,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "26/05/2026",
           "dias": 56,
-          "media": 98.73
+          "media": 0.0
         },
         {
           "codcli": "90859",
@@ -6430,7 +6449,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "26/05/2026",
           "dias": 56,
-          "media": 104.21
+          "media": 0.0
         },
         {
           "codcli": "20940",
@@ -6439,7 +6458,7 @@ const INATIVOS_DATA = {
           "cidade": "VILA VELHA",
           "dtultcomp": "26/05/2026",
           "dias": 56,
-          "media": 348.08
+          "media": 0.0
         },
         {
           "codcli": "82298",
@@ -6448,7 +6467,7 @@ const INATIVOS_DATA = {
           "cidade": "VITORIA",
           "dtultcomp": "26/05/2026",
           "dias": 56,
-          "media": 607.2
+          "media": 0.0
         },
         {
           "codcli": "84367",
@@ -6457,7 +6476,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "27/05/2026",
           "dias": 55,
-          "media": 91.52
+          "media": 0.0
         },
         {
           "codcli": "85382",
@@ -6466,7 +6485,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "28/05/2026",
           "dias": 54,
-          "media": 117.41
+          "media": 0.0
         },
         {
           "codcli": "81304",
@@ -6475,7 +6494,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "29/05/2026",
           "dias": 53,
-          "media": 86.62
+          "media": 0.0
         },
         {
           "codcli": "81026",
@@ -6484,7 +6503,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "29/05/2026",
           "dias": 53,
-          "media": 145.17
+          "media": 0.0
         },
         {
           "codcli": "84008",
@@ -6493,7 +6512,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "03/06/2026",
           "dias": 48,
-          "media": 269.02
+          "media": 0.0
         },
         {
           "codcli": "21316",
@@ -6502,7 +6521,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "05/06/2026",
           "dias": 46,
-          "media": 838.09
+          "media": 0.0
         },
         {
           "codcli": "81202",
@@ -6511,7 +6530,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "08/06/2026",
           "dias": 43,
-          "media": 237.72
+          "media": 0.0
         },
         {
           "codcli": "86092",
@@ -6520,7 +6539,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "08/06/2026",
           "dias": 43,
-          "media": 106.25
+          "media": 0.0
         },
         {
           "codcli": "77522",
@@ -6529,7 +6548,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "10/06/2026",
           "dias": 41,
-          "media": 829.1
+          "media": 0.0
         }
       ],
       "novos": []
@@ -6546,7 +6565,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "22/04/2026",
           "dias": 90,
-          "media": 2160.15
+          "media": 0.0
         },
         {
           "codcli": "94326",
@@ -6555,7 +6574,7 @@ const INATIVOS_DATA = {
           "cidade": "CARIACICA",
           "dtultcomp": "23/04/2026",
           "dias": 89,
-          "media": 2008.67
+          "media": 0.0
         },
         {
           "codcli": "94660",
@@ -6573,7 +6592,7 @@ const INATIVOS_DATA = {
           "cidade": "CARIACICA",
           "dtultcomp": "04/05/2026",
           "dias": 78,
-          "media": 2054.57
+          "media": 0.0
         },
         {
           "codcli": "91293",
@@ -6582,7 +6601,7 @@ const INATIVOS_DATA = {
           "cidade": "VIANA",
           "dtultcomp": "04/05/2026",
           "dias": 78,
-          "media": 996.5
+          "media": 0.0
         },
         {
           "codcli": "85427",
@@ -6591,7 +6610,7 @@ const INATIVOS_DATA = {
           "cidade": "CARIACICA",
           "dtultcomp": "04/05/2026",
           "dias": 78,
-          "media": 300.64
+          "media": 0.0
         },
         {
           "codcli": "85440",
@@ -6600,7 +6619,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "05/05/2026",
           "dias": 77,
-          "media": 1180.85
+          "media": 0.0
         },
         {
           "codcli": "85416",
@@ -6609,7 +6628,7 @@ const INATIVOS_DATA = {
           "cidade": "VITORIA",
           "dtultcomp": "22/05/2026",
           "dias": 60,
-          "media": 1522.0
+          "media": 0.0
         },
         {
           "codcli": "85417",
@@ -6618,7 +6637,7 @@ const INATIVOS_DATA = {
           "cidade": "VITORIA",
           "dtultcomp": "22/05/2026",
           "dias": 60,
-          "media": 1530.1
+          "media": 0.0
         },
         {
           "codcli": "85407",
@@ -6627,7 +6646,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "25/05/2026",
           "dias": 57,
-          "media": 2921.58
+          "media": 0.0
         },
         {
           "codcli": "85425",
@@ -6636,7 +6655,7 @@ const INATIVOS_DATA = {
           "cidade": "VITORIA",
           "dtultcomp": "25/05/2026",
           "dias": 57,
-          "media": 901.91
+          "media": 0.0
         },
         {
           "codcli": "85420",
@@ -6645,7 +6664,7 @@ const INATIVOS_DATA = {
           "cidade": "VITORIA",
           "dtultcomp": "25/05/2026",
           "dias": 57,
-          "media": 2218.39
+          "media": 0.0
         },
         {
           "codcli": "85426",
@@ -6654,7 +6673,7 @@ const INATIVOS_DATA = {
           "cidade": "CARIACICA",
           "dtultcomp": "25/05/2026",
           "dias": 57,
-          "media": 1081.24
+          "media": 0.0
         },
         {
           "codcli": "85428",
@@ -6663,7 +6682,7 @@ const INATIVOS_DATA = {
           "cidade": "CARIACICA",
           "dtultcomp": "25/05/2026",
           "dias": 57,
-          "media": 820.83
+          "media": 0.0
         },
         {
           "codcli": "85422",
@@ -6672,7 +6691,7 @@ const INATIVOS_DATA = {
           "cidade": "VITORIA",
           "dtultcomp": "25/05/2026",
           "dias": 57,
-          "media": 1176.05
+          "media": 0.0
         },
         {
           "codcli": "82283",
@@ -6681,7 +6700,7 @@ const INATIVOS_DATA = {
           "cidade": "MARATAIZES",
           "dtultcomp": "26/05/2026",
           "dias": 56,
-          "media": 1715.92
+          "media": 0.0
         },
         {
           "codcli": "85434",
@@ -6690,7 +6709,7 @@ const INATIVOS_DATA = {
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "26/05/2026",
           "dias": 56,
-          "media": 2756.09
+          "media": 0.0
         },
         {
           "codcli": "85435",
@@ -6699,7 +6718,7 @@ const INATIVOS_DATA = {
           "cidade": "MARECHAL FLORIA",
           "dtultcomp": "26/05/2026",
           "dias": 56,
-          "media": 273.44
+          "media": 0.0
         },
         {
           "codcli": "85433",
@@ -6708,7 +6727,7 @@ const INATIVOS_DATA = {
           "cidade": "LINHARES",
           "dtultcomp": "28/05/2026",
           "dias": 54,
-          "media": 2397.3
+          "media": 0.0
         },
         {
           "codcli": "85401",
@@ -6717,7 +6736,7 @@ const INATIVOS_DATA = {
           "cidade": "COLATINA",
           "dtultcomp": "28/05/2026",
           "dias": 54,
-          "media": 4380.87
+          "media": 0.0
         },
         {
           "codcli": "85400",
@@ -6726,7 +6745,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO MATEUS",
           "dtultcomp": "28/05/2026",
           "dias": 54,
-          "media": 2042.24
+          "media": 0.0
         },
         {
           "codcli": "85432",
@@ -6735,7 +6754,7 @@ const INATIVOS_DATA = {
           "cidade": "LINHARES",
           "dtultcomp": "28/05/2026",
           "dias": 54,
-          "media": 4063.21
+          "media": 0.0
         },
         {
           "codcli": "85424",
@@ -6744,7 +6763,7 @@ const INATIVOS_DATA = {
           "cidade": "VITORIA",
           "dtultcomp": "28/05/2026",
           "dias": 54,
-          "media": 4397.3
+          "media": 0.0
         },
         {
           "codcli": "85411",
@@ -6753,7 +6772,7 @@ const INATIVOS_DATA = {
           "cidade": "VILA VELHA",
           "dtultcomp": "29/05/2026",
           "dias": 53,
-          "media": 2142.93
+          "media": 0.0
         },
         {
           "codcli": "79791",
@@ -6762,7 +6781,7 @@ const INATIVOS_DATA = {
           "cidade": "VENDA NOVA DO I",
           "dtultcomp": "16/06/2026",
           "dias": 35,
-          "media": 1086.12
+          "media": 0.0
         },
         {
           "codcli": "85403",
@@ -6771,7 +6790,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "18/06/2026",
           "dias": 33,
-          "media": 1256.87
+          "media": 0.0
         },
         {
           "codcli": "76071",
@@ -6780,7 +6799,7 @@ const INATIVOS_DATA = {
           "cidade": "VILA VELHA",
           "dtultcomp": "19/06/2026",
           "dias": 32,
-          "media": 1484.32
+          "media": 0.0
         }
       ],
       "novos": []
@@ -6797,7 +6816,7 @@ const INATIVOS_DATA = {
           "cidade": "DOMINGOS MARTIN",
           "dtultcomp": "23/04/2026",
           "dias": 89,
-          "media": 568.08
+          "media": 0.0
         },
         {
           "codcli": "90896",
@@ -6806,7 +6825,7 @@ const INATIVOS_DATA = {
           "cidade": "MARECHAL FLORIA",
           "dtultcomp": "23/04/2026",
           "dias": 89,
-          "media": 116.91
+          "media": 0.0
         },
         {
           "codcli": "81442",
@@ -6815,7 +6834,7 @@ const INATIVOS_DATA = {
           "cidade": "DOMINGOS MARTIN",
           "dtultcomp": "23/04/2026",
           "dias": 89,
-          "media": 512.53
+          "media": 0.0
         },
         {
           "codcli": "81441",
@@ -6824,7 +6843,7 @@ const INATIVOS_DATA = {
           "cidade": "MARECHAL FLORIA",
           "dtultcomp": "23/04/2026",
           "dias": 89,
-          "media": 775.17
+          "media": 0.0
         },
         {
           "codcli": "84095",
@@ -6833,7 +6852,7 @@ const INATIVOS_DATA = {
           "cidade": "VENDA NOVA DO I",
           "dtultcomp": "23/04/2026",
           "dias": 89,
-          "media": 108.29
+          "media": 0.0
         },
         {
           "codcli": "93184",
@@ -6851,7 +6870,7 @@ const INATIVOS_DATA = {
           "cidade": "VENDA NOVA DO I",
           "dtultcomp": "23/04/2026",
           "dias": 89,
-          "media": 126.78
+          "media": 0.0
         },
         {
           "codcli": "21127",
@@ -6896,7 +6915,7 @@ const INATIVOS_DATA = {
           "cidade": "VENDA NOVA DO I",
           "dtultcomp": "06/05/2026",
           "dias": 76,
-          "media": 127.91
+          "media": 0.0
         },
         {
           "codcli": "85234",
@@ -6905,7 +6924,7 @@ const INATIVOS_DATA = {
           "cidade": "VENDA NOVA DO I",
           "dtultcomp": "06/05/2026",
           "dias": 76,
-          "media": 242.27
+          "media": 0.0
         },
         {
           "codcli": "83935",
@@ -6914,7 +6933,7 @@ const INATIVOS_DATA = {
           "cidade": "VENDA NOVA DO I",
           "dtultcomp": "06/05/2026",
           "dias": 76,
-          "media": 318.39
+          "media": 0.0
         },
         {
           "codcli": "84822",
@@ -6923,7 +6942,7 @@ const INATIVOS_DATA = {
           "cidade": "VENDA NOVA DO I",
           "dtultcomp": "06/05/2026",
           "dias": 76,
-          "media": 127.17
+          "media": 0.0
         },
         {
           "codcli": "85310",
@@ -6941,7 +6960,7 @@ const INATIVOS_DATA = {
           "cidade": "VENDA NOVA DO I",
           "dtultcomp": "15/05/2026",
           "dias": 67,
-          "media": 54.93
+          "media": 0.0
         },
         {
           "codcli": "84823",
@@ -6950,7 +6969,7 @@ const INATIVOS_DATA = {
           "cidade": "VENDA NOVA DO I",
           "dtultcomp": "15/05/2026",
           "dias": 67,
-          "media": 59.33
+          "media": 0.0
         },
         {
           "codcli": "83934",
@@ -6959,7 +6978,7 @@ const INATIVOS_DATA = {
           "cidade": "VENDA NOVA DO I",
           "dtultcomp": "15/05/2026",
           "dias": 67,
-          "media": 169.0
+          "media": 0.0
         },
         {
           "codcli": "91502",
@@ -6968,7 +6987,7 @@ const INATIVOS_DATA = {
           "cidade": "DOMINGOS MARTIN",
           "dtultcomp": "15/05/2026",
           "dias": 67,
-          "media": 176.8
+          "media": 0.0
         },
         {
           "codcli": "76696",
@@ -6977,7 +6996,7 @@ const INATIVOS_DATA = {
           "cidade": "DOMINGOS MARTIN",
           "dtultcomp": "15/05/2026",
           "dias": 67,
-          "media": 244.15
+          "media": 0.0
         },
         {
           "codcli": "93694",
@@ -6986,7 +7005,7 @@ const INATIVOS_DATA = {
           "cidade": "AFONSO CLAUDIO",
           "dtultcomp": "15/05/2026",
           "dias": 67,
-          "media": 731.67
+          "media": 0.0
         },
         {
           "codcli": "90523",
@@ -6995,7 +7014,7 @@ const INATIVOS_DATA = {
           "cidade": "DOMINGOS MARTIN",
           "dtultcomp": "19/05/2026",
           "dias": 63,
-          "media": 2268.16
+          "media": 0.0
         },
         {
           "codcli": "83926",
@@ -7004,7 +7023,7 @@ const INATIVOS_DATA = {
           "cidade": "VENDA NOVA DO I",
           "dtultcomp": "20/05/2026",
           "dias": 62,
-          "media": 320.76
+          "media": 0.0
         },
         {
           "codcli": "75373",
@@ -7013,7 +7032,7 @@ const INATIVOS_DATA = {
           "cidade": "VENDA NOVA DO I",
           "dtultcomp": "25/05/2026",
           "dias": 57,
-          "media": 59.33
+          "media": 0.0
         },
         {
           "codcli": "84669",
@@ -7022,7 +7041,7 @@ const INATIVOS_DATA = {
           "cidade": "AFONSO CLAUDIO",
           "dtultcomp": "25/05/2026",
           "dias": 57,
-          "media": 157.05
+          "media": 0.0
         },
         {
           "codcli": "93622",
@@ -7031,7 +7050,7 @@ const INATIVOS_DATA = {
           "cidade": "GUACUI",
           "dtultcomp": "26/05/2026",
           "dias": 56,
-          "media": 176.32
+          "media": 0.0
         },
         {
           "codcli": "72623",
@@ -7040,7 +7059,7 @@ const INATIVOS_DATA = {
           "cidade": "VENDA NOVA DO I",
           "dtultcomp": "27/05/2026",
           "dias": 55,
-          "media": 12764.3
+          "media": 0.0
         },
         {
           "codcli": "93829",
@@ -7049,7 +7068,7 @@ const INATIVOS_DATA = {
           "cidade": "GUACUI",
           "dtultcomp": "27/05/2026",
           "dias": 55,
-          "media": 3594.76
+          "media": 0.0
         },
         {
           "codcli": "82653",
@@ -7067,7 +7086,7 @@ const INATIVOS_DATA = {
           "cidade": "CONCEICAO DO CA",
           "dtultcomp": "29/05/2026",
           "dias": 53,
-          "media": 6240.69
+          "media": 0.0
         },
         {
           "codcli": "95195",
@@ -7076,7 +7095,7 @@ const INATIVOS_DATA = {
           "cidade": "DOMINGOS MARTIN",
           "dtultcomp": "29/05/2026",
           "dias": 53,
-          "media": 122.61
+          "media": 0.0
         },
         {
           "codcli": "95194",
@@ -7085,7 +7104,7 @@ const INATIVOS_DATA = {
           "cidade": "DOMINGOS MARTIN",
           "dtultcomp": "29/05/2026",
           "dias": 53,
-          "media": 119.6
+          "media": 0.0
         },
         {
           "codcli": "86069",
@@ -7094,7 +7113,7 @@ const INATIVOS_DATA = {
           "cidade": "DOMINGOS MARTIN",
           "dtultcomp": "29/05/2026",
           "dias": 53,
-          "media": 1619.84
+          "media": 0.0
         },
         {
           "codcli": "93650",
@@ -7103,7 +7122,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "08/06/2026",
           "dias": 43,
-          "media": 5990.0
+          "media": 0.0
         },
         {
           "codcli": "84010",
@@ -7112,7 +7131,7 @@ const INATIVOS_DATA = {
           "cidade": "VENDA NOVA DO I",
           "dtultcomp": "09/06/2026",
           "dias": 42,
-          "media": 910.27
+          "media": 0.0
         },
         {
           "codcli": "84611",
@@ -7121,7 +7140,7 @@ const INATIVOS_DATA = {
           "cidade": "AFONSO CLAUDIO",
           "dtultcomp": "09/06/2026",
           "dias": 42,
-          "media": 2964.47
+          "media": 0.0
         },
         {
           "codcli": "79858",
@@ -7130,7 +7149,7 @@ const INATIVOS_DATA = {
           "cidade": "VENDA NOVA DO I",
           "dtultcomp": "09/06/2026",
           "dias": 42,
-          "media": 5902.38
+          "media": 0.0
         },
         {
           "codcli": "77557",
@@ -7139,7 +7158,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "09/06/2026",
           "dias": 42,
-          "media": 1760.0
+          "media": 0.0
         },
         {
           "codcli": "81521",
@@ -7148,7 +7167,7 @@ const INATIVOS_DATA = {
           "cidade": "AFONSO CLAUDIO",
           "dtultcomp": "09/06/2026",
           "dias": 42,
-          "media": 978.6
+          "media": 0.0
         },
         {
           "codcli": "84019",
@@ -7157,7 +7176,7 @@ const INATIVOS_DATA = {
           "cidade": "DOMINGOS MARTIN",
           "dtultcomp": "09/06/2026",
           "dias": 42,
-          "media": 459.37
+          "media": 0.0
         },
         {
           "codcli": "79770",
@@ -7166,7 +7185,7 @@ const INATIVOS_DATA = {
           "cidade": "BREJETUBA",
           "dtultcomp": "16/06/2026",
           "dias": 35,
-          "media": 1137.1
+          "media": 0.0
         },
         {
           "codcli": "84018",
@@ -7175,7 +7194,7 @@ const INATIVOS_DATA = {
           "cidade": "VENDA NOVA DO I",
           "dtultcomp": "16/06/2026",
           "dias": 35,
-          "media": 1213.21
+          "media": 0.0
         }
       ],
       "novos": []
@@ -7192,7 +7211,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "23/04/2026",
           "dias": 89,
-          "media": 258.69
+          "media": 0.0
         },
         {
           "codcli": "83924",
@@ -7210,7 +7229,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "24/04/2026",
           "dias": 88,
-          "media": 3158.81
+          "media": 0.0
         },
         {
           "codcli": "71249",
@@ -7219,7 +7238,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "24/04/2026",
           "dias": 88,
-          "media": 268.48
+          "media": 0.0
         },
         {
           "codcli": "84962",
@@ -7228,7 +7247,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "28/04/2026",
           "dias": 84,
-          "media": 96.59
+          "media": 0.0
         },
         {
           "codcli": "84486",
@@ -7237,7 +7256,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "28/04/2026",
           "dias": 84,
-          "media": 141.96
+          "media": 0.0
         },
         {
           "codcli": "80898",
@@ -7246,7 +7265,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "28/04/2026",
           "dias": 84,
-          "media": 617.79
+          "media": 0.0
         },
         {
           "codcli": "92406",
@@ -7255,7 +7274,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "30/04/2026",
           "dias": 82,
-          "media": 65.52
+          "media": 0.0
         },
         {
           "codcli": "78043",
@@ -7264,7 +7283,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "30/04/2026",
           "dias": 82,
-          "media": 516.82
+          "media": 0.0
         },
         {
           "codcli": "90018",
@@ -7273,7 +7292,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "30/04/2026",
           "dias": 82,
-          "media": 104.32
+          "media": 0.0
         },
         {
           "codcli": "90604",
@@ -7282,7 +7301,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "05/05/2026",
           "dias": 77,
-          "media": 285.32
+          "media": 0.0
         },
         {
           "codcli": "81641",
@@ -7291,7 +7310,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "05/05/2026",
           "dias": 77,
-          "media": 845.02
+          "media": 0.0
         },
         {
           "codcli": "82011",
@@ -7300,7 +7319,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "05/05/2026",
           "dias": 77,
-          "media": 97.92
+          "media": 0.0
         },
         {
           "codcli": "76398",
@@ -7309,7 +7328,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "05/05/2026",
           "dias": 77,
-          "media": 60.02
+          "media": 0.0
         },
         {
           "codcli": "71690",
@@ -7318,7 +7337,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "05/05/2026",
           "dias": 77,
-          "media": 200.16
+          "media": 0.0
         },
         {
           "codcli": "90128",
@@ -7327,7 +7346,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "06/05/2026",
           "dias": 76,
-          "media": 396.33
+          "media": 0.0
         },
         {
           "codcli": "85948",
@@ -7336,7 +7355,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "06/05/2026",
           "dias": 76,
-          "media": 97.91
+          "media": 0.0
         },
         {
           "codcli": "86246",
@@ -7345,7 +7364,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "06/05/2026",
           "dias": 76,
-          "media": 119.0
+          "media": 0.0
         },
         {
           "codcli": "76489",
@@ -7354,7 +7373,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "07/05/2026",
           "dias": 75,
-          "media": 74.48
+          "media": 0.0
         },
         {
           "codcli": "84610",
@@ -7363,7 +7382,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "07/05/2026",
           "dias": 75,
-          "media": 123.85
+          "media": 0.0
         },
         {
           "codcli": "73065",
@@ -7372,7 +7391,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "07/05/2026",
           "dias": 75,
-          "media": 117.02
+          "media": 0.0
         },
         {
           "codcli": "80277",
@@ -7381,7 +7400,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "07/05/2026",
           "dias": 75,
-          "media": 189.36
+          "media": 0.0
         },
         {
           "codcli": "89975",
@@ -7390,7 +7409,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "07/05/2026",
           "dias": 75,
-          "media": 209.97
+          "media": 0.0
         },
         {
           "codcli": "94198",
@@ -7399,7 +7418,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "07/05/2026",
           "dias": 75,
-          "media": 882.96
+          "media": 0.0
         },
         {
           "codcli": "78101",
@@ -7408,7 +7427,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "08/05/2026",
           "dias": 74,
-          "media": 71.92
+          "media": 0.0
         },
         {
           "codcli": "71124",
@@ -7417,7 +7436,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "08/05/2026",
           "dias": 74,
-          "media": 262.08
+          "media": 0.0
         },
         {
           "codcli": "93334",
@@ -7426,7 +7445,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "08/05/2026",
           "dias": 74,
-          "media": 229.39
+          "media": 0.0
         },
         {
           "codcli": "81765",
@@ -7435,7 +7454,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "08/05/2026",
           "dias": 74,
-          "media": 189.36
+          "media": 0.0
         },
         {
           "codcli": "90046",
@@ -7444,7 +7463,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "08/05/2026",
           "dias": 74,
-          "media": 226.64
+          "media": 0.0
         },
         {
           "codcli": "84381",
@@ -7453,7 +7472,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "11/05/2026",
           "dias": 71,
-          "media": 364.31
+          "media": 0.0
         },
         {
           "codcli": "76102",
@@ -7462,7 +7481,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "11/05/2026",
           "dias": 71,
-          "media": 111.08
+          "media": 0.0
         },
         {
           "codcli": "91130",
@@ -7471,7 +7490,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "11/05/2026",
           "dias": 71,
-          "media": 63.12
+          "media": 0.0
         },
         {
           "codcli": "84887",
@@ -7480,7 +7499,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "12/05/2026",
           "dias": 70,
-          "media": 470.77
+          "media": 0.0
         },
         {
           "codcli": "84597",
@@ -7489,7 +7508,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "12/05/2026",
           "dias": 70,
-          "media": 146.31
+          "media": 0.0
         },
         {
           "codcli": "84325",
@@ -7498,7 +7517,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "12/05/2026",
           "dias": 70,
-          "media": 56.55
+          "media": 0.0
         },
         {
           "codcli": "84784",
@@ -7507,7 +7526,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "13/05/2026",
           "dias": 69,
-          "media": 87.53
+          "media": 0.0
         },
         {
           "codcli": "79678",
@@ -7516,7 +7535,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "13/05/2026",
           "dias": 69,
-          "media": 248.5
+          "media": 0.0
         },
         {
           "codcli": "84964",
@@ -7525,7 +7544,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "14/05/2026",
           "dias": 68,
-          "media": 269.43
+          "media": 0.0
         },
         {
           "codcli": "71045",
@@ -7534,7 +7553,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "14/05/2026",
           "dias": 68,
-          "media": 263.0
+          "media": 0.0
         },
         {
           "codcli": "90537",
@@ -7543,7 +7562,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "14/05/2026",
           "dias": 68,
-          "media": 146.73
+          "media": 0.0
         },
         {
           "codcli": "70787",
@@ -7552,7 +7571,7 @@ const INATIVOS_DATA = {
           "cidade": "CARIACICA",
           "dtultcomp": "18/05/2026",
           "dias": 64,
-          "media": 252.48
+          "media": 0.0
         },
         {
           "codcli": "85947",
@@ -7561,7 +7580,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "19/05/2026",
           "dias": 63,
-          "media": 171.71
+          "media": 0.0
         },
         {
           "codcli": "84959",
@@ -7570,7 +7589,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "19/05/2026",
           "dias": 63,
-          "media": 298.67
+          "media": 0.0
         },
         {
           "codcli": "71518",
@@ -7579,7 +7598,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "20/05/2026",
           "dias": 62,
-          "media": 206.32
+          "media": 0.0
         },
         {
           "codcli": "84551",
@@ -7588,7 +7607,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "20/05/2026",
           "dias": 62,
-          "media": 88.45
+          "media": 0.0
         },
         {
           "codcli": "84557",
@@ -7597,7 +7616,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "20/05/2026",
           "dias": 62,
-          "media": 54.38
+          "media": 0.0
         },
         {
           "codcli": "71252",
@@ -7606,7 +7625,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "21/05/2026",
           "dias": 61,
-          "media": 923.68
+          "media": 0.0
         },
         {
           "codcli": "78102",
@@ -7624,7 +7643,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "22/05/2026",
           "dias": 60,
-          "media": 58.69
+          "media": 0.0
         },
         {
           "codcli": "92329",
@@ -7633,7 +7652,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "26/05/2026",
           "dias": 56,
-          "media": 117.28
+          "media": 0.0
         },
         {
           "codcli": "89991",
@@ -7642,7 +7661,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "27/05/2026",
           "dias": 55,
-          "media": 65.52
+          "media": 0.0
         },
         {
           "codcli": "80294",
@@ -7651,7 +7670,7 @@ const INATIVOS_DATA = {
           "cidade": "FUNDAO",
           "dtultcomp": "27/05/2026",
           "dias": 55,
-          "media": 272.24
+          "media": 0.0
         },
         {
           "codcli": "80285",
@@ -7660,7 +7679,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "27/05/2026",
           "dias": 55,
-          "media": 1109.36
+          "media": 0.0
         },
         {
           "codcli": "50485",
@@ -7686,7 +7705,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "09/05/2026",
           "dias": 73,
-          "media": 8651.4
+          "media": 0.0
         },
         {
           "codcli": "2909",
@@ -7695,7 +7714,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO JOAO DE MER",
           "dtultcomp": "19/05/2026",
           "dias": 63,
-          "media": 2153.4
+          "media": 0.0
         },
         {
           "codcli": "85866",
@@ -7704,7 +7723,7 @@ const INATIVOS_DATA = {
           "cidade": "MARICA",
           "dtultcomp": "27/05/2026",
           "dias": 55,
-          "media": 378.73
+          "media": 0.0
         },
         {
           "codcli": "95076",
@@ -7713,7 +7732,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/05/2026",
           "dias": 53,
-          "media": 61.84
+          "media": 0.0
         },
         {
           "codcli": "82219",
@@ -7722,7 +7741,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/05/2026",
           "dias": 53,
-          "media": 2223.72
+          "media": 0.0
         },
         {
           "codcli": "86100",
@@ -7731,7 +7750,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/05/2026",
           "dias": 53,
-          "media": 1859.24
+          "media": 0.0
         }
       ],
       "novos": [
@@ -7830,7 +7849,7 @@ const INATIVOS_DATA = {
           "cidade": "CARIACICA",
           "dtultcomp": "30/04/2026",
           "dias": 82,
-          "media": 55.27
+          "media": 0.0
         },
         {
           "codcli": "80133",
@@ -7839,7 +7858,7 @@ const INATIVOS_DATA = {
           "cidade": "VIANA",
           "dtultcomp": "04/05/2026",
           "dias": 78,
-          "media": 309.79
+          "media": 0.0
         },
         {
           "codcli": "85066",
@@ -7848,7 +7867,7 @@ const INATIVOS_DATA = {
           "cidade": "CARIACICA",
           "dtultcomp": "11/05/2026",
           "dias": 71,
-          "media": 367.69
+          "media": 0.0
         },
         {
           "codcli": "86471",
@@ -7857,7 +7876,7 @@ const INATIVOS_DATA = {
           "cidade": "CARIACICA",
           "dtultcomp": "14/05/2026",
           "dias": 68,
-          "media": 47.38
+          "media": 0.0
         },
         {
           "codcli": "82220",
@@ -7875,7 +7894,7 @@ const INATIVOS_DATA = {
           "cidade": "VIANA",
           "dtultcomp": "20/05/2026",
           "dias": 62,
-          "media": 262.67
+          "media": 0.0
         },
         {
           "codcli": "76509",
@@ -7884,7 +7903,7 @@ const INATIVOS_DATA = {
           "cidade": "CARIACICA",
           "dtultcomp": "21/05/2026",
           "dias": 61,
-          "media": 92.07
+          "media": 0.0
         },
         {
           "codcli": "94133",
@@ -7893,7 +7912,7 @@ const INATIVOS_DATA = {
           "cidade": "CARIACICA",
           "dtultcomp": "25/05/2026",
           "dias": 57,
-          "media": 189.36
+          "media": 0.0
         },
         {
           "codcli": "93843",
@@ -7902,7 +7921,7 @@ const INATIVOS_DATA = {
           "cidade": "CARIACICA",
           "dtultcomp": "26/05/2026",
           "dias": 56,
-          "media": 159.68
+          "media": 0.0
         },
         {
           "codcli": "77410",
@@ -7911,7 +7930,7 @@ const INATIVOS_DATA = {
           "cidade": "VIANA",
           "dtultcomp": "26/05/2026",
           "dias": 56,
-          "media": 40.99
+          "media": 0.0
         }
       ],
       "novos": []
@@ -7945,7 +7964,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PEDRO DA AL",
           "dtultcomp": "04/05/2026",
           "dias": 78,
-          "media": 2817.44
+          "media": 0.0
         },
         {
           "codcli": "56716",
@@ -7954,7 +7973,7 @@ const INATIVOS_DATA = {
           "cidade": "ITABORAI",
           "dtultcomp": "06/05/2026",
           "dias": 76,
-          "media": 3553.2
+          "media": 0.0
         },
         {
           "codcli": "79838",
@@ -7963,7 +7982,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "14/05/2026",
           "dias": 68,
-          "media": 186.74
+          "media": 0.0
         },
         {
           "codcli": "2277",
@@ -7972,7 +7991,7 @@ const INATIVOS_DATA = {
           "cidade": "SAQUAREMA",
           "dtultcomp": "26/05/2026",
           "dias": 56,
-          "media": 698.72
+          "media": 0.0
         },
         {
           "codcli": "60083",
@@ -7981,7 +8000,7 @@ const INATIVOS_DATA = {
           "cidade": "MARICA",
           "dtultcomp": "29/05/2026",
           "dias": 53,
-          "media": 1330.77
+          "media": 0.0
         },
         {
           "codcli": "90414",
@@ -7990,7 +8009,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "13/06/2026",
           "dias": 38,
-          "media": 546.42
+          "media": 0.0
         },
         {
           "codcli": "94769",
@@ -7999,7 +8018,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "16/06/2026",
           "dias": 35,
-          "media": 263.13
+          "media": 0.0
         },
         {
           "codcli": "58584",
@@ -8008,7 +8027,7 @@ const INATIVOS_DATA = {
           "cidade": "ITABORAI",
           "dtultcomp": "17/06/2026",
           "dias": 34,
-          "media": 38342.48
+          "media": 0.0
         },
         {
           "codcli": "84829",
@@ -8017,7 +8036,7 @@ const INATIVOS_DATA = {
           "cidade": "SAQUAREMA",
           "dtultcomp": "18/06/2026",
           "dias": 33,
-          "media": 5838.42
+          "media": 0.0
         }
       ],
       "novos": [
@@ -8062,7 +8081,7 @@ const INATIVOS_DATA = {
           "cidade": "BARRA MANSA",
           "dtultcomp": "12/05/2026",
           "dias": 70,
-          "media": 139.6
+          "media": 0.0
         },
         {
           "codcli": "74403",
@@ -8071,7 +8090,7 @@ const INATIVOS_DATA = {
           "cidade": "MARICA",
           "dtultcomp": "28/05/2026",
           "dias": 54,
-          "media": 1880.34
+          "media": 0.0
         },
         {
           "codcli": "74405",
@@ -8080,7 +8099,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "28/05/2026",
           "dias": 54,
-          "media": 343.92
+          "media": 0.0
         },
         {
           "codcli": "79597",
@@ -8089,7 +8108,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "28/05/2026",
           "dias": 54,
-          "media": 2175.04
+          "media": 0.0
         },
         {
           "codcli": "84014",
@@ -8098,7 +8117,7 @@ const INATIVOS_DATA = {
           "cidade": "VOLTA REDONDA",
           "dtultcomp": "29/05/2026",
           "dias": 53,
-          "media": 139.6
+          "media": 0.0
         },
         {
           "codcli": "83962",
@@ -8107,7 +8126,7 @@ const INATIVOS_DATA = {
           "cidade": "QUEIMADOS",
           "dtultcomp": "29/05/2026",
           "dias": 53,
-          "media": 2185.0
+          "media": 0.0
         },
         {
           "codcli": "94914",
@@ -8116,7 +8135,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "05/06/2026",
           "dias": 46,
-          "media": 5371.8
+          "media": 0.0
         },
         {
           "codcli": "74411",
@@ -8125,7 +8144,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO JOAO DE MER",
           "dtultcomp": "18/06/2026",
           "dias": 33,
-          "media": 171.96
+          "media": 0.0
         },
         {
           "codcli": "60844",
@@ -8134,7 +8153,7 @@ const INATIVOS_DATA = {
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "18/06/2026",
           "dias": 33,
-          "media": 3299.24
+          "media": 0.0
         }
       ],
       "novos": []
@@ -8151,7 +8170,7 @@ const INATIVOS_DATA = {
           "cidade": "ARACRUZ",
           "dtultcomp": "24/04/2026",
           "dias": 88,
-          "media": 119.6
+          "media": 0.0
         },
         {
           "codcli": "81400",
@@ -8160,7 +8179,7 @@ const INATIVOS_DATA = {
           "cidade": "ARACRUZ",
           "dtultcomp": "24/04/2026",
           "dias": 88,
-          "media": 108.24
+          "media": 0.0
         },
         {
           "codcli": "72559",
@@ -8169,7 +8188,7 @@ const INATIVOS_DATA = {
           "cidade": "COLATINA",
           "dtultcomp": "29/04/2026",
           "dias": 83,
-          "media": 104.28
+          "media": 0.0
         },
         {
           "codcli": "93773",
@@ -8187,7 +8206,7 @@ const INATIVOS_DATA = {
           "cidade": "ARACRUZ",
           "dtultcomp": "13/05/2026",
           "dias": 69,
-          "media": 57.9
+          "media": 0.0
         },
         {
           "codcli": "94249",
@@ -8196,7 +8215,7 @@ const INATIVOS_DATA = {
           "cidade": "ARACRUZ",
           "dtultcomp": "13/05/2026",
           "dias": 69,
-          "media": 58.67
+          "media": 0.0
         },
         {
           "codcli": "90029",
@@ -8205,7 +8224,7 @@ const INATIVOS_DATA = {
           "cidade": "JOAO NEIVA",
           "dtultcomp": "22/05/2026",
           "dias": 60,
-          "media": 74.68
+          "media": 0.0
         },
         {
           "codcli": "94197",
@@ -8214,7 +8233,7 @@ const INATIVOS_DATA = {
           "cidade": "IBIRACU",
           "dtultcomp": "28/05/2026",
           "dias": 54,
-          "media": 121.44
+          "media": 0.0
         },
         {
           "codcli": "93959",
@@ -8223,7 +8242,7 @@ const INATIVOS_DATA = {
           "cidade": "ARACRUZ",
           "dtultcomp": "28/05/2026",
           "dias": 54,
-          "media": 77.8
+          "media": 0.0
         },
         {
           "codcli": "93865",
@@ -8232,7 +8251,7 @@ const INATIVOS_DATA = {
           "cidade": "ARACRUZ",
           "dtultcomp": "28/05/2026",
           "dias": 54,
-          "media": 126.06
+          "media": 0.0
         },
         {
           "codcli": "94241",
@@ -8241,7 +8260,7 @@ const INATIVOS_DATA = {
           "cidade": "ARACRUZ",
           "dtultcomp": "29/05/2026",
           "dias": 53,
-          "media": 70.02
+          "media": 0.0
         },
         {
           "codcli": "81351",
@@ -8259,7 +8278,7 @@ const INATIVOS_DATA = {
           "cidade": "NOVA VENECIA",
           "dtultcomp": "10/06/2026",
           "dias": 41,
-          "media": 4368.0
+          "media": 0.0
         },
         {
           "codcli": "94126",
@@ -8268,7 +8287,7 @@ const INATIVOS_DATA = {
           "cidade": "ARACRUZ",
           "dtultcomp": "16/06/2026",
           "dias": 35,
-          "media": 1954.79
+          "media": 0.0
         },
         {
           "codcli": "85394",
@@ -8277,7 +8296,7 @@ const INATIVOS_DATA = {
           "cidade": "SANTA MARIA DE",
           "dtultcomp": "16/06/2026",
           "dias": 35,
-          "media": 961.63
+          "media": 0.0
         },
         {
           "codcli": "81068",
@@ -8286,7 +8305,7 @@ const INATIVOS_DATA = {
           "cidade": "IBIRACU",
           "dtultcomp": "19/06/2026",
           "dias": 32,
-          "media": 108.64
+          "media": 0.0
         },
         {
           "codcli": "84438",
@@ -8295,7 +8314,7 @@ const INATIVOS_DATA = {
           "cidade": "ARACRUZ",
           "dtultcomp": "19/06/2026",
           "dias": 32,
-          "media": 2746.57
+          "media": 0.0
         }
       ],
       "novos": []
@@ -8312,7 +8331,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO MATEUS",
           "dtultcomp": "22/04/2026",
           "dias": 90,
-          "media": 128.64
+          "media": 0.0
         },
         {
           "codcli": "82362",
@@ -8330,7 +8349,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO MATEUS",
           "dtultcomp": "29/04/2026",
           "dias": 83,
-          "media": 200.13
+          "media": 0.0
         },
         {
           "codcli": "93779",
@@ -8339,7 +8358,7 @@ const INATIVOS_DATA = {
           "cidade": "CONCEICAO DA BA",
           "dtultcomp": "29/04/2026",
           "dias": 83,
-          "media": 54.44
+          "media": 0.0
         },
         {
           "codcli": "94370",
@@ -8375,7 +8394,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO MATEUS",
           "dtultcomp": "29/04/2026",
           "dias": 83,
-          "media": 160.86
+          "media": 0.0
         },
         {
           "codcli": "94430",
@@ -8393,7 +8412,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO MATEUS",
           "dtultcomp": "30/04/2026",
           "dias": 82,
-          "media": 163.79
+          "media": 0.0
         },
         {
           "codcli": "79816",
@@ -8402,7 +8421,7 @@ const INATIVOS_DATA = {
           "cidade": "NOVA VENECIA",
           "dtultcomp": "13/05/2026",
           "dias": 69,
-          "media": 1580.95
+          "media": 0.0
         },
         {
           "codcli": "93915",
@@ -8411,7 +8430,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO MATEUS",
           "dtultcomp": "13/05/2026",
           "dias": 69,
-          "media": 75.04
+          "media": 0.0
         },
         {
           "codcli": "79769",
@@ -8420,7 +8439,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO MATEUS",
           "dtultcomp": "13/05/2026",
           "dias": 69,
-          "media": 906.8
+          "media": 0.0
         },
         {
           "codcli": "93831",
@@ -8429,7 +8448,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO MATEUS",
           "dtultcomp": "13/05/2026",
           "dias": 69,
-          "media": 121.96
+          "media": 0.0
         },
         {
           "codcli": "94836",
@@ -8438,7 +8457,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO MATEUS",
           "dtultcomp": "13/05/2026",
           "dias": 69,
-          "media": 120.21
+          "media": 0.0
         },
         {
           "codcli": "81997",
@@ -8456,7 +8475,7 @@ const INATIVOS_DATA = {
           "cidade": "NOVA VENECIA",
           "dtultcomp": "22/05/2026",
           "dias": 60,
-          "media": 1396.89
+          "media": 0.0
         },
         {
           "codcli": "94560",
@@ -8465,7 +8484,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO MATEUS",
           "dtultcomp": "22/05/2026",
           "dias": 60,
-          "media": 95.84
+          "media": 0.0
         },
         {
           "codcli": "93892",
@@ -8474,7 +8493,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO MATEUS",
           "dtultcomp": "28/05/2026",
           "dias": 54,
-          "media": 677.0
+          "media": 0.0
         },
         {
           "codcli": "82455",
@@ -10501,15 +10520,6 @@ const INATIVOS_DATA = {
       ],
       "sem_compra": [
         {
-          "codcli": "38880",
-          "cliente": "EMPREENDIMENTOS VILA VERDE LTDA",
-          "bairro": "APARECIDA SÉTIMA SEÇÃO",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "27/04/2026",
-          "dias": 85,
-          "media": 654.88
-        },
-        {
           "codcli": "35386",
           "cliente": "A&G LANCHES, EVENTOS E PROMOCOES LTDA",
           "bairro": "CENTRO",
@@ -10526,6 +10536,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "27/04/2026",
           "dias": 85,
           "media": 1882.32
+        },
+        {
+          "codcli": "38880",
+          "cliente": "EMPREENDIMENTOS VILA VERDE LTDA",
+          "bairro": "APARECIDA SÉTIMA SEÇÃO",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "27/04/2026",
+          "dias": 85,
+          "media": 654.88
         },
         {
           "codcli": "29703",
@@ -10564,15 +10583,6 @@ const INATIVOS_DATA = {
           "media": 56.8
         },
         {
-          "codcli": "37978",
-          "cliente": "VENTURAS EMPREENDIMENTOS LTDA",
-          "bairro": "CENTRO",
-          "cidade": "BETIM",
-          "dtultcomp": "06/05/2026",
-          "dias": 76,
-          "media": 644.47
-        },
-        {
           "codcli": "31014",
           "cliente": "MI CORAZON BAR LTDA",
           "bairro": "FLORESTA",
@@ -10582,13 +10592,13 @@ const INATIVOS_DATA = {
           "media": 162.02
         },
         {
-          "codcli": "29917",
-          "cliente": "CASA FIGATA COMERCIO E DISTRIBUIDORA LTDA",
-          "bairro": "VILA DA SERRA",
-          "cidade": "NOVA LIMA",
-          "dtultcomp": "11/05/2026",
-          "dias": 71,
-          "media": 582.84
+          "codcli": "37978",
+          "cliente": "VENTURAS EMPREENDIMENTOS LTDA",
+          "bairro": "CENTRO",
+          "cidade": "BETIM",
+          "dtultcomp": "06/05/2026",
+          "dias": 76,
+          "media": 644.47
         },
         {
           "codcli": "30292",
@@ -10663,15 +10673,6 @@ const INATIVOS_DATA = {
           "media": 100.85
         },
         {
-          "codcli": "33852",
-          "cliente": "ALINE VILAS BOAS.",
-          "bairro": "SANTA AMELIA",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "26/05/2026",
-          "dias": 56,
-          "media": 198.4
-        },
-        {
           "codcli": "32768",
           "cliente": "D S SOUZA BAR E RESTAURANTE LTDA",
           "bairro": "SANTA EFIGENIA",
@@ -10679,6 +10680,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "26/05/2026",
           "dias": 56,
           "media": 287.32
+        },
+        {
+          "codcli": "33852",
+          "cliente": "ALINE VILAS BOAS.",
+          "bairro": "SANTA AMELIA",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "26/05/2026",
+          "dias": 56,
+          "media": 198.4
         },
         {
           "codcli": "32776",
@@ -10726,24 +10736,6 @@ const INATIVOS_DATA = {
           "media": 256.55
         },
         {
-          "codcli": "35323",
-          "cliente": "LANCHE LEGAL COMERCIO LTDA",
-          "bairro": "PAMPULHA",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "29/05/2026",
-          "dias": 53,
-          "media": 384.81
-        },
-        {
-          "codcli": "33682",
-          "cliente": "I.B.V. CAFETERIA LTDA",
-          "bairro": "SANTO AGOSTINHO",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "29/05/2026",
-          "dias": 53,
-          "media": 624.07
-        },
-        {
           "codcli": "38897",
           "cliente": "LCA COMERCIO LTDA",
           "bairro": "PAMPULHA",
@@ -10760,6 +10752,24 @@ const INATIVOS_DATA = {
           "dtultcomp": "29/05/2026",
           "dias": 53,
           "media": 669.6
+        },
+        {
+          "codcli": "33682",
+          "cliente": "I.B.V. CAFETERIA LTDA",
+          "bairro": "SANTO AGOSTINHO",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "29/05/2026",
+          "dias": 53,
+          "media": 624.07
+        },
+        {
+          "codcli": "35323",
+          "cliente": "LANCHE LEGAL COMERCIO LTDA",
+          "bairro": "PAMPULHA",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "29/05/2026",
+          "dias": 53,
+          "media": 384.81
         },
         {
           "codcli": "33894",
@@ -10798,15 +10808,6 @@ const INATIVOS_DATA = {
           "media": 785.33
         },
         {
-          "codcli": "32779",
-          "cliente": "BOI IN BOX LTDA",
-          "bairro": "LOURDES",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "08/06/2026",
-          "dias": 43,
-          "media": 440.37
-        },
-        {
           "codcli": "35439",
           "cliente": "PEDRO  DOS  SANTOS",
           "bairro": "PAMPULHA",
@@ -10814,6 +10815,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "08/06/2026",
           "dias": 43,
           "media": 2065.43
+        },
+        {
+          "codcli": "32779",
+          "cliente": "BOI IN BOX LTDA",
+          "bairro": "LOURDES",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "08/06/2026",
+          "dias": 43,
+          "media": 440.37
         },
         {
           "codcli": "35390",
@@ -10825,6 +10835,15 @@ const INATIVOS_DATA = {
           "media": 447.64
         },
         {
+          "codcli": "31903",
+          "cliente": "CB BH COMERCIO DE ALIMENTOS LTDA",
+          "bairro": "BELVEDERE",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "09/06/2026",
+          "dias": 42,
+          "media": 572.67
+        },
+        {
           "codcli": "35356",
           "cliente": "MULT JR - CONSULTORIA E PROJETOS",
           "bairro": "PAMPULHA",
@@ -10834,13 +10853,13 @@ const INATIVOS_DATA = {
           "media": 408.37
         },
         {
-          "codcli": "31903",
-          "cliente": "CB BH COMERCIO DE ALIMENTOS LTDA",
-          "bairro": "BELVEDERE",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "09/06/2026",
-          "dias": 42,
-          "media": 572.67
+          "codcli": "36229",
+          "cliente": "VO VILMA CONFEITARIA LTDA",
+          "bairro": "HORTO",
+          "cidade": "BETIM",
+          "dtultcomp": "10/06/2026",
+          "dias": 41,
+          "media": 91.87
         },
         {
           "codcli": "38607",
@@ -10870,15 +10889,6 @@ const INATIVOS_DATA = {
           "media": 1221.22
         },
         {
-          "codcli": "36229",
-          "cliente": "VO VILMA CONFEITARIA LTDA",
-          "bairro": "HORTO",
-          "cidade": "BETIM",
-          "dtultcomp": "10/06/2026",
-          "dias": 41,
-          "media": 91.87
-        },
-        {
           "codcli": "30262",
           "cliente": "RESTAURANTE CANTO DO BURITIS LTDA",
           "bairro": "BURITIS",
@@ -10897,22 +10907,13 @@ const INATIVOS_DATA = {
           "media": 1900.51
         },
         {
-          "codcli": "35305",
-          "cliente": "ANDERSON LUIZ LIBRELON 57671583634",
-          "bairro": "CORAÇÃO EUCARÍSTICO",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "12/06/2026",
-          "dias": 39,
-          "media": 628.27
-        },
-        {
-          "codcli": "38896",
+          "codcli": "35398",
           "cliente": "LCA COMERCIO LTDA",
           "bairro": "PAMPULHA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "12/06/2026",
           "dias": 39,
-          "media": 1649.2
+          "media": 1036.64
         },
         {
           "codcli": "35400",
@@ -10924,40 +10925,22 @@ const INATIVOS_DATA = {
           "media": 3062.8
         },
         {
-          "codcli": "35398",
+          "codcli": "38896",
           "cliente": "LCA COMERCIO LTDA",
           "bairro": "PAMPULHA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "12/06/2026",
           "dias": 39,
-          "media": 1036.64
+          "media": 1649.2
         },
         {
-          "codcli": "35327",
-          "cliente": "PRODUCAO JR. CONSULTORIA & ASSESSORIA",
-          "bairro": "CAMPUS UFMG",
+          "codcli": "35305",
+          "cliente": "ANDERSON LUIZ LIBRELON 57671583634",
+          "bairro": "CORAÇÃO EUCARÍSTICO",
           "cidade": "BELO HORIZONTE",
-          "dtultcomp": "15/06/2026",
-          "dias": 36,
-          "media": 534.03
-        },
-        {
-          "codcli": "35399",
-          "cliente": "EMAS EMPRESA JR DE MEIO AMBIENTE E SANEAMENTO/ UFMG",
-          "bairro": "CAMPUS UFMG",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "15/06/2026",
-          "dias": 36,
-          "media": 691.09
-        },
-        {
-          "codcli": "36546",
-          "cliente": "JOAO PEDRO  CRESPO  MARRA",
-          "bairro": "PAMPULHA",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "15/06/2026",
-          "dias": 36,
-          "media": 688.23
+          "dtultcomp": "12/06/2026",
+          "dias": 39,
+          "media": 628.27
         },
         {
           "codcli": "33778",
@@ -10967,6 +10950,24 @@ const INATIVOS_DATA = {
           "dtultcomp": "15/06/2026",
           "dias": 36,
           "media": 628.2
+        },
+        {
+          "codcli": "39221",
+          "cliente": "HENRIQUE PEREIRA FURTADO",
+          "bairro": "PAMPULHA",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "15/06/2026",
+          "dias": 36,
+          "media": 431.93
+        },
+        {
+          "codcli": "36546",
+          "cliente": "JOAO PEDRO  CRESPO  MARRA",
+          "bairro": "PAMPULHA",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "15/06/2026",
+          "dias": 36,
+          "media": 688.23
         },
         {
           "codcli": "37523",
@@ -10987,13 +10988,22 @@ const INATIVOS_DATA = {
           "media": 408.37
         },
         {
-          "codcli": "39221",
-          "cliente": "HENRIQUE PEREIRA FURTADO",
-          "bairro": "PAMPULHA",
+          "codcli": "35327",
+          "cliente": "PRODUCAO JR. CONSULTORIA & ASSESSORIA",
+          "bairro": "CAMPUS UFMG",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "15/06/2026",
           "dias": 36,
-          "media": 431.93
+          "media": 534.03
+        },
+        {
+          "codcli": "35399",
+          "cliente": "EMAS EMPRESA JR DE MEIO AMBIENTE E SANEAMENTO/ UFMG",
+          "bairro": "CAMPUS UFMG",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "15/06/2026",
+          "dias": 36,
+          "media": 691.09
         },
         {
           "codcli": "35396",
@@ -11041,13 +11051,13 @@ const INATIVOS_DATA = {
           "media": 319.67
         },
         {
-          "codcli": "30078",
-          "cliente": "RAPHAEL DE PAIVA E SOUZA 11915663660",
-          "bairro": "CENTRO",
-          "cidade": "BETIM",
+          "codcli": "36803",
+          "cliente": "CRIA COMUNICACAO JUNIOR",
+          "bairro": "PAMPULHA",
+          "cidade": "BELO HORIZONTE",
           "dtultcomp": "17/06/2026",
           "dias": 34,
-          "media": 101.22
+          "media": 282.72
         },
         {
           "codcli": "39483",
@@ -11068,15 +11078,6 @@ const INATIVOS_DATA = {
           "media": 494.76
         },
         {
-          "codcli": "36803",
-          "cliente": "CRIA COMUNICACAO JUNIOR",
-          "bairro": "PAMPULHA",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "17/06/2026",
-          "dias": 34,
-          "media": 282.72
-        },
-        {
           "codcli": "36882",
           "cliente": "DIRETORIO ACADEMICO DOS CURSOS DE ADMINISTRACAO, CIENCIAS CO",
           "bairro": "CORAÇÃO EUCARÍSTICO",
@@ -11095,6 +11096,15 @@ const INATIVOS_DATA = {
           "media": 107.6
         },
         {
+          "codcli": "30078",
+          "cliente": "RAPHAEL DE PAIVA E SOUZA 11915663660",
+          "bairro": "CENTRO",
+          "cidade": "BETIM",
+          "dtultcomp": "17/06/2026",
+          "dias": 34,
+          "media": 101.22
+        },
+        {
           "codcli": "34536",
           "cliente": "PARRILLA COSTELLO LTDA",
           "bairro": "OLHOS D AGUA",
@@ -11102,33 +11112,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "18/06/2026",
           "dias": 33,
           "media": 217.91
-        },
-        {
-          "codcli": "33014",
-          "cliente": "ER COZINHA ARTESANAL LTDA",
-          "bairro": "LOURDES",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "18/06/2026",
-          "dias": 33,
-          "media": 372.4
-        },
-        {
-          "codcli": "37110",
-          "cliente": "BRUNO  FERREIRA PIERALLINI",
-          "bairro": "GRAJAÚ",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "18/06/2026",
-          "dias": 33,
-          "media": 958.8
-        },
-        {
-          "codcli": "32871",
-          "cliente": "ER COZINHA ARTESANAL LTDA",
-          "bairro": "VILA DA SERRA",
-          "cidade": "NOVA LIMA",
-          "dtultcomp": "18/06/2026",
-          "dias": 33,
-          "media": 478.8
         },
         {
           "codcli": "34459",
@@ -11140,13 +11123,31 @@ const INATIVOS_DATA = {
           "media": 491.2
         },
         {
-          "codcli": "35381",
-          "cliente": "ULTRA COFFEE BH - MG LTDA",
-          "bairro": "CORAÇÃO EUCARÍSTICO",
+          "codcli": "32871",
+          "cliente": "ER COZINHA ARTESANAL LTDA",
+          "bairro": "VILA DA SERRA",
+          "cidade": "NOVA LIMA",
+          "dtultcomp": "18/06/2026",
+          "dias": 33,
+          "media": 478.8
+        },
+        {
+          "codcli": "37110",
+          "cliente": "BRUNO  FERREIRA PIERALLINI",
+          "bairro": "GRAJAÚ",
           "cidade": "BELO HORIZONTE",
-          "dtultcomp": "19/06/2026",
-          "dias": 32,
-          "media": 887.43
+          "dtultcomp": "18/06/2026",
+          "dias": 33,
+          "media": 958.8
+        },
+        {
+          "codcli": "33014",
+          "cliente": "ER COZINHA ARTESANAL LTDA",
+          "bairro": "LOURDES",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "18/06/2026",
+          "dias": 33,
+          "media": 372.4
         },
         {
           "codcli": "35383",
@@ -11165,6 +11166,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "19/06/2026",
           "dias": 32,
           "media": 5560.16
+        },
+        {
+          "codcli": "35381",
+          "cliente": "ULTRA COFFEE BH - MG LTDA",
+          "bairro": "CORAÇÃO EUCARÍSTICO",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "19/06/2026",
+          "dias": 32,
+          "media": 887.43
         }
       ],
       "novos": [
@@ -11543,6 +11553,15 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [
         {
+          "codcli": "37501",
+          "cliente": "SUPERMERCADOS CIDADE LTDA",
+          "bairro": "NOVA PAMPULHA",
+          "cidade": "VESPASIANO",
+          "dtultcomp": "30/09/2025",
+          "dias": 294,
+          "media": 0.0
+        },
+        {
           "codcli": "35186",
           "cliente": "SODRE MIGUEL LTDA",
           "bairro": "PARQUE PRIMAVERA",
@@ -11768,15 +11787,6 @@ const INATIVOS_DATA = {
           "media": 343.2
         },
         {
-          "codcli": "35430",
-          "cliente": "HARAH SERVICOS DE ALIMENTACAO LTDA",
-          "bairro": "SANTO AGOSTINHO",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "27/04/2026",
-          "dias": 85,
-          "media": 382.2
-        },
-        {
           "codcli": "38624",
           "cliente": "IGOR SOUZA OLIVEIRA",
           "bairro": "SAGRADA FAMÍLIA",
@@ -11784,6 +11794,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "27/04/2026",
           "dias": 85,
           "media": 274.04
+        },
+        {
+          "codcli": "35430",
+          "cliente": "HARAH SERVICOS DE ALIMENTACAO LTDA",
+          "bairro": "SANTO AGOSTINHO",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "27/04/2026",
+          "dias": 85,
+          "media": 382.2
         },
         {
           "codcli": "36095",
@@ -11840,15 +11859,6 @@ const INATIVOS_DATA = {
           "media": 440.13
         },
         {
-          "codcli": "36852",
-          "cliente": "RONALDO EDIFLA FARIA 47498153653",
-          "bairro": "CRUZEIRO",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "21/05/2026",
-          "dias": 61,
-          "media": 321.27
-        },
-        {
           "codcli": "30909",
           "cliente": "PRODUTOS ALIMENTICIOS BETINENSE LTDA",
           "bairro": "NITEROI",
@@ -11856,6 +11866,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "21/05/2026",
           "dias": 61,
           "media": 168068.0
+        },
+        {
+          "codcli": "36852",
+          "cliente": "RONALDO EDIFLA FARIA 47498153653",
+          "bairro": "CRUZEIRO",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "21/05/2026",
+          "dias": 61,
+          "media": 321.27
         },
         {
           "codcli": "39008",
@@ -11876,15 +11895,6 @@ const INATIVOS_DATA = {
           "media": 70.68
         },
         {
-          "codcli": "38983",
-          "cliente": "COMERCIAL REIS LTDA",
-          "bairro": "NOVA VISTA",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "26/05/2026",
-          "dias": 56,
-          "media": 172.0
-        },
-        {
           "codcli": "34283",
           "cliente": "ARCA SOLUCOES ALIMENTICIAS PARA COMERCIO LTDA",
           "bairro": "NOVO GLORIA",
@@ -11892,6 +11902,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "26/05/2026",
           "dias": 56,
           "media": 581.56
+        },
+        {
+          "codcli": "38983",
+          "cliente": "COMERCIAL REIS LTDA",
+          "bairro": "NOVA VISTA",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "26/05/2026",
+          "dias": 56,
+          "media": 172.0
         },
         {
           "codcli": "30264",
@@ -11921,15 +11940,6 @@ const INATIVOS_DATA = {
           "media": 94.2
         },
         {
-          "codcli": "36199",
-          "cliente": "SEU FONSECA GASTRONOMIA CRIATIVA LTDA",
-          "bairro": "ESTORIL",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "28/05/2026",
-          "dias": 54,
-          "media": 70.68
-        },
-        {
           "codcli": "36371",
           "cliente": "L D S PIMENTA LANCHONETE",
           "bairro": "VILA CLORIS",
@@ -11957,9 +11967,27 @@ const INATIVOS_DATA = {
           "media": 1967.03
         },
         {
+          "codcli": "36199",
+          "cliente": "SEU FONSECA GASTRONOMIA CRIATIVA LTDA",
+          "bairro": "ESTORIL",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "28/05/2026",
+          "dias": 54,
+          "media": 70.68
+        },
+        {
           "codcli": "30324",
           "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
           "bairro": "BELVEDERE",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "29/05/2026",
+          "dias": 53,
+          "media": 123.04
+        },
+        {
+          "codcli": "39403",
+          "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
+          "bairro": "COMITECO",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "29/05/2026",
           "dias": 53,
@@ -11973,15 +12001,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "29/05/2026",
           "dias": 53,
           "media": 62.83
-        },
-        {
-          "codcli": "39403",
-          "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-          "bairro": "COMITECO",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "29/05/2026",
-          "dias": 53,
-          "media": 123.04
         },
         {
           "codcli": "34792",
@@ -12002,15 +12021,6 @@ const INATIVOS_DATA = {
           "media": 199.6
         },
         {
-          "codcli": "30204",
-          "cliente": "IDEAL COMERCIO DE ALIMENTOS LTDA",
-          "bairro": "BURITIS",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "05/06/2026",
-          "dias": 46,
-          "media": 415.8
-        },
-        {
           "codcli": "37890",
           "cliente": "PASSADIO MG LTDA",
           "bairro": "NOVA GRANADA",
@@ -12018,6 +12028,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "05/06/2026",
           "dias": 46,
           "media": 259.16
+        },
+        {
+          "codcli": "30204",
+          "cliente": "IDEAL COMERCIO DE ALIMENTOS LTDA",
+          "bairro": "BURITIS",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "05/06/2026",
+          "dias": 46,
+          "media": 415.8
         },
         {
           "codcli": "34226",
