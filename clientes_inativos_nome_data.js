@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_INATIVOS_NOME_DATA = {
-  "atualizado_em": "22/07/2026 14:32",
+  "atualizado_em": "22/07/2026 14:57",
   "total_universo": 14600,
   "clientes": [
     {
@@ -13,6 +13,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "09/08/2024",
+      "ultimo_vendedor": "RQ",
+      "ultimo_vendedor_data": "09/08/2024",
       "faturamento_historico_total": 792253.44,
       "top_fornecedores_historico": [
         {
@@ -31,6 +33,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "ES",
       "ramo": "MERCADO",
       "ultima_compra": "28/01/2026",
+      "ultimo_vendedor": "EUDES MORGAN",
+      "ultimo_vendedor_data": "28/01/2026",
       "faturamento_historico_total": 774860.21,
       "top_fornecedores_historico": [
         {
@@ -61,6 +65,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "ES",
       "ramo": "MERCADO",
       "ultima_compra": "14/01/2026",
+      "ultimo_vendedor": "ALYSSON RODRIGUES",
+      "ultimo_vendedor_data": "28/11/2025",
       "faturamento_historico_total": 771394.93,
       "top_fornecedores_historico": [
         {
@@ -99,6 +105,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "10/09/2024",
+      "ultimo_vendedor": "MARCUS VINICIUS",
+      "ultimo_vendedor_data": "10/09/2024",
       "faturamento_historico_total": 764455.68,
       "top_fornecedores_historico": [
         {
@@ -145,6 +153,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "12/03/2026",
+      "ultimo_vendedor": "MARCUS VINICIUS",
+      "ultimo_vendedor_data": "12/03/2026",
       "faturamento_historico_total": 753916.18,
       "top_fornecedores_historico": [
         {
@@ -191,6 +201,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "03/12/2025",
+      "ultimo_vendedor": "LAIS POPPE VILLANOVA",
+      "ultimo_vendedor_data": "03/12/2025",
       "faturamento_historico_total": 746640.18,
       "top_fornecedores_historico": [
         {
@@ -237,6 +249,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
       "ultima_compra": "17/01/2025",
+      "ultimo_vendedor": "SANDRO SOARES",
+      "ultimo_vendedor_data": "17/01/2025",
       "faturamento_historico_total": 711367.24,
       "top_fornecedores_historico": [
         {
@@ -259,6 +273,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "QUIOSQUE",
       "ultima_compra": "13/04/2026",
+      "ultimo_vendedor": "LUCAS MATIAS",
+      "ultimo_vendedor_data": "13/04/2026",
       "faturamento_historico_total": 703697.72,
       "top_fornecedores_historico": [
         {
@@ -305,6 +321,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "28/02/2023",
+      "ultimo_vendedor": "VENDEDOR 03",
+      "ultimo_vendedor_data": "13/02/2023",
       "faturamento_historico_total": 701983.22,
       "top_fornecedores_historico": [
         {
@@ -331,6 +349,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "BAR",
       "ultima_compra": "06/11/2025",
+      "ultimo_vendedor": "FELIPE TOMAZ",
+      "ultimo_vendedor_data": "06/11/2025",
       "faturamento_historico_total": 681359.46,
       "top_fornecedores_historico": [
         {
@@ -377,6 +397,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "BAR",
       "ultima_compra": "25/02/2025",
+      "ultimo_vendedor": "FELIPE TOMAZ",
+      "ultimo_vendedor_data": "25/02/2025",
       "faturamento_historico_total": 676396.85,
       "top_fornecedores_historico": [
         {
@@ -423,6 +445,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "17/03/2026",
+      "ultimo_vendedor": "LAIS POPPE VILLANOVA",
+      "ultimo_vendedor_data": "17/03/2026",
       "faturamento_historico_total": 665219.86,
       "top_fornecedores_historico": [
         {
@@ -469,6 +493,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "26/03/2026",
+      "ultimo_vendedor": "VINICIUS AMARAL",
+      "ultimo_vendedor_data": "26/03/2026",
       "faturamento_historico_total": 658715.04,
       "top_fornecedores_historico": [
         {
@@ -503,6 +529,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "OUTROS",
       "ultima_compra": "03/03/2026",
+      "ultimo_vendedor": "PM",
+      "ultimo_vendedor_data": "23/02/2026",
       "faturamento_historico_total": 656156.08,
       "top_fornecedores_historico": [
         {
@@ -549,6 +577,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "09/01/2024",
+      "ultimo_vendedor": "RQ",
+      "ultimo_vendedor_data": "09/01/2024",
       "faturamento_historico_total": 651657.6,
       "top_fornecedores_historico": [
         {
@@ -567,6 +597,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "06/05/2024",
+      "ultimo_vendedor": "LUCAS MATIAS",
+      "ultimo_vendedor_data": "06/05/2024",
       "faturamento_historico_total": 650597.75,
       "top_fornecedores_historico": [
         {
@@ -613,6 +645,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "DELIVERY",
       "ultima_compra": "17/11/2025",
+      "ultimo_vendedor": "CARLOS ARTHUR NETO",
+      "ultimo_vendedor_data": "17/11/2025",
       "faturamento_historico_total": 641644.89,
       "top_fornecedores_historico": [
         {
@@ -659,6 +693,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "04/12/2025",
+      "ultimo_vendedor": "RQ",
+      "ultimo_vendedor_data": "13/08/2025",
       "faturamento_historico_total": 616917.41,
       "top_fornecedores_historico": [
         {
@@ -705,6 +741,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "02/04/2024",
+      "ultimo_vendedor": "FERNANDO CESAR",
+      "ultimo_vendedor_data": "02/04/2024",
       "faturamento_historico_total": 610157.27,
       "top_fornecedores_historico": [
         {
@@ -751,6 +789,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "13/01/2026",
+      "ultimo_vendedor": "MARCUS VINICIUS",
+      "ultimo_vendedor_data": "13/01/2026",
       "faturamento_historico_total": 604950.74,
       "top_fornecedores_historico": [
         {
@@ -797,6 +837,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "BAR",
       "ultima_compra": "03/03/2026",
+      "ultimo_vendedor": "DALMO SOARES",
+      "ultimo_vendedor_data": "03/03/2026",
       "faturamento_historico_total": 592905.12,
       "top_fornecedores_historico": [
         {
@@ -843,6 +885,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "ES",
       "ramo": "RESTAURANTE",
       "ultima_compra": "07/11/2025",
+      "ultimo_vendedor": "PAMELA COSTA",
+      "ultimo_vendedor_data": "06/11/2025",
       "faturamento_historico_total": 579009.0,
       "top_fornecedores_historico": [
         {
@@ -889,6 +933,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "OUTROS",
       "ultima_compra": "12/03/2026",
+      "ultimo_vendedor": "LUIZ FERNANDO SALGADO",
+      "ultimo_vendedor_data": "12/03/2026",
       "faturamento_historico_total": 577500.0,
       "top_fornecedores_historico": [
         {
@@ -911,6 +957,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "DELIVERY",
       "ultima_compra": "19/08/2024",
+      "ultimo_vendedor": "LAIS POPPE VILLANOVA",
+      "ultimo_vendedor_data": "19/08/2024",
       "faturamento_historico_total": 571625.33,
       "top_fornecedores_historico": [
         {
@@ -957,6 +1005,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "OUTROS",
       "ultima_compra": "21/06/2024",
+      "ultimo_vendedor": "SANDRO SOARES",
+      "ultimo_vendedor_data": "21/06/2024",
       "faturamento_historico_total": 567084.0,
       "top_fornecedores_historico": [
         {
@@ -975,6 +1025,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCEARIA",
       "ultima_compra": "12/12/2025",
+      "ultimo_vendedor": "FERNANDO CESAR",
+      "ultimo_vendedor_data": "05/08/2024",
       "faturamento_historico_total": 552131.91,
       "top_fornecedores_historico": [
         {
@@ -1021,6 +1073,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "BAR",
       "ultima_compra": "15/07/2025",
+      "ultimo_vendedor": "LUCAS SILVA",
+      "ultimo_vendedor_data": "15/07/2025",
       "faturamento_historico_total": 551368.32,
       "top_fornecedores_historico": [
         {
@@ -1047,6 +1101,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "26/12/2025",
+      "ultimo_vendedor": "VINICIUS AMARAL",
+      "ultimo_vendedor_data": "26/12/2025",
       "faturamento_historico_total": 548711.77,
       "top_fornecedores_historico": [
         {
@@ -1093,6 +1149,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "30/01/2024",
+      "ultimo_vendedor": "RQ",
+      "ultimo_vendedor_data": "30/01/2024",
       "faturamento_historico_total": 538350.54,
       "top_fornecedores_historico": [
         {
@@ -1139,6 +1197,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "COMERCIO ATACADISTA (GERAL)",
       "ultima_compra": "13/10/2025",
+      "ultimo_vendedor": "FELIPE TOMAZ",
+      "ultimo_vendedor_data": "09/10/2025",
       "faturamento_historico_total": 532085.76,
       "top_fornecedores_historico": [
         {
@@ -1157,6 +1217,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "19/03/2026",
+      "ultimo_vendedor": "RC",
+      "ultimo_vendedor_data": "19/03/2026",
       "faturamento_historico_total": 530112.55,
       "top_fornecedores_historico": [
         {
@@ -1203,6 +1265,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "23/05/2025",
+      "ultimo_vendedor": "RQ",
+      "ultimo_vendedor_data": "24/01/2025",
       "faturamento_historico_total": 519576.84,
       "top_fornecedores_historico": [
         {
@@ -1225,6 +1289,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "03/10/2025",
+      "ultimo_vendedor": "MARCUS VINICIUS",
+      "ultimo_vendedor_data": "03/10/2025",
       "faturamento_historico_total": 519490.58,
       "top_fornecedores_historico": [
         {
@@ -1271,6 +1337,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "05/01/2026",
+      "ultimo_vendedor": "AUGUSTO SILVA",
+      "ultimo_vendedor_data": "05/01/2026",
       "faturamento_historico_total": 508176.28,
       "top_fornecedores_historico": [
         {
@@ -1317,6 +1385,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "05/03/2026",
+      "ultimo_vendedor": "VENDEDOR 03",
+      "ultimo_vendedor_data": "05/03/2026",
       "faturamento_historico_total": 476890.84,
       "top_fornecedores_historico": [
         {
@@ -1359,6 +1429,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "OUTROS",
       "ultima_compra": "10/04/2024",
+      "ultimo_vendedor": "FERNANDO CESAR",
+      "ultimo_vendedor_data": "10/04/2024",
       "faturamento_historico_total": 473941.44,
       "top_fornecedores_historico": [
         {
@@ -1381,6 +1453,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "RESTAURANTE",
       "ultima_compra": "09/04/2025",
+      "ultimo_vendedor": "FELIPE TOMAZ",
+      "ultimo_vendedor_data": "09/04/2025",
       "faturamento_historico_total": 466739.08,
       "top_fornecedores_historico": [
         {
@@ -1427,6 +1501,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "18/07/2025",
+      "ultimo_vendedor": "MARCUS VINICIUS",
+      "ultimo_vendedor_data": "18/07/2025",
       "faturamento_historico_total": 460794.13,
       "top_fornecedores_historico": [
         {
@@ -1473,6 +1549,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "16/04/2026",
+      "ultimo_vendedor": "BEES",
+      "ultimo_vendedor_data": "16/04/2026",
       "faturamento_historico_total": 457282.98,
       "top_fornecedores_historico": [
         {
@@ -1515,6 +1593,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "ES",
       "ramo": "CAFETERIA",
       "ultima_compra": "17/12/2025",
+      "ultimo_vendedor": "VENDEDOR 03",
+      "ultimo_vendedor_data": "11/12/2025",
       "faturamento_historico_total": 448131.75,
       "top_fornecedores_historico": [
         {
@@ -1557,6 +1637,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "18/10/2024",
+      "ultimo_vendedor": "FERNANDO CESAR",
+      "ultimo_vendedor_data": "14/06/2024",
       "faturamento_historico_total": 444522.04,
       "top_fornecedores_historico": [
         {
@@ -1587,6 +1669,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "SC",
       "ramo": "MERCADO",
       "ultima_compra": "28/10/2025",
+      "ultimo_vendedor": "RC",
+      "ultimo_vendedor_data": "28/10/2025",
       "faturamento_historico_total": 443397.35,
       "top_fornecedores_historico": [
         {
@@ -1605,6 +1689,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "23/12/2025",
+      "ultimo_vendedor": "INGRID ARAUJO",
+      "ultimo_vendedor_data": "23/12/2025",
       "faturamento_historico_total": 433947.36,
       "top_fornecedores_historico": [
         {
@@ -1635,6 +1721,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "BA",
       "ramo": "OUTROS",
       "ultima_compra": "30/12/2025",
+      "ultimo_vendedor": "BALCAO",
+      "ultimo_vendedor_data": "30/12/2025",
       "faturamento_historico_total": 428997.84,
       "top_fornecedores_historico": [
         {
@@ -1653,6 +1741,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "SP",
       "ramo": "MERCADO",
       "ultima_compra": "17/03/2026",
+      "ultimo_vendedor": "BEATRIZ CAVALCANTE",
+      "ultimo_vendedor_data": "29/01/2026",
       "faturamento_historico_total": 427527.48,
       "top_fornecedores_historico": [
         {
@@ -1671,6 +1761,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "16/03/2026",
+      "ultimo_vendedor": "FERNANDO CESAR",
+      "ultimo_vendedor_data": "16/03/2026",
       "faturamento_historico_total": 414189.0,
       "top_fornecedores_historico": [
         {
@@ -1689,6 +1781,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "ES",
       "ramo": "BAR",
       "ultima_compra": "22/06/2026",
+      "ultimo_vendedor": "ROMARIO DOS SANTOS",
+      "ultimo_vendedor_data": "22/06/2026",
       "faturamento_historico_total": 410909.29,
       "top_fornecedores_historico": [
         {
@@ -1735,6 +1829,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "08/04/2026",
+      "ultimo_vendedor": "CARLOS ARTHUR NETO",
+      "ultimo_vendedor_data": "08/04/2026",
       "faturamento_historico_total": 409071.18,
       "top_fornecedores_historico": [
         {
@@ -1781,6 +1877,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "BAR",
       "ultima_compra": "27/02/2025",
+      "ultimo_vendedor": "FELIPE TOMAZ",
+      "ultimo_vendedor_data": "27/02/2025",
       "faturamento_historico_total": 405739.94,
       "top_fornecedores_historico": [
         {
@@ -1827,6 +1925,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "HOTELARIA",
       "ultima_compra": "10/11/2025",
+      "ultimo_vendedor": "RQ",
+      "ultimo_vendedor_data": "10/11/2025",
       "faturamento_historico_total": 405375.9,
       "top_fornecedores_historico": [
         {
@@ -1845,6 +1945,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "11/11/2025",
+      "ultimo_vendedor": "NÁTALI DE OLIVEIRA",
+      "ultimo_vendedor_data": "11/11/2025",
       "faturamento_historico_total": 398032.79,
       "top_fornecedores_historico": [
         {
@@ -1867,6 +1969,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "04/04/2023",
+      "ultimo_vendedor": "TLR",
+      "ultimo_vendedor_data": "04/04/2023",
       "faturamento_historico_total": 397906.6,
       "top_fornecedores_historico": [
         {
@@ -1885,6 +1989,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "07/06/2023",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "31/01/2023",
       "faturamento_historico_total": 394925.99,
       "top_fornecedores_historico": [
         {
@@ -1907,6 +2013,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "02/03/2026",
+      "ultimo_vendedor": "MARCUS VINICIUS",
+      "ultimo_vendedor_data": "02/03/2026",
       "faturamento_historico_total": 394803.42,
       "top_fornecedores_historico": [
         {
@@ -1953,6 +2061,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "31/03/2026",
+      "ultimo_vendedor": "IASMIM NUNES",
+      "ultimo_vendedor_data": "31/03/2026",
       "faturamento_historico_total": 391983.13,
       "top_fornecedores_historico": [
         {
@@ -1999,6 +2109,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "18/11/2025",
+      "ultimo_vendedor": "VENDEDOR 03",
+      "ultimo_vendedor_data": "18/11/2025",
       "faturamento_historico_total": 389269.94,
       "top_fornecedores_historico": [
         {
@@ -2045,6 +2157,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "28/01/2025",
+      "ultimo_vendedor": "RCA 0",
+      "ultimo_vendedor_data": "31/01/2025",
       "faturamento_historico_total": 389248.2,
       "top_fornecedores_historico": [
         {
@@ -2087,6 +2201,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "09/06/2025",
+      "ultimo_vendedor": "HXO",
+      "ultimo_vendedor_data": "09/06/2025",
       "faturamento_historico_total": 382924.51,
       "top_fornecedores_historico": [
         {
@@ -2121,6 +2237,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "08/05/2024",
+      "ultimo_vendedor": "LAIS POPPE VILLANOVA",
+      "ultimo_vendedor_data": "08/05/2024",
       "faturamento_historico_total": 380239.63,
       "top_fornecedores_historico": [
         {
@@ -2167,6 +2285,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "06/03/2024",
+      "ultimo_vendedor": "RQ",
+      "ultimo_vendedor_data": "06/03/2024",
       "faturamento_historico_total": 379791.2,
       "top_fornecedores_historico": [
         {
@@ -2209,6 +2329,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
       "ultima_compra": "31/08/2023",
+      "ultimo_vendedor": "SANDRO SOARES",
+      "ultimo_vendedor_data": "31/08/2023",
       "faturamento_historico_total": 372496.32,
       "top_fornecedores_historico": [
         {
@@ -2227,6 +2349,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "24/10/2024",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "24/10/2024",
       "faturamento_historico_total": 369770.0,
       "top_fornecedores_historico": [
         {
@@ -2245,6 +2369,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "11/12/2025",
+      "ultimo_vendedor": "THIAGO MENDES",
+      "ultimo_vendedor_data": "11/12/2025",
       "faturamento_historico_total": 364100.56,
       "top_fornecedores_historico": [
         {
@@ -2291,6 +2417,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "16/04/2025",
+      "ultimo_vendedor": "VINICIUS AMARAL",
+      "ultimo_vendedor_data": "12/02/2025",
       "faturamento_historico_total": 360920.34,
       "top_fornecedores_historico": [
         {
@@ -2337,6 +2465,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "DELIVERY",
       "ultima_compra": "10/10/2025",
+      "ultimo_vendedor": "YAGO DOS ANJOS",
+      "ultimo_vendedor_data": "08/07/2024",
       "faturamento_historico_total": 360515.8,
       "top_fornecedores_historico": [
         {
@@ -2383,6 +2513,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "25/09/2025",
+      "ultimo_vendedor": "RQ",
+      "ultimo_vendedor_data": "05/09/2024",
       "faturamento_historico_total": 360215.04,
       "top_fornecedores_historico": [
         {
@@ -2405,6 +2537,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "SP",
       "ramo": "MERCADO",
       "ultima_compra": "19/09/2025",
+      "ultimo_vendedor": "TLR",
+      "ultimo_vendedor_data": "19/09/2025",
       "faturamento_historico_total": 359970.0,
       "top_fornecedores_historico": [
         {
@@ -2423,6 +2557,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "CE",
       "ramo": "MERCADO",
       "ultima_compra": "31/10/2024",
+      "ultimo_vendedor": "BRUNA GEROLIS",
+      "ultimo_vendedor_data": "31/10/2024",
       "faturamento_historico_total": 356317.05,
       "top_fornecedores_historico": [
         {
@@ -2441,6 +2577,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "BAR",
       "ultima_compra": "06/04/2026",
+      "ultimo_vendedor": "FELIPE TOMAZ",
+      "ultimo_vendedor_data": "06/04/2026",
       "faturamento_historico_total": 354227.5,
       "top_fornecedores_historico": [
         {
@@ -2463,6 +2601,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "RESTAURANTE",
       "ultima_compra": "25/02/2026",
+      "ultimo_vendedor": "FELIPE TOMAZ",
+      "ultimo_vendedor_data": "25/02/2026",
       "faturamento_historico_total": 351766.38,
       "top_fornecedores_historico": [
         {
@@ -2493,6 +2633,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "DELIVERY",
       "ultima_compra": "01/10/2024",
+      "ultimo_vendedor": "THIAGO MENDES",
+      "ultimo_vendedor_data": "01/10/2024",
       "faturamento_historico_total": 351363.48,
       "top_fornecedores_historico": [
         {
@@ -2539,6 +2681,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "BAR",
       "ultima_compra": "01/08/2023",
+      "ultimo_vendedor": "LEO OLIVEIRA",
+      "ultimo_vendedor_data": "01/08/2023",
       "faturamento_historico_total": 347733.9,
       "top_fornecedores_historico": [
         {
@@ -2581,6 +2725,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "PR",
       "ramo": "ADEGA",
       "ultima_compra": "26/07/2025",
+      "ultimo_vendedor": "MARCO PENIDO",
+      "ultimo_vendedor_data": "26/07/2025",
       "faturamento_historico_total": 347442.6,
       "top_fornecedores_historico": [
         {
@@ -2599,6 +2745,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "23/12/2025",
+      "ultimo_vendedor": "LUCAS MATIAS",
+      "ultimo_vendedor_data": "23/12/2025",
       "faturamento_historico_total": 345955.13,
       "top_fornecedores_historico": [
         {
@@ -2645,6 +2793,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "08/01/2025",
+      "ultimo_vendedor": "RCA 0",
+      "ultimo_vendedor_data": "29/01/2025",
       "faturamento_historico_total": 342148.8,
       "top_fornecedores_historico": [
         {
@@ -2663,6 +2813,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "27/02/2025",
+      "ultimo_vendedor": "LAIS POPPE VILLANOVA",
+      "ultimo_vendedor_data": "07/01/2025",
       "faturamento_historico_total": 339543.51,
       "top_fornecedores_historico": [
         {
@@ -2709,6 +2861,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "24/10/2024",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "24/10/2024",
       "faturamento_historico_total": 337172.8,
       "top_fornecedores_historico": [
         {
@@ -2727,6 +2881,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "03/09/2025",
+      "ultimo_vendedor": "CARLOS ARTHUR NETO",
+      "ultimo_vendedor_data": "03/09/2025",
       "faturamento_historico_total": 332270.52,
       "top_fornecedores_historico": [
         {
@@ -2749,6 +2905,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "24/10/2024",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "24/10/2024",
       "faturamento_historico_total": 330567.2,
       "top_fornecedores_historico": [
         {
@@ -2767,6 +2925,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "08/01/2025",
+      "ultimo_vendedor": "RCA 0",
+      "ultimo_vendedor_data": "29/01/2025",
       "faturamento_historico_total": 329929.2,
       "top_fornecedores_historico": [
         {
@@ -2785,6 +2945,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "ES",
       "ramo": "BAR",
       "ultima_compra": "13/11/2025",
+      "ultimo_vendedor": "VENDEDOR 03",
+      "ultimo_vendedor_data": "10/10/2025",
       "faturamento_historico_total": 328913.68,
       "top_fornecedores_historico": [
         {
@@ -2811,6 +2973,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "29/05/2024",
+      "ultimo_vendedor": "VENDEDOR 09",
+      "ultimo_vendedor_data": "15/04/2024",
       "faturamento_historico_total": 328480.63,
       "top_fornecedores_historico": [
         {
@@ -2857,6 +3021,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "08/01/2025",
+      "ultimo_vendedor": "RCA 0",
+      "ultimo_vendedor_data": "29/01/2025",
       "faturamento_historico_total": 328347.84,
       "top_fornecedores_historico": [
         {
@@ -2875,6 +3041,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "20/03/2023",
+      "ultimo_vendedor": "VENDEDOR 03",
+      "ultimo_vendedor_data": "20/03/2023",
       "faturamento_historico_total": 327609.6,
       "top_fornecedores_historico": [
         {
@@ -2901,6 +3069,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "26/07/2024",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "26/07/2024",
       "faturamento_historico_total": 326346.58,
       "top_fornecedores_historico": [
         {
@@ -2947,6 +3117,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "OUTROS",
       "ultima_compra": "11/12/2025",
+      "ultimo_vendedor": "LUCAS MATIAS",
+      "ultimo_vendedor_data": "11/12/2025",
       "faturamento_historico_total": 325406.9,
       "top_fornecedores_historico": [
         {
@@ -2989,6 +3161,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "BAR",
       "ultima_compra": "24/06/2025",
+      "ultimo_vendedor": "JEAN LUCA",
+      "ultimo_vendedor_data": "24/06/2025",
       "faturamento_historico_total": 324941.29,
       "top_fornecedores_historico": [
         {
@@ -3031,6 +3205,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "28/02/2026",
+      "ultimo_vendedor": "CARLOS ARTHUR NETO",
+      "ultimo_vendedor_data": "21/01/2026",
       "faturamento_historico_total": 324858.02,
       "top_fornecedores_historico": [
         {
@@ -3077,6 +3253,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "24/06/2025",
+      "ultimo_vendedor": "FERNANDO CESAR",
+      "ultimo_vendedor_data": "24/06/2025",
       "faturamento_historico_total": 324718.86,
       "top_fornecedores_historico": [
         {
@@ -3123,6 +3301,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "CASA NOTURNA",
       "ultima_compra": "27/10/2025",
+      "ultimo_vendedor": "LAIS POPPE VILLANOVA",
+      "ultimo_vendedor_data": "17/09/2025",
       "faturamento_historico_total": 322565.49,
       "top_fornecedores_historico": [
         {
@@ -3169,6 +3349,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "RESTAURANTE",
       "ultima_compra": "28/08/2025",
+      "ultimo_vendedor": "LUCAS SILVA",
+      "ultimo_vendedor_data": "28/08/2025",
       "faturamento_historico_total": 319987.8,
       "top_fornecedores_historico": [
         {
@@ -3215,6 +3397,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "09/01/2025",
+      "ultimo_vendedor": "RCA 0",
+      "ultimo_vendedor_data": "31/01/2025",
       "faturamento_historico_total": 319003.44,
       "top_fornecedores_historico": [
         {
@@ -3233,6 +3417,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "06/01/2025",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "06/01/2025",
       "faturamento_historico_total": 318466.56,
       "top_fornecedores_historico": [
         {
@@ -3251,6 +3437,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "27/02/2026",
+      "ultimo_vendedor": "CARLOS ARTHUR NETO",
+      "ultimo_vendedor_data": "27/02/2026",
       "faturamento_historico_total": 316789.33,
       "top_fornecedores_historico": [
         {
@@ -3297,6 +3485,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "04/11/2025",
+      "ultimo_vendedor": "FERNANDO CESAR",
+      "ultimo_vendedor_data": "02/09/2024",
       "faturamento_historico_total": 315767.62,
       "top_fornecedores_historico": [
         {
@@ -3343,6 +3533,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "08/01/2025",
+      "ultimo_vendedor": "RCA 0",
+      "ultimo_vendedor_data": "29/01/2025",
       "faturamento_historico_total": 312678.0,
       "top_fornecedores_historico": [
         {
@@ -3361,6 +3553,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "03/02/2026",
+      "ultimo_vendedor": "MICHELE ALCANTARA",
+      "ultimo_vendedor_data": "03/02/2026",
       "faturamento_historico_total": 310332.17,
       "top_fornecedores_historico": [
         {
@@ -3407,6 +3601,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "OUTROS",
       "ultima_compra": "17/04/2026",
+      "ultimo_vendedor": "SAMUEL MORAIS SOBRINHO",
+      "ultimo_vendedor_data": "17/04/2026",
       "faturamento_historico_total": 308506.44,
       "top_fornecedores_historico": [
         {
@@ -3433,6 +3629,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "RESTAURANTE",
       "ultima_compra": "08/12/2025",
+      "ultimo_vendedor": "FELIPE TOMAZ",
+      "ultimo_vendedor_data": "08/12/2025",
       "faturamento_historico_total": 308065.85,
       "top_fornecedores_historico": [
         {
@@ -3455,6 +3653,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "05/12/2025",
+      "ultimo_vendedor": "VINICIUS AMARAL",
+      "ultimo_vendedor_data": "05/12/2025",
       "faturamento_historico_total": 307582.16,
       "top_fornecedores_historico": [
         {
@@ -3493,6 +3693,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "08/01/2025",
+      "ultimo_vendedor": "RCA 0",
+      "ultimo_vendedor_data": "31/01/2025",
       "faturamento_historico_total": 304339.92,
       "top_fornecedores_historico": [
         {
@@ -3511,6 +3713,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "BAR",
       "ultima_compra": "05/12/2025",
+      "ultimo_vendedor": "DALMO SOARES",
+      "ultimo_vendedor_data": "05/12/2025",
       "faturamento_historico_total": 298830.42,
       "top_fornecedores_historico": [
         {
@@ -3541,6 +3745,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "PADARIA",
       "ultima_compra": "27/05/2025",
+      "ultimo_vendedor": "THIAGO DA SILVA P",
+      "ultimo_vendedor_data": "27/05/2025",
       "faturamento_historico_total": 296188.8,
       "top_fornecedores_historico": [
         {
@@ -3587,6 +3793,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "CAFETERIA",
       "ultima_compra": "25/09/2024",
+      "ultimo_vendedor": "RQ",
+      "ultimo_vendedor_data": "25/09/2024",
       "faturamento_historico_total": 294868.52,
       "top_fornecedores_historico": [
         {
@@ -3633,6 +3841,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "RESTAURANTE",
       "ultima_compra": "25/11/2024",
+      "ultimo_vendedor": "FELIPE TOMAZ",
+      "ultimo_vendedor_data": "25/11/2024",
       "faturamento_historico_total": 293718.39,
       "top_fornecedores_historico": [
         {
@@ -3667,6 +3877,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "24/10/2024",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "24/10/2024",
       "faturamento_historico_total": 292800.4,
       "top_fornecedores_historico": [
         {
@@ -3685,6 +3897,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "CASA NOTURNA",
       "ultima_compra": "08/02/2024",
+      "ultimo_vendedor": "FERNANDO CESAR",
+      "ultimo_vendedor_data": "08/02/2024",
       "faturamento_historico_total": 292467.89,
       "top_fornecedores_historico": [
         {
@@ -3727,6 +3941,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "ES",
       "ramo": "BAR",
       "ultima_compra": "29/08/2025",
+      "ultimo_vendedor": "MARIO DEBONI",
+      "ultimo_vendedor_data": "23/05/2025",
       "faturamento_historico_total": 291430.73,
       "top_fornecedores_historico": [
         {
@@ -3757,6 +3973,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "RESTAURANTE",
       "ultima_compra": "30/12/2024",
+      "ultimo_vendedor": "LEO OLIVEIRA",
+      "ultimo_vendedor_data": "30/12/2024",
       "faturamento_historico_total": 290481.35,
       "top_fornecedores_historico": [
         {
@@ -3783,6 +4001,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "25/04/2024",
+      "ultimo_vendedor": "FERNANDO CESAR",
+      "ultimo_vendedor_data": "25/04/2024",
       "faturamento_historico_total": 289636.56,
       "top_fornecedores_historico": [
         {
@@ -3829,6 +4049,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "08/01/2025",
+      "ultimo_vendedor": "RCA 0",
+      "ultimo_vendedor_data": "29/01/2025",
       "faturamento_historico_total": 285363.6,
       "top_fornecedores_historico": [
         {
@@ -3847,6 +4069,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "10/04/2023",
+      "ultimo_vendedor": "LAIS POPPE VILLANOVA",
+      "ultimo_vendedor_data": "10/04/2023",
       "faturamento_historico_total": 282223.16,
       "top_fornecedores_historico": [
         {
@@ -3893,6 +4117,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "24/10/2024",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "24/10/2024",
       "faturamento_historico_total": 280881.6,
       "top_fornecedores_historico": [
         {
@@ -3911,6 +4137,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "RESTAURANTE",
       "ultima_compra": "18/11/2025",
+      "ultimo_vendedor": "FELIPE TOMAZ",
+      "ultimo_vendedor_data": "18/11/2025",
       "faturamento_historico_total": 279277.0,
       "top_fornecedores_historico": [
         {
@@ -3949,6 +4177,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "24/06/2025",
+      "ultimo_vendedor": "THIAGO MENDES",
+      "ultimo_vendedor_data": "24/06/2025",
       "faturamento_historico_total": 277896.05,
       "top_fornecedores_historico": [
         {
@@ -3995,6 +4225,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "MERCADO",
       "ultima_compra": "04/03/2026",
+      "ultimo_vendedor": "RC",
+      "ultimo_vendedor_data": "04/03/2026",
       "faturamento_historico_total": 277401.6,
       "top_fornecedores_historico": [
         {
@@ -4013,6 +4245,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "08/01/2025",
+      "ultimo_vendedor": "RCA 0",
+      "ultimo_vendedor_data": "29/01/2025",
       "faturamento_historico_total": 274725.36,
       "top_fornecedores_historico": [
         {
@@ -4031,6 +4265,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "02/02/2024",
+      "ultimo_vendedor": "LUCAS MATIAS",
+      "ultimo_vendedor_data": "02/02/2024",
       "faturamento_historico_total": 274657.33,
       "top_fornecedores_historico": [
         {
@@ -4077,6 +4313,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "06/01/2025",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "06/01/2025",
       "faturamento_historico_total": 274644.72,
       "top_fornecedores_historico": [
         {
@@ -4095,6 +4333,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "26/01/2026",
+      "ultimo_vendedor": "RAFAELA GARRIDO",
+      "ultimo_vendedor_data": "23/12/2025",
       "faturamento_historico_total": 272977.2,
       "top_fornecedores_historico": [
         {
@@ -4113,6 +4353,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "13/08/2024",
+      "ultimo_vendedor": "VINICIUS AMARAL",
+      "ultimo_vendedor_data": "12/06/2024",
       "faturamento_historico_total": 271635.93,
       "top_fornecedores_historico": [
         {
@@ -4159,6 +4401,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "CASA NOTURNA",
       "ultima_compra": "23/05/2025",
+      "ultimo_vendedor": "RQ",
+      "ultimo_vendedor_data": "23/05/2025",
       "faturamento_historico_total": 270458.34,
       "top_fornecedores_historico": [
         {
@@ -4205,6 +4449,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "24/10/2024",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "24/10/2024",
       "faturamento_historico_total": 268532.0,
       "top_fornecedores_historico": [
         {
@@ -4223,6 +4469,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "02/01/2026",
+      "ultimo_vendedor": "LUCAS MATIAS",
+      "ultimo_vendedor_data": "02/01/2026",
       "faturamento_historico_total": 268477.22,
       "top_fornecedores_historico": [
         {
@@ -4269,6 +4517,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "09/01/2025",
+      "ultimo_vendedor": "RCA 0",
+      "ultimo_vendedor_data": "31/01/2025",
       "faturamento_historico_total": 268112.4,
       "top_fornecedores_historico": [
         {
@@ -4287,6 +4537,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "25/09/2025",
+      "ultimo_vendedor": "RQ",
+      "ultimo_vendedor_data": "12/09/2023",
       "faturamento_historico_total": 267351.78,
       "top_fornecedores_historico": [
         {
@@ -4321,6 +4573,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "24/10/2024",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "24/10/2024",
       "faturamento_historico_total": 265947.2,
       "top_fornecedores_historico": [
         {
@@ -4339,6 +4593,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "08/04/2025",
+      "ultimo_vendedor": "MICHELE ALCANTARA",
+      "ultimo_vendedor_data": "08/04/2025",
       "faturamento_historico_total": 265623.56,
       "top_fornecedores_historico": [
         {
@@ -4385,6 +4641,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "OUTROS",
       "ultima_compra": "18/11/2025",
+      "ultimo_vendedor": "MARIA LUIZA",
+      "ultimo_vendedor_data": "18/11/2025",
       "faturamento_historico_total": 264367.38,
       "top_fornecedores_historico": [
         {
@@ -4415,6 +4673,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "24/10/2024",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "24/10/2024",
       "faturamento_historico_total": 264049.2,
       "top_fornecedores_historico": [
         {
@@ -4437,6 +4697,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "BA",
       "ramo": "BAR",
       "ultima_compra": "26/01/2026",
+      "ultimo_vendedor": "RC",
+      "ultimo_vendedor_data": "26/01/2026",
       "faturamento_historico_total": 263670.4,
       "top_fornecedores_historico": [
         {
@@ -4483,6 +4745,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "HOTELARIA",
       "ultima_compra": "11/10/2025",
+      "ultimo_vendedor": "RCA 0",
+      "ultimo_vendedor_data": "10/10/2025",
       "faturamento_historico_total": 263628.1,
       "top_fornecedores_historico": [
         {
@@ -4529,6 +4793,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "30/12/2025",
+      "ultimo_vendedor": "MICHELE ALCANTARA",
+      "ultimo_vendedor_data": "30/12/2025",
       "faturamento_historico_total": 263221.78,
       "top_fornecedores_historico": [
         {
@@ -4575,6 +4841,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "ES",
       "ramo": "BENEFICIO FISCAL - ES",
       "ultima_compra": "27/03/2025",
+      "ultimo_vendedor": "BALCAO",
+      "ultimo_vendedor_data": "27/03/2025",
       "faturamento_historico_total": 262359.4,
       "top_fornecedores_historico": [
         {
@@ -4593,6 +4861,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "RESTAURANTE",
       "ultima_compra": "10/02/2026",
+      "ultimo_vendedor": "JOÃO SANTOS",
+      "ultimo_vendedor_data": "10/02/2026",
       "faturamento_historico_total": 259610.92,
       "top_fornecedores_historico": [
         {
@@ -4631,6 +4901,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "23/02/2026",
+      "ultimo_vendedor": "AUGUSTO SILVA",
+      "ultimo_vendedor_data": "23/02/2026",
       "faturamento_historico_total": 259285.74,
       "top_fornecedores_historico": [
         {
@@ -4677,6 +4949,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "24/10/2024",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "24/10/2024",
       "faturamento_historico_total": 258480.0,
       "top_fornecedores_historico": [
         {
@@ -4695,6 +4969,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
       "ultima_compra": "10/03/2026",
+      "ultimo_vendedor": "MATHEUS DE SOUZA",
+      "ultimo_vendedor_data": "10/03/2026",
       "faturamento_historico_total": 258415.56,
       "top_fornecedores_historico": [
         {
@@ -4713,6 +4989,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "09/01/2025",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "09/01/2025",
       "faturamento_historico_total": 258192.96,
       "top_fornecedores_historico": [
         {
@@ -4731,6 +5009,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "03/03/2026",
+      "ultimo_vendedor": "LAIS POPPE VILLANOVA",
+      "ultimo_vendedor_data": "03/03/2026",
       "faturamento_historico_total": 258189.43,
       "top_fornecedores_historico": [
         {
@@ -4777,6 +5057,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "SC",
       "ramo": "MERCADO",
       "ultima_compra": "27/04/2023",
+      "ultimo_vendedor": "TLR",
+      "ultimo_vendedor_data": "27/04/2023",
       "faturamento_historico_total": 258090.0,
       "top_fornecedores_historico": [
         {
@@ -4803,6 +5085,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "DELIVERY",
       "ultima_compra": "05/02/2024",
+      "ultimo_vendedor": "LAIS POPPE VILLANOVA",
+      "ultimo_vendedor_data": "05/02/2024",
       "faturamento_historico_total": 256920.3,
       "top_fornecedores_historico": [
         {
@@ -4841,6 +5125,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "07/08/2024",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "07/08/2024",
       "faturamento_historico_total": 255136.8,
       "top_fornecedores_historico": [
         {
@@ -4859,6 +5145,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "09/01/2025",
+      "ultimo_vendedor": "RCA 0",
+      "ultimo_vendedor_data": "29/01/2025",
       "faturamento_historico_total": 253448.88,
       "top_fornecedores_historico": [
         {
@@ -4877,6 +5165,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "20/03/2026",
+      "ultimo_vendedor": "VINICIUS AMARAL",
+      "ultimo_vendedor_data": "20/03/2026",
       "faturamento_historico_total": 253426.05,
       "top_fornecedores_historico": [
         {
@@ -4923,6 +5213,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "08/01/2025",
+      "ultimo_vendedor": "RCA 0",
+      "ultimo_vendedor_data": "29/01/2025",
       "faturamento_historico_total": 252011.28,
       "top_fornecedores_historico": [
         {
@@ -4941,6 +5233,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "19/12/2025",
+      "ultimo_vendedor": "BEBIDA IN BOX",
+      "ultimo_vendedor_data": "19/12/2025",
       "faturamento_historico_total": 251889.12,
       "top_fornecedores_historico": [
         {
@@ -4987,6 +5281,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "09/01/2025",
+      "ultimo_vendedor": "RCA 0",
+      "ultimo_vendedor_data": "31/01/2025",
       "faturamento_historico_total": 251867.52,
       "top_fornecedores_historico": [
         {
@@ -5005,6 +5301,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "08/01/2025",
+      "ultimo_vendedor": "RCA 0",
+      "ultimo_vendedor_data": "29/01/2025",
       "faturamento_historico_total": 250861.2,
       "top_fornecedores_historico": [
         {
@@ -5023,6 +5321,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "03/02/2024",
+      "ultimo_vendedor": "TLR",
+      "ultimo_vendedor_data": "03/02/2024",
       "faturamento_historico_total": 249136.8,
       "top_fornecedores_historico": [
         {
@@ -5041,6 +5341,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "02/12/2025",
+      "ultimo_vendedor": "RAFAELA GARRIDO",
+      "ultimo_vendedor_data": "02/12/2025",
       "faturamento_historico_total": 247270.88,
       "top_fornecedores_historico": [
         {
@@ -5071,6 +5373,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "BAR",
       "ultima_compra": "19/02/2025",
+      "ultimo_vendedor": "JULIANA TAVARES",
+      "ultimo_vendedor_data": "19/02/2025",
       "faturamento_historico_total": 245334.14,
       "top_fornecedores_historico": [
         {
@@ -5117,6 +5421,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "08/02/2024",
+      "ultimo_vendedor": "CARLOS ARTHUR NETO",
+      "ultimo_vendedor_data": "08/02/2024",
       "faturamento_historico_total": 245061.27,
       "top_fornecedores_historico": [
         {
@@ -5163,6 +5469,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "17/04/2026",
+      "ultimo_vendedor": "LAIS POPPE VILLANOVA",
+      "ultimo_vendedor_data": "17/04/2026",
       "faturamento_historico_total": 244966.74,
       "top_fornecedores_historico": [
         {
@@ -5209,6 +5517,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "SP",
       "ramo": "MERCADO",
       "ultima_compra": "31/03/2026",
+      "ultimo_vendedor": "TLR",
+      "ultimo_vendedor_data": "31/03/2026",
       "faturamento_historico_total": 244845.0,
       "top_fornecedores_historico": [
         {
@@ -5239,6 +5549,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "RESTAURANTE",
       "ultima_compra": "11/02/2026",
+      "ultimo_vendedor": "DALMO SOARES",
+      "ultimo_vendedor_data": "11/02/2026",
       "faturamento_historico_total": 244638.35,
       "top_fornecedores_historico": [
         {
@@ -5281,6 +5593,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "11/06/2025",
+      "ultimo_vendedor": "FERNANDO CESAR",
+      "ultimo_vendedor_data": "11/06/2025",
       "faturamento_historico_total": 244176.8,
       "top_fornecedores_historico": [
         {
@@ -5327,6 +5641,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "20/05/2025",
+      "ultimo_vendedor": "VINICIUS AMARAL",
+      "ultimo_vendedor_data": "20/05/2025",
       "faturamento_historico_total": 243548.94,
       "top_fornecedores_historico": [
         {
@@ -5365,6 +5681,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "05/03/2025",
+      "ultimo_vendedor": "VINICIUS AMARAL",
+      "ultimo_vendedor_data": "05/03/2025",
       "faturamento_historico_total": 243499.28,
       "top_fornecedores_historico": [
         {
@@ -5411,6 +5729,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "CAFETERIA",
       "ultima_compra": "28/01/2026",
+      "ultimo_vendedor": "MICHELE ALCANTARA",
+      "ultimo_vendedor_data": "28/01/2026",
       "faturamento_historico_total": 242716.97,
       "top_fornecedores_historico": [
         {
@@ -5457,6 +5777,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "10/05/2025",
+      "ultimo_vendedor": "VINICIUS AMARAL",
+      "ultimo_vendedor_data": "10/05/2025",
       "faturamento_historico_total": 242544.03,
       "top_fornecedores_historico": [
         {
@@ -5491,6 +5813,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "24/10/2024",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "24/10/2024",
       "faturamento_historico_total": 242253.2,
       "top_fornecedores_historico": [
         {
@@ -5509,6 +5833,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "RESTAURANTE",
       "ultima_compra": "29/12/2025",
+      "ultimo_vendedor": "FELIPE TOMAZ",
+      "ultimo_vendedor_data": "30/04/2024",
       "faturamento_historico_total": 240847.4,
       "top_fornecedores_historico": [
         {
@@ -5531,6 +5857,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "24/01/2026",
+      "ultimo_vendedor": "LAIS POPPE VILLANOVA",
+      "ultimo_vendedor_data": "24/01/2026",
       "faturamento_historico_total": 240768.5,
       "top_fornecedores_historico": [
         {
@@ -5577,6 +5905,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "OUTROS",
       "ultima_compra": "11/02/2026",
+      "ultimo_vendedor": "DANIELLE MOURA",
+      "ultimo_vendedor_data": "11/02/2026",
       "faturamento_historico_total": 240150.0,
       "top_fornecedores_historico": [
         {
@@ -5599,6 +5929,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "06/01/2025",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "06/01/2025",
       "faturamento_historico_total": 239266.0,
       "top_fornecedores_historico": [
         {
@@ -5617,6 +5949,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "DELIVERY",
       "ultima_compra": "27/02/2025",
+      "ultimo_vendedor": "PAULO VICTOR RAMOS",
+      "ultimo_vendedor_data": "27/02/2025",
       "faturamento_historico_total": 238036.81,
       "top_fornecedores_historico": [
         {
@@ -5663,6 +5997,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "DELIVERY",
       "ultima_compra": "01/10/2024",
+      "ultimo_vendedor": "THIAGO MENDES",
+      "ultimo_vendedor_data": "01/10/2024",
       "faturamento_historico_total": 236595.22,
       "top_fornecedores_historico": [
         {
@@ -5709,6 +6045,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "07/08/2024",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "07/08/2024",
       "faturamento_historico_total": 235872.96,
       "top_fornecedores_historico": [
         {
@@ -5727,6 +6065,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "DELIVERY",
       "ultima_compra": "23/12/2025",
+      "ultimo_vendedor": "MARCUS VINICIUS",
+      "ultimo_vendedor_data": "23/12/2025",
       "faturamento_historico_total": 235678.22,
       "top_fornecedores_historico": [
         {
@@ -5773,6 +6113,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "07/08/2024",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "07/08/2024",
       "faturamento_historico_total": 235585.44,
       "top_fornecedores_historico": [
         {
@@ -5791,6 +6133,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "18/07/2024",
+      "ultimo_vendedor": "LUCAS MATIAS",
+      "ultimo_vendedor_data": "18/07/2024",
       "faturamento_historico_total": 235450.46,
       "top_fornecedores_historico": [
         {
@@ -5837,6 +6181,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "10/09/2025",
+      "ultimo_vendedor": "BEES",
+      "ultimo_vendedor_data": "10/09/2025",
       "faturamento_historico_total": 235011.4,
       "top_fornecedores_historico": [
         {
@@ -5883,6 +6229,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "07/08/2024",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "07/08/2024",
       "faturamento_historico_total": 233572.8,
       "top_fornecedores_historico": [
         {
@@ -5901,6 +6249,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "07/08/2024",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "07/08/2024",
       "faturamento_historico_total": 233260.02,
       "top_fornecedores_historico": [
         {
@@ -5923,6 +6273,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "24/10/2024",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "24/10/2024",
       "faturamento_historico_total": 231483.2,
       "top_fornecedores_historico": [
         {
@@ -5941,6 +6293,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "25/03/2026",
+      "ultimo_vendedor": "RCA 0",
+      "ultimo_vendedor_data": "25/03/2026",
       "faturamento_historico_total": 231287.01,
       "top_fornecedores_historico": [
         {
@@ -5987,6 +6341,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "09/01/2025",
+      "ultimo_vendedor": "RCA 0",
+      "ultimo_vendedor_data": "31/01/2025",
       "faturamento_historico_total": 230447.28,
       "top_fornecedores_historico": [
         {
@@ -6005,6 +6361,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "07/08/2024",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "07/08/2024",
       "faturamento_historico_total": 230122.56,
       "top_fornecedores_historico": [
         {
@@ -6023,6 +6381,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "29/10/2025",
+      "ultimo_vendedor": "LUCAS PACIELLO",
+      "ultimo_vendedor_data": "29/04/2025",
       "faturamento_historico_total": 229824.52,
       "top_fornecedores_historico": [
         {
@@ -6053,6 +6413,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "03/10/2025",
+      "ultimo_vendedor": "RAQUEL SANTOS",
+      "ultimo_vendedor_data": "03/10/2025",
       "faturamento_historico_total": 227575.95,
       "top_fornecedores_historico": [
         {
@@ -6099,6 +6461,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "07/08/2024",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "07/08/2024",
       "faturamento_historico_total": 227391.12,
       "top_fornecedores_historico": [
         {
@@ -6117,6 +6481,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "28/07/2025",
+      "ultimo_vendedor": "MARCUS VINICIUS",
+      "ultimo_vendedor_data": "28/07/2025",
       "faturamento_historico_total": 227306.84,
       "top_fornecedores_historico": [
         {
@@ -6163,6 +6529,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "08/01/2025",
+      "ultimo_vendedor": "RCA 0",
+      "ultimo_vendedor_data": "28/01/2025",
       "faturamento_historico_total": 226088.4,
       "top_fornecedores_historico": [
         {
@@ -6181,6 +6549,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "DELIVERY",
       "ultima_compra": "14/10/2025",
+      "ultimo_vendedor": "VINICIUS AMARAL",
+      "ultimo_vendedor_data": "14/10/2025",
       "faturamento_historico_total": 225612.1,
       "top_fornecedores_historico": [
         {
@@ -6227,6 +6597,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "06/01/2025",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "06/01/2025",
       "faturamento_historico_total": 225611.04,
       "top_fornecedores_historico": [
         {
@@ -6245,6 +6617,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "RESTAURANTE",
       "ultima_compra": "13/09/2024",
+      "ultimo_vendedor": "JULIANA TAVARES",
+      "ultimo_vendedor_data": "13/09/2024",
       "faturamento_historico_total": 224999.04,
       "top_fornecedores_historico": [
         {
@@ -6271,6 +6645,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "BAR",
       "ultima_compra": "26/07/2025",
+      "ultimo_vendedor": "SANDRO SOARES",
+      "ultimo_vendedor_data": "24/07/2025",
       "faturamento_historico_total": 224952.48,
       "top_fornecedores_historico": [
         {
@@ -6297,6 +6673,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "20/02/2026",
+      "ultimo_vendedor": "MARCUS VINICIUS",
+      "ultimo_vendedor_data": "20/02/2026",
       "faturamento_historico_total": 224716.2,
       "top_fornecedores_historico": [
         {
@@ -6343,6 +6721,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "RESTAURANTE",
       "ultima_compra": "10/03/2026",
+      "ultimo_vendedor": "TAMIRES GOMES",
+      "ultimo_vendedor_data": "10/03/2026",
       "faturamento_historico_total": 224637.56,
       "top_fornecedores_historico": [
         {
@@ -6389,6 +6769,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "09/09/2025",
+      "ultimo_vendedor": "LAIS POPPE VILLANOVA",
+      "ultimo_vendedor_data": "09/09/2025",
       "faturamento_historico_total": 224222.99,
       "top_fornecedores_historico": [
         {
@@ -6435,6 +6817,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "24/03/2026",
+      "ultimo_vendedor": "MARCUS VINICIUS",
+      "ultimo_vendedor_data": "24/03/2026",
       "faturamento_historico_total": 224051.34,
       "top_fornecedores_historico": [
         {
@@ -6481,6 +6865,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "24/10/2024",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "24/10/2024",
       "faturamento_historico_total": 222867.2,
       "top_fornecedores_historico": [
         {
@@ -6499,6 +6885,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "RESTAURANTE",
       "ultima_compra": "21/01/2025",
+      "ultimo_vendedor": "FELIPE TOMAZ",
+      "ultimo_vendedor_data": "06/11/2024",
       "faturamento_historico_total": 221712.74,
       "top_fornecedores_historico": [
         {
@@ -6545,6 +6933,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "OUTROS",
       "ultima_compra": "14/02/2024",
+      "ultimo_vendedor": "RQ",
+      "ultimo_vendedor_data": "14/02/2024",
       "faturamento_historico_total": 220635.12,
       "top_fornecedores_historico": [
         {
@@ -6579,6 +6969,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "PADARIA",
       "ultima_compra": "15/04/2026",
+      "ultimo_vendedor": "DANIELLE MOURA",
+      "ultimo_vendedor_data": "15/04/2026",
       "faturamento_historico_total": 219317.85,
       "top_fornecedores_historico": [
         {
@@ -6625,6 +7017,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "27/08/2024",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "21/08/2024",
       "faturamento_historico_total": 218334.24,
       "top_fornecedores_historico": [
         {
@@ -6643,6 +7037,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "13/04/2026",
+      "ultimo_vendedor": "LUCAS MATIAS",
+      "ultimo_vendedor_data": "13/04/2026",
       "faturamento_historico_total": 217021.96,
       "top_fornecedores_historico": [
         {
@@ -6669,6 +7065,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "09/05/2024",
+      "ultimo_vendedor": "FERNANDO CESAR",
+      "ultimo_vendedor_data": "09/05/2024",
       "faturamento_historico_total": 215775.8,
       "top_fornecedores_historico": [
         {
@@ -6715,6 +7113,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "CONVENIENCIA",
       "ultima_compra": "11/06/2025",
+      "ultimo_vendedor": "RC",
+      "ultimo_vendedor_data": "13/03/2025",
       "faturamento_historico_total": 214857.29,
       "top_fornecedores_historico": [
         {
@@ -6761,6 +7161,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "03/10/2025",
+      "ultimo_vendedor": "LAIS POPPE VILLANOVA",
+      "ultimo_vendedor_data": "03/10/2025",
       "faturamento_historico_total": 214551.45,
       "top_fornecedores_historico": [
         {
@@ -6807,6 +7209,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "RESTAURANTE",
       "ultima_compra": "21/01/2025",
+      "ultimo_vendedor": "FELIPE TOMAZ",
+      "ultimo_vendedor_data": "21/01/2025",
       "faturamento_historico_total": 214504.53,
       "top_fornecedores_historico": [
         {
@@ -6845,6 +7249,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "12/04/2023",
+      "ultimo_vendedor": "RQ",
+      "ultimo_vendedor_data": "12/04/2023",
       "faturamento_historico_total": 214275.6,
       "top_fornecedores_historico": [
         {
@@ -6863,6 +7269,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "OUTROS",
       "ultima_compra": "07/01/2026",
+      "ultimo_vendedor": "MARCUS VINICIUS",
+      "ultimo_vendedor_data": "07/01/2026",
       "faturamento_historico_total": 214151.52,
       "top_fornecedores_historico": [
         {
@@ -6909,6 +7317,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "04/09/2025",
+      "ultimo_vendedor": "BEES",
+      "ultimo_vendedor_data": "04/09/2025",
       "faturamento_historico_total": 213694.8,
       "top_fornecedores_historico": [
         {
@@ -6931,6 +7341,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "16/03/2026",
+      "ultimo_vendedor": "INGRID ARAUJO",
+      "ultimo_vendedor_data": "16/03/2026",
       "faturamento_historico_total": 213325.79,
       "top_fornecedores_historico": [
         {
@@ -6977,6 +7389,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "07/01/2026",
+      "ultimo_vendedor": "RQ",
+      "ultimo_vendedor_data": "07/01/2026",
       "faturamento_historico_total": 213258.16,
       "top_fornecedores_historico": [
         {
@@ -6995,6 +7409,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "14/01/2026",
+      "ultimo_vendedor": "CARLOS ARTHUR NETO",
+      "ultimo_vendedor_data": "14/01/2026",
       "faturamento_historico_total": 211910.74,
       "top_fornecedores_historico": [
         {
@@ -7041,6 +7457,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "07/08/2024",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "07/08/2024",
       "faturamento_historico_total": 211433.76,
       "top_fornecedores_historico": [
         {
@@ -7059,6 +7477,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "24/10/2024",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "24/10/2024",
       "faturamento_historico_total": 210804.8,
       "top_fornecedores_historico": [
         {
@@ -7077,6 +7497,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "BAR",
       "ultima_compra": "19/12/2024",
+      "ultimo_vendedor": "FELIPE TOMAZ",
+      "ultimo_vendedor_data": "19/12/2024",
       "faturamento_historico_total": 207283.94,
       "top_fornecedores_historico": [
         {
@@ -7115,6 +7537,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "BAR",
       "ultima_compra": "23/07/2024",
+      "ultimo_vendedor": "LEO OLIVEIRA",
+      "ultimo_vendedor_data": "23/07/2024",
       "faturamento_historico_total": 207128.98,
       "top_fornecedores_historico": [
         {
@@ -7161,6 +7585,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "BAR",
       "ultima_compra": "24/01/2025",
+      "ultimo_vendedor": "LEO OLIVEIRA",
+      "ultimo_vendedor_data": "24/01/2025",
       "faturamento_historico_total": 207015.65,
       "top_fornecedores_historico": [
         {
@@ -7195,6 +7621,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "BAR",
       "ultima_compra": "13/02/2026",
+      "ultimo_vendedor": "FELIPE TOMAZ",
+      "ultimo_vendedor_data": "13/02/2026",
       "faturamento_historico_total": 206856.88,
       "top_fornecedores_historico": [
         {
@@ -7241,6 +7669,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "17/07/2025",
+      "ultimo_vendedor": "AUGUSTO SILVA",
+      "ultimo_vendedor_data": "18/07/2024",
       "faturamento_historico_total": 206455.12,
       "top_fornecedores_historico": [
         {
@@ -7287,6 +7717,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "OUTROS",
       "ultima_compra": "22/02/2024",
+      "ultimo_vendedor": "ARLLEY FIGUEIREDO",
+      "ultimo_vendedor_data": "22/02/2024",
       "faturamento_historico_total": 205537.54,
       "top_fornecedores_historico": [
         {
@@ -7309,6 +7741,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "04/07/2025",
+      "ultimo_vendedor": "LAIS POPPE VILLANOVA",
+      "ultimo_vendedor_data": "17/06/2025",
       "faturamento_historico_total": 205125.81,
       "top_fornecedores_historico": [
         {
@@ -7355,6 +7789,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "BAR",
       "ultima_compra": "25/02/2025",
+      "ultimo_vendedor": "FELIPE TOMAZ",
+      "ultimo_vendedor_data": "25/02/2025",
       "faturamento_historico_total": 204333.19,
       "top_fornecedores_historico": [
         {
@@ -7401,6 +7837,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "SP",
       "ramo": "MERCADO",
       "ultima_compra": "31/10/2023",
+      "ultimo_vendedor": "TLR",
+      "ultimo_vendedor_data": "31/10/2023",
       "faturamento_historico_total": 202452.0,
       "top_fornecedores_historico": [
         {
@@ -7419,6 +7857,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "06/01/2025",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "06/01/2025",
       "faturamento_historico_total": 202321.92,
       "top_fornecedores_historico": [
         {
@@ -7437,6 +7877,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "04/11/2024",
+      "ultimo_vendedor": "LAIS POPPE VILLANOVA",
+      "ultimo_vendedor_data": "04/11/2024",
       "faturamento_historico_total": 202027.34,
       "top_fornecedores_historico": [
         {
@@ -7483,6 +7925,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "HOTELARIA",
       "ultima_compra": "12/11/2024",
+      "ultimo_vendedor": "LAIS POPPE VILLANOVA",
+      "ultimo_vendedor_data": "12/11/2024",
       "faturamento_historico_total": 200800.74,
       "top_fornecedores_historico": [
         {
@@ -7529,6 +7973,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
       "ultima_compra": "16/12/2024",
+      "ultimo_vendedor": "SANDRO SOARES",
+      "ultimo_vendedor_data": "11/11/2024",
       "faturamento_historico_total": 200616.4,
       "top_fornecedores_historico": [
         {
@@ -7551,6 +7997,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "05/04/2023",
+      "ultimo_vendedor": "MARCUS VINICIUS",
+      "ultimo_vendedor_data": "05/04/2023",
       "faturamento_historico_total": 200257.2,
       "top_fornecedores_historico": []
     },
@@ -7564,6 +8012,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "RESTAURANTE",
       "ultima_compra": "11/06/2025",
+      "ultimo_vendedor": "JULIANA TAVARES",
+      "ultimo_vendedor_data": "11/06/2025",
       "faturamento_historico_total": 199847.46,
       "top_fornecedores_historico": [
         {
@@ -7610,6 +8060,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "BAR",
       "ultima_compra": "09/03/2022",
+      "ultimo_vendedor": "LEO OLIVEIRA",
+      "ultimo_vendedor_data": "09/03/2022",
       "faturamento_historico_total": 198695.52,
       "top_fornecedores_historico": [
         {
@@ -7636,6 +8088,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
       "ultima_compra": "25/01/2024",
+      "ultimo_vendedor": "FELIPE TOMAZ",
+      "ultimo_vendedor_data": "25/01/2024",
       "faturamento_historico_total": 198390.05,
       "top_fornecedores_historico": [
         {
@@ -7682,6 +8136,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "05/11/2024",
+      "ultimo_vendedor": "PAULO VICTOR RAMOS",
+      "ultimo_vendedor_data": "05/11/2024",
       "faturamento_historico_total": 197770.42,
       "top_fornecedores_historico": [
         {
@@ -7728,6 +8184,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "RESTAURANTE",
       "ultima_compra": "12/08/2025",
+      "ultimo_vendedor": "LUCAS SILVA",
+      "ultimo_vendedor_data": "12/08/2025",
       "faturamento_historico_total": 197377.08,
       "top_fornecedores_historico": [
         {
@@ -7770,6 +8228,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "04/06/2025",
+      "ultimo_vendedor": "AUGUSTO SILVA",
+      "ultimo_vendedor_data": "04/06/2025",
       "faturamento_historico_total": 194695.95,
       "top_fornecedores_historico": [
         {
@@ -7816,6 +8276,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
       "ultima_compra": "19/01/2026",
+      "ultimo_vendedor": "MATHEUS DE SOUZA",
+      "ultimo_vendedor_data": "19/01/2026",
       "faturamento_historico_total": 194094.48,
       "top_fornecedores_historico": [
         {
@@ -7842,6 +8304,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "09/05/2025",
+      "ultimo_vendedor": "FERNANDO CESAR",
+      "ultimo_vendedor_data": "09/05/2025",
       "faturamento_historico_total": 193981.44,
       "top_fornecedores_historico": [
         {
@@ -7876,6 +8340,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "10/07/2023",
+      "ultimo_vendedor": "THIAGO DA SILVA P",
+      "ultimo_vendedor_data": "28/06/2023",
       "faturamento_historico_total": 193832.76,
       "top_fornecedores_historico": [
         {
@@ -7922,6 +8388,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "BAR",
       "ultima_compra": "29/08/2025",
+      "ultimo_vendedor": "JOÃO SANTOS",
+      "ultimo_vendedor_data": "29/08/2025",
       "faturamento_historico_total": 192551.85,
       "top_fornecedores_historico": [
         {
@@ -7968,6 +8436,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "27/12/2024",
+      "ultimo_vendedor": "PAULO VICTOR RAMOS",
+      "ultimo_vendedor_data": "27/12/2024",
       "faturamento_historico_total": 192183.64,
       "top_fornecedores_historico": [
         {
@@ -8006,6 +8476,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "06/02/2024",
+      "ultimo_vendedor": "FERNANDO CESAR",
+      "ultimo_vendedor_data": "06/02/2024",
       "faturamento_historico_total": 192131.59,
       "top_fornecedores_historico": [
         {
@@ -8036,6 +8508,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "BAR",
       "ultima_compra": "14/10/2024",
+      "ultimo_vendedor": "LEO OLIVEIRA",
+      "ultimo_vendedor_data": "26/09/2024",
       "faturamento_historico_total": 192058.95,
       "top_fornecedores_historico": [
         {
@@ -8074,6 +8548,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "17/11/2025",
+      "ultimo_vendedor": "VENDEDOR 03",
+      "ultimo_vendedor_data": "06/05/2025",
       "faturamento_historico_total": 191902.54,
       "top_fornecedores_historico": [
         {
@@ -8120,6 +8596,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "02/12/2025",
+      "ultimo_vendedor": "THIAGO MENDES",
+      "ultimo_vendedor_data": "02/12/2025",
       "faturamento_historico_total": 190583.64,
       "top_fornecedores_historico": [
         {
@@ -8166,6 +8644,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "07/08/2024",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "07/08/2024",
       "faturamento_historico_total": 188288.4,
       "top_fornecedores_historico": [
         {
@@ -8184,6 +8664,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "15/07/2025",
+      "ultimo_vendedor": "VINICIUS AMARAL",
+      "ultimo_vendedor_data": "20/02/2025",
       "faturamento_historico_total": 187729.92,
       "top_fornecedores_historico": [
         {
@@ -8230,6 +8712,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "BAR",
       "ultima_compra": "06/11/2025",
+      "ultimo_vendedor": "FELIPE TOMAZ",
+      "ultimo_vendedor_data": "06/11/2025",
       "faturamento_historico_total": 187334.55,
       "top_fornecedores_historico": [
         {
@@ -8248,6 +8732,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "CASA NOTURNA",
       "ultima_compra": "08/10/2024",
+      "ultimo_vendedor": "RQ",
+      "ultimo_vendedor_data": "08/10/2024",
       "faturamento_historico_total": 186138.3,
       "top_fornecedores_historico": [
         {
@@ -8282,6 +8768,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "16/04/2026",
+      "ultimo_vendedor": "MARCUS VINICIUS",
+      "ultimo_vendedor_data": "16/04/2026",
       "faturamento_historico_total": 184714.08,
       "top_fornecedores_historico": [
         {
@@ -8328,6 +8816,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "07/08/2023",
+      "ultimo_vendedor": "THIAGO DA SILVA P",
+      "ultimo_vendedor_data": "02/05/2023",
       "faturamento_historico_total": 183995.48,
       "top_fornecedores_historico": [
         {
@@ -8358,6 +8848,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "RESTAURANTE",
       "ultima_compra": "10/12/2025",
+      "ultimo_vendedor": "TAMIRES GOMES",
+      "ultimo_vendedor_data": "10/12/2025",
       "faturamento_historico_total": 183577.06,
       "top_fornecedores_historico": [
         {
@@ -8400,6 +8892,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "RESTAURANTE",
       "ultima_compra": "16/07/2025",
+      "ultimo_vendedor": "JOÃO SANTOS",
+      "ultimo_vendedor_data": "16/07/2025",
       "faturamento_historico_total": 183289.2,
       "top_fornecedores_historico": [
         {
@@ -8446,6 +8940,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "04/05/2023",
+      "ultimo_vendedor": "VINICIUS AMARAL",
+      "ultimo_vendedor_data": "04/05/2023",
       "faturamento_historico_total": 182579.54,
       "top_fornecedores_historico": [
         {
@@ -8492,6 +8988,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "09/01/2025",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "09/01/2025",
       "faturamento_historico_total": 182575.2,
       "top_fornecedores_historico": [
         {
@@ -8510,6 +9008,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "21/02/2024",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "21/02/2024",
       "faturamento_historico_total": 180576.0,
       "top_fornecedores_historico": [
         {
@@ -8528,6 +9028,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "27/11/2025",
+      "ultimo_vendedor": "DANIELLE MOURA",
+      "ultimo_vendedor_data": "27/11/2025",
       "faturamento_historico_total": 179340.18,
       "top_fornecedores_historico": [
         {
@@ -8554,6 +9056,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "BAR",
       "ultima_compra": "19/06/2024",
+      "ultimo_vendedor": "FELIPE TOMAZ",
+      "ultimo_vendedor_data": "11/06/2024",
       "faturamento_historico_total": 179023.7,
       "top_fornecedores_historico": [
         {
@@ -8584,6 +9088,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "29/01/2024",
+      "ultimo_vendedor": "LAIS POPPE VILLANOVA",
+      "ultimo_vendedor_data": "29/01/2024",
       "faturamento_historico_total": 178691.55,
       "top_fornecedores_historico": [
         {
@@ -8630,6 +9136,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "16/08/2024",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "16/08/2024",
       "faturamento_historico_total": 177888.33,
       "top_fornecedores_historico": [
         {
@@ -8676,6 +9184,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "06/01/2025",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "06/01/2025",
       "faturamento_historico_total": 177773.52,
       "top_fornecedores_historico": [
         {
@@ -8694,6 +9204,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "08/01/2025",
+      "ultimo_vendedor": "RCA 0",
+      "ultimo_vendedor_data": "29/01/2025",
       "faturamento_historico_total": 177201.84,
       "top_fornecedores_historico": [
         {
@@ -8712,6 +9224,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "07/07/2023",
+      "ultimo_vendedor": "MARCUS VINICIUS",
+      "ultimo_vendedor_data": "07/07/2023",
       "faturamento_historico_total": 176104.98,
       "top_fornecedores_historico": [
         {
@@ -8758,6 +9272,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "RESTAURANTE",
       "ultima_compra": "10/04/2025",
+      "ultimo_vendedor": "FELIPE TOMAZ",
+      "ultimo_vendedor_data": "10/04/2025",
       "faturamento_historico_total": 175254.69,
       "top_fornecedores_historico": [
         {
@@ -8804,6 +9320,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "21/08/2025",
+      "ultimo_vendedor": "DANIELLE MOURA",
+      "ultimo_vendedor_data": "21/08/2025",
       "faturamento_historico_total": 174534.1,
       "top_fornecedores_historico": [
         {
@@ -8830,6 +9348,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "DELIVERY",
       "ultima_compra": "07/07/2023",
+      "ultimo_vendedor": "INGRID FERNANDES",
+      "ultimo_vendedor_data": "07/07/2023",
       "faturamento_historico_total": 173176.9,
       "top_fornecedores_historico": [
         {
@@ -8876,6 +9396,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "10/06/2026",
+      "ultimo_vendedor": "EVENTOS",
+      "ultimo_vendedor_data": "10/06/2026",
       "faturamento_historico_total": 172651.29,
       "top_fornecedores_historico": [
         {
@@ -8902,6 +9424,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "23/04/2024",
+      "ultimo_vendedor": "AUGUSTO SILVA",
+      "ultimo_vendedor_data": "23/04/2024",
       "faturamento_historico_total": 171233.28,
       "top_fornecedores_historico": [
         {
@@ -8940,6 +9464,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
       "ultima_compra": "10/10/2022",
+      "ultimo_vendedor": "SANDRO SOARES",
+      "ultimo_vendedor_data": "10/10/2022",
       "faturamento_historico_total": 171217.2,
       "top_fornecedores_historico": [
         {
@@ -8962,6 +9488,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "DELIVERY",
       "ultima_compra": "01/10/2024",
+      "ultimo_vendedor": "THIAGO MENDES",
+      "ultimo_vendedor_data": "01/10/2024",
       "faturamento_historico_total": 170995.28,
       "top_fornecedores_historico": [
         {
@@ -9008,6 +9536,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "11/12/2025",
+      "ultimo_vendedor": "VINICIUS AMARAL",
+      "ultimo_vendedor_data": "11/12/2025",
       "faturamento_historico_total": 169564.09,
       "top_fornecedores_historico": [
         {
@@ -9054,6 +9584,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "RESTAURANTE",
       "ultima_compra": "21/01/2025",
+      "ultimo_vendedor": "JEAN LUCA",
+      "ultimo_vendedor_data": "21/01/2025",
       "faturamento_historico_total": 169426.02,
       "top_fornecedores_historico": [
         {
@@ -9092,6 +9624,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "DELIVERY",
       "ultima_compra": "11/07/2024",
+      "ultimo_vendedor": "MARCUS VINICIUS",
+      "ultimo_vendedor_data": "11/07/2024",
       "faturamento_historico_total": 168529.84,
       "top_fornecedores_historico": [
         {
@@ -9138,6 +9672,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "12/03/2026",
+      "ultimo_vendedor": "THIAGO DA SILVA P",
+      "ultimo_vendedor_data": "13/04/2023",
       "faturamento_historico_total": 167321.48,
       "top_fornecedores_historico": [
         {
@@ -9184,6 +9720,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "ESCRITORIO",
       "ultima_compra": "09/06/2025",
+      "ultimo_vendedor": "LAIS POPPE VILLANOVA",
+      "ultimo_vendedor_data": "09/06/2025",
       "faturamento_historico_total": 166028.23,
       "top_fornecedores_historico": [
         {
@@ -9230,6 +9768,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
       "ultima_compra": "08/05/2025",
+      "ultimo_vendedor": "FELIPE TOMAZ",
+      "ultimo_vendedor_data": "08/05/2025",
       "faturamento_historico_total": 165496.34,
       "top_fornecedores_historico": [
         {
@@ -9268,6 +9808,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "27/01/2025",
+      "ultimo_vendedor": "VINICIUS AMARAL",
+      "ultimo_vendedor_data": "27/01/2025",
       "faturamento_historico_total": 165183.34,
       "top_fornecedores_historico": [
         {
@@ -9298,6 +9840,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "RESTAURANTE",
       "ultima_compra": "18/11/2025",
+      "ultimo_vendedor": "FELIPE TOMAZ",
+      "ultimo_vendedor_data": "18/11/2025",
       "faturamento_historico_total": 164866.88,
       "top_fornecedores_historico": [
         {
@@ -9328,6 +9872,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "ES",
       "ramo": "BAR",
       "ultima_compra": "03/03/2026",
+      "ultimo_vendedor": "PAMELA COSTA",
+      "ultimo_vendedor_data": "03/03/2026",
       "faturamento_historico_total": 164404.22,
       "top_fornecedores_historico": [
         {
@@ -9350,6 +9896,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "05/06/2024",
+      "ultimo_vendedor": "RQ",
+      "ultimo_vendedor_data": "05/06/2024",
       "faturamento_historico_total": 164210.2,
       "top_fornecedores_historico": [
         {
@@ -9372,6 +9920,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "20/08/2025",
+      "ultimo_vendedor": "THIAGO MENDES",
+      "ultimo_vendedor_data": "20/08/2025",
       "faturamento_historico_total": 163656.72,
       "top_fornecedores_historico": [
         {
@@ -9418,6 +9968,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "PESSOA FISICA",
       "ultima_compra": "14/07/2022",
+      "ultimo_vendedor": "SANDRO SOARES",
+      "ultimo_vendedor_data": "14/07/2022",
       "faturamento_historico_total": 163236.0,
       "top_fornecedores_historico": [
         {
@@ -9436,6 +9988,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "ES",
       "ramo": "BAR",
       "ultima_compra": "01/04/2026",
+      "ultimo_vendedor": "PAMELA COSTA",
+      "ultimo_vendedor_data": "01/04/2026",
       "faturamento_historico_total": 162628.16,
       "top_fornecedores_historico": [
         {
@@ -9482,6 +10036,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "CAFETERIA",
       "ultima_compra": "18/09/2024",
+      "ultimo_vendedor": "VENDEDOR 03",
+      "ultimo_vendedor_data": "18/09/2024",
       "faturamento_historico_total": 162301.92,
       "top_fornecedores_historico": [
         {
@@ -9500,6 +10056,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "RESTAURANTE",
       "ultima_compra": "19/03/2026",
+      "ultimo_vendedor": "LUCAS MATIAS",
+      "ultimo_vendedor_data": "19/03/2026",
       "faturamento_historico_total": 162149.34,
       "top_fornecedores_historico": [
         {
@@ -9546,6 +10104,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "07/01/2025",
+      "ultimo_vendedor": "RCA 0",
+      "ultimo_vendedor_data": "30/01/2025",
       "faturamento_historico_total": 161418.05,
       "top_fornecedores_historico": [
         {
@@ -9592,6 +10152,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "ES",
       "ramo": "MERCADO",
       "ultima_compra": "28/11/2025",
+      "ultimo_vendedor": "EUDES MORGAN",
+      "ultimo_vendedor_data": "28/11/2025",
       "faturamento_historico_total": 161370.9,
       "top_fornecedores_historico": [
         {
@@ -9610,6 +10172,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
       "ultima_compra": "09/06/2022",
+      "ultimo_vendedor": "SANDRO SOARES",
+      "ultimo_vendedor_data": "09/06/2022",
       "faturamento_historico_total": 159096.72,
       "top_fornecedores_historico": [
         {
@@ -9640,6 +10204,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "05/02/2025",
+      "ultimo_vendedor": "JULIANA MARCAL",
+      "ultimo_vendedor_data": "05/02/2025",
       "faturamento_historico_total": 157545.14,
       "top_fornecedores_historico": [
         {
@@ -9686,6 +10252,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "ES",
       "ramo": "RESTAURANTE",
       "ultima_compra": "30/07/2024",
+      "ultimo_vendedor": "VENDEDOR 03",
+      "ultimo_vendedor_data": "30/07/2024",
       "faturamento_historico_total": 157514.72,
       "top_fornecedores_historico": [
         {
@@ -9704,6 +10272,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "TABACARIA",
       "ultima_compra": "13/02/2026",
+      "ultimo_vendedor": "FERNANDO CESAR",
+      "ultimo_vendedor_data": "22/01/2026",
       "faturamento_historico_total": 156718.58,
       "top_fornecedores_historico": [
         {
@@ -9750,6 +10320,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "BAR",
       "ultima_compra": "09/10/2025",
+      "ultimo_vendedor": "FELIPE TOMAZ",
+      "ultimo_vendedor_data": "09/10/2025",
       "faturamento_historico_total": 155815.54,
       "top_fornecedores_historico": [
         {
@@ -9792,6 +10364,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "DELIVERY",
       "ultima_compra": "18/06/2025",
+      "ultimo_vendedor": "HXO",
+      "ultimo_vendedor_data": "18/06/2025",
       "faturamento_historico_total": 154665.1,
       "top_fornecedores_historico": [
         {
@@ -9826,6 +10400,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "06/01/2025",
+      "ultimo_vendedor": "VENDEDOR 02",
+      "ultimo_vendedor_data": "06/01/2025",
       "faturamento_historico_total": 153909.36,
       "top_fornecedores_historico": [
         {
@@ -9844,6 +10420,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "ES",
       "ramo": "RESTAURANTE",
       "ultima_compra": "06/12/2023",
+      "ultimo_vendedor": "MARTINHO GOMES",
+      "ultimo_vendedor_data": "06/12/2023",
       "faturamento_historico_total": 153652.24,
       "top_fornecedores_historico": [
         {
@@ -9882,6 +10460,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "21/09/2024",
+      "ultimo_vendedor": "FERNANDO CESAR",
+      "ultimo_vendedor_data": "22/05/2024",
       "faturamento_historico_total": 153506.62,
       "top_fornecedores_historico": [
         {
@@ -9928,6 +10508,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "ES",
       "ramo": "MERCADO",
       "ultima_compra": "09/01/2025",
+      "ultimo_vendedor": "VENDEDOR 03",
+      "ultimo_vendedor_data": "03/01/2025",
       "faturamento_historico_total": 152554.51,
       "top_fornecedores_historico": [
         {
@@ -9962,6 +10544,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "08/08/2025",
+      "ultimo_vendedor": "MICHELE ALCANTARA",
+      "ultimo_vendedor_data": "08/08/2025",
       "faturamento_historico_total": 152258.68,
       "top_fornecedores_historico": [
         {
@@ -9988,6 +10572,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "08/11/2024",
+      "ultimo_vendedor": "FERNANDO CESAR",
+      "ultimo_vendedor_data": "20/08/2024",
       "faturamento_historico_total": 152210.46,
       "top_fornecedores_historico": [
         {
@@ -10034,6 +10620,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "MG",
       "ramo": "BAR",
       "ultima_compra": "05/05/2025",
+      "ultimo_vendedor": "JULIANA TAVARES",
+      "ultimo_vendedor_data": "05/05/2025",
       "faturamento_historico_total": 152104.15,
       "top_fornecedores_historico": [
         {
@@ -10072,6 +10660,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "30/09/2024",
+      "ultimo_vendedor": "VINICIUS AMARAL",
+      "ultimo_vendedor_data": "30/09/2024",
       "faturamento_historico_total": 150167.36,
       "top_fornecedores_historico": [
         {
@@ -10118,6 +10708,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "MERCADO",
       "ultima_compra": "15/12/2025",
+      "ultimo_vendedor": "RQ",
+      "ultimo_vendedor_data": "15/12/2025",
       "faturamento_historico_total": 149927.78,
       "top_fornecedores_historico": [
         {
@@ -10136,6 +10728,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "15/01/2026",
+      "ultimo_vendedor": "MICHELE ALCANTARA",
+      "ultimo_vendedor_data": "15/01/2026",
       "faturamento_historico_total": 148935.42,
       "top_fornecedores_historico": [
         {
@@ -10182,6 +10776,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "TABACARIA",
       "ultima_compra": "15/06/2026",
+      "ultimo_vendedor": "RC",
+      "ultimo_vendedor_data": "15/06/2026",
       "faturamento_historico_total": 148490.55,
       "top_fornecedores_historico": [
         {
@@ -10220,6 +10816,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "BAR",
       "ultima_compra": "05/12/2025",
+      "ultimo_vendedor": "THIAGO NASCIMENTO",
+      "ultimo_vendedor_data": "05/12/2025",
       "faturamento_historico_total": 148281.94,
       "top_fornecedores_historico": [
         {
@@ -10266,6 +10864,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       "estado_cliente": "RJ",
       "ramo": "ESCRITORIO",
       "ultima_compra": "22/04/2025",
+      "ultimo_vendedor": "FERNANDO CESAR",
+      "ultimo_vendedor_data": "22/04/2025",
       "faturamento_historico_total": 147315.27,
       "top_fornecedores_historico": [
         {

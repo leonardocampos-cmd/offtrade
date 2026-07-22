@@ -109,7 +109,7 @@
         </div>
 
         <div class="filtro">
-          <input type="text" id="busca" placeholder="Buscar cliente, cidade ou ramo...">
+          <input type="text" id="busca" placeholder="Buscar cliente, cidade, ramo ou vendedor...">
         </div>
 
         <div id="lista"></div>
@@ -127,6 +127,7 @@
                 <div>
                   <div class="cli-nome">${c.nome}</div>
                   <div class="cli-meta">${c.cidade} · ${c.estado_cliente} · ${c.ramo} · Última compra: ${c.ultima_compra || 'nunca registrada'}</div>
+                  <div class="cli-meta">Último vendedor: ${c.ultimo_vendedor || 'Não identificado'}${c.ultimo_vendedor_data ? ' (' + c.ultimo_vendedor_data + ')' : ''}</div>
                 </div>
                 <div class="cli-valor">${brl(c.faturamento_historico_total)}</div>
               </div>
@@ -141,7 +142,8 @@
       document.getElementById('busca').addEventListener('input', function () {
         const q = this.value.trim().toUpperCase();
         renderLista(clientes.filter(c =>
-          c.nome.toUpperCase().includes(q) || c.cidade.toUpperCase().includes(q) || c.ramo.toUpperCase().includes(q)
+          c.nome.toUpperCase().includes(q) || c.cidade.toUpperCase().includes(q) ||
+          c.ramo.toUpperCase().includes(q) || (c.ultimo_vendedor || '').toUpperCase().includes(q)
         ));
       });
     }
