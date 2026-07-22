@@ -55,6 +55,13 @@
     .sugestao-meta { color: var(--muted); font-size: .74rem; margin-top: 2px; }
 
     .sem-selecao { color: var(--muted); text-align: center; padding: 60px 20px; }
+    .filtro-rede-wrap { display: flex; flex-direction: column; gap: 5px; max-width: 320px; margin-bottom: 20px; }
+    .filtro-rede-wrap label { font-size: .68rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+    .filtro-rede-wrap select {
+      padding: 10px 12px; border-radius: 8px; border: 1px solid var(--border);
+      background: var(--card); color: var(--text); font-size: .88rem; outline: none;
+    }
+    .filtro-rede-wrap select:focus { border-color: var(--accent); }
 
     .ficha-header {
       background: var(--card); border: 1px solid var(--border); border-radius: 14px;
@@ -128,6 +135,11 @@
       <div class="sugestoes" id="sugestoes"></div>
     </div>
 
+    <div class="filtro-rede-wrap">
+      <label for="filtro-rede">Filtrar por rede</label>
+      <select id="filtro-rede"></select>
+    </div>
+
     <div id="conteudo"></div>
   </div>
 
@@ -142,7 +154,8 @@
     const estadoFiltro = params.get('estado') || '';
     const gerenteFiltro = params.get('gerente') || '';
     const supervisorFiltro = params.get('supervisor') || '';
-    const temFiltro = !!(ramoFiltro || vendedorFiltro || estadoFiltro || gerenteFiltro || supervisorFiltro);
+    let redeFiltro = params.get('rede') || '';
+    const temFiltro = () => !!(ramoFiltro || vendedorFiltro || estadoFiltro || gerenteFiltro || supervisorFiltro || redeFiltro);
     let clienteAtual = null;
 
     function listaBase() {
@@ -152,9 +165,31 @@
         if (estadoFiltro && c.estado !== estadoFiltro) return false;
         if (gerenteFiltro && c.gerente !== gerenteFiltro) return false;
         if (supervisorFiltro && c.supervisor !== supervisorFiltro) return false;
+        if (redeFiltro && c.rede !== redeFiltro) return false;
         return true;
       });
     }
+
+    function montaFiltroRede() {
+      const sel = document.getElementById('filtro-rede');
+      const redes = [...new Set(data.clientes.map(c => c.rede).filter(r => r && r !== 'Sem rede'))].sort();
+      sel.innerHTML = ['<option value="">Todas</option>']
+        .concat(redes.map(r => `<option value="${r}">${r}</option>`)).join('');
+      sel.value = redeFiltro;
+      sel.addEventListener('change', () => {
+        redeFiltro = sel.value;
+        const p = new URLSearchParams(location.search);
+        if (redeFiltro) p.set('rede', redeFiltro); else p.delete('rede');
+        p.delete('chave');
+        history.replaceState(null, '', '?' + p.toString());
+        if (temFiltro()) {
+          renderListaFiltrada();
+        } else {
+          document.getElementById('conteudo').innerHTML = '<div class="sem-selecao">Busque um cliente pelo nome acima para ver o Raio X completo.</div>';
+        }
+      });
+    }
+    montaFiltroRede();
 
     function nomeVendedorFiltro() {
       if (!vendedorFiltro) return '';
@@ -165,8 +200,14 @@
       return vendedorFiltro;
     }
 
+    function filtrarPorRede(rede) {
+      const p = new URLSearchParams();
+      p.set('rede', rede);
+      location.href = '?' + p.toString();
+    }
+
     function renderListaFiltrada() {
-      if (!temFiltro) return;
+      if (!temFiltro()) return;
       const lista = listaBase().sort((a, b) => b.faturamento_ytd - a.faturamento_ytd);
       const filtrosHtml = [
         estadoFiltro ? `<span class="tag">Estado: ${estadoFiltro}</span>` : '',
@@ -174,6 +215,7 @@
         supervisorFiltro ? `<span class="tag">Supervisor: ${supervisorFiltro}</span>` : '',
         ramoFiltro ? `<span class="tag">Ramo: ${ramoFiltro}</span>` : '',
         vendedorFiltro ? `<span class="tag">Vendedor: ${nomeVendedorFiltro()}</span>` : '',
+        redeFiltro ? `<span class="tag">Rede: ${redeFiltro}</span>` : '',
       ].join('');
 
       const linhas = lista.map(c => `
@@ -315,6 +357,7 @@
               <span class="tag">${c.ramo}</span>
               <span class="tag">${c.estado}</span>
               <span class="tag">${c.cidade}</span>
+              ${c.rede && c.rede !== 'Sem rede' ? `<span class="tag" style="cursor:pointer" onclick="filtrarPorRede('${c.rede.replace(/'/g, "\\'")}')" title="Ver todos os clientes desta rede">🔗 ${c.rede}</span>` : ''}
               <span class="tag">${vendedores}</span>
               <span class="tag">Última compra: ${c.ultima_compra || 'N/D'}</span>
             </div>
@@ -394,7 +437,7 @@
     const chaveUrl = params.get('chave');
     if (chaveUrl) {
       selecionarCliente(chaveUrl);
-    } else if (temFiltro) {
+    } else if (temFiltro()) {
       renderListaFiltrada();
     }
   </script>
