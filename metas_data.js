@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "22/07/2026 12:18",
+  "atualizado_em": "22/07/2026 14:05",
   "meses": [
     "Jul/26",
     "Jun/26"
@@ -574,13 +574,13 @@ const METAS_DATA = {
       "historico": [
         {
           "mes": "Sep/25",
-          "fat": 59145.72,
-          "pos": 11
+          "fat": 143158.92,
+          "pos": 15
         },
         {
           "mes": "Oct/25",
-          "fat": 84110.66,
-          "pos": 16
+          "fat": 103274.66,
+          "pos": 27
         },
         {
           "mes": "Nov/25",
@@ -599,8 +599,8 @@ const METAS_DATA = {
         },
         {
           "mes": "Feb/26",
-          "fat": 100451.04,
-          "pos": 16
+          "fat": 112590.24,
+          "pos": 17
         },
         {
           "mes": "Mar/26",
@@ -7362,8 +7362,8 @@ const METAS_DATA = {
       "historico": [
         {
           "mes": "Aug/25",
-          "fat": 60274.96,
-          "pos": 30
+          "fat": 215387.78,
+          "pos": 46
         },
         {
           "mes": "Sep/25",
@@ -7885,18 +7885,18 @@ const METAS_DATA = {
       "historico": [
         {
           "mes": "Aug/25",
-          "fat": 206217.19,
-          "pos": 5
+          "fat": 465190.23,
+          "pos": 14
         },
         {
           "mes": "Sep/25",
-          "fat": 298466.47,
-          "pos": 6
+          "fat": 321026.47,
+          "pos": 7
         },
         {
           "mes": "Oct/25",
-          "fat": 667725.18,
-          "pos": 13
+          "fat": 726945.18,
+          "pos": 14
         },
         {
           "mes": "Nov/25",
@@ -8164,8 +8164,8 @@ const METAS_DATA = {
       "historico": [
         {
           "mes": "Aug/25",
-          "fat": 50812.88,
-          "pos": 12
+          "fat": 119722.78,
+          "pos": 31
         },
         {
           "mes": "Sep/25",
@@ -8174,28 +8174,28 @@ const METAS_DATA = {
         },
         {
           "mes": "Oct/25",
-          "fat": 230196.52,
-          "pos": 16
+          "fat": 1397039.08,
+          "pos": 47
         },
         {
           "mes": "Nov/25",
-          "fat": 544602.75,
-          "pos": 27
+          "fat": 562474.41,
+          "pos": 28
         },
         {
           "mes": "Dec/25",
-          "fat": 83756.65,
-          "pos": 10
+          "fat": 214790.87,
+          "pos": 38
         },
         {
           "mes": "Jan/26",
-          "fat": 19561.56,
-          "pos": 19
+          "fat": 50134.2,
+          "pos": 20
         },
         {
           "mes": "Feb/26",
-          "fat": 371146.79,
-          "pos": 27
+          "fat": 419595.23,
+          "pos": 46
         },
         {
           "mes": "Mar/26",
@@ -10905,13 +10905,13 @@ const METAS_DATA = {
       "historico": [
         {
           "mes": "Aug/25",
-          "fat": 125947.27,
-          "pos": 34
+          "fat": 205445.77,
+          "pos": 71
         },
         {
           "mes": "Sep/25",
-          "fat": 191991.34,
-          "pos": 37
+          "fat": 193539.94,
+          "pos": 38
         },
         {
           "mes": "Oct/25",
@@ -13676,6 +13676,26 @@ const METAS_DATA = {
         }
       ],
       "historico": [
+        {
+          "mes": "Oct/25",
+          "fat": 754886.4,
+          "pos": 1
+        },
+        {
+          "mes": "Nov/25",
+          "fat": 70405.2,
+          "pos": 1
+        },
+        {
+          "mes": "Dec/25",
+          "fat": 356905.8,
+          "pos": 1
+        },
+        {
+          "mes": "Jan/26",
+          "fat": 192898.8,
+          "pos": 1
+        },
         {
           "mes": "Apr/26",
           "fat": 311300.4,
@@ -21482,6 +21502,11 @@ const METAS_DATA = {
           "pos": 0
         },
         {
+          "mes": "Dec/25",
+          "fat": 50032.26,
+          "pos": 1
+        },
+        {
           "mes": "Mar/26",
           "fat": 55645.44,
           "pos": 1
@@ -23958,8 +23983,8 @@ const METAS_DATA = {
       "historico": [
         {
           "mes": "Aug/25",
-          "fat": 172893.87,
-          "pos": 63
+          "fat": 182934.37,
+          "pos": 67
         },
         {
           "mes": "Sep/25",
@@ -26453,8 +26478,8 @@ const METAS_DATA = {
       "historico": [
         {
           "mes": "Aug/25",
-          "fat": 109854.82,
-          "pos": 68
+          "fat": 110663.92,
+          "pos": 69
         },
         {
           "mes": "Sep/25",
@@ -27310,17 +27335,11 @@ const METAS_DATA = {
   ],
   "fontes_indisponiveis": [
     "cadastros_CASTAS",
-    "cadastros_GARRIDO",
     "historico_CASTAS",
-    "historico_GARRIDO",
     "map_rca_CASTAS",
-    "map_rca_GARRIDO",
     "nao_pos_CASTAS",
     "vendas_CASTAS",
-    "vendas_GARRIDO",
     "vendas_anterior_CASTAS",
-    "vendas_anterior_GARRIDO",
-    "vendas_hist_CASTAS",
-    "vendas_hist_GARRIDO"
+    "vendas_hist_CASTAS"
   ]
 };
