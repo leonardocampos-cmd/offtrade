@@ -1,25 +1,25 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "22/07/2026 12:23",
+  "atualizado_em": "22/07/2026 14:11",
   "mes": "Jul/26",
   "mes_ant": "Jun/26",
   "dias_corridos": 22,
   "dias_no_mes": 31,
   "dias_restantes": 9,
   "resumo": {
-    "fat": 7195048.18,
-    "fat_ant": 7385836.42,
-    "fat_ant_completo": 12856360.44,
-    "pos": 1353,
+    "fat": 7674496.18,
+    "fat_ant": 7383680.02,
+    "fat_ant_completo": 12854204.04,
+    "pos": 1352,
     "pos_ant": 1351,
     "pos_ant_completo": 1761
   },
   "total": {
     "meta": 14900000.0,
-    "fat": 7195048.18,
-    "fat_ant": 7385836.42,
-    "fat_ant_completo": 12856360.44,
-    "pct": 48.3,
-    "nec_dia": 856105.76
+    "fat": 7674496.18,
+    "fat_ant": 7383680.02,
+    "fat_ant_completo": 12854204.04,
+    "pct": 51.5,
+    "nec_dia": 802833.76
   },
   "estados": [
     {
@@ -39,12 +39,12 @@ const METAS_GERAIS_DATA = {
       "estado": "SP",
       "label": "São Paulo",
       "meta": 8000000.0,
-      "fat": 4453458.05,
-      "fat_ant": 3974266.57,
-      "pos": 548,
-      "pct": 55.7,
-      "nec_dia": 394060.22,
-      "fat_ant_completo": 7513655.25,
+      "fat": 4932906.05,
+      "fat_ant": 3972110.17,
+      "pos": 547,
+      "pct": 61.7,
+      "nec_dia": 340788.22,
+      "fat_ant_completo": 7511498.85,
       "pos_ant": 462,
       "pos_ant_completo": 625
     },
@@ -78,11 +78,11 @@ const METAS_GERAIS_DATA = {
   "industrias": [
     {
       "fantasia": "PERNOD",
-      "fat": 3371093.95,
+      "fat": 3850541.95,
       "fat_ant": 2220292.72,
       "por_estado": {
         "RJ": 258053.65,
-        "SP": 2915423.22,
+        "SP": 3394871.22,
         "ES": 17416.92,
         "MG": 180200.16
       }
@@ -255,7 +255,7 @@ const METAS_GERAIS_DATA = {
     {
       "fantasia": "BEAM SUNTORY BRASIL",
       "fat": 99177.94,
-      "fat_ant": 87701.76,
+      "fat_ant": 85545.36,
       "por_estado": {
         "RJ": 0.0,
         "SP": 99177.94,
