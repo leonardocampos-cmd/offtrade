@@ -97,10 +97,9 @@ def require_auth() -> dict:
         # O CookieController devolve `default={}` (não None) enquanto o
         # round-trip assíncrono JS->Python não completou — "offtrade_token"
         # ausente de um dict vazio é indistinguível de "usuário sem cookie"
-        # na primeira renderização. Sem retry, a página de SSO (setada por
-        # login.html) nunca via o cookie e sempre caía no login.
+        # na primeira renderização. Sem retry, a página de SSO (cookie setado
+        # por login.html) nunca via o cookie e sempre caía no login.
         all_cookies = cookies.getAll() or {}
-        print(f"[DIAG cookies] getAll()={all_cookies!r}", flush=True)
         if "offtrade_token" not in all_cookies:
             tentativas = st.session_state.get("_cookie_sync_tentativas", 0)
             if tentativas < 6:
@@ -110,15 +109,15 @@ def require_auth() -> dict:
         saved = all_cookies.get("offtrade_token")
         if saved:
             # O componente já desserializa cookies com conteúdo JSON de volta
-            # para dict/list automaticamente — "saved" pode vir como dict
-            # (caso comum) ou como string crua (fallback), então tratamos os
-            # dois formatos. Um json.loads(dict) levanta TypeError, que o
-            # antigo "except Exception: pass" engolia silenciosamente e
-            # fazia o SSO nunca completar (sempre caía na tela de login).
+            # para dict/list automaticamente — "saved" vem como dict, não
+            # string. Um json.loads(dict) levanta TypeError, que o antigo
+            # "except Exception: pass" engolia silenciosamente e fazia o SSO
+            # nunca completar (sempre caía na tela de login mesmo com o
+            # cookie presente e correto no navegador).
             try:
                 st.session_state["token"] = saved if isinstance(saved, dict) else json.loads(saved)
-            except Exception as e:
-                print(f"[DIAG cookies] falha ao decodificar token salvo: {e!r} | saved={saved!r}", flush=True)
+            except Exception:
+                pass
 
     if "token" not in st.session_state:
         _show_login(cookies)
@@ -150,26 +149,13 @@ def _show_login(cookies):
             key="google_login",
             extras_params={"prompt": "select_account"},
         )
-    except Exception as e:
-        # DIAGNÓSTICO TEMPORÁRIO (remover depois de achar a causa do loop de
-        # login em /Credito_e_Cadastro): antes o except só limpava os query
-        # params e dava rerun, escondendo o erro real do handshake OAuth.
-        import traceback
-        print(f"[DIAG oauth] Erro no authorize_button: {e}\n{traceback.format_exc()}", flush=True)
-        st.error(f"Erro no login (diagnóstico temporário): {e}")
-        st.code(traceback.format_exc())
-        st.stop()
-    # DIAGNÓSTICO TEMPORÁRIO: só loga quando o componente realmente devolveu
-    # algo (evita spam nos reruns normais, onde result é None o tempo todo).
-    if result:
-        print(f"[DIAG oauth] result recebido do componente: {result!r}", flush=True)
+    except Exception:
+        st.query_params.clear()
+        st.rerun()
     if result and "token" in result:
         st.session_state["token"] = result["token"]
         cookies.set("offtrade_token", json.dumps(result["token"]))
         st.rerun()
-    elif result:
-        st.error(f"Login retornou um resultado sem token (diagnóstico temporário): {result!r}")
-        st.stop()
     st.stop()
 
 

@@ -11,7 +11,7 @@ raiox_clientes.html).
 """
 import json
 import subprocess
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 import pandas as pd
@@ -21,6 +21,21 @@ from meta import engine, engine_spon, engine_mgon, carregar_dados
 ANO = 2026
 MES_INI = f"{ANO}-01-01"
 MES_FIM = f"{ANO}-07-31"
+
+HOJE = date.today()
+
+# Nº mínimo de compradores no grupo (ramo+estado) pra uma indústria entrar no
+# ranking de recomendação — evita recomendar algo que só 1-2 clientes atípicos compram.
+MIN_COMPRADORES_RECOMENDACAO = 3
+# Faturamento mínimo na janela anterior pra considerar queda relevante (ignora
+# clientes muito pequenos/irregulares, onde uma variação de R$50 vira "-80%").
+MIN_FATURAMENTO_RISCO = 200.0
+# Nº mínimo de compras (logo, de intervalos) pro ciclo médio ser confiável —
+# com só 2 compras, um único intervalo "é" a média; se essas 2 compras caíram
+# em dias seguidos por coincidência (ou um pedido dividido em 2 notas), o
+# ciclo médio sai artificialmente curto (ex.: 1 dia) e qualquer intervalo
+# normal depois já dispara "atrasado" incorretamente.
+MIN_COMPRAS_CICLO_CONFIAVEL = 3
 
 BASES = [
     {"estado": "RJ", "engine": engine,      "schema": "CRC",  "filiais": ["2", "4"]},
@@ -49,11 +64,12 @@ def _query_clientes(schema, estado):
     return f"""
         SELECT C.CODCLI, C.CLIENTE, COALESCE(C.FANTASIA, C.CLIENTE) FANTASIA,
                COALESCE(C.MUNICENT,'') CIDADE, COALESCE(A.RAMO,'OUTROS') RAMO,
-               C.CODUSUR1, C.CODUSUR2, C.DTULTCOMP
+               C.CODUSUR1, C.CODUSUR2, C.DTULTCOMP, COALESCE(R.DESCRICAO,'') REDE
         FROM {schema}.PCCLIENT C
         JOIN {schema}.PCATIVI A ON C.CODATV1 = A.CODATIV
         LEFT JOIN {schema}.PCUSUARI U1 ON C.CODUSUR1 = U1.CODUSUR
         LEFT JOIN {schema}.PCUSUARI U2 ON C.CODUSUR2 = U2.CODUSUR
+        LEFT JOIN {schema}.PCREDECLIENTE R ON C.CODREDE = R.CODREDE
         WHERE (U1.NOME LIKE '%OFF TRADE%' OR U2.NOME LIKE '%OFF TRADE%')
           AND (U1.ESTADO = '{estado}' OR U2.ESTADO = '{estado}')
     """
@@ -146,11 +162,12 @@ _hier_por_chave = {
 }
 
 clientes = pd.concat(_cli_partes, ignore_index=True) if _cli_partes else pd.DataFrame(
-    columns=['CODCLI', 'CLIENTE', 'FANTASIA', 'CIDADE', 'RAMO', 'CODUSUR1', 'CODUSUR2', 'DTULTCOMP', 'ESTADO'])
+    columns=['CODCLI', 'CLIENTE', 'FANTASIA', 'CIDADE', 'RAMO', 'CODUSUR1', 'CODUSUR2', 'DTULTCOMP', 'REDE', 'ESTADO'])
 clientes['CIDADE']   = clientes['CIDADE'].fillna('').str.strip()
 clientes['RAMO']     = clientes['RAMO'].fillna('OUTROS').str.strip()
 clientes['FANTASIA'] = clientes['FANTASIA'].fillna('').str.strip()
 clientes['CLIENTE']  = clientes['CLIENTE'].fillna('').str.strip()
+clientes['REDE']     = clientes['REDE'].fillna('').str.strip()
 for col in ('CODUSUR1', 'CODUSUR2'):
     clientes[col] = clientes[col].apply(lambda v: int(v) if str(v).strip().replace('.0', '').isdigit() else None)
 clientes['CLIENTE_KEY'] = clientes['ESTADO'] + '-' + clientes['CODCLI'].astype(str)
@@ -184,6 +201,50 @@ _historico_por_cliente = {
     ]
     for chave, grp in historico.groupby('CLIENTE_KEY')
 }
+
+def _ciclo_e_risco(chave: str, hist_cliente: list) -> dict:
+    """Ciclo médio de recompra (dias entre compras) e sinal de queda recente,
+    ambos calculados a partir das datas reais de compra (historico_compras),
+    não do calendário — evita viés de mês corrente incompleto."""
+    datas = sorted({
+        datetime.strptime(h['data'], '%d/%m/%Y').date()
+        for h in hist_cliente
+    })
+    resultado = {
+        'ciclo_medio_dias': None,
+        'dias_desde_ultima_compra': None,
+        'atrasado_recompra': False,
+        'em_risco_queda': False,
+        'queda_pct': 0.0,
+        'faturamento_30d': 0.0,
+        'faturamento_30_60d': 0.0,
+    }
+    if not datas:
+        return resultado
+
+    dias_desde_ultima = (HOJE - datas[-1]).days
+    resultado['dias_desde_ultima_compra'] = dias_desde_ultima
+
+    if len(datas) >= MIN_COMPRAS_CICLO_CONFIAVEL:
+        gaps = [(b - a).days for a, b in zip(datas[:-1], datas[1:])]
+        ciclo_medio = sum(gaps) / len(gaps)
+        resultado['ciclo_medio_dias'] = round(ciclo_medio, 1)
+        resultado['atrasado_recompra'] = dias_desde_ultima > max(ciclo_medio * 1.5, 30)
+
+    janela_recente = HOJE - timedelta(days=30)
+    janela_anterior = HOJE - timedelta(days=60)
+    fat_recente = sum(h['valor'] for h in hist_cliente
+                       if datetime.strptime(h['data'], '%d/%m/%Y').date() > janela_recente)
+    fat_anterior = sum(h['valor'] for h in hist_cliente
+                        if janela_anterior < datetime.strptime(h['data'], '%d/%m/%Y').date() <= janela_recente)
+    resultado['faturamento_30d'] = round(fat_recente, 2)
+    resultado['faturamento_30_60d'] = round(fat_anterior, 2)
+    if fat_anterior >= MIN_FATURAMENTO_RISCO and fat_recente < fat_anterior * 0.6:
+        resultado['em_risco_queda'] = True
+        resultado['queda_pct'] = round((1 - fat_recente / fat_anterior) * 100, 1)
+
+    return resultado
+
 
 registros = []
 for _, c in clientes.iterrows():
@@ -239,6 +300,9 @@ for _, c in clientes.iterrows():
         except Exception:
             ultima_compra = ''
 
+    hist_cliente = _historico_por_cliente.get(chave, [])
+    ciclo_risco = _ciclo_e_risco(chave, hist_cliente)
+
     registros.append({
         'codcli': int(c['CODCLI']),
         'estado': estado,
@@ -247,6 +311,7 @@ for _, c in clientes.iterrows():
         'razao_social': c['CLIENTE'],
         'cidade': c['CIDADE'] or 'N/D',
         'ramo': c['RAMO'],
+        'rede': c['REDE'] or 'Sem rede',
         'gerente': gerente,
         'supervisor': supervisor,
         'vendedores_cadastro': vendedores_cadastro,
@@ -257,8 +322,53 @@ for _, c in clientes.iterrows():
         'por_mes': por_mes,
         'top_industrias': top_industrias,
         'top_vendedores': top_vendedores,
-        'historico_compras': _historico_por_cliente.get(chave, []),
+        'historico_compras': hist_cliente,
+        'ciclo_medio_dias': ciclo_risco['ciclo_medio_dias'],
+        'dias_desde_ultima_compra': ciclo_risco['dias_desde_ultima_compra'],
+        'atrasado_recompra': ciclo_risco['atrasado_recompra'],
+        'em_risco_queda': ciclo_risco['em_risco_queda'],
+        'queda_pct': ciclo_risco['queda_pct'],
+        'faturamento_30d': ciclo_risco['faturamento_30d'],
+        'faturamento_30_60d': ciclo_risco['faturamento_30_60d'],
+        'prioridade_visita_score': round(media_mensal * (1 + (ciclo_risco['dias_desde_ultima_compra'] or 0) / 30), 2),
     })
+
+# ── Recomendações de produto (cross-sell) ────────────────────────────────
+# Pra cada grupo (ramo, estado), calcula a penetração de cada fornecedor
+# (% de clientes do grupo que compram) e o ticket médio de quem compra.
+# Cada cliente recebe, como recomendação, os fornecedores mais penetrantes
+# no seu grupo que ele ainda NÃO compra — um "o que meus vizinhos compram
+# que eu não vendo pra esse cliente ainda".
+_grupos: dict[tuple, list] = {}
+for r in registros:
+    _grupos.setdefault((r['ramo'], r['estado']), []).append(r)
+
+for (ramo, estado), membros in _grupos.items():
+    total_grupo = len(membros)
+    fornecedor_compradores: dict[str, list] = {}
+    for r in membros:
+        for ind in r['top_industrias']:
+            fornecedor_compradores.setdefault(ind['fantasia'], []).append(ind['faturamento'])
+
+    ranking_grupo = []
+    for fornecedor, valores in fornecedor_compradores.items():
+        if fornecedor == 'SEM FANTASIA':
+            continue
+        n_compradores = len(valores)
+        if n_compradores < MIN_COMPRADORES_RECOMENDACAO:
+            continue
+        ranking_grupo.append({
+            'fornecedor': fornecedor,
+            'penetracao_pct': round(n_compradores / total_grupo * 100, 1),
+            'ticket_medio': round(sum(valores) / n_compradores, 2),
+        })
+    ranking_grupo.sort(key=lambda x: x['penetracao_pct'], reverse=True)
+
+    for r in membros:
+        comprados = {ind['fantasia'] for ind in r['top_industrias']}
+        r['recomendacoes'] = [
+            item for item in ranking_grupo if item['fornecedor'] not in comprados
+        ][:5]
 
 registros.sort(key=lambda r: r['nome'])
 

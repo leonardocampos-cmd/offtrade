@@ -25,3 +25,9 @@ inadimplencia_data.js
 
 # Controle de Vencimento: dado local, gerado pelo uso do controle_vencimento.py
 vencimento_data.json
+
+# Auditoria de acessos: só existe de verdade na VPS (gerado a partir do log
+# do nginx por exportacao_acessos.py, via cron próprio). Rodar o script
+# localmente (sem esse log) so' gera um stub vazio de teste.
+acessos_data.js
+acessos_state.json

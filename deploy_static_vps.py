@@ -21,6 +21,12 @@ HERE = Path(__file__).parent
 
 EXCLUDE_HTML = {"exemplo.html"}
 
+# acessos_data.js só existe de verdade na VPS (gerado a partir do log do
+# nginx por exportacao_acessos.py, via cron próprio a cada 10 min) — a cópia
+# local é só um stub vazio de teste (não há log de nginx fora da VPS).
+# Sincronizar isso por cima sobrescreveria os dados reais de acesso.
+EXCLUDE_JS = {"acessos_data.js"}
+
 
 def ssh_run(client, cmd, check=True):
     _, stdout, stderr = client.exec_command(cmd)
@@ -38,7 +44,7 @@ def ssh_run(client, cmd, check=True):
 
 def static_files() -> list[Path]:
     html_files = [f for f in HERE.glob("*.html") if f.name not in EXCLUDE_HTML]
-    js_files   = list(HERE.glob("*.js"))
+    js_files   = [f for f in HERE.glob("*.js") if f.name not in EXCLUDE_JS]
     return sorted(html_files) + sorted(js_files)
 
 

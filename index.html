@@ -268,7 +268,50 @@
         <div class="dash-desc">Posição de estoque por produto — RJ, ES, SP, MG, Thekings e Garrido</div>
       </div>
     </a>
+    <!-- Cards abaixo só aparecem pro Leonardo (rg_email) — experimentais,
+         cada página revalida o e-mail de novo por conta própria, então
+         esconder aqui é só pra não poluir o painel dos outros gestores. -->
+    <a class="dash-card leonardo-only" href="acessos.html" style="display:none">
+      <span class="dash-icon">👁</span>
+      <div>
+        <div class="dash-name">Acessos</div>
+        <div class="dash-desc">Quem acessou o OfftradeHub e quais páginas — auditoria pessoal</div>
+      </div>
+    </a>
+    <a class="dash-card leonardo-only" href="raiox_clientes_risco.html" style="display:none">
+      <span class="dash-icon">📉</span>
+      <div>
+        <div class="dash-name">Clientes em Risco</div>
+        <div class="dash-desc">Quem caiu de compra nos últimos 30 dias — antes de virar inativo</div>
+      </div>
+    </a>
+    <a class="dash-card leonardo-only" href="raiox_roteiro_visita.html" style="display:none">
+      <span class="dash-icon">🗺</span>
+      <div>
+        <div class="dash-name">Roteiro de Visita</div>
+        <div class="dash-desc">Carteira do vendedor priorizada por potencial + atraso de compra</div>
+      </div>
+    </a>
+    <a class="dash-card leonardo-only" href="ranking_metas.html" style="display:none">
+      <span class="dash-icon">🏅</span>
+      <div>
+        <div class="dash-name">Ranking de Metas</div>
+        <div class="dash-desc">Placar de % de meta atingida por vendedor, com pódio do mês</div>
+      </div>
+    </a>
+    <a class="dash-card leonardo-only" href="raiox_clientes_inativos_nome.html" style="display:none">
+      <span class="dash-icon">♻️</span>
+      <div>
+        <div class="dash-name">Reativação de Clientes</div>
+        <div class="dash-desc">Clientes no RCA "INATIVO" com maior histórico de compra — candidatos a reativar</div>
+      </div>
+    </a>
   </div>
+  <script>
+    if ((sessionStorage.getItem('rg_email') || '').toLowerCase() === 'leonardo.campos@rigarr.com.br') {
+      document.querySelectorAll('.leonardo-only').forEach(el => el.style.display = '');
+    }
+  </script>
 
   <!-- Campanhas Ativas -->
   <div class="section-title">Campanhas <span class="pill pill-ativa">Ativas</span></div>

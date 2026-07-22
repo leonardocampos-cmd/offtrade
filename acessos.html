@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acessos — OfftradeHub</title>
+  <script src="auth.js"></script>
+  <script src="acessos_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --accent: #f5c518;
+      --text: #e2e8f0; --muted: #94a3b8; --border: #2d3144;
+    }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh; padding: 0 0 48px;
+    }
+    header {
+      background: var(--card); border-bottom: 1px solid var(--border);
+      padding: 16px 24px; display: flex; align-items: center; gap: 16px;
+      flex-wrap: wrap;
+    }
+    .logo { font-size: 1.05rem; font-weight: 800; color: var(--accent); }
+    .nav { display: flex; gap: 8px; margin-left: auto; flex-wrap: wrap; }
+    .nav a {
+      color: var(--muted); text-decoration: none; font-size: .82rem;
+      padding: 6px 12px; border-radius: 7px; border: 1px solid var(--border);
+      transition: all .15s;
+    }
+    .nav a:hover { border-color: var(--accent); color: var(--accent); }
+    .container { max-width: 1000px; margin: 0 auto; padding: 24px 20px; }
+    .titulo { font-size: 1.3rem; font-weight: 800; margin-bottom: 4px; }
+    .atualizacao { font-size: .78rem; color: var(--muted); margin-bottom: 20px; }
+    .resumo-total {
+      background: var(--card); border: 1px solid var(--border); border-radius: 14px;
+      padding: 18px 20px; margin-bottom: 20px; display: flex; gap: 32px; flex-wrap: wrap;
+    }
+    .kpi-label { font-size: .68rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 4px; }
+    .kpi-valor { font-size: 1.25rem; font-weight: 800; }
+    .filtro { margin-bottom: 14px; }
+    .filtro input {
+      width: 100%; max-width: 320px; padding: 9px 12px; border-radius: 8px;
+      border: 1px solid var(--border); background: var(--card); color: var(--text);
+      font-size: .88rem; outline: none;
+    }
+    .filtro input:focus { border-color: var(--accent); }
+    .card {
+      background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+      margin-bottom: 12px; overflow: hidden;
+    }
+    .user-header {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 14px 18px; cursor: pointer; gap: 12px; flex-wrap: wrap;
+    }
+    .user-header:hover { background: #1f2233; }
+    .user-nome { font-weight: 700; font-size: .92rem; }
+    .user-email { font-size: .74rem; color: var(--muted); }
+    .user-stats { display: flex; gap: 20px; font-size: .8rem; color: var(--muted); white-space: nowrap; }
+    .user-stats b { color: var(--text); }
+    .user-toggle { font-size: .7rem; color: var(--accent); }
+    .paginas-wrap { display: none; border-top: 1px solid var(--border); padding: 4px 18px 14px; }
+    .paginas-wrap.aberto { display: block; }
+    table { width: 100%; border-collapse: collapse; }
+    th {
+      text-align: left; font-size: .68rem; color: var(--muted); text-transform: uppercase;
+      letter-spacing: .05em; padding: 8px 6px; border-bottom: 1px solid var(--border);
+    }
+    td { padding: 7px 6px; font-size: .82rem; border-bottom: 1px solid #232738; }
+    th:last-child, td:last-child { text-align: right; }
+    .sem-acesso { color: var(--muted); text-align: center; padding: 40px 20px; }
+    .bloqueado { text-align: center; padding: 80px 20px; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">OfftradeHub</div>
+    <div class="nav">
+      <a href="index.html">← Painel</a>
+    </div>
+  </header>
+
+  <div class="container" id="conteudo">
+    <div class="bloqueado">Verificando acesso…</div>
+  </div>
+
+  <script>
+    // Página pessoal — visível só para leonardo.campos@rigarr.com.br, mesmo
+    // que outros gestores estejam autenticados (auth.js só garante "é gestor
+    // válido", não "é o Leonardo especificamente"). rg_email é setado no
+    // login (fluxo Gestor Google) e renovado nas páginas com SSO.
+    const EMAIL_PERMITIDO = 'leonardo.campos@rigarr.com.br';
+    const emailAtual = (sessionStorage.getItem('rg_email') || '').toLowerCase();
+
+    if (emailAtual !== EMAIL_PERMITIDO) {
+      document.getElementById('conteudo').innerHTML = `
+        <div class="titulo">Acessos — OfftradeHub</div>
+        <div class="bloqueado">Esta página é restrita.</div>
+      `;
+    } else {
+      renderPagina();
+    }
+
+    function renderPagina() {
+      const brl = n => n.toLocaleString('pt-BR');
+      const data = typeof ACESSOS_DATA !== 'undefined' ? ACESSOS_DATA : null;
+
+      if (!data) {
+        document.getElementById('conteudo').innerHTML = `
+          <div class="titulo">Acessos — OfftradeHub</div>
+          <div class="sem-acesso">Sem dados ainda. O log é processado a cada 10 minutos na VPS.</div>
+        `;
+        return;
+      }
+
+      const fmtData = iso => {
+        try { return new Date(iso).toLocaleString('pt-BR'); } catch { return iso; }
+      };
+
+      const usuarios = data.usuarios || [];
+      const totalAcessos = usuarios.reduce((s, u) => s + u.total_acessos, 0);
+
+      const fmtDataCurta = iso => {
+        try { return new Date(iso).toLocaleDateString('pt-BR'); } catch { return iso; }
+      };
+      const desde = data.rastreando_desde ? `· histórico acumulado desde ${fmtDataCurta(data.rastreando_desde)} (não reseta)` : '';
+
+      document.getElementById('conteudo').innerHTML = `
+        <div class="titulo">Acessos — OfftradeHub</div>
+        <div class="atualizacao">Atualizado em ${data.atualizado_em} · log processado a cada 10 min ${desde}</div>
+
+        <div class="resumo-total">
+          <div><div class="kpi-label">Usuários identificados</div><div class="kpi-valor">${brl(usuarios.length)}</div></div>
+          <div><div class="kpi-label">Acessos identificados</div><div class="kpi-valor">${brl(totalAcessos)}</div></div>
+          <div><div class="kpi-label">Requests anônimos/bots</div><div class="kpi-valor">${brl(data.total_anonimos || 0)}</div></div>
+          <div><div class="kpi-label">Total de requests</div><div class="kpi-valor">${brl(data.total_requests || 0)}</div></div>
+        </div>
+
+        <div class="filtro">
+          <input type="text" id="busca" placeholder="Buscar por nome ou e-mail...">
+        </div>
+
+        <div id="lista-usuarios"></div>
+      `;
+
+      function renderLista(lista) {
+        const listaEl = document.getElementById('lista-usuarios');
+        listaEl.innerHTML = lista.map((u, i) => {
+          const paginasHtml = u.paginas.map(p => `
+            <tr>
+              <td>${p.pagina}</td>
+              <td>${p.contagem}</td>
+              <td>${fmtData(p.ultima_visita)}</td>
+            </tr>
+          `).join('');
+
+          return `
+            <div class="card">
+              <div class="user-header" data-idx="${i}">
+                <div>
+                  <div class="user-nome">${u.nome}</div>
+                  <div class="user-email">${u.email}</div>
+                </div>
+                <div class="user-stats">
+                  <div><b>${u.total_acessos}</b> acessos</div>
+                  <div>Última: <b>${fmtData(u.ultima_visita)}</b></div>
+                  <div class="user-toggle">▾ ver páginas</div>
+                </div>
+              </div>
+              <div class="paginas-wrap" id="paginas-${i}">
+                <table>
+                  <thead><tr><th>Página</th><th>Vezes</th><th>Última visita</th></tr></thead>
+                  <tbody>${paginasHtml}</tbody>
+                </table>
+              </div>
+            </div>
+          `;
+        }).join('') || '<div class="sem-acesso">Nenhum usuário encontrado.</div>';
+
+        listaEl.querySelectorAll('.user-header').forEach(el => {
+          el.addEventListener('click', () => {
+            document.getElementById(`paginas-${el.dataset.idx}`).classList.toggle('aberto');
+          });
+        });
+      }
+
+      renderLista(usuarios);
+
+      document.getElementById('busca').addEventListener('input', function () {
+        const q = this.value.trim().toUpperCase();
+        renderLista(usuarios.filter(u =>
+          u.nome.toUpperCase().includes(q) || u.email.toUpperCase().includes(q)
+        ));
+      });
+    }
+  </script>
+</body>
+</html>

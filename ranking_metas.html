@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ranking de Metas — OfftradeHub</title>
+  <script src="auth.js"></script>
+  <script src="metas_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --accent: #f5c518;
+      --text: #e2e8f0; --muted: #94a3b8; --border: #2d3144;
+      --green: #22c55e; --yellow: #f59e0b; --red: #ef4444;
+      --ouro: #f5c518; --prata: #c0c0c8; --bronze: #cd7f32;
+    }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh; padding: 0 0 48px;
+    }
+    header {
+      background: var(--card); border-bottom: 1px solid var(--border);
+      padding: 16px 24px; display: flex; align-items: center; gap: 16px;
+      flex-wrap: wrap;
+    }
+    .logo { font-size: 1.05rem; font-weight: 800; color: var(--accent); }
+    .nav { display: flex; gap: 8px; margin-left: auto; flex-wrap: wrap; }
+    .nav a {
+      color: var(--muted); text-decoration: none; font-size: .82rem;
+      padding: 6px 12px; border-radius: 7px; border: 1px solid var(--border);
+      transition: all .15s;
+    }
+    .nav a:hover { border-color: var(--accent); color: var(--accent); }
+    .container { max-width: 900px; margin: 0 auto; padding: 24px 20px; }
+    .titulo { font-size: 1.3rem; font-weight: 800; margin-bottom: 4px; }
+    .atualizacao { font-size: .78rem; color: var(--muted); margin-bottom: 20px; }
+    .filtro-item { display: flex; flex-direction: column; gap: 5px; max-width: 240px; margin-bottom: 20px; }
+    .filtro-item label { font-size: .68rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+    .filtro-item select {
+      padding: 8px 12px; border-radius: 8px; border: 1px solid var(--border);
+      background: var(--card); color: var(--text); font-size: .85rem; outline: none;
+    }
+    .podio { display: flex; gap: 14px; margin-bottom: 24px; align-items: flex-end; }
+    .pos-card {
+      flex: 1; background: var(--card); border-radius: 14px; padding: 18px 14px;
+      text-align: center; border: 1px solid var(--border);
+    }
+    .pos-card.p1 { border-color: var(--ouro); order: 2; padding-top: 26px; }
+    .pos-card.p2 { border-color: var(--prata); order: 1; }
+    .pos-card.p3 { border-color: var(--bronze); order: 3; }
+    .medalha { font-size: 1.8rem; margin-bottom: 6px; }
+    .pos-nome { font-weight: 700; font-size: .88rem; margin-bottom: 4px; }
+    .pos-pct { font-size: 1.3rem; font-weight: 800; }
+    .lista-item {
+      display: flex; align-items: center; gap: 14px; padding: 12px 16px;
+      background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+      margin-bottom: 8px;
+    }
+    .lista-pos { width: 26px; text-align: center; font-weight: 800; color: var(--muted); }
+    .lista-nome { flex: 1; font-size: .88rem; font-weight: 600; }
+    .lista-detalhe { font-size: .74rem; color: var(--muted); }
+    .barra-bg { flex: 1; max-width: 160px; height: 8px; background: #2d3144; border-radius: 4px; overflow: hidden; }
+    .barra-fill { height: 100%; border-radius: 4px; }
+    .lista-pct { width: 60px; text-align: right; font-weight: 700; }
+    .bloqueado { text-align: center; padding: 80px 20px; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">OfftradeHub</div>
+    <div class="nav">
+      <a href="index.html">← Painel</a>
+    </div>
+  </header>
+
+  <div class="container" id="conteudo">
+    <div class="bloqueado">Verificando acesso…</div>
+  </div>
+
+  <script>
+    const EMAIL_PERMITIDO = 'leonardo.campos@rigarr.com.br';
+    const emailAtual = (sessionStorage.getItem('rg_email') || '').toLowerCase();
+
+    if (emailAtual !== EMAIL_PERMITIDO) {
+      document.getElementById('conteudo').innerHTML = `
+        <div class="titulo">Ranking de Metas</div>
+        <div class="bloqueado">Esta página é restrita.</div>
+      `;
+    } else {
+      montarPagina();
+    }
+
+    function corPct(p) { return p >= 100 ? 'var(--green)' : p >= 70 ? 'var(--yellow)' : 'var(--red)'; }
+
+    function montarPagina() {
+      const data = typeof METAS_DATA !== 'undefined' ? METAS_DATA : null;
+      if (!data) {
+        document.getElementById('conteudo').innerHTML = '<div class="bloqueado">Sem dados.</div>';
+        return;
+      }
+
+      document.getElementById('conteudo').innerHTML = `
+        <div class="titulo">Ranking de Metas</div>
+        <div class="atualizacao">Atualizado em ${data.atualizado_em} · faturamento total (fat_tt), % da meta atingida</div>
+        <div class="filtro-item">
+          <label for="sel-mes">Mês</label>
+          <select id="sel-mes">${data.meses.map(m => `<option value="${m}">${m}</option>`).join('')}</select>
+        </div>
+        <div id="podio" class="podio"></div>
+        <div id="lista"></div>
+      `;
+
+      const sel = document.getElementById('sel-mes');
+      sel.addEventListener('change', () => render(sel.value));
+      render(data.meses[0]);
+    }
+
+    function render(mes) {
+      const data = METAS_DATA;
+      const ranking = data.vendedores
+        .map(v => {
+          const ft = (v.por_mes[mes] || {}).fat_tt || { meta: 0, realizado: 0 };
+          const pct = ft.meta > 0 ? (ft.realizado / ft.meta * 100) : (ft.realizado > 0 ? 999 : 0);
+          return { nome: v.nome.replace('- OFF TRADE', '').replace('-OFF TRADE', '').trim(), rca: v.rca, meta: ft.meta, realizado: ft.realizado, pct };
+        })
+        .filter(v => v.meta > 0)
+        .sort((a, b) => b.pct - a.pct);
+
+      const brl = n => new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL', maximumFractionDigits: 0 }).format(n);
+
+      const medalhas = ['🥇', '🥈', '🥉'];
+      const top3 = ranking.slice(0, 3);
+      document.getElementById('podio').innerHTML = top3.map((v, i) => `
+        <div class="pos-card p${i + 1}">
+          <div class="medalha">${medalhas[i]}</div>
+          <div class="pos-nome">${v.nome}</div>
+          <div class="pos-pct" style="color:${corPct(v.pct)}">${v.pct.toFixed(0)}%</div>
+        </div>
+      `).join('');
+
+      document.getElementById('lista').innerHTML = ranking.slice(3).map((v, i) => `
+        <div class="lista-item">
+          <div class="lista-pos">${i + 4}</div>
+          <div>
+            <div class="lista-nome">${v.nome}</div>
+            <div class="lista-detalhe">${brl(v.realizado)} / ${brl(v.meta)}</div>
+          </div>
+          <div class="barra-bg"><div class="barra-fill" style="width:${Math.min(v.pct, 100)}%;background:${corPct(v.pct)}"></div></div>
+          <div class="lista-pct" style="color:${corPct(v.pct)}">${v.pct.toFixed(0)}%</div>
+        </div>
+      `).join('') || '';
+    }
+  </script>
+</body>
+</html>

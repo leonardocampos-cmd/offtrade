@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roteiro de Visita — OfftradeHub</title>
+  <script src="auth.js"></script>
+  <script src="raiox_vendedores_data.js"></script>
+  <script src="raiox_cliente_detalhe_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --accent: #f5c518;
+      --text: #e2e8f0; --muted: #94a3b8; --border: #2d3144;
+      --green: #22c55e; --yellow: #f59e0b; --red: #ef4444;
+    }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh; padding: 0 0 48px;
+    }
+    header {
+      background: var(--card); border-bottom: 1px solid var(--border);
+      padding: 16px 24px; display: flex; align-items: center; gap: 16px;
+      flex-wrap: wrap;
+    }
+    .logo { font-size: 1.05rem; font-weight: 800; color: var(--accent); }
+    .nav { display: flex; gap: 8px; margin-left: auto; flex-wrap: wrap; }
+    .nav a {
+      color: var(--muted); text-decoration: none; font-size: .82rem;
+      padding: 6px 12px; border-radius: 7px; border: 1px solid var(--border);
+      transition: all .15s;
+    }
+    .nav a:hover { border-color: var(--accent); color: var(--accent); }
+    .container { max-width: 1100px; margin: 0 auto; padding: 24px 20px; }
+    .titulo { font-size: 1.3rem; font-weight: 800; margin-bottom: 4px; }
+    .atualizacao { font-size: .78rem; color: var(--muted); margin-bottom: 20px; }
+    .filtro-item { display: flex; flex-direction: column; gap: 5px; max-width: 380px; margin-bottom: 20px; }
+    .filtro-item label { font-size: .68rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+    .filtro-item select {
+      padding: 10px 12px; border-radius: 8px; border: 1px solid var(--border);
+      background: var(--card); color: var(--text); font-size: .9rem; outline: none;
+    }
+    .filtro-item select:focus { border-color: var(--accent); }
+    .sem-selecao { color: var(--muted); text-align: center; padding: 60px 20px; }
+    .bloqueado { text-align: center; padding: 80px 20px; color: var(--muted); }
+    table { width: 100%; border-collapse: collapse; background: var(--card); border-radius: 12px; overflow: hidden; border: 1px solid var(--border); }
+    th {
+      background: #1f2233; padding: 10px 14px; font-size: .7rem; color: var(--muted);
+      text-transform: uppercase; letter-spacing: .05em; text-align: right; font-weight: 600;
+    }
+    th:first-child, th:nth-child(2), th:nth-child(3) { text-align: left; }
+    td { padding: 10px 14px; font-size: .85rem; border-top: 1px solid var(--border); text-align: right; }
+    td:first-child, td:nth-child(2), td:nth-child(3) { text-align: left; }
+    tr:hover td { background: #1f2233; }
+    tr.clicavel { cursor: pointer; }
+    .pos-badge {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 22px; height: 22px; border-radius: 50%; background: var(--accent);
+      color: #111; font-weight: 800; font-size: .74rem; margin-right: 8px;
+    }
+    .motivo { font-size: .72rem; color: var(--muted); }
+    .tag-atraso { color: var(--yellow); }
+    .tag-queda { color: var(--red); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">OfftradeHub</div>
+    <div class="nav">
+      <a href="index.html">← Painel</a>
+    </div>
+  </header>
+
+  <div class="container" id="conteudo">
+    <div class="bloqueado">Verificando acesso…</div>
+  </div>
+
+  <script>
+    const EMAIL_PERMITIDO = 'leonardo.campos@rigarr.com.br';
+    const emailAtual = (sessionStorage.getItem('rg_email') || '').toLowerCase();
+    const brl = v => new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL', maximumFractionDigits: 0 }).format(v);
+
+    if (emailAtual !== EMAIL_PERMITIDO) {
+      document.getElementById('conteudo').innerHTML = `
+        <div class="titulo">Roteiro de Visita</div>
+        <div class="bloqueado">Esta página é restrita.</div>
+      `;
+    } else {
+      montarPagina();
+    }
+
+    function montarPagina() {
+      const vendData = typeof RAIOX_VENDEDORES_DATA !== 'undefined' ? RAIOX_VENDEDORES_DATA : null;
+      const cliData = typeof RAIOX_CLIENTE_DETALHE_DATA !== 'undefined' ? RAIOX_CLIENTE_DETALHE_DATA : null;
+
+      if (!vendData || !cliData) {
+        document.getElementById('conteudo').innerHTML = '<div class="sem-selecao">Sem dados.</div>';
+        return;
+      }
+
+      const todosVendedores = vendData.times.flatMap(t => t.vendedores)
+        .sort((a, b) => a.nome.localeCompare(b.nome));
+
+      const params = new URLSearchParams(location.search);
+
+      document.getElementById('conteudo').innerHTML = `
+        <div class="titulo">Roteiro de Visita Priorizado</div>
+        <div class="atualizacao">Carteira do vendedor ordenada por potencial de venda (média mensal × fator de atraso) — atualizado ${cliData.atualizado_em}</div>
+
+        <div class="filtro-item">
+          <label for="sel-vendedor">Vendedor</label>
+          <select id="sel-vendedor">
+            <option value="">Selecione...</option>
+            ${todosVendedores.map(v => `<option value="${v.chave}">${v.nome} (${v.estado} · ${v.rca})</option>`).join('')}
+          </select>
+        </div>
+
+        <div id="roteiro"></div>
+      `;
+
+      const sel = document.getElementById('sel-vendedor');
+      sel.addEventListener('change', () => renderRoteiro(sel.value));
+
+      const chaveUrl = params.get('chave');
+      if (chaveUrl) {
+        sel.value = chaveUrl;
+        renderRoteiro(chaveUrl);
+      } else {
+        document.getElementById('roteiro').innerHTML = '<div class="sem-selecao">Selecione um vendedor pra ver o roteiro priorizado.</div>';
+      }
+    }
+
+    function renderRoteiro(chave) {
+      if (!chave) {
+        document.getElementById('roteiro').innerHTML = '<div class="sem-selecao">Selecione um vendedor pra ver o roteiro priorizado.</div>';
+        return;
+      }
+      history.replaceState(null, '', `?chave=${encodeURIComponent(chave)}`);
+
+      const cliData = RAIOX_CLIENTE_DETALHE_DATA;
+      const clientes = cliData.clientes.filter(c =>
+        (c.vendedores_cadastro || []).some(v => `${c.estado}-${v.rca}` === chave)
+      );
+
+      const ordenados = [...clientes].sort((a, b) => b.prioridade_visita_score - a.prioridade_visita_score);
+
+      const linhas = ordenados.map((c, i) => {
+        const motivos = [];
+        if (c.atrasado_recompra) motivos.push(`<span class="tag-atraso">⏰ ${c.dias_desde_ultima_compra}d sem comprar (ciclo ${c.ciclo_medio_dias}d)</span>`);
+        if (c.em_risco_queda) motivos.push(`<span class="tag-queda">⚠ queda de ${c.queda_pct}%</span>`);
+        if (!motivos.length) motivos.push('Cliente ativo — potencial de crescimento');
+
+        return `
+          <tr class="clicavel" onclick="location.href='raiox_cliente_detalhe.html?chave=${encodeURIComponent(c.chave)}'">
+            <td><span class="pos-badge">${i + 1}</span>${c.nome}</td>
+            <td>${c.ramo}</td>
+            <td class="motivo">${motivos.join(' · ')}</td>
+            <td>${brl(c.media_mensal)}</td>
+            <td>${c.dias_desde_ultima_compra ?? 'N/D'}d</td>
+          </tr>
+        `;
+      }).join('') || '<tr><td colspan="5" style="color:var(--muted)">Nenhum cliente na carteira desse vendedor.</td></tr>';
+
+      document.getElementById('roteiro').innerHTML = `
+        <table>
+          <thead>
+            <tr><th>Cliente</th><th>Ramo</th><th>Motivo</th><th>Média mensal</th><th>Sem comprar</th></tr>
+          </thead>
+          <tbody>${linhas}</tbody>
+        </table>
+      `;
+    }
+  </script>
+</body>
+</html>

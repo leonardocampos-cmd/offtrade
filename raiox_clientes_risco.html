@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clientes em Risco — OfftradeHub</title>
+  <script src="auth.js"></script>
+  <script src="raiox_cliente_detalhe_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --accent: #f5c518;
+      --text: #e2e8f0; --muted: #94a3b8; --border: #2d3144;
+      --green: #22c55e; --yellow: #f59e0b; --red: #ef4444;
+    }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh; padding: 0 0 48px;
+    }
+    header {
+      background: var(--card); border-bottom: 1px solid var(--border);
+      padding: 16px 24px; display: flex; align-items: center; gap: 16px;
+      flex-wrap: wrap;
+    }
+    .logo { font-size: 1.05rem; font-weight: 800; color: var(--accent); }
+    .nav { display: flex; gap: 8px; margin-left: auto; flex-wrap: wrap; }
+    .nav a {
+      color: var(--muted); text-decoration: none; font-size: .82rem;
+      padding: 6px 12px; border-radius: 7px; border: 1px solid var(--border);
+      transition: all .15s;
+    }
+    .nav a:hover { border-color: var(--accent); color: var(--accent); }
+    .container { max-width: 1100px; margin: 0 auto; padding: 24px 20px; }
+    .titulo { font-size: 1.3rem; font-weight: 800; margin-bottom: 4px; }
+    .atualizacao { font-size: .78rem; color: var(--muted); margin-bottom: 20px; }
+    .resumo-total {
+      background: var(--card); border: 1px solid var(--border); border-radius: 14px;
+      padding: 18px 20px; margin-bottom: 20px; display: flex; gap: 32px; flex-wrap: wrap;
+    }
+    .kpi-label { font-size: .68rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 4px; }
+    .kpi-valor { font-size: 1.25rem; font-weight: 800; }
+    .filtros-wrap { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 14px; }
+    .filtro-item { display: flex; flex-direction: column; gap: 5px; }
+    .filtro-item label { font-size: .68rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+    .filtro-item select, .filtro-item input {
+      padding: 8px 12px; border-radius: 8px; border: 1px solid var(--border);
+      background: var(--card); color: var(--text); font-size: .85rem; outline: none;
+      min-width: 180px;
+    }
+    .filtro-item select:focus, .filtro-item input:focus { border-color: var(--accent); }
+    table { width: 100%; border-collapse: collapse; background: var(--card); border-radius: 12px; overflow: hidden; border: 1px solid var(--border); }
+    th {
+      background: #1f2233; padding: 10px 14px; font-size: .7rem; color: var(--muted);
+      text-transform: uppercase; letter-spacing: .05em; text-align: right; font-weight: 600;
+    }
+    th:first-child, th:nth-child(2), th:nth-child(3) { text-align: left; }
+    td { padding: 10px 14px; font-size: .85rem; border-top: 1px solid var(--border); text-align: right; }
+    td:first-child, td:nth-child(2), td:nth-child(3) { text-align: left; }
+    tr:hover td { background: #1f2233; }
+    tr { cursor: pointer; }
+    .queda-badge { color: var(--red); font-weight: 700; }
+    .sem-dados { color: var(--muted); text-align: center; padding: 40px 20px; }
+    .bloqueado { text-align: center; padding: 80px 20px; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">OfftradeHub</div>
+    <div class="nav">
+      <a href="index.html">← Painel</a>
+    </div>
+  </header>
+
+  <div class="container" id="conteudo">
+    <div class="bloqueado">Verificando acesso…</div>
+  </div>
+
+  <script>
+    const EMAIL_PERMITIDO = 'leonardo.campos@rigarr.com.br';
+    const emailAtual = (sessionStorage.getItem('rg_email') || '').toLowerCase();
+    const brl = v => new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL', maximumFractionDigits: 0 }).format(v);
+
+    if (emailAtual !== EMAIL_PERMITIDO) {
+      document.getElementById('conteudo').innerHTML = `
+        <div class="titulo">Clientes em Risco</div>
+        <div class="bloqueado">Esta página é restrita.</div>
+      `;
+    } else {
+      render();
+    }
+
+    function render() {
+      const data = typeof RAIOX_CLIENTE_DETALHE_DATA !== 'undefined' ? RAIOX_CLIENTE_DETALHE_DATA : null;
+      if (!data) {
+        document.getElementById('conteudo').innerHTML = '<div class="sem-dados">Sem dados.</div>';
+        return;
+      }
+
+      let emRisco = data.clientes.filter(c => c.em_risco_queda);
+      const perdaTotal = emRisco.reduce((s, c) => s + (c.faturamento_30_60d - c.faturamento_30d), 0);
+
+      const estados = [...new Set(emRisco.map(c => c.estado))].sort();
+      const ramos = [...new Set(emRisco.map(c => c.ramo))].sort();
+
+      document.getElementById('conteudo').innerHTML = `
+        <div class="titulo">Clientes em Risco de Queda</div>
+        <div class="atualizacao">Baseado em raiox_cliente_detalhe_data.js (atualizado ${data.atualizado_em}) · queda = últimos 30 dias vs. 30 dias anteriores</div>
+
+        <div class="resumo-total">
+          <div><div class="kpi-label">Clientes em risco</div><div class="kpi-valor">${emRisco.length.toLocaleString('pt-BR')}</div></div>
+          <div><div class="kpi-label">Perda potencial (30d)</div><div class="kpi-valor" style="color:var(--red)">${brl(perdaTotal)}</div></div>
+        </div>
+
+        <div class="filtros-wrap">
+          <div class="filtro-item">
+            <label for="f-estado">Estado</label>
+            <select id="f-estado"><option value="">Todos</option>${estados.map(e => `<option value="${e}">${e}</option>`).join('')}</select>
+          </div>
+          <div class="filtro-item">
+            <label for="f-ramo">Ramo</label>
+            <select id="f-ramo"><option value="">Todos</option>${ramos.map(r => `<option value="${r}">${r}</option>`).join('')}</select>
+          </div>
+          <div class="filtro-item">
+            <label for="f-busca">Buscar cliente</label>
+            <input type="text" id="f-busca" placeholder="Nome...">
+          </div>
+        </div>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Cliente</th><th>Vendedor</th><th>Ramo</th>
+              <th>Últimos 30d</th><th>30-60d atrás</th><th>Queda</th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      `;
+
+      function renderTabela() {
+        const fEstado = document.getElementById('f-estado').value;
+        const fRamo = document.getElementById('f-ramo').value;
+        const fBusca = document.getElementById('f-busca').value.trim().toUpperCase();
+
+        const filtrados = emRisco.filter(c =>
+          (!fEstado || c.estado === fEstado) &&
+          (!fRamo || c.ramo === fRamo) &&
+          (!fBusca || c.nome.toUpperCase().includes(fBusca))
+        ).sort((a, b) => (b.faturamento_30_60d - b.faturamento_30d) - (a.faturamento_30_60d - a.faturamento_30d));
+
+        document.getElementById('tbody').innerHTML = filtrados.map(c => {
+          const vendedor = (c.vendedores_cadastro || []).map(v => v.nome).join(', ') || 'Sem vendedor';
+          return `
+            <tr onclick="location.href='raiox_cliente_detalhe.html?chave=${encodeURIComponent(c.chave)}'">
+              <td>${c.nome} <span style="color:var(--muted);font-size:.74rem">${c.estado}</span></td>
+              <td>${vendedor}</td>
+              <td>${c.ramo}</td>
+              <td>${brl(c.faturamento_30d)}</td>
+              <td>${brl(c.faturamento_30_60d)}</td>
+              <td class="queda-badge">-${c.queda_pct}%</td>
+            </tr>
+          `;
+        }).join('') || '<tr><td colspan="6" style="color:var(--muted)">Nenhum cliente em risco para este filtro.</td></tr>';
+      }
+
+      renderTabela();
+      ['f-estado', 'f-ramo', 'f-busca'].forEach(id => {
+        document.getElementById(id).addEventListener('input', renderTabela);
+        document.getElementById(id).addEventListener('change', renderTabela);
+      });
+    }
+  </script>
+</body>
+</html>
