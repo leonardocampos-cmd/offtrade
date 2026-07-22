@@ -275,6 +275,37 @@
         </tr>
       `).join('') || '<tr><td colspan="5" style="color:var(--muted)">Sem compras no período.</td></tr>';
 
+      const souLeonardo = (sessionStorage.getItem('rg_email') || '').toLowerCase() === 'leonardo.campos@rigarr.com.br';
+      let inteligenciaHtml = '';
+      if (souLeonardo) {
+        const alertas = [];
+        if (c.em_risco_queda) {
+          alertas.push(`<span class="tag" style="border-color:var(--red);color:var(--red)">⚠ Queda de ${c.queda_pct}% (últimos 30d vs. 30d anteriores)</span>`);
+        }
+        if (c.atrasado_recompra) {
+          alertas.push(`<span class="tag" style="border-color:var(--yellow);color:var(--yellow)">⏰ Atrasado: ${c.dias_desde_ultima_compra}d sem comprar (ciclo médio ${c.ciclo_medio_dias}d)</span>`);
+        }
+        const recomendacoesHtml = (c.recomendacoes || []).map(r => `
+          <tr>
+            <td>${r.fornecedor}</td>
+            <td>${r.penetracao_pct}% dos clientes do ramo compram</td>
+            <td style="text-align:right">${brl(r.ticket_medio)}</td>
+          </tr>
+        `).join('') || '<tr><td colspan="3" style="color:var(--muted)">Sem recomendações (cliente já cobre o essencial do ramo).</td></tr>';
+
+        inteligenciaHtml = `
+          <div class="card" style="border-color:var(--accent)">
+            <div class="card-titulo" style="color:var(--accent)">🔒 Inteligência comercial (só você vê)</div>
+            ${alertas.length ? `<div class="ficha-tags" style="margin-bottom:14px">${alertas.join('')}</div>` : '<div style="color:var(--muted);font-size:.82rem;margin-bottom:14px">Sem alertas de queda ou atraso.</div>'}
+            <div class="secao-mini">Recomendações de produto (indústrias que o cliente ainda não compra, mas são comuns no ramo)</div>
+            <table>
+              <thead><tr><th>Indústria</th><th>Penetração no ramo</th><th>Ticket médio dos compradores</th></tr></thead>
+              <tbody>${recomendacoesHtml}</tbody>
+            </table>
+          </div>
+        `;
+      }
+
       document.getElementById('conteudo').innerHTML = `
         <div class="ficha-header">
           <div>
@@ -296,6 +327,8 @@
           <div class="kpi-card"><div class="kpi-label">Média mensal</div><div class="kpi-valor">${brl(c.media_mensal)}</div></div>
           <div class="kpi-card"><div class="kpi-label">Meses ativos</div><div class="kpi-valor">${Object.keys(c.por_mes).length} / ${data.meses_com_dado.length}</div></div>
         </div>
+
+        ${inteligenciaHtml}
 
         <div class="card">
           <div class="card-titulo">Histórico mensal de compras</div>
