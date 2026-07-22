@@ -131,13 +131,26 @@ def _show_login(cookies):
             key="google_login",
             extras_params={"prompt": "select_account"},
         )
-    except Exception:
-        st.query_params.clear()
-        st.rerun()
+    except Exception as e:
+        # DIAGNÓSTICO TEMPORÁRIO (remover depois de achar a causa do loop de
+        # login em /Credito_e_Cadastro): antes o except só limpava os query
+        # params e dava rerun, escondendo o erro real do handshake OAuth.
+        import traceback
+        print(f"[DIAG oauth] Erro no authorize_button: {e}\n{traceback.format_exc()}", flush=True)
+        st.error(f"Erro no login (diagnóstico temporário): {e}")
+        st.code(traceback.format_exc())
+        st.stop()
+    # DIAGNÓSTICO TEMPORÁRIO: só loga quando o componente realmente devolveu
+    # algo (evita spam nos reruns normais, onde result é None o tempo todo).
+    if result:
+        print(f"[DIAG oauth] result recebido do componente: {result!r}", flush=True)
     if result and "token" in result:
         st.session_state["token"] = result["token"]
         cookies.set("offtrade_token", json.dumps(result["token"]))
         st.rerun()
+    elif result:
+        st.error(f"Login retornou um resultado sem token (diagnóstico temporário): {result!r}")
+        st.stop()
     st.stop()
 
 

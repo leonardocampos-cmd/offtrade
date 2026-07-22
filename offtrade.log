@@ -12955,3 +12955,13 @@ OK Servico ativo - https://offtrade.duckdns.org
 
 [21/07/2026 18:15:04,37] OK 
 ---------------------------------------- 
+[21/07/2026 18:42:50,35] Iniciando... 
+2026-07-21 18:44:44.113 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-21 18:44:44.132 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-21 18:44:44.132 No runtime found, using MemoryCacheStorageManager
+[22/07/2026  2:41:56,42] ERRO (codigo -1073741819
+---------------------------------------- 
+[22/07/2026  2:42:50,29] Iniciando... 
+2026-07-22 07:39:51.430 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-22 07:39:51.485 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-22 07:39:51.515 No runtime found, using MemoryCacheStorageManager
