@@ -12965,3 +12965,130 @@ OK Servico ativo - https://offtrade.duckdns.org
 2026-07-22 07:39:51.430 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
 2026-07-22 07:39:51.485 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
 2026-07-22 07:39:51.515 No runtime found, using MemoryCacheStorageManager
+[22/07/2026 12:00:00,71] Iniciando... 
+2026-07-22 12:02:10.981 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-22 12:02:11.013 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-07-22 12:02:11.030 No runtime found, using MemoryCacheStorageManager
+[master b6c939a6] Atualiza metas_data.js + vendas_data.js - 22/07/2026
+ 4 files changed, 2989 insertions(+), 4534 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   bce6d18d..b6c939a6  master -> master
+
+==================================================
+  OFFTRADE - 22/07/2026 12:00
+==================================================
+
+--------------------------------------------------
+  0/8 - Baixando planilhas do Google Drive
+--------------------------------------------------
+[AVISO] falha ao baixar via caminho_metas_rj: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+[AVISO] falha ao baixar via caminho_metas_sp: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+[AVISO] falha ao baixar via caminho_tabela_preco_rj: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+[AVISO] falha ao baixar via caminho_preco_promo: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+[AVISO] falha ao baixar via caminho_profit_rj: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+
+
+--------------------------------------------------
+  1/8 - Carregando metas e vendas (Oracle + Excel)
+--------------------------------------------------
+-> Lendo vendas_CRC (Tentativa 1/3)...
+OK vendas_CRC carregada!
+-> Lendo vendas_thekings (Tentativa 1/3)...
+OK vendas_thekings carregada!
+-> Lendo vendas_CASTAS (Tentativa 1/3)...
+Erro na vendas_CASTAS: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo vendas_CASTAS (Tentativa 2/3)...
+Erro na vendas_CASTAS: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo vendas_CASTAS (Tentativa 3/3)...
+Erro na vendas_CASTAS: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+[AVISO] vendas_CASTAS falhou ((oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeo) — ignorado
+-> Lendo vendas_GARRIDO (Tentativa 1/3)...
+Erro na vendas_GARRIDO: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo vendas_GARRIDO (Tentativa 2/3)...
+Erro na vendas_GARRIDO: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo vendas_GARRIDO (Tentativa 3/3)...
+Erro na vendas_GARRIDO: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+[AVISO] vendas_GARRIDO falhou ((oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeo) — ignorado
+-> Lendo vendas_SPON (Tentativa 1/3)...
+Erro na vendas_SPON: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo vendas_SPON (Tentativa 2/3)...
+Erro na vendas_SPON: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo vendas_SPON (Tentativa 3/3)...
+OK vendas_SPON carregada!
+-> Lendo vendas_MGON (Tentativa 1/3)...
+OK vendas_MGON carregada!
+[AVISO] Drive falhou (HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))) — usando cópia local sincronizada: G:\Drives compartilhados\Off Trade\Campanhas e Metas\METAS\METAS RJ.xlsx
+-> Lendo vendas_anterior_CRC (Tentativa 1/3)...
+OK vendas_anterior_CRC carregada!
+-> Lendo vendas_anterior_thekings (Tentativa 1/3)...
+Erro na vendas_anterior_thekings: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo vendas_anterior_thekings (Tentativa 2/3)...
+OK vendas_anterior_thekings carregada!
+-> Pulando vendas_anterior_CASTAS: fonte já indisponível nesta execução
+[AVISO] vendas_anterior_CASTAS falhou ((oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeo) — ignorado
+-> Pulando vendas_anterior_GARRIDO: fonte já indisponível nesta execução
+[AVISO] vendas_anterior_GARRIDO falhou ((oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeo) — ignorado
+-> Lendo vendas_anterior_SPON (Tentativa 1/3)...
+OK vendas_anterior_SPON carregada!
+
+--------------------------------------------------
+  2/8 - Exportando dashboard HTML (metas_data.js)
+--------------------------------------------------
+-> Lendo nao_pos_CRC (Tentativa 1/3)...
+OK nao_pos_CRC carregada!
+-> Lendo nao_pos_thekings (Tentativa 1/3)...
+OK nao_pos_thekings carregada!
+-> Lendo nao_pos_CASTAS (Tentativa 1/3)...
+Erro na nao_pos_CASTAS: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo nao_pos_CASTAS (Tentativa 2/3)...
+Erro na nao_pos_CASTAS: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo nao_pos_CASTAS (Tentativa 3/3)...
+Erro na nao_pos_CASTAS: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+[AVISO] nao_pos_CASTAS falhou ((oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeo) — ignorado
+-> Lendo nao_pos_GARRIDO (Tentativa 1/3)...
+OK nao_pos_GARRIDO carregada!
+-> Lendo nao_pos_SPON (Tentativa 1/3)...
+OK nao_pos_SPON carregada!
+Clientes nao positivados em 07/2026: 3062
+Arquivo salvo em: g:\Meu Drive\offtrade\nao_positivados_07-2026.xlsx
+-> Lendo map_rca_CRC (Tentativa 1/3)...
+Erro na map_rca_CRC: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo map_rca_CRC (Tentativa 2/3)...
+Erro na map_rca_CRC: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo map_rca_CRC (Tentativa 3/3)...
+OK map_rca_CRC carregada!
+-> Lendo map_rca_thekings (Tentativa 1/3)...
+OK map_rca_thekings carregada!
+-> Pulando map_rca_CASTAS: fonte já indisponível nesta execução
+[AVISO] map_rca_CASTAS falhou — ignorado
+-> Pulando map_rca_GARRIDO: fonte já indisponível nesta execução
+[AVISO] map_rca_GARRIDO falhou — ignorado
+-> Lendo map_rca_SPON (Tentativa 1/3)...
+OK map_rca_SPON carregada!
+-> Lendo map_rca_MGON (Tentativa 1/3)...
+Erro na map_rca_MGON: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo map_rca_MGON (Tentativa 2/3)...
+OK map_rca_MGON carregada!
+-> Lendo vendas_hist_CRC (Tentativa 1/3)...
+OK vendas_hist_CRC carregada!
+-> Lendo vendas_hist_thekings (Tentativa 1/3)...
+OK vendas_hist_thekings carregada!
+-> Pulando vendas_hist_CASTAS: fonte já indisponível nesta execução
+[AVISO] vendas_hist_CASTAS falhou — ignorado
+-> Pulando vendas_hist_GARRIDO: fonte já indisponível nesta execução
+[AVISO] vendas_hist_GARRIDO falhou — ignorado
+-> Lendo vendas_hist_SPON (Tentativa 1/3)...
+Erro na vendas_hist_SPON: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo vendas_hist_SPON (Tentativa 2/3)...
+OK vendas_hist_SPON carregada!
+-> Lendo vendas_hist_MGON (Tentativa 1/3)...
+OK vendas_hist_MGON carregada!
+-> Lendo cadastros_CRC (Tentativa 1/3)...
+OK cadastros_CRC carregada!
+-> Lendo cadastros_thekings (Tentativa 1/3)...
+Erro na cadastros_thekings: (oracledb.exceptions.DatabaseError) ORA-12170: Cannot connect. TCP connect timeout of 20s for host 1
+-> Lendo cadastros_thekings (Tentativa 2/3)...
+[master 59f9d51b] Atualiza entregas_data.js - 22/07/2026
+ 1 file changed, 731 insertions(+), 61 deletions(-)
+To https://github.com/leonardocampos-cmd/offtrade.git
+   52e51d09..59f9d51b  master -> master

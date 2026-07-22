@@ -1,5 +1,5 @@
 """Utilitários compartilhados: CSS, auth Google, conexão Oracle."""
-import os, base64, json
+import os, base64, json, time
 from datetime import datetime
 
 import streamlit as st
@@ -94,12 +94,31 @@ def require_auth() -> dict:
     cookies = CookieController()
 
     if "token" not in st.session_state:
-        saved = cookies.get("offtrade_token")
+        # O CookieController devolve `default={}` (não None) enquanto o
+        # round-trip assíncrono JS->Python não completou — "offtrade_token"
+        # ausente de um dict vazio é indistinguível de "usuário sem cookie"
+        # na primeira renderização. Sem retry, a página de SSO (setada por
+        # login.html) nunca via o cookie e sempre caía no login.
+        all_cookies = cookies.getAll() or {}
+        print(f"[DIAG cookies] getAll()={all_cookies!r}", flush=True)
+        if "offtrade_token" not in all_cookies:
+            tentativas = st.session_state.get("_cookie_sync_tentativas", 0)
+            if tentativas < 6:
+                st.session_state["_cookie_sync_tentativas"] = tentativas + 1
+                time.sleep(0.3)
+                st.rerun()
+        saved = all_cookies.get("offtrade_token")
         if saved:
+            # O componente já desserializa cookies com conteúdo JSON de volta
+            # para dict/list automaticamente — "saved" pode vir como dict
+            # (caso comum) ou como string crua (fallback), então tratamos os
+            # dois formatos. Um json.loads(dict) levanta TypeError, que o
+            # antigo "except Exception: pass" engolia silenciosamente e
+            # fazia o SSO nunca completar (sempre caía na tela de login).
             try:
-                st.session_state["token"] = json.loads(saved)
-            except Exception:
-                pass
+                st.session_state["token"] = saved if isinstance(saved, dict) else json.loads(saved)
+            except Exception as e:
+                print(f"[DIAG cookies] falha ao decodificar token salvo: {e!r} | saved={saved!r}", flush=True)
 
     if "token" not in st.session_state:
         _show_login(cookies)
