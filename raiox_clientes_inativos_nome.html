@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reativação de Clientes — OfftradeHub</title>
+  <script src="auth.js"></script>
+  <script src="clientes_inativos_nome_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --accent: #f5c518;
+      --text: #e2e8f0; --muted: #94a3b8; --border: #2d3144;
+    }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh; padding: 0 0 48px;
+    }
+    header {
+      background: var(--card); border-bottom: 1px solid var(--border);
+      padding: 16px 24px; display: flex; align-items: center; gap: 16px;
+      flex-wrap: wrap;
+    }
+    .logo { font-size: 1.05rem; font-weight: 800; color: var(--accent); }
+    .nav { display: flex; gap: 8px; margin-left: auto; flex-wrap: wrap; }
+    .nav a {
+      color: var(--muted); text-decoration: none; font-size: .82rem;
+      padding: 6px 12px; border-radius: 7px; border: 1px solid var(--border);
+      transition: all .15s;
+    }
+    .nav a:hover { border-color: var(--accent); color: var(--accent); }
+    .container { max-width: 1000px; margin: 0 auto; padding: 24px 20px; }
+    .titulo { font-size: 1.3rem; font-weight: 800; margin-bottom: 4px; }
+    .atualizacao { font-size: .78rem; color: var(--muted); margin-bottom: 20px; }
+    .resumo-total {
+      background: var(--card); border: 1px solid var(--border); border-radius: 14px;
+      padding: 18px 20px; margin-bottom: 20px; display: flex; gap: 32px; flex-wrap: wrap;
+    }
+    .kpi-label { font-size: .68rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 4px; }
+    .kpi-valor { font-size: 1.25rem; font-weight: 800; }
+    .filtro { margin-bottom: 14px; }
+    .filtro input {
+      width: 100%; max-width: 320px; padding: 9px 12px; border-radius: 8px;
+      border: 1px solid var(--border); background: var(--card); color: var(--text);
+      font-size: .88rem; outline: none;
+    }
+    .filtro input:focus { border-color: var(--accent); }
+    .card {
+      background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+      padding: 16px 18px; margin-bottom: 10px;
+    }
+    .card-topo { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 8px; }
+    .cli-nome { font-weight: 700; font-size: .92rem; }
+    .cli-meta { font-size: .74rem; color: var(--muted); }
+    .cli-valor { font-weight: 800; font-size: .95rem; }
+    .fornecedores-list { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
+    .forn-tag {
+      font-size: .72rem; padding: 3px 10px; border-radius: 20px; border: 1px solid var(--border); color: var(--muted);
+    }
+    .sem-dados { color: var(--muted); text-align: center; padding: 40px 20px; }
+    .bloqueado { text-align: center; padding: 80px 20px; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">OfftradeHub</div>
+    <div class="nav">
+      <a href="index.html">← Painel</a>
+    </div>
+  </header>
+
+  <div class="container" id="conteudo">
+    <div class="bloqueado">Verificando acesso…</div>
+  </div>
+
+  <script>
+    const EMAIL_PERMITIDO = 'leonardo.campos@rigarr.com.br';
+    const emailAtual = (sessionStorage.getItem('rg_email') || '').toLowerCase();
+    const brl = v => new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL', maximumFractionDigits: 0 }).format(v);
+
+    if (emailAtual !== EMAIL_PERMITIDO) {
+      document.getElementById('conteudo').innerHTML = `
+        <div class="titulo">Reativação de Clientes</div>
+        <div class="bloqueado">Esta página é restrita.</div>
+      `;
+    } else {
+      render();
+    }
+
+    function render() {
+      const data = typeof CLIENTES_INATIVOS_NOME_DATA !== 'undefined' ? CLIENTES_INATIVOS_NOME_DATA : null;
+      if (!data) {
+        document.getElementById('conteudo').innerHTML = '<div class="sem-dados">Sem dados ainda — rode exportacao_clientes_inativos_nome.py.</div>';
+        return;
+      }
+
+      const clientes = data.clientes || [];
+      const totalHistorico = clientes.reduce((s, c) => s + c.faturamento_historico_total, 0);
+
+      document.getElementById('conteudo').innerHTML = `
+        <div class="titulo">Reativação de Clientes</div>
+        <div class="atualizacao">Clientes cujo vendedor (RCA) tem "INATIVO" no nome — top ${clientes.length} de ${(data.total_universo || clientes.length).toLocaleString('pt-BR')} com histórico de compra, por faturamento histórico · atualizado ${data.atualizado_em}</div>
+
+        <div class="resumo-total">
+          <div><div class="kpi-label">Exibindo (top por valor)</div><div class="kpi-valor">${clientes.length}</div></div>
+          <div><div class="kpi-label">Universo total c/ histórico</div><div class="kpi-valor">${(data.total_universo || 0).toLocaleString('pt-BR')}</div></div>
+          <div><div class="kpi-label">Faturamento histórico (exibidos)</div><div class="kpi-valor">${brl(totalHistorico)}</div></div>
+        </div>
+
+        <div class="filtro">
+          <input type="text" id="busca" placeholder="Buscar cliente, cidade ou ramo...">
+        </div>
+
+        <div id="lista"></div>
+      `;
+
+      function renderLista(lista) {
+        document.getElementById('lista').innerHTML = lista.map(c => {
+          const fornecedoresHtml = (c.top_fornecedores_historico || []).slice(0, 6).map(f =>
+            `<span class="forn-tag">${f.fantasia} · ${brl(f.valor_historico)}</span>`
+          ).join('') || '<span class="forn-tag">Sem histórico de compra registrado</span>';
+
+          return `
+            <div class="card">
+              <div class="card-topo">
+                <div>
+                  <div class="cli-nome">${c.nome}</div>
+                  <div class="cli-meta">${c.cidade} · ${c.estado_cliente} · ${c.ramo} · Última compra: ${c.ultima_compra || 'nunca registrada'}</div>
+                </div>
+                <div class="cli-valor">${brl(c.faturamento_historico_total)}</div>
+              </div>
+              <div class="fornecedores-list">${fornecedoresHtml}</div>
+            </div>
+          `;
+        }).join('') || '<div class="sem-dados">Nenhum cliente encontrado para este filtro.</div>';
+      }
+
+      renderLista(clientes);
+
+      document.getElementById('busca').addEventListener('input', function () {
+        const q = this.value.trim().toUpperCase();
+        renderLista(clientes.filter(c =>
+          c.nome.toUpperCase().includes(q) || c.cidade.toUpperCase().includes(q) || c.ramo.toUpperCase().includes(q)
+        ));
+      });
+    }
+  </script>
+</body>
+</html>
