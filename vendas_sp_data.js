@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "22/07/2026 08:29",
+  "atualizado_em": "22/07/2026 12:39",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -23141,6 +23141,16 @@ const VENDAS_SP_DATA = {
           "offtrade": true
         },
         {
+          "data": "22/07/2026",
+          "codcli": "40359",
+          "cliente": "BRASILEIRAO ATACADO COMERCIO DE PRODUTOS ALIMENTICIOS SOCIED",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 840,
+          "valor": 37800.0,
+          "offtrade": true
+        },
+        {
           "data": "21/07/2026",
           "codcli": "51043",
           "cliente": "DISTRIBUIDORA BERLIM COMERCIO DE BEBIDAS LTDA",
@@ -42105,16 +42115,6 @@ const VENDAS_SP_DATA = {
           "offtrade": true
         },
         {
-          "data": "21/07/2026",
-          "codcli": "50374",
-          "cliente": "REDE STAR - CENTRAL DE DISTRIBUICAO ATACADISTA DE MERCADORIA",
-          "produto": "MARTINI BIANCO 750 ML",
-          "fantasia": "BACARDI",
-          "qt": 12,
-          "valor": 347.38,
-          "offtrade": true
-        },
-        {
           "data": "02/07/2026",
           "codcli": "31084",
           "cliente": "COMERCIAL BOLSAO DE BEBIDAS LTDA",
@@ -42122,16 +42122,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "BACARDI",
           "qt": 120,
           "valor": 3383.15,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "50374",
-          "cliente": "REDE STAR - CENTRAL DE DISTRIBUICAO ATACADISTA DE MERCADORIA",
-          "produto": "VODKA GREY GOOSE ORIGINAL 750 ML",
-          "fantasia": "BACARDI",
-          "qt": 6,
-          "valor": 581.4,
           "offtrade": true
         },
         {
@@ -42325,16 +42315,6 @@ const VENDAS_SP_DATA = {
           "offtrade": true
         },
         {
-          "data": "21/07/2026",
-          "codcli": "50374",
-          "cliente": "REDE STAR - CENTRAL DE DISTRIBUICAO ATACADISTA DE MERCADORIA",
-          "produto": "WHISKY BALLANTINE S FINEST 1L",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 634.8,
-          "offtrade": true
-        },
-        {
           "data": "03/07/2026",
           "codcli": "50325",
           "cliente": "MASSUR COMERCIO DE BEBIDAS LTDA",
@@ -42385,16 +42365,6 @@ const VENDAS_SP_DATA = {
           "offtrade": true
         },
         {
-          "data": "21/07/2026",
-          "codcli": "50374",
-          "cliente": "REDE STAR - CENTRAL DE DISTRIBUICAO ATACADISTA DE MERCADORIA",
-          "produto": "RUM MALIBU 750ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 514.8,
-          "offtrade": true
-        },
-        {
           "data": "06/07/2026",
           "codcli": "49531",
           "cliente": "VALDOMIRO SGORLON MARTINELLI JUNIOR",
@@ -42418,16 +42388,6 @@ const VENDAS_SP_DATA = {
           "data": "14/07/2026",
           "codcli": "32999",
           "cliente": "EMPORIO VILLAMARIN LTDA",
-          "produto": "TEQUILA J CUERVO GOLD 750ML",
-          "fantasia": "AURORA",
-          "qt": 12,
-          "valor": 1006.8,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "50374",
-          "cliente": "REDE STAR - CENTRAL DE DISTRIBUICAO ATACADISTA DE MERCADORIA",
           "produto": "TEQUILA J CUERVO GOLD 750ML",
           "fantasia": "AURORA",
           "qt": 12,
@@ -42462,16 +42422,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 120,
           "valor": 7188.0,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "50374",
-          "cliente": "REDE STAR - CENTRAL DE DISTRIBUICAO ATACADISTA DE MERCADORIA",
-          "produto": "GIN BEEFEATER 750ML",
-          "fantasia": "PERNOD",
-          "qt": 6,
-          "valor": 359.4,
           "offtrade": true
         },
         {
@@ -42595,16 +42545,6 @@ const VENDAS_SP_DATA = {
           "offtrade": true
         },
         {
-          "data": "21/07/2026",
-          "codcli": "50374",
-          "cliente": "REDE STAR - CENTRAL DE DISTRIBUICAO ATACADISTA DE MERCADORIA",
-          "produto": "WHISKY JAMESON 750ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 694.8,
-          "offtrade": true
-        },
-        {
           "data": "08/07/2026",
           "codcli": "50196",
           "cliente": "ADEGA RODRIGUES LTDA",
@@ -42705,16 +42645,6 @@ const VENDAS_SP_DATA = {
           "offtrade": true
         },
         {
-          "data": "21/07/2026",
-          "codcli": "50374",
-          "cliente": "REDE STAR - CENTRAL DE DISTRIBUICAO ATACADISTA DE MERCADORIA",
-          "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 658.8,
-          "offtrade": true
-        },
-        {
           "data": "08/07/2026",
           "codcli": "50196",
           "cliente": "ADEGA RODRIGUES LTDA",
@@ -42802,16 +42732,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "BALLENA",
           "qt": 24,
           "valor": 1917.6,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "50374",
-          "cliente": "REDE STAR - CENTRAL DE DISTRIBUICAO ATACADISTA DE MERCADORIA",
-          "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
-          "fantasia": "BALLENA",
-          "qt": 6,
-          "valor": 479.4,
           "offtrade": true
         },
         {
@@ -42958,16 +42878,6 @@ const VENDAS_SP_DATA = {
           "data": "03/07/2026",
           "codcli": "49851",
           "cliente": "GUILHERME HONORIO DE CARVALHO",
-          "produto": "VODKA ABSOLUT TABASCO 750ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 658.8,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "50374",
-          "cliente": "REDE STAR - CENTRAL DE DISTRIBUICAO ATACADISTA DE MERCADORIA",
           "produto": "VODKA ABSOLUT TABASCO 750ML",
           "fantasia": "PERNOD",
           "qt": 12,
@@ -51291,6 +51201,16 @@ const VENDAS_SP_DATA = {
           "offtrade": true
         },
         {
+          "data": "22/07/2026",
+          "codcli": "33273",
+          "cliente": "SJX - COMERCIAL ATACADISTA DE MERCADORIAS LTDA.",
+          "produto": "CACHAÇA JOIA DA SERRA TRADICIONAL 1L",
+          "fantasia": "HOUSE OF BRANDS",
+          "qt": 1,
+          "valor": 28.9,
+          "offtrade": true
+        },
+        {
           "data": "06/07/2026",
           "codcli": "44020",
           "cliente": "CASH ATACADO LTDA",
@@ -51298,6 +51218,16 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 12,
           "valor": 562.8,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "33273",
+          "cliente": "SJX - COMERCIAL ATACADISTA DE MERCADORIAS LTDA.",
+          "produto": "YVY DESTILADO GIN MAR 750ML",
+          "fantasia": "YVY",
+          "qt": 1,
+          "valor": 54.9,
           "offtrade": true
         },
         {
@@ -63651,6 +63581,16 @@ const VENDAS_SP_DATA = {
           "offtrade": true
         },
         {
+          "data": "22/07/2026",
+          "codcli": "39053",
+          "cliente": "MERCADINHO DO COLMEIA LTDA",
+          "produto": "RUM BACARDI CARTA BLANCA 980ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 413.1,
+          "offtrade": true
+        },
+        {
           "data": "06/07/2026",
           "codcli": "23329",
           "cliente": "CASA SANTA LUZIA IMPORTADORA LTDA",
@@ -63961,6 +63901,16 @@ const VENDAS_SP_DATA = {
           "offtrade": true
         },
         {
+          "data": "22/07/2026",
+          "codcli": "39053",
+          "cliente": "MERCADINHO DO COLMEIA LTDA",
+          "produto": "RUM MONTILLA OURO 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 233.4,
+          "offtrade": true
+        },
+        {
           "data": "04/07/2026",
           "codcli": "47181",
           "cliente": "LATICINIOS TANI LTDA",
@@ -64213,16 +64163,6 @@ const VENDAS_SP_DATA = {
         {
           "data": "16/07/2026",
           "codcli": "51157",
-          "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-          "produto": "WHISKY CHANCELER 1L",
-          "fantasia": "CRS BRANDS",
-          "qt": 36,
-          "valor": 504.72,
-          "offtrade": true
-        },
-        {
-          "data": "16/07/2026",
-          "codcli": "51153",
           "cliente": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
           "produto": "WHISKY CHANCELER 1L",
           "fantasia": "CRS BRANDS",
@@ -101035,16 +100975,6 @@ const VENDAS_SP_DATA = {
           "offtrade": true
         },
         {
-          "data": "11/06/2026",
-          "codcli": "50636",
-          "cliente": "SUPERMERCADO RAMA LTDA",
-          "produto": "AGUARDENTE OLD CESAR 88 965 ML",
-          "fantasia": "CRS BRANDS",
-          "qt": 12,
-          "valor": 119.88,
-          "offtrade": true
-        },
-        {
           "data": "18/06/2026",
           "codcli": "50636",
           "cliente": "SUPERMERCADO RAMA LTDA",
@@ -101088,16 +101018,6 @@ const VENDAS_SP_DATA = {
           "data": "03/06/2026",
           "codcli": "50572",
           "cliente": "VITORIA CRISTINA MACHADO DA SILVA",
-          "produto": "CONHAQUE DREHER 900ML",
-          "fantasia": "CAMPARI",
-          "qt": 12,
-          "valor": 202.8,
-          "offtrade": true
-        },
-        {
-          "data": "11/06/2026",
-          "codcli": "50636",
-          "cliente": "SUPERMERCADO RAMA LTDA",
           "produto": "CONHAQUE DREHER 900ML",
           "fantasia": "CAMPARI",
           "qt": 12,
@@ -109917,6 +109837,16 @@ const VENDAS_SP_DATA = {
           "offtrade": false
         },
         {
+          "data": "22/07/2026",
+          "codcli": "51906",
+          "cliente": "48.782.513 JENNIFER STEFANNI DE PAULA DA SILVA",
+          "produto": "JACK DANIELS BLACKBERRY 1L",
+          "fantasia": "BROWN",
+          "qt": 2,
+          "valor": 279.8,
+          "offtrade": true
+        },
+        {
           "data": "10/07/2026",
           "codcli": "51659",
           "cliente": "MERCADO FLORESTA AZUL DE VILA SILVIA LTDA",
@@ -112324,7 +112254,7 @@ const VENDAS_SP_DATA = {
     },
     "ANDRE SILVA": {
       "Jul/26": {
-        "fat": 164263.14,
+        "fat": 164346.94,
         "pos": 8.0,
         "fat_pernod": 40642.2,
         "fat_essenza": 4136.4
@@ -112395,9 +112325,9 @@ const VENDAS_SP_DATA = {
     },
     "ADER ALONSO": {
       "Jul/26": {
-        "fat": 268381.06,
-        "pos": 28.0,
-        "fat_pernod": 183072.66,
+        "fat": 262444.68,
+        "pos": 27.0,
+        "fat_pernod": 179551.26,
         "fat_crs": 3596.4
       },
       "Jun/26": {
@@ -112460,10 +112390,10 @@ const VENDAS_SP_DATA = {
     },
     "MANUELA ZAPPACOSTA": {
       "Jul/26": {
-        "fat": 171894.57,
+        "fat": 172036.35,
         "pos": 37.0,
-        "fat_pernod": 78257.4,
-        "fat_crs": 22553.52
+        "fat_pernod": 78490.8,
+        "fat_crs": 22048.8
       },
       "Jun/26": {
         "fat": 224919.91,
@@ -112800,10 +112730,10 @@ const VENDAS_SP_DATA = {
         "fat_crs": 2801.97
       },
       "Jun/26": {
-        "fat": 6883.26,
+        "fat": 6560.58,
         "pos": 7.0,
         "fat_pernod": 2690.4,
-        "fat_crs": 971.04
+        "fat_crs": 851.16
       },
       "Mai/26": {
         "fat": 4040.1,
@@ -112931,8 +112861,8 @@ const VENDAS_SP_DATA = {
     },
     "ANDERSON MOTTA": {
       "Jul/26": {
-        "fat": 2463.7,
-        "pos": 3.0,
+        "fat": 2743.5,
+        "pos": 4.0,
         "fat_pernod": 343.5,
         "fat_crs": 431.52
       }
@@ -113038,9 +112968,9 @@ const VENDAS_SP_DATA = {
     },
     "W.S": {
       "Jul/26": {
-        "fat": 1993159.94,
-        "pos": 102.0,
-        "fat_pernod": 1465318.4,
+        "fat": 2030959.94,
+        "pos": 103.0,
+        "fat_pernod": 1503118.4,
         "fat_crs": 15515.18
       },
       "Jun/26": {
