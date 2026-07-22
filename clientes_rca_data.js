@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "21/07/2026 17:53",
-  "total": 4080,
+  "atualizado_em": "22/07/2026 08:33",
+  "total": 4082,
   "clientes": [
     {
       "codcli": "31683",
@@ -30468,6 +30468,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
+      "codcli": "50471",
+      "razao": "JOSE ALDO LIMA FEITOSA 84332549449",
+      "fantasia": "JOSE ALDO LIMA FEITOSA 84332549449",
+      "bairro": "CIDADE SERODIO",
+      "cidade": "GUARULHOS",
+      "cnpj": "27.181.703/0001-10",
+      "estado": "SP",
+      "ramo": "BAR",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "467",
+      "nome_usur1": "MARLENE RODRIGUES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "51608",
       "razao": "JOSE ALESSON SILVA DE JESUS MINIMERCADO",
       "fantasia": "COMERCIAL DE ALIMENTOS NOSSA SENHORA DA BOA HORA",
@@ -33202,6 +33218,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "MATEUS CARDOSO - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
+    },
+    {
+      "codcli": "51972",
+      "razao": "LILIAN S. BENEVIDES MINIMERCADO",
+      "fantasia": "LILIAN S. BENEVIDES MINIMERCADO",
+      "bairro": "JARDIM ENSEADA",
+      "cidade": "GUARUJA",
+      "cnpj": "15.862.357/0001-56",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "507",
+      "nome_usur1": "JOAO AUGUSTO -  OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "32421",
