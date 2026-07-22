@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "21/07/2026 17:38",
+  "atualizado_em": "22/07/2026 08:19",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -94,14 +94,14 @@ const CRUSOE_DATA = {
         {
           "rca": 412,
           "vendedor": "Barbara Cabral",
-          "pedidos": 14,
-          "positivacoes": 12,
-          "novos_skus": 109,
-          "faturamento": 35991.5,
-          "pontos_positivacao": 60,
-          "pontos_novos_skus": 436,
+          "pedidos": 15,
+          "positivacoes": 13,
+          "novos_skus": 110,
+          "faturamento": 36200.06,
+          "pontos_positivacao": 65,
+          "pontos_novos_skus": 440,
           "pontos_pedidos_valor": 27,
-          "pontos_total": 523,
+          "pontos_total": 532,
           "vendas": [
             {
               "numnota": "408264",
@@ -1538,6 +1538,31 @@ const CRUSOE_DATA = {
                   ]
                 }
               ]
+            },
+            {
+              "numnota": "414394",
+              "data": "21/07/2026",
+              "cliente": "A PARADA DA DUTRA LTDA",
+              "valor_pedido": 208.56,
+              "eventos": [
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC ATUM SOLIDO OLEO 24X170G",
+                  "qt": 1.0,
+                  "valor": 208.56,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -2434,7 +2459,7 @@ const CRUSOE_DATA = {
           "rca": 379,
           "vendedor": "Jorge Maciel",
           "clientes_gourmet": 0,
-          "faturamento": 7158.28,
+          "faturamento": 7299.88,
           "faturamento_gourmet": 0.0,
           "pontos_total": 0,
           "vendas": []
