@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "23/07/2026 10:22",
+  "atualizado_em": "23/07/2026 11:24",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -125640,7 +125640,7 @@ const VENDAS_DATA = {
         {
           "data": "09/04/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
           "fantasia": "HENNESSY",
           "qt": 4,
@@ -125651,7 +125651,7 @@ const VENDAS_DATA = {
         {
           "data": "09/04/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "CHANDON RESERVE BRUT ROSE 750ML",
           "fantasia": "HENNESSY",
           "qt": 4,
@@ -125662,7 +125662,7 @@ const VENDAS_DATA = {
         {
           "data": "09/04/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "PINATI DOUBLE BAR BRIGADEIRO 32X35G",
           "fantasia": "PINATI",
           "qt": 1,
@@ -125673,7 +125673,7 @@ const VENDAS_DATA = {
         {
           "data": "09/04/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "PINATI SWEET COCADINHA CHOCO BCO 24X14G",
           "fantasia": "PINATI",
           "qt": 1,
@@ -125684,7 +125684,7 @@ const VENDAS_DATA = {
         {
           "data": "09/04/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "PINATI NUTS COCO 20X30G",
           "fantasia": "PINATI",
           "qt": 1,
@@ -125695,7 +125695,7 @@ const VENDAS_DATA = {
         {
           "data": "09/04/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "PINATI SLIM WHEY BEIJINHO 16X35G",
           "fantasia": "PINATI",
           "qt": 1,
@@ -125706,7 +125706,7 @@ const VENDAS_DATA = {
         {
           "data": "09/04/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
           "fantasia": "ROBINSON CRUSOE",
           "qt": 1,
@@ -125717,7 +125717,7 @@ const VENDAS_DATA = {
         {
           "data": "09/04/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "RC PATE ATUM TRADICIONAL 12X80G",
           "fantasia": "ROBINSON CRUSOE",
           "qt": 1,
@@ -125728,7 +125728,7 @@ const VENDAS_DATA = {
         {
           "data": "09/04/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "PINATI SWEET COCADINHA CHOCO 24X14G",
           "fantasia": "PINATI",
           "qt": 1,
@@ -125739,7 +125739,7 @@ const VENDAS_DATA = {
         {
           "data": "09/04/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
           "fantasia": "ROBINSON CRUSOE",
           "qt": 1,
@@ -125750,7 +125750,7 @@ const VENDAS_DATA = {
         {
           "data": "29/04/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "VINHO LATITUD 33  CABERNET SAUVIGNON",
           "fantasia": "HENNESSY",
           "qt": 2,
@@ -125761,7 +125761,7 @@ const VENDAS_DATA = {
         {
           "data": "29/04/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "VINHO ALTOS DEL PLATA MALBEC 750 ML",
           "fantasia": "HENNESSY",
           "qt": 2,
@@ -125772,7 +125772,7 @@ const VENDAS_DATA = {
         {
           "data": "29/04/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
           "fantasia": "CASTAS",
           "qt": 1,
@@ -125783,7 +125783,7 @@ const VENDAS_DATA = {
         {
           "data": "29/04/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "AMARULA C LIQUEUR 750 ML + 1 COPO",
           "fantasia": "INTERFOOD",
           "qt": 6,
@@ -125794,7 +125794,7 @@ const VENDAS_DATA = {
         {
           "data": "29/04/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "LIQUEUR AMARULA RASBERRY 750 ML",
           "fantasia": "INTERFOOD",
           "qt": 2,
@@ -125805,7 +125805,7 @@ const VENDAS_DATA = {
         {
           "data": "29/04/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "VODKA ABSOLUT - 1 LITRO",
           "fantasia": "PERNOD",
           "qt": 6,
@@ -127523,7 +127523,7 @@ const VENDAS_DATA = {
         {
           "data": "19/05/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "ESPUMANTE ALUD ROSE 750ML",
           "fantasia": "CASTAS",
           "qt": 1,
@@ -127534,7 +127534,7 @@ const VENDAS_DATA = {
         {
           "data": "20/05/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "VILLA ROSA  ROSE 750ML",
           "fantasia": "CASTAS",
           "qt": 2,
@@ -127545,7 +127545,7 @@ const VENDAS_DATA = {
         {
           "data": "20/05/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "VILLA ROSA BRANCO 750ML",
           "fantasia": "CASTAS",
           "qt": 2,
@@ -127556,7 +127556,7 @@ const VENDAS_DATA = {
         {
           "data": "20/05/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "VILLA ROSA TINTO 750ML",
           "fantasia": "CASTAS",
           "qt": 2,
@@ -127567,7 +127567,7 @@ const VENDAS_DATA = {
         {
           "data": "20/05/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "VINHO GRAVEDAD SAUV. BLANC 750ML",
           "fantasia": "CASTAS",
           "qt": 2,
@@ -127578,7 +127578,7 @@ const VENDAS_DATA = {
         {
           "data": "20/05/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "VINHO GRAVEDAD CAB. SAUV.",
           "fantasia": "CASTAS",
           "qt": 2,
@@ -127589,7 +127589,7 @@ const VENDAS_DATA = {
         {
           "data": "20/05/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "VINHO VILLA ROSA FRISANTE BRANCO",
           "fantasia": "CASTAS",
           "qt": 2,
@@ -127600,7 +127600,7 @@ const VENDAS_DATA = {
         {
           "data": "20/05/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
           "fantasia": "CASTAS",
           "qt": 2,
@@ -127611,7 +127611,7 @@ const VENDAS_DATA = {
         {
           "data": "20/05/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "VINHO CAVAS DE ORO BLEND  ROSADO 750ML",
           "fantasia": "CASTAS",
           "qt": 2,
@@ -127622,7 +127622,7 @@ const VENDAS_DATA = {
         {
           "data": "20/05/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "VINHO CAVAS DE ORO CABERNET FRANC 750ML",
           "fantasia": "CASTAS",
           "qt": 2,
@@ -127633,7 +127633,7 @@ const VENDAS_DATA = {
         {
           "data": "20/05/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "VINHO CAVAS DE ORO MALBEC 750ML",
           "fantasia": "CASTAS",
           "qt": 2,
@@ -127644,7 +127644,7 @@ const VENDAS_DATA = {
         {
           "data": "20/05/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
           "fantasia": "CASTAS",
           "qt": 2,
@@ -127655,7 +127655,7 @@ const VENDAS_DATA = {
         {
           "data": "20/05/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "VINHO TTO BERTOLI CHIANTI DOCG 750ML",
           "fantasia": "CASTAS",
           "qt": 2,
@@ -127666,7 +127666,7 @@ const VENDAS_DATA = {
         {
           "data": "20/05/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
           "fantasia": "CASTAS",
           "qt": 2,
@@ -127677,7 +127677,7 @@ const VENDAS_DATA = {
         {
           "data": "20/05/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
           "fantasia": "CASTAS",
           "qt": 2,
@@ -127688,7 +127688,7 @@ const VENDAS_DATA = {
         {
           "data": "20/05/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
           "fantasia": "RECKITT",
           "qt": 2,
@@ -127699,7 +127699,7 @@ const VENDAS_DATA = {
         {
           "data": "20/05/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
           "fantasia": "RECKITT",
           "qt": 1,
@@ -127710,7 +127710,7 @@ const VENDAS_DATA = {
         {
           "data": "20/05/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
           "fantasia": "RECKITT",
           "qt": 1,
@@ -127721,7 +127721,7 @@ const VENDAS_DATA = {
         {
           "data": "20/05/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "HARPIC CX ACOPLADA  1UN MARINE 24X50G",
           "fantasia": "RECKITT",
           "qt": 1,
@@ -127732,7 +127732,7 @@ const VENDAS_DATA = {
         {
           "data": "20/05/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "VEJA COZINHA SACHET LARANJA 12X400ML",
           "fantasia": "RECKITT",
           "qt": 1,
@@ -127743,7 +127743,7 @@ const VENDAS_DATA = {
         {
           "data": "20/05/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -127754,7 +127754,7 @@ const VENDAS_DATA = {
         {
           "data": "20/05/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -127765,7 +127765,7 @@ const VENDAS_DATA = {
         {
           "data": "20/05/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
           "fantasia": "CASTAS",
           "qt": 1,
@@ -127776,7 +127776,7 @@ const VENDAS_DATA = {
         {
           "data": "20/05/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
           "fantasia": "TATUZINHO",
           "qt": 1,
@@ -127787,7 +127787,7 @@ const VENDAS_DATA = {
         {
           "data": "20/05/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "WHISKY PASSPORT 1L",
           "fantasia": "PERNOD",
           "qt": 3,
@@ -127798,7 +127798,7 @@ const VENDAS_DATA = {
         {
           "data": "20/05/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "VINHO CAVAS DE ORO CABERNET SAUV 750ML",
           "fantasia": "CASTAS",
           "qt": 6,
@@ -127809,7 +127809,7 @@ const VENDAS_DATA = {
         {
           "data": "20/05/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "VINHO FOODKILLER CAB. SAUV. 750ML",
           "fantasia": "CASTAS",
           "qt": 2,
@@ -127820,7 +127820,7 @@ const VENDAS_DATA = {
         {
           "data": "20/05/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "VINHO FOODKILLER CAB. SAUV./ MERLOT",
           "fantasia": "CASTAS",
           "qt": 2,
@@ -127831,7 +127831,7 @@ const VENDAS_DATA = {
         {
           "data": "20/05/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "VINHO FOODKILLER CARMENERE 750ML",
           "fantasia": "CASTAS",
           "qt": 2,
@@ -127842,7 +127842,7 @@ const VENDAS_DATA = {
         {
           "data": "20/05/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "ESPUMANTE ALUD BRANCO 750ML",
           "fantasia": "CASTAS",
           "qt": 2,
@@ -127853,7 +127853,7 @@ const VENDAS_DATA = {
         {
           "data": "20/05/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "ESPUMANTE ALUD ROSE 750ML",
           "fantasia": "CASTAS",
           "qt": 2,
@@ -127864,7 +127864,7 @@ const VENDAS_DATA = {
         {
           "data": "20/05/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "VINHO VILLA ROSA FRISANTE ROSE",
           "fantasia": "CASTAS",
           "qt": 2,
@@ -127875,7 +127875,7 @@ const VENDAS_DATA = {
         {
           "data": "20/05/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
           "fantasia": "CASTAS",
           "qt": 2,
@@ -129626,7 +129626,7 @@ const VENDAS_DATA = {
         {
           "data": "11/06/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "NOSSO CHOP RED DRAFT PET 12X600ML",
           "fantasia": "NOSSO CHOPE",
           "qt": 1,
@@ -129637,7 +129637,7 @@ const VENDAS_DATA = {
         {
           "data": "12/06/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "NOSSO CHOP RED DRAFT PET 12X600ML",
           "fantasia": "NOSSO CHOPE",
           "qt": 2,
@@ -129648,7 +129648,7 @@ const VENDAS_DATA = {
         {
           "data": "12/06/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
           "fantasia": "RECKITT",
           "qt": 1,
@@ -129659,7 +129659,7 @@ const VENDAS_DATA = {
         {
           "data": "12/06/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
           "fantasia": "RECKITT",
           "qt": 1,
@@ -129670,7 +129670,7 @@ const VENDAS_DATA = {
         {
           "data": "12/06/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
           "fantasia": "RECKITT",
           "qt": 1,
@@ -129681,7 +129681,7 @@ const VENDAS_DATA = {
         {
           "data": "12/06/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "KIT VANISH LIQ PINK1,5L+WHITE 1,5L 50%",
           "fantasia": "RECKITT",
           "qt": 1,
@@ -129692,7 +129692,7 @@ const VENDAS_DATA = {
         {
           "data": "12/06/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "VEJA MULTIUSO/1BAN/1COZ PACK C/3 24X500M",
           "fantasia": "RECKITT",
           "qt": 1,
@@ -133865,7 +133865,7 @@ const VENDAS_DATA = {
         {
           "data": "06/07/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "CONHAQUE DREHER 900ML",
           "fantasia": "CAMPARI",
           "qt": 12,
@@ -133876,7 +133876,7 @@ const VENDAS_DATA = {
         {
           "data": "06/07/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
           "fantasia": "CASA PERINI",
           "qt": 3,
@@ -133887,7 +133887,7 @@ const VENDAS_DATA = {
         {
           "data": "06/07/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "ESPUM CASA PERINI DEMI-SEC 750ML",
           "fantasia": "CASA PERINI",
           "qt": 3,
@@ -133898,7 +133898,7 @@ const VENDAS_DATA = {
         {
           "data": "06/07/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
           "fantasia": "CASA PERINI",
           "qt": 3,
@@ -133909,7 +133909,7 @@ const VENDAS_DATA = {
         {
           "data": "06/07/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
           "fantasia": "CASA PERINI",
           "qt": 3,
@@ -133920,7 +133920,7 @@ const VENDAS_DATA = {
         {
           "data": "06/07/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "ESPUM CASA PERINI BRUT 750ML",
           "fantasia": "CASA PERINI",
           "qt": 3,
@@ -133931,7 +133931,7 @@ const VENDAS_DATA = {
         {
           "data": "06/07/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "ESPUM CASA PERINI PROSECCO 750ML",
           "fantasia": "CASA PERINI",
           "qt": 3,
@@ -133942,7 +133942,7 @@ const VENDAS_DATA = {
         {
           "data": "06/07/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "CACHACA VELHO BARREIRO 910 ML",
           "fantasia": "TATUZINHO",
           "qt": 12,
@@ -133953,7 +133953,7 @@ const VENDAS_DATA = {
         {
           "data": "06/07/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
           "fantasia": "FANTE",
           "qt": 12,
@@ -133964,7 +133964,7 @@ const VENDAS_DATA = {
         {
           "data": "06/07/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
           "fantasia": "RECKITT",
           "qt": 1,
@@ -133975,7 +133975,7 @@ const VENDAS_DATA = {
         {
           "data": "06/07/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "VANISH LIQUIDO PINK REFIL 12X500ML",
           "fantasia": "RECKITT",
           "qt": 1,
@@ -133986,7 +133986,7 @@ const VENDAS_DATA = {
         {
           "data": "06/07/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
           "fantasia": "HENNESSY",
           "qt": 3,
@@ -133997,7 +133997,7 @@ const VENDAS_DATA = {
         {
           "data": "06/07/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "CHANDON RESERVE BRUT ROSE 750ML",
           "fantasia": "HENNESSY",
           "qt": 3,
@@ -134008,7 +134008,7 @@ const VENDAS_DATA = {
         {
           "data": "06/07/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "CHANDON PASSION ON ICE 750 ML",
           "fantasia": "HENNESSY",
           "qt": 2,
@@ -134019,7 +134019,7 @@ const VENDAS_DATA = {
         {
           "data": "06/07/2026",
           "codcli": "3717",
-          "cliente": "MULTI-FRUTI SANTA CLARA LTDA-ME",
+          "cliente": "MULTI-FRUTI SANTA CLARA LTDA",
           "produto": "CHANDON GARDEN SPRITZ 750 ML",
           "fantasia": "HENNESSY",
           "qt": 2,
@@ -343753,95 +343753,7 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
-          "data": "08/07/2026",
-          "codcli": "84031",
-          "cliente": "ROYAL CENTER COMERCIAL LTDA",
-          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 3,
-          "valor": 246.09,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "08/07/2026",
-          "codcli": "84031",
-          "cliente": "ROYAL CENTER COMERCIAL LTDA",
-          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 5,
-          "valor": 410.15,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "08/07/2026",
-          "codcli": "84031",
-          "cliente": "ROYAL CENTER COMERCIAL LTDA",
-          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 3,
-          "valor": 246.09,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "08/07/2026",
-          "codcli": "84031",
-          "cliente": "ROYAL CENTER COMERCIAL LTDA",
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "fantasia": "TATUZINHO",
-          "qt": 3,
-          "valor": 246.09,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "08/07/2026",
-          "codcli": "84031",
-          "cliente": "ROYAL CENTER COMERCIAL LTDA",
-          "produto": "MOVING BOOSTER LIMAO 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 303.6,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "08/07/2026",
-          "codcli": "84031",
-          "cliente": "ROYAL CENTER COMERCIAL LTDA",
-          "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 3,
-          "valor": 246.09,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "08/07/2026",
-          "codcli": "84031",
-          "cliente": "ROYAL CENTER COMERCIAL LTDA",
-          "produto": "AGUA NA CAIXA 12X330ML",
-          "fantasia": "AGUA NA CAIXA",
-          "qt": 3,
-          "valor": 100.5,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "08/07/2026",
-          "codcli": "84031",
-          "cliente": "ROYAL CENTER COMERCIAL LTDA",
-          "produto": "AGUA NA CAIXA 12X500ML",
-          "fantasia": "AGUA NA CAIXA",
-          "qt": 3,
-          "valor": 107.7,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "08/07/2026",
+          "data": "23/07/2026",
           "codcli": "84031",
           "cliente": "ROYAL CENTER COMERCIAL LTDA",
           "produto": "CACHACA JOIA DA SERRA OURO 1L",
@@ -343852,7 +343764,7 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
-          "data": "08/07/2026",
+          "data": "23/07/2026",
           "codcli": "84031",
           "cliente": "ROYAL CENTER COMERCIAL LTDA",
           "produto": "WHISKY JIM BEAM WHITE 1L",
@@ -343863,7 +343775,7 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
-          "data": "08/07/2026",
+          "data": "23/07/2026",
           "codcli": "84031",
           "cliente": "ROYAL CENTER COMERCIAL LTDA",
           "produto": "WHISKY SUNTORY CHITA 700ML",
@@ -343874,13 +343786,90 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
-          "data": "08/07/2026",
+          "data": "23/07/2026",
           "codcli": "84031",
           "cliente": "ROYAL CENTER COMERCIAL LTDA",
           "produto": "WHISKY ESC MACALLAN DOUBLE 12 YO 700ML",
           "fantasia": "BEAM SUNTORY",
           "qt": 2,
           "valor": 1338.0,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "84031",
+          "cliente": "ROYAL CENTER COMERCIAL LTDA",
+          "produto": "MOVING BOOSTER LIMAO 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 303.6,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "84031",
+          "cliente": "ROYAL CENTER COMERCIAL LTDA",
+          "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 3,
+          "valor": 246.09,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "84031",
+          "cliente": "ROYAL CENTER COMERCIAL LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 5,
+          "valor": 410.15,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "84031",
+          "cliente": "ROYAL CENTER COMERCIAL LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 3,
+          "valor": 246.09,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "84031",
+          "cliente": "ROYAL CENTER COMERCIAL LTDA",
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 3,
+          "valor": 246.09,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "84031",
+          "cliente": "ROYAL CENTER COMERCIAL LTDA",
+          "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 3,
+          "valor": 246.09,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "84031",
+          "cliente": "ROYAL CENTER COMERCIAL LTDA",
+          "produto": "AGUA NA CAIXA 12X500ML",
+          "fantasia": "AGUA NA CAIXA",
+          "qt": 3,
+          "valor": 107.7,
           "tipo": "Venda",
           "offtrade": true
         },
@@ -660834,61 +660823,6 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
-          "data": "14/05/2026",
-          "codcli": "35114",
-          "cliente": "ORGANIZACOES PAIS FILHOS LTDA",
-          "produto": "AMARULA C LIQUEUR 750 ML",
-          "fantasia": "AURORA",
-          "qt": 4,
-          "valor": 439.6,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "14/05/2026",
-          "codcli": "35114",
-          "cliente": "ORGANIZACOES PAIS FILHOS LTDA",
-          "produto": "RUM MALIBU 750 ML",
-          "fantasia": "PERNOD",
-          "qt": 6,
-          "valor": 329.4,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "14/05/2026",
-          "codcli": "35114",
-          "cliente": "ORGANIZACOES PAIS FILHOS LTDA",
-          "produto": "RUM BACARDI CARTA BLANCA 980 ML",
-          "fantasia": "BACARDI",
-          "qt": 2,
-          "valor": 77.8,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "14/05/2026",
-          "codcli": "35114",
-          "cliente": "ORGANIZACOES PAIS FILHOS LTDA",
-          "produto": "WHISKY JACK DANIELS FIRE 700 ML",
-          "fantasia": "BROWN-FORMAN",
-          "qt": 3,
-          "valor": 299.7,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "14/05/2026",
-          "codcli": "35114",
-          "cliente": "ORGANIZACOES PAIS FILHOS LTDA",
-          "produto": "WHISKY JACK DANIELS 700 ML",
-          "fantasia": "BROWN-FORMAN",
-          "qt": 8,
-          "valor": 799.2,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
           "data": "20/05/2026",
           "codcli": "36902",
           "cliente": "EMPORIO GELADA LTDA",
@@ -661151,105 +661085,6 @@ const VENDAS_DATA = {
           "fantasia": "DIAGEO",
           "qt": 6,
           "valor": 1174.38,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "37752",
-          "cliente": "ORGANIZAÇOES PAIS & FILHOS LTDA",
-          "produto": "VINHO LATITUD 33 CABERNET SAUVIGNON",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 299.94,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "37752",
-          "cliente": "ORGANIZAÇOES PAIS & FILHOS LTDA",
-          "produto": "VINHO LATITUD 33 MALBEC TTO 750 ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 299.94,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "37752",
-          "cliente": "ORGANIZAÇOES PAIS & FILHOS LTDA",
-          "produto": "VINHO LATITUD 33 MALBEC ROSE",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 299.94,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "37752",
-          "cliente": "ORGANIZAÇOES PAIS & FILHOS LTDA",
-          "produto": "VINHO LATITUD 33 SAUVIGNON BLANC",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 299.94,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "38148",
-          "cliente": "ORGANIZACOES PAIS & FILHOS LTDA",
-          "produto": "VINHO LATITUD 33 CABERNET SAUVIGNON",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 299.94,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "38148",
-          "cliente": "ORGANIZACOES PAIS & FILHOS LTDA",
-          "produto": "VINHO LATITUD 33 MALBEC ROSE",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 299.94,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "38148",
-          "cliente": "ORGANIZACOES PAIS & FILHOS LTDA",
-          "produto": "VINHO LATITUD 33 SAUVIGNON BLANC",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 299.94,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "38148",
-          "cliente": "ORGANIZACOES PAIS & FILHOS LTDA",
-          "produto": "VINHO LATITUD 33 MALBEC TTO 750 ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 599.88,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "38148",
-          "cliente": "ORGANIZACOES PAIS & FILHOS LTDA",
-          "produto": "VINHO LATITUD 33 CHARDONNAY 750 ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 299.94,
           "tipo": "Venda",
           "offtrade": true
         }
