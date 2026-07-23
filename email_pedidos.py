@@ -291,6 +291,34 @@ def _construir_comparativo(cache: dict) -> list:
     df['QT']      = pd.to_numeric(df['QT'], errors='coerce').fillna(0)
     faturado_por_par = df.groupby(['CODCLI', 'CODPROD'])['QT'].sum().to_dict()
 
+    # Preenche campos que a extração (HTML/OCR) deixou em branco usando o
+    # cadastro do cliente no Oracle — o cod_cliente sozinho já é suficiente
+    # pra achar razão social/fantasia/CNPJ/RCA, sem depender de a imagem ter
+    # sido lida perfeitamente (algumas imagens vieram com essas células vazias
+    # na extração via OpenAI vision, mesmo sendo legíveis — confirmado em
+    # 2026-07-23 com 'PEDIDO PREÇOTIMO - ANGRA').
+    cliente_info = {}
+    try:
+        df_cli = carregar_dados(f"""
+            SELECT C.CODCLI, C.CLIENTE, COALESCE(C.FANTASIA, '') AS FANTASIA,
+                   COALESCE(C.CGCENT, '') AS CNPJ, C.CODUSUR1,
+                   COALESCE(U1.NOME, '') AS NOME_USUR1
+            FROM crc.PCCLIENT C
+            LEFT JOIN crc.PCUSUARI U1 ON C.CODUSUR1 = U1.CODUSUR
+            WHERE C.CODCLI IN ({codclis_sql})
+        """, engine, "comparativo_agendamento_clientes")
+        df_cli.columns = df_cli.columns.str.upper()
+        for _, r in df_cli.iterrows():
+            rca_txt = f"{int(r['CODUSUR1'])} - {r['NOME_USUR1']}".strip(' -') if pd.notna(r['CODUSUR1']) else ''
+            cliente_info[int(r['CODCLI'])] = {
+                'razao_social': str(r['CLIENTE'] or '').strip(),
+                'fantasia':     str(r['FANTASIA'] or '').strip(),
+                'cnpj':         str(r['CNPJ'] or '').strip(),
+                'rca':          rca_txt,
+            }
+    except Exception as e:
+        print(f"[AVISO] busca de cadastro de clientes (PCCLIENT) falhou ({str(e)[:100]}) — mantém só o que a extração leu.")
+
     resultado = []
     for msg_id, msg in cache.items():
         for bloco in msg.get('blocos', []):
@@ -314,16 +342,17 @@ def _construir_comparativo(cache: dict) -> list:
                 itens_out.append({**item, 'qt_faturada': qt_faturada, 'status': status_item})
             if not itens_out:
                 continue
+            fallback = cliente_info.get(cod_cli_num, {})
             resultado.append({
                 'msg_id':       msg_id,
                 'subject':      msg.get('subject', ''),
                 'data_email':   msg.get('data_email', ''),
                 'sistema':      bloco.get('sistema', ''),
                 'cod_cliente':  cod_cli_raw,
-                'razao_social': bloco.get('razao_social', ''),
-                'fantasia':     bloco.get('fantasia', ''),
-                'cnpj':         bloco.get('cnpj', ''),
-                'rca':          bloco.get('rca', ''),
+                'razao_social': bloco.get('razao_social') or fallback.get('razao_social', ''),
+                'fantasia':     bloco.get('fantasia') or fallback.get('fantasia', ''),
+                'cnpj':         bloco.get('cnpj') or fallback.get('cnpj', ''),
+                'rca':          bloco.get('rca') or fallback.get('rca', ''),
                 'bonificacao':  bool(bloco.get('bonificacao')),
                 'prazo':        bloco.get('prazo', ''),
                 'obs':          bloco.get('obs', ''),

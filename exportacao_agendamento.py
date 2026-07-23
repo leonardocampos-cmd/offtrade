@@ -66,11 +66,23 @@ def _merge_write(patch: dict):
         f.write(f"const AGENDAMENTO_DATA = {json.dumps(existing, ensure_ascii=False, indent=2)};\n")
 
 
+SHEETS = ['ANTIGO', 'NOVO']  # 'RCA' (lookup) e 'INFO' não são dados de agendamento
+
+
 def main():
     caminho = _bpd.com_fallback(_bpd.caminho_controle_agendamentos, _caminho_local_fallback())
-    df = pd.read_excel(caminho)
-    df.columns = [str(c).strip().upper() for c in df.columns]
-    print(f"Colunas lidas: {df.columns.tolist()}")
+
+    # O arquivo tem 4 abas — ANTIGO e NOVO são conjuntos de dados diferentes,
+    # sem NFs em comum (não é uma sobrescrevendo a outra), então as duas
+    # precisam ser lidas e somadas pra não perder ~875 linhas CRC-4 que só
+    # existem na aba NOVO (confirmado em 2026-07-23: 0 NF em comum entre elas).
+    partes = []
+    for sheet in SHEETS:
+        df_sheet = pd.read_excel(caminho, sheet_name=sheet)
+        df_sheet.columns = [str(c).strip().upper() for c in df_sheet.columns]
+        print(f"Aba '{sheet}': {len(df_sheet)} linha(s), colunas: {df_sheet.columns.tolist()}")
+        partes.append(df_sheet)
+    df = pd.concat(partes, ignore_index=True)
 
     df['_SISTEMA_NORM'] = df.get('SISTEMA', '').fillna('').astype(str).str.strip().str.upper()
     df_crc4 = df[df['_SISTEMA_NORM'] == 'CRC - 4'].copy()

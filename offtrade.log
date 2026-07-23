@@ -13984,3 +13984,7 @@ To https://github.com/leonardocampos-cmd/offtrade.git
 [AVISO] Já existe uma execução do pipeline em andamento (lock criado há 3844s) — abortando esta execução para não escrever em cima dela.
 [23/07/2026  9:00:01,12] OK 
 ---------------------------------------- 
+[23/07/2026 10:00:00,75] Iniciando... 
+[AVISO] Já existe uma execução do pipeline em andamento (lock criado há 7444s) — abortando esta execução para não escrever em cima dela.
+[23/07/2026 10:00:01,37] OK 
+---------------------------------------- 
