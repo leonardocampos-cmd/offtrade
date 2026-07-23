@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "23/07/2026 10:44",
+  "atualizado_em": "23/07/2026 12:12",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -140,19 +140,19 @@ const VENDAS_MG_DATA = {
         "fat_ant": 44089.13
       },
       "Mai/26": {
-        "fat": 35798.3,
-        "pos": 6,
+        "fat": 33852.6,
+        "pos": 5,
         "fat_ant": 200526.96
       },
       "Jun/26": {
-        "fat": 57054.36,
-        "pos": 5,
-        "fat_ant": 35798.3
+        "fat": 54054.96,
+        "pos": 3,
+        "fat_ant": 33852.6
       },
       "Jul/26": {
         "fat": 49642.35,
         "pos": 6,
-        "fat_ant": 57054.36
+        "fat_ant": 54054.96
       }
     },
     "LUIZ FERNANDO SALGADO": {
@@ -77975,56 +77975,6 @@ const VENDAS_MG_DATA = {
           "offtrade": true
         },
         {
-          "data": "14/05/2026",
-          "codcli": "35114",
-          "cliente": "ORGANIZACOES PAIS FILHOS LTDA",
-          "produto": "AMARULA C LIQUEUR 750 ML",
-          "fantasia": "AURORA",
-          "qt": 4,
-          "valor": 439.6,
-          "offtrade": true
-        },
-        {
-          "data": "14/05/2026",
-          "codcli": "35114",
-          "cliente": "ORGANIZACOES PAIS FILHOS LTDA",
-          "produto": "RUM MALIBU 750 ML",
-          "fantasia": "PERNOD",
-          "qt": 6,
-          "valor": 329.4,
-          "offtrade": true
-        },
-        {
-          "data": "14/05/2026",
-          "codcli": "35114",
-          "cliente": "ORGANIZACOES PAIS FILHOS LTDA",
-          "produto": "RUM BACARDI CARTA BLANCA 980 ML",
-          "fantasia": "BACARDI",
-          "qt": 2,
-          "valor": 77.8,
-          "offtrade": true
-        },
-        {
-          "data": "14/05/2026",
-          "codcli": "35114",
-          "cliente": "ORGANIZACOES PAIS FILHOS LTDA",
-          "produto": "WHISKY JACK DANIELS FIRE 700 ML",
-          "fantasia": "BROWN-FORMAN",
-          "qt": 3,
-          "valor": 299.7,
-          "offtrade": true
-        },
-        {
-          "data": "14/05/2026",
-          "codcli": "35114",
-          "cliente": "ORGANIZACOES PAIS FILHOS LTDA",
-          "produto": "WHISKY JACK DANIELS 700 ML",
-          "fantasia": "BROWN-FORMAN",
-          "qt": 8,
-          "valor": 799.2,
-          "offtrade": true
-        },
-        {
           "data": "18/05/2026",
           "codcli": "30530",
           "cliente": "DISTRIBUIDORA CAMPOS - BARBACENA LTDA",
@@ -78126,96 +78076,6 @@ const VENDAS_MG_DATA = {
         }
       ],
       "Jun/26": [
-        {
-          "data": "01/06/2026",
-          "codcli": "38148",
-          "cliente": "ORGANIZACOES PAIS & FILHOS LTDA",
-          "produto": "VINHO LATITUD 33 CABERNET SAUVIGNON",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 299.94,
-          "offtrade": true
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "38148",
-          "cliente": "ORGANIZACOES PAIS & FILHOS LTDA",
-          "produto": "VINHO LATITUD 33 MALBEC ROSE",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 299.94,
-          "offtrade": true
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "38148",
-          "cliente": "ORGANIZACOES PAIS & FILHOS LTDA",
-          "produto": "VINHO LATITUD 33 SAUVIGNON BLANC",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 299.94,
-          "offtrade": true
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "38148",
-          "cliente": "ORGANIZACOES PAIS & FILHOS LTDA",
-          "produto": "VINHO LATITUD 33 MALBEC TTO 750 ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 599.88,
-          "offtrade": true
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "38148",
-          "cliente": "ORGANIZACOES PAIS & FILHOS LTDA",
-          "produto": "VINHO LATITUD 33 CHARDONNAY 750 ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 299.94,
-          "offtrade": true
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "37752",
-          "cliente": "ORGANIZAÇOES PAIS & FILHOS LTDA",
-          "produto": "VINHO LATITUD 33 CABERNET SAUVIGNON",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 299.94,
-          "offtrade": true
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "37752",
-          "cliente": "ORGANIZAÇOES PAIS & FILHOS LTDA",
-          "produto": "VINHO LATITUD 33 MALBEC TTO 750 ML",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 299.94,
-          "offtrade": true
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "37752",
-          "cliente": "ORGANIZAÇOES PAIS & FILHOS LTDA",
-          "produto": "VINHO LATITUD 33 MALBEC ROSE",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 299.94,
-          "offtrade": true
-        },
-        {
-          "data": "01/06/2026",
-          "codcli": "37752",
-          "cliente": "ORGANIZAÇOES PAIS & FILHOS LTDA",
-          "produto": "VINHO LATITUD 33 SAUVIGNON BLANC",
-          "fantasia": "",
-          "qt": 6,
-          "valor": 299.94,
-          "offtrade": true
-        },
         {
           "data": "05/06/2026",
           "codcli": "30530",
