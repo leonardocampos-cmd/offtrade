@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "22/07/2026 12:40",
+  "atualizado_em": "23/07/2026 10:44",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -28,7 +28,8 @@ const VENDAS_ES_DATA = {
     "LUCAS LIMA": "265",
     "JOSIETH LIMA": "343",
     "CARLOS TERRA": "376",
-    "MARCELO DE SOUZA": "508"
+    "MARCELO DE SOUZA": "508",
+    "BRUNO COSMO": "458"
   },
   "resumo": {
     "JEAN MENEZES": {
@@ -409,6 +410,13 @@ const VENDAS_ES_DATA = {
       "Jun/26": {
         "fat": 1224.0,
         "pos": 2,
+        "fat_ant": 0.0
+      }
+    },
+    "BRUNO COSMO": {
+      "Jul/26": {
+        "fat": 397.46,
+        "pos": 1,
         "fat_ant": 0.0
       }
     }
@@ -99954,6 +99962,30 @@ const VENDAS_ES_DATA = {
           "fantasia": "PINATI",
           "qt": 10,
           "valor": 408.0,
+          "offtrade": true
+        }
+      ]
+    },
+    "BRUNO COSMO": {
+      "Jul/26": [
+        {
+          "data": "22/07/2026",
+          "codcli": "84067",
+          "cliente": "C PEREIRA DE SOUZA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 162.96,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "84067",
+          "cliente": "C PEREIRA DE SOUZA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 1,
+          "valor": 234.5,
           "offtrade": true
         }
       ]
