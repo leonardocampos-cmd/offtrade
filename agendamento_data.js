@@ -24300,7 +24300,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "23/07/2026 12:09",
+  "atualizado_em": "23/07/2026 12:10",
   "comparativo": [
     {
       "msg_id": "19f8f0d0054f43bd",
@@ -24525,6 +24525,40 @@ const AGENDAMENTO_DATA = {
       ]
     },
     {
+      "msg_id": "19f8f5fedc09b5df",
+      "subject": "Re: pedido crc4 - CGX - MERCADO UNIDOS",
+      "data_email": "2026-07-23",
+      "sistema": "CRC - 04",
+      "cod_cliente": "83387",
+      "razao_social": "CGX COMERCIO DE ALIMENTOS LTDA",
+      "fantasia": "CGX COMERCIO DE ALIMENTOS",
+      "cnpj": "15.580.294/0001-45",
+      "rca": "379 - JORGE MACIEL - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "21 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "7702",
+          "descricao": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+          "qt": 89.9,
+          "preco": 6.0,
+          "total": 539.4,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "70",
+          "descricao": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "qt": 103.9,
+          "preco": 6.0,
+          "total": 623.4,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        }
+      ]
+    },
+    {
       "msg_id": "19f8b26374e0bcd7",
       "subject": "PEDIDO PREÇOTIMO - ANGRA",
       "data_email": "2026-07-22",
@@ -24648,8 +24682,8 @@ const AGENDAMENTO_DATA = {
           "qt": 2,
           "preco": 179.9,
           "total": 359.8,
-          "qt_faturada": 0.0,
-          "status": "Pendente"
+          "qt_faturada": 3.0,
+          "status": "Faturado"
         },
         {
           "cod_prod": "2614",
@@ -24657,8 +24691,8 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 29.9,
           "total": 358.8,
-          "qt_faturada": 0.0,
-          "status": "Pendente"
+          "qt_faturada": 18.0,
+          "status": "Faturado"
         }
       ]
     },
@@ -24682,8 +24716,8 @@ const AGENDAMENTO_DATA = {
           "qt": 1,
           "preco": 179.9,
           "total": 179.9,
-          "qt_faturada": 0.0,
-          "status": "Pendente"
+          "qt_faturada": 3.0,
+          "status": "Faturado"
         },
         {
           "cod_prod": "2614",
@@ -24691,8 +24725,8 @@ const AGENDAMENTO_DATA = {
           "qt": 6,
           "preco": 29.9,
           "total": 179.4,
-          "qt_faturada": 0.0,
-          "status": "Pendente"
+          "qt_faturada": 18.0,
+          "status": "Faturado"
         }
       ]
     },
@@ -24716,8 +24750,8 @@ const AGENDAMENTO_DATA = {
           "qt": 2,
           "preco": 179.9,
           "total": 359.8,
-          "qt_faturada": 0.0,
-          "status": "Pendente"
+          "qt_faturada": 3.0,
+          "status": "Faturado"
         },
         {
           "cod_prod": "2614",
@@ -24725,8 +24759,8 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 29.9,
           "total": 358.8,
-          "qt_faturada": 0.0,
-          "status": "Pendente"
+          "qt_faturada": 18.0,
+          "status": "Faturado"
         }
       ]
     },

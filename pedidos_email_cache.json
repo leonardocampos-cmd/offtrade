@@ -4956,5 +4956,41 @@
         ]
       }
     ]
+  },
+  "19f8f5fedc09b5df": {
+    "subject": "Re: pedido crc4 - CGX - MERCADO UNIDOS",
+    "data_email": "2026-07-23",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "83387",
+        "razao_social": "CGX COMERCIO DE ALIMENTOS LTDA",
+        "fantasia": "CGX COMERCIO DE ALIMENTOS",
+        "cnpj": "15.580.294/0001-45",
+        "praca": "GUADALUPE",
+        "forma_pg": "Boleto",
+        "rca": "379 - JORGE MACIEL - OFF TRADE",
+        "bonificacao": "false",
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "21 DIAS",
+        "itens": [
+          {
+            "cod_prod": "7702",
+            "descricao": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+            "qt": 89.9,
+            "preco": 6.0,
+            "total": 539.4
+          },
+          {
+            "cod_prod": "70",
+            "descricao": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+            "qt": 103.9,
+            "preco": 6.0,
+            "total": 623.4
+          }
+        ]
+      }
+    ]
   }
 }
