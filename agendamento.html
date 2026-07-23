@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <script src="auth.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agendamento CRC4</title>
+  <script src="agendamento_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --card2: #22263a;
+      --accent: #f5c518; --blue: #3b82f6; --text: #e2e8f0;
+      --muted: #94a3b8; --border: #2d3144; --green: #22c55e;
+      --red: #ef4444; --orange: #f97316;
+    }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh; padding: 16px;
+    }
+    header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 20px; padding-bottom: 16px;
+      border-bottom: 1px solid var(--border); gap: 12px; flex-wrap: wrap;
+    }
+    header h1 { font-size: 1.1rem; font-weight: 700; color: var(--accent); }
+    header p  { font-size: .8rem; color: var(--muted); margin-top: 3px; }
+    .kpis { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 16px; }
+    .kpi {
+      background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+      padding: 14px 18px; flex: 1; min-width: 160px;
+    }
+    .kpi .label {
+      font-size: .65rem; text-transform: uppercase; letter-spacing: .08em;
+      color: var(--muted); margin-bottom: 6px;
+    }
+    .kpi .val { font-size: 1.25rem; font-weight: 800; }
+    .tabs { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+    .tab-btn {
+      background: var(--card); border: 1px solid var(--border); color: var(--muted);
+      border-radius: 8px; padding: 9px 16px; font-size: .85rem; font-weight: 700;
+      cursor: pointer; font-family: inherit;
+    }
+    .tab-btn.active { background: var(--accent); color: #0f1117; border-color: var(--accent); }
+    .controls {
+      display: flex; gap: 10px; flex-wrap: wrap;
+      margin-bottom: 16px; align-items: center;
+    }
+    select, input[type=text] {
+      background: var(--card); border: 1px solid var(--border);
+      color: var(--text); border-radius: 8px; padding: 8px 12px;
+      font-size: .88rem; outline: none; font-family: inherit;
+    }
+    select:focus, input[type=text]:focus { border-color: var(--blue); }
+    select { min-width: 220px; }
+    input[type=text] { min-width: 220px; }
+    .info { font-size: .8rem; color: var(--muted); margin-left: auto; }
+    .table-wrap { overflow-x: auto; border-radius: 10px; border: 1px solid var(--border); }
+    table { width: 100%; border-collapse: collapse; font-size: .82rem; }
+    thead th {
+      background: var(--card2); padding: 10px 12px; text-align: left;
+      font-size: .72rem; text-transform: uppercase; letter-spacing: .05em;
+      color: var(--muted); border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+    tbody tr.linha { border-bottom: 1px solid var(--border); cursor: pointer; }
+    tbody tr.linha:hover { background: var(--card2); }
+    tbody tr.linha-itens td { background: #14161f; padding: 0 12px 12px 34px; }
+    tbody tr.linha-itens.oculta { display: none; }
+    tbody td { padding: 9px 12px; vertical-align: middle; }
+    .cod { color: var(--muted); font-size: .78rem; font-family: monospace; }
+    .expand-icon { display: inline-block; width: 14px; color: var(--muted); }
+    .status-badge { display: inline-block; border-radius: 20px; padding: 2px 8px; font-size: .72rem; font-weight: 700; white-space: nowrap; }
+    .status-entregue   { background: rgba(34,197,94,.15);   color: var(--green); }
+    .status-faturado   { background: rgba(34,197,94,.15);   color: var(--green); }
+    .status-pendente   { background: rgba(249,115,22,.15);  color: var(--orange); }
+    .status-parcial    { background: rgba(59,130,246,.15);  color: var(--blue); }
+    .status-cancelado  { background: rgba(239,68,68,.15);   color: var(--red); }
+    .status-outro      { background: var(--card2); border: 1px solid var(--border); color: var(--text); }
+    .badge-bonificacao {
+      display: inline-block; background: rgba(245,197,24,.15); color: var(--accent);
+      border-radius: 20px; padding: 1px 8px; font-size: .68rem; font-weight: 700;
+    }
+    .itens-table { width: 100%; border-collapse: collapse; font-size: .78rem; margin-top: 6px; }
+    .itens-table th { text-align: left; color: var(--muted); font-weight: 600; padding: 4px 8px; white-space: normal; }
+    .itens-table td { padding: 4px 8px; color: var(--text); white-space: normal; }
+    .empty { text-align: center; padding: 48px; color: var(--muted); font-size: .9rem; }
+
+    @media (max-width: 640px) {
+      body { padding: 12px; }
+      .kpi { min-width: 130px; padding: 12px 14px; }
+      select { min-width: 150px; }
+      input[type=text] { min-width: 150px; }
+      table { font-size: .76rem; }
+      thead th, tbody td { padding: 8px 9px; }
+      .hide-mob { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>📅 AGENDAMENTO — CRC FILIAL 4</h1>
+    <p id="header-sub">—</p>
+  </div>
+  <a href="index.html" style="color:var(--muted);font-size:.8rem;text-decoration:none">← Painel</a>
+</header>
+
+<div class="kpis" id="kpis"></div>
+
+<div class="tabs" id="tabs"></div>
+
+<div class="controls" id="controls-agendamento">
+  <select id="sel-vendedor" onchange="aplicarFiltro()">
+    <option value="">Todos os Vendedores</option>
+  </select>
+  <select id="sel-status" onchange="aplicarFiltro()">
+    <option value="">Todos os Status</option>
+  </select>
+  <input type="text" id="busca" placeholder="Buscar por cliente, NF, CNPJ..." oninput="aplicarFiltro()">
+  <span class="info" id="info-count"></span>
+</div>
+
+<div class="table-wrap">
+  <table id="tabela-agendamentos">
+    <thead>
+      <tr>
+        <th class="hide-mob">Vendedor</th>
+        <th>Cliente</th>
+        <th class="hide-mob">CNPJ</th>
+        <th class="hide-mob">Filial</th>
+        <th>NF</th>
+        <th>Data Agend.</th>
+        <th>Status</th>
+        <th class="hide-mob">Status Logística</th>
+        <th>Valor</th>
+      </tr>
+    </thead>
+    <tbody id="tbody-agendamentos"></tbody>
+  </table>
+
+  <table id="tabela-comparativo" style="display:none">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Data E-mail</th>
+        <th class="hide-mob">RCA</th>
+        <th>Cliente</th>
+        <th class="hide-mob">Cód. Cliente</th>
+        <th>Tipo</th>
+        <th>Itens</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody id="tbody-comparativo"></tbody>
+  </table>
+</div>
+
+<script>
+const DATA = typeof AGENDAMENTO_DATA !== 'undefined' ? AGENDAMENTO_DATA : null;
+
+let _abaAtual = 'agendamentos';
+let _expandidos = new Set();
+
+function _esc(s) {
+  return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function _fmtMoeda(v) {
+  return (Number(v) || 0).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+}
+
+function _statusBadge(status) {
+  const s = (status || '').toUpperCase();
+  const map = {
+    'ENTREGUE': 'status-entregue', 'FATURADO': 'status-faturado',
+    'PENDENTE': 'status-pendente', 'PARCIAL': 'status-parcial',
+    'CANCELADA': 'status-cancelado', 'CANCELADO': 'status-cancelado',
+  };
+  const cls = map[s] || 'status-outro';
+  return status ? `<span class="status-badge ${cls}">${_esc(status)}</span>` : '<span class="cod">—</span>';
+}
+
+if (!DATA) {
+  document.getElementById('tbody-agendamentos').innerHTML =
+    '<tr><td colspan="9" class="empty">Dados não encontrados. Execute exportacao_agendamento.py / email_pedidos.py.</td></tr>';
+} else {
+  document.getElementById('header-sub').textContent = 'Atualizado ' + DATA.atualizado_em;
+  montarKpis();
+  montarTabs();
+  montarFiltros();
+  aplicarFiltro();
+}
+
+function montarKpis() {
+  const itensAgend = _itensAgendamentoFlat();
+  const comparativo = DATA.comparativo || [];
+  const pendentes = comparativo.filter(p => _piorStatus(p.itens) !== 'Faturado').length;
+  const totalAgendado = itensAgend.reduce((acc, i) => acc + (Number(i.valor) || 0), 0);
+
+  document.getElementById('kpis').innerHTML = `
+    <div class="kpi"><div class="label">Registros na Planilha</div><div class="val">${itensAgend.length}</div></div>
+    <div class="kpi"><div class="label">Valor Agendado</div><div class="val">${_fmtMoeda(totalAgendado)}</div></div>
+    <div class="kpi"><div class="label">Pedidos por E-mail</div><div class="val">${comparativo.length}</div></div>
+    <div class="kpi"><div class="label">Pendentes/Parciais</div><div class="val" style="color:var(--orange)">${pendentes}</div></div>
+  `;
+}
+
+function montarTabs() {
+  const nAgend = (DATA.agendamentos || []).reduce((acc, v) => acc + v.itens.length, 0);
+  const nComp  = (DATA.comparativo || []).length;
+  document.getElementById('tabs').innerHTML = `
+    <button class="tab-btn ${_abaAtual === 'agendamentos' ? 'active' : ''}" onclick="trocarAba('agendamentos')">Planilha de Agendamento (${nAgend})</button>
+    <button class="tab-btn ${_abaAtual === 'comparativo' ? 'active' : ''}" onclick="trocarAba('comparativo')">Pedidos por E-mail × Faturado (${nComp})</button>
+  `;
+  document.getElementById('tabela-agendamentos').style.display = _abaAtual === 'agendamentos' ? '' : 'none';
+  document.getElementById('tabela-comparativo').style.display  = _abaAtual === 'comparativo'  ? '' : 'none';
+}
+
+function trocarAba(chave) {
+  _abaAtual = chave;
+  _expandidos.clear();
+  montarTabs();
+  montarFiltros();
+  aplicarFiltro();
+}
+
+function _itensAgendamentoFlat() {
+  const out = [];
+  (DATA.agendamentos || []).forEach(v => {
+    v.itens.forEach(i => out.push({ ...i, vendedor: v.nome }));
+  });
+  return out;
+}
+
+function montarFiltros() {
+  const selVend = document.getElementById('sel-vendedor');
+  const selStatus = document.getElementById('sel-status');
+
+  if (_abaAtual === 'agendamentos') {
+    const vendAtual = selVend.value;
+    selVend.innerHTML = '<option value="">Todos os Vendedores</option>';
+    (DATA.agendamentos || []).map(v => v.nome).sort().forEach(nome => {
+      const o = document.createElement('option');
+      o.value = nome; o.textContent = nome;
+      if (nome === vendAtual) o.selected = true;
+      selVend.appendChild(o);
+    });
+
+    const statusAtual = selStatus.value;
+    selStatus.innerHTML = '<option value="">Todos os Status</option>';
+    [...new Set(_itensAgendamentoFlat().map(i => i.status).filter(Boolean))].sort().forEach(s => {
+      const o = document.createElement('option');
+      o.value = s; o.textContent = s;
+      if (s === statusAtual) o.selected = true;
+      selStatus.appendChild(o);
+    });
+    selVend.style.display = '';
+    selStatus.style.display = '';
+  } else {
+    const rcaAtual = selVend.value;
+    selVend.innerHTML = '<option value="">Todos os RCAs</option>';
+    [...new Set((DATA.comparativo || []).map(p => p.rca).filter(Boolean))].sort().forEach(r => {
+      const o = document.createElement('option');
+      o.value = r; o.textContent = r;
+      if (r === rcaAtual) o.selected = true;
+      selVend.appendChild(o);
+    });
+
+    const statusAtual = selStatus.value;
+    selStatus.innerHTML = '<option value="">Todos os Status</option><option value="Pendente">Pendente</option><option value="Parcial">Parcial</option><option value="Faturado">Faturado</option>';
+    if (['Pendente', 'Parcial', 'Faturado'].includes(statusAtual)) selStatus.value = statusAtual;
+  }
+}
+
+function _piorStatus(itens) {
+  if (itens.some(i => i.status === 'Pendente')) return 'Pendente';
+  if (itens.some(i => i.status === 'Parcial')) return 'Parcial';
+  return 'Faturado';
+}
+
+function aplicarFiltro() {
+  const busca = document.getElementById('busca').value.trim().toLowerCase();
+  const vend = document.getElementById('sel-vendedor').value;
+  const status = document.getElementById('sel-status').value;
+
+  if (_abaAtual === 'agendamentos') {
+    let itens = _itensAgendamentoFlat();
+    if (vend) itens = itens.filter(i => i.vendedor === vend);
+    if (status) itens = itens.filter(i => i.status === status);
+    if (busca) {
+      itens = itens.filter(i =>
+        (i.cliente || '').toLowerCase().includes(busca) ||
+        (i.nf || '').toLowerCase().includes(busca) ||
+        (i.cnpj || '').toLowerCase().includes(busca)
+      );
+    }
+    itens.sort((a, b) => (b.data_ord || '').localeCompare(a.data_ord || ''));
+    renderAgendamentos(itens);
+  } else {
+    let pedidos = DATA.comparativo || [];
+    if (vend) pedidos = pedidos.filter(p => p.rca === vend);
+    if (status) pedidos = pedidos.filter(p => _piorStatus(p.itens) === status);
+    if (busca) {
+      pedidos = pedidos.filter(p =>
+        (p.razao_social || '').toLowerCase().includes(busca) ||
+        (p.fantasia || '').toLowerCase().includes(busca) ||
+        (p.cnpj || '').toLowerCase().includes(busca) ||
+        (p.cod_cliente || '').toLowerCase().includes(busca)
+      );
+    }
+    renderComparativo(pedidos);
+  }
+}
+
+function renderAgendamentos(itens) {
+  document.getElementById('info-count').textContent = `${itens.length} registro(s)`;
+  const tbody = document.getElementById('tbody-agendamentos');
+  if (!itens.length) {
+    tbody.innerHTML = '<tr><td colspan="9" class="empty">Nenhum registro encontrado.</td></tr>';
+    return;
+  }
+  tbody.innerHTML = itens.map(i => `
+    <tr class="linha">
+      <td class="hide-mob">${_esc(i.vendedor)}</td>
+      <td>${_esc(i.cliente)}</td>
+      <td class="hide-mob cod">${_esc(i.cnpj)}</td>
+      <td class="hide-mob">${_esc(i.filial)}</td>
+      <td class="cod">${_esc(i.nf)}</td>
+      <td>${_esc(i.data_agendamento)}</td>
+      <td>${_statusBadge(i.status)}</td>
+      <td class="hide-mob">${_statusBadge(i.status_logistica)}</td>
+      <td>${_fmtMoeda(i.valor)}</td>
+    </tr>
+  `).join('');
+}
+
+function renderComparativo(pedidos) {
+  document.getElementById('info-count').textContent = `${pedidos.length} pedido(s)`;
+  const tbody = document.getElementById('tbody-comparativo');
+  if (!pedidos.length) {
+    tbody.innerHTML = '<tr><td colspan="8" class="empty">Nenhum pedido por e-mail encontrado.</td></tr>';
+    return;
+  }
+  tbody.innerHTML = pedidos.map((p, idx) => {
+    const chave = p.msg_id + '_' + idx;
+    const aberto = _expandidos.has(chave);
+    const statusGeral = _piorStatus(p.itens);
+    const linhaItens = `
+      <tr class="linha-itens ${aberto ? '' : 'oculta'}" id="itens-${chave}">
+        <td colspan="8">
+          <table class="itens-table">
+            <thead><tr><th>Cód.</th><th>Descrição</th><th>Qtd. Pedida</th><th>Qtd. Faturada</th><th>Status</th></tr></thead>
+            <tbody>
+              ${p.itens.map(it => `
+                <tr>
+                  <td class="cod">${_esc(it.cod_prod)}</td>
+                  <td>${_esc(it.descricao)}</td>
+                  <td>${_esc(it.qt)}</td>
+                  <td>${_esc(it.qt_faturada)}</td>
+                  <td>${_statusBadge(it.status)}</td>
+                </tr>
+              `).join('')}
+            </tbody>
+          </table>
+          ${p.obs ? `<div style="margin-top:6px;color:var(--muted);font-size:.78rem">Obs: ${_esc(p.obs)}</div>` : ''}
+        </td>
+      </tr>
+    `;
+    return `
+      <tr class="linha" onclick="toggleItens('${chave}')">
+        <td><span class="expand-icon">${aberto ? '▾' : '▸'}</span></td>
+        <td>${_esc(p.data_email)}</td>
+        <td class="hide-mob">${_esc(p.rca)}</td>
+        <td>${_esc(p.fantasia || p.razao_social)}</td>
+        <td class="hide-mob cod">${_esc(p.cod_cliente)}</td>
+        <td>${p.bonificacao ? '<span class="badge-bonificacao">Bonificação</span>' : 'Pedido'}</td>
+        <td>${p.itens.length} item(ns)</td>
+        <td>${_statusBadge(statusGeral)}</td>
+      </tr>
+      ${linhaItens}
+    `;
+  }).join('');
+}
+
+function toggleItens(chave) {
+  if (_expandidos.has(chave)) _expandidos.delete(chave);
+  else _expandidos.add(chave);
+  aplicarFiltro();
+}
+</script>
+</body>
+</html>

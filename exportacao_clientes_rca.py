@@ -1,16 +1,32 @@
 """
 Gera clientes_rca_data.js com base de clientes por CODUSUR1 e CODUSUR2.
-Filtra apenas RCAs com NOME LIKE '%OFF TRADE%'.
+Filtra RCAs com NOME LIKE '%OFF TRADE%', 'W.S' exato, ou com '%INATIVO%'
+(clientes reatribuídos a um vendedor "estacionamento" tipo "INATIVO3" quando
+desativados/duplicados — sem esse filtro, ficavam invisíveis nessa página
+mesmo tendo sido clientes OFF TRADE no passado).
 """
 import json
 import pandas as pd
 from datetime import datetime, date
 from pathlib import Path
 import subprocess
-from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, carregar_dados
+from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, engine_mgon, carregar_dados
 
-def _query(schema):
+def _query(schema, incluir_inativo=True):
     s = schema.upper()
+    # GARRIDO sozinho tem ~34 mil clientes "INATIVO com histórico" (bem mais
+    # ruído que sinal útil, comparado a CRC/thekings/MGON/SPON) — excluído
+    # desse critério por decisão explícita (2026-07-22), mantém só OFF TRADE/W.S.
+    clausula_inativo = f"""
+           OR (
+                (U1.NOME LIKE '%INATIVO%' OR U2.NOME LIKE '%INATIVO%')
+                AND EXISTS (
+                    SELECT 1 FROM {s}.PCMOV M
+                    WHERE M.CODCLI = C.CODCLI AND M.CODOPER = 'S'
+                      AND M.NUMNOTADEV IS NULL AND M.DTCANCEL IS NULL
+                )
+              )
+    """ if incluir_inativo else ""
     return f"""
         SELECT
             C.CODCLI,
@@ -35,21 +51,23 @@ def _query(schema):
         LEFT JOIN {s}.PCREDECLIENTE R  ON C.CODREDE  = R.CODREDE
         WHERE (U1.NOME LIKE '%OFF TRADE%' OR U2.NOME LIKE '%OFF TRADE%'
                OR U1.NOME = 'W.S' OR U2.NOME = 'W.S')
+           {clausula_inativo}
     """
 
 
 _sources = [
-    ("CRC",     engine,         None),
-    ("thekings",engine_theking, None),
-    ("CASTAS",  engine_castas,  None),
-    ("GARRIDO", engine_garrido, None),
-    ("SPON",    engine_spon,    None),
+    ("CRC",     engine,         True),
+    ("thekings",engine_theking, True),
+    ("CASTAS",  engine_castas,  True),
+    ("GARRIDO", engine_garrido, False),
+    ("SPON",    engine_spon,    True),
+    ("MGON",    engine_mgon,    True),
 ]
 
 parts = []
-for schema, eng, _ in _sources:
+for schema, eng, incluir_inativo in _sources:
     try:
-        df = carregar_dados(_query(schema), eng, f"clientes_{schema}")
+        df = carregar_dados(_query(schema, incluir_inativo), eng, f"clientes_{schema}")
         df['_SRC'] = schema
         parts.append(df)
     except Exception as ex:

@@ -42,6 +42,7 @@ PIPELINE_FILES = [
     "envio_whatsapp.py",
     "report_diario_vendedor.py",
     "alerta_logistica_rj.py",
+    "email_pedidos.py",
     "baixar_planilhas_drive.py",
     "campanha_crusoe.py",
     "requirements.txt",
@@ -59,6 +60,7 @@ CREDENTIAL_FILES = [
 SEED_STATE_FILES = [
     "pedidos_enviados.json",
     "alertas_rj.json",
+    "pedidos_email_cache.json",
 ]
 
 

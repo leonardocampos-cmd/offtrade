@@ -137,6 +137,10 @@ def caminho_metas_sp() -> Path:
     return baixar_arquivo("METAS SP.xlsx")
 
 
+def caminho_controle_agendamentos() -> Path:
+    return baixar_arquivo("CONTROLE AGENDAMENTOS.xlsx")
+
+
 def caminho_tabela_preco_rj() -> Path:
     return baixar_arquivo("TABELA DE PREÇO RJ.xlsx")
 

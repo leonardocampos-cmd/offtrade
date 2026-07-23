@@ -172,6 +172,36 @@ def main():
             print("[AVISO] pedidos falhou — pedidos_data.js não será atualizado, pipeline continua.")
             traceback.print_exc()
 
+        step("5c - Agendamento CRC4: planilha (agendamento_data.js)")
+        try:
+            import subprocess, sys as _sys
+            result = subprocess.run(
+                [_sys.executable, "exportacao_agendamento.py"],
+                capture_output=True, text=True, timeout=600
+            )
+            print(result.stdout)
+            if result.returncode != 0:
+                print("[AVISO] exportacao_agendamento falhou — ignorado, pipeline continua.")
+                print(result.stderr)
+        except Exception:
+            print("[AVISO] exportacao_agendamento falhou — ignorado, pipeline continua.")
+            traceback.print_exc()
+
+        step("5d - Agendamento CRC4: pedidos por e-mail x faturado (agendamento_data.js)")
+        try:
+            import subprocess, sys as _sys
+            result = subprocess.run(
+                [_sys.executable, "email_pedidos.py"],
+                capture_output=True, text=True, timeout=600
+            )
+            print(result.stdout)
+            if result.returncode != 0:
+                print("[AVISO] email_pedidos falhou — ignorado, pipeline continua.")
+                print(result.stderr)
+        except Exception:
+            print("[AVISO] email_pedidos falhou — ignorado, pipeline continua.")
+            traceback.print_exc()
+
         step("6/8 - Exportando dashboard SP (vendas_sp_data.js)")
         try:
             import subprocess, sys as _sys

@@ -13979,3 +13979,8 @@ OK cadastros_spon carregada!
  1 file changed, 1076 insertions(+), 232 deletions(-)
 To https://github.com/leonardocampos-cmd/offtrade.git
    dcbd8e35..718d08d7  master -> master
+[23/07/2026  7:55:45,38] Iniciando... 
+[23/07/2026  9:00:00,67] Iniciando... 
+[AVISO] Já existe uma execução do pipeline em andamento (lock criado há 3844s) — abortando esta execução para não escrever em cima dela.
+[23/07/2026  9:00:01,12] OK 
+---------------------------------------- 
