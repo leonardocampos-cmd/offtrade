@@ -59,6 +59,17 @@ def _norm_sistema(s: str) -> str:
     return re.sub(r'[^A-Z0-9]', '', str(s or '').upper())
 
 
+def _to_bool(v) -> bool:
+    """A OpenAI vision (response_format=json_object, sem schema estrito) às
+    vezes devolve booleanos como string ('false'/'true') em vez de JSON real
+    — bool('false') é True em Python (string não-vazia), o que inverteu
+    'bonificacao' de 66 dos 89 pedidos no comparativo (bug confirmado em
+    2026-07-23). Trata string explicitamente antes de cair no bool() padrão."""
+    if isinstance(v, str):
+        return v.strip().lower() == 'true'
+    return bool(v)
+
+
 # ── Autenticação Gmail (mesmo padrão de alerta_logistica_rj.py) ───────────────
 
 def _get_service():
@@ -213,23 +224,27 @@ _PROMPT_IMAGEM = """Esta imagem é um formulário de pedido de bebidas de um RCA
 Extraia os campos em JSON, respondendo APENAS o JSON (sem texto extra), no formato:
 
 {
-  "sistema": "o código do sistema/filial, ex: 'CRC - 04'. O cabeçalho/título do formulário
-    varia ('SELECIONE O SISTEMA: CRC - 04', 'BONIFICAÇÃO CRC - 04', 'PEDIDO CRC - 04', etc)
-    — em qualquer caso, extraia só a parte 'CRC - 04' (empresa + número), ignorando as
-    palavras ao redor (SELECIONE O SISTEMA / BONIFICAÇÃO / PEDIDO não fazem parte do código)",
+  "sistema": "o código do sistema/filial, ex: 'CRC - 04'",
   "cod_cliente": "número em COD CLIENTE",
   "razao_social": "...", "fantasia": "...", "cnpj": "...",
   "praca": "...", "forma_pg": "...", "rca": "código e nome em RCA",
-  "bonificacao": "true SOMENTE se o título/cabeçalho do formulário contiver a palavra
-    'BONIFICAÇÃO' (ex: 'BONIFICAÇÃO CRC - XX'), OU se o campo 'BONIFICAÇÃO ?' contiver
-    explicitamente o texto 'Sim'. Se o cabeçalho for 'SELECIONE O SISTEMA' ou 'PEDIDO CRC'
-    e o campo 'BONIFICAÇÃO ?' estiver em branco/vazio, é false (pedido normal) — campo em
-    branco NUNCA deve virar true.",
+  "bonificacao": true,
   "tipo_segmento": "...", "obs": "texto do campo OBS", "prazo": "texto do campo PRAZO",
   "itens": [{"cod_prod": "...", "descricao": "...", "qt": numero, "preco": numero, "total": numero}]
 }
 
-Ignore linhas da tabela de itens vazias (sem código ou só "-")."""
+Regras importantes:
+- "sistema": o cabeçalho/título do formulário varia ('SELECIONE O SISTEMA: CRC - 04',
+  'BONIFICAÇÃO CRC - 04', 'PEDIDO CRC - 04', etc) — em qualquer caso, extraia só a parte
+  'CRC - 04' (empresa + número), ignorando as palavras ao redor (SELECIONE O SISTEMA /
+  BONIFICAÇÃO / PEDIDO não fazem parte do código).
+- "bonificacao": deve ser o booleano JSON `true` ou `false` (nunca string, nunca texto
+  explicativo). É `true` SOMENTE se o título/cabeçalho do formulário contiver a palavra
+  'BONIFICAÇÃO' (ex: 'BONIFICAÇÃO CRC - XX'), OU se o campo 'BONIFICAÇÃO ?' contiver
+  explicitamente o texto 'Sim'. Se o cabeçalho for 'SELECIONE O SISTEMA' ou 'PEDIDO CRC'
+  e o campo 'BONIFICAÇÃO ?' estiver em branco/vazio, é `false` (pedido normal) — campo em
+  branco NUNCA deve virar true.
+- Ignore linhas da tabela de itens vazias (sem código ou só "-")."""
 
 
 def _parse_imagem_pedido(png_bytes: bytes) -> dict | None:
@@ -353,7 +368,7 @@ def _construir_comparativo(cache: dict) -> list:
                 'fantasia':     bloco.get('fantasia') or fallback.get('fantasia', ''),
                 'cnpj':         bloco.get('cnpj') or fallback.get('cnpj', ''),
                 'rca':          bloco.get('rca') or fallback.get('rca', ''),
-                'bonificacao':  bool(bloco.get('bonificacao')),
+                'bonificacao':  _to_bool(bloco.get('bonificacao')),
                 'prazo':        bloco.get('prazo', ''),
                 'obs':          bloco.get('obs', ''),
                 'itens':        itens_out,
