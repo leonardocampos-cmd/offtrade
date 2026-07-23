@@ -45,7 +45,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6839.0",
           "data_agendamento": "22/07/2026",
           "data_ord": "2026-07-22",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -719,20 +719,6 @@ const AGENDAMENTO_DATA = {
       "nome": "ANGELO NEVES SUZART - OFF TRADE",
       "itens": [
         {
-          "codigo_cliente": "83946",
-          "cliente": "MERCADO RIO SUL PARADA ANGELICA LTDA",
-          "cnpj": "33.475.000/0001-05",
-          "filial": "PARADA ANGELICA",
-          "valor": 3835.2,
-          "nf": "6790.0",
-          "data_agendamento": "23/07/2026",
-          "data_ord": "2026-07-23",
-          "status": "FATURADO",
-          "obs": "produtos em encarte.",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
           "codigo_cliente": "86195",
           "cliente": "MERCADO RC DE MIGUEL PEREIRA",
           "cnpj": "52.909.395/0001-43",
@@ -743,6 +729,20 @@ const AGENDAMENTO_DATA = {
           "data_ord": "2026-07-23",
           "status": "A FATURAR",
           "obs": "Caixas e rótulos íntegros",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "83946",
+          "cliente": "MERCADO RIO SUL PARADA ANGELICA LTDA",
+          "cnpj": "33.475.000/0001-05",
+          "filial": "PARADA ANGELICA",
+          "valor": 3835.2,
+          "nf": "6790.0",
+          "data_agendamento": "23/07/2026",
+          "data_ord": "2026-07-23",
+          "status": "FATURADO",
+          "obs": "produtos em encarte.",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -15492,7 +15492,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6809.0",
           "data_agendamento": "21/07/2026",
           "data_ord": "2026-07-21",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "produtos em encarte.",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -15609,7 +15609,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6803.0",
           "data_agendamento": "21/07/2026",
           "data_ord": "2026-07-21",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "Pagamento em ESPÉCIE\nMercado AGENDADO (Se falhar entrega, há multa)",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -15623,7 +15623,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6804.0",
           "data_agendamento": "21/07/2026",
           "data_ord": "2026-07-21",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "Pagamento em ESPÉCIE\nMercado AGENDADO (Se falhar entrega, há multa)",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -15637,7 +15637,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6805.0",
           "data_agendamento": "21/07/2026",
           "data_ord": "2026-07-21",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "Pagamento em ESPÉCIE\nMercado AGENDADO (Se falhar entrega, há multa)",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -15651,7 +15651,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6806.0",
           "data_agendamento": "21/07/2026",
           "data_ord": "2026-07-21",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "Pagamento em ESPÉCIE\nMercado AGENDADO (Se falhar entrega, há multa)",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -16633,6 +16633,34 @@ const AGENDAMENTO_DATA = {
       "nome": "LEANDRO SOUZA - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "94954",
+          "cliente": "COMERCIO DE CEREAIS IZANITA LIMITADA",
+          "cnpj": "07.258.484/0002-01",
+          "filial": "RIO DA AREIA",
+          "valor": 1924.91,
+          "nf": "",
+          "data_agendamento": "23/07/2026",
+          "data_ord": "2026-07-23",
+          "status": "A FATURAR",
+          "obs": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS - PRISCILLA 22998066371",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "94955",
+          "cliente": "COMERCIO DE CEREAIS IZANITA LIMITADA",
+          "cnpj": "07.258.484/0001-12",
+          "filial": "BACAXA",
+          "valor": 2195.48,
+          "nf": "",
+          "data_agendamento": "23/07/2026",
+          "data_ord": "2026-07-23",
+          "status": "A FATURAR",
+          "obs": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS - PRISCILLA 22998066371",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "73217",
           "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
           "cnpj": "05.546.194/0023-54",
@@ -16657,6 +16685,34 @@ const AGENDAMENTO_DATA = {
           "data_ord": "2026-07-23",
           "status": "A FATURAR",
           "obs": "Caixas e rótulos íntegros;",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "94956",
+          "cliente": "JNH SUPERMERCADOS LTDA",
+          "cnpj": "32.455.926/0002-49",
+          "filial": "PORTO DA ROÇA",
+          "valor": 2053.38,
+          "nf": "",
+          "data_agendamento": "23/07/2026",
+          "data_ord": "2026-07-23",
+          "status": "A FATURAR",
+          "obs": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS - PRISCILLA 22998066371",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "94957",
+          "cliente": "JNH SUPERMERCADOS LTDA",
+          "cnpj": "32.455.926/0001-68",
+          "filial": "BACAXA",
+          "valor": 2185.24,
+          "nf": "",
+          "data_agendamento": "23/07/2026",
+          "data_ord": "2026-07-23",
+          "status": "A FATURAR",
+          "obs": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS - PRISCILLA 22998066371",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -16759,62 +16815,6 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "94956",
-          "cliente": "JNH SUPERMERCADOS LTDA",
-          "cnpj": "32.455.926/0002-49",
-          "filial": "PORTO DA ROÇA",
-          "valor": 2053.38,
-          "nf": "",
-          "data_agendamento": "23/07/2026",
-          "data_ord": "2026-07-23",
-          "status": "A FATURAR",
-          "obs": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS - PRISCILLA 22998066371",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "94954",
-          "cliente": "COMERCIO DE CEREAIS IZANITA LIMITADA",
-          "cnpj": "07.258.484/0002-01",
-          "filial": "RIO DA AREIA",
-          "valor": 1924.91,
-          "nf": "",
-          "data_agendamento": "23/07/2026",
-          "data_ord": "2026-07-23",
-          "status": "A FATURAR",
-          "obs": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS - PRISCILLA 22998066371",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "94955",
-          "cliente": "COMERCIO DE CEREAIS IZANITA LIMITADA",
-          "cnpj": "07.258.484/0001-12",
-          "filial": "BACAXA",
-          "valor": 2195.48,
-          "nf": "",
-          "data_agendamento": "23/07/2026",
-          "data_ord": "2026-07-23",
-          "status": "A FATURAR",
-          "obs": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS - PRISCILLA 22998066371",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "94957",
-          "cliente": "JNH SUPERMERCADOS LTDA",
-          "cnpj": "32.455.926/0001-68",
-          "filial": "BACAXA",
-          "valor": 2185.24,
-          "nf": "",
-          "data_agendamento": "23/07/2026",
-          "data_ord": "2026-07-23",
-          "status": "A FATURAR",
-          "obs": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS - PRISCILLA 22998066371",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
           "codigo_cliente": "91984",
           "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
           "cnpj": "05.546.194/0005-72",
@@ -16823,7 +16823,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6792.0",
           "data_agendamento": "22/07/2026",
           "data_ord": "2026-07-22",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "Caixas e rótulos íntegros;",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -16837,7 +16837,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6843.0",
           "data_agendamento": "22/07/2026",
           "data_ord": "2026-07-22",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -16851,7 +16851,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6838.0",
           "data_agendamento": "22/07/2026",
           "data_ord": "2026-07-22",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "EMBARCAR AS CAIXAS ORIGINAIS E ÍNTEGRAS",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -16865,7 +16865,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6828.0",
           "data_agendamento": "22/07/2026",
           "data_ord": "2026-07-22",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "DESCARGA: R$20,00 P/ PALLET - R$1,00 POR BATIDA - R$25,00 POR PALLET PALETIZADO",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -16893,7 +16893,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6830.0",
           "data_agendamento": "22/07/2026",
           "data_ord": "2026-07-22",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "SUPERMERCADO SUPERMAKET - PRODUTOS EM ENCARTE",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -16907,7 +16907,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6831.0",
           "data_agendamento": "22/07/2026",
           "data_ord": "2026-07-22",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "SUPERMERCADO SUPERMAKET - PRODUTOS EM ENCARTE",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -16921,7 +16921,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6842.0",
           "data_agendamento": "22/07/2026",
           "data_ord": "2026-07-22",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -21066,7 +21066,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6807.0",
           "data_agendamento": "21/07/2026",
           "data_ord": "2026-07-21",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "Taxa de descarga de R$60,00 por pallet",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -23746,7 +23746,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6821.0",
           "data_agendamento": "21/07/2026",
           "data_ord": "2026-07-21",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -23760,7 +23760,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6822.0",
           "data_agendamento": "21/07/2026",
           "data_ord": "2026-07-21",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -24300,7 +24300,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "23/07/2026 14:07",
+  "atualizado_em": "23/07/2026 15:34",
   "comparativo": [
     {
       "msg_id": "19f8f0d0054f43bd",
