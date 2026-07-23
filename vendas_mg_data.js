@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "22/07/2026 12:41",
+  "atualizado_em": "23/07/2026 10:44",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 154290.14,
-        "pos": 77,
+        "fat": 175953.16,
+        "pos": 80,
         "fat_ant": 341993.95
       }
     },
@@ -82,7 +82,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 175829.04
       },
       "Jul/26": {
-        "fat": 119625.48,
+        "fat": 124119.48,
         "pos": 52,
         "fat_ant": 168142.6
       }
@@ -209,7 +209,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 896376.5
       },
       "Jul/26": {
-        "fat": 365875.98,
+        "fat": 385502.28,
         "pos": 9,
         "fat_ant": 1039602.9
       }
@@ -236,8 +236,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 78257.7,
-        "pos": 51,
+        "fat": 84376.7,
+        "pos": 53,
         "fat_ant": 85308.22
       }
     },
@@ -52284,6 +52284,76 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "22/07/2026",
+          "codcli": "32774",
+          "cliente": "BOI LOURDES CURITIBA INDUSTRIAL E COMERCIAL LTDA.",
+          "produto": "VODKA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 358.8,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "32774",
+          "cliente": "BOI LOURDES CURITIBA INDUSTRIAL E COMERCIAL LTDA.",
+          "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 136.96,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "32774",
+          "cliente": "BOI LOURDES CURITIBA INDUSTRIAL E COMERCIAL LTDA.",
+          "produto": "MARTINI ROSSO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 2,
+          "valor": 99.8,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "32774",
+          "cliente": "BOI LOURDES CURITIBA INDUSTRIAL E COMERCIAL LTDA.",
+          "produto": "WHISKY OLD PARR GOLD 1 L",
+          "fantasia": "DIAGEO",
+          "qt": 4,
+          "valor": 599.6,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "32774",
+          "cliente": "BOI LOURDES CURITIBA INDUSTRIAL E COMERCIAL LTDA.",
+          "produto": "CACHACA SELETA 1000ML",
+          "fantasia": "SELETA",
+          "qt": 1,
+          "valor": 44.9,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "32774",
+          "cliente": "BOI LOURDES CURITIBA INDUSTRIAL E COMERCIAL LTDA.",
+          "produto": "APERITIVO APEROL 750 ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 281.4,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "32774",
+          "cliente": "BOI LOURDES CURITIBA INDUSTRIAL E COMERCIAL LTDA.",
+          "produto": "TEQUILA J CUERVO SILVER 750ML",
+          "fantasia": "AURORA",
+          "qt": 1,
+          "valor": 129.9,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
           "codcli": "30105",
           "cliente": "RESTAURANTE E EMPORIO MORADA MEXICANA EIRELI",
           "produto": "RUM BACARDI CARTA BLANCA 980 ML",
@@ -52330,6 +52400,376 @@ const VENDAS_MG_DATA = {
           "fantasia": "YVY",
           "qt": 3,
           "valor": 119.7,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "39650",
+          "cliente": "EMPREENDIMENTOS APOLO LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 419.6,
+          "offtrade": false
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "37208",
+          "cliente": "JT BARES LTDA",
+          "produto": "GIN GORDONS 750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 658.8,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "38419",
+          "cliente": "LUKA CHOPP MUSIC LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 3,
+          "valor": 431.28,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "32774",
+          "cliente": "BOI LOURDES CURITIBA INDUSTRIAL E COMERCIAL LTDA.",
+          "produto": "WHISKY WHITE HORSE - 1L",
+          "fantasia": "DIAGEO",
+          "qt": 2,
+          "valor": 125.8,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "32774",
+          "cliente": "BOI LOURDES CURITIBA INDUSTRIAL E COMERCIAL LTDA.",
+          "produto": "VALE VERDE EXTRA PREMIUM 1L",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 76.9,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "32774",
+          "cliente": "BOI LOURDES CURITIBA INDUSTRIAL E COMERCIAL LTDA.",
+          "produto": "AZEITE DE OLIVA EV ESSENZA 500ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 286.8,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "39070",
+          "cliente": "EMPREENDIMENTOS SUNRITZ LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 419.6,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "33682",
+          "cliente": "I.B.V. CAFETERIA LTDA",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 79.9,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "33682",
+          "cliente": "I.B.V. CAFETERIA LTDA",
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 154.9,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "33682",
+          "cliente": "I.B.V. CAFETERIA LTDA",
+          "produto": "WHISKY WALKER RED LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 72.9,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "31632",
+          "cliente": "TONEL BEBIDAS LTDA",
+          "produto": "WHISKY WALKER RED LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 24,
+          "valor": 1749.6,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "31632",
+          "cliente": "TONEL BEBIDAS LTDA",
+          "produto": "WHISKY JACK DANIELS 1L",
+          "fantasia": "BROWN-FORMAN",
+          "qt": 12,
+          "valor": 1558.8,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "31632",
+          "cliente": "TONEL BEBIDAS LTDA",
+          "produto": "APERITIVO APEROL 750 ML",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 275.4,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "31632",
+          "cliente": "TONEL BEBIDAS LTDA",
+          "produto": "VODKA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 24,
+          "valor": 717.6,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "31632",
+          "cliente": "TONEL BEBIDAS LTDA",
+          "produto": "APERITIVO CAMPARI 998 ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 598.8,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "30091",
+          "cliente": "COMERCIAL COLOMBO EIRELI",
+          "produto": "CERRO DE PEDRA PARC. MERLOT TTO 750ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 339.6,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "30091",
+          "cliente": "COMERCIAL COLOMBO EIRELI",
+          "produto": "ESPUMANTE ALUD BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 10,
+          "valor": 449.0,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "30091",
+          "cliente": "COMERCIAL COLOMBO EIRELI",
+          "produto": "VINHO CORSARINI MONTEPULCIANO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 8,
+          "valor": 559.2,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "30091",
+          "cliente": "COMERCIAL COLOMBO EIRELI",
+          "produto": "VINHO BRANCO BURDIZZO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 4,
+          "valor": 299.6,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "30091",
+          "cliente": "COMERCIAL COLOMBO EIRELI",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 36,
+          "valor": 2588.4,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 874.8,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "31113",
+          "cliente": "FELIPE ROBERTO SILVA RIBEIRO 08734193677",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 79.9,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "31113",
+          "cliente": "FELIPE ROBERTO SILVA RIBEIRO 08734193677",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 84.9,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "31113",
+          "cliente": "FELIPE ROBERTO SILVA RIBEIRO 08734193677",
+          "produto": "WHISKY JACK DANIELS 1L",
+          "fantasia": "BROWN-FORMAN",
+          "qt": 1,
+          "valor": 129.9,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "33011",
+          "cliente": "YOKAI BAR LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 8,
+          "valor": 1150.08,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "33951",
+          "cliente": "RESTAURANTE LA TRAVIATA",
+          "produto": "YVY DESTILADO GIN AR LT 710ML",
+          "fantasia": "YVY",
+          "qt": 12,
+          "valor": 478.8,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "33951",
+          "cliente": "RESTAURANTE LA TRAVIATA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 5,
+          "valor": 399.5,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "30409",
+          "cliente": "BEM QUE TEM HORTIFRUTI LTDA",
+          "produto": "APERITIVO APEROL 750 ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 514.8,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "30409",
+          "cliente": "BEM QUE TEM HORTIFRUTI LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 419.6,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "31668",
+          "cliente": "BOI WERNECK BAR E RESTAURANTE LTDA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 514.8,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "31668",
+          "cliente": "BOI WERNECK BAR E RESTAURANTE LTDA",
+          "produto": "VINHO ARESTI EST SEL MERLOT 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 658.8,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "31668",
+          "cliente": "BOI WERNECK BAR E RESTAURANTE LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 4,
+          "valor": 319.6,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "34663",
+          "cliente": "ZE DO CHURRASCO BAR E COMERCIO LTDA",
+          "produto": "VINHO VILLA ROSA FRISANTE ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 466.8,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "34663",
+          "cliente": "ZE DO CHURRASCO BAR E COMERCIO LTDA",
+          "produto": "ESPUMANTE ALUD ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 538.8,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "34663",
+          "cliente": "ZE DO CHURRASCO BAR E COMERCIO LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 4,
+          "valor": 319.6,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "34663",
+          "cliente": "ZE DO CHURRASCO BAR E COMERCIO LTDA",
+          "produto": "VINHO SERBAL MALBEC 750ML",
+          "fantasia": "CASTAS",
+          "qt": 3,
+          "valor": 239.7,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "33010",
+          "cliente": "GOLDEN ALIMENTOS LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 958.8,
           "offtrade": true
         }
       ]
@@ -61924,6 +62364,16 @@ const VENDAS_MG_DATA = {
           "fantasia": "DIAGEO",
           "qt": 3,
           "valor": 416.7,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "37718",
+          "cliente": "PARANAIBA VALE DAS ORQUIDEAS ALIMENTOS LTDA",
+          "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+          "fantasia": "DON LUIZ",
+          "qt": 60,
+          "valor": 4494.0,
           "offtrade": true
         }
       ]
@@ -85293,6 +85743,86 @@ const VENDAS_MG_DATA = {
           "qt": 12,
           "valor": 8636.88,
           "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "35170",
+          "cliente": "ADICAO DISTRIBUICAO EXPRESS S/A",
+          "produto": "ST PIERRE PINK LEMONADE LT 270MLX6",
+          "fantasia": "TATUZINHO",
+          "qt": 21,
+          "valor": 497.7,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "35170",
+          "cliente": "ADICAO DISTRIBUICAO EXPRESS S/A",
+          "produto": "ST PIERRE ZERO PINK LEMON  310 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 36,
+          "valor": 853.2,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "35170",
+          "cliente": "ADICAO DISTRIBUICAO EXPRESS S/A",
+          "produto": "ST PIERRE RED MINTL ZERO 310 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 18,
+          "valor": 426.6,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "35170",
+          "cliente": "ADICAO DISTRIBUICAO EXPRESS S/A",
+          "produto": "ST PIERRE ZERO TROPICAL  310 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 6,
+          "valor": 142.2,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "35170",
+          "cliente": "ADICAO DISTRIBUICAO EXPRESS S/A",
+          "produto": "ST PIERRE BLUEBERRY LT 270MLX6",
+          "fantasia": "TATUZINHO",
+          "qt": 8,
+          "valor": 189.6,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "35170",
+          "cliente": "ADICAO DISTRIBUICAO EXPRESS S/A",
+          "produto": "ST PIERRE RED MINT LT 270MLX6",
+          "fantasia": "TATUZINHO",
+          "qt": 19,
+          "valor": 450.3,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "35170",
+          "cliente": "ADICAO DISTRIBUICAO EXPRESS S/A",
+          "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750 M",
+          "fantasia": "BALLENA",
+          "qt": 24,
+          "valor": 2528.4,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "35170",
+          "cliente": "ADICAO DISTRIBUICAO EXPRESS S/A",
+          "produto": "LICOR BALLENA MORANGO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 138,
+          "valor": 14538.3,
+          "offtrade": true
         }
       ]
     },
@@ -98128,6 +98658,36 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "22/07/2026",
+          "codcli": "33456",
+          "cliente": "FACA CERVEJA ARTESANAL LTDA",
+          "produto": "APERITIVO CAMPARI 998 ML",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 47.5,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "33456",
+          "cliente": "FACA CERVEJA ARTESANAL LTDA",
+          "produto": "MARTINI ROSSO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 1,
+          "valor": 49.9,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "33456",
+          "cliente": "FACA CERVEJA ARTESANAL LTDA",
+          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 119.9,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
           "codcli": "38983",
           "cliente": "COMERCIAL REIS LTDA",
           "produto": "CACHACA BOAZINHA 1000ML",
@@ -98174,6 +98734,96 @@ const VENDAS_MG_DATA = {
           "fantasia": "YVY",
           "qt": 8,
           "valor": 319.2,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "33853",
+          "cliente": "DRINKS & TAL LTDA",
+          "produto": "VODKA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 298.8,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "33853",
+          "cliente": "DRINKS & TAL LTDA",
+          "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+          "fantasia": "YVY",
+          "qt": 6,
+          "valor": 239.4,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "33853",
+          "cliente": "DRINKS & TAL LTDA",
+          "produto": "GIN GORDONS 750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 598.8,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "33853",
+          "cliente": "DRINKS & TAL LTDA",
+          "produto": "WHISKY WALKER RED LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 3,
+          "valor": 203.7,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "33456",
+          "cliente": "FACA CERVEJA ARTESANAL LTDA",
+          "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 586.8,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "33456",
+          "cliente": "FACA CERVEJA ARTESANAL LTDA",
+          "produto": "VINHO FOODKILLER CAB SAUV MERLOT 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 586.8,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "34357",
+          "cliente": "VILLAGE FOODS LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 479.4,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "35993",
+          "cliente": "MFB COMERCIAL LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 4,
+          "valor": 319.6,
+          "offtrade": true
+        },
+        {
+          "data": "22/07/2026",
+          "codcli": "31529",
+          "cliente": "MASSAS MADONINA LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 36,
+          "valor": 2588.4,
           "offtrade": true
         }
       ]
