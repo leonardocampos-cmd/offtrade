@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "23/07/2026 14:11",
+  "atualizado_em": "23/07/2026 15:37",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,7 +50,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 188339.58,
+        "fat": 189556.66,
         "pos": 82,
         "fat_ant": 341993.95
       }
@@ -52920,6 +52920,36 @@ const VENDAS_MG_DATA = {
           "fantasia": "CASTAS",
           "qt": 1,
           "valor": 42.9,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "32813",
+          "cliente": "ROMA MERCEARIAS LTDA",
+          "produto": "CERVEJA HEINEKEN RETORNAVEL 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 2,
+          "valor": 437.92,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "32813",
+          "cliente": "ROMA MERCEARIAS LTDA",
+          "produto": "CERVEJA HEINEKEN  LONG ZERO 24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 143.76,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "CERRO DE PEDRA CHARDONNAY JOVEM BCO 750M",
+          "fantasia": "",
+          "qt": 6,
+          "valor": 635.4,
           "offtrade": true
         }
       ]
