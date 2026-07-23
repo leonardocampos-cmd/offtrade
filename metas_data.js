@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "23/07/2026 11:24",
+  "atualizado_em": "23/07/2026 11:49",
   "meses": [
     "Jul/26",
     "Jun/26"
@@ -8102,7 +8102,7 @@ const METAS_DATA = {
           },
           "pos_tt": {
             "meta": 1,
-            "realizado": 1
+            "realizado": 2
           },
           "pos_hob_azeite": {
             "meta": 0,
@@ -8118,7 +8118,7 @@ const METAS_DATA = {
           },
           "pos_tatuzinho": {
             "meta": 0,
-            "realizado": 0
+            "realizado": 1
           },
           "pos_redbull": {
             "meta": 0,
@@ -8142,7 +8142,7 @@ const METAS_DATA = {
           },
           "industrias": {
             "meta": 0,
-            "realizado": 1
+            "realizado": 2
           }
         }
       },
@@ -8278,7 +8278,7 @@ const METAS_DATA = {
       "previsao": {
         "fat_proj": 3271.41,
         "fat_media_hist": 156086.31,
-        "pos_proj": 1.4,
+        "pos_proj": 2.7,
         "pos_media_hist": 12.0,
         "du_passados": 17,
         "du_total": 23

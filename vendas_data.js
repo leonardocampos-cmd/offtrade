@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "23/07/2026 11:24",
+  "atualizado_em": "23/07/2026 11:49",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -279183,6 +279183,39 @@ const VENDAS_DATA = {
         }
       ],
       "Jul/26": [
+        {
+          "data": "23/07/2026",
+          "codcli": "50436",
+          "cliente": "PR CAVALCANTE COMERCIAL REPRESENTACOES LTDA",
+          "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 12,
+          "valor": 0.0,
+          "tipo": "Bonificado",
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "50436",
+          "cliente": "PR CAVALCANTE COMERCIAL REPRESENTACOES LTDA",
+          "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 12,
+          "valor": 0.0,
+          "tipo": "Bonificado",
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "50436",
+          "cliente": "PR CAVALCANTE COMERCIAL REPRESENTACOES LTDA",
+          "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "fantasia": "TATUZINHO",
+          "qt": 12,
+          "valor": 0.0,
+          "tipo": "Bonificado",
+          "offtrade": true
+        },
         {
           "data": "07/07/2026",
           "codcli": "81922",
