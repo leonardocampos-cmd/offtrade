@@ -1,5 +1,5 @@
 const CLIENTES_588_DATA = {
-  "atualizado_em": "22/07/2026 12:46",
+  "atualizado_em": "23/07/2026 12:18",
   "rca_ref": 588,
   "periodo_fid": "Jan/26 – Abr/26",
   "mes_migracao": "Mai/26",
@@ -89,7 +89,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "12/05/2026",
               "PRODUTO": "MOET IMPERIAL RESERVE BRUT 750 ML",
-              "FANTASIA": "MOET HENNESY",
+              "FANTASIA": "TOP BIRRA",
               "VALOR": 8847.0
             },
             {
@@ -817,7 +817,7 @@ const CLIENTES_588_DATA = {
             {
               "DATA": "12/05/2026",
               "PRODUTO": "MOET IMPERIAL RESERVE BRUT 750 ML",
-              "FANTASIA": "MOET HENNESY",
+              "FANTASIA": "TOP BIRRA",
               "VALOR": 1652.46
             },
             {
