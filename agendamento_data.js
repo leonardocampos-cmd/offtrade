@@ -12005,5 +12005,5310 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "23/07/2026 09:02"
+  "atualizado_em": "23/07/2026 09:39",
+  "comparativo": [
+    {
+      "msg_id": "19f8b26374e0bcd7",
+      "subject": "PEDIDO PREÇOTIMO - ANGRA",
+      "data_email": "2026-07-22",
+      "sistema": "CRC - 04",
+      "cod_cliente": "13729",
+      "razao_social": "",
+      "fantasia": "",
+      "cnpj": "",
+      "rca": "",
+      "bonificacao": true,
+      "prazo": "14 DIAS",
+      "obs": "HORARIO ENTREGA COMERCIAL | ROTA VIAGEM DIA 23/07",
+      "itens": [
+        {
+          "cod_prod": "4516",
+          "descricao": "YVV DESTILADO GIN MAR 750ML",
+          "qt": 12,
+          "preco": 59.9,
+          "total": 718.8,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "4892",
+          "descricao": "YVV DESTILADO VODKA 750ML",
+          "qt": 12,
+          "preco": 59.9,
+          "total": 718.8,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "7107",
+          "descricao": "APERITIVO LUCIA 750ML",
+          "qt": 6,
+          "preco": 73.0,
+          "total": 438.0,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "4343",
+          "descricao": "CACHACA JOIA DA SERRA TRADICIONAL 1L",
+          "qt": 12,
+          "preco": 21.9,
+          "total": 262.8,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "4598",
+          "descricao": "CACHACA JOIA DA SERRA OURO 1L",
+          "qt": 12,
+          "preco": 21.9,
+          "total": 262.8,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "99",
+          "descricao": "GIN BOMBAY SAPPHIRE 750ML",
+          "qt": 12,
+          "preco": 70.9,
+          "total": 850.8,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f8b26374e0bcd7",
+      "subject": "PEDIDO PREÇOTIMO - ANGRA",
+      "data_email": "2026-07-22",
+      "sistema": "CRC - 04",
+      "cod_cliente": "13729",
+      "razao_social": "",
+      "fantasia": "",
+      "cnpj": "",
+      "rca": "",
+      "bonificacao": true,
+      "prazo": "",
+      "obs": "HORARIO ENTREGA COMERCIAL | ROTA VIAGEM DIA 23/07",
+      "itens": [
+        {
+          "cod_prod": "6799",
+          "descricao": "YVY DESTILADO GIN MAR 6X710ML LT",
+          "qt": 2,
+          "preco": 197.4,
+          "total": 394.8,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6801",
+          "descricao": "YVY DESTILADO VODKA 6X710ML LT",
+          "qt": 2,
+          "preco": 197.4,
+          "total": 394.8,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f8ae285e9b3b83",
+      "subject": "PEDIDO CRC4 - BARRA CARNES",
+      "data_email": "2026-07-22",
+      "sistema": "CRC - 04",
+      "cod_cliente": "2147",
+      "razao_social": "BARRA CARNES LTDA",
+      "fantasia": "BARRA CARNES",
+      "cnpj": "29.094.240/0001-84",
+      "rca": "144 DIOGO RAPOSO",
+      "bonificacao": true,
+      "prazo": "21 DIAS",
+      "obs": "ENTREGAR NO DIA 22/07 NÃO TEM DESCARGA HORARIO DEPOIS DAS 8",
+      "itens": [
+        {
+          "cod_prod": "449",
+          "descricao": "WHISKY J WALKER BLACK LABEL 1L",
+          "qt": 2,
+          "preco": 179.9,
+          "total": 359.8,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "2614",
+          "descricao": "VILLA ROSA TINTO 750ML",
+          "qt": 12,
+          "preco": 29.9,
+          "total": 358.8,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f8ae285e9b3b83",
+      "subject": "PEDIDO CRC4 - BARRA CARNES",
+      "data_email": "2026-07-22",
+      "sistema": "CRC - 04",
+      "cod_cliente": "2147",
+      "razao_social": "BARRA CARNES LTDA",
+      "fantasia": "BARRA CARNES",
+      "cnpj": "29.094.240/0001-84",
+      "rca": "144 DIOGO RAPOSO",
+      "bonificacao": true,
+      "prazo": "21 DIAS",
+      "obs": "ENTREGAR NO DIA 22/07 NÃO TEM DESCARGA HORARIO DEPOIS DAS 8",
+      "itens": [
+        {
+          "cod_prod": "449",
+          "descricao": "WHISKY J WALKER BLACK LABEL 1L",
+          "qt": 1,
+          "preco": 179.9,
+          "total": 179.9,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "2614",
+          "descricao": "VILLA ROSA TINTO 750ML",
+          "qt": 6,
+          "preco": 29.9,
+          "total": 179.4,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f8adb014ef82a5",
+      "subject": "PEDIDO CRC 04",
+      "data_email": "2026-07-22",
+      "sistema": "CRC - 04",
+      "cod_cliente": "2147",
+      "razao_social": "BARRA CARNES LTDA",
+      "fantasia": "BARRA CARNES",
+      "cnpj": "29.094.240/0001-84",
+      "rca": "144 DIOGO RAPOSO",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "449",
+          "descricao": "WHISKY J WALKER BLACK LABEL 1L",
+          "qt": 2,
+          "preco": 179.9,
+          "total": 359.8,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "2614",
+          "descricao": "VILLA ROSA TINTO 750ML",
+          "qt": 12,
+          "preco": 29.9,
+          "total": 358.8,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f8a37f70b92e52",
+      "subject": "PEDIDO CRC4 - JUZAN - 4 LOJAS",
+      "data_email": "2026-07-22",
+      "sistema": "CRC - 04",
+      "cod_cliente": "94956",
+      "razao_social": "JNH SUPERMERCADOS LTDA",
+      "fantasia": "MERCADO JUZAN FILIAL",
+      "cnpj": "32.455.926/0002-49",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "1113",
+          "descricao": "PIRASSUNUNGA OURO 51 965ML",
+          "qt": 24,
+          "preco": 11.9,
+          "total": 285.6,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 6,
+          "preco": 34.5,
+          "total": 207.0,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3919",
+          "descricao": "CONHAQUE DOMUS 900ML",
+          "qt": 6,
+          "preco": 10.85,
+          "total": 65.1,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "1212",
+          "descricao": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
+          "qt": 12,
+          "preco": 22.83,
+          "total": 273.96,
+          "qt_faturada": 6.0,
+          "status": "Parcial"
+        },
+        {
+          "cod_prod": "3433",
+          "descricao": "SMIRNOFF RED PET 1750 ML",
+          "qt": 1,
+          "preco": 40.41,
+          "total": 40.41,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "218",
+          "descricao": "WHISKY BALLANTINE'S 12 1L",
+          "qt": 1,
+          "preco": 86.66,
+          "total": 86.66,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "4374",
+          "descricao": "WHISKY BALLANTINE'S 10YO 1L",
+          "qt": 1,
+          "preco": 86.66,
+          "total": 86.66,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "3819",
+          "descricao": "WHISKY BLACK STONE 1L",
+          "qt": 1,
+          "preco": 86.66,
+          "total": 86.66,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3817",
+          "descricao": "GIN BOMBADE SAPPHIRE 750ML",
+          "qt": 1,
+          "preco": 86.66,
+          "total": 86.66,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "1834",
+          "descricao": "LICOR STOCK CURACAU BLUE 720 ML",
+          "qt": 1,
+          "preco": 86.66,
+          "total": 86.66,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "218",
+          "descricao": "RUN MONTILLA CRISTAL 1000ML",
+          "qt": 1,
+          "preco": 86.66,
+          "total": 86.66,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "479",
+          "descricao": "WHISKY CHANCELLOR 1L",
+          "qt": 1,
+          "preco": 86.66,
+          "total": 86.66,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f8a37f70b92e52",
+      "subject": "PEDIDO CRC4 - JUZAN - 4 LOJAS",
+      "data_email": "2026-07-22",
+      "sistema": "CRC - 04",
+      "cod_cliente": "94954",
+      "razao_social": "COMERCIO DE CEREAIS IZANTA LIMITADA",
+      "fantasia": "MERCADO ATAKAREJO FILIAL",
+      "cnpj": "07.258.484/0002-01",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "1113",
+          "descricao": "PIRASSUNUNGA OURO 51 965ML",
+          "qt": 12,
+          "preco": 11.9,
+          "total": 142.8,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "266",
+          "descricao": "GIN TANQUERAY 750 ML",
+          "qt": 12,
+          "preco": 80.57,
+          "total": 966.84,
+          "qt_faturada": 1.0,
+          "status": "Parcial"
+        },
+        {
+          "cod_prod": "1212",
+          "descricao": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
+          "qt": 6,
+          "preco": 22.83,
+          "total": 136.98,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3919",
+          "descricao": "CONHAQUE DOMUS 900ML",
+          "qt": 6,
+          "preco": 10.05,
+          "total": 60.3,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "66",
+          "descricao": "RUM MONTILLA CRISTAL 1000ML",
+          "qt": 6,
+          "preco": 145.11,
+          "total": 870.66,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "4374",
+          "descricao": "WHISKY BALLANTINE'S 10YO 1L",
+          "qt": 6,
+          "preco": 145.11,
+          "total": 870.66,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "479",
+          "descricao": "WHISKY CHANCELER 1L",
+          "qt": 6,
+          "preco": 26.65,
+          "total": 159.9,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "64",
+          "descricao": "CONHAQUE DOMECQ 1L",
+          "qt": 6,
+          "preco": 26.65,
+          "total": 159.9,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "2388",
+          "descricao": "WHISKY JACK DANIELS APPLE 1L",
+          "qt": 6,
+          "preco": 107.3,
+          "total": 643.8,
+          "qt_faturada": 1.0,
+          "status": "Parcial"
+        },
+        {
+          "cod_prod": "2581",
+          "descricao": "WHISKY JACK DANIELS FIRE 1L",
+          "qt": 6,
+          "preco": 107.3,
+          "total": 643.8,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "231",
+          "descricao": "WHISKY PASSPORT 1L",
+          "qt": 12,
+          "preco": 64.91,
+          "total": 778.92,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "318",
+          "descricao": "WHISKY BLACK STONE 1L",
+          "qt": 12,
+          "preco": 64.91,
+          "total": 778.92,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "411",
+          "descricao": "VODKA ORLOFF 1L",
+          "qt": 12,
+          "preco": 26.65,
+          "total": 319.8,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "412",
+          "descricao": "VODKA NATASHA 900ML",
+          "qt": 12,
+          "preco": 26.65,
+          "total": 319.8,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "413",
+          "descricao": "VODKA ABSOLUT - 1 LITRO",
+          "qt": 12,
+          "preco": 64.91,
+          "total": 778.92,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "414",
+          "descricao": "RUM MONTILLA CARTA BRANCA 1000ML",
+          "qt": 12,
+          "preco": 19.3,
+          "total": 231.6,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f8a37f70b92e52",
+      "subject": "PEDIDO CRC4 - JUZAN - 4 LOJAS",
+      "data_email": "2026-07-22",
+      "sistema": "CRC - 04",
+      "cod_cliente": "94955",
+      "razao_social": "COMERCIO DE CEREAIS IZANITA LIMITADA",
+      "fantasia": "MERCADO ATAKAREJO",
+      "cnpj": "07.258.484/0001-12",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "1113",
+          "descricao": "PIRASSUNUNGA OURO 51 965ML",
+          "qt": 24,
+          "preco": 11.9,
+          "total": 285.6,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "266",
+          "descricao": "GIN TANQUERAY 750 ML",
+          "qt": 1,
+          "preco": 80.57,
+          "total": 80.57,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "4009",
+          "descricao": "IMPERADOR 900ML",
+          "qt": 1,
+          "preco": 11.72,
+          "total": 11.72,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "1823",
+          "descricao": "FOGO PAULISTA 960ML",
+          "qt": 1,
+          "preco": 25.85,
+          "total": 25.85,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "66",
+          "descricao": "RUN MONTILLA CRISTAL 1000ML",
+          "qt": 1,
+          "preco": 145.11,
+          "total": 145.11,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "4374",
+          "descricao": "WHISKY BALLANTINE'S 12 1L",
+          "qt": 1,
+          "preco": 145.11,
+          "total": 145.11,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "479",
+          "descricao": "WHISKY BALLANTINE'S 10YO 1L",
+          "qt": 1,
+          "preco": 86.66,
+          "total": 86.66,
+          "qt_faturada": 18.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "21",
+          "descricao": "WHISKY CHANCELER 1L",
+          "qt": 1,
+          "preco": 257.94,
+          "total": 257.94,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "66",
+          "descricao": "CONHAQUE DOMECQ 1L",
+          "qt": 1,
+          "preco": 38.14,
+          "total": 38.14,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "66",
+          "descricao": "LICOR STOCK CURACAU BLUE 720 ML",
+          "qt": 1,
+          "preco": 38.14,
+          "total": 38.14,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "66",
+          "descricao": "LICOR STOCK PESSEGO 720 ML",
+          "qt": 1,
+          "preco": 38.14,
+          "total": 38.14,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "66",
+          "descricao": "GIN BOMBAY SAPPHIRE 750ML",
+          "qt": 1,
+          "preco": 69.41,
+          "total": 69.41,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "66",
+          "descricao": "RUM BARRIL 700ML",
+          "qt": 1,
+          "preco": 38.14,
+          "total": 38.14,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "66",
+          "descricao": "WHISKY BLACK STONE 1LT",
+          "qt": 1,
+          "preco": 38.14,
+          "total": 38.14,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "66",
+          "descricao": "VODKA ORLOFF 1L",
+          "qt": 1,
+          "preco": 38.14,
+          "total": 38.14,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "66",
+          "descricao": "VODKA NATASHA 900ML",
+          "qt": 1,
+          "preco": 38.14,
+          "total": 38.14,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "66",
+          "descricao": "RUM MONTILLA 1000ML",
+          "qt": 1,
+          "preco": 38.14,
+          "total": 38.14,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "1834",
+          "descricao": "WHISKY BALLANTINE'S FINEST 750ML",
+          "qt": 1,
+          "preco": 47.17,
+          "total": 47.17,
+          "qt_faturada": 3.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f8a37f70b92e52",
+      "subject": "PEDIDO CRC4 - JUZAN - 4 LOJAS",
+      "data_email": "2026-07-22",
+      "sistema": "CRC - 04",
+      "cod_cliente": "94957",
+      "razao_social": "JNH SUPERMERCADOS LTDA",
+      "fantasia": "MERCADO JUZAN",
+      "cnpj": "32.455.926/0001-68",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "1113",
+          "descricao": "PIRASSUNUNGA OURO 51 965ML",
+          "qt": 24,
+          "preco": 11.9,
+          "total": 285.6,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "3919",
+          "descricao": "CONHAQUE DOMUS 900ML",
+          "qt": 6,
+          "preco": 10.05,
+          "total": 60.3,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 2,
+          "preco": 34.5,
+          "total": 69.0,
+          "qt_faturada": 3.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "1823",
+          "descricao": "FOGO PAULISTA 960ML",
+          "qt": 6,
+          "preco": 25.85,
+          "total": 155.1,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "99",
+          "descricao": "GIN BOMBAY SAPPHIRE 750ML",
+          "qt": 2,
+          "preco": 64.91,
+          "total": 129.82,
+          "qt_faturada": 1.0,
+          "status": "Parcial"
+        },
+        {
+          "cod_prod": "621",
+          "descricao": "INAT-LICOR STOCK CREME DE MENTA 720 ML",
+          "qt": 2,
+          "preco": 38.14,
+          "total": 76.28,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "574",
+          "descricao": "LICOR STOCK CURACAU BLUE 720 ML",
+          "qt": 2,
+          "preco": 38.14,
+          "total": 76.28,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "418",
+          "descricao": "RUM MONTILLA CRISTAL 1000ML",
+          "qt": 1,
+          "preco": 34.9,
+          "total": 34.9,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "177",
+          "descricao": "RUM MONTILLA 1000ML",
+          "qt": 1,
+          "preco": 34.9,
+          "total": 34.9,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "479",
+          "descricao": "VODKA NATASHA 900ML",
+          "qt": 2,
+          "preco": 38.14,
+          "total": 76.28,
+          "qt_faturada": 24.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "418",
+          "descricao": "VODKA ORLOFF 1L",
+          "qt": 1,
+          "preco": 34.9,
+          "total": 34.9,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "4374",
+          "descricao": "WHISKY BALLANTINE'S 12 1L",
+          "qt": 1,
+          "preco": 38.14,
+          "total": 38.14,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "4378",
+          "descricao": "WHISKY BALLANTINE'S 10Y0 1L",
+          "qt": 1,
+          "preco": 38.14,
+          "total": 38.14,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "479",
+          "descricao": "WHISKY BALLANTINE'S FINEST 750ML",
+          "qt": 1,
+          "preco": 38.14,
+          "total": 38.14,
+          "qt_faturada": 24.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "479",
+          "descricao": "WHISKY BLACK STONE 1L",
+          "qt": 1,
+          "preco": 38.14,
+          "total": 38.14,
+          "qt_faturada": 24.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "479",
+          "descricao": "WHISKY CHANDELIER 1L",
+          "qt": 1,
+          "preco": 38.14,
+          "total": 38.14,
+          "qt_faturada": 24.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "2851",
+          "descricao": "WHISKY JACK DANIELS APPLE 1L",
+          "qt": 1,
+          "preco": 107.3,
+          "total": 107.3,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f8a2dd69762ba8",
+      "subject": "PEDIDO CRC4 - PADRAO DO FONSECA - 5 LOJAS",
+      "data_email": "2026-07-22",
+      "sistema": "CRC - 04",
+      "cod_cliente": "90820",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "08.628.825/0001-67",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 5,
+          "preco": 86.28,
+          "total": 431.4,
+          "qt_faturada": 5.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f8a2dd69762ba8",
+      "subject": "PEDIDO CRC4 - PADRAO DO FONSECA - 5 LOJAS",
+      "data_email": "2026-07-22",
+      "sistema": "CRC - 04",
+      "cod_cliente": "9603",
+      "razao_social": "SUPERMERCADO PADRÃO DO FONSECA EIRELI",
+      "fantasia": "REDE SUPERMARKET (PADRÃO DO FONSECA - IT)",
+      "cnpj": "08.628.825/0004-00",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 5,
+          "preco": 86.28,
+          "total": 431.4,
+          "qt_faturada": 5.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f8a2dd69762ba8",
+      "subject": "PEDIDO CRC4 - PADRAO DO FONSECA - 5 LOJAS",
+      "data_email": "2026-07-22",
+      "sistema": "CRC - 04",
+      "cod_cliente": "90406",
+      "razao_social": "SUPERMERCADO PADRÃO DO FONSECA LTDA",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "08.628.285/0012-10",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 5,
+          "preco": 86.28,
+          "total": 431.4,
+          "qt_faturada": 5.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f8a2dd69762ba8",
+      "subject": "PEDIDO CRC4 - PADRAO DO FONSECA - 5 LOJAS",
+      "data_email": "2026-07-22",
+      "sistema": "CRC - 04",
+      "cod_cliente": "90415",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "08.628.825/0024-53",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 5,
+          "preco": 86.28,
+          "total": 431.4,
+          "qt_faturada": 5.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6334",
+          "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+          "qt": 1,
+          "preco": 155.28,
+          "total": 155.28,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f8a2dd69762ba8",
+      "subject": "PEDIDO CRC4 - PADRAO DO FONSECA - 5 LOJAS",
+      "data_email": "2026-07-22",
+      "sistema": "CRC - 04",
+      "cod_cliente": "91841",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "08.628.825/0025-34",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 5,
+          "preco": 86.28,
+          "total": 431.4,
+          "qt_faturada": 5.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f89d13ae4d851e",
+      "subject": "PEDIDO DAS LOJAS DA REDE JUZAN",
+      "data_email": "2026-07-22",
+      "sistema": "CRC - 04",
+      "cod_cliente": "94956",
+      "razao_social": "JNH SUPERMERCADOS LTDA",
+      "fantasia": "MERCADO JUZAN FILIAL",
+      "cnpj": "32.455.926/0002-49",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "1113",
+          "descricao": "PIRASSUNUNGA OURO 51 965ML",
+          "qt": 24,
+          "preco": 11.9,
+          "total": 285.6,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 6,
+          "preco": 34.5,
+          "total": 207.0,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3919",
+          "descricao": "CONHAQUE DOMUS 900ML",
+          "qt": 6,
+          "preco": 10.05,
+          "total": 60.3,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "1212",
+          "descricao": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
+          "qt": 6,
+          "preco": 22.83,
+          "total": 136.98,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "235",
+          "descricao": "VODKA ORLOFF 1L",
+          "qt": 12,
+          "preco": 19.31,
+          "total": 231.72,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3433",
+          "descricao": "SMIRNOFF RED PET 1750 ML",
+          "qt": 6,
+          "preco": 40.44,
+          "total": 242.64,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "218",
+          "descricao": "WHISKY BALLANTINE'S 12 1L",
+          "qt": 1,
+          "preco": 145.11,
+          "total": 145.11,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "4374",
+          "descricao": "WHISKY BALLANTINE'S 10YO 1L",
+          "qt": 1,
+          "preco": 86.66,
+          "total": 86.66,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "3819",
+          "descricao": "WHISKY BLACK STONE 1LT",
+          "qt": 6,
+          "preco": 12.55,
+          "total": 75.3,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "99",
+          "descricao": "GIN BOMBAY SAPPHIRE 750ML",
+          "qt": 1,
+          "preco": 64.91,
+          "total": 64.91,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "54",
+          "descricao": "LICOR STOCK CURACAU BLUE 720 ML",
+          "qt": 2,
+          "preco": 38.14,
+          "total": 76.28,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "66",
+          "descricao": "RUM MONTILLA CRISTAL 1000ML",
+          "qt": 1,
+          "preco": 19.3,
+          "total": 19.3,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "418",
+          "descricao": "VODKA NATASHA 900ML",
+          "qt": 12,
+          "preco": 12.95,
+          "total": 155.4,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "1834",
+          "descricao": "WHISKY BALLANTINE'S FINEST 750ML",
+          "qt": 2,
+          "preco": 47.17,
+          "total": 94.34,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "479",
+          "descricao": "WHISKY CHANCELER 1L",
+          "qt": 12,
+          "preco": 14.32,
+          "total": 171.84,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f89d13ae4d851e",
+      "subject": "PEDIDO DAS LOJAS DA REDE JUZAN",
+      "data_email": "2026-07-22",
+      "sistema": "CRC - 04",
+      "cod_cliente": "94954",
+      "razao_social": "COMERCIO DE CEREAIS IZANITA LIMITADA",
+      "fantasia": "MERCADO ATAKAREJO FILIAL",
+      "cnpj": "07.258.484/0002-01",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "1113",
+          "descricao": "PIRASSUNUNGA OURO 51 965ML",
+          "qt": 12,
+          "preco": 11.9,
+          "total": 142.8,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "266",
+          "descricao": "GIN TANQUERAY 750 ML",
+          "qt": 1,
+          "preco": 80.57,
+          "total": 80.57,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "1212",
+          "descricao": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
+          "qt": 6,
+          "preco": 22.83,
+          "total": 136.98,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3919",
+          "descricao": "CONHAQUE DOMUS 900ML",
+          "qt": 6,
+          "preco": 10.05,
+          "total": 60.3,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "66",
+          "descricao": "RUM MONTILLA CRISTAL 1000ML",
+          "qt": 1,
+          "preco": 19.3,
+          "total": 19.3,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "218",
+          "descricao": "WHISKY BALLANTINE'S 12 1L",
+          "qt": 1,
+          "preco": 145.11,
+          "total": 145.11,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "4374",
+          "descricao": "WHISKY BALLANTINE'S 10YO 1L",
+          "qt": 1,
+          "preco": 86.66,
+          "total": 86.66,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "479",
+          "descricao": "WHISKY CHANCELER 1L",
+          "qt": 12,
+          "preco": 14.33,
+          "total": 171.96,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "64",
+          "descricao": "CONHAQUE DOMECQ 1L",
+          "qt": 6,
+          "preco": 26.65,
+          "total": 159.9,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "2851",
+          "descricao": "WHISKY JACK DANIELS APPLE 1L",
+          "qt": 1,
+          "preco": 107.3,
+          "total": 107.3,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "2388",
+          "descricao": "WHISKY JACK DANIELS FIRE 1L",
+          "qt": 1,
+          "preco": 107.3,
+          "total": 107.3,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "99",
+          "descricao": "GIN BOMBAY SAPPHIRE 750ML",
+          "qt": 1,
+          "preco": 64.91,
+          "total": 64.91,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "246",
+          "descricao": "WHISKY PASSPORT 1L",
+          "qt": 1,
+          "preco": 42.1,
+          "total": 42.1,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3819",
+          "descricao": "WHISKY BLACK STONE 1LT",
+          "qt": 6,
+          "preco": 12.55,
+          "total": 75.3,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "235",
+          "descricao": "VODKA ORLOFF 1L",
+          "qt": 12,
+          "preco": 19.31,
+          "total": 231.72,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "418",
+          "descricao": "VODKA NATASHA 900ML",
+          "qt": 12,
+          "preco": 12.95,
+          "total": 155.4,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "129",
+          "descricao": "VODKA ABSOLUT - 1 LITRO",
+          "qt": 2,
+          "preco": 59.0,
+          "total": 118.0,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "69",
+          "descricao": "RUM MONTILLA CARTA BRANCA 1000ML",
+          "qt": 1,
+          "preco": 19.3,
+          "total": 19.3,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f89d13ae4d851e",
+      "subject": "PEDIDO DAS LOJAS DA REDE JUZAN",
+      "data_email": "2026-07-22",
+      "sistema": "CRC - 04",
+      "cod_cliente": "94955",
+      "razao_social": "COMERCIO DE CEREAIS IZANITA LIMITADA",
+      "fantasia": "MERCADO ATAKAREJO",
+      "cnpj": "07.258.484/0001-12",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "1113",
+          "descricao": "PIRASSUNUNGA OURO 51 965ML",
+          "qt": 24,
+          "preco": 11.9,
+          "total": 285.6,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "266",
+          "descricao": "GIN TANQUERAY 750 ML",
+          "qt": 1,
+          "preco": 80.57,
+          "total": 80.57,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "4009",
+          "descricao": "IMPERADOR 900ML",
+          "qt": 6,
+          "preco": 11.72,
+          "total": 70.32,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "1823",
+          "descricao": "FOGO PAULISTA 960ML",
+          "qt": 6,
+          "preco": 25.85,
+          "total": 155.1,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "66",
+          "descricao": "RUM MONTILLA CRISTAL 1000ML",
+          "qt": 1,
+          "preco": 19.3,
+          "total": 19.3,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "218",
+          "descricao": "WHISKY BALLANTINE'S 12 1L",
+          "qt": 1,
+          "preco": 145.11,
+          "total": 145.11,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "4374",
+          "descricao": "WHISKY BALLANTINE'S 10YO 1L",
+          "qt": 1,
+          "preco": 86.66,
+          "total": 86.66,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "479",
+          "descricao": "WHISKY CHANCELER 1L",
+          "qt": 18,
+          "preco": 14.33,
+          "total": 257.94,
+          "qt_faturada": 18.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "64",
+          "descricao": "CONHAQUE DOMECQ 1L",
+          "qt": 6,
+          "preco": 26.65,
+          "total": 159.9,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "54",
+          "descricao": "LICOR STOCK CURACAU BLUE 720 ML",
+          "qt": 2,
+          "preco": 38.14,
+          "total": 76.28,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "51",
+          "descricao": "LICOR STOCK PESSEGO 720 ML",
+          "qt": 2,
+          "preco": 38.14,
+          "total": 76.28,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "99",
+          "descricao": "GIN BOMBAY SAPPHIRE 750ML",
+          "qt": 1,
+          "preco": 64.91,
+          "total": 64.91,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "5305",
+          "descricao": "RUM BACARDI LIMON 700ML",
+          "qt": 1,
+          "preco": 32.75,
+          "total": 32.75,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3819",
+          "descricao": "WHISKY BLACK STONE 1LT",
+          "qt": 6,
+          "preco": 12.55,
+          "total": 75.3,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "235",
+          "descricao": "VODKA ORLOFF 1L",
+          "qt": 12,
+          "preco": 19.31,
+          "total": 231.72,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "418",
+          "descricao": "VODKA NATASHA 900ML",
+          "qt": 12,
+          "preco": 12.95,
+          "total": 155.4,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "178",
+          "descricao": "RUM MONTILLA OURO 1000ML",
+          "qt": 3,
+          "preco": 20.51,
+          "total": 61.53,
+          "qt_faturada": 3.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "69",
+          "descricao": "RUM MONTILLA CARTA BRANCA 1000ML",
+          "qt": 1,
+          "preco": 19.3,
+          "total": 19.3,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "1834",
+          "descricao": "WHISKY BALLANTINE'S FINEST 750ML",
+          "qt": 3,
+          "preco": 47.17,
+          "total": 141.51,
+          "qt_faturada": 3.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f89d13ae4d851e",
+      "subject": "PEDIDO DAS LOJAS DA REDE JUZAN",
+      "data_email": "2026-07-22",
+      "sistema": "CRC - 04",
+      "cod_cliente": "94957",
+      "razao_social": "JNH SUPERMERCADOS LTDA",
+      "fantasia": "MERCADO JUZAN",
+      "cnpj": "32.455.926/0001-68",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "1113",
+          "descricao": "PIRASSUNUNGA OURO 51 965ML",
+          "qt": 24,
+          "preco": 11.9,
+          "total": 285.6,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "3919",
+          "descricao": "CONHAQUE DOMUS 900ML",
+          "qt": 6,
+          "preco": 10.05,
+          "total": 60.3,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 3,
+          "preco": 34.5,
+          "total": 103.5,
+          "qt_faturada": 3.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "1823",
+          "descricao": "FOGO PAULISTA 960ML",
+          "qt": 6,
+          "preco": 25.85,
+          "total": 155.1,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "99",
+          "descricao": "GIN BOMBAY SAPPHIRE 750ML",
+          "qt": 1,
+          "preco": 64.91,
+          "total": 64.91,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "52",
+          "descricao": "INAT-LICOR STOCK CREME DE MENTA 720 ML",
+          "qt": 1,
+          "preco": 38.14,
+          "total": 38.14,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "54",
+          "descricao": "LICOR STOCK CURACAU BLUE 720 ML",
+          "qt": 2,
+          "preco": 38.14,
+          "total": 76.28,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "66",
+          "descricao": "RUM MONTILLA CRISTAL 1000ML",
+          "qt": 2,
+          "preco": 19.3,
+          "total": 38.6,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "178",
+          "descricao": "RUM MONTILLA OURO 1000ML",
+          "qt": 6,
+          "preco": 20.51,
+          "total": 123.06,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "418",
+          "descricao": "VODKA NATASHA 900ML",
+          "qt": 12,
+          "preco": 12.95,
+          "total": 155.4,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "235",
+          "descricao": "VODKA ORLOFF 1L",
+          "qt": 12,
+          "preco": 19.31,
+          "total": 231.72,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "218",
+          "descricao": "WHISKY BALLANTINE'S 12 1L",
+          "qt": 1,
+          "preco": 145.11,
+          "total": 145.11,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "4374",
+          "descricao": "WHISKY BALLANTINE'S 10YO 1L",
+          "qt": 1,
+          "preco": 86.66,
+          "total": 86.66,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "1834",
+          "descricao": "WHISKY BALLANTINE'S FINEST 750ML",
+          "qt": 2,
+          "preco": 47.17,
+          "total": 94.34,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3819",
+          "descricao": "WHISKY BLACK STONE 1LT",
+          "qt": 6,
+          "preco": 12.55,
+          "total": 75.3,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "479",
+          "descricao": "WHISKY CHANCELER 1L",
+          "qt": 24,
+          "preco": 14.33,
+          "total": 343.92,
+          "qt_faturada": 24.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "2851",
+          "descricao": "WHISKY JACK DANIELS APPLE 1L",
+          "qt": 1,
+          "preco": 107.3,
+          "total": 107.3,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f89d101fb751b4",
+      "subject": "PEDIDO DAS LOJAS DA REDE PADRAO DO FONSECA",
+      "data_email": "2026-07-22",
+      "sistema": "CRC - 04",
+      "cod_cliente": "90820",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "08.628.825/0001-67",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 5,
+          "preco": 86.28,
+          "total": 431.4,
+          "qt_faturada": 5.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f89d101fb751b4",
+      "subject": "PEDIDO DAS LOJAS DA REDE PADRAO DO FONSECA",
+      "data_email": "2026-07-22",
+      "sistema": "CRC - 04",
+      "cod_cliente": "9603",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+      "fantasia": "REDE SUPERMARKET (PADR?O DO FONSECA - IT",
+      "cnpj": "08.628.825/0004-00",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 5,
+          "preco": 86.28,
+          "total": 431.4,
+          "qt_faturada": 5.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f89d101fb751b4",
+      "subject": "PEDIDO DAS LOJAS DA REDE PADRAO DO FONSECA",
+      "data_email": "2026-07-22",
+      "sistema": "CRC - 04",
+      "cod_cliente": "90406",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "08.628.825/0012-10",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 5,
+          "preco": 86.28,
+          "total": 431.4,
+          "qt_faturada": 5.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f89d101fb751b4",
+      "subject": "PEDIDO DAS LOJAS DA REDE PADRAO DO FONSECA",
+      "data_email": "2026-07-22",
+      "sistema": "CRC - 04",
+      "cod_cliente": "90415",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "08.628.825/0024-53",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 5,
+          "preco": 86.28,
+          "total": 431.4,
+          "qt_faturada": 5.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6334",
+          "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+          "qt": 1,
+          "preco": 155.28,
+          "total": 155.28,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f89d101fb751b4",
+      "subject": "PEDIDO DAS LOJAS DA REDE PADRAO DO FONSECA",
+      "data_email": "2026-07-22",
+      "sistema": "CRC - 04",
+      "cod_cliente": "91841",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "08.628.825/0025-34",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 5,
+          "preco": 86.28,
+          "total": 431.4,
+          "qt_faturada": 5.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f894b54b73c0cd",
+      "subject": "pedido crc4 - rio sul - miguel pereira",
+      "data_email": "2026-07-22",
+      "sistema": "CRC - 04",
+      "cod_cliente": "86195",
+      "razao_social": "MERCADO RC DE MIGUEL PEREIRA LTDA",
+      "fantasia": "MERCADO RC DE MIGUEL PEREIRA",
+      "cnpj": "52.509.395/0001-43",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "35 DIAS",
+      "obs": "entregar no dia 23/07 com pagamento de descarga no valor de R$ 860,00 por pallets e horario das 08:00 as 15:00h por ordem de chegada",
+      "itens": [
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 36,
+          "preco": 33.9,
+          "total": 1220.4,
+          "qt_faturada": 36.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3817",
+          "descricao": "VINHO TINTO QUINTA DO MORGADO 1LT",
+          "qt": 36,
+          "preco": 17.9,
+          "total": 644.4,
+          "qt_faturada": 36.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3814",
+          "descricao": "VINHO TINTO QUINTA DO MORGADO 750ML",
+          "qt": 36,
+          "preco": 13.9,
+          "total": 667.2,
+          "qt_faturada": 48.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3816",
+          "descricao": "VINHO BORDO QUINTA DO MORGADO 750ML",
+          "qt": 36,
+          "preco": 13.9,
+          "total": 667.2,
+          "qt_faturada": 36.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3818",
+          "descricao": "VINHO BORDO QUINTA DO MORGADO 1LT",
+          "qt": 36,
+          "preco": 17.9,
+          "total": 644.4,
+          "qt_faturada": 24.0,
+          "status": "Parcial"
+        },
+        {
+          "cod_prod": "3827",
+          "descricao": "VINHO LATITUDE 33 MALBEC 750 ML",
+          "qt": 12,
+          "preco": 38.9,
+          "total": 466.8,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3828",
+          "descricao": "LATITUDE 33 CABERNET SAUVIGNON",
+          "qt": 12,
+          "preco": 38.9,
+          "total": 466.8,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f860677729eadc",
+      "subject": "PEDIDO CRC4 - MORAES E CIA",
+      "data_email": "2026-07-21",
+      "sistema": "CRC - 04",
+      "cod_cliente": "69759",
+      "razao_social": "MORAES E CIA COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
+      "fantasia": "ATACADO DAS BEBIDAS",
+      "cnpj": "24.305.769/0001-86",
+      "rca": "450 - LEANDRO PEREIRA DE SOUZA",
+      "bonificacao": true,
+      "prazo": "14",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "4328",
+          "descricao": "WHISKY ROYAL SALUTE 21YO GRAIN 700ML",
+          "qt": 3,
+          "preco": 599,
+          "total": 1797,
+          "qt_faturada": 3.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3839",
+          "descricao": "LICOR ESP DIEGO ZAMORA 43 + 2 COPO",
+          "qt": 18,
+          "preco": 125.49,
+          "total": 2258.82,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f85f19e1bd5e50",
+      "subject": "PEDIDO DA REDE PADRAO DO FONSECA",
+      "data_email": "2026-07-21",
+      "sistema": "CRC - 04",
+      "cod_cliente": "9604",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+      "fantasia": "SUPERMARKET FONSECA - PIRATININGA",
+      "cnpj": "08.628.825/0003-29",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 10,
+          "preco": 86.28,
+          "total": 862.8,
+          "qt_faturada": 10.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 5,
+          "preco": 86.28,
+          "total": 431.4,
+          "qt_faturada": 5.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 15,
+          "preco": 86.28,
+          "total": 1294.2,
+          "qt_faturada": 15.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6334",
+          "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+          "qt": 1,
+          "preco": 155.28,
+          "total": 155.28,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6254",
+          "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "qt": 1,
+          "preco": 155.28,
+          "total": 155.28,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f85f19e1bd5e50",
+      "subject": "PEDIDO DA REDE PADRAO DO FONSECA",
+      "data_email": "2026-07-21",
+      "sistema": "CRC - 04",
+      "cod_cliente": "78665",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+      "fantasia": "SUPERMARKET - DEL CASTILHO",
+      "cnpj": "08.628.825/0022-91",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 10,
+          "preco": 86.28,
+          "total": 862.8,
+          "qt_faturada": 10.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 10,
+          "preco": 86.28,
+          "total": 862.8,
+          "qt_faturada": 10.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 15,
+          "preco": 86.28,
+          "total": 1294.2,
+          "qt_faturada": 15.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6254",
+          "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "qt": 2,
+          "preco": 155.28,
+          "total": 310.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f85e6c5e52f7de",
+      "subject": "pedido crc4 - SUPER REDE - 4 pedidos",
+      "data_email": "2026-07-21",
+      "sistema": "CRC - 04",
+      "cod_cliente": "76898",
+      "razao_social": "SUPERMERCADO CATIRA LTDA",
+      "fantasia": "SUPERMERCADO CATIRA",
+      "cnpj": "39.406.722/0001-86",
+      "rca": "450 - Leandro Pereira",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "texto do campo OBS",
+      "itens": [
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 12,
+          "preco": 32.9,
+          "total": 394.8,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3764",
+          "descricao": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "qt": 1,
+          "preco": 73.9,
+          "total": 73.9,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3759",
+          "descricao": "CHANDON RESERVE BRUT 750ML",
+          "qt": 1,
+          "preco": 75.9,
+          "total": 75.9,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "1248",
+          "descricao": "MOLHO TABASCO RED PEPPER SAUCE 60ML",
+          "qt": 12,
+          "preco": 15.9,
+          "total": 190.8,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "3177",
+          "descricao": "ST PIERRE VIDRO RED MINT LN 275X12",
+          "qt": 1,
+          "preco": 49.86,
+          "total": 49.86,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3179",
+          "descricao": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
+          "qt": 1,
+          "preco": 49.86,
+          "total": 49.86,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "4718",
+          "descricao": "RUM BACARDI BIG APPLE 700ML",
+          "qt": 1,
+          "preco": 29.0,
+          "total": 29.0,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "35",
+          "descricao": "RUM BACARDI GOLD 980ML",
+          "qt": 1,
+          "preco": 39.6,
+          "total": 39.6,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f85e6c5e52f7de",
+      "subject": "pedido crc4 - SUPER REDE - 4 pedidos",
+      "data_email": "2026-07-21",
+      "sistema": "CRC - 04",
+      "cod_cliente": "18604",
+      "razao_social": "MERCEARIA R. A. MARAVILHA EIRELI",
+      "fantasia": "MERCADO RONDA ALTA",
+      "cnpj": "12.044.117/0002-37",
+      "rca": "450 - Leandro Pereira",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 12,
+          "preco": 32.9,
+          "total": 394.8,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3919",
+          "descricao": "CONHAQUE DOMUS 900ML",
+          "qt": 12,
+          "preco": 10.3,
+          "total": 123.6,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "3764",
+          "descricao": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "qt": 1,
+          "preco": 73.9,
+          "total": 73.9,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3759",
+          "descricao": "CHANDON RESERVE BRUT ROSE 750ML",
+          "qt": 1,
+          "preco": 75.9,
+          "total": 75.9,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "296",
+          "descricao": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "qt": 1,
+          "preco": 132.91,
+          "total": 132.91,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "63",
+          "descricao": "LICOR STOCK MARULA 720 ML",
+          "qt": 1,
+          "preco": 53.57,
+          "total": 107.14,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "1248",
+          "descricao": "MOLHO TABASCO RED PEPPER SAUCE 60ML",
+          "qt": 1,
+          "preco": 15.9,
+          "total": 15.9,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "3179",
+          "descricao": "ST PIERRE VIDRO RED MINT LN 275X12",
+          "qt": 1,
+          "preco": 49.86,
+          "total": 49.86,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "4718",
+          "descricao": "RUM BACARDI BIG APPLE 1000ML",
+          "qt": 1,
+          "preco": 29.0,
+          "total": 29.0,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "246",
+          "descricao": "WHISKY PASSPORT 1L",
+          "qt": 1,
+          "preco": 40.9,
+          "total": 40.9,
+          "qt_faturada": 3.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f85e6c5e52f7de",
+      "subject": "pedido crc4 - SUPER REDE - 4 pedidos",
+      "data_email": "2026-07-21",
+      "sistema": "CRC - 04",
+      "cod_cliente": "18602",
+      "razao_social": "MERCEARIA R A MARAVILHA LTDA",
+      "fantasia": "LIDERANCA",
+      "cnpj": "12.044.117/0001-56",
+      "rca": "450 - Leandro Pereira",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 12,
+          "preco": 32.9,
+          "total": 394.8,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3919",
+          "descricao": "CONHAQUE DOMUS 900ML",
+          "qt": 12,
+          "preco": 10.3,
+          "total": 123.6,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "63",
+          "descricao": "LICOR STOCK MARULA 720 ML",
+          "qt": 2,
+          "preco": 53.57,
+          "total": 107.14,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "246",
+          "descricao": "WHISKY PASSPORT 1L",
+          "qt": 3,
+          "preco": 40.9,
+          "total": 122.7,
+          "qt_faturada": 3.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3177",
+          "descricao": "ST PERFER VIDRO RED MINT LN 275X12",
+          "qt": 1,
+          "preco": 49.86,
+          "total": 49.86,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f85e6c5e52f7de",
+      "subject": "pedido crc4 - SUPER REDE - 4 pedidos",
+      "data_email": "2026-07-21",
+      "sistema": "CRC - 04",
+      "cod_cliente": "18606",
+      "razao_social": "SUPERMERCADO SAO TARCISIO LTDA",
+      "fantasia": "SUPERMERCADO SAO TARCISIO LTDA",
+      "cnpj": "32.916.969/0001-01",
+      "rca": "450 - Leandro Pereira",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 12,
+          "preco": 32.9,
+          "total": 394.8,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "290",
+          "descricao": "CONHAQUE DREHER 900ML",
+          "qt": 12,
+          "preco": 16.61,
+          "total": 199.32,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3919",
+          "descricao": "CONHAQUE DOMUS 900ML",
+          "qt": 12,
+          "preco": 10.3,
+          "total": 123.6,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "3764",
+          "descricao": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "qt": 1,
+          "preco": 73.9,
+          "total": 73.9,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3927",
+          "descricao": "APERITIVO RAIZES AMARGAS PARATUDO 900ML",
+          "qt": 1,
+          "preco": 11.7,
+          "total": 11.7,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "35",
+          "descricao": "RUM BACARDI GOLD 980ML",
+          "qt": 1,
+          "preco": 39.6,
+          "total": 39.6,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "66",
+          "descricao": "RUM MONTILLA CRISTAL 1000ML",
+          "qt": 6,
+          "preco": 19.5,
+          "total": 117.0,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "98",
+          "descricao": "RUM BACARDI MOJITO 980ML",
+          "qt": 1,
+          "preco": 39.6,
+          "total": 39.6,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "235",
+          "descricao": "VODKA ORLOFF 1L",
+          "qt": 1,
+          "preco": 40.9,
+          "total": 40.9,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "4718",
+          "descricao": "RUM BACARDI SUPERIOR 700ML",
+          "qt": 1,
+          "preco": 29.7,
+          "total": 29.7,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "246",
+          "descricao": "WHISKY PASSPORT 1L",
+          "qt": 1,
+          "preco": 122.7,
+          "total": 122.7,
+          "qt_faturada": 3.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f85ddec1d9e62b",
+      "subject": "PEDIDO CRC4 - FARINHA PURA",
+      "data_email": "2026-07-21",
+      "sistema": "CRC - 04",
+      "cod_cliente": "3816",
+      "razao_social": "ORGANIZACOES FARINHA PURA LTDA",
+      "fantasia": "FARINHA PURA",
+      "cnpj": "29.298.312/0001-05",
+      "rca": "471 - ANA CLARA FASSANO",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "666",
+          "descricao": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 30,
+          "preco": 36.9,
+          "total": 1107.0,
+          "qt_faturada": 30.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "129",
+          "descricao": "VODKA ABSOLUT - 1 LITRO",
+          "qt": 6,
+          "preco": 59.9,
+          "total": 359.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "70",
+          "descricao": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "qt": 6,
+          "preco": 103.92,
+          "total": 623.52,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f850d278d0708c",
+      "subject": "PEDIDO DOS MERCADOS DO SUPER REDE",
+      "data_email": "2026-07-21",
+      "sistema": "CRC - 04",
+      "cod_cliente": "76898",
+      "razao_social": "SUPERMERCADO CATIARA LTDA",
+      "fantasia": "SUPERMERCADO CATIARA",
+      "cnpj": "39.406.722/0001-86",
+      "rca": "450 - Leandro Pereira",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 12,
+          "preco": 32.9,
+          "total": 394.8,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3764",
+          "descricao": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "qt": 1,
+          "preco": 73.9,
+          "total": 73.9,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3759",
+          "descricao": "CHANDON RESERVE BRUT ROSE 750ML",
+          "qt": 1,
+          "preco": 75.9,
+          "total": 75.9,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "1248",
+          "descricao": "MOLHO TABASCO RED PEPPER SAUCE 60ML",
+          "qt": 12,
+          "preco": 15.9,
+          "total": 190.8,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "3177",
+          "descricao": "ST PIERRE VIDRO RED MINT LN 275X12",
+          "qt": 1,
+          "preco": 49.86,
+          "total": 49.86,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3179",
+          "descricao": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
+          "qt": 2,
+          "preco": 49.86,
+          "total": 99.72,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "4718",
+          "descricao": "RUM BACARDI BIG APPLE 700ML",
+          "qt": 1,
+          "preco": 29.0,
+          "total": 29.0,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "35",
+          "descricao": "RUM BACARDI GOLD 980ML",
+          "qt": 1,
+          "preco": 39.6,
+          "total": 39.6,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f850d278d0708c",
+      "subject": "PEDIDO DOS MERCADOS DO SUPER REDE",
+      "data_email": "2026-07-21",
+      "sistema": "CRC - 04",
+      "cod_cliente": "18604",
+      "razao_social": "MERCEARIA R. A. MARAVILHA EIRELI",
+      "fantasia": "MERCADO RONDA ALTA",
+      "cnpj": "12.044.117/0002-37",
+      "rca": "450 - Leandro Pereira",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 12,
+          "preco": 32.9,
+          "total": 394.8,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3919",
+          "descricao": "CONHAQUE DOMUS 900ML",
+          "qt": 12,
+          "preco": 10.3,
+          "total": 123.6,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "3764",
+          "descricao": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "qt": 1,
+          "preco": 73.9,
+          "total": 73.9,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3759",
+          "descricao": "CHANDON RESERVE BRUT ROSE 750ML",
+          "qt": 1,
+          "preco": 75.9,
+          "total": 75.9,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "296",
+          "descricao": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "qt": 1,
+          "preco": 132.91,
+          "total": 132.91,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "63",
+          "descricao": "LICOR STOCK MARULA 720 ML",
+          "qt": 2,
+          "preco": 53.57,
+          "total": 107.14,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "1248",
+          "descricao": "MOLHO TABASCO RED PEPPER SAUCE 60ML",
+          "qt": 12,
+          "preco": 15.9,
+          "total": 190.8,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "3177",
+          "descricao": "ST PIERRE VIDRO RED MINT LN 275X12",
+          "qt": 1,
+          "preco": 49.86,
+          "total": 49.86,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3179",
+          "descricao": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
+          "qt": 2,
+          "preco": 49.86,
+          "total": 99.72,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "4718",
+          "descricao": "RUM BACARDI BIG APPLE 700ML",
+          "qt": 1,
+          "preco": 29.0,
+          "total": 29.0,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "246",
+          "descricao": "WHISKY PASSPORT 1L",
+          "qt": 3,
+          "preco": 40.9,
+          "total": 122.7,
+          "qt_faturada": 3.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f850d278d0708c",
+      "subject": "PEDIDO DOS MERCADOS DO SUPER REDE",
+      "data_email": "2026-07-21",
+      "sistema": "CRC - 04",
+      "cod_cliente": "18602",
+      "razao_social": "MERCEARIA R A MARAVILHA LTDA",
+      "fantasia": "LIDERANCA",
+      "cnpj": "12.044.117/0001-56",
+      "rca": "450 - Leandro Pereira",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 12,
+          "preco": 32.9,
+          "total": 394.8,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3919",
+          "descricao": "CONHAQUE DOMUS 900ML",
+          "qt": 12,
+          "preco": 10.3,
+          "total": 123.6,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "63",
+          "descricao": "LICOR STOCK MARULA 720 ML",
+          "qt": 2,
+          "preco": 53.57,
+          "total": 107.14,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "246",
+          "descricao": "WHISKY PASSPORT 1L",
+          "qt": 3,
+          "preco": 40.9,
+          "total": 122.7,
+          "qt_faturada": 3.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3177",
+          "descricao": "ST PIERRE VIDRO RED MINT LN 275X12",
+          "qt": 1,
+          "preco": 49.86,
+          "total": 49.86,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f850d278d0708c",
+      "subject": "PEDIDO DOS MERCADOS DO SUPER REDE",
+      "data_email": "2026-07-21",
+      "sistema": "CRC - 04",
+      "cod_cliente": "18606",
+      "razao_social": "SUPERMERCADO SAO TARCISIO LTDA",
+      "fantasia": "SUPERMERCADO SAO TARCISIO LTDA",
+      "cnpj": "32.916.969/0001-01",
+      "rca": "450 - Leandro Pereira",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 12,
+          "preco": 32.9,
+          "total": 394.8,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "290",
+          "descricao": "CONHAQUE DREHER 900ML",
+          "qt": 12,
+          "preco": 16.61,
+          "total": 199.32,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3919",
+          "descricao": "CONHAQUE DOMUS 900ML",
+          "qt": 12,
+          "preco": 10.3,
+          "total": 123.6,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "3764",
+          "descricao": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "qt": 1,
+          "preco": 73.9,
+          "total": 73.9,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3927",
+          "descricao": "APERITIVO RAIZES AMARGAS PARATUDO 900ML",
+          "qt": 6,
+          "preco": 11.7,
+          "total": 70.2,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "35",
+          "descricao": "RUM BACARDI GOLD 980ML",
+          "qt": 1,
+          "preco": 39.6,
+          "total": 39.6,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "63",
+          "descricao": "LICOR STOCK MARULA 720 ML",
+          "qt": 2,
+          "preco": 53.57,
+          "total": 107.14,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "66",
+          "descricao": "RUM MONTILLA CRISTAL 1000ML",
+          "qt": 6,
+          "preco": 19.5,
+          "total": 117.0,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "98",
+          "descricao": "RUM BACARDI MOJITO 980ML",
+          "qt": 1,
+          "preco": 36.0,
+          "total": 36.0,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "235",
+          "descricao": "VODKA ORLOFF 1L",
+          "qt": 1,
+          "preco": 19.3,
+          "total": 19.3,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "34",
+          "descricao": "RUM BACARDI SUPERIOR 980ML",
+          "qt": 1,
+          "preco": 36.0,
+          "total": 36.0,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "4718",
+          "descricao": "RUM BACARDI BIG APPLE 700ML",
+          "qt": 1,
+          "preco": 29.0,
+          "total": 29.0,
+          "qt_faturada": 1.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "246",
+          "descricao": "WHISKY PASSPORT 1L",
+          "qt": 3,
+          "preco": 40.9,
+          "total": 122.7,
+          "qt_faturada": 3.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f818438a58365b",
+      "subject": "Re: pedido crc4 - Rio Sul - Saracuruna",
+      "data_email": "2026-07-20",
+      "sistema": "CRC - 04",
+      "cod_cliente": "83642",
+      "razao_social": "MINIMERCADO JARDIM ROSARIO LTDA",
+      "fantasia": "RIO SUL",
+      "cnpj": "19.722.068/0001-02",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "entregar no dia 21/07 com pagamento de descarga no valor de R$60,00 por pallets e horario das 08:00 as 15:00hr por ordem de chegada",
+      "itens": [
+        {
+          "cod_prod": "1519",
+          "descricao": "CANTINA DA SERRA 880 ML",
+          "qt": 60,
+          "preco": 5.49,
+          "total": 329.4,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f8112985fd975f",
+      "subject": "pedido crc4 - Rio Sul - Saracuruna",
+      "data_email": "2026-07-20",
+      "sistema": "CRC - 04",
+      "cod_cliente": "83642",
+      "razao_social": "MINIMERCADO JARDIM ROSARIO LTDA",
+      "fantasia": "RIO SUL",
+      "cnpj": "19.722.068/0001-02",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "entregar no dia 21/07 com pagamento de descarga no valor de R$60,00 por pallets e horario das 08:00 as 15:00hr por ordem de chegada",
+      "itens": [
+        {
+          "cod_prod": "1519",
+          "descricao": "CANTINA DA SERRA 880 ML",
+          "qt": 60,
+          "preco": 5.49,
+          "total": 329.4,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f810f57b4b83cb",
+      "subject": "pedido crc4 - Lucas da Silva",
+      "data_email": "2026-07-20",
+      "sistema": "CRC - 04",
+      "cod_cliente": "90146",
+      "razao_social": "37.598.352 LUCAS DA SILVA GOMES",
+      "fantasia": "LUCAS DA SILVA GOMES",
+      "cnpj": "37.598.352/0001-09",
+      "rca": "419 - NÁTALI DE OLIVEIRA - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "data entrega: 10/07. após as 10h",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "424",
+          "descricao": "WHISKY OLD PARR 12Y 1 L",
+          "qt": 6,
+          "preco": 120.9,
+          "total": 725.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f810d0c4feb8d7",
+      "subject": "pedido crc4 - CELEIRO - REDE ECONOMIA",
+      "data_email": "2026-07-20",
+      "sistema": "CRC - 04",
+      "cod_cliente": "3935",
+      "razao_social": "SUPERMERCADOS CELEIRO LTDA",
+      "fantasia": "SUPERMERCADOS CELEIRO - CAMPO GRANDE",
+      "cnpj": "07.678.203/0001-80",
+      "rca": "419 - NÁTALI DE OLIVEIRA - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "3759",
+          "descricao": "CHANDON RESERVE BRUT ROSE 750ML",
+          "qt": 6,
+          "preco": 75.9,
+          "total": 455.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3766",
+          "descricao": "CHANDON PASSION ON ICE 750 ML",
+          "qt": 6,
+          "preco": 75.9,
+          "total": 455.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3764",
+          "descricao": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "qt": 6,
+          "preco": 73.9,
+          "total": 443.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3063",
+          "descricao": "ESPUMANTE ALUD ROSE 750ML",
+          "qt": 12,
+          "preco": 28.9,
+          "total": 346.8,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f7fed05fe7443b",
+      "subject": "Pedido do Cliente 86195 Rio Sul de Miguel Pereira",
+      "data_email": "2026-07-20",
+      "sistema": "CRC - 04",
+      "cod_cliente": "86195",
+      "razao_social": "MERCADO RC DE MIGUEL PEREIRA LTDA",
+      "fantasia": "MERCADO RC DE MIGUEL PEREIRA",
+      "cnpj": "52.909.395/0001-43",
+      "rca": "153 - ÂNGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "35 DIAS",
+      "obs": "entregar no dia 23/07 com pagamento de descarga no valor de R$60,00 por pallets de borda das 08:00 às 15:00hor por ordem de chegada",
+      "itens": [
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUMCASA PERINI AQUARELA ROSE 750ML",
+          "qt": 36,
+          "preco": 33.9,
+          "total": 1212.4,
+          "qt_faturada": 36.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3817",
+          "descricao": "VINHO TINTO QUINTA DO MORGADO TLT",
+          "qt": 36,
+          "preco": 17.9,
+          "total": 644.4,
+          "qt_faturada": 36.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3818",
+          "descricao": "VINHO TINTO QUINTA DO MORGADO 750ML",
+          "qt": 36,
+          "preco": 17.9,
+          "total": 644.4,
+          "qt_faturada": 24.0,
+          "status": "Parcial"
+        },
+        {
+          "cod_prod": "3814",
+          "descricao": "VINHO BORDO QUINTA DO MORGADO 750ML",
+          "qt": 48,
+          "preco": 17.9,
+          "total": 859.2,
+          "qt_faturada": 48.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3827",
+          "descricao": "VINHO LATITUDE 33 MALBEC 750 ML",
+          "qt": 12,
+          "preco": 30.9,
+          "total": 370.8,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3828",
+          "descricao": "LATITUDE 33 CABERNET SAUVIGNON",
+          "qt": 12,
+          "preco": 30.9,
+          "total": 370.8,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f7fd89ed9bfaba",
+      "subject": "Pedido do cliente 83642 Rio Sul de Saracuruna",
+      "data_email": "2026-07-20",
+      "sistema": "CRC - 04",
+      "cod_cliente": "83642",
+      "razao_social": "MINIMERCADO JARDIM ROSARIO LTDA",
+      "fantasia": "RIO SUL",
+      "cnpj": "19.722.068/0001-02",
+      "rca": "153 - ÂNGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "entregar no dia 21/07 com pagamento de descarga no valor de R$60,00 por pallets e horario das 08:00 as 15:00h por ordem de chegada",
+      "itens": [
+        {
+          "cod_prod": "1519",
+          "descricao": "CANTINA DA SERRA 880 ML",
+          "qt": 60,
+          "preco": 5.49,
+          "total": 329.4,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f70f2eeda3e400",
+      "subject": "PEDIDO CRC4 - COLDBEER",
+      "data_email": "2026-07-17",
+      "sistema": "CRC - 04",
+      "cod_cliente": "84459",
+      "razao_social": "COLDBEER COMERCIO DE BEBIDAS LTDA",
+      "fantasia": "COLDBEER",
+      "cnpj": "54.040.344/0001-53",
+      "rca": "144 - DIOGO RAPOSO - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "7/14/21",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "313",
+          "descricao": "WHISKY J WALKER RED LABEL 1L",
+          "qt": 12,
+          "preco": 70.0,
+          "total": 840.0,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "449",
+          "descricao": "WHISKY J WALKER BLACK LABEL 1L",
+          "qt": 12,
+          "preco": 144.0,
+          "total": 1728.0,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "4843",
+          "descricao": "BALLANTINES SUNSHINE 700ML",
+          "qt": 6,
+          "preco": 47.9,
+          "total": 287.4,
+          "qt_faturada": 3.0,
+          "status": "Parcial"
+        },
+        {
+          "cod_prod": "16",
+          "descricao": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 12,
+          "preco": 27.5,
+          "total": 330.0,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "18",
+          "descricao": "WHISKY BUCHANANS 12 YEARS 1000 ML",
+          "qt": 6,
+          "preco": 144.0,
+          "total": 864.0,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "2965",
+          "descricao": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+          "qt": 6,
+          "preco": 459.5,
+          "total": 2757.0,
+          "qt_faturada": 5.0,
+          "status": "Parcial"
+        },
+        {
+          "cod_prod": "3109",
+          "descricao": "ST PIERRE LATA RED MINT LT 24X270ML",
+          "qt": 5,
+          "preco": 91.9,
+          "total": 459.5,
+          "qt_faturada": 2.0,
+          "status": "Parcial"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f70e9f06a5242c",
+      "subject": "Re: PEDIDO CRC 04",
+      "data_email": "2026-07-17",
+      "sistema": "CRC - 04",
+      "cod_cliente": "84459",
+      "razao_social": "DM COMERCIO",
+      "fantasia": "MERCADO DM FAMILIA",
+      "cnpj": "64471268/0001-94",
+      "rca": "144",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "313",
+          "descricao": "WHISKY J WALKER RED LABEL 1L",
+          "qt": 12,
+          "preco": 70.0,
+          "total": 840.0,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "449",
+          "descricao": "WHISKY J WALKER BLACK LABEL 1L",
+          "qt": 12,
+          "preco": 144.0,
+          "total": 1728.0,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "4843",
+          "descricao": "BALLANTINES SUNSHINE 700ML",
+          "qt": 6,
+          "preco": 47.9,
+          "total": 287.4,
+          "qt_faturada": 3.0,
+          "status": "Parcial"
+        },
+        {
+          "cod_prod": "16",
+          "descricao": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 12,
+          "preco": 27.5,
+          "total": 330.0,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "18",
+          "descricao": "WHISKY BUCHANANS 1000ML",
+          "qt": 6,
+          "preco": 144.0,
+          "total": 864.0,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "2965",
+          "descricao": "ST PIERRE LATA PINK LEMON 24X270ML",
+          "qt": 5,
+          "preco": 91.9,
+          "total": 459.5,
+          "qt_faturada": 5.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3109",
+          "descricao": "ST PIERRE LATA RED MINT 24X270ML",
+          "qt": 5,
+          "preco": 91.9,
+          "total": 459.5,
+          "qt_faturada": 2.0,
+          "status": "Parcial"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f70bd1c75bcb23",
+      "subject": "Pedido - CASA DO SABÃO - Cod. 83969 ATLAS",
+      "data_email": "2026-07-17",
+      "sistema": "CRC - 04",
+      "cod_cliente": "83969",
+      "razao_social": "ATLAS DE IGUAÇU DIST ALIMENTO LTDA",
+      "fantasia": "SUPERMERCADO CASA DO SABÃO",
+      "cnpj": "29.310.554/0002-58",
+      "rca": "275 - MARIA LUIZA DE MELO",
+      "bonificacao": true,
+      "prazo": "28",
+      "obs": "CRC - Filial 4 com 27%",
+      "itens": [
+        {
+          "cod_prod": "664",
+          "descricao": "Espum Casa Perini Brut 750ml",
+          "qt": 6,
+          "preco": 38.9,
+          "total": 233.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "666",
+          "descricao": "Espum Casa Perini Brut Rose 750ml",
+          "qt": 6,
+          "preco": 38.9,
+          "total": 233.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "2781",
+          "descricao": "Espum Casa Perini Moscatel 750ml",
+          "qt": 6,
+          "preco": 38.9,
+          "total": 233.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "663",
+          "descricao": "Espum Casa Perini Mosc Aquarela Rose 750ml",
+          "qt": 12,
+          "preco": 32.9,
+          "total": 394.8,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6fe7e31dcd671",
+      "subject": "Pedido CRC 4 - RIO SUL - PARADA ANGELICA",
+      "data_email": "2026-07-17",
+      "sistema": "CRC - 04",
+      "cod_cliente": "833946",
+      "razao_social": "MERCADO RIO SUL PARADA ANGELICA LTDA",
+      "fantasia": "MERCADO RIO SUL DE PARADA ANGELICA",
+      "cnpj": "CNPJ 3.475.000/0001-05",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "entregar no dia 20/07 com pagamento de descarga no valor de R$60,00 por pallets e horario das 08:00 as 15:00hr por ordem de chegada",
+      "itens": [
+        {
+          "cod_prod": "3151",
+          "descricao": "WHISKY JIM BEAM APPLE 1L",
+          "qt": 12,
+          "preco": 70.8,
+          "total": 850.8,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "5273",
+          "descricao": "WHISKY JIM BEAM BLACK CHERRY 1L",
+          "qt": 12,
+          "preco": 70.9,
+          "total": 850.8,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "1526",
+          "descricao": "WHISKY JIM BEAM HONEY 1L",
+          "qt": 12,
+          "preco": 70.9,
+          "total": 850.8,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "187",
+          "descricao": "WHISKY JACK DANIEL'S 1L",
+          "qt": 6,
+          "preco": 109.9,
+          "total": 659.4,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "738",
+          "descricao": "JACK DANIEL'S HONEY 1L",
+          "qt": 6,
+          "preco": 109.9,
+          "total": 659.4,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "70",
+          "descricao": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "qt": 6,
+          "preco": 103.9,
+          "total": 623.4,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6fe6ae1c7d712",
+      "subject": "pedido crc4 - Sao Jorge (SUPER COMPRAS)",
+      "data_email": "2026-07-17",
+      "sistema": "CRC - 04",
+      "cod_cliente": "95137",
+      "razao_social": "ORGANIZACOES VICTORIA & PENEDO LTDA",
+      "fantasia": "MINIMERCADO SAO JORGE",
+      "cnpj": "39.452.271/0001-13",
+      "rca": "379 - JORGE MACIEL - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "21 dias",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "3643",
+          "descricao": "GIN ROCKS 1000ML",
+          "qt": 6,
+          "preco": 22.9,
+          "total": 137.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3642",
+          "descricao": "GIN ROCKS STRAWBERRY 1000ML",
+          "qt": 6,
+          "preco": 22.9,
+          "total": 137.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "4689",
+          "descricao": "GIN ROCKS WATERMELON 1000ML",
+          "qt": 6,
+          "preco": 22.9,
+          "total": 137.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "237",
+          "descricao": "WHISKY BALLANTINE'S FINEST 1L",
+          "qt": 12,
+          "preco": 64.9,
+          "total": 778.8,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "381",
+          "descricao": "CACHACA VELHO BARREIRO 910 ML",
+          "qt": 12,
+          "preco": 12.0,
+          "total": 144.0,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6fda27cb579a4",
+      "subject": "pedido crc4 - ULTRA IPANEMA",
+      "data_email": "2026-07-17",
+      "sistema": "CRC - 04",
+      "cod_cliente": "6690",
+      "razao_social": "SUPERMERCADO ULTRA 12 LTDA",
+      "fantasia": "SUPERMERCADO ULTRA 12",
+      "cnpj": "05.669.831/0001-74",
+      "rca": "471 - ANA CLARA FASSANO - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "381",
+          "descricao": "CACHACA VELHO BARREIRO 910 ML",
+          "qt": 36,
+          "preco": 12.5,
+          "total": 450,
+          "qt_faturada": 36.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6fd71aadffafc",
+      "subject": "PEDIDO crc4 - RIO SUL - PILAR",
+      "data_email": "2026-07-17",
+      "sistema": "CRC - 04",
+      "cod_cliente": "77807",
+      "razao_social": "SUPERMERCADO RIO SUL DO PILAR LTDA",
+      "fantasia": "RIO SUL DO PILAR",
+      "cnpj": "33.255.424/0001-56",
+      "rca": "153 - ANGELO NEVES SUZART",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "entregar no dia 20/07 com pagamento de descarga no valor de R$60,00 por pallets e horario das 08:00 as 15:00hr por ordem de chegada",
+      "itens": [
+        {
+          "cod_prod": "381",
+          "descricao": "CACHACA VELHO BARREIRO 910 ML",
+          "qt": 12,
+          "preco": 12.5,
+          "total": 150,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "418",
+          "descricao": "VODKA NATASHA 900ML",
+          "qt": 12,
+          "preco": 13.79,
+          "total": 165.48,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "3642",
+          "descricao": "GIN ROCKS STRAWBERRY 1000ML",
+          "qt": 12,
+          "preco": 22.2,
+          "total": 266.4,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "4689",
+          "descricao": "GIN ROCKS WATERMELON 1000ML",
+          "qt": 12,
+          "preco": 22.2,
+          "total": 266.4,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3644",
+          "descricao": "GIN ROCKS SCILIAN LEMON 1000ML",
+          "qt": 12,
+          "preco": 22.2,
+          "total": 266.4,
+          "qt_faturada": 6.0,
+          "status": "Parcial"
+        },
+        {
+          "cod_prod": "6492",
+          "descricao": "GIN ROCKS GREEN APPLE 1000ML",
+          "qt": 6,
+          "preco": 22.2,
+          "total": 133.2,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "2626",
+          "descricao": "GIN LARIOS ORIGINAL 700ML",
+          "qt": 6,
+          "preco": 22.2,
+          "total": 133.2,
+          "qt_faturada": 3.0,
+          "status": "Parcial"
+        },
+        {
+          "cod_prod": "1180",
+          "descricao": "WHISKY CHIVAS REGAL 12 ANOS 750",
+          "qt": 6,
+          "preco": 89.9,
+          "total": 539.4,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "69",
+          "descricao": "RUM MONTILLA CARTA BRANCA 1000ML",
+          "qt": 12,
+          "preco": 22.2,
+          "total": 266.4,
+          "qt_faturada": 6.0,
+          "status": "Parcial"
+        },
+        {
+          "cod_prod": "178",
+          "descricao": "RUM MONTILLA OURO 1000ML",
+          "qt": 6,
+          "preco": 22.2,
+          "total": 133.2,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "66",
+          "descricao": "RUM MONTILLA CRISTAL 1000ML",
+          "qt": 6,
+          "preco": 22.2,
+          "total": 133.2,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "1212",
+          "descricao": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
+          "qt": 6,
+          "preco": 51.67,
+          "total": 310.02,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6fd71aadffafc",
+      "subject": "PEDIDO crc4 - RIO SUL - PILAR",
+      "data_email": "2026-07-17",
+      "sistema": "CRC - 04",
+      "cod_cliente": "77807",
+      "razao_social": "SUPERMERCADO RIO SUL DO PILAR LTDA",
+      "fantasia": "RIO SUL DO PILAR",
+      "cnpj": "33.255.424/0001-56",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "entregar no dia 20/07 com pagamento de descarga no valor de R$60,00 por pallets e horario das 08:00 as 15:00hr por ordem de chegada",
+      "itens": [
+        {
+          "cod_prod": "3818",
+          "descricao": "VINHO BORDO QUINTA DO MORGADO 1LT",
+          "qt": 12,
+          "preco": 19.9,
+          "total": 238.8,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3816",
+          "descricao": "VINHO BORDO QUINTA DO MORGADO 1LT",
+          "qt": 12,
+          "preco": 17.49,
+          "total": 209.88,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3816",
+          "descricao": "VINHO BORDO QUINTA DO MORGADO 750ML",
+          "qt": 12,
+          "preco": 17.49,
+          "total": 209.88,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6744",
+          "descricao": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
+          "qt": 12,
+          "preco": 29.9,
+          "total": 358.8,
+          "qt_faturada": 24.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3817",
+          "descricao": "VINHO TINTO QUINTA DO MORGADO 750ML",
+          "qt": 24,
+          "preco": 14.49,
+          "total": 347.76,
+          "qt_faturada": 24.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "7106",
+          "descricao": "VINHO BCO SUAVE QUINTA DO MORGADO 750ML",
+          "qt": 24,
+          "preco": 14.49,
+          "total": 347.76,
+          "qt_faturada": 24.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3821",
+          "descricao": "VINHO CAB.SAUVIG QUINTA DO MORGADO 750ML",
+          "qt": 12,
+          "preco": 23.9,
+          "total": 286.8,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6c3cb8ba44788",
+      "subject": "PEDIDO CRC4 - SJM 4",
+      "data_email": "2026-07-16",
+      "sistema": "CRC - 04",
+      "cod_cliente": "92004",
+      "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
+      "fantasia": "SUPERMARKET SÃO JOÃO III",
+      "cnpj": "05.546.194/0029-40",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN VERMELHA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6c3cb8ba44788",
+      "subject": "PEDIDO CRC4 - SJM 4",
+      "data_email": "2026-07-16",
+      "sistema": "CRC - 04",
+      "cod_cliente": "92004",
+      "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
+      "fantasia": "SUPERMARKET SÃO JOÃO III",
+      "cnpj": "05.546.194/0029-40",
+      "rca": "450 - LEANDRO SOUZA",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 6,
+          "preco": 32.9,
+          "total": 197.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "666",
+          "descricao": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 6,
+          "preco": 38.9,
+          "total": 233.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6c389f00ff10c",
+      "subject": "PEDIDO CRC4 - PAVUNA 2",
+      "data_email": "2026-07-16",
+      "sistema": "CRC - 04",
+      "cod_cliente": "92003",
+      "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
+      "fantasia": "SUPERMARKET PAVUNA",
+      "cnpj": "00.546.194/0028-69",
+      "rca": "450 - LEANDRO SOUZA",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6c389f00ff10c",
+      "subject": "PEDIDO CRC4 - PAVUNA 2",
+      "data_email": "2026-07-16",
+      "sistema": "CRC - 04",
+      "cod_cliente": "92003",
+      "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
+      "fantasia": "SUPERMARKET PAVUNA",
+      "cnpj": "05.546.194/0028-69",
+      "rca": "450 - LEANDRO SOUZA",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 18,
+          "preco": 32.9,
+          "total": 592.2,
+          "qt_faturada": 18.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "666",
+          "descricao": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 6,
+          "preco": 38.9,
+          "total": 233.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6c35f0f217091",
+      "subject": "PEDIDO CRC4 - BANGU 2",
+      "data_email": "2026-07-16",
+      "sistema": "CRC - 04",
+      "cod_cliente": "91996",
+      "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
+      "fantasia": "G.M.A.P. SUPERMERCADOS",
+      "cnpj": "05.546.194/0027-88",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN VUA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6c35f0f217091",
+      "subject": "PEDIDO CRC4 - BANGU 2",
+      "data_email": "2026-07-16",
+      "sistema": "CRC - 04",
+      "cod_cliente": "91996",
+      "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
+      "fantasia": "G.M.A.P. SUPERMERCADOS",
+      "cnpj": "05.546.194/0027-88",
+      "rca": "450 - LEANDRO SOUZA",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 6,
+          "preco": 32.9,
+          "total": 197.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "664",
+          "descricao": "ESPUM CASA PERINI BRUT 750ML",
+          "qt": 6,
+          "preco": 38.9,
+          "total": 233.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "666",
+          "descricao": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 6,
+          "preco": 38.9,
+          "total": 233.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6c31c62cc2475",
+      "subject": "PEDIDO CRC4 - GMAP REALENGO",
+      "data_email": "2026-07-16",
+      "sistema": "CRC - 04",
+      "cod_cliente": "91994",
+      "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
+      "fantasia": "G.M.A.P. SUPERMERCADOS S.A.",
+      "cnpj": "05.546.194/0026-05",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN VERMELHA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6c31c62cc2475",
+      "subject": "PEDIDO CRC4 - GMAP REALENGO",
+      "data_email": "2026-07-16",
+      "sistema": "CRC - 04",
+      "cod_cliente": "91994",
+      "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
+      "fantasia": "G.M.A.P. SUPERMERCADOS S.A.",
+      "cnpj": "05.546.194/0026-05",
+      "rca": "450 - LEANDRO SOUZA",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 18,
+          "preco": 32.9,
+          "total": 592.2,
+          "qt_faturada": 18.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "664",
+          "descricao": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 6,
+          "preco": 38.9,
+          "total": 233.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "666",
+          "descricao": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 6,
+          "preco": 38.9,
+          "total": 233.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6c2fe269ad2c3",
+      "subject": "PEDIDO CRC4 - COELHO NETO",
+      "data_email": "2026-07-16",
+      "sistema": "CRC - 04",
+      "cod_cliente": "91993",
+      "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
+      "fantasia": "G.M.A.P. SUPERMERCADOS",
+      "cnpj": "05.546.194/0025-16",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN VERMELHA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6c2fe269ad2c3",
+      "subject": "PEDIDO CRC4 - COELHO NETO",
+      "data_email": "2026-07-16",
+      "sistema": "CRC - 04",
+      "cod_cliente": "91993",
+      "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
+      "fantasia": "G.M.A.P. SUPERMERCADOS",
+      "cnpj": "05.546.194/0025-16",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 6,
+          "preco": 32.9,
+          "total": 197.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "664",
+          "descricao": "ESPUM CASA PERINI BRUT 750ML",
+          "qt": 6,
+          "preco": 38.9,
+          "total": 233.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "666",
+          "descricao": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 6,
+          "preco": 38.9,
+          "total": 233.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "2781",
+          "descricao": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "qt": 6,
+          "preco": 38.9,
+          "total": 233.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6c279774d453c",
+      "subject": "PEDIDO CRC4 - DUQUE DE CAXIAS 2",
+      "data_email": "2026-07-16",
+      "sistema": "CRC - 04",
+      "cod_cliente": "91992",
+      "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
+      "fantasia": "G.M.A.P. SUPERMERCADOS",
+      "cnpj": "05.546.194/0024-35",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6c279774d453c",
+      "subject": "PEDIDO CRC4 - DUQUE DE CAXIAS 2",
+      "data_email": "2026-07-16",
+      "sistema": "CRC - 04",
+      "cod_cliente": "91992",
+      "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
+      "fantasia": "G.M.A.P. SUPERMERCADOS",
+      "cnpj": "05.546.194/0024-35",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 18,
+          "preco": 32.9,
+          "total": 592.2,
+          "qt_faturada": 18.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "664",
+          "descricao": "ESPUM CASA PERINI BRUT 750ML",
+          "qt": 6,
+          "preco": 38.9,
+          "total": 233.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "666",
+          "descricao": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 6,
+          "preco": 38.9,
+          "total": 233.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6c1993986eb0e",
+      "subject": "PEDIDO CRC4 - FRIBURGO",
+      "data_email": "2026-07-16",
+      "sistema": "CRC - 04",
+      "cod_cliente": "73217",
+      "razao_social": "GMAP SUPERMERCADOS SA",
+      "fantasia": "GMAP SUPERMERCADOS",
+      "cnpj": "05.546.194/0023-54",
+      "rca": "450 - LEANDRO SOUZA",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN VERMELHA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6255",
+          "descricao": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "7207",
+          "descricao": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "7204",
+          "descricao": "MOVING JUICE PROTEINA LARANJA 12X300ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "7206",
+          "descricao": "MOVING JUICE PROTEINA UVA 12X300ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6254",
+          "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "qt": 2,
+          "preco": 155.28,
+          "total": 310.56,
+          "qt_faturada": 1.0,
+          "status": "Parcial"
+        },
+        {
+          "cod_prod": "6253",
+          "descricao": "MOVING BOOSTER LIMAO 24X310ML",
+          "qt": 2,
+          "preco": 155.28,
+          "total": 310.56,
+          "qt_faturada": 1.0,
+          "status": "Parcial"
+        },
+        {
+          "cod_prod": "6334",
+          "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+          "qt": 2,
+          "preco": 155.28,
+          "total": 310.56,
+          "qt_faturada": 1.0,
+          "status": "Parcial"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6c1993986eb0e",
+      "subject": "PEDIDO CRC4 - FRIBURGO",
+      "data_email": "2026-07-16",
+      "sistema": "CRC - 04",
+      "cod_cliente": "73217",
+      "razao_social": "GMAP SUPERMERCADOS SA",
+      "fantasia": "GMAP SUPERMERCADOS",
+      "cnpj": "05.546.194/0023-54",
+      "rca": "450 - LEANDRO SOUZA",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 12,
+          "preco": 32.9,
+          "total": 394.8,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "664",
+          "descricao": "ESPUM CASA PERINI BRUT 750ML",
+          "qt": 6,
+          "preco": 38.9,
+          "total": 233.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "666",
+          "descricao": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 6,
+          "preco": 38.9,
+          "total": 233.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "2629",
+          "descricao": "GIN KOKU 700ML",
+          "qt": 2,
+          "preco": 117.6,
+          "total": 235.2,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "2628",
+          "descricao": "VODKA SUNTORY HAKU 700ML",
+          "qt": 1,
+          "preco": 179.9,
+          "total": 179.9,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "5038",
+          "descricao": "WHISKY JIM BEAM BLACK AGED 7Y 1L",
+          "qt": 1,
+          "preco": 149.0,
+          "total": 149.0,
+          "qt_faturada": 3.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "2684",
+          "descricao": "WHISKY SUNTORY CHITA 700ML",
+          "qt": 2,
+          "preco": 399.0,
+          "total": 798.0,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6c0cd10d88b45",
+      "subject": "PEDIDO CRC4 - SÃO GONÇALO 3",
+      "data_email": "2026-07-16",
+      "sistema": "CRC - 04",
+      "cod_cliente": "91991",
+      "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
+      "fantasia": "G.M.A.P. SUPERMERCADOS",
+      "cnpj": "05.546.194/0021-92",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN VUA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6c0cd10d88b45",
+      "subject": "PEDIDO CRC4 - SÃO GONÇALO 3",
+      "data_email": "2026-07-16",
+      "sistema": "CRC - 04",
+      "cod_cliente": "91991",
+      "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
+      "fantasia": "G.M.A.P. SUPERMERCADOS",
+      "cnpj": "05.546.194/0021-92",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 12,
+          "preco": 32.9,
+          "total": 394.8,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "664",
+          "descricao": "ESPUM CASA PERINI BRUT 750ML",
+          "qt": 6,
+          "preco": 38.9,
+          "total": 233.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "666",
+          "descricao": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 6,
+          "preco": 38.9,
+          "total": 233.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6c0992b730fdc",
+      "subject": "PEDIDO CRC4 - SJM 3",
+      "data_email": "2026-07-16",
+      "sistema": "CRC - 04",
+      "cod_cliente": "91990",
+      "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
+      "fantasia": "G.M.A.P. SUPERMERCADOS",
+      "cnpj": "05.546.194/0019-78",
+      "rca": "450 - LEANDRO SOUZA",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN E VERMELHA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6c0992b730fdc",
+      "subject": "PEDIDO CRC4 - SJM 3",
+      "data_email": "2026-07-16",
+      "sistema": "CRC - 04",
+      "cod_cliente": "91990",
+      "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
+      "fantasia": "G.M.A.P. SUPERMERCADOS",
+      "cnpj": "05.546.194/0019-78",
+      "rca": "450 - LEANDRO SOUZA",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 12,
+          "preco": 32.9,
+          "total": 394.8,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "664",
+          "descricao": "ESPUM CASA PERINI BRUT 750ML",
+          "qt": 6,
+          "preco": 38.9,
+          "total": 233.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "666",
+          "descricao": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 6,
+          "preco": 38.9,
+          "total": 233.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6c07420ee3044",
+      "subject": "PEDIDO CRC4 - PETROPOLIS 2",
+      "data_email": "2026-07-16",
+      "sistema": "CRC - 04",
+      "cod_cliente": "77080",
+      "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "05.546.194/0018-97",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6c04b54804211",
+      "subject": "PEDIDO CRC4 - SANTO CRISTO",
+      "data_email": "2026-07-16",
+      "sistema": "CRC - 04",
+      "cod_cliente": "91982",
+      "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
+      "fantasia": "G.M.A.P. SUPERMERCADOS",
+      "cnpj": "05.546.194/0017-06",
+      "rca": "450 - LEANDRO SOUZA",
+      "bonificacao": false,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6255",
+          "descricao": "MOVING HYDRO PROTEIN ADOÇADO 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "7207",
+          "descricao": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "7204",
+          "descricao": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6254",
+          "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "qt": 2,
+          "preco": 155.28,
+          "total": 310.56,
+          "qt_faturada": 1.0,
+          "status": "Parcial"
+        },
+        {
+          "cod_prod": "6253",
+          "descricao": "MOVING BOOSTER LIMAO 24X310ML",
+          "qt": 2,
+          "preco": 155.28,
+          "total": 310.56,
+          "qt_faturada": 1.0,
+          "status": "Parcial"
+        },
+        {
+          "cod_prod": "6334",
+          "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+          "qt": 2,
+          "preco": 155.28,
+          "total": 310.56,
+          "qt_faturada": 1.0,
+          "status": "Parcial"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6c04b54804211",
+      "subject": "PEDIDO CRC4 - SANTO CRISTO",
+      "data_email": "2026-07-16",
+      "sistema": "CRC - 04",
+      "cod_cliente": "91982",
+      "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
+      "fantasia": "G.M.A.P. SUPERMERCADOS",
+      "cnpj": "05.546.194/0017-06",
+      "rca": "450 - LEANDRO SOUZA",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 18,
+          "preco": 32.9,
+          "total": 592.2,
+          "qt_faturada": 18.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "664",
+          "descricao": "ESPUM CASA PERINI BRUT 750ML",
+          "qt": 6,
+          "preco": 38.9,
+          "total": 233.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "2781",
+          "descricao": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "qt": 6,
+          "preco": 38.9,
+          "total": 233.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "666",
+          "descricao": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 12,
+          "preco": 38.9,
+          "total": 466.8,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6c01d6074fa0a",
+      "subject": "PEDIDO CRC4 - PAVUNA",
+      "data_email": "2026-07-16",
+      "sistema": "CRC - 04",
+      "cod_cliente": "92001",
+      "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
+      "fantasia": "G.M.A.P. SUPERMERCADOS",
+      "cnpj": "05.546.194/0016-25",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6c01d6074fa0a",
+      "subject": "PEDIDO CRC4 - PAVUNA",
+      "data_email": "2026-07-16",
+      "sistema": "CRC - 04",
+      "cod_cliente": "92001",
+      "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
+      "fantasia": "G.M.A.P. SUPERMERCADOS",
+      "cnpj": "05.546.194/0016-25",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 12,
+          "preco": 32.9,
+          "total": 394.8,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "664",
+          "descricao": "ESPUM CASA PERINI BRUT 750ML",
+          "qt": 6,
+          "preco": 38.9,
+          "total": 233.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6bf9d50de5d7c",
+      "subject": "PEDIDO CRC4 - GMAP MARICÁ",
+      "data_email": "2026-07-16",
+      "sistema": "CRC - 04",
+      "cod_cliente": "77079",
+      "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "05.546.194/0015-44",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6255",
+          "descricao": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "7207",
+          "descricao": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "7204",
+          "descricao": "MOVING JUICE PROTEINA LARANJA 12X300ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "7206",
+          "descricao": "MOVING JUICE PROTEINA LIMAO 12X300ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6254",
+          "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "qt": 2,
+          "preco": 155.28,
+          "total": 310.56,
+          "qt_faturada": 1.0,
+          "status": "Parcial"
+        },
+        {
+          "cod_prod": "6253",
+          "descricao": "MOVING BOOSTER LIMAO 24X310ML",
+          "qt": 2,
+          "preco": 155.28,
+          "total": 310.56,
+          "qt_faturada": 1.0,
+          "status": "Parcial"
+        },
+        {
+          "cod_prod": "6334",
+          "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+          "qt": 2,
+          "preco": 155.28,
+          "total": 310.56,
+          "qt_faturada": 1.0,
+          "status": "Parcial"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6bf9d50de5d7c",
+      "subject": "PEDIDO CRC4 - GMAP MARICÁ",
+      "data_email": "2026-07-16",
+      "sistema": "CRC - 04",
+      "cod_cliente": "77079",
+      "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "05.546.194/0015-44",
+      "rca": "450 - LEANDRO SOUZA",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 60,
+          "preco": 32.9,
+          "total": 1974.0,
+          "qt_faturada": 60.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "666",
+          "descricao": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 6,
+          "preco": 38.9,
+          "total": 233.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "664",
+          "descricao": "ESPUM CASA PERINI BRUT 750ML",
+          "qt": 6,
+          "preco": 38.9,
+          "total": 233.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "2781",
+          "descricao": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "qt": 12,
+          "preco": 38.9,
+          "total": 466.8,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "2626",
+          "descricao": "GIN LARIOS ORIGINAL 700ML",
+          "qt": 12,
+          "preco": 40.0,
+          "total": 240.0,
+          "qt_faturada": 6.0,
+          "status": "Parcial"
+        },
+        {
+          "cod_prod": "5038",
+          "descricao": "WHISKY JIM BEAM BLACK AGED 7Y 1L",
+          "qt": 3,
+          "preco": 149.0,
+          "total": 447.0,
+          "qt_faturada": 3.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "484",
+          "descricao": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 12,
+          "preco": 94.0,
+          "total": 1128.0,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6bf43b9fe6c67",
+      "subject": "PEDIDO CRC4 - SJM 2",
+      "data_email": "2026-07-16",
+      "sistema": "CRC - 04",
+      "cod_cliente": "91998",
+      "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
+      "fantasia": "G.M.A.P. SUPERMERCADOS S.A.",
+      "cnpj": "05.546.194/0013-82",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6bf14f5a7cfba",
+      "subject": "PEDIDO CRC4 - GMAP PETROPOLIS",
+      "data_email": "2026-07-16",
+      "sistema": "CRC - 04",
+      "cod_cliente": "91987",
+      "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
+      "fantasia": "G.M.A.P. SUPERMERCADOS S.A.",
+      "cnpj": "05.546.194/0012-00",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN VERMELHA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6bf14f5a7cfba",
+      "subject": "PEDIDO CRC4 - GMAP PETROPOLIS",
+      "data_email": "2026-07-16",
+      "sistema": "CRC - 04",
+      "cod_cliente": "91987",
+      "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
+      "fantasia": "G.M.A.P. SUPERMERCADOS S.A.",
+      "cnpj": "05.546.194/0012-00",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "666",
+          "descricao": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 12,
+          "preco": 38.9,
+          "total": 466.8,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6bef0f507c96d",
+      "subject": "PEDIDO CRC4 - GMAP SJM",
+      "data_email": "2026-07-16",
+      "sistema": "CRC - 04",
+      "cod_cliente": "91986",
+      "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
+      "fantasia": "G.M.A.P. SUPERMERCADOS S.A.",
+      "cnpj": "05.546.194/0009-04",
+      "rca": "450 - LEANDRO SOUZA",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "status": "Faturado"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f6bef0f507c96d",
+      "subject": "PEDIDO CRC4 - GMAP SJM",
+      "data_email": "2026-07-16",
+      "sistema": "CRC - 04",
+      "cod_cliente": "91986",
+      "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
+      "fantasia": "G.M.A.P. SUPERMERCADOS S.A.",
+      "cnpj": "05.546.194/0009-04",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 12,
+          "preco": 32.9,
+          "total": 394.8,
+          "qt_faturada": 12.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "666",
+          "descricao": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "qt": 6,
+          "preco": 38.9,
+          "total": 233.4,
+          "qt_faturada": 6.0,
+          "status": "Faturado"
+        }
+      ]
+    }
+  ]
 };
