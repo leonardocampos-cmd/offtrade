@@ -24300,7 +24300,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "23/07/2026 13:27",
+  "atualizado_em": "23/07/2026 13:38",
   "comparativo": [
     {
       "msg_id": "19f8f0d0054f43bd",
@@ -24323,7 +24323,8 @@ const AGENDAMENTO_DATA = {
           "preco": 118.0,
           "total": 1416.0,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         }
       ]
     },
@@ -24348,7 +24349,8 @@ const AGENDAMENTO_DATA = {
           "preco": 32.9,
           "total": 592.2,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         }
       ]
     },
@@ -24373,7 +24375,8 @@ const AGENDAMENTO_DATA = {
           "preco": 678.5,
           "total": 1357.8,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "3789",
@@ -24382,7 +24385,8 @@ const AGENDAMENTO_DATA = {
           "preco": 426.0,
           "total": 852.0,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "2848",
@@ -24391,7 +24395,8 @@ const AGENDAMENTO_DATA = {
           "preco": 45.0,
           "total": 270.0,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "2704",
@@ -24400,7 +24405,8 @@ const AGENDAMENTO_DATA = {
           "preco": 25.3,
           "total": 303.6,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         }
       ]
     },
@@ -24425,7 +24431,8 @@ const AGENDAMENTO_DATA = {
           "preco": 678.9,
           "total": 1357.8,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "3789",
@@ -24434,7 +24441,8 @@ const AGENDAMENTO_DATA = {
           "preco": 426.0,
           "total": 852.0,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "2848",
@@ -24443,7 +24451,8 @@ const AGENDAMENTO_DATA = {
           "preco": 56.9,
           "total": 3414.0,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "2704",
@@ -24452,7 +24461,8 @@ const AGENDAMENTO_DATA = {
           "preco": 25.9,
           "total": 310.8,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         }
       ]
     },
@@ -24477,7 +24487,8 @@ const AGENDAMENTO_DATA = {
           "preco": 6.0,
           "total": 539.4,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "70",
@@ -24486,7 +24497,8 @@ const AGENDAMENTO_DATA = {
           "preco": 6.0,
           "total": 623.4,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         }
       ]
     },
@@ -24511,7 +24523,8 @@ const AGENDAMENTO_DATA = {
           "preco": 6.0,
           "total": 539.4,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "70",
@@ -24520,7 +24533,8 @@ const AGENDAMENTO_DATA = {
           "preco": 6.0,
           "total": 623.4,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         }
       ]
     },
@@ -24545,7 +24559,8 @@ const AGENDAMENTO_DATA = {
           "preco": 6.0,
           "total": 539.4,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "70",
@@ -24554,7 +24569,8 @@ const AGENDAMENTO_DATA = {
           "preco": 6.0,
           "total": 623.4,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         }
       ]
     },
@@ -24579,6 +24595,7 @@ const AGENDAMENTO_DATA = {
           "preco": 59.9,
           "total": 718.8,
           "qt_faturada": 12.0,
+          "valor_faturado": 718.8,
           "status": "Faturado"
         },
         {
@@ -24588,6 +24605,7 @@ const AGENDAMENTO_DATA = {
           "preco": 59.9,
           "total": 718.8,
           "qt_faturada": 12.0,
+          "valor_faturado": 718.8,
           "status": "Faturado"
         },
         {
@@ -24597,6 +24615,7 @@ const AGENDAMENTO_DATA = {
           "preco": 73.0,
           "total": 438.0,
           "qt_faturada": 6.0,
+          "valor_faturado": 438.0,
           "status": "Faturado"
         },
         {
@@ -24606,6 +24625,7 @@ const AGENDAMENTO_DATA = {
           "preco": 21.9,
           "total": 262.8,
           "qt_faturada": 12.0,
+          "valor_faturado": 262.8,
           "status": "Faturado"
         },
         {
@@ -24615,6 +24635,7 @@ const AGENDAMENTO_DATA = {
           "preco": 21.9,
           "total": 262.8,
           "qt_faturada": 12.0,
+          "valor_faturado": 262.8,
           "status": "Faturado"
         },
         {
@@ -24624,6 +24645,7 @@ const AGENDAMENTO_DATA = {
           "preco": 70.9,
           "total": 850.8,
           "qt_faturada": 12.0,
+          "valor_faturado": 850.8,
           "status": "Faturado"
         }
       ]
@@ -24649,6 +24671,7 @@ const AGENDAMENTO_DATA = {
           "preco": 197.4,
           "total": 394.8,
           "qt_faturada": 2.0,
+          "valor_faturado": 394.8,
           "status": "Faturado"
         },
         {
@@ -24658,6 +24681,7 @@ const AGENDAMENTO_DATA = {
           "preco": 197.4,
           "total": 394.8,
           "qt_faturada": 2.0,
+          "valor_faturado": 394.8,
           "status": "Faturado"
         }
       ]
@@ -24683,6 +24707,7 @@ const AGENDAMENTO_DATA = {
           "preco": 179.9,
           "total": 359.8,
           "qt_faturada": 3.0,
+          "valor_faturado": 539.7,
           "status": "Faturado"
         },
         {
@@ -24692,6 +24717,7 @@ const AGENDAMENTO_DATA = {
           "preco": 29.9,
           "total": 358.8,
           "qt_faturada": 18.0,
+          "valor_faturado": 538.2,
           "status": "Faturado"
         }
       ]
@@ -24717,6 +24743,7 @@ const AGENDAMENTO_DATA = {
           "preco": 179.9,
           "total": 179.9,
           "qt_faturada": 3.0,
+          "valor_faturado": 539.7,
           "status": "Faturado"
         },
         {
@@ -24726,6 +24753,7 @@ const AGENDAMENTO_DATA = {
           "preco": 29.9,
           "total": 179.4,
           "qt_faturada": 18.0,
+          "valor_faturado": 538.2,
           "status": "Faturado"
         }
       ]
@@ -24751,6 +24779,7 @@ const AGENDAMENTO_DATA = {
           "preco": 179.9,
           "total": 359.8,
           "qt_faturada": 3.0,
+          "valor_faturado": 539.7,
           "status": "Faturado"
         },
         {
@@ -24760,6 +24789,7 @@ const AGENDAMENTO_DATA = {
           "preco": 29.9,
           "total": 358.8,
           "qt_faturada": 18.0,
+          "valor_faturado": 538.2,
           "status": "Faturado"
         }
       ]
@@ -24785,7 +24815,8 @@ const AGENDAMENTO_DATA = {
           "preco": 11.9,
           "total": 285.6,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "663",
@@ -24794,6 +24825,7 @@ const AGENDAMENTO_DATA = {
           "preco": 34.5,
           "total": 207.0,
           "qt_faturada": 6.0,
+          "valor_faturado": 207.0,
           "status": "Faturado"
         },
         {
@@ -24803,7 +24835,8 @@ const AGENDAMENTO_DATA = {
           "preco": 10.85,
           "total": 65.1,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "1212",
@@ -24812,6 +24845,7 @@ const AGENDAMENTO_DATA = {
           "preco": 22.83,
           "total": 273.96,
           "qt_faturada": 6.0,
+          "valor_faturado": 136.98,
           "status": "Parcial"
         },
         {
@@ -24821,6 +24855,7 @@ const AGENDAMENTO_DATA = {
           "preco": 40.41,
           "total": 40.41,
           "qt_faturada": 6.0,
+          "valor_faturado": 242.46,
           "status": "Faturado"
         },
         {
@@ -24830,7 +24865,8 @@ const AGENDAMENTO_DATA = {
           "preco": 86.66,
           "total": 86.66,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "4374",
@@ -24839,7 +24875,8 @@ const AGENDAMENTO_DATA = {
           "preco": 86.66,
           "total": 86.66,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "3819",
@@ -24848,6 +24885,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.66,
           "total": 86.66,
           "qt_faturada": 6.0,
+          "valor_faturado": 519.96,
           "status": "Faturado"
         },
         {
@@ -24857,7 +24895,8 @@ const AGENDAMENTO_DATA = {
           "preco": 86.66,
           "total": 86.66,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "1834",
@@ -24866,6 +24905,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.66,
           "total": 86.66,
           "qt_faturada": 2.0,
+          "valor_faturado": 173.32,
           "status": "Faturado"
         },
         {
@@ -24875,7 +24915,8 @@ const AGENDAMENTO_DATA = {
           "preco": 86.66,
           "total": 86.66,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "479",
@@ -24884,6 +24925,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.66,
           "total": 86.66,
           "qt_faturada": 12.0,
+          "valor_faturado": 1039.92,
           "status": "Faturado"
         }
       ]
@@ -24909,7 +24951,8 @@ const AGENDAMENTO_DATA = {
           "preco": 11.9,
           "total": 142.8,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "266",
@@ -24918,6 +24961,7 @@ const AGENDAMENTO_DATA = {
           "preco": 80.57,
           "total": 966.84,
           "qt_faturada": 1.0,
+          "valor_faturado": 80.57,
           "status": "Parcial"
         },
         {
@@ -24927,6 +24971,7 @@ const AGENDAMENTO_DATA = {
           "preco": 22.83,
           "total": 136.98,
           "qt_faturada": 6.0,
+          "valor_faturado": 136.98,
           "status": "Faturado"
         },
         {
@@ -24936,7 +24981,8 @@ const AGENDAMENTO_DATA = {
           "preco": 10.05,
           "total": 60.3,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "66",
@@ -24945,7 +24991,8 @@ const AGENDAMENTO_DATA = {
           "preco": 145.11,
           "total": 870.66,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "4374",
@@ -24954,7 +25001,8 @@ const AGENDAMENTO_DATA = {
           "preco": 145.11,
           "total": 870.66,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "479",
@@ -24963,6 +25011,7 @@ const AGENDAMENTO_DATA = {
           "preco": 26.65,
           "total": 159.9,
           "qt_faturada": 12.0,
+          "valor_faturado": 319.8,
           "status": "Faturado"
         },
         {
@@ -24972,6 +25021,7 @@ const AGENDAMENTO_DATA = {
           "preco": 26.65,
           "total": 159.9,
           "qt_faturada": 6.0,
+          "valor_faturado": 159.9,
           "status": "Faturado"
         },
         {
@@ -24981,6 +25031,7 @@ const AGENDAMENTO_DATA = {
           "preco": 107.3,
           "total": 643.8,
           "qt_faturada": 1.0,
+          "valor_faturado": 107.3,
           "status": "Parcial"
         },
         {
@@ -24990,7 +25041,8 @@ const AGENDAMENTO_DATA = {
           "preco": 107.3,
           "total": 643.8,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "231",
@@ -24999,7 +25051,8 @@ const AGENDAMENTO_DATA = {
           "preco": 64.91,
           "total": 778.92,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "318",
@@ -25008,7 +25061,8 @@ const AGENDAMENTO_DATA = {
           "preco": 64.91,
           "total": 778.92,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "411",
@@ -25017,7 +25071,8 @@ const AGENDAMENTO_DATA = {
           "preco": 26.65,
           "total": 319.8,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "412",
@@ -25026,7 +25081,8 @@ const AGENDAMENTO_DATA = {
           "preco": 26.65,
           "total": 319.8,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "413",
@@ -25035,7 +25091,8 @@ const AGENDAMENTO_DATA = {
           "preco": 64.91,
           "total": 778.92,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "414",
@@ -25044,7 +25101,8 @@ const AGENDAMENTO_DATA = {
           "preco": 19.3,
           "total": 231.6,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         }
       ]
     },
@@ -25069,7 +25127,8 @@ const AGENDAMENTO_DATA = {
           "preco": 11.9,
           "total": 285.6,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "266",
@@ -25078,6 +25137,7 @@ const AGENDAMENTO_DATA = {
           "preco": 80.57,
           "total": 80.57,
           "qt_faturada": 1.0,
+          "valor_faturado": 80.57,
           "status": "Faturado"
         },
         {
@@ -25087,6 +25147,7 @@ const AGENDAMENTO_DATA = {
           "preco": 11.72,
           "total": 11.72,
           "qt_faturada": 6.0,
+          "valor_faturado": 70.32,
           "status": "Faturado"
         },
         {
@@ -25096,7 +25157,8 @@ const AGENDAMENTO_DATA = {
           "preco": 25.85,
           "total": 25.85,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "66",
@@ -25105,7 +25167,8 @@ const AGENDAMENTO_DATA = {
           "preco": 145.11,
           "total": 145.11,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "4374",
@@ -25114,7 +25177,8 @@ const AGENDAMENTO_DATA = {
           "preco": 145.11,
           "total": 145.11,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "479",
@@ -25123,6 +25187,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.66,
           "total": 86.66,
           "qt_faturada": 18.0,
+          "valor_faturado": 1559.88,
           "status": "Faturado"
         },
         {
@@ -25132,7 +25197,8 @@ const AGENDAMENTO_DATA = {
           "preco": 257.94,
           "total": 257.94,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "66",
@@ -25141,7 +25207,8 @@ const AGENDAMENTO_DATA = {
           "preco": 38.14,
           "total": 38.14,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "66",
@@ -25150,7 +25217,8 @@ const AGENDAMENTO_DATA = {
           "preco": 38.14,
           "total": 38.14,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "66",
@@ -25159,7 +25227,8 @@ const AGENDAMENTO_DATA = {
           "preco": 38.14,
           "total": 38.14,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "66",
@@ -25168,7 +25237,8 @@ const AGENDAMENTO_DATA = {
           "preco": 69.41,
           "total": 69.41,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "66",
@@ -25177,7 +25247,8 @@ const AGENDAMENTO_DATA = {
           "preco": 38.14,
           "total": 38.14,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "66",
@@ -25186,7 +25257,8 @@ const AGENDAMENTO_DATA = {
           "preco": 38.14,
           "total": 38.14,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "66",
@@ -25195,7 +25267,8 @@ const AGENDAMENTO_DATA = {
           "preco": 38.14,
           "total": 38.14,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "66",
@@ -25204,7 +25277,8 @@ const AGENDAMENTO_DATA = {
           "preco": 38.14,
           "total": 38.14,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "66",
@@ -25213,7 +25287,8 @@ const AGENDAMENTO_DATA = {
           "preco": 38.14,
           "total": 38.14,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "1834",
@@ -25222,6 +25297,7 @@ const AGENDAMENTO_DATA = {
           "preco": 47.17,
           "total": 47.17,
           "qt_faturada": 3.0,
+          "valor_faturado": 141.51,
           "status": "Faturado"
         }
       ]
@@ -25247,7 +25323,8 @@ const AGENDAMENTO_DATA = {
           "preco": 11.9,
           "total": 285.6,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "3919",
@@ -25256,7 +25333,8 @@ const AGENDAMENTO_DATA = {
           "preco": 10.05,
           "total": 60.3,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "663",
@@ -25265,6 +25343,7 @@ const AGENDAMENTO_DATA = {
           "preco": 34.5,
           "total": 69.0,
           "qt_faturada": 3.0,
+          "valor_faturado": 103.5,
           "status": "Faturado"
         },
         {
@@ -25274,7 +25353,8 @@ const AGENDAMENTO_DATA = {
           "preco": 25.85,
           "total": 155.1,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "99",
@@ -25283,6 +25363,7 @@ const AGENDAMENTO_DATA = {
           "preco": 64.91,
           "total": 129.82,
           "qt_faturada": 1.0,
+          "valor_faturado": 64.91,
           "status": "Parcial"
         },
         {
@@ -25292,7 +25373,8 @@ const AGENDAMENTO_DATA = {
           "preco": 38.14,
           "total": 76.28,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "574",
@@ -25301,7 +25383,8 @@ const AGENDAMENTO_DATA = {
           "preco": 38.14,
           "total": 76.28,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "418",
@@ -25310,7 +25393,8 @@ const AGENDAMENTO_DATA = {
           "preco": 34.9,
           "total": 34.9,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "177",
@@ -25319,7 +25403,8 @@ const AGENDAMENTO_DATA = {
           "preco": 34.9,
           "total": 34.9,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "479",
@@ -25328,6 +25413,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.14,
           "total": 76.28,
           "qt_faturada": 24.0,
+          "valor_faturado": 915.36,
           "status": "Faturado"
         },
         {
@@ -25337,7 +25423,8 @@ const AGENDAMENTO_DATA = {
           "preco": 34.9,
           "total": 34.9,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "4374",
@@ -25346,7 +25433,8 @@ const AGENDAMENTO_DATA = {
           "preco": 38.14,
           "total": 38.14,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "4378",
@@ -25355,7 +25443,8 @@ const AGENDAMENTO_DATA = {
           "preco": 38.14,
           "total": 38.14,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "479",
@@ -25364,6 +25453,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.14,
           "total": 38.14,
           "qt_faturada": 24.0,
+          "valor_faturado": 915.36,
           "status": "Faturado"
         },
         {
@@ -25373,6 +25463,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.14,
           "total": 38.14,
           "qt_faturada": 24.0,
+          "valor_faturado": 915.36,
           "status": "Faturado"
         },
         {
@@ -25382,6 +25473,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.14,
           "total": 38.14,
           "qt_faturada": 24.0,
+          "valor_faturado": 915.36,
           "status": "Faturado"
         },
         {
@@ -25391,7 +25483,8 @@ const AGENDAMENTO_DATA = {
           "preco": 107.3,
           "total": 107.3,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         }
       ]
     },
@@ -25416,6 +25509,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -25425,6 +25519,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -25434,6 +25529,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 431.4,
           "qt_faturada": 5.0,
+          "valor_faturado": 431.4,
           "status": "Faturado"
         }
       ]
@@ -25459,6 +25555,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -25468,6 +25565,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -25477,6 +25575,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 431.4,
           "qt_faturada": 5.0,
+          "valor_faturado": 431.4,
           "status": "Faturado"
         }
       ]
@@ -25502,6 +25601,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -25511,6 +25611,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -25520,6 +25621,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 431.4,
           "qt_faturada": 5.0,
+          "valor_faturado": 431.4,
           "status": "Faturado"
         }
       ]
@@ -25545,6 +25647,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -25554,6 +25657,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -25563,6 +25667,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 431.4,
           "qt_faturada": 5.0,
+          "valor_faturado": 431.4,
           "status": "Faturado"
         },
         {
@@ -25572,6 +25677,7 @@ const AGENDAMENTO_DATA = {
           "preco": 155.28,
           "total": 155.28,
           "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
           "status": "Faturado"
         }
       ]
@@ -25597,6 +25703,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -25606,6 +25713,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -25615,6 +25723,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 431.4,
           "qt_faturada": 5.0,
+          "valor_faturado": 431.4,
           "status": "Faturado"
         }
       ]
@@ -25640,7 +25749,8 @@ const AGENDAMENTO_DATA = {
           "preco": 11.9,
           "total": 285.6,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "663",
@@ -25649,6 +25759,7 @@ const AGENDAMENTO_DATA = {
           "preco": 34.5,
           "total": 207.0,
           "qt_faturada": 6.0,
+          "valor_faturado": 207.0,
           "status": "Faturado"
         },
         {
@@ -25658,7 +25769,8 @@ const AGENDAMENTO_DATA = {
           "preco": 10.05,
           "total": 60.3,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "1212",
@@ -25667,6 +25779,7 @@ const AGENDAMENTO_DATA = {
           "preco": 22.83,
           "total": 136.98,
           "qt_faturada": 6.0,
+          "valor_faturado": 136.98,
           "status": "Faturado"
         },
         {
@@ -25676,6 +25789,7 @@ const AGENDAMENTO_DATA = {
           "preco": 19.31,
           "total": 231.72,
           "qt_faturada": 12.0,
+          "valor_faturado": 231.72,
           "status": "Faturado"
         },
         {
@@ -25685,6 +25799,7 @@ const AGENDAMENTO_DATA = {
           "preco": 40.44,
           "total": 242.64,
           "qt_faturada": 6.0,
+          "valor_faturado": 242.64,
           "status": "Faturado"
         },
         {
@@ -25694,7 +25809,8 @@ const AGENDAMENTO_DATA = {
           "preco": 145.11,
           "total": 145.11,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "4374",
@@ -25703,7 +25819,8 @@ const AGENDAMENTO_DATA = {
           "preco": 86.66,
           "total": 86.66,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "3819",
@@ -25712,6 +25829,7 @@ const AGENDAMENTO_DATA = {
           "preco": 12.55,
           "total": 75.3,
           "qt_faturada": 6.0,
+          "valor_faturado": 75.3,
           "status": "Faturado"
         },
         {
@@ -25721,6 +25839,7 @@ const AGENDAMENTO_DATA = {
           "preco": 64.91,
           "total": 64.91,
           "qt_faturada": 1.0,
+          "valor_faturado": 64.91,
           "status": "Faturado"
         },
         {
@@ -25730,7 +25849,8 @@ const AGENDAMENTO_DATA = {
           "preco": 38.14,
           "total": 76.28,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "66",
@@ -25739,7 +25859,8 @@ const AGENDAMENTO_DATA = {
           "preco": 19.3,
           "total": 19.3,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "418",
@@ -25748,7 +25869,8 @@ const AGENDAMENTO_DATA = {
           "preco": 12.95,
           "total": 155.4,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "1834",
@@ -25757,6 +25879,7 @@ const AGENDAMENTO_DATA = {
           "preco": 47.17,
           "total": 94.34,
           "qt_faturada": 2.0,
+          "valor_faturado": 94.34,
           "status": "Faturado"
         },
         {
@@ -25766,6 +25889,7 @@ const AGENDAMENTO_DATA = {
           "preco": 14.32,
           "total": 171.84,
           "qt_faturada": 12.0,
+          "valor_faturado": 171.84,
           "status": "Faturado"
         }
       ]
@@ -25791,7 +25915,8 @@ const AGENDAMENTO_DATA = {
           "preco": 11.9,
           "total": 142.8,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "266",
@@ -25800,6 +25925,7 @@ const AGENDAMENTO_DATA = {
           "preco": 80.57,
           "total": 80.57,
           "qt_faturada": 1.0,
+          "valor_faturado": 80.57,
           "status": "Faturado"
         },
         {
@@ -25809,6 +25935,7 @@ const AGENDAMENTO_DATA = {
           "preco": 22.83,
           "total": 136.98,
           "qt_faturada": 6.0,
+          "valor_faturado": 136.98,
           "status": "Faturado"
         },
         {
@@ -25818,7 +25945,8 @@ const AGENDAMENTO_DATA = {
           "preco": 10.05,
           "total": 60.3,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "66",
@@ -25827,7 +25955,8 @@ const AGENDAMENTO_DATA = {
           "preco": 19.3,
           "total": 19.3,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "218",
@@ -25836,7 +25965,8 @@ const AGENDAMENTO_DATA = {
           "preco": 145.11,
           "total": 145.11,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "4374",
@@ -25845,7 +25975,8 @@ const AGENDAMENTO_DATA = {
           "preco": 86.66,
           "total": 86.66,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "479",
@@ -25854,6 +25985,7 @@ const AGENDAMENTO_DATA = {
           "preco": 14.33,
           "total": 171.96,
           "qt_faturada": 12.0,
+          "valor_faturado": 171.96,
           "status": "Faturado"
         },
         {
@@ -25863,6 +25995,7 @@ const AGENDAMENTO_DATA = {
           "preco": 26.65,
           "total": 159.9,
           "qt_faturada": 6.0,
+          "valor_faturado": 159.9,
           "status": "Faturado"
         },
         {
@@ -25872,6 +26005,7 @@ const AGENDAMENTO_DATA = {
           "preco": 107.3,
           "total": 107.3,
           "qt_faturada": 1.0,
+          "valor_faturado": 107.3,
           "status": "Faturado"
         },
         {
@@ -25881,6 +26015,7 @@ const AGENDAMENTO_DATA = {
           "preco": 107.3,
           "total": 107.3,
           "qt_faturada": 1.0,
+          "valor_faturado": 107.3,
           "status": "Faturado"
         },
         {
@@ -25890,6 +26025,7 @@ const AGENDAMENTO_DATA = {
           "preco": 64.91,
           "total": 64.91,
           "qt_faturada": 1.0,
+          "valor_faturado": 64.91,
           "status": "Faturado"
         },
         {
@@ -25899,6 +26035,7 @@ const AGENDAMENTO_DATA = {
           "preco": 42.1,
           "total": 42.1,
           "qt_faturada": 1.0,
+          "valor_faturado": 42.1,
           "status": "Faturado"
         },
         {
@@ -25908,6 +26045,7 @@ const AGENDAMENTO_DATA = {
           "preco": 12.55,
           "total": 75.3,
           "qt_faturada": 6.0,
+          "valor_faturado": 75.3,
           "status": "Faturado"
         },
         {
@@ -25917,6 +26055,7 @@ const AGENDAMENTO_DATA = {
           "preco": 19.31,
           "total": 231.72,
           "qt_faturada": 12.0,
+          "valor_faturado": 231.72,
           "status": "Faturado"
         },
         {
@@ -25926,7 +26065,8 @@ const AGENDAMENTO_DATA = {
           "preco": 12.95,
           "total": 155.4,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "129",
@@ -25935,6 +26075,7 @@ const AGENDAMENTO_DATA = {
           "preco": 59.0,
           "total": 118.0,
           "qt_faturada": 2.0,
+          "valor_faturado": 118.0,
           "status": "Faturado"
         },
         {
@@ -25944,6 +26085,7 @@ const AGENDAMENTO_DATA = {
           "preco": 19.3,
           "total": 19.3,
           "qt_faturada": 1.0,
+          "valor_faturado": 19.3,
           "status": "Faturado"
         }
       ]
@@ -25969,7 +26111,8 @@ const AGENDAMENTO_DATA = {
           "preco": 11.9,
           "total": 285.6,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "266",
@@ -25978,6 +26121,7 @@ const AGENDAMENTO_DATA = {
           "preco": 80.57,
           "total": 80.57,
           "qt_faturada": 1.0,
+          "valor_faturado": 80.57,
           "status": "Faturado"
         },
         {
@@ -25987,6 +26131,7 @@ const AGENDAMENTO_DATA = {
           "preco": 11.72,
           "total": 70.32,
           "qt_faturada": 6.0,
+          "valor_faturado": 70.32,
           "status": "Faturado"
         },
         {
@@ -25996,7 +26141,8 @@ const AGENDAMENTO_DATA = {
           "preco": 25.85,
           "total": 155.1,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "66",
@@ -26005,7 +26151,8 @@ const AGENDAMENTO_DATA = {
           "preco": 19.3,
           "total": 19.3,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "218",
@@ -26014,7 +26161,8 @@ const AGENDAMENTO_DATA = {
           "preco": 145.11,
           "total": 145.11,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "4374",
@@ -26023,7 +26171,8 @@ const AGENDAMENTO_DATA = {
           "preco": 86.66,
           "total": 86.66,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "479",
@@ -26032,6 +26181,7 @@ const AGENDAMENTO_DATA = {
           "preco": 14.33,
           "total": 257.94,
           "qt_faturada": 18.0,
+          "valor_faturado": 257.94,
           "status": "Faturado"
         },
         {
@@ -26041,6 +26191,7 @@ const AGENDAMENTO_DATA = {
           "preco": 26.65,
           "total": 159.9,
           "qt_faturada": 6.0,
+          "valor_faturado": 159.9,
           "status": "Faturado"
         },
         {
@@ -26050,7 +26201,8 @@ const AGENDAMENTO_DATA = {
           "preco": 38.14,
           "total": 76.28,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "51",
@@ -26059,7 +26211,8 @@ const AGENDAMENTO_DATA = {
           "preco": 38.14,
           "total": 76.28,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "99",
@@ -26068,6 +26221,7 @@ const AGENDAMENTO_DATA = {
           "preco": 64.91,
           "total": 64.91,
           "qt_faturada": 1.0,
+          "valor_faturado": 64.91,
           "status": "Faturado"
         },
         {
@@ -26077,6 +26231,7 @@ const AGENDAMENTO_DATA = {
           "preco": 32.75,
           "total": 32.75,
           "qt_faturada": 1.0,
+          "valor_faturado": 32.75,
           "status": "Faturado"
         },
         {
@@ -26086,6 +26241,7 @@ const AGENDAMENTO_DATA = {
           "preco": 12.55,
           "total": 75.3,
           "qt_faturada": 6.0,
+          "valor_faturado": 75.3,
           "status": "Faturado"
         },
         {
@@ -26095,6 +26251,7 @@ const AGENDAMENTO_DATA = {
           "preco": 19.31,
           "total": 231.72,
           "qt_faturada": 12.0,
+          "valor_faturado": 231.72,
           "status": "Faturado"
         },
         {
@@ -26104,7 +26261,8 @@ const AGENDAMENTO_DATA = {
           "preco": 12.95,
           "total": 155.4,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "178",
@@ -26113,6 +26271,7 @@ const AGENDAMENTO_DATA = {
           "preco": 20.51,
           "total": 61.53,
           "qt_faturada": 3.0,
+          "valor_faturado": 61.53,
           "status": "Faturado"
         },
         {
@@ -26122,6 +26281,7 @@ const AGENDAMENTO_DATA = {
           "preco": 19.3,
           "total": 19.3,
           "qt_faturada": 1.0,
+          "valor_faturado": 19.3,
           "status": "Faturado"
         },
         {
@@ -26131,6 +26291,7 @@ const AGENDAMENTO_DATA = {
           "preco": 47.17,
           "total": 141.51,
           "qt_faturada": 3.0,
+          "valor_faturado": 141.51,
           "status": "Faturado"
         }
       ]
@@ -26156,7 +26317,8 @@ const AGENDAMENTO_DATA = {
           "preco": 11.9,
           "total": 285.6,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "3919",
@@ -26165,7 +26327,8 @@ const AGENDAMENTO_DATA = {
           "preco": 10.05,
           "total": 60.3,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "663",
@@ -26174,6 +26337,7 @@ const AGENDAMENTO_DATA = {
           "preco": 34.5,
           "total": 103.5,
           "qt_faturada": 3.0,
+          "valor_faturado": 103.5,
           "status": "Faturado"
         },
         {
@@ -26183,7 +26347,8 @@ const AGENDAMENTO_DATA = {
           "preco": 25.85,
           "total": 155.1,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "99",
@@ -26192,6 +26357,7 @@ const AGENDAMENTO_DATA = {
           "preco": 64.91,
           "total": 64.91,
           "qt_faturada": 1.0,
+          "valor_faturado": 64.91,
           "status": "Faturado"
         },
         {
@@ -26201,7 +26367,8 @@ const AGENDAMENTO_DATA = {
           "preco": 38.14,
           "total": 38.14,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "54",
@@ -26210,7 +26377,8 @@ const AGENDAMENTO_DATA = {
           "preco": 38.14,
           "total": 76.28,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "66",
@@ -26219,7 +26387,8 @@ const AGENDAMENTO_DATA = {
           "preco": 19.3,
           "total": 38.6,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "178",
@@ -26228,6 +26397,7 @@ const AGENDAMENTO_DATA = {
           "preco": 20.51,
           "total": 123.06,
           "qt_faturada": 6.0,
+          "valor_faturado": 123.06,
           "status": "Faturado"
         },
         {
@@ -26237,7 +26407,8 @@ const AGENDAMENTO_DATA = {
           "preco": 12.95,
           "total": 155.4,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "235",
@@ -26246,6 +26417,7 @@ const AGENDAMENTO_DATA = {
           "preco": 19.31,
           "total": 231.72,
           "qt_faturada": 12.0,
+          "valor_faturado": 231.72,
           "status": "Faturado"
         },
         {
@@ -26255,7 +26427,8 @@ const AGENDAMENTO_DATA = {
           "preco": 145.11,
           "total": 145.11,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "4374",
@@ -26264,7 +26437,8 @@ const AGENDAMENTO_DATA = {
           "preco": 86.66,
           "total": 86.66,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "1834",
@@ -26273,6 +26447,7 @@ const AGENDAMENTO_DATA = {
           "preco": 47.17,
           "total": 94.34,
           "qt_faturada": 2.0,
+          "valor_faturado": 94.34,
           "status": "Faturado"
         },
         {
@@ -26282,6 +26457,7 @@ const AGENDAMENTO_DATA = {
           "preco": 12.55,
           "total": 75.3,
           "qt_faturada": 6.0,
+          "valor_faturado": 75.3,
           "status": "Faturado"
         },
         {
@@ -26291,6 +26467,7 @@ const AGENDAMENTO_DATA = {
           "preco": 14.33,
           "total": 343.92,
           "qt_faturada": 24.0,
+          "valor_faturado": 343.92,
           "status": "Faturado"
         },
         {
@@ -26300,7 +26477,8 @@ const AGENDAMENTO_DATA = {
           "preco": 107.3,
           "total": 107.3,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         }
       ]
     },
@@ -26325,6 +26503,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -26334,6 +26513,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -26343,6 +26523,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 431.4,
           "qt_faturada": 5.0,
+          "valor_faturado": 431.4,
           "status": "Faturado"
         }
       ]
@@ -26368,6 +26549,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -26377,6 +26559,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -26386,6 +26569,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 431.4,
           "qt_faturada": 5.0,
+          "valor_faturado": 431.4,
           "status": "Faturado"
         }
       ]
@@ -26411,6 +26595,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -26420,6 +26605,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -26429,6 +26615,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 431.4,
           "qt_faturada": 5.0,
+          "valor_faturado": 431.4,
           "status": "Faturado"
         }
       ]
@@ -26454,6 +26641,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -26463,6 +26651,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -26472,6 +26661,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 431.4,
           "qt_faturada": 5.0,
+          "valor_faturado": 431.4,
           "status": "Faturado"
         },
         {
@@ -26481,6 +26671,7 @@ const AGENDAMENTO_DATA = {
           "preco": 155.28,
           "total": 155.28,
           "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
           "status": "Faturado"
         }
       ]
@@ -26506,6 +26697,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -26515,6 +26707,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -26524,6 +26717,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 431.4,
           "qt_faturada": 5.0,
+          "valor_faturado": 431.4,
           "status": "Faturado"
         }
       ]
@@ -26549,6 +26743,7 @@ const AGENDAMENTO_DATA = {
           "preco": 33.9,
           "total": 1220.4,
           "qt_faturada": 36.0,
+          "valor_faturado": 1220.4,
           "status": "Faturado"
         },
         {
@@ -26558,6 +26753,7 @@ const AGENDAMENTO_DATA = {
           "preco": 17.9,
           "total": 644.4,
           "qt_faturada": 36.0,
+          "valor_faturado": 644.4,
           "status": "Faturado"
         },
         {
@@ -26567,6 +26763,7 @@ const AGENDAMENTO_DATA = {
           "preco": 13.9,
           "total": 667.2,
           "qt_faturada": 48.0,
+          "valor_faturado": 667.2,
           "status": "Faturado"
         },
         {
@@ -26576,6 +26773,7 @@ const AGENDAMENTO_DATA = {
           "preco": 13.9,
           "total": 667.2,
           "qt_faturada": 36.0,
+          "valor_faturado": 500.4,
           "status": "Faturado"
         },
         {
@@ -26585,6 +26783,7 @@ const AGENDAMENTO_DATA = {
           "preco": 17.9,
           "total": 644.4,
           "qt_faturada": 24.0,
+          "valor_faturado": 429.6,
           "status": "Parcial"
         },
         {
@@ -26594,6 +26793,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.9,
           "total": 466.8,
           "qt_faturada": 12.0,
+          "valor_faturado": 466.8,
           "status": "Faturado"
         },
         {
@@ -26603,7 +26803,8 @@ const AGENDAMENTO_DATA = {
           "preco": 38.9,
           "total": 466.8,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         }
       ]
     },
@@ -26628,6 +26829,7 @@ const AGENDAMENTO_DATA = {
           "preco": 599,
           "total": 1797,
           "qt_faturada": 3.0,
+          "valor_faturado": 1797.0,
           "status": "Faturado"
         },
         {
@@ -26637,7 +26839,8 @@ const AGENDAMENTO_DATA = {
           "preco": 125.49,
           "total": 2258.82,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         }
       ]
     },
@@ -26662,6 +26865,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 862.8,
           "qt_faturada": 10.0,
+          "valor_faturado": 862.8,
           "status": "Faturado"
         },
         {
@@ -26671,6 +26875,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 431.4,
           "qt_faturada": 5.0,
+          "valor_faturado": 431.4,
           "status": "Faturado"
         },
         {
@@ -26680,6 +26885,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 1294.2,
           "qt_faturada": 15.0,
+          "valor_faturado": 1294.2,
           "status": "Faturado"
         },
         {
@@ -26689,6 +26895,7 @@ const AGENDAMENTO_DATA = {
           "preco": 155.28,
           "total": 155.28,
           "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
           "status": "Faturado"
         },
         {
@@ -26698,6 +26905,7 @@ const AGENDAMENTO_DATA = {
           "preco": 155.28,
           "total": 155.28,
           "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
           "status": "Faturado"
         }
       ]
@@ -26723,6 +26931,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 862.8,
           "qt_faturada": 10.0,
+          "valor_faturado": 862.8,
           "status": "Faturado"
         },
         {
@@ -26732,6 +26941,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 862.8,
           "qt_faturada": 10.0,
+          "valor_faturado": 862.8,
           "status": "Faturado"
         },
         {
@@ -26741,6 +26951,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 1294.2,
           "qt_faturada": 15.0,
+          "valor_faturado": 1294.2,
           "status": "Faturado"
         },
         {
@@ -26750,6 +26961,7 @@ const AGENDAMENTO_DATA = {
           "preco": 155.28,
           "total": 310.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 310.56,
           "status": "Faturado"
         }
       ]
@@ -26775,6 +26987,7 @@ const AGENDAMENTO_DATA = {
           "preco": 32.9,
           "total": 394.8,
           "qt_faturada": 12.0,
+          "valor_faturado": 394.8,
           "status": "Faturado"
         },
         {
@@ -26784,6 +26997,7 @@ const AGENDAMENTO_DATA = {
           "preco": 73.9,
           "total": 73.9,
           "qt_faturada": 1.0,
+          "valor_faturado": 73.9,
           "status": "Faturado"
         },
         {
@@ -26793,6 +27007,7 @@ const AGENDAMENTO_DATA = {
           "preco": 75.9,
           "total": 75.9,
           "qt_faturada": 1.0,
+          "valor_faturado": 75.9,
           "status": "Faturado"
         },
         {
@@ -26802,7 +27017,8 @@ const AGENDAMENTO_DATA = {
           "preco": 15.9,
           "total": 190.8,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "3177",
@@ -26811,6 +27027,7 @@ const AGENDAMENTO_DATA = {
           "preco": 49.86,
           "total": 49.86,
           "qt_faturada": 1.0,
+          "valor_faturado": 49.86,
           "status": "Faturado"
         },
         {
@@ -26820,7 +27037,8 @@ const AGENDAMENTO_DATA = {
           "preco": 49.86,
           "total": 49.86,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "4718",
@@ -26829,6 +27047,7 @@ const AGENDAMENTO_DATA = {
           "preco": 29.0,
           "total": 29.0,
           "qt_faturada": 1.0,
+          "valor_faturado": 29.0,
           "status": "Faturado"
         },
         {
@@ -26838,6 +27057,7 @@ const AGENDAMENTO_DATA = {
           "preco": 39.6,
           "total": 39.6,
           "qt_faturada": 1.0,
+          "valor_faturado": 39.6,
           "status": "Faturado"
         }
       ]
@@ -26863,6 +27083,7 @@ const AGENDAMENTO_DATA = {
           "preco": 32.9,
           "total": 394.8,
           "qt_faturada": 12.0,
+          "valor_faturado": 394.8,
           "status": "Faturado"
         },
         {
@@ -26872,7 +27093,8 @@ const AGENDAMENTO_DATA = {
           "preco": 10.3,
           "total": 123.6,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "3764",
@@ -26881,6 +27103,7 @@ const AGENDAMENTO_DATA = {
           "preco": 73.9,
           "total": 73.9,
           "qt_faturada": 1.0,
+          "valor_faturado": 73.9,
           "status": "Faturado"
         },
         {
@@ -26890,6 +27113,7 @@ const AGENDAMENTO_DATA = {
           "preco": 75.9,
           "total": 75.9,
           "qt_faturada": 1.0,
+          "valor_faturado": 75.9,
           "status": "Faturado"
         },
         {
@@ -26899,6 +27123,7 @@ const AGENDAMENTO_DATA = {
           "preco": 132.91,
           "total": 132.91,
           "qt_faturada": 1.0,
+          "valor_faturado": 132.91,
           "status": "Faturado"
         },
         {
@@ -26908,7 +27133,8 @@ const AGENDAMENTO_DATA = {
           "preco": 53.57,
           "total": 107.14,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "1248",
@@ -26917,7 +27143,8 @@ const AGENDAMENTO_DATA = {
           "preco": 15.9,
           "total": 15.9,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "3179",
@@ -26926,7 +27153,8 @@ const AGENDAMENTO_DATA = {
           "preco": 49.86,
           "total": 49.86,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "4718",
@@ -26935,6 +27163,7 @@ const AGENDAMENTO_DATA = {
           "preco": 29.0,
           "total": 29.0,
           "qt_faturada": 1.0,
+          "valor_faturado": 29.0,
           "status": "Faturado"
         },
         {
@@ -26944,6 +27173,7 @@ const AGENDAMENTO_DATA = {
           "preco": 40.9,
           "total": 40.9,
           "qt_faturada": 3.0,
+          "valor_faturado": 122.7,
           "status": "Faturado"
         }
       ]
@@ -26969,6 +27199,7 @@ const AGENDAMENTO_DATA = {
           "preco": 32.9,
           "total": 394.8,
           "qt_faturada": 12.0,
+          "valor_faturado": 394.8,
           "status": "Faturado"
         },
         {
@@ -26978,7 +27209,8 @@ const AGENDAMENTO_DATA = {
           "preco": 10.3,
           "total": 123.6,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "63",
@@ -26987,7 +27219,8 @@ const AGENDAMENTO_DATA = {
           "preco": 53.57,
           "total": 107.14,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "246",
@@ -26996,6 +27229,7 @@ const AGENDAMENTO_DATA = {
           "preco": 40.9,
           "total": 122.7,
           "qt_faturada": 3.0,
+          "valor_faturado": 122.7,
           "status": "Faturado"
         },
         {
@@ -27005,6 +27239,7 @@ const AGENDAMENTO_DATA = {
           "preco": 49.86,
           "total": 49.86,
           "qt_faturada": 1.0,
+          "valor_faturado": 49.86,
           "status": "Faturado"
         }
       ]
@@ -27030,6 +27265,7 @@ const AGENDAMENTO_DATA = {
           "preco": 32.9,
           "total": 394.8,
           "qt_faturada": 12.0,
+          "valor_faturado": 394.8,
           "status": "Faturado"
         },
         {
@@ -27039,6 +27275,7 @@ const AGENDAMENTO_DATA = {
           "preco": 16.61,
           "total": 199.32,
           "qt_faturada": 12.0,
+          "valor_faturado": 199.32,
           "status": "Faturado"
         },
         {
@@ -27048,7 +27285,8 @@ const AGENDAMENTO_DATA = {
           "preco": 10.3,
           "total": 123.6,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "3764",
@@ -27057,6 +27295,7 @@ const AGENDAMENTO_DATA = {
           "preco": 73.9,
           "total": 73.9,
           "qt_faturada": 1.0,
+          "valor_faturado": 73.9,
           "status": "Faturado"
         },
         {
@@ -27066,7 +27305,8 @@ const AGENDAMENTO_DATA = {
           "preco": 11.7,
           "total": 11.7,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "35",
@@ -27075,6 +27315,7 @@ const AGENDAMENTO_DATA = {
           "preco": 39.6,
           "total": 39.6,
           "qt_faturada": 1.0,
+          "valor_faturado": 39.6,
           "status": "Faturado"
         },
         {
@@ -27084,7 +27325,8 @@ const AGENDAMENTO_DATA = {
           "preco": 19.5,
           "total": 117.0,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "98",
@@ -27093,7 +27335,8 @@ const AGENDAMENTO_DATA = {
           "preco": 39.6,
           "total": 39.6,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "235",
@@ -27102,6 +27345,7 @@ const AGENDAMENTO_DATA = {
           "preco": 40.9,
           "total": 40.9,
           "qt_faturada": 1.0,
+          "valor_faturado": 40.9,
           "status": "Faturado"
         },
         {
@@ -27111,6 +27355,7 @@ const AGENDAMENTO_DATA = {
           "preco": 29.7,
           "total": 29.7,
           "qt_faturada": 1.0,
+          "valor_faturado": 29.7,
           "status": "Faturado"
         },
         {
@@ -27120,6 +27365,7 @@ const AGENDAMENTO_DATA = {
           "preco": 122.7,
           "total": 122.7,
           "qt_faturada": 3.0,
+          "valor_faturado": 368.1,
           "status": "Faturado"
         }
       ]
@@ -27145,6 +27391,7 @@ const AGENDAMENTO_DATA = {
           "preco": 36.9,
           "total": 1107.0,
           "qt_faturada": 30.0,
+          "valor_faturado": 1107.0,
           "status": "Faturado"
         },
         {
@@ -27154,6 +27401,7 @@ const AGENDAMENTO_DATA = {
           "preco": 59.9,
           "total": 359.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 359.4,
           "status": "Faturado"
         },
         {
@@ -27163,6 +27411,7 @@ const AGENDAMENTO_DATA = {
           "preco": 103.92,
           "total": 623.52,
           "qt_faturada": 6.0,
+          "valor_faturado": 623.52,
           "status": "Faturado"
         }
       ]
@@ -27188,6 +27437,7 @@ const AGENDAMENTO_DATA = {
           "preco": 32.9,
           "total": 394.8,
           "qt_faturada": 12.0,
+          "valor_faturado": 394.8,
           "status": "Faturado"
         },
         {
@@ -27197,6 +27447,7 @@ const AGENDAMENTO_DATA = {
           "preco": 73.9,
           "total": 73.9,
           "qt_faturada": 1.0,
+          "valor_faturado": 73.9,
           "status": "Faturado"
         },
         {
@@ -27206,6 +27457,7 @@ const AGENDAMENTO_DATA = {
           "preco": 75.9,
           "total": 75.9,
           "qt_faturada": 1.0,
+          "valor_faturado": 75.9,
           "status": "Faturado"
         },
         {
@@ -27215,7 +27467,8 @@ const AGENDAMENTO_DATA = {
           "preco": 15.9,
           "total": 190.8,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "3177",
@@ -27224,6 +27477,7 @@ const AGENDAMENTO_DATA = {
           "preco": 49.86,
           "total": 49.86,
           "qt_faturada": 1.0,
+          "valor_faturado": 49.86,
           "status": "Faturado"
         },
         {
@@ -27233,7 +27487,8 @@ const AGENDAMENTO_DATA = {
           "preco": 49.86,
           "total": 99.72,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "4718",
@@ -27242,6 +27497,7 @@ const AGENDAMENTO_DATA = {
           "preco": 29.0,
           "total": 29.0,
           "qt_faturada": 1.0,
+          "valor_faturado": 29.0,
           "status": "Faturado"
         },
         {
@@ -27251,6 +27507,7 @@ const AGENDAMENTO_DATA = {
           "preco": 39.6,
           "total": 39.6,
           "qt_faturada": 1.0,
+          "valor_faturado": 39.6,
           "status": "Faturado"
         }
       ]
@@ -27276,6 +27533,7 @@ const AGENDAMENTO_DATA = {
           "preco": 32.9,
           "total": 394.8,
           "qt_faturada": 12.0,
+          "valor_faturado": 394.8,
           "status": "Faturado"
         },
         {
@@ -27285,7 +27543,8 @@ const AGENDAMENTO_DATA = {
           "preco": 10.3,
           "total": 123.6,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "3764",
@@ -27294,6 +27553,7 @@ const AGENDAMENTO_DATA = {
           "preco": 73.9,
           "total": 73.9,
           "qt_faturada": 1.0,
+          "valor_faturado": 73.9,
           "status": "Faturado"
         },
         {
@@ -27303,6 +27563,7 @@ const AGENDAMENTO_DATA = {
           "preco": 75.9,
           "total": 75.9,
           "qt_faturada": 1.0,
+          "valor_faturado": 75.9,
           "status": "Faturado"
         },
         {
@@ -27312,6 +27573,7 @@ const AGENDAMENTO_DATA = {
           "preco": 132.91,
           "total": 132.91,
           "qt_faturada": 1.0,
+          "valor_faturado": 132.91,
           "status": "Faturado"
         },
         {
@@ -27321,7 +27583,8 @@ const AGENDAMENTO_DATA = {
           "preco": 53.57,
           "total": 107.14,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "1248",
@@ -27330,7 +27593,8 @@ const AGENDAMENTO_DATA = {
           "preco": 15.9,
           "total": 190.8,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "3177",
@@ -27339,6 +27603,7 @@ const AGENDAMENTO_DATA = {
           "preco": 49.86,
           "total": 49.86,
           "qt_faturada": 1.0,
+          "valor_faturado": 49.86,
           "status": "Faturado"
         },
         {
@@ -27348,7 +27613,8 @@ const AGENDAMENTO_DATA = {
           "preco": 49.86,
           "total": 99.72,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "4718",
@@ -27357,6 +27623,7 @@ const AGENDAMENTO_DATA = {
           "preco": 29.0,
           "total": 29.0,
           "qt_faturada": 1.0,
+          "valor_faturado": 29.0,
           "status": "Faturado"
         },
         {
@@ -27366,6 +27633,7 @@ const AGENDAMENTO_DATA = {
           "preco": 40.9,
           "total": 122.7,
           "qt_faturada": 3.0,
+          "valor_faturado": 122.7,
           "status": "Faturado"
         }
       ]
@@ -27391,6 +27659,7 @@ const AGENDAMENTO_DATA = {
           "preco": 32.9,
           "total": 394.8,
           "qt_faturada": 12.0,
+          "valor_faturado": 394.8,
           "status": "Faturado"
         },
         {
@@ -27400,7 +27669,8 @@ const AGENDAMENTO_DATA = {
           "preco": 10.3,
           "total": 123.6,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "63",
@@ -27409,7 +27679,8 @@ const AGENDAMENTO_DATA = {
           "preco": 53.57,
           "total": 107.14,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "246",
@@ -27418,6 +27689,7 @@ const AGENDAMENTO_DATA = {
           "preco": 40.9,
           "total": 122.7,
           "qt_faturada": 3.0,
+          "valor_faturado": 122.7,
           "status": "Faturado"
         },
         {
@@ -27427,6 +27699,7 @@ const AGENDAMENTO_DATA = {
           "preco": 49.86,
           "total": 49.86,
           "qt_faturada": 1.0,
+          "valor_faturado": 49.86,
           "status": "Faturado"
         }
       ]
@@ -27452,6 +27725,7 @@ const AGENDAMENTO_DATA = {
           "preco": 32.9,
           "total": 394.8,
           "qt_faturada": 12.0,
+          "valor_faturado": 394.8,
           "status": "Faturado"
         },
         {
@@ -27461,6 +27735,7 @@ const AGENDAMENTO_DATA = {
           "preco": 16.61,
           "total": 199.32,
           "qt_faturada": 12.0,
+          "valor_faturado": 199.32,
           "status": "Faturado"
         },
         {
@@ -27470,7 +27745,8 @@ const AGENDAMENTO_DATA = {
           "preco": 10.3,
           "total": 123.6,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "3764",
@@ -27479,6 +27755,7 @@ const AGENDAMENTO_DATA = {
           "preco": 73.9,
           "total": 73.9,
           "qt_faturada": 1.0,
+          "valor_faturado": 73.9,
           "status": "Faturado"
         },
         {
@@ -27488,7 +27765,8 @@ const AGENDAMENTO_DATA = {
           "preco": 11.7,
           "total": 70.2,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "35",
@@ -27497,6 +27775,7 @@ const AGENDAMENTO_DATA = {
           "preco": 39.6,
           "total": 39.6,
           "qt_faturada": 1.0,
+          "valor_faturado": 39.6,
           "status": "Faturado"
         },
         {
@@ -27506,7 +27785,8 @@ const AGENDAMENTO_DATA = {
           "preco": 53.57,
           "total": 107.14,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "66",
@@ -27515,7 +27795,8 @@ const AGENDAMENTO_DATA = {
           "preco": 19.5,
           "total": 117.0,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "98",
@@ -27524,7 +27805,8 @@ const AGENDAMENTO_DATA = {
           "preco": 36.0,
           "total": 36.0,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "235",
@@ -27533,6 +27815,7 @@ const AGENDAMENTO_DATA = {
           "preco": 19.3,
           "total": 19.3,
           "qt_faturada": 1.0,
+          "valor_faturado": 19.3,
           "status": "Faturado"
         },
         {
@@ -27542,6 +27825,7 @@ const AGENDAMENTO_DATA = {
           "preco": 36.0,
           "total": 36.0,
           "qt_faturada": 1.0,
+          "valor_faturado": 36.0,
           "status": "Faturado"
         },
         {
@@ -27551,6 +27835,7 @@ const AGENDAMENTO_DATA = {
           "preco": 29.0,
           "total": 29.0,
           "qt_faturada": 1.0,
+          "valor_faturado": 29.0,
           "status": "Faturado"
         },
         {
@@ -27560,6 +27845,7 @@ const AGENDAMENTO_DATA = {
           "preco": 40.9,
           "total": 122.7,
           "qt_faturada": 3.0,
+          "valor_faturado": 122.7,
           "status": "Faturado"
         }
       ]
@@ -27585,6 +27871,7 @@ const AGENDAMENTO_DATA = {
           "preco": 599.0,
           "total": 1797.0,
           "qt_faturada": 3.0,
+          "valor_faturado": 1797.0,
           "status": "Faturado"
         },
         {
@@ -27594,7 +27881,8 @@ const AGENDAMENTO_DATA = {
           "preco": 125.49,
           "total": 2258.82,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         }
       ]
     },
@@ -27619,7 +27907,8 @@ const AGENDAMENTO_DATA = {
           "preco": 5.49,
           "total": 329.4,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         }
       ]
     },
@@ -27644,7 +27933,8 @@ const AGENDAMENTO_DATA = {
           "preco": 5.49,
           "total": 329.4,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         }
       ]
     },
@@ -27669,6 +27959,7 @@ const AGENDAMENTO_DATA = {
           "preco": 120.9,
           "total": 725.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 725.4,
           "status": "Faturado"
         }
       ]
@@ -27694,6 +27985,7 @@ const AGENDAMENTO_DATA = {
           "preco": 75.9,
           "total": 455.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 455.4,
           "status": "Faturado"
         },
         {
@@ -27703,6 +27995,7 @@ const AGENDAMENTO_DATA = {
           "preco": 75.9,
           "total": 455.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 455.4,
           "status": "Faturado"
         },
         {
@@ -27712,6 +28005,7 @@ const AGENDAMENTO_DATA = {
           "preco": 73.9,
           "total": 443.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 443.4,
           "status": "Faturado"
         },
         {
@@ -27721,6 +28015,7 @@ const AGENDAMENTO_DATA = {
           "preco": 28.9,
           "total": 346.8,
           "qt_faturada": 12.0,
+          "valor_faturado": 346.8,
           "status": "Faturado"
         }
       ]
@@ -27746,6 +28041,7 @@ const AGENDAMENTO_DATA = {
           "preco": 33.9,
           "total": 1212.4,
           "qt_faturada": 36.0,
+          "valor_faturado": 1220.4,
           "status": "Faturado"
         },
         {
@@ -27755,6 +28051,7 @@ const AGENDAMENTO_DATA = {
           "preco": 17.9,
           "total": 644.4,
           "qt_faturada": 36.0,
+          "valor_faturado": 644.4,
           "status": "Faturado"
         },
         {
@@ -27764,6 +28061,7 @@ const AGENDAMENTO_DATA = {
           "preco": 17.9,
           "total": 644.4,
           "qt_faturada": 24.0,
+          "valor_faturado": 429.6,
           "status": "Parcial"
         },
         {
@@ -27773,6 +28071,7 @@ const AGENDAMENTO_DATA = {
           "preco": 17.9,
           "total": 859.2,
           "qt_faturada": 48.0,
+          "valor_faturado": 859.2,
           "status": "Faturado"
         },
         {
@@ -27782,6 +28081,7 @@ const AGENDAMENTO_DATA = {
           "preco": 30.9,
           "total": 370.8,
           "qt_faturada": 12.0,
+          "valor_faturado": 370.8,
           "status": "Faturado"
         },
         {
@@ -27791,7 +28091,8 @@ const AGENDAMENTO_DATA = {
           "preco": 30.9,
           "total": 370.8,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         }
       ]
     },
@@ -27816,7 +28117,8 @@ const AGENDAMENTO_DATA = {
           "preco": 5.49,
           "total": 329.4,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         }
       ]
     },
@@ -27841,7 +28143,8 @@ const AGENDAMENTO_DATA = {
           "preco": 33.0,
           "total": 594.0,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         }
       ]
     },
@@ -27866,6 +28169,7 @@ const AGENDAMENTO_DATA = {
           "preco": 70.0,
           "total": 840.0,
           "qt_faturada": 12.0,
+          "valor_faturado": 840.0,
           "status": "Faturado"
         },
         {
@@ -27875,6 +28179,7 @@ const AGENDAMENTO_DATA = {
           "preco": 144.0,
           "total": 1728.0,
           "qt_faturada": 12.0,
+          "valor_faturado": 1728.0,
           "status": "Faturado"
         },
         {
@@ -27884,6 +28189,7 @@ const AGENDAMENTO_DATA = {
           "preco": 47.9,
           "total": 287.4,
           "qt_faturada": 3.0,
+          "valor_faturado": 143.7,
           "status": "Parcial"
         },
         {
@@ -27893,6 +28199,7 @@ const AGENDAMENTO_DATA = {
           "preco": 27.5,
           "total": 330.0,
           "qt_faturada": 12.0,
+          "valor_faturado": 330.0,
           "status": "Faturado"
         },
         {
@@ -27902,6 +28209,7 @@ const AGENDAMENTO_DATA = {
           "preco": 144.0,
           "total": 864.0,
           "qt_faturada": 6.0,
+          "valor_faturado": 864.0,
           "status": "Faturado"
         },
         {
@@ -27911,6 +28219,7 @@ const AGENDAMENTO_DATA = {
           "preco": 459.5,
           "total": 2757.0,
           "qt_faturada": 5.0,
+          "valor_faturado": 2297.5,
           "status": "Parcial"
         },
         {
@@ -27920,6 +28229,7 @@ const AGENDAMENTO_DATA = {
           "preco": 91.9,
           "total": 459.5,
           "qt_faturada": 2.0,
+          "valor_faturado": 183.8,
           "status": "Parcial"
         }
       ]
@@ -27945,6 +28255,7 @@ const AGENDAMENTO_DATA = {
           "preco": 70.0,
           "total": 840.0,
           "qt_faturada": 12.0,
+          "valor_faturado": 840.0,
           "status": "Faturado"
         },
         {
@@ -27954,6 +28265,7 @@ const AGENDAMENTO_DATA = {
           "preco": 144.0,
           "total": 1728.0,
           "qt_faturada": 12.0,
+          "valor_faturado": 1728.0,
           "status": "Faturado"
         },
         {
@@ -27963,6 +28275,7 @@ const AGENDAMENTO_DATA = {
           "preco": 47.9,
           "total": 287.4,
           "qt_faturada": 3.0,
+          "valor_faturado": 143.7,
           "status": "Parcial"
         },
         {
@@ -27972,6 +28285,7 @@ const AGENDAMENTO_DATA = {
           "preco": 27.5,
           "total": 330.0,
           "qt_faturada": 12.0,
+          "valor_faturado": 330.0,
           "status": "Faturado"
         },
         {
@@ -27981,6 +28295,7 @@ const AGENDAMENTO_DATA = {
           "preco": 144.0,
           "total": 864.0,
           "qt_faturada": 6.0,
+          "valor_faturado": 864.0,
           "status": "Faturado"
         },
         {
@@ -27990,6 +28305,7 @@ const AGENDAMENTO_DATA = {
           "preco": 91.9,
           "total": 459.5,
           "qt_faturada": 5.0,
+          "valor_faturado": 459.5,
           "status": "Faturado"
         },
         {
@@ -27999,6 +28315,7 @@ const AGENDAMENTO_DATA = {
           "preco": 91.9,
           "total": 459.5,
           "qt_faturada": 2.0,
+          "valor_faturado": 183.8,
           "status": "Parcial"
         }
       ]
@@ -28024,6 +28341,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.9,
           "total": 233.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 233.4,
           "status": "Faturado"
         },
         {
@@ -28033,6 +28351,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.9,
           "total": 233.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 233.4,
           "status": "Faturado"
         },
         {
@@ -28042,6 +28361,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.9,
           "total": 233.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 233.4,
           "status": "Faturado"
         },
         {
@@ -28051,6 +28371,7 @@ const AGENDAMENTO_DATA = {
           "preco": 32.9,
           "total": 394.8,
           "qt_faturada": 12.0,
+          "valor_faturado": 394.8,
           "status": "Faturado"
         }
       ]
@@ -28076,7 +28397,8 @@ const AGENDAMENTO_DATA = {
           "preco": 70.8,
           "total": 850.8,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "5273",
@@ -28085,7 +28407,8 @@ const AGENDAMENTO_DATA = {
           "preco": 70.9,
           "total": 850.8,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "1526",
@@ -28094,7 +28417,8 @@ const AGENDAMENTO_DATA = {
           "preco": 70.9,
           "total": 850.8,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "187",
@@ -28103,7 +28427,8 @@ const AGENDAMENTO_DATA = {
           "preco": 109.9,
           "total": 659.4,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "738",
@@ -28112,7 +28437,8 @@ const AGENDAMENTO_DATA = {
           "preco": 109.9,
           "total": 659.4,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "70",
@@ -28121,7 +28447,8 @@ const AGENDAMENTO_DATA = {
           "preco": 103.9,
           "total": 623.4,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         }
       ]
     },
@@ -28146,6 +28473,7 @@ const AGENDAMENTO_DATA = {
           "preco": 22.9,
           "total": 137.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 137.4,
           "status": "Faturado"
         },
         {
@@ -28155,6 +28483,7 @@ const AGENDAMENTO_DATA = {
           "preco": 22.9,
           "total": 137.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 137.4,
           "status": "Faturado"
         },
         {
@@ -28164,6 +28493,7 @@ const AGENDAMENTO_DATA = {
           "preco": 22.9,
           "total": 137.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 137.4,
           "status": "Faturado"
         },
         {
@@ -28173,6 +28503,7 @@ const AGENDAMENTO_DATA = {
           "preco": 64.9,
           "total": 778.8,
           "qt_faturada": 12.0,
+          "valor_faturado": 778.8,
           "status": "Faturado"
         },
         {
@@ -28182,6 +28513,7 @@ const AGENDAMENTO_DATA = {
           "preco": 12.0,
           "total": 144.0,
           "qt_faturada": 12.0,
+          "valor_faturado": 144.0,
           "status": "Faturado"
         }
       ]
@@ -28207,6 +28539,7 @@ const AGENDAMENTO_DATA = {
           "preco": 12.5,
           "total": 450,
           "qt_faturada": 36.0,
+          "valor_faturado": 450.0,
           "status": "Faturado"
         }
       ]
@@ -28232,6 +28565,7 @@ const AGENDAMENTO_DATA = {
           "preco": 12.5,
           "total": 150,
           "qt_faturada": 12.0,
+          "valor_faturado": 150.0,
           "status": "Faturado"
         },
         {
@@ -28241,7 +28575,8 @@ const AGENDAMENTO_DATA = {
           "preco": 13.79,
           "total": 165.48,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "3642",
@@ -28250,6 +28585,7 @@ const AGENDAMENTO_DATA = {
           "preco": 22.2,
           "total": 266.4,
           "qt_faturada": 12.0,
+          "valor_faturado": 266.4,
           "status": "Faturado"
         },
         {
@@ -28259,6 +28595,7 @@ const AGENDAMENTO_DATA = {
           "preco": 22.2,
           "total": 266.4,
           "qt_faturada": 12.0,
+          "valor_faturado": 266.4,
           "status": "Faturado"
         },
         {
@@ -28268,6 +28605,7 @@ const AGENDAMENTO_DATA = {
           "preco": 22.2,
           "total": 266.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 133.2,
           "status": "Parcial"
         },
         {
@@ -28277,6 +28615,7 @@ const AGENDAMENTO_DATA = {
           "preco": 22.2,
           "total": 133.2,
           "qt_faturada": 6.0,
+          "valor_faturado": 133.2,
           "status": "Faturado"
         },
         {
@@ -28286,6 +28625,7 @@ const AGENDAMENTO_DATA = {
           "preco": 22.2,
           "total": 133.2,
           "qt_faturada": 3.0,
+          "valor_faturado": 66.6,
           "status": "Parcial"
         },
         {
@@ -28295,7 +28635,8 @@ const AGENDAMENTO_DATA = {
           "preco": 89.9,
           "total": 539.4,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "69",
@@ -28304,6 +28645,7 @@ const AGENDAMENTO_DATA = {
           "preco": 22.2,
           "total": 266.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 133.2,
           "status": "Parcial"
         },
         {
@@ -28313,6 +28655,7 @@ const AGENDAMENTO_DATA = {
           "preco": 22.2,
           "total": 133.2,
           "qt_faturada": 6.0,
+          "valor_faturado": 133.2,
           "status": "Faturado"
         },
         {
@@ -28322,7 +28665,8 @@ const AGENDAMENTO_DATA = {
           "preco": 22.2,
           "total": 133.2,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         },
         {
           "cod_prod": "1212",
@@ -28331,6 +28675,7 @@ const AGENDAMENTO_DATA = {
           "preco": 51.67,
           "total": 310.02,
           "qt_faturada": 12.0,
+          "valor_faturado": 620.04,
           "status": "Faturado"
         }
       ]
@@ -28356,6 +28701,7 @@ const AGENDAMENTO_DATA = {
           "preco": 19.9,
           "total": 238.8,
           "qt_faturada": 12.0,
+          "valor_faturado": 238.8,
           "status": "Faturado"
         },
         {
@@ -28365,6 +28711,7 @@ const AGENDAMENTO_DATA = {
           "preco": 17.49,
           "total": 209.88,
           "qt_faturada": 12.0,
+          "valor_faturado": 209.88,
           "status": "Faturado"
         },
         {
@@ -28374,6 +28721,7 @@ const AGENDAMENTO_DATA = {
           "preco": 17.49,
           "total": 209.88,
           "qt_faturada": 12.0,
+          "valor_faturado": 209.88,
           "status": "Faturado"
         },
         {
@@ -28383,6 +28731,7 @@ const AGENDAMENTO_DATA = {
           "preco": 29.9,
           "total": 358.8,
           "qt_faturada": 24.0,
+          "valor_faturado": 717.6,
           "status": "Faturado"
         },
         {
@@ -28392,6 +28741,7 @@ const AGENDAMENTO_DATA = {
           "preco": 14.49,
           "total": 347.76,
           "qt_faturada": 24.0,
+          "valor_faturado": 347.76,
           "status": "Faturado"
         },
         {
@@ -28401,6 +28751,7 @@ const AGENDAMENTO_DATA = {
           "preco": 14.49,
           "total": 347.76,
           "qt_faturada": 24.0,
+          "valor_faturado": 347.76,
           "status": "Faturado"
         },
         {
@@ -28410,7 +28761,8 @@ const AGENDAMENTO_DATA = {
           "preco": 23.9,
           "total": 286.8,
           "qt_faturada": 0.0,
-          "status": "Pendente"
+          "valor_faturado": 0.0,
+          "status": "Cortado"
         }
       ]
     },
@@ -28435,6 +28787,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -28444,6 +28797,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -28453,6 +28807,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         }
       ]
@@ -28478,6 +28833,7 @@ const AGENDAMENTO_DATA = {
           "preco": 32.9,
           "total": 197.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 197.4,
           "status": "Faturado"
         },
         {
@@ -28487,6 +28843,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.9,
           "total": 233.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 233.4,
           "status": "Faturado"
         }
       ]
@@ -28512,6 +28869,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -28521,6 +28879,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -28530,6 +28889,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         }
       ]
@@ -28555,6 +28915,7 @@ const AGENDAMENTO_DATA = {
           "preco": 32.9,
           "total": 592.2,
           "qt_faturada": 18.0,
+          "valor_faturado": 592.2,
           "status": "Faturado"
         },
         {
@@ -28564,6 +28925,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.9,
           "total": 233.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 233.4,
           "status": "Faturado"
         }
       ]
@@ -28589,6 +28951,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -28598,6 +28961,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -28607,6 +28971,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         }
       ]
@@ -28632,6 +28997,7 @@ const AGENDAMENTO_DATA = {
           "preco": 32.9,
           "total": 197.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 197.4,
           "status": "Faturado"
         },
         {
@@ -28641,6 +29007,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.9,
           "total": 233.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 233.4,
           "status": "Faturado"
         },
         {
@@ -28650,6 +29017,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.9,
           "total": 233.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 233.4,
           "status": "Faturado"
         }
       ]
@@ -28675,6 +29043,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -28684,6 +29053,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -28693,6 +29063,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         }
       ]
@@ -28718,6 +29089,7 @@ const AGENDAMENTO_DATA = {
           "preco": 32.9,
           "total": 592.2,
           "qt_faturada": 18.0,
+          "valor_faturado": 592.2,
           "status": "Faturado"
         },
         {
@@ -28727,6 +29099,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.9,
           "total": 233.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 233.4,
           "status": "Faturado"
         },
         {
@@ -28736,6 +29109,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.9,
           "total": 233.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 233.4,
           "status": "Faturado"
         }
       ]
@@ -28761,6 +29135,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -28770,6 +29145,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -28779,6 +29155,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         }
       ]
@@ -28804,6 +29181,7 @@ const AGENDAMENTO_DATA = {
           "preco": 32.9,
           "total": 197.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 197.4,
           "status": "Faturado"
         },
         {
@@ -28813,6 +29191,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.9,
           "total": 233.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 233.4,
           "status": "Faturado"
         },
         {
@@ -28822,6 +29201,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.9,
           "total": 233.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 233.4,
           "status": "Faturado"
         },
         {
@@ -28831,6 +29211,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.9,
           "total": 233.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 233.4,
           "status": "Faturado"
         }
       ]
@@ -28856,6 +29237,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -28865,6 +29247,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -28874,6 +29257,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         }
       ]
@@ -28899,6 +29283,7 @@ const AGENDAMENTO_DATA = {
           "preco": 32.9,
           "total": 592.2,
           "qt_faturada": 18.0,
+          "valor_faturado": 592.2,
           "status": "Faturado"
         },
         {
@@ -28908,6 +29293,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.9,
           "total": 233.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 233.4,
           "status": "Faturado"
         },
         {
@@ -28917,6 +29303,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.9,
           "total": 233.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 233.4,
           "status": "Faturado"
         }
       ]
@@ -28942,6 +29329,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -28951,6 +29339,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -28960,6 +29349,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -28969,6 +29359,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -28978,6 +29369,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -28987,6 +29379,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -28996,6 +29389,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -29005,6 +29399,7 @@ const AGENDAMENTO_DATA = {
           "preco": 155.28,
           "total": 310.56,
           "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
           "status": "Parcial"
         },
         {
@@ -29014,6 +29409,7 @@ const AGENDAMENTO_DATA = {
           "preco": 155.28,
           "total": 310.56,
           "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
           "status": "Parcial"
         },
         {
@@ -29023,6 +29419,7 @@ const AGENDAMENTO_DATA = {
           "preco": 155.28,
           "total": 310.56,
           "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
           "status": "Parcial"
         }
       ]
@@ -29048,6 +29445,7 @@ const AGENDAMENTO_DATA = {
           "preco": 32.9,
           "total": 394.8,
           "qt_faturada": 12.0,
+          "valor_faturado": 394.8,
           "status": "Faturado"
         },
         {
@@ -29057,6 +29455,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.9,
           "total": 233.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 233.4,
           "status": "Faturado"
         },
         {
@@ -29066,6 +29465,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.9,
           "total": 233.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 233.4,
           "status": "Faturado"
         },
         {
@@ -29075,6 +29475,7 @@ const AGENDAMENTO_DATA = {
           "preco": 117.6,
           "total": 235.2,
           "qt_faturada": 2.0,
+          "valor_faturado": 235.2,
           "status": "Faturado"
         },
         {
@@ -29084,6 +29485,7 @@ const AGENDAMENTO_DATA = {
           "preco": 179.9,
           "total": 179.9,
           "qt_faturada": 2.0,
+          "valor_faturado": 359.8,
           "status": "Faturado"
         },
         {
@@ -29093,6 +29495,7 @@ const AGENDAMENTO_DATA = {
           "preco": 149.0,
           "total": 149.0,
           "qt_faturada": 3.0,
+          "valor_faturado": 447.0,
           "status": "Faturado"
         },
         {
@@ -29102,6 +29505,7 @@ const AGENDAMENTO_DATA = {
           "preco": 399.0,
           "total": 798.0,
           "qt_faturada": 2.0,
+          "valor_faturado": 798.0,
           "status": "Faturado"
         }
       ]
@@ -29127,6 +29531,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -29136,6 +29541,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -29145,6 +29551,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         }
       ]
@@ -29170,6 +29577,7 @@ const AGENDAMENTO_DATA = {
           "preco": 32.9,
           "total": 394.8,
           "qt_faturada": 12.0,
+          "valor_faturado": 394.8,
           "status": "Faturado"
         },
         {
@@ -29179,6 +29587,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.9,
           "total": 233.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 233.4,
           "status": "Faturado"
         },
         {
@@ -29188,6 +29597,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.9,
           "total": 233.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 233.4,
           "status": "Faturado"
         }
       ]
@@ -29213,6 +29623,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -29222,6 +29633,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -29231,6 +29643,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         }
       ]
@@ -29256,6 +29669,7 @@ const AGENDAMENTO_DATA = {
           "preco": 32.9,
           "total": 394.8,
           "qt_faturada": 12.0,
+          "valor_faturado": 394.8,
           "status": "Faturado"
         },
         {
@@ -29265,6 +29679,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.9,
           "total": 233.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 233.4,
           "status": "Faturado"
         },
         {
@@ -29274,6 +29689,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.9,
           "total": 233.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 233.4,
           "status": "Faturado"
         }
       ]
@@ -29299,6 +29715,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -29308,6 +29725,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -29317,6 +29735,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         }
       ]
@@ -29342,6 +29761,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -29351,6 +29771,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -29360,6 +29781,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -29369,6 +29791,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -29378,6 +29801,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -29387,6 +29811,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -29396,6 +29821,7 @@ const AGENDAMENTO_DATA = {
           "preco": 155.28,
           "total": 310.56,
           "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
           "status": "Parcial"
         },
         {
@@ -29405,6 +29831,7 @@ const AGENDAMENTO_DATA = {
           "preco": 155.28,
           "total": 310.56,
           "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
           "status": "Parcial"
         },
         {
@@ -29414,6 +29841,7 @@ const AGENDAMENTO_DATA = {
           "preco": 155.28,
           "total": 310.56,
           "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
           "status": "Parcial"
         }
       ]
@@ -29439,6 +29867,7 @@ const AGENDAMENTO_DATA = {
           "preco": 32.9,
           "total": 592.2,
           "qt_faturada": 18.0,
+          "valor_faturado": 592.2,
           "status": "Faturado"
         },
         {
@@ -29448,6 +29877,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.9,
           "total": 233.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 233.4,
           "status": "Faturado"
         },
         {
@@ -29457,6 +29887,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.9,
           "total": 233.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 233.4,
           "status": "Faturado"
         },
         {
@@ -29466,6 +29897,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.9,
           "total": 466.8,
           "qt_faturada": 12.0,
+          "valor_faturado": 466.8,
           "status": "Faturado"
         }
       ]
@@ -29491,6 +29923,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -29500,6 +29933,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -29509,6 +29943,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         }
       ]
@@ -29534,6 +29969,7 @@ const AGENDAMENTO_DATA = {
           "preco": 32.9,
           "total": 394.8,
           "qt_faturada": 12.0,
+          "valor_faturado": 394.8,
           "status": "Faturado"
         },
         {
@@ -29543,6 +29979,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.9,
           "total": 233.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 233.4,
           "status": "Faturado"
         }
       ]
@@ -29568,6 +30005,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -29577,6 +30015,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -29586,6 +30025,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -29595,6 +30035,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -29604,6 +30045,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -29613,6 +30055,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -29622,6 +30065,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -29631,6 +30075,7 @@ const AGENDAMENTO_DATA = {
           "preco": 155.28,
           "total": 310.56,
           "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
           "status": "Parcial"
         },
         {
@@ -29640,6 +30085,7 @@ const AGENDAMENTO_DATA = {
           "preco": 155.28,
           "total": 310.56,
           "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
           "status": "Parcial"
         },
         {
@@ -29649,6 +30095,7 @@ const AGENDAMENTO_DATA = {
           "preco": 155.28,
           "total": 310.56,
           "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
           "status": "Parcial"
         }
       ]
@@ -29674,6 +30121,7 @@ const AGENDAMENTO_DATA = {
           "preco": 32.9,
           "total": 1974.0,
           "qt_faturada": 60.0,
+          "valor_faturado": 1974.0,
           "status": "Faturado"
         },
         {
@@ -29683,6 +30131,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.9,
           "total": 233.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 233.4,
           "status": "Faturado"
         },
         {
@@ -29692,6 +30141,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.9,
           "total": 233.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 233.4,
           "status": "Faturado"
         },
         {
@@ -29701,6 +30151,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.9,
           "total": 466.8,
           "qt_faturada": 12.0,
+          "valor_faturado": 466.8,
           "status": "Faturado"
         },
         {
@@ -29710,6 +30161,7 @@ const AGENDAMENTO_DATA = {
           "preco": 40.0,
           "total": 240.0,
           "qt_faturada": 6.0,
+          "valor_faturado": 240.0,
           "status": "Parcial"
         },
         {
@@ -29719,6 +30171,7 @@ const AGENDAMENTO_DATA = {
           "preco": 149.0,
           "total": 447.0,
           "qt_faturada": 3.0,
+          "valor_faturado": 447.0,
           "status": "Faturado"
         },
         {
@@ -29728,6 +30181,7 @@ const AGENDAMENTO_DATA = {
           "preco": 94.0,
           "total": 1128.0,
           "qt_faturada": 12.0,
+          "valor_faturado": 1128.0,
           "status": "Faturado"
         }
       ]
@@ -29753,6 +30207,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -29762,6 +30217,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -29771,6 +30227,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         }
       ]
@@ -29796,6 +30253,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -29805,6 +30263,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -29814,6 +30273,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         }
       ]
@@ -29839,6 +30299,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.9,
           "total": 466.8,
           "qt_faturada": 12.0,
+          "valor_faturado": 466.8,
           "status": "Faturado"
         }
       ]
@@ -29864,6 +30325,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -29873,6 +30335,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         },
         {
@@ -29882,6 +30345,7 @@ const AGENDAMENTO_DATA = {
           "preco": 86.28,
           "total": 172.56,
           "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
           "status": "Faturado"
         }
       ]
@@ -29907,6 +30371,7 @@ const AGENDAMENTO_DATA = {
           "preco": 32.9,
           "total": 394.8,
           "qt_faturada": 12.0,
+          "valor_faturado": 394.8,
           "status": "Faturado"
         },
         {
@@ -29916,6 +30381,7 @@ const AGENDAMENTO_DATA = {
           "preco": 38.9,
           "total": 233.4,
           "qt_faturada": 6.0,
+          "valor_faturado": 233.4,
           "status": "Faturado"
         }
       ]
