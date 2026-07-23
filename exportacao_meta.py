@@ -4,8 +4,9 @@ import os
 import pandas as pd
 from datetime import date, datetime
 from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import re as _re
-from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, engine_mgon, arquivo, carregar_dados, FONTES_INDISPONIVEIS, nome_display_por_oracle
+from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, engine_mgon, arquivo, carregar_dados, carregar_paralelo, FONTES_INDISPONIVEIS, nome_display_por_oracle
 import nao_positivados as _np_mod
 
 _df_nao_pos = _np_mod.nao_positivados_full
@@ -38,20 +39,25 @@ def _mes_sort_key(mes_str):
 
 # ── Mapeamento RCA → Nome Oracle ─────────────────────────────────────────────
 
-_parts_map_rca = []
-for _s, _e, _n, _extra_f in [
+_MAP_RCA_CONFIGS = [
     ("CRC",      engine,         "map_rca_CRC",      "NOME LIKE '%OFF TRADE%'"),
     ("thekings", engine_theking, "map_rca_thekings", "NOME LIKE '%OFF TRADE%'"),
     ("CASTAS",   engine_castas,  "map_rca_CASTAS",   "NOME LIKE '%OFF TRADE%'"),
     ("GARRIDO",  engine_garrido, "map_rca_GARRIDO",  "NOME LIKE '%OFF TRADE%'"),
     ("SPON",     engine_spon,    "map_rca_SPON",     "NOME LIKE '%OFF TRADE%' OR NOME LIKE '%W.S%'"),
     ("MGON",     engine_mgon,    "map_rca_MGON",     "NOME LIKE '%OFF TRADE%' OR NOME LIKE '%W.S%'"),
-]:
-    try:
-        _parts_map_rca.append(carregar_dados(f"SELECT CODUSUR AS RCA, NOME FROM {_s}.PCUSUARI WHERE {_extra_f}", _e, _n))
-    except Exception as _ex:
+]
+_parts_map_rca = []
+_chamadas_map_rca = [
+    (f"SELECT CODUSUR AS RCA, NOME FROM {_s}.PCUSUARI WHERE {_extra_f}", _e, _n)
+    for _s, _e, _n, _extra_f in _MAP_RCA_CONFIGS
+]
+for (_s, _e, _n, _extra_f), _res in zip(_MAP_RCA_CONFIGS, carregar_paralelo(_chamadas_map_rca)):
+    if isinstance(_res, Exception):
         print(f"[AVISO] {_n} falhou — ignorado")
         FONTES_INDISPONIVEIS.append(_n)
+    else:
+        _parts_map_rca.append(_res)
 if not _parts_map_rca:
     raise RuntimeError("Nenhuma fonte de RCA disponível — todas as bases Oracle estão fora do ar.")
 map_rca = pd.concat(_parts_map_rca, ignore_index=True)
@@ -122,14 +128,17 @@ _VH_CONFIGS = [
     ("MGON",    engine_mgon,    "vendas_hist_MGON",    "(1, 2)",    None,  "MGON",      _SPON_EXTRA, True),
 ]
 _vh_parts = []
-for _s, _e, _n, _ff, _fe, _emp, _en, _to in _VH_CONFIGS:
-    try:
-        _df = carregar_dados(_query_vendas_historico(_s, filtro_filial=_ff, filtro_estent=_fe, extra_nomes=_en, tem_offtrade=_to), _e, _n)
-        _df['EMPRESA'] = _emp
-        _vh_parts.append(_df)
-    except Exception as _ex:
+_chamadas_vh = [
+    (_query_vendas_historico(_s, filtro_filial=_ff, filtro_estent=_fe, extra_nomes=_en, tem_offtrade=_to), _e, _n)
+    for _s, _e, _n, _ff, _fe, _emp, _en, _to in _VH_CONFIGS
+]
+for (_s, _e, _n, _ff, _fe, _emp, _en, _to), _res in zip(_VH_CONFIGS, carregar_paralelo(_chamadas_vh)):
+    if isinstance(_res, Exception):
         print(f"[AVISO] {_n} falhou — ignorado")
         FONTES_INDISPONIVEIS.append(_n)
+    else:
+        _res['EMPRESA'] = _emp
+        _vh_parts.append(_res)
 _vh = pd.concat(_vh_parts, ignore_index=True)
 _vh['MES']    = pd.to_datetime(_vh['MES'],   errors='coerce')
 _vh['QT']     = pd.to_numeric(_vh['QT'],     errors='coerce').fillna(0).astype(int)
@@ -189,16 +198,20 @@ def _query_cadastros(schema, col_usur="CODUSUR1", tem_offtrade=True):
 
 _cadastros_por_display: dict = {}
 try:
+    _CADASTROS_CONFIGS = [("CRC", engine, "CODUSUR1", True), ("thekings", engine_theking, "CODUSUR1", True), ("spon", engine_spon, "CODUSUR1", True), ("CASTAS", engine_castas, "CODUSUR1", True), ("GARRIDO", engine_garrido, "CODUSUR1", False)]
     _frames_cad = []
-    for _schema, _eng, _col, _to in [("CRC", engine, "CODUSUR1", True), ("thekings", engine_theking, "CODUSUR1", True), ("spon", engine_spon, "CODUSUR1", True), ("CASTAS", engine_castas, "CODUSUR1", True), ("GARRIDO", engine_garrido, "CODUSUR1", False)]:
-        try:
-            _df_part = carregar_dados(_query_cadastros(_schema, _col, tem_offtrade=_to), _eng, f"cadastros_{_schema}")
-            _df_part.columns = _df_part.columns.str.upper()
-            _df_part['_SRC'] = _schema
-            _frames_cad.append(_df_part)
-        except Exception as _pe:
-            print(f"[AVISO] cadastros {_schema} falhou ({str(_pe)[:80]}) — ignorado")
+    _chamadas_cad = [
+        (_query_cadastros(_schema, _col, tem_offtrade=_to), _eng, f"cadastros_{_schema}")
+        for _schema, _eng, _col, _to in _CADASTROS_CONFIGS
+    ]
+    for (_schema, _eng, _col, _to), _res in zip(_CADASTROS_CONFIGS, carregar_paralelo(_chamadas_cad)):
+        if isinstance(_res, Exception):
+            print(f"[AVISO] cadastros {_schema} falhou ({str(_res)[:80]}) — ignorado")
             FONTES_INDISPONIVEIS.append(f"cadastros_{_schema}")
+        else:
+            _res.columns = _res.columns.str.upper()
+            _res['_SRC'] = _schema
+            _frames_cad.append(_res)
     if _frames_cad:
         _df_cad = pd.concat(_frames_cad, ignore_index=True)
         _df_cad['_ID'] = _df_cad.apply(
@@ -311,19 +324,24 @@ def _query_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=None, extr
         GROUP BY TRUNC(M.DTMOV, 'MM'), M.CODUSUR, U.NOME
     """
 
-_hist_parts = []
-for _s, _e, _n, _ff, _fe, _en, _to in [
+_HIST_CONFIGS = [
     ("CRC",      engine,         "historico_CRC",      "(1, 2, 4)", None, None,        True),
     ("thekings", engine_theking, "historico_thekings",  "(1, 2, 4)", None, None,        True),
     ("CASTAS",   engine_castas,  "historico_CASTAS",    None,        None, None,        True),
     ("GARRIDO",  engine_garrido, "historico_GARRIDO",   None,        None, None,        False),
     ("SPON",     engine_spon,    "historico_SPON",      None,        None, _SPON_EXTRA, True),
-]:
-    try:
-        _hist_parts.append(carregar_dados(_query_historico(_s, filtro_filial=_ff, filtro_estent=_fe, extra_nomes=_en, tem_offtrade=_to), _e, _n))
-    except Exception as _ex:
+]
+_hist_parts = []
+_chamadas_hist = [
+    (_query_historico(_s, filtro_filial=_ff, filtro_estent=_fe, extra_nomes=_en, tem_offtrade=_to), _e, _n)
+    for _s, _e, _n, _ff, _fe, _en, _to in _HIST_CONFIGS
+]
+for (_s, _e, _n, _ff, _fe, _en, _to), _res in zip(_HIST_CONFIGS, carregar_paralelo(_chamadas_hist)):
+    if isinstance(_res, Exception):
         print(f"[AVISO] {_n} falhou — ignorado")
         FONTES_INDISPONIVEIS.append(_n)
+    else:
+        _hist_parts.append(_res)
 if not _hist_parts:
     raise RuntimeError("Nenhuma fonte de histórico disponível — todas as bases Oracle estão fora do ar.")
 _hist_raw = pd.concat(_hist_parts, ignore_index=True)
@@ -584,15 +602,26 @@ _HIER_CONFIGS = [
     ("MGON",    engine_mgon,    "hier_MGON",    "MGON",      _SPON_EXTRA),
 ]
 
-_hier_parts = []
-for _s, _e, _n, _emp, _en in _HIER_CONFIGS:
+def _carregar_hierarquia_fonte(_s, _e, _n, _en):
+    """Tenta a consulta completa (com supervisor/gerente); se a base não tiver
+    essas colunas/JOINs, cai pra versão básica (só CODUSUR/NOME). As duas
+    tentativas rodam dentro da MESMA thread do pool — o paralelismo é entre
+    fontes, não entre as 2 tentativas de uma mesma fonte."""
     try:
-        _df = carregar_dados(_query_hierarquia(_s, extra_nomes=_en), _e, _n)
-        _df['EMPRESA'] = _emp
-        _hier_parts.append(_df)
+        return carregar_dados(_query_hierarquia(_s, extra_nomes=_en), _e, _n)
     except Exception:
+        return carregar_dados(_query_hierarquia_basic(_s, extra_nomes=_en), _e, f"{_n}_basic")
+
+_hier_parts = []
+with ThreadPoolExecutor(max_workers=len(_HIER_CONFIGS)) as _hier_ex:
+    _hier_futuros = {
+        _hier_ex.submit(_carregar_hierarquia_fonte, _s, _e, _n, _en): (_s, _e, _n, _emp, _en)
+        for _s, _e, _n, _emp, _en in _HIER_CONFIGS
+    }
+    for _fut in as_completed(_hier_futuros):
+        _s, _e, _n, _emp, _en = _hier_futuros[_fut]
         try:
-            _df = carregar_dados(_query_hierarquia_basic(_s, extra_nomes=_en), _e, f"{_n}_basic")
+            _df = _fut.result()
             _df['EMPRESA'] = _emp
             _hier_parts.append(_df)
         except Exception as _ex2:

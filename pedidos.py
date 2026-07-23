@@ -17,7 +17,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, engine_mgon, carregar_dados
+from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, engine_mgon, carregar_dados, carregar_paralelo
 import baixar_planilhas_drive as _bpd
 
 DIAS_JANELA = 90
@@ -63,14 +63,17 @@ def _query_pedidos(schema, extra_nomes=None, filiais=None):
 
 _parts = []
 _fontes_indisponiveis = []
-for _nome, _eng, _extra, _filiais in _SOURCES:
-    try:
-        _df = carregar_dados(_query_pedidos(_nome, _extra, _filiais), _eng, f"pedidos_{_nome}")
-        _df['SISTEMA'] = _nome
-        _parts.append(_df)
-    except Exception as ex:
-        print(f"[AVISO] pedidos_{_nome} falhou ({str(ex)[:80]}) — ignorado")
+_chamadas_pedidos = [
+    (_query_pedidos(_nome, _extra, _filiais), _eng, f"pedidos_{_nome}")
+    for _nome, _eng, _extra, _filiais in _SOURCES
+]
+for (_nome, _eng, _extra, _filiais), _res in zip(_SOURCES, carregar_paralelo(_chamadas_pedidos)):
+    if isinstance(_res, Exception):
+        print(f"[AVISO] pedidos_{_nome} falhou ({str(_res)[:80]}) — ignorado")
         _fontes_indisponiveis.append(_nome)
+    else:
+        _res['SISTEMA'] = _nome
+        _parts.append(_res)
 
 if not _parts:
     raise RuntimeError("Nenhuma base carregada.")
@@ -236,12 +239,15 @@ def _query_pcprest(schema, extra_nomes=None):
 
 
 _pcprest_partes = []
-for _nome, _eng, _extra, _filiais in _SOURCES:
-    try:
-        _df_pp = carregar_dados(_query_pcprest(_nome, _extra), _eng, f"pcprest_{_nome}")
-        _pcprest_partes.append(_df_pp)
-    except Exception as ex:
-        print(f"[AVISO] pcprest_{_nome} falhou ({str(ex)[:80]}) — ignorado (pagamentos dessa base ficam sem checar)")
+_chamadas_pcprest = [
+    (_query_pcprest(_nome, _extra), _eng, f"pcprest_{_nome}")
+    for _nome, _eng, _extra, _filiais in _SOURCES
+]
+for (_nome, _eng, _extra, _filiais), _res in zip(_SOURCES, carregar_paralelo(_chamadas_pcprest)):
+    if isinstance(_res, Exception):
+        print(f"[AVISO] pcprest_{_nome} falhou ({str(_res)[:80]}) — ignorado (pagamentos dessa base ficam sem checar)")
+    else:
+        _pcprest_partes.append(_res)
 
 _numpeds_pagos = set()
 if _pcprest_partes:

@@ -1,6 +1,7 @@
 #META
 import os
 import threading
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import pandas as pd
 import oracledb
 from sqlalchemy import create_engine
@@ -128,6 +129,29 @@ def carregar_dados(query, engine, nome_tabela="tabela", max_tentativas=3, timeou
                 _FONTES_MORTAS[id(engine)] = e
                 raise e
 
+
+def carregar_paralelo(chamadas):
+    """chamadas: lista de (query, engine, nome_tabela) — mesmos argumentos de
+    carregar_dados(). Roda todas ao mesmo tempo em vez de uma atrás da outra:
+    cada fonte tem seu próprio engine/pool de conexão, então é seguro. Uma
+    fonte travada não bloqueia mais as outras atrás dela na fila (confirmado
+    em 2026-07-23: GARRIDO/thekings lentos travavam CRC/SPON/MGON, que
+    respondem em <1s, fazendo o pipeline levar horas). Retorna lista de
+    resultados NA MESMA ORDEM de entrada — cada item é o DataFrame carregado,
+    ou a Exception levantada (o chamador decide como tratar erro, igual já
+    fazia no loop sequencial)."""
+    resultados = [None] * len(chamadas)
+    with ThreadPoolExecutor(max_workers=len(chamadas)) as ex:
+        futuros = {ex.submit(carregar_dados, q, e, n): i for i, (q, e, n) in enumerate(chamadas)}
+        for fut in as_completed(futuros):
+            i = futuros[fut]
+            try:
+                resultados[i] = fut.result()
+            except Exception as erro:
+                resultados[i] = erro
+    return resultados
+
+
 def nome_display_por_oracle(df_com_nome, coluna_nome='NOME', coluna_display='VENDEDOR'):
     """Mapa NOME Oracle (string) -> nome de exibição.
 
@@ -203,20 +227,25 @@ def _carregar_pipeline_rj():
         return
     _PIPELINE_RJ_CARREGADO = True
 
-    _parts_vendas = []
-    for _s, _e, _n, _ff, _fe in [
+    _VENDAS_CONFIGS = [
         ("CRC",      engine,         "vendas_CRC",      "(1,2,4)", "RJ"),
         ("thekings", engine_theking, "vendas_thekings",  "(1,2,4)", "RJ"),
         ("CASTAS",   engine_castas,  "vendas_CASTAS",    None,      "RJ"),
         ("GARRIDO",  engine_garrido, "vendas_GARRIDO",   None,      "RJ"),
         ("SPON",     engine_spon,    "vendas_SPON",      None,      "RJ"),
         ("MGON",     engine_mgon,    "vendas_MGON",      None,      "RJ"),
-    ]:
-        try:
-            _parts_vendas.append(carregar_dados(_query_vendas(_s, filtro_filial=_ff, filtro_estent=_fe), _e, _n))
-        except Exception as _ex:
-            print(f"[AVISO] {_n} falhou ({str(_ex)[:80]}) — ignorado")
+    ]
+    _parts_vendas = []
+    _chamadas_vendas = [
+        (_query_vendas(_s, filtro_filial=_ff, filtro_estent=_fe), _e, _n)
+        for _s, _e, _n, _ff, _fe in _VENDAS_CONFIGS
+    ]
+    for (_s, _e, _n, _ff, _fe), _res in zip(_VENDAS_CONFIGS, carregar_paralelo(_chamadas_vendas)):
+        if isinstance(_res, Exception):
+            print(f"[AVISO] {_n} falhou ({str(_res)[:80]}) — ignorado")
             FONTES_INDISPONIVEIS.append(_n)
+        else:
+            _parts_vendas.append(_res)
     if not _parts_vendas:
         raise RuntimeError("Nenhuma fonte de vendas disponível — todas as bases Oracle estão fora do ar.")
     tabela_vendas = pd.concat(_parts_vendas, ignore_index=True)
@@ -253,19 +282,24 @@ def _carregar_pipeline_rj():
     tabela_vendas['FATURAMENTO'] = tabela_vendas['FATURAMENTO'].round(2)
 
     # Vendas do mês anterior (para exibição no detalhe do vendedor)
-    _parts_vendas_ant = []
-    for _s, _e, _n, _ff, _fe in [
+    _VENDAS_ANT_CONFIGS = [
         ("CRC",      engine,         "vendas_anterior_CRC",      "(1,2,4)", "RJ"),
         ("thekings", engine_theking, "vendas_anterior_thekings", "(1,2,4)", "RJ"),
         ("CASTAS",   engine_castas,  "vendas_anterior_CASTAS",   None,      "RJ"),
         ("GARRIDO",  engine_garrido, "vendas_anterior_GARRIDO",  None,      "RJ"),
         ("SPON",     engine_spon,    "vendas_anterior_SPON",     None,      "RJ"),
-    ]:
-        try:
-            _parts_vendas_ant.append(carregar_dados(_query_vendas(_s, mes_anterior=True, filtro_filial=_ff, filtro_estent=_fe), _e, _n))
-        except Exception as _ex:
-            print(f"[AVISO] {_n} falhou ({str(_ex)[:80]}) — ignorado")
+    ]
+    _parts_vendas_ant = []
+    _chamadas_vendas_ant = [
+        (_query_vendas(_s, mes_anterior=True, filtro_filial=_ff, filtro_estent=_fe), _e, _n)
+        for _s, _e, _n, _ff, _fe in _VENDAS_ANT_CONFIGS
+    ]
+    for (_s, _e, _n, _ff, _fe), _res in zip(_VENDAS_ANT_CONFIGS, carregar_paralelo(_chamadas_vendas_ant)):
+        if isinstance(_res, Exception):
+            print(f"[AVISO] {_n} falhou ({str(_res)[:80]}) — ignorado")
             FONTES_INDISPONIVEIS.append(_n)
+        else:
+            _parts_vendas_ant.append(_res)
     if not _parts_vendas_ant:
         raise RuntimeError("Nenhuma fonte de vendas do mês anterior disponível — todas as bases Oracle estão fora do ar.")
     tabela_vendas_anterior = pd.concat(_parts_vendas_ant, ignore_index=True)
