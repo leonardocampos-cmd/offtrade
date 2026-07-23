@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <script src="auth.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Status das Páginas</title>
+  <script src="status_paginas_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --card2: #22263a;
+      --accent: #f5c518; --blue: #3b82f6; --text: #e2e8f0;
+      --muted: #94a3b8; --border: #2d3144; --green: #22c55e;
+      --red: #ef4444; --orange: #f97316;
+    }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh; padding: 16px;
+    }
+    header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 20px; padding-bottom: 16px;
+      border-bottom: 1px solid var(--border); gap: 12px; flex-wrap: wrap;
+    }
+    header h1 { font-size: 1.1rem; font-weight: 700; color: var(--accent); }
+    header p  { font-size: .8rem; color: var(--muted); margin-top: 3px; }
+    .kpis { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 16px; }
+    .kpi {
+      background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+      padding: 14px 18px; flex: 1; min-width: 160px;
+    }
+    .kpi .label {
+      font-size: .65rem; text-transform: uppercase; letter-spacing: .08em;
+      color: var(--muted); margin-bottom: 6px;
+    }
+    .kpi .val { font-size: 1.25rem; font-weight: 800; }
+    .controls { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 16px; align-items: center; }
+    select {
+      background: var(--card); border: 1px solid var(--border);
+      color: var(--text); border-radius: 8px; padding: 8px 12px;
+      font-size: .88rem; outline: none; font-family: inherit; min-width: 200px;
+    }
+    .info { font-size: .8rem; color: var(--muted); margin-left: auto; }
+    .table-wrap { overflow-x: auto; border-radius: 10px; border: 1px solid var(--border); }
+    table { width: 100%; border-collapse: collapse; font-size: .85rem; }
+    thead th {
+      background: var(--card2); padding: 10px 12px; text-align: left;
+      font-size: .72rem; text-transform: uppercase; letter-spacing: .05em;
+      color: var(--muted); border-bottom: 1px solid var(--border); white-space: nowrap;
+    }
+    tbody tr { border-bottom: 1px solid var(--border); }
+    tbody tr:hover { background: var(--card2); }
+    tbody td { padding: 10px 12px; vertical-align: middle; }
+    .cod { color: var(--muted); font-size: .8rem; font-family: monospace; }
+    .status-badge { display: inline-block; border-radius: 20px; padding: 2px 10px; font-size: .74rem; font-weight: 700; white-space: nowrap; }
+    .status-ok       { background: rgba(34,197,94,.15);  color: var(--green); }
+    .status-atencao   { background: rgba(249,115,22,.15); color: var(--orange); }
+    .status-critico   { background: rgba(239,68,68,.15);  color: var(--red); }
+    .status-manual    { background: var(--card2); border: 1px solid var(--border); color: var(--muted); }
+    .empty { text-align: center; padding: 48px; color: var(--muted); font-size: .9rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>🩺 STATUS DAS PÁGINAS</h1>
+    <p id="header-sub">—</p>
+  </div>
+  <a href="index.html" style="color:var(--muted);font-size:.8rem;text-decoration:none">← Painel</a>
+</header>
+
+<div class="kpis" id="kpis"></div>
+
+<div class="controls">
+  <select id="sel-status" onchange="aplicarFiltro()">
+    <option value="">Todos os Status</option>
+    <option value="Crítico">Crítico</option>
+    <option value="Atenção">Atenção</option>
+    <option value="OK">OK</option>
+    <option value="Manual">Manual</option>
+    <option value="Sem timestamp">Sem timestamp</option>
+  </select>
+  <span class="info" id="info-count"></span>
+</div>
+
+<div class="table-wrap">
+  <table id="tabela">
+    <thead>
+      <tr>
+        <th>Arquivo</th>
+        <th>Última Atualização</th>
+        <th>Há Quanto Tempo</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+</div>
+
+<script>
+const DATA = typeof STATUS_PAGINAS_DATA !== 'undefined' ? STATUS_PAGINAS_DATA : null;
+
+function _esc(s) {
+  return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function _fmtIdade(horas) {
+  if (horas === null || horas === undefined) return '—';
+  if (horas < 1) return Math.round(horas * 60) + ' min';
+  if (horas < 48) return horas.toFixed(1) + ' h';
+  return (horas / 24).toFixed(1) + ' dias';
+}
+
+function _statusBadge(status) {
+  const map = {
+    'OK': 'status-ok', 'Atenção': 'status-atencao', 'Crítico': 'status-critico',
+    'Manual': 'status-manual', 'Sem timestamp': 'status-critico',
+  };
+  const cls = map[status] || 'status-manual';
+  return `<span class="status-badge ${cls}">${_esc(status)}</span>`;
+}
+
+if (!DATA) {
+  document.getElementById('tbody').innerHTML =
+    '<tr><td colspan="4" class="empty">Dados não encontrados. Execute exportacao_status_paginas.py.</td></tr>';
+} else {
+  document.getElementById('header-sub').textContent = 'Atualizado ' + DATA.atualizado_em;
+  montarKpis();
+  aplicarFiltro();
+}
+
+function montarKpis() {
+  const paginas = DATA.paginas || [];
+  const porStatus = {};
+  paginas.forEach(p => { porStatus[p.status] = (porStatus[p.status] || 0) + 1; });
+  document.getElementById('kpis').innerHTML = `
+    <div class="kpi"><div class="label">Total de Páginas</div><div class="val">${paginas.length}</div></div>
+    <div class="kpi"><div class="label">OK</div><div class="val" style="color:var(--green)">${porStatus['OK'] || 0}</div></div>
+    <div class="kpi"><div class="label">Atenção</div><div class="val" style="color:var(--orange)">${porStatus['Atenção'] || 0}</div></div>
+    <div class="kpi"><div class="label">Crítico</div><div class="val" style="color:var(--red)">${(porStatus['Crítico'] || 0) + (porStatus['Sem timestamp'] || 0)}</div></div>
+  `;
+}
+
+function aplicarFiltro() {
+  const status = document.getElementById('sel-status').value;
+  let paginas = DATA.paginas || [];
+  if (status) paginas = paginas.filter(p => p.status === status);
+  render(paginas);
+}
+
+function render(paginas) {
+  document.getElementById('info-count').textContent = `${paginas.length} página(s)`;
+  const tbody = document.getElementById('tbody');
+  if (!paginas.length) {
+    tbody.innerHTML = '<tr><td colspan="4" class="empty">Nenhuma página encontrada.</td></tr>';
+    return;
+  }
+  tbody.innerHTML = paginas.map(p => `
+    <tr>
+      <td class="cod">${_esc(p.arquivo)}</td>
+      <td>${_esc(p.atualizado_em) || '—'}</td>
+      <td>${_fmtIdade(p.idade_horas)}</td>
+      <td>${_statusBadge(p.status)}</td>
+    </tr>
+  `).join('');
+}
+</script>
+</body>
+</html>
