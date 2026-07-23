@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "22/07/2026 14:13",
+  "atualizado_em": "23/07/2026 10:30",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -94,10 +94,10 @@ const CRUSOE_DATA = {
         {
           "rca": 412,
           "vendedor": "Barbara Cabral",
-          "pedidos": 15,
+          "pedidos": 16,
           "positivacoes": 13,
           "novos_skus": 110,
-          "faturamento": 36200.06,
+          "faturamento": 36353.41,
           "pontos_positivacao": 65,
           "pontos_novos_skus": 440,
           "pontos_pedidos_valor": 27,
@@ -1563,6 +1563,428 @@ const CRUSOE_DATA = {
                   ]
                 }
               ]
+            },
+            {
+              "numnota": "414630",
+              "data": "22/07/2026",
+              "cliente": "PRIME MARKETS MINIMERCADO LTDA",
+              "valor_pedido": 153.35,
+              "eventos": [],
+              "itens": [
+                {
+                  "produto": "RC ATUM RALADO OLEO 24X140G",
+                  "qt": 1.0,
+                  "valor": 153.35,
+                  "pontuacoes": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rca": 439,
+          "vendedor": "Mateus Cardoso",
+          "pedidos": 8,
+          "positivacoes": 8,
+          "novos_skus": 23,
+          "faturamento": 14883.96,
+          "pontos_positivacao": 40,
+          "pontos_novos_skus": 92,
+          "pontos_pedidos_valor": 13,
+          "pontos_total": 145,
+          "vendas": [
+            {
+              "numnota": "410357",
+              "data": "08/07/2026",
+              "cliente": "FRANCISCO LUIZ ALVES 75441640715",
+              "valor_pedido": 249.5,
+              "eventos": [
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 1.0,
+                  "valor": 249.5,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "412326",
+              "data": "15/07/2026",
+              "cliente": "DAVID WESLEY FERREIRA DOS SANTOS 16810532765",
+              "valor_pedido": 608.88,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$500-1000)",
+                  "pontos": 1
+                },
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+                  "qt": 1.0,
+                  "valor": 208.56,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM SOLIDO OLEO 24X170G",
+                  "qt": 1.0,
+                  "valor": 208.56,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+                  "qt": 1.0,
+                  "valor": 191.76,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "412727",
+              "data": "16/07/2026",
+              "cliente": "MERCADO PRAIA BRAVA DE ANGRA DOS REIS LTDA",
+              "valor_pedido": 625.68,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$500-1000)",
+                  "pontos": 1
+                },
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+                  "qt": 3.0,
+                  "valor": 625.68,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "414514",
+              "data": "22/07/2026",
+              "cliente": "SUPERMERCADO PRECOTIMO LTDA",
+              "valor_pedido": 2878.0,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$1001-3000)",
+                  "pontos": 2
+                },
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC ATUM RALADO NATURAL 24X140G",
+                  "qt": 4.0,
+                  "valor": 519.6,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM RALADO OLEO 24X140G",
+                  "qt": 3.0,
+                  "valor": 389.7,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+                  "qt": 3.0,
+                  "valor": 509.7,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+                  "qt": 4.0,
+                  "valor": 679.6,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+                  "qt": 3.0,
+                  "valor": 389.7,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+                  "qt": 3.0,
+                  "valor": 389.7,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "414533",
+              "data": "22/07/2026",
+              "cliente": "AVALON MERCEARIA DA TERRA LTDA",
+              "valor_pedido": 2338.2,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$1001-3000)",
+                  "pontos": 2
+                },
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC ATUM RALADO NATURAL 24X140G",
+                  "qt": 6.0,
+                  "valor": 779.4,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM RALADO OLEO 24X140G",
+                  "qt": 6.0,
+                  "valor": 779.4,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+                  "qt": 6.0,
+                  "valor": 779.4,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "414608",
+              "data": "22/07/2026",
+              "cliente": "FLEX MINI COMERCIO DE ALIMENTOS LTDA",
+              "valor_pedido": 2338.2,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$1001-3000)",
+                  "pontos": 2
+                },
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC ATUM RALADO NATURAL 24X140G",
+                  "qt": 6.0,
+                  "valor": 779.4,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM RALADO OLEO 24X140G",
+                  "qt": 6.0,
+                  "valor": 779.4,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+                  "qt": 6.0,
+                  "valor": 779.4,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "414612",
+              "data": "22/07/2026",
+              "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+              "valor_pedido": 2338.2,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$1001-3000)",
+                  "pontos": 2
+                },
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC ATUM RALADO NATURAL 24X140G",
+                  "qt": 6.0,
+                  "valor": 779.4,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM RALADO OLEO 24X140G",
+                  "qt": 6.0,
+                  "valor": 779.4,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+                  "qt": 6.0,
+                  "valor": 779.4,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "414670",
+              "data": "22/07/2026",
+              "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+              "valor_pedido": 3507.3,
+              "eventos": [
+                {
+                  "tipo": "pedido (acima de R$3001)",
+                  "pontos": 3
+                },
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC ATUM RALADO NATURAL 24X140G",
+                  "qt": 9.0,
+                  "valor": 1169.1,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM RALADO OLEO 24X140G",
+                  "qt": 9.0,
+                  "valor": 1169.1,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+                  "qt": 9.0,
+                  "valor": 1169.1,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -1923,14 +2345,14 @@ const CRUSOE_DATA = {
         {
           "rca": 153,
           "vendedor": "Angelo Neves Suzart",
-          "pedidos": 7,
-          "positivacoes": 3,
-          "novos_skus": 9,
-          "faturamento": 9898.64,
-          "pontos_positivacao": 15,
-          "pontos_novos_skus": 36,
-          "pontos_pedidos_valor": 9,
-          "pontos_total": 60,
+          "pedidos": 6,
+          "positivacoes": 2,
+          "novos_skus": 7,
+          "faturamento": 9325.47,
+          "pontos_positivacao": 10,
+          "pontos_novos_skus": 28,
+          "pontos_pedidos_valor": 8,
+          "pontos_total": 46,
           "vendas": [
             {
               "numnota": "408274",
@@ -2119,179 +2541,20 @@ const CRUSOE_DATA = {
                   ]
                 }
               ]
-            },
-            {
-              "numnota": "413798",
-              "data": "20/07/2026",
-              "cliente": "MERCADAO DE ALIMENTOS UNIDOS BRASIL LTDA",
-              "valor_pedido": 573.17,
-              "eventos": [
-                {
-                  "tipo": "pedido (R$500-1000)",
-                  "pontos": 1
-                },
-                {
-                  "tipo": "positivação (novo/reativação)",
-                  "pontos": 5
-                }
-              ],
-              "itens": [
-                {
-                  "produto": "RC SARDINHA EM OLEO 50X125G",
-                  "qt": 2.0,
-                  "valor": 399.8,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM RALADO NATURAL 24X140G",
-                  "qt": 1.0,
-                  "valor": 173.37,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "rca": 439,
-          "vendedor": "Mateus Cardoso",
-          "pedidos": 3,
-          "positivacoes": 3,
-          "novos_skus": 5,
-          "faturamento": 1484.06,
-          "pontos_positivacao": 15,
-          "pontos_novos_skus": 20,
-          "pontos_pedidos_valor": 2,
-          "pontos_total": 37,
-          "vendas": [
-            {
-              "numnota": "410357",
-              "data": "08/07/2026",
-              "cliente": "FRANCISCO LUIZ ALVES 75441640715",
-              "valor_pedido": 249.5,
-              "eventos": [
-                {
-                  "tipo": "positivação (novo/reativação)",
-                  "pontos": 5
-                }
-              ],
-              "itens": [
-                {
-                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-                  "qt": 1.0,
-                  "valor": 249.5,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "numnota": "412326",
-              "data": "15/07/2026",
-              "cliente": "DAVID WESLEY FERREIRA DOS SANTOS 16810532765",
-              "valor_pedido": 608.88,
-              "eventos": [
-                {
-                  "tipo": "pedido (R$500-1000)",
-                  "pontos": 1
-                },
-                {
-                  "tipo": "positivação (novo/reativação)",
-                  "pontos": 5
-                }
-              ],
-              "itens": [
-                {
-                  "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-                  "qt": 1.0,
-                  "valor": 208.56,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM SOLIDO OLEO 24X170G",
-                  "qt": 1.0,
-                  "valor": 208.56,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
-                  "qt": 1.0,
-                  "valor": 191.76,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "numnota": "412727",
-              "data": "16/07/2026",
-              "cliente": "MERCADO PRAIA BRAVA DE ANGRA DOS REIS LTDA",
-              "valor_pedido": 625.68,
-              "eventos": [
-                {
-                  "tipo": "pedido (R$500-1000)",
-                  "pontos": 1
-                },
-                {
-                  "tipo": "positivação (novo/reativação)",
-                  "pontos": 5
-                }
-              ],
-              "itens": [
-                {
-                  "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-                  "qt": 3.0,
-                  "valor": 625.68,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                }
-              ]
             }
           ]
         },
         {
           "rca": 471,
           "vendedor": "Ana Clara Fassano",
-          "pedidos": 1,
+          "pedidos": 2,
           "positivacoes": 1,
-          "novos_skus": 1,
-          "faturamento": 417.12,
+          "novos_skus": 2,
+          "faturamento": 800.64,
           "pontos_positivacao": 5,
-          "pontos_novos_skus": 4,
+          "pontos_novos_skus": 8,
           "pontos_pedidos_valor": 0,
-          "pontos_total": 9,
+          "pontos_total": 13,
           "vendas": [
             {
               "numnota": "413930",
@@ -2309,6 +2572,26 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM SOLIDO OLEO 24X170G",
                   "qt": 2.0,
                   "valor": 417.12,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "414822",
+              "data": "22/07/2026",
+              "cliente": "MERCADINHO PERNAMBUCO LTDA",
+              "valor_pedido": 383.52,
+              "eventos": [],
+              "itens": [
+                {
+                  "produto": "RC ATUM SOLIDO OLEO 24X170G",
+                  "qt": 2.0,
+                  "valor": 383.52,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -2426,7 +2709,7 @@ const CRUSOE_DATA = {
           "rca": 431,
           "vendedor": "Adeilson Gonçalvez",
           "clientes_gourmet": 1,
-          "faturamento": 796.68,
+          "faturamento": 1616.08,
           "faturamento_gourmet": 259.8,
           "pontos_total": 1,
           "vendas": [
@@ -2459,7 +2742,7 @@ const CRUSOE_DATA = {
           "rca": 379,
           "vendedor": "Jorge Maciel",
           "clientes_gourmet": 0,
-          "faturamento": 7299.88,
+          "faturamento": 7431.88,
           "faturamento_gourmet": 0.0,
           "pontos_total": 0,
           "vendas": []
@@ -2468,7 +2751,7 @@ const CRUSOE_DATA = {
           "rca": 378,
           "vendedor": "Fabio Valotti",
           "clientes_gourmet": 0,
-          "faturamento": 519.6,
+          "faturamento": 389.7,
           "faturamento_gourmet": 0.0,
           "pontos_total": 0,
           "vendas": []
