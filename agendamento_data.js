@@ -12005,18 +12005,120 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "23/07/2026 09:50",
+  "atualizado_em": "23/07/2026 09:59",
   "comparativo": [
+    {
+      "msg_id": "19f8f0d0054f43bd",
+      "subject": "PEDIDO DO MERCADO ARMAZEM 4",
+      "data_email": "2026-07-23",
+      "sistema": "CRC - 04",
+      "cod_cliente": "79838",
+      "razao_social": "ARMAZEM 4 DO RECREIO LTDA",
+      "fantasia": "ARMAZEM 4",
+      "cnpj": "40.454.624/0001-01",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "857",
+          "descricao": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "qt": 12,
+          "preco": 118.0,
+          "total": 1416.0,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f8f0d0054f43bd",
+      "subject": "PEDIDO DO MERCADO ARMAZEM 4",
+      "data_email": "2026-07-23",
+      "sistema": "CRC - 04",
+      "cod_cliente": "79838",
+      "razao_social": "ARMAZEM 4 DO RECREIO LTDA",
+      "fantasia": "ARMAZEM 4",
+      "cnpj": "40.454.624/0001-01",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 18,
+          "preco": 32.9,
+          "total": 592.2,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f8f0b201cbb67f",
+      "subject": "Pedido do cliente 89197 Pão com Letras",
+      "data_email": "2026-07-23",
+      "sistema": "CRC - 04",
+      "cod_cliente": "89197",
+      "razao_social": "PÃO COM LETRAS PANIFICADORA LTDA.",
+      "fantasia": "SUPERPAO - PAISSANDU",
+      "cnpj": "05.951.912/0001-62",
+      "rca": "153 - ÂNGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "45",
+      "obs": "entregar no dia 27107 com pagamento de descarga no valor de R$600,00 por pallets e horario das 08:00 as 15:00hr por ordem de chegada",
+      "itens": [
+        {
+          "cod_prod": "3451",
+          "descricao": "WHISKY ESC MACALLAN DOUBLE 12 YO 700ML",
+          "qt": 2,
+          "preco": 678.5,
+          "total": 1357.8,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "3789",
+          "descricao": "INATIVO-VEUVE CLICQUOT ROSE COOLER",
+          "qt": 2,
+          "preco": 426.0,
+          "total": 852.0,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "2848",
+          "descricao": "VINHO TINTO BORDOZO PRIMITIVO 750ML",
+          "qt": 6,
+          "preco": 45.0,
+          "total": 270.0,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "2704",
+          "descricao": "VILLA ROSA COLHEITA TINTO 375ML",
+          "qt": 12,
+          "preco": 25.3,
+          "total": 303.6,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        }
+      ]
+    },
     {
       "msg_id": "19f8b26374e0bcd7",
       "subject": "PEDIDO PREÇOTIMO - ANGRA",
       "data_email": "2026-07-22",
       "sistema": "CRC - 04",
       "cod_cliente": "13729",
-      "razao_social": "",
-      "fantasia": "",
-      "cnpj": "",
-      "rca": "",
+      "razao_social": "SUPERMERCADO PRECOTIMO LTDA",
+      "fantasia": "PRECO OTIMO SUPERMERCADO",
+      "cnpj": "00.814.712/0001-44",
+      "rca": "439 - MATEUS CARDOSO - OFF TRADE",
       "bonificacao": true,
       "prazo": "14 DIAS",
       "obs": "HORARIO ENTREGA COMERCIAL | ROTA VIAGEM DIA 23/07",
@@ -12083,10 +12185,10 @@ const AGENDAMENTO_DATA = {
       "data_email": "2026-07-22",
       "sistema": "CRC - 04",
       "cod_cliente": "13729",
-      "razao_social": "",
-      "fantasia": "",
-      "cnpj": "",
-      "rca": "",
+      "razao_social": "SUPERMERCADO PRECOTIMO LTDA",
+      "fantasia": "PRECO OTIMO SUPERMERCADO",
+      "cnpj": "00.814.712/0001-44",
+      "rca": "439 - MATEUS CARDOSO - OFF TRADE",
       "bonificacao": true,
       "prazo": "",
       "obs": "HORARIO ENTREGA COMERCIAL | ROTA VIAGEM DIA 23/07",

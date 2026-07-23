@@ -147,10 +147,11 @@ def _parse_html_pedido(html: str) -> list:
         celulas_up = [c.upper() for c in celulas]
         texto_linha = " ".join(celulas_up)
 
-        # O template tem 2 variantes de cabeçalho: "SELECIONE O SISTEMA: CRC - 04"
-        # (pedido normal) ou "BONIFICAÇÃO CRC - 04" (título só aparece nessa forma
-        # quando é bonificação — o campo "BONIFICAÇÃO ?" abaixo geralmente fica em
-        # branco no pedido normal, não dá pra confiar nele sozinho).
+        # O template tem pelo menos 3 variantes de cabeçalho vistas na prática:
+        # "SELECIONE O SISTEMA: CRC - 04" (pedido normal), "BONIFICAÇÃO CRC - 04"
+        # (só aparece nessa forma quando é bonificação — o campo "BONIFICAÇÃO ?"
+        # abaixo geralmente fica em branco no pedido normal, não dá pra confiar
+        # nele sozinho) e "PEDIDO CRC - 04" (título simples, sem "SELECIONE").
         if "SELECIONE O SISTEMA" in texto_linha:
             sistema = celulas[-1] if celulas else ""
             bloco_atual = {'sistema': sistema, 'bonificacao': False, 'itens': []}
@@ -161,6 +162,13 @@ def _parse_html_pedido(html: str) -> list:
         if re.search(r'BONIFICA[ÇC][ÃA]O\s+CRC', texto_linha):
             sistema = re.sub(r'^.*BONIFICA[ÇC][ÃA]O\s+', '', celulas[0] if celulas else '', flags=re.IGNORECASE)
             bloco_atual = {'sistema': sistema, 'bonificacao': True, 'itens': []}
+            blocos.append(bloco_atual)
+            aguardando_itens = False
+            continue
+
+        if re.search(r'\bPEDIDO\s+CRC\b', texto_linha) and len(celulas) <= 2:
+            sistema = re.sub(r'^.*\bPEDIDO\s+', '', celulas[0] if celulas else '', flags=re.IGNORECASE)
+            bloco_atual = {'sistema': sistema, 'bonificacao': False, 'itens': []}
             blocos.append(bloco_atual)
             aguardando_itens = False
             continue
@@ -205,17 +213,18 @@ _PROMPT_IMAGEM = """Esta imagem é um formulário de pedido de bebidas de um RCA
 Extraia os campos em JSON, respondendo APENAS o JSON (sem texto extra), no formato:
 
 {
-  "sistema": "o código do sistema/filial, ex: 'CRC - 04' — aparece tanto no cabeçalho
-    'SELECIONE O SISTEMA: CRC - 04' quanto no cabeçalho 'BONIFICAÇÃO CRC - 04' (nesse
-    segundo caso o 'BONIFICAÇÃO' faz parte do título, não do código: extraia só 'CRC - 04')",
+  "sistema": "o código do sistema/filial, ex: 'CRC - 04'. O cabeçalho/título do formulário
+    varia ('SELECIONE O SISTEMA: CRC - 04', 'BONIFICAÇÃO CRC - 04', 'PEDIDO CRC - 04', etc)
+    — em qualquer caso, extraia só a parte 'CRC - 04' (empresa + número), ignorando as
+    palavras ao redor (SELECIONE O SISTEMA / BONIFICAÇÃO / PEDIDO não fazem parte do código)",
   "cod_cliente": "número em COD CLIENTE",
   "razao_social": "...", "fantasia": "...", "cnpj": "...",
   "praca": "...", "forma_pg": "...", "rca": "código e nome em RCA",
-  "bonificacao": "true SOMENTE se o título/cabeçalho do formulário for 'BONIFICAÇÃO CRC - XX'
-    (em vez de 'SELECIONE O SISTEMA: CRC - XX'), OU se o campo 'BONIFICAÇÃO ?' contiver
-    explicitamente o texto 'Sim'. Se o cabeçalho for 'SELECIONE O SISTEMA' e o campo
-    'BONIFICAÇÃO ?' estiver em branco/vazio, é false (pedido normal, não bonificação) —
-    campo em branco NUNCA deve virar true.",
+  "bonificacao": "true SOMENTE se o título/cabeçalho do formulário contiver a palavra
+    'BONIFICAÇÃO' (ex: 'BONIFICAÇÃO CRC - XX'), OU se o campo 'BONIFICAÇÃO ?' contiver
+    explicitamente o texto 'Sim'. Se o cabeçalho for 'SELECIONE O SISTEMA' ou 'PEDIDO CRC'
+    e o campo 'BONIFICAÇÃO ?' estiver em branco/vazio, é false (pedido normal) — campo em
+    branco NUNCA deve virar true.",
   "tipo_segmento": "...", "obs": "texto do campo OBS", "prazo": "texto do campo PRAZO",
   "itens": [{"cod_prod": "...", "descricao": "...", "qt": numero, "preco": numero, "total": numero}]
 }
@@ -373,10 +382,15 @@ def main():
         partes = {'html_parts': [], 'image_attachment_ids': []}
         _extract_parts(msg['payload'], partes)
 
+        # Nao filtra pelo texto cru do HTML antes de chamar _parse_html_pedido:
+        # o label "SELECIONE O SISTEMA" as vezes vem quebrado por uma tag/quebra
+        # de linha no meio ("SELECIONE<br>O SISTEMA"), entao o texto cru nunca
+        # bate mas o parser (que junta o texto de cada celula) acha certinho.
+        # Rodar o parser em toda parte html e' barato (retorna [] se nao achar
+        # nada) e evita perder emails reais (bug confirmado em 2026-07-23).
         blocos = []
         for html in partes['html_parts']:
-            if 'SELECIONE O SISTEMA' in html.upper():
-                blocos.extend(_parse_html_pedido(html))
+            blocos.extend(_parse_html_pedido(html))
 
         for att_id in partes['image_attachment_ids']:
             try:
@@ -386,6 +400,8 @@ def main():
                 extraido = _parse_imagem_pedido(png_bytes)
                 if extraido and extraido.get('itens'):
                     blocos.append(extraido)
+                elif extraido is None:
+                    print(f"  [AVISO] imagem de '{subject}' não retornou JSON válido — ignorada")
             except Exception as e:
                 print(f"  [AVISO] falha ao processar imagem de '{subject}': {str(e)[:120]}")
 

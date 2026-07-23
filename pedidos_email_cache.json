@@ -4734,5 +4734,105 @@
         "tipo_segmento": "OFF TRADE"
       }
     ]
+  },
+  "19f8f0d0054f43bd": {
+    "subject": "PEDIDO DO MERCADO ARMAZEM 4",
+    "data_email": "2026-07-23",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "857",
+            "descricao": "LICOR ESP DIEGO ZAMORA 43 700ML",
+            "qt": 12,
+            "preco": 118.0,
+            "total": 1416.0
+          }
+        ],
+        "cod_cliente": "79838",
+        "razao_social": "ARMAZEM 4 DO RECREIO LTDA",
+        "fantasia": "ARMAZEM 4",
+        "cnpj": "40.454.624/0001-01",
+        "endereco": "RUA NILTON SANTOS, RECREIO DOS BANDEIRANTES - RIO DE JANEIRO",
+        "praca": "RECREIO DOS BANDEIRANTES",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      },
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "663",
+            "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+            "qt": 18,
+            "preco": 32.9,
+            "total": 592.2
+          }
+        ],
+        "cod_cliente": "79838",
+        "razao_social": "ARMAZEM 4 DO RECREIO LTDA",
+        "fantasia": "ARMAZEM 4",
+        "cnpj": "40.454.624/0001-01",
+        "endereco": "RUA NILTON SANTOS, RECREIO DOS BANDEIRANTES - RIO DE JANEIRO",
+        "praca": "RECREIO DOS BANDEIRANTES",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ]
+  },
+  "19f8f0b201cbb67f": {
+    "subject": "Pedido do cliente 89197 Pão com Letras",
+    "data_email": "2026-07-23",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "89197",
+        "razao_social": "PÃO COM LETRAS PANIFICADORA LTDA.",
+        "fantasia": "SUPERPAO - PAISSANDU",
+        "cnpj": "05.951.912/0001-62",
+        "praca": "PRAÇA MARCILIO DIAS, PAISSANDU - NOVA FRIBURGO",
+        "forma_pg": "Boleto",
+        "rca": "153 - ÂNGELO NEVES SUZART - OFF TRADE",
+        "bonificacao": "false",
+        "tipo_segmento": "OFF TRADE",
+        "obs": "entregar no dia 27107 com pagamento de descarga no valor de R$600,00 por pallets e horario das 08:00 as 15:00hr por ordem de chegada",
+        "prazo": "45",
+        "itens": [
+          {
+            "cod_prod": "3451",
+            "descricao": "WHISKY ESC MACALLAN DOUBLE 12 YO 700ML",
+            "qt": 2,
+            "preco": 678.5,
+            "total": 1357.8
+          },
+          {
+            "cod_prod": "3789",
+            "descricao": "INATIVO-VEUVE CLICQUOT ROSE COOLER",
+            "qt": 2,
+            "preco": 426.0,
+            "total": 852.0
+          },
+          {
+            "cod_prod": "2848",
+            "descricao": "VINHO TINTO BORDOZO PRIMITIVO 750ML",
+            "qt": 6,
+            "preco": 45.0,
+            "total": 270.0
+          },
+          {
+            "cod_prod": "2704",
+            "descricao": "VILLA ROSA COLHEITA TINTO 375ML",
+            "qt": 12,
+            "preco": 25.3,
+            "total": 303.6
+          }
+        ]
+      }
+    ]
   }
 }
