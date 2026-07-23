@@ -4,7 +4,7 @@ const AGENDAMENTO_DATA = {
       "nome": "ALLAN PAES - OFF TRADE",
       "itens": [
         {
-          "codigo_cliente": "6940.0",
+          "codigo_cliente": "6940",
           "cliente": "CASAS GUANABARA COMESTIVEIS",
           "cnpj": "33.130.543/0001-82",
           "filial": "PADRE MIGUEL",
@@ -23,7 +23,7 @@ const AGENDAMENTO_DATA = {
       "nome": "ANA CLARA FASSANO - OFF TRADE",
       "itens": [
         {
-          "codigo_cliente": "2610.0",
+          "codigo_cliente": "2610",
           "cliente": "SUPERMERCADO ULTRA SUL LTDA",
           "cnpj": "7473160000105",
           "filial": "CATETE",
@@ -37,7 +37,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6690.0",
+          "codigo_cliente": "6690",
           "cliente": "SUPERMERCADO ULTRA 12 LTDA",
           "cnpj": "5669831000174",
           "filial": "TIJUCA",
@@ -51,7 +51,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6325.0",
+          "codigo_cliente": "6325",
           "cliente": "SUPERMERCADO ULTRA 11 LTDA",
           "cnpj": "28072776000136",
           "filial": "FLAMENGO",
@@ -65,7 +65,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "8984.0",
+          "codigo_cliente": "8984",
           "cliente": "SUPERMERCADO ULTRA 07 LTDA",
           "cnpj": "27220597000136",
           "filial": "GAVEA",
@@ -79,7 +79,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3816.0",
+          "codigo_cliente": "3816",
           "cliente": "ORGANIZAÇÕES FARINHA PURA LTDA",
           "cnpj": "29298312000105",
           "filial": "HUMAITA",
@@ -93,7 +93,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3816.0",
+          "codigo_cliente": "3816",
           "cliente": "ORGANIZAÇÕES FARINHA PURA LTDA",
           "cnpj": "29298312000105",
           "filial": "HUMAITA",
@@ -107,7 +107,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "2710.0",
+          "codigo_cliente": "2710",
           "cliente": "MERCADINHO BAMBINA LTDA",
           "cnpj": "33226663000188",
           "filial": "BOTAFOGO",
@@ -121,7 +121,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "2610.0",
+          "codigo_cliente": "2610",
           "cliente": "SUPERMERCADO ULTRA SUL LTDA",
           "cnpj": "7473160000105",
           "filial": "CATETE",
@@ -135,7 +135,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6325.0",
+          "codigo_cliente": "6325",
           "cliente": "SUPERMERCADO ULTRA 11 LTDA",
           "cnpj": "28072776000136",
           "filial": "FLAMENGO",
@@ -149,7 +149,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "2610.0",
+          "codigo_cliente": "2610",
           "cliente": "SUPERMERCADO ULTRA SUL LTDA",
           "cnpj": "7473160000105",
           "filial": "CATETE",
@@ -168,7 +168,7 @@ const AGENDAMENTO_DATA = {
       "nome": "ANGELO NEVES SUZART - OFF TRADE",
       "itens": [
         {
-          "codigo_cliente": "77809.0",
+          "codigo_cliente": "77809",
           "cliente": "MERCADO RIO SUL DE XEREM LTDA",
           "cnpj": "49365479000159",
           "filial": "DUQUE DE CAXIAS",
@@ -182,7 +182,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "83627.0",
+          "codigo_cliente": "83627",
           "cliente": "MERCADO SANTO ALEIXO",
           "cnpj": "48.878.208/0001-34",
           "filial": "SANTO ALEIXO",
@@ -196,7 +196,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "83642.0",
+          "codigo_cliente": "83642",
           "cliente": "MINIMERCADO JARDIM ROSARIO LTDA",
           "cnpj": "19.722.068/0001-22",
           "filial": "SARACURUNA",
@@ -210,7 +210,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93342.0",
+          "codigo_cliente": "93342",
           "cliente": "SUPERMERCADO TRADIÇÃO RJ LTDA",
           "cnpj": "37.657.925/0005-43",
           "filial": "CARANGOLA",
@@ -224,7 +224,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93342.0",
+          "codigo_cliente": "93342",
           "cliente": "SUPERMERCADO TRADIÇÃO RJ LTDA",
           "cnpj": "37.657.925/0005-43",
           "filial": "CARANGOLA",
@@ -238,7 +238,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90484.0",
+          "codigo_cliente": "90484",
           "cliente": "SUPERMERCADOS RC DE ITAGUAI LTDA",
           "cnpj": "58.113.396/0001-63",
           "filial": "ITAGUAI",
@@ -252,7 +252,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6671.0",
+          "codigo_cliente": "6671",
           "cliente": "JRD MERCEARIA E HORTIFRUTI LTDA",
           "cnpj": "23.549.577/0001-52",
           "filial": "ILHA",
@@ -266,7 +266,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "86429.0",
+          "codigo_cliente": "86429",
           "cliente": "SUPERMERCADO RIO COMPRIDO LTDA",
           "cnpj": "52.722.054/0001-64",
           "filial": "RIO COMPRIDO",
@@ -280,7 +280,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90484.0",
+          "codigo_cliente": "90484",
           "cliente": "SUPERMERCADOS RC DE ITAGUAI LTDA",
           "cnpj": "58.113.396/0001-63",
           "filial": "ITAGUAI",
@@ -294,7 +294,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "83642.0",
+          "codigo_cliente": "83642",
           "cliente": "MINIMERCADO JARDIM ROSARIO LTDA",
           "cnpj": "19.722.068/0001-22",
           "filial": "SARACURUNA",
@@ -308,7 +308,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90484.0",
+          "codigo_cliente": "90484",
           "cliente": "SUPERMERCADOS RC DE ITAGUAI LTDA",
           "cnpj": "58.113.396/0001-63",
           "filial": "ITAGUAI",
@@ -322,7 +322,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90484.0",
+          "codigo_cliente": "90484",
           "cliente": "SUPERMERCADOS RC DE ITAGUAI LTDA",
           "cnpj": "58.113.396/0001-63",
           "filial": "ITAGUAI",
@@ -336,7 +336,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90484.0",
+          "codigo_cliente": "90484",
           "cliente": "SUPERMERCADOS RC DE ITAGUAI LTDA",
           "cnpj": "58.113.396/0001-63",
           "filial": "ITAGUAI",
@@ -350,7 +350,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "85897.0",
+          "codigo_cliente": "85897",
           "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
           "cnpj": "57489708000175",
           "filial": "JARDIM ATLANTICO",
@@ -364,7 +364,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "94281.0",
+          "codigo_cliente": "94281",
           "cliente": "RIO SUL DE QUEIMADOS",
           "cnpj": "",
           "filial": "",
@@ -378,7 +378,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84202.0",
+          "codigo_cliente": "84202",
           "cliente": "RIO SUL PANTANAL",
           "cnpj": "28048381000106",
           "filial": "VILA SANTO ANTÔNIO",
@@ -392,7 +392,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "85897.0",
+          "codigo_cliente": "85897",
           "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
           "cnpj": "57489708000175",
           "filial": "JARDIM ATLANTICO",
@@ -406,7 +406,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "77808.0",
+          "codigo_cliente": "77808",
           "cliente": "SUPERMERCADO RIO SUL DO LAUREANO LTDA",
           "cnpj": "41.475.101/0001-04",
           "filial": "CHACRINHA",
@@ -420,7 +420,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "60349.0",
+          "codigo_cliente": "60349",
           "cliente": "CEREAIS IRENE",
           "cnpj": "32125006000424",
           "filial": "PARQUE PAULISTA",
@@ -434,7 +434,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "83980.0",
+          "codigo_cliente": "83980",
           "cliente": "SUPERMERCADO TRADIÇÃO RJ LTDA",
           "cnpj": "37657925000462",
           "filial": "CENTRO",
@@ -448,7 +448,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "83801.0",
+          "codigo_cliente": "83801",
           "cliente": "SUPERMERCADOS RIO SUL DE AUSTIN LTDA",
           "cnpj": "40.897.272/0001-50",
           "filial": "AUSTIN",
@@ -462,7 +462,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "86195.0",
+          "codigo_cliente": "86195",
           "cliente": "MERCADO RC DE MIGUEL PEREIRA",
           "cnpj": "52909395000143",
           "filial": "PORTAL DAS MANSOES",
@@ -476,7 +476,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "86195.0",
+          "codigo_cliente": "86195",
           "cliente": "MERCADO RC DE MIGUEL PEREIRA",
           "cnpj": "52909395000143",
           "filial": "PORTAL DAS MANSOES",
@@ -490,7 +490,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84066.0",
+          "codigo_cliente": "84066",
           "cliente": "PREDILECTA DE XEREM COMERCIO DE GENEROS ALIMENTOS LTDA",
           "cnpj": "44291406000146",
           "filial": "XERÉM",
@@ -504,7 +504,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "86429.0",
+          "codigo_cliente": "86429",
           "cliente": "SUPERMERCADO RIO COMPRIDO LTDA",
           "cnpj": "52.722.054/0001-64",
           "filial": "RIO COMPRIDO",
@@ -518,7 +518,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "85945.0",
+          "codigo_cliente": "85945",
           "cliente": "RIO SUL CENTENARIO",
           "cnpj": "33749495000105",
           "filial": "VILA MERITI",
@@ -532,7 +532,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "78216.0",
+          "codigo_cliente": "78216",
           "cliente": "SUPERMERCADO RIO SUL DO GRAMACHO LTDA",
           "cnpj": "35.458.607/0001-02",
           "filial": "VILA LEOPOLDINA",
@@ -546,7 +546,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "86429.0",
+          "codigo_cliente": "86429",
           "cliente": "SUPERMERCADO RIO COMPRIDO LTDA",
           "cnpj": "52.722.054/0001-64",
           "filial": "RIO COMPRIDO",
@@ -560,7 +560,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "83627.0",
+          "codigo_cliente": "83627",
           "cliente": "MERCADO SANTO ALEIXO",
           "cnpj": "48.878.208/0001-34",
           "filial": "SANTO ALEIXO",
@@ -574,7 +574,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "85375.0",
+          "codigo_cliente": "85375",
           "cliente": "MERCEARIAS SUPERMIX LTDA",
           "cnpj": "50.165.338/0001-71",
           "filial": "ANDORINHAS (SANTO ALEIXO)",
@@ -588,7 +588,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "85376.0",
+          "codigo_cliente": "85376",
           "cliente": "MERCEARIAS SUPERMIX LTDA",
           "cnpj": "50.165.338/0002-52",
           "filial": "VILA VELHA (SANTO ALEIXO)",
@@ -602,7 +602,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "83642.0",
+          "codigo_cliente": "83642",
           "cliente": "MINIMERCADO JARDIM ROSARIO LTDA",
           "cnpj": "19.722.068/0001-22",
           "filial": "SARACURUNA",
@@ -616,7 +616,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84058.0",
+          "codigo_cliente": "84058",
           "cliente": "RIO NORTE SUPERMERCADO LTDA",
           "cnpj": "22.047.365/0001-04",
           "filial": "DUQUE DE CAXIAS",
@@ -630,7 +630,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "58819.0",
+          "codigo_cliente": "58819",
           "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
           "cnpj": "33765158000101",
           "filial": "JARDIM PRIMAVERA",
@@ -644,7 +644,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "58819.0",
+          "codigo_cliente": "58819",
           "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
           "cnpj": "33765158000101",
           "filial": "JARDIM PRIMAVERA",
@@ -658,7 +658,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84058.0",
+          "codigo_cliente": "84058",
           "cliente": "RIO NORTE SUPERMERCADO LTDA",
           "cnpj": "22.047.365/0001-04",
           "filial": "DUQUE DE CAXIAS",
@@ -672,7 +672,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "58584.0",
+          "codigo_cliente": "58584",
           "cliente": "SUPERMERCADO ALVORADA EIRELE",
           "cnpj": "17.833.301/0001-07",
           "filial": "ENGENHO VELHO",
@@ -691,7 +691,7 @@ const AGENDAMENTO_DATA = {
       "nome": "ANGELO SUZART - OFF TRADE",
       "itens": [
         {
-          "codigo_cliente": "6671.0",
+          "codigo_cliente": "6671",
           "cliente": "JRD MERCEARIA E HORTIFRUTI LTDA",
           "cnpj": "23.549.577/0001-52",
           "filial": "ILHA",
@@ -710,7 +710,7 @@ const AGENDAMENTO_DATA = {
       "nome": "BARBARA CABRAL - OFF TRADE",
       "itens": [
         {
-          "codigo_cliente": "94276.0",
+          "codigo_cliente": "94276",
           "cliente": "SUPERPRIX LOJA DE ALIMENTOS LTDA",
           "cnpj": "02.618.563/0020-36",
           "filial": "PENHA",
@@ -724,7 +724,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93382.0",
+          "codigo_cliente": "93382",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29.080.946/0011-69",
           "filial": "VARGEM GRANDE",
@@ -738,7 +738,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93388.0",
+          "codigo_cliente": "93388",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29.080.946/0012-40",
           "filial": "VARGEM PEQUENA",
@@ -752,7 +752,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "94276.0",
+          "codigo_cliente": "94276",
           "cliente": "SUPERPRIX LOJAS DE ALIMENTOS LTDA",
           "cnpj": "02.618.563/0020-36",
           "filial": "PENHA",
@@ -766,7 +766,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93386.0",
+          "codigo_cliente": "93386",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29.080.946/0010-88",
           "filial": "CAMPO GRANDE",
@@ -780,7 +780,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93389.0",
+          "codigo_cliente": "93389",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29.080.946/0013-20",
           "filial": "IRAJÁ",
@@ -794,7 +794,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "82781.0",
+          "codigo_cliente": "82781",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "42.632.913/0001-70",
           "filial": "REALENGO",
@@ -808,7 +808,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93385.0",
+          "codigo_cliente": "93385",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29.080.946/0009-44",
           "filial": "CAMPO GRANDE",
@@ -822,7 +822,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93385.0",
+          "codigo_cliente": "93385",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29.080.946/0009-44",
           "filial": "CAMPO GRANDE",
@@ -836,7 +836,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93389.0",
+          "codigo_cliente": "93389",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29.080.946/0013-20",
           "filial": "IRAJÁ",
@@ -850,7 +850,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93391.0",
+          "codigo_cliente": "93391",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29.080.946/0006-00",
           "filial": "CAMPO GRANDE",
@@ -864,7 +864,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93381.0",
+          "codigo_cliente": "93381",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29.080.946/0007-82",
           "filial": "CAMPO GRANDE",
@@ -878,7 +878,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93379.0",
+          "codigo_cliente": "93379",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29080946000430",
           "filial": "COSMOS",
@@ -892,7 +892,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93380.0",
+          "codigo_cliente": "93380",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29.080.946/0005-10",
           "filial": "KM 32",
@@ -906,7 +906,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93390.0",
+          "codigo_cliente": "93390",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29.080.946/0014-01",
           "filial": "VARGEM GRANDE",
@@ -920,7 +920,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "17484.0",
+          "codigo_cliente": "17484",
           "cliente": "MERCADO ADONAI DE INHOAIBA LTDA",
           "cnpj": "29.080.946/0001-97",
           "filial": "CAMPO GRANDE",
@@ -934,7 +934,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93386.0",
+          "codigo_cliente": "93386",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29.080.946/0010-88",
           "filial": "CAMPO GRANDE",
@@ -948,7 +948,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93382.0",
+          "codigo_cliente": "93382",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29.080.946/0011-69",
           "filial": "VARGEM GRANDE",
@@ -962,7 +962,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93388.0",
+          "codigo_cliente": "93388",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29.080.946/0012-40",
           "filial": "VARGEM PEQUENA",
@@ -976,7 +976,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "82781.0",
+          "codigo_cliente": "82781",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "42.632.913/0001-70",
           "filial": "REALENGO",
@@ -990,7 +990,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "4321.0",
+          "codigo_cliente": "4321",
           "cliente": "SUPERPIX LOJAS DE ALIMENTOS LTDA",
           "cnpj": "02.618.563/0001-73",
           "filial": "PARQUE DUQUE",
@@ -1009,7 +1009,7 @@ const AGENDAMENTO_DATA = {
       "nome": "DANIELLE MOURA - OFF TRADE",
       "itens": [
         {
-          "codigo_cliente": "2978.0",
+          "codigo_cliente": "2978",
           "cliente": "TORRE E CIA SUPERMERCADOS S/A",
           "cnpj": "07.760.885/0001-76",
           "filial": "ACARI",
@@ -1023,7 +1023,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90415.0",
+          "codigo_cliente": "90415",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0024-53",
           "filial": "PENHA",
@@ -1037,7 +1037,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91981.0",
+          "codigo_cliente": "91981",
           "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
           "cnpj": "05.546.194/0001-49",
           "filial": "SÃO GONÇALO",
@@ -1051,7 +1051,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79597.0",
+          "codigo_cliente": "79597",
           "cliente": "DOM ATACAREJO SA",
           "cnpj": "31.698.759/0006-28",
           "filial": "INHAUMA",
@@ -1065,7 +1065,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "74400.0",
+          "codigo_cliente": "74400",
           "cliente": "DOM ATACAREJO SA",
           "cnpj": "31.698.759/0009-70",
           "filial": "DUQUE DE CAXIAS",
@@ -1079,7 +1079,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79683.0",
+          "codigo_cliente": "79683",
           "cliente": "DOM ATACAREJO SA",
           "cnpj": "31.698.759/0010-04",
           "filial": "MACAE",
@@ -1093,7 +1093,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "74401.0",
+          "codigo_cliente": "74401",
           "cliente": "DOM ATACAREJO SA",
           "cnpj": "31.698.759/0011-95",
           "filial": "ARARUAMA",
@@ -1107,7 +1107,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "74406.0",
+          "codigo_cliente": "74406",
           "cliente": "DOM ATACAREJO SA",
           "cnpj": "31.698.759/0013-57",
           "filial": "SÃO PEDRO DA ALDEIA",
@@ -1121,7 +1121,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79593.0",
+          "codigo_cliente": "79593",
           "cliente": "DOM ATACAREJO SA",
           "cnpj": "31.698.759/0016-08",
           "filial": "RESENDE",
@@ -1135,7 +1135,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "74403.0",
+          "codigo_cliente": "74403",
           "cliente": "DOM ATACAREJO SA",
           "cnpj": "31.698.759/0018-61",
           "filial": "MARICA",
@@ -1149,7 +1149,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "74402.0",
+          "codigo_cliente": "74402",
           "cliente": "DOM ATACAREJO SA",
           "cnpj": "31.698.759/0020-86",
           "filial": "ITAPERUNA",
@@ -1163,7 +1163,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79681.0",
+          "codigo_cliente": "79681",
           "cliente": "DOM ATACAREJO SA",
           "cnpj": "31.698.759/0024-00",
           "filial": "MESQUITA",
@@ -1177,7 +1177,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84493.0",
+          "codigo_cliente": "84493",
           "cliente": "DOM ATACAREJO SA",
           "cnpj": "31.698.759/0029-14",
           "filial": "NOVA IGUAÇU",
@@ -1191,7 +1191,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91839.0",
+          "codigo_cliente": "91839",
           "cliente": "DOM ATACAREJO SA",
           "cnpj": "31.698.759/0031-39",
           "filial": "ARMAÇÃO DOS BUZIOS",
@@ -1205,7 +1205,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91839.0",
+          "codigo_cliente": "91839",
           "cliente": "DOM ATACAREJO SA",
           "cnpj": "31.698.759/0031-39",
           "filial": "ARMAÇÃO DOS BUZIOS",
@@ -1219,7 +1219,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84493.0",
+          "codigo_cliente": "84493",
           "cliente": "DOM ATACAREJO SA",
           "cnpj": "31.698.759/0029-14",
           "filial": "NOVA IGUAÇU",
@@ -1233,7 +1233,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "81307.0",
+          "codigo_cliente": "81307",
           "cliente": "DOM ATACAREJO SA",
           "cnpj": "31.698.759/0027-52",
           "filial": "SÃO GONÇALO",
@@ -1247,7 +1247,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "81308.0",
+          "codigo_cliente": "81308",
           "cliente": "DOM ATACAREJO SA",
           "cnpj": "31.698.759/0026-71",
           "filial": "BANGU",
@@ -1261,7 +1261,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79681.0",
+          "codigo_cliente": "79681",
           "cliente": "DOM ATACAREJO SA",
           "cnpj": "31.698.759/0024-00",
           "filial": "MESQUITA",
@@ -1275,7 +1275,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "74403.0",
+          "codigo_cliente": "74403",
           "cliente": "DOM ATACAREJO SA",
           "cnpj": "31.698.759/0018-61",
           "filial": "MARICA",
@@ -1289,7 +1289,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79593.0",
+          "codigo_cliente": "79593",
           "cliente": "DOM ATACAREJO SA",
           "cnpj": "31.698.759/0016-08",
           "filial": "RESENDE",
@@ -1303,7 +1303,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79589.0",
+          "codigo_cliente": "79589",
           "cliente": "DOM ATACAREJO SA",
           "cnpj": "31.698.759/0015-19",
           "filial": "CAMPOS I",
@@ -1317,7 +1317,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "74406.0",
+          "codigo_cliente": "74406",
           "cliente": "DOM ATACAREJO SA",
           "cnpj": "31.698.759/0013-57",
           "filial": "SÃO PEDRO DA ALDEIA",
@@ -1331,7 +1331,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "74401.0",
+          "codigo_cliente": "74401",
           "cliente": "DOM ATACAREJO SA",
           "cnpj": "31.698.759/0011-95",
           "filial": "ARARUAMA",
@@ -1345,7 +1345,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "89197.0",
+          "codigo_cliente": "89197",
           "cliente": "PÃO COM LETRAS PANIFICADORA LTDA",
           "cnpj": "5951912000162",
           "filial": "PAISSANDU",
@@ -1359,7 +1359,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90411.0",
+          "codigo_cliente": "90411",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0018-05",
           "filial": "MESQUITA",
@@ -1373,7 +1373,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90406.0",
+          "codigo_cliente": "90406",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0012-10",
           "filial": "NITEROI",
@@ -1387,7 +1387,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "9604.0",
+          "codigo_cliente": "9604",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0003-29",
           "filial": "PIRATININGA",
@@ -1401,7 +1401,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90820.0",
+          "codigo_cliente": "90820",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0001-67",
           "filial": "FONSECA",
@@ -1415,7 +1415,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "9604.0",
+          "codigo_cliente": "9604",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0003-29",
           "filial": "PIRATININGA",
@@ -1429,7 +1429,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90407.0",
+          "codigo_cliente": "90407",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0013-09",
           "filial": "NOVA IGUAÇU",
@@ -1443,7 +1443,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91197.0",
+          "codigo_cliente": "91197",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0010-58",
           "filial": "BELFORD ROXO",
@@ -1457,7 +1457,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "78665.0",
+          "codigo_cliente": "78665",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0022-91",
           "filial": "DEL CASTILHO",
@@ -1471,7 +1471,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "78665.0",
+          "codigo_cliente": "78665",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0022-91",
           "filial": "DEL CASTILHO",
@@ -1485,7 +1485,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91987.0",
+          "codigo_cliente": "91987",
           "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
           "cnpj": "05.546.194/0012-00",
           "filial": "PETROPOLIS",
@@ -1499,7 +1499,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91840.0",
+          "codigo_cliente": "91840",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0026-15",
           "filial": "CAMPO GRANDE",
@@ -1513,7 +1513,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91841.0",
+          "codigo_cliente": "91841",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0025-34",
           "filial": "NITEROI",
@@ -1527,7 +1527,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90414.0",
+          "codigo_cliente": "90414",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0023-72",
           "filial": "INHAUMA",
@@ -1541,7 +1541,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91842.0",
+          "codigo_cliente": "91842",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0021-00",
           "filial": "BARRETO - NITEROI",
@@ -1555,7 +1555,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90413.0",
+          "codigo_cliente": "90413",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0019-96",
           "filial": "NOVA IGUAÇU",
@@ -1569,7 +1569,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90410.0",
+          "codigo_cliente": "90410",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0017-24",
           "filial": "NITEROI",
@@ -1583,7 +1583,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90407.0",
+          "codigo_cliente": "90407",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0013-09",
           "filial": "NOVA IGUAÇU",
@@ -1597,7 +1597,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93451.0",
+          "codigo_cliente": "93451",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0011-39",
           "filial": "SÃO GONÇALO",
@@ -1611,7 +1611,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "28411.0",
+          "codigo_cliente": "28411",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0015-62",
           "filial": "SÃO GONÇALO",
@@ -1625,7 +1625,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "94295.0",
+          "codigo_cliente": "94295",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0008-33",
           "filial": "DUQUE DE CAXIAS",
@@ -1639,7 +1639,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "9603.0",
+          "codigo_cliente": "9603",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0004-00",
           "filial": "ITAIPU",
@@ -1653,7 +1653,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "92001.0",
+          "codigo_cliente": "92001",
           "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
           "cnpj": "05.546.194/0016-25",
           "filial": "PAVUNA",
@@ -1667,7 +1667,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91051.0",
+          "codigo_cliente": "91051",
           "cliente": "CPN ALIMENTOS LTDA",
           "cnpj": "33.227.596/0003-88",
           "filial": "SÃO JOÃO DE MERITI",
@@ -1681,7 +1681,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91987.0",
+          "codigo_cliente": "91987",
           "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
           "cnpj": "05.546.194/0012-00",
           "filial": "PETROPOLIS",
@@ -1695,7 +1695,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91981.0",
+          "codigo_cliente": "91981",
           "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
           "cnpj": "05.546.194/0001-49",
           "filial": "SÃO GONÇALO",
@@ -1709,7 +1709,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91983.0",
+          "codigo_cliente": "91983",
           "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
           "cnpj": "05.546.194/0003-00",
           "filial": "SÃO GONÇALO",
@@ -1723,7 +1723,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91984.0",
+          "codigo_cliente": "91984",
           "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
           "cnpj": "05.546.194/0005-72",
           "filial": "DUQUE DE CAXIAS",
@@ -1737,7 +1737,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91985.0",
+          "codigo_cliente": "91985",
           "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
           "cnpj": "05.546.194/0006-53",
           "filial": "BANGU",
@@ -1751,7 +1751,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91986.0",
+          "codigo_cliente": "91986",
           "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
           "cnpj": "05.546.194/0009-04",
           "filial": "SÃO JOÃO DE MERITI",
@@ -1765,7 +1765,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "92000.0",
+          "codigo_cliente": "92000",
           "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
           "cnpj": "05.546.194/0014-63",
           "filial": "ITABORAI",
@@ -1779,7 +1779,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "77079.0",
+          "codigo_cliente": "77079",
           "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
           "cnpj": "05.546.194/0015-44",
           "filial": "MARICA",
@@ -1793,7 +1793,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "77080.0",
+          "codigo_cliente": "77080",
           "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
           "cnpj": "05.546.194/0018-97",
           "filial": "PETROPOLIS",
@@ -1807,7 +1807,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "73217.0",
+          "codigo_cliente": "73217",
           "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
           "cnpj": "05.546.194/0023-54",
           "filial": "NOVA FRIBURGO",
@@ -1821,7 +1821,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91994.0",
+          "codigo_cliente": "91994",
           "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
           "cnpj": "05.546.194/0026-05",
           "filial": "REALENGO",
@@ -1835,7 +1835,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91982.0",
+          "codigo_cliente": "91982",
           "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
           "cnpj": "05.546.194/0017-06",
           "filial": "SANTO CRISTO",
@@ -1849,7 +1849,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "92004.0",
+          "codigo_cliente": "92004",
           "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
           "cnpj": "05.546.194/0029-40",
           "filial": "SÃO JOÃO DE MERITI",
@@ -1863,7 +1863,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "2978.0",
+          "codigo_cliente": "2978",
           "cliente": "TORRE E CIA SUPERMERCADOS S/A",
           "cnpj": "07.760.885/0001-76",
           "filial": "ACARI",
@@ -1877,7 +1877,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91993.0",
+          "codigo_cliente": "91993",
           "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
           "cnpj": "05.546.194/0025-16",
           "filial": "COELHO NETO",
@@ -1891,7 +1891,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91996.0",
+          "codigo_cliente": "91996",
           "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
           "cnpj": "05.546.194/0027-88",
           "filial": "BANGU",
@@ -1905,7 +1905,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "92003.0",
+          "codigo_cliente": "92003",
           "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
           "cnpj": "05.546.194/0028-69",
           "filial": "PAVUNA",
@@ -1919,7 +1919,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91838.0",
+          "codigo_cliente": "91838",
           "cliente": "DOM ATACAREJO S.A.",
           "cnpj": "31.698.759/0030-58",
           "filial": "PETROPOLIS",
@@ -1933,7 +1933,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91838.0",
+          "codigo_cliente": "91838",
           "cliente": "DOM ATACAREJO S.A.",
           "cnpj": "31.698.759/0030-58",
           "filial": "PETROPOLIS",
@@ -1947,7 +1947,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91838.0",
+          "codigo_cliente": "91838",
           "cliente": "DOM ATACAREJO S.A.",
           "cnpj": "31.698.759/0030-58",
           "filial": "PETROPOLIS",
@@ -1961,7 +1961,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "2978.0",
+          "codigo_cliente": "2978",
           "cliente": "TORRE E CIA SUPERMERCADOS S/A",
           "cnpj": "07.760.885/0001-76",
           "filial": "ACARI",
@@ -1975,7 +1975,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "2978.0",
+          "codigo_cliente": "2978",
           "cliente": "TORRE E CIA SUPERMERCADOS S/A",
           "cnpj": "07.760.885/0001-76",
           "filial": "ACARI",
@@ -1989,7 +1989,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "2978.0",
+          "codigo_cliente": "2978",
           "cliente": "TORRE E CIA SUPERMERCADOS S/A",
           "cnpj": "07.760.885/0001-76",
           "filial": "ACARI",
@@ -2003,7 +2003,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "2978.0",
+          "codigo_cliente": "2978",
           "cliente": "TORRE E CIA SUPERMERCADOS S/A",
           "cnpj": "07.760.885/0001-76",
           "filial": "ACARI",
@@ -2017,7 +2017,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "2978.0",
+          "codigo_cliente": "2978",
           "cliente": "TORRE E CIA SUPERMERCADOS S/A",
           "cnpj": "07.760.885/0001-76",
           "filial": "ACARI",
@@ -2031,7 +2031,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "2978.0",
+          "codigo_cliente": "2978",
           "cliente": "TORRE E CIA SUPERMERCADOS S/A",
           "cnpj": "07.760.885/0001-76",
           "filial": "ACARI",
@@ -2045,7 +2045,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "2978.0",
+          "codigo_cliente": "2978",
           "cliente": "TORRE E CIA SUPERMERCADOS S/A",
           "cnpj": "07.760.885/0001-76",
           "filial": "ACARI",
@@ -2059,7 +2059,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "28385.0",
+          "codigo_cliente": "28385",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
           "cnpj": "18322565000231",
           "filial": "SAO GONCALO",
@@ -2073,7 +2073,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "80355.0",
+          "codigo_cliente": "80355",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000665",
           "filial": "TRIBOBO",
@@ -2087,7 +2087,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "80354.0",
+          "codigo_cliente": "80354",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000401",
           "filial": "PONTA GROSSA",
@@ -2101,7 +2101,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "28385.0",
+          "codigo_cliente": "28385",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000401",
           "filial": "PONTA GROSSA",
@@ -2115,7 +2115,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "61684.0",
+          "codigo_cliente": "61684",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000312",
           "filial": "BARROCO (ITAIPUACU)",
@@ -2129,7 +2129,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84612.0",
+          "codigo_cliente": "84612",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000827",
           "filial": "INOA (INOA)",
@@ -2143,7 +2143,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90410.0",
+          "codigo_cliente": "90410",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0017-24",
           "filial": "ENG DO MATO - NITERÓI",
@@ -2157,7 +2157,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90406.0",
+          "codigo_cliente": "90406",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0012-10",
           "filial": "LARGO DA BATALHA",
@@ -2171,7 +2171,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91051.0",
+          "codigo_cliente": "91051",
           "cliente": "CPN ALIMENTOS LTDA",
           "cnpj": "33.227.596/0003-88",
           "filial": "SÃO JOÃO DE MERITI",
@@ -2185,7 +2185,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91197.0",
+          "codigo_cliente": "91197",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0010-58",
           "filial": "BELFORD ROXO",
@@ -2199,7 +2199,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "78665.0",
+          "codigo_cliente": "78665",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0022-91",
           "filial": "NOVA AMERICA -DEL CASTILHO",
@@ -2213,7 +2213,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "9604.0",
+          "codigo_cliente": "9604",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0003-29",
           "filial": "PIRATININGA",
@@ -2232,7 +2232,7 @@ const AGENDAMENTO_DATA = {
       "nome": "DIOGO RAPOSO - OFF TRADE",
       "itens": [
         {
-          "codigo_cliente": "3863.0",
+          "codigo_cliente": "3863",
           "cliente": "REDE ECONOMIA TAQUARA",
           "cnpj": "935769000100",
           "filial": "TAQUARA",
@@ -2246,7 +2246,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3766.0",
+          "codigo_cliente": "3766",
           "cliente": "ARMAZEM URBANO COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
           "cnpj": "14.472.736/0001-77",
           "filial": "FREGUESIA",
@@ -2260,7 +2260,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "7768.0",
+          "codigo_cliente": "7768",
           "cliente": "ARMAZEM URBANO COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
           "cnpj": "24.219.409/0001-61",
           "filial": "FREGUESIA",
@@ -2274,7 +2274,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "85921.0",
+          "codigo_cliente": "85921",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
           "cnpj": "28129260003287",
           "filial": "CAMPO REDONDO",
@@ -2288,7 +2288,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "81631.0",
+          "codigo_cliente": "81631",
           "cliente": "LUIZ VICTOR SOUZA PINTO 14684613704",
           "cnpj": "26.998.210/0001-23",
           "filial": "COSMOS",
@@ -2302,7 +2302,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "16159.0",
+          "codigo_cliente": "16159",
           "cliente": "PORTAL RIO SUL",
           "cnpj": "33.060.720/0001-00",
           "filial": "PENHA CIRCULAR",
@@ -2316,7 +2316,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "2978.0",
+          "codigo_cliente": "2978",
           "cliente": "TORRE E CIA SUPERMERCADOS S/A",
           "cnpj": "07.760.885/0001-76",
           "filial": "ACARI",
@@ -2330,7 +2330,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "86195.0",
+          "codigo_cliente": "86195",
           "cliente": "MERCADO RC DE MIGUEL PEREIRA",
           "cnpj": "52909395000143",
           "filial": "PORTAL DAS MANSOES",
@@ -2344,7 +2344,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "80680.0",
+          "codigo_cliente": "80680",
           "cliente": "MULTI ANGRA MERCADO LTDA",
           "cnpj": "7056052000200",
           "filial": "JAPUIBA",
@@ -2358,7 +2358,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84030.0",
+          "codigo_cliente": "84030",
           "cliente": "KETEK COMERCIAL LTDA",
           "cnpj": "11.404.442/0001-10",
           "filial": "JARDIM ANALIA",
@@ -2372,7 +2372,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84031.0",
+          "codigo_cliente": "84031",
           "cliente": "ROYAL CENTER COMERCIAL LTDA",
           "cnpj": "00.784.394/0001-16",
           "filial": "VILA JULIETA",
@@ -2386,7 +2386,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84034.0",
+          "codigo_cliente": "84034",
           "cliente": "EMISE SUPERMERCADO LTDA",
           "cnpj": "17.659.742/0002-07",
           "filial": "JD BOA VISTA",
@@ -2400,7 +2400,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84029.0",
+          "codigo_cliente": "84029",
           "cliente": "EMISE SUPERMERCADO LTDA",
           "cnpj": "17.659.742/0005-50",
           "filial": "VILA SANTA CECILIA",
@@ -2414,7 +2414,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "67821.0",
+          "codigo_cliente": "67821",
           "cliente": "SUPERMERCADOS BARRA OESTE",
           "cnpj": "8719835000370",
           "filial": "BARRA DA TIJUCA",
@@ -2428,7 +2428,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "8878.0",
+          "codigo_cliente": "8878",
           "cliente": "MULTI ANGRA MERCADO LTDA",
           "cnpj": "7056052000129",
           "filial": "ANGRA DOS REIS",
@@ -2442,7 +2442,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "8875.0",
+          "codigo_cliente": "8875",
           "cliente": "MULTI ANGRA MERCADO LTDA",
           "cnpj": "7056052000471",
           "filial": "ANGRA DOS REIS",
@@ -2456,7 +2456,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "92006.0",
+          "codigo_cliente": "92006",
           "cliente": "MULTI ANGRA 4 MERCADO LTDA",
           "cnpj": "16867736000282",
           "filial": "FRADE",
@@ -2470,7 +2470,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79322.0",
+          "codigo_cliente": "79322",
           "cliente": "MULTI ITAGUAI MERCADO LTDA",
           "cnpj": "45909881000104",
           "filial": "VILA MARGARIDA",
@@ -2484,7 +2484,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91494.0",
+          "codigo_cliente": "91494",
           "cliente": "MULTI ANGRA 3 MERCADO LTDA",
           "cnpj": "37070173000439",
           "filial": "ANGRA DOS REIS",
@@ -2498,7 +2498,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "78925.0",
+          "codigo_cliente": "78925",
           "cliente": "KAL ATACADO 2 LTDA",
           "cnpj": "38354781000276",
           "filial": "PARQUE PEREQUÊ (MAMBUCABA)",
@@ -2512,7 +2512,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79321.0",
+          "codigo_cliente": "79321",
           "cliente": "MULTI ANGRA 3 MERCADO LTDA",
           "cnpj": "37070173000510",
           "filial": "CAMPO BELO (CUNHAMBEBE)",
@@ -2526,7 +2526,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79323.0",
+          "codigo_cliente": "79323",
           "cliente": "MULTI ANGRA 3 MERCADO LTDA",
           "cnpj": "37070173000609",
           "filial": "NOVA ANGRA (CUNHAMBEBE)",
@@ -2540,7 +2540,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79320.0",
+          "codigo_cliente": "79320",
           "cliente": "MULTI ANGRA 3 MERCADO LTDA",
           "cnpj": "37070173000277",
           "filial": "PARQUE DAS PALMEIRAS",
@@ -2554,7 +2554,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79319.0",
+          "codigo_cliente": "79319",
           "cliente": "MULTI ANGRA 3 MERCADO LTDA",
           "cnpj": "37070173000196",
           "filial": "CENTRO",
@@ -2568,7 +2568,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79318.0",
+          "codigo_cliente": "79318",
           "cliente": "MULTI PARATY MERCADO LTDA",
           "cnpj": "7126663000287",
           "filial": "PATITIBA",
@@ -2582,7 +2582,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "8876.0",
+          "codigo_cliente": "8876",
           "cliente": "MULTI PARATY MERCADO LTDA",
           "cnpj": "7126663000104",
           "filial": "RIO DE JANEIRO",
@@ -2596,7 +2596,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "8877.0",
+          "codigo_cliente": "8877",
           "cliente": "MULTI PEREQUE MERCADO LTDA",
           "cnpj": "16867736000100",
           "filial": "PARQUE MAMBUCADA",
@@ -2610,7 +2610,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "2909.0",
+          "codigo_cliente": "2909",
           "cliente": "FEIRA NOVA (REDE ECONOMIA)",
           "cnpj": "36.525.319/0001-88",
           "filial": "SÃO JOÃO DE MERITI",
@@ -2624,7 +2624,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "82069.0",
+          "codigo_cliente": "82069",
           "cliente": "MERCADO IDEAL DE JACAREI LTDA",
           "cnpj": "09.567.039/0001-60",
           "filial": "MANGARATIBA",
@@ -2638,7 +2638,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84612.0",
+          "codigo_cliente": "84612",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000827",
           "filial": "INOA (INOA)",
@@ -2652,7 +2652,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "61992.0",
+          "codigo_cliente": "61992",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000150",
           "filial": "SACRAMENTO",
@@ -2666,7 +2666,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "18798.0",
+          "codigo_cliente": "18798",
           "cliente": "EMPORIO DO CADEG LTDA",
           "cnpj": "33119105000113",
           "filial": "BENFICA",
@@ -2680,7 +2680,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3127.0",
+          "codigo_cliente": "3127",
           "cliente": "SUPER MERCADO REAL DE EDEN LTDA",
           "cnpj": "28800001000130",
           "filial": "VILA DA PENHA",
@@ -2694,7 +2694,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "67822.0",
+          "codigo_cliente": "67822",
           "cliente": "SUPERMERCADOS BARRA OESTE",
           "cnpj": "8719835000701",
           "filial": "BARRA DA TIJUCA",
@@ -2708,7 +2708,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93791.0",
+          "codigo_cliente": "93791",
           "cliente": "SUPERMERCADOS BARRA OESTE",
           "cnpj": "871983500965",
           "filial": "BARRA DA TIJUCA",
@@ -2722,7 +2722,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "58819.0",
+          "codigo_cliente": "58819",
           "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
           "cnpj": "33765158000101",
           "filial": "JARDIM PRIMAVERA",
@@ -2736,7 +2736,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "83962.0",
+          "codigo_cliente": "83962",
           "cliente": "ATLAS DE IGUAÇU DIST ALIMENTO LTDA",
           "cnpj": "29.310.554/0001-77",
           "filial": "QUIMADOS",
@@ -2750,7 +2750,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "83387.0",
+          "codigo_cliente": "83387",
           "cliente": "CGX COMERCIO DE ALIMENTOS LTDA",
           "cnpj": "15.580.294/0001-45",
           "filial": "GUADALUPE",
@@ -2764,7 +2764,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84161.0",
+          "codigo_cliente": "84161",
           "cliente": "PQA ALIMENTOS PRAÇA SECA LTDA",
           "cnpj": "43115098000135",
           "filial": "PRAÇA SECA",
@@ -2778,7 +2778,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "86195.0",
+          "codigo_cliente": "86195",
           "cliente": "MERCADO RC DE MIGUEL PEREIRA",
           "cnpj": "52909395000143",
           "filial": "PORTAL DAS MANSOES",
@@ -2792,7 +2792,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "82069.0",
+          "codigo_cliente": "82069",
           "cliente": "MERCADO IDEAL DE JACAREI LTDA",
           "cnpj": "09.567.039/0001-60",
           "filial": "MANGARATIBA",
@@ -2806,7 +2806,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "67821.0",
+          "codigo_cliente": "67821",
           "cliente": "SUPERMERCADOS BARRA OESTE",
           "cnpj": "8719835000370",
           "filial": "BARRA DA TIJUCA",
@@ -2820,7 +2820,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79259.0",
+          "codigo_cliente": "79259",
           "cliente": "MAR A VISTA",
           "cnpj": "30140610000151",
           "filial": "NITERÓI",
@@ -2834,7 +2834,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "9604.0",
+          "codigo_cliente": "9604",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0003-29",
           "filial": "PIRATININGA",
@@ -2848,7 +2848,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "28411.0",
+          "codigo_cliente": "28411",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "8628825001562",
           "filial": "SÃO GONÇALO",
@@ -2862,7 +2862,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84160.0",
+          "codigo_cliente": "84160",
           "cliente": "PQA ALIMENTOS PRAÇA SECA LTDA",
           "cnpj": "51513112000187",
           "filial": "ENGENHO DE DENTRO",
@@ -2876,7 +2876,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84162.0",
+          "codigo_cliente": "84162",
           "cliente": "PQA ALIMENTOS PRAÇA SECA LTDA",
           "cnpj": "52285737000100",
           "filial": "PARQUE ARARUAMA",
@@ -2890,7 +2890,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93380.0",
+          "codigo_cliente": "93380",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29080946000510",
           "filial": "KM 32",
@@ -2904,7 +2904,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "77937.0",
+          "codigo_cliente": "77937",
           "cliente": "L B DOS SANTOS COMERCIO VAREJISTA DE BEBIDAS E ARTIGOS ALIME",
           "cnpj": "52531752000182",
           "filial": "RIO DE JANEIRO",
@@ -2918,7 +2918,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "2978.0",
+          "codigo_cliente": "2978",
           "cliente": "TORRE E CIA SUPERMERCADOS S/A",
           "cnpj": "07.760.885/0001-76",
           "filial": "ACARI",
@@ -2932,7 +2932,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79258.0",
+          "codigo_cliente": "79258",
           "cliente": "MERCADO JARDINS DA ILHA LTDA",
           "cnpj": "27939646000357",
           "filial": "JARDIM GUANABARA",
@@ -2946,7 +2946,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84829.0",
+          "codigo_cliente": "84829",
           "cliente": "V&R MINIMERCADO PORTO DA ROÇA",
           "cnpj": "46866453000104",
           "filial": "SAQUAREMA",
@@ -2960,7 +2960,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "7191.0",
+          "codigo_cliente": "7191",
           "cliente": "NAOMI COMERCIO DE ALIMENTOS LTDA",
           "cnpj": "39553144000100",
           "filial": "VOLTA REDONDA",
@@ -2974,7 +2974,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84032.0",
+          "codigo_cliente": "84032",
           "cliente": "KETEK COMERCIAL LTDA",
           "cnpj": "11.404.442/0002-09",
           "filial": "TRES RIOS",
@@ -2988,7 +2988,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91841.0",
+          "codigo_cliente": "91841",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "8628825002534",
           "filial": "PIRATININGA",
@@ -3002,7 +3002,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93386.0",
+          "codigo_cliente": "93386",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "2980946001088",
           "filial": "CAMPO GRANDE",
@@ -3016,7 +3016,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93379.0",
+          "codigo_cliente": "93379",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29080946000430",
           "filial": "COSMOS",
@@ -3030,7 +3030,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93381.0",
+          "codigo_cliente": "93381",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29080946000782",
           "filial": "CAMPO GRANDE",
@@ -3044,7 +3044,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "17484.0",
+          "codigo_cliente": "17484",
           "cliente": "MERCADO ADONAI DE INHOAIBA LTDA",
           "cnpj": "29.080.946/0001-97",
           "filial": "CAMPO GRANDE",
@@ -3058,7 +3058,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93389.0",
+          "codigo_cliente": "93389",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29.080.946/0013-20",
           "filial": "IRAJÁ",
@@ -3072,7 +3072,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93385.0",
+          "codigo_cliente": "93385",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29080946000944",
           "filial": "CAMPO GRANDE",
@@ -3086,7 +3086,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93383.0",
+          "codigo_cliente": "93383",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29.080.946/0008-63",
           "filial": "CAMPO GRANDE",
@@ -3100,7 +3100,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "82781.0",
+          "codigo_cliente": "82781",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "42632913000170",
           "filial": "REALENGO",
@@ -3114,7 +3114,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93388.0",
+          "codigo_cliente": "93388",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29080946001240",
           "filial": "VARGEM PEQUENA",
@@ -3128,7 +3128,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93384.0",
+          "codigo_cliente": "93384",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29080946000359",
           "filial": "SANTISSIMO",
@@ -3142,7 +3142,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93390.0",
+          "codigo_cliente": "93390",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29080946001401",
           "filial": "VARGEM GRANDE",
@@ -3156,7 +3156,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93382.0",
+          "codigo_cliente": "93382",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29080946001169",
           "filial": "VARGEM GRANDE",
@@ -3170,7 +3170,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91197.0",
+          "codigo_cliente": "91197",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0010-58",
           "filial": "VIA LIGTH",
@@ -3184,7 +3184,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90415.0",
+          "codigo_cliente": "90415",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "8628825002453",
           "filial": "PENHA",
@@ -3198,7 +3198,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "69216.0",
+          "codigo_cliente": "69216",
           "cliente": "RIO VALE DISTRIBUIDORA",
           "cnpj": "8740247000318",
           "filial": "VILA DOM PEDRO",
@@ -3212,7 +3212,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84459.0",
+          "codigo_cliente": "84459",
           "cliente": "COLDBEER COMERCIO DE BEBIDAS LTDA",
           "cnpj": "54.040.344/0001-53",
           "filial": "REALENGO",
@@ -3226,7 +3226,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "81631.0",
+          "codigo_cliente": "81631",
           "cliente": "LUIZ VICTOR SOUZA PINTO 14684613704",
           "cnpj": "26.988.210/0001-23",
           "filial": "RIO DE JANEIRO",
@@ -3240,7 +3240,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "60369.0",
+          "codigo_cliente": "60369",
           "cliente": "ALAN SOBRERA DA SILVA 13193217719",
           "cnpj": "40.287.936/0001-60",
           "filial": "RIO DE JANEIRO",
@@ -3254,7 +3254,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "82069.0",
+          "codigo_cliente": "82069",
           "cliente": "MERCADO IDEAL DE JACAREI LTDA",
           "cnpj": "09.567.039/0001-60",
           "filial": "MANGARATIBA",
@@ -3268,7 +3268,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "16159.0",
+          "codigo_cliente": "16159",
           "cliente": "PORTAL RIO SUL",
           "cnpj": "33.060.720/0001-00",
           "filial": "PENHA CIRCULAR",
@@ -3282,7 +3282,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91839.0",
+          "codigo_cliente": "91839",
           "cliente": "DOM ATACAREJO S.A.",
           "cnpj": "31.698.759/0031-39",
           "filial": "CARAVELAS - BUZIOS",
@@ -3296,7 +3296,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91839.0",
+          "codigo_cliente": "91839",
           "cliente": "DOM ATACAREJO S.A.",
           "cnpj": "31.698.759/0031-39",
           "filial": "CARAVELAS - BUZIOS",
@@ -3310,7 +3310,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "83980.0",
+          "codigo_cliente": "83980",
           "cliente": "SUPERMERCADO TRADIÇÃO RJ LTDA",
           "cnpj": "37657925000462",
           "filial": "CENTRO",
@@ -3324,7 +3324,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "SO RECEBE EM HORARIO ESPECIFICO"
         },
         {
-          "codigo_cliente": "84012.0",
+          "codigo_cliente": "84012",
           "cliente": "NAOMI COM DE ALIMENTOS LTDA",
           "cnpj": "39553144000534",
           "filial": "CENTRO",
@@ -3338,7 +3338,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "81298.0",
+          "codigo_cliente": "81298",
           "cliente": "ROYAL COM DISTRIBUIDORA LTDA",
           "cnpj": "8842314000224",
           "filial": "CENTRO",
@@ -3352,7 +3352,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84030.0",
+          "codigo_cliente": "84030",
           "cliente": "KETEK COMERCIAL LTDA",
           "cnpj": "11.404.442/0001-10",
           "filial": "JARDIM ANALIA",
@@ -3366,7 +3366,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84034.0",
+          "codigo_cliente": "84034",
           "cliente": "EMISE SUPERMERCADO LTDA",
           "cnpj": "17.659.742/0002-07",
           "filial": "JD BOA VISTA",
@@ -3380,7 +3380,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84025.0",
+          "codigo_cliente": "84025",
           "cliente": "ROYAL COM DISTRIBUIDORA LTDA",
           "cnpj": "08.842.314/0003-05",
           "filial": "ATERRADO",
@@ -3394,7 +3394,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84031.0",
+          "codigo_cliente": "84031",
           "cliente": "ROYAL CENTER COMERCIAL LTDA",
           "cnpj": "00.784.394/0001-16",
           "filial": "VILA JULIETA",
@@ -3408,7 +3408,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84011.0",
+          "codigo_cliente": "84011",
           "cliente": "NAOMI COM DE ALIMENTOS LTDA",
           "cnpj": "39.553.144/0003-72",
           "filial": "CAMPOS ELISEOS",
@@ -3422,7 +3422,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90820.0",
+          "codigo_cliente": "90820",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "8628825000167",
           "filial": "FONSECA",
@@ -3436,7 +3436,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "28386.0",
+          "codigo_cliente": "28386",
           "cliente": "MIXCERTO COMERCIO E DISTRIBUIDORA DE ALIMENTOS EIRELI-ME",
           "cnpj": "36095420000146",
           "filial": "SAO JOSE DO IMBASSAI",
@@ -3450,7 +3450,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "80355.0",
+          "codigo_cliente": "80355",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
           "cnpj": "18322565000665",
           "filial": "TRIBOBO",
@@ -3464,7 +3464,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "28385.0",
+          "codigo_cliente": "28385",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
           "cnpj": "18322565000231",
           "filial": "SAO GONCALO",
@@ -3478,7 +3478,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "80354.0",
+          "codigo_cliente": "80354",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000401",
           "filial": "PONTA GROSSA",
@@ -3492,7 +3492,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6278.0",
+          "codigo_cliente": "6278",
           "cliente": "SUPERMERCADOS MUNDIAL LTDA",
           "cnpj": "33304981000110",
           "filial": "INHAUMA",
@@ -3506,7 +3506,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "58819.0",
+          "codigo_cliente": "58819",
           "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
           "cnpj": "33765158000101",
           "filial": "JARDIM PRIMAVERA",
@@ -3520,7 +3520,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "SO RECEBE EM HORARIO ESPECIFICO"
         },
         {
-          "codigo_cliente": "2909.0",
+          "codigo_cliente": "2909",
           "cliente": "FEIRA NOVA (REDE ECONOMIA)",
           "cnpj": "36.525.319/0001-88",
           "filial": "SÃO JOÃO DE MERITI",
@@ -3534,7 +3534,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84017.0",
+          "codigo_cliente": "84017",
           "cliente": "ROYAL COM DISTRIBUIDORA LTDA",
           "cnpj": "8842314000143",
           "filial": "SÃO LUCAS",
@@ -3548,7 +3548,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84029.0",
+          "codigo_cliente": "84029",
           "cliente": "EMISE SUPERMERCADO LTDA",
           "cnpj": "17.659.742/0005-50",
           "filial": "VILA SANTA CECILIA",
@@ -3562,7 +3562,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84033.0",
+          "codigo_cliente": "84033",
           "cliente": "EMISE SUPERMERCADO LTDA",
           "cnpj": "17.659.742/0001-26",
           "filial": "BAIRRO DA VIGA",
@@ -3576,7 +3576,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84014.0",
+          "codigo_cliente": "84014",
           "cliente": "NAOMI COM DE ALIMENTOS LTDA",
           "cnpj": "39.553.144/0008-87",
           "filial": "BAIRRO SESSENTA",
@@ -3590,7 +3590,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "78665.0",
+          "codigo_cliente": "78665",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0022-91",
           "filial": "NOVA AMERICA -DEL CASTILHO",
@@ -3604,7 +3604,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "9603.0",
+          "codigo_cliente": "9603",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "8628825000400",
           "filial": "NITERÓI",
@@ -3618,7 +3618,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91842.0",
+          "codigo_cliente": "91842",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0021-00",
           "filial": "BARRETO - NITERÓI",
@@ -3632,7 +3632,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90406.0",
+          "codigo_cliente": "90406",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0012-10",
           "filial": "LARGO DA BATALHA",
@@ -3646,7 +3646,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90411.0",
+          "codigo_cliente": "90411",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "8628825001805",
           "filial": "MESQUITA",
@@ -3660,7 +3660,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "80353.0",
+          "codigo_cliente": "80353",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000584",
           "filial": "FONSECA",
@@ -3674,7 +3674,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6003.0",
+          "codigo_cliente": "6003",
           "cliente": "FRADE SPOT PARTICIPACOES S/A",
           "cnpj": "18312180000102",
           "filial": "FRADE CUNHAMBEBE",
@@ -3688,7 +3688,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "18918.0",
+          "codigo_cliente": "18918",
           "cliente": "MERCADO JARDINS DA ILHA LTDA",
           "cnpj": "27.939.646/0001-95",
           "filial": "JARDIM GAUNABARA",
@@ -3702,7 +3702,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "2909.0",
+          "codigo_cliente": "2909",
           "cliente": "FEIRA NOVA (REDE ECONOMIA)",
           "cnpj": "36.525.319/0001-88",
           "filial": "SÃO JOÃO DE MERITI",
@@ -3716,7 +3716,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79259.0",
+          "codigo_cliente": "79259",
           "cliente": "MAR A VISTA",
           "cnpj": "30140610000151",
           "filial": "NITERÓI",
@@ -3730,7 +3730,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6671.0",
+          "codigo_cliente": "6671",
           "cliente": "JRD MERCEARIA E HORTIFRUTI LTDA",
           "cnpj": "23549577000152",
           "filial": "JORDIM GUANABARA",
@@ -3744,7 +3744,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84066.0",
+          "codigo_cliente": "84066",
           "cliente": "PREDILECTA DE XEREM COMERCIO DE GENEROS ALIMENTOS LTDA",
           "cnpj": "44291406000146",
           "filial": "XERÉM",
@@ -3758,7 +3758,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84066.0",
+          "codigo_cliente": "84066",
           "cliente": "PREDILECTA DE XEREM COMERCIO DE GENEROS ALIMENTOS LTDA",
           "cnpj": "44291406000146",
           "filial": "XERÉM",
@@ -3772,7 +3772,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90413.0",
+          "codigo_cliente": "90413",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "8628825002100",
           "filial": "NITERÓI",
@@ -3786,7 +3786,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90414.0",
+          "codigo_cliente": "90414",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "8628825002372",
           "filial": "INHAUMA",
@@ -3800,7 +3800,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90407.0",
+          "codigo_cliente": "90407",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "8628825001309",
           "filial": "NOVA IGUAÇU",
@@ -3814,7 +3814,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93451.0",
+          "codigo_cliente": "93451",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "8628825001139",
           "filial": "PORTO NOVO - SG",
@@ -3828,7 +3828,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90410.0",
+          "codigo_cliente": "90410",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0017-24",
           "filial": "ENG DO MATO - NITERÓI",
@@ -3842,7 +3842,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "18918.0",
+          "codigo_cliente": "18918",
           "cliente": "MERCADO JARDINS DA ILHA LTDA",
           "cnpj": "27.939.646/0001-95",
           "filial": "JARDIM GAUNABARA",
@@ -3856,7 +3856,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "82474.0",
+          "codigo_cliente": "82474",
           "cliente": "MERCADOS BRAGA LTDA",
           "cnpj": "02.635.710/0003-85",
           "filial": "SANTISSIMO",
@@ -3870,7 +3870,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "FECHADO"
         },
         {
-          "codigo_cliente": "80354.0",
+          "codigo_cliente": "80354",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000401",
           "filial": "PONTA GROSSA",
@@ -3884,7 +3884,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "NÃO DEU TEMPO"
         },
         {
-          "codigo_cliente": "91150.0",
+          "codigo_cliente": "91150",
           "cliente": "MERCADO DE GUAPIMIRIM RJ LTDA",
           "cnpj": "56125049000125",
           "filial": "CENTRO",
@@ -3898,7 +3898,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91149.0",
+          "codigo_cliente": "91149",
           "cliente": "MERCADO RIO SUL PARADA MODELO LTDA",
           "cnpj": "29882585000100",
           "filial": "PARADA MODELO",
@@ -3912,7 +3912,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "85897.0",
+          "codigo_cliente": "85897",
           "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
           "cnpj": "57489708000175",
           "filial": "JARDIM ATLANTICO",
@@ -3926,7 +3926,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84612.0",
+          "codigo_cliente": "84612",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000827",
           "filial": "INOA (INOA)",
@@ -3940,7 +3940,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "61684.0",
+          "codigo_cliente": "61684",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000312",
           "filial": "BARROCO (ITAIPUAÇU)",
@@ -3954,7 +3954,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "28386.0",
+          "codigo_cliente": "28386",
           "cliente": "MIXCERTO COMERCIO E DISTRIBUIDORA DE ALIMENTOS EIRELI-ME",
           "cnpj": "36095420000146",
           "filial": "SAO JOSE DO IMBASSAI",
@@ -3968,7 +3968,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "80355.0",
+          "codigo_cliente": "80355",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
           "cnpj": "18322565000665",
           "filial": "TRIBOBO",
@@ -3982,7 +3982,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "NÃO DEU TEMPO"
         },
         {
-          "codigo_cliente": "92854.0",
+          "codigo_cliente": "92854",
           "cliente": "HORIZONTE ALFA MERCADO LTDA",
           "cnpj": "61.015.591/0001-65",
           "filial": "GUARATIBA",
@@ -3996,7 +3996,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91840.0",
+          "codigo_cliente": "91840",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "8628825002615",
           "filial": "CAMPO GRANDE",
@@ -4010,7 +4010,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84612.0",
+          "codigo_cliente": "84612",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000827",
           "filial": "INOA (INOA)",
@@ -4024,7 +4024,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "5241.0",
+          "codigo_cliente": "5241",
           "cliente": "A SILVA JUNIOR LIQUIDOS E COMESTIVEIS FINOS - EPP",
           "cnpj": "10836454000150",
           "filial": "Penha Circular",
@@ -4038,7 +4038,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "NÃO DEU TEMPO"
         },
         {
-          "codigo_cliente": "5241.0",
+          "codigo_cliente": "5241",
           "cliente": "A SILVA JUNIOR LIQUIDOS E COMESTIVEIS FINOS - EPP",
           "cnpj": "10836454000150",
           "filial": "Penha Circular",
@@ -4052,7 +4052,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "69216.0",
+          "codigo_cliente": "69216",
           "cliente": "RIO VALE DISTRIBUIDORA",
           "cnpj": "8740247000318",
           "filial": "VILA DOM PEDRO",
@@ -4066,7 +4066,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "SO RECEBE EM HORARIO ESPECIFICO"
         },
         {
-          "codigo_cliente": "69216.0",
+          "codigo_cliente": "69216",
           "cliente": "RIO VALE DISTRIBUIDORA",
           "cnpj": "8740247000318",
           "filial": "VILA DOM PEDRO",
@@ -4080,7 +4080,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6278.0",
+          "codigo_cliente": "6278",
           "cliente": "SUPERMERCADOS MUNDIAL LTDA",
           "cnpj": "33304981000110",
           "filial": "INHAUMA",
@@ -4094,7 +4094,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6278.0",
+          "codigo_cliente": "6278",
           "cliente": "SUPERMERCADOS MUNDIAL LTDA",
           "cnpj": "33304981000110",
           "filial": "INHAUMA",
@@ -4108,7 +4108,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93388.0",
+          "codigo_cliente": "93388",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29080946001240",
           "filial": "VARGEM PEQUENA",
@@ -4122,7 +4122,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "CLIENTE NÃO QUIS RECEBER"
         },
         {
-          "codigo_cliente": "93390.0",
+          "codigo_cliente": "93390",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29080946001401",
           "filial": "VARGEM GRANDE",
@@ -4136,7 +4136,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "CLIENTE NÃO QUIS RECEBER"
         },
         {
-          "codigo_cliente": "93382.0",
+          "codigo_cliente": "93382",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29080946001169",
           "filial": "VARGEM GRANDE",
@@ -4150,7 +4150,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "CLIENTE NÃO QUIS RECEBER"
         },
         {
-          "codigo_cliente": "83705.0",
+          "codigo_cliente": "83705",
           "cliente": "MERCADO RIO SUL CAMPO GRANDE",
           "cnpj": "35.816.060/0001-61",
           "filial": "CAMPO GRANDE",
@@ -4164,7 +4164,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90387.0",
+          "codigo_cliente": "90387",
           "cliente": "MERCADO RIO SUL DE PEDRA DE GUARATIBA LTDA",
           "cnpj": "50358598000163",
           "filial": "GUARATIBA",
@@ -4178,7 +4178,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90388.0",
+          "codigo_cliente": "90388",
           "cliente": "SUPERMERCADO JPA LTDA",
           "cnpj": "53911958000109",
           "filial": "ITANHANGA",
@@ -4192,7 +4192,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93391.0",
+          "codigo_cliente": "93391",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29080946000600",
           "filial": "CAMPO GRANDE",
@@ -4206,7 +4206,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "SO RECEBE EM HORARIO ESPECIFICO"
         },
         {
-          "codigo_cliente": "93381.0",
+          "codigo_cliente": "93381",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29080946000782",
           "filial": "COMPO GRANDE",
@@ -4220,7 +4220,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "82781.0",
+          "codigo_cliente": "82781",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "42632913000170",
           "filial": "REALENGO",
@@ -4234,7 +4234,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "60349.0",
+          "codigo_cliente": "60349",
           "cliente": "CEREAIS IRENE",
           "cnpj": "32125006000424",
           "filial": "PARQUE PAULISTA",
@@ -4248,7 +4248,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "77937.0",
+          "codigo_cliente": "77937",
           "cliente": "L B DOS SANTOS COMERCIO VAREJISTA DE BEBIDAS E ARTIGOS ALIME",
           "cnpj": "52531752000182",
           "filial": "RIO DE JANEIRO",
@@ -4262,7 +4262,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "2147.0",
+          "codigo_cliente": "2147",
           "cliente": "BARRA CARNES",
           "cnpj": "29094240000184",
           "filial": "BARRA",
@@ -4276,7 +4276,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79259.0",
+          "codigo_cliente": "79259",
           "cliente": "MAR A VISTA",
           "cnpj": "30140610000151",
           "filial": "NITERÓI",
@@ -4290,7 +4290,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "80353.0",
+          "codigo_cliente": "80353",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000584",
           "filial": "FONSECA",
@@ -4304,7 +4304,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "61992.0",
+          "codigo_cliente": "61992",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
           "cnpj": "18322565000150",
           "filial": "SACRAMENTO",
@@ -4318,7 +4318,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "2909.0",
+          "codigo_cliente": "2909",
           "cliente": "FEIRA NOVA (REDE ECONOMIA)",
           "cnpj": "36.525.319/0001-88",
           "filial": "SÃO JOÃO DE MERITI",
@@ -4332,7 +4332,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "60349.0",
+          "codigo_cliente": "60349",
           "cliente": "CEREAIS IRENE",
           "cnpj": "32125006000424",
           "filial": "PARQUE PAULISTA",
@@ -4346,7 +4346,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "8875.0",
+          "codigo_cliente": "8875",
           "cliente": "MULTI ANGRA MERCADO LTDA",
           "cnpj": "7056052000471",
           "filial": "ANGRA DOS REIS",
@@ -4360,7 +4360,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "SO RECEBE EM HORARIO ESPECIFICO"
         },
         {
-          "codigo_cliente": "79318.0",
+          "codigo_cliente": "79318",
           "cliente": "MULTI PARATY MERCADO LTDA",
           "cnpj": "7126663000287",
           "filial": "PATITIBA",
@@ -4374,7 +4374,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "NÃO SAIU"
         },
         {
-          "codigo_cliente": "79321.0",
+          "codigo_cliente": "79321",
           "cliente": "MULTI ANGRA 3 MERCADO LTDA",
           "cnpj": "37070173000510",
           "filial": "CAMPO BELO (CUNHAMBEBE)",
@@ -4388,7 +4388,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "NÃO DEU TEMPO"
         },
         {
-          "codigo_cliente": "79323.0",
+          "codigo_cliente": "79323",
           "cliente": "MULTI ANGRA 3 MERCADO LTDA",
           "cnpj": "37070173000609",
           "filial": "NOVA ANGRA (CUNHAMBEBE)",
@@ -4402,7 +4402,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "TRIBUTAÇÃO E DATA ERRADA"
         },
         {
-          "codigo_cliente": "79319.0",
+          "codigo_cliente": "79319",
           "cliente": "MULTI ANGRA 3 MERCADO LTDA",
           "cnpj": "37070173000196",
           "filial": "CENTRO",
@@ -4416,7 +4416,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "NÃO DEU TEMPO"
         },
         {
-          "codigo_cliente": "79322.0",
+          "codigo_cliente": "79322",
           "cliente": "MULTI ITAGUAI MERCADO LTDA",
           "cnpj": "45909881000104",
           "filial": "VILA MARGARIDA",
@@ -4430,7 +4430,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "SEM OBS"
         },
         {
-          "codigo_cliente": "8876.0",
+          "codigo_cliente": "8876",
           "cliente": "MULTI PARATY MERCADO LTDA",
           "cnpj": "7126663000104",
           "filial": "RIO DE JANEIRO",
@@ -4444,7 +4444,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "SO RECEBE EM HORARIO ESPECIFICO"
         },
         {
-          "codigo_cliente": "8877.0",
+          "codigo_cliente": "8877",
           "cliente": "MULTI PEREQUE MERCADO LTDA",
           "cnpj": "16867736000100",
           "filial": "PARQUE MAMBUCADA",
@@ -4458,7 +4458,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "NOTA COM DIVERGENCIA"
         },
         {
-          "codigo_cliente": "8878.0",
+          "codigo_cliente": "8878",
           "cliente": "MULTI ANGRA MERCADO LTDA",
           "cnpj": "7056052000129",
           "filial": "ANGRA DOS REIS",
@@ -4472,7 +4472,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79320.0",
+          "codigo_cliente": "79320",
           "cliente": "MULTI ANGRA 3 MERCADO LTDA",
           "cnpj": "37070173000277",
           "filial": "PARQUE DAS PALMEIRAS",
@@ -4486,7 +4486,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "NÃO DEU TEMPO"
         },
         {
-          "codigo_cliente": "91494.0",
+          "codigo_cliente": "91494",
           "cliente": "MULTI ANGRA 3 MERCADO LTDA",
           "cnpj": "37070173000439",
           "filial": "ANGRA DOS REIS",
@@ -4500,7 +4500,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "NÃO DEU TEMPO"
         },
         {
-          "codigo_cliente": "78916.0",
+          "codigo_cliente": "78916",
           "cliente": "JM LISAMAR SUPERMERCADO LTDA",
           "cnpj": "17386414000101",
           "filial": "CONCEICAO DE JACAREI",
@@ -4514,7 +4514,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "83705.0",
+          "codigo_cliente": "83705",
           "cliente": "MERCADO RIO SUL CAMPO GRANDE",
           "cnpj": "35.816.060/0001-61",
           "filial": "CAMPO GRANDE",
@@ -4528,7 +4528,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "SO RECEBE EM HORARIO ESPECIFICO"
         },
         {
-          "codigo_cliente": "90387.0",
+          "codigo_cliente": "90387",
           "cliente": "MERCADO RIO SUL DE PEDRA DE GUARATIBA LTDA",
           "cnpj": "50358598000163",
           "filial": "GUARATIBA",
@@ -4542,7 +4542,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90388.0",
+          "codigo_cliente": "90388",
           "cliente": "SUPERMERCADO JPA LTDA",
           "cnpj": "53911958000109",
           "filial": "ITANHANGA",
@@ -4556,7 +4556,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "92695.0",
+          "codigo_cliente": "92695",
           "cliente": "CASAFRUTI NITEROI LTDA",
           "cnpj": "51011145001281",
           "filial": "NITERÓI",
@@ -4570,7 +4570,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93368.0",
+          "codigo_cliente": "93368",
           "cliente": "CASAFRUTI AMERICAS LTDA",
           "cnpj": "1011145000471",
           "filial": "COPACABANA",
@@ -4584,7 +4584,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "85897.0",
+          "codigo_cliente": "85897",
           "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
           "cnpj": "57489708000175",
           "filial": "JARDIM ATLANTICO",
@@ -4598,7 +4598,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3127.0",
+          "codigo_cliente": "3127",
           "cliente": "SUPER MERCADO REAL DE EDEN LTDA",
           "cnpj": "28800001000130",
           "filial": "VILA DA PENHA",
@@ -4612,7 +4612,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "4321.0",
+          "codigo_cliente": "4321",
           "cliente": "SUPERPIX LOJAS DE ALIMENTOS LTDA",
           "cnpj": "02.618.563/0001-73",
           "filial": "PARQUE DUQUE",
@@ -4626,7 +4626,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93386.0",
+          "codigo_cliente": "93386",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "2980946001088",
           "filial": "CAMPO GRANDE",
@@ -4640,7 +4640,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93379.0",
+          "codigo_cliente": "93379",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29080946000430",
           "filial": "COSMOS",
@@ -4654,7 +4654,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93390.0",
+          "codigo_cliente": "93390",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29080946001401",
           "filial": "VARGEM GRANDE",
@@ -4668,7 +4668,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93380.0",
+          "codigo_cliente": "93380",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29080946000510",
           "filial": "KM 32",
@@ -4682,7 +4682,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93385.0",
+          "codigo_cliente": "93385",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29080946000944",
           "filial": "CAMPO GRANDE",
@@ -4696,7 +4696,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93384.0",
+          "codigo_cliente": "93384",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29080946000359",
           "filial": "SANTISSIMO",
@@ -4710,7 +4710,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "93388.0",
+          "codigo_cliente": "93388",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29080946001240",
           "filial": "VARGEM PEQUENA",
@@ -4724,7 +4724,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90212.0",
+          "codigo_cliente": "90212",
           "cliente": "BLING MERCADO DAS CARNES LTDA",
           "cnpj": "42292731000106",
           "filial": "SANTA CRUZ",
@@ -4738,7 +4738,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "SO RECEBE EM HORARIO ESPECIFICO"
         },
         {
-          "codigo_cliente": "84612.0",
+          "codigo_cliente": "84612",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000827",
           "filial": "INOA (INOA)",
@@ -4752,7 +4752,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "61684.0",
+          "codigo_cliente": "61684",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000312",
           "filial": "BARROCO (ITAIPUAÇU)",
@@ -4766,7 +4766,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "28385.0",
+          "codigo_cliente": "28385",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
           "cnpj": "18322565000231",
           "filial": "SAO GONCALO",
@@ -4780,7 +4780,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "86239.0",
+          "codigo_cliente": "86239",
           "cliente": "MERCADO BELOT UNIDOS",
           "cnpj": "09.357.685/0006-07",
           "filial": "MIGUEL PEREIRA",
@@ -4794,7 +4794,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "2909.0",
+          "codigo_cliente": "2909",
           "cliente": "FEIRA NOVA (REDE ECONOMIA)",
           "cnpj": "36.525.319/0001-88",
           "filial": "SÃO JOÃO DE MERITI",
@@ -4808,7 +4808,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "86239.0",
+          "codigo_cliente": "86239",
           "cliente": "MERCADO BELOT UNIDOS",
           "cnpj": "09.357.685/0006-07",
           "filial": "MIGUEL PEREIRA",
@@ -4822,7 +4822,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "86240.0",
+          "codigo_cliente": "86240",
           "cliente": "MERCADO BELOT UNIDOS",
           "cnpj": "09.357.685/0004-45",
           "filial": "MIGUEL PEREIRA",
@@ -4836,7 +4836,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "7197.0",
+          "codigo_cliente": "7197",
           "cliente": "MERCADO BELOT LTDA",
           "cnpj": "9357685000100",
           "filial": "QUEIMADOS",
@@ -4850,7 +4850,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3127.0",
+          "codigo_cliente": "3127",
           "cliente": "SUPER MERCADO REAL DE EDEN LTDA",
           "cnpj": "28800001000130",
           "filial": "VILA DA PENHA",
@@ -4864,7 +4864,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3127.0",
+          "codigo_cliente": "3127",
           "cliente": "SUPER MERCADO REAL DE EDEN LTDA",
           "cnpj": "28800001000130",
           "filial": "VILA DA PENHA",
@@ -4878,7 +4878,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "89197.0",
+          "codigo_cliente": "89197",
           "cliente": "PÃO COM LETRAS PANIFICADORA LTDA",
           "cnpj": "5951912000162",
           "filial": "PAISSANDU",
@@ -4892,7 +4892,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "89197.0",
+          "codigo_cliente": "89197",
           "cliente": "PÃO COM LETRAS PANIFICADORA LTDA",
           "cnpj": "5951912000162",
           "filial": "PAISSANDU",
@@ -4906,7 +4906,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "89197.0",
+          "codigo_cliente": "89197",
           "cliente": "PÃO COM LETRAS PANIFICADORA LTDA",
           "cnpj": "5951912000162",
           "filial": "PAISSANDU",
@@ -4920,7 +4920,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "78925.0",
+          "codigo_cliente": "78925",
           "cliente": "KAL ATACADO 2 LTDA",
           "cnpj": "38354781000276",
           "filial": "PARQUE PEREQUÊ (MAMBUCABA)",
@@ -4934,7 +4934,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "92006.0",
+          "codigo_cliente": "92006",
           "cliente": "MULTI ANGRA 4 MERCADO LTDA",
           "cnpj": "16867736000282",
           "filial": "FRADE",
@@ -4948,7 +4948,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "81632.0",
+          "codigo_cliente": "81632",
           "cliente": "MEGA SENADOR VASCONCELOS SUPERMERCADOS LTDA",
           "cnpj": "45.891.842/0001-19",
           "filial": "CAMPO GRANDE",
@@ -4962,7 +4962,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "81634.0",
+          "codigo_cliente": "81634",
           "cliente": "MEGA CESARIO DE MELO SUPERMERCADOS LTDA",
           "cnpj": "48.031.020/0001-56",
           "filial": "CAMPO GRANDE",
@@ -4976,7 +4976,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "81630.0",
+          "codigo_cliente": "81630",
           "cliente": "SUPERMERCADOS MEGA LTDA",
           "cnpj": "26.754.215/0002-72",
           "filial": "COSMOS",
@@ -4990,7 +4990,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "81636.0",
+          "codigo_cliente": "81636",
           "cliente": "MEGA NOVA CIDADE SUPERMERCADOS LTDA",
           "cnpj": "37.631.410/0001-40",
           "filial": "INHOAIBA",
@@ -5004,7 +5004,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "81633.0",
+          "codigo_cliente": "81633",
           "cliente": "SUPERMERCADOS MEGA LTDA",
           "cnpj": "26.754.215/0001-91",
           "filial": "COSMOS",
@@ -5018,7 +5018,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91155.0",
+          "codigo_cliente": "91155",
           "cliente": "MERCADO BELOT LTDA",
           "cnpj": "9357685000798",
           "filial": "MANGARATIBA",
@@ -5032,7 +5032,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "7197.0",
+          "codigo_cliente": "7197",
           "cliente": "MERCADO BELOT LTDA",
           "cnpj": "9357685000100",
           "filial": "QUEIMADOS",
@@ -5046,7 +5046,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "86240.0",
+          "codigo_cliente": "86240",
           "cliente": "MERCADO BELOT UNIDOS",
           "cnpj": "09.357.685/0004-45",
           "filial": "MIGUEL PEREIRA",
@@ -5060,7 +5060,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "86238.0",
+          "codigo_cliente": "86238",
           "cliente": "MERCADO BELOT UNIDOS",
           "cnpj": "09.357.685/0002-83",
           "filial": "MANGARATIBA",
@@ -5074,7 +5074,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "86238.0",
+          "codigo_cliente": "86238",
           "cliente": "MERCADO BELOT UNIDOS",
           "cnpj": "09.357.685/0002-83",
           "filial": "MANGARATIBA",
@@ -5088,7 +5088,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "86240.0",
+          "codigo_cliente": "86240",
           "cliente": "MERCADO BELOT UNIDOS",
           "cnpj": "09.357.685/0004-45",
           "filial": "MIGUEL PEREIRA",
@@ -5102,7 +5102,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "7197.0",
+          "codigo_cliente": "7197",
           "cliente": "MERCADO BELOT LTDA",
           "cnpj": "9357685000100",
           "filial": "QUEIMADOS",
@@ -5116,7 +5116,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91155.0",
+          "codigo_cliente": "91155",
           "cliente": "MERCADO BELOT LTDA",
           "cnpj": "9357685000798",
           "filial": "MANGARATIBA",
@@ -5130,7 +5130,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "78665.0",
+          "codigo_cliente": "78665",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0022-91",
           "filial": "NOVA AMERICA -DEL CASTILHO",
@@ -5144,7 +5144,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "82475.0",
+          "codigo_cliente": "82475",
           "cliente": "MERCADOS BRAGA LTDA",
           "cnpj": "02.635.710/0004-66",
           "filial": "BANGU",
@@ -5158,7 +5158,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "2909.0",
+          "codigo_cliente": "2909",
           "cliente": "FEIRA NOVA (REDE ECONOMIA)",
           "cnpj": "36.525.319/0001-88",
           "filial": "SÃO JOÃO DE MERITI",
@@ -5172,7 +5172,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "18798.0",
+          "codigo_cliente": "18798",
           "cliente": "EMPORIO DO CADEG LTDA",
           "cnpj": "33119105000113",
           "filial": "BENFICA",
@@ -5186,7 +5186,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90410.0",
+          "codigo_cliente": "90410",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0017-24",
           "filial": "ENG DO MATO - NITERÓI",
@@ -5200,7 +5200,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "78916.0",
+          "codigo_cliente": "78916",
           "cliente": "JM LISAMAR SUPERMERCADO LTDA",
           "cnpj": "17386414000101",
           "filial": "CONCEICAO DE JACAREI",
@@ -5214,7 +5214,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6278.0",
+          "codigo_cliente": "6278",
           "cliente": "SUPERMERCADOS MUNDIAL LTDA",
           "cnpj": "33304981000110",
           "filial": "INHAUMA",
@@ -5228,7 +5228,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90406.0",
+          "codigo_cliente": "90406",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0012-10",
           "filial": "LARGO DA BATALHA",
@@ -5242,7 +5242,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90415.0",
+          "codigo_cliente": "90415",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "8628825002453",
           "filial": "PENHA",
@@ -5256,7 +5256,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91197.0",
+          "codigo_cliente": "91197",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0010-58",
           "filial": "BELFORD ROXO",
@@ -5270,7 +5270,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "9603.0",
+          "codigo_cliente": "9603",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "8628825000400",
           "filial": "NITERÓI",
@@ -5284,7 +5284,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84829.0",
+          "codigo_cliente": "84829",
           "cliente": "V&R MINIMERCADO PORTO DA ROÇA",
           "cnpj": "46866453000104",
           "filial": "SAQUAREMA",
@@ -5298,7 +5298,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79258.0",
+          "codigo_cliente": "79258",
           "cliente": "MERCADO JARDINS DA ILHA LTDA",
           "cnpj": "27939646000357",
           "filial": "JARDIM GUANABARA",
@@ -5312,7 +5312,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "86091.0",
+          "codigo_cliente": "86091",
           "cliente": "MERCADO JARDINS DA ILHA LTDA",
           "cnpj": "27939646000276",
           "filial": "VILAR DOS TELES",
@@ -5326,7 +5326,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "18918.0",
+          "codigo_cliente": "18918",
           "cliente": "MERCADO JARDINS DA ILHA LTDA",
           "cnpj": "27.939.646/0001-95",
           "filial": "JARDIM GAUNABARA",
@@ -5340,7 +5340,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "60463.0",
+          "codigo_cliente": "60463",
           "cliente": "MERCADOS BRAGA LTDA",
           "cnpj": "02.635.710/0001-13",
           "filial": "BANGU",
@@ -5354,7 +5354,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "82473.0",
+          "codigo_cliente": "82473",
           "cliente": "MERCADOS BRAGA LTDA",
           "cnpj": "02.635.710/0002-02",
           "filial": "SANTISSIMO",
@@ -5368,7 +5368,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "86195.0",
+          "codigo_cliente": "86195",
           "cliente": "MERCADO RC DE MIGUEL PEREIRA",
           "cnpj": "52909395000143",
           "filial": "PORTAL DAS MANSOES",
@@ -5382,7 +5382,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3127.0",
+          "codigo_cliente": "3127",
           "cliente": "SUPER MERCADO REAL DE EDEN LTDA",
           "cnpj": "28800001000130",
           "filial": "VILA DA PENHA",
@@ -5396,7 +5396,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3127.0",
+          "codigo_cliente": "3127",
           "cliente": "SUPER MERCADO REAL DE EDEN LTDA",
           "cnpj": "28800001000130",
           "filial": "VILA DA PENHA",
@@ -5410,7 +5410,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84030.0",
+          "codigo_cliente": "84030",
           "cliente": "KETEK COMERCIAL LTDA",
           "cnpj": "11404442000110",
           "filial": "JARDIM ANALIA",
@@ -5424,7 +5424,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84030.0",
+          "codigo_cliente": "84030",
           "cliente": "KETEK COMERCIAL LTDA",
           "cnpj": "11404442000110",
           "filial": "JARDIM ANALIA",
@@ -5438,7 +5438,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "28411.0",
+          "codigo_cliente": "28411",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "8628825001562",
           "filial": "SÃO GONÇALO",
@@ -5452,7 +5452,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90407.0",
+          "codigo_cliente": "90407",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "8628825001309",
           "filial": "NOVA IGUAÇU",
@@ -5466,7 +5466,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90413.0",
+          "codigo_cliente": "90413",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "8628825002100",
           "filial": "NITERÓI",
@@ -5480,7 +5480,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91842.0",
+          "codigo_cliente": "91842",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0021-00",
           "filial": "BARRETO - NITERÓI",
@@ -5494,7 +5494,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90820.0",
+          "codigo_cliente": "90820",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "8628825000167",
           "filial": "FONSECA",
@@ -5508,7 +5508,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91841.0",
+          "codigo_cliente": "91841",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "8628825002534",
           "filial": "PIRATININGA",
@@ -5522,7 +5522,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "9604.0",
+          "codigo_cliente": "9604",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0003-29",
           "filial": "PIRATININGA",
@@ -5536,7 +5536,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84160.0",
+          "codigo_cliente": "84160",
           "cliente": "PQA ALIMENTOS PRAÇA SECA LTDA",
           "cnpj": "51513112000187",
           "filial": "ENGENHO DE DENTRO",
@@ -5550,7 +5550,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84162.0",
+          "codigo_cliente": "84162",
           "cliente": "PQA ALIMENTOS PRAÇA SECA LTDA",
           "cnpj": "52285737000100",
           "filial": "PARQUE ARARUAMA",
@@ -5564,7 +5564,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84161.0",
+          "codigo_cliente": "84161",
           "cliente": "PQA ALIMENTOS PRAÇA SECA LTDA",
           "cnpj": "43115098000135",
           "filial": "PRAÇA SECA",
@@ -5578,7 +5578,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "81757.0",
+          "codigo_cliente": "81757",
           "cliente": "MERCADO IDEAL",
           "cnpj": "40653415000189",
           "filial": "SANTA CRUZ",
@@ -5592,7 +5592,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "69216.0",
+          "codigo_cliente": "69216",
           "cliente": "RIO VALE DISTRIBUIDORA",
           "cnpj": "8740247000318",
           "filial": "VILA DOM PEDRO",
@@ -5606,7 +5606,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "2849.0",
+          "codigo_cliente": "2849",
           "cliente": "MERCEARIA JPA BARRA EIRELI",
           "cnpj": "23.187.892/0001-87",
           "filial": "TAQUARA",
@@ -5620,7 +5620,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "2978.0",
+          "codigo_cliente": "2978",
           "cliente": "TORRE E CIA SUPERMERCADOS S/A",
           "cnpj": "07.760.885/0001-76",
           "filial": "ACARI",
@@ -5634,7 +5634,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "2978.0",
+          "codigo_cliente": "2978",
           "cliente": "TORRE E CIA SUPERMERCADOS S/A",
           "cnpj": "07.760.885/0001-76",
           "filial": "ACARI",
@@ -5648,7 +5648,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90484.0",
+          "codigo_cliente": "90484",
           "cliente": "MERCADO RC DE ITAGUAI LTDA",
           "cnpj": "58113396000163",
           "filial": "VILA MARGARIDA",
@@ -5662,7 +5662,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "92854.0",
+          "codigo_cliente": "92854",
           "cliente": "HORIZONTE ALFA MERCADO LTDA",
           "cnpj": "61.015.591/0001-65",
           "filial": "GUARATIBA",
@@ -5676,7 +5676,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "2909.0",
+          "codigo_cliente": "2909",
           "cliente": "FEIRA NOVA (REDE ECONOMIA)",
           "cnpj": "36.525.319/0001-88",
           "filial": "SÃO JOÃO DE MERITI",
@@ -5690,7 +5690,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79259.0",
+          "codigo_cliente": "79259",
           "cliente": "MAR A VISTA",
           "cnpj": "30140610000151",
           "filial": "NITERÓI",
@@ -5704,7 +5704,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "7755.0",
+          "codigo_cliente": "7755",
           "cliente": "IMBATIVEL SUPERMERCADOS",
           "cnpj": "28480886000137",
           "filial": "NITERÓI",
@@ -5718,7 +5718,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3755.0",
+          "codigo_cliente": "3755",
           "cliente": "SUPERMERCADOS BARRA OESTE",
           "cnpj": "8719835000299",
           "filial": "PENHA CIRCULAR",
@@ -5732,7 +5732,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3755.0",
+          "codigo_cliente": "3755",
           "cliente": "SUPERMERCADOS BARRA OESTE",
           "cnpj": "8719835000299",
           "filial": "PENHA CIRCULAR",
@@ -5746,7 +5746,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "58819.0",
+          "codigo_cliente": "58819",
           "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
           "cnpj": "33765158000101",
           "filial": "JARDIM PRIMAVERA",
@@ -5760,7 +5760,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91149.0",
+          "codigo_cliente": "91149",
           "cliente": "MERCADO RIO SUL PARADA MODELO LTDA",
           "cnpj": "29882585000100",
           "filial": "PARADA MODELO",
@@ -5774,7 +5774,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "78072.0",
+          "codigo_cliente": "78072",
           "cliente": "MERCADO RIO SUL DE SANTA CRUZ DA SERRA LTDA",
           "cnpj": "47854763000163",
           "filial": "VILA SANTA CRUZ",
@@ -5788,7 +5788,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "77809.0",
+          "codigo_cliente": "77809",
           "cliente": "MERCADO RIO SUL DE XERÉM",
           "cnpj": "49365479000159",
           "filial": "VILA SANTA ALICE",
@@ -5802,7 +5802,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79259.0",
+          "codigo_cliente": "79259",
           "cliente": "MAR A VISTA",
           "cnpj": "30140610000151",
           "filial": "NITERÓI",
@@ -5816,7 +5816,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "86195.0",
+          "codigo_cliente": "86195",
           "cliente": "MERCADO RC DE MIGUEL PEREIRA",
           "cnpj": "52909395000143",
           "filial": "PORTAL DAS MANSOES",
@@ -5830,7 +5830,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "92855.0",
+          "codigo_cliente": "92855",
           "cliente": "RAINHA DO IRIS",
           "cnpj": "7884262000105",
           "filial": "SÃO JOÃO DE MERITI",
@@ -5844,7 +5844,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "16159.0",
+          "codigo_cliente": "16159",
           "cliente": "PORTAL RIO SUL",
           "cnpj": "33060720000100",
           "filial": "PENHA CIRCULAR",
@@ -5858,7 +5858,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "58819.0",
+          "codigo_cliente": "58819",
           "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
           "cnpj": "33765158000101",
           "filial": "JARDIM PRIMAVERA",
@@ -5872,7 +5872,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90484.0",
+          "codigo_cliente": "90484",
           "cliente": "MERCADO RC DE ITAGUAI LTDA",
           "cnpj": "58113396000163",
           "filial": "VILA MARGARIDA",
@@ -5886,7 +5886,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91149.0",
+          "codigo_cliente": "91149",
           "cliente": "MERCADO RIO SUL PARADA MODELO LTDA",
           "cnpj": "29882585000100",
           "filial": "PARADA MODELO",
@@ -5900,7 +5900,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79258.0",
+          "codigo_cliente": "79258",
           "cliente": "MERCADO JARDINS DA ILHA LTDA",
           "cnpj": "27939646000357",
           "filial": "JARDIM GUANABARA",
@@ -5914,7 +5914,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "2147.0",
+          "codigo_cliente": "2147",
           "cliente": "BARRA CARNES",
           "cnpj": "29094240000184",
           "filial": "BARRA",
@@ -5928,7 +5928,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "69216.0",
+          "codigo_cliente": "69216",
           "cliente": "RIO VALE DISTRIBUIDORA",
           "cnpj": "8740247000318",
           "filial": "VILA DOM PEDRO",
@@ -5942,7 +5942,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84459.0",
+          "codigo_cliente": "84459",
           "cliente": "COLDBEER COMERCIO DE BEBIDAS LTDA",
           "cnpj": "54.040.344/0001-53",
           "filial": "REALENGO",
@@ -5956,7 +5956,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "78916.0",
+          "codigo_cliente": "78916",
           "cliente": "JM LISAMAR SUPERMERCADO LTDA",
           "cnpj": "17386414000101",
           "filial": "CONCEICAO DE JACAREI",
@@ -5970,7 +5970,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "18918.0",
+          "codigo_cliente": "18918",
           "cliente": "MERCADO JARDINS DA ILHA LTDA",
           "cnpj": "27.939.646/0001-95",
           "filial": "JARDIM GAUNABARA",
@@ -5984,7 +5984,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "86310.0",
+          "codigo_cliente": "86310",
           "cliente": "CEREAIS IRENE LTDA",
           "cnpj": "32125006000262",
           "filial": "NOVA CAMPINAS",
@@ -5998,7 +5998,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91774.0",
+          "codigo_cliente": "91774",
           "cliente": "EMANUEL COMERCIO DE GENEROS",
           "cnpj": "10748214000528",
           "filial": "CAMPO GRANDE",
@@ -6012,7 +6012,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "73083.0",
+          "codigo_cliente": "73083",
           "cliente": "CEREAIS IRENE LTDA",
           "cnpj": "32125006000181",
           "filial": "PARQUE PAULISTA",
@@ -6026,7 +6026,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "89197.0",
+          "codigo_cliente": "89197",
           "cliente": "PÃO COM LETRAS PANIFICADORA LTDA",
           "cnpj": "5951912000162",
           "filial": "PAISSANDU",
@@ -6040,7 +6040,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3813.0",
+          "codigo_cliente": "3813",
           "cliente": "JULIAS HORTIFRUTI MERCADO LTDA",
           "cnpj": "12936000115",
           "filial": "BANGU",
@@ -6054,7 +6054,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "18798.0",
+          "codigo_cliente": "18798",
           "cliente": "EMPORIO DO CADEG LTDA",
           "cnpj": "33119105000113",
           "filial": "BENFICA",
@@ -6068,7 +6068,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "92391.0",
+          "codigo_cliente": "92391",
           "cliente": "SUPERMERCADO MARECHAL R.A LTDA",
           "cnpj": "54291858000181",
           "filial": "RICARDO DE ALBUQUERQUE",
@@ -6082,7 +6082,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "92695.0",
+          "codigo_cliente": "92695",
           "cliente": "CASAFRUTI NITEROI LTDA",
           "cnpj": "51011145001281",
           "filial": "NITERÓI",
@@ -6096,7 +6096,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6671.0",
+          "codigo_cliente": "6671",
           "cliente": "JRD MERCEARIA E HORTIFRUTI LTDA",
           "cnpj": "23549577000152",
           "filial": "JORDIM GUANABARA",
@@ -6110,7 +6110,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79258.0",
+          "codigo_cliente": "79258",
           "cliente": "MERCADO JARDINS DA ILHA LTDA",
           "cnpj": "27939646000357",
           "filial": "JARDIM GUANABARA",
@@ -6124,7 +6124,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "18918.0",
+          "codigo_cliente": "18918",
           "cliente": "MERCADO JARDINS DA ILHA LTDA",
           "cnpj": "27.939.646/0001-95",
           "filial": "JARDIM GAUNABARA",
@@ -6138,7 +6138,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "CLIENTE DESISTIU"
         },
         {
-          "codigo_cliente": "56256.0",
+          "codigo_cliente": "56256",
           "cliente": "REZENDE ALIMENTOS CDD LTDA",
           "cnpj": "28732157000120",
           "filial": "CIDADE DE DEUS",
@@ -6152,7 +6152,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "81446.0",
+          "codigo_cliente": "81446",
           "cliente": "REZENDE ALIMENTOS JPA LTDA",
           "cnpj": "50250937000274",
           "filial": "JACAREPAGUA",
@@ -6166,7 +6166,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90486.0",
+          "codigo_cliente": "90486",
           "cliente": "SUPERMERCADO RIO SUL DE SEROPEDICA LTDA",
           "cnpj": "50366423000106",
           "filial": "JARDIM SAO JORGE",
@@ -6180,7 +6180,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90484.0",
+          "codigo_cliente": "90484",
           "cliente": "MERCADO RC DE ITAGUAI LTDA",
           "cnpj": "58113396000163",
           "filial": "VILA MARGARIDA",
@@ -6194,7 +6194,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84250.0",
+          "codigo_cliente": "84250",
           "cliente": "SUPERMERCADO RIO SUL DE NILOPOLIS LTDA",
           "cnpj": "51152535000119",
           "filial": "CENTRO",
@@ -6208,7 +6208,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "ENVIAR A NF 2487 CORRETA AO CLIENTE"
         },
         {
-          "codigo_cliente": "81757.0",
+          "codigo_cliente": "81757",
           "cliente": "MERCADO IDEAL",
           "cnpj": "40653415000189",
           "filial": "SANTA CRUZ",
@@ -6222,7 +6222,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "89197.0",
+          "codigo_cliente": "89197",
           "cliente": "PÃO COM LETRAS PANIFICADORA LTDA",
           "cnpj": "5951912000162",
           "filial": "PAISSANDU",
@@ -6236,7 +6236,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "89197.0",
+          "codigo_cliente": "89197",
           "cliente": "PÃO COM LETRAS PANIFICADORA LTDA",
           "cnpj": "5951912000162",
           "filial": "PAISSANDU",
@@ -6250,7 +6250,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3540.0",
+          "codigo_cliente": "3540",
           "cliente": "MERCADO FAMILLE LTDA",
           "cnpj": "5535137000164",
           "filial": "CENTRO",
@@ -6264,7 +6264,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "SÓ RECEBE EM HORARIO ESPECIFICO - VER A OBS DO DIA 05"
         },
         {
-          "codigo_cliente": "8878.0",
+          "codigo_cliente": "8878",
           "cliente": "MULTI ANGRA MERCADO LTDA",
           "cnpj": "7056052000129",
           "filial": "ANGRA DOS REIS",
@@ -6278,7 +6278,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "8876.0",
+          "codigo_cliente": "8876",
           "cliente": "MULTI PARATY MERCADO LTDA",
           "cnpj": "7126663000104",
           "filial": "RIO DE JANEIRO",
@@ -6292,7 +6292,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "78916.0",
+          "codigo_cliente": "78916",
           "cliente": "JM LISAMAR SUPERMERCADO LTDA",
           "cnpj": "17386414000101",
           "filial": "CONCEICAO DE JACAREI",
@@ -6306,7 +6306,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84489.0",
+          "codigo_cliente": "84489",
           "cliente": "MERCADO RIO SUL DE SURUI",
           "cnpj": "31333682000188",
           "filial": "SURUI",
@@ -6320,7 +6320,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91150.0",
+          "codigo_cliente": "91150",
           "cliente": "MERCADO DE GUAPIMIRIM RJ LTDA",
           "cnpj": "56125049000125",
           "filial": "CENTRO",
@@ -6334,7 +6334,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "75125.0",
+          "codigo_cliente": "75125",
           "cliente": "MERCADO RIO SUL DE PIABETA LTDA",
           "cnpj": "42717725000145",
           "filial": "PIABETÁ",
@@ -6348,7 +6348,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91680.0",
+          "codigo_cliente": "91680",
           "cliente": "SAL DA TERRA",
           "cnpj": "53147800000104",
           "filial": "PARQUE BOM RETIRO",
@@ -6362,7 +6362,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84250.0",
+          "codigo_cliente": "84250",
           "cliente": "SUPERMERCADO RIO SUL DE NILOPOLIS LTDA",
           "cnpj": "51152535000119",
           "filial": "CENTRO",
@@ -6376,7 +6376,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "92391.0",
+          "codigo_cliente": "92391",
           "cliente": "SUPERMERCADO MARECHAL R.A LTDA",
           "cnpj": "54291858000181",
           "filial": "RICARDO DE ALBUQUERQUE",
@@ -6390,7 +6390,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "73083.0",
+          "codigo_cliente": "73083",
           "cliente": "CEREAIS IRENE LTDA",
           "cnpj": "32125006000181",
           "filial": "PARQUE PAULISTA",
@@ -6404,7 +6404,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "73083.0",
+          "codigo_cliente": "73083",
           "cliente": "CEREAIS IRENE LTDA",
           "cnpj": "32125006000181",
           "filial": "PARQUE PAULISTA",
@@ -6418,7 +6418,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "73083.0",
+          "codigo_cliente": "73083",
           "cliente": "CEREAIS IRENE LTDA",
           "cnpj": "32125006000181",
           "filial": "PARQUE PAULISTA",
@@ -6432,7 +6432,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "86307.0",
+          "codigo_cliente": "86307",
           "cliente": "CEREAIS IRENE LTDA",
           "cnpj": "32125006000343",
           "filial": "JARDIM ANHANGÁ",
@@ -6446,7 +6446,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "86307.0",
+          "codigo_cliente": "86307",
           "cliente": "CEREAIS IRENE LTDA",
           "cnpj": "32125006000343",
           "filial": "JARDIM ANHANGÁ",
@@ -6460,7 +6460,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3850.0",
+          "codigo_cliente": "3850",
           "cliente": "EMANUEL COMERCIO DE GENEROS",
           "cnpj": "10748214000102",
           "filial": "CAMPO GRANDE",
@@ -6474,7 +6474,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91775.0",
+          "codigo_cliente": "91775",
           "cliente": "EMANUEL COMERCIO DE GENEROS",
           "cnpj": "10748214000447",
           "filial": "CAMPO GRANDE",
@@ -6488,7 +6488,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3849.0",
+          "codigo_cliente": "3849",
           "cliente": "EMANUEL COMERCIO DE GENEROS",
           "cnpj": "10748214000102",
           "filial": "CAMPO GRANDE",
@@ -6502,7 +6502,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91773.0",
+          "codigo_cliente": "91773",
           "cliente": "EMANUEL COMERCIO DE GENEROS",
           "cnpj": "10748214000609",
           "filial": "GUARATIBA",
@@ -6516,7 +6516,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91771.0",
+          "codigo_cliente": "91771",
           "cliente": "EMANUEL COMERCIO DE GENEROS",
           "cnpj": "10748214000870",
           "filial": "CAMPO GRANDE",
@@ -6530,7 +6530,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "92396.0",
+          "codigo_cliente": "92396",
           "cliente": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO LIMITADA",
           "cnpj": "5868574001252",
           "filial": "FAZENDA CASTELO",
@@ -6544,7 +6544,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "92397.0",
+          "codigo_cliente": "92397",
           "cliente": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO LIMITADA",
           "cnpj": "5868574001171",
           "filial": "SÃO GERALDO",
@@ -6558,7 +6558,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "86431.0",
+          "codigo_cliente": "86431",
           "cliente": "MERCADO SUPER REDE",
           "cnpj": "10612799000201",
           "filial": "JACAREPAGUA",
@@ -6572,7 +6572,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "18918.0",
+          "codigo_cliente": "18918",
           "cliente": "MERCADO JARDINS DA ILHA LTDA",
           "cnpj": "27.939.646/0001-95",
           "filial": "JARDIM GAUNABARA",
@@ -6586,7 +6586,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "2978.0",
+          "codigo_cliente": "2978",
           "cliente": "TORRE E CIA SUPERMERCADOS S/A",
           "cnpj": "07.760.885/0001-76",
           "filial": "ACARI",
@@ -6600,7 +6600,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "18918.0",
+          "codigo_cliente": "18918",
           "cliente": "MERCADO JARDINS DA ILHA LTDA",
           "cnpj": "27939646000195",
           "filial": "JARDIM GAUNABARA",
@@ -6614,7 +6614,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "7755.0",
+          "codigo_cliente": "7755",
           "cliente": "IMBATIVEL SUPERMERCADOS",
           "cnpj": "28480886000137",
           "filial": "NITERÓI",
@@ -6628,7 +6628,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "86431.0",
+          "codigo_cliente": "86431",
           "cliente": "MERCADO SUPER REDE",
           "cnpj": "10612799000201",
           "filial": "JACAREPAGUA",
@@ -6642,7 +6642,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "83387.0",
+          "codigo_cliente": "83387",
           "cliente": "CGX COMERCIO DE ALIMENTOS LTDA",
           "cnpj": "15.580.294/0001-45",
           "filial": "GUADALUPE",
@@ -6656,7 +6656,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3539.0",
+          "codigo_cliente": "3539",
           "cliente": "MERCADO FAMILLE LTDA",
           "cnpj": "8967475000163",
           "filial": "BELFORD ROXO",
@@ -6670,7 +6670,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "CANCELADA?"
         },
         {
-          "codigo_cliente": "89197.0",
+          "codigo_cliente": "89197",
           "cliente": "PÃO COM LETRAS PANIFICADORA LTDA",
           "cnpj": "5951912000162",
           "filial": "PAISSANDU",
@@ -6684,7 +6684,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "18798.0",
+          "codigo_cliente": "18798",
           "cliente": "EMPORIO DO CADEG LTDA",
           "cnpj": "33119105000113",
           "filial": "BENFICA",
@@ -6698,7 +6698,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "2909.0",
+          "codigo_cliente": "2909",
           "cliente": "FEIRA NOVA (REDE ECONOMIA)",
           "cnpj": "36.525.319/0001-88",
           "filial": "SÃO JOÃO DE MERITI",
@@ -6712,7 +6712,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "89197.0",
+          "codigo_cliente": "89197",
           "cliente": "PÃO COM LETRAS PANIFICADORA LTDA",
           "cnpj": "5951912000162",
           "filial": "PAISSANDU",
@@ -6726,7 +6726,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3543.0",
+          "codigo_cliente": "3543",
           "cliente": "MERCADO FAMILLE LTDA",
           "cnpj": "8923660000156",
           "filial": "PIEDADE",
@@ -6740,7 +6740,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "PRODUTOS COM CODIGO ERRADO / TIRAR O CODIGO DO GIN"
         },
         {
-          "codigo_cliente": "79258.0",
+          "codigo_cliente": "79258",
           "cliente": "MERCADO JARDINS DA ILHA LTDA",
           "cnpj": "27939646000357",
           "filial": "JARDIM GUANABARA",
@@ -6754,7 +6754,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6671.0",
+          "codigo_cliente": "6671",
           "cliente": "JRD MERCEARIA E HORTIFRUTI LTDA",
           "cnpj": "23549577000152",
           "filial": "JORDIM GUANABARA",
@@ -6768,7 +6768,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "60463.0",
+          "codigo_cliente": "60463",
           "cliente": "MERCADOS BRAGA LTDA",
           "cnpj": "02.635.710/0001-13",
           "filial": "BANGU",
@@ -6782,7 +6782,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "82473.0",
+          "codigo_cliente": "82473",
           "cliente": "MERCADOS BRAGA LTDA",
           "cnpj": "02.635.710/0002-02",
           "filial": "SANTISSIMO",
@@ -6796,7 +6796,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "82474.0",
+          "codigo_cliente": "82474",
           "cliente": "MERCADOS BRAGA LTDA",
           "cnpj": "02.635.710/0003-85",
           "filial": "SANTISSIMO",
@@ -6810,7 +6810,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "82475.0",
+          "codigo_cliente": "82475",
           "cliente": "MERCADOS BRAGA LTDA",
           "cnpj": "02.635.710/0004-66",
           "filial": "BANGU",
@@ -6824,7 +6824,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "18798.0",
+          "codigo_cliente": "18798",
           "cliente": "EMPORIO DO CADEG LTDA",
           "cnpj": "33119105000113",
           "filial": "BENFICA",
@@ -6838,7 +6838,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "86091.0",
+          "codigo_cliente": "86091",
           "cliente": "MERCADO JARDINS DA ILHA LTDA",
           "cnpj": "27939646000276",
           "filial": "VILAR DOS TELES",
@@ -6852,7 +6852,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90484.0",
+          "codigo_cliente": "90484",
           "cliente": "MERCADO RC DE ITAGUAI LTDA",
           "cnpj": "58113396000163",
           "filial": "VILA MARGARIDA",
@@ -6866,7 +6866,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "86195.0",
+          "codigo_cliente": "86195",
           "cliente": "MERCADO RC DE MIGUEL PEREIRA",
           "cnpj": "52909395000143",
           "filial": "PORTAL DAS MANSOES",
@@ -6880,7 +6880,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "85897.0",
+          "codigo_cliente": "85897",
           "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
           "cnpj": "57489708000175",
           "filial": "JARDIM ATLANTICO",
@@ -6894,7 +6894,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "83627.0",
+          "codigo_cliente": "83627",
           "cliente": "MERCADO SANTO ALEIXO",
           "cnpj": "48.878.208/0001-34",
           "filial": "SANTO ALEIXO",
@@ -6908,7 +6908,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "83705.0",
+          "codigo_cliente": "83705",
           "cliente": "MERCADO RIO SUL CAMPO GRANDE",
           "cnpj": "35.816.060/0001-61",
           "filial": "CAMPO GRANDE",
@@ -6922,7 +6922,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "86091.0",
+          "codigo_cliente": "86091",
           "cliente": "MERCADO JARDINS DA ILHA LTDA",
           "cnpj": "27939646000276",
           "filial": "VILAR DOS TELES",
@@ -6936,7 +6936,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84154.0",
+          "codigo_cliente": "84154",
           "cliente": "NOSSA PROMESSA SUPERMERCADO LTDA",
           "cnpj": "51233558000158",
           "filial": "PARQUE SÃO JOAO",
@@ -6950,7 +6950,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3558.0",
+          "codigo_cliente": "3558",
           "cliente": "VALQUEIRE FRUT",
           "cnpj": "10852154000165",
           "filial": "VILA VALQUEIRE",
@@ -6964,7 +6964,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "89197.0",
+          "codigo_cliente": "89197",
           "cliente": "PÃO COM LETRAS PANIFICADORA LTDA",
           "cnpj": "5951912000162",
           "filial": "PAISSANDU",
@@ -6978,7 +6978,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91791.0",
+          "codigo_cliente": "91791",
           "cliente": "ALFA E OMEGA",
           "cnpj": "1917507000924",
           "filial": "SÃO JOÃO DE MERITI",
@@ -6992,7 +6992,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3755.0",
+          "codigo_cliente": "3755",
           "cliente": "SUPERMERCADOS BARRA OESTE",
           "cnpj": "8719835000299",
           "filial": "PENHA CIRCULAR",
@@ -7006,7 +7006,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91577.0",
+          "codigo_cliente": "91577",
           "cliente": "MERCADO RIO SUL JARDIM LEAL LTDA",
           "cnpj": "32.652.861/0001-40",
           "filial": "OLAVO BILAC",
@@ -7020,7 +7020,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79258.0",
+          "codigo_cliente": "79258",
           "cliente": "MERCADO JARDINS DA ILHA LTDA",
           "cnpj": "27939646000357",
           "filial": "JARDIM GUANABARA",
@@ -7034,7 +7034,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "61684.0",
+          "codigo_cliente": "61684",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000312",
           "filial": "BARROCO (ITAIPUAÇU)",
@@ -7048,7 +7048,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84059.0",
+          "codigo_cliente": "84059",
           "cliente": "SUPERMERCADOS RIO SUL DA PENHA LTDA",
           "cnpj": "42810855000128",
           "filial": "PENHA CIRCULAR",
@@ -7062,7 +7062,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79259.0",
+          "codigo_cliente": "79259",
           "cliente": "MAR A VISTA",
           "cnpj": "30140610000151",
           "filial": "NITERÓI",
@@ -7076,7 +7076,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3538.0",
+          "codigo_cliente": "3538",
           "cliente": "MERCADO FAMILLE LTDA",
           "cnpj": "6271017000160",
           "filial": "VILA ISABEL",
@@ -7090,7 +7090,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "SÓ RECEBE EM HORARIO ESPECIFICO"
         },
         {
-          "codigo_cliente": "3537.0",
+          "codigo_cliente": "3537",
           "cliente": "MERCADO FAMILLE LTDA",
           "cnpj": "10673245000133",
           "filial": "COELHO NETO",
@@ -7104,7 +7104,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "PRODUTOS COM CODIGO ERRADO"
         },
         {
-          "codigo_cliente": "91840.0",
+          "codigo_cliente": "91840",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "8628825002615",
           "filial": "CAMPO GRANDE",
@@ -7118,7 +7118,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "78665.0",
+          "codigo_cliente": "78665",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0022-91",
           "filial": "NOVA AMERICA -DEL CASTILHO",
@@ -7132,7 +7132,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84066.0",
+          "codigo_cliente": "84066",
           "cliente": "PREDILECTA DE XEREM COMERCIO DE GENEROS ALIMENTOS LTDA",
           "cnpj": "44291406000146",
           "filial": "XERÉM",
@@ -7146,7 +7146,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "92006.0",
+          "codigo_cliente": "92006",
           "cliente": "MULTI ANGRA 4 MERCADO LTDA",
           "cnpj": "16867736000282",
           "filial": "FRADE",
@@ -7160,7 +7160,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6941.0",
+          "codigo_cliente": "6941",
           "cliente": "PRINCESA AUTO SERVIÇOS DE COMESTIVEIS LTDA",
           "cnpj": "27833615000155",
           "filial": "PENHA CIRCULAR",
@@ -7174,7 +7174,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "81446.0",
+          "codigo_cliente": "81446",
           "cliente": "REZENDE ALIMENTOS JPA LTDA",
           "cnpj": "50250937000274",
           "filial": "JACAREPAGUA",
@@ -7188,7 +7188,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3544.0",
+          "codigo_cliente": "3544",
           "cliente": "MERCADO FAMILLE LTDA",
           "cnpj": "22082056000175",
           "filial": "DUQUE DE CAXIAS",
@@ -7202,7 +7202,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "PEDIDO COM O PREÇO ERRADO"
         },
         {
-          "codigo_cliente": "90820.0",
+          "codigo_cliente": "90820",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "8628825000167",
           "filial": "FONSECA",
@@ -7216,7 +7216,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91230.0",
+          "codigo_cliente": "91230",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29080946000278",
           "filial": "CAMPO GRANDE",
@@ -7230,7 +7230,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91155.0",
+          "codigo_cliente": "91155",
           "cliente": "MERCADO BELOT LTDA",
           "cnpj": "9357685000798",
           "filial": "MANGARATIBA",
@@ -7244,7 +7244,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "7197.0",
+          "codigo_cliente": "7197",
           "cliente": "MERCADO BELOT LTDA",
           "cnpj": "9357685000100",
           "filial": "QUEIMADOS",
@@ -7258,7 +7258,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "45319.0",
+          "codigo_cliente": "45319",
           "cliente": "MERCADO BELOT LTDA",
           "cnpj": "9357685000283",
           "filial": "EL RANCHITO",
@@ -7272,7 +7272,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "18918.0",
+          "codigo_cliente": "18918",
           "cliente": "MERCADO JARDINS DA ILHA LTDA",
           "cnpj": "27939646000195",
           "filial": "JARDIM GAUNABARA",
@@ -7286,7 +7286,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84310.0",
+          "codigo_cliente": "84310",
           "cliente": "VILA SANTA CRUZ COMERCIO DE GENEROS ALIMENTICIOS LTDA",
           "cnpj": "35602394000132",
           "filial": "SANTA CRUZ DA SERRA",
@@ -7300,7 +7300,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "16159.0",
+          "codigo_cliente": "16159",
           "cliente": "PORTAL RIO SUL",
           "cnpj": "33060720000100",
           "filial": "PENHA CIRCULAR",
@@ -7314,7 +7314,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91955.0",
+          "codigo_cliente": "91955",
           "cliente": "CASAFRUTI AMERICAS LTDA",
           "cnpj": "51.011.145/0001-29",
           "filial": "TIJUCA - MARACANÃ",
@@ -7328,7 +7328,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91956.0",
+          "codigo_cliente": "91956",
           "cliente": "CASAFRUTI AMERICAS LTDA",
           "cnpj": "51.011.145/0008-03",
           "filial": "RIO 2 - JACAREPAGUA - RJ",
@@ -7342,7 +7342,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91957.0",
+          "codigo_cliente": "91957",
           "cliente": "CASAFRUTI AMERICAS LTDA",
           "cnpj": "51.011.145/0010-10",
           "filial": "ARARUAMA",
@@ -7356,7 +7356,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91958.0",
+          "codigo_cliente": "91958",
           "cliente": "CASAFRUTI AMERICAS LTDA",
           "cnpj": "51.011.145/0009-86",
           "filial": "CAMPOS DE COYTAGAZES",
@@ -7370,7 +7370,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91959.0",
+          "codigo_cliente": "91959",
           "cliente": "CASAFRUTI AMERICAS LTDA",
           "cnpj": "51.011.145/0013-62",
           "filial": "FREGUESIA - JACAREPAGUÁ - RJ",
@@ -7384,7 +7384,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90387.0",
+          "codigo_cliente": "90387",
           "cliente": "MERCADO RIO SUL DE PEDRA DE GUARATIBA LTDA",
           "cnpj": "50358598000163",
           "filial": "GUARATIBA",
@@ -7398,7 +7398,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90388.0",
+          "codigo_cliente": "90388",
           "cliente": "SUPERMERCADO JPA LTDA",
           "cnpj": "53911958000109",
           "filial": "ITANHANGA",
@@ -7412,7 +7412,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91840.0",
+          "codigo_cliente": "91840",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "8628825002615",
           "filial": "CAMPO GRANDE",
@@ -7426,7 +7426,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "75125.0",
+          "codigo_cliente": "75125",
           "cliente": "MERCADO RIO SUL DE PIABETA LTDA",
           "cnpj": "42717725000145",
           "filial": "PIABETÁ",
@@ -7440,7 +7440,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "77809.0",
+          "codigo_cliente": "77809",
           "cliente": "MERCADO RIO SUL DE XERÉM",
           "cnpj": "49365479000159",
           "filial": "VILA SANTA ALICE",
@@ -7454,7 +7454,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "83653.0",
+          "codigo_cliente": "83653",
           "cliente": "MERCADO RIO SUL DA FIGUEIRA LTDA",
           "cnpj": "37496930000198",
           "filial": "CHACARAS RIO PETROPOLIS",
@@ -7468,7 +7468,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "83980.0",
+          "codigo_cliente": "83980",
           "cliente": "SUPERMERCADO TRADIÇÃO RJ LTDA",
           "cnpj": "37657925000462",
           "filial": "CENTRO",
@@ -7482,7 +7482,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90486.0",
+          "codigo_cliente": "90486",
           "cliente": "SUPERMERCADO RIO SUL DE SEROPEDICA LTDA",
           "cnpj": "50366423000106",
           "filial": "JARDIM SAO JORGE",
@@ -7496,7 +7496,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84310.0",
+          "codigo_cliente": "84310",
           "cliente": "VILA SANTA CRUZ COMERCIO DE GENEROS ALIMENTICIOS LTDA",
           "cnpj": "35602394000132",
           "filial": "SANTA CRUZ DA SERRA",
@@ -7510,7 +7510,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84310.0",
+          "codigo_cliente": "84310",
           "cliente": "VILA SANTA CRUZ COMERCIO DE GENEROS ALIMENTICIOS LTDA",
           "cnpj": "35602394000132",
           "filial": "SANTA CRUZ DA SERRA",
@@ -7524,7 +7524,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79322.0",
+          "codigo_cliente": "79322",
           "cliente": "MULTI ITAGUAI MERCADO LTDA",
           "cnpj": "45909881000104",
           "filial": "VILA MARGARIDA",
@@ -7538,7 +7538,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79321.0",
+          "codigo_cliente": "79321",
           "cliente": "MULTI ANGRA 3 MERCADO LTDA",
           "cnpj": "37070173000510",
           "filial": "CAMPO BELO (CUNHAMBEBE)",
@@ -7552,7 +7552,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "8877.0",
+          "codigo_cliente": "8877",
           "cliente": "MULTI PEREQUE MERCADO LTDA",
           "cnpj": "16867736000100",
           "filial": "PARQUE MAMBUCADA",
@@ -7566,7 +7566,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79319.0",
+          "codigo_cliente": "79319",
           "cliente": "MULTI ANGRA 3 MERCADO LTDA",
           "cnpj": "37070173000196",
           "filial": "CENTRO",
@@ -7580,7 +7580,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79320.0",
+          "codigo_cliente": "79320",
           "cliente": "MULTI ANGRA 3 MERCADO LTDA",
           "cnpj": "37070173000277",
           "filial": "PARQUE DAS PALMEIRAS",
@@ -7594,7 +7594,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79323.0",
+          "codigo_cliente": "79323",
           "cliente": "MULTI ANGRA 3 MERCADO LTDA",
           "cnpj": "37070173000609",
           "filial": "NOVA ANGRA (CUNHAMBEBE)",
@@ -7608,7 +7608,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "77422.0",
+          "codigo_cliente": "77422",
           "cliente": "LUCRE BEM MERCEARIA LTDA",
           "cnpj": "9275981000154",
           "filial": "BANGU",
@@ -7622,7 +7622,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "61923.0",
+          "codigo_cliente": "61923",
           "cliente": "MERCADO FAMILLE LTDA",
           "cnpj": "44042896000147",
           "filial": "CAMPO GRANDE",
@@ -7636,7 +7636,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "PEDIDO COM PRODUTO ERRADO"
         },
         {
-          "codigo_cliente": "90407.0",
+          "codigo_cliente": "90407",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "8628825001309",
           "filial": "NOVA IGUAÇU",
@@ -7650,7 +7650,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "FATURADO ERRADO"
         },
         {
-          "codigo_cliente": "60708.0",
+          "codigo_cliente": "60708",
           "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
           "cnpj": "20.580.702/0007-04",
           "filial": "VILA HELENA",
@@ -7664,7 +7664,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "45321.0",
+          "codigo_cliente": "45321",
           "cliente": "MERCADO BELOT LTDA",
           "cnpj": "9357685000445",
           "filial": "MIGUEL PEREIRA",
@@ -7678,7 +7678,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "45320.0",
+          "codigo_cliente": "45320",
           "cliente": "MERCADO BELOT LTDA",
           "cnpj": "9357685000607",
           "filial": "CENTRO/GOV PORTELA",
@@ -7692,7 +7692,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90486.0",
+          "codigo_cliente": "90486",
           "cliente": "SUPERMERCADO RIO SUL DE SEROPEDICA LTDA",
           "cnpj": "50366423000106",
           "filial": "JARDIM SAO JORGE",
@@ -7706,7 +7706,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90415.0",
+          "codigo_cliente": "90415",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "8628825002453",
           "filial": "PENHA",
@@ -7720,7 +7720,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90415.0",
+          "codigo_cliente": "90415",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "8628825002453",
           "filial": "PENHA",
@@ -7734,7 +7734,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90413.0",
+          "codigo_cliente": "90413",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "8628825002100",
           "filial": "NITERÓI",
@@ -7748,7 +7748,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91841.0",
+          "codigo_cliente": "91841",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "8628825002534",
           "filial": "PIRATININGA",
@@ -7762,7 +7762,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "18798.0",
+          "codigo_cliente": "18798",
           "cliente": "EMPORIO DO CADEG LTDA",
           "cnpj": "33119105000113",
           "filial": "BENFICA",
@@ -7776,7 +7776,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "69292.0",
+          "codigo_cliente": "69292",
           "cliente": "LUCAS DE FREITAS MIRANDA",
           "cnpj": "39346520000196",
           "filial": "ANGRA DOS REIS",
@@ -7790,7 +7790,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3850.0",
+          "codigo_cliente": "3850",
           "cliente": "EMANUEL COMERCIO DE GENEROS",
           "cnpj": "10748214000102",
           "filial": "CAMPO GRANDE",
@@ -7804,7 +7804,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3849.0",
+          "codigo_cliente": "3849",
           "cliente": "EMANUEL COMERCIO DE GENEROS",
           "cnpj": "10748214000102",
           "filial": "CAMPO GRANDE",
@@ -7818,7 +7818,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "62167.0",
+          "codigo_cliente": "62167",
           "cliente": "EMANUEL COMERCIO DE GENEROS",
           "cnpj": "36287735000276",
           "filial": "GUARATIBA",
@@ -7832,7 +7832,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91775.0",
+          "codigo_cliente": "91775",
           "cliente": "EMANUEL COMERCIO DE GENEROS",
           "cnpj": "10748214000447",
           "filial": "CAMPO GRANDE",
@@ -7846,7 +7846,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91774.0",
+          "codigo_cliente": "91774",
           "cliente": "EMANUEL COMERCIO DE GENEROS",
           "cnpj": "10748214000528",
           "filial": "CAMPO GRANDE",
@@ -7860,7 +7860,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91773.0",
+          "codigo_cliente": "91773",
           "cliente": "EMANUEL COMERCIO DE GENEROS",
           "cnpj": "10748214000609",
           "filial": "GUARATIBA",
@@ -7874,7 +7874,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91772.0",
+          "codigo_cliente": "91772",
           "cliente": "EMANUEL COMERCIO DE GENEROS",
           "cnpj": "10748214000790",
           "filial": "CAMPO GRANDE",
@@ -7888,7 +7888,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91771.0",
+          "codigo_cliente": "91771",
           "cliente": "EMANUEL COMERCIO DE GENEROS",
           "cnpj": "10748214000870",
           "filial": "CAMPO GRANDE",
@@ -7902,7 +7902,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "89197.0",
+          "codigo_cliente": "89197",
           "cliente": "PÃO COM LETRAS PANIFICADORA LTDA",
           "cnpj": "5951912000162",
           "filial": "PAISSANDU",
@@ -7916,7 +7916,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91501.0",
+          "codigo_cliente": "91501",
           "cliente": "CESTA DE ALIMENTOS BRASIL LTDA",
           "cnpj": "11023891000703",
           "filial": "QUISSAMA",
@@ -7930,7 +7930,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84012.0",
+          "codigo_cliente": "84012",
           "cliente": "NAOMI COM DE ALIMENTOS LTDA",
           "cnpj": "39553144000534",
           "filial": "CENTRO",
@@ -7944,7 +7944,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "85921.0",
+          "codigo_cliente": "85921",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS AS",
           "cnpj": "28129260003287",
           "filial": "CAMPO REDONDO",
@@ -7958,7 +7958,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "SEM INFO"
         },
         {
-          "codigo_cliente": "85095.0",
+          "codigo_cliente": "85095",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS AS",
           "cnpj": "28129260002981",
           "filial": "CENTRO",
@@ -7972,7 +7972,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "SEM INFO"
         },
         {
-          "codigo_cliente": "91501.0",
+          "codigo_cliente": "91501",
           "cliente": "CESTA DE ALIMENTOS BRASIL LTDA",
           "cnpj": "11023891000703",
           "filial": "QUISSAMA",
@@ -7986,7 +7986,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "89197.0",
+          "codigo_cliente": "89197",
           "cliente": "PÃO COM LETRAS PANIFICADORA LTDA",
           "cnpj": "5951912000162",
           "filial": "PAISSANDU",
@@ -8000,7 +8000,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "89197.0",
+          "codigo_cliente": "89197",
           "cliente": "PÃO COM LETRAS PANIFICADORA LTDA",
           "cnpj": "5951912000162",
           "filial": "PAISSANDU",
@@ -8014,7 +8014,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91155.0",
+          "codigo_cliente": "91155",
           "cliente": "MERCADO BELOT LTDA",
           "cnpj": "9357685000798",
           "filial": "MANGARATIBA",
@@ -8028,7 +8028,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91197.0",
+          "codigo_cliente": "91197",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0010-58",
           "filial": "BELFORD ROXO",
@@ -8042,7 +8042,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90406.0",
+          "codigo_cliente": "90406",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0012-10",
           "filial": "LARGO DA BATALHA",
@@ -8056,7 +8056,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90410.0",
+          "codigo_cliente": "90410",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0017-24",
           "filial": "ENG DO MATO - NITERÓI",
@@ -8070,7 +8070,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3557.0",
+          "codigo_cliente": "3557",
           "cliente": "MERCADO FAMILLE LTDA",
           "cnpj": "15032012000175",
           "filial": "COMENDADOR SOARES",
@@ -8084,7 +8084,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "78665.0",
+          "codigo_cliente": "78665",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0022-91",
           "filial": "NOVA AMERICA -DEL CASTILHO",
@@ -8098,7 +8098,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "VAI PRESTAR CONTA AMANHÃ, NF FICOU PRESA NO MERCADO (PRODUTO AVARIADO)"
         },
         {
-          "codigo_cliente": "9603.0",
+          "codigo_cliente": "9603",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "8628825000400",
           "filial": "NITERÓI",
@@ -8112,7 +8112,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "9604.0",
+          "codigo_cliente": "9604",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0003-29",
           "filial": "PIRATININGA",
@@ -8126,7 +8126,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "28411.0",
+          "codigo_cliente": "28411",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "8628825001562",
           "filial": "SÃO GONÇALO",
@@ -8140,7 +8140,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90411.0",
+          "codigo_cliente": "90411",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "8628825001805",
           "filial": "MESQUITA",
@@ -8154,7 +8154,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "58707.0",
+          "codigo_cliente": "58707",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "8628825002020",
           "filial": "PAVUNA",
@@ -8168,7 +8168,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "55383.0",
+          "codigo_cliente": "55383",
           "cliente": "MERCADO 24 HORAS DA ROCINHA LTDA",
           "cnpj": "23672895000106",
           "filial": "ROCINHA",
@@ -8182,7 +8182,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "78072.0",
+          "codigo_cliente": "78072",
           "cliente": "MERCADO RIO SUL DE SANTA CRUZ DA SERRA LTDA",
           "cnpj": "47854763000163",
           "filial": "VILA SANTA CRUZ",
@@ -8196,7 +8196,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "45321.0",
+          "codigo_cliente": "45321",
           "cliente": "MERCADO BELOT LTDA",
           "cnpj": "9357685000445",
           "filial": "MIGUEL PEREIRA",
@@ -8210,7 +8210,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "7197.0",
+          "codigo_cliente": "7197",
           "cliente": "MERCADO BELOT LTDA",
           "cnpj": "9357685000100",
           "filial": "QUEIMADOS",
@@ -8224,7 +8224,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "45320.0",
+          "codigo_cliente": "45320",
           "cliente": "MERCADO BELOT LTDA",
           "cnpj": "9357685000607",
           "filial": "CENTRO/GOV PORTELA",
@@ -8238,7 +8238,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "45319.0",
+          "codigo_cliente": "45319",
           "cliente": "MERCADO BELOT LTDA",
           "cnpj": "9357685000283",
           "filial": "EL RANCHITO",
@@ -8252,7 +8252,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84025.0",
+          "codigo_cliente": "84025",
           "cliente": "ROYAL COM DISTRIBUIDORA LTDA",
           "cnpj": "08.842.314/0003-05",
           "filial": "ATERRADO",
@@ -8266,7 +8266,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84025.0",
+          "codigo_cliente": "84025",
           "cliente": "ROYAL COM DISTRIBUIDORA LTDA",
           "cnpj": "08.842.314/0003-05",
           "filial": "ATERRADO",
@@ -8280,7 +8280,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84033.0",
+          "codigo_cliente": "84033",
           "cliente": "EMISE SUPERMERCADO LTDA",
           "cnpj": "17659742000126",
           "filial": "BAIRRO DA VIGA",
@@ -8294,7 +8294,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3285.0",
+          "codigo_cliente": "3285",
           "cliente": "CESTA DE ALIMENTOS BRASIL LTDA",
           "cnpj": "11023891000207",
           "filial": "FIGUEIRA",
@@ -8308,7 +8308,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "56256.0",
+          "codigo_cliente": "56256",
           "cliente": "REZENDE ALIMENTOS CDD LTDA",
           "cnpj": "28732157000120",
           "filial": "CIDADE DE DEUS",
@@ -8322,7 +8322,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "89956.0",
+          "codigo_cliente": "89956",
           "cliente": "MERCADO RIO SUL DE HELIOPOLIS LTDA",
           "cnpj": "43.591.285/0001-95",
           "filial": "HELIOPOLIS",
@@ -8336,7 +8336,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3127.0",
+          "codigo_cliente": "3127",
           "cliente": "SUPER MERCADO REAL DE EDEN LTDA",
           "cnpj": "28800001000130",
           "filial": "VILA DA PENHA",
@@ -8350,7 +8350,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "81446.0",
+          "codigo_cliente": "81446",
           "cliente": "REZENDE ALIMENTOS JPA LTDA",
           "cnpj": "50250937000274",
           "filial": "JACAREPAGUA",
@@ -8364,7 +8364,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "56258.0",
+          "codigo_cliente": "56258",
           "cliente": "REZENDE ALIMENTOS NOVA HOLANDA LTDA",
           "cnpj": "32254332000199",
           "filial": "MARE",
@@ -8378,7 +8378,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "81447.0",
+          "codigo_cliente": "81447",
           "cliente": "REZENDE ALIMENTOS JPA LTDA",
           "cnpj": "50250937000193",
           "filial": "CURICICA",
@@ -8392,7 +8392,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "56257.0",
+          "codigo_cliente": "56257",
           "cliente": "MULTI ALIMENTOS MENDANHA LTDA",
           "cnpj": "30807561000168",
           "filial": "CAMPO GRANDE",
@@ -8406,7 +8406,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "56255.0",
+          "codigo_cliente": "56255",
           "cliente": "COMERCIAL 2 REZENDE ALIMENTOS LTDA",
           "cnpj": "17479543000136",
           "filial": "MADUREIRA",
@@ -8420,7 +8420,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "86195.0",
+          "codigo_cliente": "86195",
           "cliente": "MERCADO RC DE MIGUEL PEREIRA",
           "cnpj": "52909395000143",
           "filial": "PORTAL DAS MANSOES",
@@ -8434,7 +8434,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6941.0",
+          "codigo_cliente": "6941",
           "cliente": "PRINCESA AUTO SERVIÇOS DE COMESTIVEIS LTDA",
           "cnpj": "27833615000155",
           "filial": "PENHA CIRCULAR",
@@ -8448,7 +8448,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "7173.0",
+          "codigo_cliente": "7173",
           "cliente": "RAMIGOS SUPERMERCADOS",
           "cnpj": "11552261000483",
           "filial": "BANGU",
@@ -8462,7 +8462,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "7191.0",
+          "codigo_cliente": "7191",
           "cliente": "NAOMI COMERCIO DE ALIMENTOS LTDA",
           "cnpj": "39553144000100",
           "filial": "VOLTA REDONDA",
@@ -8476,7 +8476,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84034.0",
+          "codigo_cliente": "84034",
           "cliente": "EMISE SUPERMERCADO LTDA",
           "cnpj": "17.659.742/0002-07",
           "filial": "JD BOA VISTA",
@@ -8490,7 +8490,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84030.0",
+          "codigo_cliente": "84030",
           "cliente": "KETEK COMERCIAL LTDA",
           "cnpj": "11404442000110",
           "filial": "JARDIM ANALIA",
@@ -8504,7 +8504,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "7191.0",
+          "codigo_cliente": "7191",
           "cliente": "NAOMI COMERCIO DE ALIMENTOS LTDA",
           "cnpj": "39553144000100",
           "filial": "VOLTA REDONDA",
@@ -8518,7 +8518,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84034.0",
+          "codigo_cliente": "84034",
           "cliente": "EMISE SUPERMERCADO LTDA",
           "cnpj": "17.659.742/0002-07",
           "filial": "JD BOA VISTA",
@@ -8532,7 +8532,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84031.0",
+          "codigo_cliente": "84031",
           "cliente": "ROYAL CENTER COMERCIAL LTDA",
           "cnpj": "00.784.394/0001-16",
           "filial": "VILA JULIETA",
@@ -8546,7 +8546,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84030.0",
+          "codigo_cliente": "84030",
           "cliente": "KETEK COMERCIAL LTDA",
           "cnpj": "11404442000110",
           "filial": "JARDIM ANALIA",
@@ -8560,7 +8560,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "8875.0",
+          "codigo_cliente": "8875",
           "cliente": "MULTI ANGRA MERCADO LTDA",
           "cnpj": "7056052000471",
           "filial": "ANGRA DOS REIS",
@@ -8574,7 +8574,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "8877.0",
+          "codigo_cliente": "8877",
           "cliente": "MULTI PEREQUE MERCADO LTDA",
           "cnpj": "16867736000100",
           "filial": "PARQUE MAMBUCADA",
@@ -8588,7 +8588,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79323.0",
+          "codigo_cliente": "79323",
           "cliente": "MULTI ANGRA 3 MERCADO LTDA",
           "cnpj": "37070173000609",
           "filial": "NOVA ANGRA (CUNHAMBEBE)",
@@ -8602,7 +8602,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "78925.0",
+          "codigo_cliente": "78925",
           "cliente": "KAL ATACADO 2 LTDA",
           "cnpj": "38354781000276",
           "filial": "PARQUE PEREQUÊ (MAMBUCABA)",
@@ -8616,7 +8616,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91499.0",
+          "codigo_cliente": "91499",
           "cliente": "CESTA DE ALIMENTOS BRASIL LTDA",
           "cnpj": "11023891000894",
           "filial": "NOSSA SENHORA DO CARMO",
@@ -8630,7 +8630,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91500.0",
+          "codigo_cliente": "91500",
           "cliente": "CESTA DE ALIMENTOS BRASIL LTDA",
           "cnpj": "11023891000622",
           "filial": "BELFORD ROXO",
@@ -8644,7 +8644,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3288.0",
+          "codigo_cliente": "3288",
           "cliente": "CESTA DE ALIMENTOS BRASIL LTDA",
           "cnpj": "11023891000460",
           "filial": "PANTANAL",
@@ -8658,7 +8658,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3287.0",
+          "codigo_cliente": "3287",
           "cliente": "CESTA DE ALIMENTOS BRASIL LTDA",
           "cnpj": "11023891000380",
           "filial": "MAGE",
@@ -8672,7 +8672,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "89197.0",
+          "codigo_cliente": "89197",
           "cliente": "PÃO COM LETRAS PANIFICADORA LTDA",
           "cnpj": "5951912000162",
           "filial": "PAISSANDU",
@@ -8686,7 +8686,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91633.0",
+          "codigo_cliente": "91633",
           "cliente": "",
           "cnpj": "",
           "filial": "",
@@ -8700,7 +8700,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91576.0",
+          "codigo_cliente": "91576",
           "cliente": "SUPERMERCADO JAPERI LTDA",
           "cnpj": "51.416.045/0001-82",
           "filial": "NOVA BELEM",
@@ -8714,7 +8714,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84303.0",
+          "codigo_cliente": "84303",
           "cliente": "MERCADO RIO SUL PARQUE LAFAIETE LTDA",
           "cnpj": "39.977.333/0001-00",
           "filial": "PARQUE LAFAIETE",
@@ -8728,7 +8728,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91577.0",
+          "codigo_cliente": "91577",
           "cliente": "MERCADO RIO SUL JARDIM LEAL LTDA",
           "cnpj": "32.652.861/0001-40",
           "filial": "OLAVO BILAC",
@@ -8742,7 +8742,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91575.0",
+          "codigo_cliente": "91575",
           "cliente": "SUPERMERCADO VITORIA DA VILA LTDA",
           "cnpj": "26.175.533/0001-06",
           "filial": "VILA SAO LUIS",
@@ -8756,7 +8756,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "75124.0",
+          "codigo_cliente": "75124",
           "cliente": "MERCADO RIO SUL DE FRAGOSO LTDA",
           "cnpj": "31.320.628/0001-06",
           "filial": "VILA SERRANA (VILA INHOMIRIM)",
@@ -8770,7 +8770,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "56716.0",
+          "codigo_cliente": "56716",
           "cliente": "REUNIDOS COMERCIO DE ALIMENTOS LTDA",
           "cnpj": "32352751000325",
           "filial": "VENDA DAS PEDRAS",
@@ -8784,7 +8784,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "83387.0",
+          "codigo_cliente": "83387",
           "cliente": "CGX COMERCIO DE ALIMENTOS LTDA",
           "cnpj": "15.580.294/0001-45",
           "filial": "GUADALUPE",
@@ -8798,7 +8798,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91230.0",
+          "codigo_cliente": "91230",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29080946000278",
           "filial": "CAMPO GRANDE",
@@ -8812,7 +8812,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "89197.0",
+          "codigo_cliente": "89197",
           "cliente": "PÃO COM LETRAS PANIFICADORA LTDA",
           "cnpj": "5951912000162",
           "filial": "PAISSANDU",
@@ -8826,7 +8826,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3127.0",
+          "codigo_cliente": "3127",
           "cliente": "SUPERMERCADO REAL DE EDEN",
           "cnpj": "28800001000130",
           "filial": "BARROS FILHO",
@@ -8840,7 +8840,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "56255.0",
+          "codigo_cliente": "56255",
           "cliente": "COMERCIAL 2 REZENDE ALIMENTOS LTDA",
           "cnpj": "17479543000136",
           "filial": "MADUREIRA",
@@ -8854,7 +8854,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "56257.0",
+          "codigo_cliente": "56257",
           "cliente": "MULTI ALIMENTOS MENDANHA LTDA",
           "cnpj": "30807561000168",
           "filial": "CAMPO GRANDE",
@@ -8868,7 +8868,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "81447.0",
+          "codigo_cliente": "81447",
           "cliente": "REZENDE ALIMENTOS JPA LTDA",
           "cnpj": "50250937000193",
           "filial": "CURICICA",
@@ -8882,7 +8882,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "56256.0",
+          "codigo_cliente": "56256",
           "cliente": "REZENDE ALIMENTOS JPA LTDA",
           "cnpj": "28732157000120",
           "filial": "CIDADE DE DEUS",
@@ -8896,7 +8896,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "56258.0",
+          "codigo_cliente": "56258",
           "cliente": "REZENDE ALIMENTOS JPA LTDA",
           "cnpj": "32254332000199",
           "filial": "MARE",
@@ -8910,7 +8910,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "81446.0",
+          "codigo_cliente": "81446",
           "cliente": "REZENDE ALIMENTOS JPA LTDA",
           "cnpj": "50250937000274",
           "filial": "JACAREPAGUA",
@@ -8924,7 +8924,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "55383.0",
+          "codigo_cliente": "55383",
           "cliente": "MERCADO 24 HORAS DA ROCINHA LTDA",
           "cnpj": "23672895000106",
           "filial": "ROCINHA",
@@ -8938,7 +8938,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84011.0",
+          "codigo_cliente": "84011",
           "cliente": "NAOMI COM DE ALIMENTOS LTDA",
           "cnpj": "39553144000372",
           "filial": "CAMPOS ELISEOS",
@@ -8952,7 +8952,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84029.0",
+          "codigo_cliente": "84029",
           "cliente": "EMISE SUPERMERCADO LTDA",
           "cnpj": "17.659.742/0005-50",
           "filial": "VILA SANTA CECILIA",
@@ -8966,7 +8966,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84031.0",
+          "codigo_cliente": "84031",
           "cliente": "ROYAL CENTER COMERCIAL LTDA",
           "cnpj": "00.784.394/0001-16",
           "filial": "VILA JULIETA",
@@ -8980,7 +8980,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84014.0",
+          "codigo_cliente": "84014",
           "cliente": "NAOMI COM DE ALIMENTOS LTDA",
           "cnpj": "39553144000887",
           "filial": "BAIRRO SESSENTA",
@@ -8994,7 +8994,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84011.0",
+          "codigo_cliente": "84011",
           "cliente": "NAOMI COM DE ALIMENTOS LTDA",
           "cnpj": "39553144000372",
           "filial": "CAMPOS ELISEOS",
@@ -9008,7 +9008,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84017.0",
+          "codigo_cliente": "84017",
           "cliente": "ROYAL COM DISTRIBUIDORA LTDA",
           "cnpj": "8842314000143",
           "filial": "SÃO LUCAS",
@@ -9022,7 +9022,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "81298.0",
+          "codigo_cliente": "81298",
           "cliente": "ROYAL COM DISTRIBUIDORA LTDA",
           "cnpj": "8842314000224",
           "filial": "CENTRO",
@@ -9036,7 +9036,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84014.0",
+          "codigo_cliente": "84014",
           "cliente": "NAOMI COM DE ALIMENTOS LTDA",
           "cnpj": "39553144000887",
           "filial": "SESSENTA",
@@ -9050,7 +9050,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "58584.0",
+          "codigo_cliente": "58584",
           "cliente": "SUPERMERCADO ALVORADA EIRELI",
           "cnpj": "17833301000107",
           "filial": "PARQUE BURLE",
@@ -9064,7 +9064,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "não foi"
         },
         {
-          "codigo_cliente": "90484.0",
+          "codigo_cliente": "90484",
           "cliente": "MERCADO RC DE ITAGUAI LTDA",
           "cnpj": "58113396000163",
           "filial": "VILA MARGARIDA",
@@ -9078,7 +9078,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "18798.0",
+          "codigo_cliente": "18798",
           "cliente": "EMPORIO DO CADEG LTDA",
           "cnpj": "33119105000113",
           "filial": "BENFICA",
@@ -9092,7 +9092,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "31193.0",
+          "codigo_cliente": "31193",
           "cliente": "FLORESTA COMERCIO E INDUSTRIA S/A - EM RECUPERACAO JUDICIAL",
           "cnpj": "32500977000164",
           "filial": "TRES POCOS",
@@ -9106,7 +9106,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "78916.0",
+          "codigo_cliente": "78916",
           "cliente": "JM LISAMAR SUPERMERCADO LTDA",
           "cnpj": "17386414000101",
           "filial": "CONCEICAO DE JACAREI",
@@ -9120,7 +9120,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84029.0",
+          "codigo_cliente": "84029",
           "cliente": "EMISE SUPERMERCADO LTDA",
           "cnpj": "17.659.742/0005-50",
           "filial": "VILA SANTA CECILIA",
@@ -9134,7 +9134,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91230.0",
+          "codigo_cliente": "91230",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29080946000278",
           "filial": "CAMPO GRANDE",
@@ -9148,7 +9148,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "8878.0",
+          "codigo_cliente": "8878",
           "cliente": "MULTI ANGRA MERCADO LTDA",
           "cnpj": "7056052000129",
           "filial": "ANGRA DOS REIS",
@@ -9162,7 +9162,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "8876.0",
+          "codigo_cliente": "8876",
           "cliente": "MULTI PARATY MERCADO LTDA",
           "cnpj": "7126663000104",
           "filial": "RIO DE JANEIRO",
@@ -9176,7 +9176,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79318.0",
+          "codigo_cliente": "79318",
           "cliente": "MULTI PARATY MERCADO LTDA",
           "cnpj": "7126663000287",
           "filial": "PATITIBA",
@@ -9190,7 +9190,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79319.0",
+          "codigo_cliente": "79319",
           "cliente": "MULTI ANGRA 3 MERCADO LTDA",
           "cnpj": "37070173000196",
           "filial": "CENTRO",
@@ -9204,7 +9204,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79320.0",
+          "codigo_cliente": "79320",
           "cliente": "MULTI ANGRA 3 MERCADO LTDA",
           "cnpj": "37070173000277",
           "filial": "PARQUE DAS PALMEIRAS",
@@ -9218,7 +9218,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79321.0",
+          "codigo_cliente": "79321",
           "cliente": "MULTI ANGRA 3 MERCADO LTDA",
           "cnpj": "37070173000510",
           "filial": "CAMPO BELO (CUNHAMBEBE)",
@@ -9232,7 +9232,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "7173.0",
+          "codigo_cliente": "7173",
           "cliente": "RAMIGOS SUPERMERCADOS",
           "cnpj": "11552261000483",
           "filial": "BANGU",
@@ -9246,7 +9246,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "89197.0",
+          "codigo_cliente": "89197",
           "cliente": "PÃO COM LETRAS PANIFICADORA LTDA",
           "cnpj": "5951912000162",
           "filial": "PAISSANDU",
@@ -9260,7 +9260,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91051.0",
+          "codigo_cliente": "91051",
           "cliente": "CPN ALIMENTOS LTDA",
           "cnpj": "33227596000388",
           "filial": "COELHO NETO",
@@ -9274,7 +9274,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "4321.0",
+          "codigo_cliente": "4321",
           "cliente": "SUPERPIX LOJAS DE ALIMENTOS LTDA",
           "cnpj": "02.618.563/0001-73",
           "filial": "PARQUE DUQUE",
@@ -9288,7 +9288,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "80353.0",
+          "codigo_cliente": "80353",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000584",
           "filial": "FONSECA",
@@ -9302,7 +9302,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84612.0",
+          "codigo_cliente": "84612",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000827",
           "filial": "INOA (INOA)",
@@ -9316,7 +9316,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "28385.0",
+          "codigo_cliente": "28385",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
           "cnpj": "18322565000231",
           "filial": "SAO GONCALO",
@@ -9330,7 +9330,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "80354.0",
+          "codigo_cliente": "80354",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000401",
           "filial": "PONTA GROSSA",
@@ -9344,7 +9344,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "61684.0",
+          "codigo_cliente": "61684",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000312",
           "filial": "BARROCO (ITAIPUAÇU)",
@@ -9358,7 +9358,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "28386.0",
+          "codigo_cliente": "28386",
           "cliente": "MIXCERTO COMERCIO E DISTRIBUIDORA DE ALIMENTOS EIRELI-ME",
           "cnpj": "36095420000146",
           "filial": "SAO JOSE DO IMBASSAI",
@@ -9372,7 +9372,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91098.0",
+          "codigo_cliente": "91098",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000746",
           "filial": "SAO JOSE DO IMBASSAI",
@@ -9386,7 +9386,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91352.0",
+          "codigo_cliente": "91352",
           "cliente": "CRUZEIRO DO SUL",
           "cnpj": "16575340000261",
           "filial": "JARDIM VINTE E CINCO DE AGOSTO",
@@ -9400,7 +9400,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6941.0",
+          "codigo_cliente": "6941",
           "cliente": "PRINCESA AUTO SERVIÇOS DE COMESTIVEIS LTDA",
           "cnpj": "27833615000155",
           "filial": "PENHA CIRCULAR",
@@ -9414,7 +9414,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84032.0",
+          "codigo_cliente": "84032",
           "cliente": "KETEK COMERCIAL LTDA",
           "cnpj": "11.404.442/0002-09",
           "filial": "VILA ISABEL",
@@ -9428,7 +9428,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84033.0",
+          "codigo_cliente": "84033",
           "cliente": "EMISE SUPERMERCADO LTDA",
           "cnpj": "17659742000126",
           "filial": "BAIRRO DA VIGA",
@@ -9442,7 +9442,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84032.0",
+          "codigo_cliente": "84032",
           "cliente": "KETEK COMERCIAL LTDA",
           "cnpj": "11.404.442/0002-09",
           "filial": "VILA ISABEL",
@@ -9456,7 +9456,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "80353.0",
+          "codigo_cliente": "80353",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000584",
           "filial": "FONSECA",
@@ -9470,7 +9470,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84612.0",
+          "codigo_cliente": "84612",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000827",
           "filial": "INOA (INOA)",
@@ -9484,7 +9484,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "28385.0",
+          "codigo_cliente": "28385",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
           "cnpj": "18322565000231",
           "filial": "SAO GONCALO",
@@ -9498,7 +9498,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "80354.0",
+          "codigo_cliente": "80354",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000401",
           "filial": "PONTA GROSSA",
@@ -9512,7 +9512,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "61684.0",
+          "codigo_cliente": "61684",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000312",
           "filial": "BARROCO (ITAIPUAÇU)",
@@ -9526,7 +9526,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "28386.0",
+          "codigo_cliente": "28386",
           "cliente": "MIXCERTO COMERCIO E DISTRIBUIDORA DE ALIMENTOS EIRELI-ME",
           "cnpj": "36095420000146",
           "filial": "SAO JOSE DO IMBASSAI",
@@ -9540,7 +9540,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "80355.0",
+          "codigo_cliente": "80355",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000665",
           "filial": "TRIBOBO",
@@ -9554,7 +9554,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91098.0",
+          "codigo_cliente": "91098",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000746",
           "filial": "SAO JOSE DO IMBASSAI",
@@ -9568,7 +9568,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "16159.0",
+          "codigo_cliente": "16159",
           "cliente": "PORTAL RIO SUL",
           "cnpj": "33060720000100",
           "filial": "PENHA CIRCULAR",
@@ -9582,7 +9582,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "60349.0",
+          "codigo_cliente": "60349",
           "cliente": "CEREAIS IRENE",
           "cnpj": "32125006000424",
           "filial": "PARQUE PAULISTA",
@@ -9596,7 +9596,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6671.0",
+          "codigo_cliente": "6671",
           "cliente": "JRD MERCEARIA E HORTIFRUTI LTDA",
           "cnpj": "23549577000152",
           "filial": "JORDIM GUANABARA",
@@ -9610,7 +9610,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "60524.0",
+          "codigo_cliente": "60524",
           "cliente": "EMANUEL COMERCIO DE GENEROS",
           "cnpj": "10748214000366",
           "filial": "GUARATIBA",
@@ -9624,7 +9624,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "2961.0",
+          "codigo_cliente": "2961",
           "cliente": "MERCADO MULTI PENHA RIO LTDA ME",
           "cnpj": "33466202000182",
           "filial": "PENHA",
@@ -9638,7 +9638,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84161.0",
+          "codigo_cliente": "84161",
           "cliente": "PQA ALIMENTOS PRAÇA SECA LTDA",
           "cnpj": "43115098000135",
           "filial": "PRAÇA SECA",
@@ -9652,7 +9652,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84160.0",
+          "codigo_cliente": "84160",
           "cliente": "PQA ALIMENTOS PRAÇA SECA LTDA",
           "cnpj": "51513112000187",
           "filial": "ENGENHO DE DENTRO",
@@ -9666,7 +9666,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84162.0",
+          "codigo_cliente": "84162",
           "cliente": "PQA ALIMENTOS PRAÇA SECA LTDA",
           "cnpj": "52285737000100",
           "filial": "PARQUE ARARUAMA",
@@ -9680,7 +9680,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91051.0",
+          "codigo_cliente": "91051",
           "cliente": "CPN ALIMENTOS LTDA",
           "cnpj": "33227596000388",
           "filial": "COELHO NETO",
@@ -9694,7 +9694,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3863.0",
+          "codigo_cliente": "3863",
           "cliente": "REDE ECONOMIA TAQUARA",
           "cnpj": "935769000100",
           "filial": "TAQUARA",
@@ -9708,7 +9708,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91230.0",
+          "codigo_cliente": "91230",
           "cliente": "SUPERMERCADOS ADONAI",
           "cnpj": "29080946000278",
           "filial": "CAMPO GRANDE",
@@ -9722,7 +9722,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "85897.0",
+          "codigo_cliente": "85897",
           "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
           "cnpj": "57489708000175",
           "filial": "JARDIM ATLANTICO",
@@ -9736,7 +9736,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "86429.0",
+          "codigo_cliente": "86429",
           "cliente": "RIO SUL RIO COMPRIDO",
           "cnpj": "52.722.054/0001-64",
           "filial": "RIO COMPRIDO",
@@ -9750,7 +9750,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "85897.0",
+          "codigo_cliente": "85897",
           "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
           "cnpj": "57489708000175",
           "filial": "JARDIM ATLANTICO",
@@ -9764,7 +9764,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "75124.0",
+          "codigo_cliente": "75124",
           "cliente": "MERCADO RIO SUL DE FRAGOSO LTDA",
           "cnpj": "31320628000106",
           "filial": "VILA SERRANA (VILA INHOMIRIM)",
@@ -9778,7 +9778,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91149.0",
+          "codigo_cliente": "91149",
           "cliente": "MERCADO RIO SUL PARADA MODELO LTDA",
           "cnpj": "29882585000100",
           "filial": "PARADA MODELO",
@@ -9792,7 +9792,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "83946.0",
+          "codigo_cliente": "83946",
           "cliente": "MERCADO RIO SUL PARADA ANGELICA LTDA",
           "cnpj": "33475000000105",
           "filial": "PARADA ANGELICA",
@@ -9806,7 +9806,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "85962.0",
+          "codigo_cliente": "85962",
           "cliente": "SUPERMERCADO RIO SUL DE VARZEA LTDA",
           "cnpj": "35338889000104",
           "filial": "VARZEA",
@@ -9820,7 +9820,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "83627.0",
+          "codigo_cliente": "83627",
           "cliente": "MERCADO SANTO ALEIXO",
           "cnpj": "48.878.208/0001-34",
           "filial": "SANTO ALEIXO",
@@ -9834,7 +9834,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "85945.0",
+          "codigo_cliente": "85945",
           "cliente": "RIO SUL CENTENARIO",
           "cnpj": "33749495000105",
           "filial": "VILA MERITI",
@@ -9848,7 +9848,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "86429.0",
+          "codigo_cliente": "86429",
           "cliente": "RIO SUL RIO COMPRIDO",
           "cnpj": "52.722.054/0001-64",
           "filial": "RIO COMPRIDO",
@@ -9862,7 +9862,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84202.0",
+          "codigo_cliente": "84202",
           "cliente": "RIO SUL PANTANAL",
           "cnpj": "28048381000106",
           "filial": "VILA SANTO ANTÔNIO",
@@ -9876,7 +9876,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "45319.0",
+          "codigo_cliente": "45319",
           "cliente": "MERCADO BELOT",
           "cnpj": "9357685000283",
           "filial": "EL RANCHITO",
@@ -9890,7 +9890,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91051.0",
+          "codigo_cliente": "91051",
           "cliente": "CPN ALIMENTOS LTDA",
           "cnpj": "33.227.596/0003-88",
           "filial": "COELHO NETO",
@@ -9904,7 +9904,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "81446.0",
+          "codigo_cliente": "81446",
           "cliente": "REZENDE ALIMENTOS JPA LTDA",
           "cnpj": "50.250.937/0002-74",
           "filial": "JACAREPAGUA",
@@ -9923,7 +9923,7 @@ const AGENDAMENTO_DATA = {
       "nome": "DIRLEI ARAUJO - OFF TRADE",
       "itens": [
         {
-          "codigo_cliente": "78916.0",
+          "codigo_cliente": "78916",
           "cliente": "JM LISAMAR SUPERMERCADO LTDA",
           "cnpj": "17386414000101",
           "filial": "CONCEICAO DE JACAREI",
@@ -9937,7 +9937,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "69202.0",
+          "codigo_cliente": "69202",
           "cliente": "MERCADO TATAIS JULIETA LTDA",
           "cnpj": "37.893.563/0001-66",
           "filial": "ANGRA DOS REIS",
@@ -9951,7 +9951,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "8875.0",
+          "codigo_cliente": "8875",
           "cliente": "MULTI ANGRA MERCADO LTDA",
           "cnpj": "7056052000471",
           "filial": "ANGRA DOS REIS",
@@ -9965,7 +9965,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "8876.0",
+          "codigo_cliente": "8876",
           "cliente": "MULTI PARATY MERCADO LTDA",
           "cnpj": "07126663000287",
           "filial": "PATITIBA",
@@ -9979,7 +9979,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "8876.0",
+          "codigo_cliente": "8876",
           "cliente": "MULTI PARATY MERCADO LTDA",
           "cnpj": "07126663000104",
           "filial": "PARATY",
@@ -9993,7 +9993,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "8877.0",
+          "codigo_cliente": "8877",
           "cliente": "MULTI PEREQUE MERCADO LTDA",
           "cnpj": "16867736000100",
           "filial": "PARQUE MAMBUCADA",
@@ -10021,7 +10021,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79319.0",
+          "codigo_cliente": "79319",
           "cliente": "MULTI ANGRA 3 MERCADO LTDA",
           "cnpj": "37070173000196",
           "filial": "CENTRO",
@@ -10035,7 +10035,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79321.0",
+          "codigo_cliente": "79321",
           "cliente": "MULTI ANGRA 3 MERCADO LTDA",
           "cnpj": "37070173000510",
           "filial": "CAMPO BELO (CUNHAMBEBE)",
@@ -10049,7 +10049,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79320.0",
+          "codigo_cliente": "79320",
           "cliente": "MULTI ANGRA 3 MERCADO LTDA",
           "cnpj": "37070173000277",
           "filial": "PARQUE DAS PALMEIRAS",
@@ -10063,7 +10063,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79323.0",
+          "codigo_cliente": "79323",
           "cliente": "MULTI ANGRA 3 MERCADO LTDA",
           "cnpj": "37070173000609",
           "filial": "NOVA ANGRA (CUNHAMBEBE)",
@@ -10077,7 +10077,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "78916.0",
+          "codigo_cliente": "78916",
           "cliente": "JM LISAMAR SUPERMERCADO LTDA",
           "cnpj": "17.386.414/0001-01",
           "filial": "MANGARATIBA",
@@ -10091,7 +10091,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6003.0",
+          "codigo_cliente": "6003",
           "cliente": "FRADE SPOT PARTICIPACOES S/A",
           "cnpj": "18312180000102",
           "filial": "FRADE CUNHAMBEBE",
@@ -10105,7 +10105,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "69216.0",
+          "codigo_cliente": "69216",
           "cliente": "RIO VALE DISTRIBUIDORA",
           "cnpj": "8740247000318",
           "filial": "VILA DOM PEDRO",
@@ -10119,7 +10119,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "78916.0",
+          "codigo_cliente": "78916",
           "cliente": "JM LISAMAR SUPERMERCADO LTDA",
           "cnpj": "17386414000101",
           "filial": "CONCEICAO DE JACAREI",
@@ -10133,7 +10133,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "69216.0",
+          "codigo_cliente": "69216",
           "cliente": "RIO VALE DISTRIBUIDORA",
           "cnpj": "8740247000318",
           "filial": "VILA DOM PEDRO",
@@ -10147,7 +10147,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "13729.0",
+          "codigo_cliente": "13729",
           "cliente": "PREÇO OTIMO SUPERMERCADO LTDA",
           "cnpj": "814712000144",
           "filial": "ANGRA DOS REIS",
@@ -10161,7 +10161,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "13729.0",
+          "codigo_cliente": "13729",
           "cliente": "PREÇO OTIMO SUPERMERCADO LTDA",
           "cnpj": "814712000144",
           "filial": "ANGRA DOS REIS",
@@ -10175,7 +10175,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6003.0",
+          "codigo_cliente": "6003",
           "cliente": "FRADE SPOT PARTICIPACOES S/A",
           "cnpj": "18312180000102",
           "filial": "FRADE CUNHAMBEBE",
@@ -10189,7 +10189,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "69216.0",
+          "codigo_cliente": "69216",
           "cliente": "RIO VALE DISTRIBUIDORA",
           "cnpj": "8740247000318",
           "filial": "VILA DOM PEDRO",
@@ -10203,7 +10203,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "78916.0",
+          "codigo_cliente": "78916",
           "cliente": "JM LISAMAR SUPERMERCADO LTDA",
           "cnpj": "17386414000101",
           "filial": "CONCEICAO DE JACAREI",
@@ -10217,7 +10217,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "13729.0",
+          "codigo_cliente": "13729",
           "cliente": "PREÇO OTIMO SUPERMERCADO LTDA",
           "cnpj": "814712000144",
           "filial": "ANGRA DOS REIS",
@@ -10231,7 +10231,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "13729.0",
+          "codigo_cliente": "13729",
           "cliente": "PREÇO OTIMO SUPERMERCADO LTDA",
           "cnpj": "814712000144",
           "filial": "ANGRA DOS REIS",
@@ -10250,7 +10250,7 @@ const AGENDAMENTO_DATA = {
       "nome": "DIRLEI VIEIRA - OFF TRADE",
       "itens": [
         {
-          "codigo_cliente": "79322.0",
+          "codigo_cliente": "79322",
           "cliente": "MULTI ITAGUAI MERCADO LTDA",
           "cnpj": "45909881000104",
           "filial": "VILA MARGARIDA",
@@ -10269,7 +10269,7 @@ const AGENDAMENTO_DATA = {
       "nome": "JORGE  - OFF TRADE",
       "itens": [
         {
-          "codigo_cliente": "84162.0",
+          "codigo_cliente": "84162",
           "cliente": "PQA ALIMENTOS PRAÇA SECA LTDA",
           "cnpj": "52285737000100",
           "filial": "PARQUE ARARUAMA",
@@ -10283,7 +10283,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84161.0",
+          "codigo_cliente": "84161",
           "cliente": "PQA ALIMENTOS PRAÇA SECA LTDA",
           "cnpj": "43115098000135",
           "filial": "PRAÇA SECA",
@@ -10297,7 +10297,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84160.0",
+          "codigo_cliente": "84160",
           "cliente": "PQA ALIMENTOS PRAÇA SECA LTDA",
           "cnpj": "51513112000187",
           "filial": "ENGENHO DE DENTRO",
@@ -10316,7 +10316,7 @@ const AGENDAMENTO_DATA = {
       "nome": "JORGE MACIEL - OFF TRADE",
       "itens": [
         {
-          "codigo_cliente": "86431.0",
+          "codigo_cliente": "86431",
           "cliente": "MERCADO SUPER REDE",
           "cnpj": "10612799000201",
           "filial": "JACAREPAGUA",
@@ -10330,7 +10330,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91352.0",
+          "codigo_cliente": "91352",
           "cliente": "CRUZEIRO DO SUL",
           "cnpj": "16575340000261",
           "filial": "",
@@ -10349,7 +10349,7 @@ const AGENDAMENTO_DATA = {
       "nome": "JOSE MARCELO CARDOSO - OFF TRADE",
       "itens": [
         {
-          "codigo_cliente": "86100.0",
+          "codigo_cliente": "86100",
           "cliente": "OLIVIER ARMAZÉM DE BEBIDAS",
           "cnpj": "30.916.672/0001-02",
           "filial": "BENFICA",
@@ -10363,7 +10363,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3755.0",
+          "codigo_cliente": "3755",
           "cliente": "SUPERMERCADOS BARRA OESTE",
           "cnpj": "8719835000299",
           "filial": "PENHA CIRCULAR",
@@ -10377,7 +10377,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "2909.0",
+          "codigo_cliente": "2909",
           "cliente": "FEIRA NOVA (REDE ECONOMIA)",
           "cnpj": "36.525.319/0001-88",
           "filial": "SÃO JOÃO DE MERITI",
@@ -10391,7 +10391,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "2909.0",
+          "codigo_cliente": "2909",
           "cliente": "FEIRA NOVA (REDE ECONOMIA)",
           "cnpj": "36.525.319/0001-88",
           "filial": "SÃO JOÃO DE MERITI",
@@ -10405,7 +10405,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "2909.0",
+          "codigo_cliente": "2909",
           "cliente": "FEIRA NOVA (REDE ECONOMIA)",
           "cnpj": "36.525.319/0001-88",
           "filial": "SÃO JOÃO DE MERITI",
@@ -10419,7 +10419,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "5241.0",
+          "codigo_cliente": "5241",
           "cliente": "A SILVA JUNIOR LIQUIDOS E COMESTIVEIS FINOS - EPP",
           "cnpj": "10836454000150",
           "filial": "Penha Circular",
@@ -10433,7 +10433,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "16159.0",
+          "codigo_cliente": "16159",
           "cliente": "PORTAL RIO SUL",
           "cnpj": "33.060.720/0001-00",
           "filial": "PENHA CIRCULAR",
@@ -10447,7 +10447,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "60729.0",
+          "codigo_cliente": "60729",
           "cliente": "COMAL RIO COMERCIAL",
           "cnpj": "11.917.800/0001-36",
           "filial": "PENHA",
@@ -10461,7 +10461,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "5241.0",
+          "codigo_cliente": "5241",
           "cliente": "A SILVA JUNIOR LIQUIDOS E COMESTIVEIS FINOS - EPP",
           "cnpj": "10836454000150",
           "filial": "Penha Circular",
@@ -10475,7 +10475,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "86100.0",
+          "codigo_cliente": "86100",
           "cliente": "OLIVIER ARMAZÉM DE BEBIDAS",
           "cnpj": "30.916.672/0001-02",
           "filial": "BENFICA",
@@ -10489,7 +10489,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "73082.0",
+          "codigo_cliente": "73082",
           "cliente": "PAX SUPERMERCADOS LTDA.",
           "cnpj": "03.951.550/0008-50",
           "filial": "BENTO RIBEIRO",
@@ -10503,7 +10503,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "73082.0",
+          "codigo_cliente": "73082",
           "cliente": "PAX SUPERMERCADOS LTDA.",
           "cnpj": "03.951.550/0008-50",
           "filial": "BENTO RIBEIRO",
@@ -10517,7 +10517,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3755.0",
+          "codigo_cliente": "3755",
           "cliente": "SUPERMERCADOS BARRA OESTE",
           "cnpj": "8719835000299",
           "filial": "CAMPO GRANDE",
@@ -10531,7 +10531,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3015.0",
+          "codigo_cliente": "3015",
           "cliente": "GERMANS DISTRIBUIDORA DE COMESTIVEIS LTDA",
           "cnpj": "31210180001565",
           "filial": "CORDOVIL",
@@ -10545,7 +10545,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "7755.0",
+          "codigo_cliente": "7755",
           "cliente": "IMBATIVEL SUPERMERCADOS",
           "cnpj": "28480886000137",
           "filial": "NITERÓI",
@@ -10559,7 +10559,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "73082.0",
+          "codigo_cliente": "73082",
           "cliente": "SUPER PAX",
           "cnpj": "03.951.550/0008-50",
           "filial": "BENTO RIBEIRO",
@@ -10573,7 +10573,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "18798.0",
+          "codigo_cliente": "18798",
           "cliente": "EMPÓRIO GOURMET",
           "cnpj": "33119105000113",
           "filial": "BENFICA",
@@ -10587,7 +10587,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "79259.0",
+          "codigo_cliente": "79259",
           "cliente": "MAR A VISTA",
           "cnpj": "30140610000151",
           "filial": "NITERÓI",
@@ -10601,7 +10601,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3015.0",
+          "codigo_cliente": "3015",
           "cliente": "GERMANS DISTRIBUIDORA DE COMESTIVEIS LTDA",
           "cnpj": "31.210.180/0015-65",
           "filial": "CORDOVIL",
@@ -10615,7 +10615,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "2909.0",
+          "codigo_cliente": "2909",
           "cliente": "FEIRA NOVA (REDE ECONOMIA)",
           "cnpj": "36.525.319/0001-88",
           "filial": "SÃO JOÃO DE MERITI",
@@ -10629,7 +10629,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "73082.0",
+          "codigo_cliente": "73082",
           "cliente": "SUPER PAX",
           "cnpj": "03.951.550/0008-50",
           "filial": "BENTO RIBEIRO",
@@ -10648,7 +10648,7 @@ const AGENDAMENTO_DATA = {
       "nome": "KELLY RAMOS - OFF TRADE",
       "itens": [
         {
-          "codigo_cliente": "81155.0",
+          "codigo_cliente": "81155",
           "cliente": "CASAS GUANABARA COMESTIVEIS",
           "cnpj": "33.130.543/0018-20",
           "filial": "BARRA DA TIJUCA",
@@ -10662,7 +10662,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "92447.0",
+          "codigo_cliente": "92447",
           "cliente": "CASAS GUANABARA COMESTIVEIS",
           "cnpj": "33.130.543/0056-56",
           "filial": "RECREIO DOS BANDEIRANTES",
@@ -10676,7 +10676,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6940.0",
+          "codigo_cliente": "6940",
           "cliente": "CASAS GUANABARA COMESTIVEIS",
           "cnpj": "33.130.543/0001-82",
           "filial": "PADRE MIGUEL",
@@ -10690,7 +10690,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6940.0",
+          "codigo_cliente": "6940",
           "cliente": "CASAS GUANABARA COMESTIVEIS",
           "cnpj": "33.130.543/0001-82",
           "filial": "PADRE MIGUEL",
@@ -10709,7 +10709,7 @@ const AGENDAMENTO_DATA = {
       "nome": "LEANDRO SOUZA - OFF TRADE",
       "itens": [
         {
-          "codigo_cliente": "69759.0",
+          "codigo_cliente": "69759",
           "cliente": "MORAES E CIA COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
           "cnpj": "24.305.769/0001-86",
           "filial": "ITABORAI",
@@ -10723,7 +10723,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84612.0",
+          "codigo_cliente": "84612",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000827",
           "filial": "INOA (INOA)",
@@ -10737,7 +10737,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "28385.0",
+          "codigo_cliente": "28385",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
           "cnpj": "18322565000231",
           "filial": "SAO GONCALO",
@@ -10751,7 +10751,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "94202.0",
+          "codigo_cliente": "94202",
           "cliente": "EVIVA COMERCIO DE ALIMENTOS LTDA",
           "cnpj": "57259134000149",
           "filial": "NITEROI",
@@ -10765,7 +10765,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "60083.0",
+          "codigo_cliente": "60083",
           "cliente": "TOP MIX ATACAREJO EIRELI",
           "cnpj": "34.747.967/0001-53",
           "filial": "GUARATIBA",
@@ -10779,7 +10779,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "28386.0",
+          "codigo_cliente": "28386",
           "cliente": "MIXCERTO COMERCIO E DISTRIBUIDORA DE ALIMENTOS EIRELI-ME",
           "cnpj": "36095420000146",
           "filial": "SAO JOSE DO IMBASSAI",
@@ -10793,7 +10793,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "80353.0",
+          "codigo_cliente": "80353",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000584",
           "filial": "FONSECA",
@@ -10807,7 +10807,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "61684.0",
+          "codigo_cliente": "61684",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000312",
           "filial": "BARROCO (ITAIPUAÇU)",
@@ -10821,7 +10821,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "80354.0",
+          "codigo_cliente": "80354",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000401",
           "filial": "PONTA GROSSA",
@@ -10835,7 +10835,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "80355.0",
+          "codigo_cliente": "80355",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
           "cnpj": "18322565000665",
           "filial": "TRIBOBO",
@@ -10849,7 +10849,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "80353.0",
+          "codigo_cliente": "80353",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000584",
           "filial": "FONSECA",
@@ -10863,7 +10863,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84612.0",
+          "codigo_cliente": "84612",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000827",
           "filial": "INOA (INOA)",
@@ -10877,7 +10877,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "61684.0",
+          "codigo_cliente": "61684",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000312",
           "filial": "BARROCO (ITAIPUAÇU)",
@@ -10891,7 +10891,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "80355.0",
+          "codigo_cliente": "80355",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
           "cnpj": "18322565000665",
           "filial": "TRIBOBO",
@@ -10905,7 +10905,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "69759.0",
+          "codigo_cliente": "69759",
           "cliente": "MORAES E CIA COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
           "cnpj": "24.305.769/0001-86",
           "filial": "ITABORAI",
@@ -10919,7 +10919,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "28385.0",
+          "codigo_cliente": "28385",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
           "cnpj": "18322565000231",
           "filial": "SAO GONCALO",
@@ -10933,7 +10933,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "28386.0",
+          "codigo_cliente": "28386",
           "cliente": "MIXCERTO COMERCIO E DISTRIBUIDORA DE ALIMENTOS EIRELI-ME",
           "cnpj": "36095420000146",
           "filial": "SAO JOSE DO IMBASSAI",
@@ -10947,7 +10947,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "28385.0",
+          "codigo_cliente": "28385",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
           "cnpj": "18322565000231",
           "filial": "SAO GONCALO",
@@ -10961,7 +10961,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "80354.0",
+          "codigo_cliente": "80354",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000401",
           "filial": "PONTA GROSSA",
@@ -10975,7 +10975,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "28386.0",
+          "codigo_cliente": "28386",
           "cliente": "MIXCERTO COMERCIO E DISTRIBUIDORA DE ALIMENTOS EIRELI-ME",
           "cnpj": "36095420000146",
           "filial": "SAO JOSE DO IMBASSAI",
@@ -10989,7 +10989,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "61684.0",
+          "codigo_cliente": "61684",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000312",
           "filial": "BARROCO (ITAIPUAÇU)",
@@ -11003,7 +11003,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84612.0",
+          "codigo_cliente": "84612",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000827",
           "filial": "INOA (INOA)",
@@ -11017,7 +11017,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "80353.0",
+          "codigo_cliente": "80353",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18322565000584",
           "filial": "FONSECA",
@@ -11031,7 +11031,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "69759.0",
+          "codigo_cliente": "69759",
           "cliente": "MORAES E CIA COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
           "cnpj": "24.305.769/0001-86",
           "filial": "ITABORAI",
@@ -11045,7 +11045,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "28385.0",
+          "codigo_cliente": "28385",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
           "cnpj": "18322565000231",
           "filial": "SAO GONCALO",
@@ -11059,7 +11059,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "80355.0",
+          "codigo_cliente": "80355",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
           "cnpj": "18322565000665",
           "filial": "TRIBOBO",
@@ -11078,7 +11078,7 @@ const AGENDAMENTO_DATA = {
       "nome": "MARCELO LORES - OFF TRADE",
       "itens": [
         {
-          "codigo_cliente": "91791.0",
+          "codigo_cliente": "91791",
           "cliente": "ALFA E OMEGA MERCADO LTDA",
           "cnpj": "01.917.507/0009-24",
           "filial": "SÃO JOÃO DE MERITI",
@@ -11092,7 +11092,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "18798.0",
+          "codigo_cliente": "18798",
           "cliente": "EMPORIO DO CADEG LTDA",
           "cnpj": "33.119.105/0001-13",
           "filial": "BENFICA",
@@ -11106,7 +11106,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "18798.0",
+          "codigo_cliente": "18798",
           "cliente": "EMPORIO DO CADEG LTDA",
           "cnpj": "33.119.105/0001-13",
           "filial": "BENFICA",
@@ -11125,7 +11125,7 @@ const AGENDAMENTO_DATA = {
       "nome": "MARIA LUIZA - OFF TRADE",
       "itens": [
         {
-          "codigo_cliente": "84031.0",
+          "codigo_cliente": "84031",
           "cliente": "ROYAL COM DISTRIBUIDORA LTDA",
           "cnpj": "08.842.314/0003-05",
           "filial": "ATERRADO",
@@ -11139,7 +11139,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "60708.0",
+          "codigo_cliente": "60708",
           "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
           "cnpj": "20.580.702/0007-04",
           "filial": "VILA HELENA",
@@ -11153,7 +11153,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84032.0",
+          "codigo_cliente": "84032",
           "cliente": "KETEK COMERCIAL LTDA",
           "cnpj": "11.404.442/0002-09",
           "filial": "TRES RIOS",
@@ -11167,7 +11167,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6269.0",
+          "codigo_cliente": "6269",
           "cliente": "SUPERMERCADO ZONA SUL S/A",
           "cnpj": "33381286000151",
           "filial": "",
@@ -11181,7 +11181,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84032.0",
+          "codigo_cliente": "84032",
           "cliente": "KETEK COMERCIAL LTDA",
           "cnpj": "11.404.442/0002-09",
           "filial": "TRES RIOS",
@@ -11195,7 +11195,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84033.0",
+          "codigo_cliente": "84033",
           "cliente": "EMISE SUPERMERCADO LTDA",
           "cnpj": "17.659.742/0001-26",
           "filial": "BAIRRO DA VIGA",
@@ -11209,7 +11209,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "7191.0",
+          "codigo_cliente": "7191",
           "cliente": "NAOMI COMERCIO DE ALIMENTOS LTDA",
           "cnpj": "39553144000100",
           "filial": "VOLTA REDONDA",
@@ -11223,7 +11223,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84034.0",
+          "codigo_cliente": "84034",
           "cliente": "EMISE SUPERMERCADO LTDA",
           "cnpj": "17.659.742/0002-07",
           "filial": "JD BOA VISTA",
@@ -11237,7 +11237,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84025.0",
+          "codigo_cliente": "84025",
           "cliente": "ROYAL COM DISTRIBUIDORA LTDA",
           "cnpj": "08.842.314/0003-05",
           "filial": "ATERRADO",
@@ -11251,7 +11251,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84014.0",
+          "codigo_cliente": "84014",
           "cliente": "NAOMI COM DE ALIMENTOS LTDA",
           "cnpj": "39.553.144/0008-87",
           "filial": "BAIRRO SESSENTA",
@@ -11265,7 +11265,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84011.0",
+          "codigo_cliente": "84011",
           "cliente": "NAOMI COM DE ALIMENTOS LTDA",
           "cnpj": "39.553.144/0003-72",
           "filial": "CAMPOS ELISEOS",
@@ -11279,7 +11279,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84017.0",
+          "codigo_cliente": "84017",
           "cliente": "ROYAL COM DISTRIBUIDORA LTDA",
           "cnpj": "8842314000143",
           "filial": "SÃO LUCAS",
@@ -11293,7 +11293,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84012.0",
+          "codigo_cliente": "84012",
           "cliente": "NAOMI COM DE ALIMENTOS LTDA",
           "cnpj": "39553144000534",
           "filial": "CENTRO",
@@ -11307,7 +11307,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "81298.0",
+          "codigo_cliente": "81298",
           "cliente": "ROYAL COM DISTRIBUIDORA LTDA",
           "cnpj": "8842314000224",
           "filial": "CENTRO",
@@ -11321,7 +11321,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6269.0",
+          "codigo_cliente": "6269",
           "cliente": "SUPERMERCADO ZONA SUL S/A",
           "cnpj": "33381286000151",
           "filial": "OLARIA",
@@ -11335,7 +11335,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84030.0",
+          "codigo_cliente": "84030",
           "cliente": "KETEK COMERCIAL LTDA",
           "cnpj": "11.404.442/0001-10",
           "filial": "VOLTA REDONDA",
@@ -11349,7 +11349,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84029.0",
+          "codigo_cliente": "84029",
           "cliente": "EMISE SUPERMERCADO LTDA",
           "cnpj": "17.659.742/0005-50",
           "filial": "VOLTA REDONDA",
@@ -11363,7 +11363,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6269.0",
+          "codigo_cliente": "6269",
           "cliente": "SUPERMERCADO ZONA SUL S/A",
           "cnpj": "33381286000151",
           "filial": "OLARIA",
@@ -11377,7 +11377,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6269.0",
+          "codigo_cliente": "6269",
           "cliente": "SUPERMERCADO ZONA SUL S/A",
           "cnpj": "33381286000151",
           "filial": "OLARIA",
@@ -11391,7 +11391,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "83962.0",
+          "codigo_cliente": "83962",
           "cliente": "ATLAS DE IGUAÇU DIST ALIMENTO LTDA",
           "cnpj": "29.310.554/0001-77",
           "filial": "QUIMADOS",
@@ -11405,7 +11405,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "60708.0",
+          "codigo_cliente": "60708",
           "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
           "cnpj": "20.580.702/0007-04",
           "filial": "VILA HELENA",
@@ -11419,7 +11419,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6269.0",
+          "codigo_cliente": "6269",
           "cliente": "SUPERMERCADO ZONA SUL S/A",
           "cnpj": "33381286000151",
           "filial": "OLARIA",
@@ -11433,7 +11433,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6269.0",
+          "codigo_cliente": "6269",
           "cliente": "SUPERMERCADO ZONA SUL S/A",
           "cnpj": "33381286000151",
           "filial": "OLARIA",
@@ -11447,7 +11447,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6269.0",
+          "codigo_cliente": "6269",
           "cliente": "SUPERMERCADO ZONA SUL S/A",
           "cnpj": "33381286000151",
           "filial": "OLARIA",
@@ -11461,7 +11461,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6269.0",
+          "codigo_cliente": "6269",
           "cliente": "SUPERMERCADO ZONA SUL S/A",
           "cnpj": "33381286000151",
           "filial": "OLARIA",
@@ -11475,7 +11475,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6269.0",
+          "codigo_cliente": "6269",
           "cliente": "SUPERMERCADO ZONA SUL S/A",
           "cnpj": "33381286000151",
           "filial": "OLARIA",
@@ -11489,7 +11489,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": "NÃO DEU TEMPO"
         },
         {
-          "codigo_cliente": "6269.0",
+          "codigo_cliente": "6269",
           "cliente": "SUPERMERCADO ZONA SUL S/A",
           "cnpj": "33381286000151",
           "filial": "OLARIA",
@@ -11503,7 +11503,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6269.0",
+          "codigo_cliente": "6269",
           "cliente": "SUPERMERCADO ZONA SUL S/A",
           "cnpj": "33381286000151",
           "filial": "OLARIA",
@@ -11517,7 +11517,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6269.0",
+          "codigo_cliente": "6269",
           "cliente": "SUPERMERCADO ZONA SUL S/A",
           "cnpj": "33381286000151",
           "filial": "OLARIA",
@@ -11531,7 +11531,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6269.0",
+          "codigo_cliente": "6269",
           "cliente": "SUPERMERCADO ZONA SUL S/A",
           "cnpj": "33381286000151",
           "filial": "OLARIA",
@@ -11545,7 +11545,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6269.0",
+          "codigo_cliente": "6269",
           "cliente": "SUPERMERCADO ZONA SUL S/A",
           "cnpj": "33381286000151",
           "filial": "OLARIA",
@@ -11559,7 +11559,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6269.0",
+          "codigo_cliente": "6269",
           "cliente": "SUPERMERCADO ZONA SUL S/A",
           "cnpj": "33381286000151",
           "filial": "OLARIA",
@@ -11573,7 +11573,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6269.0",
+          "codigo_cliente": "6269",
           "cliente": "SUPERMERCADO ZONA SUL S/A",
           "cnpj": "33381286000151",
           "filial": "OLARIA",
@@ -11587,7 +11587,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "3935.0",
+          "codigo_cliente": "3935",
           "cliente": "SUPERMERCADO CELEIRO",
           "cnpj": "7678203000180",
           "filial": "COSMOS",
@@ -11601,7 +11601,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "69292.0",
+          "codigo_cliente": "69292",
           "cliente": "LUCAS DE FREITAS MIRANDA",
           "cnpj": "39346520000196",
           "filial": "ANGRA DOS REIS",
@@ -11615,7 +11615,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "60708.0",
+          "codigo_cliente": "60708",
           "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
           "cnpj": "20.580.702/0007-04",
           "filial": "VILA HELENA",
@@ -11629,7 +11629,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "60708.0",
+          "codigo_cliente": "60708",
           "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
           "cnpj": "20.580.702/0007-04",
           "filial": "VILA HELENA",
@@ -11643,7 +11643,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84012.0",
+          "codigo_cliente": "84012",
           "cliente": "NAOMI COMERCIO DE ALIMENTOS LTDA",
           "cnpj": "39553144000534",
           "filial": "CENTRO",
@@ -11657,7 +11657,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "6269.0",
+          "codigo_cliente": "6269",
           "cliente": "SUPERMERCADO ZONA SUL S/A",
           "cnpj": "33.381.286/0001-51",
           "filial": "OLARIA",
@@ -11671,7 +11671,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "44564.0",
+          "codigo_cliente": "44564",
           "cliente": "ROYAL CENTER COMERCIAL LTDA",
           "cnpj": "00784394000116",
           "filial": "VILA JULIETA",
@@ -11685,7 +11685,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84017.0",
+          "codigo_cliente": "84017",
           "cliente": "ROYAL COMERCIO E DISTRIBUIDORA LTDA",
           "cnpj": "08842314000143",
           "filial": "SAO LUCAS",
@@ -11699,7 +11699,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "81298.0",
+          "codigo_cliente": "81298",
           "cliente": "ROYAL COMERCIO E DISTRIBUIDORA LTDA",
           "cnpj": "08842314000224",
           "filial": "CENTRO",
@@ -11713,7 +11713,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84025.0",
+          "codigo_cliente": "84025",
           "cliente": "ROYAL COMERCIO E DISTRIBUIDORA LTDA",
           "cnpj": "08.842.314/0003-05",
           "filial": "ATERRADO",
@@ -11727,7 +11727,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84030.0",
+          "codigo_cliente": "84030",
           "cliente": "KETEK COMERCIAL LTDA",
           "cnpj": "11404442000110",
           "filial": "JARDIM ANALIA",
@@ -11741,7 +11741,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84032.0",
+          "codigo_cliente": "84032",
           "cliente": "KETEK COMERCIAL LTDA",
           "cnpj": "11.404.442/0002-09",
           "filial": "VILA ISABEL",
@@ -11755,7 +11755,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84033.0",
+          "codigo_cliente": "84033",
           "cliente": "EMISE SUPERMERCADO LTDA",
           "cnpj": "17659742000126",
           "filial": "VIGA",
@@ -11769,7 +11769,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84034.0",
+          "codigo_cliente": "84034",
           "cliente": "EMISE SUPERMERCADO LTDA",
           "cnpj": "17.659.742/0002-07",
           "filial": "JARDIM BOA VISTA",
@@ -11783,7 +11783,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84029.0",
+          "codigo_cliente": "84029",
           "cliente": "EMISE SUPERMERCADO LTDA",
           "cnpj": "17.659.742/0005-50",
           "filial": "VILA SANTA CECÍLIA",
@@ -11797,7 +11797,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "7191.0",
+          "codigo_cliente": "7191",
           "cliente": "NAOMI COMERCIO DE ALIMENTOS LTDA",
           "cnpj": "39553144000100",
           "filial": "VOLTA REDONDA",
@@ -11811,7 +11811,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84011.0",
+          "codigo_cliente": "84011",
           "cliente": "NAOMI COMERCIO DE ALIMENTOS LTDA",
           "cnpj": "39553144000372",
           "filial": "COMERCIAL",
@@ -11825,7 +11825,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84014.0",
+          "codigo_cliente": "84014",
           "cliente": "NAOMI COMERCIO DE ALIMENTOS LTDA",
           "cnpj": "39553144000887",
           "filial": "SESSENTA",
@@ -11839,7 +11839,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84031.0",
+          "codigo_cliente": "84031",
           "cliente": "ROYAL CENTER COMERCIAL LTDA",
           "cnpj": "00.784.394/0001-16",
           "filial": "VILA JULIETA",
@@ -11853,7 +11853,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84032.0",
+          "codigo_cliente": "84032",
           "cliente": "ROYAL CENTER COMERCIAL LTDA",
           "cnpj": "11.404.442/0002-09",
           "filial": "VILA ISABEL",
@@ -11872,7 +11872,7 @@ const AGENDAMENTO_DATA = {
       "nome": "MATEUS CARDOSO - OFF TRADE",
       "itens": [
         {
-          "codigo_cliente": "82069.0",
+          "codigo_cliente": "82069",
           "cliente": "MERCADO IDEAL DE JACAREI LTDA",
           "cnpj": "09.567.039/0001-60",
           "filial": "MANGARATIBA",
@@ -11886,7 +11886,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "82069.0",
+          "codigo_cliente": "82069",
           "cliente": "MERCADO IDEAL DE JACAREI LTDA",
           "cnpj": "09.567.039/0001-60",
           "filial": "MANGARATIBA",
@@ -11905,7 +11905,7 @@ const AGENDAMENTO_DATA = {
       "nome": "NÁTALI DE OLIVEIRA - OFF TRADE",
       "itens": [
         {
-          "codigo_cliente": "77937.0",
+          "codigo_cliente": "77937",
           "cliente": "L B DOS SANTOS COMERCIO VAREJISTA DE BEBIDAS E ARTIGOS ALIME",
           "cnpj": "52531752000182",
           "filial": "RIO DE JANEIRO",
@@ -11919,7 +11919,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90581.0",
+          "codigo_cliente": "90581",
           "cliente": "LUIS GUILHERME SOUZA DA ROSA",
           "cnpj": "49.298.259/0001-50",
           "filial": "COSMOS",
@@ -11933,7 +11933,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90761.0",
+          "codigo_cliente": "90761",
           "cliente": "ROBSON WEBER",
           "cnpj": "62.011.629/0001-94",
           "filial": "ITAGUAI",
@@ -11947,7 +11947,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "82050.0",
+          "codigo_cliente": "82050",
           "cliente": "SABRINA CORREIA DE OLIVEIRA",
           "cnpj": "57569325000107",
           "filial": "CAMPO GRANDE",
@@ -11961,7 +11961,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "90148.0",
+          "codigo_cliente": "90148",
           "cliente": "MATHEUS FONSECA",
           "cnpj": "54.789.676/0001-35",
           "filial": "RIO DE JANEIRO",
@@ -11975,7 +11975,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "67706.0",
+          "codigo_cliente": "67706",
           "cliente": "DEPOSITO DA TORRE",
           "cnpj": "36.792.037/0001-47",
           "filial": "INHOAIBA",
@@ -11989,7 +11989,7 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "62167.0",
+          "codigo_cliente": "62167",
           "cliente": "OBOM ATACADISTA LTDA (REDE ECONOMIA)",
           "cnpj": "36.287.735/0002-76",
           "filial": "GUARATIBA",
