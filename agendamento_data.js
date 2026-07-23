@@ -12005,7 +12005,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "23/07/2026 09:49",
+  "atualizado_em": "23/07/2026 09:50",
   "comparativo": [
     {
       "msg_id": "19f8b26374e0bcd7",
@@ -15014,6 +15014,40 @@ const AGENDAMENTO_DATA = {
       ]
     },
     {
+      "msg_id": "19f85fff2a4a1a43",
+      "subject": "PEDIDO DO ATACADAO DAS BEBIDAS",
+      "data_email": "2026-07-21",
+      "sistema": "CRC - 04",
+      "cod_cliente": "69759",
+      "razao_social": "MORAES E CIA COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
+      "fantasia": "ATACADAO DAS BEBIDAS",
+      "cnpj": "24.305.769/0001-86",
+      "rca": "450 - LEANDRO PEREIRA DE SOUZA",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "4328",
+          "descricao": "WHISKY ROYAL SALUTE 21YO GRAIN 700ML",
+          "qt": 3,
+          "preco": 599.0,
+          "total": 1797.0,
+          "qt_faturada": 3.0,
+          "status": "Faturado"
+        },
+        {
+          "cod_prod": "3839",
+          "descricao": "LICOR ESP DIEGO ZAMORA 43 + 2 COPO",
+          "qt": 18,
+          "preco": 125.49,
+          "total": 2258.82,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        }
+      ]
+    },
+    {
       "msg_id": "19f818438a58365b",
       "subject": "Re: pedido crc4 - Rio Sul - Saracuruna",
       "data_email": "2026-07-20",
@@ -15230,6 +15264,31 @@ const AGENDAMENTO_DATA = {
           "qt": 60,
           "preco": 5.49,
           "total": 329.4,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f80033d649ba9c",
+      "subject": "PEDIDO PADRAO DO FONSECA",
+      "data_email": "2026-07-20",
+      "sistema": "CRC - 04",
+      "cod_cliente": "9604",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+      "fantasia": "SUPERMARKET FONSECA - PIRATININGA",
+      "cnpj": "08.628.825/0003-29",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "3827",
+          "descricao": "VINHO LATITUD 33 MALBEC 750 ML",
+          "qt": 18,
+          "preco": 33.0,
+          "total": 594.0,
           "qt_faturada": 0.0,
           "status": "Pendente"
         }
