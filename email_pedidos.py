@@ -348,13 +348,19 @@ def _construir_comparativo(cache: dict) -> list:
                     continue
                 qt_pedida   = float(item.get('qt') or 0)
                 qt_faturada = float(faturado_por_par.get((cod_cli_num, int(cod_prod)), 0))
+                preco       = float(item.get('preco') or 0)
+                # "Pendente" seria ambíguo (dá a entender que ainda pode ser
+                # faturado) — na prática, se não faturou até agora, o item foi
+                # cortado do pedido. "Faturado"/"Parcial" mostram o valor
+                # efetivamente faturado (preço x qtd faturada); cortado fica 0.
                 if qt_faturada <= 0:
-                    status_item = 'Pendente'
+                    status_item = 'Cortado'
                 elif qt_faturada < qt_pedida:
                     status_item = 'Parcial'
                 else:
                     status_item = 'Faturado'
-                itens_out.append({**item, 'qt_faturada': qt_faturada, 'status': status_item})
+                valor_faturado = round(preco * qt_faturada, 2)
+                itens_out.append({**item, 'qt_faturada': qt_faturada, 'valor_faturado': valor_faturado, 'status': status_item})
             if not itens_out:
                 continue
             fallback = cliente_info.get(cod_cli_num, {})

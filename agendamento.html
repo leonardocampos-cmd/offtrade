@@ -176,7 +176,7 @@ function _statusBadge(status) {
   const s = (status || '').toUpperCase();
   const map = {
     'ENTREGUE': 'status-entregue', 'FATURADO': 'status-faturado',
-    'PENDENTE': 'status-pendente', 'PARCIAL': 'status-parcial',
+    'PENDENTE': 'status-pendente', 'PARCIAL': 'status-parcial', 'CORTADO': 'status-pendente',
     'CANCELADA': 'status-cancelado', 'CANCELADO': 'status-cancelado',
   };
   const cls = map[s] || 'status-outro';
@@ -204,7 +204,7 @@ function montarKpis(itensAgend, comparativo) {
     <div class="kpi"><div class="label">Registros na Planilha${filtrado && _abaAtual === 'agendamentos' ? ' (filtrado)' : ''}</div><div class="val">${itensAgend.length}</div></div>
     <div class="kpi"><div class="label">Valor Agendado${filtrado && _abaAtual === 'agendamentos' ? ' (filtrado)' : ''}</div><div class="val">${_fmtMoeda(totalAgendado)}</div></div>
     <div class="kpi"><div class="label">Pedidos por E-mail${filtrado && _abaAtual === 'comparativo' ? ' (filtrado)' : ''}</div><div class="val">${comparativo.length}</div></div>
-    <div class="kpi"><div class="label">Pendentes/Parciais${filtrado && _abaAtual === 'comparativo' ? ' (filtrado)' : ''}</div><div class="val" style="color:var(--orange)">${pendentes}</div></div>
+    <div class="kpi"><div class="label">Cortados/Parciais${filtrado && _abaAtual === 'comparativo' ? ' (filtrado)' : ''}</div><div class="val" style="color:var(--orange)">${pendentes}</div></div>
   `;
 }
 
@@ -270,13 +270,13 @@ function montarFiltros() {
     });
 
     const statusAtual = selStatus.value;
-    selStatus.innerHTML = '<option value="">Todos os Status</option><option value="Pendente">Pendente</option><option value="Parcial">Parcial</option><option value="Faturado">Faturado</option>';
-    if (['Pendente', 'Parcial', 'Faturado'].includes(statusAtual)) selStatus.value = statusAtual;
+    selStatus.innerHTML = '<option value="">Todos os Status</option><option value="Cortado">Cortado</option><option value="Parcial">Parcial</option><option value="Faturado">Faturado</option>';
+    if (['Cortado', 'Parcial', 'Faturado'].includes(statusAtual)) selStatus.value = statusAtual;
   }
 }
 
 function _piorStatus(itens) {
-  if (itens.some(i => i.status === 'Pendente')) return 'Pendente';
+  if (itens.some(i => i.status === 'Cortado')) return 'Cortado';
   if (itens.some(i => i.status === 'Parcial')) return 'Parcial';
   return 'Faturado';
 }
@@ -354,7 +354,7 @@ function renderComparativo(pedidos) {
       <tr class="linha-itens ${aberto ? '' : 'oculta'}" id="itens-${chave}">
         <td colspan="8">
           <table class="itens-table">
-            <thead><tr><th>Cód.</th><th>Descrição</th><th>Qtd. Pedida</th><th>Qtd. Faturada</th><th>Status</th></tr></thead>
+            <thead><tr><th>Cód.</th><th>Descrição</th><th>Qtd. Pedida</th><th>Qtd. Faturada</th><th>Valor Faturado</th><th>Status</th></tr></thead>
             <tbody>
               ${p.itens.map(it => `
                 <tr>
@@ -362,6 +362,7 @@ function renderComparativo(pedidos) {
                   <td>${_esc(it.descricao)}</td>
                   <td>${_esc(it.qt)}</td>
                   <td>${_esc(it.qt_faturada)}</td>
+                  <td>${it.status === 'Cortado' ? '<span class="cod">—</span>' : _fmtMoeda(it.valor_faturado)}</td>
                   <td>${_statusBadge(it.status)}</td>
                 </tr>
               `).join('')}
