@@ -24300,7 +24300,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "23/07/2026 10:42",
+  "atualizado_em": "23/07/2026 10:43",
   "comparativo": [
     {
       "msg_id": "19f8f0d0054f43bd",
@@ -24399,6 +24399,126 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 25.3,
           "total": 303.6,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f8f34e5e173d7f",
+      "subject": "PEDIDO CRC4 - PAO COM LETRAS",
+      "data_email": "2026-07-23",
+      "sistema": "CRC - 04",
+      "cod_cliente": "89197",
+      "razao_social": "PAO COM LETRAS PANIFICADORA LTDA.",
+      "fantasia": "SUPERPAO - PAISSANDU",
+      "cnpj": "05.951.912/0001-62",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "45 dias",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "3451",
+          "descricao": "WHISKY ESC MACALLAN DOUBLE 12 YO 700ML",
+          "qt": 2,
+          "preco": 678.9,
+          "total": 1357.8,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "3789",
+          "descricao": "VEUVE CLICQUOT COOLER",
+          "qt": 2,
+          "preco": 426.0,
+          "total": 852.0,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "2848",
+          "descricao": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "qt": 60,
+          "preco": 56.9,
+          "total": 3414.0,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "2704",
+          "descricao": "VILLA ROSA COLEHITA TINTO 375ML",
+          "qt": 12,
+          "preco": 25.9,
+          "total": 310.8,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f8f2d4cb1c18cd",
+      "subject": "Re: pedido crc4 - CGX - MERCADO UNIDOS",
+      "data_email": "2026-07-23",
+      "sistema": "CRC - 04",
+      "cod_cliente": "83387",
+      "razao_social": "CGX COMERCIO DE ALIMENTOS LTDA",
+      "fantasia": "CGX COMERCIO DE ALIMENTOS",
+      "cnpj": "15.580.294/0001-45",
+      "rca": "379 - JORGE MACIEL - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "21 DIAS",
+      "obs": "OBS:",
+      "itens": [
+        {
+          "cod_prod": "7702",
+          "descricao": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+          "qt": 89.9,
+          "preco": 6.0,
+          "total": 539.4,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "70",
+          "descricao": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "qt": 103.9,
+          "preco": 6.0,
+          "total": 623.4,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        }
+      ]
+    },
+    {
+      "msg_id": "19f8f22365ebc2d4",
+      "subject": "pedido crc4 - CGX - MERCADO UNIDOS",
+      "data_email": "2026-07-23",
+      "sistema": "CRC - 04",
+      "cod_cliente": "83387",
+      "razao_social": "CGX COMERCIO DE ALIMENTOS LTDA",
+      "fantasia": "CGX COMERCIO DE ALIMENTOS",
+      "cnpj": "15.580.294/0001-45",
+      "rca": "379 - JORGE MACIEL - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "21 DIAS",
+      "obs": "OBS:",
+      "itens": [
+        {
+          "cod_prod": "7702",
+          "descricao": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+          "qt": 89.9,
+          "preco": 6.0,
+          "total": 539.4,
+          "qt_faturada": 0.0,
+          "status": "Pendente"
+        },
+        {
+          "cod_prod": "70",
+          "descricao": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "qt": 103.9,
+          "preco": 6.0,
+          "total": 623.4,
           "qt_faturada": 0.0,
           "status": "Pendente"
         }
