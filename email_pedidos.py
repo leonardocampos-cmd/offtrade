@@ -341,7 +341,11 @@ def _construir_comparativo(cache: dict) -> list:
             if not cod_cli_raw.isdigit():
                 continue
             cod_cli_num = int(cod_cli_raw)
-            itens_out = []
+
+            # Primeiro calcula a qtd faturada de cada item, sem ainda decidir
+            # o status — precisa saber se ALGUM item do pedido já foi tocado
+            # (faturado/parcial) antes de rotular os zerados.
+            itens_calc = []
             for item in bloco.get('itens', []):
                 cod_prod = str(item.get('cod_prod', '')).strip()
                 if not cod_prod.isdigit():
@@ -349,12 +353,20 @@ def _construir_comparativo(cache: dict) -> list:
                 qt_pedida   = float(item.get('qt') or 0)
                 qt_faturada = float(faturado_por_par.get((cod_cli_num, int(cod_prod)), 0))
                 preco       = float(item.get('preco') or 0)
-                # "Pendente" seria ambíguo (dá a entender que ainda pode ser
-                # faturado) — na prática, se não faturou até agora, o item foi
-                # cortado do pedido. "Faturado"/"Parcial" mostram o valor
-                # efetivamente faturado (preço x qtd faturada); cortado fica 0.
+                itens_calc.append((item, qt_pedida, qt_faturada, preco))
+
+            # Se nenhum item do pedido foi faturado ainda, o pedido inteiro
+            # provavelmente só não foi processado — "Pendente" (pode vir a
+            # faturar). Se PELO MENOS um item já foi faturado/parcial, o
+            # pedido já está sendo atendido, e quem ficou zerado foi cortado
+            # de propósito — não vai mais vir.
+            pedido_tocado = any(qt_faturada > 0 for _, _, qt_faturada, _ in itens_calc)
+            status_zerado = 'Cortado' if pedido_tocado else 'Pendente'
+
+            itens_out = []
+            for item, qt_pedida, qt_faturada, preco in itens_calc:
                 if qt_faturada <= 0:
-                    status_item = 'Cortado'
+                    status_item = status_zerado
                 elif qt_faturada < qt_pedida:
                     status_item = 'Parcial'
                 else:

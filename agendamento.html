@@ -270,13 +270,14 @@ function montarFiltros() {
     });
 
     const statusAtual = selStatus.value;
-    selStatus.innerHTML = '<option value="">Todos os Status</option><option value="Cortado">Cortado</option><option value="Parcial">Parcial</option><option value="Faturado">Faturado</option>';
-    if (['Cortado', 'Parcial', 'Faturado'].includes(statusAtual)) selStatus.value = statusAtual;
+    selStatus.innerHTML = '<option value="">Todos os Status</option><option value="Cortado">Cortado</option><option value="Pendente">Pendente</option><option value="Parcial">Parcial</option><option value="Faturado">Faturado</option>';
+    if (['Cortado', 'Pendente', 'Parcial', 'Faturado'].includes(statusAtual)) selStatus.value = statusAtual;
   }
 }
 
 function _piorStatus(itens) {
   if (itens.some(i => i.status === 'Cortado')) return 'Cortado';
+  if (itens.some(i => i.status === 'Pendente')) return 'Pendente';
   if (itens.some(i => i.status === 'Parcial')) return 'Parcial';
   return 'Faturado';
 }
