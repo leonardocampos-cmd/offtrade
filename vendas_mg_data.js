@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "23/07/2026 12:12",
+  "atualizado_em": "23/07/2026 14:11",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 175953.16,
-        "pos": 80,
+        "fat": 188339.58,
+        "pos": 82,
         "fat_ant": 341993.95
       }
     },
@@ -236,7 +236,7 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 84376.7,
+        "fat": 85204.25,
         "pos": 53,
         "fat_ant": 85308.22
       }
@@ -52771,6 +52771,156 @@ const VENDAS_MG_DATA = {
           "qt": 12,
           "valor": 958.8,
           "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "33176",
+          "cliente": "BELLINI PRODUCOES DE EVENTOS LTDA",
+          "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+          "fantasia": "YVY",
+          "qt": 31,
+          "valor": 1236.9,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "33176",
+          "cliente": "BELLINI PRODUCOES DE EVENTOS LTDA",
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 1786.8,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "33176",
+          "cliente": "BELLINI PRODUCOES DE EVENTOS LTDA",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "fantasia": "PERNOD",
+          "qt": 72,
+          "valor": 5176.8,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "33176",
+          "cliente": "BELLINI PRODUCOES DE EVENTOS LTDA",
+          "produto": "GIN TANQUERAY  750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 24,
+          "valor": 2253.6,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "32756",
+          "cliente": "BAR E RESTAURANTE DUARTE COMEDORIA LTDA",
+          "produto": "HUMB. CANALE DENARIO MALBEC 750ML",
+          "fantasia": "CASTAS",
+          "qt": 4,
+          "valor": 307.6,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "32756",
+          "cliente": "BAR E RESTAURANTE DUARTE COMEDORIA LTDA",
+          "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
+          "fantasia": "CASTAS",
+          "qt": 4,
+          "valor": 219.6,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "32756",
+          "cliente": "BAR E RESTAURANTE DUARTE COMEDORIA LTDA",
+          "produto": "VINHO ARESTI EST SEL PINOT NOIR 750ML",
+          "fantasia": "CASTAS",
+          "qt": 4,
+          "valor": 219.6,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "32756",
+          "cliente": "BAR E RESTAURANTE DUARTE COMEDORIA LTDA",
+          "produto": "VILLA ROSA COLHEITA TINTO  750ML",
+          "fantasia": "CASTAS",
+          "qt": 3,
+          "valor": 224.7,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "30409",
+          "cliente": "BEM QUE TEM HORTIFRUTI LTDA",
+          "produto": "SMIR ICE REGULAR - 0.269 LT  X 24",
+          "fantasia": "DIAGEO",
+          "qt": 5,
+          "valor": 478.8,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "36375",
+          "cliente": "ICARO FONSECA DOS SANTOS",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 2,
+          "valor": 287.52,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "36375",
+          "cliente": "ICARO FONSECA DOS SANTOS",
+          "produto": "VODKA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 29.9,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "36375",
+          "cliente": "ICARO FONSECA DOS SANTOS",
+          "produto": "XAROPE MONIN PESSEGO 700 ML",
+          "fantasia": "MONIN",
+          "qt": 1,
+          "valor": 49.9,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "36375",
+          "cliente": "ICARO FONSECA DOS SANTOS",
+          "produto": "RUM MONTILLA CRISTAL 1000 ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 31.9,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "36375",
+          "cliente": "ICARO FONSECA DOS SANTOS",
+          "produto": "YVY DESTILADO GIN AR LT 710ML",
+          "fantasia": "YVY",
+          "qt": 1,
+          "valor": 39.9,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "36375",
+          "cliente": "ICARO FONSECA DOS SANTOS",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 42.9,
+          "offtrade": true
         }
       ]
     },
@@ -98684,6 +98834,26 @@ const VENDAS_MG_DATA = {
           "fantasia": "CASTAS",
           "qt": 36,
           "valor": 2588.4,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "37813",
+          "cliente": "ARMAZEM BELO HORIZONTE COMERCIO DE BEBIDAS E CONEXOS LTDA",
+          "produto": "SMIR ICE REGULAR - 0.269 LT  X 24",
+          "fantasia": "DIAGEO",
+          "qt": 5,
+          "valor": 512.85,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "37813",
+          "cliente": "ARMAZEM BELO HORIZONTE COMERCIO DE BEBIDAS E CONEXOS LTDA",
+          "produto": "SMIRNOFF ICE RASPBERRY -269ML LT CX 24",
+          "fantasia": "DIAGEO",
+          "qt": 3,
+          "valor": 314.7,
           "offtrade": true
         }
       ]
