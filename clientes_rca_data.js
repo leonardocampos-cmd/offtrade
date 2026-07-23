@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "23/07/2026 10:47",
+  "atualizado_em": "23/07/2026 12:16",
   "total": 21827,
   "clientes": [
     {
@@ -4064,8 +4064,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "439",
       "nome_usur1": "MATEUS CARDOSO - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "75638",
@@ -6832,8 +6832,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "144",
       "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "87273",
@@ -7440,8 +7440,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "379",
       "nome_usur1": "JORGE MACIEL - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "8045",
@@ -21472,8 +21472,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "431",
       "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "79682",
@@ -30464,8 +30464,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "153",
       "nome_usur1": "ANGELO NEVES SUZART - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "84359",
@@ -45424,8 +45424,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "156",
       "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "30455",
@@ -74267,7 +74267,7 @@ const CLIENTES_RCA_DATA = {
       "cidade": "ITABORAI",
       "cnpj": "37.863.220/0001-59",
       "estado": "RJ",
-      "ramo": "MERCADO",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -93812,22 +93812,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "86307",
-      "razao": "CEREAIS IRENE LTDA",
-      "fantasia": "CEREAIS IRENE",
-      "bairro": "JARDIM ANHANGÁ",
-      "cidade": "DUQUE DE CAXIAS",
-      "cnpj": "32.125.006/0003-43",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "REDE ECONOMIA",
-      "codusur1": "153",
-      "nome_usur1": "ANGELO NEVES SUZART - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "58811",
       "razao": "CEREAIS MARREQUINHO DE NOVA CAMPINAS LTDA",
       "fantasia": "CEREAIS MARREQUINHO",
@@ -106928,8 +106912,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "412",
       "nome_usur1": "BARBARA CABRAL - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "19239",
@@ -113264,6 +113248,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52019",
+      "razao": "DE PAULA E DIAS COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+      "fantasia": "DE PAULA E DIAS COMERCIO DE ALIMENTOS E BEBIDAS",
+      "bairro": "ALTO DA BOA VISTA",
+      "cidade": "CAMPOS DO JORDAO",
+      "cnpj": "65.474.229/0001-03",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "511",
+      "nome_usur1": "ALEXANDRE SOUZA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -122512,8 +122512,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "144",
       "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "2537",
@@ -136944,8 +136944,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "450",
       "nome_usur1": "LEANDRO SOUZA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "72907",
@@ -148350,8 +148350,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
+      "codusur1": "426",
+      "nome_usur1": "ADER ALONSO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -161248,8 +161248,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "450",
       "nome_usur1": "LEANDRO SOUZA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "33204",
@@ -161760,8 +161760,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "379",
       "nome_usur1": "JORGE MACIEL - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "91355",
@@ -171662,8 +171662,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
+      "codusur1": "471",
+      "nome_usur1": "PAULO JUNIOR - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -228144,8 +228144,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "471",
       "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "2938",
@@ -228354,6 +228354,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "39809",
+      "razao": "MERCADINHO SILVA & SOUSA GUARULHOS LTDA",
+      "fantasia": "MERCADINHO SAO FRANCISCO",
+      "bairro": "CIDADE SERODIO",
+      "cidade": "GUARULHOS",
+      "cnpj": "00.206.754/0001-00",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "467",
+      "nome_usur1": "MARLENE RODRIGUES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "82422",
@@ -229888,8 +229904,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "379",
       "nome_usur1": "JORGE MACIEL - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "81744",
@@ -231424,8 +231440,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "431",
       "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "91485",
@@ -235584,8 +235600,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "471",
       "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "19234",
@@ -244272,8 +244288,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "471",
       "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "79322",
@@ -251936,8 +251952,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "471",
       "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "36026",
@@ -257008,8 +257024,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "419",
       "nome_usur1": "NÁTALI DE OLIVEIRA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "73037",
@@ -258336,8 +258352,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "431",
       "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "80066",
@@ -258384,6 +258400,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "144",
       "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "95786",
+      "razao": "PADARIA E CONFEITARIA SABOR E PAN LTDA",
+      "fantasia": "PADARIA E CONFEITARIA SABOR E PAN LTDA",
+      "bairro": "VISTA MAR",
+      "cidade": "CARIACICA",
+      "cnpj": "08.966.961/0001-67",
+      "estado": "ES",
+      "ramo": "PADARIA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -261536,8 +261568,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "431",
       "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "92288",
@@ -266496,8 +266528,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "431",
       "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "77865",
@@ -274048,8 +274080,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "156",
       "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "51680",
@@ -292016,8 +292048,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "144",
       "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "43837",
@@ -310788,22 +310820,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "95421",
-      "razao": "SNACK STORE LTDA",
-      "fantasia": "SNACK STORE",
-      "bairro": "BAIA FORMOSA",
-      "cidade": "ARMACAO DOS BUZ",
-      "cnpj": "57.884.146/0001-64",
-      "estado": "RJ",
-      "ramo": "CONVENIENCIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "156",
-      "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "77954",
       "razao": "SO ALEGRIA BAR E RESTAURANTE LTDA",
       "fantasia": "THE FACE",
@@ -315252,12 +315268,12 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "51237",
+      "codcli": "52020",
       "razao": "SUPER FAUNA VAREJISTA LTDA",
-      "fantasia": "CORUJA SUPERMERCADOS",
-      "bairro": "VILA ROCHA",
+      "fantasia": "GIRAFA",
+      "bairro": "VILA QUEIROZ",
       "cidade": "LIMEIRA",
-      "cnpj": "67.416.776/0001-68",
+      "cnpj": "67.416.776/0002-49",
       "estado": "SP",
       "ramo": "MERCADO",
       "key_account": false,
@@ -331264,8 +331280,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "379",
       "nome_usur1": "JORGE MACIEL - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "34454",
@@ -334096,8 +334112,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "450",
       "nome_usur1": "LEANDRO SOUZA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "84829",
@@ -343472,8 +343488,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "431",
       "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "35851",
@@ -345586,22 +345602,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "W.S",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "78011",
-      "razao": "WILLIAN ANSELMO DE MELO 13842902735",
-      "fantasia": "WILLIAN ANSELMO DE MELO",
-      "bairro": "PAIOL",
-      "cidade": "GUAPIMIRIM",
-      "cnpj": "34.620.886/0001-98",
-      "estado": "RJ",
-      "ramo": "EVENTOS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "319",
-      "nome_usur2": "FERNANDA CAMBOIM"
     },
     {
       "codcli": "36344",
