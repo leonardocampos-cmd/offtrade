@@ -271,6 +271,29 @@ def _parse_imagem_pedido(png_bytes: bytes) -> dict | None:
 
 # ── Comparativo com Oracle (crc.PBI_PCPEDI) ───────────────────────────────────
 
+def _nfs_agendamento() -> set:
+    """NFs presentes na aba 'Planilha de Agendamento' (gerada por
+    exportacao_agendamento.py no mesmo agendamento_data.js) — usado pra
+    marcar se a NF que faturou um item do comparativo já está agendada
+    pra entrega ou não. Uma célula de NF pode ter mais de um número
+    (ex: '56218 e 56216'), por isso extrai todos os dígitos separadamente."""
+    if not DATA_PATH.exists():
+        return set()
+    raw = DATA_PATH.read_text(encoding='utf-8')
+    m = re.search(r'=\s*(\{.*\});\s*$', raw.strip(), re.DOTALL)
+    if not m:
+        return set()
+    try:
+        existing = json.loads(m.group(1))
+    except json.JSONDecodeError:
+        return set()
+    nfs = set()
+    for vendedor in existing.get('agendamentos', []):
+        for item in vendedor.get('itens', []):
+            nfs.update(re.findall(r'\d+', str(item.get('nf', ''))))
+    return nfs
+
+
 def _construir_comparativo(cache: dict) -> list:
     import pandas as pd
     from meta import engine, carregar_dados
@@ -292,7 +315,7 @@ def _construir_comparativo(cache: dict) -> list:
 
     codclis_sql = ",".join(sorted(cod_clientes))
     query = f"""
-        SELECT CODCLI, CODPROD, DATA, QT, STATUS
+        SELECT CODCLI, CODPROD, NUMNOTA, DATA, QT, STATUS
         FROM crc.PBI_PCPEDI
         WHERE CODFILIAL = 4
           AND CODCLI IN ({codclis_sql})
@@ -304,7 +327,15 @@ def _construir_comparativo(cache: dict) -> list:
     df['CODCLI']  = pd.to_numeric(df['CODCLI'], errors='coerce')
     df['CODPROD'] = pd.to_numeric(df['CODPROD'], errors='coerce')
     df['QT']      = pd.to_numeric(df['QT'], errors='coerce').fillna(0)
+    df['NUMNOTA'] = pd.to_numeric(df['NUMNOTA'], errors='coerce')
     faturado_por_par = df.groupby(['CODCLI', 'CODPROD'])['QT'].sum().to_dict()
+    nfs_por_par = (
+        df[df['NUMNOTA'].notna()]
+        .groupby(['CODCLI', 'CODPROD'])['NUMNOTA']
+        .apply(lambda s: sorted({str(int(v)) for v in s}))
+        .to_dict()
+    )
+    nfs_agendamento = _nfs_agendamento()
 
     # Preenche campos que a extração (HTML/OCR) deixou em branco usando o
     # cadastro do cliente no Oracle — o cod_cliente sozinho já é suficiente
@@ -372,7 +403,15 @@ def _construir_comparativo(cache: dict) -> list:
                 else:
                     status_item = 'Faturado'
                 valor_faturado = round(preco * qt_faturada, 2)
-                itens_out.append({**item, 'qt_faturada': qt_faturada, 'valor_faturado': valor_faturado, 'status': status_item})
+                nfs_item = nfs_por_par.get((cod_cli_num, int(item['cod_prod'])), [])
+                itens_out.append({
+                    **item,
+                    'qt_faturada':    qt_faturada,
+                    'valor_faturado': valor_faturado,
+                    'status':         status_item,
+                    'nf':             ', '.join(nfs_item),
+                    'agendado':       any(nf in nfs_agendamento for nf in nfs_item),
+                })
             if not itens_out:
                 continue
             fallback = cliente_info.get(cod_cli_num, {})

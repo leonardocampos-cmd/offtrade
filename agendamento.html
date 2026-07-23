@@ -355,7 +355,7 @@ function renderComparativo(pedidos) {
       <tr class="linha-itens ${aberto ? '' : 'oculta'}" id="itens-${chave}">
         <td colspan="8">
           <table class="itens-table">
-            <thead><tr><th>Cód.</th><th>Descrição</th><th>Qtd. Pedida</th><th>Qtd. Faturada</th><th>Valor Faturado</th><th>Status</th></tr></thead>
+            <thead><tr><th>Cód.</th><th>Descrição</th><th>Qtd. Pedida</th><th>Qtd. Faturada</th><th>Valor Faturado</th><th>NF</th><th>Na Agendamento</th><th>Status</th></tr></thead>
             <tbody>
               ${p.itens.map(it => `
                 <tr>
@@ -363,7 +363,9 @@ function renderComparativo(pedidos) {
                   <td>${_esc(it.descricao)}</td>
                   <td>${_esc(it.qt)}</td>
                   <td>${_esc(it.qt_faturada)}</td>
-                  <td>${it.status === 'Cortado' ? '<span class="cod">—</span>' : _fmtMoeda(it.valor_faturado)}</td>
+                  <td>${it.status === 'Cortado' || it.status === 'Pendente' ? '<span class="cod">—</span>' : _fmtMoeda(it.valor_faturado)}</td>
+                  <td class="cod">${it.nf ? _esc(it.nf) : '—'}</td>
+                  <td>${it.nf ? (it.agendado ? '<span class="status-badge status-entregue">✓ Agendado</span>' : '<span class="status-badge status-outro">Não agendado</span>') : '<span class="cod">—</span>'}</td>
                   <td>${_statusBadge(it.status)}</td>
                 </tr>
               `).join('')}
