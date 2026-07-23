@@ -1,36 +1,36 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "23/07/2026 10:28",
+  "atualizado_em": "23/07/2026 11:54",
   "mes": "Jul/26",
   "mes_ant": "Jun/26",
   "dias_corridos": 23,
   "dias_no_mes": 31,
   "dias_restantes": 8,
   "resumo": {
-    "fat": 8265073.46,
-    "fat_ant": 8059914.56,
-    "fat_ant_completo": 12847708.94,
+    "fat": 8250442.76,
+    "fat_ant": 8056915.16,
+    "fat_ant_completo": 12844709.54,
     "pos": 1426,
-    "pos_ant": 1434,
-    "pos_ant_completo": 1760
+    "pos_ant": 1432,
+    "pos_ant_completo": 1758
   },
   "total": {
     "meta": 14900000.0,
-    "fat": 8265073.46,
-    "fat_ant": 8059914.56,
-    "fat_ant_completo": 12847708.94,
-    "pct": 55.5,
-    "nec_dia": 829365.82
+    "fat": 8250442.76,
+    "fat_ant": 8056915.16,
+    "fat_ant_completo": 12844709.54,
+    "pct": 55.4,
+    "nec_dia": 831194.65
   },
   "estados": [
     {
       "estado": "RJ",
       "label": "Rio de Janeiro",
       "meta": 3000000.0,
-      "fat": 1640495.71,
+      "fat": 1640395.21,
       "fat_ant": 2182571.83,
       "pos": 574,
       "pct": 54.7,
-      "nec_dia": 169938.04,
+      "nec_dia": 169950.6,
       "fat_ant_completo": 2631271.07,
       "pos_ant": 595,
       "pos_ant_completo": 725
@@ -39,11 +39,11 @@ const METAS_GERAIS_DATA = {
       "estado": "SP",
       "label": "São Paulo",
       "meta": 8000000.0,
-      "fat": 5346390.85,
+      "fat": 5331860.65,
       "fat_ant": 4169128.79,
       "pos": 578,
-      "pct": 66.8,
-      "nec_dia": 331701.14,
+      "pct": 66.6,
+      "nec_dia": 333517.42,
       "fat_ant_completo": 7505003.75,
       "pos_ant": 496,
       "pos_ant_completo": 624
@@ -66,23 +66,23 @@ const METAS_GERAIS_DATA = {
       "label": "Minas Gerais",
       "meta": 2100000.0,
       "fat": 834152.83,
-      "fat_ant": 992904.31,
+      "fat_ant": 989904.91,
       "pos": 215,
       "pct": 39.7,
       "nec_dia": 158230.9,
-      "fat_ant_completo": 1752020.75,
-      "pos_ant": 244,
-      "pos_ant_completo": 281
+      "fat_ant_completo": 1749021.35,
+      "pos_ant": 242,
+      "pos_ant_completo": 279
     }
   ],
   "industrias": [
     {
       "fantasia": "PERNOD",
-      "fat": 4002876.16,
+      "fat": 3989964.16,
       "fat_ant": 2351178.53,
       "por_estado": {
         "RJ": 262460.51,
-        "SP": 3542433.97,
+        "SP": 3529521.97,
         "ES": 17416.92,
         "MG": 180564.76
       }
@@ -188,10 +188,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "AGUA NA CAIXA",
-      "fat": 165329.2,
+      "fat": 165228.7,
       "fat_ant": 1008.7,
       "por_estado": {
-        "RJ": 165329.2,
+        "RJ": 165228.7,
         "SP": 0.0,
         "ES": 0.0,
         "MG": 0.0
@@ -199,11 +199,11 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "CRS BRANDS",
-      "fat": 157394.84,
+      "fat": 155776.64,
       "fat_ant": 58740.38,
       "por_estado": {
         "RJ": 4237.14,
-        "SP": 153157.7,
+        "SP": 151539.5,
         "ES": 0.0,
         "MG": 0.0
       }
@@ -211,7 +211,7 @@ const METAS_GERAIS_DATA = {
     {
       "fantasia": "SEM FORNECEDOR",
       "fat": 147764.65,
-      "fat_ant": 175905.82,
+      "fat_ant": 172906.42,
       "por_estado": {
         "RJ": 0.0,
         "SP": 2213.65,
