@@ -27,8 +27,16 @@ def _caminho_local_fallback() -> str:
 
 
 def _parse_valor(v) -> float:
+    """A coluna VALOR mistura formatos na planilha: string tipo 'R$ 1.234,56'
+    (formato BR, precisa trocar . por milhar e , por decimal) e número puro
+    já convertido pelo Excel/pandas (ex: 394.19999999999993, erro de ponto
+    flutuante). Tratar os dois como string cegamente destrói o segundo caso
+    (o replace('.', '') vira '39419999999999993' — bug confirmado em
+    2026-07-23, gerou 'Valor Agendado' de R$ 209 quatrilhões no KPI)."""
     if pd.isna(v):
         return 0.0
+    if isinstance(v, (int, float)):
+        return round(float(v), 2)
     limpo = re.sub(r'[^\d,.-]', '', str(v)).replace('.', '').replace(',', '.')
     try:
         return float(limpo)

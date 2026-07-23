@@ -188,23 +188,23 @@ if (!DATA) {
     '<tr><td colspan="9" class="empty">Dados não encontrados. Execute exportacao_agendamento.py / email_pedidos.py.</td></tr>';
 } else {
   document.getElementById('header-sub').textContent = 'Atualizado ' + DATA.atualizado_em;
-  montarKpis();
   montarTabs();
   montarFiltros();
   aplicarFiltro();
 }
 
-function montarKpis() {
-  const itensAgend = _itensAgendamentoFlat();
-  const comparativo = DATA.comparativo || [];
+function montarKpis(itensAgend, comparativo) {
   const pendentes = comparativo.filter(p => _piorStatus(p.itens) !== 'Faturado').length;
   const totalAgendado = itensAgend.reduce((acc, i) => acc + (Number(i.valor) || 0), 0);
+  const filtrado = _abaAtual === 'agendamentos'
+    ? itensAgend.length !== _itensAgendamentoFlat().length
+    : comparativo.length !== (DATA.comparativo || []).length;
 
   document.getElementById('kpis').innerHTML = `
-    <div class="kpi"><div class="label">Registros na Planilha</div><div class="val">${itensAgend.length}</div></div>
-    <div class="kpi"><div class="label">Valor Agendado</div><div class="val">${_fmtMoeda(totalAgendado)}</div></div>
-    <div class="kpi"><div class="label">Pedidos por E-mail</div><div class="val">${comparativo.length}</div></div>
-    <div class="kpi"><div class="label">Pendentes/Parciais</div><div class="val" style="color:var(--orange)">${pendentes}</div></div>
+    <div class="kpi"><div class="label">Registros na Planilha${filtrado && _abaAtual === 'agendamentos' ? ' (filtrado)' : ''}</div><div class="val">${itensAgend.length}</div></div>
+    <div class="kpi"><div class="label">Valor Agendado${filtrado && _abaAtual === 'agendamentos' ? ' (filtrado)' : ''}</div><div class="val">${_fmtMoeda(totalAgendado)}</div></div>
+    <div class="kpi"><div class="label">Pedidos por E-mail${filtrado && _abaAtual === 'comparativo' ? ' (filtrado)' : ''}</div><div class="val">${comparativo.length}</div></div>
+    <div class="kpi"><div class="label">Pendentes/Parciais${filtrado && _abaAtual === 'comparativo' ? ' (filtrado)' : ''}</div><div class="val" style="color:var(--orange)">${pendentes}</div></div>
   `;
 }
 
@@ -299,6 +299,7 @@ function aplicarFiltro() {
     }
     itens.sort((a, b) => (b.data_ord || '').localeCompare(a.data_ord || ''));
     renderAgendamentos(itens);
+    montarKpis(itens, DATA.comparativo || []);
   } else {
     let pedidos = DATA.comparativo || [];
     if (vend) pedidos = pedidos.filter(p => p.rca === vend);
@@ -312,6 +313,7 @@ function aplicarFiltro() {
       );
     }
     renderComparativo(pedidos);
+    montarKpis(_itensAgendamentoFlat(), pedidos);
   }
 }
 
