@@ -24300,7 +24300,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "23/07/2026 13:24",
+  "atualizado_em": "23/07/2026 13:27",
   "comparativo": [
     {
       "msg_id": "19f8f0d0054f43bd",
@@ -24362,7 +24362,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "SUPERPAO - PAISSANDU",
       "cnpj": "05.951.912/0001-62",
       "rca": "153 - ÂNGELO NEVES SUZART - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "45",
       "obs": "entregar no dia 27107 com pagamento de descarga no valor de R$600,00 por pallets e horario das 08:00 as 15:00hr por ordem de chegada",
       "itens": [
@@ -24414,7 +24414,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "SUPERPAO - PAISSANDU",
       "cnpj": "05.951.912/0001-62",
       "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "45 dias",
       "obs": "",
       "itens": [
@@ -24466,7 +24466,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "CGX COMERCIO DE ALIMENTOS",
       "cnpj": "15.580.294/0001-45",
       "rca": "379 - JORGE MACIEL - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "21 DIAS",
       "obs": "OBS:",
       "itens": [
@@ -24500,7 +24500,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "CGX COMERCIO DE ALIMENTOS",
       "cnpj": "15.580.294/0001-45",
       "rca": "379 - JORGE MACIEL - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "21 DIAS",
       "obs": "OBS:",
       "itens": [
@@ -24534,7 +24534,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "CGX COMERCIO DE ALIMENTOS",
       "cnpj": "15.580.294/0001-45",
       "rca": "379 - JORGE MACIEL - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "21 DIAS",
       "obs": "",
       "itens": [
@@ -24568,7 +24568,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "PRECO OTIMO SUPERMERCADO",
       "cnpj": "00.814.712/0001-44",
       "rca": "439 - MATEUS CARDOSO - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "14 DIAS",
       "obs": "HORARIO ENTREGA COMERCIAL | ROTA VIAGEM DIA 23/07",
       "itens": [
@@ -24672,7 +24672,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "BARRA CARNES",
       "cnpj": "29.094.240/0001-84",
       "rca": "144 DIOGO RAPOSO",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "21 DIAS",
       "obs": "ENTREGAR NO DIA 22/07 NÃO TEM DESCARGA HORARIO DEPOIS DAS 8",
       "itens": [
@@ -24774,7 +24774,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "MERCADO JUZAN FILIAL",
       "cnpj": "32.455.926/0002-49",
       "rca": "450 - LEANDRO SOUZA - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -24898,7 +24898,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "MERCADO ATAKAREJO FILIAL",
       "cnpj": "07.258.484/0002-01",
       "rca": "450 - LEANDRO SOUZA - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -25058,7 +25058,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "MERCADO ATAKAREJO",
       "cnpj": "07.258.484/0001-12",
       "rca": "450 - LEANDRO SOUZA - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -25236,7 +25236,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "MERCADO JUZAN",
       "cnpj": "32.455.926/0001-68",
       "rca": "450 - LEANDRO SOUZA - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -25405,7 +25405,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "SUPERMARKET",
       "cnpj": "08.628.825/0001-67",
       "rca": "450 - LEANDRO SOUZA - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -25448,7 +25448,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "REDE SUPERMARKET (PADRÃO DO FONSECA - IT)",
       "cnpj": "08.628.825/0004-00",
       "rca": "450 - LEANDRO SOUZA - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -25534,7 +25534,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "SUPERMARKET",
       "cnpj": "08.628.825/0024-53",
       "rca": "450 - LEANDRO SOUZA - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -25586,7 +25586,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "SUPERMARKET",
       "cnpj": "08.628.825/0025-34",
       "rca": "450 - LEANDRO SOUZA - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -26538,7 +26538,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "MERCADO RC DE MIGUEL PEREIRA",
       "cnpj": "52.509.395/0001-43",
       "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "35 DIAS",
       "obs": "entregar no dia 23/07 com pagamento de descarga no valor de R$ 860,00 por pallets e horario das 08:00 as 15:00h por ordem de chegada",
       "itens": [
@@ -26617,7 +26617,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "ATACADO DAS BEBIDAS",
       "cnpj": "24.305.769/0001-86",
       "rca": "450 - LEANDRO PEREIRA DE SOUZA",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "14",
       "obs": "",
       "itens": [
@@ -26764,7 +26764,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "SUPERMERCADO CATIRA",
       "cnpj": "39.406.722/0001-86",
       "rca": "450 - Leandro Pereira",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "texto do campo OBS",
       "itens": [
@@ -26852,7 +26852,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "MERCADO RONDA ALTA",
       "cnpj": "12.044.117/0002-37",
       "rca": "450 - Leandro Pereira",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -26958,7 +26958,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "LIDERANCA",
       "cnpj": "12.044.117/0001-56",
       "rca": "450 - Leandro Pereira",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -27019,7 +27019,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "SUPERMERCADO SAO TARCISIO LTDA",
       "cnpj": "32.916.969/0001-01",
       "rca": "450 - Leandro Pereira",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -27134,7 +27134,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "FARINHA PURA",
       "cnpj": "29.298.312/0001-05",
       "rca": "471 - ANA CLARA FASSANO",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -27608,7 +27608,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "RIO SUL",
       "cnpj": "19.722.068/0001-02",
       "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "entregar no dia 21/07 com pagamento de descarga no valor de R$60,00 por pallets e horario das 08:00 as 15:00hr por ordem de chegada",
       "itens": [
@@ -27633,7 +27633,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "RIO SUL",
       "cnpj": "19.722.068/0001-02",
       "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "entregar no dia 21/07 com pagamento de descarga no valor de R$60,00 por pallets e horario das 08:00 as 15:00hr por ordem de chegada",
       "itens": [
@@ -27658,7 +27658,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "LUCAS DA SILVA GOMES",
       "cnpj": "37.598.352/0001-09",
       "rca": "419 - NÁTALI DE OLIVEIRA - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "data entrega: 10/07. após as 10h",
       "obs": "",
       "itens": [
@@ -27683,7 +27683,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "SUPERMERCADOS CELEIRO - CAMPO GRANDE",
       "cnpj": "07.678.203/0001-80",
       "rca": "419 - NÁTALI DE OLIVEIRA - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -27735,7 +27735,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "MERCADO RC DE MIGUEL PEREIRA",
       "cnpj": "52.909.395/0001-43",
       "rca": "153 - ÂNGELO NEVES SUZART - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "35 DIAS",
       "obs": "entregar no dia 23/07 com pagamento de descarga no valor de R$60,00 por pallets de borda das 08:00 às 15:00hor por ordem de chegada",
       "itens": [
@@ -27805,7 +27805,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "RIO SUL",
       "cnpj": "19.722.068/0001-02",
       "rca": "153 - ÂNGELO NEVES SUZART - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "entregar no dia 21/07 com pagamento de descarga no valor de R$60,00 por pallets e horario das 08:00 as 15:00h por ordem de chegada",
       "itens": [
@@ -27855,7 +27855,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "COLDBEER",
       "cnpj": "54.040.344/0001-53",
       "rca": "144 - DIOGO RAPOSO - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "7/14/21",
       "obs": "",
       "itens": [
@@ -28013,7 +28013,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "SUPERMERCADO CASA DO SABÃO",
       "cnpj": "29.310.554/0002-58",
       "rca": "275 - MARIA LUIZA DE MELO",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28",
       "obs": "CRC - Filial 4 com 27%",
       "itens": [
@@ -28065,7 +28065,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "MERCADO RIO SUL DE PARADA ANGELICA",
       "cnpj": "CNPJ 3.475.000/0001-05",
       "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "entregar no dia 20/07 com pagamento de descarga no valor de R$60,00 por pallets e horario das 08:00 as 15:00hr por ordem de chegada",
       "itens": [
@@ -28135,7 +28135,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "MINIMERCADO SAO JORGE",
       "cnpj": "39.452.271/0001-13",
       "rca": "379 - JORGE MACIEL - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "21 dias",
       "obs": "",
       "itens": [
@@ -28196,7 +28196,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "SUPERMERCADO ULTRA 12",
       "cnpj": "05.669.831/0001-74",
       "rca": "471 - ANA CLARA FASSANO - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -28221,7 +28221,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "RIO SUL DO PILAR",
       "cnpj": "33.255.424/0001-56",
       "rca": "153 - ANGELO NEVES SUZART",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "entregar no dia 20/07 com pagamento de descarga no valor de R$60,00 por pallets e horario das 08:00 as 15:00hr por ordem de chegada",
       "itens": [
@@ -28345,7 +28345,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "RIO SUL DO PILAR",
       "cnpj": "33.255.424/0001-56",
       "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "entregar no dia 20/07 com pagamento de descarga no valor de R$60,00 por pallets e horario das 08:00 as 15:00hr por ordem de chegada",
       "itens": [
@@ -28424,7 +28424,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "SUPERMARKET SÃO JOÃO III",
       "cnpj": "05.546.194/0029-40",
       "rca": "450 - LEANDRO SOUZA - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -28467,7 +28467,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "SUPERMARKET SÃO JOÃO III",
       "cnpj": "05.546.194/0029-40",
       "rca": "450 - LEANDRO SOUZA",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -28501,7 +28501,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "SUPERMARKET PAVUNA",
       "cnpj": "00.546.194/0028-69",
       "rca": "450 - LEANDRO SOUZA",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -28544,7 +28544,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "SUPERMARKET PAVUNA",
       "cnpj": "05.546.194/0028-69",
       "rca": "450 - LEANDRO SOUZA",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -28578,7 +28578,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "G.M.A.P. SUPERMERCADOS",
       "cnpj": "05.546.194/0027-88",
       "rca": "450 - LEANDRO SOUZA - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -28621,7 +28621,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "G.M.A.P. SUPERMERCADOS",
       "cnpj": "05.546.194/0027-88",
       "rca": "450 - LEANDRO SOUZA",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -28664,7 +28664,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "G.M.A.P. SUPERMERCADOS S.A.",
       "cnpj": "05.546.194/0026-05",
       "rca": "450 - LEANDRO SOUZA - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -28707,7 +28707,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "G.M.A.P. SUPERMERCADOS S.A.",
       "cnpj": "05.546.194/0026-05",
       "rca": "450 - LEANDRO SOUZA",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -28750,7 +28750,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "G.M.A.P. SUPERMERCADOS",
       "cnpj": "05.546.194/0025-16",
       "rca": "450 - LEANDRO SOUZA - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -28793,7 +28793,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "G.M.A.P. SUPERMERCADOS",
       "cnpj": "05.546.194/0025-16",
       "rca": "450 - LEANDRO SOUZA - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -28845,7 +28845,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "G.M.A.P. SUPERMERCADOS",
       "cnpj": "05.546.194/0024-35",
       "rca": "450 - LEANDRO SOUZA - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -28888,7 +28888,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "G.M.A.P. SUPERMERCADOS",
       "cnpj": "05.546.194/0024-35",
       "rca": "450 - LEANDRO SOUZA - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -28931,7 +28931,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "GMAP SUPERMERCADOS",
       "cnpj": "05.546.194/0023-54",
       "rca": "450 - LEANDRO SOUZA",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -29037,7 +29037,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "GMAP SUPERMERCADOS",
       "cnpj": "05.546.194/0023-54",
       "rca": "450 - LEANDRO SOUZA",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -29116,7 +29116,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "G.M.A.P. SUPERMERCADOS",
       "cnpj": "05.546.194/0021-92",
       "rca": "450 - LEANDRO SOUZA - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -29159,7 +29159,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "G.M.A.P. SUPERMERCADOS",
       "cnpj": "05.546.194/0021-92",
       "rca": "450 - LEANDRO SOUZA - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -29202,7 +29202,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "G.M.A.P. SUPERMERCADOS",
       "cnpj": "05.546.194/0019-78",
       "rca": "450 - LEANDRO SOUZA",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -29245,7 +29245,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "G.M.A.P. SUPERMERCADOS",
       "cnpj": "05.546.194/0019-78",
       "rca": "450 - LEANDRO SOUZA",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -29288,7 +29288,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "SUPERMARKET",
       "cnpj": "05.546.194/0018-97",
       "rca": "450 - LEANDRO SOUZA - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -29428,7 +29428,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "G.M.A.P. SUPERMERCADOS",
       "cnpj": "05.546.194/0017-06",
       "rca": "450 - LEANDRO SOUZA",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -29480,7 +29480,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "G.M.A.P. SUPERMERCADOS",
       "cnpj": "05.546.194/0016-25",
       "rca": "450 - LEANDRO SOUZA - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -29523,7 +29523,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "G.M.A.P. SUPERMERCADOS",
       "cnpj": "05.546.194/0016-25",
       "rca": "450 - LEANDRO SOUZA - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -29557,7 +29557,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "SUPERMARKET",
       "cnpj": "05.546.194/0015-44",
       "rca": "450 - LEANDRO SOUZA - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -29663,7 +29663,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "SUPERMARKET",
       "cnpj": "05.546.194/0015-44",
       "rca": "450 - LEANDRO SOUZA",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -29742,7 +29742,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "G.M.A.P. SUPERMERCADOS S.A.",
       "cnpj": "05.546.194/0013-82",
       "rca": "450 - LEANDRO SOUZA - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -29785,7 +29785,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "G.M.A.P. SUPERMERCADOS S.A.",
       "cnpj": "05.546.194/0012-00",
       "rca": "450 - LEANDRO SOUZA - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -29828,7 +29828,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "G.M.A.P. SUPERMERCADOS S.A.",
       "cnpj": "05.546.194/0012-00",
       "rca": "450 - LEANDRO SOUZA - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -29853,7 +29853,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "G.M.A.P. SUPERMERCADOS S.A.",
       "cnpj": "05.546.194/0009-04",
       "rca": "450 - LEANDRO SOUZA",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
@@ -29896,7 +29896,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "G.M.A.P. SUPERMERCADOS S.A.",
       "cnpj": "05.546.194/0009-04",
       "rca": "450 - LEANDRO SOUZA - OFF TRADE",
-      "bonificacao": true,
+      "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
       "itens": [
