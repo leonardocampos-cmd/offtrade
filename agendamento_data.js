@@ -24300,7 +24300,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "23/07/2026 13:42",
+  "atualizado_em": "23/07/2026 13:47",
   "comparativo": [
     {
       "msg_id": "19f8f0d0054f43bd",
@@ -24324,7 +24324,9 @@ const AGENDAMENTO_DATA = {
           "total": 1416.0,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Pendente"
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -24350,7 +24352,9 @@ const AGENDAMENTO_DATA = {
           "total": 592.2,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Pendente"
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -24376,7 +24380,9 @@ const AGENDAMENTO_DATA = {
           "total": 1357.8,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Pendente"
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "3789",
@@ -24386,7 +24392,9 @@ const AGENDAMENTO_DATA = {
           "total": 852.0,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Pendente"
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "2848",
@@ -24396,7 +24404,9 @@ const AGENDAMENTO_DATA = {
           "total": 270.0,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Pendente"
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "2704",
@@ -24406,7 +24416,9 @@ const AGENDAMENTO_DATA = {
           "total": 303.6,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Pendente"
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -24432,7 +24444,9 @@ const AGENDAMENTO_DATA = {
           "total": 1357.8,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Pendente"
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "3789",
@@ -24442,7 +24456,9 @@ const AGENDAMENTO_DATA = {
           "total": 852.0,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Pendente"
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "2848",
@@ -24452,7 +24468,9 @@ const AGENDAMENTO_DATA = {
           "total": 3414.0,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Pendente"
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "2704",
@@ -24462,7 +24480,9 @@ const AGENDAMENTO_DATA = {
           "total": 310.8,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Pendente"
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -24488,7 +24508,9 @@ const AGENDAMENTO_DATA = {
           "total": 539.4,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Pendente"
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "70",
@@ -24498,7 +24520,9 @@ const AGENDAMENTO_DATA = {
           "total": 623.4,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Pendente"
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -24524,7 +24548,9 @@ const AGENDAMENTO_DATA = {
           "total": 539.4,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Pendente"
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "70",
@@ -24534,7 +24560,9 @@ const AGENDAMENTO_DATA = {
           "total": 623.4,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Pendente"
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -24560,7 +24588,9 @@ const AGENDAMENTO_DATA = {
           "total": 539.4,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Pendente"
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "70",
@@ -24570,7 +24600,9 @@ const AGENDAMENTO_DATA = {
           "total": 623.4,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Pendente"
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -24596,7 +24628,9 @@ const AGENDAMENTO_DATA = {
           "total": 718.8,
           "qt_faturada": 12.0,
           "valor_faturado": 718.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6871",
+          "agendado": true
         },
         {
           "cod_prod": "4892",
@@ -24606,7 +24640,9 @@ const AGENDAMENTO_DATA = {
           "total": 718.8,
           "qt_faturada": 12.0,
           "valor_faturado": 718.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6871",
+          "agendado": true
         },
         {
           "cod_prod": "7107",
@@ -24616,7 +24652,9 @@ const AGENDAMENTO_DATA = {
           "total": 438.0,
           "qt_faturada": 6.0,
           "valor_faturado": 438.0,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6871",
+          "agendado": true
         },
         {
           "cod_prod": "4343",
@@ -24626,7 +24664,9 @@ const AGENDAMENTO_DATA = {
           "total": 262.8,
           "qt_faturada": 12.0,
           "valor_faturado": 262.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6871",
+          "agendado": true
         },
         {
           "cod_prod": "4598",
@@ -24636,7 +24676,9 @@ const AGENDAMENTO_DATA = {
           "total": 262.8,
           "qt_faturada": 12.0,
           "valor_faturado": 262.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6871",
+          "agendado": true
         },
         {
           "cod_prod": "99",
@@ -24646,7 +24688,9 @@ const AGENDAMENTO_DATA = {
           "total": 850.8,
           "qt_faturada": 12.0,
           "valor_faturado": 850.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6871",
+          "agendado": true
         }
       ]
     },
@@ -24672,7 +24716,9 @@ const AGENDAMENTO_DATA = {
           "total": 394.8,
           "qt_faturada": 2.0,
           "valor_faturado": 394.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6872",
+          "agendado": true
         },
         {
           "cod_prod": "6801",
@@ -24682,7 +24728,9 @@ const AGENDAMENTO_DATA = {
           "total": 394.8,
           "qt_faturada": 2.0,
           "valor_faturado": 394.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6872",
+          "agendado": true
         }
       ]
     },
@@ -24708,7 +24756,9 @@ const AGENDAMENTO_DATA = {
           "total": 359.8,
           "qt_faturada": 3.0,
           "valor_faturado": 539.7,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "2614",
@@ -24718,7 +24768,9 @@ const AGENDAMENTO_DATA = {
           "total": 358.8,
           "qt_faturada": 18.0,
           "valor_faturado": 538.2,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -24744,7 +24796,9 @@ const AGENDAMENTO_DATA = {
           "total": 179.9,
           "qt_faturada": 3.0,
           "valor_faturado": 539.7,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "2614",
@@ -24754,7 +24808,9 @@ const AGENDAMENTO_DATA = {
           "total": 179.4,
           "qt_faturada": 18.0,
           "valor_faturado": 538.2,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -24780,7 +24836,9 @@ const AGENDAMENTO_DATA = {
           "total": 359.8,
           "qt_faturada": 3.0,
           "valor_faturado": 539.7,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "2614",
@@ -24790,7 +24848,9 @@ const AGENDAMENTO_DATA = {
           "total": 358.8,
           "qt_faturada": 18.0,
           "valor_faturado": 538.2,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -24816,7 +24876,9 @@ const AGENDAMENTO_DATA = {
           "total": 285.6,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "663",
@@ -24826,7 +24888,9 @@ const AGENDAMENTO_DATA = {
           "total": 207.0,
           "qt_faturada": 6.0,
           "valor_faturado": 207.0,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6875",
+          "agendado": false
         },
         {
           "cod_prod": "3919",
@@ -24836,7 +24900,9 @@ const AGENDAMENTO_DATA = {
           "total": 65.1,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "1212",
@@ -24846,7 +24912,9 @@ const AGENDAMENTO_DATA = {
           "total": 273.96,
           "qt_faturada": 6.0,
           "valor_faturado": 136.98,
-          "status": "Parcial"
+          "status": "Parcial",
+          "nf": "6875",
+          "agendado": false
         },
         {
           "cod_prod": "3433",
@@ -24856,7 +24924,9 @@ const AGENDAMENTO_DATA = {
           "total": 40.41,
           "qt_faturada": 6.0,
           "valor_faturado": 242.46,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6875",
+          "agendado": false
         },
         {
           "cod_prod": "218",
@@ -24866,7 +24936,9 @@ const AGENDAMENTO_DATA = {
           "total": 86.66,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "4374",
@@ -24876,7 +24948,9 @@ const AGENDAMENTO_DATA = {
           "total": 86.66,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "3819",
@@ -24886,7 +24960,9 @@ const AGENDAMENTO_DATA = {
           "total": 86.66,
           "qt_faturada": 6.0,
           "valor_faturado": 519.96,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6875",
+          "agendado": false
         },
         {
           "cod_prod": "3817",
@@ -24896,7 +24972,9 @@ const AGENDAMENTO_DATA = {
           "total": 86.66,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "1834",
@@ -24906,7 +24984,9 @@ const AGENDAMENTO_DATA = {
           "total": 86.66,
           "qt_faturada": 2.0,
           "valor_faturado": 173.32,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6875",
+          "agendado": false
         },
         {
           "cod_prod": "218",
@@ -24916,7 +24996,9 @@ const AGENDAMENTO_DATA = {
           "total": 86.66,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "479",
@@ -24926,7 +25008,9 @@ const AGENDAMENTO_DATA = {
           "total": 86.66,
           "qt_faturada": 12.0,
           "valor_faturado": 1039.92,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6875",
+          "agendado": false
         }
       ]
     },
@@ -24952,7 +25036,9 @@ const AGENDAMENTO_DATA = {
           "total": 142.8,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "266",
@@ -24962,7 +25048,9 @@ const AGENDAMENTO_DATA = {
           "total": 966.84,
           "qt_faturada": 1.0,
           "valor_faturado": 80.57,
-          "status": "Parcial"
+          "status": "Parcial",
+          "nf": "6873",
+          "agendado": false
         },
         {
           "cod_prod": "1212",
@@ -24972,7 +25060,9 @@ const AGENDAMENTO_DATA = {
           "total": 136.98,
           "qt_faturada": 6.0,
           "valor_faturado": 136.98,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6873",
+          "agendado": false
         },
         {
           "cod_prod": "3919",
@@ -24982,7 +25072,9 @@ const AGENDAMENTO_DATA = {
           "total": 60.3,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "66",
@@ -24992,7 +25084,9 @@ const AGENDAMENTO_DATA = {
           "total": 870.66,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "4374",
@@ -25002,7 +25096,9 @@ const AGENDAMENTO_DATA = {
           "total": 870.66,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "479",
@@ -25012,7 +25108,9 @@ const AGENDAMENTO_DATA = {
           "total": 159.9,
           "qt_faturada": 12.0,
           "valor_faturado": 319.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6873",
+          "agendado": false
         },
         {
           "cod_prod": "64",
@@ -25022,7 +25120,9 @@ const AGENDAMENTO_DATA = {
           "total": 159.9,
           "qt_faturada": 6.0,
           "valor_faturado": 159.9,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6873",
+          "agendado": false
         },
         {
           "cod_prod": "2388",
@@ -25032,7 +25132,9 @@ const AGENDAMENTO_DATA = {
           "total": 643.8,
           "qt_faturada": 1.0,
           "valor_faturado": 107.3,
-          "status": "Parcial"
+          "status": "Parcial",
+          "nf": "6873",
+          "agendado": false
         },
         {
           "cod_prod": "2581",
@@ -25042,7 +25144,9 @@ const AGENDAMENTO_DATA = {
           "total": 643.8,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "231",
@@ -25052,7 +25156,9 @@ const AGENDAMENTO_DATA = {
           "total": 778.92,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "318",
@@ -25062,7 +25168,9 @@ const AGENDAMENTO_DATA = {
           "total": 778.92,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "411",
@@ -25072,7 +25180,9 @@ const AGENDAMENTO_DATA = {
           "total": 319.8,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "412",
@@ -25082,7 +25192,9 @@ const AGENDAMENTO_DATA = {
           "total": 319.8,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "413",
@@ -25092,7 +25204,9 @@ const AGENDAMENTO_DATA = {
           "total": 778.92,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "414",
@@ -25102,7 +25216,9 @@ const AGENDAMENTO_DATA = {
           "total": 231.6,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -25128,7 +25244,9 @@ const AGENDAMENTO_DATA = {
           "total": 285.6,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "266",
@@ -25138,7 +25256,9 @@ const AGENDAMENTO_DATA = {
           "total": 80.57,
           "qt_faturada": 1.0,
           "valor_faturado": 80.57,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6874",
+          "agendado": false
         },
         {
           "cod_prod": "4009",
@@ -25148,7 +25268,9 @@ const AGENDAMENTO_DATA = {
           "total": 11.72,
           "qt_faturada": 6.0,
           "valor_faturado": 70.32,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6874",
+          "agendado": false
         },
         {
           "cod_prod": "1823",
@@ -25158,7 +25280,9 @@ const AGENDAMENTO_DATA = {
           "total": 25.85,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "66",
@@ -25168,7 +25292,9 @@ const AGENDAMENTO_DATA = {
           "total": 145.11,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "4374",
@@ -25178,7 +25304,9 @@ const AGENDAMENTO_DATA = {
           "total": 145.11,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "479",
@@ -25188,7 +25316,9 @@ const AGENDAMENTO_DATA = {
           "total": 86.66,
           "qt_faturada": 18.0,
           "valor_faturado": 1559.88,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6874",
+          "agendado": false
         },
         {
           "cod_prod": "21",
@@ -25198,7 +25328,9 @@ const AGENDAMENTO_DATA = {
           "total": 257.94,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "66",
@@ -25208,7 +25340,9 @@ const AGENDAMENTO_DATA = {
           "total": 38.14,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "66",
@@ -25218,7 +25352,9 @@ const AGENDAMENTO_DATA = {
           "total": 38.14,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "66",
@@ -25228,7 +25364,9 @@ const AGENDAMENTO_DATA = {
           "total": 38.14,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "66",
@@ -25238,7 +25376,9 @@ const AGENDAMENTO_DATA = {
           "total": 69.41,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "66",
@@ -25248,7 +25388,9 @@ const AGENDAMENTO_DATA = {
           "total": 38.14,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "66",
@@ -25258,7 +25400,9 @@ const AGENDAMENTO_DATA = {
           "total": 38.14,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "66",
@@ -25268,7 +25412,9 @@ const AGENDAMENTO_DATA = {
           "total": 38.14,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "66",
@@ -25278,7 +25424,9 @@ const AGENDAMENTO_DATA = {
           "total": 38.14,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "66",
@@ -25288,7 +25436,9 @@ const AGENDAMENTO_DATA = {
           "total": 38.14,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "1834",
@@ -25298,7 +25448,9 @@ const AGENDAMENTO_DATA = {
           "total": 47.17,
           "qt_faturada": 3.0,
           "valor_faturado": 141.51,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6874",
+          "agendado": false
         }
       ]
     },
@@ -25324,7 +25476,9 @@ const AGENDAMENTO_DATA = {
           "total": 285.6,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "3919",
@@ -25334,7 +25488,9 @@ const AGENDAMENTO_DATA = {
           "total": 60.3,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "663",
@@ -25344,7 +25500,9 @@ const AGENDAMENTO_DATA = {
           "total": 69.0,
           "qt_faturada": 3.0,
           "valor_faturado": 103.5,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6876",
+          "agendado": false
         },
         {
           "cod_prod": "1823",
@@ -25354,7 +25512,9 @@ const AGENDAMENTO_DATA = {
           "total": 155.1,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "99",
@@ -25364,7 +25524,9 @@ const AGENDAMENTO_DATA = {
           "total": 129.82,
           "qt_faturada": 1.0,
           "valor_faturado": 64.91,
-          "status": "Parcial"
+          "status": "Parcial",
+          "nf": "6876",
+          "agendado": false
         },
         {
           "cod_prod": "621",
@@ -25374,7 +25536,9 @@ const AGENDAMENTO_DATA = {
           "total": 76.28,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "574",
@@ -25384,7 +25548,9 @@ const AGENDAMENTO_DATA = {
           "total": 76.28,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "418",
@@ -25394,7 +25560,9 @@ const AGENDAMENTO_DATA = {
           "total": 34.9,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "177",
@@ -25404,7 +25572,9 @@ const AGENDAMENTO_DATA = {
           "total": 34.9,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "479",
@@ -25414,7 +25584,9 @@ const AGENDAMENTO_DATA = {
           "total": 76.28,
           "qt_faturada": 24.0,
           "valor_faturado": 915.36,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6876",
+          "agendado": false
         },
         {
           "cod_prod": "418",
@@ -25424,7 +25596,9 @@ const AGENDAMENTO_DATA = {
           "total": 34.9,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "4374",
@@ -25434,7 +25608,9 @@ const AGENDAMENTO_DATA = {
           "total": 38.14,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "4378",
@@ -25444,7 +25620,9 @@ const AGENDAMENTO_DATA = {
           "total": 38.14,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "479",
@@ -25454,7 +25632,9 @@ const AGENDAMENTO_DATA = {
           "total": 38.14,
           "qt_faturada": 24.0,
           "valor_faturado": 915.36,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6876",
+          "agendado": false
         },
         {
           "cod_prod": "479",
@@ -25464,7 +25644,9 @@ const AGENDAMENTO_DATA = {
           "total": 38.14,
           "qt_faturada": 24.0,
           "valor_faturado": 915.36,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6876",
+          "agendado": false
         },
         {
           "cod_prod": "479",
@@ -25474,7 +25656,9 @@ const AGENDAMENTO_DATA = {
           "total": 38.14,
           "qt_faturada": 24.0,
           "valor_faturado": 915.36,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6876",
+          "agendado": false
         },
         {
           "cod_prod": "2851",
@@ -25484,7 +25668,9 @@ const AGENDAMENTO_DATA = {
           "total": 107.3,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -25510,7 +25696,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6870",
+          "agendado": true
         },
         {
           "cod_prod": "6256",
@@ -25520,7 +25708,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6870",
+          "agendado": true
         },
         {
           "cod_prod": "6259",
@@ -25530,7 +25720,9 @@ const AGENDAMENTO_DATA = {
           "total": 431.4,
           "qt_faturada": 5.0,
           "valor_faturado": 431.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6870",
+          "agendado": true
         }
       ]
     },
@@ -25556,7 +25748,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6877",
+          "agendado": true
         },
         {
           "cod_prod": "6256",
@@ -25566,7 +25760,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6877",
+          "agendado": true
         },
         {
           "cod_prod": "6259",
@@ -25576,7 +25772,9 @@ const AGENDAMENTO_DATA = {
           "total": 431.4,
           "qt_faturada": 5.0,
           "valor_faturado": 431.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6877",
+          "agendado": true
         }
       ]
     },
@@ -25602,7 +25800,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6878",
+          "agendado": true
         },
         {
           "cod_prod": "6256",
@@ -25612,7 +25812,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6878",
+          "agendado": true
         },
         {
           "cod_prod": "6259",
@@ -25622,7 +25824,9 @@ const AGENDAMENTO_DATA = {
           "total": 431.4,
           "qt_faturada": 5.0,
           "valor_faturado": 431.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6878",
+          "agendado": true
         }
       ]
     },
@@ -25648,7 +25852,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6881",
+          "agendado": true
         },
         {
           "cod_prod": "6256",
@@ -25658,7 +25864,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6881",
+          "agendado": true
         },
         {
           "cod_prod": "6259",
@@ -25668,7 +25876,9 @@ const AGENDAMENTO_DATA = {
           "total": 431.4,
           "qt_faturada": 5.0,
           "valor_faturado": 431.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6881",
+          "agendado": true
         },
         {
           "cod_prod": "6334",
@@ -25678,7 +25888,9 @@ const AGENDAMENTO_DATA = {
           "total": 155.28,
           "qt_faturada": 1.0,
           "valor_faturado": 155.28,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6881",
+          "agendado": true
         }
       ]
     },
@@ -25704,7 +25916,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6879",
+          "agendado": true
         },
         {
           "cod_prod": "6256",
@@ -25714,7 +25928,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6879",
+          "agendado": true
         },
         {
           "cod_prod": "6259",
@@ -25724,7 +25940,9 @@ const AGENDAMENTO_DATA = {
           "total": 431.4,
           "qt_faturada": 5.0,
           "valor_faturado": 431.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6879",
+          "agendado": true
         }
       ]
     },
@@ -25750,7 +25968,9 @@ const AGENDAMENTO_DATA = {
           "total": 285.6,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "663",
@@ -25760,7 +25980,9 @@ const AGENDAMENTO_DATA = {
           "total": 207.0,
           "qt_faturada": 6.0,
           "valor_faturado": 207.0,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6875",
+          "agendado": false
         },
         {
           "cod_prod": "3919",
@@ -25770,7 +25992,9 @@ const AGENDAMENTO_DATA = {
           "total": 60.3,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "1212",
@@ -25780,7 +26004,9 @@ const AGENDAMENTO_DATA = {
           "total": 136.98,
           "qt_faturada": 6.0,
           "valor_faturado": 136.98,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6875",
+          "agendado": false
         },
         {
           "cod_prod": "235",
@@ -25790,7 +26016,9 @@ const AGENDAMENTO_DATA = {
           "total": 231.72,
           "qt_faturada": 12.0,
           "valor_faturado": 231.72,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6875",
+          "agendado": false
         },
         {
           "cod_prod": "3433",
@@ -25800,7 +26028,9 @@ const AGENDAMENTO_DATA = {
           "total": 242.64,
           "qt_faturada": 6.0,
           "valor_faturado": 242.64,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6875",
+          "agendado": false
         },
         {
           "cod_prod": "218",
@@ -25810,7 +26040,9 @@ const AGENDAMENTO_DATA = {
           "total": 145.11,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "4374",
@@ -25820,7 +26052,9 @@ const AGENDAMENTO_DATA = {
           "total": 86.66,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "3819",
@@ -25830,7 +26064,9 @@ const AGENDAMENTO_DATA = {
           "total": 75.3,
           "qt_faturada": 6.0,
           "valor_faturado": 75.3,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6875",
+          "agendado": false
         },
         {
           "cod_prod": "99",
@@ -25840,7 +26076,9 @@ const AGENDAMENTO_DATA = {
           "total": 64.91,
           "qt_faturada": 1.0,
           "valor_faturado": 64.91,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6875",
+          "agendado": false
         },
         {
           "cod_prod": "54",
@@ -25850,7 +26088,9 @@ const AGENDAMENTO_DATA = {
           "total": 76.28,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "66",
@@ -25860,7 +26100,9 @@ const AGENDAMENTO_DATA = {
           "total": 19.3,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "418",
@@ -25870,7 +26112,9 @@ const AGENDAMENTO_DATA = {
           "total": 155.4,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "1834",
@@ -25880,7 +26124,9 @@ const AGENDAMENTO_DATA = {
           "total": 94.34,
           "qt_faturada": 2.0,
           "valor_faturado": 94.34,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6875",
+          "agendado": false
         },
         {
           "cod_prod": "479",
@@ -25890,7 +26136,9 @@ const AGENDAMENTO_DATA = {
           "total": 171.84,
           "qt_faturada": 12.0,
           "valor_faturado": 171.84,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6875",
+          "agendado": false
         }
       ]
     },
@@ -25916,7 +26164,9 @@ const AGENDAMENTO_DATA = {
           "total": 142.8,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "266",
@@ -25926,7 +26176,9 @@ const AGENDAMENTO_DATA = {
           "total": 80.57,
           "qt_faturada": 1.0,
           "valor_faturado": 80.57,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6873",
+          "agendado": false
         },
         {
           "cod_prod": "1212",
@@ -25936,7 +26188,9 @@ const AGENDAMENTO_DATA = {
           "total": 136.98,
           "qt_faturada": 6.0,
           "valor_faturado": 136.98,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6873",
+          "agendado": false
         },
         {
           "cod_prod": "3919",
@@ -25946,7 +26200,9 @@ const AGENDAMENTO_DATA = {
           "total": 60.3,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "66",
@@ -25956,7 +26212,9 @@ const AGENDAMENTO_DATA = {
           "total": 19.3,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "218",
@@ -25966,7 +26224,9 @@ const AGENDAMENTO_DATA = {
           "total": 145.11,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "4374",
@@ -25976,7 +26236,9 @@ const AGENDAMENTO_DATA = {
           "total": 86.66,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "479",
@@ -25986,7 +26248,9 @@ const AGENDAMENTO_DATA = {
           "total": 171.96,
           "qt_faturada": 12.0,
           "valor_faturado": 171.96,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6873",
+          "agendado": false
         },
         {
           "cod_prod": "64",
@@ -25996,7 +26260,9 @@ const AGENDAMENTO_DATA = {
           "total": 159.9,
           "qt_faturada": 6.0,
           "valor_faturado": 159.9,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6873",
+          "agendado": false
         },
         {
           "cod_prod": "2851",
@@ -26006,7 +26272,9 @@ const AGENDAMENTO_DATA = {
           "total": 107.3,
           "qt_faturada": 1.0,
           "valor_faturado": 107.3,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "2388",
@@ -26016,7 +26284,9 @@ const AGENDAMENTO_DATA = {
           "total": 107.3,
           "qt_faturada": 1.0,
           "valor_faturado": 107.3,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6873",
+          "agendado": false
         },
         {
           "cod_prod": "99",
@@ -26026,7 +26296,9 @@ const AGENDAMENTO_DATA = {
           "total": 64.91,
           "qt_faturada": 1.0,
           "valor_faturado": 64.91,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6873",
+          "agendado": false
         },
         {
           "cod_prod": "246",
@@ -26036,7 +26308,9 @@ const AGENDAMENTO_DATA = {
           "total": 42.1,
           "qt_faturada": 1.0,
           "valor_faturado": 42.1,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6873",
+          "agendado": false
         },
         {
           "cod_prod": "3819",
@@ -26046,7 +26320,9 @@ const AGENDAMENTO_DATA = {
           "total": 75.3,
           "qt_faturada": 6.0,
           "valor_faturado": 75.3,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6873",
+          "agendado": false
         },
         {
           "cod_prod": "235",
@@ -26056,7 +26332,9 @@ const AGENDAMENTO_DATA = {
           "total": 231.72,
           "qt_faturada": 12.0,
           "valor_faturado": 231.72,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6873",
+          "agendado": false
         },
         {
           "cod_prod": "418",
@@ -26066,7 +26344,9 @@ const AGENDAMENTO_DATA = {
           "total": 155.4,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "129",
@@ -26076,7 +26356,9 @@ const AGENDAMENTO_DATA = {
           "total": 118.0,
           "qt_faturada": 2.0,
           "valor_faturado": 118.0,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6873",
+          "agendado": false
         },
         {
           "cod_prod": "69",
@@ -26086,7 +26368,9 @@ const AGENDAMENTO_DATA = {
           "total": 19.3,
           "qt_faturada": 1.0,
           "valor_faturado": 19.3,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6873",
+          "agendado": false
         }
       ]
     },
@@ -26112,7 +26396,9 @@ const AGENDAMENTO_DATA = {
           "total": 285.6,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "266",
@@ -26122,7 +26408,9 @@ const AGENDAMENTO_DATA = {
           "total": 80.57,
           "qt_faturada": 1.0,
           "valor_faturado": 80.57,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6874",
+          "agendado": false
         },
         {
           "cod_prod": "4009",
@@ -26132,7 +26420,9 @@ const AGENDAMENTO_DATA = {
           "total": 70.32,
           "qt_faturada": 6.0,
           "valor_faturado": 70.32,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6874",
+          "agendado": false
         },
         {
           "cod_prod": "1823",
@@ -26142,7 +26432,9 @@ const AGENDAMENTO_DATA = {
           "total": 155.1,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "66",
@@ -26152,7 +26444,9 @@ const AGENDAMENTO_DATA = {
           "total": 19.3,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "218",
@@ -26162,7 +26456,9 @@ const AGENDAMENTO_DATA = {
           "total": 145.11,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "4374",
@@ -26172,7 +26468,9 @@ const AGENDAMENTO_DATA = {
           "total": 86.66,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "479",
@@ -26182,7 +26480,9 @@ const AGENDAMENTO_DATA = {
           "total": 257.94,
           "qt_faturada": 18.0,
           "valor_faturado": 257.94,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6874",
+          "agendado": false
         },
         {
           "cod_prod": "64",
@@ -26192,7 +26492,9 @@ const AGENDAMENTO_DATA = {
           "total": 159.9,
           "qt_faturada": 6.0,
           "valor_faturado": 159.9,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6874",
+          "agendado": false
         },
         {
           "cod_prod": "54",
@@ -26202,7 +26504,9 @@ const AGENDAMENTO_DATA = {
           "total": 76.28,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "51",
@@ -26212,7 +26516,9 @@ const AGENDAMENTO_DATA = {
           "total": 76.28,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "99",
@@ -26222,7 +26528,9 @@ const AGENDAMENTO_DATA = {
           "total": 64.91,
           "qt_faturada": 1.0,
           "valor_faturado": 64.91,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6874",
+          "agendado": false
         },
         {
           "cod_prod": "5305",
@@ -26232,7 +26540,9 @@ const AGENDAMENTO_DATA = {
           "total": 32.75,
           "qt_faturada": 1.0,
           "valor_faturado": 32.75,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6874",
+          "agendado": false
         },
         {
           "cod_prod": "3819",
@@ -26242,7 +26552,9 @@ const AGENDAMENTO_DATA = {
           "total": 75.3,
           "qt_faturada": 6.0,
           "valor_faturado": 75.3,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6874",
+          "agendado": false
         },
         {
           "cod_prod": "235",
@@ -26252,7 +26564,9 @@ const AGENDAMENTO_DATA = {
           "total": 231.72,
           "qt_faturada": 12.0,
           "valor_faturado": 231.72,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6874",
+          "agendado": false
         },
         {
           "cod_prod": "418",
@@ -26262,7 +26576,9 @@ const AGENDAMENTO_DATA = {
           "total": 155.4,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "178",
@@ -26272,7 +26588,9 @@ const AGENDAMENTO_DATA = {
           "total": 61.53,
           "qt_faturada": 3.0,
           "valor_faturado": 61.53,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6874",
+          "agendado": false
         },
         {
           "cod_prod": "69",
@@ -26282,7 +26600,9 @@ const AGENDAMENTO_DATA = {
           "total": 19.3,
           "qt_faturada": 1.0,
           "valor_faturado": 19.3,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6874",
+          "agendado": false
         },
         {
           "cod_prod": "1834",
@@ -26292,7 +26612,9 @@ const AGENDAMENTO_DATA = {
           "total": 141.51,
           "qt_faturada": 3.0,
           "valor_faturado": 141.51,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6874",
+          "agendado": false
         }
       ]
     },
@@ -26318,7 +26640,9 @@ const AGENDAMENTO_DATA = {
           "total": 285.6,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "3919",
@@ -26328,7 +26652,9 @@ const AGENDAMENTO_DATA = {
           "total": 60.3,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "663",
@@ -26338,7 +26664,9 @@ const AGENDAMENTO_DATA = {
           "total": 103.5,
           "qt_faturada": 3.0,
           "valor_faturado": 103.5,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6876",
+          "agendado": false
         },
         {
           "cod_prod": "1823",
@@ -26348,7 +26676,9 @@ const AGENDAMENTO_DATA = {
           "total": 155.1,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "99",
@@ -26358,7 +26688,9 @@ const AGENDAMENTO_DATA = {
           "total": 64.91,
           "qt_faturada": 1.0,
           "valor_faturado": 64.91,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6876",
+          "agendado": false
         },
         {
           "cod_prod": "52",
@@ -26368,7 +26700,9 @@ const AGENDAMENTO_DATA = {
           "total": 38.14,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "54",
@@ -26378,7 +26712,9 @@ const AGENDAMENTO_DATA = {
           "total": 76.28,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "66",
@@ -26388,7 +26724,9 @@ const AGENDAMENTO_DATA = {
           "total": 38.6,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "178",
@@ -26398,7 +26736,9 @@ const AGENDAMENTO_DATA = {
           "total": 123.06,
           "qt_faturada": 6.0,
           "valor_faturado": 123.06,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6876",
+          "agendado": false
         },
         {
           "cod_prod": "418",
@@ -26408,7 +26748,9 @@ const AGENDAMENTO_DATA = {
           "total": 155.4,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "235",
@@ -26418,7 +26760,9 @@ const AGENDAMENTO_DATA = {
           "total": 231.72,
           "qt_faturada": 12.0,
           "valor_faturado": 231.72,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6876",
+          "agendado": false
         },
         {
           "cod_prod": "218",
@@ -26428,7 +26772,9 @@ const AGENDAMENTO_DATA = {
           "total": 145.11,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "4374",
@@ -26438,7 +26784,9 @@ const AGENDAMENTO_DATA = {
           "total": 86.66,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "1834",
@@ -26448,7 +26796,9 @@ const AGENDAMENTO_DATA = {
           "total": 94.34,
           "qt_faturada": 2.0,
           "valor_faturado": 94.34,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6876",
+          "agendado": false
         },
         {
           "cod_prod": "3819",
@@ -26458,7 +26808,9 @@ const AGENDAMENTO_DATA = {
           "total": 75.3,
           "qt_faturada": 6.0,
           "valor_faturado": 75.3,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6876",
+          "agendado": false
         },
         {
           "cod_prod": "479",
@@ -26468,7 +26820,9 @@ const AGENDAMENTO_DATA = {
           "total": 343.92,
           "qt_faturada": 24.0,
           "valor_faturado": 343.92,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6876",
+          "agendado": false
         },
         {
           "cod_prod": "2851",
@@ -26478,7 +26832,9 @@ const AGENDAMENTO_DATA = {
           "total": 107.3,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -26504,7 +26860,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6870",
+          "agendado": true
         },
         {
           "cod_prod": "6256",
@@ -26514,7 +26872,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6870",
+          "agendado": true
         },
         {
           "cod_prod": "6259",
@@ -26524,7 +26884,9 @@ const AGENDAMENTO_DATA = {
           "total": 431.4,
           "qt_faturada": 5.0,
           "valor_faturado": 431.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6870",
+          "agendado": true
         }
       ]
     },
@@ -26550,7 +26912,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6877",
+          "agendado": true
         },
         {
           "cod_prod": "6256",
@@ -26560,7 +26924,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6877",
+          "agendado": true
         },
         {
           "cod_prod": "6259",
@@ -26570,7 +26936,9 @@ const AGENDAMENTO_DATA = {
           "total": 431.4,
           "qt_faturada": 5.0,
           "valor_faturado": 431.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6877",
+          "agendado": true
         }
       ]
     },
@@ -26596,7 +26964,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6878",
+          "agendado": true
         },
         {
           "cod_prod": "6256",
@@ -26606,7 +26976,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6878",
+          "agendado": true
         },
         {
           "cod_prod": "6259",
@@ -26616,7 +26988,9 @@ const AGENDAMENTO_DATA = {
           "total": 431.4,
           "qt_faturada": 5.0,
           "valor_faturado": 431.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6878",
+          "agendado": true
         }
       ]
     },
@@ -26642,7 +27016,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6881",
+          "agendado": true
         },
         {
           "cod_prod": "6256",
@@ -26652,7 +27028,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6881",
+          "agendado": true
         },
         {
           "cod_prod": "6259",
@@ -26662,7 +27040,9 @@ const AGENDAMENTO_DATA = {
           "total": 431.4,
           "qt_faturada": 5.0,
           "valor_faturado": 431.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6881",
+          "agendado": true
         },
         {
           "cod_prod": "6334",
@@ -26672,7 +27052,9 @@ const AGENDAMENTO_DATA = {
           "total": 155.28,
           "qt_faturada": 1.0,
           "valor_faturado": 155.28,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6881",
+          "agendado": true
         }
       ]
     },
@@ -26698,7 +27080,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6879",
+          "agendado": true
         },
         {
           "cod_prod": "6256",
@@ -26708,7 +27092,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6879",
+          "agendado": true
         },
         {
           "cod_prod": "6259",
@@ -26718,7 +27104,9 @@ const AGENDAMENTO_DATA = {
           "total": 431.4,
           "qt_faturada": 5.0,
           "valor_faturado": 431.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6879",
+          "agendado": true
         }
       ]
     },
@@ -26744,7 +27132,9 @@ const AGENDAMENTO_DATA = {
           "total": 1220.4,
           "qt_faturada": 36.0,
           "valor_faturado": 1220.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6880",
+          "agendado": false
         },
         {
           "cod_prod": "3817",
@@ -26754,7 +27144,9 @@ const AGENDAMENTO_DATA = {
           "total": 644.4,
           "qt_faturada": 36.0,
           "valor_faturado": 644.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6880",
+          "agendado": false
         },
         {
           "cod_prod": "3814",
@@ -26764,7 +27156,9 @@ const AGENDAMENTO_DATA = {
           "total": 667.2,
           "qt_faturada": 48.0,
           "valor_faturado": 667.2,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6880",
+          "agendado": false
         },
         {
           "cod_prod": "3816",
@@ -26774,7 +27168,9 @@ const AGENDAMENTO_DATA = {
           "total": 667.2,
           "qt_faturada": 36.0,
           "valor_faturado": 500.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6880",
+          "agendado": false
         },
         {
           "cod_prod": "3818",
@@ -26784,7 +27180,9 @@ const AGENDAMENTO_DATA = {
           "total": 644.4,
           "qt_faturada": 24.0,
           "valor_faturado": 429.6,
-          "status": "Parcial"
+          "status": "Parcial",
+          "nf": "6880",
+          "agendado": false
         },
         {
           "cod_prod": "3827",
@@ -26794,7 +27192,9 @@ const AGENDAMENTO_DATA = {
           "total": 466.8,
           "qt_faturada": 12.0,
           "valor_faturado": 466.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6880",
+          "agendado": false
         },
         {
           "cod_prod": "3828",
@@ -26804,7 +27204,9 @@ const AGENDAMENTO_DATA = {
           "total": 466.8,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -26830,7 +27232,9 @@ const AGENDAMENTO_DATA = {
           "total": 1797,
           "qt_faturada": 3.0,
           "valor_faturado": 1797.0,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6838",
+          "agendado": true
         },
         {
           "cod_prod": "3839",
@@ -26840,7 +27244,9 @@ const AGENDAMENTO_DATA = {
           "total": 2258.82,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -26866,7 +27272,9 @@ const AGENDAMENTO_DATA = {
           "total": 862.8,
           "qt_faturada": 10.0,
           "valor_faturado": 862.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6830",
+          "agendado": true
         },
         {
           "cod_prod": "6256",
@@ -26876,7 +27284,9 @@ const AGENDAMENTO_DATA = {
           "total": 431.4,
           "qt_faturada": 5.0,
           "valor_faturado": 431.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6830",
+          "agendado": true
         },
         {
           "cod_prod": "6259",
@@ -26886,7 +27296,9 @@ const AGENDAMENTO_DATA = {
           "total": 1294.2,
           "qt_faturada": 15.0,
           "valor_faturado": 1294.2,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6830",
+          "agendado": true
         },
         {
           "cod_prod": "6334",
@@ -26896,7 +27308,9 @@ const AGENDAMENTO_DATA = {
           "total": 155.28,
           "qt_faturada": 1.0,
           "valor_faturado": 155.28,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6830",
+          "agendado": true
         },
         {
           "cod_prod": "6254",
@@ -26906,7 +27320,9 @@ const AGENDAMENTO_DATA = {
           "total": 155.28,
           "qt_faturada": 1.0,
           "valor_faturado": 155.28,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6830",
+          "agendado": true
         }
       ]
     },
@@ -26932,7 +27348,9 @@ const AGENDAMENTO_DATA = {
           "total": 862.8,
           "qt_faturada": 10.0,
           "valor_faturado": 862.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6831",
+          "agendado": true
         },
         {
           "cod_prod": "6256",
@@ -26942,7 +27360,9 @@ const AGENDAMENTO_DATA = {
           "total": 862.8,
           "qt_faturada": 10.0,
           "valor_faturado": 862.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6831",
+          "agendado": true
         },
         {
           "cod_prod": "6259",
@@ -26952,7 +27372,9 @@ const AGENDAMENTO_DATA = {
           "total": 1294.2,
           "qt_faturada": 15.0,
           "valor_faturado": 1294.2,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6831",
+          "agendado": true
         },
         {
           "cod_prod": "6254",
@@ -26962,7 +27384,9 @@ const AGENDAMENTO_DATA = {
           "total": 310.56,
           "qt_faturada": 2.0,
           "valor_faturado": 310.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6831",
+          "agendado": true
         }
       ]
     },
@@ -26988,7 +27412,9 @@ const AGENDAMENTO_DATA = {
           "total": 394.8,
           "qt_faturada": 12.0,
           "valor_faturado": 394.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6840",
+          "agendado": true
         },
         {
           "cod_prod": "3764",
@@ -26998,7 +27424,9 @@ const AGENDAMENTO_DATA = {
           "total": 73.9,
           "qt_faturada": 1.0,
           "valor_faturado": 73.9,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6840",
+          "agendado": true
         },
         {
           "cod_prod": "3759",
@@ -27008,7 +27436,9 @@ const AGENDAMENTO_DATA = {
           "total": 75.9,
           "qt_faturada": 1.0,
           "valor_faturado": 75.9,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6840",
+          "agendado": true
         },
         {
           "cod_prod": "1248",
@@ -27018,7 +27448,9 @@ const AGENDAMENTO_DATA = {
           "total": 190.8,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "3177",
@@ -27028,7 +27460,9 @@ const AGENDAMENTO_DATA = {
           "total": 49.86,
           "qt_faturada": 1.0,
           "valor_faturado": 49.86,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6840",
+          "agendado": true
         },
         {
           "cod_prod": "3179",
@@ -27038,7 +27472,9 @@ const AGENDAMENTO_DATA = {
           "total": 49.86,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "4718",
@@ -27048,7 +27484,9 @@ const AGENDAMENTO_DATA = {
           "total": 29.0,
           "qt_faturada": 1.0,
           "valor_faturado": 29.0,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6840",
+          "agendado": true
         },
         {
           "cod_prod": "35",
@@ -27058,7 +27496,9 @@ const AGENDAMENTO_DATA = {
           "total": 39.6,
           "qt_faturada": 1.0,
           "valor_faturado": 39.6,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6840",
+          "agendado": true
         }
       ]
     },
@@ -27084,7 +27524,9 @@ const AGENDAMENTO_DATA = {
           "total": 394.8,
           "qt_faturada": 12.0,
           "valor_faturado": 394.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6843",
+          "agendado": true
         },
         {
           "cod_prod": "3919",
@@ -27094,7 +27536,9 @@ const AGENDAMENTO_DATA = {
           "total": 123.6,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "3764",
@@ -27104,7 +27548,9 @@ const AGENDAMENTO_DATA = {
           "total": 73.9,
           "qt_faturada": 1.0,
           "valor_faturado": 73.9,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6843",
+          "agendado": true
         },
         {
           "cod_prod": "3759",
@@ -27114,7 +27560,9 @@ const AGENDAMENTO_DATA = {
           "total": 75.9,
           "qt_faturada": 1.0,
           "valor_faturado": 75.9,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6843",
+          "agendado": true
         },
         {
           "cod_prod": "296",
@@ -27124,7 +27572,9 @@ const AGENDAMENTO_DATA = {
           "total": 132.91,
           "qt_faturada": 1.0,
           "valor_faturado": 132.91,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6843",
+          "agendado": true
         },
         {
           "cod_prod": "63",
@@ -27134,7 +27584,9 @@ const AGENDAMENTO_DATA = {
           "total": 107.14,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "1248",
@@ -27144,7 +27596,9 @@ const AGENDAMENTO_DATA = {
           "total": 15.9,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "3179",
@@ -27154,7 +27608,9 @@ const AGENDAMENTO_DATA = {
           "total": 49.86,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "4718",
@@ -27164,7 +27620,9 @@ const AGENDAMENTO_DATA = {
           "total": 29.0,
           "qt_faturada": 1.0,
           "valor_faturado": 29.0,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6843",
+          "agendado": true
         },
         {
           "cod_prod": "246",
@@ -27174,7 +27632,9 @@ const AGENDAMENTO_DATA = {
           "total": 40.9,
           "qt_faturada": 3.0,
           "valor_faturado": 122.7,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6843",
+          "agendado": true
         }
       ]
     },
@@ -27200,7 +27660,9 @@ const AGENDAMENTO_DATA = {
           "total": 394.8,
           "qt_faturada": 12.0,
           "valor_faturado": 394.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6841",
+          "agendado": true
         },
         {
           "cod_prod": "3919",
@@ -27210,7 +27672,9 @@ const AGENDAMENTO_DATA = {
           "total": 123.6,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "63",
@@ -27220,7 +27684,9 @@ const AGENDAMENTO_DATA = {
           "total": 107.14,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "246",
@@ -27230,7 +27696,9 @@ const AGENDAMENTO_DATA = {
           "total": 122.7,
           "qt_faturada": 3.0,
           "valor_faturado": 122.7,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6841",
+          "agendado": true
         },
         {
           "cod_prod": "3177",
@@ -27240,7 +27708,9 @@ const AGENDAMENTO_DATA = {
           "total": 49.86,
           "qt_faturada": 1.0,
           "valor_faturado": 49.86,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6841",
+          "agendado": true
         }
       ]
     },
@@ -27266,7 +27736,9 @@ const AGENDAMENTO_DATA = {
           "total": 394.8,
           "qt_faturada": 12.0,
           "valor_faturado": 394.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6842",
+          "agendado": true
         },
         {
           "cod_prod": "290",
@@ -27276,7 +27748,9 @@ const AGENDAMENTO_DATA = {
           "total": 199.32,
           "qt_faturada": 12.0,
           "valor_faturado": 199.32,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6842",
+          "agendado": true
         },
         {
           "cod_prod": "3919",
@@ -27286,7 +27760,9 @@ const AGENDAMENTO_DATA = {
           "total": 123.6,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "3764",
@@ -27296,7 +27772,9 @@ const AGENDAMENTO_DATA = {
           "total": 73.9,
           "qt_faturada": 1.0,
           "valor_faturado": 73.9,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6842",
+          "agendado": true
         },
         {
           "cod_prod": "3927",
@@ -27306,7 +27784,9 @@ const AGENDAMENTO_DATA = {
           "total": 11.7,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "35",
@@ -27316,7 +27796,9 @@ const AGENDAMENTO_DATA = {
           "total": 39.6,
           "qt_faturada": 1.0,
           "valor_faturado": 39.6,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6842",
+          "agendado": true
         },
         {
           "cod_prod": "66",
@@ -27326,7 +27808,9 @@ const AGENDAMENTO_DATA = {
           "total": 117.0,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "98",
@@ -27336,7 +27820,9 @@ const AGENDAMENTO_DATA = {
           "total": 39.6,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "235",
@@ -27346,7 +27832,9 @@ const AGENDAMENTO_DATA = {
           "total": 40.9,
           "qt_faturada": 1.0,
           "valor_faturado": 40.9,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6842",
+          "agendado": true
         },
         {
           "cod_prod": "4718",
@@ -27356,7 +27844,9 @@ const AGENDAMENTO_DATA = {
           "total": 29.7,
           "qt_faturada": 1.0,
           "valor_faturado": 29.7,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6842",
+          "agendado": true
         },
         {
           "cod_prod": "246",
@@ -27366,7 +27856,9 @@ const AGENDAMENTO_DATA = {
           "total": 122.7,
           "qt_faturada": 3.0,
           "valor_faturado": 368.1,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6842",
+          "agendado": true
         }
       ]
     },
@@ -27392,7 +27884,9 @@ const AGENDAMENTO_DATA = {
           "total": 1107.0,
           "qt_faturada": 30.0,
           "valor_faturado": 1107.0,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6839",
+          "agendado": true
         },
         {
           "cod_prod": "129",
@@ -27402,7 +27896,9 @@ const AGENDAMENTO_DATA = {
           "total": 359.4,
           "qt_faturada": 6.0,
           "valor_faturado": 359.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6839",
+          "agendado": true
         },
         {
           "cod_prod": "70",
@@ -27412,7 +27908,9 @@ const AGENDAMENTO_DATA = {
           "total": 623.52,
           "qt_faturada": 6.0,
           "valor_faturado": 623.52,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6839",
+          "agendado": true
         }
       ]
     },
@@ -27438,7 +27936,9 @@ const AGENDAMENTO_DATA = {
           "total": 394.8,
           "qt_faturada": 12.0,
           "valor_faturado": 394.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6840",
+          "agendado": true
         },
         {
           "cod_prod": "3764",
@@ -27448,7 +27948,9 @@ const AGENDAMENTO_DATA = {
           "total": 73.9,
           "qt_faturada": 1.0,
           "valor_faturado": 73.9,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6840",
+          "agendado": true
         },
         {
           "cod_prod": "3759",
@@ -27458,7 +27960,9 @@ const AGENDAMENTO_DATA = {
           "total": 75.9,
           "qt_faturada": 1.0,
           "valor_faturado": 75.9,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6840",
+          "agendado": true
         },
         {
           "cod_prod": "1248",
@@ -27468,7 +27972,9 @@ const AGENDAMENTO_DATA = {
           "total": 190.8,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "3177",
@@ -27478,7 +27984,9 @@ const AGENDAMENTO_DATA = {
           "total": 49.86,
           "qt_faturada": 1.0,
           "valor_faturado": 49.86,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6840",
+          "agendado": true
         },
         {
           "cod_prod": "3179",
@@ -27488,7 +27996,9 @@ const AGENDAMENTO_DATA = {
           "total": 99.72,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "4718",
@@ -27498,7 +28008,9 @@ const AGENDAMENTO_DATA = {
           "total": 29.0,
           "qt_faturada": 1.0,
           "valor_faturado": 29.0,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6840",
+          "agendado": true
         },
         {
           "cod_prod": "35",
@@ -27508,7 +28020,9 @@ const AGENDAMENTO_DATA = {
           "total": 39.6,
           "qt_faturada": 1.0,
           "valor_faturado": 39.6,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6840",
+          "agendado": true
         }
       ]
     },
@@ -27534,7 +28048,9 @@ const AGENDAMENTO_DATA = {
           "total": 394.8,
           "qt_faturada": 12.0,
           "valor_faturado": 394.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6843",
+          "agendado": true
         },
         {
           "cod_prod": "3919",
@@ -27544,7 +28060,9 @@ const AGENDAMENTO_DATA = {
           "total": 123.6,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "3764",
@@ -27554,7 +28072,9 @@ const AGENDAMENTO_DATA = {
           "total": 73.9,
           "qt_faturada": 1.0,
           "valor_faturado": 73.9,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6843",
+          "agendado": true
         },
         {
           "cod_prod": "3759",
@@ -27564,7 +28084,9 @@ const AGENDAMENTO_DATA = {
           "total": 75.9,
           "qt_faturada": 1.0,
           "valor_faturado": 75.9,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6843",
+          "agendado": true
         },
         {
           "cod_prod": "296",
@@ -27574,7 +28096,9 @@ const AGENDAMENTO_DATA = {
           "total": 132.91,
           "qt_faturada": 1.0,
           "valor_faturado": 132.91,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6843",
+          "agendado": true
         },
         {
           "cod_prod": "63",
@@ -27584,7 +28108,9 @@ const AGENDAMENTO_DATA = {
           "total": 107.14,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "1248",
@@ -27594,7 +28120,9 @@ const AGENDAMENTO_DATA = {
           "total": 190.8,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "3177",
@@ -27604,7 +28132,9 @@ const AGENDAMENTO_DATA = {
           "total": 49.86,
           "qt_faturada": 1.0,
           "valor_faturado": 49.86,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6843",
+          "agendado": true
         },
         {
           "cod_prod": "3179",
@@ -27614,7 +28144,9 @@ const AGENDAMENTO_DATA = {
           "total": 99.72,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "4718",
@@ -27624,7 +28156,9 @@ const AGENDAMENTO_DATA = {
           "total": 29.0,
           "qt_faturada": 1.0,
           "valor_faturado": 29.0,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6843",
+          "agendado": true
         },
         {
           "cod_prod": "246",
@@ -27634,7 +28168,9 @@ const AGENDAMENTO_DATA = {
           "total": 122.7,
           "qt_faturada": 3.0,
           "valor_faturado": 122.7,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6843",
+          "agendado": true
         }
       ]
     },
@@ -27660,7 +28196,9 @@ const AGENDAMENTO_DATA = {
           "total": 394.8,
           "qt_faturada": 12.0,
           "valor_faturado": 394.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6841",
+          "agendado": true
         },
         {
           "cod_prod": "3919",
@@ -27670,7 +28208,9 @@ const AGENDAMENTO_DATA = {
           "total": 123.6,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "63",
@@ -27680,7 +28220,9 @@ const AGENDAMENTO_DATA = {
           "total": 107.14,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "246",
@@ -27690,7 +28232,9 @@ const AGENDAMENTO_DATA = {
           "total": 122.7,
           "qt_faturada": 3.0,
           "valor_faturado": 122.7,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6841",
+          "agendado": true
         },
         {
           "cod_prod": "3177",
@@ -27700,7 +28244,9 @@ const AGENDAMENTO_DATA = {
           "total": 49.86,
           "qt_faturada": 1.0,
           "valor_faturado": 49.86,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6841",
+          "agendado": true
         }
       ]
     },
@@ -27726,7 +28272,9 @@ const AGENDAMENTO_DATA = {
           "total": 394.8,
           "qt_faturada": 12.0,
           "valor_faturado": 394.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6842",
+          "agendado": true
         },
         {
           "cod_prod": "290",
@@ -27736,7 +28284,9 @@ const AGENDAMENTO_DATA = {
           "total": 199.32,
           "qt_faturada": 12.0,
           "valor_faturado": 199.32,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6842",
+          "agendado": true
         },
         {
           "cod_prod": "3919",
@@ -27746,7 +28296,9 @@ const AGENDAMENTO_DATA = {
           "total": 123.6,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "3764",
@@ -27756,7 +28308,9 @@ const AGENDAMENTO_DATA = {
           "total": 73.9,
           "qt_faturada": 1.0,
           "valor_faturado": 73.9,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6842",
+          "agendado": true
         },
         {
           "cod_prod": "3927",
@@ -27766,7 +28320,9 @@ const AGENDAMENTO_DATA = {
           "total": 70.2,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "35",
@@ -27776,7 +28332,9 @@ const AGENDAMENTO_DATA = {
           "total": 39.6,
           "qt_faturada": 1.0,
           "valor_faturado": 39.6,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6842",
+          "agendado": true
         },
         {
           "cod_prod": "63",
@@ -27786,7 +28344,9 @@ const AGENDAMENTO_DATA = {
           "total": 107.14,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "66",
@@ -27796,7 +28356,9 @@ const AGENDAMENTO_DATA = {
           "total": 117.0,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "98",
@@ -27806,7 +28368,9 @@ const AGENDAMENTO_DATA = {
           "total": 36.0,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "235",
@@ -27816,7 +28380,9 @@ const AGENDAMENTO_DATA = {
           "total": 19.3,
           "qt_faturada": 1.0,
           "valor_faturado": 19.3,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6842",
+          "agendado": true
         },
         {
           "cod_prod": "34",
@@ -27826,7 +28392,9 @@ const AGENDAMENTO_DATA = {
           "total": 36.0,
           "qt_faturada": 1.0,
           "valor_faturado": 36.0,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6842",
+          "agendado": true
         },
         {
           "cod_prod": "4718",
@@ -27836,7 +28404,9 @@ const AGENDAMENTO_DATA = {
           "total": 29.0,
           "qt_faturada": 1.0,
           "valor_faturado": 29.0,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6842",
+          "agendado": true
         },
         {
           "cod_prod": "246",
@@ -27846,7 +28416,9 @@ const AGENDAMENTO_DATA = {
           "total": 122.7,
           "qt_faturada": 3.0,
           "valor_faturado": 122.7,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6842",
+          "agendado": true
         }
       ]
     },
@@ -27872,7 +28444,9 @@ const AGENDAMENTO_DATA = {
           "total": 1797.0,
           "qt_faturada": 3.0,
           "valor_faturado": 1797.0,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6838",
+          "agendado": true
         },
         {
           "cod_prod": "3839",
@@ -27882,7 +28456,9 @@ const AGENDAMENTO_DATA = {
           "total": 2258.82,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -27908,7 +28484,9 @@ const AGENDAMENTO_DATA = {
           "total": 329.4,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Pendente"
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -27934,7 +28512,9 @@ const AGENDAMENTO_DATA = {
           "total": 329.4,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Pendente"
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -27960,7 +28540,9 @@ const AGENDAMENTO_DATA = {
           "total": 725.4,
           "qt_faturada": 6.0,
           "valor_faturado": 725.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6822",
+          "agendado": true
         }
       ]
     },
@@ -27986,7 +28568,9 @@ const AGENDAMENTO_DATA = {
           "total": 455.4,
           "qt_faturada": 6.0,
           "valor_faturado": 455.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6821",
+          "agendado": true
         },
         {
           "cod_prod": "3766",
@@ -27996,7 +28580,9 @@ const AGENDAMENTO_DATA = {
           "total": 455.4,
           "qt_faturada": 6.0,
           "valor_faturado": 455.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6821",
+          "agendado": true
         },
         {
           "cod_prod": "3764",
@@ -28006,7 +28592,9 @@ const AGENDAMENTO_DATA = {
           "total": 443.4,
           "qt_faturada": 6.0,
           "valor_faturado": 443.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6821",
+          "agendado": true
         },
         {
           "cod_prod": "3063",
@@ -28016,7 +28604,9 @@ const AGENDAMENTO_DATA = {
           "total": 346.8,
           "qt_faturada": 12.0,
           "valor_faturado": 346.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6821",
+          "agendado": true
         }
       ]
     },
@@ -28042,7 +28632,9 @@ const AGENDAMENTO_DATA = {
           "total": 1212.4,
           "qt_faturada": 36.0,
           "valor_faturado": 1220.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6880",
+          "agendado": false
         },
         {
           "cod_prod": "3817",
@@ -28052,7 +28644,9 @@ const AGENDAMENTO_DATA = {
           "total": 644.4,
           "qt_faturada": 36.0,
           "valor_faturado": 644.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6880",
+          "agendado": false
         },
         {
           "cod_prod": "3818",
@@ -28062,7 +28656,9 @@ const AGENDAMENTO_DATA = {
           "total": 644.4,
           "qt_faturada": 24.0,
           "valor_faturado": 429.6,
-          "status": "Parcial"
+          "status": "Parcial",
+          "nf": "6880",
+          "agendado": false
         },
         {
           "cod_prod": "3814",
@@ -28072,7 +28668,9 @@ const AGENDAMENTO_DATA = {
           "total": 859.2,
           "qt_faturada": 48.0,
           "valor_faturado": 859.2,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6880",
+          "agendado": false
         },
         {
           "cod_prod": "3827",
@@ -28082,7 +28680,9 @@ const AGENDAMENTO_DATA = {
           "total": 370.8,
           "qt_faturada": 12.0,
           "valor_faturado": 370.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6880",
+          "agendado": false
         },
         {
           "cod_prod": "3828",
@@ -28092,7 +28692,9 @@ const AGENDAMENTO_DATA = {
           "total": 370.8,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -28118,7 +28720,9 @@ const AGENDAMENTO_DATA = {
           "total": 329.4,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Pendente"
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -28144,7 +28748,9 @@ const AGENDAMENTO_DATA = {
           "total": 594.0,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Pendente"
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -28170,7 +28776,9 @@ const AGENDAMENTO_DATA = {
           "total": 840.0,
           "qt_faturada": 12.0,
           "valor_faturado": 840.0,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6751",
+          "agendado": true
         },
         {
           "cod_prod": "449",
@@ -28180,7 +28788,9 @@ const AGENDAMENTO_DATA = {
           "total": 1728.0,
           "qt_faturada": 12.0,
           "valor_faturado": 1728.0,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6751",
+          "agendado": true
         },
         {
           "cod_prod": "4843",
@@ -28190,7 +28800,9 @@ const AGENDAMENTO_DATA = {
           "total": 287.4,
           "qt_faturada": 3.0,
           "valor_faturado": 143.7,
-          "status": "Parcial"
+          "status": "Parcial",
+          "nf": "6751",
+          "agendado": true
         },
         {
           "cod_prod": "16",
@@ -28200,7 +28812,9 @@ const AGENDAMENTO_DATA = {
           "total": 330.0,
           "qt_faturada": 12.0,
           "valor_faturado": 330.0,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6751",
+          "agendado": true
         },
         {
           "cod_prod": "18",
@@ -28210,7 +28824,9 @@ const AGENDAMENTO_DATA = {
           "total": 864.0,
           "qt_faturada": 6.0,
           "valor_faturado": 864.0,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6751",
+          "agendado": true
         },
         {
           "cod_prod": "2965",
@@ -28220,7 +28836,9 @@ const AGENDAMENTO_DATA = {
           "total": 2757.0,
           "qt_faturada": 5.0,
           "valor_faturado": 2297.5,
-          "status": "Parcial"
+          "status": "Parcial",
+          "nf": "6751",
+          "agendado": true
         },
         {
           "cod_prod": "3109",
@@ -28230,7 +28848,9 @@ const AGENDAMENTO_DATA = {
           "total": 459.5,
           "qt_faturada": 2.0,
           "valor_faturado": 183.8,
-          "status": "Parcial"
+          "status": "Parcial",
+          "nf": "6751",
+          "agendado": true
         }
       ]
     },
@@ -28256,7 +28876,9 @@ const AGENDAMENTO_DATA = {
           "total": 840.0,
           "qt_faturada": 12.0,
           "valor_faturado": 840.0,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6751",
+          "agendado": true
         },
         {
           "cod_prod": "449",
@@ -28266,7 +28888,9 @@ const AGENDAMENTO_DATA = {
           "total": 1728.0,
           "qt_faturada": 12.0,
           "valor_faturado": 1728.0,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6751",
+          "agendado": true
         },
         {
           "cod_prod": "4843",
@@ -28276,7 +28900,9 @@ const AGENDAMENTO_DATA = {
           "total": 287.4,
           "qt_faturada": 3.0,
           "valor_faturado": 143.7,
-          "status": "Parcial"
+          "status": "Parcial",
+          "nf": "6751",
+          "agendado": true
         },
         {
           "cod_prod": "16",
@@ -28286,7 +28912,9 @@ const AGENDAMENTO_DATA = {
           "total": 330.0,
           "qt_faturada": 12.0,
           "valor_faturado": 330.0,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6751",
+          "agendado": true
         },
         {
           "cod_prod": "18",
@@ -28296,7 +28924,9 @@ const AGENDAMENTO_DATA = {
           "total": 864.0,
           "qt_faturada": 6.0,
           "valor_faturado": 864.0,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6751",
+          "agendado": true
         },
         {
           "cod_prod": "2965",
@@ -28306,7 +28936,9 @@ const AGENDAMENTO_DATA = {
           "total": 459.5,
           "qt_faturada": 5.0,
           "valor_faturado": 459.5,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6751",
+          "agendado": true
         },
         {
           "cod_prod": "3109",
@@ -28316,7 +28948,9 @@ const AGENDAMENTO_DATA = {
           "total": 459.5,
           "qt_faturada": 2.0,
           "valor_faturado": 183.8,
-          "status": "Parcial"
+          "status": "Parcial",
+          "nf": "6751",
+          "agendado": true
         }
       ]
     },
@@ -28342,7 +28976,9 @@ const AGENDAMENTO_DATA = {
           "total": 233.4,
           "qt_faturada": 6.0,
           "valor_faturado": 233.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6807",
+          "agendado": true
         },
         {
           "cod_prod": "666",
@@ -28352,7 +28988,9 @@ const AGENDAMENTO_DATA = {
           "total": 233.4,
           "qt_faturada": 6.0,
           "valor_faturado": 233.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6807",
+          "agendado": true
         },
         {
           "cod_prod": "2781",
@@ -28362,7 +29000,9 @@ const AGENDAMENTO_DATA = {
           "total": 233.4,
           "qt_faturada": 6.0,
           "valor_faturado": 233.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6807",
+          "agendado": true
         },
         {
           "cod_prod": "663",
@@ -28372,7 +29012,9 @@ const AGENDAMENTO_DATA = {
           "total": 394.8,
           "qt_faturada": 12.0,
           "valor_faturado": 394.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6807",
+          "agendado": true
         }
       ]
     },
@@ -28398,7 +29040,9 @@ const AGENDAMENTO_DATA = {
           "total": 850.8,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Pendente"
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "5273",
@@ -28408,7 +29052,9 @@ const AGENDAMENTO_DATA = {
           "total": 850.8,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Pendente"
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "1526",
@@ -28418,7 +29064,9 @@ const AGENDAMENTO_DATA = {
           "total": 850.8,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Pendente"
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "187",
@@ -28428,7 +29076,9 @@ const AGENDAMENTO_DATA = {
           "total": 659.4,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Pendente"
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "738",
@@ -28438,7 +29088,9 @@ const AGENDAMENTO_DATA = {
           "total": 659.4,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Pendente"
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "70",
@@ -28448,7 +29100,9 @@ const AGENDAMENTO_DATA = {
           "total": 623.4,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Pendente"
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -28474,7 +29128,9 @@ const AGENDAMENTO_DATA = {
           "total": 137.4,
           "qt_faturada": 6.0,
           "valor_faturado": 137.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6800",
+          "agendado": true
         },
         {
           "cod_prod": "3642",
@@ -28484,7 +29140,9 @@ const AGENDAMENTO_DATA = {
           "total": 137.4,
           "qt_faturada": 6.0,
           "valor_faturado": 137.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6800",
+          "agendado": true
         },
         {
           "cod_prod": "4689",
@@ -28494,7 +29152,9 @@ const AGENDAMENTO_DATA = {
           "total": 137.4,
           "qt_faturada": 6.0,
           "valor_faturado": 137.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6800",
+          "agendado": true
         },
         {
           "cod_prod": "237",
@@ -28504,7 +29164,9 @@ const AGENDAMENTO_DATA = {
           "total": 778.8,
           "qt_faturada": 12.0,
           "valor_faturado": 778.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6800",
+          "agendado": true
         },
         {
           "cod_prod": "381",
@@ -28514,7 +29176,9 @@ const AGENDAMENTO_DATA = {
           "total": 144.0,
           "qt_faturada": 12.0,
           "valor_faturado": 144.0,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6800",
+          "agendado": true
         }
       ]
     },
@@ -28540,7 +29204,9 @@ const AGENDAMENTO_DATA = {
           "total": 450,
           "qt_faturada": 36.0,
           "valor_faturado": 450.0,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6775",
+          "agendado": true
         }
       ]
     },
@@ -28566,7 +29232,9 @@ const AGENDAMENTO_DATA = {
           "total": 150,
           "qt_faturada": 12.0,
           "valor_faturado": 150.0,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6789",
+          "agendado": true
         },
         {
           "cod_prod": "418",
@@ -28576,7 +29244,9 @@ const AGENDAMENTO_DATA = {
           "total": 165.48,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "3642",
@@ -28586,7 +29256,9 @@ const AGENDAMENTO_DATA = {
           "total": 266.4,
           "qt_faturada": 12.0,
           "valor_faturado": 266.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6789",
+          "agendado": true
         },
         {
           "cod_prod": "4689",
@@ -28596,7 +29268,9 @@ const AGENDAMENTO_DATA = {
           "total": 266.4,
           "qt_faturada": 12.0,
           "valor_faturado": 266.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6789",
+          "agendado": true
         },
         {
           "cod_prod": "3644",
@@ -28606,7 +29280,9 @@ const AGENDAMENTO_DATA = {
           "total": 266.4,
           "qt_faturada": 6.0,
           "valor_faturado": 133.2,
-          "status": "Parcial"
+          "status": "Parcial",
+          "nf": "6789",
+          "agendado": true
         },
         {
           "cod_prod": "6492",
@@ -28616,7 +29292,9 @@ const AGENDAMENTO_DATA = {
           "total": 133.2,
           "qt_faturada": 6.0,
           "valor_faturado": 133.2,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6789",
+          "agendado": true
         },
         {
           "cod_prod": "2626",
@@ -28626,7 +29304,9 @@ const AGENDAMENTO_DATA = {
           "total": 133.2,
           "qt_faturada": 3.0,
           "valor_faturado": 66.6,
-          "status": "Parcial"
+          "status": "Parcial",
+          "nf": "6789",
+          "agendado": true
         },
         {
           "cod_prod": "1180",
@@ -28636,7 +29316,9 @@ const AGENDAMENTO_DATA = {
           "total": 539.4,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "69",
@@ -28646,7 +29328,9 @@ const AGENDAMENTO_DATA = {
           "total": 266.4,
           "qt_faturada": 6.0,
           "valor_faturado": 133.2,
-          "status": "Parcial"
+          "status": "Parcial",
+          "nf": "6789",
+          "agendado": true
         },
         {
           "cod_prod": "178",
@@ -28656,7 +29340,9 @@ const AGENDAMENTO_DATA = {
           "total": 133.2,
           "qt_faturada": 6.0,
           "valor_faturado": 133.2,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6789",
+          "agendado": true
         },
         {
           "cod_prod": "66",
@@ -28666,7 +29352,9 @@ const AGENDAMENTO_DATA = {
           "total": 133.2,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "1212",
@@ -28676,7 +29364,9 @@ const AGENDAMENTO_DATA = {
           "total": 310.02,
           "qt_faturada": 12.0,
           "valor_faturado": 620.04,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6789",
+          "agendado": true
         }
       ]
     },
@@ -28702,7 +29392,9 @@ const AGENDAMENTO_DATA = {
           "total": 238.8,
           "qt_faturada": 12.0,
           "valor_faturado": 238.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6788",
+          "agendado": true
         },
         {
           "cod_prod": "3816",
@@ -28712,7 +29404,9 @@ const AGENDAMENTO_DATA = {
           "total": 209.88,
           "qt_faturada": 12.0,
           "valor_faturado": 209.88,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6788",
+          "agendado": true
         },
         {
           "cod_prod": "3816",
@@ -28722,7 +29416,9 @@ const AGENDAMENTO_DATA = {
           "total": 209.88,
           "qt_faturada": 12.0,
           "valor_faturado": 209.88,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6788",
+          "agendado": true
         },
         {
           "cod_prod": "6744",
@@ -28732,7 +29428,9 @@ const AGENDAMENTO_DATA = {
           "total": 358.8,
           "qt_faturada": 24.0,
           "valor_faturado": 717.6,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6788",
+          "agendado": true
         },
         {
           "cod_prod": "3817",
@@ -28742,7 +29440,9 @@ const AGENDAMENTO_DATA = {
           "total": 347.76,
           "qt_faturada": 24.0,
           "valor_faturado": 347.76,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6788",
+          "agendado": true
         },
         {
           "cod_prod": "7106",
@@ -28752,7 +29452,9 @@ const AGENDAMENTO_DATA = {
           "total": 347.76,
           "qt_faturada": 24.0,
           "valor_faturado": 347.76,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6788",
+          "agendado": true
         },
         {
           "cod_prod": "3821",
@@ -28762,7 +29464,9 @@ const AGENDAMENTO_DATA = {
           "total": 286.8,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado"
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -28788,7 +29492,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6798",
+          "agendado": false
         },
         {
           "cod_prod": "6256",
@@ -28798,7 +29504,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6798",
+          "agendado": false
         },
         {
           "cod_prod": "6257",
@@ -28808,7 +29516,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6798",
+          "agendado": false
         }
       ]
     },
@@ -28834,7 +29544,9 @@ const AGENDAMENTO_DATA = {
           "total": 197.4,
           "qt_faturada": 6.0,
           "valor_faturado": 197.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6799",
+          "agendado": false
         },
         {
           "cod_prod": "666",
@@ -28844,7 +29556,9 @@ const AGENDAMENTO_DATA = {
           "total": 233.4,
           "qt_faturada": 6.0,
           "valor_faturado": 233.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6799",
+          "agendado": false
         }
       ]
     },
@@ -28870,7 +29584,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6784",
+          "agendado": true
         },
         {
           "cod_prod": "6256",
@@ -28880,7 +29596,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6784",
+          "agendado": true
         },
         {
           "cod_prod": "6257",
@@ -28890,7 +29608,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6784",
+          "agendado": true
         }
       ]
     },
@@ -28916,7 +29636,9 @@ const AGENDAMENTO_DATA = {
           "total": 592.2,
           "qt_faturada": 18.0,
           "valor_faturado": 592.2,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6785",
+          "agendado": true
         },
         {
           "cod_prod": "666",
@@ -28926,7 +29648,9 @@ const AGENDAMENTO_DATA = {
           "total": 233.4,
           "qt_faturada": 6.0,
           "valor_faturado": 233.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6785",
+          "agendado": true
         }
       ]
     },
@@ -28952,7 +29676,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6781",
+          "agendado": true
         },
         {
           "cod_prod": "6256",
@@ -28962,7 +29688,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6781",
+          "agendado": true
         },
         {
           "cod_prod": "6257",
@@ -28972,7 +29700,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6781",
+          "agendado": true
         }
       ]
     },
@@ -28998,7 +29728,9 @@ const AGENDAMENTO_DATA = {
           "total": 197.4,
           "qt_faturada": 6.0,
           "valor_faturado": 197.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6780",
+          "agendado": true
         },
         {
           "cod_prod": "664",
@@ -29008,7 +29740,9 @@ const AGENDAMENTO_DATA = {
           "total": 233.4,
           "qt_faturada": 6.0,
           "valor_faturado": 233.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6780",
+          "agendado": true
         },
         {
           "cod_prod": "666",
@@ -29018,7 +29752,9 @@ const AGENDAMENTO_DATA = {
           "total": 233.4,
           "qt_faturada": 6.0,
           "valor_faturado": 233.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6780",
+          "agendado": true
         }
       ]
     },
@@ -29044,7 +29780,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6778",
+          "agendado": true
         },
         {
           "cod_prod": "6256",
@@ -29054,7 +29792,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6778",
+          "agendado": true
         },
         {
           "cod_prod": "6257",
@@ -29064,7 +29804,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6778",
+          "agendado": true
         }
       ]
     },
@@ -29090,7 +29832,9 @@ const AGENDAMENTO_DATA = {
           "total": 592.2,
           "qt_faturada": 18.0,
           "valor_faturado": 592.2,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6779",
+          "agendado": true
         },
         {
           "cod_prod": "664",
@@ -29100,7 +29844,9 @@ const AGENDAMENTO_DATA = {
           "total": 233.4,
           "qt_faturada": 6.0,
           "valor_faturado": 233.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6779",
+          "agendado": true
         },
         {
           "cod_prod": "666",
@@ -29110,7 +29856,9 @@ const AGENDAMENTO_DATA = {
           "total": 233.4,
           "qt_faturada": 6.0,
           "valor_faturado": 233.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6779",
+          "agendado": true
         }
       ]
     },
@@ -29136,7 +29884,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6787",
+          "agendado": true
         },
         {
           "cod_prod": "6256",
@@ -29146,7 +29896,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6787",
+          "agendado": true
         },
         {
           "cod_prod": "6257",
@@ -29156,7 +29908,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6787",
+          "agendado": true
         }
       ]
     },
@@ -29182,7 +29936,9 @@ const AGENDAMENTO_DATA = {
           "total": 197.4,
           "qt_faturada": 6.0,
           "valor_faturado": 197.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6786",
+          "agendado": true
         },
         {
           "cod_prod": "664",
@@ -29192,7 +29948,9 @@ const AGENDAMENTO_DATA = {
           "total": 233.4,
           "qt_faturada": 6.0,
           "valor_faturado": 233.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6786",
+          "agendado": true
         },
         {
           "cod_prod": "666",
@@ -29202,7 +29960,9 @@ const AGENDAMENTO_DATA = {
           "total": 233.4,
           "qt_faturada": 6.0,
           "valor_faturado": 233.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6786",
+          "agendado": true
         },
         {
           "cod_prod": "2781",
@@ -29212,7 +29972,9 @@ const AGENDAMENTO_DATA = {
           "total": 233.4,
           "qt_faturada": 6.0,
           "valor_faturado": 233.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6786",
+          "agendado": true
         }
       ]
     },
@@ -29238,7 +30000,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6794",
+          "agendado": true
         },
         {
           "cod_prod": "6256",
@@ -29248,7 +30012,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6794",
+          "agendado": true
         },
         {
           "cod_prod": "6257",
@@ -29258,7 +30024,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6794",
+          "agendado": true
         }
       ]
     },
@@ -29284,7 +30052,9 @@ const AGENDAMENTO_DATA = {
           "total": 592.2,
           "qt_faturada": 18.0,
           "valor_faturado": 592.2,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6793",
+          "agendado": true
         },
         {
           "cod_prod": "664",
@@ -29294,7 +30064,9 @@ const AGENDAMENTO_DATA = {
           "total": 233.4,
           "qt_faturada": 6.0,
           "valor_faturado": 233.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6793",
+          "agendado": true
         },
         {
           "cod_prod": "666",
@@ -29304,7 +30076,9 @@ const AGENDAMENTO_DATA = {
           "total": 233.4,
           "qt_faturada": 6.0,
           "valor_faturado": 233.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6793",
+          "agendado": true
         }
       ]
     },
@@ -29330,7 +30104,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6771",
+          "agendado": false
         },
         {
           "cod_prod": "6255",
@@ -29340,7 +30116,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6771",
+          "agendado": false
         },
         {
           "cod_prod": "7207",
@@ -29350,7 +30128,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6771",
+          "agendado": false
         },
         {
           "cod_prod": "6256",
@@ -29360,7 +30140,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6771",
+          "agendado": false
         },
         {
           "cod_prod": "6257",
@@ -29370,7 +30152,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6771",
+          "agendado": false
         },
         {
           "cod_prod": "7204",
@@ -29380,7 +30164,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6771",
+          "agendado": false
         },
         {
           "cod_prod": "7206",
@@ -29390,7 +30176,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6771",
+          "agendado": false
         },
         {
           "cod_prod": "6254",
@@ -29400,7 +30188,9 @@ const AGENDAMENTO_DATA = {
           "total": 310.56,
           "qt_faturada": 1.0,
           "valor_faturado": 155.28,
-          "status": "Parcial"
+          "status": "Parcial",
+          "nf": "6771",
+          "agendado": false
         },
         {
           "cod_prod": "6253",
@@ -29410,7 +30200,9 @@ const AGENDAMENTO_DATA = {
           "total": 310.56,
           "qt_faturada": 1.0,
           "valor_faturado": 155.28,
-          "status": "Parcial"
+          "status": "Parcial",
+          "nf": "6771",
+          "agendado": false
         },
         {
           "cod_prod": "6334",
@@ -29420,7 +30212,9 @@ const AGENDAMENTO_DATA = {
           "total": 310.56,
           "qt_faturada": 1.0,
           "valor_faturado": 155.28,
-          "status": "Parcial"
+          "status": "Parcial",
+          "nf": "6771",
+          "agendado": false
         }
       ]
     },
@@ -29446,7 +30240,9 @@ const AGENDAMENTO_DATA = {
           "total": 394.8,
           "qt_faturada": 12.0,
           "valor_faturado": 394.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6770",
+          "agendado": false
         },
         {
           "cod_prod": "664",
@@ -29456,7 +30252,9 @@ const AGENDAMENTO_DATA = {
           "total": 233.4,
           "qt_faturada": 6.0,
           "valor_faturado": 233.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6770",
+          "agendado": false
         },
         {
           "cod_prod": "666",
@@ -29466,7 +30264,9 @@ const AGENDAMENTO_DATA = {
           "total": 233.4,
           "qt_faturada": 6.0,
           "valor_faturado": 233.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6770",
+          "agendado": false
         },
         {
           "cod_prod": "2629",
@@ -29476,7 +30276,9 @@ const AGENDAMENTO_DATA = {
           "total": 235.2,
           "qt_faturada": 2.0,
           "valor_faturado": 235.2,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6770",
+          "agendado": false
         },
         {
           "cod_prod": "2628",
@@ -29486,7 +30288,9 @@ const AGENDAMENTO_DATA = {
           "total": 179.9,
           "qt_faturada": 2.0,
           "valor_faturado": 359.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6770",
+          "agendado": false
         },
         {
           "cod_prod": "5038",
@@ -29496,7 +30300,9 @@ const AGENDAMENTO_DATA = {
           "total": 149.0,
           "qt_faturada": 3.0,
           "valor_faturado": 447.0,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6770",
+          "agendado": false
         },
         {
           "cod_prod": "2684",
@@ -29506,7 +30312,9 @@ const AGENDAMENTO_DATA = {
           "total": 798.0,
           "qt_faturada": 2.0,
           "valor_faturado": 798.0,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6770",
+          "agendado": false
         }
       ]
     },
@@ -29532,7 +30340,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6768",
+          "agendado": true
         },
         {
           "cod_prod": "6256",
@@ -29542,7 +30352,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6768",
+          "agendado": true
         },
         {
           "cod_prod": "6257",
@@ -29552,7 +30364,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6768",
+          "agendado": true
         }
       ]
     },
@@ -29578,7 +30392,9 @@ const AGENDAMENTO_DATA = {
           "total": 394.8,
           "qt_faturada": 12.0,
           "valor_faturado": 394.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6769",
+          "agendado": true
         },
         {
           "cod_prod": "664",
@@ -29588,7 +30404,9 @@ const AGENDAMENTO_DATA = {
           "total": 233.4,
           "qt_faturada": 6.0,
           "valor_faturado": 233.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6769",
+          "agendado": true
         },
         {
           "cod_prod": "666",
@@ -29598,7 +30416,9 @@ const AGENDAMENTO_DATA = {
           "total": 233.4,
           "qt_faturada": 6.0,
           "valor_faturado": 233.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6769",
+          "agendado": true
         }
       ]
     },
@@ -29624,7 +30444,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6763",
+          "agendado": true
         },
         {
           "cod_prod": "6256",
@@ -29634,7 +30456,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6763",
+          "agendado": true
         },
         {
           "cod_prod": "6257",
@@ -29644,7 +30468,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6763",
+          "agendado": true
         }
       ]
     },
@@ -29670,7 +30496,9 @@ const AGENDAMENTO_DATA = {
           "total": 394.8,
           "qt_faturada": 12.0,
           "valor_faturado": 394.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6764",
+          "agendado": true
         },
         {
           "cod_prod": "664",
@@ -29680,7 +30508,9 @@ const AGENDAMENTO_DATA = {
           "total": 233.4,
           "qt_faturada": 6.0,
           "valor_faturado": 233.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6764",
+          "agendado": true
         },
         {
           "cod_prod": "666",
@@ -29690,7 +30520,9 @@ const AGENDAMENTO_DATA = {
           "total": 233.4,
           "qt_faturada": 6.0,
           "valor_faturado": 233.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6764",
+          "agendado": true
         }
       ]
     },
@@ -29716,7 +30548,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6772",
+          "agendado": true
         },
         {
           "cod_prod": "6256",
@@ -29726,7 +30560,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6772",
+          "agendado": true
         },
         {
           "cod_prod": "6257",
@@ -29736,7 +30572,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6772",
+          "agendado": true
         }
       ]
     },
@@ -29762,7 +30600,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6762",
+          "agendado": true
         },
         {
           "cod_prod": "6255",
@@ -29772,7 +30612,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6762",
+          "agendado": true
         },
         {
           "cod_prod": "7207",
@@ -29782,7 +30624,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6762",
+          "agendado": true
         },
         {
           "cod_prod": "6256",
@@ -29792,7 +30636,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6762",
+          "agendado": true
         },
         {
           "cod_prod": "6257",
@@ -29802,7 +30648,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6762",
+          "agendado": true
         },
         {
           "cod_prod": "7204",
@@ -29812,7 +30660,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6762",
+          "agendado": true
         },
         {
           "cod_prod": "6254",
@@ -29822,7 +30672,9 @@ const AGENDAMENTO_DATA = {
           "total": 310.56,
           "qt_faturada": 1.0,
           "valor_faturado": 155.28,
-          "status": "Parcial"
+          "status": "Parcial",
+          "nf": "6762",
+          "agendado": true
         },
         {
           "cod_prod": "6253",
@@ -29832,7 +30684,9 @@ const AGENDAMENTO_DATA = {
           "total": 310.56,
           "qt_faturada": 1.0,
           "valor_faturado": 155.28,
-          "status": "Parcial"
+          "status": "Parcial",
+          "nf": "6762",
+          "agendado": true
         },
         {
           "cod_prod": "6334",
@@ -29842,7 +30696,9 @@ const AGENDAMENTO_DATA = {
           "total": 310.56,
           "qt_faturada": 1.0,
           "valor_faturado": 155.28,
-          "status": "Parcial"
+          "status": "Parcial",
+          "nf": "6762",
+          "agendado": true
         }
       ]
     },
@@ -29868,7 +30724,9 @@ const AGENDAMENTO_DATA = {
           "total": 592.2,
           "qt_faturada": 18.0,
           "valor_faturado": 592.2,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6761",
+          "agendado": true
         },
         {
           "cod_prod": "664",
@@ -29878,7 +30736,9 @@ const AGENDAMENTO_DATA = {
           "total": 233.4,
           "qt_faturada": 6.0,
           "valor_faturado": 233.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6761",
+          "agendado": true
         },
         {
           "cod_prod": "2781",
@@ -29888,7 +30748,9 @@ const AGENDAMENTO_DATA = {
           "total": 233.4,
           "qt_faturada": 6.0,
           "valor_faturado": 233.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6761",
+          "agendado": true
         },
         {
           "cod_prod": "666",
@@ -29898,7 +30760,9 @@ const AGENDAMENTO_DATA = {
           "total": 466.8,
           "qt_faturada": 12.0,
           "valor_faturado": 466.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6761",
+          "agendado": true
         }
       ]
     },
@@ -29924,7 +30788,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6782",
+          "agendado": true
         },
         {
           "cod_prod": "6256",
@@ -29934,7 +30800,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6782",
+          "agendado": true
         },
         {
           "cod_prod": "6257",
@@ -29944,7 +30812,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6782",
+          "agendado": true
         }
       ]
     },
@@ -29970,7 +30840,9 @@ const AGENDAMENTO_DATA = {
           "total": 394.8,
           "qt_faturada": 12.0,
           "valor_faturado": 394.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6783",
+          "agendado": true
         },
         {
           "cod_prod": "664",
@@ -29980,7 +30852,9 @@ const AGENDAMENTO_DATA = {
           "total": 233.4,
           "qt_faturada": 6.0,
           "valor_faturado": 233.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6783",
+          "agendado": true
         }
       ]
     },
@@ -30006,7 +30880,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6759",
+          "agendado": true
         },
         {
           "cod_prod": "6255",
@@ -30016,7 +30892,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6759",
+          "agendado": true
         },
         {
           "cod_prod": "7207",
@@ -30026,7 +30904,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6759",
+          "agendado": true
         },
         {
           "cod_prod": "6256",
@@ -30036,7 +30916,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6759",
+          "agendado": true
         },
         {
           "cod_prod": "6257",
@@ -30046,7 +30928,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6759",
+          "agendado": true
         },
         {
           "cod_prod": "7204",
@@ -30056,7 +30940,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6759",
+          "agendado": true
         },
         {
           "cod_prod": "7206",
@@ -30066,7 +30952,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6759",
+          "agendado": true
         },
         {
           "cod_prod": "6254",
@@ -30076,7 +30964,9 @@ const AGENDAMENTO_DATA = {
           "total": 310.56,
           "qt_faturada": 1.0,
           "valor_faturado": 155.28,
-          "status": "Parcial"
+          "status": "Parcial",
+          "nf": "6759",
+          "agendado": true
         },
         {
           "cod_prod": "6253",
@@ -30086,7 +30976,9 @@ const AGENDAMENTO_DATA = {
           "total": 310.56,
           "qt_faturada": 1.0,
           "valor_faturado": 155.28,
-          "status": "Parcial"
+          "status": "Parcial",
+          "nf": "6759",
+          "agendado": true
         },
         {
           "cod_prod": "6334",
@@ -30096,7 +30988,9 @@ const AGENDAMENTO_DATA = {
           "total": 310.56,
           "qt_faturada": 1.0,
           "valor_faturado": 155.28,
-          "status": "Parcial"
+          "status": "Parcial",
+          "nf": "6759",
+          "agendado": true
         }
       ]
     },
@@ -30122,7 +31016,9 @@ const AGENDAMENTO_DATA = {
           "total": 1974.0,
           "qt_faturada": 60.0,
           "valor_faturado": 1974.0,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6760",
+          "agendado": true
         },
         {
           "cod_prod": "666",
@@ -30132,7 +31028,9 @@ const AGENDAMENTO_DATA = {
           "total": 233.4,
           "qt_faturada": 6.0,
           "valor_faturado": 233.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6760",
+          "agendado": true
         },
         {
           "cod_prod": "664",
@@ -30142,7 +31040,9 @@ const AGENDAMENTO_DATA = {
           "total": 233.4,
           "qt_faturada": 6.0,
           "valor_faturado": 233.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6760",
+          "agendado": true
         },
         {
           "cod_prod": "2781",
@@ -30152,7 +31052,9 @@ const AGENDAMENTO_DATA = {
           "total": 466.8,
           "qt_faturada": 12.0,
           "valor_faturado": 466.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6760",
+          "agendado": true
         },
         {
           "cod_prod": "2626",
@@ -30162,7 +31064,9 @@ const AGENDAMENTO_DATA = {
           "total": 240.0,
           "qt_faturada": 6.0,
           "valor_faturado": 240.0,
-          "status": "Parcial"
+          "status": "Parcial",
+          "nf": "6760",
+          "agendado": true
         },
         {
           "cod_prod": "5038",
@@ -30172,7 +31076,9 @@ const AGENDAMENTO_DATA = {
           "total": 447.0,
           "qt_faturada": 3.0,
           "valor_faturado": 447.0,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6760",
+          "agendado": true
         },
         {
           "cod_prod": "484",
@@ -30182,7 +31088,9 @@ const AGENDAMENTO_DATA = {
           "total": 1128.0,
           "qt_faturada": 12.0,
           "valor_faturado": 1128.0,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6760",
+          "agendado": true
         }
       ]
     },
@@ -30208,7 +31116,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6797",
+          "agendado": true
         },
         {
           "cod_prod": "6256",
@@ -30218,7 +31128,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6797",
+          "agendado": true
         },
         {
           "cod_prod": "6257",
@@ -30228,7 +31140,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6797",
+          "agendado": true
         }
       ]
     },
@@ -30254,7 +31168,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6774",
+          "agendado": true
         },
         {
           "cod_prod": "6256",
@@ -30264,7 +31180,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6774",
+          "agendado": true
         },
         {
           "cod_prod": "6257",
@@ -30274,7 +31192,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6774",
+          "agendado": true
         }
       ]
     },
@@ -30300,7 +31220,9 @@ const AGENDAMENTO_DATA = {
           "total": 466.8,
           "qt_faturada": 12.0,
           "valor_faturado": 466.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6773",
+          "agendado": true
         }
       ]
     },
@@ -30326,7 +31248,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6796",
+          "agendado": true
         },
         {
           "cod_prod": "6256",
@@ -30336,7 +31260,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6796",
+          "agendado": true
         },
         {
           "cod_prod": "6257",
@@ -30346,7 +31272,9 @@ const AGENDAMENTO_DATA = {
           "total": 172.56,
           "qt_faturada": 2.0,
           "valor_faturado": 172.56,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6796",
+          "agendado": true
         }
       ]
     },
@@ -30372,7 +31300,9 @@ const AGENDAMENTO_DATA = {
           "total": 394.8,
           "qt_faturada": 12.0,
           "valor_faturado": 394.8,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6795",
+          "agendado": true
         },
         {
           "cod_prod": "666",
@@ -30382,7 +31312,9 @@ const AGENDAMENTO_DATA = {
           "total": 233.4,
           "qt_faturada": 6.0,
           "valor_faturado": 233.4,
-          "status": "Faturado"
+          "status": "Faturado",
+          "nf": "6795",
+          "agendado": true
         }
       ]
     }
