@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "24/07/2026 11:08",
+  "atualizado_em": "24/07/2026 14:55",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -2103,7 +2103,7 @@ const CRUSOE_DATA = {
             {
               "numnota": "410212",
               "data": "07/07/2026",
-              "cliente": "L B DOS SANTOS COMERCIO VAREJISTA DE BEBIDAS E ARTIGOS ALIME",
+              "cliente": "LB DOS SANTOS COMERCIO VAREJISTA DE BEBIDAS E ARTIGOS ALIMEN",
               "valor_pedido": 120.0,
               "eventos": [
                 {
