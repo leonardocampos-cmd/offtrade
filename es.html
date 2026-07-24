@@ -10,6 +10,8 @@
   <script src="vendas_es_data.js"></script>
   <script src="nao_pos_es_data.js"></script>
   <script src="gerentes_data.js"></script>
+  <script src="pedidos_data.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
@@ -73,6 +75,7 @@
     .detail-name { font-size: 1.1rem; font-weight: 700; }
     .detail-sub  { font-size: .75rem; color: var(--muted); margin-top: 2px; }
     .detail-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px; margin-bottom: 16px; }
+    .chart-wrap { position: relative; height: 220px; }
     .vendas-kpis { display: flex; gap: 24px; flex-wrap: wrap; margin-bottom: 14px; padding-bottom: 14px; border-bottom: 1px solid var(--border); }
     .kpi-label { font-size: .7rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
     .kpi-val   { font-size: 1.15rem; font-weight: 700; margin-top: 2px; }
@@ -332,6 +335,7 @@ function _buildVendorCards(mes) {
     var res    = (D.resumo && D.resumo[nome] && D.resumo[nome][mes]) || {};
     var fat    = res.fat     || 0;
     var ant    = res.fat_ant || 0;
+    var anoAnt = res.fat_ano_ant || 0;
     var pos    = res.pos     || 0;
     var rca    = D.rcas && D.rcas[nome] ? 'RCA ' + D.rcas[nome] : 'ES';
     var npList = (NP && NP.por_vendedor && NP.por_vendedor[nome]) || [];
@@ -344,6 +348,8 @@ function _buildVendorCards(mes) {
         '<span class="stat-val">' + fmt(fat) + varHtml(fat, ant) + '</span></div>' +
       '<div class="stat-row"><span class="stat-label">Mes anterior</span>' +
         '<span class="stat-val" style="color:var(--muted)">' + fmt(ant) + '</span></div>' +
+      (anoAnt ? '<div class="stat-row"><span class="stat-label">Mesmo mes ano anterior</span>' +
+        '<span class="stat-val" style="color:var(--muted)">' + fmt(anoAnt) + ' ' + varHtml(fat, anoAnt) + '</span></div>' : '') +
       '<div class="stat-row"><span class="stat-label">Positivados</span>' +
         '<span class="stat-val">' + pos + '</span></div>' +
       '<div class="sec-header" onclick="toggleSec(\''+secId+'\')" style="padding:6px 0;margin-top:4px">' +
@@ -374,12 +380,44 @@ function _atualizarTabela(nome) {
   var qt  = lista.reduce(function(s,r){return s+r.qt;},0);
   var pos = res.pos !== undefined ? res.pos : new Set(lista.filter(function(r){return r.offtrade;}).map(function(r){return r.codcli||r.cliente;})).size;
   var ant = res.fat_ant || 0;
+  var anoAnt = res.fat_ano_ant || 0;
   document.getElementById('det-kpis').innerHTML =
     '<div><div class="kpi-label">Faturamento</div><div class="kpi-val">' + fmt(fat) + '</div>' +
-      (ant ? '<div style="font-size:.7rem;color:var(--muted)">Ant: ' + fmt(ant) + ' ' + varHtml(fat,ant) + '</div>' : '') + '</div>' +
+      (ant ? '<div style="font-size:.7rem;color:var(--muted)">Ant: ' + fmt(ant) + ' ' + varHtml(fat,ant) + '</div>' : '') +
+      (anoAnt ? '<div style="font-size:.7rem;color:var(--muted)">Mesmo mes ano anterior: ' + fmt(anoAnt) + ' ' + varHtml(fat,anoAnt) + '</div>' : '') + '</div>' +
     '<div><div class="kpi-label">Itens</div><div class="kpi-val">' + qt.toLocaleString('pt-BR') + '</div></div>' +
     '<div><div class="kpi-label">Positivados</div><div class="kpi-val">' + pos + '</div></div>';
   document.getElementById('det-tabela').innerHTML = buildVendasGrouped(lista, 'fat-' + nome.replace(/\W/g,''));
+}
+
+var _POSICOES_PROBLEMA_PED = { 'Pendente': 1, 'Bloqueado': 1, 'Bloqueado (alçada)': 1 };
+
+function _normNomePedido(s) {
+  return (s || '').toUpperCase().replace(/\s*-?\s*OFF\s*TRADE\s*(SP|MG|ES)?\s*/gi, '').replace(/\s*-\s*$/, '').trim();
+}
+
+function _pedidosPendentesVendedor(nomeVendedor) {
+  if (typeof PEDIDOS_DATA === 'undefined') return [];
+  var alvo = _normNomePedido(nomeVendedor);
+  return (PEDIDOS_DATA.pedidos_feitos || []).filter(function(p) {
+    return _POSICOES_PROBLEMA_PED[p.posicao] && _normNomePedido(p.nome) === alvo;
+  });
+}
+
+function _buildAvisoPedidos(nomeVendedor) {
+  var lista = _pedidosPendentesVendedor(nomeVendedor);
+  if (!lista.length) return '';
+  var itens = lista.map(function(p) {
+    return '<div style="padding:6px 0;border-bottom:1px solid var(--border)">' +
+      '<div><strong>Ped ' + p.numped + '</strong> — ' + p.cliente + ' — ' + fmt(p.total) + ' <span style="color:var(--muted)">(' + p.posicao + ')</span></div>' +
+      (p.motivo ? '<div style="font-size:.72rem;color:var(--muted)">Motivo: ' + p.motivo + '</div>' : '') +
+    '</div>';
+  }).join('');
+  return '<div class="detail-card" style="border-color:var(--red)">' +
+    '<div class="sec-title" style="color:var(--red)">&#9888; ' + lista.length + ' pedido' + (lista.length > 1 ? 's' : '') +
+      ' pendente' + (lista.length > 1 ? 's' : '') + '/bloqueado' + (lista.length > 1 ? 's' : '') + '</div>' +
+    '<div style="margin-top:10px">' + itens + '</div>' +
+  '</div>';
 }
 
 function renderDetalhe(nome) {
@@ -395,6 +433,7 @@ function renderDetalhe(nome) {
       '<div class="detail-sub">' + (D.rcas && D.rcas[nome] ? 'RCA ' + D.rcas[nome] + ' · ES' : 'ES') + '</div>' +
     '</div>' +
     '<select id="sel-mes-det" class="mes-select" onchange="_atualizarTabela(\'' + nome.replace(/'/g,"\\'") + '\')">' + opts + '</select></div>' +
+    _buildAvisoPedidos(nome) +
     '<div class="detail-card">' +
       '<div class="sec-header" onclick="toggleSec(\'sec-fat\')">' +
         '<div class="sec-title" style="color:var(--green)">Faturamento do mes</div>' +
@@ -404,8 +443,128 @@ function renderDetalhe(nome) {
         '<div id="det-kpis" class="vendas-kpis" style="margin-top:14px"></div>' +
         '<div id="det-tabela"></div>' +
       '</div>' +
+    '</div>' +
+    '<div class="detail-card">' +
+      '<div class="sec-header" onclick="toggleSec(\'sec-hist\')">' +
+        '<div class="sec-title">Historico</div>' +
+        '<span id="sec-hist-ic" class="sec-ic open">▼</span>' +
+      '</div>' +
+      '<div id="sec-hist" class="sec-body open">' +
+        '<div class="chart-wrap" style="margin-top:14px"><canvas id="chart-fat-hist"></canvas></div>' +
+        '<div class="chart-wrap" style="margin-top:12px"><canvas id="chart-pos-hist"></canvas></div>' +
+      '</div>' +
     '</div>';
   _atualizarTabela(nome);
+  buildHistCharts(nome);
+}
+
+var _chartFatHist = null, _chartPosHist = null;
+
+function _idxMesmoMesAnoAnterior(meses) {
+  if (!meses.length) return -1;
+  var atual = meses[meses.length - 1].split('/');
+  var nome = atual[0], ano = parseInt(atual[1], 10);
+  for (var i = 0; i < meses.length - 1; i++) {
+    var p = meses[i].split('/');
+    if (p[0] === nome && parseInt(p[1], 10) === ano - 1) return i;
+  }
+  return -1;
+}
+
+function _coresBarrasHist(meses, corAtual, corFraca) {
+  var idxAtual  = meses.length - 1;
+  var idxAnoAnt = _idxMesmoMesAnoAnterior(meses);
+  return meses.map(function(_, i) {
+    if (i === idxAtual)  return corAtual;
+    if (i === idxAnoAnt) return 'rgba(168,85,247,0.85)';
+    return corFraca;
+  });
+}
+
+function buildHistCharts(nome) {
+  var meses = (D && D.meses ? D.meses.slice() : []).reverse();
+  if (!meses.length) return;
+  var resumoVend = (D.resumo && D.resumo[nome]) || {};
+  var fatVals = meses.map(function(m) { return (resumoVend[m] || {}).fat || 0; });
+  var posVals = meses.map(function(m) { return (resumoVend[m] || {}).pos || 0; });
+  var fatAvg  = fatVals.reduce(function(a, b) { return a + b; }, 0) / fatVals.length;
+  var posAvg  = posVals.reduce(function(a, b) { return a + b; }, 0) / posVals.length;
+
+  var chartDefaults = {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { labels: { color: '#94a3b8', font: { size: 11 }, boxWidth: 14 } } },
+    scales: {
+      x: { ticks: { color: '#94a3b8', font: { size: 10 } }, grid: { color: '#2d3144' } },
+      y: { ticks: { color: '#94a3b8', font: { size: 10 } }, grid: { color: '#2d3144' } }
+    }
+  };
+
+  if (_chartFatHist) _chartFatHist.destroy();
+  if (_chartPosHist) _chartPosHist.destroy();
+
+  _chartFatHist = new Chart(document.getElementById('chart-fat-hist'), {
+    type: 'bar',
+    data: {
+      labels: meses,
+      datasets: [
+        {
+          label: 'Faturamento',
+          data: fatVals,
+          backgroundColor: _coresBarrasHist(meses, 'rgba(249,115,22,0.85)', 'rgba(249,115,22,0.4)'),
+          borderColor: '#f97316',
+          borderWidth: 1,
+          order: 1
+        },
+        {
+          label: 'Media ' + fmt(fatAvg),
+          data: meses.map(function() { return fatAvg; }),
+          type: 'line',
+          borderColor: '#94a3b8',
+          borderWidth: 1.5,
+          borderDash: [5, 3],
+          pointRadius: 0,
+          order: 0
+        }
+      ]
+    },
+    options: Object.assign({}, chartDefaults, {
+      scales: {
+        x: chartDefaults.scales.x,
+        y: Object.assign({}, chartDefaults.scales.y, { ticks: Object.assign({}, chartDefaults.scales.y.ticks, {
+          callback: function(v) { return 'R$' + (v >= 1000 ? (v / 1000).toFixed(0) + 'k' : v); }
+        }) })
+      }
+    })
+  });
+
+  _chartPosHist = new Chart(document.getElementById('chart-pos-hist'), {
+    type: 'bar',
+    data: {
+      labels: meses,
+      datasets: [
+        {
+          label: 'Positivados',
+          data: posVals,
+          backgroundColor: _coresBarrasHist(meses, 'rgba(34,197,94,0.85)', 'rgba(34,197,94,0.4)'),
+          borderColor: '#22c55e',
+          borderWidth: 1,
+          order: 1
+        },
+        {
+          label: 'Media ' + posAvg.toFixed(0),
+          data: meses.map(function() { return posAvg; }),
+          type: 'line',
+          borderColor: '#94a3b8',
+          borderWidth: 1.5,
+          borderDash: [5, 3],
+          pointRadius: 0,
+          order: 0
+        }
+      ]
+    },
+    options: chartDefaults
+  });
 }
 
 function filterCards(q) {
