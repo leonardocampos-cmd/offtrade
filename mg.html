@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <script src="auth.js"></script>
+  <script src="vps_redirect.js"></script>
   <script src="fontes_status_data.js"></script>
   <script src="fontes_alert.js"></script>
   <meta charset="UTF-8">
@@ -90,6 +90,51 @@
   </style>
 </head>
 <body>
+<script>
+(function () {
+  const HASH  = 'b4ba917b95850dc43cce91dba3be9fd1a4f029e18b81d6846a7183839c81d8dd';
+  const _p    = new URLSearchParams(location.search);
+  const _rca  = _p.get('rca');
+  const _vend = _p.get('vendedor');
+
+  function _b64urlEncode(obj) {
+    const b64 = btoa(unescape(encodeURIComponent(JSON.stringify(obj))));
+    return b64.replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+  }
+  function _refreshSsoCookie(email) {
+    if (!email) return;
+    const header  = _b64urlEncode({ alg: 'none', typ: 'JWT' });
+    const payload = _b64urlEncode({ email });
+    const ssoToken = JSON.stringify({ id_token: `${header}.${payload}.sso` });
+    document.cookie = 'offtrade_token=' + encodeURIComponent(ssoToken) +
+      '; path=/; max-age=' + (60 * 60 * 8) + '; SameSite=Lax; Secure';
+  }
+
+  if (sessionStorage.getItem('rg_auth') === HASH) {
+    _refreshSsoCookie(sessionStorage.getItem('rg_email'));
+    return; // gestor: acesso total
+  }
+
+  const _goLogin = () => {
+    sessionStorage.setItem('rg_redirect', location.pathname + location.search);
+    location.replace('login.html');
+  };
+
+  if (!_vend && !_rca) { _goLogin(); return; } // view geral: só gestor
+
+  // view de vendedor: exige sessão com RCA correspondente (mesmo padrão de
+  // metas.html) — usa VENDAS_MG_DATA.rcas (nome -> RCA) pra resolver
+  // ?vendedor=NOME quando não vier ?rca= direto.
+  try {
+    const s = JSON.parse(sessionStorage.getItem('rg_vendedor') || '{}');
+    if (!s.rca) throw 0;
+    const _dados = typeof VENDAS_MG_DATA !== 'undefined' ? VENDAS_MG_DATA : { rcas: {} };
+    const rcaUrl = _rca ? String(_rca) : ((_dados.rcas || {})[_vend] || null);
+    if (!rcaUrl || String(s.rca) !== rcaUrl) throw 0;
+    _refreshSsoCookie(s.email);
+  } catch { _goLogin(); }
+})();
+</script>
 
 <header>
   <div class="header-title">
@@ -395,7 +440,16 @@ window.addEventListener('popstate', function() {
 });
 
 (function init() {
-  var p = new URLSearchParams(location.search).get('vendedor');
+  var params = new URLSearchParams(location.search);
+  var p = params.get('vendedor');
+  var rcaParam = params.get('rca');
+  if (!p && rcaParam) {
+    // login.html redireciona por ?rca= (mesmo padrão de metas.html) — resolve
+    // pro nome via VENDAS_MG_DATA.rcas (nome -> RCA) pra cair na view de
+    // detalhe do vendedor, não na visão geral de todos.
+    var _rcasMap = (typeof VENDAS_MG_DATA !== 'undefined' ? VENDAS_MG_DATA.rcas : {}) || {};
+    p = Object.keys(_rcasMap).find(function (nome) { return String(_rcasMap[nome]) === String(rcaParam); });
+  }
   if (p) renderDetalhe(decodeURIComponent(p));
   else renderMain();
 })();

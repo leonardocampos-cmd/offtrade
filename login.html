@@ -159,10 +159,23 @@
 
     function showErro(msg) { document.getElementById('erro').textContent = msg; }
 
+    // Cada estado tem sua própria página de vendas — sem isso, todo vendedor
+    // caía direto em metas.html (só RJ), então quem era de MG/SP/ES via uma
+    // tela sem o próprio RCA nela (dado mora em vendas_mg/sp/es_data.js, não
+    // em metas_data.js). Roteia pela mesma "estado" já cadastrada em
+    // VENDEDORES_AUTH (a mesma usada pra decidir @gmail vs @rigarr acima).
+    const _PAGINA_POR_ESTADO = { MG: 'mg.html', SP: 'sp.html', ES: 'es.html' };
+
     function _doRedirect(rca) {
       const redir = sessionStorage.getItem('rg_redirect') || '';
       sessionStorage.removeItem('rg_redirect');
-      location.replace(redir.includes('metas.html') ? redir : 'metas.html?rca=' + encodeURIComponent(rca));
+      if (redir && /(?:^|\/)(metas|mg|sp|es)\.html(?:\?|$)/.test(redir)) {
+        location.replace(redir);
+        return;
+      }
+      const vendedor = VENDEDORES_AUTH[rca] || {};
+      const pagina = _PAGINA_POR_ESTADO[(vendedor.estado || '').toUpperCase()] || 'metas.html';
+      location.replace(pagina + '?rca=' + encodeURIComponent(rca));
     }
 
     // Mostrar campos conforme RCA digitado
