@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "24/07/2026 13:45",
+  "atualizado_em": "24/07/2026 15:04",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -113246,6 +113246,56 @@ const VENDAS_SP_DATA = {
           "qt": 24,
           "valor": 789.6,
           "offtrade": true
+        },
+        {
+          "data": "24/07/2026",
+          "codcli": "51759",
+          "cliente": "BLACK ADEGA LTDA",
+          "produto": "WHISKY JACK DANIELS HONEY 1LT - DEST",
+          "fantasia": "BROWN",
+          "qt": 1,
+          "valor": 99.9,
+          "offtrade": true
+        },
+        {
+          "data": "24/07/2026",
+          "codcli": "51759",
+          "cliente": "BLACK ADEGA LTDA",
+          "produto": "WHISKY JACK DANIELS APPLE 1L",
+          "fantasia": "BROWN",
+          "qt": 2,
+          "valor": 199.8,
+          "offtrade": true
+        },
+        {
+          "data": "24/07/2026",
+          "codcli": "51759",
+          "cliente": "BLACK ADEGA LTDA",
+          "produto": "JACK DANIELS BLACKBERRY 1L",
+          "fantasia": "BROWN",
+          "qt": 1,
+          "valor": 139.9,
+          "offtrade": true
+        },
+        {
+          "data": "24/07/2026",
+          "codcli": "51759",
+          "cliente": "BLACK ADEGA LTDA",
+          "produto": "WHISKY JACK DANIELS 1L",
+          "fantasia": "BROWN",
+          "qt": 2,
+          "valor": 199.8,
+          "offtrade": true
+        },
+        {
+          "data": "24/07/2026",
+          "codcli": "51759",
+          "cliente": "BLACK ADEGA LTDA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 65.8,
+          "offtrade": true
         }
       ]
     },
@@ -117799,16 +117849,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "CRS BRANDS",
           "qt": 2,
           "valor": 17.98,
-          "offtrade": true
-        },
-        {
-          "data": "30/06/2026",
-          "codcli": "50864",
-          "cliente": "SUPERMERCADO IRMAOS TEIXEIRA LTDA",
-          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
-          "fantasia": "CASTAS",
-          "qt": 5,
-          "valor": 1378.8,
           "offtrade": true
         },
         {
@@ -126736,6 +126776,36 @@ const VENDAS_SP_DATA = {
           "qt": 12,
           "valor": 246.0,
           "offtrade": true
+        },
+        {
+          "data": "24/07/2026",
+          "codcli": "51559",
+          "cliente": "ALTO GIRO SUPERMERCADO LTDA",
+          "produto": "GIN ROCKS 1LT",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 123.0,
+          "offtrade": true
+        },
+        {
+          "data": "24/07/2026",
+          "codcli": "51559",
+          "cliente": "ALTO GIRO SUPERMERCADO LTDA",
+          "produto": "GIN ROCKS WATERMELON 1LT",
+          "fantasia": "FANTE",
+          "qt": 6,
+          "valor": 123.0,
+          "offtrade": true
+        },
+        {
+          "data": "24/07/2026",
+          "codcli": "51559",
+          "cliente": "ALTO GIRO SUPERMERCADO LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 12,
+          "valor": 107.88,
+          "offtrade": true
         }
       ]
     },
@@ -130000,9 +130070,9 @@ const VENDAS_SP_DATA = {
     },
     "RODRIGO LIMA": {
       "Jul/26": {
-        "fat": 158375.79,
+        "fat": 159080.99,
         "pos": 41.0,
-        "fat_pernod": 64476.44,
+        "fat_pernod": 64542.24,
         "fat_crs": 1905.62,
         "fat_ant": 127558.04,
         "fat_ano_ant": 0.0
@@ -130083,15 +130153,15 @@ const VENDAS_SP_DATA = {
         "fat_pernod": 34935.22,
         "fat_crs": 13309.41,
         "fat_essenza": 551.52,
-        "fat_ant": 25769.14,
+        "fat_ant": 24390.34,
         "fat_ano_ant": 0.0
       },
       "Jun/26": {
-        "fat": 25769.14,
+        "fat": 24390.34,
         "pos": 18.0,
         "fat_pernod": 7340.1,
         "fat_crs": 315.32,
-        "fat_essenza": 4098.48,
+        "fat_essenza": 2719.68,
         "fat_ant": 0.0
       }
     },
@@ -130229,10 +130299,10 @@ const VENDAS_SP_DATA = {
     },
     "GILVAN AMORIM": {
       "Jul/26": {
-        "fat": 45384.38,
-        "pos": 21.0,
+        "fat": 45738.26,
+        "pos": 22.0,
         "fat_pernod": 17300.9,
-        "fat_crs": 615.9,
+        "fat_crs": 723.78,
         "fat_ant": 0.0,
         "fat_ano_ant": 0.0
       }
