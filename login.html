@@ -157,20 +157,25 @@
       }
     } catch {}
 
-    function showErro(msg) {
+    function showErro(msg, emailOverride) {
       document.getElementById('erro').textContent = msg;
-      if (msg) _reportarErro(msg);
+      if (msg) _reportarErro(msg, emailOverride);
     }
 
     // Reporta erro de login pro servidor (rota /api/login-erro, no mesmo
     // serviço do controle_vencimento) — ele que manda o WhatsApp de alerta,
     // pra não expor a chave da Evolution API aqui no navegador. Best-effort:
     // se a rota falhar (offline, deploy pendente etc), não trava o login.
-    function _reportarErro(msg) {
+    //
+    // emailOverride: no fluxo Google (handleCredential), o e-mail real vem
+    // do JWT decodificado, não do campo #email (que só existe no fluxo de
+    // vendedor por PIN) — sem isso o alerta chegava com "E-mail: —",
+    // impossível de saber quem tentou logar (confirmado em 2026-07-24).
+    function _reportarErro(msg, emailOverride) {
       try {
         const rca = document.getElementById('rca').value.trim();
         const emailEl = document.getElementById('email');
-        const email = emailEl ? emailEl.value.trim() : '';
+        const email = emailOverride || (emailEl ? emailEl.value.trim() : '');
         fetch('/api/login-erro', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -286,11 +291,11 @@
       // Vendedor com email @rigarr
       if (rca) {
         const vendedor = VENDEDORES_AUTH[rca];
-        if (!vendedor) { showErro('RCA não encontrado.'); google.accounts.id.revoke(email, () => {}); return; }
+        if (!vendedor) { showErro('RCA não encontrado.', email); google.accounts.id.revoke(email, () => {}); return; }
         const emailsVendedor = [vendedor.email, vendedor.email2]
           .filter(Boolean).map(e => e.toLowerCase());
         if (!emailsVendedor.includes(email)) {
-          showErro('E-mail não corresponde ao RCA informado.');
+          showErro('E-mail não corresponde ao RCA informado.', email);
           google.accounts.id.revoke(email, () => {});
           return;
         }
@@ -302,7 +307,7 @@
 
       // Gestor (sem RCA)
       if (!EMAILS_OK.includes(email)) {
-        showErro('E-mail não autorizado.');
+        showErro('E-mail não autorizado.', email);
         google.accounts.id.revoke(email, () => {});
         return;
       }
