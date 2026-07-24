@@ -15288,5 +15288,357 @@
       "motivo": "LOCAL FECHADO - VENDAS NÃO INFORMOU — Cliente Fechado, não abre segunda-feira, Vendedora Juliana Salgado ciente.",
       "valor": "R$ 1.461,60"
     }
+  ],
+  "2026-07-24": [
+    {
+      "nf": "414562",
+      "rca": 155,
+      "rca_nome": "RAPHAEL SANTOS",
+      "cliente": "23.208.956 WILLIAN SILVA DOS SANTOS BRITO",
+      "rota": "undefined / CABO FRIO",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 40,90"
+    },
+    {
+      "nf": "414716",
+      "rca": 159,
+      "rca_nome": "GISELLE BARFER",
+      "cliente": "55.612.801 TANIA MARIA DIAS MENDES",
+      "rota": "undefined / CABO FRIO",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 272,80"
+    },
+    {
+      "nf": "414715",
+      "rca": 159,
+      "rca_nome": "GISELLE BARFER",
+      "cliente": "58.864.881 ALTAMIRO CORREA MOTA JUNIOR",
+      "rota": "undefined / CABO FRIO",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 314,30"
+    },
+    {
+      "nf": "414801",
+      "rca": 159,
+      "rca_nome": "GISELLE BARFER",
+      "cliente": "AURORA COZINHA LTDA",
+      "rota": "undefined / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 498,40"
+    },
+    {
+      "nf": "414556",
+      "rca": 159,
+      "rca_nome": "GISELLE BARFER",
+      "cliente": "SEGREDO DA MODA LTDA",
+      "rota": "undefined / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 295,80"
+    },
+    {
+      "nf": "414030",
+      "rca": 159,
+      "rca_nome": "GISELLE BARFER",
+      "cliente": "49.674.482 FRANCISCO DE ASSIS SILVA SOUSA",
+      "rota": "undefined / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 957,60"
+    },
+    {
+      "nf": "414663",
+      "rca": 241,
+      "rca_nome": "ZEINALDO DE OLIVEIRA",
+      "cliente": "60.809.322 ARIONI DE JESUS DE SOUZA BARCELOS",
+      "rota": "undefined / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 4.494,00"
+    },
+    {
+      "nf": "414613",
+      "rca": 241,
+      "rca_nome": "ZEINALDO DE OLIVEIRA",
+      "cliente": "PADARIA, MERCEARIA E DEPOSITO DE BEBIDAS PAIS & FILHAS LTDA",
+      "rota": "undefined / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 1.078,56"
+    },
+    {
+      "nf": "414713",
+      "rca": 419,
+      "rca_nome": "NÁTALI DE OLIVEIRA",
+      "cliente": "59.454.147 KAUA LUCAS FERREIRA NEPOMUCENO",
+      "rota": "undefined / ZONA OESTE",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE ALEGA NÃO TER FEITO O PEDIDO — CLIENTE ALEGA NAO TER FEITO O PEDIDO, VENDEDORA NATALI DE OLIVEIRA CIENTE",
+      "valor": "R$ 359,80"
+    },
+    {
+      "nf": "414712",
+      "rca": 419,
+      "rca_nome": "NÁTALI DE OLIVEIRA",
+      "cliente": "59.454.147 KAUA LUCAS FERREIRA NEPOMUCENO",
+      "rota": "undefined / ZONA OESTE",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE ALEGA NÃO TER FEITO O PEDIDO — CLIENTE ALEGA NAO TER FEITO O PEDIDO, VENDEDORA NATALI DE OLIVEIRA CIENTE",
+      "valor": "R$ 179,90"
+    },
+    {
+      "nf": "414624",
+      "rca": 431,
+      "rca_nome": "ADEILSON GONÇALVEZ",
+      "cliente": "PANIFICADORA IMPERIO ELLISCH E KELLER LTDA",
+      "rota": "undefined / ZONA OESTE",
+      "responsavel": "A Definir",
+      "motivo": "PEDIDO ERRADO / VENDEDOR — PEDIDO ERRADO, CLIENTE ALEGA QUE  O PEDIDO ERA SARDINHA E NÃO ATUM, VENDEDOR ADEILSON GONÇALVES CIENTE",
+      "valor": "R$ 259,82"
+    },
+    {
+      "nf": "414514",
+      "rca": 439,
+      "rca_nome": "MATEUS CARDOSO",
+      "cliente": "SUPERMERCADO PRECOTIMO LTDA",
+      "rota": "undefined / ANGRA",
+      "responsavel": "Logística",
+      "motivo": "FORA DO HORÁRIO DE ENTREGA - ATRASO NA ROTA — . Fora do horário de recebimento, vendedor Mateus Cardoso está ciente.",
+      "valor": "R$ 3.649,33"
+    },
+    {
+      "nf": "6871",
+      "rca": 439,
+      "rca_nome": "MATEUS CARDOSO",
+      "cliente": "SUPERMERCADO PRECOTIMO LTDA",
+      "rota": "undefined / ANGRA",
+      "responsavel": "Logística",
+      "motivo": "FORA DO HORÁRIO DE ENTREGA - ATRASO NA ROTA — Fora do horário de recebimento, vendedor Mateus Cardoso está ciente.",
+      "valor": "R$ 3.251,99"
+    },
+    {
+      "nf": "6872",
+      "rca": 439,
+      "rca_nome": "MATEUS CARDOSO",
+      "cliente": "SUPERMERCADO PRECOTIMO LTDA",
+      "rota": "undefined / ANGRA",
+      "responsavel": "Logística",
+      "motivo": "FORA DO HORÁRIO DE ENTREGA - ATRASO NA ROTA — Fora do horário de recebimento, vendedor Mateus Cardoso está ciente.",
+      "valor": "R$ 789,60"
+    },
+    {
+      "nf": "414670",
+      "rca": 439,
+      "rca_nome": "MATEUS CARDOSO",
+      "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+      "rota": "undefined / ANGRA",
+      "responsavel": "Logística",
+      "motivo": "FORA DO HORÁRIO DE ENTREGA - ATRASO NA ROTA — Fora do horário de recebimento, vendedor Mateus Cardoso está ciente",
+      "valor": "R$ 3.507,33"
+    },
+    {
+      "nf": "414671",
+      "rca": 439,
+      "rca_nome": "MATEUS CARDOSO",
+      "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+      "rota": "undefined / ANGRA",
+      "responsavel": "Logística",
+      "motivo": "FORA DO HORÁRIO DE ENTREGA - ATRASO NA ROTA — Fora do horário de recebimento, vendedor Mateus Cardoso está ciente, o mesmo informou que o cliente só recebe até às 16h.",
+      "valor": "R$ 1.169,11"
+    },
+    {
+      "nf": "414536",
+      "rca": 439,
+      "rca_nome": "MATEUS CARDOSO",
+      "cliente": "50.614.889 RENILDA IZIQUIEL DOS SANTOS VIEIRA",
+      "rota": "undefined / ANGRA",
+      "responsavel": "Logística",
+      "motivo": "FORA DO HORÁRIO DE ENTREGA - ATRASO NA ROTA — Fora do horário de recebimento, vendedor Mateus Cardoso está ciente.",
+      "valor": "R$ 399,70"
+    },
+    {
+      "nf": "414513",
+      "rca": 439,
+      "rca_nome": "MATEUS CARDOSO",
+      "cliente": "53.687.173 DIEGO FERREIRA PEREIRA DA SILVA",
+      "rota": "undefined / ANGRA",
+      "responsavel": "Logística",
+      "motivo": "FORA DO HORÁRIO DE ENTREGA - ATRASO NA ROTA — Cliente alega que o pedido está errado, vendedor Mateus Cardoso está ciente e solicitou o cancelamento da NF.",
+      "valor": "R$ 389,84"
+    },
+    {
+      "nf": "414839",
+      "rca": 135,
+      "rca_nome": "INGRID ARAUJO",
+      "cliente": "66.283.065 ALAN DIAS MARQUES",
+      "rota": "undefined / NOVA IGUAÇU+ MERITI",
+      "responsavel": "Vendas",
+      "motivo": "FORMA DE PAGAMENTO DIVERGENTE — Cancelar Cliente pediu o cancelamento , forma de pagamento errada . Ingrid Araujo ciente",
+      "valor": "R$ 364,70"
+    },
+    {
+      "nf": "414523",
+      "rca": 152,
+      "rca_nome": "PEDRO RANGEL",
+      "cliente": "N Q RESTAURANTE E BAR LTDA",
+      "rota": "undefined / TERESOPOLIS+ FRIBURGO",
+      "responsavel": "Vendas",
+      "motivo": "LOCAL FECHADO - VENDAS NÃO INFORMOU — Estabelecimento fechado, vendedor Pedro Rangel está ciente.",
+      "valor": "R$ 928,16"
+    },
+    {
+      "nf": "414526",
+      "rca": 152,
+      "rca_nome": "PEDRO RANGEL",
+      "cliente": "CATARINA'S BISTRO COMERCIO VAREJISTA DE ALIMENTOS EM GERAL L",
+      "rota": "undefined / PETROPOLIS",
+      "responsavel": "Logística",
+      "motivo": "QUEBRA DE PROTOCOLO - MOTORISTAS/ AJUDANTES — Cliente não tinha a forma de pagamento combinado, equipe não passou essa informação ao apoio logístico enquanto estava em rota.",
+      "valor": "R$ 355,10"
+    },
+    {
+      "nf": "414661",
+      "rca": 154,
+      "rca_nome": "GIOVANNA PORTELA",
+      "cliente": "48.681.973 ARETHA KEIKO OSHIRO",
+      "rota": "undefined / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 463,20"
+    },
+    {
+      "nf": "414599",
+      "rca": 278,
+      "rca_nome": "RAQUEL SANTOS",
+      "cliente": "DANIEL VIEIRA COUTO 10434509710",
+      "rota": "undefined / LEBLON+ IPANEMA",
+      "responsavel": "Vendas",
+      "motivo": "ENDEREÇO NÃO LOCALIZADO — Equipe informou ao apoio enquanto estava no local, endereço não foi localizado, vendedora não conseguiu retorno do cliente.",
+      "valor": "R$ 475,37"
+    },
+    {
+      "nf": "414792",
+      "rca": 278,
+      "rca_nome": "RAQUEL SANTOS",
+      "cliente": "31.978.772 CINTIA DE OLIVEIRA LOUVISSE DE ABREU",
+      "rota": "undefined / ILHA+ ZÉ+ SÃO CRISTOVÃO",
+      "responsavel": "Vendas",
+      "motivo": "LOCAL FECHADO - VENDAS NÃO INFORMOU — cliente fechado , foi informado a vendedora Raquel Santos e a mesma informou que o cliente saiu .",
+      "valor": "R$ 260,96"
+    },
+    {
+      "nf": "414597",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "SAO SEBASTIAO DO RIO DE JANEIRO ADM E RE",
+      "rota": "undefined / LEBLON+ IPANEMA",
+      "responsavel": "Logística",
+      "motivo": "QUEBRA DE PROTOCOLO - MOTORISTAS/ AJUDANTES — Equipe alegou que estava fora de horário de recebimento, mas equipe não informou ao apoio.",
+      "valor": "R$ 694,40"
+    },
+    {
+      "nf": "414785",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "HOTELARIA ALBA S.A.",
+      "rota": "undefined / LEBLON+ IPANEMA",
+      "responsavel": "Faturamento",
+      "motivo": "DADOS INCORRETOS NA NOTA FISCAL — PEDIDO ERRADO, VENDEDORA LAIS POPPE SOLICITOU O CANCELAMENTO",
+      "valor": "R$ 2.547,06"
+    },
+    {
+      "nf": "413841",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "SICHOU RESTAURANTE LTDA",
+      "rota": "undefined / LEBLON+ IPANEMA",
+      "responsavel": "Vendas",
+      "motivo": "REPONSÁVEL PELO PAGAMENTO AUSENTE OU CLIENTE SEM MÉTODO — Equipe foi até o endereço mas não tinha ninguém pra receber, equipe informou ao apoio, vendedora está ciente.",
+      "valor": "R$ 1.516,60"
+    },
+    {
+      "nf": "414796",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "HOTEL AMERICAS BARRA LTDA",
+      "rota": "undefined / BARRA",
+      "responsavel": "Faturamento",
+      "motivo": "DADOS INCORRETOS NA NOTA FISCAL — - PEDIDO ERRADO, CLIENTE ALEGA QUE NÃO PEDIU ESSA QUANTIDADE, VENDEDORA LAIS POPPE CIENTE",
+      "valor": "R$ 5.546,30"
+    },
+    {
+      "nf": "414807",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "SAO FRANCISCO DELIVERY LTDA EPP",
+      "rota": "undefined / NITEROI",
+      "responsavel": "Logística",
+      "motivo": "PRODUTO AVARIADO — Produto avariado (RUM BACARDI SUPERIOR ) cliente não quis receber, vendedora Lais Poppe está ciente.",
+      "valor": "R$ 347,50"
+    },
+    {
+      "nf": "414775",
+      "rca": 413,
+      "rca_nome": "THIAGO NASCIMENTO",
+      "cliente": "RRMO QUIOSQUE DO ARVRAO LTDA",
+      "rota": "undefined / SUL 1",
+      "responsavel": "Logística",
+      "motivo": "ACESSO RESTRITO DE VEÍCULO — Somente FIORINO consegue acessar nesse endereço, vendedor Thiago Nascimento está ciente e confirmou essa informação.",
+      "valor": "R$ 4.604,70"
+    },
+    {
+      "nf": "414833",
+      "rca": 413,
+      "rca_nome": "THIAGO NASCIMENTO",
+      "cliente": "MIQ SUSHI RESTAURANTE E COMERCIO LTDA",
+      "rota": "undefined / CAXIAS",
+      "responsavel": "Logística",
+      "motivo": "QUEBRA DE PROTOCOLO - MOTORISTAS/ AJUDANTES — Horário de recebimento a partir das 16h, essa informação não foi passada ao apoio logístico enquanto a equipe estava em rota.",
+      "valor": "R$ 1.285,88"
+    },
+    {
+      "nf": "414552",
+      "rca": 455,
+      "rca_nome": "N/D",
+      "cliente": "54.435.772 KELVIN DE LIMA OLIVEIRA",
+      "rota": "undefined / SUL 1",
+      "responsavel": "Logística",
+      "motivo": "ACESSO RESTRITO DE VEÍCULO — . Somente FIORINO consegue acessar nesse endereço, vendedora Mariana Mioti está ciente e confirmou essa informação.",
+      "valor": "R$ 420,96"
+    },
+    {
+      "nf": "411265",
+      "rca": 92,
+      "rca_nome": "AUGUSTO SILVA",
+      "cliente": "EL NINO LANCHES LTDA",
+      "rota": "undefined / COPACABANA+ EV V3 CENTRO FUTVOLEI",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE DESISTIU DA COMPRA — Cliente desistiu do pedido, vendedor Augusto Silva está ciente.",
+      "valor": "R$ 257,33"
+    },
+    {
+      "nf": "414593",
+      "rca": 437,
+      "rca_nome": "BEES",
+      "cliente": "BRUHEN EVENTOS LTDA",
+      "rota": "undefined / NITEROI",
+      "responsavel": "Vendas",
+      "motivo": "ENDEREÇO DIVERGENTE — Vendedor Bees solicitou o cancelamento da NF, pois o endereço está errado.",
+      "valor": "R$ 268,40"
+    },
+    {
+      "nf": "414529",
+      "rca": 437,
+      "rca_nome": "BEES",
+      "cliente": "MIMO CONFEITARIA E BISTRO LTDA",
+      "rota": "undefined / PETROPOLIS",
+      "responsavel": "Vendas",
+      "motivo": "REPONSÁVEL PELO PAGAMENTO AUSENTE OU CLIENTE SEM MÉTODO — Responsável pelo pagamento ausente, vendedor Bees está ciente",
+      "valor": "R$ 196,70"
+    }
   ]
 }
