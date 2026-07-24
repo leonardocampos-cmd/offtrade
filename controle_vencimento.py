@@ -265,7 +265,52 @@ def exportar():
     )
 
 
+# ── API interna: alerta de erro de login (vendedor/gestor) ────────────────────
+# login.html não pode chamar a Evolution API direto (exporia a apikey no
+# navegador de qualquer visitante) — passa por essa rota no servidor, que já
+# tem as credenciais no .env, igual envio_whatsapp.py já faz pros pedidos
+# abaixo da tabela.
+import requests as _requests
+
+api_bp = Blueprint("api", __name__, url_prefix="/api")
+
+_EVOLUTION_URL      = os.getenv("EVOLUTION_BASE_URL", "http://localhost:8083")
+_EVOLUTION_INSTANCE = os.getenv("EVOLUTION_INSTANCE", "bees")
+_NUMERO_ALERTA       = os.getenv("ALERTA_LOGIN_NUMERO", "5521974972433")
+
+
+@api_bp.route("/login-erro", methods=["POST"])
+def login_erro():
+    dados = request.get_json(silent=True) or {}
+    rca     = str(dados.get("rca", ""))[:20]
+    email   = str(dados.get("email", ""))[:100]
+    erro    = str(dados.get("erro", ""))[:200]
+    pagina  = str(dados.get("pagina", ""))[:100]
+    if not erro:
+        return {"ok": False, "motivo": "erro em branco"}, 400
+
+    texto = (
+        f"⚠️ Erro de login no Painel Comercial\n"
+        f"Página: {pagina or '—'}\n"
+        f"RCA digitado: {rca or '—'}\n"
+        f"E-mail: {email or '—'}\n"
+        f"Erro: {erro}"
+    )
+    try:
+        evolution_key = os.environ["EVOLUTION_KEY"]
+        resp = _requests.post(
+            f"{_EVOLUTION_URL}/message/sendText/{_EVOLUTION_INSTANCE}",
+            json={"number": _NUMERO_ALERTA, "textMessage": {"text": texto}},
+            headers={"apikey": evolution_key, "Content-Type": "application/json"},
+            timeout=15,
+        )
+        return {"ok": resp.status_code in (200, 201)}, 200
+    except Exception as e:
+        return {"ok": False, "motivo": str(e)[:200]}, 200
+
+
 app.register_blueprint(bp)
+app.register_blueprint(api_bp)
 
 if __name__ == "__main__":
     debug = RUNTIME != "vps"

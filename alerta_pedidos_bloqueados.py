@@ -128,7 +128,7 @@ def montar_mensagem(vendedor: str, pedidos: list, fontes_indisponiveis: list) ->
 def enviar_whatsapp(numero, mensagem):
     url = f"{EVOLUTION_URL}/message/sendText/{INSTANCE}"
     headers = {"apikey": EVOLUTION_KEY, "Content-Type": "application/json"}
-    payload = {"number": numero, "text": mensagem}
+    payload = {"number": numero, "textMessage": {"text": mensagem}}
     return requests.post(url, json=payload, headers=headers, timeout=15)
 
 

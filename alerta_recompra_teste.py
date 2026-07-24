@@ -66,7 +66,7 @@ def montar_mensagem(clientes: list) -> str:
 def enviar(mensagem: str, numero: str) -> bool:
     url = f"{EVOLUTION_URL}/message/sendText/{INSTANCE}"
     headers = {"apikey": EVOLUTION_KEY, "Content-Type": "application/json"}
-    payload = {"number": numero, "text": mensagem}
+    payload = {"number": numero, "textMessage": {"text": mensagem}}
     resp = requests.post(url, json=payload, headers=headers, timeout=30)
     ok = resp.status_code in (200, 201)
     print(f"  {'OK' if ok else 'ERRO'} envio pra {numero}: {resp.status_code}")

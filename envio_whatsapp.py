@@ -52,7 +52,7 @@ else:
 
     payload = {
         "number": NUMERO,
-        "text": mensagem
+        "textMessage": {"text": mensagem}
     }
 
     response = requests.post(url, json=payload, headers=headers)

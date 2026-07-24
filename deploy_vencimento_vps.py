@@ -35,7 +35,7 @@ HERE = Path(__file__).parent
 APP_FILES = ["controle_vencimento.py"]
 TEMPLATE_FILES = ["vencimento_registrar.html", "vencimento_listagem.html", "vencimento_editar.html"]
 
-REQUIREMENTS = "flask\noracledb\nsqlalchemy\npandas\npython-dotenv\n"
+REQUIREMENTS = "flask\noracledb\nsqlalchemy\npandas\npython-dotenv\nrequests\n"
 
 SYSTEMD_UNIT = f"""[Unit]
 Description=Controle de Vencimento (Flask)
@@ -65,6 +65,21 @@ NGINX_LOCATION = """
         proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header   X-Forwarded-Proto $scheme;
         proxy_read_timeout 60s;
+    }
+"""
+
+# /api/ — mesmo serviço Flask (vencimento.service), usado hoje pra
+# login.html reportar erro de login sem expor a chave da Evolution API no
+# navegador (ver controle_vencimento.py, blueprint api_bp).
+NGINX_LOCATION_API = """
+    location /api/ {
+        proxy_pass         http://127.0.0.1:5050;
+        proxy_http_version 1.1;
+        proxy_set_header   Host $host;
+        proxy_set_header   X-Real-IP $remote_addr;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Proto $scheme;
+        proxy_read_timeout 15s;
     }
 """
 
@@ -125,15 +140,23 @@ def deploy():
     ssh_run(client, "systemctl enable vencimento.service", check=False)
     ssh_run(client, "systemctl restart vencimento.service")
 
-    print("\n-> Conferindo nginx (adiciona location /vencimento/ se faltando)...")
+    print("\n-> Conferindo nginx (adiciona locations /vencimento/ e /api/ se faltando)...")
     nginx_conf = "/etc/nginx/sites-available/offtrade"
     with sftp.open(nginx_conf) as f:
         conf_atual = f.read().decode("utf-8")
-    if "/vencimento/" not in conf_atual:
-        marker = "    location / {"
-        conf_novo = conf_atual.replace(marker, NGINX_LOCATION + "\n" + marker, 1)
-        sftp.putfo(io.BytesIO(conf_novo.encode()), nginx_conf)
+    marker = "    location / {"
+    conf_novo = conf_atual
+    mudou = False
+    if "/vencimento/" not in conf_novo:
+        conf_novo = conf_novo.replace(marker, NGINX_LOCATION + "\n" + marker, 1)
         print("   location /vencimento/ adicionada.")
+        mudou = True
+    if "location /api/" not in conf_novo:
+        conf_novo = conf_novo.replace(marker, NGINX_LOCATION_API + "\n" + marker, 1)
+        print("   location /api/ adicionada.")
+        mudou = True
+    if mudou:
+        sftp.putfo(io.BytesIO(conf_novo.encode()), nginx_conf)
         ssh_run(client, "nginx -t")
         ssh_run(client, "systemctl reload nginx")
     else:
