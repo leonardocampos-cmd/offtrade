@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "24/07/2026 10:31",
-  "total": 21827,
+  "atualizado_em": "24/07/2026 11:21",
+  "total": 21828,
   "clientes": [
     {
       "codcli": "38586",
@@ -13632,8 +13632,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "159",
       "nome_usur1": "GISELLE BARFER - OFF TRADE",
-      "codusur2": "43",
-      "nome_usur2": "SOUZA"
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
     },
     {
       "codcli": "76189",
@@ -17456,8 +17456,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "43",
-      "nome_usur2": "SOUZA"
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
     },
     {
       "codcli": "81341",
@@ -32672,8 +32672,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "43",
-      "nome_usur2": "SOUZA"
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
     },
     {
       "codcli": "50983",
@@ -32907,13 +32907,13 @@ const CLIENTES_RCA_DATA = {
       "cidade": "ARMACAO DOS BUZ",
       "cnpj": "00.267.574/0001-20",
       "estado": "RJ",
-      "ramo": "OUTROS",
+      "ramo": "MINI-MERCADO",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "43",
-      "nome_usur2": "SOUZA"
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
     },
     {
       "codcli": "74547",
@@ -38448,6 +38448,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "95799",
+      "razao": "AGILITA AMBIENTES PLANEJADOS LIMITADA",
+      "fantasia": "AGILITA AMBIENTES PLANEJADOS",
+      "bairro": "PRAIA CAMPISTA",
+      "cidade": "MACAE",
+      "cnpj": "36.372.839/0001-06",
+      "estado": "RJ",
+      "ramo": "SERVIÇOS",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -49280,8 +49296,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "43",
-      "nome_usur2": "SOUZA"
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
     },
     {
       "codcli": "35562",
@@ -50736,8 +50752,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "43",
-      "nome_usur2": "SOUZA"
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
     },
     {
       "codcli": "91965",
@@ -75570,6 +75586,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "229",
       "nome_usur2": "LUIZA HASSEN"
+    },
+    {
+      "codcli": "95798",
+      "razao": "BOUTIQUE DAS CARNES SAO VICENTE LTDA",
+      "fantasia": "BOUTIQUE DAS CARNES",
+      "bairro": "SÃO VICENTE",
+      "cidade": "BELFORD ROXO",
+      "cnpj": "42.630.655/0001-93",
+      "estado": "RJ",
+      "ramo": "ACOUGUE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "460",
+      "nome_usur1": "IVANILDO MAIA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "83078",
@@ -109280,8 +109312,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "43",
-      "nome_usur2": "SOUZA"
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
     },
     {
       "codcli": "2172",
@@ -114864,22 +114896,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "72641",
-      "razao": "DENISE ESTEVES PINHEIRO 09969562711",
-      "fantasia": "LDK BAR E GARCOM",
-      "bairro": "EDSON PASSOS",
-      "cidade": "MESQUITA",
-      "cnpj": "47.682.898/0001-99",
-      "estado": "RJ",
-      "ramo": "EVENTOS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "379",
-      "nome_usur1": "JORGE MACIEL - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -147264,8 +147280,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "43",
-      "nome_usur2": "SOUZA"
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
     },
     {
       "codcli": "60786",
@@ -156288,8 +156304,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "43",
-      "nome_usur2": "SOUZA"
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
     },
     {
       "codcli": "60444",
@@ -165840,8 +165856,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "43",
-      "nome_usur2": "SOUZA"
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
     },
     {
       "codcli": "70872",
@@ -171392,8 +171408,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "43",
-      "nome_usur2": "SOUZA"
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
     },
     {
       "codcli": "3419",
@@ -176768,8 +176784,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "155",
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
-      "codusur2": "43",
-      "nome_usur2": "SOUZA"
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
     },
     {
       "codcli": "65224",
@@ -198548,6 +198564,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "72641",
+      "razao": "LDK EVENTOS LTDA",
+      "fantasia": "LDK EVENTOS LTDA",
+      "bairro": "EDSON PASSOS",
+      "cidade": "MESQUITA",
+      "cnpj": "47.682.898/0001-99",
+      "estado": "RJ",
+      "ramo": "EVENTOS",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "379",
+      "nome_usur1": "JORGE MACIEL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "50761",
       "razao": "LDL SANDUICHES LTDA",
       "fantasia": "FASTRO",
@@ -200032,8 +200064,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "155",
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
-      "codusur2": "43",
-      "nome_usur2": "SOUZA"
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
     },
     {
       "codcli": "51875",
@@ -201424,8 +201456,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "155",
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
-      "codusur2": "43",
-      "nome_usur2": "SOUZA"
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
     },
     {
       "codcli": "35730",
@@ -222160,8 +222192,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "43",
-      "nome_usur2": "SOUZA"
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
     },
     {
       "codcli": "94238",
@@ -225815,7 +225847,7 @@ const CLIENTES_RCA_DATA = {
       "codcli": "72031",
       "razao": "MAÍRA BRIXNER",
       "fantasia": "MAÍRA BRIXNER",
-      "bairro": "MACEDÔNIA",
+      "bairro": "MACEDONIA",
       "cidade": "ARRAIAL DO CABO",
       "cnpj": "30.342.098/0001-26",
       "estado": "RJ",
@@ -225824,8 +225856,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "159",
       "nome_usur1": "GISELLE BARFER - OFF TRADE",
-      "codusur2": "43",
-      "nome_usur2": "SOUZA"
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
     },
     {
       "codcli": "50295",
@@ -263856,8 +263888,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "43",
-      "nome_usur2": "SOUZA"
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
     },
     {
       "codcli": "77925",
@@ -272224,8 +272256,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "43",
-      "nome_usur2": "SOUZA"
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
     },
     {
       "codcli": "33263",
@@ -275088,8 +275120,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "43",
-      "nome_usur2": "SOUZA"
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
     },
     {
       "codcli": "72910",
@@ -275968,8 +276000,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "43",
-      "nome_usur2": "SOUZA"
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
     },
     {
       "codcli": "80174",
@@ -279792,8 +279824,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "155",
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
-      "codusur2": "43",
-      "nome_usur2": "SOUZA"
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
     },
     {
       "codcli": "74712",
@@ -290736,8 +290768,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "43",
-      "nome_usur2": "SOUZA"
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
     },
     {
       "codcli": "11203",
@@ -290871,7 +290903,7 @@ const CLIENTES_RCA_DATA = {
       "codcli": "71268",
       "razao": "RESTAURANTE MODENESI MULATINHO LTDA",
       "fantasia": "CABANA DO LUIZ RESTAURANTE E PIZZARIA",
-      "bairro": "JARDIM ATLÂNTICO",
+      "bairro": "JARDIM ATLANTICO",
       "cidade": "SERRA",
       "cnpj": "39.789.045/0001-22",
       "estado": "ES",
@@ -308672,8 +308704,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "155",
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
-      "codusur2": "43",
-      "nome_usur2": "SOUZA"
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
     },
     {
       "codcli": "31026",
@@ -322254,8 +322286,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "RESTAURANTE",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
+      "codusur1": "344",
+      "nome_usur1": "TIAGO ANDRADE - OFF TRADE",
       "codusur2": "351",
       "nome_usur2": "MARIANA LAGES"
     },
@@ -328476,22 +328508,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "34.746.496/0001-69",
       "estado": "RJ",
       "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "78535",
-      "razao": "THIAGO FRANCELINO FRANCO DOS SANTOS",
-      "fantasia": "CERVEJA E CIA",
-      "bairro": "JAPUIBA (CUNHAMBEBE)",
-      "cidade": "ANGRA DOS REIS",
-      "cnpj": "33.983.608/0001-32",
-      "estado": "RJ",
-      "ramo": "MINI-MERCADO",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -346427,7 +346443,7 @@ const CLIENTES_RCA_DATA = {
       "cidade": "RIO DE JANEIRO",
       "cnpj": "41.140.556/0001-60",
       "estado": "RJ",
-      "ramo": "EVENTOS",
+      "ramo": "ADEGA",
       "key_account": false,
       "rede": "",
       "codusur1": "91",
@@ -346475,7 +346491,7 @@ const CLIENTES_RCA_DATA = {
       "cidade": "SAO PAULO",
       "cnpj": "41.140.556/0002-41",
       "estado": "SP",
-      "ramo": "EVENTOS",
+      "ramo": "ADEGA",
       "key_account": false,
       "rede": "",
       "codusur1": "91",
