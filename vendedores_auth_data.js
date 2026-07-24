@@ -1,4 +1,4 @@
-// Gerado em 23/07/2026 15:45
+// Gerado em 24/07/2026 11:26
 const VENDEDORES_AUTH = {
   "156": {
     "nome": "MARILENA TRAGEL - OFF TRADE",
@@ -101,60 +101,6 @@ const VENDEDORES_AUTH = {
     "email": "dirlei.vieira@rigarr.com.br",
     "email2": "",
     "estado": "RJ"
-  },
-  "391": {
-    "nome": "ANDRE SILVA - OFF TRADE",
-    "email": "andre.silva@rigarr.com.br",
-    "email2": "",
-    "estado": "SP"
-  },
-  "399": {
-    "nome": "BRYAN PALOPOLI - OFF TRADE",
-    "email": "bryan.palopoli@castas.com.br",
-    "email2": "",
-    "estado": "SP"
-  },
-  "371": {
-    "nome": "CARLOS DE ALMEIDA - OFF TRADE",
-    "email": "carlos.almeida@rigarr.com.br",
-    "email2": "",
-    "estado": "SP"
-  },
-  "432": {
-    "nome": "DIEGO PAULINO - OFF TRADE",
-    "email": "diego.paulo@rigarr.com.br",
-    "email2": "",
-    "estado": "SP"
-  },
-  "405": {
-    "nome": "JESSICA FREITAS - OFF TRADE",
-    "email": "jessica.freitas@rigarr.com.br",
-    "email2": "",
-    "estado": "SP"
-  },
-  "438": {
-    "nome": "MARCIA RITA - OFF TRADE",
-    "email": "marcia.veloso@rigarr.com.br",
-    "email2": "",
-    "estado": "SP"
-  },
-  "318": {
-    "nome": "MARCUS TANAMACHI - OFF TRADE",
-    "email": "marcus.tanamachi@rigarr.com.br",
-    "email2": "",
-    "estado": "SP"
-  },
-  "367": {
-    "nome": "FABIANO RIBEIRO - OFF TRADE",
-    "email": "fabiano.ribeiro@rigarr.com.br",
-    "email2": "",
-    "estado": "SP"
-  },
-  "356": {
-    "nome": "ANA PAULA - OFF TRADE",
-    "email": "ana.gilha@rigarr.com.br",
-    "email2": "",
-    "estado": "SP"
   },
   "327": {
     "nome": "JOÃO SANTOS - OFF TRADE",

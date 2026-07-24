@@ -81,7 +81,7 @@ QUERY_VENDAS_ES = """
     LEFT JOIN CRC.PCCLIENT C ON M.CODCLI = C.CODCLI
     JOIN CRC.PCPRODUT P  ON M.CODPROD   = P.CODPROD
     JOIN CRC.PCFORNEC F  ON P.CODFORNEC = F.CODFORNEC
-    WHERE M.DTMOV >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -5)
+    WHERE M.DTMOV >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -12)
       AND M.CODOPER = 'S'
       AND M.NUMNOTADEV IS NULL
       AND M.DTCANCEL  IS NULL
@@ -139,7 +139,7 @@ for nome, meses_data in _por_vendedor.items():
     for mes, vendas in meses_data.items():
         fat = round(sum(v['valor'] for v in vendas), 2)
         pos = len(set(v['codcli'] for v in vendas if v['offtrade']))
-        _resumo.setdefault(nome, {})[mes] = {'fat': fat, 'pos': pos, 'fat_ant': 0.0}
+        _resumo.setdefault(nome, {})[mes] = {'fat': fat, 'pos': pos, 'fat_ant': 0.0, 'fat_ano_ant': 0.0}
 
 for nome in _resumo:
     for i, mes in enumerate(_meses_sorted):
@@ -148,6 +148,9 @@ for nome in _resumo:
         if i + 1 < len(_meses_sorted):
             ant = _meses_sorted[i + 1]
             _resumo[nome][mes]['fat_ant'] = _resumo[nome].get(ant, {}).get('fat', 0.0)
+        if i + 12 < len(_meses_sorted):
+            ano_ant = _meses_sorted[i + 12]
+            _resumo[nome][mes]['fat_ano_ant'] = _resumo[nome].get(ano_ant, {}).get('fat', 0.0)
 
 print(f"Realizado ES: {len(_resumo)} vendedores")
 

@@ -157,7 +157,28 @@
       }
     } catch {}
 
-    function showErro(msg) { document.getElementById('erro').textContent = msg; }
+    function showErro(msg) {
+      document.getElementById('erro').textContent = msg;
+      if (msg) _reportarErro(msg);
+    }
+
+    // Reporta erro de login pro servidor (rota /api/login-erro, no mesmo
+    // serviço do controle_vencimento) — ele que manda o WhatsApp de alerta,
+    // pra não expor a chave da Evolution API aqui no navegador. Best-effort:
+    // se a rota falhar (offline, deploy pendente etc), não trava o login.
+    function _reportarErro(msg) {
+      try {
+        const rca = document.getElementById('rca').value.trim();
+        const emailEl = document.getElementById('email');
+        const email = emailEl ? emailEl.value.trim() : '';
+        fetch('/api/login-erro', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ rca, email, erro: msg, pagina: location.pathname }),
+          keepalive: true,
+        }).catch(() => {});
+      } catch {}
+    }
 
     // Cada estado tem sua própria página de vendas — sem isso, todo vendedor
     // caía direto em metas.html (só RJ), então quem era de MG/SP/ES via uma

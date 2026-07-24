@@ -317,7 +317,7 @@ def _query_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=None, extr
         FROM {s}.PCMOV M
         JOIN {s}.PCUSUARI U ON M.CODUSUR = U.CODUSUR
         LEFT JOIN {s}.PCCLIENT C ON M.CODCLI = C.CODCLI
-        WHERE M.DTMOV >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -11)
+        WHERE M.DTMOV >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -12)
           AND M.CODOPER = 'S'
           AND M.NUMNOTADEV IS NULL
           AND M.DTCANCEL IS NULL

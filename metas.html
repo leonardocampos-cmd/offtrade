@@ -12,6 +12,7 @@
   <script src="gerentes_data.js"></script>
   <script src="fontes_status_data.js"></script>
   <script src="fontes_alert.js"></script>
+  <script src="pedidos_data.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -944,6 +945,26 @@ function avgLine(labels, avg) {
   };
 }
 
+function _idxMesmoMesAnoAnterior(labels) {
+  if (!labels.length) return -1;
+  const [nome, ano] = labels[labels.length - 1].split('/');
+  for (let i = 0; i < labels.length - 1; i++) {
+    const p = labels[i].split('/');
+    if (p[0] === nome && parseInt(p[1], 10) === parseInt(ano, 10) - 1) return i;
+  }
+  return -1;
+}
+
+function _coresBarrasHist(labels, corAtual, corFraca) {
+  const idxAtual  = labels.length - 1;
+  const idxAnoAnt = _idxMesmoMesAnoAnterior(labels);
+  return labels.map((_, i) => {
+    if (i === idxAtual)  return corAtual;
+    if (i === idxAnoAnt) return 'rgba(168,85,247,0.85)';
+    return corFraca;
+  });
+}
+
 function buildCharts(v) {
   const hist = v.historico || [];
   if (!hist.length) return;
@@ -961,8 +982,7 @@ function buildCharts(v) {
         {
           label: 'Faturamento',
           data: fatVals,
-          backgroundColor: labels.map((_, i) => i === labels.length - 1
-            ? 'rgba(245,197,24,0.85)' : 'rgba(245,197,24,0.4)'),
+          backgroundColor: _coresBarrasHist(labels, 'rgba(245,197,24,0.85)', 'rgba(245,197,24,0.4)'),
           borderColor: '#f5c518',
           borderWidth: 1,
           order: 1,
@@ -997,8 +1017,7 @@ function buildCharts(v) {
         {
           label: 'Clientes positivados',
           data: posVals,
-          backgroundColor: labels.map((_, i) => i === labels.length - 1
-            ? 'rgba(34,197,94,0.85)' : 'rgba(34,197,94,0.4)'),
+          backgroundColor: _coresBarrasHist(labels, 'rgba(34,197,94,0.85)', 'rgba(34,197,94,0.4)'),
           borderColor: '#22c55e',
           borderWidth: 1,
           order: 1,
@@ -1251,6 +1270,34 @@ function voltarParaTodos() {
 
 // ── Views ─────────────────────────────────────────────────
 
+const _POSICOES_PROBLEMA_PED = { 'Pendente': 1, 'Bloqueado': 1, 'Bloqueado (alçada)': 1 };
+
+function _normNomePedido(s) {
+  return (s || '').toUpperCase().replace(/\s*-?\s*OFF\s*TRADE\s*(SP|MG|ES)?\s*/gi, '').replace(/\s*-\s*$/, '').trim();
+}
+
+function _pedidosPendentesVendedor(nomeVendedor) {
+  if (typeof PEDIDOS_DATA === 'undefined') return [];
+  const alvo = _normNomePedido(nomeVendedor);
+  return (PEDIDOS_DATA.pedidos_feitos || []).filter(p =>
+    _POSICOES_PROBLEMA_PED[p.posicao] && _normNomePedido(p.nome) === alvo);
+}
+
+function _buildAvisoPedidos(nomeVendedor) {
+  const lista = _pedidosPendentesVendedor(nomeVendedor);
+  if (!lista.length) return '';
+  const itens = lista.map(p => `
+    <div style="padding:6px 0;border-bottom:1px solid var(--border)">
+      <div><strong>Ped ${p.numped}</strong> — ${p.cliente} — ${fmtFat(p.total)} <span style="color:var(--muted)">(${p.posicao})</span></div>
+      ${p.motivo ? `<div style="font-size:.72rem;color:var(--muted)">Motivo: ${p.motivo}</div>` : ''}
+    </div>`).join('');
+  return `
+    <div class="detail-card" style="border-color:var(--red)">
+      <div class="sec-title" style="color:var(--red)">&#9888; ${lista.length} pedido${lista.length > 1 ? 's' : ''} pendente${lista.length > 1 ? 's' : ''}/bloqueado${lista.length > 1 ? 's' : ''}</div>
+      <div style="margin-top:10px">${itens}</div>
+    </div>`;
+}
+
 function renderDetail(v, mes) {
   mes = mes || _getMes();
   _mesSel = mes;
@@ -1311,6 +1358,7 @@ function renderDetail(v, mes) {
         ${m('pos_reckit')          > 0 ? buildBar('Pos. Reckitt',    r('pos_reckit'),          m('pos_reckit'),          'pos') : ''}
         ${m('pos_crusoe')          > 0 ? buildBar('Pos. Crusoe',     r('pos_crusoe'),          m('pos_crusoe'),          'pos') : ''}
         ${m('pos_tatuzinho')       > 0 ? buildBar('Pos. Tatuzinho',  r('pos_tatuzinho'),       m('pos_tatuzinho'),       'pos') : ''}
+        ${m('pos_tial')            > 0 ? buildBar('Pos. Tial',       r('pos_tial'),            m('pos_tial'),            'pos') : ''}
         ${m('pos_redbull')         > 0 ? buildBar('Pos. Red Bull',   r('pos_redbull'),         m('pos_redbull'),         'pos') : ''}
         ${m('pos_pinatti')         > 0 ? buildBar('Pos. Pinatti',    r('pos_pinatti'),         m('pos_pinatti'),         'pos') : ''}
       </div>
@@ -1399,6 +1447,7 @@ function renderDetail(v, mes) {
         <button class="btn" onclick="voltarParaTodos()">&#8592; Todos</button>
       </div>
     </div>
+    ${_buildAvisoPedidos(v.nome)}
     ${metasHtml}
     ${vendasHtml}
     ${campanhasHtml}

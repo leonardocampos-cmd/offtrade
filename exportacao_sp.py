@@ -90,7 +90,7 @@ QUERY_VENDAS_SP = """
     LEFT JOIN SPON.PCCLIENT C ON M.CODCLI = C.CODCLI
     JOIN SPON.PCPRODUT P  ON M.CODPROD  = P.CODPROD
     JOIN SPON.PCFORNEC F  ON P.CODFORNEC = F.CODFORNEC
-    WHERE M.DTMOV >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -5)
+    WHERE M.DTMOV >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -12)
       AND M.CODOPER = 'S'
       AND M.NUMNOTADEV IS NULL
       AND M.DTCANCEL  IS NULL
@@ -240,6 +240,21 @@ for _mes_ts in _meses_vh:
                 _realizado_sp.setdefault(_nome, {}).setdefault(_mes_str, {})[_key] = round(float(_val), 2)
         except Exception:
             pass
+
+# fat_ant (mês anterior) e fat_ano_ant (mesmo mês do ano anterior) — mesma
+# lógica de exportacao_mg.py/exportacao_es.py, calculada em cima do 'fat' já
+# populado em _realizado_sp acima.
+_meses_sorted = sorted(_meses_str, key=_mes_sort_key, reverse=True)
+for _nome in _realizado_sp:
+    for _i, _mes in enumerate(_meses_sorted):
+        if _mes not in _realizado_sp[_nome]:
+            continue
+        if _i + 1 < len(_meses_sorted):
+            _ant = _meses_sorted[_i + 1]
+            _realizado_sp[_nome][_mes]['fat_ant'] = _realizado_sp[_nome].get(_ant, {}).get('fat', 0.0)
+        if _i + 12 < len(_meses_sorted):
+            _ano_ant = _meses_sorted[_i + 12]
+            _realizado_sp[_nome][_mes]['fat_ano_ant'] = _realizado_sp[_nome].get(_ano_ant, {}).get('fat', 0.0)
 
 print(f"Realizado SP: {len(_realizado_sp)} vendedores")
 
