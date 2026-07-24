@@ -2151,6 +2151,38 @@ function _buildCards(vendedores, mes) {
       </div>`;
   }).join('');
 }
+function _buildAvisoPedidosGeral() {
+  if (typeof PEDIDOS_DATA === 'undefined') return '';
+  const lista = (PEDIDOS_DATA.pedidos_feitos || []).filter(p =>
+    (p.estado || '').toUpperCase() === 'RJ' && _POSICOES_PROBLEMA_PED[p.posicao]);
+  if (!lista.length) return '';
+
+  const porVendedor = {};
+  lista.forEach(p => {
+    const nome = p.nome || '(sem vendedor)';
+    (porVendedor[nome] = porVendedor[nome] || []).push(p);
+  });
+
+  const blocos = Object.keys(porVendedor).sort().map(nome => {
+    const itens = porVendedor[nome].map(p => `
+      <div style="padding:6px 0;border-bottom:1px solid var(--border)">
+        <div><strong>Ped ${p.numped}</strong> — ${p.cliente} — ${fmtFat(p.total)} <span style="color:var(--muted)">(${p.posicao})</span></div>
+        ${p.motivo ? `<div style="font-size:.72rem;color:var(--muted)">Motivo: ${p.motivo}</div>` : ''}
+      </div>`).join('');
+    return `
+      <div style="margin-top:10px">
+        <div style="font-weight:600;font-size:.85rem">${nome} <span style="color:var(--muted);font-weight:400">(${porVendedor[nome].length})</span></div>
+        ${itens}
+      </div>`;
+  }).join('');
+
+  return `
+    <div class="detail-card" style="border-color:var(--red)">
+      <div class="sec-title" style="color:var(--red)">&#9888; ${lista.length} pedido${lista.length > 1 ? 's' : ''} pendente${lista.length > 1 ? 's' : ''}/bloqueado${lista.length > 1 ? 's' : ''} no sistema (${Object.keys(porVendedor).length} vendedor${Object.keys(porVendedor).length > 1 ? 'es' : ''})</div>
+      ${blocos}
+    </div>`;
+}
+
 function renderAll(vendedores, mes) {
   mes = mes || _getMes();
   _mesSel = mes;
@@ -2186,6 +2218,7 @@ function renderAll(vendedores, mes) {
 
   document.getElementById('app').innerHTML = `
     ${filHtml}
+    ${_buildAvisoPedidosGeral()}
     <div id="equipe-resumo-wrap">${_buildResumoEquipe(METAS_DATA.vendedores, mes)}</div>
     <div class="search-wrap">
       <input class="search-input" type="text" placeholder="Buscar por nome ou RCA..."
