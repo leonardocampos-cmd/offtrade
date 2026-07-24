@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "23/07/2026 15:19",
+  "atualizado_em": "24/07/2026 10:15",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -2709,7 +2709,7 @@ const CRUSOE_DATA = {
           "rca": 431,
           "vendedor": "Adeilson Gonçalvez",
           "clientes_gourmet": 1,
-          "faturamento": 1995.98,
+          "faturamento": 2905.28,
           "faturamento_gourmet": 259.8,
           "pontos_total": 1,
           "vendas": [
