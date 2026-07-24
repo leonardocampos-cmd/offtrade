@@ -164,18 +164,22 @@
     // tela sem o próprio RCA nela (dado mora em vendas_mg/sp/es_data.js, não
     // em metas_data.js). Roteia pela mesma "estado" já cadastrada em
     // VENDEDORES_AUTH (a mesma usada pra decidir @gmail vs @rigarr acima).
+    //
+    // NÃO reaproveita rg_redirect pra vendedor: esse valor guarda a última
+    // página que a pessoa tentou acessar antes de cair no login (ex: um
+    // teste anterior batendo em metas.html) — se reaproveitado, teria
+    // prioridade sobre o roteamento por estado e mandaria um vendedor de MG
+    // pra metas.html (RJ) só porque foi lá que ele tentou entrar antes
+    // (bug confirmado em 2026-07-24). Vendedor sempre recalcula a página
+    // certa a partir do estado cadastrado, ignorando qualquer redirect salvo.
     const _PAGINA_POR_ESTADO = { MG: 'mg.html', SP: 'sp.html', ES: 'es.html' };
 
     function _doRedirect(rca) {
-      const redir = sessionStorage.getItem('rg_redirect') || '';
       sessionStorage.removeItem('rg_redirect');
-      if (redir && /(?:^|\/)(metas|mg|sp|es)\.html(?:\?|$)/.test(redir)) {
-        location.replace(redir);
-        return;
-      }
       const vendedor = VENDEDORES_AUTH[rca] || {};
       const pagina = _PAGINA_POR_ESTADO[(vendedor.estado || '').toUpperCase()] || 'metas.html';
-      location.replace(pagina + '?rca=' + encodeURIComponent(rca));
+      const nomeCurto = (vendedor.nome || '').replace(/\s*-\s*OFF TRADE\s*$/i, '').trim();
+      location.replace(pagina + '?vendedor=' + encodeURIComponent(nomeCurto || rca));
     }
 
     // Mostrar campos conforme RCA digitado
