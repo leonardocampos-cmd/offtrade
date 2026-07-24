@@ -1,7 +1,9 @@
-// Abrindo o arquivo direto do disco (file://) em vez do site publicado —
-// redireciona pra versão hospedada na VPS, que sempre está atualizada.
+// Abrindo o arquivo direto do disco (file://) OU por outro domínio que não
+// seja a VPS (ex: GitHub Pages, leonardocampos-cmd.github.io — mesmo
+// conteúdo, mas o nginx da VPS nunca vê esse acesso, então some da auditoria
+// em acessos.html) — redireciona sempre pra versão hospedada na VPS.
 (function _redirectLocalToVps() {
-  if (location.protocol === 'file:') {
+  if (location.hostname !== 'offtrade.duckdns.org') {
     location.replace('https://offtrade.duckdns.org/' + location.pathname.split(/[\\/]/).pop() + location.search);
   }
 })();
