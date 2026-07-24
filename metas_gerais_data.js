@@ -1,12 +1,12 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "24/07/2026 10:12",
+  "atualizado_em": "24/07/2026 11:05",
   "mes": "Jul/26",
   "mes_ant": "Jun/26",
   "dias_corridos": 24,
   "dias_no_mes": 31,
   "dias_restantes": 7,
   "resumo": {
-    "fat": 8646483.85,
+    "fat": 8689711.89,
     "fat_ant": 8518373.49,
     "fat_ant_completo": 12844709.54,
     "pos": 1481,
@@ -15,22 +15,22 @@ const METAS_GERAIS_DATA = {
   },
   "total": {
     "meta": 14900000.0,
-    "fat": 8646483.85,
+    "fat": 8689711.89,
     "fat_ant": 8518373.49,
     "fat_ant_completo": 12844709.54,
-    "pct": 58.0,
-    "nec_dia": 893359.45
+    "pct": 58.3,
+    "nec_dia": 887184.02
   },
   "estados": [
     {
       "estado": "RJ",
       "label": "Rio de Janeiro",
       "meta": 3000000.0,
-      "fat": 1722980.2,
+      "fat": 1766208.24,
       "fat_ant": 2250870.83,
       "pos": 600,
-      "pct": 57.4,
-      "nec_dia": 182431.4,
+      "pct": 58.9,
+      "nec_dia": 176255.97,
       "fat_ant_completo": 2631271.07,
       "pos_ant": 623,
       "pos_ant_completo": 725
@@ -111,10 +111,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "BEAM SUNTORY",
-      "fat": 298590.56,
+      "fat": 342438.2,
       "fat_ant": 239078.49,
       "por_estado": {
-        "RJ": 195771.02,
+        "RJ": 239618.66,
         "SP": 0.0,
         "ES": 51149.04,
         "MG": 51670.5
@@ -122,10 +122,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "DIAGEO",
-      "fat": 286219.0,
+      "fat": 285859.2,
       "fat_ant": 573240.95,
       "por_estado": {
-        "RJ": 130222.23,
+        "RJ": 129862.43,
         "SP": 58072.26,
         "ES": 0.0,
         "MG": 97924.5
@@ -133,10 +133,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "ROBINSON CRUSOE",
-      "fat": 235483.72,
+      "fat": 235223.92,
       "fat_ant": 84296.69,
       "por_estado": {
-        "RJ": 76138.52,
+        "RJ": 75878.72,
         "SP": 0.0,
         "ES": 159345.2,
         "MG": 0.0
