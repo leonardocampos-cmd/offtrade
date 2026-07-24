@@ -382,21 +382,6 @@ def main():
             print("[AVISO] exportacao_estoque falhou — ignorado, pipeline continua.")
             traceback.print_exc()
 
-        step("9d - Status das páginas (status_paginas_data.js)")
-        try:
-            import subprocess, sys as _sys
-            result = subprocess.run(
-                [_sys.executable, "exportacao_status_paginas.py"],
-                capture_output=True, text=True, timeout=120
-            )
-            print(result.stdout)
-            if result.returncode != 0:
-                print("[AVISO] exportacao_status_paginas falhou — ignorado, pipeline continua.")
-                print(result.stderr)
-        except Exception:
-            print("[AVISO] exportacao_status_paginas falhou — ignorado, pipeline continua.")
-            traceback.print_exc()
-
         if SEND_ALERTS:
             step("10/10 - Alertas Logistica RJ (Gmail -> nao entregues)")
             try:
@@ -452,6 +437,21 @@ def main():
                     print(f"[AVISO] {script} falhou — ignorado, pipeline continua.")
                     traceback.print_exc()
 
+        step("12/12 - Verificação final: todas as páginas atualizaram?")
+        try:
+            import subprocess, sys as _sys
+            result = subprocess.run(
+                [_sys.executable, "exportacao_status_paginas.py"],
+                capture_output=True, text=True, timeout=120
+            )
+            print(result.stdout)
+            if result.returncode != 0:
+                print("[AVISO] exportacao_status_paginas falhou — ignorado, pipeline continua.")
+                print(result.stderr)
+        except Exception:
+            print("[AVISO] exportacao_status_paginas falhou — ignorado, pipeline continua.")
+            traceback.print_exc()
+
     except Exception:
         print("\n[ERRO] Falha na execução:")
         traceback.print_exc()
@@ -461,7 +461,22 @@ def main():
     duracao = (fim - inicio).seconds
     print(f"\n{'='*50}")
     print(f"  Concluído em {duracao}s")
-    print(f"{'='*50}\n")
+    print(f"{'='*50}")
+
+    try:
+        import json as _json, re as _re2
+        _status_path = Path(__file__).parent / "status_paginas_data.js"
+        _raw = _status_path.read_text(encoding="utf-8")
+        _m = _re2.search(r"=\s*(\{.*\});\s*$", _raw.strip(), _re2.DOTALL)
+        _dados = _json.loads(_m.group(1)) if _m else {}
+        _criticos = [p["arquivo"] for p in _dados.get("paginas", []) if p["status"] in ("Crítico", "Sem timestamp")]
+        if _criticos:
+            print(f"  [AVISO] {len(_criticos)} página(s) SEM atualizar (>12h): {', '.join(_criticos)}")
+        else:
+            print(f"  [OK] Todas as páginas do ciclo horário estão atualizadas.")
+    except Exception:
+        print("  [AVISO] Não foi possível ler status_paginas_data.js pra resumo final.")
+    print()
 
 if __name__ == "__main__":  
     main()
