@@ -247,7 +247,7 @@ def _realizado_mes(df):
     _zero = dict(fat_tt=0.0, fat_castas=0.0, fat_domecq_passport=0.0, fat_hob_azeite=0.0, fat_pinatti=0.0, fat_moving=0.0,
                  fat_pernod=0.0,
                  pos_tt=0, pos_hob_azeite=0, pos_reckit=0, pos_crusoe=0,
-                 pos_tatuzinho=0, pos_redbull=0, pos_pinatti=0, pos_essenza_hob=0,
+                 pos_tatuzinho=0, pos_tial=0, pos_redbull=0, pos_pinatti=0, pos_essenza_hob=0,
                  bonus_pernod=0.0, pos_pernod=0, industrias=0)
     if df.empty:
         return _zero
@@ -288,6 +288,7 @@ def _realizado_mes(df):
         'pos_reckit':          pos(df['FANTASIA'].str.contains('RECKIT', case=False, na=False)),
         'pos_crusoe':          pos(df['FANTASIA'].str.contains('ROBINSON CRUSOE', case=False, na=False)),
         'pos_tatuzinho':       pos(df['FANTASIA'].str.contains('TATUZINHO', case=False, na=False)),
+        'pos_tial':            pos(df['FANTASIA'].str.contains('TIAL', case=False, na=False)),
         'pos_redbull':         pos(df['FANTASIA'].str.contains('RED BULL', case=False, na=False)),
         'pos_pinatti':         pos(df['FANTASIA'].str.contains('PINATI', case=False, na=False)),
         'pos_essenza_hob':     pos(mask_essenza_hob),
@@ -465,6 +466,7 @@ for _, m in metas_com_nome.iterrows():
         'pos_reckit':          {'meta': safe_int(m.get('POSITIVAÇÃO RECKIT')),          'realizado': real['pos_reckit']},
         'pos_crusoe':          {'meta': safe_int(m.get('POSITIVAÇÃO CRUSOÉ')),          'realizado': real['pos_crusoe']},
         'pos_tatuzinho':       {'meta': safe_int(m.get('POSITIVAÇÃO TATUZINHO')),       'realizado': real['pos_tatuzinho']},
+        'pos_tial':            {'meta': safe_int(m.get('POSITIVAÇÃO TIAL')),            'realizado': real['pos_tial']},
         'pos_redbull':         {'meta': safe_int(m.get('POSITIVAÇÃO RED BULL')),        'realizado': real['pos_redbull']},
         'pos_pinatti':         {'meta': safe_int(m.get('POSITIVAÇÃO PINATTI')),         'realizado': real['pos_pinatti']},
         'pos_essenza_hob':     {'meta': safe_int(m.get('POSITIVAÇÃO ESSENZA+HOB')),     'realizado': real['pos_essenza_hob']},
