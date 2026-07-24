@@ -62,11 +62,15 @@ def montar_mensagem(dados):
         linhas.append("\n*Pendentes:*")
         for p in pendentes:
             linhas.append(f"• Ped {p['numped']} — {p['cliente']} — {_fmt_brl(p['total'])} ({p['nome']})")
+            if p.get("motivo"):
+                linhas.append(f"  Motivo: {p['motivo']}")
 
     if cortados:
         linhas.append("\n*Cortados:*")
         for p in cortados:
             linhas.append(f"• Ped {p['numped']} — {p['cliente']} — {_fmt_brl(p['total'])} ({p['nome']})")
+            if p.get("motivo"):
+                linhas.append(f"  Motivo: {p['motivo']}")
 
     linhas.append("\n_Mensagem de teste — envio automatizado de pedidos MG._")
     return "\n".join(linhas)
