@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "24/07/2026 10:21",
+  "atualizado_em": "24/07/2026 11:13",
   "data_rota": "24.07",
   "vendedores": [
     {
@@ -10859,68 +10859,7 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [
-        {
-          "numped": "275000639",
-          "numnota": "",
-          "data": "24/07/2026",
-          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "PEDIDO 4524378743",
-          "total": 42436.32,
-          "itens": [
-            {
-              "desc": "WHISKY JIM BEAM WHITE 1L",
-              "qt": 132,
-              "val": 12474.0
-            },
-            {
-              "desc": "WHISKY BOURBON MAKERS MARK 750 ML",
-              "qt": 96,
-              "val": 14929.92
-            },
-            {
-              "desc": "WHISKY HIBIKI JAPANESE HARMONY 700ML",
-              "qt": 6,
-              "val": 4146.0
-            },
-            {
-              "desc": "WHISKY ESC MACALLAN DOUBLE 12 YO 700ML",
-              "qt": 9,
-              "val": 6940.08
-            },
-            {
-              "desc": "GIN LARIOS ORIGINAL 700ML",
-              "qt": 84,
-              "val": 3946.32
-            }
-          ]
-        },
-        {
-          "numped": "275000640",
-          "numnota": "",
-          "data": "24/07/2026",
-          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "PEDIDO 4524432607",
-          "total": 1411.32,
-          "itens": [
-            {
-              "desc": "GIN ROKU 700ML",
-              "qt": 12,
-              "val": 1411.32
-            }
-          ]
-        }
-      ],
+      "nao_emitido": [],
       "emitido_s_rota": [],
       "canceladas": [
         {
@@ -11716,6 +11655,31 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "156003736",
+          "numnota": "",
+          "data": "24/07/2026",
+          "cliente": "POSTO HILARIO DE GOUVEIA LIMITADA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 816.0,
+          "itens": [
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+              "qt": 20,
+              "val": 398.0
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+              "qt": 20,
+              "val": 418.0
+            }
+          ]
+        },
         {
           "numped": "156003735",
           "numnota": "",
