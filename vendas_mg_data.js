@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "23/07/2026 15:37",
+  "atualizado_em": "24/07/2026 10:29",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50,8 +50,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 312476.97
       },
       "Jul/26": {
-        "fat": 189556.66,
-        "pos": 82,
+        "fat": 193351.42,
+        "pos": 84,
         "fat_ant": 341993.95
       }
     },
@@ -82,8 +82,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 175829.04
       },
       "Jul/26": {
-        "fat": 124119.48,
-        "pos": 52,
+        "fat": 194067.72,
+        "pos": 54,
         "fat_ant": 168142.6
       }
     },
@@ -209,8 +209,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 896376.5
       },
       "Jul/26": {
-        "fat": 385502.28,
-        "pos": 9,
+        "fat": 412333.08,
+        "pos": 10,
         "fat_ant": 1039602.9
       }
     },
@@ -236,8 +236,8 @@ const VENDAS_MG_DATA = {
         "fat_ant": 111009.88
       },
       "Jul/26": {
-        "fat": 85204.25,
-        "pos": 53,
+        "fat": 85706.81,
+        "pos": 54,
         "fat_ant": 85308.22
       }
     },
@@ -52774,6 +52774,76 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "23/07/2026",
+          "codcli": "38626",
+          "cliente": "ST ONOFRE ALIMENTOS E EVENTOS LTDA",
+          "produto": "ÁGUA SÃO LOURENÇO C/GÁS 300 ML",
+          "fantasia": "",
+          "qt": 10,
+          "valor": 259.0,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "38626",
+          "cliente": "ST ONOFRE ALIMENTOS E EVENTOS LTDA",
+          "produto": "ÁGUA SÃO LOURENÇO S/GÁS 300 ML",
+          "fantasia": "",
+          "qt": 5,
+          "valor": 129.5,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "38626",
+          "cliente": "ST ONOFRE ALIMENTOS E EVENTOS LTDA",
+          "produto": "VODKA ABSOLUT - 1 LITRO",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 149.8,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "38626",
+          "cliente": "ST ONOFRE ALIMENTOS E EVENTOS LTDA",
+          "produto": "GIN GORDONS 750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 2,
+          "valor": 113.8,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "31792",
+          "cliente": "CUAREIM ALIMENTOS LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 479.4,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "31792",
+          "cliente": "CUAREIM ALIMENTOS LTDA",
+          "produto": "VINHO ARESTI EST SEL CHARDONNAY 750ML",
+          "fantasia": "CASTAS",
+          "qt": 5,
+          "valor": 274.5,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "31792",
+          "cliente": "CUAREIM ALIMENTOS LTDA",
+          "produto": "VINHO ADELE ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 461.4,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
           "codcli": "33176",
           "cliente": "BELLINI PRODUCOES DE EVENTOS LTDA",
           "produto": "YVY DESTILADO GIN MAR  LT 710ML",
@@ -52850,6 +52920,26 @@ const VENDAS_MG_DATA = {
           "fantasia": "CASTAS",
           "qt": 3,
           "valor": 224.7,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "32768",
+          "cliente": "D S SOUZA BAR E RESTAURANTE LTDA",
+          "produto": "4 PACK RED BULL ZERO",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 31.96,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "32768",
+          "cliente": "D S SOUZA BAR E RESTAURANTE LTDA",
+          "produto": "APERITIVO CAMPARI 998 ML",
+          "fantasia": "",
+          "qt": 3,
+          "valor": 149.7,
           "offtrade": true
         },
         {
@@ -52951,6 +53041,66 @@ const VENDAS_MG_DATA = {
           "qt": 6,
           "valor": 635.4,
           "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "37532",
+          "cliente": "BEM QUE TEM HORTIFRUTI LTDA",
+          "produto": "TEQUILA J CUERVO SILVER 750ML",
+          "fantasia": "AURORA",
+          "qt": 2,
+          "valor": 235.8,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "37532",
+          "cliente": "BEM QUE TEM HORTIFRUTI LTDA",
+          "produto": "CHANDON PASSION ON ICE 750ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 439.6,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "37532",
+          "cliente": "BEM QUE TEM HORTIFRUTI LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 419.6,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "37532",
+          "cliente": "BEM QUE TEM HORTIFRUTI LTDA",
+          "produto": "TEQUILA J CUERVO GOLD 750ML",
+          "fantasia": "AURORA",
+          "qt": 1,
+          "valor": 117.9,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "39580",
+          "cliente": "CLUB GOURMET LTDA.",
+          "produto": "VINHO CHAO DO CONDE FINO BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 239.4,
+          "offtrade": false
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "39580",
+          "cliente": "CLUB GOURMET LTDA.",
+          "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 293.4,
+          "offtrade": false
         }
       ]
     },
@@ -62554,6 +62704,176 @@ const VENDAS_MG_DATA = {
           "fantasia": "DON LUIZ",
           "qt": 60,
           "valor": 4494.0,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "WHISKY JACK DANIELS 1L",
+          "fantasia": "BROWN-FORMAN",
+          "qt": 60,
+          "valor": 7914.0,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "WHISKY WALKER RED LABEL 1L",
+          "fantasia": "DIAGEO",
+          "qt": 36,
+          "valor": 2876.4,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "GIN GORDONS 750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 18,
+          "valor": 1060.2,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "LICOR BAILEYS - 750ML",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 1726.8,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "VODKA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 120,
+          "valor": 4188.0,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "fantasia": "AURORA",
+          "qt": 18,
+          "valor": 2698.2,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "38025",
+          "cliente": "LATICINIOS DA LAPA LTDA",
+          "produto": "AZEITE DE OLIVA EV ESSENZA 500ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 346.8,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "38022",
+          "cliente": "COMERCIAL JP ALIMENTOS LTDA",
+          "produto": "RUM MONTILLA OURO 1000ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 149.4,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "38022",
+          "cliente": "COMERCIAL JP ALIMENTOS LTDA",
+          "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 149.4,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "RED BULL",
+          "qt": 57,
+          "valor": 11409.12,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 40,
+          "valor": 8006.4,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 62,
+          "valor": 12409.92,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
+          "fantasia": "RED BULL",
+          "qt": 12,
+          "valor": 2401.92,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "RED BULL MELANCIA 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 28,
+          "valor": 5604.48,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "RED BULL SF POMELO 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 10,
+          "valor": 2001.6,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "RED BULL ZERO 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 25,
+          "valor": 5004.0,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "30538",
+          "cliente": "DAKI BELO HORIZONTE LTDA",
+          "produto": "RED BULL MAÇA SF 250ML  C/24 UNID",
+          "fantasia": "RED BULL",
+          "qt": 10,
+          "valor": 2001.6,
           "offtrade": true
         }
       ]
@@ -85863,6 +86183,76 @@ const VENDAS_MG_DATA = {
           "qt": 138,
           "valor": 14538.3,
           "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "30232",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 48,
+          "valor": 3561.12,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "30232",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "WHISKY ESC MACALLAN DOUBLE 12 YO 700ML",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 6,
+          "valor": 4318.44,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "30232",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 36,
+          "valor": 2670.84,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "37356",
+          "cliente": "DMA DISTRIBUIDORA S/A",
+          "produto": "LICOR BALLENA MORANGO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 72,
+          "valor": 8316.0,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "37356",
+          "cliente": "DMA DISTRIBUIDORA S/A",
+          "produto": "YVY DESTILADO GIN AR LT 710ML",
+          "fantasia": "YVY",
+          "qt": 60,
+          "valor": 2094.0,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "37356",
+          "cliente": "DMA DISTRIBUIDORA S/A",
+          "produto": "YVY DESTILADO GIN TERRA LT 710ML",
+          "fantasia": "YVY",
+          "qt": 12,
+          "valor": 418.8,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+          "fantasia": "DON LUIZ",
+          "qt": 84,
+          "valor": 5451.6,
+          "offtrade": true
         }
       ]
     },
@@ -98884,6 +99274,26 @@ const VENDAS_MG_DATA = {
           "fantasia": "DIAGEO",
           "qt": 3,
           "valor": 314.7,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "35152",
+          "cliente": "BEAGA DA GEMA BAR E RESTAURANTE LTDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 191.76,
+          "offtrade": true
+        },
+        {
+          "data": "23/07/2026",
+          "codcli": "35152",
+          "cliente": "BEAGA DA GEMA BAR E RESTAURANTE LTDA",
+          "produto": "VODKA SMIRNOFF RED 998 ML",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 310.8,
           "offtrade": true
         }
       ]
