@@ -274,7 +274,7 @@ from whatsapp_evolution import enviar_whatsapp as _enviar_whatsapp
 
 api_bp = Blueprint("api", __name__, url_prefix="/api")
 
-_NUMERO_ALERTA = os.getenv("ALERTA_LOGIN_NUMERO", "5521974972433")
+_NUMERO_ALERTA = os.getenv("ALERTA_LOGIN_NUMERO", "5521992085320")
 
 
 @api_bp.route("/login-erro", methods=["POST"])
