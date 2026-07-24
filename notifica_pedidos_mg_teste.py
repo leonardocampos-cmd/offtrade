@@ -27,6 +27,16 @@ def _eh_mg(item):
     return (item.get("estado") or "").strip().upper() == "MG"
 
 
+# "Liberado" (PCPEDC.POSICAO = 'L') é pedido aprovado seguindo o fluxo normal
+# de faturamento — não é um problema. Só conta como "pendente" de verdade
+# quem está parado numa posição que não avança sozinha.
+_POSICOES_PROBLEMA = {"Pendente", "Bloqueado", "Bloqueado (alçada)"}
+
+
+def _eh_pendente_real(item):
+    return item.get("posicao") in _POSICOES_PROBLEMA
+
+
 def _fmt_brl(v):
     try:
         v = float(v)
@@ -36,7 +46,7 @@ def _fmt_brl(v):
 
 
 def montar_mensagem(dados):
-    pendentes  = [p for p in dados["pedidos_feitos"] if _eh_mg(p)]
+    pendentes  = [p for p in dados["pedidos_feitos"] if _eh_mg(p) and _eh_pendente_real(p)]
     cortados   = [p for p in dados["faturados"] if _eh_mg(p) and p.get("tem_corte")]
     cancelados = [p for p in dados["cancelados"] if _eh_mg(p)]
 
