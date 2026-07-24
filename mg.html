@@ -437,16 +437,6 @@ function renderDetalhe(nome) {
     '<select id="sel-mes-det" class="mes-select" onchange="_atualizarTabela(\'' + nome.replace(/'/g,"\\'") + '\')">' + opts + '</select></div>' +
     _buildAvisoPedidos(nome) +
     '<div class="detail-card">' +
-      '<div class="sec-header" onclick="toggleSec(\'sec-np\')">' +
-        '<div class="sec-title" style="color:var(--red)">Nao positivados</div>' +
-        '<div style="display:flex;align-items:center;gap:6px">' +
-          '<span style="font-weight:600;font-size:.8rem;color:' + (nNP > 0 ? 'var(--red)' : 'var(--green)') + '">' + nNP + '</span>' +
-          '<span id="sec-np-ic" class="sec-ic">▼</span>' +
-        '</div>' +
-      '</div>' +
-      '<div id="sec-np" class="sec-body">' + buildNaoPos(npList, 'det-np') + '</div>' +
-    '</div>' +
-    '<div class="detail-card">' +
       '<div class="sec-header" onclick="toggleSec(\'sec-fat\')">' +
         '<div class="sec-title" style="color:var(--green)">Faturamento do mes</div>' +
         '<span id="sec-fat-ic" class="sec-ic open">▼</span>' +
@@ -465,6 +455,16 @@ function renderDetalhe(nome) {
         '<div class="chart-wrap" style="margin-top:14px"><canvas id="chart-fat-hist"></canvas></div>' +
         '<div class="chart-wrap" style="margin-top:12px"><canvas id="chart-pos-hist"></canvas></div>' +
       '</div>' +
+    '</div>' +
+    '<div class="detail-card">' +
+      '<div class="sec-header" onclick="toggleSec(\'sec-np\')">' +
+        '<div class="sec-title" style="color:var(--red)">Nao positivados</div>' +
+        '<div style="display:flex;align-items:center;gap:6px">' +
+          '<span style="font-weight:600;font-size:.8rem;color:' + (nNP > 0 ? 'var(--red)' : 'var(--green)') + '">' + nNP + '</span>' +
+          '<span id="sec-np-ic" class="sec-ic">▼</span>' +
+        '</div>' +
+      '</div>' +
+      '<div id="sec-np" class="sec-body">' + buildNaoPos(npList, 'det-np') + '</div>' +
     '</div>';
   _atualizarTabela(nome);
   buildHistCharts(nome);

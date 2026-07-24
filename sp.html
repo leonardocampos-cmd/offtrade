@@ -740,6 +740,18 @@ function renderVendasSP(nome) {
       '</div>' +
     '</div>' +
 
+    // Seção: Histórico
+    '<div class="detail-card">' +
+      '<div class="sec-header" onclick="toggleSec(\'sec-hist\')">' +
+        '<div class="sec-title">Historico</div>' +
+        '<span id="sec-hist-ic" class="sec-ic open">▼</span>' +
+      '</div>' +
+      '<div id="sec-hist" class="sec-body open">' +
+        '<div class="chart-wrap" style="margin-top:14px"><canvas id="chart-fat-hist"></canvas></div>' +
+        '<div class="chart-wrap" style="margin-top:12px"><canvas id="chart-pos-hist"></canvas></div>' +
+      '</div>' +
+    '</div>' +
+
     // Seção: Não positivados
     '<div class="detail-card">' +
       '<div class="sec-header" onclick="toggleSec(\'sec-np\')">' +
@@ -757,18 +769,6 @@ function renderVendasSP(nome) {
           'onclick="exportarNaoPosCSV(\'' + nome.replace(/'/g,"\\'") + '\')">&#8595; CSV Não Positivados</button>' +
         '</div>' : '') +
         buildNaoPos(npList, 'det') +
-      '</div>' +
-    '</div>' +
-
-    // Seção: Histórico
-    '<div class="detail-card">' +
-      '<div class="sec-header" onclick="toggleSec(\'sec-hist\')">' +
-        '<div class="sec-title">Historico</div>' +
-        '<span id="sec-hist-ic" class="sec-ic open">▼</span>' +
-      '</div>' +
-      '<div id="sec-hist" class="sec-body open">' +
-        '<div class="chart-wrap" style="margin-top:14px"><canvas id="chart-fat-hist"></canvas></div>' +
-        '<div class="chart-wrap" style="margin-top:12px"><canvas id="chart-pos-hist"></canvas></div>' +
       '</div>' +
     '</div>';
 
