@@ -32,7 +32,7 @@ PORT         = 22
 
 HERE = Path(__file__).parent
 
-APP_FILES = ["controle_vencimento.py"]
+APP_FILES = ["controle_vencimento.py", "whatsapp_evolution.py"]
 TEMPLATE_FILES = ["vencimento_registrar.html", "vencimento_listagem.html", "vencimento_editar.html"]
 
 REQUIREMENTS = "flask\noracledb\nsqlalchemy\npandas\npython-dotenv\nrequests\n"

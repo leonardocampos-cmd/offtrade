@@ -1,15 +1,11 @@
 #ENVIO WHATSAPP - ABAIXO DA TABELA (Evolution API)
-import requests
 import json
 import os
 from datetime import datetime
 from conferencia_preco import df
+from whatsapp_evolution import enviar_whatsapp
 
-# Configurações da Evolution API
-EVOLUTION_URL = os.getenv("EVOLUTION_BASE_URL", "http://localhost:8083")
-EVOLUTION_KEY = os.environ["EVOLUTION_KEY"]
-INSTANCE      = os.getenv("EVOLUTION_INSTANCE", "bees")  # <- nome da instância criada no painel
-NUMERO        = "5521974972433"                 # <- número destino (DDI+DDD, sem + ou espaços)
+NUMERO = "5521974972433"                 # <- número destino (DDI+DDD, sem + ou espaços)
 
 REGISTRO_JSON = "pedidos_enviados.json"
 
@@ -44,18 +40,7 @@ else:
 
     mensagem = "\n".join(linhas)
 
-    url = f"{EVOLUTION_URL}/message/sendText/{INSTANCE}"
-    headers = {
-        "apikey": EVOLUTION_KEY,
-        "Content-Type": "application/json"
-    }
-
-    payload = {
-        "number": NUMERO,
-        "textMessage": {"text": mensagem}
-    }
-
-    response = requests.post(url, json=payload, headers=headers)
+    response = enviar_whatsapp(NUMERO, mensagem)
 
     if response.status_code in (200, 201):
         # Registra os pedidos enviados no JSON

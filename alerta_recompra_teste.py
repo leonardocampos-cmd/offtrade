@@ -12,11 +12,10 @@ isso vira um envio de verdade (e pra quem: cliente? vendedor? gestor?).
 Não está agendado em cron — rodar manualmente quando quiser gerar um novo teste.
 """
 import json
-import os
 from pathlib import Path
 
-import requests
 from dotenv import load_dotenv
+from whatsapp_evolution import enviar_whatsapp as _enviar_whatsapp
 
 BASE = Path(__file__).parent
 load_dotenv(BASE / ".env")
@@ -24,10 +23,6 @@ load_dotenv(BASE / ".env")
 # Mesmos números de teste usados em report_diario_vendedor.py — nunca um
 # cliente ou vendedor real.
 TEST_NUMBERS = ["5521970922712", "5521992085320", "5521966632125"]
-
-EVOLUTION_URL = os.getenv("EVOLUTION_BASE_URL", "http://localhost:8083")
-EVOLUTION_KEY = os.getenv("EVOLUTION_KEY", "")
-INSTANCE      = os.getenv("EVOLUTION_INSTANCE", "bees")
 
 TOP_N = 15
 
@@ -64,10 +59,7 @@ def montar_mensagem(clientes: list) -> str:
 
 
 def enviar(mensagem: str, numero: str) -> bool:
-    url = f"{EVOLUTION_URL}/message/sendText/{INSTANCE}"
-    headers = {"apikey": EVOLUTION_KEY, "Content-Type": "application/json"}
-    payload = {"number": numero, "textMessage": {"text": mensagem}}
-    resp = requests.post(url, json=payload, headers=headers, timeout=30)
+    resp = _enviar_whatsapp(numero, mensagem)
     ok = resp.status_code in (200, 201)
     print(f"  {'OK' if ok else 'ERRO'} envio pra {numero}: {resp.status_code}")
     if not ok:

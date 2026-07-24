@@ -12,18 +12,14 @@ import re
 import json
 import random
 import time
-import requests
 from pathlib import Path
 from datetime import datetime
 from dotenv import load_dotenv
+from whatsapp_evolution import enviar_whatsapp as _enviar_whatsapp
 
 load_dotenv()
 
 TEST_NUMBERS = ["5521970922712", "5521992085320", "5521966632125"]
-
-EVOLUTION_URL = os.getenv("EVOLUTION_BASE_URL", "http://localhost:8083")
-EVOLUTION_KEY = os.getenv("EVOLUTION_KEY", "")
-INSTANCE      = os.getenv("EVOLUTION_INSTANCE", "bees")
 
 
 def carregar_entregas():
@@ -67,10 +63,7 @@ def montar_mensagem(vendedor):
 
 
 def enviar_whatsapp(numero, mensagem):
-    url = f"{EVOLUTION_URL}/message/sendText/{INSTANCE}"
-    headers = {"apikey": EVOLUTION_KEY, "Content-Type": "application/json"}
-    payload = {"number": numero, "textMessage": {"text": mensagem}}
-    return requests.post(url, json=payload, headers=headers, timeout=15)
+    return _enviar_whatsapp(numero, mensagem)
 
 
 def main():

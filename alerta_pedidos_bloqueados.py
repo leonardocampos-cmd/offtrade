@@ -17,9 +17,9 @@ from urllib.parse import quote_plus
 
 import oracledb
 import pandas as pd
-import requests
 from sqlalchemy import create_engine, text
 from dotenv import load_dotenv
+from whatsapp_evolution import enviar_whatsapp as _enviar_whatsapp
 
 load_dotenv()
 
@@ -33,10 +33,6 @@ spon_user = os.getenv("SPON_USER", user)
 spon_pass = os.getenv("SPON_PASSWORD", password)
 
 TEST_NUMBERS = ["5521970922712", "5521992085320", "5521966632125"]
-
-EVOLUTION_URL = os.getenv("EVOLUTION_BASE_URL", "http://localhost:8083")
-EVOLUTION_KEY = os.getenv("EVOLUTION_KEY", "")
-INSTANCE      = os.getenv("EVOLUTION_INSTANCE", "bees")
 
 _OFF_TRADE = "NOME LIKE '%OFF TRADE%'"
 _OFF_TRADE_WS = "(NOME LIKE '%OFF TRADE%' OR NOME LIKE '%W.S%')"
@@ -126,10 +122,7 @@ def montar_mensagem(vendedor: str, pedidos: list, fontes_indisponiveis: list) ->
 
 
 def enviar_whatsapp(numero, mensagem):
-    url = f"{EVOLUTION_URL}/message/sendText/{INSTANCE}"
-    headers = {"apikey": EVOLUTION_KEY, "Content-Type": "application/json"}
-    payload = {"number": numero, "textMessage": {"text": mensagem}}
-    return requests.post(url, json=payload, headers=headers, timeout=15)
+    return _enviar_whatsapp(numero, mensagem)
 
 
 def main():

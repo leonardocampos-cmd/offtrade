@@ -270,13 +270,11 @@ def exportar():
 # navegador de qualquer visitante) — passa por essa rota no servidor, que já
 # tem as credenciais no .env, igual envio_whatsapp.py já faz pros pedidos
 # abaixo da tabela.
-import requests as _requests
+from whatsapp_evolution import enviar_whatsapp as _enviar_whatsapp
 
 api_bp = Blueprint("api", __name__, url_prefix="/api")
 
-_EVOLUTION_URL      = os.getenv("EVOLUTION_BASE_URL", "http://localhost:8083")
-_EVOLUTION_INSTANCE = os.getenv("EVOLUTION_INSTANCE", "bees")
-_NUMERO_ALERTA       = os.getenv("ALERTA_LOGIN_NUMERO", "5521974972433")
+_NUMERO_ALERTA = os.getenv("ALERTA_LOGIN_NUMERO", "5521974972433")
 
 
 @api_bp.route("/login-erro", methods=["POST"])
@@ -297,13 +295,7 @@ def login_erro():
         f"Erro: {erro}"
     )
     try:
-        evolution_key = os.environ["EVOLUTION_KEY"]
-        resp = _requests.post(
-            f"{_EVOLUTION_URL}/message/sendText/{_EVOLUTION_INSTANCE}",
-            json={"number": _NUMERO_ALERTA, "textMessage": {"text": texto}},
-            headers={"apikey": evolution_key, "Content-Type": "application/json"},
-            timeout=15,
-        )
+        resp = _enviar_whatsapp(_NUMERO_ALERTA, texto)
         return {"ok": resp.status_code in (200, 201)}, 200
     except Exception as e:
         return {"ok": False, "motivo": str(e)[:200]}, 200
