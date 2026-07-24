@@ -423,6 +423,8 @@ function _buildAvisoPedidos(nomeVendedor) {
 function renderDetalhe(nome) {
   var meses = D ? D.meses : [];
   var opts  = meses.map(function(m) { return '<option value="' + m + '">' + m + '</option>'; }).join('');
+  var npList = (NP && NP.por_vendedor && NP.por_vendedor[nome]) || [];
+  var nNP    = npList.length;
   history.pushState({}, '', '?vendedor=' + encodeURIComponent(nome));
   document.getElementById('header-actions').innerHTML =
     '<button class="btn btn-dl" onclick="exportarCSV(\'' + nome.replace(/'/g,"\\'") + '\')">&#8595; CSV</button>' +
@@ -434,6 +436,16 @@ function renderDetalhe(nome) {
     '</div>' +
     '<select id="sel-mes-det" class="mes-select" onchange="_atualizarTabela(\'' + nome.replace(/'/g,"\\'") + '\')">' + opts + '</select></div>' +
     _buildAvisoPedidos(nome) +
+    '<div class="detail-card">' +
+      '<div class="sec-header" onclick="toggleSec(\'sec-np\')">' +
+        '<div class="sec-title" style="color:var(--red)">Nao positivados</div>' +
+        '<div style="display:flex;align-items:center;gap:6px">' +
+          '<span style="font-weight:600;font-size:.8rem;color:' + (nNP > 0 ? 'var(--red)' : 'var(--green)') + '">' + nNP + '</span>' +
+          '<span id="sec-np-ic" class="sec-ic">▼</span>' +
+        '</div>' +
+      '</div>' +
+      '<div id="sec-np" class="sec-body">' + buildNaoPos(npList, 'det-np') + '</div>' +
+    '</div>' +
     '<div class="detail-card">' +
       '<div class="sec-header" onclick="toggleSec(\'sec-fat\')">' +
         '<div class="sec-title" style="color:var(--green)">Faturamento do mes</div>' +
