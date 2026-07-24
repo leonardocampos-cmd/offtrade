@@ -21114,6 +21114,34 @@ const AGENDAMENTO_DATA = {
       "nome": "MARIA LUIZA - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "7886",
+          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
+          "cnpj": "39.346.861/0383-04",
+          "filial": "PENHA",
+          "valor": 42436.32,
+          "nf": "6922.0",
+          "data_agendamento": "28/07/2026",
+          "data_ord": "2026-07-28",
+          "status": "FATURADO",
+          "obs": "IR CARRO DEDICADO SOMENTE COM A MERCADORIA DESTE MERCADO  \n1) Carga paletizada (Não pode misturar produtos diferentes no pallet);\n2) Chegar com 2 horas de antecedência - avisar a logística que não pode haver atraso - a assistente de compras foi desligada e caso haja algum problema não tem como resolver na hora!!\n3) Caixas e rótulos em perfeito estado, o mercado não recebe produtos com embalagens danificadas;\n4) Não esquecer de colocar a cobrança da descarga.",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "7886",
+          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
+          "cnpj": "39.346.861/0383-04",
+          "filial": "PENHA",
+          "valor": 1411.32,
+          "nf": "6923.0",
+          "data_agendamento": "28/07/2026",
+          "data_ord": "2026-07-28",
+          "status": "FATURADO",
+          "obs": "IR CARRO DEDICADO SOMENTE COM A MERCADORIA DESTE MERCADO  \n1) Carga paletizada (Não pode misturar produtos diferentes no pallet);\n2) Chegar com 2 horas de antecedência - avisar a logística que não pode haver atraso - a assistente de compras foi desligada e caso haja algum problema não tem como resolver na hora!!\n3) Caixas e rótulos em perfeito estado, o mercado não recebe produtos com embalagens danificadas;\n4) Não esquecer de colocar a cobrança da descarga.",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "6269",
           "cliente": "SUPERMERCADO ZONA SUL S/A",
           "cnpj": "33.381.286/0001-51",
@@ -24370,7 +24398,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "24/07/2026 10:25",
+  "atualizado_em": "24/07/2026 11:16",
   "comparativo": [
     {
       "msg_id": "19f8f0d0054f43bd",
