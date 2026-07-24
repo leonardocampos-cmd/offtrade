@@ -1,10 +1,21 @@
 import os
+import socket
 import sys
 import atexit
 import traceback
 from datetime import datetime
 from pathlib import Path
 from dotenv import load_dotenv
+
+# Sem isso, uma conexão https com o Google (Drive/Gmail) pode ficar pendurada
+# num read() que nunca retorna (socket em CLOSE_WAIT — o servidor já fechou
+# do lado dele, mas nosso lado nunca recebe erro) — travou o main.py inteiro
+# por quase 1h em 2026-07-24 (steps como meta.py/entregas.py rodam
+# importados neste mesmo processo, não em subprocess, então herdam esse
+# timeout). Mesma proteção que baixar_planilhas_drive.py já usa isolado,
+# aplicada aqui bem cedo pra cobrir o processo inteiro. Não afeta o Oracle
+# (thick client usa a lib C da Oracle, não o módulo socket do Python).
+socket.setdefaulttimeout(30)
 
 load_dotenv(Path(__file__).parent / ".env")
 
