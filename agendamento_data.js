@@ -16805,11 +16805,11 @@ const AGENDAMENTO_DATA = {
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18.322.565/0004-01",
           "filial": "MARICÁ",
-          "valor": 311.88,
-          "nf": "",
+          "valor": 529.8,
+          "nf": "6972.0",
           "data_agendamento": "28/07/2026",
           "data_ord": "2026-07-28",
-          "status": "A FATURAR",
+          "status": "EM ROTA",
           "obs": "CONTATO 21974318449 (VITORIA)",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -24608,7 +24608,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "28/07/2026 10:19",
+  "atualizado_em": "28/07/2026 11:12",
   "comparativo": [
     {
       "msg_id": "19f8f0d0054f43bd",
