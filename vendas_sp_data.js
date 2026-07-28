@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "28/07/2026 11:14",
+  "atualizado_em": "28/07/2026 12:14",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -129884,6 +129884,36 @@ const VENDAS_SP_DATA = {
           "qt": 2,
           "valor": 279.8,
           "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "51659",
+          "cliente": "MERCADO FLORESTA AZUL DE VILA SILVIA LTDA",
+          "produto": "SMIRNOFF ICE 24X275ML LONG",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 125.9,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "51659",
+          "cliente": "MERCADO FLORESTA AZUL DE VILA SILVIA LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 24,
+          "valor": 215.76,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "51659",
+          "cliente": "MERCADO FLORESTA AZUL DE VILA SILVIA LTDA",
+          "produto": "SMIRNOFF ICE 24X275ML LONG",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 125.9,
+          "offtrade": true
         }
       ]
     },
@@ -134123,10 +134153,10 @@ const VENDAS_SP_DATA = {
     },
     "ANDERSON MOTTA": {
       "Jul/26": {
-        "fat": 2681.64,
-        "pos": 3.0,
+        "fat": 3149.2,
+        "pos": 4.0,
         "fat_pernod": 343.5,
-        "fat_crs": 215.76,
+        "fat_crs": 431.52,
         "fat_ant": 0.0,
         "fat_ano_ant": 0.0
       }
