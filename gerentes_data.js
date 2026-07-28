@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "28/07/2026 12:51",
+  "atualizado_em": "28/07/2026 13:41",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -822,6 +822,10 @@ const GERENTES_DATA = {
               "fat": 2746281.66,
               "qt": 50370
             },
+            "Fev/26": {
+              "fat": 1943047.55,
+              "qt": 32716
+            },
             "Jul/26": {
               "fat": 1738484.39,
               "qt": 31242
@@ -837,10 +841,6 @@ const GERENTES_DATA = {
             "Mar/26": {
               "fat": 2704905.75,
               "qt": 51965
-            },
-            "Fev/26": {
-              "fat": 1943047.55,
-              "qt": 32716
             }
           },
           "supervisores": [
@@ -853,6 +853,10 @@ const GERENTES_DATA = {
                 "Abr/26": {
                   "fat": 2746281.66,
                   "qt": 50370
+                },
+                "Fev/26": {
+                  "fat": 1943047.55,
+                  "qt": 32716
                 },
                 "Jul/26": {
                   "fat": 1738484.39,
@@ -869,10 +873,6 @@ const GERENTES_DATA = {
                 "Mar/26": {
                   "fat": 2704905.75,
                   "qt": 51965
-                },
-                "Fev/26": {
-                  "fat": 1943047.55,
-                  "qt": 32716
                 }
               },
               "vendedores": [
@@ -1083,7 +1083,7 @@ const GERENTES_DATA = {
                 },
                 {
                   "nome": "DIRLEI ARAUJO - OFF TRADE",
-                  "rca": "417",
+                  "rca": "554",
                   "estado": "RJ",
                   "por_mes": {
                     "Abr/26": {
@@ -2919,13 +2919,13 @@ const GERENTES_DATA = {
     {
       "nome": "Sem Estado",
       "por_mes": {
-        "Jul/26": {
-          "fat": 2156.7,
-          "qt": 33
-        },
         "Fev/26": {
           "fat": 60587.64,
           "qt": 2430
+        },
+        "Jul/26": {
+          "fat": 2156.7,
+          "qt": 33
         }
       },
       "gerentes": [
