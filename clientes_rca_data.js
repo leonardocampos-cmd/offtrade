@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "28/07/2026 10:27",
-  "total": 21968,
+  "atualizado_em": "28/07/2026 11:19",
+  "total": 21969,
   "clientes": [
     {
       "codcli": "38586",
@@ -6418,6 +6418,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "49124",
+      "razao": "37.216.966 RODRIGO PAIXAO DOS SANTOS",
+      "fantasia": "RODRIGO PAIXAO DOS SANTOS",
+      "bairro": "JARDIM TRÊS MARIAS",
+      "cidade": "SAO PAULO",
+      "cnpj": "37.216.966/0001-70",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "83693",
@@ -14786,22 +14802,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "72124",
-      "razao": "50.493.902 BARBARA SILVA DE ARAUJO",
-      "fantasia": "MERCEARIA BRASAS",
-      "bairro": "REALENGO",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "50.493.902/0001-85",
-      "estado": "RJ",
-      "ramo": "TABACARIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "312",
-      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "72322",
@@ -35594,6 +35594,22 @@ const CLIENTES_RCA_DATA = {
       "bairro": "JARDIM ZAIRA",
       "cidade": "MAUA",
       "cnpj": "47.975.186/0001-68",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "36327",
+      "razao": "ADEGA E DISTRIBUIDORA L.A.- LTDA",
+      "fantasia": "ADEGA E DISTRIBUIDORA L.A.",
+      "bairro": "ITAQUERA",
+      "cidade": "SAO PAULO",
+      "cnpj": "28.391.708/0001-30",
       "estado": "SP",
       "ramo": "MERCADO",
       "key_account": false,
@@ -231894,7 +231910,7 @@ const CLIENTES_RCA_DATA = {
     {
       "codcli": "49543",
       "razao": "MERCADO FONTE NOVA BELA VISTA LTDA",
-      "fantasia": "MERCADO FONTE NOVA BELA VISTA LTDA",
+      "fantasia": "MERCADO FONTE NOVA BELA VISTA",
       "bairro": "JARDIM PARAÍSO",
       "cidade": "GUARULHOS",
       "cnpj": "04.273.675/0002-46",
@@ -269554,22 +269570,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "20208",
-      "razao": "PENELOPE DRINKS COMERCIAL - EIRELI",
-      "fantasia": "PENELOPE'S DRINKS",
-      "bairro": "JARDIM GUARANI",
-      "cidade": "SAO PAULO",
-      "cnpj": "31.432.052/0001-60",
-      "estado": "SP",
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "1",
-      "nome_usur2": "RQ"
     },
     {
       "codcli": "32747",
@@ -314962,6 +314962,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "52095",
+      "razao": "SOUZA SHOP LTDA",
+      "fantasia": "SOUZA SHOP",
+      "bairro": "VILA VIRGÍNIA",
+      "cidade": "ITAQUAQUECETUBA",
+      "cnpj": "42.887.602/0001-52",
+      "estado": "SP",
+      "ramo": "LOJA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "518",
+      "nome_usur1": "PAULO THOMAZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "80987",
