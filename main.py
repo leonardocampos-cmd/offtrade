@@ -53,17 +53,41 @@ LOCK_PATH = Path(__file__).parent / ".pipeline.lock"
 # "trava pra sempre" e passou a ser "demora horas" quando a VPN/Oracle está
 # ruim — 1h de expiração do lock virou curta demais e chegou a deixar dois
 # main.py rodando ao mesmo tempo (confirmado em 2026-07-21, VPN lenta).
-LOCK_EXPIRA_SEG = 18000  # 5h — acima disso, trava é considerada órfã
+LOCK_EXPIRA_SEG = 18000  # 5h — acima disso, trava é considerada órfã mesmo se o PID ainda existir
+
+
+def _pid_vivo(pid):
+    """True/False se confirmado vivo/morto, None se não dá pra saber nesta
+    plataforma. os.kill(pid, 0) não mata nada — só testa se o processo existe."""
+    try:
+        os.kill(pid, 0)
+        return True
+    except ProcessLookupError:
+        return False
+    except OSError:
+        return False
+    except Exception:
+        return None
+
 
 def _adquirir_lock():
     if LOCK_PATH.exists():
+        pid, idade = None, None
         try:
-            _, timestamp_str = LOCK_PATH.read_text(encoding='utf-8').strip().split('|', 1)
+            pid_str, timestamp_str = LOCK_PATH.read_text(encoding='utf-8').strip().split('|', 1)
+            pid = int(pid_str)
             idade = (datetime.now() - datetime.fromisoformat(timestamp_str)).total_seconds()
         except Exception:
-            idade = None
-        if idade is not None and idade < LOCK_EXPIRA_SEG:
-            print(f"[AVISO] Já existe uma execução do pipeline em andamento (lock criado há {int(idade)}s) — abortando esta execução para não escrever em cima dela.")
+            pass
+        vivo = _pid_vivo(pid) if pid is not None else None
+        # Trava só é considerada válida se o processo dono ainda está vivo E
+        # dentro do prazo — só checar idade deixou passar dois main.py rodando
+        # ao mesmo tempo em 2026-07-28 (processo travado há 3h, ainda vivo,
+        # mas abaixo do teto de 5h só por tempo).
+        if vivo is False:
+            print("[AVISO] Lock encontrado mas o processo dono já não existe — assumindo execução anterior morta, prosseguindo.")
+        elif idade is not None and idade < LOCK_EXPIRA_SEG:
+            print(f"[AVISO] Já existe uma execução do pipeline em andamento (lock criado há {int(idade)}s, PID {pid}) — abortando esta execução para não escrever em cima dela.")
             sys.exit(0)
         else:
             print("[AVISO] Lock encontrado mas expirado/inválido — assumindo execução anterior travada, prosseguindo.")
