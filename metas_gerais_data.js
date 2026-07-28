@@ -1,25 +1,25 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "28/07/2026 10:58",
+  "atualizado_em": "28/07/2026 11:57",
   "mes": "Jul/26",
   "mes_ant": "Jun/26",
   "dias_corridos": 28,
   "dias_no_mes": 31,
   "dias_restantes": 3,
   "resumo": {
-    "fat": 10145865.62,
+    "fat": 10153058.57,
     "fat_ant": 9277828.7,
     "fat_ant_completo": 12841125.14,
-    "pos": 1602,
+    "pos": 1607,
     "pos_ant": 1595,
     "pos_ant_completo": 1757
   },
   "total": {
     "meta": 14900000.0,
-    "fat": 10145865.62,
+    "fat": 10153058.57,
     "fat_ant": 9277828.7,
     "fat_ant_completo": 12841125.14,
     "pct": 68.1,
-    "nec_dia": 1584711.46
+    "nec_dia": 1582313.81
   },
   "estados": [
     {
@@ -39,11 +39,11 @@ const METAS_GERAIS_DATA = {
       "estado": "SP",
       "label": "São Paulo",
       "meta": 8000000.0,
-      "fat": 6578229.73,
+      "fat": 6578697.29,
       "fat_ant": 4912696.42,
-      "pos": 664,
+      "pos": 665,
       "pct": 82.2,
-      "nec_dia": 473923.42,
+      "nec_dia": 473767.57,
       "fat_ant_completo": 7501419.35,
       "pos_ant": 569,
       "pos_ant_completo": 623
@@ -52,11 +52,11 @@ const METAS_GERAIS_DATA = {
       "estado": "ES",
       "label": "Espírito Santo",
       "meta": 1800000.0,
-      "fat": 494110.44,
+      "fat": 500835.83,
       "fat_ant": 741421.03,
-      "pos": 66,
-      "pct": 27.5,
-      "nec_dia": 435296.52,
+      "pos": 70,
+      "pct": 27.8,
+      "nec_dia": 433054.72,
       "fat_ant_completo": 959413.37,
       "pos_ant": 111,
       "pos_ant_completo": 130
@@ -100,23 +100,23 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "RED BULL",
-      "fat": 554243.75,
+      "fat": 554331.23,
       "fat_ant": 953780.95,
       "por_estado": {
         "RJ": 179298.17,
         "SP": 151165.44,
-        "ES": 79553.2,
+        "ES": 79640.68,
         "MG": 144226.94
       }
     },
     {
       "fantasia": "ROBINSON CRUSOE",
-      "fat": 413595.27,
+      "fat": 414308.1,
       "fat_ant": 85416.49,
       "por_estado": {
         "RJ": 243129.92,
         "SP": 0.0,
-        "ES": 170465.35,
+        "ES": 171178.18,
         "MG": 0.0
       }
     },
@@ -133,11 +133,11 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "DIAGEO",
-      "fat": 314450.23,
+      "fat": 314702.03,
       "fat_ant": 653526.0,
       "por_estado": {
         "RJ": 144378.15,
-        "SP": 68599.04,
+        "SP": 68850.84,
         "ES": 0.0,
         "MG": 101473.04
       }
@@ -177,11 +177,11 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "CRS BRANDS",
-      "fat": 202155.02,
+      "fat": 202370.78,
       "fat_ant": 92981.21,
       "por_estado": {
         "RJ": 4443.6,
-        "SP": 197711.42,
+        "SP": 197927.18,
         "ES": 0.0,
         "MG": 0.0
       }
@@ -419,12 +419,12 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "PINATI",
-      "fat": 21103.92,
+      "fat": 27029.0,
       "fat_ant": 17552.17,
       "por_estado": {
         "RJ": 2751.75,
         "SP": 0.0,
-        "ES": 18352.17,
+        "ES": 24277.25,
         "MG": 0.0
       }
     },
