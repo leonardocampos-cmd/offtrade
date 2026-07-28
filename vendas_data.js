@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "28/07/2026 10:08",
+  "atualizado_em": "28/07/2026 10:56",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -433131,7 +433131,7 @@ const VENDAS_DATA = {
         {
           "data": "04/03/2026",
           "codcli": "20208",
-          "cliente": "PENELOPE DRINKS COMERCIAL - EIRELI",
+          "cliente": "PENELOPE DRINKS COMERCIAL LTDA",
           "produto": "VODKA GREY GOOSE LORANGE 750ML",
           "fantasia": "BACARDI",
           "qt": 36,
@@ -433142,7 +433142,7 @@ const VENDAS_DATA = {
         {
           "data": "04/03/2026",
           "codcli": "20208",
-          "cliente": "PENELOPE DRINKS COMERCIAL - EIRELI",
+          "cliente": "PENELOPE DRINKS COMERCIAL LTDA",
           "produto": "VODKA GREY GOOSE LA POIRE 750 ML",
           "fantasia": "BACARDI",
           "qt": 18,
@@ -433153,7 +433153,7 @@ const VENDAS_DATA = {
         {
           "data": "04/03/2026",
           "codcli": "20208",
-          "cliente": "PENELOPE DRINKS COMERCIAL - EIRELI",
+          "cliente": "PENELOPE DRINKS COMERCIAL LTDA",
           "produto": "VODKA GREY GOOSE LE CITRON 750ML",
           "fantasia": "BACARDI",
           "qt": 24,
@@ -433164,7 +433164,7 @@ const VENDAS_DATA = {
         {
           "data": "19/03/2026",
           "codcli": "20208",
-          "cliente": "PENELOPE DRINKS COMERCIAL - EIRELI",
+          "cliente": "PENELOPE DRINKS COMERCIAL LTDA",
           "produto": "WHISKY GENTLEMAN JACK 1L",
           "fantasia": "BROWN",
           "qt": 12,
@@ -433175,7 +433175,7 @@ const VENDAS_DATA = {
         {
           "data": "19/03/2026",
           "codcli": "20208",
-          "cliente": "PENELOPE DRINKS COMERCIAL - EIRELI",
+          "cliente": "PENELOPE DRINKS COMERCIAL LTDA",
           "produto": "WHISKY JACK DANIELS SINGLE BARREL 750ML",
           "fantasia": "BROWN",
           "qt": 12,
@@ -433186,7 +433186,7 @@ const VENDAS_DATA = {
         {
           "data": "19/03/2026",
           "codcli": "20208",
-          "cliente": "PENELOPE DRINKS COMERCIAL - EIRELI",
+          "cliente": "PENELOPE DRINKS COMERCIAL LTDA",
           "produto": "WHISKY JACK DANIELS HONEY 375 ML",
           "fantasia": "BROWN",
           "qt": 48,
@@ -433197,7 +433197,7 @@ const VENDAS_DATA = {
         {
           "data": "19/03/2026",
           "codcli": "20208",
-          "cliente": "PENELOPE DRINKS COMERCIAL - EIRELI",
+          "cliente": "PENELOPE DRINKS COMERCIAL LTDA",
           "produto": "WHISKY JACK DANIELS 700ML",
           "fantasia": "BROWN",
           "qt": 12,
@@ -433208,7 +433208,7 @@ const VENDAS_DATA = {
         {
           "data": "31/03/2026",
           "codcli": "20208",
-          "cliente": "PENELOPE DRINKS COMERCIAL - EIRELI",
+          "cliente": "PENELOPE DRINKS COMERCIAL LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
           "fantasia": "PERNOD",
           "qt": 96,
@@ -442318,7 +442318,7 @@ const VENDAS_DATA = {
         {
           "data": "24/04/2026",
           "codcli": "20208",
-          "cliente": "PENELOPE DRINKS COMERCIAL - EIRELI",
+          "cliente": "PENELOPE DRINKS COMERCIAL LTDA",
           "produto": "WHISKY JACK DANIELS APPLE 1L - DEST",
           "fantasia": "BROWN",
           "qt": 36,
@@ -442329,7 +442329,7 @@ const VENDAS_DATA = {
         {
           "data": "24/04/2026",
           "codcli": "20208",
-          "cliente": "PENELOPE DRINKS COMERCIAL - EIRELI",
+          "cliente": "PENELOPE DRINKS COMERCIAL LTDA",
           "produto": "WHISKY JACK DANIELS HONEY 1LT - DEST",
           "fantasia": "BROWN",
           "qt": 36,
@@ -450163,7 +450163,7 @@ const VENDAS_DATA = {
         {
           "data": "05/05/2026",
           "codcli": "20208",
-          "cliente": "PENELOPE DRINKS COMERCIAL - EIRELI",
+          "cliente": "PENELOPE DRINKS COMERCIAL LTDA",
           "produto": "VODKA GREY GOOSE LORANGE 750ML",
           "fantasia": "BACARDI",
           "qt": 36,
@@ -450174,7 +450174,7 @@ const VENDAS_DATA = {
         {
           "data": "05/05/2026",
           "codcli": "20208",
-          "cliente": "PENELOPE DRINKS COMERCIAL - EIRELI",
+          "cliente": "PENELOPE DRINKS COMERCIAL LTDA",
           "produto": "WHISKY JACK DANIELS HONEY 1LT - DEST",
           "fantasia": "BROWN",
           "qt": 24,
@@ -450185,7 +450185,7 @@ const VENDAS_DATA = {
         {
           "data": "11/05/2026",
           "codcli": "20208",
-          "cliente": "PENELOPE DRINKS COMERCIAL - EIRELI",
+          "cliente": "PENELOPE DRINKS COMERCIAL LTDA",
           "produto": "VODKA ABSOLUT 1 LITRO",
           "fantasia": "PERNOD",
           "qt": 60,
@@ -450196,7 +450196,7 @@ const VENDAS_DATA = {
         {
           "data": "28/05/2026",
           "codcli": "20208",
-          "cliente": "PENELOPE DRINKS COMERCIAL - EIRELI",
+          "cliente": "PENELOPE DRINKS COMERCIAL LTDA",
           "produto": "VODKA GREY GOOSE LORANGE 750ML",
           "fantasia": "BACARDI",
           "qt": 42,
@@ -456424,7 +456424,7 @@ const VENDAS_DATA = {
         {
           "data": "10/06/2026",
           "codcli": "20208",
-          "cliente": "PENELOPE DRINKS COMERCIAL - EIRELI",
+          "cliente": "PENELOPE DRINKS COMERCIAL LTDA",
           "produto": "VODKA GREY GOOSE LE CITRON 750ML",
           "fantasia": "BACARDI",
           "qt": 24,
@@ -456435,7 +456435,7 @@ const VENDAS_DATA = {
         {
           "data": "10/06/2026",
           "codcli": "20208",
-          "cliente": "PENELOPE DRINKS COMERCIAL - EIRELI",
+          "cliente": "PENELOPE DRINKS COMERCIAL LTDA",
           "produto": "VODKA GREY GOOSE LA POIRE 750 ML",
           "fantasia": "BACARDI",
           "qt": 24,
@@ -456446,7 +456446,7 @@ const VENDAS_DATA = {
         {
           "data": "17/06/2026",
           "codcli": "20208",
-          "cliente": "PENELOPE DRINKS COMERCIAL - EIRELI",
+          "cliente": "PENELOPE DRINKS COMERCIAL LTDA",
           "produto": "WHISKY JIM BEAM WHITE 1L",
           "fantasia": "BEAM SUNTORY BRASIL",
           "qt": 60,
@@ -537839,17 +537839,6 @@ const VENDAS_DATA = {
           "valor": 151165.44,
           "tipo": "Venda",
           "offtrade": true
-        },
-        {
-          "data": "23/07/2026",
-          "codcli": "46386",
-          "cliente": "T Y COMERCIO E SERVICOS DE BEBIDAS LTDA",
-          "produto": "RED BULL SF NECTARINA 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 864,
-          "valor": 41264.64,
-          "tipo": "Venda",
-          "offtrade": true
         }
       ],
       "Abr/26": [
@@ -538098,17 +538087,6 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 5712,
           "valor": 302736.0,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "24/07/2026",
-          "codcli": "46386",
-          "cliente": "T Y COMERCIO E SERVICOS DE BEBIDAS LTDA",
-          "produto": "RED BULL SF NECTARINA 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 864,
-          "valor": 41264.64,
           "tipo": "Venda",
           "offtrade": true
         },
