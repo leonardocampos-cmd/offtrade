@@ -1,5 +1,5 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "28/07/2026 10:19",
+  "atualizado_em": "28/07/2026 11:12",
   "periodo_dias": 90,
   "fontes_indisponiveis": [
     "CASTAS"
@@ -17,7 +17,7 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :4813",
       "obs": "",
       "total": 221.7,
@@ -44,7 +44,7 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 29.16,
@@ -53,6 +53,40 @@ const PEDIDOS_DATA = {
           "desc": "4 PACK RED BULL 250ML",
           "qt": 1,
           "val": 29.16,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "508000046",
+      "numnota": "",
+      "data": "28/07/2026",
+      "data_ord": "2026-07-28",
+      "nome": "MARCELO DE SOUZA - OFF TRADE",
+      "cliente": "ITAPOA SUPERMERCADO LTDA",
+      "sistema": "CRC",
+      "estado": "ES",
+      "supervisor": "SUPERVISOR OFF - ES",
+      "gerente": "EROCLES OLIVEIRA",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :4810",
+      "obs": "",
+      "total": 443.4,
+      "itens": [
+        {
+          "desc": "XAROPE FABBRI MORANGO 560ML",
+          "qt": 6,
+          "val": 221.7,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "XAROPE FABBRI CRANBERRY 560ML",
+          "qt": 6,
+          "val": 221.7,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -98,7 +132,7 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :5167",
       "obs": "",
       "total": 652.8,
@@ -139,7 +173,7 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :5167",
       "obs": "",
       "total": 2448.0,
@@ -169,6 +203,40 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
+      "numped": "379001318",
+      "numnota": "",
+      "data": "28/07/2026",
+      "data_ord": "2026-07-28",
+      "nome": "JORGE MACIEL - OFF TRADE",
+      "cliente": "MERCADO UNIAO DE MESQUITA LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :3154",
+      "obs": "",
+      "total": 499.8,
+      "itens": [
+        {
+          "desc": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
+          "qt": 2,
+          "val": 255.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "qt": 4,
+          "val": 244.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
       "numped": "336002032",
       "numnota": "",
       "data": "28/07/2026",
@@ -180,7 +248,7 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 29.16,
@@ -248,7 +316,7 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Pendente",
       "motivo": "Item com desconto acima do permitido :4810",
       "obs": "",
       "total": 443.4,
@@ -257,6 +325,40 @@ const PEDIDOS_DATA = {
           "desc": "XAROPE FABBRI MORANGO 560ML",
           "qt": 12,
           "val": 443.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "419000728",
+      "numnota": "",
+      "data": "28/07/2026",
+      "data_ord": "2026-07-28",
+      "nome": "NÁTALI DE OLIVEIRA - OFF TRADE",
+      "cliente": "38.405.385 ARIANE DE CARVALHO ALVES",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :6565",
+      "obs": "data entrega: 29/07",
+      "total": 466.56,
+      "itens": [
+        {
+          "desc": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
+          "qt": 1,
+          "val": 286.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "RED BULL 24X250ML",
+          "qt": 1,
+          "val": 179.76,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -275,7 +377,7 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :5167",
       "obs": "",
       "total": 2448.0,
@@ -316,7 +418,7 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Pedido com item abaixo do preço minimo.",
       "obs": "",
       "total": 29.16,
@@ -325,6 +427,33 @@ const PEDIDOS_DATA = {
           "desc": "4 PACK RED BULL SF MAÇA 4X250ML",
           "qt": 1,
           "val": 29.16,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "458000002",
+      "numnota": "",
+      "data": "28/07/2026",
+      "data_ord": "2026-07-28",
+      "nome": "BRUNO COSMO - OFF TRADE",
+      "cliente": "JUVENAL CESCONETTO",
+      "sistema": "CRC",
+      "estado": "ES",
+      "supervisor": "SUPERVISOR OFF - ES",
+      "gerente": "EROCLES OLIVEIRA",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :3",
+      "obs": "",
+      "total": 330.72,
+      "itens": [
+        {
+          "desc": "RED BULL 24X250ML",
+          "qt": 2,
+          "val": 330.72,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -343,7 +472,7 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :4810",
       "obs": "",
       "total": 443.4,
@@ -377,7 +506,7 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :4811",
       "obs": "",
       "total": 443.4,
@@ -393,6 +522,143 @@ const PEDIDOS_DATA = {
           "desc": "XAROPE FABBRI CRANBERRY 560ML",
           "qt": 6,
           "val": 221.7,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "588003221",
+      "numnota": "",
+      "data": "28/07/2026",
+      "data_ord": "2026-07-28",
+      "nome": "W.S",
+      "cliente": "G.K.L. MERCEARIA LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 2344.8,
+      "itens": [
+        {
+          "desc": "VODKA ABSOLUT RASPBERRY - 750ML",
+          "qt": 12,
+          "val": 666.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "JACK DANIELS BLACKBERRY 1L",
+          "qt": 12,
+          "val": 1678.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "469000051",
+      "numnota": "",
+      "data": "28/07/2026",
+      "data_ord": "2026-07-28",
+      "nome": "PATRICIA RAMOS - OFF TRADE",
+      "cliente": "SUPERMERCADO SANTA GERTRUDES LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 1152.4,
+      "itens": [
+        {
+          "desc": "CONHAQUE DREHER 900ML",
+          "qt": 12,
+          "val": 202.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY JACK DANIELS SINATRA 1L",
+          "qt": 1,
+          "val": 589.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "LICOR BALLENA COCO 750ML",
+          "qt": 1,
+          "val": 79.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "JACK DANIELS BLACKBERRY 1L",
+          "qt": 2,
+          "val": 279.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "511000007",
+      "numnota": "",
+      "data": "28/07/2026",
+      "data_ord": "2026-07-28",
+      "nome": "ALEXANDRE SOUZA - OFF TRADE",
+      "cliente": "PEDRO IVAN CARDOSO MINIMERCADO",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 954.1,
+      "itens": [
+        {
+          "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "qt": 2,
+          "val": 159.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO TINTO AZUL VENTOZELO 750ML",
+          "qt": 3,
+          "val": 269.7,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO TROU DE LAPIN BORDEAUX BRANCO 750M",
+          "qt": 2,
+          "val": 189.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "AZEITE DE OLIVA EV ESSENZA 12X250ML",
+          "qt": 1,
+          "val": 178.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "SMIRNOFF ICE TROPICAL (LONG) 24X275ML",
+          "qt": 1,
+          "val": 156.0,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -420,6 +686,67 @@ const PEDIDOS_DATA = {
           "desc": "ESPUMANTE CHANDON BRUT ROSE 750ML",
           "qt": 12,
           "val": 922.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "463000052",
+      "numnota": "",
+      "data": "28/07/2026",
+      "data_ord": "2026-07-28",
+      "nome": "ROBERTO DOS SANTOS - OFF TRADE",
+      "cliente": "BRUNO BARRETO PAIXAO MERCADO",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 629.9,
+      "itens": [
+        {
+          "desc": "WHISKY ROYAL SALUTE MALT 700ML",
+          "qt": 1,
+          "val": 629.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "588003220",
+      "numnota": "",
+      "data": "28/07/2026",
+      "data_ord": "2026-07-28",
+      "nome": "W.S",
+      "cliente": "COMERCIAL DE BEBIDAS GRANDE MIX LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "",
+      "obs": "",
+      "total": 70404.0,
+      "itens": [
+        {
+          "desc": "SMIRNOFF ICE 24X275ML LONG",
+          "qt": 156,
+          "val": 16224.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "CACHAÇA SAO FRANCISCO 970ML",
+          "qt": 2520,
+          "val": 54180.0,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -1111,7 +1438,7 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Pendente",
       "motivo": "Item com desconto acima do permitido :4802",
       "obs": "Obrigatorio constar na Nota Fiscal o numero do pedido do cliente.",
       "total": 2603.37,
@@ -1440,7 +1767,7 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :5167",
       "obs": "",
       "total": 1089.11,
@@ -1727,33 +2054,6 @@ const PEDIDOS_DATA = {
           "desc": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
           "qt": 30,
           "val": 3247.2,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false
-    },
-    {
-      "numped": "388001214",
-      "numnota": "",
-      "data": "27/07/2026",
-      "data_ord": "2026-07-27",
-      "nome": "EUDES MORGAN - OFF TRADE",
-      "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-      "sistema": "CRC",
-      "estado": "ES",
-      "supervisor": "SUPERVISOR OFF - ES",
-      "gerente": "EROCLES OLIVEIRA",
-      "status_ped": "",
-      "posicao": "Bloqueado",
-      "motivo": "Item com desconto acima do permitido :2974",
-      "obs": "Obrigatorio constar na Nota Fiscal o numero do pedido do cliente.",
-      "total": 74.27,
-      "itens": [
-        {
-          "desc": "EASY BOOZE VIDRO 12X275ML PINK LEMON",
-          "qt": 1,
-          "val": 74.27,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -14926,34 +15226,6 @@ const PEDIDOS_DATA = {
           "desc": "GIN ROCKS STRAWBERRY 1LT",
           "qt": 8,
           "val": 164.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
-      "numped": "318000021",
-      "numnota": "180331",
-      "data": "23/07/2026",
-      "data_ord": "2026-07-23",
-      "nome": "MARCUS TANAMACHI - OFF TRADE",
-      "cliente": "T Y COMERCIO E SERVICOS DE BEBIDAS LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Pedido com item abaixo do preço minimo.",
-      "obs": "",
-      "total": 41264.64,
-      "itens": [
-        {
-          "desc": "RED BULL SF NECTARINA 24X250ML",
-          "qt": 864,
-          "val": 41264.64,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -33833,41 +34105,6 @@ const PEDIDOS_DATA = {
           "desc": "MOVING BOOSTER LIMAO 24X310ML",
           "qt": 2,
           "val": 309.6,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "439000270",
-      "numnota": "414517",
-      "data": "20/07/2026",
-      "data_ord": "2026-07-20",
-      "nome": "MATEUS CARDOSO - OFF TRADE",
-      "cliente": "52.637.598 JOELMA ABREU DOS SANTOS",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :100",
-      "obs": "Data entrega: 23/07/26",
-      "total": 264.7,
-      "itens": [
-        {
-          "desc": "ICE 51 LIMAO LONG NECK 24X275ML",
-          "qt": 1,
-          "val": 120.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "4 PACK RED BULL 250ML",
-          "qt": 5,
-          "val": 143.8,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -92375,6 +92612,153 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGUE"
     },
     {
+      "numped": "360000289",
+      "numnota": "120954",
+      "data": "04/06/2026",
+      "data_ord": "2026-06-04",
+      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
+      "cliente": "ORGANIZACAO VERDEMAR LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4443",
+      "obs": "CD",
+      "total": 14259.0,
+      "itens": [
+        {
+          "desc": "PURE MONIN FRUTAS VERMELHAS 330ML",
+          "qt": 42,
+          "val": 1029.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "XAROPE  MONIN  MAÇA VERDE 330 ML",
+          "qt": 180,
+          "val": 4410.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "XAROPE  MONIN TANGERINA 330 ML",
+          "qt": 180,
+          "val": 4410.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "XAROPE MONIN GENGIBRE 330 ML",
+          "qt": 60,
+          "val": 1470.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "XAROPE MONIN MORANGO 330 ML",
+          "qt": 120,
+          "val": 2940.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "360000290",
+      "numnota": "120956",
+      "data": "04/06/2026",
+      "data_ord": "2026-06-04",
+      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
+      "cliente": "ORGANIZACAO VERDEMAR LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4451",
+      "obs": "CD",
+      "total": 1323.0,
+      "itens": [
+        {
+          "desc": "PURE MONIN MAÇA VERDE 330ML",
+          "qt": 36,
+          "val": 882.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "PURE MONIN MANGA MARACUJÁ  330ML",
+          "qt": 18,
+          "val": 441.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "360000291",
+      "numnota": "120955",
+      "data": "04/06/2026",
+      "data_ord": "2026-06-04",
+      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
+      "cliente": "ORGANIZACAO VERDEMAR LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4446",
+      "obs": "CD",
+      "total": 4410.0,
+      "itens": [
+        {
+          "desc": "XAROPE MONIN LIMÃO GLASCO 330 ML",
+          "qt": 180,
+          "val": 4410.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "360000292",
+      "numnota": "120957",
+      "data": "04/06/2026",
+      "data_ord": "2026-06-04",
+      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
+      "cliente": "ORGANIZACAO VERDEMAR LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :220",
+      "obs": "CD",
+      "total": 2870.4,
+      "itens": [
+        {
+          "desc": "CHANDON BABY BRUT 187 ML",
+          "qt": 96,
+          "val": 2870.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
       "numped": "360000293",
       "numnota": "120958",
       "data": "04/06/2026",
@@ -92515,6 +92899,34 @@ const PEDIDOS_DATA = {
       "status_log": "ABERTO"
     },
     {
+      "numped": "360000286",
+      "numnota": "120869",
+      "data": "03/06/2026",
+      "data_ord": "2026-06-03",
+      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
+      "cliente": "ORGANIZACAO VERDEMAR LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4427",
+      "obs": "CD",
+      "total": 40800.0,
+      "itens": [
+        {
+          "desc": "APERITIVO LUCIA 750ML",
+          "qt": 600,
+          "val": 40800.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
       "numped": "155003588",
       "numnota": "399289",
       "data": "02/06/2026",
@@ -92569,6 +92981,90 @@ const PEDIDOS_DATA = {
       ],
       "tem_corte": false,
       "status_log": "ENTREGA TOTAL"
+    },
+    {
+      "numped": "360000280",
+      "numnota": "120594",
+      "data": "02/06/2026",
+      "data_ord": "2026-06-02",
+      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
+      "cliente": "ORGANIZACAO VERDEMAR LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
+      "obs": "CD",
+      "total": 1504.8,
+      "itens": [
+        {
+          "desc": "YVY DESTILADO GIN TERRA LT 710ML",
+          "qt": 72,
+          "val": 1504.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "360000282",
+      "numnota": "120692",
+      "data": "02/06/2026",
+      "data_ord": "2026-06-02",
+      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
+      "cliente": "ORGANIZACAO VERDEMAR LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3764",
+      "obs": "CD",
+      "total": 10784.4,
+      "itens": [
+        {
+          "desc": "YVY DESTILADO GIN AR LT 710ML",
+          "qt": 516,
+          "val": 10784.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "360000283",
+      "numnota": "120693",
+      "data": "02/06/2026",
+      "data_ord": "2026-06-02",
+      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
+      "cliente": "ORGANIZACAO VERDEMAR LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3765",
+      "obs": "CD",
+      "total": 7022.4,
+      "itens": [
+        {
+          "desc": "YVY DESTILADO GIN TERRA LT 710ML",
+          "qt": 336,
+          "val": 7022.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
     },
     {
       "numped": "439000181",
@@ -93627,6 +94123,41 @@ const PEDIDOS_DATA = {
           "desc": "TEQUILA J CUERVO GOLD 750ML",
           "qt": 120,
           "val": 15348.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "360000275",
+      "numnota": "120338",
+      "data": "29/05/2026",
+      "data_ord": "2026-05-29",
+      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
+      "cliente": "ORGANIZACAO VERDEMAR LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :2684",
+      "obs": "supermercado",
+      "total": 15588.0,
+      "itens": [
+        {
+          "desc": "WHISKY HIBIKI JAPANESE HARMONY 700ML",
+          "qt": 24,
+          "val": 11433.84,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY SUNTORY CHITA 700ML",
+          "qt": 12,
+          "val": 4154.16,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -94755,6 +95286,34 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
+      "numped": "360000257",
+      "numnota": "119535",
+      "data": "25/05/2026",
+      "data_ord": "2026-05-25",
+      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
+      "cliente": "BIG MAIS SUPERMERCADOS LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
+      "obs": "PEDIDO 971954/M",
+      "total": 8364.0,
+      "itens": [
+        {
+          "desc": "WHISKY ROYAL SALUTE 700 ML",
+          "qt": 12,
+          "val": 8364.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
       "numped": "412001269",
       "numnota": "396440",
       "data": "22/05/2026",
@@ -94852,6 +95411,62 @@ const PEDIDOS_DATA = {
           "desc": "YVY DESTILADO GIN TERRA LT 710ML",
           "qt": 240,
           "val": 5222.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "360000254",
+      "numnota": "119458",
+      "data": "22/05/2026",
+      "data_ord": "2026-05-22",
+      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
+      "cliente": "BIG MAIS SUPERMERCADOS LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
+      "obs": "PEDIDO 971148/M",
+      "total": 73780.2,
+      "itens": [
+        {
+          "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "qt": 600,
+          "val": 47940.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY BALLANTINE'S FINEST 1L",
+          "qt": 120,
+          "val": 7548.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "qt": 60,
+          "val": 8094.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY BALLANTINE'S FINEST 750 ML",
+          "qt": 120,
+          "val": 5998.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY JAMESON 750ML",
+          "qt": 60,
+          "val": 4199.4,
           "qtfalta": 0.0,
           "cortado": false
         }
