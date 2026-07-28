@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "28/07/2026 11:51",
+  "atualizado_em": "28/07/2026 12:50",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -331615,6 +331615,17 @@ const VENDAS_DATA = {
           "data": "28/07/2026",
           "codcli": "20944",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "XAROPE FABBRI MORANGO 560ML",
+          "fantasia": "FABBRI",
+          "qt": 6,
+          "valor": 221.7,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "20944",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
           "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
           "fantasia": "PINATI",
           "qt": 8,
@@ -331872,6 +331883,17 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 12,
           "valor": 651.6,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "20943",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "XAROPE FABBRI MORANGO 560ML",
+          "fantasia": "FABBRI",
+          "qt": 6,
+          "valor": 221.7,
           "tipo": "Venda",
           "offtrade": true
         },
@@ -332422,6 +332444,17 @@ const VENDAS_DATA = {
           "fantasia": "PINATI",
           "qt": 10,
           "valor": 816.0,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "20942",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "XAROPE FABBRI AMARENA 560ML",
+          "fantasia": "FABBRI",
+          "qt": 6,
+          "valor": 221.7,
           "tipo": "Venda",
           "offtrade": true
         },
@@ -424400,6 +424433,17 @@ const VENDAS_DATA = {
           "valor": 234.5,
           "tipo": "Venda",
           "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "95767",
+          "cliente": "JUVENAL CESCONETTO",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 330.72,
+          "tipo": "Venda",
+          "offtrade": true
         }
       ]
     },
@@ -504505,6 +504549,39 @@ const VENDAS_DATA = {
           "valor": 559.6,
           "tipo": "Venda",
           "offtrade": false
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "51659",
+          "cliente": "MERCADO FLORESTA AZUL DE VILA SILVIA LTDA",
+          "produto": "SMIRNOFF ICE 24X275ML LONG",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 125.9,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "51659",
+          "cliente": "MERCADO FLORESTA AZUL DE VILA SILVIA LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 24,
+          "valor": 215.76,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "51659",
+          "cliente": "MERCADO FLORESTA AZUL DE VILA SILVIA LTDA",
+          "produto": "SMIRNOFF ICE 24X275ML LONG",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 125.9,
+          "tipo": "Venda",
+          "offtrade": true
         },
         {
           "data": "08/07/2026",
