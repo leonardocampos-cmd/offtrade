@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "24/07/2026 14:55",
+  "atualizado_em": "28/07/2026 10:12",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -29,25 +29,62 @@ const CRUSOE_DATA = {
       ],
       "vendedores": [
         {
-          "rca": 275,
-          "vendedor": "Maria Luiza",
-          "pedidos": 0,
-          "novos_skus": 0,
+          "rca": 158,
+          "vendedor": "Jose Marcelo Cardoso",
+          "pedidos": 1,
+          "novos_skus": 2,
           "reativacoes": 0,
-          "faturamento": 0.0,
+          "faturamento": 166704.0,
           "meta_definida": false,
           "meta_valor": null,
           "meta_atingida": false,
-          "pontos_pedidos": 0,
-          "pontos_novos_skus": 0,
+          "pontos_pedidos": 1,
+          "pontos_novos_skus": 10,
           "pontos_reativacoes": 0,
           "pontos_meta": 0,
-          "pontos_total": 0,
-          "vendas": []
+          "pontos_total": 11,
+          "vendas": [
+            {
+              "numnota": "415927",
+              "data": "27/07/2026",
+              "cliente": "SUPERMERCADOS MUNDIAL LTDA",
+              "valor_pedido": 166704.0,
+              "eventos": [
+                {
+                  "tipo": "pedido",
+                  "pontos": 1
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+                  "qt": 552.0,
+                  "valor": 100022.4,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 5
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM SOLIDO OLEO 24X170G",
+                  "qt": 368.0,
+                  "valor": 66681.6,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 5
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
-          "rca": 158,
-          "vendedor": "Jose Marcelo Cardoso",
+          "rca": 275,
+          "vendedor": "Maria Luiza",
           "pedidos": 0,
           "novos_skus": 0,
           "reativacoes": 0,
@@ -2742,7 +2779,7 @@ const CRUSOE_DATA = {
           "rca": 379,
           "vendedor": "Jorge Maciel",
           "clientes_gourmet": 0,
-          "faturamento": 7715.08,
+          "faturamento": 8262.28,
           "faturamento_gourmet": 0.0,
           "pontos_total": 0,
           "vendas": []
