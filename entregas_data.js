@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "28/07/2026 11:09",
+  "atualizado_em": "28/07/2026 12:09",
   "data_rota": "28.07",
   "vendedores": [
     {
@@ -3501,6 +3501,11 @@ const ENTREGAS_DATA = {
           "total": 7214.4,
           "itens": [
             {
+              "desc": "CHANDON RESERVE BRUT ROSE 750ML",
+              "qt": 36,
+              "val": 2732.4
+            },
+            {
               "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
               "qt": 36,
               "val": 2660.4
@@ -3509,11 +3514,6 @@ const ENTREGAS_DATA = {
               "desc": "CHANDON PASSION ON ICE 750 ML",
               "qt": 24,
               "val": 1821.6
-            },
-            {
-              "desc": "CHANDON RESERVE BRUT ROSE 750ML",
-              "qt": 36,
-              "val": 2732.4
             }
           ]
         }
@@ -4346,7 +4346,48 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "378000545",
+          "numnota": "",
+          "data": "28/07/2026",
+          "cliente": "PANIFICACAO APOLLO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Favor entregar dia 29/07",
+          "total": 1229.02,
+          "itens": [
+            {
+              "desc": "NECTAR ABACAXI 12X1000ML",
+              "qt": 5,
+              "val": 289.4
+            },
+            {
+              "desc": "NECTAR CAJU 12X1000ML",
+              "qt": 5,
+              "val": 289.4
+            },
+            {
+              "desc": "NECTAR GOIABA 12X1000ML",
+              "qt": 5,
+              "val": 289.4
+            },
+            {
+              "desc": "NECTAR LARANJA 12X1000ML",
+              "qt": 5,
+              "val": 289.4
+            },
+            {
+              "desc": "NECTAR GOIABA TIAL 12X250ML",
+              "qt": 2,
+              "val": 71.42
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "378000461",
@@ -6337,6 +6378,76 @@ const ENTREGAS_DATA = {
               "desc": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
               "qt": 2,
               "val": 255.8
+            }
+          ]
+        },
+        {
+          "numped": "379001319",
+          "numnota": "",
+          "data": "28/07/2026",
+          "cliente": "3D SALGADOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 2398.74,
+          "itens": [
+            {
+              "desc": "GIN MARINA ROSE 750ML",
+              "qt": 1,
+              "val": 39.9
+            },
+            {
+              "desc": "COQUETEL COMPOSTO PINK MOON 24X300ML",
+              "qt": 3,
+              "val": 179.7
+            },
+            {
+              "desc": "GIN ROCKS STRAWBERRY 1000ML",
+              "qt": 18,
+              "val": 430.2
+            },
+            {
+              "desc": "GIN ROCKS WATERMELON 1000ML",
+              "qt": 30,
+              "val": 717.0
+            },
+            {
+              "desc": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+              "qt": 1,
+              "val": 175.2
+            },
+            {
+              "desc": "GIN INVICTUS MELANCIA 900ML",
+              "qt": 18,
+              "val": 233.82
+            },
+            {
+              "desc": "GIN INVICTUS MACA VERDE 900ML",
+              "qt": 18,
+              "val": 233.82
+            },
+            {
+              "desc": "AGUA MAMBA PROTEIN ABACAXI HORT 6X350ML",
+              "qt": 1,
+              "val": 59.1
+            },
+            {
+              "desc": "AGUA MAMBA PROTEIN LIMAO E FRAMB 6X350ML",
+              "qt": 1,
+              "val": 59.1
+            },
+            {
+              "desc": "AGUA MINERAL MAMBA WATER S/ GAS 12X350ML",
+              "qt": 3,
+              "val": 130.2
+            },
+            {
+              "desc": "AGUA MINERAL MAMBA WATER C/ GAS 12X350ML",
+              "qt": 3,
+              "val": 140.7
             }
           ]
         }
@@ -9264,6 +9375,41 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "156003742",
+          "numnota": "",
+          "data": "28/07/2026",
+          "cliente": "QUERUBIM EXPRESS CONVENIENCIA II LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 695.8,
+          "itens": [
+            {
+              "desc": "AGUA MINALBA C/ GAS 6X1,5L",
+              "qt": 2,
+              "val": 43.8
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+              "qt": 15,
+              "val": 298.5
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+              "qt": 10,
+              "val": 209.0
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+              "qt": 5,
+              "val": 144.5
+            }
+          ]
+        },
+        {
           "numped": "156003740",
           "numnota": "",
           "data": "27/07/2026",
@@ -11249,14 +11395,14 @@ const ENTREGAS_DATA = {
           "total": 466.56,
           "itens": [
             {
-              "desc": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
-              "qt": 1,
-              "val": 286.8
-            },
-            {
               "desc": "RED BULL 24X250ML",
               "qt": 1,
               "val": 179.76
+            },
+            {
+              "desc": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
+              "qt": 1,
+              "val": 286.8
             }
           ]
         }
@@ -12236,7 +12382,168 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "155003985",
+          "numnota": "",
+          "data": "28/07/2026",
+          "cliente": "ANEXO 392 BAR E RESTAURANTE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 250.0,
+          "itens": [
+            {
+              "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
+              "qt": 2,
+              "val": 250.0
+            }
+          ]
+        },
+        {
+          "numped": "155003988",
+          "numnota": "",
+          "data": "28/07/2026",
+          "cliente": "PERFECT BEER BUZIOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 4625.0,
+          "itens": [
+            {
+              "desc": "GIN BOMBAY SAPPHIRE 750ML",
+              "qt": 6,
+              "val": 419.4
+            },
+            {
+              "desc": "WHISKY BALLANTINE S FINEST 1L",
+              "qt": 6,
+              "val": 329.4
+            },
+            {
+              "desc": "SMIRNOFF ICE 24 UNIDADES (LATA) 24X269ML",
+              "qt": 5,
+              "val": 549.5
+            },
+            {
+              "desc": "WHISKY JIM BEAM WHITE 1L",
+              "qt": 5,
+              "val": 354.5
+            },
+            {
+              "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
+              "qt": 6,
+              "val": 749.4
+            },
+            {
+              "desc": "TEQUILA DON JULIO BLANCO 750ML",
+              "qt": 2,
+              "val": 419.8
+            },
+            {
+              "desc": "GIN LARIOS ORIGINAL 700ML",
+              "qt": 3,
+              "val": 98.7
+            },
+            {
+              "desc": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+              "qt": 3,
+              "val": 287.7
+            },
+            {
+              "desc": "ESPUMANTE ALUD BRANCO 750ML",
+              "qt": 6,
+              "val": 209.4
+            },
+            {
+              "desc": "ESPUMANTE ALUD ROSE 750ML",
+              "qt": 6,
+              "val": 209.4
+            },
+            {
+              "desc": "ST PIERRE LATA RED MINT LT 24X270ML",
+              "qt": 3,
+              "val": 287.7
+            },
+            {
+              "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+              "qt": 6,
+              "val": 443.4
+            },
+            {
+              "desc": "AMARULA C LIQUEUR 750 ML",
+              "qt": 3,
+              "val": 266.7
+            }
+          ]
+        },
+        {
+          "numped": "155003986",
+          "numnota": "",
+          "data": "28/07/2026",
+          "cliente": "CONVENIENCIA BUZIANA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1415.48,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 3,
+              "val": 539.28
+            },
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 12,
+              "val": 322.8
+            },
+            {
+              "desc": "LICOR JAGERMEISTER 700 ML",
+              "qt": 2,
+              "val": 233.8
+            },
+            {
+              "desc": "FERNET ARG BRANCA 750 ML",
+              "qt": 4,
+              "val": 319.6
+            }
+          ]
+        },
+        {
+          "numped": "155003987",
+          "numnota": "",
+          "data": "28/07/2026",
+          "cliente": "LOBSTER HOTEL LTDA - ME",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 477.6,
+          "itens": [
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 12,
+              "val": 322.8
+            },
+            {
+              "desc": "CACHACA VELHO BARREIRO 910 ML",
+              "qt": 12,
+              "val": 154.8
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "155003783",
