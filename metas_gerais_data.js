@@ -1,25 +1,25 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "28/07/2026 11:57",
+  "atualizado_em": "28/07/2026 12:54",
   "mes": "Jul/26",
   "mes_ant": "Jun/26",
   "dias_corridos": 28,
   "dias_no_mes": 31,
   "dias_restantes": 3,
   "resumo": {
-    "fat": 10153058.57,
+    "fat": 10154054.39,
     "fat_ant": 9277828.7,
     "fat_ant_completo": 12841125.14,
-    "pos": 1607,
+    "pos": 1608,
     "pos_ant": 1595,
     "pos_ant_completo": 1757
   },
   "total": {
     "meta": 14900000.0,
-    "fat": 10153058.57,
+    "fat": 10154054.39,
     "fat_ant": 9277828.7,
     "fat_ant_completo": 12841125.14,
     "pct": 68.1,
-    "nec_dia": 1582313.81
+    "nec_dia": 1581981.87
   },
   "estados": [
     {
@@ -52,11 +52,11 @@ const METAS_GERAIS_DATA = {
       "estado": "ES",
       "label": "Espírito Santo",
       "meta": 1800000.0,
-      "fat": 500835.83,
+      "fat": 501831.65,
       "fat_ant": 741421.03,
-      "pos": 70,
-      "pct": 27.8,
-      "nec_dia": 433054.72,
+      "pos": 71,
+      "pct": 27.9,
+      "nec_dia": 432722.78,
       "fat_ant_completo": 959413.37,
       "pos_ant": 111,
       "pos_ant_completo": 130
@@ -100,12 +100,12 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "RED BULL",
-      "fat": 554331.23,
+      "fat": 554661.95,
       "fat_ant": 953780.95,
       "por_estado": {
         "RJ": 179298.17,
         "SP": 151165.44,
-        "ES": 79640.68,
+        "ES": 79971.4,
         "MG": 144226.94
       }
     },
@@ -517,6 +517,17 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
+      "fantasia": "FABBRI",
+      "fat": 5843.76,
+      "fat_ant": 86.91,
+      "por_estado": {
+        "RJ": 0.0,
+        "SP": 0.0,
+        "ES": 5843.76,
+        "MG": 0.0
+      }
+    },
+    {
       "fantasia": "51",
       "fat": 5735.7,
       "fat_ant": 8667.3,
@@ -524,17 +535,6 @@ const METAS_GERAIS_DATA = {
         "RJ": 5735.7,
         "SP": 0.0,
         "ES": 0.0,
-        "MG": 0.0
-      }
-    },
-    {
-      "fantasia": "FABBRI",
-      "fat": 5178.66,
-      "fat_ant": 86.91,
-      "por_estado": {
-        "RJ": 0.0,
-        "SP": 0.0,
-        "ES": 5178.66,
         "MG": 0.0
       }
     },
