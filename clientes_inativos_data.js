@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "28/07/2026 11:25",
+  "atualizado_em": "28/07/2026 12:28",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -4443,6 +4443,15 @@ const INATIVOS_DATA = {
       ],
       "novos": [
         {
+          "codcli": "95832",
+          "cliente": "DROGAMINAS VASSOURAS LTDA",
+          "bairro": "CENTRO",
+          "cidade": "VASSOURAS",
+          "dtcadastro": "28/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
           "codcli": "95828",
           "cliente": "DROGAMINAS VALENCA LTDA",
           "bairro": "CENTRO",
@@ -6273,15 +6282,6 @@ const INATIVOS_DATA = {
           "bairro": "VISTA MAR",
           "cidade": "CARIACICA",
           "dtcadastro": "23/07/2026",
-          "dtultcomp": null,
-          "media": 0.0
-        },
-        {
-          "codcli": "95767",
-          "cliente": "JUVENAL CESCONETTO",
-          "bairro": "CAMPO GRANDE",
-          "cidade": "CARIACICA",
-          "dtcadastro": "22/07/2026",
           "dtultcomp": null,
           "media": 0.0
         },
@@ -10520,15 +10520,6 @@ const INATIVOS_DATA = {
           "media": 56.8
         },
         {
-          "codcli": "31014",
-          "cliente": "MI CORAZON BAR LTDA",
-          "bairro": "FLORESTA",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "06/05/2026",
-          "dias": 83,
-          "media": 162.02
-        },
-        {
           "codcli": "37978",
           "cliente": "VENTURAS EMPREENDIMENTOS LTDA",
           "bairro": "CENTRO",
@@ -10536,6 +10527,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "06/05/2026",
           "dias": 83,
           "media": 644.47
+        },
+        {
+          "codcli": "31014",
+          "cliente": "MI CORAZON BAR LTDA",
+          "bairro": "FLORESTA",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "06/05/2026",
+          "dias": 83,
+          "media": 162.02
         },
         {
           "codcli": "30292",
@@ -10547,15 +10547,6 @@ const INATIVOS_DATA = {
           "media": 77.49
         },
         {
-          "codcli": "36279",
-          "cliente": "CONCLAVE MEDICO DESPORTIVO CULTURAL",
-          "bairro": "BOA VIAGEM",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "13/05/2026",
-          "dias": 76,
-          "media": 471.2
-        },
-        {
           "codcli": "36036",
           "cliente": "CREUCI  LIMA DE FREITAS",
           "bairro": "PAMPULHA",
@@ -10563,6 +10554,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "13/05/2026",
           "dias": 76,
           "media": 384.81
+        },
+        {
+          "codcli": "36279",
+          "cliente": "CONCLAVE MEDICO DESPORTIVO CULTURAL",
+          "bairro": "BOA VIAGEM",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "13/05/2026",
+          "dias": 76,
+          "media": 471.2
         },
         {
           "codcli": "33681",
@@ -10574,15 +10574,6 @@ const INATIVOS_DATA = {
           "media": 398.93
         },
         {
-          "codcli": "32796",
-          "cliente": "COMERCIAL DISK FESTAS LTDA",
-          "bairro": "CIDADE JARDIM",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "21/05/2026",
-          "dias": 68,
-          "media": 1208.2
-        },
-        {
           "codcli": "32775",
           "cliente": "BAR RESTAURANTE E LANCHONETE TDL LTDA",
           "bairro": "SANTO ANTONIO",
@@ -10592,13 +10583,13 @@ const INATIVOS_DATA = {
           "media": 178.79
         },
         {
-          "codcli": "30269",
-          "cliente": "JM HAMBURGUERS EIRELI",
-          "bairro": "VILA DA SERRA",
-          "cidade": "NOVA LIMA",
-          "dtultcomp": "26/05/2026",
-          "dias": 63,
-          "media": 100.85
+          "codcli": "32796",
+          "cliente": "COMERCIAL DISK FESTAS LTDA",
+          "bairro": "CIDADE JARDIM",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "21/05/2026",
+          "dias": 68,
+          "media": 1208.2
         },
         {
           "codcli": "33852",
@@ -10610,13 +10601,13 @@ const INATIVOS_DATA = {
           "media": 198.4
         },
         {
-          "codcli": "36985",
-          "cliente": "EMPORIO CANASTRA LTDA",
-          "bairro": "ANGOLA",
-          "cidade": "BETIM",
-          "dtultcomp": "27/05/2026",
-          "dias": 62,
-          "media": 501.76
+          "codcli": "30269",
+          "cliente": "JM HAMBURGUERS EIRELI",
+          "bairro": "VILA DA SERRA",
+          "cidade": "NOVA LIMA",
+          "dtultcomp": "26/05/2026",
+          "dias": 63,
+          "media": 100.85
         },
         {
           "codcli": "32781",
@@ -10637,6 +10628,15 @@ const INATIVOS_DATA = {
           "media": 384.7
         },
         {
+          "codcli": "36985",
+          "cliente": "EMPORIO CANASTRA LTDA",
+          "bairro": "ANGOLA",
+          "cidade": "BETIM",
+          "dtultcomp": "27/05/2026",
+          "dias": 62,
+          "media": 501.76
+        },
+        {
           "codcli": "30343",
           "cliente": "RESTAURANTE & BOTEQUIM BURITIS EIRELI",
           "bairro": "BURITIS",
@@ -10646,13 +10646,13 @@ const INATIVOS_DATA = {
           "media": 256.55
         },
         {
-          "codcli": "33173",
-          "cliente": "BAR E RESTAURANTE BOI NOBRE LTDA",
-          "bairro": "SANTA AMELIA",
+          "codcli": "35323",
+          "cliente": "LANCHE LEGAL COMERCIO LTDA",
+          "bairro": "PAMPULHA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "29/05/2026",
           "dias": 60,
-          "media": 669.6
+          "media": 384.81
         },
         {
           "codcli": "38897",
@@ -10664,13 +10664,13 @@ const INATIVOS_DATA = {
           "media": 683.24
         },
         {
-          "codcli": "35323",
-          "cliente": "LANCHE LEGAL COMERCIO LTDA",
-          "bairro": "PAMPULHA",
+          "codcli": "33173",
+          "cliente": "BAR E RESTAURANTE BOI NOBRE LTDA",
+          "bairro": "SANTA AMELIA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "29/05/2026",
           "dias": 60,
-          "media": 384.81
+          "media": 669.6
         },
         {
           "codcli": "33894",
@@ -10691,15 +10691,6 @@ const INATIVOS_DATA = {
           "media": 258.3
         },
         {
-          "codcli": "35314",
-          "cliente": "LANCHE LEGAL COMERCIO LTDA",
-          "bairro": "PAMPULHA",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "05/06/2026",
-          "dias": 53,
-          "media": 785.33
-        },
-        {
           "codcli": "37219",
           "cliente": "PADARIA E CONFEITARIA VERENA II LTDA",
           "bairro": "CACHOEIRA",
@@ -10707,6 +10698,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "05/06/2026",
           "dias": 53,
           "media": 363.81
+        },
+        {
+          "codcli": "35314",
+          "cliente": "LANCHE LEGAL COMERCIO LTDA",
+          "bairro": "PAMPULHA",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "05/06/2026",
+          "dias": 53,
+          "media": 785.33
         },
         {
           "codcli": "35439",
@@ -10727,15 +10727,6 @@ const INATIVOS_DATA = {
           "media": 440.37
         },
         {
-          "codcli": "35390",
-          "cliente": "AEROJR CONSULTORIA E CAPACITACAO",
-          "bairro": "PAMPULHA",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "09/06/2026",
-          "dias": 49,
-          "media": 447.64
-        },
-        {
           "codcli": "35356",
           "cliente": "MULT JR - CONSULTORIA E PROJETOS",
           "bairro": "PAMPULHA",
@@ -10743,6 +10734,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "09/06/2026",
           "dias": 49,
           "media": 408.37
+        },
+        {
+          "codcli": "35390",
+          "cliente": "AEROJR CONSULTORIA E CAPACITACAO",
+          "bairro": "PAMPULHA",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "09/06/2026",
+          "dias": 49,
+          "media": 447.64
         },
         {
           "codcli": "31903",
@@ -10763,15 +10763,6 @@ const INATIVOS_DATA = {
           "media": 329.63
         },
         {
-          "codcli": "38607",
-          "cliente": "M&S COMERCIO DE ALIMENTO LTDA",
-          "bairro": "LARANJEIRAS",
-          "cidade": "BETIM",
-          "dtultcomp": "10/06/2026",
-          "dias": 48,
-          "media": 517.76
-        },
-        {
           "codcli": "36229",
           "cliente": "VO VILMA CONFEITARIA LTDA",
           "bairro": "HORTO",
@@ -10790,6 +10781,15 @@ const INATIVOS_DATA = {
           "media": 1221.22
         },
         {
+          "codcli": "38607",
+          "cliente": "M&S COMERCIO DE ALIMENTO LTDA",
+          "bairro": "LARANJEIRAS",
+          "cidade": "BETIM",
+          "dtultcomp": "10/06/2026",
+          "dias": 48,
+          "media": 517.76
+        },
+        {
           "codcli": "30262",
           "cliente": "RESTAURANTE CANTO DO BURITIS LTDA",
           "bairro": "BURITIS",
@@ -10797,6 +10797,33 @@ const INATIVOS_DATA = {
           "dtultcomp": "11/06/2026",
           "dias": 47,
           "media": 119.87
+        },
+        {
+          "codcli": "35400",
+          "cliente": "LCA COMERCIO LTDA",
+          "bairro": "PAMPULHA",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "12/06/2026",
+          "dias": 46,
+          "media": 3062.8
+        },
+        {
+          "codcli": "35305",
+          "cliente": "ANDERSON LUIZ LIBRELON 57671583634",
+          "bairro": "CORAÇÃO EUCARÍSTICO",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "12/06/2026",
+          "dias": 46,
+          "media": 628.27
+        },
+        {
+          "codcli": "35380",
+          "cliente": "E&G LANCHES, EVENTOS E PROMOCOES LTDA",
+          "bairro": "CORAÇÃO EUCARÍSTICO",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "12/06/2026",
+          "dias": 46,
+          "media": 1900.51
         },
         {
           "codcli": "38896",
@@ -10817,42 +10844,6 @@ const INATIVOS_DATA = {
           "media": 1036.64
         },
         {
-          "codcli": "35400",
-          "cliente": "LCA COMERCIO LTDA",
-          "bairro": "PAMPULHA",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "12/06/2026",
-          "dias": 46,
-          "media": 3062.8
-        },
-        {
-          "codcli": "35380",
-          "cliente": "E&G LANCHES, EVENTOS E PROMOCOES LTDA",
-          "bairro": "CORAÇÃO EUCARÍSTICO",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "12/06/2026",
-          "dias": 46,
-          "media": 1900.51
-        },
-        {
-          "codcli": "35305",
-          "cliente": "ANDERSON LUIZ LIBRELON 57671583634",
-          "bairro": "CORAÇÃO EUCARÍSTICO",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "12/06/2026",
-          "dias": 46,
-          "media": 628.27
-        },
-        {
-          "codcli": "35399",
-          "cliente": "EMAS EMPRESA JR DE MEIO AMBIENTE E SANEAMENTO/ UFMG",
-          "bairro": "CAMPUS UFMG",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "15/06/2026",
-          "dias": 43,
-          "media": 691.09
-        },
-        {
           "codcli": "35387",
           "cliente": "HR - LANCHES PROMOCOES E EVENTOS LTDA",
           "bairro": "PAMPULHA",
@@ -10860,33 +10851,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "15/06/2026",
           "dias": 43,
           "media": 1602.08
-        },
-        {
-          "codcli": "35327",
-          "cliente": "PRODUCAO JR. CONSULTORIA & ASSESSORIA",
-          "bairro": "CAMPUS UFMG",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "15/06/2026",
-          "dias": 43,
-          "media": 534.03
-        },
-        {
-          "codcli": "39221",
-          "cliente": "HENRIQUE PEREIRA FURTADO",
-          "bairro": "PAMPULHA",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "15/06/2026",
-          "dias": 43,
-          "media": 431.93
-        },
-        {
-          "codcli": "35392",
-          "cliente": "HR - LANCHES PROMOCOES E EVENTOS LTDA",
-          "bairro": "PAMPULHA",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "15/06/2026",
-          "dias": 43,
-          "media": 1649.2
         },
         {
           "codcli": "36546",
@@ -10898,13 +10862,13 @@ const INATIVOS_DATA = {
           "media": 688.23
         },
         {
-          "codcli": "36370",
-          "cliente": "LÍVIA  FERRAZ DE OLIVEIRA",
+          "codcli": "39221",
+          "cliente": "HENRIQUE PEREIRA FURTADO",
           "bairro": "PAMPULHA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "15/06/2026",
           "dias": 43,
-          "media": 408.37
+          "media": 431.93
         },
         {
           "codcli": "37523",
@@ -10916,6 +10880,33 @@ const INATIVOS_DATA = {
           "media": 879.57
         },
         {
+          "codcli": "36370",
+          "cliente": "LÍVIA  FERRAZ DE OLIVEIRA",
+          "bairro": "PAMPULHA",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "15/06/2026",
+          "dias": 43,
+          "media": 408.37
+        },
+        {
+          "codcli": "35327",
+          "cliente": "PRODUCAO JR. CONSULTORIA & ASSESSORIA",
+          "bairro": "CAMPUS UFMG",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "15/06/2026",
+          "dias": 43,
+          "media": 534.03
+        },
+        {
+          "codcli": "35399",
+          "cliente": "EMAS EMPRESA JR DE MEIO AMBIENTE E SANEAMENTO/ UFMG",
+          "bairro": "CAMPUS UFMG",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "15/06/2026",
+          "dias": 43,
+          "media": 691.09
+        },
+        {
           "codcli": "35396",
           "cliente": "ASSOCIACAO ATLETICA DA FACULDADE DE FILOSOFIA E CIENCIAS HUM",
           "bairro": "PAMPULHA",
@@ -10925,13 +10916,13 @@ const INATIVOS_DATA = {
           "media": 1507.84
         },
         {
-          "codcli": "35382",
-          "cliente": "VINY LANCHES LTDA",
-          "bairro": "CORAÇÃO EUCARÍSTICO",
+          "codcli": "35392",
+          "cliente": "HR - LANCHES PROMOCOES E EVENTOS LTDA",
+          "bairro": "PAMPULHA",
           "cidade": "BELO HORIZONTE",
-          "dtultcomp": "16/06/2026",
-          "dias": 42,
-          "media": 1460.72
+          "dtultcomp": "15/06/2026",
+          "dias": 43,
+          "media": 1649.2
         },
         {
           "codcli": "34969",
@@ -10943,22 +10934,22 @@ const INATIVOS_DATA = {
           "media": 319.67
         },
         {
-          "codcli": "36803",
-          "cliente": "CRIA COMUNICACAO JUNIOR",
+          "codcli": "35382",
+          "cliente": "VINY LANCHES LTDA",
+          "bairro": "CORAÇÃO EUCARÍSTICO",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "16/06/2026",
+          "dias": 42,
+          "media": 1460.72
+        },
+        {
+          "codcli": "39483",
+          "cliente": "SOFIA OLIVEIRA SARMENTO",
           "bairro": "PAMPULHA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "17/06/2026",
           "dias": 41,
-          "media": 282.72
-        },
-        {
-          "codcli": "30078",
-          "cliente": "RAPHAEL DE PAIVA E SOUZA 11915663660",
-          "bairro": "CENTRO",
-          "cidade": "BETIM",
-          "dtultcomp": "17/06/2026",
-          "dias": 41,
-          "media": 101.22
+          "media": 94.24
         },
         {
           "codcli": "39124",
@@ -10979,15 +10970,6 @@ const INATIVOS_DATA = {
           "media": 573.29
         },
         {
-          "codcli": "39483",
-          "cliente": "SOFIA OLIVEIRA SARMENTO",
-          "bairro": "PAMPULHA",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "17/06/2026",
-          "dias": 41,
-          "media": 94.24
-        },
-        {
           "codcli": "35441",
           "cliente": "DOCE MISTURA LTDA",
           "bairro": "ANGOLA",
@@ -10997,6 +10979,24 @@ const INATIVOS_DATA = {
           "media": 107.6
         },
         {
+          "codcli": "30078",
+          "cliente": "RAPHAEL DE PAIVA E SOUZA 11915663660",
+          "bairro": "CENTRO",
+          "cidade": "BETIM",
+          "dtultcomp": "17/06/2026",
+          "dias": 41,
+          "media": 101.22
+        },
+        {
+          "codcli": "36803",
+          "cliente": "CRIA COMUNICACAO JUNIOR",
+          "bairro": "PAMPULHA",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "17/06/2026",
+          "dias": 41,
+          "media": 282.72
+        },
+        {
           "codcli": "34459",
           "cliente": "54.309.427 BRAULIO DE SOUZA GRIGORIO",
           "bairro": "ESTORIL",
@@ -11004,15 +11004,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "18/06/2026",
           "dias": 40,
           "media": 491.2
-        },
-        {
-          "codcli": "37110",
-          "cliente": "BRUNO  FERREIRA PIERALLINI",
-          "bairro": "GRAJAÚ",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "18/06/2026",
-          "dias": 40,
-          "media": 958.8
         },
         {
           "codcli": "32871",
@@ -11033,6 +11024,15 @@ const INATIVOS_DATA = {
           "media": 372.4
         },
         {
+          "codcli": "37110",
+          "cliente": "BRUNO  FERREIRA PIERALLINI",
+          "bairro": "GRAJAÚ",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "18/06/2026",
+          "dias": 40,
+          "media": 958.8
+        },
+        {
           "codcli": "34536",
           "cliente": "PARRILLA COSTELLO LTDA",
           "bairro": "OLHOS D AGUA",
@@ -11040,15 +11040,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "18/06/2026",
           "dias": 40,
           "media": 217.91
-        },
-        {
-          "codcli": "35381",
-          "cliente": "ULTRA COFFEE BH - MG LTDA",
-          "bairro": "CORAÇÃO EUCARÍSTICO",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "19/06/2026",
-          "dias": 39,
-          "media": 887.43
         },
         {
           "codcli": "35383",
@@ -11060,6 +11051,15 @@ const INATIVOS_DATA = {
           "media": 1810.24
         },
         {
+          "codcli": "35381",
+          "cliente": "ULTRA COFFEE BH - MG LTDA",
+          "bairro": "CORAÇÃO EUCARÍSTICO",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "19/06/2026",
+          "dias": 39,
+          "media": 887.43
+        },
+        {
           "codcli": "35318",
           "cliente": "ASSOCIACAO ATLETICA ESPORTIVA",
           "bairro": "PAMPULHA",
@@ -11069,6 +11069,15 @@ const INATIVOS_DATA = {
           "media": 5560.16
         },
         {
+          "codcli": "37903",
+          "cliente": "DEAI GASTRONOMIA LTDA",
+          "bairro": "ANGOLA",
+          "cidade": "BETIM",
+          "dtultcomp": "23/06/2026",
+          "dias": 35,
+          "media": 722.66
+        },
+        {
           "codcli": "33553",
           "cliente": "CHALE DA MATA RESTAURANTE LTDA",
           "bairro": "BURITIS",
@@ -11076,15 +11085,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "25/06/2026",
           "dias": 33,
           "media": 196.33
-        },
-        {
-          "codcli": "30313",
-          "cliente": "RL DISTRIBUIDORA LTDA",
-          "bairro": "MANTIQUEIRA",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "26/06/2026",
-          "dias": 32,
-          "media": 204.64
         },
         {
           "codcli": "37431",
@@ -11103,6 +11103,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "26/06/2026",
           "dias": 32,
           "media": 349.92
+        },
+        {
+          "codcli": "30313",
+          "cliente": "RL DISTRIBUIDORA LTDA",
+          "bairro": "MANTIQUEIRA",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "26/06/2026",
+          "dias": 32,
+          "media": 204.64
         }
       ],
       "novos": [
@@ -11150,18 +11159,18 @@ const INATIVOS_DATA = {
           "media": 148.97
         },
         {
-          "codcli": "35974",
-          "cliente": "PONTO DA BEBIDA G LTDA",
-          "bairro": "NOVA CONTAGEM",
+          "codcli": "36979",
+          "cliente": "TEQUILA RESSACA DISTRIBUIDORA LTDA",
+          "bairro": "RESSACA",
           "cidade": "CONTAGEM",
           "dtultcomp": "05/05/2026",
           "dias": 84,
           "media": 0.0
         },
         {
-          "codcli": "36979",
-          "cliente": "TEQUILA RESSACA DISTRIBUIDORA LTDA",
-          "bairro": "RESSACA",
+          "codcli": "35974",
+          "cliente": "PONTO DA BEBIDA G LTDA",
+          "bairro": "NOVA CONTAGEM",
           "cidade": "CONTAGEM",
           "dtultcomp": "05/05/2026",
           "dias": 84,
@@ -11177,31 +11186,13 @@ const INATIVOS_DATA = {
           "media": 106.17
         },
         {
-          "codcli": "39239",
-          "cliente": "52.180.332 BARBARA LUIZA SALES",
-          "bairro": "CÂNDIDA FERREIRA",
-          "cidade": "CONTAGEM",
-          "dtultcomp": "18/05/2026",
-          "dias": 71,
-          "media": 924.56
-        },
-        {
-          "codcli": "35726",
+          "codcli": "35724",
           "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
-          "bairro": "MILIONÁRIOS (BARREIRO)",
-          "cidade": "BELO HORIZONTE",
+          "bairro": "MORADA DA SERRA",
+          "cidade": "IBIRITE",
           "dtultcomp": "18/05/2026",
           "dias": 71,
-          "media": 229.88
-        },
-        {
-          "codcli": "35725",
-          "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
-          "bairro": "MINEIRÃO",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "18/05/2026",
-          "dias": 71,
-          "media": 252.4
+          "media": 291.4
         },
         {
           "codcli": "35727",
@@ -11213,22 +11204,40 @@ const INATIVOS_DATA = {
           "media": 223.88
         },
         {
-          "codcli": "35724",
+          "codcli": "35725",
           "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
-          "bairro": "MORADA DA SERRA",
-          "cidade": "IBIRITE",
+          "bairro": "MINEIRÃO",
+          "cidade": "BELO HORIZONTE",
           "dtultcomp": "18/05/2026",
           "dias": 71,
-          "media": 291.4
+          "media": 252.4
         },
         {
-          "codcli": "39059",
-          "cliente": "ORGANIZACOES VILELA LTDA",
-          "bairro": "JARDIM LAGUNA",
+          "codcli": "35726",
+          "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
+          "bairro": "MILIONÁRIOS (BARREIRO)",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "18/05/2026",
+          "dias": 71,
+          "media": 229.88
+        },
+        {
+          "codcli": "39239",
+          "cliente": "52.180.332 BARBARA LUIZA SALES",
+          "bairro": "CÂNDIDA FERREIRA",
           "cidade": "CONTAGEM",
+          "dtultcomp": "18/05/2026",
+          "dias": 71,
+          "media": 924.56
+        },
+        {
+          "codcli": "38994",
+          "cliente": "DAP CONVENIENCIA LTDA.",
+          "bairro": "INDÚSTRIAS I (BARREIRO)",
+          "cidade": "BELO HORIZONTE",
           "dtultcomp": "26/05/2026",
           "dias": 63,
-          "media": 155.9
+          "media": 186.88
         },
         {
           "codcli": "39378",
@@ -11249,13 +11258,13 @@ const INATIVOS_DATA = {
           "media": 100.56
         },
         {
-          "codcli": "38994",
-          "cliente": "DAP CONVENIENCIA LTDA.",
-          "bairro": "INDÚSTRIAS I (BARREIRO)",
-          "cidade": "BELO HORIZONTE",
+          "codcli": "39059",
+          "cliente": "ORGANIZACOES VILELA LTDA",
+          "bairro": "JARDIM LAGUNA",
+          "cidade": "CONTAGEM",
           "dtultcomp": "26/05/2026",
           "dias": 63,
-          "media": 186.88
+          "media": 155.9
         },
         {
           "codcli": "37495",
@@ -11321,15 +11330,6 @@ const INATIVOS_DATA = {
           "media": 259.6
         },
         {
-          "codcli": "31397",
-          "cliente": "DISTRIBUIDORA CABRAL BEER LTDA",
-          "bairro": "CABRAL",
-          "cidade": "CONTAGEM",
-          "dtultcomp": "18/06/2026",
-          "dias": 40,
-          "media": 4260.73
-        },
-        {
           "codcli": "35189",
           "cliente": "MAGNUS SOCIEDADE COMERCIAL LIMITADA",
           "bairro": "SANTA HELENA",
@@ -11339,13 +11339,13 @@ const INATIVOS_DATA = {
           "media": 2159.53
         },
         {
-          "codcli": "39027",
-          "cliente": "SUPERMERCADO PEJOAL LTDA",
-          "bairro": "LINDÉIA (BARREIRO)",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "25/06/2026",
-          "dias": 33,
-          "media": 1608.27
+          "codcli": "31397",
+          "cliente": "DISTRIBUIDORA CABRAL BEER LTDA",
+          "bairro": "CABRAL",
+          "cidade": "CONTAGEM",
+          "dtultcomp": "18/06/2026",
+          "dias": 40,
+          "media": 4260.73
         },
         {
           "codcli": "39539",
@@ -11355,6 +11355,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "25/06/2026",
           "dias": 33,
           "media": 0.0
+        },
+        {
+          "codcli": "39027",
+          "cliente": "SUPERMERCADO PEJOAL LTDA",
+          "bairro": "LINDÉIA (BARREIRO)",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "25/06/2026",
+          "dias": 33,
+          "media": 1608.27
         }
       ],
       "novos": [
@@ -11436,15 +11445,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "01/06/2026",
           "dias": 57,
           "media": 746.8
-        },
-        {
-          "codcli": "31062",
-          "cliente": "SUPERMERCADOS REX LTDA",
-          "bairro": "SANTA EFIGENIA",
-          "cidade": "LAVRAS",
-          "dtultcomp": "19/06/2026",
-          "dias": 39,
-          "media": 18243.0
         },
         {
           "codcli": "39508",
