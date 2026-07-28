@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "28/07/2026 11:19",
-  "total": 21969,
+  "atualizado_em": "28/07/2026 12:20",
+  "total": 21974,
   "clientes": [
     {
       "codcli": "38586",
@@ -10140,22 +10140,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "45.129.967/0001-06",
       "estado": "RJ",
       "ramo": "OUTROS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "81479",
-      "razao": "45.145.567 MICHELE RIBEIRO LEON DA SILVA",
-      "fantasia": "MICHELE RIBEIRO LEON",
-      "bairro": "AMPLIACAO",
-      "cidade": "ITABORAI",
-      "cnpj": "45.145.567/0001-94",
-      "estado": "RJ",
-      "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -120980,6 +120964,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "46045",
+      "razao": "DISTRIBUIDORA DE BEBIDAS MENEZES LTDA",
+      "fantasia": "ADEGA FLASH DRINKS",
+      "bairro": "JARDIM SANTO ELIAS",
+      "cidade": "SAO PAULO",
+      "cnpj": "39.670.584/0001-48",
+      "estado": "SP",
+      "ramo": "BAR",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "515",
+      "nome_usur1": "RAFAEL REIS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "48204",
       "razao": "DISTRIBUIDORA DE BEBIDAS MESQUITA LTDA",
       "fantasia": "ADEGA & TABACARIA MESQUITA",
@@ -123170,6 +123170,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "30300",
+      "razao": "DL10 COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+      "fantasia": "DL10 BEBIDAS",
+      "bairro": "INAMAR",
+      "cidade": "DIADEMA",
+      "cnpj": "39.533.593/0001-97",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "512",
+      "nome_usur1": "WILLIAM GONCALVES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "42256",
@@ -229716,6 +229732,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
+      "codcli": "50571",
+      "razao": "MERCADINHO FONTE NOVA SANTA EMILIA LTDA",
+      "fantasia": "MERCADINHO FONTE NOVA SANTA EMILIA LTDA",
+      "bairro": "JARDIM TRANQÜILIDADE",
+      "cidade": "GUARULHOS",
+      "cnpj": "05.991.706/0002-67",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "467",
+      "nome_usur1": "MARLENE RODRIGUES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "50785",
       "razao": "MERCADINHO GUIGA LTDA",
       "fantasia": "ARMAZEM",
@@ -231924,12 +231956,60 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "50575",
+      "razao": "MERCADO FONTE NOVA JD. MUNIRA LTDA",
+      "fantasia": "MERCADO FONTE NOVA JD. MUNIRA LTDA",
+      "bairro": "JARDIM OLIVEIRA II",
+      "cidade": "GUARULHOS",
+      "cnpj": "10.331.661/0001-53",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "467",
+      "nome_usur1": "MARLENE RODRIGUES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "50577",
+      "razao": "MERCADO FONTE NOVA JOVAIA LTDA",
+      "fantasia": "MERCADO FONTE NOVA JOVAIA LTDA",
+      "bairro": "JARDIM JOVAIA",
+      "cidade": "GUARULHOS",
+      "cnpj": "58.649.807/0001-30",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "467",
+      "nome_usur1": "MARLENE RODRIGUES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "50570",
       "razao": "MERCADO FONTE NOVA RECREIO LTDA",
       "fantasia": "MERCADO FONTE NOVA RECREIO",
       "bairro": "JARDIM AIDA",
       "cidade": "GUARULHOS",
       "cnpj": "07.109.403/0002-01",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "467",
+      "nome_usur1": "MARLENE RODRIGUES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "50576",
+      "razao": "MERCADO FONTE NOVA TURMALINA LTDA",
+      "fantasia": "MERCADO FONTE NOVA TURMALINA",
+      "bairro": "JARDIM ALMEIDA PRADO",
+      "cidade": "GUARULHOS",
+      "cnpj": "02.124.948/0001-84",
       "estado": "SP",
       "ramo": "MINI-MERCADO",
       "key_account": false,
