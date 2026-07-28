@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "28/07/2026 12:09",
+  "atualizado_em": "28/07/2026 13:00",
   "data_rota": "28.07",
   "vendedores": [
     {
@@ -26,7 +26,88 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "431001188",
+          "numnota": "",
+          "data": "28/07/2026",
+          "cliente": "BAR & TRATTORIA DU PONTO COMERCIO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 359.8,
+          "itens": [
+            {
+              "desc": "WHISKY J WALKER BLACK LABEL 1L",
+              "qt": 2,
+              "val": 359.8
+            }
+          ]
+        },
+        {
+          "numped": "431001187",
+          "numnota": "",
+          "data": "28/07/2026",
+          "cliente": "MERCADO ASS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 999.3,
+          "itens": [
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 12,
+              "val": 334.8
+            },
+            {
+              "desc": "VODKA ORLOFF 1L",
+              "qt": 12,
+              "val": 274.8
+            },
+            {
+              "desc": "RC ATUM RALADO NATURAL 24X140G",
+              "qt": 1,
+              "val": 129.9
+            },
+            {
+              "desc": "RC ATUM RALADO OLEO 24X140G",
+              "qt": 1,
+              "val": 129.9
+            },
+            {
+              "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+              "qt": 1,
+              "val": 129.9
+            }
+          ]
+        },
+        {
+          "numped": "431001189",
+          "numnota": "",
+          "data": "28/07/2026",
+          "cliente": "BAR & TRATTORIA DU PONTO COMERCIO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 149.9,
+          "itens": [
+            {
+              "desc": "WHISKY J WALKER BLACK LABEL 1L",
+              "qt": 1,
+              "val": 149.9
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [],
       "canceladas": [
         {
@@ -2738,7 +2819,63 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "412001432",
+          "numnota": "",
+          "data": "28/07/2026",
+          "cliente": "MERCADO REI DA PEDRA DE GUARATIBA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1635.7,
+          "itens": [
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 12,
+              "val": 334.8
+            },
+            {
+              "desc": "CATUABA SELVAGEM 900ML",
+              "qt": 12,
+              "val": 142.8
+            },
+            {
+              "desc": "VINHO CASA RODRIGUES TINTO SECO",
+              "qt": 12,
+              "val": 154.8
+            },
+            {
+              "desc": "VINHO CASA RODRIGUES TINTO SUAVE",
+              "qt": 24,
+              "val": 285.6
+            },
+            {
+              "desc": "COQ. PINK MOON FRISANTE ROSE VD 12X750ML",
+              "qt": 1,
+              "val": 129.9
+            },
+            {
+              "desc": "SYN GALAXY LEMON 24X275ML VD",
+              "qt": 1,
+              "val": 59.9
+            },
+            {
+              "desc": "SYN GALAXY MORANGO PESSEGO 24X275ML VD",
+              "qt": 1,
+              "val": 59.9
+            },
+            {
+              "desc": "CANTINA DA SERRA 750ML",
+              "qt": 120,
+              "val": 468.0
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "412001313",
@@ -6357,31 +6494,6 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
-          "numped": "379001318",
-          "numnota": "",
-          "data": "28/07/2026",
-          "cliente": "MERCADO UNIAO DE MESQUITA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 499.8,
-          "itens": [
-            {
-              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
-              "qt": 4,
-              "val": 244.0
-            },
-            {
-              "desc": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
-              "qt": 2,
-              "val": 255.8
-            }
-          ]
-        },
-        {
           "numped": "379001319",
           "numnota": "",
           "data": "28/07/2026",
@@ -6394,16 +6506,6 @@ const ENTREGAS_DATA = {
           "obs": "",
           "total": 2398.74,
           "itens": [
-            {
-              "desc": "GIN MARINA ROSE 750ML",
-              "qt": 1,
-              "val": 39.9
-            },
-            {
-              "desc": "COQUETEL COMPOSTO PINK MOON 24X300ML",
-              "qt": 3,
-              "val": 179.7
-            },
             {
               "desc": "GIN ROCKS STRAWBERRY 1000ML",
               "qt": 18,
@@ -6448,6 +6550,66 @@ const ENTREGAS_DATA = {
               "desc": "AGUA MINERAL MAMBA WATER C/ GAS 12X350ML",
               "qt": 3,
               "val": 140.7
+            },
+            {
+              "desc": "GIN MARINA ROSE 750ML",
+              "qt": 1,
+              "val": 39.9
+            },
+            {
+              "desc": "COQUETEL COMPOSTO PINK MOON 24X300ML",
+              "qt": 3,
+              "val": 179.7
+            }
+          ]
+        },
+        {
+          "numped": "379001320",
+          "numnota": "",
+          "data": "28/07/2026",
+          "cliente": "R F SANTANA MERCEARIA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1549.92,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 2,
+              "val": 349.92
+            },
+            {
+              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+              "qt": 20,
+              "val": 1200.0
+            }
+          ]
+        },
+        {
+          "numped": "379001318",
+          "numnota": "",
+          "data": "28/07/2026",
+          "cliente": "MERCADO UNIAO DE MESQUITA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 499.8,
+          "itens": [
+            {
+              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+              "qt": 4,
+              "val": 244.0
+            },
+            {
+              "desc": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
+              "qt": 2,
+              "val": 255.8
             }
           ]
         }
@@ -7968,7 +8130,48 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "450000497",
+          "numnota": "",
+          "data": "28/07/2026",
+          "cliente": "EVIVA COMERCIO DE ALIMENTOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "entregar ate as 16:00hs",
+          "total": 934.26,
+          "itens": [
+            {
+              "desc": "RC ATUM SOLIDO NATURAL 24X170G",
+              "qt": 1,
+              "val": 208.56
+            },
+            {
+              "desc": "RC ATUM SOLIDO OLEO 24X170G",
+              "qt": 1,
+              "val": 208.56
+            },
+            {
+              "desc": "RC ATUM PEDACOS EM OLEO 24X140G",
+              "qt": 1,
+              "val": 191.76
+            },
+            {
+              "desc": "RC ATUM PEDACOS NATURAL 24X140G",
+              "qt": 1,
+              "val": 191.76
+            },
+            {
+              "desc": "RC ATUM SOLIDO YF EM OLIVA 12X170G",
+              "qt": 1,
+              "val": 133.62
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [],
       "canceladas": [
         {
@@ -9388,11 +9591,6 @@ const ENTREGAS_DATA = {
           "total": 695.8,
           "itens": [
             {
-              "desc": "AGUA MINALBA C/ GAS 6X1,5L",
-              "qt": 2,
-              "val": 43.8
-            },
-            {
               "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
               "qt": 15,
               "val": 298.5
@@ -9406,6 +9604,11 @@ const ENTREGAS_DATA = {
               "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
               "qt": 5,
               "val": 144.5
+            },
+            {
+              "desc": "AGUA MINALBA C/ GAS 6X1,5L",
+              "qt": 2,
+              "val": 43.8
             }
           ]
         },
@@ -12417,6 +12620,11 @@ const ENTREGAS_DATA = {
           "total": 4625.0,
           "itens": [
             {
+              "desc": "AMARULA C LIQUEUR 750 ML",
+              "qt": 3,
+              "val": 266.7
+            },
+            {
               "desc": "GIN BOMBAY SAPPHIRE 750ML",
               "qt": 6,
               "val": 419.4
@@ -12475,11 +12683,6 @@ const ENTREGAS_DATA = {
               "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
               "qt": 6,
               "val": 443.4
-            },
-            {
-              "desc": "AMARULA C LIQUEUR 750 ML",
-              "qt": 3,
-              "val": 266.7
             }
           ]
         },
@@ -12540,6 +12743,41 @@ const ENTREGAS_DATA = {
               "desc": "CACHACA VELHO BARREIRO 910 ML",
               "qt": 12,
               "val": 154.8
+            }
+          ]
+        },
+        {
+          "numped": "155003989",
+          "numnota": "",
+          "data": "28/07/2026",
+          "cliente": "CAMILA LAROCCA DA COSTA 05624011725",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 401.26,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 1,
+              "val": 179.76
+            },
+            {
+              "desc": "RUM BACARDI GOLD 980ML",
+              "qt": 1,
+              "val": 41.9
+            },
+            {
+              "desc": "REFRIGERANTE COCA-COLA LT 12X350ML",
+              "qt": 3,
+              "val": 134.7
+            },
+            {
+              "desc": "REFRIGERANTE COCA-COLA ZERO LT 12X350ML",
+              "qt": 1,
+              "val": 44.9
             }
           ]
         }
@@ -13508,7 +13746,53 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "241000536",
+          "numnota": "",
+          "data": "28/07/2026",
+          "cliente": "F S DO AMARAL COMERCIO DE BEBIDAS E ALIMENTOS",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 3522.0,
+          "itens": [
+            {
+              "desc": "CATUABA SELVAGEM 900ML",
+              "qt": 180,
+              "val": 2142.0
+            },
+            {
+              "desc": "CATUABA SELVAGEM ACAI 900ML",
+              "qt": 120,
+              "val": 1380.0
+            }
+          ]
+        },
+        {
+          "numped": "241000535",
+          "numnota": "",
+          "data": "28/07/2026",
+          "cliente": "LUCIANA DA SILVA PROCOPIO DAS NEVES 08399692794",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 346.8,
+          "itens": [
+            {
+              "desc": "CONHAQUE DOMECQ 1L",
+              "qt": 12,
+              "val": 346.8
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [],
       "canceladas": [
         {
