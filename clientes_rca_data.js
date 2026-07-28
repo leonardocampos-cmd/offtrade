@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "28/07/2026 12:20",
-  "total": 21974,
+  "atualizado_em": "28/07/2026 13:11",
+  "total": 21973,
   "clientes": [
     {
       "codcli": "38586",
@@ -193248,22 +193248,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "458",
       "nome_usur1": "BRUNO COSMO - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "85775",
-      "razao": "KGB IMPERIO DO ESPETO COMERCIO DE CARNES LTDA",
-      "fantasia": "IMPERIO DO ESPETO",
-      "bairro": "COPACABANA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "42.708.372/0001-17",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
