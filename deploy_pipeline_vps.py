@@ -40,6 +40,7 @@ PIPELINE_FILES = [
     "pedidos.py",
     "conferencia_preco.py",
     "envio_whatsapp.py",
+    "whatsapp_evolution.py",
     "report_diario_vendedor.py",
     "alerta_logistica_rj.py",
     "email_pedidos.py",

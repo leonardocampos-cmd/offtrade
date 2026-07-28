@@ -27,6 +27,21 @@ def step(nome):
     print(f"  {nome}")
     print(f"{'-' * 50}")
 
+_ALERTA_PIPELINE_NUMERO = os.getenv("ALERTA_PIPELINE_NUMERO", "5521992085320")
+
+
+def _alertar_falha_pipeline(etapa, detalhe):
+    """Avisa por WhatsApp quando uma etapa falha de um jeito silencioso (ex:
+    token OAuth expirado) — sem isso, uma falha como essa só é notada dias
+    depois, olhando o arquivo de saída manualmente (aconteceu com o token do
+    Gmail do alerta_logistica_rj em 2026-07-28)."""
+    try:
+        from whatsapp_evolution import enviar_whatsapp
+        texto = f"⚠️ Pipeline Off Trade — falha em: {etapa}\n{detalhe[:300]}"
+        enviar_whatsapp(_ALERTA_PIPELINE_NUMERO, texto)
+    except Exception:
+        pass
+
 # O pipeline roda de forma independente em dois lugares (Task Scheduler local,
 # de hora em hora, e cron da VPS em horário comercial) — sem essa trava, duas
 # execuções concorrentes escrevem nos mesmos _data.js/git ao mesmo tempo
@@ -404,10 +419,13 @@ def main():
                 print(result.stdout.decode("utf-8", errors="replace"))
                 if result.returncode != 0:
                     print("[AVISO] alerta_logistica_rj falhou — ignorado, pipeline continua.")
-                    print(result.stderr.decode("utf-8", errors="replace"))
-            except Exception:
+                    _stderr = result.stderr.decode("utf-8", errors="replace")
+                    print(_stderr)
+                    _alertar_falha_pipeline("Alertas Logistica RJ (Gmail)", _stderr.strip().splitlines()[-1] if _stderr.strip() else "erro desconhecido")
+            except Exception as _e:
                 print("[AVISO] alerta_logistica_rj falhou — ignorado, pipeline continua.")
                 traceback.print_exc()
+                _alertar_falha_pipeline("Alertas Logistica RJ (Gmail)", str(_e))
 
             step("10/10 - Enviando alerta WhatsApp")
             try:
