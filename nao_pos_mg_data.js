@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "24/07/2026 15:06",
+  "atualizado_em": "28/07/2026 11:18",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -45,72 +45,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "36482",
-        "cliente": "LOJA MENDONCA 2000 LTDA",
-        "bairro": "CIDADE NOVA",
-        "dtultcomp": "24/04/2026",
-        "produtos": [
-          {
-            "produto": "APERITIVO CAMPARI 998 ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 176.7
-          },
-          {
-            "produto": "J W RED LABEL 12/50 ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 77.9
-          },
-          {
-            "produto": "MINIATURA BEEFEATER  12 X 50ML",
-            "fantasia": "PERNOD",
-            "qt": 1,
-            "valor": 153.9
-          },
-          {
-            "produto": "VODKA ABSOLUT 12 X  50ML",
-            "fantasia": "PERNOD",
-            "qt": 1,
-            "valor": 107.88
-          }
-        ]
-      },
-      {
-        "codcli": "35498",
-        "cliente": "LOJA MENDONCA 2000 LTDA",
-        "bairro": "CIDADE NOVA",
-        "dtultcomp": "24/04/2026",
-        "produtos": [
-          {
-            "produto": "MINIATURA BEEFEATER  12 X 50ML",
-            "fantasia": "PERNOD",
-            "qt": 1,
-            "valor": 153.9
-          },
-          {
-            "produto": "VODKA ABSOLUT 12 X  50ML",
-            "fantasia": "PERNOD",
-            "qt": 1,
-            "valor": 107.88
-          }
-        ]
-      },
-      {
-        "codcli": "35022",
-        "cliente": "SUPERMERCADO NUTRI MAIS LTDA",
-        "bairro": "RESSACA",
-        "dtultcomp": "27/04/2026",
-        "produtos": [
-          {
-            "produto": "GIN GORDONS PINK 700ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 341.4
-          }
-        ]
-      },
-      {
         "codcli": "35462",
         "cliente": "POSTO WAP CRISTIANO MACHADO LTDA",
         "bairro": "MINASLÂNDIA (P MAIO)",
@@ -118,13 +52,13 @@ const NAO_POS_MG_DATA = {
         "produtos": [
           {
             "produto": "GIN TANQUERAY  750 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 2,
             "valor": 197.8
           },
           {
             "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 2,
             "valor": 249.12
           }
@@ -138,13 +72,13 @@ const NAO_POS_MG_DATA = {
         "produtos": [
           {
             "produto": "GIN  TANQUERAY ROYALE 700 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 2,
             "valor": 227.8
           },
           {
             "produto": "VODKA SMIRNOFF 600 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 6,
             "valor": 155.4
           }
@@ -158,13 +92,13 @@ const NAO_POS_MG_DATA = {
         "produtos": [
           {
             "produto": "GIN GORDONS 750 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 1,
             "valor": 54.9
           },
           {
             "produto": "GIN GORDONS PINK 700ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 2,
             "valor": 109.8
           },
@@ -194,6 +128,26 @@ const NAO_POS_MG_DATA = {
         "codcli": "35727",
         "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
         "bairro": "ITAIPU (BARREIRO)",
+        "dtultcomp": "18/05/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 184.56
+          },
+          {
+            "produto": "RED BULL SUGAR FREE 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 184.56
+          }
+        ]
+      },
+      {
+        "codcli": "35725",
+        "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
+        "bairro": "MINEIRÃO",
         "dtultcomp": "18/05/2026",
         "produtos": [
           {
@@ -257,26 +211,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35725",
-        "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
-        "bairro": "MINEIRÃO",
-        "dtultcomp": "18/05/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          },
-          {
-            "produto": "RED BULL SUGAR FREE 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          }
-        ]
-      },
-      {
         "codcli": "39379",
         "cliente": "ANV BEBIDAS E MERCADINHO LTDA",
         "bairro": "NOVO PROGRESSO",
@@ -284,7 +218,7 @@ const NAO_POS_MG_DATA = {
         "produtos": [
           {
             "produto": "SMIR ICE REGULAR - 0.269 LT  X 24",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 3,
             "valor": 301.68
           }
@@ -298,7 +232,7 @@ const NAO_POS_MG_DATA = {
         "produtos": [
           {
             "produto": "WHISKY WALKER RED LABEL 1L",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 12,
             "valor": 838.8
           }
@@ -318,7 +252,7 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "WHISKY WALKER RED LABEL 1L",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 3,
             "valor": 209.7
           }
@@ -378,7 +312,7 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "GIN GORDONS 750 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 2,
             "valor": 111.8
           },
@@ -474,13 +408,13 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "VODKA SMIRNOFF RED 998 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 3,
             "valor": 86.7
           },
           {
             "produto": "WHISKY J WALKER BLACK LABEL 1L",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 3,
             "valor": 458.7
           }
@@ -494,7 +428,7 @@ const NAO_POS_MG_DATA = {
         "produtos": [
           {
             "produto": "WHISKY WALKER RED LABEL 1L",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 12,
             "valor": 826.8
           }
@@ -528,7 +462,7 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 57,
             "valor": 10710.3
           }
@@ -548,13 +482,13 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "GIN GORDONS 750 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 12,
             "valor": 586.8
           },
           {
             "produto": "GIN GORDONS PINK 700ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 12,
             "valor": 586.8
           },
@@ -566,7 +500,7 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "VODKA SMIRNOFF RED 998 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 12,
             "valor": 334.8
           },
@@ -586,13 +520,13 @@ const NAO_POS_MG_DATA = {
         "produtos": [
           {
             "produto": "GIN GORDONS PINK 700ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 2,
             "valor": 103.8
           },
           {
             "produto": "VODKA SMIRNOFF RED 998 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 12,
             "valor": 346.8
           }
@@ -606,13 +540,13 @@ const NAO_POS_MG_DATA = {
         "produtos": [
           {
             "produto": "GIN GORDONS 750 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 2,
             "valor": 103.8
           },
           {
             "produto": "GIN GORDONS PINK 700ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 2,
             "valor": 103.8
           }
@@ -647,156 +581,42 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       }
     ],
-    "FERNANDO RISSON": [
-      {
-        "codcli": "37254",
-        "cliente": "DISTRIBUIDORA DE PRODUTOS ALIMENTICIOS PARANAIBA",
-        "bairro": "BELA VISTA",
-        "dtultcomp": "25/03/2026",
-        "produtos": [
-          {
-            "produto": "AZEITE DE OLIVA EV ESSENZA 500ML",
-            "fantasia": "",
-            "qt": 1440,
-            "valor": 33840.0
-          }
-        ]
-      },
-      {
-        "codcli": "38631",
-        "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
-        "bairro": "BONFIM",
-        "dtultcomp": "06/04/2026",
-        "produtos": [
-          {
-            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-            "fantasia": "DON LUIZ",
-            "qt": 24,
-            "valor": 1437.6
-          }
-        ]
-      },
-      {
-        "codcli": "38630",
-        "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
-        "bairro": "GLÓRIA",
-        "dtultcomp": "09/04/2026",
-        "produtos": [
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 24,
-            "valor": 2208.0
-          }
-        ]
-      },
-      {
-        "codcli": "34336",
-        "cliente": "MULTICOM ATACADO E VAREJO S/A",
-        "bairro": "JOSE RODRIGUES DA COSTA",
-        "dtultcomp": "16/04/2026",
-        "produtos": [
-          {
-            "produto": "VODKA ABSOLUT - 750 ML",
-            "fantasia": "PERNOD",
-            "qt": 108,
-            "valor": 7344.0
-          }
-        ]
-      },
-      {
-        "codcli": "37938",
-        "cliente": "SUPERMERCADO RIO BRANCO CAMANDUCAIA EIRELI",
-        "bairro": "CENTRO",
-        "dtultcomp": "20/04/2026",
-        "produtos": [
-          {
-            "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
-            "fantasia": "",
-            "qt": 34,
-            "valor": 4398.24
-          },
-          {
-            "produto": "VODKA SMIRNOFF 600 ML",
-            "fantasia": "",
-            "qt": 24,
-            "valor": 525.6
-          }
-        ]
-      },
-      {
-        "codcli": "39434",
-        "cliente": "NOME EMPRESARIAL",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39435",
-        "cliente": "RODRIGO CESAR SILVA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      }
-    ],
     "JOÃO SANTOS": [
       {
-        "codcli": "32190",
-        "cliente": "CHURRASCARIA TREVO CONTAGEM LTDA",
-        "bairro": "ZONAS INDUSTRIAIS DO RIACHO",
-        "dtultcomp": "12/09/2024",
+        "codcli": "33496",
+        "cliente": "MULLIGAN S BAR LTDA",
+        "bairro": "CRUZEIRO",
+        "dtultcomp": "22/01/2026",
         "produtos": [
           {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 20,
-            "valor": 3336.0
-          }
-        ]
-      },
-      {
-        "codcli": "32797",
-        "cliente": "AECIO LUCAS LACERDA",
-        "bairro": "OURO PRETO",
-        "dtultcomp": "25/03/2025",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL AMORA SUGAR FREE 250ML",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 87.48
+            "produto": "APERITIVO APEROL 750 ML DEST",
+            "fantasia": "COMARY",
+            "qt": 1,
+            "valor": 56.9
           },
           {
-            "produto": "GIN GORDONS 750 ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 224.7
+            "produto": "APERITIVO CAMPARI 998ML DEST",
+            "fantasia": "COMARY",
+            "qt": 1,
+            "valor": 58.9
           },
           {
-            "produto": "GIN TANQUERAY  750 ML",
-            "fantasia": "",
+            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+            "fantasia": "HEINEKEN",
             "qt": 3,
-            "valor": 314.7
+            "valor": 431.28
           },
           {
-            "produto": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
+            "produto": "XAR 1883  GRENADINE FRUT VERMELHAS 1LT",
             "fantasia": "",
-            "qt": 2,
-            "valor": 529.8
-          }
-        ]
-      },
-      {
-        "codcli": "38319",
-        "cliente": "LA BODEGA COMERCIO DE BEBIDAS E FRIOS LTDA",
-        "bairro": "SAVASSI",
-        "dtultcomp": "03/12/2025",
-        "produtos": [
+            "qt": 1,
+            "valor": 68.9
+          },
           {
-            "produto": "CHANDON BABY BRUT 187 ML",
-            "fantasia": "LVMH",
-            "qt": 153,
-            "valor": 4819.5
+            "produto": "XAROPE 1883 DE TANGERINA 1L",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 68.9
           }
         ]
       },
@@ -833,68 +653,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35386",
-        "cliente": "A&G LANCHES, EVENTOS E PROMOCOES LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "27/04/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL AMORA EDITION SF 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL CEREJA 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL SF POMELO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL SUMMER MELÃO MARACUJA  24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          }
-        ]
-      },
-      {
         "codcli": "38880",
         "cliente": "EMPREENDIMENTOS VILA VERDE LTDA",
         "bairro": "APARECIDA SÉTIMA SEÇÃO",
@@ -908,85 +666,9 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 10,
             "valor": 1293.6
-          }
-        ]
-      },
-      {
-        "codcli": "38833",
-        "cliente": "ESTUFA MANGABERA LTDA",
-        "bairro": "ANCHIETA",
-        "dtultcomp": "27/04/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-            "fantasia": "HEINEKEN",
-            "qt": 4,
-            "valor": 565.44
-          },
-          {
-            "produto": "CERVEJA HEINEKEN RETORNAVEL 24X600ML",
-            "fantasia": "HEINEKEN",
-            "qt": 6,
-            "valor": 1294.56
-          }
-        ]
-      },
-      {
-        "codcli": "33614",
-        "cliente": "MAGNIFICO QUINTAL LTDA",
-        "bairro": "SANTA AMELIA",
-        "dtultcomp": "27/04/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL AMORA SUGAR FREE 250ML",
-            "fantasia": "RED BULL",
-            "qt": 4,
-            "valor": 126.24
-          },
-          {
-            "produto": "4 PACK RED BULL TROPICAL",
-            "fantasia": "RED BULL",
-            "qt": 4,
-            "valor": 126.24
-          },
-          {
-            "produto": "CERVEJA HEINEKEN  LONG ZERO 24X330ML",
-            "fantasia": "HEINEKEN",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-            "fantasia": "HEINEKEN",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 189.56
-          },
-          {
-            "produto": "XAROPE 1883 DE GENGIBRE 1LT",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 68.9
-          },
-          {
-            "produto": "XAROPE 1883 DE MACA VERDE 1LT",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 68.9
-          },
-          {
-            "produto": "XAROPE 1883 DE TANGERINA 1L",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 68.9
           }
         ]
       },
@@ -998,7 +680,7 @@ const NAO_POS_MG_DATA = {
         "produtos": [
           {
             "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 2,
             "valor": 273.12
           }
@@ -1090,7 +772,7 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "GIN GORDONS 750 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 4,
             "valor": 219.6
           },
@@ -1302,7 +984,7 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "GIN TANQUERAY  750 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 1,
             "valor": 98.9
           },
@@ -1348,7 +1030,7 @@ const NAO_POS_MG_DATA = {
         "produtos": [
           {
             "produto": "SMIR ICE REGULAR - 0.269 LT  X 24",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 1,
             "valor": 116.4
           },
@@ -1508,7 +1190,7 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "WHISKY WALKER RED LABEL 1L",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 4,
             "valor": 299.6
           }
@@ -2093,56 +1775,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35398",
-        "cliente": "LCA COMERCIO LTDA",
-        "bairro": "PAMPULHA",
-        "dtultcomp": "12/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL AMORA EDITION SF 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL NECTARINA SF 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          }
-        ]
-      },
-      {
         "codcli": "35400",
         "cliente": "LCA COMERCIO LTDA",
         "bairro": "PAMPULHA",
@@ -2189,6 +1821,56 @@ const NAO_POS_MG_DATA = {
             "fantasia": "RED BULL",
             "qt": 2,
             "valor": 282.72
+          }
+        ]
+      },
+      {
+        "codcli": "35398",
+        "cliente": "LCA COMERCIO LTDA",
+        "bairro": "PAMPULHA",
+        "dtultcomp": "12/06/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 282.72
+          },
+          {
+            "produto": "RED BULL AMORA EDITION SF 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL MELANCIA 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL NECTARINA SF 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 141.36
+          },
+          {
+            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 282.72
+          },
+          {
+            "produto": "RED BULL ZERO 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 141.36
           }
         ]
       },
@@ -2483,20 +2165,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33778",
-        "cliente": "SMEP BH HOTEIS LTDA",
-        "bairro": "BARRO PRETO",
-        "dtultcomp": "15/06/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA AMSTEL LATA 350 MLX12 (SLEEK)",
-            "fantasia": "HEINEKEN",
-            "qt": 15,
-            "valor": 628.2
-          }
-        ]
-      },
-      {
         "codcli": "36441",
         "cliente": "ANICCA EMPREENDIMENTOS LTDA",
         "bairro": "SAVASSI",
@@ -2710,35 +2378,15 @@ const NAO_POS_MG_DATA = {
         "produtos": [
           {
             "produto": "GIN GORDONS 750 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 12,
             "valor": 658.8
           },
           {
             "produto": "WHISKY WALKER RED LABEL 1L",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 12,
             "valor": 814.8
-          }
-        ]
-      },
-      {
-        "codcli": "33014",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "YVY",
-            "qt": 4,
-            "valor": 159.6
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "YVY",
-            "qt": 4,
-            "valor": 159.6
           }
         ]
       },
@@ -2759,6 +2407,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "YVY",
             "qt": 6,
             "valor": 239.4
+          }
+        ]
+      },
+      {
+        "codcli": "33014",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "LOURDES",
+        "dtultcomp": "18/06/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 4,
+            "valor": 159.6
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 4,
+            "valor": 159.6
           }
         ]
       },
@@ -2802,13 +2470,13 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "VODKA SMIRNOFF RED 998 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 12,
             "valor": 370.8
           },
           {
             "produto": "WHISKY WALKER RED LABEL 1L",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 6,
             "valor": 443.4
           }
@@ -2981,32 +2649,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "RED BULL",
             "qt": 3,
             "valor": 70.68
-          }
-        ]
-      },
-      {
-        "codcli": "33615",
-        "cliente": "MONKA CERVEJARIA LTDA",
-        "bairro": "OLHOS D'AGUA",
-        "dtultcomp": "22/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 575.28
-          },
-          {
-            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 383.52
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 191.76
           }
         ]
       },
@@ -3222,7 +2864,7 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "WHISKY WALKER RED LABEL 1L",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 1,
             "valor": 73.9
           },
@@ -3288,7 +2930,7 @@ const NAO_POS_MG_DATA = {
         "produtos": [
           {
             "produto": "GIN GORDONS 750 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 60,
             "valor": 2934.0
           }
@@ -3354,7 +2996,7 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 2,
             "valor": 273.12
           }
@@ -3449,7 +3091,7 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "VODKA SMIRNOFF RED 998 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 12,
             "valor": 372.6
           }
@@ -3543,7 +3185,7 @@ const NAO_POS_MG_DATA = {
         "produtos": [
           {
             "produto": "WHISKY BUCHANANS 12 YEARS 1LT",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 12,
             "valor": 1798.8
           }
@@ -3675,13 +3317,13 @@ const NAO_POS_MG_DATA = {
         "produtos": [
           {
             "produto": "VODKA SMIRNOFF 600 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 240,
             "valor": 5016.0
           },
           {
             "produto": "VODKA SMIRNOFF RED 998 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 120,
             "valor": 3468.0
           }
@@ -3863,32 +3505,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35186",
-        "cliente": "SODRE MIGUEL LTDA",
-        "bairro": "PARQUE PRIMAVERA",
-        "dtultcomp": "23/04/2026",
-        "produtos": [
-          {
-            "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
-            "fantasia": "PERNOD",
-            "qt": 60,
-            "valor": 1494.0
-          },
-          {
-            "produto": "RUM MONTILLA CRISTAL 1000 ML",
-            "fantasia": "PERNOD",
-            "qt": 96,
-            "valor": 2390.4
-          },
-          {
-            "produto": "RUM MONTILLA OURO 1000ML",
-            "fantasia": "PERNOD",
-            "qt": 48,
-            "valor": 1195.2
-          }
-        ]
-      },
-      {
         "codcli": "38049",
         "cliente": "VAREJAO ASTEKA LTDA",
         "bairro": "ASTECA (SÃO BENEDITO)",
@@ -3910,49 +3526,15 @@ const NAO_POS_MG_DATA = {
         "produtos": [
           {
             "produto": "GIN GORDONS 750 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 6,
             "valor": 329.4
           },
           {
             "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 20,
             "valor": 2395.2
-          }
-        ]
-      },
-      {
-        "codcli": "39321",
-        "cliente": "JEFERSON COSTA CARDOSO",
-        "bairro": "VILA ZILAH SPÓSITO",
-        "dtultcomp": "26/05/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
-            "fantasia": "HEINEKEN",
-            "qt": 3,
-            "valor": 154.14
-          },
-          {
-            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-            "fantasia": "HEINEKEN",
-            "qt": 1,
-            "valor": 141.36
-          }
-        ]
-      },
-      {
-        "codcli": "37627",
-        "cliente": "PARANAIBA JABOTICATUBAS ALIMENTOS LTDA",
-        "bairro": "SÃO BENEDITO",
-        "dtultcomp": "27/05/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY JACK DANIELS 700 ML",
-            "fantasia": "BROWN-FORMAN",
-            "qt": 12,
-            "valor": 1054.8
           }
         ]
       },
@@ -3964,7 +3546,7 @@ const NAO_POS_MG_DATA = {
         "produtos": [
           {
             "produto": "WHISKY WALKER RED LABEL 1L",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 3,
             "valor": 230.7
           }
@@ -4036,7 +3618,7 @@ const NAO_POS_MG_DATA = {
         "produtos": [
           {
             "produto": "GIN GORDONS 750 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 6,
             "valor": 329.4
           },
@@ -4112,119 +3694,15 @@ const NAO_POS_MG_DATA = {
         "produtos": [
           {
             "produto": "GIN GORDONS 750 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 2,
             "valor": 106.3
           },
           {
             "produto": "GIN GORDONS PINK 700ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 2,
             "valor": 106.3
-          }
-        ]
-      },
-      {
-        "codcli": "38044",
-        "cliente": "CONFINS COMERCIO VAREJISTA DE PRODUTOS INDUSTRIALIZADOS LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "17/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK  RED BULL  MAÇA SF",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 30.76
-          },
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 61.52
-          },
-          {
-            "produto": "4 PACK RED BULL POMELO SF",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 30.76
-          },
-          {
-            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 30.76
-          },
-          {
-            "produto": "4 PACK RED BULL WINTER JUNEBERRY/CEREJA",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 30.76
-          },
-          {
-            "produto": "CERVEJA HEINEKEN  LONG ZERO 24X330ML",
-            "fantasia": "HEINEKEN",
-            "qt": 2,
-            "valor": 287.52
-          },
-          {
-            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-            "fantasia": "HEINEKEN",
-            "qt": 1,
-            "valor": 143.76
-          },
-          {
-            "produto": "RED BULL 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 5,
-            "valor": 922.8
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          }
-        ]
-      },
-      {
-        "codcli": "38373",
-        "cliente": "MERCADO FOOD EMBALAGENS E LATICINIOS LTDA",
-        "bairro": "SOBRADINHO",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN 12X473ML (LATAO)",
-            "fantasia": "HEINEKEN",
-            "qt": 4,
-            "valor": 282.72
-          }
-        ]
-      },
-      {
-        "codcli": "38664",
-        "cliente": "MERCANTIL MENDES RESENDE LTDA.",
-        "bairro": "PROVIDÊNCIA",
-        "dtultcomp": "19/06/2026",
-        "produtos": [
-          {
-            "produto": "SMIRNOFF ICE TROPICAL 269ML LT CX 24",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 301.68
-          }
-        ]
-      },
-      {
-        "codcli": "33186",
-        "cliente": "PARANAIBA PEDRO LEOPOLDO ALIMENTOS LTDA",
-        "bairro": "DISTRITO LAGOA SANTO ANTONIO",
-        "dtultcomp": "19/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN GORDONS 750 ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 329.4
           }
         ]
       },
@@ -4378,68 +3856,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "RED BULL",
             "qt": 1,
             "valor": 23.56
-          }
-        ]
-      },
-      {
-        "codcli": "37072",
-        "cliente": "FINO SABOR RESTAURANTE E LANCHONETE LTDA",
-        "bairro": "SANTA LÚCIA",
-        "dtultcomp": "22/04/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 424.08
-          }
-        ]
-      },
-      {
-        "codcli": "30447",
-        "cliente": "DOCERIA BELO HORIZONTE CAFETERIA LTDA",
-        "bairro": "SAVASSI",
-        "dtultcomp": "23/04/2026",
-        "produtos": [
-          {
-            "produto": "AZEITE DE OLIVA EV ESSENZA 500ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 322.8
-          }
-        ]
-      },
-      {
-        "codcli": "35430",
-        "cliente": "HARAH SERVICOS DE ALIMENTACAO LTDA",
-        "bairro": "SANTO AGOSTINHO",
-        "dtultcomp": "27/04/2026",
-        "produtos": [
-          {
-            "produto": "ESPUMANTE ALUD BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 478.8
-          },
-          {
-            "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
-            "fantasia": "CASTAS",
-            "qt": 10,
-            "valor": 189.0
-          }
-        ]
-      },
-      {
-        "codcli": "38624",
-        "cliente": "IGOR SOUZA OLIVEIRA",
-        "bairro": "SAGRADA FAMÍLIA",
-        "dtultcomp": "27/04/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "YVY",
-            "qt": 6,
-            "valor": 215.4
           }
         ]
       },
@@ -4892,9 +4308,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "39403",
+        "codcli": "30324",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "COMITECO",
+        "bairro": "BELVEDERE",
         "dtultcomp": "29/05/2026",
         "produtos": [
           {
@@ -4912,9 +4328,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30324",
+        "codcli": "39403",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "BELVEDERE",
+        "bairro": "COMITECO",
         "dtultcomp": "29/05/2026",
         "produtos": [
           {
@@ -5057,7 +4473,7 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "WHISKY WALKER RED LABEL 1L",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 12,
             "valor": 826.8
           }
@@ -5281,7 +4697,7 @@ const NAO_POS_MG_DATA = {
         "produtos": [
           {
             "produto": "GIN GORDONS 750 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 12,
             "valor": 670.8
           },
@@ -5391,7 +4807,7 @@ const NAO_POS_MG_DATA = {
         "produtos": [
           {
             "produto": "WHISKY WALKER RED LABEL 1L",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 12,
             "valor": 826.8
           }
@@ -5619,37 +5035,16 @@ const NAO_POS_MG_DATA = {
         "produtos": [
           {
             "produto": "WHISKY WALKER RED LABEL 1L",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 6,
             "valor": 413.4
           }
         ]
       },
       {
-        "codcli": "39529",
-        "cliente": "35.953.430 ELAINE MARTINS MARQUES DE FARIA",
-        "bairro": "SERRA VERDE (VENDA NOVA)",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "39553",
         "cliente": "58.541.717 CLESIO MATEUS SANTOS GONCALVES",
         "bairro": "HELIÓPOLIS",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39514",
-        "cliente": "CADIVINO COMERCIO DE BEBIDAS LTDA",
-        "bairro": "CIDADE NOVA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39528",
-        "cliente": "NA BAGUETE SANDUICHES LTDA",
-        "bairro": "SERRA VERDE (VENDA NOVA)",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -5663,13 +5058,13 @@ const NAO_POS_MG_DATA = {
         "produtos": [
           {
             "produto": "GIN GORDONS 750 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 12,
             "valor": 610.8
           },
           {
             "produto": "GIN TANQUERAY  750 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 2,
             "valor": 179.8
           },
@@ -5687,7 +5082,7 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 2,
             "valor": 249.12
           },
@@ -5699,7 +5094,7 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "VODKA CIROC 750 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 2,
             "valor": 295.8
           },
@@ -5711,13 +5106,13 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "VODKA SMIRNOFF 600 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 12,
             "valor": 238.8
           },
           {
             "produto": "VODKA SMIRNOFF RED 998 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 24,
             "valor": 669.6
           },
@@ -5735,7 +5130,7 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "WHISKY WALKER RED LABEL 1L",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 6,
             "valor": 414.0
           }
@@ -5749,13 +5144,13 @@ const NAO_POS_MG_DATA = {
         "produtos": [
           {
             "produto": "GIN GORDONS 750 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 24,
             "valor": 1221.6
           },
           {
             "produto": "GIN TANQUERAY  750 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 3,
             "valor": 269.7
           },
@@ -5773,7 +5168,7 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 9,
             "valor": 1121.04
           },
@@ -5785,7 +5180,7 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "VODKA CIROC 750 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 2,
             "valor": 295.8
           },
@@ -5797,19 +5192,19 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "VODKA SMIRNOFF 600 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 36,
             "valor": 716.4
           },
           {
             "produto": "VODKA SMIRNOFF RED 998 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 24,
             "valor": 669.6
           },
           {
             "produto": "WHISKY J WALKER BLACK LABEL 1L",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 2,
             "valor": 279.8
           },
@@ -5827,7 +5222,7 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "WHISKY WALKER RED LABEL 1L",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 24,
             "valor": 1656.0
           }
@@ -5841,7 +5236,7 @@ const NAO_POS_MG_DATA = {
         "produtos": [
           {
             "produto": "GIN TANQUERAY  750 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 3,
             "valor": 269.7
           },
@@ -5859,7 +5254,7 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 2,
             "valor": 249.12
           },
@@ -5877,13 +5272,13 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "VODKA SMIRNOFF RED 998 ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 12,
             "valor": 334.8
           },
           {
             "produto": "WHISKY WALKER RED LABEL 1L",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 6,
             "valor": 414.0
           }
@@ -5923,13 +5318,13 @@ const NAO_POS_MG_DATA = {
         "produtos": [
           {
             "produto": "WHISKY J WALKER BLACK LABEL 1L",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 12,
             "valor": 1721.4
           },
           {
             "produto": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
-            "fantasia": "",
+            "fantasia": "DIAGEO",
             "qt": 6,
             "valor": 1174.38
           }
