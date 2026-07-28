@@ -1,5 +1,5 @@
 const CLIENTES_588_DATA = {
-  "atualizado_em": "28/07/2026 10:29",
+  "atualizado_em": "28/07/2026 11:21",
   "rca_ref": 588,
   "periodo_fid": "Jan/26 – Abr/26",
   "mes_migracao": "Mai/26",
@@ -1890,7 +1890,7 @@ const CLIENTES_588_DATA = {
     },
     {
       "codcli": "20208",
-      "cliente": "PENELOPE DRINKS COMERCIAL - EIRELI",
+      "cliente": "PENELOPE DRINKS COMERCIAL LTDA",
       "ultima_compra_rca": "24/04/2026",
       "valor_jan_abr": 27005.4,
       "meses_ativos": 2,
