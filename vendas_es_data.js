@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "28/07/2026 11:15",
+  "atualizado_em": "28/07/2026 12:14",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -107,8 +107,8 @@ const VENDAS_ES_DATA = {
         "fat_ano_ant": 0.0
       },
       "Jul/26": {
-        "fat": 116.64,
-        "pos": 4,
+        "fat": 174.96,
+        "pos": 6,
         "fat_ant": 0.0,
         "fat_ano_ant": 21954.0
       }
@@ -397,8 +397,8 @@ const VENDAS_ES_DATA = {
         "fat_ano_ant": 0.0
       },
       "Jul/26": {
-        "fat": 145.8,
-        "pos": 5,
+        "fat": 174.96,
+        "pos": 6,
         "fat_ant": 24655.69,
         "fat_ano_ant": 40375.77
       }
@@ -607,8 +607,8 @@ const VENDAS_ES_DATA = {
         "fat_ano_ant": 0.0
       },
       "Jul/26": {
-        "fat": 378256.22,
-        "pos": 30,
+        "fat": 379345.33,
+        "pos": 31,
         "fat_ant": 89348.53,
         "fat_ano_ant": 105352.76
       }
@@ -915,7 +915,7 @@ const VENDAS_ES_DATA = {
         "fat_ano_ant": 0.0
       },
       "Jul/26": {
-        "fat": 112439.88,
+        "fat": 118653.78,
         "pos": 8,
         "fat_ant": 1224.0,
         "fat_ano_ant": 0.0
@@ -923,8 +923,8 @@ const VENDAS_ES_DATA = {
     },
     "BRUNO COSMO": {
       "Jul/26": {
-        "fat": 397.46,
-        "pos": 1,
+        "fat": 728.18,
+        "pos": 2,
         "fat_ant": 0.0,
         "fat_ano_ant": 0.0
       }
@@ -45770,6 +45770,26 @@ const VENDAS_ES_DATA = {
           "codcli": "74699",
           "cliente": "COMERCIO DE DOCES MERO LTDA",
           "produto": "4 PACK RED BULL MELÃO C/ MARACUJA",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "71124",
+          "cliente": "L'AMOUR MOTEL LTDA",
+          "produto": "4 PACK RED BULL SF MAÇA 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "71252",
+          "cliente": "STATUS ELEGANCE HOTEL LTDA",
+          "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 29.16,
@@ -164266,6 +164286,16 @@ const VENDAS_ES_DATA = {
           "qt": 1,
           "valor": 29.16,
           "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "72623",
+          "cliente": "PRIMOS COMERCIO DE BEBIDAS LTDA",
+          "produto": "4 PACK RED BULL 250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16,
+          "offtrade": true
         }
       ]
     },
@@ -227110,6 +227140,66 @@ const VENDAS_ES_DATA = {
           "qt": 5,
           "valor": 1188.05,
           "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "80294",
+          "cliente": "AUTO SERVICO PRAIA GRANDE LTDA",
+          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 96.48,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "80294",
+          "cliente": "AUTO SERVICO PRAIA GRANDE LTDA",
+          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 96.48,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "80294",
+          "cliente": "AUTO SERVICO PRAIA GRANDE LTDA",
+          "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 96.48,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "80294",
+          "cliente": "AUTO SERVICO PRAIA GRANDE LTDA",
+          "produto": "PINATI NUTS BANANA 20X30G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 43.42,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "80294",
+          "cliente": "AUTO SERVICO PRAIA GRANDE LTDA",
+          "produto": "PINATI NUTS ORIGINAL 20X30G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 43.42,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "80294",
+          "cliente": "AUTO SERVICO PRAIA GRANDE LTDA",
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 3,
+          "valor": 712.83,
+          "offtrade": true
         }
       ]
     },
@@ -282756,6 +282846,126 @@ const VENDAS_ES_DATA = {
           "qt": 12,
           "valor": 380.88,
           "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "20942",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "XAROPE FABBRI AMARENA 560ML",
+          "fantasia": "FABBRI",
+          "qt": 6,
+          "valor": 221.7,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "20944",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "XAROPE FABBRI MORANGO 560ML",
+          "fantasia": "FABBRI",
+          "qt": 6,
+          "valor": 221.7,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "20943",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "XAROPE FABBRI MORANGO 560ML",
+          "fantasia": "FABBRI",
+          "qt": 6,
+          "valor": 221.7,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "20942",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "fantasia": "PINATI",
+          "qt": 20,
+          "valor": 816.0,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "20942",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
+          "fantasia": "PINATI",
+          "qt": 20,
+          "valor": 816.0,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "20942",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 20,
+          "valor": 816.0,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "20944",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
+          "fantasia": "PINATI",
+          "qt": 8,
+          "valor": 326.4,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "20944",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 163.2,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "20944",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 163.2,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 20,
+          "valor": 816.0,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "fantasia": "PINATI",
+          "qt": 20,
+          "valor": 816.0,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
+          "fantasia": "PINATI",
+          "qt": 20,
+          "valor": 816.0,
+          "offtrade": true
         }
       ]
     },
@@ -282779,6 +282989,16 @@ const VENDAS_ES_DATA = {
           "fantasia": "ROBINSON CRUSOE",
           "qt": 1,
           "valor": 234.5,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "95767",
+          "cliente": "JUVENAL CESCONETTO",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 330.72,
           "offtrade": true
         }
       ]
