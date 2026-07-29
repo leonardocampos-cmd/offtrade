@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "28/07/2026 13:06",
+  "atualizado_em": "29/07/2026 20:31",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -107,8 +107,8 @@ const VENDAS_ES_DATA = {
         "fat_ano_ant": 0.0
       },
       "Jul/26": {
-        "fat": 174.96,
-        "pos": 6,
+        "fat": 233.28,
+        "pos": 8,
         "fat_ant": 0.0,
         "fat_ano_ant": 21954.0
       }
@@ -397,8 +397,8 @@ const VENDAS_ES_DATA = {
         "fat_ano_ant": 0.0
       },
       "Jul/26": {
-        "fat": 174.96,
-        "pos": 6,
+        "fat": 204.12,
+        "pos": 7,
         "fat_ant": 24655.69,
         "fat_ano_ant": 40375.77
       }
@@ -607,8 +607,8 @@ const VENDAS_ES_DATA = {
         "fat_ano_ant": 0.0
       },
       "Jul/26": {
-        "fat": 379345.33,
-        "pos": 31,
+        "fat": 429519.94,
+        "pos": 35,
         "fat_ant": 89348.53,
         "fat_ano_ant": 105352.76
       }
@@ -915,16 +915,16 @@ const VENDAS_ES_DATA = {
         "fat_ano_ant": 0.0
       },
       "Jul/26": {
-        "fat": 118653.78,
-        "pos": 8,
+        "fat": 124190.28,
+        "pos": 11,
         "fat_ant": 1224.0,
         "fat_ano_ant": 0.0
       }
     },
     "BRUNO COSMO": {
       "Jul/26": {
-        "fat": 728.18,
-        "pos": 2,
+        "fat": 1232.1,
+        "pos": 4,
         "fat_ant": 0.0,
         "fat_ano_ant": 0.0
       }
@@ -45790,6 +45790,26 @@ const VENDAS_ES_DATA = {
           "codcli": "71252",
           "cliente": "STATUS ELEGANCE HOTEL LTDA",
           "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "71045",
+          "cliente": "VOICE - CENTRO DE CONDICIONAMENTO FISICO LTDA",
+          "produto": "4 PACK RED BULL SF POMELO 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "71690",
+          "cliente": "HOTEL JARDINS LTDA.",
+          "produto": "4 PACK RED BULL 250ML",
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 29.16,
@@ -164296,6 +164316,16 @@ const VENDAS_ES_DATA = {
           "qt": 1,
           "valor": 29.16,
           "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "84605",
+          "cliente": "POUSADA AERO SOFISTE LTDA.",
+          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16,
+          "offtrade": true
         }
       ]
     },
@@ -226315,86 +226345,6 @@ const VENDAS_ES_DATA = {
           "data": "21/07/2026",
           "codcli": "74376",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "MARTINI ROSATO 750 ML",
-          "fantasia": "BACARDI",
-          "qt": 120,
-          "valor": 4276.8,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "MARTINI ROSSO 750 ML",
-          "fantasia": "BACARDI",
-          "qt": 120,
-          "valor": 4276.8,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "TERRAZAS EL YAIMA COSECHA 375ML",
-          "fantasia": "HENNESSY",
-          "qt": 6,
-          "valor": 1902.18,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "LATITUD 33 CABERNET SAUVIGNON",
-          "fantasia": "HENNESSY",
-          "qt": 30,
-          "valor": 1611.0,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "VINHO LATITUD 33 MALBEC  750 ML",
-          "fantasia": "HENNESSY",
-          "qt": 36,
-          "valor": 1933.2,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "VODKA NATASHA 900ML",
-          "fantasia": "BACARDI",
-          "qt": 120,
-          "valor": 2665.2,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "WHISKY JIM BEAM WHITE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 240,
-          "valor": 23976.0,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "WHISKY BOURBON MAKERS MARK 750 ML",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 36,
-          "valor": 7273.44,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
           "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
           "fantasia": "ROBINSON CRUSOE",
           "qt": 5,
@@ -226409,226 +226359,6 @@ const VENDAS_ES_DATA = {
           "fantasia": "ROBINSON CRUSOE",
           "qt": 20,
           "valor": 2854.8,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "EASY BOOZE VIDRO 12X275ML GINGER",
-          "fantasia": "TATUZINHO",
-          "qt": 4,
-          "valor": 297.08,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "EASY BOOZE VIDRO 12X275ML BLUEBERRY",
-          "fantasia": "TATUZINHO",
-          "qt": 6,
-          "valor": 445.62,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "EASY BOOZE VIDRO 12X275ML RED MINT",
-          "fantasia": "TATUZINHO",
-          "qt": 9,
-          "valor": 668.43,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "EASY BOOZE LATA 24X270ML PINK LEMON",
-          "fantasia": "TATUZINHO",
-          "qt": 15,
-          "valor": 1998.0,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "EASY BOOZE LATA 24X270ML RED MINT",
-          "fantasia": "TATUZINHO",
-          "qt": 10,
-          "valor": 1332.0,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "EASY BOOZE LATA 24X269ML SPRITZ",
-          "fantasia": "TATUZINHO",
-          "qt": 4,
-          "valor": 532.8,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "GIN TONICA 275ML",
-          "fantasia": "DIALCOOL",
-          "qt": 24,
-          "valor": 216.94,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "EASY BOOZE VIDRO 12X275ML PINK LEMON",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 74.24,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "CACHACA JOIA DA SERRA TRADICIONAL 1L",
-          "fantasia": "HOB",
-          "qt": 36,
-          "valor": 1405.69,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "LICOR BALLENA COCO 750ML",
-          "fantasia": "BALLENA",
-          "qt": 12,
-          "valor": 1572.0,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "LICOR BALLENA MORANGO 750 ML",
-          "fantasia": "BALLENA",
-          "qt": 12,
-          "valor": 1572.0,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "LICOR BANANINHA CARIOCA 750ML",
-          "fantasia": "BANANINHA CARIOCA",
-          "qt": 24,
-          "valor": 2280.0,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "WHISKY JIM BEAM APPLE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 60,
-          "valor": 5994.0,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "WHISKY JIM BEAM HONEY 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 120,
-          "valor": 11988.0,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "RUM BACARDI BIG APPLE 700ML",
-          "fantasia": "BACARDI",
-          "qt": 180,
-          "valor": 6415.2,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "RUM BACARDI GOLD 700ML",
-          "fantasia": "BACARDI",
-          "qt": 180,
-          "valor": 6710.4,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "RUM BACARDI SUPERIOR 700ML",
-          "fantasia": "BACARDI",
-          "qt": 180,
-          "valor": 6415.2,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "RUM BACARDI MOJITO 700ML",
-          "fantasia": "BACARDI",
-          "qt": 180,
-          "valor": 6415.2,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "SAQUE FUJI SECO 740ML",
-          "fantasia": "DIALCOOL",
-          "qt": 30,
-          "valor": 621.3,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "MARTINI BIANCO 750 ML",
-          "fantasia": "BACARDI",
-          "qt": 180,
-          "valor": 6415.2,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "MARTINI RISERVA AMBRATTO 750 ML",
-          "fantasia": "BACARDI",
-          "qt": 12,
-          "valor": 1722.48,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "MARTINI EXTRA DRY 750 ML",
-          "fantasia": "BACARDI",
-          "qt": 96,
-          "valor": 3421.44,
           "offtrade": true
         },
         {
@@ -226719,306 +226449,6 @@ const VENDAS_ES_DATA = {
           "fantasia": "BEAM SUNTORY",
           "qt": 12,
           "valor": 958.8,
-          "offtrade": true
-        },
-        {
-          "data": "23/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "XAROPE FABBRI AMARENA 560ML",
-          "fantasia": "FABBRI",
-          "qt": 12,
-          "valor": 464.0,
-          "offtrade": true
-        },
-        {
-          "data": "23/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE ZERO LATA GREEN APPLE 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 93.5,
-          "offtrade": true
-        },
-        {
-          "data": "23/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "XAROPE FABBRI MENTA ZERO 560ML",
-          "fantasia": "FABBRI",
-          "qt": 6,
-          "valor": 232.0,
-          "offtrade": true
-        },
-        {
-          "data": "23/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE LATA GINGER LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 101.29,
-          "offtrade": true
-        },
-        {
-          "data": "23/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 101.29,
-          "offtrade": true
-        },
-        {
-          "data": "23/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE LATA SUGAR FREE LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 101.29,
-          "offtrade": true
-        },
-        {
-          "data": "23/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE LATA AGUA TONICA TRAD 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 101.29,
-          "offtrade": true
-        },
-        {
-          "data": "23/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE VIDRO GINGER LN 12X275ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 56.65,
-          "offtrade": true
-        },
-        {
-          "data": "23/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 56.65,
-          "offtrade": true
-        },
-        {
-          "data": "23/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE VIDRO SUGAR FREE LN 275X12",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 56.65,
-          "offtrade": true
-        },
-        {
-          "data": "23/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE VIDRO TONICA LN 275X12",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 56.65,
-          "offtrade": true
-        },
-        {
-          "data": "23/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "XAROPE FABBRI MORANGO 560ML",
-          "fantasia": "FABBRI",
-          "qt": 12,
-          "valor": 464.0,
-          "offtrade": true
-        },
-        {
-          "data": "23/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE LATA GINGER LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 23,
-          "valor": 2329.67,
-          "offtrade": true
-        },
-        {
-          "data": "23/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 19,
-          "valor": 1924.51,
-          "offtrade": true
-        },
-        {
-          "data": "23/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 11,
-          "valor": 1114.19,
-          "offtrade": true
-        },
-        {
-          "data": "23/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE LATA SUGAR FREE LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 8,
-          "valor": 810.32,
-          "offtrade": true
-        },
-        {
-          "data": "23/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE LATA AGUA TONICA TRAD 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 15,
-          "valor": 1519.35,
-          "offtrade": true
-        },
-        {
-          "data": "23/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE VIDRO GINGER LN 12X275ML",
-          "fantasia": "TATUZINHO",
-          "qt": 16,
-          "valor": 906.4,
-          "offtrade": true
-        },
-        {
-          "data": "23/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
-          "fantasia": "TATUZINHO",
-          "qt": 25,
-          "valor": 1416.25,
-          "offtrade": true
-        },
-        {
-          "data": "23/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE VIDRO RED MINT LN 275X12",
-          "fantasia": "TATUZINHO",
-          "qt": 17,
-          "valor": 963.05,
-          "offtrade": true
-        },
-        {
-          "data": "23/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE VIDRO SUGAR FREE LN 275X12",
-          "fantasia": "TATUZINHO",
-          "qt": 14,
-          "valor": 793.1,
-          "offtrade": true
-        },
-        {
-          "data": "23/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE VIDRO TONICA LN 275X12",
-          "fantasia": "TATUZINHO",
-          "qt": 14,
-          "valor": 793.1,
-          "offtrade": true
-        },
-        {
-          "data": "23/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE ZERO LATA GUARANA  LT 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 20,
-          "valor": 1870.0,
-          "offtrade": true
-        },
-        {
-          "data": "23/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE ZERO LATA LARANJA  LT 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 20,
-          "valor": 1870.0,
-          "offtrade": true
-        },
-        {
-          "data": "23/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE LATA MARGARITA LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 216.5,
-          "offtrade": true
-        },
-        {
-          "data": "23/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE ZERO LATA PINK LEMON  24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 30,
-          "valor": 3247.2,
-          "offtrade": true
-        },
-        {
-          "data": "23/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 30,
-          "valor": 3247.2,
-          "offtrade": true
-        },
-        {
-          "data": "23/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 18,
-          "valor": 1948.32,
-          "offtrade": true
-        },
-        {
-          "data": "23/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "XAROPE FABBRI MACA VERDE 560ML",
-          "fantasia": "FABBRI",
-          "qt": 60,
-          "valor": 2320.0,
-          "offtrade": true
-        },
-        {
-          "data": "23/07/2026",
-          "codcli": "74376",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "produto": "ST PIERRE ZERO LATA GREEN APPLE 24X310ML",
-          "fantasia": "TATUZINHO",
-          "qt": 30,
-          "valor": 2805.0,
           "offtrade": true
         },
         {
@@ -227143,6 +226573,336 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "28/07/2026",
+          "codcli": "85424",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS BANANA 20X30G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 77.6,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "85424",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS BANANA 16X4X30G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 355.2,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "85424",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ZERO COCO 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 12,
+          "valor": 1065.6,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "85424",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ZERO ORIGINAL 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 355.2,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "85424",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ORIGINAL 20X30G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 77.6,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "85424",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BANANA AMENDOIM 16X35G",
+          "fantasia": "PINATI",
+          "qt": 8,
+          "valor": 394.44,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "85424",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 8,
+          "valor": 394.44,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "85424",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 279.24,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "85424",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI SLIM WHEY BEIJINHO (4) 16X35G",
+          "fantasia": "PINATI",
+          "qt": 8,
+          "valor": 401.92,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "85424",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM DADINHO ESPEC 198G",
+          "fantasia": "DADINHO",
+          "qt": 90,
+          "valor": 593.1,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "85424",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
+          "fantasia": "DADINHO",
+          "qt": 36,
+          "valor": 1030.32,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "85424",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO BITZ AO LEITE 105G",
+          "fantasia": "DADINHO",
+          "qt": 90,
+          "valor": 343.8,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "85424",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD 420GR",
+          "fantasia": "DADINHO",
+          "qt": 54,
+          "valor": 914.76,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "85424",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD SACHE 90G",
+          "fantasia": "DADINHO",
+          "qt": 80,
+          "valor": 488.0,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "85424",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO ZERO ACUCAR 90G",
+          "fantasia": "DADINHO",
+          "qt": 80,
+          "valor": 717.6,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "85403",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 120,
+          "valor": 1831.2,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "85403",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "LICOR BALLENA MORANGO 750 ML",
+          "fantasia": "BALLENA",
+          "qt": 12,
+          "valor": 1572.0,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "85403",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "WHISKY JIM BEAM APPLE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 12,
+          "valor": 958.8,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "85403",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 12,
+          "valor": 958.8,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "85403",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "RUM BACARDI BIG APPLE 700ML",
+          "fantasia": "BACARDI",
+          "qt": 24,
+          "valor": 855.36,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "85403",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "RUM BACARDI SUPERIOR 700ML",
+          "fantasia": "BACARDI",
+          "qt": 24,
+          "valor": 855.36,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "85403",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "RUM BACARDI GOLD 700ML",
+          "fantasia": "BACARDI",
+          "qt": 24,
+          "valor": 941.04,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "85403",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "RUM BACARDI MOJITO 700ML",
+          "fantasia": "BACARDI",
+          "qt": 24,
+          "valor": 855.36,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "85403",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "VODKA NATASHA 900ML",
+          "fantasia": "BACARDI",
+          "qt": 60,
+          "valor": 981.6,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "85403",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 12,
+          "valor": 958.8,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "85403",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "RUM BACARDI LIMON 700ML",
+          "fantasia": "BACARDI",
+          "qt": 24,
+          "valor": 855.36,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS BANANA 20X30G",
+          "fantasia": "PINATI",
+          "qt": 5,
+          "valor": 194.0,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ORIGINAL 20X30G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 155.2,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BANANA AMENDOIM 16X35G",
+          "fantasia": "PINATI",
+          "qt": 20,
+          "valor": 986.1,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 8,
+          "valor": 394.44,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR COCO E AMENDOIM 16X35G",
+          "fantasia": "PINATI",
+          "qt": 8,
+          "valor": 401.92,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 139.62,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "91292",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI SLIM WHEY BEIJINHO (4) 16X35G",
+          "fantasia": "PINATI",
+          "qt": 8,
+          "valor": 401.92,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
           "codcli": "80294",
           "cliente": "AUTO SERVICO PRAIA GRANDE LTDA",
           "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
@@ -227199,6 +226959,1196 @@ const VENDAS_ES_DATA = {
           "fantasia": "ROBINSON CRUSOE",
           "qt": 3,
           "valor": 712.83,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85418",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "MARTINI ROSATO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 24,
+          "valor": 855.36,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85418",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "MARTINI ROSSO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 24,
+          "valor": 855.36,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85418",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "VODKA NATASHA 900ML",
+          "fantasia": "BACARDI",
+          "qt": 60,
+          "valor": 981.6,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85418",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 12,
+          "valor": 958.8,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85418",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 120,
+          "valor": 1831.2,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85418",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "GIN BOMBAY SAPPHIRE 750ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 1055.88,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85418",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "LICOR BALLENA MORANGO 750 ML",
+          "fantasia": "BALLENA",
+          "qt": 12,
+          "valor": 1572.0,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85418",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "RUM BACARDI SUPERIOR 700ML",
+          "fantasia": "BACARDI",
+          "qt": 24,
+          "valor": 855.36,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85418",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "RUM BACARDI GOLD 700ML",
+          "fantasia": "BACARDI",
+          "qt": 24,
+          "valor": 941.04,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85418",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "RUM BACARDI LIMON 700ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 427.68,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85418",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "RUM BACARDI MOJITO 700ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 427.68,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85418",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "MARTINI BIANCO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 24,
+          "valor": 855.36,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE LATA AGUA TONICA TRAD 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 15,
+          "valor": 1519.35,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE LATA GINGER LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 23,
+          "valor": 2329.67,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE VIDRO SUGAR FREE LN 275X12",
+          "fantasia": "TATUZINHO",
+          "qt": 14,
+          "valor": 793.1,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 19,
+          "valor": 1924.51,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 11,
+          "valor": 1114.19,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE LATA SUGAR FREE LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 8,
+          "valor": 810.32,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE VIDRO GINGER LN 12X275ML",
+          "fantasia": "TATUZINHO",
+          "qt": 16,
+          "valor": 906.4,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
+          "fantasia": "TATUZINHO",
+          "qt": 25,
+          "valor": 1416.25,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE VIDRO RED MINT LN 275X12",
+          "fantasia": "TATUZINHO",
+          "qt": 17,
+          "valor": 963.05,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE LATA MARGARITA LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 216.5,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE ZERO LATA GUARANA  LT 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 20,
+          "valor": 1870.0,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE ZERO LATA LARANJA  LT 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 20,
+          "valor": 1870.0,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE VIDRO TONICA LN 275X12",
+          "fantasia": "TATUZINHO",
+          "qt": 14,
+          "valor": 793.1,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE ZERO LATA GREEN APPLE 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 30,
+          "valor": 2805.0,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE ZERO LATA PINK LEMON  24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 30,
+          "valor": 3247.2,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 30,
+          "valor": 3247.2,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 18,
+          "valor": 1948.32,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "XAROPE FABBRI MACA VERDE 560ML",
+          "fantasia": "FABBRI",
+          "qt": 60,
+          "valor": 2320.0,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "WHISKY BOURBON MAKERS MARK 750 ML",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 36,
+          "valor": 7384.78,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "GIN TONICA 275ML",
+          "fantasia": "DIALCOOL",
+          "qt": 2,
+          "valor": 225.36,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "79774",
+          "cliente": "BLINCOL SUPERMERCADO-REDE SHOW LTDA",
+          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 96.48,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "79774",
+          "cliente": "BLINCOL SUPERMERCADO-REDE SHOW LTDA",
+          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 96.48,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "79774",
+          "cliente": "BLINCOL SUPERMERCADO-REDE SHOW LTDA",
+          "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
+          "fantasia": "PINATI",
+          "qt": 2,
+          "valor": 96.48,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "79774",
+          "cliente": "BLINCOL SUPERMERCADO-REDE SHOW LTDA",
+          "produto": "PINATI NUTS BANANA 20X30G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 86.84,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "79774",
+          "cliente": "BLINCOL SUPERMERCADO-REDE SHOW LTDA",
+          "produto": "PINATI NUTS COCO 20X30G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 86.84,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "79774",
+          "cliente": "BLINCOL SUPERMERCADO-REDE SHOW LTDA",
+          "produto": "PINATI NUTS ORIGINAL 20X30G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 86.84,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85413",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO ZERO ACUCAR 90G",
+          "fantasia": "DADINHO",
+          "qt": 40,
+          "valor": 358.8,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85413",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM DADINHO ESPEC 198G",
+          "fantasia": "DADINHO",
+          "qt": 30,
+          "valor": 197.7,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85413",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
+          "fantasia": "DADINHO",
+          "qt": 12,
+          "valor": 343.44,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85413",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO BITZ AO LEITE 105G",
+          "fantasia": "DADINHO",
+          "qt": 30,
+          "valor": 114.6,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85413",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS BANANA 20X30G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 38.8,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85413",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ZERO COCO 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 88.8,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85413",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ZERO ORIGINAL 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 88.8,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85413",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 197.22,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85413",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR COCO E AMENDOIM 16X35G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 200.96,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85413",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 69.81,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85413",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BANANA AMENDOIM 16X35G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 197.22,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85413",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD SACHE 90G",
+          "fantasia": "DADINHO",
+          "qt": 40,
+          "valor": 244.0,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85413",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "CACHACA VELHO BARREIRO 910 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 72,
+          "valor": 1098.72,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85413",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "RUM BACARDI MOJITO 700ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 427.68,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85413",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "MARTINI BIANCO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 427.68,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85413",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "GIN BOMBAY SAPPHIRE 750ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 1055.88,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85413",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "RUM BACARDI BIG APPLE 700ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 427.68,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85413",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "RUM BACARDI SUPERIOR 700ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 427.68,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85413",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "RUM BACARDI GOLD 700ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 470.52,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85413",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "RUM BACARDI LIMON 700ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 427.68,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85413",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "MARTINI ROSATO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 427.68,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85413",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "VODKA NATASHA 900ML",
+          "fantasia": "BACARDI",
+          "qt": 24,
+          "valor": 392.64,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85418",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS BANANA 16X4X30G",
+          "fantasia": "PINATI",
+          "qt": 3,
+          "valor": 266.4,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85418",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD 420GR",
+          "fantasia": "DADINHO",
+          "qt": 54,
+          "valor": 914.76,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85418",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD SACHE 90G",
+          "fantasia": "DADINHO",
+          "qt": 80,
+          "valor": 488.0,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85418",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO ZERO ACUCAR 90G",
+          "fantasia": "DADINHO",
+          "qt": 80,
+          "valor": 715.2,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85418",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM DADINHO ESPEC 198G",
+          "fantasia": "DADINHO",
+          "qt": 90,
+          "valor": 593.1,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85418",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
+          "fantasia": "DADINHO",
+          "qt": 36,
+          "valor": 1030.32,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85418",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO BITZ AO LEITE 105G",
+          "fantasia": "DADINHO",
+          "qt": 90,
+          "valor": 343.8,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85418",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS BANANA 20X30G",
+          "fantasia": "PINATI",
+          "qt": 3,
+          "valor": 116.4,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85418",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ORIGINAL 20X30G",
+          "fantasia": "PINATI",
+          "qt": 3,
+          "valor": 116.4,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85418",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS COCO 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 3,
+          "valor": 266.4,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85418",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BANANA AMENDOIM 16X35G",
+          "fantasia": "PINATI",
+          "qt": 8,
+          "valor": 394.44,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85418",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 8,
+          "valor": 394.44,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85418",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR COCO E AMENDOIM 16X35G",
+          "fantasia": "PINATI",
+          "qt": 8,
+          "valor": 401.92,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85418",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 279.24,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85418",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ZERO COCO 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 3,
+          "valor": 266.4,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85418",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ZERO ORIGINAL 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 3,
+          "valor": 266.4,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85418",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI SLIM WHEY BEIJINHO (4) 16X35G",
+          "fantasia": "PINATI",
+          "qt": 8,
+          "valor": 401.92,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85403",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ZERO COCO 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 88.8,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85403",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ZERO ORIGINAL 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 88.8,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85403",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ORIGINAL 20X30G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 38.8,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85403",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BANANA AMENDOIM 16X35G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 197.22,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85403",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 197.22,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85403",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR COCO E AMENDOIM 16X35G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 200.96,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85403",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 69.81,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85403",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI SLIM WHEY BEIJINHO (4) 16X35G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 200.96,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85403",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO ZERO ACUCAR 90G",
+          "fantasia": "DADINHO",
+          "qt": 80,
+          "valor": 717.6,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85403",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM DADINHO ESPEC 198G",
+          "fantasia": "DADINHO",
+          "qt": 30,
+          "valor": 197.7,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85403",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
+          "fantasia": "DADINHO",
+          "qt": 24,
+          "valor": 686.88,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85403",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO BITZ AO LEITE 105G",
+          "fantasia": "DADINHO",
+          "qt": 60,
+          "valor": 229.2,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85403",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS BANANA 20X30G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 38.8,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85403",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS COCO 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 1,
+          "valor": 88.8,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85403",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD 420GR",
+          "fantasia": "DADINHO",
+          "qt": 36,
+          "valor": 609.84,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "85403",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD SACHE 90G",
+          "fantasia": "DADINHO",
+          "qt": 80,
+          "valor": 488.0,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "VINHO LATITUD 33 MALBEC  750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 36,
+          "valor": 1933.44,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "VODKA NATASHA 900ML",
+          "fantasia": "BACARDI",
+          "qt": 120,
+          "valor": 2665.4,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "WHISKY JIM BEAM APPLE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 60,
+          "valor": 5994.0,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 120,
+          "valor": 11988.0,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 240,
+          "valor": 23976.0,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "LATITUD 33 CABERNET SAUVIGNON",
+          "fantasia": "HENNESSY",
+          "qt": 30,
+          "valor": 1611.2,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "EASY BOOZE LATA 24X269ML SPRITZ",
+          "fantasia": "TATUZINHO",
+          "qt": 4,
+          "valor": 532.8,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "EASY BOOZE LATA 24X270ML PINK LEMON",
+          "fantasia": "TATUZINHO",
+          "qt": 15,
+          "valor": 1998.0,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "EASY BOOZE LATA 24X270ML RED MINT",
+          "fantasia": "TATUZINHO",
+          "qt": 10,
+          "valor": 1332.0,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "EASY BOOZE VIDRO 12X275ML BLUEBERRY",
+          "fantasia": "TATUZINHO",
+          "qt": 6,
+          "valor": 445.62,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "EASY BOOZE VIDRO 12X275ML GINGER",
+          "fantasia": "TATUZINHO",
+          "qt": 4,
+          "valor": 297.08,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "EASY BOOZE VIDRO 12X275ML RED MINT",
+          "fantasia": "TATUZINHO",
+          "qt": 9,
+          "valor": 668.43,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "MARTINI BIANCO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 180,
+          "valor": 6415.2,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "MARTINI EXTRA DRY 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 96,
+          "valor": 3421.44,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "MARTINI RISERVA AMBRATTO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 1722.52,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "LICOR BALLENA COCO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 12,
+          "valor": 1572.0,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "LICOR BALLENA MORANGO 750 ML",
+          "fantasia": "BALLENA",
+          "qt": 12,
+          "valor": 1572.0,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "MARTINI ROSATO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 120,
+          "valor": 4276.8,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "LICOR BANANINHA CARIOCA 750ML",
+          "fantasia": "BANANINHA CARIOCA",
+          "qt": 24,
+          "valor": 2280.0,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "MARTINI ROSSO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 120,
+          "valor": 4276.8,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "RUM BACARDI BIG APPLE 700ML",
+          "fantasia": "BACARDI",
+          "qt": 180,
+          "valor": 6415.2,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "TERRAZAS EL YAIMA COSECHA 375ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 1902.24,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "RUM BACARDI GOLD 700ML",
+          "fantasia": "BACARDI",
+          "qt": 180,
+          "valor": 7057.8,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "RUM BACARDI MOJITO 700ML",
+          "fantasia": "BACARDI",
+          "qt": 180,
+          "valor": 6415.2,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "RUM BACARDI SUPERIOR 700ML",
+          "fantasia": "BACARDI",
+          "qt": 180,
+          "valor": 6415.2,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "SAQUE FUJI SECO 740ML",
+          "fantasia": "DIALCOOL",
+          "qt": 30,
+          "valor": 621.3,
           "offtrade": true
         }
       ]
@@ -282489,72 +283439,12 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "21/07/2026",
-          "codcli": "20944",
-          "cliente": "ITAPOA SUPERMERCADO LTDA",
-          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
-          "fantasia": "PINATI",
-          "qt": 5,
-          "valor": 408.0,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "20944",
-          "cliente": "ITAPOA SUPERMERCADO LTDA",
-          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
-          "fantasia": "PINATI",
-          "qt": 5,
-          "valor": 408.0,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "20944",
-          "cliente": "ITAPOA SUPERMERCADO LTDA",
-          "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
-          "fantasia": "PINATI",
-          "qt": 5,
-          "valor": 408.0,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
           "codcli": "78311",
           "cliente": "ITAPOA SUPERMERCADO LTDA.",
           "produto": "SAQUE FUJI SECO 740ML",
           "fantasia": "DIALCOOL",
           "qt": 6,
           "valor": 131.88,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "20941",
-          "cliente": "ITAPOA SUPERMERCADO LTDA",
-          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
-          "fantasia": "PINATI",
-          "qt": 15,
-          "valor": 1224.0,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "20941",
-          "cliente": "ITAPOA SUPERMERCADO LTDA",
-          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
-          "fantasia": "PINATI",
-          "qt": 15,
-          "valor": 1224.0,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "20941",
-          "cliente": "ITAPOA SUPERMERCADO LTDA",
-          "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
-          "fantasia": "PINATI",
-          "qt": 10,
-          "valor": 816.0,
           "offtrade": true
         },
         {
@@ -282625,36 +283515,6 @@ const VENDAS_ES_DATA = {
           "fantasia": "PERNOD",
           "qt": 12,
           "valor": 380.88,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "20942",
-          "cliente": "ITAPOA SUPERMERCADO LTDA",
-          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
-          "fantasia": "PINATI",
-          "qt": 15,
-          "valor": 1224.0,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "20942",
-          "cliente": "ITAPOA SUPERMERCADO LTDA",
-          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
-          "fantasia": "PINATI",
-          "qt": 15,
-          "valor": 1224.0,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "20942",
-          "cliente": "ITAPOA SUPERMERCADO LTDA",
-          "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
-          "fantasia": "PINATI",
-          "qt": 10,
-          "valor": 816.0,
           "offtrade": true
         },
         {
@@ -282849,6 +283709,106 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "28/07/2026",
+          "codcli": "78311",
+          "cliente": "ITAPOA SUPERMERCADO LTDA.",
+          "produto": "ST PIERRE LATA PALOMA LT 270MLX24",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 116.96,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "78311",
+          "cliente": "ITAPOA SUPERMERCADO LTDA.",
+          "produto": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 61.19,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "78311",
+          "cliente": "ITAPOA SUPERMERCADO LTDA.",
+          "produto": "ST PIERRE LATA GINGER LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 116.96,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "78311",
+          "cliente": "ITAPOA SUPERMERCADO LTDA.",
+          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 116.96,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "78311",
+          "cliente": "ITAPOA SUPERMERCADO LTDA.",
+          "produto": "ST PIERRE VIDRO RED MINT LN 275X12",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 61.19,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "20943",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE LATA PALOMA LT 270MLX24",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 116.96,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "20943",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 61.19,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "20943",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE VIDRO GINGER LN 12X275ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 61.19,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "20943",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 116.96,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "20943",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE ZERO LATA PINK LEMON  24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 116.96,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
           "codcli": "20942",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
           "produto": "XAROPE FABBRI AMARENA 560ML",
@@ -282860,16 +283820,6 @@ const VENDAS_ES_DATA = {
         {
           "data": "28/07/2026",
           "codcli": "20944",
-          "cliente": "ITAPOA SUPERMERCADO LTDA",
-          "produto": "XAROPE FABBRI MORANGO 560ML",
-          "fantasia": "FABBRI",
-          "qt": 6,
-          "valor": 221.7,
-          "offtrade": true
-        },
-        {
-          "data": "28/07/2026",
-          "codcli": "20943",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
           "produto": "XAROPE FABBRI MORANGO 560ML",
           "fantasia": "FABBRI",
@@ -282966,6 +283916,406 @@ const VENDAS_ES_DATA = {
           "qt": 20,
           "valor": 816.0,
           "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20947",
+          "cliente": "SUPERMERCADOS CALVI LTDA",
+          "produto": "VINHO GRAVEDAD CAB. SAUV.",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 632.52,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20947",
+          "cliente": "SUPERMERCADOS CALVI LTDA",
+          "produto": "VINHO GRAVEDAD SAUV. BLANC 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 632.52,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20947",
+          "cliente": "SUPERMERCADOS CALVI LTDA",
+          "produto": "VILLA ROSA BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 334.02,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20947",
+          "cliente": "SUPERMERCADOS CALVI LTDA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 334.02,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20947",
+          "cliente": "SUPERMERCADOS CALVI LTDA",
+          "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 12,
+          "valor": 1506.96,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "84121",
+          "cliente": "SUPERMERCADOS CALVI LTDA",
+          "produto": "VILLA ROSA  ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 334.02,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "84121",
+          "cliente": "SUPERMERCADOS CALVI LTDA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 333.84,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "84121",
+          "cliente": "SUPERMERCADOS CALVI LTDA",
+          "produto": "VILLA ROSA BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 334.02,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20938",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE BLUEBERRY LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 233.92,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20938",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE LATA SUGAR FREE LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 109.36,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20938",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE LATA PALOMA LT 270MLX24",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 116.96,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20938",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 122.38,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20938",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE VIDRO GINGER LN 12X275ML",
+          "fantasia": "TATUZINHO",
+          "qt": 3,
+          "valor": 183.57,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20938",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE LATA GINGER LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 116.96,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20938",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 233.92,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20938",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE VIDRO RED MINT LN 275X12",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 122.38,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20938",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 233.92,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20942",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE BLUEBERRY LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 233.92,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE BLUEBERRY LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 233.92,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE LATA PALOMA LT 270MLX24",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 116.96,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20942",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE LATA PALOMA LT 270MLX24",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 116.96,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20942",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 122.38,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20942",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE LATA GINGER LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 116.96,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20942",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 233.92,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20942",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 233.92,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20942",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE VIDRO RED MINT LN 275X12",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 122.38,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 122.38,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE VIDRO GINGER LN 12X275ML",
+          "fantasia": "TATUZINHO",
+          "qt": 3,
+          "valor": 183.57,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE LATA GINGER LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 233.92,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 233.92,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
+          "fantasia": "TATUZINHO",
+          "qt": 3,
+          "valor": 350.88,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE ZERO LATA PINK LEMON  24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 2,
+          "valor": 233.92,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20942",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ST PIERRE ZERO LATA PINK LEMON  24X310ML",
+          "fantasia": "TATUZINHO",
+          "qt": 1,
+          "valor": 116.96,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "84121",
+          "cliente": "SUPERMERCADOS CALVI LTDA",
+          "produto": "VINHO GRAVEDAD CAB. SAUV./ CARMENERE",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 632.52,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20938",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "XAROPE FABBRI MORANGO 560ML",
+          "fantasia": "FABBRI",
+          "qt": 12,
+          "valor": 443.4,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20950",
+          "cliente": "SUPERMERCADOS CALVI LTDA",
+          "produto": "VINHO GRAVEDAD CAB. SAUV.",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 632.52,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20950",
+          "cliente": "SUPERMERCADOS CALVI LTDA",
+          "produto": "VILLA ROSA  ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 334.02,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20950",
+          "cliente": "SUPERMERCADOS CALVI LTDA",
+          "produto": "VINHO GRAVEDAD CARMENERE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 632.52,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20950",
+          "cliente": "SUPERMERCADOS CALVI LTDA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 334.02,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "20947",
+          "cliente": "SUPERMERCADOS CALVI LTDA",
+          "produto": "VINHO GRAVEDAD CAB. SAUV./ CARMENERE",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 632.52,
+          "offtrade": true
         }
       ]
     },
@@ -282999,6 +284349,36 @@ const VENDAS_ES_DATA = {
           "fantasia": "RED BULL",
           "qt": 2,
           "valor": 330.72,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "95767",
+          "cliente": "JUVENAL CESCONETTO",
+          "produto": "RED BULL ZERO  24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 165.36,
+          "offtrade": true
+        },
+        {
+          "data": "28/07/2026",
+          "codcli": "95091",
+          "cliente": "KG COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+          "produto": "NAVEIA BARISTA 12X1L",
+          "fantasia": "NAVEIA",
+          "qt": 2,
+          "valor": 309.4,
+          "offtrade": true
+        },
+        {
+          "data": "29/07/2026",
+          "codcli": "72888",
+          "cliente": "CROWN ITAPARICA LTDA",
+          "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16,
           "offtrade": true
         }
       ]
