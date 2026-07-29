@@ -1,6 +1,6 @@
 """
 Deploy para VPS Hostinger.
-- Sincroniza app.py, utils.py, pages/ (Credito_e_Cadastro, Admin_Metas), .streamlit/
+- Sincroniza app.py, utils.py, pages/ (Credito_e_Cadastro, Admin_Objetivos), .streamlit/
   para /opt/offtrade
 - Reinicia o serviço offtrade
 """
@@ -40,7 +40,7 @@ SYNC_DIRS = [
     ".streamlit",
 ]
 
-# Arquivo de metas (só envia se existir localmente) — usado por Admin_Metas.py
+# Arquivo de metas (só envia se existir localmente) — usado por Admin_Objetivos.py
 OPTIONAL_FILES = [
     "metas_config.json",
 ]

@@ -7,7 +7,7 @@ import streamlit as st
 
 from utils import inject_css, page_header, require_auth, get_conn
 
-st.set_page_config(page_title="Admin — Metas", page_icon="⚙️", layout="wide")
+st.set_page_config(page_title="Admin — Objetivos", page_icon="⚙️", layout="wide")
 inject_css()
 rca = require_auth()
 
@@ -15,7 +15,7 @@ if not rca.get("admin"):
     st.error("Acesso restrito a administradores.")
     st.stop()
 
-page_header("⚙️ Admin — Metas Off Trade", "Cadastro de metas por vendedor e mês")
+page_header("⚙️ Admin — Objetivos Off Trade", "Cadastro de objetivos por vendedor e mês")
 
 METAS_FILE = Path(__file__).parent.parent / "metas_config.json"
 
@@ -82,7 +82,7 @@ mes_key = f"{mes_nome}/{str(ano)[2:]}"
 dados_vendedor = vendedores_existentes.get(nome_sel, {})
 metas_mes      = dados_vendedor.get("metas_por_mes", {}).get(mes_key, {})
 
-st.markdown(f"### Metas de **{nome_sel}** — {mes_key}")
+st.markdown(f"### Objetivos de **{nome_sel}** — {mes_key}")
 
 novos_valores = {}
 cols = st.columns(3)
@@ -98,7 +98,7 @@ for i, (campo, label, is_brl) in enumerate(CAMPOS):
             key=f"{campo}_{nome_sel}_{mes_key}",
         )
 
-if st.button("💾 Salvar metas", type="primary"):
+if st.button("💾 Salvar objetivos", type="primary"):
     cfg = _load()
     vmap = {v["nome"]: v for v in cfg.get("vendedores", [])}
 
@@ -108,14 +108,14 @@ if st.button("💾 Salvar metas", type="primary"):
     vmap[nome_sel].setdefault("metas_por_mes", {})[mes_key] = novos_valores
     cfg["vendedores"] = list(vmap.values())
     _save(cfg)
-    st.success(f"Metas de {nome_sel} para {mes_key} salvas com sucesso!")
+    st.success(f"Objetivos de {nome_sel} para {mes_key} salvos com sucesso!")
     st.cache_data.clear()
 
 st.markdown("---")
-st.markdown("### Metas cadastradas")
+st.markdown("### Objetivos cadastrados")
 if cfg.get("vendedores"):
     for v in cfg["vendedores"]:
         meses_str = ", ".join(sorted(v.get("metas_por_mes", {}).keys()))
         st.markdown(f"- **{v['nome']}** — meses: {meses_str or '(nenhum)'}")
 else:
-    st.info("Nenhuma meta cadastrada ainda.")
+    st.info("Nenhum objetivo cadastrado ainda.")
