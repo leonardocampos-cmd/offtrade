@@ -765,7 +765,7 @@ function buildRing(pctVal, realFmt, metaFmt) {
         <div class="ring-text">
           <div class="ring-pct" style="color:${color}">${pctDisplay}</div>
           <div class="ring-val">${realFmt}</div>
-          <div class="ring-meta">meta ${metaFmt}</div>
+          <div class="ring-meta">objetivo ${metaFmt}</div>
         </div>
       </div>
     </div>`;
@@ -1219,7 +1219,7 @@ function renderVendas(v) {
       <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
         <select id="sel-mes" class="mes-select"
           onchange="_atualizarTabela('${v.nome}')">${opts}</select>
-        <a class="btn" href="?vendedor=${encodeURIComponent(v.nome)}">Ver metas</a>
+        <a class="btn" href="?vendedor=${encodeURIComponent(v.nome)}">Ver objetivos</a>
       </div>
     </div>
 
@@ -1491,17 +1491,17 @@ function buildPernodDashboardHTML(realiz) {
         <div class="pernod-kpi">
           <div class="pernod-kpi-label">Positivação</div>
           <div class="pernod-kpi-val">${fmtN(posPernod)}</div>
-          <div class="pernod-kpi-sub">de ${fmtN(META_POS)} meta</div>
+          <div class="pernod-kpi-sub">de ${fmtN(META_POS)} objetivo</div>
         </div>
         <div class="pernod-kpi">
           <div class="pernod-kpi-label">TDP</div>
           <div class="pernod-kpi-val">${fmtN(paresCount)}</div>
-          <div class="pernod-kpi-sub">de ${fmtN(META_TDP)} meta</div>
+          <div class="pernod-kpi-sub">de ${fmtN(META_TDP)} objetivo</div>
         </div>
         <div class="pernod-kpi">
           <div class="pernod-kpi-label">SKUs / PDV</div>
           <div class="pernod-kpi-val">${fmtF(skuPDV, 1)}</div>
-          <div class="pernod-kpi-sub">meta ${fmtF(META_SKU, 1)}</div>
+          <div class="pernod-kpi-sub">objetivo ${fmtF(META_SKU, 1)}</div>
         </div>
       </div>
       <div class="pernod-efic">
@@ -1755,7 +1755,7 @@ function buildCampanhaDetail(v, mes) {
         const atingiu = val >= metaInd && metaInd > 0;
 
         posicaoHtml = metaInd === 0
-          ? `<span class="campanha-rank-fora">Sem meta definida</span>`
+          ? `<span class="campanha-rank-fora">Sem objetivo definido</span>`
           : `<span class="campanha-rank-val">${fmtFat(val)} / ${fmtFat(metaInd)}</span>
              <span class="metric-pct pct-${cls2}" style="font-size:0.75rem">${pctDisp}%</span>`;
 
