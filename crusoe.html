@@ -354,7 +354,7 @@
         { label: 'Novos SKUs', val: r => r.novos_skus, pts: r => r.pontos_novos_skus },
         { label: 'Reativações', val: r => r.reativacoes, pts: r => r.pontos_reativacoes },
         {
-          label: 'Meta', pts: r => r.pontos_meta, nd: r => !r.meta_definida,
+          label: 'Objetivo', pts: r => r.pontos_meta, nd: r => !r.meta_definida,
           val: r => r.meta_definida
             ? (r.meta_atingida ? '✅ Batida' : `${fmtMoeda(r.faturamento)} / ${fmtMoeda(r.meta_valor)}`)
             : 'N/D',

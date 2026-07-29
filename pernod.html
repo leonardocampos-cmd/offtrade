@@ -149,7 +149,7 @@
 
       document.getElementById('kpis').innerHTML = [
         { label:'Positivacao Total',     val: posTotal.toLocaleString('pt-BR'), sub:'PDVs com Pernod' },
-        { label:'TDP (SKU × PDV)',       val: tdpTotal.toLocaleString('pt-BR'), sub:`meta ${(1320).toLocaleString('pt-BR')}` },
+        { label:'TDP (SKU × PDV)',       val: tdpTotal.toLocaleString('pt-BR'), sub:`objetivo ${(1320).toLocaleString('pt-BR')}` },
         { label:'Bonus Total Gerado',    val: fmtFat(bonusTotal),               sub:'pela equipe' },
       ].map(k => `
         <div class="kpi">

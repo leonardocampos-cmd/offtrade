@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ranking de Metas — OfftradeHub</title>
+  <title>Ranking de Objetivos — OfftradeHub</title>
   <script src="auth.js"></script>
   <script src="metas_data.js"></script>
   <style>
@@ -84,7 +84,7 @@
 
     if (emailAtual !== EMAIL_PERMITIDO) {
       document.getElementById('conteudo').innerHTML = `
-        <div class="titulo">Ranking de Metas</div>
+        <div class="titulo">Ranking de Objetivos</div>
         <div class="bloqueado">Esta página é restrita.</div>
       `;
     } else {
@@ -101,8 +101,8 @@
       }
 
       document.getElementById('conteudo').innerHTML = `
-        <div class="titulo">Ranking de Metas</div>
-        <div class="atualizacao">Atualizado em ${data.atualizado_em} · faturamento total (fat_tt), % da meta atingida</div>
+        <div class="titulo">Ranking de Objetivos</div>
+        <div class="atualizacao">Atualizado em ${data.atualizado_em} · faturamento total (fat_tt), % do objetivo atingido</div>
         <div class="filtro-item">
           <label for="sel-mes">Mês</label>
           <select id="sel-mes">${data.meses.map(m => `<option value="${m}">${m}</option>`).join('')}</select>

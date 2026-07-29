@@ -4,7 +4,7 @@
   <script src="vps_redirect.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Metas OFF TRADE RJ</title>
+  <title>Objetivos OFF TRADE RJ</title>
   <script src="metas_data.js"></script>
   <script src="vendas_data.js"></script>
   <script src="amarula_data.js"></script>
@@ -699,7 +699,7 @@
 <header>
   <div class="header-title">
     <h1 style="color:#3b82f6;font-size:1.1rem;font-weight:700;letter-spacing:.04em">METAS OFF TRADE RIO DE JANEIRO</h1>
-    <p id="header-sub">Acompanhamento de Metas</p>
+    <p id="header-sub">Acompanhamento de Objetivos</p>
   </div>
   <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
     <a class="btn" href="index.html">&#8962; Home</a>
@@ -897,7 +897,7 @@ function buildPrevisao(v, pm) {
           ${duRestantes > 0 ? `
           <div class="prev-row">
             <span class="prev-row-label">Necessário por dia (${duRestantes} dias)</span>
-            <span class="prev-row-val" style="color:${fatNecColor}">${fatNecDia <= 0 ? '✓ Meta atingida' : fmtFat(fatNecDia)}</span>
+            <span class="prev-row-val" style="color:${fatNecColor}">${fatNecDia <= 0 ? '✓ Objetivo atingido' : fmtFat(fatNecDia)}</span>
           </div>` : ''}
         </div>
         <div class="prev-box">
@@ -913,7 +913,7 @@ function buildPrevisao(v, pm) {
           ${duRestantes > 0 ? `
           <div class="prev-row">
             <span class="prev-row-label">Necessário por dia (${duRestantes} dias)</span>
-            <span class="prev-row-val" style="color:${posNecColor}">${posNecDia <= 0 ? '✓ Meta atingida' : Number(posNecDia).toFixed(1) + ' clientes'}</span>
+            <span class="prev-row-val" style="color:${posNecColor}">${posNecDia <= 0 ? '✓ Objetivo atingido' : Number(posNecDia).toFixed(1) + ' clientes'}</span>
           </div>` : ''}
         </div>
       </div>
@@ -1078,19 +1078,19 @@ function downloadCSV(v, mes) {
 
   const rows = [];
 
-  rows.push([`RELATÓRIO DE METAS${sep}${v.nome}${sep}RCA ${v.rca}`]);
+  rows.push([`RELATÓRIO DE OBJETIVOS${sep}${v.nome}${sep}RCA ${v.rca}`]);
   rows.push([`Mês${sep}${mes}`]);
   rows.push([`Atualizado em${sep}${atualizado}`]);
   rows.push(['']);
 
-  rows.push([`FATURAMENTO${sep}Meta${sep}Realizado${sep}%`]);
+  rows.push([`FATURAMENTO${sep}Objetivo${sep}Realizado${sep}%`]);
   rows.push([`Total${sep}${numBR(meta('fat_tt'))}${sep}${numBR(fat('fat_tt'))}${sep}${pctStr(fat('fat_tt'), meta('fat_tt'))}`]);
   rows.push([`Castas${sep}${numBR(meta('fat_castas'))}${sep}${numBR(fat('fat_castas'))}${sep}${pctStr(fat('fat_castas'), meta('fat_castas'))}`]);
   if (meta('fat_domecq_passport') > 0) rows.push([`Domecq + Passport${sep}${numBR(meta('fat_domecq_passport'))}${sep}${numBR(fat('fat_domecq_passport'))}${sep}${pctStr(fat('fat_domecq_passport'), meta('fat_domecq_passport'))}`]);
   rows.push([`${meta('fat_domecq_passport') > 0 ? 'HOB + Azeite' : 'Azeite + Zé Tona'}${sep}${numBR(meta('fat_hob_azeite'))}${sep}${numBR(fat('fat_hob_azeite'))}${sep}${pctStr(fat('fat_hob_azeite'), meta('fat_hob_azeite'))}`]);
   rows.push(['']);
 
-  rows.push([`POSITIVAÇÃO${sep}Meta${sep}Realizado${sep}%`]);
+  rows.push([`POSITIVAÇÃO${sep}Objetivo${sep}Realizado${sep}%`]);
   rows.push([`Total${sep}${meta('pos_tt')}${sep}${fat('pos_tt')}${sep}${pctStr(fat('pos_tt'), meta('pos_tt'))}`]);
   rows.push([`HOB + Azeite${sep}${meta('pos_hob_azeite')}${sep}${fat('pos_hob_azeite')}${sep}${pctStr(fat('pos_hob_azeite'), meta('pos_hob_azeite'))}`]);
   rows.push([`Reckitt${sep}${meta('pos_reckit')}${sep}${fat('pos_reckit')}${sep}${pctStr(fat('pos_reckit'), meta('pos_reckit'))}`]);
@@ -1314,7 +1314,7 @@ function renderDetail(v, mes) {
     if (!_duRestantes || !m(campo)) return '';
     const necDia = (m(campo) - r(campo)) / _duRestantes;
     const cor = necDia <= 0 ? 'var(--green)' : 'var(--text)';
-    const txt = necDia <= 0 ? '&#10003; Meta atingida' : `Necess./dia (${_duRestantes}d): ${fmt(necDia)}`;
+    const txt = necDia <= 0 ? '&#10003; Objetivo atingido' : `Necess./dia (${_duRestantes}d): ${fmt(necDia)}`;
     return `<div style="font-size:.68rem;color:${cor};margin-top:2px">${txt}</div>`;
   };
 
@@ -1334,7 +1334,7 @@ function renderDetail(v, mes) {
   const metasHtml = `
     <div class="detail-card">
       <div class="sec-header" onclick="toggleSec('sec-metas')">
-        <div class="sec-title" style="color:var(--accent)">Metas</div>
+        <div class="sec-title" style="color:var(--accent)">Objetivos</div>
         <span id="sec-metas-ic" class="sec-ic open">&#9660;</span>
       </div>
       <div id="sec-metas" class="sec-body open">
@@ -1886,7 +1886,7 @@ function buildMovingDetail(v, mes) {
     <div class="campanha-detail-box" style="border-color:#10b98155;background:#0c1f18">
       <div class="campanha-detail-title" style="color:#10b981">Campanha Moving &middot; 01/06–30/06/2026</div>
       <div class="campanha-detail-row">
-        <span style="color:var(--muted);font-size:0.78rem">Fat. Moving · Meta ${fmtFat(metaInd)}</span>
+        <span style="color:var(--muted);font-size:0.78rem">Fat. Moving · Objetivo ${fmtFat(metaInd)}</span>
         <span style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;justify-content:flex-end">
           <span class="campanha-rank-val">${fmtFat(fatReal)}</span>
           <span class="metric-pct pct-${cls}" style="font-size:0.7rem">${pctDisp}%</span>
@@ -1931,7 +1931,7 @@ function buildCrusoeDetail(v, mes) {
     linha('Novos SKUs', `${entry.novos_skus} <span style="color:var(--muted);font-size:.72rem">(${entry.pontos_novos_skus} pts)</span>`);
     linha('Reativações', `${entry.reativacoes} <span style="color:var(--muted);font-size:.72rem">(${entry.pontos_reativacoes} pts)</span>`);
     if (entry.meta_definida) {
-      linha('Meta faturamento', `${entry.meta_atingida ? '✓ batida' : 'não batida'} <span style="color:var(--muted);font-size:.72rem">(${entry.pontos_meta} pts)</span>`);
+      linha('Objetivo faturamento', `${entry.meta_atingida ? '✓ batida' : 'não batida'} <span style="color:var(--muted);font-size:.72rem">(${entry.pontos_meta} pts)</span>`);
     }
   } else if (time.id === 'ATACAREJO') {
     linha('Positivações', `${entry.positivacoes} <span style="color:var(--muted);font-size:.72rem">(${entry.pontos_positivacao} pts)</span>`);
@@ -2037,12 +2037,12 @@ function _buildResumoEquipe(vendedores, mes) {
       <div class="vendas-resumo-box">
         <div class="vendas-resumo-label">Faturamento Total</div>
         <div class="vendas-resumo-val">${fmtFat(totalFat)}</div>
-        ${totalFatMeta ? `<div style="font-size:.7rem;color:var(--muted);margin-top:2px">Meta: ${fmtFat(totalFatMeta)}</div>` : ''}
+        ${totalFatMeta ? `<div style="font-size:.7rem;color:var(--muted);margin-top:2px">Objetivo: ${fmtFat(totalFatMeta)}</div>` : ''}
       </div>
       <div class="vendas-resumo-box">
         <div class="vendas-resumo-label">Positivação</div>
         <div class="vendas-resumo-val">${fmtPos(totalPos)} clientes</div>
-        ${totalPosMeta ? `<div style="font-size:.7rem;color:var(--muted);margin-top:2px">Meta: ${Math.round(totalPosMeta)} clientes</div>` : ''}
+        ${totalPosMeta ? `<div style="font-size:.7rem;color:var(--muted);margin-top:2px">Objetivo: ${Math.round(totalPosMeta)} clientes</div>` : ''}
       </div>
       <div class="vendas-resumo-box">
         <div class="vendas-resumo-label">Cadastros no mês</div>
@@ -2067,7 +2067,7 @@ function _metaKpi(label, real, meta, tipo) {
   return `<div class="meta-kpi">
     <div class="meta-kpi-label">${label}</div>
     <div class="meta-kpi-vals pct-${cls}">${fmt(real, tipo)}</div>
-    <div class="meta-kpi-sub">Meta: ${fmt(meta, tipo)} &middot; <span class="pct-${cls}">${p}%</span></div>
+    <div class="meta-kpi-sub">Objetivo: ${fmt(meta, tipo)} &middot; <span class="pct-${cls}">${p}%</span></div>
     <div class="bar-bg" style="margin-top:6px"><div class="bar-fill bar-${cls}" style="width:${Math.min(p,100)}%"></div></div>
   </div>`;
 }

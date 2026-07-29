@@ -252,7 +252,7 @@
         <div class="kpi-card">
           <div class="kpi-label">${label}</div>
           <div class="kpi-value">${fmt(real)}${unit ? ' <span style="font-size:.9rem;font-weight:400;color:var(--muted)">' + unit + '</span>' : ''}</div>
-          <div class="kpi-meta">Meta: ${fmt(meta)}</div>
+          <div class="kpi-meta">Objetivo: ${fmt(meta)}</div>
           <div class="kpi-pct ${cClass(p)}">${p}%</div>
           <div class="bar-bg"><div class="bar-fill ${barClass(p)}" style="width:${w}%"></div></div>
         </div>`;
@@ -266,7 +266,7 @@
         <div class="mini-card">
           <div class="mini-label">${label}</div>
           <div class="mini-val">${fmt(real)}${unit ? ' <span style="font-size:.7rem;color:var(--muted)">' + unit + '</span>' : ''}</div>
-          ${meta > 0 ? `<div class="mini-meta">Meta: ${fmt(meta)}</div>
+          ${meta > 0 ? `<div class="mini-meta">Objetivo: ${fmt(meta)}</div>
           <div class="mini-bar-bg"><div class="mini-bar-fill ${barClass(p)}" style="width:${w}%"></div></div>
           <div class="mini-pct ${cClass(p)}">${p}%</div>` : ''}
         </div>`;
@@ -331,7 +331,7 @@
               <div>
                 <div style="font-size:.68rem;color:#6b9e8a;text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px">Faturamento Moving</div>
                 <div style="font-size:1.5rem;font-weight:800;color:#e4f5ee">${brl(realMov)}</div>
-                <div style="font-size:.78rem;color:#6b9e8a;margin-top:2px">Meta: ${brl(metaMov)}</div>
+                <div style="font-size:.78rem;color:#6b9e8a;margin-top:2px">Objetivo: ${brl(metaMov)}</div>
               </div>
               <div style="text-align:right">
                 <div style="font-size:.68rem;color:#6b9e8a;text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px">Prêmio estimado</div>
@@ -340,7 +340,7 @@
               </div>
             </div>
             <div style="display:flex;justify-content:space-between;font-size:.75rem;margin-bottom:5px">
-              <span style="color:#6b9e8a">${pctMov}% da meta individual</span>
+              <span style="color:#6b9e8a">${pctMov}% do objetivo individual</span>
             </div>
             <div style="background:#162b22;border-radius:99px;height:7px;overflow:hidden;margin-bottom:14px">
               <div style="height:100%;border-radius:99px;width:${wMov}%;background:${clsMov==='green'?'#4ade80':clsMov==='yellow'?'#eab308':'#ef4444'};transition:width .8s ease"></div>
@@ -390,10 +390,10 @@
               <tr>
                 <th>Mês</th>
                 <th>Fat. Total</th>
-                <th>Meta Fat.</th>
+                <th>Objetivo Fat.</th>
                 <th>%</th>
                 <th>Posit.</th>
-                <th>Meta Pos.</th>
+                <th>Objetivo Pos.</th>
                 <th>%</th>
               </tr>
             </thead>

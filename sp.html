@@ -478,7 +478,7 @@ function _metaKpi(label, real, meta) {
   return '<div class="meta-kpi">' +
     '<div class="meta-kpi-label">' + label + '</div>' +
     '<div class="meta-kpi-vals ' + cls + '">' + fmtFat(real) + '</div>' +
-    '<div class="meta-kpi-sub">Meta: ' + fmtFat(meta) + ' &middot; <span class="' + cls + '">' + p + '%</span></div>' +
+    '<div class="meta-kpi-sub">Objetivo: ' + fmtFat(meta) + ' &middot; <span class="' + cls + '">' + p + '%</span></div>' +
     _metaBar(real, meta, '') +
   '</div>';
 }
@@ -577,12 +577,12 @@ function _buildVendorCards(mes) {
         '<span class="stat-val" style="color:var(--muted)">' + fmtFat(fatAnt) + '</span></div>' : '') +
       (fatAnoAnt ? '<div class="stat-row"><span class="stat-label">Mesmo mes ano anterior</span>' +
         '<span class="stat-val" style="color:var(--muted)">' + fmtFat(fatAnoAnt) + varHtml(realFat, fatAnoAnt) + '</span></div>' : '') +
-      (metaFat ? _metaBar(realFat, metaFat, 'Fat. vs Meta') : '') +
+      (metaFat ? _metaBar(realFat, metaFat, 'Fat. vs Objetivo') : '') +
       '<div class="stat-row" style="margin-top:' + (metaFat ? '8px' : '0') + '">' +
         '<span class="stat-label">Positivados</span>' +
         '<span class="stat-val">' + realPos + (metaPos ? ' <span style="font-size:.7rem;color:var(--muted)">/ ' + metaPos + '</span>' : '') + '</span>' +
       '</div>' +
-      (metaPos ? _metaBar(realPos, metaPos, 'Pos. vs Meta') : '') +
+      (metaPos ? _metaBar(realPos, metaPos, 'Pos. vs Objetivo') : '') +
       '<div class="sec-header" onclick="toggleSec(\'' + secId + '\')" style="padding:6px 0;margin-top:4px">' +
         '<div>' +
           '<span class="sec-title">Não positivados</span>' +
@@ -626,12 +626,12 @@ function _atualizarTabelaSP(nome) {
   var fatAnoAnt = real.fat_ano_ant || 0;
   document.getElementById('vendas-kpis').innerHTML =
     '<div><div class="kpi-label">Faturamento</div><div class="kpi-val">' + fmtFat(fat) + '</div>' +
-      (meta && meta.fat ? '<div style="font-size:.7rem;color:var(--muted)">Meta: ' + fmtFat(meta.fat) + '</div>' : '') +
+      (meta && meta.fat ? '<div style="font-size:.7rem;color:var(--muted)">Objetivo: ' + fmtFat(meta.fat) + '</div>' : '') +
       (fatAnt ? '<div style="font-size:.7rem;color:var(--muted)">Ant: ' + fmtFat(fatAnt) + ' ' + varHtml(fat, fatAnt) + '</div>' : '') +
       (fatAnoAnt ? '<div style="font-size:.7rem;color:var(--muted)">Mesmo mes ano anterior: ' + fmtFat(fatAnoAnt) + ' ' + varHtml(fat, fatAnoAnt) + '</div>' : '') + '</div>' +
     '<div><div class="kpi-label">Itens</div><div class="kpi-val">' + qt.toLocaleString('pt-BR') + '</div></div>' +
     '<div><div class="kpi-label">Positivados</div><div class="kpi-val">' + (real.pos !== undefined ? real.pos : nCli) + '</div>' +
-      (meta && meta.pos ? '<div style="font-size:.7rem;color:var(--muted)">Meta: ' + meta.pos + '</div>' : '') + '</div>';
+      (meta && meta.pos ? '<div style="font-size:.7rem;color:var(--muted)">Objetivo: ' + meta.pos + '</div>' : '') + '</div>';
 
   var metasHtml = '';
   if (meta) {
