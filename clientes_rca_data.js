@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "30/07/2026 12:15",
-  "total": 22303,
+  "atualizado_em": "30/07/2026 13:37",
+  "total": 22304,
   "clientes": [
     {
       "codcli": "38586",
@@ -96758,6 +96758,22 @@ const CLIENTES_RCA_DATA = {
     {
       "codcli": "73653",
       "razao": "CHARLES SILVA DE AQUINO 15692489740",
+      "fantasia": "CHARLES SILVA DE AQUINO",
+      "bairro": "SANTA CRUZ",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "32.318.521/0001-88",
+      "estado": "RJ",
+      "ramo": "BAR",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "147",
+      "nome_usur1": "THIAGO MENDES",
+      "codusur2": "419",
+      "nome_usur2": "NÁTALI DE OLIVEIRA - OFF TRADE"
+    },
+    {
+      "codcli": "73653",
+      "razao": "CHARLES SILVA DE AQUINO 15692489740",
       "fantasia": "DEPOSITO PAI E FILHO",
       "bairro": "SANTA CRUZ",
       "cidade": "RIO DE JANEIRO",
@@ -124000,8 +124016,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "344",
       "nome_usur1": "TIAGO ANDRADE - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "549",
+      "nome_usur2": "FERNANDO GOMES"
     },
     {
       "codcli": "51147",
@@ -237150,10 +237166,10 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MINI-MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "471",
-      "nome_usur2": "ANA CLARA FASSANO - OFF TRADE"
+      "codusur1": "378",
+      "nome_usur1": "FABIO VALOTTI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "46125",
@@ -283296,22 +283312,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "496",
       "nome_usur1": "DEMETRIUS PELEGRINI - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "37280",
-      "razao": "PUG'S BURGUER LTDA",
-      "fantasia": "PUG'S BURGER",
-      "bairro": "LINDÉIA (BARREIRO)",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "30.829.906/0001-84",
-      "estado": "MG",
-      "ramo": "LANCHONETE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -356578,6 +356578,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "82191",
+      "razao": "ZOLA PIZZARIA SANTA TEREZA LTDA",
+      "fantasia": "ZOLA PIZZARIA SANTA TEREZA",
+      "bairro": "SANTA TERESA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "53.693.963/0001-84",
+      "estado": "RJ",
+      "ramo": "CAFE/LANCHONETE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "10",
+      "nome_usur1": "INATIVO3",
+      "codusur2": "316",
+      "nome_usur2": "RODRIGO FREITAS"
     },
     {
       "codcli": "85801",
