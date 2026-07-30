@@ -755,7 +755,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6946",
           "data_agendamento": "27/07/2026",
           "data_ord": "2026-07-27",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "Pg em dinheiro",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -769,7 +769,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6947",
           "data_agendamento": "27/07/2026",
           "data_ord": "2026-07-27",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -2893,7 +2893,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6949",
           "data_agendamento": "27/07/2026",
           "data_ord": "2026-07-27",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "Pagamento de descarga apenas por DINHEIRO - Caixas e rótulos íntegros.",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -5951,11 +5951,11 @@ const AGENDAMENTO_DATA = {
           "cliente": "MERCADOS UNIDOS",
           "cnpj": "64.934.380/0002-10",
           "filial": "GUARATIBA",
-          "valor": 9740.2,
-          "nf": "",
+          "valor": 9456.6,
+          "nf": "6997",
           "data_agendamento": "29/07/2026",
           "data_ord": "2026-07-29",
-          "status": "A FATURAR",
+          "status": "ENTREGUE",
           "obs": "Caixas e rótulos íntegros;",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -5969,7 +5969,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6978",
           "data_agendamento": "28/07/2026",
           "data_ord": "2026-07-28",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -5983,7 +5983,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6948",
           "data_agendamento": "27/07/2026",
           "data_ord": "2026-07-27",
-          "status": "EM ROTA",
+          "status": "CANCELADO",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -16787,6 +16787,48 @@ const AGENDAMENTO_DATA = {
       "nome": "LEANDRO SOUZA - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "80353",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "cnpj": "18.322.565/0005-84",
+          "filial": "FONSECA",
+          "valor": 933.24,
+          "nf": "6976",
+          "data_agendamento": "31/07/2026",
+          "data_ord": "2026-07-31",
+          "status": "FATURADO",
+          "obs": "CONTATO 21974318449 (VITORIA)",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "80354",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "cnpj": "18.322.565/0004-01",
+          "filial": "MARICÁ",
+          "valor": 529.8,
+          "nf": "6972",
+          "data_agendamento": "31/07/2026",
+          "data_ord": "2026-07-31",
+          "status": "FATURADO",
+          "obs": "CONTATO 21974318449 (VITORIA)",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "69759",
+          "cliente": "MORAES E CIA COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
+          "cnpj": "24.305.769/0001-86",
+          "filial": "ITABORAI",
+          "valor": 1022.4,
+          "nf": "6996",
+          "data_agendamento": "31/07/2026",
+          "data_ord": "2026-07-31",
+          "status": "A FATURAR",
+          "obs": "EMBARCAR AS CAIXAS ORIGINAIS E ÍNTEGRAS",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "60083",
           "cliente": "TOP MIX ATACAREJO EIRELI",
           "cnpj": "34.747.967/0001-53",
@@ -16815,20 +16857,6 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "69759",
-          "cliente": "MORAES E CIA COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
-          "cnpj": "24.305.769/0001-86",
-          "filial": "ITABORAI",
-          "valor": 2698.8,
-          "nf": "",
-          "data_agendamento": "29/07/2026",
-          "data_ord": "2026-07-29",
-          "status": "A FATURAR",
-          "obs": "EMBARCAR AS CAIXAS ORIGINAIS E ÍNTEGRAS",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
           "codigo_cliente": "58584",
           "cliente": "SUPERMARKET - ALVORADA",
           "cnpj": "17.833.301/0001-07",
@@ -16837,22 +16865,8 @@ const AGENDAMENTO_DATA = {
           "nf": "6950",
           "data_agendamento": "28/07/2026",
           "data_ord": "2026-07-28",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "DESCARGA: R$20,00 P/ PALLET - R$1,00 POR BATIDA - R$25,00 POR PALLET PALETIZADO",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "80353",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "cnpj": "18.322.565/0005-84",
-          "filial": "FONSECA",
-          "valor": 933.24,
-          "nf": "6976",
-          "data_agendamento": "28/07/2026",
-          "data_ord": "2026-07-28",
-          "status": "EM ROTA",
-          "obs": "CONTATO 21974318449 (VITORIA)",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -16865,7 +16879,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6973",
           "data_agendamento": "28/07/2026",
           "data_ord": "2026-07-28",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "CONTATO 21974318449 (VITORIA)",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -16879,7 +16893,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6971",
           "data_agendamento": "28/07/2026",
           "data_ord": "2026-07-28",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "CONTATO 21974318449 (VITORIA)",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -16893,21 +16907,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6970",
           "data_agendamento": "28/07/2026",
           "data_ord": "2026-07-28",
-          "status": "EM ROTA",
-          "obs": "CONTATO 21974318449 (VITORIA)",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "80354",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "cnpj": "18.322.565/0004-01",
-          "filial": "MARICÁ",
-          "valor": 529.8,
-          "nf": "6972",
-          "data_agendamento": "28/07/2026",
-          "data_ord": "2026-07-28",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "CONTATO 21974318449 (VITORIA)",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -16921,7 +16921,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6974",
           "data_agendamento": "28/07/2026",
           "data_ord": "2026-07-28",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "CONTATO 21974318449 (VITORIA)",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -16935,7 +16935,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6975",
           "data_agendamento": "28/07/2026",
           "data_ord": "2026-07-28",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "CONTATO 21974318449 (VITORIA)",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -16949,7 +16949,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6977",
           "data_agendamento": "28/07/2026",
           "data_ord": "2026-07-28",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "CONTATO 21974318449 (VITORIA)",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -21416,7 +21416,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6981",
           "data_agendamento": "28/07/2026",
           "data_ord": "2026-07-28",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "IR CARRO DEDICADO SOMENTE COM A MERCADORIA DESTE MERCADO  \n1) Carga paletizada (Não pode misturar produtos diferentes no pallet);\n2) Chegar com 2 horas de antecedência - avisar a logística que não pode haver atraso - a assistente de compras foi desligada e caso haja algum problema não tem como resolver na hora!!\n3) Caixas e rótulos em perfeito estado, o mercado não recebe produtos com embalagens danificadas;\n4) Não esquecer de colocar a cobrança da descarga.",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -21430,7 +21430,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6923",
           "data_agendamento": "28/07/2026",
           "data_ord": "2026-07-28",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "IR CARRO DEDICADO SOMENTE COM A MERCADORIA DESTE MERCADO  \n1) Carga paletizada (Não pode misturar produtos diferentes no pallet);\n2) Chegar com 2 horas de antecedência - avisar a logística que não pode haver atraso - a assistente de compras foi desligada e caso haja algum problema não tem como resolver na hora!!\n3) Caixas e rótulos em perfeito estado, o mercado não recebe produtos com embalagens danificadas;\n4) Não esquecer de colocar a cobrança da descarga.",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -21444,7 +21444,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6961",
           "data_agendamento": "28/07/2026",
           "data_ord": "2026-07-28",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO ELETRONICAMENTE",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -24748,7 +24748,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "30/07/2026 11:14",
+  "atualizado_em": "30/07/2026 12:12",
   "comparativo": [
     {
       "msg_id": "19f8f0d0054f43bd",
