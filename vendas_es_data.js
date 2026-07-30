@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "29/07/2026 20:31",
+  "atualizado_em": "30/07/2026 11:16",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -607,7 +607,7 @@ const VENDAS_ES_DATA = {
         "fat_ano_ant": 0.0
       },
       "Jul/26": {
-        "fat": 429519.94,
+        "fat": 430925.63,
         "pos": 35,
         "fat_ant": 89348.53,
         "fat_ano_ant": 105352.76
@@ -228149,6 +228149,16 @@ const VENDAS_ES_DATA = {
           "fantasia": "DIALCOOL",
           "qt": 30,
           "valor": 621.3,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "74376",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "produto": "CACHACA JOIA DA SERRA TRADICIONAL 1L",
+          "fantasia": "HOB",
+          "qt": 36,
+          "valor": 1405.69,
           "offtrade": true
         }
       ]
