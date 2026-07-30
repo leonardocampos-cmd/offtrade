@@ -1,6 +1,4 @@
 const FONTES_STATUS_DATA = {
-  "atualizado_em": "29/07/2026 11:34",
-  "fontes_indisponiveis": [
-    "CASTAS"
-  ]
+  "atualizado_em": "30/07/2026 10:03",
+  "fontes_indisponiveis": []
 };
