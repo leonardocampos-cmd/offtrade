@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "30/07/2026 17:23",
+  "atualizado_em": "30/07/2026 17:57",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -107,8 +107,8 @@ const VENDAS_ES_DATA = {
         "fat_ano_ant": 0.0
       },
       "Jul/26": {
-        "fat": 233.28,
-        "pos": 8,
+        "fat": 262.44,
+        "pos": 9,
         "fat_ant": 0.0,
         "fat_ano_ant": 21954.0
       }
@@ -265,6 +265,12 @@ const VENDAS_ES_DATA = {
         "pos": 16,
         "fat_ant": 94203.0,
         "fat_ano_ant": 0.0
+      },
+      "Jul/26": {
+        "fat": 58.32,
+        "pos": 2,
+        "fat_ant": 29330.7,
+        "fat_ano_ant": 69944.72
       }
     },
     "LUCAS LIMA": {
@@ -613,7 +619,7 @@ const VENDAS_ES_DATA = {
         "fat_ano_ant": 0.0
       },
       "Jul/26": {
-        "fat": 444559.79,
+        "fat": 451060.29,
         "pos": 36,
         "fat_ant": 89348.53,
         "fat_ano_ant": 105352.76
@@ -687,8 +693,8 @@ const VENDAS_ES_DATA = {
         "fat_ano_ant": 0.0
       },
       "Jul/26": {
-        "fat": 29.16,
-        "pos": 1,
+        "fat": 58.32,
+        "pos": 2,
         "fat_ant": 3086.65,
         "fat_ano_ant": 0.0
       }
@@ -45816,6 +45822,16 @@ const VENDAS_ES_DATA = {
           "codcli": "71690",
           "cliente": "HOTEL JARDINS LTDA.",
           "produto": "4 PACK RED BULL 250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "73065",
+          "cliente": "SPAZZIO ACADEMIA LTDA",
+          "produto": "4 PACK RED BULL MELÃO C/ MARACUJA",
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 29.16,
@@ -118043,6 +118059,28 @@ const VENDAS_ES_DATA = {
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 162.96,
+          "offtrade": true
+        }
+      ],
+      "Jul/26": [
+        {
+          "data": "30/07/2026",
+          "codcli": "87126",
+          "cliente": "ERA DO GELO DISTRIBUIDORA DE BEBIDAS E MERCADO LTDA",
+          "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "82386",
+          "cliente": "RIVA SERVICOS LTDA",
+          "produto": "4 PACK RED BULL TROPICAL 4X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16,
           "offtrade": true
         }
       ]
@@ -228321,6 +228359,146 @@ const VENDAS_ES_DATA = {
         },
         {
           "data": "30/07/2026",
+          "codcli": "85420",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD 420GR",
+          "fantasia": "DADINHO",
+          "qt": 36,
+          "valor": 609.84,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "85420",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO TRAD SACHE 90G",
+          "fantasia": "DADINHO",
+          "qt": 80,
+          "valor": 488.0,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "85420",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO ZERO ACUCAR 90G",
+          "fantasia": "DADINHO",
+          "qt": 80,
+          "valor": 717.6,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "85420",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM DADINHO ESPEC 198G",
+          "fantasia": "DADINHO",
+          "qt": 60,
+          "valor": 395.4,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "85420",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ORIGINAL 20X30G",
+          "fantasia": "PINATI",
+          "qt": 6,
+          "valor": 232.8,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "85420",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ZERO COCO 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 355.2,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "85420",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS ZERO ORIGINAL 16X4X25G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 355.2,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "85420",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BANANA AMENDOIM 16X35G",
+          "fantasia": "PINATI",
+          "qt": 16,
+          "valor": 788.88,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "85420",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
+          "fantasia": "PINATI",
+          "qt": 16,
+          "valor": 788.88,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "85420",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
+          "fantasia": "DADINHO",
+          "qt": 24,
+          "valor": 686.88,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "85420",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "DP DADINHO BITZ AO LEITE 105G",
+          "fantasia": "DADINHO",
+          "qt": 60,
+          "valor": 229.2,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "85420",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI NUTS BANANA 20X30G",
+          "fantasia": "PINATI",
+          "qt": 6,
+          "valor": 232.8,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "85420",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DOUBLE BAR COCO E AMENDOIM 16X35G",
+          "fantasia": "PINATI",
+          "qt": 4,
+          "valor": 200.96,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "85420",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
+          "fantasia": "PINATI",
+          "qt": 6,
+          "valor": 418.86,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
           "codcli": "74376",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
           "produto": "CACHACA JOIA DA SERRA TRADICIONAL 1L",
@@ -243809,6 +243987,16 @@ const VENDAS_ES_DATA = {
           "data": "23/07/2026",
           "codcli": "76386",
           "cliente": "P. E. L. BAR BAZONI LTDA",
+          "produto": "4 PACK RED BULL MORANGO PESSEGO",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "79415",
+          "cliente": "BOM GOSTO CERIMONIAL E BUFFET LTDA",
           "produto": "4 PACK RED BULL MORANGO PESSEGO",
           "fantasia": "RED BULL",
           "qt": 1,
