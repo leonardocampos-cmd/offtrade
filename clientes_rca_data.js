@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "30/07/2026 17:28",
+  "atualizado_em": "30/07/2026 18:00",
   "total": 22299,
   "clientes": [
     {
@@ -258548,6 +258548,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "FERNANDA CAMBOIM"
     },
     {
+      "codcli": "94193",
+      "razao": "OLEI PANSIERE",
+      "fantasia": "BAR DA PRACA",
+      "bairro": "BEIRA RIO",
+      "cidade": "NOVA VENECIA",
+      "cnpj": "01.507.189/0001-76",
+      "estado": "ES",
+      "ramo": "SERVIÇOS",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "10",
+      "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "28594",
       "razao": "OLGA DE ANDRADE CARNE",
       "fantasia": "OLGA DE ANDRADE CARNE",
@@ -330592,22 +330608,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "35257",
-      "razao": "TABACARIA DOIS IRMAOS LTDA",
-      "fantasia": "TABACARIA DOIS IRMAOS",
-      "bairro": "CENTRO",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "12.804.135/0001-99",
-      "estado": "MG",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
       "codusur2": "",
       "nome_usur2": ""
     },
