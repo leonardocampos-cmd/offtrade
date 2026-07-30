@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "30/07/2026 11:16",
+  "atualizado_em": "30/07/2026 12:13",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -50171,26 +50171,6 @@ const VENDAS_SP_DATA = {
         },
         {
           "data": "29/07/2026",
-          "codcli": "30685",
-          "cliente": "CIE - BEBIDAS IMPORTADAS LTDA",
-          "produto": "MARTINI ROSSO 750 ML",
-          "fantasia": "BACARDI",
-          "qt": 60,
-          "valor": 1860.6,
-          "offtrade": true
-        },
-        {
-          "data": "29/07/2026",
-          "codcli": "30685",
-          "cliente": "CIE - BEBIDAS IMPORTADAS LTDA",
-          "produto": "WHISKY JAMESON 1L",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 694.8,
-          "offtrade": true
-        },
-        {
-          "data": "29/07/2026",
           "codcli": "28991",
           "cliente": "MRF DISTRIBUIDORA DE BEBIDAS E GENEROS ALIMENTICIOS LTDA",
           "produto": "WHISKY CHIVAS REGAL 18 ANOS 750ML",
@@ -63279,26 +63259,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "PERNOD",
           "qt": 24,
           "valor": 466.8,
-          "offtrade": true
-        },
-        {
-          "data": "22/07/2026",
-          "codcli": "33273",
-          "cliente": "SJX - COMERCIAL ATACADISTA DE MERCADORIAS LTDA.",
-          "produto": "YVY DESTILADO GIN MAR 750ML",
-          "fantasia": "YVY",
-          "qt": 1,
-          "valor": 54.9,
-          "offtrade": true
-        },
-        {
-          "data": "22/07/2026",
-          "codcli": "33273",
-          "cliente": "SJX - COMERCIAL ATACADISTA DE MERCADORIAS LTDA.",
-          "produto": "CACHAÇA JOIA DA SERRA TRADICIONAL 1L",
-          "fantasia": "HOUSE OF BRANDS",
-          "qt": 1,
-          "valor": 28.9,
           "offtrade": true
         },
         {
@@ -134563,11 +134523,11 @@ const VENDAS_SP_DATA = {
         "fat_essenza": null
       },
       "Jul/26": {
-        "fat": 1800000.0,
-        "pos": null,
-        "fat_pernod": 1000000.0,
-        "fat_crs": 100000.0,
-        "fat_essenza": 10000.0
+        "fat": 900000.0,
+        "pos": 1.0,
+        "fat_pernod": 900000.0,
+        "fat_crs": null,
+        "fat_essenza": null
       }
     },
     "ANDRE PINHEIRO": {
@@ -134958,11 +134918,11 @@ const VENDAS_SP_DATA = {
         "fat_essenza": null
       },
       "Jul/26": {
-        "fat": 2200000.0,
-        "pos": null,
-        "fat_pernod": 1000000.0,
-        "fat_crs": 100000.0,
-        "fat_essenza": 10000.0
+        "fat": 700000.0,
+        "pos": 1.0,
+        "fat_pernod": 600000.0,
+        "fat_crs": null,
+        "fat_essenza": null
       }
     },
     "RENAN SOUZA": {
@@ -135654,7 +135614,7 @@ const VENDAS_SP_DATA = {
     },
     "ANDRE SILVA": {
       "Jul/26": {
-        "fat": 189108.94,
+        "fat": 189025.14,
         "pos": 12.0,
         "fat_pernod": 47872.2,
         "fat_essenza": 4136.4,
@@ -136616,9 +136576,9 @@ const VENDAS_SP_DATA = {
     },
     "W.S": {
       "Jul/26": {
-        "fat": 2573313.66,
-        "pos": 119.0,
-        "fat_pernod": 1814118.9,
+        "fat": 2570758.26,
+        "pos": 118.0,
+        "fat_pernod": 1813424.1,
         "fat_crs": 18308.18,
         "fat_ant": 2395996.75,
         "fat_ano_ant": 195299.4
