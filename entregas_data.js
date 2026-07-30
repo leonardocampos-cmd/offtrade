@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "30/07/2026 12:09",
+  "atualizado_em": "30/07/2026 13:31",
   "data_rota": "30.07",
   "vendedores": [
     {
@@ -1286,6 +1286,31 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "471000494",
+          "numnota": "",
+          "data": "30/07/2026",
+          "cliente": "MINIMERCADO MONTE SINAI LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 256.76,
+          "itens": [
+            {
+              "desc": "VEJA BAN ANTIBAC GAT 30% DESC 12X500ML",
+              "qt": 1,
+              "val": 218.96
+            },
+            {
+              "desc": "AGUA MINALBA C/ GAS 6X1,5L",
+              "qt": 2,
+              "val": 37.8
+            }
+          ]
+        },
         {
           "numped": "471000493",
           "numnota": "",
@@ -3235,6 +3260,41 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "412001449",
+          "numnota": "",
+          "data": "30/07/2026",
+          "cliente": "WMDIAS 24H LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 805.22,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 10,
+              "val": 329.22
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+              "qt": 5,
+              "val": 144.5
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 8X1,5L PET",
+              "qt": 5,
+              "val": 122.5
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+              "qt": 10,
+              "val": 209.0
+            }
+          ]
+        },
+        {
           "numped": "412001447",
           "numnota": "",
           "data": "30/07/2026",
@@ -3248,6 +3308,11 @@ const ENTREGAS_DATA = {
           "total": 348.5,
           "itens": [
             {
+              "desc": "ICE 51 LIMAO LONG NECK 24X275ML",
+              "qt": 1,
+              "val": 120.9
+            },
+            {
               "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
               "qt": 1,
               "val": 132.9
@@ -3256,11 +3321,6 @@ const ENTREGAS_DATA = {
               "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
               "qt": 1,
               "val": 94.7
-            },
-            {
-              "desc": "ICE 51 LIMAO LONG NECK 24X275ML",
-              "qt": 1,
-              "val": 120.9
             }
           ]
         },
@@ -4260,33 +4320,7 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [
-        {
-          "numped": "144001731",
-          "numnota": "",
-          "data": "29/07/2026",
-          "cliente": "LUCRE BEM MERCEARIA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 52.2,
-          "itens": [
-            {
-              "desc": "ESPUM ZERO MOSCATEL BRANCO QM 660ML",
-              "qt": 1,
-              "val": 17.4
-            },
-            {
-              "desc": "ESPUM ZERO MOSCATEL ROSE QM 660ML",
-              "qt": 2,
-              "val": 34.8
-            }
-          ]
-        }
-      ],
+      "nao_emitido": [],
       "emitido_s_rota": [],
       "canceladas": [
         {
@@ -4922,6 +4956,36 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "378000555",
+          "numnota": "",
+          "data": "30/07/2026",
+          "cliente": "CONFEITARIA E BAR SOLANGE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Favor entregar dia 31/08",
+          "total": 291.4,
+          "itens": [
+            {
+              "desc": "CONHAQUE DOMECQ 1L",
+              "qt": 8,
+              "val": 215.2
+            },
+            {
+              "desc": "AGUARDENTE OLD CESAR 88 965 ML",
+              "qt": 3,
+              "val": 35.7
+            },
+            {
+              "desc": "CACHACA VELHO BARREIRO 910 ML",
+              "qt": 3,
+              "val": 40.5
+            }
+          ]
+        },
+        {
           "numped": "378000554",
           "numnota": "",
           "data": "30/07/2026",
@@ -4948,6 +5012,86 @@ const ENTREGAS_DATA = {
               "desc": "NECTAR UVA TIAL 12X250ML",
               "qt": 1,
               "val": 31.96
+            }
+          ]
+        },
+        {
+          "numped": "378000557",
+          "numnota": "",
+          "data": "30/07/2026",
+          "cliente": "NOVO LEBLON C CANTINA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Favor entregar dia 31/07",
+          "total": 267.63,
+          "itens": [
+            {
+              "desc": "4 PACK RED BULL 250ML",
+              "qt": 2,
+              "val": 59.92
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+              "qt": 1,
+              "val": 20.9
+            },
+            {
+              "desc": "GUARAVITON GINSENG 12X500ML",
+              "qt": 1,
+              "val": 37.01
+            },
+            {
+              "desc": "4 PACK RED BULL SF AMORA",
+              "qt": 1,
+              "val": 29.96
+            },
+            {
+              "desc": "4 PACK RED BULL ZERO",
+              "qt": 2,
+              "val": 59.92
+            },
+            {
+              "desc": "4 PACK RED BULL SF POMELO 4X250ML",
+              "qt": 2,
+              "val": 59.92
+            }
+          ]
+        },
+        {
+          "numped": "378000556",
+          "numnota": "",
+          "data": "30/07/2026",
+          "cliente": "ECOBAR LANCHES LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Favor entregar dia 31/07",
+          "total": 262.63,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 2,
+              "val": 63.99
+            },
+            {
+              "desc": "4 PACK RED BULL 250ML",
+              "qt": 4,
+              "val": 119.84
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+              "qt": 2,
+              "val": 41.8
+            },
+            {
+              "desc": "GUARAVITON GINSENG 12X500ML",
+              "qt": 1,
+              "val": 37.01
             }
           ]
         }
@@ -7365,6 +7509,26 @@ const ENTREGAS_DATA = {
               "desc": "RC SARDINHA EM OLEO 50X125G",
               "qt": 5,
               "val": 997.5
+            }
+          ]
+        },
+        {
+          "numped": "379001333",
+          "numnota": "",
+          "data": "30/07/2026",
+          "cliente": "RAINHA DO IRIS MERCADO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1197.0,
+          "itens": [
+            {
+              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+              "qt": 6,
+              "val": 1197.0
             }
           ]
         },
@@ -12318,6 +12482,26 @@ const ENTREGAS_DATA = {
               "val": 250.0
             }
           ]
+        },
+        {
+          "numped": "419000736",
+          "numnota": "",
+          "data": "30/07/2026",
+          "cliente": "54.789.676 MATHEUS FONSECA PEREIRA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "data entrega: 31/07",
+          "total": 1729.0,
+          "itens": [
+            {
+              "desc": "RED BULL MORANGO PESSEGO 24X250ML",
+              "qt": 10,
+              "val": 1729.0
+            }
+          ]
         }
       ],
       "emitido_s_rota": [
@@ -13511,6 +13695,26 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "155004029",
+          "numnota": "",
+          "data": "30/07/2026",
+          "cliente": "COLORADO SPORTS BAR LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 95.9,
+          "itens": [
+            {
+              "desc": "GIN TANQUERAY  750 ML",
+              "qt": 1,
+              "val": 95.9
+            }
+          ]
+        },
         {
           "numped": "155004027",
           "numnota": "",
