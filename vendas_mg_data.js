@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "30/07/2026 14:20",
+  "atualizado_em": "30/07/2026 14:44",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -520,7 +520,7 @@ const VENDAS_MG_DATA = {
         "fat_ano_ant": 0.0
       },
       "Jul/26": {
-        "fat": 614092.98,
+        "fat": 660362.1,
         "pos": 11,
         "fat_ant": 1039602.9,
         "fat_ano_ant": 0.0
@@ -552,8 +552,8 @@ const VENDAS_MG_DATA = {
         "fat_ano_ant": 0.0
       },
       "Jul/26": {
-        "fat": 110163.17,
-        "pos": 63,
+        "fat": 111691.37,
+        "pos": 64,
         "fat_ant": 85308.22,
         "fat_ano_ant": 0.0
       }
@@ -216707,6 +216707,26 @@ const VENDAS_MG_DATA = {
           "offtrade": true
         },
         {
+          "data": "30/07/2026",
+          "codcli": "30232",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "WHISKY JIM BEAM APPLE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 12,
+          "valor": 890.28,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30232",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "WHISKY ESC MACALLAN DOUBLE 12 YO 700ML",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 6,
+          "valor": 4318.44,
+          "offtrade": true
+        },
+        {
           "data": "29/07/2026",
           "codcli": "30723",
           "cliente": "SUPERMERCADO BAHAMAS S/A",
@@ -217137,6 +217157,26 @@ const VENDAS_MG_DATA = {
           "offtrade": true
         },
         {
+          "data": "30/07/2026",
+          "codcli": "30723",
+          "cliente": "SUPERMERCADO BAHAMAS S/A",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 60,
+          "valor": 5952.0,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "XAROPE MONIN LIMÃO GLASCO 330 ML",
+          "fantasia": "MONIN",
+          "qt": 90,
+          "valor": 2205.0,
+          "offtrade": true
+        },
+        {
           "data": "29/07/2026",
           "codcli": "37710",
           "cliente": "MULTICOM ATACADO E VAREJO S/A",
@@ -217177,6 +217217,46 @@ const VENDAS_MG_DATA = {
           "offtrade": true
         },
         {
+          "data": "30/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "XAROPE  MONIN CRANBERRY 330 ML",
+          "fantasia": "MONIN",
+          "qt": 96,
+          "valor": 2352.0,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "XAROPE MONIN MORANGO 330 ML",
+          "fantasia": "MONIN",
+          "qt": 30,
+          "valor": 735.0,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "XAROPE  MONIN  MAÇA VERDE 330 ML",
+          "fantasia": "MONIN",
+          "qt": 48,
+          "valor": 1176.0,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "XAROPE  MONIN TANGERINA 330 ML",
+          "fantasia": "MONIN",
+          "qt": 42,
+          "valor": 1029.0,
+          "offtrade": true
+        },
+        {
           "data": "24/07/2026",
           "codcli": "35169",
           "cliente": "ADIÇÃO DISTRIBUIÇÃO EXPRESS S/A",
@@ -217187,6 +217267,46 @@ const VENDAS_MG_DATA = {
           "offtrade": true
         },
         {
+          "data": "30/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "XAROPE MONIN GENGIBRE 330 ML",
+          "fantasia": "MONIN",
+          "qt": 18,
+          "valor": 441.0,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "XAROPE MONIN LIMÃO GLASCO 330 ML",
+          "fantasia": "MONIN",
+          "qt": 114,
+          "valor": 2793.0,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+          "fantasia": "YVY",
+          "qt": 228,
+          "valor": 6817.2,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "YVY DESTILADO GIN MAR GF 750ML",
+          "fantasia": "YVY",
+          "qt": 78,
+          "valor": 4282.2,
+          "offtrade": true
+        },
+        {
           "data": "28/07/2026",
           "codcli": "37356",
           "cliente": "DMA DISTRIBUIDORA S/A",
@@ -217194,6 +217314,36 @@ const VENDAS_MG_DATA = {
           "fantasia": "YVY",
           "qt": 90,
           "valor": 3141.0,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30723",
+          "cliente": "SUPERMERCADO BAHAMAS S/A",
+          "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+          "fantasia": "DON LUIZ",
+          "qt": 150,
+          "valor": 9750.0,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "XAROPE MONIN GENGIBRE 330 ML",
+          "fantasia": "MONIN",
+          "qt": 60,
+          "valor": 1470.0,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "XAROPE  MONIN CRANBERRY 330 ML",
+          "fantasia": "MONIN",
+          "qt": 84,
+          "valor": 2058.0,
           "offtrade": true
         }
       ]
@@ -230640,6 +230790,36 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "30/07/2026",
+          "codcli": "34096",
+          "cliente": "MINAS 2000 LTDA",
+          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+          "fantasia": "CASTAS",
+          "qt": 24,
+          "valor": 453.6,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "34096",
+          "cliente": "MINAS 2000 LTDA",
+          "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 329.4,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "34096",
+          "cliente": "MINAS 2000 LTDA",
+          "produto": "VINHO ARESTI EST SEL CARMENERE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 329.4,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
           "codcli": "34916",
           "cliente": "SODEXO DO BRASIL COMERCIAL S A",
           "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
@@ -230916,6 +231096,16 @@ const VENDAS_MG_DATA = {
           "fantasia": "CASTAS",
           "qt": 19,
           "valor": 682.1,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "34096",
+          "cliente": "MINAS 2000 LTDA",
+          "produto": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
+          "fantasia": "CASTAS",
+          "qt": 22,
+          "valor": 415.8,
           "offtrade": true
         }
       ]
