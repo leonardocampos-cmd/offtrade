@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "30/07/2026 12:14",
+  "atualizado_em": "30/07/2026 13:37",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -512,38 +512,6 @@ const NAO_POS_MG_DATA = {
       }
     ],
     "JOÃO SANTOS": [
-      {
-        "codcli": "32797",
-        "cliente": "AECIO LUCAS LACERDA",
-        "bairro": "OURO PRETO",
-        "dtultcomp": "25/03/2025",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL AMORA SUGAR FREE 250ML",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 87.48
-          },
-          {
-            "produto": "GIN GORDONS 750 ML",
-            "fantasia": "DIAGEO",
-            "qt": 3,
-            "valor": 224.7
-          },
-          {
-            "produto": "GIN TANQUERAY  750 ML",
-            "fantasia": "DIAGEO",
-            "qt": 3,
-            "valor": 314.7
-          },
-          {
-            "produto": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
-            "fantasia": "DIAGEO",
-            "qt": 2,
-            "valor": 529.8
-          }
-        ]
-      },
       {
         "codcli": "33617",
         "cliente": "CERVEJARIA COLDER INDUSTRIA E COMERCIO LTDA",
@@ -1455,20 +1423,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "31217",
-        "cliente": "TRUPICO BAR & RESTAURANTE LTDA",
-        "bairro": "ANGOLA",
-        "dtultcomp": "10/06/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY JIM BEAM WHITE 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 4,
-            "valor": 359.6
-          }
-        ]
-      },
-      {
         "codcli": "36229",
         "cliente": "VO VILMA CONFEITARIA LTDA",
         "bairro": "HORTO",
@@ -2057,38 +2011,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "RED BULL",
             "qt": 2,
             "valor": 383.52
-          }
-        ]
-      },
-      {
-        "codcli": "33223",
-        "cliente": "BAIANA DO ACARAJE BAR E RESTAURANTE LTDA",
-        "bairro": "SAVASSI",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY JIM BEAM APPLE 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 3,
-            "valor": 269.7
-          },
-          {
-            "produto": "WHISKY JIM BEAM CHERRY 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 3,
-            "valor": 269.7
-          },
-          {
-            "produto": "WHISKY JIM BEAM HONEY 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 3,
-            "valor": 269.7
-          },
-          {
-            "produto": "WHISKY JIM BEAM WHITE 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 3,
-            "valor": 269.7
           }
         ]
       },
