@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "30/07/2026 16:14",
-  "total": 22301,
+  "atualizado_em": "30/07/2026 16:41",
+  "total": 22299,
   "clientes": [
     {
       "codcli": "38586",
@@ -31156,6 +31156,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "52199",
+      "razao": "66.856.035 PEDRO HENRIQUE GUSMAO",
+      "fantasia": "PEDRO HENRIQUE GUSMAO",
+      "bairro": "VILA CREMER",
+      "cidade": "AREIOPOLIS",
+      "cnpj": "66.856.035/0001-35",
+      "estado": "SP",
+      "ramo": "CAFETERIA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "92268",
       "razao": "66.859.361 JUAN DE OLIVEIRA GUIMARAES",
       "fantasia": "JUAN DE OLIVEIRA GUIMARAES",
@@ -39586,22 +39602,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "156",
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
-    },
-    {
-      "codcli": "38964",
-      "razao": "AGORA PRODUCOES LTDA",
-      "fantasia": "AGORA PRODUCOES",
-      "bairro": "CONCÓRDIA",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "61.865.550/0001-68",
-      "estado": "MG",
-      "ramo": "SERVIÇOS DE ORGANIZACAO DE FEIRAS, CONGR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "73699",
@@ -50942,8 +50942,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -275060,22 +275060,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
-      "codcli": "82863",
-      "razao": "PIZZA COMERCIO DE ALIMENTOS LTDA",
-      "fantasia": "LA MUSA PIZZERIA NAPOLETANA",
-      "bairro": "PRAIA DO CANTO",
-      "cidade": "VITORIA",
-      "cnpj": "33.876.563/0001-05",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "72847",
       "razao": "PIZZA DA PRACA PIZZARIA LTDA",
       "fantasia": "PIZZA DA PRACA",
@@ -320052,6 +320036,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "MARCO PENIDO"
     },
     {
+      "codcli": "50695",
+      "razao": "SQUARE HOTELARIA EVENTOS LTDA",
+      "fantasia": "SQUARE HOTELARIA",
+      "bairro": "BARRA DA TIJUCA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "19.442.211/0001-02",
+      "estado": "RJ",
+      "ramo": "HOTELARIA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "144",
+      "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
+      "codusur2": "229",
+      "nome_usur2": "LUIZA HASSEN"
+    },
+    {
       "codcli": "85852",
       "razao": "SQUINA DAS CARNES LTDA",
       "fantasia": "SQUINA DAS CARNES LTDA",
@@ -341572,22 +341572,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
-      "codcli": "84436",
-      "razao": "V8BEER DISTRIBUIDORA DE BEBIDAS RIO LTDA",
-      "fantasia": "V8BEER DISTRIBUIDORA",
-      "bairro": "CACUIA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "50.241.016/0001-64",
-      "estado": "RJ",
-      "ramo": "ADEGA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "81768",
       "razao": "VACA ATOLADA, A EMBAIXADA CARIOCA LTDA",
       "fantasia": "VACA ATOLADA, A EMBAIXADA CARIOCA, SE SO",
@@ -349154,22 +349138,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "50695",
-      "razao": "VOGUE HOTELARIA E COMERCIO LTDA.",
-      "fantasia": "HOTEL VOGUE",
-      "bairro": "BARRA DA TIJUCA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "19.442.211/0001-02",
-      "estado": "RJ",
-      "ramo": "HOTELARIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "229",
-      "nome_usur2": "LUIZA HASSEN"
     },
     {
       "codcli": "66645",
