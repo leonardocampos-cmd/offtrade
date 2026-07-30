@@ -1,5 +1,5 @@
 const CLIENTES_588_DATA = {
-  "atualizado_em": "30/07/2026 12:15",
+  "atualizado_em": "30/07/2026 13:37",
   "rca_ref": 588,
   "periodo_fid": "Jan/26 – Abr/26",
   "mes_migracao": "Mai/26",
