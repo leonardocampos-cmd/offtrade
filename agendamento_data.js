@@ -15492,11 +15492,11 @@ const AGENDAMENTO_DATA = {
           "cliente": "CGX COMERCIO DE ALIMENTOS LTDA",
           "cnpj": "15.580.294/0001-45",
           "filial": "GUADALUPE",
-          "valor": 1162.8,
-          "nf": "",
+          "valor": 7264.8,
+          "nf": "6909",
           "data_agendamento": "24/07/2026",
           "data_ord": "2026-07-24",
-          "status": "A FATURAR",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -15754,6 +15754,34 @@ const AGENDAMENTO_DATA = {
     {
       "nome": "JOSE MARCELO CARDOSO - OFF TRADE",
       "itens": [
+        {
+          "codigo_cliente": "18798",
+          "cliente": "EMPORIO DO CADEG LTDA",
+          "cnpj": "33.119.105/0001-13",
+          "filial": "BENFICA (CADEG)",
+          "valor": 1852.0,
+          "nf": "",
+          "data_agendamento": "31/07/2026",
+          "data_ord": "2026-07-31",
+          "status": "FATURADO",
+          "obs": "EMBARCAR AS CAIXAS ORIGINAIS E ÍNTEGRAS.",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "71185",
+          "cliente": "ANB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS",
+          "cnpj": "49.306.432/0001-14",
+          "filial": "BENFICA (CADEG)",
+          "valor": 4926.0,
+          "nf": "",
+          "data_agendamento": "31/07/2026",
+          "data_ord": "2026-07-31",
+          "status": "A FATURAR",
+          "obs": "EMBARCAR AS CAIXAS ORIGINAIS E ÍNTEGRAS.",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
         {
           "codigo_cliente": "3754",
           "cliente": "SUPERMERCADOS BARRA OESTE",
@@ -24748,7 +24776,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "30/07/2026 14:18",
+  "atualizado_em": "30/07/2026 14:42",
   "comparativo": [
     {
       "msg_id": "19f8f0d0054f43bd",
