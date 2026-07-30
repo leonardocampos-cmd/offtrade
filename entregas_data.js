@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "30/07/2026 11:12",
+  "atualizado_em": "30/07/2026 11:51",
   "data_rota": "30.07",
   "vendedores": [
     {
@@ -3187,9 +3187,9 @@ const ENTREGAS_DATA = {
           "total": 348.5,
           "itens": [
             {
-              "desc": "ICE 51 LIMAO LONG NECK 24X275ML",
+              "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
               "qt": 1,
-              "val": 120.9
+              "val": 132.9
             },
             {
               "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
@@ -3197,9 +3197,9 @@ const ENTREGAS_DATA = {
               "val": 94.7
             },
             {
-              "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+              "desc": "ICE 51 LIMAO LONG NECK 24X275ML",
               "qt": 1,
-              "val": 132.9
+              "val": 120.9
             }
           ]
         },
@@ -4857,6 +4857,36 @@ const ENTREGAS_DATA = {
               "desc": "NECTAR MACA TIAL 12X1000ML",
               "qt": 1,
               "val": 56.64
+            }
+          ]
+        },
+        {
+          "numped": "378000554",
+          "numnota": "",
+          "data": "30/07/2026",
+          "cliente": "ATAC E VAR DE BEBIDAS NOSSA SENHORA DE FATIMA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Favor entregar dia 31/07",
+          "total": 285.86,
+          "itens": [
+            {
+              "desc": "CERVEJA HEINEKEN LONG 24X330ML",
+              "qt": 1,
+              "val": 127.9
+            },
+            {
+              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+              "qt": 2,
+              "val": 126.0
+            },
+            {
+              "desc": "NECTAR UVA TIAL 12X250ML",
+              "qt": 1,
+              "val": 31.96
             }
           ]
         }
@@ -11760,7 +11790,28 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "439000312",
+          "numnota": "",
+          "data": "30/07/2026",
+          "cliente": "DROGAMINAS VALENCA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Data entrega: 06/08/26",
+          "total": 319.0,
+          "itens": [
+            {
+              "desc": "AGUA NA CAIXA 12X500ML",
+              "qt": 10,
+              "val": 319.0
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "439000162",
@@ -12186,7 +12237,28 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "419000735",
+          "numnota": "",
+          "data": "30/07/2026",
+          "cliente": "ELECILDO SIMAO DA SILVA 90866959491",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "data entrega: 31/07",
+          "total": 250.0,
+          "itens": [
+            {
+              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+              "qt": 1,
+              "val": 250.0
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "419000673",
@@ -13410,6 +13482,31 @@ const ENTREGAS_DATA = {
               "desc": "GIN BEEFEATER PINK 700ML",
               "qt": 1,
               "val": 59.9
+            }
+          ]
+        },
+        {
+          "numped": "155004028",
+          "numnota": "",
+          "data": "30/07/2026",
+          "cliente": "DREIFISON RODRIGUES RUFINO 12650077727",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 775.86,
+          "itens": [
+            {
+              "desc": "CANTINA DA SERRA 1,5L",
+              "qt": 34,
+              "val": 237.66
+            },
+            {
+              "desc": "CANTINA DA SERRA 750ML",
+              "qt": 138,
+              "val": 538.2
             }
           ]
         }
