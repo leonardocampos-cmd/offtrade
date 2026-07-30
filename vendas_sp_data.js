@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "30/07/2026 17:22",
+  "atualizado_em": "30/07/2026 17:57",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -59045,6 +59045,76 @@ const VENDAS_SP_DATA = {
           "offtrade": true
         },
         {
+          "data": "30/07/2026",
+          "codcli": "50374",
+          "cliente": "REDE STAR - CENTRAL DE DISTRIBUICAO ATACADISTA DE MERCADORIA",
+          "produto": "MARTINI BIANCO 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 12,
+          "valor": 347.38,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "50374",
+          "cliente": "REDE STAR - CENTRAL DE DISTRIBUICAO ATACADISTA DE MERCADORIA",
+          "produto": "VODKA GREY GOOSE ORIGINAL 750 ML",
+          "fantasia": "BACARDI",
+          "qt": 6,
+          "valor": 581.4,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "50374",
+          "cliente": "REDE STAR - CENTRAL DE DISTRIBUICAO ATACADISTA DE MERCADORIA",
+          "produto": "WHISKY BALLANTINE S FINEST 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 634.8,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "50374",
+          "cliente": "REDE STAR - CENTRAL DE DISTRIBUICAO ATACADISTA DE MERCADORIA",
+          "produto": "RUM MALIBU 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 514.8,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "50374",
+          "cliente": "REDE STAR - CENTRAL DE DISTRIBUICAO ATACADISTA DE MERCADORIA",
+          "produto": "WHISKY JAMESON 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 694.8,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "50374",
+          "cliente": "REDE STAR - CENTRAL DE DISTRIBUICAO ATACADISTA DE MERCADORIA",
+          "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 658.8,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "50374",
+          "cliente": "REDE STAR - CENTRAL DE DISTRIBUICAO ATACADISTA DE MERCADORIA",
+          "produto": "VODKA ABSOLUT TABASCO 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 658.8,
+          "offtrade": true
+        },
+        {
           "data": "29/07/2026",
           "codcli": "27227",
           "cliente": "BOB PECHINCA ATACADISTA LTDA",
@@ -93539,6 +93609,46 @@ const VENDAS_SP_DATA = {
           "qt": 24,
           "valor": 1413.6,
           "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "50913",
+          "cliente": "27.197.304 CARLOS EDUARDO SANTANA CORREA",
+          "produto": "GIN TANQUERAY BOSSA NOVA  700 ML",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 1258.8,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "50913",
+          "cliente": "27.197.304 CARLOS EDUARDO SANTANA CORREA",
+          "produto": "SMIRNOFF ICE 24X275ML LONG",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 125.9,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "50913",
+          "cliente": "27.197.304 CARLOS EDUARDO SANTANA CORREA",
+          "produto": "WHISKY JACK DANIELS 1L - DEST",
+          "fantasia": "BROWN",
+          "qt": 6,
+          "valor": 599.4,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "50913",
+          "cliente": "27.197.304 CARLOS EDUARDO SANTANA CORREA",
+          "produto": "WHISKY JACK DANIELS APPLE 1L - DEST",
+          "fantasia": "BROWN",
+          "qt": 6,
+          "valor": 599.4,
+          "offtrade": true
         }
       ]
     },
@@ -124747,6 +124857,36 @@ const VENDAS_SP_DATA = {
           "offtrade": false
         },
         {
+          "data": "30/07/2026",
+          "codcli": "51835",
+          "cliente": "SUPERMERCADO IBIRAPUERA LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 24,
+          "valor": 215.76,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "51835",
+          "cliente": "SUPERMERCADO IBIRAPUERA LTDA",
+          "produto": "WHISKY JACK DANIELS 1L - DEST",
+          "fantasia": "BROWN",
+          "qt": 2,
+          "valor": 199.8,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "51835",
+          "cliente": "SUPERMERCADO IBIRAPUERA LTDA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 3,
+          "valor": 98.7,
+          "offtrade": true
+        },
+        {
           "data": "29/07/2026",
           "codcli": "51978",
           "cliente": "EMPORIO TUCANOS LTDA",
@@ -128984,6 +129124,36 @@ const VENDAS_SP_DATA = {
           "fantasia": "BROWN",
           "qt": 12,
           "valor": 1198.8,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "51172",
+          "cliente": "SUPERMERCADO PEGORIN LTDA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 394.8,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "51172",
+          "cliente": "SUPERMERCADO PEGORIN LTDA",
+          "produto": "TEQUILA J CUERVO GOLD 750ML",
+          "fantasia": "AURORA",
+          "qt": 5,
+          "valor": 419.5,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "51172",
+          "cliente": "SUPERMERCADO PEGORIN LTDA",
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "fantasia": "CRS BRANDS",
+          "qt": 48,
+          "valor": 431.52,
           "offtrade": true
         }
       ]
@@ -136200,9 +136370,9 @@ const VENDAS_SP_DATA = {
     },
     "ADER ALONSO": {
       "Jul/26": {
-        "fat": 351000.71,
+        "fat": 355091.49,
         "pos": 30.0,
-        "fat_pernod": 248620.26,
+        "fat_pernod": 251782.26,
         "fat_crs": 14024.4,
         "fat_ant": 463987.58,
         "fat_ano_ant": 0.0
@@ -136354,7 +136524,7 @@ const VENDAS_SP_DATA = {
     },
     "SUELY SANTOS": {
       "Jul/26": {
-        "fat": 92315.88,
+        "fat": 94899.38,
         "pos": 26.0,
         "fat_pernod": 38696.25,
         "fat_crs": 3344.4,
@@ -136804,10 +136974,10 @@ const VENDAS_SP_DATA = {
     },
     "LEONARDO FLOREZI": {
       "Jul/26": {
-        "fat": 107208.69,
-        "pos": 36.0,
-        "fat_pernod": 40794.47,
-        "fat_crs": 14388.21,
+        "fat": 107722.95,
+        "pos": 37.0,
+        "fat_pernod": 40893.17,
+        "fat_crs": 14603.97,
         "fat_essenza": 551.52,
         "fat_ant": 24390.34,
         "fat_ano_ant": 0.0
@@ -136872,10 +137042,10 @@ const VENDAS_SP_DATA = {
     },
     "GILSON DE OLIVEIRA": {
       "Jul/26": {
-        "fat": 12273.88,
+        "fat": 13519.7,
         "pos": 9.0,
-        "fat_pernod": 6519.7,
-        "fat_crs": 610.8,
+        "fat_pernod": 6914.5,
+        "fat_crs": 1042.32,
         "fat_ant": 10786.35,
         "fat_ano_ant": 0.0
       },
