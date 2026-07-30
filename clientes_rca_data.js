@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "30/07/2026 17:02",
-  "total": 22298,
+  "atualizado_em": "30/07/2026 17:28",
+  "total": 22299,
   "clientes": [
     {
       "codcli": "38586",
@@ -163154,6 +163154,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "350",
       "nome_usur2": "KEYTY FELICIO"
+    },
+    {
+      "codcli": "52201",
+      "razao": "GL CONVENIENCIA LTDA",
+      "fantasia": "GL CONVENIENCIA",
+      "bairro": "JARDIM CRUZEIRO",
+      "cidade": "SANTA ISABEL",
+      "cnpj": "67.275.302/0001-43",
+      "estado": "SP",
+      "ramo": "CONVENIENCIA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "471",
+      "nome_usur1": "PAULO JUNIOR - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "51409",
