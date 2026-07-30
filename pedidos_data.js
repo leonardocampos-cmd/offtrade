@@ -1,5 +1,5 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "30/07/2026 15:25",
+  "atualizado_em": "30/07/2026 15:46",
   "periodo_dias": 90,
   "fontes_indisponiveis": [],
   "pedidos_feitos": [
@@ -277,7 +277,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Bloqueio de Pedidos bonificado",
       "obs": "",
       "total": 166.5,
@@ -423,6 +423,33 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
+      "numped": "260001364",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "DOUGLAS SCHADE - OFF TRADE",
+      "cliente": "ERA DO GELO DISTRIBUIDORA DE BEBIDAS E MERCADO LTDA",
+      "sistema": "CRC",
+      "estado": "ES",
+      "supervisor": "SUPERVISOR OFF - ES",
+      "gerente": "EROCLES OLIVEIRA",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
+      "obs": "",
+      "total": 29.16,
+      "itens": [
+        {
+          "desc": "4 PACK RED BULL SF NECTARINA 4X250ML",
+          "qt": 1,
+          "val": 29.16,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
       "numped": "412001447",
       "numnota": "",
       "data": "30/07/2026",
@@ -457,6 +484,33 @@ const PEDIDOS_DATA = {
           "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
           "qt": 1,
           "val": 94.7,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "336002035",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "JEAN MENEZES - OFF TRADE",
+      "cliente": "SPAZZIO ACADEMIA LTDA",
+      "sistema": "CRC",
+      "estado": "ES",
+      "supervisor": "SUPERVISOR HIBRIDO ES",
+      "gerente": "EROCLES OLIVEIRA",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
+      "obs": "",
+      "total": 29.16,
+      "itens": [
+        {
+          "desc": "4 PACK RED BULL MELÃO C/ MARACUJA",
+          "qt": 1,
+          "val": 29.16,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -546,6 +600,40 @@ const PEDIDOS_DATA = {
           "desc": "NECTAR PESSEGO 12X1000ML",
           "qt": 1,
           "val": 56.64,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "155004030",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "RAPHAEL SANTOS - OFF TRADE",
+      "cliente": "MERCADO E DEPOSITO DE BEBIDAS DA ALDEIA LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :3",
+      "obs": "",
+      "total": 345.12,
+      "itens": [
+        {
+          "desc": "RED BULL 24X250ML",
+          "qt": 1,
+          "val": 172.56,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "RED BULL TROPICAL 24X250ML",
+          "qt": 1,
+          "val": 172.56,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -1067,6 +1155,33 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
+      "numped": "260001362",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "DOUGLAS SCHADE - OFF TRADE",
+      "cliente": "RIVA SERVICOS LTDA",
+      "sistema": "CRC",
+      "estado": "ES",
+      "supervisor": "SUPERVISOR OFF - ES",
+      "gerente": "EROCLES OLIVEIRA",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
+      "obs": "",
+      "total": 29.16,
+      "itens": [
+        {
+          "desc": "4 PACK RED BULL TROPICAL 4X250ML",
+          "qt": 1,
+          "val": 29.16,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
       "numped": "378000560",
       "numnota": "",
       "data": "30/07/2026",
@@ -1224,6 +1339,33 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
+      "numped": "335000838",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "MARA DEPOLLI - OFF TRADE",
+      "cliente": "BOM GOSTO CERIMONIAL E BUFFET LTDA",
+      "sistema": "CRC",
+      "estado": "ES",
+      "supervisor": "SUPERVISOR HIBRIDO ES",
+      "gerente": "EROCLES OLIVEIRA",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
+      "obs": "",
+      "total": 29.16,
+      "itens": [
+        {
+          "desc": "4 PACK RED BULL MORANGO PESSEGO",
+          "qt": 1,
+          "val": 29.16,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
       "numped": "378000561",
       "numnota": "",
       "data": "30/07/2026",
@@ -1279,19 +1421,12 @@ const PEDIDOS_DATA = {
       "posicao": "Bloqueado (alçada)",
       "motivo": "PRECO ABAIXO DO MINIMO PERMITIDO",
       "obs": "",
-      "total": 916.26,
+      "total": 678.6,
       "itens": [
         {
           "desc": "CACHACA TATUZINHO PET 750 ML",
           "qt": 36,
           "val": 140.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "CANTINA DA SERRA 1,5L",
-          "qt": 34,
-          "val": 237.66,
           "qtfalta": 0.0,
           "cortado": false
         },
@@ -1905,6 +2040,54 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
+      "numped": "425000171",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "BRUNO BARBOSA - OFF TRADE",
+      "cliente": "SUSHI DUSHI BAR E RESTAURANTE LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 316.2,
+      "itens": [
+        {
+          "desc": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 4,
+          "val": 115.6,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "CONHAQUE DOMECQ 1L",
+          "qt": 1,
+          "val": 26.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VODKA ABSOLUT 1L",
+          "qt": 2,
+          "val": 105.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY JAMESON 1L",
+          "qt": 1,
+          "val": 67.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
       "numped": "516000027",
       "numnota": "",
       "data": "30/07/2026",
@@ -2484,6 +2667,47 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
+      "numped": "327009587",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "JOÃO SANTOS - OFF TRADE",
+      "cliente": "UPPER EMPREENDIMENTOS LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "cliente so recebe apos 16:00 horas",
+      "total": 307.2,
+      "itens": [
+        {
+          "desc": "XAROPE MONIN GRENADINE 700 ML",
+          "qt": 2,
+          "val": 99.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "ST PIERRE BLUEBERRY LT 270MLX6",
+          "qt": 4,
+          "val": 107.6,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "XAROPE MONIN FLOR DE SABUGUEIRO 700 ML",
+          "qt": 2,
+          "val": 99.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
       "numped": "327009585",
       "numnota": "",
       "data": "30/07/2026",
@@ -2495,7 +2719,7 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Pendente",
       "motivo": "",
       "obs": "",
       "total": 295.9,
@@ -3703,40 +3927,6 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
-      "numped": "490000034",
-      "numnota": "",
-      "data": "29/07/2026",
-      "data_ord": "2026-07-29",
-      "nome": "DOUGLAS TEIXEIRA - OFF TRADE",
-      "cliente": "M S KURODA & CIA LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Bloqueado",
-      "motivo": "Valor do pedido menor que minimo para pedido",
-      "obs": "",
-      "total": 246.0,
-      "itens": [
-        {
-          "desc": "GIN ROCKS 1LT",
-          "qt": 9,
-          "val": 184.5,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN ROCKS STRAWBERRY 1LT",
-          "qt": 3,
-          "val": 61.5,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false
-    },
-    {
       "numped": "516000024",
       "numnota": "",
       "data": "29/07/2026",
@@ -3955,33 +4145,6 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
-      "numped": "588003250",
-      "numnota": "",
-      "data": "29/07/2026",
-      "data_ord": "2026-07-29",
-      "nome": "W.S",
-      "cliente": "OLIVEIRA ADEGA COMERCIO DE BEBIDAS LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Bloqueado",
-      "motivo": "O Cliente esta bloqueado.",
-      "obs": "",
-      "total": 5256.0,
-      "itens": [
-        {
-          "desc": "CACHAÇA SAO FRANCISCO 970ML",
-          "qt": 240,
-          "val": 5256.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false
-    },
-    {
       "numped": "515000011",
       "numnota": "",
       "data": "29/07/2026",
@@ -4191,16 +4354,16 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "O valor limite de credito foi excedido.  Vl. Ped.: 2597.4 Cr",
       "obs": "",
-      "total": 2597.4,
+      "total": 99.9,
       "itens": [
         {
           "desc": "WHISKY JACK DANIELS 1L",
-          "qt": 26,
-          "val": 2597.4,
-          "qtfalta": 94.0,
+          "qt": 1,
+          "val": 99.9,
+          "qtfalta": 25.0,
           "cortado": true
         }
       ],
@@ -4888,7 +5051,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "O valor limite de credito foi excedido.  Vl. Ped.: 11350.5 C",
       "obs": "",
       "total": 11350.5,
@@ -5086,7 +5249,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "O valor limite de credito foi excedido.  Vl. Ped.: 1230 Cred",
       "obs": "",
       "total": 1230.0,
@@ -20863,34 +21026,6 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGA TOTAL"
     },
     {
-      "numped": "588003223",
-      "numnota": "181016",
-      "data": "28/07/2026",
-      "data_ord": "2026-07-28",
-      "nome": "W.S",
-      "cliente": "R. RODRIGUES COMERCIO DE BEBIDAS",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 788.4,
-      "itens": [
-        {
-          "desc": "CACHAÇA SAO FRANCISCO 970ML",
-          "qt": 36,
-          "val": 788.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGA TOTAL"
-    },
-    {
       "numped": "588003229",
       "numnota": "181090",
       "data": "28/07/2026",
@@ -27163,34 +27298,6 @@ const PEDIDOS_DATA = {
       "status_log": "ABERTO"
     },
     {
-      "numped": "512000022",
-      "numnota": "180888",
-      "data": "27/07/2026",
-      "data_ord": "2026-07-27",
-      "nome": "WILLIAM GONCALVES - OFF TRADE",
-      "cliente": "J D L ADEGA LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "ANDERSON CANAVEIS",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 1678.8,
-      "itens": [
-        {
-          "desc": "JACK DANIELS BLACKBERRY 1L",
-          "qt": 12,
-          "val": 1678.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGA TOTAL"
-    },
-    {
       "numped": "515000007",
       "numnota": "180644",
       "data": "27/07/2026",
@@ -28351,41 +28458,6 @@ const PEDIDOS_DATA = {
       ],
       "tem_corte": false,
       "status_log": "ABERTO"
-    },
-    {
-      "numped": "486000113",
-      "numnota": "7108",
-      "data": "27/07/2026",
-      "data_ord": "2026-07-27",
-      "nome": "LEONARDO FLOREZI - OFF TRADE",
-      "cliente": "C. G. DE GODOI COMERCIO DE BEBIDAS LTDA.",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 1198.8,
-      "itens": [
-        {
-          "desc": "WHISKY JACK DANIELS HONEY 1LT - DEST",
-          "qt": 6,
-          "val": 599.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY JACK DANIELS APPLE 1L",
-          "qt": 6,
-          "val": 599.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "EXCLUIDO"
     },
     {
       "numped": "486000114",
@@ -86879,34 +86951,6 @@ const PEDIDOS_DATA = {
           "desc": "VINHO DOM BOSCO TINTO SECO 750ML",
           "qt": 15,
           "val": 134.85,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ABERTO"
-    },
-    {
-      "numped": "477000048",
-      "numnota": "6322",
-      "data": "07/07/2026",
-      "data_ord": "2026-07-07",
-      "nome": "LUCIANO TOSCHI - OFF TRADE",
-      "cliente": "TATIANE MENDES MARTINS DE MELO",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 1917.6,
-      "itens": [
-        {
-          "desc": "LICOR BALLENA MORANGO 750ML",
-          "qt": 24,
-          "val": 1917.6,
           "qtfalta": 0.0,
           "cortado": false
         }
