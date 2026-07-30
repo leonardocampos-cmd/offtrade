@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "30/07/2026 13:37",
-  "total": 22304,
+  "atualizado_em": "30/07/2026 14:00",
+  "total": 22307,
   "clientes": [
     {
       "codcli": "38586",
@@ -228686,22 +228686,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "BAR",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "47268",
-      "razao": "MATEUS COSTA DE OLIVEIRA",
-      "fantasia": "ADEGA INFINTY",
-      "bairro": "VILA SANTA MARGARIDA",
-      "cidade": "FERRAZ DE VASCONCELOS",
-      "cnpj": "44.258.501/0001-48",
-      "estado": "SP",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
       "codusur1": "588",
       "nome_usur1": "W.S",
       "codusur2": "",
@@ -310100,6 +310084,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "52175",
+      "razao": "SAMPOW INDUSTRIA E ATACAREJO DE PRODUTOS LTDA",
+      "fantasia": "SAMPOW ATACAREJO",
+      "bairro": "VILA SANTA MARIA",
+      "cidade": "JUNDIAI",
+      "cnpj": "21.486.569/0001-89",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "512",
+      "nome_usur1": "WILLIAM GONCALVES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "38209",
       "razao": "SAMUEL ALVES MARTINS SOARES",
       "fantasia": "SAMUEL ALVES MARTINS SOARES",
@@ -317424,6 +317424,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "36025",
+      "razao": "SM FERREIRA COMERCIO E DISTRIBUICAO LTDA",
+      "fantasia": "RISCO DA NEBLINA ATACADO",
+      "bairro": "CAPUAVA",
+      "cidade": "MAUA",
+      "cnpj": "51.851.436/0001-25",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "512",
+      "nome_usur1": "WILLIAM GONCALVES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -325250,6 +325266,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
+    },
+    {
+      "codcli": "52176",
+      "razao": "SUPERMERCADO MV LTDA",
+      "fantasia": "SUPERMERCADO MV",
+      "bairro": "CENTRO",
+      "cidade": "UBATUBA",
+      "cnpj": "08.984.457/0002-70",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "516",
+      "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "39006",
@@ -343600,6 +343632,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "485",
       "nome_usur1": "ANDRE PINHEIRO - OFF TRADE",
+      "codusur2": "399",
+      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "23070",
+      "razao": "VARANDA FRUTAS E MERCEARIA LTDA",
+      "fantasia": "VARANDA FRUTAS E MERCEARIA",
+      "bairro": "CIDADE JARDIM",
+      "cidade": "SAO PAULO",
+      "cnpj": "62.498.365/0001-45",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "483",
+      "nome_usur1": "ALEXANDRE TONON - OFF TRADE",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
