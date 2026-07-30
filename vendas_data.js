@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "30/07/2026 11:04",
+  "atualizado_em": "30/07/2026 11:43",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -501471,28 +501471,6 @@ const VENDAS_DATA = {
           "qt": 1,
           "valor": 0.0,
           "tipo": "Bonificado",
-          "offtrade": true
-        },
-        {
-          "data": "22/07/2026",
-          "codcli": "33273",
-          "cliente": "SJX - COMERCIAL ATACADISTA DE MERCADORIAS LTDA.",
-          "produto": "YVY DESTILADO GIN MAR 750ML",
-          "fantasia": "YVY",
-          "qt": 1,
-          "valor": 54.9,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "22/07/2026",
-          "codcli": "33273",
-          "cliente": "SJX - COMERCIAL ATACADISTA DE MERCADORIAS LTDA.",
-          "produto": "CACHAÇA JOIA DA SERRA TRADICIONAL 1L",
-          "fantasia": "HOUSE OF BRANDS",
-          "qt": 1,
-          "valor": 28.9,
-          "tipo": "Venda",
           "offtrade": true
         },
         {
