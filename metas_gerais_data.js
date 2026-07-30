@@ -1,12 +1,12 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "30/07/2026 11:05",
+  "atualizado_em": "30/07/2026 11:45",
   "mes": "Jul/26",
   "mes_ant": "Jun/26",
   "dias_corridos": 30,
   "dias_no_mes": 31,
   "dias_restantes": 1,
   "resumo": {
-    "fat": 10899105.09,
+    "fat": 10899021.29,
     "fat_ant": 12840519.73,
     "fat_ant_completo": 12840519.73,
     "pos": 1717,
@@ -15,11 +15,11 @@ const METAS_GERAIS_DATA = {
   },
   "total": {
     "meta": 14900000.0,
-    "fat": 10899105.09,
+    "fat": 10899021.29,
     "fat_ant": 12840519.73,
     "fat_ant_completo": 12840519.73,
     "pct": 73.1,
-    "nec_dia": 4000894.91
+    "nec_dia": 4000978.71
   },
   "estados": [
     {
@@ -39,11 +39,11 @@ const METAS_GERAIS_DATA = {
       "estado": "SP",
       "label": "São Paulo",
       "meta": 8000000.0,
-      "fat": 6767895.41,
+      "fat": 6767811.61,
       "fat_ant": 7500813.94,
       "pos": 697,
       "pct": 84.6,
-      "nec_dia": 1232104.59,
+      "nec_dia": 1232188.39,
       "fat_ant_completo": 7500813.94,
       "pos_ant": 622,
       "pos_ant_completo": 622
@@ -309,11 +309,11 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "YVY",
-      "fat": 61006.4,
+      "fat": 60951.5,
       "fat_ant": 39623.48,
       "por_estado": {
         "RJ": 0.0,
-        "SP": 1347.3,
+        "SP": 1292.4,
         "ES": 0.0,
         "MG": 59659.1
       }
