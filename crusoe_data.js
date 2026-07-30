@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "30/07/2026 16:32",
+  "atualizado_em": "30/07/2026 16:54",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -31,18 +31,18 @@ const CRUSOE_DATA = {
         {
           "rca": 275,
           "vendedor": "Maria Luiza",
-          "pedidos": 1,
-          "novos_skus": 8,
-          "reativacoes": 1,
-          "faturamento": 4877.38,
+          "pedidos": 2,
+          "novos_skus": 16,
+          "reativacoes": 2,
+          "faturamento": 13746.09,
           "meta_definida": false,
           "meta_valor": null,
           "meta_atingida": false,
-          "pontos_pedidos": 1,
-          "pontos_novos_skus": 40,
-          "pontos_reativacoes": 5,
+          "pontos_pedidos": 2,
+          "pontos_novos_skus": 80,
+          "pontos_reativacoes": 10,
           "pontos_meta": 0,
-          "pontos_total": 46,
+          "pontos_total": 92,
           "vendas": [
             {
               "numnota": "417035",
@@ -130,6 +130,112 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
                   "qt": 5.0,
                   "valor": 972.85,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 5
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+                  "qt": 2.0,
+                  "valor": 304.16,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "417135",
+              "data": "30/07/2026",
+              "cliente": "DRIFT COMERCIO DE ALIMENTOS S A",
+              "valor_pedido": 8868.71,
+              "eventos": [
+                {
+                  "tipo": "pedido",
+                  "pontos": 1
+                },
+                {
+                  "tipo": "reativação",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC ATUM RALADO NATURAL 24X140G",
+                  "qt": 5.0,
+                  "valor": 760.35,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 5
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM RALADO OLEO 24X140G",
+                  "qt": 2.0,
+                  "valor": 304.16,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 5
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+                  "qt": 15.0,
+                  "valor": 2515.35,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 5
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM SOLIDO OLEO 24X170G",
+                  "qt": 10.0,
+                  "valor": 1676.9,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 5
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+                  "qt": 10.0,
+                  "valor": 1945.7,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 5
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+                  "qt": 5.0,
+                  "valor": 972.95,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 5
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+                  "qt": 2.0,
+                  "valor": 389.14,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
