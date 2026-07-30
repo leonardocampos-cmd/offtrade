@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "30/07/2026 12:13",
+  "atualizado_em": "30/07/2026 13:35",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -129569,16 +129569,6 @@ const VENDAS_SP_DATA = {
           "data": "22/07/2026",
           "codcli": "51334",
           "cliente": "PAULO JOSE SALINA & CIA LTDA",
-          "produto": "MARTINI BIANCO 750 ML",
-          "fantasia": "BACARDI",
-          "qt": 2,
-          "valor": 57.9,
-          "offtrade": true
-        },
-        {
-          "data": "22/07/2026",
-          "codcli": "51334",
-          "cliente": "PAULO JOSE SALINA & CIA LTDA",
           "produto": "TEQUILA J CUERVO GOLD 750ML",
           "fantasia": "AURORA",
           "qt": 1,
@@ -136441,7 +136431,7 @@ const VENDAS_SP_DATA = {
     },
     "CELSO OLIVEIRA": {
       "Jul/26": {
-        "fat": 35819.93,
+        "fat": 35762.03,
         "pos": 11.0,
         "fat_pernod": 22717.5,
         "fat_crs": 2181.24,
