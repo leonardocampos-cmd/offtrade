@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "30/07/2026 14:40",
+  "atualizado_em": "30/07/2026 15:01",
   "data_rota": "30.07",
   "vendedores": [
     {
@@ -4473,6 +4473,36 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "144001736",
+          "numnota": "",
+          "data": "30/07/2026",
+          "cliente": "TANIA RIBEIRO MARQUES PEREIRA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 279.96,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 1,
+              "val": 172.56
+            },
+            {
+              "desc": "APERITIVO APEROL 750 ML",
+              "qt": 1,
+              "val": 38.4
+            },
+            {
+              "desc": "SMIRNOFF RED PET 1750 ML",
+              "qt": 2,
+              "val": 69.0
+            }
+          ]
+        },
+        {
           "numped": "144001735",
           "numnota": "",
           "data": "30/07/2026",
@@ -5148,6 +5178,31 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "378000559",
+          "numnota": "",
+          "data": "30/07/2026",
+          "cliente": "BAR E MERCEARIA RIO ZELA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Favor entregar dia 31/07",
+          "total": 285.76,
+          "itens": [
+            {
+              "desc": "CERVEJA HEINEKEN LONG 24X330ML",
+              "qt": 2,
+              "val": 253.8
+            },
+            {
+              "desc": "NECTAR UVA TIAL 12X250ML",
+              "qt": 1,
+              "val": 31.96
+            }
+          ]
+        },
+        {
           "numped": "378000558",
           "numnota": "",
           "data": "30/07/2026",
@@ -5184,6 +5239,31 @@ const ENTREGAS_DATA = {
               "desc": "RED BULL MELANCIA 250ML CX C/24",
               "qt": 3,
               "val": 539.28
+            }
+          ]
+        },
+        {
+          "numped": "378000560",
+          "numnota": "",
+          "data": "30/07/2026",
+          "cliente": "44.493.539 JONATHAN LOPES DE AGUIAR",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Favor entregar dia 31/07",
+          "total": 448.3,
+          "itens": [
+            {
+              "desc": "NECTAR PESSEGO 12X1000ML",
+              "qt": 1,
+              "val": 58.9
+            },
+            {
+              "desc": "COQUETEL PINK MOON 12X600ML - PET",
+              "qt": 6,
+              "val": 389.4
             }
           ]
         },
@@ -7610,31 +7690,6 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
-          "numped": "379001332",
-          "numnota": "",
-          "data": "30/07/2026",
-          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 1396.5,
-          "itens": [
-            {
-              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-              "qt": 2,
-              "val": 399.0
-            },
-            {
-              "desc": "RC SARDINHA EM OLEO 50X125G",
-              "qt": 5,
-              "val": 997.5
-            }
-          ]
-        },
-        {
           "numped": "379001333",
           "numnota": "",
           "data": "30/07/2026",
@@ -7676,6 +7731,31 @@ const ENTREGAS_DATA = {
               "desc": "RC ATUM RALADO OLEO 24X140G",
               "qt": 1,
               "val": 132.0
+            }
+          ]
+        },
+        {
+          "numped": "379001332",
+          "numnota": "",
+          "data": "30/07/2026",
+          "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1396.5,
+          "itens": [
+            {
+              "desc": "RC SARDINHA EM OLEO 50X125G",
+              "qt": 5,
+              "val": 997.5
+            },
+            {
+              "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+              "qt": 2,
+              "val": 399.0
             }
           ]
         }
@@ -13818,6 +13898,36 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "155004028",
+          "numnota": "",
+          "data": "30/07/2026",
+          "cliente": "DREIFISON RODRIGUES RUFINO 12650077727",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 916.26,
+          "itens": [
+            {
+              "desc": "CANTINA DA SERRA 1,5L",
+              "qt": 34,
+              "val": 237.66
+            },
+            {
+              "desc": "CACHACA TATUZINHO PET 750 ML",
+              "qt": 36,
+              "val": 140.4
+            },
+            {
+              "desc": "CANTINA DA SERRA 750ML",
+              "qt": 138,
+              "val": 538.2
+            }
+          ]
+        },
+        {
           "numped": "155004029",
           "numnota": "",
           "data": "30/07/2026",
@@ -13869,36 +13979,6 @@ const ENTREGAS_DATA = {
               "desc": "GIN BEEFEATER PINK 700ML",
               "qt": 1,
               "val": 59.9
-            }
-          ]
-        },
-        {
-          "numped": "155004028",
-          "numnota": "",
-          "data": "30/07/2026",
-          "cliente": "DREIFISON RODRIGUES RUFINO 12650077727",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 916.26,
-          "itens": [
-            {
-              "desc": "CANTINA DA SERRA 1,5L",
-              "qt": 34,
-              "val": 237.66
-            },
-            {
-              "desc": "CACHACA TATUZINHO PET 750 ML",
-              "qt": 36,
-              "val": 140.4
-            },
-            {
-              "desc": "CANTINA DA SERRA 750ML",
-              "qt": 138,
-              "val": 538.2
             }
           ]
         }
