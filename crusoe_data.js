@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "30/07/2026 14:58",
+  "atualizado_em": "30/07/2026 15:20",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -28,6 +28,130 @@ const CRUSOE_DATA = {
         }
       ],
       "vendedores": [
+        {
+          "rca": 275,
+          "vendedor": "Maria Luiza",
+          "pedidos": 1,
+          "novos_skus": 8,
+          "reativacoes": 1,
+          "faturamento": 4877.38,
+          "meta_definida": false,
+          "meta_valor": null,
+          "meta_atingida": false,
+          "pontos_pedidos": 1,
+          "pontos_novos_skus": 40,
+          "pontos_reativacoes": 5,
+          "pontos_meta": 0,
+          "pontos_total": 46,
+          "vendas": [
+            {
+              "numnota": "417035",
+              "data": "30/07/2026",
+              "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+              "valor_pedido": 4877.38,
+              "eventos": [
+                {
+                  "tipo": "pedido",
+                  "pontos": 1
+                },
+                {
+                  "tipo": "reativação",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC ATUM RALADO NATURAL 24X140G",
+                  "qt": 5.0,
+                  "valor": 760.35,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 5
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM RALADO OLEO 24X140G",
+                  "qt": 2.0,
+                  "valor": 304.16,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 5
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+                  "qt": 5.0,
+                  "valor": 838.45,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 5
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM SOLIDO OLEO 24X170G",
+                  "qt": 2.0,
+                  "valor": 335.38,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 5
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+                  "qt": 5.0,
+                  "valor": 972.85,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 5
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+                  "qt": 2.0,
+                  "valor": 389.18,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 5
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+                  "qt": 5.0,
+                  "valor": 972.85,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 5
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+                  "qt": 2.0,
+                  "valor": 304.16,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 5
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "rca": 158,
           "vendedor": "Jose Marcelo Cardoso",
@@ -81,23 +205,6 @@ const CRUSOE_DATA = {
               ]
             }
           ]
-        },
-        {
-          "rca": 275,
-          "vendedor": "Maria Luiza",
-          "pedidos": 0,
-          "novos_skus": 0,
-          "reativacoes": 0,
-          "faturamento": 0.0,
-          "meta_definida": false,
-          "meta_valor": null,
-          "meta_atingida": false,
-          "pontos_pedidos": 0,
-          "pontos_novos_skus": 0,
-          "pontos_reativacoes": 0,
-          "pontos_meta": 0,
-          "pontos_total": 0,
-          "vendas": []
         }
       ]
     },
