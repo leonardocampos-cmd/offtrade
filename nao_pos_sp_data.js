@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "30/07/2026 17:01",
+  "atualizado_em": "30/07/2026 17:23",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -7783,16 +7783,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "52084",
+        "codcli": "52083",
         "cliente": "VBBR CONVENIENCIA S. A.",
-        "bairro": "JARDIM PEDROSO",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "52083",
+        "codcli": "52084",
         "cliente": "VBBR CONVENIENCIA S. A.",
-        "bairro": "CENTRO",
+        "bairro": "JARDIM PEDROSO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -8479,6 +8479,13 @@ const NAO_POS_SP_DATA = {
         "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
+      },
+      {
+        "codcli": "52201",
+        "cliente": "GL CONVENIENCIA LTDA",
+        "bairro": "JARDIM CRUZEIRO",
+        "dtultcomp": "nan",
+        "produtos": []
       }
     ],
     "PAULO MOREIRA": [
@@ -8539,9 +8546,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "52191",
+        "codcli": "52188",
         "cliente": "SUPERMERCADO VARANDAS LTDA",
-        "bairro": "APARECIDA",
+        "bairro": "EMBARÉ",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -8560,13 +8567,6 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "52188",
-        "cliente": "SUPERMERCADO VARANDAS LTDA",
-        "bairro": "EMBARÉ",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "52189",
         "cliente": "SUPERMERCADO VARANDAS LTDA",
         "bairro": "MARAPÉ",
@@ -8575,6 +8575,13 @@ const NAO_POS_SP_DATA = {
       },
       {
         "codcli": "52186",
+        "cliente": "SUPERMERCADO VARANDAS LTDA",
+        "bairro": "APARECIDA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52191",
         "cliente": "SUPERMERCADO VARANDAS LTDA",
         "bairro": "APARECIDA",
         "dtultcomp": "nan",
@@ -8618,16 +8625,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51863",
+        "codcli": "51864",
         "cliente": "SANTO COMERCIO E IMPORTACAO DE PRODUTOS ALIMENTICIOS LTDA",
-        "bairro": "VILA BARCELONA",
+        "bairro": "WANEL VILLE",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51864",
+        "codcli": "51863",
         "cliente": "SANTO COMERCIO E IMPORTACAO DE PRODUTOS ALIMENTICIOS LTDA",
-        "bairro": "WANEL VILLE",
+        "bairro": "VILA BARCELONA",
         "dtultcomp": "nan",
         "produtos": []
       },
