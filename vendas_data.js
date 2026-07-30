@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "30/07/2026 14:11",
+  "atualizado_em": "30/07/2026 14:33",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -139308,18 +139308,7 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
-          "data": "29/07/2026",
-          "codcli": "94417",
-          "cliente": "MULTI FRUTI PRINCIPE DO MAR LTDA",
-          "produto": "VILLA ROSA  ROSE 750ML",
-          "fantasia": "CASTAS",
-          "qt": 6,
-          "valor": 179.4,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "29/07/2026",
+          "data": "30/07/2026",
           "codcli": "94417",
           "cliente": "MULTI FRUTI PRINCIPE DO MAR LTDA",
           "produto": "VODKA ABSOLUT 1L",
@@ -139330,7 +139319,7 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
-          "data": "29/07/2026",
+          "data": "30/07/2026",
           "codcli": "94417",
           "cliente": "MULTI FRUTI PRINCIPE DO MAR LTDA",
           "produto": "GIN BEEFEATER 750ML",
@@ -139341,7 +139330,7 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
-          "data": "29/07/2026",
+          "data": "30/07/2026",
           "codcli": "94417",
           "cliente": "MULTI FRUTI PRINCIPE DO MAR LTDA",
           "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
@@ -139352,7 +139341,7 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
-          "data": "29/07/2026",
+          "data": "30/07/2026",
           "codcli": "94417",
           "cliente": "MULTI FRUTI PRINCIPE DO MAR LTDA",
           "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
@@ -139363,13 +139352,13 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
-          "data": "29/07/2026",
+          "data": "30/07/2026",
           "codcli": "94417",
           "cliente": "MULTI FRUTI PRINCIPE DO MAR LTDA",
-          "produto": "GIN ROCKS POCKET PET 12X200ML",
-          "fantasia": "FANTE",
-          "qt": 1,
-          "valor": 97.8,
+          "produto": "VILLA ROSA  ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 179.4,
           "tipo": "Venda",
           "offtrade": true
         },
@@ -437745,72 +437734,6 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
-          "data": "29/07/2026",
-          "codcli": "92041",
-          "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
-          "produto": "VILLA ROSA BRANCO 750ML",
-          "fantasia": "",
-          "qt": 18,
-          "valor": 540.0,
-          "tipo": "Venda",
-          "offtrade": false
-        },
-        {
-          "data": "29/07/2026",
-          "codcli": "92041",
-          "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
-          "produto": "VILLA ROSA TINTO 750ML",
-          "fantasia": "",
-          "qt": 18,
-          "valor": 540.0,
-          "tipo": "Venda",
-          "offtrade": false
-        },
-        {
-          "data": "29/07/2026",
-          "codcli": "92041",
-          "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
-          "produto": "VILLA ROSA  ROSE 750ML",
-          "fantasia": "",
-          "qt": 18,
-          "valor": 540.0,
-          "tipo": "Venda",
-          "offtrade": false
-        },
-        {
-          "data": "29/07/2026",
-          "codcli": "92041",
-          "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
-          "produto": "VINHO VILLA ROSA FRISANTE BRANCO",
-          "fantasia": "",
-          "qt": 60,
-          "valor": 1480.8,
-          "tipo": "Venda",
-          "offtrade": false
-        },
-        {
-          "data": "29/07/2026",
-          "codcli": "92041",
-          "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
-          "produto": "VINHO MOV BRANCO",
-          "fantasia": "",
-          "qt": 60,
-          "valor": 1795.8,
-          "tipo": "Venda",
-          "offtrade": false
-        },
-        {
-          "data": "29/07/2026",
-          "codcli": "92041",
-          "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
-          "produto": "VINHO MOV TINTO",
-          "fantasia": "",
-          "qt": 60,
-          "valor": 1795.8,
-          "tipo": "Venda",
-          "offtrade": false
-        },
-        {
           "data": "24/07/2026",
           "codcli": "92026",
           "cliente": "GIUSEPPE LA ROSA RESTAURANTE",
@@ -437884,116 +437807,6 @@ const VENDAS_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 557.91,
-          "tipo": "Venda",
-          "offtrade": false
-        },
-        {
-          "data": "29/07/2026",
-          "codcli": "92041",
-          "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
-          "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
-          "fantasia": "",
-          "qt": 60,
-          "valor": 2020.8,
-          "tipo": "Venda",
-          "offtrade": false
-        },
-        {
-          "data": "29/07/2026",
-          "codcli": "92041",
-          "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
-          "produto": "VINHO ARESTI ESTATE S. CAB SAUV 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 449.16,
-          "tipo": "Venda",
-          "offtrade": false
-        },
-        {
-          "data": "29/07/2026",
-          "codcli": "92041",
-          "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
-          "produto": "VINHO ARESTI ESTATE S. MERLOT 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 449.16,
-          "tipo": "Venda",
-          "offtrade": false
-        },
-        {
-          "data": "29/07/2026",
-          "codcli": "92041",
-          "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
-          "produto": "ESPUMANTE ALUD BRANCO 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 359.16,
-          "tipo": "Venda",
-          "offtrade": false
-        },
-        {
-          "data": "29/07/2026",
-          "codcli": "92041",
-          "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
-          "produto": "ESPUMANTE ALUD ROSE 750ML",
-          "fantasia": "",
-          "qt": 12,
-          "valor": 359.16,
-          "tipo": "Venda",
-          "offtrade": false
-        },
-        {
-          "data": "29/07/2026",
-          "codcli": "92041",
-          "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
-          "produto": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
-          "fantasia": "",
-          "qt": 60,
-          "valor": 17042.4,
-          "tipo": "Venda",
-          "offtrade": false
-        },
-        {
-          "data": "29/07/2026",
-          "codcli": "92041",
-          "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
-          "produto": "VINHO VILLA ROSA FRISANTE ROSE",
-          "fantasia": "",
-          "qt": 60,
-          "valor": 1480.8,
-          "tipo": "Venda",
-          "offtrade": false
-        },
-        {
-          "data": "29/07/2026",
-          "codcli": "92041",
-          "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
-          "produto": "VINHO FOODKILLER CARMENERE 750ML",
-          "fantasia": "",
-          "qt": 60,
-          "valor": 2020.8,
-          "tipo": "Venda",
-          "offtrade": false
-        },
-        {
-          "data": "29/07/2026",
-          "codcli": "92041",
-          "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
-          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-          "fantasia": "",
-          "qt": 120,
-          "valor": 6741.6,
-          "tipo": "Venda",
-          "offtrade": false
-        },
-        {
-          "data": "29/07/2026",
-          "codcli": "92041",
-          "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
-          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "fantasia": "",
-          "qt": 120,
-          "valor": 6807.6,
           "tipo": "Venda",
           "offtrade": false
         },
@@ -672047,6 +671860,28 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
+          "data": "30/07/2026",
+          "codcli": "30232",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "WHISKY JIM BEAM APPLE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 12,
+          "valor": 890.28,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30232",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "WHISKY ESC MACALLAN DOUBLE 12 YO 700ML",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 6,
+          "valor": 4318.44,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
           "data": "06/07/2026",
           "codcli": "30231",
           "cliente": "ORGANIZACAO VERDEMAR LTDA",
@@ -672201,6 +672036,127 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
+          "data": "30/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "XAROPE MONIN LIMÃO GLASCO 330 ML",
+          "fantasia": "MONIN",
+          "qt": 90,
+          "valor": 2205.0,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "XAROPE  MONIN CRANBERRY 330 ML",
+          "fantasia": "MONIN",
+          "qt": 96,
+          "valor": 2352.0,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "XAROPE MONIN MORANGO 330 ML",
+          "fantasia": "MONIN",
+          "qt": 30,
+          "valor": 735.0,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "XAROPE  MONIN  MAÇA VERDE 330 ML",
+          "fantasia": "MONIN",
+          "qt": 48,
+          "valor": 1176.0,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "XAROPE  MONIN TANGERINA 330 ML",
+          "fantasia": "MONIN",
+          "qt": 42,
+          "valor": 1029.0,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "XAROPE MONIN GENGIBRE 330 ML",
+          "fantasia": "MONIN",
+          "qt": 18,
+          "valor": 441.0,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "XAROPE MONIN LIMÃO GLASCO 330 ML",
+          "fantasia": "MONIN",
+          "qt": 114,
+          "valor": 2793.0,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+          "fantasia": "YVY",
+          "qt": 228,
+          "valor": 6817.2,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "YVY DESTILADO GIN MAR GF 750ML",
+          "fantasia": "YVY",
+          "qt": 78,
+          "valor": 4282.2,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "XAROPE MONIN GENGIBRE 330 ML",
+          "fantasia": "MONIN",
+          "qt": 60,
+          "valor": 1470.0,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "XAROPE  MONIN CRANBERRY 330 ML",
+          "fantasia": "MONIN",
+          "qt": 84,
+          "valor": 2058.0,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
           "data": "29/07/2026",
           "codcli": "30723",
           "cliente": "SUPERMERCADO BAHAMAS S/A",
@@ -672307,6 +672263,28 @@ const VENDAS_DATA = {
           "fantasia": "MONIN",
           "qt": 252,
           "valor": 5266.8,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30723",
+          "cliente": "SUPERMERCADO BAHAMAS S/A",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 60,
+          "valor": 5952.0,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30723",
+          "cliente": "SUPERMERCADO BAHAMAS S/A",
+          "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+          "fantasia": "DON LUIZ",
+          "qt": 150,
+          "valor": 9750.0,
           "tipo": "Venda",
           "offtrade": true
         },
