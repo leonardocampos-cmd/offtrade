@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "30/07/2026 15:41",
+  "atualizado_em": "30/07/2026 16:05",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -238,10 +238,10 @@ const CRUSOE_DATA = {
         {
           "rca": 412,
           "vendedor": "Barbara Cabral",
-          "pedidos": 17,
+          "pedidos": 18,
           "positivacoes": 13,
           "novos_skus": 111,
-          "faturamento": 36602.91,
+          "faturamento": 36852.91,
           "pontos_positivacao": 65,
           "pontos_novos_skus": 444,
           "pontos_pedidos_valor": 27,
@@ -1742,6 +1742,21 @@ const CRUSOE_DATA = {
                   ]
                 }
               ]
+            },
+            {
+              "numnota": "417064",
+              "data": "30/07/2026",
+              "cliente": "PALMARES DISTRIBUIDORA DE PRODUTOS ALIMENTICIOS LTDA",
+              "valor_pedido": 250.0,
+              "eventos": [],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 1.0,
+                  "valor": 250.0,
+                  "pontuacoes": []
+                }
+              ]
             }
           ]
         },
@@ -2155,14 +2170,14 @@ const CRUSOE_DATA = {
         {
           "rca": 419,
           "vendedor": "Natali de Oliveira",
-          "pedidos": 14,
-          "positivacoes": 12,
-          "novos_skus": 14,
-          "faturamento": 2115.42,
-          "pontos_positivacao": 60,
-          "pontos_novos_skus": 56,
+          "pedidos": 15,
+          "positivacoes": 13,
+          "novos_skus": 15,
+          "faturamento": 2365.42,
+          "pontos_positivacao": 65,
+          "pontos_novos_skus": 60,
           "pontos_pedidos_valor": 0,
-          "pontos_total": 116,
+          "pontos_total": 125,
           "vendas": [
             {
               "numnota": "409254",
@@ -2495,6 +2510,31 @@ const CRUSOE_DATA = {
                   "produto": "RC SARDINHA EM OLEO 50X125G",
                   "qt": 1.0,
                   "valor": 240.0,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "417066",
+              "data": "30/07/2026",
+              "cliente": "ELECILDO SIMAO DA SILVA 90866959491",
+              "valor_pedido": 250.0,
+              "eventos": [
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 1.0,
+                  "valor": 250.0,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -2965,7 +3005,7 @@ const CRUSOE_DATA = {
           "rca": 379,
           "vendedor": "Jorge Maciel",
           "clientes_gourmet": 0,
-          "faturamento": 8262.28,
+          "faturamento": 11187.28,
           "faturamento_gourmet": 0.0,
           "pontos_total": 0,
           "vendas": []
