@@ -15640,5 +15640,557 @@
       "motivo": "REPONSÁVEL PELO PAGAMENTO AUSENTE OU CLIENTE SEM MÉTODO — Responsável pelo pagamento ausente, vendedor Bees está ciente",
       "valor": "R$ 196,70"
     }
+  ],
+  "2026-07-29": [
+    {
+      "nf": "6978",
+      "rca": 144,
+      "rca_nome": "DIOGO RAPOSO",
+      "cliente": "REZENDE ALIMENTOS JPA LTDA",
+      "rota": "undefined / MERC.REZENDE + DOM ATACAREJO",
+      "responsavel": "Vendas",
+      "motivo": "ESTABELECIMENTO COM NECESSIDADES ESPECIAIS — Horário de recebimento só até às 15h, vendedor Diogo Raposo está ciente.",
+      "valor": "R$ 2.252,10"
+    },
+    {
+      "nf": "415843",
+      "rca": 144,
+      "rca_nome": "DIOGO RAPOSO",
+      "cliente": "REZENDE ALIMENTOS JPA LTDA",
+      "rota": "undefined / MERC.REZENDE + DOM ATACAREJO",
+      "responsavel": "Vendas",
+      "motivo": "ESTABELECIMENTO COM NECESSIDADES ESPECIAIS — Horário de recebimento só até às 15h, vendedor Diogo Raposo está ciente.",
+      "valor": "R$ 1.241,98"
+    },
+    {
+      "nf": "415795",
+      "rca": 155,
+      "rca_nome": "RAPHAEL SANTOS",
+      "cliente": "LG RESTAURANTE LTDA",
+      "rota": "undefined / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 988,20"
+    },
+    {
+      "nf": "415796",
+      "rca": 155,
+      "rca_nome": "RAPHAEL SANTOS",
+      "cliente": "JUBA BAR E RESTAURANTE LTDA",
+      "rota": "undefined / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 485,70"
+    },
+    {
+      "nf": "415973",
+      "rca": 155,
+      "rca_nome": "RAPHAEL SANTOS",
+      "cliente": "LG RESTAURANTE LTDA",
+      "rota": "undefined / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 958,20"
+    },
+    {
+      "nf": "415680",
+      "rca": 155,
+      "rca_nome": "RAPHAEL SANTOS",
+      "cliente": "PIZZARIA E RESTAURANTE PINO LTDA ME",
+      "rota": "undefined / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 539,40"
+    },
+    {
+      "nf": "415679",
+      "rca": 155,
+      "rca_nome": "RAPHAEL SANTOS",
+      "cliente": "SB MONTENEGRO RESTAURANTE LTDA",
+      "rota": "undefined / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 789,60"
+    },
+    {
+      "nf": "415794",
+      "rca": 155,
+      "rca_nome": "RAPHAEL SANTOS",
+      "cliente": "DJM ROUX PIZZARIA E RESTAURANTE EIRELI",
+      "rota": "undefined / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 1.164,60"
+    },
+    {
+      "nf": "415925",
+      "rca": 155,
+      "rca_nome": "RAPHAEL SANTOS",
+      "cliente": "BELLI BELLI RESTAURANTE LTDA",
+      "rota": "undefined / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 339,70"
+    },
+    {
+      "nf": "415920",
+      "rca": 155,
+      "rca_nome": "RAPHAEL SANTOS",
+      "cliente": "BELLI BELLI RESTAURANTE EIRELI",
+      "rota": "undefined / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 409,70"
+    },
+    {
+      "nf": "415975",
+      "rca": 155,
+      "rca_nome": "RAPHAEL SANTOS",
+      "cliente": "XERE BAR E RESTAURANTE LTDA",
+      "rota": "undefined / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 1.472,70"
+    },
+    {
+      "nf": "415972",
+      "rca": 155,
+      "rca_nome": "RAPHAEL SANTOS",
+      "cliente": "LG RESTAURANTE LTDA",
+      "rota": "undefined / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 237,44"
+    },
+    {
+      "nf": "413945",
+      "rca": 155,
+      "rca_nome": "RAPHAEL SANTOS",
+      "cliente": "XERE BAR E RESTAURANTE LTDA",
+      "rota": "undefined / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 273,48"
+    },
+    {
+      "nf": "416004",
+      "rca": 159,
+      "rca_nome": "GISELLE BARFER",
+      "cliente": "HUNA BISTRO LTDA",
+      "rota": "undefined / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 2.694,60"
+    },
+    {
+      "nf": "416003",
+      "rca": 159,
+      "rca_nome": "GISELLE BARFER",
+      "cliente": "HUNA BISTRO LTDA",
+      "rota": "undefined / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 249,57"
+    },
+    {
+      "nf": "415923",
+      "rca": 159,
+      "rca_nome": "GISELLE BARFER",
+      "cliente": "V. C. MARTINS RESTAURANTE LTDA",
+      "rota": "undefined / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 380,50"
+    },
+    {
+      "nf": "415933",
+      "rca": 159,
+      "rca_nome": "GISELLE BARFER",
+      "cliente": "LFM BAR E EVENTOS LTDA",
+      "rota": "undefined / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 502,80"
+    },
+    {
+      "nf": "415980",
+      "rca": 159,
+      "rca_nome": "GISELLE BARFER",
+      "cliente": "APC DELIVERY LTDA",
+      "rota": "undefined / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 664,80"
+    },
+    {
+      "nf": "415949",
+      "rca": 159,
+      "rca_nome": "GISELLE BARFER",
+      "cliente": "COTRINGER MERCEARIA E PANIFICACAO LTDA",
+      "rota": "undefined / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 1.553,06"
+    },
+    {
+      "nf": "415979",
+      "rca": 159,
+      "rca_nome": "GISELLE BARFER",
+      "cliente": "LONDON BAR E PETISCARIA LTDA",
+      "rota": "undefined / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 181,50"
+    },
+    {
+      "nf": "415934",
+      "rca": 241,
+      "rca_nome": "ZEINALDO DE OLIVEIRA",
+      "cliente": "LUCIANA DA SILVA PROCOPIO DAS NEVES 08399692794",
+      "rota": "undefined / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 838,80"
+    },
+    {
+      "nf": "415937",
+      "rca": 378,
+      "rca_nome": "FABIO VALOTTI",
+      "cliente": "VIDA & RAIZ DO FLAMENGO PRODUTOS NATURAIS LTDA",
+      "rota": "undefined / SUL 2 + BOTAFOGO",
+      "responsavel": "Logística",
+      "motivo": "PRODUTO AVARIADO — mercadoria HYDRO PROTEIN estragada e com mau cheiro . Fabio Valotti ciente",
+      "valor": "R$ 274,42"
+    },
+    {
+      "nf": "415833",
+      "rca": 106,
+      "rca_nome": "FERNANDO CESAR",
+      "cliente": "DEPOSITO DE GELO CRISTALY COMERCIO VAREJISTA LTDA",
+      "rota": "undefined / CENTRO + SANTO CRISTO",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE DESISTIU DA COMPRA — Cliente desistiu da compra, vendedor Fernando Cesar está ciente e solicitou o cancelamento da NF.",
+      "valor": "R$ 7.770,01"
+    },
+    {
+      "nf": "415793",
+      "rca": 112,
+      "rca_nome": "LUCAS MATIAS",
+      "cliente": "VITAL E SOUZA COMERCIO DE BEBIDAS, PRODUTOS ALIMENTICIOS, BA",
+      "rota": "undefined / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 359,52"
+    },
+    {
+      "nf": "415651",
+      "rca": 152,
+      "rca_nome": "PEDRO RANGEL",
+      "cliente": "LOLLA GASTRONOMIA LTDA",
+      "rota": "undefined / BOTAFOGO",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE DESISTIU DA COMPRA — . Cliente desistiu da compra, vendedor Pedro Rangel está ciente.",
+      "valor": "R$ 300,00"
+    },
+    {
+      "nf": "415022",
+      "rca": 154,
+      "rca_nome": "GIOVANNA PORTELA",
+      "cliente": "ESPETO E CERVEJA DA PRACA LTDA",
+      "rota": "undefined / TIJUCA",
+      "responsavel": "Vendas",
+      "motivo": "LOCAL FECHADO - VENDAS NÃO INFORMOU — Estabelecimento fechado, vendedora Giovanna Portela ciente, a mesma não conseguiu contato com o cliente.",
+      "valor": "R$ 263,06"
+    },
+    {
+      "nf": "415932",
+      "rca": 154,
+      "rca_nome": "GIOVANNA PORTELA",
+      "cliente": "MERIDIANA TURISMO LTDA",
+      "rota": "undefined / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 868,80"
+    },
+    {
+      "nf": "415971",
+      "rca": 154,
+      "rca_nome": "GIOVANNA PORTELA",
+      "cliente": "MERIDIANA TURISMO LTDA FILIAL",
+      "rota": "undefined / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 300,00"
+    },
+    {
+      "nf": "416079",
+      "rca": 171,
+      "rca_nome": "FELIPE OLIVEIRA",
+      "cliente": "ESPACO CULTURAL MUSICORUM LTDA",
+      "rota": "undefined / ZONA SUL",
+      "responsavel": "A Definir",
+      "motivo": "CLIENTE NÃO ESTAVA NA LOJA PARA RECEBER — Cliente não estava na loja , essa informação foi passada ao apoio logístico vendedor Felipe Oliveira ciente",
+      "valor": "R$ 490,30"
+    },
+    {
+      "nf": "415914",
+      "rca": 278,
+      "rca_nome": "RAQUEL SANTOS",
+      "cliente": "SATURLLEN BAR E PIZZARIA I LTDA",
+      "rota": "undefined / NITEROI",
+      "responsavel": "Faturamento",
+      "motivo": "DADOS INCORRETOS NA NOTA FISCAL — Pedido com a quantidade errada, vendedora Raquel Santos informou que o cliente iria receber, passamos essa informação para a equipe, mas os mesmos não retornou no cliente para fazer a entrega e voltaram com a NF.",
+      "valor": "R$ 253,60"
+    },
+    {
+      "nf": "415835",
+      "rca": 278,
+      "rca_nome": "RAQUEL SANTOS",
+      "cliente": "CAFE E BAR ESMORIZENSE LTDA",
+      "rota": "undefined / CENTRO + SANTO CRISTO",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE ALEGA NÃO TER FEITO O PEDIDO — Cliente não fez o pedido, vendedora Raquel Santos está ciente e solicitou o cancelamento da NF.",
+      "valor": "R$ 258,84"
+    },
+    {
+      "nf": "415863",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "ESPACO ORIGINAL FOOD PARK LTDA",
+      "rota": "undefined / RECREIO",
+      "responsavel": "Vendas",
+      "motivo": "LOCAL FECHADO - VENDAS NÃO INFORMOU — Estabelecimento fechado, vendedora Lais Poppe está ciente.",
+      "valor": "R$ 252,60"
+    },
+    {
+      "nf": "415974",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "SAND BUZIOS HOTEL LTDA",
+      "rota": "undefined / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 693,60"
+    },
+    {
+      "nf": "415850",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "FAMILIA PRODUTOS DE ALIMENTOS E BEBIDAS LTDA",
+      "rota": "undefined / COPACABANA",
+      "responsavel": "Vendas",
+      "motivo": "PEDIDO RECUSADO — Cliente se recusou a receber, pois não enviaram a bonificação. Vendedora Lais Poppe está ciente.",
+      "valor": "R$ 4.652,80"
+    },
+    {
+      "nf": "415997",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "SANTA CATARINA RESTAURANTE, ENTRETENIMENTO E PARTICIPACOES S",
+      "rota": "undefined / CENTRO + SANTO CRISTO",
+      "responsavel": "Faturamento",
+      "motivo": "DADOS INCORRETOS NA NOTA FISCAL — Cliente alega que o valor não está de acordo com o combinado, vendedora Lais Poppe está ciente e solicitou o cancelamento da NF.",
+      "valor": "R$ 177,80"
+    },
+    {
+      "nf": "415825",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "ADORE ILHA RESTAURANTE LTDA",
+      "rota": "undefined / ILHA + SÃO CRISTOVAO",
+      "responsavel": "Faturamento",
+      "motivo": "DADOS INCORRETOS NA NOTA FISCAL — PEDIDO ERRADO, CLIENTE INFORMOU QUE NAO PEDIU O APERITIVO RAMAZZOTTI  AMARA, VENDEDORA LAIS POPPE CIENTE",
+      "valor": "R$ 478,30"
+    },
+    {
+      "nf": "415826",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "ADORE ILHA RESTAURANTE LTDA",
+      "rota": "undefined / ILHA + SÃO CRISTOVAO",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE ALEGA NÃO TER FEITO O PEDIDO — CLIENTE ALEGA NÃO TER FEITO O PEDIDO, VENDEDORA LAIS POPPE CIENTE",
+      "valor": "R$ 1.707,00"
+    },
+    {
+      "nf": "415674",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "WISH S.A.",
+      "rota": "undefined / ILHA + SÃO CRISTOVAO",
+      "responsavel": "Vendas",
+      "motivo": "PEDIDO DUPLICADO — PEDIDO DUPLICADO, CLIENTE JÁ RECEBEU, VENDEDORA LAIS POPPE CIENTE",
+      "valor": "R$ 803,50"
+    },
+    {
+      "nf": "416077",
+      "rca": 35,
+      "rca_nome": "LAIS POPPE VILLANOVA",
+      "cliente": "TROPECO BAR E RESTAURANTE LTDA",
+      "rota": "undefined / ZONA SUL",
+      "responsavel": "Faturamento",
+      "motivo": "NOTA DUPLICADA — Nota cancelada pedido duplicado , essa informação foi passada ao apoio logístico vendedora lais POPPE ciente",
+      "valor": "R$ 509,44"
+    },
+    {
+      "nf": "415474",
+      "rca": 413,
+      "rca_nome": "THIAGO NASCIMENTO",
+      "cliente": "12 ALIMENTOS COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+      "rota": "undefined / BARRA",
+      "responsavel": "Vendas",
+      "motivo": "CANCELAMENTO — Cliente irá refazer o pedido, vendedor Thiago Nascimento está ciente e confirmou.",
+      "valor": "R$ 268,36"
+    },
+    {
+      "nf": "415995",
+      "rca": 438,
+      "rca_nome": "TAMIRES GOMES",
+      "cliente": "CENTRO EDUCACIONAL ORION LTDA",
+      "rota": "undefined / JPA + TAQUARA",
+      "responsavel": "Vendas",
+      "motivo": "ESTABELECIMENTO INDISPONÍVEL PARA RECEBIMENTO — ESTABELECIMENTO INDISPONÍVEL PARA RECEBIMENTO HOJE, VENDEDOR TAMIRES GOMES ENTROU EM CONTATO E PEDIU PARA ENTREGAR AMANHÃ",
+      "valor": "R$ 954,96"
+    },
+    {
+      "nf": "6976",
+      "rca": 450,
+      "rca_nome": "N/D",
+      "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+      "rota": "undefined / MERC. BOM PREÇO NITEROI",
+      "responsavel": "Vendas",
+      "motivo": "ESTABELECIMENTO COM NECESSIDADES ESPECIAIS — .Horário de recebimento só até às 15h, vendedor Leandro Souza está ciente.",
+      "valor": "R$ 933,24"
+    },
+    {
+      "nf": "415913",
+      "rca": 450,
+      "rca_nome": "N/D",
+      "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+      "rota": "undefined / MERC. BOM PREÇO NITEROI",
+      "responsavel": "Vendas",
+      "motivo": "ESTABELECIMENTO COM NECESSIDADES ESPECIAIS — Horário de recebimento só até às 15h, vendedor Leandro Souza está ciente.",
+      "valor": "R$ 796,08"
+    },
+    {
+      "nf": "6972",
+      "rca": 450,
+      "rca_nome": "N/D",
+      "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+      "rota": "undefined / MERC.BOM PREÇO MARICA",
+      "responsavel": "Logística",
+      "motivo": "FORA DO HORÁRIO DE ENTREGA - ATRASO NA ROTA — Horário de recebimento só até às 15h, vendedor Leandro Souza está ciente.",
+      "valor": "R$ 529,80"
+    },
+    {
+      "nf": "415922",
+      "rca": 92,
+      "rca_nome": "AUGUSTO SILVA",
+      "cliente": "BOA NOVA DE BUZIOS RESTAURANTE LTDA",
+      "rota": "undefined / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 2.157,60"
+    },
+    {
+      "nf": "415976",
+      "rca": 92,
+      "rca_nome": "AUGUSTO SILVA",
+      "cliente": "BOA NOVA DE BUZIOS RESTAURANTE LTDA",
+      "rota": "undefined / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 359,60"
+    },
+    {
+      "nf": "415120",
+      "rca": 98,
+      "rca_nome": "CARLOS ARTHUR NETO",
+      "cliente": "KSR BAR E RESTAURANTE LTDA",
+      "rota": "undefined / NITEROI",
+      "responsavel": "Vendas",
+      "motivo": "CLIENTE DESISTIU DA COMPRA — Cliente desistiu do pedido, vendedor Carlos Arthur Neto está ciente e confirmou o cancelamento.",
+      "valor": "R$ 557,80"
+    },
+    {
+      "nf": "415792",
+      "rca": 98,
+      "rca_nome": "CARLOS ARTHUR NETO",
+      "cliente": "MANE BUZIOS LTDA",
+      "rota": "undefined / BUZIOS",
+      "responsavel": "Logística",
+      "motivo": "Pendente de Baixa",
+      "valor": "R$ 407,38"
+    },
+    {
+      "nf": "415555",
+      "rca": 324,
+      "rca_nome": "Não Identificado",
+      "cliente": "BOTECO DA MARIO LTDA",
+      "rota": "undefined / NOVA IGUAÇU",
+      "responsavel": "Vendas",
+      "motivo": "FORMA DE PAGAMENTO DIVERGENTE — Cliente informou que a forma de pagamento está errada, era pra ser em boleto. Esperando o retorno do vendedor Luiz Oliveira, para sabermos se vai para cancelamento ou não.",
+      "valor": "R$ 1.197,60"
+    },
+    {
+      "nf": "415644",
+      "rca": 437,
+      "rca_nome": "BEES",
+      "cliente": "EMPORIO SR. ANTONIO LTDA",
+      "rota": "undefined / NITEROI",
+      "responsavel": "Vendas",
+      "motivo": "LOCAL FECHADO - VENDAS NÃO INFORMOU — Estabelecimento fechado, vendedor Bees está ciente",
+      "valor": "R$ 251,10"
+    },
+    {
+      "nf": "415687",
+      "rca": 437,
+      "rca_nome": "BEES",
+      "cliente": "ANDERSON LOPES DA SILVA",
+      "rota": "undefined / NOVA IGUAÇU",
+      "responsavel": "Vendas",
+      "motivo": "LOCAL FECHADO - VENDAS NÃO INFORMOU — Estabelecimento fechado, vendedor Bees está ciente.",
+      "valor": "R$ 258,70"
+    },
+    {
+      "nf": "415676",
+      "rca": 437,
+      "rca_nome": "BEES",
+      "cliente": "GABIFE DISTRIBUIDORA DE BEBIDAS EIRELI",
+      "rota": "undefined / NORTE + EVENTO",
+      "responsavel": "Vendas",
+      "motivo": "LOCAL FECHADO - VENDAS NÃO INFORMOU — Estabelecimento fechado, vendedor Bees está ciente.",
+      "valor": "R$ 616,20"
+    },
+    {
+      "nf": "415645",
+      "rca": 437,
+      "rca_nome": "BEES",
+      "cliente": "DROGARIA REDENTOR LTDA",
+      "rota": "undefined / SUL 2 + BOTAFOGO",
+      "responsavel": "Logística",
+      "motivo": "PRODUTO AVARIADO — mercadoria HYDRO PROTEIN estragada e com mau cheiro . Bees ciente",
+      "valor": "R$ 293,70"
+    },
+    {
+      "nf": "414982",
+      "rca": 457,
+      "rca_nome": "Não Identificado",
+      "cliente": "FELPROTIZ BAR E RESTAURANTE LTDA",
+      "rota": "undefined / NITEROI",
+      "responsavel": "Vendas",
+      "motivo": "LOCAL FECHADO - VENDAS NÃO INFORMOU — Estabelecimento fechado, só abre a partir das 16h, informação passada pelo vendedor Alexandre Sakrin.",
+      "valor": "R$ 283,26"
+    },
+    {
+      "nf": "415836",
+      "rca": 457,
+      "rca_nome": "Não Identificado",
+      "cliente": "FELPROTIZ BAR E RESTAURANTE LTDA",
+      "rota": "undefined / NITEROI",
+      "responsavel": "Vendas",
+      "motivo": "LOCAL FECHADO - VENDAS NÃO INFORMOU — . Estabelecimento fechado, só abre a partir das 16h, informação passada pelo vendedor Alexandre Sakrin.",
+      "valor": "R$ 422,37"
+    }
   ]
 }
