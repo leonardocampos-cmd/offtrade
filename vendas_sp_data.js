@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "30/07/2026 14:43",
+  "atualizado_em": "30/07/2026 15:05",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -80,6 +80,7 @@ const VENDAS_SP_DATA = {
     "PAULO SALES": "508",
     "JOAQUIM ANGELO": "516",
     "JOAO AUGUSTO": "507",
+    "ROSANA AFFONSO": "510",
     "HELENA CAVALCANTI": "514"
   },
   "por_vendedor": {
@@ -134463,6 +134464,20 @@ const VENDAS_SP_DATA = {
         }
       ]
     },
+    "ROSANA AFFONSO": {
+      "Jul/26": [
+        {
+          "data": "23/07/2026",
+          "codcli": "52023",
+          "cliente": "ADEGA GOLDEN BEER LTDA",
+          "produto": "LICOR BALLENA MORANGO 750ML",
+          "fantasia": "BALLENA",
+          "qt": 30,
+          "valor": 2397.0,
+          "offtrade": false
+        }
+      ]
+    },
     "HELENA CAVALCANTI": {
       "Jul/26": [
         {
@@ -136503,6 +136518,13 @@ const VENDAS_SP_DATA = {
         "fat": 1674.0,
         "pos": 1.0,
         "fat_pernod": 1674.0,
+        "fat_ant": 0.0,
+        "fat_ano_ant": 0.0
+      }
+    },
+    "ROSANA AFFONSO": {
+      "Jul/26": {
+        "fat": 2397.0,
         "fat_ant": 0.0,
         "fat_ano_ant": 0.0
       }
