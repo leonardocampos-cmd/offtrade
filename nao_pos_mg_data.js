@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "28/07/2026 13:07",
+  "atualizado_em": "30/07/2026 11:17",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -125,6 +125,26 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "35726",
+        "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
+        "bairro": "MILIONÁRIOS (BARREIRO)",
+        "dtultcomp": "18/05/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 184.56
+          },
+          {
+            "produto": "RED BULL SUGAR FREE 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 184.56
+          }
+        ]
+      },
+      {
         "codcli": "35724",
         "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
         "bairro": "MORADA DA SERRA",
@@ -144,26 +164,6 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "RED BULL TROPICAL 24X250 ML - ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          }
-        ]
-      },
-      {
-        "codcli": "35726",
-        "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
-        "bairro": "MILIONÁRIOS (BARREIRO)",
-        "dtultcomp": "18/05/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          },
-          {
-            "produto": "RED BULL SUGAR FREE 24X250ML ENERG",
             "fantasia": "",
             "qt": 1,
             "valor": 184.56
@@ -269,32 +269,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 4,
             "valor": 738.24
-          }
-        ]
-      },
-      {
-        "codcli": "37495",
-        "cliente": "ESTORIL CONVENIENCIA LTDA",
-        "bairro": "NOVA SUÍSSA",
-        "dtultcomp": "28/05/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          },
-          {
-            "produto": "RED BULL SUGAR FREE 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 189.36
           }
         ]
       },
@@ -469,50 +443,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35189",
-        "cliente": "MAGNUS SOCIEDADE COMERCIAL LIMITADA",
-        "bairro": "SANTA HELENA",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN BEEFEATER 750ML",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 826.8
-          },
-          {
-            "produto": "GIN GORDONS 750 ML",
-            "fantasia": "DIAGEO",
-            "qt": 12,
-            "valor": 586.8
-          },
-          {
-            "produto": "GIN GORDONS PINK 700ML",
-            "fantasia": "DIAGEO",
-            "qt": 12,
-            "valor": 586.8
-          },
-          {
-            "produto": "VODKA ORLOFF 1L",
-            "fantasia": "PERNOD",
-            "qt": 24,
-            "valor": 525.6
-          },
-          {
-            "produto": "VODKA SMIRNOFF RED 998 ML",
-            "fantasia": "DIAGEO",
-            "qt": 12,
-            "valor": 334.8
-          },
-          {
-            "produto": "WHISKY ROYAL SALUTE 700 ML",
-            "fantasia": "PERNOD",
-            "qt": 2,
-            "valor": 1399.8
-          }
-        ]
-      },
-      {
         "codcli": "39027",
         "cliente": "SUPERMERCADO PEJOAL LTDA",
         "bairro": "LINDÉIA (BARREIRO)",
@@ -582,6 +512,58 @@ const NAO_POS_MG_DATA = {
       }
     ],
     "JOÃO SANTOS": [
+      {
+        "codcli": "32797",
+        "cliente": "AECIO LUCAS LACERDA",
+        "bairro": "OURO PRETO",
+        "dtultcomp": "25/03/2025",
+        "produtos": [
+          {
+            "produto": "4 PACK RED BULL AMORA SUGAR FREE 250ML",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 87.48
+          },
+          {
+            "produto": "GIN GORDONS 750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 3,
+            "valor": 224.7
+          },
+          {
+            "produto": "GIN TANQUERAY  750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 3,
+            "valor": 314.7
+          },
+          {
+            "produto": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
+            "fantasia": "DIAGEO",
+            "qt": 2,
+            "valor": 529.8
+          }
+        ]
+      },
+      {
+        "codcli": "33617",
+        "cliente": "CERVEJARIA COLDER INDUSTRIA E COMERCIO LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "05/05/2025",
+        "produtos": [
+          {
+            "produto": "RUM MONTILLA OURO 1000ML",
+            "fantasia": "PERNOD",
+            "qt": 12,
+            "valor": 358.8
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 18,
+            "valor": 718.2
+          }
+        ]
+      },
       {
         "codcli": "33496",
         "cliente": "MULLIGAN S BAR LTDA",
@@ -833,20 +815,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 1,
             "valor": 68.9
-          }
-        ]
-      },
-      {
-        "codcli": "36279",
-        "cliente": "CONCLAVE MEDICO DESPORTIVO CULTURAL",
-        "bairro": "BOA VIAGEM",
-        "dtultcomp": "13/05/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 10,
-            "valor": 1413.6
           }
         ]
       },
@@ -1223,38 +1191,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35323",
-        "cliente": "LANCHE LEGAL COMERCIO LTDA",
-        "bairro": "PAMPULHA",
-        "dtultcomp": "29/05/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK  RED BULL MORANGO PESSEGO",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 23.56
-          },
-          {
-            "produto": "4 PACK RED BULL SUGAR FREE",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 70.68
-          },
-          {
-            "produto": "4 PACK RED BULL ZERO",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 70.68
-          },
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          }
-        ]
-      },
-      {
         "codcli": "38897",
         "cliente": "LCA COMERCIO LTDA",
         "bairro": "PAMPULHA",
@@ -1280,32 +1216,6 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          }
-        ]
-      },
-      {
-        "codcli": "33894",
-        "cliente": "ASSOCIACAO ATLETICA ACADEMICA DIREITO UFMG VETUSTA CASA DE A",
-        "bairro": "CENTRO",
-        "dtultcomp": "01/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL ZERO",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 47.12
-          },
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
             "fantasia": "RED BULL",
             "qt": 1,
             "valor": 141.36
@@ -1479,44 +1389,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35390",
-        "cliente": "AEROJR CONSULTORIA E CAPACITACAO",
-        "bairro": "PAMPULHA",
-        "dtultcomp": "09/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK  RED BULL",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 70.68
-          },
-          {
-            "produto": "4 PACK RED BULL NECTARINA  SF",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 70.68
-          },
-          {
-            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 23.56
-          },
-          {
-            "produto": "4 PACK RED BULL WINTER JUNEBERRY/CEREJA",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 47.12
-          },
-          {
-            "produto": "4 PACK RED BULL ZERO",
-            "fantasia": "RED BULL",
-            "qt": 4,
-            "valor": 94.24
-          }
-        ]
-      },
-      {
         "codcli": "31903",
         "cliente": "CB BH COMERCIO DE ALIMENTOS LTDA",
         "bairro": "BELVEDERE",
@@ -1527,32 +1399,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "PERNOD",
             "qt": 15,
             "valor": 643.5
-          }
-        ]
-      },
-      {
-        "codcli": "35356",
-        "cliente": "MULT JR - CONSULTORIA E PROJETOS",
-        "bairro": "PAMPULHA",
-        "dtultcomp": "09/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
-            "fantasia": "RED BULL",
-            "qt": 6,
-            "valor": 141.36
-          },
-          {
-            "produto": "4 PACK RED BULL ZERO",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 47.12
-          },
-          {
-            "produto": "RED BULL NECTARINA SF 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
           }
         ]
       },
@@ -1687,308 +1533,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35305",
-        "cliente": "ANDERSON LUIZ LIBRELON 57671583634",
-        "bairro": "CORAÇÃO EUCARÍSTICO",
-        "dtultcomp": "12/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK  RED BULL",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 23.56
-          },
-          {
-            "produto": "4 PACK  RED BULL  MAÇA SF",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 47.12
-          },
-          {
-            "produto": "4 PACK  RED BULL MORANGO PESSEGO",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 23.56
-          },
-          {
-            "produto": "4 PACK RED BULL TROPICAL",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 47.12
-          }
-        ]
-      },
-      {
-        "codcli": "35380",
-        "cliente": "E&G LANCHES, EVENTOS E PROMOCOES LTDA",
-        "bairro": "CORAÇÃO EUCARÍSTICO",
-        "dtultcomp": "12/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK  RED BULL  MAÇA SF",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 47.12
-          },
-          {
-            "produto": "4 PACK  RED BULL MORANGO PESSEGO",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 70.68
-          },
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 47.12
-          },
-          {
-            "produto": "4 PACK RED BULL NECTARINA  SF",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 47.12
-          },
-          {
-            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 47.12
-          },
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          }
-        ]
-      },
-      {
-        "codcli": "35400",
-        "cliente": "LCA COMERCIO LTDA",
-        "bairro": "PAMPULHA",
-        "dtultcomp": "12/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 424.08
-          },
-          {
-            "produto": "RED BULL AMORA EDITION SF 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL NECTARINA SF 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 282.72
-          }
-        ]
-      },
-      {
-        "codcli": "35398",
-        "cliente": "LCA COMERCIO LTDA",
-        "bairro": "PAMPULHA",
-        "dtultcomp": "12/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL AMORA EDITION SF 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL NECTARINA SF 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          }
-        ]
-      },
-      {
-        "codcli": "38896",
-        "cliente": "LCA COMERCIO LTDA",
-        "bairro": "PAMPULHA",
-        "dtultcomp": "12/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL AMORA EDITION SF 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL NECTARINA SF 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          }
-        ]
-      },
-      {
-        "codcli": "35396",
-        "cliente": "ASSOCIACAO ATLETICA DA FACULDADE DE FILOSOFIA E CIENCIAS HUM",
-        "bairro": "PAMPULHA",
-        "dtultcomp": "15/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 47.12
-          },
-          {
-            "produto": "4 PACK RED BULL TROPICAL",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 47.12
-          },
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL NECTARINA SF 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL SF POMELO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          }
-        ]
-      },
-      {
-        "codcli": "35399",
-        "cliente": "EMAS EMPRESA JR DE MEIO AMBIENTE E SANEAMENTO/ UFMG",
-        "bairro": "CAMPUS UFMG",
-        "dtultcomp": "15/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 5,
-            "valor": 706.8
-          }
-        ]
-      },
-      {
         "codcli": "39221",
         "cliente": "HENRIQUE PEREIRA FURTADO",
         "bairro": "PAMPULHA",
@@ -2017,136 +1561,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "RED BULL",
             "qt": 1,
             "valor": 141.36
-          }
-        ]
-      },
-      {
-        "codcli": "35392",
-        "cliente": "HR - LANCHES PROMOCOES E EVENTOS LTDA",
-        "bairro": "PAMPULHA",
-        "dtultcomp": "15/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 8,
-            "valor": 1130.88
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 5,
-            "valor": 706.8
-          },
-          {
-            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 5,
-            "valor": 706.8
-          }
-        ]
-      },
-      {
-        "codcli": "35387",
-        "cliente": "HR - LANCHES PROMOCOES E EVENTOS LTDA",
-        "bairro": "PAMPULHA",
-        "dtultcomp": "15/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 8,
-            "valor": 1130.88
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 5,
-            "valor": 706.8
-          },
-          {
-            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 5,
-            "valor": 706.8
-          }
-        ]
-      },
-      {
-        "codcli": "36546",
-        "cliente": "JOAO PEDRO  CRESPO  MARRA",
-        "bairro": "PAMPULHA",
-        "dtultcomp": "15/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK  RED BULL",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 70.68
-          },
-          {
-            "produto": "4 PACK RED BULL NECTARINA  SF",
-            "fantasia": "RED BULL",
-            "qt": 4,
-            "valor": 94.24
-          },
-          {
-            "produto": "4 PACK RED BULL POMELO SF",
-            "fantasia": "RED BULL",
-            "qt": 4,
-            "valor": 94.24
-          },
-          {
-            "produto": "4 PACK RED BULL SUGAR FREE",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 70.68
-          }
-        ]
-      },
-      {
-        "codcli": "37523",
-        "cliente": "LANCHE LEGAL ALIMENTACAO E EVENTOS LTDA",
-        "bairro": "PAMPULHA",
-        "dtultcomp": "15/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 23.56
-          },
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          }
-        ]
-      },
-      {
-        "codcli": "36370",
-        "cliente": "LÍVIA  FERRAZ DE OLIVEIRA",
-        "bairro": "PAMPULHA",
-        "dtultcomp": "15/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 47.12
-          },
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 4,
-            "valor": 565.44
           }
         ]
       },
@@ -2217,38 +1631,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35382",
-        "cliente": "VINY LANCHES LTDA",
-        "bairro": "CORAÇÃO EUCARÍSTICO",
-        "dtultcomp": "16/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 4,
-            "valor": 565.44
-          },
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 424.08
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 282.72
-          }
-        ]
-      },
-      {
         "codcli": "39124",
         "cliente": "BRUNA RESENDE SIQUEIRA",
         "bairro": "PAMPULHA",
@@ -2273,40 +1655,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "CASTAS",
             "qt": 36,
             "valor": 2876.4
-          }
-        ]
-      },
-      {
-        "codcli": "36803",
-        "cliente": "CRIA COMUNICACAO JUNIOR",
-        "bairro": "PAMPULHA",
-        "dtultcomp": "17/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 4,
-            "valor": 565.44
-          }
-        ]
-      },
-      {
-        "codcli": "36882",
-        "cliente": "DIRETORIO ACADEMICO DOS CURSOS DE ADMINISTRACAO, CIENCIAS CO",
-        "bairro": "CORAÇÃO EUCARÍSTICO",
-        "dtultcomp": "17/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 424.08
           }
         ]
       },
@@ -2391,26 +1739,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33014",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "YVY",
-            "qt": 4,
-            "valor": 159.6
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "YVY",
-            "qt": 4,
-            "valor": 159.6
-          }
-        ]
-      },
-      {
         "codcli": "32871",
         "cliente": "ER COZINHA ARTESANAL LTDA",
         "bairro": "VILA DA SERRA",
@@ -2431,22 +1759,66 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "34536",
-        "cliente": "PARRILLA COSTELLO LTDA",
-        "bairro": "OLHOS D AGUA",
+        "codcli": "33014",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "LOURDES",
         "dtultcomp": "18/06/2026",
         "produtos": [
           {
-            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 191.76
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 4,
+            "valor": 159.6
           },
           {
-            "produto": "ST PIERRE ZERO GREEN APPLE 310 ML",
-            "fantasia": "TATUZINHO",
-            "qt": 8,
-            "valor": 215.2
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 4,
+            "valor": 159.6
+          }
+        ]
+      },
+      {
+        "codcli": "35189",
+        "cliente": "MAGNUS SOCIEDADE COMERCIAL LIMITADA",
+        "bairro": "SANTA HELENA",
+        "dtultcomp": "18/06/2026",
+        "produtos": [
+          {
+            "produto": "GIN BEEFEATER 750ML",
+            "fantasia": "PERNOD",
+            "qt": 12,
+            "valor": 826.8
+          },
+          {
+            "produto": "GIN GORDONS 750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 12,
+            "valor": 586.8
+          },
+          {
+            "produto": "GIN GORDONS PINK 700ML",
+            "fantasia": "DIAGEO",
+            "qt": 12,
+            "valor": 586.8
+          },
+          {
+            "produto": "VODKA ORLOFF 1L",
+            "fantasia": "PERNOD",
+            "qt": 24,
+            "valor": 525.6
+          },
+          {
+            "produto": "VODKA SMIRNOFF RED 998 ML",
+            "fantasia": "DIAGEO",
+            "qt": 12,
+            "valor": 334.8
+          },
+          {
+            "produto": "WHISKY ROYAL SALUTE 700 ML",
+            "fantasia": "PERNOD",
+            "qt": 2,
+            "valor": 1399.8
           }
         ]
       },
@@ -2505,208 +1877,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "RED BULL",
             "qt": 1,
             "valor": 174.96
-          }
-        ]
-      },
-      {
-        "codcli": "35318",
-        "cliente": "ASSOCIACAO ATLETICA ESPORTIVA",
-        "bairro": "PAMPULHA",
-        "dtultcomp": "19/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL CEREJA 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL MAÇA SF 250ML  C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL NECTARINA SF 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL SF POMELO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 282.72
-          }
-        ]
-      },
-      {
-        "codcli": "35383",
-        "cliente": "LANCHONETE E CONFEITARIA DA LUIZA LTDA",
-        "bairro": "PAMPULHA",
-        "dtultcomp": "19/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 343.2
-          },
-          {
-            "produto": "RED BULL MAÇA SF 250ML  C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 171.6
-          },
-          {
-            "produto": "RED BULL NECTARINA SF 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 171.6
-          },
-          {
-            "produto": "RED BULL SF POMELO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 171.6
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 171.6
-          },
-          {
-            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 171.6
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 171.6
-          }
-        ]
-      },
-      {
-        "codcli": "35381",
-        "cliente": "ULTRA COFFEE BH - MG LTDA",
-        "bairro": "CORAÇÃO EUCARÍSTICO",
-        "dtultcomp": "19/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK  RED BULL",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 70.68
-          },
-          {
-            "produto": "4 PACK RED BULL POMELO SF",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 70.68
-          },
-          {
-            "produto": "4 PACK RED BULL SUGAR FREE",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 70.68
-          },
-          {
-            "produto": "4 PACK RED BULL ZERO",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 70.68
-          }
-        ]
-      },
-      {
-        "codcli": "37903",
-        "cliente": "DEAI GASTRONOMIA LTDA",
-        "bairro": "ANGOLA",
-        "dtultcomp": "23/06/2026",
-        "produtos": [
-          {
-            "produto": "EASY BOOZE SPRITZ LT 12X269ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 129.9
-          },
-          {
-            "produto": "XAROPE MONIN CRANBERRY 700 ML",
-            "fantasia": "MONIN",
-            "qt": 1,
-            "valor": 49.9
-          },
-          {
-            "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
-            "fantasia": "MONIN",
-            "qt": 1,
-            "valor": 49.9
-          },
-          {
-            "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
-            "fantasia": "MONIN",
-            "qt": 2,
-            "valor": 99.8
-          }
-        ]
-      },
-      {
-        "codcli": "33553",
-        "cliente": "CHALE DA MATA RESTAURANTE LTDA",
-        "bairro": "BURITIS",
-        "dtultcomp": "25/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL ZERO",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 63.92
-          },
-          {
-            "produto": "RUM BACARDI GOLD 980ML",
-            "fantasia": "BACARDI",
-            "qt": 2,
-            "valor": 99.8
-          },
-          {
-            "produto": "VALE VERDE EXTRA PREMIUM 1L",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 153.8
           }
         ]
       },
@@ -3064,6 +2234,20 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "37255",
+        "cliente": "ARMAZEM BRASIL LIMITADA",
+        "bairro": "SION",
+        "dtultcomp": "28/04/2026",
+        "produtos": [
+          {
+            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+            "fantasia": "DON LUIZ",
+            "qt": 6,
+            "valor": 419.4
+          }
+        ]
+      },
+      {
         "codcli": "33294",
         "cliente": "ARMAZEM BRASIL LIMITADA",
         "bairro": "ROCHEDO",
@@ -3084,20 +2268,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37255",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "SION",
-        "dtultcomp": "28/04/2026",
-        "produtos": [
-          {
-            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-            "fantasia": "DON LUIZ",
-            "qt": 6,
-            "valor": 419.4
-          }
-        ]
-      },
-      {
         "codcli": "39202",
         "cliente": "RESTAURANTE E LANCHONETE STRADEIRO LTDA",
         "bairro": "RIBEIRAO DE EIXO",
@@ -3108,20 +2278,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 24,
             "valor": 573.6
-          }
-        ]
-      },
-      {
-        "codcli": "30723",
-        "cliente": "SUPERMERCADO BAHAMAS S/A",
-        "bairro": "DISTRITO INDUSTRIAL",
-        "dtultcomp": "27/05/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY JIM BEAM WHITE 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 120,
-            "valor": 11904.0
           }
         ]
       },
@@ -3292,20 +2448,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "CASTAS",
             "qt": 6,
             "valor": 239.4
-          }
-        ]
-      },
-      {
-        "codcli": "34568",
-        "cliente": "BIG MAIS SUPERMERCADOS LTDA",
-        "bairro": "VILA ISA",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "APERITIVO CAMPARI 998 ML",
-            "fantasia": "",
-            "qt": 1200,
-            "valor": 55800.0
           }
         ]
       },
@@ -3573,44 +2715,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "29386",
-        "cliente": "SUPERMERCADO PARANAIBA JARDIM ITAU LTDA",
-        "bairro": "PARQUE JARDIM ITAÚ",
-        "dtultcomp": "05/06/2026",
-        "produtos": [
-          {
-            "produto": "PURE MONIN FRUTAS VERMELHAS 330ML",
-            "fantasia": "MONIN",
-            "qt": 3,
-            "valor": 68.7
-          },
-          {
-            "produto": "PURE MONIN MAÇA VERDE 330ML",
-            "fantasia": "MONIN",
-            "qt": 3,
-            "valor": 68.7
-          },
-          {
-            "produto": "XAROPE  MONIN TANGERINA 330 ML",
-            "fantasia": "MONIN",
-            "qt": 3,
-            "valor": 68.7
-          },
-          {
-            "produto": "XAROPE MONIN MARACUJA 330 ML",
-            "fantasia": "MONIN",
-            "qt": 3,
-            "valor": 68.7
-          },
-          {
-            "produto": "XAROPE MONIN MORANGO 330 ML",
-            "fantasia": "MONIN",
-            "qt": 3,
-            "valor": 68.7
-          }
-        ]
-      },
-      {
         "codcli": "29334",
         "cliente": "COMERCIAL PARANAIBA DE ALIMENTOS LTDA",
         "bairro": "PLANALTO",
@@ -3687,6 +2791,26 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "31553",
+        "cliente": "SUPERMERCADO PARANAIBA SANTA LUZIA LTDA",
+        "bairro": "QUARENTA E DOIS",
+        "dtultcomp": "09/06/2026",
+        "produtos": [
+          {
+            "produto": "GIN GORDONS 750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 3,
+            "valor": 159.45
+          },
+          {
+            "produto": "GIN GORDONS PINK 700ML",
+            "fantasia": "DIAGEO",
+            "qt": 3,
+            "valor": 159.45
+          }
+        ]
+      },
+      {
         "codcli": "36399",
         "cliente": "COLIBRI LOJA DE CONVENIENCIA",
         "bairro": "SÃO LUIZ",
@@ -3703,6 +2827,20 @@ const NAO_POS_MG_DATA = {
             "fantasia": "DIAGEO",
             "qt": 2,
             "valor": 106.3
+          }
+        ]
+      },
+      {
+        "codcli": "38664",
+        "cliente": "MERCANTIL MENDES RESENDE LTDA.",
+        "bairro": "PROVIDÊNCIA",
+        "dtultcomp": "19/06/2026",
+        "produtos": [
+          {
+            "produto": "SMIRNOFF ICE TROPICAL 269ML LT CX 24",
+            "fantasia": "DIAGEO",
+            "qt": 3,
+            "valor": 301.68
           }
         ]
       },
@@ -3828,64 +2966,6 @@ const NAO_POS_MG_DATA = {
     ],
     "TIAGO ANDRADE": [
       {
-        "codcli": "36851",
-        "cliente": "ASSOCIACAO ATLETICA ESPORTIVA DOS ESTUDANTES DA ESCOLA DE EN",
-        "bairro": "CRUZEIRO",
-        "dtultcomp": "13/04/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK  RED BULL",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 70.68
-          },
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 23.56
-          },
-          {
-            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 70.68
-          },
-          {
-            "produto": "4 PACK RED BULL TROPICAL",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 23.56
-          }
-        ]
-      },
-      {
-        "codcli": "36095",
-        "cliente": "49.276.607 CAROLINA ARAGAO DE JESUS",
-        "bairro": "HELIÓPOLIS",
-        "dtultcomp": "05/05/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK  RED BULL",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 70.68
-          },
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 23.56
-          },
-          {
-            "produto": "4 PACK RED BULL SUGAR FREE",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 70.68
-          }
-        ]
-      },
-      {
         "codcli": "30490",
         "cliente": "TANNAT VINHOS LTDA",
         "bairro": "CRUZEIRO",
@@ -3916,38 +2996,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 2,
             "valor": 137.8
-          }
-        ]
-      },
-      {
-        "codcli": "39137",
-        "cliente": "LGA ALIMENTOS LTDA",
-        "bairro": "ESTORIL",
-        "dtultcomp": "15/05/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 70.68
-          },
-          {
-            "produto": "4 PACK RED BULL TROPICAL",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 70.68
-          },
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
           }
         ]
       },
@@ -4068,70 +3116,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37891",
-        "cliente": "PASSADIO LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "25/05/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK  RED BULL",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 70.68
-          },
-          {
-            "produto": "4 PACK  RED BULL MORANGO PESSEGO",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 23.56
-          },
-          {
-            "produto": "4 PACK RED BULL NECTARINA  SF",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 23.56
-          },
-          {
-            "produto": "4 PACK RED BULL TROPICAL",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 23.56
-          },
-          {
-            "produto": "4 PACK RED BULL ZERO",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 70.68
-          }
-        ]
-      },
-      {
-        "codcli": "34283",
-        "cliente": "ARCA SOLUCOES ALIMENTICIAS PARA COMERCIO LTDA",
-        "bairro": "NOVO GLORIA",
-        "dtultcomp": "26/05/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL SUGAR FREE 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 4,
-            "valor": 752.64
-          },
-          {
-            "produto": "RED BULL TROPICAL 24X250 ML - ENERG",
-            "fantasia": "",
-            "qt": 4,
-            "valor": 752.64
-          },
-          {
-            "produto": "YVY DESTILADO GIN TERRA LT 710ML",
-            "fantasia": "YVY",
-            "qt": 6,
-            "valor": 239.4
-          }
-        ]
-      },
-      {
         "codcli": "30264",
         "cliente": "CAFETERIA E PRODUCAO BOLOS DE JULIETA LTDA.",
         "bairro": "OURO PRETO",
@@ -4204,113 +3188,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "36371",
-        "cliente": "L D S PIMENTA LANCHONETE",
-        "bairro": "VILA CLORIS",
-        "dtultcomp": "28/05/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "RED BULL",
-            "qt": 4,
-            "valor": 94.24
-          },
-          {
-            "produto": "4 PACK RED BULL POMELO SF",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 70.68
-          },
-          {
-            "produto": "4 PACK RED BULL ZERO",
-            "fantasia": "RED BULL",
-            "qt": 6,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          }
-        ]
-      },
-      {
-        "codcli": "36199",
-        "cliente": "SEU FONSECA GASTRONOMIA CRIATIVA LTDA",
-        "bairro": "ESTORIL",
-        "dtultcomp": "28/05/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 70.68
-          },
-          {
-            "produto": "4 PACK RED BULL ZERO",
-            "fantasia": "RED BULL",
-            "qt": 6,
-            "valor": 141.36
-          }
-        ]
-      },
-      {
-        "codcli": "38919",
-        "cliente": "ULTRA COFFEE BURITIS LTDA",
-        "bairro": "BURITIS",
-        "dtultcomp": "28/05/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL ZERO",
-            "fantasia": "RED BULL",
-            "qt": 6,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          }
-        ]
-      },
-      {
-        "codcli": "36414",
-        "cliente": "VINICIO MOURAO LIMA DO AMARAL LTDA",
-        "bairro": "CRUZEIRO",
-        "dtultcomp": "28/05/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK  RED BULL",
-            "fantasia": "RED BULL",
-            "qt": 11,
-            "valor": 259.16
-          },
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "RED BULL",
-            "qt": 7,
-            "valor": 164.92
-          },
-          {
-            "produto": "4 PACK RED BULL TROPICAL",
-            "fantasia": "RED BULL",
-            "qt": 7,
-            "valor": 164.92
-          },
-          {
-            "produto": "4 PACK RED BULL ZERO",
-            "fantasia": "RED BULL",
-            "qt": 11,
-            "valor": 259.16
-          }
-        ]
-      },
-      {
-        "codcli": "39403",
+        "codcli": "30324",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "COMITECO",
+        "bairro": "BELVEDERE",
         "dtultcomp": "29/05/2026",
         "produtos": [
           {
@@ -4328,9 +3208,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30324",
+        "codcli": "39403",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "BELVEDERE",
+        "bairro": "COMITECO",
         "dtultcomp": "29/05/2026",
         "produtos": [
           {
@@ -4372,44 +3252,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "CASTAS",
             "qt": 18,
             "valor": 808.2
-          }
-        ]
-      },
-      {
-        "codcli": "37890",
-        "cliente": "PASSADIO MG LTDA",
-        "bairro": "NOVA GRANADA",
-        "dtultcomp": "05/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK  RED BULL",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 47.12
-          },
-          {
-            "produto": "4 PACK  RED BULL MORANGO PESSEGO",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 47.12
-          },
-          {
-            "produto": "4 PACK RED BULL NECTARINA  SF",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 47.12
-          },
-          {
-            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 47.12
-          },
-          {
-            "produto": "4 PACK RED BULL ZERO",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 47.12
           }
         ]
       },
@@ -4532,98 +3374,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "36239",
-        "cliente": "CANTINATEC COELHO E MOURA ALIMENTOS LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "12/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 4,
-            "valor": 565.44
-          }
-        ]
-      },
-      {
-        "codcli": "35374",
-        "cliente": "FM PASTELARIA LTDA",
-        "bairro": "ESTORIL",
-        "dtultcomp": "12/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          }
-        ]
-      },
-      {
-        "codcli": "39138",
-        "cliente": "AGL ALIMENTOS LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "15/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 70.68
-          },
-          {
-            "produto": "4 PACK RED BULL SUGAR FREE",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 70.68
-          },
-          {
-            "produto": "4 PACK RED BULL TROPICAL",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 70.68
-          },
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          }
-        ]
-      },
-      {
-        "codcli": "35521",
-        "cliente": "BH GOURMET LTDA",
-        "bairro": "FUNCIONÁRIOS",
-        "dtultcomp": "16/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK  RED BULL",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 70.68
-          },
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 47.12
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          }
-        ]
-      },
-      {
         "codcli": "32860",
         "cliente": "GABRIELA MEIRELLES COSTA 06634414637",
         "bairro": "SANTA TEREZA",
@@ -4690,64 +3440,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "34779",
-        "cliente": "NA MADRUGA BEER LTDA",
-        "bairro": "PALMEIRAS",
-        "dtultcomp": "17/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN GORDONS 750 ML",
-            "fantasia": "DIAGEO",
-            "qt": 12,
-            "valor": 670.8
-          },
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 189.36
-          }
-        ]
-      },
-      {
-        "codcli": "36203",
-        "cliente": "UNISHAPE EMPREENDIMENTOS LTDA",
-        "bairro": "BURITIS",
-        "dtultcomp": "17/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK  RED BULL",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 47.12
-          },
-          {
-            "produto": "4 PACK  RED BULL MORANGO PESSEGO",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 47.12
-          },
-          {
-            "produto": "4 PACK RED BULL TROPICAL",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 47.12
-          },
-          {
-            "produto": "4 PACK RED BULL ZERO",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 47.12
-          },
-          {
-            "produto": "RED BULL CEREJA 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          }
-        ]
-      },
-      {
         "codcli": "34960",
         "cliente": "DRIL EMPREENDIMENTOS STUDIO BIKE PAMPULHA BH LTDA",
         "bairro": "OURO PRETO",
@@ -4780,26 +3472,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30756",
-        "cliente": "JV COMERCIO DONA CLARA LTDA",
-        "bairro": "DONA CLARA",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN 12X473ML (LATAO)",
-            "fantasia": "HEINEKEN",
-            "qt": 20,
-            "valor": 1413.6
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "YVY",
-            "qt": 4,
-            "valor": 159.6
-          }
-        ]
-      },
-      {
         "codcli": "33356",
         "cliente": "EVA APARECIDA DOS REIS",
         "bairro": "SANTOS DUMONT",
@@ -4810,32 +3482,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "DIAGEO",
             "qt": 12,
             "valor": 826.8
-          }
-        ]
-      },
-      {
-        "codcli": "30323",
-        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "SANTO ANTONIO",
-        "dtultcomp": "23/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 89.88
-          },
-          {
-            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 89.88
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 179.76
           }
         ]
       },
@@ -4868,6 +3514,32 @@ const NAO_POS_MG_DATA = {
             "fantasia": "RED BULL",
             "qt": 1,
             "valor": 29.96
+          },
+          {
+            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 179.76
+          }
+        ]
+      },
+      {
+        "codcli": "30323",
+        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
+        "bairro": "SANTO ANTONIO",
+        "dtultcomp": "23/06/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK RED BULL MELANCIA",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 89.88
+          },
+          {
+            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 89.88
           },
           {
             "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
@@ -4934,60 +3606,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "36272",
-        "cliente": "WALISON VITOR NUNES CUNHA",
-        "bairro": "LOURDES",
-        "dtultcomp": "24/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          }
-        ]
-      },
-      {
-        "codcli": "35581",
-        "cliente": "GERALDINHO O CONCEITO DA CARNE LTDA",
-        "bairro": "ANCHIETA",
-        "dtultcomp": "25/06/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-            "fantasia": "HEINEKEN",
-            "qt": 4,
-            "valor": 565.44
-          }
-        ]
-      },
-      {
-        "codcli": "35511",
-        "cliente": "PRENSADAO FOOD TRUCK LTDA",
-        "bairro": "JARDIM ALVORADA",
-        "dtultcomp": "26/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          }
-        ]
-      },
-      {
         "codcli": "34631",
         "cliente": "WORLD RESTAURANTE E LANCHONETE LTDA",
         "bairro": "FUNCIONÁRIOS",
@@ -5004,26 +3622,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "RED BULL",
             "qt": 2,
             "valor": 282.72
-          }
-        ]
-      },
-      {
-        "codcli": "35444",
-        "cliente": "ZAMBON & TOMAZ LTDA",
-        "bairro": "SAVASSI",
-        "dtultcomp": "26/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL NECTARINA SF 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
           }
         ]
       },
