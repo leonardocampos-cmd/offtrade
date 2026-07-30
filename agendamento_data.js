@@ -5919,6 +5919,20 @@ const AGENDAMENTO_DATA = {
       "nome": "DIOGO RAPOSO - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "82901",
+          "cliente": "ATLANTICO MERCEARIA E CONFEITARIA LTDA",
+          "cnpj": "20.332.684/0001-36",
+          "filial": "RECREIO DOS BANDEIRANTES",
+          "valor": 1540.92,
+          "nf": "",
+          "data_agendamento": "31/07/2026",
+          "data_ord": "2026-07-31",
+          "status": "A FATURAR",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "95834",
           "cliente": "RIO SUL LAGUNA",
           "cnpj": "67.521.676/0001-00",
@@ -16815,6 +16829,20 @@ const AGENDAMENTO_DATA = {
       "nome": "LEANDRO SOUZA - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "60083",
+          "cliente": "TOP MIX ATACAREJO EIRELI",
+          "cnpj": "34.747.967/0001-53",
+          "filial": "MARICA",
+          "valor": 1421.8,
+          "nf": "",
+          "data_agendamento": "31/07/2026",
+          "data_ord": "2026-07-31",
+          "status": "A FATURAR",
+          "obs": "Caixas e rótulos íntegros;",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "80353",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18.322.565/0005-84",
@@ -16851,22 +16879,8 @@ const AGENDAMENTO_DATA = {
           "nf": "6996",
           "data_agendamento": "31/07/2026",
           "data_ord": "2026-07-31",
-          "status": "A FATURAR",
+          "status": "FATURADO",
           "obs": "EMBARCAR AS CAIXAS ORIGINAIS E ÍNTEGRAS",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "60083",
-          "cliente": "TOP MIX ATACAREJO EIRELI",
-          "cnpj": "34.747.967/0001-53",
-          "filial": "MARICA",
-          "valor": 1421.8,
-          "nf": "",
-          "data_agendamento": "30/07/2026",
-          "data_ord": "2026-07-30",
-          "status": "A FATURAR",
-          "obs": "Caixas e rótulos íntegros;",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -24818,7 +24832,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "30/07/2026 17:21",
+  "atualizado_em": "30/07/2026 17:56",
   "comparativo": [
     {
       "msg_id": "19f8f0d0054f43bd",
