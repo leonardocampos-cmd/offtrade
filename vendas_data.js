@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "30/07/2026 11:43",
+  "atualizado_em": "30/07/2026 12:03",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -475999,28 +475999,6 @@ const VENDAS_DATA = {
           "valor": 34.5,
           "tipo": "Venda",
           "offtrade": false
-        },
-        {
-          "data": "29/07/2026",
-          "codcli": "30685",
-          "cliente": "CIE - BEBIDAS IMPORTADAS LTDA",
-          "produto": "MARTINI ROSSO 750 ML",
-          "fantasia": "BACARDI",
-          "qt": 60,
-          "valor": 1860.6,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "29/07/2026",
-          "codcli": "30685",
-          "cliente": "CIE - BEBIDAS IMPORTADAS LTDA",
-          "produto": "WHISKY JAMESON 1L",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 694.8,
-          "tipo": "Venda",
-          "offtrade": true
         },
         {
           "data": "07/07/2026",
