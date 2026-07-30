@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "30/07/2026 16:39",
+  "atualizado_em": "30/07/2026 17:00",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -93431,46 +93431,6 @@ const VENDAS_SP_DATA = {
           "offtrade": true
         },
         {
-          "data": "28/07/2026",
-          "codcli": "50913",
-          "cliente": "27.197.304 CARLOS EDUARDO SANTANA CORREA",
-          "produto": "WHISKY JACK DANIELS 1L - DEST",
-          "fantasia": "BROWN",
-          "qt": 6,
-          "valor": 599.4,
-          "offtrade": true
-        },
-        {
-          "data": "28/07/2026",
-          "codcli": "50913",
-          "cliente": "27.197.304 CARLOS EDUARDO SANTANA CORREA",
-          "produto": "WHISKY JACK DANIELS APPLE 1L - DEST",
-          "fantasia": "BROWN",
-          "qt": 6,
-          "valor": 599.4,
-          "offtrade": true
-        },
-        {
-          "data": "28/07/2026",
-          "codcli": "50913",
-          "cliente": "27.197.304 CARLOS EDUARDO SANTANA CORREA",
-          "produto": "GIN TANQUERAY BOSSA NOVA  700 ML",
-          "fantasia": "DIAGEO",
-          "qt": 18,
-          "valor": 1888.2,
-          "offtrade": true
-        },
-        {
-          "data": "28/07/2026",
-          "codcli": "50913",
-          "cliente": "27.197.304 CARLOS EDUARDO SANTANA CORREA",
-          "produto": "SMIRNOFF ICE 24X275ML LONG",
-          "fantasia": "DIAGEO",
-          "qt": 1,
-          "valor": 125.9,
-          "offtrade": true
-        },
-        {
           "data": "23/07/2026",
           "codcli": "50913",
           "cliente": "27.197.304 CARLOS EDUARDO SANTANA CORREA",
@@ -124388,46 +124348,6 @@ const VENDAS_SP_DATA = {
         },
         {
           "data": "25/07/2026",
-          "codcli": "51835",
-          "cliente": "SUPERMERCADO IBIRAPUERA LTDA",
-          "produto": "WHISKY JACK DANIELS HONEY 1LT - DEST",
-          "fantasia": "BROWN",
-          "qt": 2,
-          "valor": 199.8,
-          "offtrade": true
-        },
-        {
-          "data": "25/07/2026",
-          "codcli": "51835",
-          "cliente": "SUPERMERCADO IBIRAPUERA LTDA",
-          "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "PERNOD",
-          "qt": 3,
-          "valor": 98.7,
-          "offtrade": true
-        },
-        {
-          "data": "25/07/2026",
-          "codcli": "51835",
-          "cliente": "SUPERMERCADO IBIRAPUERA LTDA",
-          "produto": "WHISKY JACK DANIELS 1L - DEST",
-          "fantasia": "BROWN",
-          "qt": 2,
-          "valor": 199.8,
-          "offtrade": true
-        },
-        {
-          "data": "25/07/2026",
-          "codcli": "51835",
-          "cliente": "SUPERMERCADO IBIRAPUERA LTDA",
-          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
-          "fantasia": "CRS BRANDS",
-          "qt": 24,
-          "valor": 215.76,
-          "offtrade": true
-        },
-        {
-          "data": "25/07/2026",
           "codcli": "52051",
           "cliente": "SUPERMERCADO CAMP. WENG LTDA",
           "produto": "WHISKY JACK DANIELS APPLE 1L",
@@ -136434,7 +136354,7 @@ const VENDAS_SP_DATA = {
     },
     "SUELY SANTOS": {
       "Jul/26": {
-        "fat": 95528.78,
+        "fat": 92315.88,
         "pos": 26.0,
         "fat_pernod": 38696.25,
         "fat_crs": 3344.4,
@@ -136884,10 +136804,10 @@ const VENDAS_SP_DATA = {
     },
     "LEONARDO FLOREZI": {
       "Jul/26": {
-        "fat": 107922.75,
-        "pos": 37.0,
-        "fat_pernod": 40893.17,
-        "fat_crs": 14603.97,
+        "fat": 107208.69,
+        "pos": 36.0,
+        "fat_pernod": 40794.47,
+        "fat_crs": 14388.21,
         "fat_essenza": 551.52,
         "fat_ant": 24390.34,
         "fat_ano_ant": 0.0
