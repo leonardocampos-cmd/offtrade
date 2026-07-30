@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "30/07/2026 13:56",
+  "atualizado_em": "30/07/2026 14:16",
   "data_rota": "30.07",
   "vendedores": [
     {
@@ -1317,6 +1317,26 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "471000496",
+          "numnota": "",
+          "data": "30/07/2026",
+          "cliente": "SKORPIOS MERCADO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 378.0,
+          "itens": [
+            {
+              "desc": "AGUA MINALBA C/ GAS 6X1,5L",
+              "qt": 20,
+              "val": 378.0
+            }
+          ]
+        },
         {
           "numped": "471000494",
           "numnota": "",
@@ -3284,6 +3304,11 @@ const ENTREGAS_DATA = {
               "val": 329.22
             },
             {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+              "qt": 10,
+              "val": 209.0
+            },
+            {
               "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
               "qt": 5,
               "val": 144.5
@@ -3292,11 +3317,41 @@ const ENTREGAS_DATA = {
               "desc": "AGUA MINERAL MINALBA S/ GAS 8X1,5L PET",
               "qt": 5,
               "val": 122.5
+            }
+          ]
+        },
+        {
+          "numped": "412001450",
+          "numnota": "",
+          "data": "30/07/2026",
+          "cliente": "DROGARIA KERO DO PRE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 353.2,
+          "itens": [
+            {
+              "desc": "4 PACK RED BULL 250ML",
+              "qt": 3,
+              "val": 98.28
             },
             {
-              "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
-              "qt": 10,
-              "val": 209.0
+              "desc": "4 PACK RED BULL ZERO",
+              "qt": 2,
+              "val": 65.52
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "qt": 1,
+              "val": 94.7
             }
           ]
         },
