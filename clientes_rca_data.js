@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "30/07/2026 14:45",
-  "total": 22301,
+  "atualizado_em": "30/07/2026 15:06",
+  "total": 22304,
   "clientes": [
     {
       "codcli": "38586",
@@ -31200,6 +31200,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "470",
       "nome_usur1": "PRISCILLA BONACHE - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "95856",
+      "razao": "67.247.372 ELIZALDO FERNANDES DA SILVA",
+      "fantasia": "ELIZALDO FERNANDES DA SILVA",
+      "bairro": "CIDADE PRAIANA",
+      "cidade": "RIO DAS OSTRAS",
+      "cnpj": "67.247.372/0001-98",
+      "estado": "RJ",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "241",
+      "nome_usur1": "ZEINALDO DE OLIVEIRA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -234532,6 +234548,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "95858",
+      "razao": "MERCADO EMPORIO CRISTAL LTDA",
+      "fantasia": "EMPORIO CRISTAL",
+      "bairro": "CAMPO GRANDE",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "53.713.367/0001-19",
+      "estado": "RJ",
+      "ramo": "EMPORIO/BAZAR",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "412",
+      "nome_usur1": "BARBARA CABRAL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "69649",
       "razao": "MERCADO ENSEADA DO SOL LTDA",
       "fantasia": "MERCADO ENSEADA DO SOL LTDA",
@@ -235728,6 +235760,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "486",
       "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "95857",
+      "razao": "MERCADO MALVINAS LTDA",
+      "fantasia": "MERCADO MALVINAS",
+      "bairro": "BANGU",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "53.712.545/0001-97",
+      "estado": "RJ",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "412",
+      "nome_usur1": "BARBARA CABRAL - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
