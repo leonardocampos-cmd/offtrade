@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "30/07/2026 16:41",
-  "total": 22299,
+  "atualizado_em": "30/07/2026 17:02",
+  "total": 22298,
   "clientes": [
     {
       "codcli": "38586",
@@ -30178,22 +30178,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "316",
       "nome_usur2": "RODRIGO FREITAS"
-    },
-    {
-      "codcli": "81851",
-      "razao": "63.513.382 RYAN BATISTA DA SILVA",
-      "fantasia": "63.513.382 RYAN BATISTA DA SILVA",
-      "bairro": "CAMORIM PEQUENO",
-      "cidade": "ANGRA DOS REIS",
-      "cnpj": "63.513.382/0001-77",
-      "estado": "RJ",
-      "ramo": "BOTECO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "92136",
@@ -219390,8 +219374,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "404",
-      "nome_usur1": "BIANCA RODRIGUES",
+      "codusur1": "170",
+      "nome_usur1": "JULIO CESAR",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
