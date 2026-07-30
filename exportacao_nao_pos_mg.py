@@ -1,12 +1,12 @@
 # exportacao_nao_pos_mg.py — Clientes nao positivados MG (MGON filiais 1 e 2)
-import json, re, subprocess, os
+import json, re, os
 import pandas as pd
 import oracledb
 from sqlalchemy import create_engine
 from datetime import datetime
 from pathlib import Path
 
-from utils import ORACLE_LIB
+from utils import ORACLE_LIB, git_commit_push
 # meta.py já chama oracledb.init_oracle_client() — importar antes evita o erro
 # "Oracle Client library has already been initialized".
 from meta import _com_timeout_forcado
@@ -122,9 +122,5 @@ out_path.write_text(
 n_cli = sum(len(v) for v in por_vendedor.values())
 print(f"OK nao_pos_mg_data.js — {len(por_vendedor)} vendedores, {n_cli} clientes")
 
-repo_dir = str(Path(__file__).parent)
-subprocess.run(["git", "-C", repo_dir, "add", "nao_pos_mg_data.js"], check=True)
-subprocess.run(["git", "-C", repo_dir, "commit", "-m",
-                f"Atualiza nao_pos_mg_data.js - {datetime.now().strftime('%d/%m/%Y')}"])
-subprocess.run(["git", "-C", repo_dir, "push", "origin", "master"], check=True)
-print("OK GitHub Pages atualizado.")
+git_commit_push(["nao_pos_mg_data.js"],
+                f"Atualiza nao_pos_mg_data.js - {datetime.now().strftime('%d/%m/%Y')}")

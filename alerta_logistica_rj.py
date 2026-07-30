@@ -14,7 +14,6 @@ import re
 import sys
 import json
 import base64
-import subprocess
 from pathlib import Path
 from datetime import date, timedelta
 
@@ -26,6 +25,8 @@ from google.oauth2 import service_account
 from google.auth.transport.requests import Request
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
+
+from utils import git_commit_push
 
 BASE          = Path(__file__).parent
 TOKEN_GMAIL   = BASE / "token_gmail.json"
@@ -478,14 +479,8 @@ def main():
     movidas = _patch_entregas(todos_alertas, hoje)
 
     if movidas > 0:
-        repo_dir = str(BASE)
-        files = ["alertas_rj.json", "entregas_data.js"]
-        subprocess.run(["git", "-C", repo_dir, "add"] + files, check=True)
-        subprocess.run(
-            ["git", "-C", repo_dir, "commit", "-m",
-             f"Alerta Logística RJ: {movidas} NF(s) não entregues - {hoje}"],
-        )
-        subprocess.run(["git", "-C", repo_dir, "push", "origin", "master"], check=True)
+        git_commit_push(["alertas_rj.json", "entregas_data.js"],
+                        f"Alerta Logística RJ: {movidas} NF(s) não entregues - {hoje}")
         print(f"\n[OK] {movidas} NF(s) marcadas como Não Entregue e enviadas ao GitHub Pages.")
     else:
         print("\n[OK] Alertas salvos. Nenhuma NF nova para mover (já processadas anteriormente).")

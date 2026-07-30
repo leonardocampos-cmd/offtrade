@@ -5,9 +5,9 @@ import oracledb
 from sqlalchemy import create_engine
 from datetime import datetime
 from pathlib import Path
-import subprocess, sys
+from urllib.parse import quote_plus
 
-from utils import ORACLE_LIB
+from utils import ORACLE_LIB, git_commit_push
 # meta.py já chama oracledb.init_oracle_client() — importar antes evita o erro
 # "Oracle Client library has already been initialized".
 from meta import _com_timeout_forcado
@@ -17,7 +17,7 @@ password = os.environ["SPON_PASSWORD"]
 dsn_sp   = "spon_oci"
 
 engine_sp = create_engine(
-    f'oracle+oracledb://{user}:{password}@{dsn_sp}',
+    f'oracle+oracledb://{user}:{quote_plus(password)}@{dsn_sp}',
     pool_pre_ping=True,
     pool_recycle=3600,
     connect_args={"expire_time": 2}
@@ -127,9 +127,5 @@ out_path.write_text(output, encoding='utf-8')
 n_cli = sum(len(v) for v in por_vendedor.values())
 print(f"OK nao_pos_sp_data.js — {len(por_vendedor)} vendedores, {n_cli} clientes")
 
-repo_dir = str(Path(__file__).parent)
-subprocess.run(["git", "-C", repo_dir, "add", "nao_pos_sp_data.js"], check=True)
-subprocess.run(["git", "-C", repo_dir, "commit", "-m",
-                f"Atualiza nao_pos_sp_data.js - {datetime.now().strftime('%d/%m/%Y')}"])
-subprocess.run(["git", "-C", repo_dir, "push", "origin", "master"], check=True)
-print("OK GitHub Pages atualizado.")
+git_commit_push(["nao_pos_sp_data.js"],
+                f"Atualiza nao_pos_sp_data.js - {datetime.now().strftime('%d/%m/%Y')}")

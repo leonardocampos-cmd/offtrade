@@ -4,7 +4,7 @@ Gera clientes_inativos_data.js com:
   - sem_compra:      BLOQUEIO='N', >= 30 dias sem compra
   - novos_sem_compra: cadastrados nos últimos 90 dias sem compra
 """
-import json, os, time, subprocess
+import json, os, time
 import pandas as pd
 from datetime import datetime
 from pathlib import Path
@@ -14,7 +14,7 @@ from dotenv import load_dotenv
 load_dotenv(Path(__file__).parent / ".env")
 
 import oracledb
-from utils import ORACLE_LIB
+from utils import ORACLE_LIB, git_commit_push
 # meta.py já chama oracledb.init_oracle_client() — importar antes evita o erro
 # "Oracle Client library has already been initialized".
 from meta import _com_timeout_forcado
@@ -276,12 +276,5 @@ tn = sum(len(v["novos"])      for v in por_vendedor.values())
 print(f"\nOK clientes_inativos_data.js — {len(por_vendedor)} vendedores | "
       f"{ti} inativos | {ts} sem compra | {tn} novos")
 
-repo_dir = str(Path(__file__).parent)
-subprocess.run(["git", "-C", repo_dir, "add", "clientes_inativos_data.js"], check=True)
-result = subprocess.run(["git", "-C", repo_dir, "commit", "-m",
-                         f"Atualiza clientes_inativos_data.js - {datetime.now().strftime('%d/%m/%Y')}"])
-if result.returncode == 0:
-    subprocess.run(["git", "-C", repo_dir, "push", "origin", "master"], check=True)
-    print("OK GitHub Pages atualizado.")
-else:
-    print("OK clientes_inativos_data.js sem alterações — push ignorado.")
+git_commit_push(["clientes_inativos_data.js"],
+                f"Atualiza clientes_inativos_data.js - {datetime.now().strftime('%d/%m/%Y')}")

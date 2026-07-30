@@ -1,12 +1,12 @@
 # exportacao_mg.py — Gera vendas_mg_data.js (MGON filiais 1 e 2 = MG)
-import json, time, subprocess, os
+import json, time, os
 import pandas as pd
 import oracledb
 from sqlalchemy import create_engine
 from datetime import date, datetime
 from pathlib import Path
 
-from utils import ORACLE_LIB
+from utils import ORACLE_LIB, git_commit_push
 from meta import _com_timeout_forcado
 oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
 
@@ -166,9 +166,5 @@ output_path.write_text(
 )
 print(f"OK vendas_mg_data.js — {len(_por_vendedor)} vendedores, meses: {_meses_str}")
 
-repo_dir = str(Path(__file__).parent)
-subprocess.run(["git", "-C", repo_dir, "add", "vendas_mg_data.js", "mg.html"], check=True)
-subprocess.run(["git", "-C", repo_dir, "commit", "-m",
-                f"Atualiza vendas_mg_data.js - {date.today().strftime('%d/%m/%Y')}"])
-subprocess.run(["git", "-C", repo_dir, "push", "origin", "master"], check=True)
-print("OK GitHub Pages atualizado.")
+git_commit_push(["vendas_mg_data.js", "mg.html"],
+                f"Atualiza vendas_mg_data.js - {date.today().strftime('%d/%m/%Y')}")

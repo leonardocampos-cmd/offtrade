@@ -6,7 +6,6 @@ Gera metas_gerais_data.js com:
 """
 import json
 import calendar
-import subprocess
 import time
 from datetime import datetime, date
 from pathlib import Path
@@ -21,7 +20,7 @@ load_dotenv(Path(__file__).parent / ".env")
 
 from urllib.parse import quote_plus
 
-from utils import ORACLE_LIB
+from utils import ORACLE_LIB, git_commit_push
 # meta.py já chama oracledb.init_oracle_client() — importar antes evita o erro
 # "Oracle Client library has already been initialized".
 from meta import _com_timeout_forcado
@@ -414,9 +413,5 @@ out.write_text(
 )
 print(f"\nOK metas_gerais_data.js - {len(industrias_out)} industrias -> {out}")
 
-repo_dir = str(BASE)
-subprocess.run(["git", "-C", repo_dir, "add", "metas_gerais_data.js"], check=True)
-subprocess.run(["git", "-C", repo_dir, "commit", "-m",
-                f"Atualiza metas_gerais_data.js - {hoje.strftime('%d/%m/%Y')}"])
-subprocess.run(["git", "-C", repo_dir, "push", "origin", "master"], check=True)
-print("OK GitHub Pages atualizado.")
+git_commit_push(["metas_gerais_data.js"],
+                f"Atualiza metas_gerais_data.js - {hoje.strftime('%d/%m/%Y')}")

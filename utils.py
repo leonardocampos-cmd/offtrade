@@ -50,6 +50,32 @@ DSN = {
 _oracle_ready = False
 
 
+# ── Git (deploy dos exportadores) ───────────────────────────────────────────────
+
+def git_commit_push(files: list[str], mensagem: str) -> None:
+    """Commita e envia os arquivos ao GitHub Pages. Não faz nada quando o
+    diretório não é um repositório git — é o caso normal na VPS, que roda a
+    partir de /opt/offtrade-pipeline, um diretório sincronizado sob demanda
+    por deploy_pipeline_vps.py, não um clone git (ver GMAIL_AUTOMACAO.md /
+    memória "vps-pipeline-independente" para o porquê). Sem essa checagem,
+    todo exportador que roda na VPS falhava com "git add" (exit 128),
+    marcando o passo inteiro como falho no log mesmo quando o dado foi
+    gerado corretamente."""
+    import subprocess
+    from pathlib import Path
+
+    repo_dir = Path(__file__).parent
+    if not (repo_dir / ".git").exists():
+        return
+    try:
+        subprocess.run(["git", "-C", str(repo_dir), "add", *files], check=True)
+        subprocess.run(["git", "-C", str(repo_dir), "commit", "-m", mensagem])
+        subprocess.run(["git", "-C", str(repo_dir), "push", "origin", "master"], check=True)
+        print("OK GitHub Pages atualizado.")
+    except subprocess.CalledProcessError as e:
+        print(f"[AVISO] git commit/push falhou — ignorado: {e}")
+
+
 # ── Oracle ────────────────────────────────────────────────────────────────────
 
 def _init_oracle():

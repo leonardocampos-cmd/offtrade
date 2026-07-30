@@ -11,7 +11,7 @@ from urllib.parse import quote_plus
 from dotenv import load_dotenv
 load_dotenv(Path(__file__).parent / ".env")
 
-from utils import ORACLE_LIB
+from utils import ORACLE_LIB, git_commit_push
 from meta import _com_timeout_forcado
 oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
 
@@ -280,10 +280,5 @@ print(f"OK vendas_sp_data.js gerado — {len(_por_vendedor)} vendedores, meses: 
 
 # ── Push para GitHub Pages ────────────────────────────────────────────────────
 
-import subprocess
-repo_dir = str(Path(__file__).parent)
-subprocess.run(["git", "-C", repo_dir, "add", "vendas_sp_data.js", "sp.html"], check=True)
-subprocess.run(["git", "-C", repo_dir, "commit", "-m",
-                f"Atualiza vendas_sp_data.js - {date.today().strftime('%d/%m/%Y')}"])
-subprocess.run(["git", "-C", repo_dir, "push", "origin", "master"], check=True)
-print("OK GitHub Pages atualizado.")
+git_commit_push(["vendas_sp_data.js", "sp.html"],
+                f"Atualiza vendas_sp_data.js - {date.today().strftime('%d/%m/%Y')}")
