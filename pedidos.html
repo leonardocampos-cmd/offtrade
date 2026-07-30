@@ -208,6 +208,12 @@
     <option value="sim">Sim</option>
     <option value="nao">Não</option>
   </select>
+  <select id="sel-status" onchange="aplicarFiltro()">
+    <option value="">Status</option>
+    <option value="pendente">Pendente</option>
+    <option value="liberado">Liberado</option>
+    <option value="bloqueado">Bloqueado</option>
+  </select>
   <select id="sel-status-log" onchange="aplicarFiltro()">
     <option value="">Status Logística</option>
   </select>
@@ -281,6 +287,7 @@ function montarTabs() {
   th.onclick = () => ordenarPor(abaInfo.colExtra.campo);
 
   document.getElementById('th-nf').style.display = _abaAtual === 'pedidos_feitos' ? 'none' : '';
+  document.getElementById('sel-status').style.display = _abaAtual === 'pedidos_feitos' ? '' : 'none';
   document.getElementById('sel-status-log').style.display = _abaAtual === 'faturados' ? '' : 'none';
 }
 
@@ -525,6 +532,7 @@ function _filtrados() {
   const vendedor   = document.getElementById('sel-vendedor').value;
   const busca      = document.getElementById('busca').value.trim().toLowerCase();
   const agendamento = document.getElementById('sel-agendamento').value;
+  const status      = document.getElementById('sel-status').value;
   const statusLog   = document.getElementById('sel-status-log').value;
   let lista = _listaAtual().filter(p => {
     const matchEstado     = !estado || p.estado === estado;
@@ -533,10 +541,11 @@ function _filtrados() {
     const matchVendedor   = !vendedor || p.nome === vendedor;
     const matchData       = _datasSelecionadas.size === 0 || _datasSelecionadas.has(p.data_ord);
     const matchAgendado   = !agendamento || (agendamento === 'sim' ? !!_agendamento(p.obs) : !_agendamento(p.obs));
+    const matchStatus     = !status || _statusPosicao(p.posicao) === status;
     const matchStatusLog  = !statusLog || (p.status_log || '(sem status)') === statusLog;
     const matchBusca = !busca || [p.cliente, p.numped, p.numnota]
       .some(v => v && String(v).toLowerCase().includes(busca));
-    return matchEstado && matchGerente && matchSupervisor && matchVendedor && matchData && matchAgendado && matchStatusLog && matchBusca;
+    return matchEstado && matchGerente && matchSupervisor && matchVendedor && matchData && matchAgendado && matchStatus && matchStatusLog && matchBusca;
   });
   const { campo, asc } = _ordem;
   const campoOrd = campo === 'data' ? 'data_ord' : campo;
@@ -603,13 +612,18 @@ function aplicarFiltro() {
   }).join('');
 }
 
+function _statusPosicao(posicao) {
+  const p = (posicao || '').toLowerCase();
+  if (p.includes('bloqueado')) return 'bloqueado';
+  if (p === 'liberado') return 'liberado';
+  if (p === 'pendente') return 'pendente';
+  return p;
+}
+
 function _posicaoBadge(posicao) {
   if (!posicao || posicao === 'Faturado') return '';
-  const p = posicao.toLowerCase();
-  const cls = p.includes('bloqueado') ? 'badge-posicao-bloqueado'
-    : p === 'liberado' ? 'badge-posicao-liberado'
-    : p === 'pendente' ? 'badge-posicao-pendente'
-    : 'badge-posicao-digitando';
+  const cls = { bloqueado: 'badge-posicao-bloqueado', liberado: 'badge-posicao-liberado', pendente: 'badge-posicao-pendente' }[_statusPosicao(posicao)]
+    || 'badge-posicao-digitando';
   return ` <span class="badge-posicao ${cls}">${_esc(posicao)}</span>`;
 }
 

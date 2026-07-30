@@ -125,16 +125,14 @@ def _dias_a_vencer(iso_str: str):
 
 
 def _classe_dias(dias) -> str:
-    """<=45 dias: vermelho (urgente) | 46-60: amarelo | 61-90: verde | >90: neutro."""
+    """<=45 dias: vermelho (urgente) | 45-90: amarelo | >90: verde."""
     if dias is None:
         return ""
     if dias <= 45:
         return "venc-vencido"
-    if dias <= 60:
-        return "venc-perto"
     if dias <= 90:
-        return "venc-verde"
-    return "venc-ok"
+        return "venc-perto"
+    return "venc-verde"
 
 
 def _e_de_hoje(registro: dict) -> bool:
