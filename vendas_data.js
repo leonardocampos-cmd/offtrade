@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "30/07/2026 16:51",
+  "atualizado_em": "30/07/2026 17:13",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -356907,6 +356907,28 @@ const VENDAS_DATA = {
       ],
       "Jul/26": [
         {
+          "data": "30/07/2026",
+          "codcli": "7886",
+          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
+          "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 184,
+          "valor": 31342.31,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "7886",
+          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
+          "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 184,
+          "valor": 31342.31,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
           "data": "24/07/2026",
           "codcli": "7886",
           "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
@@ -423036,6 +423058,30 @@ const VENDAS_DATA = {
           "valor": 3000.0,
           "tipo": "Venda",
           "offtrade": true
+        }
+      ],
+      "Jul/26": [
+        {
+          "data": "30/07/2026",
+          "codcli": "94469",
+          "cliente": "ORIGINAL COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 576,
+          "valor": 103541.76,
+          "tipo": "Venda",
+          "offtrade": false
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "94469",
+          "cliente": "ORIGINAL COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+          "produto": "RED BULL TROPICAL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 288,
+          "valor": 51770.88,
+          "tipo": "Venda",
+          "offtrade": false
         }
       ]
     },
@@ -519337,50 +519383,6 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
-          "data": "28/07/2026",
-          "codcli": "50913",
-          "cliente": "27.197.304 CARLOS EDUARDO SANTANA CORREA",
-          "produto": "WHISKY JACK DANIELS 1L - DEST",
-          "fantasia": "BROWN",
-          "qt": 6,
-          "valor": 599.4,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "28/07/2026",
-          "codcli": "50913",
-          "cliente": "27.197.304 CARLOS EDUARDO SANTANA CORREA",
-          "produto": "WHISKY JACK DANIELS APPLE 1L - DEST",
-          "fantasia": "BROWN",
-          "qt": 6,
-          "valor": 599.4,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "28/07/2026",
-          "codcli": "50913",
-          "cliente": "27.197.304 CARLOS EDUARDO SANTANA CORREA",
-          "produto": "GIN TANQUERAY BOSSA NOVA  700 ML",
-          "fantasia": "DIAGEO",
-          "qt": 18,
-          "valor": 1888.2,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "28/07/2026",
-          "codcli": "50913",
-          "cliente": "27.197.304 CARLOS EDUARDO SANTANA CORREA",
-          "produto": "SMIRNOFF ICE 24X275ML LONG",
-          "fantasia": "DIAGEO",
-          "qt": 1,
-          "valor": 125.9,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
           "data": "23/07/2026",
           "codcli": "50913",
           "cliente": "27.197.304 CARLOS EDUARDO SANTANA CORREA",
@@ -530577,50 +530579,6 @@ const VENDAS_DATA = {
           "fantasia": "CRS BRANDS",
           "qt": 48,
           "valor": 431.52,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "25/07/2026",
-          "codcli": "51835",
-          "cliente": "SUPERMERCADO IBIRAPUERA LTDA",
-          "produto": "WHISKY JACK DANIELS HONEY 1LT - DEST",
-          "fantasia": "BROWN",
-          "qt": 2,
-          "valor": 199.8,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "25/07/2026",
-          "codcli": "51835",
-          "cliente": "SUPERMERCADO IBIRAPUERA LTDA",
-          "produto": "WHISKY PASSPORT 1L",
-          "fantasia": "PERNOD",
-          "qt": 3,
-          "valor": 98.7,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "25/07/2026",
-          "codcli": "51835",
-          "cliente": "SUPERMERCADO IBIRAPUERA LTDA",
-          "produto": "WHISKY JACK DANIELS 1L - DEST",
-          "fantasia": "BROWN",
-          "qt": 2,
-          "valor": 199.8,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "25/07/2026",
-          "codcli": "51835",
-          "cliente": "SUPERMERCADO IBIRAPUERA LTDA",
-          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
-          "fantasia": "CRS BRANDS",
-          "qt": 24,
-          "valor": 215.76,
           "tipo": "Venda",
           "offtrade": true
         },
