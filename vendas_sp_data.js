@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "30/07/2026 15:05",
+  "atualizado_em": "30/07/2026 15:26",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -118625,16 +118625,6 @@ const VENDAS_SP_DATA = {
           "offtrade": true
         },
         {
-          "data": "07/07/2026",
-          "codcli": "50525",
-          "cliente": "TATIANE MENDES MARTINS DE MELO",
-          "produto": "LICOR BALLENA MORANGO 750ML",
-          "fantasia": "BALLENA",
-          "qt": 24,
-          "valor": 1917.6,
-          "offtrade": true
-        },
-        {
           "data": "08/07/2026",
           "codcli": "50486",
           "cliente": "SUPERMERCADO DIAS MORAES LTDA",
@@ -136270,7 +136260,7 @@ const VENDAS_SP_DATA = {
     },
     "LUCIANO TOSCHI": {
       "Jul/26": {
-        "fat": 35201.96,
+        "fat": 33284.36,
         "pos": 20.0,
         "fat_pernod": 14299.6,
         "fat_crs": 2412.33,
