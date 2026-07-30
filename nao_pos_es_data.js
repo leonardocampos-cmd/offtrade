@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "30/07/2026 14:44",
+  "atualizado_em": "30/07/2026 15:06",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -4454,9 +4454,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "93382",
+        "codcli": "93388",
         "cliente": "SUPERMERCADOS ADONAI LTDA",
-        "bairro": "CURICICA",
+        "bairro": "VARGEM PEQUENA",
         "dtultcomp": "30/06/2026",
         "produtos": [
           {
@@ -4534,9 +4534,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "93388",
+        "codcli": "93382",
         "cliente": "SUPERMERCADOS ADONAI LTDA",
-        "bairro": "VARGEM PEQUENA",
+        "bairro": "CURICICA",
         "dtultcomp": "30/06/2026",
         "produtos": [
           {
@@ -4725,6 +4725,20 @@ const NAO_POS_ES_DATA = {
         "codcli": "82480",
         "cliente": "CEREALISTA 90 DE SANTISSIMO LTDA",
         "bairro": "SENADOR CAMARA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95858",
+        "cliente": "MERCADO EMPORIO CRISTAL LTDA",
+        "bairro": "CAMPO GRANDE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95857",
+        "cliente": "MERCADO MALVINAS LTDA",
+        "bairro": "BANGU",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -19178,6 +19192,13 @@ const NAO_POS_ES_DATA = {
             "valor": 862.8
           }
         ]
+      },
+      {
+        "codcli": "95856",
+        "cliente": "67.247.372 ELIZALDO FERNANDES DA SILVA",
+        "bairro": "CIDADE PRAIANA",
+        "dtultcomp": "nan",
+        "produtos": []
       },
       {
         "codcli": "95839",
