@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "30/07/2026 16:14",
+  "atualizado_em": "30/07/2026 16:40",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -545,26 +545,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33617",
-        "cliente": "CERVEJARIA COLDER INDUSTRIA E COMERCIO LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "05/05/2025",
-        "produtos": [
-          {
-            "produto": "RUM MONTILLA OURO 1000ML",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 358.8
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "YVY",
-            "qt": 18,
-            "valor": 718.2
-          }
-        ]
-      },
-      {
         "codcli": "33496",
         "cliente": "MULLIGAN S BAR LTDA",
         "bairro": "CRUZEIRO",
@@ -651,20 +631,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "DIAGEO",
             "qt": 10,
             "valor": 1293.6
-          }
-        ]
-      },
-      {
-        "codcli": "29703",
-        "cliente": "BAR E RESTAURANTE POMPEU LTDA",
-        "bairro": "ITAPOÃ",
-        "dtultcomp": "29/04/2026",
-        "produtos": [
-          {
-            "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
-            "fantasia": "DIAGEO",
-            "qt": 2,
-            "valor": 273.12
           }
         ]
       },
@@ -3142,9 +3108,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "39403",
+        "codcli": "30324",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "COMITECO",
+        "bairro": "BELVEDERE",
         "dtultcomp": "29/05/2026",
         "produtos": [
           {
@@ -3162,9 +3128,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30324",
+        "codcli": "39403",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "BELVEDERE",
+        "bairro": "COMITECO",
         "dtultcomp": "29/05/2026",
         "produtos": [
           {
@@ -3577,13 +3543,6 @@ const NAO_POS_MG_DATA = {
         "codcli": "39553",
         "cliente": "58.541.717 CLESIO MATEUS SANTOS GONCALVES",
         "bairro": "HELIÓPOLIS",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39702",
-        "cliente": "BLEND WINES COMERCIAL LTDA",
-        "bairro": "HAVAÍ",
         "dtultcomp": "nan",
         "produtos": []
       }
