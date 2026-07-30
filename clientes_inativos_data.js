@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "30/07/2026 14:46",
+  "atualizado_em": "30/07/2026 15:08",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -875,7 +875,26 @@ const INATIVOS_DATA = {
           "media": 2194.71
         }
       ],
-      "novos": []
+      "novos": [
+        {
+          "codcli": "95858",
+          "cliente": "MERCADO EMPORIO CRISTAL LTDA",
+          "bairro": "CAMPO GRANDE",
+          "cidade": "RIO DE JANEIRO",
+          "dtcadastro": "30/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "95857",
+          "cliente": "MERCADO MALVINAS LTDA",
+          "bairro": "BANGU",
+          "cidade": "RIO DE JANEIRO",
+          "dtcadastro": "30/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        }
+      ]
     },
     "BRYAN PALOPOLI - OFF TRADE": {
       "rca": "299",
@@ -5557,6 +5576,15 @@ const INATIVOS_DATA = {
         }
       ],
       "novos": [
+        {
+          "codcli": "95856",
+          "cliente": "67.247.372 ELIZALDO FERNANDES DA SILVA",
+          "bairro": "CIDADE PRAIANA",
+          "cidade": "RIO DAS OSTRAS",
+          "dtcadastro": "30/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
         {
           "codcli": "95839",
           "cliente": "MERCEARIA LIGEIRINHO LIMITADA",
