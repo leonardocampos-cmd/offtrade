@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "30/07/2026 15:06",
-  "total": 22304,
+  "atualizado_em": "30/07/2026 15:28",
+  "total": 22302,
   "clientes": [
     {
       "codcli": "38586",
@@ -63092,22 +63092,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "JADDE CARVALHO"
     },
     {
-      "codcli": "37451",
-      "razao": "BAR E CAFE AUGUSTO DE LIMA LTDA",
-      "fantasia": "BAR ESTRELA",
-      "bairro": "CENTRO",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "17.156.407/0001-05",
-      "estado": "MG",
-      "ramo": "LANCHONETE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "62598",
       "razao": "BAR E CAFE UNIAO LTDA",
       "fantasia": "BAR E CAFE UNIAO LTDA",
@@ -92852,22 +92836,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
-      "codcli": "93121",
-      "razao": "CASEBRE DO JACK LTDA",
-      "fantasia": "CASEBRE DO JACK",
-      "bairro": "JARDINS",
-      "cidade": "ARACRUZ",
-      "cnpj": "30.242.526/0001-49",
-      "estado": "ES",
-      "ramo": "CAFETERIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "44020",
       "razao": "CASH ATACADO LTDA",
       "fantasia": "CASH ATACADO LTDA",
@@ -101020,22 +100988,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "30.983.327/0001-91",
       "estado": "MG",
       "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "36084",
-      "razao": "CLEUSA MARIA DE OLIVEIRA SILVA",
-      "fantasia": "STAR DAY MOTEL",
-      "bairro": "CENTRO",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "03.250.520/0001-40",
-      "estado": "MG",
-      "ramo": "MOTEL",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -245060,6 +245012,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
+      "codcli": "52185",
+      "razao": "MINIMERCADO LITORAL LTDA",
+      "fantasia": "MINIMERCADO LITORAL",
+      "bairro": "GONZAGA",
+      "cidade": "SANTOS",
+      "cnpj": "47.969.586/0001-60",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "500",
+      "nome_usur1": "PAULO MOREIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "61987",
       "razao": "MINIMERCADO LOS ANGELES LTDA.",
       "fantasia": "MINIMERCADO LOS ANGELES LTDA.",
@@ -302356,22 +302324,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "31630",
-      "razao": "ROCOCO BEER LTDA",
-      "fantasia": "ROCOCO BEER LTDA",
-      "bairro": "PALMEIRAS",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "07.749.736/0001-06",
-      "estado": "MG",
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "412",
-      "nome_usur2": "LAYZ WERNECK"
-    },
-    {
       "codcli": "46276",
       "razao": "ROD RAF CENTER CONVENIENCIAS LTDA",
       "fantasia": "ROD&RAF LOJA 13",
@@ -327698,6 +327650,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "52186",
+      "razao": "SUPERMERCADO VARANDAS LTDA",
+      "fantasia": "SUPERMERCADO VARANDAS",
+      "bairro": "APARECIDA",
+      "cidade": "SANTOS",
+      "cnpj": "49.949.472/0006-99",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "500",
+      "nome_usur1": "PAULO MOREIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "82234",
