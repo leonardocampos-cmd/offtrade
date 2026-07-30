@@ -1,10 +1,1181 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "29/07/2026 22:57",
+  "atualizado_em": "30/07/2026 11:14",
   "periodo_dias": 90,
-  "fontes_indisponiveis": [
-    "CASTAS"
-  ],
+  "fontes_indisponiveis": [],
   "pedidos_feitos": [
+    {
+      "numped": "388001225",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "EUDES MORGAN - OFF TRADE",
+      "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+      "sistema": "CRC",
+      "estado": "ES",
+      "supervisor": "SUPERVISOR OFF - ES",
+      "gerente": "EROCLES OLIVEIRA",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :7351",
+      "obs": "Entregar este pedido urgente ate dia  03/08/26.  Cliente disse que pode",
+      "total": 6855.7,
+      "itens": [
+        {
+          "desc": "DP DADINHO TRAD 420GR",
+          "qt": 36,
+          "val": 609.84,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "DP DADINHO TRAD SACHE 90G",
+          "qt": 80,
+          "val": 488.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "DP DADINHO ZERO ACUCAR 90G",
+          "qt": 80,
+          "val": 717.6,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "DP BOMBOM DADINHO ESPEC 198G",
+          "qt": 60,
+          "val": 395.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
+          "qt": 24,
+          "val": 686.88,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "DP DADINHO BITZ AO LEITE 105G",
+          "qt": 60,
+          "val": 229.2,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "PINATI NUTS BANANA 20X30G",
+          "qt": 6,
+          "val": 232.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "PINATI NUTS ORIGINAL 20X30G",
+          "qt": 6,
+          "val": 232.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "PINATI NUTS COCO 16X4X25G",
+          "qt": 4,
+          "val": 355.2,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "PINATI NUTS ZERO COCO 16X4X25G",
+          "qt": 4,
+          "val": 355.2,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "PINATI NUTS ZERO ORIGINAL 16X4X25G",
+          "qt": 4,
+          "val": 355.2,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "PINATI DOUBLE BAR BANANA AMENDOIM 16X35G",
+          "qt": 16,
+          "val": 788.88,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
+          "qt": 16,
+          "val": 788.88,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "PINATI DOUBLE BAR COCO E AMENDOIM 16X35G",
+          "qt": 4,
+          "val": 200.96,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "PINATI DB WHEY AVELA E LEITE 12X50G",
+          "qt": 6,
+          "val": 418.86,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "412001447",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "BARBARA CABRAL - OFF TRADE",
+      "cliente": "CONVENIENCIA AGUA BRANCA LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :100",
+      "obs": "",
+      "total": 348.5,
+      "itens": [
+        {
+          "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "qt": 1,
+          "val": 132.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "ICE 51 LIMAO LONG NECK 24X275ML",
+          "qt": 1,
+          "val": 120.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 1,
+          "val": 94.7,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "378000553",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "FABIO VALOTTI - OFF TRADE",
+      "cliente": "SUPERMERCADO ULTRA TREZE LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :5985",
+      "obs": "Favor entregar dia 31/07",
+      "total": 339.84,
+      "itens": [
+        {
+          "desc": "NECTAR ABACAXI 12X1000ML",
+          "qt": 1,
+          "val": 56.64,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "NECTAR CAJU 12X1000ML",
+          "qt": 1,
+          "val": 56.64,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "NECTAR GOIABA 12X1000ML",
+          "qt": 1,
+          "val": 56.64,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "NECTAR LARANJA 12X1000ML",
+          "qt": 1,
+          "val": 56.64,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "NECTAR MACA TIAL 12X1000ML",
+          "qt": 1,
+          "val": 56.64,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "NECTAR PESSEGO 12X1000ML",
+          "qt": 1,
+          "val": 56.64,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "388001226",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "EUDES MORGAN - OFF TRADE",
+      "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+      "sistema": "CRC",
+      "estado": "ES",
+      "supervisor": "SUPERVISOR OFF - ES",
+      "gerente": "EROCLES OLIVEIRA",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :3054",
+      "obs": "Entregar este pedido ate dia  03/08/26. Cliente disse que recebe amanha",
+      "total": 13634.16,
+      "itens": [
+        {
+          "desc": "WHISKY JIM BEAM APPLE 1L",
+          "qt": 12,
+          "val": 958.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "CACHACA VELHO BARREIRO 910 ML",
+          "qt": 120,
+          "val": 1831.2,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "LICOR BALLENA MORANGO 750 ML",
+          "qt": 12,
+          "val": 1572.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY JIM BEAM HONEY 1L",
+          "qt": 12,
+          "val": 958.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "RUM BACARDI BIG APPLE 700ML",
+          "qt": 12,
+          "val": 427.68,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "RUM BACARDI SUPERIOR 700ML",
+          "qt": 24,
+          "val": 855.36,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "RUM BACARDI GOLD 700ML",
+          "qt": 24,
+          "val": 941.04,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "RUM BACARDI LIMON 700ML",
+          "qt": 24,
+          "val": 855.36,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "RUM BACARDI MOJITO 700ML",
+          "qt": 24,
+          "val": 855.36,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "MARTINI BIANCO 750 ML",
+          "qt": 12,
+          "val": 427.68,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "MARTINI ROSATO 750 ML",
+          "qt": 12,
+          "val": 427.68,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "MARTINI ROSSO 750 ML",
+          "qt": 12,
+          "val": 427.68,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VODKA NATASHA 900ML",
+          "qt": 72,
+          "val": 1177.92,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 24,
+          "val": 1917.6,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "155004027",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "RAPHAEL SANTOS - OFF TRADE",
+      "cliente": "50.907.363 ANA CAROLINA DA CONCEICAO PEREIRA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :2320",
+      "obs": "",
+      "total": 319.52,
+      "itens": [
+        {
+          "desc": "APERITIVO CAMPARI 998ML",
+          "qt": 2,
+          "val": 109.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "GIN TANQUERAY  750 ML",
+          "qt": 1,
+          "val": 89.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "GIN BEEFEATER PINK 700ML",
+          "qt": 1,
+          "val": 59.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "4 PACK RED BULL 250ML",
+          "qt": 2,
+          "val": 59.92,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "192003883",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "ENEIVA RODRIGUES - OFF TRADE",
+      "cliente": "ORIGINAL COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+      "sistema": "CRC",
+      "estado": "ES",
+      "supervisor": "SUPERVISOR BALCAO - ES",
+      "gerente": "EROCLES OLIVEIRA",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
+      "obs": "",
+      "total": 155312.64,
+      "itens": [
+        {
+          "desc": "RED BULL TROPICAL 24X250ML",
+          "qt": 288,
+          "val": 51770.88,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "RED BULL 24X250ML",
+          "qt": 576,
+          "val": 103541.76,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "412001448",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "BARBARA CABRAL - OFF TRADE",
+      "cliente": "PALMARES DISTRIBUIDORA DE PRODUTOS ALIMENTICIOS LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :5579",
+      "obs": "",
+      "total": 250.0,
+      "itens": [
+        {
+          "desc": "RC SARDINHA EM OLEO 50X125G",
+          "qt": 1,
+          "val": 250.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "379001331",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "JORGE MACIEL - OFF TRADE",
+      "cliente": "JUDITH COMERCIO DE ALIMENTOS LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :5580",
+      "obs": "",
+      "total": 331.5,
+      "itens": [
+        {
+          "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "qt": 1,
+          "val": 199.5,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "RC ATUM RALADO OLEO 24X140G",
+          "qt": 1,
+          "val": 132.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "379001332",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "JORGE MACIEL - OFF TRADE",
+      "cliente": "MERCADO NOVA FAZENDA R. A LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :5579",
+      "obs": "",
+      "total": 1396.5,
+      "itens": [
+        {
+          "desc": "RC SARDINHA EM OLEO 50X125G",
+          "qt": 5,
+          "val": 997.5,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "qt": 2,
+          "val": 399.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "516000025",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "JOAQUIM ANGELO - OFF TRADE",
+      "cliente": "P. GOMES FILHO",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 1258.8,
+      "itens": [
+        {
+          "desc": "GIN TANQUERAY BOSSA NOVA  700 ML",
+          "qt": 12,
+          "val": 1258.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "327009570",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "JOÃO SANTOS - OFF TRADE",
+      "cliente": "TRUPICO BAR & RESTAURANTE LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :484",
+      "obs": "",
+      "total": 359.6,
+      "itens": [
+        {
+          "desc": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 4,
+          "val": 359.6,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "344000566",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "TIAGO ANDRADE - OFF TRADE",
+      "cliente": "SODEXO DO BRASIL COMERCIAL S A",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
+      "obs": "",
+      "total": 1480.8,
+      "itens": [
+        {
+          "desc": "RED BULL SUGAR FREE  250 ML CX C/24",
+          "qt": 10,
+          "val": 1480.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "327009572",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "JOÃO SANTOS - OFF TRADE",
+      "cliente": "EL MAI LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 3039.0,
+      "itens": [
+        {
+          "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "qt": 3,
+          "val": 230.7,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ADELE ROSE 750ML",
+          "qt": 6,
+          "val": 461.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ADELE BRANCO 750ML",
+          "qt": 6,
+          "val": 461.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "ESPUMANTE ALUD BRANCO 750ML",
+          "qt": 4,
+          "val": 179.6,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARCAIA ROSE 750ML",
+          "qt": 4,
+          "val": 307.6,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO BRANCO AZUL VENTOZELO 750ML",
+          "qt": 6,
+          "val": 539.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ORO PREMIUM MALBEC 750ML",
+          "qt": 5,
+          "val": 499.5,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO CAVAS DE ORO CHARDONNAY 750ML",
+          "qt": 6,
+          "val": 359.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "360000393",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
+      "cliente": "ORGANIZACAO VERDEMAR LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :4443",
+      "obs": "CD",
+      "total": 3528.0,
+      "itens": [
+        {
+          "desc": "XAROPE  MONIN CRANBERRY 330 ML",
+          "qt": 84,
+          "val": 2058.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "XAROPE MONIN GENGIBRE 330 ML",
+          "qt": 60,
+          "val": 1470.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "327009571",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "JOÃO SANTOS - OFF TRADE",
+      "cliente": "LUC2 COMERCIO DE ALIMENTOS LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "restaurante tip top Savassi",
+      "total": 314.3,
+      "itens": [
+        {
+          "desc": "ESPUMANTE ALUD BRANCO 750ML",
+          "qt": 7,
+          "val": 314.3,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "327009579",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "JOÃO SANTOS - OFF TRADE",
+      "cliente": "MAGNUS SOCIEDADE COMERCIAL LIMITADA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :69",
+      "obs": "tem bonificacao pra ir junto",
+      "total": 2553.52,
+      "itens": [
+        {
+          "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "qt": 8,
+          "val": 839.2,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "RUM MONTILLA CARTA BRANCA 1000 ML",
+          "qt": 12,
+          "val": 249.6,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "RUM MONTILLA OURO 1000ML",
+          "qt": 24,
+          "val": 499.2,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "GIN ORLOFF 1L",
+          "qt": 12,
+          "val": 412.2,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY BALLANTINES SUNSHINE 700ML",
+          "qt": 12,
+          "val": 553.32,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "327009577",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "JOÃO SANTOS - OFF TRADE",
+      "cliente": "POINT BAIANO BAR E RESTAURANTE LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :484",
+      "obs": "",
+      "total": 402.5,
+      "itens": [
+        {
+          "desc": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 1,
+          "val": 89.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY JIM BEAM HONEY 1L",
+          "qt": 1,
+          "val": 89.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VILLA ROSA TINTO 750ML",
+          "qt": 1,
+          "val": 42.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY JIM BEAM APPLE 1L",
+          "qt": 1,
+          "val": 89.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY JIM BEAM CHERRY 1L",
+          "qt": 1,
+          "val": 89.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "360000395",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
+      "cliente": "MULTICOM ATACADO E VAREJO S/A",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :3536",
+      "obs": "Ceasa",
+      "total": 14382.0,
+      "itens": [
+        {
+          "desc": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 60,
+          "val": 4794.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY JIM BEAM HONEY 1L",
+          "qt": 60,
+          "val": 4794.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY JIM BEAM APPLE 1L",
+          "qt": 60,
+          "val": 4794.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "327009575",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "JOÃO SANTOS - OFF TRADE",
+      "cliente": "BAR E RESTAURANTE NUNES LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :484",
+      "obs": "",
+      "total": 359.6,
+      "itens": [
+        {
+          "desc": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 1,
+          "val": 89.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY JIM BEAM HONEY 1L",
+          "qt": 1,
+          "val": 89.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY JIM BEAM APPLE 1L",
+          "qt": 1,
+          "val": 89.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY JIM BEAM CHERRY 1L",
+          "qt": 1,
+          "val": 89.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "327009573",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "JOÃO SANTOS - OFF TRADE",
+      "cliente": "CAMP NOU ARENA LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :4252",
+      "obs": "cliente so recebe apos 14:00 horas",
+      "total": 359.52,
+      "itens": [
+        {
+          "desc": "RED BULL ZERO 24X250ML",
+          "qt": 2,
+          "val": 359.52,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "327009574",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "JOÃO SANTOS - OFF TRADE",
+      "cliente": "BAIANA DO ACARAJE BAR E RESTAURANTE LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :484",
+      "obs": "",
+      "total": 514.5,
+      "itens": [
+        {
+          "desc": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 1,
+          "val": 89.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY JIM BEAM HONEY 1L",
+          "qt": 1,
+          "val": 89.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY JIM BEAM APPLE 1L",
+          "qt": 1,
+          "val": 89.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY JIM BEAM CHERRY 1L",
+          "qt": 1,
+          "val": 89.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "CHATEAU PEYRASSOL LA CROIX ROSE 2024 750",
+          "qt": 1,
+          "val": 154.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "360000394",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
+      "cliente": "ORGANIZACAO VERDEMAR LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :467",
+      "obs": "",
+      "total": 43151.4,
+      "itens": [
+        {
+          "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "qt": 300,
+          "val": 23970.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "CHANDON BABY BRUT 187 ML",
+          "qt": 48,
+          "val": 1483.2,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "LICOR FRANGELICO 700ML",
+          "qt": 48,
+          "val": 4963.2,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "CHANDON BRUT ROSE 750ML",
+          "qt": 60,
+          "val": 5094.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "CHANDON PASSION ON ICE 750ML",
+          "qt": 90,
+          "val": 7641.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "327009578",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "JOÃO SANTOS - OFF TRADE",
+      "cliente": "AECIO LUCAS LACERDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :484",
+      "obs": "",
+      "total": 359.6,
+      "itens": [
+        {
+          "desc": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 1,
+          "val": 89.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY JIM BEAM HONEY 1L",
+          "qt": 1,
+          "val": 89.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY JIM BEAM APPLE 1L",
+          "qt": 1,
+          "val": 89.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY JIM BEAM CHERRY 1L",
+          "qt": 1,
+          "val": 89.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "327009576",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "JOÃO SANTOS - OFF TRADE",
+      "cliente": "RESTAURANTE E EMPORIO MORADA MEXICANA EIRELI",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 528.2,
+      "itens": [
+        {
+          "desc": "TEQUILA EL JIMADOR BLANCO 750 ML",
+          "qt": 3,
+          "val": 314.7,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "RUM BACARDI CARTA BLANCA 980 ML",
+          "qt": 2,
+          "val": 93.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "YVY DESTILADO VODKA 710ML",
+          "qt": 1,
+          "val": 39.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "YVY DESTILADO RUM LT 710ML",
+          "qt": 2,
+          "val": 79.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
     {
       "numped": "159005182",
       "numnota": "",
@@ -17,7 +1188,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :997",
       "obs": "",
       "total": 897.6,
@@ -86,7 +1257,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Bloqueio de Pedidos bonificado",
       "obs": "",
       "total": 449.8,
@@ -498,7 +1669,7 @@ const PEDIDOS_DATA = {
       "nome": "JOAO AUGUSTO -  OFF TRADE",
       "cliente": "PASCALE, PETRELLI & CIA LTDA",
       "sistema": "SPON",
-      "estado": "Sem Estado",
+      "estado": "SP",
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
@@ -1020,7 +2191,7 @@ const PEDIDOS_DATA = {
       "nome": "JOAO AUGUSTO -  OFF TRADE",
       "cliente": "PASCALE & PASCALE SUPERMERCADO LTDA",
       "sistema": "SPON",
-      "estado": "Sem Estado",
+      "estado": "SP",
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
@@ -4404,54 +5575,6 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
-      "numped": "275000540",
-      "numnota": "",
-      "data": "30/05/2026",
-      "data_ord": "2026-05-30",
-      "nome": "MARIA LUIZA - OFF TRADE",
-      "cliente": "EMISE SUPERMERCADO LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Bloqueado (alçada)",
-      "motivo": "",
-      "obs": "ENTREGAR DE 08:00 AS 15:00",
-      "total": 2556.35,
-      "itens": [
-        {
-          "desc": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
-          "qt": 5,
-          "val": 759.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "MOVING BOOSTER LIMAO 24X310ML",
-          "qt": 5,
-          "val": 759.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "ESPUM CASA PERINI BRUT 750ML",
-          "qt": 18,
-          "val": 628.2,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "qt": 5,
-          "val": 410.15,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false
-    },
-    {
       "numped": "471000014",
       "numnota": "",
       "data": "22/05/2026",
@@ -4673,6 +5796,118 @@ const PEDIDOS_DATA = {
     }
   ],
   "faturados": [
+    {
+      "numped": "388001224",
+      "numnota": "43281",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "EUDES MORGAN - OFF TRADE",
+      "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+      "sistema": "CRC",
+      "estado": "ES",
+      "supervisor": "SUPERVISOR OFF - ES",
+      "gerente": "EROCLES OLIVEIRA",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
+      "obs": "PEDIDO DO CLIENTE 2982352",
+      "total": 1405.69,
+      "itens": [
+        {
+          "desc": "CACHACA JOIA DA SERRA TRADICIONAL 1L",
+          "qt": 36,
+          "val": 1405.69,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "486000122",
+      "numnota": "7244",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "LEONARDO FLOREZI - OFF TRADE",
+      "cliente": "EDUARDO GONCALVES ESTACIONAMENTO LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
+      "obs": "",
+      "total": 757.47,
+      "itens": [
+        {
+          "desc": "VODKA ABSOLUT 1L",
+          "qt": 1,
+          "val": 52.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VODKA ORLOFF 1L",
+          "qt": 1,
+          "val": 19.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VILLA ROSA ROSE 750ML",
+          "qt": 1,
+          "val": 39.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO VILLA ROSA FRISANTE ROSE 750ML",
+          "qt": 1,
+          "val": 32.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VODKA ABSOLUT RASPBERRY - 750ML",
+          "qt": 1,
+          "val": 55.5,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI EST SEL CAB SAUV 750ML",
+          "qt": 1,
+          "val": 44.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI EST SEL MERLOT 750ML",
+          "qt": 1,
+          "val": 44.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VODKA BELVEDERE PURE 12X50 ML",
+          "qt": 12,
+          "val": 250.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO DOM BOSCO TINTO SECO 750ML",
+          "qt": 24,
+          "val": 215.76,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
     {
       "numped": "458000005",
       "numnota": "43263",
@@ -7467,69 +8702,6 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
-      "numped": "275000678",
-      "numnota": "7010",
-      "data": "29/07/2026",
-      "data_ord": "2026-07-29",
-      "nome": "MARIA LUIZA - OFF TRADE",
-      "cliente": "CASAFRUTI DAS AMERICAS S/A",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "PEDIDO 5586701",
-      "total": 3850.3,
-      "itens": [
-        {
-          "desc": "WHISKY JACK DANIELS  700ML",
-          "qt": 6,
-          "val": 569.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VODKA SMIRNOFF 600 ML",
-          "qt": 6,
-          "val": 131.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "TEQUILA J CUERVO GOLD 750ML",
-          "qt": 1,
-          "val": 94.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "CHANDON GARDEN SPRITZ 750 ML",
-          "qt": 18,
-          "val": 1474.2,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "CHANDON RESERVE BRUT ROSE 750ML",
-          "qt": 12,
-          "val": 910.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VODCA SMIRNOFF RED 998 ML",
-          "qt": 24,
-          "val": 669.6,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
       "numped": "275000679",
       "numnota": "7018",
       "data": "29/07/2026",
@@ -7564,6 +8736,62 @@ const PEDIDOS_DATA = {
           "desc": "VILLA ROSA TINTO 750ML",
           "qt": 30,
           "val": 867.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "275000680",
+      "numnota": "7037",
+      "data": "29/07/2026",
+      "data_ord": "2026-07-29",
+      "nome": "MARIA LUIZA - OFF TRADE",
+      "cliente": "CASAFRUTI DAS AMERICAS S/A",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
+      "obs": "30/07 - A PARTIR DAS 8H",
+      "total": 3755.4,
+      "itens": [
+        {
+          "desc": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 24,
+          "val": 669.6,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY JACK DANIELS  700ML",
+          "qt": 6,
+          "val": 569.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VODKA SMIRNOFF 600 ML",
+          "qt": 6,
+          "val": 131.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "CHANDON GARDEN SPRITZ 750 ML",
+          "qt": 18,
+          "val": 1474.2,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "CHANDON RESERVE BRUT ROSE 750ML",
+          "qt": 12,
+          "val": 910.8,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -8390,6 +9618,139 @@ const PEDIDOS_DATA = {
           "desc": "CERVEJA BADEN CRISTAL  0,60LGFA DES 1UN",
           "qt": 12,
           "val": 1571.04,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "10000097",
+      "numnota": "798",
+      "data": "29/07/2026",
+      "data_ord": "2026-07-29",
+      "nome": "BRYAN PALOPOLI - OFF TRADE",
+      "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
+      "sistema": "CASTAS",
+      "estado": "SP",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
+      "obs": "",
+      "total": 44423.04,
+      "itens": [
+        {
+          "desc": "VILLA ROSA BRANCO 750ML",
+          "qt": 18,
+          "val": 540.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VILLA ROSA TINTO 750ML",
+          "qt": 18,
+          "val": 540.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VILLA ROSA  ROSE 750ML",
+          "qt": 18,
+          "val": 540.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "qt": 120,
+          "val": 6741.6,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "qt": 120,
+          "val": 6807.6,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO FOODKILLER CARMENERE 750ML",
+          "qt": 60,
+          "val": 2020.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO FOODKILLER CHARDONNAY 750ML",
+          "qt": 60,
+          "val": 2020.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO MOV BRANCO",
+          "qt": 60,
+          "val": 1795.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO MOV TINTO",
+          "qt": 60,
+          "val": 1795.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "ESPUMANTE ALUD BRANCO 750ML",
+          "qt": 12,
+          "val": 359.16,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "ESPUMANTE ALUD ROSE 750ML",
+          "qt": 12,
+          "val": 359.16,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO VILLA ROSA FRISANTE BRANCO",
+          "qt": 60,
+          "val": 1480.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO VILLA ROSA FRISANTE ROSE",
+          "qt": 60,
+          "val": 1480.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI ESTATE S. CAB SAUV 750ML",
+          "qt": 12,
+          "val": 449.16,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI ESTATE S. MERLOT 750ML",
+          "qt": 12,
+          "val": 449.16,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
+          "qt": 60,
+          "val": 17042.4,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -9454,90 +10815,6 @@ const PEDIDOS_DATA = {
           "desc": "WHISKY JACK DANIELS 10X50 ML- DEST",
           "qt": 1,
           "val": 176.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
-      "numped": "486000119",
-      "numnota": "7210",
-      "data": "29/07/2026",
-      "data_ord": "2026-07-29",
-      "nome": "LEONARDO FLOREZI - OFF TRADE",
-      "cliente": "EDUARDO GONCALVES ESTACIONAMENTO LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 527.57,
-      "itens": [
-        {
-          "desc": "VODKA ABSOLUT 1L",
-          "qt": 1,
-          "val": 52.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VODKA ORLOFF 1L",
-          "qt": 1,
-          "val": 19.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VILLA ROSA ROSE 750ML",
-          "qt": 1,
-          "val": 39.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO VILLA ROSA FRISANTE ROSE 750ML",
-          "qt": 1,
-          "val": 32.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VODKA ABSOLUT RASPBERRY - 750ML",
-          "qt": 1,
-          "val": 55.5,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO ARESTI EST SEL CAB SAUV 750ML",
-          "qt": 1,
-          "val": 44.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO ARESTI EST SEL MERLOT 750ML",
-          "qt": 1,
-          "val": 44.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VODKA BELVEDERE PURE 12X50 ML",
-          "qt": 1,
-          "val": 20.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO DOM BOSCO TINTO SECO 750ML",
-          "qt": 24,
-          "val": 215.76,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -11377,7 +12654,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "439000303",
@@ -11587,7 +12864,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "412001433",
@@ -11622,7 +12899,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "412001434",
@@ -11664,7 +12941,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "412001435",
@@ -11699,7 +12976,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "RETORNO"
     },
     {
       "numped": "412001436",
@@ -11748,7 +13025,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "412001437",
@@ -11797,7 +13074,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "412001438",
@@ -11846,7 +13123,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "412001440",
@@ -11895,7 +13172,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "412001441",
@@ -11986,7 +13263,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "370001406",
@@ -12567,7 +13844,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "156003743",
@@ -12616,7 +13893,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "156003744",
@@ -12644,7 +13921,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "156003746",
@@ -12672,7 +13949,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "156003748",
@@ -12700,7 +13977,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "156003750",
@@ -12749,7 +14026,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "156003752",
@@ -12798,7 +14075,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "156003753",
@@ -12826,7 +14103,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "RETORNO"
     },
     {
       "numped": "379001318",
@@ -12861,7 +14138,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "379001319",
@@ -12959,7 +14236,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "379001320",
@@ -12994,7 +14271,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "379001321",
@@ -13064,7 +14341,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "379001322",
@@ -13092,7 +14369,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "159005157",
@@ -13134,7 +14411,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "159005158",
@@ -13162,7 +14439,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "144001712",
@@ -13204,7 +14481,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "144001713",
@@ -13253,7 +14530,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "144001714",
@@ -13288,7 +14565,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "144001716",
@@ -13337,7 +14614,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "144001719",
@@ -13365,7 +14642,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "144001722",
@@ -13463,7 +14740,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "144001723",
@@ -13491,7 +14768,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "155003985",
@@ -13778,7 +15055,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "155003992",
@@ -13841,7 +15118,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "155003995",
@@ -13869,7 +15146,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "155003996",
@@ -13897,7 +15174,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "155003997",
@@ -14044,7 +15321,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "155003998",
@@ -14170,7 +15447,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "155004001",
@@ -14226,7 +15503,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "155004003",
@@ -14254,7 +15531,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "155004004",
@@ -14289,7 +15566,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "155004005",
@@ -14359,7 +15636,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "RETORNO"
     },
     {
       "numped": "153001327",
@@ -14394,7 +15671,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "431001187",
@@ -14450,7 +15727,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "431001188",
@@ -14478,7 +15755,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "431001190",
@@ -14590,7 +15867,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "431001191",
@@ -14674,7 +15951,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "RETORNO"
     },
     {
       "numped": "431001192",
@@ -14716,7 +15993,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "241000535",
@@ -14744,7 +16021,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "241000536",
@@ -14779,7 +16056,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "RETORNO"
     },
     {
       "numped": "378000545",
@@ -14828,7 +16105,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "378000546",
@@ -14898,7 +16175,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "378000547",
@@ -14940,7 +16217,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "378000548",
@@ -14982,7 +16259,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "378000549",
@@ -15038,7 +16315,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "471000482",
@@ -15108,7 +16385,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "471000483",
@@ -15150,7 +16427,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "471000484",
@@ -15192,7 +16469,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "508000039",
@@ -15787,7 +17064,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "419000729",
@@ -15920,7 +17197,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "419000731",
@@ -15955,7 +17232,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "419000732",
@@ -15983,7 +17260,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "RETORNO"
     },
     {
       "numped": "450000497",
@@ -16039,7 +17316,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "450000498",
@@ -17561,41 +18838,6 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
-      "numped": "588003230",
-      "numnota": "181033",
-      "data": "28/07/2026",
-      "data_ord": "2026-07-28",
-      "nome": "W.S",
-      "cliente": "ADEGA E DISTRIBUIDORA L.A.- LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 2528.4,
-      "itens": [
-        {
-          "desc": "WHISKY JIM BEAM WHITE 1L",
-          "qt": 24,
-          "val": 1509.6,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY JACK DANIELS 700ML - DEST",
-          "qt": 12,
-          "val": 1018.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
       "numped": "588003233",
       "numnota": "7158",
       "data": "28/07/2026",
@@ -17883,55 +19125,6 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
-      "numped": "469000054",
-      "numnota": "7166",
-      "data": "28/07/2026",
-      "data_ord": "2026-07-28",
-      "nome": "PATRICIA RAMOS - OFF TRADE",
-      "cliente": "WANDERLEY RICHE GARCIA 27647046829",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 292.6,
-      "itens": [
-        {
-          "desc": "WHISKY BALLANTINE S FINEST 1L",
-          "qt": 2,
-          "val": 103.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY PASSPORT 1L",
-          "qt": 2,
-          "val": 65.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN ROCKS 1LT",
-          "qt": 4,
-          "val": 82.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN ROCKS WATERMELON 1LT",
-          "qt": 2,
-          "val": 41.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
       "numped": "469000055",
       "numnota": "7167",
       "data": "28/07/2026",
@@ -17966,48 +19159,6 @@ const PEDIDOS_DATA = {
           "desc": "GIN BEEFEATER PINK 700ML",
           "qt": 2,
           "val": 139.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
-      "numped": "469000056",
-      "numnota": "7171",
-      "data": "28/07/2026",
-      "data_ord": "2026-07-28",
-      "nome": "PATRICIA RAMOS - OFF TRADE",
-      "cliente": "19.708.655 FABRIZIA TANGO CECILIO",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 300.64,
-      "itens": [
-        {
-          "desc": "LICOR 43 DIEGO ZAMORA 700ML",
-          "qt": 1,
-          "val": 116.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "LICOR CAN FIREBALL CX C/ 6X50ML",
-          "qt": 1,
-          "val": 23.94,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "LICOR BALLENA COCO 750ML",
-          "qt": 2,
-          "val": 159.8,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -19588,7 +20739,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "439000295",
@@ -21016,7 +22167,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "156003741",
@@ -21184,7 +22335,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "159005141",
@@ -21212,7 +22363,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "159005143",
@@ -21310,7 +22461,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "159005146",
@@ -21359,7 +22510,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "159005147",
@@ -21520,7 +22671,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "159005155",
@@ -21646,7 +22797,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "RETORNO"
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "144001711",
@@ -21709,7 +22860,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "RETORNO"
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "155003971",
@@ -22353,7 +23504,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "275000644",
@@ -22787,7 +23938,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "RETORNO"
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "378000544",
@@ -26448,7 +27599,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "RETORNO"
     },
     {
       "numped": "159005139",
@@ -27102,6 +28253,76 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGUE"
     },
     {
+      "numped": "10000080",
+      "numnota": "768",
+      "data": "24/07/2026",
+      "data_ord": "2026-07-24",
+      "nome": "BRYAN PALOPOLI - OFF TRADE",
+      "cliente": "GIUSEPPE LA ROSA RESTAURANTE",
+      "sistema": "CASTAS",
+      "estado": "SP",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
+      "obs": "",
+      "total": 2984.85,
+      "itens": [
+        {
+          "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "qt": 6,
+          "val": 404.46,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO CORSARINI MONTEPULCIANO 750ML",
+          "qt": 6,
+          "val": 350.46,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO TTO BERTOLI CHIANTI DOCG 750ML",
+          "qt": 6,
+          "val": 431.46,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "qt": 6,
+          "val": 431.46,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO BRANCO BURDIZZO 750ML",
+          "qt": 5,
+          "val": 359.55,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO TINTO BURDIZZO APPASSIMENTO 750ML",
+          "qt": 5,
+          "val": 449.55,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "BAROLO BUSSIA 750ML",
+          "qt": 1,
+          "val": 557.91,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
       "numped": "425000161",
       "numnota": "7023",
       "data": "24/07/2026",
@@ -27199,55 +28420,6 @@ const PEDIDOS_DATA = {
           "desc": "LICOR CAN FIREBALL CX C/ 6X50ML",
           "qt": 2,
           "val": 47.88,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGA TOTAL"
-    },
-    {
-      "numped": "426000397",
-      "numnota": "7066",
-      "data": "24/07/2026",
-      "data_ord": "2026-07-24",
-      "nome": "ADER ALONSO - OFF TRADE",
-      "cliente": "COMERCIAL DE PRODUTOS ALIMENTICIOS MINARDI LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 3750.0,
-      "itens": [
-        {
-          "desc": "JACK DANIELS HONEY 700ML",
-          "qt": 12,
-          "val": 838.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY JACK DANIELS 700ML - DEST",
-          "qt": 24,
-          "val": 1677.6,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "JACK DANIELS APPLE 700ML - DEST",
-          "qt": 12,
-          "val": 838.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY PASSPORT APPLE 670ML",
-          "qt": 12,
-          "val": 394.8,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -27522,7 +28694,7 @@ const PEDIDOS_DATA = {
       "nome": "HELENA CAVALCANTI - OFF TRADE",
       "cliente": "MINI MERCADO E HORTIFRUTIS DANTAS LTDA",
       "sistema": "SPON",
-      "estado": "Sem Estado",
+      "estado": "SP",
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
@@ -27872,7 +29044,7 @@ const PEDIDOS_DATA = {
       "nome": "JOAO AUGUSTO -  OFF TRADE",
       "cliente": "CMR COMERCIO DE ALIMENTOS LTDA",
       "sistema": "SPON",
-      "estado": "Sem Estado",
+      "estado": "SP",
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
@@ -30256,7 +31428,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "159005136",
@@ -32709,34 +33881,6 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGA TOTAL"
     },
     {
-      "numped": "588003195",
-      "numnota": "180343",
-      "data": "23/07/2026",
-      "data_ord": "2026-07-23",
-      "nome": "W.S",
-      "cliente": "BRASILEIRAO ATACADO COMERCIO DE PRODUTOS ALIMENTICIOS SOCIED",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 9588.0,
-      "itens": [
-        {
-          "desc": "LICOR BALLENA MORANGO 750ML",
-          "qt": 120,
-          "val": 9588.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGA TOTAL"
-    },
-    {
       "numped": "588003199",
       "numnota": "180410",
       "data": "23/07/2026",
@@ -33394,41 +34538,6 @@ const PEDIDOS_DATA = {
           "desc": "WHISKY JACK DANIELS APPLE 1L - DEST",
           "qt": 2,
           "val": 199.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ABERTO"
-    },
-    {
-      "numped": "487000027",
-      "numnota": "6990",
-      "data": "23/07/2026",
-      "data_ord": "2026-07-23",
-      "nome": "LUIZ RIGLER - OFF TRADE",
-      "cliente": "PEZASA DISTRIBUIDORA DE BEBIDAS LIMITADA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "O valor limite de credito foi excedido.  Vl. Ped.: 5032.8 Cr",
-      "obs": "",
-      "total": 5032.8,
-      "itens": [
-        {
-          "desc": "WHISKY PASSPORT 1L",
-          "qt": 24,
-          "val": 828.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "CACHAÇA SAO FRANCISCO 970ML",
-          "qt": 192,
-          "val": 4204.8,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -35523,48 +36632,6 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGUE"
     },
     {
-      "numped": "155003945",
-      "numnota": "414554",
-      "data": "22/07/2026",
-      "data_ord": "2026-07-22",
-      "nome": "RAPHAEL SANTOS - OFF TRADE",
-      "cliente": "SILMAS DE BUZIOS DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :3",
-      "obs": "",
-      "total": 2516.04,
-      "itens": [
-        {
-          "desc": "RED BULL 24X250ML",
-          "qt": 5,
-          "val": 898.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RED BULL TROPICAL 24X250ML",
-          "qt": 4,
-          "val": 719.04,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "SMIRNOFF RED PET 1750 ML",
-          "qt": 18,
-          "val": 898.2,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
       "numped": "155003948",
       "numnota": "414562",
       "data": "22/07/2026",
@@ -36460,41 +37527,6 @@ const PEDIDOS_DATA = {
           "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
           "qt": 2,
           "val": 73.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "471000471",
-      "numnota": "414777",
-      "data": "22/07/2026",
-      "data_ord": "2026-07-22",
-      "nome": "ANA CLARA FASSANO - OFF TRADE",
-      "cliente": "ERS DEPOSITO DE BEBIDAS LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :3642",
-      "obs": "",
-      "total": 540.0,
-      "itens": [
-        {
-          "desc": "GIN ROCKS 1000ML",
-          "qt": 6,
-          "val": 135.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN ROCKS WATERMELON 1000ML",
-          "qt": 18,
-          "val": 405.0,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -37411,6 +38443,69 @@ const PEDIDOS_DATA = {
       ],
       "tem_corte": false,
       "status_log": ""
+    },
+    {
+      "numped": "299000085",
+      "numnota": "755",
+      "data": "22/07/2026",
+      "data_ord": "2026-07-22",
+      "nome": "BRYAN PALOPOLI - OFF TRADE",
+      "cliente": "SUPERMERCADO VILA DAS FRUTAS ABRAAO DE MORAIS - LTDA.",
+      "sistema": "CASTAS",
+      "estado": "SP",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
+      "obs": "",
+      "total": 3088.8,
+      "itens": [
+        {
+          "desc": "VILLA ROSA BRANCO 750ML",
+          "qt": 60,
+          "val": 1544.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VILLA ROSA TINTO 750ML",
+          "qt": 60,
+          "val": 1544.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": "ENTREGUE"
+    },
+    {
+      "numped": "299000084",
+      "numnota": "756",
+      "data": "22/07/2026",
+      "data_ord": "2026-07-22",
+      "nome": "BRYAN PALOPOLI - OFF TRADE",
+      "cliente": "VARANDA FRUTAS E MERCEARIA LTDA",
+      "sistema": "CASTAS",
+      "estado": "SP",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
+      "obs": "",
+      "total": 1019.04,
+      "itens": [
+        {
+          "desc": "VINHO TINTO BURDIZZO APPASSIMENTO 750ML",
+          "qt": 12,
+          "val": 1019.04,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "460000125",
@@ -43300,48 +44395,6 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGUE"
     },
     {
-      "numped": "379001288",
-      "numnota": "414272",
-      "data": "21/07/2026",
-      "data_ord": "2026-07-21",
-      "nome": "JORGE MACIEL - OFF TRADE",
-      "cliente": "MERCADO SOS 3 IRMAOS LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :2781",
-      "obs": "",
-      "total": 2311.0,
-      "itens": [
-        {
-          "desc": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
-          "qt": 2,
-          "val": 539.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "qt": 24,
-          "val": 885.6,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "qt": 24,
-          "val": 885.6,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
       "numped": "379001289",
       "numnota": "414274",
       "data": "21/07/2026",
@@ -43591,7 +44644,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "RETORNO"
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "159005098",
@@ -44203,69 +45256,6 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGUE"
     },
     {
-      "numped": "155003928",
-      "numnota": "414134",
-      "data": "21/07/2026",
-      "data_ord": "2026-07-21",
-      "nome": "RAPHAEL SANTOS - OFF TRADE",
-      "cliente": "MACHARETE COMERCIO DE BEBIDAS LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :3759",
-      "obs": "",
-      "total": 3034.9,
-      "itens": [
-        {
-          "desc": "WHISKY J WALKER GREEN LABEL - 750ML",
-          "qt": 2,
-          "val": 859.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "CHANDON RESERVE BRUT ROSE 750ML",
-          "qt": 6,
-          "val": 455.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-          "qt": 6,
-          "val": 443.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "CHANDON PASSION ON ICE 750 ML",
-          "qt": 6,
-          "val": 455.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "qt": 6,
-          "val": 221.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY JACK DANIELS APPLE 1L",
-          "qt": 5,
-          "val": 599.5,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
       "numped": "155003931",
       "numnota": "414129",
       "data": "21/07/2026",
@@ -44383,111 +45373,6 @@ const PEDIDOS_DATA = {
       ],
       "tem_corte": false,
       "status_log": ""
-    },
-    {
-      "numped": "155003933",
-      "numnota": "414205",
-      "data": "21/07/2026",
-      "data_ord": "2026-07-21",
-      "nome": "RAPHAEL SANTOS - OFF TRADE",
-      "cliente": "MACHARETE COMERCIO DE BEBIDAS LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :2799",
-      "obs": "",
-      "total": 2157.12,
-      "itens": [
-        {
-          "desc": "RED BULL MELANCIA 250ML CX C/24",
-          "qt": 6,
-          "val": 1078.56,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RED BULL TROPICAL 24X250ML",
-          "qt": 4,
-          "val": 719.04,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RED BULL ZERO  24X250ML",
-          "qt": 2,
-          "val": 359.52,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
-      "numped": "155003935",
-      "numnota": "414280",
-      "data": "21/07/2026",
-      "data_ord": "2026-07-21",
-      "nome": "RAPHAEL SANTOS - OFF TRADE",
-      "cliente": "BZ 01 LA PEDRERA POUSADA LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :3011",
-      "obs": "",
-      "total": 279.2,
-      "itens": [
-        {
-          "desc": "ESPUMANTE ALUD BRANCO 750ML",
-          "qt": 8,
-          "val": 279.2,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "155003937",
-      "numnota": "414278",
-      "data": "21/07/2026",
-      "data_ord": "2026-07-21",
-      "nome": "RAPHAEL SANTOS - OFF TRADE",
-      "cliente": "ANEXO PRAIA BUZIOS LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :4880",
-      "obs": "",
-      "total": 417.76,
-      "itens": [
-        {
-          "desc": "RED BULL SF POMELO 24X250ML",
-          "qt": 1,
-          "val": 179.76,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "JACK DANIELS HONEY 1 L",
-          "qt": 2,
-          "val": 238.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
     },
     {
       "numped": "155003940",
@@ -44748,55 +45633,6 @@ const PEDIDOS_DATA = {
           "desc": "WHISKY JIM BEAM BLACK CHERRY 1L",
           "qt": 168,
           "val": 16111.2,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "378000517",
-      "numnota": "414118",
-      "data": "21/07/2026",
-      "data_ord": "2026-07-21",
-      "nome": "FABIO VALOTTI - OFF TRADE",
-      "cliente": "17.442.766 RAIMUNDA MARLI DE CASTRO MACEDO",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :2710",
-      "obs": "",
-      "total": 632.68,
-      "itens": [
-        {
-          "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
-          "qt": 5,
-          "val": 315.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "CERVEJA HEINEKEN LONG 24X330ML",
-          "qt": 1,
-          "val": 127.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "NECTAR LARANJA 12X1000ML",
-          "qt": 1,
-          "val": 59.88,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-          "qt": 1,
-          "val": 129.9,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -45610,6 +46446,41 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
+      "numped": "10000076",
+      "numnota": "737",
+      "data": "21/07/2026",
+      "data_ord": "2026-07-21",
+      "nome": "BRYAN PALOPOLI - OFF TRADE",
+      "cliente": "SUPERMERCADO VILA DAS FRUTAS CERRO CORA LTDA",
+      "sistema": "CASTAS",
+      "estado": "SP",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
+      "obs": "",
+      "total": 3088.8,
+      "itens": [
+        {
+          "desc": "VILLA ROSA BRANCO 750ML",
+          "qt": 60,
+          "val": 1544.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VILLA ROSA TINTO 750ML",
+          "qt": 60,
+          "val": 1544.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
       "numped": "425000155",
       "numnota": "6875",
       "data": "21/07/2026",
@@ -45756,34 +46627,6 @@ const PEDIDOS_DATA = {
           "desc": "VODKA ABSOLUT 1L",
           "qt": 180,
           "val": 9522.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGA TOTAL"
-    },
-    {
-      "numped": "426000385",
-      "numnota": "179957",
-      "data": "21/07/2026",
-      "data_ord": "2026-07-21",
-      "nome": "ADER ALONSO - OFF TRADE",
-      "cliente": "COMERCIAL BOLSAO DE BEBIDAS LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 27552.0,
-      "itens": [
-        {
-          "desc": "CACHAÇA SAO FRANCISCO 970ML",
-          "qt": 1344,
-          "val": 27552.0,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -45979,48 +46822,6 @@ const PEDIDOS_DATA = {
       ],
       "tem_corte": false,
       "status_log": "ENTREGA TOTAL"
-    },
-    {
-      "numped": "498000013",
-      "numnota": "6856",
-      "data": "21/07/2026",
-      "data_ord": "2026-07-21",
-      "nome": "CELSO OLIVEIRA - OFF TRADE",
-      "cliente": "PALONE GASTROBAR LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 504.6,
-      "itens": [
-        {
-          "desc": "VODCA SMIRNOFF RED 998 ML",
-          "qt": 12,
-          "val": 346.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "MARTINI BIANCO 750 ML",
-          "qt": 2,
-          "val": 57.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKEY JACK DANIELS HONEY 1 L",
-          "qt": 1,
-          "val": 99.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ABERTO"
     },
     {
       "numped": "499000002",
@@ -46308,34 +47109,6 @@ const PEDIDOS_DATA = {
       ],
       "tem_corte": false,
       "status_log": "ABERTO"
-    },
-    {
-      "numped": "588003150",
-      "numnota": "179973",
-      "data": "21/07/2026",
-      "data_ord": "2026-07-21",
-      "nome": "W.S",
-      "cliente": "SOL NASCENTE DISTRIBUICAO E REPRESENTACAO LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 12912.0,
-      "itens": [
-        {
-          "desc": "CONHAQUE DOMECQ 1L",
-          "qt": 480,
-          "val": 12912.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003152",
@@ -47366,48 +48139,6 @@ const PEDIDOS_DATA = {
           "desc": "VINHO DOM BOSCO TINTO SUAVE 750ML",
           "qt": 120,
           "val": 1078.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ABERTO"
-    },
-    {
-      "numped": "486000100",
-      "numnota": "6847",
-      "data": "21/07/2026",
-      "data_ord": "2026-07-21",
-      "nome": "LEONARDO FLOREZI - OFF TRADE",
-      "cliente": "MAGUI SUPERMERCADOS LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 249.28,
-      "itens": [
-        {
-          "desc": "CONHAQUE DOMECQ 1L",
-          "qt": 2,
-          "val": 53.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "CACHAÇA SAO FRANCISCO 970ML",
-          "qt": 4,
-          "val": 87.6,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO DOM BOSCO TINTO SUAVE 750ML",
-          "qt": 12,
-          "val": 107.88,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -50762,48 +51493,6 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGUE"
     },
     {
-      "numped": "155003916",
-      "numnota": "413815",
-      "data": "20/07/2026",
-      "data_ord": "2026-07-20",
-      "nome": "RAPHAEL SANTOS - OFF TRADE",
-      "cliente": "CAMILA LAROCCA DA COSTA 05624011725",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :237",
-      "obs": "",
-      "total": 315.7,
-      "itens": [
-        {
-          "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
-          "qt": 1,
-          "val": 132.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY JACK DANIELS 1L",
-          "qt": 1,
-          "val": 119.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY BALLANTINE S FINEST 1L",
-          "qt": 1,
-          "val": 62.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
       "numped": "153001314",
       "numnota": "413799",
       "data": "20/07/2026",
@@ -53415,55 +54104,6 @@ const PEDIDOS_DATA = {
       "status_log": "ABERTO"
     },
     {
-      "numped": "588003144",
-      "numnota": "179722",
-      "data": "20/07/2026",
-      "data_ord": "2026-07-20",
-      "nome": "W.S",
-      "cliente": "L  A COMERCIO DE BEBIDAS LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 8302.8,
-      "itens": [
-        {
-          "desc": "CONHAQUE DOMECQ 1L",
-          "qt": 240,
-          "val": 6216.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VODKA ABSOLUT 1L",
-          "qt": 12,
-          "val": 622.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN BEEFEATER PINK 700ML",
-          "qt": 12,
-          "val": 708.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN BEEFEATER BLACKBERRY 700ML",
-          "qt": 12,
-          "val": 756.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGA TOTAL"
-    },
-    {
       "numped": "433000186",
       "numnota": "179565",
       "data": "20/07/2026",
@@ -55501,55 +56141,6 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGUE"
     },
     {
-      "numped": "379001270",
-      "numnota": "413424",
-      "data": "17/07/2026",
-      "data_ord": "2026-07-17",
-      "nome": "JORGE MACIEL - OFF TRADE",
-      "cliente": "AUTO POSTO ALIANCA DE CABUCU LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Pedido com item abaixo do preço minimo.",
-      "obs": "",
-      "total": 511.2,
-      "itens": [
-        {
-          "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "qt": 3,
-          "val": 104.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VODKA ABSOLUT 1L",
-          "qt": 3,
-          "val": 194.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
-          "qt": 1,
-          "val": 105.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "LICOR BALLENA COCO 750ML",
-          "qt": 1,
-          "val": 105.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
       "numped": "144001664",
       "numnota": "413286",
       "data": "17/07/2026",
@@ -57174,34 +57765,6 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGA TOTAL"
     },
     {
-      "numped": "588003117",
-      "numnota": "179301",
-      "data": "17/07/2026",
-      "data_ord": "2026-07-17",
-      "nome": "W.S",
-      "cliente": "CICAO BEBIDAS LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 10350.0,
-      "itens": [
-        {
-          "desc": "WHISKY PASSPORT HONEY 670ML",
-          "qt": 300,
-          "val": 10350.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGA TOTAL"
-    },
-    {
       "numped": "588003120",
       "numnota": "6719",
       "data": "17/07/2026",
@@ -58713,111 +59276,6 @@ const PEDIDOS_DATA = {
           "desc": "AGUA MINALBA S/ GAS PREMIUM 12X300ML",
           "qt": 2,
           "val": 101.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "156003717",
-      "numnota": "413028",
-      "data": "16/07/2026",
-      "data_ord": "2026-07-16",
-      "nome": "MARILENA TRAGEL - OFF TRADE",
-      "cliente": "JP3 LANCHONETE LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :2843",
-      "obs": "",
-      "total": 1202.4,
-      "itens": [
-        {
-          "desc": "VINHO CORSARINI MONTEPULCIANO 750ML",
-          "qt": 4,
-          "val": 227.6,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-          "qt": 1,
-          "val": 54.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO ARCAIA PINOT GRIGIO ROSE 750ML",
-          "qt": 1,
-          "val": 54.6,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO GRAVEDAD CARMENERE 750ML",
-          "qt": 3,
-          "val": 89.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO GRAVEDAD CAB. SAUV.",
-          "qt": 3,
-          "val": 89.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO CAVAS DE ORO MALBEC 750ML",
-          "qt": 3,
-          "val": 113.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VILLA ROSA TINTO 750ML",
-          "qt": 5,
-          "val": 124.5,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO FOODKILLER CARMENERE 750ML",
-          "qt": 3,
-          "val": 101.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO FOODKILLER CAB. SAUV. 750ML",
-          "qt": 3,
-          "val": 101.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VILLA ROSA  ROSE 750ML",
-          "qt": 3,
-          "val": 74.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VILLA ROSA BRANCO 750ML",
-          "qt": 2,
-          "val": 49.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "qt": 2,
-          "val": 119.8,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -64055,69 +64513,6 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
-      "numped": "439000263",
-      "numnota": "412572",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "MATEUS CARDOSO - OFF TRADE",
-      "cliente": "MERCADO E HORTIFRUTI PAGUE MENOS LEVE MAIS LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :3643",
-      "obs": "Data entrega: 16/07/26",
-      "total": 1470.0,
-      "itens": [
-        {
-          "desc": "RUM MONTILLA OURO 1L",
-          "qt": 12,
-          "val": 262.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "COMARY MELFORT COQUETEL DE MEL 1L",
-          "qt": 12,
-          "val": 130.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN ROCKS 1000ML",
-          "qt": 12,
-          "val": 270.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN ROCKS STRAWBERRY 1000ML",
-          "qt": 12,
-          "val": 270.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN ROCKS SUNSET 1000ML",
-          "qt": 12,
-          "val": 266.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN ROCKS WATERMELON 1000ML",
-          "qt": 12,
-          "val": 270.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
       "numped": "370001399",
       "numnota": "42893",
       "data": "15/07/2026",
@@ -64174,48 +64569,6 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
-      "numped": "156003712",
-      "numnota": "412585",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "MARILENA TRAGEL - OFF TRADE",
-      "cliente": "SANTA MANIA CONVENIENCIAS LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :6256",
-      "obs": "",
-      "total": 269.7,
-      "itens": [
-        {
-          "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "qt": 1,
-          "val": 89.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-          "qt": 1,
-          "val": 89.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 1,
-          "val": 89.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
       "numped": "379001247",
       "numnota": "412364",
       "data": "15/07/2026",
@@ -64236,41 +64589,6 @@ const PEDIDOS_DATA = {
           "desc": "WHISKY BALLANTINE S FINEST 1L",
           "qt": 12,
           "val": 778.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "379001248",
-      "numnota": "412360",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "JORGE MACIEL - OFF TRADE",
-      "cliente": "LDK EVENTOS LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 525.6,
-      "itens": [
-        {
-          "desc": "RUM MONTILLA OURO 1L",
-          "qt": 12,
-          "val": 262.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RUM MONTILLA CARTA BRANCA 1L",
-          "qt": 12,
-          "val": 262.8,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -65014,41 +65332,6 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGUE"
     },
     {
-      "numped": "144001653",
-      "numnota": "412676",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "DIOGO RAPOSO - OFF TRADE",
-      "cliente": "MERCADO LOMAS VALENTIM LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 1363.5,
-      "itens": [
-        {
-          "desc": "AMARULA C LIQUEUR 750 ML",
-          "qt": 12,
-          "val": 1066.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "AMARULA C LIQUEUR 750 ML + 1 COPO",
-          "qt": 3,
-          "val": 296.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
       "numped": "155003877",
       "numnota": "412398",
       "data": "15/07/2026",
@@ -65174,55 +65457,6 @@ const PEDIDOS_DATA = {
           "desc": "RED BULL MORANGO PESSEGO 24X250ML",
           "qt": 1,
           "val": 172.56,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "155003882",
-      "numnota": "412655",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "RAPHAEL SANTOS - OFF TRADE",
-      "cliente": "CONVENIENCIA BUZIANA LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :2089",
-      "obs": "",
-      "total": 2238.2,
-      "itens": [
-        {
-          "desc": "VODCA SMIRNOFF RED 998 ML",
-          "qt": 12,
-          "val": 334.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY JACK DANIELS 1L",
-          "qt": 12,
-          "val": 1438.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "LICOR JAGERMEISTER 700 ML",
-          "qt": 2,
-          "val": 249.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "COQUETEL BANANINHA REGGIANI 950ML",
-          "qt": 12,
-          "val": 214.8,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -66918,34 +67152,6 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGA TOTAL"
     },
     {
-      "numped": "588003056",
-      "numnota": "178828",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "W.S",
-      "cliente": "SANTA VITTA GASTROBAR LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 1078.8,
-      "itens": [
-        {
-          "desc": "LICOR COINTREAU 700 ML",
-          "qt": 12,
-          "val": 1078.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGA TOTAL"
-    },
-    {
       "numped": "588003057",
       "numnota": "178859",
       "data": "15/07/2026",
@@ -67477,83 +67683,6 @@ const PEDIDOS_DATA = {
           "desc": "WHISKY PASSPORT 1L",
           "qt": 12,
           "val": 394.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ABERTO"
-    },
-    {
-      "numped": "476000205",
-      "numnota": "6596",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "RODRIGO LIMA - OFF TRADE",
-      "cliente": "STEFANI COMERCIO ATACADISTA DE BEBIDAS LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 505.7,
-      "itens": [
-        {
-          "desc": "RUM MONTILLA OURO 1L",
-          "qt": 26,
-          "val": 505.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ABERTO"
-    },
-    {
-      "numped": "476000207",
-      "numnota": "6609",
-      "data": "15/07/2026",
-      "data_ord": "2026-07-15",
-      "nome": "RODRIGO LIMA - OFF TRADE",
-      "cliente": "ERIK VIEIRA PALADINO",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 535.9,
-      "itens": [
-        {
-          "desc": "WHISKY JACK DANIELS 1L",
-          "qt": 1,
-          "val": 99.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY PASSPORT 1L",
-          "qt": 3,
-          "val": 98.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "LICOR 43 DIEGO ZAMORA 700ML",
-          "qt": 2,
-          "val": 233.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY PASSPORT HONEY 670ML",
-          "qt": 3,
-          "val": 103.5,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -68990,62 +69119,6 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGUE"
     },
     {
-      "numped": "439000255",
-      "numnota": "412302",
-      "data": "14/07/2026",
-      "data_ord": "2026-07-14",
-      "nome": "MATEUS CARDOSO - OFF TRADE",
-      "cliente": "DISTRIBUIDORA DE DOCES E BEBIDAS BORBOREMA LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :66",
-      "obs": "Data entrega: 16/07/26",
-      "total": 936.6,
-      "itens": [
-        {
-          "desc": "RUM MONTILLA CRISTAL 1L",
-          "qt": 8,
-          "val": 175.2,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN ROCKS SUNSET 1000ML",
-          "qt": 6,
-          "val": 135.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN ROCKS GREEN APPLE 1000ML",
-          "qt": 6,
-          "val": 135.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "qt": 6,
-          "val": 221.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN ROCKS WATERMELON 1000ML",
-          "qt": 12,
-          "val": 270.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
       "numped": "336002030",
       "numnota": "42852",
       "data": "14/07/2026",
@@ -69072,76 +69145,6 @@ const PEDIDOS_DATA = {
       ],
       "tem_corte": false,
       "status_log": ""
-    },
-    {
-      "numped": "412001410",
-      "numnota": "412112",
-      "data": "14/07/2026",
-      "data_ord": "2026-07-14",
-      "nome": "BARBARA CABRAL - OFF TRADE",
-      "cliente": "MERCADO DA FAMILIA REALENGO LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :7081",
-      "obs": "",
-      "total": 266.2,
-      "itens": [
-        {
-          "desc": "ESPU MOSCATEL ROSE QNTA DO MORGADO 660ML",
-          "qt": 3,
-          "val": 67.5,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO TINTO QUINTA DO MORGADO 1LT",
-          "qt": 3,
-          "val": 59.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "qt": 10,
-          "val": 139.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "412001411",
-      "numnota": "412113",
-      "data": "14/07/2026",
-      "data_ord": "2026-07-14",
-      "nome": "BARBARA CABRAL - OFF TRADE",
-      "cliente": "MERCADO DA FAMILIA REALENGO LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :5579",
-      "obs": "",
-      "total": 250.0,
-      "itens": [
-        {
-          "desc": "RC SARDINHA EM OLEO 50X125G",
-          "qt": 1,
-          "val": 250.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
     },
     {
       "numped": "412001412",
@@ -69662,90 +69665,6 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGUE"
     },
     {
-      "numped": "379001244",
-      "numnota": "412048",
-      "data": "14/07/2026",
-      "data_ord": "2026-07-14",
-      "nome": "JORGE MACIEL - OFF TRADE",
-      "cliente": "LDK EVENTOS LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :5387",
-      "obs": "",
-      "total": 874.8,
-      "itens": [
-        {
-          "desc": "RED BULL ZERO  24X250ML",
-          "qt": 5,
-          "val": 874.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "379001245",
-      "numnota": "412044",
-      "data": "14/07/2026",
-      "data_ord": "2026-07-14",
-      "nome": "JORGE MACIEL - OFF TRADE",
-      "cliente": "BAR E MERCEARIA SANTOS MIRIM LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :2710",
-      "obs": "",
-      "total": 377.4,
-      "itens": [
-        {
-          "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
-          "qt": 6,
-          "val": 377.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "159005042",
-      "numnota": "411992",
-      "data": "14/07/2026",
-      "data_ord": "2026-07-14",
-      "nome": "GISELLE BARFER - OFF TRADE",
-      "cliente": "57.255.316 DANIELE RODRIGUES FERREIRA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :664",
-      "obs": "",
-      "total": 279.3,
-      "itens": [
-        {
-          "desc": "ESPUM CASA PERINI BRUT 750ML",
-          "qt": 7,
-          "val": 279.3,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
       "numped": "159005045",
       "numnota": "412095",
       "data": "14/07/2026",
@@ -69975,90 +69894,6 @@ const PEDIDOS_DATA = {
       ],
       "tem_corte": false,
       "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "155003870",
-      "numnota": "412096",
-      "data": "14/07/2026",
-      "data_ord": "2026-07-14",
-      "nome": "RAPHAEL SANTOS - OFF TRADE",
-      "cliente": "XERE BAR E RESTAURANTE LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :3011",
-      "obs": "",
-      "total": 903.6,
-      "itens": [
-        {
-          "desc": "HUMB. CANALE DENARIO SAUV. BLANC",
-          "qt": 4,
-          "val": 279.6,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-          "qt": 2,
-          "val": 149.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO CAZAS NOVAS COLHEITA 750ML",
-          "qt": 3,
-          "val": 269.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "ESPUMANTE ALUD BRANCO 750ML",
-          "qt": 2,
-          "val": 69.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO ARESTI ESTATE S. PINOT NOIR",
-          "qt": 3,
-          "val": 134.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
-      "numped": "155003875",
-      "numnota": "412150",
-      "data": "14/07/2026",
-      "data_ord": "2026-07-14",
-      "nome": "RAPHAEL SANTOS - OFF TRADE",
-      "cliente": "SB MONTENEGRO RESTAURANTE LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 1141.5,
-      "itens": [
-        {
-          "desc": "AGUA SAN PELLEGRINO C/GÁS 505ML",
-          "qt": 3,
-          "val": 1141.5,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
     },
     {
       "numped": "153001294",
@@ -70502,41 +70337,6 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGUE"
     },
     {
-      "numped": "471000429",
-      "numnota": "412170",
-      "data": "14/07/2026",
-      "data_ord": "2026-07-14",
-      "nome": "ANA CLARA FASSANO - OFF TRADE",
-      "cliente": "RIO DELLI COMERCIO DE ALIMENTOS LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :378",
-      "obs": "",
-      "total": 1453.26,
-      "itens": [
-        {
-          "desc": "WHISKY ROYAL SALUTE 700ML",
-          "qt": 2,
-          "val": 1399.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GUARAVITA NATURAL 24X290ML",
-          "qt": 2,
-          "val": 53.46,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
       "numped": "419000700",
       "numnota": "412120",
       "data": "14/07/2026",
@@ -70950,97 +70750,6 @@ const PEDIDOS_DATA = {
       "status_log": "EXCLUIDO"
     },
     {
-      "numped": "468000093",
-      "numnota": "178581",
-      "data": "14/07/2026",
-      "data_ord": "2026-07-14",
-      "nome": "RENATO JUNIOR - OFF TRADE",
-      "cliente": "SPEED ATACADISTA LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 11007.9,
-      "itens": [
-        {
-          "desc": "VODKA ORLOFF 1L",
-          "qt": 48,
-          "val": 955.2,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY BALLANTINE S FINEST 1L",
-          "qt": 24,
-          "val": 1269.6,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY ROYAL SALUTE 700ML",
-          "qt": 2,
-          "val": 1159.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY JACK DANIELS HONEY 1LT - DEST",
-          "qt": 6,
-          "val": 599.4,
-          "qtfalta": 18.0,
-          "cortado": true
-        },
-        {
-          "desc": "WHISKY ROYAL SALUTE GRAIN 700ML",
-          "qt": 1,
-          "val": 579.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "JACK DANIELS BLACKBERRY 1L",
-          "qt": 36,
-          "val": 6444.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": true,
-      "status_log": "ENTREGA TOTAL"
-    },
-    {
-      "numped": "468000094",
-      "numnota": "178651",
-      "data": "14/07/2026",
-      "data_ord": "2026-07-14",
-      "nome": "RENATO JUNIOR - OFF TRADE",
-      "cliente": "SPEED ATACADISTA LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 3501.0,
-      "itens": [
-        {
-          "desc": "RUM MONTILLA OURO 1L",
-          "qt": 180,
-          "val": 3501.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGA TOTAL"
-    },
-    {
       "numped": "491000011",
       "numnota": "6585",
       "data": "14/07/2026",
@@ -71201,34 +70910,6 @@ const PEDIDOS_DATA = {
           "desc": "CACHAÇA SAO FRANCISCO 970ML",
           "qt": 600,
           "val": 13140.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGA TOTAL"
-    },
-    {
-      "numped": "588003025",
-      "numnota": "178573",
-      "data": "14/07/2026",
-      "data_ord": "2026-07-14",
-      "nome": "W.S",
-      "cliente": "NUNES ATACADO LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 6210.0,
-      "itens": [
-        {
-          "desc": "WHISKY PASSPORT HONEY 670ML",
-          "qt": 180,
-          "val": 6210.0,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -71559,34 +71240,6 @@ const PEDIDOS_DATA = {
       "status_log": "ABERTO"
     },
     {
-      "numped": "433000168",
-      "numnota": "178609",
-      "data": "14/07/2026",
-      "data_ord": "2026-07-14",
-      "nome": "MANUELA ZAPPACOSTA - OFF TRADE",
-      "cliente": "APARECIDA GIMENEZ LUCIN & FILHOS LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 3228.0,
-      "itens": [
-        {
-          "desc": "CONHAQUE DOMECQ 1L",
-          "qt": 120,
-          "val": 3228.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGA TOTAL"
-    },
-    {
       "numped": "433000170",
       "numnota": "178601",
       "data": "14/07/2026",
@@ -71614,41 +71267,6 @@ const PEDIDOS_DATA = {
           "desc": "WHISKY JACK DANIELS 1L",
           "qt": 12,
           "val": 1198.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGA TOTAL"
-    },
-    {
-      "numped": "433000171",
-      "numnota": "178742",
-      "data": "14/07/2026",
-      "data_ord": "2026-07-14",
-      "nome": "MANUELA ZAPPACOSTA - OFF TRADE",
-      "cliente": "E CORRADINI IRMAO LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 1048.75,
-      "itens": [
-        {
-          "desc": "MARTINI ROSATO 750 ML",
-          "qt": 24,
-          "val": 676.63,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "MARTINI ROSSO 750 ML",
-          "qt": 12,
-          "val": 372.12,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -72047,41 +71665,6 @@ const PEDIDOS_DATA = {
       ],
       "tem_corte": false,
       "status_log": "ABERTO"
-    },
-    {
-      "numped": "489000045",
-      "numnota": "6541",
-      "data": "14/07/2026",
-      "data_ord": "2026-07-14",
-      "nome": "FERNANDO BERTIN - OFF TRADE",
-      "cliente": "ROGERIO DAS NEVES BOITUVA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 599.3,
-      "itens": [
-        {
-          "desc": "WHISKY BALLANTINE S FINEST 1L",
-          "qt": 2,
-          "val": 105.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY PASSPORT 1L",
-          "qt": 15,
-          "val": 493.5,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "EXCLUIDO"
     },
     {
       "numped": "354000618",
@@ -73281,34 +72864,6 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGUE"
     },
     {
-      "numped": "144001647",
-      "numnota": "411531",
-      "data": "13/07/2026",
-      "data_ord": "2026-07-13",
-      "nome": "DIOGO RAPOSO - OFF TRADE",
-      "cliente": "CENTRO DE EDUCACAO RELIGIOSA ISRAELITA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :5759",
-      "obs": "",
-      "total": 575.28,
-      "itens": [
-        {
-          "desc": "RC ATUM PEDACOS EM OLEO 24X140G",
-          "qt": 3,
-          "val": 575.28,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
       "numped": "144001648",
       "numnota": "6660",
       "data": "13/07/2026",
@@ -73728,6 +73283,125 @@ const PEDIDOS_DATA = {
           "desc": "GIN ROCKS STRAWBERRY 1000ML",
           "qt": 6,
           "val": 135.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "91000361",
+      "numnota": "669",
+      "data": "13/07/2026",
+      "data_ord": "2026-07-13",
+      "nome": "VIVIANI ALVES - OFF TRADE",
+      "cliente": "ORIGENS MERCATO LTDA",
+      "sistema": "CASTAS",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
+      "obs": "",
+      "total": 3423.9,
+      "itens": [
+        {
+          "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "qt": 6,
+          "val": 329.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "qt": 6,
+          "val": 359.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "DOLCETTO D'ALBA 750ML",
+          "qt": 3,
+          "val": 404.7,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "BARBERA D'ALBA SUPERIORE 750ML",
+          "qt": 3,
+          "val": 404.7,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI ESTATE S. CAB SAUV 750ML",
+          "qt": 6,
+          "val": 221.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI ESTATE S. CARMENERE 750ML",
+          "qt": 6,
+          "val": 221.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI TRISQUEL GRAN R SYRAH 750ML",
+          "qt": 6,
+          "val": 479.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO LOS ALJIBES TEMPRANILLO 750ML",
+          "qt": 3,
+          "val": 359.7,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO LOS ALJIBES SYRAH  RED WINE 750ML",
+          "qt": 3,
+          "val": 357.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
+          "qt": 1,
+          "val": 286.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "91000363",
+      "numnota": "671",
+      "data": "13/07/2026",
+      "data_ord": "2026-07-13",
+      "nome": "VIVIANI ALVES - OFF TRADE",
+      "cliente": "ORIGGIO DISTRIBUICAO LTDA",
+      "sistema": "CASTAS",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
+      "obs": "",
+      "total": 3255.8,
+      "itens": [
+        {
+          "desc": "AZEITE ESSENZA D'ITALIA 5L",
+          "qt": 20,
+          "val": 3255.8,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -75149,34 +74823,6 @@ const PEDIDOS_DATA = {
           "desc": "VODKA ABSOLUT TABASCO 750ML",
           "qt": 12,
           "val": 658.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ABERTO"
-    },
-    {
-      "numped": "476000193",
-      "numnota": "6495",
-      "data": "13/07/2026",
-      "data_ord": "2026-07-13",
-      "nome": "RODRIGO LIMA - OFF TRADE",
-      "cliente": "ADEGA EBURNEO VIVAN PARDINHO LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 525.6,
-      "itens": [
-        {
-          "desc": "CACHAÇA SAO FRANCISCO 970ML",
-          "qt": 24,
-          "val": 525.6,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -80820,34 +80466,6 @@ const PEDIDOS_DATA = {
       "status_log": "ABERTO"
     },
     {
-      "numped": "468000091",
-      "numnota": "178058",
-      "data": "09/07/2026",
-      "data_ord": "2026-07-09",
-      "nome": "RENATO JUNIOR - OFF TRADE",
-      "cliente": "PADARIA E MERCEARIA PRINCIPE DO RINCAO LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 1258.8,
-      "itens": [
-        {
-          "desc": "GIN TANQUERAY BOSSA NOVA  700 ML",
-          "qt": 12,
-          "val": 1258.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGA TOTAL"
-    },
-    {
       "numped": "354000604",
       "numnota": "124704",
       "data": "09/07/2026",
@@ -81576,90 +81194,6 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGUE"
     },
     {
-      "numped": "159005006",
-      "numnota": "410569",
-      "data": "08/07/2026",
-      "data_ord": "2026-07-08",
-      "nome": "GISELLE BARFER - OFF TRADE",
-      "cliente": "60.919.741 BIANCA DUARTE PIMENTA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :2710",
-      "obs": "",
-      "total": 4932.68,
-      "itens": [
-        {
-          "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
-          "qt": 25,
-          "val": 1622.5,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "CERVEJA HEINEKEN LONG 24X330ML",
-          "qt": 15,
-          "val": 1933.5,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY BALLANTINE S FINEST 1L",
-          "qt": 15,
-          "val": 898.5,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "4 PACK RED BULL 250ML",
-          "qt": 1,
-          "val": 28.76,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RED BULL 24X250ML",
-          "qt": 1,
-          "val": 172.56,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RED BULL ZERO  24X250ML",
-          "qt": 1,
-          "val": 172.56,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN INVICTUS TRADICIONAL 900ML",
-          "qt": 2,
-          "val": 29.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN INVICTUS TROPICAL 900ML",
-          "qt": 3,
-          "val": 44.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN INVICTUS MACA VERDE 900ML",
-          "qt": 2,
-          "val": 29.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
       "numped": "159005007",
       "numnota": "410570",
       "data": "08/07/2026",
@@ -81687,41 +81221,6 @@ const PEDIDOS_DATA = {
           "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
           "qt": 24,
           "val": 1773.6,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
-      "numped": "159005008",
-      "numnota": "410567",
-      "data": "08/07/2026",
-      "data_ord": "2026-07-08",
-      "nome": "GISELLE BARFER - OFF TRADE",
-      "cliente": "CHOPERIA FORTE BEER LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :857",
-      "obs": "",
-      "total": 1784.76,
-      "itens": [
-        {
-          "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
-          "qt": 6,
-          "val": 749.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RED BULL TROPICAL 24X250ML",
-          "qt": 6,
-          "val": 1035.36,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -81896,34 +81395,6 @@ const PEDIDOS_DATA = {
       ],
       "tem_corte": false,
       "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "144001641",
-      "numnota": "410428",
-      "data": "08/07/2026",
-      "data_ord": "2026-07-08",
-      "nome": "DIOGO RAPOSO - OFF TRADE",
-      "cliente": "MINIMERCADO ALFERES LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :2710",
-      "obs": "",
-      "total": 12380.0,
-      "itens": [
-        {
-          "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
-          "qt": 200,
-          "val": 12380.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
     },
     {
       "numped": "153001262",
@@ -83227,41 +82698,6 @@ const PEDIDOS_DATA = {
           "desc": "WHISKY JACK DANIELS APPLE 1L - DEST",
           "qt": 12,
           "val": 1198.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGA TOTAL"
-    },
-    {
-      "numped": "468000090",
-      "numnota": "177876",
-      "data": "08/07/2026",
-      "data_ord": "2026-07-08",
-      "nome": "RENATO JUNIOR - OFF TRADE",
-      "cliente": "COMERCIAL BOLSAO DE BEBIDAS LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Pedido com item abaixo do preço minimo.",
-      "obs": "",
-      "total": 12931.44,
-      "itens": [
-        {
-          "desc": "MARTINI BIANCO 750 ML",
-          "qt": 288,
-          "val": 8061.12,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "MARTINI EXTRA DRY 750 ML",
-          "qt": 168,
-          "val": 4870.32,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -85454,34 +84890,6 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGA TOTAL"
     },
     {
-      "numped": "475000029",
-      "numnota": "6292",
-      "data": "07/07/2026",
-      "data_ord": "2026-07-07",
-      "nome": "LUCAS BUENO - OFF TRADE",
-      "cliente": "ODAIR MERCADO LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 1078.8,
-      "itens": [
-        {
-          "desc": "VINHO DOM BOSCO TINTO SUAVE 750ML",
-          "qt": 120,
-          "val": 1078.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ABERTO"
-    },
-    {
       "numped": "475000030",
       "numnota": "6303",
       "data": "07/07/2026",
@@ -85550,230 +84958,6 @@ const PEDIDOS_DATA = {
       ],
       "tem_corte": false,
       "status_log": "ENTREGA TOTAL"
-    },
-    {
-      "numped": "476000170",
-      "numnota": "6318",
-      "data": "07/07/2026",
-      "data_ord": "2026-07-07",
-      "nome": "RODRIGO LIMA - OFF TRADE",
-      "cliente": "MARTINS ARAUJO E DA SILVA SUPERMERCADO LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 4686.8,
-      "itens": [
-        {
-          "desc": "GIN BOMBAY SAPPHIRE 750ML",
-          "qt": 4,
-          "val": 283.6,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY JACK DANIELS 1L",
-          "qt": 12,
-          "val": 1198.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY PASSPORT 1L",
-          "qt": 36,
-          "val": 1148.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "LICOR 43 DIEGO ZAMORA 700ML",
-          "qt": 6,
-          "val": 701.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
-          "qt": 4,
-          "val": 319.6,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY PASSPORT HONEY 670ML",
-          "qt": 30,
-          "val": 1035.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "CARREGADO"
-    },
-    {
-      "numped": "476000171",
-      "numnota": "6317",
-      "data": "07/07/2026",
-      "data_ord": "2026-07-07",
-      "nome": "RODRIGO LIMA - OFF TRADE",
-      "cliente": "JULIO C. DA SILVA JUNIOR LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 2985.3,
-      "itens": [
-        {
-          "desc": "WHISKY JACK DANIELS 1L",
-          "qt": 12,
-          "val": 1198.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY BALLANTINE S FINEST 1L",
-          "qt": 12,
-          "val": 634.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY JAMESON 1L",
-          "qt": 3,
-          "val": 203.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "LICOR 43 DIEGO ZAMORA 700ML",
-          "qt": 6,
-          "val": 701.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN ROCKS 1LT",
-          "qt": 6,
-          "val": 123.3,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN ROCKS WATERMELON 1LT",
-          "qt": 6,
-          "val": 123.3,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "EXCLUIDO"
-    },
-    {
-      "numped": "426000363",
-      "numnota": "6266",
-      "data": "07/07/2026",
-      "data_ord": "2026-07-07",
-      "nome": "ADER ALONSO - OFF TRADE",
-      "cliente": "JB MERCADO DE BEBIDAS LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 2587.5,
-      "itens": [
-        {
-          "desc": "WHISKY PASSPORT HONEY 670ML",
-          "qt": 75,
-          "val": 2587.5,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ABERTO"
-    },
-    {
-      "numped": "490000015",
-      "numnota": "6301",
-      "data": "07/07/2026",
-      "data_ord": "2026-07-07",
-      "nome": "DOUGLAS TEIXEIRA - OFF TRADE",
-      "cliente": "COMERCIO 5 ESTRELAS BEBIDAS E ALIMENTOS LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 2540.76,
-      "itens": [
-        {
-          "desc": "MARTINI BIANCO 750 ML",
-          "qt": 12,
-          "val": 347.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "AGUARDENTE OLD CESAR 88 965 ML",
-          "qt": 144,
-          "val": 1438.56,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY JIM BEAM WHITE 1L",
-          "qt": 12,
-          "val": 754.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "EXCLUIDO"
-    },
-    {
-      "numped": "490000016",
-      "numnota": "6302",
-      "data": "07/07/2026",
-      "data_ord": "2026-07-07",
-      "nome": "DOUGLAS TEIXEIRA - OFF TRADE",
-      "cliente": "EMPORIUM 5 ESTRELAS BEBIDAS E ALIMENTOS LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 1389.6,
-      "itens": [
-        {
-          "desc": "MARTINI BIANCO 750 ML",
-          "qt": 48,
-          "val": 1389.6,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "CARREGADO"
     },
     {
       "numped": "498000006",
@@ -85866,34 +85050,6 @@ const PEDIDOS_DATA = {
           "desc": "CONHAQUE DOMECQ 1L",
           "qt": 564,
           "val": 15222.36,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGA TOTAL"
-    },
-    {
-      "numped": "588002980",
-      "numnota": "177548",
-      "data": "07/07/2026",
-      "data_ord": "2026-07-07",
-      "nome": "W.S",
-      "cliente": "DISTRIBUIDORA DO ALEMAO MIRIZOLA LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 3174.0,
-      "itens": [
-        {
-          "desc": "VODKA ABSOLUT 1L",
-          "qt": 60,
-          "val": 3174.0,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -86111,69 +85267,6 @@ const PEDIDOS_DATA = {
           "desc": "GIN BEEFEATER PINK 700ML",
           "qt": 4,
           "val": 279.6,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGA TOTAL"
-    },
-    {
-      "numped": "461000108",
-      "numnota": "177461",
-      "data": "07/07/2026",
-      "data_ord": "2026-07-07",
-      "nome": "SUELY SANTOS - OFF TRADE",
-      "cliente": "57.382.883 ICARO ADRIANO BOMFIM",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 3381.11,
-      "itens": [
-        {
-          "desc": "AMARULA C LIQUEUR 750 ML",
-          "qt": 6,
-          "val": 564.29,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY JIM BEAM WHITE 1L",
-          "qt": 12,
-          "val": 754.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "LICOR 43 DIEGO ZAMORA 700ML",
-          "qt": 6,
-          "val": 701.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN ROCKS 1LT",
-          "qt": 18,
-          "val": 369.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN ROCKS STRAWBERRY 1LT",
-          "qt": 42,
-          "val": 862.68,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN ROCKS SICILIAN LEMON 1LT",
-          "qt": 6,
-          "val": 128.04,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -87036,48 +86129,6 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGUE"
     },
     {
-      "numped": "419000685",
-      "numnota": "409699",
-      "data": "06/07/2026",
-      "data_ord": "2026-07-06",
-      "nome": "NÁTALI DE OLIVEIRA - OFF TRADE",
-      "cliente": "55.229.937 RENATA DA SILVA CABRAL",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :6633",
-      "obs": "data entrega: 07/07",
-      "total": 297.64,
-      "itens": [
-        {
-          "desc": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
-          "qt": 1,
-          "val": 120.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
-          "qt": 1,
-          "val": 47.84,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
-          "qt": 2,
-          "val": 129.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
       "numped": "450000381",
       "numnota": "6448",
       "data": "06/07/2026",
@@ -87771,139 +86822,6 @@ const PEDIDOS_DATA = {
       "status_log": "ABERTO"
     },
     {
-      "numped": "467000039",
-      "numnota": "177529",
-      "data": "06/07/2026",
-      "data_ord": "2026-07-06",
-      "nome": "MARLENE RODRIGUES - OFF TRADE",
-      "cliente": "BEBIDAS ZERO GRAU LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 1269.6,
-      "itens": [
-        {
-          "desc": "WHISKY BALLANTINE S FINEST 1L",
-          "qt": 24,
-          "val": 1269.6,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGA TOTAL"
-    },
-    {
-      "numped": "588002975",
-      "numnota": "177418",
-      "data": "06/07/2026",
-      "data_ord": "2026-07-06",
-      "nome": "W.S",
-      "cliente": "IMPERIO DE BEBIDAS VITORIA SOCIEDADE UNIPESSOAL LIMITADA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 9768.0,
-      "itens": [
-        {
-          "desc": "WHISKY JACK DANIELS 1L",
-          "qt": 60,
-          "val": 5994.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN BEEFEATER 750ML",
-          "qt": 60,
-          "val": 3774.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGA TOTAL"
-    },
-    {
-      "numped": "588002976",
-      "numnota": "6263",
-      "data": "06/07/2026",
-      "data_ord": "2026-07-06",
-      "nome": "W.S",
-      "cliente": "MAX DISTRIBUIDORA DE BEBIDAS LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 9703.5,
-      "itens": [
-        {
-          "desc": "VODKA ABSOLUT 1L",
-          "qt": 12,
-          "val": 634.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY BALLANTINE S FINEST 1L",
-          "qt": 12,
-          "val": 634.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY PASSPORT 1L",
-          "qt": 48,
-          "val": 1531.2,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN BEEFEATER 750ML",
-          "qt": 12,
-          "val": 718.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY JACK DANIELS APPLE 1L",
-          "qt": 24,
-          "val": 2397.6,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY JACK DANIELS 1L - DEST",
-          "qt": 12,
-          "val": 1198.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY PASSPORT HONEY 670ML",
-          "qt": 75,
-          "val": 2587.5,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ABERTO"
-    },
-    {
       "numped": "433000135",
       "numnota": "177173",
       "data": "06/07/2026",
@@ -88029,34 +86947,6 @@ const PEDIDOS_DATA = {
           "desc": "WHISKY JACK DANIELS 1L",
           "qt": 12,
           "val": 1198.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ABERTO"
-    },
-    {
-      "numped": "472000047",
-      "numnota": "6268",
-      "data": "06/07/2026",
-      "data_ord": "2026-07-06",
-      "nome": "FLAVIO RIBEIRO - OFF TRADE",
-      "cliente": "NEIDE ROSARIA DE SOUZA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 215.76,
-      "itens": [
-        {
-          "desc": "VINHO DOM BOSCO TINTO SUAVE 750ML",
-          "qt": 24,
-          "val": 215.76,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -89906,34 +88796,6 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGUE"
     },
     {
-      "numped": "144001619",
-      "numnota": "408941",
-      "data": "02/07/2026",
-      "data_ord": "2026-07-02",
-      "nome": "DIOGO RAPOSO - OFF TRADE",
-      "cliente": "GOMES RESTAURANTE E BAR RJ EIRELI",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :16",
-      "obs": "",
-      "total": 294.0,
-      "itens": [
-        {
-          "desc": "VODCA SMIRNOFF RED 998 ML",
-          "qt": 12,
-          "val": 294.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
       "numped": "450000378",
       "numnota": "6381",
       "data": "02/07/2026",
@@ -90606,55 +89468,6 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGUE"
     },
     {
-      "numped": "491000007",
-      "numnota": "6074",
-      "data": "01/07/2026",
-      "data_ord": "2026-07-01",
-      "nome": "GILSON DE OLIVEIRA - OFF TRADE",
-      "cliente": "KRISKAN DISTRIBUIDORA E TRANSPORTES LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 3399.9,
-      "itens": [
-        {
-          "desc": "CONHAQUE DOMECQ 1L",
-          "qt": 12,
-          "val": 334.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RUM MONTILLA CRISTAL 1L",
-          "qt": 12,
-          "val": 238.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RUM MONTILLA OURO 1L",
-          "qt": 12,
-          "val": 238.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY PASSPORT HONEY 670ML",
-          "qt": 75,
-          "val": 2587.5,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "EXCLUIDO"
-    },
-    {
       "numped": "588002922",
       "numnota": "176488",
       "data": "01/07/2026",
@@ -90801,279 +89614,6 @@ const PEDIDOS_DATA = {
           "desc": "VINHO LATITUD 33 MALBEC ROSE 750 ML",
           "qt": 30,
           "val": 1077.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "158000353",
-      "numnota": "6331",
-      "data": "30/06/2026",
-      "data_ord": "2026-06-30",
-      "nome": "JOSE MARCELO CARDOSO - OFF TRADE",
-      "cliente": "PAX SUPERMERCADOS LTDA.",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "ENTREGA AGENDADA: 01/07",
-      "total": 6010.2,
-      "itens": [
-        {
-          "desc": "GIN ROCKS 1000ML",
-          "qt": 60,
-          "val": 1554.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN ROCKS GREEN APPLE 1000ML",
-          "qt": 6,
-          "val": 155.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN ROCKS WATERMELON 1000ML",
-          "qt": 30,
-          "val": 777.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN ROCKS STRAWBERRY 1000ML",
-          "qt": 42,
-          "val": 1087.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
-          "qt": 36,
-          "val": 522.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO TINTO QUINTA DO MORGADO 750ML",
-          "qt": 132,
-          "val": 1914.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "412001369",
-      "numnota": "408266",
-      "data": "30/06/2026",
-      "data_ord": "2026-06-30",
-      "nome": "BARBARA CABRAL - OFF TRADE",
-      "cliente": "SUPERMERCADOS ADONAI LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :5762",
-      "obs": "Descarga AdonaiPallet R$25,00Filmagem de Pallet R$ 10,00 por Pallet",
-      "total": 2317.18,
-      "itens": [
-        {
-          "desc": "RC ATUM PEDACOS NATURAL 24X140G",
-          "qt": 1,
-          "val": 191.76,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM PEDACOS EM OLEO 24X140G",
-          "qt": 1,
-          "val": 191.76,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
-          "qt": 1,
-          "val": 191.76,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM RALADO NATURAL 24X140G",
-          "qt": 1,
-          "val": 153.36,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM RALADO OLEO 24X140G",
-          "qt": 1,
-          "val": 153.36,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-          "qt": 1,
-          "val": 153.36,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
-          "qt": 1,
-          "val": 125.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM SOLIDO NATURAL 24X170G",
-          "qt": 1,
-          "val": 208.56,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM SOLIDO OLEO 24X170G",
-          "qt": 1,
-          "val": 208.56,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
-          "qt": 2,
-          "val": 239.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC SARDINHA EM OLEO 50X125G",
-          "qt": 1,
-          "val": 249.5,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "qt": 1,
-          "val": 249.5,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "412001370",
-      "numnota": "408264",
-      "data": "30/06/2026",
-      "data_ord": "2026-06-30",
-      "nome": "BARBARA CABRAL - OFF TRADE",
-      "cliente": "ADONAI ATACADISTA LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :5762",
-      "obs": "Pallet R$25,00Filmagem de Pallet R$ 10,00 por Pallet",
-      "total": 5665.68,
-      "itens": [
-        {
-          "desc": "RC ATUM PEDACOS NATURAL 24X140G",
-          "qt": 3,
-          "val": 575.28,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM PEDACOS EM OLEO 24X140G",
-          "qt": 3,
-          "val": 575.28,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
-          "qt": 3,
-          "val": 575.28,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM RALADO NATURAL 24X140G",
-          "qt": 1,
-          "val": 153.36,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM RALADO OLEO 24X140G",
-          "qt": 1,
-          "val": 153.36,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-          "qt": 1,
-          "val": 153.36,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
-          "qt": 2,
-          "val": 251.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM SOLIDO NATURAL 24X170G",
-          "qt": 3,
-          "val": 625.68,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM SOLIDO OLEO 24X170G",
-          "qt": 3,
-          "val": 625.68,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
-          "qt": 4,
-          "val": 479.6,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC SARDINHA EM OLEO 50X125G",
-          "qt": 3,
-          "val": 748.5,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "qt": 3,
-          "val": 748.5,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -91480,139 +90020,6 @@ const PEDIDOS_DATA = {
           "desc": "RC SARDINHA EM OLEO 50X125G",
           "qt": 2,
           "val": 499.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "412001380",
-      "numnota": "408270",
-      "data": "30/06/2026",
-      "data_ord": "2026-06-30",
-      "nome": "BARBARA CABRAL - OFF TRADE",
-      "cliente": "SUPERMERCADOS ADONAI LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :5762",
-      "obs": "Descarga AdonaiPallet R$25,00Filmagem de Pallet R$ 10,00 por Pallet",
-      "total": 3808.58,
-      "itens": [
-        {
-          "desc": "RC ATUM PEDACOS NATURAL 24X140G",
-          "qt": 2,
-          "val": 383.52,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM PEDACOS EM OLEO 24X140G",
-          "qt": 2,
-          "val": 383.52,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
-          "qt": 2,
-          "val": 383.52,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM RALADO NATURAL 24X140G",
-          "qt": 1,
-          "val": 153.36,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM RALADO OLEO 24X140G",
-          "qt": 1,
-          "val": 153.36,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-          "qt": 1,
-          "val": 153.36,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
-          "qt": 1,
-          "val": 125.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM SOLIDO NATURAL 24X170G",
-          "qt": 2,
-          "val": 417.12,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM SOLIDO OLEO 24X170G",
-          "qt": 2,
-          "val": 417.12,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
-          "qt": 2,
-          "val": 239.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC SARDINHA EM OLEO 50X125G",
-          "qt": 2,
-          "val": 499.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "qt": 2,
-          "val": 499.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "412001387",
-      "numnota": "408167",
-      "data": "30/06/2026",
-      "data_ord": "2026-06-30",
-      "nome": "BARBARA CABRAL - OFF TRADE",
-      "cliente": "SUPERMERCADOS ADONAI LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Pedido com item abaixo do preço minimo.",
-      "obs": "",
-      "total": 359.7,
-      "itens": [
-        {
-          "desc": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
-          "qt": 3,
-          "val": 359.7,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -92327,97 +90734,6 @@ const PEDIDOS_DATA = {
           "desc": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
           "qt": 12,
           "val": 535.68,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
-      "numped": "257002434",
-      "numnota": "42637",
-      "data": "30/06/2026",
-      "data_ord": "2026-06-30",
-      "nome": "TIAGO SILVA - OFF TRADE",
-      "cliente": "MERCEARIA GENOVEVA LTDA",
-      "sistema": "CRC",
-      "estado": "ES",
-      "supervisor": "SUPERVISOR HIBRIDO ES",
-      "gerente": "EROCLES OLIVEIRA",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :3",
-      "obs": "",
-      "total": 325.92,
-      "itens": [
-        {
-          "desc": "RED BULL 24X250ML",
-          "qt": 2,
-          "val": 325.92,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
-      "numped": "442000295",
-      "numnota": "42598",
-      "data": "30/06/2026",
-      "data_ord": "2026-06-30",
-      "nome": "RAQUEL ARAUJO - OFF TRADE",
-      "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
-      "sistema": "CRC",
-      "estado": "ES",
-      "supervisor": "SUPERVISOR HIBRIDO ES",
-      "gerente": "EROCLES OLIVEIRA",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :5086",
-      "obs": "",
-      "total": 2170.56,
-      "itens": [
-        {
-          "desc": "NG BARRA NEUGE 80G BRANCO (DP 16X80G)",
-          "qt": 4,
-          "val": 255.36,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "NG BARRA NEUGE 80G AMENDOLATE (DP 16X80G",
-          "qt": 2,
-          "val": 127.68,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "NG BARRA NEUGE 80G P&B (DP 16X80G)",
-          "qt": 4,
-          "val": 255.36,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "NG BARRA NEUGE 80G FLOCOS (DP 16X80G)",
-          "qt": 8,
-          "val": 510.72,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "NG BARRA NEUGE 80G COOKIES BRANCO (DP 16",
-          "qt": 8,
-          "val": 510.72,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "NG BARRA 80G 40% MEIO AMARGO (DP 16X80G)",
-          "qt": 8,
-          "val": 510.72,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -93308,6 +91624,622 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
+      "numped": "91000358",
+      "numnota": "600",
+      "data": "30/06/2026",
+      "data_ord": "2026-06-30",
+      "nome": "VIVIANI ALVES - OFF TRADE",
+      "cliente": "APARECIDA DA SILVA 86106961972",
+      "sistema": "CASTAS",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
+      "obs": "",
+      "total": 10899.2,
+      "itens": [
+        {
+          "desc": "VILLA ROSA COLHEITA BRANCO 750ML",
+          "qt": 1,
+          "val": 49.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VILLA ROSA RESERVA BRANCO 750ML",
+          "qt": 1,
+          "val": 67.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VILLA ROSA COLHEITA ROSE 750ML",
+          "qt": 1,
+          "val": 49.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VILLA ROSA COLHEITA TINTO 750ML",
+          "qt": 1,
+          "val": 49.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO VILLA ROSA RESERVA TINTO 750ML",
+          "qt": 1,
+          "val": 89.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VILLA ROSA BRANCO 750ML",
+          "qt": 1,
+          "val": 32.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VILLA ROSA TINTO 750ML",
+          "qt": 1,
+          "val": 32.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "qt": 1,
+          "val": 48.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO TTO BERTOLI CHIANTI DOCG 750ML",
+          "qt": 1,
+          "val": 54.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "qt": 1,
+          "val": 52.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "HUMB. CANALE DENARIO MALBEC 750ML",
+          "qt": 1,
+          "val": 56.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "HUMB. CANALE DENARIO SAUV. BLANC",
+          "qt": 1,
+          "val": 56.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "HUMB. CANALE DENARIO RESERVA MALBEC",
+          "qt": 1,
+          "val": 78.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "HUMB. CANALE DENARIO RESERVA PINOT NOIR",
+          "qt": 1,
+          "val": 78.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARCAIA PINOT GRIGIO ROSE 750ML",
+          "qt": 1,
+          "val": 48.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ADELE BRANCO 750ML",
+          "qt": 1,
+          "val": 58.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO FOODKILLER CAB. SAUV./ MERLOT",
+          "qt": 1,
+          "val": 32.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO FOODKILLER CARMENERE 750ML",
+          "qt": 1,
+          "val": 32.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO FOODKILLER CHARDONNAY 750ML",
+          "qt": 1,
+          "val": 33.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "ESPUMANTE ALUD BRANCO 750ML",
+          "qt": 1,
+          "val": 35.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO BRANCO BURDIZZO 750ML",
+          "qt": 1,
+          "val": 51.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO TINTO BURDIZZO APPASSIMENTO 750ML",
+          "qt": 1,
+          "val": 76.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "ESPUMANTE ALUD ROSE 750ML",
+          "qt": 1,
+          "val": 35.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "DOLCETTO D'ALBA 750ML",
+          "qt": 1,
+          "val": 177.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "BARBERA D'ALBA SUPERIORE 750ML",
+          "qt": 1,
+          "val": 177.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "BAROLO BUSSIA 750ML",
+          "qt": 1,
+          "val": 633.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO DO PORTO DALVA 10 ANOS OLD 750ML",
+          "qt": 1,
+          "val": 218.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO DO PORTO DALVA 20 ANOS 750ML",
+          "qt": 1,
+          "val": 500.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO DO PORTO DALVA TAWNY 750ML",
+          "qt": 1,
+          "val": 75.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO DO PORTO DALVA RUBY 750ML",
+          "qt": 1,
+          "val": 107.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO DO PORTO DALVA WHITE 750ML",
+          "qt": 1,
+          "val": 107.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO DO PORTO DALVA TAWNY RESERVA 750ML",
+          "qt": 1,
+          "val": 136.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO BRANCO AZUL VENTOZELO 750ML",
+          "qt": 1,
+          "val": 72.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO BRANCO VENTOZELO RESERVA 750ML",
+          "qt": 1,
+          "val": 96.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO BRANCO VENTOZELO VIOSINHO 750ML",
+          "qt": 1,
+          "val": 148.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO VILLA ROSA FRISANTE BRANCO",
+          "qt": 1,
+          "val": 27.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO VILLA ROSA FRISANTE ROSE",
+          "qt": 1,
+          "val": 27.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "HUMB. CANALE O.V MALBEC 750ML",
+          "qt": 1,
+          "val": 138.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "HUMB. CANALE O.V RIESLING 750ML",
+          "qt": 1,
+          "val": 138.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "HUMB. CANALE O.V SEMILLON 750ML",
+          "qt": 1,
+          "val": 138.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "HUMB. CANALE O.V PINOT NOIR 750ML",
+          "qt": 1,
+          "val": 138.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "HUMB. CANALE O.V PINOT NOIR ROSE 750ML",
+          "qt": 1,
+          "val": 138.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "HUMB. CANALE BARZI BLEND TINTO 750ML",
+          "qt": 1,
+          "val": 398.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI ESTATE S. CAB SAUV 750ML",
+          "qt": 1,
+          "val": 31.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI ESTATE S. CARMENERE 750ML",
+          "qt": 2,
+          "val": 63.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI ESTATE S. MERLOT 750ML",
+          "qt": 1,
+          "val": 31.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI ESTATE S. CHADY 750ML",
+          "qt": 1,
+          "val": 31.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI ESTATE S. PINOT NOIR",
+          "qt": 1,
+          "val": 31.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI CABINA 56 CHARDONNAY 750ML",
+          "qt": 1,
+          "val": 49.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "ESPUMANTE ARESTI MANDALA ROSE BRUT 750ML",
+          "qt": 1,
+          "val": 51.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI TRISQUEL GRAN R SYRAH 750ML",
+          "qt": 1,
+          "val": 88.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI TRISQUEL GRAN R GEWUR 750ML",
+          "qt": 1,
+          "val": 88.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI TRIS. SERIES CAB SAUV 750ML",
+          "qt": 1,
+          "val": 142.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI COD 380 ASSEMBLAGE 750ML",
+          "qt": 1,
+          "val": 404.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO LOS ALJIBES PETIT VERDOT 750ML",
+          "qt": 1,
+          "val": 132.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO LOS ALJIBES GRANACHA TINTOR. 750ML",
+          "qt": 1,
+          "val": 119.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO LOS ALJIBES SYRAH  RED WINE 750ML",
+          "qt": 1,
+          "val": 132.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO LOS ALJIBES ENCLAVE MONASTRE 750ML",
+          "qt": 1,
+          "val": 277.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+          "qt": 1,
+          "val": 13.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI ESTATE S.  ROSE 187ML",
+          "qt": 1,
+          "val": 13.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO VINA MEIN BRANCO 2022 750ML",
+          "qt": 1,
+          "val": 223.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO GRAN MEIN BRANCO 2021 750ML",
+          "qt": 1,
+          "val": 481.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO QUINTALUNA 2021 BRANCO 750ML",
+          "qt": 1,
+          "val": 229.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO OSSIAN 2021 BRANCO 750ML",
+          "qt": 1,
+          "val": 532.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO MILSETENTAYSEIS 2020 TINTO 750ML",
+          "qt": 1,
+          "val": 862.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
+          "qt": 1,
+          "val": 31.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
+          "qt": 1,
+          "val": 31.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO CAVAS DE ORO MALBEC 750ML",
+          "qt": 1,
+          "val": 35.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO CAVAS DE ORO CABERNET SAUV 750ML",
+          "qt": 1,
+          "val": 35.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO BRANCO RABIGATO VENTOZELO 750ML",
+          "qt": 1,
+          "val": 160.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "ESPUMANTE ARESTI CHARDONNAY 187,5ML",
+          "qt": 1,
+          "val": 21.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "ESPUMANTE ARESTI ROSE 187,5ML",
+          "qt": 1,
+          "val": 21.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO FINCA FELIZ TESORO TTO BONARDA",
+          "qt": 1,
+          "val": 108.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO FINCA FELIZ TESORO LA CIELITO",
+          "qt": 1,
+          "val": 136.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO FINCA FELIZ TESORO TTO MALBEC",
+          "qt": 1,
+          "val": 108.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO CAVAS DE ORO TORRENTES BRANCO",
+          "qt": 1,
+          "val": 35.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO PEYRASSOL CHATEAU ROSE 750ML",
+          "qt": 1,
+          "val": 334.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO PEYRASSOL LA CROIX ROSE 750ML",
+          "qt": 1,
+          "val": 128.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "CHABLIS THIERRY LAFFAY BCO 2022 750ML",
+          "qt": 1,
+          "val": 326.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "AZEITE ESSENZA D'ITALIA PREMIUM 5L",
+          "qt": 1,
+          "val": 310.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
+          "qt": 1,
+          "val": 214.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "299000081",
+      "numnota": "601",
+      "data": "30/06/2026",
+      "data_ord": "2026-06-30",
+      "nome": "BRYAN PALOPOLI - OFF TRADE",
+      "cliente": "SUPERMERCADOS MAMBO LTDA.",
+      "sistema": "CASTAS",
+      "estado": "SP",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
+      "obs": "",
+      "total": 32280.0,
+      "itens": [
+        {
+          "desc": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
+          "qt": 100,
+          "val": 32280.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
       "numped": "460000088",
       "numnota": "6027",
       "data": "30/06/2026",
@@ -93334,62 +92266,6 @@ const PEDIDOS_DATA = {
       ],
       "tem_corte": false,
       "status_log": "ABERTO"
-    },
-    {
-      "numped": "317000111",
-      "numnota": "176223",
-      "data": "30/06/2026",
-      "data_ord": "2026-06-30",
-      "nome": "ROBSON DA SILVA - OFF TRADE",
-      "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "ANDERSON CANAVEIS",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 6697.51,
-      "itens": [
-        {
-          "desc": "LICOR STOCK PESSEGO 720 ML",
-          "qt": 6,
-          "val": 225.25,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "AGUARDENTE OLD CESAR 88 965 ML",
-          "qt": 24,
-          "val": 239.76,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY JACK DANIELS 1L - DEST",
-          "qt": 48,
-          "val": 4795.2,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN ROCKS 1LT",
-          "qt": 6,
-          "val": 123.3,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "CACHAÇA SAO FRANCISCO 970ML",
-          "qt": 60,
-          "val": 1314.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "317000112",
@@ -93539,41 +92415,6 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGA TOTAL"
     },
     {
-      "numped": "317000115",
-      "numnota": "176325",
-      "data": "30/06/2026",
-      "data_ord": "2026-06-30",
-      "nome": "ROBSON DA SILVA - OFF TRADE",
-      "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "ANDERSON CANAVEIS",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 369.84,
-      "itens": [
-        {
-          "desc": "GIN ROCKS 1LT",
-          "qt": 12,
-          "val": 246.6,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN ROCKS STRAWBERRY 1LT",
-          "qt": 6,
-          "val": 123.24,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGA TOTAL"
-    },
-    {
       "numped": "317000118",
       "numnota": "177093",
       "data": "30/06/2026",
@@ -93714,34 +92555,6 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGA TOTAL"
     },
     {
-      "numped": "317000121",
-      "numnota": "176350",
-      "data": "30/06/2026",
-      "data_ord": "2026-06-30",
-      "nome": "ROBSON DA SILVA - OFF TRADE",
-      "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "ANDERSON CANAVEIS",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 790.8,
-      "itens": [
-        {
-          "desc": "LICOR FIREBALL 750ML",
-          "qt": 12,
-          "val": 790.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGA TOTAL"
-    },
-    {
       "numped": "317000122",
       "numnota": "177095",
       "data": "30/06/2026",
@@ -93866,160 +92679,6 @@ const PEDIDOS_DATA = {
       ],
       "tem_corte": false,
       "status_log": "ABERTO"
-    },
-    {
-      "numped": "425000120",
-      "numnota": "6015",
-      "data": "30/06/2026",
-      "data_ord": "2026-06-30",
-      "nome": "BRUNO BARBOSA - OFF TRADE",
-      "cliente": "MIKAMI & ZENJI MERCEARIA LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 1832.4,
-      "itens": [
-        {
-          "desc": "AZEITE OLIV EV ZE TONA FINALIZAR12X500ML",
-          "qt": 1,
-          "val": 562.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "AZEITE OLIV EV ZE TONA COZINHAR 12X500ML",
-          "qt": 1,
-          "val": 478.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "APERITIVO LUCIA 750ML",
-          "qt": 12,
-          "val": 790.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ABERTO"
-    },
-    {
-      "numped": "371000269",
-      "numnota": "176057",
-      "data": "30/06/2026",
-      "data_ord": "2026-06-30",
-      "nome": "CARLOS DE ALMEIDA - OFF TRADE",
-      "cliente": "COMERCIAL DE ALIMENTOS TAKARA-MUTINGA LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "ANDERSON CANAVEIS",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 1898.34,
-      "itens": [
-        {
-          "desc": "CONHAQUE DOMECQ 1L",
-          "qt": 12,
-          "val": 334.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RUM MONTILLA OURO 1L",
-          "qt": 6,
-          "val": 125.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN BEEFEATER 750ML",
-          "qt": 6,
-          "val": 395.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY CHANCELER 1L",
-          "qt": 6,
-          "val": 80.94,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY JIM BEAM HONEY 1L",
-          "qt": 3,
-          "val": 188.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY JAMESON 750ML",
-          "qt": 3,
-          "val": 173.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY JACK DANIELS APPLE 1L",
-          "qt": 3,
-          "val": 299.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY JACK DANIELS 1L - DEST",
-          "qt": 3,
-          "val": 299.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGA TOTAL"
-    },
-    {
-      "numped": "371000270",
-      "numnota": "176078",
-      "data": "30/06/2026",
-      "data_ord": "2026-06-30",
-      "nome": "CARLOS DE ALMEIDA - OFF TRADE",
-      "cliente": "EMPORIO BRASILANDIA LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "ANDERSON CANAVEIS",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 377.4,
-      "itens": [
-        {
-          "desc": "WHISKY JIM BEAM WHITE 1L",
-          "qt": 3,
-          "val": 188.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY JIM BEAM APPLE 1L",
-          "qt": 3,
-          "val": 188.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "371000273",
@@ -94174,244 +92833,6 @@ const PEDIDOS_DATA = {
       ],
       "tem_corte": false,
       "status_log": "ENTREGA TOTAL"
-    },
-    {
-      "numped": "371000276",
-      "numnota": "176390",
-      "data": "30/06/2026",
-      "data_ord": "2026-06-30",
-      "nome": "CARLOS DE ALMEIDA - OFF TRADE",
-      "cliente": "ULTRA MART ATACADO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "ANDERSON CANAVEIS",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 1491.6,
-      "itens": [
-        {
-          "desc": "VODKA ORLOFF 1L",
-          "qt": 6,
-          "val": 119.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN BEEFEATER 750ML",
-          "qt": 6,
-          "val": 395.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY JIM BEAM WHITE 1L",
-          "qt": 3,
-          "val": 188.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY JIM BEAM APPLE 1L",
-          "qt": 3,
-          "val": 188.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY JACK DANIELS 1L - DEST",
-          "qt": 6,
-          "val": 599.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGA TOTAL"
-    },
-    {
-      "numped": "371000278",
-      "numnota": "176388",
-      "data": "30/06/2026",
-      "data_ord": "2026-06-30",
-      "nome": "CARLOS DE ALMEIDA - OFF TRADE",
-      "cliente": "REDE PLUS SUPERMERCADOS LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "ANDERSON CANAVEIS",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 607.74,
-      "itens": [
-        {
-          "desc": "GIN BEEFEATER 750ML",
-          "qt": 6,
-          "val": 395.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY CHANCELER 1L",
-          "qt": 6,
-          "val": 80.94,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "CACHAÇA SAO FRANCISCO 970ML",
-          "qt": 6,
-          "val": 131.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ABERTO"
-    },
-    {
-      "numped": "476000128",
-      "numnota": "6004",
-      "data": "30/06/2026",
-      "data_ord": "2026-06-30",
-      "nome": "RODRIGO LIMA - OFF TRADE",
-      "cliente": "SUPER OSMARAJA EMPORIO LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 3009.0,
-      "itens": [
-        {
-          "desc": "WHISKY PASSPORT 1L",
-          "qt": 60,
-          "val": 1974.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY PASSPORT HONEY 670ML",
-          "qt": 30,
-          "val": 1035.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "EXCLUIDO"
-    },
-    {
-      "numped": "476000131",
-      "numnota": "6003",
-      "data": "30/06/2026",
-      "data_ord": "2026-06-30",
-      "nome": "RODRIGO LIMA - OFF TRADE",
-      "cliente": "SUPER OSMARAJA EMPORIO LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 912.3,
-      "itens": [
-        {
-          "desc": "WHISKY PASSPORT 1L",
-          "qt": 12,
-          "val": 394.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY PASSPORT HONEY 670ML",
-          "qt": 15,
-          "val": 517.5,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ABERTO"
-    },
-    {
-      "numped": "426000351",
-      "numnota": "6001",
-      "data": "30/06/2026",
-      "data_ord": "2026-06-30",
-      "nome": "ADER ALONSO - OFF TRADE",
-      "cliente": "COMERCIAL DE PRODUTOS ALIMENTICIOS MINARDI LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 27208.2,
-      "itens": [
-        {
-          "desc": "CONHAQUE DOMECQ 1L",
-          "qt": 240,
-          "val": 6696.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "AGUARDENTE OLD CESAR 88 965 ML",
-          "qt": 240,
-          "val": 2397.6,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VODKA ABSOLUT 1L",
-          "qt": 36,
-          "val": 1904.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RUM MONTILLA OURO 1L",
-          "qt": 36,
-          "val": 700.2,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY PASSPORT 1L",
-          "qt": 180,
-          "val": 5922.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "LICOR BALLENA MORANGO 750ML",
-          "qt": 60,
-          "val": 4794.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
-          "qt": 60,
-          "val": 4794.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ABERTO"
     },
     {
       "numped": "470000029",
@@ -94861,97 +93282,6 @@ const PEDIDOS_DATA = {
           "desc": "VODKA SMIRNOFF RED PET 1750ML",
           "qt": 150,
           "val": 6435.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
-      "numped": "388001120",
-      "numnota": "42595",
-      "data": "29/06/2026",
-      "data_ord": "2026-06-29",
-      "nome": "EUDES MORGAN - OFF TRADE",
-      "cliente": "CCB CENTRAL DE COMPRAS DO BRASIL LTDA",
-      "sistema": "CRC",
-      "estado": "ES",
-      "supervisor": "SUPERVISOR OFF - ES",
-      "gerente": "EROCLES OLIVEIRA",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :7331",
-      "obs": "Cliente so recebe mercadorias com horario agendado.",
-      "total": 8246.64,
-      "itens": [
-        {
-          "desc": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
-          "qt": 1,
-          "val": 175.92,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM PEDACOS NATURAL 24X140G",
-          "qt": 2,
-          "val": 351.84,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM PEDACOS EM OLEO 24X140G",
-          "qt": 1,
-          "val": 175.92,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-          "qt": 2,
-          "val": 267.84,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM RALADO NATURAL 24X140G",
-          "qt": 2,
-          "val": 267.84,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM RALADO OLEO 24X140G",
-          "qt": 9,
-          "val": 1205.28,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM SOLIDO NATURAL 24X170G",
-          "qt": 2,
-          "val": 372.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC ATUM SOLIDO OLEO 24X170G",
-          "qt": 5,
-          "val": 930.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "qt": 7,
-          "val": 1575.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RC SARDINHA EM OLEO 50X125G",
-          "qt": 13,
-          "val": 2925.0,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -96080,83 +94410,6 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGUE"
     },
     {
-      "numped": "371000266",
-      "numnota": "176058",
-      "data": "29/06/2026",
-      "data_ord": "2026-06-29",
-      "nome": "CARLOS DE ALMEIDA - OFF TRADE",
-      "cliente": "REDE PLUS SUPERMERCADOS LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "ANDERSON CANAVEIS",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 467.1,
-      "itens": [
-        {
-          "desc": "CONHAQUE DOMECQ 1L",
-          "qt": 6,
-          "val": 167.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKEY JACK DANIELS HONEY 1 L",
-          "qt": 3,
-          "val": 299.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGA TOTAL"
-    },
-    {
-      "numped": "371000267",
-      "numnota": "176081",
-      "data": "29/06/2026",
-      "data_ord": "2026-06-29",
-      "nome": "CARLOS DE ALMEIDA - OFF TRADE",
-      "cliente": "TAKARA & CIA LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "ANDERSON CANAVEIS",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 512.04,
-      "itens": [
-        {
-          "desc": "WHISKY CHANCELER 1L",
-          "qt": 6,
-          "val": 80.94,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY JACK DANIELS APPLE 1L",
-          "qt": 3,
-          "val": 299.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "CACHAÇA SAO FRANCISCO 970ML",
-          "qt": 6,
-          "val": 131.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGA TOTAL"
-    },
-    {
       "numped": "257002420",
       "numnota": "42572",
       "data": "26/06/2026",
@@ -96386,48 +94639,6 @@ const PEDIDOS_DATA = {
       ],
       "tem_corte": false,
       "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "588002885",
-      "numnota": "176064",
-      "data": "26/06/2026",
-      "data_ord": "2026-06-26",
-      "nome": "W.S",
-      "cliente": "MERCEARIA E ADEGA FIM DE SEMANA LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Prazo mÃ©dio do plano Ã© superior ao prazo mÃ©dio do cliente",
-      "obs": "",
-      "total": 1867.2,
-      "itens": [
-        {
-          "desc": "RUM MONTILLA CRISTAL 1L",
-          "qt": 12,
-          "val": 233.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RUM MONTILLA CARTA BRANCA 1L",
-          "qt": 12,
-          "val": 233.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RUM MONTILLA OURO 1L",
-          "qt": 72,
-          "val": 1400.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588002899",
@@ -96940,6 +95151,48 @@ const PEDIDOS_DATA = {
           "desc": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
           "qt": 10,
           "val": 408.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "91000355",
+      "numnota": "576",
+      "data": "25/06/2026",
+      "data_ord": "2026-06-25",
+      "nome": "VIVIANI ALVES - OFF TRADE",
+      "cliente": "ALPHA GASTRONOMIA LTDA",
+      "sistema": "CASTAS",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
+      "obs": "",
+      "total": 1704.0,
+      "itens": [
+        {
+          "desc": "VINHO FOODKILLER CARMENERE 750ML",
+          "qt": 12,
+          "val": 624.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO FOODKILLER CHARDONNAY 750ML",
+          "qt": 12,
+          "val": 624.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+          "qt": 24,
+          "val": 456.0,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -98838,34 +97091,6 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGUE"
     },
     {
-      "numped": "431001057",
-      "numnota": "408269",
-      "data": "19/06/2026",
-      "data_ord": "2026-06-19",
-      "nome": "ADEILSON GONÇALVEZ - OFF TRADE",
-      "cliente": "MM CONVENIENCIA LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :2089",
-      "obs": "",
-      "total": 429.6,
-      "itens": [
-        {
-          "desc": "COQUETEL BANANINHA REGGIANI 950ML",
-          "qt": 24,
-          "val": 429.6,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
       "numped": "588002805",
       "numnota": "5587",
       "data": "19/06/2026",
@@ -100370,6 +98595,48 @@ const PEDIDOS_DATA = {
           "desc": "WHISKY JAMESON 750ML",
           "qt": 24,
           "val": 1766.16,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "91000352",
+      "numnota": "531",
+      "data": "16/06/2026",
+      "data_ord": "2026-06-16",
+      "nome": "VIVIANI ALVES - OFF TRADE",
+      "cliente": "FPS - COMERCIO E IMPORTACAO DE ALIMENTOS E BEBIDAS EIRELI",
+      "sistema": "CASTAS",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
+      "obs": "",
+      "total": 8982.0,
+      "itens": [
+        {
+          "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "qt": 60,
+          "val": 2994.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO TTO BERTOLI CHIANTI DOCG 750ML",
+          "qt": 60,
+          "val": 2994.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "qt": 60,
+          "val": 2994.0,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -102079,76 +100346,6 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
-      "numped": "91000243",
-      "numnota": "401337",
-      "data": "08/06/2026",
-      "data_ord": "2026-06-08",
-      "nome": "VIVIANI ALVES - OFF TRADE",
-      "cliente": "WOODS WINE COMERCIO E INTERMEDIACAO DE BEBIDAS EIRELI",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 13840.22,
-      "itens": [
-        {
-          "desc": "VINHO DO PORTO DALVA 10 ANOS OLD 750ML",
-          "qt": 12,
-          "val": 2626.68,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO BRANCO VENTOZELO VIOSINHO 750ML",
-          "qt": 12,
-          "val": 1678.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO TINTO VENTOZELO RESERVA 750ML",
-          "qt": 12,
-          "val": 1378.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHOS VENTOZELO TOUR FRANCA+TOUR NACIO",
-          "qt": 12,
-          "val": 1978.92,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO FREIXO TERROIR BRANCO 750ML",
-          "qt": 12,
-          "val": 1078.92,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "FREIXO FAMILY COLLECTION TINTO",
-          "qt": 7,
-          "val": 3359.3,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO FREIXO CHARDONNAY BRANCO",
-          "qt": 12,
-          "val": 1738.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
       "numped": "419000637",
       "numnota": "400967",
       "data": "08/06/2026",
@@ -103539,7 +101736,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "275000528",
@@ -104382,48 +102579,6 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
-      "numped": "388001068",
-      "numnota": "41784",
-      "data": "26/05/2026",
-      "data_ord": "2026-05-26",
-      "nome": "EUDES MORGAN - OFF TRADE",
-      "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-      "sistema": "CRC",
-      "estado": "ES",
-      "supervisor": "SUPERVISOR OFF - ES",
-      "gerente": "EROCLES OLIVEIRA",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :7389",
-      "obs": "Obrigatorio agendar esta entrega.",
-      "total": 1822.2,
-      "itens": [
-        {
-          "desc": "NAVEIA BARISTA 12X1L",
-          "qt": 5,
-          "val": 741.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "NAVEIA CHOCOLATE 12X1L",
-          "qt": 6,
-          "val": 889.2,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "CREME DE LEITE NAVEIA 24X200G",
-          "qt": 2,
-          "val": 192.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
       "numped": "588002583",
       "numnota": "170263",
       "data": "26/05/2026",
@@ -104729,7 +102884,56 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
+    },
+    {
+      "numped": "91000342",
+      "numnota": "21",
+      "data": "22/05/2026",
+      "data_ord": "2026-05-22",
+      "nome": "VIVIANI ALVES - OFF TRADE",
+      "cliente": "ALLURE COMERCIAL IMPORTADORA E EXPORTADORA LTDA",
+      "sistema": "CASTAS",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
+      "obs": "",
+      "total": 359.6,
+      "itens": [
+        {
+          "desc": "VINHO ARESTI TRISQUEL CARMENERE 750ML",
+          "qt": 1,
+          "val": 89.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI TRISQUEL CAB SAUV 750ML",
+          "qt": 1,
+          "val": 89.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI TRISQUEL MERLOT 750ML",
+          "qt": 1,
+          "val": 89.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI TRISQUEL GRAN RESERVA 750ML",
+          "qt": 1,
+          "val": 89.9,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
     },
     {
       "numped": "588002559",
@@ -104785,7 +102989,63 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
+    },
+    {
+      "numped": "299000066",
+      "numnota": "404",
+      "data": "21/05/2026",
+      "data_ord": "2026-05-21",
+      "nome": "BRYAN PALOPOLI - OFF TRADE",
+      "cliente": "VILA CONCEICAO DIBACO - RESTAURANTE LTDA",
+      "sistema": "CASTAS",
+      "estado": "SP",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
+      "obs": "",
+      "total": 2778.3,
+      "itens": [
+        {
+          "desc": "HUMB. CANALE DENARIO RESERVA CAB. FRANC",
+          "qt": 6,
+          "val": 485.46,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO TINTO BURDIZZO APPASSIMENTO 750ML",
+          "qt": 6,
+          "val": 539.46,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "SPINOGLIO TIERRA ALTA VARIETALES TANNAT",
+          "qt": 6,
+          "val": 485.46,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO FINCA FELIZ TESORO TTO BONARDA",
+          "qt": 6,
+          "val": 674.46,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO FREIXO TERROIR TINTO 750ML",
+          "qt": 6,
+          "val": 593.46,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
     },
     {
       "numped": "542000186",
@@ -104925,7 +103185,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "439000149",
@@ -104953,7 +103213,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "275000494",
@@ -104981,7 +103241,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "438000070",
@@ -105401,7 +103661,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "344000212",
@@ -105464,7 +103724,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "588002482",
@@ -105632,7 +103892,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "275000471",
@@ -105667,7 +103927,133 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "VOLTOU"
+      "status_log": "ENTREGUE"
+    },
+    {
+      "numped": "91000332",
+      "numnota": "360",
+      "data": "12/05/2026",
+      "data_ord": "2026-05-12",
+      "nome": "VIVIANI ALVES - OFF TRADE",
+      "cliente": "WOODSWINE DISTRIBUICAO E COMERCIO DE VINHOS LTDA",
+      "sistema": "CASTAS",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
+      "obs": "",
+      "total": 22122.6,
+      "itens": [
+        {
+          "desc": "VILLA ROSA COLHEITA BRANCO 750ML",
+          "qt": 12,
+          "val": 898.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VILLA ROSA GRANDE RESERVA BCO 750ML",
+          "qt": 12,
+          "val": 2758.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VILLA ROSA RESERVA BRANCO 750ML",
+          "qt": 12,
+          "val": 1198.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VILLA ROSA COLHEITA ROSE 750ML",
+          "qt": 12,
+          "val": 898.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VILLA ROSA COLHEITA TINTO 750ML",
+          "qt": 12,
+          "val": 898.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VILLA ROSA GRANDE RESERVA TINTO",
+          "qt": 12,
+          "val": 3238.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO VILLA ROSA RESERVA TINTO 750ML",
+          "qt": 12,
+          "val": 1198.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "ESPUMANTE VILLA ROSA BLANC DE BLANCS",
+          "qt": 12,
+          "val": 1078.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO TINTO AZUL VENTOZELO 750ML",
+          "qt": 12,
+          "val": 1078.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO BRANCO AZUL VENTOZELO 750ML",
+          "qt": 12,
+          "val": 1078.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO TINTO VENTOZELO RESERVA 750ML",
+          "qt": 12,
+          "val": 1498.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO BRANCO VENTOZELO VIOSINHO 750ML",
+          "qt": 12,
+          "val": 1918.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO FREIXO TERROIR TINTO 750ML",
+          "qt": 12,
+          "val": 1318.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO FREIXO TERROIR BRANCO 750ML",
+          "qt": 6,
+          "val": 659.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO FREIXO RESERVA BRANCO",
+          "qt": 12,
+          "val": 2398.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
     },
     {
       "numped": "588002454",
@@ -105821,7 +104207,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "362000043",
@@ -106101,7 +104487,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "344000139",
@@ -106133,6 +104519,143 @@ const PEDIDOS_DATA = {
     }
   ],
   "cancelados": [
+    {
+      "numped": "388001222",
+      "numnota": "43280",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "EUDES MORGAN - OFF TRADE",
+      "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+      "sistema": "CRC",
+      "estado": "ES",
+      "supervisor": "SUPERVISOR OFF - ES",
+      "gerente": "EROCLES OLIVEIRA",
+      "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por DAVID YURI CARDOSO DA SILVA",
+      "obs": "2982352 /// 2982352",
+      "total": 0.0,
+      "itens": [
+        {
+          "desc": "CACHACA JOIA DA SERRA TRADICIONAL 1L",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 36.0,
+          "cortado": true
+        }
+      ],
+      "tem_corte": true
+    },
+    {
+      "numped": "159005172",
+      "numnota": "416716",
+      "data": "29/07/2026",
+      "data_ord": "2026-07-29",
+      "nome": "GISELLE BARFER - OFF TRADE",
+      "cliente": "TASCA DO MARQUES BAR E RESTAURANTE LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :5804",
+      "obs": "",
+      "total": 0.0,
+      "itens": [
+        {
+          "desc": "VINHO FREIXO TERROIR TINTO 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true
+        },
+        {
+          "desc": "VINHO FREIXO TERROIR BRANCO 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 5.0,
+          "cortado": true
+        },
+        {
+          "desc": "VINHO TINTO AZUL VENTOZELO 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true
+        },
+        {
+          "desc": "VINHO BRANCO AZUL VENTOZELO 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true
+        }
+      ],
+      "tem_corte": true
+    },
+    {
+      "numped": "275000678",
+      "numnota": "7010",
+      "data": "29/07/2026",
+      "data_ord": "2026-07-29",
+      "nome": "MARIA LUIZA - OFF TRADE",
+      "cliente": "CASAFRUTI DAS AMERICAS S/A",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por ATILA MENDES BARRETO",
+      "obs": "PEDIDO 5586701",
+      "total": 0.0,
+      "itens": [
+        {
+          "desc": "WHISKY JACK DANIELS  700ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 6.0,
+          "cortado": true
+        },
+        {
+          "desc": "VODKA SMIRNOFF 600 ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 6.0,
+          "cortado": true
+        },
+        {
+          "desc": "TEQUILA J CUERVO GOLD 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true
+        },
+        {
+          "desc": "CHANDON GARDEN SPRITZ 750 ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 18.0,
+          "cortado": true
+        },
+        {
+          "desc": "CHANDON RESERVE BRUT ROSE 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 12.0,
+          "cortado": true
+        },
+        {
+          "desc": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 24.0,
+          "cortado": true
+        }
+      ],
+      "tem_corte": true
+    },
     {
       "numped": "471000487",
       "numnota": "416701",
@@ -106259,6 +104782,89 @@ const PEDIDOS_DATA = {
       "tem_corte": true
     },
     {
+      "numped": "486000119",
+      "numnota": "7210",
+      "data": "29/07/2026",
+      "data_ord": "2026-07-29",
+      "nome": "LEONARDO FLOREZI - OFF TRADE",
+      "cliente": "EDUARDO GONCALVES ESTACIONAMENTO LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por JENNIFER FREITAS DE OLIVEIRA",
+      "obs": "",
+      "total": 0.0,
+      "itens": [
+        {
+          "desc": "VODKA ABSOLUT 1L",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VODKA ORLOFF 1L",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VILLA ROSA ROSE 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO VILLA ROSA FRISANTE ROSE 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VODKA ABSOLUT RASPBERRY - 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI EST SEL CAB SAUV 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI EST SEL MERLOT 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VODKA BELVEDERE PURE 12X50 ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO DOM BOSCO TINTO SECO 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
       "numped": "379001323",
       "numnota": "416247",
       "data": "28/07/2026",
@@ -106293,6 +104899,40 @@ const PEDIDOS_DATA = {
       "tem_corte": true
     },
     {
+      "numped": "588003230",
+      "numnota": "181033",
+      "data": "28/07/2026",
+      "data_ord": "2026-07-28",
+      "nome": "W.S",
+      "cliente": "ADEGA E DISTRIBUIDORA L.A.- LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por JENNIFER FREITAS DE OLIVEIRA",
+      "obs": "",
+      "total": 0.0,
+      "itens": [
+        {
+          "desc": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY JACK DANIELS 700ML - DEST",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
       "numped": "588003234",
       "numnota": "7188",
       "data": "28/07/2026",
@@ -106325,6 +104965,95 @@ const PEDIDOS_DATA = {
         },
         {
           "desc": "WHISKY GENTLEMAN JACK 1L - DEST",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "469000054",
+      "numnota": "7166",
+      "data": "28/07/2026",
+      "data_ord": "2026-07-28",
+      "nome": "PATRICIA RAMOS - OFF TRADE",
+      "cliente": "WANDERLEY RICHE GARCIA 27647046829",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por JENNIFER FREITAS DE OLIVEIRA",
+      "obs": "",
+      "total": 0.0,
+      "itens": [
+        {
+          "desc": "WHISKY BALLANTINE S FINEST 1L",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY PASSPORT 1L",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "GIN ROCKS 1LT",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "GIN ROCKS WATERMELON 1LT",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "469000056",
+      "numnota": "7171",
+      "data": "28/07/2026",
+      "data_ord": "2026-07-28",
+      "nome": "PATRICIA RAMOS - OFF TRADE",
+      "cliente": "19.708.655 FABRIZIA TANGO CECILIO",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por JENNIFER FREITAS DE OLIVEIRA",
+      "obs": "",
+      "total": 0.0,
+      "itens": [
+        {
+          "desc": "LICOR 43 DIEGO ZAMORA 700ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "LICOR CAN FIREBALL CX C/ 6X50ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "LICOR BALLENA COCO 750ML",
           "qt": 0,
           "val": 0.0,
           "qtfalta": 0.0,
@@ -106619,6 +105348,54 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true
+    },
+    {
+      "numped": "426000397",
+      "numnota": "7066",
+      "data": "24/07/2026",
+      "data_ord": "2026-07-24",
+      "nome": "ADER ALONSO - OFF TRADE",
+      "cliente": "COMERCIAL DE PRODUTOS ALIMENTICIOS MINARDI LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por JENNIFER FREITAS DE OLIVEIRA",
+      "obs": "",
+      "total": 0.0,
+      "itens": [
+        {
+          "desc": "JACK DANIELS HONEY 700ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY JACK DANIELS 700ML - DEST",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "JACK DANIELS APPLE 700ML - DEST",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY PASSPORT APPLE 670ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
     },
     {
       "numped": "431001161",
@@ -112379,6 +111156,54 @@ const PEDIDOS_DATA = {
           "qt": 0,
           "val": 0.0,
           "qtfalta": 1.0,
+          "cortado": true
+        }
+      ],
+      "tem_corte": true
+    },
+    {
+      "numped": "91000354",
+      "numnota": "575",
+      "data": "25/06/2026",
+      "data_ord": "2026-06-25",
+      "nome": "VIVIANI ALVES - OFF TRADE",
+      "cliente": "ALPHA GASTRONOMIA LTDA",
+      "sistema": "CASTAS",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
+      "obs": "",
+      "total": 0.0,
+      "itens": [
+        {
+          "desc": "VINHO FOODKILLER CARMENERE 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 12.0,
+          "cortado": true
+        },
+        {
+          "desc": "VINHO FOODKILLER CHARDONNAY 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 12.0,
+          "cortado": true
+        },
+        {
+          "desc": "VINHO ARESTI ESTATE S. CAB SAUV 187ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 48.0,
+          "cortado": true
+        },
+        {
+          "desc": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 24.0,
           "cortado": true
         }
       ],
@@ -120103,6 +118928,61 @@ const PEDIDOS_DATA = {
       "tem_corte": true
     },
     {
+      "numped": "299000068",
+      "numnota": "420",
+      "data": "25/05/2026",
+      "data_ord": "2026-05-25",
+      "nome": "BRYAN PALOPOLI - OFF TRADE",
+      "cliente": "VILA CONCEICAO DIBACO - RESTAURANTE LTDA",
+      "sistema": "CASTAS",
+      "estado": "SP",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por CAMILA DE JESUS CRUZ",
+      "obs": "",
+      "total": 0.0,
+      "itens": [
+        {
+          "desc": "HUMB. CANALE DENARIO RESERVA CAB. FRANC",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 5.0,
+          "cortado": true
+        },
+        {
+          "desc": "VINHO TINTO BURDIZZO APPASSIMENTO 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 4.0,
+          "cortado": true
+        },
+        {
+          "desc": "SPINOGLIO TIERRA ALTA VARIETALES TANNAT",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 5.0,
+          "cortado": true
+        },
+        {
+          "desc": "VINHO FINCA FELIZ TESORO TTO BONARDA",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 6.0,
+          "cortado": true
+        },
+        {
+          "desc": "VINHO FREIXO TERROIR TINTO 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 6.0,
+          "cortado": true
+        }
+      ],
+      "tem_corte": true
+    },
+    {
       "numped": "275000502",
       "numnota": "5085",
       "data": "22/05/2026",
@@ -120393,6 +119273,61 @@ const PEDIDOS_DATA = {
           "qt": 0,
           "val": 0.0,
           "qtfalta": 12.0,
+          "cortado": true
+        }
+      ],
+      "tem_corte": true
+    },
+    {
+      "numped": "299000064",
+      "numnota": "400",
+      "data": "21/05/2026",
+      "data_ord": "2026-05-21",
+      "nome": "BRYAN PALOPOLI - OFF TRADE",
+      "cliente": "VILA CONCEICAO DIBACO - RESTAURANTE LTDA",
+      "sistema": "CASTAS",
+      "estado": "SP",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por CAMILA DE JESUS CRUZ",
+      "obs": "",
+      "total": 0.0,
+      "itens": [
+        {
+          "desc": "HUMB. CANALE DENARIO RESERVA CAB. FRANC",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 6.0,
+          "cortado": true
+        },
+        {
+          "desc": "VINHO TINTO BURDIZZO APPASSIMENTO 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 6.0,
+          "cortado": true
+        },
+        {
+          "desc": "SPINOGLIO TIERRA ALTA VARIETALES TANNAT",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 6.0,
+          "cortado": true
+        },
+        {
+          "desc": "VINHO FINCA FELIZ TESORO TTO BONARDA",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 6.0,
+          "cortado": true
+        },
+        {
+          "desc": "VINHO FREIXO TERROIR TINTO 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 6.0,
           "cortado": true
         }
       ],
@@ -125043,6 +123978,137 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false
+    },
+    {
+      "numped": "299000056",
+      "numnota": "332",
+      "data": "05/05/2026",
+      "data_ord": "2026-05-05",
+      "nome": "BRYAN PALOPOLI - OFF TRADE",
+      "cliente": "BRYAN OLIVEIRA PALOPOLI",
+      "sistema": "CASTAS",
+      "estado": "SP",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por CAMILA DE JESUS CRUZ",
+      "obs": "",
+      "total": 0.0,
+      "itens": [
+        {
+          "desc": "VILLA ROSA GRANDE RESERVA BCO 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 6.0,
+          "cortado": true
+        },
+        {
+          "desc": "VILLA ROSA TINTO 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 6.0,
+          "cortado": true
+        },
+        {
+          "desc": "VINHO TINTO AZUL VENTOZELO 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 6.0,
+          "cortado": true
+        },
+        {
+          "desc": "VINHO BRANCO AZUL VENTOZELO 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 6.0,
+          "cortado": true
+        }
+      ],
+      "tem_corte": true
+    },
+    {
+      "numped": "299000053",
+      "numnota": "330",
+      "data": "05/05/2026",
+      "data_ord": "2026-05-05",
+      "nome": "BRYAN PALOPOLI - OFF TRADE",
+      "cliente": "BRYAN OLIVEIRA PALOPOLI",
+      "sistema": "CASTAS",
+      "estado": "SP",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por CAMILA DE JESUS CRUZ",
+      "obs": "",
+      "total": 0.0,
+      "itens": [
+        {
+          "desc": "VINHO VILLA ROSA RESERVA TINTO 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true
+        },
+        {
+          "desc": "VILLA ROSA TINTO 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true
+        },
+        {
+          "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 6.0,
+          "cortado": true
+        },
+        {
+          "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 2.0,
+          "cortado": true
+        },
+        {
+          "desc": "VINHO LA TOGATA ROSSO 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true
+        },
+        {
+          "desc": "BARBERA D'ALBA SUPERIORE 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true
+        },
+        {
+          "desc": "VINHO MARQUES DE TEJARES FINCA DE LA FAM",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 2.0,
+          "cortado": true
+        },
+        {
+          "desc": "VINHO FREIXO TERROIR TINTO 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true
+        },
+        {
+          "desc": "VINHO FREIXO TERROIR BRANCO 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 2.0,
+          "cortado": true
+        }
+      ],
+      "tem_corte": true
     },
     {
       "numped": "327008716",
