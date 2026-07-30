@@ -78,6 +78,7 @@
 
     .venc-ok      { color: var(--text); }
     .venc-perto   { color: var(--accent); font-weight: 700; }
+    .venc-verde   { color: var(--green); font-weight: 700; }
     .venc-vencido { color: var(--red); font-weight: 700; }
 
     .empty { padding: 48px; text-align: center; color: var(--muted); font-size: .9rem; }
@@ -135,6 +136,7 @@
           <th>Produto</th>
           <th style="text-align:right">Qtd</th>
           <th>Data Vencimento</th>
+          <th style="text-align:right">Dias a Vencer</th>
           <th class="hide-mob">Chave Única</th>
           <th></th>
         </tr>
@@ -147,6 +149,8 @@
           <td>{{ r.produto }}</td>
           <td class="qtd">{{ r.qtd | int }}</td>
           <td>{{ r.data_vencimento | data_br }}</td>
+          {% set dias = r.data_vencimento | dias_vencer %}
+          <td class="qtd {{ dias | classe_dias }}">{{ dias }}</td>
           <td class="chave hide-mob">{{ r.chave_unica }}</td>
           <td>
             <div class="acoes">

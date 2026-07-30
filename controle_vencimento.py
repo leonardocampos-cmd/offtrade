@@ -115,6 +115,28 @@ def _parse_data_br(txt: str) -> str:
     return datetime.strptime(txt, "%d/%m/%Y").strftime("%Y-%m-%d")
 
 
+def _dias_a_vencer(iso_str: str):
+    """Dias entre hoje e a data de vencimento (ISO YYYY-MM-DD). Negativo se já venceu."""
+    try:
+        dt = datetime.strptime(iso_str, "%Y-%m-%d").date()
+        return (dt - datetime.now().date()).days
+    except (ValueError, TypeError):
+        return None
+
+
+def _classe_dias(dias) -> str:
+    """<=45 dias: vermelho (urgente) | 46-60: amarelo | 61-90: verde | >90: neutro."""
+    if dias is None:
+        return ""
+    if dias <= 45:
+        return "venc-vencido"
+    if dias <= 60:
+        return "venc-perto"
+    if dias <= 90:
+        return "venc-verde"
+    return "venc-ok"
+
+
 def _e_de_hoje(registro: dict) -> bool:
     """Só permite editar/excluir registros criados hoje (data_registro,
     formato dd/mm/aaaa HH:MM) — registros de dias anteriores ficam travados."""
@@ -127,6 +149,8 @@ def _e_de_hoje(registro: dict) -> bool:
 
 app.jinja_env.filters["data_br"] = _data_br
 app.jinja_env.filters["data_br_full"] = _data_br_full
+app.jinja_env.filters["dias_vencer"] = _dias_a_vencer
+app.jinja_env.filters["classe_dias"] = _classe_dias
 app.jinja_env.globals["e_de_hoje"] = _e_de_hoje
 
 
