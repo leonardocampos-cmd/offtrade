@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "30/07/2026 14:02",
+  "atualizado_em": "30/07/2026 14:22",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -4648,6 +4648,15 @@ const INATIVOS_DATA = {
         }
       ],
       "novos": [
+        {
+          "codcli": "87693",
+          "cliente": "BAR E LANCHONETE LIMA CITRO LTDA",
+          "bairro": "PORTO NOVO",
+          "cidade": "SAQUAREMA",
+          "dtcadastro": "30/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
         {
           "codcli": "95846",
           "cliente": "CK ATACAREJO LTDA",
@@ -11437,6 +11446,15 @@ const INATIVOS_DATA = {
         }
       ],
       "novos": [
+        {
+          "codcli": "39702",
+          "cliente": "BLEND WINES COMERCIAL LTDA",
+          "bairro": "HAVAÍ",
+          "cidade": "BELO HORIZONTE",
+          "dtcadastro": "30/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
         {
           "codcli": "39553",
           "cliente": "58.541.717 CLESIO MATEUS SANTOS GONCALVES",
