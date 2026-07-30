@@ -1,5 +1,5 @@
 const CLIENTES_588_DATA = {
-  "atualizado_em": "30/07/2026 17:29",
+  "atualizado_em": "30/07/2026 18:00",
   "rca_ref": 588,
   "periodo_fid": "Jan/26 – Abr/26",
   "mes_migracao": "Mai/26",
@@ -346,6 +346,12 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "13/05/2026",
+              "PRODUTO": "RED BULL AMORA SF 24X250ML",
+              "FANTASIA": "RED BULL",
+              "VALOR": 1797.6
+            },
+            {
+              "DATA": "13/05/2026",
               "PRODUTO": "RED BULL MORANGO PESSEGO 24X250ML",
               "FANTASIA": "RED BULL",
               "VALOR": 5392.8
@@ -355,12 +361,6 @@ const CLIENTES_588_DATA = {
               "PRODUTO": "RED BULL SF POMELO 24X250ML",
               "FANTASIA": "RED BULL",
               "VALOR": 8988.0
-            },
-            {
-              "DATA": "13/05/2026",
-              "PRODUTO": "RED BULL AMORA SF 24X250ML",
-              "FANTASIA": "RED BULL",
-              "VALOR": 1797.6
             },
             {
               "DATA": "13/05/2026",
@@ -816,6 +816,12 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "12/05/2026",
+              "PRODUTO": "WHISKY JACK DANIELS FIRE 1000 ML DEST",
+              "FANTASIA": "BROWN",
+              "VALOR": 1198.8
+            },
+            {
+              "DATA": "12/05/2026",
               "PRODUTO": "MOET IMPERIAL RESERVE BRUT 750 ML",
               "FANTASIA": "TOP BIRRA",
               "VALOR": 1652.46
@@ -831,12 +837,6 @@ const CLIENTES_588_DATA = {
               "PRODUTO": "WHISKY JACK DANIELS APPLE 1L - DEST",
               "FANTASIA": "BROWN",
               "VALOR": 11988.0
-            },
-            {
-              "DATA": "12/05/2026",
-              "PRODUTO": "WHISKY JACK DANIELS FIRE 1000 ML DEST",
-              "FANTASIA": "BROWN",
-              "VALOR": 1198.8
             },
             {
               "DATA": "18/05/2026",
@@ -876,6 +876,12 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "05/05/2026",
+              "PRODUTO": "RED BULL ZERO 24X250ML",
+              "FANTASIA": "RED BULL",
+              "VALOR": 9108.0
+            },
+            {
+              "DATA": "05/05/2026",
               "PRODUTO": "RED BULL SUGAR FREE  250 ML CX C/24",
               "FANTASIA": "RED BULL",
               "VALOR": 18216.0
@@ -885,12 +891,6 @@ const CLIENTES_588_DATA = {
               "PRODUTO": "RED BULL TROPICAL EDITION 250 ML CX C/24",
               "FANTASIA": "RED BULL",
               "VALOR": 18216.0
-            },
-            {
-              "DATA": "05/05/2026",
-              "PRODUTO": "RED BULL ZERO 24X250ML",
-              "FANTASIA": "RED BULL",
-              "VALOR": 9108.0
             },
             {
               "DATA": "05/05/2026",
@@ -1524,6 +1524,12 @@ const CLIENTES_588_DATA = {
           "itens": [
             {
               "DATA": "05/05/2026",
+              "PRODUTO": "CHANDON PASSION ROSE 750ML",
+              "FANTASIA": "MOET HENNESY",
+              "VALOR": 4194.0
+            },
+            {
+              "DATA": "05/05/2026",
               "PRODUTO": "CHANDON EXCELLENCE ROSE 750ML",
               "FANTASIA": "MOET HENNESY",
               "VALOR": 299.8
@@ -1533,12 +1539,6 @@ const CLIENTES_588_DATA = {
               "PRODUTO": "CHANDON MAGNUM BRUT 1,5L",
               "FANTASIA": "MOET HENNESY",
               "VALOR": 555.84
-            },
-            {
-              "DATA": "05/05/2026",
-              "PRODUTO": "CHANDON PASSION ROSE 750ML",
-              "FANTASIA": "MOET HENNESY",
-              "VALOR": 4194.0
             },
             {
               "DATA": "05/05/2026",
@@ -1712,6 +1712,12 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "07/05/2026",
+              "PRODUTO": "WHISKY ROYAL SALUTE 700 ML",
+              "FANTASIA": "PERNOD",
+              "VALOR": 3449.4
+            },
+            {
+              "DATA": "07/05/2026",
               "PRODUTO": "WHISKY JACK DANIELS BONDED 700ML",
               "FANTASIA": "BROWN",
               "VALOR": 959.4
@@ -1727,12 +1733,6 @@ const CLIENTES_588_DATA = {
               "PRODUTO": "WHISKY JAMESON CASKMATES IPA EDIT 750ML",
               "FANTASIA": "PERNOD",
               "VALOR": 888.0
-            },
-            {
-              "DATA": "07/05/2026",
-              "PRODUTO": "WHISKY ROYAL SALUTE 700 ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 3449.4
             },
             {
               "DATA": "07/05/2026",
