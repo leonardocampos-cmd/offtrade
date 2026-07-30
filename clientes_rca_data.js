@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "30/07/2026 15:49",
-  "total": 22302,
+  "atualizado_em": "30/07/2026 16:14",
+  "total": 22301,
   "clientes": [
     {
       "codcli": "38586",
@@ -6176,6 +6176,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52195",
+      "razao": "36.321.581 VINICIUS NUNES MASCARENHAS",
+      "fantasia": "VINICIUS NUNES MASCARENHAS",
+      "bairro": "JARDIM SANTO ONOFRE",
+      "cidade": "SAO JOSE DOS CAMPOS",
+      "cnpj": "36.321.581/0001-00",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -87524,22 +87540,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "JADDE CARVALHO"
     },
     {
-      "codcli": "36354",
-      "razao": "CAMPO ALEGRE COMERCIO DE BEBIDAS LTDA",
-      "fantasia": "DISTRIBUIDORA CAMPO ALEGRE",
-      "bairro": "PLANALTO",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "45.212.199/0001-50",
-      "estado": "MG",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "83549",
       "razao": "CAMPO GRANDE CAFE E TABACO LTDA",
       "fantasia": "CASA DO CAFE CAMARA",
@@ -123712,22 +123712,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "588",
       "nome_usur1": "W.S",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "75150",
-      "razao": "DISTRIBUIDORA SERRAMAR RJ LTDA",
-      "fantasia": "DISTRIBUIDORA SERRAMAR",
-      "bairro": "CAMORIM",
-      "cidade": "ANGRA DOS REIS",
-      "cnpj": "29.139.626/0001-65",
-      "estado": "RJ",
-      "ramo": "DEPOSITO DE BEBIDAS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
