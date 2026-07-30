@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "30/07/2026 13:31",
+  "atualizado_em": "30/07/2026 13:56",
   "data_rota": "30.07",
   "vendedores": [
     {
@@ -266,7 +266,38 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "431001199",
+          "numnota": "",
+          "data": "30/07/2026",
+          "cliente": "BAR & TRATTORIA DU PONTO COMERCIO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 379.24,
+          "itens": [
+            {
+              "desc": "COQUETEL COMPOSTO PINK MOON 24X300ML",
+              "qt": 1,
+              "val": 59.76
+            },
+            {
+              "desc": "NECTAR PESSEGO 12X1000ML",
+              "qt": 1,
+              "val": 59.88
+            },
+            {
+              "desc": "COQUETEL PINK MOON 12X600ML - PET",
+              "qt": 4,
+              "val": 259.6
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [],
       "canceladas": [
         {
@@ -1343,31 +1374,6 @@ const ENTREGAS_DATA = {
               "desc": "VODKA ABSOLUT TABASCO 750ML",
               "qt": 4,
               "val": 239.6
-            }
-          ]
-        },
-        {
-          "numped": "471000492",
-          "numnota": "",
-          "data": "30/07/2026",
-          "cliente": "MERCADINHO PERNAMBUCO LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 337.2,
-          "itens": [
-            {
-              "desc": "CACHACA VELHO BARREIRO 910 ML",
-              "qt": 12,
-              "val": 150.0
-            },
-            {
-              "desc": "CANTINA DA SERRA 750ML",
-              "qt": 48,
-              "val": 187.2
             }
           ]
         }
@@ -4956,36 +4962,6 @@ const ENTREGAS_DATA = {
           ]
         },
         {
-          "numped": "378000555",
-          "numnota": "",
-          "data": "30/07/2026",
-          "cliente": "CONFEITARIA E BAR SOLANGE LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "Favor entregar dia 31/08",
-          "total": 291.4,
-          "itens": [
-            {
-              "desc": "CONHAQUE DOMECQ 1L",
-              "qt": 8,
-              "val": 215.2
-            },
-            {
-              "desc": "AGUARDENTE OLD CESAR 88 965 ML",
-              "qt": 3,
-              "val": 35.7
-            },
-            {
-              "desc": "CACHACA VELHO BARREIRO 910 ML",
-              "qt": 3,
-              "val": 40.5
-            }
-          ]
-        },
-        {
           "numped": "378000554",
           "numnota": "",
           "data": "30/07/2026",
@@ -5012,86 +4988,6 @@ const ENTREGAS_DATA = {
               "desc": "NECTAR UVA TIAL 12X250ML",
               "qt": 1,
               "val": 31.96
-            }
-          ]
-        },
-        {
-          "numped": "378000557",
-          "numnota": "",
-          "data": "30/07/2026",
-          "cliente": "NOVO LEBLON C CANTINA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "Favor entregar dia 31/07",
-          "total": 267.63,
-          "itens": [
-            {
-              "desc": "4 PACK RED BULL 250ML",
-              "qt": 2,
-              "val": 59.92
-            },
-            {
-              "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
-              "qt": 1,
-              "val": 20.9
-            },
-            {
-              "desc": "GUARAVITON GINSENG 12X500ML",
-              "qt": 1,
-              "val": 37.01
-            },
-            {
-              "desc": "4 PACK RED BULL SF AMORA",
-              "qt": 1,
-              "val": 29.96
-            },
-            {
-              "desc": "4 PACK RED BULL ZERO",
-              "qt": 2,
-              "val": 59.92
-            },
-            {
-              "desc": "4 PACK RED BULL SF POMELO 4X250ML",
-              "qt": 2,
-              "val": 59.92
-            }
-          ]
-        },
-        {
-          "numped": "378000556",
-          "numnota": "",
-          "data": "30/07/2026",
-          "cliente": "ECOBAR LANCHES LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "Favor entregar dia 31/07",
-          "total": 262.63,
-          "itens": [
-            {
-              "desc": "GUARAVITA NATURAL 24X290ML",
-              "qt": 2,
-              "val": 63.99
-            },
-            {
-              "desc": "4 PACK RED BULL 250ML",
-              "qt": 4,
-              "val": 119.84
-            },
-            {
-              "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
-              "qt": 2,
-              "val": 41.8
-            },
-            {
-              "desc": "GUARAVITON GINSENG 12X500ML",
-              "qt": 1,
-              "val": 37.01
             }
           ]
         }
