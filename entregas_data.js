@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "30/07/2026 16:09",
+  "atualizado_em": "30/07/2026 16:36",
   "data_rota": "30.07",
   "vendedores": [
     {
@@ -1348,6 +1348,26 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "471000499",
+          "numnota": "",
+          "data": "30/07/2026",
+          "cliente": "BAR E RESTAURANTE SOCIAL TRAPIA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 166.5,
+          "itens": [
+            {
+              "desc": "NOSSO CHOP RED DRAFT VD 6X600ML",
+              "qt": 3,
+              "val": 166.5
+            }
+          ]
+        },
+        {
           "numped": "471000496",
           "numnota": "",
           "data": "30/07/2026",
@@ -1366,35 +1386,12 @@ const ENTREGAS_DATA = {
               "val": 378.0
             }
           ]
-        },
-        {
-          "numped": "471000494",
-          "numnota": "",
-          "data": "30/07/2026",
-          "cliente": "MINIMERCADO MONTE SINAI LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 256.76,
-          "itens": [
-            {
-              "desc": "VEJA BAN ANTIBAC GAT 30% DESC 12X500ML",
-              "qt": 1,
-              "val": 218.96
-            },
-            {
-              "desc": "AGUA MINALBA C/ GAS 6X1,5L",
-              "qt": 2,
-              "val": 37.8
-            }
-          ]
-        },
+        }
+      ],
+      "emitido_s_rota": [
         {
           "numped": "471000498",
-          "numnota": "",
+          "numnota": "417140",
           "data": "30/07/2026",
           "cliente": "BAR E RESTAURANTE SOCIAL TRAPIA LTDA",
           "placa": "",
@@ -1417,28 +1414,6 @@ const ENTREGAS_DATA = {
             }
           ]
         },
-        {
-          "numped": "471000499",
-          "numnota": "",
-          "data": "30/07/2026",
-          "cliente": "BAR E RESTAURANTE SOCIAL TRAPIA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 166.5,
-          "itens": [
-            {
-              "desc": "NOSSO CHOP RED DRAFT VD 6X600ML",
-              "qt": 3,
-              "val": 166.5
-            }
-          ]
-        }
-      ],
-      "emitido_s_rota": [
         {
           "numped": "471000385",
           "numnota": "408123",
@@ -4418,36 +4393,6 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
-          "numped": "144001736",
-          "numnota": "",
-          "data": "30/07/2026",
-          "cliente": "TANIA RIBEIRO MARQUES PEREIRA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 279.96,
-          "itens": [
-            {
-              "desc": "RED BULL 24X250ML",
-              "qt": 1,
-              "val": 172.56
-            },
-            {
-              "desc": "APERITIVO APEROL 750 ML",
-              "qt": 1,
-              "val": 38.4
-            },
-            {
-              "desc": "SMIRNOFF RED PET 1750 ML",
-              "qt": 2,
-              "val": 69.0
-            }
-          ]
-        },
-        {
           "numped": "144001735",
           "numnota": "",
           "data": "30/07/2026",
@@ -5204,36 +5149,6 @@ const ENTREGAS_DATA = {
               "desc": "COQUETEL PINK MOON 12X600ML - PET",
               "qt": 6,
               "val": 389.4
-            }
-          ]
-        },
-        {
-          "numped": "378000561",
-          "numnota": "",
-          "data": "30/07/2026",
-          "cliente": "FAB'LU DOCES LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 253.64,
-          "itens": [
-            {
-              "desc": "4 PACK RED BULL SUGAR FREE",
-              "qt": 4,
-              "val": 119.84
-            },
-            {
-              "desc": "4 PACK RED BULL SF POMELO 4X250ML",
-              "qt": 1,
-              "val": 29.96
-            },
-            {
-              "desc": "4 PACK RED BULL SF NECTARINA 4X250ML",
-              "qt": 4,
-              "val": 103.84
             }
           ]
         }
@@ -7578,7 +7493,38 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "379001334",
+          "numnota": "",
+          "data": "30/07/2026",
+          "cliente": "GR 2 ALIMENTOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1753.59,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 8,
+              "val": 1399.68
+            },
+            {
+              "desc": "CACHACA TATUZINHO PET 750 ML",
+              "qt": 1,
+              "val": 3.99
+            },
+            {
+              "desc": "RED BULL ZERO  24X250ML",
+              "qt": 2,
+              "val": 349.92
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [],
       "canceladas": [
         {
@@ -8710,7 +8656,33 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "450000502",
+          "numnota": "",
+          "data": "30/07/2026",
+          "cliente": "DREAMSS CORRETAGEM E ADMINISTRACAO DE SEGUROS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "entregar na portaria do predio",
+          "total": 274.28,
+          "itens": [
+            {
+              "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+              "qt": 1,
+              "val": 119.0
+            },
+            {
+              "desc": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+              "qt": 1,
+              "val": 155.28
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [],
       "canceladas": [
         {
@@ -9407,57 +9379,22 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
-          "numped": "275000684",
+          "numped": "275000685",
           "numnota": "",
           "data": "30/07/2026",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S A",
+          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
           "placa": "",
           "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
-          "obs": "PEDIDO 3019138",
-          "total": 8868.71,
+          "obs": "ENTREGA AGENDADA PARA 03/08",
+          "total": 10161.07,
           "itens": [
             {
-              "desc": "RC ATUM SOLIDO OLEO 24X170G",
-              "qt": 10,
-              "val": 1676.9
-            },
-            {
-              "desc": "RC ATUM PEDACOS EM OLEO 24X140G",
-              "qt": 10,
-              "val": 1945.7
-            },
-            {
-              "desc": "RC ATUM PEDACOS NATURAL 24X140G",
-              "qt": 5,
-              "val": 972.95
-            },
-            {
-              "desc": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
-              "qt": 2,
-              "val": 389.14
-            },
-            {
-              "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-              "qt": 2,
-              "val": 304.16
-            },
-            {
-              "desc": "RC ATUM RALADO NATURAL 24X140G",
-              "qt": 5,
-              "val": 760.35
-            },
-            {
-              "desc": "RC ATUM RALADO OLEO 24X140G",
-              "qt": 2,
-              "val": 304.16
-            },
-            {
-              "desc": "RC ATUM SOLIDO NATURAL 24X170G",
-              "qt": 15,
-              "val": 2515.35
+              "desc": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
+              "qt": 84,
+              "val": 10161.07
             }
           ]
         }
