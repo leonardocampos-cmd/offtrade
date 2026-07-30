@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "30/07/2026 17:18",
+  "atualizado_em": "30/07/2026 17:54",
   "data_rota": "30.07",
   "vendedores": [
     {
@@ -1368,6 +1368,36 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "471000500",
+          "numnota": "",
+          "data": "30/07/2026",
+          "cliente": "ACOUGUE, MERCEARIA E PADARIA ESCADAO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 539.1,
+          "itens": [
+            {
+              "desc": "GIN BOMBAY SAPPHIRE 750ML",
+              "qt": 3,
+              "val": 209.7
+            },
+            {
+              "desc": "GIN GORDONS 750 ML",
+              "qt": 3,
+              "val": 164.7
+            },
+            {
+              "desc": "GIN GORDONS PINK 700ML",
+              "qt": 3,
+              "val": 164.7
+            }
+          ]
+        },
+        {
           "numped": "471000496",
           "numnota": "",
           "data": "30/07/2026",
@@ -1403,14 +1433,14 @@ const ENTREGAS_DATA = {
           "total": 667.8,
           "itens": [
             {
-              "desc": "NOSSO CHOP RED DRAFT VD 6X600ML",
-              "qt": 6,
-              "val": 333.0
-            },
-            {
               "desc": "VODCA SMIRNOFF RED 998 ML",
               "qt": 12,
               "val": 334.8
+            },
+            {
+              "desc": "NOSSO CHOP RED DRAFT VD 6X600ML",
+              "qt": 6,
+              "val": 333.0
             }
           ]
         },
@@ -1501,6 +1531,31 @@ const ENTREGAS_DATA = {
         }
       ],
       "canceladas": [
+        {
+          "numped": "471000494",
+          "numnota": "417141",
+          "data": "30/07/2026",
+          "cliente": "MINIMERCADO MONTE SINAI LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "CANCELADA",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 0.0,
+          "itens": [
+            {
+              "desc": "AGUA MINALBA C/ GAS 6X1,5L",
+              "qt": 0,
+              "val": 0.0
+            },
+            {
+              "desc": "VEJA BAN ANTIBAC GAT 30% DESC 12X500ML",
+              "qt": 0,
+              "val": 0.0
+            }
+          ]
+        },
         {
           "numped": "471000486",
           "numnota": "416705",
@@ -6145,6 +6200,31 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "159005185",
+          "numnota": "",
+          "data": "30/07/2026",
+          "cliente": "ARM COMERCIO DE BEBIDAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 899.6,
+          "itens": [
+            {
+              "desc": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
+              "qt": 2,
+              "val": 539.8
+            },
+            {
+              "desc": "WHISKY J WALKER BLACK LABEL 1L",
+              "qt": 2,
+              "val": 359.8
+            }
+          ]
+        },
+        {
           "numped": "159005184",
           "numnota": "",
           "data": "30/07/2026",
@@ -6186,6 +6266,61 @@ const ENTREGAS_DATA = {
               "desc": "VINHO ARESTI TRISQUEL GRAN RESERVA 750ML",
               "qt": 1,
               "val": 79.9
+            }
+          ]
+        },
+        {
+          "numped": "159005186",
+          "numnota": "",
+          "data": "30/07/2026",
+          "cliente": "ARM COMERCIO DE BEBIDAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 449.8,
+          "itens": [
+            {
+              "desc": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
+              "qt": 1,
+              "val": 269.9
+            },
+            {
+              "desc": "WHISKY J WALKER BLACK LABEL 1L",
+              "qt": 1,
+              "val": 179.9
+            }
+          ]
+        },
+        {
+          "numped": "159005187",
+          "numnota": "",
+          "data": "30/07/2026",
+          "cliente": "4P RESTAURANTE E BAR 002 LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 376.5,
+          "itens": [
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 2,
+              "val": 55.8
+            },
+            {
+              "desc": "WHISKY JIM BEAM WHITE 1L",
+              "qt": 1,
+              "val": 70.9
+            },
+            {
+              "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
+              "qt": 2,
+              "val": 249.8
             }
           ]
         },
@@ -9452,28 +9587,7 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [
-        {
-          "numped": "275000685",
-          "numnota": "",
-          "data": "30/07/2026",
-          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "ENTREGA AGENDADA PARA 03/08",
-          "total": 10161.07,
-          "itens": [
-            {
-              "desc": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
-              "qt": 84,
-              "val": 10161.07
-            }
-          ]
-        }
-      ],
+      "nao_emitido": [],
       "emitido_s_rota": [],
       "canceladas": [
         {
@@ -13791,31 +13905,6 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
-          "numped": "155004030",
-          "numnota": "",
-          "data": "30/07/2026",
-          "cliente": "MERCADO E DEPOSITO DE BEBIDAS DA ALDEIA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 345.12,
-          "itens": [
-            {
-              "desc": "RED BULL 24X250ML",
-              "qt": 1,
-              "val": 172.56
-            },
-            {
-              "desc": "RED BULL TROPICAL 24X250ML",
-              "qt": 1,
-              "val": 172.56
-            }
-          ]
-        },
-        {
           "numped": "155004031",
           "numnota": "",
           "data": "30/07/2026",
@@ -13857,6 +13946,31 @@ const ENTREGAS_DATA = {
               "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
               "qt": 6,
               "val": 443.4
+            }
+          ]
+        },
+        {
+          "numped": "155004030",
+          "numnota": "",
+          "data": "30/07/2026",
+          "cliente": "MERCADO E DEPOSITO DE BEBIDAS DA ALDEIA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 345.12,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 1,
+              "val": 172.56
+            },
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 1,
+              "val": 172.56
             }
           ]
         }
