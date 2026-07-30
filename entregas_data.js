@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "30/07/2026 16:57",
+  "atualizado_em": "30/07/2026 17:18",
   "data_rota": "30.07",
   "vendedores": [
     {
@@ -1403,14 +1403,14 @@ const ENTREGAS_DATA = {
           "total": 667.8,
           "itens": [
             {
-              "desc": "VODCA SMIRNOFF RED 998 ML",
-              "qt": 12,
-              "val": 334.8
-            },
-            {
               "desc": "NOSSO CHOP RED DRAFT VD 6X600ML",
               "qt": 6,
               "val": 333.0
+            },
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 12,
+              "val": 334.8
             }
           ]
         },
@@ -5151,6 +5151,36 @@ const ENTREGAS_DATA = {
               "val": 389.4
             }
           ]
+        },
+        {
+          "numped": "378000564",
+          "numnota": "",
+          "data": "30/07/2026",
+          "cliente": "38.494.727 CARLA CRISTINA RODRIGUES LIMA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Favor entregar dia 31/07",
+          "total": 288.61,
+          "itens": [
+            {
+              "desc": "CERVEJA HEINEKEN LONG 24X330ML",
+              "qt": 1,
+              "val": 126.9
+            },
+            {
+              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+              "qt": 2,
+              "val": 126.0
+            },
+            {
+              "desc": "NECTAR MANGA TIAL 12X250ML",
+              "qt": 1,
+              "val": 35.71
+            }
+          ]
         }
       ],
       "emitido_s_rota": [
@@ -6114,6 +6144,51 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
+        {
+          "numped": "159005184",
+          "numnota": "",
+          "data": "30/07/2026",
+          "cliente": "CAFE SEMENTES CABO FRIO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 525.0,
+          "itens": [
+            {
+              "desc": "VILLA ROSA COLHEITA TINTO 750ML",
+              "qt": 1,
+              "val": 69.9
+            },
+            {
+              "desc": "VILLA ROSA TINTO 750ML",
+              "qt": 2,
+              "val": 77.8
+            },
+            {
+              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+              "qt": 1,
+              "val": 79.9
+            },
+            {
+              "desc": "HUMB. CANALE DENARIO RESERVA MALBEC",
+              "qt": 1,
+              "val": 89.9
+            },
+            {
+              "desc": "VINHO GRAVEDAD CARMENERE 750ML",
+              "qt": 4,
+              "val": 127.6
+            },
+            {
+              "desc": "VINHO ARESTI TRISQUEL GRAN RESERVA 750ML",
+              "qt": 1,
+              "val": 79.9
+            }
+          ]
+        },
         {
           "numped": "159005183",
           "numnota": "",
