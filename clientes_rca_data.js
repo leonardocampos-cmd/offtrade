@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "30/07/2026 15:28",
+  "atualizado_em": "30/07/2026 15:49",
   "total": 22302,
   "clientes": [
     {
@@ -7142,7 +7142,7 @@ const CLIENTES_RCA_DATA = {
     {
       "codcli": "72530",
       "razao": "38.494.727 CARLA CRISTINA RODRIGUES LIMA",
-      "fantasia": "38.494.727 CARLA CRISTINA RODRIGUES LIMA",
+      "fantasia": "CARLA CRISTINA RODRIGUES LIMA",
       "bairro": "CATUMBI",
       "cidade": "RIO DE JANEIRO",
       "cnpj": "38.494.727/0001-45",
@@ -7150,8 +7150,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "BAR",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "378",
+      "nome_usur1": "FABIO VALOTTI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -66980,22 +66980,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "34306",
-      "razao": "BAR GOLO GOLO ME",
-      "fantasia": "BAR GOLO GOLO",
-      "bairro": "CENTRO",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "02.447.603/0001-61",
-      "estado": "MG",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "3348",
       "razao": "BAR HAWKINS LTDA",
       "fantasia": "THE CANIBAL",
@@ -71346,22 +71330,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "350",
       "nome_usur2": "KEYTY FELICIO"
-    },
-    {
-      "codcli": "30080",
-      "razao": "BEM ESTAR COMERCIO DE ALIMENTOS LTDA",
-      "fantasia": "BEM ESTAR COMERCIO DE ALIMENTOS LTDA",
-      "bairro": "FUNCIONARIOS",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "21.129.653/0001-45",
-      "estado": "MG",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "85302",
@@ -92322,6 +92290,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "351",
       "nome_usur2": "MARIANA LAGES"
+    },
+    {
+      "codcli": "50942",
+      "razao": "CASA NEGREIROS LTDA",
+      "fantasia": "CASA NEGREIROS",
+      "bairro": "CIDADE LÍDER",
+      "cidade": "SAO PAULO",
+      "cnpj": "63.014.377/0001-10",
+      "estado": "SP",
+      "ramo": "MERCEARIA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "468",
+      "nome_usur1": "RENATO JUNIOR - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "81542",
@@ -161984,6 +161968,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52192",
+      "razao": "GILDO ANTONIO DE FREITAS MINIMERCADO LTDA",
+      "fantasia": "SUPERMERCADO BOM PRECO",
+      "bairro": "JARDIM VIRGÍNIA",
+      "cidade": "GUARUJA",
+      "cnpj": "35.502.513/0001-85",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "507",
+      "nome_usur1": "JOAO AUGUSTO -  OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -327364,6 +327364,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "50943",
+      "razao": "SUPERMERCADO TRIALBA LTDA.",
+      "fantasia": "SUPERMERCADO TRIALBA LTDA.",
+      "bairro": "JARDIM IGUATEMI",
+      "cidade": "SAO PAULO",
+      "cnpj": "07.128.576/0007-73",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "468",
+      "nome_usur1": "RENATO JUNIOR - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "80897",
       "razao": "SUPERMERCADO TROPICAL LTDA",
       "fantasia": "SUPERMERCADO TROPICAL",
@@ -337442,22 +337458,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JOÃO SANTOS - OFF TRADE",
       "codusur2": "549",
       "nome_usur2": "FERNANDO GOMES"
-    },
-    {
-      "codcli": "69489",
-      "razao": "TONETTO'S GRILL RESTAURANTE LTDA",
-      "fantasia": "TONETTO'S RESTAURANTE",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "45.548.207/0001-33",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "312",
-      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "81003",
