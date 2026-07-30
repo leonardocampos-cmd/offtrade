@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "30/07/2026 15:48",
+  "atualizado_em": "30/07/2026 16:13",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -104,7 +104,7 @@ const VENDAS_MG_DATA = {
         "fat_ano_ant": 0.0
       },
       "Jul/26": {
-        "fat": 267414.02,
+        "fat": 266694.82,
         "pos": 91,
         "fat_ant": 341993.95,
         "fat_ano_ant": 363218.58
@@ -118210,46 +118210,6 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "30/07/2026",
-          "codcli": "35736",
-          "cliente": "BAR E RESTAURANTE NUNES LTDA",
-          "produto": "WHISKY JIM BEAM HONEY 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 1,
-          "valor": 89.9,
-          "offtrade": true
-        },
-        {
-          "data": "30/07/2026",
-          "codcli": "35736",
-          "cliente": "BAR E RESTAURANTE NUNES LTDA",
-          "produto": "WHISKY JIM BEAM CHERRY 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 1,
-          "valor": 89.9,
-          "offtrade": true
-        },
-        {
-          "data": "30/07/2026",
-          "codcli": "35736",
-          "cliente": "BAR E RESTAURANTE NUNES LTDA",
-          "produto": "WHISKY JIM BEAM WHITE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 1,
-          "valor": 89.9,
-          "offtrade": true
-        },
-        {
-          "data": "30/07/2026",
-          "codcli": "35736",
-          "cliente": "BAR E RESTAURANTE NUNES LTDA",
-          "produto": "WHISKY JIM BEAM APPLE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 1,
-          "valor": 89.9,
-          "offtrade": true
-        },
-        {
-          "data": "30/07/2026",
           "codcli": "31908",
           "cliente": "POINT BAIANO BAR E RESTAURANTE LTDA",
           "produto": "WHISKY JIM BEAM CHERRY 1L",
@@ -121169,26 +121129,6 @@ const VENDAS_MG_DATA = {
           "offtrade": true
         },
         {
-          "data": "30/07/2026",
-          "codcli": "32797",
-          "cliente": "AECIO LUCAS LACERDA",
-          "produto": "WHISKY JIM BEAM WHITE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 1,
-          "valor": 89.9,
-          "offtrade": false
-        },
-        {
-          "data": "30/07/2026",
-          "codcli": "32797",
-          "cliente": "AECIO LUCAS LACERDA",
-          "produto": "WHISKY JIM BEAM HONEY 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 1,
-          "valor": 89.9,
-          "offtrade": false
-        },
-        {
           "data": "15/07/2026",
           "codcli": "38643",
           "cliente": "BRAZ 1949 LTDA",
@@ -121536,26 +121476,6 @@ const VENDAS_MG_DATA = {
           "fantasia": "CASTAS",
           "qt": 6,
           "valor": 293.4,
-          "offtrade": false
-        },
-        {
-          "data": "30/07/2026",
-          "codcli": "32797",
-          "cliente": "AECIO LUCAS LACERDA",
-          "produto": "WHISKY JIM BEAM CHERRY 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 1,
-          "valor": 89.9,
-          "offtrade": false
-        },
-        {
-          "data": "30/07/2026",
-          "codcli": "32797",
-          "cliente": "AECIO LUCAS LACERDA",
-          "produto": "WHISKY JIM BEAM APPLE 1L",
-          "fantasia": "BEAM SUNTORY",
-          "qt": 1,
-          "valor": 89.9,
           "offtrade": false
         },
         {
