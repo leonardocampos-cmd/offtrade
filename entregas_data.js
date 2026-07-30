@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "30/07/2026 11:51",
+  "atualizado_em": "30/07/2026 12:09",
   "data_rota": "30.07",
   "vendedores": [
     {
@@ -1285,7 +1285,68 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "471000493",
+          "numnota": "",
+          "data": "30/07/2026",
+          "cliente": "ERS DEPOSITO DE BEBIDAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 958.4,
+          "itens": [
+            {
+              "desc": "VODKA ABSOLUT CITRON 750ML",
+              "qt": 4,
+              "val": 239.6
+            },
+            {
+              "desc": "VODKA ABSOLUT VANILLA 750ML",
+              "qt": 4,
+              "val": 239.6
+            },
+            {
+              "desc": "VODKA ABSOLUT RASPBERRY 750ML",
+              "qt": 4,
+              "val": 239.6
+            },
+            {
+              "desc": "VODKA ABSOLUT TABASCO 750ML",
+              "qt": 4,
+              "val": 239.6
+            }
+          ]
+        },
+        {
+          "numped": "471000492",
+          "numnota": "",
+          "data": "30/07/2026",
+          "cliente": "MERCADINHO PERNAMBUCO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 337.2,
+          "itens": [
+            {
+              "desc": "CACHACA VELHO BARREIRO 910 ML",
+              "qt": 12,
+              "val": 150.0
+            },
+            {
+              "desc": "CANTINA DA SERRA 750ML",
+              "qt": 48,
+              "val": 187.2
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "471000385",
@@ -13496,12 +13557,17 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 775.86,
+          "total": 916.26,
           "itens": [
             {
               "desc": "CANTINA DA SERRA 1,5L",
               "qt": 34,
               "val": 237.66
+            },
+            {
+              "desc": "CACHACA TATUZINHO PET 750 ML",
+              "qt": 36,
+              "val": 140.4
             },
             {
               "desc": "CANTINA DA SERRA 750ML",
