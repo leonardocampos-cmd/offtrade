@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "30/07/2026 12:14",
+  "atualizado_em": "30/07/2026 13:37",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -6814,6 +6814,104 @@ const NAO_POS_ES_DATA = {
             "fantasia": "RED BULL",
             "qt": 1,
             "valor": 174.96
+          }
+        ]
+      },
+      {
+        "codcli": "50636",
+        "cliente": "MERCADO RODRIGUES PARENTE LTDA",
+        "bairro": "ROCINHA",
+        "dtultcomp": "20/03/2026",
+        "produtos": [
+          {
+            "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+            "fantasia": "CASA PERINI",
+            "qt": 6,
+            "valor": 221.4
+          },
+          {
+            "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+            "fantasia": "CASA PERINI",
+            "qt": 6,
+            "valor": 221.4
+          },
+          {
+            "produto": "GIN ROCKS 1000ML",
+            "fantasia": "FANTE",
+            "qt": 6,
+            "valor": 135.0
+          },
+          {
+            "produto": "GIN ROCKS GREEN APPLE 1000ML",
+            "fantasia": "FANTE",
+            "qt": 6,
+            "valor": 135.0
+          },
+          {
+            "produto": "GIN ROCKS SCILIAN LEMON 1000ML",
+            "fantasia": "FANTE",
+            "qt": 6,
+            "valor": 135.0
+          },
+          {
+            "produto": "GIN ROCKS STRAWBERRY 1000ML",
+            "fantasia": "FANTE",
+            "qt": 12,
+            "valor": 270.0
+          },
+          {
+            "produto": "GIN ROCKS SUNSET 1000ML",
+            "fantasia": "FANTE",
+            "qt": 6,
+            "valor": 135.0
+          },
+          {
+            "produto": "GIN ROCKS WATERMELON 1000ML",
+            "fantasia": "FANTE",
+            "qt": 6,
+            "valor": 135.0
+          },
+          {
+            "produto": "GIN ROKU 700ML",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 2,
+            "valor": 227.8
+          },
+          {
+            "produto": "LICOR SAINT GERMAIN 750 ML",
+            "fantasia": "BACARDI",
+            "qt": 2,
+            "valor": 243.8
+          },
+          {
+            "produto": "RC SARDINHA EM OLEO 50X125G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 1,
+            "valor": 249.5
+          },
+          {
+            "produto": "VODKA ABSOLUT CITRON 750ML",
+            "fantasia": "PERNOD",
+            "qt": 2,
+            "valor": 127.8
+          },
+          {
+            "produto": "VODKA ABSOLUT RASPBERRY 750ML",
+            "fantasia": "PERNOD",
+            "qt": 3,
+            "valor": 191.7
+          },
+          {
+            "produto": "VODKA ABSOLUT VANILLA 750ML",
+            "fantasia": "PERNOD",
+            "qt": 3,
+            "valor": 191.7
+          },
+          {
+            "produto": "WHISKY BALLANTINE S SUNSHINE 700ML",
+            "fantasia": "PERNOD",
+            "qt": 6,
+            "valor": 341.4
           }
         ]
       },
