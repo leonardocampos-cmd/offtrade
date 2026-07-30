@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "30/07/2026 14:21",
-  "total": 22304,
+  "atualizado_em": "30/07/2026 14:45",
+  "total": 22301,
   "clientes": [
     {
       "codcli": "38586",
@@ -60266,22 +60266,6 @@ const CLIENTES_RCA_DATA = {
       "bairro": "BARRA DA TIJUCA",
       "cidade": "RIO DE JANEIRO",
       "cnpj": "63.657.401/0001-39",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "93072",
-      "razao": "BA RECREIO SHOPPING LTDA",
-      "fantasia": "BA RECREIO SHOPPING",
-      "bairro": "RECREIO DOS BANDEIRANTES",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "63.971.570/0001-49",
       "estado": "RJ",
       "ramo": "RESTAURANTE",
       "key_account": false,
@@ -137652,22 +137636,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "31011",
-      "razao": "EMPORIO BEBIDAS ROCOCO LTDA",
-      "fantasia": "EMPORIO BEBIDAS ROCOCO LTDA",
-      "bairro": "NOVA SUISSA",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "39.237.194/0001-89",
-      "estado": "MG",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "412",
-      "nome_usur2": "LAYZ WERNECK"
-    },
-    {
       "codcli": "71297",
       "razao": "EMPORIO BEER RESTAURANTE LTDA",
       "fantasia": "EMPORIO BEER RESTAURANTE LTDA",
@@ -209730,22 +209698,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "350",
       "nome_usur2": "KEYTY FELICIO"
-    },
-    {
-      "codcli": "86861",
-      "razao": "LUANA DE IPANEMA COMERCIO LTDA",
-      "fantasia": "CONFEITARIA COLOMBO CAFÉ",
-      "bairro": "IPANEMA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "04.980.765/0001-96",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "81460",
