@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "30/07/2026 14:33",
+  "atualizado_em": "30/07/2026 14:55",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -437734,6 +437734,94 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
+          "data": "30/07/2026",
+          "codcli": "92041",
+          "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
+          "produto": "VINHO FOODKILLER CARMENERE 750ML",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 2020.8,
+          "tipo": "Venda",
+          "offtrade": false
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "92041",
+          "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
+          "produto": "VINHO ARESTI ESTATE S. CAB SAUV 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 449.16,
+          "tipo": "Venda",
+          "offtrade": false
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "92041",
+          "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
+          "produto": "VINHO ARESTI ESTATE S. MERLOT 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 449.16,
+          "tipo": "Venda",
+          "offtrade": false
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "92041",
+          "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
+          "produto": "ESPUMANTE ALUD BRANCO 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 359.16,
+          "tipo": "Venda",
+          "offtrade": false
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "92041",
+          "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
+          "produto": "ESPUMANTE ALUD ROSE 750ML",
+          "fantasia": "",
+          "qt": 12,
+          "valor": 359.16,
+          "tipo": "Venda",
+          "offtrade": false
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "92041",
+          "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
+          "produto": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 17042.4,
+          "tipo": "Venda",
+          "offtrade": false
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "92041",
+          "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
+          "produto": "VINHO FOODKILLER CAB. SAUV./ MERLOT",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 2020.8,
+          "tipo": "Venda",
+          "offtrade": false
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "92041",
+          "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
+          "produto": "VINHO VILLA ROSA FRISANTE ROSE",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 1480.8,
+          "tipo": "Venda",
+          "offtrade": false
+        },
+        {
           "data": "24/07/2026",
           "codcli": "92026",
           "cliente": "GIUSEPPE LA ROSA RESTAURANTE",
@@ -437807,6 +437895,94 @@ const VENDAS_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 557.91,
+          "tipo": "Venda",
+          "offtrade": false
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "92041",
+          "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
+          "produto": "VINHO VILLA ROSA FRISANTE BRANCO",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 1480.8,
+          "tipo": "Venda",
+          "offtrade": false
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "92041",
+          "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
+          "produto": "VINHO MOV BRANCO",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 1795.8,
+          "tipo": "Venda",
+          "offtrade": false
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "92041",
+          "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
+          "produto": "VINHO MOV TINTO",
+          "fantasia": "",
+          "qt": 60,
+          "valor": 1795.8,
+          "tipo": "Venda",
+          "offtrade": false
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "92041",
+          "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
+          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "fantasia": "",
+          "qt": 120,
+          "valor": 6741.6,
+          "tipo": "Venda",
+          "offtrade": false
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "92041",
+          "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "",
+          "qt": 120,
+          "valor": 6807.6,
+          "tipo": "Venda",
+          "offtrade": false
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "92041",
+          "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
+          "produto": "VILLA ROSA BRANCO 750ML",
+          "fantasia": "",
+          "qt": 18,
+          "valor": 540.0,
+          "tipo": "Venda",
+          "offtrade": false
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "92041",
+          "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "",
+          "qt": 18,
+          "valor": 540.0,
+          "tipo": "Venda",
+          "offtrade": false
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "92041",
+          "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
+          "produto": "VILLA ROSA  ROSE 750ML",
+          "fantasia": "",
+          "qt": 18,
+          "valor": 540.0,
           "tipo": "Venda",
           "offtrade": false
         },
@@ -595478,6 +595654,50 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
+          "data": "30/07/2026",
+          "codcli": "34096",
+          "cliente": "MINAS 2000 LTDA",
+          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+          "fantasia": "CASTAS",
+          "qt": 24,
+          "valor": 453.6,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "34096",
+          "cliente": "MINAS 2000 LTDA",
+          "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 329.4,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "34096",
+          "cliente": "MINAS 2000 LTDA",
+          "produto": "VINHO ARESTI EST SEL CARMENERE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 329.4,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "34096",
+          "cliente": "MINAS 2000 LTDA",
+          "produto": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
+          "fantasia": "CASTAS",
+          "qt": 22,
+          "valor": 415.8,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
           "data": "02/07/2026",
           "codcli": "34357",
           "cliente": "VILLAGE FOODS LTDA",
@@ -643911,6 +644131,28 @@ const VENDAS_DATA = {
           "qt": 5,
           "valor": 749.5,
           "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO BRANCO VENTOZELO RESERVA 750ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 0.0,
+          "tipo": "Bonificado",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "MAXIME ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 0.0,
+          "tipo": "Bonificado",
           "offtrade": true
         },
         {

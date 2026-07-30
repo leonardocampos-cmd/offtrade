@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "30/07/2026 14:33",
+  "atualizado_em": "30/07/2026 14:55",
   "meses": [
     "Jul/26",
     "Jun/26"
@@ -28228,7 +28228,7 @@ const METAS_DATA = {
           }
         }
       },
-      "clientes_cadastrados": 1,
+      "clientes_cadastrados": 2,
       "nao_positivados": [
         {
           "CODCLI": "92280",
