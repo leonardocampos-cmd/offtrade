@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "30/07/2026 17:01",
+  "atualizado_em": "30/07/2026 17:23",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -531,6 +531,12 @@ const VENDAS_ES_DATA = {
         "pos": 4,
         "fat_ant": 84.33,
         "fat_ano_ant": 0.0
+      },
+      "Jul/26": {
+        "fat": 155312.64,
+        "pos": 0,
+        "fat_ant": 168771.4,
+        "fat_ano_ant": 64218.78
       }
     },
     "EUDES MORGAN": {
@@ -192852,6 +192858,28 @@ const VENDAS_ES_DATA = {
           "qt": 144,
           "valor": 25885.44,
           "offtrade": true
+        }
+      ],
+      "Jul/26": [
+        {
+          "data": "30/07/2026",
+          "codcli": "94469",
+          "cliente": "ORIGINAL COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+          "produto": "RED BULL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 576,
+          "valor": 103541.76,
+          "offtrade": false
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "94469",
+          "cliente": "ORIGINAL COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+          "produto": "RED BULL TROPICAL 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 288,
+          "valor": 51770.88,
+          "offtrade": false
         }
       ]
     },
