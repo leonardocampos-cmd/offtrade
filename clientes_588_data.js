@@ -1,5 +1,5 @@
 const CLIENTES_588_DATA = {
-  "atualizado_em": "30/07/2026 14:45",
+  "atualizado_em": "30/07/2026 15:07",
   "rca_ref": 588,
   "periodo_fid": "Jan/26 – Abr/26",
   "mes_migracao": "Mai/26",
@@ -918,12 +918,6 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "12/05/2026",
-              "PRODUTO": "VODKA ABSOLUT - 750 ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 3055.2
-            },
-            {
-              "DATA": "12/05/2026",
               "PRODUTO": "GIN ORLOFF 1L",
               "FANTASIA": "PERNOD",
               "VALOR": 415.08
@@ -945,6 +939,12 @@ const CLIENTES_588_DATA = {
               "PRODUTO": "RUM MALIBU 750 ML",
               "FANTASIA": "PERNOD",
               "VALOR": 527.76
+            },
+            {
+              "DATA": "12/05/2026",
+              "PRODUTO": "VODKA ABSOLUT - 750 ML",
+              "FANTASIA": "PERNOD",
+              "VALOR": 3055.2
             },
             {
               "DATA": "12/05/2026",
