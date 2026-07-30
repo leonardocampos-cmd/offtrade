@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "30/07/2026 15:06",
+  "atualizado_em": "30/07/2026 15:27",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -4661,30 +4661,9 @@ const NAO_POS_SP_DATA = {
     ],
     "GILVAN AMORIM": [
       {
-        "codcli": "51823",
-        "cliente": "D. NASTARO SUPERMERCADOS LTDA",
-        "bairro": "PAULICÉIA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51819",
-        "cliente": "D. NASTARO SUPERMERCADOS LTDA",
-        "bairro": "JARDIM SÃO JORGE",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "51830",
         "cliente": "D. NASTARO SUPERMERCADOS LTDA",
         "bairro": "JARDIM ALGODOAL",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51821",
-        "cliente": "D. NASTARO SUPERMERCADOS LTDA",
-        "bairro": "SANTA TEREZINHA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -4696,6 +4675,13 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
+        "codcli": "51819",
+        "cliente": "D. NASTARO SUPERMERCADOS LTDA",
+        "bairro": "JARDIM SÃO JORGE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "51824",
         "cliente": "D. NASTARO SUPERMERCADOS LTDA",
         "bairro": "NOSSA SENHORA DE LOURDES",
@@ -4703,14 +4689,28 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51490",
+        "codcli": "51821",
+        "cliente": "D. NASTARO SUPERMERCADOS LTDA",
+        "bairro": "SANTA TEREZINHA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51823",
+        "cliente": "D. NASTARO SUPERMERCADOS LTDA",
+        "bairro": "PAULICÉIA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51489",
         "cliente": "IRMAOS BARRERA LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51489",
+        "codcli": "51490",
         "cliente": "IRMAOS BARRERA LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -4731,6 +4731,13 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
+        "codcli": "51547",
+        "cliente": "SUPERMERCADO ARMELIN LTDA",
+        "bairro": "VILA FATIMA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "51550",
         "cliente": "SUPERMERCADO ARMELIN LTDA",
         "bairro": "CENTRO",
@@ -4741,13 +4748,6 @@ const NAO_POS_SP_DATA = {
         "codcli": "51549",
         "cliente": "SUPERMERCADO ARMELIN LTDA",
         "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51547",
-        "cliente": "SUPERMERCADO ARMELIN LTDA",
-        "bairro": "VILA FATIMA",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -4999,13 +4999,6 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51634",
-        "cliente": "SUPERMERCADO APR LTDA",
-        "bairro": "FLORIDA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "51637",
         "cliente": "SUPERMERCADO APR LTDA",
         "bairro": "REAL",
@@ -5016,6 +5009,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "51642",
         "cliente": "SUPERMERCADO APR LTDA",
         "bairro": "PARQUE DAS BANDEIRAS",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51634",
+        "cliente": "SUPERMERCADO APR LTDA",
+        "bairro": "FLORIDA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -8131,14 +8131,14 @@ const NAO_POS_SP_DATA = {
           {
             "produto": "GIN BEEFEATER 750ML",
             "fantasia": "PERNOD",
-            "qt": 2,
-            "valor": 129.8
+            "qt": 1,
+            "valor": 69.9
           },
           {
             "produto": "GIN BEEFEATER 750ML",
             "fantasia": "PERNOD",
-            "qt": 1,
-            "valor": 69.9
+            "qt": 2,
+            "valor": 129.8
           },
           {
             "produto": "GIN BEEFEATER BLACKBERRY 700ML",
@@ -8435,14 +8435,14 @@ const NAO_POS_SP_DATA = {
           {
             "produto": "ESPUMANTE CHANDON BRUT ROSE 750ML",
             "fantasia": "MOET HENNESY",
-            "qt": 12,
-            "valor": 910.8
+            "qt": 6,
+            "valor": 455.4
           },
           {
             "produto": "ESPUMANTE CHANDON BRUT ROSE 750ML",
             "fantasia": "MOET HENNESY",
-            "qt": 6,
-            "valor": 455.4
+            "qt": 12,
+            "valor": 910.8
           }
         ]
       },
@@ -8532,9 +8532,58 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
+        "codcli": "52185",
+        "cliente": "MINIMERCADO LITORAL LTDA",
+        "bairro": "GONZAGA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "52111",
         "cliente": "SUPERMERCADO TALISMA DA VILA LTDA",
         "bairro": "VILA MARGARIDA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52189",
+        "cliente": "SUPERMERCADO VARANDAS LTDA",
+        "bairro": "MARAPÉ",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52187",
+        "cliente": "SUPERMERCADO VARANDAS LTDA",
+        "bairro": "SABOO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52191",
+        "cliente": "SUPERMERCADO VARANDAS LTDA",
+        "bairro": "APARECIDA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52190",
+        "cliente": "SUPERMERCADO VARANDAS LTDA",
+        "bairro": "CAMPO GRANDE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52186",
+        "cliente": "SUPERMERCADO VARANDAS LTDA",
+        "bairro": "APARECIDA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52188",
+        "cliente": "SUPERMERCADO VARANDAS LTDA",
+        "bairro": "EMBARÉ",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -8576,16 +8625,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51863",
+        "codcli": "51864",
         "cliente": "SANTO COMERCIO E IMPORTACAO DE PRODUTOS ALIMENTICIOS LTDA",
-        "bairro": "VILA BARCELONA",
+        "bairro": "WANEL VILLE",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51864",
+        "codcli": "51863",
         "cliente": "SANTO COMERCIO E IMPORTACAO DE PRODUTOS ALIMENTICIOS LTDA",
-        "bairro": "WANEL VILLE",
+        "bairro": "VILA BARCELONA",
         "dtultcomp": "nan",
         "produtos": []
       },
