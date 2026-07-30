@@ -5919,20 +5919,6 @@ const AGENDAMENTO_DATA = {
       "nome": "DIOGO RAPOSO - OFF TRADE",
       "itens": [
         {
-          "codigo_cliente": "85921",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
-          "cnpj": "28.129.260/0032-87",
-          "filial": "SÃO PEDRO DA ALDEIA",
-          "valor": 4877.38,
-          "nf": "",
-          "data_agendamento": "31/07/2026",
-          "data_ord": "2026-07-31",
-          "status": "A FATURAR",
-          "obs": "",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
           "codigo_cliente": "95834",
           "cliente": "RIO SUL LAGUNA",
           "cnpj": "67.521.676/0001-00",
@@ -21436,6 +21422,34 @@ const AGENDAMENTO_DATA = {
       "nome": "MARIA LUIZA - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "85921",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "cnpj": "28.129.260/0032-87",
+          "filial": "SÃO PEDRO DA ALDEIA",
+          "valor": 4877.38,
+          "nf": "417035",
+          "data_agendamento": "31/07/2026",
+          "data_ord": "2026-07-31",
+          "status": "FATURADO",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "85095",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "cnpj": "28.129.260/0029-81",
+          "filial": "CABO FRIO",
+          "valor": 8868.71,
+          "nf": "",
+          "data_agendamento": "31/07/2026",
+          "data_ord": "2026-07-31",
+          "status": "A FATURAR",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "94914",
           "cliente": "CASAFRUTI AMERICAS LTDA",
           "cnpj": "51.011.145/0011-09",
@@ -24214,6 +24228,20 @@ const AGENDAMENTO_DATA = {
       "nome": "NÁTALI DE OLIVEIRA - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "62167",
+          "cliente": "OBOM ATACADISTA - REDE ECONOMIA",
+          "cnpj": "36.287.735/0002-76",
+          "filial": "GUARATIBA",
+          "valor": 2250.0,
+          "nf": "",
+          "data_agendamento": "31/07/2026",
+          "data_ord": "2026-07-31",
+          "status": "A FATURAR",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "90761",
           "cliente": "ROBSON WEBER",
           "cnpj": "62.011.629/0001-94",
@@ -24790,7 +24818,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "30/07/2026 15:25",
+  "atualizado_em": "30/07/2026 15:46",
   "comparativo": [
     {
       "msg_id": "19f8f0d0054f43bd",
