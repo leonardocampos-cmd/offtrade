@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "30/07/2026 16:54",
+  "atualizado_em": "30/07/2026 17:16",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -31,18 +31,18 @@ const CRUSOE_DATA = {
         {
           "rca": 275,
           "vendedor": "Maria Luiza",
-          "pedidos": 2,
+          "pedidos": 3,
           "novos_skus": 16,
           "reativacoes": 2,
-          "faturamento": 13746.09,
+          "faturamento": 76430.71,
           "meta_definida": false,
           "meta_valor": null,
           "meta_atingida": false,
-          "pontos_pedidos": 2,
+          "pontos_pedidos": 3,
           "pontos_novos_skus": 80,
           "pontos_reativacoes": 10,
           "pontos_meta": 0,
-          "pontos_total": 92,
+          "pontos_total": 93,
           "vendas": [
             {
               "numnota": "417035",
@@ -253,6 +253,32 @@ const CRUSOE_DATA = {
                       "pontos": 5
                     }
                   ]
+                }
+              ]
+            },
+            {
+              "numnota": "417162",
+              "data": "30/07/2026",
+              "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
+              "valor_pedido": 62684.62,
+              "eventos": [
+                {
+                  "tipo": "pedido",
+                  "pontos": 1
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+                  "qt": 184.0,
+                  "valor": 31342.31,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+                  "qt": 184.0,
+                  "valor": 31342.31,
+                  "pontuacoes": []
                 }
               ]
             }
