@@ -5919,6 +5919,20 @@ const AGENDAMENTO_DATA = {
       "nome": "DIOGO RAPOSO - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "85921",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS SA",
+          "cnpj": "28.129.260/0032-87",
+          "filial": "SÃO PEDRO DA ALDEIA",
+          "valor": 4877.38,
+          "nf": "",
+          "data_agendamento": "31/07/2026",
+          "data_ord": "2026-07-31",
+          "status": "A FATURAR",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "95834",
           "cliente": "RIO SUL LAGUNA",
           "cnpj": "67.521.676/0001-00",
@@ -24776,7 +24790,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "30/07/2026 15:03",
+  "atualizado_em": "30/07/2026 15:25",
   "comparativo": [
     {
       "msg_id": "19f8f0d0054f43bd",
