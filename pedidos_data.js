@@ -1,5 +1,5 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "30/07/2026 14:18",
+  "atualizado_em": "30/07/2026 14:41",
   "periodo_dias": 90,
   "fontes_indisponiveis": [],
   "pedidos_feitos": [
@@ -218,6 +218,33 @@ const PEDIDOS_DATA = {
           "desc": "4 PACK RED BULL ZERO",
           "qt": 2,
           "val": 65.52,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "471000499",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "ANA CLARA FASSANO - OFF TRADE",
+      "cliente": "BAR E RESTAURANTE SOCIAL TRAPIA LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Bloqueio de Pedidos bonificado",
+      "obs": "",
+      "total": 166.5,
+      "itens": [
+        {
+          "desc": "NOSSO CHOP RED DRAFT VD 6X600ML",
+          "qt": 3,
+          "val": 166.5,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -568,6 +595,40 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
+      "numped": "471000498",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "ANA CLARA FASSANO - OFF TRADE",
+      "cliente": "BAR E RESTAURANTE SOCIAL TRAPIA LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 667.8,
+      "itens": [
+        {
+          "desc": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 12,
+          "val": 334.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "NOSSO CHOP RED DRAFT VD 6X600ML",
+          "qt": 6,
+          "val": 333.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
       "numped": "439000312",
       "numnota": "",
       "data": "30/07/2026",
@@ -636,6 +697,116 @@ const PEDIDOS_DATA = {
           "desc": "4 PACK RED BULL 250ML",
           "qt": 2,
           "val": 59.92,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "144001735",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "DIOGO RAPOSO - OFF TRADE",
+      "cliente": "RENATO CRUZ DA SILVA 15335044748",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :3249",
+      "obs": "",
+      "total": 2287.38,
+      "itens": [
+        {
+          "desc": "COQUETEL PINK MOON 12X600ML - PET",
+          "qt": 2,
+          "val": 129.6,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 12,
+          "val": 334.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
+          "qt": 2,
+          "val": 46.2,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "qt": 25,
+          "val": 1597.5,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "COQUETEL COMPOSTO PINK MOON 24X300ML",
+          "qt": 3,
+          "val": 179.28,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "378000558",
+      "numnota": "",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "FABIO VALOTTI - OFF TRADE",
+      "cliente": "DANY STAR BEBIDAS LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :447",
+      "obs": "Favor entregar dia 31/07",
+      "total": 3954.48,
+      "itens": [
+        {
+          "desc": "APERITIVO CAMPARI 998ML",
+          "qt": 12,
+          "val": 646.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "GIN BEEFEATER 750ML",
+          "qt": 12,
+          "val": 730.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "GIN TANQUERAY  750 ML",
+          "qt": 12,
+          "val": 1138.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "RED BULL MELANCIA 250ML CX C/24",
+          "qt": 3,
+          "val": 539.28,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "RED BULL TROPICAL 24X250ML",
+          "qt": 5,
+          "val": 898.8,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -1317,143 +1488,6 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
-      "numped": "344000567",
-      "numnota": "",
-      "data": "30/07/2026",
-      "data_ord": "2026-07-30",
-      "nome": "TIAGO ANDRADE - OFF TRADE",
-      "cliente": "MINAS 2000 LTDA",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "posicao": "Bloqueado (alçada)",
-      "motivo": "",
-      "obs": "",
-      "total": 1528.2,
-      "itens": [
-        {
-          "desc": "VINHO ARESTI EST SEL CAB SAUV 750ML",
-          "qt": 6,
-          "val": 329.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO ARESTI EST SEL CARMENERE 750ML",
-          "qt": 6,
-          "val": 329.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
-          "qt": 24,
-          "val": 453.6,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
-          "qt": 22,
-          "val": 415.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false
-    },
-    {
-      "numped": "360000398",
-      "numnota": "",
-      "data": "30/07/2026",
-      "data_ord": "2026-07-30",
-      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
-      "cliente": "ORGANIZACAO VERDEMAR LTDA",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "posicao": "Bloqueado (alçada)",
-      "motivo": "Item com desconto acima do permitido :4441",
-      "obs": "CD",
-      "total": 8526.0,
-      "itens": [
-        {
-          "desc": "XAROPE  MONIN  MAÇA VERDE 330 ML",
-          "qt": 48,
-          "val": 1176.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "XAROPE  MONIN CRANBERRY 330 ML",
-          "qt": 96,
-          "val": 2352.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "XAROPE  MONIN TANGERINA 330 ML",
-          "qt": 42,
-          "val": 1029.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "XAROPE MONIN GENGIBRE 330 ML",
-          "qt": 18,
-          "val": 441.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "XAROPE MONIN MORANGO 330 ML",
-          "qt": 30,
-          "val": 735.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "XAROPE MONIN LIMÃO GLASCO 330 ML",
-          "qt": 114,
-          "val": 2793.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false
-    },
-    {
-      "numped": "360000397",
-      "numnota": "",
-      "data": "30/07/2026",
-      "data_ord": "2026-07-30",
-      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
-      "cliente": "ORGANIZACAO VERDEMAR LTDA",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "posicao": "Bloqueado (alçada)",
-      "motivo": "Item com desconto acima do permitido :4446",
-      "obs": "CD",
-      "total": 2205.0,
-      "itens": [
-        {
-          "desc": "XAROPE MONIN LIMÃO GLASCO 330 ML",
-          "qt": 90,
-          "val": 2205.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false
-    },
-    {
       "numped": "327009581",
       "numnota": "",
       "data": "30/07/2026",
@@ -1542,40 +1576,6 @@ const PEDIDOS_DATA = {
           "desc": "GIN GORDONS 750 ML",
           "qt": 6,
           "val": 335.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false
-    },
-    {
-      "numped": "360000393",
-      "numnota": "",
-      "data": "30/07/2026",
-      "data_ord": "2026-07-30",
-      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
-      "cliente": "ORGANIZACAO VERDEMAR LTDA",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "posicao": "Bloqueado (alçada)",
-      "motivo": "Item com desconto acima do permitido :4443",
-      "obs": "CD",
-      "total": 3528.0,
-      "itens": [
-        {
-          "desc": "XAROPE  MONIN CRANBERRY 330 ML",
-          "qt": 84,
-          "val": 2058.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "XAROPE MONIN GENGIBRE 330 ML",
-          "qt": 60,
-          "val": 1470.0,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -1679,101 +1679,6 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
-      "numped": "360000401",
-      "numnota": "",
-      "data": "30/07/2026",
-      "data_ord": "2026-07-30",
-      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
-      "cliente": "SUPERMERCADO BAHAMAS S/A",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "posicao": "Bloqueado (alçada)",
-      "motivo": "Item com desconto acima do permitido :4236",
-      "obs": "CD",
-      "total": 9750.0,
-      "itens": [
-        {
-          "desc": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-          "qt": 150,
-          "val": 9750.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false
-    },
-    {
-      "numped": "360000399",
-      "numnota": "",
-      "data": "30/07/2026",
-      "data_ord": "2026-07-30",
-      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
-      "cliente": "ORGANIZACAO VERDEMAR LTDA",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "posicao": "Bloqueado (alçada)",
-      "motivo": "Item com desconto acima do permitido :3766",
-      "obs": "CD",
-      "total": 11099.4,
-      "itens": [
-        {
-          "desc": "YVY DESTILADO GIN MAR GF 750ML",
-          "qt": 78,
-          "val": 4282.2,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "YVY DESTILADO GIN MAR  LT 710ML",
-          "qt": 228,
-          "val": 6817.2,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false
-    },
-    {
-      "numped": "327009583",
-      "numnota": "",
-      "data": "30/07/2026",
-      "data_ord": "2026-07-30",
-      "nome": "JOÃO SANTOS - OFF TRADE",
-      "cliente": "EL MAI LTDA",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "posicao": "Bloqueado (alçada)",
-      "motivo": "",
-      "obs": "ENVIAR JUNTO AO PEDIDO",
-      "total": 160.61,
-      "itens": [
-        {
-          "desc": "MAXIME ROSE 750ML",
-          "qt": 1,
-          "val": 49.06,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO BRANCO VENTOZELO RESERVA 750ML",
-          "qt": 1,
-          "val": 111.55,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false
-    },
-    {
       "numped": "354000676",
       "numnota": "",
       "data": "30/07/2026",
@@ -1794,67 +1699,6 @@ const PEDIDOS_DATA = {
           "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
           "qt": 3,
           "val": 449.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false
-    },
-    {
-      "numped": "360000402",
-      "numnota": "",
-      "data": "30/07/2026",
-      "data_ord": "2026-07-30",
-      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
-      "cliente": "SUPERMERCADO BAHAMAS S/A",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "posicao": "Bloqueado (alçada)",
-      "motivo": "",
-      "obs": "CD",
-      "total": 5952.0,
-      "itens": [
-        {
-          "desc": "WHISKY JIM BEAM WHITE 1L",
-          "qt": 60,
-          "val": 5952.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false
-    },
-    {
-      "numped": "360000400",
-      "numnota": "",
-      "data": "30/07/2026",
-      "data_ord": "2026-07-30",
-      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
-      "cliente": "ORGANIZACAO VERDEMAR LTDA",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "posicao": "Bloqueado (alçada)",
-      "motivo": "Item com desconto acima do permitido :3536",
-      "obs": "Loja",
-      "total": 5208.72,
-      "itens": [
-        {
-          "desc": "WHISKY ESC MACALLAN DOUBLE 12 YO 700ML",
-          "qt": 6,
-          "val": 4318.44,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "WHISKY JIM BEAM APPLE 1L",
-          "qt": 12,
-          "val": 890.28,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -6635,6 +6479,139 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
+      "numped": "299000089",
+      "numnota": "828",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "BRYAN PALOPOLI - OFF TRADE",
+      "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
+      "sistema": "CASTAS",
+      "estado": "SP",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
+      "obs": "",
+      "total": 44423.04,
+      "itens": [
+        {
+          "desc": "VILLA ROSA BRANCO 750ML",
+          "qt": 18,
+          "val": 540.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VILLA ROSA TINTO 750ML",
+          "qt": 18,
+          "val": 540.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VILLA ROSA  ROSE 750ML",
+          "qt": 18,
+          "val": 540.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "qt": 120,
+          "val": 6741.6,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "qt": 120,
+          "val": 6807.6,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO FOODKILLER CAB. SAUV./ MERLOT",
+          "qt": 60,
+          "val": 2020.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO FOODKILLER CARMENERE 750ML",
+          "qt": 60,
+          "val": 2020.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO MOV BRANCO",
+          "qt": 60,
+          "val": 1795.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO MOV TINTO",
+          "qt": 60,
+          "val": 1795.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "ESPUMANTE ALUD BRANCO 750ML",
+          "qt": 12,
+          "val": 359.16,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "ESPUMANTE ALUD ROSE 750ML",
+          "qt": 12,
+          "val": 359.16,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO VILLA ROSA FRISANTE BRANCO",
+          "qt": 60,
+          "val": 1480.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO VILLA ROSA FRISANTE ROSE",
+          "qt": 60,
+          "val": 1480.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI ESTATE S. CAB SAUV 750ML",
+          "qt": 12,
+          "val": 449.16,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI ESTATE S. MERLOT 750ML",
+          "qt": 12,
+          "val": 449.16,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
+          "qt": 60,
+          "val": 17042.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
       "numped": "486000122",
       "numnota": "7244",
       "data": "30/07/2026",
@@ -6739,6 +6716,55 @@ const PEDIDOS_DATA = {
           "desc": "RED BULL SUGAR FREE  250 ML CX C/24",
           "qt": 10,
           "val": 1480.8,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "344000567",
+      "numnota": "126777",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "TIAGO ANDRADE - OFF TRADE",
+      "cliente": "MINAS 2000 LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
+      "obs": "",
+      "total": 1528.2,
+      "itens": [
+        {
+          "desc": "VINHO ARESTI EST SEL CAB SAUV 750ML",
+          "qt": 6,
+          "val": 329.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI EST SEL CARMENERE 750ML",
+          "qt": 6,
+          "val": 329.4,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+          "qt": 24,
+          "val": 453.6,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
+          "qt": 22,
+          "val": 415.8,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -7187,6 +7213,293 @@ const PEDIDOS_DATA = {
           "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
           "qt": 2,
           "val": 166.16,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "327009583",
+      "numnota": "126774",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "JOÃO SANTOS - OFF TRADE",
+      "cliente": "EL MAI LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
+      "obs": "ENVIAR JUNTO AO PEDIDO",
+      "total": 160.61,
+      "itens": [
+        {
+          "desc": "MAXIME ROSE 750ML",
+          "qt": 1,
+          "val": 49.06,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "VINHO BRANCO VENTOZELO RESERVA 750ML",
+          "qt": 1,
+          "val": 111.55,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "360000393",
+      "numnota": "126760",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
+      "cliente": "ORGANIZACAO VERDEMAR LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4443",
+      "obs": "CD",
+      "total": 3528.0,
+      "itens": [
+        {
+          "desc": "XAROPE  MONIN CRANBERRY 330 ML",
+          "qt": 84,
+          "val": 2058.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "XAROPE MONIN GENGIBRE 330 ML",
+          "qt": 60,
+          "val": 1470.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "360000397",
+      "numnota": "126759",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
+      "cliente": "ORGANIZACAO VERDEMAR LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4446",
+      "obs": "CD",
+      "total": 2205.0,
+      "itens": [
+        {
+          "desc": "XAROPE MONIN LIMÃO GLASCO 330 ML",
+          "qt": 90,
+          "val": 2205.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "360000398",
+      "numnota": "126761",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
+      "cliente": "ORGANIZACAO VERDEMAR LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4441",
+      "obs": "CD",
+      "total": 8526.0,
+      "itens": [
+        {
+          "desc": "XAROPE  MONIN  MAÇA VERDE 330 ML",
+          "qt": 48,
+          "val": 1176.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "XAROPE  MONIN CRANBERRY 330 ML",
+          "qt": 96,
+          "val": 2352.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "XAROPE  MONIN TANGERINA 330 ML",
+          "qt": 42,
+          "val": 1029.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "XAROPE MONIN GENGIBRE 330 ML",
+          "qt": 18,
+          "val": 441.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "XAROPE MONIN MORANGO 330 ML",
+          "qt": 30,
+          "val": 735.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "XAROPE MONIN LIMÃO GLASCO 330 ML",
+          "qt": 114,
+          "val": 2793.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "360000399",
+      "numnota": "126762",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
+      "cliente": "ORGANIZACAO VERDEMAR LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3766",
+      "obs": "CD",
+      "total": 11099.4,
+      "itens": [
+        {
+          "desc": "YVY DESTILADO GIN MAR GF 750ML",
+          "qt": 78,
+          "val": 4282.2,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "YVY DESTILADO GIN MAR  LT 710ML",
+          "qt": 228,
+          "val": 6817.2,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "360000400",
+      "numnota": "126763",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
+      "cliente": "ORGANIZACAO VERDEMAR LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3536",
+      "obs": "Loja",
+      "total": 5208.72,
+      "itens": [
+        {
+          "desc": "WHISKY ESC MACALLAN DOUBLE 12 YO 700ML",
+          "qt": 6,
+          "val": 4318.44,
+          "qtfalta": 0.0,
+          "cortado": false
+        },
+        {
+          "desc": "WHISKY JIM BEAM APPLE 1L",
+          "qt": 12,
+          "val": 890.28,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "360000401",
+      "numnota": "126757",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
+      "cliente": "SUPERMERCADO BAHAMAS S/A",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :4236",
+      "obs": "CD",
+      "total": 9750.0,
+      "itens": [
+        {
+          "desc": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+          "qt": 150,
+          "val": 9750.0,
+          "qtfalta": 0.0,
+          "cortado": false
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "360000402",
+      "numnota": "126758",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
+      "cliente": "SUPERMERCADO BAHAMAS S/A",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
+      "obs": "CD",
+      "total": 5952.0,
+      "itens": [
+        {
+          "desc": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 60,
+          "val": 5952.0,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -10163,69 +10476,6 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
-      "numped": "471000486",
-      "numnota": "416705",
-      "data": "29/07/2026",
-      "data_ord": "2026-07-29",
-      "nome": "ANA CLARA FASSANO - OFF TRADE",
-      "cliente": "MULTI FRUTI PRINCIPE DO MAR LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :6571",
-      "obs": "",
-      "total": 595.6,
-      "itens": [
-        {
-          "desc": "GIN ROCKS POCKET PET 12X200ML",
-          "qt": 1,
-          "val": 97.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VILLA ROSA  ROSE 750ML",
-          "qt": 6,
-          "val": 179.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VODKA ABSOLUT 1L",
-          "qt": 3,
-          "val": 179.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "GIN BEEFEATER 750ML",
-          "qt": 1,
-          "val": 60.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "PINATI SIMPLE WHEY PISTACHE 16X35G",
-          "qt": 1,
-          "val": 38.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
-          "qt": 1,
-          "val": 38.9,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
       "numped": "471000488",
       "numnota": "416909",
       "data": "29/07/2026",
@@ -10912,139 +11162,6 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
-      "numped": "10000097",
-      "numnota": "798",
-      "data": "29/07/2026",
-      "data_ord": "2026-07-29",
-      "nome": "BRYAN PALOPOLI - OFF TRADE",
-      "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
-      "sistema": "CASTAS",
-      "estado": "SP",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 44423.04,
-      "itens": [
-        {
-          "desc": "VILLA ROSA BRANCO 750ML",
-          "qt": 18,
-          "val": 540.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VILLA ROSA TINTO 750ML",
-          "qt": 18,
-          "val": 540.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VILLA ROSA  ROSE 750ML",
-          "qt": 18,
-          "val": 540.0,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-          "qt": 120,
-          "val": 6741.6,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "qt": 120,
-          "val": 6807.6,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO FOODKILLER CARMENERE 750ML",
-          "qt": 60,
-          "val": 2020.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO FOODKILLER CHARDONNAY 750ML",
-          "qt": 60,
-          "val": 2020.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO MOV BRANCO",
-          "qt": 60,
-          "val": 1795.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO MOV TINTO",
-          "qt": 60,
-          "val": 1795.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "ESPUMANTE ALUD BRANCO 750ML",
-          "qt": 12,
-          "val": 359.16,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "ESPUMANTE ALUD ROSE 750ML",
-          "qt": 12,
-          "val": 359.16,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO VILLA ROSA FRISANTE BRANCO",
-          "qt": 60,
-          "val": 1480.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO VILLA ROSA FRISANTE ROSE",
-          "qt": 60,
-          "val": 1480.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO ARESTI ESTATE S. CAB SAUV 750ML",
-          "qt": 12,
-          "val": 449.16,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "VINHO ARESTI ESTATE S. MERLOT 750ML",
-          "qt": 12,
-          "val": 449.16,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
-          "qt": 60,
-          "val": 17042.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
       "numped": "425000168",
       "numnota": "7207",
       "data": "29/07/2026",
@@ -11098,7 +11215,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "426000403",
@@ -11126,7 +11243,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "426000404",
@@ -11154,7 +11271,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "467000055",
@@ -11252,7 +11369,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "467000057",
@@ -11350,7 +11467,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "512000029",
@@ -11441,7 +11558,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "512000031",
@@ -11483,7 +11600,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "490000032",
@@ -11560,7 +11677,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "588003262",
@@ -11707,7 +11824,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "433000209",
@@ -11770,7 +11887,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000211",
@@ -11812,7 +11929,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "433000212",
@@ -11840,7 +11957,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "469000058",
@@ -12043,7 +12160,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000118",
@@ -18868,7 +18985,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "371000306",
@@ -18896,7 +19013,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "371000307",
@@ -18924,7 +19041,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "371000308",
@@ -18959,7 +19076,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "371000309",
@@ -19001,7 +19118,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "371000310",
@@ -19036,7 +19153,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "426000400",
@@ -19148,7 +19265,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "426000401",
@@ -19176,7 +19293,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "467000052",
@@ -19218,7 +19335,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "467000053",
@@ -19253,7 +19370,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "467000054",
@@ -19281,7 +19398,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "468000107",
@@ -19309,7 +19426,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "512000023",
@@ -19351,7 +19468,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "512000024",
@@ -19386,7 +19503,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "512000025",
@@ -19421,7 +19538,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "512000026",
@@ -19449,7 +19566,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "515000009",
@@ -19484,7 +19601,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "516000016",
@@ -19512,7 +19629,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "491000017",
@@ -19575,7 +19692,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "493000040",
@@ -19610,7 +19727,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "498000020",
@@ -19785,7 +19902,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003222",
@@ -19813,7 +19930,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003223",
@@ -19841,7 +19958,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003229",
@@ -19869,7 +19986,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003233",
@@ -19995,7 +20112,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "588003243",
@@ -20051,7 +20168,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "469000051",
@@ -20240,7 +20357,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "461000156",
@@ -20289,7 +20406,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "461000157",
@@ -20324,7 +20441,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "461000158",
@@ -20366,7 +20483,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "461000159",
@@ -20401,7 +20518,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "461000160",
@@ -20429,7 +20546,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "461000161",
@@ -20464,7 +20581,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "463000052",
@@ -20492,7 +20609,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "463000053",
@@ -20555,7 +20672,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000074",
@@ -20618,7 +20735,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "486000115",
@@ -21369,76 +21486,6 @@ const PEDIDOS_DATA = {
           "desc": "APERITIVO LILLET ROSE 750ML",
           "qt": 23,
           "val": 2067.7,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
-      "numped": "327009542",
-      "numnota": "126379",
-      "data": "28/07/2026",
-      "data_ord": "2026-07-28",
-      "nome": "JOÃO SANTOS - OFF TRADE",
-      "cliente": "THAYANE MICELE SILVA MATOS VIANA",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :3",
-      "obs": "ligar 0:30 minutos antes",
-      "total": 4794.0,
-      "itens": [
-        {
-          "desc": "RED BULL 250ML CAIXA C/24 UNID",
-          "qt": 15,
-          "val": 2876.4,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RED BULL MORANGO E PESSEGO 250ML CX24",
-          "qt": 5,
-          "val": 958.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        },
-        {
-          "desc": "RED BULL ZERO 24X250ML",
-          "qt": 5,
-          "val": 958.8,
-          "qtfalta": 0.0,
-          "cortado": false
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
-      "numped": "327009543",
-      "numnota": "126378",
-      "data": "28/07/2026",
-      "data_ord": "2026-07-28",
-      "nome": "JOÃO SANTOS - OFF TRADE",
-      "cliente": "THAYANE MICELE SILVA MATOS VIANA",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :3",
-      "obs": "ligar 0:30 minutos antes",
-      "total": 15340.8,
-      "itens": [
-        {
-          "desc": "RED BULL 250ML CAIXA C/24 UNID",
-          "qt": 80,
-          "val": 15340.8,
           "qtfalta": 0.0,
           "cortado": false
         }
@@ -25798,7 +25845,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "391000222",
@@ -26050,7 +26097,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "467000051",
@@ -26127,7 +26174,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "512000021",
@@ -26183,7 +26230,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "512000022",
@@ -26211,7 +26258,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "515000007",
@@ -26309,7 +26356,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ABERTO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "491000016",
@@ -26421,7 +26468,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003207",
@@ -26456,7 +26503,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003208",
@@ -26554,7 +26601,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003211",
@@ -26582,7 +26629,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003212",
@@ -26610,7 +26657,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003213",
@@ -26729,7 +26776,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003216",
@@ -26785,7 +26832,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "433000202",
@@ -26981,7 +27028,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "474000053",
@@ -27072,7 +27119,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "476000239",
@@ -29564,7 +29611,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "515000006",
@@ -34002,7 +34049,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "512000013",
@@ -34534,7 +34581,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003190",
@@ -35129,7 +35176,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "476000235",
@@ -47484,7 +47531,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "468000102",
@@ -105390,6 +105437,68 @@ const PEDIDOS_DATA = {
       "tem_corte": true
     },
     {
+      "numped": "471000486",
+      "numnota": "416705",
+      "data": "29/07/2026",
+      "data_ord": "2026-07-29",
+      "nome": "ANA CLARA FASSANO - OFF TRADE",
+      "cliente": "MULTI FRUTI PRINCIPE DO MAR LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :6571",
+      "obs": "",
+      "total": 0.0,
+      "itens": [
+        {
+          "desc": "GIN ROCKS POCKET PET 12X200ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true
+        },
+        {
+          "desc": "VILLA ROSA  ROSE 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 6.0,
+          "cortado": true
+        },
+        {
+          "desc": "VODKA ABSOLUT 1L",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 3.0,
+          "cortado": true
+        },
+        {
+          "desc": "GIN BEEFEATER 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true
+        },
+        {
+          "desc": "PINATI SIMPLE WHEY PISTACHE 16X35G",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true
+        },
+        {
+          "desc": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true
+        }
+      ],
+      "tem_corte": true
+    },
+    {
       "numped": "471000487",
       "numnota": "416701",
       "data": "29/07/2026",
@@ -105509,6 +105618,138 @@ const PEDIDOS_DATA = {
           "qt": 0,
           "val": 0.0,
           "qtfalta": 1.0,
+          "cortado": true
+        }
+      ],
+      "tem_corte": true
+    },
+    {
+      "numped": "10000097",
+      "numnota": "798",
+      "data": "29/07/2026",
+      "data_ord": "2026-07-29",
+      "nome": "BRYAN PALOPOLI - OFF TRADE",
+      "cliente": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
+      "sistema": "CASTAS",
+      "estado": "SP",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Cancelado por CAMILA DE JESUS CRUZ",
+      "obs": "",
+      "total": 0.0,
+      "itens": [
+        {
+          "desc": "VILLA ROSA BRANCO 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 18.0,
+          "cortado": true
+        },
+        {
+          "desc": "VILLA ROSA TINTO 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 18.0,
+          "cortado": true
+        },
+        {
+          "desc": "VILLA ROSA  ROSE 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 18.0,
+          "cortado": true
+        },
+        {
+          "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 120.0,
+          "cortado": true
+        },
+        {
+          "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 120.0,
+          "cortado": true
+        },
+        {
+          "desc": "VINHO FOODKILLER CARMENERE 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 60.0,
+          "cortado": true
+        },
+        {
+          "desc": "VINHO FOODKILLER CHARDONNAY 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 60.0,
+          "cortado": true
+        },
+        {
+          "desc": "VINHO MOV BRANCO",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 60.0,
+          "cortado": true
+        },
+        {
+          "desc": "VINHO MOV TINTO",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 60.0,
+          "cortado": true
+        },
+        {
+          "desc": "ESPUMANTE ALUD BRANCO 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 12.0,
+          "cortado": true
+        },
+        {
+          "desc": "ESPUMANTE ALUD ROSE 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 12.0,
+          "cortado": true
+        },
+        {
+          "desc": "VINHO VILLA ROSA FRISANTE BRANCO",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 60.0,
+          "cortado": true
+        },
+        {
+          "desc": "VINHO VILLA ROSA FRISANTE ROSE",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 60.0,
+          "cortado": true
+        },
+        {
+          "desc": "VINHO ARESTI ESTATE S. CAB SAUV 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 12.0,
+          "cortado": true
+        },
+        {
+          "desc": "VINHO ARESTI ESTATE S. MERLOT 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 12.0,
+          "cortado": true
+        },
+        {
+          "desc": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 60.0,
           "cortado": true
         }
       ],
