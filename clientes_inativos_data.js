@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "30/07/2026 17:03",
+  "atualizado_em": "30/07/2026 17:36",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -492,7 +492,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "27/04/2026",
           "dias": 94,
-          "media": 149.8
+          "media": 0.0
         }
       ],
       "sem_compra": [
@@ -564,7 +564,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "09/12/2025",
           "dias": 233,
-          "media": 256.0
+          "media": 0.0
         },
         {
           "codcli": "81373",
@@ -573,7 +573,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/09/2025",
           "dias": 322,
-          "media": 348.57
+          "media": 0.0
         },
         {
           "codcli": "76949",
@@ -582,7 +582,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "25/03/2026",
           "dias": 127,
-          "media": 179.27
+          "media": 0.0
         },
         {
           "codcli": "82475",
@@ -591,7 +591,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "27/01/2026",
           "dias": 184,
-          "media": 1812.72
+          "media": 0.0
         },
         {
           "codcli": "82474",
@@ -600,7 +600,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "05/02/2026",
           "dias": 175,
-          "media": 707.28
+          "media": 0.0
         },
         {
           "codcli": "82473",
@@ -609,7 +609,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "26/01/2026",
           "dias": 185,
-          "media": 1568.31
+          "media": 0.0
         },
         {
           "codcli": "84371",
@@ -1023,7 +1023,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "26/06/2025",
           "dias": 399,
-          "media": 517.9
+          "media": 0.0
         },
         {
           "codcli": "82074",
@@ -1032,7 +1032,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "06/05/2025",
           "dias": 450,
-          "media": 312.85
+          "media": 0.0
         },
         {
           "codcli": "20837",
@@ -1076,7 +1076,7 @@ const INATIVOS_DATA = {
           "cidade": "NITEROI",
           "dtultcomp": "11/04/2026",
           "dias": 110,
-          "media": 845.96
+          "media": 0.0
         }
       ],
       "sem_compra": [
@@ -1121,7 +1121,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "27/02/2026",
           "dias": 153,
-          "media": 68.23
+          "media": 0.0
         },
         {
           "codcli": "71681",
@@ -1139,7 +1139,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "09/06/2025",
           "dias": 416,
-          "media": 958.13
+          "media": 0.0
         },
         {
           "codcli": "81354",
@@ -1148,7 +1148,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "17/10/2025",
           "dias": 286,
-          "media": 197.44
+          "media": 0.0
         },
         {
           "codcli": "81093",
@@ -1428,7 +1428,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/12/2025",
           "dias": 212,
-          "media": 15.04
+          "media": 0.0
         }
       ],
       "sem_compra": [
@@ -1528,7 +1528,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "04/03/2026",
           "dias": 148,
-          "media": 164.5
+          "media": 0.0
         },
         {
           "codcli": "81572",
@@ -1537,7 +1537,7 @@ const INATIVOS_DATA = {
           "cidade": "CABO FRIO",
           "dtultcomp": "27/04/2026",
           "dias": 94,
-          "media": 819.96
+          "media": 0.0
         },
         {
           "codcli": "93720",
@@ -1555,7 +1555,7 @@ const INATIVOS_DATA = {
           "cidade": "MACAE",
           "dtultcomp": "06/04/2026",
           "dias": 115,
-          "media": 2904.5
+          "media": 0.0
         }
       ],
       "sem_compra": [
@@ -1906,7 +1906,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "09/05/2025",
           "dias": 447,
-          "media": 57.37
+          "media": 0.0
         },
         {
           "codcli": "80719",
@@ -1968,7 +1968,7 @@ const INATIVOS_DATA = {
           "cidade": "NILOPOLIS",
           "dtultcomp": "24/04/2026",
           "dias": 97,
-          "media": 62.6
+          "media": 0.0
         },
         {
           "codcli": "84446",
@@ -2284,7 +2284,7 @@ const INATIVOS_DATA = {
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "31/03/2026",
           "dias": 121,
-          "media": 38.67
+          "media": 0.0
         },
         {
           "codcli": "84366",
@@ -2797,7 +2797,7 @@ const INATIVOS_DATA = {
           "cidade": "NITEROI",
           "dtultcomp": "10/12/2025",
           "dias": 232,
-          "media": 521.17
+          "media": 0.0
         },
         {
           "codcli": "2137",
@@ -3112,7 +3112,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "08/08/2025",
           "dias": 356,
-          "media": 198.53
+          "media": 0.0
         },
         {
           "codcli": "557",
@@ -3436,7 +3436,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "18/06/2026",
           "dias": 42,
-          "media": 487.1
+          "media": 0.0
         },
         {
           "codcli": "2212",
@@ -3958,7 +3958,7 @@ const INATIVOS_DATA = {
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "10/03/2026",
           "dias": 142,
-          "media": 907.4
+          "media": 0.0
         },
         {
           "codcli": "91494",
@@ -3967,7 +3967,7 @@ const INATIVOS_DATA = {
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "10/03/2026",
           "dias": 142,
-          "media": 139.6
+          "media": 0.0
         }
       ],
       "sem_compra": [
@@ -4472,7 +4472,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "29/01/2026",
           "dias": 182,
-          "media": 4247.62
+          "media": 0.0
         },
         {
           "codcli": "14806",
@@ -4481,7 +4481,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "15/12/2025",
           "dias": 227,
-          "media": 597.52
+          "media": 0.0
         },
         {
           "codcli": "51143",
@@ -4490,7 +4490,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "19/11/2025",
           "dias": 253,
-          "media": 591.27
+          "media": 0.0
         },
         {
           "codcli": "5750",
@@ -4499,7 +4499,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "13/01/2026",
           "dias": 198,
-          "media": 220.03
+          "media": 0.0
         },
         {
           "codcli": "50390",
@@ -4508,7 +4508,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "12/03/2026",
           "dias": 140,
-          "media": 456.22
+          "media": 0.0
         },
         {
           "codcli": "8782",
@@ -4788,7 +4788,7 @@ const INATIVOS_DATA = {
           "cidade": "MARINGA",
           "dtultcomp": "12/12/2025",
           "dias": 230,
-          "media": 529.91
+          "media": 0.0
         },
         {
           "codcli": "90253",
@@ -4860,7 +4860,7 @@ const INATIVOS_DATA = {
           "cidade": "PINHAIS",
           "dtultcomp": "15/12/2025",
           "dias": 227,
-          "media": 740.0
+          "media": 0.0
         },
         {
           "codcli": "17305",
@@ -4896,7 +4896,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "13/11/2025",
           "dias": 259,
-          "media": 464.67
+          "media": 0.0
         },
         {
           "codcli": "90717",
@@ -4941,7 +4941,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "18/03/2026",
           "dias": 134,
-          "media": 20742.53
+          "media": 0.0
         },
         {
           "codcli": "91208",
@@ -4968,7 +4968,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "15/12/2025",
           "dias": 227,
-          "media": 104.0
+          "media": 0.0
         },
         {
           "codcli": "80785",
@@ -4986,7 +4986,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "28/11/2025",
           "dias": 244,
-          "media": 1700.0
+          "media": 0.0
         },
         {
           "codcli": "38088",
@@ -5004,7 +5004,7 @@ const INATIVOS_DATA = {
           "cidade": "PORTO ALEGRE",
           "dtultcomp": "26/01/2026",
           "dias": 185,
-          "media": 1318.0
+          "media": 0.0
         },
         {
           "codcli": "90349",
@@ -5031,7 +5031,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "13/11/2025",
           "dias": 259,
-          "media": 90.0
+          "media": 0.0
         },
         {
           "codcli": "91138",
@@ -5058,7 +5058,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "17/12/2025",
           "dias": 225,
-          "media": 270.0
+          "media": 0.0
         },
         {
           "codcli": "938",
@@ -5103,7 +5103,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "17/12/2025",
           "dias": 225,
-          "media": 320.0
+          "media": 0.0
         },
         {
           "codcli": "69811",
@@ -5220,7 +5220,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "19/12/2025",
           "dias": 223,
-          "media": 2058.0
+          "media": 0.0
         },
         {
           "codcli": "74247",
@@ -5337,7 +5337,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "05/12/2025",
           "dias": 237,
-          "media": 1195.7
+          "media": 0.0
         },
         {
           "codcli": "79978",
@@ -5355,7 +5355,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "13/11/2025",
           "dias": 259,
-          "media": 2120.0
+          "media": 0.0
         },
         {
           "codcli": "73155",
@@ -5400,7 +5400,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "15/12/2025",
           "dias": 227,
-          "media": 553.2
+          "media": 0.0
         },
         {
           "codcli": "57640",
@@ -5418,7 +5418,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "28/01/2026",
           "dias": 183,
-          "media": 1610.88
+          "media": 0.0
         },
         {
           "codcli": "4135",
@@ -5436,7 +5436,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "17/12/2025",
           "dias": 225,
-          "media": 291.6
+          "media": 0.0
         },
         {
           "codcli": "56401",
@@ -5498,7 +5498,7 @@ const INATIVOS_DATA = {
           "cidade": "CASIMIRO DE ABR",
           "dtultcomp": "26/11/2025",
           "dias": 246,
-          "media": 89.67
+          "media": 0.0
         },
         {
           "codcli": "85454",
@@ -5507,7 +5507,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "11/11/2025",
           "dias": 261,
-          "media": 7246.08
+          "media": 0.0
         }
       ],
       "sem_compra": [
@@ -11032,6 +11032,15 @@ const INATIVOS_DATA = {
           "media": 191.2
         },
         {
+          "codcli": "33288",
+          "cliente": "ARMAZEM BRASIL LIMITADA",
+          "bairro": "SÃO SEBASTIAO",
+          "cidade": "CONSELHEIRO LAFAIETE",
+          "dtultcomp": "29/05/2026",
+          "dias": 62,
+          "media": 1189.52
+        },
+        {
           "codcli": "34011",
           "cliente": "CASA RENA S/A",
           "bairro": "MORRO DO ENGENHO",
@@ -11068,15 +11077,6 @@ const INATIVOS_DATA = {
           "media": 0.0
         },
         {
-          "codcli": "33293",
-          "cliente": "ARMAZEM BRASIL LIMITADA",
-          "bairro": "CENTRO",
-          "cidade": "CONSELHEIRO LAFAIETE",
-          "dtultcomp": "30/06/2026",
-          "dias": 30,
-          "media": 1276.72
-        },
-        {
           "codcli": "38039",
           "cliente": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
           "bairro": "VEREDA",
@@ -11084,6 +11084,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "30/06/2026",
           "dias": 30,
           "media": 36234.2
+        },
+        {
+          "codcli": "33293",
+          "cliente": "ARMAZEM BRASIL LIMITADA",
+          "bairro": "CENTRO",
+          "cidade": "CONSELHEIRO LAFAIETE",
+          "dtultcomp": "30/06/2026",
+          "dias": 30,
+          "media": 1276.72
         }
       ],
       "novos": []
