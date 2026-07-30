@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "30/07/2026 15:48",
+  "atualizado_em": "30/07/2026 16:14",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -6434,29 +6434,9 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "50903",
+        "codcli": "50897",
         "cliente": "REDE SUPERMERCADOS CONFIANCA LTDA",
-        "bairro": "PARQUE NOVO MUNDO",
-        "dtultcomp": "09/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN BEEFEATER PINK 700ML",
-            "fantasia": "PERNOD",
-            "qt": 6,
-            "valor": 389.4
-          },
-          {
-            "produto": "WHISKY JACK DANIELS 1L",
-            "fantasia": "BROWN",
-            "qt": 12,
-            "valor": 1198.8
-          }
-        ]
-      },
-      {
-        "codcli": "50902",
-        "cliente": "REDE SUPERMERCADOS CONFIANCA LTDA",
-        "bairro": "SÍTIO DO PIQUERI",
+        "bairro": "JARDIM PERI",
         "dtultcomp": "09/06/2026",
         "produtos": [
           {
@@ -6494,9 +6474,29 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "50897",
+        "codcli": "50902",
         "cliente": "REDE SUPERMERCADOS CONFIANCA LTDA",
-        "bairro": "JARDIM PERI",
+        "bairro": "SÍTIO DO PIQUERI",
+        "dtultcomp": "09/06/2026",
+        "produtos": [
+          {
+            "produto": "GIN BEEFEATER PINK 700ML",
+            "fantasia": "PERNOD",
+            "qt": 6,
+            "valor": 389.4
+          },
+          {
+            "produto": "WHISKY JACK DANIELS 1L",
+            "fantasia": "BROWN",
+            "qt": 12,
+            "valor": 1198.8
+          }
+        ]
+      },
+      {
+        "codcli": "50903",
+        "cliente": "REDE SUPERMERCADOS CONFIANCA LTDA",
+        "bairro": "PARQUE NOVO MUNDO",
         "dtultcomp": "09/06/2026",
         "produtos": [
           {
@@ -6984,16 +6984,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "52055",
+        "codcli": "52054",
         "cliente": "LEVE FACIL ATACADO DE ALIMENTOS E BEBIDAS LTDA",
-        "bairro": "VILA LUTFALLA",
+        "bairro": "PARQUE TECNOLOGICO DAMHA II SAO CARLOS",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "52054",
+        "codcli": "52055",
         "cliente": "LEVE FACIL ATACADO DE ALIMENTOS E BEBIDAS LTDA",
-        "bairro": "PARQUE TECNOLOGICO DAMHA II SAO CARLOS",
+        "bairro": "VILA LUTFALLA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -7012,13 +7012,6 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51551",
-        "cliente": "SUPERMERCADO VILA DAS FRUTAS ABRAAO DE MORAIS - LTDA",
-        "bairro": "MOEMA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "51548",
         "cliente": "SUPERMERCADO VILA DAS FRUTAS ABRAAO DE MORAIS - LTDA",
         "bairro": "SAUDE",
@@ -7026,9 +7019,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51554",
-        "cliente": "SUPERMERCADO VILA DAS FRUTAS KLABIN LTDA",
-        "bairro": "IPIRANGA",
+        "codcli": "51551",
+        "cliente": "SUPERMERCADO VILA DAS FRUTAS ABRAAO DE MORAIS - LTDA",
+        "bairro": "MOEMA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -7036,6 +7029,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "51555",
         "cliente": "SUPERMERCADO VILA DAS FRUTAS KLABIN LTDA",
         "bairro": "JARDIM DA SAUDE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51554",
+        "cliente": "SUPERMERCADO VILA DAS FRUTAS KLABIN LTDA",
+        "bairro": "IPIRANGA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -7267,16 +7267,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "50549",
+        "codcli": "50567",
         "cliente": "MERCADO FONTE NOVA BELA VISTA LTDA",
-        "bairro": "MACEDO",
+        "bairro": "JARDIM BELA VISTA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "50567",
+        "codcli": "50549",
         "cliente": "MERCADO FONTE NOVA BELA VISTA LTDA",
-        "bairro": "JARDIM BELA VISTA",
+        "bairro": "MACEDO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -14077,6 +14077,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "51787",
         "cliente": "31.502.457 TABATA GOMES DOS SANTOS CORREA",
         "bairro": "VILA ABERNESSIA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52195",
+        "cliente": "36.321.581 VINICIUS NUNES MASCARENHAS",
+        "bairro": "JARDIM SANTO ONOFRE",
         "dtultcomp": "nan",
         "produtos": []
       },
