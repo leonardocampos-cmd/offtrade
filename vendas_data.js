@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "30/07/2026 12:25",
+  "atualizado_em": "30/07/2026 13:50",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -570564,17 +570564,6 @@ const VENDAS_DATA = {
           "data": "22/07/2026",
           "codcli": "51334",
           "cliente": "PAULO JOSE SALINA & CIA LTDA",
-          "produto": "MARTINI BIANCO 750 ML",
-          "fantasia": "BACARDI",
-          "qt": 2,
-          "valor": 57.9,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "22/07/2026",
-          "codcli": "51334",
-          "cliente": "PAULO JOSE SALINA & CIA LTDA",
           "produto": "TEQUILA J CUERVO GOLD 750ML",
           "fantasia": "AURORA",
           "qt": 1,
@@ -596101,6 +596090,17 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 15,
           "valor": 2221.2,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "34916",
+          "cliente": "SODEXO DO BRASIL COMERCIAL S A",
+          "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 10,
+          "valor": 1480.8,
           "tipo": "Venda",
           "offtrade": true
         },
@@ -642924,6 +642924,50 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
+          "data": "30/07/2026",
+          "codcli": "30105",
+          "cliente": "RESTAURANTE E EMPORIO MORADA MEXICANA EIRELI",
+          "produto": "TEQUILA EL JIMADOR BLANCO 750 ML",
+          "fantasia": "BROWN-FORMAN",
+          "qt": 3,
+          "valor": 314.7,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30105",
+          "cliente": "RESTAURANTE E EMPORIO MORADA MEXICANA EIRELI",
+          "produto": "YVY DESTILADO RUM LT 710ML",
+          "fantasia": "YVY",
+          "qt": 2,
+          "valor": 79.8,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30105",
+          "cliente": "RESTAURANTE E EMPORIO MORADA MEXICANA EIRELI",
+          "produto": "YVY DESTILADO VODKA 710ML",
+          "fantasia": "YVY",
+          "qt": 1,
+          "valor": 39.9,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30105",
+          "cliente": "RESTAURANTE E EMPORIO MORADA MEXICANA EIRELI",
+          "produto": "RUM BACARDI CARTA BLANCA 980 ML",
+          "fantasia": "BACARDI",
+          "qt": 2,
+          "valor": 93.8,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
           "data": "15/07/2026",
           "codcli": "30040",
           "cliente": "EDDIE LTDA",
@@ -643349,6 +643393,61 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 191.76,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "31908",
+          "cliente": "POINT BAIANO BAR E RESTAURANTE LTDA",
+          "produto": "WHISKY JIM BEAM CHERRY 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 1,
+          "valor": 89.9,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "31908",
+          "cliente": "POINT BAIANO BAR E RESTAURANTE LTDA",
+          "produto": "WHISKY JIM BEAM APPLE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 1,
+          "valor": 89.9,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "31908",
+          "cliente": "POINT BAIANO BAR E RESTAURANTE LTDA",
+          "produto": "VILLA ROSA TINTO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 42.9,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "31908",
+          "cliente": "POINT BAIANO BAR E RESTAURANTE LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 1,
+          "valor": 89.9,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "31908",
+          "cliente": "POINT BAIANO BAR E RESTAURANTE LTDA",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 1,
+          "valor": 89.9,
           "tipo": "Venda",
           "offtrade": true
         },
@@ -644002,6 +644101,94 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
+          "data": "30/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 3,
+          "valor": 230.7,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO ARCAIA ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 4,
+          "valor": 307.6,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO BRANCO AZUL VENTOZELO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 539.4,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO ORO PREMIUM MALBEC 750ML",
+          "fantasia": "CASTAS",
+          "qt": 5,
+          "valor": 499.5,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "ESPUMANTE ALUD BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 4,
+          "valor": 179.6,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO CAVAS DE ORO CHARDONNAY 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 359.4,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO ADELE BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 461.4,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "VINHO ADELE ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 461.4,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
           "data": "03/07/2026",
           "codcli": "31632",
           "cliente": "TONEL BEBIDAS LTDA",
@@ -644354,6 +644541,72 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
+          "data": "30/07/2026",
+          "codcli": "33223",
+          "cliente": "BAIANA DO ACARAJE BAR E RESTAURANTE LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 1,
+          "valor": 89.9,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "33223",
+          "cliente": "BAIANA DO ACARAJE BAR E RESTAURANTE LTDA",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 1,
+          "valor": 89.9,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "33223",
+          "cliente": "BAIANA DO ACARAJE BAR E RESTAURANTE LTDA",
+          "produto": "WHISKY JIM BEAM CHERRY 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 1,
+          "valor": 89.9,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "33223",
+          "cliente": "BAIANA DO ACARAJE BAR E RESTAURANTE LTDA",
+          "produto": "WHISKY JIM BEAM APPLE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 1,
+          "valor": 89.9,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "33223",
+          "cliente": "BAIANA DO ACARAJE BAR E RESTAURANTE LTDA",
+          "produto": "CHATEAU PEYRASSOL LA CROIX ROSE 2024 750",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 154.9,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "31217",
+          "cliente": "TRUPICO BAR & RESTAURANTE LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 4,
+          "valor": 359.6,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
           "data": "15/07/2026",
           "codcli": "30905",
           "cliente": "LUC2 COMERCIO DE ALIMENTOS LTDA",
@@ -644515,6 +644768,17 @@ const VENDAS_DATA = {
           "fantasia": "CASTAS",
           "qt": 3,
           "valor": 359.7,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "30905",
+          "cliente": "LUC2 COMERCIO DE ALIMENTOS LTDA",
+          "produto": "ESPUMANTE ALUD BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 7,
+          "valor": 314.3,
           "tipo": "Venda",
           "offtrade": true
         },
@@ -646422,6 +646686,50 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
+          "data": "30/07/2026",
+          "codcli": "32797",
+          "cliente": "AECIO LUCAS LACERDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 1,
+          "valor": 89.9,
+          "tipo": "Venda",
+          "offtrade": false
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "32797",
+          "cliente": "AECIO LUCAS LACERDA",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 1,
+          "valor": 89.9,
+          "tipo": "Venda",
+          "offtrade": false
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "32797",
+          "cliente": "AECIO LUCAS LACERDA",
+          "produto": "WHISKY JIM BEAM CHERRY 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 1,
+          "valor": 89.9,
+          "tipo": "Venda",
+          "offtrade": false
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "32797",
+          "cliente": "AECIO LUCAS LACERDA",
+          "produto": "WHISKY JIM BEAM APPLE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 1,
+          "valor": 89.9,
+          "tipo": "Venda",
+          "offtrade": false
+        },
+        {
           "data": "27/07/2026",
           "codcli": "33615",
           "cliente": "MONKA CERVEJARIA LTDA",
@@ -648149,6 +648457,17 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
+          "data": "30/07/2026",
+          "codcli": "35189",
+          "cliente": "MAGNUS SOCIEDADE COMERCIAL LIMITADA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "LVMH",
+          "qt": 2,
+          "valor": 0.0,
+          "tipo": "Bonificado",
+          "offtrade": true
+        },
+        {
           "data": "07/07/2026",
           "codcli": "36006",
           "cliente": "CAMP NOU ARENA LTDA",
@@ -648167,6 +648486,17 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 191.76,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "36006",
+          "cliente": "CAMP NOU ARENA LTDA",
+          "produto": "RED BULL ZERO 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 359.52,
           "tipo": "Venda",
           "offtrade": true
         },
@@ -648222,6 +648552,50 @@ const VENDAS_DATA = {
           "fantasia": "RED BULL",
           "qt": 3,
           "valor": 95.88,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "35736",
+          "cliente": "BAR E RESTAURANTE NUNES LTDA",
+          "produto": "WHISKY JIM BEAM HONEY 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 1,
+          "valor": 89.9,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "35736",
+          "cliente": "BAR E RESTAURANTE NUNES LTDA",
+          "produto": "WHISKY JIM BEAM CHERRY 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 1,
+          "valor": 89.9,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "35736",
+          "cliente": "BAR E RESTAURANTE NUNES LTDA",
+          "produto": "WHISKY JIM BEAM WHITE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 1,
+          "valor": 89.9,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "35736",
+          "cliente": "BAR E RESTAURANTE NUNES LTDA",
+          "produto": "WHISKY JIM BEAM APPLE 1L",
+          "fantasia": "BEAM SUNTORY",
+          "qt": 1,
+          "valor": 89.9,
           "tipo": "Venda",
           "offtrade": true
         },
