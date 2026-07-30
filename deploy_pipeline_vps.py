@@ -56,6 +56,7 @@ CREDENTIAL_FILES = [
     "credentials_gmail.json",
     "token.json",
     "token_gmail.json",
+    "service_account_gmail.json",
 ]
 
 # Registros de dedupe de alerta — so' semeia se ainda nao existir na VPS

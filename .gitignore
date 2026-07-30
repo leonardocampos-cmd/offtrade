@@ -8,6 +8,7 @@ token.json
 token_gmail.json
 token_gmail.json.json
 credentials_gmail.json
+service_account_gmail.json
 cred_drive.json
 *.log
 .git-rewrite/

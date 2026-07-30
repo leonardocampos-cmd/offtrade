@@ -22,16 +22,24 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 from bs4 import BeautifulSoup
 from google.oauth2.credentials import Credentials
+from google.oauth2 import service_account
 from google.auth.transport.requests import Request
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 
-BASE         = Path(__file__).parent
-TOKEN_GMAIL  = BASE / "token_gmail.json"
-ALERTAS_JSON = BASE / "alertas_rj.json"
-ENTREGAS_JS  = BASE / "entregas_data.js"
-SCOPES       = ["https://www.googleapis.com/auth/gmail.modify"]
-SUBJECT      = "ALERTA LOGÍSTICA RJ"
+BASE          = Path(__file__).parent
+TOKEN_GMAIL   = BASE / "token_gmail.json"
+ALERTAS_JSON  = BASE / "alertas_rj.json"
+ENTREGAS_JS   = BASE / "entregas_data.js"
+SCOPES        = ["https://www.googleapis.com/auth/gmail.modify"]
+SUBJECT       = "ALERTA LOGÍSTICA RJ"
+
+# Service account com domain-wide delegation (opcional) — se configurada, evita
+# de vez a reautenticação manual (o token de usuário via OAuth "installed app"
+# expira sozinho a cada 7 dias enquanto o app estiver em modo "Testing" no
+# Google Cloud Console). Ver GMAIL_AUTOMACAO.md para como habilitar.
+SA_FILE          = BASE / "service_account_gmail.json"
+GMAIL_DELEGATE   = os.getenv("GMAIL_DELEGATE_USER", "")
 
 RCA_RE = re.compile(
     r"RCA:\s*(\d+)\s*[-–]\s*(.+?)\s*\|\s*Taxa de Falha:\s*([\d.,]+)%",
@@ -42,6 +50,12 @@ RCA_RE = re.compile(
 # ── Autenticação ───────────────────────────────────────────────────────────────
 
 def _get_service():
+    if SA_FILE.exists() and GMAIL_DELEGATE:
+        creds = service_account.Credentials.from_service_account_file(
+            str(SA_FILE), scopes=SCOPES
+        ).with_subject(GMAIL_DELEGATE)
+        return build("gmail", "v1", credentials=creds)
+
     if not TOKEN_GMAIL.exists():
         raise FileNotFoundError(
             f"token_gmail.json não encontrado. "
