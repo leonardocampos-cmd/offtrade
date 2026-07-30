@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "30/07/2026 16:13",
+  "atualizado_em": "30/07/2026 16:40",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -104,8 +104,8 @@ const VENDAS_MG_DATA = {
         "fat_ano_ant": 0.0
       },
       "Jul/26": {
-        "fat": 266694.82,
-        "pos": 91,
+        "fat": 268469.38,
+        "pos": 92,
         "fat_ant": 341993.95,
         "fat_ano_ant": 363218.58
       }
@@ -552,7 +552,7 @@ const VENDAS_MG_DATA = {
         "fat_ano_ant": 0.0
       },
       "Jul/26": {
-        "fat": 111691.37,
+        "fat": 112950.17,
         "pos": 64,
         "fat_ant": 85308.22,
         "fat_ano_ant": 0.0
@@ -120079,6 +120079,36 @@ const VENDAS_MG_DATA = {
           "offtrade": true
         },
         {
+          "data": "30/07/2026",
+          "codcli": "39672",
+          "cliente": "UPPER EMPREENDIMENTOS LTDA",
+          "produto": "XAROPE MONIN FLOR DE SABUGUEIRO 700 ML",
+          "fantasia": "MONIN",
+          "qt": 2,
+          "valor": 99.8,
+          "offtrade": false
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "39672",
+          "cliente": "UPPER EMPREENDIMENTOS LTDA",
+          "produto": "ST PIERRE BLUEBERRY LT 270MLX6",
+          "fantasia": "TATUZINHO",
+          "qt": 4,
+          "valor": 107.6,
+          "offtrade": false
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "39672",
+          "cliente": "UPPER EMPREENDIMENTOS LTDA",
+          "produto": "XAROPE MONIN GRENADINE 700 ML",
+          "fantasia": "MONIN",
+          "qt": 2,
+          "valor": 99.8,
+          "offtrade": false
+        },
+        {
           "data": "16/07/2026",
           "codcli": "31838",
           "cliente": "SCP ADMINISTRADORA HOTEL PAMPULHA",
@@ -120429,6 +120459,26 @@ const VENDAS_MG_DATA = {
           "offtrade": false
         },
         {
+          "data": "30/07/2026",
+          "codcli": "33617",
+          "cliente": "CERVEJARIA COLDER INDUSTRIA E COMERCIO LTDA",
+          "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+          "fantasia": "YVY",
+          "qt": 3,
+          "valor": 119.7,
+          "offtrade": false
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "33617",
+          "cliente": "CERVEJARIA COLDER INDUSTRIA E COMERCIO LTDA",
+          "produto": "RUM MONTILLA OURO 1000ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 149.4,
+          "offtrade": false
+        },
+        {
           "data": "27/07/2026",
           "codcli": "39672",
           "cliente": "UPPER EMPREENDIMENTOS LTDA",
@@ -120557,6 +120607,16 @@ const VENDAS_MG_DATA = {
           "qt": 1,
           "valor": 31.9,
           "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "33617",
+          "cliente": "CERVEJARIA COLDER INDUSTRIA E COMERCIO LTDA",
+          "produto": "YVY DESTILADO GIN AR LT 710ML",
+          "fantasia": "YVY",
+          "qt": 3,
+          "valor": 119.7,
+          "offtrade": false
         },
         {
           "data": "27/07/2026",
@@ -120916,6 +120976,36 @@ const VENDAS_MG_DATA = {
           "fantasia": "DIAGEO",
           "qt": 2,
           "valor": 273.52,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "29703",
+          "cliente": "BAR E RESTAURANTE POMPEU LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 359.52,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "29703",
+          "cliente": "BAR E RESTAURANTE POMPEU LTDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 359.52,
+          "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "29703",
+          "cliente": "BAR E RESTAURANTE POMPEU LTDA",
+          "produto": "RED BULL MELANCIA 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 359.52,
           "offtrade": true
         },
         {
@@ -230237,6 +230327,16 @@ const VENDAS_MG_DATA = {
           "qt": 5,
           "valor": 179.5,
           "offtrade": true
+        },
+        {
+          "data": "30/07/2026",
+          "codcli": "39702",
+          "cliente": "BLEND WINES COMERCIAL LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "LVMH",
+          "qt": 12,
+          "valor": 1258.8,
+          "offtrade": false
         },
         {
           "data": "21/07/2026",
