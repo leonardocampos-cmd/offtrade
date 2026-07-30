@@ -23903,7 +23903,7 @@ const AGENDAMENTO_DATA = {
           "codigo_cliente": "79681",
           "cliente": "DOM ATACAREJO SA",
           "cnpj": "31.698.759/0024-00",
-          "filial": "INDUSTRIAL",
+          "filial": "MESQUITA",
           "valor": 515.88,
           "nf": "5568",
           "data_agendamento": "",
@@ -24818,7 +24818,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "30/07/2026 15:46",
+  "atualizado_em": "30/07/2026 16:12",
   "comparativo": [
     {
       "msg_id": "19f8f0d0054f43bd",
