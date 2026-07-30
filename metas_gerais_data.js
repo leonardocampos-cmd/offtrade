@@ -1,36 +1,36 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "30/07/2026 15:18",
+  "atualizado_em": "30/07/2026 15:40",
   "mes": "Jul/26",
   "mes_ant": "Jun/26",
   "dias_corridos": 30,
   "dias_no_mes": 31,
   "dias_restantes": 1,
   "resumo": {
-    "fat": 10951825.13,
+    "fat": 10954784.91,
     "fat_ant": 12840519.73,
     "fat_ant_completo": 12840519.73,
-    "pos": 1720,
+    "pos": 1721,
     "pos_ant": 1756,
     "pos_ant_completo": 1756
   },
   "total": {
     "meta": 12500000.0,
-    "fat": 10951825.13,
+    "fat": 10954784.91,
     "fat_ant": 12840519.73,
     "fat_ant_completo": 12840519.73,
     "pct": 87.6,
-    "nec_dia": 1548174.87
+    "nec_dia": 1545215.09
   },
   "estados": [
     {
       "estado": "RJ",
       "label": "Rio de Janeiro",
       "meta": 3000000.0,
-      "fat": 2305801.03,
+      "fat": 2310678.41,
       "fat_ant": 2631271.07,
-      "pos": 697,
-      "pct": 76.9,
-      "nec_dia": 694198.97,
+      "pos": 698,
+      "pct": 77.0,
+      "nec_dia": 689321.59,
       "fat_ant_completo": 2631271.07,
       "pos_ant": 725,
       "pos_ant_completo": 725
@@ -39,7 +39,7 @@ const METAS_GERAIS_DATA = {
       "estado": "SP",
       "label": "São Paulo",
       "meta": 5600000.0,
-      "fat": 6765198.31,
+      "fat": 6763280.71,
       "fat_ant": 7500813.94,
       "pos": 697,
       "pct": 120.8,
@@ -122,10 +122,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "ROBINSON CRUSOE",
-      "fat": 416318.18,
+      "fat": 421195.56,
       "fat_ant": 116431.17,
       "por_estado": {
-        "RJ": 245140.0,
+        "RJ": 250017.38,
         "SP": 0.0,
         "ES": 171178.18,
         "MG": 0.0
@@ -243,11 +243,11 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "BALLENA",
-      "fat": 152327.95,
+      "fat": 150410.35,
       "fat_ant": 67612.19,
       "por_estado": {
         "RJ": 2705.3,
-        "SP": 91137.45,
+        "SP": 89219.85,
         "ES": 7860.0,
         "MG": 50625.2
       }
