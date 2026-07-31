@@ -15,7 +15,7 @@ st.set_page_config(page_title="Crédito e Cadastro", page_icon="💳", layout="w
 inject_css()
 rca_info = require_auth()
 
-page_header("Crédito e Cadastro de Cliente", "Rigarr · Off Trade")
+page_header("Crédito e Cadastro de Cliente", "OfftradeHub · Off Trade")
 
 SCHEMA             = "CRC"
 EMAIL_FINANCEIRO   = "cadastro@rigarr.com.br"

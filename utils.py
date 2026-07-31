@@ -163,7 +163,7 @@ def _show_login(cookies):
     oauth2 = OAuth2Component(CLIENT_ID, CLIENT_SECRET, AUTHORIZE_URL, TOKEN_URL, TOKEN_URL)
     st.markdown("""
 <div style="max-width:360px;margin:80px auto;text-align:center">
-    <div style="font-size:1.6rem;font-weight:800;color:#f5c518;margin-bottom:6px">Rigarr</div>
+    <div style="font-size:1.6rem;font-weight:800;color:#f5c518;margin-bottom:6px">OfftradeHub</div>
     <div style="font-size:.85rem;color:#94a3b8;margin-bottom:32px">Dashboard Comercial · Off Trade</div>
 </div>
 """.strip(), unsafe_allow_html=True)
