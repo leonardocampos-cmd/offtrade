@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pedidos OFF TRADE</title>
   <script src="pedidos_data.js"></script>
+  <script src="estoque_data.js"></script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
@@ -208,12 +209,12 @@
     <option value="sim">Sim</option>
     <option value="nao">Não</option>
   </select>
-  <select id="sel-status" onchange="aplicarFiltro()">
-    <option value="">Status</option>
-    <option value="pendente">Pendente</option>
-    <option value="liberado">Liberado</option>
-    <option value="bloqueado">Bloqueado</option>
-  </select>
+  <div class="ms-data" id="ms-status">
+    <button type="button" class="ms-toggle" id="ms-status-toggle" onclick="toggleStatusPanel(event)">
+      <span id="ms-status-label">Status</span><span>▾</span>
+    </button>
+    <div class="ms-panel hidden" id="ms-status-panel"></div>
+  </div>
   <select id="sel-status-log" onchange="aplicarFiltro()">
     <option value="">Status Logística</option>
   </select>
@@ -224,16 +225,7 @@
 <div class="table-wrap">
   <table id="tabela">
     <thead>
-      <tr>
-        <th></th>
-        <th class="hide-mob" onclick="ordenarPor('numped')">Pedido</th>
-        <th id="th-nf" class="hide-mob" onclick="ordenarPor('numnota')">NF</th>
-        <th onclick="ordenarPor('data')">Data</th>
-        <th class="hide-mob" onclick="ordenarPor('nome')">Vendedor</th>
-        <th onclick="ordenarPor('cliente')">Cliente</th>
-        <th id="th-extra"></th>
-        <th onclick="ordenarPor('total')">Total</th>
-      </tr>
+      <tr id="thead-row"></tr>
     </thead>
     <tbody id="tbody"></tbody>
   </table>
@@ -241,6 +233,7 @@
 
 <script>
 const DATA = typeof PEDIDOS_DATA !== 'undefined' ? PEDIDOS_DATA : null;
+const ESTOQUE = typeof ESTOQUE_DATA !== 'undefined' ? ESTOQUE_DATA : null;
 
 const ABAS = [
   {
@@ -255,12 +248,68 @@ const ABAS = [
     chave: 'cancelados', label: 'Cortados/Cancelados', cor: 'status-cancelado',
     colExtra: { campo: 'motivo', label: 'Motivo', render: p => p.motivo ? _esc(p.motivo) : '<span class="status-none">—</span>' },
   },
+  {
+    chave: 'produtos_cortados', label: 'Produtos Cortados', cor: 'status-cortado', flat: true,
+  },
 ];
+
+const THEAD_PADRAO = `
+  <th></th>
+  <th class="hide-mob" onclick="ordenarPor('numped')">Pedido</th>
+  <th id="th-nf" class="hide-mob" onclick="ordenarPor('numnota')">NF</th>
+  <th onclick="ordenarPor('data')">Data</th>
+  <th class="hide-mob" onclick="ordenarPor('nome')">Vendedor</th>
+  <th onclick="ordenarPor('cliente')">Cliente</th>
+  <th id="th-extra"></th>
+  <th onclick="ordenarPor('total')">Total</th>
+`;
+
+const THEAD_CORTADOS = `
+  <th onclick="ordenarPor('data')">Data</th>
+  <th class="hide-mob" onclick="ordenarPor('nome')">Vendedor</th>
+  <th onclick="ordenarPor('cliente')">Cliente</th>
+  <th class="hide-mob" onclick="ordenarPor('numped')">Pedido</th>
+  <th onclick="ordenarPor('desc')">Produto</th>
+  <th onclick="ordenarPor('qtfalta')">Qtd Cortada</th>
+  <th onclick="ordenarPor('saldo_estoque')">Saldo Estoque</th>
+`;
+
+// ── Índice de estoque (empresa+filial+produto -> qtestoque) pra cruzar com
+// os produtos cortados. Chaves numéricas normalizadas (parseInt) pra não
+// depender do formato exato ("1" vs "1.0") que cada base devolve.
+const _estoqueIdx = new Map();
+if (ESTOQUE && ESTOQUE.produtos) {
+  ESTOQUE.produtos.forEach(p => {
+    const fil = parseInt(p.codfilial, 10);
+    const prod = parseInt(p.codprod, 10);
+    if (Number.isNaN(fil) || Number.isNaN(prod)) return;
+    _estoqueIdx.set(`${(p.empresa || '').toUpperCase()}|${fil}|${prod}`, p.qtestoque);
+  });
+}
+
+function _saldoEstoque(item) {
+  const fil = parseInt(item.codfilial, 10);
+  const prod = parseInt(item.codprod, 10);
+  if (Number.isNaN(fil) || Number.isNaN(prod)) return null;
+  const key = `${(item.sistema || '').toUpperCase()}|${fil}|${prod}`;
+  return _estoqueIdx.has(key) ? _estoqueIdx.get(key) : null;
+}
+
+if (DATA && DATA.produtos_cortados) {
+  DATA.produtos_cortados.forEach(p => { p.saldo_estoque = _saldoEstoque(p); });
+}
 
 let _abaAtual = 'pedidos_feitos';
 let _ordem = { campo: 'data', asc: false };
 let _expandidos = new Set();
 let _datasSelecionadas = new Set();
+let _statusSelecionados = new Set();
+
+const STATUS_OPCOES = [
+  { valor: 'pendente',  label: 'Pendente' },
+  { valor: 'liberado',  label: 'Liberado' },
+  { valor: 'bloqueado', label: 'Bloqueado' },
+];
 
 if (!DATA) {
   document.getElementById('tbody').innerHTML = '<tr><td colspan="8" class="empty">Dados não encontrados. Execute pedidos.py para gerar pedidos_data.js.</td></tr>';
@@ -270,6 +319,7 @@ if (!DATA) {
   montarTabs();
   montarEstados();
   montarStatusLog();
+  montarStatusPosicaoPanel();
   aplicarFiltro();
 }
 
@@ -281,13 +331,19 @@ function montarTabs() {
     return `<button class="tab-btn ${ativo}" onclick="trocarAba('${a.chave}')">${a.label} (${qtd})</button>`;
   }).join('');
 
-  const abaInfo = ABAS.find(a => a.chave === _abaAtual);
-  const th = document.getElementById('th-extra');
-  th.textContent = abaInfo.colExtra.label;
-  th.onclick = () => ordenarPor(abaInfo.colExtra.campo);
+  const theadRow = document.getElementById('thead-row');
+  if (_abaAtual === 'produtos_cortados') {
+    theadRow.innerHTML = THEAD_CORTADOS;
+  } else {
+    theadRow.innerHTML = THEAD_PADRAO;
+    const abaInfo = ABAS.find(a => a.chave === _abaAtual);
+    const th = document.getElementById('th-extra');
+    th.textContent = abaInfo.colExtra.label;
+    th.onclick = () => ordenarPor(abaInfo.colExtra.campo);
+    document.getElementById('th-nf').style.display = _abaAtual === 'pedidos_feitos' ? 'none' : '';
+  }
 
-  document.getElementById('th-nf').style.display = _abaAtual === 'pedidos_feitos' ? 'none' : '';
-  document.getElementById('sel-status').style.display = _abaAtual === 'pedidos_feitos' ? '' : 'none';
+  document.getElementById('ms-status').style.display = _abaAtual === 'pedidos_feitos' ? '' : 'none';
   document.getElementById('sel-status-log').style.display = _abaAtual === 'faturados' ? '' : 'none';
 }
 
@@ -311,6 +367,7 @@ function montarStatusLog() {
 }
 
 function _totalColunas() {
+  if (_abaAtual === 'produtos_cortados') return 7;
   return _abaAtual === 'pedidos_feitos' ? 7 : 8;
 }
 
@@ -488,11 +545,64 @@ function toggleDataPanel(ev) {
   document.getElementById('ms-data-toggle').classList.toggle('open');
 }
 
+function montarStatusPosicaoPanel() {
+  const panel = document.getElementById('ms-status-panel');
+  const acoes = `<div class="ms-actions">
+    <button type="button" onclick="_selecionarTodosStatus()">Selecionar todos</button>
+    <button type="button" onclick="_limparStatus()">Limpar</button>
+  </div>`;
+  const opts = STATUS_OPCOES.map(o => `
+    <label class="ms-option">
+      <input type="checkbox" value="${o.valor}" ${_statusSelecionados.has(o.valor) ? 'checked' : ''} onchange="_toggleStatus('${o.valor}', this.checked)">
+      ${o.label}
+    </label>`).join('');
+  panel.innerHTML = acoes + opts;
+}
+
+function _toggleStatus(valor, checked) {
+  if (checked) _statusSelecionados.add(valor); else _statusSelecionados.delete(valor);
+  _atualizarLabelStatus();
+  aplicarFiltro();
+}
+
+function _selecionarTodosStatus() {
+  STATUS_OPCOES.forEach(o => _statusSelecionados.add(o.valor));
+  montarStatusPosicaoPanel();
+  _atualizarLabelStatus();
+  aplicarFiltro();
+}
+
+function _limparStatus() {
+  _statusSelecionados.clear();
+  montarStatusPosicaoPanel();
+  _atualizarLabelStatus();
+  aplicarFiltro();
+}
+
+function _atualizarLabelStatus() {
+  const label = document.getElementById('ms-status-label');
+  const n = _statusSelecionados.size;
+  if (n === 0) label.textContent = 'Status';
+  else if (n === 1) label.textContent = STATUS_OPCOES.find(o => o.valor === [..._statusSelecionados][0]).label;
+  else label.textContent = `${n} status selecionados`;
+}
+
+function toggleStatusPanel(ev) {
+  ev.stopPropagation();
+  document.getElementById('ms-status-panel').classList.toggle('hidden');
+  document.getElementById('ms-status-toggle').classList.toggle('open');
+}
+
 document.addEventListener('click', (ev) => {
-  const wrap = document.getElementById('ms-data');
-  if (wrap && !wrap.contains(ev.target)) {
+  const wrapData = document.getElementById('ms-data');
+  if (wrapData && !wrapData.contains(ev.target)) {
     document.getElementById('ms-data-panel').classList.add('hidden');
     document.getElementById('ms-data-toggle').classList.remove('open');
+  }
+  const wrapStatus = document.getElementById('ms-status');
+  if (wrapStatus && !wrapStatus.contains(ev.target)) {
+    document.getElementById('ms-status-panel').classList.add('hidden');
+    document.getElementById('ms-status-toggle').classList.remove('open');
   }
 });
 
@@ -532,7 +642,6 @@ function _filtrados() {
   const vendedor   = document.getElementById('sel-vendedor').value;
   const busca      = document.getElementById('busca').value.trim().toLowerCase();
   const agendamento = document.getElementById('sel-agendamento').value;
-  const status      = document.getElementById('sel-status').value;
   const statusLog   = document.getElementById('sel-status-log').value;
   let lista = _listaAtual().filter(p => {
     const matchEstado     = !estado || p.estado === estado;
@@ -541,7 +650,7 @@ function _filtrados() {
     const matchVendedor   = !vendedor || p.nome === vendedor;
     const matchData       = _datasSelecionadas.size === 0 || _datasSelecionadas.has(p.data_ord);
     const matchAgendado   = !agendamento || (agendamento === 'sim' ? !!_agendamento(p.obs) : !_agendamento(p.obs));
-    const matchStatus     = !status || _statusPosicao(p.posicao) === status;
+    const matchStatus     = _abaAtual !== 'pedidos_feitos' || _statusSelecionados.size === 0 || _statusSelecionados.has(_statusPosicao(p.posicao));
     const matchStatusLog  = !statusLog || (p.status_log || '(sem status)') === statusLog;
     const matchBusca = !busca || [p.cliente, p.numped, p.numnota]
       .some(v => v && String(v).toLowerCase().includes(busca));
@@ -562,30 +671,52 @@ function _filtrados() {
 function montarKpis(lista) {
   const total = lista.reduce((s, p) => s + (Number(p.total) || 0), 0);
   const qtdClientes = new Set(lista.map(p => p.cliente)).size;
+  const flat = _abaAtual === 'produtos_cortados';
+  const cardExtra = flat
+    ? `<div class="kpi">
+        <div class="label">Qtd Total Cortada</div>
+        <div class="val">${lista.reduce((s, p) => s + (Number(p.qtfalta) || 0), 0).toLocaleString('pt-BR')}</div>
+      </div>`
+    : '';
   document.getElementById('kpis').innerHTML = `
     <div class="kpi">
       <div class="label">Valor Total</div>
       <div class="val">${brl(total)}</div>
     </div>
     <div class="kpi">
-      <div class="label">Pedidos</div>
+      <div class="label">${flat ? 'Produtos Cortados' : 'Pedidos'}</div>
       <div class="val">${lista.length}</div>
     </div>
     <div class="kpi">
       <div class="label">Clientes</div>
       <div class="val">${qtdClientes}</div>
-    </div>`;
+    </div>${cardExtra}`;
 }
 
 function aplicarFiltro() {
   const lista = _filtrados();
   montarKpis(lista);
-  document.getElementById('info-count').textContent = lista.length + ' pedido(s)';
+  const flat = _abaAtual === 'produtos_cortados';
+  document.getElementById('info-count').textContent = lista.length + (flat ? ' produto(s) cortado(s)' : ' pedido(s)');
 
   const tbody = document.getElementById('tbody');
   const totalCols = _totalColunas();
   if (!lista.length) {
-    tbody.innerHTML = `<tr><td colspan="${totalCols}" class="empty">Nenhum pedido encontrado.</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="${totalCols}" class="empty">${flat ? 'Nenhum produto cortado encontrado.' : 'Nenhum pedido encontrado.'}</td></tr>`;
+    return;
+  }
+
+  if (flat) {
+    tbody.innerHTML = lista.map(p => `
+      <tr class="linha-pedido" style="cursor:default">
+        <td>${_esc(p.data)}</td>
+        <td class="hide-mob"><span class="rca-badge">${_esc((p.nome || '').replace(' - OFF TRADE', ''))}</span></td>
+        <td>${_esc(p.cliente)}</td>
+        <td class="cod hide-mob">${_esc(p.numped)}</td>
+        <td>${_esc(p.desc)}</td>
+        <td>${p.qtfalta} <span style="color:var(--muted)">/ ${p.qt}</span></td>
+        <td>${_saldoBadge(p.saldo_estoque)}</td>
+      </tr>`).join('');
     return;
   }
 
@@ -687,6 +818,12 @@ function _statusLogBadge(status) {
   return `<span class="status-badge ${cls}">${_esc(status)}</span>`;
 }
 
+function _saldoBadge(v) {
+  if (v === null || v === undefined) return '<span class="status-none">—</span>';
+  const cls = v > 0 ? 'status-log-entregue' : 'status-log-cancelada';
+  return `<span class="status-badge ${cls}">${Number(v).toLocaleString('pt-BR')}</span>`;
+}
+
 function brl(v) {
   return 'R$ ' + Number(v || 0).toLocaleString('pt-BR', {minimumFractionDigits: 2, maximumFractionDigits: 2});
 }
@@ -697,6 +834,30 @@ function _esc(s) {
 
 function exportarCSV() {
   const lista = _filtrados();
+
+  if (_abaAtual === 'produtos_cortados') {
+    const header = ['Data', 'Vendedor', 'Cliente', 'Pedido', 'Produto', 'Qtd Cortada', 'Qtd Pedida', 'Saldo Estoque'];
+    const linhas = lista.map(p => [
+      p.data,
+      (p.nome || '').replace(' - OFF TRADE', ''),
+      p.cliente,
+      p.numped,
+      p.desc,
+      p.qtfalta,
+      p.qt,
+      p.saldo_estoque ?? '',
+    ].map(v => `"${String(v ?? '').replace(/"/g, '""')}"`).join(';'));
+    const csv = '﻿' + [header.join(';'), ...linhas].join('\r\n');
+    const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `pedidos_produtos_cortados_${new Date().toISOString().slice(0, 10)}.csv`;
+    a.click();
+    URL.revokeObjectURL(url);
+    return;
+  }
+
   const abaInfo = ABAS.find(a => a.chave === _abaAtual);
   const header = ['Pedido','NF','Data','Vendedor','Cliente', abaInfo.colExtra.label, 'Total'];
   const linhas = lista.map(p => [
