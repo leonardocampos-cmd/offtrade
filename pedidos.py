@@ -48,7 +48,7 @@ def _query_pedidos(schema, extra_nomes=None, filiais=None):
     return f"""
         SELECT PED.NUMPED, PED.NUMNOTA, PED.NOME, PED.DATA, PED.CODUSUR, PED.CLIENTE, PED.STATUS,
                PED.DESCRICAO, PED.PVENDA, PED.QT, PED.QTFALTA, PED.TOTAL, PED.OBSENTREGA1,
-               PED.FUNC_CANCEL, PC.POSICAO, PC.MOTIVOPOSICAO, PED.CODPROD, PED.CODFILIAL,
+               PED.FUNC_CANCEL, PC.POSICAO, PC.MOTIVOPOSICAO,
                U.ESTADO AS ESTADO_VENDEDOR, S.NOME AS NOME_SUPERVISOR, G.NOMEGERENTE
         FROM {schema}.PBI_PCPEDI PED
         LEFT JOIN {schema}.PCUSUARI  U ON U.CODUSUR        = PED.CODUSUR
@@ -84,8 +84,6 @@ tabela_pedidos['TOTAL']       = pd.to_numeric(tabela_pedidos['TOTAL'], errors='c
 tabela_pedidos['QT']          = pd.to_numeric(tabela_pedidos['QT'],    errors='coerce').fillna(0).astype(int)
 tabela_pedidos['QTFALTA']     = pd.to_numeric(tabela_pedidos['QTFALTA'], errors='coerce').fillna(0)
 tabela_pedidos['NUMNOTA_NUM'] = pd.to_numeric(tabela_pedidos['NUMNOTA'], errors='coerce')
-tabela_pedidos['CODPROD_NUM']   = pd.to_numeric(tabela_pedidos['CODPROD'], errors='coerce')
-tabela_pedidos['CODFILIAL_NUM'] = pd.to_numeric(tabela_pedidos['CODFILIAL'], errors='coerce')
 tabela_pedidos['DATA_DT']     = pd.to_datetime(tabela_pedidos['DATA'], errors='coerce')
 tabela_pedidos['DATA']        = tabela_pedidos['DATA_DT'].dt.strftime('%d/%m/%Y')
 tabela_pedidos['STATUS']      = tabela_pedidos['STATUS'].fillna('').astype(str).str.strip()
@@ -282,15 +280,6 @@ def _s(v):
     return '' if pd.isna(v) else str(v).strip()
 
 
-def _int_s(v):
-    if pd.isna(v):
-        return ''
-    try:
-        return str(int(v))
-    except (TypeError, ValueError):
-        return ''
-
-
 def _nf_clean(numnota):
     if pd.isna(numnota) or not numnota:
         return ''
@@ -329,8 +318,6 @@ def _agrupar(df, com_status_log=False):
                     'val':      round(float(row['TOTAL']), 2),
                     'qtfalta':  float(row['QTFALTA']),
                     'cortado':  bool(row['QTFALTA'] > 0),
-                    'codprod':   _int_s(row['CODPROD_NUM']),
-                    'codfilial': _int_s(row['CODFILIAL_NUM']),
                 }
                 for _, row in grp.iterrows()
             ],
@@ -343,55 +330,13 @@ def _agrupar(df, com_status_log=False):
     return result
 
 
-def _extrair_cortados(pedidos_agrupados):
-    """Achata os itens com 'cortado' (corte parcial: entregou parte, faltou
-    parte) dos pedidos Faturados numa lista de produtos — cada linha é um
-    item cortado com o pedido a que pertence, pra alimentar a aba "Produtos
-    Cortados" (que cruza com o saldo de estoque atual no front-end via
-    estoque_data.js)."""
-    out = []
-    for p in pedidos_agrupados:
-        for it in p['itens']:
-            if not it['cortado']:
-                continue
-            out.append({
-                'numped':     p['numped'],
-                'numnota':    p['numnota'],
-                'data':       p['data'],
-                'data_ord':   p['data_ord'],
-                'nome':       p['nome'],
-                'cliente':    p['cliente'],
-                'sistema':    p['sistema'],
-                'estado':     p['estado'],
-                'supervisor': p['supervisor'],
-                'gerente':    p['gerente'],
-                'status_ped': p['status_ped'],
-                'posicao':    p['posicao'],
-                'motivo':     p['motivo'],
-                'desc':       it['desc'],
-                'codprod':    it['codprod'],
-                'codfilial':  it['codfilial'],
-                'qt':         it['qt'],
-                'qtfalta':    it['qtfalta'],
-                'val':        it['val'],
-                'total':      it['val'],
-            })
-    return out
-
-
-_faturados_agrupados = _agrupar(_faturados, com_status_log=True)
-
 payload = {
     'atualizado_em':        datetime.now().strftime('%d/%m/%Y %H:%M'),
     'periodo_dias':         DIAS_JANELA,
     'fontes_indisponiveis': _fontes_indisponiveis,
     'pedidos_feitos':       _agrupar(_feitos),
-    'faturados':            _faturados_agrupados,
+    'faturados':            _agrupar(_faturados, com_status_log=True),
     'cancelados':           _agrupar(_cancelados),
-    'produtos_cortados':    sorted(
-        _extrair_cortados(_faturados_agrupados),
-        key=lambda r: r['data_ord'], reverse=True
-    ),
 }
 
 out = Path(__file__).parent / 'pedidos_data.js'
@@ -401,8 +346,7 @@ with open(out, 'w', encoding='utf-8') as f:
 print(
     f"OK - {len(payload['pedidos_feitos'])} pedido(s) feito(s), "
     f"{len(payload['faturados'])} faturado(s), "
-    f"{len(payload['cancelados'])} cortado(s)/cancelado(s), "
-    f"{len(payload['produtos_cortados'])} produto(s) com corte parcial -> {out}"
+    f"{len(payload['cancelados'])} cortado(s)/cancelado(s) -> {out}"
 )
 
 import subprocess
