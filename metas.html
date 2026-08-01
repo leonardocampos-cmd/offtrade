@@ -1149,33 +1149,7 @@ function _ordenarVendasDesc(lista) {
   });
 }
 
-function _atualizarTabela(nomeVendedor) {
-  const mes   = document.getElementById('sel-mes').value;
-  const lista = _ordenarVendasDesc(_vendasDoMes(nomeVendedor, mes));
-
-  // Resumo
-  const total    = lista.reduce((s, r) => s + r.valor, 0);
-  const totalQt  = lista.reduce((s, r) => s + r.qt, 0);
-  const nClientes = new Set(lista.filter(r => r.offtrade).map(r => r.codcli || r.cliente)).size;
-  document.getElementById('vendas-resumo').innerHTML = `
-    <div class="vendas-resumo-box">
-      <div class="vendas-resumo-label">Faturamento</div>
-      <div class="vendas-resumo-val">${fmtFat(total)}</div>
-    </div>
-    <div class="vendas-resumo-box">
-      <div class="vendas-resumo-label">Itens vendidos</div>
-      <div class="vendas-resumo-val">${totalQt.toLocaleString('pt-BR')}</div>
-    </div>
-    <div class="vendas-resumo-box">
-      <div class="vendas-resumo-label">Clientes</div>
-      <div class="vendas-resumo-val">${nClientes}</div>
-    </div>`;
-
-  document.getElementById('vendas-tabela').innerHTML = buildVendasTable(lista);
-}
-
-function exportarVendasCSV(nomeVendedor) {
-  const mes   = document.getElementById('sel-mes').value;
+function exportarVendasCSV(nomeVendedor, mes) {
   const lista = _vendasDoMes(nomeVendedor, mes);
   const sep   = ';';
 
@@ -1196,41 +1170,6 @@ function exportarVendasCSV(nomeVendedor) {
   document.body.appendChild(a);
   a.click();
   setTimeout(() => { document.body.removeChild(a); URL.revokeObjectURL(url); }, 500);
-}
-
-function renderVendas(v) {
-  document.getElementById('header-sub').textContent =
-    typeof VENDAS_DATA !== 'undefined'
-      ? `Atualizado ${VENDAS_DATA.atualizado_em}`
-      : 'Dados de vendas não disponíveis';
-
-  document.getElementById('btn-entregas').href = 'entregas.html?v=' + encodeURIComponent(v.nome);
-  document.getElementById('header-actions').innerHTML = `
-    <button class="btn btn-dl" onclick="exportarVendasCSV('${v.nome}')">&#8595; Baixar CSV</button>
-    <button class="btn" onclick="voltarParaTodos()">\u2190 Todos</button>`;
-
-  const meses = typeof VENDAS_DATA !== 'undefined' ? VENDAS_DATA.meses : [];
-  const opts  = meses.map(m => `<option value="${m}">${m}</option>`).join('');
-
-  document.getElementById('app').innerHTML = `
-    <div class="detail-header">
-      <div>
-        <div class="detail-name">${v.nome}</div>
-        <div class="detail-rca">RCA ${v.rca}</div>
-      </div>
-      <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
-        <select id="sel-mes" class="mes-select"
-          onchange="_atualizarTabela('${v.nome}')">${opts}</select>
-        <a class="btn" href="?vendedor=${encodeURIComponent(v.nome)}">Ver objetivos</a>
-      </div>
-    </div>
-
-    <div class="detail-card">
-      <div id="vendas-resumo" class="vendas-resumo"></div>
-      <div id="vendas-tabela"></div>
-    </div>`;
-
-  _atualizarTabela(v.nome);
 }
 
 // ── Roteamento por URL ────────────────────────────────────
@@ -1388,7 +1327,7 @@ function renderDetail(v, mes) {
           <div><div class="kpi-label">Itens</div><div class="kpi-val">${_nItens.toLocaleString('pt-BR')}</div></div>
         </div>
         ${buildVendasTable(_vendas)}
-        ${_vendas.length > 0 ? `<div style="text-align:right;margin-top:10px"><a class="btn" href="?vendedor=${encodeURIComponent(v.nome)}&view=vendas">&#128200; Ver hist&oacute;rico</a></div>` : ''}
+        ${_vendas.length > 0 ? `<div style="text-align:right;margin-top:10px"><button class="btn btn-dl" onclick="exportarVendasCSV('${v.nome}', '${mes}')">&#8595; Baixar CSV</button></div>` : ''}
       </div>
     </div>`;
 
@@ -1445,7 +1384,6 @@ function renderDetail(v, mes) {
         <div class="detail-rca">RCA ${v.rca}</div>
       </div>
       <div style="display:flex;gap:8px;flex-wrap:wrap">
-        <a class="btn" href="?vendedor=${encodeURIComponent(v.nome)}&view=vendas">&#128200; Vendas do m&#234;s</a>
         <button class="btn" onclick="voltarParaTodos()">&#8592; Todos</button>
       </div>
     </div>
@@ -2275,8 +2213,7 @@ function filterCards(q) {
 
   if (param) {
     if (v) {
-      if (view === 'vendas') renderVendas(v);
-      else                   renderDetail(v, _mesSel);
+      renderDetail(v, _mesSel);
     } else {
       document.getElementById('app').innerHTML = `
         <div class="no-data">
