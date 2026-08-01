@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "30/07/2026 18:00",
-  "total": 22299,
+  "atualizado_em": "01/08/2026 08:49",
+  "total": 21915,
   "clientes": [
     {
       "codcli": "38586",
@@ -832,22 +832,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "378",
       "nome_usur1": "FABIO VALOTTI - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "36205",
-      "razao": "17.482.016 ANDREIA NUNES DE SOUZA ALMEIDA",
-      "fantasia": "17.482.016 ANDREIA NUNES DE SOUZA ALMEIDA",
-      "bairro": "PRESIDENTE KENNEDY",
-      "cidade": "BETIM",
-      "cnpj": "17.482.016/0001-80",
-      "estado": "MG",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -1860,22 +1844,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
-      "codcli": "38784",
-      "razao": "23.289.402 WELBER ALAFE ALVES",
-      "fantasia": "ADEGA WC DESTILADOS",
-      "bairro": "SANTA FELICIDADE",
-      "cidade": "SETE LAGOAS",
-      "cnpj": "23.289.402/0001-53",
-      "estado": "MG",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "85319",
       "razao": "23.293.098 CLAUDERLAINE ALVES DOS SANTOS",
       "fantasia": "CLAUDERLAINE ALVES DOS SANTOS",
@@ -2370,22 +2338,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
-      "codcli": "92307",
-      "razao": "25.327.345 TAMIRIS SIMOES DOS SANTOS CORREIA DE BRITO",
-      "fantasia": "TAMIRIS SIMOES DOS SANTOS CORREIA DE BRI",
-      "bairro": "VILLA DI CESAR",
-      "cidade": "MOGI DAS CRUZES",
-      "cnpj": "25.327.345/0001-85",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "50729",
@@ -3698,22 +3650,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "159",
       "nome_usur2": "GISELLE BARFER - OFF TRADE"
-    },
-    {
-      "codcli": "83911",
-      "razao": "29.974.400 ANDRE LUIZ DA SILVA ROCHA JUNIOR",
-      "fantasia": "ANDRE LUIZ DA SILVA ROCHA JUNIOR",
-      "bairro": "IRAJA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "29.974.400/0001-80",
-      "estado": "RJ",
-      "ramo": "DELIVERY",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "29383",
@@ -7044,22 +6980,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92301",
-      "razao": "38.302.064 FELIPE PINTO DE OLIVEIRA",
-      "fantasia": "SHOPNO",
-      "bairro": "VILA VIRGÍNIA",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "38.302.064/0001-10",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "91857",
       "razao": "38.338.605 GUILHERME CORREA RIBEIRO",
       "fantasia": "ELIT PUB",
@@ -7746,22 +7666,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "229",
       "nome_usur2": "LUIZA HASSEN"
-    },
-    {
-      "codcli": "73613",
-      "razao": "3LA CHOPERIA E BAR LTDA",
-      "fantasia": "CHOPP TIME",
-      "bairro": "BARRA DA TIJUCA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "50.946.459/0001-50",
-      "estado": "RJ",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "92025",
@@ -10484,22 +10388,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
-      "codcli": "92261",
-      "razao": "45.761.125 DIOGENES ALVES DE OLIVEIRA",
-      "fantasia": "DIOGENES ALVES DE OLIVEIRA",
-      "bairro": "CIDADE KEMEL",
-      "cidade": "SAO PAULO",
-      "cnpj": "45.761.125/0001-72",
-      "estado": "SP",
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "80986",
       "razao": "45.823.314 MICAEL KATHEMAN OLIVEIRA SCHEK",
       "fantasia": "MICAEL KATHEMAN OLIVEIRA SCHEK",
@@ -11506,22 +11394,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "92320",
-      "razao": "48.086.181 VILMA MIRANDA",
-      "fantasia": "VILMA MIRANDA",
-      "bairro": "VILA URUPÊS",
-      "cidade": "SUZANO",
-      "cnpj": "48.086.181/0001-47",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "72642",
@@ -18340,22 +18212,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92114",
-      "razao": "52.498.810 JARDEL FRANK BARBOSA DOS SANTOS",
-      "fantasia": "JARDEL FRANK BARBOSA DOS SANTOS",
-      "bairro": "VILA MASCOTE",
-      "cidade": "SAO PAULO",
-      "cnpj": "52.498.810/0001-13",
-      "estado": "SP",
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "299",
-      "nome_usur1": "BRYAN PALOPOLI - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "79957",
       "razao": "52.502.810 WALLACE SILVA DE ALMEIDA",
       "fantasia": "ALMEIDA DISTRIBUIDOR",
@@ -18480,22 +18336,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "34801",
-      "razao": "52.581.545 FABIO TELLES FORTES",
-      "fantasia": "FABIO TELLES",
-      "bairro": "CRUZEIRO",
-      "cidade": "RIBEIRAO DAS NEVES",
-      "cnpj": "52.581.545/0001-32",
-      "estado": "MG",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -19232,22 +19072,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "147",
       "nome_usur1": "THIAGO MENDES",
-      "codusur2": "241",
-      "nome_usur2": "ZEINALDO DE OLIVEIRA - OFF TRADE"
-    },
-    {
-      "codcli": "74642",
-      "razao": "53.071.259 DANIELA SANTOS DE OLIVEIRA TAVEIRA",
-      "fantasia": "DANIELA SANTOS DE OLIVEIRA TA",
-      "bairro": "JARDIM CAMPOMAR",
-      "cidade": "RIO DAS OSTRAS",
-      "cnpj": "53.071.259/0001-90",
-      "estado": "RJ",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "241",
       "nome_usur2": "ZEINALDO DE OLIVEIRA - OFF TRADE"
     },
@@ -21812,22 +21636,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "SOUZA"
     },
     {
-      "codcli": "92289",
-      "razao": "55.017.639 JOYCE SILVA SOUSA LEAL",
-      "fantasia": "JOYCE SILVA SOUSA LEAL",
-      "bairro": "PARQUE SÃO FRANCISCO",
-      "cidade": "FERRAZ DE VASCO",
-      "cnpj": "55.017.639/0001-71",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "81006",
       "razao": "55.027.060 DANIELLE MOITINHO DA SILVA",
       "fantasia": "DANIELLE MOITINHO DA SILVA",
@@ -21868,22 +21676,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "55.044.071/0001-88",
       "estado": "MG",
       "ramo": "OUTROS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "34965",
-      "razao": "55.047.962 MARIA ELIANA SOARES DA SILVA SANTOS",
-      "fantasia": "MARIA ELIANA",
-      "bairro": "RIACHO DAS PEDRAS",
-      "cidade": "CONTAGEM",
-      "cnpj": "55.047.962/0001-98",
-      "estado": "MG",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -24484,22 +24276,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "38392",
-      "razao": "57.396.444 PAULO HENRIQUE MARTINS DOS SANTOS FREITAS",
-      "fantasia": "HOUSE BEER-BAR & PESTISCARIA",
-      "bairro": "PALMITAL",
-      "cidade": "LAGOA SANTA",
-      "cnpj": "57.396.444/0001-05",
-      "estado": "MG",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "81344",
       "razao": "57.401.016 HIAGO SANTOS RANGEL",
       "fantasia": "57.401.016 HIAGO SANTOS RANGEL",
@@ -24816,22 +24592,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "147",
       "nome_usur1": "THIAGO MENDES",
-      "codusur2": "419",
-      "nome_usur2": "NÁTALI DE OLIVEIRA - OFF TRADE"
-    },
-    {
-      "codcli": "82050",
-      "razao": "57.569.325 SABRINA CORREIA DE OLIVEIRA",
-      "fantasia": "SABRINA CORREIA DE OLIVEIRA",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "57.569.325/0001-07",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA DE BEBIDAS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "419",
       "nome_usur2": "NÁTALI DE OLIVEIRA - OFF TRADE"
     },
@@ -26996,22 +26756,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "SOUZA"
     },
     {
-      "codcli": "92270",
-      "razao": "59.494.828 JESSICA DA SILVA GOMES LOPES",
-      "fantasia": "JESSICA DA SILVA GOMES LOPES",
-      "bairro": "VILA VIRGÍNIA",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "59.494.828/0001-96",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "81803",
       "razao": "59.564.315 FABIO JOSE DA CONCEICAO",
       "fantasia": "59.564.315 FABIO JOSE DA CONCEICAO",
@@ -27796,22 +27540,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92291",
-      "razao": "60.338.333 ALESSANDRA CAVALCANTE DE AMORIM",
-      "fantasia": "ALESSANDRA CAVALCANTE DE AMOR",
-      "bairro": "JARDIM VALPARAÍSO",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "60.338.333/0001-57",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "86242",
       "razao": "60.373.533 CHRISTINA VALERIA ROSA LOPES",
       "fantasia": "CHRISTINA VALERIA ROSA LOPES",
@@ -28532,22 +28260,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92327",
-      "razao": "61.181.861 LUCAS MATHEUS PEREIRA",
-      "fantasia": "ROMA COMERCIO DE PRODUTOS",
-      "bairro": "APARECIDINHA",
-      "cidade": "SOROCABA",
-      "cnpj": "61.181.861/0001-08",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "85938",
       "razao": "61.224.537 KELLSEN ALVES CERQUEIRA OLIVEIRA",
       "fantasia": "KELLSEN ALVES CERQUEIRA OLIVEIRA",
@@ -29212,38 +28924,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "62.063.852/0001-85",
       "estado": "RJ",
       "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "92331",
-      "razao": "62.076.550 RICARDO WEIDES TEIXEIRA JUNIOR",
-      "fantasia": "RICARDO WEIDES TEIXEIRA JUNIO",
-      "bairro": "JARDIM NOVA ITAQUÁ",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "62.076.550/0001-41",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
-      "codcli": "91039",
-      "razao": "62.096.520 FABIOLA FORTE COUTINHO",
-      "fantasia": "62.096.520 FABIOLA FORTE COUTINHO",
-      "bairro": "RICARDO DE ALBUQUERQUE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "62.096.520/0001-05",
-      "estado": "RJ",
-      "ramo": "EVENTOS",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -30100,22 +29780,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92293",
-      "razao": "63.422.765 WILLIAM DE OLIVEIRA VILELA",
-      "fantasia": "WILLIAM DE OLIVEIRA VILELA",
-      "bairro": "JARDIM MIRAY",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "63.422.765/0001-30",
-      "estado": "SP",
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "91622",
       "razao": "63.440.243 VALENTIN JUCIMAR MARIM",
       "fantasia": "HORTFRUT RENASCER",
@@ -30370,22 +30034,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "92314",
-      "razao": "64.184.973 JESSICA NATHALIA DA SILVA SANTOS",
-      "fantasia": "JESSICA NATHALIA DA SILVA SANTOS",
-      "bairro": "PARQUE VIVIANE",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "64.184.973/0001-00",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "92857",
@@ -30996,54 +30644,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92296",
-      "razao": "66.102.863 ERICA LUCENILDA OLIVEIRA DA PIA",
-      "fantasia": "ERICA LUCENILDA OLIVEIRA DA P",
-      "bairro": "BELA VISTA",
-      "cidade": "SAO PAULO",
-      "cnpj": "66.102.863/0001-88",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
-      "codcli": "92285",
-      "razao": "66.154.706 GUSTAVO DA PIA DE SANTANA",
-      "fantasia": "GUSTAVO DA PIA DE SANTANA",
-      "bairro": "BELA VISTA",
-      "cidade": "SAO PAULO",
-      "cnpj": "66.154.706/0001-16",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
-      "codcli": "92279",
-      "razao": "66.154.993 MARIA IRENI OLIVEIRA DA PIA",
-      "fantasia": "MARIA IRENI OLIVEIRA DA PIA",
-      "bairro": "BELA VISTA",
-      "cidade": "SAO PAULO",
-      "cnpj": "66.154.993/0001-64",
-      "estado": "SP",
-      "ramo": "TECNOLOGIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "51430",
       "razao": "66.211.091 LUANA MARQUES DA SILVA",
       "fantasia": "LUANA MARQUES DA SILVA",
@@ -31092,38 +30692,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92288",
-      "razao": "66.676.181 LAIS TALITA DA SILVA",
-      "fantasia": "LAIS TALITA DA SILVA",
-      "bairro": "JARDIM CACIQUE",
-      "cidade": "SUZANO",
-      "cnpj": "66.676.181/0001-89",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
-      "codcli": "92286",
-      "razao": "66.695.481 PAULO PEREIRA MACEDO",
-      "fantasia": "PAULO PEREIRA MACEDO",
-      "bairro": "BELA VISTA",
-      "cidade": "SAO PAULO",
-      "cnpj": "66.695.481/0001-05",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "50795",
       "razao": "66.830.097 LEONARDO PIOVESAN PRIETO DENADAI",
       "fantasia": "LEONARDO PIOVESAN PRIETO DENADAI",
@@ -31154,22 +30722,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RODRIGO LIMA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "92268",
-      "razao": "66.859.361 JUAN DE OLIVEIRA GUIMARAES",
-      "fantasia": "JUAN DE OLIVEIRA GUIMARAES",
-      "bairro": "VILA VIRGÍNIA",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "66.859.361/0001-04",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "95241",
@@ -32068,38 +31620,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "91761",
-      "razao": "A FORNADA ITAIM PAES E REFEICOES LTDA",
-      "fantasia": "A FORNADA PADARIA",
-      "bairro": "ITAIM BIBI",
-      "cidade": "SAO PAULO",
-      "cnpj": "37.231.868/0001-02",
-      "estado": "SP",
-      "ramo": "PADARIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "91762",
-      "razao": "A FORNADA PADARIA VNC PAES E REFEICOES LTDA",
-      "fantasia": "A FORNADA PADARIA",
-      "bairro": "VILA NOVA CONCEIÇÃO",
-      "cidade": "SAO PAULO",
-      "cnpj": "50.898.234/0001-76",
-      "estado": "SP",
-      "ramo": "PADARIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "194",
-      "nome_usur2": "NEWTON JUNIOR"
-    },
-    {
       "codcli": "84531",
       "razao": "A G B RESTAURANTE E CHOPERIA LTDA",
       "fantasia": "BAR DO CHEFAO",
@@ -32484,7 +32004,7 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
     {
-      "codcli": "80960",
+      "codcli": "43633",
       "razao": "A MATHIAS COMERCIO DE BEBIDAS E TABACARIA",
       "fantasia": "LA MERCADO DEPOSITO & CONVENIENCIAS",
       "bairro": "RECREIO DOS BANDEIRANTES",
@@ -32495,7 +32015,7 @@ const CLIENTES_RCA_DATA = {
       "key_account": false,
       "rede": "",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "INATIVO",
       "codusur2": "156",
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
@@ -33202,22 +32722,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "92294",
-      "razao": "A. MACENA DE OLIVEIRA",
-      "fantasia": "MACENA COMERCIO LTDA",
-      "bairro": "CIDADE KEMEL",
-      "cidade": "SAO PAULO",
-      "cnpj": "43.863.456/0001-98",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "81331",
@@ -36276,22 +35780,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
-      "codcli": "91213",
-      "razao": "ADEGA FARRET LTDA",
-      "fantasia": "ADEGA FARRET",
-      "bairro": "LAGOA NOVA",
-      "cidade": "NATAL",
-      "cnpj": "02.121.989/0001-17",
-      "estado": "RN",
-      "ramo": "COMERCIO VAREJISTA DE BEBIDAS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "38619",
       "razao": "ADEGA FERNANDES JARAGUA LTDA",
       "fantasia": "ADEGA FERNANDES JARAGUA",
@@ -36306,22 +35794,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "W.S",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "92284",
-      "razao": "ADEGA GALTER LTDA",
-      "fantasia": "ADEGA GALTER",
-      "bairro": "CIDADE KEMEL",
-      "cidade": "SAO PAULO",
-      "cnpj": "54.278.025/0001-80",
-      "estado": "SP",
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "23136",
@@ -37008,22 +36480,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "35606",
-      "razao": "ADELIO ANTUNES DE MACEDO 59258292634",
-      "fantasia": "ADELIO ANTUNES DE MACEDO",
-      "bairro": "CENTRO",
-      "cidade": "SAO JOSE DA LAPA",
-      "cnpj": "22.673.797/0001-20",
-      "estado": "MG",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -37716,22 +37172,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
-      "codcli": "90903",
-      "razao": "ADL BARIGUI LTDA",
-      "fantasia": "ADL BARIGUI",
-      "bairro": "MOSSUNGUE",
-      "cidade": "CURITIBA",
-      "cnpj": "55.707.847/0001-00",
-      "estado": "PR",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "91",
-      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "12008",
       "razao": "ADL COMERCIO DE PRODUTOS ALIMENTICIOS EIRELI",
       "fantasia": "REI DO 1 REAL",
@@ -37760,22 +37200,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
-      "codcli": "90901",
-      "razao": "ADL RESTAURANTE LTDA",
-      "fantasia": "ADL",
-      "bairro": "JUVEVE",
-      "cidade": "CURITIBA",
-      "cnpj": "11.806.183/0001-53",
-      "estado": "PR",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "91",
-      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -39570,22 +38994,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "80616",
-      "razao": "AGORA BR 40 ANOS POSTO DE COMBUSTIVEIS LTDA",
-      "fantasia": "POSTO LAGOA",
-      "bairro": "LAGOA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "19.454.387/0001-84",
-      "estado": "RJ",
-      "ramo": "POSTO DE GASOLINA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
     {
       "codcli": "73699",
@@ -43332,22 +42740,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92295",
-      "razao": "ALICE MARKET LTDA",
-      "fantasia": "ALICE SUPERMERCADO",
-      "bairro": "MORRO BRANCO",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "66.176.704/0001-28",
-      "estado": "SP",
-      "ramo": "MINI-MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "37642",
       "razao": "ALICE MENDONÇA",
       "fantasia": "ALICE MENDONÇA",
@@ -44212,22 +43604,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92106",
-      "razao": "ALLURE COMERCIAL IMPORTADORA E EXPORTADORA LTDA",
-      "fantasia": "ALLURE IMPORT",
-      "bairro": "ITAPUA",
-      "cidade": "VILA VELHA",
-      "cnpj": "23.300.661/0001-38",
-      "estado": "ES",
-      "ramo": "ATIVIDADE DE TELEVISAO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "91",
-      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "92291",
       "razao": "ALLYSON BASCO PINTO",
       "fantasia": "ALLYSON BASCO PINTO",
@@ -44532,22 +43908,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "81044",
-      "razao": "ALO BOTECO COMERCIO DE BEBIDAS LTDA",
-      "fantasia": "ALO BOTECO",
-      "bairro": "MUTUA",
-      "cidade": "SAO GONCALO",
-      "cnpj": "37.498.590/0001-34",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA DE BEBIDAS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "172",
-      "nome_usur2": "JOAO PEDRO - OFF TRADE"
-    },
-    {
       "codcli": "6596",
       "razao": "ALO MADRUGA IPANEMA ALIMENTOS LTDA",
       "fantasia": "ALO MADRUGA IPANEMA",
@@ -44640,22 +44000,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
-      "codcli": "90710",
-      "razao": "ALPHA GASTRONOMIA LTDA",
-      "fantasia": "ALPHA GASTRONOMIA",
-      "bairro": "ALPHAVILLE GRACIOSA",
-      "cidade": "PINHAIS",
-      "cnpj": "49.804.986/0001-41",
-      "estado": "PR",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "91",
-      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -47396,22 +46740,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "35210",
-      "razao": "ANA PAULA ARAUJO ROCHA",
-      "fantasia": "ANA PAULA ARAUJO ROCHA",
-      "bairro": "NAZARÉ",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "56.246.331/0001-60",
-      "estado": "MG",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "81729",
       "razao": "ANA PAULA DA SILVA DE OLIVEIRA",
       "fantasia": "ANA PAULA DA SILVA DE OLIVEIR",
@@ -47730,22 +47058,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
-    },
-    {
-      "codcli": "72372",
-      "razao": "ANA ROSA ESMALTERIA LTDA",
-      "fantasia": "ANA ROSA ESMALTERIA",
-      "bairro": "BARRA DA TIJUCA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "28.791.904/0001-00",
-      "estado": "RJ",
-      "ramo": "OUTROS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "252",
-      "nome_usur2": "JADDE CARVALHO"
     },
     {
       "codcli": "91013",
@@ -48338,22 +47650,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ANDRE SILVA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "92298",
-      "razao": "ANDRADE MAGAZINE LTDA",
-      "fantasia": "ANDRADE MAGAZINE",
-      "bairro": "JARDIM DO CARMO",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "57.880.404/0001-34",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "82169",
@@ -49408,22 +48704,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "155",
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
-      "codusur2": "155",
-      "nome_usur2": "RAPHAEL SANTOS - OFF TRADE"
-    },
-    {
-      "codcli": "5761",
-      "razao": "ANEXO PRAIA BUZIOS LTDA",
-      "fantasia": "ANEXO PRAIA BUZIOS",
-      "bairro": "MANGUINHOS",
-      "cidade": "ARMACAO DOS BUZ",
-      "cnpj": "11.410.389/0001-60",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "155",
       "nome_usur2": "RAPHAEL SANTOS - OFF TRADE"
     },
@@ -51444,22 +50724,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92138",
-      "razao": "APARECIDA DA SILVA 86106961972",
-      "fantasia": "ADEGA PONTO CERTO",
-      "bairro": "PARQUE RESIDENCIAL VILA UNIÃO",
-      "cidade": "CAMPINAS",
-      "cnpj": "29.004.073/0001-33",
-      "estado": "SP",
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "91",
-      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "25287",
       "razao": "APARECIDA DA SILVA 86106961972",
       "fantasia": "ADEGA PONTO CERTO",
@@ -51506,22 +50770,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "GISELLE BARFER - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "85585",
-      "razao": "APC DELIVERY LTDA",
-      "fantasia": "APC DELIVERY",
-      "bairro": "CAVALEIROS",
-      "cidade": "MACAE",
-      "cnpj": "15.274.797/0001-92",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "159",
-      "nome_usur2": "GISELLE BARFER - OFF TRADE"
     },
     {
       "codcli": "30149",
@@ -51618,22 +50866,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "549",
       "nome_usur2": "FERNANDO GOMES"
-    },
-    {
-      "codcli": "92335",
-      "razao": "APM DISTRIBUICAO LTDA",
-      "fantasia": "APM DISTRIBUICAO",
-      "bairro": "JARDIM DAS OLIVEIRAS",
-      "cidade": "SAO PAULO",
-      "cnpj": "65.221.956/0001-69",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "72501",
@@ -52244,6 +51476,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "FERNANDA CAMBOIM"
     },
     {
+      "codcli": "38047",
+      "razao": "ARAUJO PADARIA E PIZZARIA LAGOA SANTA LTDA",
+      "fantasia": "ARAUJO PADARIA E PIZZARIA",
+      "bairro": "VÁRZEA",
+      "cidade": "LAGOA SANTA",
+      "cnpj": "34.015.001/0001-21",
+      "estado": "MG",
+      "ramo": "PADARIA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "354",
+      "nome_usur1": "MATHEUS DE SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "79266",
       "razao": "ARAUJOS & SOUZAS EMPREENDIMENTOS IMOBILIARIOS LTDA",
       "fantasia": "ARAUJOS & SOUZAS EMPREENDIMENTOS",
@@ -52320,22 +51568,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "412",
       "nome_usur1": "BARBARA CABRAL - OFF TRADE",
-      "codusur2": "412",
-      "nome_usur2": "BARBARA CABRAL - OFF TRADE"
-    },
-    {
-      "codcli": "78327",
-      "razao": "ARCANJO EXPRESS CONVENIENCIA LTDA",
-      "fantasia": "ARCANJO EXPRESS CONVENIENCIA",
-      "bairro": "SENADOR VASCONCELOS",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "28.067.927/0001-68",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "412",
       "nome_usur2": "BARBARA CABRAL - OFF TRADE"
     },
@@ -52796,22 +52028,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "42.667.560/0001-44",
       "estado": "RJ",
       "ramo": "CLUBE ESPORTIVO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "84994",
-      "razao": "ARENA PORTUGA LTDA",
-      "fantasia": "ARENA PORTUGA",
-      "bairro": "CALIFÓRNIA",
-      "cidade": "NOVA IGUACU",
-      "cnpj": "58.176.917/0001-21",
-      "estado": "RJ",
-      "ramo": "BAR",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -54276,22 +53492,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ANDRE MATTOS"
     },
     {
-      "codcli": "92300",
-      "razao": "ARS GROUP BRASIL LTDA",
-      "fantasia": "ARS GROUP",
-      "bairro": "IMIRIM",
-      "cidade": "SAO PAULO",
-      "cnpj": "53.867.376/0001-64",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "80464",
       "razao": "ART BEER CAMORIM LTDA",
       "fantasia": "ART BEER - JACAREPAGUA",
@@ -55650,22 +54850,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "59221",
-      "razao": "AST VOVO LEDA COMERCIO DE ALIMENTOS EIRELI",
-      "fantasia": "O QUEIJAO",
-      "bairro": "PARQUE SANTA LUCIA",
-      "cidade": "DUQUE DE CAXIAS",
-      "cnpj": "31.278.834/0001-97",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
     {
       "codcli": "73228",
@@ -57387,22 +56571,6 @@ const CLIENTES_RCA_DATA = {
       "cidade": "RIO DE JANEIRO",
       "cnpj": "05.445.394/0001-05",
       "estado": "RJ",
-      "ramo": "LOJAS DE CONVENIENCIA/ VARIEDADES",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "412",
-      "nome_usur2": "BARBARA CABRAL - OFF TRADE"
-    },
-    {
-      "codcli": "3081",
-      "razao": "AUTO POSTO ARARAJUBA LTDA",
-      "fantasia": "POSTO ARARAJUBA",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "05.445.394/0001-05",
-      "estado": "RJ",
       "ramo": "CONVENIENCIA",
       "key_account": false,
       "rede": "",
@@ -57684,22 +56852,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
     {
-      "codcli": "11534",
-      "razao": "AUTO POSTO DE GASOLINA E SERVICOS L & Z LTDA",
-      "fantasia": "LZ CONVENIENCIA",
-      "bairro": "VARGEM GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "31.190.986/0001-33",
-      "estado": "RJ",
-      "ramo": "LOJAS DE CONVENIENCIA/ VARIEDADES",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
-    },
-    {
       "codcli": "82914",
       "razao": "AUTO POSTO DOS AFONSOS LTDA",
       "fantasia": "AUTO POSTO DOS AFONSOS",
@@ -57778,22 +56930,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "61",
-      "razao": "AUTO POSTO EXCEDE LTDA",
-      "fantasia": "AUTO POSTO EXCEDE",
-      "bairro": "LAGOA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "34.147.157/0001-66",
-      "estado": "RJ",
-      "ramo": "LOJAS DE CONVENIENCIA/ VARIEDADES",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
     {
       "codcli": "61",
@@ -58498,22 +57634,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "82253",
-      "razao": "AUTO POSTO RUI BARBOSA LTDA",
-      "fantasia": "AUTO POSTO RUI BARBOSA",
-      "bairro": "FLAMENGO",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "10.418.848/0001-99",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
     {
       "codcli": "1987",
@@ -59564,22 +58684,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "07.083.987/0001-02",
       "estado": "MG",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "34984",
-      "razao": "AYLTON JOSE DE ALMEIDA MOTTA",
-      "fantasia": "LANCHONETE",
-      "bairro": "SANTA EFIGENIA",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "29.949.394/0001-00",
-      "estado": "MG",
-      "ramo": "CAFÉ/LANCHONETE",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -66036,22 +65140,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "2122",
-      "razao": "BAR E RESTAURANTE OPERA DA LAPA",
-      "fantasia": "BOTECO DA GARRAFA",
-      "bairro": "CENTRO",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "10.447.644/0001-86",
-      "estado": "RJ",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "13193",
       "razao": "BAR E RESTAURANTE ORIGINAL STEAK HOUSE LTDA",
       "fantasia": "BUTECO ORIGINAL STEAK HOUSE",
@@ -68799,7 +67887,7 @@ const CLIENTES_RCA_DATA = {
       "key_account": false,
       "rede": "",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "INATIVO",
       "codusur2": "144",
       "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
     },
@@ -68848,22 +67936,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "156",
       "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
-    },
-    {
-      "codcli": "3713",
-      "razao": "BARRA GAS COM. E SERVICOS LTDA",
-      "fantasia": "BARRA GAS COM. E SERVICOS LTDA",
-      "bairro": "JACAREPAGUA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "11.513.372/0001-38",
-      "estado": "RJ",
-      "ramo": "LOJAS DE CONVENIENCIA/ VARIEDADES",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "156",
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
@@ -70932,22 +70004,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "55051",
-      "razao": "BELA BAGUETE PADARIA E CONFEITARIA LTDA",
-      "fantasia": "BELA BAGUETE PADARIA E CONFEITARIA LTDA",
-      "bairro": "VARGEM GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "31.662.407/0001-08",
-      "estado": "RJ",
-      "ramo": "PADARIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "144",
-      "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
-    },
-    {
       "codcli": "6490",
       "razao": "BELA LOJA DE CONVENIENCIA JUREMA LTDA",
       "fantasia": "POSTO JUREMA POSTO BR",
@@ -72020,6 +71076,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "KEYTY FELICIO"
     },
     {
+      "codcli": "37822",
+      "razao": "BEROLA DISTRIBUIDOR E ATACADISTA LTDA",
+      "fantasia": "BEROLA DISTRIBUIDOR E ATACADISTA LTDA",
+      "bairro": "CHACARAS REUNIDAS SANTA TEREZINHA",
+      "cidade": "CONTAGEM",
+      "cnpj": "16.553.224/0007-56",
+      "estado": "MG",
+      "ramo": "COMERCIO VAREJISTA (GERAL)",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "388",
+      "nome_usur1": "DOUGLAS FERREIRA SILVA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "38212",
       "razao": "BERTIN BEBIDAS LTDA",
       "fantasia": "BERTIN BEBIDAS",
@@ -72943,7 +72015,7 @@ const CLIENTES_RCA_DATA = {
       "key_account": true,
       "rede": "",
       "codusur1": "378",
-      "nome_usur1": "JETER LUCIO SOARES",
+      "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
       "codusur2": "343",
       "nome_usur2": "FERNANDO RISSON - OFF TRADE"
     },
@@ -74244,22 +73316,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92304",
-      "razao": "BLR MARKETPLACE DE VARIEDADES LTDA",
-      "fantasia": "BLR MARKETPLACE",
-      "bairro": "ÁGUA VERMELHA",
-      "cidade": "POA",
-      "cnpj": "64.711.148/0001-17",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "72241",
       "razao": "BLSV CONSTRUCOES REFORMAS E PROJETOS LTDA",
       "fantasia": "ATM HOME AUTOMACAO RESIDENCIAL",
@@ -75492,22 +74548,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
-      "codcli": "90717",
-      "razao": "BONATO & BONATO LTDA",
-      "fantasia": "BONATO & BONATO",
-      "bairro": "REBOUCAS",
-      "cidade": "CURITIBA",
-      "cnpj": "03.117.840/0001-27",
-      "estado": "PR",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "91",
-      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "29973",
       "razao": "BONDAN & BONDAN CAFE CATERING LTDA",
       "fantasia": "BONDAN & BONDAN",
@@ -76122,22 +75162,6 @@ const CLIENTES_RCA_DATA = {
       "bairro": "VILA ISABEL",
       "cidade": "RIO DE JANEIRO",
       "cnpj": "50.250.847/0001-00",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "84789",
-      "razao": "BOTECO 184 LTDA",
-      "fantasia": "ESTACAO 184",
-      "bairro": "CATETE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "46.859.491/0001-21",
       "estado": "RJ",
       "ramo": "RESTAURANTE",
       "key_account": false,
@@ -77012,22 +76036,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "INATIVO2"
     },
     {
-      "codcli": "84233",
-      "razao": "BOUTIQUE CARIOCA COMERCIO DE MERCADORIAS LTDA",
-      "fantasia": "BOUTIQUE CARIOCA COMERCIO DE MERCADORIAS",
-      "bairro": "JACAREPAGUA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "59.757.414/0001-02",
-      "estado": "RJ",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "229",
-      "nome_usur2": "LUIZA HASSEN"
-    },
-    {
       "codcli": "95798",
       "razao": "BOUTIQUE DAS CARNES SAO VICENTE LTDA",
       "fantasia": "BOUTIQUE DAS CARNES",
@@ -77730,22 +76738,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "229",
       "nome_usur2": "LUIZA HASSEN"
-    },
-    {
-      "codcli": "82127",
-      "razao": "BRASEIRO DON PACO LTDA",
-      "fantasia": "BRASEIRO DON PACO",
-      "bairro": "VILA VALQUEIRE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "57.187.798/0001-40",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "91873",
@@ -79136,22 +78128,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "412",
       "nome_usur1": "BARBARA CABRAL - OFF TRADE",
-      "codusur2": "412",
-      "nome_usur2": "BARBARA CABRAL - OFF TRADE"
-    },
-    {
-      "codcli": "79324",
-      "razao": "BRITO'S ALIMENTOS LTDA",
-      "fantasia": "MCA",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "51.009.178/0001-34",
-      "estado": "RJ",
-      "ramo": "PADARIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "412",
       "nome_usur2": "BARBARA CABRAL - OFF TRADE"
     },
@@ -81092,22 +80068,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92040",
-      "razao": "BRYAN OLIVEIRA PALOPOLI",
-      "fantasia": "BRYAN OLIVEIRA PALOPOLI",
-      "bairro": "PIRAJUSSARA",
-      "cidade": "SAO PAULO",
-      "cnpj": "410.733.408-21",
-      "estado": "SP",
-      "ramo": "PESSOA FISICA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "299",
-      "nome_usur1": "BRYAN PALOPOLI - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "32146",
       "razao": "BRYAN VINICIUS FREITAS DO NASCIMENTO 01984941658",
       "fantasia": "BARBEARIA",
@@ -81844,22 +80804,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "72345",
-      "razao": "BUTECO DA RESENHA LTDA",
-      "fantasia": "PROVISORIO",
-      "bairro": "RANCHO NOVO",
-      "cidade": "NOVA IGUACU",
-      "cnpj": "47.536.846/0001-04",
-      "estado": "RJ",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "77360",
       "razao": "BUTECO DU JOAO LTDA",
       "fantasia": "BUTECO DU JOAO",
@@ -82228,22 +81172,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "92318",
-      "razao": "BYESSENZA COMERCIO DE PRODUTOS EM GERAL",
-      "fantasia": "BYESSENZA COMERCIO DE PRODUTOS EM GERAL",
-      "bairro": "JARDIM CAMPOS",
-      "cidade": "SAO PAULO",
-      "cnpj": "62.917.797/0001-43",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "33561",
       "razao": "BYTOR COMERCIO VAREJISTA DE BEBIDAS E AFINS LTDA",
       "fantasia": "BYTOR",
@@ -82274,22 +81202,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
       "codusur2": "313",
       "nome_usur2": "ANDRE MATTOS"
-    },
-    {
-      "codcli": "58597",
-      "razao": "BZ 01 LA PEDRERA POUSADA LTDA",
-      "fantasia": "LA PEDRERA SMALL HOTEL e SPA",
-      "bairro": "JOAO FERNANDES",
-      "cidade": "ARMACAO DOS BUZ",
-      "cnpj": "38.343.530/0001-05",
-      "estado": "RJ",
-      "ramo": "HOTEL",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "155",
-      "nome_usur2": "RAPHAEL SANTOS - OFF TRADE"
     },
     {
       "codcli": "82064",
@@ -82466,22 +81378,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
-      "codcli": "67893",
-      "razao": "C A S CONCEICAO BAR E RESTAURANTE",
-      "fantasia": "MATCH POINT RESTAURANTE",
-      "bairro": "PRAIA DO PECADO",
-      "cidade": "MACAE",
-      "cnpj": "11.208.538/0001-02",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "43",
-      "nome_usur2": "SOUZA"
     },
     {
       "codcli": "80563",
@@ -83282,22 +82178,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "92287",
-      "razao": "C.R.C E-COMMERCE LTDA",
-      "fantasia": "C.R.C E-COMMERCE",
-      "bairro": "JARDIM SANTA LUIZA",
-      "cidade": "POA",
-      "cnpj": "66.548.584/0001-42",
-      "estado": "SP",
-      "ramo": "TECNOLOGIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "71617",
@@ -86774,22 +85654,6 @@ const CLIENTES_RCA_DATA = {
     {
       "codcli": "14921",
       "razao": "CAMBOTA BAZAR E MERCEARIA LTDA",
-      "fantasia": "CAMBOTA BAZAR E MERCEARIA LTDA",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "35.609.984/0001-97",
-      "estado": "RJ",
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "170",
-      "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
-    },
-    {
-      "codcli": "14921",
-      "razao": "CAMBOTA BAZAR E MERCEARIA LTDA",
       "fantasia": "CAMBOTA BAZAR E MERCEARIA",
       "bairro": "CAMPO GRANDE",
       "cidade": "RIO DE JANEIRO",
@@ -88642,22 +87506,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "2075",
-      "razao": "CARBAT DIST. E ASSE. DO COM. DE DERIVADOS DE PETROLEO LTDA",
-      "fantasia": "LOJA CARBAT",
-      "bairro": "FREGUESIA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "29.456.787/0001-82",
-      "estado": "RJ",
-      "ramo": "ESCRITORIO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
     {
       "codcli": "2075",
@@ -93700,6 +92548,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
+      "codcli": "23667",
+      "razao": "CBB BAR E RESTAURANTE EIRELI",
+      "fantasia": "SANTONOFRE BOTECO E BISTRO",
+      "bairro": "JARDIM ALVORADA",
+      "cidade": "SAO JOSE DOS CAMPOS",
+      "cnpj": "15.465.582/0001-59",
+      "estado": "SP",
+      "ramo": "BAR",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "425",
+      "nome_usur1": "BRUNO BARBOSA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "74748",
       "razao": "CBC CENTRO AUTOMOTIVO LTDA",
       "fantasia": "CBC - CENTRO (NOVA IGUACU)",
@@ -94204,22 +93068,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "45.740.423/0001-86",
       "estado": "RJ",
       "ramo": "EVENTOS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "3320",
-      "razao": "CELIMAR HOTEIS LTDA",
-      "fantasia": "CELIMAR HOTEIS",
-      "bairro": "COPACABANA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "02.476.318/0001-79",
-      "estado": "RJ",
-      "ramo": "HOTELARIA",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -96708,22 +95556,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "NÁTALI DE OLIVEIRA - OFF TRADE"
     },
     {
-      "codcli": "73653",
-      "razao": "CHARLES SILVA DE AQUINO 15692489740",
-      "fantasia": "DEPOSITO PAI E FILHO",
-      "bairro": "SANTA CRUZ",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "32.318.521/0001-88",
-      "estado": "RJ",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "419",
-      "nome_usur2": "NÁTALI DE OLIVEIRA - OFF TRADE"
-    },
-    {
       "codcli": "2137",
       "razao": "CHARLOTTE LOJA DE CONVENIENCIA LTDA",
       "fantasia": "",
@@ -98100,22 +96932,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "80372",
-      "razao": "CHURRASCARIA PLATAFORMA LTDA",
-      "fantasia": "CHURRASCARIA PLATAFORMA",
-      "bairro": "IPANEMA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "57.341.436/0001-61",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "316",
-      "nome_usur2": "RODRIGO FREITAS"
-    },
-    {
       "codcli": "38016",
       "razao": "CHURRASCARIA PONTO DA ASINHA LTDA",
       "fantasia": "CHURRASCARIA PONTO D",
@@ -98206,8 +97022,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "RESTAURANTE",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
+      "codusur1": "327",
+      "nome_usur1": "JOÃO SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -99714,22 +98530,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "549",
       "nome_usur2": "FERNANDO GOMES"
-    },
-    {
-      "codcli": "34547",
-      "razao": "CLAUDIA CARDINALI DE OLIVEIRA",
-      "fantasia": "GOLACO DE ESQUINA",
-      "bairro": "CALIFORNIA",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "41.042.068/0001-10",
-      "estado": "MG",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "85738",
@@ -101476,22 +100276,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
-      "codcli": "50782",
-      "razao": "CLUBE NAUTICO DE CABO FRIO",
-      "fantasia": "CLUBE NAUTICO DE CABO FRIO",
-      "bairro": "OGIVA",
-      "cidade": "CABO FRIO",
-      "cnpj": "28.907.194/0001-22",
-      "estado": "RJ",
-      "ramo": "OUTROS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "319",
-      "nome_usur2": "FERNANDA CAMBOIM"
-    },
-    {
       "codcli": "54354",
       "razao": "CLUBE RECREATIVO RIO BEACH CLUB",
       "fantasia": "RIO BEACH CLUB",
@@ -101908,22 +100692,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "84459",
-      "razao": "COLDBEER COMERCIO DE BEBIDAS LTDA",
-      "fantasia": "COLDBEER",
-      "bairro": "REALENGO",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "54.040.344/0001-53",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA DE BEBIDAS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "144",
-      "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
-    },
-    {
       "codcli": "71534",
       "razao": "COLETIVO BAR",
       "fantasia": "COLETIVO BAR",
@@ -102219,11 +100987,11 @@ const CLIENTES_RCA_DATA = {
       "cidade": "RIO DE JANEIRO",
       "cnpj": "33.743.618/0001-09",
       "estado": "RJ",
-      "ramo": "CAFE/LANCHONETE",
+      "ramo": "CAFÉ/LANCHONETE",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "INATIVO",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -102372,22 +101140,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "3487",
-      "razao": "COMBUSTÍVEIS LOBINHO LTDA",
-      "fantasia": "POSTO IPIRANGA",
-      "bairro": "ESTÁCIO",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "01.351.380/0001-71",
-      "estado": "RJ",
-      "ramo": "LOJAS DE CONVENIENCIA/ VARIEDADES",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
-    },
-    {
       "codcli": "26390",
       "razao": "COME HERE BAR LANCHES E COMERCIO DE ALIMENTOS LTDA",
       "fantasia": "COME HERE BAR LANCHES E COMERCIO DE ALIMENTOS LTDA",
@@ -102420,22 +101172,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "34971",
-      "razao": "COMERCIAL  NOVA CONTAGEM",
-      "fantasia": "COMERCIAL  NOVA CONT",
-      "bairro": "NOVA CONTAGEM",
-      "cidade": "CONTAGEM",
-      "cnpj": "28.142.622/0001-73",
-      "estado": "MG",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "56255",
       "razao": "COMERCIAL 2 REZENDE ALIMENTOS LTDA",
       "fantasia": "REDE UNIDOS MADUREIRA",
@@ -102450,22 +101186,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "56255",
-      "razao": "COMERCIAL 2 REZENDE ALIMENTOS LTDA",
-      "fantasia": "REDE UNIDOS MADUREIRA",
-      "bairro": "MADUREIRA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "17.479.543/0001-36",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "144",
-      "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
     },
     {
       "codcli": "21006",
@@ -104052,22 +102772,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92317",
-      "razao": "COMERCIAL MG DISTRIBUICAO LTDA",
-      "fantasia": "MERCADINHO MORRO BRANCO",
-      "bairro": "VILA GOMES CARDIM",
-      "cidade": "SAO PAULO",
-      "cnpj": "58.378.045/0001-84",
-      "estado": "SP",
-      "ramo": "MINI-MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "37915",
       "razao": "COMERCIAL MICHAEL LTDA",
       "fantasia": "SUPERMERCADO MOREIRAO",
@@ -104274,22 +102978,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
-      "codcli": "92322",
-      "razao": "COMERCIAL NOVAIS LTDA",
-      "fantasia": "COMERCIAL NOVAIS",
-      "bairro": "VILA VICENTINA",
-      "cidade": "GUARULHOS",
-      "cnpj": "49.383.709/0001-02",
-      "estado": "SP",
-      "ramo": "MINI-MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "39240",
@@ -105620,22 +104308,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "78463",
-      "razao": "COMERCIO DE BEBIDAS E CONVENIENCIAS RAVAIAH LTDA",
-      "fantasia": "IMPERIO DAS BEBIDAS E CONVENIENCIAS",
-      "bairro": "PIRATININGA",
-      "cidade": "NITEROI",
-      "cnpj": "55.760.306/0001-38",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA DE BEBIDAS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "52147",
       "razao": "COMERCIO DE BEBIDAS E GAS GONCALVES LTDA",
       "fantasia": "COMERCIO DE BEBIDAS E GAS GONCALVES LTDA",
@@ -105970,22 +104642,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "76968",
-      "razao": "COMERCIO DE PRODUTOS ALIMENTICIOS SACOLAO DA MARINHA LTDA",
-      "fantasia": "MINI MERCADO DA MARINHA",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "11.159.358/0001-88",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "170",
-      "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
     },
     {
       "codcli": "50262",
@@ -106404,22 +105060,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "RAPHAEL SANTOS - OFF TRADE"
     },
     {
-      "codcli": "73559",
-      "razao": "COMUKERIA ALIMENTOS LTDA",
-      "fantasia": "COMUKERIA ALIMENTOS",
-      "bairro": "MANGUINHOS",
-      "cidade": "ARMACAO DOS BUZ",
-      "cnpj": "52.916.993/0001-40",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "155",
-      "nome_usur2": "RAPHAEL SANTOS - OFF TRADE"
-    },
-    {
       "codcli": "78074",
       "razao": "COMUNIDADE CATOLICA SHALOM",
       "fantasia": "COMUNIDADE CATOLICA SHALOM",
@@ -106576,6 +105216,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52207",
+      "razao": "CONDE SUPERMERCADO LTDA",
+      "fantasia": "CONDE SUPERMERCADO",
+      "bairro": "CENTRO",
+      "cidade": "UBATUBA",
+      "cnpj": "10.932.639/0001-69",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "516",
+      "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -107330,22 +105986,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
-    },
-    {
-      "codcli": "92333",
-      "razao": "CONTI DISTRIBUICAO LTDA",
-      "fantasia": "CONTI DISTRIBUICAO",
-      "bairro": "VILA PARANAGUÁ",
-      "cidade": "SAO PAULO",
-      "cnpj": "64.460.915/0001-62",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "30930",
@@ -108612,22 +107252,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92310",
-      "razao": "CORTE FRIO DISTRIBUIDORA LTDA",
-      "fantasia": "CORTE FRIOS",
-      "bairro": "CIDADE KEMEL",
-      "cidade": "SAO PAULO",
-      "cnpj": "57.528.989/0001-28",
-      "estado": "SP",
-      "ramo": "TECNOLOGIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "68130",
       "razao": "CORTES MANFROI BAR E PIZZARIA LTDA",
       "fantasia": "BARTHO SAO CONRADO",
@@ -108868,22 +107492,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "79249",
-      "razao": "COSTA AZUL CONVENIENCIAS LTDA",
-      "fantasia": "COSTA AZUL CONVENIENCIAS",
-      "bairro": "VISTA ALEGRE",
-      "cidade": "SAO GONCALO",
-      "cnpj": "36.097.451/0001-36",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "161",
-      "nome_usur2": "ARLLEY FIGUEIREDO - OFF TRADE"
-    },
-    {
       "codcli": "77615",
       "razao": "COSTA BELA COMERCIO DE ALIMENTOS LTDA",
       "fantasia": "SUPERMERCADO E PADARIA COSTA BELA",
@@ -108946,22 +107554,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "74535",
-      "razao": "COSTA RAVELLO RESTAURANTE LTDA",
-      "fantasia": "RESTAURANTE TRADICIONAL",
-      "bairro": "PRAIA DO PECADO",
-      "cidade": "MACAE",
-      "cnpj": "35.157.222/0001-05",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "313",
-      "nome_usur2": "ANDRE MATTOS"
     },
     {
       "codcli": "86454",
@@ -110836,22 +109428,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "63885",
-      "razao": "CS MARTINS EMPRESA ALIMENTICIA LTDA",
-      "fantasia": "CMMARKET",
-      "bairro": "CAMORIM",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "45.126.433/0001-26",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "50374",
       "razao": "CS SOUZA COMUNICACAO VISUAL",
       "fantasia": "DINUCCI IMPRESSAO DIGITAL",
@@ -111764,22 +110340,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "32768",
-      "razao": "D S SOUZA BAR E RESTAURANTE LTDA",
-      "fantasia": "BAR E PETISQUEIRA PADRE ROLIM",
-      "bairro": "SANTA EFIGENIA",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "43.624.316/0001-67",
-      "estado": "MG",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "327",
-      "nome_usur1": "JOÃO SANTOS - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "77766",
       "razao": "D V NUNES FILHO - MERCEARIA L & E",
       "fantasia": "MERCEARIA L&E",
@@ -111810,22 +110370,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "29516",
-      "razao": "D&C COMERCIO DE BEBIDAS LTDA",
-      "fantasia": "SUPER BEBIDAZ",
-      "bairro": "BURITIS",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "42.133.445/0001-90",
-      "estado": "MG",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "412",
-      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "10799",
@@ -111954,22 +110498,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "92266",
-      "razao": "D'SAMPA STORE LTDA",
-      "fantasia": "D'SAMPA STORE",
-      "bairro": "LUZ",
-      "cidade": "SAO PAULO",
-      "cnpj": "57.592.116/0001-84",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "94404",
@@ -112276,22 +110804,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92275",
-      "razao": "D.S.A. MAGAZINE LTDA",
-      "fantasia": "D.S.A. MAGAZINE",
-      "bairro": "JARDIM DAS OLIVEIRAS",
-      "cidade": "SAO PAULO",
-      "cnpj": "58.101.238/0001-93",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "82268",
       "razao": "DA HORTA VERTICE COMERCIO DE ALIMENTOS L",
       "fantasia": "DA HORTA ALIMENTOS S",
@@ -112306,22 +110818,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "61414",
-      "razao": "DA LUA MERCADO LTDA",
-      "fantasia": "DA LUA MERCADO LTDA",
-      "bairro": "PENHA CIRCULAR",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "37.426.945/0001-80",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
     {
       "codcli": "33331",
@@ -112452,22 +110948,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "10996",
-      "razao": "DAEW BAR E RESTAURANTE LTDA",
-      "fantasia": "BOTERO",
-      "bairro": "FLAMENGO",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "33.341.112/0001-65",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "319",
-      "nome_usur2": "FERNANDA CAMBOIM"
-    },
-    {
       "codcli": "30066",
       "razao": "DAGLIONE DELIVERI EIRELI",
       "fantasia": "DAGLIONE DELIVERI EIRELI",
@@ -112480,6 +110960,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52226",
+      "razao": "DAGO RESTAURANTE PIZZA BAR LTDA",
+      "fantasia": "DAGO RESTAURANTE E PIZZARIA",
+      "bairro": "MARTIM DE SÁ",
+      "cidade": "CARAGUATATUBA",
+      "cnpj": "44.249.297/0001-07",
+      "estado": "SP",
+      "ramo": "RESTAURANTE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "516",
+      "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -114388,22 +112884,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92346",
-      "razao": "DARLING SHOP COMERCIO DE PRODUTOS LTDA",
-      "fantasia": "DARLING SHOP COMERCIO DE PRODUTOS",
-      "bairro": "VILA VIRGÍNIA",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "64.838.308/0001-93",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "7374",
       "razao": "DARLON JAFET DE MOURA SANTOS SANTOS",
       "fantasia": "DARLON JAFET DE MOURA SANTOS SANTOS",
@@ -115070,8 +113550,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "COMERCIO VAREJISTA (GERAL)",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
+      "codusur1": "355",
+      "nome_usur1": "ANDRE LUIZ",
       "codusur2": "343",
       "nome_usur2": "FERNANDO RISSON - OFF TRADE"
     },
@@ -115474,22 +113954,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "50687",
-      "razao": "DE SOUZA VALLE MERCADO E DISTRIBUIDORA DE BEBIDAS EIRELI",
-      "fantasia": "DE SOUZA VALLE MERCADO",
-      "bairro": "RAUL VEIGA",
-      "cidade": "SAO GONCALO",
-      "cnpj": "35.895.055/0001-91",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "49375",
@@ -117444,22 +115908,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ANGELO NEVES SUZART - OFF TRADE"
     },
     {
-      "codcli": "84516",
-      "razao": "DEPOSITO DE BEBIDAS E MERCEARIA RP LTDA",
-      "fantasia": "RP COMERCIO DE BEBIDAS",
-      "bairro": "ANCHIETA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "31.551.102/0001-29",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA DE BEBIDAS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "153",
-      "nome_usur2": "ANGELO NEVES SUZART - OFF TRADE"
-    },
-    {
       "codcli": "85075",
       "razao": "DEPOSITO DE BEBIDAS E MERCEARIA SIPIONE LTDA",
       "fantasia": "SIPIONE DISTRIBUIDORA DE BEBIDAS",
@@ -118148,6 +116596,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "95866",
+      "razao": "DESCARTAVEIS CENTRAL DE SANTA CRUZ LTDA",
+      "fantasia": "DESCARTAVEIS CENTRAL DE SANTA CRUZ",
+      "bairro": "PADRE MIGUEL",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "61.919.237/0001-65",
+      "estado": "RJ",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "431",
+      "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "55432",
       "razao": "DESIGUAL BAR E PETISCOS LTDA",
       "fantasia": "CAPTAIN'S BAR",
@@ -118322,22 +116786,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "19138",
-      "razao": "DEVAJO MERCEARIA LTDA",
-      "fantasia": "DEVAJO MERCEARIA LTDA",
-      "bairro": "PACIENCIA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "10.804.669/0002-70",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "170",
-      "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
     },
     {
       "codcli": "19138",
@@ -119204,22 +117652,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
-      "codcli": "92020",
-      "razao": "DIEGO BERNARDINO SILVA",
-      "fantasia": "IMAGINUMSUSHI",
-      "bairro": "VILA IZABEL",
-      "cidade": "CURITIBA",
-      "cnpj": "08.191.575/0001-40",
-      "estado": "PR",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "91",
-      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "70932",
       "razao": "DIEGO C A LIMA LTDA",
       "fantasia": "ESPETTO CARIOCA",
@@ -119714,22 +118146,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "TIAGO ANDRADE - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "92302",
-      "razao": "DIGITAL COMMERCE STORE LTDA",
-      "fantasia": "DIGITAL COMMERCE STORE",
-      "bairro": "JARDIM ARACARE",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "65.446.589/0001-00",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "112",
-      "nome_usur2": "LUCAS MATIAS"
     },
     {
       "codcli": "74180",
@@ -120692,22 +119108,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "92306",
-      "razao": "DISTRIBUICAO MRD LTDA",
-      "fantasia": "DISTRIBUICAO MRD",
-      "bairro": "CENTRO",
-      "cidade": "SAO PAULO",
-      "cnpj": "65.591.336/0001-11",
-      "estado": "SP",
-      "ramo": "EMPORIO/BAZAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "51010",
       "razao": "DISTRIBUIDOR DE ALIMENTOS E BEBIDAS FERREIRA LTDA",
       "fantasia": "DISTRIBUIDOR DE ALIMENTOS E BEBIDAS FERR",
@@ -120782,8 +119182,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "TABACARIA",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
+      "codusur1": "355",
+      "nome_usur1": "ANDRE LUIZ",
       "codusur2": "343",
       "nome_usur2": "FERNANDO RISSON - OFF TRADE"
     },
@@ -120996,6 +119396,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "39717",
+      "razao": "DISTRIBUIDORA BETAO AGUA E GAS LTDA.",
+      "fantasia": "DISTRIBUIDORA BETAO",
+      "bairro": "VÁRZEA",
+      "cidade": "LAGOA SANTA",
+      "cnpj": "04.939.154/0002-85",
+      "estado": "MG",
+      "ramo": "COMERCIO VAREJISTA (GERAL)",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "354",
+      "nome_usur1": "MATHEUS DE SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "30738",
       "razao": "DISTRIBUIDORA BIRITIS BEER LTDA",
       "fantasia": "BIRITIS BEER",
@@ -121086,8 +119502,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "COMERCIO VAREJISTA (GERAL)",
       "key_account": false,
       "rede": "",
-      "codusur1": "362",
-      "nome_usur1": "BRUNA CASTRO MELLO - OFF TRADE",
+      "codusur1": "344",
+      "nome_usur1": "TIAGO ANDRADE - OFF TRADE",
       "codusur2": "343",
       "nome_usur2": "FERNANDO RISSON - OFF TRADE"
     },
@@ -121218,22 +119634,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "332",
       "nome_usur2": "JORGEANE MERIGUETTE"
-    },
-    {
-      "codcli": "90512",
-      "razao": "DISTRIBUIDORA DE ALIMENTOS DE ESTIVAS E CEREAIS CELINHO LTDA",
-      "fantasia": "DISTRIBUIDORA DE ALIMENTOS DE ESTIVAS E",
-      "bairro": "CURADO",
-      "cidade": "RECIFE",
-      "cnpj": "55.610.134/0001-16",
-      "estado": "PE",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "300",
-      "nome_usur2": "RAPHAEL MARIANO"
     },
     {
       "codcli": "85826",
@@ -121410,22 +119810,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "WILLIAM GONCALVES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "50481",
-      "razao": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA EIRELI",
-      "fantasia": "DISTRIBUIDORA DE BEBIDAS BOA ESPERANCA",
-      "bairro": "SANTA CRUZ",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "16.672.713/0001-31",
-      "estado": "RJ",
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "419",
-      "nome_usur2": "NÁTALI DE OLIVEIRA - OFF TRADE"
     },
     {
       "codcli": "50481",
@@ -124612,22 +122996,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92276",
-      "razao": "DNS TECH COMERCIO DE PRODUTOS LTDA",
-      "fantasia": "DNS TECH COMERCIO DE PRODUTOS",
-      "bairro": "JARDIM NOSSA SENHORA D'AJUDA",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "65.782.841/0001-43",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "77743",
       "razao": "DO BOM COMERCIO DE ALIMENTOS E LANCHONETE LTDA",
       "fantasia": "BTFRESH",
@@ -125364,12 +123732,12 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "FERNANDO RISSON - OFF TRADE"
     },
     {
-      "codcli": "68724",
+      "codcli": "66756",
       "razao": "DOMINGUEZ COMERCIO DE ALIMENTOS LTDA",
-      "fantasia": "SHERIFF RESTAURANTE",
-      "bairro": "CENTRO",
-      "cidade": "NOVA IGUACU",
-      "cnpj": "47.100.149/0002-97",
+      "fantasia": "SHERIFF",
+      "bairro": "BENTO RIBEIRO",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "47.100.149/0001-06",
       "estado": "RJ",
       "ramo": "RESTAURANTE",
       "key_account": false,
@@ -125796,22 +124164,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "RODRIGO FREITAS"
     },
     {
-      "codcli": "3266",
-      "razao": "DONOSTIA BAR LTDA",
-      "fantasia": "VENGA",
-      "bairro": "COPACABANA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "10.450.865/0001-03",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "94036",
       "razao": "DONS RESTAURANTE LTDA",
       "fantasia": "DONS RESTAURANTE",
@@ -125970,22 +124322,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "92325",
-      "razao": "DOTI SHOP COMERCIO E SERVICOS LTDA",
-      "fantasia": "DOTI SHOP COMERCIO E SERVICOS",
-      "bairro": "VILA URUPÊS",
-      "cidade": "SUZANO",
-      "cnpj": "62.011.199/0001-00",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "73636",
@@ -128068,18 +126404,18 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "80826",
+      "codcli": "43589",
       "razao": "DROGARIA E PERFUMARIA JOAQUIM DA COSTA LTDA",
       "fantasia": "DROGARIA E PERFUMARIA",
       "bairro": "JARDIM SANTA BRANCA",
       "cidade": "JAPERI",
       "cnpj": "51.196.793/0003-69",
       "estado": "RJ",
-      "ramo": "FARMACIA",
+      "ramo": "FARMÁCIA",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "INATIVO",
       "codusur2": "172",
       "nome_usur2": "JOAO PEDRO - OFF TRADE"
     },
@@ -128098,22 +126434,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "84052",
-      "razao": "DROGARIA E PERFUMARIA LAEL LTDA",
-      "fantasia": "DROGARIA E PERFUMARIA LAEL",
-      "bairro": "BANGU",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "37.154.863/0005-57",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "412",
-      "nome_usur2": "BARBARA CABRAL - OFF TRADE"
     },
     {
       "codcli": "92175",
@@ -131012,22 +129332,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92299",
-      "razao": "E-COMMERCE IGOR LTDA",
-      "fantasia": "E-COMMERCE IGOR",
-      "bairro": "JARDIM AMÉRICA",
-      "cidade": "POA",
-      "cnpj": "65.360.899/0001-07",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "36179",
       "razao": "E. C SANTOS MERCEARIA",
       "fantasia": "DISTRIBUIDORA SANTS",
@@ -131186,22 +129490,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "92271",
-      "razao": "E.C.M MAGAZINE LTDA",
-      "fantasia": "E.C.M MAGAZINE",
-      "bairro": "VILA VIRGÍNIA",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "59.766.495/0001-07",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "90086",
@@ -134068,22 +132356,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92316",
-      "razao": "EEC CONSTRUCOES E COMERCIO LTDA",
-      "fantasia": "EVER CONSTRUCOES E COMERCIO",
-      "bairro": "JARDIM NOSSA SENHORA D'AJUDA",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "65.198.275/0001-27",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "77829",
       "razao": "EFA COMERCIO DE PIZZAS LTDA",
       "fantasia": "RAZZA PIZZA SAUDAVEL",
@@ -134626,22 +132898,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "W.S",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "92269",
-      "razao": "ELC - NOVA DOSE COMERCIO DE BEBIDAS LTDA",
-      "fantasia": "ELC NOVA DOSE",
-      "bairro": "VILA SANTA VIRGINIA",
-      "cidade": "SAO PAULO",
-      "cnpj": "15.914.030/0002-61",
-      "estado": "SP",
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "83808",
@@ -135492,22 +133748,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "89961",
-      "razao": "ELIEZER BARBOSA FERREIRA 10307587436",
-      "fantasia": "ELIEZER BARBOSA FERREIRA",
-      "bairro": "JACAREPAGUA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "19.614.192/0001-54",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "144",
-      "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
-    },
-    {
       "codcli": "89896",
       "razao": "ELIEZER DA SILVA ROSA 35127206846",
       "fantasia": "ERA DO GELO NC2",
@@ -135956,22 +134196,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "34976",
-      "razao": "ELIZABETH DE CASSIA POLICARPO",
-      "fantasia": "BIOS BAR",
-      "bairro": "JARAGUA",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "23.081.325/0001-41",
-      "estado": "MG",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "35903",
       "razao": "ELIZABETH FREITAS DIAS 04982463611",
       "fantasia": "ELIZABETH FREITAS DIAS 04982463611",
@@ -136076,22 +134300,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "053.503.376-10",
       "estado": "MG",
       "ramo": "OUTROS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "35793",
-      "razao": "ELIZANGELA PEREIRA 02931655643",
-      "fantasia": "IMPERIO ADEGA",
-      "bairro": "PIRAJÁ",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "40.044.776/0001-28",
-      "estado": "MG",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -136946,22 +135154,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "72390",
-      "razao": "EMERSON JOSE DE MENDONCA GOUVEA 03607358788",
-      "fantasia": "BAR E MERCEARIA DO EMERSON",
-      "bairro": "PARQUE JOAO PESSOA",
-      "cidade": "DUQUE DE CAXIAS",
-      "cnpj": "36.393.234/0001-93",
-      "estado": "RJ",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "153",
-      "nome_usur2": "ANGELO NEVES SUZART - OFF TRADE"
     },
     {
       "codcli": "46324",
@@ -138452,6 +136644,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "70385",
+      "razao": "EMPORIO ITALIA LTDA",
+      "fantasia": "SOLAR DO PEIXE VIVO",
+      "bairro": "MANGUINHOS",
+      "cidade": "ARMACAO DOS BUZ",
+      "cnpj": "02.630.124/0001-86",
+      "estado": "RJ",
+      "ramo": "BAR",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "155",
+      "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
+    },
+    {
       "codcli": "85057",
       "razao": "EMPORIO JARDIM DISTRIBUIDORA E COMERCIO DE MERCADORIA LTDA",
       "fantasia": "ZE DA ROCA GOURMET",
@@ -138754,22 +136962,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "7234",
-      "razao": "EMPORIO PRAIA RESTAURANTE EIRELI",
-      "fantasia": "EMPORIO PRAIA RESTAURANTE EIRELI",
-      "bairro": "LEBLON",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "28.159.369/0001-60",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "50336",
@@ -139522,22 +137714,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "2356",
-      "razao": "EMPRESA SAO PEDRO DE COMERCIO ALIMENTICIOS E EMPREENDIMENTO",
-      "fantasia": "GUISEPPE GRIL LEBLON",
-      "bairro": "LEBLON",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "07.989.214/0001-81",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "319",
-      "nome_usur2": "FERNANDA CAMBOIM"
     },
     {
       "codcli": "50511",
@@ -141284,22 +139460,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "83592",
-      "razao": "ESPACO FK FESTAS E EVENTOS LTDA",
-      "fantasia": "ESPACO FK FESTAS E EVENTOS",
-      "bairro": "GURIRI",
-      "cidade": "CABO FRIO",
-      "cnpj": "60.066.559/0001-46",
-      "estado": "RJ",
-      "ramo": "EVENTOS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "43",
-      "nome_usur2": "SOUZA"
-    },
-    {
       "codcli": "50713",
       "razao": "ESPACO FRACTAL BAR LTDA",
       "fantasia": "SPACO FRACTAL",
@@ -141458,22 +139618,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "320",
       "nome_usur2": "ALEXANDRE TEBALDI"
-    },
-    {
-      "codcli": "92023",
-      "razao": "ESPACO LILLO LTDA",
-      "fantasia": "ESPACO LILLO LTDA",
-      "bairro": "VILA CLEMENTINO",
-      "cidade": "SAO PAULO",
-      "cnpj": "47.459.826/0001-87",
-      "estado": "SP",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "58064",
@@ -141636,22 +139780,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LUIZA HASSEN"
     },
     {
-      "codcli": "78670",
-      "razao": "ESPACO ZERO DOIS 4 EMPREENDIMENTOS ESPORTIVOS LTDA",
-      "fantasia": "ESPACO ZERO DOIS 4",
-      "bairro": "ITAIPAVA",
-      "cidade": "PETROPOLIS",
-      "cnpj": "48.529.545/0001-16",
-      "estado": "RJ",
-      "ramo": "CAFETERIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "21365",
       "razao": "ESPACO-OFICINA DE PSICANALISE",
       "fantasia": "ESPACO-OFICINA DE PSICANALISE",
@@ -141790,8 +139918,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "COMERCIO VAREJISTA (GERAL)",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
+      "codusur1": "437",
+      "nome_usur1": "BEES",
       "codusur2": "343",
       "nome_usur2": "FERNANDO RISSON - OFF TRADE"
     },
@@ -143092,22 +141220,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "FERNANDO RISSON - OFF TRADE"
     },
     {
-      "codcli": "37496",
-      "razao": "ESTORIL CONVENIENCIA LTDA",
-      "fantasia": "SÃO PEDRO CONVENIENCIA",
-      "bairro": "OLARIA",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "59.670.579/0005-76",
-      "estado": "MG",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "343",
-      "nome_usur2": "FERNANDO RISSON - OFF TRADE"
-    },
-    {
       "codcli": "37497",
       "razao": "ESTORIL CONVENIENCIA LTDA",
       "fantasia": "BANDEIRANTES CONVENIENCIA",
@@ -143118,26 +141230,10 @@ const CLIENTES_RCA_DATA = {
       "ramo": "COMERCIO VAREJISTA (GERAL)",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
+      "codusur1": "344",
+      "nome_usur1": "TIAGO ANDRADE - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "37498",
-      "razao": "ESTORIL CONVENIENCIA LTDA",
-      "fantasia": "PIO XII CONVENIENCIA",
-      "bairro": "ÁGUA BRANCA",
-      "cidade": "CONTAGEM",
-      "cnpj": "59.670.579/0004-95",
-      "estado": "MG",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "362",
-      "nome_usur1": "BRUNA CASTRO MELLO - OFF TRADE",
-      "codusur2": "343",
-      "nome_usur2": "FERNANDO RISSON - OFF TRADE"
     },
     {
       "codcli": "32746",
@@ -143218,22 +141314,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "75626",
-      "razao": "ESTRELA CHAMA MERCEARIA E CONVENIENCIA LTDA",
-      "fantasia": "ESTRELA CHAMA MERCEARIA E CONVENIENCIA",
-      "bairro": "PECHINCHA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "52.014.755/0001-49",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA DE BEBIDAS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "144",
-      "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
     },
     {
       "codcli": "74588",
@@ -143360,22 +141440,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
-      "codcli": "91154",
-      "razao": "ESTRO-COMERCIO DE ALIMENTOS LTDA",
-      "fantasia": "ESTRO-COMERCIO DE ALIMENTOS LTDA",
-      "bairro": "ÁGUA VERDE",
-      "cidade": "CURITIBA",
-      "cnpj": "02.146.450/0001-12",
-      "estado": "PR",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "91",
-      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -145188,22 +143252,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
-      "codcli": "36153",
-      "razao": "F&S EMPREENDIMENTOS LTDA",
-      "fantasia": "ADEGA F&S",
-      "bairro": "ALÍPIO DE MELO",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "59.063.416/0001-00",
-      "estado": "MG",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "91300",
       "razao": "F. A. MARINHO DELICIA'S BEER LTDA",
       "fantasia": "DELICIA'S BEER",
@@ -145332,22 +143380,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92277",
-      "razao": "F. ROSA MEDINA VARIEDADES",
-      "fantasia": "F. ROSA MEDINA VARIEDADES",
-      "bairro": "VILA VIRGÍNIA",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "51.810.390/0001-04",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "39083",
       "razao": "F.A. MAIOLINO ALIMENTOS",
       "fantasia": "DRAFT BBQ",
@@ -145442,22 +143474,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "62087",
-      "razao": "F.F.G.F.DO COUTO COMERCIO DE BEBIDAS",
-      "fantasia": "TOP10",
-      "bairro": "GUARATIBA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "28.413.428/0001-85",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA DE BEBIDAS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "144",
-      "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
     },
     {
       "codcli": "74737",
@@ -145648,22 +143664,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "112",
       "nome_usur1": "LUCAS MATIAS",
-      "codusur2": "378",
-      "nome_usur2": "FABIO VALOTTI - OFF TRADE"
-    },
-    {
-      "codcli": "63106",
-      "razao": "FAB'LU DOCES LTDA",
-      "fantasia": "FAB'LU DOCES LTDA",
-      "bairro": "IPANEMA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "00.217.731/0001-93",
-      "estado": "RJ",
-      "ramo": "CAFE/LANCHONETE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "378",
       "nome_usur2": "FABIO VALOTTI - OFF TRADE"
     },
@@ -149716,22 +147716,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "57633",
-      "razao": "FENIX SUPERMERCADOS LTDA",
-      "fantasia": "HESPANHOL BEBIDAS",
-      "bairro": "JARDIM MARILEA",
-      "cidade": "RIO DAS OSTRAS",
-      "cnpj": "39.711.483/0001-78",
-      "estado": "RJ",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "241",
-      "nome_usur2": "ZEINALDO DE OLIVEIRA - OFF TRADE"
-    },
-    {
       "codcli": "69336",
       "razao": "FENIXX PRODUTOS ALIMENTICIOS LTDA",
       "fantasia": "FENIXX PRODUTOS ALIMENTICIOS LTDA",
@@ -150996,22 +148980,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92297",
-      "razao": "FERREIRA SHOP LTDA",
-      "fantasia": "FERREIRA SHOP",
-      "bairro": "JARDIM DO CARMO",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "65.817.498/0001-25",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "74205",
       "razao": "FERRO E BRASA COMERCIAL LTDA",
       "fantasia": "FERRO E BRASA",
@@ -151218,22 +149186,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "92305",
-      "razao": "FG STORE LTDA",
-      "fantasia": "FG STORE",
-      "bairro": "JARDIM NOVA POA",
-      "cidade": "POA",
-      "cnpj": "65.134.260/0001-03",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "90884",
@@ -153012,22 +150964,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
-      "codcli": "88259",
-      "razao": "FLOR DA LAGOA PRODUTOS ALIMENTICIOS LTDA.",
-      "fantasia": "FLOR DA LAGOA PRODUTOS ALIMENTICIOS",
-      "bairro": "PONTINHA",
-      "cidade": "ARARUAMA",
-      "cnpj": "55.234.484/0001-25",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "51384",
       "razao": "FLOR DA PORCELANA BEBIDAS LTDA",
       "fantasia": "FLOR DA PORCELANA BEBIDAS",
@@ -153106,22 +151042,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "76834",
-      "razao": "FLOR DO SACRAMENTO MERCEARIA LTDA",
-      "fantasia": "FLOR DO SACRAMENTO MERCEARIA",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "01.955.514/0001-63",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "170",
-      "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
     },
     {
       "codcli": "50092",
@@ -154116,22 +152036,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "JADDE CARVALHO"
     },
     {
-      "codcli": "52817",
-      "razao": "FORNADA PAES E REFEICOES LTDA",
-      "fantasia": "FORNADA PAES",
-      "bairro": "CERQUEIRA CESAR",
-      "cidade": "SAO PAULO",
-      "cnpj": "30.667.689/0001-73",
-      "estado": "SP",
-      "ramo": "PADARIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "93912",
       "razao": "FORNALHA COMERCIO E SERVICOS LTDA",
       "fantasia": "PANIFICADORA FORNALHA",
@@ -154450,22 +152354,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
-      "codcli": "50465",
-      "razao": "FPS - COMERCIO E IMPORTACAO DE ALIMENTOS E BEBIDAS EIRELI",
-      "fantasia": "SOMMELIER VINHOS",
-      "bairro": "SAO GERALDO",
-      "cidade": "PORTO ALEGRE",
-      "cnpj": "08.862.367/0001-26",
-      "estado": "RS",
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "91",
-      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
-      "codusur2": "226",
-      "nome_usur2": "MARCO PENIDO"
     },
     {
       "codcli": "29373",
@@ -155716,22 +153604,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "76811",
-      "razao": "FRIBOM MERCADO LTDA",
-      "fantasia": "MERCADO FRIBOM",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "51.950.476/0001-24",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "174",
-      "nome_usur2": "ALLAN PAES - OFF TRADE"
-    },
-    {
       "codcli": "43011",
       "razao": "FRIGO DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
       "fantasia": "FRIGO SERVICE",
@@ -156016,22 +153888,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "152",
       "nome_usur1": "PEDRO RANGEL",
-      "codusur2": "144",
-      "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
-    },
-    {
-      "codcli": "81807",
-      "razao": "FRUTOS DO MAR RECREIO LTDA",
-      "fantasia": "FRUTOS DO MAR RECREIO",
-      "bairro": "RECREIO DOS BANDEIRANTES",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "56.608.633/0001-31",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "144",
       "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
     },
@@ -156347,22 +154203,6 @@ const CLIENTES_RCA_DATA = {
       "cidade": "LINHARES",
       "cnpj": "50.785.498/0001-13",
       "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "91212",
-      "razao": "FV GASTRONOMIA LTDA",
-      "fantasia": "FV GASTRONOMIA",
-      "bairro": "CENTRO",
-      "cidade": "CURITIBA",
-      "cnpj": "43.400.707/0001-06",
-      "estado": "PR",
       "ramo": "RESTAURANTE",
       "key_account": false,
       "rede": "",
@@ -156994,22 +154834,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JOAO AUGUSTO -  OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "68670",
-      "razao": "G. M. TAMBURRINO BAR E RESTAURANTE",
-      "fantasia": "MATAHARI BAR E RESTAURANTE",
-      "bairro": "ARMACAO",
-      "cidade": "ARMACAO DOS BUZ",
-      "cnpj": "12.474.245/0001-30",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "155",
-      "nome_usur2": "RAPHAEL SANTOS - OFF TRADE"
     },
     {
       "codcli": "29811",
@@ -158452,22 +156276,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BARBARA CABRAL - OFF TRADE"
     },
     {
-      "codcli": "73247",
-      "razao": "GALAPAGOS CENTRO AUTOMOTIVO LTDA",
-      "fantasia": "GALAPAGOS CENTRO AUTOMOTIVO",
-      "bairro": "CENTRO",
-      "cidade": "SAO JOAO DE MER",
-      "cnpj": "07.187.563/0001-80",
-      "estado": "RJ",
-      "ramo": "OUTROS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "412",
-      "nome_usur2": "BARBARA CABRAL - OFF TRADE"
-    },
-    {
       "codcli": "41263",
       "razao": "GALAPAGOS CENTRO AUTOMOTIVO LTDA",
       "fantasia": "GALAPAGOS CENTRO AUTOMOTIVO",
@@ -158650,22 +156458,6 @@ const CLIENTES_RCA_DATA = {
       "bairro": "TIJUCA",
       "cidade": "RIO DE JANEIRO",
       "cnpj": "42.336.115/0001-00",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "384",
-      "razao": "GALETOS THOMAS CORREIA LTDA ME",
-      "fantasia": "GALETOS THOMAS CORREIA",
-      "bairro": "PRAÇA DA BANDEIRA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "30.465.363/0001-63",
       "estado": "RJ",
       "ramo": "RESTAURANTE",
       "key_account": false,
@@ -160084,22 +157876,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "79504",
-      "razao": "GELO OESTE COMERCIO LTDA.",
-      "fantasia": "GELO OESTE",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "48.004.000/0001-96",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "174",
-      "nome_usur2": "ALLAN PAES - OFF TRADE"
-    },
-    {
       "codcli": "81525",
       "razao": "GELO SECO BAR LTDA",
       "fantasia": "JOAO RIBEIRO",
@@ -160178,22 +157954,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "21394",
-      "razao": "GELOMESAS COMERCIO VAREJISTA DE BEBIDAS LTDA",
-      "fantasia": "GELOMESAS",
-      "bairro": "TAQUARA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "11.204.225/0001-86",
-      "estado": "RJ",
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "431",
-      "nome_usur2": "ADEILSON GONÇALVEZ - OFF TRADE"
     },
     {
       "codcli": "78105",
@@ -160896,6 +158656,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "35501",
+      "razao": "GERALDO SILVA FILHO & CIA LTDA",
+      "fantasia": "GERALDO SILVA FILHO & CIA",
+      "bairro": "CENTRO",
+      "cidade": "DESCOBERTO",
+      "cnpj": "17.755.091/0001-78",
+      "estado": "MG",
+      "ramo": "FABRICACAO DE ESPECIARIAS",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "354",
+      "nome_usur1": "MATHEUS DE SOUZA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -162196,22 +159972,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "76908",
-      "razao": "GILSON PEREIRA DA SILVA MERCEARIA LTDA",
-      "fantasia": "MERCADINHO DO GILSON",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "35.620.595/0001-62",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "170",
-      "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
-    },
-    {
       "codcli": "37014",
       "razao": "GILSON PORTELLA JUDICE",
       "fantasia": "GILSON PORTELLA JUDICE",
@@ -162708,22 +160468,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "FELIPE KREFFTA"
     },
     {
-      "codcli": "91860",
-      "razao": "GIRO ATACADO DISTRIBUIDOR LTDA",
-      "fantasia": "GIRO ATACADISTA",
-      "bairro": "SETOR CENTRAL",
-      "cidade": "ANAPOLIS",
-      "cnpj": "50.100.595/0001-25",
-      "estado": "GO",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "265",
-      "nome_usur2": "LUCAS LIMA"
-    },
-    {
       "codcli": "74249",
       "razao": "GIRO COMERCIO E DISTRIBUICAO DE ALIMENTOS LTDA",
       "fantasia": "PIER AL MARE",
@@ -163012,22 +160756,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
-      "codcli": "92125",
-      "razao": "GIULIETTA FOGO & VINO COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
-      "fantasia": "GIULIETTA FOGO & VINO COMERCIO DE ALIMEN",
-      "bairro": "JARDIM PAULISTA",
-      "cidade": "SAO PAULO",
-      "cnpj": "33.111.140/0001-96",
-      "estado": "SP",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "74121",
       "razao": "GIURIATO ALIMENTACAO SAUDAVEL LTDA",
       "fantasia": "FAST NUTRI TO GO",
@@ -163036,22 +160764,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "44.478.207/0001-41",
       "estado": "ES",
       "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "92026",
-      "razao": "GIUSEPPE LA ROSA RESTAURANTE",
-      "fantasia": "VECCHIO TORINO RESTAURANTE",
-      "bairro": "PINHEIROS",
-      "cidade": "SAO PAULO",
-      "cnpj": "33.079.125/0001-08",
-      "estado": "SP",
-      "ramo": "RESTAURANTE",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -163780,22 +161492,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "81317",
-      "razao": "GM VIEGAS SOARES MERCADO LTDA",
-      "fantasia": "GM VIEGAS SOARES MERCADO",
-      "bairro": "JACAREZINHO",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "12.185.273/0001-37",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "161",
-      "nome_usur2": "ARLLEY FIGUEIREDO - OFF TRADE"
-    },
-    {
       "codcli": "73217",
       "razao": "GMAP SUPERMERCADOS SA",
       "fantasia": "GMAP SUPERMERCADOS",
@@ -163924,22 +161620,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92273",
-      "razao": "GMZ COMERCIO DE PRODUTOS EM GERAL LTDA",
-      "fantasia": "GMZ COMERCIO DE PRODUTOS EM GERAL",
-      "bairro": "JARDIM CAMPOS",
-      "cidade": "SAO PAULO",
-      "cnpj": "60.791.940/0001-78",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "33640",
       "razao": "GN COMERCIO RESTAURANTE E BAR LTDA",
       "fantasia": "GONDÓ GARDEN",
@@ -163970,22 +161650,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "92337",
-      "razao": "GO ADS DIGITAL MARKETING LTDA",
-      "fantasia": "AGENCIA GTO",
-      "bairro": "CIDADE EDSON",
-      "cidade": "SUZANO",
-      "cnpj": "38.423.768/0001-40",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "31609",
@@ -165220,7 +162884,7 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
-      "codcli": "53108",
+      "codcli": "23008",
       "razao": "GRAO DE MOSTARDA DERIVADOS DE CHOCOLATES LTDA",
       "fantasia": "GRAO DE MOSTARDA DERIVADOS DE CHOCOLATES",
       "bairro": "COPACABANA",
@@ -165231,7 +162895,7 @@ const CLIENTES_RCA_DATA = {
       "key_account": false,
       "rede": "",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "INATIVO",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -165844,22 +163508,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92244",
-      "razao": "GROOVE BAR E RESTAURANTE LTDA",
-      "fantasia": "GROOVE BAR",
-      "bairro": "PINHEIROS",
-      "cidade": "SAO PAULO",
-      "cnpj": "53.292.989/0001-10",
-      "estado": "SP",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "299",
-      "nome_usur1": "BRYAN PALOPOLI - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "91724",
       "razao": "GROOVE COMERCIO LTDA",
       "fantasia": "GROOVE COMERCIO LTDA",
@@ -166082,38 +163730,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "92330",
-      "razao": "GS DISTRIBUIDORA LTDA",
-      "fantasia": "GS DISTRIBUIDORA LTDA",
-      "bairro": "VILA GOMES CARDIM",
-      "cidade": "SAO PAULO",
-      "cnpj": "64.343.140/0001-45",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
-      "codcli": "92311",
-      "razao": "GS MAGAZINE LTDA",
-      "fantasia": "GS MAGAZINE",
-      "bairro": "VILA MONTE BELO",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "65.929.641/0001-70",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "20469",
@@ -169668,22 +167284,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "73131",
-      "razao": "HELEVAN SOLUCOES DE FESTAS E EVENTOS LTDA",
-      "fantasia": "ESPAÇO ZERO 1",
-      "bairro": "RECREIO DOS BANDEIRANTES",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "39.824.188/0001-28",
-      "estado": "RJ",
-      "ramo": "CASA NOTURNA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "78252",
       "razao": "HELIBARRA TAXI AEREO LTDA",
       "fantasia": "HELIBARRA TAXI AEREO",
@@ -171028,22 +168628,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "81665",
-      "razao": "HORA DO RECREIO COMERCIO DE ALIMENTOS E LANCHES LTDA",
-      "fantasia": "HORA DO RECREIO COMERCIO DE ALIMENTOS",
-      "bairro": "RECREIO DOS BANDEIRANTES",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "29.299.671/0001-87",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
-    },
-    {
       "codcli": "92854",
       "razao": "HORIZONTE ALFA MERCADO LTDA",
       "fantasia": "HORIZONTE ALFA MERCADO - GUARATIBA",
@@ -171058,22 +168642,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "31319",
-      "razao": "HORIZONTE BEBIDAS LTDA",
-      "fantasia": "HORIZONTE BEBIDAS",
-      "bairro": "JARDIM MONTANHES",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "40.172.632/0001-57",
-      "estado": "MG",
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "412",
-      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "80141",
@@ -171700,22 +169268,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
-      "codcli": "92047",
-      "razao": "HORTIFRUTI TURMALINA LTDA.",
-      "fantasia": "HORTIFRUTI TURMALINA",
-      "bairro": "ACLIMAÇÃO",
-      "cidade": "SAO PAULO",
-      "cnpj": "28.036.840/0001-23",
-      "estado": "SP",
-      "ramo": "SUPERMERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "51552",
       "razao": "HORTIFRUTI VILA DAS FRUTAS BOSQUE DA SAUDE LTDA",
       "fantasia": "VILA DAS FRUTAS - BOSQUE DA SAÚDE",
@@ -171746,22 +169298,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "MANUELA ZAPPACOSTA - OFF TRADE",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
-    },
-    {
-      "codcli": "92050",
-      "razao": "HORTIFRUTI VILA DAS FRUTAS BOSQUE DA SAUDE LTDA.",
-      "fantasia": "HORTIFRUTI VILA DAS FRUTAS BOSQUE DA SAU",
-      "bairro": "VILA MARIANA",
-      "cidade": "SAO PAULO",
-      "cnpj": "23.603.096/0002-69",
-      "estado": "SP",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "91447",
@@ -172228,22 +169764,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "58839",
-      "razao": "HOTEL LE RELAIS LA BORIE LTDA",
-      "fantasia": "HOTEL LA RELAIS",
-      "bairro": "PRAIA DE GERIBA",
-      "cidade": "ARMACAO DOS BUZ",
-      "cnpj": "03.544.909/0001-07",
-      "estado": "RJ",
-      "ramo": "HOTEL",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "155",
-      "nome_usur2": "RAPHAEL SANTOS - OFF TRADE"
-    },
-    {
       "codcli": "72664",
       "razao": "HOTEL MYKONOS LTDA",
       "fantasia": "HOTEL OLYMPIA",
@@ -172546,22 +170066,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
-    },
-    {
-      "codcli": "17877",
-      "razao": "HOUSE OF WINE COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
-      "fantasia": "HOUSE OF WINE",
-      "bairro": "BARRA DA TIJUCA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "26.896.153/0001-52",
-      "estado": "RJ",
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "214",
-      "nome_usur2": "DANILO DAIBERT"
     },
     {
       "codcli": "84349",
@@ -173188,22 +170692,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92283",
-      "razao": "I.B.L IMPORTS LTDA",
-      "fantasia": "GIGI",
-      "bairro": "PARQUE RESIDENCIAL MARENGO",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "31.017.685/0001-02",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "51947",
       "razao": "I.B.L IMPORTS LTDA",
       "fantasia": "GIGI",
@@ -173292,22 +170780,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "014.954.286-05",
       "estado": "MG",
       "ramo": "PESSOA FISICA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "34390",
-      "razao": "IAGO ROGERIO SILVA",
-      "fantasia": "IAGO ROGERIO SILVA",
-      "bairro": "ALTO DOS PINHEIROS",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "30.969.377/0001-14",
-      "estado": "MG",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -174436,22 +171908,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92192",
-      "razao": "IMIGRANTES MERCANTIL LTDA",
-      "fantasia": "IMIGRANTES BEBIDAS",
-      "bairro": "AGUA FUNDA",
-      "cidade": "SAO PAULO",
-      "cnpj": "04.517.343/0001-89",
-      "estado": "SP",
-      "ramo": "DEPOSITO DE BEBIDAS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "91",
-      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "23280",
       "razao": "IMIGRANTES MERCANTIL LTDA",
       "fantasia": "IMIGRANTES BEBIDAS",
@@ -174946,22 +172402,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "92324",
-      "razao": "IMX TECH COMERCIO ELETRONICO LTDA",
-      "fantasia": "IMX TECH",
-      "bairro": "VILA VIRGÍNIA",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "63.653.172/0001-84",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "50793",
@@ -175604,22 +173044,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "35702",
-      "razao": "INSTITUTO EDUCACIONAL NOVOS TEMPOS LTDA",
-      "fantasia": "PRISCILA CHAMONE",
-      "bairro": "FONTE GRANDE",
-      "cidade": "CONTAGEM",
-      "cnpj": "01.524.513/0001-64",
-      "estado": "MG",
-      "ramo": "ENSINO/EDUCACAO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "90917",
       "razao": "INSTITUTO ESAON",
       "fantasia": "INSTITUTO ESAON",
@@ -175668,22 +173092,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
-      "codcli": "89909",
-      "razao": "INSULANOS BEER LTDA",
-      "fantasia": "INSULANOS BEER",
-      "bairro": "CACUIA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "50.393.225/0001-23",
-      "estado": "RJ",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "229",
-      "nome_usur2": "LUIZA HASSEN"
-    },
-    {
       "codcli": "1089",
       "razao": "INSULAR LANCHES LTDA",
       "fantasia": "INSULAR",
@@ -175698,22 +173106,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "92282",
-      "razao": "INTELVISION LTDA",
-      "fantasia": "INTELVISION",
-      "bairro": "JARDIM DO CARMO",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "65.702.453/0001-05",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "31585",
@@ -176514,22 +173906,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "343",
       "nome_usur2": "FERNANDO RISSON - OFF TRADE"
-    },
-    {
-      "codcli": "34763",
-      "razao": "IRMAOS OLIVEIRA COMERCIO DE CASTANHAS E CONDIMENTOS LTDA",
-      "fantasia": "IRMAOS OLIVEIRA CASTANHAS E CONDIMENTOS",
-      "bairro": "JARDIM LEBLON",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "38.707.977/0001-16",
-      "estado": "MG",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "50133",
@@ -177490,22 +174866,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "59304",
-      "razao": "ITAGUAI II CONVENIENCIAS LTDA",
-      "fantasia": "ITAGUAI II CONVENIENCIAS",
-      "bairro": "BRISA MAR",
-      "cidade": "ITAGUAI",
-      "cnpj": "35.677.397/0001-35",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "161",
-      "nome_usur2": "ARLLEY FIGUEIREDO - OFF TRADE"
     },
     {
       "codcli": "71126",
@@ -179268,22 +176628,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "79246",
-      "razao": "J R CONVENIENCIAS LTDA",
-      "fantasia": "J R CONVENIENCIAS",
-      "bairro": "ICARAI",
-      "cidade": "NITEROI",
-      "cnpj": "43.267.824/0001-35",
-      "estado": "RJ",
-      "ramo": "LOJAS DE CONVENIENCIA/ VARIEDADES",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
-    },
-    {
       "codcli": "68791",
       "razao": "J R J 2005 COMERCIO DE BEBIDAS LTDA",
       "fantasia": "J R J 2005 COMERCIO DE BEBIDAS",
@@ -179938,22 +177282,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
-      "codcli": "92028",
-      "razao": "J.K. COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-      "fantasia": "BANCA DO RAMON",
-      "bairro": "CENTRO",
-      "cidade": "SAO PAULO",
-      "cnpj": "04.762.419/0001-31",
-      "estado": "SP",
-      "ramo": "MINI-MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "31382",
@@ -182052,22 +179380,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "78757",
-      "razao": "JARDIM UBA CONVENIENCIA LTDA",
-      "fantasia": "JARDIM UBA CONVENIENCIA",
-      "bairro": "PIRATININGA",
-      "cidade": "NITEROI",
-      "cnpj": "41.383.855/0001-26",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
-    },
-    {
       "codcli": "30656",
       "razao": "JARDINEIRA ALLURE LTDA",
       "fantasia": "JARDINEIRA ALLURE",
@@ -182080,22 +179392,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "92120",
-      "razao": "JARDINEIRA GRILL LTDA",
-      "fantasia": "JARDINEIRA GRILL",
-      "bairro": "VILA OLIMPIA",
-      "cidade": "SAO PAULO",
-      "cnpj": "00.471.860/0001-03",
-      "estado": "SP",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "299",
-      "nome_usur1": "BRYAN PALOPOLI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -182594,22 +179890,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "51081",
-      "razao": "JC DRINKS COMERCIO DE BEBIDAS LTDA",
-      "fantasia": "JC DRINKS",
-      "bairro": "TAQUARA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "34.457.757/0001-20",
-      "estado": "RJ",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "144",
-      "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
     },
     {
       "codcli": "84671",
@@ -183748,6 +181028,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "52217",
+      "razao": "JF CARVALHO BAR E LANCHONETE LTDA",
+      "fantasia": "MERCEARIA E LANCHONETE MARSOL",
+      "bairro": "INDAIÁ",
+      "cidade": "CARAGUATATUBA",
+      "cnpj": "05.999.639/0001-46",
+      "estado": "SP",
+      "ramo": "BAR",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "516",
+      "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "91282",
       "razao": "JF COMERCIO DE ROUPAS E ACESSORIOS LTDA",
       "fantasia": "THE BLEND SHOP",
@@ -183906,22 +181202,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "79247",
-      "razao": "JGR COMERCIO E DISTRIBUICAO DE ALIMENTOS E BEBIDAS LTDA",
-      "fantasia": "WINE VILLAGE",
-      "bairro": "ICARAÍ",
-      "cidade": "NITEROI",
-      "cnpj": "57.333.687/0001-02",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA DE BEBIDAS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "161",
-      "nome_usur2": "ARLLEY FIGUEIREDO - OFF TRADE"
     },
     {
       "codcli": "85275",
@@ -184160,22 +181440,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "336",
       "nome_usur1": "JEAN MENEZES - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "9227",
-      "razao": "JIGGER COCKTAILART E EVENTOS LTDA",
-      "fantasia": "JIGGER COCKTAILART E EVENTOS",
-      "bairro": "MARIA DA GRACA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "30.790.054/0001-69",
-      "estado": "RJ",
-      "ramo": "EVENTOS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -184450,22 +181714,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "92267",
-      "razao": "JK OLIVEIRA COMERCIO LTDA",
-      "fantasia": "JK OLIVEIRA COMERCIO",
-      "bairro": "VILA VIRGÍNIA",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "20.775.625/0001-32",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "8364",
@@ -187748,22 +184996,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "34919",
-      "razao": "JORGE LUIZ DA SILVA - CPF . 316.318.866-49",
-      "fantasia": "BAR DO JORGE",
-      "bairro": "NOVO ELDORADO",
-      "cidade": "CONTAGEM",
-      "cnpj": "21.743.891/0001-46",
-      "estado": "MG",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "76849",
       "razao": "JORGE LUIZ PEREIRA 43593038749",
       "fantasia": "JORGE LUIZ PEREIRA",
@@ -188160,22 +185392,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "52116",
-      "razao": "JOSE APARECIDO GONCALVES DE MATOS",
-      "fantasia": "JMATOS COMERCIO DE BEBIDAS LTDA",
-      "bairro": "MIRANDOPOLIS",
-      "cidade": "SAO PAULO",
-      "cnpj": "11.929.557/0001-28",
-      "estado": "SP",
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "91",
-      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -188882,22 +186098,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "76833",
-      "razao": "JOSE EUDES OLIVEIRA COSTA PADARIA",
-      "fantasia": "PADARIA E CONFEITARIA PAO DA VIDA",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "01.701.166/0001-06",
-      "estado": "RJ",
-      "ramo": "PADARIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "170",
-      "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
     },
     {
       "codcli": "36427",
@@ -190274,22 +187474,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "61266",
-      "razao": "JOSE WERMESSON PEREIRA DE AQUINO 17347468744",
-      "fantasia": "MERCEARIA DOIS IRMAOS",
-      "bairro": "AMAPA",
-      "cidade": "DUQUE DE CAXIAS",
-      "cnpj": "40.294.315/0001-03",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "153",
-      "nome_usur2": "ANGELO NEVES SUZART - OFF TRADE"
     },
     {
       "codcli": "52098",
@@ -191702,22 +188886,6 @@ const CLIENTES_RCA_DATA = {
     {
       "codcli": "6671",
       "razao": "JRD MERCEARIA E HORTIFRUTI LTDA",
-      "fantasia": "MERCADELLI",
-      "bairro": "JARDIM GUANABARA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "23.549.577/0001-52",
-      "estado": "RJ",
-      "ramo": "MERCEARIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "153",
-      "nome_usur2": "ANGELO NEVES SUZART - OFF TRADE"
-    },
-    {
-      "codcli": "6671",
-      "razao": "JRD MERCEARIA E HORTIFRUTI LTDA",
       "fantasia": "",
       "bairro": "JARDIM GUANABARA",
       "cidade": "RIO DE JANEIRO",
@@ -191760,6 +188928,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "32510",
+      "razao": "JRPH RESORT HOTEL PRIVE LTDA",
+      "fantasia": "JRPH RESORT HOTEL PRIVE",
+      "bairro": "CHÁCARAS MEU CANTINHO",
+      "cidade": "MONTE MOR",
+      "cnpj": "57.784.415/0001-10",
+      "estado": "SP",
+      "ramo": "HOTELARIA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "425",
+      "nome_usur1": "BRUNO BARBOSA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -193380,22 +190564,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "FERNANDO GOMES"
     },
     {
-      "codcli": "34985",
-      "razao": "JUNIOR BERNARDO COSTA",
-      "fantasia": "PIZZARIA IMPERIO",
-      "bairro": "JARDIM DAS ROSAS",
-      "cidade": "IBIRITE",
-      "cnpj": "34.115.814/0001-93",
-      "estado": "MG",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "85991",
       "razao": "JUNIOR DO CHURRASCO RESTAURANTE LTDA",
       "fantasia": "JUNIOR DO CHURASCO",
@@ -194194,22 +191362,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "76829",
-      "razao": "KAMI PADARIA E RESTAURANTE LTDA",
-      "fantasia": "MERCEARIA KAMI",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "50.590.245/0001-94",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "170",
-      "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
     },
     {
       "codcli": "72831",
@@ -195492,22 +192644,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92329",
-      "razao": "KG ELETRO LTDA",
-      "fantasia": "KG ELETRO",
-      "bairro": "VILA MARIA ROSA",
-      "cidade": "FERRAZ DE VASCO",
-      "cnpj": "29.728.799/0001-19",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "12509",
       "razao": "KHALIL BEBIDAS LTDA",
       "fantasia": "BARAO DELIVERY",
@@ -196644,22 +193780,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "84159",
-      "razao": "KRYPTON COMERCIO BEBIDAS DELIVERY E CONVENIENCIA LTDA",
-      "fantasia": "KRYPTON BEBIDAS",
-      "bairro": "TAQUARA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "60.516.497/0001-27",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA DE BEBIDAS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "312",
-      "nome_usur2": "LAYZ WERNECK"
-    },
-    {
       "codcli": "50257",
       "razao": "KRYPTON CONVENIENCIA BEBIDAS DELIVERY LTDA",
       "fantasia": "KRYPTON CONVENIENCIA BEBIDAS DELIVERY",
@@ -196944,22 +194064,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "92037",
-      "razao": "L ALVES MACIEL SERVICOS ADMINISTRATIVOS LTDA",
-      "fantasia": "L ALVES MACIEL SERVICOS ADMINISTRATIVOS",
-      "bairro": "CIDADE MONCOES",
-      "cidade": "SAO PAULO",
-      "cnpj": "65.123.111/0001-30",
-      "estado": "SP",
-      "ramo": "ESCRITORIO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -197376,22 +194480,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "171",
       "nome_usur1": "FELIPE OLIVEIRA",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
-    },
-    {
-      "codcli": "79021",
-      "razao": "L M R SANTOS COMERCIO DE BEBIDAS TABACARIAS E UTILIDADES",
-      "fantasia": "LA TABACARIA",
-      "bairro": "RECREIO DOS BANDEIRANTES",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "36.289.026/0002-20",
-      "estado": "RJ",
-      "ramo": "TABACARIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "156",
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
@@ -198276,22 +195364,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
-      "codcli": "92055",
-      "razao": "LA BORRATXERIA BAR Y PARRILLA LTDA",
-      "fantasia": "LA BORRATXERIA",
-      "bairro": "VILA OLÍMPIA",
-      "cidade": "SAO PAULO",
-      "cnpj": "20.434.872/0006-80",
-      "estado": "SP",
-      "ramo": "CAFE/LANCHONETE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "375",
-      "nome_usur2": "BRIAN HODGE"
-    },
-    {
       "codcli": "29541",
       "razao": "LA BRASA PRIME EMPORIO LTDA",
       "fantasia": "LA BRASA PRIME",
@@ -198524,22 +195596,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "19.999.483/0040-14",
       "estado": "RJ",
       "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "90549",
-      "razao": "LA KANNA COLABORATIVIDADE LTDA",
-      "fantasia": "LA KANNA MARKET E HEAD SHOP",
-      "bairro": "CENTRO",
-      "cidade": "CABO FRIO",
-      "cnpj": "62.725.590/0001-77",
-      "estado": "RJ",
-      "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -199412,22 +196468,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "35314",
-      "razao": "LANCHE LEGAL COMERCIO LTDA",
-      "fantasia": "LANCHE LEGAL COMERCIO LTDA",
-      "bairro": "PAMPULHA",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "04.356.627/0003-00",
-      "estado": "MG",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "327",
-      "nome_usur1": "JOÃO SANTOS - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "32902",
       "razao": "LANCHERIA CANTINA AZUL LTDA",
       "fantasia": "CANTINA AZUL",
@@ -200130,22 +197170,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "55271",
-      "razao": "LANCHONETE E CONVENIENCIA PREDILETA DA POSSE EIRELI",
-      "fantasia": "PREDILETA CONVENIENCIA E LANCHONETE",
-      "bairro": "ADRIANOPOLIS",
-      "cidade": "NOVA IGUACU",
-      "cnpj": "28.353.499/0001-30",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
     {
       "codcli": "31232",
@@ -201140,38 +198164,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
-      "codcli": "90713",
-      "razao": "LARA ZULIANO",
-      "fantasia": "CHURRASCARIA BOTAFOGO",
-      "bairro": "MERCES",
-      "cidade": "CURITIBA",
-      "cnpj": "03.252.260/0001-42",
-      "estado": "PR",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "92280",
-      "razao": "LARA.COM ELETRONICOS",
-      "fantasia": "LARA.COM ELETRONICOS",
-      "bairro": "CENTRO",
-      "cidade": "SAO PAULO",
-      "cnpj": "54.519.621/0001-05",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "82269",
       "razao": "LARAICA COMERCIO DE ALIMENTOS LTDA",
       "fantasia": "BENDITO",
@@ -201186,6 +198178,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
+    },
+    {
+      "codcli": "39715",
+      "razao": "LAREIRA ENTRE SERRAS INDUSTRIA E COMERCIO LTDA",
+      "fantasia": "PADARIA E CONFEITARIA D'ROMA",
+      "bairro": "VÁRZEA",
+      "cidade": "LAGOA SANTA",
+      "cnpj": "14.177.416/0001-94",
+      "estado": "MG",
+      "ramo": "COMERCIO VAREJISTA (GERAL)",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "354",
+      "nome_usur1": "MATHEUS DE SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "50917",
@@ -201474,22 +198482,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "78078",
-      "razao": "LAS VACAS CASA DE CARNES E EMPORIO LTDA",
-      "fantasia": "LAS VACAS CASA DE CARNES E EMPORIO",
-      "bairro": "CAVALEIROS",
-      "cidade": "MACAE",
-      "cnpj": "37.718.211/0001-74",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "43",
-      "nome_usur2": "SOUZA"
     },
     {
       "codcli": "50676",
@@ -202340,38 +199332,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ANDRE MATTOS"
     },
     {
-      "codcli": "6204",
-      "razao": "LCD HOTELARIA LTDA - ME",
-      "fantasia": "LCD HOTELARIA LTDA - ME",
-      "bairro": "GERIBA",
-      "cidade": "ARMACAO DOS BUZ",
-      "cnpj": "23.774.759/0001-27",
-      "estado": "RJ",
-      "ramo": "HOTEL",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "155",
-      "nome_usur2": "RAPHAEL SANTOS - OFF TRADE"
-    },
-    {
-      "codcli": "92313",
-      "razao": "LCM SMART ELETRONICOS LTDA",
-      "fantasia": "LCM SMART",
-      "bairro": "VILA VIRGÍNIA",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "63.666.640/0001-55",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "79083",
       "razao": "LCR DISTRIBUIDORA DE BEBIDAS LTDA",
       "fantasia": "L S BEBIDAS LTDA",
@@ -202404,18 +199364,18 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "76807",
+      "codcli": "44036",
       "razao": "LCS DROGARIA LTDA",
       "fantasia": "LCS DROGARIA",
       "bairro": "CAMPO GRANDE",
       "cidade": "RIO DE JANEIRO",
       "cnpj": "52.982.338/0001-90",
       "estado": "RJ",
-      "ramo": "FARMACIA",
+      "ramo": "FARMÁCIA",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
@@ -202498,22 +199458,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "313",
       "nome_usur2": "ANDRE MATTOS"
-    },
-    {
-      "codcli": "92274",
-      "razao": "LDO COMERCIO LTDA",
-      "fantasia": "LDO COMERCIO",
-      "bairro": "RESIDENCIAL RANCHO GRANDE",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "64.781.367/0001-72",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "33885",
@@ -203220,22 +200164,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "85530",
-      "razao": "LEAO DO HORTO RESTAURANTE E BAR S A",
-      "fantasia": "LEAO DO HORTO RESTAURANTE E BAR",
-      "bairro": "JARDIM BOTANICO",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "56.152.271/0001-17",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "252",
-      "nome_usur2": "JADDE CARVALHO"
-    },
-    {
       "codcli": "75523",
       "razao": "LEBAR GASTRONOMIA CARIOCA LTDA",
       "fantasia": "LEBAR GASTRONOMIA CARIOCA",
@@ -203378,22 +200306,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "351",
       "nome_usur2": "MARIANA LAGES"
-    },
-    {
-      "codcli": "92308",
-      "razao": "LEDACEL COMERCIO LTDA",
-      "fantasia": "LEDACEL",
-      "bairro": "JARDIM LUCIANA",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "21.693.217/0001-02",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "71151",
@@ -203712,22 +200624,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "296",
       "nome_usur1": "LUDMILLA DA SILVA",
-      "codusur2": "378",
-      "nome_usur2": "FABIO VALOTTI - OFF TRADE"
-    },
-    {
-      "codcli": "8266",
-      "razao": "LEMOS COMERCIO VAREJISTA DE ALIMENTOS LTDA",
-      "fantasia": "PRONUTRI",
-      "bairro": "ICARAI",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "20.771.426/0001-56",
-      "estado": "RJ",
-      "ramo": "CAFE/LANCHONETE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "378",
       "nome_usur2": "FABIO VALOTTI - OFF TRADE"
     },
@@ -204898,22 +201794,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "351",
       "nome_usur2": "MARIANA LAGES"
-    },
-    {
-      "codcli": "91215",
-      "razao": "LES BARONS VINS COMERCIO DE BEBIDAS LTDA",
-      "fantasia": "LES BARONS VINS COMERCIO DE BEBIDAS",
-      "bairro": "JARDIM PAULISTA",
-      "cidade": "SAO PAULO",
-      "cnpj": "07.043.463/0001-80",
-      "estado": "SP",
-      "ramo": "COMERCIO VAREJISTA DE BEBIDAS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "194",
-      "nome_usur2": "NEWTON JUNIOR"
     },
     {
       "codcli": "77518",
@@ -206436,22 +203316,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "70184",
-      "razao": "LIMAJ MINIMERCADO LTDA",
-      "fantasia": "LIMAJ MINIMERCADO LTDA",
-      "bairro": "SAO CRISTOVAO",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "36.114.585/0001-18",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "75767",
       "razao": "LINCE CONSULTORIA LTDA",
       "fantasia": "LINCE CONSULTORIA",
@@ -206996,22 +203860,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
-      "codcli": "92340",
-      "razao": "LIV COMMERCE LTDA",
-      "fantasia": "LIV COMMERCE",
-      "bairro": "VILA VIRGÍNIA",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "65.371.331/0001-83",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "71513",
       "razao": "LIV RESTAURANTE LTDA",
       "fantasia": "TERO",
@@ -207296,22 +204144,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "153",
       "nome_usur1": "ANGELO NEVES SUZART - OFF TRADE",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
-    },
-    {
-      "codcli": "2006",
-      "razao": "LM M DE SAQUAREMA DISTRIBUIDORA DE LATICINIOS LTDA",
-      "fantasia": "",
-      "bairro": "SAQUAREMA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "74.038.613/0001-54",
-      "estado": "RJ",
-      "ramo": "MERCEARIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "156",
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
@@ -207618,22 +204450,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
       "codusur2": "313",
       "nome_usur2": "ANDRE MATTOS"
-    },
-    {
-      "codcli": "5760",
-      "razao": "LOBSTER HOTEL LTDA - ME",
-      "fantasia": "POUSADA DOS TANGARAS",
-      "bairro": "GERIBA",
-      "cidade": "ARMACAO DOS BUZ",
-      "cnpj": "23.870.330/0001-33",
-      "estado": "RJ",
-      "ramo": "HOTEL",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "155",
-      "nome_usur2": "RAPHAEL SANTOS - OFF TRADE"
     },
     {
       "codcli": "70528",
@@ -208096,22 +204912,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "156",
       "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
-    },
-    {
-      "codcli": "79614",
-      "razao": "LOJA DE CONVENIENCIA MIDAS DO FONSECA LTDA",
-      "fantasia": "MIDAS DO FONSECA",
-      "bairro": "FONSECA",
-      "cidade": "NITEROI",
-      "cnpj": "23.216.045/0001-01",
-      "estado": "RJ",
-      "ramo": "LOJAS DE CONVENIENCIA/ VARIEDADES",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "156",
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
@@ -208628,7 +205428,7 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
     {
-      "codcli": "59810",
+      "codcli": "29710",
       "razao": "LORD RODRIGO COMERCIO DE COMBUSTIVEIS LTDA",
       "fantasia": "LORD RODRIGO",
       "bairro": "JARDIM VINTE E CINCO DE AGOSTO",
@@ -208639,7 +205439,7 @@ const CLIENTES_RCA_DATA = {
       "key_account": false,
       "rede": "",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "INATIVO",
       "codusur2": "156",
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
@@ -209924,22 +206724,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "JORGEANE MERIGUETTE"
     },
     {
-      "codcli": "84996",
-      "razao": "LUCAS ALVES MACIEL",
-      "fantasia": "BUONA SAFRA ADEGA",
-      "bairro": "PIEDADE",
-      "cidade": "JABOATAO DOS GU",
-      "cnpj": "43.545.472/0001-32",
-      "estado": "PE",
-      "ramo": "COMERCIO VAREJISTA DE BEBIDAS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "300",
-      "nome_usur2": "RAPHAEL MARIANO"
-    },
-    {
       "codcli": "37696",
       "razao": "LUCAS ALVES MONTINOTTI",
       "fantasia": "NUGRAU DUBAI",
@@ -211039,7 +207823,7 @@ const CLIENTES_RCA_DATA = {
       "key_account": false,
       "rede": "",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "INATIVO",
       "codusur2": "144",
       "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
     },
@@ -212482,22 +209266,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "351",
       "nome_usur2": "MARIANA LAGES"
-    },
-    {
-      "codcli": "37632",
-      "razao": "LUIS GUSTAVO MOREIRA SILVA",
-      "fantasia": "LUIS GUSTAVO MOREIRA SILVA",
-      "bairro": "CRISTINA A",
-      "cidade": "SANTA LUZIA",
-      "cnpj": "080.435.426-00",
-      "estado": "MG",
-      "ramo": "PESSOA FISICA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "549",
-      "nome_usur2": "FERNANDO GOMES"
     },
     {
       "codcli": "31239",
@@ -215140,22 +211908,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ANDRE MATTOS"
     },
     {
-      "codcli": "6130",
-      "razao": "M E M SEARCH TURISMO LTDA - ME",
-      "fantasia": "THE SEARCH HOUSE BUZIOS",
-      "bairro": "MANGUINHOS",
-      "cidade": "ARMACAO DOS BUZ",
-      "cnpj": "28.768.533/0001-37",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "155",
-      "nome_usur2": "RAPHAEL SANTOS - OFF TRADE"
-    },
-    {
       "codcli": "50406",
       "razao": "M F ALVES REPRESENTACOES",
       "fantasia": "MAURICIO REPRESENTACOES",
@@ -215282,38 +212034,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "92312",
-      "razao": "M H A SHOP LTDA",
-      "fantasia": "M H A SHOP",
-      "bairro": "JARDIM DAS OLIVEIRAS",
-      "cidade": "SAO PAULO",
-      "cnpj": "65.745.808/0001-43",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
-      "codcli": "82099",
-      "razao": "M H COMERCIO VAREJISTA E ATACADISTA DE BEBIDAS E ALIMENTOS L",
-      "fantasia": "EMPORIO CARIOCA",
-      "bairro": "AQUARIUS (TAMOIOS)",
-      "cidade": "CABO FRIO",
-      "cnpj": "57.034.034/0001-14",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "241",
-      "nome_usur2": "ZEINALDO DE OLIVEIRA - OFF TRADE"
     },
     {
       "codcli": "72465",
@@ -215508,22 +212228,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "13164",
-      "razao": "M P 3 DE BUZIOS COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
-      "fantasia": "DONNA JO",
-      "bairro": "MANGUINHOS/BUZIOS",
-      "cidade": "ARMACAO DOS BUZ",
-      "cnpj": "10.235.011/0001-04",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "155",
-      "nome_usur2": "RAPHAEL SANTOS - OFF TRADE"
-    },
-    {
       "codcli": "50504",
       "razao": "M P AFONSO BAETA",
       "fantasia": "DEPOSITO MB",
@@ -215634,22 +212338,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
-    },
-    {
-      "codcli": "92303",
-      "razao": "M R MARCONDES CORREIA",
-      "fantasia": "M R MARCONDES CORREIA",
-      "bairro": "JARDIM AMÉRICA",
-      "cidade": "POA",
-      "cnpj": "11.839.609/0001-75",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "92346",
@@ -216244,22 +212932,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92281",
-      "razao": "M. FERREIRA DE SANTANA E- COMMERCE",
-      "fantasia": "M. FERREIRA DE SANTANA E- COMMERCE",
-      "bairro": "JARDIM RODEIO",
-      "cidade": "MOGI DAS CRUZES",
-      "cnpj": "57.619.014/0001-05",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "91977",
       "razao": "M. G. PERINI LANCHES LTDA",
       "fantasia": "ELITE DOS LANCHES",
@@ -216402,22 +213074,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "LUCIANO TOSCHI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "92328",
-      "razao": "M. MIRANDA XAVIER COMERCIO",
-      "fantasia": "MX PRIME",
-      "bairro": "VILA GOMES CARDIM",
-      "cidade": "SAO PAULO",
-      "cnpj": "58.641.932/0001-01",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "51074",
@@ -217188,22 +213844,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92345",
-      "razao": "MACIEL DISTRIBUICOES LTDA",
-      "fantasia": "MACIEL DISTRIBUICOES",
-      "bairro": "VILA DOUTOR EIRAS",
-      "cidade": "SAO PAULO",
-      "cnpj": "64.524.037/0001-00",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "81284",
       "razao": "MACK SPORT BAR E RESTAURANTE LTDA",
       "fantasia": "MACK SPORT BAR E RESTAURANTE",
@@ -217218,22 +213858,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "76820",
-      "razao": "MAD BREW TAP HOUSE LTDA",
-      "fantasia": "MAD BREW TAP & STEAK HOUSE",
-      "bairro": "NOSSA SENHORA DE FATIMA",
-      "cidade": "TERESOPOLIS",
-      "cnpj": "31.396.982/0001-06",
-      "estado": "RJ",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "43",
-      "nome_usur2": "SOUZA"
     },
     {
       "codcli": "85003",
@@ -218420,6 +215044,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "39718",
+      "razao": "MALAL EMPREENDIMENTOS LTDA",
+      "fantasia": "MERCADO IMPERIAL",
+      "bairro": "JARDIM IMPERIAL",
+      "cidade": "LAGOA SANTA",
+      "cnpj": "46.509.209/0001-86",
+      "estado": "MG",
+      "ramo": "COMERCIO VAREJISTA (GERAL)",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "354",
+      "nome_usur1": "MATHEUS DE SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "83664",
       "razao": "MALANDRO - DISTRIBUIDORA DE BEBIDAS LTDA",
       "fantasia": "MALANDRO BEBIDAS",
@@ -218450,22 +215090,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
-      "codcli": "92019",
-      "razao": "MALAUI RESTAURANTE E CAFE LTDA",
-      "fantasia": "MALAUI",
-      "bairro": "BATEL",
-      "cidade": "CURITIBA",
-      "cnpj": "37.348.106/0001-90",
-      "estado": "PR",
-      "ramo": "CAFE/LANCHONETE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "90577",
@@ -218660,22 +215284,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
-      "codcli": "91425",
-      "razao": "MALU COMERCIO DE ALIMENTOS LTDA",
-      "fantasia": "CAFE DO TEATRO",
-      "bairro": "CENTRO",
-      "cidade": "CURITIBA",
-      "cnpj": "46.971.437/0001-73",
-      "estado": "PR",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "93278",
       "razao": "MALU COMERCIO E DISTRIBUIDORA DE BEBIDAS LTDA",
       "fantasia": "MALU DISTRIBUIDORA",
@@ -218834,22 +215442,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "92323",
-      "razao": "MANCUSSI MAGAZINE LTDA",
-      "fantasia": "MANCUSSI MAGAZINE",
-      "bairro": "JARDIM DO CARMO",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "19.131.088/0001-09",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "74247",
@@ -219476,22 +216068,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "35484",
-      "razao": "MANOELA TEREZINHA ALMEIDA 09273282679",
-      "fantasia": "MANOELA TEREZINHA ALMEIDA",
-      "bairro": "SÃO COSME DE BAIXO (SÃO BENEDITO)",
-      "cidade": "SANTA LUZIA",
-      "cnpj": "23.932.562/0001-79",
-      "estado": "MG",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "84417",
       "razao": "MANOS DE DIOS COMERCIO DE REVISTAS LTDA",
       "fantasia": "MAGIA DA LEITURA",
@@ -219908,22 +216484,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "79259",
-      "razao": "MARAVISTA COMERCIO DE ALIMENTOS LTDA",
-      "fantasia": "SUPERMERCADO MARAVISTA",
-      "bairro": "ITAIPU",
-      "cidade": "NITEROI",
-      "cnpj": "30.140.610/0001-51",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "158",
-      "nome_usur2": "JOSE MARCELO CARDOSO - OFF TRADE"
-    },
-    {
       "codcli": "19496",
       "razao": "MARAVISTA HOTEL SPA LTDA",
       "fantasia": "MARAVISTA",
@@ -220322,22 +216882,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "61833",
-      "razao": "MARCELO DA SILVA MOUTINHO 02578431752",
-      "fantasia": "MARCELUS BAR",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "11.953.816/0001-56",
-      "estado": "RJ",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "144",
-      "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
     },
     {
       "codcli": "81678",
@@ -221876,7 +218420,7 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
     },
     {
-      "codcli": "78141",
+      "codcli": "42748",
       "razao": "MARCIO GARCIA SANCHES 01351218760",
       "fantasia": "MARCIO GARCIA SANCHES 01351218760",
       "bairro": "INHOAÍBA",
@@ -221887,7 +218431,7 @@ const CLIENTES_RCA_DATA = {
       "key_account": false,
       "rede": "",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "INATIVO",
       "codusur2": "144",
       "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
     },
@@ -223252,22 +219796,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92034",
-      "razao": "MARCUS VINICIUS AUGUSTO VEROL",
-      "fantasia": "MARCUS VINICIUS AUGUSTO VEROL",
-      "bairro": "LAGOA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "921.322.277-72",
-      "estado": "RJ",
-      "ramo": "PESSOA FISICA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "50798",
       "razao": "MARCUS VINICIUS DA SILVA DONDE 11189619784",
       "fantasia": "MARCUS VINICIUS DA SILVA DONDE",
@@ -224516,22 +221044,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "34964",
-      "razao": "MARIA DE FATIMA SOARES SILVA",
-      "fantasia": "BAR DA BRANCA",
-      "bairro": "NITEROI",
-      "cidade": "BETIM",
-      "cnpj": "32.671.624/0001-27",
-      "estado": "MG",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "35445",
       "razao": "MARIA DE FATIMA TEIXEIRA MAIA",
       "fantasia": "K B TODOS SORVETEX",
@@ -224834,22 +221346,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "DANIELLE MOURA - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "85494",
-      "razao": "MARIA EDUARDA BAIAO BERNARDES DOS SANTOS 17322611721",
-      "fantasia": "MARIA EDUARDA BAIAO BERNARDES DOS SANTOS",
-      "bairro": "VILA DA PENHA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "46.885.633/0001-25",
-      "estado": "RJ",
-      "ramo": "ESTETICA/BELEZA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "238",
-      "nome_usur2": "DANIELLE MOURA - OFF TRADE"
     },
     {
       "codcli": "35522",
@@ -226244,22 +222740,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ZEINALDO DE OLIVEIRA - OFF TRADE"
     },
     {
-      "codcli": "74348",
-      "razao": "MARIANNA VALLADARES DOS ANJOS 09876037790",
-      "fantasia": "MARIANNA VALLADARES DOS ANJOS",
-      "bairro": "BARRA DE SAO JOAO",
-      "cidade": "CASIMIRO DE ABR",
-      "cnpj": "48.845.985/0001-82",
-      "estado": "RJ",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "241",
-      "nome_usur2": "ZEINALDO DE OLIVEIRA - OFF TRADE"
-    },
-    {
       "codcli": "36730",
       "razao": "MARIANNE STEINBRECHER BAR LTDA",
       "fantasia": "HEY BITCH SOCIAL CLUB",
@@ -227188,22 +223668,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "77604",
-      "razao": "MARKET FACIL COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
-      "fantasia": "MARKET FACIL",
-      "bairro": "PECHINCHA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "55.006.760/0001-06",
-      "estado": "RJ",
-      "ramo": "MINI-MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "80976",
       "razao": "MARKET PREMIUM COMERCIO DE MERCADORIAS LTDA",
       "fantasia": "MARKET PREMIUM",
@@ -228100,22 +224564,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "MARIANA LAGES"
     },
     {
-      "codcli": "92343",
-      "razao": "MARTINS SHOP LTDA",
-      "fantasia": "MARTINS SHOP",
-      "bairro": "JARDIM DO CARMO",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "59.482.819/0001-85",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "36148",
       "razao": "MARU ALIMENTOS E BEBIDAS LTDA",
       "fantasia": "MARU",
@@ -228196,22 +224644,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "81938",
-      "razao": "MARYARA ALIMENTOS LTDA",
-      "fantasia": "MARYARA ALIMENTOS LTDA",
-      "bairro": "MIRANTE DA SERRA",
-      "cidade": "RESENDE",
-      "cnpj": "35.658.420/0001-44",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "71640",
       "razao": "MARYELEN DOS ANJOS FERNANDO 10977698793",
       "fantasia": "LILICA DOCES CONFEITARIA ARTESANAL",
@@ -228258,22 +224690,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
-      "codcli": "79251",
-      "razao": "MAS CORREIA LOJA DE CONVENIENCIA",
-      "fantasia": "MAS CORREIA LOJA DE CONVENIENCIA",
-      "bairro": "CENTRO",
-      "cidade": "CAMPOS DOS GOYT",
-      "cnpj": "15.684.239/0001-03",
-      "estado": "RJ",
-      "ramo": "LOJAS DE CONVENIENCIA/ VARIEDADES",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
     {
       "codcli": "6336",
@@ -228436,20 +224852,20 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92263",
+      "codcli": "52223",
       "razao": "MASTER COMERCIO DE PRODUTOS EM GERAL LTDA",
       "fantasia": "MASTER ATACADO",
       "bairro": "JARDIM ROSELI",
       "cidade": "SAO PAULO",
       "cnpj": "52.710.992/0001-44",
       "estado": "SP",
-      "ramo": "SUPERMERCADO",
+      "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
       "codusur1": "588",
       "nome_usur1": "W.S",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "80308",
@@ -229908,6 +226324,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "95876",
+      "razao": "MAXWEL VIEIRA FURTADO LTDA",
+      "fantasia": "QUIOSQUE DO MAX",
+      "bairro": "PRAIA GRANDE",
+      "cidade": "ARRAIAL DO CABO",
+      "cnpj": "63.929.212/0001-78",
+      "estado": "RJ",
+      "ramo": "BAR",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "155",
+      "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
+    },
+    {
       "codcli": "30438",
       "razao": "MAXWELL DE MATOS MARTINS DE SOUZA",
       "fantasia": "KALAMARES PIMENTA CHURRASCO",
@@ -231284,22 +227716,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "JOAO PEDRO - OFF TRADE"
     },
     {
-      "codcli": "77152",
-      "razao": "MEGA PUB RESTAURANTE LTDA",
-      "fantasia": "MEGA PUB CENTRO",
-      "bairro": "CENTRO",
-      "cidade": "NITEROI",
-      "cnpj": "47.131.249/0001-08",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "172",
-      "nome_usur2": "JOAO PEDRO - OFF TRADE"
-    },
-    {
       "codcli": "3773",
       "razao": "MEGA RJ RESTAURANTE LTDA",
       "fantasia": "BROOKS PUB",
@@ -231698,22 +228114,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
-      "codcli": "92017",
-      "razao": "MENDONCA FOODS RESTAURANTES LTDA",
-      "fantasia": "MENDONCA FOODS RESTAURANTES",
-      "bairro": "ESTADOS",
-      "cidade": "BALNEARIO CAMBO",
-      "cnpj": "15.815.603/0006-23",
-      "estado": "SC",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "29981",
@@ -232210,22 +228610,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "76961",
-      "razao": "MERCADINHO CARAPIA LTDA",
-      "fantasia": "MERCADINHO CARAPIA",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "08.325.104/0001-88",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "170",
-      "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
     },
     {
       "codcli": "25671",
@@ -233042,22 +229426,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
-    },
-    {
-      "codcli": "19232",
-      "razao": "MERCADO ADONAI DA VILA NOVA LTDA",
-      "fantasia": "MERCADO ADONAI DA VILA NOVA LTDA",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "37.320.393/0001-20",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "170",
-      "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
     },
     {
       "codcli": "19232",
@@ -234226,22 +230594,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "86431",
-      "razao": "MERCADO E DISTRIBUIDORA DA PRACA 2021 LTDA",
-      "fantasia": "MERCADO E DISTRIBUIDORA DA PRACA 2021",
-      "bairro": "JACAREPAGUA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "10.612.799/0002-01",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "144",
-      "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
     },
     {
       "codcli": "42938",
@@ -235471,22 +231823,6 @@ const CLIENTES_RCA_DATA = {
       "key_account": false,
       "rede": "",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "153",
-      "nome_usur2": "ANGELO NEVES SUZART - OFF TRADE"
-    },
-    {
-      "codcli": "18918",
-      "razao": "MERCADO JARDINS DA ILHA LTDA",
-      "fantasia": "MERCADO JARDINS DA ILHA LTDA",
-      "bairro": "JARDIM GAUNABARA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "27.939.646/0001-95",
-      "estado": "RJ",
-      "ramo": "MINI-MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
       "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
@@ -235780,22 +232116,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "6312",
-      "razao": "MERCADO MDG LTDA",
-      "fantasia": "MERCADO NOVO LEBLON",
-      "bairro": "BARRA DA TIJUCA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "02.316.993/0001-30",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "75252",
       "razao": "MERCADO MEGA 2 IRAJA LTDA",
       "fantasia": "SUPER COMPRAS",
@@ -235874,22 +232194,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "3863",
-      "razao": "MERCADO MINI PREÇO DA BOIUNA LTDA",
-      "fantasia": "REDE ECONOMIA TAQUARA",
-      "bairro": "TAQUARA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "00.935.769/0001-00",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "144",
-      "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
     },
     {
       "codcli": "3863",
@@ -236434,22 +232738,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "76972",
-      "razao": "MERCADO POUPMAX LTDA",
-      "fantasia": "MERCADO POUPMAX",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "11.403.494/0001-71",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "170",
-      "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
     },
     {
       "codcli": "75476",
@@ -237462,22 +233750,6 @@ const CLIENTES_RCA_DATA = {
     {
       "codcli": "2253",
       "razao": "MERCADO SUPER ECONOMIA DE CAMPO GRANDE LTDA",
-      "fantasia": "MERCADO SUPER ECONOMIA DE CAMPO GRANDE L",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "21.725.804/0001-28",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "170",
-      "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
-    },
-    {
-      "codcli": "2253",
-      "razao": "MERCADO SUPER ECONOMIA DE CAMPO GRANDE LTDA",
       "fantasia": "",
       "bairro": "CAMPO GRANDE",
       "cidade": "RIO DE JANEIRO",
@@ -238180,22 +234452,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "34393",
-      "razao": "MERCEARIA ATLANTIDA LTDA",
-      "fantasia": "MERCEARIA ATLANTIDA",
-      "bairro": "JARDIM LEBLON",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "16.950.776/0001-02",
-      "estado": "MG",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "35506",
       "razao": "MERCEARIA BALTAZAR LTDA",
       "fantasia": "MERCEARIA BALTAZAR",
@@ -238484,22 +234740,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "76995",
-      "razao": "MERCEARIA CUZCO LTDA",
-      "fantasia": "MERCEARIA CUZCO",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "12.872.580/0001-96",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "170",
-      "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
-    },
-    {
       "codcli": "1270",
       "razao": "MERCEARIA CÉU DA BICA",
       "fantasia": "",
@@ -238530,22 +234770,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "10179",
-      "razao": "MERCEARIA DA PRACA BAR E LANCHONETE - EIRELI",
-      "fantasia": "MERCEARIA DA PRACA",
-      "bairro": "IPANEMA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "25.183.528/0001-74",
-      "estado": "RJ",
-      "ramo": "MERCEARIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "319",
-      "nome_usur2": "FERNANDA CAMBOIM"
     },
     {
       "codcli": "31285",
@@ -240052,22 +236276,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "76953",
-      "razao": "MERCEARIA LETICIA DO MOINHO LTDA",
-      "fantasia": "MERCEARIA LETICIA",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "07.221.519/0001-49",
-      "estado": "RJ",
-      "ramo": "PADARIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "170",
-      "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
-    },
-    {
       "codcli": "39024",
       "razao": "MERCEARIA LIARA LTDA",
       "fantasia": "SUPERMERCADO JUVIALE",
@@ -240500,22 +236708,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "50940",
-      "razao": "MERCEARIA ORTEGA LTDA",
-      "fantasia": "MERCEARIA ORTEGA",
-      "bairro": "VARGEM GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "08.990.955/0001-45",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "144",
-      "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
-    },
-    {
       "codcli": "95340",
       "razao": "MERCEARIA PARAISO DE SANTA TERESA LTDA",
       "fantasia": "MERCEARIA PARAISO DE SANTA TERESA",
@@ -240820,22 +237012,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "60720",
-      "razao": "MERCEARIA SANTA TERESA LTDA",
-      "fantasia": "MERCEARIA SANTA TERESA LTDA",
-      "bairro": "SANTA TERESA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "18.367.539/0001-49",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "170",
-      "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
-    },
-    {
       "codcli": "81336",
       "razao": "MERCEARIA SAO SEBASTIAO DE GUARATIBA LTDA",
       "fantasia": "SAO SEBASTIAO DE GUARATIBA - TAQUARA 1",
@@ -241007,22 +237183,6 @@ const CLIENTES_RCA_DATA = {
       "key_account": false,
       "rede": "",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "170",
-      "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
-    },
-    {
-      "codcli": "19249",
-      "razao": "MERCEARIA SUPER COMPRAS DA CARVALHO RAMOS EIRELI",
-      "fantasia": "MERCEARIA SUPER COMPRAS DA CARVALHO RAMO",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "31.679.593/0001-98",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
       "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
@@ -241042,22 +237202,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
-    },
-    {
-      "codcli": "36247",
-      "razao": "MERCEARIA TOLUCHA LTDA",
-      "fantasia": "MERCEARIA BRUNA",
-      "bairro": "SANTA ROSA",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "21.102.298/0001-10",
-      "estado": "MG",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "1071",
@@ -241170,22 +237314,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "76983",
-      "razao": "MERCEARIA VIDA CAMPO GRANDE LTDA",
-      "fantasia": "MERCEARIA VIDA CAMPO GRANDE",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "11.647.695/0001-14",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "170",
-      "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
     },
     {
       "codcli": "94489",
@@ -241906,22 +238034,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "316",
       "nome_usur2": "RODRIGO FREITAS"
-    },
-    {
-      "codcli": "50293",
-      "razao": "MEZZALUNA VINHOS RESTAURANTE E BAR LTDA",
-      "fantasia": "MEZZALUNA SATYRICON",
-      "bairro": "IPANEMA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "35.839.681/0001-60",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "319",
-      "nome_usur2": "FERNANDA CAMBOIM"
     },
     {
       "codcli": "40516",
@@ -242996,22 +239108,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "63434",
-      "razao": "MIKRO MARKET MERCADO AUTONOMO LTDA",
-      "fantasia": "MIKRO MARKET",
-      "bairro": "BARRA DA TIJUCA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "44.027.806/0001-49",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "144",
-      "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
-    },
-    {
       "codcli": "15076",
       "razao": "MIL E ARPOADOR EVENTOS LTDA",
       "fantasia": "CLUB ARPOADOR",
@@ -243556,6 +239652,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "39706",
+      "razao": "MINASFORT DISTRIBUIDORA DE ALIMENTOS LTDA",
+      "fantasia": "MINASFORT DISTRIBUIDORA DE ALIMENTOS",
+      "bairro": "KENNEDY",
+      "cidade": "CONTAGEM",
+      "cnpj": "06.125.316/0004-39",
+      "estado": "MG",
+      "ramo": "COMERCIO ATACADISTA (GERAL)",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "388",
+      "nome_usur1": "DOUGLAS FERREIRA SILVA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "38966",
       "razao": "MINASMAIS SUPERMERCADOS JF LTDA",
       "fantasia": "MINASMAIS SUPERMERCADOS",
@@ -243762,22 +239874,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "50076",
-      "razao": "MINI MARKET LOJA DE CONVENIENCIA LTDA",
-      "fantasia": "MINI MARKET LOJA DE CONVENIENCIA LTDA",
-      "bairro": "BARRA DA TIJUCA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "46.369.307/0001-65",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "161",
-      "nome_usur2": "ARLLEY FIGUEIREDO - OFF TRADE"
     },
     {
       "codcli": "93270",
@@ -244100,22 +240196,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
-      "codcli": "82288",
-      "razao": "MINI MERCADO HORTISABOR LTDA",
-      "fantasia": "MINI MERCADO HORTISABOR",
-      "bairro": "MIRANDOPOLIS",
-      "cidade": "SAO PAULO",
-      "cnpj": "09.014.480/0005-48",
-      "estado": "SP",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "299",
-      "nome_usur1": "BRYAN PALOPOLI - OFF TRADE",
-      "codusur2": "299",
-      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
-    },
-    {
       "codcli": "21908",
       "razao": "MINI MERCADO HORTISABOR LTDA",
       "fantasia": "MINI MERCADO HORTISABOR",
@@ -244162,22 +240242,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "74058",
-      "razao": "MINI MERCADO ILHA LTDA",
-      "fantasia": "MINI MERCADO ILHA",
-      "bairro": "CACUIA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "51.299.588/0001-67",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA DE BEBIDAS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "153",
-      "nome_usur2": "ANGELO NEVES SUZART - OFF TRADE"
     },
     {
       "codcli": "51520",
@@ -244964,22 +241028,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "16059",
-      "razao": "MINIMERCADO LIDER DE MANGARATIBA LTDA",
-      "fantasia": "MINIMERCADO LIDER DE MANGARATIBA",
-      "bairro": "SITIO CARANGUEJO",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "06.947.567/0001-56",
-      "estado": "RJ",
-      "ramo": "MINI-MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "16058",
       "razao": "MINIMERCADO LIDER DE MANGARATIBA LTDA",
       "fantasia": "MINIMERCADO LIDER DE MANGARATIBA LTDA",
@@ -245412,22 +241460,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "74188",
-      "razao": "MIRANTE BUZIOS RESTAURANTE E BEACH CLUB LTDA",
-      "fantasia": "MIRANTE BUZIOS",
-      "bairro": "ARMAÇÃO",
-      "cidade": "ARMACAO DOS BUZ",
-      "cnpj": "53.127.699/0001-11",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "155",
-      "nome_usur2": "RAPHAEL SANTOS - OFF TRADE"
-    },
-    {
       "codcli": "79370",
       "razao": "MIRANTE DISTRIBUIDORA DE CESTA BASICA LTDA",
       "fantasia": "MIRANTE CESTA BASICA",
@@ -245812,22 +241844,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92350",
-      "razao": "MIX GARDEN CAFE LTDA",
-      "fantasia": "MIX GARDEN CAFE",
-      "bairro": "CANCELA PRETA",
-      "cidade": "MACAE",
-      "cnpj": "67.145.111/0001-67",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "159",
-      "nome_usur1": "GISELLE BARFER - OFF TRADE",
-      "codusur2": "313",
-      "nome_usur2": "ANDRE MATTOS"
-    },
-    {
       "codcli": "55434",
       "razao": "MIX GELATO SORVETERIA E RESTAURANTE LTDA",
       "fantasia": "MIX DRINK'S",
@@ -245874,22 +241890,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "82175",
-      "razao": "MIX PREMIUM BBQ CASA DE CARNES E BEBIDAS LTDA",
-      "fantasia": "MIX PREMIUM BBQ",
-      "bairro": "CENTRO",
-      "cidade": "TRES RIOS",
-      "cnpj": "40.351.592/0001-00",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA DE BEBIDAS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "255",
-      "nome_usur2": "ALEXSANDRO DOS SANTOS - OFF TRADE"
     },
     {
       "codcli": "90450",
@@ -246146,22 +242146,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "229",
       "nome_usur2": "LUIZA HASSEN"
-    },
-    {
-      "codcli": "92339",
-      "razao": "MJP COMERCIAL LTDA",
-      "fantasia": "MJP COMERCIAL",
-      "bairro": "PARQUE SANTA AMÉLIA",
-      "cidade": "SAO PAULO",
-      "cnpj": "47.059.890/0001-70",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "73265",
@@ -248116,22 +244100,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "62488",
-      "razao": "MOTEL NEBRASKA LTDA",
-      "fantasia": "MOTEL NEBRASKA",
-      "bairro": "EDSON PASSOS",
-      "cidade": "MESQUITA",
-      "cnpj": "29.439.601/0001-87",
-      "estado": "RJ",
-      "ramo": "MOTEL",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "170",
-      "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
-    },
-    {
       "codcli": "32388",
       "razao": "MOTEL NEBRASKA LTDA",
       "fantasia": "MOTEL NEBRASKA",
@@ -248660,22 +244628,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "83045",
-      "razao": "MPM RESTAURANTE E LANCHONETE LTDA",
-      "fantasia": "PLAY GASTRONOMIA",
-      "bairro": "TIJUCA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "48.596.896/0001-40",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "19108",
       "razao": "MPR E NEGRI CAFE EIRELI",
       "fantasia": "CASA D' VO",
@@ -248976,8 +244928,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "588",
       "nome_usur1": "W.S",
-      "codusur2": "399",
-      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+      "codusur2": "1",
+      "nome_usur2": "RQ"
     },
     {
       "codcli": "72257",
@@ -249682,22 +245634,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "EUDES MORGAN - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "92342",
-      "razao": "MULTIMIX IMPORTS LTDA",
-      "fantasia": "MULTIMIX IMPORTS",
-      "bairro": "CIDADE ANTÔNIO ESTEVÃO DE CARVALHO",
-      "cidade": "SAO PAULO",
-      "cnpj": "55.231.497/0001-40",
-      "estado": "SP",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "64575",
@@ -254436,12 +250372,12 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "51563",
+      "codcli": "48032",
       "razao": "NINKI SUPERMERCADOS LTDA",
       "fantasia": "NINKI SUPERMERCADOS",
-      "bairro": "CAMPOS ELISEOS",
+      "bairro": "CASA VERDE",
       "cidade": "SAO PAULO",
-      "cnpj": "07.577.664/0001-67",
+      "cnpj": "07.577.664/0002-48",
       "estado": "SP",
       "ramo": "MERCADO",
       "key_account": false,
@@ -254626,22 +250562,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "313",
       "nome_usur2": "ANDRE MATTOS"
-    },
-    {
-      "codcli": "92344",
-      "razao": "NKK ELETRONICOS LTDA",
-      "fantasia": "NKK ELETRONICOS",
-      "bairro": "JARDIM NOSSA SENHORA D'AJUDA",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "63.750.648/0001-03",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "90781",
@@ -254898,22 +250818,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "92332",
-      "razao": "NOBRU DIVERSIDADES LTDA",
-      "fantasia": "NOBRU DIVERSIDADES",
-      "bairro": "JARDIM MEDINA",
-      "cidade": "POA",
-      "cnpj": "65.387.627/0001-92",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "92565",
@@ -255202,22 +251106,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "92292",
-      "razao": "NORDEX OLIVIA LTDA",
-      "fantasia": "NORDEX OLIVIA",
-      "bairro": "RESIDENCIAL RANCHO GRANDE",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "65.726.800/0001-30",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "70921",
@@ -255956,22 +251844,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92321",
-      "razao": "NOVA GELLA GUELLA DISTRIBUIDORA DE BEBIDAS E ALIMENTOS LTDA",
-      "fantasia": "NOVA GELLA GUELLA",
-      "bairro": "VILA MARIA ROSA",
-      "cidade": "FERRAZ DE VASCO",
-      "cnpj": "58.496.279/0001-26",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "46565",
       "razao": "NOVA GELLA GUELLA DISTRIBUIDORA DE BEBIDAS E ALIMENTOS LTDA",
       "fantasia": "NOVA GELLA GUELLA DISTRIBUIDORA DE BEBIDAS E ALIMENTOS",
@@ -256114,22 +251986,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ALEXANDRE SOUZA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "92260",
-      "razao": "NOVA SEMEL DISTRIBUIDORA DE PRODUTOS EM GERAL LTDA",
-      "fantasia": "NOVA SEMEL",
-      "bairro": "VILA RÉ",
-      "cidade": "SAO PAULO",
-      "cnpj": "44.815.229/0001-50",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "34010",
@@ -257188,6 +253044,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "FERNANDA CAMBOIM"
     },
     {
+      "codcli": "39051",
+      "razao": "O CANECO DISTRIBUIDORA DE BEBIDAS LTDA",
+      "fantasia": "ADEGA O CANECO",
+      "bairro": "JARDIM AMANDA II",
+      "cidade": "HORTOLANDIA",
+      "cnpj": "31.905.230/0001-23",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "95659",
       "razao": "O CANTINHO DA GLORIA LANCHONETE E RESTAURANTE LTDA",
       "fantasia": "O CANTINHO DA GLORIA",
@@ -258100,6 +253972,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "39665",
+      "razao": "OESA COMERCIO E REPRESENTACOES S/A",
+      "fantasia": "OESA COMERCIO E REPRESENTACOES S/A",
+      "bairro": "TAPERA",
+      "cidade": "CONTAGEM",
+      "cnpj": "81.611.931/0029-29",
+      "estado": "MG",
+      "ramo": "COMERCIO VAREJISTA (GERAL)",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "388",
+      "nome_usur1": "DOUGLAS FERREIRA SILVA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "82878",
       "razao": "OESTE SUPERATACADO LTDA",
       "fantasia": "OESTE SUPERATACADO",
@@ -258436,22 +254324,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
-      "codcli": "91141",
-      "razao": "OLARIA BARIGUI COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
-      "fantasia": "OLARIA BARIGUI COMERCIO DE ALIMENTOS",
-      "bairro": "ABRANCHES",
-      "cidade": "CURITIBA",
-      "cnpj": "51.446.997/0002-20",
-      "estado": "PR",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "91",
-      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "32955",
       "razao": "OLAVIO BILAC PINTO NETO",
       "fantasia": "OLAVIO BILAC PINTO NETO",
@@ -258688,22 +254560,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "412",
       "nome_usur1": "BARBARA CABRAL - OFF TRADE",
-      "codusur2": "412",
-      "nome_usur2": "BARBARA CABRAL - OFF TRADE"
-    },
-    {
-      "codcli": "76947",
-      "razao": "OLINDA ELLIS CONVENIENCIA EXPRESS LTDA",
-      "fantasia": "OLINDA ELLIS CONVENIENCIA EXPRESS",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "27.148.859/0001-07",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "412",
       "nome_usur2": "BARBARA CABRAL - OFF TRADE"
     },
@@ -259204,22 +255060,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "36193",
-      "razao": "ONESIO LOPES DA SILVA",
-      "fantasia": "BAR E LANCHONETE PETISCO",
-      "bairro": "JARDINÓPOLIS",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "00.157.272/0001-08",
-      "estado": "MG",
-      "ramo": "LANCHONETE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "33090",
       "razao": "ONEWAY STORE COMERCIO DE VESTUARIO LTDA",
       "fantasia": "ONEWAY STORE",
@@ -259282,22 +255122,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "92278",
-      "razao": "ONVIE ECOM LTDA",
-      "fantasia": "JFW8",
-      "bairro": "PARQUE CAMPOLIM",
-      "cidade": "SOROCABA",
-      "cnpj": "61.794.352/0001-50",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "85541",
@@ -259636,7 +255460,7 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ANA CLARA FASSANO - OFF TRADE"
     },
     {
-      "codcli": "82345",
+      "codcli": "44190",
       "razao": "ORGANIZACAO PILOTO DE COMESTIVEIS LTDA",
       "fantasia": "MERCADINHO LARANJEIRAS",
       "bairro": "LARANJEIRAS",
@@ -259647,7 +255471,7 @@ const CLIENTES_RCA_DATA = {
       "key_account": false,
       "rede": "",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "INATIVO",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -259988,38 +255812,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "MARIANA LAGES"
     },
     {
-      "codcli": "92181",
-      "razao": "ORIGENS MERCATO LTDA",
-      "fantasia": "ORIGENS MERCATO",
-      "bairro": "SANTA CECILIA",
-      "cidade": "SAO LOURENCO",
-      "cnpj": "65.759.701/0001-54",
-      "estado": "MG",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "91",
-      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
-      "codusur2": "312",
-      "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "92186",
-      "razao": "ORIGGIO DISTRIBUICAO LTDA",
-      "fantasia": "ORIGENS EMPORIO",
-      "bairro": "SANTA CECILIA",
-      "cidade": "SAO LOURENCO",
-      "cnpj": "48.144.800/0001-02",
-      "estado": "MG",
-      "ramo": "SUPERMERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "91",
-      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "72362",
       "razao": "ORIGINAL CARGO BRAZIL LTDA",
       "fantasia": "ORIGINAL CARGO",
@@ -260223,7 +256015,7 @@ const CLIENTES_RCA_DATA = {
       "key_account": false,
       "rede": "",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "INATIVO",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -262052,22 +257844,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "76813",
-      "razao": "PADARIA ALZIRA BENATTI LTDA",
-      "fantasia": "PADARIA BENATTI",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "51.825.863/0001-39",
-      "estado": "RJ",
-      "ramo": "PADARIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "170",
-      "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
-    },
-    {
       "codcli": "84631",
       "razao": "PADARIA ANDRADE LTDA",
       "fantasia": "PADARIA E LANCHONETE CONFIACA",
@@ -262628,22 +258404,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "76991",
-      "razao": "PADARIA E CONFEITARIA AURELIO LTDA",
-      "fantasia": "PADARIA E CONFEITARIA IARAQUA",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "14.635.218/0001-27",
-      "estado": "RJ",
-      "ramo": "PADARIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "170",
-      "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
-    },
-    {
       "codcli": "1597",
       "razao": "PADARIA E CONFEITARIA AVIACAO LTDA",
       "fantasia": "",
@@ -263060,22 +258820,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "76929",
-      "razao": "PADARIA E CONFEITARIA IBERICA LTDA",
-      "fantasia": "PADARIA E CONFEITARIA IBERICA",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "29.491.180/0001-33",
-      "estado": "RJ",
-      "ramo": "PADARIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "170",
-      "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
-    },
-    {
       "codcli": "34389",
       "razao": "PADARIA E CONFEITARIA ITALIA LTDA",
       "fantasia": "PADARIA E CONFEITARIA ITALIA",
@@ -263186,22 +258930,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "76862",
-      "razao": "PADARIA E CONFEITARIA LETICIA LTDA",
-      "fantasia": "PADARIA E CONFEITARIA LETICIA",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "43.718.508/0001-32",
-      "estado": "RJ",
-      "ramo": "PADARIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "170",
-      "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
     },
     {
       "codcli": "36040",
@@ -263618,22 +259346,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "72049",
-      "razao": "PADARIA E CONFEITARIA POSTO 11 DO RECREIO LTDA.",
-      "fantasia": "PADARIA ALFABELLE POSTO 11",
-      "bairro": "RECREIO DOS BANDEIRANTES",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "38.120.620/0001-37",
-      "estado": "RJ",
-      "ramo": "CAFE/LANCHONETE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "144",
-      "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
     },
     {
       "codcli": "81498",
@@ -264098,22 +259810,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "76936",
-      "razao": "PADARIA E CONFEITARIA UNIVERSO DOS PAES LTDA",
-      "fantasia": "PADARIA E CONFEITARIA UNIVERSO DOS PAES",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "03.719.599/0001-06",
-      "estado": "RJ",
-      "ramo": "PADARIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "170",
-      "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
     },
     {
       "codcli": "85503",
@@ -264836,22 +260532,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
     },
     {
-      "codcli": "83071",
-      "razao": "PADARIA MERCADINHO MENDES LTDA",
-      "fantasia": "BAZAR E MERCEARIA RAMOS",
-      "bairro": "JACAREPAGUA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "31.114.279/0001-68",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "144",
-      "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
-    },
-    {
       "codcli": "89897",
       "razao": "PADARIA MILANO INDUSTRIA E COMERCIO LTDA.",
       "fantasia": "PADARIA MILANO",
@@ -265282,22 +260962,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "76943",
-      "razao": "PADARIA SILBER LTDA",
-      "fantasia": "PADARIA SILBER",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "27.696.111/0001-30",
-      "estado": "RJ",
-      "ramo": "PADARIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "170",
-      "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
     },
     {
       "codcli": "77332",
@@ -265860,22 +261524,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "FABIO VALOTTI - OFF TRADE"
     },
     {
-      "codcli": "8263",
-      "razao": "PAIS E FILHOS LANCHONETE E RESTAURANTE EIRELI",
-      "fantasia": "LANCHONETE PAIS E FILHOS",
-      "bairro": "LAGOA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "26.779.040/0001-77",
-      "estado": "RJ",
-      "ramo": "CAFE/LANCHONETE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "378",
-      "nome_usur2": "FABIO VALOTTI - OFF TRADE"
-    },
-    {
       "codcli": "69985",
       "razao": "PAISSANDU ATLETICO CLUBE",
       "fantasia": "PAISSANDU ATLETICO CLUBE",
@@ -266146,22 +261794,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "92061",
-      "razao": "PALERMO PINHEIROS BAR E RESTAURANTE LTDA",
-      "fantasia": "PALERMO PINHEIROS BAR E RESTAURANTE",
-      "bairro": "PINHEIROS",
-      "cidade": "SAO PAULO",
-      "cnpj": "52.215.047/0001-76",
-      "estado": "SP",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "299",
-      "nome_usur1": "BRYAN PALOPOLI - OFF TRADE",
-      "codusur2": "375",
-      "nome_usur2": "BRIAN HODGE"
     },
     {
       "codcli": "94808",
@@ -268468,22 +264100,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "61917",
-      "razao": "PARADA 88 DEPOSITO DE BEBIDAS , DELIVERY E GRILL LTDA",
-      "fantasia": "PARADA 88 DEPOSITO DE BEBIDAS , DELIVERY",
-      "bairro": "PECHINCHA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "41.098.657/0001-10",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "172",
-      "nome_usur2": "JOAO PEDRO - OFF TRADE"
-    },
-    {
       "codcli": "86214",
       "razao": "PARADA ARCADIA PADARIA MERCEARIA E ARTESANATO LTDA",
       "fantasia": "PARADA ARCADIA - MIGUEL PEREIRA",
@@ -269620,22 +265236,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
-      "codcli": "3666",
-      "razao": "PASTELARIA E CALDO DE CANA FLOR DO HUMAITA LTDA",
-      "fantasia": "ESPIRITO DO VINHO",
-      "bairro": "BOTAFOGO",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "29.691.847/0001-41",
-      "estado": "RJ",
-      "ramo": "MERCEARIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "316",
-      "nome_usur2": "RODRIGO FREITAS"
-    },
-    {
       "codcli": "62924",
       "razao": "PASTELARIA E RESTAURANTE CANTINHO DO SENADO LTDA",
       "fantasia": "CANTINHO DO SENADO",
@@ -270436,22 +266036,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
-      "codcli": "35778",
-      "razao": "PAULA ANDREIA DE MIRANDA SILVA 06820148690",
-      "fantasia": "PAULA ANDREIA DE MIRANDA SILVA 06820148690",
-      "bairro": "CONJUNTO PAULO VI",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "38.334.554/0001-06",
-      "estado": "MG",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "37387",
       "razao": "PAULA CAROLINE DOS SANTOS SILVA",
       "fantasia": "ACAIDERA MIL GRAU C",
@@ -271132,22 +266716,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "29.905.631/0001-31",
       "estado": "MG",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "36302",
-      "razao": "PAULO HENRIQUE ARAUJO FAVA 63620936668",
-      "fantasia": "PAULO HENRIQUE ARAUJO",
-      "bairro": "ESPÍRITO SANTO",
-      "cidade": "BETIM",
-      "cnpj": "29.339.605/0001-93",
-      "estado": "MG",
-      "ramo": "BAR",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -273348,22 +268916,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "79248",
-      "razao": "PENDOTIBA CONVENIENCIAS LTDA",
-      "fantasia": "PENDOTIBA CONVENIENCIAS",
-      "bairro": "MARIA PAULA",
-      "cidade": "NITEROI",
-      "cnpj": "35.677.390/0001-13",
-      "estado": "RJ",
-      "ramo": "CAFE/LANCHONETE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
-    },
-    {
       "codcli": "32747",
       "razao": "PENINNSULA RESTAURANTE E GRILL LTDA",
       "fantasia": "PENINNSULA RESTAURANTE E GRILL",
@@ -273748,22 +269300,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "82147",
-      "razao": "PERY COMERCIO E PARTICIPACOES LTDA",
-      "fantasia": "CONVENIENCIA TCHA TCHA TCHA",
-      "bairro": "PACIENCIA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "55.050.230/0001-57",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "412",
-      "nome_usur2": "BARBARA CABRAL - OFF TRADE"
-    },
-    {
       "codcli": "8736",
       "razao": "PESCADOS DO MERCADO PEIXARIA EIRELI",
       "fantasia": "LA PLANCHA",
@@ -274108,22 +269644,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "40.286.116/0001-53",
       "estado": "RJ",
       "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "92087",
-      "razao": "PG WINE COMERCIO DE BEBIDAS LTDA",
-      "fantasia": "PG WINE COMERCIO DE BEBIDAS",
-      "bairro": "JARDIM CABORÉ",
-      "cidade": "SAO PAULO",
-      "cnpj": "37.066.258/0001-09",
-      "estado": "SP",
-      "ramo": "ATIVIDADE DE TELEVISAO",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -274580,6 +270100,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "95873",
+      "razao": "PIERRE EMPREENDIMENTO TURISTICO LTDA",
+      "fantasia": "PIERRE EMPREENDIMENTO TURISTICO LTDA",
+      "bairro": "PRAIA DO PECADO",
+      "cidade": "MACAE",
+      "cnpj": "36.577.781/0001-29",
+      "estado": "RJ",
+      "ramo": "HOTELARIA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
+    },
+    {
       "codcli": "4496",
       "razao": "PIETREHUS RESTAURANTE LTDA EPP",
       "fantasia": "SUSHIRO PRAIA",
@@ -275028,22 +270564,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
-      "codcli": "92036",
-      "razao": "PIU VILLA LOBOS BAR E RESTAURANTE LTDA",
-      "fantasia": "PIU VILLA LOBOS BAR E RESTAURANTE",
-      "bairro": "ALTO DE PINHEIROS",
-      "cidade": "SAO PAULO",
-      "cnpj": "63.097.475/0001-68",
-      "estado": "SP",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "329",
-      "nome_usur1": "RAPHAELA RIBAS",
-      "codusur2": "299",
-      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
-    },
-    {
       "codcli": "4531",
       "razao": "PIZZA AL TAGLIO LTDA",
       "fantasia": "PIZZA AL TAGLIO",
@@ -275316,22 +270836,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
-      "codcli": "35889",
-      "razao": "PIZZARIA E LANCHONETE TUPIS LTDA",
-      "fantasia": "UAI LANCHES",
-      "bairro": "CENTRO",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "16.721.692/0001-05",
-      "estado": "MG",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "30020",
       "razao": "PIZZARIA E PETISQUEIRA PEIXES E BURGUER LTDA",
       "fantasia": "PIZZARIA E PETISQUEIRA PEIXES E BURGUER",
@@ -275426,22 +270930,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
       "codusur2": "43",
       "nome_usur2": "SOUZA"
-    },
-    {
-      "codcli": "35792",
-      "razao": "PIZZARIA E RESTAURANTE SOUZA LTDA",
-      "fantasia": "PIZZARIA PRACA DA JUVENTUDE",
-      "bairro": "CONJUNTO CRISTINA (SÃO BENEDITO)",
-      "cidade": "SANTA LUZIA",
-      "cnpj": "14.227.431/0001-08",
-      "estado": "MG",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "29851",
@@ -276740,22 +272228,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
-      "codcli": "90902",
-      "razao": "POMAR COMERCIO DE BEBIDAS LTDA",
-      "fantasia": "POMAR COMERCIO DE BEBIDAS",
-      "bairro": "BATEL",
-      "cidade": "CURITIBA",
-      "cnpj": "46.804.329/0001-06",
-      "estado": "PR",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "91",
-      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "73288",
       "razao": "POMAR DOMINGUES DE SA COMERCIO DE ALIMENTOS LTDA.",
       "fantasia": "POMAR",
@@ -276852,22 +272324,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LUIZA HASSEN"
     },
     {
-      "codcli": "79484",
-      "razao": "PONTAL RIO BAR E RESTAURANTE LTDA",
-      "fantasia": "PONTAL RIO BAR E RESTAURANTE",
-      "bairro": "RECREIO DOS BANDEIRANTES",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "55.845.708/0001-35",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "319",
-      "nome_usur2": "FERNANDA CAMBOIM"
-    },
-    {
       "codcli": "37597",
       "razao": "PONTEIO BAR E LANCHONETE LTDA",
       "fantasia": "PONTEIO LANCHONETE",
@@ -276960,22 +272416,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "71671",
-      "razao": "PONTO CERTO BAR RESTAURANTE E PIZZARIA LTDA",
-      "fantasia": "GATO",
-      "bairro": "CENTRO",
-      "cidade": "BELFORD ROXO",
-      "cnpj": "14.643.409/0001-30",
-      "estado": "RJ",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -277362,22 +272802,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "3143",
-      "razao": "PORT FOOD COMERCIO INDUSTRIA DE ALIMENTOS LTDA",
-      "fantasia": "PORT FOOD COMERCIO INDUSTRIA",
-      "bairro": "BARRA DA TIJUCA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "32.310.658/0001-96",
-      "estado": "RJ",
-      "ramo": "PADARIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "159",
-      "nome_usur2": "GISELLE BARFER - OFF TRADE"
     },
     {
       "codcli": "3143",
@@ -277919,22 +273343,6 @@ const CLIENTES_RCA_DATA = {
       "key_account": false,
       "rede": "",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "412",
-      "nome_usur2": "BARBARA CABRAL - OFF TRADE"
-    },
-    {
-      "codcli": "11570",
-      "razao": "POSTO 15 PADARIA E CONVENIENCIA LTDA",
-      "fantasia": "POSTO 15 PADARIA",
-      "bairro": "CENTRO",
-      "cidade": "NILOPOLIS",
-      "cnpj": "18.018.959/0001-10",
-      "estado": "RJ",
-      "ramo": "PADARIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
       "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
@@ -278107,22 +273515,6 @@ const CLIENTES_RCA_DATA = {
       "cidade": "ARMACAO DOS BUZ",
       "cnpj": "29.599.170/0001-16",
       "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
-    },
-    {
-      "codcli": "20882",
-      "razao": "POSTO BUZIOS DO FUTURO LTDA",
-      "fantasia": "POSTO BUZIOS DO FUTURO LTDA",
-      "bairro": "BAIA FORMOSA",
-      "cidade": "ARMACAO DOS BUZ",
-      "cnpj": "29.599.170/0001-16",
-      "estado": "RJ",
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
@@ -278251,22 +273643,6 @@ const CLIENTES_RCA_DATA = {
       "cidade": "RIO DE JANEIRO",
       "cnpj": "16.796.629/0001-20",
       "estado": "RJ",
-      "ramo": "LOJAS DE CONVENIENCIA/ VARIEDADES",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
-    },
-    {
-      "codcli": "2513",
-      "razao": "POSTO DE ABASTECIMENTO AMOR DA ILHA LTDA",
-      "fantasia": "POSTO SHELL",
-      "bairro": "JARDIM GUANABARA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "16.796.629/0001-20",
-      "estado": "RJ",
       "ramo": "CONVENIENCIA",
       "key_account": false,
       "rede": "",
@@ -278290,22 +273666,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "14120",
-      "razao": "POSTO DE ABASTECIMENTO AMOR DA LEOPOLDINA LTDA",
-      "fantasia": "POSTO AMOR DA LEOPOLDINA",
-      "bairro": "PENHA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "09.632.231/0001-92",
-      "estado": "RJ",
-      "ramo": "POSTO DE GASOLINA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
     {
       "codcli": "14120",
@@ -278448,22 +273808,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "156",
       "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
-    },
-    {
-      "codcli": "3110",
-      "razao": "POSTO DE ABASTECIMENTO IMPERIAL 2000 LTD",
-      "fantasia": "POSTO IMPERIAL",
-      "bairro": "SÃO CRISTOVÃO",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "03.447.202/0001-74",
-      "estado": "RJ",
-      "ramo": "LOJAS DE CONVENIENCIA/ VARIEDADES",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "156",
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
@@ -278660,22 +274004,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "79255",
-      "razao": "POSTO DE COMBUSTIVEIS ITAIPUACU LTDA",
-      "fantasia": "POSTO ITAIPUACU",
-      "bairro": "JARDIM ATLÂNTICO OESTE (ITAIPUAÇU)",
-      "cidade": "MARICA",
-      "cnpj": "13.352.093/0001-65",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
-    },
-    {
       "codcli": "83578",
       "razao": "POSTO DE COMBUSTIVEL MEGA ENGENHO NOVO LTDA",
       "fantasia": "POSTO DE COMBUSTIVEL MEGA ENGENHO NOVO",
@@ -278843,22 +274171,6 @@ const CLIENTES_RCA_DATA = {
       "cidade": "RIO DE JANEIRO",
       "cnpj": "73.522.070/0001-83",
       "estado": "RJ",
-      "ramo": "LOJAS DE CONVENIENCIA/ VARIEDADES",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
-    },
-    {
-      "codcli": "2310",
-      "razao": "POSTO DE GASOLINA BRACARENSE LTDA",
-      "fantasia": "POSTO PETROBRAS - PRAÇA DA BANDEIRA",
-      "bairro": "MARACANA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "73.522.070/0001-83",
-      "estado": "RJ",
       "ramo": "CONVENIENCIA",
       "key_account": false,
       "rede": "",
@@ -278866,22 +274178,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
-    },
-    {
-      "codcli": "79256",
-      "razao": "POSTO DE GASOLINA CIDADE DE DEUS LTDA",
-      "fantasia": "POSTO DE GASOLINA CIDADE DE DEUS",
-      "bairro": "FREGUESIA (JACAREPAGUA)",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "11.333.439/0001-52",
-      "estado": "RJ",
-      "ramo": "POSTO DE GASOLINA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "161",
-      "nome_usur2": "ARLLEY FIGUEIREDO - OFF TRADE"
     },
     {
       "codcli": "2119",
@@ -278975,22 +274271,6 @@ const CLIENTES_RCA_DATA = {
       "key_account": false,
       "rede": "",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
-    },
-    {
-      "codcli": "6543",
-      "razao": "POSTO DE GASOLINA E BAR GAROA LTDA",
-      "fantasia": "POSTO SHELL",
-      "bairro": "S?O CONRADO",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "33.665.415/0001-33",
-      "estado": "RJ",
-      "ramo": "OUTROS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
       "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
@@ -279026,22 +274306,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "3082",
-      "razao": "POSTO DE GASOLINA ELTECON LTDA",
-      "fantasia": "ELTECON CONVENIÊNCIA",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "02.812.638/0001-52",
-      "estado": "RJ",
-      "ramo": "LOJAS DE CONVENIENCIA/ VARIEDADES",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
     {
       "codcli": "3082",
@@ -279108,22 +274372,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "2454",
-      "razao": "POSTO DE GASOLINA GUADIANA LTDA",
-      "fantasia": "POSTO SHELL",
-      "bairro": "TIJUCA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "68.647.338/0001-73",
-      "estado": "RJ",
-      "ramo": "LOJAS DE CONVENIENCIA/ VARIEDADES",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
-    },
-    {
       "codcli": "89943",
       "razao": "POSTO DE GASOLINA GURUPI LIMITADA",
       "fantasia": "POSTO DE GASOLINA GURUPI - GRAJAU",
@@ -279186,22 +274434,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "6502",
-      "razao": "POSTO DE GASOLINA JOCKEY RIO LTDA",
-      "fantasia": "AM/PM POSTO GAVEA",
-      "bairro": "LEBLON",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "01.315.468/0001-38",
-      "estado": "RJ",
-      "ramo": "LOJAS DE CONVENIENCIA/ VARIEDADES",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
     {
       "codcli": "6502",
@@ -279652,22 +274884,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "74078",
-      "razao": "POSTO E AUTO SERVICO INSULANO LTDA",
-      "fantasia": "POSTO E AUTO SERVICO INSULANO",
-      "bairro": "TAUA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "07.634.487/0001-03",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "161",
-      "nome_usur2": "ARLLEY FIGUEIREDO - OFF TRADE"
-    },
-    {
       "codcli": "3556",
       "razao": "POSTO E GARAGE MAIOR DA PRACA LTDA",
       "fantasia": "POSTO E GARAGE MAIOR DA PRACA",
@@ -279810,22 +275026,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "785",
-      "razao": "POSTO IATE COMBUSTIVEIS E LUBRIFICANTES LTDA",
-      "fantasia": "POSTO IATE COMBUSTIVEIS E LUBRIFICANTES",
-      "bairro": "BOTAFOGO",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "33.250.929/0001-28",
-      "estado": "RJ",
-      "ramo": "LOJAS DE CONVENIENCIA/ VARIEDADES",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "174",
-      "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
       "codcli": "51714",
@@ -280116,22 +275316,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "82383",
-      "razao": "POSTO MARKEN MACAE LTDA",
-      "fantasia": "POSTO MARKEN MACAE",
-      "bairro": "COSTA DO SOL",
-      "cidade": "MACAE",
-      "cnpj": "47.623.181/0001-76",
-      "estado": "RJ",
-      "ramo": "POSTO DE GASOLINA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
-    },
-    {
       "codcli": "83180",
       "razao": "POSTO MEGA VERAO LTDA",
       "fantasia": "POSTO MEGA VERAO",
@@ -280194,22 +275378,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "553",
-      "razao": "POSTO MODELO JMLBG LTDA",
-      "fantasia": "POSTO MODELO JMLBG LTDA",
-      "bairro": "BOTAFOGO",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "05.058.322/0001-05",
-      "estado": "RJ",
-      "ramo": "LOJAS DE CONVENIENCIA/ VARIEDADES",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
     {
       "codcli": "553",
@@ -280322,22 +275490,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "82967",
-      "razao": "POSTO PALACIO GUANABARA LTDA",
-      "fantasia": "POSTO PALACIO GUANABARA",
-      "bairro": "LARANJEIRAS",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "04.816.108/0001-08",
-      "estado": "RJ",
-      "ramo": "POSTO DE GASOLINA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
     {
       "codcli": "81092",
@@ -280484,22 +275636,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "74192",
-      "razao": "POSTO SANTA CLARA DE COPACABANA LIMITADA",
-      "fantasia": "POSTO SANTA CLARA DE COPACABANA LIMITADA",
-      "bairro": "COPACABANA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "00.089.378/0001-03",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
-    },
-    {
       "codcli": "76681",
       "razao": "POSTO SANTA RITA LTDA",
       "fantasia": "POSTO SANTA RITA",
@@ -280608,22 +275744,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "156",
       "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
-    },
-    {
-      "codcli": "80886",
-      "razao": "POSTO SUPERSONICO LTDA",
-      "fantasia": "POSTO SUPERSONICO",
-      "bairro": "GALEAO",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "42.426.965/0001-90",
-      "estado": "RJ",
-      "ramo": "POSTO DE GASOLINA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "156",
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
@@ -280786,22 +275906,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "604",
-      "razao": "POSTOS IATE COMÉRCIO E SERVIÇOS LTDA",
-      "fantasia": "POSTOS IATE COMÉRCIO E SERVIÇOS",
-      "bairro": "BOTAFOGO",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "34.002.337/0001-50",
-      "estado": "RJ",
-      "ramo": "LOJAS DE CONVENIENCIA/ VARIEDADES",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
     {
       "codcli": "75408",
@@ -281074,22 +276178,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "313",
       "nome_usur2": "ANDRE MATTOS"
-    },
-    {
-      "codcli": "58640",
-      "razao": "POUSADA NOVA BYBLOS BUZIOS LTDA",
-      "fantasia": "POUSADA BYBLOS",
-      "bairro": "ARMACAO",
-      "cidade": "ARMACAO DOS BUZ",
-      "cnpj": "42.143.402/0001-95",
-      "estado": "RJ",
-      "ramo": "HOTEL",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "155",
-      "nome_usur2": "RAPHAEL SANTOS - OFF TRADE"
     },
     {
       "codcli": "36457",
@@ -283108,22 +278196,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92336",
-      "razao": "PS ELETRONICOS LTDA",
-      "fantasia": "PS ELETRONICOS",
-      "bairro": "JARDIM NOSSA SENHORA D'AJUDA",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "54.833.670/0001-18",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "43010",
       "razao": "PS MERCEARIA LTDA",
       "fantasia": "PS MERCEARIA",
@@ -283442,22 +278514,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "319",
       "nome_usur2": "FERNANDA CAMBOIM"
-    },
-    {
-      "codcli": "92349",
-      "razao": "Q! EMPORIUM LTDA",
-      "fantasia": "Q! EMPORIUM",
-      "bairro": "QUIRIRIM",
-      "cidade": "TAUBATE",
-      "cnpj": "04.195.043/0001-20",
-      "estado": "SP",
-      "ramo": "EMPORIO/BAZAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "312",
-      "nome_usur1": "LAYZ WERNECK",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "81093",
@@ -284436,22 +279492,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
-      "codcli": "82282",
-      "razao": "QUIOSQUE ARPOADOR BAR E LANCHONETE LTDA",
-      "fantasia": "ARPOADOR BAR",
-      "bairro": "IPANEMA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "57.951.146/0001-30",
-      "estado": "RJ",
-      "ramo": "CAFETERIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "319",
-      "nome_usur2": "FERNANDA CAMBOIM"
-    },
-    {
       "codcli": "25535",
       "razao": "QUIOSQUE B BAR E RESTAURANTE LTDA",
       "fantasia": "CLASSICO POSTINHO NOVO ORLA RIO",
@@ -285238,22 +280278,6 @@ const CLIENTES_RCA_DATA = {
     {
       "codcli": "2573",
       "razao": "QUITANDA E MERCEARIA RABAL LTDA ME",
-      "fantasia": "MULTI-FRUTTI",
-      "bairro": "TODOS OS SANTOS",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "27.664.275/0001-86",
-      "estado": "RJ",
-      "ramo": "MERCEARIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
-    },
-    {
-      "codcli": "2573",
-      "razao": "QUITANDA E MERCEARIA RABAL LTDA ME",
       "fantasia": "",
       "bairro": "TODOS OS SANTOS",
       "cidade": "RIO DE JANEIRO",
@@ -285636,22 +280660,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "RAPHAEL SANTOS - OFF TRADE"
     },
     {
-      "codcli": "6090",
-      "razao": "R GUIMARAES GUEDES - EIRELI - ME",
-      "fantasia": "CASABLANCA CAFE & BAR",
-      "bairro": "MANGUINHOS",
-      "cidade": "ARMACAO DOS BUZ",
-      "cnpj": "26.689.341/0001-00",
-      "estado": "RJ",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "155",
-      "nome_usur2": "RAPHAEL SANTOS - OFF TRADE"
-    },
-    {
       "codcli": "33728",
       "razao": "R J ANCHIETA BAR E RESTAURANTE LTDA",
       "fantasia": "AMADIS",
@@ -285922,22 +280930,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "313",
       "nome_usur2": "ANDRE MATTOS"
-    },
-    {
-      "codcli": "8552",
-      "razao": "R N DIAS DISTRIBUIDORA DE BEBIDAS LTDA",
-      "fantasia": "EMPORIO REAL",
-      "bairro": "MANGUINHOS",
-      "cidade": "ARMACAO DOS BUZ",
-      "cnpj": "12.273.962/0001-01",
-      "estado": "RJ",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "155",
-      "nome_usur2": "RAPHAEL SANTOS - OFF TRADE"
     },
     {
       "codcli": "51899",
@@ -286722,22 +281714,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "76955",
-      "razao": "R.P.B. MELLO MERCEARIA",
-      "fantasia": "R.P.B. MELLO MERCEARIA",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "24.382.462/0001-89",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "170",
-      "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
     },
     {
       "codcli": "78820",
@@ -288018,22 +282994,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "301",
       "nome_usur2": "ISAAC MANN"
-    },
-    {
-      "codcli": "92024",
-      "razao": "RAFAEL SEGALA",
-      "fantasia": "RAFAEL SEGALA",
-      "bairro": "MERCES",
-      "cidade": "CURITIBA",
-      "cnpj": "804.443.930-72",
-      "estado": "PR",
-      "ramo": "PESSOA FISICA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "73799",
@@ -289796,22 +284756,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "FABIO VALOTTI - OFF TRADE"
     },
     {
-      "codcli": "50648",
-      "razao": "RASIBIA CANTINA LTDA",
-      "fantasia": "RACAFFIT",
-      "bairro": "LEBLON",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "44.074.951/0001-80",
-      "estado": "RJ",
-      "ramo": "CANTINAS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "378",
-      "nome_usur2": "FABIO VALOTTI - OFF TRADE"
-    },
-    {
       "codcli": "71251",
       "razao": "RATIBUM FESTAS LTDA",
       "fantasia": "RATIBUM FESTAS",
@@ -290260,22 +285204,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "83583",
-      "razao": "RB DISTRIBUIDORA DE ALIMENTOS 2017 LTDA",
-      "fantasia": "RB DISTRIBUIDORA DE ALIMENTOS 2017",
-      "bairro": "VILA LEOPOLDINA",
-      "cidade": "DUQUE DE CAXIAS",
-      "cnpj": "27.128.064/0001-29",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "55877",
       "razao": "RB DISTRIBUIDORA DE B EBIDAS EIRELI",
       "fantasia": "RB DISTRIBUIDORA DE B EBIDAS EIRELI",
@@ -290674,22 +285602,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "343",
       "nome_usur2": "FERNANDO RISSON - OFF TRADE"
-    },
-    {
-      "codcli": "92341",
-      "razao": "RD STORE DISTRIBUIDORA LTDA",
-      "fantasia": "BOOKING STORE DISTRIBUIDORA",
-      "bairro": "VILA DOUTOR EIRAS",
-      "cidade": "SAO PAULO",
-      "cnpj": "62.047.556/0001-90",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "80356",
@@ -291636,22 +286548,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "13433",
-      "razao": "REEF BUZIOS HOTEL EIRELI",
-      "fantasia": "APUA HOTEIS",
-      "bairro": "MANGUINHOS",
-      "cidade": "ARMACAO DOS BUZ",
-      "cnpj": "32.092.284/0001-80",
-      "estado": "RJ",
-      "ramo": "HOTEL",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "319",
-      "nome_usur2": "FERNANDA CAMBOIM"
-    },
-    {
       "codcli": "29469",
       "razao": "REFRIGERANTES CANAL LTDA",
       "fantasia": "TELE BEBIDAS",
@@ -292144,22 +287040,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
-      "codcli": "90722",
-      "razao": "REGRESSO PIZZA BAR LTDA",
-      "fantasia": "MADA PIZZA E VINHO - CENTRO/SBAGLIATO",
-      "bairro": "CENTRO",
-      "cidade": "CURITIBA",
-      "cnpj": "34.689.402/0001-67",
-      "estado": "PR",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "91",
-      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
@@ -293172,22 +288052,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92027",
-      "razao": "RENATO DE SOUZA ELBERT",
-      "fantasia": "RENATO DE SOUZA ELBERT",
-      "bairro": "ITANHANGÁ",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "860.295.507-30",
-      "estado": "RJ",
-      "ramo": "OUTROS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "29153",
       "razao": "RENATO ESTRELLA",
       "fantasia": "RENATO ESTRELLA",
@@ -293580,22 +288444,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "024.220.487-22",
       "estado": "RJ",
       "ramo": "PESSOA FISICA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "34823",
-      "razao": "RENILDO RIBEIRO DA SILVA",
-      "fantasia": "BAR DO MONGE",
-      "bairro": "JARDIM CASTANHEIRAS",
-      "cidade": "SABARA",
-      "cnpj": "29.349.531/0001-76",
-      "estado": "MG",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -295236,22 +290084,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "91561",
-      "razao": "RESTAURANTE E BAR DI PIRRACA LTDA",
-      "fantasia": "DIPIRRACA RESTAURANTE",
-      "bairro": "BENTO RIBEIRO",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "63.520.832/0001-59",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "144",
-      "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
-    },
-    {
       "codcli": "80678",
       "razao": "RESTAURANTE E BAR DO MINEIRO 2018 LTDA",
       "fantasia": "CATICOCO",
@@ -295456,22 +290288,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "155",
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "78402",
-      "razao": "RESTAURANTE E CHOPERIA ENCANTA GRILL LTDA",
-      "fantasia": "ENCANTA GRILL",
-      "bairro": "CAVALEIROS",
-      "cidade": "MACAE",
-      "cnpj": "18.231.012/0001-92",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -295722,22 +290538,6 @@ const CLIENTES_RCA_DATA = {
       "bairro": "ZONA RURAL",
       "cidade": "CAMPANHA",
       "cnpj": "27.158.547/0001-76",
-      "estado": "MG",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "35830",
-      "razao": "RESTAURANTE E LANCHONETE MINEIRINHO LTDA",
-      "fantasia": "RESTAURANTE E LANCHONETE MINEIRINHO LTDA",
-      "bairro": "CENTRO",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "21.870.019/0001-69",
       "estado": "MG",
       "ramo": "RESTAURANTE",
       "key_account": false,
@@ -296258,22 +291058,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "28355",
-      "razao": "RESTAURANTE ENCANTO MEXICANO LTDA",
-      "fantasia": "VUVU",
-      "bairro": "BOTAFOGO",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "33.192.685/0001-74",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "316",
-      "nome_usur2": "RODRIGO FREITAS"
     },
     {
       "codcli": "1838",
@@ -297790,10 +292574,10 @@ const CLIENTES_RCA_DATA = {
       "ramo": "RESTAURANTE",
       "key_account": false,
       "rede": "",
-      "codusur1": "159",
-      "nome_usur1": "GISELLE BARFER - OFF TRADE",
-      "codusur2": "43",
-      "nome_usur2": "SOUZA"
+      "codusur1": "175",
+      "nome_usur1": "JULIANA SALGADO",
+      "codusur2": "159",
+      "nome_usur2": "GISELLE BARFER - OFF TRADE"
     },
     {
       "codcli": "50789",
@@ -297938,22 +292722,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "86109",
-      "razao": "RESTAURANTE SEU BIE LTDA",
-      "fantasia": "RESTAURANTE SEU BIE",
-      "bairro": "CENTRO",
-      "cidade": "PATY DO ALFERES",
-      "cnpj": "33.574.178/0001-03",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "144",
-      "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
     },
     {
       "codcli": "36020",
@@ -299716,22 +294484,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
     {
-      "codcli": "625",
-      "razao": "RIO MARACANÃ POSTO DE GASOLINA LTDA",
-      "fantasia": "",
-      "bairro": "MARACANA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "33.318.783/0001-05",
-      "estado": "RJ",
-      "ramo": "LOJAS DE CONVENIENCIA/ VARIEDADES",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
-    },
-    {
       "codcli": "81209",
       "razao": "RIO MARMORES IMPORTACAO E COMERCIO LTDA",
       "fantasia": "RIO MARMORES MARMORARIA",
@@ -300530,22 +295282,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "313",
       "nome_usur2": "ANDRE MATTOS"
-    },
-    {
-      "codcli": "77071",
-      "razao": "RJC RESTAURANTE LTDA",
-      "fantasia": "RJC RESTAURANTE",
-      "bairro": "MANGUINHOS",
-      "cidade": "ARMACAO DOS BUZ",
-      "cnpj": "53.770.493/0001-05",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "415",
-      "nome_usur2": "FÁBIO OLIVEIRA - OFF TRADE"
     },
     {
       "codcli": "15888",
@@ -303516,22 +298252,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "21.845.526/0001-42",
       "estado": "RJ",
       "ramo": "DISTRIBUIDORA DE BEBIDA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "92022",
-      "razao": "ROFER GASTRONOMIA EVENTOS E PARTICIPACOES SOCIETARIAS LTDA",
-      "fantasia": "ROFER GASTRONOMIA EVENTOS E PARTICIPACOE",
-      "bairro": "JARDIM SÍLVIA (ZONA OESTE)",
-      "cidade": "SAO PAULO",
-      "cnpj": "11.953.623/0001-03",
-      "estado": "SP",
-      "ramo": "RESTAURANTE",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -307364,22 +302084,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92309",
-      "razao": "RUDNEY HENRIQUE BARBOSA DA SILVA",
-      "fantasia": "RUDNEY HENRIQUE BARBOSA DA SILVA",
-      "bairro": "JARDIM MELIUNAS",
-      "cidade": "SAO PAULO",
-      "cnpj": "62.544.745/0001-79",
-      "estado": "SP",
-      "ramo": "TECNOLOGIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "35012",
       "razao": "RUFUS PIZZARIA LTDA",
       "fantasia": "BORDA & LENHA",
@@ -308036,6 +302740,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "FERNANDO RISSON - OFF TRADE"
     },
     {
+      "codcli": "52224",
+      "razao": "S&S SUPERMERCADOS LTDA",
+      "fantasia": "S&S SUPERMERCADOS LTDA",
+      "bairro": "VILA BARÃO",
+      "cidade": "SOROCABA",
+      "cnpj": "48.277.140/0001-38",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "79191",
       "razao": "S. A. R. ANDRADE MERCEARIA",
       "fantasia": "S. A. R. ANDRADE MERCEARIA",
@@ -308420,22 +303140,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "76832",
-      "razao": "SABOR E COR HORTIFRUTI E MERCEARIA LTDA",
-      "fantasia": "MJS DISTRIBUIDORA E MERCADO",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "01.554.049/0001-59",
-      "estado": "RJ",
-      "ramo": "PADARIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "170",
-      "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
-    },
-    {
       "codcli": "74614",
       "razao": "SABOR EXPRESS COMERCIAL LTDA",
       "fantasia": "SABOR EXPRESS COMERCIAL",
@@ -308496,22 +303200,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "80381",
-      "razao": "SABORES DE LISBOA BAR E RESTAURANTE LTDA",
-      "fantasia": "SABORES DE LISBOA",
-      "bairro": "VILA SAO LUIS",
-      "cidade": "DUQUE DE CAXIAS",
-      "cnpj": "19.831.442/0001-08",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -308636,22 +303324,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "17.906.130/0001-90",
       "estado": "RJ",
       "ramo": "PRODUTO NATURAIS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "92082",
-      "razao": "SACOLAO ASSUNCAO LTDA",
-      "fantasia": "SACOLAO ASSUNCAO",
-      "bairro": "DOS CASA",
-      "cidade": "SAO BERNARDO DO",
-      "cnpj": "00.171.807/0001-97",
-      "estado": "SP",
-      "ramo": "OUTROS",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -309218,22 +303890,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "92338",
-      "razao": "SALES & VARIEDADES LTDA",
-      "fantasia": "SALES & VARIEDADES",
-      "bairro": "VILA VERMONT",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "51.316.309/0001-26",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "77585",
@@ -309956,22 +304612,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92025",
-      "razao": "SAMPA BAR 87 LTDA",
-      "fantasia": "SAMPA BAR 87",
-      "bairro": "MOEMA",
-      "cidade": "SAO PAULO",
-      "cnpj": "47.221.166/0001-00",
-      "estado": "SP",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "30928",
       "razao": "SAMPAIO E ROSIGNOLI CERVEJARIA LTDA",
       "fantasia": "PIT STOP SKOL",
@@ -310290,22 +304930,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "313",
       "nome_usur2": "ANDRE MATTOS"
-    },
-    {
-      "codcli": "92347",
-      "razao": "SANDIM DISTRIBUICOES LTDA",
-      "fantasia": "SANDIM DISTRIBUICOES",
-      "bairro": "VILA DOUTOR EIRAS",
-      "cidade": "SAO PAULO",
-      "cnpj": "64.460.360/0001-59",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "25585",
@@ -311380,22 +306004,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "50379",
-      "razao": "SAO BENTO MINI MERCADO LTDA",
-      "fantasia": "SAO BENTO MINI MERCADO",
-      "bairro": "PENHA CIRCULAR",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "47.290.623/0001-00",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "86360",
       "razao": "SAO CONRADO CAFETERIA E RESTAURANTE LTDA",
       "fantasia": "FREDDO",
@@ -312100,6 +306708,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "33493",
+      "razao": "SAVA COMERCIAL LTDA",
+      "fantasia": "SAVA PUB",
+      "bairro": "SION",
+      "cidade": "BELO HORIZONTE",
+      "cnpj": "43.212.991/0001-89",
+      "estado": "MG",
+      "ramo": "RESTAURANTE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "327",
+      "nome_usur1": "JOÃO SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "31337",
       "razao": "SAVASSI WINEBAR E RESTAURANTE LTDA",
       "fantasia": "LA VINICOLA SAVASSI",
@@ -312508,22 +307132,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "63.120.537/0001-05",
       "estado": "ES",
       "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "92029",
-      "razao": "SDM VINHOS VILA CLEMENTINO LTDA",
-      "fantasia": "SDM VINHOS VILA CLEMENTINO LTDA",
-      "bairro": "VILA CLEMENTINO",
-      "cidade": "SAO PAULO",
-      "cnpj": "26.395.407/0001-59",
-      "estado": "SP",
-      "ramo": "COMERCIO VAREJISTA DE BEBIDAS",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -313010,22 +307618,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "68792",
-      "razao": "SELECT PIRA EIRELI",
-      "fantasia": "SELECT PIRA EIRELI",
-      "bairro": "REALENGO",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "27.211.813/0001-87",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA DE BEBIDAS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "431",
-      "nome_usur2": "ADEILSON GONÇALVEZ - OFF TRADE"
     },
     {
       "codcli": "37626",
@@ -316942,8 +311534,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "SPON",
+      "codusur1": "391",
+      "nome_usur1": "ANDRE SILVA - OFF TRADE",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -317684,22 +312276,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "85677",
-      "razao": "SNACK STORE LTDA",
-      "fantasia": "SNACK STORE ROTERDAM",
-      "bairro": "MONTE ALTO",
-      "cidade": "ARRAIAL DO CABO",
-      "cnpj": "57.884.146/0006-79",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "174",
-      "nome_usur2": "ALLAN PAES - OFF TRADE"
-    },
-    {
       "codcli": "77954",
       "razao": "SO ALEGRIA BAR E RESTAURANTE LTDA",
       "fantasia": "THE FACE",
@@ -317792,22 +312368,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "147",
       "nome_usur1": "THIAGO MENDES",
-      "codusur2": "378",
-      "nome_usur2": "FABIO VALOTTI - OFF TRADE"
-    },
-    {
-      "codcli": "8264",
-      "razao": "SO SAUDE LANCHONETE LTDA",
-      "fantasia": "BODY TECH -  ERICO VERISSIMO",
-      "bairro": "BARRA DA TIJUCA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "13.797.369/0001-19",
-      "estado": "RJ",
-      "ramo": "CAFE/LANCHONETE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "378",
       "nome_usur2": "FABIO VALOTTI - OFF TRADE"
     },
@@ -319279,22 +313839,6 @@ const CLIENTES_RCA_DATA = {
       "key_account": false,
       "rede": "",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
-      "codcli": "6191",
-      "razao": "SOS COMERCIO DE ALIMENTOS LTDA",
-      "fantasia": "",
-      "bairro": "BARRA DA TIJUCA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "23.383.597/0001-04",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
       "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
@@ -319602,22 +314146,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
-      "codcli": "92259",
-      "razao": "SOUZA SHOP LTDA",
-      "fantasia": "SOUZA SHOP",
-      "bairro": "VILA VIRGÍNIA",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "42.887.602/0001-52",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "52095",
@@ -321124,22 +315652,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "79441",
-      "razao": "STOP MANIA IGUACU LTDA",
-      "fantasia": "STOP MANIA IGUACU",
-      "bairro": "SANTA RITA",
-      "cidade": "NOVA IGUACU",
-      "cnpj": "54.669.276/0001-96",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
-    },
-    {
       "codcli": "3529",
       "razao": "STOP TIME HOTEL LTDA",
       "fantasia": "STOP TIME HOTEL",
@@ -321376,22 +315888,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "175",
       "nome_usur1": "JULIANA SALGADO",
-      "codusur2": "378",
-      "nome_usur2": "FABIO VALOTTI - OFF TRADE"
-    },
-    {
-      "codcli": "85936",
-      "razao": "STUDIO LAGOA CORPORATE LTDA",
-      "fantasia": "STUDIO VELOCITY LAGOA",
-      "bairro": "GAVEA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "59.912.602/0001-68",
-      "estado": "RJ",
-      "ramo": "ATIVIDADES DE CONDICIONAMENTO FISICO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "378",
       "nome_usur2": "FABIO VALOTTI - OFF TRADE"
     },
@@ -321666,22 +316162,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "79916",
-      "razao": "SUDESTE MADEIRAS E COMPENSADOS LTDA",
-      "fantasia": "SUDESTE MADEIRAS E COMPENSADOS",
-      "bairro": "PENHA CIRCULAR",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "33.459.849/0001-87",
-      "estado": "RJ",
-      "ramo": "OUTROS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "70875",
@@ -323156,22 +317636,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
-      "codcli": "36390",
-      "razao": "SUPERMERCADO BARRIGAO LTDA",
-      "fantasia": "SUPERMERCADO BARRIGAO LTDA",
-      "bairro": "SÃO JOAQUIM",
-      "cidade": "CONTAGEM",
-      "cnpj": "21.682.455/0001-04",
-      "estado": "MG",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "2634",
       "razao": "SUPERMERCADO BATISTA 2012 LTDA",
       "fantasia": "",
@@ -324116,6 +318580,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "52204",
+      "razao": "SUPERMERCADO GALASSI LTDA",
+      "fantasia": "SUPERMERCADO GALASSI",
+      "bairro": "PONTE PRETA",
+      "cidade": "CAMPINAS",
+      "cnpj": "64.599.871/0002-37",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "469",
+      "nome_usur1": "PATRICIA RAMOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "51100",
       "razao": "SUPERMERCADO GELAIN DE ITAPIRA LTDA",
       "fantasia": "SUPERMERCADO GELAIN",
@@ -324272,22 +318752,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "391",
       "nome_usur1": "ANDRE SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "92053",
-      "razao": "SUPERMERCADO HORTIFRUTI VILA DAS FRUTAS LTDA",
-      "fantasia": "SUPERMERCADO HORTIFRUTI VILA DAS FRUTAS",
-      "bairro": "VILA UBERABINHA",
-      "cidade": "SAO PAULO",
-      "cnpj": "16.774.414/0002-99",
-      "estado": "SP",
-      "ramo": "SUPERMERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -325892,22 +320356,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "DANIELLE MOURA - OFF TRADE"
     },
     {
-      "codcli": "90414",
-      "razao": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-      "fantasia": "SUPERMARKET",
-      "bairro": "INHAUMA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "08.628.825/0023-72",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "238",
-      "nome_usur2": "DANIELLE MOURA - OFF TRADE"
-    },
-    {
       "codcli": "91197",
       "razao": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
       "fantasia": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
@@ -326470,22 +320918,6 @@ const CLIENTES_RCA_DATA = {
     {
       "codcli": "15458",
       "razao": "SUPERMERCADO REAL DE NITEROI",
-      "fantasia": "SUPERMERCADO REAL",
-      "bairro": "ITAIPU",
-      "cidade": "NITEROI",
-      "cnpj": "10.697.697/0004-06",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "173",
-      "nome_usur2": "FERNANDA DE OLIVEIRA - OFF TRADE"
-    },
-    {
-      "codcli": "15458",
-      "razao": "SUPERMERCADO REAL DE NITEROI",
       "fantasia": "SUPERMERCADO REAL DE NITEROI",
       "bairro": "ITAIPU",
       "cidade": "RIO DE JANEIRO",
@@ -326626,22 +321058,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ANGELO NEVES SUZART - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "85945",
-      "razao": "SUPERMERCADO RIO SUL DO CENTENARIO LTDA",
-      "fantasia": "SUPERMERCADO RIO SUL DO CENTENARIO LTDA",
-      "bairro": "VILA MERITI",
-      "cidade": "DUQUE DE CAXIAS",
-      "cnpj": "33.749.495/0001-05",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "174",
-      "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
       "codcli": "78216",
@@ -327471,7 +321887,7 @@ const CLIENTES_RCA_DATA = {
       "key_account": false,
       "rede": "",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
@@ -327810,54 +322226,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "MANUELA ZAPPACOSTA - OFF TRADE",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
-    },
-    {
-      "codcli": "92052",
-      "razao": "SUPERMERCADO VILA DAS FRUTAS ABRAAO DE MORAIS - LTDA.",
-      "fantasia": "SUPERMERCADO VILA DAS FRUTAS ABRAAO DE M",
-      "bairro": "MOEMA",
-      "cidade": "SAO PAULO",
-      "cnpj": "45.811.781/0002-13",
-      "estado": "SP",
-      "ramo": "SUPERMERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "299",
-      "nome_usur1": "BRYAN PALOPOLI - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "92039",
-      "razao": "SUPERMERCADO VILA DAS FRUTAS CERRO CORA LTDA",
-      "fantasia": "SUPERMERCADO VILA DAS FRUTAS CERRO CORA",
-      "bairro": "VILA ROMANA",
-      "cidade": "SAO PAULO",
-      "cnpj": "62.348.615/0001-60",
-      "estado": "SP",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "92051",
-      "razao": "SUPERMERCADO VILA DAS FRUTAS KLABIN LTDA",
-      "fantasia": "VILA DAS FRUTAS",
-      "bairro": "IPIRANGA",
-      "cidade": "SAO PAULO",
-      "cnpj": "53.408.745/0001-50",
-      "estado": "SP",
-      "ramo": "SUPERMERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "51554",
@@ -328580,6 +322948,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
+      "codcli": "39720",
+      "razao": "SUPERMERCADOS E PANIFICADORA ZECA LTDA",
+      "fantasia": "PANIFICADORA ZECA",
+      "bairro": "VILA MARIA III",
+      "cidade": "LAGOA SANTA",
+      "cnpj": "09.085.376/0002-00",
+      "estado": "MG",
+      "ramo": "PADARIA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "354",
+      "nome_usur1": "MATHEUS DE SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "51382",
       "razao": "SUPERMERCADOS EBURNIO CORREA LTDA",
       "fantasia": "SUPERMERCADO PARDINHENSE",
@@ -328690,22 +323074,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
-    },
-    {
-      "codcli": "92180",
-      "razao": "SUPERMERCADOS MAMBO LTDA.",
-      "fantasia": "CD BARUERI",
-      "bairro": "JARDIM BELVAL",
-      "cidade": "BARUERI",
-      "cnpj": "71.676.316/0026-02",
-      "estado": "SP",
-      "ramo": "SUPERMERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "299",
-      "nome_usur1": "BRYAN PALOPOLI - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "29470",
@@ -330274,22 +324642,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "72058",
-      "razao": "T OLIVEIRA DA SILVA RESTAURANTE",
-      "fantasia": "CAIS BAR EVENTOS",
-      "bairro": "ITANHANGA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "17.344.860/0001-45",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "319",
-      "nome_usur2": "FERNANDA CAMBOIM"
     },
     {
       "codcli": "83262",
@@ -331989,8 +326341,8 @@ const CLIENTES_RCA_DATA = {
     },
     {
       "codcli": "62232",
-      "razao": "TANIA RIBEIRO MARQUES PEREIRA",
-      "fantasia": "SAAD GOUMERT - CAMPINHO",
+      "razao": "TANIA RIBEIRO MARQUES PEREIRA 96295139787",
+      "fantasia": "TANIA RIBEIRO MARQUES PEREIRA",
       "bairro": "CAMPINHO",
       "cidade": "RIO DE JANEIRO",
       "cnpj": "18.264.673/0001-14",
@@ -332356,22 +326708,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LUIZA HASSEN"
     },
     {
-      "codcli": "10462",
-      "razao": "TASCA DO MARQUES BAR E RESTAURANTE LTDA",
-      "fantasia": "TASCA DO MARQUES",
-      "bairro": "BARRA DA TIJUCA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "32.320.438/0001-43",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "319",
-      "nome_usur2": "FERNANDA CAMBOIM"
-    },
-    {
       "codcli": "32695",
       "razao": "TASCA DO MIGUEL SAO BENTO LTDA",
       "fantasia": "TASCA DO MIGUEL SAO BENTO",
@@ -332402,22 +326738,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "316",
       "nome_usur2": "RODRIGO FREITAS"
-    },
-    {
-      "codcli": "78624",
-      "razao": "TASCA LARANJEIRAS RESTAURANTE LTDA",
-      "fantasia": "TASCA LARANJEIRAS",
-      "bairro": "FLAMENGO",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "52.849.061/0001-21",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "319",
-      "nome_usur2": "FERNANDA CAMBOIM"
     },
     {
       "codcli": "91852",
@@ -332498,22 +326818,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "299",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
-    },
-    {
-      "codcli": "92083",
-      "razao": "TATANKA SPIRIT DISTRIBUIDORA DE ALIMENTOS LTDA",
-      "fantasia": "TATANKA SPIRIT DISTRIBUIDORA DE ALIMENTO",
-      "bairro": "CENTRO",
-      "cidade": "SAO PAULO",
-      "cnpj": "20.338.886/0001-95",
-      "estado": "SP",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "36162",
@@ -333332,22 +327636,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92326",
-      "razao": "TECKLOPES ELETRONICOS LTDA",
-      "fantasia": "TECKLOPES",
-      "bairro": "VILA VIRGÍNIA",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "63.798.462/0001-16",
-      "estado": "SP",
-      "ramo": "TECNOLOGIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "68580",
       "razao": "TECNOSUP EMPREENDIMENTOS LTDA",
       "fantasia": "NASAJ (RIR 2024)",
@@ -333620,7 +327908,7 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
     },
     {
-      "codcli": "50710",
+      "codcli": "28786",
       "razao": "TEMPERO GASTRONOMIA & GOURMET LTDA",
       "fantasia": "TEMPERO GOURMET",
       "bairro": "TANQUE",
@@ -333631,7 +327919,7 @@ const CLIENTES_RCA_DATA = {
       "key_account": false,
       "rede": "",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "INATIVO",
       "codusur2": "144",
       "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
     },
@@ -333714,22 +328002,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "MARCUS VINICIUS",
       "codusur2": "471",
       "nome_usur2": "ANA CLARA FASSANO - OFF TRADE"
-    },
-    {
-      "codcli": "36385",
-      "razao": "TENTACAO LANCHES LTDA",
-      "fantasia": "TENTACAO LANCHES",
-      "bairro": "FUNCIONARIOS",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "97.482.764/0001-00",
-      "estado": "MG",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "79237",
@@ -334336,22 +328608,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "34368",
-      "razao": "TEXAS BEEF COMERCIO DE CARNES E BEBIDAS",
-      "fantasia": "TEXAS BEEF COMERCIO DE CARNES E BEBIDAS",
-      "bairro": "KÁTIA (JUSTINÓPOLIS)",
-      "cidade": "RIBEIRAO DAS NEVES",
-      "cnpj": "53.955.974/0001-95",
-      "estado": "MG",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -335106,22 +329362,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
       "codusur2": "313",
       "nome_usur2": "ANDRE MATTOS"
-    },
-    {
-      "codcli": "55381",
-      "razao": "THE DUCK BAR E RESTAURANTE LTDA",
-      "fantasia": "THE DUCK ROCK PUB",
-      "bairro": "SAO BENTO",
-      "cidade": "CABO FRIO",
-      "cnpj": "08.309.615/0001-06",
-      "estado": "RJ",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "155",
-      "nome_usur2": "RAPHAEL SANTOS - OFF TRADE"
     },
     {
       "codcli": "30816",
@@ -336578,22 +330818,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "351",
       "nome_usur2": "MARIANA LAGES"
-    },
-    {
-      "codcli": "92272",
-      "razao": "TIISA MAGAZINE LTDA",
-      "fantasia": "TIISA MAGAZINE",
-      "bairro": "VILA BRUNO",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "54.849.736/0001-68",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "50014",
@@ -339588,22 +333812,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
-      "codcli": "34783",
-      "razao": "TWTY S BAR LTDA",
-      "fantasia": "TWTY S BAR",
-      "bairro": "LINDÉIA (BARREIRO)",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "53.863.112/0001-32",
-      "estado": "MG",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "29312",
       "razao": "TZNL COMERCIO DE ALIMENTOS E BEBIDAS EIRELI",
       "fantasia": "TZNL",
@@ -340463,7 +334671,7 @@ const CLIENTES_RCA_DATA = {
       "key_account": false,
       "rede": "",
       "codusur1": "378",
-      "nome_usur1": "JETER LUCIO SOARES",
+      "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
       "codusur2": "343",
       "nome_usur2": "FERNANDO RISSON - OFF TRADE"
     },
@@ -340479,7 +334687,7 @@ const CLIENTES_RCA_DATA = {
       "key_account": false,
       "rede": "",
       "codusur1": "378",
-      "nome_usur1": "JETER LUCIO SOARES",
+      "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
       "codusur2": "343",
       "nome_usur2": "FERNANDO RISSON - OFF TRADE"
     },
@@ -340703,7 +334911,7 @@ const CLIENTES_RCA_DATA = {
       "key_account": false,
       "rede": "",
       "codusur1": "388",
-      "nome_usur1": "DOUGLAS FERREIRA SILVA",
+      "nome_usur1": "DOUGLAS FERREIRA SILVA - OFF TRADE",
       "codusur2": "343",
       "nome_usur2": "FERNANDO RISSON - OFF TRADE"
     },
@@ -342564,22 +336772,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "73962",
-      "razao": "VALMIR NOBRE DE SOUSA 07360390745",
-      "fantasia": "MERCADO DO BARAO",
-      "bairro": "CASCADURA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "47.249.279/0001-05",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA DE BEBIDAS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "7150",
       "razao": "VALMIR PAULO BORGES",
       "fantasia": "VALMIR PAULO BORGES",
@@ -342642,22 +336834,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "3558",
-      "razao": "VALQUEIRE FRUT HORTIFRUTIGRANJEIROS LTDA ME",
-      "fantasia": "VALQUEIRE FRUT HORTIFRUTIGRANJEIROS",
-      "bairro": "VILA VALQUEIRE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "10.852.154/0001-65",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "144",
-      "nome_usur2": "DIOGO RAPOSO - OFF TRADE"
     },
     {
       "codcli": "3558",
@@ -343492,22 +337668,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92245",
-      "razao": "VARANDA FRUTAS E MERCEARIA LTDA",
-      "fantasia": "VARANDA JARDIM",
-      "bairro": "CIDADE JARDIM",
-      "cidade": "SAO PAULO",
-      "cnpj": "62.498.365/0001-45",
-      "estado": "SP",
-      "ramo": "SUPERMERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "299",
-      "nome_usur1": "BRYAN PALOPOLI - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "23144",
       "razao": "VARANDA FRUTAS E MERCEARIA LTDA",
       "fantasia": "VARANDA FRUTAS E MERCEARIA LTDA",
@@ -343520,22 +337680,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "485",
       "nome_usur1": "ANDRE PINHEIRO - OFF TRADE",
-      "codusur2": "399",
-      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
-    },
-    {
-      "codcli": "23070",
-      "razao": "VARANDA FRUTAS E MERCEARIA LTDA",
-      "fantasia": "VARANDA FRUTAS E MERCEARIA",
-      "bairro": "CIDADE JARDIM",
-      "cidade": "SAO PAULO",
-      "cnpj": "62.498.365/0001-45",
-      "estado": "SP",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "483",
-      "nome_usur1": "ALEXANDRE TONON - OFF TRADE",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -343890,22 +338034,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "82380",
-      "razao": "VBBR CONVENIENCIA S. A.",
-      "fantasia": "VBBR CONVENIENCIA",
-      "bairro": "CENTRO",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "50.883.026/0002-84",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
     {
       "codcli": "52082",
@@ -345742,8 +339870,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "LOJA",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "431",
+      "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -346242,22 +340370,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "43",
       "nome_usur2": "SOUZA"
-    },
-    {
-      "codcli": "92104",
-      "razao": "VILA CONCEICAO DIBACO - RESTAURANTE LTDA",
-      "fantasia": "VILA CONCEICAO DIBACO - RESTAURANTE",
-      "bairro": "VILA NOVA CONCEICAO",
-      "cidade": "SAO PAULO",
-      "cnpj": "21.842.354/0001-53",
-      "estado": "SP",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "299",
-      "nome_usur1": "BRYAN PALOPOLI - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "58549",
@@ -346850,22 +340962,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
       "codusur2": "313",
       "nome_usur2": "ANDRE MATTOS"
-    },
-    {
-      "codcli": "6040",
-      "razao": "VILLA RAPHAEL EMPREENDIMENTOS TURISTICOS LTDA",
-      "fantasia": "POUSADA VILLA RAPHAEL",
-      "bairro": "VILLAGE DA FERRADURA",
-      "cidade": "ARMACAO DOS BUZ",
-      "cnpj": "26.682.759/0001-95",
-      "estado": "RJ",
-      "ramo": "HOTEL",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "155",
-      "nome_usur2": "RAPHAEL SANTOS - OFF TRADE"
     },
     {
       "codcli": "62420",
@@ -347652,22 +341748,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
-      "codcli": "79252",
-      "razao": "VIP GAVIAO CONVENIENCIAS LTDA",
-      "fantasia": "VIP GAVIAO CONVENIENCIAS",
-      "bairro": "ICARAÍ",
-      "cidade": "NITEROI",
-      "cnpj": "35.443.390/0001-59",
-      "estado": "RJ",
-      "ramo": "CAFE/LANCHONETE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
-    },
-    {
       "codcli": "74562",
       "razao": "VIP TIJUCA CONVENIENCIAS LTDA",
       "fantasia": "VIP TIJUCA CONVENIENCIAS",
@@ -347682,22 +341762,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "74562",
-      "razao": "VIP TIJUCA CONVENIENCIAS LTDA",
-      "fantasia": "VIP TIJUCA CONVENIENCIAS",
-      "bairro": "TIJUCA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "53.383.783/0001-04",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "156",
-      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
     {
       "codcli": "50853",
@@ -347872,22 +341936,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "112",
       "nome_usur1": "LUCAS MATIAS",
-      "codusur2": "155",
-      "nome_usur2": "RAPHAEL SANTOS - OFF TRADE"
-    },
-    {
-      "codcli": "70420",
-      "razao": "VITER DISTRIBUIDORA DE BEBIDAS LTDA",
-      "fantasia": "BAR DO JUNIOR",
-      "bairro": "JARDIM CAICARA",
-      "cidade": "CABO FRIO",
-      "cnpj": "17.383.313/0001-79",
-      "estado": "RJ",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "155",
       "nome_usur2": "RAPHAEL SANTOS - OFF TRADE"
     },
@@ -348596,18 +342644,18 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "50136",
+      "codcli": "38590",
       "razao": "VIVIAN TELLES RIBEIRO LIMA 10664567711",
       "fantasia": "BOMVINO.COM.BR",
       "bairro": "RECREIO DOS BANDEIRANTES",
       "cidade": "RIO DE JANEIRO",
       "cnpj": "37.960.749/0001-90",
       "estado": "RJ",
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "ramo": "COMERCIO VAREJISTA DE BEBIDAS",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
@@ -348992,6 +343040,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "32768",
+      "razao": "VMO BAR E RESTAURANTE LTDA",
+      "fantasia": "BAR E PETISQUEIRA PADRE ROLIM",
+      "bairro": "SANTA EFIGENIA",
+      "cidade": "BELO HORIZONTE",
+      "cnpj": "43.624.316/0001-67",
+      "estado": "MG",
+      "ramo": "BAR",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "327",
+      "nome_usur1": "JOÃO SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -349682,22 +343746,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JOSIETH LIMA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "92262",
-      "razao": "W CRUZ COMERCIO E SERVICOS LTDA",
-      "fantasia": "W CRUZ COMERCIO E SERVICOS",
-      "bairro": "JARDIM NOSSA SENHORA D'AJUDA",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "55.160.983/0001-15",
-      "estado": "SP",
-      "ramo": "SERVICO DE MECANICA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "25805",
@@ -351700,22 +345748,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92041",
-      "razao": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONIA S.A.",
-      "fantasia": "WEBFONES COMERCIO DE ARTIGOS DE TELEFONI",
-      "bairro": "PARQUE RESIDENCIAL DA LAPA",
-      "cidade": "SAO PAULO",
-      "cnpj": "14.548.476/0008-42",
-      "estado": "SP",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "90208",
       "razao": "WEBOAT BRASIL LTDA",
       "fantasia": "WEBOAT BRASIL",
@@ -352196,22 +346228,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "34319",
-      "razao": "WESLEI HENRIQUE PEREIRA BARBOSA",
-      "fantasia": "ADEGA REAL",
-      "bairro": "VILA NOVA ESPERANCA",
-      "cidade": "CONTAGEM",
-      "cnpj": "108.061.916-00",
-      "estado": "MG",
-      "ramo": "PESSOA FISICA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "93541",
       "razao": "WESLEY CIPRIANO DA SILVA",
       "fantasia": "COMERCIAL CIPRIANO",
@@ -352258,22 +346274,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "NÁTALI DE OLIVEIRA - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "72989",
-      "razao": "WESLEY DA SILVA NASCIMENTO 16108100745",
-      "fantasia": "ARMAZEM DO PEN",
-      "bairro": "GUARATIBA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "41.473.025/0001-90",
-      "estado": "RJ",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "419",
-      "nome_usur2": "NÁTALI DE OLIVEIRA - OFF TRADE"
     },
     {
       "codcli": "70868",
@@ -352548,22 +346548,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92264",
-      "razao": "WF ELETRONICOS LTDA",
-      "fantasia": "WOOFS DISTRIBUIDORA",
-      "bairro": "JARDIM NOSSA SENHORA D'AJUDA",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "17.826.359/0001-15",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "61640",
       "razao": "WFJH DISTRIBUIDORA LTDA",
       "fantasia": "FORTE DAS BEBIDAS",
@@ -352610,22 +346594,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "W.S",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "92319",
-      "razao": "WG ATACADO E DISTRIBUIDORA LTDA",
-      "fantasia": "WG ATACADISTA",
-      "bairro": "CIDADE KEMEL",
-      "cidade": "SAO PAULO",
-      "cnpj": "55.495.423/0001-11",
-      "estado": "SP",
-      "ramo": "SUPERMERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "74087",
@@ -352756,22 +346724,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "FERNANDA CAMBOIM"
     },
     {
-      "codcli": "60207",
-      "razao": "WHPH DE BUZIOS RESTAURANTE EIRELI",
-      "fantasia": "ONA SANDUICHERIA GOURMET",
-      "bairro": "CENTRO",
-      "cidade": "ARMACAO DOS BUZ",
-      "cnpj": "19.070.782/0001-63",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "31565",
       "razao": "WHY AMERICAN PUB LTDA.",
       "fantasia": "WHY AMERICAN PUB LTDA.",
@@ -352864,22 +346816,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "176",
       "nome_usur1": "MICHELE ALCANTARA",
-      "codusur2": "378",
-      "nome_usur2": "FABIO VALOTTI - OFF TRADE"
-    },
-    {
-      "codcli": "72650",
-      "razao": "WILL'S FITNESS LTDA",
-      "fantasia": "WILL'S FITNESS",
-      "bairro": "GAVEA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "35.297.646/0003-29",
-      "estado": "RJ",
-      "ramo": "ACADEMIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "378",
       "nome_usur2": "FABIO VALOTTI - OFF TRADE"
     },
@@ -353748,22 +347684,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "RODRIGO FREITAS"
     },
     {
-      "codcli": "92265",
-      "razao": "WM SHOP LTDA",
-      "fantasia": "WM SHOP",
-      "bairro": "JARDIM NOSSA SENHORA D'AJUDA",
-      "cidade": "ITAQUAQUECETUBA",
-      "cnpj": "60.868.905/0001-00",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "91",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "29791",
       "razao": "WM SUPERMERCADO LTDA",
       "fantasia": "WM SUPERMERCADO LTDA",
@@ -353826,22 +347746,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "BARBARA CABRAL - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "79746",
-      "razao": "WMDIAS 24H LTDA",
-      "fantasia": "SMARTSTORERJ",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "43.409.088/0001-02",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "412",
-      "nome_usur2": "BARBARA CABRAL - OFF TRADE"
     },
     {
       "codcli": "43224",
@@ -354740,22 +348644,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
-      "codcli": "92334",
-      "razao": "YAN DISTRIBUICAO LTDA",
-      "fantasia": "YAN DISTRIBUICAO",
-      "bairro": "JARDIM PAULISTANO",
-      "cidade": "SAO PAULO",
-      "cnpj": "64.694.015/0001-80",
-      "estado": "SP",
-      "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "119",
-      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
       "codcli": "38741",
       "razao": "YAN RAMOS CAFIERO",
       "fantasia": "YAN RAMOS CAFIERO",
@@ -354784,22 +348672,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "92",
       "nome_usur1": "AUGUSTO SILVA",
-      "codusur2": "155",
-      "nome_usur2": "RAPHAEL SANTOS - OFF TRADE"
-    },
-    {
-      "codcli": "14470",
-      "razao": "YARA COSTA GOMES AMORIM 08790432703",
-      "fantasia": "DISTRIBUIDORA MELLO",
-      "bairro": "OGIVA",
-      "cidade": "CABO FRIO",
-      "cnpj": "23.729.466/0001-28",
-      "estado": "RJ",
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "155",
       "nome_usur2": "RAPHAEL SANTOS - OFF TRADE"
     },
@@ -356498,22 +350370,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "82191",
-      "razao": "ZOLA PIZZARIA SANTA TEREZA LTDA",
-      "fantasia": "ZOLA PIZZARIA SANTA TEREZA",
-      "bairro": "SANTA TERESA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "53.693.963/0001-84",
-      "estado": "RJ",
-      "ramo": "CAFE/LANCHONETE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "316",
-      "nome_usur2": "RODRIGO FREITAS"
     },
     {
       "codcli": "85801",
