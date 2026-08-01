@@ -270,7 +270,7 @@ const THEAD_CORTADOS = `
   <th onclick="ordenarPor('cliente')">Cliente</th>
   <th class="hide-mob" onclick="ordenarPor('numped')">Pedido</th>
   <th onclick="ordenarPor('desc')">Produto</th>
-  <th onclick="ordenarPor('qtfalta')">Qtd Cortada</th>
+  <th onclick="ordenarPor('qtcortada')">Qtd Cortada</th>
   <th onclick="ordenarPor('saldo_estoque')">Saldo Estoque</th>
 `;
 
@@ -675,7 +675,7 @@ function montarKpis(lista) {
   const cardExtra = flat
     ? `<div class="kpi">
         <div class="label">Qtd Total Cortada</div>
-        <div class="val">${lista.reduce((s, p) => s + (Number(p.qtfalta) || 0), 0).toLocaleString('pt-BR')}</div>
+        <div class="val">${lista.reduce((s, p) => s + (Number(p.qtcortada) || 0), 0).toLocaleString('pt-BR')}</div>
       </div>`
     : '';
   document.getElementById('kpis').innerHTML = `
@@ -714,7 +714,7 @@ function aplicarFiltro() {
         <td>${_esc(p.cliente)}</td>
         <td class="cod hide-mob">${_esc(p.numped)}</td>
         <td>${_esc(p.desc)}</td>
-        <td>${p.qtfalta} <span style="color:var(--muted)">/ ${p.qt}</span></td>
+        <td>${p.qtcortada} <span style="color:var(--muted)">/ ${p.qt}</span></td>
         <td>${_saldoBadge(p.saldo_estoque)}</td>
       </tr>`).join('');
     return;
@@ -779,7 +779,7 @@ function _agendamento(obs) {
 function _montarItens(p) {
   if (!p.itens || !p.itens.length) return '<span class="status-none">Sem itens.</span>';
   const linhas = p.itens.map(it => `
-    <tr class="${it.cortado ? 'item-cortado' : ''}"><td>${_esc(it.desc)}${it.cortado ? `<span class="tag-falta">faltou ${it.qtfalta}</span>` : ''}</td><td>${it.qt}</td><td>${brl(it.val)}</td></tr>
+    <tr class="${it.cortado ? 'item-cortado' : ''}"><td>${_esc(it.desc)}${it.cortado ? `<span class="tag-falta">cortou ${it.qtcortada}</span>` : ''}</td><td>${it.qt}</td><td>${brl(it.val)}</td></tr>
   `).join('');
   const motivo = p.motivo ? `<div style="margin-top:6px;color:var(--orange);font-size:.78rem">Motivo: ${_esc(p.motivo)}</div>` : '';
   const obs = p.obs ? `<div style="margin-top:6px;color:var(--muted);font-size:.78rem">Obs.: ${_esc(p.obs)}</div>` : '';
@@ -843,7 +843,7 @@ function exportarCSV() {
       p.cliente,
       p.numped,
       p.desc,
-      p.qtfalta,
+      p.qtcortada,
       p.qt,
       p.saldo_estoque ?? '',
     ].map(v => `"${String(v ?? '').replace(/"/g, '""')}"`).join(';'));

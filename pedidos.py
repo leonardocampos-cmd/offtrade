@@ -34,6 +34,19 @@ _SOURCES = [
 ]
 
 
+def _s(v):
+    return '' if pd.isna(v) else str(v).strip()
+
+
+def _int_s(v):
+    if pd.isna(v):
+        return ''
+    try:
+        return str(int(v))
+    except (TypeError, ValueError):
+        return ''
+
+
 def _nome_filter(extra_nomes=None, alias='PED'):
     base = f"{alias}.NOME LIKE '%OFF TRADE%'"
     if extra_nomes:
@@ -61,6 +74,20 @@ def _query_pedidos(schema, extra_nomes=None, filiais=None):
     """
 
 
+def _query_cortes(schema):
+    """PED.QTFALTA (PBI_PCPEDI) não é 'quanto foi cortado desta nota' — é um
+    saldo de demanda que pode ultrapassar a própria quantidade do pedido
+    (investigado em 2026-07-31: pedido com QT=126 e QTFALTA=382). A
+    quantidade real cortada num evento de separação/corte fica em
+    PCCORTEI.QTCORTADA (mesma estrutura em CRC/thekings/SPON, confirmado)."""
+    return f"""
+        SELECT NUMPED, CODPROD, CODFILIAL, SUM(QTCORTADA) AS QTCORTADA
+        FROM {schema}.PCCORTEI
+        WHERE DATA >= SYSDATE - {DIAS_JANELA}
+        GROUP BY NUMPED, CODPROD, CODFILIAL
+    """
+
+
 _parts = []
 _fontes_indisponiveis = []
 _chamadas_pedidos = [
@@ -77,6 +104,26 @@ for (_nome, _eng, _extra, _filiais), _res in zip(_SOURCES, carregar_paralelo(_ch
 
 if not _parts:
     raise RuntimeError("Nenhuma base carregada.")
+
+# ── Cortes reais (PCCORTEI.QTCORTADA) por (SISTEMA, NUMPED, CODPROD, CODFILIAL) ──
+# Carregado à parte de _parts: fonte indisponível aqui não derruba pedidos_data.js
+# inteiro, só zera o corte real dessa base (cai pra "sem corte" nesses itens).
+_cortes_lookup = {}
+_chamadas_cortes = [
+    (_query_cortes(_nome), _eng, f"cortes_{_nome}")
+    for _nome, _eng, _extra, _filiais in _SOURCES
+]
+for (_nome, _eng, _extra, _filiais), _res in zip(_SOURCES, carregar_paralelo(_chamadas_cortes)):
+    if isinstance(_res, Exception):
+        print(f"[AVISO] cortes_{_nome} falhou ({str(_res)[:80]}) — ignorado (corte real indisponível nessa base)")
+        continue
+    _res.columns = _res.columns.str.upper()
+    for _, _row in _res.iterrows():
+        try:
+            _chave = (_nome, int(_row['NUMPED']), int(_row['CODPROD']), _int_s(_row['CODFILIAL']))
+        except (TypeError, ValueError):
+            continue
+        _cortes_lookup[_chave] = _cortes_lookup.get(_chave, 0.0) + float(_row['QTCORTADA'] or 0)
 
 tabela_pedidos = pd.concat(_parts, ignore_index=True)
 tabela_pedidos.columns = tabela_pedidos.columns.str.upper()
@@ -278,19 +325,6 @@ _feitos     = tabela_pedidos[
 ]
 
 
-def _s(v):
-    return '' if pd.isna(v) else str(v).strip()
-
-
-def _int_s(v):
-    if pd.isna(v):
-        return ''
-    try:
-        return str(int(v))
-    except (TypeError, ValueError):
-        return ''
-
-
 def _nf_clean(numnota):
     if pd.isna(numnota) or not numnota:
         return ''
@@ -298,6 +332,30 @@ def _nf_clean(numnota):
         return str(int(float(numnota)))
     except (TypeError, ValueError):
         return str(numnota).strip()
+
+
+def _corte_real(sistema, numped, codprod_num, codfilial_num):
+    """Quantidade real cortada (PCCORTEI.QTCORTADA) pro item, ou 0.0 se não
+    achou (ou se a fonte de cortes dessa base falhou ao carregar)."""
+    try:
+        chave = (sistema, int(numped), int(codprod_num), _int_s(codfilial_num))
+    except (TypeError, ValueError):
+        return 0.0
+    return _cortes_lookup.get(chave, 0.0)
+
+
+def _item_pedido(sistema, numped, row):
+    qtcortada = _corte_real(sistema, numped, row['CODPROD_NUM'], row['CODFILIAL_NUM'])
+    return {
+        'desc':      _s(row['DESCRICAO']),
+        'qt':        int(row['QT']),
+        'val':       round(float(row['TOTAL']), 2),
+        'qtfalta':   float(row['QTFALTA']),
+        'qtcortada': qtcortada,
+        'cortado':   qtcortada > 0,
+        'codprod':   _int_s(row['CODPROD_NUM']),
+        'codfilial': _int_s(row['CODFILIAL_NUM']),
+    }
 
 
 def _agrupar(df, com_status_log=False):
@@ -323,15 +381,7 @@ def _agrupar(df, com_status_log=False):
             'obs':        _s(r0['OBSENTREGA1']),
             'total':      round(float(grp['TOTAL'].sum()), 2),
             'itens': [
-                {
-                    'desc':     _s(row['DESCRICAO']),
-                    'qt':       int(row['QT']),
-                    'val':      round(float(row['TOTAL']), 2),
-                    'qtfalta':  float(row['QTFALTA']),
-                    'cortado':  bool(row['QTFALTA'] > 0),
-                    'codprod':   _int_s(row['CODPROD_NUM']),
-                    'codfilial': _int_s(row['CODFILIAL_NUM']),
-                }
+                _item_pedido(sistema, numped, row)
                 for _, row in grp.iterrows()
             ],
         }
@@ -373,6 +423,7 @@ def _extrair_cortados(pedidos_agrupados):
                 'codfilial':  it['codfilial'],
                 'qt':         it['qt'],
                 'qtfalta':    it['qtfalta'],
+                'qtcortada':  it['qtcortada'],
                 'val':        it['val'],
                 'total':      it['val'],
             })
