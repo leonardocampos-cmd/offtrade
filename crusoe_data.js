@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "30/07/2026 17:50",
+  "atualizado_em": "01/08/2026 08:33",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -31,18 +31,18 @@ const CRUSOE_DATA = {
         {
           "rca": 275,
           "vendedor": "Maria Luiza",
-          "pedidos": 3,
-          "novos_skus": 16,
+          "pedidos": 5,
+          "novos_skus": 19,
           "reativacoes": 2,
-          "faturamento": 76430.71,
+          "faturamento": 119082.02,
           "meta_definida": false,
           "meta_valor": null,
           "meta_atingida": false,
-          "pontos_pedidos": 3,
-          "pontos_novos_skus": 80,
+          "pontos_pedidos": 5,
+          "pontos_novos_skus": 95,
           "pontos_reativacoes": 10,
           "pontos_meta": 0,
-          "pontos_total": 93,
+          "pontos_total": 110,
           "vendas": [
             {
               "numnota": "417035",
@@ -278,6 +278,85 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM PEDACOS NATURAL 24X140G",
                   "qt": 184.0,
                   "valor": 31342.31,
+                  "pontuacoes": []
+                }
+              ]
+            },
+            {
+              "numnota": "417170",
+              "data": "30/07/2026",
+              "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
+              "valor_pedido": 10161.07,
+              "eventos": [
+                {
+                  "tipo": "pedido",
+                  "pontos": 1
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
+                  "qt": 84.0,
+                  "valor": 10161.07,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "417171",
+              "data": "30/07/2026",
+              "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
+              "valor_pedido": 32490.24,
+              "eventos": [
+                {
+                  "tipo": "pedido",
+                  "pontos": 1
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC ATUM RALADO NATURAL 24X140G",
+                  "qt": 46.0,
+                  "valor": 6200.33,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+                  "qt": 30.0,
+                  "valor": 5554.52,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 5
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM SOLIDO OLEO 24X170G",
+                  "qt": 92.0,
+                  "valor": 17033.86,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 5
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+                  "qt": 8.0,
+                  "valor": 1427.88,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
+                  "qt": 20.0,
+                  "valor": 2273.65,
                   "pontuacoes": []
                 }
               ]
@@ -2302,14 +2381,14 @@ const CRUSOE_DATA = {
         {
           "rca": 419,
           "vendedor": "Natali de Oliveira",
-          "pedidos": 15,
-          "positivacoes": 13,
-          "novos_skus": 15,
-          "faturamento": 2365.42,
-          "pontos_positivacao": 65,
-          "pontos_novos_skus": 60,
+          "pedidos": 14,
+          "positivacoes": 12,
+          "novos_skus": 14,
+          "faturamento": 2115.42,
+          "pontos_positivacao": 60,
+          "pontos_novos_skus": 56,
           "pontos_pedidos_valor": 0,
-          "pontos_total": 125,
+          "pontos_total": 116,
           "vendas": [
             {
               "numnota": "409254",
@@ -2642,31 +2721,6 @@ const CRUSOE_DATA = {
                   "produto": "RC SARDINHA EM OLEO 50X125G",
                   "qt": 1.0,
                   "valor": 240.0,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "numnota": "417066",
-              "data": "30/07/2026",
-              "cliente": "ELECILDO SIMAO DA SILVA 90866959491",
-              "valor_pedido": 250.0,
-              "eventos": [
-                {
-                  "tipo": "positivação (novo/reativação)",
-                  "pontos": 5
-                }
-              ],
-              "itens": [
-                {
-                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-                  "qt": 1.0,
-                  "valor": 250.0,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -3104,7 +3158,7 @@ const CRUSOE_DATA = {
           "rca": 431,
           "vendedor": "Adeilson Gonçalvez",
           "clientes_gourmet": 1,
-          "faturamento": 3035.18,
+          "faturamento": 3554.78,
           "faturamento_gourmet": 259.8,
           "pontos_total": 1,
           "vendas": [
@@ -3137,7 +3191,7 @@ const CRUSOE_DATA = {
           "rca": 379,
           "vendedor": "Jorge Maciel",
           "clientes_gourmet": 0,
-          "faturamento": 11187.28,
+          "faturamento": 9259.78,
           "faturamento_gourmet": 0.0,
           "pontos_total": 0,
           "vendas": []
