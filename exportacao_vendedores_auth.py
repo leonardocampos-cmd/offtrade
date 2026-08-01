@@ -55,7 +55,17 @@ for _, row in df.iterrows():
     if codusur and email:
         auth[codusur] = {"nome": nome, "email": email, "email2": email2, "estado": estado}
 
-now = datetime.now().strftime("%d/%m/%Y %H:%M")
-js  = f"// Gerado em {now}\nconst VENDEDORES_AUTH = {json.dumps(auth, ensure_ascii=False, indent=2)};\n"
-Path("vendedores_auth_data.js").write_text(js, encoding="utf-8")
-print(f"[OK] vendedores_auth_data.js — {len(auth)} vendedores exportados")
+_out = Path("vendedores_auth_data.js")
+
+# Trava: se TODAS as 6 bases falharam (ex: VPN fora do ar), auth fica vazio —
+# sobrescrever o arquivo bom com {} derrubaria o login de vendedor pra todo
+# mundo (aconteceu em 2026-07-31). Sem fonte nenhuma carregada, não escreve
+# por cima do que já existe.
+if not auth and not _partes and _out.exists():
+    print("[AVISO] Todas as bases falharam e nenhum vendedor foi carregado — "
+          "mantendo vendedores_auth_data.js existente (não sobrescrevendo com vazio).")
+else:
+    now = datetime.now().strftime("%d/%m/%Y %H:%M")
+    js  = f"// Gerado em {now}\nconst VENDEDORES_AUTH = {json.dumps(auth, ensure_ascii=False, indent=2)};\n"
+    _out.write_text(js, encoding="utf-8")
+    print(f"[OK] vendedores_auth_data.js — {len(auth)} vendedores exportados")
