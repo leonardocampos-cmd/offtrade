@@ -345,14 +345,24 @@ def _corte_real(sistema, numped, codprod_num, codfilial_num):
 
 
 def _item_pedido(sistema, numped, row):
+    qt = int(row['QT'])
+    qtfalta = float(row['QTFALTA'])
     qtcortada = _corte_real(sistema, numped, row['CODPROD_NUM'], row['CODFILIAL_NUM'])
+    # QTFALTA (PBI_PCPEDI) é saldo ainda em aberto do pedido original, QTCORTADA
+    # (PCCORTEI) é corte formal já registrado — juntos reconstituem o pedido
+    # original: qt_original = qt (faturado) + qtcortada (cortado) + qtfalta
+    # (ainda faltando). Confirmado manualmente no pedido 588003212 (Grey
+    # Goose): 126 + 164 + 382 = 672.
+    qtd_cortada_total = qtcortada + qtfalta
     return {
-        'desc':      _s(row['DESCRICAO']),
-        'qt':        int(row['QT']),
-        'val':       round(float(row['TOTAL']), 2),
-        'qtfalta':   float(row['QTFALTA']),
-        'qtcortada': qtcortada,
-        'cortado':   qtcortada > 0,
+        'desc':              _s(row['DESCRICAO']),
+        'qt':                qt,
+        'val':               round(float(row['TOTAL']), 2),
+        'qtfalta':           qtfalta,
+        'qtcortada':         qtcortada,
+        'qtd_cortada_total': qtd_cortada_total,
+        'qt_original':       qt + qtd_cortada_total,
+        'cortado':           qtd_cortada_total > 0,
         'codprod':   _int_s(row['CODPROD_NUM']),
         'codfilial': _int_s(row['CODFILIAL_NUM']),
     }
@@ -421,9 +431,11 @@ def _extrair_cortados(pedidos_agrupados):
                 'desc':       it['desc'],
                 'codprod':    it['codprod'],
                 'codfilial':  it['codfilial'],
-                'qt':         it['qt'],
-                'qtfalta':    it['qtfalta'],
-                'qtcortada':  it['qtcortada'],
+                'qt':                it['qt'],
+                'qtfalta':           it['qtfalta'],
+                'qtcortada':         it['qtcortada'],
+                'qtd_cortada_total': it['qtd_cortada_total'],
+                'qt_original':       it['qt_original'],
                 'val':        it['val'],
                 'total':      it['val'],
             })
