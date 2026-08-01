@@ -1,5 +1,5 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "31/07/2026 22:56",
+  "atualizado_em": "31/07/2026 23:03",
   "periodo_dias": 90,
   "fontes_indisponiveis": [
     "CASTAS"
@@ -15539,15 +15539,6 @@ const PEDIDOS_DATA = {
       "total": 4877.38,
       "itens": [
         {
-          "desc": "RC ATUM PEDACOS EM OLEO 24X140G",
-          "qt": 5,
-          "val": 972.85,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "5759",
-          "codfilial": "2"
-        },
-        {
           "desc": "RC ATUM PEDACOS NATURAL 24X140G",
           "qt": 2,
           "val": 389.18,
@@ -15563,6 +15554,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "7331",
+          "codfilial": "2"
+        },
+        {
+          "desc": "RC ATUM PEDACOS EM OLEO 24X140G",
+          "qt": 5,
+          "val": 972.85,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "5759",
           "codfilial": "2"
         },
         {
@@ -15650,15 +15650,6 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
-          "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-          "qt": 2,
-          "val": 304.16,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "7332",
-          "codfilial": "2"
-        },
-        {
           "desc": "RC ATUM PEDACOS EM OLEO 24X140G",
           "qt": 10,
           "val": 1945.7,
@@ -15674,6 +15665,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "5582",
+          "codfilial": "2"
+        },
+        {
+          "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+          "qt": 2,
+          "val": 304.16,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "7332",
           "codfilial": "2"
         },
         {
@@ -15782,21 +15782,21 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
-          "desc": "RC ATUM RALADO NATURAL 24X140G",
-          "qt": 46,
-          "val": 6200.33,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "5582",
-          "codfilial": "2"
-        },
-        {
           "desc": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
           "qt": 20,
           "val": 2273.65,
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "7515",
+          "codfilial": "2"
+        },
+        {
+          "desc": "RC ATUM RALADO NATURAL 24X140G",
+          "qt": 46,
+          "val": 6200.33,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "5582",
           "codfilial": "2"
         },
         {
@@ -17667,7 +17667,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000408",
@@ -19176,7 +19176,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "490000036",
@@ -19380,7 +19380,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000214",
@@ -19743,7 +19743,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003266",
@@ -20226,7 +20226,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000124",
@@ -20361,7 +20361,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000128",
@@ -20421,7 +20421,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "378000011",
@@ -24881,6 +24881,15 @@ const PEDIDOS_DATA = {
       "total": 1059.0,
       "itens": [
         {
+          "desc": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
+          "qt": 1,
+          "val": 99.9,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "4824",
+          "codfilial": "4"
+        },
+        {
           "desc": "LICOR BALLENA COCO 750ML",
           "qt": 1,
           "val": 99.9,
@@ -24896,15 +24905,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "3054",
-          "codfilial": "4"
-        },
-        {
-          "desc": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
-          "qt": 1,
-          "val": 99.9,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "4824",
           "codfilial": "4"
         },
         {
@@ -26438,15 +26438,6 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
-          "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "qt": 2,
-          "val": 119.8,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "2848",
-          "codfilial": "2"
-        },
-        {
           "desc": "TERRAZAS RESERVA CHARDONNAY 750 ML",
           "qt": 2,
           "val": 159.8,
@@ -26471,6 +26462,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "3772",
+          "codfilial": "2"
+        },
+        {
+          "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "qt": 2,
+          "val": 119.8,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "2848",
           "codfilial": "2"
         },
         {
@@ -27321,7 +27321,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "426000402",
@@ -27351,7 +27351,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "426000403",
@@ -27381,7 +27381,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "426000404",
@@ -27411,7 +27411,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "426000405",
@@ -27489,7 +27489,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "467000056",
@@ -27555,7 +27555,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "467000057",
@@ -27603,7 +27603,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "467000058",
@@ -27705,7 +27705,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "467000059",
@@ -27735,7 +27735,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "467000060",
@@ -27801,7 +27801,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "512000028",
@@ -27867,7 +27867,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "512000029",
@@ -27978,7 +27978,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "512000030",
@@ -28026,7 +28026,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "512000031",
@@ -28074,7 +28074,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "512000032",
@@ -28122,7 +28122,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "515000010",
@@ -28197,7 +28197,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "515000011",
@@ -28227,7 +28227,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "490000032",
@@ -28266,7 +28266,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "490000033",
@@ -28323,7 +28323,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000207",
@@ -28362,7 +28362,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000208",
@@ -28401,7 +28401,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "433000209",
@@ -28440,7 +28440,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000210",
@@ -28470,7 +28470,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000211",
@@ -28518,7 +28518,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "433000212",
@@ -28548,7 +28548,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "469000058",
@@ -28578,7 +28578,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "469000059",
@@ -28617,7 +28617,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "469000060",
@@ -28674,7 +28674,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "461000162",
@@ -28782,7 +28782,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000075",
@@ -28812,7 +28812,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "482000006",
@@ -28842,7 +28842,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003251",
@@ -28872,7 +28872,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "588003252",
@@ -28902,7 +28902,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003254",
@@ -29034,7 +29034,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003256",
@@ -29064,7 +29064,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003257",
@@ -29133,7 +29133,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003259",
@@ -29163,7 +29163,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003260",
@@ -29193,7 +29193,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003261",
@@ -29271,7 +29271,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003265",
@@ -29310,7 +29310,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000118",
@@ -29340,7 +29340,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000120",
@@ -29397,7 +29397,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "489000068",
@@ -29436,7 +29436,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "489000069",
@@ -29493,7 +29493,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "489000070",
@@ -29523,7 +29523,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "489000071",
@@ -29562,7 +29562,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "349000319",
@@ -33776,15 +33776,6 @@ const PEDIDOS_DATA = {
           "codfilial": "4"
         },
         {
-          "desc": "CONHAQUE DOMECQ 1L",
-          "qt": 12,
-          "val": 334.8,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "64",
-          "codfilial": "4"
-        },
-        {
           "desc": "GIN LARIOS ORIGINAL 700ML",
           "qt": 12,
           "val": 610.8,
@@ -33809,6 +33800,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "381",
+          "codfilial": "4"
+        },
+        {
+          "desc": "CONHAQUE DOMECQ 1L",
+          "qt": 12,
+          "val": 334.8,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "64",
           "codfilial": "4"
         },
         {
@@ -36753,7 +36753,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "460000133",
@@ -36783,7 +36783,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "460000134",
@@ -36858,7 +36858,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "460000135",
@@ -36942,7 +36942,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "460000136",
@@ -36999,7 +36999,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "460000137",
@@ -37311,7 +37311,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "460000143",
@@ -37341,7 +37341,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "460000144",
@@ -37371,7 +37371,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000167",
@@ -37446,7 +37446,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "371000305",
@@ -37476,7 +37476,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "371000306",
@@ -37506,7 +37506,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "371000307",
@@ -37536,7 +37536,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "371000308",
@@ -37575,7 +37575,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "371000309",
@@ -37623,7 +37623,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "371000310",
@@ -37662,7 +37662,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "426000400",
@@ -37800,7 +37800,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "426000401",
@@ -37830,7 +37830,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "467000052",
@@ -37878,7 +37878,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "467000053",
@@ -37917,7 +37917,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "467000054",
@@ -37947,7 +37947,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "468000107",
@@ -37977,7 +37977,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "312000041",
@@ -38007,7 +38007,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "512000023",
@@ -38055,7 +38055,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "512000024",
@@ -38094,7 +38094,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "512000025",
@@ -38133,7 +38133,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "512000026",
@@ -38163,7 +38163,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "515000009",
@@ -38202,7 +38202,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "516000016",
@@ -38232,7 +38232,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "491000017",
@@ -38262,7 +38262,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "492000013",
@@ -38301,7 +38301,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "493000040",
@@ -38340,7 +38340,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "498000020",
@@ -38370,7 +38370,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "510000002",
@@ -38418,7 +38418,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "511000006",
@@ -38484,7 +38484,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "511000007",
@@ -38550,7 +38550,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000206",
@@ -38580,7 +38580,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "469000051",
@@ -38637,7 +38637,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "469000052",
@@ -38667,7 +38667,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "469000053",
@@ -38697,7 +38697,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "469000055",
@@ -38745,7 +38745,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "471000046",
@@ -38793,7 +38793,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "461000157",
@@ -38832,7 +38832,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "461000158",
@@ -38880,7 +38880,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "461000159",
@@ -38919,7 +38919,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "461000160",
@@ -38949,7 +38949,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "461000161",
@@ -38988,7 +38988,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "463000052",
@@ -39018,7 +39018,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "463000053",
@@ -39057,7 +39057,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000074",
@@ -39096,7 +39096,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "485000019",
@@ -39126,7 +39126,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003221",
@@ -39165,7 +39165,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003222",
@@ -39195,7 +39195,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003224",
@@ -39252,7 +39252,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003229",
@@ -39282,7 +39282,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003232",
@@ -39312,7 +39312,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003233",
@@ -39351,7 +39351,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003237",
@@ -39390,7 +39390,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003238",
@@ -39420,7 +39420,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003239",
@@ -39486,7 +39486,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003243",
@@ -39516,7 +39516,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000115",
@@ -39582,7 +39582,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000116",
@@ -39612,7 +39612,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "486000117",
@@ -39669,7 +39669,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "489000065",
@@ -39699,7 +39699,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "354000673",
@@ -41843,15 +41843,6 @@ const PEDIDOS_DATA = {
       "total": 107805.67,
       "itens": [
         {
-          "desc": "EASY BOOZE LATA 24X270ML RED MINT",
-          "qt": 10,
-          "val": 1332.0,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "2970",
-          "codfilial": "1"
-        },
-        {
           "desc": "EASY BOOZE LATA 24X269ML SPRITZ",
           "qt": 4,
           "val": 532.8,
@@ -41867,6 +41858,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "2969",
+          "codfilial": "1"
+        },
+        {
+          "desc": "EASY BOOZE LATA 24X270ML RED MINT",
+          "qt": 10,
+          "val": 1332.0,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "2970",
           "codfilial": "1"
         },
         {
@@ -41924,6 +41924,15 @@ const PEDIDOS_DATA = {
           "codfilial": "1"
         },
         {
+          "desc": "MARTINI RISERVA AMBRATTO 750 ML",
+          "qt": 12,
+          "val": 1722.52,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "1787",
+          "codfilial": "1"
+        },
+        {
           "desc": "LICOR BANANINHA CARIOCA 750ML",
           "qt": 24,
           "val": 2280.0,
@@ -41948,15 +41957,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "169",
-          "codfilial": "1"
-        },
-        {
-          "desc": "MARTINI RISERVA AMBRATTO 750 ML",
-          "qt": 12,
-          "val": 1722.52,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "1787",
           "codfilial": "1"
         },
         {
@@ -42023,15 +42023,6 @@ const PEDIDOS_DATA = {
           "codfilial": "1"
         },
         {
-          "desc": "WHISKY JIM BEAM APPLE 1L",
-          "qt": 60,
-          "val": 5994.0,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "3151",
-          "codfilial": "1"
-        },
-        {
           "desc": "TERRAZAS EL YAIMA COSECHA 375ML",
           "qt": 6,
           "val": 1902.24,
@@ -42056,6 +42047,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "418",
+          "codfilial": "1"
+        },
+        {
+          "desc": "WHISKY JIM BEAM APPLE 1L",
+          "qt": 60,
+          "val": 5994.0,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "3151",
           "codfilial": "1"
         },
         {
@@ -42161,15 +42161,6 @@ const PEDIDOS_DATA = {
           "codfilial": "1"
         },
         {
-          "desc": "ST PIERRE VIDRO SUGAR FREE LN 275X12",
-          "qt": 14,
-          "val": 793.1,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "3176",
-          "codfilial": "1"
-        },
-        {
           "desc": "ST PIERRE VIDRO GINGER LN 12X275ML",
           "qt": 16,
           "val": 906.4,
@@ -42194,6 +42185,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "3177",
+          "codfilial": "1"
+        },
+        {
+          "desc": "ST PIERRE VIDRO SUGAR FREE LN 275X12",
+          "qt": 14,
+          "val": 793.1,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "3176",
           "codfilial": "1"
         },
         {
@@ -44033,21 +44033,21 @@ const PEDIDOS_DATA = {
       "total": 2345.4,
       "itens": [
         {
-          "desc": "VILLA ROSA TINTO 750ML",
-          "qt": 30,
-          "val": 867.0,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "2614",
-          "codfilial": "4"
-        },
-        {
           "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
           "qt": 24,
           "val": 784.8,
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "2781",
+          "codfilial": "4"
+        },
+        {
+          "desc": "VILLA ROSA TINTO 750ML",
+          "qt": 30,
+          "val": 867.0,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "2614",
           "codfilial": "4"
         },
         {
@@ -44186,15 +44186,6 @@ const PEDIDOS_DATA = {
           "codfilial": "4"
         },
         {
-          "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "qt": 18,
-          "val": 588.6,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "2781",
-          "codfilial": "4"
-        },
-        {
           "desc": "VILLA ROSA TINTO 750ML",
           "qt": 30,
           "val": 867.0,
@@ -44219,6 +44210,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "484",
+          "codfilial": "4"
+        },
+        {
+          "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "qt": 18,
+          "val": 588.6,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "2781",
           "codfilial": "4"
         }
       ],
@@ -45356,21 +45356,21 @@ const PEDIDOS_DATA = {
       "total": 369.54,
       "itens": [
         {
-          "desc": "GIN ROCKS STRAWBERRY 1000ML",
-          "qt": 6,
-          "val": 135.0,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "3642",
-          "codfilial": "4"
-        },
-        {
           "desc": "ESPUMANTE ALUD ROSE 750ML",
           "qt": 6,
           "val": 161.4,
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "3063",
+          "codfilial": "4"
+        },
+        {
+          "desc": "GIN ROCKS STRAWBERRY 1000ML",
+          "qt": 6,
+          "val": 135.0,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "3642",
           "codfilial": "4"
         },
         {
@@ -45414,7 +45414,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "391000220",
@@ -45453,7 +45453,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "391000221",
@@ -45492,7 +45492,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "391000222",
@@ -45567,7 +45567,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "425000162",
@@ -45597,7 +45597,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "425000163",
@@ -45627,7 +45627,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "425000164",
@@ -45657,7 +45657,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "425000165",
@@ -45714,7 +45714,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000166",
@@ -45744,7 +45744,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "371000304",
@@ -45774,7 +45774,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "467000051",
@@ -45822,7 +45822,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "512000020",
@@ -45861,7 +45861,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "512000021",
@@ -45927,7 +45927,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "515000007",
@@ -46002,7 +46002,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "491000016",
@@ -46032,7 +46032,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "504000025",
@@ -46080,7 +46080,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000202",
@@ -46128,7 +46128,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000203",
@@ -46185,7 +46185,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000205",
@@ -46224,7 +46224,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "471000045",
@@ -46308,7 +46308,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "474000053",
@@ -46338,7 +46338,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "474000054",
@@ -46368,7 +46368,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "461000155",
@@ -46407,7 +46407,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "476000239",
@@ -46437,7 +46437,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000240",
@@ -46476,7 +46476,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000241",
@@ -46506,7 +46506,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "476000242",
@@ -46545,7 +46545,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "476000244",
@@ -46593,7 +46593,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "476000245",
@@ -46632,7 +46632,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "476000246",
@@ -46725,7 +46725,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "476000247",
@@ -46755,7 +46755,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "485000018",
@@ -46785,7 +46785,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003206",
@@ -46833,7 +46833,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003207",
@@ -46872,7 +46872,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003208",
@@ -46911,7 +46911,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003209",
@@ -46950,7 +46950,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003210",
@@ -46980,7 +46980,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003211",
@@ -47010,7 +47010,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003212",
@@ -47040,7 +47040,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003213",
@@ -47079,7 +47079,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003214",
@@ -47118,7 +47118,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "588003215",
@@ -47175,7 +47175,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003216",
@@ -47205,7 +47205,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "588003217",
@@ -47235,7 +47235,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "486000114",
@@ -47265,7 +47265,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "349000318",
@@ -48153,7 +48153,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "442000302",
@@ -49179,7 +49179,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "371000302",
@@ -49218,7 +49218,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "371000303",
@@ -49257,7 +49257,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "426000398",
@@ -49296,7 +49296,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000399",
@@ -49326,7 +49326,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "468000106",
@@ -49437,7 +49437,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "512000017",
@@ -49476,7 +49476,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "512000018",
@@ -49515,7 +49515,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "512000019",
@@ -49554,7 +49554,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "514000001",
@@ -49584,7 +49584,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "515000006",
@@ -49632,7 +49632,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "516000012",
@@ -49788,7 +49788,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "516000013",
@@ -49845,7 +49845,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "498000019",
@@ -49920,7 +49920,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "504000024",
@@ -49968,7 +49968,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "507000001",
@@ -50007,7 +50007,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "508000003",
@@ -50046,7 +50046,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "508000004",
@@ -50085,7 +50085,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "508000005",
@@ -50124,7 +50124,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "508000006",
@@ -50163,7 +50163,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "508000007",
@@ -50202,7 +50202,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "508000008",
@@ -50232,7 +50232,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "471000042",
@@ -50289,7 +50289,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "471000043",
@@ -50337,7 +50337,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "472000059",
@@ -50403,7 +50403,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "462000018",
@@ -50451,7 +50451,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000071",
@@ -50499,7 +50499,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "477000073",
@@ -50556,7 +50556,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "588003201",
@@ -50586,7 +50586,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003202",
@@ -50616,7 +50616,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003203",
@@ -50646,7 +50646,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003204",
@@ -50676,7 +50676,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003205",
@@ -50706,7 +50706,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "486000108",
@@ -50763,7 +50763,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "486000110",
@@ -50811,7 +50811,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "486000111",
@@ -50841,7 +50841,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "486000112",
@@ -50952,7 +50952,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "489000064",
@@ -50982,7 +50982,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "354000666",
@@ -53754,7 +53754,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "391000219",
@@ -53784,7 +53784,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "425000157",
@@ -53859,7 +53859,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000158",
@@ -53916,7 +53916,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000159",
@@ -53982,7 +53982,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000160",
@@ -54030,7 +54030,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000391",
@@ -54060,7 +54060,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "426000392",
@@ -54090,7 +54090,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "426000393",
@@ -54120,7 +54120,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000394",
@@ -54150,7 +54150,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000395",
@@ -54180,7 +54180,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000396",
@@ -54246,7 +54246,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "468000103",
@@ -54312,7 +54312,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "468000104",
@@ -54378,7 +54378,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "468000105",
@@ -54435,7 +54435,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "512000013",
@@ -54474,7 +54474,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "512000014",
@@ -54513,7 +54513,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "512000015",
@@ -54543,7 +54543,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "512000016",
@@ -54600,7 +54600,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "516000009",
@@ -54657,7 +54657,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "493000039",
@@ -54696,7 +54696,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "499000006",
@@ -54735,7 +54735,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "511000005",
@@ -54792,7 +54792,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000199",
@@ -54867,7 +54867,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "433000200",
@@ -54897,7 +54897,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "469000050",
@@ -54954,7 +54954,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "471000040",
@@ -54984,7 +54984,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "471000041",
@@ -55014,7 +55014,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "461000151",
@@ -55044,7 +55044,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "463000050",
@@ -55119,7 +55119,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "463000051",
@@ -55194,7 +55194,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "476000235",
@@ -55251,7 +55251,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000236",
@@ -55281,7 +55281,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000070",
@@ -55338,7 +55338,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "483000005",
@@ -55368,7 +55368,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003185",
@@ -55398,7 +55398,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003186",
@@ -55428,7 +55428,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003187",
@@ -55458,7 +55458,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003188",
@@ -55488,7 +55488,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003189",
@@ -55518,7 +55518,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003190",
@@ -55548,7 +55548,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003191",
@@ -55587,7 +55587,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003192",
@@ -55644,7 +55644,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003194",
@@ -55674,7 +55674,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003199",
@@ -55704,7 +55704,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003200",
@@ -55797,7 +55797,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "486000107",
@@ -55863,7 +55863,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "489000062",
@@ -55893,7 +55893,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "354000661",
@@ -59921,15 +59921,6 @@ const PEDIDOS_DATA = {
       "total": 931.8,
       "itens": [
         {
-          "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 5,
-          "val": 431.4,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "6259",
-          "codfilial": "4"
-        },
-        {
           "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
           "qt": 2,
           "val": 172.56,
@@ -59945,6 +59936,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "6256",
+          "codfilial": "4"
+        },
+        {
+          "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 5,
+          "val": 431.4,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "6259",
           "codfilial": "4"
         },
         {
@@ -60075,7 +60075,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "460000126",
@@ -60114,7 +60114,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "460000127",
@@ -60162,7 +60162,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "460000128",
@@ -60219,7 +60219,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "460000129",
@@ -60312,7 +60312,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000156",
@@ -60369,7 +60369,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "371000301",
@@ -60471,7 +60471,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "426000387",
@@ -60519,7 +60519,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000389",
@@ -60567,7 +60567,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "466000053",
@@ -60615,7 +60615,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "466000054",
@@ -60753,7 +60753,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "466000055",
@@ -60801,7 +60801,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "466000056",
@@ -60831,7 +60831,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "466000057",
@@ -60870,7 +60870,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "515000004",
@@ -60900,7 +60900,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "516000003",
@@ -60939,7 +60939,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "516000004",
@@ -61023,7 +61023,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "516000005",
@@ -61080,7 +61080,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "491000013",
@@ -61110,7 +61110,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "491000014",
@@ -61140,7 +61140,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "491000015",
@@ -61179,7 +61179,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "492000006",
@@ -61209,7 +61209,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "497000012",
@@ -61239,7 +61239,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "497000013",
@@ -61269,7 +61269,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "497000014",
@@ -61299,7 +61299,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "498000016",
@@ -61329,7 +61329,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "498000017",
@@ -61395,7 +61395,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "498000018",
@@ -61434,7 +61434,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "499000003",
@@ -61482,7 +61482,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "499000004",
@@ -61521,7 +61521,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "499000005",
@@ -61578,7 +61578,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "504000011",
@@ -61770,7 +61770,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "504000012",
@@ -61845,7 +61845,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "504000013",
@@ -61911,7 +61911,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "504000014",
@@ -61968,7 +61968,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "504000015",
@@ -62070,7 +62070,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "504000016",
@@ -62163,7 +62163,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "504000017",
@@ -62274,7 +62274,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "504000018",
@@ -62358,7 +62358,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "504000019",
@@ -62397,7 +62397,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "504000020",
@@ -62553,7 +62553,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "504000021",
@@ -62682,7 +62682,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "504000022",
@@ -62748,7 +62748,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "504000023",
@@ -62877,7 +62877,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "508000002",
@@ -62934,7 +62934,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "511000004",
@@ -62973,7 +62973,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000188",
@@ -63012,7 +63012,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "433000189",
@@ -63087,7 +63087,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000190",
@@ -63162,7 +63162,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000191",
@@ -63192,7 +63192,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "433000192",
@@ -63222,7 +63222,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "471000039",
@@ -63324,7 +63324,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "472000058",
@@ -63354,7 +63354,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "474000051",
@@ -63402,7 +63402,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "474000052",
@@ -63441,7 +63441,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "461000150",
@@ -63498,7 +63498,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "232000018",
@@ -63582,7 +63582,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "476000231",
@@ -63612,7 +63612,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "485000013",
@@ -63642,7 +63642,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "485000014",
@@ -63672,7 +63672,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "485000015",
@@ -63702,7 +63702,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003168",
@@ -63732,7 +63732,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "588003169",
@@ -63762,7 +63762,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "588003170",
@@ -63792,7 +63792,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003171",
@@ -63822,7 +63822,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003172",
@@ -63888,7 +63888,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003173",
@@ -63936,7 +63936,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003174",
@@ -63984,7 +63984,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003175",
@@ -64050,7 +64050,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003177",
@@ -64089,7 +64089,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003179",
@@ -64155,7 +64155,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003180",
@@ -64185,7 +64185,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003181",
@@ -64215,7 +64215,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003184",
@@ -64245,7 +64245,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "486000103",
@@ -64293,7 +64293,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000105",
@@ -64431,7 +64431,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "489000059",
@@ -64488,7 +64488,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "489000061",
@@ -64518,7 +64518,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "354000660",
@@ -68880,7 +68880,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "371000300",
@@ -68946,7 +68946,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "426000382",
@@ -68994,7 +68994,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000384",
@@ -69024,7 +69024,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "466000052",
@@ -69054,7 +69054,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "467000050",
@@ -69084,7 +69084,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "468000100",
@@ -69114,7 +69114,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "468000101",
@@ -69153,7 +69153,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "468000102",
@@ -69192,7 +69192,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "492000004",
@@ -69231,7 +69231,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "499000002",
@@ -69279,7 +69279,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "508000001",
@@ -69309,7 +69309,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "512000012",
@@ -69348,7 +69348,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "472000057",
@@ -69504,7 +69504,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "461000141",
@@ -69534,7 +69534,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "461000145",
@@ -69564,7 +69564,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "461000146",
@@ -69594,7 +69594,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "476000221",
@@ -69624,7 +69624,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000222",
@@ -69663,7 +69663,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "476000223",
@@ -69756,7 +69756,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000225",
@@ -69858,7 +69858,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000226",
@@ -69906,7 +69906,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000227",
@@ -70017,7 +70017,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000229",
@@ -70056,7 +70056,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000230",
@@ -70113,7 +70113,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000065",
@@ -70206,7 +70206,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000067",
@@ -70236,7 +70236,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000068",
@@ -70275,7 +70275,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003145",
@@ -70323,7 +70323,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003146",
@@ -70353,7 +70353,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003147",
@@ -70383,7 +70383,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003149",
@@ -70485,7 +70485,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003152",
@@ -70515,7 +70515,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003153",
@@ -70545,7 +70545,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "588003154",
@@ -70611,7 +70611,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003155",
@@ -70650,7 +70650,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "486000093",
@@ -70689,7 +70689,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000101",
@@ -70728,7 +70728,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000102",
@@ -70767,7 +70767,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "349000316",
@@ -72290,15 +72290,6 @@ const PEDIDOS_DATA = {
       "total": 955.2,
       "itens": [
         {
-          "desc": "MOVING BOOSTER LIMAO 24X310ML",
-          "qt": 2,
-          "val": 309.6,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "6253",
-          "codfilial": "4"
-        },
-        {
           "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
           "qt": 2,
           "val": 168.0,
@@ -72323,6 +72314,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "6254",
+          "codfilial": "4"
+        },
+        {
+          "desc": "MOVING BOOSTER LIMAO 24X310ML",
+          "qt": 2,
+          "val": 309.6,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "6253",
           "codfilial": "4"
         }
       ],
@@ -73835,15 +73835,6 @@ const PEDIDOS_DATA = {
       "total": 5038.2,
       "itens": [
         {
-          "desc": "CHANDON PASSION ON ICE 750 ML",
-          "qt": 12,
-          "val": 910.8,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "3766",
-          "codfilial": "4"
-        },
-        {
           "desc": "ESPUM CASA PERINI BRUT 750ML",
           "qt": 12,
           "val": 466.8,
@@ -73868,6 +73859,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "666",
+          "codfilial": "4"
+        },
+        {
+          "desc": "CHANDON PASSION ON ICE 750 ML",
+          "qt": 12,
+          "val": 910.8,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "3766",
           "codfilial": "4"
         },
         {
@@ -75963,7 +75963,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "460000119",
@@ -76011,7 +76011,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "460000120",
@@ -76059,7 +76059,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "460000122",
@@ -76179,7 +76179,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "391000213",
@@ -76209,7 +76209,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "391000214",
@@ -76257,7 +76257,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "425000154",
@@ -76296,7 +76296,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000380",
@@ -76353,7 +76353,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "426000381",
@@ -76410,7 +76410,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "515000002",
@@ -76449,7 +76449,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "515000003",
@@ -76506,7 +76506,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "490000027",
@@ -76536,7 +76536,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "490000028",
@@ -76584,7 +76584,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "490000029",
@@ -76614,7 +76614,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "490000030",
@@ -76689,7 +76689,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "490000031",
@@ -76764,7 +76764,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "493000035",
@@ -76794,7 +76794,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "493000036",
@@ -76824,7 +76824,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "497000011",
@@ -76854,7 +76854,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "500000004",
@@ -76920,7 +76920,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "504000010",
@@ -76950,7 +76950,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000186",
@@ -76980,7 +76980,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "433000187",
@@ -77010,7 +77010,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "472000056",
@@ -77040,7 +77040,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "461000135",
@@ -77079,7 +77079,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "461000136",
@@ -77127,7 +77127,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "461000137",
@@ -77202,7 +77202,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "461000138",
@@ -77232,7 +77232,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "463000049",
@@ -77280,7 +77280,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "476000218",
@@ -77319,7 +77319,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000219",
@@ -77367,7 +77367,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000220",
@@ -77406,7 +77406,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003126",
@@ -77454,7 +77454,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003127",
@@ -77484,7 +77484,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003128",
@@ -77514,7 +77514,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003130",
@@ -77544,7 +77544,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003131",
@@ -77619,7 +77619,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003132",
@@ -77649,7 +77649,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003134",
@@ -77679,7 +77679,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003136",
@@ -77709,7 +77709,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003137",
@@ -77748,7 +77748,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003138",
@@ -77823,7 +77823,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003139",
@@ -77853,7 +77853,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003140",
@@ -77946,7 +77946,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003141",
@@ -77976,7 +77976,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003142",
@@ -78006,7 +78006,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003143",
@@ -78036,7 +78036,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000090",
@@ -78084,7 +78084,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "349000308",
@@ -79071,7 +79071,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003125",
@@ -79101,7 +79101,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "379001271",
@@ -79349,15 +79349,6 @@ const PEDIDOS_DATA = {
       "total": 1621.8,
       "itens": [
         {
-          "desc": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
-          "qt": 24,
-          "val": 347.76,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "6744",
-          "codfilial": "4"
-        },
-        {
           "desc": "VINHO BORDO QUINTA DO MORGADO 1LT",
           "qt": 12,
           "val": 238.8,
@@ -79373,6 +79364,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "3816",
+          "codfilial": "4"
+        },
+        {
+          "desc": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
+          "qt": 24,
+          "val": 347.76,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "6744",
           "codfilial": "4"
         },
         {
@@ -79611,7 +79611,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "412001420",
@@ -80451,7 +80451,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "317000125",
@@ -80508,7 +80508,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "317000126",
@@ -80538,7 +80538,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "317000127",
@@ -80595,7 +80595,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "317000128",
@@ -80634,7 +80634,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "317000129",
@@ -80682,7 +80682,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "317000130",
@@ -80712,7 +80712,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "317000131",
@@ -80751,7 +80751,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "317000132",
@@ -80781,7 +80781,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "317000133",
@@ -80820,7 +80820,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "317000134",
@@ -80868,7 +80868,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "317000135",
@@ -80925,7 +80925,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "317000136",
@@ -80964,7 +80964,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "317000137",
@@ -81039,7 +81039,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "466000051",
@@ -81078,7 +81078,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "513000001",
@@ -81117,7 +81117,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "515000001",
@@ -81156,7 +81156,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "490000024",
@@ -81186,7 +81186,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "490000026",
@@ -81216,7 +81216,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "497000008",
@@ -81255,7 +81255,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "497000009",
@@ -81285,7 +81285,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "498000012",
@@ -81324,7 +81324,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "504000007",
@@ -81363,7 +81363,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "504000008",
@@ -81402,7 +81402,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "504000009",
@@ -81450,7 +81450,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "511000001",
@@ -81507,7 +81507,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "511000003",
@@ -81555,7 +81555,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "512000006",
@@ -81585,7 +81585,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "512000007",
@@ -81651,7 +81651,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003111",
@@ -81681,7 +81681,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "433000184",
@@ -81711,7 +81711,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "472000054",
@@ -81759,7 +81759,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "472000055",
@@ -81789,7 +81789,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "461000133",
@@ -81864,7 +81864,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "476000210",
@@ -81903,7 +81903,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000213",
@@ -81933,7 +81933,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000215",
@@ -81963,7 +81963,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000061",
@@ -82011,7 +82011,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000062",
@@ -82059,7 +82059,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003120",
@@ -82089,7 +82089,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003121",
@@ -82128,7 +82128,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003122",
@@ -82185,7 +82185,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003123",
@@ -82215,7 +82215,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000089",
@@ -82299,7 +82299,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "344000512",
@@ -83063,6 +83063,15 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
+          "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+          "qt": 1,
+          "val": 153.36,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "7332",
+          "codfilial": "2"
+        },
+        {
           "desc": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
           "qt": 3,
           "val": 575.28,
@@ -83087,15 +83096,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "5583",
-          "codfilial": "2"
-        },
-        {
-          "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-          "qt": 1,
-          "val": 153.36,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "7332",
           "codfilial": "2"
         },
         {
@@ -83711,15 +83711,6 @@ const PEDIDOS_DATA = {
       "total": 1651.2,
       "itens": [
         {
-          "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "qt": 6,
-          "val": 197.4,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "663",
-          "codfilial": "4"
-        },
-        {
           "desc": "AGUARDENTE OLD CESAR 88 965 ML",
           "qt": 12,
           "val": 133.2,
@@ -83744,6 +83735,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "3817",
+          "codfilial": "4"
+        },
+        {
+          "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 6,
+          "val": 197.4,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "663",
           "codfilial": "4"
         },
         {
@@ -84860,6 +84860,15 @@ const PEDIDOS_DATA = {
       "total": 1328.4,
       "itens": [
         {
+          "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "qt": 6,
+          "val": 233.4,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "2781",
+          "codfilial": "4"
+        },
+        {
           "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
           "qt": 12,
           "val": 394.8,
@@ -84884,15 +84893,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "664",
-          "codfilial": "4"
-        },
-        {
-          "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "qt": 6,
-          "val": 233.4,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "2781",
           "codfilial": "4"
         }
       ],
@@ -85769,6 +85769,15 @@ const PEDIDOS_DATA = {
           "codfilial": "4"
         },
         {
+          "desc": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+          "qt": 2,
+          "val": 172.56,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "7204",
+          "codfilial": "4"
+        },
+        {
           "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
           "qt": 2,
           "val": 172.56,
@@ -85793,15 +85802,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "6257",
-          "codfilial": "4"
-        },
-        {
-          "desc": "MOVING JUICE PROTEIN LARANJA 12X300ML",
-          "qt": 2,
-          "val": 172.56,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "7204",
           "codfilial": "4"
         },
         {
@@ -86589,7 +86589,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "426000378",
@@ -86619,7 +86619,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000379",
@@ -86685,7 +86685,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "468000096",
@@ -86724,7 +86724,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "468000097",
@@ -86754,7 +86754,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "504000006",
@@ -86793,7 +86793,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "512000003",
@@ -86832,7 +86832,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "512000004",
@@ -86862,7 +86862,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "512000005",
@@ -86955,7 +86955,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003068",
@@ -86985,7 +86985,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "588003069",
@@ -87051,7 +87051,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003072",
@@ -87117,7 +87117,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003073",
@@ -87156,7 +87156,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003074",
@@ -87186,7 +87186,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003075",
@@ -87225,7 +87225,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003077",
@@ -87255,7 +87255,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003078",
@@ -87321,7 +87321,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003079",
@@ -87351,7 +87351,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003081",
@@ -87417,7 +87417,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003082",
@@ -87465,7 +87465,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003083",
@@ -87513,7 +87513,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003085",
@@ -87543,7 +87543,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003086",
@@ -87573,7 +87573,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003087",
@@ -87657,7 +87657,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003090",
@@ -87750,7 +87750,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003091",
@@ -87816,7 +87816,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003092",
@@ -87855,7 +87855,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003093",
@@ -87903,7 +87903,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003095",
@@ -87933,7 +87933,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003098",
@@ -88026,7 +88026,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003099",
@@ -88056,7 +88056,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003101",
@@ -88086,7 +88086,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003103",
@@ -88116,7 +88116,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003104",
@@ -88164,7 +88164,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003105",
@@ -88221,7 +88221,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003106",
@@ -88251,7 +88251,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003107",
@@ -88335,7 +88335,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003108",
@@ -88365,7 +88365,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000176",
@@ -88449,7 +88449,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000177",
@@ -88479,7 +88479,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "433000178",
@@ -88509,7 +88509,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "433000179",
@@ -88539,7 +88539,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "433000180",
@@ -88569,7 +88569,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "433000182",
@@ -88617,7 +88617,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000183",
@@ -88647,7 +88647,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "470000034",
@@ -88677,7 +88677,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "472000053",
@@ -88752,7 +88752,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "461000130",
@@ -88782,7 +88782,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "477000059",
@@ -88830,7 +88830,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "477000060",
@@ -88905,7 +88905,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "486000088",
@@ -88998,7 +88998,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "489000052",
@@ -89037,7 +89037,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "388000003",
@@ -89552,15 +89552,6 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
-          "desc": "ESPU MOSCATEL ROSE QNTA DO MORGADO 660ML",
-          "qt": 3,
-          "val": 65.7,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "7103",
-          "codfilial": "2"
-        },
-        {
           "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
           "qt": 3,
           "val": 110.7,
@@ -89576,6 +89567,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "4688",
+          "codfilial": "2"
+        },
+        {
+          "desc": "ESPU MOSCATEL ROSE QNTA DO MORGADO 660ML",
+          "qt": 3,
+          "val": 65.7,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "7103",
           "codfilial": "2"
         },
         {
@@ -89837,15 +89837,6 @@ const PEDIDOS_DATA = {
       "total": 575.2,
       "itens": [
         {
-          "desc": "4 PACK RED BULL SF POMELO 4X250ML",
-          "qt": 3,
-          "val": 86.28,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "4881",
-          "codfilial": "2"
-        },
-        {
           "desc": "RED BULL TROPICAL 24X250ML",
           "qt": 1,
           "val": 172.56,
@@ -89861,6 +89852,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "4602",
+          "codfilial": "2"
+        },
+        {
+          "desc": "4 PACK RED BULL SF POMELO 4X250ML",
+          "qt": 3,
+          "val": 86.28,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "4881",
           "codfilial": "2"
         },
         {
@@ -90056,15 +90056,6 @@ const PEDIDOS_DATA = {
       "total": 1280.28,
       "itens": [
         {
-          "desc": "APERITIVO APEROL 750 ML",
-          "qt": 4,
-          "val": 167.6,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "644",
-          "codfilial": "2"
-        },
-        {
           "desc": "VODKA ABSOLUT 1L",
           "qt": 4,
           "val": 239.6,
@@ -90089,6 +90080,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "484",
+          "codfilial": "2"
+        },
+        {
+          "desc": "APERITIVO APEROL 750 ML",
+          "qt": 4,
+          "val": 167.6,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "644",
           "codfilial": "2"
         },
         {
@@ -90296,15 +90296,6 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
-          "desc": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
-          "qt": 1,
-          "val": 229.9,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "20",
-          "codfilial": "2"
-        },
-        {
           "desc": "WHISKY CHIVAS REGAL 12 ANOS 1L",
           "qt": 2,
           "val": 199.8,
@@ -90329,6 +90320,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "902",
+          "codfilial": "2"
+        },
+        {
+          "desc": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
+          "qt": 1,
+          "val": 229.9,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "20",
           "codfilial": "2"
         },
         {
@@ -90620,15 +90620,6 @@ const PEDIDOS_DATA = {
       "total": 1775.58,
       "itens": [
         {
-          "desc": "RC ATUM RALADO NATURAL 24X140G",
-          "qt": 1,
-          "val": 191.76,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "5582",
-          "codfilial": "2"
-        },
-        {
           "desc": "RC SARDINHA EM OLEO 50X125G",
           "qt": 5,
           "val": 997.5,
@@ -90644,6 +90635,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "5762",
+          "codfilial": "2"
+        },
+        {
+          "desc": "RC ATUM RALADO NATURAL 24X140G",
+          "qt": 1,
+          "val": 191.76,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "5582",
           "codfilial": "2"
         },
         {
@@ -90905,15 +90905,6 @@ const PEDIDOS_DATA = {
       "total": 1756.8,
       "itens": [
         {
-          "desc": "VILLA ROSA TINTO 750ML",
-          "qt": 30,
-          "val": 867.0,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "2614",
-          "codfilial": "4"
-        },
-        {
           "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
           "qt": 6,
           "val": 196.2,
@@ -90929,6 +90920,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "2703",
+          "codfilial": "4"
+        },
+        {
+          "desc": "VILLA ROSA TINTO 750ML",
+          "qt": 30,
+          "val": 867.0,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "2614",
           "codfilial": "4"
         }
       ],
@@ -91251,7 +91251,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "460000117",
@@ -91308,7 +91308,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "391000206",
@@ -91338,7 +91338,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "391000208",
@@ -91368,7 +91368,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "391000209",
@@ -91398,7 +91398,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "425000150",
@@ -91437,7 +91437,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000151",
@@ -91557,7 +91557,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000376",
@@ -91614,7 +91614,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000377",
@@ -91644,7 +91644,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "466000050",
@@ -91692,7 +91692,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "468000095",
@@ -91722,7 +91722,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "493000031",
@@ -91761,7 +91761,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "497000005",
@@ -91809,7 +91809,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "497000006",
@@ -91839,7 +91839,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "500000003",
@@ -91869,7 +91869,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003048",
@@ -91899,7 +91899,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003049",
@@ -91929,7 +91929,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003050",
@@ -91977,7 +91977,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003051",
@@ -92007,7 +92007,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003057",
@@ -92046,7 +92046,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003058",
@@ -92076,7 +92076,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003060",
@@ -92106,7 +92106,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003064",
@@ -92136,7 +92136,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "588003065",
@@ -92175,7 +92175,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003066",
@@ -92205,7 +92205,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003067",
@@ -92235,7 +92235,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "433000173",
@@ -92274,7 +92274,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "472000051",
@@ -92313,7 +92313,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "472000052",
@@ -92361,7 +92361,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "473000010",
@@ -92400,7 +92400,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "474000046",
@@ -92439,7 +92439,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "474000047",
@@ -92469,7 +92469,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000054",
@@ -92508,7 +92508,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000055",
@@ -92556,7 +92556,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000056",
@@ -92604,7 +92604,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000083",
@@ -92652,7 +92652,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000085",
@@ -92709,7 +92709,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "489000049",
@@ -92766,7 +92766,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "388000002",
@@ -93983,15 +93983,6 @@ const PEDIDOS_DATA = {
       "total": 1314.49,
       "itens": [
         {
-          "desc": "WHISKY BALLANTINE S SUNSHINE 700ML",
-          "qt": 12,
-          "val": 573.0,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "4843",
-          "codfilial": "4"
-        },
-        {
           "desc": "GIN ROCKS STRAWBERRY 1000ML",
           "qt": 6,
           "val": 135.0,
@@ -94016,6 +94007,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "4346",
+          "codfilial": "4"
+        },
+        {
+          "desc": "WHISKY BALLANTINE S SUNSHINE 700ML",
+          "qt": 12,
+          "val": 573.0,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "4843",
           "codfilial": "4"
         }
       ],
@@ -94613,6 +94613,15 @@ const PEDIDOS_DATA = {
       "total": 361.63,
       "itens": [
         {
+          "desc": "WHISKY J WALKER RED LABEL 1L",
+          "qt": 2,
+          "val": 153.8,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "313",
+          "codfilial": "2"
+        },
+        {
           "desc": "VODCA SMIRNOFF RED 998 ML",
           "qt": 1,
           "val": 27.9,
@@ -94628,15 +94637,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "674",
-          "codfilial": "2"
-        },
-        {
-          "desc": "WHISKY J WALKER RED LABEL 1L",
-          "qt": 2,
-          "val": 153.8,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "313",
           "codfilial": "2"
         },
         {
@@ -95051,15 +95051,6 @@ const PEDIDOS_DATA = {
       "total": 1411.2,
       "itens": [
         {
-          "desc": "ESPUMANTE ALUD BRANCO 750ML",
-          "qt": 12,
-          "val": 346.8,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "3011",
-          "codfilial": "4"
-        },
-        {
           "desc": "VILLA ROSA TINTO 750ML",
           "qt": 12,
           "val": 358.8,
@@ -95084,6 +95075,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "3063",
+          "codfilial": "4"
+        },
+        {
+          "desc": "ESPUMANTE ALUD BRANCO 750ML",
+          "qt": 12,
+          "val": 346.8,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "3011",
           "codfilial": "4"
         }
       ],
@@ -95195,6 +95195,15 @@ const PEDIDOS_DATA = {
       "total": 284.5,
       "itens": [
         {
+          "desc": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+          "qt": 1,
+          "val": 105.9,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "4885",
+          "codfilial": "2"
+        },
+        {
           "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
           "qt": 1,
           "val": 28.9,
@@ -95210,15 +95219,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "3143",
-          "codfilial": "2"
-        },
-        {
-          "desc": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
-          "qt": 1,
-          "val": 105.9,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "4885",
           "codfilial": "2"
         },
         {
@@ -95348,21 +95348,21 @@ const PEDIDOS_DATA = {
       "total": 1560.6,
       "itens": [
         {
-          "desc": "VILLA ROSA TINTO 750ML",
-          "qt": 30,
-          "val": 867.0,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "2614",
-          "codfilial": "4"
-        },
-        {
           "desc": "VILLA ROSA  ROSE 750ML",
           "qt": 24,
           "val": 693.6,
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "2703",
+          "codfilial": "4"
+        },
+        {
+          "desc": "VILLA ROSA TINTO 750ML",
+          "qt": 30,
+          "val": 867.0,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "2614",
           "codfilial": "4"
         }
       ],
@@ -95387,21 +95387,21 @@ const PEDIDOS_DATA = {
       "total": 2437.98,
       "itens": [
         {
-          "desc": "RED BULL MELANCIA 250ML CX C/24",
-          "qt": 1,
-          "val": 179.76,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "2799",
-          "codfilial": "2"
-        },
-        {
           "desc": "AMARULA CREAM 12X750ML +6 COPOS DUBAI",
           "qt": 1,
           "val": 999.9,
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "6570",
+          "codfilial": "2"
+        },
+        {
+          "desc": "RED BULL MELANCIA 250ML CX C/24",
+          "qt": 1,
+          "val": 179.76,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "2799",
           "codfilial": "2"
         },
         {
@@ -95577,7 +95577,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "425000147",
@@ -95634,7 +95634,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000374",
@@ -95664,7 +95664,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "465000043",
@@ -95703,7 +95703,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "465000044",
@@ -95751,7 +95751,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "466000049",
@@ -95799,7 +95799,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "312000039",
@@ -95829,7 +95829,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "491000011",
@@ -95877,7 +95877,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "498000011",
@@ -95907,7 +95907,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "504000005",
@@ -95955,7 +95955,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "509000001",
@@ -95985,7 +95985,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003023",
@@ -96015,7 +96015,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003026",
@@ -96054,7 +96054,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003033",
@@ -96093,7 +96093,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003035",
@@ -96159,7 +96159,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003036",
@@ -96198,7 +96198,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003037",
@@ -96246,7 +96246,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003039",
@@ -96285,7 +96285,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003040",
@@ -96315,7 +96315,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003041",
@@ -96345,7 +96345,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003043",
@@ -96375,7 +96375,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000170",
@@ -96414,7 +96414,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "469000048",
@@ -96516,7 +96516,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "473000009",
@@ -96555,7 +96555,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "474000042",
@@ -96585,7 +96585,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "474000044",
@@ -96642,7 +96642,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "476000198",
@@ -96699,7 +96699,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "486000074",
@@ -96774,7 +96774,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000079",
@@ -96804,7 +96804,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "486000082",
@@ -96834,7 +96834,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "354000618",
@@ -98640,7 +98640,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000139",
@@ -98688,7 +98688,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000140",
@@ -98727,7 +98727,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "425000141",
@@ -98892,7 +98892,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000142",
@@ -98931,7 +98931,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "371000299",
@@ -98970,7 +98970,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "475000031",
@@ -99018,7 +99018,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "467000046",
@@ -99093,7 +99093,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "468000092",
@@ -99186,7 +99186,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "490000019",
@@ -99216,7 +99216,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "490000020",
@@ -99246,7 +99246,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "497000004",
@@ -99276,7 +99276,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003007",
@@ -99306,7 +99306,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003010",
@@ -99345,7 +99345,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003012",
@@ -99429,7 +99429,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003013",
@@ -99468,7 +99468,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003014",
@@ -99498,7 +99498,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003016",
@@ -99528,7 +99528,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003017",
@@ -99558,7 +99558,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003018",
@@ -99588,7 +99588,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003021",
@@ -99636,7 +99636,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "433000153",
@@ -99666,7 +99666,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000154",
@@ -99705,7 +99705,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000155",
@@ -99744,7 +99744,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000156",
@@ -99783,7 +99783,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "433000157",
@@ -99822,7 +99822,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "433000158",
@@ -99861,7 +99861,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "433000159",
@@ -99900,7 +99900,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "433000160",
@@ -99930,7 +99930,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "433000161",
@@ -99960,7 +99960,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "433000162",
@@ -99999,7 +99999,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "433000163",
@@ -100029,7 +100029,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "433000164",
@@ -100059,7 +100059,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "433000166",
@@ -100107,7 +100107,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "461000118",
@@ -100137,7 +100137,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "463000047",
@@ -100176,7 +100176,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "476000191",
@@ -100215,7 +100215,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000195",
@@ -100245,7 +100245,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000053",
@@ -100275,7 +100275,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "489000037",
@@ -100332,7 +100332,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "354000611",
@@ -101342,15 +101342,6 @@ const PEDIDOS_DATA = {
       "total": 1653.6,
       "itens": [
         {
-          "desc": "GIN ROCKS WATERMELON 1000ML",
-          "qt": 18,
-          "val": 396.0,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "4689",
-          "codfilial": "4"
-        },
-        {
           "desc": "CONHAQUE DOMECQ 1L",
           "qt": 12,
           "val": 346.8,
@@ -101375,6 +101366,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "3643",
+          "codfilial": "4"
+        },
+        {
+          "desc": "GIN ROCKS WATERMELON 1000ML",
+          "qt": 18,
+          "val": 396.0,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "4689",
           "codfilial": "4"
         },
         {
@@ -101705,15 +101705,6 @@ const PEDIDOS_DATA = {
           "codfilial": "4"
         },
         {
-          "desc": "VINHO BCO SUAVE QUINTA DO MORGADO 750ML",
-          "qt": 12,
-          "val": 173.88,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "7106",
-          "codfilial": "4"
-        },
-        {
           "desc": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
           "qt": 24,
           "val": 347.76,
@@ -101738,6 +101729,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "3814",
+          "codfilial": "4"
+        },
+        {
+          "desc": "VINHO BCO SUAVE QUINTA DO MORGADO 750ML",
+          "qt": 12,
+          "val": 173.88,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "7106",
           "codfilial": "4"
         },
         {
@@ -101900,6 +101900,15 @@ const PEDIDOS_DATA = {
           "codfilial": "4"
         },
         {
+          "desc": "CACHACA JOIA DA SERRA OURO 1L",
+          "qt": 12,
+          "val": 390.0,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "4598",
+          "codfilial": "4"
+        },
+        {
           "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
           "qt": 3,
           "val": 246.09,
@@ -101924,15 +101933,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "6257",
-          "codfilial": "4"
-        },
-        {
-          "desc": "CACHACA JOIA DA SERRA OURO 1L",
-          "qt": 12,
-          "val": 390.0,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "4598",
           "codfilial": "4"
         },
         {
@@ -102029,15 +102029,6 @@ const PEDIDOS_DATA = {
           "codfilial": "4"
         },
         {
-          "desc": "CACHACA JOIA DA SERRA OURO 1L",
-          "qt": 12,
-          "val": 390.0,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "4598",
-          "codfilial": "4"
-        },
-        {
           "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
           "qt": 2,
           "val": 164.06,
@@ -102062,6 +102053,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "6253",
+          "codfilial": "4"
+        },
+        {
+          "desc": "CACHACA JOIA DA SERRA OURO 1L",
+          "qt": 12,
+          "val": 390.0,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "4598",
           "codfilial": "4"
         },
         {
@@ -102632,15 +102632,6 @@ const PEDIDOS_DATA = {
       "total": 658.08,
       "itens": [
         {
-          "desc": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
-          "qt": 1,
-          "val": 95.52,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "4885",
-          "codfilial": "2"
-        },
-        {
           "desc": "ST PIERRE LATA PINK LEMON LT 24X270ML",
           "qt": 1,
           "val": 95.52,
@@ -102665,6 +102656,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "4884",
+          "codfilial": "2"
+        },
+        {
+          "desc": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+          "qt": 1,
+          "val": 95.52,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "4885",
           "codfilial": "2"
         },
         {
@@ -102999,7 +102999,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "336002026",
@@ -103448,15 +103448,6 @@ const PEDIDOS_DATA = {
       "total": 4728.4,
       "itens": [
         {
-          "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
-          "qt": 4,
-          "val": 499.6,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "857",
-          "codfilial": "2"
-        },
-        {
           "desc": "VODCA SMIRNOFF RED 998 ML",
           "qt": 6,
           "val": 167.4,
@@ -103472,6 +103463,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "2505",
+          "codfilial": "2"
+        },
+        {
+          "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "qt": 4,
+          "val": 499.6,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "857",
           "codfilial": "2"
         },
         {
@@ -103905,7 +103905,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "460000110",
@@ -103944,7 +103944,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "460000111",
@@ -103992,7 +103992,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000137",
@@ -104031,7 +104031,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "371000292",
@@ -104070,7 +104070,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "371000293",
@@ -104109,7 +104109,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "371000296",
@@ -104148,7 +104148,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "371000297",
@@ -104187,7 +104187,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "426000372",
@@ -104217,7 +104217,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "497000003",
@@ -104247,7 +104247,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "500000002",
@@ -104304,7 +104304,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "505000001",
@@ -104334,7 +104334,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "505000002",
@@ -104373,7 +104373,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "505000004",
@@ -104412,7 +104412,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003004",
@@ -104451,7 +104451,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003006",
@@ -104490,7 +104490,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000152",
@@ -104520,7 +104520,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "469000047",
@@ -104604,7 +104604,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "474000041",
@@ -104652,7 +104652,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000180",
@@ -104682,7 +104682,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "476000181",
@@ -104712,7 +104712,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "476000182",
@@ -104742,7 +104742,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "476000187",
@@ -104781,7 +104781,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000188",
@@ -104847,7 +104847,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000052",
@@ -104895,7 +104895,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "486000065",
@@ -105015,7 +105015,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000067",
@@ -105099,7 +105099,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "489000030",
@@ -105138,7 +105138,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "360000348",
@@ -105986,6 +105986,15 @@ const PEDIDOS_DATA = {
       "total": 4496.7,
       "itens": [
         {
+          "desc": "VILLA ROSA TINTO 750ML",
+          "qt": 24,
+          "val": 717.6,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "2614",
+          "codfilial": "4"
+        },
+        {
           "desc": "VINHO VILLA ROSA FRISANTE ROSE",
           "qt": 6,
           "val": 155.4,
@@ -106010,15 +106019,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "6744",
-          "codfilial": "4"
-        },
-        {
-          "desc": "VILLA ROSA TINTO 750ML",
-          "qt": 24,
-          "val": 717.6,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "2614",
           "codfilial": "4"
         },
         {
@@ -106143,7 +106143,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "460000103",
@@ -106191,7 +106191,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "460000104",
@@ -106230,7 +106230,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "460000105",
@@ -106278,7 +106278,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "460000106",
@@ -106317,7 +106317,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "460000107",
@@ -106356,7 +106356,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "354000604",
@@ -107381,21 +107381,21 @@ const PEDIDOS_DATA = {
       "total": 10206.0,
       "itens": [
         {
-          "desc": "WHISKY JIM BEAM BLACK CHERRY 1L",
-          "qt": 12,
-          "val": 1134.0,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "5273",
-          "codfilial": "4"
-        },
-        {
           "desc": "WHISKY JIM BEAM APPLE 1L",
           "qt": 12,
           "val": 1134.0,
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "3151",
+          "codfilial": "4"
+        },
+        {
+          "desc": "WHISKY JIM BEAM BLACK CHERRY 1L",
+          "qt": 12,
+          "val": 1134.0,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "5273",
           "codfilial": "4"
         },
         {
@@ -107886,7 +107886,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "371000288",
@@ -107916,7 +107916,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "467000044",
@@ -107955,7 +107955,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "498000007",
@@ -107994,7 +107994,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "498000008",
@@ -108105,7 +108105,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588002991",
@@ -108162,7 +108162,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588002998",
@@ -108192,7 +108192,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "469000046",
@@ -108285,7 +108285,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "477000051",
@@ -108351,7 +108351,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000059",
@@ -108462,7 +108462,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "354000601",
@@ -109010,15 +109010,6 @@ const PEDIDOS_DATA = {
           "codfilial": "1"
         },
         {
-          "desc": "PINATI NUTS ORIGINAL 20X30G",
-          "qt": 2,
-          "val": 77.6,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "5231",
-          "codfilial": "1"
-        },
-        {
           "desc": "PINATI NUTS COCO 16X4X25G",
           "qt": 1,
           "val": 88.8,
@@ -109043,6 +109034,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "5255",
+          "codfilial": "1"
+        },
+        {
+          "desc": "PINATI NUTS ORIGINAL 20X30G",
+          "qt": 2,
+          "val": 77.6,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "5231",
           "codfilial": "1"
         },
         {
@@ -109985,15 +109985,6 @@ const PEDIDOS_DATA = {
           "codfilial": "1"
         },
         {
-          "desc": "ST PIERRE ZERO LATA PINK LEMON  24X310ML",
-          "qt": 2,
-          "val": 233.76,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "4886",
-          "codfilial": "1"
-        },
-        {
           "desc": "ST PIERRE LATA RED MINT LT 24X270ML",
           "qt": 2,
           "val": 233.76,
@@ -110018,6 +110009,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "5392",
+          "codfilial": "1"
+        },
+        {
+          "desc": "ST PIERRE ZERO LATA PINK LEMON  24X310ML",
+          "qt": 2,
+          "val": 233.76,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "4886",
           "codfilial": "1"
         }
       ],
@@ -110304,7 +110304,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "371000287",
@@ -110334,7 +110334,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "475000030",
@@ -110373,7 +110373,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000169",
@@ -110412,7 +110412,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "498000006",
@@ -110442,7 +110442,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "500000001",
@@ -110490,7 +110490,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588002979",
@@ -110520,7 +110520,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588002983",
@@ -110595,7 +110595,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "588002984",
@@ -110652,7 +110652,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588002986",
@@ -110727,7 +110727,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "474000037",
@@ -110775,7 +110775,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "462000017",
@@ -110832,7 +110832,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000047",
@@ -110880,7 +110880,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000049",
@@ -110919,7 +110919,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000050",
@@ -110949,7 +110949,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "487000021",
@@ -110988,7 +110988,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "354000600",
@@ -111848,6 +111848,15 @@ const PEDIDOS_DATA = {
       "total": 1074.48,
       "itens": [
         {
+          "desc": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
+          "qt": 6,
+          "val": 136.98,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "1212",
+          "codfilial": "4"
+        },
+        {
           "desc": "AGUARDENTE OLD CESAR 88 965 ML",
           "qt": 12,
           "val": 154.8,
@@ -111863,15 +111872,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "56",
-          "codfilial": "4"
-        },
-        {
-          "desc": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
-          "qt": 6,
-          "val": 136.98,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "1212",
           "codfilial": "4"
         },
         {
@@ -111968,15 +111968,6 @@ const PEDIDOS_DATA = {
           "codfilial": "4"
         },
         {
-          "desc": "WHISKY CHANCELER 1L",
-          "qt": 6,
-          "val": 85.98,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "479",
-          "codfilial": "4"
-        },
-        {
           "desc": "GIN TANQUERAY  750 ML",
           "qt": 3,
           "val": 241.71,
@@ -112001,6 +111992,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "129",
+          "codfilial": "4"
+        },
+        {
+          "desc": "WHISKY CHANCELER 1L",
+          "qt": 6,
+          "val": 85.98,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "479",
           "codfilial": "4"
         },
         {
@@ -112097,15 +112097,6 @@ const PEDIDOS_DATA = {
           "codfilial": "4"
         },
         {
-          "desc": "WHISKY WHITE HORSE - 1L",
-          "qt": 3,
-          "val": 155.88,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "383",
-          "codfilial": "4"
-        },
-        {
           "desc": "WHISKY CHANCELER 1L",
           "qt": 18,
           "val": 257.94,
@@ -112131,6 +112122,15 @@ const PEDIDOS_DATA = {
           "cortado": false,
           "codprod": "738",
           "codfilial": "4"
+        },
+        {
+          "desc": "WHISKY WHITE HORSE - 1L",
+          "qt": 3,
+          "val": 155.88,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "383",
+          "codfilial": "4"
         }
       ],
       "tem_corte": false,
@@ -112153,15 +112153,6 @@ const PEDIDOS_DATA = {
       "obs": "",
       "total": 1186.79,
       "itens": [
-        {
-          "desc": "WHISKY JACK DANIELS APPLE 1L",
-          "qt": 2,
-          "val": 212.46,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "2851",
-          "codfilial": "4"
-        },
         {
           "desc": "CONHAQUE DOMECQ 1L",
           "qt": 12,
@@ -112187,6 +112178,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "479",
+          "codfilial": "4"
+        },
+        {
+          "desc": "WHISKY JACK DANIELS APPLE 1L",
+          "qt": 2,
+          "val": 212.46,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "2851",
           "codfilial": "4"
         },
         {
@@ -112248,7 +112248,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "391000200",
@@ -112296,7 +112296,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "391000202",
@@ -112326,7 +112326,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "475000027",
@@ -112356,7 +112356,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000361",
@@ -112413,7 +112413,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000135",
@@ -112443,7 +112443,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "433000137",
@@ -112473,7 +112473,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "469000045",
@@ -112530,7 +112530,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "470000032",
@@ -112560,7 +112560,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "360000338",
@@ -112802,21 +112802,21 @@ const PEDIDOS_DATA = {
       "total": 1607.94,
       "itens": [
         {
-          "desc": "WHISKY GENTLEMAN JACK 1L",
-          "qt": 6,
-          "val": 893.88,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "603",
-          "codfilial": "4"
-        },
-        {
           "desc": "VODKA BELVEDERE 700 ML",
           "qt": 6,
           "val": 714.06,
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "3771",
+          "codfilial": "4"
+        },
+        {
+          "desc": "WHISKY GENTLEMAN JACK 1L",
+          "qt": 6,
+          "val": 893.88,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "603",
           "codfilial": "4"
         }
       ],
@@ -113144,15 +113144,6 @@ const PEDIDOS_DATA = {
           "codfilial": "1"
         },
         {
-          "desc": "PINATI NUTS ZERO COCO 16X4X25G",
-          "qt": 4,
-          "val": 355.2,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "5254",
-          "codfilial": "1"
-        },
-        {
           "desc": "DP DADINHO ZERO ACUCAR 90G",
           "qt": 120,
           "val": 1076.4,
@@ -113177,6 +113168,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "5262",
+          "codfilial": "1"
+        },
+        {
+          "desc": "PINATI NUTS ZERO COCO 16X4X25G",
+          "qt": 4,
+          "val": 355.2,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "5254",
           "codfilial": "1"
         },
         {
@@ -113216,15 +113216,6 @@ const PEDIDOS_DATA = {
           "codfilial": "1"
         },
         {
-          "desc": "DP DADINHO BITZ AO LEITE 105G",
-          "qt": 120,
-          "val": 458.4,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "7356",
-          "codfilial": "1"
-        },
-        {
           "desc": "PINATI DB WHEY AVELA E LEITE 12X50G",
           "qt": 6,
           "val": 418.86,
@@ -113249,6 +113240,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "7354",
+          "codfilial": "1"
+        },
+        {
+          "desc": "DP DADINHO BITZ AO LEITE 105G",
+          "qt": 120,
+          "val": 458.4,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "7356",
           "codfilial": "1"
         }
       ],
@@ -113388,7 +113388,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000126",
@@ -113436,7 +113436,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000127",
@@ -113484,7 +113484,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000128",
@@ -113532,7 +113532,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000129",
@@ -113580,7 +113580,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "371000280",
@@ -113610,7 +113610,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "371000281",
@@ -113640,7 +113640,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "371000282",
@@ -113670,7 +113670,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "371000283",
@@ -113700,7 +113700,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "371000284",
@@ -113730,7 +113730,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "371000285",
@@ -113778,7 +113778,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "371000286",
@@ -113826,7 +113826,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "475000025",
@@ -113901,7 +113901,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588002953",
@@ -113976,7 +113976,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588002954",
@@ -114006,7 +114006,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588002956",
@@ -114045,7 +114045,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588002967",
@@ -114075,7 +114075,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588002969",
@@ -114105,7 +114105,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000129",
@@ -114171,7 +114171,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "463000043",
@@ -114201,7 +114201,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "477000045",
@@ -114231,7 +114231,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "354000593",
@@ -114671,15 +114671,6 @@ const PEDIDOS_DATA = {
           "codfilial": "4"
         },
         {
-          "desc": "SAKE AZUMA KIRIN SOFT 740ML",
-          "qt": 6,
-          "val": 133.62,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "2509",
-          "codfilial": "4"
-        },
-        {
           "desc": "LICOR STOCK KIWI 720 ML",
           "qt": 6,
           "val": 215.94,
@@ -114704,6 +114695,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "178",
+          "codfilial": "4"
+        },
+        {
+          "desc": "SAKE AZUMA KIRIN SOFT 740ML",
+          "qt": 6,
+          "val": 133.62,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "2509",
           "codfilial": "4"
         },
         {
@@ -114837,7 +114837,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000356",
@@ -114876,7 +114876,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "497000001",
@@ -114906,7 +114906,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588002938",
@@ -114945,7 +114945,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000126",
@@ -115002,7 +115002,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "477000044",
@@ -115041,7 +115041,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "360000334",
@@ -115352,21 +115352,21 @@ const PEDIDOS_DATA = {
       "total": 2728.2,
       "itens": [
         {
-          "desc": "ESPUM CASA PERINI BRUT 750ML",
-          "qt": 12,
-          "val": 464.4,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "664",
-          "codfilial": "4"
-        },
-        {
           "desc": "VINHO LATITUD 33 MALBEC  750 ML",
           "qt": 18,
           "val": 610.2,
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "3827",
+          "codfilial": "4"
+        },
+        {
+          "desc": "ESPUM CASA PERINI BRUT 750ML",
+          "qt": 12,
+          "val": 464.4,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "664",
           "codfilial": "4"
         },
         {
@@ -115437,7 +115437,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588002924",
@@ -115476,7 +115476,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "327009318",
@@ -116015,15 +116015,6 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
-          "desc": "RC ATUM SOLIDO OLEO 24X170G",
-          "qt": 2,
-          "val": 417.12,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "5586",
-          "codfilial": "2"
-        },
-        {
           "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
           "qt": 1,
           "val": 151.36,
@@ -116048,6 +116039,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "5585",
+          "codfilial": "2"
+        },
+        {
+          "desc": "RC ATUM SOLIDO OLEO 24X170G",
+          "qt": 2,
+          "val": 417.12,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "5586",
           "codfilial": "2"
         },
         {
@@ -116732,21 +116732,21 @@ const PEDIDOS_DATA = {
       "total": 8586.39,
       "itens": [
         {
-          "desc": "RC SARDINHA EM OLEO 50X125G",
-          "qt": 10,
-          "val": 1995.0,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "5579",
-          "codfilial": "2"
-        },
-        {
           "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
           "qt": 10,
           "val": 1995.0,
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "5580",
+          "codfilial": "2"
+        },
+        {
+          "desc": "RC SARDINHA EM OLEO 50X125G",
+          "qt": 10,
+          "val": 1995.0,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "5579",
           "codfilial": "2"
         },
         {
@@ -116831,6 +116831,15 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
+          "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "qt": 36,
+          "val": 421.2,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "7081",
+          "codfilial": "2"
+        },
+        {
           "desc": "MOVING JUICE PROTEIN LARANJA 12X300ML",
           "qt": 2,
           "val": 170.4,
@@ -116855,15 +116864,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "7097",
-          "codfilial": "2"
-        },
-        {
-          "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "qt": 36,
-          "val": 421.2,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "7081",
           "codfilial": "2"
         }
       ],
@@ -116957,6 +116957,15 @@ const PEDIDOS_DATA = {
       "total": 5308.2,
       "itens": [
         {
+          "desc": "VILLA ROSA BRANCO 750ML",
+          "qt": 18,
+          "val": 412.2,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "2613",
+          "codfilial": "4"
+        },
+        {
           "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
           "qt": 120,
           "val": 3948.0,
@@ -116972,15 +116981,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "3766",
-          "codfilial": "4"
-        },
-        {
-          "desc": "VILLA ROSA BRANCO 750ML",
-          "qt": 18,
-          "val": 412.2,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "2613",
           "codfilial": "4"
         }
       ],
@@ -117425,21 +117425,21 @@ const PEDIDOS_DATA = {
       "total": 2290.14,
       "itens": [
         {
-          "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "qt": 12,
-          "val": 394.8,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "663",
-          "codfilial": "4"
-        },
-        {
           "desc": "ESPUM MOSCATEL QUINTA DO MORGADO 660ML",
           "qt": 6,
           "val": 130.2,
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "7102",
+          "codfilial": "4"
+        },
+        {
+          "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 12,
+          "val": 394.8,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "663",
           "codfilial": "4"
         },
         {
@@ -117554,6 +117554,15 @@ const PEDIDOS_DATA = {
           "codfilial": "4"
         },
         {
+          "desc": "RUM MONTILLA OURO 1L",
+          "qt": 6,
+          "val": 122.7,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "178",
+          "codfilial": "4"
+        },
+        {
           "desc": "GIN ROCKS 1000ML",
           "qt": 6,
           "val": 135.0,
@@ -117578,15 +117587,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "69",
-          "codfilial": "4"
-        },
-        {
-          "desc": "RUM MONTILLA OURO 1L",
-          "qt": 6,
-          "val": 122.7,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "178",
           "codfilial": "4"
         },
         {
@@ -117726,7 +117726,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "317000112",
@@ -117783,7 +117783,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "317000113",
@@ -117840,7 +117840,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "317000114",
@@ -117897,7 +117897,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "317000118",
@@ -117954,7 +117954,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "317000119",
@@ -118011,7 +118011,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "317000120",
@@ -118059,7 +118059,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "317000122",
@@ -118107,7 +118107,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "119000114",
@@ -118137,7 +118137,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "371000273",
@@ -118185,7 +118185,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "371000274",
@@ -118260,7 +118260,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "371000275",
@@ -118317,7 +118317,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "470000029",
@@ -118428,7 +118428,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "474000032",
@@ -118476,7 +118476,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "360000325",
@@ -119075,6 +119075,15 @@ const PEDIDOS_DATA = {
           "codfilial": "1"
         },
         {
+          "desc": "PINATI NUTS BANANA 20X30G",
+          "qt": 2,
+          "val": 77.6,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "5240",
+          "codfilial": "1"
+        },
+        {
           "desc": "DP DADINHO BITZ AO LEITE 105G",
           "qt": 30,
           "val": 114.6,
@@ -119099,15 +119108,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "7354",
-          "codfilial": "1"
-        },
-        {
-          "desc": "PINATI NUTS BANANA 20X30G",
-          "qt": 2,
-          "val": 77.6,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "5240",
           "codfilial": "1"
         },
         {
@@ -119195,15 +119195,6 @@ const PEDIDOS_DATA = {
           "codfilial": "1"
         },
         {
-          "desc": "VODKA NATASHA 900ML",
-          "qt": 36,
-          "val": 588.96,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "418",
-          "codfilial": "1"
-        },
-        {
           "desc": "LICOR BALLENA MORANGO 750 ML",
           "qt": 6,
           "val": 786.0,
@@ -119228,6 +119219,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "1527",
+          "codfilial": "1"
+        },
+        {
+          "desc": "VODKA NATASHA 900ML",
+          "qt": 36,
+          "val": 588.96,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "418",
           "codfilial": "1"
         },
         {
@@ -119435,6 +119435,15 @@ const PEDIDOS_DATA = {
           "codfilial": "1"
         },
         {
+          "desc": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 12,
+          "val": 958.8,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "484",
+          "codfilial": "1"
+        },
+        {
           "desc": "LICOR BALLENA MORANGO 750 ML",
           "qt": 6,
           "val": 786.0,
@@ -119459,15 +119468,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "5034",
-          "codfilial": "1"
-        },
-        {
-          "desc": "WHISKY JIM BEAM WHITE 1L",
-          "qt": 12,
-          "val": 958.8,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "484",
           "codfilial": "1"
         }
       ],
@@ -119555,6 +119555,15 @@ const PEDIDOS_DATA = {
           "codfilial": "1"
         },
         {
+          "desc": "PINATI NUTS ORIGINAL 20X30G",
+          "qt": 2,
+          "val": 77.6,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "5231",
+          "codfilial": "1"
+        },
+        {
           "desc": "PINATI NUTS BANANA 16X4X30G",
           "qt": 1,
           "val": 88.8,
@@ -119579,15 +119588,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "5255",
-          "codfilial": "1"
-        },
-        {
-          "desc": "PINATI NUTS ORIGINAL 20X30G",
-          "qt": 2,
-          "val": 77.6,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "5231",
           "codfilial": "1"
         },
         {
@@ -119771,15 +119771,6 @@ const PEDIDOS_DATA = {
       "total": 540.6,
       "itens": [
         {
-          "desc": "RC ATUM RALADO NATURAL 24X140G",
-          "qt": 1,
-          "val": 141.6,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "5582",
-          "codfilial": "2"
-        },
-        {
           "desc": "RC SARDINHA EM OLEO 50X125G",
           "qt": 1,
           "val": 199.5,
@@ -119795,6 +119786,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "5580",
+          "codfilial": "2"
+        },
+        {
+          "desc": "RC ATUM RALADO NATURAL 24X140G",
+          "qt": 1,
+          "val": 141.6,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "5582",
           "codfilial": "2"
         }
       ],
@@ -119906,6 +119906,15 @@ const PEDIDOS_DATA = {
       "total": 828.24,
       "itens": [
         {
+          "desc": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
+          "qt": 1,
+          "val": 155.28,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "6334",
+          "codfilial": "4"
+        },
+        {
           "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
           "qt": 2,
           "val": 172.56,
@@ -119930,15 +119939,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "6259",
-          "codfilial": "4"
-        },
-        {
-          "desc": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
-          "qt": 1,
-          "val": 155.28,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "6334",
           "codfilial": "4"
         },
         {
@@ -120170,6 +120170,15 @@ const PEDIDOS_DATA = {
       "total": 450.49,
       "itens": [
         {
+          "desc": "PINATI DB WHEY BANANOFFE 12X50G",
+          "qt": 1,
+          "val": 80.55,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "5159",
+          "codfilial": "1"
+        },
+        {
           "desc": "RED BULL 24X250ML",
           "qt": 1,
           "val": 162.96,
@@ -120194,15 +120203,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "5165",
-          "codfilial": "1"
-        },
-        {
-          "desc": "PINATI DB WHEY BANANOFFE 12X50G",
-          "qt": 1,
-          "val": 80.55,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "5159",
           "codfilial": "1"
         }
       ],
@@ -120389,21 +120389,21 @@ const PEDIDOS_DATA = {
       "total": 585.0,
       "itens": [
         {
-          "desc": "VODCA SMIRNOFF RED 998 ML",
-          "qt": 4,
-          "val": 111.6,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "16",
-          "codfilial": "4"
-        },
-        {
           "desc": "CONHAQUE DREHER 900ML",
           "qt": 3,
           "val": 50.7,
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "290",
+          "codfilial": "4"
+        },
+        {
+          "desc": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 4,
+          "val": 111.6,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "16",
           "codfilial": "4"
         },
         {
@@ -120447,7 +120447,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "327009290",
@@ -120818,6 +120818,15 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
+          "desc": "WHISKY JIM BEAM APPLE 1L",
+          "qt": 3,
+          "val": 212.7,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "3151",
+          "codfilial": "2"
+        },
+        {
           "desc": "LICOR ESDIEGOZAMORA 43 + 2 COPO",
           "qt": 2,
           "val": 319.8,
@@ -120842,15 +120851,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "416",
-          "codfilial": "2"
-        },
-        {
-          "desc": "WHISKY JIM BEAM APPLE 1L",
-          "qt": 3,
-          "val": 212.7,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "3151",
           "codfilial": "2"
         },
         {
@@ -121041,7 +121041,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000117",
@@ -121071,7 +121071,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000118",
@@ -121110,7 +121110,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000119",
@@ -121149,7 +121149,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "360000321",
@@ -121314,7 +121314,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "119000106",
@@ -121344,7 +121344,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588002873",
@@ -121374,7 +121374,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "354000573",
@@ -121673,21 +121673,21 @@ const PEDIDOS_DATA = {
       "total": 2893.79,
       "itens": [
         {
-          "desc": "ST PIERRE ZERO AGUA DE COCO LT 24X310ML",
-          "qt": 1,
-          "val": 146.57,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "6156",
-          "codfilial": "1"
-        },
-        {
           "desc": "ST PIERRE VIDRO GINGER LN 12X275ML",
           "qt": 2,
           "val": 113.28,
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "3310",
+          "codfilial": "1"
+        },
+        {
+          "desc": "ST PIERRE ZERO AGUA DE COCO LT 24X310ML",
+          "qt": 1,
+          "val": 146.57,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "6156",
           "codfilial": "1"
         },
         {
@@ -121766,15 +121766,6 @@ const PEDIDOS_DATA = {
           "codfilial": "1"
         },
         {
-          "desc": "ST PIERRE LATA RED MINT LT 24X270ML",
-          "qt": 2,
-          "val": 216.48,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "3109",
-          "codfilial": "1"
-        },
-        {
           "desc": "ST PIERRE VIDRO GINGER LN 12X275ML",
           "qt": 3,
           "val": 169.92,
@@ -121799,6 +121790,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "2965",
+          "codfilial": "1"
+        },
+        {
+          "desc": "ST PIERRE LATA RED MINT LT 24X270ML",
+          "qt": 2,
+          "val": 216.48,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "3109",
           "codfilial": "1"
         },
         {
@@ -122079,7 +122079,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "474000021",
@@ -122136,7 +122136,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "360000313",
@@ -122474,6 +122474,15 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
+          "desc": "SMIRNOFF ICE GREEN APPLE (LONG) 24X275ML",
+          "qt": 1,
+          "val": 139.9,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "6288",
+          "codfilial": "2"
+        },
+        {
           "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
           "qt": 1,
           "val": 139.9,
@@ -122498,15 +122507,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "100",
-          "codfilial": "2"
-        },
-        {
-          "desc": "SMIRNOFF ICE GREEN APPLE (LONG) 24X275ML",
-          "qt": 1,
-          "val": 139.9,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "6288",
           "codfilial": "2"
         },
         {
@@ -122685,7 +122685,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588002832",
@@ -122733,7 +122733,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "371000250",
@@ -122828,21 +122828,21 @@ const PEDIDOS_DATA = {
       "total": 1517.76,
       "itens": [
         {
-          "desc": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
-          "qt": 10,
-          "val": 446.4,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "5167",
-          "codfilial": "1"
-        },
-        {
           "desc": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
           "qt": 20,
           "val": 892.8,
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "5165",
+          "codfilial": "1"
+        },
+        {
+          "desc": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
+          "qt": 10,
+          "val": 446.4,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "5167",
           "codfilial": "1"
         },
         {
@@ -122876,21 +122876,21 @@ const PEDIDOS_DATA = {
       "total": 535.68,
       "itens": [
         {
-          "desc": "PINATI SIMPLE WHEY PISTACHE 16X35G",
-          "qt": 10,
-          "val": 446.4,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "5166",
-          "codfilial": "1"
-        },
-        {
           "desc": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
           "qt": 2,
           "val": 89.28,
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "5165",
+          "codfilial": "1"
+        },
+        {
+          "desc": "PINATI SIMPLE WHEY PISTACHE 16X35G",
+          "qt": 10,
+          "val": 446.4,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "5166",
           "codfilial": "1"
         }
       ],
@@ -123440,6 +123440,15 @@ const PEDIDOS_DATA = {
       "total": 1177.2,
       "itens": [
         {
+          "desc": "SMIRNOFF ICE GREEN APPLE (LONG) 24X275ML",
+          "qt": 1,
+          "val": 139.9,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "6288",
+          "codfilial": "2"
+        },
+        {
           "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
           "qt": 1,
           "val": 139.9,
@@ -123464,15 +123473,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "40",
-          "codfilial": "2"
-        },
-        {
-          "desc": "SMIRNOFF ICE GREEN APPLE (LONG) 24X275ML",
-          "qt": 1,
-          "val": 139.9,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "6288",
           "codfilial": "2"
         },
         {
@@ -123804,7 +123804,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "119000093",
@@ -123834,7 +123834,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "155003710",
@@ -123944,15 +123944,6 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
-          "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "qt": 2,
-          "val": 159.8,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "2848",
-          "codfilial": "2"
-        },
-        {
           "desc": "ESPUMANTE ALUD ROSE 750ML",
           "qt": 6,
           "val": 179.4,
@@ -123977,6 +123968,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "3051",
+          "codfilial": "2"
+        },
+        {
+          "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "qt": 2,
+          "val": 159.8,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "2848",
           "codfilial": "2"
         },
         {
@@ -124061,6 +124061,15 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
+          "desc": "VINHO ARESTI CABINA 56 SAUV BLANC 750ML",
+          "qt": 2,
+          "val": 129.8,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "4241",
+          "codfilial": "2"
+        },
+        {
           "desc": "VINHO ARESTI TRISQUEL GRAN R SYRAH 750ML",
           "qt": 2,
           "val": 159.8,
@@ -124085,15 +124094,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "4245",
-          "codfilial": "2"
-        },
-        {
-          "desc": "VINHO ARESTI CABINA 56 SAUV BLANC 750ML",
-          "qt": 2,
-          "val": 129.8,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "4241",
           "codfilial": "2"
         },
         {
@@ -124314,7 +124314,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "542000193",
@@ -124640,15 +124640,6 @@ const PEDIDOS_DATA = {
       "total": 4373.4,
       "itens": [
         {
-          "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "qt": 60,
-          "val": 1974.0,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "663",
-          "codfilial": "4"
-        },
-        {
           "desc": "ESPUM CASA PERINI BRUT 750ML",
           "qt": 6,
           "val": 233.4,
@@ -124664,6 +124655,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "665",
+          "codfilial": "4"
+        },
+        {
+          "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 60,
+          "val": 1974.0,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "663",
           "codfilial": "4"
         },
         {
@@ -125018,6 +125018,15 @@ const PEDIDOS_DATA = {
       "total": 743.28,
       "itens": [
         {
+          "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "qt": 1,
+          "val": 94.68,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "7207",
+          "codfilial": "2"
+        },
+        {
           "desc": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
           "qt": 1,
           "val": 175.2,
@@ -125042,15 +125051,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "6255",
-          "codfilial": "2"
-        },
-        {
-          "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-          "qt": 1,
-          "val": 94.68,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "7207",
           "codfilial": "2"
         },
         {
@@ -125093,6 +125093,15 @@ const PEDIDOS_DATA = {
       "total": 1647.6,
       "itens": [
         {
+          "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 5,
+          "val": 473.4,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "6259",
+          "codfilial": "2"
+        },
+        {
           "desc": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
           "qt": 1,
           "val": 175.2,
@@ -125117,15 +125126,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "6334",
-          "codfilial": "2"
-        },
-        {
-          "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 5,
-          "val": 473.4,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "6259",
           "codfilial": "2"
         },
         {
@@ -125430,7 +125430,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "542000192",
@@ -125775,7 +125775,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "344000364",
@@ -126017,21 +126017,21 @@ const PEDIDOS_DATA = {
       "total": 954.96,
       "itens": [
         {
-          "desc": "VODCA SMIRNOFF RED 998 ML",
-          "qt": 12,
-          "val": 334.8,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "16",
-          "codfilial": "2"
-        },
-        {
           "desc": "RED BULL 24X250ML",
           "qt": 1,
           "val": 179.76,
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "3",
+          "codfilial": "2"
+        },
+        {
+          "desc": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 12,
+          "val": 334.8,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "16",
           "codfilial": "2"
         },
         {
@@ -126320,6 +126320,15 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
+          "desc": "WHISKY BALLANTINE S SUNSHINE 700ML",
+          "qt": 12,
+          "val": 706.8,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "4843",
+          "codfilial": "2"
+        },
+        {
           "desc": "WHISKY J WALKER BLACK LABEL 1L",
           "qt": 24,
           "val": 4077.6,
@@ -126344,15 +126353,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "16",
-          "codfilial": "2"
-        },
-        {
-          "desc": "WHISKY BALLANTINE S SUNSHINE 700ML",
-          "qt": 12,
-          "val": 706.8,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "4843",
           "codfilial": "2"
         },
         {
@@ -126504,7 +126504,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588002714",
@@ -126534,7 +126534,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "327009108",
@@ -126776,6 +126776,15 @@ const PEDIDOS_DATA = {
       "total": 2255.94,
       "itens": [
         {
+          "desc": "RUM BACARDI GOLD 980ML",
+          "qt": 6,
+          "val": 263.4,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "35",
+          "codfilial": "2"
+        },
+        {
           "desc": "CANTINA DA SERRA 1,5L",
           "qt": 36,
           "val": 330.84,
@@ -126791,15 +126800,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "40",
-          "codfilial": "2"
-        },
-        {
-          "desc": "RUM BACARDI GOLD 980ML",
-          "qt": 6,
-          "val": 263.4,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "35",
           "codfilial": "2"
         },
         {
@@ -127001,6 +127001,15 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
+          "desc": "RC ATUM RALADO OLEO 24X140G",
+          "qt": 1,
+          "val": 153.36,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "5583",
+          "codfilial": "2"
+        },
+        {
           "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
           "qt": 1,
           "val": 153.36,
@@ -127025,15 +127034,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "6565",
-          "codfilial": "2"
-        },
-        {
-          "desc": "RC ATUM RALADO OLEO 24X140G",
-          "qt": 1,
-          "val": 153.36,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "5583",
           "codfilial": "2"
         }
       ],
@@ -127107,7 +127107,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "450000220",
@@ -127127,6 +127127,15 @@ const PEDIDOS_DATA = {
       "total": 1284.96,
       "itens": [
         {
+          "desc": "VINHO TINTO QUINTA DO MORGADO 750ML",
+          "qt": 12,
+          "val": 152.76,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "3814",
+          "codfilial": "4"
+        },
+        {
           "desc": "GIN ROCKS WATERMELON 1000ML",
           "qt": 6,
           "val": 133.44,
@@ -127142,15 +127151,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "7081",
-          "codfilial": "4"
-        },
-        {
-          "desc": "VINHO TINTO QUINTA DO MORGADO 750ML",
-          "qt": 12,
-          "val": 152.76,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "3814",
           "codfilial": "4"
         },
         {
@@ -127440,7 +127440,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588002664",
@@ -127479,7 +127479,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "155003588",
@@ -127539,7 +127539,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "439000181",
@@ -127558,6 +127558,15 @@ const PEDIDOS_DATA = {
       "obs": "Data entrega: 05/06/26",
       "total": 1314.36,
       "itens": [
+        {
+          "desc": "APERITIVO CAMPARI 998ML",
+          "qt": 6,
+          "val": 329.4,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "447",
+          "codfilial": "2"
+        },
         {
           "desc": "VODCA SMIRNOFF RED 998 ML",
           "qt": 12,
@@ -127583,15 +127592,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "3",
-          "codfilial": "2"
-        },
-        {
-          "desc": "APERITIVO CAMPARI 998ML",
-          "qt": 6,
-          "val": 329.4,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "447",
           "codfilial": "2"
         },
         {
@@ -127635,7 +127635,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588002635",
@@ -127665,7 +127665,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "344000312",
@@ -127793,21 +127793,21 @@ const PEDIDOS_DATA = {
       "total": 1800.72,
       "itens": [
         {
-          "desc": "WHISKY JIM BEAM WHITE 1L",
-          "qt": 12,
-          "val": 1015.92,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "484",
-          "codfilial": "4"
-        },
-        {
           "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
           "qt": 24,
           "val": 784.8,
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "666",
+          "codfilial": "4"
+        },
+        {
+          "desc": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 12,
+          "val": 1015.92,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "484",
           "codfilial": "4"
         }
       ],
@@ -127831,6 +127831,15 @@ const PEDIDOS_DATA = {
       "obs": "ENTREGA AGENDADA PARA 01/06/2026 - HORARIO DAS 08 ÀS 15HS",
       "total": 5112.69,
       "itens": [
+        {
+          "desc": "MOVING BOOSTER LIMAO 24X310ML",
+          "qt": 5,
+          "val": 759.0,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "6253",
+          "codfilial": "4"
+        },
         {
           "desc": "WHISKY JIM BEAM WHITE 1L",
           "qt": 12,
@@ -127856,15 +127865,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "6254",
-          "codfilial": "4"
-        },
-        {
-          "desc": "MOVING BOOSTER LIMAO 24X310ML",
-          "qt": 5,
-          "val": 759.0,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "6253",
           "codfilial": "4"
         },
         {
@@ -128114,6 +128114,15 @@ const PEDIDOS_DATA = {
       "total": 52323.88,
       "itens": [
         {
+          "desc": "SAQUE FUJI SECO 740ML",
+          "qt": 30,
+          "val": 621.3,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "4804",
+          "codfilial": "1"
+        },
+        {
           "desc": "WHISKY DEWARS 15 YO 750ML",
           "qt": 18,
           "val": 3659.17,
@@ -128138,15 +128147,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "5032",
-          "codfilial": "1"
-        },
-        {
-          "desc": "SAQUE FUJI SECO 740ML",
-          "qt": 30,
-          "val": 621.3,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "4804",
           "codfilial": "1"
         },
         {
@@ -128213,6 +128213,15 @@ const PEDIDOS_DATA = {
           "codfilial": "1"
         },
         {
+          "desc": "EASY BOOZE VIDRO 12X275ML RED MINT",
+          "qt": 10,
+          "val": 742.7,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "2971",
+          "codfilial": "1"
+        },
+        {
           "desc": "EASY BOOZE VIDRO 12X275ML GINGER",
           "qt": 6,
           "val": 445.62,
@@ -128237,15 +128246,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "4792",
-          "codfilial": "1"
-        },
-        {
-          "desc": "EASY BOOZE VIDRO 12X275ML RED MINT",
-          "qt": 10,
-          "val": 742.7,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "2971",
           "codfilial": "1"
         },
         {
@@ -128378,6 +128378,15 @@ const PEDIDOS_DATA = {
           "codfilial": "1"
         },
         {
+          "desc": "PINATI NUTS ORIGINAL 16X4X30G",
+          "qt": 1,
+          "val": 88.8,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "5265",
+          "codfilial": "1"
+        },
+        {
           "desc": "PINATI NUTS BANANA 16X4X30G",
           "qt": 1,
           "val": 88.8,
@@ -128402,15 +128411,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "5254",
-          "codfilial": "1"
-        },
-        {
-          "desc": "PINATI NUTS ORIGINAL 16X4X30G",
-          "qt": 1,
-          "val": 88.8,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "5265",
           "codfilial": "1"
         },
         {
@@ -128607,7 +128607,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "275000528",
@@ -128697,7 +128697,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588002619",
@@ -128727,7 +128727,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "354000500",
@@ -128963,6 +128963,15 @@ const PEDIDOS_DATA = {
       "total": 8597.46,
       "itens": [
         {
+          "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "qt": 6,
+          "val": 335.94,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "2848",
+          "codfilial": "4"
+        },
+        {
           "desc": "VINHO ADELE ROSE 750ML",
           "qt": 18,
           "val": 1009.8,
@@ -128987,15 +128996,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "4925",
-          "codfilial": "4"
-        },
-        {
-          "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "qt": 6,
-          "val": 335.94,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "2848",
           "codfilial": "4"
         },
         {
@@ -129095,6 +129095,15 @@ const PEDIDOS_DATA = {
           "codfilial": "4"
         },
         {
+          "desc": "WHISKY JIM BEAM BLACK CHERRY 1L",
+          "qt": 12,
+          "val": 1015.92,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "5273",
+          "codfilial": "4"
+        },
+        {
           "desc": "ESPUM CASA PERINI PROSECCO 750ML",
           "qt": 12,
           "val": 392.4,
@@ -129119,15 +129128,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "663",
-          "codfilial": "4"
-        },
-        {
-          "desc": "WHISKY JIM BEAM BLACK CHERRY 1L",
-          "qt": 12,
-          "val": 1015.92,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "5273",
           "codfilial": "4"
         },
         {
@@ -129342,7 +129342,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "439000174",
@@ -129612,7 +129612,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "327008948",
@@ -129915,7 +129915,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "588002559",
@@ -129945,7 +129945,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "439000159",
@@ -129975,7 +129975,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "542000186",
@@ -130070,21 +130070,21 @@ const PEDIDOS_DATA = {
       "total": 963.36,
       "itens": [
         {
-          "desc": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
-          "qt": 4,
-          "val": 178.56,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "5165",
-          "codfilial": "1"
-        },
-        {
           "desc": "NAVEIA BARISTA 12X1L",
           "qt": 2,
           "val": 296.4,
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "7389",
+          "codfilial": "1"
+        },
+        {
+          "desc": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "qt": 4,
+          "val": 178.56,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "5165",
           "codfilial": "1"
         },
         {
@@ -130137,7 +130137,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "439000149",
@@ -130167,7 +130167,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "275000494",
@@ -130197,7 +130197,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "438000070",
@@ -130236,7 +130236,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "438000071",
@@ -130275,7 +130275,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "362000064",
@@ -130467,7 +130467,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588002511",
@@ -130497,7 +130497,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "362000059",
@@ -130635,7 +130635,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "344000212",
@@ -130704,7 +130704,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "588002482",
@@ -130743,7 +130743,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "362000050",
@@ -130890,7 +130890,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "275000471",
@@ -130929,7 +130929,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "VOLTOU"
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "588002454",
@@ -130986,7 +130986,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588002440",
@@ -131079,7 +131079,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "156003294",
@@ -131109,7 +131109,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "362000043",
@@ -131205,7 +131205,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "412001212",
@@ -131279,6 +131279,15 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
+          "desc": "VILLA ROSA TINTO ESCOLHA 750ML",
+          "qt": 4,
+          "val": 119.6,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "3024",
+          "codfilial": "2"
+        },
+        {
           "desc": "VINHO ADEGA DA SERRA TINTO 750ML",
           "qt": 6,
           "val": 179.4,
@@ -131303,15 +131312,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "3874",
-          "codfilial": "2"
-        },
-        {
-          "desc": "VILLA ROSA TINTO ESCOLHA 750ML",
-          "qt": 4,
-          "val": 119.6,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "3024",
           "codfilial": "2"
         },
         {
@@ -131451,7 +131451,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "344000139",
@@ -131690,6 +131690,53 @@ const PEDIDOS_DATA = {
           "qtfalta": 1.0,
           "cortado": true,
           "codprod": "4488",
+          "codfilial": "2"
+        }
+      ],
+      "tem_corte": true
+    },
+    {
+      "numped": "144001736",
+      "numnota": "417113",
+      "data": "30/07/2026",
+      "data_ord": "2026-07-30",
+      "nome": "DIOGO RAPOSO - OFF TRADE",
+      "cliente": "TANIA RIBEIRO MARQUES PEREIRA 96295139787",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Item com desconto acima do permitido :3433",
+      "obs": "",
+      "total": 0.0,
+      "itens": [
+        {
+          "desc": "SMIRNOFF RED PET 1750 ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 2.0,
+          "cortado": true,
+          "codprod": "3433",
+          "codfilial": "2"
+        },
+        {
+          "desc": "RED BULL 24X250ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true,
+          "codprod": "3",
+          "codfilial": "2"
+        },
+        {
+          "desc": "APERITIVO APEROL 750 ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true,
+          "codprod": "644",
           "codfilial": "2"
         }
       ],
@@ -133095,15 +133142,6 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
-          "desc": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 24.0,
-          "cortado": true,
-          "codprod": "6744",
-          "codfilial": "2"
-        },
-        {
           "desc": "ST PIERRE VIDRO RED MINT LN 275X12",
           "qt": 0,
           "val": 0.0,
@@ -133128,6 +133166,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 24.0,
           "cortado": true,
           "codprod": "3814",
+          "codfilial": "2"
+        },
+        {
+          "desc": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 24.0,
+          "cortado": true,
+          "codprod": "6744",
           "codfilial": "2"
         }
       ],
@@ -134862,21 +134909,21 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "RC SARDINHA EM OLEO 50X125G",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 5.0,
-          "cortado": true,
-          "codprod": "5579",
-          "codfilial": "2"
-        },
-        {
           "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
           "qt": 0,
           "val": 0.0,
           "qtfalta": 3.0,
           "cortado": true,
           "codprod": "5580",
+          "codfilial": "2"
+        },
+        {
+          "desc": "RC SARDINHA EM OLEO 50X125G",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 5.0,
+          "cortado": true,
+          "codprod": "5579",
           "codfilial": "2"
         },
         {
@@ -135852,15 +135899,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "cortado": true,
-          "codprod": "6259",
-          "codfilial": "2"
-        },
-        {
           "desc": "4 PACK RED BULL ZERO",
           "qt": 0,
           "val": 0.0,
@@ -135876,6 +135914,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 1.0,
           "cortado": true,
           "codprod": "7207",
+          "codfilial": "2"
+        },
+        {
+          "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true,
+          "codprod": "6259",
           "codfilial": "2"
         },
         {
@@ -136505,15 +136552,6 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
-          "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "cortado": true,
-          "codprod": "6255",
-          "codfilial": "2"
-        },
-        {
           "desc": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
           "qt": 0,
           "val": 0.0,
@@ -136538,6 +136576,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 1.0,
           "cortado": true,
           "codprod": "7207",
+          "codfilial": "2"
+        },
+        {
+          "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true,
+          "codprod": "6255",
           "codfilial": "2"
         },
         {
@@ -136709,6 +136756,15 @@ const PEDIDOS_DATA = {
           "codfilial": "1"
         },
         {
+          "desc": "PINATI NUTS ORIGINAL 20X30G",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true,
+          "codprod": "5231",
+          "codfilial": "1"
+        },
+        {
           "desc": "PINATI DB WHEY COOKIES AND CREAM 12X50G",
           "qt": 0,
           "val": 0.0,
@@ -136733,15 +136789,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 1.0,
           "cortado": true,
           "codprod": "5241",
-          "codfilial": "1"
-        },
-        {
-          "desc": "PINATI NUTS ORIGINAL 20X30G",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "cortado": true,
-          "codprod": "5231",
           "codfilial": "1"
         },
         {
@@ -137050,6 +137097,15 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
+          "desc": "CACHACA TATUZINHO PET 750 ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 6.0,
+          "cortado": true,
+          "codprod": "4677",
+          "codfilial": "2"
+        },
+        {
           "desc": "COMARY MELFORT COQUETEL DE MEL 1L",
           "qt": 0,
           "val": 0.0,
@@ -137065,15 +137121,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 12.0,
           "cortado": true,
           "codprod": "64",
-          "codfilial": "2"
-        },
-        {
-          "desc": "CACHACA TATUZINHO PET 750 ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 6.0,
-          "cortado": true,
-          "codprod": "4677",
           "codfilial": "2"
         }
       ],
@@ -138798,6 +138845,15 @@ const PEDIDOS_DATA = {
           "codfilial": "1"
         },
         {
+          "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true,
+          "codprod": "3764",
+          "codfilial": "1"
+        },
+        {
           "desc": "VINHO LATITUD 33 CHARDONNAY 750 ML",
           "qt": 0,
           "val": 0.0,
@@ -138822,15 +138878,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 1.0,
           "cortado": true,
           "codprod": "3675",
-          "codfilial": "1"
-        },
-        {
-          "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "cortado": true,
-          "codprod": "3764",
           "codfilial": "1"
         },
         {
@@ -139123,6 +139170,15 @@ const PEDIDOS_DATA = {
           "codfilial": "4"
         },
         {
+          "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 3.0,
+          "cortado": true,
+          "codprod": "6259",
+          "codfilial": "4"
+        },
+        {
           "desc": "CHANDON PASSION ON ICE 750 ML",
           "qt": 0,
           "val": 0.0,
@@ -139138,15 +139194,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 18.0,
           "cortado": true,
           "codprod": "2613",
-          "codfilial": "4"
-        },
-        {
-          "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 3.0,
-          "cortado": true,
-          "codprod": "6259",
           "codfilial": "4"
         },
         {
@@ -139289,21 +139336,21 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "WHISKY JIM BEAM HONEY 1L",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 12.0,
-          "cortado": true,
-          "codprod": "1526",
-          "codfilial": "4"
-        },
-        {
           "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
           "qt": 0,
           "val": 0.0,
           "qtfalta": 60.0,
           "cortado": true,
           "codprod": "663",
+          "codfilial": "4"
+        },
+        {
+          "desc": "WHISKY JIM BEAM HONEY 1L",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 12.0,
+          "cortado": true,
+          "codprod": "1526",
           "codfilial": "4"
         },
         {
@@ -139576,6 +139623,15 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
+          "desc": "VILLA ROSA BRANCO 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 6.0,
+          "cortado": true,
+          "codprod": "2613",
+          "codfilial": "4"
+        },
+        {
           "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
           "qt": 0,
           "val": 0.0,
@@ -139591,15 +139647,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 6.0,
           "cortado": true,
           "codprod": "3766",
-          "codfilial": "4"
-        },
-        {
-          "desc": "VILLA ROSA BRANCO 750ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 6.0,
-          "cortado": true,
-          "codprod": "2613",
           "codfilial": "4"
         }
       ],
@@ -140228,6 +140275,15 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
+          "desc": "HUMB. CANALE DENARIO RESERVA CAB. FRANC",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true,
+          "codprod": "2898",
+          "codfilial": "2"
+        },
+        {
           "desc": "CERRO DE PEDRA LARANJA JOVEM 750ML",
           "qt": 0,
           "val": 0.0,
@@ -140243,15 +140299,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 1.0,
           "cortado": true,
           "codprod": "6291",
-          "codfilial": "2"
-        },
-        {
-          "desc": "HUMB. CANALE DENARIO RESERVA CAB. FRANC",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "cortado": true,
-          "codprod": "2898",
           "codfilial": "2"
         },
         {
@@ -140964,6 +141011,15 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
+          "desc": "COQUETEL BANANINHA REGGIANI 950ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 2.0,
+          "cortado": true,
+          "codprod": "2089",
+          "codfilial": "2"
+        },
+        {
           "desc": "WHISKY BALLANTINE S FINEST 1L",
           "qt": 0,
           "val": 0.0,
@@ -140988,15 +141044,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 2.0,
           "cortado": true,
           "codprod": "129",
-          "codfilial": "2"
-        },
-        {
-          "desc": "COQUETEL BANANINHA REGGIANI 950ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 2.0,
-          "cortado": true,
-          "codprod": "2089",
           "codfilial": "2"
         }
       ],
@@ -141315,15 +141362,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "CHANDON RESERVE BRUT ROSE 750ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 6.0,
-          "cortado": true,
-          "codprod": "3759",
-          "codfilial": "2"
-        },
-        {
           "desc": "ESPUMANTE ARESTI CHARDONNAY 187,5ML",
           "qt": 0,
           "val": 0.0,
@@ -141348,6 +141386,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 6.0,
           "cortado": true,
           "codprod": "3764",
+          "codfilial": "2"
+        },
+        {
+          "desc": "CHANDON RESERVE BRUT ROSE 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 6.0,
+          "cortado": true,
+          "codprod": "3759",
           "codfilial": "2"
         },
         {
@@ -141694,6 +141741,15 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
+          "desc": "NECTAR MISTO UVA E PERA 12X1000ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true,
+          "codprod": "5992",
+          "codfilial": "2"
+        },
+        {
           "desc": "PINATI DB WHEY AVELA E LEITE 12X50G",
           "qt": 0,
           "val": 0.0,
@@ -141718,15 +141774,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 1.0,
           "cortado": true,
           "codprod": "5990",
-          "codfilial": "2"
-        },
-        {
-          "desc": "NECTAR MISTO UVA E PERA 12X1000ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "cortado": true,
-          "codprod": "5992",
           "codfilial": "2"
         },
         {
@@ -141883,21 +141930,21 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
-          "desc": "MOVING JUICE PROTEIN UVA 12X300ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "cortado": true,
-          "codprod": "7206",
-          "codfilial": "2"
-        },
-        {
           "desc": "AGUA MINALBA C/ GAS PREMIUM 12X300ML",
           "qt": 0,
           "val": 0.0,
           "qtfalta": 1.0,
           "cortado": true,
           "codprod": "3504",
+          "codfilial": "2"
+        },
+        {
+          "desc": "MOVING JUICE PROTEIN UVA 12X300ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true,
+          "codprod": "7206",
           "codfilial": "2"
         },
         {
@@ -142293,15 +142340,6 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
-          "desc": "VINHO CAVAS DE ORO CABERNET SAUV 750ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 3.0,
-          "cortado": true,
-          "codprod": "4574",
-          "codfilial": "2"
-        },
-        {
           "desc": "VINHO CAVAS DE ORO BLEND  ROSADO 750ML",
           "qt": 0,
           "val": 0.0,
@@ -142326,6 +142364,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 3.0,
           "cortado": true,
           "codprod": "4573",
+          "codfilial": "2"
+        },
+        {
+          "desc": "VINHO CAVAS DE ORO CABERNET SAUV 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 3.0,
+          "cortado": true,
+          "codprod": "4574",
           "codfilial": "2"
         },
         {
@@ -142437,6 +142484,15 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
+          "desc": "VINHO GRAVEDAD CAB. SAUV.",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 6.0,
+          "cortado": true,
+          "codprod": "2925",
+          "codfilial": "2"
+        },
+        {
           "desc": "VILLA ROSA BRANCO 750ML",
           "qt": 0,
           "val": 0.0,
@@ -142461,15 +142517,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 6.0,
           "cortado": true,
           "codprod": "2614",
-          "codfilial": "2"
-        },
-        {
-          "desc": "VINHO GRAVEDAD CAB. SAUV.",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 6.0,
-          "cortado": true,
-          "codprod": "2925",
           "codfilial": "2"
         },
         {
@@ -142829,6 +142876,15 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
+          "desc": "VODKA ORLOFF 1L",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 12.0,
+          "cortado": true,
+          "codprod": "235",
+          "codfilial": "4"
+        },
+        {
           "desc": "RUM MONTILLA CARTA BRANCA 1L",
           "qt": 0,
           "val": 0.0,
@@ -142853,15 +142909,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 24.0,
           "cortado": true,
           "codprod": "38",
-          "codfilial": "4"
-        },
-        {
-          "desc": "VODKA ORLOFF 1L",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 12.0,
-          "cortado": true,
-          "codprod": "235",
           "codfilial": "4"
         },
         {
@@ -143757,6 +143804,15 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
+          "desc": "VEJA BAN ANTIBAC GAT 30% DESC 12X500ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true,
+          "codprod": "7048",
+          "codfilial": "2"
+        },
+        {
           "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
           "qt": 0,
           "val": 0.0,
@@ -143781,15 +143837,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 1.0,
           "cortado": true,
           "codprod": "5208",
-          "codfilial": "2"
-        },
-        {
-          "desc": "VEJA BAN ANTIBAC GAT 30% DESC 12X500ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "cortado": true,
-          "codprod": "7048",
           "codfilial": "2"
         },
         {
@@ -143896,6 +143943,15 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
+          "desc": "BLACK LABEL 50 ML CX/12",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true,
+          "codprod": "1837",
+          "codfilial": "2"
+        },
+        {
           "desc": "VODCA SMIRNOFF RED 998 ML",
           "qt": 0,
           "val": 0.0,
@@ -143920,15 +143976,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 1.0,
           "cortado": true,
           "codprod": "2851",
-          "codfilial": "2"
-        },
-        {
-          "desc": "BLACK LABEL 50 ML CX/12",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "cortado": true,
-          "codprod": "1837",
           "codfilial": "2"
         }
       ],
@@ -144033,15 +144080,6 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
-          "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 6.0,
-          "cortado": true,
-          "codprod": "3764",
-          "codfilial": "2"
-        },
-        {
           "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
           "qt": 0,
           "val": 0.0,
@@ -144066,6 +144104,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 2.0,
           "cortado": true,
           "codprod": "7766",
+          "codfilial": "2"
+        },
+        {
+          "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 6.0,
+          "cortado": true,
+          "codprod": "3764",
           "codfilial": "2"
         },
         {
@@ -144235,6 +144282,15 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
+          "desc": "GIN TANQUERAY  750 ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 2.0,
+          "cortado": true,
+          "codprod": "266",
+          "codfilial": "2"
+        },
+        {
           "desc": "VODKA CIROC 750 ML",
           "qt": 0,
           "val": 0.0,
@@ -144259,15 +144315,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 2.0,
           "cortado": true,
           "codprod": "18",
-          "codfilial": "2"
-        },
-        {
-          "desc": "GIN TANQUERAY  750 ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 2.0,
-          "cortado": true,
-          "codprod": "266",
           "codfilial": "2"
         }
       ],
@@ -144441,15 +144488,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "RED BULL SUGAR FREE 24X250ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "cortado": true,
-          "codprod": "315",
-          "codfilial": "2"
-        },
-        {
           "desc": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
           "qt": 0,
           "val": 0.0,
@@ -144474,6 +144512,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 1.0,
           "cortado": true,
           "codprod": "3065",
+          "codfilial": "2"
+        },
+        {
+          "desc": "RED BULL SUGAR FREE 24X250ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true,
+          "codprod": "315",
           "codfilial": "2"
         }
       ],
@@ -144629,6 +144676,15 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
+          "desc": "RUM BACARDI SUPERIOR 980ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 120.0,
+          "cortado": true,
+          "codprod": "34",
+          "codfilial": "1"
+        },
+        {
           "desc": "MARTINI ROSSO 750 ML",
           "qt": 0,
           "val": 0.0,
@@ -144644,15 +144700,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 1.0,
           "cortado": true,
           "codprod": "504",
-          "codfilial": "1"
-        },
-        {
-          "desc": "RUM BACARDI SUPERIOR 980ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 120.0,
-          "cortado": true,
-          "codprod": "34",
           "codfilial": "1"
         },
         {
@@ -144768,21 +144815,21 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "CANTINA DA SERRA 1,5L",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 36.0,
-          "cortado": true,
-          "codprod": "1518",
-          "codfilial": "2"
-        },
-        {
           "desc": "AMARULA C LIQUEUR 750 ML",
           "qt": 0,
           "val": 0.0,
           "qtfalta": 1.0,
           "cortado": true,
           "codprod": "40",
+          "codfilial": "2"
+        },
+        {
+          "desc": "CANTINA DA SERRA 1,5L",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 36.0,
+          "cortado": true,
+          "codprod": "1518",
           "codfilial": "2"
         },
         {
@@ -144869,6 +144916,15 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
+          "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 2.0,
+          "cortado": true,
+          "codprod": "7081",
+          "codfilial": "2"
+        },
+        {
           "desc": "ESPUM MOSCATEL QUINTA DO MORGADO 660ML",
           "qt": 0,
           "val": 0.0,
@@ -144884,15 +144940,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 1.0,
           "cortado": true,
           "codprod": "6571",
-          "codfilial": "2"
-        },
-        {
-          "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 2.0,
-          "cortado": true,
-          "codprod": "7081",
           "codfilial": "2"
         },
         {
@@ -144934,6 +144981,15 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
+          "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 5.0,
+          "cortado": true,
+          "codprod": "7018",
+          "codfilial": "2"
+        },
+        {
           "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
           "qt": 0,
           "val": 0.0,
@@ -144949,15 +145005,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 64.0,
           "cortado": true,
           "codprod": "7019",
-          "codfilial": "2"
-        },
-        {
-          "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 5.0,
-          "cortado": true,
-          "codprod": "7018",
           "codfilial": "2"
         },
         {
@@ -145308,6 +145355,15 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
+          "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 4.0,
+          "cortado": true,
+          "codprod": "7765",
+          "codfilial": "2"
+        },
+        {
           "desc": "GIN INVICTUS MELANCIA 900ML",
           "qt": 0,
           "val": 0.0,
@@ -145332,15 +145388,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 6.0,
           "cortado": true,
           "codprod": "4009",
-          "codfilial": "2"
-        },
-        {
-          "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 4.0,
-          "cortado": true,
-          "codprod": "7765",
           "codfilial": "2"
         },
         {
@@ -145436,6 +145483,15 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
+          "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "6255",
+          "codfilial": "2"
+        },
+        {
           "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
           "qt": 0,
           "val": 0.0,
@@ -145451,15 +145507,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "6259",
-          "codfilial": "2"
-        },
-        {
-          "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "6255",
           "codfilial": "2"
         },
         {
@@ -145593,6 +145640,15 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
+          "desc": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true,
+          "codprod": "4569",
+          "codfilial": "4"
+        },
+        {
           "desc": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
           "qt": 0,
           "val": 0.0,
@@ -145617,15 +145673,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 2.0,
           "cortado": true,
           "codprod": "902",
-          "codfilial": "4"
-        },
-        {
-          "desc": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "cortado": true,
-          "codprod": "4569",
           "codfilial": "4"
         },
         {
@@ -146118,6 +146165,15 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
+          "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 36.0,
+          "cortado": true,
+          "codprod": "7081",
+          "codfilial": "2"
+        },
+        {
           "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
           "qt": 0,
           "val": 0.0,
@@ -146142,15 +146198,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 24.0,
           "cortado": true,
           "codprod": "7095",
-          "codfilial": "2"
-        },
-        {
-          "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 36.0,
-          "cortado": true,
-          "codprod": "7081",
           "codfilial": "2"
         }
       ],
@@ -146192,6 +146239,15 @@ const PEDIDOS_DATA = {
           "codfilial": "4"
         },
         {
+          "desc": "GIN ROCKS STRAWBERRY 1000ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 6.0,
+          "cortado": true,
+          "codprod": "3642",
+          "codfilial": "4"
+        },
+        {
           "desc": "IMPERADOR 900ML",
           "qt": 0,
           "val": 0.0,
@@ -146207,15 +146263,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 6.0,
           "cortado": true,
           "codprod": "663",
-          "codfilial": "4"
-        },
-        {
-          "desc": "GIN ROCKS STRAWBERRY 1000ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 6.0,
-          "cortado": true,
-          "codprod": "3642",
           "codfilial": "4"
         },
         {
@@ -146549,6 +146596,15 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
+          "desc": "WHISKY JACK DANIELS APPLE 1L",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 2.0,
+          "cortado": true,
+          "codprod": "2851",
+          "codfilial": "2"
+        },
+        {
           "desc": "CHANDON RESERVE BRUT ROSE 750ML",
           "qt": 0,
           "val": 0.0,
@@ -146573,15 +146629,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 12.0,
           "cortado": true,
           "codprod": "2089",
-          "codfilial": "2"
-        },
-        {
-          "desc": "WHISKY JACK DANIELS APPLE 1L",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 2.0,
-          "cortado": true,
-          "codprod": "2851",
           "codfilial": "2"
         },
         {
@@ -146661,21 +146708,21 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "AGUARDENTE OLD CESAR 88 965 ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 12.0,
-          "cortado": true,
-          "codprod": "71",
-          "codfilial": "4"
-        },
-        {
           "desc": "CONHAQUE DOMUS 900ML",
           "qt": 0,
           "val": 0.0,
           "qtfalta": 6.0,
           "cortado": true,
           "codprod": "3919",
+          "codfilial": "4"
+        },
+        {
+          "desc": "AGUARDENTE OLD CESAR 88 965 ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 12.0,
+          "cortado": true,
+          "codprod": "71",
           "codfilial": "4"
         },
         {
@@ -146861,6 +146908,15 @@ const PEDIDOS_DATA = {
           "codfilial": "4"
         },
         {
+          "desc": "WHISKY JACK DANIELS FIRE 1L",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 2.0,
+          "cortado": true,
+          "codprod": "2388",
+          "codfilial": "4"
+        },
+        {
           "desc": "RUM MALIBU 750ML",
           "qt": 0,
           "val": 0.0,
@@ -146885,15 +146941,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 12.0,
           "cortado": true,
           "codprod": "479",
-          "codfilial": "4"
-        },
-        {
-          "desc": "WHISKY JACK DANIELS FIRE 1L",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 2.0,
-          "cortado": true,
-          "codprod": "2388",
           "codfilial": "4"
         }
       ],
@@ -147114,6 +147161,15 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
+          "desc": "SMIRNOFF ICE TROPICAL (LONG) 24X275ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true,
+          "codprod": "6289",
+          "codfilial": "2"
+        },
+        {
           "desc": "LICOR CAN FIREBALL CX C/ 6X50ML",
           "qt": 0,
           "val": 0.0,
@@ -147138,15 +147194,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 1.0,
           "cortado": true,
           "codprod": "1837",
-          "codfilial": "2"
-        },
-        {
-          "desc": "SMIRNOFF ICE TROPICAL (LONG) 24X275ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "cortado": true,
-          "codprod": "6289",
           "codfilial": "2"
         },
         {
@@ -147188,6 +147235,15 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
+          "desc": "TEQUILA J CUERVO SILVER 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true,
+          "codprod": "417",
+          "codfilial": "2"
+        },
+        {
           "desc": "LIQUEUR AMARULA RASBERRY 750 ML",
           "qt": 0,
           "val": 0.0,
@@ -147212,15 +147268,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 3.0,
           "cortado": true,
           "codprod": "416",
-          "codfilial": "2"
-        },
-        {
-          "desc": "TEQUILA J CUERVO SILVER 750ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "cortado": true,
-          "codprod": "417",
           "codfilial": "2"
         },
         {
@@ -147468,21 +147515,21 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 2.0,
-          "cortado": true,
-          "codprod": "7019",
-          "codfilial": "2"
-        },
-        {
           "desc": "PINATI NUTS COCO 20X30G",
           "qt": 0,
           "val": 0.0,
           "qtfalta": 1.0,
           "cortado": true,
           "codprod": "5241",
+          "codfilial": "2"
+        },
+        {
+          "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 2.0,
+          "cortado": true,
+          "codprod": "7019",
           "codfilial": "2"
         },
         {
@@ -147726,6 +147773,15 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
+          "desc": "4 PACK RED BULL 250ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 2.0,
+          "cortado": true,
+          "codprod": "997",
+          "codfilial": "2"
+        },
+        {
           "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
           "qt": 0,
           "val": 0.0,
@@ -147750,15 +147806,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 2.0,
           "cortado": true,
           "codprod": "2699",
-          "codfilial": "2"
-        },
-        {
-          "desc": "4 PACK RED BULL 250ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 2.0,
-          "cortado": true,
-          "codprod": "997",
           "codfilial": "2"
         }
       ],
@@ -148076,6 +148123,15 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
+          "desc": "4 PACK RED BULL MELANCIA",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true,
+          "codprod": "2841",
+          "codfilial": "2"
+        },
+        {
           "desc": "AGUA NA LATA C/ GAS 12X310ML",
           "qt": 0,
           "val": 0.0,
@@ -148100,15 +148156,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 1.0,
           "cortado": true,
           "codprod": "2699",
-          "codfilial": "2"
-        },
-        {
-          "desc": "4 PACK RED BULL MELANCIA",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "cortado": true,
-          "codprod": "2841",
           "codfilial": "2"
         },
         {
@@ -148141,6 +148188,15 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
+          "desc": "GIN MARINA 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true,
+          "codprod": "2949",
+          "codfilial": "2"
+        },
+        {
           "desc": "COQUETEL BANANINHA REGGIANI 950ML",
           "qt": 0,
           "val": 0.0,
@@ -148156,15 +148212,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 2.0,
           "cortado": true,
           "codprod": "640",
-          "codfilial": "2"
-        },
-        {
-          "desc": "GIN MARINA 750ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "cortado": true,
-          "codprod": "2949",
           "codfilial": "2"
         },
         {
@@ -149008,6 +149055,15 @@ const PEDIDOS_DATA = {
           "codfilial": "1"
         },
         {
+          "desc": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 3.0,
+          "cortado": true,
+          "codprod": "3179",
+          "codfilial": "1"
+        },
+        {
           "desc": "ST PIERRE VIDRO SUGAR FREE LN 275X12",
           "qt": 0,
           "val": 0.0,
@@ -149032,15 +149088,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 2.0,
           "cortado": true,
           "codprod": "4605",
-          "codfilial": "1"
-        },
-        {
-          "desc": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 3.0,
-          "cortado": true,
-          "codprod": "3179",
           "codfilial": "1"
         },
         {
@@ -149136,6 +149183,15 @@ const PEDIDOS_DATA = {
           "codfilial": "1"
         },
         {
+          "desc": "ST PIERRE LATA PALOMA LT 270MLX24",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true,
+          "codprod": "4605",
+          "codfilial": "1"
+        },
+        {
           "desc": "ST PIERRE LATA AGUA TONICA TRAD 24X270ML",
           "qt": 0,
           "val": 0.0,
@@ -149160,15 +149216,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 1.0,
           "cortado": true,
           "codprod": "4604",
-          "codfilial": "1"
-        },
-        {
-          "desc": "ST PIERRE LATA PALOMA LT 270MLX24",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "cortado": true,
-          "codprod": "4605",
           "codfilial": "1"
         },
         {
@@ -149450,21 +149497,21 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "CHICLETE TRIDENT CEREJA X TREME C/21 UN",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 3.0,
-          "cortado": true,
-          "codprod": "3959",
-          "codfilial": "1"
-        },
-        {
           "desc": "CHICLETE TRIDENT GRF BLUE 6X48G",
           "qt": 0,
           "val": 0.0,
           "qtfalta": 1.0,
           "cortado": true,
           "codprod": "6794",
+          "codfilial": "1"
+        },
+        {
+          "desc": "CHICLETE TRIDENT CEREJA X TREME C/21 UN",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 3.0,
+          "cortado": true,
+          "codprod": "3959",
           "codfilial": "1"
         },
         {
@@ -149551,21 +149598,21 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "GIN ROCKS WATERMELON 1000ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 6.0,
-          "cortado": true,
-          "codprod": "4689",
-          "codfilial": "4"
-        },
-        {
           "desc": "GIN ROCKS STRAWBERRY 1000ML",
           "qt": 0,
           "val": 0.0,
           "qtfalta": 12.0,
           "cortado": true,
           "codprod": "3642",
+          "codfilial": "4"
+        },
+        {
+          "desc": "GIN ROCKS WATERMELON 1000ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 6.0,
+          "cortado": true,
+          "codprod": "4689",
           "codfilial": "4"
         }
       ],
@@ -149800,6 +149847,15 @@ const PEDIDOS_DATA = {
           "codfilial": "1"
         },
         {
+          "desc": "4 PACK RED BULL SUGAR FREE",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true,
+          "codprod": "1093",
+          "codfilial": "1"
+        },
+        {
           "desc": "CHICLETE TRIDENT MENTA C/ 14 UND",
           "qt": 0,
           "val": 0.0,
@@ -149824,15 +149880,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 2.0,
           "cortado": true,
           "codprod": "997",
-          "codfilial": "1"
-        },
-        {
-          "desc": "4 PACK RED BULL SUGAR FREE",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "cortado": true,
-          "codprod": "1093",
           "codfilial": "1"
         },
         {
@@ -150150,6 +150197,15 @@ const PEDIDOS_DATA = {
           "codfilial": "1"
         },
         {
+          "desc": "PINATI DOUBLE BAR BANANA AMENDOIM 32X35G",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true,
+          "codprod": "5157",
+          "codfilial": "1"
+        },
+        {
           "desc": "PINATI NUTS ZERO COCO 16X4X25G",
           "qt": 0,
           "val": 0.0,
@@ -150174,15 +150230,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 2.0,
           "cortado": true,
           "codprod": "5231",
-          "codfilial": "1"
-        },
-        {
-          "desc": "PINATI DOUBLE BAR BANANA AMENDOIM 32X35G",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "cortado": true,
-          "codprod": "5157",
           "codfilial": "1"
         },
         {
@@ -150233,6 +150280,15 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
+          "desc": "PINATI NUTS ORIGINAL 16X4X30G",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true,
+          "codprod": "5265",
+          "codfilial": "1"
+        },
+        {
           "desc": "PINATI NUTS BANANA 16X4X30G",
           "qt": 0,
           "val": 0.0,
@@ -150257,15 +150313,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 1.0,
           "cortado": true,
           "codprod": "5254",
-          "codfilial": "1"
-        },
-        {
-          "desc": "PINATI NUTS ORIGINAL 16X4X30G",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "cortado": true,
-          "codprod": "5265",
           "codfilial": "1"
         },
         {
@@ -150361,6 +150408,15 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
+          "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true,
+          "codprod": "7016",
+          "codfilial": "2"
+        },
+        {
           "desc": "VANISH LIQUIDO WHITE GARAFFA 12X500ML",
           "qt": 0,
           "val": 0.0,
@@ -150385,15 +150441,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 1.0,
           "cortado": true,
           "codprod": "7017",
-          "codfilial": "2"
-        },
-        {
-          "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "cortado": true,
-          "codprod": "7016",
           "codfilial": "2"
         },
         {
@@ -150469,6 +150516,15 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
+          "desc": "ESPUMANTE ALUD ROSE 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 2.0,
+          "cortado": true,
+          "codprod": "3063",
+          "codfilial": "2"
+        },
+        {
           "desc": "VINHO FOODKILLER CAB. SAUV./ MERLOT",
           "qt": 0,
           "val": 0.0,
@@ -150493,15 +150549,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 2.0,
           "cortado": true,
           "codprod": "3011",
-          "codfilial": "2"
-        },
-        {
-          "desc": "ESPUMANTE ALUD ROSE 750ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 2.0,
-          "cortado": true,
-          "codprod": "3063",
           "codfilial": "2"
         },
         {
@@ -150586,6 +150633,15 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
+          "desc": "VINHO CAVAS DE ORO MALBEC 750ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 2.0,
+          "cortado": true,
+          "codprod": "4572",
+          "codfilial": "2"
+        },
+        {
           "desc": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
           "qt": 0,
           "val": 0.0,
@@ -150610,15 +150666,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 2.0,
           "cortado": true,
           "codprod": "4573",
-          "codfilial": "2"
-        },
-        {
-          "desc": "VINHO CAVAS DE ORO MALBEC 750ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 2.0,
-          "cortado": true,
-          "codprod": "4572",
           "codfilial": "2"
         },
         {
@@ -151458,6 +151505,15 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
+          "desc": "ICE 51 BALADA LONG NECK 24X275 ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true,
+          "codprod": "110",
+          "codfilial": "2"
+        },
+        {
           "desc": "NECTAR LARANJA TIAL 12X250ML",
           "qt": 0,
           "val": 0.0,
@@ -151473,15 +151529,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 1.0,
           "cortado": true,
           "codprod": "6013",
-          "codfilial": "2"
-        },
-        {
-          "desc": "ICE 51 BALADA LONG NECK 24X275 ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "cortado": true,
-          "codprod": "110",
           "codfilial": "2"
         },
         {
@@ -151897,6 +151944,15 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
+          "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true,
+          "codprod": "7019",
+          "codfilial": "1"
+        },
+        {
           "desc": "NG DOCE DE LEITE MUMU 350G",
           "qt": 0,
           "val": 0.0,
@@ -151921,15 +151977,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 1.0,
           "cortado": true,
           "codprod": "7016",
-          "codfilial": "1"
-        },
-        {
-          "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "cortado": true,
-          "codprod": "7019",
           "codfilial": "1"
         },
         {
@@ -151971,21 +152018,21 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "GUARAVITA NATURAL 24X290ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "cortado": true,
-          "codprod": "378",
-          "codfilial": "2"
-        },
-        {
           "desc": "4 PACK RED BULL 250ML",
           "qt": 0,
           "val": 0.0,
           "qtfalta": 1.0,
           "cortado": true,
           "codprod": "997",
+          "codfilial": "2"
+        },
+        {
+          "desc": "GUARAVITA NATURAL 24X290ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true,
+          "codprod": "378",
           "codfilial": "2"
         }
       ],
@@ -152009,15 +152056,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "4 PACK RED BULL SF MAÇA 4X250ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 2.0,
-          "cortado": true,
-          "codprod": "6654",
-          "codfilial": "2"
-        },
-        {
           "desc": "4 PACK RED BULL MORANGO PESSEGO",
           "qt": 0,
           "val": 0.0,
@@ -152033,6 +152071,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 2.0,
           "cortado": true,
           "codprod": "4602",
+          "codfilial": "2"
+        },
+        {
+          "desc": "4 PACK RED BULL SF MAÇA 4X250ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 2.0,
+          "cortado": true,
+          "codprod": "6654",
           "codfilial": "2"
         },
         {
@@ -152623,6 +152670,15 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
+          "desc": "PINATI NUTS COCO 16X4X25G",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true,
+          "codprod": "5262",
+          "codfilial": "1"
+        },
+        {
           "desc": "PINATI SIMPLE WHEY PISTACHE 16X35G",
           "qt": 0,
           "val": 0.0,
@@ -152647,15 +152703,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 1.0,
           "cortado": true,
           "codprod": "5263",
-          "codfilial": "1"
-        },
-        {
-          "desc": "PINATI NUTS COCO 16X4X25G",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "cortado": true,
-          "codprod": "5262",
           "codfilial": "1"
         },
         {
@@ -152755,6 +152802,15 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
+          "desc": "TANQUERAY CX C/ 12X50ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "4020",
+          "codfilial": "2"
+        },
+        {
           "desc": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
           "qt": 0,
           "val": 0.0,
@@ -152779,15 +152835,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "4129",
-          "codfilial": "2"
-        },
-        {
-          "desc": "TANQUERAY CX C/ 12X50ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "4020",
           "codfilial": "2"
         },
         {
@@ -152923,15 +152970,6 @@ const PEDIDOS_DATA = {
           "codfilial": "4"
         },
         {
-          "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 5.0,
-          "cortado": true,
-          "codprod": "6256",
-          "codfilial": "4"
-        },
-        {
           "desc": "WHISKY JIM BEAM HONEY 1L",
           "qt": 0,
           "val": 0.0,
@@ -152956,6 +152994,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 2.0,
           "cortado": true,
           "codprod": "6255",
+          "codfilial": "4"
+        },
+        {
+          "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 5.0,
+          "cortado": true,
+          "codprod": "6256",
           "codfilial": "4"
         },
         {
@@ -153255,6 +153302,15 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
+          "desc": "NECTAR LARANJA 12X1000ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 2.0,
+          "cortado": true,
+          "codprod": "5988",
+          "codfilial": "2"
+        },
+        {
           "desc": "NECTAR DE MARACUJA 24X200ML KIDS",
           "qt": 0,
           "val": 0.0,
@@ -153279,15 +153335,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 1.0,
           "cortado": true,
           "codprod": "6030",
-          "codfilial": "2"
-        },
-        {
-          "desc": "NECTAR LARANJA 12X1000ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 2.0,
-          "cortado": true,
-          "codprod": "5988",
           "codfilial": "2"
         },
         {
@@ -153417,6 +153464,15 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
+          "desc": "SUCO UVA 100% TIAL 12X250ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 3.0,
+          "cortado": true,
+          "codprod": "6006",
+          "codfilial": "2"
+        },
+        {
           "desc": "AGUA DE COCO TIAL 12X1000ML",
           "qt": 0,
           "val": 0.0,
@@ -153441,15 +153497,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 2.0,
           "cortado": true,
           "codprod": "6008",
-          "codfilial": "2"
-        },
-        {
-          "desc": "SUCO UVA 100% TIAL 12X250ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 3.0,
-          "cortado": true,
-          "codprod": "6006",
           "codfilial": "2"
         },
         {
@@ -153534,6 +153581,15 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
+          "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 5.0,
+          "cortado": true,
+          "codprod": "6256",
+          "codfilial": "2"
+        },
+        {
           "desc": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
           "qt": 0,
           "val": 0.0,
@@ -153549,15 +153605,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 5.0,
           "cortado": true,
           "codprod": "6255",
-          "codfilial": "2"
-        },
-        {
-          "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 5.0,
-          "cortado": true,
-          "codprod": "6256",
           "codfilial": "2"
         },
         {
@@ -154049,21 +154096,21 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "COQUETEL PINK MOON 12X600ML - PET",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "3272",
-          "codfilial": "2"
-        },
-        {
           "desc": "COQUETEL COMPOSTO PINK MOON 24X300ML",
           "qt": 0,
           "val": 0.0,
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "3249",
+          "codfilial": "2"
+        },
+        {
+          "desc": "COQUETEL PINK MOON 12X600ML - PET",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "3272",
           "codfilial": "2"
         }
       ],
@@ -154416,15 +154463,6 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
-          "desc": "VODKA GREY GOOSE ORIGINAL 750 ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "cortado": true,
-          "codprod": "39",
-          "codfilial": "2"
-        },
-        {
           "desc": "WHISKY AME BUFFALO TRACE 750ML",
           "qt": 0,
           "val": 0.0,
@@ -154449,6 +154487,15 @@ const PEDIDOS_DATA = {
           "qtfalta": 2.0,
           "cortado": true,
           "codprod": "5048",
+          "codfilial": "2"
+        },
+        {
+          "desc": "VODKA GREY GOOSE ORIGINAL 750 ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true,
+          "codprod": "39",
           "codfilial": "2"
         },
         {
@@ -154602,6 +154649,15 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
+          "desc": "PIRASSUNUNGA 51 965 ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 0.0,
+          "cortado": false,
+          "codprod": "73",
+          "codfilial": "2"
+        },
+        {
           "desc": "CANTINA DA SERRA 1,5L",
           "qt": 0,
           "val": 0.0,
@@ -154617,15 +154673,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 0.0,
           "cortado": false,
           "codprod": "6285",
-          "codfilial": "2"
-        },
-        {
-          "desc": "PIRASSUNUNGA 51 965 ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 0.0,
-          "cortado": false,
-          "codprod": "73",
           "codfilial": "2"
         },
         {
@@ -154817,6 +154864,15 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
+          "desc": "VINHO MOV CABERNET SAUVIGNON",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 6.0,
+          "cortado": true,
+          "codprod": "3874",
+          "codfilial": "2"
+        },
+        {
           "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
           "qt": 0,
           "val": 0.0,
@@ -154841,15 +154897,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 6.0,
           "cortado": true,
           "codprod": "3564",
-          "codfilial": "2"
-        },
-        {
-          "desc": "VINHO MOV CABERNET SAUVIGNON",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 6.0,
-          "cortado": true,
-          "codprod": "3874",
           "codfilial": "2"
         },
         {
@@ -154907,6 +154954,15 @@ const PEDIDOS_DATA = {
           "codfilial": "2"
         },
         {
+          "desc": "MOVING JUICE PROTEIN UVA 12X300ML",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "cortado": true,
+          "codprod": "7206",
+          "codfilial": "2"
+        },
+        {
           "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
           "qt": 0,
           "val": 0.0,
@@ -154931,15 +154987,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 1.0,
           "cortado": true,
           "codprod": "7205",
-          "codfilial": "2"
-        },
-        {
-          "desc": "MOVING JUICE PROTEIN UVA 12X300ML",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "cortado": true,
-          "codprod": "7206",
           "codfilial": "2"
         },
         {
@@ -155326,6 +155373,15 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
+          "desc": "CONHAQUE DOMECQ 1L",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 12.0,
+          "cortado": true,
+          "codprod": "64",
+          "codfilial": "4"
+        },
+        {
           "desc": "GIN DUBAR 960ML",
           "qt": 0,
           "val": 0.0,
@@ -155350,15 +155406,6 @@ const PEDIDOS_DATA = {
           "qtfalta": 12.0,
           "cortado": true,
           "codprod": "290",
-          "codfilial": "4"
-        },
-        {
-          "desc": "CONHAQUE DOMECQ 1L",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 12.0,
-          "cortado": true,
-          "codprod": "64",
           "codfilial": "4"
         },
         {
