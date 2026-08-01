@@ -62,6 +62,7 @@ def _query_pedidos(schema, extra_nomes=None, filiais=None):
         SELECT PED.NUMPED, PED.NUMNOTA, PED.NOME, PED.DATA, PED.CODUSUR, PED.CLIENTE, PED.STATUS,
                PED.DESCRICAO, PED.PVENDA, PED.QT, PED.QTFALTA, PED.TOTAL, PED.OBSENTREGA1,
                PED.FUNC_CANCEL, PC.POSICAO, PC.MOTIVOPOSICAO, PED.CODPROD, PED.CODFILIAL,
+               PED.FORNECEDOR, PED.FANTASIA_FORNEC,
                U.ESTADO AS ESTADO_VENDEDOR, S.NOME AS NOME_SUPERVISOR, G.NOMEGERENTE
         FROM {schema}.PBI_PCPEDI PED
         LEFT JOIN {schema}.PCUSUARI  U ON U.CODUSUR        = PED.CODUSUR
@@ -356,6 +357,7 @@ def _item_pedido(sistema, numped, row):
     qtd_cortada_total = qtcortada + qtfalta
     return {
         'desc':              _s(row['DESCRICAO']),
+        'industria':         _s(row.get('FANTASIA_FORNEC')) or _s(row.get('FORNECEDOR')),
         'qt':                qt,
         'val':               round(float(row['TOTAL']), 2),
         'qtfalta':           qtfalta,
@@ -429,6 +431,7 @@ def _extrair_cortados(pedidos_agrupados):
                 'posicao':    p['posicao'],
                 'motivo':     p['motivo'],
                 'desc':       it['desc'],
+                'industria':  it['industria'],
                 'codprod':    it['codprod'],
                 'codfilial':  it['codfilial'],
                 'qt':                it['qt'],

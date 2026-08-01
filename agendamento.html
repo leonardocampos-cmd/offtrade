@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Agendamento CRC4</title>
   <script src="agendamento_data.js"></script>
+  <script src="pedidos_data.js"></script>
+  <script src="estoque_data.js"></script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
@@ -120,6 +122,7 @@
     <option value="">Todos os Status</option>
   </select>
   <input type="text" id="busca" placeholder="Buscar por cliente, NF, CNPJ..." oninput="aplicarFiltro()">
+  <button class="tab-btn" id="btn-exportar-cortados" style="display:none" onclick="exportarCortadosCSV()">↓ Exportar CSV</button>
   <span class="info" id="info-count"></span>
 </div>
 
@@ -156,10 +159,54 @@
     </thead>
     <tbody id="tbody-comparativo"></tbody>
   </table>
+
+  <table id="tabela-cortados" style="display:none">
+    <thead>
+      <tr>
+        <th>Data</th>
+        <th class="hide-mob">Vendedor</th>
+        <th>Cliente</th>
+        <th class="hide-mob">Pedido</th>
+        <th>Produto</th>
+        <th class="hide-mob">Indústria</th>
+        <th>Qtd Cortada</th>
+        <th>Saldo Estoque</th>
+      </tr>
+    </thead>
+    <tbody id="tbody-cortados"></tbody>
+  </table>
 </div>
 
 <script>
 const DATA = typeof AGENDAMENTO_DATA !== 'undefined' ? AGENDAMENTO_DATA : null;
+const PEDIDOS = typeof PEDIDOS_DATA !== 'undefined' ? PEDIDOS_DATA : null;
+const ESTOQUE = typeof ESTOQUE_DATA !== 'undefined' ? ESTOQUE_DATA : null;
+
+// ── Índice de estoque (empresa+filial+produto -> qtestoque), mesma lógica de
+// pedidos.html, pra cruzar com os produtos cortados aqui também.
+const _estoqueIdx = new Map();
+if (ESTOQUE && ESTOQUE.produtos) {
+  ESTOQUE.produtos.forEach(p => {
+    const fil = parseInt(p.codfilial, 10);
+    const prod = parseInt(p.codprod, 10);
+    if (Number.isNaN(fil) || Number.isNaN(prod)) return;
+    _estoqueIdx.set(`${(p.empresa || '').toUpperCase()}|${fil}|${prod}`, p.qtestoque);
+  });
+}
+function _saldoEstoque(item) {
+  const fil = parseInt(item.codfilial, 10);
+  const prod = parseInt(item.codprod, 10);
+  if (Number.isNaN(fil) || Number.isNaN(prod)) return null;
+  const key = `${(item.sistema || '').toUpperCase()}|${fil}|${prod}`;
+  return _estoqueIdx.has(key) ? _estoqueIdx.get(key) : null;
+}
+function _saldoBadge(v) {
+  if (v === null || v === undefined) return '<span class="cod">—</span>';
+  const cls = v > 0 ? 'status-entregue' : 'status-cancelado';
+  return `<span class="status-badge ${cls}">${Number(v).toLocaleString('pt-BR')}</span>`;
+}
+const PRODUTOS_CORTADOS = (PEDIDOS && PEDIDOS.produtos_cortados) || [];
+PRODUTOS_CORTADOS.forEach(p => { p.saldo_estoque = _saldoEstoque(p); });
 
 let _abaAtual = 'agendamentos';
 let _expandidos = new Set();
@@ -211,12 +258,16 @@ function montarKpis(itensAgend, comparativo) {
 function montarTabs() {
   const nAgend = (DATA.agendamentos || []).reduce((acc, v) => acc + v.itens.length, 0);
   const nComp  = (DATA.comparativo || []).length;
+  const nCort  = PRODUTOS_CORTADOS.length;
   document.getElementById('tabs').innerHTML = `
     <button class="tab-btn ${_abaAtual === 'agendamentos' ? 'active' : ''}" onclick="trocarAba('agendamentos')">Planilha de Agendamento (${nAgend})</button>
     <button class="tab-btn ${_abaAtual === 'comparativo' ? 'active' : ''}" onclick="trocarAba('comparativo')">Pedidos por E-mail × Faturado (${nComp})</button>
+    <button class="tab-btn ${_abaAtual === 'cortados' ? 'active' : ''}" onclick="trocarAba('cortados')">Produtos Cortados (${nCort})</button>
   `;
   document.getElementById('tabela-agendamentos').style.display = _abaAtual === 'agendamentos' ? '' : 'none';
   document.getElementById('tabela-comparativo').style.display  = _abaAtual === 'comparativo'  ? '' : 'none';
+  document.getElementById('tabela-cortados').style.display     = _abaAtual === 'cortados'     ? '' : 'none';
+  document.getElementById('btn-exportar-cortados').style.display = _abaAtual === 'cortados' ? '' : 'none';
 }
 
 function trocarAba(chave) {
@@ -238,6 +289,9 @@ function _itensAgendamentoFlat() {
 function montarFiltros() {
   const selVend = document.getElementById('sel-vendedor');
   const selStatus = document.getElementById('sel-status');
+  document.getElementById('busca').placeholder = _abaAtual === 'cortados'
+    ? 'Buscar por cliente, pedido, produto...'
+    : 'Buscar por cliente, NF, CNPJ...';
 
   if (_abaAtual === 'agendamentos') {
     const vendAtual = selVend.value;
@@ -259,7 +313,7 @@ function montarFiltros() {
     });
     selVend.style.display = '';
     selStatus.style.display = '';
-  } else {
+  } else if (_abaAtual === 'comparativo') {
     const rcaAtual = selVend.value;
     selVend.innerHTML = '<option value="">Todos os RCAs</option>';
     [...new Set((DATA.comparativo || []).map(p => p.rca).filter(Boolean))].sort().forEach(r => {
@@ -272,6 +326,20 @@ function montarFiltros() {
     const statusAtual = selStatus.value;
     selStatus.innerHTML = '<option value="">Todos os Status</option><option value="Cortado">Cortado</option><option value="Pendente">Pendente</option><option value="Parcial">Parcial</option><option value="Faturado">Faturado</option>';
     if (['Cortado', 'Pendente', 'Parcial', 'Faturado'].includes(statusAtual)) selStatus.value = statusAtual;
+    selVend.style.display = '';
+    selStatus.style.display = '';
+  } else {
+    // cortados: só vendedor + busca fazem sentido aqui, status escondido.
+    const vendAtual = selVend.value;
+    selVend.innerHTML = '<option value="">Todos os Vendedores</option>';
+    [...new Set(PRODUTOS_CORTADOS.map(p => p.nome).filter(Boolean))].sort().forEach(nome => {
+      const o = document.createElement('option');
+      o.value = nome; o.textContent = nome.replace(' - OFF TRADE', '');
+      if (nome === vendAtual) o.selected = true;
+      selVend.appendChild(o);
+    });
+    selVend.style.display = '';
+    selStatus.style.display = 'none';
   }
 }
 
@@ -301,7 +369,7 @@ function aplicarFiltro() {
     itens.sort((a, b) => (b.data_ord || '').localeCompare(a.data_ord || ''));
     renderAgendamentos(itens);
     montarKpis(itens, DATA.comparativo || []);
-  } else {
+  } else if (_abaAtual === 'comparativo') {
     let pedidos = DATA.comparativo || [];
     if (vend) pedidos = pedidos.filter(p => p.rca === vend);
     if (status) pedidos = pedidos.filter(p => _piorStatus(p.itens) === status);
@@ -315,6 +383,18 @@ function aplicarFiltro() {
     }
     renderComparativo(pedidos);
     montarKpis(_itensAgendamentoFlat(), pedidos);
+  } else {
+    let lista = PRODUTOS_CORTADOS;
+    if (vend) lista = lista.filter(p => p.nome === vend);
+    if (busca) {
+      lista = lista.filter(p =>
+        (p.cliente || '').toLowerCase().includes(busca) ||
+        (p.numped || '').toLowerCase().includes(busca) ||
+        (p.desc || '').toLowerCase().includes(busca)
+      );
+    }
+    renderCortados(lista);
+    montarKpisCortados(lista);
   }
 }
 
@@ -395,6 +475,72 @@ function toggleItens(chave) {
   if (_expandidos.has(chave)) _expandidos.delete(chave);
   else _expandidos.add(chave);
   aplicarFiltro();
+}
+
+function montarKpisCortados(lista) {
+  const totalCortado = lista.reduce((s, p) => s + (Number(p.qtd_cortada_total) || 0), 0);
+  const qtdClientes = new Set(lista.map(p => p.cliente)).size;
+  const filtrado = lista.length !== PRODUTOS_CORTADOS.length;
+  document.getElementById('kpis').innerHTML = `
+    <div class="kpi"><div class="label">Produtos Cortados${filtrado ? ' (filtrado)' : ''}</div><div class="val">${lista.length}</div></div>
+    <div class="kpi"><div class="label">Qtd Total Cortada${filtrado ? ' (filtrado)' : ''}</div><div class="val" style="color:var(--orange)">${totalCortado.toLocaleString('pt-BR')}</div></div>
+    <div class="kpi"><div class="label">Clientes</div><div class="val">${qtdClientes}</div></div>
+  `;
+}
+
+function renderCortados(lista) {
+  document.getElementById('info-count').textContent = `${lista.length} produto(s) cortado(s)`;
+  const tbody = document.getElementById('tbody-cortados');
+  if (!lista.length) {
+    tbody.innerHTML = '<tr><td colspan="8" class="empty">Nenhum produto cortado encontrado.</td></tr>';
+    return;
+  }
+  tbody.innerHTML = lista.map(p => `
+    <tr class="linha" style="cursor:default">
+      <td>${_esc(p.data)}</td>
+      <td class="hide-mob">${_esc((p.nome || '').replace(' - OFF TRADE', ''))}</td>
+      <td>${_esc(p.cliente)}</td>
+      <td class="hide-mob cod">${_esc(p.numped)}</td>
+      <td>${_esc(p.desc)}</td>
+      <td class="hide-mob">${_esc(p.industria) || '<span class="cod">—</span>'}</td>
+      <td>${p.qtd_cortada_total} <span style="color:var(--muted)">/ ${p.qt_original}</span></td>
+      <td>${_saldoBadge(p.saldo_estoque)}</td>
+    </tr>
+  `).join('');
+}
+
+function exportarCortadosCSV() {
+  const busca = document.getElementById('busca').value.trim().toLowerCase();
+  const vend = document.getElementById('sel-vendedor').value;
+  let lista = PRODUTOS_CORTADOS;
+  if (vend) lista = lista.filter(p => p.nome === vend);
+  if (busca) {
+    lista = lista.filter(p =>
+      (p.cliente || '').toLowerCase().includes(busca) ||
+      (p.numped || '').toLowerCase().includes(busca) ||
+      (p.desc || '').toLowerCase().includes(busca)
+    );
+  }
+  const header = ['Data', 'Vendedor', 'Cliente', 'Pedido', 'Produto', 'Indústria', 'Qtd Cortada', 'Qtd Pedida', 'Saldo Estoque'];
+  const linhas = lista.map(p => [
+    p.data,
+    (p.nome || '').replace(' - OFF TRADE', ''),
+    p.cliente,
+    p.numped,
+    p.desc,
+    p.industria,
+    p.qtd_cortada_total,
+    p.qt_original,
+    p.saldo_estoque ?? '',
+  ].map(v => `"${String(v ?? '').replace(/"/g, '""')}"`).join(';'));
+  const csv = '﻿' + [header.join(';'), ...linhas].join('\r\n');
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `agendamento_produtos_cortados_${new Date().toISOString().slice(0, 10)}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
 }
 </script>
 </body>

@@ -270,6 +270,7 @@ const THEAD_CORTADOS = `
   <th onclick="ordenarPor('cliente')">Cliente</th>
   <th class="hide-mob" onclick="ordenarPor('numped')">Pedido</th>
   <th onclick="ordenarPor('desc')">Produto</th>
+  <th class="hide-mob" onclick="ordenarPor('industria')">Indústria</th>
   <th onclick="ordenarPor('qtd_cortada_total')">Qtd Cortada</th>
   <th onclick="ordenarPor('saldo_estoque')">Saldo Estoque</th>
 `;
@@ -714,6 +715,7 @@ function aplicarFiltro() {
         <td>${_esc(p.cliente)}</td>
         <td class="cod hide-mob">${_esc(p.numped)}</td>
         <td>${_esc(p.desc)}</td>
+        <td class="hide-mob">${_esc(p.industria) || '<span class="cod">—</span>'}</td>
         <td>${p.qtd_cortada_total} <span style="color:var(--muted)">/ ${p.qt_original}</span></td>
         <td>${_saldoBadge(p.saldo_estoque)}</td>
       </tr>`).join('');
@@ -836,13 +838,14 @@ function exportarCSV() {
   const lista = _filtrados();
 
   if (_abaAtual === 'produtos_cortados') {
-    const header = ['Data', 'Vendedor', 'Cliente', 'Pedido', 'Produto', 'Qtd Cortada', 'Qtd Pedida', 'Saldo Estoque'];
+    const header = ['Data', 'Vendedor', 'Cliente', 'Pedido', 'Produto', 'Indústria', 'Qtd Cortada', 'Qtd Pedida', 'Saldo Estoque'];
     const linhas = lista.map(p => [
       p.data,
       (p.nome || '').replace(' - OFF TRADE', ''),
       p.cliente,
       p.numped,
       p.desc,
+      p.industria,
       p.qtd_cortada_total,
       p.qt_original,
       p.saldo_estoque ?? '',
