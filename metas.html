@@ -1142,14 +1142,16 @@ function _vendasDoMes(nomeVendedor, mes) {
   return (VENDAS_DATA.por_vendedor[nomeVendedor] || {})[mes] || [];
 }
 
+function _ordenarVendasDesc(lista) {
+  return lista.slice().sort((a, b) => {
+    const [da, ma, ya] = a.data.split('/'); const [db, mb, yb] = b.data.split('/');
+    return new Date(yb, mb-1, db) - new Date(ya, ma-1, da);
+  });
+}
+
 function _atualizarTabela(nomeVendedor) {
   const mes   = document.getElementById('sel-mes').value;
-  const lista = _vendasDoMes(nomeVendedor, mes)
-    .slice()
-    .sort((a, b) => {
-      const [da, ma, ya] = a.data.split('/'); const [db, mb, yb] = b.data.split('/');
-      return new Date(yb, mb-1, db) - new Date(ya, ma-1, da);
-    });
+  const lista = _ordenarVendasDesc(_vendasDoMes(nomeVendedor, mes));
 
   // Resumo
   const total    = lista.reduce((s, r) => s + r.valor, 0);
@@ -1365,7 +1367,7 @@ function renderDetail(v, mes) {
     </div>`;
 
   // ── Seção: Faturamento do mês ─────────────────────────────
-  const _vendas  = _vendasDoMes(v.nome, mes);
+  const _vendas  = _ordenarVendasDesc(_vendasDoMes(v.nome, mes));
   const _fatVend = _vendas.reduce((s, x) => s + x.valor, 0);
   const _nCli    = new Set(_vendas.filter(x => x.offtrade).map(x => x.codcli || x.cliente)).size;
   const _nItens  = _vendas.reduce((s, x) => s + x.qt, 0);
