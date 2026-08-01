@@ -201,12 +201,14 @@ def main():
             print("[AVISO] campanha_crusoe falhou — ignorado, pipeline continua.")
             traceback.print_exc()
 
-        step("4/8 - Conferência de preços")
-        try:
-            import conferencia_preco
-        except Exception:
-            print("[AVISO] conferencia_preco falhou — ignorado, pipeline continua.")
-            traceback.print_exc()
+        # Conferência de preços desativada a pedido do usuário em 2026-07-31.
+        # Reativar descomentando o bloco abaixo quando for pedido novamente.
+        # step("4/8 - Conferência de preços")
+        # try:
+        #     import conferencia_preco
+        # except Exception:
+        #     print("[AVISO] conferencia_preco falhou — ignorado, pipeline continua.")
+        #     traceback.print_exc()
 
         step("5/8 - Gerando página de entregas (entregas_data.js)")
         try:
@@ -451,12 +453,14 @@ def main():
                 traceback.print_exc()
                 _alertar_falha_pipeline("Alertas Logistica RJ (Gmail)", str(_e))
 
-            step("10/10 - Enviando alerta WhatsApp")
-            try:
-                import envio_whatsapp
-            except Exception:
-                print("[AVISO] envio_whatsapp falhou — ignorado, pipeline continua.")
-                traceback.print_exc()
+            # Alerta de WhatsApp (conferência de preços) desativado a pedido
+            # do usuário em 2026-07-31. Reativar quando for pedido novamente.
+            # step("10/10 - Enviando alerta WhatsApp")
+            # try:
+            #     import envio_whatsapp
+            # except Exception:
+            #     print("[AVISO] envio_whatsapp falhou — ignorado, pipeline continua.")
+            #     traceback.print_exc()
         else:
             step("10/10 - Alertas (pulado — SEND_ALERTS=0 neste ambiente)")
 
