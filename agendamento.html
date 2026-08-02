@@ -180,10 +180,10 @@
 const DATA = typeof AGENDAMENTO_DATA !== 'undefined' ? AGENDAMENTO_DATA : null;
 const ESTOQUE = typeof ESTOQUE_DATA !== 'undefined' ? ESTOQUE_DATA : null;
 
-// Índice de estoque por sistema+produto, somando todas as filiais — os itens
-// de pedido por e-mail não trazem código de filial (não deram entrada no
-// Winthor ainda), então não dá pra cruzar por filial específica como em
-// pedidos.html. Soma da rede toda é a aproximação possível.
+// Índice de estoque só de CRC filiais 2 e 4 (RJ — o que essa página realmente
+// atende, "AGENDAMENTO — CRC FILIAL 4") — a pedido do usuário, em vez de
+// somar a rede toda de todos os sistemas.
+const _FILIAIS_CRC_RJ = new Set(['2', '4']);
 const _estoqueIdx = new Map();
 const _fornecedorIdx = new Map();
 // Fallback por descrição — o cod_prod do pedido por e-mail vem da extração
@@ -199,45 +199,30 @@ function _normDesc(s) {
 }
 if (ESTOQUE && ESTOQUE.produtos) {
   ESTOQUE.produtos.forEach(p => {
-    const empresa = (p.empresa || '').toUpperCase();
+    if ((p.empresa || '').toUpperCase() !== 'CRC') return;
+    if (!_FILIAIS_CRC_RJ.has(String(p.codfilial))) return;
     const prod = parseInt(p.codprod, 10);
     const qt = Number(p.qtestoque) || 0;
     const forn = p.fantasia || p.fornecedor || '';
     if (!Number.isNaN(prod)) {
-      const key = `${empresa}|${prod}`;
-      _estoqueIdx.set(key, (_estoqueIdx.get(key) || 0) + qt);
-      if (!_fornecedorIdx.has(key)) _fornecedorIdx.set(key, forn);
+      _estoqueIdx.set(prod, (_estoqueIdx.get(prod) || 0) + qt);
+      if (!_fornecedorIdx.has(prod)) _fornecedorIdx.set(prod, forn);
     }
-    const descKey = `${empresa}|${_normDesc(p.descricao)}`;
+    const descKey = _normDesc(p.descricao);
     _estoqueDescIdx.set(descKey, (_estoqueDescIdx.get(descKey) || 0) + qt);
     if (!_fornecedorDescIdx.has(descKey)) _fornecedorDescIdx.set(descKey, forn);
   });
 }
-// "sistema" no comparativo vem com filial junto (ex: "CRC - 04"), diferente
-// de ESTOQUE_DATA.produtos[].empresa (ex: "CRC") — normaliza pegando só a
-// parte antes do primeiro espaço/hífen.
-function _sistemaBase(sistema) {
-  return (sistema || '').split(/[\s-]/)[0].toUpperCase();
-}
-function _saldoEstoque(sistema, codProd, desc) {
-  const base = _sistemaBase(sistema);
+function _saldoEstoque(codProd, desc) {
   const prod = parseInt(codProd, 10);
-  if (!Number.isNaN(prod)) {
-    const key = `${base}|${prod}`;
-    if (_estoqueIdx.has(key)) return _estoqueIdx.get(key);
-  }
-  const descKey = `${base}|${_normDesc(desc)}`;
+  if (!Number.isNaN(prod) && _estoqueIdx.has(prod)) return _estoqueIdx.get(prod);
+  const descKey = _normDesc(desc);
   return _estoqueDescIdx.has(descKey) ? _estoqueDescIdx.get(descKey) : null;
 }
-function _fornecedor(sistema, codProd, desc) {
-  const base = _sistemaBase(sistema);
+function _fornecedor(codProd, desc) {
   const prod = parseInt(codProd, 10);
-  if (!Number.isNaN(prod)) {
-    const key = `${base}|${prod}`;
-    if (_fornecedorIdx.has(key)) return _fornecedorIdx.get(key);
-  }
-  const descKey = `${base}|${_normDesc(desc)}`;
-  return _fornecedorDescIdx.get(descKey) || '';
+  if (!Number.isNaN(prod) && _fornecedorIdx.has(prod)) return _fornecedorIdx.get(prod);
+  return _fornecedorDescIdx.get(_normDesc(desc)) || '';
 }
 function _saldoBadge(v) {
   if (v === null || v === undefined) return '<span class="cod">—</span>';
@@ -263,8 +248,8 @@ function _produtosCortadosEmail() {
         qt: it.qt,
         preco: it.preco,
         nf: it.nf,
-        fornecedor: _fornecedor(p.sistema, it.cod_prod, it.descricao),
-        saldo_estoque: _saldoEstoque(p.sistema, it.cod_prod, it.descricao),
+        fornecedor: _fornecedor(it.cod_prod, it.descricao),
+        saldo_estoque: _saldoEstoque(it.cod_prod, it.descricao),
       });
     });
   });
