@@ -186,13 +186,31 @@ const ESTOQUE = typeof ESTOQUE_DATA !== 'undefined' ? ESTOQUE_DATA : null;
 // pedidos.html. Soma da rede toda é a aproximação possível.
 const _estoqueIdx = new Map();
 const _fornecedorIdx = new Map();
+// Fallback por descrição — o cod_prod do pedido por e-mail vem da extração
+// (IA lendo a imagem/planilha do cliente) e às vezes não bate com o CODPROD
+// real do Winthor (ex: "VODKA ORLOFF 1L" veio com cod_prod=411 no e-mail,
+// mas no Winthor esse produto é o 235) — confirmado em 2026-08-01. Quando o
+// código não acha nada, tenta pela descrição normalizada (mesmo texto exato,
+// sem fuzzy matching — evita casar produto errado por semelhança de nome).
+const _estoqueDescIdx = new Map();
+const _fornecedorDescIdx = new Map();
+function _normDesc(s) {
+  return (s || '').trim().toUpperCase().replace(/\s+/g, ' ');
+}
 if (ESTOQUE && ESTOQUE.produtos) {
   ESTOQUE.produtos.forEach(p => {
+    const empresa = (p.empresa || '').toUpperCase();
     const prod = parseInt(p.codprod, 10);
-    if (Number.isNaN(prod)) return;
-    const key = `${(p.empresa || '').toUpperCase()}|${prod}`;
-    _estoqueIdx.set(key, (_estoqueIdx.get(key) || 0) + (Number(p.qtestoque) || 0));
-    if (!_fornecedorIdx.has(key)) _fornecedorIdx.set(key, p.fantasia || p.fornecedor || '');
+    const qt = Number(p.qtestoque) || 0;
+    const forn = p.fantasia || p.fornecedor || '';
+    if (!Number.isNaN(prod)) {
+      const key = `${empresa}|${prod}`;
+      _estoqueIdx.set(key, (_estoqueIdx.get(key) || 0) + qt);
+      if (!_fornecedorIdx.has(key)) _fornecedorIdx.set(key, forn);
+    }
+    const descKey = `${empresa}|${_normDesc(p.descricao)}`;
+    _estoqueDescIdx.set(descKey, (_estoqueDescIdx.get(descKey) || 0) + qt);
+    if (!_fornecedorDescIdx.has(descKey)) _fornecedorDescIdx.set(descKey, forn);
   });
 }
 // "sistema" no comparativo vem com filial junto (ex: "CRC - 04"), diferente
@@ -201,17 +219,25 @@ if (ESTOQUE && ESTOQUE.produtos) {
 function _sistemaBase(sistema) {
   return (sistema || '').split(/[\s-]/)[0].toUpperCase();
 }
-function _saldoEstoque(sistema, codProd) {
+function _saldoEstoque(sistema, codProd, desc) {
+  const base = _sistemaBase(sistema);
   const prod = parseInt(codProd, 10);
-  if (Number.isNaN(prod)) return null;
-  const key = `${_sistemaBase(sistema)}|${prod}`;
-  return _estoqueIdx.has(key) ? _estoqueIdx.get(key) : null;
+  if (!Number.isNaN(prod)) {
+    const key = `${base}|${prod}`;
+    if (_estoqueIdx.has(key)) return _estoqueIdx.get(key);
+  }
+  const descKey = `${base}|${_normDesc(desc)}`;
+  return _estoqueDescIdx.has(descKey) ? _estoqueDescIdx.get(descKey) : null;
 }
-function _fornecedor(sistema, codProd) {
+function _fornecedor(sistema, codProd, desc) {
+  const base = _sistemaBase(sistema);
   const prod = parseInt(codProd, 10);
-  if (Number.isNaN(prod)) return '';
-  const key = `${_sistemaBase(sistema)}|${prod}`;
-  return _fornecedorIdx.get(key) || '';
+  if (!Number.isNaN(prod)) {
+    const key = `${base}|${prod}`;
+    if (_fornecedorIdx.has(key)) return _fornecedorIdx.get(key);
+  }
+  const descKey = `${base}|${_normDesc(desc)}`;
+  return _fornecedorDescIdx.get(descKey) || '';
 }
 function _saldoBadge(v) {
   if (v === null || v === undefined) return '<span class="cod">—</span>';
@@ -237,8 +263,8 @@ function _produtosCortadosEmail() {
         qt: it.qt,
         preco: it.preco,
         nf: it.nf,
-        fornecedor: _fornecedor(p.sistema, it.cod_prod),
-        saldo_estoque: _saldoEstoque(p.sistema, it.cod_prod),
+        fornecedor: _fornecedor(p.sistema, it.cod_prod, it.descricao),
+        saldo_estoque: _saldoEstoque(p.sistema, it.cod_prod, it.descricao),
       });
     });
   });
