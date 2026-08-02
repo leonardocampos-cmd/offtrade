@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Agendamento CRC4</title>
   <script src="agendamento_data.js"></script>
+  <script src="estoque_data.js"></script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
@@ -167,8 +168,8 @@
         <th class="hide-mob">Cód. Cliente</th>
         <th>Produto</th>
         <th>Qtd Pedida</th>
-        <th class="hide-mob">Preço</th>
-        <th class="hide-mob">NF</th>
+        <th class="hide-mob">Fornecedor</th>
+        <th>Saldo Estoque</th>
       </tr>
     </thead>
     <tbody id="tbody-cortados"></tbody>
@@ -177,6 +178,46 @@
 
 <script>
 const DATA = typeof AGENDAMENTO_DATA !== 'undefined' ? AGENDAMENTO_DATA : null;
+const ESTOQUE = typeof ESTOQUE_DATA !== 'undefined' ? ESTOQUE_DATA : null;
+
+// Índice de estoque por sistema+produto, somando todas as filiais — os itens
+// de pedido por e-mail não trazem código de filial (não deram entrada no
+// Winthor ainda), então não dá pra cruzar por filial específica como em
+// pedidos.html. Soma da rede toda é a aproximação possível.
+const _estoqueIdx = new Map();
+const _fornecedorIdx = new Map();
+if (ESTOQUE && ESTOQUE.produtos) {
+  ESTOQUE.produtos.forEach(p => {
+    const prod = parseInt(p.codprod, 10);
+    if (Number.isNaN(prod)) return;
+    const key = `${(p.empresa || '').toUpperCase()}|${prod}`;
+    _estoqueIdx.set(key, (_estoqueIdx.get(key) || 0) + (Number(p.qtestoque) || 0));
+    if (!_fornecedorIdx.has(key)) _fornecedorIdx.set(key, p.fantasia || p.fornecedor || '');
+  });
+}
+// "sistema" no comparativo vem com filial junto (ex: "CRC - 04"), diferente
+// de ESTOQUE_DATA.produtos[].empresa (ex: "CRC") — normaliza pegando só a
+// parte antes do primeiro espaço/hífen.
+function _sistemaBase(sistema) {
+  return (sistema || '').split(/[\s-]/)[0].toUpperCase();
+}
+function _saldoEstoque(sistema, codProd) {
+  const prod = parseInt(codProd, 10);
+  if (Number.isNaN(prod)) return null;
+  const key = `${_sistemaBase(sistema)}|${prod}`;
+  return _estoqueIdx.has(key) ? _estoqueIdx.get(key) : null;
+}
+function _fornecedor(sistema, codProd) {
+  const prod = parseInt(codProd, 10);
+  if (Number.isNaN(prod)) return '';
+  const key = `${_sistemaBase(sistema)}|${prod}`;
+  return _fornecedorIdx.get(key) || '';
+}
+function _saldoBadge(v) {
+  if (v === null || v === undefined) return '<span class="cod">—</span>';
+  const cls = v > 0 ? 'status-entregue' : 'status-cancelado';
+  return `<span class="status-badge ${cls}">${Number(v).toLocaleString('pt-BR')}</span>`;
+}
 
 // Produtos Cortados aqui vem da própria aba "Pedidos por E-mail x Faturado"
 // (email_pedidos.py): item com status 'Cortado' = pedido enviado por e-mail
@@ -196,6 +237,8 @@ function _produtosCortadosEmail() {
         qt: it.qt,
         preco: it.preco,
         nf: it.nf,
+        fornecedor: _fornecedor(p.sistema, it.cod_prod),
+        saldo_estoque: _saldoEstoque(p.sistema, it.cod_prod),
       });
     });
   });
@@ -503,8 +546,8 @@ function renderCortados(lista) {
       <td class="hide-mob cod">${_esc(p.cod_cliente)}</td>
       <td>${_esc(p.desc)}</td>
       <td>${_esc(p.qt)}</td>
-      <td class="hide-mob">${_fmtMoeda(p.preco)}</td>
-      <td class="hide-mob cod">${p.nf ? _esc(p.nf) : '—'}</td>
+      <td class="hide-mob">${_esc(p.fornecedor) || '<span class="cod">—</span>'}</td>
+      <td>${_saldoBadge(p.saldo_estoque)}</td>
     </tr>
   `).join('');
 }
@@ -521,7 +564,7 @@ function exportarCortadosCSV() {
       (p.desc || '').toLowerCase().includes(busca)
     );
   }
-  const header = ['Data E-mail', 'RCA', 'Cliente', 'Cód. Cliente', 'Produto', 'Qtd Pedida', 'Preço', 'NF'];
+  const header = ['Data E-mail', 'RCA', 'Cliente', 'Cód. Cliente', 'Produto', 'Qtd Pedida', 'Fornecedor', 'Saldo Estoque'];
   const linhas = lista.map(p => [
     _fmtDataEmail(p.data_email),
     p.rca,
@@ -529,8 +572,8 @@ function exportarCortadosCSV() {
     p.cod_cliente,
     p.desc,
     p.qt,
-    p.preco,
-    p.nf,
+    p.fornecedor,
+    p.saldo_estoque ?? '',
   ].map(v => `"${String(v ?? '').replace(/"/g, '""')}"`).join(';'));
   const csv = '﻿' + [header.join(';'), ...linhas].join('\r\n');
   const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
