@@ -1,8 +1,74 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "03/08/2026 11:06",
+  "atualizado_em": "03/08/2026 11:35",
   "periodo_dias": 90,
   "fontes_indisponiveis": [],
   "pedidos_feitos": [
+    {
+      "numped": "156003765",
+      "numnota": "",
+      "data": "03/08/2026",
+      "data_ord": "2026-08-03",
+      "nome": "MARILENA TRAGEL - OFF TRADE",
+      "cliente": "POSTO JULIO DE CASTILHO LIMITADA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 539.8,
+      "itens": [
+        {
+          "desc": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
+          "industria": "DIAGEO",
+          "qt": 2,
+          "val": 539.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "20",
+          "codfilial": "2"
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "156003766",
+      "numnota": "",
+      "data": "03/08/2026",
+      "data_ord": "2026-08-03",
+      "nome": "MARILENA TRAGEL - OFF TRADE",
+      "cliente": "POSTO JULIO DE CASTILHO LIMITADA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Bloqueio de Pedidos bonificado",
+      "obs": "",
+      "total": 269.9,
+      "itens": [
+        {
+          "desc": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
+          "industria": "DIAGEO",
+          "qt": 1,
+          "val": 269.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "20",
+          "codfilial": "2"
+        }
+      ],
+      "tem_corte": false
+    },
     {
       "numped": "156003759",
       "numnota": "",
@@ -83,6 +149,91 @@ const PEDIDOS_DATA = {
           "qt_original": 2.0,
           "cortado": false,
           "codprod": "378",
+          "codfilial": "2"
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "379001346",
+      "numnota": "",
+      "data": "03/08/2026",
+      "data_ord": "2026-08-03",
+      "nome": "JORGE MACIEL - OFF TRADE",
+      "cliente": "TRES IRMAOS MERCEARIA DO SUMARE LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :4689",
+      "obs": "",
+      "total": 737.6,
+      "itens": [
+        {
+          "desc": "GIN ROCKS WATERMELON 1000ML",
+          "industria": "FANTE",
+          "qt": 3,
+          "val": 71.7,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "cortado": false,
+          "codprod": "4689",
+          "codfilial": "2"
+        },
+        {
+          "desc": "GIN ROCKS STRAWBERRY 1000ML",
+          "industria": "FANTE",
+          "qt": 2,
+          "val": 47.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "3642",
+          "codfilial": "2"
+        },
+        {
+          "desc": "GIN ROCKS GREEN APPLE 1000ML",
+          "industria": "FANTE",
+          "qt": 2,
+          "val": 47.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "6492",
+          "codfilial": "2"
+        },
+        {
+          "desc": "CERVEJA HEINEKEN LONG 24X330ML",
+          "industria": "KAISER",
+          "qt": 2,
+          "val": 255.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "119",
+          "codfilial": "2"
+        },
+        {
+          "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+          "industria": "KAISER",
+          "qt": 5,
+          "val": 314.5,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 5.0,
+          "cortado": false,
+          "codprod": "2710",
           "codfilial": "2"
         }
       ],
@@ -220,6 +371,39 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
+      "numped": "156003768",
+      "numnota": "",
+      "data": "03/08/2026",
+      "data_ord": "2026-08-03",
+      "nome": "MARILENA TRAGEL - OFF TRADE",
+      "cliente": "JBM ZONA SUL CONVENIENCIAS LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Bloqueio de Pedidos bonificado",
+      "obs": "",
+      "total": 269.9,
+      "itens": [
+        {
+          "desc": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
+          "industria": "DIAGEO",
+          "qt": 1,
+          "val": 269.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "20",
+          "codfilial": "2"
+        }
+      ],
+      "tem_corte": false
+    },
+    {
       "numped": "379001345",
       "numnota": "",
       "data": "03/08/2026",
@@ -332,6 +516,98 @@ const PEDIDOS_DATA = {
           "qt_original": 2.0,
           "cortado": false,
           "codprod": "3174",
+          "codfilial": "2"
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "156003764",
+      "numnota": "",
+      "data": "03/08/2026",
+      "data_ord": "2026-08-03",
+      "nome": "MARILENA TRAGEL - OFF TRADE",
+      "cliente": "POSTO DE GASOLINA RECREIOMAR LTDA.",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :6256",
+      "obs": "",
+      "total": 539.4,
+      "itens": [
+        {
+          "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "industria": "TATUZINHO",
+          "qt": 2,
+          "val": 179.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "6256",
+          "codfilial": "2"
+        },
+        {
+          "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "industria": "TATUZINHO",
+          "qt": 2,
+          "val": 179.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "6259",
+          "codfilial": "2"
+        },
+        {
+          "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "industria": "TATUZINHO",
+          "qt": 2,
+          "val": 179.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "7207",
+          "codfilial": "2"
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "156003767",
+      "numnota": "",
+      "data": "03/08/2026",
+      "data_ord": "2026-08-03",
+      "nome": "MARILENA TRAGEL - OFF TRADE",
+      "cliente": "JBM ZONA SUL CONVENIENCIAS LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 539.8,
+      "itens": [
+        {
+          "desc": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
+          "industria": "DIAGEO",
+          "qt": 2,
+          "val": 539.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "20",
           "codfilial": "2"
         }
       ],
@@ -652,6 +928,105 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
+      "numped": "156003763",
+      "numnota": "",
+      "data": "03/08/2026",
+      "data_ord": "2026-08-03",
+      "nome": "MARILENA TRAGEL - OFF TRADE",
+      "cliente": "POSTO HILARIO DE GOUVEIA LIMITADA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Bloqueio de Pedidos bonificado",
+      "obs": "",
+      "total": 269.9,
+      "itens": [
+        {
+          "desc": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
+          "industria": "DIAGEO",
+          "qt": 1,
+          "val": 269.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "20",
+          "codfilial": "2"
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "156003762",
+      "numnota": "",
+      "data": "03/08/2026",
+      "data_ord": "2026-08-03",
+      "nome": "MARILENA TRAGEL - OFF TRADE",
+      "cliente": "POSTO HILARIO DE GOUVEIA LIMITADA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 539.8,
+      "itens": [
+        {
+          "desc": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
+          "industria": "DIAGEO",
+          "qt": 2,
+          "val": 539.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "20",
+          "codfilial": "2"
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "468000121",
+      "numnota": "",
+      "data": "03/08/2026",
+      "data_ord": "2026-08-03",
+      "nome": "RENATO JUNIOR - OFF TRADE",
+      "cliente": "COMERCIAL BOLSAO DE BEBIDAS LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 62160.0,
+      "itens": [
+        {
+          "desc": "CONHAQUE DOMECQ 1L",
+          "industria": "PERNOD",
+          "qt": 2400,
+          "val": 62160.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2400.0,
+          "cortado": false,
+          "codprod": "64",
+          "codfilial": "1"
+        }
+      ],
+      "tem_corte": false
+    },
+    {
       "numped": "472000061",
       "numnota": "",
       "data": "03/08/2026",
@@ -850,17 +1225,17 @@ const PEDIDOS_DATA = {
       "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :1804",
       "obs": "cliente so recebe apos 12:00 horas",
-      "total": 433.46,
+      "total": 864.54,
       "itens": [
         {
           "desc": "CERVEJA HEINEKEN LONG 24X330ML",
           "industria": "HEINEKEN",
-          "qt": 1,
-          "val": 143.96,
+          "qt": 4,
+          "val": 575.04,
           "qtfalta": 0.0,
           "qtcortada": 0.0,
           "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
+          "qt_original": 4.0,
           "cortado": false,
           "codprod": "119",
           "codfilial": "1"
@@ -2377,7 +2752,7 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :674",
       "obs": "",
       "total": 988.2,
@@ -4674,7 +5049,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "158000388",
@@ -10813,7 +11188,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "391000225",
@@ -10847,7 +11222,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "391000226",
@@ -10881,7 +11256,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "425000176",
@@ -11359,7 +11734,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "468000117",
@@ -11612,7 +11987,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "512000035",
@@ -11646,7 +12021,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "516000031",
@@ -11693,7 +12068,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "516000032",
@@ -11792,7 +12167,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "516000033",
@@ -11930,7 +12305,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "493000041",
@@ -11977,7 +12352,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "493000042",
@@ -12024,7 +12399,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "493000043",
@@ -12084,7 +12459,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "493000044",
@@ -12131,7 +12506,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "493000045",
@@ -12165,7 +12540,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "493000046",
@@ -12212,7 +12587,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "496000003",
@@ -12532,7 +12907,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "497000016",
@@ -13137,7 +13512,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "471000048",
@@ -13283,7 +13658,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "461000167",
@@ -13330,7 +13705,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "232000025",
@@ -13507,7 +13882,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "232000026",
@@ -13606,7 +13981,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "485000020",
@@ -13653,7 +14028,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "485000021",
@@ -13713,7 +14088,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "588003278",
@@ -13747,7 +14122,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003279",
@@ -13781,7 +14156,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003283",
@@ -13815,7 +14190,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003285",
@@ -13909,7 +14284,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "588003287",
@@ -13982,7 +14357,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003289",
@@ -14128,7 +14503,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "486000129",
@@ -20542,7 +20917,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "317000140",
@@ -20701,7 +21076,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "317000142",
@@ -20748,7 +21123,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "317000143",
@@ -20907,7 +21282,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "317000146",
@@ -20967,7 +21342,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "317000147",
@@ -21053,7 +21428,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "317000148",
@@ -21139,7 +21514,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "317000149",
@@ -21212,7 +21587,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "317000151",
@@ -21444,7 +21819,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "425000169",
@@ -22130,7 +22505,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "426000413",
@@ -22323,7 +22698,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "467000062",
@@ -22357,7 +22732,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "467000063",
@@ -22482,7 +22857,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "467000064",
@@ -22834,7 +23209,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "468000109",
@@ -22894,7 +23269,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "468000110",
@@ -22980,7 +23355,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "468000111",
@@ -23105,7 +23480,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "468000112",
@@ -23191,7 +23566,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "468000113",
@@ -23290,7 +23665,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "468000114",
@@ -23350,7 +23725,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "468000115",
@@ -23462,7 +23837,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "468000116",
@@ -23600,7 +23975,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "512000033",
@@ -23660,7 +24035,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "515000012",
@@ -23720,7 +24095,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "515000014",
@@ -23767,7 +24142,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "515000015",
@@ -23814,7 +24189,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "515000016",
@@ -23874,7 +24249,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "516000025",
@@ -23908,7 +24283,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "516000026",
@@ -23955,7 +24330,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "516000027",
@@ -24002,7 +24377,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "516000028",
@@ -24049,7 +24424,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "516000029",
@@ -24083,7 +24458,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "516000030",
@@ -24130,7 +24505,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "490000035",
@@ -24683,7 +25058,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "433000216",
@@ -24782,7 +25157,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "433000217",
@@ -24897,7 +25272,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "461000165",
@@ -24970,7 +25345,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ABERTO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003266",
@@ -25004,7 +25379,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "588003267",
@@ -25132,7 +25507,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003270",
@@ -25218,7 +25593,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003271",
@@ -25333,7 +25708,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003274",
@@ -25380,7 +25755,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "588003275",
@@ -25427,7 +25802,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "588003276",
@@ -25461,7 +25836,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "486000122",
@@ -29553,40 +29928,6 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGUE"
     },
     {
-      "numped": "379001328",
-      "numnota": "416776",
-      "data": "29/07/2026",
-      "data_ord": "2026-07-29",
-      "nome": "JORGE MACIEL - OFF TRADE",
-      "cliente": "NATALIA MAYER DA COSTA LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 359.8,
-      "itens": [
-        {
-          "desc": "WHISKY J WALKER BLACK LABEL 1L",
-          "industria": "DIAGEO",
-          "qt": 2,
-          "val": 359.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "449",
-          "codfilial": "2"
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
       "numped": "379001330",
       "numnota": "416935",
       "data": "29/07/2026",
@@ -31415,53 +31756,6 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGUE"
     },
     {
-      "numped": "155004011",
-      "numnota": "416781",
-      "data": "29/07/2026",
-      "data_ord": "2026-07-29",
-      "nome": "RAPHAEL SANTOS - OFF TRADE",
-      "cliente": "32.338.524 DEIVISON LUCIANO DE OLIVEIRA GALVAO",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :3",
-      "obs": "",
-      "total": 532.36,
-      "itens": [
-        {
-          "desc": "RED BULL 24X250ML",
-          "industria": "RED BULL",
-          "qt": 1,
-          "val": 172.56,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "3",
-          "codfilial": "2"
-        },
-        {
-          "desc": "WHISKY J WALKER BLACK LABEL 1L",
-          "industria": "DIAGEO",
-          "qt": 2,
-          "val": 359.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "449",
-          "codfilial": "2"
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
       "numped": "155004013",
       "numnota": "416770",
       "data": "29/07/2026",
@@ -31700,74 +31994,6 @@ const PEDIDOS_DATA = {
       ],
       "tem_corte": false,
       "status_log": "CANCELADA"
-    },
-    {
-      "numped": "155004020",
-      "numnota": "416856",
-      "data": "29/07/2026",
-      "data_ord": "2026-07-29",
-      "nome": "RAPHAEL SANTOS - OFF TRADE",
-      "cliente": "PERFECT BEER BUZIOS LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 1079.6,
-      "itens": [
-        {
-          "desc": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
-          "industria": "DIAGEO",
-          "qt": 4,
-          "val": 1079.6,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 4.0,
-          "cortado": false,
-          "codprod": "20",
-          "codfilial": "2"
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "155004022",
-      "numnota": "416954",
-      "data": "29/07/2026",
-      "data_ord": "2026-07-29",
-      "nome": "RAPHAEL SANTOS - OFF TRADE",
-      "cliente": "65.295.756 JHONATHAN AXEL GONCALVES FONTINELI FONSECA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 1079.6,
-      "itens": [
-        {
-          "desc": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
-          "industria": "DIAGEO",
-          "qt": 4,
-          "val": 1079.6,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 4.0,
-          "cortado": false,
-          "codprod": "20",
-          "codfilial": "2"
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
     },
     {
       "numped": "155004026",
@@ -34286,7 +34512,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "460000152",
@@ -34521,7 +34747,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "426000404",
@@ -34589,7 +34815,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "466000062",
@@ -35027,7 +35253,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "467000059",
@@ -35580,7 +35806,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "516000021",
@@ -35705,7 +35931,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "516000023",
@@ -35765,7 +35991,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "516000024",
@@ -35825,7 +36051,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "490000032",
@@ -36952,7 +37178,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "463000054",
@@ -36999,7 +37225,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "476000252",
@@ -37665,7 +37891,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "588003255",
@@ -40650,79 +40876,6 @@ const PEDIDOS_DATA = {
           "qt_original": 1.0,
           "cortado": false,
           "codprod": "5583",
-          "codfilial": "2"
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "439000303",
-      "numnota": "416652",
-      "data": "28/07/2026",
-      "data_ord": "2026-07-28",
-      "nome": "MATEUS CARDOSO - OFF TRADE",
-      "cliente": "EDUARDO METZKER DE LIMA 88949150778",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :2613",
-      "obs": "Data entrega: 30/07/26",
-      "total": 358.8,
-      "itens": [
-        {
-          "desc": "VILLA ROSA BRANCO 750ML",
-          "industria": "CASTAS",
-          "qt": 3,
-          "val": 89.7,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 3.0,
-          "cortado": false,
-          "codprod": "2613",
-          "codfilial": "2"
-        },
-        {
-          "desc": "VILLA ROSA  ROSE 750ML",
-          "industria": "CASTAS",
-          "qt": 3,
-          "val": 89.7,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 3.0,
-          "cortado": false,
-          "codprod": "2703",
-          "codfilial": "2"
-        },
-        {
-          "desc": "VINHO GRAVEDAD SAUV. BLANC 750ML",
-          "industria": "CASTAS",
-          "qt": 3,
-          "val": 89.7,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 3.0,
-          "cortado": false,
-          "codprod": "2923",
-          "codfilial": "2"
-        },
-        {
-          "desc": "VINHO VILLA ROSA FRISANTE BRANCO",
-          "industria": "CASTAS",
-          "qt": 3,
-          "val": 89.7,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 3.0,
-          "cortado": false,
-          "codprod": "4067",
           "codfilial": "2"
         }
       ],
@@ -46906,40 +47059,6 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGUE"
     },
     {
-      "numped": "419000732",
-      "numnota": "416285",
-      "data": "28/07/2026",
-      "data_ord": "2026-07-28",
-      "nome": "NÁTALI DE OLIVEIRA - OFF TRADE",
-      "cliente": "JCS COMERCIO DE BEBIDAS",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "data entrega: 29/07",
-      "total": 359.8,
-      "itens": [
-        {
-          "desc": "WHISKY J WALKER BLACK LABEL 1L",
-          "industria": "DIAGEO",
-          "qt": 2,
-          "val": 359.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "449",
-          "codfilial": "2"
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
       "numped": "450000497",
       "numnota": "416110",
       "data": "28/07/2026",
@@ -49102,7 +49221,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ABERTO"
+      "status_log": "CARREGADO"
     },
     {
       "numped": "516000017",
@@ -49136,7 +49255,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "516000018",
@@ -49196,7 +49315,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "516000019",
@@ -49386,7 +49505,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "491000017",
@@ -50438,7 +50557,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ABERTO"
+      "status_log": "CARREGADO"
     },
     {
       "numped": "463000053",
@@ -62337,40 +62456,6 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGUE"
     },
     {
-      "numped": "159005137",
-      "numnota": "415448",
-      "data": "24/07/2026",
-      "data_ord": "2026-07-24",
-      "nome": "GISELLE BARFER - OFF TRADE",
-      "cliente": "AGILITA AMBIENTES PLANEJADOS LIMITADA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :315",
-      "obs": "",
-      "total": 517.68,
-      "itens": [
-        {
-          "desc": "RED BULL SUGAR FREE 24X250ML",
-          "industria": "RED BULL",
-          "qt": 3,
-          "val": 517.68,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 3.0,
-          "cortado": false,
-          "codprod": "315",
-          "codfilial": "2"
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
       "numped": "159005139",
       "numnota": "415429",
       "data": "24/07/2026",
@@ -67018,40 +67103,6 @@ const PEDIDOS_DATA = {
           "qt_original": 20.0,
           "cortado": false,
           "codprod": "714",
-          "codfilial": "2"
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "156003735",
-      "numnota": "416618",
-      "data": "23/07/2026",
-      "data_ord": "2026-07-23",
-      "nome": "MARILENA TRAGEL - OFF TRADE",
-      "cliente": "INOVA CONVENIENCIA LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 384.5,
-      "itens": [
-        {
-          "desc": "WHISKY J WALKER RED LABEL 1L",
-          "industria": "DIAGEO",
-          "qt": 5,
-          "val": 384.5,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 5.0,
-          "cortado": false,
-          "codprod": "313",
           "codfilial": "2"
         }
       ],
