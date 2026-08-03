@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "03/08/2026 12:07",
+  "atualizado_em": "03/08/2026 14:12",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -9098,6 +9098,38 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
+        "codcli": "86267",
+        "cliente": "FERNANDA ALINE DE OLIVEIRA ARCANJO 12649134780",
+        "bairro": "TAQUARA",
+        "dtultcomp": "13/03/2026",
+        "produtos": [
+          {
+            "produto": "CACHACA VELHO BARREIRO 910 ML",
+            "fantasia": "TATUZINHO",
+            "qt": 3,
+            "valor": 38.7
+          },
+          {
+            "produto": "CANTINA DA SERRA 1,5L",
+            "fantasia": "COMARY",
+            "qt": 10,
+            "valor": 99.0
+          },
+          {
+            "produto": "CATUABA SELVAGEM 900ML",
+            "fantasia": "COMARY",
+            "qt": 5,
+            "valor": 59.25
+          },
+          {
+            "produto": "COQUETEL BANANINHA REGGIANI 950ML",
+            "fantasia": "CATUABA",
+            "qt": 5,
+            "valor": 84.5
+          }
+        ]
+      },
+      {
         "codcli": "2147",
         "cliente": "BARRA CARNES LTDA",
         "bairro": "BARRA DA TIJUCA",
@@ -10694,13 +10726,6 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95806",
-        "cliente": "GUARATIBA SUPERMERCADO & ALIMENTOS LTDA",
-        "bairro": "GUARATIBA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "95807",
         "cliente": "GUARATIBA SUPERMERCADO & ALIMENTOS LTDA",
         "bairro": "GUARATIBA",
@@ -10716,6 +10741,13 @@ const NAO_POS_ES_DATA = {
       },
       {
         "codcli": "95804",
+        "cliente": "GUARATIBA SUPERMERCADO & ALIMENTOS LTDA",
+        "bairro": "GUARATIBA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95806",
         "cliente": "GUARATIBA SUPERMERCADO & ALIMENTOS LTDA",
         "bairro": "GUARATIBA",
         "dtultcomp": "nan",
