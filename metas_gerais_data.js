@@ -1,5 +1,5 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "03/08/2026 10:05",
+  "atualizado_em": "03/08/2026 10:33",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 3,
@@ -7,8 +7,8 @@ const METAS_GERAIS_DATA = {
   "dias_restantes": 28,
   "resumo": {
     "fat": NaN,
-    "fat_ant": 1166169.16,
-    "fat_ant_completo": 13969465.8,
+    "fat_ant": 1155757.36,
+    "fat_ant_completo": 13959054.0,
     "pos": 99,
     "pos_ant": 296,
     "pos_ant_completo": 1829
@@ -16,8 +16,8 @@ const METAS_GERAIS_DATA = {
   "total": {
     "meta": 14400000.0,
     "fat": NaN,
-    "fat_ant": 1166169.16,
-    "fat_ant_completo": 13969465.8,
+    "fat_ant": 1155757.36,
+    "fat_ant_completo": 13959054.0,
     "pct": NaN,
     "nec_dia": NaN
   },
@@ -66,11 +66,11 @@ const METAS_GERAIS_DATA = {
       "label": "Minas Gerais",
       "meta": 2100000.0,
       "fat": NaN,
-      "fat_ant": 109385.32,
+      "fat_ant": 98973.52,
       "pos": 0,
       "pct": NaN,
       "nec_dia": NaN,
-      "fat_ant_completo": 1953721.71,
+      "fat_ant_completo": 1943309.91,
       "pos_ant": 43,
       "pos_ant_completo": 271
     }
