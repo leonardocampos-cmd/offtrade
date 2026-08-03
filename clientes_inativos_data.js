@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "01/08/2026 08:59",
+  "atualizado_em": "03/08/2026 10:17",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -13,36 +13,18 @@ const INATIVOS_DATA = {
           "bairro": "TAQUARA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "07/02/2026",
-          "dias": 175,
+          "dias": 177,
           "media": 0.0
         }
       ],
       "sem_compra": [
-        {
-          "codcli": "91161",
-          "cliente": "CRISTINA BORGES LOURENCO 08134291708",
-          "bairro": "TAUA",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "04/05/2026",
-          "dias": 89,
-          "media": 76.43
-        },
-        {
-          "codcli": "91254",
-          "cliente": "DROGARIA NOBRE DE REALENGO LTDA",
-          "bairro": "REALENGO",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "04/05/2026",
-          "dias": 89,
-          "media": 72.24
-        },
         {
           "codcli": "91644",
           "cliente": "LUIZA DE MARILAC SOUZA BITTENCOURT 81477597700",
           "bairro": "TAQUARA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "05/05/2026",
-          "dias": 88,
+          "dias": 90,
           "media": 23.92
         },
         {
@@ -51,7 +33,7 @@ const INATIVOS_DATA = {
           "bairro": "FREGUESIA ILHA DO GOVERNADOR",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "06/05/2026",
-          "dias": 87,
+          "dias": 89,
           "media": 45.2
         },
         {
@@ -60,7 +42,7 @@ const INATIVOS_DATA = {
           "bairro": "HIGIENÓPOLIS",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "06/05/2026",
-          "dias": 87,
+          "dias": 89,
           "media": 108.22
         },
         {
@@ -69,7 +51,7 @@ const INATIVOS_DATA = {
           "bairro": "SENADOR CAMARA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "07/05/2026",
-          "dias": 86,
+          "dias": 88,
           "media": 0.0
         },
         {
@@ -78,17 +60,8 @@ const INATIVOS_DATA = {
           "bairro": "GARDÊNIA AZUL",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "07/05/2026",
-          "dias": 86,
+          "dias": 88,
           "media": 1211.2
-        },
-        {
-          "codcli": "76914",
-          "cliente": "JOAO WILSON FONTENELE MACHADO 01404916784",
-          "bairro": "CAMPO GRANDE",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "11/05/2026",
-          "dias": 82,
-          "media": 48.89
         },
         {
           "codcli": "92326",
@@ -96,8 +69,17 @@ const INATIVOS_DATA = {
           "bairro": "PECHINCHA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/05/2026",
-          "dias": 82,
+          "dias": 84,
           "media": 61.8
+        },
+        {
+          "codcli": "76914",
+          "cliente": "JOAO WILSON FONTENELE MACHADO 01404916784",
+          "bairro": "CAMPO GRANDE",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "11/05/2026",
+          "dias": 84,
+          "media": 48.89
         },
         {
           "codcli": "94407",
@@ -105,17 +87,8 @@ const INATIVOS_DATA = {
           "bairro": "BRAZ DE PINA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "13/05/2026",
-          "dias": 80,
+          "dias": 82,
           "media": 50.19
-        },
-        {
-          "codcli": "94980",
-          "cliente": "MERCEARIA EMILU'S LTDA M E",
-          "bairro": "VILA DA PENHA",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "14/05/2026",
-          "dias": 79,
-          "media": 0.0
         },
         {
           "codcli": "94997",
@@ -123,7 +96,16 @@ const INATIVOS_DATA = {
           "bairro": "VILA DA PENHA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "14/05/2026",
-          "dias": 79,
+          "dias": 81,
+          "media": 0.0
+        },
+        {
+          "codcli": "94980",
+          "cliente": "MERCEARIA EMILU'S LTDA M E",
+          "bairro": "VILA DA PENHA",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "14/05/2026",
+          "dias": 81,
           "media": 0.0
         },
         {
@@ -132,7 +114,7 @@ const INATIVOS_DATA = {
           "bairro": "JACAREPAGUÁ",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "18/05/2026",
-          "dias": 75,
+          "dias": 77,
           "media": 111.05
         },
         {
@@ -141,7 +123,7 @@ const INATIVOS_DATA = {
           "bairro": "CAMPO GRANDE",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "19/05/2026",
-          "dias": 74,
+          "dias": 76,
           "media": 0.0
         },
         {
@@ -150,7 +132,7 @@ const INATIVOS_DATA = {
           "bairro": "BRAZ DE PINA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "21/05/2026",
-          "dias": 72,
+          "dias": 74,
           "media": 316.92
         },
         {
@@ -159,7 +141,7 @@ const INATIVOS_DATA = {
           "bairro": "PADRE MIGUEL",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "22/05/2026",
-          "dias": 71,
+          "dias": 73,
           "media": 99.26
         },
         {
@@ -168,7 +150,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM GUANABARA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "25/05/2026",
-          "dias": 68,
+          "dias": 70,
           "media": 411.56
         },
         {
@@ -177,7 +159,7 @@ const INATIVOS_DATA = {
           "bairro": "REALENGO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "26/05/2026",
-          "dias": 67,
+          "dias": 69,
           "media": 85.6
         },
         {
@@ -186,7 +168,7 @@ const INATIVOS_DATA = {
           "bairro": "VARGEM PEQUENA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "27/05/2026",
-          "dias": 66,
+          "dias": 68,
           "media": 0.0
         },
         {
@@ -195,7 +177,7 @@ const INATIVOS_DATA = {
           "bairro": "VIDIGAL",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "27/05/2026",
-          "dias": 66,
+          "dias": 68,
           "media": 134.39
         },
         {
@@ -204,17 +186,8 @@ const INATIVOS_DATA = {
           "bairro": "ENGENHO NOVO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "02/06/2026",
-          "dias": 60,
+          "dias": 62,
           "media": 102.81
-        },
-        {
-          "codcli": "89433",
-          "cliente": "RESTAURANTE E LANCHONETE MIX DAS TORCIDAS LTDA",
-          "bairro": "PIEDADE",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "08/06/2026",
-          "dias": 54,
-          "media": 34.13
         },
         {
           "codcli": "94266",
@@ -222,8 +195,17 @@ const INATIVOS_DATA = {
           "bairro": "PIEDADE",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "08/06/2026",
-          "dias": 54,
+          "dias": 56,
           "media": 265.13
+        },
+        {
+          "codcli": "89433",
+          "cliente": "RESTAURANTE E LANCHONETE MIX DAS TORCIDAS LTDA",
+          "bairro": "PIEDADE",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "08/06/2026",
+          "dias": 56,
+          "media": 34.13
         },
         {
           "codcli": "91317",
@@ -231,7 +213,7 @@ const INATIVOS_DATA = {
           "bairro": "RAMOS",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/06/2026",
-          "dias": 51,
+          "dias": 53,
           "media": 189.5
         },
         {
@@ -240,7 +222,7 @@ const INATIVOS_DATA = {
           "bairro": "REALENGO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "12/06/2026",
-          "dias": 50,
+          "dias": 52,
           "media": 71.76
         },
         {
@@ -249,44 +231,8 @@ const INATIVOS_DATA = {
           "bairro": "RAMOS",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "15/06/2026",
-          "dias": 47,
+          "dias": 49,
           "media": 151.37
-        },
-        {
-          "codcli": "94985",
-          "cliente": "MERCADINHO RIO LISBOA LTDA",
-          "bairro": "PENHA CIRCULAR",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "16/06/2026",
-          "dias": 46,
-          "media": 173.09
-        },
-        {
-          "codcli": "91378",
-          "cliente": "PL MESQUITA BAR E RESTAURANTE LTDA",
-          "bairro": "PENHA",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "16/06/2026",
-          "dias": 46,
-          "media": 109.74
-        },
-        {
-          "codcli": "94392",
-          "cliente": "PADARIA E CONFEITARIA RIO DE SONHOS E SUSPIROS LTDA",
-          "bairro": "ENCANTADO",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "16/06/2026",
-          "dias": 46,
-          "media": 99.96
-        },
-        {
-          "codcli": "91330",
-          "cliente": "LC MESQUITA BAR E LANCHONETE",
-          "bairro": "OLARIA",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "16/06/2026",
-          "dias": 46,
-          "media": 824.11
         },
         {
           "codcli": "91332",
@@ -294,8 +240,44 @@ const INATIVOS_DATA = {
           "bairro": "PENHA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "16/06/2026",
-          "dias": 46,
+          "dias": 48,
           "media": 262.16
+        },
+        {
+          "codcli": "94985",
+          "cliente": "MERCADINHO RIO LISBOA LTDA",
+          "bairro": "PENHA CIRCULAR",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "16/06/2026",
+          "dias": 48,
+          "media": 173.09
+        },
+        {
+          "codcli": "94392",
+          "cliente": "PADARIA E CONFEITARIA RIO DE SONHOS E SUSPIROS LTDA",
+          "bairro": "ENCANTADO",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "16/06/2026",
+          "dias": 48,
+          "media": 99.96
+        },
+        {
+          "codcli": "91378",
+          "cliente": "PL MESQUITA BAR E RESTAURANTE LTDA",
+          "bairro": "PENHA",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "16/06/2026",
+          "dias": 48,
+          "media": 109.74
+        },
+        {
+          "codcli": "91330",
+          "cliente": "LC MESQUITA BAR E LANCHONETE",
+          "bairro": "OLARIA",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "16/06/2026",
+          "dias": 48,
+          "media": 824.11
         },
         {
           "codcli": "91243",
@@ -303,8 +285,17 @@ const INATIVOS_DATA = {
           "bairro": "REALENGO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "17/06/2026",
-          "dias": 45,
+          "dias": 47,
           "media": 0.0
+        },
+        {
+          "codcli": "86899",
+          "cliente": "MERCADINHO E PADARIA RENASCER LTDA",
+          "bairro": "SANTISSIMO",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "18/06/2026",
+          "dias": 46,
+          "media": 180.33
         },
         {
           "codcli": "76809",
@@ -312,7 +303,7 @@ const INATIVOS_DATA = {
           "bairro": "SENADOR CAMARA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "18/06/2026",
-          "dias": 44,
+          "dias": 46,
           "media": 67.8
         },
         {
@@ -321,26 +312,8 @@ const INATIVOS_DATA = {
           "bairro": "CAMPO GRANDE",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "18/06/2026",
-          "dias": 44,
+          "dias": 46,
           "media": 358.15
-        },
-        {
-          "codcli": "86899",
-          "cliente": "MERCADINHO E PADARIA RENASCER LTDA",
-          "bairro": "SANTISSIMO",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "18/06/2026",
-          "dias": 44,
-          "media": 180.33
-        },
-        {
-          "codcli": "91447",
-          "cliente": "HORTIFRUTIGRANJEIROS BETOFRUTI LTDA",
-          "bairro": "TAQUARA",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "22/06/2026",
-          "dias": 40,
-          "media": 293.63
         },
         {
           "codcli": "95352",
@@ -348,8 +321,17 @@ const INATIVOS_DATA = {
           "bairro": "REALENGO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "22/06/2026",
-          "dias": 40,
+          "dias": 42,
           "media": 126.25
+        },
+        {
+          "codcli": "91447",
+          "cliente": "HORTIFRUTIGRANJEIROS BETOFRUTI LTDA",
+          "bairro": "TAQUARA",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "22/06/2026",
+          "dias": 42,
+          "media": 293.63
         },
         {
           "codcli": "90003",
@@ -357,7 +339,7 @@ const INATIVOS_DATA = {
           "bairro": "OLARIA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "22/06/2026",
-          "dias": 40,
+          "dias": 42,
           "media": 95.09
         },
         {
@@ -366,7 +348,7 @@ const INATIVOS_DATA = {
           "bairro": "OLARIA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "23/06/2026",
-          "dias": 39,
+          "dias": 41,
           "media": 83.7
         },
         {
@@ -375,7 +357,7 @@ const INATIVOS_DATA = {
           "bairro": "OLARIA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "23/06/2026",
-          "dias": 39,
+          "dias": 41,
           "media": 200.49
         },
         {
@@ -384,7 +366,7 @@ const INATIVOS_DATA = {
           "bairro": "TAQUARA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "24/06/2026",
-          "dias": 38,
+          "dias": 40,
           "media": 96.93
         },
         {
@@ -393,7 +375,7 @@ const INATIVOS_DATA = {
           "bairro": "TAQUARA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "24/06/2026",
-          "dias": 38,
+          "dias": 40,
           "media": 969.53
         },
         {
@@ -402,7 +384,7 @@ const INATIVOS_DATA = {
           "bairro": "TAQUARA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "24/06/2026",
-          "dias": 38,
+          "dias": 40,
           "media": 0.0
         },
         {
@@ -411,7 +393,7 @@ const INATIVOS_DATA = {
           "bairro": "CURICICA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "25/06/2026",
-          "dias": 37,
+          "dias": 39,
           "media": 482.88
         },
         {
@@ -420,7 +402,7 @@ const INATIVOS_DATA = {
           "bairro": "TAQUARA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 113.49
         },
         {
@@ -429,7 +411,7 @@ const INATIVOS_DATA = {
           "bairro": "MAGALHAES BASTOS",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "01/07/2026",
-          "dias": 31,
+          "dias": 33,
           "media": 560.37
         },
         {
@@ -438,8 +420,17 @@ const INATIVOS_DATA = {
           "bairro": "PIEDADE",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "02/07/2026",
-          "dias": 30,
+          "dias": 32,
           "media": 71.76
+        },
+        {
+          "codcli": "82906",
+          "cliente": "ATLM MARECHAL COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+          "bairro": "MARECHAL HERMES",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "03/07/2026",
+          "dias": 31,
+          "media": 269.72
         }
       ],
       "novos": []
@@ -454,7 +445,7 @@ const INATIVOS_DATA = {
           "bairro": "BARRA DA TIJUCA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "27/04/2026",
-          "dias": 96,
+          "dias": 98,
           "media": 149.8
         }
       ],
@@ -465,7 +456,7 @@ const INATIVOS_DATA = {
           "bairro": "ANIL",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "21/05/2026",
-          "dias": 72,
+          "dias": 74,
           "media": 0.0
         },
         {
@@ -474,7 +465,7 @@ const INATIVOS_DATA = {
           "bairro": "DISTRITO INDUSTRIAL",
           "cidade": "QUEIMADOS",
           "dtultcomp": "26/05/2026",
-          "dias": 67,
+          "dias": 69,
           "media": 24405.12
         },
         {
@@ -483,7 +474,7 @@ const INATIVOS_DATA = {
           "bairro": "PAVUNA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/05/2026",
-          "dias": 64,
+          "dias": 66,
           "media": 7747.2
         }
       ],
@@ -499,7 +490,7 @@ const INATIVOS_DATA = {
           "bairro": "BANGU",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "07/01/2025",
-          "dias": 571,
+          "dias": 573,
           "media": 0.0
         }
       ],
@@ -510,7 +501,7 @@ const INATIVOS_DATA = {
           "bairro": "RETIRO SAO JOAQUIM",
           "cidade": "ITABORAI",
           "dtultcomp": "13/05/2026",
-          "dias": 80,
+          "dias": 82,
           "media": 0.0
         }
       ],
@@ -526,7 +517,7 @@ const INATIVOS_DATA = {
           "bairro": "CAMPO GRANDE",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "09/12/2025",
-          "dias": 235,
+          "dias": 237,
           "media": 256.0
         },
         {
@@ -535,7 +526,7 @@ const INATIVOS_DATA = {
           "bairro": "PEDRA DE GUARATIBA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/09/2025",
-          "dias": 324,
+          "dias": 326,
           "media": 348.57
         },
         {
@@ -544,7 +535,7 @@ const INATIVOS_DATA = {
           "bairro": "CAMPO GRANDE",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "25/03/2026",
-          "dias": 129,
+          "dias": 131,
           "media": 179.27
         },
         {
@@ -553,7 +544,7 @@ const INATIVOS_DATA = {
           "bairro": "BANGU",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "27/01/2026",
-          "dias": 186,
+          "dias": 188,
           "media": 1812.72
         },
         {
@@ -562,7 +553,7 @@ const INATIVOS_DATA = {
           "bairro": "SANTISSIMO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "05/02/2026",
-          "dias": 177,
+          "dias": 179,
           "media": 707.28
         },
         {
@@ -571,7 +562,7 @@ const INATIVOS_DATA = {
           "bairro": "SANTISSIMO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "26/01/2026",
-          "dias": 187,
+          "dias": 189,
           "media": 1568.31
         },
         {
@@ -580,28 +571,19 @@ const INATIVOS_DATA = {
           "bairro": "BRAZ DE PINA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "03/04/2026",
-          "dias": 120,
+          "dias": 122,
           "media": 0.0
         }
       ],
       "sem_compra": [
         {
-          "codcli": "94238",
-          "cliente": "MARIMAR DROGARIA LTDA",
-          "bairro": "VARGEM GRANDE",
+          "codcli": "91905",
+          "cliente": "DROGARIA ATRATIVA DE SEPETIBA LTDA",
+          "bairro": "SEPETIBA",
           "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "04/05/2026",
+          "dtultcomp": "06/05/2026",
           "dias": 89,
-          "media": 45.37
-        },
-        {
-          "codcli": "79479",
-          "cliente": "POSTO LIGHT HIGHWAY LTDA",
-          "bairro": "CENTRO",
-          "cidade": "NOVA IGUACU",
-          "dtultcomp": "04/05/2026",
-          "dias": 89,
-          "media": 67.2
+          "media": 52.91
         },
         {
           "codcli": "79324",
@@ -609,17 +591,8 @@ const INATIVOS_DATA = {
           "bairro": "CAMPO GRANDE",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "06/05/2026",
-          "dias": 87,
+          "dias": 89,
           "media": 442.93
-        },
-        {
-          "codcli": "91905",
-          "cliente": "DROGARIA ATRATIVA DE SEPETIBA LTDA",
-          "bairro": "SEPETIBA",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "06/05/2026",
-          "dias": 87,
-          "media": 52.91
         },
         {
           "codcli": "94235",
@@ -627,7 +600,7 @@ const INATIVOS_DATA = {
           "bairro": "REALENGO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "13/05/2026",
-          "dias": 80,
+          "dias": 82,
           "media": 208.94
         },
         {
@@ -636,7 +609,7 @@ const INATIVOS_DATA = {
           "bairro": "BICUIBA",
           "cidade": "SAQUAREMA",
           "dtultcomp": "13/05/2026",
-          "dias": 80,
+          "dias": 82,
           "media": 62.52
         },
         {
@@ -645,7 +618,7 @@ const INATIVOS_DATA = {
           "bairro": "GUARATIBA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "14/05/2026",
-          "dias": 79,
+          "dias": 81,
           "media": 144.67
         },
         {
@@ -654,7 +627,7 @@ const INATIVOS_DATA = {
           "bairro": "PENHA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "20/05/2026",
-          "dias": 73,
+          "dias": 75,
           "media": 60.43
         },
         {
@@ -663,7 +636,7 @@ const INATIVOS_DATA = {
           "bairro": "SENADOR CAMARA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/05/2026",
-          "dias": 64,
+          "dias": 66,
           "media": 0.0
         },
         {
@@ -672,7 +645,7 @@ const INATIVOS_DATA = {
           "bairro": "BANGU",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/05/2026",
-          "dias": 64,
+          "dias": 66,
           "media": 103.13
         },
         {
@@ -681,7 +654,7 @@ const INATIVOS_DATA = {
           "bairro": "BANGU",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "08/06/2026",
-          "dias": 54,
+          "dias": 56,
           "media": 95.23
         },
         {
@@ -690,7 +663,7 @@ const INATIVOS_DATA = {
           "bairro": "VIGARIO GERAL",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "08/06/2026",
-          "dias": 54,
+          "dias": 56,
           "media": 367.44
         },
         {
@@ -699,7 +672,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "PETROPOLIS",
           "dtultcomp": "10/06/2026",
-          "dias": 52,
+          "dias": 54,
           "media": 162.93
         },
         {
@@ -708,17 +681,8 @@ const INATIVOS_DATA = {
           "bairro": "CAMPO GRANDE",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "10/06/2026",
-          "dias": 52,
+          "dias": 54,
           "media": 19740.0
-        },
-        {
-          "codcli": "76233",
-          "cliente": "LOJA NOVO PEDAGIO CONVENIENCIA LTDA",
-          "bairro": "SANTA ALICE",
-          "cidade": "SEROPEDICA",
-          "dtultcomp": "15/06/2026",
-          "dias": 47,
-          "media": 199.0
         },
         {
           "codcli": "76866",
@@ -726,7 +690,7 @@ const INATIVOS_DATA = {
           "bairro": "CAMPO GRANDE",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "15/06/2026",
-          "dias": 47,
+          "dias": 49,
           "media": 100.97
         },
         {
@@ -735,8 +699,17 @@ const INATIVOS_DATA = {
           "bairro": "SERRA GRANDE",
           "cidade": "NITEROI",
           "dtultcomp": "15/06/2026",
-          "dias": 47,
+          "dias": 49,
           "media": 86.85
+        },
+        {
+          "codcli": "76233",
+          "cliente": "LOJA NOVO PEDAGIO CONVENIENCIA LTDA",
+          "bairro": "SANTA ALICE",
+          "cidade": "SEROPEDICA",
+          "dtultcomp": "15/06/2026",
+          "dias": 49,
+          "media": 199.0
         },
         {
           "codcli": "90670",
@@ -744,7 +717,7 @@ const INATIVOS_DATA = {
           "bairro": "VARZEA",
           "cidade": "TERESOPOLIS",
           "dtultcomp": "17/06/2026",
-          "dias": 45,
+          "dias": 47,
           "media": 355.94
         },
         {
@@ -753,7 +726,7 @@ const INATIVOS_DATA = {
           "bairro": "VILA VALQUEIRE",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "23/06/2026",
-          "dias": 39,
+          "dias": 41,
           "media": 98.5
         },
         {
@@ -762,7 +735,7 @@ const INATIVOS_DATA = {
           "bairro": "ANIL",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "25/06/2026",
-          "dias": 37,
+          "dias": 39,
           "media": 117.82
         },
         {
@@ -771,8 +744,17 @@ const INATIVOS_DATA = {
           "bairro": "VARGEM GRANDE",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 880.43
+        },
+        {
+          "codcli": "93389",
+          "cliente": "SUPERMERCADOS ADONAI LTDA",
+          "bairro": "IRAJA",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "30/06/2026",
+          "dias": 34,
+          "media": 1802.11
         },
         {
           "codcli": "93388",
@@ -780,7 +762,7 @@ const INATIVOS_DATA = {
           "bairro": "VARGEM PEQUENA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 3825.64
         },
         {
@@ -789,7 +771,7 @@ const INATIVOS_DATA = {
           "bairro": "CURICICA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 2879.24
         },
         {
@@ -798,17 +780,17 @@ const INATIVOS_DATA = {
           "bairro": "KM 32",
           "cidade": "NOVA IGUACU",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 1275.39
         },
         {
-          "codcli": "93389",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "bairro": "IRAJA",
+          "codcli": "17484",
+          "cliente": "MERCADO ADONAI DE INHOAIBA LTDA",
+          "bairro": "INHOAIBA",
           "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "30/06/2026",
-          "dias": 32,
-          "media": 1802.11
+          "dtultcomp": "01/07/2026",
+          "dias": 33,
+          "media": 1101.19
         },
         {
           "codcli": "76946",
@@ -816,7 +798,7 @@ const INATIVOS_DATA = {
           "bairro": "CAMPO GRANDE",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "01/07/2026",
-          "dias": 31,
+          "dias": 33,
           "media": 656.3
         },
         {
@@ -825,17 +807,17 @@ const INATIVOS_DATA = {
           "bairro": "CAMPO GRANDE",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "01/07/2026",
-          "dias": 31,
+          "dias": 33,
           "media": 2149.57
         },
         {
-          "codcli": "17484",
-          "cliente": "MERCADO ADONAI DE INHOAIBA LTDA",
-          "bairro": "INHOAIBA",
+          "codcli": "95515",
+          "cliente": "DROGARIA ROMEIROS LTDA",
+          "bairro": "RAMOS",
           "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "01/07/2026",
+          "dtultcomp": "03/07/2026",
           "dias": 31,
-          "media": 1101.19
+          "media": 211.8
         }
       ],
       "novos": [
@@ -878,7 +860,7 @@ const INATIVOS_DATA = {
           "bairro": "CASA BELLA BOSQUE RESIDENCIAL",
           "cidade": "INDAIATUBA",
           "dtultcomp": "13/12/2024",
-          "dias": 596,
+          "dias": 598,
           "media": 0.0
         },
         {
@@ -887,7 +869,7 @@ const INATIVOS_DATA = {
           "bairro": "CAMPOS ELISEOS",
           "cidade": "SAO PAULO",
           "dtultcomp": "28/10/2025",
-          "dias": 277,
+          "dias": 279,
           "media": 0.0
         },
         {
@@ -896,7 +878,7 @@ const INATIVOS_DATA = {
           "bairro": "VILA OLIMPIA",
           "cidade": "SAO PAULO",
           "dtultcomp": "30/10/2024",
-          "dias": 640,
+          "dias": 642,
           "media": 0.0
         },
         {
@@ -914,7 +896,7 @@ const INATIVOS_DATA = {
           "bairro": "MIRANDOPOLIS",
           "cidade": "SAO PAULO",
           "dtultcomp": "17/03/2026",
-          "dias": 137,
+          "dias": 139,
           "media": 0.0
         },
         {
@@ -941,7 +923,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM MODELO",
           "cidade": "SAO PAULO",
           "dtultcomp": "13/12/2024",
-          "dias": 596,
+          "dias": 598,
           "media": 0.0
         },
         {
@@ -950,7 +932,7 @@ const INATIVOS_DATA = {
           "bairro": "COCAIA",
           "cidade": "GUARULHOS",
           "dtultcomp": "13/12/2024",
-          "dias": 596,
+          "dias": 598,
           "media": 0.0
         },
         {
@@ -959,7 +941,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM ITAPEMIRIM",
           "cidade": "SAO PAULO",
           "dtultcomp": "13/12/2024",
-          "dias": 596,
+          "dias": 598,
           "media": 0.0
         }
       ],
@@ -985,7 +967,7 @@ const INATIVOS_DATA = {
           "bairro": "CAMPO GRANDE",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "23/05/2025",
-          "dias": 435,
+          "dias": 437,
           "media": 0.0
         },
         {
@@ -994,7 +976,7 @@ const INATIVOS_DATA = {
           "bairro": "CAMPO GRANDE",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "26/06/2025",
-          "dias": 401,
+          "dias": 403,
           "media": 517.9
         },
         {
@@ -1003,7 +985,7 @@ const INATIVOS_DATA = {
           "bairro": "CAMPO GRANDE",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "06/05/2025",
-          "dias": 452,
+          "dias": 454,
           "media": 312.85
         },
         {
@@ -1012,7 +994,7 @@ const INATIVOS_DATA = {
           "bairro": "BARRA DA TIJUCA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "27/06/2025",
-          "dias": 400,
+          "dias": 402,
           "media": 0.0
         },
         {
@@ -1047,7 +1029,7 @@ const INATIVOS_DATA = {
           "bairro": "ENGENHO DO MATO",
           "cidade": "NITEROI",
           "dtultcomp": "11/04/2026",
-          "dias": 112,
+          "dias": 114,
           "media": 845.96
         }
       ],
@@ -1058,7 +1040,7 @@ const INATIVOS_DATA = {
           "bairro": "VILA DA PENHA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "10/06/2026",
-          "dias": 52,
+          "dias": 54,
           "media": 225.63
         }
       ],
@@ -1074,7 +1056,7 @@ const INATIVOS_DATA = {
           "bairro": "BARRA DA TIJUCA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/09/2024",
-          "dias": 689,
+          "dias": 691,
           "media": 0.0
         },
         {
@@ -1083,7 +1065,7 @@ const INATIVOS_DATA = {
           "bairro": "BARRA DA TIJUCA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "27/02/2026",
-          "dias": 155,
+          "dias": 157,
           "media": 68.23
         },
         {
@@ -1092,7 +1074,16 @@ const INATIVOS_DATA = {
           "bairro": "PORTUGUESA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "14/04/2023",
-          "dias": 1205,
+          "dias": 1207,
+          "media": 0.0
+        },
+        {
+          "codcli": "81807",
+          "cliente": "FRUTOS DO MAR RECREIO LTDA",
+          "bairro": "RECREIO DOS BANDEIRANTES",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "28/04/2026",
+          "dias": 97,
           "media": 0.0
         },
         {
@@ -1101,7 +1092,7 @@ const INATIVOS_DATA = {
           "bairro": "TAQUARA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "09/06/2025",
-          "dias": 418,
+          "dias": 420,
           "media": 958.13
         },
         {
@@ -1110,7 +1101,7 @@ const INATIVOS_DATA = {
           "bairro": "REALENGO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "17/10/2025",
-          "dias": 288,
+          "dias": 290,
           "media": 197.44
         },
         {
@@ -1119,7 +1110,7 @@ const INATIVOS_DATA = {
           "bairro": "BARRA DA TIJUCA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/12/2025",
-          "dias": 233,
+          "dias": 235,
           "media": 0.0
         },
         {
@@ -1128,7 +1119,7 @@ const INATIVOS_DATA = {
           "bairro": "BARRA DA TIJUCA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/12/2025",
-          "dias": 214,
+          "dias": 216,
           "media": 0.0
         }
       ],
@@ -1139,7 +1130,7 @@ const INATIVOS_DATA = {
           "bairro": "GARDENIA AZUL",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/05/2026",
-          "dias": 82,
+          "dias": 84,
           "media": 685.93
         },
         {
@@ -1148,7 +1139,7 @@ const INATIVOS_DATA = {
           "bairro": "BARRA DA TIJUCA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "19/05/2026",
-          "dias": 74,
+          "dias": 76,
           "media": 0.0
         },
         {
@@ -1157,17 +1148,8 @@ const INATIVOS_DATA = {
           "bairro": "VARGEM GRANDE",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "20/05/2026",
-          "dias": 73,
+          "dias": 75,
           "media": 638.4
-        },
-        {
-          "codcli": "86431",
-          "cliente": "MERCADO E DISTRIBUIDORA DA PRACA 2021 LTDA",
-          "bairro": "JACAREPAGUA",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "28/05/2026",
-          "dias": 65,
-          "media": 604.8
         },
         {
           "codcli": "91706",
@@ -1175,17 +1157,17 @@ const INATIVOS_DATA = {
           "bairro": "ITANHANGA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "28/05/2026",
-          "dias": 65,
+          "dias": 67,
           "media": 86.4
         },
         {
-          "codcli": "86433",
-          "cliente": "NERIS MINIMERCADO LTDA",
-          "bairro": "ANIL",
+          "codcli": "86431",
+          "cliente": "MERCADO E DISTRIBUIDORA DA PRACA 2021 LTDA",
+          "bairro": "JACAREPAGUA",
           "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "02/06/2026",
-          "dias": 60,
-          "media": 1167.34
+          "dtultcomp": "28/05/2026",
+          "dias": 67,
+          "media": 604.8
         },
         {
           "codcli": "95138",
@@ -1193,8 +1175,17 @@ const INATIVOS_DATA = {
           "bairro": "JACAREPAGUA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "02/06/2026",
-          "dias": 60,
+          "dias": 62,
           "media": 276.77
+        },
+        {
+          "codcli": "86433",
+          "cliente": "NERIS MINIMERCADO LTDA",
+          "bairro": "ANIL",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "02/06/2026",
+          "dias": 62,
+          "media": 1167.34
         },
         {
           "codcli": "3863",
@@ -1202,17 +1193,8 @@ const INATIVOS_DATA = {
           "bairro": "TAQUARA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "03/06/2026",
-          "dias": 59,
+          "dias": 61,
           "media": 6053.6
-        },
-        {
-          "codcli": "86239",
-          "cliente": "MERCADO BELOT LTDA",
-          "bairro": "CENTRO/GOV PORTELA",
-          "cidade": "MIGUEL PEREIRA",
-          "dtultcomp": "10/06/2026",
-          "dias": 52,
-          "media": 176.12
         },
         {
           "codcli": "86240",
@@ -1220,8 +1202,17 @@ const INATIVOS_DATA = {
           "bairro": "PARQUE GUARARAPES",
           "cidade": "MIGUEL PEREIRA",
           "dtultcomp": "10/06/2026",
-          "dias": 52,
+          "dias": 54,
           "media": 899.44
+        },
+        {
+          "codcli": "86239",
+          "cliente": "MERCADO BELOT LTDA",
+          "bairro": "CENTRO/GOV PORTELA",
+          "cidade": "MIGUEL PEREIRA",
+          "dtultcomp": "10/06/2026",
+          "dias": 54,
+          "media": 176.12
         },
         {
           "codcli": "73317",
@@ -1229,17 +1220,8 @@ const INATIVOS_DATA = {
           "bairro": "REALENGO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "17/06/2026",
-          "dias": 45,
+          "dias": 47,
           "media": 1840.93
-        },
-        {
-          "codcli": "91995",
-          "cliente": "DOIS AMIGOS CHOPERIA LTDA",
-          "bairro": "ANIL",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "18/06/2026",
-          "dias": 44,
-          "media": 507.87
         },
         {
           "codcli": "85451",
@@ -1247,8 +1229,17 @@ const INATIVOS_DATA = {
           "bairro": "ITANHANGA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "18/06/2026",
-          "dias": 44,
+          "dias": 46,
           "media": 538.53
+        },
+        {
+          "codcli": "91995",
+          "cliente": "DOIS AMIGOS CHOPERIA LTDA",
+          "bairro": "ANIL",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "18/06/2026",
+          "dias": 46,
+          "media": 507.87
         },
         {
           "codcli": "90826",
@@ -1256,7 +1247,7 @@ const INATIVOS_DATA = {
           "bairro": "ITANHANGA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "22/06/2026",
-          "dias": 40,
+          "dias": 42,
           "media": 653.67
         },
         {
@@ -1265,7 +1256,7 @@ const INATIVOS_DATA = {
           "bairro": "PRACA SECA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "23/06/2026",
-          "dias": 39,
+          "dias": 41,
           "media": 3511.5
         },
         {
@@ -1274,7 +1265,7 @@ const INATIVOS_DATA = {
           "bairro": "TAQUARA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "23/06/2026",
-          "dias": 39,
+          "dias": 41,
           "media": 6772.0
         },
         {
@@ -1283,7 +1274,7 @@ const INATIVOS_DATA = {
           "bairro": "ANIL - RIO DAS PEDRAS",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/06/2026",
-          "dias": 33,
+          "dias": 35,
           "media": 170.4
         },
         {
@@ -1292,7 +1283,7 @@ const INATIVOS_DATA = {
           "bairro": "GUARATIBA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/06/2026",
-          "dias": 33,
+          "dias": 35,
           "media": 92.1
         },
         {
@@ -1301,17 +1292,8 @@ const INATIVOS_DATA = {
           "bairro": "RECREIO DOS BANDEIRANTES",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 269.2
-        },
-        {
-          "codcli": "82860",
-          "cliente": "TARGET FOODS MERCADO E PADARIA LTDA",
-          "bairro": "PECHINCHA",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "01/07/2026",
-          "dias": 31,
-          "media": 635.42
         },
         {
           "codcli": "83071",
@@ -1319,8 +1301,35 @@ const INATIVOS_DATA = {
           "bairro": "JACAREPAGUA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "01/07/2026",
-          "dias": 31,
+          "dias": 33,
           "media": 1426.78
+        },
+        {
+          "codcli": "82860",
+          "cliente": "TARGET FOODS MERCADO E PADARIA LTDA",
+          "bairro": "PECHINCHA",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "01/07/2026",
+          "dias": 33,
+          "media": 635.42
+        },
+        {
+          "codcli": "2849",
+          "cliente": "MERCEARIA JPA BARRA EIRELI",
+          "bairro": "TAQUARA",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "04/07/2026",
+          "dias": 30,
+          "media": 384.46
+        },
+        {
+          "codcli": "426",
+          "cliente": "MINI MERCADO CORREIO DO POVO LTDA",
+          "bairro": "TAQUARA",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "04/07/2026",
+          "dias": 30,
+          "media": 721.65
         }
       ],
       "novos": [
@@ -1381,7 +1390,7 @@ const INATIVOS_DATA = {
           "bairro": "IPANEMA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/03/2026",
-          "dias": 124,
+          "dias": 126,
           "media": 0.0
         },
         {
@@ -1390,7 +1399,7 @@ const INATIVOS_DATA = {
           "bairro": "RECREIO DOS BANDEIRANTES",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/12/2025",
-          "dias": 214,
+          "dias": 216,
           "media": 15.04
         }
       ],
@@ -1401,7 +1410,7 @@ const INATIVOS_DATA = {
           "bairro": "SAUDE",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "20/05/2026",
-          "dias": 73,
+          "dias": 75,
           "media": 0.0
         },
         {
@@ -1410,7 +1419,7 @@ const INATIVOS_DATA = {
           "bairro": "ITAIPU",
           "cidade": "NITEROI",
           "dtultcomp": "22/06/2026",
-          "dias": 40,
+          "dias": 42,
           "media": 4244.17
         },
         {
@@ -1419,21 +1428,11 @@ const INATIVOS_DATA = {
           "bairro": "CATETE",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/06/2026",
-          "dias": 33,
+          "dias": 35,
           "media": 59.92
         }
       ],
-      "novos": [
-        {
-          "codcli": "95585",
-          "cliente": "A C SUPLEMENTOS E ARTIGOS ESPORTIVOS LTDA",
-          "bairro": "RECREIO DOS BANDEIRANTES",
-          "cidade": "RIO DE JANEIRO",
-          "dtcadastro": "02/07/2026",
-          "dtultcomp": null,
-          "media": 0.0
-        }
-      ]
+      "novos": []
     },
     "GISELLE BARFER - OFF TRADE": {
       "rca": "159",
@@ -1445,7 +1444,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "04/03/2026",
-          "dias": 150,
+          "dias": 152,
           "media": 164.5
         },
         {
@@ -1454,7 +1453,7 @@ const INATIVOS_DATA = {
           "bairro": "PORTINHO",
           "cidade": "CABO FRIO",
           "dtultcomp": "27/04/2026",
-          "dias": 96,
+          "dias": 98,
           "media": 819.96
         },
         {
@@ -1463,7 +1462,7 @@ const INATIVOS_DATA = {
           "bairro": "PASSAGEM",
           "cidade": "CABO FRIO",
           "dtultcomp": "03/03/2026",
-          "dias": 151,
+          "dias": 153,
           "media": 0.0
         },
         {
@@ -1472,37 +1471,19 @@ const INATIVOS_DATA = {
           "bairro": "NOVO HORIZONTE",
           "cidade": "MACAE",
           "dtultcomp": "06/04/2026",
-          "dias": 117,
+          "dias": 119,
           "media": 2904.5
         }
       ],
       "sem_compra": [
-        {
-          "codcli": "75791",
-          "cliente": "GROBERIO GASTRONOMIA LTDA",
-          "bairro": "CAVALEIROS",
-          "cidade": "MACAE",
-          "dtultcomp": "04/05/2026",
-          "dias": 89,
-          "media": 139.8
-        },
         {
           "codcli": "81867",
           "cliente": "F & MAIGRE LTDA",
           "bairro": "OGIVA",
           "cidade": "CABO FRIO",
           "dtultcomp": "09/05/2026",
-          "dias": 84,
+          "dias": 86,
           "media": 263.2
-        },
-        {
-          "codcli": "84245",
-          "cliente": "59.660.010 LUCIANA MEIRELES DE LIMA PIRES",
-          "bairro": "PRAIA DO ANJOS",
-          "cidade": "ARRAIAL DO CABO",
-          "dtultcomp": "13/05/2026",
-          "dias": 80,
-          "media": 225.32
         },
         {
           "codcli": "90911",
@@ -1510,8 +1491,17 @@ const INATIVOS_DATA = {
           "bairro": "PARQUE TAMANDAR",
           "cidade": "CAMPOS DOS GOYT",
           "dtultcomp": "13/05/2026",
-          "dias": 80,
+          "dias": 82,
           "media": 0.0
+        },
+        {
+          "codcli": "84245",
+          "cliente": "59.660.010 LUCIANA MEIRELES DE LIMA PIRES",
+          "bairro": "PRAIA DO ANJOS",
+          "cidade": "ARRAIAL DO CABO",
+          "dtultcomp": "13/05/2026",
+          "dias": 82,
+          "media": 225.32
         },
         {
           "codcli": "80458",
@@ -1519,7 +1509,7 @@ const INATIVOS_DATA = {
           "bairro": "GLORIA",
           "cidade": "MACAE",
           "dtultcomp": "13/05/2026",
-          "dias": 80,
+          "dias": 82,
           "media": 344.16
         },
         {
@@ -1528,7 +1518,7 @@ const INATIVOS_DATA = {
           "bairro": "PRAIA CAMPISTA",
           "cidade": "MACAE",
           "dtultcomp": "18/05/2026",
-          "dias": 75,
+          "dias": 77,
           "media": 275.0
         },
         {
@@ -1537,17 +1527,8 @@ const INATIVOS_DATA = {
           "bairro": "VILLAGE RIO DAS OSTRAS",
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "19/05/2026",
-          "dias": 74,
+          "dias": 76,
           "media": 479.4
-        },
-        {
-          "codcli": "85795",
-          "cliente": "VILAREJO MATERIAIS DE CONSTRUCAO LTDA",
-          "bairro": "VILA VERDE",
-          "cidade": "CASIMIRO DE ABR",
-          "dtultcomp": "21/05/2026",
-          "dias": 72,
-          "media": 115.6
         },
         {
           "codcli": "72031",
@@ -1555,8 +1536,17 @@ const INATIVOS_DATA = {
           "bairro": "MACEDONIA",
           "cidade": "ARRAIAL DO CABO",
           "dtultcomp": "21/05/2026",
-          "dias": 72,
+          "dias": 74,
           "media": 428.47
+        },
+        {
+          "codcli": "85795",
+          "cliente": "VILAREJO MATERIAIS DE CONSTRUCAO LTDA",
+          "bairro": "VILA VERDE",
+          "cidade": "CASIMIRO DE ABR",
+          "dtultcomp": "21/05/2026",
+          "dias": 74,
+          "media": 115.6
         },
         {
           "codcli": "80310",
@@ -1564,7 +1554,7 @@ const INATIVOS_DATA = {
           "bairro": "CAVALEIROS",
           "cidade": "MACAE",
           "dtultcomp": "25/05/2026",
-          "dias": 68,
+          "dias": 70,
           "media": 0.0
         },
         {
@@ -1573,17 +1563,8 @@ const INATIVOS_DATA = {
           "bairro": "BALEIA",
           "cidade": "ARRAIAL DO CABO",
           "dtultcomp": "26/05/2026",
-          "dias": 67,
+          "dias": 69,
           "media": 211.03
-        },
-        {
-          "codcli": "80803",
-          "cliente": "ADEGA MAIS LTDA",
-          "bairro": "NOVO HORIZONTE",
-          "cidade": "MACAE",
-          "dtultcomp": "27/05/2026",
-          "dias": 66,
-          "media": 0.0
         },
         {
           "codcli": "81261",
@@ -1591,8 +1572,17 @@ const INATIVOS_DATA = {
           "bairro": "AGRIOES",
           "cidade": "TERESOPOLIS",
           "dtultcomp": "27/05/2026",
-          "dias": 66,
+          "dias": 68,
           "media": 111.6
+        },
+        {
+          "codcli": "80803",
+          "cliente": "ADEGA MAIS LTDA",
+          "bairro": "NOVO HORIZONTE",
+          "cidade": "MACAE",
+          "dtultcomp": "27/05/2026",
+          "dias": 68,
+          "media": 0.0
         },
         {
           "codcli": "77976",
@@ -1600,7 +1590,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM MIRAMAR",
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "01/06/2026",
-          "dias": 61,
+          "dias": 63,
           "media": 395.2
         },
         {
@@ -1609,7 +1599,7 @@ const INATIVOS_DATA = {
           "bairro": "VILA ISABEL",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "02/06/2026",
-          "dias": 60,
+          "dias": 62,
           "media": 131.6
         },
         {
@@ -1618,7 +1608,7 @@ const INATIVOS_DATA = {
           "bairro": "COSTAZUL",
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "02/06/2026",
-          "dias": 60,
+          "dias": 62,
           "media": 573.53
         },
         {
@@ -1627,7 +1617,7 @@ const INATIVOS_DATA = {
           "bairro": "GRANJA DOS CAVALEIROS",
           "cidade": "MACAE",
           "dtultcomp": "03/06/2026",
-          "dias": 59,
+          "dias": 61,
           "media": 503.54
         },
         {
@@ -1636,7 +1626,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM MARINGA",
           "cidade": "MACAE",
           "dtultcomp": "03/06/2026",
-          "dias": 59,
+          "dias": 61,
           "media": 404.27
         },
         {
@@ -1645,7 +1635,7 @@ const INATIVOS_DATA = {
           "bairro": "TERRA FIRME",
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "08/06/2026",
-          "dias": 54,
+          "dias": 56,
           "media": 363.73
         },
         {
@@ -1654,7 +1644,7 @@ const INATIVOS_DATA = {
           "bairro": "COSTAZUL",
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "08/06/2026",
-          "dias": 54,
+          "dias": 56,
           "media": 374.47
         },
         {
@@ -1663,7 +1653,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "MACAE",
           "dtultcomp": "08/06/2026",
-          "dias": 54,
+          "dias": 56,
           "media": 459.87
         },
         {
@@ -1672,7 +1662,7 @@ const INATIVOS_DATA = {
           "bairro": "RIO COMPRIDO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "08/06/2026",
-          "dias": 54,
+          "dias": 56,
           "media": 717.24
         },
         {
@@ -1681,7 +1671,7 @@ const INATIVOS_DATA = {
           "bairro": "BRAGA",
           "cidade": "CABO FRIO",
           "dtultcomp": "09/06/2026",
-          "dias": 53,
+          "dias": 55,
           "media": 513.69
         },
         {
@@ -1690,7 +1680,7 @@ const INATIVOS_DATA = {
           "bairro": "PRACA SECA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "10/06/2026",
-          "dias": 52,
+          "dias": 54,
           "media": 798.0
         },
         {
@@ -1699,7 +1689,7 @@ const INATIVOS_DATA = {
           "bairro": "LAGOMAR",
           "cidade": "MACAE",
           "dtultcomp": "16/06/2026",
-          "dias": 46,
+          "dias": 48,
           "media": 296.0
         },
         {
@@ -1708,7 +1698,7 @@ const INATIVOS_DATA = {
           "bairro": "ITAUNA",
           "cidade": "SAQUAREMA",
           "dtultcomp": "18/06/2026",
-          "dias": 44,
+          "dias": 46,
           "media": 575.2
         },
         {
@@ -1717,7 +1707,7 @@ const INATIVOS_DATA = {
           "bairro": "ITAUNA",
           "cidade": "SAQUAREMA",
           "dtultcomp": "19/06/2026",
-          "dias": 43,
+          "dias": 45,
           "media": 179.76
         },
         {
@@ -1726,7 +1716,7 @@ const INATIVOS_DATA = {
           "bairro": "ITAÚNA",
           "cidade": "SAQUAREMA",
           "dtultcomp": "22/06/2026",
-          "dias": 40,
+          "dias": 42,
           "media": 165.77
         },
         {
@@ -1735,7 +1725,7 @@ const INATIVOS_DATA = {
           "bairro": "ITANHANGA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "24/06/2026",
-          "dias": 38,
+          "dias": 40,
           "media": 585.3
         },
         {
@@ -1744,7 +1734,7 @@ const INATIVOS_DATA = {
           "bairro": "HUMAITA",
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "25/06/2026",
-          "dias": 37,
+          "dias": 39,
           "media": 141.8
         },
         {
@@ -1753,7 +1743,7 @@ const INATIVOS_DATA = {
           "bairro": "IMBETIBA",
           "cidade": "MACAE",
           "dtultcomp": "25/06/2026",
-          "dias": 37,
+          "dias": 39,
           "media": 0.0
         },
         {
@@ -1762,7 +1752,7 @@ const INATIVOS_DATA = {
           "bairro": "BARRA DA TIJUCA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "27/06/2026",
-          "dias": 35,
+          "dias": 37,
           "media": 199.63
         },
         {
@@ -1771,7 +1761,7 @@ const INATIVOS_DATA = {
           "bairro": "PRAIA CAMPISTA",
           "cidade": "MACAE",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 115.87
         }
       ],
@@ -1787,7 +1777,7 @@ const INATIVOS_DATA = {
           "bairro": "IPANEMA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/01/2025",
-          "dias": 549,
+          "dias": 551,
           "media": 0.0
         },
         {
@@ -1796,7 +1786,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "09/05/2025",
-          "dias": 449,
+          "dias": 451,
           "media": 57.37
         },
         {
@@ -1805,7 +1795,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "10/12/2024",
-          "dias": 599,
+          "dias": 601,
           "media": 0.0
         },
         {
@@ -1823,7 +1813,7 @@ const INATIVOS_DATA = {
           "bairro": "SANTISSIMO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "26/12/2025",
-          "dias": 218,
+          "dias": 220,
           "media": 0.0
         },
         {
@@ -1832,7 +1822,7 @@ const INATIVOS_DATA = {
           "bairro": "GUARATIBA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "06/10/2025",
-          "dias": 299,
+          "dias": 301,
           "media": 0.0
         },
         {
@@ -1841,7 +1831,7 @@ const INATIVOS_DATA = {
           "bairro": "CAMPO GRANDE",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "15/03/2023",
-          "dias": 1235,
+          "dias": 1237,
           "media": 0.0
         }
       ],
@@ -1858,7 +1848,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "NILOPOLIS",
           "dtultcomp": "24/04/2026",
-          "dias": 99,
+          "dias": 101,
           "media": 62.6
         },
         {
@@ -1867,7 +1857,7 @@ const INATIVOS_DATA = {
           "bairro": "NOVA AMERICA",
           "cidade": "NOVA IGUACU",
           "dtultcomp": "05/12/2025",
-          "dias": 239,
+          "dias": 241,
           "media": 0.0
         }
       ],
@@ -1878,7 +1868,7 @@ const INATIVOS_DATA = {
           "bairro": "CABUCU",
           "cidade": "NOVA IGUACU",
           "dtultcomp": "06/05/2026",
-          "dias": 87,
+          "dias": 89,
           "media": 1294.51
         },
         {
@@ -1887,17 +1877,8 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "NILOPOLIS",
           "dtultcomp": "08/05/2026",
-          "dias": 85,
+          "dias": 87,
           "media": 65.28
-        },
-        {
-          "codcli": "91672",
-          "cliente": "PAVUNA EXPRESS COMERCIO LTDA",
-          "bairro": "PAVUNA",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "12/05/2026",
-          "dias": 81,
-          "media": 292.83
         },
         {
           "codcli": "89919",
@@ -1905,8 +1886,17 @@ const INATIVOS_DATA = {
           "bairro": "VILAR DOS TELES",
           "cidade": "SAO JOAO DE MER",
           "dtultcomp": "12/05/2026",
-          "dias": 81,
+          "dias": 83,
           "media": 131.84
+        },
+        {
+          "codcli": "91672",
+          "cliente": "PAVUNA EXPRESS COMERCIO LTDA",
+          "bairro": "PAVUNA",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "12/05/2026",
+          "dias": 83,
+          "media": 292.83
         },
         {
           "codcli": "95069",
@@ -1914,17 +1904,8 @@ const INATIVOS_DATA = {
           "bairro": "RECREIO DOS BANDEIRANTES",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "20/05/2026",
-          "dias": 73,
+          "dias": 75,
           "media": 493.0
-        },
-        {
-          "codcli": "95070",
-          "cliente": "DBPAIVA COMERCIO VAREJISTA LTDA",
-          "bairro": "XAVANTES",
-          "cidade": "BELFORD ROXO",
-          "dtultcomp": "22/05/2026",
-          "dias": 71,
-          "media": 131.37
         },
         {
           "codcli": "95072",
@@ -1932,8 +1913,17 @@ const INATIVOS_DATA = {
           "bairro": "SÃO JOSÉ",
           "cidade": "BELFORD ROXO",
           "dtultcomp": "22/05/2026",
-          "dias": 71,
+          "dias": 73,
           "media": 65.28
+        },
+        {
+          "codcli": "95070",
+          "cliente": "DBPAIVA COMERCIO VAREJISTA LTDA",
+          "bairro": "XAVANTES",
+          "cidade": "BELFORD ROXO",
+          "dtultcomp": "22/05/2026",
+          "dias": 73,
+          "media": 131.37
         },
         {
           "codcli": "91752",
@@ -1941,7 +1931,7 @@ const INATIVOS_DATA = {
           "bairro": "PARQUE ANCHIETA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "26/05/2026",
-          "dias": 67,
+          "dias": 69,
           "media": 217.6
         },
         {
@@ -1950,7 +1940,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM NOVA CALIFORNIA",
           "cidade": "SAO JOAO DE MER",
           "dtultcomp": "27/05/2026",
-          "dias": 66,
+          "dias": 68,
           "media": 962.4
         },
         {
@@ -1959,17 +1949,8 @@ const INATIVOS_DATA = {
           "bairro": "CHATUBA",
           "cidade": "MESQUITA",
           "dtultcomp": "29/05/2026",
-          "dias": 64,
+          "dias": 66,
           "media": 88.26
-        },
-        {
-          "codcli": "91449",
-          "cliente": "PAMELA REGOLO BATISTA 12434923763",
-          "bairro": "COELHO DA ROCHA",
-          "cidade": "SAO JOAO DE MER",
-          "dtultcomp": "02/06/2026",
-          "dias": 60,
-          "media": 39.8
         },
         {
           "codcli": "77896",
@@ -1977,8 +1958,17 @@ const INATIVOS_DATA = {
           "bairro": "VILAR DOS TELES",
           "cidade": "SAO JOAO DE MER",
           "dtultcomp": "02/06/2026",
-          "dias": 60,
+          "dias": 62,
           "media": 1239.6
+        },
+        {
+          "codcli": "91449",
+          "cliente": "PAMELA REGOLO BATISTA 12434923763",
+          "bairro": "COELHO DA ROCHA",
+          "cidade": "SAO JOAO DE MER",
+          "dtultcomp": "02/06/2026",
+          "dias": 62,
+          "media": 39.8
         },
         {
           "codcli": "91507",
@@ -1986,7 +1976,7 @@ const INATIVOS_DATA = {
           "bairro": "ANCHIETA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "09/06/2026",
-          "dias": 53,
+          "dias": 55,
           "media": 178.74
         },
         {
@@ -1995,17 +1985,8 @@ const INATIVOS_DATA = {
           "bairro": "TOMAZINHO",
           "cidade": "SAO JOAO DE MER",
           "dtultcomp": "10/06/2026",
-          "dias": 52,
+          "dias": 54,
           "media": 181.82
-        },
-        {
-          "codcli": "91536",
-          "cliente": "MERCEARIA E BAZAR DA FAMILIA LTDA",
-          "bairro": "EDEN",
-          "cidade": "SAO JOAO DE MER",
-          "dtultcomp": "22/06/2026",
-          "dias": 40,
-          "media": 170.27
         },
         {
           "codcli": "91468",
@@ -2013,8 +1994,17 @@ const INATIVOS_DATA = {
           "bairro": "GRANDE RIO",
           "cidade": "SAO JOAO DE MER",
           "dtultcomp": "22/06/2026",
-          "dias": 40,
+          "dias": 42,
           "media": 199.75
+        },
+        {
+          "codcli": "91536",
+          "cliente": "MERCEARIA E BAZAR DA FAMILIA LTDA",
+          "bairro": "EDEN",
+          "cidade": "SAO JOAO DE MER",
+          "dtultcomp": "22/06/2026",
+          "dias": 42,
+          "media": 170.27
         },
         {
           "codcli": "94336",
@@ -2022,17 +2012,8 @@ const INATIVOS_DATA = {
           "bairro": "CRUZEIRO DO SUL",
           "cidade": "MESQUITA",
           "dtultcomp": "23/06/2026",
-          "dias": 39,
+          "dias": 41,
           "media": 111.2
-        },
-        {
-          "codcli": "94794",
-          "cliente": "M T FERREIRA DA SILVA",
-          "bairro": "COSMORAMA",
-          "cidade": "MESQUITA",
-          "dtultcomp": "24/06/2026",
-          "dias": 38,
-          "media": 196.6
         },
         {
           "codcli": "95491",
@@ -2040,8 +2021,17 @@ const INATIVOS_DATA = {
           "bairro": "CHATUBA",
           "cidade": "MESQUITA",
           "dtultcomp": "24/06/2026",
-          "dias": 38,
+          "dias": 40,
           "media": 0.0
+        },
+        {
+          "codcli": "94794",
+          "cliente": "M T FERREIRA DA SILVA",
+          "bairro": "COSMORAMA",
+          "cidade": "MESQUITA",
+          "dtultcomp": "24/06/2026",
+          "dias": 40,
+          "media": 196.6
         },
         {
           "codcli": "60352",
@@ -2049,17 +2039,8 @@ const INATIVOS_DATA = {
           "bairro": "PARQUE SAO JOSE",
           "cidade": "BELFORD ROXO",
           "dtultcomp": "25/06/2026",
-          "dias": 37,
+          "dias": 39,
           "media": 195.84
-        },
-        {
-          "codcli": "94402",
-          "cliente": "ALDON ALEIXO SANTOS OLIVEIRA LTDA",
-          "bairro": "CENTRO",
-          "cidade": "NILOPOLIS",
-          "dtultcomp": "25/06/2026",
-          "dias": 37,
-          "media": 478.7
         },
         {
           "codcli": "94809",
@@ -2067,8 +2048,17 @@ const INATIVOS_DATA = {
           "bairro": "COSMORAMA",
           "cidade": "MESQUITA",
           "dtultcomp": "25/06/2026",
-          "dias": 37,
+          "dias": 39,
           "media": 293.35
+        },
+        {
+          "codcli": "94402",
+          "cliente": "ALDON ALEIXO SANTOS OLIVEIRA LTDA",
+          "bairro": "CENTRO",
+          "cidade": "NILOPOLIS",
+          "dtultcomp": "25/06/2026",
+          "dias": 39,
+          "media": 478.7
         },
         {
           "codcli": "81057",
@@ -2076,7 +2066,7 @@ const INATIVOS_DATA = {
           "bairro": "ENGENHEIRO BELFORD",
           "cidade": "SAO JOAO DE MER",
           "dtultcomp": "26/06/2026",
-          "dias": 36,
+          "dias": 38,
           "media": 1261.5
         },
         {
@@ -2085,7 +2075,7 @@ const INATIVOS_DATA = {
           "bairro": "PARQUE ALIAN",
           "cidade": "SAO JOAO DE MER",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 0.0
         },
         {
@@ -2094,7 +2084,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "SAO JOAO DE MER",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 0.0
         },
         {
@@ -2103,7 +2093,7 @@ const INATIVOS_DATA = {
           "bairro": "BOM PASTOR",
           "cidade": "BELFORD ROXO",
           "dtultcomp": "01/07/2026",
-          "dias": 31,
+          "dias": 33,
           "media": 202.86
         },
         {
@@ -2112,7 +2102,7 @@ const INATIVOS_DATA = {
           "bairro": "TOMAZINHO",
           "cidade": "SAO JOAO DE MER",
           "dtultcomp": "01/07/2026",
-          "dias": 31,
+          "dias": 33,
           "media": 402.5
         },
         {
@@ -2121,7 +2111,7 @@ const INATIVOS_DATA = {
           "bairro": "COELHO DA ROCHA",
           "cidade": "SAO JOAO DE MER",
           "dtultcomp": "01/07/2026",
-          "dias": 31,
+          "dias": 33,
           "media": 1010.96
         },
         {
@@ -2130,7 +2120,7 @@ const INATIVOS_DATA = {
           "bairro": "VILA ROSALI",
           "cidade": "SAO JOAO DE MER",
           "dtultcomp": "01/07/2026",
-          "dias": 31,
+          "dias": 33,
           "media": 531.13
         },
         {
@@ -2139,8 +2129,35 @@ const INATIVOS_DATA = {
           "bairro": "KM 32",
           "cidade": "NOVA IGUACU",
           "dtultcomp": "02/07/2026",
-          "dias": 30,
+          "dias": 32,
           "media": 205.04
+        },
+        {
+          "codcli": "91445",
+          "cliente": "MERCADO DE CARNES NOSSA SENHORA DE FATIMA DE JARDIM OLAVO BI",
+          "bairro": "OLAVO BILAC",
+          "cidade": "DUQUE DE CAXIAS",
+          "dtultcomp": "03/07/2026",
+          "dias": 31,
+          "media": 1105.0
+        },
+        {
+          "codcli": "81145",
+          "cliente": "MERCADO DE CARNES NOSSA SENHORA DE FATIMA DE COELHO DA ROCHA",
+          "bairro": "COELHO DA ROCHA",
+          "cidade": "SAO JOAO DE MER",
+          "dtultcomp": "03/07/2026",
+          "dias": 31,
+          "media": 783.6
+        },
+        {
+          "codcli": "91623",
+          "cliente": "TRES IRMAOS MERCEARIA DO SUMARE LTDA",
+          "bairro": "JARDIM SUMARE",
+          "cidade": "SAO JOAO DE MER",
+          "dtultcomp": "03/07/2026",
+          "dias": 31,
+          "media": 805.81
         }
       ],
       "novos": [
@@ -2183,7 +2200,7 @@ const INATIVOS_DATA = {
           "bairro": "AGOSTINHO SIMONATO",
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "20/05/2025",
-          "dias": 438,
+          "dias": 440,
           "media": 0.0
         },
         {
@@ -2210,7 +2227,7 @@ const INATIVOS_DATA = {
           "bairro": "DOUTOR GILBERTO MACHADO",
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "31/03/2026",
-          "dias": 123,
+          "dias": 125,
           "media": 38.67
         },
         {
@@ -2219,7 +2236,7 @@ const INATIVOS_DATA = {
           "bairro": "OTTON MARINS",
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "20/05/2025",
-          "dias": 438,
+          "dias": 440,
           "media": 0.0
         }
       ],
@@ -2230,17 +2247,8 @@ const INATIVOS_DATA = {
           "bairro": "BOM PASTOR",
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "11/05/2026",
-          "dias": 82,
+          "dias": 84,
           "media": 278.45
-        },
-        {
-          "codcli": "90207",
-          "cliente": "T V DO NASCIMENTO SUPERMERCADO BOM PASTOR",
-          "bairro": "BOM PASTOR",
-          "cidade": "CACHOEIRO DE IT",
-          "dtultcomp": "11/05/2026",
-          "dias": 82,
-          "media": 292.23
         },
         {
           "codcli": "83764",
@@ -2248,8 +2256,17 @@ const INATIVOS_DATA = {
           "bairro": "MONTE BELO",
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "11/05/2026",
-          "dias": 82,
+          "dias": 84,
           "media": 157.8
+        },
+        {
+          "codcli": "90207",
+          "cliente": "T V DO NASCIMENTO SUPERMERCADO BOM PASTOR",
+          "bairro": "BOM PASTOR",
+          "cidade": "CACHOEIRO DE IT",
+          "dtultcomp": "11/05/2026",
+          "dias": 84,
+          "media": 292.23
         },
         {
           "codcli": "91023",
@@ -2257,7 +2274,7 @@ const INATIVOS_DATA = {
           "bairro": "DOUTOR GILBERTO MACHADO",
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "12/05/2026",
-          "dias": 81,
+          "dias": 83,
           "media": 80.09
         },
         {
@@ -2266,7 +2283,7 @@ const INATIVOS_DATA = {
           "bairro": "PARAISO",
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "12/05/2026",
-          "dias": 81,
+          "dias": 83,
           "media": 78.8
         },
         {
@@ -2275,17 +2292,8 @@ const INATIVOS_DATA = {
           "bairro": "SAO LUIZ GONZAGA",
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "14/05/2026",
-          "dias": 79,
+          "dias": 81,
           "media": 135.71
-        },
-        {
-          "codcli": "90302",
-          "cliente": "M L DA SILVA VASCONCELOS MINIMERCADO E PADARIA",
-          "bairro": "RUBEM BRAGA",
-          "cidade": "CACHOEIRO DE IT",
-          "dtultcomp": "14/05/2026",
-          "dias": 79,
-          "media": 69.07
         },
         {
           "codcli": "90216",
@@ -2293,8 +2301,17 @@ const INATIVOS_DATA = {
           "bairro": "RUI PINTO BANDEIRA",
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "14/05/2026",
-          "dias": 79,
+          "dias": 81,
           "media": 403.0
+        },
+        {
+          "codcli": "90302",
+          "cliente": "M L DA SILVA VASCONCELOS MINIMERCADO E PADARIA",
+          "bairro": "RUBEM BRAGA",
+          "cidade": "CACHOEIRO DE IT",
+          "dtultcomp": "14/05/2026",
+          "dias": 81,
+          "media": 69.07
         },
         {
           "codcli": "90443",
@@ -2302,17 +2319,8 @@ const INATIVOS_DATA = {
           "bairro": "AQUIDABAN",
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "15/05/2026",
-          "dias": 78,
+          "dias": 80,
           "media": 133.64
-        },
-        {
-          "codcli": "83812",
-          "cliente": "COSTA E PEREIRA LTDA",
-          "bairro": "RUI PINTO BANDEIRA",
-          "cidade": "CACHOEIRO DE IT",
-          "dtultcomp": "21/05/2026",
-          "dias": 72,
-          "media": 0.0
         },
         {
           "codcli": "77477",
@@ -2320,7 +2328,7 @@ const INATIVOS_DATA = {
           "bairro": "VARGEM GRANDE DE SOTURNO",
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "21/05/2026",
-          "dias": 72,
+          "dias": 74,
           "media": 259.67
         },
         {
@@ -2329,25 +2337,16 @@ const INATIVOS_DATA = {
           "bairro": "AEROPORTO",
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "21/05/2026",
-          "dias": 72,
+          "dias": 74,
           "media": 296.63
         },
         {
-          "codcli": "89957",
-          "cliente": "CEREALISTA SAO BERNARDO LTDA",
-          "bairro": "AEROPORTO",
+          "codcli": "83812",
+          "cliente": "COSTA E PEREIRA LTDA",
+          "bairro": "RUI PINTO BANDEIRA",
           "cidade": "CACHOEIRO DE IT",
-          "dtultcomp": "25/05/2026",
-          "dias": 68,
-          "media": 629.2
-        },
-        {
-          "codcli": "83761",
-          "cliente": "SUPERMERCADO IMPERIAL LTDA",
-          "bairro": "ALTO UNIÃO",
-          "cidade": "CACHOEIRO DE IT",
-          "dtultcomp": "25/05/2026",
-          "dias": 68,
+          "dtultcomp": "21/05/2026",
+          "dias": 74,
           "media": 0.0
         },
         {
@@ -2356,8 +2355,26 @@ const INATIVOS_DATA = {
           "bairro": "AEROPORTO",
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "25/05/2026",
-          "dias": 68,
+          "dias": 70,
           "media": 194.49
+        },
+        {
+          "codcli": "89957",
+          "cliente": "CEREALISTA SAO BERNARDO LTDA",
+          "bairro": "AEROPORTO",
+          "cidade": "CACHOEIRO DE IT",
+          "dtultcomp": "25/05/2026",
+          "dias": 70,
+          "media": 629.2
+        },
+        {
+          "codcli": "83761",
+          "cliente": "SUPERMERCADO IMPERIAL LTDA",
+          "bairro": "ALTO UNIÃO",
+          "cidade": "CACHOEIRO DE IT",
+          "dtultcomp": "25/05/2026",
+          "dias": 70,
+          "media": 0.0
         },
         {
           "codcli": "93519",
@@ -2365,7 +2382,7 @@ const INATIVOS_DATA = {
           "bairro": "ELPÍDIO VOLPINI",
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "25/05/2026",
-          "dias": 68,
+          "dias": 70,
           "media": 173.67
         },
         {
@@ -2374,7 +2391,7 @@ const INATIVOS_DATA = {
           "bairro": "VILA RICA",
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "28/05/2026",
-          "dias": 65,
+          "dias": 67,
           "media": 135.42
         },
         {
@@ -2383,17 +2400,8 @@ const INATIVOS_DATA = {
           "bairro": "CORAMARA",
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "28/05/2026",
-          "dias": 65,
+          "dias": 67,
           "media": 480.24
-        },
-        {
-          "codcli": "93802",
-          "cliente": "MERCEARIA SILVA RIBEIRO LTDA",
-          "bairro": "DISTRITO DE GIRONDA",
-          "cidade": "CACHOEIRO DE IT",
-          "dtultcomp": "28/05/2026",
-          "dias": 65,
-          "media": 0.0
         },
         {
           "codcli": "93421",
@@ -2401,17 +2409,17 @@ const INATIVOS_DATA = {
           "bairro": "ESPLANADA",
           "cidade": "CASTELO",
           "dtultcomp": "28/05/2026",
-          "dias": 65,
+          "dias": 67,
           "media": 232.76
         },
         {
-          "codcli": "90653",
-          "cliente": "OD MARKET LTDA",
-          "bairro": "NOSSA SENHORA DA GLORIA",
+          "codcli": "93802",
+          "cliente": "MERCEARIA SILVA RIBEIRO LTDA",
+          "bairro": "DISTRITO DE GIRONDA",
           "cidade": "CACHOEIRO DE IT",
-          "dtultcomp": "29/05/2026",
-          "dias": 64,
-          "media": 195.82
+          "dtultcomp": "28/05/2026",
+          "dias": 67,
+          "media": 0.0
         },
         {
           "codcli": "76740",
@@ -2419,8 +2427,17 @@ const INATIVOS_DATA = {
           "bairro": "MARIA ORTIZ",
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "29/05/2026",
-          "dias": 64,
+          "dias": 66,
           "media": 0.0
+        },
+        {
+          "codcli": "90653",
+          "cliente": "OD MARKET LTDA",
+          "bairro": "NOSSA SENHORA DA GLORIA",
+          "cidade": "CACHOEIRO DE IT",
+          "dtultcomp": "29/05/2026",
+          "dias": 66,
+          "media": 195.82
         },
         {
           "codcli": "90303",
@@ -2428,7 +2445,7 @@ const INATIVOS_DATA = {
           "bairro": "AQUIDABAN",
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "15/06/2026",
-          "dias": 47,
+          "dias": 49,
           "media": 291.03
         },
         {
@@ -2437,7 +2454,7 @@ const INATIVOS_DATA = {
           "bairro": "NOSSA SENHORA DE FATIMA",
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "15/06/2026",
-          "dias": 47,
+          "dias": 49,
           "media": 832.83
         },
         {
@@ -2446,17 +2463,8 @@ const INATIVOS_DATA = {
           "bairro": "CORONEL BORGES",
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "15/06/2026",
-          "dias": 47,
+          "dias": 49,
           "media": 83.88
-        },
-        {
-          "codcli": "83759",
-          "cliente": "SUPERMERCADO IMPERIAL LTDA",
-          "bairro": "ALTO UNIÃO",
-          "cidade": "CACHOEIRO DE IT",
-          "dtultcomp": "15/06/2026",
-          "dias": 47,
-          "media": 96.58
         },
         {
           "codcli": "91306",
@@ -2464,8 +2472,17 @@ const INATIVOS_DATA = {
           "bairro": "SÃO GERALDO",
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "15/06/2026",
-          "dias": 47,
+          "dias": 49,
           "media": 0.0
+        },
+        {
+          "codcli": "83759",
+          "cliente": "SUPERMERCADO IMPERIAL LTDA",
+          "bairro": "ALTO UNIÃO",
+          "cidade": "CACHOEIRO DE IT",
+          "dtultcomp": "15/06/2026",
+          "dias": 49,
+          "media": 96.58
         }
       ],
       "novos": []
@@ -2489,7 +2506,7 @@ const INATIVOS_DATA = {
           "bairro": "TIJUCA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "27/01/2025",
-          "dias": 551,
+          "dias": 553,
           "media": 0.0
         },
         {
@@ -2498,7 +2515,7 @@ const INATIVOS_DATA = {
           "bairro": "COPACABANA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "22/11/2021",
-          "dias": 1713,
+          "dias": 1715,
           "media": 0.0
         },
         {
@@ -2516,7 +2533,7 @@ const INATIVOS_DATA = {
           "bairro": "IPANEMA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "23/05/2023",
-          "dias": 1166,
+          "dias": 1168,
           "media": 0.0
         },
         {
@@ -2525,7 +2542,7 @@ const INATIVOS_DATA = {
           "bairro": "JACAREPAGUA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/09/2024",
-          "dias": 689,
+          "dias": 691,
           "media": 0.0
         },
         {
@@ -2570,7 +2587,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM LEAL",
           "cidade": "DUQUE DE CAXIAS",
           "dtultcomp": "30/07/2024",
-          "dias": 732,
+          "dias": 734,
           "media": 0.0
         },
         {
@@ -2615,7 +2632,7 @@ const INATIVOS_DATA = {
           "bairro": "ITAIPU",
           "cidade": "NITEROI",
           "dtultcomp": "10/02/2025",
-          "dias": 537,
+          "dias": 539,
           "media": 0.0
         },
         {
@@ -2624,7 +2641,7 @@ const INATIVOS_DATA = {
           "bairro": "VILA SANTA ALICE",
           "cidade": "DUQUE DE CAXIAS",
           "dtultcomp": "29/12/2025",
-          "dias": 215,
+          "dias": 217,
           "media": 0.0
         },
         {
@@ -2669,7 +2686,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "NITEROI",
           "dtultcomp": "15/03/2024",
-          "dias": 869,
+          "dias": 871,
           "media": 0.0
         },
         {
@@ -2714,7 +2731,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "NITEROI",
           "dtultcomp": "10/12/2025",
-          "dias": 234,
+          "dias": 236,
           "media": 521.17
         },
         {
@@ -2795,7 +2812,7 @@ const INATIVOS_DATA = {
           "bairro": "RECREIO DOS BANDEIRANTES",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "28/03/2023",
-          "dias": 1222,
+          "dias": 1224,
           "media": 0.0
         },
         {
@@ -2822,7 +2839,7 @@ const INATIVOS_DATA = {
           "bairro": "JACARE/ CABO FRIO",
           "cidade": "CABO FRIO",
           "dtultcomp": "20/12/2022",
-          "dias": 1320,
+          "dias": 1322,
           "media": 0.0
         },
         {
@@ -2885,7 +2902,7 @@ const INATIVOS_DATA = {
           "bairro": "FREGUESIA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "05/11/2024",
-          "dias": 634,
+          "dias": 636,
           "media": 0.0
         },
         {
@@ -2903,7 +2920,7 @@ const INATIVOS_DATA = {
           "bairro": "ANIL",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "08/05/2024",
-          "dias": 815,
+          "dias": 817,
           "media": 0.0
         },
         {
@@ -2921,7 +2938,7 @@ const INATIVOS_DATA = {
           "bairro": "OLARIA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/08/2022",
-          "dias": 1451,
+          "dias": 1453,
           "media": 0.0
         },
         {
@@ -2930,7 +2947,7 @@ const INATIVOS_DATA = {
           "bairro": "VISTA ALEGRE",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/03/2023",
-          "dias": 1220,
+          "dias": 1222,
           "media": 0.0
         },
         {
@@ -2948,7 +2965,7 @@ const INATIVOS_DATA = {
           "bairro": "RAMOS",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "03/10/2024",
-          "dias": 667,
+          "dias": 669,
           "media": 0.0
         },
         {
@@ -2957,7 +2974,7 @@ const INATIVOS_DATA = {
           "bairro": "RECREIO DOS BANDEIRANTES",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "13/06/2023",
-          "dias": 1145,
+          "dias": 1147,
           "media": 0.0
         },
         {
@@ -3029,7 +3046,7 @@ const INATIVOS_DATA = {
           "bairro": "RECREIO DOS BANDEIRANTES",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "08/08/2025",
-          "dias": 358,
+          "dias": 360,
           "media": 198.53
         },
         {
@@ -3047,7 +3064,7 @@ const INATIVOS_DATA = {
           "bairro": "TIJUCA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "15/06/2023",
-          "dias": 1143,
+          "dias": 1145,
           "media": 0.0
         },
         {
@@ -3074,7 +3091,7 @@ const INATIVOS_DATA = {
           "bairro": "CACUIA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "19/12/2023",
-          "dias": 956,
+          "dias": 958,
           "media": 0.0
         },
         {
@@ -3182,7 +3199,7 @@ const INATIVOS_DATA = {
           "bairro": "FREGUESIA (ILHA DO GOVERNADOR)",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "08/07/2021",
-          "dias": 1850,
+          "dias": 1852,
           "media": 0.0
         },
         {
@@ -3218,7 +3235,7 @@ const INATIVOS_DATA = {
           "bairro": "TROBOBÓ",
           "cidade": "SAO GONCALO",
           "dtultcomp": "16/12/2022",
-          "dias": 1324,
+          "dias": 1326,
           "media": 0.0
         },
         {
@@ -3236,7 +3253,7 @@ const INATIVOS_DATA = {
           "bairro": "BOTAFOGO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "10/10/2022",
-          "dias": 1391,
+          "dias": 1393,
           "media": 0.0
         },
         {
@@ -3272,7 +3289,7 @@ const INATIVOS_DATA = {
           "bairro": "TANQUE",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "04/11/2021",
-          "dias": 1731,
+          "dias": 1733,
           "media": 0.0
         },
         {
@@ -3281,7 +3298,7 @@ const INATIVOS_DATA = {
           "bairro": "BAIA FORMOSA",
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "15/07/2022",
-          "dias": 1478,
+          "dias": 1480,
           "media": 0.0
         },
         {
@@ -3290,7 +3307,7 @@ const INATIVOS_DATA = {
           "bairro": "MANGUINHOS",
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "03/01/2023",
-          "dias": 1306,
+          "dias": 1308,
           "media": 0.0
         },
         {
@@ -3299,7 +3316,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO/ ARMA??O DOS BUZIOS",
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "01/12/2020",
-          "dias": 2069,
+          "dias": 2071,
           "media": 0.0
         },
         {
@@ -3326,7 +3343,7 @@ const INATIVOS_DATA = {
           "bairro": "RIO COMPRIDO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "22/02/2024",
-          "dias": 891,
+          "dias": 893,
           "media": 0.0
         },
         {
@@ -3353,7 +3370,7 @@ const INATIVOS_DATA = {
           "bairro": "PENHA CIRCULAR",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "18/06/2026",
-          "dias": 44,
+          "dias": 46,
           "media": 487.1
         },
         {
@@ -3391,7 +3408,7 @@ const INATIVOS_DATA = {
           "bairro": "MARECHAL HERMES",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "08/05/2026",
-          "dias": 85,
+          "dias": 87,
           "media": 172.3
         },
         {
@@ -3400,7 +3417,7 @@ const INATIVOS_DATA = {
           "bairro": "TODOS OS SANTOS",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/05/2026",
-          "dias": 82,
+          "dias": 84,
           "media": 67.8
         },
         {
@@ -3409,17 +3426,8 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "ITABORAI",
           "dtultcomp": "12/05/2026",
-          "dias": 81,
+          "dias": 83,
           "media": 61.8
-        },
-        {
-          "codcli": "79924",
-          "cliente": "P L MOURA SERVICOS E COMERCIO DE ALIMENTOS LTDA",
-          "bairro": "RECREIO DOS BANDEIRANTES",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "12/05/2026",
-          "dias": 81,
-          "media": 126.27
         },
         {
           "codcli": "4621",
@@ -3427,8 +3435,17 @@ const INATIVOS_DATA = {
           "bairro": "BARRA DA TIJUCA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "12/05/2026",
-          "dias": 81,
+          "dias": 83,
           "media": 157.37
+        },
+        {
+          "codcli": "79924",
+          "cliente": "P L MOURA SERVICOS E COMERCIO DE ALIMENTOS LTDA",
+          "bairro": "RECREIO DOS BANDEIRANTES",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "12/05/2026",
+          "dias": 83,
+          "media": 126.27
         },
         {
           "codcli": "82868",
@@ -3436,7 +3453,7 @@ const INATIVOS_DATA = {
           "bairro": "URCA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "14/05/2026",
-          "dias": 79,
+          "dias": 81,
           "media": 22.6
         },
         {
@@ -3445,7 +3462,7 @@ const INATIVOS_DATA = {
           "bairro": "TIJUCA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "15/05/2026",
-          "dias": 78,
+          "dias": 80,
           "media": 81.67
         },
         {
@@ -3454,7 +3471,7 @@ const INATIVOS_DATA = {
           "bairro": "FREGUESIA (JACAREPAGUÁ)",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "18/05/2026",
-          "dias": 75,
+          "dias": 77,
           "media": 268.13
         },
         {
@@ -3463,7 +3480,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM VINTE E CINCO DE AGOSTO",
           "cidade": "DUQUE DE CAXIAS",
           "dtultcomp": "19/05/2026",
-          "dias": 74,
+          "dias": 76,
           "media": 347.65
         },
         {
@@ -3472,7 +3489,7 @@ const INATIVOS_DATA = {
           "bairro": "BAIA FORMOSA",
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "20/05/2026",
-          "dias": 73,
+          "dias": 75,
           "media": 419.13
         },
         {
@@ -3481,7 +3498,7 @@ const INATIVOS_DATA = {
           "bairro": "SÃO CRISTOVÃO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "21/05/2026",
-          "dias": 72,
+          "dias": 74,
           "media": 60.43
         },
         {
@@ -3490,7 +3507,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "25/05/2026",
-          "dias": 68,
+          "dias": 70,
           "media": 1086.0
         },
         {
@@ -3499,7 +3516,7 @@ const INATIVOS_DATA = {
           "bairro": "ANIL",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "25/05/2026",
-          "dias": 68,
+          "dias": 70,
           "media": 339.53
         },
         {
@@ -3508,7 +3525,7 @@ const INATIVOS_DATA = {
           "bairro": "MARACANA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "27/05/2026",
-          "dias": 66,
+          "dias": 68,
           "media": 90.31
         },
         {
@@ -3517,7 +3534,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "MARICA",
           "dtultcomp": "29/05/2026",
-          "dias": 64,
+          "dias": 66,
           "media": 161.3
         },
         {
@@ -3526,7 +3543,7 @@ const INATIVOS_DATA = {
           "bairro": "BOTAFOGO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/05/2026",
-          "dias": 64,
+          "dias": 66,
           "media": 266.67
         },
         {
@@ -3535,7 +3552,7 @@ const INATIVOS_DATA = {
           "bairro": "RECREIO DOS BANDEIRANTES",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "01/06/2026",
-          "dias": 61,
+          "dias": 63,
           "media": 168.8
         },
         {
@@ -3544,7 +3561,7 @@ const INATIVOS_DATA = {
           "bairro": "MARACANA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "01/06/2026",
-          "dias": 61,
+          "dias": 63,
           "media": 245.67
         },
         {
@@ -3553,7 +3570,7 @@ const INATIVOS_DATA = {
           "bairro": "RECREIO DOS BANDEIRANTES",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "02/06/2026",
-          "dias": 60,
+          "dias": 62,
           "media": 565.97
         },
         {
@@ -3562,7 +3579,7 @@ const INATIVOS_DATA = {
           "bairro": "ADRIANOPOLIS",
           "cidade": "NOVA IGUACU",
           "dtultcomp": "03/06/2026",
-          "dias": 59,
+          "dias": 61,
           "media": 245.31
         },
         {
@@ -3571,7 +3588,7 @@ const INATIVOS_DATA = {
           "bairro": "JACAREPAGUÁ",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "05/06/2026",
-          "dias": 57,
+          "dias": 59,
           "media": 303.56
         },
         {
@@ -3580,7 +3597,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM VINTE E CINCO DE AGOSTO",
           "cidade": "DUQUE DE CAXIAS",
           "dtultcomp": "06/06/2026",
-          "dias": 56,
+          "dias": 58,
           "media": 1920.4
         },
         {
@@ -3589,7 +3606,7 @@ const INATIVOS_DATA = {
           "bairro": "ANIL",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "08/06/2026",
-          "dias": 54,
+          "dias": 56,
           "media": 207.73
         },
         {
@@ -3598,17 +3615,8 @@ const INATIVOS_DATA = {
           "bairro": "HUMAITÁ",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "09/06/2026",
-          "dias": 53,
+          "dias": 55,
           "media": 878.83
-        },
-        {
-          "codcli": "2310",
-          "cliente": "POSTO DE GASOLINA BRACARENSE LTDA",
-          "bairro": "MARACANA",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "10/06/2026",
-          "dias": 52,
-          "media": 668.27
         },
         {
           "codcli": "83308",
@@ -3616,7 +3624,7 @@ const INATIVOS_DATA = {
           "bairro": "SAO CONRADO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "10/06/2026",
-          "dias": 52,
+          "dias": 54,
           "media": 187.37
         },
         {
@@ -3625,8 +3633,17 @@ const INATIVOS_DATA = {
           "bairro": "BOTAFOGO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "10/06/2026",
-          "dias": 52,
+          "dias": 54,
           "media": 1214.07
+        },
+        {
+          "codcli": "2310",
+          "cliente": "POSTO DE GASOLINA BRACARENSE LTDA",
+          "bairro": "MARACANA",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "10/06/2026",
+          "dias": 54,
+          "media": 668.27
         },
         {
           "codcli": "79820",
@@ -3634,7 +3651,7 @@ const INATIVOS_DATA = {
           "bairro": "BARRA DA TIJUCA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/06/2026",
-          "dias": 51,
+          "dias": 53,
           "media": 163.98
         },
         {
@@ -3643,7 +3660,7 @@ const INATIVOS_DATA = {
           "bairro": "FREGUESIA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "12/06/2026",
-          "dias": 50,
+          "dias": 52,
           "media": 523.74
         },
         {
@@ -3652,26 +3669,8 @@ const INATIVOS_DATA = {
           "bairro": "DEL CASTILHO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "15/06/2026",
-          "dias": 47,
+          "dias": 49,
           "media": 530.59
-        },
-        {
-          "codcli": "95366",
-          "cliente": "AUTO POSTO CREMONEZE LTDA",
-          "bairro": "CAMPO GRANDE",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "18/06/2026",
-          "dias": 44,
-          "media": 913.09
-        },
-        {
-          "codcli": "73247",
-          "cliente": "GALAPAGOS CENTRO AUTOMOTIVO LTDA",
-          "bairro": "CENTRO",
-          "cidade": "SAO JOAO DE MER",
-          "dtultcomp": "18/06/2026",
-          "dias": 44,
-          "media": 622.5
         },
         {
           "codcli": "79254",
@@ -3679,17 +3678,8 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM VINTE E CINCO DE AGOSTO",
           "cidade": "DUQUE DE CAXIAS",
           "dtultcomp": "18/06/2026",
-          "dias": 44,
+          "dias": 46,
           "media": 3388.0
-        },
-        {
-          "codcli": "85669",
-          "cliente": "SNACK STORE LTDA",
-          "bairro": "MANGUINHOS",
-          "cidade": "ARMACAO DOS BUZ",
-          "dtultcomp": "18/06/2026",
-          "dias": 44,
-          "media": 408.97
         },
         {
           "codcli": "95421",
@@ -3697,8 +3687,35 @@ const INATIVOS_DATA = {
           "bairro": "BAIA FORMOSA",
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "18/06/2026",
-          "dias": 44,
+          "dias": 46,
           "media": 408.97
+        },
+        {
+          "codcli": "95366",
+          "cliente": "AUTO POSTO CREMONEZE LTDA",
+          "bairro": "CAMPO GRANDE",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "18/06/2026",
+          "dias": 46,
+          "media": 913.09
+        },
+        {
+          "codcli": "85669",
+          "cliente": "SNACK STORE LTDA",
+          "bairro": "MANGUINHOS",
+          "cidade": "ARMACAO DOS BUZ",
+          "dtultcomp": "18/06/2026",
+          "dias": 46,
+          "media": 408.97
+        },
+        {
+          "codcli": "73247",
+          "cliente": "GALAPAGOS CENTRO AUTOMOTIVO LTDA",
+          "bairro": "CENTRO",
+          "cidade": "SAO JOAO DE MER",
+          "dtultcomp": "18/06/2026",
+          "dias": 46,
+          "media": 622.5
         },
         {
           "codcli": "80886",
@@ -3706,7 +3723,7 @@ const INATIVOS_DATA = {
           "bairro": "GALEAO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "18/06/2026",
-          "dias": 44,
+          "dias": 46,
           "media": 260.13
         },
         {
@@ -3715,17 +3732,8 @@ const INATIVOS_DATA = {
           "bairro": "JACAREPAGUA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "19/06/2026",
-          "dias": 43,
+          "dias": 45,
           "media": 858.48
-        },
-        {
-          "codcli": "79246",
-          "cliente": "J R CONVENIENCIAS LTDA",
-          "bairro": "ICARAI",
-          "cidade": "NITEROI",
-          "dtultcomp": "22/06/2026",
-          "dias": 40,
-          "media": 698.35
         },
         {
           "codcli": "2161",
@@ -3733,8 +3741,17 @@ const INATIVOS_DATA = {
           "bairro": "BARRA DA TIJUCA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "22/06/2026",
-          "dias": 40,
+          "dias": 42,
           "media": 261.83
+        },
+        {
+          "codcli": "79246",
+          "cliente": "J R CONVENIENCIAS LTDA",
+          "bairro": "ICARAI",
+          "cidade": "NITEROI",
+          "dtultcomp": "22/06/2026",
+          "dias": 42,
+          "media": 698.35
         },
         {
           "codcli": "93218",
@@ -3742,7 +3759,7 @@ const INATIVOS_DATA = {
           "bairro": "LAGOA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "22/06/2026",
-          "dias": 40,
+          "dias": 42,
           "media": 1395.08
         },
         {
@@ -3751,7 +3768,7 @@ const INATIVOS_DATA = {
           "bairro": "BOTAFOGO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "23/06/2026",
-          "dias": 39,
+          "dias": 41,
           "media": 315.21
         },
         {
@@ -3760,7 +3777,7 @@ const INATIVOS_DATA = {
           "bairro": "LARANJEIRAS",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "23/06/2026",
-          "dias": 39,
+          "dias": 41,
           "media": 317.6
         },
         {
@@ -3769,7 +3786,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "NOVA IGUACU",
           "dtultcomp": "24/06/2026",
-          "dias": 38,
+          "dias": 40,
           "media": 279.8
         },
         {
@@ -3778,7 +3795,7 @@ const INATIVOS_DATA = {
           "bairro": "VARGEM GRANDE",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "24/06/2026",
-          "dias": 38,
+          "dias": 40,
           "media": 181.5
         },
         {
@@ -3787,7 +3804,7 @@ const INATIVOS_DATA = {
           "bairro": "BARRA DA TIJUCA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "25/06/2026",
-          "dias": 37,
+          "dias": 39,
           "media": 201.27
         },
         {
@@ -3796,7 +3813,7 @@ const INATIVOS_DATA = {
           "bairro": "ENGENHO NOVO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "26/06/2026",
-          "dias": 36,
+          "dias": 38,
           "media": 344.63
         },
         {
@@ -3805,7 +3822,7 @@ const INATIVOS_DATA = {
           "bairro": "PRACA SECA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "26/06/2026",
-          "dias": 36,
+          "dias": 38,
           "media": 220.83
         },
         {
@@ -3814,7 +3831,7 @@ const INATIVOS_DATA = {
           "bairro": "BARRA DA TIJUCA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/06/2026",
-          "dias": 33,
+          "dias": 35,
           "media": 1302.03
         },
         {
@@ -3823,17 +3840,8 @@ const INATIVOS_DATA = {
           "bairro": "RECREIO DOS BANDEIRANTES",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/06/2026",
-          "dias": 33,
+          "dias": 35,
           "media": 1262.24
-        },
-        {
-          "codcli": "73248",
-          "cliente": "POSTO DE GASOLINA JB CAXIAS LTDA",
-          "bairro": "CHACARA RIO PETROPOLIS",
-          "cidade": "DUQUE DE CAXIAS",
-          "dtultcomp": "30/06/2026",
-          "dias": 32,
-          "media": 450.83
         },
         {
           "codcli": "79614",
@@ -3841,8 +3849,17 @@ const INATIVOS_DATA = {
           "bairro": "FONSECA",
           "cidade": "NITEROI",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 351.27
+        },
+        {
+          "codcli": "73248",
+          "cliente": "POSTO DE GASOLINA JB CAXIAS LTDA",
+          "bairro": "CHACARA RIO PETROPOLIS",
+          "cidade": "DUQUE DE CAXIAS",
+          "dtultcomp": "30/06/2026",
+          "dias": 34,
+          "media": 450.83
         },
         {
           "codcli": "78952",
@@ -3850,7 +3867,7 @@ const INATIVOS_DATA = {
           "bairro": "BARRA DA TIJUCA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "01/07/2026",
-          "dias": 31,
+          "dias": 33,
           "media": 962.46
         },
         {
@@ -3859,7 +3876,7 @@ const INATIVOS_DATA = {
           "bairro": "LAGOA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "01/07/2026",
-          "dias": 31,
+          "dias": 33,
           "media": 1768.29
         },
         {
@@ -3868,7 +3885,7 @@ const INATIVOS_DATA = {
           "bairro": "FONSECA",
           "cidade": "NITEROI",
           "dtultcomp": "01/07/2026",
-          "dias": 31,
+          "dias": 33,
           "media": 125.73
         },
         {
@@ -3877,8 +3894,17 @@ const INATIVOS_DATA = {
           "bairro": "INHOAIBA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "02/07/2026",
-          "dias": 30,
+          "dias": 32,
           "media": 2157.8
+        },
+        {
+          "codcli": "82921",
+          "cliente": "AUTO POSTO NOVO AMERICAS LTDA",
+          "bairro": "RECREIO DOS BANDEIRANTES",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "03/07/2026",
+          "dias": 31,
+          "media": 772.4
         }
       ],
       "novos": []
@@ -3893,7 +3919,7 @@ const INATIVOS_DATA = {
           "bairro": "PARQUE PEREQUE (MAMBUCABA)",
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "10/03/2026",
-          "dias": 144,
+          "dias": 146,
           "media": 907.4
         },
         {
@@ -3902,7 +3928,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "10/03/2026",
-          "dias": 144,
+          "dias": 146,
           "media": 139.6
         }
       ],
@@ -3913,7 +3939,7 @@ const INATIVOS_DATA = {
           "bairro": "NOVA ANGRA (CUNHAMBEBE)",
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "13/05/2026",
-          "dias": 80,
+          "dias": 82,
           "media": 0.0
         },
         {
@@ -3922,7 +3948,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "18/05/2026",
-          "dias": 75,
+          "dias": 77,
           "media": 0.0
         },
         {
@@ -3931,7 +3957,7 @@ const INATIVOS_DATA = {
           "bairro": "ARIRO (CUNHAMBEBE)",
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "02/06/2026",
-          "dias": 60,
+          "dias": 62,
           "media": 0.0
         },
         {
@@ -3940,26 +3966,8 @@ const INATIVOS_DATA = {
           "bairro": "MONSUABA",
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "10/06/2026",
-          "dias": 52,
+          "dias": 54,
           "media": 251.45
-        },
-        {
-          "codcli": "79318",
-          "cliente": "MULTI PARATY MERCADO LTDA",
-          "bairro": "PATITIBA",
-          "cidade": "PARATI",
-          "dtultcomp": "16/06/2026",
-          "dias": 46,
-          "media": 231.4
-        },
-        {
-          "codcli": "79321",
-          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
-          "bairro": "CAMPO BELO (CUNHAMBEBE)",
-          "cidade": "ANGRA DOS REIS",
-          "dtultcomp": "16/06/2026",
-          "dias": 46,
-          "media": 357.0
         },
         {
           "codcli": "8875",
@@ -3967,8 +3975,26 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "16/06/2026",
-          "dias": 46,
+          "dias": 48,
           "media": 135.6
+        },
+        {
+          "codcli": "79321",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "bairro": "CAMPO BELO (CUNHAMBEBE)",
+          "cidade": "ANGRA DOS REIS",
+          "dtultcomp": "16/06/2026",
+          "dias": 48,
+          "media": 357.0
+        },
+        {
+          "codcli": "79318",
+          "cliente": "MULTI PARATY MERCADO LTDA",
+          "bairro": "PATITIBA",
+          "cidade": "PARATI",
+          "dtultcomp": "16/06/2026",
+          "dias": 48,
+          "media": 231.4
         },
         {
           "codcli": "69866",
@@ -3976,17 +4002,17 @@ const INATIVOS_DATA = {
           "bairro": "SERRA D'AGUA (CUNHAMBEBE)",
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "17/06/2026",
-          "dias": 45,
+          "dias": 47,
           "media": 148.98
         },
         {
-          "codcli": "8878",
-          "cliente": "MULTI ANGRA MERCADO LTDA",
-          "bairro": "RIBEIRA",
+          "codcli": "92006",
+          "cliente": "MULTI ANGRA 4 MERCADO LTDA",
+          "bairro": "FRADE (CUNHAMBEBE)",
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "17/06/2026",
-          "dias": 45,
-          "media": 2709.41
+          "dias": 47,
+          "media": 209.4
         },
         {
           "codcli": "8876",
@@ -3994,7 +4020,7 @@ const INATIVOS_DATA = {
           "bairro": "RJ",
           "cidade": "PARATI",
           "dtultcomp": "17/06/2026",
-          "dias": 45,
+          "dias": 47,
           "media": 2059.6
         },
         {
@@ -4003,17 +4029,17 @@ const INATIVOS_DATA = {
           "bairro": "PARQUE MAMBUCADA",
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "17/06/2026",
-          "dias": 45,
+          "dias": 47,
           "media": 495.52
         },
         {
-          "codcli": "92006",
-          "cliente": "MULTI ANGRA 4 MERCADO LTDA",
-          "bairro": "FRADE (CUNHAMBEBE)",
+          "codcli": "8878",
+          "cliente": "MULTI ANGRA MERCADO LTDA",
+          "bairro": "RIBEIRA",
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "17/06/2026",
-          "dias": 45,
-          "media": 209.4
+          "dias": 47,
+          "media": 2709.41
         },
         {
           "codcli": "79320",
@@ -4021,17 +4047,8 @@ const INATIVOS_DATA = {
           "bairro": "PARQUE DAS PALMEIRAS",
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "17/06/2026",
-          "dias": 45,
+          "dias": 47,
           "media": 2475.68
-        },
-        {
-          "codcli": "69463",
-          "cliente": "J. A. M. DA SILVA",
-          "bairro": "MAMBUCABINHA",
-          "cidade": "ANGRA DOS REIS",
-          "dtultcomp": "24/06/2026",
-          "dias": 38,
-          "media": 594.0
         },
         {
           "codcli": "75192",
@@ -4039,7 +4056,7 @@ const INATIVOS_DATA = {
           "bairro": "PANTANAL",
           "cidade": "PARATI",
           "dtultcomp": "24/06/2026",
-          "dias": 38,
+          "dias": 40,
           "media": 175.73
         },
         {
@@ -4048,7 +4065,7 @@ const INATIVOS_DATA = {
           "bairro": "GARATUCAIA",
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "24/06/2026",
-          "dias": 38,
+          "dias": 40,
           "media": 119.6
         },
         {
@@ -4057,8 +4074,17 @@ const INATIVOS_DATA = {
           "bairro": "AEROPORTO (CUNHAMBEBE)",
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "24/06/2026",
-          "dias": 38,
+          "dias": 40,
           "media": 189.4
+        },
+        {
+          "codcli": "69463",
+          "cliente": "J. A. M. DA SILVA",
+          "bairro": "MAMBUCABINHA",
+          "cidade": "ANGRA DOS REIS",
+          "dtultcomp": "24/06/2026",
+          "dias": 40,
+          "media": 594.0
         },
         {
           "codcli": "79083",
@@ -4066,7 +4092,7 @@ const INATIVOS_DATA = {
           "bairro": "FRADE (CUNHAMBEBE)",
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "01/07/2026",
-          "dias": 31,
+          "dias": 33,
           "media": 89.47
         },
         {
@@ -4075,7 +4101,7 @@ const INATIVOS_DATA = {
           "bairro": "CONCEICAO DE JACAREI",
           "cidade": "MANGARATIBA",
           "dtultcomp": "02/06/2026",
-          "dias": 60,
+          "dias": 62,
           "media": 560.0
         },
         {
@@ -4084,7 +4110,7 @@ const INATIVOS_DATA = {
           "bairro": "LARANJEIRAS",
           "cidade": "PARATI",
           "dtultcomp": "02/07/2026",
-          "dias": 30,
+          "dias": 32,
           "media": 236.64
         }
       ],
@@ -4137,7 +4163,7 @@ const INATIVOS_DATA = {
           "bairro": "COSTAZUL",
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "28/12/2020",
-          "dias": 2042,
+          "dias": 2044,
           "media": 0.0
         },
         {
@@ -4146,7 +4172,7 @@ const INATIVOS_DATA = {
           "bairro": "OPERARIO",
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "03/02/2024",
-          "dias": 910,
+          "dias": 912,
           "media": 0.0
         }
       ],
@@ -4163,27 +4189,18 @@ const INATIVOS_DATA = {
           "bairro": "BARRA DA TIJUCA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "15/08/2025",
-          "dias": 351,
+          "dias": 353,
           "media": 0.0
         }
       ],
       "sem_compra": [
-        {
-          "codcli": "94891",
-          "cliente": "ATACADAO MAROMBA CAMPO GRANDE LTDA",
-          "bairro": "CAMPO GRANDE",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "08/05/2026",
-          "dias": 85,
-          "media": 240.3
-        },
         {
           "codcli": "94890",
           "cliente": "ATACADAO MAROMBA BOTAFOGO LTDA",
           "bairro": "BOTAFOGO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "08/05/2026",
-          "dias": 85,
+          "dias": 87,
           "media": 218.4
         },
         {
@@ -4192,17 +4209,17 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "NILOPOLIS",
           "dtultcomp": "08/05/2026",
-          "dias": 85,
+          "dias": 87,
           "media": 218.4
         },
         {
-          "codcli": "19228",
-          "cliente": "MERCADO ITAGIBA DE COSMOS LTDA",
-          "bairro": "COSMOS",
+          "codcli": "94891",
+          "cliente": "ATACADAO MAROMBA CAMPO GRANDE LTDA",
+          "bairro": "CAMPO GRANDE",
           "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "20/05/2026",
-          "dias": 73,
-          "media": 63.13
+          "dtultcomp": "08/05/2026",
+          "dias": 87,
+          "media": 240.3
         },
         {
           "codcli": "62177",
@@ -4210,7 +4227,7 @@ const INATIVOS_DATA = {
           "bairro": "CAMPO GRANDE",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "28/05/2026",
-          "dias": 65,
+          "dias": 67,
           "media": 331.28
         },
         {
@@ -4219,7 +4236,7 @@ const INATIVOS_DATA = {
           "bairro": "BARRA DA TIJUCA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "05/06/2026",
-          "dias": 57,
+          "dias": 59,
           "media": 568.54
         },
         {
@@ -4228,7 +4245,7 @@ const INATIVOS_DATA = {
           "bairro": "CAMPO GRANDE",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "06/06/2026",
-          "dias": 56,
+          "dias": 58,
           "media": 126.7
         },
         {
@@ -4237,7 +4254,7 @@ const INATIVOS_DATA = {
           "bairro": "CAMPO GRANDE",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "10/06/2026",
-          "dias": 52,
+          "dias": 54,
           "media": 183.08
         },
         {
@@ -4246,7 +4263,7 @@ const INATIVOS_DATA = {
           "bairro": "GUARATIBA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "25/06/2026",
-          "dias": 37,
+          "dias": 39,
           "media": 240.0
         },
         {
@@ -4255,7 +4272,7 @@ const INATIVOS_DATA = {
           "bairro": "SANTA CRUZ",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "25/06/2026",
-          "dias": 37,
+          "dias": 39,
           "media": 64.56
         },
         {
@@ -4264,7 +4281,7 @@ const INATIVOS_DATA = {
           "bairro": "SANTA CRUZ",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 94.31
         },
         {
@@ -4273,7 +4290,7 @@ const INATIVOS_DATA = {
           "bairro": "RECREIO DOS BANDEIRANTES",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "01/07/2026",
-          "dias": 31,
+          "dias": 33,
           "media": 568.54
         },
         {
@@ -4282,30 +4299,20 @@ const INATIVOS_DATA = {
           "bairro": "BANGU",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "01/07/2026",
-          "dias": 31,
+          "dias": 33,
           "media": 328.3
-        }
-      ],
-      "novos": [
-        {
-          "codcli": "95840",
-          "cliente": "SUPERMERCADO BIG FIELD LTDA",
-          "bairro": "SENADOR VASCONCELOS",
-          "cidade": "RIO DE JANEIRO",
-          "dtcadastro": "29/07/2026",
-          "dtultcomp": null,
-          "media": 0.0
         },
         {
-          "codcli": "95728",
-          "cliente": "IGREJA BATISTA BOA ESPERANCA",
-          "bairro": "CAMPO GRANDE",
+          "codcli": "90581",
+          "cliente": "49.298.259 LUIS GUILHERME SOUZA DA ROSA",
+          "bairro": "COSMOS",
           "cidade": "RIO DE JANEIRO",
-          "dtcadastro": "16/07/2026",
-          "dtultcomp": null,
-          "media": 0.0
+          "dtultcomp": "03/07/2026",
+          "dias": 31,
+          "media": 575.73
         }
-      ]
+      ],
+      "novos": []
     },
     "RAPHAEL SANTOS - OFF TRADE": {
       "rca": "155",
@@ -4317,7 +4324,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM FLAMBOYANT",
           "cidade": "CABO FRIO",
           "dtultcomp": "15/07/2025",
-          "dias": 382,
+          "dias": 384,
           "media": 0.0
         },
         {
@@ -4326,7 +4333,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO (MANGUE)",
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "13/03/2026",
-          "dias": 141,
+          "dias": 143,
           "media": 0.0
         },
         {
@@ -4335,7 +4342,7 @@ const INATIVOS_DATA = {
           "bairro": "PRAIA RASA",
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "29/01/2026",
-          "dias": 184,
+          "dias": 186,
           "media": 4247.62
         },
         {
@@ -4344,7 +4351,7 @@ const INATIVOS_DATA = {
           "bairro": "MANGINHOS",
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "15/12/2025",
-          "dias": 229,
+          "dias": 231,
           "media": 597.52
         },
         {
@@ -4353,7 +4360,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "19/11/2025",
-          "dias": 255,
+          "dias": 257,
           "media": 591.27
         },
         {
@@ -4362,7 +4369,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "13/01/2026",
-          "dias": 200,
+          "dias": 202,
           "media": 220.03
         },
         {
@@ -4371,7 +4378,7 @@ const INATIVOS_DATA = {
           "bairro": "CEM BRACAS",
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "12/03/2026",
-          "dias": 142,
+          "dias": 144,
           "media": 456.22
         },
         {
@@ -4391,7 +4398,7 @@ const INATIVOS_DATA = {
           "bairro": "OSSOS",
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "05/05/2026",
-          "dias": 88,
+          "dias": 90,
           "media": 103.7
         },
         {
@@ -4400,7 +4407,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO (MANGUE)",
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "08/05/2026",
-          "dias": 85,
+          "dias": 87,
           "media": 156.7
         },
         {
@@ -4409,7 +4416,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "12/05/2026",
-          "dias": 81,
+          "dias": 83,
           "media": 119.55
         },
         {
@@ -4418,7 +4425,7 @@ const INATIVOS_DATA = {
           "bairro": "ITAUNA",
           "cidade": "SAQUAREMA",
           "dtultcomp": "22/05/2026",
-          "dias": 71,
+          "dias": 73,
           "media": 152.4
         },
         {
@@ -4427,7 +4434,7 @@ const INATIVOS_DATA = {
           "bairro": "HUMAITA",
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "27/05/2026",
-          "dias": 66,
+          "dias": 68,
           "media": 214.5
         },
         {
@@ -4436,8 +4443,17 @@ const INATIVOS_DATA = {
           "bairro": "PASSAGEM",
           "cidade": "CABO FRIO",
           "dtultcomp": "28/05/2026",
-          "dias": 65,
+          "dias": 67,
           "media": 99.8
+        },
+        {
+          "codcli": "94795",
+          "cliente": "66.507.808 WANDERSON DOS SANTOS DIAS DOS ANJOS",
+          "bairro": "NOVA CALIFÓRNIA (TAMOIOS)",
+          "cidade": "CABO FRIO",
+          "dtultcomp": "02/06/2026",
+          "dias": 62,
+          "media": 776.6
         },
         {
           "codcli": "50875",
@@ -4445,7 +4461,7 @@ const INATIVOS_DATA = {
           "bairro": "MANGUINHOS",
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "02/06/2026",
-          "dias": 60,
+          "dias": 62,
           "media": 910.29
         },
         {
@@ -4454,17 +4470,8 @@ const INATIVOS_DATA = {
           "bairro": "CEM BRAÇAS",
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "02/06/2026",
-          "dias": 60,
+          "dias": 62,
           "media": 954.17
-        },
-        {
-          "codcli": "94795",
-          "cliente": "66.507.808 WANDERSON DOS SANTOS DIAS DOS ANJOS",
-          "bairro": "NOVA CALIFÓRNIA (TAMOIOS)",
-          "cidade": "CABO FRIO",
-          "dtultcomp": "02/06/2026",
-          "dias": 60,
-          "media": 776.6
         },
         {
           "codcli": "93122",
@@ -4472,7 +4479,7 @@ const INATIVOS_DATA = {
           "bairro": "TUCUNS",
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "05/06/2026",
-          "dias": 57,
+          "dias": 59,
           "media": 140.2
         },
         {
@@ -4481,7 +4488,7 @@ const INATIVOS_DATA = {
           "bairro": "MANGUINHOS",
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "09/06/2026",
-          "dias": 53,
+          "dias": 55,
           "media": 0.0
         },
         {
@@ -4490,7 +4497,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO (MANGUE)",
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "09/06/2026",
-          "dias": 53,
+          "dias": 55,
           "media": 1238.4
         },
         {
@@ -4499,17 +4506,8 @@ const INATIVOS_DATA = {
           "bairro": "ITAUNA",
           "cidade": "SAQUAREMA",
           "dtultcomp": "10/06/2026",
-          "dias": 52,
+          "dias": 54,
           "media": 0.0
-        },
-        {
-          "codcli": "50296",
-          "cliente": "ZE DA FEIRA BAR E LANCHONETE LTDA",
-          "bairro": "PARQUE MATARUNA",
-          "cidade": "ARARUAMA",
-          "dtultcomp": "11/06/2026",
-          "dias": 51,
-          "media": 599.2
         },
         {
           "codcli": "93497",
@@ -4517,8 +4515,17 @@ const INATIVOS_DATA = {
           "bairro": "MANGUINHOS",
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "11/06/2026",
-          "dias": 51,
+          "dias": 53,
           "media": 246.89
+        },
+        {
+          "codcli": "50296",
+          "cliente": "ZE DA FEIRA BAR E LANCHONETE LTDA",
+          "bairro": "PARQUE MATARUNA",
+          "cidade": "ARARUAMA",
+          "dtultcomp": "11/06/2026",
+          "dias": 53,
+          "media": 599.2
         },
         {
           "codcli": "55241",
@@ -4526,7 +4533,7 @@ const INATIVOS_DATA = {
           "bairro": "VILA CARANGA/ ARMACAO DOS BUZIOS",
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "23/06/2026",
-          "dias": 39,
+          "dias": 41,
           "media": 803.33
         },
         {
@@ -4535,7 +4542,7 @@ const INATIVOS_DATA = {
           "bairro": "PRAIA RASA",
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "23/06/2026",
-          "dias": 39,
+          "dias": 41,
           "media": 506.07
         },
         {
@@ -4544,7 +4551,7 @@ const INATIVOS_DATA = {
           "bairro": "RESERVA DO PERO",
           "cidade": "CABO FRIO",
           "dtultcomp": "25/06/2026",
-          "dias": 37,
+          "dias": 39,
           "media": 119.84
         },
         {
@@ -4553,7 +4560,7 @@ const INATIVOS_DATA = {
           "bairro": "SAMPAIO CORREIA (SAMPAIO CORREIA)",
           "cidade": "SAQUAREMA",
           "dtultcomp": "26/06/2026",
-          "dias": 36,
+          "dias": 38,
           "media": 533.58
         },
         {
@@ -4562,7 +4569,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 289.36
         },
         {
@@ -4571,7 +4578,7 @@ const INATIVOS_DATA = {
           "bairro": "TUCUNS",
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "01/07/2026",
-          "dias": 31,
+          "dias": 33,
           "media": 378.07
         },
         {
@@ -4580,7 +4587,7 @@ const INATIVOS_DATA = {
           "bairro": "PORTO NOVO",
           "cidade": "SAQUAREMA",
           "dtultcomp": "01/07/2026",
-          "dias": 31,
+          "dias": 33,
           "media": 3693.7
         },
         {
@@ -4589,7 +4596,7 @@ const INATIVOS_DATA = {
           "bairro": "BARROCO (ITAIPUAÇU)",
           "cidade": "MARICA",
           "dtultcomp": "02/07/2026",
-          "dias": 30,
+          "dias": 32,
           "media": 584.29
         },
         {
@@ -4598,8 +4605,17 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "ARARUAMA",
           "dtultcomp": "02/07/2026",
-          "dias": 30,
+          "dias": 32,
           "media": 361.53
+        },
+        {
+          "codcli": "78148",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS TUBARAO DE BUZIOS LTDA",
+          "bairro": "OSSOS",
+          "cidade": "ARMACAO DOS BUZ",
+          "dtultcomp": "03/07/2026",
+          "dias": 31,
+          "media": 2018.0
         }
       ],
       "novos": [
@@ -4669,7 +4685,7 @@ const INATIVOS_DATA = {
           "bairro": "LAJE DA PEDRA",
           "cidade": "CANELA",
           "dtultcomp": "28/12/2023",
-          "dias": 947,
+          "dias": 949,
           "media": 0.0
         },
         {
@@ -4678,7 +4694,7 @@ const INATIVOS_DATA = {
           "bairro": "ZONA 01",
           "cidade": "MARINGA",
           "dtultcomp": "12/12/2025",
-          "dias": 232,
+          "dias": 234,
           "media": 529.91
         },
         {
@@ -4687,7 +4703,7 @@ const INATIVOS_DATA = {
           "bairro": "BACACHERI",
           "cidade": "CURITIBA",
           "dtultcomp": "12/09/2025",
-          "dias": 323,
+          "dias": 325,
           "media": 0.0
         },
         {
@@ -4696,7 +4712,7 @@ const INATIVOS_DATA = {
           "bairro": "JUVEVÊ",
           "cidade": "CURITIBA",
           "dtultcomp": "16/10/2025",
-          "dias": 289,
+          "dias": 291,
           "media": 0.0
         },
         {
@@ -4714,7 +4730,7 @@ const INATIVOS_DATA = {
           "bairro": "LAGOA NOVA",
           "cidade": "NATAL",
           "dtultcomp": "31/10/2025",
-          "dias": 274,
+          "dias": 276,
           "media": 0.0
         },
         {
@@ -4723,7 +4739,7 @@ const INATIVOS_DATA = {
           "bairro": "MOSSUNGUE",
           "cidade": "CURITIBA",
           "dtultcomp": "21/11/2025",
-          "dias": 253,
+          "dias": 255,
           "media": 0.0
         },
         {
@@ -4732,7 +4748,7 @@ const INATIVOS_DATA = {
           "bairro": "JUVEVE",
           "cidade": "CURITIBA",
           "dtultcomp": "16/10/2025",
-          "dias": 289,
+          "dias": 291,
           "media": 0.0
         },
         {
@@ -4750,7 +4766,7 @@ const INATIVOS_DATA = {
           "bairro": "ALPHAVILLE GRACIOSA",
           "cidade": "PINHAIS",
           "dtultcomp": "15/12/2025",
-          "dias": 229,
+          "dias": 231,
           "media": 740.0
         },
         {
@@ -4777,7 +4793,7 @@ const INATIVOS_DATA = {
           "bairro": "ÁGUA VERDE",
           "cidade": "CURITIBA",
           "dtultcomp": "16/10/2025",
-          "dias": 289,
+          "dias": 291,
           "media": 0.0
         },
         {
@@ -4786,7 +4802,7 @@ const INATIVOS_DATA = {
           "bairro": "BATEL",
           "cidade": "CURITIBA",
           "dtultcomp": "13/11/2025",
-          "dias": 261,
+          "dias": 263,
           "media": 464.67
         },
         {
@@ -4795,7 +4811,7 @@ const INATIVOS_DATA = {
           "bairro": "REBOUCAS",
           "cidade": "CURITIBA",
           "dtultcomp": "25/11/2025",
-          "dias": 249,
+          "dias": 251,
           "media": 0.0
         },
         {
@@ -4804,7 +4820,7 @@ const INATIVOS_DATA = {
           "bairro": "IUCAS",
           "cidade": "TERESOPOLIS",
           "dtultcomp": "13/01/2021",
-          "dias": 2026,
+          "dias": 2028,
           "media": 0.0
         },
         {
@@ -4813,7 +4829,7 @@ const INATIVOS_DATA = {
           "bairro": "IPANEMA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/02/2022",
-          "dias": 1632,
+          "dias": 1634,
           "media": 0.0
         },
         {
@@ -4822,7 +4838,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO CÍVICO",
           "cidade": "CURITIBA",
           "dtultcomp": "18/11/2025",
-          "dias": 256,
+          "dias": 258,
           "media": 0.0
         },
         {
@@ -4831,7 +4847,7 @@ const INATIVOS_DATA = {
           "bairro": "BATEL",
           "cidade": "CURITIBA",
           "dtultcomp": "18/03/2026",
-          "dias": 136,
+          "dias": 138,
           "media": 20742.53
         },
         {
@@ -4858,7 +4874,7 @@ const INATIVOS_DATA = {
           "bairro": "ÁGUA VERDE",
           "cidade": "CURITIBA",
           "dtultcomp": "15/12/2025",
-          "dias": 229,
+          "dias": 231,
           "media": 104.0
         },
         {
@@ -4876,7 +4892,7 @@ const INATIVOS_DATA = {
           "bairro": "ÁGUA VERDE",
           "cidade": "CURITIBA",
           "dtultcomp": "28/11/2025",
-          "dias": 246,
+          "dias": 248,
           "media": 1700.0
         },
         {
@@ -4885,7 +4901,7 @@ const INATIVOS_DATA = {
           "bairro": "HUMAIT",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "03/12/2020",
-          "dias": 2067,
+          "dias": 2069,
           "media": 0.0
         },
         {
@@ -4894,7 +4910,7 @@ const INATIVOS_DATA = {
           "bairro": "SAO GERALDO",
           "cidade": "PORTO ALEGRE",
           "dtultcomp": "26/01/2026",
-          "dias": 187,
+          "dias": 189,
           "media": 1318.0
         },
         {
@@ -4903,7 +4919,7 @@ const INATIVOS_DATA = {
           "bairro": "BALNEARIO SANTA CLARA",
           "cidade": "ITAJAI",
           "dtultcomp": "01/12/2025",
-          "dias": 243,
+          "dias": 245,
           "media": 0.0
         },
         {
@@ -4912,7 +4928,7 @@ const INATIVOS_DATA = {
           "bairro": "TIJUCA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "17/02/2023",
-          "dias": 1261,
+          "dias": 1263,
           "media": 0.0
         },
         {
@@ -4921,7 +4937,7 @@ const INATIVOS_DATA = {
           "bairro": "REBOUÇAS",
           "cidade": "CURITIBA",
           "dtultcomp": "13/11/2025",
-          "dias": 261,
+          "dias": 263,
           "media": 90.0
         },
         {
@@ -4930,7 +4946,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "CURITIBA",
           "dtultcomp": "14/11/2025",
-          "dias": 260,
+          "dias": 262,
           "media": 0.0
         },
         {
@@ -4939,7 +4955,7 @@ const INATIVOS_DATA = {
           "bairro": "ABRANCHES",
           "cidade": "CURITIBA",
           "dtultcomp": "13/11/2025",
-          "dias": 261,
+          "dias": 263,
           "media": 0.0
         },
         {
@@ -4948,7 +4964,7 @@ const INATIVOS_DATA = {
           "bairro": "HUGO LANGE",
           "cidade": "CURITIBA",
           "dtultcomp": "17/12/2025",
-          "dias": 227,
+          "dias": 229,
           "media": 270.0
         },
         {
@@ -4957,7 +4973,7 @@ const INATIVOS_DATA = {
           "bairro": "IPANEMA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "24/03/2023",
-          "dias": 1226,
+          "dias": 1228,
           "media": 0.0
         },
         {
@@ -4966,7 +4982,7 @@ const INATIVOS_DATA = {
           "bairro": "SALSEIROS",
           "cidade": "ITAJAI",
           "dtultcomp": "28/10/2025",
-          "dias": 277,
+          "dias": 279,
           "media": 0.0
         },
         {
@@ -4975,7 +4991,7 @@ const INATIVOS_DATA = {
           "bairro": "MERCES",
           "cidade": "CURITIBA",
           "dtultcomp": "29/10/2025",
-          "dias": 276,
+          "dias": 278,
           "media": 0.0
         },
         {
@@ -4984,7 +5000,7 @@ const INATIVOS_DATA = {
           "bairro": "SE",
           "cidade": "SAO PAULO",
           "dtultcomp": "06/04/2026",
-          "dias": 117,
+          "dias": 119,
           "media": 0.0
         },
         {
@@ -4993,7 +5009,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO CÍVICO",
           "cidade": "CURITIBA",
           "dtultcomp": "17/12/2025",
-          "dias": 227,
+          "dias": 229,
           "media": 320.0
         },
         {
@@ -5002,7 +5018,7 @@ const INATIVOS_DATA = {
           "bairro": "MERCES",
           "cidade": "CURITIBA",
           "dtultcomp": "21/03/2025",
-          "dias": 498,
+          "dias": 500,
           "media": 0.0
         },
         {
@@ -5011,7 +5027,7 @@ const INATIVOS_DATA = {
           "bairro": "VISTA ALEGRE",
           "cidade": "CURITIBA",
           "dtultcomp": "26/07/2025",
-          "dias": 371,
+          "dias": 373,
           "media": 0.0
         },
         {
@@ -5020,7 +5036,7 @@ const INATIVOS_DATA = {
           "bairro": "BATEL",
           "cidade": "CURITIBA",
           "dtultcomp": "16/10/2025",
-          "dias": 289,
+          "dias": 291,
           "media": 0.0
         },
         {
@@ -5029,7 +5045,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "28/10/2024",
-          "dias": 642,
+          "dias": 644,
           "media": 0.0
         },
         {
@@ -5038,7 +5054,7 @@ const INATIVOS_DATA = {
           "bairro": "HUGO LANGE",
           "cidade": "CURITIBA",
           "dtultcomp": "13/11/2025",
-          "dias": 261,
+          "dias": 263,
           "media": 0.0
         },
         {
@@ -5047,7 +5063,7 @@ const INATIVOS_DATA = {
           "bairro": "IPANEMA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "06/03/2023",
-          "dias": 1244,
+          "dias": 1246,
           "media": 0.0
         },
         {
@@ -5065,7 +5081,7 @@ const INATIVOS_DATA = {
           "bairro": "SAO JOAO",
           "cidade": "ITAJAI",
           "dtultcomp": "27/04/2023",
-          "dias": 1192,
+          "dias": 1194,
           "media": 0.0
         },
         {
@@ -5074,7 +5090,7 @@ const INATIVOS_DATA = {
           "bairro": "ENGENHO DE DENTRO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "31/07/2023",
-          "dias": 1097,
+          "dias": 1099,
           "media": 0.0
         },
         {
@@ -5083,7 +5099,7 @@ const INATIVOS_DATA = {
           "bairro": "ÁGUA VERDE",
           "cidade": "CURITIBA",
           "dtultcomp": "16/10/2025",
-          "dias": 289,
+          "dias": 291,
           "media": 0.0
         },
         {
@@ -5092,7 +5108,7 @@ const INATIVOS_DATA = {
           "bairro": "MOINHOS DE VENTO",
           "cidade": "PORTO ALEGRE",
           "dtultcomp": "02/05/2024",
-          "dias": 821,
+          "dias": 823,
           "media": 0.0
         },
         {
@@ -5110,7 +5126,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "CURITIBA",
           "dtultcomp": "19/12/2025",
-          "dias": 225,
+          "dias": 227,
           "media": 2058.0
         },
         {
@@ -5119,7 +5135,7 @@ const INATIVOS_DATA = {
           "bairro": "MOINHOS DE VENTO",
           "cidade": "PORTO ALEGRE",
           "dtultcomp": "02/01/2024",
-          "dias": 942,
+          "dias": 944,
           "media": 0.0
         },
         {
@@ -5128,7 +5144,7 @@ const INATIVOS_DATA = {
           "bairro": "PRAIA DE BELAS",
           "cidade": "PORTO ALEGRE",
           "dtultcomp": "13/03/2024",
-          "dias": 871,
+          "dias": 873,
           "media": 0.0
         },
         {
@@ -5137,7 +5153,7 @@ const INATIVOS_DATA = {
           "bairro": "REBOUCAS",
           "cidade": "CURITIBA",
           "dtultcomp": "29/10/2025",
-          "dias": 276,
+          "dias": 278,
           "media": 0.0
         },
         {
@@ -5164,7 +5180,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM BOTANICO",
           "cidade": "CURITIBA",
           "dtultcomp": "13/11/2025",
-          "dias": 261,
+          "dias": 263,
           "media": 0.0
         },
         {
@@ -5173,7 +5189,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM BOTÂNICO",
           "cidade": "CURITIBA",
           "dtultcomp": "03/12/2025",
-          "dias": 241,
+          "dias": 243,
           "media": 0.0
         },
         {
@@ -5182,7 +5198,7 @@ const INATIVOS_DATA = {
           "bairro": "ZONA 07",
           "cidade": "MARINGA",
           "dtultcomp": "21/09/2022",
-          "dias": 1410,
+          "dias": 1412,
           "media": 0.0
         },
         {
@@ -5191,7 +5207,7 @@ const INATIVOS_DATA = {
           "bairro": "BATEL",
           "cidade": "CURITIBA",
           "dtultcomp": "21/11/2025",
-          "dias": 253,
+          "dias": 255,
           "media": 0.0
         },
         {
@@ -5200,7 +5216,7 @@ const INATIVOS_DATA = {
           "bairro": "JURERÊ INTERNACIONAL",
           "cidade": "FLORIANOPOLIS",
           "dtultcomp": "02/12/2024",
-          "dias": 607,
+          "dias": 609,
           "media": 0.0
         },
         {
@@ -5227,7 +5243,7 @@ const INATIVOS_DATA = {
           "bairro": "ABRANCHES",
           "cidade": "CURITIBA",
           "dtultcomp": "05/12/2025",
-          "dias": 239,
+          "dias": 241,
           "media": 1195.7
         },
         {
@@ -5236,7 +5252,7 @@ const INATIVOS_DATA = {
           "bairro": "CORDEIRINHO (PONTA NEGRA)",
           "cidade": "MARICA",
           "dtultcomp": "01/11/2024",
-          "dias": 638,
+          "dias": 640,
           "media": 0.0
         },
         {
@@ -5245,7 +5261,7 @@ const INATIVOS_DATA = {
           "bairro": "BATEL",
           "cidade": "CURITIBA",
           "dtultcomp": "13/11/2025",
-          "dias": 261,
+          "dias": 263,
           "media": 2120.0
         },
         {
@@ -5254,7 +5270,7 @@ const INATIVOS_DATA = {
           "bairro": "ZONA 07",
           "cidade": "MARINGA",
           "dtultcomp": "06/04/2024",
-          "dias": 847,
+          "dias": 849,
           "media": 0.0
         },
         {
@@ -5263,7 +5279,7 @@ const INATIVOS_DATA = {
           "bairro": "ZONA 09",
           "cidade": "MARINGA",
           "dtultcomp": "06/04/2024",
-          "dias": 847,
+          "dias": 849,
           "media": 0.0
         },
         {
@@ -5272,7 +5288,7 @@ const INATIVOS_DATA = {
           "bairro": "ZONA 07",
           "cidade": "MARINGA",
           "dtultcomp": "06/04/2024",
-          "dias": 847,
+          "dias": 849,
           "media": 0.0
         },
         {
@@ -5281,7 +5297,7 @@ const INATIVOS_DATA = {
           "bairro": "RESIDENCIAL VISTA DO MESTRE",
           "cidade": "SERRA",
           "dtultcomp": "16/12/2025",
-          "dias": 228,
+          "dias": 230,
           "media": 0.0
         },
         {
@@ -5290,7 +5306,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "CURITIBA",
           "dtultcomp": "15/12/2025",
-          "dias": 229,
+          "dias": 231,
           "media": 553.2
         },
         {
@@ -5299,7 +5315,7 @@ const INATIVOS_DATA = {
           "bairro": "ABOLICAO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "21/05/2021",
-          "dias": 1898,
+          "dias": 1900,
           "media": 0.0
         },
         {
@@ -5308,7 +5324,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM BOTÂNICO",
           "cidade": "CURITIBA",
           "dtultcomp": "28/01/2026",
-          "dias": 185,
+          "dias": 187,
           "media": 1610.88
         },
         {
@@ -5317,7 +5333,7 @@ const INATIVOS_DATA = {
           "bairro": "COPACABANA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "18/11/2025",
-          "dias": 256,
+          "dias": 258,
           "media": 0.0
         },
         {
@@ -5326,7 +5342,7 @@ const INATIVOS_DATA = {
           "bairro": "TINGUI",
           "cidade": "CURITIBA",
           "dtultcomp": "17/12/2025",
-          "dias": 227,
+          "dias": 229,
           "media": 291.6
         },
         {
@@ -5335,7 +5351,7 @@ const INATIVOS_DATA = {
           "bairro": "CACHAMBI",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "20/05/2021",
-          "dias": 1899,
+          "dias": 1901,
           "media": 0.0
         },
         {
@@ -5344,7 +5360,7 @@ const INATIVOS_DATA = {
           "bairro": "ENGENHO DE DENTRO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "07/12/2020",
-          "dias": 2063,
+          "dias": 2065,
           "media": 0.0
         },
         {
@@ -5353,7 +5369,7 @@ const INATIVOS_DATA = {
           "bairro": "BATEL",
           "cidade": "CURITIBA",
           "dtultcomp": "13/11/2025",
-          "dias": 261,
+          "dias": 263,
           "media": 0.0
         },
         {
@@ -5362,7 +5378,7 @@ const INATIVOS_DATA = {
           "bairro": "JUVEVE",
           "cidade": "CURITIBA",
           "dtultcomp": "16/10/2025",
-          "dias": 289,
+          "dias": 291,
           "media": 0.0
         },
         {
@@ -5371,7 +5387,7 @@ const INATIVOS_DATA = {
           "bairro": "AUXILIADORA",
           "cidade": "PORTO ALEGRE",
           "dtultcomp": "13/08/2024",
-          "dias": 718,
+          "dias": 720,
           "media": 0.0
         }
       ],
@@ -5388,7 +5404,7 @@ const INATIVOS_DATA = {
           "bairro": "BARRA DE SAO JOAO",
           "cidade": "CASIMIRO DE ABR",
           "dtultcomp": "26/11/2025",
-          "dias": 248,
+          "dias": 250,
           "media": 89.67
         },
         {
@@ -5397,7 +5413,7 @@ const INATIVOS_DATA = {
           "bairro": "RESIDENCIAL PRAIA ANCORA",
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "11/11/2025",
-          "dias": 263,
+          "dias": 265,
           "media": 7246.08
         }
       ],
@@ -5408,7 +5424,7 @@ const INATIVOS_DATA = {
           "bairro": "MIRANTE DA LAGOA",
           "cidade": "MACAE",
           "dtultcomp": "19/05/2026",
-          "dias": 74,
+          "dias": 76,
           "media": 203.89
         },
         {
@@ -5417,7 +5433,7 @@ const INATIVOS_DATA = {
           "bairro": "CIDADE PRAIANA",
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "27/05/2026",
-          "dias": 66,
+          "dias": 68,
           "media": 241.6
         },
         {
@@ -5426,7 +5442,7 @@ const INATIVOS_DATA = {
           "bairro": "RESIDENCIAL PRAIA ANCORA",
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "01/06/2026",
-          "dias": 61,
+          "dias": 63,
           "media": 517.12
         },
         {
@@ -5435,7 +5451,7 @@ const INATIVOS_DATA = {
           "bairro": "UNAMAR (TAMOIOS)",
           "cidade": "CABO FRIO",
           "dtultcomp": "02/06/2026",
-          "dias": 60,
+          "dias": 62,
           "media": 207.87
         },
         {
@@ -5444,7 +5460,7 @@ const INATIVOS_DATA = {
           "bairro": "RESIDENCIAL PRAIA ÂNCORA",
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "09/06/2026",
-          "dias": 53,
+          "dias": 55,
           "media": 119.84
         },
         {
@@ -5453,7 +5469,7 @@ const INATIVOS_DATA = {
           "bairro": "CAMPO ALEGRE",
           "cidade": "CASIMIRO DE ABR",
           "dtultcomp": "11/06/2026",
-          "dias": 51,
+          "dias": 53,
           "media": 1350.4
         },
         {
@@ -5462,7 +5478,7 @@ const INATIVOS_DATA = {
           "bairro": "RIO DOURADO",
           "cidade": "CASIMIRO DE ABR",
           "dtultcomp": "15/06/2026",
-          "dias": 47,
+          "dias": 49,
           "media": 555.28
         },
         {
@@ -5471,7 +5487,7 @@ const INATIVOS_DATA = {
           "bairro": "PARQUE ZABULAO",
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "17/06/2026",
-          "dias": 45,
+          "dias": 47,
           "media": 299.6
         },
         {
@@ -5480,7 +5496,7 @@ const INATIVOS_DATA = {
           "bairro": "CIDADE BEIRA MAR",
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "19/06/2026",
-          "dias": 43,
+          "dias": 45,
           "media": 119.84
         },
         {
@@ -5489,7 +5505,7 @@ const INATIVOS_DATA = {
           "bairro": "UNAMAR (TAMOIOS)",
           "cidade": "CABO FRIO",
           "dtultcomp": "23/06/2026",
-          "dias": 39,
+          "dias": 41,
           "media": 119.84
         },
         {
@@ -5498,7 +5514,7 @@ const INATIVOS_DATA = {
           "bairro": "CIDADE BEIRA MAR",
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "24/06/2026",
-          "dias": 38,
+          "dias": 40,
           "media": 119.84
         },
         {
@@ -5507,7 +5523,7 @@ const INATIVOS_DATA = {
           "bairro": "RECANTO",
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "25/06/2026",
-          "dias": 37,
+          "dias": 39,
           "media": 90.47
         },
         {
@@ -5516,7 +5532,7 @@ const INATIVOS_DATA = {
           "bairro": "NOVA ESPERANCA",
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "26/06/2026",
-          "dias": 36,
+          "dias": 38,
           "media": 489.91
         }
       ],
@@ -5543,7 +5559,7 @@ const INATIVOS_DATA = {
           "bairro": "NOVO",
           "cidade": "SERRA",
           "dtultcomp": "08/05/2026",
-          "dias": 85,
+          "dias": 87,
           "media": 0.0
         }
       ],
@@ -5560,7 +5576,7 @@ const INATIVOS_DATA = {
           "bairro": "IPANEMA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "19/05/2026",
-          "dias": 74,
+          "dias": 76,
           "media": 364.1
         },
         {
@@ -5569,7 +5585,7 @@ const INATIVOS_DATA = {
           "bairro": "VIDIGAL",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "22/05/2026",
-          "dias": 71,
+          "dias": 73,
           "media": 0.0
         },
         {
@@ -5578,7 +5594,7 @@ const INATIVOS_DATA = {
           "bairro": "LEBLON",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "03/06/2026",
-          "dias": 59,
+          "dias": 61,
           "media": 0.0
         },
         {
@@ -5587,7 +5603,7 @@ const INATIVOS_DATA = {
           "bairro": "LARANJEIRAS",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "10/06/2026",
-          "dias": 52,
+          "dias": 54,
           "media": 241.46
         },
         {
@@ -5596,7 +5612,7 @@ const INATIVOS_DATA = {
           "bairro": "IPANEMA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "16/06/2026",
-          "dias": 46,
+          "dias": 48,
           "media": 253.01
         },
         {
@@ -5605,7 +5621,7 @@ const INATIVOS_DATA = {
           "bairro": "COPACABANA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 136.87
         },
         {
@@ -5614,7 +5630,7 @@ const INATIVOS_DATA = {
           "bairro": "GAVEA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 105.31
         },
         {
@@ -5623,7 +5639,7 @@ const INATIVOS_DATA = {
           "bairro": "GAVEA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 105.31
         },
         {
@@ -5632,7 +5648,7 @@ const INATIVOS_DATA = {
           "bairro": "IPANEMA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 136.87
         },
         {
@@ -5641,7 +5657,7 @@ const INATIVOS_DATA = {
           "bairro": "IPANEMA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 105.31
         },
         {
@@ -5650,7 +5666,7 @@ const INATIVOS_DATA = {
           "bairro": "IPANEMA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 136.87
         },
         {
@@ -5659,7 +5675,7 @@ const INATIVOS_DATA = {
           "bairro": "COPACABANA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 136.87
         },
         {
@@ -5668,7 +5684,7 @@ const INATIVOS_DATA = {
           "bairro": "COPACABANA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 136.87
         },
         {
@@ -5677,7 +5693,7 @@ const INATIVOS_DATA = {
           "bairro": "BOTAFOGO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 105.31
         },
         {
@@ -5686,7 +5702,7 @@ const INATIVOS_DATA = {
           "bairro": "COPACABANA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 136.87
         },
         {
@@ -5695,7 +5711,7 @@ const INATIVOS_DATA = {
           "bairro": "LARANJEIRAS",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 136.87
         },
         {
@@ -5704,7 +5720,7 @@ const INATIVOS_DATA = {
           "bairro": "BOTAFOGO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 136.87
         },
         {
@@ -5713,7 +5729,7 @@ const INATIVOS_DATA = {
           "bairro": "COPACABANA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 105.31
         },
         {
@@ -5722,7 +5738,7 @@ const INATIVOS_DATA = {
           "bairro": "IPANEMA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "01/07/2026",
-          "dias": 31,
+          "dias": 33,
           "media": 0.0
         },
         {
@@ -5731,7 +5747,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM BOTANICO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "01/07/2026",
-          "dias": 31,
+          "dias": 33,
           "media": 105.31
         },
         {
@@ -5740,7 +5756,7 @@ const INATIVOS_DATA = {
           "bairro": "GAVEA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "01/07/2026",
-          "dias": 31,
+          "dias": 33,
           "media": 408.89
         }
       ],
@@ -5767,7 +5783,7 @@ const INATIVOS_DATA = {
           "bairro": "PARQUE LAFAIETE",
           "cidade": "DUQUE DE CAXIAS",
           "dtultcomp": "05/05/2026",
-          "dias": 88,
+          "dias": 90,
           "media": 0.0
         },
         {
@@ -5776,7 +5792,7 @@ const INATIVOS_DATA = {
           "bairro": "COMENDADOR SOARES",
           "cidade": "NOVA IGUACU",
           "dtultcomp": "09/05/2026",
-          "dias": 84,
+          "dias": 86,
           "media": 2500.4
         },
         {
@@ -5785,7 +5801,7 @@ const INATIVOS_DATA = {
           "bairro": "NOVA CAMPINAS",
           "cidade": "DUQUE DE CAXIAS",
           "dtultcomp": "11/05/2026",
-          "dias": 82,
+          "dias": 84,
           "media": 435.2
         },
         {
@@ -5794,7 +5810,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "GUAPIMIRIM",
           "dtultcomp": "11/05/2026",
-          "dias": 82,
+          "dias": 84,
           "media": 215.4
         },
         {
@@ -5803,7 +5819,7 @@ const INATIVOS_DATA = {
           "bairro": "REDENTOR",
           "cidade": "BELFORD ROXO",
           "dtultcomp": "14/05/2026",
-          "dias": 79,
+          "dias": 81,
           "media": 304.64
         },
         {
@@ -5812,7 +5828,7 @@ const INATIVOS_DATA = {
           "bairro": "PARQUE PAULISTA",
           "cidade": "DUQUE DE CAXIAS",
           "dtultcomp": "18/05/2026",
-          "dias": 75,
+          "dias": 77,
           "media": 349.0
         },
         {
@@ -5821,7 +5837,7 @@ const INATIVOS_DATA = {
           "bairro": "PARQUE PAULISTA",
           "cidade": "DUQUE DE CAXIAS",
           "dtultcomp": "25/05/2026",
-          "dias": 68,
+          "dias": 70,
           "media": 1433.8
         },
         {
@@ -5830,7 +5846,7 @@ const INATIVOS_DATA = {
           "bairro": "RICARDO DE ALBUQUERQUE",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "25/05/2026",
-          "dias": 68,
+          "dias": 70,
           "media": 942.05
         },
         {
@@ -5839,7 +5855,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM ANHANGÁ",
           "cidade": "DUQUE DE CAXIAS",
           "dtultcomp": "26/05/2026",
-          "dias": 67,
+          "dias": 69,
           "media": 0.0
         },
         {
@@ -5848,7 +5864,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM GUANABARA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "27/05/2026",
-          "dias": 66,
+          "dias": 68,
           "media": 0.0
         },
         {
@@ -5857,7 +5873,7 @@ const INATIVOS_DATA = {
           "bairro": "NOVA BELEM",
           "cidade": "JAPERI",
           "dtultcomp": "28/05/2026",
-          "dias": 65,
+          "dias": 67,
           "media": 435.85
         },
         {
@@ -5866,7 +5882,7 @@ const INATIVOS_DATA = {
           "bairro": "GUADALUPE",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/05/2026",
-          "dias": 64,
+          "dias": 66,
           "media": 0.0
         },
         {
@@ -5875,7 +5891,7 @@ const INATIVOS_DATA = {
           "bairro": "COELHO NETO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/05/2026",
-          "dias": 63,
+          "dias": 65,
           "media": 506.0
         },
         {
@@ -5884,7 +5900,7 @@ const INATIVOS_DATA = {
           "bairro": "SEPETIBA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "01/06/2026",
-          "dias": 61,
+          "dias": 63,
           "media": 217.6
         },
         {
@@ -5893,7 +5909,7 @@ const INATIVOS_DATA = {
           "bairro": "VILA LEOPOLDINA",
           "cidade": "DUQUE DE CAXIAS",
           "dtultcomp": "08/06/2026",
-          "dias": 54,
+          "dias": 56,
           "media": 0.0
         },
         {
@@ -5902,7 +5918,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM GAUNABARA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "13/06/2026",
-          "dias": 49,
+          "dias": 51,
           "media": 1118.0
         },
         {
@@ -5911,7 +5927,7 @@ const INATIVOS_DATA = {
           "bairro": "BARROS FILHO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "15/06/2026",
-          "dias": 47,
+          "dias": 49,
           "media": 2549.16
         },
         {
@@ -5920,7 +5936,7 @@ const INATIVOS_DATA = {
           "bairro": "BALNEÁRIO SÃO PEDRO",
           "cidade": "SAO PEDRO DA AL",
           "dtultcomp": "17/06/2026",
-          "dias": 45,
+          "dias": 47,
           "media": 10989.0
         },
         {
@@ -5929,7 +5945,7 @@ const INATIVOS_DATA = {
           "bairro": "SAQUAREMA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "19/06/2026",
-          "dias": 43,
+          "dias": 45,
           "media": 6660.0
         },
         {
@@ -5938,7 +5954,7 @@ const INATIVOS_DATA = {
           "bairro": "QUISSAMA",
           "cidade": "PETROPOLIS",
           "dtultcomp": "20/06/2026",
-          "dias": 42,
+          "dias": 44,
           "media": 119.6
         },
         {
@@ -5947,7 +5963,7 @@ const INATIVOS_DATA = {
           "bairro": "VILA SANTA CRUZ",
           "cidade": "DUQUE DE CAXIAS",
           "dtultcomp": "24/06/2026",
-          "dias": 38,
+          "dias": 40,
           "media": 1282.17
         },
         {
@@ -5956,8 +5972,17 @@ const INATIVOS_DATA = {
           "bairro": "NOVA CAMPINAS",
           "cidade": "DUQUE DE CAXIAS",
           "dtultcomp": "25/06/2026",
-          "dias": 37,
+          "dias": 39,
           "media": 4177.52
+        },
+        {
+          "codcli": "89954",
+          "cliente": "MERCADO RIO SUL PARQUE ELDORADO LTDA",
+          "bairro": "VILA SANTA CRUZ",
+          "cidade": "DUQUE DE CAXIAS",
+          "dtultcomp": "04/07/2026",
+          "dias": 30,
+          "media": 345.5
         }
       ],
       "novos": []
@@ -5973,17 +5998,8 @@ const INATIVOS_DATA = {
           "bairro": "ITAPUA",
           "cidade": "VILA VELHA",
           "dtultcomp": "13/05/2026",
-          "dias": 80,
+          "dias": 82,
           "media": 417.84
-        },
-        {
-          "codcli": "81696",
-          "cliente": "PARMA COMERCIAL LTDA",
-          "bairro": "PORTO NOVO",
-          "cidade": "CARIACICA",
-          "dtultcomp": "27/05/2026",
-          "dias": 66,
-          "media": 520.33
         },
         {
           "codcli": "81681",
@@ -5991,7 +6007,7 @@ const INATIVOS_DATA = {
           "bairro": "ITACIBA",
           "cidade": "CARIACICA",
           "dtultcomp": "27/05/2026",
-          "dias": 66,
+          "dias": 68,
           "media": 520.33
         },
         {
@@ -6000,8 +6016,17 @@ const INATIVOS_DATA = {
           "bairro": "SANTA INES",
           "cidade": "VILA VELHA",
           "dtultcomp": "27/05/2026",
-          "dias": 66,
+          "dias": 68,
           "media": 0.0
+        },
+        {
+          "codcli": "81679",
+          "cliente": "PARMA COMERCIAL LTDA",
+          "bairro": "FLEXAL I",
+          "cidade": "CARIACICA",
+          "dtultcomp": "27/05/2026",
+          "dias": 68,
+          "media": 520.33
         },
         {
           "codcli": "81690",
@@ -6009,7 +6034,7 @@ const INATIVOS_DATA = {
           "bairro": "PORTO DE SANTANA",
           "cidade": "CARIACICA",
           "dtultcomp": "27/05/2026",
-          "dias": 66,
+          "dias": 68,
           "media": 520.33
         },
         {
@@ -6018,16 +6043,16 @@ const INATIVOS_DATA = {
           "bairro": "CAMPO GRANDE",
           "cidade": "CARIACICA",
           "dtultcomp": "27/05/2026",
-          "dias": 66,
+          "dias": 68,
           "media": 520.33
         },
         {
-          "codcli": "81679",
+          "codcli": "81696",
           "cliente": "PARMA COMERCIAL LTDA",
-          "bairro": "FLEXAL I",
+          "bairro": "PORTO NOVO",
           "cidade": "CARIACICA",
           "dtultcomp": "27/05/2026",
-          "dias": 66,
+          "dias": 68,
           "media": 520.33
         },
         {
@@ -6036,7 +6061,7 @@ const INATIVOS_DATA = {
           "bairro": "ARIBIRI",
           "cidade": "VILA VELHA",
           "dtultcomp": "10/06/2026",
-          "dias": 52,
+          "dias": 54,
           "media": 1175.04
         },
         {
@@ -6045,7 +6070,7 @@ const INATIVOS_DATA = {
           "bairro": "SOTECO",
           "cidade": "VILA VELHA",
           "dtultcomp": "10/06/2026",
-          "dias": 52,
+          "dias": 54,
           "media": 3540.44
         },
         {
@@ -6054,7 +6079,7 @@ const INATIVOS_DATA = {
           "bairro": "COBILANDIA",
           "cidade": "VILA VELHA",
           "dtultcomp": "10/06/2026",
-          "dias": 52,
+          "dias": 54,
           "media": 2861.6
         }
       ],
@@ -6135,7 +6160,7 @@ const INATIVOS_DATA = {
           "bairro": "COBILANDIA",
           "cidade": "VILA VELHA",
           "dtultcomp": "15/06/2026",
-          "dias": 47,
+          "dias": 49,
           "media": 336441.6
         },
         {
@@ -6144,7 +6169,7 @@ const INATIVOS_DATA = {
           "bairro": "SETOR HABITACIONAL VICENTE PIRES",
           "cidade": "BRASILIA",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 56140.0
         }
       ],
@@ -6161,7 +6186,7 @@ const INATIVOS_DATA = {
           "bairro": "COLINA DE LARANJEIRAS",
           "cidade": "SERRA",
           "dtultcomp": "05/05/2026",
-          "dias": 88,
+          "dias": 90,
           "media": 105.09
         },
         {
@@ -6170,17 +6195,8 @@ const INATIVOS_DATA = {
           "bairro": "BARCELONA",
           "cidade": "SERRA",
           "dtultcomp": "05/05/2026",
-          "dias": 88,
+          "dias": 90,
           "media": 0.0
-        },
-        {
-          "codcli": "86540",
-          "cliente": "59.867.585 JOELMA PEREIRA SANTOS DE OLIVEIRA",
-          "bairro": "SERRA DOURADA II",
-          "cidade": "SERRA",
-          "dtultcomp": "06/05/2026",
-          "dias": 87,
-          "media": 128.24
         },
         {
           "codcli": "81656",
@@ -6188,8 +6204,17 @@ const INATIVOS_DATA = {
           "bairro": "CIDADE POMAR",
           "cidade": "SERRA",
           "dtultcomp": "06/05/2026",
-          "dias": 87,
+          "dias": 89,
           "media": 289.27
+        },
+        {
+          "codcli": "86540",
+          "cliente": "59.867.585 JOELMA PEREIRA SANTOS DE OLIVEIRA",
+          "bairro": "SERRA DOURADA II",
+          "cidade": "SERRA",
+          "dtultcomp": "06/05/2026",
+          "dias": 89,
+          "media": 128.24
         },
         {
           "codcli": "84721",
@@ -6197,17 +6222,8 @@ const INATIVOS_DATA = {
           "bairro": "SERRA DOURADA I",
           "cidade": "SERRA",
           "dtultcomp": "07/05/2026",
-          "dias": 86,
+          "dias": 88,
           "media": 158.9
-        },
-        {
-          "codcli": "83932",
-          "cliente": "GRANEL NATURAL COMERCIO DE ALIMENTOS, SUPLEMENTOS, CHAS E NA",
-          "bairro": "CONJUNTO CARAPINA I",
-          "cidade": "SERRA",
-          "dtultcomp": "13/05/2026",
-          "dias": 80,
-          "media": 120.46
         },
         {
           "codcli": "81121",
@@ -6215,8 +6231,17 @@ const INATIVOS_DATA = {
           "bairro": "BAIRRO DO ROSARIO DE FATIMA",
           "cidade": "SERRA",
           "dtultcomp": "13/05/2026",
-          "dias": 80,
+          "dias": 82,
           "media": 128.24
+        },
+        {
+          "codcli": "83932",
+          "cliente": "GRANEL NATURAL COMERCIO DE ALIMENTOS, SUPLEMENTOS, CHAS E NA",
+          "bairro": "CONJUNTO CARAPINA I",
+          "cidade": "SERRA",
+          "dtultcomp": "13/05/2026",
+          "dias": 82,
+          "media": 120.46
         },
         {
           "codcli": "21171",
@@ -6224,7 +6249,7 @@ const INATIVOS_DATA = {
           "bairro": "SAO PAULO DE ARACE",
           "cidade": "DOMINGOS MARTIN",
           "dtultcomp": "15/05/2026",
-          "dias": 78,
+          "dias": 80,
           "media": 67.52
         },
         {
@@ -6233,7 +6258,7 @@ const INATIVOS_DATA = {
           "bairro": "RESIDENCIAL VISTA DO MESTRE",
           "cidade": "SERRA",
           "dtultcomp": "18/05/2026",
-          "dias": 75,
+          "dias": 77,
           "media": 79.24
         },
         {
@@ -6242,7 +6267,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRAL CARAPINA",
           "cidade": "SERRA",
           "dtultcomp": "19/05/2026",
-          "dias": 74,
+          "dias": 76,
           "media": 128.24
         },
         {
@@ -6251,7 +6276,7 @@ const INATIVOS_DATA = {
           "bairro": "SÃO DIOGO II",
           "cidade": "SERRA",
           "dtultcomp": "20/05/2026",
-          "dias": 73,
+          "dias": 75,
           "media": 159.77
         },
         {
@@ -6260,7 +6285,7 @@ const INATIVOS_DATA = {
           "bairro": "PARQUE RESIDENCIAL TUBARÃO",
           "cidade": "SERRA",
           "dtultcomp": "21/05/2026",
-          "dias": 72,
+          "dias": 74,
           "media": 103.87
         },
         {
@@ -6269,17 +6294,8 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM LIMOEIRO",
           "cidade": "SERRA",
           "dtultcomp": "22/05/2026",
-          "dias": 71,
+          "dias": 73,
           "media": 259.72
-        },
-        {
-          "codcli": "20940",
-          "cliente": "ITAPOA SUPERMERCADO LTDA",
-          "bairro": "JABURUNA",
-          "cidade": "VILA VELHA",
-          "dtultcomp": "26/05/2026",
-          "dias": 67,
-          "media": 348.08
         },
         {
           "codcli": "82298",
@@ -6287,26 +6303,8 @@ const INATIVOS_DATA = {
           "bairro": "PRAIA DO SUA",
           "cidade": "VITORIA",
           "dtultcomp": "26/05/2026",
-          "dias": 67,
+          "dias": 69,
           "media": 607.2
-        },
-        {
-          "codcli": "90859",
-          "cliente": "51.163.730 NILTON CESAR REZENDE SANTOS",
-          "bairro": "PITANGA",
-          "cidade": "SERRA",
-          "dtultcomp": "26/05/2026",
-          "dias": 67,
-          "media": 104.21
-        },
-        {
-          "codcli": "83803",
-          "cliente": "JOADIR TEODORO ALVES & CIA LTDA",
-          "bairro": "NOVA CARAPINA I",
-          "cidade": "SERRA",
-          "dtultcomp": "26/05/2026",
-          "dias": 67,
-          "media": 98.73
         },
         {
           "codcli": "85346",
@@ -6314,8 +6312,35 @@ const INATIVOS_DATA = {
           "bairro": "PITANGA",
           "cidade": "SERRA",
           "dtultcomp": "26/05/2026",
-          "dias": 67,
+          "dias": 69,
           "media": 220.83
+        },
+        {
+          "codcli": "20940",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "bairro": "JABURUNA",
+          "cidade": "VILA VELHA",
+          "dtultcomp": "26/05/2026",
+          "dias": 69,
+          "media": 348.08
+        },
+        {
+          "codcli": "83803",
+          "cliente": "JOADIR TEODORO ALVES & CIA LTDA",
+          "bairro": "NOVA CARAPINA I",
+          "cidade": "SERRA",
+          "dtultcomp": "26/05/2026",
+          "dias": 69,
+          "media": 98.73
+        },
+        {
+          "codcli": "90859",
+          "cliente": "51.163.730 NILTON CESAR REZENDE SANTOS",
+          "bairro": "PITANGA",
+          "cidade": "SERRA",
+          "dtultcomp": "26/05/2026",
+          "dias": 69,
+          "media": 104.21
         },
         {
           "codcli": "84367",
@@ -6323,7 +6348,7 @@ const INATIVOS_DATA = {
           "bairro": "PORTO CANOA",
           "cidade": "SERRA",
           "dtultcomp": "27/05/2026",
-          "dias": 66,
+          "dias": 68,
           "media": 91.52
         },
         {
@@ -6332,17 +6357,8 @@ const INATIVOS_DATA = {
           "bairro": "SÃO MARCOS I",
           "cidade": "SERRA",
           "dtultcomp": "28/05/2026",
-          "dias": 65,
+          "dias": 67,
           "media": 117.41
-        },
-        {
-          "codcli": "81304",
-          "cliente": "MARIA DOMINGAS SANTANA MEIRELES 01982550716",
-          "bairro": "JOSE DE ANCHIETA",
-          "cidade": "SERRA",
-          "dtultcomp": "29/05/2026",
-          "dias": 64,
-          "media": 86.62
         },
         {
           "codcli": "81026",
@@ -6350,8 +6366,17 @@ const INATIVOS_DATA = {
           "bairro": "JOSE DE ANCHIETA",
           "cidade": "SERRA",
           "dtultcomp": "29/05/2026",
-          "dias": 64,
+          "dias": 66,
           "media": 145.17
+        },
+        {
+          "codcli": "81304",
+          "cliente": "MARIA DOMINGAS SANTANA MEIRELES 01982550716",
+          "bairro": "JOSE DE ANCHIETA",
+          "cidade": "SERRA",
+          "dtultcomp": "29/05/2026",
+          "dias": 66,
+          "media": 86.62
         },
         {
           "codcli": "84008",
@@ -6359,7 +6384,7 @@ const INATIVOS_DATA = {
           "bairro": "SAO MARCOS II",
           "cidade": "SERRA",
           "dtultcomp": "03/06/2026",
-          "dias": 59,
+          "dias": 61,
           "media": 149.75
         },
         {
@@ -6368,7 +6393,7 @@ const INATIVOS_DATA = {
           "bairro": "SERRA DOURADA II",
           "cidade": "SERRA",
           "dtultcomp": "05/06/2026",
-          "dias": 57,
+          "dias": 59,
           "media": 838.09
         },
         {
@@ -6377,7 +6402,7 @@ const INATIVOS_DATA = {
           "bairro": "SOLAR DE ANCHIETA",
           "cidade": "SERRA",
           "dtultcomp": "08/06/2026",
-          "dias": 54,
+          "dias": 56,
           "media": 237.72
         },
         {
@@ -6386,7 +6411,7 @@ const INATIVOS_DATA = {
           "bairro": "ELDORADO",
           "cidade": "SERRA",
           "dtultcomp": "08/06/2026",
-          "dias": 54,
+          "dias": 56,
           "media": 106.25
         },
         {
@@ -6395,17 +6420,8 @@ const INATIVOS_DATA = {
           "bairro": "CARAPEBUS",
           "cidade": "SERRA",
           "dtultcomp": "10/06/2026",
-          "dias": 52,
+          "dias": 54,
           "media": 119.0
-        },
-        {
-          "codcli": "90013",
-          "cliente": "JRA COMERCIO E DISTRIBUICAO DE ALIMENTOS LTDA",
-          "bairro": "PLANICIE DA SERRA",
-          "cidade": "SERRA",
-          "dtultcomp": "22/06/2026",
-          "dias": 40,
-          "media": 0.0
         },
         {
           "codcli": "82064",
@@ -6413,8 +6429,17 @@ const INATIVOS_DATA = {
           "bairro": "ENSEADA DO SUA",
           "cidade": "VITORIA",
           "dtultcomp": "22/06/2026",
-          "dias": 40,
+          "dias": 42,
           "media": 776.56
+        },
+        {
+          "codcli": "90013",
+          "cliente": "JRA COMERCIO E DISTRIBUICAO DE ALIMENTOS LTDA",
+          "bairro": "PLANICIE DA SERRA",
+          "cidade": "SERRA",
+          "dtultcomp": "22/06/2026",
+          "dias": 42,
+          "media": 0.0
         },
         {
           "codcli": "82181",
@@ -6422,7 +6447,7 @@ const INATIVOS_DATA = {
           "bairro": "MATA DA PRAIA",
           "cidade": "VITORIA",
           "dtultcomp": "02/07/2026",
-          "dias": 30,
+          "dias": 32,
           "media": 312.4
         }
       ],
@@ -6439,7 +6464,7 @@ const INATIVOS_DATA = {
           "bairro": "JANDIRA",
           "cidade": "INHUMAS",
           "dtultcomp": "22/06/2026",
-          "dias": 40,
+          "dias": 42,
           "media": 7000.0
         },
         {
@@ -6448,7 +6473,7 @@ const INATIVOS_DATA = {
           "bairro": "TERMINAL INTERMODAL DA SERRA",
           "cidade": "SERRA",
           "dtultcomp": "01/07/2026",
-          "dias": 31,
+          "dias": 33,
           "media": 6086.8
         },
         {
@@ -6457,7 +6482,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM LIMOEIRO",
           "cidade": "SERRA",
           "dtultcomp": "01/07/2026",
-          "dias": 31,
+          "dias": 33,
           "media": 56.04
         }
       ],
@@ -6469,49 +6494,13 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [
         {
-          "codcli": "91293",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "bairro": "MARCÍLIO DE NORONHA",
-          "cidade": "VIANA",
-          "dtultcomp": "04/05/2026",
-          "dias": 89,
-          "media": 996.5
-        },
-        {
-          "codcli": "85429",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "bairro": "SAO FRANCISCO",
-          "cidade": "CARIACICA",
-          "dtultcomp": "04/05/2026",
-          "dias": 89,
-          "media": 2054.57
-        },
-        {
-          "codcli": "85427",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "bairro": "CAMPO GRANDE",
-          "cidade": "CARIACICA",
-          "dtultcomp": "04/05/2026",
-          "dias": 89,
-          "media": 300.64
-        },
-        {
           "codcli": "85440",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "bairro": "SÃO PATRÍCIO",
           "cidade": "SERRA",
           "dtultcomp": "05/05/2026",
-          "dias": 88,
+          "dias": 90,
           "media": 1180.85
-        },
-        {
-          "codcli": "85416",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "bairro": "ILHA DE SANTA MARIA",
-          "cidade": "VITORIA",
-          "dtultcomp": "22/05/2026",
-          "dias": 71,
-          "media": 1522.0
         },
         {
           "codcli": "85417",
@@ -6519,8 +6508,17 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM CAMBURI",
           "cidade": "VITORIA",
           "dtultcomp": "22/05/2026",
-          "dias": 71,
+          "dias": 73,
           "media": 1530.1
+        },
+        {
+          "codcli": "85416",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "bairro": "ILHA DE SANTA MARIA",
+          "cidade": "VITORIA",
+          "dtultcomp": "22/05/2026",
+          "dias": 73,
+          "media": 1522.0
         },
         {
           "codcli": "85407",
@@ -6528,8 +6526,17 @@ const INATIVOS_DATA = {
           "bairro": "PLANALTO DE CARAPINA",
           "cidade": "SERRA",
           "dtultcomp": "25/05/2026",
-          "dias": 68,
+          "dias": 70,
           "media": 2597.58
+        },
+        {
+          "codcli": "85428",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "bairro": "MARACANA",
+          "cidade": "CARIACICA",
+          "dtultcomp": "25/05/2026",
+          "dias": 70,
+          "media": 820.83
         },
         {
           "codcli": "85426",
@@ -6537,7 +6544,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM AMERICA",
           "cidade": "CARIACICA",
           "dtultcomp": "25/05/2026",
-          "dias": 68,
+          "dias": 70,
           "media": 1081.24
         },
         {
@@ -6546,7 +6553,7 @@ const INATIVOS_DATA = {
           "bairro": "CONSOLAÇÃO",
           "cidade": "VITORIA",
           "dtultcomp": "25/05/2026",
-          "dias": 68,
+          "dias": 70,
           "media": 901.91
         },
         {
@@ -6555,26 +6562,8 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "VITORIA",
           "dtultcomp": "25/05/2026",
-          "dias": 68,
+          "dias": 70,
           "media": 1176.05
-        },
-        {
-          "codcli": "85428",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "bairro": "MARACANA",
-          "cidade": "CARIACICA",
-          "dtultcomp": "25/05/2026",
-          "dias": 68,
-          "media": 820.83
-        },
-        {
-          "codcli": "85434",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "bairro": "MARBRASA",
-          "cidade": "CACHOEIRO DE IT",
-          "dtultcomp": "26/05/2026",
-          "dias": 67,
-          "media": 2349.64
         },
         {
           "codcli": "85435",
@@ -6582,8 +6571,17 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "MARECHAL FLORIA",
           "dtultcomp": "26/05/2026",
-          "dias": 67,
+          "dias": 69,
           "media": 273.44
+        },
+        {
+          "codcli": "85434",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "bairro": "MARBRASA",
+          "cidade": "CACHOEIRO DE IT",
+          "dtultcomp": "26/05/2026",
+          "dias": 69,
+          "media": 2349.64
         },
         {
           "codcli": "82283",
@@ -6591,7 +6589,7 @@ const INATIVOS_DATA = {
           "bairro": "ALTO MARATAIZES",
           "cidade": "MARATAIZES",
           "dtultcomp": "26/05/2026",
-          "dias": 67,
+          "dias": 69,
           "media": 1715.92
         },
         {
@@ -6600,17 +6598,8 @@ const INATIVOS_DATA = {
           "bairro": "MOVELAR",
           "cidade": "LINHARES",
           "dtultcomp": "28/05/2026",
-          "dias": 65,
+          "dias": 67,
           "media": 4063.21
-        },
-        {
-          "codcli": "85433",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "bairro": "SHELL",
-          "cidade": "LINHARES",
-          "dtultcomp": "28/05/2026",
-          "dias": 65,
-          "media": 2397.3
         },
         {
           "codcli": "85401",
@@ -6618,8 +6607,17 @@ const INATIVOS_DATA = {
           "bairro": "CARLOS GERMANO NAUMANN",
           "cidade": "COLATINA",
           "dtultcomp": "28/05/2026",
-          "dias": 65,
+          "dias": 67,
           "media": 4380.87
+        },
+        {
+          "codcli": "85433",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "bairro": "SHELL",
+          "cidade": "LINHARES",
+          "dtultcomp": "28/05/2026",
+          "dias": 67,
+          "media": 2397.3
         },
         {
           "codcli": "85400",
@@ -6627,7 +6625,7 @@ const INATIVOS_DATA = {
           "bairro": "PEDRA D'ÁGUA",
           "cidade": "SAO MATEUS",
           "dtultcomp": "28/05/2026",
-          "dias": 65,
+          "dias": 67,
           "media": 2042.24
         },
         {
@@ -6636,7 +6634,7 @@ const INATIVOS_DATA = {
           "bairro": "GLÓRIA",
           "cidade": "VILA VELHA",
           "dtultcomp": "29/05/2026",
-          "dias": 64,
+          "dias": 66,
           "media": 1457.33
         },
         {
@@ -6645,7 +6643,7 @@ const INATIVOS_DATA = {
           "bairro": "PROVIDENCIA",
           "cidade": "VENDA NOVA DO I",
           "dtultcomp": "16/06/2026",
-          "dias": 46,
+          "dias": 48,
           "media": 961.63
         },
         {
@@ -6654,7 +6652,7 @@ const INATIVOS_DATA = {
           "bairro": "PRAIA DA COSTA",
           "cidade": "VILA VELHA",
           "dtultcomp": "23/06/2026",
-          "dias": 39,
+          "dias": 41,
           "media": 1041.4
         },
         {
@@ -6663,35 +6661,8 @@ const INATIVOS_DATA = {
           "bairro": "CONDURU",
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "26/06/2026",
-          "dias": 36,
+          "dias": 38,
           "media": 3360.43
-        },
-        {
-          "codcli": "85896",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "bairro": "PLANALTO DE CARAPINA",
-          "cidade": "SERRA",
-          "dtultcomp": "30/06/2026",
-          "dias": 32,
-          "media": 3014.91
-        },
-        {
-          "codcli": "85438",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "bairro": "PRAIA DA COSTA",
-          "cidade": "VILA VELHA",
-          "dtultcomp": "30/06/2026",
-          "dias": 32,
-          "media": 4863.14
-        },
-        {
-          "codcli": "85441",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "bairro": "NOVO HORIZONTE",
-          "cidade": "SERRA",
-          "dtultcomp": "30/06/2026",
-          "dias": 32,
-          "media": 742.39
         },
         {
           "codcli": "85410",
@@ -6699,8 +6670,26 @@ const INATIVOS_DATA = {
           "bairro": "ITAPUA",
           "cidade": "VILA VELHA",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 3872.42
+        },
+        {
+          "codcli": "85441",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "bairro": "NOVO HORIZONTE",
+          "cidade": "SERRA",
+          "dtultcomp": "30/06/2026",
+          "dias": 34,
+          "media": 742.39
+        },
+        {
+          "codcli": "85438",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "bairro": "PRAIA DA COSTA",
+          "cidade": "VILA VELHA",
+          "dtultcomp": "30/06/2026",
+          "dias": 34,
+          "media": 4863.14
         },
         {
           "codcli": "82539",
@@ -6708,17 +6697,8 @@ const INATIVOS_DATA = {
           "bairro": "CAMPO GRANDE",
           "cidade": "CARIACICA",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 877.48
-        },
-        {
-          "codcli": "76074",
-          "cliente": "DRIFT COM. DE ALIMENTOS SA",
-          "bairro": "COLINA DE LARANJEIRAS",
-          "cidade": "SERRA",
-          "dtultcomp": "30/06/2026",
-          "dias": 32,
-          "media": 505.92
         },
         {
           "codcli": "76075",
@@ -6726,8 +6706,26 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM DA PENHA",
           "cidade": "VITORIA",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 3122.6
+        },
+        {
+          "codcli": "76074",
+          "cliente": "DRIFT COM. DE ALIMENTOS SA",
+          "bairro": "COLINA DE LARANJEIRAS",
+          "cidade": "SERRA",
+          "dtultcomp": "30/06/2026",
+          "dias": 34,
+          "media": 505.92
+        },
+        {
+          "codcli": "85896",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "bairro": "PLANALTO DE CARAPINA",
+          "cidade": "SERRA",
+          "dtultcomp": "30/06/2026",
+          "dias": 34,
+          "media": 3014.91
         },
         {
           "codcli": "86391",
@@ -6735,25 +6733,7 @@ const INATIVOS_DATA = {
           "bairro": "VILA ESPERANCA",
           "cidade": "VARGEM ALTA",
           "dtultcomp": "01/07/2026",
-          "dias": 31,
-          "media": 277.48
-        },
-        {
-          "codcli": "85617",
-          "cliente": "MULTIMERCADO COMERCIO DE ALIMENTOS LTDA",
-          "bairro": "PONTA DA FRUTA",
-          "cidade": "VILA VELHA",
-          "dtultcomp": "01/07/2026",
-          "dias": 31,
-          "media": 399.56
-        },
-        {
-          "codcli": "77449",
-          "cliente": "ARMAZEM SAO SEBASTIAO LTDA",
-          "bairro": "SANTO AGOSTINHO",
-          "cidade": "CASTELO",
-          "dtultcomp": "01/07/2026",
-          "dias": 31,
+          "dias": 33,
           "media": 277.48
         },
         {
@@ -6762,8 +6742,26 @@ const INATIVOS_DATA = {
           "bairro": "PRAIA DA COSTA",
           "cidade": "VILA VELHA",
           "dtultcomp": "01/07/2026",
-          "dias": 31,
+          "dias": 33,
           "media": 75.45
+        },
+        {
+          "codcli": "77449",
+          "cliente": "ARMAZEM SAO SEBASTIAO LTDA",
+          "bairro": "SANTO AGOSTINHO",
+          "cidade": "CASTELO",
+          "dtultcomp": "01/07/2026",
+          "dias": 33,
+          "media": 277.48
+        },
+        {
+          "codcli": "85617",
+          "cliente": "MULTIMERCADO COMERCIO DE ALIMENTOS LTDA",
+          "bairro": "PONTA DA FRUTA",
+          "cidade": "VILA VELHA",
+          "dtultcomp": "01/07/2026",
+          "dias": 33,
+          "media": 399.56
         },
         {
           "codcli": "76076",
@@ -6771,7 +6769,7 @@ const INATIVOS_DATA = {
           "bairro": "SANTA LUCIA",
           "cidade": "VITORIA",
           "dtultcomp": "02/07/2026",
-          "dias": 30,
+          "dias": 32,
           "media": 1985.0
         },
         {
@@ -6780,7 +6778,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM CAMBURI",
           "cidade": "VITORIA",
           "dtultcomp": "02/07/2026",
-          "dias": 30,
+          "dias": 32,
           "media": 1339.0
         }
       ],
@@ -6797,7 +6795,7 @@ const INATIVOS_DATA = {
           "bairro": "WARLEYGUISSO76@GMAIL.COM",
           "cidade": "DOMINGOS MARTIN",
           "dtultcomp": "05/05/2026",
-          "dias": 88,
+          "dias": 90,
           "media": 0.0
         },
         {
@@ -6806,7 +6804,7 @@ const INATIVOS_DATA = {
           "bairro": "VILA BETANEA",
           "cidade": "VENDA NOVA DO I",
           "dtultcomp": "06/05/2026",
-          "dias": 87,
+          "dias": 89,
           "media": 141.63
         },
         {
@@ -6815,7 +6813,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "VENDA NOVA DO I",
           "dtultcomp": "06/05/2026",
-          "dias": 87,
+          "dias": 89,
           "media": 127.17
         },
         {
@@ -6824,7 +6822,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "VENDA NOVA DO I",
           "dtultcomp": "06/05/2026",
-          "dias": 87,
+          "dias": 89,
           "media": 0.0
         },
         {
@@ -6833,7 +6831,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "VENDA NOVA DO I",
           "dtultcomp": "06/05/2026",
-          "dias": 87,
+          "dias": 89,
           "media": 80.5
         },
         {
@@ -6842,7 +6840,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "VENDA NOVA DO I",
           "dtultcomp": "06/05/2026",
-          "dias": 87,
+          "dias": 89,
           "media": 318.39
         },
         {
@@ -6851,7 +6849,7 @@ const INATIVOS_DATA = {
           "bairro": "SAO PEDRO",
           "cidade": "VENDA NOVA DO I",
           "dtultcomp": "15/05/2026",
-          "dias": 78,
+          "dias": 80,
           "media": 105.28
         },
         {
@@ -6860,7 +6858,7 @@ const INATIVOS_DATA = {
           "bairro": "SAO PEDRO",
           "cidade": "VENDA NOVA DO I",
           "dtultcomp": "15/05/2026",
-          "dias": 78,
+          "dias": 80,
           "media": 59.33
         },
         {
@@ -6869,7 +6867,7 @@ const INATIVOS_DATA = {
           "bairro": "MINETE",
           "cidade": "VENDA NOVA DO I",
           "dtultcomp": "15/05/2026",
-          "dias": 78,
+          "dias": 80,
           "media": 54.93
         },
         {
@@ -6878,7 +6876,7 @@ const INATIVOS_DATA = {
           "bairro": "SAO VICENTE",
           "cidade": "AFONSO CLAUDIO",
           "dtultcomp": "15/05/2026",
-          "dias": 78,
+          "dias": 80,
           "media": 731.67
         },
         {
@@ -6887,7 +6885,7 @@ const INATIVOS_DATA = {
           "bairro": "ARACE",
           "cidade": "DOMINGOS MARTIN",
           "dtultcomp": "15/05/2026",
-          "dias": 78,
+          "dias": 80,
           "media": 244.15
         },
         {
@@ -6896,7 +6894,7 @@ const INATIVOS_DATA = {
           "bairro": "PARAJU",
           "cidade": "DOMINGOS MARTIN",
           "dtultcomp": "15/05/2026",
-          "dias": 78,
+          "dias": 80,
           "media": 176.8
         },
         {
@@ -6905,7 +6903,7 @@ const INATIVOS_DATA = {
           "bairro": "DISTRITO DE PARAJU",
           "cidade": "DOMINGOS MARTIN",
           "dtultcomp": "19/05/2026",
-          "dias": 74,
+          "dias": 76,
           "media": 1125.04
         },
         {
@@ -6914,7 +6912,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "VENDA NOVA DO I",
           "dtultcomp": "20/05/2026",
-          "dias": 73,
+          "dias": 75,
           "media": 320.76
         },
         {
@@ -6923,7 +6921,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "AFONSO CLAUDIO",
           "dtultcomp": "25/05/2026",
-          "dias": 68,
+          "dias": 70,
           "media": 157.05
         },
         {
@@ -6932,7 +6930,7 @@ const INATIVOS_DATA = {
           "bairro": "VILA DA MATA",
           "cidade": "VENDA NOVA DO I",
           "dtultcomp": "25/05/2026",
-          "dias": 68,
+          "dias": 70,
           "media": 59.33
         },
         {
@@ -6941,7 +6939,7 @@ const INATIVOS_DATA = {
           "bairro": "JOSE FERRAZ DE OLIVEIRA",
           "cidade": "GUACUI",
           "dtultcomp": "26/05/2026",
-          "dias": 67,
+          "dias": 69,
           "media": 176.32
         },
         {
@@ -6950,7 +6948,7 @@ const INATIVOS_DATA = {
           "bairro": "JOAO MEIRELES",
           "cidade": "GUACUI",
           "dtultcomp": "27/05/2026",
-          "dias": 66,
+          "dias": 68,
           "media": 3594.76
         },
         {
@@ -6959,7 +6957,7 @@ const INATIVOS_DATA = {
           "bairro": "ARACE",
           "cidade": "DOMINGOS MARTIN",
           "dtultcomp": "29/05/2026",
-          "dias": 64,
+          "dias": 66,
           "media": 1619.84
         },
         {
@@ -6968,7 +6966,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "CONCEICAO DO CA",
           "dtultcomp": "29/05/2026",
-          "dias": 64,
+          "dias": 66,
           "media": 6240.69
         },
         {
@@ -6977,7 +6975,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "DOMINGOS MARTIN",
           "dtultcomp": "29/05/2026",
-          "dias": 64,
+          "dias": 66,
           "media": 119.6
         },
         {
@@ -6986,7 +6984,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "DOMINGOS MARTIN",
           "dtultcomp": "29/05/2026",
-          "dias": 64,
+          "dias": 66,
           "media": 122.61
         },
         {
@@ -6995,7 +6993,7 @@ const INATIVOS_DATA = {
           "bairro": "TERMINAL INTERMODAL DA SERRA",
           "cidade": "SERRA",
           "dtultcomp": "08/06/2026",
-          "dias": 54,
+          "dias": 56,
           "media": 5990.0
         },
         {
@@ -7004,7 +7002,7 @@ const INATIVOS_DATA = {
           "bairro": "SAO JOAO DE VICOSA",
           "cidade": "VENDA NOVA DO I",
           "dtultcomp": "09/06/2026",
-          "dias": 53,
+          "dias": 55,
           "media": 910.27
         },
         {
@@ -7013,7 +7011,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "VENDA NOVA DO I",
           "dtultcomp": "09/06/2026",
-          "dias": 53,
+          "dias": 55,
           "media": 4903.3
         },
         {
@@ -7022,7 +7020,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "AFONSO CLAUDIO",
           "dtultcomp": "09/06/2026",
-          "dias": 53,
+          "dias": 55,
           "media": 978.6
         },
         {
@@ -7031,7 +7029,7 @@ const INATIVOS_DATA = {
           "bairro": "TERMINAL INTERMODAL DA SERRA",
           "cidade": "SERRA",
           "dtultcomp": "09/06/2026",
-          "dias": 53,
+          "dias": 55,
           "media": 1760.0
         },
         {
@@ -7040,7 +7038,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "AFONSO CLAUDIO",
           "dtultcomp": "09/06/2026",
-          "dias": 53,
+          "dias": 55,
           "media": 2964.47
         },
         {
@@ -7049,7 +7047,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "BREJETUBA",
           "dtultcomp": "16/06/2026",
-          "dias": 46,
+          "dias": 48,
           "media": 1137.1
         },
         {
@@ -7058,7 +7056,7 @@ const INATIVOS_DATA = {
           "bairro": "ES",
           "cidade": "VENDA NOVA DO I",
           "dtultcomp": "16/06/2026",
-          "dias": 46,
+          "dias": 48,
           "media": 1213.21
         }
       ],
@@ -7070,31 +7068,22 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [
         {
-          "codcli": "90604",
-          "cliente": "PADARIA E CONFEITARIA VILA PAN LTDA",
-          "bairro": "VILA NOVA DE COLARES",
-          "cidade": "SERRA",
-          "dtultcomp": "05/05/2026",
-          "dias": 88,
-          "media": 111.07
-        },
-        {
           "codcli": "82011",
           "cliente": "NUNES - MINIMERCADOS LTDA",
           "bairro": "VILA NOVA DE COLARES",
           "cidade": "SERRA",
           "dtultcomp": "05/05/2026",
-          "dias": 88,
+          "dias": 90,
           "media": 97.92
         },
         {
-          "codcli": "81641",
-          "cliente": "SUPERMERCADO BATISTA LTDA",
-          "bairro": "BALNEARIO DE CARAPEBUS",
+          "codcli": "90604",
+          "cliente": "PADARIA E CONFEITARIA VILA PAN LTDA",
+          "bairro": "VILA NOVA DE COLARES",
           "cidade": "SERRA",
           "dtultcomp": "05/05/2026",
-          "dias": 88,
-          "media": 119.0
+          "dias": 90,
+          "media": 111.07
         },
         {
           "codcli": "76398",
@@ -7102,16 +7091,16 @@ const INATIVOS_DATA = {
           "bairro": "PORTAL DE JACARAÍPE",
           "cidade": "SERRA",
           "dtultcomp": "05/05/2026",
-          "dias": 88,
+          "dias": 90,
           "media": 60.02
         },
         {
-          "codcli": "86246",
-          "cliente": "PADARIA BICHO PAPAO LTDA",
-          "bairro": "FEU ROSA",
+          "codcli": "81641",
+          "cliente": "SUPERMERCADO BATISTA LTDA",
+          "bairro": "BALNEARIO DE CARAPEBUS",
           "cidade": "SERRA",
-          "dtultcomp": "06/05/2026",
-          "dias": 87,
+          "dtultcomp": "05/05/2026",
+          "dias": 90,
           "media": 119.0
         },
         {
@@ -7120,7 +7109,7 @@ const INATIVOS_DATA = {
           "bairro": "OURIMAR",
           "cidade": "SERRA",
           "dtultcomp": "06/05/2026",
-          "dias": 87,
+          "dias": 89,
           "media": 177.87
         },
         {
@@ -7129,8 +7118,35 @@ const INATIVOS_DATA = {
           "bairro": "VILA NOVA DE COLARES",
           "cidade": "SERRA",
           "dtultcomp": "06/05/2026",
-          "dias": 87,
+          "dias": 89,
           "media": 97.91
+        },
+        {
+          "codcli": "86246",
+          "cliente": "PADARIA BICHO PAPAO LTDA",
+          "bairro": "FEU ROSA",
+          "cidade": "SERRA",
+          "dtultcomp": "06/05/2026",
+          "dias": 89,
+          "media": 119.0
+        },
+        {
+          "codcli": "80277",
+          "cliente": "REDE SUPERMERCADO LTDA",
+          "bairro": "NOVO HORIZONTE",
+          "cidade": "SERRA",
+          "dtultcomp": "07/05/2026",
+          "dias": 88,
+          "media": 189.36
+        },
+        {
+          "codcli": "89975",
+          "cliente": "JEAN SANTOS MENEZES",
+          "bairro": "CONJUNTO JACARAÍPE",
+          "cidade": "SERRA",
+          "dtultcomp": "07/05/2026",
+          "dias": 88,
+          "media": 77.33
         },
         {
           "codcli": "94198",
@@ -7138,7 +7154,7 @@ const INATIVOS_DATA = {
           "bairro": "MORADA DE LARANJEIRAS",
           "cidade": "SERRA",
           "dtultcomp": "07/05/2026",
-          "dias": 86,
+          "dias": 88,
           "media": 0.0
         },
         {
@@ -7147,26 +7163,8 @@ const INATIVOS_DATA = {
           "bairro": "VILA NOVA DE COLARES",
           "cidade": "SERRA",
           "dtultcomp": "07/05/2026",
-          "dias": 86,
+          "dias": 88,
           "media": 123.85
-        },
-        {
-          "codcli": "89975",
-          "cliente": "JEAN SANTOS MENEZES",
-          "bairro": "CONJUNTO JACARAÍPE",
-          "cidade": "SERRA",
-          "dtultcomp": "07/05/2026",
-          "dias": 86,
-          "media": 77.33
-        },
-        {
-          "codcli": "80277",
-          "cliente": "REDE SUPERMERCADO LTDA",
-          "bairro": "NOVO HORIZONTE",
-          "cidade": "SERRA",
-          "dtultcomp": "07/05/2026",
-          "dias": 86,
-          "media": 189.36
         },
         {
           "codcli": "76489",
@@ -7174,7 +7172,7 @@ const INATIVOS_DATA = {
           "bairro": "BICANGA",
           "cidade": "SERRA",
           "dtultcomp": "07/05/2026",
-          "dias": 86,
+          "dias": 88,
           "media": 74.48
         },
         {
@@ -7183,8 +7181,17 @@ const INATIVOS_DATA = {
           "bairro": "LAGOA DE JACARAÍPE",
           "cidade": "SERRA",
           "dtultcomp": "08/05/2026",
-          "dias": 85,
+          "dias": 87,
           "media": 71.92
+        },
+        {
+          "codcli": "93334",
+          "cliente": "SHAMAH COMERCIO DE PRODUTOS FARMACEUTICOS LTDA",
+          "bairro": "FEU ROSA",
+          "cidade": "SERRA",
+          "dtultcomp": "08/05/2026",
+          "dias": 87,
+          "media": 122.56
         },
         {
           "codcli": "90046",
@@ -7192,7 +7199,7 @@ const INATIVOS_DATA = {
           "bairro": "VILA NOVA DE COLARES",
           "cidade": "SERRA",
           "dtultcomp": "08/05/2026",
-          "dias": 85,
+          "dias": 87,
           "media": 63.12
         },
         {
@@ -7201,17 +7208,8 @@ const INATIVOS_DATA = {
           "bairro": "CIDADE CONTINENTAL",
           "cidade": "SERRA",
           "dtultcomp": "08/05/2026",
-          "dias": 85,
+          "dias": 87,
           "media": 189.36
-        },
-        {
-          "codcli": "93334",
-          "cliente": "SHAMAH COMERCIO DE PRODUTOS FARMACEUTICOS LTDA",
-          "bairro": "FEU ROSA",
-          "cidade": "SERRA",
-          "dtultcomp": "08/05/2026",
-          "dias": 85,
-          "media": 122.56
         },
         {
           "codcli": "91130",
@@ -7219,7 +7217,7 @@ const INATIVOS_DATA = {
           "bairro": "FEU ROSA",
           "cidade": "SERRA",
           "dtultcomp": "11/05/2026",
-          "dias": 82,
+          "dias": 84,
           "media": 63.12
         },
         {
@@ -7228,7 +7226,7 @@ const INATIVOS_DATA = {
           "bairro": "FEU ROSA",
           "cidade": "SERRA",
           "dtultcomp": "11/05/2026",
-          "dias": 82,
+          "dias": 84,
           "media": 111.08
         },
         {
@@ -7237,26 +7235,8 @@ const INATIVOS_DATA = {
           "bairro": "DAS LARANJEIRAS",
           "cidade": "SERRA",
           "dtultcomp": "11/05/2026",
-          "dias": 82,
+          "dias": 84,
           "media": 259.54
-        },
-        {
-          "codcli": "84597",
-          "cliente": "MAIS PAES PANIFICADORA LTDA",
-          "bairro": "CASTELANDIA",
-          "cidade": "SERRA",
-          "dtultcomp": "12/05/2026",
-          "dias": 81,
-          "media": 104.93
-        },
-        {
-          "codcli": "84325",
-          "cliente": "ACADEMIA MEGA FITNESS LTDA",
-          "bairro": "VILA NOVA DE COLARES",
-          "cidade": "SERRA",
-          "dtultcomp": "12/05/2026",
-          "dias": 81,
-          "media": 56.55
         },
         {
           "codcli": "84887",
@@ -7264,8 +7244,26 @@ const INATIVOS_DATA = {
           "bairro": "FEU ROSA",
           "cidade": "SERRA",
           "dtultcomp": "12/05/2026",
-          "dias": 81,
+          "dias": 83,
           "media": 147.33
+        },
+        {
+          "codcli": "84325",
+          "cliente": "ACADEMIA MEGA FITNESS LTDA",
+          "bairro": "VILA NOVA DE COLARES",
+          "cidade": "SERRA",
+          "dtultcomp": "12/05/2026",
+          "dias": 83,
+          "media": 56.55
+        },
+        {
+          "codcli": "84597",
+          "cliente": "MAIS PAES PANIFICADORA LTDA",
+          "bairro": "CASTELANDIA",
+          "cidade": "SERRA",
+          "dtultcomp": "12/05/2026",
+          "dias": 83,
+          "media": 104.93
         },
         {
           "codcli": "84784",
@@ -7273,7 +7271,7 @@ const INATIVOS_DATA = {
           "bairro": "SÃO PEDRO",
           "cidade": "SERRA",
           "dtultcomp": "13/05/2026",
-          "dias": 80,
+          "dias": 82,
           "media": 87.53
         },
         {
@@ -7282,17 +7280,8 @@ const INATIVOS_DATA = {
           "bairro": "PARQUE JACARAIPE",
           "cidade": "SERRA",
           "dtultcomp": "13/05/2026",
-          "dias": 80,
+          "dias": 82,
           "media": 248.5
-        },
-        {
-          "codcli": "84964",
-          "cliente": "SUPERMARKET KIBARATO LIMITADA",
-          "bairro": "PARQUE RESIDENCIAL LARANJEIRAS",
-          "cidade": "SERRA",
-          "dtultcomp": "14/05/2026",
-          "dias": 79,
-          "media": 136.79
         },
         {
           "codcli": "90537",
@@ -7300,8 +7289,17 @@ const INATIVOS_DATA = {
           "bairro": "PARQUE RESIDENCIAL LARANJEIRAS",
           "cidade": "SERRA",
           "dtultcomp": "14/05/2026",
-          "dias": 79,
+          "dias": 81,
           "media": 146.73
+        },
+        {
+          "codcli": "84964",
+          "cliente": "SUPERMARKET KIBARATO LIMITADA",
+          "bairro": "PARQUE RESIDENCIAL LARANJEIRAS",
+          "cidade": "SERRA",
+          "dtultcomp": "14/05/2026",
+          "dias": 81,
+          "media": 136.79
         },
         {
           "codcli": "70787",
@@ -7309,7 +7307,7 @@ const INATIVOS_DATA = {
           "bairro": "CAMPO GRANDE",
           "cidade": "CARIACICA",
           "dtultcomp": "18/05/2026",
-          "dias": 75,
+          "dias": 77,
           "media": 252.48
         },
         {
@@ -7318,7 +7316,7 @@ const INATIVOS_DATA = {
           "bairro": "RESIDENCIAL CENTRO DA SERRA",
           "cidade": "SERRA",
           "dtultcomp": "19/05/2026",
-          "dias": 74,
+          "dias": 76,
           "media": 63.12
         },
         {
@@ -7327,7 +7325,7 @@ const INATIVOS_DATA = {
           "bairro": "VILA NOVA DE COLARES",
           "cidade": "SERRA",
           "dtultcomp": "19/05/2026",
-          "dias": 74,
+          "dias": 76,
           "media": 196.74
         },
         {
@@ -7336,17 +7334,8 @@ const INATIVOS_DATA = {
           "bairro": "DAS LARANJEIRAS",
           "cidade": "SERRA",
           "dtultcomp": "20/05/2026",
-          "dias": 73,
+          "dias": 75,
           "media": 88.45
-        },
-        {
-          "codcli": "84557",
-          "cliente": "DISTRIBUIDORA MERCEARIA E LANCHONETE COMPRE BEM LTDA",
-          "bairro": "DAS LARANJEIRAS",
-          "cidade": "SERRA",
-          "dtultcomp": "20/05/2026",
-          "dias": 73,
-          "media": 54.38
         },
         {
           "codcli": "71518",
@@ -7354,8 +7343,17 @@ const INATIVOS_DATA = {
           "bairro": "DAS LARANJEIRAS",
           "cidade": "SERRA",
           "dtultcomp": "20/05/2026",
-          "dias": 73,
+          "dias": 75,
           "media": 147.28
+        },
+        {
+          "codcli": "84557",
+          "cliente": "DISTRIBUIDORA MERCEARIA E LANCHONETE COMPRE BEM LTDA",
+          "bairro": "DAS LARANJEIRAS",
+          "cidade": "SERRA",
+          "dtultcomp": "20/05/2026",
+          "dias": 75,
+          "media": 54.38
         },
         {
           "codcli": "78102",
@@ -7363,7 +7361,7 @@ const INATIVOS_DATA = {
           "bairro": "DAS LARANJEIRAS",
           "cidade": "SERRA",
           "dtultcomp": "21/05/2026",
-          "dias": 72,
+          "dias": 74,
           "media": 0.0
         },
         {
@@ -7372,7 +7370,7 @@ const INATIVOS_DATA = {
           "bairro": "SERRA CENTRO",
           "cidade": "SERRA",
           "dtultcomp": "22/05/2026",
-          "dias": 71,
+          "dias": 73,
           "media": 58.69
         },
         {
@@ -7381,26 +7379,8 @@ const INATIVOS_DATA = {
           "bairro": "FEU ROSA",
           "cidade": "SERRA",
           "dtultcomp": "26/05/2026",
-          "dias": 67,
+          "dias": 69,
           "media": 117.28
-        },
-        {
-          "codcli": "89991",
-          "cliente": "JAMILI DOS SANTOS MENEZES",
-          "bairro": "VILA NOVA DE COLARES",
-          "cidade": "SERRA",
-          "dtultcomp": "27/05/2026",
-          "dias": 66,
-          "media": 65.52
-        },
-        {
-          "codcli": "80285",
-          "cliente": "MAYCON MENEGARDO CARES 11877086746",
-          "bairro": "SAO FRANCISCO",
-          "cidade": "SERRA",
-          "dtultcomp": "27/05/2026",
-          "dias": 66,
-          "media": 0.0
         },
         {
           "codcli": "50485",
@@ -7408,7 +7388,34 @@ const INATIVOS_DATA = {
           "bairro": "NOVO HORIZONTE",
           "cidade": "SERRA",
           "dtultcomp": "27/05/2026",
-          "dias": 66,
+          "dias": 68,
+          "media": 0.0
+        },
+        {
+          "codcli": "80285",
+          "cliente": "MAYCON MENEGARDO CARES 11877086746",
+          "bairro": "SAO FRANCISCO",
+          "cidade": "SERRA",
+          "dtultcomp": "27/05/2026",
+          "dias": 68,
+          "media": 0.0
+        },
+        {
+          "codcli": "89991",
+          "cliente": "JAMILI DOS SANTOS MENEZES",
+          "bairro": "VILA NOVA DE COLARES",
+          "cidade": "SERRA",
+          "dtultcomp": "27/05/2026",
+          "dias": 68,
+          "media": 65.52
+        },
+        {
+          "codcli": "94316",
+          "cliente": "ELOISA BORGES TRASPARDINI",
+          "bairro": "RESIDENCIAL JACARAIPE",
+          "cidade": "SERRA",
+          "dtultcomp": "01/07/2026",
+          "dias": 33,
           "media": 0.0
         },
         {
@@ -7417,16 +7424,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM LIMOEIRO",
           "cidade": "SERRA",
           "dtultcomp": "01/07/2026",
-          "dias": 31,
-          "media": 0.0
-        },
-        {
-          "codcli": "94316",
-          "cliente": "ELOISA BORGES TRASPARDINI",
-          "bairro": "RESIDENCIAL JACARAIPE",
-          "cidade": "SERRA",
-          "dtultcomp": "01/07/2026",
-          "dias": 31,
+          "dias": 33,
           "media": 0.0
         }
       ],
@@ -7443,7 +7441,7 @@ const INATIVOS_DATA = {
           "bairro": "CORDOVIL",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "09/05/2026",
-          "dias": 84,
+          "dias": 86,
           "media": 8651.4
         },
         {
@@ -7452,7 +7450,7 @@ const INATIVOS_DATA = {
           "bairro": "GRANDE RIO",
           "cidade": "SAO JOAO DE MER",
           "dtultcomp": "19/05/2026",
-          "dias": 74,
+          "dias": 76,
           "media": 1354.8
         },
         {
@@ -7461,8 +7459,17 @@ const INATIVOS_DATA = {
           "bairro": "CORDEIRINHO (PONTA NEGRA)",
           "cidade": "MARICA",
           "dtultcomp": "27/05/2026",
-          "dias": 66,
+          "dias": 68,
           "media": 378.73
+        },
+        {
+          "codcli": "86100",
+          "cliente": "OLIVIER ARMAZEM DE BEBIDAS E ALIMENTOS LTDA",
+          "bairro": "BENFICA",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "29/05/2026",
+          "dias": 66,
+          "media": 1645.0
         },
         {
           "codcli": "95076",
@@ -7470,7 +7477,7 @@ const INATIVOS_DATA = {
           "bairro": "VILA KOSMOS",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/05/2026",
-          "dias": 64,
+          "dias": 66,
           "media": 61.84
         },
         {
@@ -7479,26 +7486,8 @@ const INATIVOS_DATA = {
           "bairro": "BENFICA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/05/2026",
-          "dias": 64,
+          "dias": 66,
           "media": 2223.72
-        },
-        {
-          "codcli": "86100",
-          "cliente": "OLIVIER ARMAZEM DE BEBIDAS E ALIMENTOS LTDA",
-          "bairro": "BENFICA",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "29/05/2026",
-          "dias": 64,
-          "media": 1645.0
-        },
-        {
-          "codcli": "16159",
-          "cliente": "PORTAL RIO SUL ALIMENTOS E BEBIDAS EIRELLI",
-          "bairro": "PENHA CIRCULAR",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "30/06/2026",
-          "dias": 32,
-          "media": 529.52
         },
         {
           "codcli": "73082",
@@ -7506,8 +7495,17 @@ const INATIVOS_DATA = {
           "bairro": "BENTO RIBEIRO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 7267.4
+        },
+        {
+          "codcli": "16159",
+          "cliente": "PORTAL RIO SUL ALIMENTOS E BEBIDAS EIRELLI",
+          "bairro": "PENHA CIRCULAR",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "30/06/2026",
+          "dias": 34,
+          "media": 529.52
         },
         {
           "codcli": "3755",
@@ -7515,7 +7513,7 @@ const INATIVOS_DATA = {
           "bairro": "PENHA CIRCULAR",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 6794.4
         }
       ],
@@ -7609,21 +7607,12 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [
         {
-          "codcli": "80133",
-          "cliente": "RA COMERCIO DE ALIMENTOS LTDA",
-          "bairro": "CANAA",
-          "cidade": "VIANA",
-          "dtultcomp": "04/05/2026",
-          "dias": 89,
-          "media": 309.79
-        },
-        {
           "codcli": "85066",
           "cliente": "PEDRONI HORTIFRUTI LTDA",
           "bairro": "ALTO BOA VISTA",
           "cidade": "CARIACICA",
           "dtultcomp": "11/05/2026",
-          "dias": 82,
+          "dias": 84,
           "media": 150.63
         },
         {
@@ -7632,7 +7621,7 @@ const INATIVOS_DATA = {
           "bairro": "CARIACICA SEDE",
           "cidade": "CARIACICA",
           "dtultcomp": "14/05/2026",
-          "dias": 79,
+          "dias": 81,
           "media": 47.38
         },
         {
@@ -7641,7 +7630,7 @@ const INATIVOS_DATA = {
           "bairro": "SANTA CECILIA",
           "cidade": "CARIACICA",
           "dtultcomp": "15/05/2026",
-          "dias": 78,
+          "dias": 80,
           "media": 0.0
         },
         {
@@ -7650,7 +7639,7 @@ const INATIVOS_DATA = {
           "bairro": "VILA PALESTINA",
           "cidade": "CARIACICA",
           "dtultcomp": "21/05/2026",
-          "dias": 72,
+          "dias": 74,
           "media": 92.07
         },
         {
@@ -7659,7 +7648,7 @@ const INATIVOS_DATA = {
           "bairro": "SAO GERALDO",
           "cidade": "CARIACICA",
           "dtultcomp": "25/05/2026",
-          "dias": 68,
+          "dias": 70,
           "media": 189.36
         },
         {
@@ -7668,7 +7657,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM BOTÂNICO",
           "cidade": "CARIACICA",
           "dtultcomp": "26/05/2026",
-          "dias": 67,
+          "dias": 69,
           "media": 159.68
         },
         {
@@ -7677,7 +7666,7 @@ const INATIVOS_DATA = {
           "bairro": "MARCÍLIO DE NORONHA",
           "cidade": "VIANA",
           "dtultcomp": "26/05/2026",
-          "dias": 67,
+          "dias": 69,
           "media": 0.0
         },
         {
@@ -7686,7 +7675,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM AMERICA",
           "cidade": "CARIACICA",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 0.0
         }
       ],
@@ -7698,21 +7687,12 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [
         {
-          "codcli": "94797",
-          "cliente": "GOMES SUPERMERCADOS DE SAO PEDRO DA ALDEIA LTDA",
-          "bairro": "NOVA SÃO PEDRO",
-          "cidade": "SAO PEDRO DA AL",
-          "dtultcomp": "04/05/2026",
-          "dias": 89,
-          "media": 2817.44
-        },
-        {
           "codcli": "56716",
           "cliente": "REUNIDOS COMERCIO DE ALIMENTOS LTDA",
           "bairro": "VENDA DAS PEDRAS",
           "cidade": "ITABORAI",
           "dtultcomp": "06/05/2026",
-          "dias": 87,
+          "dias": 89,
           "media": 3553.2
         },
         {
@@ -7721,7 +7701,7 @@ const INATIVOS_DATA = {
           "bairro": "BACAXA",
           "cidade": "SAQUAREMA",
           "dtultcomp": "26/05/2026",
-          "dias": 67,
+          "dias": 69,
           "media": 698.72
         },
         {
@@ -7730,7 +7710,7 @@ const INATIVOS_DATA = {
           "bairro": "INHAUMA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "13/06/2026",
-          "dias": 49,
+          "dias": 51,
           "media": 133.44
         },
         {
@@ -7739,7 +7719,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "SAQUAREMA",
           "dtultcomp": "18/06/2026",
-          "dias": 44,
+          "dias": 46,
           "media": 5838.42
         },
         {
@@ -7748,7 +7728,7 @@ const INATIVOS_DATA = {
           "bairro": "PORTO VELHO",
           "cidade": "SAO GONCALO",
           "dtultcomp": "29/06/2026",
-          "dias": 33,
+          "dias": 35,
           "media": 276.08
         }
       ],
@@ -7759,15 +7739,6 @@ const INATIVOS_DATA = {
           "bairro": "PORTO NOVO",
           "cidade": "SAQUAREMA",
           "dtcadastro": "13/07/2026",
-          "dtultcomp": null,
-          "media": 0.0
-        },
-        {
-          "codcli": "95587",
-          "cliente": "MERCADO R A SEROPEDICA LTDA",
-          "bairro": "BOA ESPERANÇA",
-          "cidade": "SEROPEDICA",
-          "dtcadastro": "02/07/2026",
           "dtultcomp": null,
           "media": 0.0
         }
@@ -7784,16 +7755,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "BARRA MANSA",
           "dtultcomp": "12/05/2026",
-          "dias": 81,
-          "media": 139.6
-        },
-        {
-          "codcli": "84014",
-          "cliente": "NAOMI COMERCIO DE ALIMENTOS LTDA",
-          "bairro": "SESSENTA",
-          "cidade": "VOLTA REDONDA",
-          "dtultcomp": "29/05/2026",
-          "dias": 64,
+          "dias": 83,
           "media": 139.6
         },
         {
@@ -7802,35 +7764,17 @@ const INATIVOS_DATA = {
           "bairro": "VILA SAO JOAO (ANT. MEU RANCHINHO)",
           "cidade": "QUEIMADOS",
           "dtultcomp": "29/05/2026",
-          "dias": 64,
+          "dias": 66,
           "media": 2185.0
         },
         {
-          "codcli": "83995",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "bairro": "VALVERDE",
-          "cidade": "NOVA IGUACU",
-          "dtultcomp": "29/06/2026",
-          "dias": 33,
-          "media": 179.8
-        },
-        {
-          "codcli": "83972",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "bairro": "JARDIM NOVA ERA",
-          "cidade": "NOVA IGUACU",
-          "dtultcomp": "29/06/2026",
-          "dias": 33,
-          "media": 405.2
-        },
-        {
-          "codcli": "83974",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "bairro": "PALHADA",
-          "cidade": "NOVA IGUACU",
-          "dtultcomp": "29/06/2026",
-          "dias": 33,
-          "media": 303.2
+          "codcli": "84014",
+          "cliente": "NAOMI COMERCIO DE ALIMENTOS LTDA",
+          "bairro": "SESSENTA",
+          "cidade": "VOLTA REDONDA",
+          "dtultcomp": "29/05/2026",
+          "dias": 66,
+          "media": 139.6
         },
         {
           "codcli": "95519",
@@ -7838,7 +7782,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "NILOPOLIS",
           "dtultcomp": "29/06/2026",
-          "dias": 33,
+          "dias": 35,
           "media": 225.4
         },
         {
@@ -7847,8 +7791,26 @@ const INATIVOS_DATA = {
           "bairro": "ROSA DOS VENTOS",
           "cidade": "NOVA IGUACU",
           "dtultcomp": "29/06/2026",
-          "dias": 33,
+          "dias": 35,
           "media": 233.4
+        },
+        {
+          "codcli": "83974",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "bairro": "PALHADA",
+          "cidade": "NOVA IGUACU",
+          "dtultcomp": "29/06/2026",
+          "dias": 35,
+          "media": 303.2
+        },
+        {
+          "codcli": "83995",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "bairro": "VALVERDE",
+          "cidade": "NOVA IGUACU",
+          "dtultcomp": "29/06/2026",
+          "dias": 35,
+          "media": 179.8
         },
         {
           "codcli": "83986",
@@ -7856,17 +7818,8 @@ const INATIVOS_DATA = {
           "bairro": "AUSTIN",
           "cidade": "NOVA IGUACU",
           "dtultcomp": "29/06/2026",
-          "dias": 33,
+          "dias": 35,
           "media": 225.4
-        },
-        {
-          "codcli": "83970",
-          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "bairro": "CENTRO",
-          "cidade": "PARACAMBI",
-          "dtultcomp": "29/06/2026",
-          "dias": 33,
-          "media": 754.2
         },
         {
           "codcli": "83990",
@@ -7874,8 +7827,26 @@ const INATIVOS_DATA = {
           "bairro": "DA LUZ",
           "cidade": "NOVA IGUACU",
           "dtultcomp": "29/06/2026",
-          "dias": 33,
+          "dias": 35,
           "media": 405.2
+        },
+        {
+          "codcli": "83972",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "bairro": "JARDIM NOVA ERA",
+          "cidade": "NOVA IGUACU",
+          "dtultcomp": "29/06/2026",
+          "dias": 35,
+          "media": 405.2
+        },
+        {
+          "codcli": "83970",
+          "cliente": "ATLAS DE IGUACU DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "bairro": "CENTRO",
+          "cidade": "PARACAMBI",
+          "dtultcomp": "29/06/2026",
+          "dias": 35,
+          "media": 754.2
         },
         {
           "codcli": "7191",
@@ -7883,7 +7854,7 @@ const INATIVOS_DATA = {
           "bairro": "RETIRO",
           "cidade": "VOLTA REDONDA",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 400.6
         }
       ],
@@ -7900,7 +7871,7 @@ const INATIVOS_DATA = {
           "bairro": "GUAXINDIBA",
           "cidade": "ARACRUZ",
           "dtultcomp": "13/05/2026",
-          "dias": 80,
+          "dias": 82,
           "media": 58.67
         },
         {
@@ -7909,7 +7880,7 @@ const INATIVOS_DATA = {
           "bairro": "VILA NOVA",
           "cidade": "ARACRUZ",
           "dtultcomp": "13/05/2026",
-          "dias": 80,
+          "dias": 82,
           "media": 57.9
         },
         {
@@ -7918,7 +7889,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "JOAO NEIVA",
           "dtultcomp": "22/05/2026",
-          "dias": 71,
+          "dias": 73,
           "media": 74.68
         },
         {
@@ -7927,17 +7898,8 @@ const INATIVOS_DATA = {
           "bairro": "NOVO JEQUITIBA",
           "cidade": "ARACRUZ",
           "dtultcomp": "28/05/2026",
-          "dias": 65,
+          "dias": 67,
           "media": 77.8
-        },
-        {
-          "codcli": "94197",
-          "cliente": "60.728.874 BRENNER MODENESI MEDEIROS",
-          "bairro": "PROFESSORA ERICINA PAGIOLA",
-          "cidade": "IBIRACU",
-          "dtultcomp": "28/05/2026",
-          "dias": 65,
-          "media": 121.44
         },
         {
           "codcli": "93865",
@@ -7945,8 +7907,17 @@ const INATIVOS_DATA = {
           "bairro": "GUAXINDIBA",
           "cidade": "ARACRUZ",
           "dtultcomp": "28/05/2026",
-          "dias": 65,
+          "dias": 67,
           "media": 62.92
+        },
+        {
+          "codcli": "94197",
+          "cliente": "60.728.874 BRENNER MODENESI MEDEIROS",
+          "bairro": "PROFESSORA ERICINA PAGIOLA",
+          "cidade": "IBIRACU",
+          "dtultcomp": "28/05/2026",
+          "dias": 67,
+          "media": 121.44
         },
         {
           "codcli": "81351",
@@ -7954,7 +7925,7 @@ const INATIVOS_DATA = {
           "bairro": "CUPIDO",
           "cidade": "ARACRUZ",
           "dtultcomp": "29/05/2026",
-          "dias": 64,
+          "dias": 66,
           "media": 0.0
         },
         {
@@ -7963,7 +7934,7 @@ const INATIVOS_DATA = {
           "bairro": "GUAXINDIBA",
           "cidade": "ARACRUZ",
           "dtultcomp": "29/05/2026",
-          "dias": 64,
+          "dias": 66,
           "media": 70.02
         },
         {
@@ -7972,17 +7943,8 @@ const INATIVOS_DATA = {
           "bairro": "POLO AGROINDUSTRIAL",
           "cidade": "NOVA VENECIA",
           "dtultcomp": "10/06/2026",
-          "dias": 52,
+          "dias": 54,
           "media": 4368.0
-        },
-        {
-          "codcli": "94126",
-          "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
-          "bairro": "CENTRO",
-          "cidade": "ARACRUZ",
-          "dtultcomp": "16/06/2026",
-          "dias": 46,
-          "media": 1355.39
         },
         {
           "codcli": "85394",
@@ -7990,8 +7952,17 @@ const INATIVOS_DATA = {
           "bairro": "CARAMURU",
           "cidade": "SANTA MARIA DE",
           "dtultcomp": "16/06/2026",
-          "dias": 46,
+          "dias": 48,
           "media": 310.96
+        },
+        {
+          "codcli": "94126",
+          "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
+          "bairro": "CENTRO",
+          "cidade": "ARACRUZ",
+          "dtultcomp": "16/06/2026",
+          "dias": 48,
+          "media": 1355.39
         },
         {
           "codcli": "84438",
@@ -7999,7 +7970,7 @@ const INATIVOS_DATA = {
           "bairro": "BELA VISTA",
           "cidade": "ARACRUZ",
           "dtultcomp": "19/06/2026",
-          "dias": 43,
+          "dias": 45,
           "media": 2501.77
         },
         {
@@ -8008,7 +7979,7 @@ const INATIVOS_DATA = {
           "bairro": "RODOVIARIA",
           "cidade": "JOAO NEIVA",
           "dtultcomp": "24/06/2026",
-          "dias": 38,
+          "dias": 40,
           "media": 1152.46
         },
         {
@@ -8017,7 +7988,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "SANTA MARIA DE",
           "dtultcomp": "25/06/2026",
-          "dias": 37,
+          "dias": 39,
           "media": 197.46
         },
         {
@@ -8026,7 +7997,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "FUNDAO",
           "dtultcomp": "26/06/2026",
-          "dias": 36,
+          "dias": 38,
           "media": 425.6
         },
         {
@@ -8035,7 +8006,7 @@ const INATIVOS_DATA = {
           "bairro": "DE CARLI",
           "cidade": "ARACRUZ",
           "dtultcomp": "26/06/2026",
-          "dias": 36,
+          "dias": 38,
           "media": 72.43
         },
         {
@@ -8044,7 +8015,7 @@ const INATIVOS_DATA = {
           "bairro": "GUAXINDIBA",
           "cidade": "ARACRUZ",
           "dtultcomp": "29/06/2026",
-          "dias": 33,
+          "dias": 35,
           "media": 0.0
         },
         {
@@ -8053,7 +8024,7 @@ const INATIVOS_DATA = {
           "bairro": "VILA NOVA",
           "cidade": "ARACRUZ",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 4465.47
         }
       ],
@@ -8065,31 +8036,13 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [
         {
-          "codcli": "93915",
-          "cliente": "C. DE MORAIS PADARIA E CONFEITARIA",
-          "bairro": "BOA VISTA",
-          "cidade": "SAO MATEUS",
+          "codcli": "79816",
+          "cliente": "RONDELLI COMERCIO E TRANSPORTE LTDA",
+          "bairro": "SANTA LUZIA",
+          "cidade": "NOVA VENECIA",
           "dtultcomp": "13/05/2026",
-          "dias": 80,
-          "media": 75.04
-        },
-        {
-          "codcli": "93831",
-          "cliente": "JOAO HENRIQUE NASCIMENTO DA SILVA",
-          "bairro": "AYRTON SENNA",
-          "cidade": "SAO MATEUS",
-          "dtultcomp": "13/05/2026",
-          "dias": 80,
-          "media": 121.96
-        },
-        {
-          "codcli": "79769",
-          "cliente": "SUPERMERCADOS SOSSAI REGONINI LTDA",
-          "bairro": "BONSUCESSO",
-          "cidade": "SAO MATEUS",
-          "dtultcomp": "13/05/2026",
-          "dias": 80,
-          "media": 906.8
+          "dias": 82,
+          "media": 1580.95
         },
         {
           "codcli": "94836",
@@ -8097,17 +8050,35 @@ const INATIVOS_DATA = {
           "bairro": "GURIRI NORTE",
           "cidade": "SAO MATEUS",
           "dtultcomp": "13/05/2026",
-          "dias": 80,
+          "dias": 82,
           "media": 120.21
         },
         {
-          "codcli": "79816",
-          "cliente": "RONDELLI COMERCIO E TRANSPORTE LTDA",
-          "bairro": "SANTA LUZIA",
-          "cidade": "NOVA VENECIA",
+          "codcli": "79769",
+          "cliente": "SUPERMERCADOS SOSSAI REGONINI LTDA",
+          "bairro": "BONSUCESSO",
+          "cidade": "SAO MATEUS",
           "dtultcomp": "13/05/2026",
-          "dias": 80,
-          "media": 1580.95
+          "dias": 82,
+          "media": 906.8
+        },
+        {
+          "codcli": "93831",
+          "cliente": "JOAO HENRIQUE NASCIMENTO DA SILVA",
+          "bairro": "AYRTON SENNA",
+          "cidade": "SAO MATEUS",
+          "dtultcomp": "13/05/2026",
+          "dias": 82,
+          "media": 121.96
+        },
+        {
+          "codcli": "93915",
+          "cliente": "C. DE MORAIS PADARIA E CONFEITARIA",
+          "bairro": "BOA VISTA",
+          "cidade": "SAO MATEUS",
+          "dtultcomp": "13/05/2026",
+          "dias": 82,
+          "media": 75.04
         },
         {
           "codcli": "81997",
@@ -8115,7 +8086,7 @@ const INATIVOS_DATA = {
           "bairro": "ITAUNAS",
           "cidade": "CONCEICAO DA BA",
           "dtultcomp": "14/05/2026",
-          "dias": 79,
+          "dias": 81,
           "media": 0.0
         },
         {
@@ -8124,7 +8095,7 @@ const INATIVOS_DATA = {
           "bairro": "AROEIRA",
           "cidade": "SAO MATEUS",
           "dtultcomp": "22/05/2026",
-          "dias": 71,
+          "dias": 73,
           "media": 0.0
         },
         {
@@ -8133,7 +8104,7 @@ const INATIVOS_DATA = {
           "bairro": "RUBIA",
           "cidade": "NOVA VENECIA",
           "dtultcomp": "22/05/2026",
-          "dias": 71,
+          "dias": 73,
           "media": 1396.89
         },
         {
@@ -8142,7 +8113,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "SAO MATEUS",
           "dtultcomp": "28/05/2026",
-          "dias": 65,
+          "dias": 67,
           "media": 677.0
         },
         {
@@ -8151,7 +8122,7 @@ const INATIVOS_DATA = {
           "bairro": "SEAC",
           "cidade": "SAO MATEUS",
           "dtultcomp": "29/05/2026",
-          "dias": 64,
+          "dias": 66,
           "media": 0.0
         }
       ],
@@ -8168,7 +8139,7 @@ const INATIVOS_DATA = {
           "bairro": "TRES BARRAS",
           "cidade": "LINHARES",
           "dtultcomp": "24/06/2026",
-          "dias": 38,
+          "dias": 40,
           "media": 2739.08
         },
         {
@@ -8177,7 +8148,7 @@ const INATIVOS_DATA = {
           "bairro": "SEGATO",
           "cidade": "ARACRUZ",
           "dtultcomp": "24/06/2026",
-          "dias": 38,
+          "dias": 40,
           "media": 3414.11
         }
       ],
@@ -8264,7 +8235,7 @@ const INATIVOS_DATA = {
           "bairro": "RESIDENCIAL ALTO PINHEIROS",
           "cidade": "VARGINHA",
           "dtultcomp": "29/06/2023",
-          "dias": 1129,
+          "dias": 1131,
           "media": 0.0
         },
         {
@@ -8273,8 +8244,26 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "CONSELHEIRO LAFAIETE",
           "dtultcomp": "30/01/2026",
-          "dias": 183,
+          "dias": 185,
           "media": 622.4
+        },
+        {
+          "codcli": "37255",
+          "cliente": "ARMAZEM BRASIL LIMITADA",
+          "bairro": "SION",
+          "cidade": "CONSELHEIRO LAFAIETE",
+          "dtultcomp": "28/04/2026",
+          "dias": 97,
+          "media": 139.8
+        },
+        {
+          "codcli": "33294",
+          "cliente": "ARMAZEM BRASIL LIMITADA",
+          "bairro": "ROCHEDO",
+          "cidade": "CONSELHEIRO LAFAIETE",
+          "dtultcomp": "28/04/2026",
+          "dias": 97,
+          "media": 264.0
         },
         {
           "codcli": "29677",
@@ -8282,7 +8271,7 @@ const INATIVOS_DATA = {
           "bairro": "PALHANO",
           "cidade": "BRUMADINHO",
           "dtultcomp": "25/01/2024",
-          "dias": 919,
+          "dias": 921,
           "media": 0.0
         },
         {
@@ -8291,7 +8280,7 @@ const INATIVOS_DATA = {
           "bairro": "MANTIQUEIRA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "27/10/2025",
-          "dias": 278,
+          "dias": 280,
           "media": 0.0
         },
         {
@@ -8309,7 +8298,16 @@ const INATIVOS_DATA = {
           "bairro": "GLÓRIA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "10/03/2025",
-          "dias": 509,
+          "dias": 511,
+          "media": 0.0
+        },
+        {
+          "codcli": "34331",
+          "cliente": "BAR E DISTRIBUIDORA MENDES LTDA",
+          "bairro": "ITACOLOMI",
+          "cidade": "BETIM",
+          "dtultcomp": "29/04/2026",
+          "dias": 96,
           "media": 0.0
         },
         {
@@ -8318,7 +8316,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "CONTAGEM",
           "dtultcomp": "15/07/2025",
-          "dias": 382,
+          "dias": 384,
           "media": 0.0
         },
         {
@@ -8327,7 +8325,7 @@ const INATIVOS_DATA = {
           "bairro": "JARAGUÁ",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "02/08/2024",
-          "dias": 729,
+          "dias": 731,
           "media": 1413.43
         },
         {
@@ -8336,7 +8334,7 @@ const INATIVOS_DATA = {
           "bairro": "MILIONÁRIOS (BARREIRO)",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "10/04/2025",
-          "dias": 478,
+          "dias": 480,
           "media": 0.0
         },
         {
@@ -8345,7 +8343,7 @@ const INATIVOS_DATA = {
           "bairro": "KENNEDY",
           "cidade": "GOVERNADOR VALADARES",
           "dtultcomp": "12/11/2024",
-          "dias": 627,
+          "dias": 629,
           "media": 0.0
         },
         {
@@ -8354,7 +8352,7 @@ const INATIVOS_DATA = {
           "bairro": "BANDEIRINHAS",
           "cidade": "BETIM",
           "dtultcomp": "26/09/2024",
-          "dias": 674,
+          "dias": 676,
           "media": 0.0
         },
         {
@@ -8363,7 +8361,7 @@ const INATIVOS_DATA = {
           "bairro": "INCONFIDENTES",
           "cidade": "CONTAGEM",
           "dtultcomp": "26/03/2025",
-          "dias": 493,
+          "dias": 495,
           "media": 0.0
         },
         {
@@ -8372,7 +8370,7 @@ const INATIVOS_DATA = {
           "bairro": "NOSSA SENHORA DA CONCEIÇÃO",
           "cidade": "CONTAGEM",
           "dtultcomp": "10/03/2026",
-          "dias": 144,
+          "dias": 146,
           "media": 11404.6
         },
         {
@@ -8381,7 +8379,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM FELICIDADE",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "09/04/2026",
-          "dias": 114,
+          "dias": 116,
           "media": 0.0
         },
         {
@@ -8390,7 +8388,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "BARBACENA",
           "dtultcomp": "22/05/2025",
-          "dias": 436,
+          "dias": 438,
           "media": 657.49
         },
         {
@@ -8399,7 +8397,7 @@ const INATIVOS_DATA = {
           "bairro": "CAMPINA VERDE",
           "cidade": "CONTAGEM",
           "dtultcomp": "28/10/2025",
-          "dias": 277,
+          "dias": 279,
           "media": 12776.2
         },
         {
@@ -8408,7 +8406,7 @@ const INATIVOS_DATA = {
           "bairro": "ELDORADO",
           "cidade": "CONTAGEM",
           "dtultcomp": "20/01/2025",
-          "dias": 558,
+          "dias": 560,
           "media": 0.0
         },
         {
@@ -8417,7 +8415,7 @@ const INATIVOS_DATA = {
           "bairro": "GRAÇA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "03/07/2025",
-          "dias": 394,
+          "dias": 396,
           "media": 0.0
         },
         {
@@ -8426,7 +8424,7 @@ const INATIVOS_DATA = {
           "bairro": "INDUSTRIAL",
           "cidade": "IPATINGA",
           "dtultcomp": "30/08/2024",
-          "dias": 701,
+          "dias": 703,
           "media": 0.0
         },
         {
@@ -8444,7 +8442,7 @@ const INATIVOS_DATA = {
           "bairro": "SÃO GABRIEL",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "04/07/2025",
-          "dias": 393,
+          "dias": 395,
           "media": 0.0
         },
         {
@@ -8453,7 +8451,7 @@ const INATIVOS_DATA = {
           "bairro": "SALGADO FILHO",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "05/01/2022",
-          "dias": 1669,
+          "dias": 1671,
           "media": 0.0
         },
         {
@@ -8462,7 +8460,7 @@ const INATIVOS_DATA = {
           "bairro": "PIRAJA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "07/02/2024",
-          "dias": 906,
+          "dias": 908,
           "media": 0.0
         },
         {
@@ -8471,7 +8469,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM ALVORADA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "12/02/2025",
-          "dias": 535,
+          "dias": 537,
           "media": 0.0
         },
         {
@@ -8480,7 +8478,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM CANADÁ",
           "cidade": "NOVA LIMA",
           "dtultcomp": "13/06/2022",
-          "dias": 1510,
+          "dias": 1512,
           "media": 0.0
         },
         {
@@ -8489,7 +8487,7 @@ const INATIVOS_DATA = {
           "bairro": "BARREIRO DO AMARAL",
           "cidade": "SANTA LUZIA",
           "dtultcomp": "26/07/2024",
-          "dias": 736,
+          "dias": 738,
           "media": 0.0
         },
         {
@@ -8498,7 +8496,7 @@ const INATIVOS_DATA = {
           "bairro": "CAMPINHO",
           "cidade": "LAGOA SANTA",
           "dtultcomp": "02/12/2025",
-          "dias": 242,
+          "dias": 244,
           "media": 0.0
         },
         {
@@ -8507,7 +8505,7 @@ const INATIVOS_DATA = {
           "bairro": "FLORENÇA",
           "cidade": "RIBEIRAO DAS NEVES",
           "dtultcomp": "21/03/2025",
-          "dias": 498,
+          "dias": 500,
           "media": 0.0
         },
         {
@@ -8516,7 +8514,7 @@ const INATIVOS_DATA = {
           "bairro": "SEVILHA (2 SECAO)",
           "cidade": "RIBEIRAO DAS NEVES",
           "dtultcomp": "19/09/2024",
-          "dias": 681,
+          "dias": 683,
           "media": 0.0
         },
         {
@@ -8525,7 +8523,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM DOS COMERCIÁRIOS (VENDA NOVA)",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "20/02/2025",
-          "dias": 527,
+          "dias": 529,
           "media": 0.0
         },
         {
@@ -8534,7 +8532,7 @@ const INATIVOS_DATA = {
           "bairro": "SERRA VERDE (VENDA NOVA)",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "06/11/2024",
-          "dias": 633,
+          "dias": 635,
           "media": 0.0
         },
         {
@@ -8543,7 +8541,7 @@ const INATIVOS_DATA = {
           "bairro": "BARRO PRETO",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "29/01/2026",
-          "dias": 184,
+          "dias": 186,
           "media": 0.0
         },
         {
@@ -8552,7 +8550,7 @@ const INATIVOS_DATA = {
           "bairro": "NAÇÕES UNIDAS",
           "cidade": "SABARA",
           "dtultcomp": "09/12/2024",
-          "dias": 600,
+          "dias": 602,
           "media": 0.0
         },
         {
@@ -8561,7 +8559,7 @@ const INATIVOS_DATA = {
           "bairro": "SÃO MATEUS",
           "cidade": "JUIZ DE FORA",
           "dtultcomp": "22/10/2025",
-          "dias": 283,
+          "dias": 285,
           "media": 1498.0
         },
         {
@@ -8570,7 +8568,7 @@ const INATIVOS_DATA = {
           "bairro": "SAO CRISTOVAO",
           "cidade": "PARA DE MINAS",
           "dtultcomp": "14/10/2024",
-          "dias": 656,
+          "dias": 658,
           "media": 0.0
         },
         {
@@ -8579,7 +8577,7 @@ const INATIVOS_DATA = {
           "bairro": "AMAZONAS",
           "cidade": "CONTAGEM",
           "dtultcomp": "18/02/2025",
-          "dias": 529,
+          "dias": 531,
           "media": 0.0
         },
         {
@@ -8588,7 +8586,7 @@ const INATIVOS_DATA = {
           "bairro": "SERRA VERDE (VENDA NOVA)",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "19/11/2024",
-          "dias": 620,
+          "dias": 622,
           "media": 0.0
         },
         {
@@ -8597,7 +8595,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM AMÉRICA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "27/11/2024",
-          "dias": 612,
+          "dias": 614,
           "media": 0.0
         },
         {
@@ -8606,7 +8604,7 @@ const INATIVOS_DATA = {
           "bairro": "BELA VISTA",
           "cidade": "VESPASIANO",
           "dtultcomp": "10/04/2026",
-          "dias": 113,
+          "dias": 115,
           "media": 11280.0
         },
         {
@@ -8615,7 +8613,7 @@ const INATIVOS_DATA = {
           "bairro": "ESPERANÇA (JUSTINÓPOLIS)",
           "cidade": "RIBEIRAO DAS NEVES",
           "dtultcomp": "15/04/2025",
-          "dias": 473,
+          "dias": 475,
           "media": 0.0
         },
         {
@@ -8624,7 +8622,7 @@ const INATIVOS_DATA = {
           "bairro": "SAUDADE",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "09/12/2024",
-          "dias": 600,
+          "dias": 602,
           "media": 0.0
         },
         {
@@ -8633,7 +8631,7 @@ const INATIVOS_DATA = {
           "bairro": "DISTRITO INDUSTRIAL JARDIM PIEMONT NORTE",
           "cidade": "BETIM",
           "dtultcomp": "07/05/2024",
-          "dias": 816,
+          "dias": 818,
           "media": 0.0
         },
         {
@@ -8642,7 +8640,7 @@ const INATIVOS_DATA = {
           "bairro": "CARLOS PRATES",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "29/01/2026",
-          "dias": 184,
+          "dias": 186,
           "media": 0.0
         },
         {
@@ -8651,7 +8649,7 @@ const INATIVOS_DATA = {
           "bairro": "SENHORA DE FÁTIMA",
           "cidade": "BETIM",
           "dtultcomp": "13/01/2026",
-          "dias": 200,
+          "dias": 202,
           "media": 0.0
         },
         {
@@ -8660,7 +8658,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "LAGOA SANTA",
           "dtultcomp": "18/03/2026",
-          "dias": 136,
+          "dias": 138,
           "media": 0.0
         },
         {
@@ -8669,7 +8667,7 @@ const INATIVOS_DATA = {
           "bairro": "ELDORADO",
           "cidade": "CONTAGEM",
           "dtultcomp": "09/12/2024",
-          "dias": 600,
+          "dias": 602,
           "media": 0.0
         },
         {
@@ -8678,7 +8676,7 @@ const INATIVOS_DATA = {
           "bairro": "QUEBRA ANTONIO JOSE",
           "cidade": "LAGOA SANTA",
           "dtultcomp": "27/01/2025",
-          "dias": 551,
+          "dias": 553,
           "media": 0.0
         },
         {
@@ -8687,7 +8685,7 @@ const INATIVOS_DATA = {
           "bairro": "TEIXEIRA DIAS (BARREIRO)",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "06/02/2025",
-          "dias": 541,
+          "dias": 543,
           "media": 0.0
         },
         {
@@ -8696,7 +8694,7 @@ const INATIVOS_DATA = {
           "bairro": "BOM RETIRO",
           "cidade": "BETIM",
           "dtultcomp": "20/01/2025",
-          "dias": 558,
+          "dias": 560,
           "media": 0.0
         },
         {
@@ -8705,7 +8703,7 @@ const INATIVOS_DATA = {
           "bairro": "COLÉGIO BATISTA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "09/07/2024",
-          "dias": 753,
+          "dias": 755,
           "media": 0.0
         },
         {
@@ -8714,8 +8712,17 @@ const INATIVOS_DATA = {
           "bairro": "VILA DA SERRA",
           "cidade": "NOVA LIMA",
           "dtultcomp": "03/04/2024",
-          "dias": 850,
+          "dias": 852,
           "media": 0.0
+        },
+        {
+          "codcli": "37496",
+          "cliente": "ESTORIL CONVENIENCIA LTDA",
+          "bairro": "OLARIA",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "07/04/2026",
+          "dias": 118,
+          "media": 135.7
         },
         {
           "codcli": "31174",
@@ -8723,7 +8730,7 @@ const INATIVOS_DATA = {
           "bairro": "ZONA RURAL",
           "cidade": "LUZ",
           "dtultcomp": "24/04/2024",
-          "dias": 829,
+          "dias": 831,
           "media": 367.2
         },
         {
@@ -8732,7 +8739,7 @@ const INATIVOS_DATA = {
           "bairro": "VIOLEIRA",
           "cidade": "VICOSA",
           "dtultcomp": "12/01/2026",
-          "dias": 201,
+          "dias": 203,
           "media": 2807.8
         },
         {
@@ -8741,7 +8748,7 @@ const INATIVOS_DATA = {
           "bairro": "PRAIA",
           "cidade": "ITABIRITO",
           "dtultcomp": "12/09/2024",
-          "dias": 688,
+          "dias": 690,
           "media": 0.0
         },
         {
@@ -8750,7 +8757,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "ITABIRITO",
           "dtultcomp": "12/09/2024",
-          "dias": 688,
+          "dias": 690,
           "media": 0.0
         },
         {
@@ -8759,7 +8766,7 @@ const INATIVOS_DATA = {
           "bairro": "CACHOEIRA DO CAMPO - JARDINS",
           "cidade": "OURO PRETO",
           "dtultcomp": "12/09/2024",
-          "dias": 688,
+          "dias": 690,
           "media": 0.0
         },
         {
@@ -8768,7 +8775,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "CONGONHAS",
           "dtultcomp": "12/09/2024",
-          "dias": 688,
+          "dias": 690,
           "media": 0.0
         },
         {
@@ -8777,7 +8784,7 @@ const INATIVOS_DATA = {
           "bairro": "SANTANA",
           "cidade": "MARIANA",
           "dtultcomp": "09/09/2024",
-          "dias": 691,
+          "dias": 693,
           "media": 0.0
         },
         {
@@ -8786,7 +8793,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "ITABIRITO",
           "dtultcomp": "12/09/2024",
-          "dias": 688,
+          "dias": 690,
           "media": 0.0
         },
         {
@@ -8795,7 +8802,7 @@ const INATIVOS_DATA = {
           "bairro": "CABECAS",
           "cidade": "OURO PRETO",
           "dtultcomp": "12/09/2024",
-          "dias": 688,
+          "dias": 690,
           "media": 0.0
         },
         {
@@ -8804,7 +8811,7 @@ const INATIVOS_DATA = {
           "bairro": "SÃO MATEUS",
           "cidade": "JUIZ DE FORA",
           "dtultcomp": "26/12/2024",
-          "dias": 583,
+          "dias": 585,
           "media": 286.0
         },
         {
@@ -8813,7 +8820,7 @@ const INATIVOS_DATA = {
           "bairro": "CAMPUS UNIVERSITÁRIO",
           "cidade": "VICOSA",
           "dtultcomp": "24/03/2025",
-          "dias": 495,
+          "dias": 497,
           "media": 2331.99
         },
         {
@@ -8822,7 +8829,7 @@ const INATIVOS_DATA = {
           "bairro": "NOVA VISTA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "30/12/2024",
-          "dias": 579,
+          "dias": 581,
           "media": 0.0
         },
         {
@@ -8831,7 +8838,7 @@ const INATIVOS_DATA = {
           "bairro": "SANTA AMELIA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "03/04/2024",
-          "dias": 850,
+          "dias": 852,
           "media": 377.6
         },
         {
@@ -8840,7 +8847,7 @@ const INATIVOS_DATA = {
           "bairro": "DUQUESA I (SÃO BENEDITO)",
           "cidade": "SANTA LUZIA",
           "dtultcomp": "03/06/2025",
-          "dias": 424,
+          "dias": 426,
           "media": 0.0
         },
         {
@@ -8849,7 +8856,7 @@ const INATIVOS_DATA = {
           "bairro": "CAMPO DA MOGIANA",
           "cidade": "POCOS DE CALDAS",
           "dtultcomp": "16/10/2024",
-          "dias": 654,
+          "dias": 656,
           "media": 0.0
         },
         {
@@ -8858,7 +8865,7 @@ const INATIVOS_DATA = {
           "bairro": "SANTA AMELIA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "02/01/2026",
-          "dias": 211,
+          "dias": 213,
           "media": 0.0
         },
         {
@@ -8867,7 +8874,7 @@ const INATIVOS_DATA = {
           "bairro": "NOVA CONTAGEM",
           "cidade": "CONTAGEM",
           "dtultcomp": "01/12/2025",
-          "dias": 243,
+          "dias": 245,
           "media": 0.0
         },
         {
@@ -8876,7 +8883,7 @@ const INATIVOS_DATA = {
           "bairro": "NOVA CONTAGEM",
           "cidade": "CONTAGEM",
           "dtultcomp": "11/04/2025",
-          "dias": 477,
+          "dias": 479,
           "media": 0.0
         },
         {
@@ -8885,7 +8892,7 @@ const INATIVOS_DATA = {
           "bairro": "FRANCISCA AUGUSTA RIOS",
           "cidade": "POUSO ALEGRE",
           "dtultcomp": "29/01/2026",
-          "dias": 184,
+          "dias": 186,
           "media": 0.0
         },
         {
@@ -8894,7 +8901,7 @@ const INATIVOS_DATA = {
           "bairro": "SANTO ANDRE",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "12/08/2025",
-          "dias": 354,
+          "dias": 356,
           "media": 0.0
         },
         {
@@ -8903,7 +8910,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM LAGUNA",
           "cidade": "CONTAGEM",
           "dtultcomp": "03/09/2024",
-          "dias": 697,
+          "dias": 699,
           "media": 0.0
         },
         {
@@ -8912,7 +8919,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM FELICIDADE",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "10/11/2025",
-          "dias": 264,
+          "dias": 266,
           "media": 0.0
         },
         {
@@ -8921,7 +8928,7 @@ const INATIVOS_DATA = {
           "bairro": "NOSSA SENHORA DE FATIMA",
           "cidade": "CAPITOLIO",
           "dtultcomp": "21/03/2025",
-          "dias": 498,
+          "dias": 500,
           "media": 0.0
         },
         {
@@ -8930,7 +8937,7 @@ const INATIVOS_DATA = {
           "bairro": "OLHOS DAGUA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "09/10/2025",
-          "dias": 296,
+          "dias": 298,
           "media": 0.0
         },
         {
@@ -8939,7 +8946,7 @@ const INATIVOS_DATA = {
           "bairro": "SANTA CRUZ",
           "cidade": "BETIM",
           "dtultcomp": "30/09/2025",
-          "dias": 305,
+          "dias": 307,
           "media": 0.0
         },
         {
@@ -8948,7 +8955,7 @@ const INATIVOS_DATA = {
           "bairro": "SANTA ROSA",
           "cidade": "SARZEDO",
           "dtultcomp": "27/08/2024",
-          "dias": 704,
+          "dias": 706,
           "media": 0.0
         },
         {
@@ -8957,7 +8964,7 @@ const INATIVOS_DATA = {
           "bairro": "MILIONÁRIOS (BARREIRO)",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "11/06/2025",
-          "dias": 416,
+          "dias": 418,
           "media": 0.0
         },
         {
@@ -8966,7 +8973,7 @@ const INATIVOS_DATA = {
           "bairro": "CAPELINHA",
           "cidade": "BETIM",
           "dtultcomp": "31/07/2024",
-          "dias": 731,
+          "dias": 733,
           "media": 0.0
         },
         {
@@ -8975,7 +8982,7 @@ const INATIVOS_DATA = {
           "bairro": "SANTO ANTÔNIO",
           "cidade": "BETIM",
           "dtultcomp": "07/11/2024",
-          "dias": 632,
+          "dias": 634,
           "media": 0.0
         },
         {
@@ -8984,7 +8991,7 @@ const INATIVOS_DATA = {
           "bairro": "CANADA",
           "cidade": "CONTAGEM",
           "dtultcomp": "10/03/2025",
-          "dias": 509,
+          "dias": 511,
           "media": 0.0
         },
         {
@@ -8993,7 +9000,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM AMERICA",
           "cidade": "ANDRADAS",
           "dtultcomp": "28/11/2025",
-          "dias": 246,
+          "dias": 248,
           "media": 0.0
         },
         {
@@ -9002,7 +9009,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "JACUTINGA",
           "dtultcomp": "19/11/2025",
-          "dias": 255,
+          "dias": 257,
           "media": 0.0
         },
         {
@@ -9011,7 +9018,7 @@ const INATIVOS_DATA = {
           "bairro": "SANTA MARTINHA",
           "cidade": "RIBEIRAO DAS NEVES",
           "dtultcomp": "25/03/2026",
-          "dias": 129,
+          "dias": 131,
           "media": 0.0
         },
         {
@@ -9020,7 +9027,7 @@ const INATIVOS_DATA = {
           "bairro": "SAO BENTO",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "21/07/2022",
-          "dias": 1472,
+          "dias": 1474,
           "media": 0.0
         },
         {
@@ -9029,565 +9036,7 @@ const INATIVOS_DATA = {
           "bairro": "DUQUE DE CAXIAS",
           "cidade": "BETIM",
           "dtultcomp": "19/05/2025",
-          "dias": 439,
-          "media": 0.0
-        },
-        {
-          "codcli": "34840",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "CICERO PASSOS",
-          "cidade": "PIRAPORA",
-          "dtultcomp": "07/10/2024",
-          "dias": 663,
-          "media": 0.0
-        },
-        {
-          "codcli": "33407",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "PARQUE DAS LARANJEIRAS",
-          "cidade": "UBERABA",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33408",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "AMOREIRAS II",
-          "cidade": "PARACATU",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33410",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "PAPA JOAO PAULO II",
-          "cidade": "PARA DE MINAS",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33411",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "CIDADE JARDIM",
-          "cidade": "TRES CORACOES",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33412",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "OROZINO TEIXEIRA",
-          "cidade": "ARAXA",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33413",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "JARDIM FLORESTA",
-          "cidade": "LAVRAS",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33414",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "SANTO ANTÔNIO",
-          "cidade": "BARBACENA",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33415",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "SÃO FRANCISCO",
-          "cidade": "PASSOS",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33416",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "VILA TAVARES",
-          "cidade": "ITAUNA",
-          "dtultcomp": "15/04/2024",
-          "dias": 838,
-          "media": 0.0
-        },
-        {
-          "codcli": "33417",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "CASTRO PIRES",
-          "cidade": "TEOFILO OTONI",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33418",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "CARIJÓS",
-          "cidade": "CONSELHEIRO LAFAIETE",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33419",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "CIDADE INDUSTRIAL",
-          "cidade": "CONTAGEM",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33420",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "SANTA MARIA",
-          "cidade": "VARGINHA",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33421",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "RANCHO ALEGRE",
-          "cidade": "DIVINOPOLIS",
-          "dtultcomp": "15/04/2024",
-          "dias": 838,
-          "media": 0.0
-        },
-        {
-          "codcli": "33422",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "JARDIM INCONFIDÊNCIA",
-          "cidade": "UBERLANDIA",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33423",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "GABIROBA",
-          "cidade": "ITABIRA",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33424",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "CAPIM BRANCO II",
-          "cidade": "UNAI",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33425",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "COLONIA DO MARCAL",
-          "cidade": "SAO JOAO DEL REI",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33426",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "JARDIM PARAÍSO",
-          "cidade": "POCOS DE CALDAS",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33428",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "NOVA ACLIMAÇÃO",
-          "cidade": "JOAO MONLEVADE",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33429",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "BELA VISTA",
-          "cidade": "PATOS DE MINAS",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33452",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "BELA VISTA",
-          "cidade": "CURVELO",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33409",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "INDUSTRIAL",
-          "cidade": "PATROCINIO",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33430",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "SANTA ROSA",
-          "cidade": "UBERLANDIA",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33431",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "NOVO SAO JOSE",
-          "cidade": "BOM DESPACHO",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33432",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "JARDIM AMÉRICA",
-          "cidade": "CAMPO BELO",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33433",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "ZONA DE EXPANSAO URBANA",
-          "cidade": "MONTE CARMELO",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33434",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "ESPLANADA",
-          "cidade": "JANAUBA",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33435",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "SERRANO",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "28/07/2025",
-          "dias": 369,
-          "media": 0.0
-        },
-        {
-          "codcli": "33436",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "CHACARA BOM RETIRO",
-          "cidade": "NOVA LIMA",
-          "dtultcomp": "15/04/2024",
-          "dias": 838,
-          "media": 0.0
-        },
-        {
-          "codcli": "33437",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "SALVATERRA",
-          "cidade": "JUIZ DE FORA",
-          "dtultcomp": "14/08/2024",
-          "dias": 717,
-          "media": 0.0
-        },
-        {
-          "codcli": "33438",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "DIVINOPOLIS",
-          "cidade": "JOAO PINHEIRO",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33439",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "MARIA GUIMARAES FRANCA",
-          "cidade": "LEOPOLDINA",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33440",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "ZACARIAS",
-          "cidade": "CARATINGA",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33441",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "JARDIM VILA ANDREZA",
-          "cidade": "CONGONHAS",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33442",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "ESPERANCA",
-          "cidade": "TRES PONTAS",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33443",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "INDEPENDENCIA",
-          "cidade": "MONTES CLAROS",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33444",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "DISTRITO INDUSTRIAL",
-          "cidade": "MONTES CLAROS",
-          "dtultcomp": "15/04/2024",
-          "dias": 838,
-          "media": 0.0
-        },
-        {
-          "codcli": "33446",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "NOVA GRANJA",
-          "cidade": "VESPASIANO",
-          "dtultcomp": "15/04/2024",
-          "dias": 838,
-          "media": 0.0
-        },
-        {
-          "codcli": "33447",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "INGÁ ALTO",
-          "cidade": "BETIM",
-          "dtultcomp": "08/08/2024",
-          "dias": 723,
-          "media": 0.0
-        },
-        {
-          "codcli": "33448",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "JAQUELINE",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33449",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "TENENTES",
-          "cidade": "EXTREMA",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33450",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "OLINDA",
-          "cidade": "UBERABA",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33385",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "SAO JUDAS TADEU",
-          "cidade": "DIVINOPOLIS",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33386",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "JARDIM RIACHO DAS PEDRAS",
-          "cidade": "CONTAGEM",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33388",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "DISTRITO INDL DES MELLO JUNIO",
-          "cidade": "SANTA LUZIA",
-          "dtultcomp": "02/05/2025",
-          "dias": 456,
-          "media": 0.0
-        },
-        {
-          "codcli": "33389",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "SANTA RITA",
-          "cidade": "GOVERNADOR VALADARES",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33390",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "INDUSTRIAL",
-          "cidade": "JUIZ DE FORA",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33391",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "SANTA MARIA",
-          "cidade": "UBERABA",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33392",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "SANTO ANTONIO",
-          "cidade": "SETE LAGOAS",
-          "dtultcomp": "15/04/2024",
-          "dias": 838,
-          "media": 0.0
-        },
-        {
-          "codcli": "33393",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "SEGISMUNDO PEREIRA",
-          "cidade": "UBERLANDIA",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33394",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "SAO JOAQUIM",
-          "cidade": "CONTAGEM",
-          "dtultcomp": "11/09/2024",
-          "dias": 689,
-          "media": 0.0
-        },
-        {
-          "codcli": "33396",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "JARDIM ANDRADES",
-          "cidade": "PATOS DE MINAS",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33397",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "GERSON BADUY II",
-          "cidade": "ITUIUTABA",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33398",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "LOTEAMENTO TREVO",
-          "cidade": "ALFENAS",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33399",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "FATIMA I",
-          "cidade": "POUSO ALEGRE",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33400",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "PARQUE VENEZA",
-          "cidade": "SANTANA DO PARAISO",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33401",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "RESD JD DOS IPES",
-          "cidade": "ARAPORA",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33402",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "MAJOR PRATES",
-          "cidade": "MONTES CLAROS",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33403",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "EIXO RODOVIARIO",
-          "cidade": "UBA",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
-          "media": 0.0
-        },
-        {
-          "codcli": "33404",
-          "cliente": "MART MINAS DISTRIBUICAO LTDA",
-          "bairro": "SIBIPIRUNA",
-          "cidade": "ARAGUARI",
-          "dtultcomp": "16/04/2024",
-          "dias": 837,
+          "dias": 441,
           "media": 0.0
         },
         {
@@ -9596,7 +9045,565 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM PATRÍCIA",
           "cidade": "UBERLANDIA",
           "dtultcomp": "16/04/2024",
-          "dias": 837,
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33407",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "PARQUE DAS LARANJEIRAS",
+          "cidade": "UBERABA",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33408",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "AMOREIRAS II",
+          "cidade": "PARACATU",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33410",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "PAPA JOAO PAULO II",
+          "cidade": "PARA DE MINAS",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33411",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "CIDADE JARDIM",
+          "cidade": "TRES CORACOES",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33412",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "OROZINO TEIXEIRA",
+          "cidade": "ARAXA",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33413",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "JARDIM FLORESTA",
+          "cidade": "LAVRAS",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33414",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "SANTO ANTÔNIO",
+          "cidade": "BARBACENA",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33415",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "SÃO FRANCISCO",
+          "cidade": "PASSOS",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33416",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "VILA TAVARES",
+          "cidade": "ITAUNA",
+          "dtultcomp": "15/04/2024",
+          "dias": 840,
+          "media": 0.0
+        },
+        {
+          "codcli": "33417",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "CASTRO PIRES",
+          "cidade": "TEOFILO OTONI",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33418",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "CARIJÓS",
+          "cidade": "CONSELHEIRO LAFAIETE",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33419",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "CIDADE INDUSTRIAL",
+          "cidade": "CONTAGEM",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33420",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "SANTA MARIA",
+          "cidade": "VARGINHA",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33421",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "RANCHO ALEGRE",
+          "cidade": "DIVINOPOLIS",
+          "dtultcomp": "15/04/2024",
+          "dias": 840,
+          "media": 0.0
+        },
+        {
+          "codcli": "33422",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "JARDIM INCONFIDÊNCIA",
+          "cidade": "UBERLANDIA",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33423",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "GABIROBA",
+          "cidade": "ITABIRA",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33424",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "CAPIM BRANCO II",
+          "cidade": "UNAI",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33425",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "COLONIA DO MARCAL",
+          "cidade": "SAO JOAO DEL REI",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33426",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "JARDIM PARAÍSO",
+          "cidade": "POCOS DE CALDAS",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33428",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "NOVA ACLIMAÇÃO",
+          "cidade": "JOAO MONLEVADE",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33429",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "BELA VISTA",
+          "cidade": "PATOS DE MINAS",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33452",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "BELA VISTA",
+          "cidade": "CURVELO",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33409",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "INDUSTRIAL",
+          "cidade": "PATROCINIO",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33430",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "SANTA ROSA",
+          "cidade": "UBERLANDIA",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33431",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "NOVO SAO JOSE",
+          "cidade": "BOM DESPACHO",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33432",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "JARDIM AMÉRICA",
+          "cidade": "CAMPO BELO",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33433",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "ZONA DE EXPANSAO URBANA",
+          "cidade": "MONTE CARMELO",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33434",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "ESPLANADA",
+          "cidade": "JANAUBA",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33435",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "SERRANO",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "28/07/2025",
+          "dias": 371,
+          "media": 0.0
+        },
+        {
+          "codcli": "33436",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "CHACARA BOM RETIRO",
+          "cidade": "NOVA LIMA",
+          "dtultcomp": "15/04/2024",
+          "dias": 840,
+          "media": 0.0
+        },
+        {
+          "codcli": "33437",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "SALVATERRA",
+          "cidade": "JUIZ DE FORA",
+          "dtultcomp": "14/08/2024",
+          "dias": 719,
+          "media": 0.0
+        },
+        {
+          "codcli": "33438",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "DIVINOPOLIS",
+          "cidade": "JOAO PINHEIRO",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33439",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "MARIA GUIMARAES FRANCA",
+          "cidade": "LEOPOLDINA",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33440",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "ZACARIAS",
+          "cidade": "CARATINGA",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33441",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "JARDIM VILA ANDREZA",
+          "cidade": "CONGONHAS",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33442",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "ESPERANCA",
+          "cidade": "TRES PONTAS",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33443",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "INDEPENDENCIA",
+          "cidade": "MONTES CLAROS",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33444",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "DISTRITO INDUSTRIAL",
+          "cidade": "MONTES CLAROS",
+          "dtultcomp": "15/04/2024",
+          "dias": 840,
+          "media": 0.0
+        },
+        {
+          "codcli": "33446",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "NOVA GRANJA",
+          "cidade": "VESPASIANO",
+          "dtultcomp": "15/04/2024",
+          "dias": 840,
+          "media": 0.0
+        },
+        {
+          "codcli": "33447",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "INGÁ ALTO",
+          "cidade": "BETIM",
+          "dtultcomp": "08/08/2024",
+          "dias": 725,
+          "media": 0.0
+        },
+        {
+          "codcli": "33448",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "JAQUELINE",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33449",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "TENENTES",
+          "cidade": "EXTREMA",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33450",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "OLINDA",
+          "cidade": "UBERABA",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33385",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "SAO JUDAS TADEU",
+          "cidade": "DIVINOPOLIS",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33386",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "JARDIM RIACHO DAS PEDRAS",
+          "cidade": "CONTAGEM",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33388",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "DISTRITO INDL DES MELLO JUNIO",
+          "cidade": "SANTA LUZIA",
+          "dtultcomp": "02/05/2025",
+          "dias": 458,
+          "media": 0.0
+        },
+        {
+          "codcli": "33389",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "SANTA RITA",
+          "cidade": "GOVERNADOR VALADARES",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33390",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "INDUSTRIAL",
+          "cidade": "JUIZ DE FORA",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33391",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "SANTA MARIA",
+          "cidade": "UBERABA",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33392",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "SANTO ANTONIO",
+          "cidade": "SETE LAGOAS",
+          "dtultcomp": "15/04/2024",
+          "dias": 840,
+          "media": 0.0
+        },
+        {
+          "codcli": "33393",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "SEGISMUNDO PEREIRA",
+          "cidade": "UBERLANDIA",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33394",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "SAO JOAQUIM",
+          "cidade": "CONTAGEM",
+          "dtultcomp": "11/09/2024",
+          "dias": 691,
+          "media": 0.0
+        },
+        {
+          "codcli": "33396",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "JARDIM ANDRADES",
+          "cidade": "PATOS DE MINAS",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33397",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "GERSON BADUY II",
+          "cidade": "ITUIUTABA",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33398",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "LOTEAMENTO TREVO",
+          "cidade": "ALFENAS",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33399",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "FATIMA I",
+          "cidade": "POUSO ALEGRE",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33400",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "PARQUE VENEZA",
+          "cidade": "SANTANA DO PARAISO",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33401",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "RESD JD DOS IPES",
+          "cidade": "ARAPORA",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33402",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "MAJOR PRATES",
+          "cidade": "MONTES CLAROS",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33403",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "EIXO RODOVIARIO",
+          "cidade": "UBA",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "33404",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "SIBIPIRUNA",
+          "cidade": "ARAGUARI",
+          "dtultcomp": "16/04/2024",
+          "dias": 839,
+          "media": 0.0
+        },
+        {
+          "codcli": "34840",
+          "cliente": "MART MINAS DISTRIBUICAO LTDA",
+          "bairro": "CICERO PASSOS",
+          "cidade": "PIRAPORA",
+          "dtultcomp": "07/10/2024",
+          "dias": 665,
           "media": 0.0
         },
         {
@@ -9605,7 +9612,7 @@ const INATIVOS_DATA = {
           "bairro": "VILA CRISTINA",
           "cidade": "BETIM",
           "dtultcomp": "15/05/2025",
-          "dias": 443,
+          "dias": 445,
           "media": 0.0
         },
         {
@@ -9614,7 +9621,7 @@ const INATIVOS_DATA = {
           "bairro": "PRESIDENTE",
           "cidade": "MATOZINHOS",
           "dtultcomp": "04/02/2025",
-          "dias": 543,
+          "dias": 545,
           "media": 0.0
         },
         {
@@ -9625,6 +9632,15 @@ const INATIVOS_DATA = {
           "dtultcomp": null,
           "dias": null,
           "media": 0.0
+        },
+        {
+          "codcli": "34017",
+          "cliente": "MERCANTIL BASTOS LTDA",
+          "bairro": "JARDIM PRIMAVERA L",
+          "cidade": "SETE LAGOAS",
+          "dtultcomp": "30/04/2026",
+          "dias": 95,
+          "media": 3098.04
         },
         {
           "codcli": "34014",
@@ -9641,7 +9657,7 @@ const INATIVOS_DATA = {
           "bairro": "GAVEA I",
           "cidade": "VESPASIANO",
           "dtultcomp": "29/08/2024",
-          "dias": 702,
+          "dias": 704,
           "media": 0.0
         },
         {
@@ -9650,7 +9666,7 @@ const INATIVOS_DATA = {
           "bairro": "SALGADO FILHO",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "22/12/2025",
-          "dias": 222,
+          "dias": 224,
           "media": 0.0
         },
         {
@@ -9659,7 +9675,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "JUIZ DE FORA",
           "dtultcomp": "12/11/2025",
-          "dias": 262,
+          "dias": 264,
           "media": 381.0
         },
         {
@@ -9668,7 +9684,7 @@ const INATIVOS_DATA = {
           "bairro": "GLÓRIA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "26/12/2024",
-          "dias": 583,
+          "dias": 585,
           "media": 0.0
         },
         {
@@ -9677,61 +9693,7 @@ const INATIVOS_DATA = {
           "bairro": "FUNCIONARIOS",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "30/09/2025",
-          "dias": 305,
-          "media": 0.0
-        },
-        {
-          "codcli": "34341",
-          "cliente": "MULTICOM ATACADO E VAREJO S/A",
-          "bairro": "SERRA VERDE (VENDA NOVA)",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "06/03/2026",
-          "dias": 148,
-          "media": 6256.32
-        },
-        {
-          "codcli": "34339",
-          "cliente": "MULTICOM ATACADO E VAREJO S/A",
-          "bairro": "ITAPOÃ",
-          "cidade": "RIBEIRAO DAS NEVES",
-          "dtultcomp": "06/02/2026",
-          "dias": 176,
-          "media": 6256.32
-        },
-        {
-          "codcli": "34338",
-          "cliente": "MULTICOM ATACADO E VAREJO S/A",
-          "bairro": "PONTE DA ALDEIA",
-          "cidade": "MANHUACU",
-          "dtultcomp": "11/02/2025",
-          "dias": 536,
-          "media": 0.0
-        },
-        {
-          "codcli": "34340",
-          "cliente": "MULTICOM ATACADO E VAREJO S/A",
-          "bairro": "UNIVERSITÁRIO",
-          "cidade": "MURIAE",
-          "dtultcomp": "11/02/2025",
-          "dias": 536,
-          "media": 0.0
-        },
-        {
-          "codcli": "34336",
-          "cliente": "MULTICOM ATACADO E VAREJO S/A",
-          "bairro": "JOSE RODRIGUES DA COSTA",
-          "cidade": "NOVA SERRANA",
-          "dtultcomp": "16/04/2026",
-          "dias": 107,
-          "media": 11832.48
-        },
-        {
-          "codcli": "34335",
-          "cliente": "MULTICOM ATACADO E VAREJO S/A",
-          "bairro": "VILA RICA",
-          "cidade": "PASSOS",
-          "dtultcomp": "11/02/2025",
-          "dias": 536,
+          "dias": 307,
           "media": 0.0
         },
         {
@@ -9740,8 +9702,35 @@ const INATIVOS_DATA = {
           "bairro": "CIDADE INDUSTRIAL",
           "cidade": "CONTAGEM",
           "dtultcomp": "06/02/2026",
-          "dias": 176,
+          "dias": 178,
           "media": 9384.48
+        },
+        {
+          "codcli": "34340",
+          "cliente": "MULTICOM ATACADO E VAREJO S/A",
+          "bairro": "UNIVERSITÁRIO",
+          "cidade": "MURIAE",
+          "dtultcomp": "11/02/2025",
+          "dias": 538,
+          "media": 0.0
+        },
+        {
+          "codcli": "34335",
+          "cliente": "MULTICOM ATACADO E VAREJO S/A",
+          "bairro": "VILA RICA",
+          "cidade": "PASSOS",
+          "dtultcomp": "11/02/2025",
+          "dias": 538,
+          "media": 0.0
+        },
+        {
+          "codcli": "34338",
+          "cliente": "MULTICOM ATACADO E VAREJO S/A",
+          "bairro": "PONTE DA ALDEIA",
+          "cidade": "MANHUACU",
+          "dtultcomp": "11/02/2025",
+          "dias": 538,
+          "media": 0.0
         },
         {
           "codcli": "34337",
@@ -9749,8 +9738,35 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "POCOS DE CALDAS",
           "dtultcomp": "28/05/2025",
-          "dias": 430,
+          "dias": 432,
           "media": 983.2
+        },
+        {
+          "codcli": "34336",
+          "cliente": "MULTICOM ATACADO E VAREJO S/A",
+          "bairro": "JOSE RODRIGUES DA COSTA",
+          "cidade": "NOVA SERRANA",
+          "dtultcomp": "16/04/2026",
+          "dias": 109,
+          "media": 11832.48
+        },
+        {
+          "codcli": "34341",
+          "cliente": "MULTICOM ATACADO E VAREJO S/A",
+          "bairro": "SERRA VERDE (VENDA NOVA)",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "06/03/2026",
+          "dias": 150,
+          "media": 6256.32
+        },
+        {
+          "codcli": "34339",
+          "cliente": "MULTICOM ATACADO E VAREJO S/A",
+          "bairro": "ITAPOÃ",
+          "cidade": "RIBEIRAO DAS NEVES",
+          "dtultcomp": "06/02/2026",
+          "dias": 178,
+          "media": 6256.32
         },
         {
           "codcli": "38098",
@@ -9758,7 +9774,7 @@ const INATIVOS_DATA = {
           "bairro": "SÃO JOAQUIM",
           "cidade": "CONTAGEM",
           "dtultcomp": "12/11/2025",
-          "dias": 262,
+          "dias": 264,
           "media": 5376.89
         },
         {
@@ -9767,7 +9783,7 @@ const INATIVOS_DATA = {
           "bairro": "LUNDICEA",
           "cidade": "LAGOA SANTA",
           "dtultcomp": "16/07/2024",
-          "dias": 746,
+          "dias": 748,
           "media": 0.0
         },
         {
@@ -9776,7 +9792,7 @@ const INATIVOS_DATA = {
           "bairro": "ESTORIL",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "26/11/2024",
-          "dias": 613,
+          "dias": 615,
           "media": 0.0
         },
         {
@@ -9785,7 +9801,7 @@ const INATIVOS_DATA = {
           "bairro": "PARQUE VIVALDI LEITE RIBEIRO",
           "cidade": "POCOS DE CALDAS",
           "dtultcomp": "12/02/2025",
-          "dias": 535,
+          "dias": 537,
           "media": 0.0
         },
         {
@@ -9794,7 +9810,7 @@ const INATIVOS_DATA = {
           "bairro": "DISTRITO INDUSTRIAL",
           "cidade": "JUIZ DE FORA",
           "dtultcomp": "13/11/2025",
-          "dias": 261,
+          "dias": 263,
           "media": 9251.2
         },
         {
@@ -9803,17 +9819,8 @@ const INATIVOS_DATA = {
           "bairro": "FONTESVILLE",
           "cidade": "JUIZ DE FORA",
           "dtultcomp": "27/04/2026",
-          "dias": 96,
+          "dias": 98,
           "media": 1583.06
-        },
-        {
-          "codcli": "35407",
-          "cliente": "ORGANIZACOES PAIS & FILHOS LTDA",
-          "bairro": "BENFICA",
-          "cidade": "JUIZ DE FORA",
-          "dtultcomp": "27/04/2026",
-          "dias": 96,
-          "media": 2352.43
         },
         {
           "codcli": "36282",
@@ -9821,17 +9828,17 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "JUIZ DE FORA",
           "dtultcomp": "27/04/2026",
-          "dias": 96,
+          "dias": 98,
           "media": 1817.76
         },
         {
-          "codcli": "35135",
-          "cliente": "ORGANIZACOES PAIS FILHOS LTDA",
-          "bairro": "INDUSTRIAL",
+          "codcli": "35407",
+          "cliente": "ORGANIZACOES PAIS & FILHOS LTDA",
+          "bairro": "BENFICA",
           "cidade": "JUIZ DE FORA",
           "dtultcomp": "27/04/2026",
-          "dias": 96,
-          "media": 2429.32
+          "dias": 98,
+          "media": 2352.43
         },
         {
           "codcli": "35116",
@@ -9839,8 +9846,17 @@ const INATIVOS_DATA = {
           "bairro": "PAINEIRAS",
           "cidade": "JUIZ DE FORA",
           "dtultcomp": "27/04/2026",
-          "dias": 96,
+          "dias": 98,
           "media": 3554.77
+        },
+        {
+          "codcli": "35135",
+          "cliente": "ORGANIZACOES PAIS FILHOS LTDA",
+          "bairro": "INDUSTRIAL",
+          "cidade": "JUIZ DE FORA",
+          "dtultcomp": "27/04/2026",
+          "dias": 98,
+          "media": 2429.32
         },
         {
           "codcli": "35463",
@@ -9848,7 +9864,7 @@ const INATIVOS_DATA = {
           "bairro": "BOSQUE RESIDENCIAL DO JAMBREIRO",
           "cidade": "NOVA LIMA",
           "dtultcomp": "26/12/2025",
-          "dias": 218,
+          "dias": 220,
           "media": 165.6
         },
         {
@@ -9857,7 +9873,7 @@ const INATIVOS_DATA = {
           "bairro": "BANDEIRINHAS",
           "cidade": "BETIM",
           "dtultcomp": "17/06/2025",
-          "dias": 410,
+          "dias": 412,
           "media": 0.0
         },
         {
@@ -9866,7 +9882,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM TERESÓPOLIS",
           "cidade": "BETIM",
           "dtultcomp": "16/12/2024",
-          "dias": 593,
+          "dias": 595,
           "media": 0.0
         },
         {
@@ -9875,7 +9891,7 @@ const INATIVOS_DATA = {
           "bairro": "CEMITERIO DOS VIVOS",
           "cidade": "DIVINOPOLIS",
           "dtultcomp": "25/03/2025",
-          "dias": 494,
+          "dias": 496,
           "media": 0.0
         },
         {
@@ -9884,7 +9900,7 @@ const INATIVOS_DATA = {
           "bairro": "SÃO JOÃO BATISTA (VENDA NOVA)",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "03/01/2025",
-          "dias": 575,
+          "dias": 577,
           "media": 0.0
         },
         {
@@ -9893,7 +9909,7 @@ const INATIVOS_DATA = {
           "bairro": "DUQUESA II (SÃO BENEDITO)",
           "cidade": "SANTA LUZIA",
           "dtultcomp": "17/10/2024",
-          "dias": 653,
+          "dias": 655,
           "media": 0.0
         },
         {
@@ -9902,7 +9918,7 @@ const INATIVOS_DATA = {
           "bairro": "IMBIRUÇU",
           "cidade": "BETIM",
           "dtultcomp": "22/07/2025",
-          "dias": 375,
+          "dias": 377,
           "media": 0.0
         },
         {
@@ -9911,7 +9927,7 @@ const INATIVOS_DATA = {
           "bairro": "BELVEDERE",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "30/09/2025",
-          "dias": 305,
+          "dias": 307,
           "media": 208.53
         },
         {
@@ -9920,7 +9936,7 @@ const INATIVOS_DATA = {
           "bairro": "FUNCIONÁRIOS",
           "cidade": "CONTAGEM",
           "dtultcomp": "11/02/2026",
-          "dias": 171,
+          "dias": 173,
           "media": 0.0
         },
         {
@@ -9929,7 +9945,7 @@ const INATIVOS_DATA = {
           "bairro": "DUQUESA I",
           "cidade": "SANTA LUZIA",
           "dtultcomp": "22/12/2025",
-          "dias": 222,
+          "dias": 224,
           "media": 0.0
         },
         {
@@ -9938,7 +9954,7 @@ const INATIVOS_DATA = {
           "bairro": "KENNEDY",
           "cidade": "CONTAGEM",
           "dtultcomp": "09/08/2024",
-          "dias": 722,
+          "dias": 724,
           "media": 0.0
         },
         {
@@ -9947,7 +9963,16 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM AMERICA",
           "cidade": "CONSELHEIRO LAFAIETE",
           "dtultcomp": "15/03/2024",
-          "dias": 869,
+          "dias": 871,
+          "media": 0.0
+        },
+        {
+          "codcli": "33971",
+          "cliente": "SUPERMERCADO COELHO DINIZ LTDA",
+          "bairro": "CENTRO",
+          "cidade": "GOVERNADOR VALADARES",
+          "dtultcomp": "25/06/2024",
+          "dias": 769,
           "media": 0.0
         },
         {
@@ -9956,17 +9981,8 @@ const INATIVOS_DATA = {
           "bairro": "DISTRITO INDUSTRIAL",
           "cidade": "GOVERNADOR VALADARES",
           "dtultcomp": "12/03/2026",
-          "dias": 142,
+          "dias": 144,
           "media": 42000.0
-        },
-        {
-          "codcli": "33971",
-          "cliente": "SUPERMERCADO COELHO DINIZ LTDA",
-          "bairro": "CENTRO",
-          "cidade": "GOVERNADOR VALADARES",
-          "dtultcomp": "25/06/2024",
-          "dias": 767,
-          "media": 0.0
         },
         {
           "codcli": "34013",
@@ -9974,7 +9990,7 @@ const INATIVOS_DATA = {
           "bairro": "TIMIRIM",
           "cidade": "TIMOTEO",
           "dtultcomp": "18/12/2024",
-          "dias": 591,
+          "dias": 593,
           "media": 0.0
         },
         {
@@ -9983,7 +9999,7 @@ const INATIVOS_DATA = {
           "bairro": "BOM JARDIM",
           "cidade": "IPATINGA",
           "dtultcomp": "05/07/2024",
-          "dias": 757,
+          "dias": 759,
           "media": 0.0
         },
         {
@@ -9992,8 +10008,17 @@ const INATIVOS_DATA = {
           "bairro": "SÃO BENEDITO",
           "cidade": "SANTA LUZIA",
           "dtultcomp": "02/09/2025",
-          "dias": 333,
+          "dias": 335,
           "media": 5560.85
+        },
+        {
+          "codcli": "37403",
+          "cliente": "SUPERMERCADO KARAJAS LTDA",
+          "bairro": "BELO VALE",
+          "cidade": "SANTA LUZIA",
+          "dtultcomp": "30/04/2026",
+          "dias": 95,
+          "media": 0.0
         },
         {
           "codcli": "37371",
@@ -10010,7 +10035,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "LAVRAS",
           "dtultcomp": "07/08/2025",
-          "dias": 359,
+          "dias": 361,
           "media": 0.0
         },
         {
@@ -10019,7 +10044,7 @@ const INATIVOS_DATA = {
           "bairro": "CONDOMINIO PASSARO",
           "cidade": "VARGINHA",
           "dtultcomp": "14/01/2025",
-          "dias": 564,
+          "dias": 566,
           "media": 0.0
         },
         {
@@ -10028,7 +10053,7 @@ const INATIVOS_DATA = {
           "bairro": "PALMARES - 1 SECAO PARQUE DURVAL BARROS",
           "cidade": "IBIRITE",
           "dtultcomp": "28/08/2025",
-          "dias": 338,
+          "dias": 340,
           "media": 0.0
         },
         {
@@ -10037,7 +10062,7 @@ const INATIVOS_DATA = {
           "bairro": "LOURDES",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "12/05/2025",
-          "dias": 446,
+          "dias": 448,
           "media": 0.0
         },
         {
@@ -10046,7 +10071,7 @@ const INATIVOS_DATA = {
           "bairro": "CANAVIAL VELHO",
           "cidade": "VESPASIANO",
           "dtultcomp": "19/01/2026",
-          "dias": 194,
+          "dias": 196,
           "media": 25788.96
         },
         {
@@ -10055,7 +10080,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "BARBACENA",
           "dtultcomp": "22/12/2022",
-          "dias": 1318,
+          "dias": 1320,
           "media": 0.0
         },
         {
@@ -10064,7 +10089,7 @@ const INATIVOS_DATA = {
           "bairro": "VALE DO SERENO",
           "cidade": "NOVA LIMA",
           "dtultcomp": "16/01/2024",
-          "dias": 928,
+          "dias": 930,
           "media": 0.0
         },
         {
@@ -10073,7 +10098,7 @@ const INATIVOS_DATA = {
           "bairro": "VILA DA SERRA",
           "cidade": "NOVA LIMA",
           "dtultcomp": "05/07/2024",
-          "dias": 757,
+          "dias": 759,
           "media": 1971.38
         },
         {
@@ -10082,7 +10107,7 @@ const INATIVOS_DATA = {
           "bairro": "VALE DA PRATA",
           "cidade": "RIBEIRAO DAS NEVES",
           "dtultcomp": "02/03/2026",
-          "dias": 152,
+          "dias": 154,
           "media": 0.0
         },
         {
@@ -10091,7 +10116,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM KENNEDY",
           "cidade": "POCOS DE CALDAS",
           "dtultcomp": "01/10/2025",
-          "dias": 304,
+          "dias": 306,
           "media": 0.0
         },
         {
@@ -10100,7 +10125,7 @@ const INATIVOS_DATA = {
           "bairro": "NOSSA SENHORA DE FATIMA",
           "cidade": "SABARA",
           "dtultcomp": "23/01/2026",
-          "dias": 190,
+          "dias": 192,
           "media": 0.0
         }
       ],
@@ -10126,27 +10151,18 @@ const INATIVOS_DATA = {
           "bairro": "SION",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "27/03/2024",
-          "dias": 857,
+          "dias": 859,
           "media": 261.16
         }
       ],
       "sem_compra": [
-        {
-          "codcli": "31195",
-          "cliente": "CRG CONSULTORIA E ASSESSORIA DE SERVICOS EIRELI",
-          "bairro": "LOURDES",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "04/05/2026",
-          "dias": 89,
-          "media": 56.8
-        },
         {
           "codcli": "31014",
           "cliente": "MI CORAZON BAR LTDA",
           "bairro": "FLORESTA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "06/05/2026",
-          "dias": 87,
+          "dias": 89,
           "media": 162.02
         },
         {
@@ -10155,7 +10171,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "BETIM",
           "dtultcomp": "06/05/2026",
-          "dias": 87,
+          "dias": 89,
           "media": 315.6
         },
         {
@@ -10164,7 +10180,7 @@ const INATIVOS_DATA = {
           "bairro": "LOURDES",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "12/05/2026",
-          "dias": 81,
+          "dias": 83,
           "media": 77.49
         },
         {
@@ -10173,7 +10189,7 @@ const INATIVOS_DATA = {
           "bairro": "PAMPULHA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "13/05/2026",
-          "dias": 80,
+          "dias": 82,
           "media": 384.81
         },
         {
@@ -10182,7 +10198,7 @@ const INATIVOS_DATA = {
           "bairro": "CIDADE JARDIM",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "21/05/2026",
-          "dias": 72,
+          "dias": 74,
           "media": 259.6
         },
         {
@@ -10191,7 +10207,7 @@ const INATIVOS_DATA = {
           "bairro": "SANTO ANTONIO",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "21/05/2026",
-          "dias": 72,
+          "dias": 74,
           "media": 178.79
         },
         {
@@ -10200,7 +10216,7 @@ const INATIVOS_DATA = {
           "bairro": "SANTA AMELIA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "26/05/2026",
-          "dias": 67,
+          "dias": 69,
           "media": 198.4
         },
         {
@@ -10209,26 +10225,8 @@ const INATIVOS_DATA = {
           "bairro": "VILA DA SERRA",
           "cidade": "NOVA LIMA",
           "dtultcomp": "26/05/2026",
-          "dias": 67,
+          "dias": 69,
           "media": 100.85
-        },
-        {
-          "codcli": "32781",
-          "cliente": "E M DE AZEVEDO",
-          "bairro": "SANTA ROSA",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "27/05/2026",
-          "dias": 66,
-          "media": 462.66
-        },
-        {
-          "codcli": "36985",
-          "cliente": "EMPORIO CANASTRA LTDA",
-          "bairro": "ANGOLA",
-          "cidade": "BETIM",
-          "dtultcomp": "27/05/2026",
-          "dias": 66,
-          "media": 501.76
         },
         {
           "codcli": "33683",
@@ -10236,8 +10234,26 @@ const INATIVOS_DATA = {
           "bairro": "FUNCIONÁRIOS",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "27/05/2026",
-          "dias": 66,
+          "dias": 68,
           "media": 384.7
+        },
+        {
+          "codcli": "36985",
+          "cliente": "EMPORIO CANASTRA LTDA",
+          "bairro": "ANGOLA",
+          "cidade": "BETIM",
+          "dtultcomp": "27/05/2026",
+          "dias": 68,
+          "media": 501.76
+        },
+        {
+          "codcli": "32781",
+          "cliente": "E M DE AZEVEDO",
+          "bairro": "SANTA ROSA",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "27/05/2026",
+          "dias": 68,
+          "media": 462.66
         },
         {
           "codcli": "30343",
@@ -10245,17 +10261,8 @@ const INATIVOS_DATA = {
           "bairro": "BURITIS",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "28/05/2026",
-          "dias": 65,
+          "dias": 67,
           "media": 256.55
-        },
-        {
-          "codcli": "38897",
-          "cliente": "LCA COMERCIO LTDA",
-          "bairro": "PAMPULHA",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "29/05/2026",
-          "dias": 64,
-          "media": 94.24
         },
         {
           "codcli": "33173",
@@ -10263,8 +10270,17 @@ const INATIVOS_DATA = {
           "bairro": "SANTA AMELIA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "29/05/2026",
-          "dias": 64,
+          "dias": 66,
           "media": 669.6
+        },
+        {
+          "codcli": "38897",
+          "cliente": "LCA COMERCIO LTDA",
+          "bairro": "PAMPULHA",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "29/05/2026",
+          "dias": 66,
+          "media": 94.24
         },
         {
           "codcli": "33892",
@@ -10272,7 +10288,7 @@ const INATIVOS_DATA = {
           "bairro": "BELVEDERE",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "02/06/2026",
-          "dias": 60,
+          "dias": 62,
           "media": 258.3
         },
         {
@@ -10281,7 +10297,7 @@ const INATIVOS_DATA = {
           "bairro": "CACHOEIRA",
           "cidade": "BETIM",
           "dtultcomp": "05/06/2026",
-          "dias": 57,
+          "dias": 59,
           "media": 217.73
         },
         {
@@ -10290,7 +10306,7 @@ const INATIVOS_DATA = {
           "bairro": "PAMPULHA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "08/06/2026",
-          "dias": 54,
+          "dias": 56,
           "media": 1272.24
         },
         {
@@ -10299,7 +10315,7 @@ const INATIVOS_DATA = {
           "bairro": "BELVEDERE",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "09/06/2026",
-          "dias": 53,
+          "dias": 55,
           "media": 572.67
         },
         {
@@ -10308,7 +10324,7 @@ const INATIVOS_DATA = {
           "bairro": "CASTELO",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "10/06/2026",
-          "dias": 52,
+          "dias": 54,
           "media": 700.76
         },
         {
@@ -10317,7 +10333,7 @@ const INATIVOS_DATA = {
           "bairro": "LARANJEIRAS",
           "cidade": "BETIM",
           "dtultcomp": "10/06/2026",
-          "dias": 52,
+          "dias": 54,
           "media": 517.76
         },
         {
@@ -10326,7 +10342,7 @@ const INATIVOS_DATA = {
           "bairro": "HORTO",
           "cidade": "BETIM",
           "dtultcomp": "10/06/2026",
-          "dias": 52,
+          "dias": 54,
           "media": 91.87
         },
         {
@@ -10335,7 +10351,7 @@ const INATIVOS_DATA = {
           "bairro": "BURITIS",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "11/06/2026",
-          "dias": 51,
+          "dias": 53,
           "media": 119.87
         },
         {
@@ -10344,7 +10360,7 @@ const INATIVOS_DATA = {
           "bairro": "PAMPULHA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "15/06/2026",
-          "dias": 47,
+          "dias": 49,
           "media": 431.93
         },
         {
@@ -10353,7 +10369,7 @@ const INATIVOS_DATA = {
           "bairro": "CAMPUS UFMG",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "15/06/2026",
-          "dias": 47,
+          "dias": 49,
           "media": 400.52
         },
         {
@@ -10362,7 +10378,7 @@ const INATIVOS_DATA = {
           "bairro": "SAVASSI",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "16/06/2026",
-          "dias": 46,
+          "dias": 48,
           "media": 202.0
         },
         {
@@ -10371,7 +10387,7 @@ const INATIVOS_DATA = {
           "bairro": "PAMPULHA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "17/06/2026",
-          "dias": 45,
+          "dias": 47,
           "media": 274.87
         },
         {
@@ -10380,7 +10396,7 @@ const INATIVOS_DATA = {
           "bairro": "PAMPULHA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "17/06/2026",
-          "dias": 45,
+          "dias": 47,
           "media": 94.24
         },
         {
@@ -10389,7 +10405,7 @@ const INATIVOS_DATA = {
           "bairro": "ANGOLA",
           "cidade": "BETIM",
           "dtultcomp": "17/06/2026",
-          "dias": 45,
+          "dias": 47,
           "media": 107.6
         },
         {
@@ -10398,7 +10414,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "BETIM",
           "dtultcomp": "17/06/2026",
-          "dias": 45,
+          "dias": 47,
           "media": 101.22
         },
         {
@@ -10407,7 +10423,7 @@ const INATIVOS_DATA = {
           "bairro": "VILA DA SERRA",
           "cidade": "NOVA LIMA",
           "dtultcomp": "18/06/2026",
-          "dias": 44,
+          "dias": 46,
           "media": 372.4
         },
         {
@@ -10416,7 +10432,7 @@ const INATIVOS_DATA = {
           "bairro": "ESTORIL",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "18/06/2026",
-          "dias": 44,
+          "dias": 46,
           "media": 491.2
         },
         {
@@ -10425,7 +10441,7 @@ const INATIVOS_DATA = {
           "bairro": "GRAJAÚ",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "18/06/2026",
-          "dias": 44,
+          "dias": 46,
           "media": 958.8
         },
         {
@@ -10434,7 +10450,7 @@ const INATIVOS_DATA = {
           "bairro": "LOURDES",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "18/06/2026",
-          "dias": 44,
+          "dias": 46,
           "media": 106.4
         },
         {
@@ -10443,7 +10459,7 @@ const INATIVOS_DATA = {
           "bairro": "MANTIQUEIRA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "26/06/2026",
-          "dias": 36,
+          "dias": 38,
           "media": 204.64
         },
         {
@@ -10452,7 +10468,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM ATLÂNTICO",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "26/06/2026",
-          "dias": 36,
+          "dias": 38,
           "media": 349.92
         },
         {
@@ -10461,7 +10477,7 @@ const INATIVOS_DATA = {
           "bairro": "GAMELEIRA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "26/06/2026",
-          "dias": 36,
+          "dias": 38,
           "media": 351.6
         },
         {
@@ -10470,7 +10486,7 @@ const INATIVOS_DATA = {
           "bairro": "JARAGUA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "29/06/2026",
-          "dias": 33,
+          "dias": 35,
           "media": 881.31
         },
         {
@@ -10479,7 +10495,7 @@ const INATIVOS_DATA = {
           "bairro": "VILA NOVA ESPERANÇA - 1ª SEÇÃO",
           "cidade": "IBIRITE",
           "dtultcomp": "29/06/2026",
-          "dias": 33,
+          "dias": 35,
           "media": 641.48
         },
         {
@@ -10488,7 +10504,7 @@ const INATIVOS_DATA = {
           "bairro": "SANTA EFIGENIA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 4876.0
         },
         {
@@ -10497,7 +10513,7 @@ const INATIVOS_DATA = {
           "bairro": "VILA DA SERRA",
           "cidade": "NOVA LIMA",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 215.2
         },
         {
@@ -10506,7 +10522,7 @@ const INATIVOS_DATA = {
           "bairro": "SANTO AGOSTINHO",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 1381.68
         },
         {
@@ -10515,7 +10531,7 @@ const INATIVOS_DATA = {
           "bairro": "VILA CLORIS",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 291.6
         },
         {
@@ -10524,7 +10540,7 @@ const INATIVOS_DATA = {
           "bairro": "SANTO ANTONIO",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "01/07/2026",
-          "dias": 31,
+          "dias": 33,
           "media": 582.6
         }
       ],
@@ -10564,21 +10580,12 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [
         {
-          "codcli": "35462",
-          "cliente": "POSTO WAP CRISTIANO MACHADO LTDA",
-          "bairro": "MINASLÂNDIA (P MAIO)",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "04/05/2026",
-          "dias": 89,
-          "media": 148.97
-        },
-        {
           "codcli": "35974",
           "cliente": "PONTO DA BEBIDA G LTDA",
           "bairro": "NOVA CONTAGEM",
           "cidade": "CONTAGEM",
           "dtultcomp": "05/05/2026",
-          "dias": 88,
+          "dias": 90,
           "media": 0.0
         },
         {
@@ -10587,7 +10594,7 @@ const INATIVOS_DATA = {
           "bairro": "RESSACA",
           "cidade": "CONTAGEM",
           "dtultcomp": "05/05/2026",
-          "dias": 88,
+          "dias": 90,
           "media": 0.0
         },
         {
@@ -10596,26 +10603,8 @@ const INATIVOS_DATA = {
           "bairro": "ANA LÚCIA",
           "cidade": "SABARA",
           "dtultcomp": "12/05/2026",
-          "dias": 81,
+          "dias": 83,
           "media": 106.17
-        },
-        {
-          "codcli": "35727",
-          "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
-          "bairro": "ITAIPU (BARREIRO)",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "18/05/2026",
-          "dias": 75,
-          "media": 223.88
-        },
-        {
-          "codcli": "39239",
-          "cliente": "52.180.332 BARBARA LUIZA SALES",
-          "bairro": "CÂNDIDA FERREIRA",
-          "cidade": "CONTAGEM",
-          "dtultcomp": "18/05/2026",
-          "dias": 75,
-          "media": 640.08
         },
         {
           "codcli": "35725",
@@ -10623,7 +10612,7 @@ const INATIVOS_DATA = {
           "bairro": "MINEIRÃO",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "18/05/2026",
-          "dias": 75,
+          "dias": 77,
           "media": 252.4
         },
         {
@@ -10632,7 +10621,7 @@ const INATIVOS_DATA = {
           "bairro": "MILIONÁRIOS (BARREIRO)",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "18/05/2026",
-          "dias": 75,
+          "dias": 77,
           "media": 229.88
         },
         {
@@ -10641,8 +10630,44 @@ const INATIVOS_DATA = {
           "bairro": "MORADA DA SERRA",
           "cidade": "IBIRITE",
           "dtultcomp": "18/05/2026",
-          "dias": 75,
+          "dias": 77,
           "media": 291.4
+        },
+        {
+          "codcli": "35727",
+          "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
+          "bairro": "ITAIPU (BARREIRO)",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "18/05/2026",
+          "dias": 77,
+          "media": 223.88
+        },
+        {
+          "codcli": "39239",
+          "cliente": "52.180.332 BARBARA LUIZA SALES",
+          "bairro": "CÂNDIDA FERREIRA",
+          "cidade": "CONTAGEM",
+          "dtultcomp": "18/05/2026",
+          "dias": 77,
+          "media": 640.08
+        },
+        {
+          "codcli": "38994",
+          "cliente": "DAP CONVENIENCIA LTDA.",
+          "bairro": "INDÚSTRIAS I (BARREIRO)",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "26/05/2026",
+          "dias": 69,
+          "media": 0.0
+        },
+        {
+          "codcli": "39379",
+          "cliente": "ANV BEBIDAS E MERCADINHO LTDA",
+          "bairro": "NOVO PROGRESSO",
+          "cidade": "CONTAGEM",
+          "dtultcomp": "26/05/2026",
+          "dias": 69,
+          "media": 100.56
         },
         {
           "codcli": "39059",
@@ -10650,7 +10675,7 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM LAGUNA",
           "cidade": "CONTAGEM",
           "dtultcomp": "26/05/2026",
-          "dias": 67,
+          "dias": 69,
           "media": 155.9
         },
         {
@@ -10659,26 +10684,8 @@ const INATIVOS_DATA = {
           "bairro": "OITIS",
           "cidade": "CONTAGEM",
           "dtultcomp": "26/05/2026",
-          "dias": 67,
+          "dias": 69,
           "media": 279.6
-        },
-        {
-          "codcli": "39379",
-          "cliente": "ANV BEBIDAS E MERCADINHO LTDA",
-          "bairro": "NOVO PROGRESSO",
-          "cidade": "CONTAGEM",
-          "dtultcomp": "26/05/2026",
-          "dias": 67,
-          "media": 100.56
-        },
-        {
-          "codcli": "38994",
-          "cliente": "DAP CONVENIENCIA LTDA.",
-          "bairro": "INDÚSTRIAS I (BARREIRO)",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "26/05/2026",
-          "dias": 67,
-          "media": 0.0
         },
         {
           "codcli": "37844",
@@ -10686,7 +10693,7 @@ const INATIVOS_DATA = {
           "bairro": "ENGENHO NOGUEIRA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "28/05/2026",
-          "dias": 65,
+          "dias": 67,
           "media": 246.08
         },
         {
@@ -10695,7 +10702,7 @@ const INATIVOS_DATA = {
           "bairro": "PEDRA AZUL",
           "cidade": "CONTAGEM",
           "dtultcomp": "05/06/2026",
-          "dias": 57,
+          "dias": 59,
           "media": 297.09
         },
         {
@@ -10704,7 +10711,7 @@ const INATIVOS_DATA = {
           "bairro": "CÂNDIDA FERREIRA",
           "cidade": "CONTAGEM",
           "dtultcomp": "09/06/2026",
-          "dias": 53,
+          "dias": 55,
           "media": 682.59
         },
         {
@@ -10713,7 +10720,7 @@ const INATIVOS_DATA = {
           "bairro": "OLARIA",
           "cidade": "NOVA LIMA",
           "dtultcomp": "11/06/2026",
-          "dias": 51,
+          "dias": 53,
           "media": 243.66
         },
         {
@@ -10722,7 +10729,7 @@ const INATIVOS_DATA = {
           "bairro": "PEDRA AZUL",
           "cidade": "CONTAGEM",
           "dtultcomp": "12/06/2026",
-          "dias": 50,
+          "dias": 52,
           "media": 275.6
         },
         {
@@ -10731,7 +10738,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "15/06/2026",
-          "dias": 47,
+          "dias": 49,
           "media": 259.6
         },
         {
@@ -10740,7 +10747,7 @@ const INATIVOS_DATA = {
           "bairro": "LINDÉIA (BARREIRO)",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "25/06/2026",
-          "dias": 37,
+          "dias": 39,
           "media": 1608.27
         },
         {
@@ -10749,7 +10756,7 @@ const INATIVOS_DATA = {
           "bairro": "LAGOA (JUSTINÓPOLIS)",
           "cidade": "RIBEIRAO DAS NEVES",
           "dtultcomp": "25/06/2026",
-          "dias": 37,
+          "dias": 39,
           "media": 0.0
         },
         {
@@ -10758,7 +10765,7 @@ const INATIVOS_DATA = {
           "bairro": "CONFISCO",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 226.5
         },
         {
@@ -10767,7 +10774,7 @@ const INATIVOS_DATA = {
           "bairro": "CEU AZUL",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "01/07/2026",
-          "dias": 31,
+          "dias": 33,
           "media": 196.32
         },
         {
@@ -10776,7 +10783,7 @@ const INATIVOS_DATA = {
           "bairro": "SÃO JOSÉ",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "02/07/2026",
-          "dias": 30,
+          "dias": 32,
           "media": 871.64
         }
       ],
@@ -10821,7 +10828,7 @@ const INATIVOS_DATA = {
           "bairro": "MORRO DO ENGENHO",
           "cidade": "ITAUNA",
           "dtultcomp": "29/05/2026",
-          "dias": 64,
+          "dias": 66,
           "media": 4317.0
         },
         {
@@ -10830,7 +10837,7 @@ const INATIVOS_DATA = {
           "bairro": "GRACAS",
           "cidade": "ITAUNA",
           "dtultcomp": "29/05/2026",
-          "dias": 64,
+          "dias": 66,
           "media": 1398.0
         },
         {
@@ -10839,7 +10846,7 @@ const INATIVOS_DATA = {
           "bairro": "UNIÃO",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "23/06/2026",
-          "dias": 39,
+          "dias": 41,
           "media": 0.0
         },
         {
@@ -10848,7 +10855,7 @@ const INATIVOS_DATA = {
           "bairro": "VEREDA",
           "cidade": "RIBEIRAO DAS NEVES",
           "dtultcomp": "30/06/2026",
-          "dias": 32,
+          "dias": 34,
           "media": 23775.4
         }
       ],
@@ -10865,7 +10872,7 @@ const INATIVOS_DATA = {
           "bairro": "CONJUNTO HABITACIONAL MORRO ALTO",
           "cidade": "VESPASIANO",
           "dtultcomp": "03/06/2026",
-          "dias": 59,
+          "dias": 61,
           "media": 0.0
         },
         {
@@ -10874,7 +10881,7 @@ const INATIVOS_DATA = {
           "bairro": "FELIPE CLÁUDIO DE SALES",
           "cidade": "PEDRO LEOPOLDO",
           "dtultcomp": "04/06/2026",
-          "dias": 58,
+          "dias": 60,
           "media": 2800.0
         },
         {
@@ -10883,7 +10890,7 @@ const INATIVOS_DATA = {
           "bairro": "PLANALTO",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "08/06/2026",
-          "dias": 54,
+          "dias": 56,
           "media": 155.6
         },
         {
@@ -10892,7 +10899,7 @@ const INATIVOS_DATA = {
           "bairro": "DISTRITO INDUSTRIAL JOÃO DE ALMEIDA",
           "cidade": "RIBEIRAO DAS NEVES",
           "dtultcomp": "12/06/2026",
-          "dias": 50,
+          "dias": 52,
           "media": 0.0
         },
         {
@@ -10901,7 +10908,7 @@ const INATIVOS_DATA = {
           "bairro": "SÃO LUIZ",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "17/06/2026",
-          "dias": 45,
+          "dias": 47,
           "media": 70.87
         },
         {
@@ -10910,7 +10917,7 @@ const INATIVOS_DATA = {
           "bairro": "CARDEAL MOTA",
           "cidade": "SANTANA DO RIACHO",
           "dtultcomp": "19/06/2026",
-          "dias": 43,
+          "dias": 45,
           "media": 908.2
         },
         {
@@ -10919,7 +10926,7 @@ const INATIVOS_DATA = {
           "bairro": "SANTOS DUMONT",
           "cidade": "LAGOA SANTA",
           "dtultcomp": "23/06/2026",
-          "dias": 39,
+          "dias": 41,
           "media": 952.5
         },
         {
@@ -10928,7 +10935,7 @@ const INATIVOS_DATA = {
           "bairro": "LONDRINA (SÃO BENEDITO)",
           "cidade": "SANTA LUZIA",
           "dtultcomp": "24/06/2026",
-          "dias": 38,
+          "dias": 40,
           "media": 287.75
         },
         {
@@ -10937,7 +10944,7 @@ const INATIVOS_DATA = {
           "bairro": "NOSSA SENHORA DE FÁTIMA",
           "cidade": "RIBEIRAO DAS NEVES",
           "dtultcomp": "24/06/2026",
-          "dias": 38,
+          "dias": 40,
           "media": 0.0
         },
         {
@@ -10946,7 +10953,7 @@ const INATIVOS_DATA = {
           "bairro": "VILA MARIA III",
           "cidade": "LAGOA SANTA",
           "dtultcomp": "24/06/2026",
-          "dias": 38,
+          "dias": 40,
           "media": 201.33
         },
         {
@@ -10955,7 +10962,7 @@ const INATIVOS_DATA = {
           "bairro": "ASTECA (SÃO BENEDITO)",
           "cidade": "SANTA LUZIA",
           "dtultcomp": "25/06/2026",
-          "dias": 37,
+          "dias": 39,
           "media": 0.0
         },
         {
@@ -10964,7 +10971,7 @@ const INATIVOS_DATA = {
           "bairro": "CAPITAO EDURARDO",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "01/07/2026",
-          "dias": 31,
+          "dias": 33,
           "media": 223.6
         },
         {
@@ -10973,8 +10980,53 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "PEDRO LEOPOLDO",
           "dtultcomp": "02/07/2026",
-          "dias": 30,
+          "dias": 32,
           "media": 718.8
+        },
+        {
+          "codcli": "38185",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE CRISTINA LTDA",
+          "bairro": "CONJUNTO CRISTINA (SÃO BENEDITO)",
+          "cidade": "SANTA LUZIA",
+          "dtultcomp": "03/07/2026",
+          "dias": 31,
+          "media": 807.67
+        },
+        {
+          "codcli": "35497",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE PLUS LTDA",
+          "bairro": "SANTA MARTINHA",
+          "cidade": "RIBEIRAO DAS NEVES",
+          "dtultcomp": "03/07/2026",
+          "dias": 31,
+          "media": 844.77
+        },
+        {
+          "codcli": "38186",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE SENHORA APARECIDA LTDA",
+          "bairro": "SUELY",
+          "cidade": "VESPASIANO",
+          "dtultcomp": "03/07/2026",
+          "dias": 31,
+          "media": 582.8
+        },
+        {
+          "codcli": "38177",
+          "cliente": "MERCEARIA NASCIMENTO NOVO HORIZONTE LTDA",
+          "bairro": "SANTA MARTA",
+          "cidade": "RIBEIRAO DAS NEVES",
+          "dtultcomp": "03/07/2026",
+          "dias": 31,
+          "media": 390.17
+        },
+        {
+          "codcli": "35033",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE BOA ESPERANCA LTDA",
+          "bairro": "ESPERANCA (JUSTINOPOLIS)",
+          "cidade": "RIBEIRAO DAS NEVES",
+          "dtultcomp": "03/07/2026",
+          "dias": 31,
+          "media": 468.77
         }
       ],
       "novos": [
@@ -11072,7 +11124,7 @@ const INATIVOS_DATA = {
           "bairro": "CRUZEIRO",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "05/05/2026",
-          "dias": 88,
+          "dias": 90,
           "media": 159.6
         },
         {
@@ -11081,7 +11133,7 @@ const INATIVOS_DATA = {
           "bairro": "CASTELO",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "06/05/2026",
-          "dias": 87,
+          "dias": 89,
           "media": 114.83
         },
         {
@@ -11090,7 +11142,7 @@ const INATIVOS_DATA = {
           "bairro": "CASTELO",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "18/05/2026",
-          "dias": 75,
+          "dias": 77,
           "media": 164.05
         },
         {
@@ -11099,7 +11151,7 @@ const INATIVOS_DATA = {
           "bairro": "CRUZEIRO",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "21/05/2026",
-          "dias": 72,
+          "dias": 74,
           "media": 94.28
         },
         {
@@ -11108,7 +11160,7 @@ const INATIVOS_DATA = {
           "bairro": "NITEROI",
           "cidade": "BETIM",
           "dtultcomp": "21/05/2026",
-          "dias": 72,
+          "dias": 74,
           "media": 81148.8
         },
         {
@@ -11117,17 +11169,8 @@ const INATIVOS_DATA = {
           "bairro": "OURO PRETO",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "27/05/2026",
-          "dias": 66,
+          "dias": 68,
           "media": 486.77
-        },
-        {
-          "codcli": "34478",
-          "cliente": "8ZH7 RESTAURANTE LTDA",
-          "bairro": "FUNCIONÁRIOS",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "28/05/2026",
-          "dias": 65,
-          "media": 1620.9
         },
         {
           "codcli": "31401",
@@ -11135,17 +11178,17 @@ const INATIVOS_DATA = {
           "bairro": "SERRANO",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "28/05/2026",
-          "dias": 65,
+          "dias": 67,
           "media": 94.2
         },
         {
-          "codcli": "30324",
-          "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-          "bairro": "BELVEDERE",
+          "codcli": "34478",
+          "cliente": "8ZH7 RESTAURANTE LTDA",
+          "bairro": "FUNCIONÁRIOS",
           "cidade": "BELO HORIZONTE",
-          "dtultcomp": "29/05/2026",
-          "dias": 64,
-          "media": 123.04
+          "dtultcomp": "28/05/2026",
+          "dias": 67,
+          "media": 1620.9
         },
         {
           "codcli": "39403",
@@ -11153,7 +11196,16 @@ const INATIVOS_DATA = {
           "bairro": "COMITECO",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "29/05/2026",
-          "dias": 64,
+          "dias": 66,
+          "media": 123.04
+        },
+        {
+          "codcli": "30324",
+          "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
+          "bairro": "BELVEDERE",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "29/05/2026",
+          "dias": 66,
           "media": 123.04
         },
         {
@@ -11162,17 +11214,8 @@ const INATIVOS_DATA = {
           "bairro": "BELVEDERE",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "02/06/2026",
-          "dias": 60,
+          "dias": 62,
           "media": 252.0
-        },
-        {
-          "codcli": "30705",
-          "cliente": "RUA DO JASMIM ALIMENTOS E BEBIDAS LTDA",
-          "bairro": "SANTO ANTÔNIO",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "05/06/2026",
-          "dias": 57,
-          "media": 199.6
         },
         {
           "codcli": "30204",
@@ -11180,8 +11223,17 @@ const INATIVOS_DATA = {
           "bairro": "BURITIS",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "05/06/2026",
-          "dias": 57,
+          "dias": 59,
           "media": 415.8
+        },
+        {
+          "codcli": "30705",
+          "cliente": "RUA DO JASMIM ALIMENTOS E BEBIDAS LTDA",
+          "bairro": "SANTO ANTÔNIO",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "05/06/2026",
+          "dias": 59,
+          "media": 199.6
         },
         {
           "codcli": "34226",
@@ -11189,7 +11241,7 @@ const INATIVOS_DATA = {
           "bairro": "RIO BRANCO",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "08/06/2026",
-          "dias": 54,
+          "dias": 56,
           "media": 91.87
         },
         {
@@ -11198,7 +11250,7 @@ const INATIVOS_DATA = {
           "bairro": "BETANIA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "09/06/2026",
-          "dias": 53,
+          "dias": 55,
           "media": 405.4
         },
         {
@@ -11207,7 +11259,7 @@ const INATIVOS_DATA = {
           "bairro": "CENTRO",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "09/06/2026",
-          "dias": 53,
+          "dias": 55,
           "media": 554.07
         },
         {
@@ -11216,7 +11268,7 @@ const INATIVOS_DATA = {
           "bairro": "SANTA TEREZA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "16/06/2026",
-          "dias": 46,
+          "dias": 48,
           "media": 462.17
         },
         {
@@ -11225,7 +11277,7 @@ const INATIVOS_DATA = {
           "bairro": "SION",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "17/06/2026",
-          "dias": 45,
+          "dias": 47,
           "media": 82.03
         },
         {
@@ -11234,7 +11286,7 @@ const INATIVOS_DATA = {
           "bairro": "SANTA AMÉLIA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "17/06/2026",
-          "dias": 45,
+          "dias": 47,
           "media": 1704.23
         },
         {
@@ -11243,7 +11295,7 @@ const INATIVOS_DATA = {
           "bairro": "OURO PRETO",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "18/06/2026",
-          "dias": 44,
+          "dias": 46,
           "media": 387.44
         },
         {
@@ -11252,7 +11304,7 @@ const INATIVOS_DATA = {
           "bairro": "SANTOS DUMONT",
           "cidade": "LAGOA SANTA",
           "dtultcomp": "19/06/2026",
-          "dias": 43,
+          "dias": 45,
           "media": 275.6
         },
         {
@@ -11261,7 +11313,7 @@ const INATIVOS_DATA = {
           "bairro": "ESTORIL",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "23/06/2026",
-          "dias": 39,
+          "dias": 41,
           "media": 242.88
         },
         {
@@ -11270,7 +11322,7 @@ const INATIVOS_DATA = {
           "bairro": "SANTO ANTONIO",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "23/06/2026",
-          "dias": 39,
+          "dias": 41,
           "media": 242.88
         },
         {
@@ -11279,7 +11331,7 @@ const INATIVOS_DATA = {
           "bairro": "NAÇÕES UNIDAS",
           "cidade": "SABARA",
           "dtultcomp": "24/06/2026",
-          "dias": 38,
+          "dias": 40,
           "media": 100.0
         },
         {
@@ -11288,21 +11340,20 @@ const INATIVOS_DATA = {
           "bairro": "SAGRADA FAMÍLIA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "02/07/2026",
-          "dias": 30,
+          "dias": 32,
           "media": 2150.32
+        },
+        {
+          "codcli": "33623",
+          "cliente": "DUARTE E FRAGA COMERCIO DE ALIMENTOS LTDA",
+          "bairro": "LOURDES",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "03/07/2026",
+          "dias": 31,
+          "media": 1045.3
         }
       ],
-      "novos": [
-        {
-          "codcli": "39553",
-          "cliente": "58.541.717 CLESIO MATEUS SANTOS GONCALVES",
-          "bairro": "HELIÓPOLIS",
-          "cidade": "BELO HORIZONTE",
-          "dtcadastro": "30/06/2026",
-          "dtultcomp": null,
-          "media": 0.0
-        }
-      ]
+      "novos": []
     },
     "WILLIAM ALVES DA SILVA - OFF TRADE": {
       "rca": "349",
@@ -11315,7 +11366,7 @@ const INATIVOS_DATA = {
           "bairro": "NOVA ERA",
           "cidade": "JUIZ DE FORA",
           "dtultcomp": "14/05/2026",
-          "dias": 79,
+          "dias": 81,
           "media": 0.0
         },
         {
@@ -11324,7 +11375,7 @@ const INATIVOS_DATA = {
           "bairro": "ALTO DOS PASSOS",
           "cidade": "JUIZ DE FORA",
           "dtultcomp": "29/05/2026",
-          "dias": 64,
+          "dias": 66,
           "media": 727.0
         },
         {
@@ -11333,7 +11384,7 @@ const INATIVOS_DATA = {
           "bairro": "ESTRELA DO SUL",
           "cidade": "JUIZ DE FORA",
           "dtultcomp": "01/06/2026",
-          "dias": 61,
+          "dias": 63,
           "media": 0.0
         },
         {
@@ -11342,7 +11393,7 @@ const INATIVOS_DATA = {
           "bairro": "ALTO DOS PASSOS",
           "cidade": "JUIZ DE FORA",
           "dtultcomp": "01/06/2026",
-          "dias": 61,
+          "dias": 63,
           "media": 0.0
         },
         {
@@ -11351,7 +11402,7 @@ const INATIVOS_DATA = {
           "bairro": "IPIRANGA",
           "cidade": "JUIZ DE FORA",
           "dtultcomp": "17/06/2026",
-          "dias": 45,
+          "dias": 47,
           "media": 2434.46
         }
       ],
