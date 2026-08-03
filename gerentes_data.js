@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "03/08/2026 14:03",
+  "atualizado_em": "03/08/2026 14:24",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -1069,7 +1069,7 @@ const GERENTES_DATA = {
                 },
                 {
                   "nome": "DIRLEI ARAUJO - OFF TRADE",
-                  "rca": "554",
+                  "rca": "417",
                   "estado": "RJ",
                   "por_mes": {
                     "Abr/26": {
@@ -1216,6 +1216,12 @@ const GERENTES_DATA = {
                       "qt": 6607
                     }
                   }
+                },
+                {
+                  "nome": "KESSYA OURIQUE - OFF TRADE",
+                  "rca": "283",
+                  "estado": "RJ",
+                  "por_mes": {}
                 },
                 {
                   "nome": "LEANDRO SOUZA - OFF TRADE",
@@ -1598,8 +1604,8 @@ const GERENTES_DATA = {
           "qt": 122235
         },
         "Ago/26": {
-          "fat": 336816.41,
-          "qt": 8363
+          "fat": 286954.97,
+          "qt": 7319
         },
         "Jul/26": {
           "fat": 8527559.31,
@@ -1772,8 +1778,8 @@ const GERENTES_DATA = {
               "qt": 50015
             },
             "Ago/26": {
-              "fat": 297236.87,
-              "qt": 7142
+              "fat": 247375.43,
+              "qt": 6098
             }
           },
           "supervisores": [
@@ -1804,8 +1810,8 @@ const GERENTES_DATA = {
                   "qt": 44543
                 },
                 "Ago/26": {
-                  "fat": 186793.48,
-                  "qt": 3651
+                  "fat": 136932.04,
+                  "qt": 2607
                 }
               },
               "vendedores": [
@@ -1814,10 +1820,6 @@ const GERENTES_DATA = {
                   "rca": "232",
                   "estado": "SP",
                   "por_mes": {
-                    "Ago/26": {
-                      "fat": 49861.44,
-                      "qt": 1044
-                    },
                     "Jul/26": {
                       "fat": 593745.96,
                       "qt": 18036
@@ -3099,12 +3101,6 @@ const GERENTES_DATA = {
                 {
                   "nome": "KELLY RAMOS - OFF TRADE",
                   "rca": "420",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "KESSYA OURIQUE - OFF TRADE",
-                  "rca": "283",
                   "estado": "",
                   "por_mes": {}
                 },
