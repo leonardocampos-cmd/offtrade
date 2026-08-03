@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "03/08/2026 12:07",
+  "atualizado_em": "03/08/2026 14:12",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -145,6 +145,26 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "35725",
+        "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
+        "bairro": "MINEIRÃO",
+        "dtultcomp": "18/05/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 184.56
+          },
+          {
+            "produto": "RED BULL SUGAR FREE 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 184.56
+          }
+        ]
+      },
+      {
         "codcli": "35724",
         "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
         "bairro": "MORADA DA SERRA",
@@ -164,26 +184,6 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "RED BULL TROPICAL 24X250 ML - ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          }
-        ]
-      },
-      {
-        "codcli": "35725",
-        "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
-        "bairro": "MINEIRÃO",
-        "dtultcomp": "18/05/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          },
-          {
-            "produto": "RED BULL SUGAR FREE 24X250ML ENERG",
             "fantasia": "",
             "qt": 1,
             "valor": 184.56
@@ -811,6 +811,32 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "37330",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "NOVA ERA",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 514.8
+          },
+          {
+            "produto": "VILLA ROSA ROSE 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 257.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 245.04
+          }
+        ]
+      },
+      {
         "codcli": "37333",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "CENTRO",
@@ -839,32 +865,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "PERNOD",
             "qt": 3,
             "valor": 177.54
-          }
-        ]
-      },
-      {
-        "codcli": "37330",
-        "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "NOVA ERA",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 514.8
-          },
-          {
-            "produto": "VILLA ROSA ROSE 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 257.4
-          },
-          {
-            "produto": "VODKA ORLOFF 1L - DEST",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 245.04
           }
         ]
       },
@@ -2009,26 +2009,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "32871",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "VILA DA SERRA",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "YVY",
-            "qt": 6,
-            "valor": 239.4
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "YVY",
-            "qt": 6,
-            "valor": 239.4
-          }
-        ]
-      },
-      {
         "codcli": "33014",
         "cliente": "ER COZINHA ARTESANAL LTDA",
         "bairro": "LOURDES",
@@ -2045,6 +2025,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "YVY",
             "qt": 4,
             "valor": 159.6
+          }
+        ]
+      },
+      {
+        "codcli": "32871",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "VILA DA SERRA",
+        "dtultcomp": "18/06/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 6,
+            "valor": 239.4
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 6,
+            "valor": 239.4
           }
         ]
       },
@@ -3251,32 +3251,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "29725",
-        "cliente": "RAFAEL ARAUJO GORI RESTAURANTE",
-        "bairro": "BURITIS",
-        "dtultcomp": "21/07/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 191.76
-          },
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 191.76
-          },
-          {
-            "produto": "VODKA ABSOLUT - 1 LITRO",
-            "fantasia": "PERNOD",
-            "qt": 1,
-            "valor": 79.9
-          }
-        ]
-      },
-      {
         "codcli": "32776",
         "cliente": "S C SOLUCOES E COMERCIO DE ALIMENTOS LTDA",
         "bairro": "SANTO ANTONIO",
@@ -3477,20 +3451,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "DIAGEO",
             "qt": 24,
             "valor": 1749.6
-          }
-        ]
-      },
-      {
-        "codcli": "33011",
-        "cliente": "YOKAI BAR LTDA",
-        "bairro": "SAVASSI",
-        "dtultcomp": "22/07/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-            "fantasia": "HEINEKEN",
-            "qt": 8,
-            "valor": 1150.08
           }
         ]
       },
@@ -4973,26 +4933,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30091",
-        "cliente": "COMERCIAL COLOMBO EIRELI",
-        "bairro": "SION",
-        "dtultcomp": "31/07/2026",
-        "produtos": [
-          {
-            "produto": "VINHO DO PORTO DALVA TAWNY 750ML",
-            "fantasia": "CASTAS",
-            "qt": 2,
-            "valor": 259.8
-          },
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "YVY",
-            "qt": 1,
-            "valor": 39.9
-          }
-        ]
-      },
-      {
         "codcli": "33257",
         "cliente": "F2 COMERCIO LTDA.",
         "bairro": "BARRO PRETO",
@@ -5374,46 +5314,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33288",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "SÃO SEBASTIAO",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "AMARULA C LIQUEUR 750 ML",
-            "fantasia": "AURORA",
-            "qt": 12,
-            "valor": 1318.8
-          },
-          {
-            "produto": "GIN ORLOFF 1L",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 538.8
-          }
-        ]
-      },
-      {
-        "codcli": "33290",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "ANGÉLICA",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "AMARULA C LIQUEUR 750 ML",
-            "fantasia": "AURORA",
-            "qt": 12,
-            "valor": 1318.8
-          },
-          {
-            "produto": "GIN BEEFEATER 750ML",
-            "fantasia": "PERNOD",
-            "qt": 6,
-            "valor": 509.4
-          }
-        ]
-      },
-      {
         "codcli": "33293",
         "cliente": "ARMAZEM BRASIL LIMITADA",
         "bairro": "CENTRO",
@@ -5454,6 +5354,46 @@ const NAO_POS_MG_DATA = {
             "fantasia": "CASTAS",
             "qt": 12,
             "valor": 478.8
+          }
+        ]
+      },
+      {
+        "codcli": "33290",
+        "cliente": "ARMAZEM BRASIL LIMITADA",
+        "bairro": "ANGÉLICA",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "AMARULA C LIQUEUR 750 ML",
+            "fantasia": "AURORA",
+            "qt": 12,
+            "valor": 1318.8
+          },
+          {
+            "produto": "GIN BEEFEATER 750ML",
+            "fantasia": "PERNOD",
+            "qt": 6,
+            "valor": 509.4
+          }
+        ]
+      },
+      {
+        "codcli": "33288",
+        "cliente": "ARMAZEM BRASIL LIMITADA",
+        "bairro": "SÃO SEBASTIAO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "AMARULA C LIQUEUR 750 ML",
+            "fantasia": "AURORA",
+            "qt": 12,
+            "valor": 1318.8
+          },
+          {
+            "produto": "GIN ORLOFF 1L",
+            "fantasia": "PERNOD",
+            "qt": 12,
+            "valor": 538.8
           }
         ]
       },
@@ -7458,6 +7398,20 @@ const NAO_POS_MG_DATA = {
     ],
     "TIAGO ANDRADE": [
       {
+        "codcli": "38624",
+        "cliente": "IGOR SOUZA OLIVEIRA",
+        "bairro": "SAGRADA FAMÍLIA",
+        "dtultcomp": "27/04/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 6,
+            "valor": 215.4
+          }
+        ]
+      },
+      {
         "codcli": "30490",
         "cliente": "TANNAT VINHOS LTDA",
         "bairro": "CRUZEIRO",
@@ -8284,26 +8238,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "34348",
-        "cliente": "COMERCIAL PRISMA LTDA",
-        "bairro": "PEDRA AZUL",
-        "dtultcomp": "09/07/2026",
-        "produtos": [
-          {
-            "produto": "BEEFEATER PINK 700ML",
-            "fantasia": "PERNOD",
-            "qt": 3,
-            "valor": 224.7
-          },
-          {
-            "produto": "WHISKY JACK DANIELS BLACKBERRY 1L",
-            "fantasia": "BROWN-FORMAN",
-            "qt": 2,
-            "valor": 279.8
-          }
-        ]
-      },
-      {
         "codcli": "31096",
         "cliente": "PLAYBAR LTDA",
         "bairro": "ESTORIL",
@@ -8488,20 +8422,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "CASTAS",
             "qt": 24,
             "valor": 453.6
-          }
-        ]
-      },
-      {
-        "codcli": "32690",
-        "cliente": "ODOYA BH LTDA",
-        "bairro": "SAVASSI",
-        "dtultcomp": "15/07/2026",
-        "produtos": [
-          {
-            "produto": "AZEITE DE OLIVA EV ESSENZA 5L",
-            "fantasia": "NSG",
-            "qt": 1,
-            "valor": 267.9
           }
         ]
       },
@@ -9628,6 +9548,20 @@ const NAO_POS_MG_DATA = {
     ],
     "WILLIAM ALVES DA SILVA": [
       {
+        "codcli": "36532",
+        "cliente": "TIAGO'S DISTRIBUIDORA DE BEBIDAS LTDA",
+        "bairro": "AEROPORTO",
+        "dtultcomp": "29/10/2025",
+        "produtos": [
+          {
+            "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
+            "fantasia": "DIAGEO",
+            "qt": 10,
+            "valor": 1509.6
+          }
+        ]
+      },
+      {
         "codcli": "38148",
         "cliente": "ORGANIZACOES PAIS & FILHOS LTDA",
         "bairro": "ESTRELA DO SUL",
@@ -9942,32 +9876,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "DIAGEO",
             "qt": 36,
             "valor": 882.0
-          }
-        ]
-      },
-      {
-        "codcli": "36532",
-        "cliente": "TIAGO'S DISTRIBUIDORA DE BEBIDAS LTDA",
-        "bairro": "AEROPORTO",
-        "dtultcomp": "20/07/2026",
-        "produtos": [
-          {
-            "produto": "GIN GORDONS 750 ML",
-            "fantasia": "DIAGEO",
-            "qt": 36,
-            "valor": 1796.4
-          },
-          {
-            "produto": "VODKA SMIRNOFF RED 998 ML",
-            "fantasia": "DIAGEO",
-            "qt": 36,
-            "valor": 882.0
-          },
-          {
-            "produto": "WHISKY WALKER RED LABEL 1L",
-            "fantasia": "DIAGEO",
-            "qt": 36,
-            "valor": 2444.4
           }
         ]
       },
