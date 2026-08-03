@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "03/08/2026 14:23",
+  "atualizado_em": "03/08/2026 14:40",
   "meses": [
     "Jul/26",
     "Jun/26"
@@ -10,6 +10,7 @@ const METAS_DATA = {
     {
       "nome": "MARIA LUIZA - OFF TRADE",
       "rca": "275",
+      "tipovend": "E",
       "por_mes": {
         "Jun/26": {
           "fat_tt": {
@@ -724,6 +725,7 @@ const METAS_DATA = {
     {
       "nome": "MARILENA TRAGEL - OFF TRADE",
       "rca": "156",
+      "tipovend": "E",
       "por_mes": {
         "Jun/26": {
           "fat_tt": {
@@ -4123,6 +4125,7 @@ const METAS_DATA = {
     {
       "nome": "BARBARA CABRAL - OFF TRADE",
       "rca": "412",
+      "tipovend": "E",
       "por_mes": {
         "Jun/26": {
           "fat_tt": {
@@ -5654,6 +5657,7 @@ const METAS_DATA = {
     {
       "nome": "ANGELO NEVES SUZART - OFF TRADE",
       "rca": "153",
+      "tipovend": "E",
       "por_mes": {
         "Jun/26": {
           "fat_tt": {
@@ -7318,6 +7322,7 @@ const METAS_DATA = {
     {
       "nome": "JOSE MARCELO CARDOSO - OFF TRADE",
       "rca": "158",
+      "tipovend": "E",
       "por_mes": {
         "Jun/26": {
           "fat_tt": {
@@ -7861,6 +7866,7 @@ const METAS_DATA = {
     {
       "nome": "DANIELLE MOURA - OFF TRADE",
       "rca": "238",
+      "tipovend": "E",
       "por_mes": {
         "Jun/26": {
           "fat_tt": {
@@ -8144,6 +8150,7 @@ const METAS_DATA = {
     {
       "nome": "NÁTALI DE OLIVEIRA - OFF TRADE",
       "rca": "419",
+      "tipovend": "E",
       "por_mes": {
         "Jun/26": {
           "fat_tt": {
@@ -9763,6 +9770,7 @@ const METAS_DATA = {
     {
       "nome": "DIOGO RAPOSO - OFF TRADE",
       "rca": "144",
+      "tipovend": "I",
       "por_mes": {
         "Jun/26": {
           "fat_tt": {
@@ -11274,6 +11282,7 @@ const METAS_DATA = {
     {
       "nome": "LEANDRO SOUZA - OFF TRADE",
       "rca": "450",
+      "tipovend": "E",
       "por_mes": {
         "Jun/26": {
           "fat_tt": {
@@ -12226,6 +12235,7 @@ const METAS_DATA = {
     {
       "nome": "DIRLEI ARAUJO - OFF TRADE",
       "rca": "417",
+      "tipovend": "E",
       "por_mes": {
         "Jun/26": {
           "fat_tt": {
@@ -12382,6 +12392,7 @@ const METAS_DATA = {
     {
       "nome": "MATEUS CARDOSO - OFF TRADE",
       "rca": "439",
+      "tipovend": "E",
       "por_mes": {
         "Jun/26": {
           "fat_tt": {
@@ -13808,6 +13819,7 @@ const METAS_DATA = {
     {
       "nome": "KELLY RAMOS - OFF TRADE",
       "rca": "420",
+      "tipovend": "E",
       "por_mes": {
         "Jun/26": {
           "fat_tt": {
@@ -14080,6 +14092,7 @@ const METAS_DATA = {
     {
       "nome": "ADEILSON GONÇALVEZ - OFF TRADE",
       "rca": "431",
+      "tipovend": "E",
       "por_mes": {
         "Jun/26": {
           "fat_tt": {
@@ -16361,6 +16374,7 @@ const METAS_DATA = {
     {
       "nome": "JORGE MACIEL - OFF TRADE",
       "rca": "379",
+      "tipovend": "E",
       "por_mes": {
         "Jun/26": {
           "fat_tt": {
@@ -18866,6 +18880,7 @@ const METAS_DATA = {
     {
       "nome": "ANA CLARA FASSANO - OFF TRADE",
       "rca": "471",
+      "tipovend": "E",
       "por_mes": {
         "Jun/26": {
           "fat_tt": {
@@ -20202,6 +20217,7 @@ const METAS_DATA = {
     {
       "nome": "FABIO VALOTTI - OFF TRADE",
       "rca": "378",
+      "tipovend": "E",
       "por_mes": {
         "Jun/26": {
           "fat_tt": {
@@ -21422,6 +21438,7 @@ const METAS_DATA = {
     {
       "nome": "VIVIANI ALVES - OFF TRADE",
       "rca": "91",
+      "tipovend": "E",
       "por_mes": {
         "Jun/26": {
           "fat_tt": {
@@ -21818,11 +21835,7 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "",
-              "DESCRICAO": "HUMB. CANALE O.V MALBEC 750ML"
-            },
-            {
-              "FANTASIA": "",
-              "DESCRICAO": "HUMB. CANALE O.V PINOT NOIR 750ML"
+              "DESCRICAO": "VINHO TTO BERTOLI CHIANTI DOCG 750ML"
             },
             {
               "FANTASIA": "",
@@ -21830,11 +21843,15 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "",
+              "DESCRICAO": "HUMB. CANALE O.V PINOT NOIR 750ML"
+            },
+            {
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML"
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO TTO BERTOLI CHIANTI DOCG 750ML"
+              "DESCRICAO": "HUMB. CANALE O.V MALBEC 750ML"
             }
           ]
         },
@@ -21846,6 +21863,10 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "",
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
+            },
+            {
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI ESTATE S. PINOT NOIR"
             },
             {
@@ -21855,10 +21876,6 @@ const METAS_DATA = {
             {
               "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 750ML"
-            },
-            {
-              "FANTASIA": "",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
             }
           ]
         },
@@ -21870,23 +21887,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "",
-              "DESCRICAO": "VILLA ROSA TINTO 750ML"
+              "DESCRICAO": "VINHO CAVAS DE ORO BLEND BRANCO 750ML"
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO CAVAS DE ORO BLEND BRANCO 750ML"
-            }
-          ]
-        },
-        {
-          "CODCLI": "91141",
-          "CLIENTE": "OLARIA BARIGUI COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
-          "BAIRROENT": "ABRANCHES",
-          "DTULTCOMP": "16/07/2026",
-          "produtos": [
-            {
-              "FANTASIA": "",
-              "DESCRICAO": "AZEITE ESSENZA D'ITALIA 5L"
+              "DESCRICAO": "VILLA ROSA TINTO 750ML"
             }
           ]
         },
@@ -21910,11 +21915,23 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "",
-              "DESCRICAO": "VILLA ROSA TINTO 750ML"
+              "DESCRICAO": "VINHO CAVAS DE ORO BLEND BRANCO 750ML"
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO CAVAS DE ORO BLEND BRANCO 750ML"
+              "DESCRICAO": "VILLA ROSA TINTO 750ML"
+            }
+          ]
+        },
+        {
+          "CODCLI": "91141",
+          "CLIENTE": "OLARIA BARIGUI COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+          "BAIRROENT": "ABRANCHES",
+          "DTULTCOMP": "16/07/2026",
+          "produtos": [
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "AZEITE ESSENZA D'ITALIA 5L"
             }
           ]
         },
@@ -21926,11 +21943,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "",
-              "DESCRICAO": "SPINOGLIO TIERRA ALTA TANNAT RESERVA TTO"
+              "DESCRICAO": "VINHO ARESTI ESTATE S. MERLOT 750ML"
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. MERLOT 750ML"
+              "DESCRICAO": "VINHO TINTO BURDIZZO APPASSIMENTO 750ML"
             },
             {
               "FANTASIA": "",
@@ -21938,7 +21955,7 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO TINTO BURDIZZO APPASSIMENTO 750ML"
+              "DESCRICAO": "SPINOGLIO TIERRA ALTA TANNAT RESERVA TTO"
             }
           ]
         },
@@ -21950,7 +21967,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 750ML"
+              "DESCRICAO": "VINHO ARESTI TRISQUEL GRAN R SYRAH 750ML"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO LOS ALJIBES TEMPRANILLO 750ML"
             },
             {
               "FANTASIA": "",
@@ -21962,23 +21983,11 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO LOS ALJIBES TEMPRANILLO 750ML"
-            },
-            {
-              "FANTASIA": "",
-              "DESCRICAO": "VINHO LOS ALJIBES SYRAH  RED WINE 750ML"
-            },
-            {
-              "FANTASIA": "",
-              "DESCRICAO": "VINHO ARESTI TRISQUEL GRAN R SYRAH 750ML"
-            },
-            {
-              "FANTASIA": "",
               "DESCRICAO": "BARBERA D'ALBA SUPERIORE 750ML"
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CARMENERE 750ML"
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 750ML"
             },
             {
               "FANTASIA": "",
@@ -21986,7 +21995,15 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "",
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CARMENERE 750ML"
+            },
+            {
+              "FANTASIA": "",
               "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO LOS ALJIBES SYRAH  RED WINE 750ML"
             }
           ]
         },
@@ -22473,6 +22490,7 @@ const METAS_DATA = {
     {
       "nome": "FRANCISCO MACIEL - OFF TRADE",
       "rca": "446",
+      "tipovend": "E",
       "por_mes": {
         "Jun/26": {
           "fat_tt": {
@@ -22646,6 +22664,7 @@ const METAS_DATA = {
     {
       "nome": "ALLAN PAES - OFF TRADE",
       "rca": "174",
+      "tipovend": "E",
       "por_mes": {
         "Jun/26": {
           "fat_tt": {
@@ -22895,6 +22914,7 @@ const METAS_DATA = {
     {
       "nome": "GISELLE BARFER - OFF TRADE",
       "rca": "159",
+      "tipovend": "R",
       "por_mes": {
         "Jun/26": {
           "fat_tt": {
@@ -25498,6 +25518,7 @@ const METAS_DATA = {
     {
       "nome": "RAPHAEL SANTOS - OFF TRADE",
       "rca": "155",
+      "tipovend": "R",
       "por_mes": {
         "Jun/26": {
           "fat_tt": {
@@ -28029,6 +28050,7 @@ const METAS_DATA = {
     {
       "nome": "ZEINALDO DE OLIVEIRA - OFF TRADE",
       "rca": "241",
+      "tipovend": "R",
       "por_mes": {
         "Jun/26": {
           "fat_tt": {
@@ -28692,6 +28714,7 @@ const METAS_DATA = {
     {
       "nome": "IVANILDO MAIA - OFF TRADE",
       "rca": "460",
+      "tipovend": "R",
       "por_mes": {
         "Jul/26": {
           "fat_tt": {
