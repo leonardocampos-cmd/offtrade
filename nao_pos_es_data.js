@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "03/08/2026 10:41",
+  "atualizado_em": "03/08/2026 11:10",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -3435,9 +3435,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "95525",
+        "codcli": "95534",
         "cliente": "G5 DROGARIAS LTDA",
-        "bairro": "COPACABANA",
+        "bairro": "IPANEMA",
         "dtultcomp": "30/06/2026",
         "produtos": [
           {
@@ -3473,9 +3473,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "95534",
+        "codcli": "95525",
         "cliente": "G5 DROGARIAS LTDA",
-        "bairro": "IPANEMA",
+        "bairro": "COPACABANA",
         "dtultcomp": "30/06/2026",
         "produtos": [
           {
@@ -4864,6 +4864,20 @@ const NAO_POS_ES_DATA = {
             "fantasia": "TATUZINHO",
             "qt": 1,
             "valor": 87.6
+          }
+        ]
+      },
+      {
+        "codcli": "83583",
+        "cliente": "RB DISTRIBUIDORA DE ALIMENTOS 2017 LTDA",
+        "bairro": "VILA LEOPOLDINA",
+        "dtultcomp": "02/04/2026",
+        "produtos": [
+          {
+            "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
+            "fantasia": "RECKITT",
+            "qt": 500,
+            "valor": 32640.0
           }
         ]
       },
@@ -16230,6 +16244,13 @@ const NAO_POS_ES_DATA = {
             "valor": 153.36
           }
         ]
+      },
+      {
+        "codcli": "10291",
+        "cliente": "DEPOSITO CENTRAL DISTRIBUIDORA DE ALIMENTOS LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
       },
       {
         "codcli": "95651",
