@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "03/08/2026 15:39",
+  "atualizado_em": "03/08/2026 16:56",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -89,7 +89,7 @@ const VENDAS_ES_DATA = {
         "fat_ano_ant": 0.0
       },
       "Abr/26": {
-        "fat": 30212.62,
+        "fat": 29869.34,
         "pos": 10,
         "fat_ant": 62317.78,
         "fat_ano_ant": 0.0
@@ -97,7 +97,7 @@ const VENDAS_ES_DATA = {
       "Mai/26": {
         "fat": 94203.0,
         "pos": 38,
-        "fat_ant": 30212.62,
+        "fat_ant": 29869.34,
         "fat_ano_ant": 0.0
       },
       "Jun/26": {
@@ -21647,30 +21647,10 @@ const VENDAS_ES_DATA = {
           "data": "30/04/2026",
           "codcli": "20944",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
-          "produto": "ST PIERRE LATA SUGAR FREE LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 1,
-          "valor": 109.36,
-          "offtrade": true
-        },
-        {
-          "data": "30/04/2026",
-          "codcli": "20944",
-          "cliente": "ITAPOA SUPERMERCADO LTDA",
           "produto": "ST PIERRE LATA PALOMA LT 270MLX24",
           "fantasia": "TATUZINHO",
           "qt": 1,
           "valor": 116.96,
-          "offtrade": true
-        },
-        {
-          "data": "30/04/2026",
-          "codcli": "20944",
-          "cliente": "ITAPOA SUPERMERCADO LTDA",
-          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
-          "fantasia": "TATUZINHO",
-          "qt": 2,
-          "valor": 233.92,
           "offtrade": true
         },
         {
