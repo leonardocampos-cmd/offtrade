@@ -1,5 +1,5 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "03/08/2026 17:06",
+  "atualizado_em": "03/08/2026 17:23",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 3,
@@ -11,7 +11,7 @@ const METAS_GERAIS_DATA = {
     "fat_ant_completo": 13953931.2,
     "pos": 149,
     "pos_ant": 296,
-    "pos_ant_completo": 1828
+    "pos_ant_completo": 1827
   },
   "total": {
     "meta": 14400000.0,
@@ -33,7 +33,7 @@ const METAS_GERAIS_DATA = {
       "nec_dia": 136874.05,
       "fat_ant_completo": 2745014.49,
       "pos_ant": 128,
-      "pos_ant_completo": 736
+      "pos_ant_completo": 735
     },
     {
       "estado": "SP",
