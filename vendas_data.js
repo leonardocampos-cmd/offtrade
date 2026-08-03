@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "03/08/2026 14:44",
+  "atualizado_em": "03/08/2026 15:00",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -255055,6 +255055,17 @@ const VENDAS_DATA = {
           "fantasia": "FANTE",
           "qt": 24,
           "valor": 300.0,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "01/08/2026",
+          "codcli": "95728",
+          "cliente": "IGREJA BATISTA BOA ESPERANCA",
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "fantasia": "ROBINSON CRUSOE",
+          "qt": 2,
+          "valor": 259.8,
           "tipo": "Venda",
           "offtrade": true
         },
@@ -604970,6 +604981,39 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 6,
           "valor": 359.4,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
+          "codcli": "34348",
+          "cliente": "COMERCIAL PRISMA LTDA",
+          "produto": "ST PIERRE RED MINTL ZERO 310 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 4,
+          "valor": 107.6,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
+          "codcli": "34348",
+          "cliente": "COMERCIAL PRISMA LTDA",
+          "produto": "GIN TANQUERAY  375ML",
+          "fantasia": "DIAGEO",
+          "qt": 6,
+          "valor": 359.4,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
+          "codcli": "34348",
+          "cliente": "COMERCIAL PRISMA LTDA",
+          "produto": "ST PIERRE ZERO PINK LEMON  310 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 4,
+          "valor": 107.6,
           "tipo": "Venda",
           "offtrade": true
         },
