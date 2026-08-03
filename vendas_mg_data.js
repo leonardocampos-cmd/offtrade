@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "03/08/2026 10:14",
+  "atualizado_em": "03/08/2026 10:41",
   "meses": [
     "Jul/26",
     "Jun/26",
@@ -301,7 +301,7 @@ const VENDAS_MG_DATA = {
         "fat_ano_ant": 0.0
       },
       "Jul/26": {
-        "fat": 899190.74,
+        "fat": 888778.94,
         "pos": 17,
         "fat_ant": 1039602.9,
         "fat_ano_ant": 0.0
@@ -186465,26 +186465,6 @@ const VENDAS_MG_DATA = {
           "fantasia": "MONIN",
           "qt": 420,
           "valor": 18018.0,
-          "offtrade": true
-        },
-        {
-          "data": "03/07/2026",
-          "codcli": "35169",
-          "cliente": "ADIÇÃO DISTRIBUIÇÃO EXPRESS S/A",
-          "produto": "XAROPE MONIN GENGIBRE (GINGER) 700 ML",
-          "fantasia": "MONIN",
-          "qt": 60,
-          "valor": 2814.0,
-          "offtrade": true
-        },
-        {
-          "data": "03/07/2026",
-          "codcli": "35169",
-          "cliente": "ADIÇÃO DISTRIBUIÇÃO EXPRESS S/A",
-          "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
-          "fantasia": "MONIN",
-          "qt": 162,
-          "valor": 7597.8,
           "offtrade": true
         },
         {
