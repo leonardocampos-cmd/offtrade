@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "03/08/2026 16:59",
+  "atualizado_em": "03/08/2026 17:16",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
