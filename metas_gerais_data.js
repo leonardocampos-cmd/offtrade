@@ -1,25 +1,25 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "03/08/2026 14:04",
+  "atualizado_em": "03/08/2026 14:25",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 3,
   "dias_no_mes": 31,
   "dias_restantes": 28,
   "resumo": {
-    "fat": 549878.56,
+    "fat": 500017.12,
     "fat_ant": 1155757.36,
     "fat_ant_completo": 13953931.2,
-    "pos": 104,
+    "pos": 103,
     "pos_ant": 296,
     "pos_ant_completo": 1828
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 549878.56,
+    "fat": 500017.12,
     "fat_ant": 1155757.36,
     "fat_ant_completo": 13953931.2,
-    "pct": 3.8,
-    "nec_dia": 494647.19
+    "pct": 3.5,
+    "nec_dia": 496427.96
   },
   "estados": [
     {
@@ -39,11 +39,11 @@ const METAS_GERAIS_DATA = {
       "estado": "SP",
       "label": "São Paulo",
       "meta": 6600000.0,
-      "fat": 336816.39,
+      "fat": 286954.95,
       "fat_ant": 737749.29,
-      "pos": 89,
-      "pct": 5.1,
-      "nec_dia": 223685.13,
+      "pos": 88,
+      "pct": 4.3,
+      "nec_dia": 225465.89,
       "fat_ant_completo": 8533832.31,
       "pos_ant": 117,
       "pos_ant_completo": 731
@@ -77,17 +77,6 @@ const METAS_GERAIS_DATA = {
   ],
   "industrias": [
     {
-      "fantasia": "RED BULL",
-      "fat": 205365.84,
-      "fat_ant": 43052.72,
-      "por_estado": {
-        "RJ": 0.0,
-        "SP": 49861.44,
-        "ES": 155312.64,
-        "MG": 191.76
-      }
-    },
-    {
       "fantasia": "PERNOD",
       "fat": 161781.4,
       "fat_ant": 606315.84,
@@ -96,6 +85,17 @@ const METAS_GERAIS_DATA = {
         "SP": 161332.1,
         "ES": 0.0,
         "MG": 449.3
+      }
+    },
+    {
+      "fantasia": "RED BULL",
+      "fat": 155504.4,
+      "fat_ant": 43052.72,
+      "por_estado": {
+        "RJ": 0.0,
+        "SP": 0.0,
+        "ES": 155312.64,
+        "MG": 191.76
       }
     },
     {
