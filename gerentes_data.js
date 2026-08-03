@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "03/08/2026 17:15",
+  "atualizado_em": "03/08/2026 17:22",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -810,10 +810,6 @@ const GERENTES_DATA = {
           "fat": 4764752.75,
           "qt": 92027
         },
-        "Ago/26": {
-          "fat": 121130.26,
-          "qt": 1295
-        },
         "Jul/26": {
           "fat": 4190541.33,
           "qt": 75370
@@ -829,6 +825,10 @@ const GERENTES_DATA = {
         "Mar/26": {
           "fat": 4733238.16,
           "qt": 80638
+        },
+        "Ago/26": {
+          "fat": 121130.26,
+          "qt": 1295
         }
       },
       "gerentes": [
@@ -841,10 +841,6 @@ const GERENTES_DATA = {
             "Abr/26": {
               "fat": 4305053.41,
               "qt": 82001
-            },
-            "Ago/26": {
-              "fat": 114606.12,
-              "qt": 1220
             },
             "Jul/26": {
               "fat": 3679852.71,
@@ -861,6 +857,10 @@ const GERENTES_DATA = {
             "Mar/26": {
               "fat": 4013656.29,
               "qt": 69501
+            },
+            "Ago/26": {
+              "fat": 114606.12,
+              "qt": 1220
             }
           },
           "supervisores": [
@@ -873,10 +873,6 @@ const GERENTES_DATA = {
                 "Abr/26": {
                   "fat": 4305053.41,
                   "qt": 82001
-                },
-                "Ago/26": {
-                  "fat": 114606.12,
-                  "qt": 1220
                 },
                 "Jul/26": {
                   "fat": 3679852.71,
@@ -893,6 +889,10 @@ const GERENTES_DATA = {
                 "Mar/26": {
                   "fat": 4013656.29,
                   "qt": 69501
+                },
+                "Ago/26": {
+                  "fat": 114606.12,
+                  "qt": 1220
                 }
               },
               "vendedores": [
@@ -1101,7 +1101,7 @@ const GERENTES_DATA = {
                 },
                 {
                   "nome": "DIRLEI ARAUJO - OFF TRADE",
-                  "rca": "417",
+                  "rca": "554",
                   "estado": "RJ",
                   "por_mes": {
                     "Abr/26": {
