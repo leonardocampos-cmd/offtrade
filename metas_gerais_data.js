@@ -1,36 +1,36 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "03/08/2026 14:45",
+  "atualizado_em": "03/08/2026 15:01",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 3,
   "dias_no_mes": 31,
   "dias_restantes": 28,
   "resumo": {
-    "fat": 500017.12,
+    "fat": 500851.52,
     "fat_ant": 1155757.36,
     "fat_ant_completo": 13953931.2,
-    "pos": 103,
+    "pos": 104,
     "pos_ant": 296,
     "pos_ant_completo": 1828
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 500017.12,
+    "fat": 500851.52,
     "fat_ant": 1155757.36,
     "fat_ant_completo": 13953931.2,
     "pct": 3.5,
-    "nec_dia": 496427.96
+    "nec_dia": 496398.16
   },
   "estados": [
     {
       "estado": "RJ",
       "label": "Rio de Janeiro",
       "meta": 3900000.0,
-      "fat": 53827.63,
+      "fat": 54087.43,
       "fat_ant": 263885.12,
-      "pos": 10,
+      "pos": 11,
       "pct": 1.4,
-      "nec_dia": 137363.3,
+      "nec_dia": 137354.02,
       "fat_ant_completo": 2745014.49,
       "pos_ant": 128,
       "pos_ant_completo": 736
@@ -65,11 +65,11 @@ const METAS_GERAIS_DATA = {
       "estado": "MG",
       "label": "Minas Gerais",
       "meta": 2100000.0,
-      "fat": 3921.9,
+      "fat": 4496.5,
       "fat_ant": 98973.52,
       "pos": 5,
       "pct": 0.2,
-      "nec_dia": 74859.93,
+      "nec_dia": 74839.41,
       "fat_ant_completo": 1938187.11,
       "pos_ant": 43,
       "pos_ant_completo": 270
@@ -100,13 +100,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "TATUZINHO",
-      "fat": 42822.92,
+      "fat": 43038.12,
       "fat_ant": 12279.72,
       "por_estado": {
         "RJ": 42822.92,
         "SP": 0.0,
         "ES": 0.0,
-        "MG": 0.0
+        "MG": 215.2
       }
     },
     {
@@ -166,13 +166,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "DIAGEO",
-      "fat": 9852.63,
+      "fat": 10212.03,
       "fat_ant": 27343.63,
       "por_estado": {
         "RJ": 719.6,
         "SP": 9133.03,
         "ES": 0.0,
-        "MG": 0.0
+        "MG": 359.4
       }
     },
     {
@@ -209,22 +209,22 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
-      "fantasia": "TIAL",
-      "fat": 1651.67,
-      "fat_ant": 1960.02,
+      "fantasia": "ROBINSON CRUSOE",
+      "fat": 1678.7,
+      "fat_ant": 66906.82,
       "por_estado": {
-        "RJ": 1651.67,
+        "RJ": 1678.7,
         "SP": 0.0,
         "ES": 0.0,
         "MG": 0.0
       }
     },
     {
-      "fantasia": "ROBINSON CRUSOE",
-      "fat": 1418.9,
-      "fat_ant": 66906.82,
+      "fantasia": "TIAL",
+      "fat": 1651.67,
+      "fat_ant": 1960.02,
       "por_estado": {
-        "RJ": 1418.9,
+        "RJ": 1651.67,
         "SP": 0.0,
         "ES": 0.0,
         "MG": 0.0
