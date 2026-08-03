@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "03/08/2026 17:14",
+  "atualizado_em": "03/08/2026 17:30",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -33724,7 +33724,7 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       }
     ],
-    "WESLEY DE ALEXANDRE CARCHENO": [
+    "WESLEY CARCHENO": [
       {
         "codcli": "71539",
         "cliente": "ORIUNDI SUPERMERCADOS LTDA",
