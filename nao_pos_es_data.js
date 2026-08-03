@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "03/08/2026 11:38",
+  "atualizado_em": "03/08/2026 12:07",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -10664,6 +10664,13 @@ const NAO_POS_ES_DATA = {
             "valor": 978.0
           }
         ]
+      },
+      {
+        "codcli": "95886",
+        "cliente": "49.725.593 TARCISIO TEODORO MACHADO",
+        "bairro": "VARGEM GRANDE",
+        "dtultcomp": "nan",
+        "produtos": []
       },
       {
         "codcli": "82901",
