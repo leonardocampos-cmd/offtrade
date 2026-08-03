@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "03/08/2026 17:22",
+  "atualizado_em": "03/08/2026 17:41",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -810,6 +810,10 @@ const GERENTES_DATA = {
           "fat": 4764752.75,
           "qt": 92027
         },
+        "Ago/26": {
+          "fat": 123604.02,
+          "qt": 1314
+        },
         "Jul/26": {
           "fat": 4190541.33,
           "qt": 75370
@@ -825,10 +829,6 @@ const GERENTES_DATA = {
         "Mar/26": {
           "fat": 4733238.16,
           "qt": 80638
-        },
-        "Ago/26": {
-          "fat": 121130.26,
-          "qt": 1295
         }
       },
       "gerentes": [
@@ -841,6 +841,10 @@ const GERENTES_DATA = {
             "Abr/26": {
               "fat": 4305053.41,
               "qt": 82001
+            },
+            "Ago/26": {
+              "fat": 117079.88,
+              "qt": 1239
             },
             "Jul/26": {
               "fat": 3679852.71,
@@ -857,10 +861,6 @@ const GERENTES_DATA = {
             "Mar/26": {
               "fat": 4013656.29,
               "qt": 69501
-            },
-            "Ago/26": {
-              "fat": 114606.12,
-              "qt": 1220
             }
           },
           "supervisores": [
@@ -873,6 +873,10 @@ const GERENTES_DATA = {
                 "Abr/26": {
                   "fat": 4305053.41,
                   "qt": 82001
+                },
+                "Ago/26": {
+                  "fat": 117079.88,
+                  "qt": 1239
                 },
                 "Jul/26": {
                   "fat": 3679852.71,
@@ -889,10 +893,6 @@ const GERENTES_DATA = {
                 "Mar/26": {
                   "fat": 4013656.29,
                   "qt": 69501
-                },
-                "Ago/26": {
-                  "fat": 114606.12,
-                  "qt": 1220
                 }
               },
               "vendedores": [
@@ -1329,8 +1329,8 @@ const GERENTES_DATA = {
                       "qt": 3419
                     },
                     "Ago/26": {
-                      "fat": 4392.93,
-                      "qt": 126
+                      "fat": 6866.69,
+                      "qt": 145
                     },
                     "Jul/26": {
                       "fat": 57125.32,
@@ -3291,7 +3291,7 @@ const GERENTES_DATA = {
                   "por_mes": {}
                 },
                 {
-                  "nome": "WESLEY DE ALEXANDRE CARCHENO - OFF TRADE",
+                  "nome": "WESLEY CARCHENO - OFF TRADE",
                   "rca": "521",
                   "estado": "",
                   "por_mes": {}
