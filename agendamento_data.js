@@ -719,6 +719,34 @@ const AGENDAMENTO_DATA = {
       "nome": "ANGELO NEVES SUZART - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "90486",
+          "cliente": "SUPERMERCADO RIO SUL DE SEROPEDICA LTDA",
+          "cnpj": "50.366.423/0001-06",
+          "filial": "SEROPEDICA",
+          "valor": 0.0,
+          "nf": "7068",
+          "data_agendamento": "04/08/2026",
+          "data_ord": "2026-08-04",
+          "status": "A FATURAR",
+          "obs": "Embarcar caixas originais e íntegras. BONIFICAÇÃO",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "86195",
+          "cliente": "MERCADO RC DE MIGUEL PEREIRA",
+          "cnpj": "52.909.395/0001-43",
+          "filial": "MIGUEL PEREIRA",
+          "valor": 2179.8,
+          "nf": "7066",
+          "data_agendamento": "04/08/2026",
+          "data_ord": "2026-08-04",
+          "status": "FATURADO",
+          "obs": "Caixas e rótulos íntegros",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "86195",
           "cliente": "MERCADO RC DE MIGUEL PEREIRA",
           "cnpj": "52.909.395/0001-43",
@@ -757,34 +785,6 @@ const AGENDAMENTO_DATA = {
           "data_ord": "2026-08-03",
           "status": "EM ROTA",
           "obs": "",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "90486",
-          "cliente": "SUPERMERCADO RIO SUL DE SEROPEDICA LTDA",
-          "cnpj": "50.366.423/0001-06",
-          "filial": "SEROPEDICA",
-          "valor": 0.0,
-          "nf": "7068",
-          "data_agendamento": "03/08/2026",
-          "data_ord": "2026-08-03",
-          "status": "A FATURAR",
-          "obs": "Embarcar caixas originais e íntegras. BONIFICAÇÃO",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "86195",
-          "cliente": "MERCADO RC DE MIGUEL PEREIRA",
-          "cnpj": "52.909.395/0001-43",
-          "filial": "MIGUEL PEREIRA",
-          "valor": 2179.8,
-          "nf": "7066",
-          "data_agendamento": "03/08/2026",
-          "data_ord": "2026-08-03",
-          "status": "FATURADO",
-          "obs": "Caixas e rótulos íntegros",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -6053,7 +6053,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7053",
           "data_agendamento": "31/07/2026",
           "data_ord": "2026-07-31",
-          "status": "A FATURAR",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -15917,7 +15917,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7049",
           "data_agendamento": "31/07/2026",
           "data_ord": "2026-07-31",
-          "status": "FATURADO",
+          "status": "ENTREGUE",
           "obs": "EMBARCAR AS CAIXAS ORIGINAIS E ÍNTEGRAS.",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -15931,7 +15931,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7050",
           "data_agendamento": "31/07/2026",
           "data_ord": "2026-07-31",
-          "status": "A FATURAR",
+          "status": "ENTREGUE",
           "obs": "EMBARCAR AS CAIXAS ORIGINAIS E ÍNTEGRAS.",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17017,8 +17017,8 @@ const AGENDAMENTO_DATA = {
           "filial": "ITABORAI",
           "valor": 2290.2,
           "nf": "",
-          "data_agendamento": "03/08/2026",
-          "data_ord": "2026-08-03",
+          "data_agendamento": "04/08/2026",
+          "data_ord": "2026-08-04",
           "status": "FATURADO",
           "obs": "EMBARCAR AS CAIXAS ORIGINAIS E ÍNTEGRAS",
           "status_logistica": "",
@@ -17031,8 +17031,8 @@ const AGENDAMENTO_DATA = {
           "filial": "BARROCO (ITAIPUAÇU)",
           "valor": 152.2,
           "nf": "7094",
-          "data_agendamento": "03/08/2026",
-          "data_ord": "2026-08-03",
+          "data_agendamento": "04/08/2026",
+          "data_ord": "2026-08-04",
           "status": "FATURADO",
           "obs": "CONTATO 21974318449 (VITORIA)",
           "status_logistica": "",
@@ -17045,8 +17045,8 @@ const AGENDAMENTO_DATA = {
           "filial": "SAO JOSE DO IMBASSAI",
           "valor": 152.2,
           "nf": "7093",
-          "data_agendamento": "03/08/2026",
-          "data_ord": "2026-08-03",
+          "data_agendamento": "04/08/2026",
+          "data_ord": "2026-08-04",
           "status": "FATURADO",
           "obs": "CONTATO 21974318449 (VITORIA)",
           "status_logistica": "",
@@ -17059,8 +17059,8 @@ const AGENDAMENTO_DATA = {
           "filial": "SÃO GONÇALO",
           "valor": 152.2,
           "nf": "",
-          "data_agendamento": "03/08/2026",
-          "data_ord": "2026-08-03",
+          "data_agendamento": "04/08/2026",
+          "data_ord": "2026-08-04",
           "status": "FATURADO",
           "obs": "CONTATO 21974318449 (VITORIA)",
           "status_logistica": "",
@@ -22060,7 +22060,7 @@ const AGENDAMENTO_DATA = {
           "nf": "417035",
           "data_agendamento": "31/07/2026",
           "data_ord": "2026-07-31",
-          "status": "FATURADO",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -22074,7 +22074,7 @@ const AGENDAMENTO_DATA = {
           "nf": "417135",
           "data_agendamento": "31/07/2026",
           "data_ord": "2026-07-31",
-          "status": "A FATURAR",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -24539,7 +24539,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6871",
           "data_agendamento": "30/07/2026",
           "data_ord": "2026-07-30",
-          "status": "FATURADO",
+          "status": "ENTREGUE",
           "obs": "CLIENTE COM PRODUTOS EM ENCARTE",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -24553,7 +24553,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6872",
           "data_agendamento": "30/07/2026",
           "data_ord": "2026-07-30",
-          "status": "FATURADO",
+          "status": "ENTREGUE",
           "obs": "CLIENTE COM PRODUTOS EM ENCARTE",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -24922,7 +24922,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7052",
           "data_agendamento": "31/07/2026",
           "data_ord": "2026-07-31",
-          "status": "A FATURAR",
+          "status": "EM ROTA",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -24936,7 +24936,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7033",
           "data_agendamento": "30/07/2026",
           "data_ord": "2026-07-30",
-          "status": "FATURADO",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -25504,7 +25504,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "03/08/2026 15:06",
+  "atualizado_em": "03/08/2026 15:38",
   "comparativo": [
     {
       "msg_id": "19f8f0d0054f43bd",
