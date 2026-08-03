@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "03/08/2026 10:58",
+  "atualizado_em": "03/08/2026 11:27",
   "meses": [
     "Ago/26",
     "Jul/26",
