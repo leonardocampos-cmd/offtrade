@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "03/08/2026 15:40",
+  "atualizado_em": "03/08/2026 16:57",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -901,6 +901,32 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "37335",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "CENTRO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA TINTO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 257.4
+          },
+          {
+            "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 461.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 24,
+            "valor": 490.08
+          }
+        ]
+      },
+      {
         "codcli": "35222",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "JARDIM ANA MARIA",
@@ -935,32 +961,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "PERNOD",
             "qt": 3,
             "valor": 177.54
-          }
-        ]
-      },
-      {
-        "codcli": "37335",
-        "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "CENTRO",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA TINTO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 257.4
-          },
-          {
-            "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 461.4
-          },
-          {
-            "produto": "VODKA ORLOFF 1L - DEST",
-            "fantasia": "",
-            "qt": 24,
-            "valor": 490.08
           }
         ]
       },
@@ -3833,20 +3833,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33615",
-        "cliente": "MONKA CERVEJARIA LTDA",
-        "bairro": "OLHOS D'AGUA",
-        "dtultcomp": "27/07/2026",
-        "produtos": [
-          {
-            "produto": "LICOR BAILEYS - 750ML",
-            "fantasia": "DIAGEO",
-            "qt": 2,
-            "valor": 287.8
-          }
-        ]
-      },
-      {
         "codcli": "33778",
         "cliente": "SMEP BH HOTEIS LTDA",
         "bairro": "BARRO PRETO",
@@ -4923,32 +4909,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "MONIN",
             "qt": 2,
             "valor": 99.8
-          }
-        ]
-      },
-      {
-        "codcli": "32884",
-        "cliente": "BAR A PORCA VOADORA LTDA",
-        "bairro": "SERRA",
-        "dtultcomp": "31/07/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN  LONG ZERO 24X330ML",
-            "fantasia": "HEINEKEN",
-            "qt": 1,
-            "valor": 143.96
-          },
-          {
-            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-            "fantasia": "HEINEKEN",
-            "qt": 1,
-            "valor": 143.96
-          },
-          {
-            "produto": "ÁGUA SÃO LOURENÇO S/GÁS 510 ML",
-            "fantasia": "",
-            "qt": 7,
-            "valor": 105.63
           }
         ]
       },
@@ -7920,32 +7880,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30323",
-        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "SANTO ANTONIO",
-        "dtultcomp": "23/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 89.88
-          },
-          {
-            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 89.88
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 179.76
-          }
-        ]
-      },
-      {
         "codcli": "38776",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
         "bairro": "ESTORIL",
@@ -7974,6 +7908,32 @@ const NAO_POS_MG_DATA = {
             "fantasia": "RED BULL",
             "qt": 1,
             "valor": 29.96
+          },
+          {
+            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 179.76
+          }
+        ]
+      },
+      {
+        "codcli": "30323",
+        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
+        "bairro": "SANTO ANTONIO",
+        "dtultcomp": "23/06/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK RED BULL MELANCIA",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 89.88
+          },
+          {
+            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 89.88
           },
           {
             "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
@@ -8880,20 +8840,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "PERNOD",
             "qt": 1,
             "valor": 119.9
-          }
-        ]
-      },
-      {
-        "codcli": "31529",
-        "cliente": "MASSAS MADONINA LTDA",
-        "bairro": "SANTA AMELIA",
-        "dtultcomp": "22/07/2026",
-        "produtos": [
-          {
-            "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 36,
-            "valor": 2588.4
           }
         ]
       },
