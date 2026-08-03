@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "03/08/2026 11:40",
+  "atualizado_em": "03/08/2026 12:09",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -1333,6 +1333,15 @@ const INATIVOS_DATA = {
         }
       ],
       "novos": [
+        {
+          "codcli": "95886",
+          "cliente": "49.725.593 TARCISIO TEODORO MACHADO",
+          "bairro": "VARGEM GRANDE",
+          "cidade": "RIO DE JANEIRO",
+          "dtcadastro": "03/08/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
         {
           "codcli": "95841",
           "cliente": "BRAS DE PINA LOPES E GOMES RESTAURANTE RJ LTDA",
@@ -6728,15 +6737,6 @@ const INATIVOS_DATA = {
           "media": 3014.91
         },
         {
-          "codcli": "86391",
-          "cliente": "ARMAZEM SAO SEBASTIAO LTDA",
-          "bairro": "VILA ESPERANCA",
-          "cidade": "VARGEM ALTA",
-          "dtultcomp": "01/07/2026",
-          "dias": 33,
-          "media": 277.48
-        },
-        {
           "codcli": "80859",
           "cliente": "EUDES VENTORIN MORGAN",
           "bairro": "PRAIA DA COSTA",
@@ -6755,13 +6755,13 @@ const INATIVOS_DATA = {
           "media": 277.48
         },
         {
-          "codcli": "85617",
-          "cliente": "MULTIMERCADO COMERCIO DE ALIMENTOS LTDA",
-          "bairro": "PONTA DA FRUTA",
-          "cidade": "VILA VELHA",
+          "codcli": "86391",
+          "cliente": "ARMAZEM SAO SEBASTIAO LTDA",
+          "bairro": "VILA ESPERANCA",
+          "cidade": "VARGEM ALTA",
           "dtultcomp": "01/07/2026",
           "dias": 33,
-          "media": 399.56
+          "media": 277.48
         },
         {
           "codcli": "76076",
