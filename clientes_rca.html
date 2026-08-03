@@ -109,6 +109,9 @@
   <select id="sel-rede" onchange="aplicarFiltro()">
     <option value="">Todas as Redes</option>
   </select>
+  <select id="sel-cidade" onchange="aplicarFiltro()">
+    <option value="">Todas as Cidades</option>
+  </select>
   <input type="text" id="busca" placeholder="Buscar por nome, fantasia, CNPJ..." oninput="aplicarFiltro()">
   <label class="chk-ka">
     <input type="checkbox" id="chk-ka" onchange="aplicarFiltro()"> ⭐ Key Account
@@ -148,6 +151,7 @@ if (!DATA) {
   montarEstados();
   reconstruirRcas();
   montarRedes();
+  montarCidades();
   aplicarFiltro();
 }
 
@@ -210,9 +214,27 @@ function montarRedes() {
   if (atual && !base.some(c => c.rede === atual)) sel.value = '';
 }
 
+function montarCidades() {
+  const estado = document.getElementById('sel-estado').value.trim();
+  const atual = document.getElementById('sel-cidade').value;
+  const base = !estado ? DATA.clientes : DATA.clientes.filter(c => c.estado === estado);
+
+  const sel = document.getElementById('sel-cidade');
+  sel.innerHTML = '<option value="">Todas as Cidades</option>';
+  [...new Set(base.map(c => c.cidade).filter(Boolean))].sort().forEach(cidade => {
+    const o = document.createElement('option');
+    o.value = cidade;
+    o.textContent = cidade;
+    if (cidade === atual) o.selected = true;
+    sel.appendChild(o);
+  });
+  if (atual && !base.some(c => c.cidade === atual)) sel.value = '';
+}
+
 function onEstadoChange() {
   reconstruirRcas();
   montarRedes();
+  montarCidades();
   aplicarFiltro();
 }
 
@@ -221,16 +243,18 @@ function _filtrados() {
   const estado = document.getElementById('sel-estado').value.trim();
   const rca    = document.getElementById('sel-rca').value.trim();
   const rede   = document.getElementById('sel-rede').value;
+  const cidade = document.getElementById('sel-cidade').value;
   const busca  = document.getElementById('busca').value.trim().toLowerCase();
   const soKA   = document.getElementById('chk-ka').checked;
   return DATA.clientes.filter(c => {
     const matchEstado = !estado || c.estado === estado;
     const matchRca    = !rca || c.codusur1 === rca || c.codusur2 === rca;
     const matchRede    = !rede || c.rede === rede;
+    const matchCidade  = !cidade || c.cidade === cidade;
     const matchKA      = !soKA || c.key_account;
     const matchBusca  = !busca || [c.razao, c.fantasia, c.cnpj, c.codcli, c.ramo, c.rede]
       .some(v => v && v.toLowerCase().includes(busca));
-    return matchEstado && matchRca && matchRede && matchKA && matchBusca;
+    return matchEstado && matchRca && matchRede && matchCidade && matchKA && matchBusca;
   });
 }
 

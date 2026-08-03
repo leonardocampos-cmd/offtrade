@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "03/08/2026 12:08",
-  "total": 22323,
+  "atualizado_em": "03/08/2026 14:12",
+  "total": 22327,
   "clientes": [
     {
       "codcli": "38586",
@@ -122500,6 +122500,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "47454",
+      "razao": "DISTRIBUIDORA DE BEBIDAS SAM CAMILO LTDA",
+      "fantasia": "DISTRIBUIDORA DE BEBIDAS SAM CAMILO LTDA",
+      "bairro": "PARQUE SANTA BÁRBARA",
+      "cidade": "CAMPINAS",
+      "cnpj": "46.707.964/0001-75",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "518",
+      "nome_usur1": "PAULO THOMAZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "31401",
       "razao": "DISTRIBUIDORA DE BEBIDAS SANTA RITA  LTDA",
       "fantasia": "DISTRIBUIDORA DE BEBIDAS SANTA RITA  LTDA",
@@ -150014,8 +150030,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "OUTROS",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "144",
+      "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
     },
@@ -151490,6 +151506,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "170",
       "nome_usur2": "CLAUDIO NOBREGA - OFF TRADE"
+    },
+    {
+      "codcli": "52240",
+      "razao": "FGK COMERCIO DE BEBIDAS LTDA",
+      "fantasia": "BEBIDARIA",
+      "bairro": "PEREQUE",
+      "cidade": "ILHABELA",
+      "cnpj": "55.930.228/0001-72",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "516",
+      "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "82196",
@@ -154074,22 +154106,6 @@ const CLIENTES_RCA_DATA = {
       "bairro": "TIJUCA",
       "cidade": "RIO DE JANEIRO",
       "cnpj": "42.374.066/0001-91",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "70970",
-      "razao": "FONTE 107 BAR E RESTAURANTE LTDA",
-      "fantasia": "FONTE 107",
-      "bairro": "BOTAFOGO",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "48.787.566/0001-31",
       "estado": "RJ",
       "ramo": "RESTAURANTE",
       "key_account": false,
@@ -174190,8 +174206,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "PESSOA FISICA",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
+      "codusur1": "344",
+      "nome_usur1": "TIAGO ANDRADE - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -176354,6 +176370,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "76271",
+      "razao": "IRAJA ALIFE NINO RESTAURANTE LTDA",
+      "fantasia": "IRAJA REDUS RIO SUL",
+      "bairro": "BOTAFOGO",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "35.962.527/0015-87",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "10",
+      "nome_usur1": "INATIVO3",
+      "codusur2": "316",
+      "nome_usur2": "RODRIGO FREITAS"
     },
     {
       "codcli": "93512",
@@ -223554,6 +223586,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "25544",
+      "razao": "MARCOS, CREONE E WILLIAN DISTRIBUIDORA DE DOCES E BEBIDAS LT",
+      "fantasia": "ADEGA SANTA ISABEL",
+      "bairro": "SANTA ISABEL",
+      "cidade": "EMBU GUACU",
+      "cnpj": "33.280.240/0001-46",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "513",
+      "nome_usur1": "IGOR OLIVEIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "7756",
@@ -276708,6 +276756,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
+      "codcli": "46241",
+      "razao": "POINT CENTRO DE DISTRIBUICAO LTDA",
+      "fantasia": "POINT CENTRO DE DISTRIBUICAO",
+      "bairro": "JARDIM BELA VISTA",
+      "cidade": "SANTO ANDRE",
+      "cnpj": "54.685.582/0001-16",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "75524",
       "razao": "POINT CERVEJEIRO LTDA",
       "fantasia": "POINT CERVEJEIRO",
@@ -289328,22 +289392,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "29986",
-      "razao": "RAMEH & PAULA LTDA",
-      "fantasia": "RAMEH CONTEUDO GASTRONOMICO",
-      "bairro": "FLORESTA",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "09.608.624/0001-60",
-      "estado": "MG",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -339970,6 +340018,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "52239",
+      "razao": "TX DISTRIBUIDORA LTDA",
+      "fantasia": "TX DISTRIBUIDORA LTDA",
+      "bairro": "CENTRO",
+      "cidade": "GUARARAPES",
+      "cnpj": "50.475.811/0001-17",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "518",
+      "nome_usur1": "PAULO THOMAZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "29312",
