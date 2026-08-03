@@ -1,5 +1,5 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "03/08/2026 16:54",
+  "atualizado_em": "03/08/2026 17:11",
   "periodo_dias": 90,
   "fontes_indisponiveis": [],
   "pedidos_feitos": [
@@ -460,7 +460,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :1212",
       "obs": "",
       "total": 4596.12,
@@ -650,7 +650,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Bloqueio de Pedidos bonificado",
       "obs": "Favor entregar dia 04/08",
       "total": 179.9,
@@ -1502,7 +1502,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :313",
       "obs": "",
       "total": 1966.2,
@@ -1583,39 +1583,6 @@ const PEDIDOS_DATA = {
           "qt_original": 6.0,
           "cortado": false,
           "codprod": "383",
-          "codfilial": "2"
-        }
-      ],
-      "tem_corte": false
-    },
-    {
-      "numped": "378000579",
-      "numnota": "",
-      "data": "03/08/2026",
-      "data_ord": "2026-08-03",
-      "nome": "FABIO VALOTTI - OFF TRADE",
-      "cliente": "PAN 2007 DAMASIO S GALETO LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Bloqueado (alçada)",
-      "motivo": "",
-      "obs": "Favor entregar dia 04/08",
-      "total": 359.8,
-      "itens": [
-        {
-          "desc": "WHISKY J WALKER BLACK LABEL 1L",
-          "industria": "DIAGEO",
-          "qt": 2,
-          "val": 359.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "449",
           "codfilial": "2"
         }
       ],
@@ -1986,7 +1953,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "",
       "obs": "",
       "total": 779.5,
@@ -2032,7 +1999,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :5384",
       "obs": "Favor entregar dia 04/08",
       "total": 389.76,
@@ -2283,6 +2250,52 @@ const PEDIDOS_DATA = {
           "qt_original": 8.0,
           "cortado": false,
           "codprod": "16",
+          "codfilial": "2"
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "159005209",
+      "numnota": "",
+      "data": "03/08/2026",
+      "data_ord": "2026-08-03",
+      "nome": "GISELLE BARFER - OFF TRADE",
+      "cliente": "ADRIANA BARBOSA DA SILVA CAFETERIA LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 498.4,
+      "itens": [
+        {
+          "desc": "AGUA MINERAL MAMBA WATER S/ GAS 12X350ML",
+          "industria": "KAISER",
+          "qt": 5,
+          "val": 217.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 5.0,
+          "cortado": false,
+          "codprod": "7506",
+          "codfilial": "2"
+        },
+        {
+          "desc": "AGUA MINERAL MAMBA WATER C/ GAS 12X350ML",
+          "industria": "KAISER",
+          "qt": 6,
+          "val": 281.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "7552",
           "codfilial": "2"
         }
       ],
@@ -2664,6 +2677,39 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
+      "numped": "502000008",
+      "numnota": "",
+      "data": "03/08/2026",
+      "data_ord": "2026-08-03",
+      "nome": "GUSTAVO MARTINS - OFF TRADE",
+      "cliente": "WANG ATACADISTA E DISTRIBUIDORA LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 419.4,
+      "itens": [
+        {
+          "desc": "GIN BEEFEATER 750ML",
+          "industria": "PERNOD",
+          "qt": 6,
+          "val": 419.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "463",
+          "codfilial": "1"
+        }
+      ],
+      "tem_corte": false
+    },
+    {
       "numped": "471000050",
       "numnota": "",
       "data": "03/08/2026",
@@ -2691,6 +2737,39 @@ const PEDIDOS_DATA = {
           "qt_original": 1.0,
           "cortado": false,
           "codprod": "435",
+          "codfilial": "1"
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "474000056",
+      "numnota": "",
+      "data": "03/08/2026",
+      "data_ord": "2026-08-03",
+      "nome": "FRANCIS SILVA - OFF TRADE",
+      "cliente": "NATHALIA PERES CORDEIRO 42946186806",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 266.4,
+      "itens": [
+        {
+          "desc": "RUM MALIBU 750ML",
+          "industria": "PERNOD",
+          "qt": 6,
+          "val": 266.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "312",
           "codfilial": "1"
         }
       ],
@@ -2800,7 +2879,7 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :4378",
       "obs": "",
       "total": 409.68,
@@ -5054,6 +5133,40 @@ const PEDIDOS_DATA = {
           "qt_original": 6.0,
           "cortado": false,
           "codprod": "7102",
+          "codfilial": "2"
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "378000579",
+      "numnota": "417984",
+      "data": "03/08/2026",
+      "data_ord": "2026-08-03",
+      "nome": "FABIO VALOTTI - OFF TRADE",
+      "cliente": "PAN 2007 DAMASIO S GALETO LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
+      "obs": "Favor entregar dia 04/08",
+      "total": 359.8,
+      "itens": [
+        {
+          "desc": "WHISKY J WALKER BLACK LABEL 1L",
+          "industria": "DIAGEO",
+          "qt": 2,
+          "val": 359.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "449",
           "codfilial": "2"
         }
       ],
@@ -28296,40 +28409,6 @@ const PEDIDOS_DATA = {
           "qt_original": 24.0,
           "cortado": false,
           "codprod": "5484",
-          "codfilial": "1"
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ABERTO"
-    },
-    {
-      "numped": "486000128",
-      "numnota": "7323",
-      "data": "30/07/2026",
-      "data_ord": "2026-07-30",
-      "nome": "LEONARDO FLOREZI - OFF TRADE",
-      "cliente": "ODETE VERA COMERCIO DE BEBIDAS LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "O valor limite de credito foi excedido.  Vl. Ped.: 610.8 Cre",
-      "obs": "",
-      "total": 610.8,
-      "itens": [
-        {
-          "desc": "VODKA ABSOLUT 1L",
-          "industria": "PERNOD",
-          "qt": 12,
-          "val": 610.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "cortado": false,
-          "codprod": "129",
           "codfilial": "1"
         }
       ],
