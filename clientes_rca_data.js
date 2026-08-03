@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "03/08/2026 17:31",
-  "total": 22328,
+  "atualizado_em": "03/08/2026 17:49",
+  "total": 22329,
   "clientes": [
     {
       "codcli": "38586",
@@ -196528,6 +196528,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "379",
       "nome_usur1": "JORGE MACIEL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "92351",
+      "razao": "KM SUSHIS RESTAURANTE LTDA",
+      "fantasia": "KYMAI SUSHI",
+      "bairro": "COMUNIDADE URBANA DE LAGOA DOURADA",
+      "cidade": "GUARAPARI",
+      "cnpj": "56.973.724/0001-76",
+      "estado": "ES",
+      "ramo": "BENEFICIO FISCAL - ES",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "91",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
