@@ -6067,7 +6067,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7034",
           "data_agendamento": "30/07/2026",
           "data_ord": "2026-07-30",
-          "status": "A FATURAR",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -6081,7 +6081,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7032",
           "data_agendamento": "30/07/2026",
           "data_ord": "2026-07-30",
-          "status": "A FATURAR",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17089,7 +17089,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6976",
           "data_agendamento": "31/07/2026",
           "data_ord": "2026-07-31",
-          "status": "FATURADO",
+          "status": "ENTREGUE",
           "obs": "CONTATO 21974318449 (VITORIA)",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17117,7 +17117,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6996",
           "data_agendamento": "31/07/2026",
           "data_ord": "2026-07-31",
-          "status": "FATURADO",
+          "status": "ENTREGUE",
           "obs": "EMBARCAR AS CAIXAS ORIGINAIS E ÍNTEGRAS",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17131,7 +17131,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6998",
           "data_agendamento": "30/07/2026",
           "data_ord": "2026-07-30",
-          "status": "FATURADO",
+          "status": "ENTREGUE",
           "obs": "CLIENTE COM EVENTO EM LOJA",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -21674,6 +21674,132 @@ const AGENDAMENTO_DATA = {
       "nome": "MARIA LUIZA - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "74401",
+          "cliente": "DOM ATACAREJO SA",
+          "cnpj": "31.698.759/0011-95",
+          "filial": "ARARUAMA",
+          "valor": 1907.4,
+          "nf": "6629",
+          "data_agendamento": "06/08/2026",
+          "data_ord": "2026-08-06",
+          "status": "FATURADO",
+          "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO \nELETRONICAMENTE",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "91838",
+          "cliente": "DOM ATACAREJO SA",
+          "cnpj": "31.698.759/0030-58",
+          "filial": "PETROPOLIS",
+          "valor": 335.4,
+          "nf": "6647",
+          "data_agendamento": "06/08/2026",
+          "data_ord": "2026-08-06",
+          "status": "FATURADO",
+          "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO ELETRONICAMENTE",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "74406",
+          "cliente": "DOM ATACAREJO SA",
+          "cnpj": "31.698.759/0013-57",
+          "filial": "SÃO PEDRO DA ALDEIA",
+          "valor": 1907.4,
+          "nf": "6613",
+          "data_agendamento": "06/08/2026",
+          "data_ord": "2026-08-06",
+          "status": "FATURADO",
+          "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO ELETRONICAMENTE",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "79593",
+          "cliente": "DOM ATACAREJO SA",
+          "cnpj": "31.698.759/0016-08",
+          "filial": "RESENDE",
+          "valor": 3681.0,
+          "nf": "6966",
+          "data_agendamento": "06/08/2026",
+          "data_ord": "2026-08-06",
+          "status": "FATURADO",
+          "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO ELETRONICAMENTE",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "79597",
+          "cliente": "DOM ATACAREJO SA",
+          "cnpj": "31.698.759/0006-28",
+          "filial": "INHAUMA",
+          "valor": 2541.6,
+          "nf": "7012",
+          "data_agendamento": "06/08/2026",
+          "data_ord": "2026-08-06",
+          "status": "FATURADO",
+          "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO ELETRONICAMENTE",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "74407",
+          "cliente": "DOM ATACAREJO SA",
+          "cnpj": "31.698.759/0012-76",
+          "filial": "PRAIA DA CHACARA (ANGRA II)",
+          "valor": 7016.4,
+          "nf": "7070",
+          "data_agendamento": "06/08/2026",
+          "data_ord": "2026-08-06",
+          "status": "FATURADO",
+          "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO \nELETRONICAMENTE",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "79589",
+          "cliente": "DOM ATACAREJO SA",
+          "cnpj": "31.698.759/0023-29",
+          "filial": "BELFORD ROXO",
+          "valor": 1560.6,
+          "nf": "6964",
+          "data_agendamento": "05/08/2026",
+          "data_ord": "2026-08-05",
+          "status": "FATURADO",
+          "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO ELETRONICAMENTE",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "81307",
+          "cliente": "DOM ATACAREJO SA",
+          "cnpj": "31.698.759/0027-52",
+          "filial": "SÃO GONÇALO",
+          "valor": 1560.6,
+          "nf": "6965",
+          "data_agendamento": "04/08/2026",
+          "data_ord": "2026-08-04",
+          "status": "FATURADO",
+          "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO ELETRONICAMENTE",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "79589",
+          "cliente": "DOM ATACAREJO SA",
+          "cnpj": "31.698.759/0023-29",
+          "filial": "BELFORD ROXO",
+          "valor": 1031.76,
+          "nf": "7014",
+          "data_agendamento": "04/08/2026",
+          "data_ord": "2026-08-04",
+          "status": "FATURADO",
+          "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO ELETRONICAMENTE",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "60708",
           "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
           "cnpj": "28.580.702/0007-04",
@@ -22010,20 +22136,6 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91838",
-          "cliente": "DOM ATACAREJO SA",
-          "cnpj": "31.698.759/0030-58",
-          "filial": "PETROPOLIS",
-          "valor": 335.4,
-          "nf": "6647",
-          "data_agendamento": "14/07/2026",
-          "data_ord": "2026-07-14",
-          "status": "FATURADO",
-          "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO ELETRONICAMENTE",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
           "codigo_cliente": "84031",
           "cliente": "ROYAL CENTER COMERCIAL LTDA",
           "cnpj": "00.784.394/0001-16",
@@ -22108,53 +22220,11 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "74401",
-          "cliente": "DOM ATACAREJO SA",
-          "cnpj": "31.698.759/0011-95",
-          "filial": "ARARUAMA",
-          "valor": 1907.4,
-          "nf": "6629",
-          "data_agendamento": "13/07/2026",
-          "data_ord": "2026-07-13",
-          "status": "FATURADO",
-          "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO \nELETRONICAMENTE",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "79589",
-          "cliente": "DOM ATACAREJO SA",
-          "cnpj": "31.698.759/0023-29",
-          "filial": "BELFORD ROXO",
-          "valor": 1560.6,
-          "nf": "",
-          "data_agendamento": "13/07/2026",
-          "data_ord": "2026-07-13",
-          "status": "A FATURAR",
-          "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO ELETRONICAMENTE",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
           "codigo_cliente": "79681",
           "cliente": "DOM ATACAREJO SA",
           "cnpj": "31.698.759/0024-00",
           "filial": "MESQUITA",
           "valor": 2861.28,
-          "nf": "",
-          "data_agendamento": "13/07/2026",
-          "data_ord": "2026-07-13",
-          "status": "A FATURAR",
-          "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO ELETRONICAMENTE",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "81307",
-          "cliente": "DOM ATACAREJO SA",
-          "cnpj": "31.698.759/0027-52",
-          "filial": "SÃO GONÇALO",
-          "valor": 1560.6,
           "nf": "",
           "data_agendamento": "13/07/2026",
           "data_ord": "2026-07-13",
@@ -24248,20 +24318,6 @@ const AGENDAMENTO_DATA = {
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "79589",
-          "cliente": "DOM ATACAREJO SA",
-          "cnpj": "31.698.759/0023-29",
-          "filial": "BELFORD ROXO",
-          "valor": 0.0,
-          "nf": "",
-          "data_agendamento": "",
-          "data_ord": "",
-          "status": "",
-          "obs": "",
-          "status_logistica": "",
-          "justificativa_logistica": ""
         }
       ]
     },
@@ -24343,7 +24399,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7031",
           "data_agendamento": "30/07/2026",
           "data_ord": "2026-07-30",
-          "status": "A FATURAR",
+          "status": "ENTREGUE",
           "obs": "ROTA DE VIAGEM",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -25322,7 +25378,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "03/08/2026 13:30",
+  "atualizado_em": "03/08/2026 14:09",
   "comparativo": [
     {
       "msg_id": "19f8f0d0054f43bd",
