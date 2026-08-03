@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "03/08/2026 10:42",
+  "atualizado_em": "03/08/2026 11:11",
   "total": 22320,
   "clientes": [
     {
@@ -117348,6 +117348,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "SOUZA"
     },
     {
+      "codcli": "10291",
+      "razao": "DEPOSITO CENTRAL DISTRIBUIDORA DE ALIMENTOS LTDA",
+      "fantasia": "DEPOSITO NOVA IGUACU",
+      "bairro": "CENTRO",
+      "cidade": "NOVA IGUACU",
+      "cnpj": "10.385.002/0004-42",
+      "estado": "RJ",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "460",
+      "nome_usur1": "IVANILDO MAIA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "77836",
       "razao": "DEPOSITO DA BOA DE BUZIOS LTDA",
       "fantasia": "DEPOSITO DA BOA DE BUZIOS",
@@ -186148,6 +186164,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
+      "codcli": "52235",
+      "razao": "JOAO MARIA CAVALCANTE FONSECA",
+      "fantasia": "MERCADO ITAQUANDUBA",
+      "bairro": "ITAQUANDUBA",
+      "cidade": "ILHABELA",
+      "cnpj": "10.620.137/0001-00",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "516",
+      "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "30182",
       "razao": "JOAO NATAS BOMFIM MORAES DE LIMA 08264195695",
       "fantasia": "NATAS",
@@ -202646,7 +202678,7 @@ const CLIENTES_RCA_DATA = {
     {
       "codcli": "72641",
       "razao": "LDK EVENTOS LTDA",
-      "fantasia": "LDK EVENTOS LTDA",
+      "fantasia": "LDK EVENTOS",
       "bairro": "EDSON PASSOS",
       "cidade": "MESQUITA",
       "cnpj": "47.682.898/0001-99",
@@ -290606,8 +290638,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "153",
+      "nome_usur1": "ANGELO NEVES SUZART - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
     },
@@ -291372,22 +291404,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "43.955.115/0001-42",
       "estado": "RJ",
       "ramo": "OUTROS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "80757",
-      "razao": "RECANTO DA ALICE LTDA",
-      "fantasia": "RECANTO DA ALICE",
-      "bairro": "LARANJEIRAS",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "48.686.965/0001-06",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -308032,22 +308048,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "81193",
-      "razao": "RUTH MARIA DO NASCIMENTO 02239214759",
-      "fantasia": "RUTH BAZAR",
-      "bairro": "CENTRO",
-      "cidade": "MARICA",
-      "cnpj": "19.049.305/0001-16",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
