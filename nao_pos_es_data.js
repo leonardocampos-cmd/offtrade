@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "03/08/2026 14:12",
+  "atualizado_em": "03/08/2026 14:31",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -20190,16 +20190,32 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
+        "codcli": "92447",
+        "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+        "bairro": "RECREIO DOS BANDEIRANTES",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "81155",
         "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
         "bairro": "BARRA DA TIJUCA",
         "dtultcomp": "nan",
         "produtos": []
+      }
+    ],
+    "KESSYA OURIQUE": [
+      {
+        "codcli": "60035",
+        "cliente": "GREEN FRUIT NOVO MILENIO HORTIFRUTI GRANJEIROS LTDA",
+        "bairro": "VARZEA",
+        "dtultcomp": "nan",
+        "produtos": []
       },
       {
-        "codcli": "92447",
-        "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
-        "bairro": "RECREIO DOS BANDEIRANTES",
+        "codcli": "85978",
+        "cliente": "GREEN FRUIT NOVO MILENIO HORTIFRUTIGRANJEIROS LTDA",
+        "bairro": "BARRA DO IMBUÍ",
         "dtultcomp": "nan",
         "produtos": []
       }
