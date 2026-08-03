@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "03/08/2026 10:13",
+  "atualizado_em": "03/08/2026 10:40",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -141153,6 +141153,13 @@ const VENDAS_SP_DATA = {
         "fat": 10000.0,
         "pos": 5.0,
         "fat_pernod": 5000.0,
+        "fat_crs": null,
+        "fat_essenza": null
+      },
+      "Jul/26": {
+        "fat": null,
+        "pos": null,
+        "fat_pernod": null,
         "fat_crs": null,
         "fat_essenza": null
       }
