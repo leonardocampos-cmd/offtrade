@@ -769,7 +769,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7068",
           "data_agendamento": "04/08/2026",
           "data_ord": "2026-08-04",
-          "status": "A FATURAR",
+          "status": "FATURADO",
           "obs": "Embarcar caixas originais e íntegras. BONIFICAÇÃO",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17103,7 +17103,7 @@ const AGENDAMENTO_DATA = {
           "nf": "",
           "data_agendamento": "04/08/2026",
           "data_ord": "2026-08-04",
-          "status": "FATURADO",
+          "status": "A FATURAR",
           "obs": "EMBARCAR AS CAIXAS ORIGINAIS E ÍNTEGRAS",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17145,7 +17145,7 @@ const AGENDAMENTO_DATA = {
           "nf": "",
           "data_agendamento": "04/08/2026",
           "data_ord": "2026-08-04",
-          "status": "FATURADO",
+          "status": "A FATURAR",
           "obs": "CONTATO 21974318449 (VITORIA)",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -25560,7 +25560,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "03/08/2026 17:12",
+  "atualizado_em": "03/08/2026 17:28",
   "comparativo": [
     {
       "msg_id": "19f8f0d0054f43bd",
