@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "01/08/2026 08:33",
+  "atualizado_em": "03/08/2026 10:07",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -2735,14 +2735,14 @@ const CRUSOE_DATA = {
         {
           "rca": 153,
           "vendedor": "Angelo Neves Suzart",
-          "pedidos": 6,
+          "pedidos": 7,
           "positivacoes": 2,
-          "novos_skus": 7,
-          "faturamento": 9325.47,
+          "novos_skus": 11,
+          "faturamento": 10744.37,
           "pontos_positivacao": 10,
-          "pontos_novos_skus": 28,
-          "pontos_pedidos_valor": 8,
-          "pontos_total": 46,
+          "pontos_novos_skus": 44,
+          "pontos_pedidos_valor": 10,
+          "pontos_total": 64,
           "vendas": [
             {
               "numnota": "408274",
@@ -2923,6 +2923,70 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM PEDACOS NATURAL 24X140G",
                   "qt": 1.0,
                   "valor": 191.76,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "417762",
+              "data": "01/08/2026",
+              "cliente": "MERCADO RC DE ITAGUAI LTDA",
+              "valor_pedido": 1418.9,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$1001-3000)",
+                  "pontos": 2
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC ATUM RALADO NATURAL 24X140G",
+                  "qt": 2.0,
+                  "valor": 259.8,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM RALADO OLEO 24X140G",
+                  "qt": 2.0,
+                  "valor": 259.8,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+                  "qt": 2.0,
+                  "valor": 339.8,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
+                  "qt": 3.0,
+                  "valor": 299.7,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+                  "qt": 2.0,
+                  "valor": 259.8,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
