@@ -1,5 +1,5 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "03/08/2026 12:03",
+  "atualizado_em": "03/08/2026 12:26",
   "periodo_dias": 90,
   "fontes_indisponiveis": [],
   "pedidos_feitos": [
@@ -1205,6 +1205,65 @@ const PEDIDOS_DATA = {
           "qt_original": 1.0,
           "cortado": false,
           "codprod": "315",
+          "codfilial": "1"
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "344000577",
+      "numnota": "",
+      "data": "03/08/2026",
+      "data_ord": "2026-08-03",
+      "nome": "TIAGO ANDRADE - OFF TRADE",
+      "cliente": "COMERCIAL PRISMA LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 574.6,
+      "itens": [
+        {
+          "desc": "GIN TANQUERAY  375ML",
+          "industria": "DIAGEO",
+          "qt": 6,
+          "val": 359.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "4377",
+          "codfilial": "1"
+        },
+        {
+          "desc": "ST PIERRE ZERO PINK LEMON  310 ML",
+          "industria": "TATUZINHO",
+          "qt": 4,
+          "val": 107.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 4.0,
+          "cortado": false,
+          "codprod": "4040",
+          "codfilial": "1"
+        },
+        {
+          "desc": "ST PIERRE RED MINTL ZERO 310 ML",
+          "industria": "TATUZINHO",
+          "qt": 4,
+          "val": 107.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 4.0,
+          "cortado": false,
+          "codprod": "4042",
           "codfilial": "1"
         }
       ],
@@ -5453,53 +5512,6 @@ const PEDIDOS_DATA = {
           "cortado": false,
           "codprod": "674",
           "codfilial": "2"
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
-      "numped": "192003888",
-      "numnota": "43344",
-      "data": "31/07/2026",
-      "data_ord": "2026-07-31",
-      "nome": "ENEIVA RODRIGUES - OFF TRADE",
-      "cliente": "ORIGINAL COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
-      "sistema": "CRC",
-      "estado": "ES",
-      "supervisor": "SUPERVISOR BALCAO - ES",
-      "gerente": "EROCLES OLIVEIRA",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Pedido com item abaixo do preço minimo.",
-      "obs": "",
-      "total": 155312.64,
-      "itens": [
-        {
-          "desc": "RED BULL 24X250ML",
-          "industria": "RED BULL",
-          "qt": 576,
-          "val": 103541.76,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 576.0,
-          "cortado": false,
-          "codprod": "3",
-          "codfilial": "1"
-        },
-        {
-          "desc": "RED BULL TROPICAL 24X250ML",
-          "industria": "RED BULL",
-          "qt": 288,
-          "val": 51770.88,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 288.0,
-          "cortado": false,
-          "codprod": "902",
-          "codfilial": "1"
         }
       ],
       "tem_corte": false,
