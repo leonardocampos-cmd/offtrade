@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "03/08/2026 10:03",
+  "atualizado_em": "03/08/2026 10:31",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -584814,28 +584814,6 @@ const VENDAS_DATA = {
           "fantasia": "PERNOD",
           "qt": 228,
           "valor": 11377.2,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "03/07/2026",
-          "codcli": "35169",
-          "cliente": "ADIÇÃO DISTRIBUIÇÃO EXPRESS S/A",
-          "produto": "XAROPE MONIN GENGIBRE (GINGER) 700 ML",
-          "fantasia": "MONIN",
-          "qt": 60,
-          "valor": 2814.0,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "03/07/2026",
-          "codcli": "35169",
-          "cliente": "ADIÇÃO DISTRIBUIÇÃO EXPRESS S/A",
-          "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
-          "fantasia": "MONIN",
-          "qt": 162,
-          "valor": 7597.8,
           "tipo": "Venda",
           "offtrade": true
         },
