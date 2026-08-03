@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "03/08/2026 14:52",
+  "atualizado_em": "03/08/2026 15:08",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -114,7 +114,7 @@ const VENDAS_MG_DATA = {
         "fat_ano_ant": 0.0
       },
       "Ago/26": {
-        "fat": 678.6,
+        "fat": 1253.2,
         "pos": 2,
         "fat_ant": 115221.61,
         "fat_ano_ant": 0.0
@@ -51600,6 +51600,36 @@ const VENDAS_MG_DATA = {
           "fantasia": "PERNOD",
           "qt": 6,
           "valor": 359.4,
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
+          "codcli": "34348",
+          "cliente": "COMERCIAL PRISMA LTDA",
+          "produto": "ST PIERRE RED MINTL ZERO 310 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 4,
+          "valor": 107.6,
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
+          "codcli": "34348",
+          "cliente": "COMERCIAL PRISMA LTDA",
+          "produto": "GIN TANQUERAY  375ML",
+          "fantasia": "DIAGEO",
+          "qt": 6,
+          "valor": 359.4,
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
+          "codcli": "34348",
+          "cliente": "COMERCIAL PRISMA LTDA",
+          "produto": "ST PIERRE ZERO PINK LEMON  310 ML",
+          "fantasia": "TATUZINHO",
+          "qt": 4,
+          "valor": 107.6,
           "offtrade": true
         }
       ],
