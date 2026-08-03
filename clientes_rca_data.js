@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "03/08/2026 17:15",
-  "total": 22327,
+  "atualizado_em": "03/08/2026 17:31",
+  "total": 22328,
   "clientes": [
     {
       "codcli": "38586",
@@ -7042,6 +7042,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "W.S",
       "codusur2": "119",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
+    },
+    {
+      "codcli": "40538",
+      "razao": "38.318.418 ANA CLARA LUZIA XAVIER DE AGUIAR",
+      "fantasia": "ANA CLARA LUZIA XAVIER DE AGUIAR",
+      "bairro": "NOVE DE JULHO",
+      "cidade": "MOGI DAS CRUZES",
+      "cnpj": "38.318.418/0001-14",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "461",
+      "nome_usur1": "SUELY SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "91857",
@@ -16514,6 +16530,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "47952",
+      "razao": "51.314.733 CAMILA MACIEL DRAPPE SALARO",
+      "fantasia": "CAMILA MACIEL DRAPPE SALARO",
+      "bairro": "SERTÃO DA QUINA",
+      "cidade": "UBATUBA",
+      "cnpj": "51.314.733/0001-31",
+      "estado": "SP",
+      "ramo": "RESTAURANTE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "75348",
@@ -217604,22 +217636,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "MARIANA LAGES"
     },
     {
-      "codcli": "30572",
-      "razao": "MADAME GENEVA LTDA.",
-      "fantasia": "MADAME GENEVA",
-      "bairro": "LUXEMBURGO",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "42.829.912/0001-10",
-      "estado": "MG",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "351",
-      "nome_usur2": "MARIANA LAGES"
-    },
-    {
       "codcli": "75531",
       "razao": "MADAME MERLOT ADEGA LTDA",
       "fantasia": "MADAME MERLOT VINHOS",
@@ -260447,7 +260463,7 @@ const CLIENTES_RCA_DATA = {
       "key_account": true,
       "rede": "ORIUNDI",
       "codusur1": "521",
-      "nome_usur1": "WESLEY DE ALEXANDRE CARCHENO - OFF TRADE",
+      "nome_usur1": "WESLEY CARCHENO - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
