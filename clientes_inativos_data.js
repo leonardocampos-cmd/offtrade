@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "03/08/2026 17:16",
+  "atualizado_em": "03/08/2026 17:32",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -8119,7 +8119,7 @@ const INATIVOS_DATA = {
       ],
       "novos": []
     },
-    "WESLEY DE ALEXANDRE CARCHENO - OFF TRADE": {
+    "WESLEY CARCHENO - OFF TRADE": {
       "rca": "521",
       "estado": "RJ",
       "inativos": [],
@@ -11811,7 +11811,7 @@ const INATIVOS_DATA = {
                   "rca": "426"
                 },
                 {
-                  "nome": "WESLEY DE ALEXANDRE CARCHENO - OFF TRADE",
+                  "nome": "WESLEY CARCHENO - OFF TRADE",
                   "rca": "521"
                 }
               ]
