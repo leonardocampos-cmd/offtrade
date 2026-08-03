@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "30/07/2026 17:59",
+  "atualizado_em": "03/08/2026 10:15",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -41,26 +41,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "HEINEKEN",
             "qt": 2,
             "valor": 282.72
-          }
-        ]
-      },
-      {
-        "codcli": "35462",
-        "cliente": "POSTO WAP CRISTIANO MACHADO LTDA",
-        "bairro": "MINASLÂNDIA (P MAIO)",
-        "dtultcomp": "04/05/2026",
-        "produtos": [
-          {
-            "produto": "GIN TANQUERAY  750 ML",
-            "fantasia": "DIAGEO",
-            "qt": 2,
-            "valor": 197.8
-          },
-          {
-            "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
-            "fantasia": "DIAGEO",
-            "qt": 2,
-            "valor": 249.12
           }
         ]
       },
@@ -125,6 +105,26 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "35727",
+        "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
+        "bairro": "ITAIPU (BARREIRO)",
+        "dtultcomp": "18/05/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 184.56
+          },
+          {
+            "produto": "RED BULL SUGAR FREE 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 184.56
+          }
+        ]
+      },
+      {
         "codcli": "35726",
         "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
         "bairro": "MILIONÁRIOS (BARREIRO)",
@@ -174,26 +174,6 @@ const NAO_POS_MG_DATA = {
         "codcli": "35725",
         "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
         "bairro": "MINEIRÃO",
-        "dtultcomp": "18/05/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          },
-          {
-            "produto": "RED BULL SUGAR FREE 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          }
-        ]
-      },
-      {
-        "codcli": "35727",
-        "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
-        "bairro": "ITAIPU (BARREIRO)",
         "dtultcomp": "18/05/2026",
         "produtos": [
           {
@@ -337,32 +317,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37498",
-        "cliente": "ESTORIL CONVENIENCIA LTDA",
-        "bairro": "ÁGUA BRANCA",
-        "dtultcomp": "09/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 373.92
-          },
-          {
-            "produto": "RED BULL AMORA 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 186.96
-          },
-          {
-            "produto": "RED BULL MELÃO MARACUJA 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 186.96
-          }
-        ]
-      },
-      {
         "codcli": "30327",
         "cliente": "SERENA LANCHES EIRELI",
         "bairro": "OLARIA",
@@ -423,26 +377,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "31397",
-        "cliente": "DISTRIBUIDORA CABRAL BEER LTDA",
-        "bairro": "CABRAL",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-            "fantasia": "LVMH",
-            "qt": 6,
-            "valor": 527.4
-          },
-          {
-            "produto": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
-            "fantasia": "DIAGEO",
-            "qt": 57,
-            "valor": 10710.3
-          }
-        ]
-      },
-      {
         "codcli": "39027",
         "cliente": "SUPERMERCADO PEJOAL LTDA",
         "bairro": "LINDÉIA (BARREIRO)",
@@ -483,6 +417,256 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "34399",
+        "cliente": "BEATRIZ MARIA MOREIRA",
+        "bairro": "CEU AZUL",
+        "dtultcomp": "01/07/2026",
+        "produtos": [
+          {
+            "produto": "SMIRNOFF ICE RASPBERRY -269ML LT CX 24",
+            "fantasia": "DIAGEO",
+            "qt": 1,
+            "valor": 91.57
+          },
+          {
+            "produto": "SMIRNOFF ICE TROPICAL 269ML LT CX 24",
+            "fantasia": "DIAGEO",
+            "qt": 1,
+            "valor": 91.43
+          }
+        ]
+      },
+      {
+        "codcli": "33304",
+        "cliente": "SG COMERCIO E VAREJO LTDA",
+        "bairro": "SÃO JOSÉ",
+        "dtultcomp": "02/07/2026",
+        "produtos": [
+          {
+            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+            "fantasia": "DON LUIZ",
+            "qt": 18,
+            "valor": 1078.2
+          }
+        ]
+      },
+      {
+        "codcli": "39026",
+        "cliente": "COMERCIAL AKTEM LTDA",
+        "bairro": "LINDÉIA (BARREIRO)",
+        "dtultcomp": "07/07/2026",
+        "produtos": [
+          {
+            "produto": "APERITIVO APEROL 750 ML",
+            "fantasia": "",
+            "qt": 2,
+            "valor": 85.8
+          },
+          {
+            "produto": "APERITIVO CAMPARI 998 ML",
+            "fantasia": "",
+            "qt": 4,
+            "valor": 191.6
+          },
+          {
+            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+            "fantasia": "DON LUIZ",
+            "qt": 1,
+            "valor": 59.9
+          },
+          {
+            "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
+            "fantasia": "PERNOD",
+            "qt": 2,
+            "valor": 50.8
+          },
+          {
+            "produto": "WHISKY BALLANTINES SUNSHINE 700ML",
+            "fantasia": "PERNOD",
+            "qt": 2,
+            "valor": 119.8
+          }
+        ]
+      },
+      {
+        "codcli": "34401",
+        "cliente": "ADEGA DO THIAGUINHO LTDA.",
+        "bairro": "BARREIRO",
+        "dtultcomp": "08/07/2026",
+        "produtos": [
+          {
+            "produto": "APERITIVO CAMPARI 998 ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 598.8
+          },
+          {
+            "produto": "WHISKY BALLANTINES SUNSHINE 700ML",
+            "fantasia": "PERNOD",
+            "qt": 2,
+            "valor": 117.8
+          },
+          {
+            "produto": "WHISKY JACK DANIELS 375 ML",
+            "fantasia": "BROWN-FORMAN",
+            "qt": 5,
+            "valor": 274.5
+          },
+          {
+            "produto": "WHISKY JACK DANIELS HONEY 375ML",
+            "fantasia": "BROWN-FORMAN",
+            "qt": 5,
+            "valor": 274.5
+          }
+        ]
+      },
+      {
+        "codcli": "38968",
+        "cliente": "ALEXANDRE BRAS MACIEL ARRUDA BAR",
+        "bairro": "ELDORADO",
+        "dtultcomp": "08/07/2026",
+        "produtos": [
+          {
+            "produto": "APERITIVO CAMPARI 998 ML",
+            "fantasia": "",
+            "qt": 2,
+            "valor": 95.8
+          },
+          {
+            "produto": "WHISKY WALKER RED LABEL 1L",
+            "fantasia": "DIAGEO",
+            "qt": 1,
+            "valor": 70.9
+          },
+          {
+            "produto": "WHISKY WHITE HORSE - 1L",
+            "fantasia": "DIAGEO",
+            "qt": 1,
+            "valor": 62.9
+          }
+        ]
+      },
+      {
+        "codcli": "39542",
+        "cliente": "36.947.510 JOAO PAULO DE FREITAS GODINHO",
+        "bairro": "LAGOA (JUSTINÓPOLIS)",
+        "dtultcomp": "09/07/2026",
+        "produtos": [
+          {
+            "produto": "APERITIVO CAMPARI 998 ML",
+            "fantasia": "",
+            "qt": 6,
+            "valor": 299.4
+          },
+          {
+            "produto": "WHISKY WALKER RED LABEL 1L",
+            "fantasia": "DIAGEO",
+            "qt": 7,
+            "valor": 510.3
+          }
+        ]
+      },
+      {
+        "codcli": "39185",
+        "cliente": "49.581.751 EDER PERONA ZUIM",
+        "bairro": "SÃO JOAQUIM",
+        "dtultcomp": "09/07/2026",
+        "produtos": [
+          {
+            "produto": "APERITIVO CAMPARI 998 ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 47.9
+          },
+          {
+            "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
+            "fantasia": "DIAGEO",
+            "qt": 1,
+            "valor": 129.9
+          },
+          {
+            "produto": "WHISKY WALKER RED LABEL 1L",
+            "fantasia": "DIAGEO",
+            "qt": 2,
+            "valor": 141.8
+          }
+        ]
+      },
+      {
+        "codcli": "35813",
+        "cliente": "CHAMA DISTRIBUIDORA LTDA",
+        "bairro": "INDEPENDÊNCIA (BARREIRO)",
+        "dtultcomp": "09/07/2026",
+        "produtos": [
+          {
+            "produto": "WHISKY JACK DANIELS BLACKBERRY 1L",
+            "fantasia": "BROWN-FORMAN",
+            "qt": 6,
+            "valor": 839.4
+          }
+        ]
+      },
+      {
+        "codcli": "39176",
+        "cliente": "PASCOAL BEBIDAS LTDA",
+        "bairro": "CANAÃ - 1ª SEÇÃO",
+        "dtultcomp": "09/07/2026",
+        "produtos": [
+          {
+            "produto": "VODKA ABSOLUT - 1 LITRO",
+            "fantasia": "PERNOD",
+            "qt": 1,
+            "valor": 74.9
+          },
+          {
+            "produto": "WHISKY JACK DANIELS 1L",
+            "fantasia": "BROWN-FORMAN",
+            "qt": 1,
+            "valor": 123.9
+          },
+          {
+            "produto": "WHISKY JACK DANIELS BLACKBERRY 1L",
+            "fantasia": "BROWN-FORMAN",
+            "qt": 3,
+            "valor": 419.7
+          }
+        ]
+      },
+      {
+        "codcli": "39182",
+        "cliente": "CANAA COMERCIO DE ALIMENTOS LTDA",
+        "bairro": "NOVO BOA VISTA",
+        "dtultcomp": "10/07/2026",
+        "produtos": [
+          {
+            "produto": "WHISKY JACK DANIELS APPLE 1L",
+            "fantasia": "BROWN-FORMAN",
+            "qt": 1,
+            "valor": 129.9
+          },
+          {
+            "produto": "WHISKY JACK DANIELS BLACKBERRY 1L",
+            "fantasia": "BROWN-FORMAN",
+            "qt": 2,
+            "valor": 279.8
+          }
+        ]
+      },
+      {
+        "codcli": "39110",
+        "cliente": "EMPORIO LOS MANOS LTDA",
+        "bairro": "CÉU AZUL",
+        "dtultcomp": "13/07/2026",
+        "produtos": [
+          {
+            "produto": "WHISKY JACK DANIELS APPLE 1L",
+            "fantasia": "BROWN-FORMAN",
+            "qt": 4,
+            "valor": 495.6
+          }
+        ]
+      },
+      {
         "codcli": "39598",
         "cliente": "CRISTIANA DE SOUZA LUZ BARBOSA",
         "bairro": "NACIONAL",
@@ -509,6 +693,352 @@ const NAO_POS_MG_DATA = {
         "bairro": "ÁGUA BRANCA",
         "dtultcomp": "nan",
         "produtos": []
+      }
+    ],
+    "DOUGLAS FERREIRA SILVA": [
+      {
+        "codcli": "37822",
+        "cliente": "BEROLA DISTRIBUIDOR E ATACADISTA LTDA",
+        "bairro": "CHACARAS REUNIDAS SANTA TEREZINHA",
+        "dtultcomp": "31/07/2026",
+        "produtos": [
+          {
+            "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
+            "fantasia": "PERNOD",
+            "qt": 72,
+            "valor": 1497.6
+          },
+          {
+            "produto": "RUM MONTILLA OURO 1000ML",
+            "fantasia": "PERNOD",
+            "qt": 1200,
+            "valor": 24960.0
+          }
+        ]
+      },
+      {
+        "codcli": "34032",
+        "cliente": "UPSIDE DISTRIBUICAO DE ALIMENTOS LTDA",
+        "bairro": "CHÁCARAS COTIA",
+        "dtultcomp": "31/07/2026",
+        "produtos": [
+          {
+            "produto": "RUM MONTILLA OURO 1000ML",
+            "fantasia": "PERNOD",
+            "qt": 204,
+            "valor": 4243.2
+          },
+          {
+            "produto": "WHISKY BALLANTINE'S FINEST 1L",
+            "fantasia": "PERNOD",
+            "qt": 54,
+            "valor": 3140.1
+          }
+        ]
+      },
+      {
+        "codcli": "39706",
+        "cliente": "MINASFORT DISTRIBUIDORA DE ALIMENTOS LTDA",
+        "bairro": "KENNEDY",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39665",
+        "cliente": "OESA COMERCIO E REPRESENTACOES S/A",
+        "bairro": "TAPERA",
+        "dtultcomp": "nan",
+        "produtos": []
+      }
+    ],
+    "JETER LUCIO SOARES": [
+      {
+        "codcli": "35090",
+        "cliente": "UNISSUL SUPERMERCADOS S A",
+        "bairro": "PRIMAVERA",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 514.8
+          },
+          {
+            "produto": "VILLA ROSA TINTO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 257.4
+          },
+          {
+            "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 461.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 24,
+            "valor": 490.08
+          }
+        ]
+      },
+      {
+        "codcli": "37327",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "CENTRO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 514.8
+          },
+          {
+            "produto": "VINHO FOODKILLER CAB SAUV MERLOT 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 293.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 245.04
+          }
+        ]
+      },
+      {
+        "codcli": "37333",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "CENTRO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 257.4
+          },
+          {
+            "produto": "VILLA ROSA ROSE 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 257.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 24,
+            "valor": 490.08
+          },
+          {
+            "produto": "WHISKY BALLANTINE'S FINEST 1L",
+            "fantasia": "PERNOD",
+            "qt": 3,
+            "valor": 177.54
+          }
+        ]
+      },
+      {
+        "codcli": "37330",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "NOVA ERA",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 514.8
+          },
+          {
+            "produto": "VILLA ROSA ROSE 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 257.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 245.04
+          }
+        ]
+      },
+      {
+        "codcli": "37909",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "MUARAMA",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA ROSE 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 257.4
+          },
+          {
+            "produto": "VILLA ROSA TINTO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 514.8
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 245.04
+          },
+          {
+            "produto": "WHISKY BALLANTINE'S FINEST 1L",
+            "fantasia": "PERNOD",
+            "qt": 3,
+            "valor": 177.54
+          }
+        ]
+      },
+      {
+        "codcli": "37335",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "CENTRO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA TINTO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 257.4
+          },
+          {
+            "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 461.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 24,
+            "valor": 490.08
+          }
+        ]
+      },
+      {
+        "codcli": "35222",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "JARDIM ANA MARIA",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA TINTO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 257.4
+          },
+          {
+            "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 461.4
+          },
+          {
+            "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 586.8
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 245.04
+          },
+          {
+            "produto": "WHISKY BALLANTINE'S FINEST 1L",
+            "fantasia": "PERNOD",
+            "qt": 3,
+            "valor": 177.54
+          }
+        ]
+      },
+      {
+        "codcli": "37329",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "JARDIM BOA ESPERANÇA III",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 24,
+            "valor": 490.08
+          },
+          {
+            "produto": "WHISKY BALLANTINE'S FINEST 1L",
+            "fantasia": "PERNOD",
+            "qt": 3,
+            "valor": 177.54
+          }
+        ]
+      },
+      {
+        "codcli": "34568",
+        "cliente": "BIG MAIS SUPERMERCADOS LTDA",
+        "bairro": "VILA ISA",
+        "dtultcomp": "31/07/2026",
+        "produtos": [
+          {
+            "produto": "PURE MONIN LIMÃO SICILIANO 700ML",
+            "fantasia": "MONIN",
+            "qt": 12,
+            "valor": 538.8
+          },
+          {
+            "produto": "XAROPE MONIN CRANBERRY 700 ML",
+            "fantasia": "MONIN",
+            "qt": 24,
+            "valor": 1077.6
+          },
+          {
+            "produto": "XAROPE MONIN FRAMBOESA 700 ML",
+            "fantasia": "MONIN",
+            "qt": 24,
+            "valor": 1077.6
+          },
+          {
+            "produto": "XAROPE MONIN LIMAO SICILIANO 700 ML",
+            "fantasia": "MONIN",
+            "qt": 18,
+            "valor": 808.2
+          },
+          {
+            "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
+            "fantasia": "MONIN",
+            "qt": 18,
+            "valor": 808.2
+          },
+          {
+            "produto": "XAROPE MONIN MELANCIA 700ML",
+            "fantasia": "MONIN",
+            "qt": 12,
+            "valor": 538.8
+          },
+          {
+            "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
+            "fantasia": "MONIN",
+            "qt": 12,
+            "valor": 538.8
+          },
+          {
+            "produto": "XAROPE MONIN TANGERINA (MANDARIM) 700ML",
+            "fantasia": "MONIN",
+            "qt": 18,
+            "valor": 808.2
+          }
+        ]
       }
     ],
     "JOÃO SANTOS": [
@@ -541,44 +1071,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "DIAGEO",
             "qt": 2,
             "valor": 529.8
-          }
-        ]
-      },
-      {
-        "codcli": "33496",
-        "cliente": "MULLIGAN S BAR LTDA",
-        "bairro": "CRUZEIRO",
-        "dtultcomp": "22/01/2026",
-        "produtos": [
-          {
-            "produto": "APERITIVO APEROL 750 ML DEST",
-            "fantasia": "COMARY",
-            "qt": 1,
-            "valor": 56.9
-          },
-          {
-            "produto": "APERITIVO CAMPARI 998ML DEST",
-            "fantasia": "COMARY",
-            "qt": 1,
-            "valor": 58.9
-          },
-          {
-            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-            "fantasia": "HEINEKEN",
-            "qt": 3,
-            "valor": 431.28
-          },
-          {
-            "produto": "XAR 1883  GRENADINE FRUT VERMELHAS 1LT",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 68.9
-          },
-          {
-            "produto": "XAROPE 1883 DE TANGERINA 1L",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 68.9
           }
         ]
       },
@@ -631,78 +1123,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "DIAGEO",
             "qt": 10,
             "valor": 1293.6
-          }
-        ]
-      },
-      {
-        "codcli": "35871",
-        "cliente": "RESTAURANTE CHURRASCARIA QUEIROZ LTDA",
-        "bairro": "SÃO CAETANO",
-        "dtultcomp": "29/04/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK  RED BULL",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 31.56
-          },
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 31.56
-          },
-          {
-            "produto": "4 PACK RED BULL TROPICAL",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 31.56
-          },
-          {
-            "produto": "CERVEJA HEINEKEN RETORNAVEL 24X600ML",
-            "fantasia": "HEINEKEN",
-            "qt": 3,
-            "valor": 647.28
-          }
-        ]
-      },
-      {
-        "codcli": "37585",
-        "cliente": "DIRETORIO ACADEMICO DO CURSO DE ODONTOLOGIA DA PUC-MG-",
-        "bairro": "CORAÇÃO EUCARÍSTICO",
-        "dtultcomp": "30/04/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL POMELO SF",
-            "fantasia": "RED BULL",
-            "qt": 6,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          }
-        ]
-      },
-      {
-        "codcli": "31195",
-        "cliente": "CRG CONSULTORIA E ASSESSORIA DE SERVICOS EIRELI",
-        "bairro": "LOURDES",
-        "dtultcomp": "04/05/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL AMORA SUGAR FREE 250ML",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 85.2
-          },
-          {
-            "produto": "4 PACK RED BULL SUGAR FREE",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 85.2
           }
         ]
       },
@@ -831,44 +1251,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "RED BULL",
             "qt": 2,
             "valor": 47.12
-          }
-        ]
-      },
-      {
-        "codcli": "33681",
-        "cliente": "A. B. CAFETERIA LTDA",
-        "bairro": "BELVEDERE",
-        "dtultcomp": "18/05/2026",
-        "produtos": [
-          {
-            "produto": "ST PIERRE RED MINTL ZERO 310 ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 26.9
-          },
-          {
-            "produto": "ST PIERRE SUGAR FREE LT 270MLX6",
-            "fantasia": "TATUZINHO",
-            "qt": 8,
-            "valor": 215.2
-          },
-          {
-            "produto": "ST PIERRE ZERO GREEN APPLE 310 ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 26.9
-          },
-          {
-            "produto": "ST PIERRE ZERO PINK LEMON  310 ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 26.9
-          },
-          {
-            "produto": "XAROPE 1883 DE CRANBERRY 1LT",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 68.9
           }
         ]
       },
@@ -1203,44 +1585,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35314",
-        "cliente": "LANCHE LEGAL COMERCIO LTDA",
-        "bairro": "PAMPULHA",
-        "dtultcomp": "05/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK  RED BULL MORANGO PESSEGO",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 23.56
-          },
-          {
-            "produto": "4 PACK RED BULL AMORA SUGAR FREE 250ML",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 47.12
-          },
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 47.12
-          },
-          {
-            "produto": "4 PACK RED BULL TROPICAL",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 47.12
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          }
-        ]
-      },
-      {
         "codcli": "37219",
         "cliente": "PADARIA E CONFEITARIA VERENA II LTDA",
         "bairro": "CACHOEIRA",
@@ -1275,32 +1619,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "TATUZINHO",
             "qt": 3,
             "valor": 80.7
-          }
-        ]
-      },
-      {
-        "codcli": "32779",
-        "cliente": "BOI IN BOX LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "08/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 95.28
-          },
-          {
-            "produto": "4 PACK RED BULL TROPICAL",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 63.52
-          },
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 191.76
           }
         ]
       },
@@ -1691,26 +2009,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33014",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "YVY",
-            "qt": 4,
-            "valor": 159.6
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "YVY",
-            "qt": 4,
-            "valor": 159.6
-          }
-        ]
-      },
-      {
         "codcli": "32871",
         "cliente": "ER COZINHA ARTESANAL LTDA",
         "bairro": "VILA DA SERRA",
@@ -1731,46 +2029,22 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35189",
-        "cliente": "MAGNUS SOCIEDADE COMERCIAL LIMITADA",
-        "bairro": "SANTA HELENA",
+        "codcli": "33014",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "LOURDES",
         "dtultcomp": "18/06/2026",
         "produtos": [
           {
-            "produto": "GIN BEEFEATER 750ML",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 826.8
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 4,
+            "valor": 159.6
           },
           {
-            "produto": "GIN GORDONS 750 ML",
-            "fantasia": "DIAGEO",
-            "qt": 12,
-            "valor": 586.8
-          },
-          {
-            "produto": "GIN GORDONS PINK 700ML",
-            "fantasia": "DIAGEO",
-            "qt": 12,
-            "valor": 586.8
-          },
-          {
-            "produto": "VODKA ORLOFF 1L",
-            "fantasia": "PERNOD",
-            "qt": 24,
-            "valor": 525.6
-          },
-          {
-            "produto": "VODKA SMIRNOFF RED 998 ML",
-            "fantasia": "DIAGEO",
-            "qt": 12,
-            "valor": 334.8
-          },
-          {
-            "produto": "WHISKY ROYAL SALUTE 700 ML",
-            "fantasia": "PERNOD",
-            "qt": 2,
-            "valor": 1399.8
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 4,
+            "valor": 159.6
           }
         ]
       },
@@ -2027,26 +2301,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33257",
-        "cliente": "F2 COMERCIO LTDA.",
-        "bairro": "BARRO PRETO",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "VINHO ARESTI EST SEL ROSE 187ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 113.4
-          },
-          {
-            "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
-            "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 226.8
-          }
-        ]
-      },
-      {
         "codcli": "30892",
         "cliente": "JL CAFETERIA EIRELI",
         "bairro": "VILA DA SERRA",
@@ -2093,6 +2347,2826 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "30114",
+        "cliente": "EMPREENDIMENTOS VIP LTDA",
+        "bairro": "SANTO ANTONIO",
+        "dtultcomp": "01/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA TINTO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 7,
+            "valor": 300.3
+          }
+        ]
+      },
+      {
+        "codcli": "39579",
+        "cliente": "66.619.912 JULIA BATISTA DA SILVA SANTOS",
+        "bairro": "CAMARGOS",
+        "dtultcomp": "07/07/2026",
+        "produtos": [
+          {
+            "produto": "GIN GORDONS 750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 6,
+            "valor": 329.4
+          },
+          {
+            "produto": "XAROPE MONIN LICHIA (LYCHEE) 700ML",
+            "fantasia": "MONIN",
+            "qt": 2,
+            "valor": 99.8
+          }
+        ]
+      },
+      {
+        "codcli": "37631",
+        "cliente": "GCGV COMERCIO DE ALIMENTOS LTDA",
+        "bairro": "LOURDES",
+        "dtultcomp": "07/07/2026",
+        "produtos": [
+          {
+            "produto": "AZEITE DE OLIVA EV ESSENZA 5L",
+            "fantasia": "NSG",
+            "qt": 1,
+            "valor": 259.9
+          },
+          {
+            "produto": "CERRO DE PEDRA PARC SAUV BLANC BCO 750ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 84.9
+          },
+          {
+            "produto": "VINHO ARESTI EST SEL PINOT NOIR 750ML",
+            "fantasia": "CASTAS",
+            "qt": 3,
+            "valor": 164.7
+          },
+          {
+            "produto": "VINHO ARESTI RESERVA CARMENERE 750ML",
+            "fantasia": "CASTAS",
+            "qt": 3,
+            "valor": 239.7
+          },
+          {
+            "produto": "VINHO CAZAS NOVAS COLHEITA 750ML",
+            "fantasia": "CASTAS",
+            "qt": 1,
+            "valor": 89.9
+          },
+          {
+            "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 2,
+            "valor": 159.8
+          }
+        ]
+      },
+      {
+        "codcli": "30002",
+        "cliente": "SOCIEDADE COMERCIAL PIRES LTDA",
+        "bairro": "FUNCIONÁRIOS",
+        "dtultcomp": "07/07/2026",
+        "produtos": [
+          {
+            "produto": "VINHO ARESTI EST SEL CARMENERE 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 329.4
+          },
+          {
+            "produto": "VINHO ARESTI EST SEL CHARDONNAY 750ML",
+            "fantasia": "CASTAS",
+            "qt": 4,
+            "valor": 219.6
+          },
+          {
+            "produto": "VINHO GRAVEDAD CARMENERE 750ML",
+            "fantasia": "CASTAS",
+            "qt": 4,
+            "valor": 179.6
+          }
+        ]
+      },
+      {
+        "codcli": "32411",
+        "cliente": "ARIFA'S BAR E RESTAURANTE LTDA",
+        "bairro": "ITAPOA",
+        "dtultcomp": "08/07/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK RED BULL TROPICAL",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 31.96
+          },
+          {
+            "produto": "APERITIVO APEROL 750 ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 48.9
+          },
+          {
+            "produto": "ST PIERRE RED MINTL ZERO 310 ML",
+            "fantasia": "TATUZINHO",
+            "qt": 2,
+            "valor": 53.8
+          },
+          {
+            "produto": "ST PIERRE ZERO TROPICAL  310 ML",
+            "fantasia": "TATUZINHO",
+            "qt": 2,
+            "valor": 53.8
+          },
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 4,
+            "valor": 159.6
+          }
+        ]
+      },
+      {
+        "codcli": "32865",
+        "cliente": "BAR DA QUADRA LTDA",
+        "bairro": "BERNARDO MONTEIRO",
+        "dtultcomp": "08/07/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 179.76
+          },
+          {
+            "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
+            "fantasia": "DIAGEO",
+            "qt": 1,
+            "valor": 136.76
+          },
+          {
+            "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
+            "fantasia": "MONIN",
+            "qt": 1,
+            "valor": 49.9
+          }
+        ]
+      },
+      {
+        "codcli": "29363",
+        "cliente": "BHARZIN EMPREENDIMENTOS LTDA",
+        "bairro": "BRASILÉIA",
+        "dtultcomp": "08/07/2026",
+        "produtos": [
+          {
+            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+            "fantasia": "HEINEKEN",
+            "qt": 1,
+            "valor": 143.76
+          },
+          {
+            "produto": "CERVEJA HEINEKEN RETORNAVEL 24X600ML",
+            "fantasia": "HEINEKEN",
+            "qt": 4,
+            "valor": 875.04
+          }
+        ]
+      },
+      {
+        "codcli": "33182",
+        "cliente": "BUTECO FIADO LTDA",
+        "bairro": "LOURDES",
+        "dtultcomp": "08/07/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 12,
+            "valor": 346.8
+          }
+        ]
+      },
+      {
+        "codcli": "32415",
+        "cliente": "CHURRASCARIA JA TO INNO LTDA",
+        "bairro": "BARREIRO",
+        "dtultcomp": "08/07/2026",
+        "produtos": [
+          {
+            "produto": "JACK DANIELS HONEY 1 L",
+            "fantasia": "BROWN-FORMAN",
+            "qt": 1,
+            "valor": 123.9
+          },
+          {
+            "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+            "fantasia": "AURORA",
+            "qt": 1,
+            "valor": 149.9
+          },
+          {
+            "produto": "TEQUILA J CUERVO GOLD 750ML",
+            "fantasia": "AURORA",
+            "qt": 2,
+            "valor": 239.8
+          },
+          {
+            "produto": "TEQUILA J CUERVO SILVER 750ML",
+            "fantasia": "AURORA",
+            "qt": 2,
+            "valor": 239.8
+          },
+          {
+            "produto": "XAROPE  MONIN CARAMELO SALGADO 700 ML",
+            "fantasia": "MONIN",
+            "qt": 1,
+            "valor": 48.9
+          },
+          {
+            "produto": "XAROPE MONIN CURACAO BLUE 700 ML",
+            "fantasia": "MONIN",
+            "qt": 1,
+            "valor": 48.9
+          },
+          {
+            "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
+            "fantasia": "MONIN",
+            "qt": 2,
+            "valor": 97.8
+          },
+          {
+            "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
+            "fantasia": "MONIN",
+            "qt": 2,
+            "valor": 97.8
+          }
+        ]
+      },
+      {
+        "codcli": "31386",
+        "cliente": "UPPER EMPREENDIMENTOS LTDA",
+        "bairro": "FLORESTA",
+        "dtultcomp": "08/07/2026",
+        "produtos": [
+          {
+            "produto": "ST PIERRE BLUEBERRY LN 275MLX12",
+            "fantasia": "TATUZINHO",
+            "qt": 2,
+            "valor": 113.8
+          },
+          {
+            "produto": "ST PIERRE RED MINTL ZERO 310 ML",
+            "fantasia": "TATUZINHO",
+            "qt": 3,
+            "valor": 80.7
+          },
+          {
+            "produto": "ST PIERRE ZERO PINK LEMON  310 ML",
+            "fantasia": "TATUZINHO",
+            "qt": 2,
+            "valor": 53.8
+          },
+          {
+            "produto": "ST PIERRE ZERO TROPICAL  310 ML",
+            "fantasia": "TATUZINHO",
+            "qt": 2,
+            "valor": 53.8
+          },
+          {
+            "produto": "XAROPE 1883 DE MOJITO MIX 1LT",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 55.9
+          }
+        ]
+      },
+      {
+        "codcli": "30347",
+        "cliente": "DUARTE DISTRIBUIDORA DE BEBIDAS LTDA",
+        "bairro": "ANGOLA",
+        "dtultcomp": "09/07/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK  RED BULL",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 31.96
+          },
+          {
+            "produto": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
+            "fantasia": "DIAGEO",
+            "qt": 6,
+            "valor": 1193.4
+          },
+          {
+            "produto": "WHISKY JACK DANIELS BLACKBERRY 1L",
+            "fantasia": "BROWN-FORMAN",
+            "qt": 12,
+            "valor": 1678.8
+          },
+          {
+            "produto": "WHISKY WALKER RED LABEL 1L",
+            "fantasia": "DIAGEO",
+            "qt": 12,
+            "valor": 874.8
+          },
+          {
+            "produto": "XAROPE  MONIN CARAMELO SALGADO 700 ML",
+            "fantasia": "MONIN",
+            "qt": 3,
+            "valor": 149.7
+          }
+        ]
+      },
+      {
+        "codcli": "33048",
+        "cliente": "PEDROZA DISTRIBUIDORA DE BEBIDAS LTDA",
+        "bairro": "NITERÓI",
+        "dtultcomp": "09/07/2026",
+        "produtos": [
+          {
+            "produto": "WHISKY WALKER RED LABEL 1L",
+            "fantasia": "DIAGEO",
+            "qt": 12,
+            "valor": 874.8
+          }
+        ]
+      },
+      {
+        "codcli": "33350",
+        "cliente": "CASA QUATRO RECEPCOES LTDA",
+        "bairro": "JARDIM CANADA",
+        "dtultcomp": "10/07/2026",
+        "produtos": [
+          {
+            "produto": "XAROPE MONIN AMORA (BLACKBERRY) 700 ML",
+            "fantasia": "MONIN",
+            "qt": 20,
+            "valor": 998.0
+          }
+        ]
+      },
+      {
+        "codcli": "30219",
+        "cliente": "POSTO TOCANTINS LTDA",
+        "bairro": "FLORESTA",
+        "dtultcomp": "10/07/2026",
+        "produtos": [
+          {
+            "produto": "WHISKY JACK DANIELS BLACKBERRY 1L",
+            "fantasia": "BROWN-FORMAN",
+            "qt": 4,
+            "valor": 559.6
+          }
+        ]
+      },
+      {
+        "codcli": "39460",
+        "cliente": "BLOOM DIGITAL MIDIA LTDA",
+        "bairro": "LUXEMBURGO",
+        "dtultcomp": "13/07/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK  RED BULL  MAÇA SF",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 33.96
+          },
+          {
+            "produto": "4 PACK  RED BULL MORANGO PESSEGO",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 33.96
+          },
+          {
+            "produto": "4 PACK RED BULL POMELO SF",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 67.92
+          },
+          {
+            "produto": "4 PACK RED BULL SUGAR FREE",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 33.96
+          },
+          {
+            "produto": "4 PACK RED BULL TROPICAL",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 67.92
+          },
+          {
+            "produto": "AGUA MAMBA C/ GAS 24X350ML",
+            "fantasia": "BETTER DRINKS",
+            "qt": 1,
+            "valor": 64.56
+          }
+        ]
+      },
+      {
+        "codcli": "38493",
+        "cliente": "JM HAMBURGUERS LTDA",
+        "bairro": "VILA DA SERRA",
+        "dtultcomp": "13/07/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 191.76
+          },
+          {
+            "produto": "RED BULL ZERO 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 191.76
+          }
+        ]
+      },
+      {
+        "codcli": "31868",
+        "cliente": "LMR BAR E COMERCIO LTDA",
+        "bairro": "BURITIS",
+        "dtultcomp": "13/07/2026",
+        "produtos": [
+          {
+            "produto": "ESPUMANTE ALUD BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 538.8
+          },
+          {
+            "produto": "HUMB. CANALE DENARIO MALBEC 750ML",
+            "fantasia": "CASTAS",
+            "qt": 2,
+            "valor": 153.8
+          }
+        ]
+      },
+      {
+        "codcli": "31777",
+        "cliente": "CB BH COMERCIO DE ALIMENTOS LTDA",
+        "bairro": "ANCHIETA",
+        "dtultcomp": "14/07/2026",
+        "produtos": [
+          {
+            "produto": "CHANDON BRUT ROSE 750ML",
+            "fantasia": "LVMH",
+            "qt": 6,
+            "valor": 689.4
+          },
+          {
+            "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+            "fantasia": "LVMH",
+            "qt": 6,
+            "valor": 629.4
+          },
+          {
+            "produto": "MOET CHANDON BRUT IMPERIAL 750 NPP",
+            "fantasia": "LVMH",
+            "qt": 6,
+            "valor": 2639.4
+          }
+        ]
+      },
+      {
+        "codcli": "33601",
+        "cliente": "CB CONCEITO BH COMERCIO DE ALIMENTOS LTDA",
+        "bairro": "CIDADE INDUSTRIAL",
+        "dtultcomp": "14/07/2026",
+        "produtos": [
+          {
+            "produto": "GIN TANQUERAY  750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 2,
+            "valor": 187.8
+          },
+          {
+            "produto": "XAROPE MONIN GRENADINE 700 ML",
+            "fantasia": "MONIN",
+            "qt": 2,
+            "valor": 99.8
+          },
+          {
+            "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
+            "fantasia": "MONIN",
+            "qt": 2,
+            "valor": 99.8
+          },
+          {
+            "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
+            "fantasia": "MONIN",
+            "qt": 1,
+            "valor": 49.9
+          }
+        ]
+      },
+      {
+        "codcli": "30041",
+        "cliente": "B.R.C. HAMBURGUERS EIRELI",
+        "bairro": "LOURDES",
+        "dtultcomp": "15/07/2026",
+        "produtos": [
+          {
+            "produto": "ST PIERRE RED MINTL ZERO 310 ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 26.9
+          },
+          {
+            "produto": "ST PIERRE SUGAR FREE LT 270MLX6",
+            "fantasia": "TATUZINHO",
+            "qt": 4,
+            "valor": 107.6
+          },
+          {
+            "produto": "ST PIERRE TONICA LT 270MLX6",
+            "fantasia": "TATUZINHO",
+            "qt": 4,
+            "valor": 107.6
+          },
+          {
+            "produto": "ST PIERRE ZERO GREEN APPLE 310 ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 26.9
+          },
+          {
+            "produto": "ST PIERRE ZERO PINK LEMON  310 ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 26.9
+          },
+          {
+            "produto": "ST PIERRE ZERO TROPICAL  310 ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 26.9
+          }
+        ]
+      },
+      {
+        "codcli": "34150",
+        "cliente": "BAR E RESTAURANTE BUTECO DO XONADAO LTDA",
+        "bairro": "INDUSTRIAL",
+        "dtultcomp": "15/07/2026",
+        "produtos": [
+          {
+            "produto": "LE FRUIT JABUTICABA MONIN 1L",
+            "fantasia": "MONIN",
+            "qt": 2,
+            "valor": 159.0
+          },
+          {
+            "produto": "LE FRUIT MORANGO MONIN 1L",
+            "fantasia": "MONIN",
+            "qt": 1,
+            "valor": 79.5
+          },
+          {
+            "produto": "PURÊ DE FRUTAS VERMELHAS 1L",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 89.9
+          },
+          {
+            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 575.28
+          },
+          {
+            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 191.76
+          },
+          {
+            "produto": "ST PIERRE PALOMA 270MLX6",
+            "fantasia": "TATUZINHO",
+            "qt": 4,
+            "valor": 107.6
+          },
+          {
+            "produto": "WHISKY WALKER RED LABEL 1L",
+            "fantasia": "DIAGEO",
+            "qt": 12,
+            "valor": 874.8
+          }
+        ]
+      },
+      {
+        "codcli": "38643",
+        "cliente": "BRAZ 1949 LTDA",
+        "bairro": "ITAPOÃ",
+        "dtultcomp": "15/07/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 191.76
+          },
+          {
+            "produto": "RED BULL MELANCIA 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 191.76
+          },
+          {
+            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 191.76
+          },
+          {
+            "produto": "RED BULL ZERO 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 191.76
+          },
+          {
+            "produto": "ST PIERRE ZERO PINK LEMON  310 ML",
+            "fantasia": "TATUZINHO",
+            "qt": 4,
+            "valor": 107.6
+          }
+        ]
+      },
+      {
+        "codcli": "32771",
+        "cliente": "DEVOTOS LOURDES BAR E RESTAURANTES LTD",
+        "bairro": "SANTO ANTÔNIO",
+        "dtultcomp": "15/07/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK  RED BULL",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 31.96
+          },
+          {
+            "produto": "RED BULL MELANCIA 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 191.76
+          },
+          {
+            "produto": "WHISKY WHITE HORSE - 1L",
+            "fantasia": "DIAGEO",
+            "qt": 2,
+            "valor": 125.8
+          }
+        ]
+      },
+      {
+        "codcli": "36812",
+        "cliente": "GILBERTO A.D. FERNANDES",
+        "bairro": "ESTORIL",
+        "dtultcomp": "15/07/2026",
+        "produtos": [
+          {
+            "produto": "XAROPE 1883 DE KIWI 1LT",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 55.9
+          },
+          {
+            "produto": "XAROPE 1883 DE LIMAO SICILIANO 1LT",
+            "fantasia": "",
+            "qt": 2,
+            "valor": 111.8
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 6,
+            "valor": 221.4
+          }
+        ]
+      },
+      {
+        "codcli": "38835",
+        "cliente": "RESTAURANTE CLM PARRILLA LTDA",
+        "bairro": "SAVASSI",
+        "dtultcomp": "15/07/2026",
+        "produtos": [
+          {
+            "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+            "fantasia": "LVMH",
+            "qt": 4,
+            "valor": 419.6
+          }
+        ]
+      },
+      {
+        "codcli": "39400",
+        "cliente": "FABRICA DE MONSTROS CT BETIM LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "16/07/2026",
+        "produtos": [
+          {
+            "produto": "ST PIERRE RED MINTL ZERO 310 ML",
+            "fantasia": "TATUZINHO",
+            "qt": 4,
+            "valor": 107.6
+          },
+          {
+            "produto": "ST PIERRE ZERO PINK LEMON  310 ML",
+            "fantasia": "TATUZINHO",
+            "qt": 4,
+            "valor": 107.6
+          },
+          {
+            "produto": "ST PIERRE ZERO TROPICAL  310 ML",
+            "fantasia": "TATUZINHO",
+            "qt": 4,
+            "valor": 107.6
+          }
+        ]
+      },
+      {
+        "codcli": "32882",
+        "cliente": "PIZZARIA E RESTAURANTE DA NONNA LTDA",
+        "bairro": "AEROPORTO",
+        "dtultcomp": "16/07/2026",
+        "produtos": [
+          {
+            "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
+            "fantasia": "MONIN",
+            "qt": 2,
+            "valor": 99.8
+          },
+          {
+            "produto": "XAROPE MONIN TANGERINA (MANDARIM) 700ML",
+            "fantasia": "MONIN",
+            "qt": 1,
+            "valor": 49.9
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 6,
+            "valor": 239.4
+          }
+        ]
+      },
+      {
+        "codcli": "31812",
+        "cliente": "ELTON MUNHOZ DIAS JUNIOR",
+        "bairro": "JARDIM ATLANTICO",
+        "dtultcomp": "17/07/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK  RED BULL",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 31.96
+          },
+          {
+            "produto": "4 PACK RED BULL TROPICAL",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 31.96
+          },
+          {
+            "produto": "APERITIVO CAMPARI 998 ML",
+            "fantasia": "",
+            "qt": 2,
+            "valor": 109.8
+          },
+          {
+            "produto": "CONHAQUE DOMECQ 1L",
+            "fantasia": "PERNOD",
+            "qt": 2,
+            "valor": 99.8
+          }
+        ]
+      },
+      {
+        "codcli": "32902",
+        "cliente": "LANCHERIA CANTINA AZUL LTDA",
+        "bairro": "SAVASSI",
+        "dtultcomp": "17/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA COLHEITA TINTO  750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 449.4
+          },
+          {
+            "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+            "fantasia": "CASTAS",
+            "qt": 24,
+            "valor": 453.6
+          },
+          {
+            "produto": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
+            "fantasia": "CASTAS",
+            "qt": 24,
+            "valor": 453.6
+          },
+          {
+            "produto": "VINHO GRAVEDAD CAB. SAUV.",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 478.8
+          }
+        ]
+      },
+      {
+        "codcli": "33260",
+        "cliente": "IR MULTI CONFECCOES LTDA",
+        "bairro": "ESTORIL",
+        "dtultcomp": "20/07/2026",
+        "produtos": [
+          {
+            "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+            "fantasia": "LVMH",
+            "qt": 6,
+            "valor": 539.4
+          }
+        ]
+      },
+      {
+        "codcli": "33353",
+        "cliente": "CANGA E CANDEIA DANCING BAR LTDA",
+        "bairro": "SAVASSI",
+        "dtultcomp": "21/07/2026",
+        "produtos": [
+          {
+            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+            "fantasia": "HEINEKEN",
+            "qt": 4,
+            "valor": 575.04
+          },
+          {
+            "produto": "GIN TANQUERAY  750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 1,
+            "valor": 93.9
+          },
+          {
+            "produto": "VODKA ABSOLUT - 1 LITRO",
+            "fantasia": "PERNOD",
+            "qt": 1,
+            "valor": 79.9
+          },
+          {
+            "produto": "XAROPE MONIN GRENADINE 700 ML",
+            "fantasia": "MONIN",
+            "qt": 1,
+            "valor": 49.9
+          },
+          {
+            "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
+            "fantasia": "MONIN",
+            "qt": 1,
+            "valor": 49.9
+          },
+          {
+            "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
+            "fantasia": "MONIN",
+            "qt": 2,
+            "valor": 99.8
+          }
+        ]
+      },
+      {
+        "codcli": "33631",
+        "cliente": "CB CONCEITO BH COMERCIO DE ALIMENTOS LTDA",
+        "bairro": "CAICARAS",
+        "dtultcomp": "21/07/2026",
+        "produtos": [
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 15,
+            "valor": 313.5
+          }
+        ]
+      },
+      {
+        "codcli": "29725",
+        "cliente": "RAFAEL ARAUJO GORI RESTAURANTE",
+        "bairro": "BURITIS",
+        "dtultcomp": "21/07/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 191.76
+          },
+          {
+            "produto": "RED BULL MELANCIA 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 191.76
+          },
+          {
+            "produto": "VODKA ABSOLUT - 1 LITRO",
+            "fantasia": "PERNOD",
+            "qt": 1,
+            "valor": 79.9
+          }
+        ]
+      },
+      {
+        "codcli": "32776",
+        "cliente": "S C SOLUCOES E COMERCIO DE ALIMENTOS LTDA",
+        "bairro": "SANTO ANTONIO",
+        "dtultcomp": "21/07/2026",
+        "produtos": [
+          {
+            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+            "fantasia": "HEINEKEN",
+            "qt": 1,
+            "valor": 143.96
+          },
+          {
+            "produto": "JACK DANIELS HONEY 1 L",
+            "fantasia": "BROWN-FORMAN",
+            "qt": 2,
+            "valor": 259.8
+          },
+          {
+            "produto": "WHISKY WHITE HORSE - 1L",
+            "fantasia": "DIAGEO",
+            "qt": 1,
+            "valor": 62.9
+          }
+        ]
+      },
+      {
+        "codcli": "30801",
+        "cliente": "SUSHINARA PREMIUM LTDA",
+        "bairro": "INGA ALTO",
+        "dtultcomp": "21/07/2026",
+        "produtos": [
+          {
+            "produto": "LICOR STOCK CURACAU 720 ML",
+            "fantasia": "",
+            "qt": 4,
+            "valor": 227.6
+          },
+          {
+            "produto": "WHISKY JACK DANIELS 1L",
+            "fantasia": "BROWN-FORMAN",
+            "qt": 1,
+            "valor": 129.9
+          }
+        ]
+      },
+      {
+        "codcli": "32774",
+        "cliente": "BOI LOURDES CURITIBA INDUSTRIAL E COMERCIAL LTDA.",
+        "bairro": "LOURDES",
+        "dtultcomp": "22/07/2026",
+        "produtos": [
+          {
+            "produto": "APERITIVO APEROL 750 ML",
+            "fantasia": "",
+            "qt": 6,
+            "valor": 281.4
+          },
+          {
+            "produto": "AZEITE DE OLIVA EV ESSENZA 500ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 286.8
+          },
+          {
+            "produto": "CACHACA SELETA 1000ML",
+            "fantasia": "SELETA",
+            "qt": 1,
+            "valor": 44.9
+          },
+          {
+            "produto": "MARTINI ROSSO 750 ML",
+            "fantasia": "BACARDI",
+            "qt": 2,
+            "valor": 99.8
+          },
+          {
+            "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
+            "fantasia": "DIAGEO",
+            "qt": 1,
+            "valor": 136.96
+          },
+          {
+            "produto": "TEQUILA J CUERVO SILVER 750ML",
+            "fantasia": "AURORA",
+            "qt": 1,
+            "valor": 129.9
+          },
+          {
+            "produto": "VALE VERDE EXTRA PREMIUM 1L",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 76.9
+          },
+          {
+            "produto": "VODKA SMIRNOFF RED 998 ML",
+            "fantasia": "DIAGEO",
+            "qt": 12,
+            "valor": 358.8
+          },
+          {
+            "produto": "WHISKY OLD PARR GOLD 1 L",
+            "fantasia": "DIAGEO",
+            "qt": 4,
+            "valor": 599.6
+          },
+          {
+            "produto": "WHISKY WHITE HORSE - 1L",
+            "fantasia": "DIAGEO",
+            "qt": 2,
+            "valor": 125.8
+          }
+        ]
+      },
+      {
+        "codcli": "31668",
+        "cliente": "BOI WERNECK BAR E RESTAURANTE LTDA",
+        "bairro": "ESTORIL",
+        "dtultcomp": "22/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA TINTO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 514.8
+          },
+          {
+            "produto": "VINHO ARESTI EST SEL MERLOT 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 658.8
+          },
+          {
+            "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 4,
+            "valor": 319.6
+          }
+        ]
+      },
+      {
+        "codcli": "33682",
+        "cliente": "I.B.V. CAFETERIA LTDA",
+        "bairro": "SANTO AGOSTINHO",
+        "dtultcomp": "22/07/2026",
+        "produtos": [
+          {
+            "produto": "VODKA ABSOLUT - 1 LITRO",
+            "fantasia": "PERNOD",
+            "qt": 1,
+            "valor": 79.9
+          },
+          {
+            "produto": "WHISKY J WALKER BLACK LABEL 1L",
+            "fantasia": "DIAGEO",
+            "qt": 1,
+            "valor": 154.9
+          },
+          {
+            "produto": "WHISKY WALKER RED LABEL 1L",
+            "fantasia": "DIAGEO",
+            "qt": 1,
+            "valor": 72.9
+          }
+        ]
+      },
+      {
+        "codcli": "31632",
+        "cliente": "TONEL BEBIDAS LTDA",
+        "bairro": "SÃO PEDRO",
+        "dtultcomp": "22/07/2026",
+        "produtos": [
+          {
+            "produto": "APERITIVO APEROL 750 ML",
+            "fantasia": "",
+            "qt": 6,
+            "valor": 275.4
+          },
+          {
+            "produto": "APERITIVO CAMPARI 998 ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 598.8
+          },
+          {
+            "produto": "VODKA SMIRNOFF RED 998 ML",
+            "fantasia": "DIAGEO",
+            "qt": 24,
+            "valor": 717.6
+          },
+          {
+            "produto": "WHISKY JACK DANIELS 1L",
+            "fantasia": "BROWN-FORMAN",
+            "qt": 12,
+            "valor": 1558.8
+          },
+          {
+            "produto": "WHISKY WALKER RED LABEL 1L",
+            "fantasia": "DIAGEO",
+            "qt": 24,
+            "valor": 1749.6
+          }
+        ]
+      },
+      {
+        "codcli": "33011",
+        "cliente": "YOKAI BAR LTDA",
+        "bairro": "SAVASSI",
+        "dtultcomp": "22/07/2026",
+        "produtos": [
+          {
+            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+            "fantasia": "HEINEKEN",
+            "qt": 8,
+            "valor": 1150.08
+          }
+        ]
+      },
+      {
+        "codcli": "32756",
+        "cliente": "BAR E RESTAURANTE DUARTE COMEDORIA LTDA",
+        "bairro": "ANGOLA",
+        "dtultcomp": "23/07/2026",
+        "produtos": [
+          {
+            "produto": "HUMB. CANALE DENARIO MALBEC 750ML",
+            "fantasia": "CASTAS",
+            "qt": 4,
+            "valor": 307.6
+          },
+          {
+            "produto": "VILLA ROSA COLHEITA TINTO  750ML",
+            "fantasia": "CASTAS",
+            "qt": 3,
+            "valor": 224.7
+          },
+          {
+            "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
+            "fantasia": "CASTAS",
+            "qt": 4,
+            "valor": 219.6
+          },
+          {
+            "produto": "VINHO ARESTI EST SEL PINOT NOIR 750ML",
+            "fantasia": "CASTAS",
+            "qt": 4,
+            "valor": 219.6
+          }
+        ]
+      },
+      {
+        "codcli": "37532",
+        "cliente": "BEM QUE TEM HORTIFRUTI LTDA",
+        "bairro": "SANTA LUCIA",
+        "dtultcomp": "23/07/2026",
+        "produtos": [
+          {
+            "produto": "CHANDON PASSION ON ICE 750ML",
+            "fantasia": "LVMH",
+            "qt": 4,
+            "valor": 439.6
+          },
+          {
+            "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+            "fantasia": "LVMH",
+            "qt": 4,
+            "valor": 419.6
+          },
+          {
+            "produto": "TEQUILA J CUERVO GOLD 750ML",
+            "fantasia": "AURORA",
+            "qt": 1,
+            "valor": 117.9
+          },
+          {
+            "produto": "TEQUILA J CUERVO SILVER 750ML",
+            "fantasia": "AURORA",
+            "qt": 2,
+            "valor": 235.8
+          }
+        ]
+      },
+      {
+        "codcli": "30409",
+        "cliente": "BEM QUE TEM HORTIFRUTI LTDA",
+        "bairro": "BARREIRO",
+        "dtultcomp": "23/07/2026",
+        "produtos": [
+          {
+            "produto": "SMIR ICE REGULAR - 0.269 LT  X 24",
+            "fantasia": "DIAGEO",
+            "qt": 5,
+            "valor": 478.8
+          }
+        ]
+      },
+      {
+        "codcli": "31792",
+        "cliente": "CUAREIM ALIMENTOS LTDA",
+        "bairro": "CRUZEIRO",
+        "dtultcomp": "23/07/2026",
+        "produtos": [
+          {
+            "produto": "VINHO ADELE ROSE 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 461.4
+          },
+          {
+            "produto": "VINHO ARESTI EST SEL CHARDONNAY 750ML",
+            "fantasia": "CASTAS",
+            "qt": 5,
+            "valor": 274.5
+          },
+          {
+            "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 479.4
+          }
+        ]
+      },
+      {
+        "codcli": "36375",
+        "cliente": "ICARO FONSECA DOS SANTOS",
+        "bairro": "ANGOLA",
+        "dtultcomp": "23/07/2026",
+        "produtos": [
+          {
+            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+            "fantasia": "HEINEKEN",
+            "qt": 2,
+            "valor": 287.52
+          },
+          {
+            "produto": "RUM MONTILLA CRISTAL 1000 ML",
+            "fantasia": "PERNOD",
+            "qt": 1,
+            "valor": 31.9
+          },
+          {
+            "produto": "VILLA ROSA TINTO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 1,
+            "valor": 42.9
+          },
+          {
+            "produto": "VODKA SMIRNOFF RED 998 ML",
+            "fantasia": "DIAGEO",
+            "qt": 1,
+            "valor": 29.9
+          },
+          {
+            "produto": "XAROPE MONIN PESSEGO 700 ML",
+            "fantasia": "MONIN",
+            "qt": 1,
+            "valor": 49.9
+          },
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 1,
+            "valor": 39.9
+          }
+        ]
+      },
+      {
+        "codcli": "32813",
+        "cliente": "ROMA MERCEARIAS LTDA",
+        "bairro": "SANTA ROSA",
+        "dtultcomp": "23/07/2026",
+        "produtos": [
+          {
+            "produto": "CERVEJA HEINEKEN  LONG ZERO 24X330ML",
+            "fantasia": "HEINEKEN",
+            "qt": 1,
+            "valor": 143.76
+          },
+          {
+            "produto": "CERVEJA HEINEKEN RETORNAVEL 24X600ML",
+            "fantasia": "HEINEKEN",
+            "qt": 2,
+            "valor": 437.92
+          }
+        ]
+      },
+      {
+        "codcli": "32768",
+        "cliente": "VMO BAR E RESTAURANTE LTDA",
+        "bairro": "SANTA EFIGENIA",
+        "dtultcomp": "23/07/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK RED BULL ZERO",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 31.96
+          },
+          {
+            "produto": "APERITIVO CAMPARI 998 ML",
+            "fantasia": "",
+            "qt": 3,
+            "valor": 149.7
+          }
+        ]
+      },
+      {
+        "codcli": "39650",
+        "cliente": "EMPREENDIMENTOS APOLO LTDA",
+        "bairro": "OLHOS D'ÁGUA",
+        "dtultcomp": "24/07/2026",
+        "produtos": [
+          {
+            "produto": "WHISKY WALKER RED LABEL 1L",
+            "fantasia": "DIAGEO",
+            "qt": 12,
+            "valor": 874.8
+          }
+        ]
+      },
+      {
+        "codcli": "39070",
+        "cliente": "EMPREENDIMENTOS SUNRITZ LTDA",
+        "bairro": "ESTORIL",
+        "dtultcomp": "24/07/2026",
+        "produtos": [
+          {
+            "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+            "fantasia": "LVMH",
+            "qt": 4,
+            "valor": 419.6
+          }
+        ]
+      },
+      {
+        "codcli": "31838",
+        "cliente": "SCP ADMINISTRADORA HOTEL PAMPULHA",
+        "bairro": "SAO LUIZ",
+        "dtultcomp": "24/07/2026",
+        "produtos": [
+          {
+            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+            "fantasia": "HEINEKEN",
+            "qt": 15,
+            "valor": 2156.4
+          }
+        ]
+      },
+      {
+        "codcli": "37790",
+        "cliente": "BSB COMERCIALIZACAO DE CARNES NOBRES E CHURRASCARIA LTDA",
+        "bairro": "SÃO LUIZ",
+        "dtultcomp": "27/07/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK RED BULL TROPICAL",
+            "fantasia": "RED BULL",
+            "qt": 4,
+            "valor": 127.84
+          },
+          {
+            "produto": "APERITIVO CAMPARI 998 ML",
+            "fantasia": "",
+            "qt": 2,
+            "valor": 99.8
+          },
+          {
+            "produto": "TEQUILA J CUERVO SILVER 750ML",
+            "fantasia": "AURORA",
+            "qt": 2,
+            "valor": 239.8
+          }
+        ]
+      },
+      {
+        "codcli": "33024",
+        "cliente": "CASA OUTONO 571 MUSICA E CULTURA LTDA",
+        "bairro": "CRUZEIRO",
+        "dtultcomp": "27/07/2026",
+        "produtos": [
+          {
+            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+            "fantasia": "HEINEKEN",
+            "qt": 4,
+            "valor": 575.04
+          }
+        ]
+      },
+      {
+        "codcli": "32823",
+        "cliente": "F A MENDONCA GASTRONOMIA LTDA",
+        "bairro": "ANGOLA",
+        "dtultcomp": "27/07/2026",
+        "produtos": [
+          {
+            "produto": "HUMB. CANALE DENARIO MALBEC 750ML",
+            "fantasia": "CASTAS",
+            "qt": 2,
+            "valor": 153.8
+          },
+          {
+            "produto": "VILLA ROSA COLHEITA TINTO  750ML",
+            "fantasia": "CASTAS",
+            "qt": 2,
+            "valor": 149.8
+          },
+          {
+            "produto": "VINHO FOODKILLER CAB SAUV MERLOT 750ML",
+            "fantasia": "CASTAS",
+            "qt": 4,
+            "valor": 195.6
+          },
+          {
+            "produto": "VINHO GRAVEDAD SAUV. BLANC 750ML",
+            "fantasia": "CASTAS",
+            "qt": 1,
+            "valor": 44.9
+          },
+          {
+            "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 3,
+            "valor": 239.7
+          },
+          {
+            "produto": "VINHO TTO BERTOLI CHIANTI DOCG 750ML",
+            "fantasia": "CASTAS",
+            "qt": 1,
+            "valor": 76.9
+          }
+        ]
+      },
+      {
+        "codcli": "31113",
+        "cliente": "FELIPE ROBERTO SILVA RIBEIRO 08734193677",
+        "bairro": "ANGOLA",
+        "dtultcomp": "27/07/2026",
+        "produtos": [
+          {
+            "produto": "APERITIVO APEROL 750 ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 48.9
+          },
+          {
+            "produto": "LICOR STOCK CURACAU 720 ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 56.9
+          },
+          {
+            "produto": "LICOR STOCK MARULA 720 ML",
+            "fantasia": "",
+            "qt": 2,
+            "valor": 129.8
+          },
+          {
+            "produto": "LICOR STOCK PESSEGO 720 ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 56.9
+          },
+          {
+            "produto": "ST PIERRE ZERO PINK LEMON  310 ML",
+            "fantasia": "TATUZINHO",
+            "qt": 2,
+            "valor": 53.8
+          },
+          {
+            "produto": "TEQUILA J CUERVO GOLD 750ML",
+            "fantasia": "AURORA",
+            "qt": 1,
+            "valor": 119.9
+          }
+        ]
+      },
+      {
+        "codcli": "33615",
+        "cliente": "MONKA CERVEJARIA LTDA",
+        "bairro": "OLHOS D'AGUA",
+        "dtultcomp": "27/07/2026",
+        "produtos": [
+          {
+            "produto": "LICOR BAILEYS - 750ML",
+            "fantasia": "DIAGEO",
+            "qt": 2,
+            "valor": 287.8
+          }
+        ]
+      },
+      {
+        "codcli": "33778",
+        "cliente": "SMEP BH HOTEIS LTDA",
+        "bairro": "BARRO PRETO",
+        "dtultcomp": "27/07/2026",
+        "produtos": [
+          {
+            "produto": "CERVEJA AMSTEL LATA 350 MLX12 (SLEEK)",
+            "fantasia": "HEINEKEN",
+            "qt": 10,
+            "valor": 418.8
+          }
+        ]
+      },
+      {
+        "codcli": "33553",
+        "cliente": "CHALE DA MATA RESTAURANTE LTDA",
+        "bairro": "BURITIS",
+        "dtultcomp": "28/07/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK RED BULL ZERO",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 31.96
+          },
+          {
+            "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
+            "fantasia": "DIAGEO",
+            "qt": 2,
+            "valor": 273.52
+          }
+        ]
+      },
+      {
+        "codcli": "37903",
+        "cliente": "DEAI GASTRONOMIA LTDA",
+        "bairro": "ANGOLA",
+        "dtultcomp": "28/07/2026",
+        "produtos": [
+          {
+            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+            "fantasia": "HEINEKEN",
+            "qt": 1,
+            "valor": 143.76
+          },
+          {
+            "produto": "PURE MONIN FRUTAS VERMELHAS 700ML",
+            "fantasia": "MONIN",
+            "qt": 1,
+            "valor": 54.9
+          }
+        ]
+      },
+      {
+        "codcli": "31673",
+        "cliente": "ESQUINA DO CHOPP JARA LTDA",
+        "bairro": "INDAIA",
+        "dtultcomp": "28/07/2026",
+        "produtos": [
+          {
+            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+            "fantasia": "HEINEKEN",
+            "qt": 20,
+            "valor": 2875.2
+          },
+          {
+            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 191.76
+          },
+          {
+            "produto": "RED BULL ZERO 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 191.76
+          },
+          {
+            "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
+            "fantasia": "DIAGEO",
+            "qt": 2,
+            "valor": 261.6
+          }
+        ]
+      },
+      {
+        "codcli": "31643",
+        "cliente": "GISELE ATAIDE ANDRADE",
+        "bairro": "BARRO PRETO",
+        "dtultcomp": "28/07/2026",
+        "produtos": [
+          {
+            "produto": "APERITIVO APEROL 750 ML",
+            "fantasia": "",
+            "qt": 2,
+            "valor": 97.8
+          },
+          {
+            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 383.52
+          },
+          {
+            "produto": "RED BULL MELANCIA 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 191.76
+          },
+          {
+            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 191.76
+          },
+          {
+            "produto": "VODKA ABSOLUT TABASCO - 750 ML",
+            "fantasia": "PERNOD",
+            "qt": 1,
+            "valor": 85.9
+          }
+        ]
+      },
+      {
+        "codcli": "33004",
+        "cliente": "ROGERIA BARBOSA ALVES COIMBRA",
+        "bairro": "ESTORIL",
+        "dtultcomp": "28/07/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK  RED BULL",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 29.96
+          },
+          {
+            "produto": "4 PACK RED BULL TROPICAL",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 29.96
+          },
+          {
+            "produto": "ST PIERRE RED MINT LT 270MLX6",
+            "fantasia": "TATUZINHO",
+            "qt": 6,
+            "valor": 161.4
+          },
+          {
+            "produto": "WHISKY JIM BEAM WHITE 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 1,
+            "valor": 87.9
+          }
+        ]
+      },
+      {
+        "codcli": "33176",
+        "cliente": "BELLINI PRODUCOES DE EVENTOS LTDA",
+        "bairro": "SANTA ROSA",
+        "dtultcomp": "29/07/2026",
+        "produtos": [
+          {
+            "produto": "XAROPE MONIN FLOR DE SABUGUEIRO 700 ML",
+            "fantasia": "MONIN",
+            "qt": 60,
+            "valor": 2994.0
+          },
+          {
+            "produto": "XAROPE MONIN TORANJA 700 ML",
+            "fantasia": "MONIN",
+            "qt": 18,
+            "valor": 898.2
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 60,
+            "valor": 2394.0
+          }
+        ]
+      },
+      {
+        "codcli": "29917",
+        "cliente": "CASA FIGATA COMERCIO E DISTRIBUIDORA LTDA",
+        "bairro": "VILA DA SERRA",
+        "dtultcomp": "29/07/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK  RED BULL",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 31.96
+          },
+          {
+            "produto": "PURÊ DE FRUTA MIRTILO 1L",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 89.9
+          },
+          {
+            "produto": "XAROPE MONIN CARAMELO 700 ML",
+            "fantasia": "MONIN",
+            "qt": 1,
+            "valor": 49.9
+          },
+          {
+            "produto": "XAROPE MONIN FLOR DE SABUGUEIRO 700 ML",
+            "fantasia": "MONIN",
+            "qt": 2,
+            "valor": 99.8
+          },
+          {
+            "produto": "XAROPE MONIN PINK LEMONADE 700 ML",
+            "fantasia": "MONIN",
+            "qt": 1,
+            "valor": 49.9
+          }
+        ]
+      },
+      {
+        "codcli": "39580",
+        "cliente": "CLUB GOURMET LTDA.",
+        "bairro": "LOURDES",
+        "dtultcomp": "29/07/2026",
+        "produtos": [
+          {
+            "produto": "MAXIME ROSE 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 377.4
+          },
+          {
+            "produto": "VILLA ROSA BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 514.8
+          },
+          {
+            "produto": "VINHO CHAO DO CONDE COLHEITA ROSE 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 718.8
+          },
+          {
+            "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 293.4
+          },
+          {
+            "produto": "VINHO GRAVEDAD SAUV. BLANC 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 269.4
+          },
+          {
+            "produto": "VINHO MOV BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 538.8
+          }
+        ]
+      },
+      {
+        "codcli": "33926",
+        "cliente": "CULINARIA JAPAN GDA LTDA",
+        "bairro": "LOURDES",
+        "dtultcomp": "29/07/2026",
+        "produtos": [
+          {
+            "produto": "CERVEJA HEINEKEN  LONG ZERO 24X330ML",
+            "fantasia": "HEINEKEN",
+            "qt": 1,
+            "valor": 143.76
+          },
+          {
+            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 191.76
+          },
+          {
+            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 191.76
+          }
+        ]
+      },
+      {
+        "codcli": "33224",
+        "cliente": "CULINARIA JAPAN GDA LTDA",
+        "bairro": "SAVASSI",
+        "dtultcomp": "29/07/2026",
+        "produtos": [
+          {
+            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+            "fantasia": "HEINEKEN",
+            "qt": 2,
+            "valor": 287.52
+          },
+          {
+            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 191.76
+          },
+          {
+            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 191.76
+          }
+        ]
+      },
+      {
+        "codcli": "33925",
+        "cliente": "CULINARIA JAPAN GDA LTDA",
+        "bairro": "SÃO PEDRO",
+        "dtultcomp": "29/07/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 191.76
+          },
+          {
+            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 191.76
+          }
+        ]
+      },
+      {
+        "codcli": "30043",
+        "cliente": "E.F.B. HAMBURGUERS LTDA",
+        "bairro": "SAO PEDRO",
+        "dtultcomp": "29/07/2026",
+        "produtos": [
+          {
+            "produto": "BAER MATE LN  6X350ML",
+            "fantasia": "BETTER DRINKS",
+            "qt": 6,
+            "valor": 255.24
+          },
+          {
+            "produto": "ST PIERRE TONICA LT 270MLX6",
+            "fantasia": "TATUZINHO",
+            "qt": 4,
+            "valor": 107.6
+          }
+        ]
+      },
+      {
+        "codcli": "30040",
+        "cliente": "EDDIE LTDA",
+        "bairro": "LOURDES",
+        "dtultcomp": "29/07/2026",
+        "produtos": [
+          {
+            "produto": "BAER MATE LN  6X350ML",
+            "fantasia": "BETTER DRINKS",
+            "qt": 2,
+            "valor": 85.08
+          },
+          {
+            "produto": "GIN BEEFEATER 750ML",
+            "fantasia": "PERNOD",
+            "qt": 1,
+            "valor": 81.9
+          },
+          {
+            "produto": "VODKA ABSOLUT - 1 LITRO",
+            "fantasia": "PERNOD",
+            "qt": 1,
+            "valor": 79.9
+          },
+          {
+            "produto": "WHISKY JAMESON DEST 750ML DEST.",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 89.9
+          }
+        ]
+      },
+      {
+        "codcli": "37220",
+        "cliente": "JANUZZI PADARIA E CONFEITARIA LTDA",
+        "bairro": "BRASILÉIA",
+        "dtultcomp": "29/07/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK  RED BULL",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 89.88
+          },
+          {
+            "produto": "4 PACK  RED BULL  MAÇA SF",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 89.88
+          },
+          {
+            "produto": "4 PACK RED BULL POMELO SF",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 89.88
+          },
+          {
+            "produto": "ST PIERRE RED MINTL ZERO 310 ML",
+            "fantasia": "TATUZINHO",
+            "qt": 2,
+            "valor": 53.8
+          },
+          {
+            "produto": "ST PIERRE ZERO TROPICAL  310 ML",
+            "fantasia": "TATUZINHO",
+            "qt": 2,
+            "valor": 53.8
+          }
+        ]
+      },
+      {
+        "codcli": "37208",
+        "cliente": "JT BARES LTDA",
+        "bairro": "HORTO",
+        "dtultcomp": "29/07/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL MELANCIA 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 191.76
+          },
+          {
+            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 191.76
+          },
+          {
+            "produto": "WHISKY J WALKER BLONDE 750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 1,
+            "valor": 92.9
+          },
+          {
+            "produto": "XAROPE MONIN TANGERINA (MANDARIM) 700ML",
+            "fantasia": "MONIN",
+            "qt": 1,
+            "valor": 49.9
+          }
+        ]
+      },
+      {
+        "codcli": "37207",
+        "cliente": "MEZZA BAR LTDA",
+        "bairro": "OURO PRETO",
+        "dtultcomp": "29/07/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 369.12
+          },
+          {
+            "produto": "RED BULL MELANCIA 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 369.12
+          },
+          {
+            "produto": "RED BULL NECTARINA SF 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 184.56
+          },
+          {
+            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 184.56
+          },
+          {
+            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 369.12
+          },
+          {
+            "produto": "WHISKY JIM BEAM APPLE 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 1,
+            "valor": 89.9
+          },
+          {
+            "produto": "WHISKY JIM BEAM CHERRY 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 1,
+            "valor": 89.9
+          },
+          {
+            "produto": "WHISKY JIM BEAM HONEY 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 1,
+            "valor": 89.9
+          },
+          {
+            "produto": "WHISKY JIM BEAM WHITE 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 1,
+            "valor": 89.9
+          }
+        ]
+      },
+      {
+        "codcli": "34536",
+        "cliente": "PARRILLA COSTELLO LTDA",
+        "bairro": "OLHOS D AGUA",
+        "dtultcomp": "29/07/2026",
+        "produtos": [
+          {
+            "produto": "APERITIVO APEROL 750 ML",
+            "fantasia": "",
+            "qt": 2,
+            "valor": 95.8
+          },
+          {
+            "produto": "GIN GORDONS 750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 2,
+            "valor": 113.8
+          },
+          {
+            "produto": "LE FRUIT JABUTICABA MONIN 1L",
+            "fantasia": "MONIN",
+            "qt": 2,
+            "valor": 159.0
+          },
+          {
+            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 179.76
+          },
+          {
+            "produto": "XAROPE MONIN CRANBERRY 700 ML",
+            "fantasia": "MONIN",
+            "qt": 1,
+            "valor": 49.9
+          },
+          {
+            "produto": "XAROPE MONIN GRENADINE 700 ML",
+            "fantasia": "MONIN",
+            "qt": 2,
+            "valor": 99.8
+          },
+          {
+            "produto": "XAROPE MONIN MELANCIA 700ML",
+            "fantasia": "MONIN",
+            "qt": 1,
+            "valor": 49.9
+          },
+          {
+            "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
+            "fantasia": "MONIN",
+            "qt": 2,
+            "valor": 99.8
+          }
+        ]
+      },
+      {
+        "codcli": "37618",
+        "cliente": "SAKAI FOOD SERVICE LTDA",
+        "bairro": "GLÓRIA",
+        "dtultcomp": "29/07/2026",
+        "produtos": [
+          {
+            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+            "fantasia": "HEINEKEN",
+            "qt": 2,
+            "valor": 287.52
+          },
+          {
+            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 191.76
+          }
+        ]
+      },
+      {
+        "codcli": "38626",
+        "cliente": "ST ONOFRE ALIMENTOS E EVENTOS LTDA",
+        "bairro": "LOURDES",
+        "dtultcomp": "29/07/2026",
+        "produtos": [
+          {
+            "produto": "ÁGUA SÃO LOURENÇO C/GÁS 300 ML",
+            "fantasia": "",
+            "qt": 8,
+            "valor": 207.2
+          },
+          {
+            "produto": "ÁGUA SÃO LOURENÇO S/GÁS 300 ML",
+            "fantasia": "",
+            "qt": 5,
+            "valor": 129.5
+          }
+        ]
+      },
+      {
+        "codcli": "34663",
+        "cliente": "ZE DO CHURRASCO BAR E COMERCIO LTDA",
+        "bairro": "BURITIS",
+        "dtultcomp": "29/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 514.8
+          },
+          {
+            "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 922.8
+          }
+        ]
+      },
+      {
+        "codcli": "33681",
+        "cliente": "A. B. CAFETERIA LTDA",
+        "bairro": "BELVEDERE",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "ST PIERRE RED MINTL ZERO 310 ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 26.9
+          },
+          {
+            "produto": "ST PIERRE TONICA LT 270MLX6",
+            "fantasia": "TATUZINHO",
+            "qt": 8,
+            "valor": 215.2
+          },
+          {
+            "produto": "ST PIERRE ZERO PINK LEMON  310 ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 26.9
+          },
+          {
+            "produto": "ST PIERRE ZERO TROPICAL  310 ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 26.9
+          }
+        ]
+      },
+      {
+        "codcli": "33223",
+        "cliente": "BAIANA DO ACARAJE BAR E RESTAURANTE LTDA",
+        "bairro": "SAVASSI",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "CHATEAU PEYRASSOL LA CROIX ROSE 2024 750",
+            "fantasia": "CASTAS",
+            "qt": 1,
+            "valor": 154.9
+          },
+          {
+            "produto": "WHISKY JIM BEAM APPLE 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 1,
+            "valor": 89.9
+          },
+          {
+            "produto": "WHISKY JIM BEAM CHERRY 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 1,
+            "valor": 89.9
+          },
+          {
+            "produto": "WHISKY JIM BEAM HONEY 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 1,
+            "valor": 89.9
+          },
+          {
+            "produto": "WHISKY JIM BEAM WHITE 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 1,
+            "valor": 89.9
+          }
+        ]
+      },
+      {
+        "codcli": "29985",
+        "cliente": "BAR E RESTAURANTE CORDEIRO EIRELI",
+        "bairro": "LOURDES",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "GIN GORDONS 750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 6,
+            "valor": 329.4
+          },
+          {
+            "produto": "GIN TANQUERAY  750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 6,
+            "valor": 563.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L",
+            "fantasia": "PERNOD",
+            "qt": 4,
+            "valor": 107.2
+          }
+        ]
+      },
+      {
+        "codcli": "35736",
+        "cliente": "BAR E RESTAURANTE NUNES LTDA",
+        "bairro": "SANTA AMÉLIA",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "APERITIVO CAMPARI 998 ML",
+            "fantasia": "",
+            "qt": 2,
+            "valor": 99.8
+          },
+          {
+            "produto": "GIN TANQUERAY  750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 2,
+            "valor": 187.8
+          },
+          {
+            "produto": "LICOR STOCK CURACAU 720 ML",
+            "fantasia": "",
+            "qt": 2,
+            "valor": 113.8
+          },
+          {
+            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 179.76
+          },
+          {
+            "produto": "VODKA ORLOFF 1,75L",
+            "fantasia": "PERNOD",
+            "qt": 4,
+            "valor": 219.6
+          }
+        ]
+      },
+      {
+        "codcli": "29703",
+        "cliente": "BAR E RESTAURANTE POMPEU LTDA",
+        "bairro": "ITAPOÃ",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 359.52
+          },
+          {
+            "produto": "RED BULL MELANCIA 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 359.52
+          },
+          {
+            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 359.52
+          }
+        ]
+      },
+      {
+        "codcli": "32779",
+        "cliente": "BOI IN BOX LTDA",
+        "bairro": "LOURDES",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+            "fantasia": "AURORA",
+            "qt": 2,
+            "valor": 299.8
+          },
+          {
+            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 191.76
+          }
+        ]
+      },
+      {
+        "codcli": "36006",
+        "cliente": "CAMP NOU ARENA LTDA",
+        "bairro": "PALMEIRAS",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL ZERO 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 359.52
+          }
+        ]
+      },
+      {
+        "codcli": "33617",
+        "cliente": "CERVEJARIA COLDER INDUSTRIA E COMERCIO LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "RUM MONTILLA OURO 1000ML",
+            "fantasia": "PERNOD",
+            "qt": 6,
+            "valor": 149.4
+          },
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 3,
+            "valor": 119.7
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 3,
+            "valor": 119.7
+          }
+        ]
+      },
+      {
+        "codcli": "30374",
+        "cliente": "EL MAI LTDA",
+        "bairro": "LOURDES",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "ESPUMANTE ALUD BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 4,
+            "valor": 179.6
+          },
+          {
+            "produto": "VINHO ADELE BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 461.4
+          },
+          {
+            "produto": "VINHO ADELE ROSE 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 461.4
+          },
+          {
+            "produto": "VINHO ARCAIA ROSE 750ML",
+            "fantasia": "CASTAS",
+            "qt": 4,
+            "valor": 307.6
+          },
+          {
+            "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 3,
+            "valor": 230.7
+          },
+          {
+            "produto": "VINHO BRANCO AZUL VENTOZELO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 539.4
+          },
+          {
+            "produto": "VINHO CAVAS DE ORO CHARDONNAY 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 359.4
+          },
+          {
+            "produto": "VINHO ORO PREMIUM MALBEC 750ML",
+            "fantasia": "CASTAS",
+            "qt": 5,
+            "valor": 499.5
+          }
+        ]
+      },
+      {
+        "codcli": "30905",
+        "cliente": "LUC2 COMERCIO DE ALIMENTOS LTDA",
+        "bairro": "SAVASSI",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "ESPUMANTE ALUD BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 7,
+            "valor": 314.3
+          }
+        ]
+      },
+      {
+        "codcli": "39391",
+        "cliente": "MAGNIFICO LGP LTDA",
+        "bairro": "SANTA AMÉLIA",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "CERVEJA HEINEKEN RETORNAVEL 24X600ML",
+            "fantasia": "HEINEKEN",
+            "qt": 2,
+            "valor": 431.52
+          },
+          {
+            "produto": "WHISKY JIM BEAM APPLE 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 1,
+            "valor": 87.9
+          },
+          {
+            "produto": "WHISKY JIM BEAM CHERRY 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 1,
+            "valor": 87.9
+          },
+          {
+            "produto": "WHISKY JIM BEAM HONEY 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 1,
+            "valor": 87.9
+          },
+          {
+            "produto": "XAROPE MONIN GENGIBRE (GINGER) 700 ML",
+            "fantasia": "MONIN",
+            "qt": 1,
+            "valor": 49.9
+          },
+          {
+            "produto": "XAROPE MONIN ROMA 700 ML",
+            "fantasia": "MONIN",
+            "qt": 1,
+            "valor": 49.9
+          }
+        ]
+      },
+      {
+        "codcli": "31908",
+        "cliente": "POINT BAIANO BAR E RESTAURANTE LTDA",
+        "bairro": "SAVASSI",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA TINTO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 1,
+            "valor": 42.9
+          },
+          {
+            "produto": "WHISKY JIM BEAM APPLE 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 1,
+            "valor": 89.9
+          },
+          {
+            "produto": "WHISKY JIM BEAM CHERRY 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 1,
+            "valor": 89.9
+          },
+          {
+            "produto": "WHISKY JIM BEAM HONEY 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 1,
+            "valor": 89.9
+          },
+          {
+            "produto": "WHISKY JIM BEAM WHITE 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 1,
+            "valor": 89.9
+          }
+        ]
+      },
+      {
+        "codcli": "30105",
+        "cliente": "RESTAURANTE E EMPORIO MORADA MEXICANA EIRELI",
+        "bairro": "SAVASSI",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "RUM BACARDI CARTA BLANCA 980 ML",
+            "fantasia": "BACARDI",
+            "qt": 2,
+            "valor": 93.8
+          },
+          {
+            "produto": "TEQUILA EL JIMADOR BLANCO 750 ML",
+            "fantasia": "BROWN-FORMAN",
+            "qt": 3,
+            "valor": 314.7
+          },
+          {
+            "produto": "YVY DESTILADO RUM LT 710ML",
+            "fantasia": "YVY",
+            "qt": 2,
+            "valor": 79.8
+          },
+          {
+            "produto": "YVY DESTILADO VODKA 710ML",
+            "fantasia": "YVY",
+            "qt": 1,
+            "valor": 39.9
+          }
+        ]
+      },
+      {
+        "codcli": "31217",
+        "cliente": "TRUPICO BAR & RESTAURANTE LTDA",
+        "bairro": "ANGOLA",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "WHISKY JIM BEAM WHITE 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 4,
+            "valor": 359.6
+          }
+        ]
+      },
+      {
+        "codcli": "39672",
+        "cliente": "UPPER EMPREENDIMENTOS LTDA",
+        "bairro": "SAVASSI",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "ST PIERRE BLUEBERRY LT 270MLX6",
+            "fantasia": "TATUZINHO",
+            "qt": 4,
+            "valor": 107.6
+          },
+          {
+            "produto": "XAROPE MONIN FLOR DE SABUGUEIRO 700 ML",
+            "fantasia": "MONIN",
+            "qt": 2,
+            "valor": 99.8
+          },
+          {
+            "produto": "XAROPE MONIN GRENADINE 700 ML",
+            "fantasia": "MONIN",
+            "qt": 2,
+            "valor": 99.8
+          }
+        ]
+      },
+      {
+        "codcli": "32884",
+        "cliente": "BAR A PORCA VOADORA LTDA",
+        "bairro": "SERRA",
+        "dtultcomp": "31/07/2026",
+        "produtos": [
+          {
+            "produto": "CERVEJA HEINEKEN  LONG ZERO 24X330ML",
+            "fantasia": "HEINEKEN",
+            "qt": 1,
+            "valor": 143.96
+          },
+          {
+            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+            "fantasia": "HEINEKEN",
+            "qt": 1,
+            "valor": 143.96
+          },
+          {
+            "produto": "ÁGUA SÃO LOURENÇO S/GÁS 510 ML",
+            "fantasia": "",
+            "qt": 7,
+            "valor": 105.63
+          }
+        ]
+      },
+      {
+        "codcli": "30091",
+        "cliente": "COMERCIAL COLOMBO EIRELI",
+        "bairro": "SION",
+        "dtultcomp": "31/07/2026",
+        "produtos": [
+          {
+            "produto": "VINHO DO PORTO DALVA TAWNY 750ML",
+            "fantasia": "CASTAS",
+            "qt": 2,
+            "valor": 259.8
+          },
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 1,
+            "valor": 39.9
+          }
+        ]
+      },
+      {
+        "codcli": "33257",
+        "cliente": "F2 COMERCIO LTDA.",
+        "bairro": "BARRO PRETO",
+        "dtultcomp": "31/07/2026",
+        "produtos": [
+          {
+            "produto": "CHANDON BRUT ROSE 750ML",
+            "fantasia": "LVMH",
+            "qt": 4,
+            "valor": 459.6
+          },
+          {
+            "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+            "fantasia": "LVMH",
+            "qt": 8,
+            "valor": 839.2
+          },
+          {
+            "produto": "RED BULL ZERO 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 174.96
+          }
+        ]
+      },
+      {
+        "codcli": "33010",
+        "cliente": "GOLDEN ALIMENTOS LTDA",
+        "bairro": "VILA DA SERRA",
+        "dtultcomp": "31/07/2026",
+        "produtos": [
+          {
+            "produto": "CHANDON BRUT ROSE 750ML",
+            "fantasia": "LVMH",
+            "qt": 6,
+            "valor": 689.4
+          },
+          {
+            "produto": "CHANDON PASSION ON ICE 750ML",
+            "fantasia": "LVMH",
+            "qt": 12,
+            "valor": 1318.8
+          },
+          {
+            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 191.76
+          },
+          {
+            "produto": "RED BULL ZERO 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 174.96
+          },
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 6,
+            "valor": 239.4
+          }
+        ]
+      },
+      {
+        "codcli": "38419",
+        "cliente": "LUKA CHOPP MUSIC LTDA",
+        "bairro": "LOURDES",
+        "dtultcomp": "31/07/2026",
+        "produtos": [
+          {
+            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+            "fantasia": "HEINEKEN",
+            "qt": 2,
+            "valor": 287.52
+          },
+          {
+            "produto": "GIN BEEFEATER 750ML",
+            "fantasia": "PERNOD",
+            "qt": 1,
+            "valor": 81.9
+          },
+          {
+            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 174.96
+          }
+        ]
+      },
+      {
+        "codcli": "35189",
+        "cliente": "MAGNUS SOCIEDADE COMERCIAL LIMITADA",
+        "bairro": "SANTA HELENA",
+        "dtultcomp": "31/07/2026",
+        "produtos": [
+          {
+            "produto": "WHISKY BALLANTINES SUNSHINE 700ML",
+            "fantasia": "PERNOD",
+            "qt": 12,
+            "valor": 553.32
+          }
+        ]
+      },
+      {
+        "codcli": "33951",
+        "cliente": "RESTAURANTE LA TRAVIATA",
+        "bairro": "SAVASSI",
+        "dtultcomp": "31/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA COLHEITA TINTO  750ML",
+            "fantasia": "CASTAS",
+            "qt": 3,
+            "valor": 224.7
+          },
+          {
+            "produto": "VILLA ROSA COLHEITA TINTO 375ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 251.4
+          },
+          {
+            "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
+            "fantasia": "CASTAS",
+            "qt": 4,
+            "valor": 219.6
+          },
+          {
+            "produto": "VINHO BCO ARCAIA PINOT GRIGIO 375ML",
+            "fantasia": "CASTAS",
+            "qt": 4,
+            "valor": 179.6
+          },
+          {
+            "produto": "VINHO CORSARINI MONTEPULCIANO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 2,
+            "valor": 139.8
+          }
+        ]
+      },
+      {
+        "codcli": "31722",
+        "cliente": "THAYANE MICELE SILVA MATOS VIANA",
+        "bairro": "INGÁ",
+        "dtultcomp": "31/07/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "fantasia": "RED BULL",
+            "qt": 10,
+            "valor": 1917.6
+          },
+          {
+            "produto": "RED BULL MAÇA SF 250ML  C/24 UNID",
+            "fantasia": "RED BULL",
+            "qt": 5,
+            "valor": 958.8
+          },
+          {
+            "produto": "RED BULL MELANCIA 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 5,
+            "valor": 958.8
+          },
+          {
+            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 5,
+            "valor": 958.8
+          }
+        ]
+      },
+      {
         "codcli": "39591",
         "cliente": "ANICETO GASTRONOMIA LTDA",
         "bairro": "MARIA ANTONIETA MELLO AZEVEDO (SÃO BENEDITO)",
@@ -2115,144 +5189,6 @@ const NAO_POS_MG_DATA = {
       }
     ],
     "LEANDRO OLIVEIRA": [
-      {
-        "codcli": "34017",
-        "cliente": "MERCANTIL BASTOS LTDA",
-        "bairro": "JARDIM PRIMAVERA L",
-        "dtultcomp": "23/04/2026",
-        "produtos": [
-          {
-            "produto": "VINHO LATITUD 33 CABERNET SAUVIGNON",
-            "fantasia": "LVMH",
-            "qt": 12,
-            "valor": 586.8
-          },
-          {
-            "produto": "VINHO LATITUD 33 CHARDONNAY 750 ML",
-            "fantasia": "LVMH",
-            "qt": 12,
-            "valor": 586.8
-          },
-          {
-            "produto": "VINHO LATITUD 33 MALBEC ROSE",
-            "fantasia": "LVMH",
-            "qt": 18,
-            "valor": 880.2
-          },
-          {
-            "produto": "VINHO LATITUD 33 MALBEC TTO 750 ML",
-            "fantasia": "LVMH",
-            "qt": 12,
-            "valor": 586.8
-          },
-          {
-            "produto": "VINHO LATITUD 33 SAUVIGNON BLANC",
-            "fantasia": "LVMH",
-            "qt": 12,
-            "valor": 586.8
-          }
-        ]
-      },
-      {
-        "codcli": "37255",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "SION",
-        "dtultcomp": "28/04/2026",
-        "produtos": [
-          {
-            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-            "fantasia": "DON LUIZ",
-            "qt": 6,
-            "valor": 419.4
-          }
-        ]
-      },
-      {
-        "codcli": "33294",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "ROCHEDO",
-        "dtultcomp": "28/04/2026",
-        "produtos": [
-          {
-            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-            "fantasia": "DON LUIZ",
-            "qt": 6,
-            "valor": 419.4
-          },
-          {
-            "produto": "VODKA SMIRNOFF RED 998 ML",
-            "fantasia": "DIAGEO",
-            "qt": 12,
-            "valor": 372.6
-          }
-        ]
-      },
-      {
-        "codcli": "39202",
-        "cliente": "RESTAURANTE E LANCHONETE STRADEIRO LTDA",
-        "bairro": "RIBEIRAO DE EIXO",
-        "dtultcomp": "29/04/2026",
-        "produtos": [
-          {
-            "produto": "AZEITE DE OLIVA EV ESSENZA 500ML",
-            "fantasia": "",
-            "qt": 24,
-            "valor": 573.6
-          }
-        ]
-      },
-      {
-        "codcli": "33288",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "SÃO SEBASTIAO",
-        "dtultcomp": "29/05/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA ROSE 750ML",
-            "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 478.8
-          },
-          {
-            "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
-            "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 478.8
-          },
-          {
-            "produto": "VINHO VILLA ROSA FRISANTE ROSE 750ML",
-            "fantasia": "CASTAS",
-            "qt": 24,
-            "valor": 804.0
-          },
-          {
-            "produto": "WHISKY BALLANTINE'S FINEST 750 ML",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 642.36
-          }
-        ]
-      },
-      {
-        "codcli": "33291",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "SANTA MATILDE",
-        "dtultcomp": "29/05/2026",
-        "produtos": [
-          {
-            "produto": "VINHO VILLA ROSA FRISANTE ROSE 750ML",
-            "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 402.0
-          },
-          {
-            "produto": "WHISKY BALLANTINE'S FINEST 750 ML",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 642.36
-          }
-        ]
-      },
       {
         "codcli": "34011",
         "cliente": "CASA RENA S/A",
@@ -2278,44 +5214,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "PERNOD",
             "qt": 6,
             "valor": 4194.0
-          }
-        ]
-      },
-      {
-        "codcli": "33292",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "SANTA EFIGÊNIA",
-        "dtultcomp": "01/06/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 478.8
-          },
-          {
-            "produto": "VILLA ROSA ROSE 750ML",
-            "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 478.8
-          },
-          {
-            "produto": "VILLA ROSA TINTO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 478.8
-          },
-          {
-            "produto": "VINHO VILLA ROSA FRISANTE BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 402.0
-          },
-          {
-            "produto": "VINHO VILLA ROSA FRISANTE ROSE 750ML",
-            "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 402.0
           }
         ]
       },
@@ -2348,26 +5246,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "LVMH",
             "qt": 6,
             "valor": 299.4
-          }
-        ]
-      },
-      {
-        "codcli": "33293",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "CENTRO",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 239.4
-          },
-          {
-            "produto": "VILLA ROSA ROSE 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 239.4
           }
         ]
       },
@@ -2448,40 +5326,366 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "34048",
-        "cliente": "MART MINAS DISTRIBUICAO LTDA",
-        "bairro": "CHACARAS COTIA",
-        "dtultcomp": "30/06/2026",
+        "codcli": "33295",
+        "cliente": "ARMAZEM BRASIL LIMITADA",
+        "bairro": "JARDIM AMÉRICA",
+        "dtultcomp": "08/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA TINTO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 478.8
+          }
+        ]
+      },
+      {
+        "codcli": "34006",
+        "cliente": "RARO INDUSTRIA DE ALIMENTOS LTDA",
+        "bairro": "TAPERA",
+        "dtultcomp": "17/07/2026",
+        "produtos": [
+          {
+            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+            "fantasia": "DON LUIZ",
+            "qt": 138,
+            "valor": 10336.2
+          },
+          {
+            "produto": "WHISKY JIM BEAM WHITE 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 132,
+            "valor": 12394.8
+          }
+        ]
+      },
+      {
+        "codcli": "37356",
+        "cliente": "DMA DISTRIBUIDORA S/A",
+        "bairro": "VILA PARIS",
+        "dtultcomp": "28/07/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 90,
+            "valor": 3141.0
+          }
+        ]
+      },
+      {
+        "codcli": "33288",
+        "cliente": "ARMAZEM BRASIL LIMITADA",
+        "bairro": "SÃO SEBASTIAO",
+        "dtultcomp": "30/07/2026",
         "produtos": [
           {
             "produto": "AMARULA C LIQUEUR 750 ML",
             "fantasia": "AURORA",
+            "qt": 12,
+            "valor": 1318.8
+          },
+          {
+            "produto": "GIN ORLOFF 1L",
+            "fantasia": "PERNOD",
+            "qt": 12,
+            "valor": 538.8
+          }
+        ]
+      },
+      {
+        "codcli": "33290",
+        "cliente": "ARMAZEM BRASIL LIMITADA",
+        "bairro": "ANGÉLICA",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "AMARULA C LIQUEUR 750 ML",
+            "fantasia": "AURORA",
+            "qt": 12,
+            "valor": 1318.8
+          },
+          {
+            "produto": "GIN BEEFEATER 750ML",
+            "fantasia": "PERNOD",
+            "qt": 6,
+            "valor": 509.4
+          }
+        ]
+      },
+      {
+        "codcli": "33293",
+        "cliente": "ARMAZEM BRASIL LIMITADA",
+        "bairro": "CENTRO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "AMARULA C LIQUEUR 750 ML",
+            "fantasia": "AURORA",
+            "qt": 12,
+            "valor": 1318.8
+          },
+          {
+            "produto": "GIN BEEFEATER 750ML",
+            "fantasia": "PERNOD",
+            "qt": 6,
+            "valor": 509.4
+          },
+          {
+            "produto": "VILLA ROSA BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 478.8
+          },
+          {
+            "produto": "VILLA ROSA COLHEITA TINTO  750ML",
+            "fantasia": "CASTAS",
+            "qt": 1,
+            "valor": 69.9
+          },
+          {
+            "produto": "VILLA ROSA ROSE 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 478.8
+          },
+          {
+            "produto": "VINHO VILLA ROSA FRISANTE BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 478.8
+          }
+        ]
+      },
+      {
+        "codcli": "33292",
+        "cliente": "ARMAZEM BRASIL LIMITADA",
+        "bairro": "SANTA EFIGÊNIA",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA ROSE 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 478.8
+          },
+          {
+            "produto": "VILLA ROSA TINTO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 478.8
+          }
+        ]
+      },
+      {
+        "codcli": "33291",
+        "cliente": "ARMAZEM BRASIL LIMITADA",
+        "bairro": "SANTA MATILDE",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "WHISKY BALLANTINES 10 YO 750ML",
+            "fantasia": "PERNOD",
+            "qt": 12,
+            "valor": 634.8
+          }
+        ]
+      },
+      {
+        "codcli": "30232",
+        "cliente": "ORGANIZACAO VERDEMAR LTDA",
+        "bairro": "CARMO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "WHISKY ESC MACALLAN DOUBLE 12 YO 700ML",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 6,
+            "valor": 4318.44
+          },
+          {
+            "produto": "WHISKY JIM BEAM APPLE 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 12,
+            "valor": 890.28
+          }
+        ]
+      },
+      {
+        "codcli": "35170",
+        "cliente": "ADICAO DISTRIBUICAO EXPRESS S/A",
+        "bairro": "BOM PASTOR",
+        "dtultcomp": "31/07/2026",
+        "produtos": [
+          {
+            "produto": "XAROPE  MONIN  MAÇA VERDE 330 ML",
+            "fantasia": "MONIN",
+            "qt": 66,
+            "valor": 1577.4
+          },
+          {
+            "produto": "XAROPE  MONIN CRANBERRY 330 ML",
+            "fantasia": "MONIN",
+            "qt": 30,
+            "valor": 717.0
+          },
+          {
+            "produto": "XAROPE  MONIN TANGERINA 330 ML",
+            "fantasia": "MONIN",
+            "qt": 84,
+            "valor": 2007.6
+          }
+        ]
+      },
+      {
+        "codcli": "35169",
+        "cliente": "ADIÇÃO DISTRIBUIÇÃO EXPRESS S/A",
+        "bairro": "ZONA RURAL",
+        "dtultcomp": "31/07/2026",
+        "produtos": [
+          {
+            "produto": "XAROPE MONIN GENGIBRE (GINGER) 700 ML",
+            "fantasia": "MONIN",
             "qt": 72,
-            "valor": 7696.8
+            "valor": 3376.8
+          },
+          {
+            "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
+            "fantasia": "MONIN",
+            "qt": 12,
+            "valor": 562.8
+          }
+        ]
+      },
+      {
+        "codcli": "34048",
+        "cliente": "MART MINAS DISTRIBUICAO LTDA",
+        "bairro": "CHACARAS COTIA",
+        "dtultcomp": "31/07/2026",
+        "produtos": [
+          {
+            "produto": "XAROPE MONIN LIMAO SICILIANO 700 ML",
+            "fantasia": "MONIN",
+            "qt": 420,
+            "valor": 18018.0
+          },
+          {
+            "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
+            "fantasia": "MONIN",
+            "qt": 420,
+            "valor": 18018.0
+          },
+          {
+            "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
+            "fantasia": "MONIN",
+            "qt": 420,
+            "valor": 18018.0
+          },
+          {
+            "produto": "XAROPE MONIN TANGERINA (MANDARIM) 700ML",
+            "fantasia": "MONIN",
+            "qt": 420,
+            "valor": 18018.0
+          }
+        ]
+      },
+      {
+        "codcli": "37710",
+        "cliente": "MULTICOM ATACADO E VAREJO S/A",
+        "bairro": "LIBERDABE",
+        "dtultcomp": "31/07/2026",
+        "produtos": [
+          {
+            "produto": "WHISKY BALLANTINE'S FINEST 750 ML",
+            "fantasia": "PERNOD",
+            "qt": 960,
+            "valor": 43872.0
+          },
+          {
+            "produto": "WHISKY BALLANTINES SUNSHINE 700ML",
+            "fantasia": "PERNOD",
+            "qt": 198,
+            "valor": 9129.78
+          }
+        ]
+      },
+      {
+        "codcli": "30231",
+        "cliente": "ORGANIZACAO VERDEMAR LTDA",
+        "bairro": "JARDIM CANADA",
+        "dtultcomp": "31/07/2026",
+        "produtos": [
+          {
+            "produto": "CHANDON BABY BRUT 187 ML",
+            "fantasia": "LVMH",
+            "qt": 48,
+            "valor": 1483.2
           },
           {
             "produto": "CHANDON BRUT ROSE 750ML",
             "fantasia": "LVMH",
-            "qt": 144,
-            "valor": 13678.56
+            "qt": 60,
+            "valor": 5094.0
           },
           {
             "produto": "CHANDON PASSION ON ICE 750ML",
             "fantasia": "LVMH",
-            "qt": 66,
-            "valor": 6078.6
+            "qt": 90,
+            "valor": 7641.0
           },
           {
             "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
             "fantasia": "LVMH",
-            "qt": 264,
-            "valor": 23459.04
+            "qt": 300,
+            "valor": 23970.0
           },
           {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 102,
-            "valor": 11209.8
+            "produto": "LICOR FRANGELICO 700ML",
+            "fantasia": "",
+            "qt": 48,
+            "valor": 4963.2
+          }
+        ]
+      },
+      {
+        "codcli": "39202",
+        "cliente": "RESTAURANTE E LANCHONETE STRADEIRO LTDA",
+        "bairro": "RIBEIRAO DE EIXO",
+        "dtultcomp": "31/07/2026",
+        "produtos": [
+          {
+            "produto": "AZEITE DE OLIVA EV ESSENZA 500ML",
+            "fantasia": "",
+            "qt": 13,
+            "valor": 310.7
+          }
+        ]
+      },
+      {
+        "codcli": "30723",
+        "cliente": "SUPERMERCADO BAHAMAS S/A",
+        "bairro": "DISTRITO INDUSTRIAL",
+        "dtultcomp": "31/07/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN MAR GF 750ML",
+            "fantasia": "YVY",
+            "qt": 180,
+            "valor": 9882.0
+          }
+        ]
+      },
+      {
+        "codcli": "33491",
+        "cliente": "SUPERMERCADO SUPER LUNA S.A",
+        "bairro": "BANDEIRINHAS",
+        "dtultcomp": "31/07/2026",
+        "produtos": [
+          {
+            "produto": "WHISKY BALLANTINE'S FINEST 750 ML",
+            "fantasia": "PERNOD",
+            "qt": 240,
+            "valor": 11306.4
           }
         ]
       },
@@ -2494,26 +5698,6 @@ const NAO_POS_MG_DATA = {
       }
     ],
     "MATHEUS DE SOUZA": [
-      {
-        "codcli": "37403",
-        "cliente": "SUPERMERCADO KARAJAS LTDA",
-        "bairro": "BELO VALE",
-        "dtultcomp": "08/08/2025",
-        "produtos": [
-          {
-            "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750 M",
-            "fantasia": "BALLENA",
-            "qt": 1,
-            "valor": 109.0
-          },
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 6,
-            "valor": 654.0
-          }
-        ]
-      },
       {
         "codcli": "29385",
         "cliente": "ARMAZEM E MERCEARIA PARANAIBA LTDA",
@@ -2667,50 +5851,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37705",
-        "cliente": "PARANAIBA VILA DAS FLORES ALIMENTOS LTDA",
-        "bairro": "VILA DAS FLORES",
-        "dtultcomp": "09/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 10,
-            "valor": 1848.0
-          },
-          {
-            "produto": "RED BULL AMORA 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.8
-          },
-          {
-            "produto": "RED BULL MELÃO MARACUJA 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 369.6
-          },
-          {
-            "produto": "RED BULL MORANGO PESSEGO 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 369.6
-          },
-          {
-            "produto": "RED BULL TROPICAL 24X250 ML - ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.8
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 369.6
-          }
-        ]
-      },
-      {
         "codcli": "31553",
         "cliente": "SUPERMERCADO PARANAIBA SANTA LUZIA LTDA",
         "bairro": "QUARENTA E DOIS",
@@ -2849,9 +5989,1434 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "37423",
+        "cliente": "PARANAIBA RIBEIRO DE ABREU SUPERMERCADOS LTDA",
+        "bairro": "CAPITAO EDURARDO",
+        "dtultcomp": "01/07/2026",
+        "produtos": [
+          {
+            "produto": "GIN GORDONS 750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 6,
+            "valor": 335.4
+          }
+        ]
+      },
+      {
+        "codcli": "32067",
+        "cliente": "ORGANIZACOES MARINA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "02/07/2026",
+        "produtos": [
+          {
+            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+            "fantasia": "HEINEKEN",
+            "qt": 15,
+            "valor": 2156.4
+          }
+        ]
+      },
+      {
+        "codcli": "38177",
+        "cliente": "MERCEARIA NASCIMENTO NOVO HORIZONTE LTDA",
+        "bairro": "SANTA MARTA",
+        "dtultcomp": "03/07/2026",
+        "produtos": [
+          {
+            "produto": "AMARULA C LIQUEUR 750 ML",
+            "fantasia": "AURORA",
+            "qt": 1,
+            "valor": 119.9
+          },
+          {
+            "produto": "LICOR BALLENA COCO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 2,
+            "valor": 231.8
+          },
+          {
+            "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+            "fantasia": "AURORA",
+            "qt": 1,
+            "valor": 159.9
+          },
+          {
+            "produto": "WHISKY BALLANTINES SUNSHINE 700ML",
+            "fantasia": "PERNOD",
+            "qt": 3,
+            "valor": 179.7
+          }
+        ]
+      },
+      {
+        "codcli": "35033",
+        "cliente": "SUPERMERCADO NOVO HORIZONTE BOA ESPERANCA LTDA",
+        "bairro": "ESPERANCA (JUSTINOPOLIS)",
+        "dtultcomp": "03/07/2026",
+        "produtos": [
+          {
+            "produto": "LICOR BALLENA COCO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 3,
+            "valor": 347.7
+          },
+          {
+            "produto": "MARTINI BIANCO 750 ML",
+            "fantasia": "BACARDI",
+            "qt": 1,
+            "valor": 43.9
+          }
+        ]
+      },
+      {
+        "codcli": "38185",
+        "cliente": "SUPERMERCADO NOVO HORIZONTE CRISTINA LTDA",
+        "bairro": "CONJUNTO CRISTINA (SÃO BENEDITO)",
+        "dtultcomp": "03/07/2026",
+        "produtos": [
+          {
+            "produto": "LICOR BALLENA COCO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 3,
+            "valor": 347.7
+          },
+          {
+            "produto": "RUM BACARDI LIMON 980 ML",
+            "fantasia": "BACARDI",
+            "qt": 2,
+            "valor": 97.8
+          },
+          {
+            "produto": "RUM BACARDI MOJITO 980ML",
+            "fantasia": "BACARDI",
+            "qt": 1,
+            "valor": 48.9
+          },
+          {
+            "produto": "RUM MALIBU 750 ML",
+            "fantasia": "PERNOD",
+            "qt": 2,
+            "valor": 129.8
+          }
+        ]
+      },
+      {
+        "codcli": "35497",
+        "cliente": "SUPERMERCADO NOVO HORIZONTE PLUS LTDA",
+        "bairro": "SANTA MARTINHA",
+        "dtultcomp": "03/07/2026",
+        "produtos": [
+          {
+            "produto": "AMARULA C LIQUEUR 750 ML",
+            "fantasia": "AURORA",
+            "qt": 1,
+            "valor": 119.9
+          },
+          {
+            "produto": "LICOR BALLENA COCO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 2,
+            "valor": 231.8
+          },
+          {
+            "produto": "LICOR BALLENA MORANGO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 2,
+            "valor": 231.8
+          },
+          {
+            "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+            "fantasia": "AURORA",
+            "qt": 1,
+            "valor": 159.9
+          },
+          {
+            "produto": "WHISKY BALLANTINES SUNSHINE 700ML",
+            "fantasia": "PERNOD",
+            "qt": 6,
+            "valor": 359.4
+          }
+        ]
+      },
+      {
+        "codcli": "38186",
+        "cliente": "SUPERMERCADO NOVO HORIZONTE SENHORA APARECIDA LTDA",
+        "bairro": "SUELY",
+        "dtultcomp": "03/07/2026",
+        "produtos": [
+          {
+            "produto": "GIN ORLOFF 1L",
+            "fantasia": "PERNOD",
+            "qt": 3,
+            "valor": 149.7
+          },
+          {
+            "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+            "fantasia": "AURORA",
+            "qt": 3,
+            "valor": 479.7
+          },
+          {
+            "produto": "MARTINI ROSSO 750 ML",
+            "fantasia": "BACARDI",
+            "qt": 2,
+            "valor": 99.8
+          }
+        ]
+      },
+      {
+        "codcli": "35451",
+        "cliente": "SUPERMERCADO NOVO HORIZONTE CATAGUASES PLUS LTDA.",
+        "bairro": "SEVILHA (2ª SEÇÃO)",
+        "dtultcomp": "07/07/2026",
+        "produtos": [
+          {
+            "produto": "GIN ORLOFF 1L",
+            "fantasia": "PERNOD",
+            "qt": 3,
+            "valor": 149.7
+          },
+          {
+            "produto": "LICOR BALLENA MORANGO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 2,
+            "valor": 231.8
+          },
+          {
+            "produto": "RUM BACARDI LIMON 980 ML",
+            "fantasia": "BACARDI",
+            "qt": 2,
+            "valor": 97.8
+          },
+          {
+            "produto": "RUM BACARDI MOJITO 980ML",
+            "fantasia": "BACARDI",
+            "qt": 2,
+            "valor": 97.8
+          }
+        ]
+      },
+      {
+        "codcli": "38187",
+        "cliente": "SUPERMERCADO NOVO HORIZONTE MELO VIANA LTDA",
+        "bairro": "MELO VIANA (MELO VIANA)",
+        "dtultcomp": "08/07/2026",
+        "produtos": [
+          {
+            "produto": "BEEFEATER PINK 700ML",
+            "fantasia": "PERNOD",
+            "qt": 2,
+            "valor": 169.8
+          },
+          {
+            "produto": "GIN ORLOFF 1L",
+            "fantasia": "PERNOD",
+            "qt": 2,
+            "valor": 99.8
+          },
+          {
+            "produto": "RUM BACARDI CARTA BLANCA 980 ML",
+            "fantasia": "BACARDI",
+            "qt": 2,
+            "valor": 97.8
+          },
+          {
+            "produto": "RUM MALIBU 750 ML",
+            "fantasia": "PERNOD",
+            "qt": 2,
+            "valor": 109.8
+          },
+          {
+            "produto": "TEQUILA J CUERVO GOLD 750ML",
+            "fantasia": "AURORA",
+            "qt": 2,
+            "valor": 259.8
+          },
+          {
+            "produto": "TEQUILA J CUERVO SILVER 750ML",
+            "fantasia": "AURORA",
+            "qt": 2,
+            "valor": 259.8
+          },
+          {
+            "produto": "WHISKY BALLANTINES 10 YO 1L",
+            "fantasia": "PERNOD",
+            "qt": 2,
+            "valor": 199.8
+          }
+        ]
+      },
+      {
+        "codcli": "38181",
+        "cliente": "SUPERMERCADO NOVOS HORIZONTES METROPOLITANO LTDA",
+        "bairro": "FAZENDA CASTRO",
+        "dtultcomp": "08/07/2026",
+        "produtos": [
+          {
+            "produto": "MARTINI BIANCO 750 ML",
+            "fantasia": "BACARDI",
+            "qt": 2,
+            "valor": 87.8
+          },
+          {
+            "produto": "MARTINI EXTRA DRY 750 ML",
+            "fantasia": "BACARDI",
+            "qt": 2,
+            "valor": 87.8
+          },
+          {
+            "produto": "RUM BACARDI MOJITO 980ML",
+            "fantasia": "BACARDI",
+            "qt": 2,
+            "valor": 97.8
+          },
+          {
+            "produto": "TEQUILA J CUERVO GOLD 750ML",
+            "fantasia": "AURORA",
+            "qt": 2,
+            "valor": 259.8
+          },
+          {
+            "produto": "TEQUILA J CUERVO SILVER 750ML",
+            "fantasia": "AURORA",
+            "qt": 2,
+            "valor": 259.8
+          }
+        ]
+      },
+      {
+        "codcli": "38183",
+        "cliente": "SUPERMERCADO NOVO HORIZONTE JARDIM LAGUNA LTDA",
+        "bairro": "JARDIM LAGUNA",
+        "dtultcomp": "09/07/2026",
+        "produtos": [
+          {
+            "produto": "AMARULA C LIQUEUR 750 ML",
+            "fantasia": "AURORA",
+            "qt": 1,
+            "valor": 119.9
+          },
+          {
+            "produto": "TEQUILA J CUERVO GOLD 750ML",
+            "fantasia": "AURORA",
+            "qt": 2,
+            "valor": 259.8
+          },
+          {
+            "produto": "TEQUILA J CUERVO SILVER 750ML",
+            "fantasia": "AURORA",
+            "qt": 1,
+            "valor": 129.9
+          }
+        ]
+      },
+      {
+        "codcli": "35122",
+        "cliente": "SUPERMERCADO NOVO HORIZONTE LIBERDADE PLUS LTDA",
+        "bairro": "LIBERDADE",
+        "dtultcomp": "09/07/2026",
+        "produtos": [
+          {
+            "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+            "fantasia": "AURORA",
+            "qt": 1,
+            "valor": 159.9
+          },
+          {
+            "produto": "MARTINI BIANCO 750 ML",
+            "fantasia": "BACARDI",
+            "qt": 2,
+            "valor": 87.8
+          },
+          {
+            "produto": "WHISKY BALLANTINES SUNSHINE 700ML",
+            "fantasia": "PERNOD",
+            "qt": 4,
+            "valor": 239.6
+          }
+        ]
+      },
+      {
+        "codcli": "38180",
+        "cliente": "SUPERMERCADO NOVO HORIZONTE VENEZA LTDA",
+        "bairro": "VENEZA",
+        "dtultcomp": "09/07/2026",
+        "produtos": [
+          {
+            "produto": "AMARULA C LIQUEUR 750 ML",
+            "fantasia": "AURORA",
+            "qt": 1,
+            "valor": 119.9
+          },
+          {
+            "produto": "MARTINI ROSATO 750 ML",
+            "fantasia": "BACARDI",
+            "qt": 2,
+            "valor": 87.8
+          },
+          {
+            "produto": "TEQUILA J CUERVO SILVER 750ML",
+            "fantasia": "AURORA",
+            "qt": 1,
+            "valor": 129.9
+          }
+        ]
+      },
+      {
+        "codcli": "31571",
+        "cliente": "PARANAIBA EXPRESS",
+        "bairro": "ALPHAVILLE VESPASIANO",
+        "dtultcomp": "13/07/2026",
+        "produtos": [
+          {
+            "produto": "GIN GORDONS 750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 2,
+            "valor": 111.8
+          },
+          {
+            "produto": "GIN GORDONS PINK 700ML",
+            "fantasia": "DIAGEO",
+            "qt": 2,
+            "valor": 111.8
+          },
+          {
+            "produto": "VINHO CHAO DO CONDE FINO BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 239.4
+          }
+        ]
+      },
+      {
+        "codcli": "29879",
+        "cliente": "PARANAIBA FORTALEZA SUPERMERCADOS LTDA.",
+        "bairro": "SAO JOAO BATISTA (VENDA NOVA)",
+        "dtultcomp": "13/07/2026",
+        "produtos": [
+          {
+            "produto": "GIN GORDONS 750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 12,
+            "valor": 670.8
+          }
+        ]
+      },
+      {
+        "codcli": "29895",
+        "cliente": "PARANAIBA VESPASIANO SUPERMERCADOS LTDA.",
+        "bairro": "SANTA CLARA",
+        "dtultcomp": "13/07/2026",
+        "produtos": [
+          {
+            "produto": "VINHO VILLA ROSA FRISANTE BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 197.4
+          },
+          {
+            "produto": "VINHO VILLA ROSA FRISANTE ROSE 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 197.4
+          }
+        ]
+      },
+      {
+        "codcli": "38188",
+        "cliente": "SUPERMERCADO NOVO HORIZONTE CHACARAS BOM JESUS LTDA",
+        "bairro": "JARDIM ALVORADA",
+        "dtultcomp": "13/07/2026",
+        "produtos": [
+          {
+            "produto": "AMARULA C LIQUEUR 750 ML",
+            "fantasia": "AURORA",
+            "qt": 1,
+            "valor": 119.9
+          },
+          {
+            "produto": "MARTINI ROSSO 750 ML",
+            "fantasia": "BACARDI",
+            "qt": 2,
+            "valor": 99.8
+          },
+          {
+            "produto": "RUM BACARDI LIMON 980 ML",
+            "fantasia": "BACARDI",
+            "qt": 2,
+            "valor": 97.8
+          },
+          {
+            "produto": "TEQUILA J CUERVO GOLD 750ML",
+            "fantasia": "AURORA",
+            "qt": 2,
+            "valor": 259.8
+          }
+        ]
+      },
+      {
+        "codcli": "35334",
+        "cliente": "SUPERMERCADO NOVO HORIZONTE RESSACA LTDA",
+        "bairro": "RESSACA",
+        "dtultcomp": "13/07/2026",
+        "produtos": [
+          {
+            "produto": "AMARULA C LIQUEUR 750 ML",
+            "fantasia": "AURORA",
+            "qt": 1,
+            "valor": 119.9
+          },
+          {
+            "produto": "LICOR BALLENA MORANGO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 1,
+            "valor": 115.9
+          },
+          {
+            "produto": "MARTINI ROSATO 750 ML",
+            "fantasia": "BACARDI",
+            "qt": 2,
+            "valor": 87.8
+          },
+          {
+            "produto": "TEQUILA J CUERVO GOLD 750ML",
+            "fantasia": "AURORA",
+            "qt": 2,
+            "valor": 259.8
+          },
+          {
+            "produto": "WHISKY BALLANTINES 10 YO 1L",
+            "fantasia": "PERNOD",
+            "qt": 2,
+            "valor": 199.8
+          }
+        ]
+      },
+      {
+        "codcli": "39205",
+        "cliente": "SUPERMERCADO NOVO HORIZONTE SAO JOAO DE DEUS LTDA",
+        "bairro": "SÃO JOÃO DE DEUS (JUSTINÓPOLIS)",
+        "dtultcomp": "13/07/2026",
+        "produtos": [
+          {
+            "produto": "MARTINI EXTRA DRY 750 ML",
+            "fantasia": "BACARDI",
+            "qt": 3,
+            "valor": 143.7
+          },
+          {
+            "produto": "MARTINI ROSSO 750 ML",
+            "fantasia": "BACARDI",
+            "qt": 3,
+            "valor": 149.7
+          },
+          {
+            "produto": "RUM MALIBU 750 ML",
+            "fantasia": "PERNOD",
+            "qt": 2,
+            "valor": 129.8
+          }
+        ]
+      },
+      {
+        "codcli": "29878",
+        "cliente": "PARANAIBA RIO BRANCO SUPERMERCADOS EIRELI",
+        "bairro": "RIO BRANCO",
+        "dtultcomp": "14/07/2026",
+        "produtos": [
+          {
+            "produto": "GIN GORDONS 750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 6,
+            "valor": 335.4
+          }
+        ]
+      },
+      {
+        "codcli": "29893",
+        "cliente": "PARANAIBA SERRA VERDE SUPERMERCADO LTDA",
+        "bairro": "SERRA VERDE (VENDA NOVA)",
+        "dtultcomp": "14/07/2026",
+        "produtos": [
+          {
+            "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
+            "fantasia": "PERNOD",
+            "qt": 6,
+            "valor": 147.0
+          },
+          {
+            "produto": "RUM MONTILLA CRISTAL 1000 ML",
+            "fantasia": "PERNOD",
+            "qt": 6,
+            "valor": 147.0
+          }
+        ]
+      },
+      {
+        "codcli": "29892",
+        "cliente": "PARANAIBA TUPI SUPERMERCADOS LTDA",
+        "bairro": "TUPI B",
+        "dtultcomp": "14/07/2026",
+        "produtos": [
+          {
+            "produto": "GIN GORDONS 750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 6,
+            "valor": 335.4
+          }
+        ]
+      },
+      {
+        "codcli": "35500",
+        "cliente": "SUPERMERCADO NOVO HORIZONTE NASCIMENTO LTDA.",
+        "bairro": "SAO FRANCISCO DE ASSIS",
+        "dtultcomp": "14/07/2026",
+        "produtos": [
+          {
+            "produto": "AMARULA C LIQUEUR 750 ML",
+            "fantasia": "AURORA",
+            "qt": 1,
+            "valor": 119.9
+          },
+          {
+            "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750 M",
+            "fantasia": "BALLENA",
+            "qt": 2,
+            "valor": 231.8
+          }
+        ]
+      },
+      {
+        "codcli": "35357",
+        "cliente": "SUPERMERCADO NOVOS HORIZONTES LTDA",
+        "bairro": "SEVILHA (1ª SEÇÃO)",
+        "dtultcomp": "14/07/2026",
+        "produtos": [
+          {
+            "produto": "AMARULA C LIQUEUR 750 ML",
+            "fantasia": "AURORA",
+            "qt": 1,
+            "valor": 119.9
+          },
+          {
+            "produto": "MARTINI ROSATO 750 ML",
+            "fantasia": "BACARDI",
+            "qt": 3,
+            "valor": 131.7
+          }
+        ]
+      },
+      {
+        "codcli": "38527",
+        "cliente": "ARTHUR FELIPE FERNANDES REIS",
+        "bairro": "CARLOS PRATES",
+        "dtultcomp": "15/07/2026",
+        "produtos": [
+          {
+            "produto": "ST PIERRE ZERO COLA 310ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 26.9
+          },
+          {
+            "produto": "ST PIERRE ZERO GREEN APPLE 310 ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 26.9
+          }
+        ]
+      },
+      {
+        "codcli": "38898",
+        "cliente": "GILBERTO TRAJANO CASSIMIRO JUNIOR",
+        "bairro": "CENTRO",
+        "dtultcomp": "15/07/2026",
+        "produtos": [
+          {
+            "produto": "ESPUMANTE ALUD ROSE 750ML",
+            "fantasia": "CASTAS",
+            "qt": 1,
+            "valor": 42.9
+          },
+          {
+            "produto": "ST PIERRE BLUEBERRY LT 270MLX6",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 26.9
+          }
+        ]
+      },
+      {
+        "codcli": "38525",
+        "cliente": "KAUAN GUSTAVO FERNANDES FREITAS",
+        "bairro": "BARONESA (SÃO BENEDITO)",
+        "dtultcomp": "15/07/2026",
+        "produtos": [
+          {
+            "produto": "GIN GORDONS 750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 1,
+            "valor": 61.9
+          }
+        ]
+      },
+      {
+        "codcli": "39533",
+        "cliente": "LEILA APARECIDA PEREIRA DIAS",
+        "bairro": "ZILAH SPÓSITO",
+        "dtultcomp": "15/07/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK  RED BULL",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 33.96
+          },
+          {
+            "produto": "4 PACK  RED BULL MORANGO PESSEGO",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 33.96
+          }
+        ]
+      },
+      {
+        "codcli": "29896",
+        "cliente": "NACIONAL PARANAIBA ALIMENTOS EIRELI",
+        "bairro": "SÃO JANUÁRIO (JUSTINÓPOLIS)",
+        "dtultcomp": "16/07/2026",
+        "produtos": [
+          {
+            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+            "fantasia": "DON LUIZ",
+            "qt": 3,
+            "valor": 224.7
+          }
+        ]
+      },
+      {
+        "codcli": "29384",
+        "cliente": "VAREJAO PARANAIBA LTDA",
+        "bairro": "JAQUELINE",
+        "dtultcomp": "16/07/2026",
+        "produtos": [
+          {
+            "produto": "GIN GORDONS 750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 3,
+            "valor": 167.7
+          },
+          {
+            "produto": "GIN GORDONS PINK 700ML",
+            "fantasia": "DIAGEO",
+            "qt": 3,
+            "valor": 167.7
+          }
+        ]
+      },
+      {
+        "codcli": "29894",
+        "cliente": "VAREJAO PLANALTO LTDA.",
+        "bairro": "PLANALTO",
+        "dtultcomp": "16/07/2026",
+        "produtos": [
+          {
+            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+            "fantasia": "DON LUIZ",
+            "qt": 3,
+            "valor": 224.7
+          }
+        ]
+      },
+      {
+        "codcli": "33076",
+        "cliente": "CEVAROLI SUPERMERCADOS LTDA",
+        "bairro": "FERNÃO DIAS",
+        "dtultcomp": "20/07/2026",
+        "produtos": [
+          {
+            "produto": "GIN BEEFEATER 750ML",
+            "fantasia": "PERNOD",
+            "qt": 12,
+            "valor": 816.0
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 60,
+            "valor": 1254.0
+          },
+          {
+            "produto": "VODKA SMIRNOFF RED 998 ML",
+            "fantasia": "DIAGEO",
+            "qt": 24,
+            "valor": 693.6
+          },
+          {
+            "produto": "WHISKY JIM BEAM HONEY 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 12,
+            "valor": 958.8
+          }
+        ]
+      },
+      {
+        "codcli": "33077",
+        "cliente": "CEVAROLI SUPERMERCADOS LTDA",
+        "bairro": "VILA CLORIS",
+        "dtultcomp": "20/07/2026",
+        "produtos": [
+          {
+            "produto": "MARTINI BIANCO 750 ML",
+            "fantasia": "BACARDI",
+            "qt": 12,
+            "valor": 454.8
+          },
+          {
+            "produto": "WHISKY BALLANTINE'S FINEST 750 ML",
+            "fantasia": "PERNOD",
+            "qt": 12,
+            "valor": 548.4
+          },
+          {
+            "produto": "WHISKY JIM BEAM HONEY 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 12,
+            "valor": 958.8
+          }
+        ]
+      },
+      {
+        "codcli": "38294",
+        "cliente": "CEVAROLI SUPERMERCADOS LTDA",
+        "bairro": "NAZARE",
+        "dtultcomp": "20/07/2026",
+        "produtos": [
+          {
+            "produto": "VINHO LATITUD 33 MALBEC TTO 750 ML",
+            "fantasia": "LVMH",
+            "qt": 10,
+            "valor": 549.0
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 250.8
+          },
+          {
+            "produto": "WHISKY BALLANTINE'S FINEST 1L",
+            "fantasia": "PERNOD",
+            "qt": 12,
+            "valor": 732.12
+          },
+          {
+            "produto": "WHISKY BALLANTINE'S FINEST 750 ML",
+            "fantasia": "PERNOD",
+            "qt": 12,
+            "valor": 548.4
+          },
+          {
+            "produto": "WHISKY JIM BEAM APPLE 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 12,
+            "valor": 958.8
+          },
+          {
+            "produto": "WHISKY JIM BEAM HONEY 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 12,
+            "valor": 958.8
+          },
+          {
+            "produto": "WHISKY JIM BEAM WHITE 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 12,
+            "valor": 958.8
+          }
+        ]
+      },
+      {
+        "codcli": "33075",
+        "cliente": "HIPER OPA LTDA",
+        "bairro": "GUARANI",
+        "dtultcomp": "20/07/2026",
+        "produtos": [
+          {
+            "produto": "GIN BEEFEATER 750ML",
+            "fantasia": "PERNOD",
+            "qt": 12,
+            "valor": 816.0
+          },
+          {
+            "produto": "VODKA ABSOLUT - 1 LITRO",
+            "fantasia": "PERNOD",
+            "qt": 12,
+            "valor": 791.28
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 24,
+            "valor": 501.6
+          },
+          {
+            "produto": "VODKA SMIRNOFF RED 998 ML",
+            "fantasia": "DIAGEO",
+            "qt": 12,
+            "valor": 346.8
+          },
+          {
+            "produto": "WHISKY BALLANTINE'S FINEST 1L",
+            "fantasia": "PERNOD",
+            "qt": 12,
+            "valor": 732.12
+          },
+          {
+            "produto": "WHISKY JIM BEAM HONEY 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 12,
+            "valor": 958.8
+          }
+        ]
+      },
+      {
+        "codcli": "33074",
+        "cliente": "HIPER OPA LTDA",
+        "bairro": "PROVIDÊNCIA",
+        "dtultcomp": "20/07/2026",
+        "produtos": [
+          {
+            "produto": "WHISKY JIM BEAM WHITE 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 12,
+            "valor": 958.8
+          }
+        ]
+      },
+      {
+        "codcli": "33955",
+        "cliente": "TAUA RESORT CAETE LTDA",
+        "bairro": "ROCAS NOVA",
+        "dtultcomp": "20/07/2026",
+        "produtos": [
+          {
+            "produto": "RUM BACARDI CARTA BLANCA 980 ML",
+            "fantasia": "BACARDI",
+            "qt": 24,
+            "valor": 1077.6
+          },
+          {
+            "produto": "TEQUILA J CUERVO SILVER 750ML",
+            "fantasia": "AURORA",
+            "qt": 24,
+            "valor": 3117.6
+          }
+        ]
+      },
+      {
+        "codcli": "33073",
+        "cliente": "VAREJAO AVENIDA LIMITADA",
+        "bairro": "CENTRO",
+        "dtultcomp": "20/07/2026",
+        "produtos": [
+          {
+            "produto": "MARTINI BIANCO 750 ML",
+            "fantasia": "BACARDI",
+            "qt": 12,
+            "valor": 454.8
+          },
+          {
+            "produto": "VODKA SMIRNOFF RED 998 ML",
+            "fantasia": "DIAGEO",
+            "qt": 12,
+            "valor": 346.8
+          }
+        ]
+      },
+      {
+        "codcli": "33072",
+        "cliente": "VAREJAO AVENIDA LIMITADA",
+        "bairro": "CAETÉ",
+        "dtultcomp": "20/07/2026",
+        "produtos": [
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 72,
+            "valor": 1504.8
+          },
+          {
+            "produto": "VODKA SMIRNOFF RED 998 ML",
+            "fantasia": "DIAGEO",
+            "qt": 24,
+            "valor": 693.6
+          }
+        ]
+      },
+      {
+        "codcli": "37368",
+        "cliente": "C & R PADARIA E SUPERMERCADOS LTDA",
+        "bairro": "FUNCIONÁRIOS",
+        "dtultcomp": "21/07/2026",
+        "produtos": [
+          {
+            "produto": "GIN BEEFEATER 750ML",
+            "fantasia": "PERNOD",
+            "qt": 30,
+            "valor": 2022.9
+          },
+          {
+            "produto": "GIN GORDONS 750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 12,
+            "valor": 598.8
+          },
+          {
+            "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750 M",
+            "fantasia": "BALLENA",
+            "qt": 3,
+            "valor": 329.7
+          },
+          {
+            "produto": "RUM MONTILLA OURO 1000ML",
+            "fantasia": "PERNOD",
+            "qt": 6,
+            "valor": 131.4
+          },
+          {
+            "produto": "VODKA ABSOLUT - 1 LITRO",
+            "fantasia": "PERNOD",
+            "qt": 120,
+            "valor": 7675.2
+          },
+          {
+            "produto": "VODKA SMIRNOFF RED 998 ML",
+            "fantasia": "DIAGEO",
+            "qt": 60,
+            "valor": 1470.0
+          },
+          {
+            "produto": "WHISKY BALLANTINE'S FINEST 1L",
+            "fantasia": "PERNOD",
+            "qt": 6,
+            "valor": 355.08
+          },
+          {
+            "produto": "WHISKY JAMESON DEST 750ML DEST.",
+            "fantasia": "",
+            "qt": 18,
+            "valor": 1268.28
+          },
+          {
+            "produto": "WHISKY ROYAL SALUTE 700 ML",
+            "fantasia": "PERNOD",
+            "qt": 3,
+            "valor": 1949.7
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 6,
+            "valor": 239.4
+          },
+          {
+            "produto": "YVY DESTILADO GIN TERRA LT 710ML",
+            "fantasia": "YVY",
+            "qt": 6,
+            "valor": 239.4
+          }
+        ]
+      },
+      {
+        "codcli": "29332",
+        "cliente": "PARANAIBA LAGOA SANTA SUPERMERCADOS LTDA.",
+        "bairro": "VILA PINTO COELHO",
+        "dtultcomp": "21/07/2026",
+        "produtos": [
+          {
+            "produto": "WHISKY J WALKER BLACK LABEL 1L",
+            "fantasia": "DIAGEO",
+            "qt": 6,
+            "valor": 833.4
+          }
+        ]
+      },
+      {
+        "codcli": "29333",
+        "cliente": "PARANAIBA LAGOA SANTA VARZEA SUPERMERCADO EIRELI",
+        "bairro": "VARZEA",
+        "dtultcomp": "21/07/2026",
+        "produtos": [
+          {
+            "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+            "fantasia": "AURORA",
+            "qt": 6,
+            "valor": 899.4
+          }
+        ]
+      },
+      {
+        "codcli": "30614",
+        "cliente": "PARANAIBA SAO BENEDITO ALIMENTOS LTDA",
+        "bairro": "BOTAFOGO (JUSTINÓPOLIS)",
+        "dtultcomp": "21/07/2026",
+        "produtos": [
+          {
+            "produto": "WHISKY J WALKER BLACK LABEL 1L",
+            "fantasia": "DIAGEO",
+            "qt": 6,
+            "valor": 833.4
+          }
+        ]
+      },
+      {
+        "codcli": "33265",
+        "cliente": "SUPERMERCADO PARANAIBA BELA VISTA LTDA",
+        "bairro": "BELA VISTA",
+        "dtultcomp": "21/07/2026",
+        "produtos": [
+          {
+            "produto": "WHISKY J WALKER BLACK LABEL 1L",
+            "fantasia": "DIAGEO",
+            "qt": 3,
+            "valor": 416.7
+          }
+        ]
+      },
+      {
+        "codcli": "35137",
+        "cliente": "SUPERMERCADOS CIDADE LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "21/07/2026",
+        "produtos": [
+          {
+            "produto": "VODKA SMIRNOFF RED 998 ML",
+            "fantasia": "DIAGEO",
+            "qt": 12,
+            "valor": 294.0
+          },
+          {
+            "produto": "WHISKY WALKER RED LABEL 1L",
+            "fantasia": "DIAGEO",
+            "qt": 36,
+            "valor": 2444.4
+          }
+        ]
+      },
+      {
+        "codcli": "37501",
+        "cliente": "SUPERMERCADOS CIDADE LTDA",
+        "bairro": "NOVA PAMPULHA",
+        "dtultcomp": "21/07/2026",
+        "produtos": [
+          {
+            "produto": "WHISKY WALKER RED LABEL 1L",
+            "fantasia": "DIAGEO",
+            "qt": 36,
+            "valor": 2444.4
+          }
+        ]
+      },
+      {
+        "codcli": "37718",
+        "cliente": "PARANAIBA VALE DAS ORQUIDEAS ALIMENTOS LTDA",
+        "bairro": "VALE DAS ORQUÍDEAS",
+        "dtultcomp": "22/07/2026",
+        "produtos": [
+          {
+            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
+            "fantasia": "DON LUIZ",
+            "qt": 60,
+            "valor": 4494.0
+          }
+        ]
+      },
+      {
+        "codcli": "38022",
+        "cliente": "COMERCIAL JP ALIMENTOS LTDA",
+        "bairro": "JOÃO PINHEIRO",
+        "dtultcomp": "23/07/2026",
+        "produtos": [
+          {
+            "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
+            "fantasia": "PERNOD",
+            "qt": 6,
+            "valor": 149.4
+          },
+          {
+            "produto": "RUM MONTILLA OURO 1000ML",
+            "fantasia": "PERNOD",
+            "qt": 6,
+            "valor": 149.4
+          }
+        ]
+      },
+      {
+        "codcli": "38025",
+        "cliente": "LATICINIOS DA LAPA LTDA",
+        "bairro": "DOM PEDRO I",
+        "dtultcomp": "23/07/2026",
+        "produtos": [
+          {
+            "produto": "AZEITE DE OLIVA EV ESSENZA 500ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 346.8
+          }
+        ]
+      },
+      {
+        "codcli": "38044",
+        "cliente": "CONFINS COMERCIO VAREJISTA DE PRODUTOS INDUSTRIALIZADOS LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "24/07/2026",
+        "produtos": [
+          {
+            "produto": "CERVEJA HEINEKEN  LONG ZERO 24X330ML",
+            "fantasia": "HEINEKEN",
+            "qt": 2,
+            "valor": 282.72
+          },
+          {
+            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+            "fantasia": "HEINEKEN",
+            "qt": 6,
+            "valor": 848.16
+          }
+        ]
+      },
+      {
+        "codcli": "37627",
+        "cliente": "PARANAIBA JABOTICATUBAS ALIMENTOS LTDA",
+        "bairro": "SÃO BENEDITO",
+        "dtultcomp": "24/07/2026",
+        "produtos": [
+          {
+            "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+            "fantasia": "AURORA",
+            "qt": 6,
+            "valor": 899.4
+          },
+          {
+            "produto": "WHISKY J WALKER BLACK LABEL 1L",
+            "fantasia": "DIAGEO",
+            "qt": 6,
+            "valor": 833.4
+          }
+        ]
+      },
+      {
+        "codcli": "33186",
+        "cliente": "PARANAIBA PEDRO LEOPOLDO ALIMENTOS LTDA",
+        "bairro": "DISTRITO LAGOA SANTO ANTONIO",
+        "dtultcomp": "24/07/2026",
+        "produtos": [
+          {
+            "produto": "GIN GORDONS PINK 700ML",
+            "fantasia": "DIAGEO",
+            "qt": 6,
+            "valor": 329.4
+          }
+        ]
+      },
+      {
+        "codcli": "39321",
+        "cliente": "JEFERSON COSTA CARDOSO",
+        "bairro": "VILA ZILAH SPÓSITO",
+        "dtultcomp": "27/07/2026",
+        "produtos": [
+          {
+            "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
+            "fantasia": "HEINEKEN",
+            "qt": 3,
+            "valor": 158.04
+          }
+        ]
+      },
+      {
+        "codcli": "38373",
+        "cliente": "MERCADO FOOD EMBALAGENS E LATICINIOS LTDA",
+        "bairro": "SOBRADINHO",
+        "dtultcomp": "27/07/2026",
+        "produtos": [
+          {
+            "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
+            "fantasia": "HEINEKEN",
+            "qt": 2,
+            "valor": 105.36
+          },
+          {
+            "produto": "CERVEJA HEINEKEN 12X473ML (LATAO)",
+            "fantasia": "HEINEKEN",
+            "qt": 2,
+            "valor": 143.76
+          }
+        ]
+      },
+      {
+        "codcli": "38575",
+        "cliente": "MARIA PAULINA VIEIRA",
+        "bairro": "CENTRO",
+        "dtultcomp": "28/07/2026",
+        "produtos": [
+          {
+            "produto": "CERVEJA HEINEKEN RETORNAVEL 24X600ML",
+            "fantasia": "HEINEKEN",
+            "qt": 2,
+            "valor": 436.32
+          }
+        ]
+      },
+      {
+        "codcli": "29386",
+        "cliente": "SUPERMERCADO PARANAIBA JARDIM ITAU LTDA",
+        "bairro": "PARQUE JARDIM ITAÚ",
+        "dtultcomp": "28/07/2026",
+        "produtos": [
+          {
+            "produto": "AMARULA C LIQUEUR 750 ML",
+            "fantasia": "AURORA",
+            "qt": 3,
+            "valor": 329.7
+          },
+          {
+            "produto": "MARTINI BIANCO 750 ML",
+            "fantasia": "BACARDI-MARTINI ",
+            "qt": 6,
+            "valor": 227.4
+          }
+        ]
+      },
+      {
+        "codcli": "30538",
+        "cliente": "DAKI BELO HORIZONTE LTDA",
+        "bairro": "ARVOREDO 2ª SECAO",
+        "dtultcomp": "29/07/2026",
+        "produtos": [
+          {
+            "produto": "GIN TANQUERAY  750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 12,
+            "valor": 1234.8
+          },
+          {
+            "produto": "SMIR ICE REGULAR - 0.269 LT  X 24",
+            "fantasia": "DIAGEO",
+            "qt": 9,
+            "valor": 926.64
+          },
+          {
+            "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
+            "fantasia": "DIAGEO",
+            "qt": 7,
+            "valor": 922.32
+          },
+          {
+            "produto": "VODKA SMIRNOFF RED 998 ML",
+            "fantasia": "DIAGEO",
+            "qt": 108,
+            "valor": 3769.2
+          },
+          {
+            "produto": "WHISKY J WALKER BLACK LABEL 1L",
+            "fantasia": "DIAGEO",
+            "qt": 12,
+            "valor": 1894.8
+          },
+          {
+            "produto": "WHISKY OLD PARR GOLD 1 L",
+            "fantasia": "DIAGEO",
+            "qt": 24,
+            "valor": 3408.0
+          },
+          {
+            "produto": "WHISKY WALKER RED LABEL 1L",
+            "fantasia": "DIAGEO",
+            "qt": 36,
+            "valor": 2876.4
+          }
+        ]
+      },
+      {
+        "codcli": "29335",
+        "cliente": "PARANAIBA CENTRO SUPERMERCADO LTDA",
+        "bairro": "JARDIM DO CAMPINHO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "JACK DANIELS HONEY 1 L",
+            "fantasia": "BROWN-FORMAN",
+            "qt": 3,
+            "valor": 389.7
+          },
+          {
+            "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+            "fantasia": "AURORA",
+            "qt": 3,
+            "valor": 449.7
+          },
+          {
+            "produto": "WHISKY J WALKER BLACK LABEL 1L",
+            "fantasia": "DIAGEO",
+            "qt": 6,
+            "valor": 917.4
+          }
+        ]
+      },
+      {
+        "codcli": "29514",
+        "cliente": "PARANAIBA GUANABARA ALIMENTOS LTDA",
+        "bairro": "JARDIM GUANABARA",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+            "fantasia": "AURORA",
+            "qt": 3,
+            "valor": 449.7
+          }
+        ]
+      },
+      {
+        "codcli": "37705",
+        "cliente": "PARANAIBA VILA DAS FLORES ALIMENTOS LTDA",
+        "bairro": "VILA DAS FLORES",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "GIN GORDONS 750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 6,
+            "valor": 335.4
+          }
+        ]
+      },
+      {
         "codcli": "39613",
         "cliente": "APAIVA PANIFICACAO LTDA",
         "bairro": "NOSSA SENHORA DO CARMO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39717",
+        "cliente": "DISTRIBUIDORA BETAO AGUA E GAS LTDA.",
+        "bairro": "VÁRZEA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39715",
+        "cliente": "LAREIRA ENTRE SERRAS INDUSTRIA E COMERCIO LTDA",
+        "bairro": "VÁRZEA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39718",
+        "cliente": "MALAL EMPREENDIMENTOS LTDA",
+        "bairro": "JARDIM IMPERIAL",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -2873,6 +7438,13 @@ const NAO_POS_MG_DATA = {
         "codcli": "39610",
         "cliente": "REDE BONZAO DE SUPERMERCADOS LTDA",
         "bairro": "CIDADE DE DEUS",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39720",
+        "cliente": "SUPERMERCADOS E PANIFICADORA ZECA LTDA",
+        "bairro": "VILA MARIA III",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -2994,44 +7566,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "HEINEKEN",
             "qt": 1,
             "valor": 213.36
-          }
-        ]
-      },
-      {
-        "codcli": "39008",
-        "cliente": "ORGANIZACOES TOP ALIMENTOS LTDA",
-        "bairro": "DISTRITO INDUSTRIAL SIMÃO DA CUNHA",
-        "dtultcomp": "25/05/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL MAÇA SF 250ML  C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 188.16
-          },
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 188.16
-          },
-          {
-            "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 188.16
-          },
-          {
-            "produto": "RED BULL SUGAR FREE 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 376.32
-          },
-          {
-            "produto": "RED BULL TROPICAL 24X250 ML - ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 188.16
           }
         ]
       },
@@ -3222,6 +7756,32 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "37498",
+        "cliente": "ESTORIL CONVENIENCIA LTDA",
+        "bairro": "ÁGUA BRANCA",
+        "dtultcomp": "09/06/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 2,
+            "valor": 373.92
+          },
+          {
+            "produto": "RED BULL AMORA 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 186.96
+          },
+          {
+            "produto": "RED BULL MELÃO MARACUJA 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 186.96
+          }
+        ]
+      },
+      {
         "codcli": "32135",
         "cliente": "POINT BEER BETANIA LTDA",
         "bairro": "BETANIA",
@@ -3386,32 +7946,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30323",
-        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "SANTO ANTONIO",
-        "dtultcomp": "23/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 89.88
-          },
-          {
-            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 89.88
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 179.76
-          }
-        ]
-      },
-      {
         "codcli": "38776",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
         "bairro": "ESTORIL",
@@ -3440,6 +7974,32 @@ const NAO_POS_MG_DATA = {
             "fantasia": "RED BULL",
             "qt": 1,
             "valor": 29.96
+          },
+          {
+            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 179.76
+          }
+        ]
+      },
+      {
+        "codcli": "30323",
+        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
+        "bairro": "SANTO ANTONIO",
+        "dtultcomp": "23/06/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK RED BULL MELANCIA",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 89.88
+          },
+          {
+            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 89.88
           },
           {
             "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
@@ -3506,22 +8066,1514 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "34631",
-        "cliente": "WORLD RESTAURANTE E LANCHONETE LTDA",
-        "bairro": "FUNCIONÁRIOS",
-        "dtultcomp": "26/06/2026",
+        "codcli": "34476",
+        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
+        "bairro": "SAGRADA FAMÍLIA",
+        "dtultcomp": "02/07/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 191.76
+          },
+          {
+            "produto": "RED BULL MAÇA SF 250ML  C/24 UNID",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 383.52
+          },
+          {
+            "produto": "RED BULL ZERO 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 191.76
+          }
+        ]
+      },
+      {
+        "codcli": "33623",
+        "cliente": "DUARTE E FRAGA COMERCIO DE ALIMENTOS LTDA",
+        "bairro": "LOURDES",
+        "dtultcomp": "03/07/2026",
+        "produtos": [
+          {
+            "produto": "CERRO DE PEDRA PARC CAB. FRANC TTO 750ML",
+            "fantasia": "",
+            "qt": 3,
+            "valor": 254.7
+          },
+          {
+            "produto": "CERRO DE PEDRA PARC. MERLOT TTO 750ML",
+            "fantasia": "",
+            "qt": 2,
+            "valor": 169.8
+          },
+          {
+            "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
+            "fantasia": "CASTAS",
+            "qt": 8,
+            "valor": 439.2
+          },
+          {
+            "produto": "VINHO ARESTI EST SEL MERLOT 750ML",
+            "fantasia": "CASTAS",
+            "qt": 4,
+            "valor": 219.6
+          },
+          {
+            "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+            "fantasia": "CASTAS",
+            "qt": 5,
+            "valor": 94.5
+          },
+          {
+            "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 2,
+            "valor": 159.8
+          }
+        ]
+      },
+      {
+        "codcli": "36311",
+        "cliente": "COMERCIAL TROPICO LTDA",
+        "bairro": "LIBERDADE",
+        "dtultcomp": "06/07/2026",
+        "produtos": [
+          {
+            "produto": "WHISKY JACK DANIELS 375 ML",
+            "fantasia": "BROWN-FORMAN",
+            "qt": 5,
+            "valor": 274.5
+          }
+        ]
+      },
+      {
+        "codcli": "39578",
+        "cliente": "BRPULLEYS INDUSTRIA, COMERCIO E SERVICOS LTDA",
+        "bairro": "RIACHO DAS PEDRAS",
+        "dtultcomp": "07/07/2026",
+        "produtos": [
+          {
+            "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+            "fantasia": "LVMH",
+            "qt": 3,
+            "valor": 298.5
+          },
+          {
+            "produto": "MAMBA WATER C/GAS CX C/12",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 37.08
+          },
+          {
+            "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+            "fantasia": "PERNOD",
+            "qt": 36,
+            "valor": 4280.4
+          }
+        ]
+      },
+      {
+        "codcli": "31944",
+        "cliente": "THE BEAT TRAINING ACADEMIA DE GINASTICA LTDA",
+        "bairro": "VILA DA SERRA",
+        "dtultcomp": "07/07/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL ZERO 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 5,
+            "valor": 958.8
+          }
+        ]
+      },
+      {
+        "codcli": "31547",
+        "cliente": "MEET PORCAO LTDA",
+        "bairro": "SAO BENTO",
+        "dtultcomp": "08/07/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL MELANCIA 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 364.32
+          },
+          {
+            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 546.48
+          },
+          {
+            "produto": "RED BULL ZERO 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 182.16
+          }
+        ]
+      },
+      {
+        "codcli": "36021",
+        "cliente": "MFB COMERCIAL LTDA",
+        "bairro": "VALE DO SERENO",
+        "dtultcomp": "08/07/2026",
+        "produtos": [
+          {
+            "produto": "GIN TANQUERAY  750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 2,
+            "valor": 187.8
+          },
+          {
+            "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+            "fantasia": "AURORA",
+            "qt": 4,
+            "valor": 599.6
+          }
+        ]
+      },
+      {
+        "codcli": "36027",
+        "cliente": "ORGANIZACAO MAAS LTDA",
+        "bairro": "ANCHIETA",
+        "dtultcomp": "08/07/2026",
+        "produtos": [
+          {
+            "produto": "VINHO ARESTI EST SEL CARMENERE 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 329.4
+          }
+        ]
+      },
+      {
+        "codcli": "39394",
+        "cliente": "BAR E RESTAURANTE FONSECA LTDA",
+        "bairro": "SANTA TEREZA",
+        "dtultcomp": "09/07/2026",
+        "produtos": [
+          {
+            "produto": "APERITIVO APEROL 750 ML",
+            "fantasia": "",
+            "qt": 6,
+            "valor": 293.4
+          },
+          {
+            "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
+            "fantasia": "DIAGEO",
+            "qt": 2,
+            "valor": 301.8
+          }
+        ]
+      },
+      {
+        "codcli": "30059",
+        "cliente": "BRAVA RESTAURANT CELEBRATION LTDA",
+        "bairro": "CONDE",
+        "dtultcomp": "09/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA TINTO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 10,
+            "valor": 429.0
+          }
+        ]
+      },
+      {
+        "codcli": "34348",
+        "cliente": "COMERCIAL PRISMA LTDA",
+        "bairro": "PEDRA AZUL",
+        "dtultcomp": "09/07/2026",
+        "produtos": [
+          {
+            "produto": "BEEFEATER PINK 700ML",
+            "fantasia": "PERNOD",
+            "qt": 3,
+            "valor": 224.7
+          },
+          {
+            "produto": "WHISKY JACK DANIELS BLACKBERRY 1L",
+            "fantasia": "BROWN-FORMAN",
+            "qt": 2,
+            "valor": 279.8
+          }
+        ]
+      },
+      {
+        "codcli": "31096",
+        "cliente": "PLAYBAR LTDA",
+        "bairro": "ESTORIL",
+        "dtultcomp": "09/07/2026",
+        "produtos": [
+          {
+            "produto": "VODKA ABSOLUT - 1 LITRO",
+            "fantasia": "PERNOD",
+            "qt": 2,
+            "valor": 149.8
+          },
+          {
+            "produto": "WHISKY WALKER RED LABEL 1L",
+            "fantasia": "DIAGEO",
+            "qt": 2,
+            "valor": 141.8
+          },
+          {
+            "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
+            "fantasia": "MONIN",
+            "qt": 3,
+            "valor": 149.7
+          }
+        ]
+      },
+      {
+        "codcli": "33881",
+        "cliente": "BAR E RESTAURANTE BARDO MAGO LTDA",
+        "bairro": "SAGRADA FAMILIA",
+        "dtultcomp": "10/07/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN MAR GF 750ML",
+            "fantasia": "YVY",
+            "qt": 8,
+            "valor": 319.2
+          }
+        ]
+      },
+      {
+        "codcli": "33947",
+        "cliente": "LANCHONETE PONTO DE PROSA LTDA",
+        "bairro": "PADRE EUSTAQUIO",
+        "dtultcomp": "10/07/2026",
+        "produtos": [
+          {
+            "produto": "HUMB. CANALE DENARIO MALBEC 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 449.4
+          }
+        ]
+      },
+      {
+        "codcli": "30615",
+        "cliente": "BURITIS CONVENIENCIA LTDA",
+        "bairro": "ESTORIL",
+        "dtultcomp": "13/07/2026",
+        "produtos": [
+          {
+            "produto": "WHISKY ESC MACALLAN DOUBLE 12 YO 700ML",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 1,
+            "valor": 799.0
+          }
+        ]
+      },
+      {
+        "codcli": "37500",
+        "cliente": "ESTORIL CONVENIENCIA LTDA",
+        "bairro": "AEROPORTO",
+        "dtultcomp": "13/07/2026",
+        "produtos": [
+          {
+            "produto": "J W BLACK LABEL 12/50 ML",
+            "fantasia": "DIAGEO",
+            "qt": 1,
+            "valor": 250.8
+          },
+          {
+            "produto": "MINIATURA BEEFEATER  12 X 50ML",
+            "fantasia": "PERNOD",
+            "qt": 1,
+            "valor": 153.9
+          }
+        ]
+      },
+      {
+        "codcli": "31850",
+        "cliente": "LA MACELLERIA VILA DA SERRA ACOUGUE GOURMET E RESTAURANTE LT",
+        "bairro": "VILA DA SERRA",
+        "dtultcomp": "13/07/2026",
+        "produtos": [
+          {
+            "produto": "APERITIVO APEROL 750 ML",
+            "fantasia": "",
+            "qt": 3,
+            "valor": 128.7
+          },
+          {
+            "produto": "VODKA ABSOLUT - 1 LITRO",
+            "fantasia": "PERNOD",
+            "qt": 3,
+            "valor": 224.7
+          }
+        ]
+      },
+      {
+        "codcli": "34010",
+        "cliente": "NOVA UAINER VINHOS E ENTRETENIMENTO LTDA",
+        "bairro": "OLHOS D'ÁGUA",
+        "dtultcomp": "14/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 257.4
+          },
+          {
+            "produto": "VILLA ROSA TINTO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 10,
+            "valor": 429.0
+          }
+        ]
+      },
+      {
+        "codcli": "33722",
+        "cliente": "POUSADA CANTO DOS PRAZERES LTDA.",
+        "bairro": "LAVRAS NOVAS",
+        "dtultcomp": "14/07/2026",
+        "produtos": [
+          {
+            "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 226.8
+          },
+          {
+            "produto": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 226.8
+          }
+        ]
+      },
+      {
+        "codcli": "30984",
+        "cliente": "ESTACAO PARADA DO CARDOSO PIZZARIA E RESTAURANTE LTDA",
+        "bairro": "SANTA TEREZA",
+        "dtultcomp": "15/07/2026",
+        "produtos": [
+          {
+            "produto": "VINHO ARESTI EST SEL PINOT NOIR 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 329.4
+          },
+          {
+            "produto": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
+            "fantasia": "CASTAS",
+            "qt": 24,
+            "valor": 453.6
+          }
+        ]
+      },
+      {
+        "codcli": "33464",
+        "cliente": "KRABI EXPRESS RESTAURANTE LTDA",
+        "bairro": "SANTO AGOSTINHO",
+        "dtultcomp": "15/07/2026",
+        "produtos": [
+          {
+            "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+            "fantasia": "CASTAS",
+            "qt": 24,
+            "valor": 453.6
+          },
+          {
+            "produto": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
+            "fantasia": "CASTAS",
+            "qt": 24,
+            "valor": 453.6
+          }
+        ]
+      },
+      {
+        "codcli": "32690",
+        "cliente": "ODOYA BH LTDA",
+        "bairro": "SAVASSI",
+        "dtultcomp": "15/07/2026",
+        "produtos": [
+          {
+            "produto": "AZEITE DE OLIVA EV ESSENZA 5L",
+            "fantasia": "NSG",
+            "qt": 1,
+            "valor": 267.9
+          }
+        ]
+      },
+      {
+        "codcli": "38497",
+        "cliente": "PRODUTOS ALIMENTICIOS BETINENSE LTDA",
+        "bairro": "CHÁCARA",
+        "dtultcomp": "15/07/2026",
+        "produtos": [
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 360,
+            "valor": 7351.2
+          },
+          {
+            "produto": "WHISKY OLD PARR GOLD 1 L",
+            "fantasia": "DIAGEO",
+            "qt": 60,
+            "valor": 7494.0
+          },
+          {
+            "produto": "XAROPE MONIN LIMAO SICILIANO 700 ML",
+            "fantasia": "MONIN",
+            "qt": 24,
+            "valor": 1077.6
+          },
+          {
+            "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
+            "fantasia": "MONIN",
+            "qt": 24,
+            "valor": 1077.6
+          },
+          {
+            "produto": "XAROPE MONIN MELANCIA 700ML",
+            "fantasia": "MONIN",
+            "qt": 24,
+            "valor": 1077.6
+          },
+          {
+            "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
+            "fantasia": "MONIN",
+            "qt": 24,
+            "valor": 1077.6
+          }
+        ]
+      },
+      {
+        "codcli": "30341",
+        "cliente": "R. X. CLEMENTE",
+        "bairro": "BURITIS",
+        "dtultcomp": "15/07/2026",
+        "produtos": [
+          {
+            "produto": "APERITIVO APEROL 750 ML",
+            "fantasia": "",
+            "qt": 4,
+            "valor": 171.6
+          },
+          {
+            "produto": "CACHACA SELETA 600ML",
+            "fantasia": "SELETA",
+            "qt": 6,
+            "valor": 209.4
+          },
+          {
+            "produto": "WHISKY JACK DANIELS 1L",
+            "fantasia": "BROWN-FORMAN",
+            "qt": 1,
+            "valor": 129.9
+          }
+        ]
+      },
+      {
+        "codcli": "29613",
+        "cliente": "CADAR ALIMENTACAO LTDA",
+        "bairro": "SÃO BENTO",
+        "dtultcomp": "16/07/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 8,
+            "valor": 319.2
+          }
+        ]
+      },
+      {
+        "codcli": "38122",
+        "cliente": "ESPETINHO DO BOLOTA - REI DA PICANHA LTDA",
+        "bairro": "CÉU AZUL",
+        "dtultcomp": "16/07/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 383.52
+          },
+          {
+            "produto": "RED BULL MELANCIA 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 383.52
+          },
+          {
+            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 383.52
+          }
+        ]
+      },
+      {
+        "codcli": "36583",
+        "cliente": "RESTAURANTE E CHURRASCARIA CHEFAO LTDA",
+        "bairro": "JARDIM CANADA",
+        "dtultcomp": "16/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA TINTO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 2,
+            "valor": 85.8
+          },
+          {
+            "produto": "VINHO ARESTI EST SEL CHARDONNAY 750ML",
+            "fantasia": "CASTAS",
+            "qt": 1,
+            "valor": 54.9
+          },
+          {
+            "produto": "VINHO ARESTI EST SEL MERLOT 750ML",
+            "fantasia": "CASTAS",
+            "qt": 2,
+            "valor": 109.8
+          },
+          {
+            "produto": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
+            "fantasia": "CASTAS",
+            "qt": 8,
+            "valor": 151.2
+          },
+          {
+            "produto": "VINHO MARQUÉS DE TEJARES 750ML",
+            "fantasia": "CASTAS",
+            "qt": 1,
+            "valor": 57.9
+          }
+        ]
+      },
+      {
+        "codcli": "38612",
+        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
+        "bairro": "JARDIM ATLÂNTICO",
+        "dtultcomp": "17/07/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK RED BULL TROPICAL",
+            "fantasia": "RED BULL",
+            "qt": 4,
+            "valor": 123.04
+          },
+          {
+            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 184.56
+          }
+        ]
+      },
+      {
+        "codcli": "34920",
+        "cliente": "RESTAURANTE BETANIA LTDA",
+        "bairro": "BETANIA",
+        "dtultcomp": "17/07/2026",
+        "produtos": [
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 24,
+            "valor": 503.76
+          }
+        ]
+      },
+      {
+        "codcli": "30089",
+        "cliente": "VILLA FERNANDA FOODS LTDA",
+        "bairro": "VILA DA SERRA",
+        "dtultcomp": "17/07/2026",
+        "produtos": [
+          {
+            "produto": "J W BLACK LABEL 12/50 ML",
+            "fantasia": "DIAGEO",
+            "qt": 2,
+            "valor": 501.6
+          },
+          {
+            "produto": "J W RED LABEL 12/50 ML",
+            "fantasia": "DIAGEO",
+            "qt": 4,
+            "valor": 311.6
+          },
+          {
+            "produto": "MINIATURA BEEFEATER  12 X 50ML",
+            "fantasia": "PERNOD",
+            "qt": 2,
+            "valor": 307.8
+          },
+          {
+            "produto": "MINIATURA CHIVAS 12YO 12 X 50ML",
+            "fantasia": "PERNOD",
+            "qt": 2,
+            "valor": 319.8
+          },
+          {
+            "produto": "MINIATURA JAMESON 12 X 50ML",
+            "fantasia": "PERNOD",
+            "qt": 1,
+            "valor": 99.9
+          }
+        ]
+      },
+      {
+        "codcli": "30423",
+        "cliente": "COMERCIAL GOUVEIA E VIEIRA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "20/07/2026",
+        "produtos": [
+          {
+            "produto": "ESPUMANTE ALUD BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 3,
+            "valor": 134.7
+          },
+          {
+            "produto": "ESPUMANTE ALUD ROSE 750ML",
+            "fantasia": "CASTAS",
+            "qt": 3,
+            "valor": 134.7
+          },
+          {
+            "produto": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
+            "fantasia": "CASTAS",
+            "qt": 10,
+            "valor": 189.0
+          }
+        ]
+      },
+      {
+        "codcli": "38332",
+        "cliente": "ELEGANCE DRINKS E COQUETEIS LTDA",
+        "bairro": "ARAGUAIA",
+        "dtultcomp": "20/07/2026",
+        "produtos": [
+          {
+            "produto": "VODKA SMIRNOFF RED 998 ML",
+            "fantasia": "DIAGEO",
+            "qt": 24,
+            "valor": 588.0
+          }
+        ]
+      },
+      {
+        "codcli": "31893",
+        "cliente": "NOMAD SPORTS COMERCIO LTDA",
+        "bairro": "JARDIM CANADÁ",
+        "dtultcomp": "20/07/2026",
+        "produtos": [
+          {
+            "produto": "VINHO GRAVEDAD CARMENERE 750ML",
+            "fantasia": "CASTAS",
+            "qt": 20,
+            "valor": 750.0
+          }
+        ]
+      },
+      {
+        "codcli": "37622",
+        "cliente": "KESCO ENGENHARIA E COMERCIO LTDA",
+        "bairro": "SÃO LUIZ",
+        "dtultcomp": "21/07/2026",
+        "produtos": [
+          {
+            "produto": "CERVEJA HEINEKEN RETORNAVEL 24X600ML",
+            "fantasia": "HEINEKEN",
+            "qt": 2,
+            "valor": 436.32
+          },
+          {
+            "produto": "MINIATURA CAN FIREBALL C/12",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 58.68
+          }
+        ]
+      },
+      {
+        "codcli": "35229",
+        "cliente": "LA MACELLERIA LOURDES ACOUGUE GOURMET E RESTAURANTE LTDA",
+        "bairro": "LOURDES",
+        "dtultcomp": "21/07/2026",
+        "produtos": [
+          {
+            "produto": "APERITIVO APEROL 750 ML",
+            "fantasia": "",
+            "qt": 2,
+            "valor": 89.0
+          },
+          {
+            "produto": "RUM BACARDI CARTA BLANCA 980 ML",
+            "fantasia": "BACARDI",
+            "qt": 1,
+            "valor": 46.9
+          },
+          {
+            "produto": "WHISKY J WALKER BLACK LABEL 1L",
+            "fantasia": "DIAGEO",
+            "qt": 1,
+            "valor": 148.9
+          },
+          {
+            "produto": "WHISKY JACK DANIELS 1L",
+            "fantasia": "BROWN-FORMAN",
+            "qt": 1,
+            "valor": 129.9
+          }
+        ]
+      },
+      {
+        "codcli": "35402",
+        "cliente": "RAW E ALPES BEBIDAS LTDA",
+        "bairro": "RENASCENÇA",
+        "dtultcomp": "21/07/2026",
+        "produtos": [
+          {
+            "produto": "GIN GORDONS 750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 8,
+            "valor": 399.2
+          },
+          {
+            "produto": "VODKA SMIRNOFF RED 998 ML",
+            "fantasia": "DIAGEO",
+            "qt": 24,
+            "valor": 588.0
+          }
+        ]
+      },
+      {
+        "codcli": "34961",
+        "cliente": "RBL EMPREENDIMENTOS  STUDIO BIKE VILA DA SERRA  BH LTDA",
+        "bairro": "VILA DA SERRA",
+        "dtultcomp": "21/07/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK  RED BULL",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 87.78
+          },
+          {
+            "produto": "4 PACK  RED BULL  MAÇA SF",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 70.68
+          },
+          {
+            "produto": "4 PACK RED BULL ZERO",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 70.68
+          }
+        ]
+      },
+      {
+        "codcli": "38983",
+        "cliente": "COMERCIAL REIS LTDA",
+        "bairro": "NOVA VISTA",
+        "dtultcomp": "22/07/2026",
+        "produtos": [
+          {
+            "produto": "CACHACA BOAZINHA 1000ML",
+            "fantasia": "SELETA",
+            "qt": 12,
+            "valor": 442.8
+          }
+        ]
+      },
+      {
+        "codcli": "34958",
+        "cliente": "DIG EMPREENDIMENTOS - STUDIO BIKE LOURDES BH LTDA",
+        "bairro": "LOURDES",
+        "dtultcomp": "22/07/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK  RED BULL",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 87.78
+          },
+          {
+            "produto": "4 PACK  RED BULL  MAÇA SF",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 87.78
+          },
+          {
+            "produto": "4 PACK RED BULL ZERO",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 87.78
+          }
+        ]
+      },
+      {
+        "codcli": "33456",
+        "cliente": "FACA CERVEJA ARTESANAL LTDA",
+        "bairro": "SANTA LÚCIA",
+        "dtultcomp": "22/07/2026",
+        "produtos": [
+          {
+            "produto": "APERITIVO CAMPARI 998 ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 47.5
+          },
+          {
+            "produto": "MARTINI ROSSO 750 ML",
+            "fantasia": "BACARDI",
+            "qt": 1,
+            "valor": 49.9
+          },
+          {
+            "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+            "fantasia": "PERNOD",
+            "qt": 1,
+            "valor": 119.9
+          }
+        ]
+      },
+      {
+        "codcli": "31529",
+        "cliente": "MASSAS MADONINA LTDA",
+        "bairro": "SANTA AMELIA",
+        "dtultcomp": "22/07/2026",
+        "produtos": [
+          {
+            "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 36,
+            "valor": 2588.4
+          }
+        ]
+      },
+      {
+        "codcli": "35993",
+        "cliente": "MFB COMERCIAL LTDA",
+        "bairro": "SANTA EFIGÊNIA",
+        "dtultcomp": "22/07/2026",
+        "produtos": [
+          {
+            "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 4,
+            "valor": 319.6
+          }
+        ]
+      },
+      {
+        "codcli": "34405",
+        "cliente": "SHELF BAR E JOGOS LTDA",
+        "bairro": "SANTO ANTONIO",
+        "dtultcomp": "22/07/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN MAR GF 750ML",
+            "fantasia": "YVY",
+            "qt": 8,
+            "valor": 319.2
+          }
+        ]
+      },
+      {
+        "codcli": "34357",
+        "cliente": "VILLAGE FOODS LTDA",
+        "bairro": "VALE DO SERENO",
+        "dtultcomp": "22/07/2026",
+        "produtos": [
+          {
+            "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 479.4
+          }
+        ]
+      },
+      {
+        "codcli": "37813",
+        "cliente": "ARMAZEM BELO HORIZONTE COMERCIO DE BEBIDAS E CONEXOS LTDA",
+        "bairro": "RIO BRANCO",
+        "dtultcomp": "23/07/2026",
+        "produtos": [
+          {
+            "produto": "SMIR ICE REGULAR - 0.269 LT  X 24",
+            "fantasia": "DIAGEO",
+            "qt": 5,
+            "valor": 512.85
+          },
+          {
+            "produto": "SMIRNOFF ICE RASPBERRY -269ML LT CX 24",
+            "fantasia": "DIAGEO",
+            "qt": 3,
+            "valor": 314.7
+          }
+        ]
+      },
+      {
+        "codcli": "36510",
+        "cliente": "SUPERMERCADO ALIPAO LTDA",
+        "bairro": "ALÍPIO DE MELO",
+        "dtultcomp": "24/07/2026",
+        "produtos": [
+          {
+            "produto": "GIN GORDONS 750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 7,
+            "valor": 349.3
+          }
+        ]
+      },
+      {
+        "codcli": "37232",
+        "cliente": "SUSHI MIX LIBERDADE LTDA",
+        "bairro": "LIBERDADE",
+        "dtultcomp": "24/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA ROSE 750ML",
+            "fantasia": "CASTAS",
+            "qt": 5,
+            "valor": 179.5
+          },
+          {
+            "produto": "VILLA ROSA TINTO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 5,
+            "valor": 179.5
+          }
+        ]
+      },
+      {
+        "codcli": "35888",
+        "cliente": "SUSHI MIX PAMPULHA LTDA",
+        "bairro": "BANDEIRANTES (PAMPULHA)",
+        "dtultcomp": "24/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA ROSE 750ML",
+            "fantasia": "CASTAS",
+            "qt": 7,
+            "valor": 251.3
+          },
+          {
+            "produto": "VILLA ROSA TINTO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 19,
+            "valor": 682.1
+          }
+        ]
+      },
+      {
+        "codcli": "30203",
+        "cliente": "USINA DE ENTRETENIMENTOS LTDA",
+        "bairro": "BURITIS",
+        "dtultcomp": "24/07/2026",
+        "produtos": [
+          {
+            "produto": "ESPUMANTE ALUD BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 18,
+            "valor": 808.2
+          },
+          {
+            "produto": "VINHO ARESTI EST SEL CARMENERE 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 329.4
+          },
+          {
+            "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 461.4
+          }
+        ]
+      },
+      {
+        "codcli": "37162",
+        "cliente": "BAFF S COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+        "bairro": "GUTIERREZ",
+        "dtultcomp": "27/07/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK  RED BULL MORANGO PESSEGO",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 87.72
+          },
+          {
+            "produto": "4 PACK RED BULL TROPICAL",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 87.72
+          },
+          {
+            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 175.44
+          },
+          {
+            "produto": "RED BULL ZERO 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 175.44
+          }
+        ]
+      },
+      {
+        "codcli": "33853",
+        "cliente": "DRINKS & TAL LTDA",
+        "bairro": "CARMO",
+        "dtultcomp": "27/07/2026",
+        "produtos": [
+          {
+            "produto": "GIN GORDONS 750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 12,
+            "valor": 598.8
+          }
+        ]
+      },
+      {
+        "codcli": "39415",
+        "cliente": "PADARIA E CONFEITARIA DOS COMERCIANTES LTDA",
+        "bairro": "CÂNDIDA FERREIRA",
+        "dtultcomp": "27/07/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK  RED BULL",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 31.96
+          },
+          {
+            "produto": "4 PACK  RED BULL  MAÇA SF",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 31.96
+          },
+          {
+            "produto": "4 PACK  RED BULL MORANGO PESSEGO",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 31.96
+          },
+          {
+            "produto": "4 PACK RED BULL MELANCIA",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 31.96
+          },
+          {
+            "produto": "4 PACK RED BULL NECTARINA  SF",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 31.96
+          },
+          {
+            "produto": "4 PACK RED BULL POMELO SF",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 31.96
+          },
+          {
+            "produto": "4 PACK RED BULL SUGAR FREE",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 31.96
+          },
+          {
+            "produto": "4 PACK RED BULL TROPICAL",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 31.96
+          },
+          {
+            "produto": "4 PACK RED BULL WINTER JUNEBERRY/CEREJA",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 31.96
+          },
+          {
+            "produto": "4 PACK RED BULL ZERO",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 31.96
+          }
+        ]
+      },
+      {
+        "codcli": "34283",
+        "cliente": "ARCA SOLUCOES ALIMENTICIAS PARA COMERCIO LTDA",
+        "bairro": "NOVO GLORIA",
+        "dtultcomp": "28/07/2026",
+        "produtos": [
+          {
+            "produto": "WHISKY JACK DANIELS 1L",
+            "fantasia": "BROWN-FORMAN",
+            "qt": 1,
+            "valor": 139.9
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 280,
+            "valor": 9128.0
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR GF 750ML",
+            "fantasia": "YVY",
+            "qt": 20,
+            "valor": 798.0
+          }
+        ]
+      },
+      {
+        "codcli": "39240",
+        "cliente": "COMERCIAL NR LTDA",
+        "bairro": "CÂNDIDA FERREIRA",
+        "dtultcomp": "28/07/2026",
+        "produtos": [
+          {
+            "produto": "APERITIVO APEROL 750 ML",
+            "fantasia": "",
+            "qt": 2,
+            "valor": 89.0
+          },
+          {
+            "produto": "APERITIVO CAMPARI 998 ML",
+            "fantasia": "",
+            "qt": 2,
+            "valor": 99.8
+          },
+          {
+            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+            "fantasia": "HEINEKEN",
+            "qt": 2,
+            "valor": 287.52
+          }
+        ]
+      },
+      {
+        "codcli": "37495",
+        "cliente": "ESTORIL CONVENIENCIA LTDA",
+        "bairro": "NOVA SUÍSSA",
+        "dtultcomp": "28/07/2026",
         "produtos": [
           {
             "produto": "RED BULL 250ML CAIXA C/24 UNID",
             "fantasia": "RED BULL",
             "qt": 1,
-            "valor": 141.36
+            "valor": 179.76
           },
           {
             "produto": "RED BULL ZERO 24X250ML",
             "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 179.76
+          }
+        ]
+      },
+      {
+        "codcli": "35581",
+        "cliente": "GERALDINHO O CONCEITO DA CARNE LTDA",
+        "bairro": "ANCHIETA",
+        "dtultcomp": "28/07/2026",
+        "produtos": [
+          {
+            "produto": "CERVEJA HEINEKEN  LONG ZERO 24X330ML",
+            "fantasia": "HEINEKEN",
+            "qt": 1,
+            "valor": 143.76
+          },
+          {
+            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+            "fantasia": "HEINEKEN",
             "qt": 2,
-            "valor": 282.72
+            "valor": 287.52
+          }
+        ]
+      },
+      {
+        "codcli": "36028",
+        "cliente": "ORGANIZACOES JRF LTDA",
+        "bairro": "SÃO LUIZ",
+        "dtultcomp": "28/07/2026",
+        "produtos": [
+          {
+            "produto": "CACHACA SELETA 1000ML",
+            "fantasia": "SELETA",
+            "qt": 8,
+            "valor": 327.2
+          },
+          {
+            "produto": "GIN TANQUERAY  750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 2,
+            "valor": 187.8
+          }
+        ]
+      },
+      {
+        "codcli": "35152",
+        "cliente": "BEAGA DA GEMA BAR E RESTAURANTE LTDA",
+        "bairro": "BURITIS",
+        "dtultcomp": "29/07/2026",
+        "produtos": [
+          {
+            "produto": "APERITIVO APEROL 750 ML",
+            "fantasia": "",
+            "qt": 3,
+            "valor": 133.5
+          },
+          {
+            "produto": "GIN GORDONS 750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 6,
+            "valor": 299.4
+          },
+          {
+            "produto": "GIN TANQUERAY  750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 2,
+            "valor": 187.8
+          },
+          {
+            "produto": "WHISKY J WALKER BLACK LABEL 1L",
+            "fantasia": "DIAGEO",
+            "qt": 2,
+            "valor": 297.8
+          }
+        ]
+      },
+      {
+        "codcli": "34139",
+        "cliente": "CHEF PALMEIRA & CIA LTDA",
+        "bairro": "SAVASSI",
+        "dtultcomp": "29/07/2026",
+        "produtos": [
+          {
+            "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 329.4
+          },
+          {
+            "produto": "VINHO ARESTI EST SEL SAUV BLANC 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 329.4
+          },
+          {
+            "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+            "fantasia": "CASTAS",
+            "qt": 10,
+            "valor": 189.0
+          },
+          {
+            "produto": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
+            "fantasia": "CASTAS",
+            "qt": 10,
+            "valor": 189.0
+          },
+          {
+            "produto": "VINHO HORIZONTE BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 478.8
+          }
+        ]
+      },
+      {
+        "codcli": "33466",
+        "cliente": "DEL CARLO DRINKS LTDA.",
+        "bairro": "SANTA TEREZINHA",
+        "dtultcomp": "29/07/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN MAR GF 750ML",
+            "fantasia": "YVY",
+            "qt": 8,
+            "valor": 319.2
+          }
+        ]
+      },
+      {
+        "codcli": "30756",
+        "cliente": "JV COMERCIO DONA CLARA LTDA",
+        "bairro": "DONA CLARA",
+        "dtultcomp": "29/07/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 359.52
+          }
+        ]
+      },
+      {
+        "codcli": "34779",
+        "cliente": "NA MADRUGA BEER LTDA",
+        "bairro": "PALMEIRAS",
+        "dtultcomp": "29/07/2026",
+        "produtos": [
+          {
+            "produto": "GIN GORDONS 750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 12,
+            "valor": 598.8
+          }
+        ]
+      },
+      {
+        "codcli": "39702",
+        "cliente": "BLEND WINES COMERCIAL LTDA",
+        "bairro": "HAVAÍ",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+            "fantasia": "LVMH",
+            "qt": 12,
+            "valor": 1258.8
+          }
+        ]
+      },
+      {
+        "codcli": "34096",
+        "cliente": "MINAS 2000 LTDA",
+        "bairro": "MANGABEIRAS",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 329.4
+          },
+          {
+            "produto": "VINHO ARESTI EST SEL CARMENERE 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 329.4
+          },
+          {
+            "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+            "fantasia": "CASTAS",
+            "qt": 24,
+            "valor": 453.6
+          },
+          {
+            "produto": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
+            "fantasia": "CASTAS",
+            "qt": 22,
+            "valor": 415.8
+          }
+        ]
+      },
+      {
+        "codcli": "34916",
+        "cliente": "SODEXO DO BRASIL COMERCIAL S A",
+        "bairro": "IPIRANGA",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 10,
+            "valor": 1480.8
+          }
+        ]
+      },
+      {
+        "codcli": "33637",
+        "cliente": "DIAMOND FOODS LTDA",
+        "bairro": "UNIAO",
+        "dtultcomp": "31/07/2026",
+        "produtos": [
+          {
+            "produto": "VINHO ARESTI EST SEL PINOT NOIR 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 329.4
+          }
+        ]
+      },
+      {
+        "codcli": "31397",
+        "cliente": "DISTRIBUIDORA CABRAL BEER LTDA",
+        "bairro": "CABRAL",
+        "dtultcomp": "31/07/2026",
+        "produtos": [
+          {
+            "produto": "MINIATURA JAMESON 12 X 50ML",
+            "fantasia": "PERNOD",
+            "qt": 2,
+            "valor": 199.8
+          }
+        ]
+      },
+      {
+        "codcli": "39567",
+        "cliente": "DISTRITO BURITIS ENTRETENIMENTOS LTDA",
+        "bairro": "BURITIS",
+        "dtultcomp": "31/07/2026",
+        "produtos": [
+          {
+            "produto": "ESPUMANTE ALUD BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 269.4
+          }
+        ]
+      },
+      {
+        "codcli": "32231",
+        "cliente": "DOISMAISUM EMPREENDIMENTOS GASTRONOMICOS LTDA",
+        "bairro": "LOURDES",
+        "dtultcomp": "31/07/2026",
+        "produtos": [
+          {
+            "produto": "APERITIVO CAMPARI 998 ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 48.9
+          },
+          {
+            "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+            "fantasia": "AURORA",
+            "qt": 1,
+            "valor": 144.9
+          },
+          {
+            "produto": "NIB BITTER 150ML",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 99.0
+          },
+          {
+            "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
+            "fantasia": "MONIN",
+            "qt": 1,
+            "valor": 49.9
+          },
+          {
+            "produto": "XAROPE MONIN TANGERINA (MANDARIM) 700ML",
+            "fantasia": "MONIN",
+            "qt": 1,
+            "valor": 49.9
           }
         ]
       },
@@ -3529,22 +9581,49 @@ const NAO_POS_MG_DATA = {
         "codcli": "34388",
         "cliente": "MERCEARIA E BEBIDAS CAMPOS LTDA",
         "bairro": "NOVA CINTRA",
-        "dtultcomp": "30/06/2026",
+        "dtultcomp": "31/07/2026",
         "produtos": [
           {
             "produto": "WHISKY WALKER RED LABEL 1L",
             "fantasia": "DIAGEO",
-            "qt": 6,
-            "valor": 413.4
+            "qt": 5,
+            "valor": 330.0
           }
         ]
       },
       {
-        "codcli": "39553",
-        "cliente": "58.541.717 CLESIO MATEUS SANTOS GONCALVES",
-        "bairro": "HELIÓPOLIS",
-        "dtultcomp": "nan",
-        "produtos": []
+        "codcli": "39008",
+        "cliente": "ORGANIZACOES TOP ALIMENTOS LTDA",
+        "bairro": "DISTRITO INDUSTRIAL SIMÃO DA CUNHA",
+        "dtultcomp": "31/07/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 174.96
+          }
+        ]
+      },
+      {
+        "codcli": "34631",
+        "cliente": "WORLD RESTAURANTE E LANCHONETE LTDA",
+        "bairro": "FUNCIONÁRIOS",
+        "dtultcomp": "31/07/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 191.76
+          },
+          {
+            "produto": "RED BULL ZERO 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 383.52
+          }
+        ]
       }
     ],
     "WILLIAM ALVES DA SILVA": [
@@ -3825,6 +9904,138 @@ const NAO_POS_MG_DATA = {
             "fantasia": "DIAGEO",
             "qt": 6,
             "valor": 1174.38
+          }
+        ]
+      },
+      {
+        "codcli": "37449",
+        "cliente": "EDILSON AGOSTINHO DE AGUIAR 04220369600",
+        "bairro": "SANTA LUZIA",
+        "dtultcomp": "20/07/2026",
+        "produtos": [
+          {
+            "produto": "GIN TANQUERAY  750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 12,
+            "valor": 1174.8
+          },
+          {
+            "produto": "SMIR ICE REGULAR - 0.269 LT  X 24",
+            "fantasia": "DIAGEO",
+            "qt": 5,
+            "valor": 512.85
+          },
+          {
+            "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
+            "fantasia": "DIAGEO",
+            "qt": 5,
+            "valor": 649.5
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 36,
+            "valor": 752.4
+          },
+          {
+            "produto": "VODKA SMIRNOFF RED 998 ML",
+            "fantasia": "DIAGEO",
+            "qt": 36,
+            "valor": 882.0
+          }
+        ]
+      },
+      {
+        "codcli": "36532",
+        "cliente": "TIAGO'S DISTRIBUIDORA DE BEBIDAS LTDA",
+        "bairro": "AEROPORTO",
+        "dtultcomp": "20/07/2026",
+        "produtos": [
+          {
+            "produto": "GIN GORDONS 750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 36,
+            "valor": 1796.4
+          },
+          {
+            "produto": "VODKA SMIRNOFF RED 998 ML",
+            "fantasia": "DIAGEO",
+            "qt": 36,
+            "valor": 882.0
+          },
+          {
+            "produto": "WHISKY WALKER RED LABEL 1L",
+            "fantasia": "DIAGEO",
+            "qt": 36,
+            "valor": 2444.4
+          }
+        ]
+      },
+      {
+        "codcli": "36560",
+        "cliente": "ADEGA BEBIDAS LTDA",
+        "bairro": "BAIRU",
+        "dtultcomp": "21/07/2026",
+        "produtos": [
+          {
+            "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+            "fantasia": "PERNOD",
+            "qt": 12,
+            "valor": 1318.8
+          }
+        ]
+      },
+      {
+        "codcli": "33979",
+        "cliente": "BERNARDO GONCALVES DOMINGOS DE ABREU",
+        "bairro": "JARDIM DE ALÁ",
+        "dtultcomp": "21/07/2026",
+        "produtos": [
+          {
+            "produto": "VODKA SMIRNOFF RED 998 ML",
+            "fantasia": "DIAGEO",
+            "qt": 36,
+            "valor": 882.0
+          },
+          {
+            "produto": "WHISKY WALKER RED LABEL 1L",
+            "fantasia": "DIAGEO",
+            "qt": 36,
+            "valor": 2444.4
+          }
+        ]
+      },
+      {
+        "codcli": "30530",
+        "cliente": "DISTRIBUIDORA CAMPOS - BARBACENA LTDA",
+        "bairro": "PONTILHAO",
+        "dtultcomp": "27/07/2026",
+        "produtos": [
+          {
+            "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+            "fantasia": "LVMH",
+            "qt": 60,
+            "valor": 4980.0
+          }
+        ]
+      },
+      {
+        "codcli": "37026",
+        "cliente": "DISTRIBUIDORA DE BEBIDAS GELA GUELA LTDA",
+        "bairro": "SANTA HELENA",
+        "dtultcomp": "29/07/2026",
+        "produtos": [
+          {
+            "produto": "APERITIVO APEROL 750 ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 586.8
+          },
+          {
+            "produto": "APERITIVO CAMPARI 998 ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 658.8
           }
         ]
       }
