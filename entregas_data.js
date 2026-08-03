@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "03/08/2026 17:10",
+  "atualizado_em": "03/08/2026 17:26",
   "data_rota": "03.08",
   "vendedores": [
     {
@@ -1651,6 +1651,26 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "153001350",
+          "numnota": "",
+          "data": "03/08/2026",
+          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGA: 05/08",
+          "total": 179.4,
+          "itens": [
+            {
+              "desc": "VILLA ROSA TINTO 750ML",
+              "qt": 6,
+              "val": 179.4
+            }
+          ]
+        },
+        {
           "numped": "153001346",
           "numnota": "",
           "data": "03/08/2026",
@@ -1717,6 +1737,136 @@ const ENTREGAS_DATA = {
               "desc": "RC SARDINHA EM OLEO 50X125G",
               "qt": 5,
               "val": 997.5
+            }
+          ]
+        },
+        {
+          "numped": "153001351",
+          "numnota": "",
+          "data": "03/08/2026",
+          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGA: 05/08",
+          "total": 2708.34,
+          "itens": [
+            {
+              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+              "qt": 12,
+              "val": 718.8
+            },
+            {
+              "desc": "VILLA ROSA TINTO 750ML",
+              "qt": 24,
+              "val": 717.6
+            },
+            {
+              "desc": "VILLA ROSA BRANCO 750ML",
+              "qt": 6,
+              "val": 179.4
+            },
+            {
+              "desc": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
+              "qt": 3,
+              "val": 119.7
+            },
+            {
+              "desc": "VINHO BORDO QUINTA DO MORGADO 1LT",
+              "qt": 12,
+              "val": 238.8
+            },
+            {
+              "desc": "VINHO TINTO QUINTA DO MORGADO 750ML",
+              "qt": 24,
+              "val": 347.76
+            },
+            {
+              "desc": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
+              "qt": 12,
+              "val": 173.88
+            },
+            {
+              "desc": "VINHO BORDO QUINTA DO MORGADO 750ML",
+              "qt": 12,
+              "val": 212.4
+            }
+          ]
+        },
+        {
+          "numped": "153001352",
+          "numnota": "",
+          "data": "03/08/2026",
+          "cliente": "MERCADO RC DE ITAGUAI LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "ENTREGA: 04/08",
+          "total": 4005.84,
+          "itens": [
+            {
+              "desc": "RUM MONTILLA OURO 1L",
+              "qt": 6,
+              "val": 137.4
+            },
+            {
+              "desc": "RUM MONTILLA CRISTAL 1L",
+              "qt": 6,
+              "val": 137.4
+            },
+            {
+              "desc": "RUM MONTILLA CARTA BRANCA 1L",
+              "qt": 6,
+              "val": 137.4
+            },
+            {
+              "desc": "WHISKY BOURBON MAKERS MARK 750 ML",
+              "qt": 3,
+              "val": 449.7
+            },
+            {
+              "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+              "qt": 12,
+              "val": 718.8
+            },
+            {
+              "desc": "VINHO CASA PERINI TINTO SOLIDARIO 750ML",
+              "qt": 6,
+              "val": 245.4
+            },
+            {
+              "desc": "WHISKY JOHNNIE WALKER DOUBLE BLACK 1L",
+              "qt": 3,
+              "val": 569.7
+            },
+            {
+              "desc": "GIN ROCKS 1000ML",
+              "qt": 6,
+              "val": 133.2
+            },
+            {
+              "desc": "VINHO BORDO QUINTA DO MORGADO 1LT",
+              "qt": 24,
+              "val": 477.6
+            },
+            {
+              "desc": "VINHO TINTO QUINTA DO MORGADO 1LT",
+              "qt": 24,
+              "val": 477.6
+            },
+            {
+              "desc": "VINHO TINTO QUINTA DO MORGADO 750ML",
+              "qt": 24,
+              "val": 347.76
+            },
+            {
+              "desc": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
+              "qt": 12,
+              "val": 173.88
             }
           ]
         },
@@ -8481,6 +8631,36 @@ const ENTREGAS_DATA = {
           ]
         },
         {
+          "numped": "156003778",
+          "numnota": "",
+          "data": "03/08/2026",
+          "cliente": "POSTO MAR AZUL LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 284.1,
+          "itens": [
+            {
+              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            }
+          ]
+        },
+        {
           "numped": "156003775",
           "numnota": "",
           "data": "03/08/2026",
@@ -11052,6 +11232,121 @@ const ENTREGAS_DATA = {
       "nome": "RAPHAEL SANTOS - OFF TRADE",
       "em_rota": [],
       "nao_emitido": [
+        {
+          "numped": "155004050",
+          "numnota": "",
+          "data": "03/08/2026",
+          "cliente": "XERE BAR E RESTAURANTE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1190.7,
+          "itens": [
+            {
+              "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+              "qt": 6,
+              "val": 449.4
+            },
+            {
+              "desc": "CHABLIS PREMIER CRU VAILLONS 750ML",
+              "qt": 1,
+              "val": 289.9
+            },
+            {
+              "desc": "ESPUMANTE VILLA ROSA BLANC DE BLANCS",
+              "qt": 1,
+              "val": 84.9
+            },
+            {
+              "desc": "VINHO FINCA FELIZ TESORO TTO MALBEC",
+              "qt": 2,
+              "val": 239.8
+            },
+            {
+              "desc": "VILLA ROSA  ROSE 750ML",
+              "qt": 1,
+              "val": 36.9
+            },
+            {
+              "desc": "VINHO ARESTI ESTATE S. PINOT NOIR",
+              "qt": 2,
+              "val": 89.8
+            }
+          ]
+        },
+        {
+          "numped": "155004051",
+          "numnota": "",
+          "data": "03/08/2026",
+          "cliente": "XERE BAR E RESTAURANTE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 83.19,
+          "itens": [
+            {
+              "desc": "VINHO ARESTI ESTATE S. PINOT NOIR",
+              "qt": 3,
+              "val": 83.19
+            }
+          ]
+        },
+        {
+          "numped": "155004052",
+          "numnota": "",
+          "data": "03/08/2026",
+          "cliente": "BELLI BELLI RESTAURANTE EIRELI",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 354.5,
+          "itens": [
+            {
+              "desc": "WHISKY JIM BEAM HONEY 1L",
+              "qt": 1,
+              "val": 70.9
+            },
+            {
+              "desc": "WHISKY JIM BEAM WHITE 1L",
+              "qt": 4,
+              "val": 283.6
+            }
+          ]
+        },
+        {
+          "numped": "155004053",
+          "numnota": "",
+          "data": "03/08/2026",
+          "cliente": "BELLI BELLI RESTAURANTE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 283.6,
+          "itens": [
+            {
+              "desc": "WHISKY JIM BEAM HONEY 1L",
+              "qt": 2,
+              "val": 141.8
+            },
+            {
+              "desc": "WHISKY JIM BEAM WHITE 1L",
+              "qt": 2,
+              "val": 141.8
+            }
+          ]
+        },
         {
           "numped": "155004049",
           "numnota": "",
