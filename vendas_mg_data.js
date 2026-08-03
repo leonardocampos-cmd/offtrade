@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "03/08/2026 15:39",
+  "atualizado_em": "03/08/2026 16:56",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -114,8 +114,8 @@ const VENDAS_MG_DATA = {
         "fat_ano_ant": 0.0
       },
       "Ago/26": {
-        "fat": 1253.2,
-        "pos": 2,
+        "fat": 3712.9,
+        "pos": 3,
         "fat_ant": 115221.61,
         "fat_ano_ant": 0.0
       },
@@ -200,8 +200,8 @@ const VENDAS_MG_DATA = {
         "fat_ano_ant": 0.0
       },
       "Ago/26": {
-        "fat": 3243.3,
-        "pos": 3,
+        "fat": 4161.24,
+        "pos": 5,
         "fat_ant": 326368.49,
         "fat_ano_ant": 250737.2
       }
@@ -51572,6 +51572,36 @@ const VENDAS_MG_DATA = {
         }
       ],
       "Ago/26": [
+        {
+          "data": "03/08/2026",
+          "codcli": "31529",
+          "cliente": "MASSAS MADONINA LTDA",
+          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 461.4,
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
+          "codcli": "31529",
+          "cliente": "MASSAS MADONINA LTDA",
+          "produto": "VINHO CORSARINI MONTEPULCIANO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 15,
+          "valor": 943.5,
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
+          "codcli": "31529",
+          "cliente": "MASSAS MADONINA LTDA",
+          "produto": "HUMB. CANALE DENARIO RESERVA PINOT NOIR",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 1054.8,
+          "offtrade": true
+        },
         {
           "data": "03/08/2026",
           "codcli": "32690",
@@ -165580,6 +165610,46 @@ const VENDAS_MG_DATA = {
           "fantasia": "CASTAS",
           "qt": 24,
           "valor": 1917.6,
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
+          "codcli": "32884",
+          "cliente": "BAR A PORCA VOADORA LTDA",
+          "produto": "CERVEJA HEINEKEN RETORNAVEL 24X600ML",
+          "fantasia": "HEINEKEN",
+          "qt": 2,
+          "valor": 431.52,
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
+          "codcli": "32884",
+          "cliente": "BAR A PORCA VOADORA LTDA",
+          "produto": "BAER MATE LN  6X350ML",
+          "fantasia": "BETTER DRINKS",
+          "qt": 1,
+          "valor": 42.54,
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
+          "codcli": "32884",
+          "cliente": "BAR A PORCA VOADORA LTDA",
+          "produto": "ÁGUA SÃO LOURENÇO S/GÁS 510 ML",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 60.36,
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
+          "codcli": "33615",
+          "cliente": "MONKA CERVEJARIA LTDA",
+          "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 383.52,
           "offtrade": true
         },
         {
