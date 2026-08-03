@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "03/08/2026 14:48",
+  "atualizado_em": "03/08/2026 15:05",
   "data_rota": "03.08",
   "vendedores": [
     {
@@ -3757,6 +3757,51 @@ const ENTREGAS_DATA = {
               "desc": "WHISKY J WALKER BLACK LABEL 1L",
               "qt": 1,
               "val": 149.9
+            }
+          ]
+        },
+        {
+          "numped": "378000576",
+          "numnota": "",
+          "data": "03/08/2026",
+          "cliente": "37.514.649 YURI BRAZ TOME DE SOUZA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Favor entregar dia 04/08",
+          "total": 389.88,
+          "itens": [
+            {
+              "desc": "4 PACK RED BULL 250ML",
+              "qt": 1,
+              "val": 29.96
+            },
+            {
+              "desc": "WHISKY J WALKER BLACK LABEL 1L",
+              "qt": 2,
+              "val": 359.92
+            }
+          ]
+        },
+        {
+          "numped": "378000577",
+          "numnota": "",
+          "data": "03/08/2026",
+          "cliente": "37.514.649 YURI BRAZ TOME DE SOUZA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Favor entregar dia 04/08",
+          "total": 357.23,
+          "itens": [
+            {
+              "desc": "WHISKY J WALKER BLACK LABEL 1L",
+              "qt": 1,
+              "val": 357.23
             }
           ]
         }
@@ -10122,10 +10167,11 @@ const ENTREGAS_DATA = {
     {
       "nome": "NÁTALI DE OLIVEIRA - OFF TRADE",
       "em_rota": [],
-      "nao_emitido": [
+      "nao_emitido": [],
+      "emitido_s_rota": [
         {
           "numped": "419000767",
-          "numnota": "",
+          "numnota": "417846",
           "data": "03/08/2026",
           "cliente": "49.298.259 LUIS GUILHERME SOUZA DA ROSA",
           "placa": "",
@@ -10142,9 +10188,7 @@ const ENTREGAS_DATA = {
               "val": 1000.0
             }
           ]
-        }
-      ],
-      "emitido_s_rota": [
+        },
         {
           "numped": "419000673",
           "numnota": "407938",
@@ -10755,26 +10799,6 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
-          "numped": "155004044",
-          "numnota": "",
-          "data": "03/08/2026",
-          "cliente": "DISTRIBUIDORA G MARKET EIRELI ME",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 381.8,
-          "itens": [
-            {
-              "desc": "AGUA SAN PELLEGRINO C/GÁS 250ML",
-              "qt": 2,
-              "val": 381.8
-            }
-          ]
-        },
-        {
           "numped": "155004047",
           "numnota": "",
           "data": "03/08/2026",
@@ -10801,56 +10825,6 @@ const ENTREGAS_DATA = {
               "desc": "RUM BACARDI BIG APPLE 700ML",
               "qt": 1,
               "val": 30.5
-            }
-          ]
-        },
-        {
-          "numped": "155004045",
-          "numnota": "",
-          "data": "03/08/2026",
-          "cliente": "SB MONTENEGRO RESTAURANTE LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 3801.2,
-          "itens": [
-            {
-              "desc": "AGUA SAN PELLEGRINO C/GÁS 505ML",
-              "qt": 4,
-              "val": 1522.0
-            },
-            {
-              "desc": "AGUA PANNA S/GÁS 505 ML",
-              "qt": 8,
-              "val": 2279.2
-            }
-          ]
-        },
-        {
-          "numped": "155004046",
-          "numnota": "",
-          "data": "03/08/2026",
-          "cliente": "SANSE CAFE BISTRO LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 273.2,
-          "itens": [
-            {
-              "desc": "RUM BACARDI GOLD 980ML",
-              "qt": 3,
-              "val": 123.3
-            },
-            {
-              "desc": "WHISKY J WALKER BLACK LABEL 1L",
-              "qt": 1,
-              "val": 149.9
             }
           ]
         },
@@ -10896,6 +10870,76 @@ const ENTREGAS_DATA = {
         }
       ],
       "emitido_s_rota": [
+        {
+          "numped": "155004045",
+          "numnota": "417848",
+          "data": "03/08/2026",
+          "cliente": "SB MONTENEGRO RESTAURANTE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 3801.2,
+          "itens": [
+            {
+              "desc": "AGUA SAN PELLEGRINO C/GÁS 505ML",
+              "qt": 4,
+              "val": 1522.0
+            },
+            {
+              "desc": "AGUA PANNA S/GÁS 505 ML",
+              "qt": 8,
+              "val": 2279.2
+            }
+          ]
+        },
+        {
+          "numped": "155004044",
+          "numnota": "417849",
+          "data": "03/08/2026",
+          "cliente": "DISTRIBUIDORA G MARKET EIRELI ME",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 381.8,
+          "itens": [
+            {
+              "desc": "AGUA SAN PELLEGRINO C/GÁS 250ML",
+              "qt": 2,
+              "val": 381.8
+            }
+          ]
+        },
+        {
+          "numped": "155004046",
+          "numnota": "417850",
+          "data": "03/08/2026",
+          "cliente": "SANSE CAFE BISTRO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 273.2,
+          "itens": [
+            {
+              "desc": "WHISKY J WALKER BLACK LABEL 1L",
+              "qt": 1,
+              "val": 149.9
+            },
+            {
+              "desc": "RUM BACARDI GOLD 980ML",
+              "qt": 3,
+              "val": 123.3
+            }
+          ]
+        },
         {
           "numped": "155004040",
           "numnota": "417616",
