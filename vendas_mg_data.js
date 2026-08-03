@@ -1,8 +1,9 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "03/08/2026 12:06",
+  "atualizado_em": "03/08/2026 14:11",
   "meses": [
+    "Ago/26",
     "Jul/26",
     "Jun/26",
     "Mai/26",
@@ -112,6 +113,12 @@ const VENDAS_MG_DATA = {
         "fat_ant": 85308.22,
         "fat_ano_ant": 0.0
       },
+      "Ago/26": {
+        "fat": 678.6,
+        "pos": 2,
+        "fat_ant": 115221.61,
+        "fat_ano_ant": 0.0
+      },
       "Mar/26": {
         "fat": 74.7,
         "pos": 1,
@@ -191,6 +198,12 @@ const VENDAS_MG_DATA = {
         "pos": 125,
         "fat_ant": 312476.97,
         "fat_ano_ant": 0.0
+      },
+      "Ago/26": {
+        "fat": 3243.3,
+        "pos": 3,
+        "fat_ant": 326368.49,
+        "fat_ano_ant": 250737.2
       }
     },
     "FERNANDO RISSON": {
@@ -555,8 +568,8 @@ const VENDAS_MG_DATA = {
         "fat_ano_ant": 0.0
       },
       "Jul/26": {
-        "fat": 55867.95,
-        "pos": 6,
+        "fat": 50745.15,
+        "pos": 5,
         "fat_ant": 54054.96,
         "fat_ano_ant": 0.0
       }
@@ -51556,6 +51569,38 @@ const VENDAS_MG_DATA = {
           "qt": 12,
           "valor": 1258.8,
           "offtrade": false
+        }
+      ],
+      "Ago/26": [
+        {
+          "data": "03/08/2026",
+          "codcli": "32690",
+          "cliente": "ODOYA BH LTDA",
+          "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+          "fantasia": "YVY",
+          "qt": 6,
+          "valor": 239.4,
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
+          "codcli": "32690",
+          "cliente": "ODOYA BH LTDA",
+          "produto": "YVY DESTILADO VODKA 710ML",
+          "fantasia": "YVY",
+          "qt": 2,
+          "valor": 79.8,
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
+          "codcli": "34348",
+          "cliente": "COMERCIAL PRISMA LTDA",
+          "produto": "WHISKY BALLANTINES SUNSHINE 700ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 359.4,
+          "offtrade": true
         }
       ],
       "Mar/26": [
@@ -165475,6 +165520,68 @@ const VENDAS_MG_DATA = {
           "valor": 80.7,
           "offtrade": true
         }
+      ],
+      "Ago/26": [
+        {
+          "data": "03/08/2026",
+          "codcli": "29725",
+          "cliente": "RAFAEL ARAUJO GORI RESTAURANTE",
+          "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 191.76,
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
+          "codcli": "30091",
+          "cliente": "COMERCIAL COLOMBO EIRELI",
+          "produto": "ESPUMANTE ALUD BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 269.4,
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
+          "codcli": "30091",
+          "cliente": "COMERCIAL COLOMBO EIRELI",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 24,
+          "valor": 1917.6,
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
+          "codcli": "33011",
+          "cliente": "YOKAI BAR LTDA",
+          "produto": "WHISKY JAMESON 750ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 89.9,
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
+          "codcli": "33011",
+          "cliente": "YOKAI BAR LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 4,
+          "valor": 575.04,
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
+          "codcli": "33011",
+          "cliente": "YOKAI BAR LTDA",
+          "produto": "RUM BACARDI CARTA BLANCA 980 ML",
+          "fantasia": "BACARDI",
+          "qt": 4,
+          "valor": 199.6,
+          "offtrade": true
+        }
       ]
     },
     "FERNANDO RISSON": {
@@ -222915,36 +223022,6 @@ const VENDAS_MG_DATA = {
           "fantasia": "DIAGEO",
           "qt": 36,
           "valor": 882.0,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "36532",
-          "cliente": "TIAGO'S DISTRIBUIDORA DE BEBIDAS LTDA",
-          "produto": "VODKA SMIRNOFF RED 998 ML",
-          "fantasia": "DIAGEO",
-          "qt": 36,
-          "valor": 882.0,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "36532",
-          "cliente": "TIAGO'S DISTRIBUIDORA DE BEBIDAS LTDA",
-          "produto": "WHISKY WALKER RED LABEL 1L",
-          "fantasia": "DIAGEO",
-          "qt": 36,
-          "valor": 2444.4,
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "36532",
-          "cliente": "TIAGO'S DISTRIBUIDORA DE BEBIDAS LTDA",
-          "produto": "GIN GORDONS 750 ML",
-          "fantasia": "DIAGEO",
-          "qt": 36,
-          "valor": 1796.4,
           "offtrade": true
         },
         {
