@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "03/08/2026 14:10",
+  "atualizado_em": "03/08/2026 14:30",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -133987,18 +133987,6 @@ const VENDAS_SP_DATA = {
           "valor": 100857.6,
           "offtrade": true
         }
-      ],
-      "Ago/26": [
-        {
-          "data": "01/08/2026",
-          "codcli": "46386",
-          "cliente": "T Y COMERCIO E SERVICOS DE BEBIDAS LTDA",
-          "produto": "RED BULL SF NECTARINA 24X250ML",
-          "fantasia": "RED BULL",
-          "qt": 1044,
-          "valor": 49861.44,
-          "offtrade": true
-        }
       ]
     },
     "CELSO OLIVEIRA": {
@@ -142050,30 +142038,6 @@ const VENDAS_SP_DATA = {
     }
   },
   "realizado": {
-    "ANDERSON CANAVEIS": {
-      "Ago/26": {
-        "fat": 49861.44,
-        "pos": 1.0,
-        "fat_ant": 593745.96,
-        "fat_ano_ant": 0.0
-      },
-      "Jul/26": {
-        "fat": 593745.96,
-        "pos": 4.0,
-        "fat_pernod": 591147.86,
-        "fat_crs": 634.8,
-        "fat_essenza": 322.8,
-        "fat_ant": 1476502.11
-      },
-      "Jun/26": {
-        "fat": 1476502.11,
-        "pos": 5.0,
-        "fat_pernod": 1474028.4,
-        "fat_crs": 645.72,
-        "fat_essenza": 1378.8,
-        "fat_ant": 0.0
-      }
-    },
     "ROBSON DA SILVA": {
       "Ago/26": {
         "fat": 36568.8,
@@ -142687,6 +142651,24 @@ const VENDAS_SP_DATA = {
       "Ago/25": {
         "fat": 107100.0,
         "pos": 6.0
+      }
+    },
+    "ANDERSON CANAVEIS": {
+      "Jul/26": {
+        "fat": 593745.96,
+        "pos": 4.0,
+        "fat_pernod": 591147.86,
+        "fat_crs": 634.8,
+        "fat_essenza": 322.8,
+        "fat_ant": 1476502.11
+      },
+      "Jun/26": {
+        "fat": 1476502.11,
+        "pos": 5.0,
+        "fat_pernod": 1474028.4,
+        "fat_crs": 645.72,
+        "fat_essenza": 1378.8,
+        "fat_ant": 0.0
       }
     },
     "JOAO LUPORINI": {
