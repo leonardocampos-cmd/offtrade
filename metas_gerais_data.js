@@ -1,12 +1,12 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "03/08/2026 16:50",
+  "atualizado_em": "03/08/2026 17:06",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 3,
   "dias_no_mes": 31,
   "dias_restantes": 28,
   "resumo": {
-    "fat": 743494.37,
+    "fat": 743854.17,
     "fat_ant": 1155757.36,
     "fat_ant_completo": 13953931.2,
     "pos": 149,
@@ -15,22 +15,22 @@ const METAS_GERAIS_DATA = {
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 743494.37,
+    "fat": 743854.17,
     "fat_ant": 1155757.36,
     "fat_ant_completo": 13953931.2,
     "pct": 5.2,
-    "nec_dia": 487732.34
+    "nec_dia": 487719.49
   },
   "estados": [
     {
       "estado": "RJ",
       "label": "Rio de Janeiro",
       "meta": 3900000.0,
-      "fat": 67166.89,
+      "fat": 67526.69,
       "fat_ant": 263885.12,
       "pos": 26,
       "pct": 1.7,
-      "nec_dia": 136886.9,
+      "nec_dia": 136874.05,
       "fat_ant_completo": 2745014.49,
       "pos_ant": 128,
       "pos_ant_completo": 736
@@ -166,10 +166,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "DIAGEO",
-      "fat": 14854.58,
+      "fat": 15214.38,
       "fat_ant": 27343.63,
       "por_estado": {
-        "RJ": 2836.1,
+        "RJ": 3195.9,
         "SP": 11659.08,
         "ES": 0.0,
         "MG": 359.4
