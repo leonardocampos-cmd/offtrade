@@ -1,5 +1,5 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "03/08/2026 14:08",
+  "atualizado_em": "03/08/2026 14:28",
   "periodo_dias": 90,
   "fontes_indisponiveis": [],
   "pedidos_feitos": [
@@ -2089,6 +2089,39 @@ const PEDIDOS_DATA = {
           "qt_original": 12.0,
           "cortado": false,
           "codprod": "246",
+          "codfilial": "1"
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "460000162",
+      "numnota": "",
+      "data": "03/08/2026",
+      "data_ord": "2026-08-03",
+      "nome": "CRISTIANE MORAIS - OFF TRADE",
+      "cliente": "COMERCIAL DE ALIMENTOS SR LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Valor do pedido menor que minimo para pedido",
+      "obs": "",
+      "total": 233.4,
+      "itens": [
+        {
+          "desc": "RUM MONTILLA OURO 1L",
+          "industria": "PERNOD",
+          "qt": 12,
+          "val": 233.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "178",
           "codfilial": "1"
         }
       ],
@@ -6247,40 +6280,6 @@ const PEDIDOS_DATA = {
       ],
       "tem_corte": false,
       "status_log": ""
-    },
-    {
-      "numped": "232000027",
-      "numnota": "181914",
-      "data": "01/08/2026",
-      "data_ord": "2026-08-01",
-      "nome": "ANDERSON CANAVEIS - OFF TRADE",
-      "cliente": "T Y COMERCIO E SERVICOS DE BEBIDAS LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "ANDERSON CANAVEIS",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Pedido com item abaixo do preço minimo.",
-      "obs": "PRODUTO COM AVARIA",
-      "total": 49861.44,
-      "itens": [
-        {
-          "desc": "RED BULL SF NECTARINA 24X250ML",
-          "industria": "RED BULL",
-          "qt": 1044,
-          "val": 49861.44,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1044.0,
-          "cortado": false,
-          "codprod": "4658",
-          "codfilial": "1"
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ABERTO"
     },
     {
       "numped": "158000388",
@@ -19029,126 +19028,6 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGUE"
     },
     {
-      "numped": "155004027",
-      "numnota": "417040",
-      "data": "30/07/2026",
-      "data_ord": "2026-07-30",
-      "nome": "RAPHAEL SANTOS - OFF TRADE",
-      "cliente": "50.907.363 ANA CAROLINA DA CONCEICAO PEREIRA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :2320",
-      "obs": "",
-      "total": 319.52,
-      "itens": [
-        {
-          "desc": "APERITIVO CAMPARI 998ML",
-          "industria": "CAMPARI",
-          "qt": 2,
-          "val": 109.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "447",
-          "codfilial": "2"
-        },
-        {
-          "desc": "GIN TANQUERAY  750 ML",
-          "industria": "DIAGEO",
-          "qt": 1,
-          "val": 89.9,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "266",
-          "codfilial": "2"
-        },
-        {
-          "desc": "GIN BEEFEATER PINK 700ML",
-          "industria": "PERNOD",
-          "qt": 1,
-          "val": 59.9,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "2320",
-          "codfilial": "2"
-        },
-        {
-          "desc": "4 PACK RED BULL 250ML",
-          "industria": "RED BULL",
-          "qt": 2,
-          "val": 59.92,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "997",
-          "codfilial": "2"
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "155004028",
-      "numnota": "417038",
-      "data": "30/07/2026",
-      "data_ord": "2026-07-30",
-      "nome": "RAPHAEL SANTOS - OFF TRADE",
-      "cliente": "DREIFISON RODRIGUES RUFINO 12650077727",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "PRECO ABAIXO DO MINIMO PERMITIDO",
-      "obs": "",
-      "total": 678.6,
-      "itens": [
-        {
-          "desc": "CACHACA TATUZINHO PET 750 ML",
-          "industria": "TATUZINHO",
-          "qt": 36,
-          "val": 140.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 36.0,
-          "cortado": false,
-          "codprod": "4677",
-          "codfilial": "2"
-        },
-        {
-          "desc": "CANTINA DA SERRA 750ML",
-          "industria": "COMARY",
-          "qt": 138,
-          "val": 538.2,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 138.0,
-          "cortado": false,
-          "codprod": "6285",
-          "codfilial": "2"
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
       "numped": "155004030",
       "numnota": "417189",
       "data": "30/07/2026",
@@ -19292,53 +19171,6 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "431001199",
-      "numnota": "417059",
-      "data": "30/07/2026",
-      "data_ord": "2026-07-30",
-      "nome": "ADEILSON GONÇALVEZ - OFF TRADE",
-      "cliente": "BAR & TRATTORIA DU PONTO COMERCIO LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :3249",
-      "obs": "",
-      "total": 189.68,
-      "itens": [
-        {
-          "desc": "COQUETEL PINK MOON 12X600ML - PET",
-          "industria": "COMARY",
-          "qt": 2,
-          "val": 129.8,
-          "qtfalta": 0.0,
-          "qtcortada": 2.0,
-          "qtd_cortada_total": 2.0,
-          "qt_original": 4.0,
-          "cortado": true,
-          "codprod": "3272",
-          "codfilial": "2"
-        },
-        {
-          "desc": "NECTAR PESSEGO 12X1000ML",
-          "industria": "TIAL",
-          "qt": 1,
-          "val": 59.88,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "5991",
-          "codfilial": "2"
-        }
-      ],
-      "tem_corte": true,
       "status_log": "ENTREGUE"
     },
     {
@@ -166210,6 +166042,39 @@ const PEDIDOS_DATA = {
   ],
   "cancelados": [
     {
+      "numped": "232000027",
+      "numnota": "181914",
+      "data": "01/08/2026",
+      "data_ord": "2026-08-01",
+      "nome": "ANDERSON CANAVEIS - OFF TRADE",
+      "cliente": "T Y COMERCIO E SERVICOS DE BEBIDAS LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "CANCELADA",
+      "posicao": "Cancelado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
+      "obs": "PRODUTO COM AVARIA",
+      "total": 0.0,
+      "itens": [
+        {
+          "desc": "RED BULL SF NECTARINA 24X250ML",
+          "industria": "RED BULL",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1044.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 1044.0,
+          "qt_original": 1044.0,
+          "cortado": true,
+          "codprod": "4658",
+          "codfilial": "1"
+        }
+      ],
+      "tem_corte": true
+    },
+    {
       "numped": "153001332",
       "numnota": "417761",
       "data": "31/07/2026",
@@ -197506,32 +197371,6 @@ const PEDIDOS_DATA = {
     }
   ],
   "produtos_cortados": [
-    {
-      "numped": "431001199",
-      "numnota": "417059",
-      "data": "30/07/2026",
-      "data_ord": "2026-07-30",
-      "nome": "ADEILSON GONÇALVEZ - OFF TRADE",
-      "cliente": "BAR & TRATTORIA DU PONTO COMERCIO LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :3249",
-      "desc": "COQUETEL PINK MOON 12X600ML - PET",
-      "industria": "COMARY",
-      "codprod": "3272",
-      "codfilial": "2",
-      "qt": 2,
-      "qtfalta": 0.0,
-      "qtcortada": 2.0,
-      "qtd_cortada_total": 2.0,
-      "qt_original": 4.0,
-      "val": 129.8,
-      "total": 129.8
-    },
     {
       "numped": "468000108",
       "numnota": "181680",
