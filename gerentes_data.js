@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "03/08/2026 16:52",
+  "atualizado_em": "03/08/2026 17:04",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -791,8 +791,8 @@ const GERENTES_DATA = {
           "qt": 76846
         },
         "Ago/26": {
-          "fat": 119645.9,
-          "qt": 1251
+          "fat": 120005.7,
+          "qt": 1253
         },
         "Jul/26": {
           "fat": 3359583.91,
@@ -823,8 +823,8 @@ const GERENTES_DATA = {
               "qt": 67751
             },
             "Ago/26": {
-              "fat": 113121.76,
-              "qt": 1176
+              "fat": 113481.56,
+              "qt": 1178
             },
             "Jul/26": {
               "fat": 2857528.17,
@@ -855,8 +855,8 @@ const GERENTES_DATA = {
                   "qt": 67751
                 },
                 "Ago/26": {
-                  "fat": 113121.76,
-                  "qt": 1176
+                  "fat": 113481.56,
+                  "qt": 1178
                 },
                 "Jul/26": {
                   "fat": 2857528.17,
@@ -1077,7 +1077,7 @@ const GERENTES_DATA = {
                 },
                 {
                   "nome": "DIRLEI ARAUJO - OFF TRADE",
-                  "rca": "417",
+                  "rca": "554",
                   "estado": "RJ",
                   "por_mes": {
                     "Abr/26": {
@@ -1110,6 +1110,10 @@ const GERENTES_DATA = {
                     "Abr/26": {
                       "fat": 61625.04,
                       "qt": 883
+                    },
+                    "Ago/26": {
+                      "fat": 359.8,
+                      "qt": 2
                     },
                     "Jul/26": {
                       "fat": 59098.62,
