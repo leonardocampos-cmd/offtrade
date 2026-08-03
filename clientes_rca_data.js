@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "03/08/2026 11:39",
-  "total": 22320,
+  "atualizado_em": "03/08/2026 12:08",
+  "total": 22323,
   "clientes": [
     {
       "codcli": "38586",
@@ -13408,6 +13408,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "95886",
+      "razao": "49.725.593 TARCISIO TEODORO MACHADO",
+      "fantasia": "TARCISIO TEODORO MACHADO",
+      "bairro": "VARGEM GRANDE",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "49.725.593/0001-42",
+      "estado": "RJ",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "144",
+      "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -124224,6 +124240,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "50241",
+      "razao": "DIVINOS COMERCIO ATACADISTA LTDA",
+      "fantasia": "DIVINOS",
+      "bairro": "JARDIM PORTELA",
+      "cidade": "ITAPEVI",
+      "cnpj": "51.506.371/0001-80",
+      "estado": "SP",
+      "ramo": "OUTROS",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -326480,6 +326512,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "362",
       "nome_usur1": "BRUNA CASTRO MELLO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52238",
+      "razao": "SUPERMERCADO PERNAMBUCO LTDA.",
+      "fantasia": "SUPERMERCADO PERNAMBUCO",
+      "bairro": "CENTRO",
+      "cidade": "ARACOIABA DA SERRA",
+      "cnpj": "02.702.956/0001-60",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
       "codusur2": "",
       "nome_usur2": ""
     },
