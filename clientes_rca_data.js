@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "03/08/2026 15:10",
+  "atualizado_em": "03/08/2026 16:13",
   "total": 22328,
   "clientes": [
     {
@@ -112740,22 +112740,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "75727",
-      "razao": "DALILA RABELO SALVADOR 11638412774",
-      "fantasia": "DALILA RABELO SALVADOR",
-      "bairro": "BANQUETA (CUNHAMBEBE)",
-      "cidade": "ANGRA DOS REIS",
-      "cnpj": "41.211.892/0001-57",
-      "estado": "RJ",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "77529",
       "razao": "DALIZETE NASCIMENTO CABRAL HERBST 09746657704",
       "fantasia": "DALIZETE NASCIMENTO CABRAL HERBST",
@@ -137244,22 +137228,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "159.232.767-20",
       "estado": "ES",
       "ramo": "PESSOA FISICA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "85347",
-      "razao": "EMERSON PEREIRA 07645100702",
-      "fantasia": "EMERSON PEREIRA",
-      "bairro": "FREGUESIA (ILHA DO GOVERNADOR)",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "26.621.357/0001-80",
-      "estado": "RJ",
-      "ramo": "EVENTOS",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -164496,6 +164464,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "26305",
+      "razao": "GOMES CALIXTO COMERCIO DE BEBIDAS LTDA",
+      "fantasia": "ADEGA DAS NACOES",
+      "bairro": "TABOAO",
+      "cidade": "DIADEMA",
+      "cnpj": "33.345.025/0001-86",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "512",
+      "nome_usur1": "WILLIAM GONCALVES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -277774,8 +277758,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "PADARIA",
       "key_account": false,
       "rede": "",
-      "codusur1": "144",
-      "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
     },
@@ -308324,6 +308308,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "52242",
+      "razao": "S C S S SPEZZANO COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+      "fantasia": "ARACATI CONVENIENCIA",
+      "bairro": "VILA",
+      "cidade": "ILHABELA",
+      "cnpj": "41.495.717/0001-39",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "516",
+      "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "32776",
       "razao": "S C SOLUCOES E COMERCIO DE ALIMENTOS LTDA",
       "fantasia": "UM BAR DE AMIGOS",
@@ -310078,8 +310078,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "RESTAURANTE",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
+      "codusur1": "327",
+      "nome_usur1": "JOÃO SANTOS - OFF TRADE",
       "codusur2": "549",
       "nome_usur2": "FERNANDO GOMES"
     },
