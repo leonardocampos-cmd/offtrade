@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "03/08/2026 16:13",
+  "atualizado_em": "03/08/2026 16:57",
   "total": 22328,
   "clientes": [
     {
@@ -5324,22 +5324,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "34.010.873/0001-05",
       "estado": "RJ",
       "ramo": "EVENTOS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "75265",
-      "razao": "34.036.724 CLAUDEANIA ALVES FERNANDES",
-      "fantasia": "MERCEARIA DA CLAUDIA",
-      "bairro": "MONSUABA",
-      "cidade": "ANGRA DOS REIS",
-      "cnpj": "34.036.724/0001-07",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA DE BEBIDAS",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -40014,8 +39998,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "RESTAURANTE",
       "key_account": false,
       "rede": "",
-      "codusur1": "340",
-      "nome_usur1": "PEDRO HENRIQUE DUARTE",
+      "codusur1": "187",
+      "nome_usur1": "NATHALIA XAVIER",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -60298,22 +60282,6 @@ const CLIENTES_RCA_DATA = {
       "bairro": "FREGUESIA (JACAREPAGUÁ)",
       "cidade": "RIO DE JANEIRO",
       "cnpj": "51.442.017/0001-30",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "93071",
-      "razao": "BA PEPE RESTAURANTE LTDA",
-      "fantasia": "BAIXO ARAGUAIA",
-      "bairro": "BARRA DA TIJUCA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "63.657.401/0001-39",
       "estado": "RJ",
       "ramo": "RESTAURANTE",
       "key_account": false,
@@ -93742,8 +93710,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "CAFETERIA",
       "key_account": false,
       "rede": "",
-      "codusur1": "340",
-      "nome_usur1": "PEDRO HENRIQUE DUARTE",
+      "codusur1": "187",
+      "nome_usur1": "NATHALIA XAVIER",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -95554,6 +95522,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
+    },
+    {
+      "codcli": "92100",
+      "razao": "CERBAIA PROMOCAO DE EVENTOS LTDA",
+      "fantasia": "LA GRAPPA",
+      "bairro": "PLANALTO PAULISTA",
+      "cidade": "SAO PAULO",
+      "cnpj": "28.774.635/0001-65",
+      "estado": "SP",
+      "ramo": "SERVICOS DE ORGANIZACAO DE FEIRAS, CONGR",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "10",
+      "nome_usur1": "INATIVO3",
+      "codusur2": "299",
+      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
       "codcli": "50221",
@@ -103262,8 +103246,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "ADEGA",
       "key_account": false,
       "rede": "",
-      "codusur1": "340",
-      "nome_usur1": "PEDRO HENRIQUE DUARTE",
+      "codusur1": "418",
+      "nome_usur1": "MARCOS MEDEIROS",
       "codusur2": "588",
       "nome_usur2": "W.S"
     },
@@ -138772,6 +138756,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "46807",
+      "razao": "EMPORIO MALELU COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
+      "fantasia": "EMPORIO MALELU",
+      "bairro": "CUMBICA",
+      "cidade": "GUARULHOS",
+      "cnpj": "22.859.084/0001-56",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "10",
+      "nome_usur1": "SPON",
+      "codusur2": "119",
+      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
+    },
+    {
       "codcli": "85262",
       "razao": "EMPORIO MANIA LTDA",
       "fantasia": "EMPORIO MANIA",
@@ -139534,8 +139534,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "HOTELARIA",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
       "codusur2": "313",
       "nome_usur2": "ANDRE MATTOS"
     },
@@ -153966,8 +153966,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "RESTAURANTE",
       "key_account": false,
       "rede": "GRUPO 3T BRASIL",
-      "codusur1": "340",
-      "nome_usur1": "PEDRO HENRIQUE DUARTE",
+      "codusur1": "187",
+      "nome_usur1": "NATHALIA XAVIER",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -163246,10 +163246,10 @@ const CLIENTES_RCA_DATA = {
       "ramo": "RESTAURANTE",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur1": "299",
+      "nome_usur1": "BRYAN PALOPOLI - OFF TRADE",
+      "codusur2": "432",
+      "nome_usur2": "LUCAS MACIEL"
     },
     {
       "codcli": "84703",
@@ -175232,8 +175232,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "588",
       "nome_usur1": "W.S",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "119",
+      "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
       "codcli": "31435",
@@ -175406,8 +175406,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "CAFETERIA",
       "key_account": false,
       "rede": "",
-      "codusur1": "340",
-      "nome_usur1": "PEDRO HENRIQUE DUARTE",
+      "codusur1": "187",
+      "nome_usur1": "NATHALIA XAVIER",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -180034,22 +180034,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "43",
       "nome_usur2": "SOUZA"
-    },
-    {
-      "codcli": "75267",
-      "razao": "J.F. DE MENEZES NETO COMERCIO E PERFUMARIA",
-      "fantasia": "PERFUMARIA COSTA VERDE",
-      "bairro": "MONSUABA",
-      "cidade": "ANGRA DOS REIS",
-      "cnpj": "17.239.188/0001-28",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "51178",
@@ -188342,6 +188326,22 @@ const CLIENTES_RCA_DATA = {
     {
       "codcli": "52116",
       "razao": "JOSE APARECIDO GONCALVES DE MATOS",
+      "fantasia": "JOSE APARECIDO GONCALVES DE MATOS",
+      "bairro": "MIRANDOPOLIS",
+      "cidade": "SAO PAULO",
+      "cnpj": "11.929.557/0001-28",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "91",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
+      "codusur2": "432",
+      "nome_usur2": "LUCAS MACIEL"
+    },
+    {
+      "codcli": "52116",
+      "razao": "JOSE APARECIDO GONCALVES DE MATOS",
       "fantasia": "JMATOS COMERCIO DE BEBIDAS LTDA",
       "bairro": "MIRANDOPOLIS",
       "cidade": "SAO PAULO",
@@ -192000,6 +192000,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "32510",
+      "razao": "JRPH RESORT HOTEL PRIVE LTDA",
+      "fantasia": "JRPH RESORT HOTEL PRIVE",
+      "bairro": "CHÁCARAS MEU CANTINHO",
+      "cidade": "MONTE MOR",
+      "cnpj": "57.784.415/0001-10",
+      "estado": "SP",
+      "ramo": "HOTELARIA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "425",
+      "nome_usur1": "BRUNO BARBOSA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -197184,8 +197200,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "432",
+      "nome_usur2": "LUCAS MACIEL"
     },
     {
       "codcli": "71112",
@@ -201628,22 +201644,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "031.737.847-31",
       "estado": "ES",
       "ramo": "PESSOA FISICA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "72790",
-      "razao": "LARK COMERCIO DE BEBIDAS LTDA",
-      "fantasia": "GELO-EXPRESSO",
-      "bairro": "BENFICA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "22.052.057/0001-77",
-      "estado": "RJ",
-      "ramo": "EVENTOS",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -215536,8 +215536,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "299",
+      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
       "codcli": "50015",
@@ -245936,8 +245936,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "155",
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
     },
     {
       "codcli": "72522",
@@ -246136,22 +246136,6 @@ const CLIENTES_RCA_DATA = {
       "razao": "MIX GARDEN CAFE LTDA",
       "fantasia": "MIX GARDEN CAFE",
       "bairro": "GLÓRIA",
-      "cidade": "MACAE",
-      "cnpj": "67.145.111/0001-67",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "159",
-      "nome_usur1": "GISELLE BARFER - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "92350",
-      "razao": "MIX GARDEN CAFE LTDA",
-      "fantasia": "MIX GARDEN CAFE",
-      "bairro": "CANCELA PRETA",
       "cidade": "MACAE",
       "cnpj": "67.145.111/0001-67",
       "estado": "RJ",
@@ -266000,8 +265984,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "471",
       "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "319",
+      "nome_usur2": "FERNANDA CAMBOIM"
     },
     {
       "codcli": "51912",
@@ -298830,8 +298814,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "RESTAURANTE",
       "key_account": false,
       "rede": "",
-      "codusur1": "340",
-      "nome_usur1": "PEDRO HENRIQUE DUARTE",
+      "codusur1": "187",
+      "nome_usur1": "NATHALIA XAVIER",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -298846,8 +298830,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "RESTAURANTE",
       "key_account": false,
       "rede": "ORACLE",
-      "codusur1": "340",
-      "nome_usur1": "PEDRO HENRIQUE DUARTE",
+      "codusur1": "187",
+      "nome_usur1": "NATHALIA XAVIER",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -310480,8 +310464,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "299",
+      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
       "codcli": "30928",
@@ -321392,8 +321376,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "460",
       "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "435",
+      "nome_usur2": "LUCAS MACIEL"
     },
     {
       "codcli": "71104",
@@ -328448,6 +328432,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "REDE SUPERMARKET",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "47789",
+      "razao": "SUPERMERCADOS BANDEIRA LTDA.",
+      "fantasia": "SUPERMERCADOS BANDEIRA",
+      "bairro": "CENTRO",
+      "cidade": "ITAPECERICA DA SERRA",
+      "cnpj": "47.658.299/0001-30",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "515",
+      "nome_usur1": "RAFAEL REIS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
