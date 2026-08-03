@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "03/08/2026 14:12",
-  "total": 22327,
+  "atualizado_em": "03/08/2026 14:32",
+  "total": 22328,
   "clientes": [
     {
       "codcli": "38586",
@@ -165858,6 +165858,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "317",
       "nome_usur2": "ANA AJALA"
+    },
+    {
+      "codcli": "60035",
+      "razao": "GREEN FRUIT NOVO MILENIO HORTIFRUTI GRANJEIROS LTDA",
+      "fantasia": "GREEN FRUIT TERESOPOLIS",
+      "bairro": "VARZEA",
+      "cidade": "TERESOPOLIS",
+      "cnpj": "07.539.322/0002-33",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "283",
+      "nome_usur1": "KESSYA OURIQUE - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "82239",
