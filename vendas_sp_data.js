@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "03/08/2026 15:38",
+  "atualizado_em": "03/08/2026 16:56",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -59638,6 +59638,16 @@ const VENDAS_SP_DATA = {
       ],
       "Ago/26": [
         {
+          "data": "03/08/2026",
+          "codcli": "30260",
+          "cliente": "COMERCIAL CRESCER LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 300,
+          "valor": 8070.0,
+          "offtrade": true
+        },
+        {
           "data": "01/08/2026",
           "codcli": "31155",
           "cliente": "MALTE COMERCIO DE BEBIDAS LTDA",
@@ -101504,6 +101514,16 @@ const VENDAS_SP_DATA = {
           "offtrade": true
         },
         {
+          "data": "03/08/2026",
+          "codcli": "50719",
+          "cliente": "BROTHERS BEER COMERCIO DE BEBIDAS LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 96,
+          "valor": 2582.4,
+          "offtrade": true
+        },
+        {
           "data": "01/08/2026",
           "codcli": "50558",
           "cliente": "J.R LORENA COMERCIO DE ALIMENTOS LTDA",
@@ -122199,6 +122219,16 @@ const VENDAS_SP_DATA = {
       "Ago/26": [
         {
           "data": "03/08/2026",
+          "codcli": "50631",
+          "cliente": "ODAIR MERCADO LTDA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 414.0,
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
           "codcli": "50574",
           "cliente": "52.324.853 BIANCA BERNARDES FRANCOSO",
           "produto": "VODCA SMIRNOFF RED 998 ML",
@@ -141445,6 +141475,28 @@ const VENDAS_SP_DATA = {
           "valor": 359.6,
           "offtrade": false
         }
+      ],
+      "Ago/26": [
+        {
+          "data": "03/08/2026",
+          "codcli": "51870",
+          "cliente": "SUPERMERCADO SERIEMA LTDA",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 353.4,
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
+          "codcli": "51870",
+          "cliente": "SUPERMERCADO SERIEMA LTDA",
+          "produto": "WHISKY JACK DANIELS 1L",
+          "fantasia": "BROWN",
+          "qt": 6,
+          "valor": 629.4,
+          "offtrade": true
+        }
       ]
     },
     "HELENA CAVALCANTI": {
@@ -142804,9 +142856,9 @@ const VENDAS_SP_DATA = {
     },
     "ADER ALONSO": {
       "Ago/26": {
-        "fat": 23181.0,
-        "pos": 4.0,
-        "fat_pernod": 7536.0,
+        "fat": 31251.0,
+        "pos": 5.0,
+        "fat_pernod": 15606.0,
         "fat_crs": 6904.8,
         "fat_ant": 362518.19,
         "fat_ano_ant": 0.0
@@ -142863,9 +142915,9 @@ const VENDAS_SP_DATA = {
     },
     "CRISTIANE MORAIS": {
       "Ago/26": {
-        "fat": 18697.27,
+        "fat": 21279.67,
         "pos": 9.0,
-        "fat_pernod": 2493.3,
+        "fat_pernod": 5075.7,
         "fat_crs": 107.88,
         "fat_ant": 159641.64,
         "fat_ano_ant": 0.0
@@ -143142,8 +143194,9 @@ const VENDAS_SP_DATA = {
     },
     "LUCAS BUENO": {
       "Ago/26": {
-        "fat": 346.8,
-        "pos": 1.0,
+        "fat": 760.8,
+        "pos": 2.0,
+        "fat_pernod": 414.0,
         "fat_ant": 15487.9,
         "fat_ano_ant": 0.0
       },
@@ -143434,6 +143487,20 @@ const VENDAS_SP_DATA = {
         "pos": 6.0,
         "fat_pernod": 659.9,
         "fat_crs": 28264.56,
+        "fat_ant": 0.0
+      }
+    },
+    "ROSANA AFFONSO": {
+      "Ago/26": {
+        "fat": 982.8,
+        "pos": 1.0,
+        "fat_pernod": 353.4,
+        "fat_ant": 3260.0,
+        "fat_ano_ant": 0.0
+      },
+      "Jul/26": {
+        "fat": 3260.0,
+        "fat_pernod": 176.7,
         "fat_ant": 0.0
       }
     },
@@ -143998,13 +144065,6 @@ const VENDAS_SP_DATA = {
         "fat": 1674.0,
         "pos": 1.0,
         "fat_pernod": 1674.0,
-        "fat_ant": 0.0
-      }
-    },
-    "ROSANA AFFONSO": {
-      "Jul/26": {
-        "fat": 3260.0,
-        "fat_pernod": 176.7,
         "fat_ant": 0.0
       }
     },
