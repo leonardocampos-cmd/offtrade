@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "03/08/2026 14:31",
+  "atualizado_em": "03/08/2026 14:52",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -29421,56 +29421,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "94885",
-        "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "15/05/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL MORANGO PESSEGO",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 65.52
-          },
-          {
-            "produto": "4 PACK RED BULL SF AMORA",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 65.52
-          },
-          {
-            "produto": "4 PACK RED BULL SF MAÇA 4X250ML",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 65.52
-          },
-          {
-            "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 65.52
-          },
-          {
-            "produto": "4 PACK RED BULL SF POMELO 4X250ML",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 65.52
-          },
-          {
-            "produto": "RED BULL 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 196.56
-          },
-          {
-            "produto": "RED BULL ZERO  24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 196.56
-          }
-        ]
-      },
-      {
         "codcli": "94886",
         "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
         "bairro": "VISTA ALEGRE",
@@ -29564,6 +29514,56 @@ const NAO_POS_ES_DATA = {
           },
           {
             "produto": "RED BULL SUGAR FREE 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 196.56
+          }
+        ]
+      },
+      {
+        "codcli": "94885",
+        "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "15/05/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK RED BULL MORANGO PESSEGO",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 65.52
+          },
+          {
+            "produto": "4 PACK RED BULL SF AMORA",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 65.52
+          },
+          {
+            "produto": "4 PACK RED BULL SF MAÇA 4X250ML",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 65.52
+          },
+          {
+            "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 65.52
+          },
+          {
+            "produto": "4 PACK RED BULL SF POMELO 4X250ML",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 65.52
+          },
+          {
+            "produto": "RED BULL 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 196.56
+          },
+          {
+            "produto": "RED BULL ZERO  24X250ML",
             "fantasia": "RED BULL",
             "qt": 1,
             "valor": 196.56
@@ -29701,9 +29701,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "94883",
+        "codcli": "94884",
         "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
-        "bairro": "RECREIO DOS BANDEIRANTES",
+        "bairro": "BARRA DA TIJUCA",
         "dtultcomp": "05/06/2026",
         "produtos": [
           {
@@ -29757,9 +29757,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "94884",
+        "codcli": "94883",
         "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
-        "bairro": "BARRA DA TIJUCA",
+        "bairro": "RECREIO DOS BANDEIRANTES",
         "dtultcomp": "05/06/2026",
         "produtos": [
           {
@@ -30642,13 +30642,6 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "91772",
-        "cliente": "EMANUEL COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-        "bairro": "CAMPO GRANDE",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "91773",
         "cliente": "EMANUEL COMERCIO DE GENEROS ALIMENTICIOS LTDA",
         "bairro": "GUARATIBA",
@@ -30656,15 +30649,15 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "3850",
-        "cliente": "EMANUEL COMÉRCIO DE GENEROS ALIMENTICIOS",
+        "codcli": "91772",
+        "cliente": "EMANUEL COMERCIO DE GENEROS ALIMENTICIOS LTDA",
         "bairro": "CAMPO GRANDE",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "95728",
-        "cliente": "IGREJA BATISTA BOA ESPERANCA",
+        "codcli": "3850",
+        "cliente": "EMANUEL COMÉRCIO DE GENEROS ALIMENTICIOS",
         "bairro": "CAMPO GRANDE",
         "dtultcomp": "nan",
         "produtos": []
