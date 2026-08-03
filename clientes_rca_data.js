@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "03/08/2026 16:57",
-  "total": 22328,
+  "atualizado_em": "03/08/2026 17:15",
+  "total": 22327,
   "clientes": [
     {
       "codcli": "38586",
@@ -94300,22 +94300,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "45.740.423/0001-86",
       "estado": "RJ",
       "ramo": "EVENTOS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "3320",
-      "razao": "CELIMAR HOTEIS LTDA",
-      "fantasia": "CELIMAR HOTEIS",
-      "bairro": "COPACABANA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "02.476.318/0001-79",
-      "estado": "RJ",
-      "ramo": "HOTELARIA",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -211440,8 +211424,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "471",
       "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "252",
+      "nome_usur2": "JADDE CARVALHO"
     },
     {
       "codcli": "73905",
@@ -288987,13 +288971,13 @@ const CLIENTES_RCA_DATA = {
       "cidade": "RIO DE JANEIRO",
       "cnpj": "45.627.078/0001-79",
       "estado": "RJ",
-      "ramo": "OUTROS",
+      "ramo": "SERVIÇOS",
       "key_account": false,
       "rede": "",
       "codusur1": "471",
       "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "252",
+      "nome_usur2": "JADDE CARVALHO"
     },
     {
       "codcli": "95788",
@@ -310146,22 +310130,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "343",
       "nome_usur2": "FERNANDO RISSON - OFF TRADE"
-    },
-    {
-      "codcli": "5051",
-      "razao": "SALVATORE CAFE DISCOS LIVROS E DELICATESSEN LTDA EPP",
-      "fantasia": "SALVATORE CAFE",
-      "bairro": "LARANJEIRAS",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "10.879.722/0001-11",
-      "estado": "RJ",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "319",
-      "nome_usur2": "FERNANDA CAMBOIM"
     },
     {
       "codcli": "32571",
@@ -333148,6 +333116,22 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "25.197.072/0001-00",
       "estado": "RJ",
       "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "10",
+      "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "92157",
+      "razao": "TATU BOLA SP RESTAURANTES LTDA",
+      "fantasia": "TATU BOLA CAETANO ALVARES",
+      "bairro": "IMIRIM",
+      "cidade": "SAO PAULO",
+      "cnpj": "28.932.357/0015-22",
+      "estado": "SP",
+      "ramo": "RESTAURANTE",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
