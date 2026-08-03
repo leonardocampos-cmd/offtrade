@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "03/08/2026 12:09",
+  "atualizado_em": "03/08/2026 14:13",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -11628,6 +11628,10 @@ const INATIVOS_DATA = {
                   "rca": "420"
                 },
                 {
+                  "nome": "KESSYA OURIQUE - OFF TRADE",
+                  "rca": "283"
+                },
+                {
                   "nome": "LEANDRO SOUZA - OFF TRADE",
                   "rca": "450"
                 },
@@ -11766,10 +11770,6 @@ const INATIVOS_DATA = {
                 {
                   "nome": "JORGE LUIZ - OFF TRADE",
                   "rca": "406"
-                },
-                {
-                  "nome": "KESSYA OURIQUE - OFF TRADE",
-                  "rca": "283"
                 },
                 {
                   "nome": "MARCELO SANCHES - OFF TRADE",
