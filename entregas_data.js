@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "03/08/2026 16:53",
+  "atualizado_em": "03/08/2026 17:10",
   "data_rota": "03.08",
   "vendedores": [
     {
@@ -3840,26 +3840,6 @@ const ENTREGAS_DATA = {
           ]
         },
         {
-          "numped": "378000579",
-          "numnota": "",
-          "data": "03/08/2026",
-          "cliente": "PAN 2007 DAMASIO S GALETO LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "Favor entregar dia 04/08",
-          "total": 359.8,
-          "itens": [
-            {
-              "desc": "WHISKY J WALKER BLACK LABEL 1L",
-              "qt": 2,
-              "val": 359.8
-            }
-          ]
-        },
-        {
           "numped": "378000580",
           "numnota": "",
           "data": "03/08/2026",
@@ -3961,6 +3941,26 @@ const ENTREGAS_DATA = {
         }
       ],
       "emitido_s_rota": [
+        {
+          "numped": "378000579",
+          "numnota": "417984",
+          "data": "03/08/2026",
+          "cliente": "PAN 2007 DAMASIO S GALETO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Favor entregar dia 04/08",
+          "total": 359.8,
+          "itens": [
+            {
+              "desc": "WHISKY J WALKER BLACK LABEL 1L",
+              "qt": 2,
+              "val": 359.8
+            }
+          ]
+        },
         {
           "numped": "378000570",
           "numnota": "417688",
@@ -4337,6 +4337,31 @@ const ENTREGAS_DATA = {
               "desc": "YVY DESTILADO GIN TERRA 6X710ML LT",
               "qt": 1,
               "val": 145.9
+            }
+          ]
+        },
+        {
+          "numped": "159005209",
+          "numnota": "",
+          "data": "03/08/2026",
+          "cliente": "ADRIANA BARBOSA DA SILVA CAFETERIA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 498.4,
+          "itens": [
+            {
+              "desc": "AGUA MINERAL MAMBA WATER S/ GAS 12X350ML",
+              "qt": 5,
+              "val": 217.0
+            },
+            {
+              "desc": "AGUA MINERAL MAMBA WATER C/ GAS 12X350ML",
+              "qt": 6,
+              "val": 281.4
             }
           ]
         },
