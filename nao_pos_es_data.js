@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "03/08/2026 15:09",
+  "atualizado_em": "03/08/2026 15:39",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -10178,26 +10178,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "3143",
-        "cliente": "PORT FOOD COMERCIO INDUSTRIA DE ALIMENTOS LTDA",
-        "bairro": "BARRA DA TIJUCA",
-        "dtultcomp": "20/07/2026",
-        "produtos": [
-          {
-            "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
-            "fantasia": "MINALBA",
-            "qt": 75,
-            "valor": 1567.5
-          },
-          {
-            "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
-            "fantasia": "MINALBA",
-            "qt": 185,
-            "valor": 3681.5
-          }
-        ]
-      },
-      {
         "codcli": "78947",
         "cliente": "SUPERMERCADO SHOW DE ECONOMIA LTDA.",
         "bairro": "JACAREPAGUÁ",
@@ -10726,7 +10706,14 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95807",
+        "codcli": "95804",
+        "cliente": "GUARATIBA SUPERMERCADO & ALIMENTOS LTDA",
+        "bairro": "GUARATIBA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95806",
         "cliente": "GUARATIBA SUPERMERCADO & ALIMENTOS LTDA",
         "bairro": "GUARATIBA",
         "dtultcomp": "nan",
@@ -10740,14 +10727,7 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95804",
-        "cliente": "GUARATIBA SUPERMERCADO & ALIMENTOS LTDA",
-        "bairro": "GUARATIBA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "95806",
+        "codcli": "95807",
         "cliente": "GUARATIBA SUPERMERCADO & ALIMENTOS LTDA",
         "bairro": "GUARATIBA",
         "dtultcomp": "nan",
@@ -15016,6 +14996,26 @@ const NAO_POS_ES_DATA = {
             "fantasia": "CASTAS",
             "qt": 3,
             "valor": 344.7
+          }
+        ]
+      },
+      {
+        "codcli": "3143",
+        "cliente": "PORT FOOD COMERCIO INDUSTRIA DE ALIMENTOS LTDA",
+        "bairro": "BARRA DA TIJUCA",
+        "dtultcomp": "20/07/2026",
+        "produtos": [
+          {
+            "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+            "fantasia": "MINALBA",
+            "qt": 75,
+            "valor": 1567.5
+          },
+          {
+            "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+            "fantasia": "MINALBA",
+            "qt": 185,
+            "valor": 3681.5
           }
         ]
       },
