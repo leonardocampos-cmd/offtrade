@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "03/08/2026 17:14",
+  "atualizado_em": "03/08/2026 17:30",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -10969,14 +10969,14 @@ const NAO_POS_SP_DATA = {
           {
             "produto": "VODCA SMIRNOFF RED 998 ML",
             "fantasia": "DIAGEO",
-            "qt": 6,
-            "valor": 173.4
+            "qt": 12,
+            "valor": 346.8
           },
           {
             "produto": "VODCA SMIRNOFF RED 998 ML",
             "fantasia": "DIAGEO",
-            "qt": 12,
-            "valor": 346.8
+            "qt": 6,
+            "valor": 173.4
           }
         ]
       },
@@ -10995,9 +10995,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51830",
+        "codcli": "51821",
         "cliente": "D. NASTARO SUPERMERCADOS LTDA",
-        "bairro": "JARDIM ALGODOAL",
+        "bairro": "SANTA TEREZINHA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -11016,9 +11016,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51821",
+        "codcli": "51830",
         "cliente": "D. NASTARO SUPERMERCADOS LTDA",
-        "bairro": "SANTA TEREZINHA",
+        "bairro": "JARDIM ALGODOAL",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -11037,13 +11037,6 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51550",
-        "cliente": "SUPERMERCADO ARMELIN LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "51547",
         "cliente": "SUPERMERCADO ARMELIN LTDA",
         "bairro": "VILA FATIMA",
@@ -11052,6 +11045,13 @@ const NAO_POS_SP_DATA = {
       },
       {
         "codcli": "51549",
+        "cliente": "SUPERMERCADO ARMELIN LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51550",
         "cliente": "SUPERMERCADO ARMELIN LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -11402,16 +11402,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51637",
+        "codcli": "51642",
         "cliente": "SUPERMERCADO APR LTDA",
-        "bairro": "REAL",
+        "bairro": "PARQUE DAS BANDEIRAS",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51642",
+        "codcli": "51637",
         "cliente": "SUPERMERCADO APR LTDA",
-        "bairro": "PARQUE DAS BANDEIRAS",
+        "bairro": "REAL",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -14040,13 +14040,6 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "52107",
-        "cliente": "DAVID BARBOZA SUPERMERCADO LTDA",
-        "bairro": "PARQUE SÃO JORGE",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "52104",
         "cliente": "DAVID BARBOZA SUPERMERCADO LTDA",
         "bairro": "JARDIM MACUCOS",
@@ -14057,6 +14050,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "52103",
         "cliente": "DAVID BARBOZA SUPERMERCADO LTDA",
         "bairro": "SANTA FÉ",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52107",
+        "cliente": "DAVID BARBOZA SUPERMERCADO LTDA",
+        "bairro": "PARQUE SÃO JORGE",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -23805,6 +23805,32 @@ const NAO_POS_SP_DATA = {
     ],
     "SUELY SANTOS": [
       {
+        "codcli": "40538",
+        "cliente": "38.318.418 ANA CLARA LUZIA XAVIER DE AGUIAR",
+        "bairro": "NOVE DE JULHO",
+        "dtultcomp": "18/12/2025",
+        "produtos": [
+          {
+            "produto": "RED BULL MELANCIA 250ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 340.3
+          },
+          {
+            "produto": "RED BULL MORANGO PESSEGO 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 340.32
+          },
+          {
+            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 340.32
+          }
+        ]
+      },
+      {
         "codcli": "46612",
         "cliente": "50.320.510 LETICIA FERREIRA CALDEIRA",
         "bairro": "NOVE DE JULHO",
@@ -24465,6 +24491,98 @@ const NAO_POS_SP_DATA = {
             "fantasia": "MOET HENNESY",
             "qt": 48,
             "valor": 3761.76
+          }
+        ]
+      },
+      {
+        "codcli": "47952",
+        "cliente": "51.314.733 CAMILA MACIEL DRAPPE SALARO",
+        "bairro": "SERTÃO DA QUINA",
+        "dtultcomp": "13/02/2026",
+        "produtos": [
+          {
+            "produto": "GIN BEEFEATER 750ML",
+            "fantasia": "PERNOD",
+            "qt": 2,
+            "valor": 139.8
+          },
+          {
+            "produto": "GIN BEEFEATER BLACKBERRY 700ML",
+            "fantasia": "PERNOD",
+            "qt": 4,
+            "valor": 283.6
+          },
+          {
+            "produto": "GIN BEEFEATER PINK 700ML",
+            "fantasia": "PERNOD",
+            "qt": 4,
+            "valor": 283.6
+          },
+          {
+            "produto": "GIN GORDONS PINK 700ML",
+            "fantasia": "DIAGEO",
+            "qt": 4,
+            "valor": 211.32
+          },
+          {
+            "produto": "GIN ROCKS 1LT",
+            "fantasia": "FANTE",
+            "qt": 6,
+            "valor": 143.4
+          },
+          {
+            "produto": "GIN ROCKS SICILIAN LEMON 1LT",
+            "fantasia": "FANTE",
+            "qt": 6,
+            "valor": 143.4
+          },
+          {
+            "produto": "GIN ROCKS SUNSET 1LT",
+            "fantasia": "FANTE",
+            "qt": 6,
+            "valor": 143.4
+          },
+          {
+            "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 4,
+            "valor": 391.56
+          },
+          {
+            "produto": "LICOR BALLENA COCO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 4,
+            "valor": 391.56
+          },
+          {
+            "produto": "LICOR BALLENA MORANGO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 4,
+            "valor": 391.56
+          },
+          {
+            "produto": "WHISKEY JACK DANIELS HONEY 1 L",
+            "fantasia": "BROWN",
+            "qt": 4,
+            "valor": 435.6
+          },
+          {
+            "produto": "WHISKY BUCHANANS 12 YEARS 1L",
+            "fantasia": "DIAGEO",
+            "qt": 6,
+            "valor": 966.54
+          },
+          {
+            "produto": "WHISKY J WALKER RED LABEL 1L",
+            "fantasia": "DIAGEO",
+            "qt": 12,
+            "valor": 934.8
+          },
+          {
+            "produto": "WHISKY JACK DANIELS APPLE 1L",
+            "fantasia": "BROWN",
+            "qt": 4,
+            "valor": 435.6
           }
         ]
       },
@@ -26125,6 +26243,44 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
+        "codcli": "49911",
+        "cliente": "SUPERMERCADO ALABARCE LTDA",
+        "bairro": "PORTEIRA PRETA",
+        "dtultcomp": "09/06/2026",
+        "produtos": [
+          {
+            "produto": "CONHAQUE DOMECQ 1L",
+            "fantasia": "PERNOD",
+            "qt": 60,
+            "valor": 1554.0
+          },
+          {
+            "produto": "GIN ROCKS SICILIAN LEMON 1LT",
+            "fantasia": "FANTE",
+            "qt": 12,
+            "valor": 256.08
+          },
+          {
+            "produto": "GIN ROCKS STRAWBERRY 1LT",
+            "fantasia": "FANTE",
+            "qt": 30,
+            "valor": 616.2
+          },
+          {
+            "produto": "GIN ROCKS WATERMELON 1LT",
+            "fantasia": "FANTE",
+            "qt": 18,
+            "valor": 369.72
+          },
+          {
+            "produto": "JACK DANIELS HONEY 700ML",
+            "fantasia": "BROWN",
+            "qt": 12,
+            "valor": 874.8
+          }
+        ]
+      },
+      {
         "codcli": "49910",
         "cliente": "SUPERMERCADO ALABARCE LTDA",
         "bairro": "VILA MOGILAR",
@@ -26171,44 +26327,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "PERNOD",
             "qt": 12,
             "valor": 694.8
-          }
-        ]
-      },
-      {
-        "codcli": "49911",
-        "cliente": "SUPERMERCADO ALABARCE LTDA",
-        "bairro": "PORTEIRA PRETA",
-        "dtultcomp": "09/06/2026",
-        "produtos": [
-          {
-            "produto": "CONHAQUE DOMECQ 1L",
-            "fantasia": "PERNOD",
-            "qt": 60,
-            "valor": 1554.0
-          },
-          {
-            "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-            "fantasia": "FANTE",
-            "qt": 12,
-            "valor": 256.08
-          },
-          {
-            "produto": "GIN ROCKS STRAWBERRY 1LT",
-            "fantasia": "FANTE",
-            "qt": 30,
-            "valor": 616.2
-          },
-          {
-            "produto": "GIN ROCKS WATERMELON 1LT",
-            "fantasia": "FANTE",
-            "qt": 18,
-            "valor": 369.72
-          },
-          {
-            "produto": "JACK DANIELS HONEY 700ML",
-            "fantasia": "BROWN",
-            "qt": 12,
-            "valor": 874.8
           }
         ]
       },
