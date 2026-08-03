@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "03/08/2026 14:54",
+  "atualizado_em": "03/08/2026 15:11",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -4204,6 +4204,15 @@ const INATIVOS_DATA = {
       ],
       "sem_compra": [
         {
+          "codcli": "94891",
+          "cliente": "ATACADAO MAROMBA CAMPO GRANDE LTDA",
+          "bairro": "CAMPO GRANDE",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "08/05/2026",
+          "dias": 87,
+          "media": 240.3
+        },
+        {
           "codcli": "94890",
           "cliente": "ATACADAO MAROMBA BOTAFOGO LTDA",
           "bairro": "BOTAFOGO",
@@ -4220,15 +4229,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "08/05/2026",
           "dias": 87,
           "media": 218.4
-        },
-        {
-          "codcli": "94891",
-          "cliente": "ATACADAO MAROMBA CAMPO GRANDE LTDA",
-          "bairro": "CAMPO GRANDE",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "08/05/2026",
-          "dias": 87,
-          "media": 240.3
         },
         {
           "codcli": "62177",
@@ -4310,15 +4310,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "01/07/2026",
           "dias": 33,
           "media": 328.3
-        },
-        {
-          "codcli": "90581",
-          "cliente": "49.298.259 LUIS GUILHERME SOUZA DA ROSA",
-          "bairro": "COSMOS",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "03/07/2026",
-          "dias": 31,
-          "media": 575.73
         }
       ],
       "novos": []
