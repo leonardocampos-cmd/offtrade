@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "03/08/2026 11:38",
+  "atualizado_em": "03/08/2026 12:07",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -31049,6 +31049,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "52224",
         "cliente": "S&S SUPERMERCADOS LTDA",
         "bairro": "VILA BARÃO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52238",
+        "cliente": "SUPERMERCADO PERNAMBUCO LTDA.",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       }
