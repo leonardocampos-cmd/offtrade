@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "03/08/2026 14:32",
-  "total": 22328,
+  "atualizado_em": "03/08/2026 14:53",
+  "total": 22326,
   "clientes": [
     {
       "codcli": "38586",
@@ -32002,22 +32002,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "W.S",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "91676",
-      "razao": "A DE P BELO BASTOS PRODUTOS ALIMENTICIOS",
-      "fantasia": "ESQUINA DA SOCA BEBIDAS",
-      "bairro": "TAQUARA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "61.421.363/0001-95",
-      "estado": "RJ",
-      "ramo": "MINI-MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "229",
-      "nome_usur2": "LUIZA HASSEN"
     },
     {
       "codcli": "52154",
@@ -123328,22 +123312,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "80502",
-      "razao": "DISTRIBUIDORA IMPERADOR PRACA SECA LTDA",
-      "fantasia": "DISTRIBUIDORA IMPERADOR PRACA SECA",
-      "bairro": "PRACA SECA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "41.101.061/0001-22",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
