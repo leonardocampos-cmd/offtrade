@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const VENDAS_DATA = {
-  "atualizado_em": "03/08/2026 12:21",
+  "atualizado_em": "03/08/2026 14:03",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -566682,6 +566682,74 @@ const VENDAS_DATA = {
           "tipo": "Venda",
           "offtrade": true
         }
+      ],
+      "Ago/26": [
+        {
+          "data": "03/08/2026",
+          "codcli": "30091",
+          "cliente": "COMERCIAL COLOMBO EIRELI",
+          "produto": "ESPUMANTE ALUD BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 269.4,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
+          "codcli": "30091",
+          "cliente": "COMERCIAL COLOMBO EIRELI",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 24,
+          "valor": 1917.6,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
+          "codcli": "29725",
+          "cliente": "RAFAEL ARAUJO GORI RESTAURANTE",
+          "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 191.76,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
+          "codcli": "33011",
+          "cliente": "YOKAI BAR LTDA",
+          "produto": "WHISKY JAMESON 750ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 89.9,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
+          "codcli": "33011",
+          "cliente": "YOKAI BAR LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 4,
+          "valor": 575.04,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
+          "codcli": "33011",
+          "cliente": "YOKAI BAR LTDA",
+          "produto": "RUM BACARDI CARTA BLANCA 980 ML",
+          "fantasia": "BACARDI",
+          "qt": 4,
+          "valor": 199.6,
+          "tipo": "Venda",
+          "offtrade": true
+        }
       ]
     },
     "MATHEUS DE SOUZA - OFF TRADE": {
@@ -589131,39 +589199,6 @@ const VENDAS_DATA = {
           "offtrade": true
         },
         {
-          "data": "20/07/2026",
-          "codcli": "36532",
-          "cliente": "TIAGO'S DISTRIBUIDORA DE BEBIDAS LTDA",
-          "produto": "VODKA SMIRNOFF RED 998 ML",
-          "fantasia": "DIAGEO",
-          "qt": 36,
-          "valor": 882.0,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "36532",
-          "cliente": "TIAGO'S DISTRIBUIDORA DE BEBIDAS LTDA",
-          "produto": "WHISKY WALKER RED LABEL 1L",
-          "fantasia": "DIAGEO",
-          "qt": 36,
-          "valor": 2444.4,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
-          "data": "20/07/2026",
-          "codcli": "36532",
-          "cliente": "TIAGO'S DISTRIBUIDORA DE BEBIDAS LTDA",
-          "produto": "GIN GORDONS 750 ML",
-          "fantasia": "DIAGEO",
-          "qt": 36,
-          "valor": 1796.4,
-          "tipo": "Venda",
-          "offtrade": true
-        },
-        {
           "data": "21/07/2026",
           "codcli": "33979",
           "cliente": "BERNARDO GONCALVES DOMINGOS DE ABREU",
@@ -604935,6 +604970,41 @@ const VENDAS_DATA = {
           "fantasia": "",
           "qt": 1,
           "valor": 99.0,
+          "tipo": "Venda",
+          "offtrade": true
+        }
+      ],
+      "Ago/26": [
+        {
+          "data": "03/08/2026",
+          "codcli": "34348",
+          "cliente": "COMERCIAL PRISMA LTDA",
+          "produto": "WHISKY BALLANTINES SUNSHINE 700ML",
+          "fantasia": "PERNOD",
+          "qt": 6,
+          "valor": 359.4,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
+          "codcli": "32690",
+          "cliente": "ODOYA BH LTDA",
+          "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+          "fantasia": "YVY",
+          "qt": 6,
+          "valor": 239.4,
+          "tipo": "Venda",
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
+          "codcli": "32690",
+          "cliente": "ODOYA BH LTDA",
+          "produto": "YVY DESTILADO VODKA 710ML",
+          "fantasia": "YVY",
+          "qt": 2,
+          "valor": 79.8,
           "tipo": "Venda",
           "offtrade": true
         }
