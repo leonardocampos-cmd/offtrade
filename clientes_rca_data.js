@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "03/08/2026 14:53",
-  "total": 22326,
+  "atualizado_em": "03/08/2026 15:10",
+  "total": 22328,
   "clientes": [
     {
       "codcli": "38586",
@@ -234468,6 +234468,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "52241",
+      "razao": "MERCADO DOCE&LAR LTDA",
+      "fantasia": "MERCADO DOCE&LAR",
+      "bairro": "COLÔNIA",
+      "cidade": "RIBEIRAO PIRES",
+      "cnpj": "49.009.037/0001-70",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "499",
+      "nome_usur1": "JOSE SILVA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "90474",
       "razao": "MERCADO DOM SAO JOAO DE COMERCIO E PRODUTOS ALIMENTICIOS LTD",
       "fantasia": "MERCADO DOM",
@@ -322352,6 +322368,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "50865",
+      "razao": "SUELLEN MARCONDES DA SILVA",
+      "fantasia": "ADEGA DO MAN",
+      "bairro": "PARQUE DOURADO",
+      "cidade": "FERRAZ DE VASCONCELOS",
+      "cnpj": "36.884.026/0001-97",
+      "estado": "SP",
+      "ramo": "BAR",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "461",
+      "nome_usur1": "SUELY SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
