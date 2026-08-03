@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "03/08/2026 15:05",
+  "atualizado_em": "03/08/2026 15:36",
   "data_rota": "03.08",
   "vendedores": [
     {
@@ -1676,26 +1676,6 @@ const ENTREGAS_DATA = {
       "nome": "ANGELO NEVES SUZART - OFF TRADE",
       "em_rota": [],
       "nao_emitido": [
-        {
-          "numped": "153001347",
-          "numnota": "",
-          "data": "03/08/2026",
-          "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "entregar no dia 05/08 com pagamento de descarga no valor de R$60,00 por pal",
-          "total": 255.6,
-          "itens": [
-            {
-              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
-              "qt": 3,
-              "val": 255.6
-            }
-          ]
-        },
         {
           "numped": "153001346",
           "numnota": "",
@@ -8338,6 +8318,51 @@ const ENTREGAS_DATA = {
               "desc": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
               "qt": 1,
               "val": 269.9
+            }
+          ]
+        },
+        {
+          "numped": "156003769",
+          "numnota": "",
+          "data": "03/08/2026",
+          "cliente": "AUTO POSTO LIDERANCA DE NOVA IGUACU LTDA.",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 779.5,
+          "itens": [
+            {
+              "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+              "qt": 3,
+              "val": 419.7
+            },
+            {
+              "desc": "WHISKY J WALKER BLACK LABEL 1L",
+              "qt": 2,
+              "val": 359.8
+            }
+          ]
+        },
+        {
+          "numped": "156003770",
+          "numnota": "",
+          "data": "03/08/2026",
+          "cliente": "AUTO POSTO LIDERANCA DE NOVA IGUACU LTDA.",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 179.9,
+          "itens": [
+            {
+              "desc": "WHISKY J WALKER BLACK LABEL 1L",
+              "qt": 1,
+              "val": 179.9
             }
           ]
         },
