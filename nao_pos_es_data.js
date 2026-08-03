@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "03/08/2026 14:52",
+  "atualizado_em": "03/08/2026 15:09",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -29421,56 +29421,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "94886",
-        "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
-        "bairro": "VISTA ALEGRE",
-        "dtultcomp": "15/05/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL MORANGO PESSEGO",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 65.52
-          },
-          {
-            "produto": "4 PACK RED BULL SF AMORA",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 65.52
-          },
-          {
-            "produto": "4 PACK RED BULL SF MAÇA 4X250ML",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 65.52
-          },
-          {
-            "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 65.52
-          },
-          {
-            "produto": "4 PACK RED BULL SF POMELO 4X250ML",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 65.52
-          },
-          {
-            "produto": "RED BULL 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 196.56
-          },
-          {
-            "produto": "RED BULL ZERO  24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 196.56
-          }
-        ]
-      },
-      {
         "codcli": "94882",
         "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
         "bairro": "MADUREIRA",
@@ -29514,6 +29464,56 @@ const NAO_POS_ES_DATA = {
           },
           {
             "produto": "RED BULL SUGAR FREE 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 196.56
+          }
+        ]
+      },
+      {
+        "codcli": "94886",
+        "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+        "bairro": "VISTA ALEGRE",
+        "dtultcomp": "15/05/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK RED BULL MORANGO PESSEGO",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 65.52
+          },
+          {
+            "produto": "4 PACK RED BULL SF AMORA",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 65.52
+          },
+          {
+            "produto": "4 PACK RED BULL SF MAÇA 4X250ML",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 65.52
+          },
+          {
+            "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 65.52
+          },
+          {
+            "produto": "4 PACK RED BULL SF POMELO 4X250ML",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 65.52
+          },
+          {
+            "produto": "RED BULL 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 196.56
+          },
+          {
+            "produto": "RED BULL ZERO  24X250ML",
             "fantasia": "RED BULL",
             "qt": 1,
             "valor": 196.56
@@ -29645,62 +29645,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "94888",
-        "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
-        "bairro": "BANGU",
-        "dtultcomp": "05/06/2026",
-        "produtos": [
-          {
-            "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 175.2
-          },
-          {
-            "produto": "MOVING BOOSTER LIMAO 24X310ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 175.2
-          },
-          {
-            "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 175.2
-          },
-          {
-            "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.7
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.7
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.7
-          },
-          {
-            "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 87.6
-          },
-          {
-            "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 87.6
-          }
-        ]
-      },
-      {
         "codcli": "94884",
         "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
         "bairro": "BARRA DA TIJUCA",
@@ -29760,6 +29704,62 @@ const NAO_POS_ES_DATA = {
         "codcli": "94883",
         "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
         "bairro": "RECREIO DOS BANDEIRANTES",
+        "dtultcomp": "05/06/2026",
+        "produtos": [
+          {
+            "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 175.2
+          },
+          {
+            "produto": "MOVING BOOSTER LIMAO 24X310ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 175.2
+          },
+          {
+            "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 175.2
+          },
+          {
+            "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.7
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.7
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.7
+          },
+          {
+            "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 87.6
+          },
+          {
+            "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 87.6
+          }
+        ]
+      },
+      {
+        "codcli": "94888",
+        "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+        "bairro": "BANGU",
         "dtultcomp": "05/06/2026",
         "produtos": [
           {
@@ -29997,38 +29997,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "PERNOD",
             "qt": 36,
             "valor": 2156.4
-          }
-        ]
-      },
-      {
-        "codcli": "90581",
-        "cliente": "49.298.259 LUIS GUILHERME SOUZA DA ROSA",
-        "bairro": "COSMOS",
-        "dtultcomp": "03/07/2026",
-        "produtos": [
-          {
-            "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 119.9
-          },
-          {
-            "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
-            "fantasia": "TATUZINHO",
-            "qt": 5,
-            "valor": 479.5
-          },
-          {
-            "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
-            "fantasia": "TATUZINHO",
-            "qt": 4,
-            "valor": 383.6
-          },
-          {
-            "produto": "ST PIERRE ZERO LATA PINK LEMON  24X310ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 105.9
           }
         ]
       },
@@ -30642,16 +30610,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "91773",
+        "codcli": "91772",
         "cliente": "EMANUEL COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-        "bairro": "GUARATIBA",
+        "bairro": "CAMPO GRANDE",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "91772",
+        "codcli": "91773",
         "cliente": "EMANUEL COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-        "bairro": "CAMPO GRANDE",
+        "bairro": "GUARATIBA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -31426,26 +31394,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "64301",
-        "cliente": "SANSE CAFE BISTRO LTDA",
-        "bairro": "JOAO FERNANDES",
-        "dtultcomp": "06/07/2026",
-        "produtos": [
-          {
-            "produto": "ESPUMANTE ALUD BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 209.4
-          },
-          {
-            "produto": "RUM BACARDI SUPERIOR 980ML",
-            "fantasia": "BACARDI",
-            "qt": 2,
-            "valor": 71.8
-          }
-        ]
-      },
-      {
         "codcli": "6040",
         "cliente": "VILLA RAPHAEL EMPREENDIMENTOS TURISTICOS LTDA",
         "bairro": "VILLAGE DA FERRADURA",
@@ -31926,26 +31874,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "PERNOD",
             "qt": 60,
             "valor": 3174.0
-          }
-        ]
-      },
-      {
-        "codcli": "5531",
-        "cliente": "DISTRIBUIDORA G MARKET EIRELI ME",
-        "bairro": "BUZIOS",
-        "dtultcomp": "16/07/2026",
-        "produtos": [
-          {
-            "produto": "AGUA MINALBA C/ GAS 6X1,5L",
-            "fantasia": "MINALBA",
-            "qt": 12,
-            "valor": 214.8
-          },
-          {
-            "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
-            "fantasia": "MINALBA",
-            "qt": 100,
-            "valor": 1690.0
           }
         ]
       },
@@ -32886,20 +32814,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "INTERFOOD",
             "qt": 6,
             "valor": 539.4
-          }
-        ]
-      },
-      {
-        "codcli": "1827",
-        "cliente": "SB MONTENEGRO RESTAURANTE LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "27/07/2026",
-        "produtos": [
-          {
-            "produto": "ESPUMANTE ALUD BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 24,
-            "valor": 789.6
           }
         ]
       },
@@ -33845,16 +33759,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "85951",
+        "codcli": "94126",
         "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
-        "bairro": "VILA NOVA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "94126",
+        "codcli": "85951",
         "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
-        "bairro": "CENTRO",
+        "bairro": "VILA NOVA",
         "dtultcomp": "nan",
         "produtos": []
       },
