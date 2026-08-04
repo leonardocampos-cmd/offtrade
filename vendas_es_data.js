@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "04/08/2026 13:42",
+  "atualizado_em": "04/08/2026 14:06",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -891,8 +891,8 @@ const VENDAS_ES_DATA = {
         "fat_ano_ant": 0.0
       },
       "Ago/26": {
-        "fat": 1667.1,
-        "pos": 2,
+        "fat": 12574.38,
+        "pos": 7,
         "fat_ant": 124190.28,
         "fat_ano_ant": 0.0
       }
@@ -262117,7 +262117,127 @@ const VENDAS_ES_DATA = {
       "Ago/26": [
         {
           "data": "04/08/2026",
+          "codcli": "20938",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "HENNESSY",
+          "qt": 12,
+          "valor": 1247.4,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "20938",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "CHANDON GARDEN SPRITZ 750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 470.4,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "20938",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "LICOR BALLENA MORANGO 750 ML",
+          "fantasia": "BALLENA",
+          "qt": 6,
+          "valor": 803.1,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "20942",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "CONHAQUE DOMECQ 1L",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 1099.44,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "20942",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "VODKA ABSOLUT TABASCO 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 864.0,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "20938",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "VODKA ABSOLUT TABASCO 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 864.0,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
           "codcli": "20943",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "VODKA ABSOLUT TABASCO 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 864.0,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "20944",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "VINHO LATITUD 33 MALBEC  750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 12,
+          "valor": 518.64,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "20944",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "VODKA ABSOLUT TABASCO 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 864.0,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "VINHO LATITUD 33 MALBEC  750 ML",
+          "fantasia": "HENNESSY",
+          "qt": 12,
+          "valor": 518.64,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "LICOR BALLENA MORANGO 750 ML",
+          "fantasia": "BALLENA",
+          "qt": 6,
+          "valor": 803.1,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "20941",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "VODKA ABSOLUT TABASCO 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 864.0,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "20939",
           "cliente": "ITAPOA SUPERMERCADO LTDA",
           "produto": "VODKA ABSOLUT TABASCO 750ML",
           "fantasia": "PERNOD",
@@ -262133,6 +262253,16 @@ const VENDAS_ES_DATA = {
           "fantasia": "BALLENA",
           "qt": 6,
           "valor": 803.1,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "20938",
+          "cliente": "ITAPOA SUPERMERCADO LTDA",
+          "produto": "VODKA BELVEDERE 700 ML",
+          "fantasia": "HENNESSY",
+          "qt": 6,
+          "valor": 1126.56,
           "offtrade": true
         }
       ]
