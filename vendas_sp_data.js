@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "04/08/2026 14:06",
+  "atualizado_em": "04/08/2026 15:29",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -51000,6 +51000,16 @@ const VENDAS_SP_DATA = {
           "qt": 120,
           "valor": 1078.8,
           "offtrade": false
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "43213",
+          "cliente": "NOVA ADEGA DO BOKA LTDA",
+          "produto": "WHISKY JACK DANIELS 700ML",
+          "fantasia": "BROWN",
+          "qt": 24,
+          "valor": 2037.6,
+          "offtrade": false
         }
       ]
     },
@@ -59915,6 +59925,36 @@ const VENDAS_SP_DATA = {
           "fantasia": "MOET HENNESY",
           "qt": 6,
           "valor": 461.4,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "31155",
+          "cliente": "MALTE COMERCIO DE BEBIDAS LTDA",
+          "produto": "WHISKY BALLANTINE S FINEST 1L",
+          "fantasia": "PERNOD",
+          "qt": 60,
+          "valor": 3174.0,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "49227",
+          "cliente": "CENTRAL BEBIDAS E TABACARIA LTDA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 60,
+          "valor": 1974.0,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "49227",
+          "cliente": "CENTRAL BEBIDAS E TABACARIA LTDA",
+          "produto": "GIN BEEFEATER 750ML",
+          "fantasia": "PERNOD",
+          "qt": 12,
+          "valor": 718.8,
           "offtrade": true
         }
       ]
@@ -92127,6 +92167,18 @@ const VENDAS_SP_DATA = {
           "fantasia": "CRS BRANDS",
           "qt": 12,
           "valor": 107.88,
+          "offtrade": true
+        }
+      ],
+      "Ago/26": [
+        {
+          "data": "04/08/2026",
+          "codcli": "49226",
+          "cliente": "CENTRAL BEBIDAS E TABACARIA LTDA",
+          "produto": "WHISKY PASSPORT 1L",
+          "fantasia": "PERNOD",
+          "qt": 84,
+          "valor": 2763.6,
           "offtrade": true
         }
       ]
@@ -125566,6 +125618,16 @@ const VENDAS_SP_DATA = {
           "qt": 6,
           "valor": 266.4,
           "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "51375",
+          "cliente": "MERCEARIA E QUITANDA FRANGAO LTDA",
+          "produto": "CONHAQUE DREHER 900ML",
+          "fantasia": "CAMPARI",
+          "qt": 9,
+          "valor": 152.1,
+          "offtrade": true
         }
       ]
     },
@@ -138292,6 +138354,46 @@ const VENDAS_SP_DATA = {
           "qt": 12,
           "valor": 347.4,
           "offtrade": false
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "38885",
+          "cliente": "AUTO POSTO BANDEIRA PAULISTA LTDA",
+          "produto": "SMIRNOFF ICE 24X275ML LONG",
+          "fantasia": "DIAGEO",
+          "qt": 2,
+          "valor": 251.8,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "38885",
+          "cliente": "AUTO POSTO BANDEIRA PAULISTA LTDA",
+          "produto": "CHANDON BABY RESERVE BRUT 187 ML",
+          "fantasia": "MOET HENNESY",
+          "qt": 12,
+          "valor": 330.0,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "38885",
+          "cliente": "AUTO POSTO BANDEIRA PAULISTA LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "MOET HENNESY",
+          "qt": 5,
+          "valor": 349.5,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "38885",
+          "cliente": "AUTO POSTO BANDEIRA PAULISTA LTDA",
+          "produto": "VODKA ORLOFF 1L",
+          "fantasia": "PERNOD",
+          "qt": 3,
+          "valor": 65.7,
+          "offtrade": true
         }
       ]
     },
@@ -139677,6 +139779,28 @@ const VENDAS_SP_DATA = {
           "valor": 353.4,
           "offtrade": true
         }
+      ],
+      "Ago/26": [
+        {
+          "data": "04/08/2026",
+          "codcli": "51888",
+          "cliente": "COMERCIAL GENESIO DE ALIMENTOS LTDA",
+          "produto": "GIN BEEFEATER PINK 700ML",
+          "fantasia": "PERNOD",
+          "qt": 24,
+          "valor": 1677.6,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "51888",
+          "cliente": "COMERCIAL GENESIO DE ALIMENTOS LTDA",
+          "produto": "GIN TANQUERAY  750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 1096.7,
+          "offtrade": true
+        }
       ]
     },
     "ALEXANDRE SOUZA": {
@@ -139959,6 +140083,68 @@ const VENDAS_SP_DATA = {
           "fantasia": "CASTAS",
           "qt": 1,
           "valor": 178.8,
+          "offtrade": true
+        }
+      ],
+      "Ago/26": [
+        {
+          "data": "04/08/2026",
+          "codcli": "51767",
+          "cliente": "PEDRO IVAN CARDOSO MINIMERCADO",
+          "produto": "ICE 51 FRUIT LONG NECK 275ML-24 UND",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 92.0,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "51767",
+          "cliente": "PEDRO IVAN CARDOSO MINIMERCADO",
+          "produto": "SMIRNOFF ICE TROPICAL (LATA) 24X269ML",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 124.56,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "51767",
+          "cliente": "PEDRO IVAN CARDOSO MINIMERCADO",
+          "produto": "VODKA ABSOLUT TABASCO 750ML",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 113.8,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "51767",
+          "cliente": "PEDRO IVAN CARDOSO MINIMERCADO",
+          "produto": "SMIRNOFF ICE TROPICAL (LONG) 24X275ML",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 156.0,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "51767",
+          "cliente": "PEDRO IVAN CARDOSO MINIMERCADO",
+          "produto": "VODKA ABSOLUT 1L",
+          "fantasia": "PERNOD",
+          "qt": 2,
+          "valor": 117.8,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "51767",
+          "cliente": "PEDRO IVAN CARDOSO MINIMERCADO",
+          "produto": "VODKA ABSOLUT CITRON 750ML",
+          "fantasia": "PERNOD",
+          "qt": 1,
+          "valor": 56.9,
           "offtrade": true
         }
       ]
@@ -143138,9 +143324,9 @@ const VENDAS_SP_DATA = {
     },
     "ADER ALONSO": {
       "Ago/26": {
-        "fat": 31251.0,
-        "pos": 5.0,
-        "fat_pernod": 15606.0,
+        "fat": 37117.8,
+        "pos": 6.0,
+        "fat_pernod": 21472.8,
         "fat_crs": 6904.8,
         "fat_ant": 362518.19,
         "fat_ano_ant": 0.0
@@ -143192,6 +143378,41 @@ const VENDAS_SP_DATA = {
       "Nov/25": {
         "fat": 1853.34,
         "pos": 1.0,
+        "fat_ant": 0.0
+      }
+    },
+    "MANUELA ZAPPACOSTA": {
+      "Ago/26": {
+        "fat": 2763.6,
+        "pos": 1.0,
+        "fat_pernod": 2763.6,
+        "fat_ant": 262987.39,
+        "fat_ano_ant": 0.0
+      },
+      "Jul/26": {
+        "fat": 262987.39,
+        "pos": 45.0,
+        "fat_pernod": 131249.95,
+        "fat_crs": 24278.4,
+        "fat_ant": 217932.91
+      },
+      "Jun/26": {
+        "fat": 217932.91,
+        "pos": 39.0,
+        "fat_pernod": 99580.8,
+        "fat_crs": 2720.52,
+        "fat_ant": 449220.07
+      },
+      "Mai/26": {
+        "fat": 449220.07,
+        "pos": 17.0,
+        "fat_pernod": 376857.0,
+        "fat_ant": 262330.44
+      },
+      "Abr/26": {
+        "fat": 262330.44,
+        "pos": 11.0,
+        "fat_pernod": 241940.4,
         "fat_ant": 0.0
       }
     },
@@ -143477,8 +143698,8 @@ const VENDAS_SP_DATA = {
     },
     "FRANCIS SILVA": {
       "Ago/26": {
-        "fat": 266.4,
-        "pos": 1.0,
+        "fat": 418.5,
+        "pos": 2.0,
         "fat_pernod": 266.4,
         "fat_ant": 15834.05,
         "fat_ano_ant": 0.0
@@ -143816,10 +144037,27 @@ const VENDAS_SP_DATA = {
         "fat_ant": 0.0
       }
     },
+    "ALEXANDRE SOUZA": {
+      "Ago/26": {
+        "fat": 661.06,
+        "pos": 1.0,
+        "fat_pernod": 288.5,
+        "fat_ant": 6156.21,
+        "fat_ano_ant": 0.0
+      },
+      "Jul/26": {
+        "fat": 6156.21,
+        "pos": 6.0,
+        "fat_pernod": 626.7,
+        "fat_essenza": 1557.6,
+        "fat_ant": 0.0
+      }
+    },
     "WILLIAM GONCALVES": {
       "Ago/26": {
-        "fat": 2084.28,
-        "pos": 1.0,
+        "fat": 3081.28,
+        "pos": 2.0,
+        "fat_pernod": 65.7,
         "fat_ant": 138644.23,
         "fat_ano_ant": 0.0
       },
@@ -143828,6 +144066,21 @@ const VENDAS_SP_DATA = {
         "pos": 20.0,
         "fat_pernod": 115057.15,
         "fat_crs": 6317.4,
+        "fat_ant": 0.0
+      }
+    },
+    "RAFAEL REIS": {
+      "Ago/26": {
+        "fat": 2774.3,
+        "pos": 1.0,
+        "fat_pernod": 1677.6,
+        "fat_ant": 25475.84,
+        "fat_ano_ant": 0.0
+      },
+      "Jul/26": {
+        "fat": 25475.84,
+        "pos": 7.0,
+        "fat_pernod": 11912.0,
         "fat_ant": 0.0
       }
     },
@@ -143849,7 +144102,7 @@ const VENDAS_SP_DATA = {
     },
     "W.S": {
       "Ago/26": {
-        "fat": 98911.21,
+        "fat": 100948.81,
         "pos": 10.0,
         "fat_pernod": 70986.3,
         "fat_crs": 4830.84,
@@ -144114,34 +144367,6 @@ const VENDAS_SP_DATA = {
         "fat_ant": 0.0
       }
     },
-    "MANUELA ZAPPACOSTA": {
-      "Jul/26": {
-        "fat": 262987.39,
-        "pos": 45.0,
-        "fat_pernod": 131249.95,
-        "fat_crs": 24278.4,
-        "fat_ant": 217932.91
-      },
-      "Jun/26": {
-        "fat": 217932.91,
-        "pos": 39.0,
-        "fat_pernod": 99580.8,
-        "fat_crs": 2720.52,
-        "fat_ant": 449220.07
-      },
-      "Mai/26": {
-        "fat": 449220.07,
-        "pos": 17.0,
-        "fat_pernod": 376857.0,
-        "fat_ant": 262330.44
-      },
-      "Abr/26": {
-        "fat": 262330.44,
-        "pos": 11.0,
-        "fat_pernod": 241940.4,
-        "fat_ant": 0.0
-      }
-    },
     "ROBERTO DOS SANTOS": {
       "Jul/26": {
         "fat": 8117.4,
@@ -144358,15 +144583,6 @@ const VENDAS_SP_DATA = {
         "fat_ant": 0.0
       }
     },
-    "ALEXANDRE SOUZA": {
-      "Jul/26": {
-        "fat": 6156.21,
-        "pos": 6.0,
-        "fat_pernod": 626.7,
-        "fat_essenza": 1557.6,
-        "fat_ant": 0.0
-      }
-    },
     "IGOR OLIVEIRA": {
       "Jul/26": {
         "fat": 5521.08,
@@ -144380,14 +144596,6 @@ const VENDAS_SP_DATA = {
       "Jul/26": {
         "fat": 598.8,
         "pos": 1.0,
-        "fat_ant": 0.0
-      }
-    },
-    "RAFAEL REIS": {
-      "Jul/26": {
-        "fat": 25475.84,
-        "pos": 7.0,
-        "fat_pernod": 11912.0,
         "fat_ant": 0.0
       }
     },
