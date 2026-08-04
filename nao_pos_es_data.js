@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "04/08/2026 13:43",
+  "atualizado_em": "04/08/2026 14:07",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -16434,6 +16434,20 @@ const NAO_POS_ES_DATA = {
       }
     ],
     "JORGE MACIEL": [
+      {
+        "codcli": "73866",
+        "cliente": "AC DISTRIBUIDORA DE BEBIDAS LTDA",
+        "bairro": "VILA TREZE DE MAIO",
+        "dtultcomp": "26/06/2025",
+        "produtos": [
+          {
+            "produto": "VODCA SMIRNOFF RED 998 ML",
+            "fantasia": "DIAGEO",
+            "qt": 10,
+            "valor": 315.0
+          }
+        ]
+      },
       {
         "codcli": "84160",
         "cliente": "PQA ALIMENTOS ENGENHO LTDA",
