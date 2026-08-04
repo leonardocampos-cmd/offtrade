@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "03/08/2026 17:48",
+  "atualizado_em": "04/08/2026 10:10",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -200,8 +200,8 @@ const VENDAS_MG_DATA = {
         "fat_ano_ant": 0.0
       },
       "Ago/26": {
-        "fat": 4161.24,
-        "pos": 5,
+        "fat": 5616.5,
+        "pos": 8,
         "fat_ant": 326368.49,
         "fat_ano_ant": 250737.2
       }
@@ -379,6 +379,12 @@ const VENDAS_MG_DATA = {
         "fat": 6254.4,
         "pos": 4,
         "fat_ant": 0.0,
+        "fat_ano_ant": 0.0
+      },
+      "Ago/26": {
+        "fat": 988.2,
+        "pos": 1,
+        "fat_ant": 212176.74,
         "fat_ano_ant": 0.0
       }
     },
@@ -165614,6 +165620,46 @@ const VENDAS_MG_DATA = {
         },
         {
           "data": "03/08/2026",
+          "codcli": "31920",
+          "cliente": "SALUS ALIMENTOS LTDA",
+          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 461.4,
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
+          "codcli": "31920",
+          "cliente": "SALUS ALIMENTOS LTDA",
+          "produto": "VINHO TINTO AZUL VENTOZELO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 152.9,
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
+          "codcli": "30219",
+          "cliente": "POSTO TOCANTINS LTDA",
+          "produto": "SMIRNOFF ICE RASPBERRY -24 UNIDADES (LN)",
+          "fantasia": "DIAGEO",
+          "qt": 2,
+          "valor": 273.12,
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
+          "codcli": "30219",
+          "cliente": "POSTO TOCANTINS LTDA",
+          "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
+          "fantasia": "DIAGEO",
+          "qt": 1,
+          "valor": 136.56,
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
           "codcli": "32884",
           "cliente": "BAR A PORCA VOADORA LTDA",
           "produto": "CERVEJA HEINEKEN RETORNAVEL 24X600ML",
@@ -165680,6 +165726,16 @@ const VENDAS_MG_DATA = {
           "fantasia": "BACARDI",
           "qt": 4,
           "valor": 199.6,
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
+          "codcli": "33024",
+          "cliente": "CASA OUTONO 571 MUSICA E CULTURA LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 3,
+          "valor": 431.28,
           "offtrade": true
         }
       ]
@@ -202834,6 +202890,28 @@ const VENDAS_MG_DATA = {
           "fantasia": "CASTAS",
           "qt": 6,
           "valor": 126.0,
+          "offtrade": true
+        }
+      ],
+      "Ago/26": [
+        {
+          "data": "03/08/2026",
+          "codcli": "38043",
+          "cliente": "SUPERMERCADO SERRA DO CIPO LTDA",
+          "produto": "GIN GORDONS 750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 658.8,
+          "offtrade": true
+        },
+        {
+          "data": "03/08/2026",
+          "codcli": "38043",
+          "cliente": "SUPERMERCADO SERRA DO CIPO LTDA",
+          "produto": "GIN GORDONS PINK 700ML",
+          "fantasia": "DIAGEO",
+          "qt": 6,
+          "valor": 329.4,
           "offtrade": true
         }
       ]
