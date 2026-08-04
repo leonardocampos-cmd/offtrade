@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "04/08/2026 15:29",
+  "atualizado_em": "04/08/2026 17:00",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -89270,7 +89270,7 @@ const VENDAS_SP_DATA = {
         {
           "data": "16/06/2026",
           "codcli": "50954",
-          "cliente": "SUPERMERCADO TRIALBA",
+          "cliente": "SUPER FAUNA VAREJISTA LTDA",
           "produto": "VODKA ABSOLUT TABASCO 750ML",
           "fantasia": "PERNOD",
           "qt": 30,
@@ -89280,7 +89280,7 @@ const VENDAS_SP_DATA = {
         {
           "data": "16/06/2026",
           "codcli": "50954",
-          "cliente": "SUPERMERCADO TRIALBA",
+          "cliente": "SUPER FAUNA VAREJISTA LTDA",
           "produto": "GIN ROCKS 1LT",
           "fantasia": "FANTE",
           "qt": 12,
@@ -89290,7 +89290,7 @@ const VENDAS_SP_DATA = {
         {
           "data": "16/06/2026",
           "codcli": "50954",
-          "cliente": "SUPERMERCADO TRIALBA",
+          "cliente": "SUPER FAUNA VAREJISTA LTDA",
           "produto": "VODKA ABSOLUT 1L",
           "fantasia": "PERNOD",
           "qt": 24,
@@ -89300,7 +89300,7 @@ const VENDAS_SP_DATA = {
         {
           "data": "16/06/2026",
           "codcli": "50954",
-          "cliente": "SUPERMERCADO TRIALBA",
+          "cliente": "SUPER FAUNA VAREJISTA LTDA",
           "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
           "fantasia": "PERNOD",
           "qt": 12,
@@ -89310,7 +89310,7 @@ const VENDAS_SP_DATA = {
         {
           "data": "16/06/2026",
           "codcli": "50954",
-          "cliente": "SUPERMERCADO TRIALBA",
+          "cliente": "SUPER FAUNA VAREJISTA LTDA",
           "produto": "VODKA ABSOLUT VANILLA 750ML",
           "fantasia": "PERNOD",
           "qt": 12,
@@ -89330,7 +89330,7 @@ const VENDAS_SP_DATA = {
         {
           "data": "16/06/2026",
           "codcli": "50954",
-          "cliente": "SUPERMERCADO TRIALBA",
+          "cliente": "SUPER FAUNA VAREJISTA LTDA",
           "produto": "GIN ROCKS WATERMELON 1LT",
           "fantasia": "FANTE",
           "qt": 6,
