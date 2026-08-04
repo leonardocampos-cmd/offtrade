@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "04/08/2026 12:29",
+  "atualizado_em": "04/08/2026 13:43",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -19568,16 +19568,30 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95671",
+        "codcli": "3754",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "TANQUE",
+        "bairro": "RECREIO DOS BANDEIRANTES",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "67821",
+        "codcli": "95665",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "GUARATIBA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "93791",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
         "bairro": "BARRA DA TIJUCA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95664",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "ANIL",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -19585,6 +19599,20 @@ const NAO_POS_ES_DATA = {
         "codcli": "95673",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
         "bairro": "PARADA DE LUCAS",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95670",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95671",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "TANQUE",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -19603,13 +19631,6 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95664",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "ANIL",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "95668",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
         "bairro": "CASCADURA",
@@ -19617,9 +19638,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95670",
+        "codcli": "67821",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "CENTRO",
+        "bairro": "BARRA DA TIJUCA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -19632,27 +19653,6 @@ const NAO_POS_ES_DATA = {
       },
       {
         "codcli": "67822",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "BARRA DA TIJUCA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "3754",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "RECREIO DOS BANDEIRANTES",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "95665",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "GUARATIBA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "93791",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
         "bairro": "BARRA DA TIJUCA",
         "dtultcomp": "nan",
@@ -19754,21 +19754,53 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "92447",
-        "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
-        "bairro": "RECREIO DOS BANDEIRANTES",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "81155",
         "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
         "bairro": "BARRA DA TIJUCA",
         "dtultcomp": "nan",
         "produtos": []
+      },
+      {
+        "codcli": "92447",
+        "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
+        "bairro": "RECREIO DOS BANDEIRANTES",
+        "dtultcomp": "nan",
+        "produtos": []
       }
     ],
     "KESSYA OURIQUE": [
+      {
+        "codcli": "14107",
+        "cliente": "VINOART COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
+        "bairro": "CATETE",
+        "dtultcomp": "29/12/2025",
+        "produtos": [
+          {
+            "produto": "WHISKY BUCHANANS 12 YEARS 1000 ML",
+            "fantasia": "DIAGEO",
+            "qt": 2,
+            "valor": 319.8
+          },
+          {
+            "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+            "fantasia": "PERNOD",
+            "qt": 6,
+            "valor": 623.4
+          },
+          {
+            "produto": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
+            "fantasia": "DIAGEO",
+            "qt": 2,
+            "valor": 459.8
+          },
+          {
+            "produto": "WHISKY JACK DANIELS 375 ML",
+            "fantasia": "BROWN",
+            "qt": 6,
+            "valor": 317.4
+          }
+        ]
+      },
       {
         "codcli": "84939",
         "cliente": "MERCADO GUARILHA COMERCIO DE TERESOPOLIS LTDA",
