@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "04/08/2026 12:29",
+  "atualizado_em": "04/08/2026 13:42",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -114,8 +114,8 @@ const VENDAS_MG_DATA = {
         "fat_ano_ant": 0.0
       },
       "Ago/26": {
-        "fat": 3712.9,
-        "pos": 3,
+        "fat": 5022.1,
+        "pos": 5,
         "fat_ant": 115221.61,
         "fat_ano_ant": 0.0
       },
@@ -314,7 +314,7 @@ const VENDAS_MG_DATA = {
         "fat_ano_ant": 0.0
       },
       "Jul/26": {
-        "fat": 888778.94,
+        "fat": 883192.94,
         "pos": 17,
         "fat_ant": 1039602.9,
         "fat_ano_ant": 0.0
@@ -51666,6 +51666,46 @@ const VENDAS_MG_DATA = {
           "fantasia": "TATUZINHO",
           "qt": 4,
           "valor": 107.6,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "34960",
+          "cliente": "DRIL EMPREENDIMENTOS STUDIO BIKE PAMPULHA BH LTDA",
+          "produto": "RED BULL SF POMELO 24X250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 175.44,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "34960",
+          "cliente": "DRIL EMPREENDIMENTOS STUDIO BIKE PAMPULHA BH LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 175.44,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "35888",
+          "cliente": "SUSHI MIX PAMPULHA LTDA",
+          "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
+          "fantasia": "MONIN",
+          "qt": 12,
+          "valor": 574.8,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "35888",
+          "cliente": "SUSHI MIX PAMPULHA LTDA",
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "fantasia": "RED BULL",
+          "qt": 2,
+          "valor": 383.52,
           "offtrade": true
         }
       ],
@@ -186164,30 +186204,10 @@ const VENDAS_MG_DATA = {
           "data": "30/07/2026",
           "codcli": "30231",
           "cliente": "ORGANIZACAO VERDEMAR LTDA",
-          "produto": "XAROPE  MONIN CRANBERRY 330 ML",
-          "fantasia": "MONIN",
-          "qt": 96,
-          "valor": 2352.0,
-          "offtrade": true
-        },
-        {
-          "data": "30/07/2026",
-          "codcli": "30231",
-          "cliente": "ORGANIZACAO VERDEMAR LTDA",
           "produto": "XAROPE MONIN MORANGO 330 ML",
           "fantasia": "MONIN",
           "qt": 30,
           "valor": 735.0,
-          "offtrade": true
-        },
-        {
-          "data": "30/07/2026",
-          "codcli": "30231",
-          "cliente": "ORGANIZACAO VERDEMAR LTDA",
-          "produto": "XAROPE  MONIN  MAÇA VERDE 330 ML",
-          "fantasia": "MONIN",
-          "qt": 48,
-          "valor": 1176.0,
           "offtrade": true
         },
         {
@@ -186248,16 +186268,6 @@ const VENDAS_MG_DATA = {
           "fantasia": "MONIN",
           "qt": 60,
           "valor": 1470.0,
-          "offtrade": true
-        },
-        {
-          "data": "30/07/2026",
-          "codcli": "30231",
-          "cliente": "ORGANIZACAO VERDEMAR LTDA",
-          "produto": "XAROPE  MONIN CRANBERRY 330 ML",
-          "fantasia": "MONIN",
-          "qt": 84,
-          "valor": 2058.0,
           "offtrade": true
         },
         {
