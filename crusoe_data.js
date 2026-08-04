@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "03/08/2026 17:44",
+  "atualizado_em": "04/08/2026 10:06",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -3280,7 +3280,7 @@ const CRUSOE_DATA = {
           "rca": 379,
           "vendedor": "Jorge Maciel",
           "clientes_gourmet": 0,
-          "faturamento": 9391.78,
+          "faturamento": 9901.48,
           "faturamento_gourmet": 0.0,
           "pontos_total": 0,
           "vendas": []
