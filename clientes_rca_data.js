@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "04/08/2026 12:30",
+  "atualizado_em": "04/08/2026 13:44",
   "total": 22333,
   "clientes": [
     {
@@ -138702,8 +138702,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "COMERCIO VAREJISTA (GERAL)",
       "key_account": false,
       "rede": "",
-      "codusur1": "362",
-      "nome_usur1": "BRUNA CASTRO MELLO - OFF TRADE",
+      "codusur1": "354",
+      "nome_usur1": "MATHEUS DE SOUZA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -348078,8 +348078,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "RESTAURANTE",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "283",
+      "nome_usur1": "KESSYA OURIQUE - OFF TRADE",
       "codusur2": "319",
       "nome_usur2": "FERNANDA CAMBOIM"
     },
