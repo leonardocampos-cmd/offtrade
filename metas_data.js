@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "04/08/2026 10:46",
+  "atualizado_em": "04/08/2026 10:59",
   "meses": [
     "Jul/26",
     "Jun/26"
@@ -8380,11 +8380,11 @@ const METAS_DATA = {
       "por_mes": {
         "Jun/26": {
           "fat_tt": {
-            "meta": 0.0,
+            "meta": 150000.0,
             "realizado": 105672.51
           },
           "fat_castas": {
-            "meta": 0.0,
+            "meta": 10000.0,
             "realizado": 1147.7
           },
           "fat_domecq_passport": {
@@ -8408,15 +8408,15 @@ const METAS_DATA = {
             "realizado": 45447.72
           },
           "pos_tt": {
-            "meta": 0,
+            "meta": 50,
             "realizado": 37
           },
           "pos_hob_azeite": {
-            "meta": 0,
+            "meta": 4,
             "realizado": 3
           },
           "pos_reckit": {
-            "meta": 0,
+            "meta": 7,
             "realizado": 5
           },
           "pos_crusoe": {
@@ -8458,11 +8458,11 @@ const METAS_DATA = {
         },
         "Jul/26": {
           "fat_tt": {
-            "meta": 0.0,
+            "meta": 130000.0,
             "realizado": 91526.28
           },
           "fat_castas": {
-            "meta": 0.0,
+            "meta": 10000.0,
             "realizado": 8008.7
           },
           "fat_domecq_passport": {
@@ -8470,7 +8470,7 @@ const METAS_DATA = {
             "realizado": 1734.0
           },
           "fat_hob_azeite": {
-            "meta": 0.0,
+            "meta": 1500.0,
             "realizado": 573.6
           },
           "fat_pinatti": {
@@ -8482,11 +8482,11 @@ const METAS_DATA = {
             "realizado": 94.7
           },
           "fat_pernod": {
-            "meta": 0.0,
+            "meta": 20000.0,
             "realizado": 8399.6
           },
           "pos_tt": {
-            "meta": 0,
+            "meta": 50,
             "realizado": 37
           },
           "pos_hob_azeite": {
@@ -12494,11 +12494,11 @@ const METAS_DATA = {
       "por_mes": {
         "Jun/26": {
           "fat_tt": {
-            "meta": 0.0,
+            "meta": 650000.0,
             "realizado": 189683.04
           },
           "fat_castas": {
-            "meta": 0.0,
+            "meta": 12000.0,
             "realizado": 179.4
           },
           "fat_domecq_passport": {
@@ -12522,15 +12522,15 @@ const METAS_DATA = {
             "realizado": 598.8
           },
           "pos_tt": {
-            "meta": 0,
+            "meta": 40,
             "realizado": 20
           },
           "pos_hob_azeite": {
-            "meta": 0,
+            "meta": 4,
             "realizado": 0
           },
           "pos_reckit": {
-            "meta": 0,
+            "meta": 7,
             "realizado": 1
           },
           "pos_crusoe": {
@@ -12568,84 +12568,6 @@ const METAS_DATA = {
           "industrias": {
             "meta": 0,
             "realizado": 15
-          }
-        },
-        "Jul/26": {
-          "fat_tt": {
-            "meta": 0.0,
-            "realizado": 27950.18
-          },
-          "fat_castas": {
-            "meta": 0.0,
-            "realizado": 0.0
-          },
-          "fat_domecq_passport": {
-            "meta": 0.0,
-            "realizado": 0.0
-          },
-          "fat_hob_azeite": {
-            "meta": 0.0,
-            "realizado": 0.0
-          },
-          "fat_pinatti": {
-            "meta": 0,
-            "realizado": 0.0
-          },
-          "fat_moving": {
-            "meta": 0,
-            "realizado": 0.0
-          },
-          "fat_pernod": {
-            "meta": 0.0,
-            "realizado": 0.0
-          },
-          "pos_tt": {
-            "meta": 0,
-            "realizado": 3
-          },
-          "pos_hob_azeite": {
-            "meta": 0,
-            "realizado": 0
-          },
-          "pos_reckit": {
-            "meta": 0,
-            "realizado": 1
-          },
-          "pos_crusoe": {
-            "meta": 0,
-            "realizado": 0
-          },
-          "pos_tatuzinho": {
-            "meta": 0,
-            "realizado": 1
-          },
-          "pos_tial": {
-            "meta": 0,
-            "realizado": 0
-          },
-          "pos_redbull": {
-            "meta": 0,
-            "realizado": 0
-          },
-          "pos_pinatti": {
-            "meta": 0,
-            "realizado": 0
-          },
-          "pos_essenza_hob": {
-            "meta": 0,
-            "realizado": 0
-          },
-          "bonus_pernod": {
-            "meta": 0,
-            "realizado": 0
-          },
-          "pos_pernod": {
-            "meta": 0,
-            "realizado": 0
-          },
-          "industrias": {
-            "meta": 0,
-            "realizado": 3
           }
         }
       },
@@ -22204,11 +22126,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "",
-              "DESCRICAO": "HUMB. CANALE O.V MALBEC 750ML"
+              "DESCRICAO": "HUMB. CANALE O.V PINOT NOIR 750ML"
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "HUMB. CANALE O.V PINOT NOIR 750ML"
+              "DESCRICAO": "HUMB. CANALE O.V MALBEC 750ML"
             },
             {
               "FANTASIA": "",
@@ -22257,18 +22179,6 @@ const METAS_DATA = {
           ]
         },
         {
-          "CODCLI": "91154",
-          "CLIENTE": "ESTRO-COMERCIO DE ALIMENTOS LTDA",
-          "BAIRROENT": "ÁGUA VERDE",
-          "DTULTCOMP": "16/07/2026",
-          "produtos": [
-            {
-              "FANTASIA": "",
-              "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
-            }
-          ]
-        },
-        {
           "CODCLI": "90710",
           "CLIENTE": "ALPHA GASTRONOMIA LTDA",
           "BAIRROENT": "ALPHAVILLE GRACIOSA",
@@ -22289,6 +22199,18 @@ const METAS_DATA = {
             {
               "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
+            }
+          ]
+        },
+        {
+          "CODCLI": "91154",
+          "CLIENTE": "ESTRO-COMERCIO DE ALIMENTOS LTDA",
+          "BAIRROENT": "ÁGUA VERDE",
+          "DTULTCOMP": "16/07/2026",
+          "produtos": [
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
             }
           ]
         },
@@ -22352,7 +22274,7 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO LOS ALJIBES TEMPRANILLO 750ML"
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 750ML"
             },
             {
               "FANTASIA": "",
@@ -22360,7 +22282,7 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 750ML"
+              "DESCRICAO": "VINHO LOS ALJIBES TEMPRANILLO 750ML"
             },
             {
               "FANTASIA": "",
