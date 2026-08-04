@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "04/08/2026 11:34",
-  "total": 22335,
+  "atualizado_em": "04/08/2026 12:30",
+  "total": 22333,
   "clientes": [
     {
       "codcli": "38586",
@@ -6240,22 +6240,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "370",
       "nome_usur1": "FRANZ BENEVIDES - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "84408",
-      "razao": "36.765.255 MATHEUS DE ALMEIDA CARVALHO DOS SANTOS",
-      "fantasia": "MATHEUS DE ALMEIDA CARVALHO DOS SANTOS",
-      "bairro": "ARACATIBA",
-      "cidade": "MARICA",
-      "cnpj": "36.765.255/0001-92",
-      "estado": "RJ",
-      "ramo": "EVENTOS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -54370,22 +54354,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
-      "codcli": "38144",
-      "razao": "ART SAUDE E PERFORMANCE LTDA",
-      "fantasia": "ART SAUDE E PERFORMANCE LTDA",
-      "bairro": "VILA DA SERRA",
-      "cidade": "NOVA LIMA",
-      "cnpj": "42.508.328/0001-63",
-      "estado": "MG",
-      "ramo": "OUTROS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "89932",
@@ -228836,6 +228804,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "95903",
+      "razao": "MASTER COMERCIO DE PRODUTOS EM GERAL LTDA",
+      "fantasia": "MASTER ATACADO",
+      "bairro": "JARDIM ROSELI",
+      "cidade": "SAO PAULO",
+      "cnpj": "52.710.992/0001-44",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "92263",
       "razao": "MASTER COMERCIO DE PRODUTOS EM GERAL LTDA",
       "fantasia": "MASTER ATACADO",
@@ -228850,22 +228834,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "W.S",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
-      "codcli": "52223",
-      "razao": "MASTER COMERCIO DE PRODUTOS EM GERAL LTDA",
-      "fantasia": "MASTER ATACADO",
-      "bairro": "JARDIM ROSELI",
-      "cidade": "SAO PAULO",
-      "cnpj": "52.710.992/0001-44",
-      "estado": "SP",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "80308",
