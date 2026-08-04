@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "04/08/2026 10:59",
+  "atualizado_em": "04/08/2026 11:03",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -1113,7 +1113,7 @@ const GERENTES_DATA = {
                 },
                 {
                   "nome": "DIRLEI ARAUJO - OFF TRADE",
-                  "rca": "417",
+                  "rca": "554",
                   "estado": "RJ",
                   "por_mes": {
                     "Abr/26": {
@@ -1371,6 +1371,10 @@ const GERENTES_DATA = {
                       "fat": 58291.37,
                       "qt": 976
                     },
+                    "Ago/26": {
+                      "fat": 2768.14,
+                      "qt": 32
+                    },
                     "Jul/26": {
                       "fat": 237394.87,
                       "qt": 3574
@@ -1386,10 +1390,6 @@ const GERENTES_DATA = {
                     "Mar/26": {
                       "fat": 80511.3,
                       "qt": 1266
-                    },
-                    "Ago/26": {
-                      "fat": 2768.14,
-                      "qt": 32
                     }
                   }
                 },
