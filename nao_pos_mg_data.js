@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "04/08/2026 13:43",
+  "atualizado_em": "04/08/2026 14:07",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
