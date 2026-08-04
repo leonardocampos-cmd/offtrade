@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "04/08/2026 14:06",
+  "atualizado_em": "04/08/2026 15:29",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -114,8 +114,8 @@ const VENDAS_MG_DATA = {
         "fat_ano_ant": 0.0
       },
       "Ago/26": {
-        "fat": 5022.1,
-        "pos": 5,
+        "fat": 8145.3,
+        "pos": 8,
         "fat_ant": 115221.61,
         "fat_ano_ant": 0.0
       },
@@ -200,8 +200,8 @@ const VENDAS_MG_DATA = {
         "fat_ano_ant": 0.0
       },
       "Ago/26": {
-        "fat": 5616.5,
-        "pos": 8,
+        "fat": 7048.7,
+        "pos": 9,
         "fat_ant": 326368.49,
         "fat_ano_ant": 250737.2
       }
@@ -317,6 +317,12 @@ const VENDAS_MG_DATA = {
         "fat": 883192.94,
         "pos": 17,
         "fat_ant": 1039602.9,
+        "fat_ano_ant": 0.0
+      },
+      "Ago/26": {
+        "fat": 3528.0,
+        "pos": 1,
+        "fat_ant": 883192.94,
         "fat_ano_ant": 0.0
       }
     },
@@ -51629,6 +51635,56 @@ const VENDAS_MG_DATA = {
           "offtrade": true
         },
         {
+          "data": "04/08/2026",
+          "codcli": "34357",
+          "cliente": "VILLAGE FOODS LTDA",
+          "produto": "VILLA ROSA COLHEITA BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 74.9,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "34357",
+          "cliente": "VILLAGE FOODS LTDA",
+          "produto": "VILLA ROSA COLHEITA TINTO  750ML",
+          "fantasia": "CASTAS",
+          "qt": 1,
+          "valor": 74.9,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "34357",
+          "cliente": "VILLAGE FOODS LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 6,
+          "valor": 479.4,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "34357",
+          "cliente": "VILLAGE FOODS LTDA",
+          "produto": "VINHO ARESTI EST SEL PINOT NOIR 750ML",
+          "fantasia": "CASTAS",
+          "qt": 3,
+          "valor": 164.7,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "34357",
+          "cliente": "VILLAGE FOODS LTDA",
+          "produto": "VINHO CAVAS DE ORO CABERNET SAUV 750ML",
+          "fantasia": "CASTAS",
+          "qt": 4,
+          "valor": 239.6,
+          "offtrade": true
+        },
+        {
           "data": "03/08/2026",
           "codcli": "34348",
           "cliente": "COMERCIAL PRISMA LTDA",
@@ -51706,6 +51762,106 @@ const VENDAS_MG_DATA = {
           "fantasia": "RED BULL",
           "qt": 2,
           "valor": 383.52,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 109.8,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VINHO ARESTI EST SEL CARMENERE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 8,
+          "valor": 439.2,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VINHO ARESTI EST SEL SAUV BLANC 750ML",
+          "fantasia": "CASTAS",
+          "qt": 4,
+          "valor": 219.6,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "HUMB. CANALE DENARIO MALBEC 750ML",
+          "fantasia": "CASTAS",
+          "qt": 3,
+          "valor": 230.7,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "36028",
+          "cliente": "ORGANIZACOES JRF LTDA",
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 4,
+          "valor": 319.6,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "35993",
+          "cliente": "MFB COMERCIAL LTDA",
+          "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 109.8,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "35993",
+          "cliente": "MFB COMERCIAL LTDA",
+          "produto": "VINHO ARESTI EST SEL CARMENERE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 109.8,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "35993",
+          "cliente": "MFB COMERCIAL LTDA",
+          "produto": "VINHO ADELE ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 153.8,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "35993",
+          "cliente": "MFB COMERCIAL LTDA",
+          "produto": "HUMB. CANALE DENARIO MALBEC 750ML",
+          "fantasia": "CASTAS",
+          "qt": 4,
+          "valor": 307.6,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "35993",
+          "cliente": "MFB COMERCIAL LTDA",
+          "produto": "ESPUMANTE ALUD ROSE 750ML",
+          "fantasia": "CASTAS",
+          "qt": 2,
+          "valor": 89.8,
           "offtrade": true
         }
       ],
@@ -165639,6 +165795,26 @@ const VENDAS_MG_DATA = {
           "offtrade": true
         },
         {
+          "data": "04/08/2026",
+          "codcli": "29985",
+          "cliente": "BAR E RESTAURANTE CORDEIRO EIRELI",
+          "produto": "GIN TANQUERAY  750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 12,
+          "valor": 1102.8,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "29985",
+          "cliente": "BAR E RESTAURANTE CORDEIRO EIRELI",
+          "produto": "GIN GORDONS 750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 6,
+          "valor": 329.4,
+          "offtrade": true
+        },
+        {
           "data": "03/08/2026",
           "codcli": "30091",
           "cliente": "COMERCIAL COLOMBO EIRELI",
@@ -187298,6 +187474,28 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 13,
           "valor": 310.7,
+          "offtrade": true
+        }
+      ],
+      "Ago/26": [
+        {
+          "data": "04/08/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "XAROPE  MONIN CRANBERRY 330 ML",
+          "fantasia": "MONIN",
+          "qt": 96,
+          "valor": 2352.0,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "30231",
+          "cliente": "ORGANIZACAO VERDEMAR LTDA",
+          "produto": "XAROPE  MONIN  MAÇA VERDE 330 ML",
+          "fantasia": "MONIN",
+          "qt": 48,
+          "valor": 1176.0,
           "offtrade": true
         }
       ]
