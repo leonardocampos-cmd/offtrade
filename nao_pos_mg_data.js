@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "03/08/2026 17:48",
+  "atualizado_em": "04/08/2026 10:11",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -901,32 +901,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37335",
-        "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "CENTRO",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA TINTO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 257.4
-          },
-          {
-            "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 461.4
-          },
-          {
-            "produto": "VODKA ORLOFF 1L - DEST",
-            "fantasia": "",
-            "qt": 24,
-            "valor": 490.08
-          }
-        ]
-      },
-      {
         "codcli": "35222",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "JARDIM ANA MARIA",
@@ -961,6 +935,32 @@ const NAO_POS_MG_DATA = {
             "fantasia": "PERNOD",
             "qt": 3,
             "valor": 177.54
+          }
+        ]
+      },
+      {
+        "codcli": "37335",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "CENTRO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA TINTO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 257.4
+          },
+          {
+            "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 461.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 24,
+            "valor": 490.08
           }
         ]
       },
@@ -1103,26 +1103,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "TATUZINHO",
             "qt": 4,
             "valor": 95.76
-          }
-        ]
-      },
-      {
-        "codcli": "31920",
-        "cliente": "SALUS ALIMENTOS LTDA",
-        "bairro": "JARDIM CANADA",
-        "dtultcomp": "20/04/2026",
-        "produtos": [
-          {
-            "produto": "VINHO ADELE ROSE 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 461.4
-          },
-          {
-            "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 392.4
           }
         ]
       },
@@ -2729,20 +2709,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30219",
-        "cliente": "POSTO TOCANTINS LTDA",
-        "bairro": "FLORESTA",
-        "dtultcomp": "10/07/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY JACK DANIELS BLACKBERRY 1L",
-            "fantasia": "BROWN-FORMAN",
-            "qt": 4,
-            "valor": 559.6
-          }
-        ]
-      },
-      {
         "codcli": "39460",
         "cliente": "BLOOM DIGITAL MIDIA LTDA",
         "bairro": "LUXEMBURGO",
@@ -3727,20 +3693,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "AURORA",
             "qt": 2,
             "valor": 239.8
-          }
-        ]
-      },
-      {
-        "codcli": "33024",
-        "cliente": "CASA OUTONO 571 MUSICA E CULTURA LTDA",
-        "bairro": "CRUZEIRO",
-        "dtultcomp": "27/07/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-            "fantasia": "HEINEKEN",
-            "qt": 4,
-            "valor": 575.04
           }
         ]
       },
@@ -5681,26 +5633,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 2,
             "valor": 335.52
-          }
-        ]
-      },
-      {
-        "codcli": "38043",
-        "cliente": "SUPERMERCADO SERRA DO CIPO LTDA",
-        "bairro": "CARDEAL MOTA",
-        "dtultcomp": "06/05/2026",
-        "produtos": [
-          {
-            "produto": "GIN GORDONS 750 ML",
-            "fantasia": "DIAGEO",
-            "qt": 6,
-            "valor": 329.4
-          },
-          {
-            "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
-            "fantasia": "DIAGEO",
-            "qt": 20,
-            "valor": 2395.2
           }
         ]
       },
