@@ -803,6 +803,20 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
+          "codigo_cliente": "84059",
+          "cliente": "SUPERMERCADOS RIO SUL DA PENHA LTDA",
+          "cnpj": "42.810.855/0001-28",
+          "filial": "PENHA CIRCULAR",
+          "valor": 968.88,
+          "nf": "",
+          "data_agendamento": "04/08/2026",
+          "data_ord": "2026-08-04",
+          "status": "FATURADO",
+          "obs": "Enviar junto com o pedido do MAX - CRC 2",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "86195",
           "cliente": "MERCADO RC DE MIGUEL PEREIRA",
           "cnpj": "52.909.395/0001-43",
@@ -25560,7 +25574,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "03/08/2026 17:46",
+  "atualizado_em": "04/08/2026 10:09",
   "comparativo": [
     {
       "msg_id": "19f8f0d0054f43bd",
