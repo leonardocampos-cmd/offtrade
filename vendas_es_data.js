@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "04/08/2026 15:29",
+  "atualizado_em": "04/08/2026 17:00",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -179,6 +179,12 @@ const VENDAS_ES_DATA = {
         "pos": 9,
         "fat_ant": 0.0,
         "fat_ano_ant": 0.0
+      },
+      "Ago/26": {
+        "fat": 58.32,
+        "pos": 2,
+        "fat_ant": 262.44,
+        "fat_ano_ant": 25859.08
       }
     },
     "FRANZ BENEVIDES": {
@@ -67230,6 +67236,28 @@ const VENDAS_ES_DATA = {
           "codcli": "73065",
           "cliente": "SPAZZIO ACADEMIA LTDA",
           "produto": "4 PACK RED BULL MELÃO C/ MARACUJA",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16,
+          "offtrade": true
+        }
+      ],
+      "Ago/26": [
+        {
+          "data": "04/08/2026",
+          "codcli": "71151",
+          "cliente": "LEDAN COMERCIAL LTDA",
+          "produto": "4 PACK RED BULL 250ML",
+          "fantasia": "RED BULL",
+          "qt": 1,
+          "valor": 29.16,
+          "offtrade": true
+        },
+        {
+          "data": "04/08/2026",
+          "codcli": "71150",
+          "cliente": "V. R. ALVES LTDA",
+          "produto": "4 PACK RED BULL 250ML",
           "fantasia": "RED BULL",
           "qt": 1,
           "valor": 29.16,
