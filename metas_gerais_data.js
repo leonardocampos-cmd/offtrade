@@ -1,25 +1,25 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "04/08/2026 13:35",
+  "atualizado_em": "04/08/2026 13:59",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 4,
   "dias_no_mes": 31,
   "dias_restantes": 27,
   "resumo": {
-    "fat": 853917.48,
+    "fat": 864824.76,
     "fat_ant": 1203423.51,
     "fat_ant_completo": 13948345.2,
-    "pos": 202,
+    "pos": 207,
     "pos_ant": 326,
     "pos_ant_completo": 1827
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 853917.48,
+    "fat": 864824.76,
     "fat_ant": 1203423.51,
     "fat_ant_completo": 13948345.2,
-    "pct": 5.9,
-    "nec_dia": 501706.76
+    "pct": 6.0,
+    "nec_dia": 501302.79
   },
   "estados": [
     {
@@ -52,11 +52,11 @@ const METAS_GERAIS_DATA = {
       "estado": "ES",
       "label": "Espírito Santo",
       "meta": 1800000.0,
-      "fat": 164819.52,
+      "fat": 175726.8,
       "fat_ant": 55149.43,
-      "pos": 3,
-      "pct": 9.2,
-      "nec_dia": 60562.24,
+      "pos": 8,
+      "pct": 9.8,
+      "nec_dia": 60158.27,
       "fat_ant_completo": 736897.29,
       "pos_ant": 8,
       "pos_ant_completo": 91
@@ -78,12 +78,12 @@ const METAS_GERAIS_DATA = {
   "industrias": [
     {
       "fantasia": "PERNOD",
-      "fat": 407407.5,
+      "fat": 412826.94,
       "fat_ant": 622773.86,
       "por_estado": {
         "RJ": 4933.2,
         "SP": 401161.0,
-        "ES": 864.0,
+        "ES": 6283.44,
         "MG": 449.3
       }
     },
@@ -198,6 +198,17 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
+      "fantasia": "BALLENA",
+      "fat": 5920.74,
+      "fat_ant": 13500.5,
+      "por_estado": {
+        "RJ": 629.4,
+        "SP": 2882.04,
+        "ES": 2409.3,
+        "MG": 0.0
+      }
+    },
+    {
       "fantasia": "MOET HENNESY",
       "fat": 5609.1,
       "fat_ant": 56974.2,
@@ -209,13 +220,13 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
-      "fantasia": "BALLENA",
-      "fat": 4314.54,
-      "fat_ant": 13500.5,
+      "fantasia": "HENNESSY",
+      "fat": 3881.64,
+      "fat_ant": 4298.36,
       "por_estado": {
-        "RJ": 629.4,
-        "SP": 2882.04,
-        "ES": 803.1,
+        "RJ": 0.0,
+        "SP": 0.0,
+        "ES": 3881.64,
         "MG": 0.0
       }
     },
