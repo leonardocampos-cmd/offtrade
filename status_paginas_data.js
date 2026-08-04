@@ -1,219 +1,219 @@
 const STATUS_PAGINAS_DATA = {
-  "atualizado_em": "04/08/2026 13:27",
+  "atualizado_em": "04/08/2026 13:54",
   "paginas": [
     {
       "arquivo": "amarula_data.js",
       "atualizado_em": "09/07/2026 13:53",
-      "idade_horas": 623.6,
+      "idade_horas": 624.0,
       "status": "Manual",
       "manual": true
     },
     {
       "arquivo": "catalogo_data.js",
       "atualizado_em": "10/07/2026 15:51",
-      "idade_horas": 597.6,
+      "idade_horas": 598.1,
       "status": "Manual",
       "manual": true
     },
     {
       "arquivo": "raiox_industria_detalhe_data.js",
       "atualizado_em": "21/07/2026 18:15",
-      "idade_horas": 331.2,
+      "idade_horas": 331.7,
       "status": "Manual",
       "manual": true
     },
     {
       "arquivo": "raiox_vendedor_detalhe_data.js",
       "atualizado_em": "21/07/2026 18:15",
-      "idade_horas": 331.2,
+      "idade_horas": 331.7,
       "status": "Manual",
       "manual": true
     },
     {
       "arquivo": "raiox_clientes_data.js",
       "atualizado_em": "21/07/2026 18:40",
-      "idade_horas": 330.8,
+      "idade_horas": 331.2,
       "status": "Manual",
       "manual": true
     },
     {
       "arquivo": "raiox_industrias_data.js",
       "atualizado_em": "21/07/2026 18:42",
-      "idade_horas": 330.8,
+      "idade_horas": 331.2,
       "status": "Manual",
       "manual": true
     },
     {
       "arquivo": "raiox_vendedores_data.js",
       "atualizado_em": "21/07/2026 18:40",
-      "idade_horas": 330.8,
+      "idade_horas": 331.2,
       "status": "Manual",
       "manual": true
     },
     {
       "arquivo": "clientes_inativos_nome_data.js",
       "atualizado_em": "22/07/2026 14:57",
-      "idade_horas": 310.5,
+      "idade_horas": 311.0,
       "status": "Manual",
       "manual": true
     },
     {
       "arquivo": "raiox_cliente_detalhe_data.js",
       "atualizado_em": "22/07/2026 16:26",
-      "idade_horas": 309.0,
+      "idade_horas": 309.5,
       "status": "Manual",
       "manual": true
     },
     {
       "arquivo": "entregas_data.js",
       "atualizado_em": "03/08/2026 17:45",
-      "idade_horas": 19.7,
+      "idade_horas": 20.2,
       "status": "Crítico",
       "manual": false
     },
     {
       "arquivo": "status_paginas_data.js",
-      "atualizado_em": "04/08/2026 11:41",
-      "idade_horas": 1.8,
+      "atualizado_em": "04/08/2026 13:27",
+      "idade_horas": 0.5,
       "status": "OK",
       "manual": false
     },
     {
       "arquivo": "fontes_status_data.js",
-      "atualizado_em": "04/08/2026 12:22",
-      "idade_horas": 1.1,
+      "atualizado_em": "04/08/2026 13:33",
+      "idade_horas": 0.4,
       "status": "OK",
       "manual": false
     },
     {
       "arquivo": "metas_data.js",
-      "atualizado_em": "04/08/2026 12:22",
-      "idade_horas": 1.1,
-      "status": "OK",
-      "manual": false
-    },
-    {
-      "arquivo": "metas_gerais_data.js",
-      "atualizado_em": "04/08/2026 12:24",
-      "idade_horas": 1.1,
+      "atualizado_em": "04/08/2026 13:33",
+      "idade_horas": 0.4,
       "status": "OK",
       "manual": false
     },
     {
       "arquivo": "vendas_data.js",
-      "atualizado_em": "04/08/2026 12:22",
-      "idade_horas": 1.1,
+      "atualizado_em": "04/08/2026 13:33",
+      "idade_horas": 0.4,
       "status": "OK",
       "manual": false
     },
     {
       "arquivo": "agendamento_data.js",
-      "atualizado_em": "04/08/2026 12:28",
-      "idade_horas": 1.0,
-      "status": "OK",
-      "manual": false
-    },
-    {
-      "arquivo": "clientes_588_data.js",
-      "atualizado_em": "04/08/2026 12:30",
-      "idade_horas": 1.0,
-      "status": "OK",
-      "manual": false
-    },
-    {
-      "arquivo": "clientes_rca_data.js",
-      "atualizado_em": "04/08/2026 12:30",
-      "idade_horas": 1.0,
+      "atualizado_em": "04/08/2026 13:39",
+      "idade_horas": 0.3,
       "status": "OK",
       "manual": false
     },
     {
       "arquivo": "crusoe_data.js",
-      "atualizado_em": "04/08/2026 12:25",
-      "idade_horas": 1.0,
+      "atualizado_em": "04/08/2026 13:37",
+      "idade_horas": 0.3,
       "status": "OK",
       "manual": false
     },
     {
       "arquivo": "industria_data.js",
-      "atualizado_em": "04/08/2026 12:25",
-      "idade_horas": 1.0,
+      "atualizado_em": "04/08/2026 13:36",
+      "idade_horas": 0.3,
       "status": "OK",
       "manual": false
     },
     {
-      "arquivo": "nao_pos_es_data.js",
-      "atualizado_em": "04/08/2026 12:29",
-      "idade_horas": 1.0,
-      "status": "OK",
-      "manual": false
-    },
-    {
-      "arquivo": "nao_pos_mg_data.js",
-      "atualizado_em": "04/08/2026 12:30",
-      "idade_horas": 1.0,
-      "status": "OK",
-      "manual": false
-    },
-    {
-      "arquivo": "nao_pos_sp_data.js",
-      "atualizado_em": "04/08/2026 12:29",
-      "idade_horas": 1.0,
+      "arquivo": "metas_gerais_data.js",
+      "atualizado_em": "04/08/2026 13:35",
+      "idade_horas": 0.3,
       "status": "OK",
       "manual": false
     },
     {
       "arquivo": "pedidos_data.js",
-      "atualizado_em": "04/08/2026 12:27",
-      "idade_horas": 1.0,
+      "atualizado_em": "04/08/2026 13:39",
+      "idade_horas": 0.3,
       "status": "OK",
       "manual": false
     },
     {
-      "arquivo": "vendas_es_data.js",
-      "atualizado_em": "04/08/2026 12:29",
-      "idade_horas": 1.0,
-      "status": "OK",
-      "manual": false
-    },
-    {
-      "arquivo": "vendas_mg_data.js",
-      "atualizado_em": "04/08/2026 12:29",
-      "idade_horas": 1.0,
-      "status": "OK",
-      "manual": false
-    },
-    {
-      "arquivo": "vendas_sp_data.js",
-      "atualizado_em": "04/08/2026 12:28",
-      "idade_horas": 1.0,
-      "status": "OK",
-      "manual": false
-    },
-    {
-      "arquivo": "vendedores_auth_data.js",
-      "atualizado_em": "04/08/2026 12:30",
-      "idade_horas": 1.0,
+      "arquivo": "clientes_588_data.js",
+      "atualizado_em": "04/08/2026 13:44",
+      "idade_horas": 0.2,
       "status": "OK",
       "manual": false
     },
     {
       "arquivo": "clientes_inativos_data.js",
-      "atualizado_em": "04/08/2026 12:31",
-      "idade_horas": 0.9,
+      "atualizado_em": "04/08/2026 13:45",
+      "idade_horas": 0.2,
       "status": "OK",
       "manual": false
     },
     {
-      "arquivo": "inadimplencia_data.js",
-      "atualizado_em": "04/08/2026 13:24",
-      "idade_horas": 0.1,
+      "arquivo": "clientes_rca_data.js",
+      "atualizado_em": "04/08/2026 13:44",
+      "idade_horas": 0.2,
+      "status": "OK",
+      "manual": false
+    },
+    {
+      "arquivo": "nao_pos_es_data.js",
+      "atualizado_em": "04/08/2026 13:43",
+      "idade_horas": 0.2,
+      "status": "OK",
+      "manual": false
+    },
+    {
+      "arquivo": "nao_pos_mg_data.js",
+      "atualizado_em": "04/08/2026 13:43",
+      "idade_horas": 0.2,
+      "status": "OK",
+      "manual": false
+    },
+    {
+      "arquivo": "nao_pos_sp_data.js",
+      "atualizado_em": "04/08/2026 13:43",
+      "idade_horas": 0.2,
+      "status": "OK",
+      "manual": false
+    },
+    {
+      "arquivo": "vendas_es_data.js",
+      "atualizado_em": "04/08/2026 13:42",
+      "idade_horas": 0.2,
+      "status": "OK",
+      "manual": false
+    },
+    {
+      "arquivo": "vendas_mg_data.js",
+      "atualizado_em": "04/08/2026 13:42",
+      "idade_horas": 0.2,
+      "status": "OK",
+      "manual": false
+    },
+    {
+      "arquivo": "vendas_sp_data.js",
+      "atualizado_em": "04/08/2026 13:41",
+      "idade_horas": 0.2,
+      "status": "OK",
+      "manual": false
+    },
+    {
+      "arquivo": "vendedores_auth_data.js",
+      "atualizado_em": "04/08/2026 13:44",
+      "idade_horas": 0.2,
       "status": "OK",
       "manual": false
     },
     {
       "arquivo": "estoque_data.js",
-      "atualizado_em": "04/08/2026 13:26",
+      "atualizado_em": "04/08/2026 13:53",
+      "idade_horas": 0.0,
+      "status": "OK",
+      "manual": false
+    },
+    {
+      "arquivo": "inadimplencia_data.js",
+      "atualizado_em": "04/08/2026 13:52",
       "idade_horas": 0.0,
       "status": "OK",
       "manual": false
