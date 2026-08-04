@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "03/08/2026 17:49",
-  "total": 22329,
+  "atualizado_em": "04/08/2026 10:11",
+  "total": 22333,
   "clientes": [
     {
       "codcli": "38586",
@@ -12594,22 +12594,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
-      "codcli": "77778",
-      "razao": "49.250.592 GISELE PEIXOTO DE OLIVEIRA",
-      "fantasia": "GISELE PEIXOTO DE OLIVEIRA",
-      "bairro": "JARDIM ANHANGÁ",
-      "cidade": "DUQUE DE CAXIAS",
-      "cnpj": "49.250.592/0001-99",
-      "estado": "RJ",
-      "ramo": "OUTROS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "312",
-      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "34148",
@@ -33952,6 +33936,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52251",
+      "razao": "ABRAMI SUPERMERCADO LTDA",
+      "fantasia": "ABRAMI SUPERMERCADO",
+      "bairro": "CENTRO",
+      "cidade": "CAPELA DO ALTO",
+      "cnpj": "66.942.343/0001-83",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "508",
+      "nome_usur1": "PAULO SALES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -83764,22 +83764,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "72559",
-      "razao": "CAETANO REPRESENTACOES LTDA",
-      "fantasia": "OLIOLI",
-      "bairro": "CASTELO BRANCO",
-      "cidade": "COLATINA",
-      "cnpj": "16.731.920/0001-10",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "35252",
       "razao": "CAFA SERVICOS DE ALIMENTACAO LTDA",
       "fantasia": "CAFA SERVICOS DE ALIMENTACAO",
@@ -97364,6 +97348,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "52252",
+      "razao": "CHOPERIA DIAS LTDA",
+      "fantasia": "CHOPERIA DIAS LTDA",
+      "bairro": "PARQUE CAMPOLIM",
+      "cidade": "SOROCABA",
+      "cnpj": "36.294.628/0001-94",
+      "estado": "SP",
+      "ramo": "BAR",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "510",
+      "nome_usur1": "ROSANA AFFONSO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "75285",
       "razao": "CHOPERIA DO LUGUI DE PARATY LTDA",
       "fantasia": "CHOPERIA DO LUGUI",
@@ -108478,8 +108478,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "HOTELARIA",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "155",
+      "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
       "codusur2": "313",
       "nome_usur2": "ANDRE MATTOS"
     },
@@ -162080,8 +162080,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "354",
       "nome_usur1": "MATHEUS DE SOUZA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "351",
+      "nome_usur2": "MARIANA LAGES"
     },
     {
       "codcli": "93321",
@@ -170098,6 +170098,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
+    },
+    {
+      "codcli": "95895",
+      "razao": "HELP DRINK DISTRIBUIDORA DE BEBIDAS E ALIMENTOS LTDA",
+      "fantasia": "HELP DRINK",
+      "bairro": "RESIDENCIAL PRAIA ANCORA",
+      "cidade": "RIO DAS OSTRAS",
+      "cnpj": "57.351.679/0002-61",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "241",
+      "nome_usur1": "ZEINALDO DE OLIVEIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "31040",
@@ -235390,8 +235406,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "283",
+      "nome_usur1": "KESSYA OURIQUE - OFF TRADE",
       "codusur2": "43",
       "nome_usur2": "SOUZA"
     },
@@ -315076,6 +315092,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
+      "codcli": "52250",
+      "razao": "SHALOM AGUA E BEBIDAS LTDA.",
+      "fantasia": "SHALOM AGUA E BEBIDAS",
+      "bairro": "JARDIM SÃO MIGUEL",
+      "cidade": "BRAGANCA PAULISTA",
+      "cnpj": "54.936.785/0001-38",
+      "estado": "SP",
+      "ramo": "CONVENIENCIA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "490",
+      "nome_usur1": "DOUGLAS TEIXEIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "93334",
       "razao": "SHAMAH COMERCIO DE PRODUTOS FARMACEUTICOS LTDA",
       "fantasia": "SHAMAH COMERCIO DE PRODUTOS FARMACEUTICO",
@@ -328304,6 +328336,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "232",
       "nome_usur1": "ANDERSON CANAVEIS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52246",
+      "razao": "SUPERMERCADO YUFEI COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+      "fantasia": "SUPERMERCADO YUFEI COMERCIO DE PRODUTOS ALIMENTICIOS",
+      "bairro": "VILA SILVIÂNIA",
+      "cidade": "CARAPICUIBA",
+      "cnpj": "59.312.266/0001-12",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "515",
+      "nome_usur1": "RAFAEL REIS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -344048,6 +344096,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52248",
+      "razao": "VAREJAO AMPARENSE LTDA",
+      "fantasia": "VAREJAO AMPARENSE",
+      "bairro": "CENTRO",
+      "cidade": "AMPARO",
+      "cnpj": "64.644.925/0001-58",
+      "estado": "SP",
+      "ramo": "MERCEARIA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "490",
+      "nome_usur1": "DOUGLAS TEIXEIRA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
