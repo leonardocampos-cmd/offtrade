@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "04/08/2026 13:44",
-  "total": 22333,
+  "atualizado_em": "04/08/2026 14:07",
+  "total": 22334,
   "clientes": [
     {
       "codcli": "38586",
@@ -34094,8 +34094,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "379",
+      "nome_usur1": "JORGE MACIEL - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -191604,6 +191604,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "52267",
+      "razao": "JP VARIEDADES E DISTRIBUICAO LTDA.",
+      "fantasia": "JP+",
+      "bairro": "CENTRO",
+      "cidade": "SOCORRO",
+      "cnpj": "03.001.156/0001-85",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "518",
+      "nome_usur1": "PAULO THOMAZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "93446",
       "razao": "JP2 COMERCIO DE ALIMENTOS E LANCHES LTDA",
       "fantasia": "JP2 COMERCIO DE ALIMENTOS E LANCHES",
@@ -227184,6 +227200,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52263",
+      "razao": "MARINEZ SOARES DE BRITO ADEGA",
+      "fantasia": "ADEGA DO PEDRAO",
+      "bairro": "PARQUE DOS CAMARGOS",
+      "cidade": "BARUERI",
+      "cnpj": "44.040.211/0001-23",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "515",
+      "nome_usur1": "RAFAEL REIS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -347228,22 +347260,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "41.124.895/0001-53",
       "estado": "MG",
       "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "37882",
-      "razao": "VILLA DO SOM LTDA",
-      "fantasia": "VILLA DO SOM",
-      "bairro": "VALE DO SOL",
-      "cidade": "NOVA LIMA",
-      "cnpj": "45.105.184/0001-92",
-      "estado": "MG",
-      "ramo": "OUTROS",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
