@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "04/08/2026 12:30",
+  "atualizado_em": "04/08/2026 13:43",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -145,6 +145,26 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "35725",
+        "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
+        "bairro": "MINEIRÃO",
+        "dtultcomp": "18/05/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 184.56
+          },
+          {
+            "produto": "RED BULL SUGAR FREE 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 184.56
+          }
+        ]
+      },
+      {
         "codcli": "35724",
         "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
         "bairro": "MORADA DA SERRA",
@@ -164,26 +184,6 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "RED BULL TROPICAL 24X250 ML - ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          }
-        ]
-      },
-      {
-        "codcli": "35725",
-        "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
-        "bairro": "MINEIRÃO",
-        "dtultcomp": "18/05/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          },
-          {
-            "produto": "RED BULL SUGAR FREE 24X250ML ENERG",
             "fantasia": "",
             "qt": 1,
             "valor": 184.56
@@ -649,20 +649,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "BROWN-FORMAN",
             "qt": 2,
             "valor": 279.8
-          }
-        ]
-      },
-      {
-        "codcli": "39110",
-        "cliente": "EMPORIO LOS MANOS LTDA",
-        "bairro": "CÉU AZUL",
-        "dtultcomp": "13/07/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY JACK DANIELS APPLE 1L",
-            "fantasia": "BROWN-FORMAN",
-            "qt": 4,
-            "valor": 495.6
           }
         ]
       },
@@ -6215,6 +6201,20 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "39110",
+        "cliente": "EMPORIO LOS MANOS LTDA",
+        "bairro": "CÉU AZUL",
+        "dtultcomp": "13/07/2026",
+        "produtos": [
+          {
+            "produto": "WHISKY JACK DANIELS APPLE 1L",
+            "fantasia": "BROWN-FORMAN",
+            "qt": 4,
+            "valor": 495.6
+          }
+        ]
+      },
+      {
         "codcli": "31571",
         "cliente": "PARANAIBA EXPRESS",
         "bairro": "ALPHAVILLE VESPASIANO",
@@ -7766,38 +7766,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "34960",
-        "cliente": "DRIL EMPREENDIMENTOS STUDIO BIKE PAMPULHA BH LTDA",
-        "bairro": "OURO PRETO",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 184.56
-          },
-          {
-            "produto": "RED BULL NECTARINA SF 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 184.56
-          },
-          {
-            "produto": "RED BULL SF POMELO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 184.56
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 184.56
-          }
-        ]
-      },
-      {
         "codcli": "33356",
         "cliente": "EVA APARECIDA DOS REIS",
         "bairro": "SANTOS DUMONT",
@@ -8868,26 +8836,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "CASTAS",
             "qt": 5,
             "valor": 179.5
-          }
-        ]
-      },
-      {
-        "codcli": "35888",
-        "cliente": "SUSHI MIX PAMPULHA LTDA",
-        "bairro": "BANDEIRANTES (PAMPULHA)",
-        "dtultcomp": "24/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA ROSE 750ML",
-            "fantasia": "CASTAS",
-            "qt": 7,
-            "valor": 251.3
-          },
-          {
-            "produto": "VILLA ROSA TINTO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 19,
-            "valor": 682.1
           }
         ]
       },
