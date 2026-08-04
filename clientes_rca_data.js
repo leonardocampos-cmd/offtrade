@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "04/08/2026 10:11",
-  "total": 22333,
+  "atualizado_em": "04/08/2026 11:14",
+  "total": 22329,
   "clientes": [
     {
       "codcli": "38586",
@@ -21932,22 +21932,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "55.048.226/0001-54",
       "estado": "RJ",
       "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "93759",
-      "razao": "55.056.906 FABIO RODRIGUES DE ANDRADE",
-      "fantasia": "FABIO RODRIGUES DE ANDRADE",
-      "bairro": "ROCINHA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "55.056.906/0001-10",
-      "estado": "RJ",
-      "ramo": "DELIVERY",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -118076,22 +118060,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "59.546.288/0001-47",
       "estado": "RJ",
       "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "71889",
-      "razao": "DEPOSITO STORCK LTDA",
-      "fantasia": "DEPOSITO STORCK",
-      "bairro": "ENGENHEIRO PEDREIRA",
-      "cidade": "JAPERI",
-      "cnpj": "46.942.250/0001-41",
-      "estado": "RJ",
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -226852,22 +226820,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "73336",
-      "razao": "MARILIA RAMOS BARBOSA 11691527750",
-      "fantasia": "MARILIA BARBOSA DECOR",
-      "bairro": "COPACABANA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "30.316.325/0001-49",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "319",
-      "nome_usur2": "FERNANDA CAMBOIM"
-    },
-    {
       "codcli": "38059",
       "razao": "MARILLAINE SILVA",
       "fantasia": "BAR SOFIA FEST",
@@ -257668,22 +257620,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "FERNANDA CAMBOIM"
     },
     {
-      "codcli": "39051",
-      "razao": "O CANECO DISTRIBUIDORA DE BEBIDAS LTDA",
-      "fantasia": "ADEGA O CANECO",
-      "bairro": "JARDIM AMANDA II",
-      "cidade": "HORTOLANDIA",
-      "cnpj": "31.905.230/0001-23",
-      "estado": "SP",
-      "ramo": "ADEGA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "486",
-      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "95659",
       "razao": "O CANTINHO DA GLORIA LANCHONETE E RESTAURANTE LTDA",
       "fantasia": "O CANTINHO DA GLORIA",
@@ -280414,8 +280350,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "POSTO DE GASOLINA",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "412",
+      "nome_usur1": "BARBARA CABRAL - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
     },
