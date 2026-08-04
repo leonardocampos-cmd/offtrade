@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "04/08/2026 14:07",
+  "atualizado_em": "04/08/2026 15:30",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -1995,26 +1995,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "32871",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "VILA DA SERRA",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "YVY",
-            "qt": 6,
-            "valor": 239.4
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "YVY",
-            "qt": 6,
-            "valor": 239.4
-          }
-        ]
-      },
-      {
         "codcli": "33014",
         "cliente": "ER COZINHA ARTESANAL LTDA",
         "bairro": "LOURDES",
@@ -2031,6 +2011,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "YVY",
             "qt": 4,
             "valor": 159.6
+          }
+        ]
+      },
+      {
+        "codcli": "32871",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "VILA DA SERRA",
+        "dtultcomp": "18/06/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 6,
+            "valor": 239.4
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 6,
+            "valor": 239.4
           }
         ]
       },
@@ -4477,32 +4477,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "29985",
-        "cliente": "BAR E RESTAURANTE CORDEIRO EIRELI",
-        "bairro": "LOURDES",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "GIN GORDONS 750 ML",
-            "fantasia": "DIAGEO",
-            "qt": 6,
-            "valor": 329.4
-          },
-          {
-            "produto": "GIN TANQUERAY  750 ML",
-            "fantasia": "DIAGEO",
-            "qt": 6,
-            "valor": 563.4
-          },
-          {
-            "produto": "VODKA ORLOFF 1L",
-            "fantasia": "PERNOD",
-            "qt": 4,
-            "valor": 107.2
-          }
-        ]
-      },
-      {
         "codcli": "35736",
         "cliente": "BAR E RESTAURANTE NUNES LTDA",
         "bairro": "SANTA AMÉLIA",
@@ -5464,44 +5438,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "PERNOD",
             "qt": 198,
             "valor": 9129.78
-          }
-        ]
-      },
-      {
-        "codcli": "30231",
-        "cliente": "ORGANIZACAO VERDEMAR LTDA",
-        "bairro": "JARDIM CANADA",
-        "dtultcomp": "31/07/2026",
-        "produtos": [
-          {
-            "produto": "CHANDON BABY BRUT 187 ML",
-            "fantasia": "LVMH",
-            "qt": 48,
-            "valor": 1483.2
-          },
-          {
-            "produto": "CHANDON BRUT ROSE 750ML",
-            "fantasia": "LVMH",
-            "qt": 60,
-            "valor": 5094.0
-          },
-          {
-            "produto": "CHANDON PASSION ON ICE 750ML",
-            "fantasia": "LVMH",
-            "qt": 90,
-            "valor": 7641.0
-          },
-          {
-            "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-            "fantasia": "LVMH",
-            "qt": 300,
-            "valor": 23970.0
-          },
-          {
-            "produto": "LICOR FRANGELICO 700ML",
-            "fantasia": "",
-            "qt": 48,
-            "valor": 4963.2
           }
         ]
       },
@@ -7780,6 +7716,32 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "30323",
+        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
+        "bairro": "SANTO ANTONIO",
+        "dtultcomp": "23/06/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK RED BULL MELANCIA",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 89.88
+          },
+          {
+            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 89.88
+          },
+          {
+            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 179.76
+          }
+        ]
+      },
+      {
         "codcli": "38776",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
         "bairro": "ESTORIL",
@@ -7808,32 +7770,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "RED BULL",
             "qt": 1,
             "valor": 29.96
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 179.76
-          }
-        ]
-      },
-      {
-        "codcli": "30323",
-        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "SANTO ANTONIO",
-        "dtultcomp": "23/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 89.88
-          },
-          {
-            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 89.88
           },
           {
             "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
@@ -8744,20 +8680,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35993",
-        "cliente": "MFB COMERCIAL LTDA",
-        "bairro": "SANTA EFIGÊNIA",
-        "dtultcomp": "22/07/2026",
-        "produtos": [
-          {
-            "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 4,
-            "valor": 319.6
-          }
-        ]
-      },
-      {
         "codcli": "34405",
         "cliente": "SHELF BAR E JOGOS LTDA",
         "bairro": "SANTO ANTONIO",
@@ -8768,20 +8690,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "YVY",
             "qt": 8,
             "valor": 319.2
-          }
-        ]
-      },
-      {
-        "codcli": "34357",
-        "cliente": "VILLAGE FOODS LTDA",
-        "bairro": "VALE DO SERENO",
-        "dtultcomp": "22/07/2026",
-        "produtos": [
-          {
-            "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 479.4
           }
         ]
       },
@@ -9068,26 +8976,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "HEINEKEN",
             "qt": 2,
             "valor": 287.52
-          }
-        ]
-      },
-      {
-        "codcli": "36028",
-        "cliente": "ORGANIZACOES JRF LTDA",
-        "bairro": "SÃO LUIZ",
-        "dtultcomp": "28/07/2026",
-        "produtos": [
-          {
-            "produto": "CACHACA SELETA 1000ML",
-            "fantasia": "SELETA",
-            "qt": 8,
-            "valor": 327.2
-          },
-          {
-            "produto": "GIN TANQUERAY  750 ML",
-            "fantasia": "DIAGEO",
-            "qt": 2,
-            "valor": 187.8
           }
         ]
       },
