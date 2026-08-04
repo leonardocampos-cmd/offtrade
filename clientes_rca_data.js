@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "04/08/2026 15:30",
-  "total": 22342,
+  "atualizado_em": "04/08/2026 17:02",
+  "total": 22340,
   "clientes": [
     {
       "codcli": "38586",
@@ -102820,6 +102820,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
+      "codcli": "52279",
+      "razao": "COMERCIAL BARROS DE BEBIDAS E ALIMENTOS LTDA",
+      "fantasia": "COMERCIAL BARROS DE BEBIDAS E ALIMENTOS",
+      "bairro": "VILA SANTANA",
+      "cidade": "SUMARE",
+      "cnpj": "44.618.915/0001-30",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "518",
+      "nome_usur1": "PAULO THOMAZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "84947",
       "razao": "COMERCIAL BELEM LTDA",
       "fantasia": "COMERCIAL BELEM",
@@ -122176,8 +122192,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "486",
       "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "426",
+      "nome_usur2": "ADER ALONSO - OFF TRADE"
     },
     {
       "codcli": "50215",
@@ -138724,14 +138740,14 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92351",
+      "codcli": "95911",
       "razao": "EMPORIO MALELU COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
-      "fantasia": "EMPORIO MALELU COMERCIO DE BEBIDAS",
+      "fantasia": "EMPORIO MALELU",
       "bairro": "CUMBICA",
       "cidade": "GUARULHOS",
       "cnpj": "22.859.084/0001-56",
       "estado": "SP",
-      "ramo": "SUPERMERCADO",
+      "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
       "codusur1": "91",
@@ -143190,7 +143206,7 @@ const CLIENTES_RCA_DATA = {
     {
       "codcli": "24998",
       "razao": "ESTDP COMERCIO E PARTICIPACOES LTDA",
-      "fantasia": "TAVERNA DO CHEF NICO",
+      "fantasia": "EMPORIO SANTA TERESINHA - DOM PEDRO",
       "bairro": "PARQUE DAS FLORES",
       "cidade": "CAMPINAS",
       "cnpj": "07.913.830/0001-59",
@@ -149488,22 +149504,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "468",
       "nome_usur1": "RENATO JUNIOR - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "50902",
-      "razao": "FELIPE PIMENTEL 10712493719",
-      "fantasia": "FELIPE PIMENTEL",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "33.499.650/0001-82",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -165172,22 +165172,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "32481",
-      "razao": "GRADO RESTAURANTE E ARTES CULINARIAS LTDA",
-      "fantasia": "PADELLA",
-      "bairro": "BOTAFOGO",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "26.520.203/0002-83",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "30862",
       "razao": "GRAFFICA BAR & ARMAZEM AMIGOS DA NATUREZA LTDA",
       "fantasia": "GRAFFICA BAR",
@@ -172016,8 +172000,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "299",
+      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
       "codcli": "51552",
@@ -172064,8 +172048,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "299",
+      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
       "codcli": "91447",
@@ -180144,8 +180128,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "299",
+      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
       "codcli": "31382",
@@ -274672,8 +274656,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "299",
+      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
       "codcli": "93763",
@@ -313168,8 +313152,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "299",
+      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
       "codcli": "46358",
@@ -322942,38 +322926,6 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "426",
-      "nome_usur1": "ADER ALONSO - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "52020",
-      "razao": "SUPER FAUNA VAREJISTA LTDA",
-      "fantasia": "GIRAFA",
-      "bairro": "VILA QUEIROZ",
-      "cidade": "LIMEIRA",
-      "cnpj": "67.416.776/0002-49",
-      "estado": "SP",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "433",
-      "nome_usur1": "MANUELA ZAPPACOSTA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "51237",
-      "razao": "SUPER FAUNA VAREJISTA LTDA",
-      "fantasia": "CORUJA SUPERMERCADOS",
-      "bairro": "VILA ROCHA",
-      "cidade": "LIMEIRA",
-      "cnpj": "67.416.776/0001-68",
-      "estado": "SP",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
       "codusur1": "518",
       "nome_usur1": "PAULO THOMAZI - OFF TRADE",
       "codusur2": "",
@@ -324928,8 +324880,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "299",
+      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
       "codcli": "38188",
@@ -328400,8 +328352,24 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "299",
       "nome_usur1": "BRYAN PALOPOLI - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "299",
+      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "92111",
+      "razao": "SUPERMERCADO VILA DAS FRUTAS ABRAAO DE MORAIS - LTDA.",
+      "fantasia": "SUPERMERCADO VILA DAS FRUTAS ABRAAO DE M",
+      "bairro": "SAUDE",
+      "cidade": "SAO PAULO",
+      "cnpj": "45.811.781/0001-32",
+      "estado": "SP",
+      "ramo": "COMERCIO VAREJISTA (GERAL)",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "10",
+      "nome_usur1": "INATIVO3",
+      "codusur2": "299",
+      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
       "codcli": "92039",
@@ -328416,8 +328384,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "299",
+      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
       "codcli": "92051",
@@ -328432,8 +328400,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "299",
+      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
       "codcli": "51554",
@@ -329312,8 +329280,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "299",
       "nome_usur1": "BRYAN PALOPOLI - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "299",
+      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
       "codcli": "29470",
@@ -332396,22 +332364,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "34.723.738/0001-07",
       "estado": "RJ",
       "ramo": "EVENTOS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "79262",
-      "razao": "TAMO AI DEPOSITO DE BEBIDAS LTDA",
-      "fantasia": "TAMO AI",
-      "bairro": "SERRA GRANDE",
-      "cidade": "NITEROI",
-      "cnpj": "42.446.133/0001-36",
-      "estado": "RJ",
-      "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -352400,8 +352352,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "299",
+      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
       "codcli": "90208",
@@ -354274,6 +354226,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
+    },
+    {
+      "codcli": "52281",
+      "razao": "WITCH'S BAR LTDA",
+      "fantasia": "WITCH'S BAR",
+      "bairro": "PARQUE INDUSTRIAL",
+      "cidade": "CAMPINAS",
+      "cnpj": "07.083.442/0001-98",
+      "estado": "SP",
+      "ramo": "BAR",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "78492",
