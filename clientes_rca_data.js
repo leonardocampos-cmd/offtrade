@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "04/08/2026 11:14",
-  "total": 22329,
+  "atualizado_em": "04/08/2026 11:34",
+  "total": 22335,
   "clientes": [
     {
       "codcli": "38586",
@@ -13776,22 +13776,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "90400",
-      "razao": "49.923.686 MARINA BRAGA DA SILVA ARAUJO",
-      "fantasia": "49.923.686 MARINA BRAGA DA SILVA ARAUJO",
-      "bairro": "VILA LEOPOLDINA",
-      "cidade": "DUQUE DE CAXIAS",
-      "cnpj": "49.923.686/0001-81",
-      "estado": "RJ",
-      "ramo": "ADEGA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -43748,6 +43732,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "50018",
+      "razao": "ALINE PIZZI RODRIGUES LTDA",
+      "fantasia": "RIMAR SUPERMERCADO",
+      "bairro": "VILA IPIRANGA",
+      "cidade": "MOGI DAS CRUZES",
+      "cnpj": "09.542.021/0001-03",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "463",
+      "nome_usur1": "ROBERTO DOS SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "94530",
       "razao": "ALINE SANTOS DE OLIVEIRA 12626032778",
       "fantasia": "ALINE SANTOS DE OLIVEIRA",
@@ -52208,6 +52208,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "50053",
+      "razao": "ARAUJO EMPREENDIMENTOS COMERCIAIS LTDA",
+      "fantasia": "MERCADO ARAUJO",
+      "bairro": "JARDIM AEROPORTO III",
+      "cidade": "MOGI DAS CRUZES",
+      "cnpj": "50.824.049/0001-37",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "463",
+      "nome_usur1": "ROBERTO DOS SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -153780,6 +153796,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "MARIANA LAGES"
     },
     {
+      "codcli": "50385",
+      "razao": "FOFOSUL COMERCIAL E DISTRIBUIDORA LTDA",
+      "fantasia": "SUPERMERCADO SUPER VITAL",
+      "bairro": "BOTUJURU",
+      "cidade": "MOGI DAS CRUZES",
+      "cnpj": "26.318.449/0001-96",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "463",
+      "nome_usur1": "ROBERTO DOS SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "37654",
       "razao": "FOGAO DA LARA RESTAURANTE LTDA",
       "fantasia": "FOGAO MINEIRO",
@@ -213284,6 +213316,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "49986",
+      "razao": "LUIZ CARLOS DE SOUZA ROCHA",
+      "fantasia": "ADEGA ALTAS HORAS",
+      "bairro": "CENTRO",
+      "cidade": "MOGI DAS CRUZES",
+      "cnpj": "25.035.475/0001-44",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "463",
+      "nome_usur1": "ROBERTO DOS SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "8358",
       "razao": "LUIZ CARLOS FREDERICO SILVA",
       "fantasia": "LUIZ CARLOS FREDERICO SILVA",
@@ -233456,6 +233504,38 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "49830",
+      "razao": "MERCADO ADAPT JARDIM ESPERANCA LTDA",
+      "fantasia": "MERCADO ADAPT JARDIM ESPERANCA",
+      "bairro": "ALTO IPIRANGA",
+      "cidade": "MOGI DAS CRUZES",
+      "cnpj": "60.734.641/0001-00",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "463",
+      "nome_usur1": "ROBERTO DOS SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "49828",
+      "razao": "MERCADO ADAPT VILA OLIVEIRA LTDA",
+      "fantasia": "MERCADO ADAPT VILA OLIVEIRA",
+      "bairro": "VILA OLIVEIRA",
+      "cidade": "MOGI DAS CRUZES",
+      "cnpj": "60.734.780/0001-25",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "463",
+      "nome_usur1": "ROBERTO DOS SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -326352,6 +326432,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "REDE SUPERMARKET",
       "codusur1": "450",
       "nome_usur1": "LEANDRO SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "50017",
+      "razao": "SUPERMERCADO PADUA LTDA",
+      "fantasia": "SUPERMERCADO PADUA",
+      "bairro": "JARDIM SANTA TERESA",
+      "cidade": "MOGI DAS CRUZES",
+      "cnpj": "52.551.439/0001-06",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "463",
+      "nome_usur1": "ROBERTO DOS SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
