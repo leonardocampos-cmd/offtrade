@@ -7,7 +7,6 @@ import streamlit as st
 
 from utils import inject_css, page_header, require_auth, get_conn
 
-st.set_page_config(page_title="Admin — Objetivos", page_icon="⚙️", layout="wide")
 inject_css()
 rca = require_auth()
 

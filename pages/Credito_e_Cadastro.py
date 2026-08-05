@@ -7,14 +7,14 @@ import pandas as pd
 import requests
 import urllib3
 
-from utils import inject_css, page_header, require_auth, get_conn, sql, fmt_brl, ensure_valid_token
+from utils import inject_css, page_header, require_auth, get_conn, sql, fmt_brl, ensure_valid_token, back_button
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-st.set_page_config(page_title="Crédito e Cadastro", page_icon="💳", layout="wide")
 inject_css()
 rca_info = require_auth()
 
+back_button()
 page_header("Crédito e Cadastro de Cliente", "OfftradeHub · Off Trade")
 
 SCHEMA             = "CRC"
