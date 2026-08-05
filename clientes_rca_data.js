@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "05/08/2026 15:01",
-  "total": 22347,
+  "atualizado_em": "05/08/2026 15:25",
+  "total": 22348,
   "clientes": [
     {
       "codcli": "38586",
@@ -49684,22 +49684,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "FERNANDO GOMES"
     },
     {
-      "codcli": "95907",
-      "razao": "ANGRA BEER DISTRIBUIDORA DE BEBIDAS LTDA",
-      "fantasia": "ANGRA BEER DISTRIBUIDORA DE BEBIDAS",
-      "bairro": "BANQUETA (CUNHAMBEBE)",
-      "cidade": "ANGRA DOS REIS",
-      "cnpj": "67.621.739/0001-91",
-      "estado": "RJ",
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "439",
-      "nome_usur1": "MATEUS CARDOSO - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "75672",
       "razao": "ANGRA BISTRO O PORTUGUES LTDA",
       "fantasia": "O PORTUGUES BISTRO",
@@ -72928,8 +72912,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "505",
       "nome_usur1": "LUCELIA BARROS - OFF TRADE",
-      "codusur2": "399",
-      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+      "codusur2": "317",
+      "nome_usur2": "ROBSON DA SILVA - OFF TRADE"
     },
     {
       "codcli": "77742",
@@ -93556,22 +93540,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "MANUELA ZAPPACOSTA - OFF TRADE"
     },
     {
-      "codcli": "85849",
-      "razao": "CAVE Z DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
-      "fantasia": "CAVE Z DISTRIBUIDORA DE ALIMENTOS E BEBI",
-      "bairro": "LEME",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "58.529.890/0001-03",
-      "estado": "RJ",
-      "ramo": "ADEGA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "3710",
       "razao": "CAWARRA COMESTIVEIS LTDA",
       "fantasia": "GULA GULA JARDIM BOTANICO",
@@ -100256,6 +100224,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52301",
+      "razao": "CLAUDIO FRANCISCO DA SILVA 31361468831",
+      "fantasia": "CLAUDIO FRANCISCO DA SILVA",
+      "bairro": "JARDIM BOA ESPERANÇA",
+      "cidade": "SOROCABA",
+      "cnpj": "41.187.182/0001-39",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "510",
+      "nome_usur1": "ROSANA AFFONSO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -129396,6 +129380,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "95387",
+      "razao": "DROGARIA SANTORINI LTDA",
+      "fantasia": "DROGARIAS CRISTAL",
+      "bairro": "HUMAITÁ",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "57.586.849/0001-06",
+      "estado": "RJ",
+      "ramo": "FARMACIA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "156",
+      "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "84716",
       "razao": "DROGARIA SAO PEDRO LTDA",
       "fantasia": "FARMACIA TREVO",
@@ -147392,6 +147392,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "370",
       "nome_usur1": "FRANZ BENEVIDES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52300",
+      "razao": "FAMILIA GOES PIZZARIA ELIPSE LTDA",
+      "fantasia": "FAMILIA GOES PIZZARIA ELIPSE",
+      "bairro": "JARDIM EMÍLIA",
+      "cidade": "SOROCABA",
+      "cnpj": "65.378.034/0001-60",
+      "estado": "SP",
+      "ramo": "RESTAURANTE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "510",
+      "nome_usur1": "ROSANA AFFONSO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -237550,10 +237566,10 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MINI-MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "378",
-      "nome_usur1": "FABIO VALOTTI - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur1": "107",
+      "nome_usur1": "MARCUS VINICIUS",
+      "codusur2": "378",
+      "nome_usur2": "FABIO VALOTTI - OFF TRADE"
     },
     {
       "codcli": "46125",
@@ -282372,22 +282388,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
-      "codcli": "32356",
-      "razao": "PRESENCE EMPREENDIMENTOS FLEMING LTDA",
-      "fantasia": "SIRENE FLEMING",
-      "bairro": "OURO PRETO",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "43.437.131/0001-43",
-      "estado": "MG",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "30933",
       "razao": "PRESENCE EMPREENDIMENTOS SAPUCAI LTDA",
       "fantasia": "SIRENE SAPUCAI",
@@ -287230,8 +287230,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "SPON",
+      "codusur1": "309",
+      "nome_usur1": "ISABELA BARBOSA",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -300002,6 +300002,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "92153",
+      "razao": "RICO PARRILLA JESUINO CARDOSO COMERCIO DE ALIMENTOS E BEBIDA",
+      "fantasia": "RICO PARRILLA JESUINO CARDOSO COMERCIO",
+      "bairro": "VILA NOVA CONCEICAO",
+      "cidade": "SAO PAULO",
+      "cnpj": "35.078.359/0001-66",
+      "estado": "SP",
+      "ramo": "RESTAURANTE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "10",
+      "nome_usur1": "INATIVO3",
+      "codusur2": "294",
+      "nome_usur2": "ARACELI ALVES"
     },
     {
       "codcli": "35601",
