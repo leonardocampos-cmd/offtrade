@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "05/08/2026 15:00",
+  "atualizado_em": "05/08/2026 15:24",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -12027,20 +12027,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "TIAL",
             "qt": 1,
             "valor": 31.96
-          }
-        ]
-      },
-      {
-        "codcli": "50636",
-        "cliente": "MERCADO RODRIGUES PARENTE LTDA",
-        "bairro": "ROCINHA",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY J WALKER BLACK LABEL 1L",
-            "fantasia": "DIAGEO",
-            "qt": 2,
-            "valor": 359.8
           }
         ]
       },
@@ -24906,9 +24892,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "95612",
+        "codcli": "82350",
         "cliente": "VBBR CONVENIENCIA S. A.",
-        "bairro": "ENGENHO DE DENTRO",
+        "bairro": "TIJUCA",
         "dtultcomp": "09/07/2026",
         "produtos": [
           {
@@ -24950,9 +24936,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "82350",
+        "codcli": "95612",
         "cliente": "VBBR CONVENIENCIA S. A.",
-        "bairro": "TIJUCA",
+        "bairro": "ENGENHO DE DENTRO",
         "dtultcomp": "09/07/2026",
         "produtos": [
           {
@@ -25801,6 +25787,13 @@ const NAO_POS_ES_DATA = {
         "codcli": "82830",
         "cliente": "AMSTERDAM MARKETS PRODUTOS ALIMENTICIOS LTDA",
         "bairro": "JARDIM VINTE E CINCO DE AGOSTO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95387",
+        "cliente": "DROGARIA SANTORINI LTDA",
+        "bairro": "HUMAITÁ",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -27317,13 +27310,6 @@ const NAO_POS_ES_DATA = {
             "valor": 359.8
           }
         ]
-      },
-      {
-        "codcli": "95907",
-        "cliente": "ANGRA BEER DISTRIBUIDORA DE BEBIDAS LTDA",
-        "bairro": "BANQUETA (CUNHAMBEBE)",
-        "dtultcomp": "nan",
-        "produtos": []
       },
       {
         "codcli": "95825",
