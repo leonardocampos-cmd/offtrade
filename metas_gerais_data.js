@@ -1,25 +1,25 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "05/08/2026 14:42",
+  "atualizado_em": "05/08/2026 14:54",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 5,
   "dias_no_mes": 31,
   "dias_restantes": 26,
   "resumo": {
-    "fat": 1290856.07,
+    "fat": 1292954.23,
     "fat_ant": 1203423.51,
     "fat_ant_completo": 13947667.32,
-    "pos": 290,
+    "pos": 292,
     "pos_ant": 326,
     "pos_ant_completo": 1827
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 1290856.07,
+    "fat": 1292954.23,
     "fat_ant": 1203423.51,
     "fat_ant_completo": 13947667.32,
     "pct": 9.0,
-    "nec_dia": 504197.84
+    "nec_dia": 504117.14
   },
   "estados": [
     {
@@ -39,11 +39,11 @@ const METAS_GERAIS_DATA = {
       "estado": "SP",
       "label": "São Paulo",
       "meta": 6600000.0,
-      "fat": 796654.98,
+      "fat": 798753.14,
       "fat_ant": 775637.28,
-      "pos": 152,
+      "pos": 154,
       "pct": 12.1,
-      "nec_dia": 223205.58,
+      "nec_dia": 223124.88,
       "fat_ant_completo": 8533483.83,
       "pos_ant": 141,
       "pos_ant_completo": 731
@@ -78,11 +78,11 @@ const METAS_GERAIS_DATA = {
   "industrias": [
     {
       "fantasia": "PERNOD",
-      "fat": 521950.09,
+      "fat": 523342.89,
       "fat_ant": 622773.86,
       "por_estado": {
         "RJ": 55405.5,
-        "SP": 459362.45,
+        "SP": 460755.25,
         "ES": 6283.44,
         "MG": 898.7
       }
@@ -133,11 +133,11 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "DIAGEO",
-      "fat": 41456.83,
+      "fat": 41803.63,
       "fat_ant": 28637.93,
       "por_estado": {
         "RJ": 17506.32,
-        "SP": 19287.93,
+        "SP": 19634.73,
         "ES": 0.0,
         "MG": 4662.58
       }
@@ -166,11 +166,11 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "CRS BRANDS",
-      "fat": 22274.35,
+      "fat": 22632.91,
       "fat_ant": 23406.24,
       "por_estado": {
         "RJ": 471.0,
-        "SP": 21803.35,
+        "SP": 22161.91,
         "ES": 0.0,
         "MG": 0.0
       }
