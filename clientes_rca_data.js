@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "05/08/2026 17:43",
-  "total": 22350,
+  "atualizado_em": "05/08/2026 18:06",
+  "total": 22348,
   "clientes": [
     {
       "codcli": "38586",
@@ -91972,6 +91972,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "92294",
+      "razao": "CASA DO AZEITE DELICATESSEM DE TERESOPOLIS LTDA",
+      "fantasia": "CASA DO AZEITE DELICATESSEM",
+      "bairro": "VARZEA",
+      "cidade": "TERESOPOLIS",
+      "cnpj": "63.803.384/0001-09",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "69641",
       "razao": "CASA DO CANECO LTDA",
       "fantasia": "CASA DO CANECO LTDA",
@@ -150724,22 +150740,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "12583",
-      "razao": "FERNANDO BRITO DE PAIVA 13000803700",
-      "fantasia": "LEAO PRODUCOES",
-      "bairro": "VIDIGAL",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "34.678.022/0001-27",
-      "estado": "RJ",
-      "ramo": "EVENTOS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "84267",
       "razao": "FERNANDO CESAR LIPPAUS BESSA",
       "fantasia": "PADARIA SOBERANA",
@@ -202834,22 +202834,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "W.S",
       "codusur2": "119",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
-    },
-    {
-      "codcli": "33885",
-      "razao": "LDR BAR E RESTAURANTE LTDA",
-      "fantasia": "QUINTAL DO DURVAL",
-      "bairro": "SANTA TEREZA",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "54.748.098/0001-99",
-      "estado": "MG",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "351",
-      "nome_usur2": "MARIANA LAGES"
     },
     {
       "codcli": "29923",
@@ -257114,22 +257098,6 @@ const CLIENTES_RCA_DATA = {
       "bairro": "FREGUESIA",
       "cidade": "RIO DE JANEIRO",
       "cnpj": "08.835.369/0001-26",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "83548",
-      "razao": "NOVO POINT BARRA RESTAURANTE LTDA",
-      "fantasia": "NOVO POINT",
-      "bairro": "ITANHANGA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "45.361.899/0001-06",
       "estado": "RJ",
       "ramo": "RESTAURANTE",
       "key_account": false,
