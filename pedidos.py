@@ -12,6 +12,7 @@ exportacao_inadimplencia.py) pra popular o status, já que STATUS do
 Winthor normalmente vem vazio pra pedido já faturado.
 """
 import json
+import re
 from datetime import datetime, date
 from pathlib import Path
 
@@ -271,6 +272,81 @@ def _status_log(numnota, sistema=''):
         return ''
 
 
+# ── Tabela de preços RJ — pro motivo "desconto acima do permitido" ────────────
+# Quando MOTIVOPOSICAO é "Item com desconto acima do permitido :CODPROD", o
+# Winthor bloqueou o pedido — mostra o PVENDA digitado ao lado do Preço ON /
+# Preço Promocional (TABELA DE PREÇO RJ.xlsx, mesma linha do produto,
+# "COD CRC") junto do motivo. Só cobre RJ (a planilha só vale por lá, mesma
+# limitação de conferencia_preco.py) — outros estados continuam vendo o
+# motivo normal, sem os preços.
+#
+# NÃO cruza com PREÇO PROMO.xlsx ("COD PROMO"): testado com o pedido
+# 412001460 (produto 4634, Red Bull Summer) e "COD PROMO" 4634 é um código
+# de KIT/campanha completamente diferente por coincidência numérica — deu
+# R$ 7,19 no lugar do preço real do produto (R$ 172,56/203,76), quando na
+# verdade o digitado batia exatamente com o Preço Promocional aprovado.
+# Confirmado com o usuário em 2026-08-05: só usar Tabela ON + Promocional,
+# que são a mesma linha/produto (sem risco de colisão entre catálogos).
+_precos_rj: dict = {}
+try:
+    _tab_on = pd.read_excel(
+        _bpd.com_fallback(
+            _bpd.caminho_tabela_preco_rj,
+            r"G:\Drives compartilhados\EQUIPE DE VENDAS RJ\TABELA DE PREÇO RJ.xlsx",
+        ),
+        sheet_name='TABELA', skiprows=5, dtype=str,
+    )
+    _tab_on.columns = _tab_on.columns.str.strip()
+    _tab_on['PREÇO'] = pd.to_numeric(_tab_on['PREÇO'].str.replace(',', '.'), errors='coerce').round(2)
+    _tab_on['PREÇO PROMOCIONAL'] = pd.to_numeric(_tab_on['PREÇO PROMOCIONAL'].str.replace(',', '.'), errors='coerce').round(2)
+    _tab_on['COD CRC'] = _tab_on['COD CRC'].astype(str).str.strip()
+
+    for _, _r in _tab_on.iterrows():
+        _cod = _r['COD CRC']
+        if _cod and _cod != 'nan':
+            _precos_rj[_cod] = {
+                'preco_on':          _r['PREÇO'] if pd.notna(_r['PREÇO']) else None,
+                'preco_promocional': _r['PREÇO PROMOCIONAL'] if pd.notna(_r['PREÇO PROMOCIONAL']) else None,
+            }
+
+    print(f"Tabela de preços RJ: {len(_precos_rj)} produto(s) mapeado(s) (Tabela ON)")
+except Exception as e:
+    print(f"[AVISO] Tabela de preços RJ indisponível ({str(e)[:100]}) — motivo de bloqueio fica sem preço de tabela")
+
+
+def _preco_tabela(codprod: str):
+    """Menor entre Preço ON e Preço Promocional pro produto (mesma linha da
+    TABELA DE PREÇO RJ.xlsx — sem cruzar com PREÇO PROMO.xlsx, ver aviso
+    acima)."""
+    info = _precos_rj.get(str(codprod))
+    if not info:
+        return None
+    candidatos = [info[k] for k in ('preco_on', 'preco_promocional') if info.get(k) is not None]
+    return round(min(candidatos), 2) if candidatos else None
+
+
+_RE_MOTIVO_DESCONTO = re.compile(r'desconto acima do permitido\s*:\s*(\d+)', re.IGNORECASE)
+
+
+def _preco_motivo_bloqueio(item):
+    """Se o motivo for bloqueio por desconto excessivo, acha o preço
+    digitado (PVENDA do item citado) e o piso de tabela pra mostrar junto.
+    Retorna None se não for esse tipo de motivo, o item não for encontrado
+    ou não tiver preço de tabela carregado (fora do RJ, produto não
+    cadastrado nas planilhas etc.)."""
+    m = _RE_MOTIVO_DESCONTO.search(item.get('motivo', ''))
+    if not m:
+        return None
+    codprod = m.group(1)
+    it = next((i for i in item['itens'] if i['codprod'] == codprod), None)
+    if not it or it.get('pvenda') is None:
+        return None
+    pt = _preco_tabela(codprod)
+    if pt is None:
+        return None
+    return it['pvenda'], pt
+
+
 # ── PCPREST — títulos já pagos saem de Faturados ───────────────────────────────
 # "Faturado" aqui representa nota em aberto pro financeiro; uma vez que TODAS
 # as parcelas do pedido (PCPREST.DTPAG) estão pagas, a nota sai da lista —
@@ -355,6 +431,7 @@ def _item_pedido(sistema, numped, row):
     # (ainda faltando). Confirmado manualmente no pedido 588003212 (Grey
     # Goose): 126 + 164 + 382 = 672.
     qtd_cortada_total = qtcortada + qtfalta
+    _pvenda = pd.to_numeric(row.get('PVENDA'), errors='coerce')
     return {
         'desc':              _s(row['DESCRICAO']),
         'industria':         _s(row.get('FANTASIA_FORNEC')) or _s(row.get('FORNECEDOR')),
@@ -367,6 +444,7 @@ def _item_pedido(sistema, numped, row):
         'cortado':           qtd_cortada_total > 0,
         'codprod':   _int_s(row['CODPROD_NUM']),
         'codfilial': _int_s(row['CODFILIAL_NUM']),
+        'pvenda':    round(float(_pvenda), 2) if pd.notna(_pvenda) else None,
     }
 
 
@@ -400,6 +478,9 @@ def _agrupar(df, com_status_log=False):
         item['tem_corte'] = any(it['cortado'] for it in item['itens'])
         if com_status_log:
             item['status_log'] = _status_log(nf, sistema) if nf else ''
+        _preco_motivo = _preco_motivo_bloqueio(item)
+        if _preco_motivo:
+            item['motivo_preco_digitado'], item['motivo_preco_tabela'] = _preco_motivo
         result.append(item)
     result.sort(key=lambda p: p['data_ord'], reverse=True)
     return result

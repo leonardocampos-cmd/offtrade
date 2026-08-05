@@ -783,7 +783,10 @@ function _montarItens(p) {
   const linhas = p.itens.map(it => `
     <tr class="${it.cortado ? 'item-cortado' : ''}"><td>${_esc(it.desc)}${it.cortado ? `<span class="tag-falta">cortou ${it.qtd_cortada_total}</span>` : ''}</td><td>${it.qt}</td><td>${brl(it.val)}</td></tr>
   `).join('');
-  const motivo = p.motivo ? `<div style="margin-top:6px;color:var(--orange);font-size:.78rem">Motivo: ${_esc(p.motivo)}</div>` : '';
+  const precoMotivo = (p.motivo_preco_digitado != null && p.motivo_preco_tabela != null)
+    ? ` <span style="color:var(--muted)">(digitado ${brl(p.motivo_preco_digitado)} · tabela ${brl(p.motivo_preco_tabela)})</span>`
+    : '';
+  const motivo = p.motivo ? `<div style="margin-top:6px;color:var(--orange);font-size:.78rem">Motivo: ${_esc(p.motivo)}${precoMotivo}</div>` : '';
   const obs = p.obs ? `<div style="margin-top:6px;color:var(--muted);font-size:.78rem">Obs.: ${_esc(p.obs)}</div>` : '';
   return `<table class="itens-table">
     <thead><tr><th>Produto</th><th>Qtd</th><th>Valor</th></tr></thead>
