@@ -1241,7 +1241,7 @@ function _buildAvisoPedidos(nomeVendedor) {
   const itens = lista.map(p => `
     <div style="padding:6px 0;border-bottom:1px solid var(--border)">
       <div><strong>Ped ${p.numped}</strong> — ${p.cliente} — ${fmtFat(p.total)} <span style="color:var(--muted)">(${p.posicao})</span></div>
-      ${p.motivo ? `<div style="font-size:.72rem;color:var(--muted)">Motivo: ${p.motivo}${(p.motivo_preco_digitado != null && p.motivo_preco_tabela != null) ? ` (digitado ${fmtFat(p.motivo_preco_digitado)} · tabela ${fmtFat(p.motivo_preco_tabela)})` : ''}</div>` : ''}
+      ${p.motivo ? `<div style="font-size:.72rem;color:var(--muted)">Motivo: ${p.motivo}${(p.motivo_preco_digitado != null && p.motivo_preco_tabela != null) ? ` — ${p.motivo_produto} (digitado ${fmtFat(p.motivo_preco_digitado)} · tabela ${fmtFat(p.motivo_preco_tabela)})` : ''}</div>` : ''}
     </div>`).join('');
   return `
     <div class="detail-card" style="border-color:var(--red)">
@@ -2131,7 +2131,7 @@ function _buildAvisoPedidosGeral() {
     const itens = porVendedor[nome].map(p => `
       <div style="padding:6px 0;border-bottom:1px solid var(--border)">
         <div><strong>Ped ${p.numped}</strong> — ${p.cliente} — ${fmtFat(p.total)} <span style="color:var(--muted)">(${p.posicao})</span></div>
-        ${p.motivo ? `<div style="font-size:.72rem;color:var(--muted)">Motivo: ${p.motivo}${(p.motivo_preco_digitado != null && p.motivo_preco_tabela != null) ? ` (digitado ${fmtFat(p.motivo_preco_digitado)} · tabela ${fmtFat(p.motivo_preco_tabela)})` : ''}</div>` : ''}
+        ${p.motivo ? `<div style="font-size:.72rem;color:var(--muted)">Motivo: ${p.motivo}${(p.motivo_preco_digitado != null && p.motivo_preco_tabela != null) ? ` — ${p.motivo_produto} (digitado ${fmtFat(p.motivo_preco_digitado)} · tabela ${fmtFat(p.motivo_preco_tabela)})` : ''}</div>` : ''}
       </div>`).join('');
     return `
       <div style="margin-top:10px">

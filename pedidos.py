@@ -329,11 +329,11 @@ _RE_MOTIVO_DESCONTO = re.compile(r'desconto acima do permitido\s*:\s*(\d+)', re.
 
 
 def _preco_motivo_bloqueio(item):
-    """Se o motivo for bloqueio por desconto excessivo, acha o preço
-    digitado (PVENDA do item citado) e o piso de tabela pra mostrar junto.
-    Retorna None se não for esse tipo de motivo, o item não for encontrado
-    ou não tiver preço de tabela carregado (fora do RJ, produto não
-    cadastrado nas planilhas etc.)."""
+    """Se o motivo for bloqueio por desconto excessivo, acha o código e o
+    nome do produto citado, o preço digitado (PVENDA do item) e o piso de
+    tabela pra mostrar junto. Retorna None se não for esse tipo de motivo,
+    o item não for encontrado ou não tiver preço de tabela carregado (fora
+    do RJ, produto não cadastrado nas planilhas etc.)."""
     m = _RE_MOTIVO_DESCONTO.search(item.get('motivo', ''))
     if not m:
         return None
@@ -344,7 +344,7 @@ def _preco_motivo_bloqueio(item):
     pt = _preco_tabela(codprod)
     if pt is None:
         return None
-    return it['pvenda'], pt
+    return codprod, it['desc'], it['pvenda'], pt
 
 
 # ── PCPREST — títulos já pagos saem de Faturados ───────────────────────────────
@@ -480,7 +480,8 @@ def _agrupar(df, com_status_log=False):
             item['status_log'] = _status_log(nf, sistema) if nf else ''
         _preco_motivo = _preco_motivo_bloqueio(item)
         if _preco_motivo:
-            item['motivo_preco_digitado'], item['motivo_preco_tabela'] = _preco_motivo
+            (item['motivo_codprod'], item['motivo_produto'],
+             item['motivo_preco_digitado'], item['motivo_preco_tabela']) = _preco_motivo
         result.append(item)
     result.sort(key=lambda p: p['data_ord'], reverse=True)
     return result
