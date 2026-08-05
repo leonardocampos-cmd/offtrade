@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "05/08/2026 16:16",
-  "total": 22347,
+  "atualizado_em": "05/08/2026 16:38",
+  "total": 22346,
   "clientes": [
     {
       "codcli": "38586",
@@ -223010,22 +223010,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "33084",
-      "razao": "MARCOS EDUARDO FIGUEIREDO CARVALHO 10727537660",
-      "fantasia": "DISK BEBIDAS COM CERVEJA",
-      "bairro": "PARQUE VIVALDI LEITE RIBEIRO",
-      "cidade": "POCOS DE CALDAS",
-      "cnpj": "34.866.909/0001-49",
-      "estado": "MG",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "352",
-      "nome_usur2": "CAMILA ANTUNES"
     },
     {
       "codcli": "37045",
