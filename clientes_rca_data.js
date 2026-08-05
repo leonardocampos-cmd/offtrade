@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "05/08/2026 17:21",
+  "atualizado_em": "05/08/2026 17:43",
   "total": 22350,
   "clientes": [
     {
@@ -140660,6 +140660,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "RODRIGO FREITAS"
     },
     {
+      "codcli": "92355",
+      "razao": "ERIC & PESTANA PROMOCAO DE VENDAS E COMERCIO LTDA",
+      "fantasia": "ERIC & PESTANA PROMOCAO DE VENDAS E COME",
+      "bairro": "BARRA DA TIJUCA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "54.001.010/0001-70",
+      "estado": "RJ",
+      "ramo": "SERVICOS DE ORGANIZACAO DE FEIRAS, CONGR",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "119",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "47249",
       "razao": "ERIC & PESTANA PROMOCAO DE VENDAS E COMERCIO LTDA",
       "fantasia": "ERIC & PESTANA PROMOCAO DE VENDAS E COMERCIO LTDA",
@@ -237774,8 +237790,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "144",
+      "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
     },
@@ -353152,22 +353168,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "35633",
-      "razao": "WESLEY RÔMULO CRUZ SANTANA",
-      "fantasia": "WESLEY RÔMULO CRUZ SANTANA",
-      "bairro": "PINDORAMA",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "109.971.356-03",
-      "estado": "MG",
-      "ramo": "OUTROS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
       "codusur2": "",
       "nome_usur2": ""
     },
