@@ -64,6 +64,7 @@ def _enviar_email(assunto: str, corpo: str, cc: str = None):
             timeout=10,
         )
         if r.status_code == 401:
+            print(f"[DEBUG-AUTH] Gmail 401 direto (token passou por ensure_valid_token): {r.text[:300]}", flush=True)
             st.warning("Erro ao enviar e-mail: sessão expirada — atualize a página e faça login de novo.")
         elif not r.ok:
             st.warning(f"Erro ao enviar e-mail: {r.status_code} — {r.text[:300]}")
