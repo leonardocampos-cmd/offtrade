@@ -25801,6 +25801,82 @@ const AGENDAMENTO_DATA = {
       ]
     },
     {
+      "msg_id": "19fd30416d85811b",
+      "subject": "PEDIDO BONIFICAÇÃO (ENXOVAL) MOVING PADRÃO DO FONSECA (90415)",
+      "data_email": "2026-08-05",
+      "sistema": "CRC - 04",
+      "cod_cliente": "90415",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "08.628.825/0024-53",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 3,
+          "preco": 86.28,
+          "total": 258.84,
+          "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
+          "status": "Parcial",
+          "nf": "6881",
+          "agendado": true
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 3,
+          "preco": 86.28,
+          "total": 258.84,
+          "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
+          "status": "Parcial",
+          "nf": "6881",
+          "agendado": true
+        },
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 3,
+          "preco": 86.28,
+          "total": 258.84,
+          "qt_faturada": 5.0,
+          "valor_faturado": 431.4,
+          "status": "Faturado",
+          "nf": "6881",
+          "agendado": true
+        },
+        {
+          "cod_prod": "6334",
+          "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+          "qt": 2,
+          "preco": 155.28,
+          "total": 310.56,
+          "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
+          "status": "Parcial",
+          "nf": "6881",
+          "agendado": true
+        },
+        {
+          "cod_prod": "6254",
+          "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "qt": 2,
+          "preco": 155.28,
+          "total": 310.56,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
       "msg_id": "19fcdcc199640cd8",
       "subject": "Giselle Barfer rca 159 pedido",
       "data_email": "2026-08-04",

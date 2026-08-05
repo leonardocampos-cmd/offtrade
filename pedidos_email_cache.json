@@ -8044,5 +8044,61 @@
         "tipo_segmento": "OFF TRADE"
       }
     ]
+  },
+  "19fd30416d85811b": {
+    "subject": "PEDIDO BONIFICAÇÃO (ENXOVAL) MOVING PADRÃO DO FONSECA (90415)",
+    "data_email": "2026-08-05",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": true,
+        "itens": [
+          {
+            "cod_prod": "6257",
+            "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+            "qt": 3,
+            "preco": 86.28,
+            "total": 258.84
+          },
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 3,
+            "preco": 86.28,
+            "total": 258.84
+          },
+          {
+            "cod_prod": "6259",
+            "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "qt": 3,
+            "preco": 86.28,
+            "total": 258.84
+          },
+          {
+            "cod_prod": "6334",
+            "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+            "qt": 2,
+            "preco": 155.28,
+            "total": 310.56
+          },
+          {
+            "cod_prod": "6254",
+            "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+            "qt": 2,
+            "preco": 155.28,
+            "total": 310.56
+          }
+        ],
+        "cod_cliente": "90415",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+        "fantasia": "SUPERMARKET",
+        "cnpj": "08.628.825/0024-53",
+        "endereco": "R PANAMA, 168 - ENT R. COSTA RICA",
+        "praca": "PENHA",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ]
   }
 }
