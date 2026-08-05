@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "04/08/2026 17:01",
+  "atualizado_em": "05/08/2026 14:23",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -1995,26 +1995,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33014",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "YVY",
-            "qt": 4,
-            "valor": 159.6
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "YVY",
-            "qt": 4,
-            "valor": 159.6
-          }
-        ]
-      },
-      {
         "codcli": "32871",
         "cliente": "ER COZINHA ARTESANAL LTDA",
         "bairro": "VILA DA SERRA",
@@ -2035,34 +2015,22 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "31624",
-        "cliente": "SOCIEDADE RECREATIVA PALMEIRAS",
-        "bairro": "SANTA EFIGENIA",
+        "codcli": "33014",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "LOURDES",
         "dtultcomp": "18/06/2026",
         "produtos": [
           {
-            "produto": "CACHACA SELETA PRATA 1000ML",
-            "fantasia": "SELETA",
-            "qt": 12,
-            "valor": 478.8
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 4,
+            "valor": 159.6
           },
           {
-            "produto": "VODKA ABSOLUT - 1 LITRO",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 958.8
-          },
-          {
-            "produto": "VODKA SMIRNOFF RED 998 ML",
-            "fantasia": "DIAGEO",
-            "qt": 12,
-            "valor": 370.8
-          },
-          {
-            "produto": "WHISKY WALKER RED LABEL 1L",
-            "fantasia": "DIAGEO",
-            "qt": 6,
-            "valor": 443.4
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 4,
+            "valor": 159.6
           }
         ]
       },
@@ -2363,50 +2331,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "MONIN",
             "qt": 2,
             "valor": 99.8
-          }
-        ]
-      },
-      {
-        "codcli": "37631",
-        "cliente": "GCGV COMERCIO DE ALIMENTOS LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "07/07/2026",
-        "produtos": [
-          {
-            "produto": "AZEITE DE OLIVA EV ESSENZA 5L",
-            "fantasia": "NSG",
-            "qt": 1,
-            "valor": 259.9
-          },
-          {
-            "produto": "CERRO DE PEDRA PARC SAUV BLANC BCO 750ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 84.9
-          },
-          {
-            "produto": "VINHO ARESTI EST SEL PINOT NOIR 750ML",
-            "fantasia": "CASTAS",
-            "qt": 3,
-            "valor": 164.7
-          },
-          {
-            "produto": "VINHO ARESTI RESERVA CARMENERE 750ML",
-            "fantasia": "CASTAS",
-            "qt": 3,
-            "valor": 239.7
-          },
-          {
-            "produto": "VINHO CAZAS NOVAS COLHEITA 750ML",
-            "fantasia": "CASTAS",
-            "qt": 1,
-            "valor": 89.9
-          },
-          {
-            "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 2,
-            "valor": 159.8
           }
         ]
       },
@@ -3017,20 +2941,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "YVY",
             "qt": 6,
             "valor": 221.4
-          }
-        ]
-      },
-      {
-        "codcli": "38835",
-        "cliente": "RESTAURANTE CLM PARRILLA LTDA",
-        "bairro": "SAVASSI",
-        "dtultcomp": "15/07/2026",
-        "produtos": [
-          {
-            "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-            "fantasia": "LVMH",
-            "qt": 4,
-            "valor": 419.6
           }
         ]
       },
@@ -4229,68 +4139,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37207",
-        "cliente": "MEZZA BAR LTDA",
-        "bairro": "OURO PRETO",
-        "dtultcomp": "29/07/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 369.12
-          },
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 369.12
-          },
-          {
-            "produto": "RED BULL NECTARINA SF 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 184.56
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 184.56
-          },
-          {
-            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 369.12
-          },
-          {
-            "produto": "WHISKY JIM BEAM APPLE 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 1,
-            "valor": 89.9
-          },
-          {
-            "produto": "WHISKY JIM BEAM CHERRY 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 1,
-            "valor": 89.9
-          },
-          {
-            "produto": "WHISKY JIM BEAM HONEY 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 1,
-            "valor": 89.9
-          },
-          {
-            "produto": "WHISKY JIM BEAM WHITE 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 1,
-            "valor": 89.9
-          }
-        ]
-      },
-      {
         "codcli": "34536",
         "cliente": "PARRILLA COSTELLO LTDA",
         "bairro": "OLHOS D AGUA",
@@ -4657,20 +4505,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30905",
-        "cliente": "LUC2 COMERCIO DE ALIMENTOS LTDA",
-        "bairro": "SAVASSI",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "ESPUMANTE ALUD BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 7,
-            "valor": 314.3
-          }
-        ]
-      },
-      {
         "codcli": "39391",
         "cliente": "MAGNIFICO LGP LTDA",
         "bairro": "SANTA AMÉLIA",
@@ -5016,6 +4850,13 @@ const NAO_POS_MG_DATA = {
         "codcli": "39632",
         "cliente": "ROTA BEBIDAS LTDA",
         "bairro": "JARDIM AMÉRICA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39737",
+        "cliente": "SIMONE FERRARA EVENTOS LTDA",
+        "bairro": "CHÁCARA",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -5555,20 +5396,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 2,
             "valor": 335.52
-          }
-        ]
-      },
-      {
-        "codcli": "31203",
-        "cliente": "DISTRIBUICAO BRASIL DELIVERY LTDA",
-        "bairro": "CONJUNTO HABITACIONAL MORRO ALTO",
-        "dtultcomp": "03/06/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY WALKER RED LABEL 1L",
-            "fantasia": "DIAGEO",
-            "qt": 3,
-            "valor": 230.7
           }
         ]
       },
@@ -6133,20 +5960,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "AURORA",
             "qt": 1,
             "valor": 129.9
-          }
-        ]
-      },
-      {
-        "codcli": "39110",
-        "cliente": "EMPORIO LOS MANOS LTDA",
-        "bairro": "CÉU AZUL",
-        "dtultcomp": "13/07/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY JACK DANIELS APPLE 1L",
-            "fantasia": "BROWN-FORMAN",
-            "qt": 4,
-            "valor": 495.6
           }
         ]
       },
@@ -7195,13 +7008,6 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "39715",
-        "cliente": "LAREIRA ENTRE SERRAS INDUSTRIA E COMERCIO LTDA",
-        "bairro": "VÁRZEA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "39718",
         "cliente": "MALAL EMPREENDIMENTOS LTDA",
         "bairro": "JARDIM IMPERIAL",
@@ -7245,20 +7051,6 @@ const NAO_POS_MG_DATA = {
       }
     ],
     "TIAGO ANDRADE": [
-      {
-        "codcli": "38624",
-        "cliente": "IGOR SOUZA OLIVEIRA",
-        "bairro": "SAGRADA FAMÍLIA",
-        "dtultcomp": "27/04/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "YVY",
-            "qt": 6,
-            "valor": 215.4
-          }
-        ]
-      },
       {
         "codcli": "30490",
         "cliente": "TANNAT VINHOS LTDA",
@@ -7716,32 +7508,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30323",
-        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "SANTO ANTONIO",
-        "dtultcomp": "23/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 89.88
-          },
-          {
-            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 89.88
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 179.76
-          }
-        ]
-      },
-      {
         "codcli": "38776",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
         "bairro": "ESTORIL",
@@ -7770,6 +7536,32 @@ const NAO_POS_MG_DATA = {
             "fantasia": "RED BULL",
             "qt": 1,
             "valor": 29.96
+          },
+          {
+            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 179.76
+          }
+        ]
+      },
+      {
+        "codcli": "30323",
+        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
+        "bairro": "SANTO ANTONIO",
+        "dtultcomp": "23/06/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK RED BULL MELANCIA",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 89.88
+          },
+          {
+            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 89.88
           },
           {
             "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
@@ -7832,32 +7624,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "RED BULL",
             "qt": 2,
             "valor": 60.0
-          }
-        ]
-      },
-      {
-        "codcli": "34476",
-        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "SAGRADA FAMÍLIA",
-        "dtultcomp": "02/07/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 191.76
-          },
-          {
-            "produto": "RED BULL MAÇA SF 250ML  C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 383.52
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 191.76
           }
         ]
       },
@@ -9134,34 +8900,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "CASTAS",
             "qt": 22,
             "valor": 415.8
-          }
-        ]
-      },
-      {
-        "codcli": "34916",
-        "cliente": "SODEXO DO BRASIL COMERCIAL S A",
-        "bairro": "IPIRANGA",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 10,
-            "valor": 1480.8
-          }
-        ]
-      },
-      {
-        "codcli": "33637",
-        "cliente": "DIAMOND FOODS LTDA",
-        "bairro": "UNIAO",
-        "dtultcomp": "31/07/2026",
-        "produtos": [
-          {
-            "produto": "VINHO ARESTI EST SEL PINOT NOIR 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 329.4
           }
         ]
       },
