@@ -25630,7 +25630,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "05/08/2026 14:35",
+  "atualizado_em": "05/08/2026 14:47",
   "comparativo": [
     {
       "msg_id": "19fd199567d6f7bc",
