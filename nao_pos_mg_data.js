@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "05/08/2026 15:01",
+  "atualizado_em": "05/08/2026 15:25",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -887,6 +887,32 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "37335",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "CENTRO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA TINTO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 257.4
+          },
+          {
+            "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 461.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 24,
+            "valor": 490.08
+          }
+        ]
+      },
+      {
         "codcli": "35222",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "JARDIM ANA MARIA",
@@ -921,32 +947,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "PERNOD",
             "qt": 3,
             "valor": 177.54
-          }
-        ]
-      },
-      {
-        "codcli": "37335",
-        "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "CENTRO",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA TINTO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 257.4
-          },
-          {
-            "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 461.4
-          },
-          {
-            "produto": "VODKA ORLOFF 1L - DEST",
-            "fantasia": "",
-            "qt": 24,
-            "valor": 490.08
           }
         ]
       },
@@ -1557,20 +1557,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33892",
-        "cliente": "E.P.S. HAMBURGUERS LTDA",
-        "bairro": "BELVEDERE",
-        "dtultcomp": "02/06/2026",
-        "produtos": [
-          {
-            "produto": "ST PIERRE SUGAR FREE LT 270MLX6",
-            "fantasia": "TATUZINHO",
-            "qt": 16,
-            "valor": 430.4
-          }
-        ]
-      },
-      {
         "codcli": "37219",
         "cliente": "PADARIA E CONFEITARIA VERENA II LTDA",
         "bairro": "CACHOEIRA",
@@ -1995,26 +1981,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "32871",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "VILA DA SERRA",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "YVY",
-            "qt": 6,
-            "valor": 239.4
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "YVY",
-            "qt": 6,
-            "valor": 239.4
-          }
-        ]
-      },
-      {
         "codcli": "33014",
         "cliente": "ER COZINHA ARTESANAL LTDA",
         "bairro": "LOURDES",
@@ -2031,6 +1997,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "YVY",
             "qt": 4,
             "valor": 159.6
+          }
+        ]
+      },
+      {
+        "codcli": "32871",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "VILA DA SERRA",
+        "dtultcomp": "18/06/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 6,
+            "valor": 239.4
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 6,
+            "valor": 239.4
           }
         ]
       },
@@ -4037,38 +4023,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30040",
-        "cliente": "EDDIE LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "29/07/2026",
-        "produtos": [
-          {
-            "produto": "BAER MATE LN  6X350ML",
-            "fantasia": "BETTER DRINKS",
-            "qt": 2,
-            "valor": 85.08
-          },
-          {
-            "produto": "GIN BEEFEATER 750ML",
-            "fantasia": "PERNOD",
-            "qt": 1,
-            "valor": 81.9
-          },
-          {
-            "produto": "VODKA ABSOLUT - 1 LITRO",
-            "fantasia": "PERNOD",
-            "qt": 1,
-            "valor": 79.9
-          },
-          {
-            "produto": "WHISKY JAMESON DEST 750ML DEST.",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 89.9
-          }
-        ]
-      },
-      {
         "codcli": "37220",
         "cliente": "JANUZZI PADARIA E CONFEITARIA LTDA",
         "bairro": "BRASILÉIA",
@@ -4583,38 +4537,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "BEAM SUNTORY",
             "qt": 1,
             "valor": 89.9
-          }
-        ]
-      },
-      {
-        "codcli": "30105",
-        "cliente": "RESTAURANTE E EMPORIO MORADA MEXICANA EIRELI",
-        "bairro": "SAVASSI",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "RUM BACARDI CARTA BLANCA 980 ML",
-            "fantasia": "BACARDI",
-            "qt": 2,
-            "valor": 93.8
-          },
-          {
-            "produto": "TEQUILA EL JIMADOR BLANCO 750 ML",
-            "fantasia": "BROWN-FORMAN",
-            "qt": 3,
-            "valor": 314.7
-          },
-          {
-            "produto": "YVY DESTILADO RUM LT 710ML",
-            "fantasia": "YVY",
-            "qt": 2,
-            "valor": 79.8
-          },
-          {
-            "produto": "YVY DESTILADO VODKA 710ML",
-            "fantasia": "YVY",
-            "qt": 1,
-            "valor": 39.9
           }
         ]
       },
@@ -8302,38 +8224,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35229",
-        "cliente": "LA MACELLERIA LOURDES ACOUGUE GOURMET E RESTAURANTE LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "21/07/2026",
-        "produtos": [
-          {
-            "produto": "APERITIVO APEROL 750 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 89.0
-          },
-          {
-            "produto": "RUM BACARDI CARTA BLANCA 980 ML",
-            "fantasia": "BACARDI",
-            "qt": 1,
-            "valor": 46.9
-          },
-          {
-            "produto": "WHISKY J WALKER BLACK LABEL 1L",
-            "fantasia": "DIAGEO",
-            "qt": 1,
-            "valor": 148.9
-          },
-          {
-            "produto": "WHISKY JACK DANIELS 1L",
-            "fantasia": "BROWN-FORMAN",
-            "qt": 1,
-            "valor": 129.9
-          }
-        ]
-      },
-      {
         "codcli": "35402",
         "cliente": "RAW E ALPES BEBIDAS LTDA",
         "bairro": "RENASCENÇA",
@@ -8510,32 +8400,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "CASTAS",
             "qt": 5,
             "valor": 179.5
-          }
-        ]
-      },
-      {
-        "codcli": "30203",
-        "cliente": "USINA DE ENTRETENIMENTOS LTDA",
-        "bairro": "BURITIS",
-        "dtultcomp": "24/07/2026",
-        "produtos": [
-          {
-            "produto": "ESPUMANTE ALUD BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 18,
-            "valor": 808.2
-          },
-          {
-            "produto": "VINHO ARESTI EST SEL CARMENERE 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 329.4
-          },
-          {
-            "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 461.4
           }
         ]
       },
