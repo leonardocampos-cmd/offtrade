@@ -1,5 +1,5 @@
 const CLIENTES_588_DATA = {
-  "atualizado_em": "05/08/2026 16:39",
+  "atualizado_em": "05/08/2026 17:00",
   "rca_ref": 588,
   "periodo_fid": "Jan/26 – Abr/26",
   "mes_migracao": "Mai/26",
@@ -918,6 +918,12 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "12/05/2026",
+              "PRODUTO": "VODKA ABSOLUT - 750 ML",
+              "FANTASIA": "PERNOD",
+              "VALOR": 3055.2
+            },
+            {
+              "DATA": "12/05/2026",
               "PRODUTO": "GIN ORLOFF 1L",
               "FANTASIA": "PERNOD",
               "VALOR": 415.08
@@ -939,12 +945,6 @@ const CLIENTES_588_DATA = {
               "PRODUTO": "RUM MALIBU 750 ML",
               "FANTASIA": "PERNOD",
               "VALOR": 527.76
-            },
-            {
-              "DATA": "12/05/2026",
-              "PRODUTO": "VODKA ABSOLUT - 750 ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 3055.2
             },
             {
               "DATA": "12/05/2026",
@@ -1560,6 +1560,12 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "05/05/2026",
+              "PRODUTO": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+              "FANTASIA": "MOET HENNESY",
+              "VALOR": 3894.0
+            },
+            {
+              "DATA": "05/05/2026",
               "PRODUTO": "CHANDON BABY BRUT ROSE 187 ML",
               "FANTASIA": "MOET HENNESY",
               "VALOR": 1243.2
@@ -1575,12 +1581,6 @@ const CLIENTES_588_DATA = {
               "PRODUTO": "CHANDON BABY RICHE DEMMI SEC 187 ML",
               "FANTASIA": "MOET HENNESY",
               "VALOR": 507.36
-            },
-            {
-              "DATA": "05/05/2026",
-              "PRODUTO": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-              "FANTASIA": "MOET HENNESY",
-              "VALOR": 3894.0
             },
             {
               "DATA": "05/05/2026",
@@ -1602,6 +1602,12 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "05/05/2026",
+              "PRODUTO": "MAGNUM MOET IMPERIAL BRUT 1,5L",
+              "FANTASIA": "MOET HENNESY",
+              "VALOR": 749.9
+            },
+            {
+              "DATA": "05/05/2026",
               "PRODUTO": "VINHO LATITUD 33 CABERNET SAUVIGNON",
               "FANTASIA": "MOET HENNESY",
               "VALOR": 172.02
@@ -1611,12 +1617,6 @@ const CLIENTES_588_DATA = {
               "PRODUTO": "VINHO LATITUD 33 MALBEC 750 ML",
               "FANTASIA": "MOET HENNESY",
               "VALOR": 172.02
-            },
-            {
-              "DATA": "05/05/2026",
-              "PRODUTO": "MAGNUM MOET IMPERIAL BRUT 1,5L",
-              "FANTASIA": "MOET HENNESY",
-              "VALOR": 749.9
             },
             {
               "DATA": "07/05/2026",
