@@ -41,13 +41,15 @@ def _enviar_whatsapp(mensagem: str):
         pass
 
 
-def _enviar_email(assunto: str, corpo: str, cc: str = None):
+def _enviar_email(assunto: str, corpo: str, cc: str = None) -> bool:
+    """Retorna True só quando o e-mail foi de fato aceito pela Gmail API —
+    quem chama não deve mostrar 'enviado com sucesso' sem checar o retorno."""
     try:
         try:
             token = ensure_valid_token()
         except RuntimeError as e:
             st.warning(f"Erro ao enviar e-mail: {e}")
-            return
+            return False
         access_token = token.get("access_token", "")
         remetente    = rca_info.get("email", "")
         msg          = MIMEText(corpo)
@@ -64,12 +66,15 @@ def _enviar_email(assunto: str, corpo: str, cc: str = None):
             timeout=10,
         )
         if r.status_code == 401:
-            print(f"[DEBUG-AUTH] Gmail 401 direto (token passou por ensure_valid_token): {r.text[:300]}", flush=True)
             st.warning("Erro ao enviar e-mail: sessão expirada — atualize a página e faça login de novo.")
+            return False
         elif not r.ok:
             st.warning(f"Erro ao enviar e-mail: {r.status_code} — {r.text[:300]}")
+            return False
+        return True
     except Exception as e:
         st.warning(f"Erro ao enviar e-mail: {e}")
+        return False
 
 
 def _fetch_cnpj(cnpj_limpo: str) -> dict:
@@ -325,8 +330,8 @@ if busca:
                             f"{rca_linha}\n\nNão foi possível obter dados da Receita Federal.\n\n"
                             f"Podem realizar o cadastro manualmente?\n\nObrigado!"
                         )
-                    _enviar_email("Solicitação de Cadastro de Cliente", corpo, cc=EMAIL_CADASTRO_CC)
-                    st.success("Solicitação enviada ao time de cadastro.")
+                    if _enviar_email("Solicitação de Cadastro de Cliente", corpo, cc=EMAIL_CADASTRO_CC):
+                        st.success("Solicitação enviada ao time de cadastro.")
 
         else:
             row        = df.iloc[0]

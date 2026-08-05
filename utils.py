@@ -188,9 +188,6 @@ def _show_login(cookies):
         st.query_params.clear()
         st.rerun()
     if result and "token" in result:
-        print(f"[DEBUG-AUTH] login ok, keys={list(result['token'].keys())}, "
-              f"has_refresh_token={bool(result['token'].get('refresh_token'))}, "
-              f"expires_at={result['token'].get('expires_at')}", flush=True)
         st.session_state["token"] = result["token"]
         cookies.set("offtrade_token", json.dumps(result["token"]))
         st.rerun()
@@ -206,8 +203,6 @@ def ensure_valid_token() -> dict:
     token = st.session_state.get("token") or {}
     if not token:
         raise RuntimeError("Sessão não autenticada.")
-    print(f"[DEBUG-AUTH] ensure_valid_token: expires_at={token.get('expires_at')}, "
-          f"now={time.time()}, has_refresh_token={bool(token.get('refresh_token'))}", flush=True)
     if token.get("expires_at") and token["expires_at"] < time.time():
         if not token.get("refresh_token"):
             # Sem isso, "atualizar a página" não resolvia nada: o cookie
