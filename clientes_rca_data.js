@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "05/08/2026 14:48",
-  "total": 22349,
+  "atualizado_em": "05/08/2026 15:01",
+  "total": 22347,
   "clientes": [
     {
       "codcli": "38586",
@@ -86116,22 +86116,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "FERNANDO GOMES"
     },
     {
-      "codcli": "83055",
-      "razao": "CAIO DEPOSITO E CONVENIENCIA LTDA",
-      "fantasia": "ESTACAO BOTAFOGO DEPOSITO E CONVENIENCIA",
-      "bairro": "BOTAFOGO",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "55.723.074/0001-48",
-      "estado": "RJ",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "71938",
       "razao": "CAIO FELLIPE BARROS DE LIMA 15410049730",
       "fantasia": "ANJOS ASSOCIADOS",
@@ -91538,22 +91522,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "77233",
-      "razao": "CASA DA DONA RESTAURANTE LTDA",
-      "fantasia": "CASA DA DONA",
-      "bairro": "CENTRO",
-      "cidade": "NOVA IGUACU",
-      "cnpj": "54.145.346/0001-07",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "319",
-      "nome_usur2": "FERNANDA CAMBOIM"
     },
     {
       "codcli": "35397",
@@ -327168,8 +327136,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "433",
       "nome_usur1": "MANUELA ZAPPACOSTA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "491",
+      "nome_usur2": "GILSON DE OLIVEIRA - OFF TRADE"
     },
     {
       "codcli": "15458",
