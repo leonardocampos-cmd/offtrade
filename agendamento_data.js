@@ -25737,6 +25737,70 @@ const AGENDAMENTO_DATA = {
       ]
     },
     {
+      "msg_id": "19fd2f808d79cf02",
+      "subject": "PEDIDO IMBATIVEL",
+      "data_email": "2026-08-05",
+      "sistema": "CRC - 04",
+      "cod_cliente": "7755",
+      "razao_social": "IMBATIVEL SUPERMERCADOS LTDA",
+      "fantasia": "IMBATIVEL SUPERMERCADOS - PIRATININGA",
+      "cnpj": "28.480.886/0001-37",
+      "rca": "450 - LEANDRO PEREIRA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "3828",
+          "descricao": "VINHO LATITUD 33 CABERNET SAUVIGNON",
+          "qt": 96,
+          "preco": 35.0,
+          "total": 3360.0,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3830",
+          "descricao": "VINHO LATITUD 33 MALBEC ROSE 750 ML",
+          "qt": 48,
+          "preco": 35.0,
+          "total": 1680.0,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3827",
+          "descricao": "VINHO LATITUD 33 MALBEC 750 ML",
+          "qt": 96,
+          "preco": 35.0,
+          "total": 3360.0,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3826",
+          "descricao": "VINHO LATITUD 33 CHARDONNAY 750 ML",
+          "qt": 48,
+          "preco": 35.0,
+          "total": 1680.0,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
       "msg_id": "19fcdcc199640cd8",
       "subject": "Giselle Barfer rca 159 pedido",
       "data_email": "2026-08-04",
