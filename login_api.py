@@ -115,4 +115,9 @@ def login_vendedor():
 app.register_blueprint(bp)
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5051)
+    # threaded=True é essencial: sem isso o dev server do Flask atende UM
+    # request por vez — se um deles travar numa conexão Oracle morta (visto
+    # em 2026-08-04, série de ORA-03113 seguida de silêncio total nos logs
+    # por quase 20h), todo mundo mais tentando logar fica na fila atrás dele
+    # pra sempre, e nenhum crash acontece pro systemd Restart=always agir.
+    app.run(host="0.0.0.0", port=5051, threaded=True)
