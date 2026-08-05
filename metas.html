@@ -727,6 +727,68 @@
 <div id="app"></div>
 
 <script>
+// ── Restrição de acesso por estado (2026-08-05) ────────────────────────────
+// Cada e-mail listado só vê os vendedores do(s) estado(s) dele na visão
+// agregada (sem ?vendedor= na URL). Quem não está na lista continua vendo
+// tudo, igual sempre foi — isto é uma exceção pontual pedida pelo Leonardo
+// pra esses gestores específicos, não um sistema de permissões genérico.
+const SUPER_ADMIN_EMAIL = 'leonardo.campos@rigarr.com.br'; // mesmo valor de utils.py
+
+const RESTRICAO_ACESSO_POR_EMAIL = {
+  'danielle.soares@rigarr.com.br':    { estados: ['RJ'] },
+  'allan.correa@rigarr.com.br':       { estados: ['RJ'] },
+  'marcus.tanamachi@rigarr.com.br':   { estados: ['SP'], excluirPadrao: ['W.S'] },
+  'priscilla.zambrano@rigarr.com.br': { estados: ['SP'], excluirPadrao: ['W.S'] },
+  'anderson.canaveis@rigarr.com.br':  { estados: ['SP'], excluirPadrao: ['W.S'] },
+  'fernando.risson@rigarr.com.br':    { estados: ['MG'] },
+  'andre.massensini@rigarr.com.br':   { estados: ['MG'] },
+  'erocles.oliveira@rigarr.com.br':   { estados: ['ES'] },
+};
+
+function _nomesNoEstado(estado) {
+  const nomes = new Set();
+  if (typeof GERENTES_DATA === 'undefined') return nomes;
+  for (const est of GERENTES_DATA.estados || []) {
+    if (est.nome !== estado) continue;
+    for (const g of est.gerentes || [])
+      for (const s of g.supervisores || [])
+        for (const v of s.vendedores || []) nomes.add(v.nome);
+  }
+  return nomes;
+}
+
+function _emailLogado() {
+  const m = document.cookie.match(/(?:^|; )offtrade_token=([^;]*)/);
+  if (!m) return '';
+  try {
+    const token = JSON.parse(decodeURIComponent(m[1]));
+    const idToken = token.id_token || token.credential || '';
+    const b64 = idToken.split('.')[1].replace(/-/g, '+').replace(/_/g, '/');
+    const payload = JSON.parse(atob(b64 + '='.repeat((4 - b64.length % 4) % 4)));
+    return (payload.email || '').toLowerCase();
+  } catch { return ''; }
+}
+
+// Retorna {tipo:'all'} | {tipo:'equipe', nomes:Set}. Sem regra cadastrada
+// pro e-mail = 'all' (fail-open, nunca bloqueia ninguém sem querer).
+function _scopeAtual() {
+  const email = _emailLogado();
+  if (!email || email === SUPER_ADMIN_EMAIL) return { tipo: 'all' };
+
+  const regra = RESTRICAO_ACESSO_POR_EMAIL[email];
+  if (!regra) return { tipo: 'all' };
+
+  const nomes = new Set();
+  for (const est of regra.estados || []) for (const n of _nomesNoEstado(est)) nomes.add(n);
+
+  for (const padrao of regra.excluirPadrao || []) {
+    const re = new RegExp(padrao.replace(/\./g, '\\.'), 'i');
+    for (const n of Array.from(nomes)) if (re.test(n)) nomes.delete(n);
+  }
+
+  return { tipo: 'equipe', nomes, estados: regra.estados || [] };
+}
+
 // ── Utilitários ──────────────────────────────────────────
 
 function fmtFat(val) {
@@ -2117,6 +2179,10 @@ function _buildCards(vendedores, mes) {
 }
 function _buildAvisoPedidosGeral() {
   if (typeof PEDIDOS_DATA === 'undefined') return '';
+  // Painel é RJ-only por natureza (metas.html inteiro é RJ) — não mostra
+  // pra quem foi restrito a outro estado (2026-08-05).
+  const scope = _scopeAtual();
+  if (scope.tipo === 'equipe' && !(scope.estados || []).includes('RJ')) return '';
   const lista = (PEDIDOS_DATA.pedidos_feitos || []).filter(p =>
     (p.estado || '').toUpperCase() === 'RJ' && _POSICOES_PROBLEMA_PED[p.posicao]);
   if (!lista.length) return '';
@@ -2228,6 +2294,15 @@ function filterCards(q) {
         + (mesUrl ? '&mes=' + mesUrl : '');
       location.replace(dest);
       return;
+    }
+  }
+
+  // Restrição por estado só na visão agregada (sem vendedor específico na
+  // URL) — param/rcaParam são sempre vendedor logando e vendo a si mesmo.
+  if (!param && !rcaParam) {
+    const scope = _scopeAtual();
+    if (scope.tipo === 'equipe') {
+      METAS_DATA.vendedores = METAS_DATA.vendedores.filter(v => scope.nomes.has(v.nome));
     }
   }
 

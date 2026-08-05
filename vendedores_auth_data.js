@@ -1,4 +1,4 @@
-// Gerado em 04/08/2026 17:02
+// Gerado em 05/08/2026 14:49
 const VENDEDORES_AUTH = {
   "156": [
     {
@@ -158,6 +158,14 @@ const VENDEDORES_AUTH = {
       "estado": "SP"
     }
   ],
+  "470": [
+    {
+      "nome": "PRISCILLA BONACHE - OFF TRADE",
+      "email": "priscilla.zambrano@rigarr.com.br",
+      "email2": "",
+      "estado": "SP"
+    }
+  ],
   "399": [
     {
       "nome": "BRYAN PALOPOLI - OFF TRADE",
@@ -218,6 +226,14 @@ const VENDEDORES_AUTH = {
     {
       "nome": "ANA PAULA - OFF TRADE",
       "email": "ana.gilha@rigarr.com.br",
+      "email2": "",
+      "estado": "SP"
+    }
+  ],
+  "232": [
+    {
+      "nome": "ANDERSON CANAVEIS - OFF TRADE",
+      "email": "anderson.canaveis@rigarr.com.br",
       "email2": "",
       "estado": "SP"
     }
