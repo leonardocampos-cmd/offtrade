@@ -1,5 +1,5 @@
 const CLIENTES_588_DATA = {
-  "atualizado_em": "05/08/2026 14:49",
+  "atualizado_em": "05/08/2026 15:01",
   "rca_ref": 588,
   "periodo_fid": "Jan/26 – Abr/26",
   "mes_migracao": "Mai/26",
@@ -382,12 +382,6 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "15/05/2026",
-              "PRODUTO": "WHISKY GLENLIVET CARIBEAN RESERVE",
-              "FANTASIA": "PERNOD",
-              "VALOR": 533.7
-            },
-            {
-              "DATA": "15/05/2026",
               "PRODUTO": "RUM HAVANA CLUB 3 YEARS OLD 700 ML",
               "FANTASIA": "PERNOD",
               "VALOR": 11862.0
@@ -397,6 +391,12 @@ const CLIENTES_588_DATA = {
               "PRODUTO": "VODKA ABSOLUT RASPBERRY - 750ML",
               "FANTASIA": "PERNOD",
               "VALOR": 6348.0
+            },
+            {
+              "DATA": "15/05/2026",
+              "PRODUTO": "WHISKY GLENLIVET CARIBEAN RESERVE",
+              "FANTASIA": "PERNOD",
+              "VALOR": 533.7
             },
             {
               "DATA": "18/05/2026",
@@ -974,13 +974,13 @@ const CLIENTES_588_DATA = {
               "DATA": "23/05/2026",
               "PRODUTO": "GLENMORANGIE THE ORIGINAL 12 ANOS 750ML",
               "FANTASIA": "MOET HENNESY",
-              "VALOR": 7320.0
+              "VALOR": 3660.0
             },
             {
               "DATA": "23/05/2026",
               "PRODUTO": "GLENMORANGIE THE ORIGINAL 12 ANOS 750ML",
               "FANTASIA": "MOET HENNESY",
-              "VALOR": 3660.0
+              "VALOR": 7320.0
             },
             {
               "DATA": "23/05/2026",
@@ -1202,12 +1202,6 @@ const CLIENTES_588_DATA = {
           "itens": [
             {
               "DATA": "14/05/2026",
-              "PRODUTO": "WHISKY JAMESON CASKMATES IPA EDIT 750ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 1824.96
-            },
-            {
-              "DATA": "14/05/2026",
               "PRODUTO": "RUM BACARDI CARTA BLANCA 980ML",
               "FANTASIA": "BACARDI",
               "VALOR": 36347.52
@@ -1229,6 +1223,12 @@ const CLIENTES_588_DATA = {
               "PRODUTO": "GIN BOMBAY SAPPHIRE 1,750L",
               "FANTASIA": "BACARDI",
               "VALOR": 2026.8
+            },
+            {
+              "DATA": "14/05/2026",
+              "PRODUTO": "WHISKY JAMESON CASKMATES IPA EDIT 750ML",
+              "FANTASIA": "PERNOD",
+              "VALOR": 1824.96
             },
             {
               "DATA": "14/05/2026",
@@ -1802,6 +1802,12 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "28/05/2026",
+              "PRODUTO": "WHISKY GENTLEMAN JACK 1L",
+              "FANTASIA": "BROWN",
+              "VALOR": 839.4
+            },
+            {
+              "DATA": "28/05/2026",
               "PRODUTO": "VODKA BELVEDERE B10 700 ML",
               "FANTASIA": "MOET HENNESY",
               "VALOR": 3185.4
@@ -1817,12 +1823,6 @@ const CLIENTES_588_DATA = {
               "PRODUTO": "BOURBON WHISKY WOODFORD RESERVE 750ML",
               "FANTASIA": "BROWN",
               "VALOR": 4497.0
-            },
-            {
-              "DATA": "28/05/2026",
-              "PRODUTO": "WHISKY GENTLEMAN JACK 1L",
-              "FANTASIA": "BROWN",
-              "VALOR": 839.4
             }
           ]
         }
@@ -2630,15 +2630,15 @@ const CLIENTES_588_DATA = {
           "itens": [
             {
               "DATA": "14/05/2026",
-              "PRODUTO": "VODKA ABSOLUT TABASCO 750ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 838.8
-            },
-            {
-              "DATA": "14/05/2026",
               "PRODUTO": "GIN BOMBAY SAPPHIRE 1,750L",
               "FANTASIA": "BACARDI",
               "VALOR": 1750.8
+            },
+            {
+              "DATA": "14/05/2026",
+              "PRODUTO": "VODKA ABSOLUT TABASCO 750ML",
+              "FANTASIA": "PERNOD",
+              "VALOR": 838.8
             },
             {
               "DATA": "27/05/2026",
