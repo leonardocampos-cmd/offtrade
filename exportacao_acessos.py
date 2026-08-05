@@ -81,8 +81,13 @@ def _decode_email(id_token: str) -> str:
 
 def _nome_por_email(email: str, vendedores_auth: dict) -> str:
     for info in vendedores_auth.values():
-        if info.get("email", "").lower() == email or info.get("email2", "").lower() == email:
-            return info.get("nome", "").replace("- OFF TRADE", "").replace("-OFF TRADE", "").strip()
+        # RCA pode mapear pra um vendedor só (dict, formato antigo) ou pra
+        # vários (list, formato novo — mesmo RCA em estados/schemas
+        # diferentes é gente diferente).
+        candidatos = info if isinstance(info, list) else [info]
+        for c in candidatos:
+            if c.get("email", "").lower() == email or c.get("email2", "").lower() == email:
+                return c.get("nome", "").replace("- OFF TRADE", "").replace("-OFF TRADE", "").strip()
     return email.split("@")[0].replace(".", " ").title()
 
 

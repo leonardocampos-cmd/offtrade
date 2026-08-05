@@ -93,7 +93,6 @@
   <script src="https://accounts.google.com/gsi/client" async defer></script>
   <script>
     const AUTH_HASH = 'b4ba917b95850dc43cce91dba3be9fd1a4f029e18b81d6846a7183839c81d8dd';
-    const PIN_HASH  = 'f263766e88cba0bf9dfeb6d8f7228a554058f71ac1cb1ca9b0bbfb322b2b7552';
     const EMAILS_OK = [
       'danielle.soares@rigarr.com.br',
       'allan.correa@rigarr.com.br',
@@ -108,6 +107,8 @@
       'fernando.risson@rigarr.com.br',
       'erocles.oliveira@rigarr.com.br',
       'andre.massensini@rigarr.com.br',
+      'priscilla.zambrano@rigarr.com.br',
+      'anderson.canaveis@rigarr.com.br',
     ];
 
     // SSO com o Streamlit (Credito_e_Cadastro, Admin_Objetivos): mesmo domínio
@@ -200,9 +201,21 @@
     // certa a partir do estado cadastrado, ignorando qualquer redirect salvo.
     const _PAGINA_POR_ESTADO = { MG: 'mg.html', SP: 'sp.html', ES: 'es.html' };
 
-    function _doRedirect(rca) {
+    // CODUSUR não é único entre estados (ex: 378 é uma pessoa no RJ e outra em
+    // MG) — VENDEDORES_AUTH[rca] é uma LISTA de candidatos, não um objeto só;
+    // o e-mail informado (por PIN ou Google) é quem desempata qual candidato
+    // é o vendedor de verdade (confirmado em 2026-08-03, caso Jeter x Fabio).
+    function _candidatosPorRca(rca) {
+      return VENDEDORES_AUTH[rca] || [];
+    }
+    function _acharPorEmail(candidatos, email) {
+      return candidatos.find(v => [v.email, v.email2]
+        .filter(Boolean).map(e => e.toLowerCase()).includes(email));
+    }
+
+    function _doRedirect(rca, vendedor) {
       sessionStorage.removeItem('rg_redirect');
-      const vendedor = VENDEDORES_AUTH[rca] || {};
+      vendedor = vendedor || {};
       const pagina = _PAGINA_POR_ESTADO[(vendedor.estado || '').toUpperCase()] || 'metas.html';
       const nomeCurto = (vendedor.nome || '').replace(/\s*-\s*OFF TRADE\s*$/i, '').trim();
       location.replace(pagina + '?vendedor=' + encodeURIComponent(nomeCurto || rca));
@@ -218,12 +231,17 @@
         document.getElementById('google-btn-wrap').style.display = 'flex';
         return;
       }
-      // Só mostra e-mail+senha pra quem tem gmail pessoal cadastrado (o login
-      // por e-mail existe pra esse caso). Quem só tem e-mail corporativo
-      // @rigarr entra direto pelo botão do Google, sem precisar digitar nada.
-      const vendedor = VENDEDORES_AUTH[rca];
-      const temGmail = !!vendedor && [vendedor.email, vendedor.email2]
-        .filter(Boolean).some(e => e.toLowerCase().endsWith('@gmail.com'));
+      // Só mostra e-mail+senha pra quem tem e-mail pessoal (webmail comum)
+      // cadastrado — o login por e-mail existe pra esse caso, porque não dá
+      // pra confiar em SSO do Google Workspace num provedor genérico (ex:
+      // JETER LUCIO SOARES, RCA 378/MG, só tem @yahoo.com.br cadastrado —
+      // confirmado em 2026-08-03 que o botão do Google sozinho não cobria
+      // esse caso). Quem só tem e-mail corporativo (@rigarr ou domínio
+      // próprio de Workspace) entra direto pelo botão do Google.
+      const _WEBMAIL = ['@gmail.com', '@yahoo.com', '@yahoo.com.br', '@hotmail.com', '@outlook.com', '@icloud.com'];
+      const candidatos = _candidatosPorRca(rca);
+      const temGmail = candidatos.some(v => [v.email, v.email2]
+        .filter(Boolean).some(e => _WEBMAIL.some(dom => e.toLowerCase().endsWith(dom))));
 
       if (temGmail) {
         document.getElementById('vend-fields').style.display    = 'flex';
@@ -236,11 +254,11 @@
     });
 
     // ── Fluxo vendedor: RCA + email + senha ───────────────────────
-    async function sha256(str) {
-      const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
-      return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
-    }
-
+    // A senha real de cada vendedor vem da PCUSUARI (Oracle) — validada num
+    // serviço à parte (login_api.py, /api/auth/login-vendedor) pra nunca
+    // expor a senha de ninguém neste JS público (confirmado em 2026-08-03,
+    // caso Jeter: cada vendedor tem sua própria senha no ERP, não faz
+    // sentido comparar contra um hash único compartilhado como antes).
     document.getElementById('form').addEventListener('submit', async e => {
       e.preventDefault();
       showErro('');
@@ -252,24 +270,33 @@
       if (!email) { showErro('Digite seu e-mail.'); return; }
       if (!pin)   { showErro('Digite a senha.'); return; }
 
-      const vendedor = VENDEDORES_AUTH[rca];
-      if (!vendedor) { showErro('RCA não encontrado.'); return; }
+      const candidatos = _candidatosPorRca(rca);
+      if (!candidatos.length) { showErro('RCA não encontrado.'); return; }
 
-      const emailsVendedor = [vendedor.email, vendedor.email2]
-        .filter(Boolean).map(e => e.toLowerCase());
-      if (!emailsVendedor.includes(email)) {
+      const vendedor = _acharPorEmail(candidatos, email);
+      if (!vendedor) {
         showErro('E-mail não corresponde ao RCA informado.');
         return;
       }
 
-      const hash = await sha256(pin);
-      if (hash !== PIN_HASH) { showErro('Senha incorreta.'); return; }
+      let resp;
+      try {
+        resp = await fetch('/api/auth/login-vendedor', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ rca, email, senha: pin }),
+        }).then(r => r.json());
+      } catch {
+        showErro('Não foi possível verificar a senha agora. Tente novamente em instantes.');
+        return;
+      }
+      if (!resp.ok) { showErro(resp.motivo || 'Senha incorreta.'); return; }
 
       sessionStorage.setItem('rg_vendedor', JSON.stringify({
         rca, nome: vendedor.nome, email: vendedor.email
       }));
       _setSsoCookieParaEmail(vendedor.email);
-      _doRedirect(rca);
+      _doRedirect(rca, vendedor);
     });
 
     // ── Fluxo Google: vendedor @rigarr ou gestor (sem RCA) ───────
@@ -290,18 +317,17 @@
 
       // Vendedor com email @rigarr
       if (rca) {
-        const vendedor = VENDEDORES_AUTH[rca];
-        if (!vendedor) { showErro('RCA não encontrado.', email); google.accounts.id.revoke(email, () => {}); return; }
-        const emailsVendedor = [vendedor.email, vendedor.email2]
-          .filter(Boolean).map(e => e.toLowerCase());
-        if (!emailsVendedor.includes(email)) {
+        const candidatos = _candidatosPorRca(rca);
+        if (!candidatos.length) { showErro('RCA não encontrado.', email); google.accounts.id.revoke(email, () => {}); return; }
+        const vendedor = _acharPorEmail(candidatos, email);
+        if (!vendedor) {
           showErro('E-mail não corresponde ao RCA informado.', email);
           google.accounts.id.revoke(email, () => {});
           return;
         }
         sessionStorage.setItem('rg_vendedor', JSON.stringify({ rca, nome: vendedor.nome, email: vendedor.email }));
         _setSsoCookie(response.credential);
-        _doRedirect(rca);
+        _doRedirect(rca, vendedor);
         return;
       }
 

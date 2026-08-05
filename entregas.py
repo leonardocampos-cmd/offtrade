@@ -49,7 +49,7 @@ def _caminho_logistica(d: date) -> str:
     mm   = d.strftime('%m')
     upper, cap = _MESES_PT[mm]
     return str(_bpd.com_fallback(
-        lambda: _bpd.caminho_controle_notas(mm, upper),
+        lambda: _bpd.caminho_controle_notas(mm, upper, d.year),
         str(_caminho_logistica_local(d)),
     ))
 

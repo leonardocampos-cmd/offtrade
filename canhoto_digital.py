@@ -29,6 +29,33 @@ CACHE_PATH = Path(__file__).parent / "canhoto_status.json"
 STATUS_TERMINAL = {"COMPROVADO"}
 EDGE_BINARY = os.getenv("EDGE_BINARY", r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe")
 
+VPS_IP       = os.getenv("VPS_IP", "147.79.107.137")
+VPS_USER     = os.getenv("VPS_USER", "root")
+VPS_PASSWORD = os.getenv("VPS_PASSWORD", "")
+VPS_REMOTE_PATH = "/opt/offtrade-pipeline/canhoto_status.json"
+
+
+def _sincronizar_vps():
+    """Envia o cache pra VPS, que roda pedidos.py sozinha via cron (horário
+    comercial) mas nunca fez o scraping do Canhoto Digital (Selenium/Edge só
+    existe aqui, local) — sem isso o status_log de pedidos SP fica sempre
+    vazio nas rodadas da VPS, sobrescrevendo a versão boa gerada localmente."""
+    if not VPS_PASSWORD:
+        print("[AVISO] VPS_PASSWORD não configurado — pulando sincronização com a VPS.")
+        return
+    try:
+        import paramiko
+        client = paramiko.SSHClient()
+        client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+        client.connect(VPS_IP, username=VPS_USER, password=VPS_PASSWORD, timeout=20)
+        sftp = client.open_sftp()
+        sftp.put(str(CACHE_PATH), VPS_REMOTE_PATH)
+        sftp.close()
+        client.close()
+        print(f"Canhoto Digital: cache sincronizado com a VPS ({VPS_REMOTE_PATH}).")
+    except Exception as e:
+        print(f"[AVISO] falha ao sincronizar cache com a VPS: {str(e)[:150]}")
+
 
 def _novo_driver():
     opts = Options()
@@ -110,6 +137,7 @@ def buscar_status_lote(nfs: list) -> dict:
 
     if not pendentes:
         print("Canhoto Digital: nada pendente, tudo já em cache (COMPROVADO).")
+        _sincronizar_vps()
         return {nf: cache[nf] for nf in nfs_unicas if nf in cache}
 
     print(f"Canhoto Digital: {len(pendentes)} NF(s) pendente(s) de consulta (de {len(nfs_unicas)} única(s)).")
@@ -133,6 +161,7 @@ def buscar_status_lote(nfs: list) -> dict:
 
     CACHE_PATH.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Canhoto Digital: cache salvo em {CACHE_PATH} ({len(cache)} NF(s) no total).")
+    _sincronizar_vps()
     return {nf: cache[nf] for nf in nfs_unicas if nf in cache}
 
 

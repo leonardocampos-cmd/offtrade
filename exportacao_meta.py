@@ -47,9 +47,10 @@ _MAP_RCA_CONFIGS = [
     ("SPON",     engine_spon,    "map_rca_SPON",     "NOME LIKE '%OFF TRADE%' OR NOME LIKE '%W.S%'"),
     ("MGON",     engine_mgon,    "map_rca_MGON",     "NOME LIKE '%OFF TRADE%' OR NOME LIKE '%W.S%'"),
 ]
+
 _parts_map_rca = []
 _chamadas_map_rca = [
-    (f"SELECT CODUSUR AS RCA, NOME FROM {_s}.PCUSUARI WHERE {_extra_f}", _e, _n)
+    (f"SELECT CODUSUR AS RCA, NOME, TIPOVEND FROM {_s}.PCUSUARI WHERE {_extra_f}", _e, _n)
     for _s, _e, _n, _extra_f in _MAP_RCA_CONFIGS
 ]
 for (_s, _e, _n, _extra_f), _res in zip(_MAP_RCA_CONFIGS, carregar_paralelo(_chamadas_map_rca)):
@@ -72,6 +73,65 @@ arquivo['MES_STR'] = pd.to_datetime(arquivo[mes_col], errors='coerce').apply(
 )
 
 metas_com_nome = arquivo.merge(map_rca, on='RCA', how='left')
+
+# ── Vendedores OFF TRADE ativos sem meta na planilha ─────────────────────────
+# RCA OFF TRADE (RJ, BLOQUEIO != 'S') que não têm linha na METAS RJ.xlsx ainda
+# precisam aparecer no metas.html (ex.: RCA 283/Kessya) — sem meta, com zeros.
+# Consulta separada da `map_rca` acima: ESTADO/BLOQUEIO podem não existir em
+# todas as bases, e o objetivo aqui é só ACRESCENTAR vendedores, nunca alterar
+# o join principal (que já funciona pros vendedores com meta cadastrada).
+def _carregar_status_rca(_s, _e, _n, _extra_f):
+    try:
+        return carregar_dados(
+            f"SELECT CODUSUR AS RCA, NOME, TIPOVEND, ESTADO, BLOQUEIO FROM {_s}.PCUSUARI WHERE {_extra_f}",
+            _e, f"{_n}_status",
+        )
+    except Exception as _ex:
+        print(f"[AVISO] status_rca {_n} indisponível ({str(_ex)[:80]}) — sem detecção de vendedor sem meta nesta base")
+        return None
+
+_parts_status_rca = []
+with ThreadPoolExecutor(max_workers=len(_MAP_RCA_CONFIGS)) as _status_ex:
+    _status_futuros = {
+        _status_ex.submit(_carregar_status_rca, _s, _e, _n, _extra_f): _n
+        for _s, _e, _n, _extra_f in _MAP_RCA_CONFIGS
+    }
+    for _fut in as_completed(_status_futuros):
+        _df_status = _fut.result()
+        if _df_status is not None:
+            _parts_status_rca.append(_df_status)
+
+if _parts_status_rca:
+    _status_rca = pd.concat(_parts_status_rca, ignore_index=True)
+    _status_rca = _status_rca.drop_duplicates(subset=['RCA'])
+    _status_rca['RCA'] = pd.to_numeric(_status_rca['RCA'], errors='coerce')
+    _status_rca['ESTADO']   = _status_rca['ESTADO'].astype(str).str.strip().str.upper()
+    _status_rca['BLOQUEIO'] = _status_rca['BLOQUEIO'].astype(str).str.strip().str.upper()
+    _status_rca_ativos = _status_rca[
+        (_status_rca['ESTADO'] == 'RJ') & (_status_rca['BLOQUEIO'] != 'S')
+    ]
+
+    # Compara por NOME, não por RCA: o mesmo CODUSUR pode ser gente diferente
+    # em bases diferentes, e a mesma pessoa pode ter RCA diferente em cada
+    # base (mesmo motivo documentado em meta.nome_display_por_oracle) — RCA
+    # 91/419/417 (Viviani, Nátali, Dirlei) já têm meta cadastrada mas também
+    # existem sob outro RCA em outra base; comparar por RCA os tratava como
+    # "sem meta" e zerava a meta real deles (bug confirmado em 2026-08-04).
+    _nomes_com_meta = set(metas_com_nome['NOME'].dropna().unique())
+    _rca_sem_meta = _status_rca_ativos[
+        ~_status_rca_ativos['NOME'].isin(_nomes_com_meta)
+    ].drop_duplicates(subset=['NOME'])
+    if not _rca_sem_meta.empty:
+        _meses_disponiveis = arquivo['MES_STR'].dropna().unique().tolist()
+        _extras = [
+            {'RCA': _r['RCA'], 'NOME': _r['NOME'], 'TIPOVEND': _r.get('TIPOVEND'),
+             'VENDEDOR': _r['NOME'], 'MES_STR': _mes}
+            for _, _r in _rca_sem_meta.iterrows()
+            for _mes in _meses_disponiveis
+        ]
+        metas_com_nome = pd.concat([metas_com_nome, pd.DataFrame(_extras)], ignore_index=True)
+        print(f"OK {len(_rca_sem_meta)} vendedor(es) OFF TRADE ativo(s) sem meta cadastrada adicionados: "
+              f"{', '.join(_rca_sem_meta['NOME'].tolist())}")
 
 # ── Vendas históricas (6 meses) com FANTASIA ─────────────────────────────────
 
@@ -104,15 +164,15 @@ def _query_vendas_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=Non
             M.CODOPER,
             U.CODUSUR                       AS RCA,
             U.NOME                          AS NOME_ORACLE,
-            {offtrade_col}                  AS OFFTRADE
+            {offtrade_col}                  AS OFFTRADE,
+            CASE WHEN M.CODOPER = 'ED' OR M.NUMNOTADEV IS NOT NULL THEN 'S' ELSE 'N' END AS DEVOLVIDO
         FROM {s}.PCMOV M
         JOIN {s}.PCUSUARI U ON M.CODUSUR = U.CODUSUR
         LEFT JOIN {s}.PCCLIENT C ON M.CODCLI = C.CODCLI
         JOIN {s}.PCPRODUT P ON M.CODPROD = P.CODPROD
         JOIN {s}.PCFORNEC F ON P.CODFORNEC = F.CODFORNEC
         WHERE M.DTMOV >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -5)
-          AND M.CODOPER IN ('S', 'SB')
-          AND M.NUMNOTADEV IS NULL
+          AND M.CODOPER IN ('S', 'SB', 'ED')
           AND M.DTCANCEL IS NULL
           AND {nome_f}{extra_filial}{extra_estent}
     """
@@ -148,6 +208,7 @@ _vh['CLIENTE']  = _vh['CLIENTE'].fillna(_vh['CODCLI'])
 _vh['FANTASIA'] = _vh['FANTASIA'].fillna('')
 _vh['PRODUTO']  = _vh['PRODUTO'].fillna('')
 _vh['OFFTRADE'] = _vh['OFFTRADE'].fillna('N')
+_vh['DEVOLVIDO'] = _vh['DEVOLVIDO'].fillna('N') == 'S'
 
 # Oracle name → display name (ver meta.nome_display_por_oracle)
 _oracle_to_display = nome_display_por_oracle(metas_com_nome)
@@ -252,6 +313,14 @@ def _realizado_mes(df):
     if df.empty:
         return _zero
 
+    # Vendas devolvidas continuam aparecendo na listagem "Faturamento do mês"
+    # (destacadas em vermelho — pedido em 2026-08-03), mas não contam pra
+    # nenhum KPI/meta aqui, senão faturamento/positivação realizados subiriam
+    # com vendas que já foram estornadas.
+    df = df[~df['DEVOLVIDO']]
+    if df.empty:
+        return _zero
+
     def fat(mask=None):
         sub = df[mask] if mask is not None else df
         return float(sub['VALOR'].sum().round(2))
@@ -318,7 +387,7 @@ def _query_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=None, extr
         JOIN {s}.PCUSUARI U ON M.CODUSUR = U.CODUSUR
         LEFT JOIN {s}.PCCLIENT C ON M.CODCLI = C.CODCLI
         WHERE M.DTMOV >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -12)
-          AND M.CODOPER = 'S'
+          AND M.CODOPER IN ('S', 'SB')
           AND M.NUMNOTADEV IS NULL
           AND M.DTCANCEL IS NULL
           AND {nome_f}{extra_filial}{extra_estent}
@@ -446,6 +515,7 @@ for _, m in metas_com_nome.iterrows():
         vendedores_dict[nome_display] = {
             'nome': nome_display,
             'rca':  str(int(m['RCA'])) if pd.notna(m['RCA']) else '',
+            'tipovend': str(m.get('TIPOVEND') or '').strip().upper(),
             'por_mes': {},
             'clientes_cadastrados': _cadastros_por_display.get(nome_display, 0),
             'nao_positivados': _build_nao_pos(nome_oracle),
@@ -538,8 +608,9 @@ for _, row in _vh.iterrows():
         'fantasia': str(row['FANTASIA']),
         'qt':      int(row['QT']),
         'valor':   float(row['VALOR']),
-        'tipo':    'Bonificado' if str(row.get('CODOPER', 'S')).upper() == 'SB' else 'Venda',
+        'tipo':    {'SB': 'Bonificado', 'ED': 'Devolução'}.get(str(row.get('CODOPER', 'S')).upper(), 'Venda'),
         'offtrade': row['OFFTRADE'] == 'S',
+        'devolvido': bool(row['DEVOLVIDO']),
     })
 
 _rcas_map = {v['nome']: v['rca'] for v in vendedores_out}

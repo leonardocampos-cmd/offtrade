@@ -36,6 +36,8 @@ EMAILS_ADMIN = {
     "fernando.risson@rigarr.com.br",
     "erocles.oliveira@rigarr.com.br",
     "andre.massensini@rigarr.com.br",
+    "priscilla.zambrano@rigarr.com.br",
+    "anderson.canaveis@rigarr.com.br",
 }
 
 ORACLE_LIB = os.getenv("ORACLE_LIB", "/opt/oracle/instantclient_21_1")
@@ -173,7 +175,14 @@ def _show_login(cookies):
             redirect_uri=REDIRECT_URI,
             scope="openid email profile https://www.googleapis.com/auth/gmail.send",
             key="google_login",
-            extras_params={"prompt": "select_account"},
+            # access_type=offline + prompt=consent: sem isso o Google não
+            # devolve refresh_token, o access_token expira em ~1h e some sem
+            # como renovar — Credito_e_Cadastro.py (envio de e-mail com o
+            # token da própria pessoa) caía em 401 depois de uma sessão aberta
+            # por mais de 1h (confirmado em 2026-08-04). "consent" força a
+            # tela de consentimento de novo mesmo pra quem já autorizou antes,
+            # senão só entra em vigor pra login novo.
+            extras_params={"prompt": "select_account consent", "access_type": "offline"},
         )
     except Exception:
         st.query_params.clear()
@@ -183,6 +192,28 @@ def _show_login(cookies):
         cookies.set("offtrade_token", json.dumps(result["token"]))
         st.rerun()
     st.stop()
+
+
+def ensure_valid_token() -> dict:
+    """Garante um access_token válido em st.session_state["token"], renovando
+    via refresh_token se tiver expirado. Levanta RuntimeError (sem
+    refresh_token disponível — login de antes do access_type=offline entrar
+    em vigor) quando só reautenticação manual resolve; quem chama decide como
+    avisar o usuário."""
+    token = st.session_state.get("token") or {}
+    if not token:
+        raise RuntimeError("Sessão não autenticada.")
+    if token.get("expires_at") and token["expires_at"] < time.time():
+        if not token.get("refresh_token"):
+            raise RuntimeError("Sessão expirada — atualize a página e faça login de novo.")
+        oauth2 = OAuth2Component(CLIENT_ID, CLIENT_SECRET, AUTHORIZE_URL, TOKEN_URL, TOKEN_URL)
+        token = oauth2.refresh_token(token)
+        st.session_state["token"] = token
+        try:
+            CookieController().set("offtrade_token", json.dumps(token))
+        except Exception:
+            pass
+    return token
 
 
 def _resolve_rca():

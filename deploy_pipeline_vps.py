@@ -49,6 +49,7 @@ PIPELINE_FILES = [
     "campanha_crusoe.py",
     "requirements.txt",
     "metas_config.json",
+    "canhoto_status.json",
 ] + sorted(f.name for f in HERE.glob("exportacao_*.py"))
 
 # Credenciais OAuth ja autorizadas localmente (refresh_token evita novo login)

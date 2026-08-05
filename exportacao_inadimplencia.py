@@ -175,7 +175,7 @@ for _ano, _mes in _meses_recentes():
     _upper = _MESES_PT_STATUS[_mm]
     try:
         _caminho = _bpd.com_fallback(
-            lambda mm=_mm, up=_upper: _bpd.caminho_controle_notas(mm, up),
+            lambda mm=_mm, up=_upper, an=_ano: _bpd.caminho_controle_notas(mm, up, an),
             _caminho_controle_notas_local(_ano, _mm),
         )
         _abas = pd.read_excel(_caminho, sheet_name=None)

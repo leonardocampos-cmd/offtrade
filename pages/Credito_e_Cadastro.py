@@ -7,7 +7,7 @@ import pandas as pd
 import requests
 import urllib3
 
-from utils import inject_css, page_header, require_auth, get_conn, sql, fmt_brl
+from utils import inject_css, page_header, require_auth, get_conn, sql, fmt_brl, ensure_valid_token
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
@@ -42,7 +42,11 @@ def _enviar_whatsapp(mensagem: str):
 
 def _enviar_email(assunto: str, corpo: str):
     try:
-        token        = st.session_state.get("token", {})
+        try:
+            token = ensure_valid_token()
+        except RuntimeError as e:
+            st.warning(f"Erro ao enviar e-mail: {e}")
+            return
         access_token = token.get("access_token", "")
         remetente    = rca_info.get("email", "")
         msg          = MIMEText(corpo)
@@ -56,7 +60,9 @@ def _enviar_email(assunto: str, corpo: str):
             json={"raw": raw},
             timeout=10,
         )
-        if not r.ok:
+        if r.status_code == 401:
+            st.warning("Erro ao enviar e-mail: sessão expirada — atualize a página e faça login de novo.")
+        elif not r.ok:
             st.warning(f"Erro ao enviar e-mail: {r.status_code} — {r.text[:300]}")
     except Exception as e:
         st.warning(f"Erro ao enviar e-mail: {e}")
@@ -282,6 +288,8 @@ if busca:
                         else:
                             st.error("Digite apenas números.")
 
+                prazo_pagto_cad = st.selectbox("Prazo de pagamento (dias)", [7, 14, 21, 30, 45, 60, 90], index=3, key="prazo_cadastro")
+
                 if st.button("Solicitar cadastro por e-mail", disabled=not nome_rca):
                     from datetime import datetime as _dt
                     import zoneinfo as _zi
@@ -289,16 +297,17 @@ if busca:
                     _saudacao = "Bom dia" if _hora < 12 else ("Boa tarde" if _hora < 18 else "Boa noite")
                     dados_receita = _consultar_cnpj_receita(busca)
                     rca_linha     = f"RCA Solicitante  : {nome_rca} (cód. {codusur_input})"
+                    prazo_linha   = f"Prazo de Pagamento: {prazo_pagto_cad} dias"
                     if dados_receita:
                         corpo = (
                             f"{_saudacao},\n\nSolicito o cadastramento do cliente:\n\n"
-                            f"{rca_linha}\n\nDados da Receita Federal:\n\n{dados_receita}\n\n"
+                            f"{rca_linha}\n{prazo_linha}\n\nDados da Receita Federal:\n\n{dados_receita}\n\n"
                             f"Podem realizar o cadastro?\n\nObrigado!"
                         )
                     else:
                         corpo = (
                             f"{_saudacao},\n\nSolicito o cadastramento do cliente:\n\n"
-                            f"{rca_linha}\n\nNão foi possível obter dados da Receita Federal.\n\n"
+                            f"{rca_linha}\n{prazo_linha}\n\nNão foi possível obter dados da Receita Federal.\n\n"
                             f"Podem realizar o cadastro manualmente?\n\nObrigado!"
                         )
                     _enviar_email("Solicitação de Cadastro de Cliente", corpo)
@@ -356,7 +365,9 @@ Cód: {row["CODCLI"]} &nbsp;|&nbsp; CNPJ: {cnpj_fmt}
             )
 
             st.markdown("---")
-            valor_pedido = st.number_input("Valor do pedido (R$)", min_value=0.0, step=100.0, format="%.2f")
+            col_valor, col_prazo = st.columns(2)
+            valor_pedido = col_valor.number_input("Valor do pedido (R$)", min_value=0.0, step=100.0, format="%.2f")
+            prazo_pagto  = col_prazo.selectbox("Prazo de pagamento (dias)", [7, 14, 21, 30, 45, 60, 90], index=3)
 
             if bloqueado:
                 assunto   = f"Solicitação de Desbloqueio — {row['NOME']}"
@@ -365,20 +376,31 @@ Cód: {row["CODCLI"]} &nbsp;|&nbsp; CNPJ: {cnpj_fmt}
             else:
                 assunto     = f"Solicitação de Limite — {row['NOME']}"
                 valor_linha = f"Valor do Pedido    : {fmt_brl(valor_pedido)}" if valor_pedido > 0 else ""
+                prazo_linha = f"Prazo de Pagamento : {prazo_pagto} dias"
                 corpo       = (
                     f"Solicitação de aumento de limite de crédito.\n\n{info_cliente}\n"
                     + (f"{valor_linha}\n" if valor_linha else "")
+                    + f"{prazo_linha}\n"
                     + f"\nPodem realizar o ajuste?\n\nObrigado!"
                 )
                 label_btn = "Solicitar Aumento de Limite pelo WhatsApp"
 
-            msg_wa = urllib.parse.quote(f"{assunto}\n\n{corpo}")
-            st.markdown(
-                f'<a href="https://wa.me/{WHATSAPP_FINANCEIRO}?text={msg_wa}" target="_blank">'
-                f'<button style="width:100%;padding:.5rem;background:#25D366;color:white;border:none;'
-                f'border-radius:8px;font-size:1rem;cursor:pointer">📲 {label_btn}</button></a>',
-                unsafe_allow_html=True,
-            )
+            # Link fixo (<a href>) não é widget do Streamlit — não dispara rerun,
+            # então se o usuário digitar o valor e clicar direto no botão sem
+            # antes tirar o foco do campo (blur), o href some renderizado ainda
+            # com o valor antigo (0,00) da última rerun, e a mensagem sai sem o
+            # valor digitado. Corrigido com st.button: o clique nele já carrega
+            # o valor atual do number_input na mesma rerun, então o link só é
+            # montado (e mostrado) depois que o valor mais recente foi capturado.
+            if st.button(f"📲 {label_btn}", use_container_width=True):
+                msg_wa = urllib.parse.quote(f"{assunto}\n\n{corpo}")
+                wa_url = f"https://wa.me/{WHATSAPP_FINANCEIRO}?text={msg_wa}"
+                st.markdown(
+                    f'<a href="{wa_url}" target="_blank">'
+                    f'<button style="width:100%;padding:.5rem;background:#25D366;color:white;border:none;'
+                    f'border-radius:8px;font-size:1rem;cursor:pointer">✅ Clique aqui para abrir o WhatsApp</button></a>',
+                    unsafe_allow_html=True,
+                )
 
     except Exception as e:
         st.error(f"Erro: {e}")

@@ -6,6 +6,7 @@ from sqlalchemy import create_engine
 from datetime import datetime, date, timedelta
 import numpy as np
 import warnings
+from urllib.parse import quote_plus
 
 # Filtra avisos específicos do openpyxl
 warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl")
@@ -15,9 +16,15 @@ from utils import ORACLE_LIB
 oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
 user = os.environ["VPN_USER"]
 password = os.environ["VPN_PASSWORD"]
+# CRC_USER/CRC_PASSWORD é uma conta dedicada com grant em CRC.PCUSUARI (usada
+# em meta.py/login_api.py) — VPN_USER sozinho não enxerga essa tabela num JOIN
+# (ORA-00942 confirmado em 2026-08-04 ao juntar PBI_PCPEDI com PCUSUARI pra
+# filtrar por ESTADO do vendedor).
+crc_user = os.getenv("CRC_USER", user)
+crc_pass = os.getenv("CRC_PASSWORD", password)
 dsn = "crc_oci"
 engine = create_engine(
-    f'oracle+oracledb://{user}:{password}@{dsn}',
+    f'oracle+oracledb://{crc_user}:{quote_plus(crc_pass)}@{dsn}',
     pool_pre_ping=True,
     pool_recycle=3600,
     connect_args={"expire_time": 2}
@@ -34,10 +41,16 @@ tabela_preco_on = pd.read_excel(
     ),
     sheet_name='TABELA', skiprows=5, dtype=str
 )
-col_on_excluir = ['Unnamed: 0', 'COD BRASIL', 'PRODUTOS', 'CATEGORIA', 'FORNECEDOR', 'CX C/', 'PLT C/', 
+tabela_preco_on.columns = tabela_preco_on.columns.str.strip()
+col_on_excluir = ['Unnamed: 0', 'COD BRASIL', 'PRODUTOS', 'CATEGORIA', 'FORNECEDOR', 'PLT C/',
                   'CONDIÇÃO PROMO', 'BASE RECOMP.', 'EM FALTA?']
 tabela_preco_on.drop(columns=[c for c in col_on_excluir if c in tabela_preco_on.columns], inplace=True)
 tabela_preco_on['PREÇO'] = pd.to_numeric(tabela_preco_on['PREÇO'].str.replace(',', '.'), errors='coerce').round(2)
+tabela_preco_on['PREÇO PROMOCIONAL'] = pd.to_numeric(tabela_preco_on['PREÇO PROMOCIONAL'].str.replace(',', '.'), errors='coerce').round(2)
+# CX C/ só é numérico quando a embalagem é "caixa fechada" (ex.: "12"); formatos
+# como "2 unid"/"4 PACKS"/"-" ficam NaN e o LIMITADOR (que só existe pros SKUs
+# com CX C/ numérico) simplesmente não é aplicável nesses casos.
+tabela_preco_on['CX C/'] = pd.to_numeric(tabela_preco_on['CX C/'], errors='coerce')
 
 # --- TABELA PROMO ---
 tabela_promo = pd.read_excel(
@@ -48,17 +61,34 @@ tabela_promo = pd.read_excel(
     sheet_name='Plan1', dtype=str
 )
 tabela_promo['PREÇO PROMO'] = pd.to_numeric(tabela_promo['PREÇO PROMO'].str.replace(',', '.'), errors='coerce').round(2)
+# LIMITADOR hoje só aparece como "N CX POR SKU" — extrai o N; acima dessa
+# quantidade (em caixas) o PREÇO PROMO desse arquivo deixa de valer pra linha.
+tabela_promo['LIMITADOR_CX'] = pd.to_numeric(
+    tabela_promo['LIMITADOR'].str.extract(r'(\d+)', expand=False), errors='coerce'
+)
+# Alguns COD PROMO aparecem em 2 linhas com preços diferentes (promo antiga
+# esquecida na planilha) — fica com a menor (mais conservador: evita marcar
+# venda como "abaixo da tabela" por engano quando a promo válida é a barata).
+tabela_promo = tabela_promo.groupby('COD PROMO', as_index=False).agg(
+    {'PREÇO PROMO': 'min', 'LIMITADOR_CX': 'min'}
+)
 
 # 3. Extração de Dados do Banco (Query Corrigida para evitar duplicidade de PVENDA)
+# Join com PCUSUARI só pra filtrar por ESTADO do vendedor (PBI_PCPEDI não tem
+# essa coluna) — a TABELA DE PREÇO RJ.xlsx só vale pra vendedor RJ; sem esse
+# filtro, vendedor OFF TRADE de outro estado (ex.: ES) também entrava e era
+# comparado contra a tabela errada.
 tabela_mov = """
-    SELECT 
-        NUMPED, NUMNOTA, DATA, CLIENTE, CODPROD, 
-        ROUND(TOTAL / NULLIF(QT, 0), 2) AS PVENDA, 
-        DESCRICAO, NOME, QT, TOTAL, CODCOB
-    FROM CRC.PBI_PCPEDI
-    WHERE 
-        TRUNC(DATA, 'MM') = TRUNC(SYSDATE, 'MM')
-        AND NOME LIKE '%OFF TRADE%'   
+    SELECT
+        P.NUMPED, P.NUMNOTA, P.DATA, P.CLIENTE, P.CODPROD,
+        ROUND(P.TOTAL / NULLIF(P.QT, 0), 2) AS PVENDA,
+        P.DESCRICAO, P.NOME, P.QT, P.TOTAL, P.CODCOB
+    FROM CRC.PBI_PCPEDI P
+    JOIN CRC.PCUSUARI U ON P.CODUSUR = U.CODUSUR
+    WHERE
+        TRUNC(P.DATA, 'MM') = TRUNC(SYSDATE, 'MM')
+        AND P.NOME LIKE '%OFF TRADE%'
+        AND U.ESTADO = 'RJ'
 """
 df = carregar_dados(tabela_mov, engine, "conferencia_preco")
 profit = pd.read_excel(_bpd.com_fallback(
@@ -73,17 +103,26 @@ profit.drop(columns=['Unnamed: 0', 'PRODUTO', 'FORNECEDORA', 'TIPO',
 df.columns = df.columns.str.upper()
 df['CODPROD'] = df['CODPROD'].astype(str).str.strip()
 
-df = df.merge(tabela_preco_on[['COD CRC', 'PREÇO']], left_on='CODPROD', right_on='COD CRC', how='left')
-df = df.merge(tabela_promo[['COD PROMO', 'PREÇO PROMO']], left_on='CODPROD', right_on='COD PROMO', how='left')
+df = df.merge(tabela_preco_on[['COD CRC', 'PREÇO', 'PREÇO PROMOCIONAL', 'CX C/']], left_on='CODPROD', right_on='COD CRC', how='left')
+df = df.merge(tabela_promo[['COD PROMO', 'PREÇO PROMO', 'LIMITADOR_CX']], left_on='CODPROD', right_on='COD PROMO', how='left')
 profit['CODIGO'] = profit['CODIGO'].astype(str).str.strip()
 df = df.merge(profit[['CODIGO', 'CUSTO COM DESCONTO']], left_on='CODPROD', right_on='CODIGO', how='left')
 
 df = df.rename(columns={'PREÇO': 'PREÇO ON'})
 
+# Acima do LIMITADOR (ex.: "2 CX POR SKU"), o PREÇO PROMO da PREÇO PROMO.xlsx
+# deixa de valer pra linha — zera pra NaN antes de entrar na conferência.
+df['QT'] = pd.to_numeric(df['QT'], errors='coerce')
+_qt_em_caixas = df['QT'] / df['CX C/']
+_excede_limitador = df['LIMITADOR_CX'].notna() & _qt_em_caixas.notna() & (_qt_em_caixas > df['LIMITADOR_CX'])
+df.loc[_excede_limitador, 'PREÇO PROMO'] = np.nan
+
 def aplicar_conferencia(df_local):
 
-    df_local['MENOR_VALOR'] = df_local[['PREÇO ON', 'PREÇO PROMO']].min(axis=1).round(2)
-    df_local['MAIOR_VALOR'] = df_local[['PREÇO ON', 'PREÇO PROMO']].max(axis=1).round(2)
+    _precos_promo = ['PREÇO PROMO', 'PREÇO PROMOCIONAL']
+    df_local['MENOR_VALOR'] = df_local[['PREÇO ON'] + _precos_promo].min(axis=1).round(2)
+    df_local['MAIOR_VALOR'] = df_local[['PREÇO ON'] + _precos_promo].max(axis=1).round(2)
+    df_local['MELHOR_PROMO'] = df_local[_precos_promo].min(axis=1)
 
     def classificar(row):
         pv = row['PVENDA']
@@ -96,7 +135,7 @@ def aplicar_conferencia(df_local):
         if pd.notna(maior) and pv > maior:
             return 'ACIMA DA TABELA'
 
-        if pd.notna(row['PREÇO PROMO']) and pv <= row['PREÇO PROMO']:
+        if pd.notna(row['MELHOR_PROMO']) and pv <= row['MELHOR_PROMO']:
             return 'PREÇO PROMO'
 
         elif pd.notna(row['PREÇO ON']) and pv <= row['PREÇO ON']:

@@ -467,6 +467,17 @@
       border-radius: 4px;
       padding: 2px 7px;
     }
+    .tipovend-badge {
+      font-size: 0.65rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      border-radius: 4px;
+      padding: 2px 7px;
+      margin-left: 8px;
+    }
+    .tipovend-badge.tv-E { background: rgba(59,130,246,.15); color: #3b82f6; border: 1px solid rgba(59,130,246,.3); }
+    .tipovend-badge.tv-R { background: rgba(245,197,24,.15); color: var(--accent); border: 1px solid rgba(245,197,24,.3); }
     .campanha-nome {
       font-size: 1rem;
       font-weight: 700;
@@ -795,15 +806,15 @@ function buildVendasTable(lista) {
     return `<div class="vendas-empty">Nenhuma venda registrada este mês.</div>`;
   }
   const rows = lista.map(v => `
-    <tr>
+    <tr${v.devolvido ? ' style="background:rgba(239,68,68,.1)"' : ''}>
       <td class="vendas-date">${v.data || '—'}</td>
       <td>
         <div class="vendas-cli">${v.codcli ? v.codcli + ' · ' : ''}${v.cliente || '—'}</div>
-        <div class="vendas-prod">${v.produto || ''}${v.tipo === 'Bonificado' ? ' <span style="font-size:.62rem;background:rgba(34,197,94,.15);color:#22c55e;border:1px solid rgba(34,197,94,.3);border-radius:4px;padding:1px 5px;font-weight:700">BON</span>' : ''}</div>
+        <div class="vendas-prod" style="${v.devolvido ? 'color:#ef4444' : ''}">${v.produto || ''}${v.tipo === 'Bonificado' ? ' <span style="font-size:.62rem;background:rgba(34,197,94,.15);color:#22c55e;border:1px solid rgba(34,197,94,.3);border-radius:4px;padding:1px 5px;font-weight:700">BON</span>' : ''}${v.devolvido ? ' <span style="font-size:.62rem;background:rgba(239,68,68,.15);color:#ef4444;border:1px solid rgba(239,68,68,.3);border-radius:4px;padding:1px 5px;font-weight:700">DEVOLVIDO</span>' : ''}</div>
       </td>
       <td class="vendas-date" style="white-space:nowrap">${v.fantasia || '—'}</td>
       <td class="vendas-qt">${Number(v.qt).toLocaleString('pt-BR')}</td>
-      <td class="vendas-val">${fmtFat(v.valor)}</td>
+      <td class="vendas-val"${v.devolvido ? ' style="color:#ef4444"' : ''}>${fmtFat(v.valor)}</td>
     </tr>`).join('');
   return `
     <table class="vendas-table">
@@ -1155,9 +1166,9 @@ function exportarVendasCSV(nomeVendedor, mes) {
 
   const rows = [
     `VENDAS — ${nomeVendedor} — ${mes}`,
-    `Data${sep}CodCli${sep}Cliente${sep}Produto${sep}Fornecedor${sep}Tipo${sep}Quantidade${sep}Valor (R$)`,
+    `Data${sep}CodCli${sep}Cliente${sep}Produto${sep}Fornecedor${sep}Tipo${sep}Devolvido${sep}Quantidade${sep}Valor (R$)`,
     ...lista.map(s =>
-      `${s.data}${sep}${s.codcli || ''}${sep}${s.cliente}${sep}${s.produto}${sep}${s.fantasia || ''}${sep}${s.tipo || 'Venda'}${sep}${s.qt}${sep}${Number(s.valor).toFixed(2).replace('.', ',')}`
+      `${s.data}${sep}${s.codcli || ''}${sep}${s.cliente}${sep}${s.produto}${sep}${s.fantasia || ''}${sep}${s.tipo || 'Venda'}${sep}${s.devolvido ? 'Sim' : 'Não'}${sep}${s.qt}${sep}${Number(s.valor).toFixed(2).replace('.', ',')}`
     ),
   ];
 
@@ -1307,9 +1318,13 @@ function renderDetail(v, mes) {
 
   // ── Seção: Faturamento do mês ─────────────────────────────
   const _vendas  = _ordenarVendasDesc(_vendasDoMes(v.nome, mes));
-  const _fatVend = _vendas.reduce((s, x) => s + x.valor, 0);
-  const _nCli    = new Set(_vendas.filter(x => x.offtrade).map(x => x.codcli || x.cliente)).size;
-  const _nItens  = _vendas.reduce((s, x) => s + x.qt, 0);
+  // KPIs contam só vendas válidas — devolvidas ficam visíveis na tabela
+  // (destacadas em vermelho) mas não entram no faturamento/clientes/itens do
+  // topo, senão uma venda já estornada infla esses números.
+  const _vendasValidas = _vendas.filter(x => !x.devolvido);
+  const _fatVend = _vendasValidas.reduce((s, x) => s + x.valor, 0);
+  const _nCli    = new Set(_vendasValidas.filter(x => x.offtrade).map(x => x.codcli || x.cliente)).size;
+  const _nItens  = _vendasValidas.reduce((s, x) => s + x.qt, 0);
 
   const vendasHtml = `
     <div class="detail-card">
@@ -1344,7 +1359,7 @@ function renderDetail(v, mes) {
 
   // ── Seção: Não positivados ────────────────────────────────
   const _npList = (v.nao_positivados || []).filter(c => {
-    const _comprou = new Set(_vendasDoMes(v.nome, mes).map(s => s.cliente.trim().toUpperCase()));
+    const _comprou = new Set(_vendasDoMes(v.nome, mes).filter(s => !s.devolvido).map(s => s.cliente.trim().toUpperCase()));
     return !_comprou.has((c.CLIENTE || '').trim().toUpperCase());
   });
   const _nNP = _npList.length;
@@ -2042,19 +2057,28 @@ function _buildLinhaMeta(label, real, meta, tipo) {
 
 function _fatVendasMes(nomeVendedor, mes) {
   if (typeof VENDAS_DATA === 'undefined') return 0;
-  return ((VENDAS_DATA.por_vendedor[nomeVendedor] || {})[mes] || []).reduce((s, x) => s + x.valor, 0);
+  return ((VENDAS_DATA.por_vendedor[nomeVendedor] || {})[mes] || [])
+    .filter(x => !x.devolvido).reduce((s, x) => s + x.valor, 0);
 }
 
 function _posVendasMes(nomeVendedor, mes) {
   if (typeof VENDAS_DATA === 'undefined') return 0;
   const vendas = (VENDAS_DATA.por_vendedor[nomeVendedor] || {})[mes] || [];
-  return new Set(vendas.filter(x => x.offtrade).map(x => x.codcli || x.cliente)).size;
+  return new Set(vendas.filter(x => x.offtrade && !x.devolvido).map(x => x.codcli || x.cliente)).size;
 }
 
 function _fatOrdenacao(v, mes) {
   const pm   = _pm(v, mes);
   const fatM = _mv(pm, 'fat_tt', 'meta');
   return fatM > 0 ? _mv(pm, 'fat_tt', 'realizado') : _fatVendasMes(v.nome, mes);
+}
+
+// TIPOVEND vem da PCUSUARI (Oracle) — E = Vendedor Externo, R = Representante.
+// Outros valores (ex: I) não têm rótulo definido pro time, então não exibe badge.
+function _tipovendBadge(tipovend) {
+  const rotulos = { E: 'Externo', R: 'Representante' };
+  const rotulo = rotulos[tipovend];
+  return rotulo ? `<span class="tipovend-badge tv-${tipovend}">${rotulo}</span>` : '';
 }
 
 function _buildCards(vendedores, mes) {
@@ -2068,7 +2092,7 @@ function _buildCards(vendedores, mes) {
     const indus = _mv(pm, 'industrias', 'realizado');
     return `
       <div class="vendor-card" data-nome="${v.nome.toLowerCase()}" data-rca="${v.rca}">
-        <div class="vendor-name">${v.nome}</div>
+        <div class="vendor-name">${v.nome}${_tipovendBadge(v.tipovend)}</div>
         <div class="vendor-rca">RCA ${v.rca}</div>
         ${_buildLinhaMeta('Faturamento', fat, fatM, 'fat')}
         ${_buildLinhaMeta('Positivação', pos, posM, 'pos')}

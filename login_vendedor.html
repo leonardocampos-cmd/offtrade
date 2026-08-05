@@ -1,117 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <script src="vps_redirect.js"></script>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Acesso Vendedor — OfftradeHub</title>
-  <script src="vendedores_auth_data.js"></script>
-  <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    :root {
-      --bg: #0f1117; --card: #1a1d27; --accent: #f5c518;
-      --text: #e2e8f0; --muted: #94a3b8; --border: #2d3144; --red: #ef4444;
-    }
-    body {
-      background: var(--bg); color: var(--text);
-      font-family: 'Segoe UI', system-ui, sans-serif;
-      min-height: 100vh; display: flex; align-items: center; justify-content: center;
-      padding: 16px;
-    }
-    .box {
-      background: var(--card); border: 1px solid var(--border);
-      border-radius: 16px; padding: 40px 36px; width: 100%; max-width: 360px;
-      display: flex; flex-direction: column; align-items: center; gap: 22px;
-    }
-    .logo { font-size: 1.4rem; font-weight: 800; color: var(--accent); letter-spacing: -.02em; text-align: center; }
-    .logo span { color: var(--muted); font-weight: 400; font-size: .88rem; display: block; margin-top: 4px; }
-    form { width: 100%; display: flex; flex-direction: column; gap: 14px; }
-    .field { display: flex; flex-direction: column; gap: 7px; }
-    label { font-size: .75rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
-    input[type=number], input[type=password] {
-      width: 100%; padding: 12px 14px; border-radius: 8px;
-      border: 1px solid var(--border); background: var(--bg);
-      color: var(--text); font-size: 1.3rem; outline: none;
-      transition: border-color .15s; text-align: center;
-      font-family: inherit; font-weight: 700; letter-spacing: .12em;
-      -moz-appearance: textfield;
-    }
-    input[type=number]::-webkit-outer-spin-button,
-    input[type=number]::-webkit-inner-spin-button { -webkit-appearance: none; }
-    input[type=number]:focus, input[type=password]:focus { border-color: var(--accent); }
-    input::placeholder { font-weight: 400; font-size: .95rem; letter-spacing: normal; color: var(--muted); }
-    button {
-      width: 100%; padding: 11px; border-radius: 8px;
-      background: var(--accent); color: #111; font-size: .95rem;
-      font-weight: 700; border: none; cursor: pointer;
-      transition: background .15s; font-family: inherit;
-    }
-    button:hover { background: #d4a90e; }
-    .erro { font-size: .82rem; color: var(--red); text-align: center; min-height: 20px; line-height: 1.4; }
-    .back { color: var(--muted); font-size: .78rem; text-decoration: none; transition: color .15s; }
-    .back:hover { color: var(--text); }
-  </style>
 </head>
 <body>
-  <div class="box">
-    <div class="logo">OfftradeHub <span>Área do Vendedor</span></div>
-
-    <form id="form">
-      <div class="field">
-        <label for="rca">CODUSUR / RCA</label>
-        <input type="number" id="rca" placeholder="Ex: 275" autocomplete="off" autofocus>
-      </div>
-      <div class="field">
-        <label for="pin">Senha</label>
-        <input type="password" id="pin" placeholder="······" autocomplete="off">
-      </div>
-      <button type="submit">Entrar</button>
-      <div class="erro" id="erro"></div>
-    </form>
-
-    <a href="index.html" class="back">← Voltar ao painel</a>
-  </div>
-
-  <script>
-    const PIN_HASH = 'f263766e88cba0bf9dfeb6d8f7228a554058f71ac1cb1ca9b0bbfb322b2b7552';
-
-    // Já autenticado → vai direto
-    try {
-      const s = JSON.parse(sessionStorage.getItem('rg_vendedor') || '{}');
-      if (s.rca && s.nome) location.replace('metas.html?rca=' + encodeURIComponent(s.rca));
-    } catch {}
-
-    async function sha256(str) {
-      const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
-      return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
-    }
-
-    document.getElementById('form').addEventListener('submit', async e => {
-      e.preventDefault();
-      const rca = document.getElementById('rca').value.trim();
-      const pin = document.getElementById('pin').value;
-      const erro = document.getElementById('erro');
-      erro.textContent = '';
-
-      if (!rca) { erro.textContent = 'Digite seu CODUSUR.'; return; }
-      if (!pin)  { erro.textContent = 'Digite a senha.'; return; }
-
-      const vendedor = VENDEDORES_AUTH[rca];
-      if (!vendedor) { erro.textContent = 'CODUSUR não encontrado.'; return; }
-
-      const hash = await sha256(pin);
-      if (hash !== PIN_HASH) { erro.textContent = 'Senha incorreta.'; return; }
-
-      sessionStorage.setItem('rg_vendedor', JSON.stringify({
-        rca,
-        nome: vendedor.nome,
-        email: vendedor.email || '',
-      }));
-
-      const redir = sessionStorage.getItem('rg_redirect') || '';
-      sessionStorage.removeItem('rg_redirect');
-      location.replace(redir.includes('metas.html') ? redir : 'metas.html?rca=' + encodeURIComponent(rca));
-    });
-  </script>
+<!--
+  Página órfã (nenhuma outra página linkava pra ela) com um fluxo de login
+  RCA+senha duplicado do login.html, mas sem campo de e-mail — incompatível
+  com o desempate por e-mail que passou a ser necessário desde que CODUSUR
+  deixou de ser único entre estados (caso Jeter x Fabio, RCA 378, 2026-08-03)
+  e com a validação de senha real por vendedor (login_api.py). Redireciona
+  pro fluxo único e atualizado em vez de manter uma cópia divergente no ar.
+-->
+<script>location.replace('login.html' + location.search);</script>
 </body>
 </html>

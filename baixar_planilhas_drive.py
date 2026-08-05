@@ -155,26 +155,92 @@ def caminho_profit_rj() -> Path:
     )
 
 
-def caminho_controle_notas(mm: str, mes_upper: str) -> Path:
-    """Acha a planilha de Controle de Notas de um mês específico (nome varia:
-    '07 JULHO CONTROLE DE NOTAS.xlsx', '06 JUNHO - Controle de Notas 2026.xlsx' etc).
-    Busca por nome contendo o número do mês + 'controle de notas', cacheando
-    localmente por mês (mm_mes_upper.xlsx) para não rebaixar historico já usado."""
-    nome_saida = f"controle_notas_{mm}_{mes_upper.lower()}.xlsx"
+_PASTA_CONTROLE_NOTAS = ["LOGÍSTICA RJ", "APOIO LOGÍSTICO", "CONTROLE DE NOTAS"]
+_drives_cache: dict = {}
+
+
+def _resolver_drive_id(nome_drive: str) -> str:
+    """Acha o ID de um Drive Compartilhado pelo nome (ex: '01-Logística').
+    '01-Logística' é ele mesmo um Shared Drive, não uma pasta comum —
+    confirmado inspecionando service.drives().list()."""
+    if nome_drive in _drives_cache:
+        return _drives_cache[nome_drive]
+    service = _get_service()
+    resp = service.drives().list(pageSize=50).execute()
+    for d in resp.get("drives", []):
+        if d.get("name") == nome_drive:
+            _drives_cache[nome_drive] = d["id"]
+            return d["id"]
+    raise FileNotFoundError(f"Drive compartilhado '{nome_drive}' não encontrado.")
+
+
+def _resolver_pasta(nome: str, drive_id: str, pasta_pai_id: str = None) -> str:
+    service = _get_service()
+    escapado = nome.replace("'", "\\'")
+    query = f"name = '{escapado}' and mimeType = 'application/vnd.google-apps.folder' and trashed = false"
+    if pasta_pai_id:
+        query += f" and '{pasta_pai_id}' in parents"
+    resp = service.files().list(
+        q=query, corpora="drive", driveId=drive_id,
+        includeItemsFromAllDrives=True, supportsAllDrives=True,
+        fields="files(id, name)", pageSize=5,
+    ).execute()
+    achados = resp.get("files", [])
+    if not achados:
+        raise FileNotFoundError(f"Pasta '{nome}' não encontrada no Drive (dentro de {pasta_pai_id}).")
+    return achados[0]["id"]
+
+
+def _listar_arquivos_pasta(pasta_id: str, drive_id: str) -> list:
+    service = _get_service()
+    resp = service.files().list(
+        q=f"'{pasta_id}' in parents and trashed = false",
+        corpora="drive", driveId=drive_id,
+        includeItemsFromAllDrives=True, supportsAllDrives=True,
+        fields="files(id, name, modifiedTime)", orderBy="name", pageSize=20,
+    ).execute()
+    return resp.get("files", [])
+
+
+def caminho_controle_notas(mm: str, mes_upper: str, ano) -> Path:
+    """Acha a planilha de Controle de Notas de um mês/ano específico navegando
+    a pasta real no Drive (.../CONTROLE DE NOTAS/{ano}/{mm} {mes_upper}/) em
+    vez de buscar por nome em todo o Drive.
+
+    Antes buscava globalmente por 'name contains CONTROLE DE NOTAS' + mês —
+    isso pegava sem querer um arquivo de ano errado quando um decoy antigo
+    batia no filtro (ex: 'Controle de Notas - AGOSTO.2025.xlsx' sendo usado
+    como se fosse agosto/2026, porque a busca não filtrava por ano), e
+    também falhava quando o arquivo do mês foi renomeado sem o texto
+    'CONTROLE DE NOTAS' no nome (ex: agosto/2026 virou '8 AGOSTO.xlsx').
+    Navegar pela pasta certa evita as duas causas de uma vez — mesma lógica
+    do fallback local (_caminho_controle_notas_local), que já usa a pasta
+    do mês em vez de procurar pelo nome do arquivo."""
+    ano = str(ano)
+    nome_saida = f"controle_notas_{ano}_{mm}_{mes_upper.lower()}.xlsx"
     destino = CACHE_DIR / nome_saida
     CACHE_DIR.mkdir(exist_ok=True)
 
-    query = f"name contains 'CONTROLE DE NOTAS' and trashed = false"
+    drive_id = _resolver_drive_id("01-Logística")
+    pasta_id = None
+    for nome_pasta in _PASTA_CONTROLE_NOTAS + [ano, f"{mm} {mes_upper}"]:
+        pasta_id = _resolver_pasta(nome_pasta, drive_id, pasta_id)
+
     candidatos = [
-        f for f in _buscar(query)
-        if mm in f["name"] or mes_upper in f["name"].upper()
+        f for f in _listar_arquivos_pasta(pasta_id, drive_id)
+        if f["name"].lower().endswith(".xlsx")
     ]
     if not candidatos:
         if destino.exists():
             return destino
-        raise FileNotFoundError(f"Controle de Notas de {mes_upper} não encontrado no Drive.")
+        raise FileNotFoundError(f"Nenhuma planilha .xlsx na pasta Controle de Notas de {mes_upper}/{ano}.")
 
-    arquivo = candidatos[0]
+    # Prioriza arquivo com 'CONTROLE DE NOTAS' no nome (convenção mais comum);
+    # senão pega o primeiro em ordem alfabética — mesmo critério do fallback
+    # local (pasta_dir.glob("*.xlsx")[0]).
+    preferidos = [f for f in candidatos if "CONTROLE DE NOTAS" in f["name"].upper()]
+    arquivo = (preferidos or candidatos)[0]
+
     remoto_mtime = arquivo["modifiedTime"]
     marker = destino.with_suffix(destino.suffix + ".mtime")
     if destino.exists() and marker.exists() and marker.read_text().strip() == remoto_mtime:

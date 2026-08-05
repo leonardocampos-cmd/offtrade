@@ -39,6 +39,13 @@ df = pd.concat(_partes, ignore_index=True) if _partes else pd.DataFrame(
     columns=["CODUSUR", "NOME", "EMAIL", "EMAIL2", "ESTADO"]
 )
 
+### CODUSUR não é único entre os schemas — RJ e MG (por exemplo) já reutilizaram
+### o mesmo número para pessoas diferentes (confirmado em 2026-08-03: CODUSUR 378
+### é FABIO VALOTTI no CRC/RJ e JETER LUCIO SOARES no MGON/MG). Guardar um único
+### objeto por chave faz um sobrescrever o outro silenciosamente, e quem "ganha"
+### depende só da ordem/sucesso das consultas naquela rodada — foi o que deixou
+### o Jeter sem acesso mesmo estando cadastrado na fonte. Por isso cada CODUSUR
+### guarda uma LISTA de candidatos; login.html desempata pelo e-mail digitado.
 auth = {}
 for _, row in df.iterrows():
     try:
@@ -53,7 +60,9 @@ for _, row in df.iterrows():
     estado = "" if pd.isna(estado_raw) else str(estado_raw).strip().upper()
     nome   = (row.get("NOME") or "").strip()
     if codusur and email:
-        auth[codusur] = {"nome": nome, "email": email, "email2": email2, "estado": estado}
+        candidatos = auth.setdefault(codusur, [])
+        if not any(c["email"] == email and c["email2"] == email2 for c in candidatos):
+            candidatos.append({"nome": nome, "email": email, "email2": email2, "estado": estado})
 
 _out = Path("vendedores_auth_data.js")
 
