@@ -124,20 +124,16 @@ def main():
             print("[AVISO] baixar_planilhas_drive falhou — ignorado, pipeline continua.")
             traceback.print_exc()
 
-        step("1/8 - Carregando metas e vendas (Oracle + Excel)")
-        try:
-            import meta
-            meta.tabela_vendas  # força o carregamento pesado aqui (lazy por padrão, ver meta.py)
-        except Exception:
-            print("[AVISO] meta falhou — metas_data.js não será atualizado, pipeline continua.")
-            traceback.print_exc()
+        # step 1/8 (import meta + meta.tabela_vendas) removido — só existia
+        # pra pré-carregar meta.py antes do import exportacao_meta em
+        # processo, que também saiu daqui (ver abaixo). Sem consumidor
+        # in-process, virou trabalho pesado à toa em todo run.
 
-        step("2/8 - Exportando dashboard HTML (metas_data.js)")
-        try:
-            import exportacao_meta
-        except Exception:
-            print("[AVISO] exportacao_meta falhou — ignorado, pipeline continua.")
-            traceback.print_exc()
+        # exportacao_meta.py saiu daqui — roda sozinho a cada 15min via cron
+        # próprio na VPS (pedido em 2026-08-05, atualização mais frequente
+        # que o resto do pipeline). Rodar aqui também duplicaria a cada hora
+        # exatamente na mesma janela do cron de 15min, dois processos
+        # escrevendo metas_data.js/vendas_data.js ao mesmo tempo.
 
         step("3/8 - Metas Gerais por estado/indústria (metas_gerais_data.js)")
         try:
@@ -254,50 +250,9 @@ def main():
             print("[AVISO] email_pedidos falhou — ignorado, pipeline continua.")
             traceback.print_exc()
 
-        step("6/8 - Exportando dashboard SP (vendas_sp_data.js)")
-        try:
-            import subprocess, sys as _sys
-            result = subprocess.run(
-                [_sys.executable, "exportacao_sp.py"],
-                capture_output=True, text=True, timeout=600
-            )
-            print(result.stdout)
-            if result.returncode != 0:
-                print("[AVISO] exportacao_sp falhou — SP ignorado, pipeline continua.")
-                print(result.stderr)
-        except Exception:
-            print("[AVISO] exportacao_sp falhou — SP ignorado, pipeline continua.")
-            traceback.print_exc()
-
-        step("6b - Exportando dashboard ES (vendas_es_data.js)")
-        try:
-            import subprocess, sys as _sys
-            result = subprocess.run(
-                [_sys.executable, "exportacao_es.py"],
-                capture_output=True, text=True, timeout=600
-            )
-            print(result.stdout)
-            if result.returncode != 0:
-                print("[AVISO] exportacao_es falhou — ES ignorado, pipeline continua.")
-                print(result.stderr)
-        except Exception:
-            print("[AVISO] exportacao_es falhou — ES ignorado, pipeline continua.")
-            traceback.print_exc()
-
-        step("6c - Exportando dashboard MG (vendas_mg_data.js)")
-        try:
-            import subprocess, sys as _sys
-            result = subprocess.run(
-                [_sys.executable, "exportacao_mg.py"],
-                capture_output=True, text=True, timeout=600
-            )
-            print(result.stdout)
-            if result.returncode != 0:
-                print("[AVISO] exportacao_mg falhou — MG ignorado, pipeline continua.")
-                print(result.stderr)
-        except Exception:
-            print("[AVISO] exportacao_mg falhou — MG ignorado, pipeline continua.")
-            traceback.print_exc()
+        # exportacao_sp.py / exportacao_es.py / exportacao_mg.py saíram daqui
+        # pelo mesmo motivo do exportacao_meta.py acima — cron próprio de
+        # 15min na VPS (2026-08-05).
 
         step("7/9 - Nao positivados SP (nao_pos_sp_data.js)")
         try:
