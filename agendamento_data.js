@@ -24629,6 +24629,20 @@ const AGENDAMENTO_DATA = {
       "nome": "MATEUS CARDOSO - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "82069",
+          "cliente": "MERCADO IDEAL DE JACAREI LTDA",
+          "cnpj": "09.567.039/0001-60",
+          "filial": "MANGARATIBA",
+          "valor": 257.88,
+          "nf": "6517",
+          "data_agendamento": "06/08/2026",
+          "data_ord": "2026-08-06",
+          "status": "FATURADO",
+          "obs": "ROTA DE VIAGEM",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "78916",
           "cliente": "JM LISAMAR SUPERMERCADO LTDA",
           "cnpj": "17.386.414/0001-01",
@@ -24667,20 +24681,6 @@ const AGENDAMENTO_DATA = {
           "data_ord": "2026-07-30",
           "status": "ENTREGUE",
           "obs": "CLIENTE COM PRODUTOS EM ENCARTE",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "82069",
-          "cliente": "MERCADO IDEAL DE JACAREI LTDA",
-          "cnpj": "09.567.039/0001-60",
-          "filial": "MANGARATIBA",
-          "valor": 257.88,
-          "nf": "6517",
-          "data_agendamento": "30/07/2026",
-          "data_ord": "2026-07-30",
-          "status": "FATURADO",
-          "obs": "ROTA DE VIAGEM",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -25630,7 +25630,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "05/08/2026 15:00",
+  "atualizado_em": "05/08/2026 15:23",
   "comparativo": [
     {
       "msg_id": "19fd199567d6f7bc",
