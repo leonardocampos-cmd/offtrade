@@ -435,17 +435,16 @@ def back_button(url: str = "https://offtrade.duckdns.org/"):
     target="_blank" sozinho em qualquer link renderizado via HTML/markdown,
     mesmo sem eu pedir — sem sobrescrever, caía no mesmo bug do link_button.
 
-    Mesmo com target="_self" corrigido, ainda caía em login.html: o hub
-    estático (auth.js/index.html) usa um gate SEPARADO do Google OAuth do
-    Streamlit — sessionStorage['rg_auth'], setado por login.html só depois de
-    autenticar por lá. Uma aba nova (ou aberta direto no Streamlit, pulando
-    login.html) nunca teve esse valor setado, então auth.js manda pra
-    login.html de novo mesmo com a pessoa já logada aqui (confirmado em
-    2026-08-04). Marca o mesmo valor que login.html marca — mesma constante
-    pública no JS do site, não é segredo — antes de navegar."""
+    O hub estático (auth.js/index.html) usava um gate separado do Google
+    OAuth do Streamlit (sessionStorage['rg_auth'], setado só por login.html)
+    — uma aba que chegou direto no Streamlit nunca tinha esse valor, então
+    caía em login.html de novo mesmo autenticada. Tentei setar o
+    sessionStorage aqui via onclick, mas o sanitizador de HTML do
+    st.markdown remove atributos on* (proteção XSS) — nunca executava
+    (confirmado em 2026-08-04). Resolvido do lado de auth.js: agora ele
+    também aceita o cookie offtrade_token como prova de login."""
     st.markdown(
         f'<a href="{url}" target="_self" '
-        f'onclick="sessionStorage.setItem(\'rg_auth\',\'b4ba917b95850dc43cce91dba3be9fd1a4f029e18b81d6846a7183839c81d8dd\')" '
         f'style="display:inline-block;padding:.35rem 1rem;'
         f'margin-bottom:12px;background:var(--card);border:1px solid var(--border);'
         f'border-radius:8px;color:var(--text);text-decoration:none;'

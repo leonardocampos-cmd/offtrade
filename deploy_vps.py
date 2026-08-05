@@ -35,8 +35,14 @@ ROOT_FILES = [
 VPS_ORACLE_LIB = "/opt/oracle/instantclient_21_1"
 
 # Diretórios a sincronizar (recursivo)
+# "app_pages", não "pages": Streamlit auto-detecta QUALQUER pasta "pages/" e
+# monta o menu lateral sozinho com ela, ignorando a lista construída em
+# app.py via st.navigation()/st.Page() — foi exatamente essa auto-detecção
+# concorrente que impedia esconder "Admin Objetivos"/"app" do menu por
+# usuário (confirmado em 2026-08-04: st.navigation() nunca chegava a rodar
+# de novo pra link direto numa subpágina, então a pasta pages/ "vencia").
 SYNC_DIRS = [
-    "pages",
+    "app_pages",
     ".streamlit",
 ]
 
@@ -110,8 +116,10 @@ def deploy():
             sftp.put(str(local), f"{REMOTE_DIR}/{fname}")
             print(f"   {fname} -> {REMOTE_DIR}/{fname}")
 
-    print("\n-> Limpando pages/ remoto (evita sobras de páginas removidas)...")
-    ssh_run(client, f"rm -f {REMOTE_DIR}/pages/*.py", check=False)
+    print("\n-> Limpando app_pages/ remoto (evita sobras de páginas removidas)...")
+    ssh_run(client, f"rm -f {REMOTE_DIR}/app_pages/*.py", check=False)
+    print("-> Removendo pages/ antigo (nome mágico do Streamlit — não pode sobrar)...")
+    ssh_run(client, f"rm -rf {REMOTE_DIR}/pages", check=False)
 
     print("\n-> Sincronizando diretorios...")
     for d in SYNC_DIRS:

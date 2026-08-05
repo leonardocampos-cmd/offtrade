@@ -25,12 +25,12 @@ def _home():
     )
 
 
-_paginas = [st.Page("pages/Credito_e_Cadastro.py", title="Credito e Cadastro", icon="💳", url_path="Credito_e_Cadastro")]
+_paginas = [st.Page("app_pages/Credito_e_Cadastro.py", title="Credito e Cadastro", icon="💳", url_path="Credito_e_Cadastro")]
 if _is_super_admin:
     _paginas = (
         [st.Page(_home, title="app", icon="📊", url_path="app")]
         + _paginas
-        + [st.Page("pages/Admin_Objetivos.py", title="Admin Objetivos", icon="⚙️", url_path="Admin_Objetivos")]
+        + [st.Page("app_pages/Admin_Objetivos.py", title="Admin Objetivos", icon="⚙️", url_path="Admin_Objetivos")]
     )
 
 st.navigation(_paginas).run()
