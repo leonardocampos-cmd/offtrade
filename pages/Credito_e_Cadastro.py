@@ -221,7 +221,9 @@ if busca:
             cnpj_limpo       = re.sub(r"\D", "", busca)
             bloqueio_receita = False
 
-            if len(cnpj_limpo) == 14:
+            if len(cnpj_limpo) == 14 and not CHAVE_API_CNPJ:
+                st.warning("⚠️ CHAVE_API_CNPJ não configurada — consulta à Receita Federal desativada. Configure a variável no .env.")
+            elif len(cnpj_limpo) == 14:
                 try:
                     dados_rf     = _fetch_cnpj(cnpj_limpo)
                     company      = dados_rf.get("company", {})
