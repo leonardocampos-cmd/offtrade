@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "05/08/2026 14:36",
-  "total": 22350,
+  "atualizado_em": "05/08/2026 14:48",
+  "total": 22349,
   "clientes": [
     {
       "codcli": "38586",
@@ -347596,22 +347596,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "42.855.824/0001-93",
       "estado": "RJ",
       "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "54753",
-      "razao": "VILLA PARANAGUA HOTEL E SPA LTDA",
-      "fantasia": "VILLA PARANAGUA",
-      "bairro": "SANTA TERESA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "32.333.159/0001-14",
-      "estado": "RJ",
-      "ramo": "HOTELARIA",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
