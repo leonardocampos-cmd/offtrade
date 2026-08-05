@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "05/08/2026 16:59",
-  "total": 22346,
+  "atualizado_em": "05/08/2026 17:21",
+  "total": 22350,
   "clientes": [
     {
       "codcli": "38586",
@@ -29904,6 +29904,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52315",
+      "razao": "63.143.330 JACSON CAMARGO JUSTINO",
+      "fantasia": "JACSON CAMARGO JUSTINO",
+      "bairro": "JARDIM SANTA LÚCIA",
+      "cidade": "CAMPINAS",
+      "cnpj": "63.143.330/0001-56",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -131264,6 +131280,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52311",
+      "razao": "E. C. RESTAURANTE E EMPORIO LTDA",
+      "fantasia": "ENTRE CORTES",
+      "bairro": "NOVA PIRACICABA",
+      "cidade": "PIRACICABA",
+      "cnpj": "63.091.079/0001-23",
+      "estado": "SP",
+      "ramo": "BAR",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "425",
+      "nome_usur1": "BRUNO BARBOSA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -296192,6 +296224,38 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52313",
+      "razao": "RESTAURANTE E EMPORIO LAGO DO HOLANDES DELIVERY LTDA",
+      "fantasia": "RESTAURANTE E EMPORIO LAGO DO HOLANDES DELIVERY",
+      "bairro": "CENTRO",
+      "cidade": "HOLAMBRA",
+      "cnpj": "52.322.125/0001-31",
+      "estado": "SP",
+      "ramo": "DELIVERY",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "425",
+      "nome_usur1": "BRUNO BARBOSA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "37778",
+      "razao": "RESTAURANTE E EMPORIO LAGO DO HOLANDES LTDA",
+      "fantasia": "RESTAURANTE E EMPORIO LAGO DO HOLANDES",
+      "bairro": "CENTRO",
+      "cidade": "HOLAMBRA",
+      "cnpj": "39.743.918/0001-66",
+      "estado": "SP",
+      "ramo": "RESTAURANTE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "425",
+      "nome_usur1": "BRUNO BARBOSA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
