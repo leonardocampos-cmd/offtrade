@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "05/08/2026 15:51",
-  "total": 22348,
+  "atualizado_em": "05/08/2026 16:16",
+  "total": 22347,
   "clientes": [
     {
       "codcli": "38586",
@@ -4384,6 +4384,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52305",
+      "razao": "31.331.414 JOAO ENRIQUE DORTA NOGUEIRA",
+      "fantasia": "JOAO ENRIQUE DORTA NOGUEIRA",
+      "bairro": "NOVA PAULÍNIA",
+      "cidade": "PAULINIA",
+      "cnpj": "31.331.414/0001-27",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "525",
+      "nome_usur1": "EVANDRO DORTA \n- OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -36708,6 +36724,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "52308",
+      "razao": "ADEGA SERV FESTA BARAQUECABA LTDA",
+      "fantasia": "ADEGA SERV FESTA BARAQUECABA",
+      "bairro": "BAREQUEÇABA",
+      "cidade": "SAO SEBASTIAO",
+      "cnpj": "48.206.560/0001-23",
+      "estado": "SP",
+      "ramo": "CAFETERIA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "516",
+      "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "38816",
       "razao": "ADEGA SHENLONG",
       "fantasia": "DANIEL SIMÕES SILVA",
@@ -50674,22 +50706,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
-    },
-    {
-      "codcli": "81746",
-      "razao": "ANTONIO DE JESUS 07004615740",
-      "fantasia": "ANTONIO DE JESUS",
-      "bairro": "BANGU",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "26.832.760/0001-59",
-      "estado": "RJ",
-      "ramo": "EVENTOS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "34497",
@@ -188916,6 +188932,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "52307",
+      "razao": "JOSE E PINHEIRO BEBIDAS",
+      "fantasia": "JOSE E PINHEIRO BEBIDAS",
+      "bairro": "PARQUE CÍSPER",
+      "cidade": "SAO PAULO",
+      "cnpj": "24.855.410/0001-82",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "492",
+      "nome_usur1": "ANDERSON MOTTA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "38095",
       "razao": "JOSE EDIVAR RODRIGUES DOS SANTOS LTDA",
       "fantasia": "PIZZARIA E HAMBURGUERIA",
@@ -202418,22 +202450,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
-    },
-    {
-      "codcli": "86213",
-      "razao": "LBM NORDESTINO LTDA",
-      "fantasia": "MATUTO NORDESTINO",
-      "bairro": "GARDENIA AZUL",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "58.407.145/0001-91",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "37039",
@@ -283412,22 +283428,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "84862",
-      "razao": "PROLIMP COMERCIO DE PRODUTOS DE LIMPEZA LTDA",
-      "fantasia": "PROLIMP",
-      "bairro": "NEVES",
-      "cidade": "SAO GONCALO",
-      "cnpj": "09.485.924/0001-08",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "34830",
       "razao": "PROMORAR INCORPORACAO E SERVICOS TECNICOS LTDA",
       "fantasia": "PROMORAR INCORPORACAO",
@@ -330704,22 +330704,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "35912",
-      "razao": "SÁVIO DA COSTA FAJARDO NETO",
-      "fantasia": "SÁVIO DA COSTA FAJARDO NETO",
-      "bairro": "CENTRO",
-      "cidade": "JUIZ DE FORA",
-      "cnpj": "127.186.016-39",
-      "estado": "MG",
-      "ramo": "PESSOA FISICA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
       "codusur2": "",
       "nome_usur2": ""
     },
