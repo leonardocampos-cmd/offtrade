@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "05/08/2026 17:20",
+  "atualizado_em": "05/08/2026 17:42",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -8799,6 +8799,56 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
+        "codcli": "76883",
+        "cliente": "MERCADO SANTO AGOSTINHO LTDA",
+        "bairro": "BARRA DA TIJUCA",
+        "dtultcomp": "02/05/2026",
+        "produtos": [
+          {
+            "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 2,
+            "valor": 189.4
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 2,
+            "valor": 189.4
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 2,
+            "valor": 189.4
+          },
+          {
+            "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+            "fantasia": "TATUZINHO",
+            "qt": 2,
+            "valor": 175.2
+          },
+          {
+            "produto": "MOVING JUICE PROTEIN UVA 12X300ML",
+            "fantasia": "TATUZINHO",
+            "qt": 2,
+            "valor": 175.2
+          },
+          {
+            "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 98.7
+          },
+          {
+            "produto": "ST PIERRE ZERO LATA GREEN APPLE 24X310ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 98.7
+          }
+        ]
+      },
+      {
         "codcli": "84950",
         "cliente": "CRISTIANO F. DE SOUSA MERCADO, PADARIA E ACOUGUE",
         "bairro": "GARDENIA AZUL",
@@ -10159,9 +10209,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95806",
+        "codcli": "95805",
         "cliente": "GUARATIBA SUPERMERCADO & ALIMENTOS LTDA",
-        "bairro": "GUARATIBA",
+        "bairro": "BARRA DE GUARATIBA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -10173,9 +10223,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95805",
+        "codcli": "95806",
         "cliente": "GUARATIBA SUPERMERCADO & ALIMENTOS LTDA",
-        "bairro": "BARRA DE GUARATIBA",
+        "bairro": "GUARATIBA",
         "dtultcomp": "nan",
         "produtos": []
       },
