@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "05/08/2026 14:24",
+  "atualizado_em": "05/08/2026 14:36",
   "total": 22350,
   "clientes": [
     {
@@ -526,8 +526,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "BAR",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "439",
+      "nome_usur1": "MATEUS CARDOSO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -187620,22 +187620,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "RODRIGO FREITAS"
     },
     {
-      "codcli": "94651",
-      "razao": "JOO VITOR PRATTI",
-      "fantasia": "DISTRIBUIDORA PREO BOM",
-      "bairro": "ITANGUA",
-      "cidade": "CARIACICA",
-      "cnpj": "138.345.877-45",
-      "estado": "ES",
-      "ramo": "PESSOA FISICA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "50938",
       "razao": "JOPRA'S SANDWICH & BURGER LTDA",
       "fantasia": "JOPRA'S SANDWICH & BURGER",
@@ -256398,8 +256382,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "439",
+      "nome_usur1": "MATEUS CARDOSO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -331184,6 +331168,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51244",
+      "razao": "T.BELEM ATACADISTA E SUPERMERCADO",
+      "fantasia": "T.BELEM ATACADISTA E SUPERMERCADO",
+      "bairro": "CENTRO",
+      "cidade": "BOTUCATU",
+      "cnpj": "44.703.364/0001-03",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
