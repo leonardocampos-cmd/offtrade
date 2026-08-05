@@ -1,5 +1,5 @@
 const CLIENTES_588_DATA = {
-  "atualizado_em": "05/08/2026 14:24",
+  "atualizado_em": "05/08/2026 14:37",
   "rca_ref": 588,
   "periodo_fid": "Jan/26 – Abr/26",
   "mes_migracao": "Mai/26",
@@ -400,12 +400,6 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "18/05/2026",
-              "PRODUTO": "BEEFEATER PINK 700ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 3894.0
-            },
-            {
-              "DATA": "18/05/2026",
               "PRODUTO": "GIN MONKEY 47 500ML",
               "FANTASIA": "PERNOD",
               "VALOR": 1428.0
@@ -415,6 +409,12 @@ const CLIENTES_588_DATA = {
               "PRODUTO": "RUM HAVANA CLUB 3 YEARS OLD 700 ML",
               "FANTASIA": "PERNOD",
               "VALOR": 3954.0
+            },
+            {
+              "DATA": "18/05/2026",
+              "PRODUTO": "BEEFEATER PINK 700ML",
+              "FANTASIA": "PERNOD",
+              "VALOR": 3894.0
             },
             {
               "DATA": "19/05/2026",
@@ -713,15 +713,15 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "21/05/2026",
-              "PRODUTO": "CONHAQUE DOMECQ 1L",
-              "FANTASIA": "PERNOD",
-              "VALOR": 65969.28
-            },
-            {
-              "DATA": "21/05/2026",
               "PRODUTO": "TEQUILA J CUERVO GOLD 750ML",
               "FANTASIA": "AURORA",
               "VALOR": 10273.2
+            },
+            {
+              "DATA": "21/05/2026",
+              "PRODUTO": "CONHAQUE DOMECQ 1L",
+              "FANTASIA": "PERNOD",
+              "VALOR": 65969.28
             },
             {
               "DATA": "28/05/2026",
