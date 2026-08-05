@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "05/08/2026 15:25",
+  "atualizado_em": "05/08/2026 15:51",
   "total": 22348,
   "clientes": [
     {
@@ -89344,6 +89344,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52304",
+      "razao": "CARLOS ANDRE FRANCELINO DA SILVA - ADEGA TUBARAO",
+      "fantasia": "CARLOS ANDRE FRANCELINO DA SILVA - ADEGA TUBARAO",
+      "bairro": "JARDIM SÃO GERÔNIMO (NOVA VENEZA)",
+      "cidade": "SUMARE",
+      "cnpj": "42.655.458/0001-29",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -332924,22 +332940,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "013.528.636-00",
       "estado": "MG",
       "ramo": "PESSOA FISICA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "31522",
-      "razao": "TARDEZINHA BEER LTDA.",
-      "fantasia": "TARDEZINHA BEER LTDA.",
-      "bairro": "SANTA CRUZ INDUSTRIAL",
-      "cidade": "CONTAGEM",
-      "cnpj": "47.563.451/0001-09",
-      "estado": "MG",
-      "ramo": "BAR",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
