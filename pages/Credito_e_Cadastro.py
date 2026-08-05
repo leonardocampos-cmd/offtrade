@@ -18,7 +18,8 @@ rca_info = require_auth()
 page_header("Crédito e Cadastro de Cliente", "OfftradeHub · Off Trade")
 
 SCHEMA             = "CRC"
-EMAIL_FINANCEIRO   = "cadastro@rigarr.com.br"
+EMAIL_FINANCEIRO   = "leonardo.campos@rigarr.com.br"  # TEMP: teste — reverter pra cadastro@rigarr.com.br
+EMAIL_CADASTRO_CC  = "offtrade@rigarr.com.br"
 WHATSAPP_FINANCEIRO = "5521964384318"
 CHAVE_API_CNPJ     = os.getenv("CHAVE_API_CNPJ", "")
 EVOLUTION_API_URL  = os.getenv("EVOLUTION_API_URL", os.getenv("EVOLUTION_BASE_URL", ""))
@@ -40,7 +41,7 @@ def _enviar_whatsapp(mensagem: str):
         pass
 
 
-def _enviar_email(assunto: str, corpo: str):
+def _enviar_email(assunto: str, corpo: str, cc: str = None):
     try:
         try:
             token = ensure_valid_token()
@@ -53,6 +54,8 @@ def _enviar_email(assunto: str, corpo: str):
         msg["Subject"] = assunto
         msg["From"]    = remetente
         msg["To"]      = EMAIL_FINANCEIRO
+        if cc:
+            msg["Cc"] = cc
         raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
         r = requests.post(
             "https://gmail.googleapis.com/gmail/v1/users/me/messages/send",
@@ -221,7 +224,19 @@ if busca:
             cnpj_limpo       = re.sub(r"\D", "", busca)
             bloqueio_receita = False
 
-            if len(cnpj_limpo) == 14 and not CHAVE_API_CNPJ:
+            if len(cnpj_limpo) in (12, 13):
+                # Perto do tamanho de CNPJ (14) mas não exatamente — sem isso
+                # caía direto no ramo "senão é código de cliente" (linha
+                # abaixo em _buscar_cliente), nunca batia com nada e o
+                # usuário só via "Cliente não cadastrado" sem saber que o
+                # número em si tava incompleto (confirmado em 2026-08-04,
+                # caso 3417024800012 — 13 dígitos, sem bater nem como CNPJ
+                # com zero à esquerda nem como código de cliente).
+                st.warning(
+                    f'⚠️ "{busca}" tem {len(cnpj_limpo)} dígitos — CNPJ tem 14. '
+                    "Confira se não falta algum dígito (ex: zero à esquerda) antes de prosseguir."
+                )
+            elif len(cnpj_limpo) == 14 and not CHAVE_API_CNPJ:
                 st.warning("⚠️ CHAVE_API_CNPJ não configurada — consulta à Receita Federal desativada. Configure a variável no .env.")
             elif len(cnpj_limpo) == 14:
                 try:
@@ -290,8 +305,6 @@ if busca:
                         else:
                             st.error("Digite apenas números.")
 
-                prazo_pagto_cad = st.selectbox("Prazo de pagamento (dias)", [7, 14, 21, 30, 45, 60, 90], index=3, key="prazo_cadastro")
-
                 if st.button("Solicitar cadastro por e-mail", disabled=not nome_rca):
                     from datetime import datetime as _dt
                     import zoneinfo as _zi
@@ -299,20 +312,19 @@ if busca:
                     _saudacao = "Bom dia" if _hora < 12 else ("Boa tarde" if _hora < 18 else "Boa noite")
                     dados_receita = _consultar_cnpj_receita(busca)
                     rca_linha     = f"RCA Solicitante  : {nome_rca} (cód. {codusur_input})"
-                    prazo_linha   = f"Prazo de Pagamento: {prazo_pagto_cad} dias"
                     if dados_receita:
                         corpo = (
                             f"{_saudacao},\n\nSolicito o cadastramento do cliente:\n\n"
-                            f"{rca_linha}\n{prazo_linha}\n\nDados da Receita Federal:\n\n{dados_receita}\n\n"
+                            f"{rca_linha}\n\nDados da Receita Federal:\n\n{dados_receita}\n\n"
                             f"Podem realizar o cadastro?\n\nObrigado!"
                         )
                     else:
                         corpo = (
                             f"{_saudacao},\n\nSolicito o cadastramento do cliente:\n\n"
-                            f"{rca_linha}\n{prazo_linha}\n\nNão foi possível obter dados da Receita Federal.\n\n"
+                            f"{rca_linha}\n\nNão foi possível obter dados da Receita Federal.\n\n"
                             f"Podem realizar o cadastro manualmente?\n\nObrigado!"
                         )
-                    _enviar_email("Solicitação de Cadastro de Cliente", corpo)
+                    _enviar_email("Solicitação de Cadastro de Cliente", corpo, cc=EMAIL_CADASTRO_CC)
                     st.success("Solicitação enviada ao time de cadastro.")
 
         else:

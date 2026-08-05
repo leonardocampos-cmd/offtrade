@@ -205,6 +205,17 @@ def ensure_valid_token() -> dict:
         raise RuntimeError("Sessão não autenticada.")
     if token.get("expires_at") and token["expires_at"] < time.time():
         if not token.get("refresh_token"):
+            # Sem isso, "atualizar a página" não resolvia nada: o cookie
+            # offtrade_token ainda tinha o token velho (sem refresh_token) e
+            # require_auth() recarregava ele mesmo, pulando a tela de login —
+            # a pessoa ficava presa num loop do mesmo erro (confirmado em
+            # 2026-08-04). Limpa sessão + cookie aqui pra próxima carga da
+            # página realmente cair na tela de "Entrar com Google".
+            st.session_state.pop("token", None)
+            try:
+                CookieController().remove("offtrade_token")
+            except Exception:
+                pass
             raise RuntimeError("Sessão expirada — atualize a página e faça login de novo.")
         oauth2 = OAuth2Component(CLIENT_ID, CLIENT_SECRET, AUTHORIZE_URL, TOKEN_URL, TOKEN_URL)
         token = oauth2.refresh_token(token)
