@@ -18,7 +18,7 @@ rca_info = require_auth()
 page_header("Crédito e Cadastro de Cliente", "OfftradeHub · Off Trade")
 
 SCHEMA             = "CRC"
-EMAIL_FINANCEIRO   = "leonardo.campos@rigarr.com.br"  # TEMP: teste — reverter pra cadastro@rigarr.com.br
+EMAIL_FINANCEIRO   = "cadastro@rigarr.com.br"
 EMAIL_CADASTRO_CC  = "offtrade@rigarr.com.br"
 WHATSAPP_FINANCEIRO = "5521964384318"
 CHAVE_API_CNPJ     = os.getenv("CHAVE_API_CNPJ", "")
@@ -66,7 +66,18 @@ def _enviar_email(assunto: str, corpo: str, cc: str = None) -> bool:
             timeout=10,
         )
         if r.status_code == 401:
-            st.warning("Erro ao enviar e-mail: sessão expirada — atualize a página e faça login de novo.")
+            # Token passou pela checagem de validade em ensure_valid_token()
+            # mas o Gmail recusou mesmo assim (ex: revogado manualmente,
+            # relógio do servidor dessincronizado) — limpa a sessão igual a
+            # ensure_valid_token() faz no caso "sem refresh_token", senão
+            # "atualizar a página" não resolve (mesmo motivo do outro caso).
+            st.session_state.pop("token", None)
+            try:
+                from streamlit_cookies_controller import CookieController
+                CookieController().remove("offtrade_token")
+            except Exception:
+                pass
+            st.warning("Erro ao enviar e-mail: Gmail recusou o token (revogado?) — atualize a página e faça login de novo.")
             return False
         elif not r.ok:
             st.warning(f"Erro ao enviar e-mail: {r.status_code} — {r.text[:300]}")

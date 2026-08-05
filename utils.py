@@ -216,9 +216,20 @@ def ensure_valid_token() -> dict:
                 CookieController().remove("offtrade_token")
             except Exception:
                 pass
-            raise RuntimeError("Sessão expirada — atualize a página e faça login de novo.")
+            raise RuntimeError("Sessão expirada — sem permissão de renovação automática. Atualize a página e faça login de novo.")
         oauth2 = OAuth2Component(CLIENT_ID, CLIENT_SECRET, AUTHORIZE_URL, TOKEN_URL, TOKEN_URL)
-        token = oauth2.refresh_token(token)
+        try:
+            token = oauth2.refresh_token(token)
+        except Exception as e:
+            # Refresh_token existia mas o Google recusou renovar (revogado,
+            # client secret trocado, etc.) — antes essa exceção vazava sem
+            # mensagem clara pro chamador.
+            st.session_state.pop("token", None)
+            try:
+                CookieController().remove("offtrade_token")
+            except Exception:
+                pass
+            raise RuntimeError(f"Falha ao renovar sessão ({str(e)[:150]}). Atualize a página e faça login de novo.")
         st.session_state["token"] = token
         try:
             CookieController().set("offtrade_token", json.dumps(token))
