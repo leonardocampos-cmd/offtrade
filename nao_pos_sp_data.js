@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "05/08/2026 15:00",
+  "atualizado_em": "05/08/2026 15:24",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -23443,9 +23443,23 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
+        "codcli": "52301",
+        "cliente": "CLAUDIO FRANCISCO DA SILVA 31361468831",
+        "bairro": "JARDIM BOA ESPERANÇA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "51773",
         "cliente": "ESTANCIA SANTA CLARA LTDA",
         "bairro": "CACHOEIRA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52300",
+        "cliente": "FAMILIA GOES PIZZARIA ELIPSE LTDA",
+        "bairro": "JARDIM EMÍLIA",
         "dtultcomp": "nan",
         "produtos": []
       },
