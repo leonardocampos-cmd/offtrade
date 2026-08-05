@@ -1,5 +1,5 @@
 const CLIENTES_588_DATA = {
-  "atualizado_em": "05/08/2026 16:16",
+  "atualizado_em": "05/08/2026 16:39",
   "rca_ref": 588,
   "periodo_fid": "Jan/26 – Abr/26",
   "mes_migracao": "Mai/26",
@@ -1712,12 +1712,6 @@ const CLIENTES_588_DATA = {
             },
             {
               "DATA": "07/05/2026",
-              "PRODUTO": "WHISKY ROYAL SALUTE 700 ML",
-              "FANTASIA": "PERNOD",
-              "VALOR": 3449.4
-            },
-            {
-              "DATA": "07/05/2026",
               "PRODUTO": "WHISKY JACK DANIELS BONDED 700ML",
               "FANTASIA": "BROWN",
               "VALOR": 959.4
@@ -1733,6 +1727,12 @@ const CLIENTES_588_DATA = {
               "PRODUTO": "WHISKY JAMESON CASKMATES IPA EDIT 750ML",
               "FANTASIA": "PERNOD",
               "VALOR": 888.0
+            },
+            {
+              "DATA": "07/05/2026",
+              "PRODUTO": "WHISKY ROYAL SALUTE 700 ML",
+              "FANTASIA": "PERNOD",
+              "VALOR": 3449.4
             },
             {
               "DATA": "07/05/2026",
