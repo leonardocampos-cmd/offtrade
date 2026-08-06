@@ -72,6 +72,14 @@ arquivo['RCA'] = pd.to_numeric(arquivo['RCA'], errors='coerce')
 
 metas_escopo = arquivo[arquivo['CONTRATO'].isin(CONTRATOS_ESCOPO)].copy()
 
+# METAS RJ.xlsx tem gente marcada com CONTRATO=EXECUTIVOS RJ que na verdade
+# não é executivo de vendas (ex.: VIVIANI ALVES/ALLAN PAES são gerência,
+# usam regra de comissão própria fora do escopo desta página — confirmado
+# em 2026-08-05: todas as colunas PESO desses dois vêm zeradas na
+# planilha, diferente de um executivo de verdade, cujos pesos somam 1).
+_peso_cols = [c for c in metas_escopo.columns if str(c).startswith('PESO')]
+metas_escopo = metas_escopo[metas_escopo[_peso_cols].sum(axis=1) > 0]
+
 mes_alvo = metas_escopo['MES'].max()
 metas_mes = metas_escopo[metas_escopo['MES'] == mes_alvo].copy() if pd.notna(mes_alvo) else metas_escopo.iloc[0:0]
 
@@ -141,6 +149,13 @@ if _mes_alvo_iso:
 
 def _query_liquidado(schema):
     s = schema.upper()
+    # LIQ. RIGARR: soma do PCPREST.VPAGO pago dentro do mês-alvo. Tentativa
+    # de reproduzir a metodologia oficial (duplicatas EMITIDAS no mês, via
+    # DTEMISSAO) gerou valores negativos e muito distantes do Excel
+    # (comparado em 2026-08-05) — a base tem estornos/cancelamentos que o
+    # processo oficial exclui de um jeito que não dá pra reproduzir só
+    # olhando as colunas cruas do PCPREST. Fica esta aproximação mais
+    # simples (ainda uma ESTIMATIVA, ver aviso na página).
     return f"""
         SELECT PCUSUARI.NOME AS VENDEDOR, SUM(PCPREST.VPAGO) AS LIQUIDADO
         FROM {s}.PCPREST
@@ -233,7 +248,12 @@ for _, m in metas_mes.iterrows():
         peso_v = safe_float(m.get(col_peso))
         realizado_v = calc_realizado(df_v)
         ating_meta = round(realizado_v / meta_v, 6) if meta_v > 0 else 0.0
-        ating_acumulado = round(ating_meta * peso_v, 6)
+        # Estourar uma sub-meta não infla o total: a contribuição de cada
+        # linha pro ating. acumulado é limitada ao seu próprio peso (mesmo
+        # comportamento do Excel oficial — confirmado em 2026-08-05
+        # comparando Maria Luiza: G20=169% de atingimento em FATURAMENTO,
+        # mas H20 trava em 0.7, o peso da linha, não em 0.7*1.69).
+        ating_acumulado = round(min(ating_meta, 1.0) * peso_v, 6)
         total_ating_acumulado += ating_acumulado
         if label == "FATURAMENTO CASTAS":
             fat_castas_realizado = realizado_v
