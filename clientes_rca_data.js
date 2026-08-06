@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "05/08/2026 18:06",
-  "total": 22348,
+  "atualizado_em": "06/08/2026 10:09",
+  "total": 22350,
   "clientes": [
     {
       "codcli": "38586",
@@ -40848,6 +40848,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "92356",
+      "razao": "ALD COMERCIO DE ALIMENTOS LTDA",
+      "fantasia": "ALD COMERCIO DE ALIMENTOS LTDA",
+      "bairro": "BIGORRILHO",
+      "cidade": "CURITIBA",
+      "cnpj": "67.064.620/0001-65",
+      "estado": "PR",
+      "ramo": "RESTAURANTE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "91",
+      "nome_usur1": "VIVIANI ALVES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -107556,6 +107572,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "52317",
+      "razao": "CONVEN MAIS EXPRESS LTDA",
+      "fantasia": "CONVEN MAIS EXPRESS",
+      "bairro": "JARDIM CLARICE I",
+      "cidade": "VOTORANTIM",
+      "cnpj": "41.647.633/0001-73",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "83362",
       "razao": "CONVENDUCK COMERCIO DE LANCHES E GENEROS ALIMENTICIOS LTDA",
       "fantasia": "CONVENDUCK COMERCIO DE LANCHES",
@@ -137335,7 +137367,7 @@ const CLIENTES_RCA_DATA = {
       "codcli": "24196",
       "razao": "EMERSON SOARES DE SOUZA",
       "fantasia": "MORADA DO DRINK",
-      "bairro": "CASA VERDE",
+      "bairro": "JARDIM DAS LARANJEIRAS",
       "cidade": "SAO PAULO",
       "cnpj": "32.491.066/0001-18",
       "estado": "SP",
@@ -150416,6 +150448,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "50108",
+      "razao": "FERNANDA MONTANHA COCKTAIL BAR LTDA",
+      "fantasia": "FERNANDA MONTANHA COCKTAIL BAR",
+      "bairro": "JARDIM BOM PASTOR",
+      "cidade": "BOTUCATU",
+      "cnpj": "14.830.648/0001-08",
+      "estado": "SP",
+      "ramo": "BAR",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "476",
+      "nome_usur1": "RODRIGO LIMA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -220020,22 +220068,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "37570",
-      "razao": "MANZA DRINKS LTDA",
-      "fantasia": "MANZA DRINKS",
-      "bairro": "BURITIS",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "60.619.284/0001-20",
-      "estado": "MG",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "91115",
       "razao": "MAPAL COMERCIAL DE ALIMENTOS LTDA",
       "fantasia": "SUPERMERCADO SANTO ANTONIO",
@@ -236046,8 +236078,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "153",
+      "nome_usur1": "ANGELO NEVES SUZART - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
