@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "06/08/2026 14:09",
+  "atualizado_em": "06/08/2026 14:21",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -7996,6 +7996,23 @@ const INATIVOS_DATA = {
           "bairro": "JACAREPAGUA",
           "cidade": "RIO DE JANEIRO",
           "dtcadastro": "07/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        }
+      ]
+    },
+    "OZISLLAN RAMALHO DE SOUZA - OFF TRADE": {
+      "rca": "269",
+      "estado": "RJ",
+      "inativos": [],
+      "sem_compra": [],
+      "novos": [
+        {
+          "codcli": "95942",
+          "cliente": "DISTRIBUIDORA CAMILO GURIRI LTDA",
+          "bairro": "GURIRI NORTE",
+          "cidade": "SAO MATEUS",
+          "dtcadastro": "06/08/2026",
           "dtultcomp": null,
           "media": 0.0
         }
