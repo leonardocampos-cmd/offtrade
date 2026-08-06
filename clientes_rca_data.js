@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "06/08/2026 16:35",
-  "total": 22302,
+  "atualizado_em": "06/08/2026 16:52",
+  "total": 22301,
   "clientes": [
     {
       "codcli": "38586",
@@ -19022,8 +19022,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "BAR",
       "key_account": false,
       "rede": "",
-      "codusur1": "493",
-      "nome_usur1": "CAROLINA SOUZA - OFF TRADE",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -202114,22 +202114,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "229",
       "nome_usur2": "LUIZA HASSEN"
-    },
-    {
-      "codcli": "38897",
-      "razao": "LCA COMERCIO LTDA",
-      "fantasia": "LCA COMERCIO LTDA",
-      "bairro": "PAMPULHA",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "04.928.488/0008-49",
-      "estado": "MG",
-      "ramo": "LANCHONETE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "327",
-      "nome_usur1": "JOÃO SANTOS - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "3702",
