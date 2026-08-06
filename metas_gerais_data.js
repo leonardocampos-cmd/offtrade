@@ -1,5 +1,5 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "06/08/2026 15:12",
+  "atualizado_em": "06/08/2026 15:31",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 6,
@@ -89,10 +89,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "RED BULL",
-      "fat": 374279.02,
+      "fat": 374368.9,
       "fat_ant": 46628.7,
       "por_estado": {
-        "RJ": 61162.54,
+        "RJ": 61252.42,
         "SP": 151165.44,
         "ES": 156337.16,
         "MG": 5613.88
@@ -320,10 +320,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "KAISER",
-      "fat": 4955.7,
+      "fat": 5084.6,
       "fat_ant": 18088.95,
       "por_estado": {
-        "RJ": 4955.7,
+        "RJ": 5084.6,
         "SP": 0.0,
         "ES": 0.0,
         "MG": 0.0
@@ -385,23 +385,23 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
+      "fantasia": "VITON",
+      "fat": 2029.8,
+      "fat_ant": 3945.25,
+      "por_estado": {
+        "RJ": 2029.8,
+        "SP": 0.0,
+        "ES": 0.0,
+        "MG": 0.0
+      }
+    },
+    {
       "fantasia": "LUCIA",
       "fat": 1965.0,
       "fat_ant": 65.9,
       "por_estado": {
         "RJ": 0.0,
         "SP": 1965.0,
-        "ES": 0.0,
-        "MG": 0.0
-      }
-    },
-    {
-      "fantasia": "VITON",
-      "fat": 1922.88,
-      "fat_ant": 3945.25,
-      "por_estado": {
-        "RJ": 1922.88,
-        "SP": 0.0,
         "ES": 0.0,
         "MG": 0.0
       }
