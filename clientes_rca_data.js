@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "06/08/2026 15:19",
-  "total": 22357,
+  "atualizado_em": "06/08/2026 15:38",
+  "total": 22343,
   "clientes": [
     {
       "codcli": "38586",
@@ -18610,22 +18610,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "MATEUS CARDOSO - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "73064",
-      "razao": "52.650.623 ANDRE RIBAS MAGALDI NAVARRO",
-      "fantasia": "VILA MINEIRA",
-      "bairro": "PRAIA DO MORRO",
-      "cidade": "GUARAPARI",
-      "cnpj": "52.650.623/0001-03",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "77500",
@@ -60292,22 +60276,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
-      "codcli": "73063",
-      "razao": "B27 EVENTOS E INGRESSOS LTDA",
-      "fantasia": "B27 EVENTOS E INGRESSOS",
-      "bairro": "CENTRO",
-      "cidade": "GUARAPARI",
-      "cnpj": "48.988.095/0001-20",
-      "estado": "ES",
-      "ramo": "EVENTOS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "71162",
       "razao": "B4 COMERCIO DE ALIMENTOS LTDA",
       "fantasia": "CLUBE DO CHURRASCO",
@@ -71346,22 +71314,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RODRIGO LIMA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "21082",
-      "razao": "BELLS PUB ENTRETENIMENTO E LAZER LTDA",
-      "fantasia": "BELLS PUB",
-      "bairro": "PRAIA DO MORRO",
-      "cidade": "GUARAPARI",
-      "cnpj": "36.233.796/0001-70",
-      "estado": "ES",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "91093",
@@ -92340,22 +92292,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "JADDE CARVALHO"
     },
     {
-      "codcli": "21210",
-      "razao": "CASA MARRACINI LTDA",
-      "fantasia": "CASA MARRACINI",
-      "bairro": "SAO JUDAS TADEU",
-      "cidade": "GUARAPARI",
-      "cnpj": "35.472.757/0001-62",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "32948",
       "razao": "CASA MATA GASTROPUB LTDA",
       "fantasia": "THE ROAD HOUSE",
@@ -102948,22 +102884,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "21022",
-      "razao": "COMERCIAL CATARINA LTDA",
-      "fantasia": "MEATROPOLIS CATARINA",
-      "bairro": "COMUNIDADE URBANA DE JABOTI",
-      "cidade": "GUARAPARI",
-      "cnpj": "42.819.135/0001-23",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "30091",
       "razao": "COMERCIAL COLOMBO EIRELI",
       "fantasia": "COMERCIAL COLOMBO EIRELI",
@@ -104402,22 +104322,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "TIAGO ANDRADE - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "72826",
-      "razao": "COMERCIAL OLHO ECONOMICO LTDA",
-      "fantasia": "MINI MERCADO OLHO ECONOMICO",
-      "bairro": "PRAIA DO MORRO",
-      "cidade": "GUARAPARI",
-      "cnpj": "03.433.320/0001-23",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "52022",
@@ -107940,6 +107844,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "95954",
+      "razao": "CONVENIENCIA PIRAI LIMITADA",
+      "fantasia": "CONVENIENCIA PIRAI",
+      "bairro": "CENTRO",
+      "cidade": "PIRAI",
+      "cnpj": "33.264.848/0001-87",
+      "estado": "RJ",
+      "ramo": "CONVENIENCIA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "156",
+      "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "2239",
       "razao": "CONVENIENCIA PONTOCOM COMERCIO LTDA",
       "fantasia": "",
@@ -108420,6 +108340,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "64988",
+      "razao": "COPACABANA CHAI POINT COMERCIO DE ALIMENTOS EIRELI",
+      "fantasia": "JAPPA DA QUITANDA COPACABANA",
+      "bairro": "COPACABANA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "30.854.746/0001-23",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "10",
+      "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "70255",
       "razao": "COPACABANA CHAI POINT COMERCIO DE ALIMENTOS LTDA",
       "fantasia": "JAPPA DA QUITANDA",
@@ -108430,10 +108366,10 @@ const CLIENTES_RCA_DATA = {
       "ramo": "RESTAURANTE",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
     },
     {
       "codcli": "33005",
@@ -146212,22 +146148,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "21133",
-      "razao": "FABIANO MIRANDA ZILIO EIRELI",
-      "fantasia": "CHOPERIA E CHURRASCARIA DOM",
-      "bairro": "PRAIA DO MORRO",
-      "cidade": "GUARAPARI",
-      "cnpj": "42.238.585/0001-22",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "37414",
       "razao": "FABIANO PEREIRA DE ALMEIDA",
       "fantasia": "BAR DO FABINHO",
@@ -148459,22 +148379,6 @@ const CLIENTES_RCA_DATA = {
       "cidade": "RIO DE JANEIRO",
       "cnpj": "28.425.745/0001-11",
       "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "71937",
-      "razao": "FAROFA CARIOCA BAR LTDA",
-      "fantasia": "FAROFA CARIOCA",
-      "bairro": "PRAIA DO MORRO",
-      "cidade": "GUARAPARI",
-      "cnpj": "47.475.636/0001-53",
-      "estado": "ES",
       "ramo": "RESTAURANTE",
       "key_account": false,
       "rede": "",
@@ -173538,22 +173442,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "21130",
-      "razao": "I N DA CRUZ",
-      "fantasia": "COMERCIO DE BEBIDAS DO EDDY",
-      "bairro": "MEAIPE",
-      "cidade": "GUARAPARI",
-      "cnpj": "20.379.029/0001-33",
-      "estado": "ES",
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "72401",
@@ -198788,22 +198676,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "FERNANDA CAMBOIM"
     },
     {
-      "codcli": "72997",
-      "razao": "LA CASA DA CACHACA DISTRIBUIDORA LTDA",
-      "fantasia": "LA CASA DA CACHACA DISTRIBUIDORA DE BEBI",
-      "bairro": "MUQUIÇABA",
-      "cidade": "GUARAPARI",
-      "cnpj": "47.518.523/0001-98",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "87596",
       "razao": "LA CASADELLA CAFE LTDA",
       "fantasia": "LA'CASADELLA CAFE",
@@ -219380,22 +219252,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "70564",
-      "razao": "MANA DISTRIBUIDORA DE ALIMENTOS EIRELI",
-      "fantasia": "REI DAS CESTAS",
-      "bairro": "JARDIM AMERICA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "24.562.626/0001-50",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "50906",
       "razao": "MANASSES E EFRAIM MINIMERCADO LTDA",
       "fantasia": "MANASSES E EFRAIM MINIMERCADO",
@@ -223682,22 +223538,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
-    },
-    {
-      "codcli": "72922",
-      "razao": "MARCOS VINICIUS CASTRO QUINTELA",
-      "fantasia": "MARCOS VINICIUS CASTRO QUINTELA",
-      "bairro": "MUQUIÇABA",
-      "cidade": "GUARAPARI",
-      "cnpj": "097.508.757-61",
-      "estado": "ES",
-      "ramo": "PESSOA FISICA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "71707",
@@ -262452,22 +262292,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "21005",
-      "razao": "PA COMERCIO DE FRIOS LTDA",
-      "fantasia": "MEATROPOLIS GUARAPARI",
-      "bairro": "SAO JUDAS TADEU",
-      "cidade": "GUARAPARI",
-      "cnpj": "06.956.103/0001-06",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "38128",
       "razao": "PAAG TECNOLOGIA S.A",
       "fantasia": "PAAG",
@@ -294020,22 +293844,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "71028",
-      "razao": "RENATO GUIMARAES GUZZO FILHO 13237369721",
-      "fantasia": "RENATO GUIMARAES GUZZO FILHO",
-      "bairro": "RECANTO DA SEREIA",
-      "cidade": "GUARAPARI",
-      "cnpj": "22.462.746/0001-50",
-      "estado": "ES",
-      "ramo": "EVENTOS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "26997",
       "razao": "RENATO HOFF",
       "fantasia": "RENATO HOFF",
@@ -295218,22 +295026,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "21083",
-      "razao": "RESTAURANTE CANTINHO DO CURUCA EIRELI EPP",
-      "fantasia": "RESTAURANTE CANTINHO DO CURUCA EIRELI EP",
-      "bairro": "MEAIPE",
-      "cidade": "GUARAPARI",
-      "cnpj": "13.744.358/0001-70",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "30262",
@@ -321426,22 +321218,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "50037",
-      "razao": "STANS ZOUAIN FILHO",
-      "fantasia": "SAZA BEBIDAS",
-      "bairro": "PRAIA DO MORRO",
-      "cidade": "GUARAPARI",
-      "cnpj": "30.929.818/0001-54",
-      "estado": "ES",
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "312",
-      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "93078",
