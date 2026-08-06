@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "06/08/2026 14:29",
+  "atualizado_em": "06/08/2026 14:40",
   "data_rota": "06.08",
   "vendedores": [
     {
@@ -1571,14 +1571,14 @@ const ENTREGAS_DATA = {
           "total": 7286.4,
           "itens": [
             {
-              "desc": "RED BULL 24X250ML",
-              "qt": 30,
-              "val": 5464.8
-            },
-            {
               "desc": "RED BULL TROPICAL 24X250ML",
               "qt": 10,
               "val": 1821.6
+            },
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 30,
+              "val": 5464.8
             }
           ]
         },
@@ -8006,6 +8006,96 @@ const ENTREGAS_DATA = {
       "nome": "MARILENA TRAGEL - OFF TRADE",
       "em_rota": [
         {
+          "numped": "156003800",
+          "numnota": "418907.0",
+          "data": "05/08/2026",
+          "cliente": "POSTO DE GASOLINA BRACARENSE LTDA",
+          "placa": "TUA3G43",
+          "rota": "TIJUCA+ ILHA",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1770.16,
+          "itens": [
+            {
+              "desc": "VILLA ROSA TINTO 750ML",
+              "qt": 3,
+              "val": 116.7
+            },
+            {
+              "desc": "VILLA ROSA  ROSE 750ML",
+              "qt": 3,
+              "val": 116.7
+            },
+            {
+              "desc": "LICOR BALLENA MORANGO 750 ML",
+              "qt": 1,
+              "val": 105.9
+            },
+            {
+              "desc": "WHISKY J WALKER BLACK LABEL 750ML",
+              "qt": 2,
+              "val": 281.8
+            },
+            {
+              "desc": "CHANDON BABY BRUT ROSE 187 ML",
+              "qt": 2,
+              "val": 63.8
+            },
+            {
+              "desc": "VINHO ARESTI ESTATE S. CAB SAUV 187ML",
+              "qt": 6,
+              "val": 107.4
+            },
+            {
+              "desc": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+              "qt": 6,
+              "val": 107.4
+            },
+            {
+              "desc": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
+              "qt": 1,
+              "val": 100.9
+            },
+            {
+              "desc": "LICOR BALLENA COCO 750ML",
+              "qt": 1,
+              "val": 100.9
+            },
+            {
+              "desc": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
+              "qt": 1,
+              "val": 104.56
+            },
+            {
+              "desc": "WHISKY J WALKER RED LABEL 750ML",
+              "qt": 2,
+              "val": 129.8
+            },
+            {
+              "desc": "VODKA ABSOLUT 1L",
+              "qt": 1,
+              "val": 64.9
+            },
+            {
+              "desc": "WHISKY BALLANTINE S FINEST 1L",
+              "qt": 1,
+              "val": 62.9
+            },
+            {
+              "desc": "GIN TANQUERAY  750 ML",
+              "qt": 2,
+              "val": 189.8
+            },
+            {
+              "desc": "VILLA ROSA BRANCO 750ML",
+              "qt": 3,
+              "val": 116.7
+            }
+          ]
+        },
+        {
           "numped": "156003796",
           "numnota": "418845.0",
           "data": "05/08/2026",
@@ -8211,96 +8301,6 @@ const ENTREGAS_DATA = {
           ]
         },
         {
-          "numped": "156003800",
-          "numnota": "418907.0",
-          "data": "05/08/2026",
-          "cliente": "POSTO DE GASOLINA BRACARENSE LTDA",
-          "placa": "TUA3G43",
-          "rota": "TIJUCA+ ILHA",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 1770.16,
-          "itens": [
-            {
-              "desc": "VODKA ABSOLUT 1L",
-              "qt": 1,
-              "val": 64.9
-            },
-            {
-              "desc": "WHISKY BALLANTINE S FINEST 1L",
-              "qt": 1,
-              "val": 62.9
-            },
-            {
-              "desc": "GIN TANQUERAY  750 ML",
-              "qt": 2,
-              "val": 189.8
-            },
-            {
-              "desc": "VILLA ROSA BRANCO 750ML",
-              "qt": 3,
-              "val": 116.7
-            },
-            {
-              "desc": "VILLA ROSA TINTO 750ML",
-              "qt": 3,
-              "val": 116.7
-            },
-            {
-              "desc": "VILLA ROSA  ROSE 750ML",
-              "qt": 3,
-              "val": 116.7
-            },
-            {
-              "desc": "LICOR BALLENA MORANGO 750 ML",
-              "qt": 1,
-              "val": 105.9
-            },
-            {
-              "desc": "WHISKY J WALKER BLACK LABEL 750ML",
-              "qt": 2,
-              "val": 281.8
-            },
-            {
-              "desc": "CHANDON BABY BRUT ROSE 187 ML",
-              "qt": 2,
-              "val": 63.8
-            },
-            {
-              "desc": "VINHO ARESTI ESTATE S. CAB SAUV 187ML",
-              "qt": 6,
-              "val": 107.4
-            },
-            {
-              "desc": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
-              "qt": 6,
-              "val": 107.4
-            },
-            {
-              "desc": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
-              "qt": 1,
-              "val": 100.9
-            },
-            {
-              "desc": "LICOR BALLENA COCO 750ML",
-              "qt": 1,
-              "val": 100.9
-            },
-            {
-              "desc": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
-              "qt": 1,
-              "val": 104.56
-            },
-            {
-              "desc": "WHISKY J WALKER RED LABEL 750ML",
-              "qt": 2,
-              "val": 129.8
-            }
-          ]
-        },
-        {
           "numped": "156003795",
           "numnota": "418912.0",
           "data": "04/08/2026",
@@ -8484,6 +8484,71 @@ const ENTREGAS_DATA = {
               "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
               "qt": 15,
               "val": 433.5
+            }
+          ]
+        },
+        {
+          "numped": "156003812",
+          "numnota": "",
+          "data": "06/08/2026",
+          "cliente": "POSTO DE GASOLINA COROA DO MAR LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "A PARTIR DAS 08:00H ATE AS 17:00 H",
+          "total": 865.4,
+          "itens": [
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 2,
+              "val": 55.8
+            },
+            {
+              "desc": "GIN BOMBAY SAPPHIRE 750ML",
+              "qt": 1,
+              "val": 69.9
+            },
+            {
+              "desc": "VODKA ABSOLUT 1L",
+              "qt": 1,
+              "val": 64.9
+            },
+            {
+              "desc": "GIN TANQUERAY  750 ML",
+              "qt": 1,
+              "val": 96.9
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "GIN ROCKS POCKET PET 12X200ML",
+              "qt": 1,
+              "val": 104.4
+            },
+            {
+              "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "qt": 1,
+              "val": 94.7
             }
           ]
         },
