@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "06/08/2026 10:40",
-  "total": 22350,
+  "atualizado_em": "06/08/2026 10:57",
+  "total": 22352,
   "clientes": [
     {
       "codcli": "38586",
@@ -160676,6 +160676,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "52319",
+      "razao": "GENIVAL COIMBRA",
+      "fantasia": "GENIVAL COIMBRA",
+      "bairro": "CANTO DO MAR",
+      "cidade": "SAO SEBASTIAO",
+      "cnpj": "09.591.669/0001-70",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "516",
+      "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "33912",
       "razao": "GENNARINO TOLOMELLO LTDA",
       "fantasia": "OSTERIA VIA EMILIA",
@@ -262368,6 +262384,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "50473",
+      "razao": "P.P.R PEROZI SUPERMERCADO LTDA",
+      "fantasia": "SUPERMERCADO THAIS DE PIRAJU",
+      "bairro": "CENTRO",
+      "cidade": "PIRAJU",
+      "cnpj": "10.614.316/0002-08",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "477",
+      "nome_usur1": "LUCIANO TOSCHI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
