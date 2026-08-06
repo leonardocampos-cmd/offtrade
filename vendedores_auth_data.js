@@ -1,4 +1,4 @@
-// Gerado em 05/08/2026 18:06
+// Gerado em 06/08/2026 14:36
 const VENDEDORES_AUTH = {
   "156": [
     {
@@ -154,6 +154,14 @@ const VENDEDORES_AUTH = {
     {
       "nome": "ANDRE SILVA - OFF TRADE",
       "email": "andre.silva@rigarr.com.br",
+      "email2": "",
+      "estado": "SP"
+    }
+  ],
+  "588": [
+    {
+      "nome": "W.S",
+      "email": "willianseto@unityatacado.com.br",
       "email2": "",
       "estado": "SP"
     }
