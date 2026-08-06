@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "06/08/2026 12:17",
+  "atualizado_em": "06/08/2026 13:28",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -10894,15 +10894,6 @@ const INATIVOS_DATA = {
           "media": 486.77
         },
         {
-          "codcli": "34478",
-          "cliente": "8ZH7 RESTAURANTE LTDA",
-          "bairro": "FUNCIONÁRIOS",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "28/05/2026",
-          "dias": 70,
-          "media": 1620.9
-        },
-        {
           "codcli": "31401",
           "cliente": "DISTRIBUIDORA DE BEBIDAS SANTA RITA  LTDA",
           "bairro": "SERRANO",
@@ -10910,6 +10901,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "28/05/2026",
           "dias": 70,
           "media": 94.2
+        },
+        {
+          "codcli": "34478",
+          "cliente": "8ZH7 RESTAURANTE LTDA",
+          "bairro": "FUNCIONÁRIOS",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "28/05/2026",
+          "dias": 70,
+          "media": 1620.9
         },
         {
           "codcli": "39403",
@@ -10939,15 +10939,6 @@ const INATIVOS_DATA = {
           "media": 252.0
         },
         {
-          "codcli": "30705",
-          "cliente": "RUA DO JASMIM ALIMENTOS E BEBIDAS LTDA",
-          "bairro": "SANTO ANTÔNIO",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "05/06/2026",
-          "dias": 62,
-          "media": 199.6
-        },
-        {
           "codcli": "30204",
           "cliente": "IDEAL COMERCIO DE ALIMENTOS LTDA",
           "bairro": "BURITIS",
@@ -10955,6 +10946,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "05/06/2026",
           "dias": 62,
           "media": 415.8
+        },
+        {
+          "codcli": "30705",
+          "cliente": "RUA DO JASMIM ALIMENTOS E BEBIDAS LTDA",
+          "bairro": "SANTO ANTÔNIO",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "05/06/2026",
+          "dias": 62,
+          "media": 199.6
         },
         {
           "codcli": "34226",
@@ -11045,15 +11045,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "24/06/2026",
           "dias": 43,
           "media": 100.0
-        },
-        {
-          "codcli": "33623",
-          "cliente": "DUARTE E FRAGA COMERCIO DE ALIMENTOS LTDA",
-          "bairro": "LOURDES",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "03/07/2026",
-          "dias": 34,
-          "media": 1045.3
         },
         {
           "codcli": "36311",
