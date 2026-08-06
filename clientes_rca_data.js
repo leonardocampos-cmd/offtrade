@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "06/08/2026 13:26",
+  "atualizado_em": "06/08/2026 13:51",
   "total": 22354,
   "clientes": [
     {
@@ -126324,22 +126324,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "50677",
-      "razao": "DOUGLAS HUNGARO DE LIMA 17277333713",
-      "fantasia": "MINI PADARIA ADONAI CQ",
-      "bairro": "CAMPO GRANDE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "43.546.593/0001-07",
-      "estado": "RJ",
-      "ramo": "PADARIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "312",
-      "nome_usur2": "LAYZ WERNECK"
-    },
-    {
       "codcli": "71724",
       "razao": "DOUGLAS LIMA MENDES SANTOS DOS REIS 11654675776",
       "fantasia": "BAR AMARELINHO",
@@ -165136,6 +165120,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "95940",
+      "razao": "GPM 05 LTDA",
+      "fantasia": "BOTECO MANE OLEGARIO",
+      "bairro": "BARRA DA TIJUCA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "67.660.331/0001-29",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
