@@ -28,6 +28,19 @@ import baixar_planilhas_drive as _bpd
 PCT_PREMIO = 0.015
 CONTRATOS_ESCOPO = {"EXECUTIVOS RJ", "PEQUENOS VAREJOS RJ"}
 
+# PEQUENOS VAREJOS RJ não usa LIQ.RIGARR × %PRÊMIO como EXECUTIVOS RJ — usa
+# um teto de comissão fixo por pessoa × ating. acumulado (confirmado em
+# 2026-08-05 batendo com APURAÇÃO JULHO.2026.xlsx: Jorge 3000×0,9833=2950,
+# Adeilson/Ana Clara/Fabio 2000×ating — valores redondos, exato). Não achado
+# em nenhuma planilha do Drive; vendedores fora desta lista usam a fórmula
+# padrão (LIQ.RIGARR × %PRÊMIO).
+TETO_COMISSAO_PEQUENOS_VAREJOS = {
+    "ADEILSON GONÇALVEZ - OFF TRADE": 2000.0,
+    "ANA CLARA FASSANO - OFF TRADE":  2000.0,
+    "FABIO VALOTTI - OFF TRADE":      2000.0,
+    "JORGE MACIEL - OFF TRADE":       3000.0,
+}
+
 
 def _write_js_atomic(path, content):
     tmp_path = f"{path}.tmp"
@@ -264,8 +277,13 @@ for _, m in metas_mes.iterrows():
 
     pct_premio = round(total_ating_acumulado * PCT_PREMIO, 8)
     liq_rigarr = round(float(_liquidado_por_nome.get(nome, 0.0)), 2)
-    com_rigarr = round(liq_rigarr * pct_premio, 2)
     com_castas = round(fat_castas_realizado * pct_premio, 2)
+
+    teto_pessoal = TETO_COMISSAO_PEQUENOS_VAREJOS.get(nome)
+    if teto_pessoal is not None:
+        com_rigarr = round(teto_pessoal * total_ating_acumulado, 2)
+    else:
+        com_rigarr = round(liq_rigarr * pct_premio, 2)
 
     _vendedores_out.append({
         'nome': nome,
@@ -276,6 +294,7 @@ for _, m in metas_mes.iterrows():
         'pct_premio': pct_premio,
         'liq_rigarr': liq_rigarr,
         'fat_castas': round(fat_castas_realizado, 2),
+        'teto_comissao': teto_pessoal,
         'com_rigarr': com_rigarr,
         'com_castas': com_castas,
         'comissao_estimada': round(com_rigarr + com_castas, 2),
