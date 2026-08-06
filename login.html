@@ -231,19 +231,17 @@
         document.getElementById('google-btn-wrap').style.display = 'flex';
         return;
       }
-      // Só mostra e-mail+senha pra quem tem e-mail pessoal (webmail comum)
-      // cadastrado — o login por e-mail existe pra esse caso, porque não dá
-      // pra confiar em SSO do Google Workspace num provedor genérico (ex:
-      // JETER LUCIO SOARES, RCA 378/MG, só tem @yahoo.com.br cadastrado —
-      // confirmado em 2026-08-03 que o botão do Google sozinho não cobria
-      // esse caso). Quem só tem e-mail corporativo (@rigarr ou domínio
-      // próprio de Workspace) entra direto pelo botão do Google.
-      const _WEBMAIL = ['@gmail.com', '@yahoo.com', '@yahoo.com.br', '@hotmail.com', '@outlook.com', '@icloud.com'];
+      // Mostra e-mail+senha sempre que o RCA tiver candidato cadastrado,
+      // independente do domínio do e-mail — inclui e-mail corporativo de
+      // parceiro externo sem Google Workspace (ex: RCA 588/W.S,
+      // willianseto@unityatacado.com.br, pedido explícito do usuário em
+      // 2026-08-06: SSO do Google não cobre domínio de terceiro). Continua
+      // valendo pra webmail pessoal também (ex: JETER LUCIO SOARES, RCA
+      // 378/MG, @yahoo.com.br — motivo original de existir esse fluxo,
+      // confirmado em 2026-08-03). Quem tem Google Workspace corporativo
+      // ainda pode entrar pelo botão do Google, que continua visível.
       const candidatos = _candidatosPorRca(rca);
-      const temGmail = candidatos.some(v => [v.email, v.email2]
-        .filter(Boolean).some(e => _WEBMAIL.some(dom => e.toLowerCase().endsWith(dom))));
-
-      if (temGmail) {
+      if (candidatos.length) {
         document.getElementById('vend-fields').style.display    = 'flex';
         document.getElementById('divider-google').style.display = 'flex';
       } else {

@@ -2,8 +2,9 @@
 Alerta de pedidos bloqueados por WhatsApp — consulta ao vivo PCPEDC.POSICAO
 IN ('B','M') (bloqueado / bloqueado por alçada) em CRC, thekings, CASTAS,
 GARRIDO, SPON e MGON, só vendedor RJ (TABELA DE PREÇO RJ.xlsx só vale por
-lá — mesma limitação de conferencia_preco.py/pedidos.py). Envia direto pro
-WhatsApp do próprio vendedor (PCUSUARI.TELEFONE1/TELEFONE2), com o motivo
+lá — mesma limitação de conferencia_preco.py/pedidos.py). Envia pro WhatsApp
+de um número central (_NUMERO_DESTINO — pedido explícito do usuário em
+2026-08-06, não é mais o telefone do próprio vendedor), com o motivo
 enriquecido (produto + preço digitado vs. tabela) quando o bloqueio for por
 desconto acima do permitido — mesma lógica de pedidos.py::_preco_motivo_bloqueio.
 """
@@ -21,10 +22,10 @@ from meta import engine, engine_theking, engine_castas, engine_garrido, engine_s
 import baixar_planilhas_drive as _bpd
 from whatsapp_evolution import enviar_whatsapp
 
-# Nunca mandar pra esse número, mesmo que apareça como TELEFONE1/2 de algum
-# vendedor no Oracle — pedido explícito do usuário em 2026-08-05 (ver
-# [[feedback_whatsapp_numero_teste]]).
-_NUMERO_PROIBIDO = "5521974972433"
+# Alerta de pedido bloqueado não vai mais pro WhatsApp do próprio vendedor —
+# pedido explícito do usuário em 2026-08-06: manda tudo pra esse número
+# central em vez disso (quem estiver aqui decide/repassa).
+_NUMERO_DESTINO = "5521964105623"
 
 REGISTRO_JSON = str(Path(__file__).parent / "pedidos_bloqueados_enviados.json")
 
@@ -58,7 +59,7 @@ def _query_bloqueados(schema, extra_nomes=None):
     return f"""
         SELECT PED.NUMPED, PED.CLIENTE, PED.CODPROD, PED.DESCRICAO, PED.PVENDA,
                PC.POSICAO, PC.MOTIVOPOSICAO,
-               U.NOME AS VENDEDOR, U.TELEFONE1, U.TELEFONE2, U.ESTADO
+               U.NOME AS VENDEDOR, U.ESTADO
         FROM {schema}.PBI_PCPEDI PED
         JOIN {schema}.PCUSUARI U ON U.CODUSUR = PED.CODUSUR
         JOIN {schema}.PCPEDC   PC ON PC.NUMPED = PED.NUMPED
@@ -131,15 +132,6 @@ def _fmt_brl(v):
     return f"R$ {float(v):,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
 
 
-def _normalizar_telefone(raw):
-    digits = re.sub(r'\D', '', str(raw) if raw else '')
-    if not digits:
-        return None
-    if not digits.startswith('55'):
-        digits = '55' + digits
-    return digits
-
-
 def montar_bloqueados_por_vendedor():
     fontes_indisponiveis = []
     chamadas = [
@@ -164,11 +156,8 @@ def montar_bloqueados_por_vendedor():
     por_vendedor: dict = {}
     for _, row in pedidos.iterrows():
         vendedor = (row['VENDEDOR'] or '').strip()
-        telefone = _normalizar_telefone(row.get('TELEFONE1')) or _normalizar_telefone(row.get('TELEFONE2'))
         motivo_txt = _motivo_enriquecido(row['MOTIVOPOSICAO'], row['CODPROD'], row['DESCRICAO'], row['PVENDA'])
-        entry = por_vendedor.setdefault(vendedor, {'telefone': telefone, 'pedidos': {}})
-        if not entry['telefone']:
-            entry['telefone'] = telefone
+        entry = por_vendedor.setdefault(vendedor, {'pedidos': {}})
         entry['pedidos'].setdefault(str(row['NUMPED']), {
             'numped':  str(row['NUMPED']),
             'cliente': (row['CLIENTE'] or '').strip(),
@@ -179,7 +168,7 @@ def montar_bloqueados_por_vendedor():
 
 def montar_mensagem(vendedor, pedidos, fontes_indisponiveis):
     hoje_str = date.today().strftime('%d/%m/%Y')
-    linhas = [f"*PEDIDO(S) BLOQUEADO(S) — {hoje_str}*", f"Olá {vendedor.split(' - ')[0].title()}, o(s) pedido(s) abaixo está(ão) bloqueado(s):\n"]
+    linhas = [f"*PEDIDO(S) BLOQUEADO(S) — {hoje_str}*", f"Vendedor: *{vendedor}*\n"]
     for p in pedidos:
         linhas.append(f"• *Pedido {p['numped']}* — {p['cliente']}\n  Motivo: {p['motivo']}")
     if fontes_indisponiveis:
@@ -206,22 +195,14 @@ def main():
         if not pedidos_novos:
             continue
 
-        telefone = info['telefone']
-        if not telefone:
-            print(f"[AVISO] {vendedor}: {len(pedidos_novos)} pedido(s) bloqueado(s) novo(s), mas sem telefone cadastrado — não enviado.")
-            continue
-        if telefone == _NUMERO_PROIBIDO:
-            print(f"[AVISO] {vendedor}: número proibido ({_NUMERO_PROIBIDO}) — não enviado.")
-            continue
-
         mensagem = montar_mensagem(vendedor, pedidos_novos, fontes_indisponiveis)
-        resp = enviar_whatsapp(telefone, mensagem)
+        resp = enviar_whatsapp(_NUMERO_DESTINO, mensagem)
         if resp.status_code in (200, 201):
-            print(f"OK - enviado para {vendedor} ({telefone}), {len(pedidos_novos)} pedido(s)")
+            print(f"OK - enviado ({vendedor}, {_NUMERO_DESTINO}), {len(pedidos_novos)} pedido(s)")
             enviados.update(p['numped'] for p in pedidos_novos)
-            _registrar_aguardando(telefone, vendedor, pedidos_novos)
+            _registrar_aguardando(_NUMERO_DESTINO, vendedor, pedidos_novos)
         else:
-            print(f"Erro ao enviar para {vendedor} ({telefone}): {resp.status_code} - {resp.text[:200]}")
+            print(f"Erro ao enviar ({vendedor}, {_NUMERO_DESTINO}): {resp.status_code} - {resp.text[:200]}")
         time.sleep(1)
 
     with open(REGISTRO_JSON, "w", encoding="utf-8") as f:
