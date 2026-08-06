@@ -1,12 +1,12 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "06/08/2026 16:46",
+  "atualizado_em": "06/08/2026 17:04",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 6,
   "dias_no_mes": 31,
   "dias_restantes": 25,
   "resumo": {
-    "fat": 1998479.71,
+    "fat": 2015255.71,
     "fat_ant": 1399789.92,
     "fat_ant_completo": 13925054.76,
     "pos": 419,
@@ -15,11 +15,11 @@ const METAS_GERAIS_DATA = {
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 1998479.71,
+    "fat": 2015255.71,
     "fat_ant": 1399789.92,
     "fat_ant_completo": 13925054.76,
-    "pct": 13.9,
-    "nec_dia": 496060.81
+    "pct": 14.0,
+    "nec_dia": 495389.77
   },
   "estados": [
     {
@@ -65,11 +65,11 @@ const METAS_GERAIS_DATA = {
       "estado": "MG",
       "label": "Minas Gerais",
       "meta": 2100000.0,
-      "fat": 176398.9,
+      "fat": 193174.9,
       "fat_ant": 114523.82,
       "pos": 56,
-      "pct": 8.4,
-      "nec_dia": 76944.04,
+      "pct": 9.2,
+      "nec_dia": 76273.0,
       "fat_ant_completo": 1911913.71,
       "pos_ant": 52,
       "pos_ant_completo": 266
@@ -78,13 +78,13 @@ const METAS_GERAIS_DATA = {
   "industrias": [
     {
       "fantasia": "PERNOD",
-      "fat": 865240.96,
+      "fat": 882016.96,
       "fat_ant": 672983.69,
       "por_estado": {
         "RJ": 58089.0,
         "SP": 776750.32,
         "ES": 6283.44,
-        "MG": 24118.2
+        "MG": 40894.2
       }
     },
     {
