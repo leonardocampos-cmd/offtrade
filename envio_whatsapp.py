@@ -5,7 +5,7 @@ from datetime import datetime
 from conferencia_preco import df
 from whatsapp_evolution import enviar_whatsapp
 
-NUMERO = "5521974972433"                 # <- número destino (DDI+DDD, sem + ou espaços)
+NUMERO = "5521992085320"                 # <- número destino (DDI+DDD, sem + ou espaços) — pedido explícito do usuário em 2026-08-06
 
 REGISTRO_JSON = "pedidos_enviados.json"
 
