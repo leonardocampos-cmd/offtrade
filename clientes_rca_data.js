@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "06/08/2026 14:19",
-  "total": 22357,
+  "atualizado_em": "06/08/2026 14:31",
+  "total": 22360,
   "clientes": [
     {
       "codcli": "38586",
@@ -6460,22 +6460,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "37.255.271/0001-06",
       "estado": "RJ",
       "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "94461",
-      "razao": "37.270.577 PABLO HENRIQUE BASTOS SILVA",
-      "fantasia": "37.270.577 PABLO HENRIQUE BASTOS SILVA",
-      "bairro": "MAGALHAES BASTOS",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "37.270.577/0001-23",
-      "estado": "RJ",
-      "ramo": "BAR",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -27664,6 +27648,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "588",
       "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "95943",
+      "razao": "60.268.964 ALINE DO NASCIMENTO PALACIO",
+      "fantasia": "ALINE DO NASCIMENTO PALACIO",
+      "bairro": "VILA DA PENHA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "60.268.964/0001-47",
+      "estado": "RJ",
+      "ramo": "SERVIÇOS",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "471",
+      "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -117300,6 +117300,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "91316",
+      "razao": "DEPAULA E SARTORI LTDA",
+      "fantasia": "SUPERMERCADO SARTORI",
+      "bairro": "CENTRO",
+      "cidade": "JAGUARE",
+      "cnpj": "08.417.449/0001-61",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "269",
+      "nome_usur1": "OZISLLAN RAMALHO DE SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "78316",
       "razao": "DEPOSITO 10 DE BEBIDA LTDA",
       "fantasia": "DEPOSITO 10",
@@ -145138,6 +145154,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "40457",
+      "razao": "F C N DAMASCENO",
+      "fantasia": "ADEGA 6D",
+      "bairro": "PARQUE RESIDENCIAL MARENGO",
+      "cidade": "ITAQUAQUECETUBA",
+      "cnpj": "53.438.969/0001-05",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "90171",
@@ -175236,14 +175268,14 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "49390",
+      "codcli": "47674",
       "razao": "IMPERIO SAO JOSE LTDA",
-      "fantasia": "IMPERIO SAO JOSE LTDA",
-      "bairro": "VILA NOSSA SENHORA DO RETIRO",
-      "cidade": "SAO PAULO",
-      "cnpj": "43.677.148/0002-59",
+      "fantasia": "IMPERIO SAO JOSE",
+      "bairro": "AYROSA",
+      "cidade": "OSASCO",
+      "cnpj": "43.677.148/0001-78",
       "estado": "SP",
-      "ramo": "BAR",
+      "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
       "codusur1": "588",
@@ -194174,8 +194206,24 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "269",
+      "nome_usur1": "OZISLLAN RAMALHO DE SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "93233",
+      "razao": "JV SUPERMERCADOS LTDA",
+      "fantasia": "JV SUPERMERCADOS",
+      "bairro": "CENTRO",
+      "cidade": "MARATAIZES",
+      "cnpj": "07.543.270/0012-40",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "269",
+      "nome_usur1": "OZISLLAN RAMALHO DE SOUZA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -317312,8 +317360,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "327",
       "nome_usur1": "JOÃO SANTOS - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "549",
+      "nome_usur2": "FERNANDO GOMES"
     },
     {
       "codcli": "73787",
