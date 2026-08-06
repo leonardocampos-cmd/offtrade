@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "06/08/2026 16:52",
+  "atualizado_em": "06/08/2026 17:10",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -4605,46 +4605,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33288",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "SÃO SEBASTIAO",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "AMARULA C LIQUEUR 750 ML",
-            "fantasia": "AURORA",
-            "qt": 12,
-            "valor": 1318.8
-          },
-          {
-            "produto": "GIN ORLOFF 1L",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 538.8
-          }
-        ]
-      },
-      {
-        "codcli": "33290",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "ANGÉLICA",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "AMARULA C LIQUEUR 750 ML",
-            "fantasia": "AURORA",
-            "qt": 12,
-            "valor": 1318.8
-          },
-          {
-            "produto": "GIN BEEFEATER 750ML",
-            "fantasia": "PERNOD",
-            "qt": 6,
-            "valor": 509.4
-          }
-        ]
-      },
-      {
         "codcli": "33293",
         "cliente": "ARMAZEM BRASIL LIMITADA",
         "bairro": "CENTRO",
@@ -4685,6 +4645,46 @@ const NAO_POS_MG_DATA = {
             "fantasia": "CASTAS",
             "qt": 12,
             "valor": 478.8
+          }
+        ]
+      },
+      {
+        "codcli": "33288",
+        "cliente": "ARMAZEM BRASIL LIMITADA",
+        "bairro": "SÃO SEBASTIAO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "AMARULA C LIQUEUR 750 ML",
+            "fantasia": "AURORA",
+            "qt": 12,
+            "valor": 1318.8
+          },
+          {
+            "produto": "GIN ORLOFF 1L",
+            "fantasia": "PERNOD",
+            "qt": 12,
+            "valor": 538.8
+          }
+        ]
+      },
+      {
+        "codcli": "33290",
+        "cliente": "ARMAZEM BRASIL LIMITADA",
+        "bairro": "ANGÉLICA",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "AMARULA C LIQUEUR 750 ML",
+            "fantasia": "AURORA",
+            "qt": 12,
+            "valor": 1318.8
+          },
+          {
+            "produto": "GIN BEEFEATER 750ML",
+            "fantasia": "PERNOD",
+            "qt": 6,
+            "valor": 509.4
           }
         ]
       },
@@ -4920,6 +4920,44 @@ const NAO_POS_MG_DATA = {
             "fantasia": "PERNOD",
             "qt": 1,
             "valor": 57.9
+          }
+        ]
+      },
+      {
+        "codcli": "34017",
+        "cliente": "MERCANTIL BASTOS LTDA",
+        "bairro": "JARDIM PRIMAVERA L",
+        "dtultcomp": "23/04/2026",
+        "produtos": [
+          {
+            "produto": "VINHO LATITUD 33 CABERNET SAUVIGNON",
+            "fantasia": "LVMH",
+            "qt": 12,
+            "valor": 586.8
+          },
+          {
+            "produto": "VINHO LATITUD 33 CHARDONNAY 750 ML",
+            "fantasia": "LVMH",
+            "qt": 12,
+            "valor": 586.8
+          },
+          {
+            "produto": "VINHO LATITUD 33 MALBEC ROSE",
+            "fantasia": "LVMH",
+            "qt": 18,
+            "valor": 880.2
+          },
+          {
+            "produto": "VINHO LATITUD 33 MALBEC TTO 750 ML",
+            "fantasia": "LVMH",
+            "qt": 12,
+            "valor": 586.8
+          },
+          {
+            "produto": "VINHO LATITUD 33 SAUVIGNON BLANC",
+            "fantasia": "LVMH",
+            "qt": 12,
+            "valor": 586.8
           }
         ]
       },
