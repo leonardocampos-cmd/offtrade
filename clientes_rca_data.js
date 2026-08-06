@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "06/08/2026 14:07",
-  "total": 22354,
+  "atualizado_em": "06/08/2026 14:19",
+  "total": 22357,
   "clientes": [
     {
       "codcli": "38586",
@@ -96788,22 +96788,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "38116",
-      "razao": "CHARBON ROUGE LAGOA RESTAURANTE E BAR LTDA",
-      "fantasia": "RIO BRASA - LEBLON",
-      "bairro": "LAGOA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "24.281.673/0001-25",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "7853",
       "razao": "CHARDONAY DISTRIBUICAO LTDA.",
       "fantasia": "",
@@ -120836,6 +120820,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "93786",
+      "razao": "DISTRIBEER DISTRIBUIDORA DE BEBIDAS LTDA",
+      "fantasia": "DISTRIBEER DISTRIBUIDORA DE BEBIDAS",
+      "bairro": "CARAPINA",
+      "cidade": "SAO MATEUS",
+      "cnpj": "40.224.935/0001-76",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "269",
+      "nome_usur1": "OZISLLAN RAMALHO DE SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "92306",
       "razao": "DISTRIBUICAO MRD LTDA",
       "fantasia": "DISTRIBUICAO MRD",
@@ -121264,6 +121264,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "95942",
+      "razao": "DISTRIBUIDORA CAMILO GURIRI LTDA",
+      "fantasia": "DISTRIBUIDORA CAMILO GURIRI LTDA",
+      "bairro": "GURIRI NORTE",
+      "cidade": "SAO MATEUS",
+      "cnpj": "67.766.316/0001-60",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "269",
+      "nome_usur1": "OZISLLAN RAMALHO DE SOUZA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -126322,6 +126338,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "50677",
+      "razao": "DOUGLAS HUNGARO DE LIMA 17277333713 (CNPJ INAPTO)",
+      "fantasia": "MINI PADARIA ADONAI CQ",
+      "bairro": "CAMPO GRANDE",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "43.546.593/0001-07",
+      "estado": "RJ",
+      "ramo": "PADARIA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "10",
+      "nome_usur1": "INATIVO3",
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "71724",
@@ -356234,6 +356266,22 @@ const CLIENTES_RCA_DATA = {
       "bairro": "NESTOR GOMES",
       "cidade": "SAO MATEUS",
       "cnpj": "30.881.014/0001-22",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "269",
+      "nome_usur1": "OZISLLAN RAMALHO DE SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "92895",
+      "razao": "ZAMPIROLLI COMERCIAL DE BEBIDAS LTDA",
+      "fantasia": "ZAMPIROLLI COMERCIAL DE BEBIDAS",
+      "bairro": "AEROPORTO",
+      "cidade": "NOVA VENECIA",
+      "cnpj": "30.881.014/0003-94",
       "estado": "ES",
       "ramo": "MERCADO",
       "key_account": false,
