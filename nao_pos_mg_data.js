@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "06/08/2026 10:22",
+  "atualizado_em": "06/08/2026 10:40",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -5046,6 +5046,20 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "33265",
+        "cliente": "SUPERMERCADO PARANAIBA BELA VISTA LTDA",
+        "bairro": "BELA VISTA",
+        "dtultcomp": "23/04/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 3,
+            "valor": 503.28
+          }
+        ]
+      },
+      {
         "codcli": "38049",
         "cliente": "VAREJAO ASTEKA LTDA",
         "bairro": "ASTECA (SÃO BENEDITO)",
@@ -5056,6 +5070,20 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 2,
             "valor": 335.52
+          }
+        ]
+      },
+      {
+        "codcli": "37627",
+        "cliente": "PARANAIBA JABOTICATUBAS ALIMENTOS LTDA",
+        "bairro": "SÃO BENEDITO",
+        "dtultcomp": "27/05/2026",
+        "produtos": [
+          {
+            "produto": "WHISKY JACK DANIELS 700 ML",
+            "fantasia": "BROWN-FORMAN",
+            "qt": 12,
+            "valor": 1054.8
           }
         ]
       },
@@ -5132,6 +5160,32 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "29896",
+        "cliente": "NACIONAL PARANAIBA ALIMENTOS EIRELI",
+        "bairro": "SÃO JANUÁRIO (JUSTINÓPOLIS)",
+        "dtultcomp": "16/06/2026",
+        "produtos": [
+          {
+            "produto": "XAROPE  MONIN  MAÇA VERDE 330 ML",
+            "fantasia": "MONIN",
+            "qt": 3,
+            "valor": 68.7
+          },
+          {
+            "produto": "XAROPE MONIN MARACUJA 330 ML",
+            "fantasia": "MONIN",
+            "qt": 3,
+            "valor": 68.7
+          },
+          {
+            "produto": "XAROPE MONIN MORANGO 330 ML",
+            "fantasia": "MONIN",
+            "qt": 3,
+            "valor": 68.7
+          }
+        ]
+      },
+      {
         "codcli": "36399",
         "cliente": "COLIBRI LOJA DE CONVENIENCIA",
         "bairro": "SÃO LUIZ",
@@ -5162,6 +5216,20 @@ const NAO_POS_MG_DATA = {
             "fantasia": "DIAGEO",
             "qt": 3,
             "valor": 301.68
+          }
+        ]
+      },
+      {
+        "codcli": "33186",
+        "cliente": "PARANAIBA PEDRO LEOPOLDO ALIMENTOS LTDA",
+        "bairro": "DISTRITO LAGOA SANTO ANTONIO",
+        "dtultcomp": "19/06/2026",
+        "produtos": [
+          {
+            "produto": "GIN GORDONS 750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 6,
+            "valor": 329.4
           }
         ]
       },
@@ -5928,20 +5996,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "29896",
-        "cliente": "NACIONAL PARANAIBA ALIMENTOS EIRELI",
-        "bairro": "SÃO JANUÁRIO (JUSTINÓPOLIS)",
-        "dtultcomp": "16/07/2026",
-        "produtos": [
-          {
-            "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-            "fantasia": "DON LUIZ",
-            "qt": 3,
-            "valor": 224.7
-          }
-        ]
-      },
-      {
         "codcli": "29894",
         "cliente": "VAREJAO PLANALTO LTDA.",
         "bairro": "PLANALTO",
@@ -6298,20 +6352,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33265",
-        "cliente": "SUPERMERCADO PARANAIBA BELA VISTA LTDA",
-        "bairro": "BELA VISTA",
-        "dtultcomp": "21/07/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY J WALKER BLACK LABEL 1L",
-            "fantasia": "DIAGEO",
-            "qt": 3,
-            "valor": 416.7
-          }
-        ]
-      },
-      {
         "codcli": "35137",
         "cliente": "SUPERMERCADOS CIDADE LTDA",
         "bairro": "CENTRO",
@@ -6410,40 +6450,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "HEINEKEN",
             "qt": 6,
             "valor": 848.16
-          }
-        ]
-      },
-      {
-        "codcli": "37627",
-        "cliente": "PARANAIBA JABOTICATUBAS ALIMENTOS LTDA",
-        "bairro": "SÃO BENEDITO",
-        "dtultcomp": "24/07/2026",
-        "produtos": [
-          {
-            "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
-            "fantasia": "AURORA",
-            "qt": 6,
-            "valor": 899.4
-          },
-          {
-            "produto": "WHISKY J WALKER BLACK LABEL 1L",
-            "fantasia": "DIAGEO",
-            "qt": 6,
-            "valor": 833.4
-          }
-        ]
-      },
-      {
-        "codcli": "33186",
-        "cliente": "PARANAIBA PEDRO LEOPOLDO ALIMENTOS LTDA",
-        "bairro": "DISTRITO LAGOA SANTO ANTONIO",
-        "dtultcomp": "24/07/2026",
-        "produtos": [
-          {
-            "produto": "GIN GORDONS PINK 700ML",
-            "fantasia": "DIAGEO",
-            "qt": 6,
-            "valor": 329.4
           }
         ]
       },
