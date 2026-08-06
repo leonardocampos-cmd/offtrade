@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "05/08/2026 17:59",
+  "atualizado_em": "06/08/2026 10:05",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -3237,14 +3237,14 @@ const CRUSOE_DATA = {
         {
           "rca": 144,
           "vendedor": "Diogo Raposo",
-          "pedidos": 2,
+          "pedidos": 4,
           "positivacoes": 0,
-          "novos_skus": 0,
-          "faturamento": 1150.56,
+          "novos_skus": 1,
+          "faturamento": 1917.6,
           "pontos_positivacao": 0,
-          "pontos_novos_skus": 0,
+          "pontos_novos_skus": 4,
           "pontos_pedidos_valor": 2,
-          "pontos_total": 2,
+          "pontos_total": 6,
           "vendas": [
             {
               "numnota": "408373",
@@ -3283,6 +3283,46 @@ const CRUSOE_DATA = {
                   "qt": 3.0,
                   "valor": 575.28,
                   "pontuacoes": []
+                }
+              ]
+            },
+            {
+              "numnota": "419098",
+              "data": "05/08/2026",
+              "cliente": "CENTRO DE EDUCACAO RELIGIOSA ISRAELITA",
+              "valor_pedido": 383.52,
+              "eventos": [],
+              "itens": [
+                {
+                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+                  "qt": 2.0,
+                  "valor": 383.52,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "419099",
+              "data": "05/08/2026",
+              "cliente": "CENTRO DE EDUCACAO RELIGIOSA ISRAELITA",
+              "valor_pedido": 383.52,
+              "eventos": [],
+              "itens": [
+                {
+                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+                  "qt": 2.0,
+                  "valor": 383.52,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
                 }
               ]
             }
