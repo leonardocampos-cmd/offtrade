@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "06/08/2026 15:19",
+  "atualizado_em": "06/08/2026 15:37",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -967,62 +967,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "PERNOD",
             "qt": 3,
             "valor": 177.54
-          }
-        ]
-      },
-      {
-        "codcli": "34568",
-        "cliente": "BIG MAIS SUPERMERCADOS LTDA",
-        "bairro": "VILA ISA",
-        "dtultcomp": "31/07/2026",
-        "produtos": [
-          {
-            "produto": "PURE MONIN LIMÃO SICILIANO 700ML",
-            "fantasia": "MONIN",
-            "qt": 12,
-            "valor": 538.8
-          },
-          {
-            "produto": "XAROPE MONIN CRANBERRY 700 ML",
-            "fantasia": "MONIN",
-            "qt": 24,
-            "valor": 1077.6
-          },
-          {
-            "produto": "XAROPE MONIN FRAMBOESA 700 ML",
-            "fantasia": "MONIN",
-            "qt": 24,
-            "valor": 1077.6
-          },
-          {
-            "produto": "XAROPE MONIN LIMAO SICILIANO 700 ML",
-            "fantasia": "MONIN",
-            "qt": 18,
-            "valor": 808.2
-          },
-          {
-            "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
-            "fantasia": "MONIN",
-            "qt": 18,
-            "valor": 808.2
-          },
-          {
-            "produto": "XAROPE MONIN MELANCIA 700ML",
-            "fantasia": "MONIN",
-            "qt": 12,
-            "valor": 538.8
-          },
-          {
-            "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
-            "fantasia": "MONIN",
-            "qt": 12,
-            "valor": 538.8
-          },
-          {
-            "produto": "XAROPE MONIN TANGERINA (MANDARIM) 700ML",
-            "fantasia": "MONIN",
-            "qt": 18,
-            "valor": 808.2
           }
         ]
       }
@@ -4661,46 +4605,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33288",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "SÃO SEBASTIAO",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "AMARULA C LIQUEUR 750 ML",
-            "fantasia": "AURORA",
-            "qt": 12,
-            "valor": 1318.8
-          },
-          {
-            "produto": "GIN ORLOFF 1L",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 538.8
-          }
-        ]
-      },
-      {
-        "codcli": "33290",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "ANGÉLICA",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "AMARULA C LIQUEUR 750 ML",
-            "fantasia": "AURORA",
-            "qt": 12,
-            "valor": 1318.8
-          },
-          {
-            "produto": "GIN BEEFEATER 750ML",
-            "fantasia": "PERNOD",
-            "qt": 6,
-            "valor": 509.4
-          }
-        ]
-      },
-      {
         "codcli": "33293",
         "cliente": "ARMAZEM BRASIL LIMITADA",
         "bairro": "CENTRO",
@@ -4741,6 +4645,46 @@ const NAO_POS_MG_DATA = {
             "fantasia": "CASTAS",
             "qt": 12,
             "valor": 478.8
+          }
+        ]
+      },
+      {
+        "codcli": "33288",
+        "cliente": "ARMAZEM BRASIL LIMITADA",
+        "bairro": "SÃO SEBASTIAO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "AMARULA C LIQUEUR 750 ML",
+            "fantasia": "AURORA",
+            "qt": 12,
+            "valor": 1318.8
+          },
+          {
+            "produto": "GIN ORLOFF 1L",
+            "fantasia": "PERNOD",
+            "qt": 12,
+            "valor": 538.8
+          }
+        ]
+      },
+      {
+        "codcli": "33290",
+        "cliente": "ARMAZEM BRASIL LIMITADA",
+        "bairro": "ANGÉLICA",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "AMARULA C LIQUEUR 750 ML",
+            "fantasia": "AURORA",
+            "qt": 12,
+            "valor": 1318.8
+          },
+          {
+            "produto": "GIN BEEFEATER 750ML",
+            "fantasia": "PERNOD",
+            "qt": 6,
+            "valor": 509.4
           }
         ]
       },
