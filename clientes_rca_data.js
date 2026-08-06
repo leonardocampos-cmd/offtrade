@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "06/08/2026 16:16",
-  "total": 22301,
+  "atualizado_em": "06/08/2026 16:35",
+  "total": 22302,
   "clientes": [
     {
       "codcli": "38586",
@@ -272592,6 +272592,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "34211",
+      "razao": "PEDRO HENRIQUE OLIVEIRA EVENTOS",
+      "fantasia": "PEDRO HENRIQUE OLIVEIRA EVENTOS",
+      "bairro": "ICAIVERA",
+      "cidade": "BETIM",
+      "cnpj": "44.518.742/0001-89",
+      "estado": "MG",
+      "ramo": "EVENTOS",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "327",
+      "nome_usur1": "JOÃO SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
