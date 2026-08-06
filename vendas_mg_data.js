@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "06/08/2026 08:00",
+  "atualizado_em": "06/08/2026 11:45",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -364,8 +364,8 @@ const VENDAS_MG_DATA = {
         "fat_ano_ant": 0.0
       },
       "Jul/26": {
-        "fat": 212176.74,
-        "pos": 60,
+        "fat": 209473.14,
+        "pos": 56,
         "fat_ant": 168142.6,
         "fat_ano_ant": 0.0
       },
@@ -390,7 +390,7 @@ const VENDAS_MG_DATA = {
       "Ago/26": {
         "fat": 6482.64,
         "pos": 4,
-        "fat_ant": 212176.74,
+        "fat_ant": 209473.14,
         "fat_ano_ant": 0.0
       }
     },
@@ -197645,16 +197645,6 @@ const VENDAS_MG_DATA = {
           "offtrade": true
         },
         {
-          "data": "16/07/2026",
-          "codcli": "29896",
-          "cliente": "NACIONAL PARANAIBA ALIMENTOS EIRELI",
-          "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-          "fantasia": "DON LUIZ",
-          "qt": 3,
-          "valor": 224.7,
-          "offtrade": true
-        },
-        {
           "data": "28/07/2026",
           "codcli": "29386",
           "cliente": "SUPERMERCADO PARANAIBA JARDIM ITAU LTDA",
@@ -198205,16 +198195,6 @@ const VENDAS_MG_DATA = {
           "offtrade": true
         },
         {
-          "data": "24/07/2026",
-          "codcli": "33186",
-          "cliente": "PARANAIBA PEDRO LEOPOLDO ALIMENTOS LTDA",
-          "produto": "GIN GORDONS PINK 700ML",
-          "fantasia": "DIAGEO",
-          "qt": 6,
-          "valor": 329.4,
-          "offtrade": true
-        },
-        {
           "data": "02/07/2026",
           "codcli": "32067",
           "cliente": "ORGANIZACOES MARINA LTDA",
@@ -198252,16 +198232,6 @@ const VENDAS_MG_DATA = {
           "fantasia": "CASTAS",
           "qt": 6,
           "valor": 239.4,
-          "offtrade": true
-        },
-        {
-          "data": "21/07/2026",
-          "codcli": "33265",
-          "cliente": "SUPERMERCADO PARANAIBA BELA VISTA LTDA",
-          "produto": "WHISKY J WALKER BLACK LABEL 1L",
-          "fantasia": "DIAGEO",
-          "qt": 3,
-          "valor": 416.7,
           "offtrade": true
         },
         {
@@ -198912,26 +198882,6 @@ const VENDAS_MG_DATA = {
           "fantasia": "DIAGEO",
           "qt": 36,
           "valor": 2444.4,
-          "offtrade": true
-        },
-        {
-          "data": "24/07/2026",
-          "codcli": "37627",
-          "cliente": "PARANAIBA JABOTICATUBAS ALIMENTOS LTDA",
-          "produto": "WHISKY J WALKER BLACK LABEL 1L",
-          "fantasia": "DIAGEO",
-          "qt": 6,
-          "valor": 833.4,
-          "offtrade": true
-        },
-        {
-          "data": "24/07/2026",
-          "codcli": "37627",
-          "cliente": "PARANAIBA JABOTICATUBAS ALIMENTOS LTDA",
-          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
-          "fantasia": "AURORA",
-          "qt": 6,
-          "valor": 899.4,
           "offtrade": true
         },
         {
