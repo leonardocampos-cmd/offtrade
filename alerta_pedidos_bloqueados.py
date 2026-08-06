@@ -1,153 +1,247 @@
 """
-Alerta de pedidos bloqueados por WhatsApp — consulta ao vivo PCPEDC.POSICAO='B'
-(bloqueado, geralmente por desconto acima do permitido, cliente bloqueado ou
-limite de crédito excedido) em CRC, thekings, CASTAS, GARRIDO, SPON e MGON,
-agrupado por vendedor OFF TRADE.
-
-FASE DE TESTE: em vez de usar o TELEFONE real de cada vendedor, os
-vendedores sorteados aleatoriamente sao enviados para os mesmos 3 numeros de
-teste do report_diario_vendedor.py. Quando validado, trocar TEST_NUMBERS por
-uma consulta a PCUSUARI.TELEFONE.
+Alerta de pedidos bloqueados por WhatsApp — consulta ao vivo PCPEDC.POSICAO
+IN ('B','M') (bloqueado / bloqueado por alçada) em CRC, thekings, CASTAS,
+GARRIDO, SPON e MGON, só vendedor RJ (TABELA DE PREÇO RJ.xlsx só vale por
+lá — mesma limitação de conferencia_preco.py/pedidos.py). Envia direto pro
+WhatsApp do próprio vendedor (PCUSUARI.TELEFONE1/TELEFONE2), com o motivo
+enriquecido (produto + preço digitado vs. tabela) quando o bloqueio for por
+desconto acima do permitido — mesma lógica de pedidos.py::_preco_motivo_bloqueio.
 """
+import json
 import os
-import random
+import re
 import time
-from datetime import date
+from datetime import date, datetime
+from pathlib import Path
 from urllib.parse import quote_plus
 
-import oracledb
 import pandas as pd
-from sqlalchemy import create_engine, text
-from dotenv import load_dotenv
-from whatsapp_evolution import enviar_whatsapp as _enviar_whatsapp
 
-load_dotenv()
+from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, engine_mgon, carregar_dados, carregar_paralelo
+import baixar_planilhas_drive as _bpd
+from whatsapp_evolution import enviar_whatsapp
 
-oracledb.init_oracle_client(lib_dir=os.getenv("ORACLE_LIB", "/opt/oracle/instantclient_21_1"))
+# Nunca mandar pra esse número, mesmo que apareça como TELEFONE1/2 de algum
+# vendedor no Oracle — pedido explícito do usuário em 2026-08-05 (ver
+# [[feedback_whatsapp_numero_teste]]).
+_NUMERO_PROIBIDO = "5521974972433"
 
-user     = os.environ["VPN_USER"]
-password = os.environ["VPN_PASSWORD"]
-crc_user = os.getenv("CRC_USER", user)
-crc_pass = os.getenv("CRC_PASSWORD", password)
-spon_user = os.getenv("SPON_USER", user)
-spon_pass = os.getenv("SPON_PASSWORD", password)
+REGISTRO_JSON = str(Path(__file__).parent / "pedidos_bloqueados_enviados.json")
 
-TEST_NUMBERS = ["5521970922712", "5521992085320", "5521966632125"]
+# Pedidos aguardando resposta do vendedor, por telefone — lido pelo
+# pedido_reply_bot.py (webhook da Evolution) pra saber a que pedido(s) uma
+# resposta recebida se refere.
+AGUARDANDO_JSON = str(Path(__file__).parent / "pedidos_aguardando_resposta.json")
 
-_OFF_TRADE = "NOME LIKE '%OFF TRADE%'"
-_OFF_TRADE_WS = "(NOME LIKE '%OFF TRADE%' OR NOME LIKE '%W.S%')"
+_SPON_EXTRA = ['%W.S%']
 
-_BASES = [
-    ("CRC",      f"oracle+oracledb://{crc_user}:{quote_plus(crc_pass)}@crc_oci",   "CRC",      _OFF_TRADE),
-    ("thekings", f"oracle+oracledb://{user}:{password}@theking_oci",               "THEKINGS", _OFF_TRADE),
-    ("CASTAS",   f"oracle+oracledb://{user}:{password}@10.131.62.40:1576/?service_name=CASTASPRD", "CASTAS", _OFF_TRADE),
-    ("GARRIDO",  f"oracle+oracledb://{user}:{password}@10.107.213.84:1521/?service_name=orcl_pdb1.subnetwintcompa.vcnrootautoskyo.oraclevcn.com", "GARRIDO", _OFF_TRADE),
-    ("SPON",     f"oracle+oracledb://{user}:{password}@spon_oci",                  "SPON",     _OFF_TRADE_WS),
-    ("MGON",     f"oracle+oracledb://{user}:{password}@mgon_oci",                  "MGON",     _OFF_TRADE_WS),
+_SOURCES = [
+    ("CRC",      engine,         None),
+    ("thekings", engine_theking, None),
+    ("CASTAS",   engine_castas,  None),
+    ("GARRIDO",  engine_garrido, None),
+    ("SPON",     engine_spon,    _SPON_EXTRA),
+    ("MGON",     engine_mgon,    _SPON_EXTRA),
 ]
 
 
-def _query_bloqueados(schema: str, filtro_off_trade: str) -> str:
+def _nome_filter(extra_nomes=None, alias='PED'):
+    base = f"{alias}.NOME LIKE '%OFF TRADE%'"
+    if extra_nomes:
+        extras = " OR ".join(f"{alias}.NOME LIKE '{p}'" for p in extra_nomes)
+        return f"({base} OR {extras})"
+    return base
+
+
+def _query_bloqueados(schema, extra_nomes=None):
+    nome_f = _nome_filter(extra_nomes)
     return f"""
-        SELECT P.NUMPED      AS NUMPED,
-               P.CODCLI      AS CODCLI,
-               CL.CLIENTE    AS CLIENTE,
-               U.NOME        AS VENDEDOR,
-               P.DATA        AS DATA,
-               P.VLTOTAL     AS VLTOTAL,
-               P.MOTIVOPOSICAO AS MOTIVO
-        FROM {schema}.PCPEDC P
-        JOIN {schema}.PCUSUARI U ON P.CODUSUR = U.CODUSUR
-        LEFT JOIN {schema}.PCCLIENT CL ON P.CODCLI = CL.CODCLI
-        WHERE P.POSICAO = 'B' AND {filtro_off_trade}
+        SELECT PED.NUMPED, PED.CLIENTE, PED.CODPROD, PED.DESCRICAO, PED.PVENDA,
+               PC.POSICAO, PC.MOTIVOPOSICAO,
+               U.NOME AS VENDEDOR, U.TELEFONE1, U.TELEFONE2, U.ESTADO
+        FROM {schema}.PBI_PCPEDI PED
+        JOIN {schema}.PCUSUARI U ON U.CODUSUR = PED.CODUSUR
+        JOIN {schema}.PCPEDC   PC ON PC.NUMPED = PED.NUMPED
+        WHERE {nome_f}
+          AND U.ESTADO = 'RJ'
+          AND PC.POSICAO IN ('B', 'M')
+          AND PED.DATA >= SYSDATE - 7
     """
 
 
-def montar_bloqueados_por_vendedor() -> tuple[dict, list]:
-    partes = []
+# ── Tabela de preços RJ (mesma fonte/lógica de pedidos.py) ──────────────────
+
+_precos_rj: dict = {}
+try:
+    _tab_on = pd.read_excel(
+        _bpd.com_fallback(
+            _bpd.caminho_tabela_preco_rj,
+            r"G:\Drives compartilhados\EQUIPE DE VENDAS RJ\TABELA DE PREÇO RJ.xlsx",
+        ),
+        sheet_name='TABELA', skiprows=5, dtype=str,
+    )
+    _tab_on.columns = _tab_on.columns.str.strip()
+    _tab_on['PREÇO'] = pd.to_numeric(_tab_on['PREÇO'].str.replace(',', '.'), errors='coerce').round(2)
+    _tab_on['PREÇO PROMOCIONAL'] = pd.to_numeric(_tab_on['PREÇO PROMOCIONAL'].str.replace(',', '.'), errors='coerce').round(2)
+    _tab_on['COD CRC'] = _tab_on['COD CRC'].astype(str).str.strip()
+    for _, _r in _tab_on.iterrows():
+        _cod = _r['COD CRC']
+        if _cod and _cod != 'nan':
+            _precos_rj[_cod] = {
+                'preco_on':          _r['PREÇO'] if pd.notna(_r['PREÇO']) else None,
+                'preco_promocional': _r['PREÇO PROMOCIONAL'] if pd.notna(_r['PREÇO PROMOCIONAL']) else None,
+            }
+    print(f"Tabela de preços RJ: {len(_precos_rj)} produto(s) mapeado(s)")
+except Exception as e:
+    print(f"[AVISO] Tabela de preços RJ indisponível ({str(e)[:100]}) — motivo fica sem preço de tabela")
+
+
+def _preco_tabela(codprod):
+    info = _precos_rj.get(str(codprod))
+    if not info:
+        return None
+    candidatos = [info[k] for k in ('preco_on', 'preco_promocional') if info.get(k) is not None]
+    return round(min(candidatos), 2) if candidatos else None
+
+
+_RE_MOTIVO_DESCONTO = re.compile(r'desconto acima do permitido\s*:\s*(\d+)', re.IGNORECASE)
+
+
+def _motivo_enriquecido(motivo, codprod_linha, descricao_linha, pvenda_linha):
+    """Se o motivo citar um CODPROD com preço de tabela conhecido, monta
+    '<motivo> — <produto> (digitado R$ x · tabela R$ y)'. Senão devolve o
+    motivo cru (bloqueio por crédito, cliente bloqueado etc. não tem preço
+    pra comparar)."""
+    m = _RE_MOTIVO_DESCONTO.search(motivo or '')
+    if not m:
+        return motivo or '(motivo não informado)'
+    codprod_motivo = m.group(1)
+    if str(codprod_linha) != codprod_motivo or pd.isna(pvenda_linha):
+        return motivo
+    pt = _preco_tabela(codprod_motivo)
+    if pt is None:
+        return motivo
+    return (
+        f"{motivo.strip()} — {descricao_linha} "
+        f"(digitado {_fmt_brl(pvenda_linha)} · tabela {_fmt_brl(pt)})"
+    )
+
+
+def _fmt_brl(v):
+    return f"R$ {float(v):,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+
+
+def _normalizar_telefone(raw):
+    digits = re.sub(r'\D', '', str(raw) if raw else '')
+    if not digits:
+        return None
+    if not digits.startswith('55'):
+        digits = '55' + digits
+    return digits
+
+
+def montar_bloqueados_por_vendedor():
     fontes_indisponiveis = []
-    for nome, url, schema, filtro in _BASES:
-        eng = create_engine(url, pool_pre_ping=True, pool_recycle=3600, connect_args={"expire_time": 2})
-        try:
-            with eng.connect() as conn:
-                df = pd.read_sql(text(_query_bloqueados(schema, filtro)), conn)
-            df.columns = df.columns.str.upper()
-            print(f"-> {nome}: {len(df)} pedido(s) bloqueado(s)")
-            partes.append(df)
-        except Exception as e:
-            print(f"[AVISO] {nome} falhou ({str(e)[:100]}) — ignorado")
-            fontes_indisponiveis.append(nome)
+    chamadas = [
+        (_query_bloqueados(schema, extra), eng, f"bloqueados_{schema}")
+        for schema, eng, extra in _SOURCES
+    ]
+    partes = []
+    for (schema, eng, extra), res in zip(_SOURCES, carregar_paralelo(chamadas)):
+        if isinstance(res, Exception):
+            print(f"[AVISO] bloqueados_{schema} falhou ({str(res)[:100]}) — ignorado")
+            fontes_indisponiveis.append(schema)
+        else:
+            res.columns = res.columns.str.upper()
+            partes.append(res)
 
     if not partes:
         return {}, fontes_indisponiveis
 
     pedidos = pd.concat(partes, ignore_index=True)
-    pedidos["VLTOTAL"] = pd.to_numeric(pedidos["VLTOTAL"], errors="coerce").fillna(0)
+    pedidos['PVENDA'] = pd.to_numeric(pedidos['PVENDA'], errors='coerce')
 
     por_vendedor: dict = {}
     for _, row in pedidos.iterrows():
-        vendedor = (row["VENDEDOR"] or "").strip()
-        por_vendedor.setdefault(vendedor, []).append({
-            "numped":  row["NUMPED"],
-            "cliente": (row["CLIENTE"] or f"Cód. {row['CODCLI']}").strip(),
-            "valor":   float(row["VLTOTAL"]),
-            "motivo":  (row["MOTIVO"] or "(motivo não informado)").strip(),
+        vendedor = (row['VENDEDOR'] or '').strip()
+        telefone = _normalizar_telefone(row.get('TELEFONE1')) or _normalizar_telefone(row.get('TELEFONE2'))
+        motivo_txt = _motivo_enriquecido(row['MOTIVOPOSICAO'], row['CODPROD'], row['DESCRICAO'], row['PVENDA'])
+        entry = por_vendedor.setdefault(vendedor, {'telefone': telefone, 'pedidos': {}})
+        if not entry['telefone']:
+            entry['telefone'] = telefone
+        entry['pedidos'].setdefault(str(row['NUMPED']), {
+            'numped':  str(row['NUMPED']),
+            'cliente': (row['CLIENTE'] or '').strip(),
+            'motivo':  motivo_txt,
         })
     return por_vendedor, fontes_indisponiveis
 
 
-def _fmt_brl(v):
-    return f"R$ {v:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
-
-
-def montar_mensagem(vendedor: str, pedidos: list, fontes_indisponiveis: list) -> str:
-    hoje_str = date.today().strftime("%d/%m/%Y")
-    linhas = [
-        f"*PEDIDOS BLOQUEADOS — {hoje_str}*",
-        f"Vendedor: *{vendedor}*\n",
-    ]
+def montar_mensagem(vendedor, pedidos, fontes_indisponiveis):
+    hoje_str = date.today().strftime('%d/%m/%Y')
+    linhas = [f"*PEDIDO(S) BLOQUEADO(S) — {hoje_str}*", f"Olá {vendedor.split(' - ')[0].title()}, o(s) pedido(s) abaixo está(ão) bloqueado(s):\n"]
     for p in pedidos:
-        linhas.append(
-            f"• *Pedido {p['numped']}* — {p['cliente']}\n"
-            f"  Motivo: {p['motivo']}\n"
-            f"  Valor: {_fmt_brl(p['valor'])}"
-        )
-    aviso = "\n_Mensagem de teste — envio automatizado de pedidos bloqueados._"
+        linhas.append(f"• *Pedido {p['numped']}* — {p['cliente']}\n  Motivo: {p['motivo']}")
     if fontes_indisponiveis:
-        aviso += (
-            f"\n_⚠️ Fonte(s) fora do ar nesta consulta: {', '.join(fontes_indisponiveis)} — "
-            f"pode haver pedidos bloqueados não listados aqui._"
-        )
-    return "\n".join(linhas) + "\n" + aviso
-
-
-def enviar_whatsapp(numero, mensagem):
-    return _enviar_whatsapp(numero, mensagem)
+        linhas.append(f"\n_⚠️ Fonte(s) fora do ar nesta consulta: {', '.join(fontes_indisponiveis)} — pode haver pedidos bloqueados não listados aqui._")
+    return "\n".join(linhas)
 
 
 def main():
     por_vendedor, fontes_indisponiveis = montar_bloqueados_por_vendedor()
     if fontes_indisponiveis:
-        print(f"[AVISO] Fontes indisponiveis nesta execucao: {fontes_indisponiveis} — resultados podem estar incompletos.")
+        print(f"[AVISO] Fontes indisponíveis nesta execução: {fontes_indisponiveis}")
 
     if not por_vendedor:
-        print("Nenhum pedido bloqueado (OFF TRADE) no momento. Nada enviado.")
+        print("Nenhum pedido bloqueado (OFF TRADE RJ) no momento. Nada enviado.")
         return
 
-    vendedores = list(por_vendedor.keys())
-    n = min(3, len(vendedores))
-    sorteados = random.sample(vendedores, n)
-    numeros = random.sample(TEST_NUMBERS, n)
+    enviados = set()
+    if os.path.exists(REGISTRO_JSON) and os.path.getsize(REGISTRO_JSON) > 0:
+        with open(REGISTRO_JSON, "r", encoding="utf-8") as f:
+            enviados = set(json.load(f))
 
-    for numero, vendedor in zip(numeros, sorteados):
-        pedidos = por_vendedor[vendedor]
-        mensagem = montar_mensagem(vendedor, pedidos, fontes_indisponiveis)
-        resp = enviar_whatsapp(numero, mensagem)
+    for vendedor, info in por_vendedor.items():
+        pedidos_novos = [p for numped, p in info['pedidos'].items() if numped not in enviados]
+        if not pedidos_novos:
+            continue
+
+        telefone = info['telefone']
+        if not telefone:
+            print(f"[AVISO] {vendedor}: {len(pedidos_novos)} pedido(s) bloqueado(s) novo(s), mas sem telefone cadastrado — não enviado.")
+            continue
+        if telefone == _NUMERO_PROIBIDO:
+            print(f"[AVISO] {vendedor}: número proibido ({_NUMERO_PROIBIDO}) — não enviado.")
+            continue
+
+        mensagem = montar_mensagem(vendedor, pedidos_novos, fontes_indisponiveis)
+        resp = enviar_whatsapp(telefone, mensagem)
         if resp.status_code in (200, 201):
-            print(f"OK - enviado para {numero} (dados de {vendedor}, {len(pedidos)} pedido(s))")
+            print(f"OK - enviado para {vendedor} ({telefone}), {len(pedidos_novos)} pedido(s)")
+            enviados.update(p['numped'] for p in pedidos_novos)
+            _registrar_aguardando(telefone, vendedor, pedidos_novos)
         else:
-            print(f"Erro ao enviar para {numero}: {resp.status_code} - {resp.text[:200]}")
+            print(f"Erro ao enviar para {vendedor} ({telefone}): {resp.status_code} - {resp.text[:200]}")
         time.sleep(1)
+
+    with open(REGISTRO_JSON, "w", encoding="utf-8") as f:
+        json.dump(sorted(enviados), f, ensure_ascii=False, indent=2)
+
+
+def _registrar_aguardando(telefone, vendedor, pedidos_novos):
+    aguardando = {}
+    if os.path.exists(AGUARDANDO_JSON) and os.path.getsize(AGUARDANDO_JSON) > 0:
+        with open(AGUARDANDO_JSON, "r", encoding="utf-8") as f:
+            aguardando = json.load(f)
+    fila = aguardando.setdefault(telefone, [])
+    agora = datetime.now().isoformat()
+    for p in pedidos_novos:
+        fila.append({
+            'numped': p['numped'], 'cliente': p['cliente'], 'motivo': p['motivo'],
+            'vendedor': vendedor, 'enviado_em': agora,
+        })
+    with open(AGUARDANDO_JSON, "w", encoding="utf-8") as f:
+        json.dump(aguardando, f, ensure_ascii=False, indent=2)
 
 
 if __name__ == "__main__":
