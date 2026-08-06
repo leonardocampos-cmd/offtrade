@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "06/08/2026 14:07",
+  "atualizado_em": "06/08/2026 14:19",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -28234,6 +28234,29 @@ const NAO_POS_ES_DATA = {
         "codcli": "95840",
         "cliente": "SUPERMERCADO BIG FIELD LTDA",
         "bairro": "SENADOR VASCONCELOS",
+        "dtultcomp": "nan",
+        "produtos": []
+      }
+    ],
+    "OZISLLAN RAMALHO DE SOUZA": [
+      {
+        "codcli": "93786",
+        "cliente": "DISTRIBEER DISTRIBUIDORA DE BEBIDAS LTDA",
+        "bairro": "CARAPINA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95942",
+        "cliente": "DISTRIBUIDORA CAMILO GURIRI LTDA",
+        "bairro": "GURIRI NORTE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "91593",
+        "cliente": "ZAMPIROLLI COMERCIAL DE BEBIDAS LTDA",
+        "bairro": "NESTOR GOMES",
         "dtultcomp": "nan",
         "produtos": []
       }
