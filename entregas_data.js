@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "06/08/2026 10:06",
+  "atualizado_em": "06/08/2026 11:06",
   "data_rota": "06.08",
   "vendedores": [
     {
@@ -2307,22 +2307,6 @@ const ENTREGAS_DATA = {
               "val": 45.9
             }
           ],
-          "motivo_alerta": "LOCAL FECHADO - LOGÍSTICA IGNOROU O AGENDAMENTO — Horário de recebimento só até às 15h, vendedor Angelo Neves está ciente.",
-          "responsavel_alerta": "Logística"
-        },
-        {
-          "numped": "",
-          "numnota": "418219",
-          "data": "",
-          "cliente": "SUPERMERCADOS RIO SUL DA PENHA LTDA",
-          "placa": "",
-          "rota": "LTG4A18 / PENHA + ZÉ",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
           "motivo_alerta": "LOCAL FECHADO - LOGÍSTICA IGNOROU O AGENDAMENTO — Horário de recebimento só até às 15h, vendedor Angelo Neves está ciente.",
           "responsavel_alerta": "Logística"
         }
@@ -5240,54 +5224,6 @@ const ENTREGAS_DATA = {
           ],
           "motivo_alerta": "Pendente de Baixa",
           "responsavel_alerta": "Logística"
-        },
-        {
-          "numped": "",
-          "numnota": "7251",
-          "data": "",
-          "cliente": "TMT COMERCIO E DISTRIBUICAO DE ALIMENTOS E BEBIDAS LTDA",
-          "placa": "",
-          "rota": "TUK2F64 / TRANSBORDO + TMT COMERCIO",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
-          "motivo_alerta": "CANCELAMENTO — Cliente não quis aceitar a mercadoria devido estar em uma caixa diferente , mas a caixa só foi para servir de proteção para o transbordo ser mais seguro. Vendedora Giselle Barfer está ciente e solicitou o cancelamento da NF.",
-          "responsavel_alerta": "Vendas"
-        },
-        {
-          "numped": "",
-          "numnota": "418573",
-          "data": "",
-          "cliente": "ADRIANA BARBOSA DA SILVA CAFETERIA LTDA",
-          "placa": "",
-          "rota": "RKR6E39 / BÚZIOS",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
-          "motivo_alerta": "Pendente de Baixa",
-          "responsavel_alerta": "Logística"
-        },
-        {
-          "numped": "",
-          "numnota": "415970",
-          "data": "",
-          "cliente": "32.178.541 CARLOS ALBERTO DE SA MENDONCA JUNIOR",
-          "placa": "",
-          "rota": "RKR6E39 / BÚZIOS",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
-          "motivo_alerta": "Pendente de Baixa",
-          "responsavel_alerta": "Logística"
         }
       ]
     },
@@ -6382,22 +6318,6 @@ const ENTREGAS_DATA = {
               "val": 885.6
             }
           ],
-          "motivo_alerta": "ESTABELECIMENTO COM NECESSIDADES ESPECIAIS — MERCADO SÓ RECEBE A NOTA ATE 14:30H VENDEDOR JORGE MACIEL CIENTE",
-          "responsavel_alerta": "Vendas"
-        },
-        {
-          "numped": "",
-          "numnota": "7258",
-          "data": "",
-          "cliente": "RAMAR COM PRODUTOS ALIMENTICIOS EIRELI",
-          "placa": "",
-          "rota": "LMV5I35 / SANTA CRUZ+ CAMPO GRANDE",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
           "motivo_alerta": "ESTABELECIMENTO COM NECESSIDADES ESPECIAIS — MERCADO SÓ RECEBE A NOTA ATE 14:30H VENDEDOR JORGE MACIEL CIENTE",
           "responsavel_alerta": "Vendas"
         }
@@ -7786,38 +7706,6 @@ const ENTREGAS_DATA = {
           ],
           "motivo_alerta": "Nf não estava agendada para entrega, vendedora Maria luiza está ciente — Nf não estava agendada para entrega, vendedora Maria luiza está ciente",
           "responsavel_alerta": "A Definir"
-        },
-        {
-          "numped": "",
-          "numnota": "6964",
-          "data": "",
-          "cliente": "DOM ATACAREJO S.A.",
-          "placa": "",
-          "rota": "LSQ9E43 / DOM ATACAREJO",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
-          "motivo_alerta": "Nf não estava agendada para entrega, vendedora Maria luiza está ciente — Nf não estava agendada para entrega, vendedora Maria luiza está ciente",
-          "responsavel_alerta": "A Definir"
-        },
-        {
-          "numped": "",
-          "numnota": "7014",
-          "data": "",
-          "cliente": "DOM ATACAREJO S.A.",
-          "placa": "",
-          "rota": "LSQ9E43 / DOM ATACAREJO",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
-          "motivo_alerta": "Nf não estava agendada para entrega, vendedora Maria luiza está ciente — Nf não estava agendada para entrega, vendedora Maria luiza está ciente",
-          "responsavel_alerta": "A Definir"
         }
       ]
     },
@@ -8162,7 +8050,7 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
-          "numped": "156003801",
+          "numped": "156003802",
           "numnota": "",
           "data": "06/08/2026",
           "cliente": "POSTO JK NIEMEYER LTDA",
@@ -8172,12 +8060,12 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 495.82,
+          "total": 499.82,
           "itens": [
             {
               "desc": "WHISKY J WALKER RED LABEL 750ML",
               "qt": 1,
-              "val": 64.9
+              "val": 68.9
             },
             {
               "desc": "LICOR CAN FIREBALL CX C/ 6X50ML",
@@ -9576,22 +9464,6 @@ const ENTREGAS_DATA = {
               "val": 55.5
             }
           ],
-          "motivo_alerta": "ERRO DE ROTA — Fora de rota.",
-          "responsavel_alerta": "Logística"
-        },
-        {
-          "numped": "",
-          "numnota": "418739",
-          "data": "",
-          "cliente": "POSTO PALACIO GUANABARA LTDA",
-          "placa": "",
-          "rota": "TTN5H14 / SUL 1",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
           "motivo_alerta": "ERRO DE ROTA — Fora de rota.",
           "responsavel_alerta": "Logística"
         }
@@ -12018,7 +11890,28 @@ const ENTREGAS_DATA = {
     {
       "nome": "ZEINALDO DE OLIVEIRA - OFF TRADE",
       "em_rota": [],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "241000540",
+          "numnota": "",
+          "data": "06/08/2026",
+          "cliente": "VILMA APARECIDA VIEIRA CARVALHO 94668167649",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 539.28,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 3,
+              "val": 539.28
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [],
       "canceladas": [],
       "nao_entregue": [
@@ -12041,22 +11934,6 @@ const ENTREGAS_DATA = {
               "val": 539.28
             }
           ],
-          "motivo_alerta": "Pendente de Baixa",
-          "responsavel_alerta": "Logística"
-        },
-        {
-          "numped": "",
-          "numnota": "418318",
-          "data": "",
-          "cliente": "38.200.029 CLAUDIO LUIZ PEREIRA FARIA",
-          "placa": "",
-          "rota": "RKR6E39 / BÚZIOS",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 0.0,
-          "itens": [],
           "motivo_alerta": "Pendente de Baixa",
           "responsavel_alerta": "Logística"
         }
