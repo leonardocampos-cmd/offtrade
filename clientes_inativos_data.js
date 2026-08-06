@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "06/08/2026 14:44",
+  "atualizado_em": "06/08/2026 14:59",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -5412,15 +5412,6 @@ const INATIVOS_DATA = {
           "media": 517.12
         },
         {
-          "codcli": "85075",
-          "cliente": "DEPOSITO DE BEBIDAS E MERCEARIA SIPIONE LTDA",
-          "bairro": "UNAMAR (TAMOIOS)",
-          "cidade": "CABO FRIO",
-          "dtultcomp": "02/06/2026",
-          "dias": 65,
-          "media": 207.87
-        },
-        {
           "codcli": "85937",
           "cliente": "54.260.409 GLALCIENE DO NASCIMENTO BICALHO",
           "bairro": "RESIDENCIAL PRAIA ÂNCORA",
@@ -5482,15 +5473,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "25/06/2026",
           "dias": 42,
           "media": 90.47
-        },
-        {
-          "codcli": "85149",
-          "cliente": "VILMA APARECIDA VIEIRA CARVALHO 94668167649",
-          "bairro": "RIO DOURADO",
-          "cidade": "CASIMIRO DE ABR",
-          "dtultcomp": "26/06/2026",
-          "dias": 41,
-          "media": 543.28
         },
         {
           "codcli": "86634",
@@ -6720,15 +6702,6 @@ const INATIVOS_DATA = {
           "media": 176.8
         },
         {
-          "codcli": "76696",
-          "cliente": "SUPERMERCADO SHOW DE COMPRAS LTDA",
-          "bairro": "ARACE",
-          "cidade": "DOMINGOS MARTIN",
-          "dtultcomp": "15/05/2026",
-          "dias": 83,
-          "media": 244.15
-        },
-        {
           "codcli": "93694",
           "cliente": "MERCEARIA DIMAS LTDA",
           "bairro": "SAO VICENTE",
@@ -6736,15 +6709,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "15/05/2026",
           "dias": 83,
           "media": 731.67
-        },
-        {
-          "codcli": "84823",
-          "cliente": "PANIFICADORA TRIGO DA TERRA LTDA",
-          "bairro": "SAO PEDRO",
-          "cidade": "VENDA NOVA DO I",
-          "dtultcomp": "15/05/2026",
-          "dias": 83,
-          "media": 59.33
         },
         {
           "codcli": "84278",
@@ -6765,6 +6729,24 @@ const INATIVOS_DATA = {
           "media": 105.28
         },
         {
+          "codcli": "76696",
+          "cliente": "SUPERMERCADO SHOW DE COMPRAS LTDA",
+          "bairro": "ARACE",
+          "cidade": "DOMINGOS MARTIN",
+          "dtultcomp": "15/05/2026",
+          "dias": 83,
+          "media": 244.15
+        },
+        {
+          "codcli": "84823",
+          "cliente": "PANIFICADORA TRIGO DA TERRA LTDA",
+          "bairro": "SAO PEDRO",
+          "cidade": "VENDA NOVA DO I",
+          "dtultcomp": "15/05/2026",
+          "dias": 83,
+          "media": 59.33
+        },
+        {
           "codcli": "90523",
           "cliente": "COMERCIAL VALDEMIRO HELKER LTDA",
           "bairro": "DISTRITO DE PARAJU",
@@ -6783,15 +6765,6 @@ const INATIVOS_DATA = {
           "media": 320.76
         },
         {
-          "codcli": "84669",
-          "cliente": "JB COMERCIAL DE AFONSO CLAUDIO LTDA",
-          "bairro": "CENTRO",
-          "cidade": "AFONSO CLAUDIO",
-          "dtultcomp": "25/05/2026",
-          "dias": 73,
-          "media": 157.05
-        },
-        {
           "codcli": "75373",
           "cliente": "HORTIFRUT IMIGRANTE LTDA",
           "bairro": "VILA DA MATA",
@@ -6799,6 +6772,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "25/05/2026",
           "dias": 73,
           "media": 59.33
+        },
+        {
+          "codcli": "84669",
+          "cliente": "JB COMERCIAL DE AFONSO CLAUDIO LTDA",
+          "bairro": "CENTRO",
+          "cidade": "AFONSO CLAUDIO",
+          "dtultcomp": "25/05/2026",
+          "dias": 73,
+          "media": 157.05
         },
         {
           "codcli": "93622",
@@ -6873,15 +6855,6 @@ const INATIVOS_DATA = {
           "media": 1760.0
         },
         {
-          "codcli": "81521",
-          "cliente": "COMERCIAL BAE LTDA",
-          "bairro": "CENTRO",
-          "cidade": "AFONSO CLAUDIO",
-          "dtultcomp": "09/06/2026",
-          "dias": 58,
-          "media": 978.6
-        },
-        {
           "codcli": "84611",
           "cliente": "PACHECO COMERCIO DE EMBALAGENS LTDA",
           "bairro": "CENTRO",
@@ -6889,15 +6862,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "09/06/2026",
           "dias": 58,
           "media": 2964.47
-        },
-        {
-          "codcli": "84010",
-          "cliente": "RESTAURANTE VENTURIM LTDA",
-          "bairro": "SAO JOAO DE VICOSA",
-          "cidade": "VENDA NOVA DO I",
-          "dtultcomp": "09/06/2026",
-          "dias": 58,
-          "media": 910.27
         },
         {
           "codcli": "79858",
@@ -6909,13 +6873,22 @@ const INATIVOS_DATA = {
           "media": 4903.3
         },
         {
-          "codcli": "79770",
-          "cliente": "SUPERMERCADO ULIANA LTDA",
+          "codcli": "81521",
+          "cliente": "COMERCIAL BAE LTDA",
           "bairro": "CENTRO",
-          "cidade": "BREJETUBA",
-          "dtultcomp": "16/06/2026",
-          "dias": 51,
-          "media": 1137.1
+          "cidade": "AFONSO CLAUDIO",
+          "dtultcomp": "09/06/2026",
+          "dias": 58,
+          "media": 978.6
+        },
+        {
+          "codcli": "84010",
+          "cliente": "RESTAURANTE VENTURIM LTDA",
+          "bairro": "SAO JOAO DE VICOSA",
+          "cidade": "VENDA NOVA DO I",
+          "dtultcomp": "09/06/2026",
+          "dias": 58,
+          "media": 910.27
         },
         {
           "codcli": "84018",
@@ -6925,6 +6898,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "16/06/2026",
           "dias": 51,
           "media": 1213.21
+        },
+        {
+          "codcli": "79770",
+          "cliente": "SUPERMERCADO ULIANA LTDA",
+          "bairro": "CENTRO",
+          "cidade": "BREJETUBA",
+          "dtultcomp": "16/06/2026",
+          "dias": 51,
+          "media": 1137.1
         }
       ],
       "novos": []
