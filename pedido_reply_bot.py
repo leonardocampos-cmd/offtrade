@@ -27,7 +27,7 @@ BASE = Path(__file__).parent
 AGUARDANDO_JSON = str(BASE / "pedidos_aguardando_resposta.json")
 LOG_JSON        = str(BASE / "pedidos_bloqueados_decisoes.json")
 
-NUMERO_APROVACAO = "5521992085350"
+NUMERO_APROVACAO = "5521992085320"
 
 app = Flask(__name__)
 bp = Blueprint("pedido_reply", __name__, url_prefix="/api/pedido-webhook")
