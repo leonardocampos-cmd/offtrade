@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "06/08/2026 14:43",
-  "total": 22360,
+  "atualizado_em": "06/08/2026 14:57",
+  "total": 22359,
   "clientes": [
     {
       "codcli": "38586",
@@ -251618,22 +251618,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "71149",
-      "razao": "NAGISA CULINARIA JAPONESA LTDA",
-      "fantasia": "NAGISA CULINARIA JAPONESA",
-      "bairro": "FLAMENGO",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "48.172.569/0001-60",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "319",
-      "nome_usur2": "FERNANDA CAMBOIM"
     },
     {
       "codcli": "21400",
