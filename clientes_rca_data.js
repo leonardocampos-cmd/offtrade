@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "06/08/2026 17:31",
+  "atualizado_em": "06/08/2026 17:50",
   "total": 22301,
   "clientes": [
     {
@@ -129166,8 +129166,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "FARMACIA",
       "key_account": false,
       "rede": "",
-      "codusur1": "156",
-      "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
+      "codusur1": "471",
+      "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
