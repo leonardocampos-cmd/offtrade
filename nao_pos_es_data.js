@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "06/08/2026 10:57",
+  "atualizado_em": "06/08/2026 11:13",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -11624,6 +11624,38 @@ const NAO_POS_ES_DATA = {
             "fantasia": "RED BULL",
             "qt": 2,
             "valor": 59.92
+          }
+        ]
+      },
+      {
+        "codcli": "91913",
+        "cliente": "MERCADO ITAPIRU LTDA",
+        "bairro": "CATUMBI",
+        "dtultcomp": "22/07/2026",
+        "produtos": [
+          {
+            "produto": "CANTINA DA SERRA 1,5L",
+            "fantasia": "COMARY",
+            "qt": 12,
+            "valor": 110.28
+          },
+          {
+            "produto": "CONHAQUE DREHER 900ML",
+            "fantasia": "CAMPARI",
+            "qt": 2,
+            "valor": 37.8
+          },
+          {
+            "produto": "COQUETEL COMPOSTO PINK MOON 24X300ML",
+            "fantasia": "COMARY",
+            "qt": 1,
+            "valor": 78.9
+          },
+          {
+            "produto": "ZIN TONICA PINK LIMONADE 12X310ML",
+            "fantasia": "HOB",
+            "qt": 1,
+            "valor": 45.95
           }
         ]
       },
