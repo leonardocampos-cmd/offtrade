@@ -1,5 +1,5 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "06/08/2026 10:55",
+  "atualizado_em": "06/08/2026 11:11",
   "periodo_dias": 90,
   "fontes_indisponiveis": [],
   "pedidos_feitos": [
@@ -217,7 +217,7 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 330.72,
@@ -303,7 +303,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 539.28,
@@ -661,7 +661,7 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :902",
       "obs": "",
       "total": 643.12,
@@ -713,7 +713,7 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :266",
       "obs": "",
       "total": 375.6,
@@ -751,7 +751,7 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :4252",
       "obs": "",
       "total": 701.76,
@@ -1041,7 +1041,7 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :37",
       "obs": "Entregar este pedido ate dia  20/08/26.",
       "total": 3114.24,
@@ -27402,87 +27402,6 @@ const PEDIDOS_DATA = {
       "motivo_preco_tabela": 172.93
     },
     {
-      "numped": "378000573",
-      "numnota": "418103",
-      "data": "03/08/2026",
-      "data_ord": "2026-08-03",
-      "nome": "FABIO VALOTTI - OFF TRADE",
-      "cliente": "MERCADO ITAPIRU LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :64",
-      "obs": "Favor entregar dia 04/08",
-      "total": 292.16,
-      "itens": [
-        {
-          "desc": "CONHAQUE DOMECQ 1L",
-          "industria": "PERNOD",
-          "qt": 4,
-          "val": 107.6,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 4.0,
-          "cortado": false,
-          "codprod": "64",
-          "codfilial": "2",
-          "pvenda": 26.9
-        },
-        {
-          "desc": "CANTINA DA SERRA 1,5L",
-          "industria": "COMARY",
-          "qt": 12,
-          "val": 118.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "cortado": false,
-          "codprod": "1518",
-          "codfilial": "2",
-          "pvenda": 9.9
-        },
-        {
-          "desc": "CONHAQUE DREHER 900ML",
-          "industria": "CAMPARI",
-          "qt": 2,
-          "val": 35.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "290",
-          "codfilial": "2",
-          "pvenda": 17.9
-        },
-        {
-          "desc": "4 PACK RED BULL MELANCIA",
-          "industria": "RED BULL",
-          "qt": 1,
-          "val": 29.96,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "2841",
-          "codfilial": "2",
-          "pvenda": 29.96
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "CANCELADA",
-      "motivo_codprod": "64",
-      "motivo_produto": "CONHAQUE DOMECQ 1L",
-      "motivo_preco_digitado": 26.9,
-      "motivo_preco_tabela": 28.9
-    },
-    {
       "numped": "378000574",
       "numnota": "418046",
       "data": "03/08/2026",
@@ -27532,59 +27451,6 @@ const PEDIDOS_DATA = {
       "status_log": "ENTREGUE",
       "motivo_codprod": "5384",
       "motivo_produto": "4 PACK RED BULL ZERO",
-      "motivo_preco_digitado": 29.96,
-      "motivo_preco_tabela": 33.96
-    },
-    {
-      "numped": "378000576",
-      "numnota": "418229",
-      "data": "03/08/2026",
-      "data_ord": "2026-08-03",
-      "nome": "FABIO VALOTTI - OFF TRADE",
-      "cliente": "37.514.649 YURI BRAZ TOME DE SOUZA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :997",
-      "obs": "Favor entregar dia 04/08",
-      "total": 389.88,
-      "itens": [
-        {
-          "desc": "4 PACK RED BULL 250ML",
-          "industria": "RED BULL",
-          "qt": 1,
-          "val": 29.96,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "997",
-          "codfilial": "2",
-          "pvenda": 29.96
-        },
-        {
-          "desc": "WHISKY J WALKER BLACK LABEL 1L",
-          "industria": "DIAGEO",
-          "qt": 2,
-          "val": 359.92,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "449",
-          "codfilial": "2",
-          "pvenda": 179.96
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE",
-      "motivo_codprod": "997",
-      "motivo_produto": "4 PACK RED BULL 250ML",
       "motivo_preco_digitado": 29.96,
       "motivo_preco_tabela": 33.96
     },
@@ -69435,45 +69301,6 @@ const PEDIDOS_DATA = {
       "motivo_produto": "VODKA ABSOLUT 1L",
       "motivo_preco_digitado": 54.9,
       "motivo_preco_tabela": 59.9
-    },
-    {
-      "numped": "153001326",
-      "numnota": "416128",
-      "data": "28/07/2026",
-      "data_ord": "2026-07-28",
-      "nome": "ANGELO NEVES SUZART - OFF TRADE",
-      "cliente": "66.870.979 BEATRIZ SENNA MONTEIRO FERREIRA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :6565",
-      "obs": "ENTREGAR NO DIA 29/07",
-      "total": 274.88,
-      "itens": [
-        {
-          "desc": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
-          "industria": "CASTAS",
-          "qt": 1,
-          "val": 274.88,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "6565",
-          "codfilial": "2",
-          "pvenda": 274.88
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "RETORNO",
-      "motivo_codprod": "6565",
-      "motivo_produto": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
-      "motivo_preco_digitado": 274.88,
-      "motivo_preco_tabela": 318.0
     },
     {
       "numped": "153001327",
@@ -167066,7 +166893,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "275000528",
@@ -168733,7 +168560,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE",
+      "status_log": "",
       "motivo_codprod": "3",
       "motivo_produto": "RED BULL 24X250ML",
       "motivo_preco_digitado": 196.56,
@@ -168884,7 +168711,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE",
+      "status_log": "",
       "motivo_codprod": "378",
       "motivo_produto": "GUARAVITA NATURAL 24X290ML",
       "motivo_preco_digitado": 22.9,
@@ -169200,7 +169027,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE",
+      "status_log": "",
       "motivo_codprod": "64",
       "motivo_produto": "CONHAQUE DOMECQ 1L",
       "motivo_preco_digitado": 29.9,
@@ -169239,7 +169066,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "275000494",
@@ -169274,7 +169101,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "438000070",
@@ -169831,7 +169658,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "439000147",
@@ -169866,7 +169693,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "588002482",
@@ -170013,7 +169840,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "275000471",
@@ -170062,7 +169889,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "VOLTOU"
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "91000332",
