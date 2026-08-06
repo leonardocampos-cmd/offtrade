@@ -719,6 +719,20 @@ const AGENDAMENTO_DATA = {
       "nome": "ANGELO NEVES SUZART - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "3127",
+          "cliente": "SUPERMERCADO REAL DE EDEN LTDA",
+          "cnpj": "28.800.001/0001-30",
+          "filial": "BARROS FILHO",
+          "valor": 4776.0,
+          "nf": "",
+          "data_agendamento": "07/08/2026",
+          "data_ord": "2026-08-07",
+          "status": "A FATURAR",
+          "obs": "Caixas fechadas e sem avarias.",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "83946",
           "cliente": "MERCADO RIO SUL PARADA ANGELICA LTDA",
           "cnpj": "33.475.000/0001-05",
@@ -6142,6 +6156,20 @@ const AGENDAMENTO_DATA = {
     {
       "nome": "DIOGO RAPOSO - OFF TRADE",
       "itens": [
+        {
+          "codigo_cliente": "426",
+          "cliente": "MINI MERCADO CORREIO DO POVO",
+          "cnpj": "04.213.151/0001-89",
+          "filial": "TAQUARA",
+          "valor": 455.5,
+          "nf": "",
+          "data_agendamento": "07/08/2026",
+          "data_ord": "2026-08-07",
+          "status": "A FATURAR",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
         {
           "codigo_cliente": "78141",
           "cliente": "MARCIO GARCIA SANCHEZ",
@@ -25700,7 +25728,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "06/08/2026 17:49",
+  "atualizado_em": "06/08/2026 18:07",
   "comparativo": [
     {
       "msg_id": "19fd70e8e7c7167a",
