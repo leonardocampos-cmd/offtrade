@@ -1,12 +1,12 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "06/08/2026 15:49",
+  "atualizado_em": "06/08/2026 16:09",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 6,
   "dias_no_mes": 31,
   "dias_restantes": 25,
   "resumo": {
-    "fat": 1995672.75,
+    "fat": 1992798.51,
     "fat_ant": 1399789.92,
     "fat_ant_completo": 13925054.76,
     "pos": 413,
@@ -15,11 +15,11 @@ const METAS_GERAIS_DATA = {
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 1995672.75,
+    "fat": 1992798.51,
     "fat_ant": 1399789.92,
     "fat_ant_completo": 13925054.76,
-    "pct": 13.9,
-    "nec_dia": 496173.09
+    "pct": 13.8,
+    "nec_dia": 496288.06
   },
   "estados": [
     {
@@ -65,11 +65,11 @@ const METAS_GERAIS_DATA = {
       "estado": "MG",
       "label": "Minas Gerais",
       "meta": 2100000.0,
-      "fat": 179273.14,
+      "fat": 176398.9,
       "fat_ant": 114523.82,
       "pos": 56,
-      "pct": 8.5,
-      "nec_dia": 76829.07,
+      "pct": 8.4,
+      "nec_dia": 76944.04,
       "fat_ant_completo": 1911913.71,
       "pos_ant": 52,
       "pos_ant_completo": 266
@@ -111,13 +111,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "DIAGEO",
-      "fat": 121900.54,
+      "fat": 119026.3,
       "fat_ant": 36411.33,
       "por_estado": {
         "RJ": 26958.32,
         "SP": 22374.4,
         "ES": 0.0,
-        "MG": 72567.82
+        "MG": 69693.58
       }
     },
     {
