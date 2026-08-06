@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_sp.py
 
 const VENDAS_SP_DATA = {
-  "atualizado_em": "06/08/2026 08:15",
+  "atualizado_em": "06/08/2026 11:45",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -50117,16 +50117,6 @@ const VENDAS_SP_DATA = {
           "fantasia": "MOET HENNESY",
           "qt": 60,
           "valor": 4614.0,
-          "offtrade": false
-        },
-        {
-          "data": "31/07/2026",
-          "codcli": "24527",
-          "cliente": "N.S.A COMERCIO VAREJISTA E DISTRIBUICAO LTDA",
-          "produto": "WHISKY GLENLIVET FOUNDER S RESERVE 700ML",
-          "fantasia": "PERNOD",
-          "qt": 12,
-          "valor": 2038.8,
           "offtrade": false
         },
         {
@@ -108213,16 +108203,6 @@ const VENDAS_SP_DATA = {
           "data": "30/07/2026",
           "codcli": "50948",
           "cliente": "SUPERMERCADO TRIALBA LTDA",
-          "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
-          "fantasia": "CRS BRANDS",
-          "qt": 24,
-          "valor": 215.76,
-          "offtrade": true
-        },
-        {
-          "data": "30/07/2026",
-          "codcli": "50948",
-          "cliente": "SUPERMERCADO TRIALBA LTDA",
           "produto": "WHISKY BALLANTINE S FINEST 750ML",
           "fantasia": "PERNOD",
           "qt": 12,
@@ -145861,14 +145841,14 @@ const VENDAS_SP_DATA = {
         "pos": 6.0,
         "fat_pernod": 70203.6,
         "fat_crs": 1413.48,
-        "fat_ant": 161508.29,
+        "fat_ant": 161292.53,
         "fat_ano_ant": 0.0
       },
       "Jul/26": {
-        "fat": 161508.29,
+        "fat": 161292.53,
         "pos": 28.0,
         "fat_pernod": 83792.5,
-        "fat_crs": 28281.44,
+        "fat_crs": 28065.68,
         "fat_ant": 34230.14
       },
       "Jun/26": {
@@ -146513,13 +146493,13 @@ const VENDAS_SP_DATA = {
         "pos": 17.0,
         "fat_pernod": 210630.9,
         "fat_crs": 4830.84,
-        "fat_ant": 2916451.44,
+        "fat_ant": 2914412.64,
         "fat_ano_ant": 107100.0
       },
       "Jul/26": {
-        "fat": 2916451.44,
+        "fat": 2914412.64,
         "pos": 124.0,
-        "fat_pernod": 1901166.5,
+        "fat_pernod": 1899127.7,
         "fat_crs": 18416.06,
         "fat_ant": 2432567.23
       },
