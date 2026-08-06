@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "06/08/2026 10:57",
-  "total": 22352,
+  "atualizado_em": "06/08/2026 11:13",
+  "total": 22353,
   "clientes": [
     {
       "codcli": "38586",
@@ -283746,6 +283746,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "W.S",
       "codusur2": "119",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
+    },
+    {
+      "codcli": "43010",
+      "razao": "PS MERCEARIA LTDA",
+      "fantasia": "PS MERCEARIA",
+      "bairro": "CENTRO",
+      "cidade": "SAO PAULO",
+      "cnpj": "29.226.664/0001-55",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "30521",
