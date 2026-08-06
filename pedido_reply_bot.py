@@ -150,21 +150,28 @@ def inbound():
     if not telefone or not texto:
         return {"ok": True, "ignorado": "sem remetente ou texto"}, 200
 
+    print(f"[INBOUND] {telefone}: {texto!r}", flush=True)
+
     aguardando = _carregar_aguardando()
     pedidos_pendentes = aguardando.get(telefone)
     if not pedidos_pendentes:
+        print(f"[IGNORADO] {telefone} sem pedido bloqueado pendente", flush=True)
         return {"ok": True, "ignorado": "telefone sem pedido bloqueado pendente"}, 200
 
     vendedor = pedidos_pendentes[0].get('vendedor', telefone)
+    print(f"[PROCESSANDO] {vendedor} ({telefone}) — {len(pedidos_pendentes)} pedido(s) pendente(s)", flush=True)
 
     try:
         decisao = _julgar_com_ia(pedidos_pendentes, texto)
     except Exception as e:
+        print(f"[ERRO IA] {vendedor}: {str(e)[:200]}", flush=True)
         _registrar_decisao({
             'telefone': telefone, 'vendedor': vendedor, 'resposta': texto,
             'erro': str(e)[:300], 'quando': datetime.now().isoformat(),
         })
         return {"ok": False, "erro": "falha ao consultar IA"}, 200
+
+    print(f"[DECISAO] {vendedor}: liberar={decisao.get('liberar')} — {decisao.get('justificativa', '')[:150]}", flush=True)
 
     registro = {
         'telefone': telefone, 'vendedor': vendedor, 'resposta': texto,
@@ -177,6 +184,7 @@ def inbound():
 
     if decisao.get('liberar'):
         mensagem = _montar_confirmacao(vendedor, pedidos_pendentes, texto, decisao.get('justificativa', ''))
+        print(f"[CONFIRMACAO ENVIADA] pro numero de aprovacao sobre {vendedor}", flush=True)
         enviar_whatsapp(NUMERO_APROVACAO, mensagem)
         # Resolvido — tira esse telefone da fila de espera.
         aguardando.pop(telefone, None)
