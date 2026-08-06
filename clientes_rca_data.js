@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "06/08/2026 16:52",
-  "total": 22301,
+  "atualizado_em": "06/08/2026 17:10",
+  "total": 22300,
   "clientes": [
     {
       "codcli": "38586",
@@ -88582,12 +88582,12 @@ const CLIENTES_RCA_DATA = {
     {
       "codcli": "81540",
       "razao": "CARI WLL DISTRIBUIDOR DE BEBIDAS LTDA",
-      "fantasia": "CARI WLL DISTRIBUIDO",
+      "fantasia": "CARI WLL DISTRIBUIDOR DE BEBIDAS",
       "bairro": "JARDIM AMERICA",
       "cidade": "RIO DE JANEIRO",
       "cnpj": "56.001.015/0001-29",
       "estado": "RJ",
-      "ramo": "MERCADO",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
       "key_account": false,
       "rede": "",
       "codusur1": "1",
@@ -224100,22 +224100,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "35393",
-      "razao": "MARIA DA CONCEICAO DE OLIVEIRA MARGARIDO",
-      "fantasia": "MARIA DA CONCEICAO DE OLIVEIRA MARGARIDO",
-      "bairro": "BOA VISTA",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "10.802.195/0001-47",
-      "estado": "MG",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "73955",
       "razao": "MARIA DA CONCEICAO DE SA SERINO COSTA 96032804704",
       "fantasia": "MARIA DA CONCEICAO DE SA SERINO COSTA",
@@ -237806,8 +237790,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "COMERCIO VAREJISTA (GERAL)",
       "key_account": true,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
+      "codusur1": "354",
+      "nome_usur1": "MATHEUS DE SOUZA - OFF TRADE",
       "codusur2": "343",
       "nome_usur2": "FERNANDO RISSON - OFF TRADE"
     },
