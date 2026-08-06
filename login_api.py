@@ -59,13 +59,21 @@ bp = Blueprint("auth", __name__, url_prefix="/api/auth")
 def _buscar_candidatos(rca: str) -> list[dict]:
     candidatos = []
     for nome_schema, engine in _SCHEMAS:
+        # SPON tem vendedores nomeados "W.S" em vez de "...OFF TRADE" (mesmo
+        # padrão usado em meta.py/pedidos.py/exportacao_vendedores_auth.py) —
+        # sem esse OR, RCA como o 588 (W.S) nunca aparecia na busca e o login
+        # falhava com "RCA não encontrado" mesmo com senha certa (2026-08-06).
+        nome_filtro = (
+            "(NOME LIKE '%OFF TRADE%' OR NOME LIKE '%W.S%')"
+            if nome_schema == "SPON" else "NOME LIKE '%OFF TRADE%'"
+        )
         try:
             with engine.connect() as conn:
                 df = pd.read_sql(
                     text(
                         f"SELECT CODUSUR, NOME, EMAIL, EMAIL2, ESTADO, SENHA "
                         f"FROM {nome_schema}.PCUSUARI "
-                        f"WHERE CODUSUR = :rca AND NOME LIKE '%OFF TRADE%'"
+                        f"WHERE CODUSUR = :rca AND {nome_filtro}"
                     ),
                     conn, params={"rca": rca},
                 )
