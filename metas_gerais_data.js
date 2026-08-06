@@ -1,5 +1,5 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "06/08/2026 10:03",
+  "atualizado_em": "06/08/2026 10:16",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 6,
@@ -8,7 +8,7 @@ const METAS_GERAIS_DATA = {
   "resumo": {
     "fat": 1689009.37,
     "fat_ant": 1399789.92,
-    "fat_ant_completo": 13947667.32,
+    "fat_ant_completo": 13947451.56,
     "pos": 383,
     "pos_ant": 403,
     "pos_ant_completo": 1827
@@ -17,7 +17,7 @@ const METAS_GERAIS_DATA = {
     "meta": 14400000.0,
     "fat": 1689009.37,
     "fat_ant": 1399789.92,
-    "fat_ant_completo": 13947667.32,
+    "fat_ant_completo": 13947451.56,
     "pct": 11.7,
     "nec_dia": 508439.63
   },
@@ -44,7 +44,7 @@ const METAS_GERAIS_DATA = {
       "pos": 187,
       "pct": 16.5,
       "nec_dia": 220518.74,
-      "fat_ant_completo": 8533483.83,
+      "fat_ant_completo": 8533268.07,
       "pos_ant": 173,
       "pos_ant_completo": 731
     },
