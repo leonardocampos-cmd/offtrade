@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "06/08/2026 12:02",
-  "total": 22353,
+  "atualizado_em": "06/08/2026 12:15",
+  "total": 22354,
   "clientes": [
     {
       "codcli": "38586",
@@ -106000,6 +106000,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "431",
       "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52322",
+      "razao": "COMERCIO DE HORTIFRUTI PINHEIRO LTDA",
+      "fantasia": "COMERCIO DE HORTIFRUTI PINHEIRO",
+      "bairro": "PLANALTO",
+      "cidade": "SAO BERNARDO DO CAMPO",
+      "cnpj": "06.079.472/0001-68",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "512",
+      "nome_usur1": "WILLIAM GONCALVES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
