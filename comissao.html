@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <script src="vps_redirect.js"></script>
+  <script src="auth.js"></script>
+  <script src="fontes_status_data.js"></script>
+  <script src="fontes_alert.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comissão (Estimativa)</title>
+  <script src="comissao_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --card2: #22263a;
+      --accent: #f5c518; --blue: #3b82f6; --text: #e2e8f0;
+      --muted: #94a3b8; --border: #2d3144; --green: #22c55e; --red: #ef4444;
+    }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh; padding: 16px;
+    }
+    header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 16px; padding-bottom: 16px;
+      border-bottom: 1px solid var(--border); gap: 12px; flex-wrap: wrap;
+    }
+    header h1 { font-size: 1.1rem; font-weight: 700; color: var(--blue); }
+    header p  { font-size: .8rem; color: var(--muted); margin-top: 3px; }
+    .disclaimer {
+      background: rgba(245,197,24,.1); border: 1px solid rgba(245,197,24,.35);
+      color: var(--accent); border-radius: 8px; padding: 10px 14px;
+      font-size: .82rem; margin-bottom: 16px; line-height: 1.5;
+    }
+    .disclaimer b { color: #fff; }
+    .aviso-fontes {
+      background: rgba(239,68,68,.1); border: 1px solid rgba(239,68,68,.35);
+      color: var(--red); border-radius: 8px; padding: 10px 14px;
+      font-size: .82rem; margin-bottom: 16px;
+    }
+    .summary {
+      display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 16px;
+    }
+    .summary .card {
+      background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+      padding: 12px 16px; min-width: 160px;
+    }
+    .summary .card .lbl { font-size: .72rem; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+    .summary .card .val { font-size: 1.25rem; font-weight: 700; margin-top: 4px; }
+    .table-wrap { overflow-x: auto; border-radius: 10px; border: 1px solid var(--border); }
+    table { width: 100%; border-collapse: collapse; font-size: .82rem; }
+    thead th {
+      background: var(--card2); padding: 10px 12px; text-align: left;
+      font-size: .72rem; text-transform: uppercase; letter-spacing: .05em;
+      color: var(--muted); border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+    thead th.num, tbody td.num { text-align: right; }
+    tbody tr.linha-vendedor { border-bottom: 1px solid var(--border); cursor: pointer; }
+    tbody tr.linha-vendedor:hover { background: var(--card2); }
+    tbody td { padding: 9px 12px; vertical-align: middle; white-space: nowrap; }
+    tbody tr.linha-detalhe { display: none; background: #14161f; }
+    tbody tr.linha-detalhe.aberta { display: table-row; }
+    tbody tr.linha-detalhe td { padding: 0; }
+    .detalhe-wrap { padding: 12px 20px 18px; }
+    .detalhe-wrap table { font-size: .78rem; }
+    .detalhe-wrap thead th { background: transparent; padding: 6px 10px; }
+    .detalhe-wrap tbody td { padding: 5px 10px; white-space: normal; }
+    .comissao { color: var(--green); font-weight: 700; }
+    .toggle-icon { display: inline-block; width: 14px; color: var(--muted); }
+    .empty { text-align: center; padding: 48px; color: var(--muted); font-size: .9rem; }
+    .barra-ating { position: relative; background: var(--card2); border-radius: 4px; height: 6px; width: 90px; overflow: hidden; display: inline-block; vertical-align: middle; margin-right: 6px; }
+    .barra-ating .fill { position: absolute; inset: 0; background: var(--blue); }
+    .barra-ating .fill.ok { background: var(--green); }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>COMISSÃO — ESTIMATIVA EM TEMPO REAL</h1>
+    <p id="header-sub">—</p>
+  </div>
+  <a href="index.html" style="color:var(--muted);font-size:.8rem;text-decoration:none">← Painel</a>
+</header>
+
+<div class="disclaimer">
+  <b>Isto é uma estimativa</b>, calculada em tempo real a partir do faturamento e do valor liquidado (recebido) do mês no banco de dados, usando as metas/pesos cadastrados em <b>METAS RJ.xlsx</b> e uma taxa de prêmio de 1,5% sobre o atingimento acumulado.
+  A apuração oficial de pagamento — que pode incluir ajustes manuais — continua sendo o Excel de "APURAÇÃO COMISSÃO" no Drive.
+</div>
+
+<div id="aviso-fontes-box"></div>
+
+<div class="summary" id="summary"></div>
+
+<div class="table-wrap">
+  <table id="tabela">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Vendedor</th>
+        <th>Contrato</th>
+        <th class="num">Ating. Acumulado</th>
+        <th class="num">% Prêmio</th>
+        <th class="num">Liq. Rigarr</th>
+        <th class="num">Fat. Castas</th>
+        <th class="num">Com. Rigarr</th>
+        <th class="num">Com. Castas</th>
+        <th class="num">Comissão Est.</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+</div>
+
+<script>
+function fmtR$(v) {
+  return 'R$ ' + (v || 0).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+function fmtPct(v) {
+  return ((v || 0) * 100).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + '%';
+}
+function fmtNum(v) {
+  return (v || 0).toLocaleString('pt-BR', { maximumFractionDigits: 0 });
+}
+
+function render() {
+  const data = (typeof COMISSAO_DATA !== 'undefined') ? COMISSAO_DATA : null;
+  if (!data || !data.vendedores || !data.vendedores.length) {
+    document.getElementById('tbody').innerHTML =
+      '<tr><td colspan="10" class="empty">Sem dados de comissão — meta do mês pode não estar cadastrada ainda em METAS RJ.xlsx.</td></tr>';
+    return;
+  }
+
+  document.getElementById('header-sub').textContent =
+    `Mês ${data.mes_referencia} · atualizado em ${data.atualizado_em}`;
+
+  if (data.fontes_indisponiveis && data.fontes_indisponiveis.length) {
+    document.getElementById('aviso-fontes-box').innerHTML =
+      `<div class="aviso-fontes">⚠ Fonte(s) indisponível(is) nesta atualização: ${data.fontes_indisponiveis.join(', ')} — os valores acima podem estar incompletos.</div>`;
+  }
+
+  const totalComissao = data.vendedores.reduce((s, v) => s + (v.comissao_estimada || 0), 0);
+  const totalLiq       = data.vendedores.reduce((s, v) => s + (v.liq_rigarr || 0), 0);
+  document.getElementById('summary').innerHTML = `
+    <div class="card"><div class="lbl">Vendedores</div><div class="val">${data.vendedores.length}</div></div>
+    <div class="card"><div class="lbl">Liquidado no mês</div><div class="val">${fmtR$(totalLiq)}</div></div>
+    <div class="card"><div class="lbl">Comissão estimada (total)</div><div class="val comissao">${fmtR$(totalComissao)}</div></div>
+  `;
+
+  const tbody = document.getElementById('tbody');
+  tbody.innerHTML = data.vendedores.map((v, i) => {
+    const atingPct = Math.min(v.ating_acumulado_total * 100, 100);
+    const barraClasse = v.ating_acumulado_total >= 1 ? 'ok' : '';
+    const detalheRows = (v.submetas || []).map(s => `
+      <tr>
+        <td>${s.label}</td>
+        <td class="num">${s.meta ? fmtNum(s.meta) : '—'}</td>
+        <td class="num">${fmtNum(s.realizado)}</td>
+        <td class="num">${fmtPct(s.peso)}</td>
+        <td class="num">${fmtPct(s.ating_meta)}</td>
+        <td class="num">${fmtPct(s.ating_acumulado)}</td>
+      </tr>
+    `).join('');
+
+    return `
+      <tr class="linha-vendedor" onclick="toggleDetalhe(${i})">
+        <td><span class="toggle-icon" id="icon-${i}">▸</span></td>
+        <td>${v.nome}</td>
+        <td>${v.contrato}</td>
+        <td class="num">
+          <span class="barra-ating"><span class="fill ${barraClasse}" style="width:${atingPct}%"></span></span>
+          ${fmtPct(v.ating_acumulado_total)}
+        </td>
+        <td class="num">${fmtPct(v.pct_premio)}</td>
+        <td class="num">${fmtR$(v.liq_rigarr)}</td>
+        <td class="num">${fmtR$(v.fat_castas)}</td>
+        <td class="num">${fmtR$(v.com_rigarr)}</td>
+        <td class="num">${fmtR$(v.com_castas)}</td>
+        <td class="num comissao">${fmtR$(v.comissao_estimada)}</td>
+      </tr>
+      <tr class="linha-detalhe" id="detalhe-${i}">
+        <td colspan="10">
+          <div class="detalhe-wrap">
+            <table>
+              <thead>
+                <tr><th>Sub-meta</th><th class="num">Meta</th><th class="num">Realizado</th><th class="num">Peso</th><th class="num">Ating. Meta</th><th class="num">Ating. Acumulado</th></tr>
+              </thead>
+              <tbody>${detalheRows}</tbody>
+            </table>
+          </div>
+        </td>
+      </tr>
+    `;
+  }).join('');
+}
+
+function toggleDetalhe(i) {
+  const row  = document.getElementById(`detalhe-${i}`);
+  const icon = document.getElementById(`icon-${i}`);
+  const abrindo = !row.classList.contains('aberta');
+  row.classList.toggle('aberta', abrindo);
+  icon.textContent = abrindo ? '▾' : '▸';
+}
+
+render();
+</script>
+
+</body>
+</html>
