@@ -1,25 +1,25 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "06/08/2026 15:31",
+  "atualizado_em": "06/08/2026 15:49",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 6,
   "dias_no_mes": 31,
   "dias_restantes": 25,
   "resumo": {
-    "fat": 1880074.35,
+    "fat": 1995672.75,
     "fat_ant": 1399789.92,
     "fat_ant_completo": 13925054.76,
-    "pos": 412,
+    "pos": 413,
     "pos_ant": 403,
     "pos_ant_completo": 1823
   },
   "total": {
     "meta": 14400000.0,
-    "fat": 1880074.35,
+    "fat": 1995672.75,
     "fat_ant": 1399789.92,
     "fat_ant_completo": 13925054.76,
-    "pct": 13.1,
-    "nec_dia": 500797.03
+    "pct": 13.9,
+    "nec_dia": 496173.09
   },
   "estados": [
     {
@@ -65,11 +65,11 @@ const METAS_GERAIS_DATA = {
       "estado": "MG",
       "label": "Minas Gerais",
       "meta": 2100000.0,
-      "fat": 63674.74,
+      "fat": 179273.14,
       "fat_ant": 114523.82,
-      "pos": 55,
-      "pct": 3.0,
-      "nec_dia": 81453.01,
+      "pos": 56,
+      "pct": 8.5,
+      "nec_dia": 76829.07,
       "fat_ant_completo": 1911913.71,
       "pos_ant": 52,
       "pos_ant_completo": 266
@@ -78,13 +78,13 @@ const METAS_GERAIS_DATA = {
   "industrias": [
     {
       "fantasia": "PERNOD",
-      "fat": 845014.86,
+      "fat": 864889.26,
       "fat_ant": 672983.69,
       "por_estado": {
         "RJ": 57737.3,
         "SP": 776750.32,
         "ES": 6283.44,
-        "MG": 4243.8
+        "MG": 24118.2
       }
     },
     {
@@ -110,6 +110,17 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
+      "fantasia": "DIAGEO",
+      "fat": 121900.54,
+      "fat_ant": 36411.33,
+      "por_estado": {
+        "RJ": 26958.32,
+        "SP": 22374.4,
+        "ES": 0.0,
+        "MG": 72567.82
+      }
+    },
+    {
       "fantasia": "BACARDI",
       "fat": 86648.12,
       "fat_ant": 24375.59,
@@ -118,17 +129,6 @@ const METAS_GERAIS_DATA = {
         "SP": 52208.7,
         "ES": 8143.32,
         "MG": 199.6
-      }
-    },
-    {
-      "fantasia": "DIAGEO",
-      "fat": 60664.54,
-      "fat_ant": 36411.33,
-      "por_estado": {
-        "RJ": 26958.32,
-        "SP": 22374.4,
-        "ES": 0.0,
-        "MG": 11331.82
       }
     },
     {
@@ -151,6 +151,17 @@ const METAS_GERAIS_DATA = {
         "SP": 1765.56,
         "ES": 0.0,
         "MG": 14582.6
+      }
+    },
+    {
+      "fantasia": "SEM FORNECEDOR",
+      "fat": 40336.14,
+      "fat_ant": 2644.44,
+      "por_estado": {
+        "RJ": 0.0,
+        "SP": 247.4,
+        "ES": 0.0,
+        "MG": 40088.74
       }
     },
     {
@@ -294,17 +305,6 @@ const METAS_GERAIS_DATA = {
         "SP": 0.0,
         "ES": 0.0,
         "MG": 6009.36
-      }
-    },
-    {
-      "fantasia": "SEM FORNECEDOR",
-      "fat": 5848.14,
-      "fat_ant": 2644.44,
-      "por_estado": {
-        "RJ": 0.0,
-        "SP": 247.4,
-        "ES": 0.0,
-        "MG": 5600.74
       }
     },
     {
