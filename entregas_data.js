@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "06/08/2026 10:19",
+  "atualizado_em": "06/08/2026 10:37",
   "data_rota": "06.08",
   "vendedores": [
     {
@@ -7867,7 +7867,7 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
-          "numped": "156003801",
+          "numped": "156003802",
           "numnota": "",
           "data": "06/08/2026",
           "cliente": "POSTO JK NIEMEYER LTDA",
@@ -7877,12 +7877,12 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 495.82,
+          "total": 499.82,
           "itens": [
             {
               "desc": "WHISKY J WALKER RED LABEL 750ML",
               "qt": 1,
-              "val": 64.9
+              "val": 68.9
             },
             {
               "desc": "LICOR CAN FIREBALL CX C/ 6X50ML",
