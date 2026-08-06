@@ -24914,6 +24914,62 @@ const AGENDAMENTO_DATA = {
       "nome": "NÁTALI DE OLIVEIRA - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "91772",
+          "cliente": "REDE ECONOMIA (MANUEL)",
+          "cnpj": "10.748.214/0007-90",
+          "filial": "CAMPO GRANDE",
+          "valor": 300.0,
+          "nf": "7107",
+          "data_agendamento": "07/08/2026",
+          "data_ord": "2026-08-07",
+          "status": "FATURADO",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "91774",
+          "cliente": "REDE ECONOMIA (MANUEL)",
+          "cnpj": "10.748.214/0005-28",
+          "filial": "CAMPO GRANDE",
+          "valor": 450.0,
+          "nf": "7098",
+          "data_agendamento": "07/08/2026",
+          "data_ord": "2026-08-07",
+          "status": "FATURADO",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "91775",
+          "cliente": "REDE ECONOMIA (MANUEL)",
+          "cnpj": "10.748.214/0004-47",
+          "filial": "CAMPO GRANDE",
+          "valor": 600.0,
+          "nf": "7099",
+          "data_agendamento": "07/08/2026",
+          "data_ord": "2026-08-07",
+          "status": "FATURADO",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "3850",
+          "cliente": "REDE ECONOMIA (MANUEL)",
+          "cnpj": "10.748.214/0002-85",
+          "filial": "CAMPO GRANDE",
+          "valor": 300.0,
+          "nf": "7106",
+          "data_agendamento": "07/08/2026",
+          "data_ord": "2026-08-07",
+          "status": "FATURADO",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "77937",
           "cliente": "LB DOS SANTOS COMERCIO VAREJISTA",
           "cnpj": "52.531.752/0001-82",
@@ -24984,20 +25040,6 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91772",
-          "cliente": "REDE ECONOMIA (MANUEL)",
-          "cnpj": "10.748.214/0007-90",
-          "filial": "CAMPO GRANDE",
-          "valor": 300.0,
-          "nf": "7107",
-          "data_agendamento": "04/08/2026",
-          "data_ord": "2026-08-04",
-          "status": "FATURADO",
-          "obs": "",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
           "codigo_cliente": "91773",
           "cliente": "REDE ECONOMIA (MANUEL)",
           "cnpj": "10.748.214/0006-09",
@@ -25006,49 +25048,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7103",
           "data_agendamento": "04/08/2026",
           "data_ord": "2026-08-04",
-          "status": "FATURADO",
-          "obs": "",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "91774",
-          "cliente": "REDE ECONOMIA (MANUEL)",
-          "cnpj": "10.748.214/0005-28",
-          "filial": "CAMPO GRANDE",
-          "valor": 450.0,
-          "nf": "7098",
-          "data_agendamento": "04/08/2026",
-          "data_ord": "2026-08-04",
-          "status": "FATURADO",
-          "obs": "",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "91775",
-          "cliente": "REDE ECONOMIA (MANUEL)",
-          "cnpj": "10.748.214/0004-47",
-          "filial": "CAMPO GRANDE",
-          "valor": 600.0,
-          "nf": "7099",
-          "data_agendamento": "04/08/2026",
-          "data_ord": "2026-08-04",
-          "status": "FATURADO",
-          "obs": "",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "3850",
-          "cliente": "REDE ECONOMIA (MANUEL)",
-          "cnpj": "10.748.214/0002-85",
-          "filial": "CAMPO GRANDE",
-          "valor": 300.0,
-          "nf": "7106",
-          "data_agendamento": "04/08/2026",
-          "data_ord": "2026-08-04",
-          "status": "FATURADO",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -25062,7 +25062,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7096",
           "data_agendamento": "04/08/2026",
           "data_ord": "2026-08-04",
-          "status": "FATURADO",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -25076,7 +25076,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7095",
           "data_agendamento": "04/08/2026",
           "data_ord": "2026-08-04",
-          "status": "FATURADO",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -25700,7 +25700,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "06/08/2026 14:18",
+  "atualizado_em": "06/08/2026 14:30",
   "comparativo": [
     {
       "msg_id": "19fd70e8e7c7167a",
