@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "06/08/2026 15:20",
+  "atualizado_em": "06/08/2026 15:39",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -1775,6 +1775,15 @@ const INATIVOS_DATA = {
         }
       ],
       "novos": [
+        {
+          "codcli": "95955",
+          "cliente": "XPETTO GRILL CF LTDA",
+          "bairro": "PORTINHO",
+          "cidade": "CABO FRIO",
+          "dtcadastro": "06/08/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
         {
           "codcli": "95940",
           "cliente": "GPM 05 LTDA",
@@ -3900,6 +3909,15 @@ const INATIVOS_DATA = {
         }
       ],
       "novos": [
+        {
+          "codcli": "95954",
+          "cliente": "CONVENIENCIA PIRAI LIMITADA",
+          "bairro": "CENTRO",
+          "cidade": "PIRAI",
+          "dtcadastro": "06/08/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
         {
           "codcli": "95387",
           "cliente": "DROGARIA SANTORINI LTDA",
