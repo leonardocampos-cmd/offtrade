@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "06/08/2026 11:38",
+  "atualizado_em": "06/08/2026 12:00",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -13445,13 +13445,6 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "52104",
-        "cliente": "DAVID BARBOZA SUPERMERCADO LTDA",
-        "bairro": "JARDIM MACUCOS",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "52103",
         "cliente": "DAVID BARBOZA SUPERMERCADO LTDA",
         "bairro": "SANTA FÉ",
@@ -13466,9 +13459,23 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
+        "codcli": "52104",
+        "cliente": "DAVID BARBOZA SUPERMERCADO LTDA",
+        "bairro": "JARDIM MACUCOS",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "52169",
         "cliente": "DISTRIBUIDORA BEBIDAS CANTO DA ALEGRIA LTDA",
         "bairro": "JARDIM MELINA I",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52320",
+        "cliente": "FABIANO MATIAS DE RESENDE COMERCIO DE PRODUTOS ALIMENTICIOS",
+        "bairro": "PARQUE JOAO DE VASCONCELOS",
         "dtultcomp": "nan",
         "produtos": []
       },
