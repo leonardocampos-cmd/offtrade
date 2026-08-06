@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "06/08/2026 13:28",
+  "atualizado_em": "06/08/2026 13:52",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -1765,7 +1765,17 @@ const INATIVOS_DATA = {
           "media": 616.35
         }
       ],
-      "novos": []
+      "novos": [
+        {
+          "codcli": "95940",
+          "cliente": "GPM 05 LTDA",
+          "bairro": "BARRA DA TIJUCA",
+          "cidade": "RIO DE JANEIRO",
+          "dtcadastro": "06/08/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        }
+      ]
     },
     "JOAO PEDRO - OFF TRADE": {
       "rca": "172",
