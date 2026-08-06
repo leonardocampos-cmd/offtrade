@@ -1,5 +1,5 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "06/08/2026 10:01",
+  "atualizado_em": "06/08/2026 11:00",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 6,
@@ -8,16 +8,16 @@ const METAS_GERAIS_DATA = {
   "resumo": {
     "fat": 1689009.37,
     "fat_ant": 1399789.92,
-    "fat_ant_completo": 13947667.32,
+    "fat_ant_completo": 13942709.16,
     "pos": 383,
     "pos_ant": 403,
-    "pos_ant_completo": 1827
+    "pos_ant_completo": 1823
   },
   "total": {
     "meta": 14400000.0,
     "fat": 1689009.37,
     "fat_ant": 1399789.92,
-    "fat_ant_completo": 13947667.32,
+    "fat_ant_completo": 13942709.16,
     "pct": 11.7,
     "nec_dia": 508439.63
   },
@@ -44,7 +44,7 @@ const METAS_GERAIS_DATA = {
       "pos": 187,
       "pct": 16.5,
       "nec_dia": 220518.74,
-      "fat_ant_completo": 8533483.83,
+      "fat_ant_completo": 8531229.27,
       "pos_ant": 173,
       "pos_ant_completo": 731
     },
@@ -70,9 +70,9 @@ const METAS_GERAIS_DATA = {
       "pos": 48,
       "pct": 2.4,
       "nec_dia": 82018.4,
-      "fat_ant_completo": 1932271.71,
+      "fat_ant_completo": 1929568.11,
       "pos_ant": 52,
-      "pos_ant_completo": 270
+      "pos_ant_completo": 266
     }
   ],
   "industrias": [
