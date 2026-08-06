@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "06/08/2026 15:39",
+  "atualizado_em": "06/08/2026 15:58",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -1116,15 +1116,6 @@ const INATIVOS_DATA = {
           "media": 0.0
         },
         {
-          "codcli": "86431",
-          "cliente": "MERCADO E DISTRIBUIDORA DA PRACA 2021 LTDA",
-          "bairro": "JACAREPAGUA",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "28/05/2026",
-          "dias": 70,
-          "media": 604.8
-        },
-        {
           "codcli": "91706",
           "cliente": "MERCADO E DISTRIBUIDORA DA PRACA 2021 LTDA",
           "bairro": "ITANHANGA",
@@ -1134,13 +1125,13 @@ const INATIVOS_DATA = {
           "media": 86.4
         },
         {
-          "codcli": "86433",
-          "cliente": "NERIS MINIMERCADO LTDA",
-          "bairro": "ANIL",
+          "codcli": "86431",
+          "cliente": "MERCADO E DISTRIBUIDORA DA PRACA 2021 LTDA",
+          "bairro": "JACAREPAGUA",
           "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "02/06/2026",
-          "dias": 65,
-          "media": 1167.34
+          "dtultcomp": "28/05/2026",
+          "dias": 70,
+          "media": 604.8
         },
         {
           "codcli": "95138",
@@ -1179,15 +1170,6 @@ const INATIVOS_DATA = {
           "media": 899.44
         },
         {
-          "codcli": "91995",
-          "cliente": "DOIS AMIGOS CHOPERIA LTDA",
-          "bairro": "ANIL",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "18/06/2026",
-          "dias": 49,
-          "media": 507.87
-        },
-        {
           "codcli": "85451",
           "cliente": "MERCEARIA LEAO FM LTDA",
           "bairro": "ITANHANGA",
@@ -1195,6 +1177,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "18/06/2026",
           "dias": 49,
           "media": 538.53
+        },
+        {
+          "codcli": "91995",
+          "cliente": "DOIS AMIGOS CHOPERIA LTDA",
+          "bairro": "ANIL",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "18/06/2026",
+          "dias": 49,
+          "media": 507.87
         },
         {
           "codcli": "90826",
@@ -1251,15 +1242,6 @@ const INATIVOS_DATA = {
           "media": 269.2
         },
         {
-          "codcli": "82860",
-          "cliente": "TARGET FOODS MERCADO E PADARIA LTDA",
-          "bairro": "PECHINCHA",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "01/07/2026",
-          "dias": 36,
-          "media": 635.42
-        },
-        {
           "codcli": "83071",
           "cliente": "PADARIA MERCADINHO MENDES LTDA",
           "bairro": "JACAREPAGUA",
@@ -1267,6 +1249,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "01/07/2026",
           "dias": 36,
           "media": 1426.78
+        },
+        {
+          "codcli": "82860",
+          "cliente": "TARGET FOODS MERCADO E PADARIA LTDA",
+          "bairro": "PECHINCHA",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "01/07/2026",
+          "dias": 36,
+          "media": 635.42
         },
         {
           "codcli": "426",
@@ -1459,13 +1450,13 @@ const INATIVOS_DATA = {
       ],
       "sem_compra": [
         {
-          "codcli": "84245",
-          "cliente": "59.660.010 LUCIANA MEIRELES DE LIMA PIRES",
-          "bairro": "PRAIA DO ANJOS",
-          "cidade": "ARRAIAL DO CABO",
+          "codcli": "90911",
+          "cliente": "ALUVE BRAND LTDA",
+          "bairro": "PARQUE TAMANDAR",
+          "cidade": "CAMPOS DOS GOYT",
           "dtultcomp": "13/05/2026",
           "dias": 85,
-          "media": 225.32
+          "media": 0.0
         },
         {
           "codcli": "80458",
@@ -1477,13 +1468,13 @@ const INATIVOS_DATA = {
           "media": 344.16
         },
         {
-          "codcli": "90911",
-          "cliente": "ALUVE BRAND LTDA",
-          "bairro": "PARQUE TAMANDAR",
-          "cidade": "CAMPOS DOS GOYT",
+          "codcli": "84245",
+          "cliente": "59.660.010 LUCIANA MEIRELES DE LIMA PIRES",
+          "bairro": "PRAIA DO ANJOS",
+          "cidade": "ARRAIAL DO CABO",
           "dtultcomp": "13/05/2026",
           "dias": 85,
-          "media": 0.0
+          "media": 225.32
         },
         {
           "codcli": "85348",
@@ -1540,15 +1531,6 @@ const INATIVOS_DATA = {
           "media": 211.03
         },
         {
-          "codcli": "80803",
-          "cliente": "ADEGA MAIS LTDA",
-          "bairro": "NOVO HORIZONTE",
-          "cidade": "MACAE",
-          "dtultcomp": "27/05/2026",
-          "dias": 71,
-          "media": 0.0
-        },
-        {
           "codcli": "81261",
           "cliente": "BAR E MERCEARIA TERESOPOLITANO LTDA.",
           "bairro": "AGRIOES",
@@ -1558,6 +1540,15 @@ const INATIVOS_DATA = {
           "media": 111.6
         },
         {
+          "codcli": "80803",
+          "cliente": "ADEGA MAIS LTDA",
+          "bairro": "NOVO HORIZONTE",
+          "cidade": "MACAE",
+          "dtultcomp": "27/05/2026",
+          "dias": 71,
+          "media": 0.0
+        },
+        {
           "codcli": "77976",
           "cliente": "GOTIVO E FAMILIA RESTAURANTE E POUSADA LTDA",
           "bairro": "JARDIM MIRAMAR",
@@ -1565,6 +1556,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "01/06/2026",
           "dias": 66,
           "media": 395.2
+        },
+        {
+          "codcli": "63052",
+          "cliente": "PS2 CHAI COMERCIO DE ALIMENTOS LTDA",
+          "bairro": "BARRA DA TIJUCA",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "02/06/2026",
+          "dias": 65,
+          "media": 0.0
         },
         {
           "codcli": "94014",
@@ -6246,24 +6246,6 @@ const INATIVOS_DATA = {
           "media": 259.72
         },
         {
-          "codcli": "83803",
-          "cliente": "JOADIR TEODORO ALVES & CIA LTDA",
-          "bairro": "NOVA CARAPINA I",
-          "cidade": "SERRA",
-          "dtultcomp": "26/05/2026",
-          "dias": 72,
-          "media": 98.73
-        },
-        {
-          "codcli": "82298",
-          "cliente": "REGIPETERLE LANCHES LTDA",
-          "bairro": "PRAIA DO SUA",
-          "cidade": "VITORIA",
-          "dtultcomp": "26/05/2026",
-          "dias": 72,
-          "media": 607.2
-        },
-        {
           "codcli": "90859",
           "cliente": "51.163.730 NILTON CESAR REZENDE SANTOS",
           "bairro": "PITANGA",
@@ -6271,6 +6253,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "26/05/2026",
           "dias": 72,
           "media": 104.21
+        },
+        {
+          "codcli": "83803",
+          "cliente": "JOADIR TEODORO ALVES & CIA LTDA",
+          "bairro": "NOVA CARAPINA I",
+          "cidade": "SERRA",
+          "dtultcomp": "26/05/2026",
+          "dias": 72,
+          "media": 98.73
         },
         {
           "codcli": "85346",
@@ -6291,6 +6282,15 @@ const INATIVOS_DATA = {
           "media": 348.08
         },
         {
+          "codcli": "82298",
+          "cliente": "REGIPETERLE LANCHES LTDA",
+          "bairro": "PRAIA DO SUA",
+          "cidade": "VITORIA",
+          "dtultcomp": "26/05/2026",
+          "dias": 72,
+          "media": 607.2
+        },
+        {
           "codcli": "84367",
           "cliente": "54.846.982 VICTOR BISPO REIS",
           "bairro": "PORTO CANOA",
@@ -6309,15 +6309,6 @@ const INATIVOS_DATA = {
           "media": 117.41
         },
         {
-          "codcli": "81304",
-          "cliente": "MARIA DOMINGAS SANTANA MEIRELES 01982550716",
-          "bairro": "JOSE DE ANCHIETA",
-          "cidade": "SERRA",
-          "dtultcomp": "29/05/2026",
-          "dias": 69,
-          "media": 86.62
-        },
-        {
           "codcli": "81026",
           "cliente": "EDUARDO DOS SANTOS CAMACHO 10514439700",
           "bairro": "JOSE DE ANCHIETA",
@@ -6325,6 +6316,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "29/05/2026",
           "dias": 69,
           "media": 145.17
+        },
+        {
+          "codcli": "81304",
+          "cliente": "MARIA DOMINGAS SANTANA MEIRELES 01982550716",
+          "bairro": "JOSE DE ANCHIETA",
+          "cidade": "SERRA",
+          "dtultcomp": "29/05/2026",
+          "dias": 69,
+          "media": 86.62
         },
         {
           "codcli": "84008",
@@ -6345,15 +6345,6 @@ const INATIVOS_DATA = {
           "media": 838.09
         },
         {
-          "codcli": "81202",
-          "cliente": "JHENIFFER VERTUANI COELHO 15648315740",
-          "bairro": "SOLAR DE ANCHIETA",
-          "cidade": "SERRA",
-          "dtultcomp": "08/06/2026",
-          "dias": 59,
-          "media": 237.72
-        },
-        {
           "codcli": "86092",
           "cliente": "ALVIMAR LIRA TRANCOSO JUNIOR 23879670110",
           "bairro": "ELDORADO",
@@ -6361,6 +6352,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "08/06/2026",
           "dias": 59,
           "media": 106.25
+        },
+        {
+          "codcli": "81202",
+          "cliente": "JHENIFFER VERTUANI COELHO 15648315740",
+          "bairro": "SOLAR DE ANCHIETA",
+          "cidade": "SERRA",
+          "dtultcomp": "08/06/2026",
+          "dias": 59,
+          "media": 237.72
         },
         {
           "codcli": "77522",
@@ -7681,6 +7681,87 @@ const INATIVOS_DATA = {
       ],
       "novos": []
     },
+    "OZISLLAN RAMALHO DE SOUZA - OFF TRADE": {
+      "rca": "269",
+      "estado": "RJ",
+      "inativos": [],
+      "sem_compra": [
+        {
+          "codcli": "91593",
+          "cliente": "ZAMPIROLLI COMERCIAL DE BEBIDAS LTDA",
+          "bairro": "NESTOR GOMES",
+          "cidade": "SAO MATEUS",
+          "dtultcomp": "19/11/2025",
+          "dias": 260,
+          "media": 0.0
+        },
+        {
+          "codcli": "87088",
+          "cliente": "JV SUPERMERCADOS LTDA",
+          "bairro": "CENTRO",
+          "cidade": "JAGUARE",
+          "dtultcomp": "03/03/2026",
+          "dias": 156,
+          "media": 0.0
+        },
+        {
+          "codcli": "90559",
+          "cliente": "JV SUPERMERCADOS LTDA",
+          "bairro": "CENTRO",
+          "cidade": "JAGUARE",
+          "dtultcomp": "03/03/2026",
+          "dias": 156,
+          "media": 0.0
+        },
+        {
+          "codcli": "90560",
+          "cliente": "JV SUPERMERCADOS LTDA",
+          "bairro": "AGUA LIMPA",
+          "cidade": "JAGUARE",
+          "dtultcomp": "03/03/2026",
+          "dias": 156,
+          "media": 0.0
+        }
+      ],
+      "novos": [
+        {
+          "codcli": "95946",
+          "cliente": "JV SUPERMERCADOS LTDA",
+          "bairro": "CENTRO",
+          "cidade": "JAGUARE",
+          "dtcadastro": "06/08/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "95945",
+          "cliente": "JV SUPERMERCADOS LTDA",
+          "bairro": "ITAIPAVA",
+          "cidade": "ITAPEMIRIM",
+          "dtcadastro": "06/08/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "95944",
+          "cliente": "JV SUPERMERCADOS LTDA",
+          "bairro": "BARRA DE ITAPEMIRIM",
+          "cidade": "MARATAIZES",
+          "dtcadastro": "06/08/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "95942",
+          "cliente": "DISTRIBUIDORA CAMILO GURIRI LTDA",
+          "bairro": "GURIRI NORTE",
+          "cidade": "SAO MATEUS",
+          "dtcadastro": "06/08/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        }
+      ]
+    },
     "RAQUEL ARAUJO - OFF TRADE": {
       "rca": "442",
       "estado": "RJ",
@@ -8032,50 +8113,6 @@ const INATIVOS_DATA = {
           "bairro": "JACAREPAGUA",
           "cidade": "RIO DE JANEIRO",
           "dtcadastro": "07/07/2026",
-          "dtultcomp": null,
-          "media": 0.0
-        }
-      ]
-    },
-    "OZISLLAN RAMALHO DE SOUZA - OFF TRADE": {
-      "rca": "269",
-      "estado": "RJ",
-      "inativos": [],
-      "sem_compra": [],
-      "novos": [
-        {
-          "codcli": "95946",
-          "cliente": "JV SUPERMERCADOS LTDA",
-          "bairro": "CENTRO",
-          "cidade": "JAGUARE",
-          "dtcadastro": "06/08/2026",
-          "dtultcomp": null,
-          "media": 0.0
-        },
-        {
-          "codcli": "95945",
-          "cliente": "JV SUPERMERCADOS LTDA",
-          "bairro": "ITAIPAVA",
-          "cidade": "ITAPEMIRIM",
-          "dtcadastro": "06/08/2026",
-          "dtultcomp": null,
-          "media": 0.0
-        },
-        {
-          "codcli": "95944",
-          "cliente": "JV SUPERMERCADOS LTDA",
-          "bairro": "BARRA DE ITAPEMIRIM",
-          "cidade": "MARATAIZES",
-          "dtcadastro": "06/08/2026",
-          "dtultcomp": null,
-          "media": 0.0
-        },
-        {
-          "codcli": "95942",
-          "cliente": "DISTRIBUIDORA CAMILO GURIRI LTDA",
-          "bairro": "GURIRI NORTE",
-          "cidade": "SAO MATEUS",
-          "dtcadastro": "06/08/2026",
           "dtultcomp": null,
           "media": 0.0
         }
