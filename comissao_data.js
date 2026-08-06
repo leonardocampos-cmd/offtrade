@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "05/08/2026 22:05",
+  "atualizado_em": "06/08/2026 10:09",
   "mes_referencia": "07/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -1657,8 +1657,5 @@ const COMISSAO_DATA = {
       "comissao_estimada": 752.0
     }
   ],
-  "fontes_indisponiveis": [
-    "comissao_liquidado_CASTAS",
-    "comissao_vendas_CASTAS"
-  ]
+  "fontes_indisponiveis": []
 };
