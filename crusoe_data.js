@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "06/08/2026 16:11",
+  "atualizado_em": "06/08/2026 16:30",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -2381,14 +2381,14 @@ const CRUSOE_DATA = {
         {
           "rca": 419,
           "vendedor": "Natali de Oliveira",
-          "pedidos": 15,
-          "positivacoes": 13,
-          "novos_skus": 15,
-          "faturamento": 2375.22,
-          "pontos_positivacao": 65,
-          "pontos_novos_skus": 60,
+          "pedidos": 16,
+          "positivacoes": 14,
+          "novos_skus": 16,
+          "faturamento": 2505.12,
+          "pontos_positivacao": 70,
+          "pontos_novos_skus": 64,
           "pontos_pedidos_valor": 0,
-          "pontos_total": 125,
+          "pontos_total": 134,
           "vendas": [
             {
               "numnota": "409254",
@@ -2746,6 +2746,31 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM RALADO NATURAL 24X140G",
                   "qt": 2.0,
                   "valor": 259.8,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "419281",
+              "data": "06/08/2026",
+              "cliente": "ISAAC NIWTON MENDONCA VIEIRA 16531192763",
+              "valor_pedido": 129.9,
+              "eventos": [
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC ATUM RALADO NATURAL 24X140G",
+                  "qt": 1.0,
+                  "valor": 129.9,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
