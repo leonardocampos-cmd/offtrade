@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "06/08/2026 17:10",
-  "total": 22300,
+  "atualizado_em": "06/08/2026 17:31",
+  "total": 22301,
   "clientes": [
     {
       "codcli": "38586",
@@ -174848,6 +174848,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "95957",
+      "razao": "IMX TECH COMERCIO ELETRONICO LTDA",
+      "fantasia": "IMX TECH COMERCIO ELETRONICO",
+      "bairro": "VILA VIRGÍNIA",
+      "cidade": "ITAQUAQUECETUBA",
+      "cnpj": "63.653.172/0001-84",
+      "estado": "SP",
+      "ramo": "SERVIÇOS",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
       "codusur2": "",
       "nome_usur2": ""
     },
