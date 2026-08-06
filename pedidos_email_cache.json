@@ -9542,5 +9542,54 @@
     "subject": "Pedido do cliente 31227 Real de Eden",
     "data_email": "2026-08-05",
     "blocos": []
+  },
+  "19fd70e8e7c7167a": {
+    "subject": "PEDIDO CRC 04",
+    "data_email": "2026-08-06",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "381",
+            "descricao": "CACHACA VELHO BARREIRO 910 ML",
+            "qt": 12,
+            "preco": 12.3,
+            "total": 147.6
+          },
+          {
+            "cod_prod": "71",
+            "descricao": "AGUARDENTE OLD CESAR 88 965 ML",
+            "qt": 12,
+            "preco": 11.1,
+            "total": 133.2
+          },
+          {
+            "cod_prod": "6285",
+            "descricao": "CANTINA DA SERRA 750ML",
+            "qt": 12,
+            "preco": 3.9,
+            "total": 46.8
+          },
+          {
+            "cod_prod": "296",
+            "descricao": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+            "qt": 1,
+            "preco": 127.9,
+            "total": 127.9
+          }
+        ],
+        "cod_cliente": "426",
+        "razao_social": "MINI MERCADO CORREIO DO POVO LTDA",
+        "fantasia": "MERCADO SMART",
+        "cnpj": "04.213.151/0001-89",
+        "endereco": "RUA CORREIO DO POVO 40, TAQUARA - RIO DE JANEIRO",
+        "praca": "TAQUARA",
+        "forma_pg": "Boleto",
+        "rca": "144 DIOGO RAPOSO",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ]
   }
 }

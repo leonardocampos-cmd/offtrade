@@ -25703,6 +25703,70 @@ const AGENDAMENTO_DATA = {
   "atualizado_em": "06/08/2026 10:07",
   "comparativo": [
     {
+      "msg_id": "19fd70e8e7c7167a",
+      "subject": "PEDIDO CRC 04",
+      "data_email": "2026-08-06",
+      "sistema": "CRC - 04",
+      "cod_cliente": "426",
+      "razao_social": "MINI MERCADO CORREIO DO POVO LTDA",
+      "fantasia": "MERCADO SMART",
+      "cnpj": "04.213.151/0001-89",
+      "rca": "144 DIOGO RAPOSO",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "381",
+          "descricao": "CACHACA VELHO BARREIRO 910 ML",
+          "qt": 12,
+          "preco": 12.3,
+          "total": 147.6,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "71",
+          "descricao": "AGUARDENTE OLD CESAR 88 965 ML",
+          "qt": 12,
+          "preco": 11.1,
+          "total": 133.2,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6285",
+          "descricao": "CANTINA DA SERRA 750ML",
+          "qt": 12,
+          "preco": 3.9,
+          "total": 46.8,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "296",
+          "descricao": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "qt": 1,
+          "preco": 127.9,
+          "total": 127.9,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
       "msg_id": "19fd199567d6f7bc",
       "subject": "PEDIDO - RIO SUL PARADA ANGÉLICA",
       "data_email": "2026-08-05",
