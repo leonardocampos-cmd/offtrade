@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "06/08/2026 13:50",
+  "atualizado_em": "06/08/2026 14:07",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -15292,6 +15292,13 @@ const NAO_POS_ES_DATA = {
         "codcli": "92294",
         "cliente": "CASA DO AZEITE DELICATESSEM DE TERESOPOLIS LTDA",
         "bairro": "VARZEA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95940",
+        "cliente": "GPM 05 LTDA",
+        "bairro": "BARRA DA TIJUCA",
         "dtultcomp": "nan",
         "produtos": []
       }
