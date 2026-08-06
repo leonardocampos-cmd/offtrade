@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "06/08/2026 17:10",
+  "atualizado_em": "06/08/2026 17:30",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -1553,20 +1553,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "RED BULL",
             "qt": 1,
             "valor": 141.36
-          }
-        ]
-      },
-      {
-        "codcli": "31903",
-        "cliente": "CB BH COMERCIO DE ALIMENTOS LTDA",
-        "bairro": "BELVEDERE",
-        "dtultcomp": "09/06/2026",
-        "produtos": [
-          {
-            "produto": "VODKA ORLOFF 1,75L",
-            "fantasia": "PERNOD",
-            "qt": 15,
-            "valor": 643.5
           }
         ]
       },
@@ -3299,32 +3285,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "31792",
-        "cliente": "CUAREIM ALIMENTOS LTDA",
-        "bairro": "CRUZEIRO",
-        "dtultcomp": "23/07/2026",
-        "produtos": [
-          {
-            "produto": "VINHO ADELE ROSE 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 461.4
-          },
-          {
-            "produto": "VINHO ARESTI EST SEL CHARDONNAY 750ML",
-            "fantasia": "CASTAS",
-            "qt": 5,
-            "valor": 274.5
-          },
-          {
-            "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 479.4
-          }
-        ]
-      },
-      {
         "codcli": "36375",
         "cliente": "ICARO FONSECA DOS SANTOS",
         "bairro": "ANGOLA",
@@ -4410,13 +4370,6 @@ const NAO_POS_MG_DATA = {
         "bairro": "JARDIM AMÉRICA",
         "dtultcomp": "nan",
         "produtos": []
-      },
-      {
-        "codcli": "39737",
-        "cliente": "SIMONE FERRARA EVENTOS LTDA",
-        "bairro": "CHÁCARA",
-        "dtultcomp": "nan",
-        "produtos": []
       }
     ],
     "LEANDRO OLIVEIRA": [
@@ -4605,6 +4558,46 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "33288",
+        "cliente": "ARMAZEM BRASIL LIMITADA",
+        "bairro": "SÃO SEBASTIAO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "AMARULA C LIQUEUR 750 ML",
+            "fantasia": "AURORA",
+            "qt": 12,
+            "valor": 1318.8
+          },
+          {
+            "produto": "GIN ORLOFF 1L",
+            "fantasia": "PERNOD",
+            "qt": 12,
+            "valor": 538.8
+          }
+        ]
+      },
+      {
+        "codcli": "33290",
+        "cliente": "ARMAZEM BRASIL LIMITADA",
+        "bairro": "ANGÉLICA",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "AMARULA C LIQUEUR 750 ML",
+            "fantasia": "AURORA",
+            "qt": 12,
+            "valor": 1318.8
+          },
+          {
+            "produto": "GIN BEEFEATER 750ML",
+            "fantasia": "PERNOD",
+            "qt": 6,
+            "valor": 509.4
+          }
+        ]
+      },
+      {
         "codcli": "33293",
         "cliente": "ARMAZEM BRASIL LIMITADA",
         "bairro": "CENTRO",
@@ -4645,46 +4638,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "CASTAS",
             "qt": 12,
             "valor": 478.8
-          }
-        ]
-      },
-      {
-        "codcli": "33288",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "SÃO SEBASTIAO",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "AMARULA C LIQUEUR 750 ML",
-            "fantasia": "AURORA",
-            "qt": 12,
-            "valor": 1318.8
-          },
-          {
-            "produto": "GIN ORLOFF 1L",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 538.8
-          }
-        ]
-      },
-      {
-        "codcli": "33290",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "ANGÉLICA",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "AMARULA C LIQUEUR 750 ML",
-            "fantasia": "AURORA",
-            "qt": 12,
-            "valor": 1318.8
-          },
-          {
-            "produto": "GIN BEEFEATER 750ML",
-            "fantasia": "PERNOD",
-            "qt": 6,
-            "valor": 509.4
           }
         ]
       },
