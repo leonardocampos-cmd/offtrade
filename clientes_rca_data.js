@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "06/08/2026 15:38",
-  "total": 22343,
+  "atualizado_em": "06/08/2026 15:56",
+  "total": 22308,
   "clientes": [
     {
       "codcli": "38586",
@@ -9892,22 +9892,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "83537",
-      "razao": "44.643.569 RENATA GONCALVES RIBEIRO BOLSONEL VIEIRA",
-      "fantasia": "RENATA GONCALVES RIBEIRO BOLS",
-      "bairro": "CENTRO",
-      "cidade": "GUARAPARI",
-      "cnpj": "44.643.569/0001-40",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "77380",
       "razao": "44.648.311 ELANE SANTANA OLIVEIRA",
       "fantasia": "ELANE SANTANA OLIVEIRA",
@@ -19060,6 +19044,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "52325",
+      "razao": "52.985.874 JHENIFER DENISE DOS SANTOS",
+      "fantasia": "JHENIFER DENISE DOS SANTOS",
+      "bairro": "PARQUE RESIDENCIAL DO LAGO",
+      "cidade": "SANTA BARBARA D OESTE",
+      "cnpj": "52.985.874/0001-49",
+      "estado": "SP",
+      "ramo": "BAR",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "493",
+      "nome_usur1": "CAROLINA SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "73079",
       "razao": "52507.161 FRANCINI LUCIANA DE SOUZA ALVES DE PAULA",
       "fantasia": "SANTO BEER",
@@ -19536,22 +19536,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "91175",
-      "razao": "53.395.365 MARILUCIA ROSA DE JESUS",
-      "fantasia": "MARILUCIA ROSA DE JESUS",
-      "bairro": "SANTA MONICA",
-      "cidade": "GUARAPARI",
-      "cnpj": "53.395.365/0001-29",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -21890,22 +21874,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "79682",
-      "razao": "55.066.786 JOSE GUILHERME DE FARIA TRINDADE",
-      "fantasia": "JOSE GUILHERME DE FARIA TRIND",
-      "bairro": "ITAPEBUSSU",
-      "cidade": "GUARAPARI",
-      "cnpj": "55.066.786/0001-31",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "82665",
@@ -25540,22 +25508,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "91613",
-      "razao": "58.174.051 VERA LUCIA DE ANDRADE GRANADEIRO",
-      "fantasia": "SUPERMERCADO DOIS IRMÃOS",
-      "bairro": "OLARIA",
-      "cidade": "GUARAPARI",
-      "cnpj": "58.174.051/0001-10",
-      "estado": "ES",
-      "ramo": "PADARIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "89926",
       "razao": "58.174.501 MESSIAS MORAES SANTOS",
       "fantasia": "MESSIAS MORAES SANTOS",
@@ -26882,22 +26834,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
-      "codcli": "91166",
-      "razao": "59.443.970 GABRIEL DE SOUZA",
-      "fantasia": "59.443.970 GABRIEL DE SOUZA",
-      "bairro": "KUBITSCHEK",
-      "cidade": "GUARAPARI",
-      "cnpj": "59.443.970/0001-04",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "90147",
@@ -29360,22 +29296,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "489",
       "nome_usur1": "FERNANDO BERTIN - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "91665",
-      "razao": "62.386.534 HERICLES MATIAS DE ALMEIDA",
-      "fantasia": "HERICLES MATIAS DE ALMEIDA",
-      "bairro": "KUBITSCHEK",
-      "cidade": "GUARAPARI",
-      "cnpj": "62.386.534/0001-55",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -35536,6 +35456,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52327",
+      "razao": "ADEGA BARBOSA COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
+      "fantasia": "ADEGA BARBOSA LTDA",
+      "bairro": "JARDIM OLARIA",
+      "cidade": "CARAGUATATUBA",
+      "cnpj": "11.828.371/0001-82",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "516",
+      "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -43844,22 +43780,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "93976",
-      "razao": "ALINI DO NASCIMENTO FACCO",
-      "fantasia": "ALINI DO NASCIMENTO FACCO",
-      "bairro": "UNA",
-      "cidade": "GUARAPARI",
-      "cnpj": "103.002.747-18",
-      "estado": "ES",
-      "ramo": "PESSOA FISICA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "30077",
       "razao": "ALISMAR ANDRADE DOS SANTOS",
       "fantasia": "ALISMAR ANDRADE DOS SANTOS",
@@ -50962,22 +50882,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "BRUNO COSMO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "91565",
-      "razao": "ANTONIO JOSE DA SILVA JUNIOR LTDA",
-      "fantasia": "DISTRIBUIDORA DO JUNIOR",
-      "bairro": "SANTA MONICA",
-      "cidade": "GUARAPARI",
-      "cnpj": "40.780.882/0001-70",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "35523",
@@ -71508,22 +71412,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
-      "codcli": "77745",
-      "razao": "BENEDICTO MUNIZ BAPTISTA",
-      "fantasia": "QUIOSQUE 5 ESTRELA",
-      "bairro": "PRAIA DO MORRO",
-      "cidade": "GUARAPARI",
-      "cnpj": "12.984.487/0001-73",
-      "estado": "ES",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "29558",
       "razao": "BENEDITA DE JESUS SILVA",
       "fantasia": "BENEDITA DE JESUS SILVA",
@@ -76315,22 +76203,6 @@ const CLIENTES_RCA_DATA = {
       "cidade": "RIO DE JANEIRO",
       "cnpj": "50.813.048/0001-97",
       "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "76458",
-      "razao": "BOTECO DO CARANGUEJO LTDA",
-      "fantasia": "BOTECO DO CARANGUEJO",
-      "bairro": "CENTRO",
-      "cidade": "GUARAPARI",
-      "cnpj": "43.774.913/0001-78",
-      "estado": "ES",
       "ramo": "RESTAURANTE",
       "key_account": false,
       "rede": "",
@@ -82588,22 +82460,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "51.562.560/0001-70",
       "estado": "RJ",
       "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "50651",
-      "razao": "C D S COFFEE AND DRINKS LTDA ME",
-      "fantasia": "COFFEE AND DRINKS",
-      "bairro": "BRAGA",
-      "cidade": "CABO FRIO",
-      "cnpj": "15.275.251/0001-56",
-      "estado": "RJ",
-      "ramo": "CAFETERIA",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -101892,22 +101748,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "93125",
-      "razao": "COISA DE BOTECO DISTRIBUIDORA LTDA",
-      "fantasia": "COISA DE BOTECO",
-      "bairro": "IPIRANGA",
-      "cidade": "GUARAPARI",
-      "cnpj": "42.843.387/0001-98",
-      "estado": "ES",
-      "ramo": "BENEFICIO FISCAL - ES",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "75000",
       "razao": "COISAS PRONTAS COMESTIVEIS LTDA",
       "fantasia": "DITO & FEITO",
@@ -105060,22 +104900,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "85023",
-      "razao": "COMERCIAL VCR DE PRODUTOS ALIMENTICIOS LTDA",
-      "fantasia": "MERCEARIA DULE",
-      "bairro": "RECANTO DA SEREIA",
-      "cidade": "GUARAPARI",
-      "cnpj": "59.794.431/0001-10",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "86265",
       "razao": "COMERCIAL VENTURINI LTDA",
       "fantasia": "COMERCIAL VENTURINI",
@@ -107780,22 +107604,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
     {
-      "codcli": "82690",
-      "razao": "CONVENIENCIA NA PONTE LTDA",
-      "fantasia": "CONVENIENCIA NA PONTE",
-      "bairro": "CENTRO",
-      "cidade": "GUARAPARI",
-      "cnpj": "59.964.329/0001-15",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "71496",
       "razao": "CONVENIENCIA NORTE SUL LTDA",
       "fantasia": "CONVENIENCIA NORTE SUL",
@@ -108370,6 +108178,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "GISELLE BARFER - OFF TRADE",
       "codusur2": "313",
       "nome_usur2": "ANDRE MATTOS"
+    },
+    {
+      "codcli": "73898",
+      "razao": "COPACABANA CHAI POINT COMERCIO DE ALIMENTOS LTDA",
+      "fantasia": "COPACABANA CHAI POINT COMERCIO",
+      "bairro": "BARRA DA TIJUCA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "30.854.746/0003-95",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "229",
+      "nome_usur2": "LUIZA HASSEN"
     },
     {
       "codcli": "33005",
@@ -121268,22 +121092,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "FERNANDO RISSON - OFF TRADE"
     },
     {
-      "codcli": "90994",
-      "razao": "DISTRIBUIDORA CARIOCA LTDA",
-      "fantasia": "MESTRE DAS BEBIDAS",
-      "bairro": "PRAIA DO MORRO",
-      "cidade": "GUARAPARI",
-      "cnpj": "50.858.923/0001-57",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "34081",
       "razao": "DISTRIBUIDORA CASA DOS ESPETOS LTDA",
       "fantasia": "DISTRIBUIDORA CASA DOS ESPETOS",
@@ -123026,22 +122834,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "91816",
-      "razao": "DISTRIBUIDORA EMPORIO ENSEADA LTDA",
-      "fantasia": "DISTRIBUIDORA EMPORIO ENSEADA LTDA",
-      "bairro": "ENSEADA AZUL",
-      "cidade": "GUARAPARI",
-      "cnpj": "61.467.404/0001-84",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "80877",
@@ -138580,22 +138372,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "85958",
-      "razao": "EMPORIO GUARAPARI LTDA",
-      "fantasia": "EMPORIO GUARAPARI",
-      "bairro": "COMUNIDADE URBANA DE AMARELOS",
-      "cidade": "GUARAPARI",
-      "cnpj": "59.437.670/0001-12",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "80227",
       "razao": "EMPORIO GYN COMERCIO ATACADISTA LTDA",
       "fantasia": "EMPORIO GYN",
@@ -144628,22 +144404,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "80503",
-      "razao": "EXPRESS BEBIDAS LTDA",
-      "fantasia": "EXPRESS BEBIDAS LTDA",
-      "bairro": "CENTRO",
-      "cidade": "GUARAPARI",
-      "cnpj": "55.258.094/0001-95",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "84800",
       "razao": "EXPRESS CONVENIENCIA BINGEN LTDA",
       "fantasia": "EXPRESS CONVENIENCIA - BINGEN",
@@ -149792,22 +149552,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "20744",
-      "razao": "FENIX 1200 COMERCIO E PRODUTOS LTDA",
-      "fantasia": "BOUTIQUE SAO BENEDITO",
-      "bairro": "SANTA CRUZ",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "27.213.311/0001-95",
-      "estado": "RJ",
-      "ramo": "EMPORIO/BAZAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -157684,6 +157428,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "52326",
+      "razao": "GABB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
+      "fantasia": "MARTIM BEACH MERCADO E PADARIA",
+      "bairro": "MARTIM DE SA",
+      "cidade": "CARAGUATATUBA",
+      "cnpj": "53.720.425/0001-31",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "516",
+      "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "7039",
       "razao": "GABILICIA PIZZARIA",
       "fantasia": "GABILICIA PIZZARIA",
@@ -162948,22 +162708,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "93424",
-      "razao": "GIRO ALTO SUPERMERCADO LTDA",
-      "fantasia": "SUPERMERCADO GIRO ALTO",
-      "bairro": "KUBITSCHEK",
-      "cidade": "GUARAPARI",
-      "cnpj": "51.570.511/0001-80",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "91860",
       "razao": "GIRO ATACADO DISTRIBUIDOR LTDA",
       "fantasia": "GIRO ATACADISTA",
@@ -164560,8 +164304,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "512",
       "nome_usur1": "WILLIAM GONCALVES - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "1",
+      "nome_usur2": "RQ"
     },
     {
       "codcli": "54856",
@@ -167104,22 +166848,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "91596",
-      "razao": "GUILHERME FERNANDES COELHO",
-      "fantasia": "IMPRIO BEBIDAS",
-      "bairro": "COROADO",
-      "cidade": "GUARAPARI",
-      "cnpj": "123.883.917-76",
-      "estado": "ES",
-      "ramo": "PESSOA FISICA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -170096,22 +169824,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "93975",
-      "razao": "HELIONEIA SAMEN DE LIMA",
-      "fantasia": "HELIONEIA SAMEN DE LIMA",
-      "bairro": "UNA",
-      "cidade": "GUARAPARI",
-      "cnpj": "015.376.847-95",
-      "estado": "ES",
-      "ramo": "PESSOA FISICA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -174932,22 +174644,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LUIZA HASSEN"
     },
     {
-      "codcli": "92163",
-      "razao": "IMPERIO COMERCIO DE BEBIDAS LTDA",
-      "fantasia": "IMPERIO BEBIDAS",
-      "bairro": "COROADO",
-      "cidade": "GUARAPARI",
-      "cnpj": "53.471.057/0001-35",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "72408",
       "razao": "IMPERIO COMERCIO VAREJISTA DE BEBIDAS LTDA",
       "fantasia": "IMPERIO DISTRIBUIDORA & CONVENIENCIA",
@@ -177232,22 +176928,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "93941",
-      "razao": "ISABELLA DE OLIVEIRA ARAÚJO",
-      "fantasia": "ISABELLA DE OLIVEIRA ARAÚJO",
-      "bairro": "PORTAL",
-      "cidade": "GUARAPARI",
-      "cnpj": "148.991.447-17",
-      "estado": "ES",
-      "ramo": "PESSOA FISICA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -185940,22 +185620,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "74392",
-      "razao": "JOAO FELIPE GOTTARDO RHEINEL",
-      "fantasia": "GOLD BEER",
-      "bairro": "CENTRO",
-      "cidade": "GUARAPARI",
-      "cnpj": "44.478.012/0001-00",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "34496",
       "razao": "JOAO FERNANDO DE LIMA",
       "fantasia": "GARAGEM BAR",
@@ -188706,22 +188370,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "77335",
-      "razao": "JOSE CARLOS DIAS VARGENS 39596940597",
-      "fantasia": "JOSE CARLOS DIAS VARGENS",
-      "bairro": "UNA",
-      "cidade": "GUARAPARI",
-      "cnpj": "31.400.448/0001-26",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "93294",
@@ -204900,22 +204548,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "76648",
-      "razao": "LEONARDO SANTANA DE JESUS 14472362708",
-      "fantasia": "LEONARDO SANTANA DE JESUS",
-      "bairro": "BELA VISTA",
-      "cidade": "GUARAPARI",
-      "cnpj": "37.278.961/0001-72",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "28605",
       "razao": "LEONARDO SANTOS",
       "fantasia": "LEONARDO SANTOS",
@@ -209604,22 +209236,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
-      "codcli": "91787",
-      "razao": "LPP COMERCIO LTDA",
-      "fantasia": "SUPERMERCADO MEAIPE",
-      "bairro": "MEAÍPE",
-      "cidade": "GUARAPARI",
-      "cnpj": "59.335.381/0001-02",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "71440",
       "razao": "LPP RESTAURANTE LTDA",
       "fantasia": "LPP RESTAURANTE",
@@ -212434,22 +212050,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JOSIETH LIMA - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
-      "codcli": "91186",
-      "razao": "LUCINETE MARIA DE JESUS",
-      "fantasia": "LUCINETE MARIA DE JESUS",
-      "bairro": "PEROCAO",
-      "cidade": "GUARAPARI",
-      "cnpj": "019.911.057-38",
-      "estado": "ES",
-      "ramo": "PESSOA FISICA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "29675",
@@ -218908,22 +218508,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "37.348.106/0001-90",
       "estado": "PR",
       "ramo": "CAFE/LANCHONETE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "90577",
-      "razao": "MALDILIS DA MOTA BASTOS 35676833734",
-      "fantasia": "MALDILIS DA MOTA BASTOS",
-      "bairro": "PRAIA DO MORRO",
-      "cidade": "GUARAPARI",
-      "cnpj": "48.692.806/0001-14",
-      "estado": "ES",
-      "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -227124,22 +226708,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "91929",
-      "razao": "MARINALVA DE SOUZA 09965464723",
-      "fantasia": "PADARIA  PÃO E ARTE",
-      "bairro": "KUBITSCHEK",
-      "cidade": "GUARAPARI",
-      "cnpj": "40.976.089/0001-40",
-      "estado": "ES",
-      "ramo": "PADARIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "34345",
       "razao": "MARINALVA GOMES",
       "fantasia": "BAR DO PORTUGUES",
@@ -230706,22 +230274,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "549",
       "nome_usur2": "FERNANDO GOMES"
-    },
-    {
-      "codcli": "91133",
-      "razao": "MAZZOCCO SUCOS E CAFES LTDA",
-      "fantasia": "MAZZOCCO SUCOS E CAFES",
-      "bairro": "CENTRO",
-      "cidade": "GUARAPARI",
-      "cnpj": "44.003.027/0001-03",
-      "estado": "ES",
-      "ramo": "CAFETERIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "31018",
@@ -238420,22 +237972,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "76520",
-      "razao": "MERCANTIL PARTECAM LTDA",
-      "fantasia": "SUPERMERCADO GRASSE",
-      "bairro": "SANTA MONICA",
-      "cidade": "GUARAPARI",
-      "cnpj": "00.282.054/0001-97",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "73500",
       "razao": "MERCATO EXPRESS HOLDING DE PARTICIPACAO LTDA",
       "fantasia": "MERCATO EXPRESS HOLDING DE PARTICIPACAO",
@@ -244482,22 +244018,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
-    },
-    {
-      "codcli": "80871",
-      "razao": "MINI MERCADO FOLLI LTDA",
-      "fantasia": "MERCADO FOLLI",
-      "bairro": "SANTA MARGARIDA",
-      "cidade": "GUARAPARI",
-      "cnpj": "48.957.494/0001-23",
-      "estado": "ES",
-      "ramo": "ACOUGUE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "84592",
@@ -253348,22 +252868,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "86433",
-      "razao": "NERIS MINIMERCADO LTDA",
-      "fantasia": "MERCADO NERIS - ANIL",
-      "bairro": "ANIL",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "36.160.185/0001-49",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "144",
-      "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "29789",
       "razao": "NERLEI MORAIS DE OLIVEIRA",
       "fantasia": "MERCEARIA CASTRO",
@@ -257344,22 +256848,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "84826",
-      "razao": "NUNES E LOYOLLA LTDA",
-      "fantasia": "AUTO SERVICO NUNES E LOYOLLA",
-      "bairro": "VILLAGE DO SOL",
-      "cidade": "GUARAPARI",
-      "cnpj": "10.887.448/0001-22",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -261844,22 +261332,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "93266",
-      "razao": "P DE MENDONCA ALMEIDA RESTAURANTE LTDA",
-      "fantasia": "ALMEIDAS RESTAURANTE",
-      "bairro": "CENTRO",
-      "cidade": "GUARAPARI",
-      "cnpj": "44.727.848/0001-92",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "82314",
       "razao": "P E S RANGEL HORTIFRUTI",
       "fantasia": "FRUTASUL",
@@ -264802,22 +264274,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "GUSTAVO MARTINS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "91918",
-      "razao": "PADARIA E MERCEARIA DELICIAS DO TRIGO LTDA",
-      "fantasia": "PADARIA E MERCEARIA DELICIAS DO TRIGO",
-      "bairro": "PRAIA DO MORRO",
-      "cidade": "GUARAPARI",
-      "cnpj": "58.519.427/0001-80",
-      "estado": "ES",
-      "ramo": "PADARIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "1049",
@@ -283634,6 +283090,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "W.S",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "63052",
+      "razao": "PS2 CHAI COMERCIO DE ALIMENTOS LTDA",
+      "fantasia": "JAPPA DA QUITANDA",
+      "bairro": "BARRA DA TIJUCA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "33.372.651/0001-61",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "229",
+      "nome_usur2": "LUIZA HASSEN"
     },
     {
       "codcli": "30521",
@@ -324788,22 +324260,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "77524",
-      "razao": "SUPERMERCADO GIANIZELI LTDA",
-      "fantasia": "SUPERMERCADO GIANIZELI",
-      "bairro": "PEROCAO",
-      "cidade": "GUARAPARI",
-      "cnpj": "00.258.069/0001-10",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "76299",
       "razao": "SUPERMERCADO GOMERAN LTDA",
       "fantasia": "SUPERMERCADO GOMERAN",
@@ -355156,6 +354612,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
+      "codcli": "95955",
+      "razao": "XPETTO GRILL CF LTDA",
+      "fantasia": "XPETTO GRILL CF",
+      "bairro": "PORTINHO",
+      "cidade": "CABO FRIO",
+      "cnpj": "65.765.952/0001-41",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
+    },
+    {
       "codcli": "85011",
       "razao": "XTREME COMERCIO ATACADISTA LTDA",
       "fantasia": "XTREME COMERCIO ATACADISTA",
@@ -356100,22 +355572,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "77908",
-      "razao": "ZANOL COMERCIO LTDA",
-      "fantasia": "ZANOL COMERCIO",
-      "bairro": "JARDIM SANTA ROSA",
-      "cidade": "GUARAPARI",
-      "cnpj": "26.570.863/0001-98",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "50233",
       "razao": "ZAPT COMERCIO DE MATERIAIS PROMOCIONAIS EIRELI",
       "fantasia": "ZAPT EVENTOS",
@@ -356523,22 +355979,6 @@ const CLIENTES_RCA_DATA = {
       "cidade": "RIO DE JANEIRO",
       "cnpj": "20.960.105/0001-08",
       "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "93795",
-      "razao": "ZENATA COMERCIO LTDA",
-      "fantasia": "ZENATA COMERCIO LTDA",
-      "bairro": "KUBITSCHEK",
-      "cidade": "GUARAPARI",
-      "cnpj": "41.516.558/0001-01",
-      "estado": "ES",
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
