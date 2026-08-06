@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_mg.py
 
 const VENDAS_MG_DATA = {
-  "atualizado_em": "05/08/2026 18:45",
+  "atualizado_em": "06/08/2026 08:00",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -114,8 +114,8 @@ const VENDAS_MG_DATA = {
         "fat_ano_ant": 0.0
       },
       "Ago/26": {
-        "fat": 19119.68,
-        "pos": 17,
+        "fat": 20411.6,
+        "pos": 18,
         "fat_ant": 114892.21,
         "fat_ano_ant": 0.0
       },
@@ -200,8 +200,8 @@ const VENDAS_MG_DATA = {
         "fat_ano_ant": 0.0
       },
       "Ago/26": {
-        "fat": 13012.94,
-        "pos": 18,
+        "fat": 19117.72,
+        "pos": 25,
         "fat_ant": 326368.49,
         "fat_ano_ant": 250737.2
       }
@@ -52282,6 +52282,36 @@ const VENDAS_MG_DATA = {
           "fantasia": "CASTAS",
           "qt": 2,
           "valor": 89.8,
+          "offtrade": true
+        },
+        {
+          "data": "05/08/2026",
+          "codcli": "38122",
+          "cliente": "ESPETINHO DO BOLOTA - REI DA PICANHA LTDA",
+          "produto": "RED BULL TROPICAL 24X250 ML - ENERG",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 738.24,
+          "offtrade": true
+        },
+        {
+          "data": "05/08/2026",
+          "codcli": "38122",
+          "cliente": "ESPETINHO DO BOLOTA - REI DA PICANHA LTDA",
+          "produto": "RED BULL MELANCIA 24X250ML ENERG",
+          "fantasia": "",
+          "qt": 1,
+          "valor": 184.56,
+          "offtrade": true
+        },
+        {
+          "data": "05/08/2026",
+          "codcli": "38122",
+          "cliente": "ESPETINHO DO BOLOTA - REI DA PICANHA LTDA",
+          "produto": "RED BULL 24X250ML ENERG",
+          "fantasia": "",
+          "qt": 2,
+          "valor": 369.12,
           "offtrade": true
         },
         {
@@ -166365,6 +166395,16 @@ const VENDAS_MG_DATA = {
           "offtrade": true
         },
         {
+          "data": "05/08/2026",
+          "codcli": "30374",
+          "cliente": "EL MAI LTDA",
+          "produto": "ESPUMANTE ALUD BRANCO 750ML",
+          "fantasia": "CASTAS",
+          "qt": 12,
+          "valor": 538.8,
+          "offtrade": true
+        },
+        {
           "data": "03/08/2026",
           "codcli": "31920",
           "cliente": "SALUS ALIMENTOS LTDA",
@@ -166432,6 +166472,46 @@ const VENDAS_MG_DATA = {
           "fantasia": "",
           "qt": 12,
           "valor": 322.8,
+          "offtrade": true
+        },
+        {
+          "data": "05/08/2026",
+          "codcli": "33925",
+          "cliente": "CULINARIA JAPAN GDA LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 4,
+          "valor": 575.04,
+          "offtrade": true
+        },
+        {
+          "data": "05/08/2026",
+          "codcli": "33925",
+          "cliente": "CULINARIA JAPAN GDA LTDA",
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "fantasia": "LVMH",
+          "qt": 12,
+          "valor": 1078.8,
+          "offtrade": true
+        },
+        {
+          "data": "05/08/2026",
+          "codcli": "33926",
+          "cliente": "CULINARIA JAPAN GDA LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 2,
+          "valor": 287.52,
+          "offtrade": true
+        },
+        {
+          "data": "05/08/2026",
+          "codcli": "33926",
+          "cliente": "CULINARIA JAPAN GDA LTDA",
+          "produto": "CERVEJA HEINEKEN  LONG ZERO 24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 143.76,
           "offtrade": true
         },
         {
@@ -166535,6 +166615,26 @@ const VENDAS_MG_DATA = {
           "offtrade": true
         },
         {
+          "data": "05/08/2026",
+          "codcli": "33224",
+          "cliente": "CULINARIA JAPAN GDA LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 2,
+          "valor": 287.52,
+          "offtrade": true
+        },
+        {
+          "data": "05/08/2026",
+          "codcli": "33224",
+          "cliente": "CULINARIA JAPAN GDA LTDA",
+          "produto": "CERVEJA HEINEKEN  LONG ZERO 24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 143.76,
+          "offtrade": true
+        },
+        {
           "data": "03/08/2026",
           "codcli": "33024",
           "cliente": "CASA OUTONO 571 MUSICA E CULTURA LTDA",
@@ -166542,6 +166642,166 @@ const VENDAS_MG_DATA = {
           "fantasia": "HEINEKEN",
           "qt": 3,
           "valor": 431.28,
+          "offtrade": true
+        },
+        {
+          "data": "05/08/2026",
+          "codcli": "33951",
+          "cliente": "RESTAURANTE LA TRAVIATA",
+          "produto": "YVY DESTILADO GIN AR LT 710ML",
+          "fantasia": "YVY",
+          "qt": 12,
+          "valor": 478.8,
+          "offtrade": true
+        },
+        {
+          "data": "05/08/2026",
+          "codcli": "34536",
+          "cliente": "PARRILLA COSTELLO LTDA",
+          "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
+          "fantasia": "MONIN",
+          "qt": 5,
+          "valor": 249.5,
+          "offtrade": true
+        },
+        {
+          "data": "05/08/2026",
+          "codcli": "34536",
+          "cliente": "PARRILLA COSTELLO LTDA",
+          "produto": "XAROPE MONIN LIMAO SICILIANO 700 ML",
+          "fantasia": "MONIN",
+          "qt": 2,
+          "valor": 99.8,
+          "offtrade": true
+        },
+        {
+          "data": "05/08/2026",
+          "codcli": "34536",
+          "cliente": "PARRILLA COSTELLO LTDA",
+          "produto": "XAROPE MONIN FRAMBOESA 700 ML",
+          "fantasia": "MONIN",
+          "qt": 3,
+          "valor": 149.7,
+          "offtrade": true
+        },
+        {
+          "data": "05/08/2026",
+          "codcli": "34536",
+          "cliente": "PARRILLA COSTELLO LTDA",
+          "produto": "XAROPE MONIN MARACUJÁ 700 ML",
+          "fantasia": "MONIN",
+          "qt": 1,
+          "valor": 49.9,
+          "offtrade": true
+        },
+        {
+          "data": "05/08/2026",
+          "codcli": "34536",
+          "cliente": "PARRILLA COSTELLO LTDA",
+          "produto": "XAROPE MONIN MELANCIA 700ML",
+          "fantasia": "MONIN",
+          "qt": 3,
+          "valor": 149.7,
+          "offtrade": true
+        },
+        {
+          "data": "05/08/2026",
+          "codcli": "34536",
+          "cliente": "PARRILLA COSTELLO LTDA",
+          "produto": "XAROPE MONIN TORANJA 700 ML",
+          "fantasia": "MONIN",
+          "qt": 2,
+          "valor": 99.8,
+          "offtrade": true
+        },
+        {
+          "data": "05/08/2026",
+          "codcli": "34536",
+          "cliente": "PARRILLA COSTELLO LTDA",
+          "produto": "XAROPE MONIN GRENADINE 700 ML",
+          "fantasia": "MONIN",
+          "qt": 2,
+          "valor": 99.8,
+          "offtrade": true
+        },
+        {
+          "data": "05/08/2026",
+          "codcli": "34536",
+          "cliente": "PARRILLA COSTELLO LTDA",
+          "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
+          "fantasia": "MONIN",
+          "qt": 2,
+          "valor": 99.8,
+          "offtrade": true
+        },
+        {
+          "data": "05/08/2026",
+          "codcli": "34536",
+          "cliente": "PARRILLA COSTELLO LTDA",
+          "produto": "XAROPE MONIN CRANBERRY 700 ML",
+          "fantasia": "MONIN",
+          "qt": 1,
+          "valor": 49.9,
+          "offtrade": true
+        },
+        {
+          "data": "05/08/2026",
+          "codcli": "34536",
+          "cliente": "PARRILLA COSTELLO LTDA",
+          "produto": "RED BULL ZERO 24X250ML ENERG",
+          "fantasia": "",
+          "qt": 4,
+          "valor": 738.24,
+          "offtrade": true
+        },
+        {
+          "data": "05/08/2026",
+          "codcli": "34536",
+          "cliente": "PARRILLA COSTELLO LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 143.76,
+          "offtrade": true
+        },
+        {
+          "data": "05/08/2026",
+          "codcli": "34536",
+          "cliente": "PARRILLA COSTELLO LTDA",
+          "produto": "XAROPE MONIN LICHIA (LYCHEE) 700ML",
+          "fantasia": "MONIN",
+          "qt": 2,
+          "valor": 99.8,
+          "offtrade": true
+        },
+        {
+          "data": "05/08/2026",
+          "codcli": "34536",
+          "cliente": "PARRILLA COSTELLO LTDA",
+          "produto": "GIN GORDONS 750 ML",
+          "fantasia": "DIAGEO",
+          "qt": 2,
+          "valor": 109.8,
+          "offtrade": true
+        },
+        {
+          "data": "05/08/2026",
+          "codcli": "37618",
+          "cliente": "SAKAI FOOD SERVICE LTDA",
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 2,
+          "valor": 287.52,
+          "offtrade": true
+        },
+        {
+          "data": "05/08/2026",
+          "codcli": "37618",
+          "cliente": "SAKAI FOOD SERVICE LTDA",
+          "produto": "CERVEJA HEINEKEN  LONG ZERO 24X330ML",
+          "fantasia": "HEINEKEN",
+          "qt": 1,
+          "valor": 143.76,
           "offtrade": true
         },
         {
