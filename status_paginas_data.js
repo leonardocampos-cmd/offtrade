@@ -198,6 +198,41 @@ const STATUS_PAGINAS_DATA = {
       "manual": false
     },
     {
+      "arquivo": "vendas_data.js",
+      "atualizado_em": "06/08/2026 11:07",
+      "idade_horas": 0.2,
+      "status": "OK",
+      "manual": false
+    },
+    {
+      "arquivo": "clientes_inativos_data.js",
+      "atualizado_em": "06/08/2026 11:15",
+      "idade_horas": 0.1,
+      "status": "OK",
+      "manual": false
+    },
+    {
+      "arquivo": "vendas_es_data.js",
+      "atualizado_em": "06/08/2026 11:15",
+      "idade_horas": 0.1,
+      "status": "OK",
+      "manual": false
+    },
+    {
+      "arquivo": "vendas_mg_data.js",
+      "atualizado_em": "06/08/2026 11:15",
+      "idade_horas": 0.1,
+      "status": "OK",
+      "manual": false
+    },
+    {
+      "arquivo": "vendas_sp_data.js",
+      "atualizado_em": "06/08/2026 11:15",
+      "idade_horas": 0.1,
+      "status": "OK",
+      "manual": false
+    },
+    {
       "arquivo": "vendedores_auth_data.js",
       "atualizado_em": "06/08/2026 11:14",
       "idade_horas": 0.2,
@@ -219,5 +254,5 @@ const STATUS_PAGINAS_DATA = {
       "manual": false
     }
   ],
-  "total_criticos": 6
+  "total_criticos": 0
 };

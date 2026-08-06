@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "04/08/2026 21:26",
+  "atualizado_em": "06/08/2026 11:22",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -35,13 +35,14 @@ const GERENTES_DATA = {
           "qt": 51894
         },
         "Ago/26": {
-          "fat": 176011.44,
-          "qt": 1505
+          "fat": 191237.27,
+          "qt": 2497
         }
       },
       "gerentes": [
         {
           "nome": "EROCLES OLIVEIRA",
+          "email": "",
           "estados": [
             "ES"
           ],
@@ -67,13 +68,14 @@ const GERENTES_DATA = {
               "qt": 44286
             },
             "Ago/26": {
-              "fat": 176011.44,
-              "qt": 1505
+              "fat": 191237.27,
+              "qt": 2497
             }
           },
           "supervisores": [
             {
               "nome": "SUPERVISOR BALCAO - ES",
+              "email": "nan",
               "estados": [
                 "ES"
               ],
@@ -131,6 +133,7 @@ const GERENTES_DATA = {
             },
             {
               "nome": "SUPERVISOR HIBRIDO ES",
+              "email": "nan",
               "estados": [
                 "ES"
               ],
@@ -156,8 +159,8 @@ const GERENTES_DATA = {
                   "qt": 23369
                 },
                 "Ago/26": {
-                  "fat": 58.32,
-                  "qt": 2
+                  "fat": 87.48,
+                  "qt": 3
                 }
               },
               "vendedores": [
@@ -198,8 +201,8 @@ const GERENTES_DATA = {
                       "qt": 4358
                     },
                     "Ago/26": {
-                      "fat": 58.32,
-                      "qt": 2
+                      "fat": 87.48,
+                      "qt": 3
                     },
                     "Jul/26": {
                       "fat": 262.44,
@@ -304,6 +307,7 @@ const GERENTES_DATA = {
             },
             {
               "nome": "SUPERVISOR OFF - ES",
+              "email": "nan",
               "estados": [
                 "ES"
               ],
@@ -313,8 +317,8 @@ const GERENTES_DATA = {
                   "qt": 5134
                 },
                 "Ago/26": {
-                  "fat": 20640.48,
-                  "qt": 639
+                  "fat": 35837.15,
+                  "qt": 1630
                 },
                 "Jul/26": {
                   "fat": 1149420.35,
@@ -386,8 +390,8 @@ const GERENTES_DATA = {
                       "qt": 3702
                     },
                     "Ago/26": {
-                      "fat": 7839.78,
-                      "qt": 475
+                      "fat": 23036.45,
+                      "qt": 1466
                     },
                     "Jul/26": {
                       "fat": 1002789.93,
@@ -432,6 +436,7 @@ const GERENTES_DATA = {
         },
         {
           "nome": "MARCUS TANAMACHI",
+          "email": "",
           "estados": [
             "ES"
           ],
@@ -456,6 +461,7 @@ const GERENTES_DATA = {
           "supervisores": [
             {
               "nome": "MARCUS TANAMACHI",
+              "email": "nan",
               "estados": [
                 "ES"
               ],
@@ -519,8 +525,8 @@ const GERENTES_DATA = {
           "qt": 18761
         },
         "Ago/26": {
-          "fat": 41951.14,
-          "qt": 870
+          "fat": 64407.36,
+          "qt": 1167
         },
         "Jul/26": {
           "fat": 2052503.07,
@@ -538,6 +544,7 @@ const GERENTES_DATA = {
       "gerentes": [
         {
           "nome": "FERNANDO RISSON",
+          "email": "",
           "estados": [
             "MG"
           ],
@@ -551,8 +558,8 @@ const GERENTES_DATA = {
               "qt": 18761
             },
             "Ago/26": {
-              "fat": 41951.14,
-              "qt": 870
+              "fat": 64407.36,
+              "qt": 1167
             },
             "Jul/26": {
               "fat": 2052503.07,
@@ -570,6 +577,7 @@ const GERENTES_DATA = {
           "supervisores": [
             {
               "nome": "FERNANDO RISSON",
+              "email": "fernando.risson@rigarr.com.br",
               "estados": [
                 "MG"
               ],
@@ -583,8 +591,8 @@ const GERENTES_DATA = {
                   "qt": 18761
                 },
                 "Ago/26": {
-                  "fat": 41951.14,
-                  "qt": 870
+                  "fat": 64407.36,
+                  "qt": 1167
                 },
                 "Jul/26": {
                   "fat": 2052503.07,
@@ -642,8 +650,8 @@ const GERENTES_DATA = {
                       "qt": 4344
                     },
                     "Ago/26": {
-                      "fat": 11918.78,
-                      "qt": 158
+                      "fat": 19117.72,
+                      "qt": 264
                     },
                     "Jul/26": {
                       "fat": 333503.03,
@@ -704,8 +712,8 @@ const GERENTES_DATA = {
                       "qt": 1846
                     },
                     "Ago/26": {
-                      "fat": 3792.24,
-                      "qt": 40
+                      "fat": 9186.24,
+                      "qt": 124
                     },
                     "Jul/26": {
                       "fat": 237927.96,
@@ -750,8 +758,8 @@ const GERENTES_DATA = {
                       "qt": 1507
                     },
                     "Ago/26": {
-                      "fat": 10877.72,
-                      "qt": 168
+                      "fat": 20741.0,
+                      "qt": 275
                     },
                     "Jul/26": {
                       "fat": 120690.57,
@@ -816,8 +824,8 @@ const GERENTES_DATA = {
           "qt": 91622
         },
         "Ago/26": {
-          "fat": 283511.95,
-          "qt": 3666
+          "fat": 359681.9,
+          "qt": 5038
         },
         "Jul/26": {
           "fat": 4110567.43,
@@ -839,6 +847,7 @@ const GERENTES_DATA = {
       "gerentes": [
         {
           "nome": "ALLAN PAES",
+          "email": "",
           "estados": [
             "RJ"
           ],
@@ -848,8 +857,8 @@ const GERENTES_DATA = {
               "qt": 81596
             },
             "Ago/26": {
-              "fat": 225311.37,
-              "qt": 2842
+              "fat": 280486.94,
+              "qt": 4022
             },
             "Jul/26": {
               "fat": 3599878.81,
@@ -871,6 +880,7 @@ const GERENTES_DATA = {
           "supervisores": [
             {
               "nome": "DANIELLE MOURA",
+              "email": "nan",
               "estados": [
                 "RJ"
               ],
@@ -880,8 +890,8 @@ const GERENTES_DATA = {
                   "qt": 81596
                 },
                 "Ago/26": {
-                  "fat": 225311.37,
-                  "qt": 2842
+                  "fat": 280486.94,
+                  "qt": 4022
                 },
                 "Jul/26": {
                   "fat": 3599878.81,
@@ -911,8 +921,8 @@ const GERENTES_DATA = {
                       "qt": 1453
                     },
                     "Ago/26": {
-                      "fat": 1811.19,
-                      "qt": 57
+                      "fat": 2682.87,
+                      "qt": 82
                     },
                     "Jul/26": {
                       "fat": 53879.76,
@@ -965,8 +975,8 @@ const GERENTES_DATA = {
                       "qt": 1078
                     },
                     "Ago/26": {
-                      "fat": 3499.2,
-                      "qt": 20
+                      "fat": 3858.0,
+                      "qt": 32
                     },
                     "Jul/26": {
                       "fat": 58286.59,
@@ -996,8 +1006,8 @@ const GERENTES_DATA = {
                       "qt": 5626
                     },
                     "Ago/26": {
-                      "fat": 16657.11,
-                      "qt": 445
+                      "fat": 25167.51,
+                      "qt": 545
                     },
                     "Jul/26": {
                       "fat": 185116.13,
@@ -1027,8 +1037,8 @@ const GERENTES_DATA = {
                       "qt": 2885
                     },
                     "Ago/26": {
-                      "fat": 7867.62,
-                      "qt": 98
+                      "fat": 8649.26,
+                      "qt": 108
                     },
                     "Jul/26": {
                       "fat": 166232.07,
@@ -1056,6 +1066,10 @@ const GERENTES_DATA = {
                     "Abr/26": {
                       "fat": 379168.84,
                       "qt": 7940
+                    },
+                    "Ago/26": {
+                      "fat": 0.0,
+                      "qt": 36
                     },
                     "Jul/26": {
                       "fat": 149739.66,
@@ -1085,8 +1099,8 @@ const GERENTES_DATA = {
                       "qt": 6194
                     },
                     "Ago/26": {
-                      "fat": 10107.36,
-                      "qt": 154
+                      "fat": 12935.0,
+                      "qt": 240
                     },
                     "Jul/26": {
                       "fat": 195470.84,
@@ -1108,7 +1122,7 @@ const GERENTES_DATA = {
                 },
                 {
                   "nome": "DIRLEI ARAUJO - OFF TRADE",
-                  "rca": "554",
+                  "rca": "417",
                   "estado": "RJ",
                   "por_mes": {
                     "Abr/26": {
@@ -1143,8 +1157,8 @@ const GERENTES_DATA = {
                       "qt": 1008
                     },
                     "Ago/26": {
-                      "fat": 4789.09,
-                      "qt": 114
+                      "fat": 5312.19,
+                      "qt": 135
                     },
                     "Jul/26": {
                       "fat": 60026.09,
@@ -1189,8 +1203,8 @@ const GERENTES_DATA = {
                       "qt": 2030
                     },
                     "Ago/26": {
-                      "fat": 11998.72,
-                      "qt": 186
+                      "fat": 13103.76,
+                      "qt": 205
                     },
                     "Jul/26": {
                       "fat": 138373.56,
@@ -1279,6 +1293,10 @@ const GERENTES_DATA = {
                       "fat": 64244.9,
                       "qt": 1524
                     },
+                    "Ago/26": {
+                      "fat": 19320.0,
+                      "qt": 558
+                    },
                     "Jul/26": {
                       "fat": 240825.95,
                       "qt": 6110
@@ -1344,8 +1362,8 @@ const GERENTES_DATA = {
                       "qt": 3419
                     },
                     "Ago/26": {
-                      "fat": 25430.4,
-                      "qt": 551
+                      "fat": 31004.02,
+                      "qt": 670
                     },
                     "Jul/26": {
                       "fat": 57125.32,
@@ -1375,8 +1393,8 @@ const GERENTES_DATA = {
                       "qt": 976
                     },
                     "Ago/26": {
-                      "fat": 39928.78,
-                      "qt": 236
+                      "fat": 44457.86,
+                      "qt": 350
                     },
                     "Jul/26": {
                       "fat": 237394.87,
@@ -1406,8 +1424,8 @@ const GERENTES_DATA = {
                       "qt": 1910
                     },
                     "Ago/26": {
-                      "fat": 9092.2,
-                      "qt": 272
+                      "fat": 13192.37,
+                      "qt": 316
                     },
                     "Jul/26": {
                       "fat": 96562.28,
@@ -1436,6 +1454,10 @@ const GERENTES_DATA = {
                       "fat": 54657.0,
                       "qt": 342
                     },
+                    "Ago/26": {
+                      "fat": 59153.4,
+                      "qt": 246
+                    },
                     "Jul/26": {
                       "fat": 73458.6,
                       "qt": 298
@@ -1451,10 +1473,6 @@ const GERENTES_DATA = {
                     "Mar/26": {
                       "fat": 536256.25,
                       "qt": 2882
-                    },
-                    "Ago/26": {
-                      "fat": 52479.0,
-                      "qt": 210
                     }
                   }
                 }
@@ -1464,6 +1482,7 @@ const GERENTES_DATA = {
         },
         {
           "nome": "DANIEL DINIZ",
+          "email": "",
           "estados": [
             "RJ"
           ],
@@ -1473,8 +1492,8 @@ const GERENTES_DATA = {
               "qt": 10026
             },
             "Ago/26": {
-              "fat": 58200.58,
-              "qt": 824
+              "fat": 79194.96,
+              "qt": 1016
             },
             "Jul/26": {
               "fat": 510688.62,
@@ -1496,6 +1515,7 @@ const GERENTES_DATA = {
           "supervisores": [
             {
               "nome": "DANIEL DINIZ",
+              "email": "nan",
               "estados": [
                 "RJ"
               ],
@@ -1505,8 +1525,8 @@ const GERENTES_DATA = {
                   "qt": 10026
                 },
                 "Ago/26": {
-                  "fat": 58200.58,
-                  "qt": 824
+                  "fat": 79194.96,
+                  "qt": 1016
                 },
                 "Jul/26": {
                   "fat": 510688.62,
@@ -1536,8 +1556,8 @@ const GERENTES_DATA = {
                       "qt": 4414
                     },
                     "Ago/26": {
-                      "fat": 38718.4,
-                      "qt": 589
+                      "fat": 50731.12,
+                      "qt": 667
                     },
                     "Jul/26": {
                       "fat": 277688.31,
@@ -1567,8 +1587,8 @@ const GERENTES_DATA = {
                       "qt": 4737
                     },
                     "Ago/26": {
-                      "fat": 17684.58,
-                      "qt": 225
+                      "fat": 26666.24,
+                      "qt": 339
                     },
                     "Jul/26": {
                       "fat": 202077.81,
@@ -1633,16 +1653,16 @@ const GERENTES_DATA = {
           "qt": 131890
         },
         "Ago/26": {
-          "fat": 593830.56,
-          "qt": 17645
+          "fat": 1037155.64,
+          "qt": 25979
         },
         "Jul/26": {
           "fat": 9437331.87,
           "qt": 235297
         },
         "Jun/26": {
-          "fat": 8482161.9,
-          "qt": 212160
+          "fat": 8525030.58,
+          "qt": 212586
         },
         "Mai/26": {
           "fat": 8359576.83,
@@ -1656,6 +1676,7 @@ const GERENTES_DATA = {
       "gerentes": [
         {
           "nome": "DANIEL DINIZ",
+          "email": "",
           "estados": [
             "SP"
           ],
@@ -1665,16 +1686,16 @@ const GERENTES_DATA = {
               "qt": 66027
             },
             "Ago/26": {
-              "fat": 129595.81,
-              "qt": 4054
+              "fat": 252908.21,
+              "qt": 7808
             },
             "Jul/26": {
               "fat": 3457691.36,
               "qt": 84097
             },
             "Jun/26": {
-              "fat": 2842451.19,
-              "qt": 70503
+              "fat": 2885319.87,
+              "qt": 70929
             },
             "Mai/26": {
               "fat": 2255775.51,
@@ -1688,6 +1709,7 @@ const GERENTES_DATA = {
           "supervisores": [
             {
               "nome": "DANIEL DINIZ",
+              "email": "nan",
               "estados": [
                 "SP"
               ],
@@ -1697,16 +1719,16 @@ const GERENTES_DATA = {
                   "qt": 66027
                 },
                 "Ago/26": {
-                  "fat": 129595.81,
-                  "qt": 4054
+                  "fat": 252908.21,
+                  "qt": 7808
                 },
                 "Jul/26": {
                   "fat": 3457691.36,
                   "qt": 84097
                 },
                 "Jun/26": {
-                  "fat": 2842451.19,
-                  "qt": 70503
+                  "fat": 2885319.87,
+                  "qt": 70929
                 },
                 "Mai/26": {
                   "fat": 2255775.51,
@@ -1739,16 +1761,16 @@ const GERENTES_DATA = {
                       "qt": 65797
                     },
                     "Ago/26": {
-                      "fat": 129595.81,
-                      "qt": 4054
+                      "fat": 252908.21,
+                      "qt": 7808
                     },
                     "Jul/26": {
                       "fat": 3457691.36,
                       "qt": 84097
                     },
                     "Jun/26": {
-                      "fat": 2842451.19,
-                      "qt": 70503
+                      "fat": 2885319.87,
+                      "qt": 70929
                     },
                     "Mai/26": {
                       "fat": 2255775.51,
@@ -1766,6 +1788,7 @@ const GERENTES_DATA = {
         },
         {
           "nome": "MARCUS TANAMACHI",
+          "email": "",
           "estados": [
             "SP"
           ],
@@ -1775,8 +1798,8 @@ const GERENTES_DATA = {
               "qt": 65863
             },
             "Ago/26": {
-              "fat": 464234.75,
-              "qt": 13591
+              "fat": 784247.43,
+              "qt": 18171
             },
             "Jul/26": {
               "fat": 5979640.51,
@@ -1798,6 +1821,7 @@ const GERENTES_DATA = {
           "supervisores": [
             {
               "nome": "ANDERSON CANAVEIS",
+              "email": "",
               "estados": [
                 "SP"
               ],
@@ -1805,6 +1829,10 @@ const GERENTES_DATA = {
                 "Abr/26": {
                   "fat": 1471876.51,
                   "qt": 33395
+                },
+                "Ago/26": {
+                  "fat": 395324.03,
+                  "qt": 5272
                 },
                 "Jul/26": {
                   "fat": 1420064.24,
@@ -1821,10 +1849,6 @@ const GERENTES_DATA = {
                 "Mar/26": {
                   "fat": 1807597.76,
                   "qt": 51806
-                },
-                "Ago/26": {
-                  "fat": 147497.03,
-                  "qt": 2928
                 }
               },
               "vendedores": [
@@ -1833,6 +1857,10 @@ const GERENTES_DATA = {
                   "rca": "232",
                   "estado": "SP",
                   "por_mes": {
+                    "Ago/26": {
+                      "fat": 151165.44,
+                      "qt": 864
+                    },
                     "Jul/26": {
                       "fat": 594391.56,
                       "qt": 18038
@@ -1851,6 +1879,10 @@ const GERENTES_DATA = {
                     "Abr/26": {
                       "fat": 411659.81,
                       "qt": 7084
+                    },
+                    "Ago/26": {
+                      "fat": 46200.3,
+                      "qt": 615
                     },
                     "Jul/26": {
                       "fat": 373705.92,
@@ -1880,8 +1912,8 @@ const GERENTES_DATA = {
                       "qt": 8531
                     },
                     "Ago/26": {
-                      "fat": 81800.96,
-                      "qt": 1004
+                      "fat": 110113.26,
+                      "qt": 1143
                     },
                     "Jul/26": {
                       "fat": 116818.15,
@@ -1906,6 +1938,10 @@ const GERENTES_DATA = {
                   "rca": "496",
                   "estado": "SP",
                   "por_mes": {
+                    "Ago/26": {
+                      "fat": 11988.0,
+                      "qt": 120
+                    },
                     "Jul/26": {
                       "fat": 58392.87,
                       "qt": 2358
@@ -1996,6 +2032,10 @@ const GERENTES_DATA = {
                   "rca": "499",
                   "estado": "SP",
                   "por_mes": {
+                    "Ago/26": {
+                      "fat": 729.24,
+                      "qt": 60
+                    },
                     "Jul/26": {
                       "fat": 5256.04,
                       "qt": 186
@@ -2096,8 +2136,8 @@ const GERENTES_DATA = {
                   "estado": "SP",
                   "por_mes": {
                     "Ago/26": {
-                      "fat": 3405.86,
-                      "qt": 72
+                      "fat": 9924.82,
+                      "qt": 294
                     },
                     "Jul/26": {
                       "fat": 25475.84,
@@ -2148,8 +2188,8 @@ const GERENTES_DATA = {
                   "estado": "SP",
                   "por_mes": {
                     "Ago/26": {
-                      "fat": 9243.41,
-                      "qt": 321
+                      "fat": 12156.17,
+                      "qt": 645
                     },
                     "Jul/26": {
                       "fat": 138644.23,
@@ -2161,6 +2201,7 @@ const GERENTES_DATA = {
             },
             {
               "nome": "MARCUS TANAMACHI",
+              "email": "",
               "estados": [
                 "SP"
               ],
@@ -2174,8 +2215,8 @@ const GERENTES_DATA = {
                   "qt": 20767
                 },
                 "Ago/26": {
-                  "fat": 159061.3,
-                  "qt": 5014
+                  "fat": 172113.11,
+                  "qt": 5266
                 },
                 "Jul/26": {
                   "fat": 2695031.32,
@@ -2280,8 +2321,8 @@ const GERENTES_DATA = {
                   "estado": "SP",
                   "por_mes": {
                     "Ago/26": {
-                      "fat": 1563.56,
-                      "qt": 101
+                      "fat": 743.56,
+                      "qt": 35
                     },
                     "Jul/26": {
                       "fat": 10108.36,
@@ -2466,8 +2507,8 @@ const GERENTES_DATA = {
                   "estado": "SP",
                   "por_mes": {
                     "Ago/26": {
-                      "fat": 5694.0,
-                      "qt": 180
+                      "fat": 6952.8,
+                      "qt": 192
                     },
                     "Jul/26": {
                       "fat": 12113.12,
@@ -2489,8 +2530,8 @@ const GERENTES_DATA = {
                   "estado": "SP",
                   "por_mes": {
                     "Ago/26": {
-                      "fat": 80464.32,
-                      "qt": 3042
+                      "fat": 88773.05,
+                      "qt": 3300
                     },
                     "Jul/26": {
                       "fat": 161856.77,
@@ -2535,8 +2576,8 @@ const GERENTES_DATA = {
                       "qt": 561
                     },
                     "Ago/26": {
-                      "fat": 5121.22,
-                      "qt": 142
+                      "fat": 9425.5,
+                      "qt": 190
                     },
                     "Jul/26": {
                       "fat": 95719.91,
@@ -2556,6 +2597,7 @@ const GERENTES_DATA = {
             },
             {
               "nome": "PRISCILLA BONACHE",
+              "email": "",
               "estados": [
                 "SP"
               ],
@@ -2565,8 +2607,8 @@ const GERENTES_DATA = {
                   "qt": 22329
                 },
                 "Ago/26": {
-                  "fat": 157676.42,
-                  "qt": 5649
+                  "fat": 216810.29,
+                  "qt": 7633
                 },
                 "Jul/26": {
                   "fat": 1864544.95,
@@ -2596,8 +2638,8 @@ const GERENTES_DATA = {
                       "qt": 16391
                     },
                     "Ago/26": {
-                      "fat": 48079.8,
-                      "qt": 1866
+                      "fat": 74117.4,
+                      "qt": 3126
                     },
                     "Jul/26": {
                       "fat": 388536.55,
@@ -2653,8 +2695,8 @@ const GERENTES_DATA = {
                       "qt": 1222
                     },
                     "Ago/26": {
-                      "fat": 6669.83,
-                      "qt": 106
+                      "fat": 13572.22,
+                      "qt": 142
                     },
                     "Jul/26": {
                       "fat": 129819.11,
@@ -2733,8 +2775,8 @@ const GERENTES_DATA = {
                   "estado": "SP",
                   "por_mes": {
                     "Ago/26": {
-                      "fat": 4594.12,
-                      "qt": 66
+                      "fat": 17764.19,
+                      "qt": 287
                     },
                     "Jul/26": {
                       "fat": 143513.97,
@@ -2775,8 +2817,8 @@ const GERENTES_DATA = {
                   "estado": "SP",
                   "por_mes": {
                     "Ago/26": {
-                      "fat": 694.75,
-                      "qt": 24
+                      "fat": 1179.55,
+                      "qt": 36
                     },
                     "Jul/26": {
                       "fat": 15675.74,
@@ -2814,6 +2856,10 @@ const GERENTES_DATA = {
                   "rca": "486",
                   "estado": "SP",
                   "por_mes": {
+                    "Ago/26": {
+                      "fat": 1769.3,
+                      "qt": 27
+                    },
                     "Jul/26": {
                       "fat": 173835.57,
                       "qt": 4795
@@ -2830,8 +2876,8 @@ const GERENTES_DATA = {
                   "estado": "SP",
                   "por_mes": {
                     "Ago/26": {
-                      "fat": 760.8,
-                      "qt": 24
+                      "fat": 3251.39,
+                      "qt": 126
                     },
                     "Jul/26": {
                       "fat": 15810.58,
@@ -2853,8 +2899,8 @@ const GERENTES_DATA = {
                   "estado": "SP",
                   "por_mes": {
                     "Ago/26": {
-                      "fat": 9183.93,
-                      "qt": 226
+                      "fat": 12011.61,
+                      "qt": 364
                     },
                     "Jul/26": {
                       "fat": 37119.56,
@@ -2876,8 +2922,8 @@ const GERENTES_DATA = {
                   "estado": "SP",
                   "por_mes": {
                     "Ago/26": {
-                      "fat": 16678.4,
-                      "qt": 656
+                      "fat": 17736.4,
+                      "qt": 676
                     },
                     "Jul/26": {
                       "fat": 62912.1,
@@ -2899,8 +2945,8 @@ const GERENTES_DATA = {
                       "qt": 2972
                     },
                     "Ago/26": {
-                      "fat": 5016.0,
-                      "qt": 120
+                      "fat": 6794.64,
+                      "qt": 204
                     },
                     "Jul/26": {
                       "fat": 352235.33,
@@ -2922,8 +2968,8 @@ const GERENTES_DATA = {
                   "estado": "SP",
                   "por_mes": {
                     "Ago/26": {
-                      "fat": 2388.0,
-                      "qt": 72
+                      "fat": 4756.8,
+                      "qt": 144
                     },
                     "Jul/26": {
                       "fat": 13099.56,
@@ -2972,8 +3018,8 @@ const GERENTES_DATA = {
                   "estado": "SP",
                   "por_mes": {
                     "Ago/26": {
-                      "fat": 1830.84,
-                      "qt": 96
+                      "fat": 2076.84,
+                      "qt": 108
                     },
                     "Jul/26": {
                       "fat": 24968.96,
@@ -3097,11 +3143,13 @@ const GERENTES_DATA = {
       "gerentes": [
         {
           "nome": "ALLAN PAES",
+          "email": "",
           "estados": [],
           "por_mes": {},
           "supervisores": [
             {
               "nome": "DANIELLE MOURA",
+              "email": "nan",
               "estados": [],
               "por_mes": {},
               "vendedores": [
@@ -3117,11 +3165,13 @@ const GERENTES_DATA = {
         },
         {
           "nome": "CRC",
+          "email": "",
           "estados": [],
           "por_mes": {},
           "supervisores": [
             {
               "nome": "SUPERVISOR - ES",
+              "email": "nan",
               "estados": [],
               "por_mes": {},
               "vendedores": [
@@ -3137,11 +3187,13 @@ const GERENTES_DATA = {
         },
         {
           "nome": "DANIEL DINIZ",
+          "email": "",
           "estados": [],
           "por_mes": {},
           "supervisores": [
             {
               "nome": "DANIEL DINIZ",
+              "email": "nan",
               "estados": [],
               "por_mes": {},
               "vendedores": [
@@ -3215,6 +3267,7 @@ const GERENTES_DATA = {
             },
             {
               "nome": "EROCLES OLIVEIRA",
+              "email": "erocles.oliveira@rigarr.com.br",
               "estados": [],
               "por_mes": {},
               "vendedores": [
@@ -3230,11 +3283,13 @@ const GERENTES_DATA = {
         },
         {
           "nome": "EROCLES OLIVEIRA",
+          "email": "",
           "estados": [],
           "por_mes": {},
           "supervisores": [
             {
               "nome": "SUPERVISOR OFF - ES",
+              "email": "nan",
               "estados": [],
               "por_mes": {},
               "vendedores": [
@@ -3256,11 +3311,13 @@ const GERENTES_DATA = {
         },
         {
           "nome": "GERENTE PARAMETRIZACAO",
+          "email": "",
           "estados": [],
           "por_mes": {},
           "supervisores": [
             {
               "nome": "PATRICK MORAES",
+              "email": "",
               "estados": [],
               "por_mes": {},
               "vendedores": [
@@ -3276,11 +3333,13 @@ const GERENTES_DATA = {
         },
         {
           "nome": "MARCUS TANAMACHI",
+          "email": "",
           "estados": [],
           "por_mes": {},
           "supervisores": [
             {
               "nome": "MARCUS TANAMACHI",
+              "email": "",
               "estados": [],
               "por_mes": {},
               "vendedores": [
@@ -3300,6 +3359,7 @@ const GERENTES_DATA = {
             },
             {
               "nome": "PRISCILLA BONACHE",
+              "email": "",
               "estados": [],
               "por_mes": {},
               "vendedores": [
@@ -3321,6 +3381,7 @@ const GERENTES_DATA = {
         },
         {
           "nome": "Sem Gerente",
+          "email": "",
           "estados": [],
           "por_mes": {
             "Mai/26": {
@@ -3335,6 +3396,7 @@ const GERENTES_DATA = {
           "supervisores": [
             {
               "nome": "DANIEL DINIZ",
+              "email": "",
               "estados": [],
               "por_mes": {
                 "Mai/26": {
@@ -3476,5 +3538,6 @@ const GERENTES_DATA = {
         }
       ]
     }
-  ]
+  ],
+  "acessos": {}
 };

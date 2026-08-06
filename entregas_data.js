@@ -2262,7 +2262,71 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_entregue": []
+      "nao_entregue": [
+        {
+          "numped": "153001348",
+          "numnota": "418219.0",
+          "data": "03/08/2026",
+          "cliente": "SUPERMERCADOS RIO SUL DA PENHA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "entregar no dia 04/08 com pagamento de descarga no valor de R$60,00 por pal",
+          "total": 674.02,
+          "itens": [
+            {
+              "desc": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+              "qt": 1,
+              "val": 95.9
+            },
+            {
+              "desc": "ST PIERRE LATA RED MINT LT 24X270ML",
+              "qt": 1,
+              "val": 95.9
+            },
+            {
+              "desc": "NECTAR MISTO PESSEGO E PERA 24X200ML KID",
+              "qt": 1,
+              "val": 35.76
+            },
+            {
+              "desc": "NECTAR ABACAXI 12X1000ML",
+              "qt": 2,
+              "val": 114.96
+            },
+            {
+              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+              "qt": 24,
+              "val": 285.6
+            },
+            {
+              "desc": "ST PIERRE VIDRO RED MINT LN 275X12",
+              "qt": 1,
+              "val": 45.9
+            }
+          ],
+          "motivo_alerta": "LOCAL FECHADO - LOGÍSTICA IGNOROU O AGENDAMENTO — Horário de recebimento só até às 15h, vendedor Angelo Neves está ciente.",
+          "responsavel_alerta": "Logística"
+        },
+        {
+          "numped": "",
+          "numnota": "418219",
+          "data": "",
+          "cliente": "SUPERMERCADOS RIO SUL DA PENHA LTDA",
+          "placa": "",
+          "rota": "LTG4A18 / PENHA + ZÉ",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 0.0,
+          "itens": [],
+          "motivo_alerta": "LOCAL FECHADO - LOGÍSTICA IGNOROU O AGENDAMENTO — Horário de recebimento só até às 15h, vendedor Angelo Neves está ciente.",
+          "responsavel_alerta": "Logística"
+        }
+      ]
     },
     {
       "nome": "BARBARA CABRAL - OFF TRADE",
@@ -6168,7 +6232,46 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_entregue": []
+      "nao_entregue": [
+        {
+          "numped": "379001357",
+          "numnota": "7258.0",
+          "data": "04/08/2026",
+          "cliente": "RAMAR COM PRODUTOS ALIMENTICIOS EIRELI",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "PEDIDO 51781",
+          "total": 885.6,
+          "itens": [
+            {
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 24,
+              "val": 885.6
+            }
+          ],
+          "motivo_alerta": "ESTABELECIMENTO COM NECESSIDADES ESPECIAIS — MERCADO SÓ RECEBE A NOTA ATE 14:30H VENDEDOR JORGE MACIEL CIENTE",
+          "responsavel_alerta": "Vendas"
+        },
+        {
+          "numped": "",
+          "numnota": "7258",
+          "data": "",
+          "cliente": "RAMAR COM PRODUTOS ALIMENTICIOS EIRELI",
+          "placa": "",
+          "rota": "LMV5I35 / SANTA CRUZ+ CAMPO GRANDE",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 0.0,
+          "itens": [],
+          "motivo_alerta": "ESTABELECIMENTO COM NECESSIDADES ESPECIAIS — MERCADO SÓ RECEBE A NOTA ATE 14:30H VENDEDOR JORGE MACIEL CIENTE",
+          "responsavel_alerta": "Vendas"
+        }
+      ]
     },
     {
       "nome": "JOSE MARCELO CARDOSO - OFF TRADE",
@@ -7504,7 +7607,89 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_entregue": []
+      "nao_entregue": [
+        {
+          "numped": "275000651",
+          "numnota": "6964",
+          "data": "27/07/2026",
+          "cliente": "DOM ATACAREJO S.A.",
+          "placa": "TUP1A46",
+          "rota": "NOVA IGUAÇU",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "PEDIDO 583527",
+          "total": 1560.6,
+          "itens": [
+            {
+              "desc": "VILLA ROSA TINTO 750ML",
+              "qt": 30,
+              "val": 867.0
+            },
+            {
+              "desc": "VILLA ROSA  ROSE 750ML",
+              "qt": 24,
+              "val": 693.6
+            }
+          ],
+          "motivo_alerta": "Nf não estava agendada para entrega, vendedora Maria luiza está ciente — Nf não estava agendada para entrega, vendedora Maria luiza está ciente",
+          "responsavel_alerta": "A Definir"
+        },
+        {
+          "numped": "275000672",
+          "numnota": "7014",
+          "data": "29/07/2026",
+          "cliente": "DOM ATACAREJO S.A.",
+          "placa": "TUP1A46",
+          "rota": "NOVA IGUAÇU",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "PEDIDO 519664",
+          "total": 1031.76,
+          "itens": [
+            {
+              "desc": "GIN LARIOS ORIGINAL 700ML",
+              "qt": 24,
+              "val": 1031.76
+            }
+          ],
+          "motivo_alerta": "Nf não estava agendada para entrega, vendedora Maria luiza está ciente — Nf não estava agendada para entrega, vendedora Maria luiza está ciente",
+          "responsavel_alerta": "A Definir"
+        },
+        {
+          "numped": "",
+          "numnota": "6964",
+          "data": "",
+          "cliente": "DOM ATACAREJO S.A.",
+          "placa": "",
+          "rota": "LSQ9E43 / DOM ATACAREJO",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 0.0,
+          "itens": [],
+          "motivo_alerta": "Nf não estava agendada para entrega, vendedora Maria luiza está ciente — Nf não estava agendada para entrega, vendedora Maria luiza está ciente",
+          "responsavel_alerta": "A Definir"
+        },
+        {
+          "numped": "",
+          "numnota": "7014",
+          "data": "",
+          "cliente": "DOM ATACAREJO S.A.",
+          "placa": "",
+          "rota": "LSQ9E43 / DOM ATACAREJO",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 0.0,
+          "itens": [],
+          "motivo_alerta": "Nf não estava agendada para entrega, vendedora Maria luiza está ciente — Nf não estava agendada para entrega, vendedora Maria luiza está ciente",
+          "responsavel_alerta": "A Definir"
+        }
+      ]
     },
     {
       "nome": "MARILENA TRAGEL - OFF TRADE",
@@ -9261,7 +9446,46 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_entregue": []
+      "nao_entregue": [
+        {
+          "numped": "156003791",
+          "numnota": "418739.0",
+          "data": "04/08/2026",
+          "cliente": "POSTO PALACIO GUANABARA LTDA",
+          "placa": "TTI6D70",
+          "rota": "SULL 2",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 55.5,
+          "itens": [
+            {
+              "desc": "NOSSO CHOP RED DRAFT VD 6X600ML",
+              "qt": 1,
+              "val": 55.5
+            }
+          ],
+          "motivo_alerta": "ERRO DE ROTA — Fora de rota.",
+          "responsavel_alerta": "Logística"
+        },
+        {
+          "numped": "",
+          "numnota": "418739",
+          "data": "",
+          "cliente": "POSTO PALACIO GUANABARA LTDA",
+          "placa": "",
+          "rota": "TTN5H14 / SUL 1",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 0.0,
+          "itens": [],
+          "motivo_alerta": "ERRO DE ROTA — Fora de rota.",
+          "responsavel_alerta": "Logística"
+        }
+      ]
     },
     {
       "nome": "MATEUS CARDOSO - OFF TRADE",
@@ -11687,7 +11911,46 @@ const ENTREGAS_DATA = {
       "nao_emitido": [],
       "emitido_s_rota": [],
       "canceladas": [],
-      "nao_entregue": []
+      "nao_entregue": [
+        {
+          "numped": "241000538",
+          "numnota": "418318.0",
+          "data": "04/08/2026",
+          "cliente": "38.200.029 CLAUDIO LUIZ PEREIRA FARIA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 539.28,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 3,
+              "val": 539.28
+            }
+          ],
+          "motivo_alerta": "Pendente de Baixa",
+          "responsavel_alerta": "Logística"
+        },
+        {
+          "numped": "",
+          "numnota": "418318",
+          "data": "",
+          "cliente": "38.200.029 CLAUDIO LUIZ PEREIRA FARIA",
+          "placa": "",
+          "rota": "RKR6E39 / BÚZIOS",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 0.0,
+          "itens": [],
+          "motivo_alerta": "Pendente de Baixa",
+          "responsavel_alerta": "Logística"
+        }
+      ]
     }
   ]
 };
