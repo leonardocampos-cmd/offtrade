@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "06/08/2026 14:57",
-  "total": 22359,
+  "atualizado_em": "06/08/2026 15:19",
+  "total": 22357,
   "clientes": [
     {
       "codcli": "38586",
@@ -126020,22 +126020,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "RODRIGO FREITAS"
     },
     {
-      "codcli": "3266",
-      "razao": "DONOSTIA BAR LTDA",
-      "fantasia": "VENGA",
-      "bairro": "COPACABANA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "10.450.865/0001-03",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "94036",
       "razao": "DONS RESTAURANTE LTDA",
       "fantasia": "DONS RESTAURANTE",
@@ -136784,22 +136768,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "94634",
-      "razao": "ELZA SOARES PORTO",
-      "fantasia": "S5 - ESQUINAS BAR",
-      "bairro": "PRAIA DE SANTA MONICA",
-      "cidade": "GUARAPARI",
-      "cnpj": "709.780.935-34",
-      "estado": "ES",
-      "ramo": "PESSOA FISICA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -231092,22 +231060,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "36363",
-      "razao": "MC DISTRIBUIDORA DE BEBIDAS LTDA",
-      "fantasia": "CEDROS BEER",
-      "bairro": "EUROPA",
-      "cidade": "CONTAGEM",
-      "cnpj": "57.914.565/0001-00",
-      "estado": "MG",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "85134",
       "razao": "MC EMBALAGENS LTDA",
       "fantasia": "REI DAS FESTAS",
@@ -280946,6 +280898,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
+    },
+    {
+      "codcli": "95953",
+      "razao": "POSTO NOVA ESPERANCA DE NOVA IGUACU LTDA",
+      "fantasia": "POSTO NOVA ESPERANCA DE NOVA IGUACU",
+      "bairro": "CENTRO",
+      "cidade": "NOVA IGUACU",
+      "cnpj": "28.733.137/0001-74",
+      "estado": "RJ",
+      "ramo": "POSTO DE GASOLINA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "412",
+      "nome_usur1": "BARBARA CABRAL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "82040",
