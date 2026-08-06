@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "06/08/2026 16:36",
+  "atualizado_em": "06/08/2026 16:54",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -10095,15 +10095,6 @@ const INATIVOS_DATA = {
           "media": 178.79
         },
         {
-          "codcli": "33852",
-          "cliente": "ALINE VILAS BOAS.",
-          "bairro": "SANTA AMELIA",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "26/05/2026",
-          "dias": 72,
-          "media": 198.4
-        },
-        {
           "codcli": "30269",
           "cliente": "JM HAMBURGUERS EIRELI",
           "bairro": "VILA DA SERRA",
@@ -10111,6 +10102,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "26/05/2026",
           "dias": 72,
           "media": 100.85
+        },
+        {
+          "codcli": "33852",
+          "cliente": "ALINE VILAS BOAS.",
+          "bairro": "SANTA AMELIA",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "26/05/2026",
+          "dias": 72,
+          "media": 198.4
         },
         {
           "codcli": "36985",
@@ -10158,15 +10158,6 @@ const INATIVOS_DATA = {
           "media": 669.6
         },
         {
-          "codcli": "38897",
-          "cliente": "LCA COMERCIO LTDA",
-          "bairro": "PAMPULHA",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "29/05/2026",
-          "dias": 69,
-          "media": 94.24
-        },
-        {
           "codcli": "37219",
           "cliente": "PADARIA E CONFEITARIA VERENA II LTDA",
           "bairro": "CACHOEIRA",
@@ -10194,15 +10185,6 @@ const INATIVOS_DATA = {
           "media": 572.67
         },
         {
-          "codcli": "38607",
-          "cliente": "M&S COMERCIO DE ALIMENTO LTDA",
-          "bairro": "LARANJEIRAS",
-          "cidade": "BETIM",
-          "dtultcomp": "10/06/2026",
-          "dias": 57,
-          "media": 517.76
-        },
-        {
           "codcli": "33056",
           "cliente": "PIZZARIA MANGABEIRAS CASTELO LTDA.",
           "bairro": "CASTELO",
@@ -10219,6 +10201,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "10/06/2026",
           "dias": 57,
           "media": 91.87
+        },
+        {
+          "codcli": "38607",
+          "cliente": "M&S COMERCIO DE ALIMENTO LTDA",
+          "bairro": "LARANJEIRAS",
+          "cidade": "BETIM",
+          "dtultcomp": "10/06/2026",
+          "dias": 57,
+          "media": 517.76
         },
         {
           "codcli": "30262",
@@ -10293,13 +10284,13 @@ const INATIVOS_DATA = {
           "media": 107.6
         },
         {
-          "codcli": "37110",
-          "cliente": "BRUNO  FERREIRA PIERALLINI",
-          "bairro": "GRAJAÚ",
+          "codcli": "34459",
+          "cliente": "54.309.427 BRAULIO DE SOUZA GRIGORIO",
+          "bairro": "ESTORIL",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "18/06/2026",
           "dias": 49,
-          "media": 958.8
+          "media": 491.2
         },
         {
           "codcli": "33014",
@@ -10311,13 +10302,13 @@ const INATIVOS_DATA = {
           "media": 106.4
         },
         {
-          "codcli": "34459",
-          "cliente": "54.309.427 BRAULIO DE SOUZA GRIGORIO",
-          "bairro": "ESTORIL",
+          "codcli": "37110",
+          "cliente": "BRUNO  FERREIRA PIERALLINI",
+          "bairro": "GRAJAÚ",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "18/06/2026",
           "dias": 49,
-          "media": 491.2
+          "media": 958.8
         },
         {
           "codcli": "32871",
@@ -10329,13 +10320,13 @@ const INATIVOS_DATA = {
           "media": 372.4
         },
         {
-          "codcli": "30313",
-          "cliente": "RL DISTRIBUIDORA LTDA",
-          "bairro": "MANTIQUEIRA",
+          "codcli": "37431",
+          "cliente": "LUCIENE COSTA DA SILVA LOPES",
+          "bairro": "GAMELEIRA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "26/06/2026",
           "dias": 41,
-          "media": 204.64
+          "media": 351.6
         },
         {
           "codcli": "38763",
@@ -10347,13 +10338,13 @@ const INATIVOS_DATA = {
           "media": 349.92
         },
         {
-          "codcli": "37431",
-          "cliente": "LUCIENE COSTA DA SILVA LOPES",
-          "bairro": "GAMELEIRA",
+          "codcli": "30313",
+          "cliente": "RL DISTRIBUIDORA LTDA",
+          "bairro": "MANTIQUEIRA",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "26/06/2026",
           "dias": 41,
-          "media": 351.6
+          "media": 204.64
         },
         {
           "codcli": "32769",
@@ -10374,15 +10365,6 @@ const INATIVOS_DATA = {
           "media": 641.48
         },
         {
-          "codcli": "37430",
-          "cliente": "ALUGUEL DE KART MG LTDA",
-          "bairro": "VILA CLORIS",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "30/06/2026",
-          "dias": 37,
-          "media": 291.6
-        },
-        {
           "codcli": "32805",
           "cliente": "EMPORIO BIRINYTE COMERCIO DE BEBIDAS LTDA",
           "bairro": "SANTA EFIGENIA",
@@ -10390,6 +10372,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "30/06/2026",
           "dias": 37,
           "media": 4876.0
+        },
+        {
+          "codcli": "32808",
+          "cliente": "RESTAURANTE E PETISQUEIRA SCHONS LTDA",
+          "bairro": "SANTO AGOSTINHO",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "30/06/2026",
+          "dias": 37,
+          "media": 1381.68
         },
         {
           "codcli": "30892",
@@ -10401,13 +10392,13 @@ const INATIVOS_DATA = {
           "media": 215.2
         },
         {
-          "codcli": "32808",
-          "cliente": "RESTAURANTE E PETISQUEIRA SCHONS LTDA",
-          "bairro": "SANTO AGOSTINHO",
+          "codcli": "37430",
+          "cliente": "ALUGUEL DE KART MG LTDA",
+          "bairro": "VILA CLORIS",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "30/06/2026",
           "dias": 37,
-          "media": 1381.68
+          "media": 291.6
         },
         {
           "codcli": "30114",
