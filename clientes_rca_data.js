@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "06/08/2026 14:31",
+  "atualizado_em": "06/08/2026 14:43",
   "total": 22360,
   "clientes": [
     {
@@ -3662,10 +3662,10 @@ const CLIENTES_RCA_DATA = {
       "ramo": "SERVIÇOS",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "159",
-      "nome_usur2": "GISELLE BARFER - OFF TRADE"
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
     },
     {
       "codcli": "29383",
