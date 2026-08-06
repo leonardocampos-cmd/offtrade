@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "06/08/2026 14:33",
+  "atualizado_em": "06/08/2026 14:44",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -1411,15 +1411,6 @@ const INATIVOS_DATA = {
       "rca": "159",
       "estado": "RJ",
       "inativos": [
-        {
-          "codcli": "93762",
-          "cliente": "29.926.683 LIGIA MIRANDA ORTIZ",
-          "bairro": "CENTRO",
-          "cidade": "ARMACAO DOS BUZ",
-          "dtultcomp": "04/03/2026",
-          "dias": 155,
-          "media": 164.5
-        },
         {
           "codcli": "81572",
           "cliente": "MAISHA SUSHI LTDA",
@@ -8034,6 +8025,24 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [],
       "novos": [
+        {
+          "codcli": "95946",
+          "cliente": "JV SUPERMERCADOS LTDA",
+          "bairro": "CENTRO",
+          "cidade": "JAGUARE",
+          "dtcadastro": "06/08/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "95945",
+          "cliente": "JV SUPERMERCADOS LTDA",
+          "bairro": "ITAIPAVA",
+          "cidade": "ITAPEMIRIM",
+          "dtcadastro": "06/08/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
         {
           "codcli": "95944",
           "cliente": "JV SUPERMERCADOS LTDA",
