@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "06/08/2026 10:39",
+  "atualizado_em": "06/08/2026 10:56",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -11527,9 +11527,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "52212",
+        "codcli": "52210",
         "cliente": "CONDE SUPERMERCADO LTDA",
-        "bairro": "ENSEADA",
+        "bairro": "UMUARAMA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52211",
+        "cliente": "CONDE SUPERMERCADO LTDA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -11537,6 +11544,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "52207",
         "cliente": "CONDE SUPERMERCADO LTDA",
         "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52212",
+        "cliente": "CONDE SUPERMERCADO LTDA",
+        "bairro": "ENSEADA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -11562,20 +11576,6 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "52211",
-        "cliente": "CONDE SUPERMERCADO LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "52210",
-        "cliente": "CONDE SUPERMERCADO LTDA",
-        "bairro": "UMUARAMA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "52226",
         "cliente": "DAGO RESTAURANTE PIZZA BAR LTDA",
         "bairro": "MARTIM DE SÁ",
@@ -11593,6 +11593,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "52240",
         "cliente": "FGK COMERCIO DE BEBIDAS LTDA",
         "bairro": "PEREQUE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52319",
+        "cliente": "GENIVAL COIMBRA",
+        "bairro": "CANTO DO MAR",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -11646,16 +11653,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "52089",
+        "codcli": "52091",
         "cliente": "MARIA MARCIA GONCALVES ALVES 35199667866",
-        "bairro": "VILA NOSSA SENHORA APARECIDA",
+        "bairro": "POIARES",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "52091",
+        "codcli": "52089",
         "cliente": "MARIA MARCIA GONCALVES ALVES 35199667866",
-        "bairro": "POIARES",
+        "bairro": "VILA NOSSA SENHORA APARECIDA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -11943,13 +11950,6 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51563",
-        "cliente": "NINKI SUPERMERCADOS LTDA",
-        "bairro": "CAMPOS ELISEOS",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "51932",
         "cliente": "NINKI SUPERMERCADOS LTDA",
         "bairro": "CASA VERDE ALTA",
@@ -11960,6 +11960,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "48032",
         "cliente": "NINKI SUPERMERCADOS LTDA",
         "bairro": "CASA VERDE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51563",
+        "cliente": "NINKI SUPERMERCADOS LTDA",
+        "bairro": "CAMPOS ELISEOS",
         "dtultcomp": "nan",
         "produtos": []
       },
