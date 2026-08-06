@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "06/08/2026 17:49",
+  "atualizado_em": "06/08/2026 18:08",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -8841,7 +8841,7 @@ const NAO_POS_ES_DATA = {
             "valor": 45.0
           },
           {
-            "produto": "RUM BACARDI SUPERIOR 980ML",
+            "produto": "RUM BACARDI SUPERIOR CARTA BRANCA 980ML",
             "fantasia": "BACARDI",
             "qt": 2,
             "valor": 71.8
@@ -9035,7 +9035,7 @@ const NAO_POS_ES_DATA = {
             "valor": 119.88
           },
           {
-            "produto": "RUM BACARDI SUPERIOR 980ML",
+            "produto": "RUM BACARDI SUPERIOR CARTA BRANCA 980ML",
             "fantasia": "BACARDI",
             "qt": 4,
             "valor": 127.6
@@ -12388,7 +12388,7 @@ const NAO_POS_ES_DATA = {
             "valor": 97.8
           },
           {
-            "produto": "RUM BACARDI SUPERIOR 980ML",
+            "produto": "RUM BACARDI SUPERIOR CARTA BRANCA 980ML",
             "fantasia": "BACARDI",
             "qt": 1,
             "valor": 31.9
@@ -13222,7 +13222,7 @@ const NAO_POS_ES_DATA = {
             "valor": 89.9
           },
           {
-            "produto": "RUM BACARDI SUPERIOR 980ML",
+            "produto": "RUM BACARDI SUPERIOR CARTA BRANCA 980ML",
             "fantasia": "BACARDI",
             "qt": 1,
             "valor": 35.9
@@ -14466,7 +14466,7 @@ const NAO_POS_ES_DATA = {
             "valor": 162.0
           },
           {
-            "produto": "RUM BACARDI SUPERIOR 980ML",
+            "produto": "RUM BACARDI SUPERIOR CARTA BRANCA 980ML",
             "fantasia": "BACARDI",
             "qt": 4,
             "valor": 143.6
@@ -27803,7 +27803,7 @@ const NAO_POS_ES_DATA = {
             "valor": 134.7
           },
           {
-            "produto": "RUM BACARDI SUPERIOR 980ML",
+            "produto": "RUM BACARDI SUPERIOR CARTA BRANCA 980ML",
             "fantasia": "BACARDI",
             "qt": 3,
             "valor": 95.7
@@ -28615,7 +28615,7 @@ const NAO_POS_ES_DATA = {
             "valor": 249.8
           },
           {
-            "produto": "RUM BACARDI SUPERIOR 980ML",
+            "produto": "RUM BACARDI SUPERIOR CARTA BRANCA 980ML",
             "fantasia": "BACARDI",
             "qt": 3,
             "valor": 107.7
@@ -29095,7 +29095,7 @@ const NAO_POS_ES_DATA = {
             "valor": 69.9
           },
           {
-            "produto": "RUM BACARDI SUPERIOR 980ML",
+            "produto": "RUM BACARDI SUPERIOR CARTA BRANCA 980ML",
             "fantasia": "BACARDI",
             "qt": 2,
             "valor": 71.8
