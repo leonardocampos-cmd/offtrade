@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "06/08/2026 12:27",
+  "atualizado_em": "06/08/2026 13:50",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -771,6 +771,32 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "37327",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "CENTRO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 514.8
+          },
+          {
+            "produto": "VINHO FOODKILLER CAB SAUV MERLOT 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 293.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 245.04
+          }
+        ]
+      },
+      {
         "codcli": "37333",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "CENTRO",
@@ -799,32 +825,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "PERNOD",
             "qt": 3,
             "valor": 177.54
-          }
-        ]
-      },
-      {
-        "codcli": "37327",
-        "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "CENTRO",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 514.8
-          },
-          {
-            "produto": "VINHO FOODKILLER CAB SAUV MERLOT 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 293.4
-          },
-          {
-            "produto": "VODKA ORLOFF 1L - DEST",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 245.04
           }
         ]
       },
@@ -887,32 +887,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37335",
-        "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "CENTRO",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA TINTO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 257.4
-          },
-          {
-            "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 461.4
-          },
-          {
-            "produto": "VODKA ORLOFF 1L - DEST",
-            "fantasia": "",
-            "qt": 24,
-            "valor": 490.08
-          }
-        ]
-      },
-      {
         "codcli": "35222",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "JARDIM ANA MARIA",
@@ -947,6 +921,32 @@ const NAO_POS_MG_DATA = {
             "fantasia": "PERNOD",
             "qt": 3,
             "valor": 177.54
+          }
+        ]
+      },
+      {
+        "codcli": "37335",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "CENTRO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA TINTO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 257.4
+          },
+          {
+            "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 461.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 24,
+            "valor": 490.08
           }
         ]
       },
@@ -1981,26 +1981,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33014",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "YVY",
-            "qt": 4,
-            "valor": 159.6
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "YVY",
-            "qt": 4,
-            "valor": 159.6
-          }
-        ]
-      },
-      {
         "codcli": "32871",
         "cliente": "ER COZINHA ARTESANAL LTDA",
         "bairro": "VILA DA SERRA",
@@ -2017,6 +1997,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "YVY",
             "qt": 6,
             "valor": 239.4
+          }
+        ]
+      },
+      {
+        "codcli": "33014",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "LOURDES",
+        "dtultcomp": "18/06/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 4,
+            "valor": 159.6
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 4,
+            "valor": 159.6
           }
         ]
       },
@@ -2689,32 +2689,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "31777",
-        "cliente": "CB BH COMERCIO DE ALIMENTOS LTDA",
-        "bairro": "ANCHIETA",
-        "dtultcomp": "14/07/2026",
-        "produtos": [
-          {
-            "produto": "CHANDON BRUT ROSE 750ML",
-            "fantasia": "LVMH",
-            "qt": 6,
-            "valor": 689.4
-          },
-          {
-            "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-            "fantasia": "LVMH",
-            "qt": 6,
-            "valor": 629.4
-          },
-          {
-            "produto": "MOET CHANDON BRUT IMPERIAL 750 NPP",
-            "fantasia": "LVMH",
-            "qt": 6,
-            "valor": 2639.4
-          }
-        ]
-      },
-      {
         "codcli": "33601",
         "cliente": "CB CONCEITO BH COMERCIO DE ALIMENTOS LTDA",
         "bairro": "CIDADE INDUSTRIAL",
@@ -3141,26 +3115,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "DIAGEO",
             "qt": 1,
             "valor": 62.9
-          }
-        ]
-      },
-      {
-        "codcli": "30801",
-        "cliente": "SUSHINARA PREMIUM LTDA",
-        "bairro": "INGA ALTO",
-        "dtultcomp": "21/07/2026",
-        "produtos": [
-          {
-            "produto": "LICOR STOCK CURACAU 720 ML",
-            "fantasia": "",
-            "qt": 4,
-            "valor": 227.6
-          },
-          {
-            "produto": "WHISKY JACK DANIELS 1L",
-            "fantasia": "BROWN-FORMAN",
-            "qt": 1,
-            "valor": 129.9
           }
         ]
       },
@@ -4919,26 +4873,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "MONIN",
             "qt": 420,
             "valor": 18018.0
-          }
-        ]
-      },
-      {
-        "codcli": "37710",
-        "cliente": "MULTICOM ATACADO E VAREJO S/A",
-        "bairro": "LIBERDABE",
-        "dtultcomp": "31/07/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY BALLANTINE'S FINEST 750 ML",
-            "fantasia": "PERNOD",
-            "qt": 960,
-            "valor": 43872.0
-          },
-          {
-            "produto": "WHISKY BALLANTINES SUNSHINE 700ML",
-            "fantasia": "PERNOD",
-            "qt": 198,
-            "valor": 9129.78
           }
         ]
       },
@@ -7260,50 +7194,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33623",
-        "cliente": "DUARTE E FRAGA COMERCIO DE ALIMENTOS LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "03/07/2026",
-        "produtos": [
-          {
-            "produto": "CERRO DE PEDRA PARC CAB. FRANC TTO 750ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 254.7
-          },
-          {
-            "produto": "CERRO DE PEDRA PARC. MERLOT TTO 750ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 169.8
-          },
-          {
-            "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
-            "fantasia": "CASTAS",
-            "qt": 8,
-            "valor": 439.2
-          },
-          {
-            "produto": "VINHO ARESTI EST SEL MERLOT 750ML",
-            "fantasia": "CASTAS",
-            "qt": 4,
-            "valor": 219.6
-          },
-          {
-            "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
-            "fantasia": "CASTAS",
-            "qt": 5,
-            "valor": 94.5
-          },
-          {
-            "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 2,
-            "valor": 159.8
-          }
-        ]
-      },
-      {
         "codcli": "36311",
         "cliente": "COMERCIAL TROPICO LTDA",
         "bairro": "LIBERDADE",
@@ -7570,26 +7460,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "CASTAS",
             "qt": 12,
             "valor": 226.8
-          }
-        ]
-      },
-      {
-        "codcli": "30984",
-        "cliente": "ESTACAO PARADA DO CARDOSO PIZZARIA E RESTAURANTE LTDA",
-        "bairro": "SANTA TEREZA",
-        "dtultcomp": "15/07/2026",
-        "produtos": [
-          {
-            "produto": "VINHO ARESTI EST SEL PINOT NOIR 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 329.4
-          },
-          {
-            "produto": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
-            "fantasia": "CASTAS",
-            "qt": 24,
-            "valor": 453.6
           }
         ]
       },
@@ -7912,32 +7782,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "SELETA",
             "qt": 12,
             "valor": 442.8
-          }
-        ]
-      },
-      {
-        "codcli": "34958",
-        "cliente": "DIG EMPREENDIMENTOS - STUDIO BIKE LOURDES BH LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "22/07/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK  RED BULL",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 87.78
-          },
-          {
-            "produto": "4 PACK  RED BULL  MAÇA SF",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 87.78
-          },
-          {
-            "produto": "4 PACK RED BULL ZERO",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 87.78
           }
         ]
       },
