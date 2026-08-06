@@ -56,21 +56,57 @@ tabela_preco_on['CX C/'] = pd.to_numeric(tabela_preco_on['CX C/'], errors='coerc
 tabela_promo = pd.read_excel(
     _bpd.com_fallback(
         _bpd.caminho_preco_promo,
-        r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\PREÇO PROMO.xlsx"
+        r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\PREÇO PROMO_RJ.xlsx"
     ),
     sheet_name='Plan1', dtype=str
 )
 tabela_promo['PREÇO PROMO'] = pd.to_numeric(tabela_promo['PREÇO PROMO'].str.replace(',', '.'), errors='coerce').round(2)
-# LIMITADOR hoje só aparece como "N CX POR SKU" — extrai o N; acima dessa
-# quantidade (em caixas) o PREÇO PROMO desse arquivo deixa de valer pra linha.
+tabela_promo['LIMITADOR'] = tabela_promo['LIMITADOR'].str.strip().str.upper()
+# LIMITADOR pode ser "N CX POR SKU" (limite de quantidade, extrai o N),
+# "OTD" ou "OTI" (a promo só vale pro cliente cadastrado na base
+# correspondente — ver bloco BASES OTD/OTI abaixo). Fica NaN pros dois
+# últimos casos, tratados à parte por não serem numéricos.
 tabela_promo['LIMITADOR_CX'] = pd.to_numeric(
     tabela_promo['LIMITADOR'].str.extract(r'(\d+)', expand=False), errors='coerce'
 )
-# Alguns COD PROMO aparecem em 2 linhas com preços diferentes (promo antiga
-# esquecida na planilha) — fica com a menor (mais conservador: evita marcar
-# venda como "abaixo da tabela" por engano quando a promo válida é a barata).
+# Alguns COD PROMO aparecem em várias linhas — preços antigos esquecidos na
+# planilha (fica com o menor, mais conservador) e/ou o MESMO produto com
+# LIMITADOR "OTD" numa linha e "OTI" noutra (regras por canal, não uma tag
+# única) — por isso TEM_OTD/TEM_OTI marcam presença em vez de usar 'first',
+# que descartava uma das duas tags quando as duas apareciam (bug encontrado
+# em 2026-08-06: produtos com linha OTD E linha OTI, ex. COD PROMO 1757).
+tabela_promo['TEM_OTD'] = tabela_promo['LIMITADOR'] == 'OTD'
+tabela_promo['TEM_OTI'] = tabela_promo['LIMITADOR'] == 'OTI'
 tabela_promo = tabela_promo.groupby('COD PROMO', as_index=False).agg(
-    {'PREÇO PROMO': 'min', 'LIMITADOR_CX': 'min'}
+    {'PREÇO PROMO': 'min', 'LIMITADOR_CX': 'min', 'TEM_OTD': 'any', 'TEM_OTI': 'any'}
+)
+
+# --- BASES DE CLIENTES OTD/OTI ---
+# Produtos com LIMITADOR "OTD"/"OTI" só valem o preço promo pro CODCLI
+# cadastrado na base correspondente — pedido do usuário em 2026-08-06.
+def _carregar_codclis_base(caminho_fn, caminho_fallback, sheet_name, nome_base):
+    try:
+        df_base = pd.read_excel(
+            _bpd.com_fallback(caminho_fn, caminho_fallback),
+            sheet_name=sheet_name, dtype=str,
+        )
+        df_base.columns = df_base.columns.str.strip()
+        codclis = set(df_base['CÓDIGO'].dropna().str.strip())
+        print(f"Base {nome_base}: {len(codclis)} cliente(s)")
+        return codclis
+    except Exception as e:
+        print(f"[AVISO] Base {nome_base} indisponível ({str(e)[:100]}) — LIMITADOR {nome_base} tratado como sem cliente elegível (promo não aplica)")
+        return set()
+
+_codclis_otd = _carregar_codclis_base(
+    _bpd.caminho_base_otd,
+    r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\BASE OTD.xlsx",
+    "BASE CENSUS OTD Q1_FY27", "OTD",
+)
+_codclis_oti = _carregar_codclis_base(
+    _bpd.caminho_base_oti,
+    r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\BASE OTI JUNHO.xlsx",
+    "Planilha1", "OTI",
 )
 
 # 3. Extração de Dados do Banco (Query Corrigida para evitar duplicidade de PVENDA)
@@ -80,7 +116,7 @@ tabela_promo = tabela_promo.groupby('COD PROMO', as_index=False).agg(
 # comparado contra a tabela errada.
 tabela_mov = """
     SELECT
-        P.NUMPED, P.NUMNOTA, P.DATA, P.CLIENTE, P.CODPROD,
+        P.NUMPED, P.NUMNOTA, P.DATA, P.CLIENTE, P.CODCLI, P.CODPROD,
         ROUND(P.TOTAL / NULLIF(P.QT, 0), 2) AS PVENDA,
         P.DESCRICAO, P.NOME, P.QT, P.TOTAL, P.CODCOB
     FROM CRC.PBI_PCPEDI P
@@ -104,18 +140,32 @@ df.columns = df.columns.str.upper()
 df['CODPROD'] = df['CODPROD'].astype(str).str.strip()
 
 df = df.merge(tabela_preco_on[['COD CRC', 'PREÇO', 'PREÇO PROMOCIONAL', 'CX C/']], left_on='CODPROD', right_on='COD CRC', how='left')
-df = df.merge(tabela_promo[['COD PROMO', 'PREÇO PROMO', 'LIMITADOR_CX']], left_on='CODPROD', right_on='COD PROMO', how='left')
+df = df.merge(tabela_promo[['COD PROMO', 'PREÇO PROMO', 'LIMITADOR_CX', 'TEM_OTD', 'TEM_OTI']], left_on='CODPROD', right_on='COD PROMO', how='left')
+df['CODCLI'] = df['CODCLI'].astype(str).str.strip()
+df['TEM_OTD'] = df['TEM_OTD'].fillna(False)
+df['TEM_OTI'] = df['TEM_OTI'].fillna(False)
 profit['CODIGO'] = profit['CODIGO'].astype(str).str.strip()
 df = df.merge(profit[['CODIGO', 'CUSTO COM DESCONTO']], left_on='CODPROD', right_on='CODIGO', how='left')
 
 df = df.rename(columns={'PREÇO': 'PREÇO ON'})
 
-# Acima do LIMITADOR (ex.: "2 CX POR SKU"), o PREÇO PROMO da PREÇO PROMO.xlsx
+# Acima do LIMITADOR (ex.: "2 CX POR SKU"), o PREÇO PROMO da PREÇO PROMO_RJ.xlsx
 # deixa de valer pra linha — zera pra NaN antes de entrar na conferência.
 df['QT'] = pd.to_numeric(df['QT'], errors='coerce')
 _qt_em_caixas = df['QT'] / df['CX C/']
-_excede_limitador = df['LIMITADOR_CX'].notna() & _qt_em_caixas.notna() & (_qt_em_caixas > df['LIMITADOR_CX'])
-df.loc[_excede_limitador, 'PREÇO PROMO'] = np.nan
+_excede_limitador_qtd = df['LIMITADOR_CX'].notna() & _qt_em_caixas.notna() & (_qt_em_caixas > df['LIMITADOR_CX'])
+
+# LIMITADOR "OTD"/"OTI": promo só vale se o CODCLI estiver numa das bases
+# correspondentes às regras do produto — se o produto tiver as duas linhas
+# (OTD e OTI), basta estar em uma delas (ver BASES DE CLIENTES OTD/OTI acima).
+_precisa_otd_ou_oti = df['TEM_OTD'] | df['TEM_OTI']
+_cliente_elegivel_otd_oti = (
+    (df['TEM_OTD'] & df['CODCLI'].isin(_codclis_otd))
+    | (df['TEM_OTI'] & df['CODCLI'].isin(_codclis_oti))
+)
+_bloqueado_otd_oti = _precisa_otd_ou_oti & ~_cliente_elegivel_otd_oti
+
+df.loc[_excede_limitador_qtd | _bloqueado_otd_oti, 'PREÇO PROMO'] = np.nan
 
 def aplicar_conferencia(df_local):
 

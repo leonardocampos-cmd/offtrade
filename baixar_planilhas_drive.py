@@ -146,13 +146,24 @@ def caminho_tabela_preco_rj() -> Path:
 
 
 def caminho_preco_promo() -> Path:
-    return baixar_arquivo("PREÇO PROMO.xlsx")
+    # Renomeado no Drive de "PREÇO PROMO.xlsx" pra "PREÇO PROMO_RJ.xlsx" —
+    # o nome antigo não existe mais, então a busca exata sempre falhava e
+    # caía silenciosamente na cópia velha em cache (2026-08-06).
+    return baixar_arquivo("PREÇO PROMO_RJ.xlsx")
 
 
 def caminho_profit_rj() -> Path:
     return baixar_arquivo(
         "Controle de ultima entrada, descontos-acréscimos e precificação RJ - versão 1.xlsb"
     )
+
+
+def caminho_base_otd() -> Path:
+    return baixar_arquivo("BASE OTD.xlsx")
+
+
+def caminho_base_oti() -> Path:
+    return baixar_arquivo("BASE OTI JUNHO.xlsx")
 
 
 _PASTA_CONTROLE_NOTAS = ["LOGÍSTICA RJ", "APOIO LOGÍSTICO", "CONTROLE DE NOTAS"]
