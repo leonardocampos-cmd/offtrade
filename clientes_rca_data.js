@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "06/08/2026 17:50",
-  "total": 22301,
+  "atualizado_em": "06/08/2026 18:08",
+  "total": 22300,
   "clientes": [
     {
       "codcli": "38586",
@@ -20068,6 +20068,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "49739",
+      "razao": "53.768.831 VITORIA BEATRIZ TENORIO FAGUNDES",
+      "fantasia": "VITORIA BEATRIZ TENORIO FAGUNDES",
+      "bairro": "SANTA ROSA",
+      "cidade": "PRESIDENTE EPITACIO",
+      "cnpj": "53.768.831/0001-74",
+      "estado": "SP",
+      "ramo": "TABACARIA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "433",
+      "nome_usur1": "MANUELA ZAPPACOSTA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "85404",
       "razao": "53.772.162 KESSYA FERNANDES DE SOUZA",
       "fantasia": "KESSYA FERNANDES DE SOUZA",
@@ -31376,22 +31392,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "431",
       "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "91006",
-      "razao": ":L&P ENTRETENIMENTO E COMERCIO LTDA",
-      "fantasia": ":L&P ENTRETENIMENTO E COMERCIO",
-      "bairro": "COLINA DE LARANJEIRAS",
-      "cidade": "SERRA",
-      "cnpj": "63.176.425/0001-76",
-      "estado": "ES",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -75628,22 +75628,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "42.767.956/0001-63",
       "estado": "RJ",
       "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "71302",
-      "razao": "BORA GELAR DISTRIBUIDORA LTDA",
-      "fantasia": "BORA GELAR",
-      "bairro": "CENTRO (MANILHA)",
-      "cidade": "ITABORAI",
-      "cnpj": "37.863.220/0001-59",
-      "estado": "RJ",
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
