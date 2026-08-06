@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "06/08/2026 15:56",
-  "total": 22308,
+  "atualizado_em": "06/08/2026 16:16",
+  "total": 22301,
   "clientes": [
     {
       "codcli": "38586",
@@ -10596,22 +10596,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "94105",
-      "razao": "46.067.882 JANAINA SCARLET GONCALVES DA SILVA",
-      "fantasia": "46.067.882 JANAINA SCARLET GONCALVES DA",
-      "bairro": "PRAIA DO MORRO",
-      "cidade": "GUARAPARI",
-      "cnpj": "46.067.882/0001-03",
-      "estado": "ES",
-      "ramo": "CAFETERIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "79393",
       "razao": "46.076.999 LUIS FELLIPE LOPES VIEIRA",
       "fantasia": "LUIS FELLIPE LOPES VIEIRA",
@@ -10732,22 +10716,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "46.256.268/0001-90",
       "estado": "RJ",
       "ramo": "COMERCIO VAREJISTA DE BEBIDAS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "94598",
-      "razao": "46.363.011 HELIONEIA SAMEN DE LIMA",
-      "fantasia": "46.363.011 HELIONEIA SAMEN DE LIMA",
-      "bairro": "UNA",
-      "cidade": "GUARAPARI",
-      "cnpj": "46.363.011/0001-37",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -30276,22 +30244,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "94563",
-      "razao": "64.108.314 FELIPE GABRIEL ALMEIDA VETTORAZZI",
-      "fantasia": "64.108.314 FELIPE GABRIEL ALMEIDA VETTOR",
-      "bairro": "CENTRO",
-      "cidade": "GUARAPARI",
-      "cnpj": "64.108.314/0001-95",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "92314",
       "razao": "64.184.973 JESSICA NATHALIA DA SILVA SANTOS",
       "fantasia": "JESSICA NATHALIA DA SILVA SANTOS",
@@ -37684,6 +37636,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "VIVIANI ALVES - OFF TRADE"
     },
     {
+      "codcli": "92018",
+      "razao": "ADL RESTAURANTE LTDA",
+      "fantasia": "ADL JOCKEY",
+      "bairro": "TARUMÃ",
+      "cidade": "CURITIBA",
+      "cnpj": "11.806.183/0002-34",
+      "estado": "PR",
+      "ramo": "RESTAURANTE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "10",
+      "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "90901",
       "razao": "ADL RESTAURANTE LTDA",
       "fantasia": "ADL",
@@ -45058,22 +45026,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "94141",
-      "razao": "ALVARO P DE OLIVEIRA LTDA",
-      "fantasia": "RESTAURANTE BOM PALADAR",
-      "bairro": "CENTRO",
-      "cidade": "GUARAPARI",
-      "cnpj": "11.091.789/0001-50",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "73285",
@@ -108148,22 +108100,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "64988",
-      "razao": "COPACABANA CHAI POINT COMERCIO DE ALIMENTOS EIRELI",
-      "fantasia": "JAPPA DA QUITANDA COPACABANA",
-      "bairro": "COPACABANA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "30.854.746/0001-23",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "70255",
       "razao": "COPACABANA CHAI POINT COMERCIO DE ALIMENTOS LTDA",
       "fantasia": "JAPPA DA QUITANDA",
@@ -132116,22 +132052,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
-      "codcli": "94038",
-      "razao": "EDER DE SOUZA FERNANDES",
-      "fantasia": "EDER DE SOUZA FERNANDES",
-      "bairro": "ENSEADA AZUL",
-      "cidade": "GUARAPARI",
-      "cnpj": "012.488.996-44",
-      "estado": "ES",
-      "ramo": "OUTROS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "78007",
       "razao": "EDER HECK 94904227034",
       "fantasia": "EDER HECK",
@@ -134812,22 +134732,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "28.047.846/0001-04",
       "estado": "RJ",
       "ramo": "EVENTOS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "94172",
-      "razao": "ELENILZA SENA SANTOS",
-      "fantasia": "MERCEARIA SENA",
-      "bairro": "ADALBERTO SIMAO NADER",
-      "cidade": "GUARAPARI",
-      "cnpj": "27.767.226/0001-79",
-      "estado": "ES",
-      "ramo": "MERCEARIA",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -190784,22 +190688,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "94291",
-      "razao": "JOSÉ CARLOS ASSIS",
-      "fantasia": "JOSÉ CARLOS ASSIS",
-      "bairro": "PEROCÃO",
-      "cidade": "GUARAPARI",
-      "cnpj": "111.131.237-02",
-      "estado": "ES",
-      "ramo": "OUTROS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -308676,22 +308564,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "94306",
-      "razao": "SABRINA SCARDUA",
-      "fantasia": "SABRINA SCARDUA",
-      "bairro": "PEROCÃO",
-      "cidade": "GUARAPARI",
-      "cnpj": "094.888.547-58",
-      "estado": "ES",
-      "ramo": "PESSOA FISICA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "92706",
       "razao": "SABS DISTRIBUIDORA DE CERVEJA LTDA",
       "fantasia": "DISTRIBUIDORA LA CASA DE CERVEJA",
@@ -314144,6 +314016,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "495",
       "nome_usur1": "EDUARDO COUTO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52328",
+      "razao": "SESC PAES E DOCES INDUSTRIA DE PANIFICACAO LTDA",
+      "fantasia": "SESC",
+      "bairro": "CIDADE BOA VISTA",
+      "cidade": "SUZANO",
+      "cnpj": "44.215.572/0001-63",
+      "estado": "SP",
+      "ramo": "PADARIA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "493",
+      "nome_usur1": "CAROLINA SOUZA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
