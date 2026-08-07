@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "07/08/2026 16:38",
-  "total": 22308,
+  "atualizado_em": "07/08/2026 16:57",
+  "total": 22313,
   "clientes": [
     {
       "codcli": "38586",
@@ -89252,6 +89252,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "52346",
+      "razao": "CARLOS CAMARGO RIBEIRO",
+      "fantasia": "SABOR TROPICAL",
+      "bairro": "PRAIA DAS PALMEIRAS",
+      "cidade": "CARAGUATATUBA",
+      "cnpj": "43.123.173/0001-00",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "516",
+      "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "36191",
       "razao": "CARLOS CESAR JARDIM DISTRIBUIDORA E MERCEARIA",
       "fantasia": "DISTRIBUIDORA E MERCEARIA JARDIM",
@@ -143184,6 +143200,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "49807",
+      "razao": "ESTRELA DO LITORAL ALIMENTOS LTDA",
+      "fantasia": "ESTRELA DO LITORAL ALIMENTOS",
+      "bairro": "JARDIM PRIMAVERA",
+      "cidade": "GUARUJA",
+      "cnpj": "03.782.188/0001-65",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "507",
+      "nome_usur1": "JOAO AUGUSTO -  OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -236116,6 +236148,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
+      "codcli": "52348",
+      "razao": "MERCADO NOVA FAZENDA R. A LTDA",
+      "fantasia": "MERCADO NOVA FAZENDA",
+      "bairro": "COELHO DA ROCHA",
+      "cidade": "SAO JOAO DE MERITI",
+      "cnpj": "27.983.026/0001-53",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "379",
+      "nome_usur1": "JORGE MACIEL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "50709",
       "razao": "MERCADO NOVA GERACAO GUAIANAZES LTDA",
       "fantasia": "MERCADO NOVA GERACAO GUAIANAZES",
@@ -322452,6 +322500,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
+      "codcli": "49809",
+      "razao": "SUPER MERCADO GOL LTDA",
+      "fantasia": "SUPER MERCADO GOL",
+      "bairro": "VILA SANTA ROSA",
+      "cidade": "GUARUJA",
+      "cnpj": "04.649.889/0001-93",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "507",
+      "nome_usur1": "JOAO AUGUSTO -  OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "52334",
       "razao": "SUPER MERCADO ILHA DA PRINCESA LTDA",
       "fantasia": "ILHA DA PRINCESA",
@@ -322482,6 +322546,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "CARLOS DE ALMEIDA - OFF TRADE",
       "codusur2": "507",
       "nome_usur2": "JOAO AUGUSTO -  OFF TRADE"
+    },
+    {
+      "codcli": "49806",
+      "razao": "SUPER MERCADO JOIA LIMITADA",
+      "fantasia": "SUPER MERCADO JOIA LIMITADA",
+      "bairro": "PITANGUEIRAS",
+      "cidade": "GUARUJA",
+      "cnpj": "48.697.825/0002-14",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "507",
+      "nome_usur1": "JOAO AUGUSTO -  OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "3127",
