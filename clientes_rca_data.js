@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "07/08/2026 14:12",
+  "atualizado_em": "07/08/2026 14:30",
   "total": 22303,
   "clientes": [
     {
@@ -50352,22 +50352,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "75573",
-      "razao": "ANTONIO BATISTA DE ALMEIDA 03155353694",
-      "fantasia": "ANTONIO BATISTA DE ALMEIDA",
-      "bairro": "JAPUIBA (CUNHAMBEBE)",
-      "cidade": "ANGRA DOS REIS",
-      "cnpj": "43.832.403/0001-00",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -120610,6 +120594,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "CAMILA ANTUNES",
       "codusur2": "343",
       "nome_usur2": "FERNANDO RISSON - OFF TRADE"
+    },
+    {
+      "codcli": "52340",
+      "razao": "DISTRIBUIDORA & ADEGA MARES LTDA",
+      "fantasia": "ADEGA MARE7",
+      "bairro": "SUMARÉ",
+      "cidade": "CARAGUATATUBA",
+      "cnpj": "50.286.599/0001-40",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "516",
+      "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "34977",
