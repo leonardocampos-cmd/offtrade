@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "07/08/2026 13:57",
-  "total": 22304,
+  "atualizado_em": "07/08/2026 14:12",
+  "total": 22303,
   "clientes": [
     {
       "codcli": "38586",
@@ -126896,22 +126896,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "72512",
-      "razao": "DRINKINGS COMERCIO VAREJISTA DE BEBIDAS LTDA",
-      "fantasia": "DRINKINGS OPEN BAR",
-      "bairro": "RIO COMPRIDO",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "36.230.947/0001-36",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
