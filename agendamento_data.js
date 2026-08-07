@@ -724,10 +724,10 @@ const AGENDAMENTO_DATA = {
           "cnpj": "28.800.001/0001-30",
           "filial": "BARROS FILHO",
           "valor": 4776.0,
-          "nf": "",
+          "nf": "7320",
           "data_agendamento": "07/08/2026",
           "data_ord": "2026-08-07",
-          "status": "A FATURAR",
+          "status": "EM ROTA",
           "obs": "Caixas fechadas e sem avarias.",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -6161,11 +6161,11 @@ const AGENDAMENTO_DATA = {
           "cliente": "MINI MERCADO CORREIO DO POVO",
           "cnpj": "04.213.151/0001-89",
           "filial": "TAQUARA",
-          "valor": 455.5,
-          "nf": "",
+          "valor": 261.1,
+          "nf": "7319",
           "data_agendamento": "07/08/2026",
           "data_ord": "2026-08-07",
-          "status": "A FATURAR",
+          "status": "EM ROTA",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17187,7 +17187,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6972",
           "data_agendamento": "07/08/2026",
           "data_ord": "2026-08-07",
-          "status": "FATURADO",
+          "status": "EM ROTA",
           "obs": "CONTATO 21974318449 (VITORIA)",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17201,7 +17201,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7094",
           "data_agendamento": "07/08/2026",
           "data_ord": "2026-08-07",
-          "status": "FATURADO",
+          "status": "EM ROTA",
           "obs": "CONTATO 21974318449 (VITORIA)",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17211,11 +17211,11 @@ const AGENDAMENTO_DATA = {
           "cliente": "MORAES E CIA COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
           "cnpj": "24.305.769/0001-86",
           "filial": "ITABORAI",
-          "valor": 2290.2,
-          "nf": "",
+          "valor": 1385.8,
+          "nf": "7397",
           "data_agendamento": "07/08/2026",
           "data_ord": "2026-08-07",
-          "status": "A FATURAR",
+          "status": "EM ROTA",
           "obs": "EMBARCAR AS CAIXAS ORIGINAIS E ÍNTEGRAS",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17241,8 +17241,8 @@ const AGENDAMENTO_DATA = {
           "filial": "PIRATININGA",
           "valor": 10080.0,
           "nf": "",
-          "data_agendamento": "07/08/2026",
-          "data_ord": "2026-08-07",
+          "data_agendamento": "06/08/2026",
+          "data_ord": "2026-08-06",
           "status": "A FATURAR",
           "obs": "EMBARCAR AS CAIXAS ORIGINAIS E ÍNTEGRAS . O PEDIDO SERÁ DEVOLVIDO SE FOREM FRACIONADOS.",
           "status_logistica": "",
@@ -21934,7 +21934,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7016",
           "data_agendamento": "07/08/2026",
           "data_ord": "2026-08-07",
-          "status": "FATURADO",
+          "status": "EM ROTA",
           "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO ELETRONICAMENTE",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -21976,7 +21976,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7018",
           "data_agendamento": "07/08/2026",
           "data_ord": "2026-08-07",
-          "status": "FATURADO",
+          "status": "EM ROTA",
           "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO ELETRONICAMENTE",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -21990,7 +21990,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7015",
           "data_agendamento": "07/08/2026",
           "data_ord": "2026-08-07",
-          "status": "FATURADO",
+          "status": "EM ROTA",
           "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO ELETRONICAMENTE",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -22018,7 +22018,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7011",
           "data_agendamento": "07/08/2026",
           "data_ord": "2026-08-07",
-          "status": "FATURADO",
+          "status": "EM ROTA",
           "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO ELETRONICAMENTE",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -22032,7 +22032,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7013",
           "data_agendamento": "07/08/2026",
           "data_ord": "2026-08-07",
-          "status": "FATURADO",
+          "status": "EM ROTA",
           "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO ELETRONICAMENTE",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -24950,7 +24950,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7107",
           "data_agendamento": "07/08/2026",
           "data_ord": "2026-08-07",
-          "status": "FATURADO",
+          "status": "EM ROTA",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -24964,7 +24964,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7098",
           "data_agendamento": "07/08/2026",
           "data_ord": "2026-08-07",
-          "status": "FATURADO",
+          "status": "EM ROTA",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -24978,7 +24978,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7099",
           "data_agendamento": "07/08/2026",
           "data_ord": "2026-08-07",
-          "status": "FATURADO",
+          "status": "EM ROTA",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -24992,7 +24992,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7106",
           "data_agendamento": "07/08/2026",
           "data_ord": "2026-08-07",
-          "status": "FATURADO",
+          "status": "EM ROTA",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -25728,7 +25728,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "07/08/2026 10:14",
+  "atualizado_em": "07/08/2026 11:06",
   "comparativo": [
     {
       "msg_id": "19fd70e8e7c7167a",
