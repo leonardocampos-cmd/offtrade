@@ -21,6 +21,24 @@ function _getCookie(name) {
   return m ? decodeURIComponent(m[1]) : null;
 }
 
+// Mesmo formato que utils.py::_decode_email decodifica do lado do Streamlit
+// (id_token real do Google OU o token sintético "header.payload.sso" que
+// login.html fabrica pro fluxo de RCA+senha) — payload é JSON base64url com
+// campo "email", sem checar assinatura (o Streamlit também não checa).
+function _decodeEmailFromCookie() {
+  try {
+    const raw = _getCookie('offtrade_token');
+    if (!raw) return '';
+    const idToken = JSON.parse(raw).id_token || '';
+    let payload = idToken.split('.')[1] || '';
+    payload = payload.replace(/-/g, '+').replace(/_/g, '/');
+    payload += '='.repeat((4 - payload.length % 4) % 4);
+    return (JSON.parse(atob(payload)).email || '').toLowerCase();
+  } catch (e) {
+    return '';
+  }
+}
+
 (function checkAuth() {
   if (sessionStorage.getItem(_AUTH_KEY) === _AUTH_HASH) return;
 
@@ -33,6 +51,14 @@ function _getCookie(name) {
   // checagem a cada navegação nessa aba.
   if (_getCookie('offtrade_token')) {
     sessionStorage.setItem(_AUTH_KEY, _AUTH_HASH);
+    // Sem isso, rg_email fica vazio nessa aba (só login.html setava) — as
+    // páginas "só pra gestor" (base_ataque_vinhos.html, raiox_clientes_risco.html
+    // etc.) revalidam contra sessionStorage.rg_email e bloqueavam gestor de
+    // verdade que chegou por esse atalho (confirmado em 2026-08-07, e-mail
+    // na lista de gestores mas bloqueado por chegar direto na página, sem
+    // passar pelo Google SSO nessa aba).
+    const email = _decodeEmailFromCookie();
+    if (email) sessionStorage.setItem('rg_email', email);
     return;
   }
 
