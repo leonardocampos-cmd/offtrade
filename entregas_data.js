@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "07/08/2026 15:22",
+  "atualizado_em": "07/08/2026 15:38",
   "data_rota": "07.08",
   "vendedores": [
     {
@@ -3803,38 +3803,7 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [
-        {
-          "numped": "378000591",
-          "numnota": "",
-          "data": "07/08/2026",
-          "cliente": "LANCHONETE ROSA DO ADRO LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "Favor entregar dia 08/08",
-          "total": 466.2,
-          "itens": [
-            {
-              "desc": "VODCA SMIRNOFF RED 998 ML",
-              "qt": 2,
-              "val": 55.8
-            },
-            {
-              "desc": "WHISKY J WALKER RED LABEL 1L",
-              "qt": 1,
-              "val": 77.9
-            },
-            {
-              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
-              "qt": 5,
-              "val": 332.5
-            }
-          ]
-        }
-      ],
+      "nao_emitido": [],
       "emitido_s_rota": [
         {
           "numped": "378000461",
@@ -5561,7 +5530,7 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 288.5,
+          "total": 163.5,
           "itens": [
             {
               "desc": "GIN BEEFEATER 750ML",
@@ -5572,11 +5541,6 @@ const ENTREGAS_DATA = {
               "desc": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
               "qt": 1,
               "val": 93.6
-            },
-            {
-              "desc": "LICOR ESP DIEGO ZAMORA 43 BARCELONA",
-              "qt": 1,
-              "val": 125.0
             }
           ]
         }
