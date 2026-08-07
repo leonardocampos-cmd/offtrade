@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <script src="auth.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Base de Ataque Vinhos SP — OfftradeHub</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+  <script src="base_ataque_vinhos_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --card2: #22263a;
+      --accent: #f5c518; --text: #e2e8f0; --muted: #94a3b8;
+      --border: #2d3144; --red: #ef4444; --green: #4ade80;
+      --yellow: #eab308; --blue: #60a5fa; --orange: #fb923c; --gray: #64748b;
+    }
+    body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; min-height: 100vh; padding: 16px; }
+    header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border); gap: 12px; flex-wrap: wrap; }
+    .header-title h1 { font-size: 1.25rem; font-weight: 800; color: var(--accent); }
+    .header-title p  { font-size: .72rem; color: var(--muted); margin-top: 3px; }
+    .btn { display: inline-flex; align-items: center; gap: 6px; padding: 7px 14px; border-radius: 8px; background: var(--card); border: 1px solid var(--border); color: var(--text); font-size: .8rem; font-weight: 600; text-decoration: none; cursor: pointer; transition: border-color .15s; }
+    .btn:hover { border-color: var(--accent); }
+
+    section { margin-bottom: 22px; }
+    .section-title { font-size: .72rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin-bottom: 10px; font-weight: 700; }
+
+    /* Painel "o que foi pedido" */
+    .brief { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px; }
+    .brief ul { list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; margin-top: 4px; }
+    .brief li { font-size: .8rem; color: var(--text); display: flex; gap: 8px; align-items: flex-start; }
+    .brief li b { color: var(--accent); }
+    .brief .num { flex: 0 0 auto; width: 20px; height: 20px; border-radius: 50%; background: var(--card2); color: var(--accent); font-size: .68rem; font-weight: 800; display: flex; align-items: center; justify-content: center; }
+    .brief-foot { margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border); font-size: .7rem; color: var(--muted); line-height: 1.5; }
+
+    /* Resumo geral */
+    .resumo-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 10px; }
+    .resumo-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; }
+    .resumo-label { font-size: .62rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin-bottom: 6px; }
+    .resumo-val { font-size: 1.5rem; font-weight: 800; }
+    .resumo-sub { font-size: .68rem; color: var(--muted); margin-top: 4px; }
+
+    /* Charts */
+    .charts-grid { display: grid; grid-template-columns: 1.1fr 1.4fr; gap: 14px; }
+    .chart-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
+    .chart-card h3 { font-size: .8rem; font-weight: 700; margin-bottom: 12px; color: var(--text); }
+    .chart-wrap { position: relative; height: 230px; }
+    .chart-wrap.tall { height: 270px; }
+    @media (max-width: 860px) { .charts-grid { grid-template-columns: 1fr; } }
+
+    /* Filtros */
+    .filtros { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+    select, input[type=text] {
+      background: var(--card); border: 1px solid var(--border); color: var(--text);
+      padding: 8px 12px; border-radius: 8px; font-size: .82rem; font-family: inherit;
+      outline: none; transition: border-color .15s; min-width: 170px;
+    }
+    select:focus, input[type=text]:focus { border-color: var(--accent); }
+
+    .badge { display: inline-block; padding: 2px 8px; border-radius: 99px; font-size: .68rem; font-weight: 700; white-space: nowrap; }
+    .badge-red    { background: rgba(239,68,68,.15);  color: var(--red);    border: 1px solid rgba(239,68,68,.3); }
+    .badge-orange { background: rgba(251,146,60,.15); color: var(--orange); border: 1px solid rgba(251,146,60,.3); }
+    .badge-yellow { background: rgba(234,179,8,.15);  color: var(--yellow); border: 1px solid rgba(234,179,8,.3); }
+    .badge-green  { background: rgba(74,222,128,.15); color: var(--green);  border: 1px solid rgba(74,222,128,.3); }
+    .badge-blue   { background: rgba(96,165,250,.15); color: var(--blue);   border: 1px solid rgba(96,165,250,.3); }
+    .badge-gray   { background: rgba(100,116,139,.15);color: var(--gray);   border: 1px solid rgba(100,116,139,.3); }
+
+    /* Tabela */
+    .table-wrap { overflow-x: auto; background: var(--card); border: 1px solid var(--border); border-radius: 12px; }
+    .cli-table { width: 100%; border-collapse: collapse; font-size: .78rem; }
+    .cli-table th { background: var(--card2); color: var(--muted); font-size: .64rem; text-transform: uppercase; letter-spacing: .05em; padding: 9px 12px; text-align: left; border-bottom: 1px solid var(--border); white-space: nowrap; cursor: pointer; user-select: none; }
+    .cli-table th:hover { color: var(--accent); }
+    .cli-table th .arrow { opacity: .5; margin-left: 3px; }
+    .cli-table td { padding: 8px 12px; border-bottom: 1px solid var(--border); vertical-align: middle; white-space: nowrap; }
+    .cli-table tr:last-child td { border-bottom: none; }
+    .cli-table tr:hover td { background: var(--card2); }
+    .cli-table .num { text-align: right; font-variant-numeric: tabular-nums; }
+    .empty-msg { padding: 24px; text-align: center; color: var(--muted); font-size: .82rem; }
+    @media (max-width: 700px) { .hide-mob { display: none; } }
+
+    .pager { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 10px 14px; flex-wrap: wrap; }
+    .pager-info { font-size: .74rem; color: var(--muted); }
+    .pager-btns { display: flex; gap: 6px; }
+    .pager-btns button { background: var(--card2); border: 1px solid var(--border); color: var(--text); border-radius: 6px; padding: 5px 10px; font-size: .76rem; cursor: pointer; }
+    .pager-btns button:disabled { opacity: .35; cursor: default; }
+    .pager-btns button:not(:disabled):hover { border-color: var(--accent); }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-title">
+    <h1>&#127863; Base de Ataque — Vinhos de Custo Baixo (SP)</h1>
+    <p id="sub">—</p>
+  </div>
+  <div style="display:flex;gap:8px;flex-wrap:wrap">
+    <button class="btn" onclick="exportCSV()">&#8615; Exportar CSV</button>
+    <a class="btn" href="index.html">&#8962; Home</a>
+  </div>
+</header>
+
+<div id="blocked" style="display:none;padding:60px 16px;text-align:center;color:var(--muted)">
+  <div style="font-size:2rem;margin-bottom:10px">&#128274;</div>
+  <div style="font-size:.95rem;font-weight:700;color:var(--text)">Página restrita a gestores</div>
+  <div style="font-size:.8rem;margin-top:6px">Sua conta não tem acesso a este painel.</div>
+</div>
+
+<div id="app">
+
+<section class="brief">
+  <div class="section-title" style="margin-bottom:10px">O que foi pedido — DE-PARA base de ataque × base Rigarr</div>
+  <ul>
+    <li><span class="num">1</span><span>Dos <b id="brief-total">—</b> clientes da base de ataque, quais já têm <b>cadastro</b> na Rigarr</span></li>
+    <li><span class="num">2</span><span>Se os clientes cadastrados estão <b>ativos ou inativos</b></span></li>
+    <li><span class="num">3</span><span><b>Histórico de faturamento</b> com a Rigarr em 2025 e 2026</span></li>
+    <li><span class="num">4</span><span>Quem é o <b>RCA</b> responsável no cadastro de cada cliente</span></li>
+  </ul>
+  <div class="brief-foot">
+    Fontes: <code>base_ataque_vinhos_SP_Rigarr.xlsx</code> (4.867 CNPJs) cruzado por CNPJ com as abas <code>Cadastro</code> (49.662 clientes) e <code>Vendas</code> (283 mil linhas, jan/2025–ago/2026) de <code>analise clientes vinho.xlsx</code>.
+    Situação calculada por recência de compra (≤30d ativo, 31-90d ativo com queda, +90d inativo) — exceto RCA&nbsp;10, que o ERP usa como carteira de <b>clientes inativos</b> independente da recência.
+  </div>
+</section>
+
+<section>
+  <div class="section-title">Resumo</div>
+  <div class="resumo-grid" id="resumo"></div>
+</section>
+
+<section>
+  <div class="charts-grid">
+    <div class="chart-card">
+      <h3>Situação dos 4.867 clientes</h3>
+      <div class="chart-wrap"><canvas id="chart-situacao"></canvas></div>
+    </div>
+    <div class="chart-card">
+      <h3>Top 12 RCAs — clientes da base de ataque</h3>
+      <div class="chart-wrap"><canvas id="chart-rca"></canvas></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="chart-card">
+    <h3>Faturamento mensal — clientes da base de ataque (jan/2025–ago/2026)</h3>
+    <div class="chart-wrap tall"><canvas id="chart-mensal"></canvas></div>
+  </div>
+</section>
+
+<section>
+  <div class="section-title">Todos os clientes (4.867)</div>
+  <div class="filtros" style="margin-bottom:14px">
+    <select id="fil-cad" onchange="applyFilters()">
+      <option value="">Cadastro: todos</option>
+      <option value="Sim">Com cadastro</option>
+      <option value="Não">Sem cadastro</option>
+    </select>
+    <select id="fil-sit" onchange="applyFilters()">
+      <option value="">Situação: todas</option>
+    </select>
+    <select id="fil-rca" onchange="applyFilters()">
+      <option value="">RCA: todos</option>
+    </select>
+    <select id="fil-cidade" onchange="applyFilters()">
+      <option value="">Cidade: todas</option>
+    </select>
+    <input type="text" id="fil-busca" placeholder="&#128269; Buscar PDV, rede, CNPJ ou cliente..." oninput="applyFilters()" style="min-width:260px;flex:1">
+  </div>
+
+  <div class="table-wrap">
+    <table class="cli-table">
+      <thead><tr id="thead-row"></tr></thead>
+      <tbody id="lista"></tbody>
+    </table>
+    <div class="pager" id="pager"></div>
+  </div>
+</section>
+
+</div><!-- /#app -->
+
+<script>
+// Mesma lista de gestores de login.html / utils.py (GESTORES_PERMITIDOS) —
+// auth.js só garante "logou com algum token válido" (cookie offtrade_token é
+// setado tanto pro fluxo de vendedor quanto de gestor), então essa página
+// revalida contra a lista de e-mails de gestor por conta própria, como
+// raiox_clientes_risco.html e as outras páginas "só pra alguém específico".
+const GESTORES_PERMITIDOS = [
+  'danielle.soares@rigarr.com.br',
+  'allan.correa@rigarr.com.br',
+  'leonardo.campos@rigarr.com.br',
+  'alexsandro.nunes@rigarr.com.br',
+  'giovani.cabral@rigarr.com.br',
+  'kaliel.caro@rigarr.com.br',
+  'artur.furlan@rigarr.com.br',
+  'daniel.diniz@rigarr.com.br',
+  'marcus.tanamachi@rigarr.com.br',
+  'geovanna.lescano@rigarr.com.br',
+  'fernando.risson@rigarr.com.br',
+  'erocles.oliveira@rigarr.com.br',
+  'andre.massensini@rigarr.com.br',
+  'priscilla.zambrano@rigarr.com.br',
+  'anderson.canaveis@rigarr.com.br',
+];
+const _emailAtual = (sessionStorage.getItem('rg_email') || '').toLowerCase();
+if (!GESTORES_PERMITIDOS.includes(_emailAtual)) {
+  document.getElementById('app').style.display = 'none';
+  document.getElementById('blocked').style.display = '';
+}
+
+const D = (typeof BASE_ATAQUE_DATA !== 'undefined') ? BASE_ATAQUE_DATA : null;
+
+const STATUS_BADGE = {
+  'Ativo': 'badge-green',
+  'Ativo (queda)': 'badge-yellow',
+  'Inativo': 'badge-red',
+  'Sem histórico': 'badge-blue',
+  'Sem cadastro': 'badge-gray',
+};
+const STATUS_HEX = {
+  'Ativo': '#4ade80', 'Ativo (queda)': '#eab308', 'Inativo': '#ef4444',
+  'Sem histórico': '#60a5fa', 'Sem cadastro': '#64748b',
+};
+
+const fmtR = v => 'R$ ' + (v||0).toLocaleString('pt-BR', {minimumFractionDigits:2, maximumFractionDigits:2});
+const fmtRk = v => v >= 1000 ? 'R$ ' + (v/1000).toFixed(0) + 'k' : 'R$ ' + v.toFixed(0);
+
+let _sortCol = 'fat26', _sortDir = -1, _page = 1;
+const PAGE_SIZE = 60;
+let _filtered = [];
+
+function init() {
+  document.getElementById('sub').textContent = `Atualizado: ${D.atualizado_em} · ${D.clientes.length.toLocaleString('pt-BR')} clientes na base de ataque`;
+  document.getElementById('brief-total').textContent = D.clientes.length.toLocaleString('pt-BR');
+
+  buildResumo();
+  buildFiltros();
+  buildCharts();
+  applyFilters();
+}
+
+function buildResumo() {
+  const s = D.summary;
+  document.getElementById('resumo').innerHTML = `
+    <div class="resumo-card">
+      <div class="resumo-label">Total base de ataque</div>
+      <div class="resumo-val">${s.total.toLocaleString('pt-BR')}</div>
+    </div>
+    <div class="resumo-card" style="border-color:rgba(74,222,128,.4)">
+      <div class="resumo-label">Com cadastro</div>
+      <div class="resumo-val" style="color:var(--green)">${s.comCadastro.toLocaleString('pt-BR')}</div>
+      <div class="resumo-sub">${s.pctComCadastro}% da base</div>
+    </div>
+    <div class="resumo-card" style="border-color:rgba(100,116,139,.4)">
+      <div class="resumo-label">Sem cadastro</div>
+      <div class="resumo-val" style="color:var(--gray)">${s.semCadastro.toLocaleString('pt-BR')}</div>
+      <div class="resumo-sub">${(100-s.pctComCadastro).toFixed(1)}% da base</div>
+    </div>
+    <div class="resumo-card" style="border-color:rgba(74,222,128,.4)">
+      <div class="resumo-label">Ativos</div>
+      <div class="resumo-val" style="color:var(--green)">${(s.macroCounts['Ativo']||0).toLocaleString('pt-BR')}</div>
+      <div class="resumo-sub">+ ${(s.macroCounts['Ativo (queda)']||0)} com queda de compra</div>
+    </div>
+    <div class="resumo-card" style="border-color:rgba(239,68,68,.4)">
+      <div class="resumo-label">Inativos</div>
+      <div class="resumo-val" style="color:var(--red)">${(s.macroCounts['Inativo']||0).toLocaleString('pt-BR')}</div>
+      <div class="resumo-sub">RCA 10 ou +90d sem comprar</div>
+    </div>
+    <div class="resumo-card">
+      <div class="resumo-label">Faturamento 2025</div>
+      <div class="resumo-val" style="font-size:1.15rem">${fmtR(s.fat25Total)}</div>
+    </div>
+    <div class="resumo-card" style="border-color:rgba(245,197,24,.4)">
+      <div class="resumo-label">Faturamento 2026</div>
+      <div class="resumo-val" style="font-size:1.15rem;color:var(--accent)">${fmtR(s.fat26Total)}</div>
+    </div>
+  `;
+}
+
+function buildFiltros() {
+  const selSit = document.getElementById('fil-sit');
+  Object.keys(STATUS_BADGE).forEach(s => {
+    if (D.clientes.some(c => c.situacaoMacro === s)) {
+      selSit.insertAdjacentHTML('beforeend', `<option value="${s}">${s}</option>`);
+    }
+  });
+
+  const rcaCounts = {};
+  D.clientes.forEach(c => { if (c.temCadastro === 'Sim' && c.rca) rcaCounts[c.rca] = (rcaCounts[c.rca]||0) + 1; });
+  const selRca = document.getElementById('fil-rca');
+  Object.entries(rcaCounts).sort((a,b) => b[1]-a[1]).forEach(([nome, n]) => {
+    selRca.insertAdjacentHTML('beforeend', `<option value="${nome}">${nome} (${n})</option>`);
+  });
+
+  const cidades = [...new Set(D.clientes.map(c => c.cidade).filter(Boolean))].sort();
+  const selCid = document.getElementById('fil-cidade');
+  cidades.forEach(c => selCid.insertAdjacentHTML('beforeend', `<option value="${c}">${c}</option>`));
+}
+
+function buildCharts() {
+  const s = D.summary;
+  const macroOrder = ['Sem cadastro','Inativo','Sem histórico','Ativo (queda)','Ativo'];
+  new Chart(document.getElementById('chart-situacao'), {
+    type: 'doughnut',
+    data: {
+      labels: macroOrder,
+      datasets: [{
+        data: macroOrder.map(k => s.macroCounts[k] || 0),
+        backgroundColor: macroOrder.map(k => STATUS_HEX[k]),
+        borderColor: '#1a1d27',
+        borderWidth: 2,
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      cutout: '62%',
+      plugins: { legend: { position: 'right', labels: { color: '#94a3b8', font: { size: 11 }, boxWidth: 12, padding: 10 } } }
+    }
+  });
+
+  const rcaTop = s.topRca.filter(r => r.QTD_CLIENTES > 0).slice(0, 12);
+  new Chart(document.getElementById('chart-rca'), {
+    type: 'bar',
+    data: {
+      labels: rcaTop.map(r => r.RCA_ATUAL),
+      datasets: [{
+        label: 'Clientes',
+        data: rcaTop.map(r => r.QTD_CLIENTES),
+        backgroundColor: 'rgba(245,197,24,0.75)',
+        borderColor: '#f5c518',
+        borderWidth: 1,
+        borderRadius: 4,
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { ticks: { color: '#94a3b8', font: { size: 10 } }, grid: { color: '#2d3144' } },
+        y: { ticks: { color: '#94a3b8', font: { size: 10 } }, grid: { display: false } }
+      }
+    }
+  });
+
+  const meses = Object.keys(s.serieMensal).sort();
+  const labelsMes = meses.map(m => {
+    const [y, mo] = m.split('-');
+    return new Date(y, mo-1, 1).toLocaleDateString('pt-BR', {month:'short', year:'2-digit'}).replace('.','');
+  });
+  new Chart(document.getElementById('chart-mensal'), {
+    type: 'bar',
+    data: {
+      labels: labelsMes,
+      datasets: [{
+        label: 'Faturamento',
+        data: meses.map(m => s.serieMensal[m]),
+        backgroundColor: meses.map(m => m.startsWith('2026') ? 'rgba(245,197,24,0.8)' : 'rgba(96,165,250,0.7)'),
+        borderColor: meses.map(m => m.startsWith('2026') ? '#f5c518' : '#60a5fa'),
+        borderWidth: 1,
+        borderRadius: 4,
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { ticks: { color: '#94a3b8', font: { size: 10 } }, grid: { display: false } },
+        y: { ticks: { color: '#94a3b8', font: { size: 10 }, callback: v => fmtRk(v) }, grid: { color: '#2d3144' } }
+      }
+    }
+  });
+}
+
+const COLS = [
+  { key: 'pdv',        label: 'PDV' },
+  { key: 'rede',        label: 'Rede', mob: true },
+  { key: 'cidade',      label: 'Cidade', mob: true },
+  { key: 'temCadastro', label: 'Cadastro' },
+  { key: 'codcli',      label: 'Cód', mob: true },
+  { key: 'cliente',     label: 'Cliente (cadastro)' },
+  { key: 'rca',         label: 'RCA', mob: true },
+  { key: 'fat25',       label: 'Fat. 2025', num: true },
+  { key: 'fat26',       label: 'Fat. 2026', num: true },
+  { key: 'diasSemComprar', label: 'Dias s/ Compra', num: true, mob: true },
+  { key: 'situacao',    label: 'Situação' },
+];
+
+function renderHead() {
+  const th = COLS.map(c => {
+    const arrow = _sortCol === c.key ? (_sortDir === 1 ? '&#9650;' : '&#9660;') : '';
+    return `<th class="${c.mob?'hide-mob':''}" onclick="setSort('${c.key}')">${c.label}<span class="arrow">${arrow}</span></th>`;
+  }).join('');
+  document.getElementById('thead-row').innerHTML = th;
+}
+
+function setSort(col) {
+  if (_sortCol === col) { _sortDir *= -1; } else { _sortCol = col; _sortDir = -1; }
+  _page = 1;
+  renderHead();
+  renderTable();
+}
+
+function applyFilters() {
+  const cad    = document.getElementById('fil-cad').value;
+  const sit    = document.getElementById('fil-sit').value;
+  const rca    = document.getElementById('fil-rca').value;
+  const cidade = document.getElementById('fil-cidade').value;
+  const busca  = document.getElementById('fil-busca').value.trim().toLowerCase();
+
+  _filtered = D.clientes.filter(c => {
+    if (cad && c.temCadastro !== cad) return false;
+    if (sit && c.situacaoMacro !== sit) return false;
+    if (rca && c.rca !== rca) return false;
+    if (cidade && c.cidade !== cidade) return false;
+    if (busca) {
+      const hay = `${c.pdv||''} ${c.rede||''} ${c.bandeira||''} ${c.cnpj||''} ${c.cliente||''}`.toLowerCase();
+      if (!hay.includes(busca)) return false;
+    }
+    return true;
+  });
+  _page = 1;
+  renderHead();
+  renderTable();
+}
+
+function renderTable() {
+  _filtered.sort((a, b) => {
+    let va = a[_sortCol], vb = b[_sortCol];
+    if (va == null) va = (typeof vb === 'number') ? -Infinity : '';
+    if (vb == null) vb = (typeof va === 'number') ? -Infinity : '';
+    if (typeof va === 'string') return va.localeCompare(vb, 'pt-BR') * _sortDir;
+    return (va - vb) * _sortDir;
+  });
+
+  const total = _filtered.length;
+  const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
+  if (_page > totalPages) _page = totalPages;
+  const start = (_page - 1) * PAGE_SIZE;
+  const pageRows = _filtered.slice(start, start + PAGE_SIZE);
+
+  if (!total) {
+    document.getElementById('lista').innerHTML = `<tr><td colspan="${COLS.length}" class="empty-msg">Nenhum cliente encontrado para os filtros selecionados.</td></tr>`;
+    document.getElementById('pager').innerHTML = '';
+    return;
+  }
+
+  const rows = pageRows.map(c => `
+    <tr>
+      <td style="font-weight:600">${c.pdv||'—'}<div style="font-size:.66rem;color:var(--muted)">${c.cnpj}</div></td>
+      <td class="hide-mob" style="color:var(--muted)">${c.rede||'—'}${c.bandeira && c.bandeira!==c.rede ? ' · '+c.bandeira : ''}</td>
+      <td class="hide-mob" style="color:var(--muted)">${c.cidade||'—'}</td>
+      <td>${c.temCadastro==='Sim' ? '<span class="badge badge-green">Sim</span>' : '<span class="badge badge-gray">Não</span>'}</td>
+      <td class="hide-mob" style="color:var(--muted)">${c.codcli||'—'}</td>
+      <td>${c.cliente||'<span style="color:var(--muted)">—</span>'}</td>
+      <td class="hide-mob">${c.rca||'<span style="color:var(--muted)">—</span>'}</td>
+      <td class="num" style="color:${c.fat25>0?'var(--text)':'var(--muted)'}">${c.fat25>0?fmtR(c.fat25):'—'}</td>
+      <td class="num" style="font-weight:700;color:${c.fat26>0?'var(--accent)':'var(--muted)'}">${c.fat26>0?fmtR(c.fat26):'—'}</td>
+      <td class="num hide-mob" style="color:var(--muted)">${c.diasSemComprar!=null?c.diasSemComprar+'d':'—'}</td>
+      <td><span class="badge ${STATUS_BADGE[c.situacaoMacro]||'badge-gray'}">${c.situacao}</span></td>
+    </tr>`).join('');
+
+  document.getElementById('lista').innerHTML = rows;
+
+  document.getElementById('pager').innerHTML = `
+    <div class="pager-info">${total.toLocaleString('pt-BR')} cliente${total>1?'s':''} · página ${_page} de ${totalPages}</div>
+    <div class="pager-btns">
+      <button onclick="goPage(1)" ${_page===1?'disabled':''}>&#171; Primeira</button>
+      <button onclick="goPage(${_page-1})" ${_page===1?'disabled':''}>&#8249; Anterior</button>
+      <button onclick="goPage(${_page+1})" ${_page===totalPages?'disabled':''}>Próxima &#8250;</button>
+      <button onclick="goPage(${totalPages})" ${_page===totalPages?'disabled':''}>Última &#187;</button>
+    </div>`;
+}
+
+function goPage(p) { _page = p; renderTable(); }
+
+function exportCSV() {
+  const headers = ['CNPJ','PDV','Rede','Bandeira','Cidade','Regional','Tem Cadastro','Cód Cliente','Cliente','RCA','Faturamento 2025','Faturamento 2026','Última Compra','Dias sem comprar','Situação'];
+  const rows = [headers];
+  _filtered.forEach(c => rows.push([
+    c.cnpj, c.pdv, c.rede, c.bandeira, c.cidade, c.regional, c.temCadastro, c.codcli||'', c.cliente||'',
+    c.rca||'', c.fat25||0, c.fat26||0, c.ultCompra||'', c.diasSemComprar!=null?c.diasSemComprar:'', c.situacao
+  ]));
+  const csv = rows.map(r => r.map(v => `"${String(v==null?'':v).replace(/"/g,'""')}"`).join(';')).join('\n');
+  const blob = new Blob(['﻿' + csv], {type: 'text/csv;charset=utf-8'});
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href     = url;
+  a.download = `base_ataque_vinhos_de_para_${new Date().toISOString().slice(0,10)}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+if (GESTORES_PERMITIDOS.includes(_emailAtual)) {
+  if (!D) {
+    document.getElementById('lista').innerHTML = '<p style="color:var(--red);padding:32px">Erro: base_ataque_vinhos_data.js não encontrado.</p>';
+  } else {
+    init();
+  }
+}
+</script>
+</body>
+</html>
