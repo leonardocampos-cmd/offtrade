@@ -109,7 +109,15 @@
       background:var(--card); border:1px solid var(--border); border-left:4px solid var(--accent);
       border-radius:12px; padding:16px 18px; margin-bottom:28px; position:relative;
     }
-    .assistant-emoji { font-size:2rem; line-height:1; flex-shrink:0; }
+    .assistant-emoji { font-size:2rem; line-height:1; flex-shrink:0; display:inline-block; animation:assistant-wave 2.4s ease-in-out infinite; transform-origin:70% 70%; }
+    @keyframes assistant-wave {
+      0%, 60%, 100% { transform:rotate(0deg); }
+      10% { transform:rotate(14deg); }
+      20% { transform:rotate(-8deg); }
+      30% { transform:rotate(14deg); }
+      40% { transform:rotate(-4deg); }
+      50% { transform:rotate(10deg); }
+    }
     .assistant-bubble { flex:1; }
     .assistant-greeting { font-size:1rem; font-weight:800; color:var(--accent); margin-bottom:4px; }
     .assistant-text { font-size:.8rem; color:var(--text); line-height:1.6; }
@@ -134,7 +142,7 @@
 
   <!-- Assistente / saudação -->
   <div class="assistant-box" id="assistant-box">
-    <span class="assistant-emoji">🧑‍💼</span>
+    <span class="assistant-emoji">👋</span>
     <div class="assistant-bubble">
       <div class="assistant-greeting" id="assistant-greeting">Olá!</div>
       <div class="assistant-text">
@@ -210,6 +218,13 @@
       <div>
         <div class="dash-name">Clientes Inativos</div>
         <div class="dash-desc">Inativos, sem compra 30/45/60d e novos sem compra — todos os estados</div>
+      </div>
+    </a>
+    <a class="dash-card" href="base_ataque_vinhos.html">
+      <span class="dash-icon">🍷</span>
+      <div>
+        <div class="dash-name">Base de Ataque — Vinhos SP</div>
+        <div class="dash-desc">DE-PARA dos 4.867 clientes da base de ataque x cadastro/vendas Rigarr</div>
       </div>
     </a>
     <a class="dash-card" href="industria.html">
@@ -401,8 +416,11 @@
     document.getElementById('today').textContent = d.toLocaleDateString('pt-BR',{weekday:'long',day:'2-digit',month:'long',year:'numeric'});
 
     const h = d.getHours();
-    const saudacao = h < 12 ? 'Bom dia!' : h < 18 ? 'Boa tarde!' : 'Boa noite!';
-    document.getElementById('assistant-greeting').textContent = saudacao;
+    const saudacao = h < 12 ? 'Bom dia' : h < 18 ? 'Boa tarde' : 'Boa noite';
+    const _email = sessionStorage.getItem('rg_email') || '';
+    const _primeiroNome = _email ? _email.split('@')[0].split('.')[0] : '';
+    const _nome = _primeiroNome ? _primeiroNome.charAt(0).toUpperCase() + _primeiroNome.slice(1) : '';
+    document.getElementById('assistant-greeting').textContent = _nome ? `${saudacao}, ${_nome}!` : `${saudacao}!`;
 
     const assistantBox = document.getElementById('assistant-box');
     if (localStorage.getItem('assistant_dismissed') === '1') {
