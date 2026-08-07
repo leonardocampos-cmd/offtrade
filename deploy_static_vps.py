@@ -25,7 +25,20 @@ EXCLUDE_HTML = {"exemplo.html"}
 # nginx por exportacao_acessos.py, via cron próprio a cada 10 min) — a cópia
 # local é só um stub vazio de teste (não há log de nginx fora da VPS).
 # Sincronizar isso por cima sobrescreveria os dados reais de acesso.
-EXCLUDE_JS = {"acessos_data.js"}
+#
+# metas/vendas/fontes_status: exportacao_meta.py (+ exportacao_es/mg/sp.py)
+# saíram do main.py em 2026-08-05 e passaram a rodar sozinhos via cron
+# próprio na VPS, de 15 em 15min — a cópia local desses arquivos ficou
+# congelada em 06/08 11:37 (não é mais gerada aqui) e, sem essa exclusão,
+# essa versão velha era reenviada por cima do dado fresco da VPS toda vez
+# que a tarefa agendada local rodava main.py (confirmado em 2026-08-07:
+# site ficou >30h mostrando dado de 06/08 apesar da VPS atualizar a cada
+# 15min sem parar).
+EXCLUDE_JS = {
+    "acessos_data.js",
+    "metas_data.js", "vendas_data.js", "vendas_es_data.js",
+    "vendas_mg_data.js", "vendas_sp_data.js", "fontes_status_data.js",
+}
 
 
 def ssh_run(client, cmd, check=True):
