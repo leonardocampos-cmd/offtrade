@@ -1,5 +1,5 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "07/08/2026 17:32",
+  "atualizado_em": "07/08/2026 17:50",
   "periodo_dias": 90,
   "fontes_indisponiveis": [],
   "pedidos_feitos": [
@@ -15,7 +15,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :3642",
       "obs": "",
       "total": 1197.6,
@@ -133,7 +133,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :6285",
       "obs": "",
       "total": 263.52,
@@ -160,6 +160,72 @@ const PEDIDOS_DATA = {
       "motivo_preco_tabela": 6.2
     },
     {
+      "numped": "379001376",
+      "numnota": "",
+      "data": "07/08/2026",
+      "data_ord": "2026-08-07",
+      "nome": "JORGE MACIEL - OFF TRADE",
+      "cliente": "MONTES DOCES MARECHAL HERMES LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :4884",
+      "obs": "",
+      "total": 257.9,
+      "itens": [
+        {
+          "desc": "VINHO FRISANTE ROSE QUINTA MORGADO 750ML",
+          "industria": "FANTE",
+          "qt": 1,
+          "val": 24.5,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "7100",
+          "codfilial": "2",
+          "pvenda": 24.5
+        },
+        {
+          "desc": "GIN BEEFEATER 750ML",
+          "industria": "PERNOD",
+          "qt": 2,
+          "val": 139.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "463",
+          "codfilial": "2",
+          "pvenda": 69.9
+        },
+        {
+          "desc": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+          "industria": "TATUZINHO",
+          "qt": 1,
+          "val": 93.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "4884",
+          "codfilial": "2",
+          "pvenda": 93.6
+        }
+      ],
+      "tem_corte": false,
+      "motivo_codprod": "4884",
+      "motivo_produto": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+      "motivo_preco_digitado": 93.6,
+      "motivo_preco_tabela": 95.9
+    },
+    {
       "numped": "379001372",
       "numnota": "",
       "data": "07/08/2026",
@@ -171,7 +237,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :290",
       "obs": "",
       "total": 267.2,
@@ -359,7 +425,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :5384",
       "obs": "Favor entregar dia 08/08",
       "total": 286.62,
@@ -425,7 +491,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :4368",
       "obs": "",
       "total": 333.6,
@@ -466,6 +532,96 @@ const PEDIDOS_DATA = {
       "motivo_preco_tabela": 17.9
     },
     {
+      "numped": "159005234",
+      "numnota": "",
+      "data": "07/08/2026",
+      "data_ord": "2026-08-07",
+      "nome": "GISELLE BARFER - OFF TRADE",
+      "cliente": "AS COM DE BEBIDAS LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :3",
+      "obs": "ENTREGA DAS 10H AS 17H - SEM TAXA DE DESCARGA",
+      "total": 6998.4,
+      "itens": [
+        {
+          "desc": "RED BULL 24X250ML",
+          "industria": "RED BULL",
+          "qt": 40,
+          "val": 6998.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 40.0,
+          "cortado": false,
+          "codprod": "3",
+          "codfilial": "2",
+          "pvenda": 174.96
+        }
+      ],
+      "tem_corte": false,
+      "motivo_codprod": "3",
+      "motivo_produto": "RED BULL 24X250ML",
+      "motivo_preco_digitado": 174.96,
+      "motivo_preco_tabela": 172.56
+    },
+    {
+      "numped": "379001375",
+      "numnota": "",
+      "data": "07/08/2026",
+      "data_ord": "2026-08-07",
+      "nome": "JORGE MACIEL - OFF TRADE",
+      "cliente": "KM 32 ALIMENTOS LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :1518",
+      "obs": "",
+      "total": 353.34,
+      "itens": [
+        {
+          "desc": "CANTINA DA SERRA 1,5L",
+          "industria": "COMARY",
+          "qt": 36,
+          "val": 330.84,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 36.0,
+          "cortado": false,
+          "codprod": "1518",
+          "codfilial": "2",
+          "pvenda": 9.19
+        },
+        {
+          "desc": "VINHO FRISANTE ROSE QUINTA MORGADO 750ML",
+          "industria": "FANTE",
+          "qt": 1,
+          "val": 22.5,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "7100",
+          "codfilial": "2",
+          "pvenda": 22.5
+        }
+      ],
+      "tem_corte": false,
+      "motivo_codprod": "1518",
+      "motivo_produto": "CANTINA DA SERRA 1,5L",
+      "motivo_preco_digitado": 9.19,
+      "motivo_preco_tabela": 10.4
+    },
+    {
       "numped": "379001370",
       "numnota": "",
       "data": "07/08/2026",
@@ -477,7 +633,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :110",
       "obs": "",
       "total": 344.88,
@@ -543,7 +699,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :3137",
       "obs": "",
       "total": 389.42,
@@ -689,7 +845,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado",
       "motivo": "Item com desconto acima do permitido :267",
       "obs": "Data entrega: 13/06/26",
       "total": 1299.9,
@@ -9958,7 +10114,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000441",
@@ -9993,7 +10149,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000445",
@@ -10063,7 +10219,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "512000045",
@@ -10175,7 +10331,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "515000030",
@@ -10336,7 +10492,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000226",
@@ -10371,7 +10527,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "433000228",
@@ -10406,7 +10562,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "469000065",
@@ -10819,7 +10975,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003331",
@@ -10868,7 +11024,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003332",
@@ -10917,7 +11073,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003334",
@@ -11540,7 +11696,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "388000013",
@@ -17591,7 +17747,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "391000231",
@@ -18424,7 +18580,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "515000028",
@@ -18459,7 +18615,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "518000004",
@@ -18795,7 +18951,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "510000011",
@@ -18984,7 +19140,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "433000222",
@@ -19019,7 +19175,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "433000223",
@@ -26886,7 +27042,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "391000229",
@@ -26977,7 +27133,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "371000321",
@@ -28314,7 +28470,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "461000176",
@@ -52332,7 +52488,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "391000225",
@@ -56091,7 +56247,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003291",
