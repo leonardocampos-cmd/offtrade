@@ -1,8 +1,42 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "07/08/2026 14:08",
+  "atualizado_em": "07/08/2026 14:27",
   "periodo_dias": 90,
   "fontes_indisponiveis": [],
   "pedidos_feitos": [
+    {
+      "numped": "155004096",
+      "numnota": "",
+      "data": "07/08/2026",
+      "data_ord": "2026-08-07",
+      "nome": "RAPHAEL SANTOS - OFF TRADE",
+      "cliente": "XERE BAR E RESTAURANTE LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 419.4,
+      "itens": [
+        {
+          "desc": "HUMB. CANALE DENARIO SAUV. BLANC",
+          "industria": "CASTAS",
+          "qt": 6,
+          "val": 419.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "2895",
+          "codfilial": "2",
+          "pvenda": 69.9
+        }
+      ],
+      "tem_corte": false
+    },
     {
       "numped": "431001219",
       "numnota": "",
@@ -200,6 +234,40 @@ const PEDIDOS_DATA = {
       "motivo_produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
       "motivo_preco_digitado": 89.9,
       "motivo_preco_tabela": 94.7
+    },
+    {
+      "numped": "458000013",
+      "numnota": "",
+      "data": "07/08/2026",
+      "data_ord": "2026-08-07",
+      "nome": "BRUNO COSMO - OFF TRADE",
+      "cliente": "KG COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+      "sistema": "CRC",
+      "estado": "ES",
+      "supervisor": "SUPERVISOR OFF - ES",
+      "gerente": "EROCLES OLIVEIRA",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 325.71,
+      "itens": [
+        {
+          "desc": "NAVEIA BARISTA 12X1L",
+          "industria": "NAVEIA",
+          "qt": 2,
+          "val": 325.71,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "7389",
+          "codfilial": "1",
+          "pvenda": 162.86
+        }
+      ],
+      "tem_corte": false
     },
     {
       "numped": "269000009",
@@ -698,6 +766,86 @@ const PEDIDOS_DATA = {
       "motivo_preco_tabela": 172.56
     },
     {
+      "numped": "155004095",
+      "numnota": "",
+      "data": "07/08/2026",
+      "data_ord": "2026-08-07",
+      "nome": "RAPHAEL SANTOS - OFF TRADE",
+      "cliente": "32.338.524 DEIVISON LUCIANO DE OLIVEIRA GALVAO",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :463",
+      "obs": "",
+      "total": 552.86,
+      "itens": [
+        {
+          "desc": "GIN BEEFEATER PINK 700ML",
+          "industria": "PERNOD",
+          "qt": 3,
+          "val": 179.7,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "cortado": false,
+          "codprod": "2320",
+          "codfilial": "2",
+          "pvenda": 59.9
+        },
+        {
+          "desc": "WHISKY BALLANTINE S FINEST 1L",
+          "industria": "PERNOD",
+          "qt": 3,
+          "val": 164.7,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "cortado": false,
+          "codprod": "237",
+          "codfilial": "2",
+          "pvenda": 54.9
+        },
+        {
+          "desc": "4 PACK RED BULL SF MAÇA 4X250ML",
+          "industria": "RED BULL",
+          "qt": 1,
+          "val": 28.76,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "6654",
+          "codfilial": "2",
+          "pvenda": 28.76
+        },
+        {
+          "desc": "GIN BEEFEATER 750ML",
+          "industria": "PERNOD",
+          "qt": 3,
+          "val": 179.7,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "cortado": false,
+          "codprod": "463",
+          "codfilial": "2",
+          "pvenda": 59.9
+        }
+      ],
+      "tem_corte": false,
+      "motivo_codprod": "463",
+      "motivo_produto": "GIN BEEFEATER 750ML",
+      "motivo_preco_digitado": 59.9,
+      "motivo_preco_tabela": 60.9
+    },
+    {
       "numped": "155004091",
       "numnota": "",
       "data": "07/08/2026",
@@ -734,6 +882,44 @@ const PEDIDOS_DATA = {
       "motivo_produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
       "motivo_preco_digitado": 69.9,
       "motivo_preco_tabela": 69.9
+    },
+    {
+      "numped": "419000777",
+      "numnota": "",
+      "data": "07/08/2026",
+      "data_ord": "2026-08-07",
+      "nome": "NÁTALI DE OLIVEIRA - OFF TRADE",
+      "cliente": "J C BOTECO DOS IRMAOS LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :6565",
+      "obs": "data entrega: 10/07",
+      "total": 286.8,
+      "itens": [
+        {
+          "desc": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
+          "industria": "CASTAS",
+          "qt": 1,
+          "val": 286.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "6565",
+          "codfilial": "2",
+          "pvenda": 286.8
+        }
+      ],
+      "tem_corte": false,
+      "motivo_codprod": "6565",
+      "motivo_produto": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
+      "motivo_preco_digitado": 286.8,
+      "motivo_preco_tabela": 318.0
     },
     {
       "numped": "431001218",
@@ -1908,6 +2094,138 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
+      "numped": "588003335",
+      "numnota": "",
+      "data": "07/08/2026",
+      "data_ord": "2026-08-07",
+      "nome": "W.S",
+      "cliente": "LIMA COMERCIO DE BEBIDAS E PRODUTOS EM GERAL LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 7084.8,
+      "itens": [
+        {
+          "desc": "VODKA GREY GOOSE ORIGINAL 750 ML",
+          "industria": "BACARDI",
+          "qt": 12,
+          "val": 1198.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "39",
+          "codfilial": "1",
+          "pvenda": 99.9
+        },
+        {
+          "desc": "VODKA GREY GOOSE LA POIRE 750 ML",
+          "industria": "BACARDI",
+          "qt": 6,
+          "val": 623.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "232",
+          "codfilial": "1",
+          "pvenda": 103.9
+        },
+        {
+          "desc": "VODKA GREY GOOSE LE CITRON 750ML",
+          "industria": "BACARDI",
+          "qt": 6,
+          "val": 623.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "233",
+          "codfilial": "1",
+          "pvenda": 103.9
+        },
+        {
+          "desc": "VODKA GREY GOOSE LORANGE 750ML",
+          "industria": "BACARDI",
+          "qt": 6,
+          "val": 623.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "234",
+          "codfilial": "1",
+          "pvenda": 103.9
+        },
+        {
+          "desc": "BOURBON WHISKY WOODFORD RESERVE 750ML",
+          "industria": "BROWN",
+          "qt": 6,
+          "val": 899.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "636",
+          "codfilial": "1",
+          "pvenda": 149.9
+        },
+        {
+          "desc": "VODKA ABSOLUT CITRON 750ML",
+          "industria": "PERNOD",
+          "qt": 12,
+          "val": 658.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "1333",
+          "codfilial": "1",
+          "pvenda": 54.9
+        },
+        {
+          "desc": "VODKA ABSOLUT VANILLA 750ML",
+          "industria": "PERNOD",
+          "qt": 12,
+          "val": 658.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "1710",
+          "codfilial": "1",
+          "pvenda": 54.9
+        },
+        {
+          "desc": "WHISKY GENTLEMAN JACK 1L - DEST",
+          "industria": "BROWN",
+          "qt": 12,
+          "val": 1798.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "3436",
+          "codfilial": "1",
+          "pvenda": 149.9
+        }
+      ],
+      "tem_corte": false
+    },
+    {
       "numped": "507000006",
       "numnota": "",
       "data": "07/08/2026",
@@ -2086,6 +2404,116 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
+      "numped": "588003333",
+      "numnota": "",
+      "data": "07/08/2026",
+      "data_ord": "2026-08-07",
+      "nome": "W.S",
+      "cliente": "ALCANTARA COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 9870.0,
+      "itens": [
+        {
+          "desc": "WHISKY PASSPORT HONEY 670ML",
+          "industria": "PERNOD",
+          "qt": 300,
+          "val": 9870.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 300.0,
+          "cortado": false,
+          "codprod": "4804",
+          "codfilial": "1",
+          "pvenda": 32.9
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "515000030",
+      "numnota": "",
+      "data": "07/08/2026",
+      "data_ord": "2026-08-07",
+      "nome": "RAFAEL REIS - OFF TRADE",
+      "cliente": "ADEGA OPEN II LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 1933.07,
+      "itens": [
+        {
+          "desc": "VODKA GREY GOOSE LA POIRE 750 ML",
+          "industria": "BACARDI",
+          "qt": 6,
+          "val": 599.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "232",
+          "codfilial": "1",
+          "pvenda": 99.9
+        },
+        {
+          "desc": "VODKA GREY GOOSE LE CITRON 750ML",
+          "industria": "BACARDI",
+          "qt": 6,
+          "val": 599.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "233",
+          "codfilial": "1",
+          "pvenda": 99.9
+        },
+        {
+          "desc": "VODKA GREY GOOSE LORANGE 750ML",
+          "industria": "BACARDI",
+          "qt": 6,
+          "val": 599.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "234",
+          "codfilial": "1",
+          "pvenda": 99.9
+        },
+        {
+          "desc": "WHISKY MAKERS MARK 750ML",
+          "industria": "BEAM SUNTORY BRASIL",
+          "qt": 1,
+          "val": 134.87,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "486",
+          "codfilial": "1",
+          "pvenda": 134.87
+        }
+      ],
+      "tem_corte": false
+    },
+    {
       "numped": "489000083",
       "numnota": "",
       "data": "07/08/2026",
@@ -2154,6 +2582,130 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
+      "numped": "507000007",
+      "numnota": "",
+      "data": "07/08/2026",
+      "data_ord": "2026-08-07",
+      "nome": "JOAO AUGUSTO -  OFF TRADE",
+      "cliente": "CMR COMERCIO DE ALIMENTOS LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 1477.18,
+      "itens": [
+        {
+          "desc": "RUM BACARDI GOLD 980ML",
+          "industria": "BACARDI",
+          "qt": 12,
+          "val": 448.2,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "35",
+          "codfilial": "1",
+          "pvenda": 37.35
+        },
+        {
+          "desc": "MARTINI BIANCO 750 ML",
+          "industria": "BACARDI",
+          "qt": 12,
+          "val": 347.38,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "37",
+          "codfilial": "1",
+          "pvenda": 28.95
+        },
+        {
+          "desc": "CONHAQUE DOMECQ 1L",
+          "industria": "PERNOD",
+          "qt": 12,
+          "val": 322.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "64",
+          "codfilial": "1",
+          "pvenda": 26.9
+        },
+        {
+          "desc": "MARTINI EXTRA DRY 750 ML",
+          "industria": "BACARDI",
+          "qt": 12,
+          "val": 358.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "169",
+          "codfilial": "1",
+          "pvenda": 29.9
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "588003336",
+      "numnota": "",
+      "data": "07/08/2026",
+      "data_ord": "2026-08-07",
+      "nome": "W.S",
+      "cliente": "DISTRIBUIDORA DO ALEMAO MIRIZOLA LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 8811.6,
+      "itens": [
+        {
+          "desc": "WHISKEY JACK DANIELS HONEY 1 L",
+          "industria": "BROWN",
+          "qt": 60,
+          "val": 6294.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 60.0,
+          "cortado": false,
+          "codprod": "738",
+          "codfilial": "1",
+          "pvenda": 104.9
+        },
+        {
+          "desc": "WHISKY JACK DANIELS APPLE 1L",
+          "industria": "BROWN",
+          "qt": 24,
+          "val": 2517.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 24.0,
+          "cortado": false,
+          "codprod": "2917",
+          "codfilial": "1",
+          "pvenda": 104.9
+        }
+      ],
+      "tem_corte": false
+    },
+    {
       "numped": "588003328",
       "numnota": "",
       "data": "07/08/2026",
@@ -2183,6 +2735,96 @@ const PEDIDOS_DATA = {
           "codprod": "64",
           "codfilial": "1",
           "pvenda": 24.95
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "464000023",
+      "numnota": "",
+      "data": "07/08/2026",
+      "data_ord": "2026-08-07",
+      "nome": "PATRICIO MASSAGARDI - OFF TRADE",
+      "cliente": "MERCADINHO ANGELINA NERI LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 358.2,
+      "itens": [
+        {
+          "desc": "VODKA ABSOLUT 1L",
+          "industria": "PERNOD",
+          "qt": 2,
+          "val": 105.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "129",
+          "codfilial": "1",
+          "pvenda": 52.9
+        },
+        {
+          "desc": "WHISKY PASSPORT 1L",
+          "industria": "PERNOD",
+          "qt": 1,
+          "val": 32.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "246",
+          "codfilial": "1",
+          "pvenda": 32.9
+        },
+        {
+          "desc": "CONHAQUE DREHER 900ML",
+          "industria": "CAMPARI",
+          "qt": 3,
+          "val": 50.7,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "cortado": false,
+          "codprod": "290",
+          "codfilial": "1",
+          "pvenda": 16.9
+        },
+        {
+          "desc": "SMIRNOFF ICE 24X275ML LONG",
+          "industria": "DIAGEO",
+          "qt": 1,
+          "val": 125.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "295",
+          "codfilial": "1",
+          "pvenda": 125.9
+        },
+        {
+          "desc": "RUM MALIBU 750ML",
+          "industria": "PERNOD",
+          "qt": 1,
+          "val": 42.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "312",
+          "codfilial": "1",
+          "pvenda": 42.9
         }
       ],
       "tem_corte": false
@@ -2299,6 +2941,110 @@ const PEDIDOS_DATA = {
           "codprod": "5472",
           "codfilial": "1",
           "pvenda": 139.9
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "588003334",
+      "numnota": "",
+      "data": "07/08/2026",
+      "data_ord": "2026-08-07",
+      "nome": "W.S",
+      "cliente": "L  A COMERCIO DE BEBIDAS LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 4747.5,
+      "itens": [
+        {
+          "desc": "VODKA ABSOLUT CITRON 750ML",
+          "industria": "PERNOD",
+          "qt": 12,
+          "val": 658.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "1333",
+          "codfilial": "1",
+          "pvenda": 54.9
+        },
+        {
+          "desc": "WHISKY JACK DANIELS APPLE 1L",
+          "industria": "BROWN",
+          "qt": 12,
+          "val": 1258.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "2917",
+          "codfilial": "1",
+          "pvenda": 104.9
+        },
+        {
+          "desc": "VODKA ABSOLUT RASPBERRY - 750ML",
+          "industria": "PERNOD",
+          "qt": 12,
+          "val": 658.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "3662",
+          "codfilial": "1",
+          "pvenda": 54.9
+        },
+        {
+          "desc": "WHISKY JACK DANIELS 700ML",
+          "industria": "BROWN",
+          "qt": 12,
+          "val": 838.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "3888",
+          "codfilial": "1",
+          "pvenda": 69.9
+        },
+        {
+          "desc": "WHISKY JACK DANIELS APPLE 700ML",
+          "industria": "BROWN",
+          "qt": 12,
+          "val": 838.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "3898",
+          "codfilial": "1",
+          "pvenda": 69.9
+        },
+        {
+          "desc": "WHISKY PASSPORT HONEY 670ML",
+          "industria": "PERNOD",
+          "qt": 15,
+          "val": 493.5,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 15.0,
+          "cortado": false,
+          "codprod": "4804",
+          "codfilial": "1",
+          "pvenda": 32.9
         }
       ],
       "tem_corte": false
@@ -2465,6 +3211,124 @@ const PEDIDOS_DATA = {
           "codprod": "4804",
           "codfilial": "1",
           "pvenda": 32.9
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "516000048",
+      "numnota": "",
+      "data": "07/08/2026",
+      "data_ord": "2026-08-07",
+      "nome": "JOAQUIM ANGELO - OFF TRADE",
+      "cliente": "DAGO RESTAURANTE PIZZA BAR LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 653.2,
+      "itens": [
+        {
+          "desc": "VODCA SMIRNOFF RED 998 ML",
+          "industria": "DIAGEO",
+          "qt": 4,
+          "val": 115.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 4.0,
+          "cortado": false,
+          "codprod": "16",
+          "codfilial": "1",
+          "pvenda": 28.9
+        },
+        {
+          "desc": "MARTINI BIANCO 750 ML",
+          "industria": "BACARDI",
+          "qt": 2,
+          "val": 57.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "37",
+          "codfilial": "1",
+          "pvenda": 28.95
+        },
+        {
+          "desc": "GIN SEAGERS 1LT",
+          "industria": "STOCK",
+          "qt": 2,
+          "val": 65.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "56",
+          "codfilial": "1",
+          "pvenda": 32.9
+        },
+        {
+          "desc": "CONHAQUE DOMECQ 1L",
+          "industria": "PERNOD",
+          "qt": 3,
+          "val": 83.7,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "cortado": false,
+          "codprod": "64",
+          "codfilial": "1",
+          "pvenda": 27.9
+        },
+        {
+          "desc": "VODKA ABSOLUT 1L",
+          "industria": "PERNOD",
+          "qt": 3,
+          "val": 164.7,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "cortado": false,
+          "codprod": "129",
+          "codfilial": "1",
+          "pvenda": 54.9
+        },
+        {
+          "desc": "APERITIVO CAMPARI 998ML",
+          "industria": "CAMPARI",
+          "qt": 2,
+          "val": 99.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "447",
+          "codfilial": "1",
+          "pvenda": 49.9
+        },
+        {
+          "desc": "CACHAÇA SAO FRANCISCO 970ML",
+          "industria": "PERNOD",
+          "qt": 3,
+          "val": 65.7,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "cortado": false,
+          "codprod": "3668",
+          "codfilial": "1",
+          "pvenda": 21.9
         }
       ],
       "tem_corte": false
@@ -171126,7 +171990,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "388001085",
@@ -173294,7 +174158,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE",
+      "status_log": "",
       "motivo_codprod": "3",
       "motivo_produto": "RED BULL 24X250ML",
       "motivo_preco_digitado": 196.56,
@@ -173445,7 +174309,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE",
+      "status_log": "",
       "motivo_codprod": "378",
       "motivo_produto": "GUARAVITA NATURAL 24X290ML",
       "motivo_preco_digitado": 22.9,
@@ -173680,7 +174544,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE",
+      "status_log": "",
       "motivo_codprod": "64",
       "motivo_produto": "CONHAQUE DOMECQ 1L",
       "motivo_preco_digitado": 29.9,
@@ -173800,7 +174664,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "275000494",
@@ -173835,7 +174699,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "438000070",
@@ -174392,7 +175256,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "439000147",
@@ -174427,7 +175291,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "588002482",
@@ -174574,7 +175438,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "275000471",
