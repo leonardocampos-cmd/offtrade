@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "07/08/2026 15:10",
-  "total": 22306,
+  "atualizado_em": "07/08/2026 15:27",
+  "total": 22309,
   "clientes": [
     {
       "codcli": "38586",
@@ -40955,7 +40955,7 @@ const CLIENTES_RCA_DATA = {
       "cidade": "RIO DE JANEIRO",
       "cnpj": "28.190.046/0001-30",
       "estado": "RJ",
-      "ramo": "MERCADO",
+      "ramo": "BANCA DE JORNAL",
       "key_account": false,
       "rede": "",
       "codusur1": "378",
@@ -56180,6 +56180,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "52343",
+      "razao": "ATALAIA COMERCIO ATACADISTA DE PRODUTOS ALIMENTICIOS LTDA",
+      "fantasia": "ATALAIA COMERCIO ATACADISTA DE PRODUTOS ALIMENTICIOS LTDA",
+      "bairro": "JARDIM IRMÃ DOLORES",
+      "cidade": "SAO VICENTE",
+      "cnpj": "47.484.995/0001-77",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "500",
+      "nome_usur1": "PAULO MOREIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "71169",
       "razao": "ATALIBA COMERCIO E SERVICOS LTDA",
       "fantasia": "ATALIBA COMERCIO E SERVICOS LTDA",
@@ -70656,8 +70672,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "433",
       "nome_usur1": "MANUELA ZAPPACOSTA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "486",
+      "nome_usur2": "LEONARDO FLOREZI - OFF TRADE"
     },
     {
       "codcli": "3274",
@@ -79522,6 +79538,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "94616",
+      "razao": "BRUNA VIEIRA MESQUITA 13118532785 (CNPJ INAPTO)",
+      "fantasia": "BRUNA VIEIRA",
+      "bairro": "CIDADE DE DEUS",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "35.965.172/0001-84",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "10",
+      "nome_usur1": "INATIVO3",
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "32909",
@@ -324528,6 +324560,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "508",
       "nome_usur1": "PAULO SALES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52341",
+      "razao": "SUPERMERCADO IRMAOS COSTA LTDA",
+      "fantasia": "SUPERMERCADO IRMAOS COSTA LTDA",
+      "bairro": "CENTRO",
+      "cidade": "SAO VICENTE",
+      "cnpj": "07.188.408/0002-69",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "500",
+      "nome_usur1": "PAULO MOREIRA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
