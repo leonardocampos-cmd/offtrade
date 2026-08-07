@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "07/08/2026 11:05",
+  "atualizado_em": "07/08/2026 11:16",
   "data_rota": "07.08",
   "vendedores": [
     {
@@ -1843,36 +1843,6 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
-        {
-          "numped": "153001360",
-          "numnota": "",
-          "data": "07/08/2026",
-          "cliente": "MERCADO JARDINS DA ILHA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "entregar dia 10/08 com pagamento de descarga no valor de R$35,00",
-          "total": 402.36,
-          "itens": [
-            {
-              "desc": "NECTAR MISTO UVA E PERA 12X1000ML",
-              "qt": 3,
-              "val": 172.44
-            },
-            {
-              "desc": "NECTAR MANGA 12X1000ML",
-              "qt": 3,
-              "val": 172.44
-            },
-            {
-              "desc": "NECTAR PESSEGO 12X1000ML",
-              "qt": 1,
-              "val": 57.48
-            }
-          ]
-        },
         {
           "numped": "153001356",
           "numnota": "",
@@ -3907,6 +3877,11 @@ const ENTREGAS_DATA = {
           "total": 466.2,
           "itens": [
             {
+              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+              "qt": 5,
+              "val": 332.5
+            },
+            {
               "desc": "VODCA SMIRNOFF RED 998 ML",
               "qt": 2,
               "val": 55.8
@@ -3915,11 +3890,6 @@ const ENTREGAS_DATA = {
               "desc": "WHISKY J WALKER RED LABEL 1L",
               "qt": 1,
               "val": 77.9
-            },
-            {
-              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
-              "qt": 5,
-              "val": 332.5
             }
           ]
         }
