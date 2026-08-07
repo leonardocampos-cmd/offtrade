@@ -10,8 +10,18 @@ Só as páginas em PAGINAS_MANUAIS (raiox_*, catálogo, amarula, clientes
 inativos por nome) não fazem parte do ciclo horário do main.py — ficam
 marcadas como "Manual" (neutro) em vez de Crítico, pra não gerar alarme
 falso num dado que é normal ficar dias sem atualizar.
+
+PAGINAS_VPS_ONLY (metas/vendas/fontes_status, geradas por exportacao_meta.py
+e afins) rodam num cron próprio só na VPS desde 2026-08-05 (a cada 15min,
+ver main.py) — no PC local (OFFTRADE_RUNTIME != "vps") esses arquivos nunca
+mais atualizam por design, então também viram "Manual" aqui pra não repetir
+o falso alarme "Crítico" toda hora (confirmado em 2026-08-07: local dizia
+29h parado enquanto a cópia na VPS tinha 8min). Na própria VPS
+(OFFTRADE_RUNTIME == "vps") continuam classificadas normalmente, porque lá
+é onde a staleness de verdade importa.
 """
 import json
+import os
 import re
 import subprocess
 from datetime import datetime
@@ -28,6 +38,13 @@ PAGINAS_MANUAIS = {
     "raiox_industria_detalhe_data.js",
     "catalogo_data.js", "amarula_data.js", "clientes_inativos_nome_data.js",
 }
+
+PAGINAS_VPS_ONLY = {
+    "metas_data.js", "vendas_data.js", "vendas_es_data.js",
+    "vendas_mg_data.js", "vendas_sp_data.js", "fontes_status_data.js",
+}
+if os.getenv("OFFTRADE_RUNTIME", "local") != "vps":
+    PAGINAS_MANUAIS = PAGINAS_MANUAIS | PAGINAS_VPS_ONLY
 
 # Excluídos por não serem payload de página (dado de apoio consumido por
 # outras páginas, sem timestamp próprio relevante) ou por serem gerados só

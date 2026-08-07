@@ -197,6 +197,12 @@
   <select id="sel-vendedor" onchange="onVendedorChange()">
     <option value="">Todos os Vendedores</option>
   </select>
+  <div class="ms-data" id="ms-mes">
+    <button type="button" class="ms-toggle" id="ms-mes-toggle" onclick="toggleMesPanel(event)">
+      <span id="ms-mes-label">Todos os Meses</span><span>▾</span>
+    </button>
+    <div class="ms-panel hidden" id="ms-mes-panel"></div>
+  </div>
   <div class="ms-data" id="ms-data">
     <button type="button" class="ms-toggle" id="ms-data-toggle" onclick="toggleDataPanel(event)">
       <span id="ms-data-label">Todas as Datas</span><span>▾</span>
@@ -259,6 +265,7 @@ const THEAD_PADRAO = `
   <th id="th-nf" class="hide-mob" onclick="ordenarPor('numnota')">NF</th>
   <th onclick="ordenarPor('data')">Data</th>
   <th class="hide-mob" onclick="ordenarPor('nome')">Vendedor</th>
+  <th class="hide-mob" onclick="ordenarPor('estado')">Estado</th>
   <th onclick="ordenarPor('cliente')">Cliente</th>
   <th id="th-extra"></th>
   <th onclick="ordenarPor('total')">Total</th>
@@ -267,6 +274,7 @@ const THEAD_PADRAO = `
 const THEAD_CORTADOS = `
   <th onclick="ordenarPor('data')">Data</th>
   <th class="hide-mob" onclick="ordenarPor('nome')">Vendedor</th>
+  <th class="hide-mob" onclick="ordenarPor('estado')">Estado</th>
   <th onclick="ordenarPor('cliente')">Cliente</th>
   <th class="hide-mob" onclick="ordenarPor('numped')">Pedido</th>
   <th onclick="ordenarPor('desc')">Produto</th>
@@ -305,6 +313,7 @@ let _ordem = { campo: 'data', asc: false };
 let _expandidos = new Set();
 let _datasSelecionadas = new Set();
 let _statusSelecionados = new Set();
+let _mesesSelecionados = new Set();
 
 const STATUS_OPCOES = [
   { valor: 'pendente',  label: 'Pendente' },
@@ -368,8 +377,8 @@ function montarStatusLog() {
 }
 
 function _totalColunas() {
-  if (_abaAtual === 'produtos_cortados') return 7;
-  return _abaAtual === 'pedidos_feitos' ? 7 : 8;
+  if (_abaAtual === 'produtos_cortados') return 8;
+  return _abaAtual === 'pedidos_feitos' ? 8 : 9;
 }
 
 function trocarAba(chave) {
@@ -377,12 +386,86 @@ function trocarAba(chave) {
   _expandidos.clear();
   montarTabs();
   montarEstados();
+  montarMeses();
   montarStatusLog();
   aplicarFiltro();
 }
 
 function _listaAtual() {
   return DATA ? (DATA[_abaAtual] || []) : [];
+}
+
+const MES_NOMES = ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'];
+
+function _labelMes(m) {
+  const [ano, mm] = m.split('-');
+  return `${MES_NOMES[parseInt(mm, 10) - 1]}/${ano}`;
+}
+
+function montarMeses() {
+  const meses = [...new Set(_listaAtual().map(p => (p.data_ord || '').slice(0, 7)))]
+    .filter(Boolean).sort().reverse();
+
+  // Descarta seleções que sumiram da base atual (troca de aba/outro filtro)
+  const mesesDisponiveis = new Set(meses);
+  [..._mesesSelecionados].forEach(m => { if (!mesesDisponiveis.has(m)) _mesesSelecionados.delete(m); });
+
+  const panel = document.getElementById('ms-mes-panel');
+  if (!meses.length) {
+    panel.innerHTML = '<div class="ms-empty">Nenhum mês disponível.</div>';
+  } else {
+    const acoes = `<div class="ms-actions">
+      <button type="button" onclick="_selecionarTodosMeses()">Selecionar todos</button>
+      <button type="button" onclick="_limparMeses()">Limpar</button>
+    </div>`;
+    const opts = meses.map(m => `
+      <label class="ms-option">
+        <input type="checkbox" value="${m}" ${_mesesSelecionados.has(m) ? 'checked' : ''} onchange="_toggleMes('${m}', this.checked)">
+        ${_labelMes(m)}
+      </label>`).join('');
+    panel.innerHTML = acoes + opts;
+  }
+  _atualizarLabelMeses();
+}
+
+function _toggleMes(m, checked) {
+  if (checked) _mesesSelecionados.add(m); else _mesesSelecionados.delete(m);
+  _atualizarLabelMeses();
+  aplicarFiltro();
+}
+
+function _selecionarTodosMeses() {
+  document.querySelectorAll('#ms-mes-panel input[type=checkbox]').forEach(cb => {
+    cb.checked = true;
+    _mesesSelecionados.add(cb.value);
+  });
+  _atualizarLabelMeses();
+  aplicarFiltro();
+}
+
+function _limparMeses() {
+  _mesesSelecionados.clear();
+  document.querySelectorAll('#ms-mes-panel input[type=checkbox]').forEach(cb => cb.checked = false);
+  _atualizarLabelMeses();
+  aplicarFiltro();
+}
+
+function _atualizarLabelMeses() {
+  const label = document.getElementById('ms-mes-label');
+  const n = _mesesSelecionados.size;
+  if (n === 0) {
+    label.textContent = 'Todos os Meses';
+  } else if (n === 1) {
+    label.textContent = _labelMes([..._mesesSelecionados][0]);
+  } else {
+    label.textContent = `${n} meses selecionados`;
+  }
+}
+
+function toggleMesPanel(ev) {
+  ev.stopPropagation();
+  document.getElementById('ms-mes-panel').classList.toggle('hidden');
+  document.getElementById('ms-mes-toggle').classList.toggle('open');
 }
 
 function montarEstados() {
@@ -605,6 +688,11 @@ document.addEventListener('click', (ev) => {
     document.getElementById('ms-status-panel').classList.add('hidden');
     document.getElementById('ms-status-toggle').classList.remove('open');
   }
+  const wrapMes = document.getElementById('ms-mes');
+  if (wrapMes && !wrapMes.contains(ev.target)) {
+    document.getElementById('ms-mes-panel').classList.add('hidden');
+    document.getElementById('ms-mes-toggle').classList.remove('open');
+  }
 });
 
 function onEstadoChange() {
@@ -649,13 +737,14 @@ function _filtrados() {
     const matchGerente    = !gerente || p.gerente === gerente;
     const matchSupervisor = !supervisor || p.supervisor === supervisor;
     const matchVendedor   = !vendedor || p.nome === vendedor;
+    const matchMes        = _mesesSelecionados.size === 0 || _mesesSelecionados.has((p.data_ord || '').slice(0, 7));
     const matchData       = _datasSelecionadas.size === 0 || _datasSelecionadas.has(p.data_ord);
     const matchAgendado   = !agendamento || (agendamento === 'sim' ? !!_agendamento(p.obs) : !_agendamento(p.obs));
     const matchStatus     = _abaAtual !== 'pedidos_feitos' || _statusSelecionados.size === 0 || _statusSelecionados.has(_statusPosicao(p.posicao));
     const matchStatusLog  = !statusLog || (p.status_log || '(sem status)') === statusLog;
     const matchBusca = !busca || [p.cliente, p.numped, p.numnota]
       .some(v => v && String(v).toLowerCase().includes(busca));
-    return matchEstado && matchGerente && matchSupervisor && matchVendedor && matchData && matchAgendado && matchStatus && matchStatusLog && matchBusca;
+    return matchEstado && matchGerente && matchSupervisor && matchVendedor && matchMes && matchData && matchAgendado && matchStatus && matchStatusLog && matchBusca;
   });
   const { campo, asc } = _ordem;
   const campoOrd = campo === 'data' ? 'data_ord' : campo;
@@ -712,6 +801,7 @@ function aplicarFiltro() {
       <tr class="linha-pedido" style="cursor:default">
         <td>${_esc(p.data)}</td>
         <td class="hide-mob"><span class="rca-badge">${_esc((p.nome || '').replace(' - OFF TRADE', ''))}</span></td>
+        <td class="hide-mob">${_esc(p.estado)}</td>
         <td>${_esc(p.cliente)}</td>
         <td class="cod hide-mob">${_esc(p.numped)}</td>
         <td>${_esc(p.desc)}</td>
@@ -735,6 +825,7 @@ function aplicarFiltro() {
       ${mostraNf ? `<td class="cod hide-mob">${_esc(p.numnota) || '—'}</td>` : ''}
       <td>${_esc(p.data)}</td>
       <td class="hide-mob"><span class="rca-badge">${_esc((p.nome || '').replace(' - OFF TRADE',''))}</span></td>
+      <td class="hide-mob">${_esc(p.estado)}</td>
       <td>${_esc(p.cliente)}${agendado ? ` <span class="badge-agendado">📅 ${agendado}</span>` : ''}${(_abaAtual === 'faturados' && p.tem_corte) ? ` <span class="badge-corte">✂ CORTE PARCIAL</span>` : ''}${_abaAtual === 'pedidos_feitos' ? _posicaoBadge(p.posicao) : ''}</td>
       <td>${abaInfo.colExtra.render(p)}</td>
       <td>${brl(p.total)}</td>
@@ -841,10 +932,11 @@ function exportarCSV() {
   const lista = _filtrados();
 
   if (_abaAtual === 'produtos_cortados') {
-    const header = ['Data', 'Vendedor', 'Cliente', 'Pedido', 'Produto', 'Indústria', 'Qtd Cortada', 'Qtd Pedida', 'Saldo Estoque'];
+    const header = ['Data', 'Vendedor', 'Estado', 'Cliente', 'Pedido', 'Produto', 'Indústria', 'Qtd Cortada', 'Qtd Pedida', 'Saldo Estoque'];
     const linhas = lista.map(p => [
       p.data,
       (p.nome || '').replace(' - OFF TRADE', ''),
+      p.estado,
       p.cliente,
       p.numped,
       p.desc,
@@ -865,16 +957,23 @@ function exportarCSV() {
   }
 
   const abaInfo = ABAS.find(a => a.chave === _abaAtual);
-  const header = ['Pedido','NF','Data','Vendedor','Cliente', abaInfo.colExtra.label, 'Total'];
-  const linhas = lista.map(p => [
-    p.numped,
-    p.numnota,
-    p.data,
-    (p.nome || '').replace(' - OFF TRADE',''),
-    p.cliente,
-    p[abaInfo.colExtra.campo],
-    p.total,
-  ].map(v => `"${String(v??'').replace(/"/g,'""')}"`).join(';'));
+  const header = ['Pedido','NF','Data','Vendedor','Estado','Cliente', abaInfo.colExtra.label, 'Produto', 'Qtd', 'Valor Produto', 'Total Pedido'];
+  const linhas = lista.flatMap(p => {
+    const itens = (p.itens && p.itens.length) ? p.itens : [{ desc: '', qt: '', val: '' }];
+    return itens.map(it => [
+      p.numped,
+      p.numnota,
+      p.data,
+      (p.nome || '').replace(' - OFF TRADE',''),
+      p.estado,
+      p.cliente,
+      p[abaInfo.colExtra.campo],
+      it.desc,
+      it.qt,
+      it.val,
+      p.total,
+    ].map(v => `"${String(v??'').replace(/"/g,'""')}"`).join(';'));
+  });
 
   const csv = '﻿' + [header.join(';'), ...linhas].join('\r\n');
   const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });

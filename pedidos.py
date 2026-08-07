@@ -561,7 +561,8 @@ def _extrair_cortados(pedidos_agrupados):
     return out
 
 
-_faturados_agrupados = _agrupar(_faturados, com_status_log=True)
+_faturados_agrupados  = _agrupar(_faturados, com_status_log=True)
+_cancelados_agrupados = _agrupar(_cancelados)
 
 payload = {
     'atualizado_em':        datetime.now().strftime('%d/%m/%Y %H:%M'),
@@ -569,9 +570,12 @@ payload = {
     'fontes_indisponiveis': _fontes_indisponiveis,
     'pedidos_feitos':       _agrupar(_feitos),
     'faturados':            _faturados_agrupados,
-    'cancelados':           _agrupar(_cancelados),
+    'cancelados':           _cancelados_agrupados,
+    # Corte parcial (entregou parte) vem de Faturados; corte total (pedido
+    # inteiro cortado) vem de Cortados/Cancelados — os dois têm que entrar
+    # aqui, senão a aba "Produtos Cortados" só mostra metade dos cortes.
     'produtos_cortados':    sorted(
-        _extrair_cortados(_faturados_agrupados),
+        _extrair_cortados(_faturados_agrupados) + _extrair_cortados(_cancelados_agrupados),
         key=lambda r: r['data_ord'], reverse=True
     ),
 }
