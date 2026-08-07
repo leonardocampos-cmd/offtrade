@@ -110,10 +110,14 @@ _RE_MOTIVO_DESCONTO = re.compile(r'desconto acima do permitido\s*:\s*(\d+)', re.
 
 
 def _motivo_enriquecido(motivo, codprod_linha, descricao_linha, pvenda_linha):
-    """Se o motivo citar um CODPROD com preço de tabela conhecido, monta
-    '<motivo> — <produto> (digitado R$ x · tabela R$ y)'. Senão devolve o
-    motivo cru (bloqueio por crédito, cliente bloqueado etc. não tem preço
-    pra comparar)."""
+    """Se o motivo citar um CODPROD que bate com a linha do item, monta
+    '<motivo> — <produto> (digitado R$ x · tabela R$ y)'. Se o produto não
+    tiver preço de tabela cadastrado (fora do RJ, não cadastrado na
+    planilha etc.), mostra só '<motivo> — <produto> (digitado R$ x)' — nome
+    e preço digitado sempre que disponíveis, tabela só quando existir.
+    Devolve o motivo cru se não for bloqueio por desconto ou não achar a
+    linha citada (bloqueio por crédito, cliente bloqueado etc. não tem
+    preço pra comparar)."""
     m = _RE_MOTIVO_DESCONTO.search(motivo or '')
     if not m:
         return motivo or '(motivo não informado)'
@@ -121,12 +125,10 @@ def _motivo_enriquecido(motivo, codprod_linha, descricao_linha, pvenda_linha):
     if str(codprod_linha) != codprod_motivo or pd.isna(pvenda_linha):
         return motivo
     pt = _preco_tabela(codprod_motivo)
-    if pt is None:
-        return motivo
-    return (
-        f"{motivo.strip()} — {descricao_linha} "
-        f"(digitado {_fmt_brl(pvenda_linha)} · tabela {_fmt_brl(pt)})"
-    )
+    preco_txt = f"digitado {_fmt_brl(pvenda_linha)}"
+    if pt is not None:
+        preco_txt += f" · tabela {_fmt_brl(pt)}"
+    return f"{motivo.strip()} — {descricao_linha} ({preco_txt})"
 
 
 def _fmt_brl(v):
