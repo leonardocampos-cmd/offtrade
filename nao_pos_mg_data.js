@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "07/08/2026 15:10",
+  "atualizado_em": "07/08/2026 15:26",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -728,13 +728,6 @@ const NAO_POS_MG_DATA = {
         "bairro": "KENNEDY",
         "dtultcomp": "nan",
         "produtos": []
-      },
-      {
-        "codcli": "39665",
-        "cliente": "OESA COMERCIO E REPRESENTACOES S/A",
-        "bairro": "TAPERA",
-        "dtultcomp": "nan",
-        "produtos": []
       }
     ],
     "JETER LUCIO SOARES": [
@@ -771,32 +764,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37327",
-        "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "CENTRO",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 514.8
-          },
-          {
-            "produto": "VINHO FOODKILLER CAB SAUV MERLOT 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 293.4
-          },
-          {
-            "produto": "VODKA ORLOFF 1L - DEST",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 245.04
-          }
-        ]
-      },
-      {
         "codcli": "37330",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "NOVA ERA",
@@ -813,6 +780,32 @@ const NAO_POS_MG_DATA = {
             "fantasia": "CASTAS",
             "qt": 6,
             "valor": 257.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 245.04
+          }
+        ]
+      },
+      {
+        "codcli": "37327",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "CENTRO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 514.8
+          },
+          {
+            "produto": "VINHO FOODKILLER CAB SAUV MERLOT 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 293.4
           },
           {
             "produto": "VODKA ORLOFF 1L - DEST",
@@ -2861,70 +2854,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "31812",
-        "cliente": "ELTON MUNHOZ DIAS JUNIOR",
-        "bairro": "JARDIM ATLANTICO",
-        "dtultcomp": "17/07/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK  RED BULL",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 31.96
-          },
-          {
-            "produto": "4 PACK RED BULL TROPICAL",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 31.96
-          },
-          {
-            "produto": "APERITIVO CAMPARI 998 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 109.8
-          },
-          {
-            "produto": "CONHAQUE DOMECQ 1L",
-            "fantasia": "PERNOD",
-            "qt": 2,
-            "valor": 99.8
-          }
-        ]
-      },
-      {
-        "codcli": "32902",
-        "cliente": "LANCHERIA CANTINA AZUL LTDA",
-        "bairro": "SAVASSI",
-        "dtultcomp": "17/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA COLHEITA TINTO  750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 449.4
-          },
-          {
-            "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
-            "fantasia": "CASTAS",
-            "qt": 24,
-            "valor": 453.6
-          },
-          {
-            "produto": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
-            "fantasia": "CASTAS",
-            "qt": 24,
-            "valor": 453.6
-          },
-          {
-            "produto": "VINHO GRAVEDAD CAB. SAUV.",
-            "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 478.8
-          }
-        ]
-      },
-      {
         "codcli": "33260",
         "cliente": "IR MULTI CONFECCOES LTDA",
         "bairro": "ESTORIL",
@@ -4145,38 +4074,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "31722",
-        "cliente": "THAYANE MICELE SILVA MATOS VIANA",
-        "bairro": "INGÁ",
-        "dtultcomp": "31/07/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 10,
-            "valor": 1917.6
-          },
-          {
-            "produto": "RED BULL MAÇA SF 250ML  C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 5,
-            "valor": 958.8
-          },
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 5,
-            "valor": 958.8
-          },
-          {
-            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 5,
-            "valor": 958.8
-          }
-        ]
-      },
-      {
         "codcli": "39591",
         "cliente": "ANICETO GASTRONOMIA LTDA",
         "bairro": "MARIA ANTONIETA MELLO AZEVEDO (SÃO BENEDITO)",
@@ -4634,44 +4531,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "34017",
-        "cliente": "MERCANTIL BASTOS LTDA",
-        "bairro": "JARDIM PRIMAVERA L",
-        "dtultcomp": "23/04/2026",
-        "produtos": [
-          {
-            "produto": "VINHO LATITUD 33 CABERNET SAUVIGNON",
-            "fantasia": "LVMH",
-            "qt": 12,
-            "valor": 586.8
-          },
-          {
-            "produto": "VINHO LATITUD 33 CHARDONNAY 750 ML",
-            "fantasia": "LVMH",
-            "qt": 12,
-            "valor": 586.8
-          },
-          {
-            "produto": "VINHO LATITUD 33 MALBEC ROSE",
-            "fantasia": "LVMH",
-            "qt": 18,
-            "valor": 880.2
-          },
-          {
-            "produto": "VINHO LATITUD 33 MALBEC TTO 750 ML",
-            "fantasia": "LVMH",
-            "qt": 12,
-            "valor": 586.8
-          },
-          {
-            "produto": "VINHO LATITUD 33 SAUVIGNON BLANC",
-            "fantasia": "LVMH",
-            "qt": 12,
-            "valor": 586.8
-          }
-        ]
-      },
-      {
         "codcli": "33265",
         "cliente": "SUPERMERCADO PARANAIBA BELA VISTA LTDA",
         "bairro": "BELA VISTA",
@@ -4782,32 +4641,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "DIAGEO",
             "qt": 3,
             "valor": 159.45
-          }
-        ]
-      },
-      {
-        "codcli": "29896",
-        "cliente": "NACIONAL PARANAIBA ALIMENTOS EIRELI",
-        "bairro": "SÃO JANUÁRIO (JUSTINÓPOLIS)",
-        "dtultcomp": "16/06/2026",
-        "produtos": [
-          {
-            "produto": "XAROPE  MONIN  MAÇA VERDE 330 ML",
-            "fantasia": "MONIN",
-            "qt": 3,
-            "valor": 68.7
-          },
-          {
-            "produto": "XAROPE MONIN MARACUJA 330 ML",
-            "fantasia": "MONIN",
-            "qt": 3,
-            "valor": 68.7
-          },
-          {
-            "produto": "XAROPE MONIN MORANGO 330 ML",
-            "fantasia": "MONIN",
-            "qt": 3,
-            "valor": 68.7
           }
         ]
       },
