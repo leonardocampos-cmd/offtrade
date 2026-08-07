@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "07/08/2026 17:14",
+  "atualizado_em": "07/08/2026 17:33",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -3583,32 +3583,6 @@ const NAO_POS_SP_DATA = {
     ],
     "CARLOS DE ALMEIDA": [
       {
-        "codcli": "49835",
-        "cliente": "CLAYTON PEREIRA MEDINA MERCADINHO, PADARIA E LANCHONETE",
-        "bairro": "PARAISÓPOLIS",
-        "dtultcomp": "28/04/2026",
-        "produtos": [
-          {
-            "produto": "CATUABA SELVAGEM 900ML",
-            "fantasia": "COMARY",
-            "qt": 12,
-            "valor": 154.8
-          },
-          {
-            "produto": "VODKA ABSOLUT 1L",
-            "fantasia": "PERNOD",
-            "qt": 3,
-            "valor": 161.7
-          },
-          {
-            "produto": "VODKA GREY GOOSE ORIGINAL 750 ML",
-            "fantasia": "BACARDI",
-            "qt": 6,
-            "valor": 534.36
-          }
-        ]
-      },
-      {
         "codcli": "49836",
         "cliente": "CLAYTON PEREIRA MEDINA MERCADINHO, PADARIA E LANCHONETE",
         "bairro": "PARAISÓPOLIS",
@@ -3625,6 +3599,32 @@ const NAO_POS_SP_DATA = {
             "fantasia": "PERNOD",
             "qt": 2,
             "valor": 107.8
+          },
+          {
+            "produto": "VODKA GREY GOOSE ORIGINAL 750 ML",
+            "fantasia": "BACARDI",
+            "qt": 6,
+            "valor": 534.36
+          }
+        ]
+      },
+      {
+        "codcli": "49835",
+        "cliente": "CLAYTON PEREIRA MEDINA MERCADINHO, PADARIA E LANCHONETE",
+        "bairro": "PARAISÓPOLIS",
+        "dtultcomp": "28/04/2026",
+        "produtos": [
+          {
+            "produto": "CATUABA SELVAGEM 900ML",
+            "fantasia": "COMARY",
+            "qt": 12,
+            "valor": 154.8
+          },
+          {
+            "produto": "VODKA ABSOLUT 1L",
+            "fantasia": "PERNOD",
+            "qt": 3,
+            "valor": 161.7
           },
           {
             "produto": "VODKA GREY GOOSE ORIGINAL 750 ML",
@@ -4037,26 +4037,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "48421",
-        "cliente": "REDE PLUS SUPERMERCADOS LTDA",
-        "bairro": "VILA FANTON",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "CONHAQUE DOMECQ 1L",
-            "fantasia": "PERNOD",
-            "qt": 6,
-            "valor": 167.4
-          },
-          {
-            "produto": "WHISKEY JACK DANIELS HONEY 1 L",
-            "fantasia": "BROWN",
-            "qt": 3,
-            "valor": 299.7
-          }
-        ]
-      },
-      {
         "codcli": "48422",
         "cliente": "REDE PLUS SUPERMERCADOS LTDA",
         "bairro": "PIRITUBA",
@@ -4115,6 +4095,26 @@ const NAO_POS_SP_DATA = {
             "fantasia": "BEAM SUNTORY BRASIL",
             "qt": 3,
             "valor": 188.7
+          }
+        ]
+      },
+      {
+        "codcli": "48421",
+        "cliente": "REDE PLUS SUPERMERCADOS LTDA",
+        "bairro": "VILA FANTON",
+        "dtultcomp": "30/06/2026",
+        "produtos": [
+          {
+            "produto": "CONHAQUE DOMECQ 1L",
+            "fantasia": "PERNOD",
+            "qt": 6,
+            "valor": 167.4
+          },
+          {
+            "produto": "WHISKEY JACK DANIELS HONEY 1 L",
+            "fantasia": "BROWN",
+            "qt": 3,
+            "valor": 299.7
           }
         ]
       },
@@ -5033,13 +5033,6 @@ const NAO_POS_SP_DATA = {
         "codcli": "51423",
         "cliente": "COMPRA FACIL SUPERMERCADOS LTDA",
         "bairro": "ITAQUERA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "52328",
-        "cliente": "SESC PAES E DOCES INDUSTRIA DE PANIFICACAO LTDA",
-        "bairro": "CIDADE BOA VISTA",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -19154,13 +19147,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "52268",
-        "cliente": "ADEGA OPEN II LTDA",
-        "bairro": "VILA TALARICO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "51889",
         "cliente": "DT COMERCIO ATACADISTA LTDA.",
         "bairro": "ROCHDALE",
@@ -19175,16 +19161,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "52123",
+        "codcli": "52126",
         "cliente": "SUPERMERCADO CKJ LTDA",
-        "bairro": "JARDIM MIRANTE",
+        "bairro": "CHÁCARA DO SOLAR I (FAZENDINHA)",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "52126",
+        "codcli": "52123",
         "cliente": "SUPERMERCADO CKJ LTDA",
-        "bairro": "CHÁCARA DO SOLAR I (FAZENDINHA)",
+        "bairro": "JARDIM MIRANTE",
         "dtultcomp": "nan",
         "produtos": []
       }
