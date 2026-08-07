@@ -11,6 +11,33 @@
 const _AUTH_HASH = 'b4ba917b95850dc43cce91dba3be9fd1a4f029e18b81d6846a7183839c81d8dd';
 const _AUTH_KEY  = 'rg_auth';
 
+// Mesma lista de login.html (EMAILS_OK) — as 30 páginas que incluem
+// auth.js são só-gestor de propósito (pedidos.html, agendamento.html etc,
+// ver memória "vendedores_auth_vazio_incidente"). Sem checar contra essa
+// lista, o atalho de cookie abaixo promovia QUALQUER sessão autenticada
+// (inclusive vendedor comum, cujo login também grava o cookie
+// offtrade_token) a "rg_auth=HASH" — e várias páginas de vendedor
+// (sp.html/es.html/mg.html/metas.html/login.html) tratam rg_auth===HASH
+// como "é gestor, acesso total", ignorando a restrição por RCA. Confirmado
+// em 2026-08-07: RCA 588 (W.S) acessou pedidos.html (só-gestor) 3 vezes.
+const _GESTORES_PERMITIDOS = [
+  'danielle.soares@rigarr.com.br',
+  'allan.correa@rigarr.com.br',
+  'leonardo.campos@rigarr.com.br',
+  'alexsandro.nunes@rigarr.com.br',
+  'giovani.cabral@rigarr.com.br',
+  'kaliel.caro@rigarr.com.br',
+  'artur.furlan@rigarr.com.br',
+  'daniel.diniz@rigarr.com.br',
+  'marcus.tanamachi@rigarr.com.br',
+  'geovanna.lescano@rigarr.com.br',
+  'fernando.risson@rigarr.com.br',
+  'erocles.oliveira@rigarr.com.br',
+  'andre.massensini@rigarr.com.br',
+  'priscilla.zambrano@rigarr.com.br',
+  'anderson.canaveis@rigarr.com.br',
+];
+
 async function _sha256(str) {
   const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
   return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
@@ -47,9 +74,12 @@ function _decodeEmailFromCookie() {
   // Credito_e_Cadastro) caía de novo em login.html mesmo já autenticado: o
   // gate daqui é sessionStorage, que é por aba e nunca foi setado numa aba
   // que só passou pelo Streamlit (confirmado em 2026-08-04). Cookie presente
-  // já prova login válido — marca o gate local também, senão repetiria essa
-  // checagem a cada navegação nessa aba.
-  if (_getCookie('offtrade_token')) {
+  // já prova login válido — mas só marca o gate de gestor se o e-mail do
+  // token for mesmo de gestor (ver _GESTORES_PERMITIDOS acima); vendedor com
+  // cookie válido (login normal dele) cai no else e vai pro login.html, que
+  // já sabe redirecionar pra metas.html dele (sessionStorage.rg_vendedor).
+  const _email = _decodeEmailFromCookie();
+  if (_email && _GESTORES_PERMITIDOS.includes(_email)) {
     sessionStorage.setItem(_AUTH_KEY, _AUTH_HASH);
     // Sem isso, rg_email fica vazio nessa aba (só login.html setava) — as
     // páginas "só pra gestor" (base_ataque_vinhos.html, raiox_clientes_risco.html
@@ -57,8 +87,7 @@ function _decodeEmailFromCookie() {
     // verdade que chegou por esse atalho (confirmado em 2026-08-07, e-mail
     // na lista de gestores mas bloqueado por chegar direto na página, sem
     // passar pelo Google SSO nessa aba).
-    const email = _decodeEmailFromCookie();
-    if (email) sessionStorage.setItem('rg_email', email);
+    sessionStorage.setItem('rg_email', _email);
     return;
   }
 
