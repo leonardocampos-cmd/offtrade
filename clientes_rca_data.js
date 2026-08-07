@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "07/08/2026 11:19",
+  "atualizado_em": "07/08/2026 12:08",
   "total": 22304,
   "clientes": [
     {
@@ -4399,7 +4399,7 @@ const CLIENTES_RCA_DATA = {
       "key_account": false,
       "rede": "",
       "codusur1": "525",
-      "nome_usur1": "EVANDRO DORTA \n- OFF TRADE",
+      "nome_usur1": "EVANDRO DORTA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -191060,22 +191060,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "MARIANA LAGES"
     },
     {
-      "codcli": "38350",
-      "razao": "JOÃO PEDRO RESENDE DE CASTRO PIRAUÁ",
-      "fantasia": "JOÃO PEDRO RESENDE DE CASTRO PIRAUÁ",
-      "bairro": "PAMPULHA",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "095.446.706-02",
-      "estado": "MG",
-      "ramo": "PESSOA FISICA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "85310",
       "razao": "JOÃO TARCÍSIO REBOLI",
       "fantasia": "JOÃO TARCÍSIO REBOLI",
@@ -221584,6 +221568,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52338",
+      "razao": "MARCILANIA GOMES DOS SANTOS - BEBIDAS",
+      "fantasia": "ADEGA FENIX",
+      "bairro": "PORTAL DA OLARIA",
+      "cidade": "SAO SEBASTIAO",
+      "cnpj": "20.789.446/0001-54",
+      "estado": "SP",
+      "ramo": "BAR",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "516",
+      "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
