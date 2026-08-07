@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "07/08/2026 15:29",
+  "atualizado_em": "07/08/2026 15:43",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -7594,15 +7594,6 @@ const INATIVOS_DATA = {
           "cliente": "JV SUPERMERCADOS LTDA",
           "bairro": "ITAIPAVA",
           "cidade": "ITAPEMIRIM",
-          "dtcadastro": "06/08/2026",
-          "dtultcomp": null,
-          "media": 0.0
-        },
-        {
-          "codcli": "95944",
-          "cliente": "JV SUPERMERCADOS LTDA",
-          "bairro": "BARRA DE ITAPEMIRIM",
-          "cidade": "MARATAIZES",
           "dtcadastro": "06/08/2026",
           "dtultcomp": null,
           "media": 0.0
