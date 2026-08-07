@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "07/08/2026 14:29",
+  "atualizado_em": "07/08/2026 14:54",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -4187,6 +4187,13 @@ const NAO_POS_MG_DATA = {
         "codcli": "39649",
         "cliente": "REQUINTE BARTENDER DRINKS LTDA",
         "bairro": "RIACHO DAS PEDRAS",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "38541",
+        "cliente": "RET STEAK HOUSE LTDA",
+        "bairro": "LOURDES",
         "dtultcomp": "nan",
         "produtos": []
       },
