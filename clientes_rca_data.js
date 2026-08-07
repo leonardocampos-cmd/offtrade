@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "07/08/2026 15:27",
-  "total": 22309,
+  "atualizado_em": "07/08/2026 15:41",
+  "total": 22310,
   "clientes": [
     {
       "codcli": "38586",
@@ -146500,22 +146500,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "80714",
-      "razao": "FABRICIO ALVES QUEIROZ",
-      "fantasia": "QUEIROZ COMUNICACAO E EVENTOS",
-      "bairro": "JARDINS",
-      "cidade": "ARACRUZ",
-      "cnpj": "03.622.742/0001-47",
-      "estado": "ES",
-      "ramo": "SERVIÇOS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "74332",
       "razao": "FABRICIO CANCELLIEIRI SATHLER",
       "fantasia": "FABRICIO CANCELLIEIRI SATHLER",
@@ -153250,6 +153234,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "23052",
+      "razao": "FLV COMERCIO DE HORTIFRUTO LTDA",
+      "fantasia": "FLV COMERCIO DE HORTIFRUTO LTDA",
+      "bairro": "PINHEIROS",
+      "cidade": "SAO PAULO",
+      "cnpj": "08.772.290/0001-01",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "391",
+      "nome_usur1": "ANDRE SILVA - OFF TRADE",
+      "codusur2": "300",
+      "nome_usur2": "RAPHAEL MARIANO"
     },
     {
       "codcli": "71947",
@@ -229310,8 +229310,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "156",
+      "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -328350,18 +328350,18 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": true,
       "rede": "SUPERMERCADOS BH",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "388",
+      "nome_usur1": "EUDES MORGAN - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
     {
-      "codcli": "85405",
+      "codcli": "85409",
       "razao": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
       "fantasia": "SUPERMERCADOS BH",
-      "bairro": "CIVIT II",
-      "cidade": "SERRA",
-      "cnpj": "04.641.376/0309-81",
+      "bairro": "IBES",
+      "cidade": "VILA VELHA",
+      "cnpj": "04.641.376/0302-05",
       "estado": "ES",
       "ramo": "MERCADO",
       "key_account": true,
@@ -328400,6 +328400,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "SUPERMERCADOS BH",
       "codusur1": "388",
       "nome_usur1": "EUDES MORGAN - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "85835",
+      "razao": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+      "fantasia": "SUPERMERCADOS BH",
+      "bairro": "JARDIM CAMBURI",
+      "cidade": "VITORIA",
+      "cnpj": "04.641.376/0343-83",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "key_account": true,
+      "rede": "SUPERMERCADOS BH",
+      "codusur1": "10",
+      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
