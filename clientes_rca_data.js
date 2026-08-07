@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "07/08/2026 14:55",
-  "total": 22304,
+  "atualizado_em": "07/08/2026 15:10",
+  "total": 22306,
   "clientes": [
     {
       "codcli": "38586",
@@ -245812,22 +245812,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "81346",
-      "razao": "MIXMARKET MERCEARIA LTDA",
-      "fantasia": "MIX360",
-      "bairro": "CAMORIM",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "58.473.733/0001-23",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "85213",
       "razao": "MJ MERCEARIA LTDA",
       "fantasia": "MERCEARIA & VERDURAO MJ",
@@ -323108,6 +323092,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "FERNANDO RISSON - OFF TRADE"
     },
     {
+      "codcli": "51216",
+      "razao": "SUPERMERCADO BAGARELLI LTDA",
+      "fantasia": "SUPERMERCADO BAGARELLI",
+      "bairro": "VILA NOVA PAULISTA",
+      "cidade": "PEDERNEIRAS",
+      "cnpj": "60.946.985/0001-74",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "491",
+      "nome_usur1": "GILSON DE OLIVEIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "30723",
       "razao": "SUPERMERCADO BAHAMAS S/A",
       "fantasia": "SUPERMERCADO BAHAMAS S/A",
@@ -331458,6 +331458,38 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "4184",
+      "razao": "TALHO CAPIXABA LTDA",
+      "fantasia": "TALHO CAPIXABA",
+      "bairro": "LEBLON",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "33.432.790/0001-33",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "10",
+      "nome_usur1": "INATIVO3",
+      "codusur2": "319",
+      "nome_usur2": "FERNANDA CAMBOIM"
+    },
+    {
+      "codcli": "73312",
+      "razao": "TALHO DELICATESSEN PADARIA E CONFEITARIA LTDA",
+      "fantasia": "TALHO DELICATESSEN",
+      "bairro": "IPANEMA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "26.767.687/0001-89",
+      "estado": "RJ",
+      "ramo": "PADARIA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "10",
+      "nome_usur1": "INATIVO3",
+      "codusur2": "319",
+      "nome_usur2": "FERNANDA CAMBOIM"
     },
     {
       "codcli": "94818",
