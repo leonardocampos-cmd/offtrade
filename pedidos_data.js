@@ -1,5 +1,5 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "07/08/2026 11:05",
+  "atualizado_em": "07/08/2026 11:17",
   "periodo_dias": 90,
   "fontes_indisponiveis": [],
   "pedidos_feitos": [
@@ -678,72 +678,6 @@ const PEDIDOS_DATA = {
       "motivo_preco_tabela": 69.9
     },
     {
-      "numped": "153001360",
-      "numnota": "",
-      "data": "07/08/2026",
-      "data_ord": "2026-08-07",
-      "nome": "ANGELO NEVES SUZART - OFF TRADE",
-      "cliente": "MERCADO JARDINS DA ILHA LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Bloqueado",
-      "motivo": "Item com desconto acima do permitido :5991",
-      "obs": "entregar dia 10/08 com pagamento de descarga no valor de R$35,00",
-      "total": 402.36,
-      "itens": [
-        {
-          "desc": "NECTAR PESSEGO 12X1000ML",
-          "industria": "TIAL",
-          "qt": 1,
-          "val": 57.48,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "5991",
-          "codfilial": "2",
-          "pvenda": 57.48
-        },
-        {
-          "desc": "NECTAR MISTO UVA E PERA 12X1000ML",
-          "industria": "TIAL",
-          "qt": 3,
-          "val": 172.44,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 3.0,
-          "cortado": false,
-          "codprod": "5992",
-          "codfilial": "2",
-          "pvenda": 57.48
-        },
-        {
-          "desc": "NECTAR MANGA 12X1000ML",
-          "industria": "TIAL",
-          "qt": 3,
-          "val": 172.44,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 3.0,
-          "cortado": false,
-          "codprod": "5989",
-          "codfilial": "2",
-          "pvenda": 57.48
-        }
-      ],
-      "tem_corte": false,
-      "motivo_codprod": "5991",
-      "motivo_produto": "NECTAR PESSEGO 12X1000ML",
-      "motivo_preco_digitado": 57.48,
-      "motivo_preco_tabela": 72.69
-    },
-    {
       "numped": "433000225",
       "numnota": "",
       "data": "07/08/2026",
@@ -1039,6 +973,68 @@ const PEDIDOS_DATA = {
           "codprod": "5484",
           "codfilial": "1",
           "pvenda": 8.99
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "426000442",
+      "numnota": "",
+      "data": "07/08/2026",
+      "data_ord": "2026-08-07",
+      "nome": "ADER ALONSO - OFF TRADE",
+      "cliente": "DISTRIBUIDORA DE BEBIDAS E CONVENIENCIA ZERO GRAU LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 20458.2,
+      "itens": [
+        {
+          "desc": "WHISKY JACK DANIELS 1L",
+          "industria": "BROWN",
+          "qt": 120,
+          "val": 12588.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 120.0,
+          "cortado": false,
+          "codprod": "187",
+          "codfilial": "1",
+          "pvenda": 104.9
+        },
+        {
+          "desc": "WHISKY JACK DANIELS APPLE 1L",
+          "industria": "BROWN",
+          "qt": 60,
+          "val": 6594.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 60.0,
+          "cortado": false,
+          "codprod": "2917",
+          "codfilial": "1",
+          "pvenda": 109.9
+        },
+        {
+          "desc": "GIN BEEFEATER BOTANICS 750ML",
+          "industria": "PERNOD",
+          "qt": 18,
+          "val": 1276.2,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 18.0,
+          "cortado": false,
+          "codprod": "3663",
+          "codfilial": "1",
+          "pvenda": 70.9
         }
       ],
       "tem_corte": false
