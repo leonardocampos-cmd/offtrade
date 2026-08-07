@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "07/08/2026 16:57",
+  "atualizado_em": "07/08/2026 17:15",
   "total": 22313,
   "clientes": [
     {
@@ -140068,22 +140068,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "FERNANDA CAMBOIM"
     },
     {
-      "codcli": "3175",
-      "razao": "EQS BAR E LANCHONETE LTDA",
-      "fantasia": "PAO DE QUEIJO - QI09",
-      "bairro": "IPANEMA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "14.447.747/0001-05",
-      "estado": "RJ",
-      "ramo": "QUIOSQUE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "32871",
       "razao": "ER COZINHA ARTESANAL LTDA",
       "fantasia": "ER COZINHA ARTESANAL",
@@ -216800,6 +216784,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52349",
+      "razao": "M.VIGO PRODUTOS ALIMENTICIOS LTDA",
+      "fantasia": "SOBEBE",
+      "bairro": "JARDIM MENINO DEUS I",
+      "cidade": "BEBEDOURO",
+      "cnpj": "05.081.595/0001-70",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "518",
+      "nome_usur1": "PAULO THOMAZI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
