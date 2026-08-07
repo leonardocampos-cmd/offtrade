@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "07/08/2026 16:58",
+  "atualizado_em": "07/08/2026 17:17",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -1468,15 +1468,6 @@ const INATIVOS_DATA = {
           "media": 479.4
         },
         {
-          "codcli": "85795",
-          "cliente": "VILAREJO MATERIAIS DE CONSTRUCAO LTDA",
-          "bairro": "VILA VERDE",
-          "cidade": "CASIMIRO DE ABR",
-          "dtultcomp": "21/05/2026",
-          "dias": 78,
-          "media": 115.6
-        },
-        {
           "codcli": "72031",
           "cliente": "MAÍRA BRIXNER",
           "bairro": "MACEDONIA",
@@ -1484,6 +1475,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "21/05/2026",
           "dias": 78,
           "media": 428.47
+        },
+        {
+          "codcli": "85795",
+          "cliente": "VILAREJO MATERIAIS DE CONSTRUCAO LTDA",
+          "bairro": "VILA VERDE",
+          "cidade": "CASIMIRO DE ABR",
+          "dtultcomp": "21/05/2026",
+          "dias": 78,
+          "media": 115.6
         },
         {
           "codcli": "80310",
@@ -1531,15 +1531,6 @@ const INATIVOS_DATA = {
           "media": 395.2
         },
         {
-          "codcli": "92712",
-          "cliente": "LUA GASTROBAR LTDA",
-          "bairro": "COSTAZUL",
-          "cidade": "RIO DAS OSTRAS",
-          "dtultcomp": "02/06/2026",
-          "dias": 66,
-          "media": 573.53
-        },
-        {
           "codcli": "94014",
           "cliente": "VEICULOS AJX BARAO LTDA",
           "bairro": "VILA ISABEL",
@@ -1547,6 +1538,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "02/06/2026",
           "dias": 66,
           "media": 131.6
+        },
+        {
+          "codcli": "92712",
+          "cliente": "LUA GASTROBAR LTDA",
+          "bairro": "COSTAZUL",
+          "cidade": "RIO DAS OSTRAS",
+          "dtultcomp": "02/06/2026",
+          "dias": 66,
+          "media": 573.53
         },
         {
           "codcli": "81309",
@@ -1711,13 +1711,13 @@ const INATIVOS_DATA = {
           "media": 732.96
         },
         {
-          "codcli": "77983",
-          "cliente": "BELLA COZINHA TERAPIA LTDA",
-          "bairro": "PRAIA DO PECADO",
-          "cidade": "MACAE",
+          "codcli": "80477",
+          "cliente": "EMPORIUM SAN PIETRO COMERCIO DE ALIMENTOS LTDA",
+          "bairro": "JACAREPAGUA",
+          "cidade": "RIO DE JANEIRO",
           "dtultcomp": "07/07/2026",
           "dias": 31,
-          "media": 616.35
+          "media": 229.6
         },
         {
           "codcli": "86013",
@@ -1729,13 +1729,13 @@ const INATIVOS_DATA = {
           "media": 131.6
         },
         {
-          "codcli": "80477",
-          "cliente": "EMPORIUM SAN PIETRO COMERCIO DE ALIMENTOS LTDA",
-          "bairro": "JACAREPAGUA",
-          "cidade": "RIO DE JANEIRO",
+          "codcli": "77983",
+          "cliente": "BELLA COZINHA TERAPIA LTDA",
+          "bairro": "PRAIA DO PECADO",
+          "cidade": "MACAE",
           "dtultcomp": "07/07/2026",
           "dias": 31,
-          "media": 229.6
+          "media": 616.35
         },
         {
           "codcli": "73767",
@@ -6603,22 +6603,13 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [
         {
-          "codcli": "84278",
-          "cliente": "PADARIA PAO DO GENARO LTDA",
-          "bairro": "MINETE",
-          "cidade": "VENDA NOVA DO I",
+          "codcli": "91502",
+          "cliente": "LUCAS TONOLI ANDRADE 17494261702",
+          "bairro": "PARAJU",
+          "cidade": "DOMINGOS MARTIN",
           "dtultcomp": "15/05/2026",
           "dias": 84,
-          "media": 54.93
-        },
-        {
-          "codcli": "83934",
-          "cliente": "COMERCIAL GIUBBINI LTDA",
-          "bairro": "SAO PEDRO",
-          "cidade": "VENDA NOVA DO I",
-          "dtultcomp": "15/05/2026",
-          "dias": 84,
-          "media": 105.28
+          "media": 176.8
         },
         {
           "codcli": "76696",
@@ -6630,13 +6621,22 @@ const INATIVOS_DATA = {
           "media": 244.15
         },
         {
-          "codcli": "91502",
-          "cliente": "LUCAS TONOLI ANDRADE 17494261702",
-          "bairro": "PARAJU",
-          "cidade": "DOMINGOS MARTIN",
+          "codcli": "84823",
+          "cliente": "PANIFICADORA TRIGO DA TERRA LTDA",
+          "bairro": "SAO PEDRO",
+          "cidade": "VENDA NOVA DO I",
           "dtultcomp": "15/05/2026",
           "dias": 84,
-          "media": 176.8
+          "media": 59.33
+        },
+        {
+          "codcli": "83934",
+          "cliente": "COMERCIAL GIUBBINI LTDA",
+          "bairro": "SAO PEDRO",
+          "cidade": "VENDA NOVA DO I",
+          "dtultcomp": "15/05/2026",
+          "dias": 84,
+          "media": 105.28
         },
         {
           "codcli": "93694",
@@ -6648,13 +6648,13 @@ const INATIVOS_DATA = {
           "media": 731.67
         },
         {
-          "codcli": "84823",
-          "cliente": "PANIFICADORA TRIGO DA TERRA LTDA",
-          "bairro": "SAO PEDRO",
+          "codcli": "84278",
+          "cliente": "PADARIA PAO DO GENARO LTDA",
+          "bairro": "MINETE",
           "cidade": "VENDA NOVA DO I",
           "dtultcomp": "15/05/2026",
           "dias": 84,
-          "media": 59.33
+          "media": 54.93
         },
         {
           "codcli": "90523",
@@ -6711,15 +6711,6 @@ const INATIVOS_DATA = {
           "media": 3594.76
         },
         {
-          "codcli": "84007",
-          "cliente": "ISKMANS COMERCIO LTDA",
-          "bairro": "CENTRO",
-          "cidade": "CONCEICAO DO CA",
-          "dtultcomp": "29/05/2026",
-          "dias": 70,
-          "media": 6240.69
-        },
-        {
           "codcli": "95195",
           "cliente": "SUPERMERCADO E PADARIA TRARBACH LTDA",
           "bairro": "CENTRO",
@@ -6729,13 +6720,13 @@ const INATIVOS_DATA = {
           "media": 122.61
         },
         {
-          "codcli": "95194",
-          "cliente": "SUPERMERCADO E PADARIA TRARBACH LTDA",
+          "codcli": "84007",
+          "cliente": "ISKMANS COMERCIO LTDA",
           "bairro": "CENTRO",
-          "cidade": "DOMINGOS MARTIN",
+          "cidade": "CONCEICAO DO CA",
           "dtultcomp": "29/05/2026",
           "dias": 70,
-          "media": 119.6
+          "media": 6240.69
         },
         {
           "codcli": "86069",
@@ -6747,6 +6738,15 @@ const INATIVOS_DATA = {
           "media": 1619.84
         },
         {
+          "codcli": "95194",
+          "cliente": "SUPERMERCADO E PADARIA TRARBACH LTDA",
+          "bairro": "CENTRO",
+          "cidade": "DOMINGOS MARTIN",
+          "dtultcomp": "29/05/2026",
+          "dias": 70,
+          "media": 119.6
+        },
+        {
           "codcli": "93650",
           "cliente": "COBATA COMERCIO E DISTRIBUICAO LTDA",
           "bairro": "TERMINAL INTERMODAL DA SERRA",
@@ -6754,33 +6754,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "08/06/2026",
           "dias": 60,
           "media": 5990.0
-        },
-        {
-          "codcli": "77557",
-          "cliente": "COBATA COMERCIO E DISTRIBUICAO LTDA",
-          "bairro": "TERMINAL INTERMODAL DA SERRA",
-          "cidade": "SERRA",
-          "dtultcomp": "09/06/2026",
-          "dias": 59,
-          "media": 1760.0
-        },
-        {
-          "codcli": "81521",
-          "cliente": "COMERCIAL BAE LTDA",
-          "bairro": "CENTRO",
-          "cidade": "AFONSO CLAUDIO",
-          "dtultcomp": "09/06/2026",
-          "dias": 59,
-          "media": 978.6
-        },
-        {
-          "codcli": "79858",
-          "cliente": "SUPERMERCADOS PAGOTO LTDA",
-          "bairro": "CENTRO",
-          "cidade": "VENDA NOVA DO I",
-          "dtultcomp": "09/06/2026",
-          "dias": 59,
-          "media": 4903.3
         },
         {
           "codcli": "84010",
@@ -6792,6 +6765,33 @@ const INATIVOS_DATA = {
           "media": 910.27
         },
         {
+          "codcli": "79858",
+          "cliente": "SUPERMERCADOS PAGOTO LTDA",
+          "bairro": "CENTRO",
+          "cidade": "VENDA NOVA DO I",
+          "dtultcomp": "09/06/2026",
+          "dias": 59,
+          "media": 4903.3
+        },
+        {
+          "codcli": "81521",
+          "cliente": "COMERCIAL BAE LTDA",
+          "bairro": "CENTRO",
+          "cidade": "AFONSO CLAUDIO",
+          "dtultcomp": "09/06/2026",
+          "dias": 59,
+          "media": 978.6
+        },
+        {
+          "codcli": "77557",
+          "cliente": "COBATA COMERCIO E DISTRIBUICAO LTDA",
+          "bairro": "TERMINAL INTERMODAL DA SERRA",
+          "cidade": "SERRA",
+          "dtultcomp": "09/06/2026",
+          "dias": 59,
+          "media": 1760.0
+        },
+        {
           "codcli": "84611",
           "cliente": "PACHECO COMERCIO DE EMBALAGENS LTDA",
           "bairro": "CENTRO",
@@ -6801,15 +6801,6 @@ const INATIVOS_DATA = {
           "media": 2964.47
         },
         {
-          "codcli": "84018",
-          "cliente": "JONAS NODARE LTDA",
-          "bairro": "ES",
-          "cidade": "VENDA NOVA DO I",
-          "dtultcomp": "16/06/2026",
-          "dias": 52,
-          "media": 1213.21
-        },
-        {
           "codcli": "79770",
           "cliente": "SUPERMERCADO ULIANA LTDA",
           "bairro": "CENTRO",
@@ -6817,6 +6808,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "16/06/2026",
           "dias": 52,
           "media": 1137.1
+        },
+        {
+          "codcli": "84018",
+          "cliente": "JONAS NODARE LTDA",
+          "bairro": "ES",
+          "cidade": "VENDA NOVA DO I",
+          "dtultcomp": "16/06/2026",
+          "dias": 52,
+          "media": 1213.21
         }
       ],
       "novos": []
@@ -7564,69 +7564,6 @@ const INATIVOS_DATA = {
       ],
       "novos": []
     },
-    "OZISLLAN RAMALHO DE SOUZA - OFF TRADE": {
-      "rca": "269",
-      "estado": "RJ",
-      "inativos": [],
-      "sem_compra": [
-        {
-          "codcli": "91593",
-          "cliente": "ZAMPIROLLI COMERCIAL DE BEBIDAS LTDA",
-          "bairro": "NESTOR GOMES",
-          "cidade": "SAO MATEUS",
-          "dtultcomp": "19/11/2025",
-          "dias": 261,
-          "media": 0.0
-        },
-        {
-          "codcli": "90559",
-          "cliente": "JV SUPERMERCADOS LTDA",
-          "bairro": "CENTRO",
-          "cidade": "JAGUARE",
-          "dtultcomp": "03/03/2026",
-          "dias": 157,
-          "media": 0.0
-        },
-        {
-          "codcli": "90560",
-          "cliente": "JV SUPERMERCADOS LTDA",
-          "bairro": "AGUA LIMPA",
-          "cidade": "JAGUARE",
-          "dtultcomp": "03/03/2026",
-          "dias": 157,
-          "media": 0.0
-        }
-      ],
-      "novos": [
-        {
-          "codcli": "95946",
-          "cliente": "JV SUPERMERCADOS LTDA",
-          "bairro": "CENTRO",
-          "cidade": "JAGUARE",
-          "dtcadastro": "06/08/2026",
-          "dtultcomp": null,
-          "media": 0.0
-        },
-        {
-          "codcli": "95945",
-          "cliente": "JV SUPERMERCADOS LTDA",
-          "bairro": "ITAIPAVA",
-          "cidade": "ITAPEMIRIM",
-          "dtcadastro": "06/08/2026",
-          "dtultcomp": null,
-          "media": 0.0
-        },
-        {
-          "codcli": "95942",
-          "cliente": "DISTRIBUIDORA CAMILO GURIRI LTDA",
-          "bairro": "GURIRI NORTE",
-          "cidade": "SAO MATEUS",
-          "dtcadastro": "06/08/2026",
-          "dtultcomp": null,
-          "media": 0.0
-        }
-      ]
-    },
     "RAQUEL ARAUJO - OFF TRADE": {
       "rca": "442",
       "estado": "RJ",
@@ -7952,6 +7889,41 @@ const INATIVOS_DATA = {
           "bairro": "JACAREPAGUA",
           "cidade": "RIO DE JANEIRO",
           "dtcadastro": "07/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        }
+      ]
+    },
+    "OZISLLAN RAMALHO DE SOUZA - OFF TRADE": {
+      "rca": "269",
+      "estado": "RJ",
+      "inativos": [],
+      "sem_compra": [],
+      "novos": [
+        {
+          "codcli": "95946",
+          "cliente": "JV SUPERMERCADOS LTDA",
+          "bairro": "CENTRO",
+          "cidade": "JAGUARE",
+          "dtcadastro": "06/08/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "95945",
+          "cliente": "JV SUPERMERCADOS LTDA",
+          "bairro": "ITAIPAVA",
+          "cidade": "ITAPEMIRIM",
+          "dtcadastro": "06/08/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "95942",
+          "cliente": "DISTRIBUIDORA CAMILO GURIRI LTDA",
+          "bairro": "GURIRI NORTE",
+          "cidade": "SAO MATEUS",
+          "dtcadastro": "06/08/2026",
           "dtultcomp": null,
           "media": 0.0
         }
