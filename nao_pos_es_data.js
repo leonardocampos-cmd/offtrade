@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "07/08/2026 17:15",
+  "atualizado_em": "07/08/2026 17:33",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -19717,6 +19717,20 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
+        "codcli": "91987",
+        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "91985",
+        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+        "bairro": "BANGU",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "91986",
         "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
         "bairro": "VILAR DOS TELES",
@@ -19825,20 +19839,6 @@ const NAO_POS_ES_DATA = {
         "codcli": "91983",
         "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
         "bairro": "PACHECO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "91987",
-        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "91985",
-        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "BANGU",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -26127,9 +26127,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "94885",
+        "codcli": "94886",
         "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
-        "bairro": "CENTRO",
+        "bairro": "VISTA ALEGRE",
         "dtultcomp": "15/05/2026",
         "produtos": [
           {
@@ -26227,9 +26227,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "94886",
+        "codcli": "94885",
         "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
-        "bairro": "VISTA ALEGRE",
+        "bairro": "CENTRO",
         "dtultcomp": "15/05/2026",
         "produtos": [
           {
@@ -26351,9 +26351,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "94883",
+        "codcli": "94888",
         "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
-        "bairro": "RECREIO DOS BANDEIRANTES",
+        "bairro": "BANGU",
         "dtultcomp": "05/06/2026",
         "produtos": [
           {
@@ -26407,9 +26407,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "94888",
+        "codcli": "94883",
         "cliente": "HAZAK COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
-        "bairro": "BANGU",
+        "bairro": "RECREIO DOS BANDEIRANTES",
         "dtultcomp": "05/06/2026",
         "produtos": [
           {
@@ -26515,32 +26515,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "TATUZINHO",
             "qt": 1,
             "valor": 87.6
-          }
-        ]
-      },
-      {
-        "codcli": "90210",
-        "cliente": "J C BOTECO DOS IRMAOS LTDA",
-        "bairro": "CAMPO GRANDE",
-        "dtultcomp": "06/06/2026",
-        "produtos": [
-          {
-            "produto": "COQUETEL COMPOSTO PINK MOON 24X300ML",
-            "fantasia": "COMARY",
-            "qt": 1,
-            "valor": 74.88
-          },
-          {
-            "produto": "GUARAVITA NATURAL 24X290ML",
-            "fantasia": "VITON",
-            "qt": 4,
-            "valor": 106.92
-          },
-          {
-            "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
-            "fantasia": "PINATI",
-            "qt": 1,
-            "valor": 38.9
           }
         ]
       },
