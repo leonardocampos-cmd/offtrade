@@ -1,219 +1,219 @@
 const STATUS_PAGINAS_DATA = {
-  "atualizado_em": "07/08/2026 15:01",
+  "atualizado_em": "07/08/2026 15:16",
   "paginas": [
     {
       "arquivo": "amarula_data.js",
       "atualizado_em": "09/07/2026 13:53",
-      "idade_horas": 697.1,
+      "idade_horas": 697.4,
       "status": "Manual",
       "manual": true
     },
     {
       "arquivo": "catalogo_data.js",
       "atualizado_em": "10/07/2026 15:51",
-      "idade_horas": 671.2,
+      "idade_horas": 671.4,
       "status": "Manual",
       "manual": true
     },
     {
       "arquivo": "raiox_industria_detalhe_data.js",
       "atualizado_em": "21/07/2026 18:15",
-      "idade_horas": 404.8,
+      "idade_horas": 405.0,
       "status": "Manual",
       "manual": true
     },
     {
       "arquivo": "raiox_vendedor_detalhe_data.js",
       "atualizado_em": "21/07/2026 18:15",
-      "idade_horas": 404.8,
+      "idade_horas": 405.0,
       "status": "Manual",
       "manual": true
     },
     {
       "arquivo": "raiox_clientes_data.js",
       "atualizado_em": "21/07/2026 18:40",
-      "idade_horas": 404.4,
-      "status": "Manual",
-      "manual": true
-    },
-    {
-      "arquivo": "raiox_vendedores_data.js",
-      "atualizado_em": "21/07/2026 18:40",
-      "idade_horas": 404.4,
+      "idade_horas": 404.6,
       "status": "Manual",
       "manual": true
     },
     {
       "arquivo": "raiox_industrias_data.js",
       "atualizado_em": "21/07/2026 18:42",
-      "idade_horas": 404.3,
+      "idade_horas": 404.6,
+      "status": "Manual",
+      "manual": true
+    },
+    {
+      "arquivo": "raiox_vendedores_data.js",
+      "atualizado_em": "21/07/2026 18:40",
+      "idade_horas": 404.6,
       "status": "Manual",
       "manual": true
     },
     {
       "arquivo": "clientes_inativos_nome_data.js",
       "atualizado_em": "22/07/2026 14:57",
-      "idade_horas": 384.1,
+      "idade_horas": 384.3,
       "status": "Manual",
       "manual": true
     },
     {
       "arquivo": "raiox_cliente_detalhe_data.js",
       "atualizado_em": "22/07/2026 16:26",
-      "idade_horas": 382.6,
+      "idade_horas": 382.8,
       "status": "Manual",
       "manual": true
     },
     {
       "arquivo": "fontes_status_data.js",
       "atualizado_em": "06/08/2026 11:37",
-      "idade_horas": 27.4,
+      "idade_horas": 27.7,
       "status": "Crítico",
       "manual": false
     },
     {
       "arquivo": "metas_data.js",
       "atualizado_em": "06/08/2026 11:37",
-      "idade_horas": 27.4,
+      "idade_horas": 27.7,
       "status": "Crítico",
       "manual": false
     },
     {
       "arquivo": "vendas_data.js",
       "atualizado_em": "06/08/2026 11:37",
-      "idade_horas": 27.4,
+      "idade_horas": 27.7,
       "status": "Crítico",
       "manual": false
     },
     {
       "arquivo": "vendas_es_data.js",
       "atualizado_em": "06/08/2026 11:45",
-      "idade_horas": 27.3,
+      "idade_horas": 27.5,
       "status": "Crítico",
       "manual": false
     },
     {
       "arquivo": "vendas_mg_data.js",
       "atualizado_em": "06/08/2026 11:45",
-      "idade_horas": 27.3,
+      "idade_horas": 27.5,
       "status": "Crítico",
       "manual": false
     },
     {
       "arquivo": "vendas_sp_data.js",
       "atualizado_em": "06/08/2026 11:45",
-      "idade_horas": 27.3,
+      "idade_horas": 27.5,
       "status": "Crítico",
       "manual": false
     },
     {
       "arquivo": "status_paginas_data.js",
-      "atualizado_em": "07/08/2026 14:43",
+      "atualizado_em": "07/08/2026 15:01",
       "idade_horas": 0.3,
       "status": "OK",
       "manual": false
     },
     {
       "arquivo": "crusoe_data.js",
-      "atualizado_em": "07/08/2026 14:50",
+      "atualizado_em": "07/08/2026 15:05",
       "idade_horas": 0.2,
       "status": "OK",
       "manual": false
     },
     {
       "arquivo": "entregas_data.js",
-      "atualizado_em": "07/08/2026 14:51",
+      "atualizado_em": "07/08/2026 15:07",
       "idade_horas": 0.2,
       "status": "OK",
       "manual": false
     },
     {
       "arquivo": "industria_data.js",
-      "atualizado_em": "07/08/2026 14:49",
+      "atualizado_em": "07/08/2026 15:05",
       "idade_horas": 0.2,
       "status": "OK",
       "manual": false
     },
     {
       "arquivo": "metas_gerais_data.js",
-      "atualizado_em": "07/08/2026 14:48",
+      "atualizado_em": "07/08/2026 15:03",
       "idade_horas": 0.2,
       "status": "OK",
       "manual": false
     },
     {
       "arquivo": "pedidos_data.js",
-      "atualizado_em": "07/08/2026 14:52",
+      "atualizado_em": "07/08/2026 15:07",
       "idade_horas": 0.2,
       "status": "OK",
       "manual": false
     },
     {
       "arquivo": "agendamento_data.js",
-      "atualizado_em": "07/08/2026 14:53",
+      "atualizado_em": "07/08/2026 15:08",
       "idade_horas": 0.1,
       "status": "OK",
       "manual": false
     },
     {
       "arquivo": "clientes_inativos_data.js",
-      "atualizado_em": "07/08/2026 14:57",
+      "atualizado_em": "07/08/2026 15:13",
       "idade_horas": 0.1,
       "status": "OK",
       "manual": false
     },
     {
       "arquivo": "clientes_rca_data.js",
-      "atualizado_em": "07/08/2026 14:55",
+      "atualizado_em": "07/08/2026 15:10",
       "idade_horas": 0.1,
       "status": "OK",
       "manual": false
     },
     {
       "arquivo": "comissao_data.js",
-      "atualizado_em": "07/08/2026 14:56",
+      "atualizado_em": "07/08/2026 15:12",
       "idade_horas": 0.1,
       "status": "OK",
       "manual": false
     },
     {
       "arquivo": "nao_pos_es_data.js",
-      "atualizado_em": "07/08/2026 14:54",
+      "atualizado_em": "07/08/2026 15:10",
       "idade_horas": 0.1,
       "status": "OK",
       "manual": false
     },
     {
       "arquivo": "nao_pos_mg_data.js",
-      "atualizado_em": "07/08/2026 14:54",
+      "atualizado_em": "07/08/2026 15:10",
       "idade_horas": 0.1,
       "status": "OK",
       "manual": false
     },
     {
       "arquivo": "nao_pos_sp_data.js",
-      "atualizado_em": "07/08/2026 14:53",
+      "atualizado_em": "07/08/2026 15:09",
       "idade_horas": 0.1,
       "status": "OK",
       "manual": false
     },
     {
       "arquivo": "vendedores_auth_data.js",
-      "atualizado_em": "07/08/2026 14:56",
+      "atualizado_em": "07/08/2026 15:12",
       "idade_horas": 0.1,
       "status": "OK",
       "manual": false
     },
     {
       "arquivo": "estoque_data.js",
-      "atualizado_em": "07/08/2026 14:59",
+      "atualizado_em": "07/08/2026 15:15",
       "idade_horas": 0.0,
       "status": "OK",
       "manual": false
     },
     {
       "arquivo": "inadimplencia_data.js",
-      "atualizado_em": "07/08/2026 14:59",
+      "atualizado_em": "07/08/2026 15:15",
       "idade_horas": 0.0,
       "status": "OK",
       "manual": false
