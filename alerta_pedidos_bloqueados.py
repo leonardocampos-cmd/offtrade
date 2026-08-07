@@ -24,8 +24,9 @@ from whatsapp_evolution import enviar_whatsapp
 
 # Alerta de pedido bloqueado não vai mais pro WhatsApp do próprio vendedor —
 # pedido explícito do usuário em 2026-08-06: manda tudo pra esse número
-# central em vez disso (quem estiver aqui decide/repassa).
-_NUMERO_DESTINO = "5521964105623"
+# central em vez disso (quem estiver aqui decide/repassa). Número trocado
+# em 2026-08-07 (novo pedido explícito do usuário).
+_NUMERO_DESTINO = "5521992085320"
 
 REGISTRO_JSON = str(Path(__file__).parent / "pedidos_bloqueados_enviados.json")
 
