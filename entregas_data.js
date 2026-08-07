@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "07/08/2026 11:16",
+  "atualizado_em": "07/08/2026 12:05",
   "data_rota": "07.08",
   "vendedores": [
     {
@@ -8667,6 +8667,36 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "156003825",
+          "numnota": "",
+          "data": "07/08/2026",
+          "cliente": "BARRA GAS COM. E SERVICOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 460.7,
+          "itens": [
+            {
+              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 8X1,5L PET",
+              "qt": 6,
+              "val": 147.0
+            },
+            {
+              "desc": "AGUA MINALBA C/ GAS 6X1,5L",
+              "qt": 10,
+              "val": 219.0
+            }
+          ]
+        },
+        {
           "numped": "156003824",
           "numnota": "",
           "data": "07/08/2026",
@@ -11591,6 +11621,26 @@ const ENTREGAS_DATA = {
               "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
               "qt": 20,
               "val": 1398.0
+            }
+          ]
+        },
+        {
+          "numped": "155004092",
+          "numnota": "",
+          "data": "07/08/2026",
+          "cliente": "RECANTO DO PONTAL DO ATALAIA EMPREENDIMENTOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 439.8,
+          "itens": [
+            {
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIUM 5L",
+              "qt": 2,
+              "val": 439.8
             }
           ]
         },
