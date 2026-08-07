@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "07/08/2026 14:53",
+  "atualizado_em": "07/08/2026 15:09",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -9184,6 +9184,13 @@ const NAO_POS_SP_DATA = {
             "valor": 394.8
           }
         ]
+      },
+      {
+        "codcli": "51216",
+        "cliente": "SUPERMERCADO BAGARELLI LTDA",
+        "bairro": "VILA NOVA PAULISTA",
+        "dtultcomp": "nan",
+        "produtos": []
       }
     ],
     "GILVAN AMORIM": [
@@ -10148,16 +10155,16 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "51819",
+        "codcli": "51823",
         "cliente": "D. NASTARO SUPERMERCADOS LTDA",
-        "bairro": "JARDIM SÃO JORGE",
+        "bairro": "PAULICÉIA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51823",
+        "codcli": "51824",
         "cliente": "D. NASTARO SUPERMERCADOS LTDA",
-        "bairro": "PAULICÉIA",
+        "bairro": "NOSSA SENHORA DE LOURDES",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -10176,9 +10183,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51824",
+        "codcli": "51819",
         "cliente": "D. NASTARO SUPERMERCADOS LTDA",
-        "bairro": "NOSSA SENHORA DE LOURDES",
+        "bairro": "JARDIM SÃO JORGE",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -10204,9 +10211,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51547",
+        "codcli": "51550",
         "cliente": "SUPERMERCADO ARMELIN LTDA",
-        "bairro": "VILA FATIMA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -10218,9 +10225,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51550",
+        "codcli": "51547",
         "cliente": "SUPERMERCADO ARMELIN LTDA",
-        "bairro": "CENTRO",
+        "bairro": "VILA FATIMA",
         "dtultcomp": "nan",
         "produtos": []
       }
