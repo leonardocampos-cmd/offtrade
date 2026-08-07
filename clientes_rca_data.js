@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "07/08/2026 11:07",
-  "total": 22303,
+  "atualizado_em": "07/08/2026 11:19",
+  "total": 22304,
   "clientes": [
     {
       "codcli": "38586",
@@ -170690,6 +170690,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ADER ALONSO - OFF TRADE",
       "codusur2": "159",
       "nome_usur2": "ADRIANA ROZA"
+    },
+    {
+      "codcli": "39899",
+      "razao": "HM SUPERMERCADOS LTDA",
+      "fantasia": "HM SUPERMERCADOS",
+      "bairro": "INDIANOPOLIS",
+      "cidade": "SAO PAULO",
+      "cnpj": "66.533.696/0005-53",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "426",
+      "nome_usur1": "ADER ALONSO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "1932",
