@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "07/08/2026 15:41",
-  "total": 22310,
+  "atualizado_em": "07/08/2026 15:59",
+  "total": 22309,
   "clientes": [
     {
       "codcli": "38586",
@@ -76036,22 +76036,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "51164",
-      "razao": "BOTECO AQUARIOS LTDA",
-      "fantasia": "AQUABAR BOTECO",
-      "bairro": "BOTAFOGO",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "44.926.778/0001-00",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "66452",
       "razao": "BOTECO BENE BAR E RESTAURANTE LTDA",
       "fantasia": "BOTECO BENE",
@@ -84539,7 +84523,7 @@ const CLIENTES_RCA_DATA = {
       "cidade": "RIO DE JANEIRO",
       "cnpj": "33.075.961/0001-14",
       "estado": "RJ",
-      "ramo": "OUTROS",
+      "ramo": "CAFETERIA",
       "key_account": false,
       "rede": "",
       "codusur1": "155",
