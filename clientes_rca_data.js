@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "07/08/2026 14:30",
-  "total": 22303,
+  "atualizado_em": "07/08/2026 14:55",
+  "total": 22304,
   "clientes": [
     {
       "codcli": "38586",
@@ -9042,6 +9042,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "94856",
+      "razao": "42.641.133 SELMA REGINA DE ANDRADE",
+      "fantasia": "SELMA REGINA DE ANDRADE",
+      "bairro": "BRAGA",
+      "cidade": "CABO FRIO",
+      "cnpj": "42.641.133/0001-97",
+      "estado": "RJ",
+      "ramo": "SERVIÇOS",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "312",
+      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "31528",
@@ -30699,7 +30715,7 @@ const CLIENTES_RCA_DATA = {
       "cidade": "ARMACAO DOS BUZ",
       "cnpj": "65.295.756/0001-50",
       "estado": "RJ",
-      "ramo": "MERCADO",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
       "key_account": false,
       "rede": "",
       "codusur1": "155",
@@ -298276,6 +298292,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "38541",
+      "razao": "RET STEAK HOUSE LTDA",
+      "fantasia": "RET STEAK HOUSE LTDA",
+      "bairro": "LOURDES",
+      "cidade": "BELO HORIZONTE",
+      "cnpj": "64.033.703/0001-07",
+      "estado": "MG",
+      "ramo": "RESTAURANTE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "327",
+      "nome_usur1": "JOÃO SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "81234",
       "razao": "RETA LOUNGE BAR LTDA",
       "fantasia": "RETA LOUNGE BAR",
@@ -313138,22 +313170,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "94856",
-      "razao": "SELMA REGINA DE ANDRADE 84740493772",
-      "fantasia": "SELMA REGINA DE ANDRADE 84740493772",
-      "bairro": "BRAGA",
-      "cidade": "CABO FRIO",
-      "cnpj": "42.641.133/0001-97",
-      "estado": "RJ",
-      "ramo": "SERVIÇOS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "159",
-      "nome_usur1": "GISELLE BARFER - OFF TRADE",
-      "codusur2": "312",
-      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "34581",
