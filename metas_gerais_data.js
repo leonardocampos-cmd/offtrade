@@ -1,12 +1,12 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "07/08/2026 11:13",
+  "atualizado_em": "07/08/2026 12:01",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 7,
   "dias_no_mes": 31,
   "dias_restantes": 24,
   "resumo": {
-    "fat": 2388002.64,
+    "fat": 2386065.92,
     "fat_ant": 1754388.33,
     "fat_ant_completo": 13925054.76,
     "pos": 483,
@@ -15,11 +15,11 @@ const METAS_GERAIS_DATA = {
   },
   "total": {
     "meta": 13300000.0,
-    "fat": 2388002.64,
+    "fat": 2386065.92,
     "fat_ant": 1754388.33,
     "fat_ant_completo": 13925054.76,
-    "pct": 18.0,
-    "nec_dia": 454666.56
+    "pct": 17.9,
+    "nec_dia": 454747.25
   },
   "estados": [
     {
@@ -39,11 +39,11 @@ const METAS_GERAIS_DATA = {
       "estado": "SP",
       "label": "São Paulo",
       "meta": 5500000.0,
-      "fat": 1393711.37,
+      "fat": 1386634.73,
       "fat_ant": 1157012.61,
-      "pos": 225,
-      "pct": 25.3,
-      "nec_dia": 171095.36,
+      "pos": 223,
+      "pct": 25.2,
+      "nec_dia": 171390.22,
       "fat_ant_completo": 8531229.27,
       "pos_ant": 209,
       "pos_ant_completo": 731
@@ -52,11 +52,11 @@ const METAS_GERAIS_DATA = {
       "estado": "ES",
       "label": "Espírito Santo",
       "meta": 1800000.0,
-      "fat": 195062.23,
+      "fat": 200202.15,
       "fat_ant": 100843.94,
-      "pos": 16,
-      "pct": 10.8,
-      "nec_dia": 66872.41,
+      "pos": 18,
+      "pct": 11.1,
+      "nec_dia": 66658.24,
       "fat_ant_completo": 736897.29,
       "pos_ant": 18,
       "pos_ant_completo": 91
@@ -78,11 +78,11 @@ const METAS_GERAIS_DATA = {
   "industrias": [
     {
       "fantasia": "PERNOD",
-      "fat": 1010403.36,
+      "fat": 1006845.66,
       "fat_ant": 829985.1,
       "por_estado": {
         "RJ": 84760.1,
-        "SP": 864520.52,
+        "SP": 860962.82,
         "ES": 6283.44,
         "MG": 54839.3
       }
@@ -100,11 +100,11 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "BROWN",
-      "fat": 230385.6,
+      "fat": 228946.8,
       "fat_ant": 208494.8,
       "por_estado": {
         "RJ": 92985.9,
-        "SP": 137399.7,
+        "SP": 135960.9,
         "ES": 0.0,
         "MG": 0.0
       }
@@ -122,11 +122,11 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "BACARDI",
-      "fat": 118625.41,
+      "fat": 117585.01,
       "fat_ant": 33852.59,
       "por_estado": {
         "RJ": 51747.5,
-        "SP": 58534.99,
+        "SP": 57494.59,
         "ES": 8143.32,
         "MG": 199.6
       }
@@ -188,11 +188,11 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "CRS BRANDS",
-      "fat": 28220.11,
+      "fat": 27309.07,
       "fat_ant": 29989.13,
       "por_estado": {
         "RJ": 604.2,
-        "SP": 27615.91,
+        "SP": 26704.87,
         "ES": 0.0,
         "MG": 0.0
       }
@@ -320,11 +320,11 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "CAMPARI",
-      "fat": 7464.78,
+      "fat": 7336.08,
       "fat_ant": 8597.45,
       "por_estado": {
         "RJ": 833.68,
-        "SP": 6631.1,
+        "SP": 6502.4,
         "ES": 0.0,
         "MG": 0.0
       }
@@ -337,6 +337,17 @@ const METAS_GERAIS_DATA = {
         "RJ": 0.0,
         "SP": 7225.5,
         "ES": 0.0,
+        "MG": 0.0
+      }
+    },
+    {
+      "fantasia": "PINATI",
+      "fat": 5737.64,
+      "fat_ant": 10581.55,
+      "por_estado": {
+        "RJ": 577.99,
+        "SP": 0.0,
+        "ES": 5159.65,
         "MG": 0.0
       }
     },
@@ -363,13 +374,13 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
-      "fantasia": "PINATI",
-      "fat": 4283.16,
-      "fat_ant": 10581.55,
+      "fantasia": "NOIG",
+      "fat": 3685.44,
+      "fat_ant": 0.0,
       "por_estado": {
-        "RJ": 577.99,
+        "RJ": 0.0,
         "SP": 0.0,
-        "ES": 3705.17,
+        "ES": 3685.44,
         "MG": 0.0
       }
     },
@@ -613,17 +624,6 @@ const METAS_GERAIS_DATA = {
         "SP": 101.8,
         "ES": 0.0,
         "MG": 0.0
-      }
-    },
-    {
-      "fantasia": "BETTER DRINKS",
-      "fat": 42.54,
-      "fat_ant": 0.0,
-      "por_estado": {
-        "RJ": 0.0,
-        "SP": 0.0,
-        "ES": 0.0,
-        "MG": 42.54
       }
     }
   ],
