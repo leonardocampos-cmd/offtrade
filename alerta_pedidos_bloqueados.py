@@ -154,13 +154,26 @@ def montar_bloqueados_por_vendedor():
     pedidos['PVENDA'] = pd.to_numeric(pedidos['PVENDA'], errors='coerce')
 
     por_vendedor: dict = {}
-    for _, row in pedidos.iterrows():
-        vendedor = (row['VENDEDOR'] or '').strip()
-        motivo_txt = _motivo_enriquecido(row['MOTIVOPOSICAO'], row['CODPROD'], row['DESCRICAO'], row['PVENDA'])
+    for numped, grupo in pedidos.groupby('NUMPED', sort=False):
+        primeira = grupo.iloc[0]
+        vendedor = (primeira['VENDEDOR'] or '').strip()
+        motivo_bruto = primeira['MOTIVOPOSICAO']
+        # O motivo cita um CODPROD específico, que pode ser qualquer uma das
+        # linhas do pedido (não necessariamente a primeira) — procura entre
+        # todas pra não perder o enriquecimento (mesma lógica de
+        # pedidos.py::_preco_motivo_bloqueio).
+        linha_motivo = primeira
+        m = _RE_MOTIVO_DESCONTO.search(motivo_bruto or '')
+        if m:
+            match = grupo[grupo['CODPROD'].astype(str) == m.group(1)]
+            if not match.empty:
+                linha_motivo = match.iloc[0]
+        motivo_txt = _motivo_enriquecido(
+            motivo_bruto, linha_motivo['CODPROD'], linha_motivo['DESCRICAO'], linha_motivo['PVENDA'])
         entry = por_vendedor.setdefault(vendedor, {'pedidos': {}})
-        entry['pedidos'].setdefault(str(row['NUMPED']), {
-            'numped':  str(row['NUMPED']),
-            'cliente': (row['CLIENTE'] or '').strip(),
+        entry['pedidos'].setdefault(str(numped), {
+            'numped':  str(numped),
+            'cliente': (primeira['CLIENTE'] or '').strip(),
             'motivo':  motivo_txt,
         })
     return por_vendedor, fontes_indisponiveis
