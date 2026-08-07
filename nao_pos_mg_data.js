@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "06/08/2026 18:08",
+  "atualizado_em": "07/08/2026 11:07",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -2965,50 +2965,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33353",
-        "cliente": "CANGA E CANDEIA DANCING BAR LTDA",
-        "bairro": "SAVASSI",
-        "dtultcomp": "21/07/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-            "fantasia": "HEINEKEN",
-            "qt": 4,
-            "valor": 575.04
-          },
-          {
-            "produto": "GIN TANQUERAY  750 ML",
-            "fantasia": "DIAGEO",
-            "qt": 1,
-            "valor": 93.9
-          },
-          {
-            "produto": "VODKA ABSOLUT - 1 LITRO",
-            "fantasia": "PERNOD",
-            "qt": 1,
-            "valor": 79.9
-          },
-          {
-            "produto": "XAROPE MONIN GRENADINE 700 ML",
-            "fantasia": "MONIN",
-            "qt": 1,
-            "valor": 49.9
-          },
-          {
-            "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
-            "fantasia": "MONIN",
-            "qt": 1,
-            "valor": 49.9
-          },
-          {
-            "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
-            "fantasia": "MONIN",
-            "qt": 2,
-            "valor": 99.8
-          }
-        ]
-      },
-      {
         "codcli": "33631",
         "cliente": "CB CONCEITO BH COMERCIO DE ALIMENTOS LTDA",
         "bairro": "CAICARAS",
@@ -3325,26 +3281,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "YVY",
             "qt": 1,
             "valor": 39.9
-          }
-        ]
-      },
-      {
-        "codcli": "32813",
-        "cliente": "ROMA MERCEARIAS LTDA",
-        "bairro": "SANTA ROSA",
-        "dtultcomp": "23/07/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN  LONG ZERO 24X330ML",
-            "fantasia": "HEINEKEN",
-            "qt": 1,
-            "valor": 143.76
-          },
-          {
-            "produto": "CERVEJA HEINEKEN RETORNAVEL 24X600ML",
-            "fantasia": "HEINEKEN",
-            "qt": 2,
-            "valor": 437.92
           }
         ]
       },
@@ -3789,26 +3725,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30043",
-        "cliente": "E.F.B. HAMBURGUERS LTDA",
-        "bairro": "SAO PEDRO",
-        "dtultcomp": "29/07/2026",
-        "produtos": [
-          {
-            "produto": "BAER MATE LN  6X350ML",
-            "fantasia": "BETTER DRINKS",
-            "qt": 6,
-            "valor": 255.24
-          },
-          {
-            "produto": "ST PIERRE TONICA LT 270MLX6",
-            "fantasia": "TATUZINHO",
-            "qt": 4,
-            "valor": 107.6
-          }
-        ]
-      },
-      {
         "codcli": "37220",
         "cliente": "JANUZZI PADARIA E CONFEITARIA LTDA",
         "bairro": "BRASILÉIA",
@@ -3927,44 +3843,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "TATUZINHO",
             "qt": 1,
             "valor": 26.9
-          }
-        ]
-      },
-      {
-        "codcli": "33223",
-        "cliente": "BAIANA DO ACARAJE BAR E RESTAURANTE LTDA",
-        "bairro": "SAVASSI",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "CHATEAU PEYRASSOL LA CROIX ROSE 2024 750",
-            "fantasia": "CASTAS",
-            "qt": 1,
-            "valor": 154.9
-          },
-          {
-            "produto": "WHISKY JIM BEAM APPLE 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 1,
-            "valor": 89.9
-          },
-          {
-            "produto": "WHISKY JIM BEAM CHERRY 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 1,
-            "valor": 89.9
-          },
-          {
-            "produto": "WHISKY JIM BEAM HONEY 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 1,
-            "valor": 89.9
-          },
-          {
-            "produto": "WHISKY JIM BEAM WHITE 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 1,
-            "valor": 89.9
           }
         ]
       },
@@ -4279,32 +4157,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "38419",
-        "cliente": "LUKA CHOPP MUSIC LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "31/07/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-            "fantasia": "HEINEKEN",
-            "qt": 2,
-            "valor": 287.52
-          },
-          {
-            "produto": "GIN BEEFEATER 750ML",
-            "fantasia": "PERNOD",
-            "qt": 1,
-            "valor": 81.9
-          },
-          {
-            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 174.96
-          }
-        ]
-      },
-      {
         "codcli": "35189",
         "cliente": "MAGNUS SOCIEDADE COMERCIAL LIMITADA",
         "bairro": "SANTA HELENA",
@@ -4454,62 +4306,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33139",
-        "cliente": "COMERCIAL GALA LTDA",
-        "bairro": "RESIDENCIAL LOURDES",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY BALLANTINE'S FINEST 1L",
-            "fantasia": "PERNOD",
-            "qt": 240,
-            "valor": 15816.0
-          },
-          {
-            "produto": "WHISKY JACK DANIELS 700 ML",
-            "fantasia": "BROWN-FORMAN",
-            "qt": 60,
-            "valor": 5670.0
-          },
-          {
-            "produto": "XAROPE  MONIN  MAÇA VERDE 330 ML",
-            "fantasia": "MONIN",
-            "qt": 180,
-            "valor": 3762.0
-          },
-          {
-            "produto": "XAROPE  MONIN CRANBERRY 330 ML",
-            "fantasia": "MONIN",
-            "qt": 240,
-            "valor": 5016.0
-          },
-          {
-            "produto": "XAROPE  MONIN TANGERINA 330 ML",
-            "fantasia": "MONIN",
-            "qt": 180,
-            "valor": 3762.0
-          },
-          {
-            "produto": "XAROPE MONIN GENGIBRE 330 ML",
-            "fantasia": "MONIN",
-            "qt": 72,
-            "valor": 1504.8
-          },
-          {
-            "produto": "XAROPE MONIN LIMÃO GLASCO 330 ML",
-            "fantasia": "MONIN",
-            "qt": 174,
-            "valor": 3636.6
-          },
-          {
-            "produto": "XAROPE MONIN MORANGO 330 ML",
-            "fantasia": "MONIN",
-            "qt": 180,
-            "valor": 3762.0
-          }
-        ]
-      },
-      {
         "codcli": "33295",
         "cliente": "ARMAZEM BRASIL LIMITADA",
         "bairro": "JARDIM AMÉRICA",
@@ -4558,46 +4354,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33288",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "SÃO SEBASTIAO",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "AMARULA C LIQUEUR 750 ML",
-            "fantasia": "AURORA",
-            "qt": 12,
-            "valor": 1318.8
-          },
-          {
-            "produto": "GIN ORLOFF 1L",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 538.8
-          }
-        ]
-      },
-      {
-        "codcli": "33290",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "ANGÉLICA",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "AMARULA C LIQUEUR 750 ML",
-            "fantasia": "AURORA",
-            "qt": 12,
-            "valor": 1318.8
-          },
-          {
-            "produto": "GIN BEEFEATER 750ML",
-            "fantasia": "PERNOD",
-            "qt": 6,
-            "valor": 509.4
-          }
-        ]
-      },
-      {
         "codcli": "33293",
         "cliente": "ARMAZEM BRASIL LIMITADA",
         "bairro": "CENTRO",
@@ -4642,6 +4398,46 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "33290",
+        "cliente": "ARMAZEM BRASIL LIMITADA",
+        "bairro": "ANGÉLICA",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "AMARULA C LIQUEUR 750 ML",
+            "fantasia": "AURORA",
+            "qt": 12,
+            "valor": 1318.8
+          },
+          {
+            "produto": "GIN BEEFEATER 750ML",
+            "fantasia": "PERNOD",
+            "qt": 6,
+            "valor": 509.4
+          }
+        ]
+      },
+      {
+        "codcli": "33288",
+        "cliente": "ARMAZEM BRASIL LIMITADA",
+        "bairro": "SÃO SEBASTIAO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "AMARULA C LIQUEUR 750 ML",
+            "fantasia": "AURORA",
+            "qt": 12,
+            "valor": 1318.8
+          },
+          {
+            "produto": "GIN ORLOFF 1L",
+            "fantasia": "PERNOD",
+            "qt": 12,
+            "valor": 538.8
+          }
+        ]
+      },
+      {
         "codcli": "33292",
         "cliente": "ARMAZEM BRASIL LIMITADA",
         "bairro": "SANTA EFIGÊNIA",
@@ -4672,26 +4468,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "PERNOD",
             "qt": 12,
             "valor": 634.8
-          }
-        ]
-      },
-      {
-        "codcli": "30232",
-        "cliente": "ORGANIZACAO VERDEMAR LTDA",
-        "bairro": "CARMO",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY ESC MACALLAN DOUBLE 12 YO 700ML",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 6,
-            "valor": 4318.44
-          },
-          {
-            "produto": "WHISKY JIM BEAM APPLE 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 12,
-            "valor": 890.28
           }
         ]
       },
@@ -6925,32 +6701,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "CASTAS",
             "qt": 6,
             "valor": 239.4
-          }
-        ]
-      },
-      {
-        "codcli": "32860",
-        "cliente": "GABRIELA MEIRELLES COSTA 06634414637",
-        "bairro": "SANTA TEREZA",
-        "dtultcomp": "16/06/2026",
-        "produtos": [
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 1,
-            "valor": 129.9
-          },
-          {
-            "produto": "ST PIERRE GINGER LT 270MLX12",
-            "fantasia": "TATUZINHO",
-            "qt": 2,
-            "valor": 93.6
-          },
-          {
-            "produto": "ST PIERRE PALOMA 270MLX6",
-            "fantasia": "TATUZINHO",
-            "qt": 5,
-            "valor": 134.5
           }
         ]
       },
