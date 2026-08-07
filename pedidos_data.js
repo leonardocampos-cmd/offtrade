@@ -1,5 +1,5 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "07/08/2026 13:25",
+  "atualizado_em": "07/08/2026 13:30",
   "periodo_dias": 90,
   "fontes_indisponiveis": [],
   "pedidos_feitos": [
@@ -2242,6 +2242,54 @@ const PEDIDOS_DATA = {
       "motivo_preco_tabela": 21.9
     },
     {
+      "numped": "327009657",
+      "numnota": "",
+      "data": "07/08/2026",
+      "data_ord": "2026-08-07",
+      "nome": "JOÃO SANTOS - OFF TRADE",
+      "cliente": "ELTON MUNHOZ DIAS JUNIOR",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 369.6,
+      "itens": [
+        {
+          "desc": "JACK DANIELS HONEY 1 L",
+          "industria": "BROWN-FORMAN",
+          "qt": 2,
+          "val": 279.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "738",
+          "codfilial": "1",
+          "pvenda": 139.9
+        },
+        {
+          "desc": "CACHACA SELETA 1000ML",
+          "industria": "SELETA",
+          "qt": 2,
+          "val": 89.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "3515",
+          "codfilial": "1",
+          "pvenda": 44.9
+        }
+      ],
+      "tem_corte": false
+    },
+    {
       "numped": "354000687",
       "numnota": "",
       "data": "07/08/2026",
@@ -2745,20 +2793,6 @@ const PEDIDOS_DATA = {
       "total": 1313.22,
       "itens": [
         {
-          "desc": "NECTAR MACA TIAL 12X1000ML",
-          "industria": "TIAL",
-          "qt": 1,
-          "val": 57.48,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "6346",
-          "codfilial": "2",
-          "pvenda": 57.48
-        },
-        {
           "desc": "NECTAR ABACAXI 12X1000ML",
           "industria": "TIAL",
           "qt": 1,
@@ -2797,6 +2831,20 @@ const PEDIDOS_DATA = {
           "qt_original": 2.0,
           "cortado": false,
           "codprod": "5987",
+          "codfilial": "2",
+          "pvenda": 57.48
+        },
+        {
+          "desc": "NECTAR MACA TIAL 12X1000ML",
+          "industria": "TIAL",
+          "qt": 1,
+          "val": 57.48,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "6346",
           "codfilial": "2",
           "pvenda": 57.48
         },
@@ -9391,20 +9439,6 @@ const PEDIDOS_DATA = {
           "pvenda": 89.9
         },
         {
-          "desc": "MOVING JUICE PROTEIN UVA 12X300ML",
-          "industria": "TATUZINHO",
-          "qt": 1,
-          "val": 87.6,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "7206",
-          "codfilial": "2",
-          "pvenda": 87.6
-        },
-        {
           "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
           "industria": "TATUZINHO",
           "qt": 1,
@@ -9443,6 +9477,20 @@ const PEDIDOS_DATA = {
           "qt_original": 1.0,
           "cortado": false,
           "codprod": "7205",
+          "codfilial": "2",
+          "pvenda": 87.6
+        },
+        {
+          "desc": "MOVING JUICE PROTEIN UVA 12X300ML",
+          "industria": "TATUZINHO",
+          "qt": 1,
+          "val": 87.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "7206",
           "codfilial": "2",
           "pvenda": 87.6
         }
@@ -10999,20 +11047,6 @@ const PEDIDOS_DATA = {
       "total": 4776.0,
       "itens": [
         {
-          "desc": "CHANDON PASSION ON ICE 750 ML",
-          "industria": "HENNESSY",
-          "qt": 6,
-          "val": 455.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "cortado": false,
-          "codprod": "3766",
-          "codfilial": "4",
-          "pvenda": 75.9
-        },
-        {
           "desc": "CONHAQUE DOMECQ 1L",
           "industria": "PERNOD",
           "qt": 12,
@@ -11039,6 +11073,20 @@ const PEDIDOS_DATA = {
           "codprod": "663",
           "codfilial": "4",
           "pvenda": 34.9
+        },
+        {
+          "desc": "CHANDON PASSION ON ICE 750 ML",
+          "industria": "HENNESSY",
+          "qt": 6,
+          "val": 455.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "3766",
+          "codfilial": "4",
+          "pvenda": 75.9
         },
         {
           "desc": "CHANDON RESERVE BRUT ROSE 750ML",
@@ -17187,20 +17235,6 @@ const PEDIDOS_DATA = {
       "total": 6674.4,
       "itens": [
         {
-          "desc": "VINHO LA TOGATA BARENGO 750ML",
-          "industria": "CASTAS",
-          "qt": 6,
-          "val": 749.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "cortado": false,
-          "codprod": "3101",
-          "codfilial": "2",
-          "pvenda": 124.9
-        },
-        {
           "desc": "VINHO QUINTA DE VENTOZELO LOCI 750ML",
           "industria": "CASTAS",
           "qt": 6,
@@ -17227,6 +17261,20 @@ const PEDIDOS_DATA = {
           "codprod": "4667",
           "codfilial": "2",
           "pvenda": 42.9
+        },
+        {
+          "desc": "VINHO LA TOGATA BARENGO 750ML",
+          "industria": "CASTAS",
+          "qt": 6,
+          "val": 749.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "3101",
+          "codfilial": "2",
+          "pvenda": 124.9
         },
         {
           "desc": "VINHO LA TOGATA ROSSO 750ML",
@@ -21045,20 +21093,6 @@ const PEDIDOS_DATA = {
           "pvenda": 35.0
         },
         {
-          "desc": "VINHO LATITUD 33 MALBEC  750 ML",
-          "industria": "HENNESSY",
-          "qt": 96,
-          "val": 3360.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 96.0,
-          "cortado": false,
-          "codprod": "3827",
-          "codfilial": "4",
-          "pvenda": 35.0
-        },
-        {
           "desc": "VINHO LATITUD 33 MALBEC ROSE 750 ML",
           "industria": "HENNESSY",
           "qt": 48,
@@ -21069,6 +21103,20 @@ const PEDIDOS_DATA = {
           "qt_original": 48.0,
           "cortado": false,
           "codprod": "3830",
+          "codfilial": "4",
+          "pvenda": 35.0
+        },
+        {
+          "desc": "VINHO LATITUD 33 MALBEC  750 ML",
+          "industria": "HENNESSY",
+          "qt": 96,
+          "val": 3360.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 96.0,
+          "cortado": false,
+          "codprod": "3827",
           "codfilial": "4",
           "pvenda": 35.0
         },
@@ -21108,20 +21156,6 @@ const PEDIDOS_DATA = {
       "total": 9240.0,
       "itens": [
         {
-          "desc": "VINHO LATITUD 33 MALBEC  750 ML",
-          "industria": "HENNESSY",
-          "qt": 96,
-          "val": 3360.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 96.0,
-          "cortado": false,
-          "codprod": "3827",
-          "codfilial": "4",
-          "pvenda": 35.0
-        },
-        {
           "desc": "LATITUD 33 CABERNET SAUVIGNON",
           "industria": "HENNESSY",
           "qt": 72,
@@ -21146,6 +21180,20 @@ const PEDIDOS_DATA = {
           "qt_original": 48.0,
           "cortado": false,
           "codprod": "3830",
+          "codfilial": "4",
+          "pvenda": 35.0
+        },
+        {
+          "desc": "VINHO LATITUD 33 MALBEC  750 ML",
+          "industria": "HENNESSY",
+          "qt": 96,
+          "val": 3360.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 96.0,
+          "cortado": false,
+          "codprod": "3827",
           "codfilial": "4",
           "pvenda": 35.0
         },
@@ -29015,20 +29063,6 @@ const PEDIDOS_DATA = {
       "total": 968.88,
       "itens": [
         {
-          "desc": "VINHO BORDO QUINTA DO MORGADO 750ML",
-          "industria": "FANTE",
-          "qt": 12,
-          "val": 214.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "cortado": false,
-          "codprod": "3816",
-          "codfilial": "4",
-          "pvenda": 17.9
-        },
-        {
           "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
           "industria": "CASA PERINI",
           "qt": 12,
@@ -29055,6 +29089,20 @@ const PEDIDOS_DATA = {
           "codprod": "3814",
           "codfilial": "4",
           "pvenda": 14.49
+        },
+        {
+          "desc": "VINHO BORDO QUINTA DO MORGADO 750ML",
+          "industria": "FANTE",
+          "qt": 12,
+          "val": 214.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "3816",
+          "codfilial": "4",
+          "pvenda": 17.9
         },
         {
           "desc": "RUM MONTILLA CRISTAL 1L",
@@ -36232,20 +36280,6 @@ const PEDIDOS_DATA = {
       "total": 1111.86,
       "itens": [
         {
-          "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-          "industria": "TATUZINHO",
-          "qt": 1,
-          "val": 94.7,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "6255",
-          "codfilial": "2",
-          "pvenda": 94.7
-        },
-        {
           "desc": "GIN TANQUERAY  750 ML",
           "industria": "DIAGEO",
           "qt": 1,
@@ -36284,6 +36318,20 @@ const PEDIDOS_DATA = {
           "qt_original": 1.0,
           "cortado": false,
           "codprod": "6259",
+          "codfilial": "2",
+          "pvenda": 94.7
+        },
+        {
+          "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "industria": "TATUZINHO",
+          "qt": 1,
+          "val": 94.7,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "6255",
           "codfilial": "2",
           "pvenda": 94.7
         },
@@ -41294,20 +41342,6 @@ const PEDIDOS_DATA = {
       "total": 2386.2,
       "itens": [
         {
-          "desc": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
-          "industria": "CASTAS",
-          "qt": 6,
-          "val": 179.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "cortado": false,
-          "codprod": "4569",
-          "codfilial": "4",
-          "pvenda": 29.9
-        },
-        {
           "desc": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
           "industria": "CASTAS",
           "qt": 6,
@@ -41346,6 +41380,20 @@ const PEDIDOS_DATA = {
           "qt_original": 6.0,
           "cortado": false,
           "codprod": "4571",
+          "codfilial": "4",
+          "pvenda": 29.9
+        },
+        {
+          "desc": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
+          "industria": "CASTAS",
+          "qt": 6,
+          "val": 179.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "4569",
           "codfilial": "4",
           "pvenda": 29.9
         },
@@ -41756,20 +41804,6 @@ const PEDIDOS_DATA = {
       "total": 41410.32,
       "itens": [
         {
-          "desc": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
-          "industria": "TATUZINHO",
-          "qt": 8,
-          "val": 1138.56,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 8.0,
-          "cortado": false,
-          "codprod": "6334",
-          "codfilial": "4",
-          "pvenda": 142.32
-        },
-        {
           "desc": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
           "industria": "TATUZINHO",
           "qt": 8,
@@ -41810,6 +41844,20 @@ const PEDIDOS_DATA = {
           "codprod": "5392",
           "codfilial": "4",
           "pvenda": 95.76
+        },
+        {
+          "desc": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
+          "industria": "TATUZINHO",
+          "qt": 8,
+          "val": 1138.56,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 8.0,
+          "cortado": false,
+          "codprod": "6334",
+          "codfilial": "4",
+          "pvenda": 142.32
         },
         {
           "desc": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
@@ -44215,20 +44263,6 @@ const PEDIDOS_DATA = {
       "total": 4315.96,
       "itens": [
         {
-          "desc": "VINHO BORDO QUINTA DO MORGADO 750ML",
-          "industria": "FANTE",
-          "qt": 12,
-          "val": 209.88,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "cortado": false,
-          "codprod": "3816",
-          "codfilial": "4",
-          "pvenda": 17.49
-        },
-        {
           "desc": "VINHO TINTO QUINTA DO MORGADO 750ML",
           "industria": "FANTE",
           "qt": 48,
@@ -44269,6 +44303,20 @@ const PEDIDOS_DATA = {
           "codprod": "7106",
           "codfilial": "4",
           "pvenda": 14.49
+        },
+        {
+          "desc": "VINHO BORDO QUINTA DO MORGADO 750ML",
+          "industria": "FANTE",
+          "qt": 12,
+          "val": 209.88,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "3816",
+          "codfilial": "4",
+          "pvenda": 17.49
         },
         {
           "desc": "VINHO BORDO QUINTA DO MORGADO 1LT",
@@ -44819,20 +44867,6 @@ const PEDIDOS_DATA = {
       "total": 7016.4,
       "itens": [
         {
-          "desc": "VINHO CHATEAU DAGASSAC TINTO 750ML",
-          "industria": "CASTAS",
-          "qt": 12,
-          "val": 3660.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "cortado": false,
-          "codprod": "3038",
-          "codfilial": "4",
-          "pvenda": 305.0
-        },
-        {
           "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
           "industria": "CASTAS",
           "qt": 6,
@@ -44873,6 +44907,20 @@ const PEDIDOS_DATA = {
           "codprod": "2916",
           "codfilial": "4",
           "pvenda": 56.0
+        },
+        {
+          "desc": "VINHO CHATEAU DAGASSAC TINTO 750ML",
+          "industria": "CASTAS",
+          "qt": 12,
+          "val": 3660.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "3038",
+          "codfilial": "4",
+          "pvenda": 305.0
         },
         {
           "desc": "VINHO TROU DE LAPIN BORDEAUX BRANCO 750M",
@@ -46211,20 +46259,6 @@ const PEDIDOS_DATA = {
           "pvenda": 29.9
         },
         {
-          "desc": "VINHO FOODKILLER CAB. SAUV./ MERLOT",
-          "industria": "CASTAS",
-          "qt": 6,
-          "val": 191.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "cortado": false,
-          "codprod": "2926",
-          "codfilial": "4",
-          "pvenda": 31.9
-        },
-        {
           "desc": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
           "industria": "CASTAS",
           "qt": 6,
@@ -46263,6 +46297,20 @@ const PEDIDOS_DATA = {
           "qt_original": 12.0,
           "cortado": false,
           "codprod": "2927",
+          "codfilial": "4",
+          "pvenda": 31.9
+        },
+        {
+          "desc": "VINHO FOODKILLER CAB. SAUV./ MERLOT",
+          "industria": "CASTAS",
+          "qt": 6,
+          "val": 191.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "2926",
           "codfilial": "4",
           "pvenda": 31.9
         },
@@ -55171,20 +55219,6 @@ const PEDIDOS_DATA = {
       "total": 4877.38,
       "itens": [
         {
-          "desc": "RC ATUM PEDACOS EM OLEO 24X140G",
-          "industria": "ROBINSON CRUSOE",
-          "qt": 5,
-          "val": 972.85,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 5.0,
-          "cortado": false,
-          "codprod": "5759",
-          "codfilial": "2",
-          "pvenda": 194.57
-        },
-        {
           "desc": "RC ATUM PEDACOS NATURAL 24X140G",
           "industria": "ROBINSON CRUSOE",
           "qt": 2,
@@ -55209,6 +55243,20 @@ const PEDIDOS_DATA = {
           "qt_original": 5.0,
           "cortado": false,
           "codprod": "7331",
+          "codfilial": "2",
+          "pvenda": 194.57
+        },
+        {
+          "desc": "RC ATUM PEDACOS EM OLEO 24X140G",
+          "industria": "ROBINSON CRUSOE",
+          "qt": 5,
+          "val": 972.85,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 5.0,
+          "cortado": false,
+          "codprod": "5759",
           "codfilial": "2",
           "pvenda": 194.57
         },
@@ -55332,20 +55380,6 @@ const PEDIDOS_DATA = {
           "pvenda": 194.57
         },
         {
-          "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-          "industria": "ROBINSON CRUSOE",
-          "qt": 2,
-          "val": 304.16,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "7332",
-          "codfilial": "2",
-          "pvenda": 152.08
-        },
-        {
           "desc": "RC ATUM PEDACOS EM OLEO 24X140G",
           "industria": "ROBINSON CRUSOE",
           "qt": 10,
@@ -55372,6 +55406,20 @@ const PEDIDOS_DATA = {
           "codprod": "5582",
           "codfilial": "2",
           "pvenda": 152.07
+        },
+        {
+          "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+          "industria": "ROBINSON CRUSOE",
+          "qt": 2,
+          "val": 304.16,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "7332",
+          "codfilial": "2",
+          "pvenda": 152.08
         },
         {
           "desc": "RC ATUM SOLIDO NATURAL 24X170G",
@@ -55514,20 +55562,6 @@ const PEDIDOS_DATA = {
           "pvenda": 185.15
         },
         {
-          "desc": "RC ATUM RALADO NATURAL 24X140G",
-          "industria": "ROBINSON CRUSOE",
-          "qt": 46,
-          "val": 6200.33,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 46.0,
-          "cortado": false,
-          "codprod": "5582",
-          "codfilial": "2",
-          "pvenda": 134.79
-        },
-        {
           "desc": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
           "industria": "ROBINSON CRUSOE",
           "qt": 20,
@@ -55540,6 +55574,20 @@ const PEDIDOS_DATA = {
           "codprod": "7515",
           "codfilial": "2",
           "pvenda": 113.68
+        },
+        {
+          "desc": "RC ATUM RALADO NATURAL 24X140G",
+          "industria": "ROBINSON CRUSOE",
+          "qt": 46,
+          "val": 6200.33,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 46.0,
+          "cortado": false,
+          "codprod": "5582",
+          "codfilial": "2",
+          "pvenda": 134.79
         },
         {
           "desc": "RC ATUM SOLIDO OLEO 24X170G",
@@ -55612,20 +55660,6 @@ const PEDIDOS_DATA = {
       "total": 26109.0,
       "itens": [
         {
-          "desc": "YVY DESTILADO GIN MAR 6X710ML LT",
-          "industria": "HOB",
-          "qt": 10,
-          "val": 1976.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 10.0,
-          "cortado": false,
-          "codprod": "6799",
-          "codfilial": "4",
-          "pvenda": 197.64
-        },
-        {
           "desc": "YVY DESTILADO GIN AR 6X710ML LT",
           "industria": "HOB",
           "qt": 10,
@@ -55636,6 +55670,20 @@ const PEDIDOS_DATA = {
           "qt_original": 10.0,
           "cortado": false,
           "codprod": "6798",
+          "codfilial": "4",
+          "pvenda": 197.64
+        },
+        {
+          "desc": "YVY DESTILADO GIN MAR 6X710ML LT",
+          "industria": "HOB",
+          "qt": 10,
+          "val": 1976.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 10.0,
+          "cortado": false,
+          "codprod": "6799",
           "codfilial": "4",
           "pvenda": 197.64
         },
@@ -66806,20 +66854,6 @@ const PEDIDOS_DATA = {
       "total": 1059.0,
       "itens": [
         {
-          "desc": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
-          "industria": "BALLENA",
-          "qt": 1,
-          "val": 99.9,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "4824",
-          "codfilial": "4",
-          "pvenda": 99.9
-        },
-        {
           "desc": "LICOR BALLENA COCO 750ML",
           "industria": "BALLENA",
           "qt": 1,
@@ -66844,6 +66878,20 @@ const PEDIDOS_DATA = {
           "qt_original": 2.0,
           "cortado": false,
           "codprod": "3054",
+          "codfilial": "4",
+          "pvenda": 99.9
+        },
+        {
+          "desc": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
+          "industria": "BALLENA",
+          "qt": 1,
+          "val": 99.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "4824",
           "codfilial": "4",
           "pvenda": 99.9
         },
@@ -67845,20 +67893,6 @@ const PEDIDOS_DATA = {
       "total": 1560.6,
       "itens": [
         {
-          "desc": "VILLA ROSA TINTO 750ML",
-          "industria": "CASTAS",
-          "qt": 30,
-          "val": 867.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 30.0,
-          "cortado": false,
-          "codprod": "2614",
-          "codfilial": "4",
-          "pvenda": 28.9
-        },
-        {
           "desc": "VILLA ROSA  ROSE 750ML",
           "industria": "CASTAS",
           "qt": 24,
@@ -67869,6 +67903,20 @@ const PEDIDOS_DATA = {
           "qt_original": 24.0,
           "cortado": false,
           "codprod": "2703",
+          "codfilial": "4",
+          "pvenda": 28.9
+        },
+        {
+          "desc": "VILLA ROSA TINTO 750ML",
+          "industria": "CASTAS",
+          "qt": 30,
+          "val": 867.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 30.0,
+          "cortado": false,
+          "codprod": "2614",
           "codfilial": "4",
           "pvenda": 28.9
         }
@@ -68490,20 +68538,6 @@ const PEDIDOS_DATA = {
           "pvenda": 39.9
         },
         {
-          "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "industria": "CASTAS",
-          "qt": 2,
-          "val": 119.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "2848",
-          "codfilial": "2",
-          "pvenda": 59.9
-        },
-        {
           "desc": "TERRAZAS RESERVA CHARDONNAY 750 ML",
           "industria": "HENNESSY",
           "qt": 2,
@@ -68544,6 +68578,20 @@ const PEDIDOS_DATA = {
           "codprod": "3772",
           "codfilial": "2",
           "pvenda": 79.9
+        },
+        {
+          "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "industria": "CASTAS",
+          "qt": 2,
+          "val": 119.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "2848",
+          "codfilial": "2",
+          "pvenda": 59.9
         },
         {
           "desc": "GIN BEEFEATER 750ML",
@@ -76895,20 +76943,6 @@ const PEDIDOS_DATA = {
           "pvenda": 22.9
         },
         {
-          "desc": "CONHAQUE DOMECQ 1L",
-          "industria": "PERNOD",
-          "qt": 12,
-          "val": 334.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "cortado": false,
-          "codprod": "64",
-          "codfilial": "4",
-          "pvenda": 27.9
-        },
-        {
           "desc": "GIN LARIOS ORIGINAL 700ML",
           "industria": "BEAM SUNTORY",
           "qt": 12,
@@ -76949,6 +76983,20 @@ const PEDIDOS_DATA = {
           "codprod": "381",
           "codfilial": "4",
           "pvenda": 12.4
+        },
+        {
+          "desc": "CONHAQUE DOMECQ 1L",
+          "industria": "PERNOD",
+          "qt": 12,
+          "val": 334.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "64",
+          "codfilial": "4",
+          "pvenda": 27.9
         },
         {
           "desc": "COQUETEL BANANINHA REGGIANI 950ML",
@@ -80838,20 +80886,6 @@ const PEDIDOS_DATA = {
       "total": 1984.44,
       "itens": [
         {
-          "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-          "industria": "TATUZINHO",
-          "qt": 3,
-          "val": 258.84,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 3.0,
-          "cortado": false,
-          "codprod": "7207",
-          "codfilial": "4",
-          "pvenda": 86.28
-        },
-        {
           "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
           "industria": "TATUZINHO",
           "qt": 5,
@@ -80876,6 +80910,20 @@ const PEDIDOS_DATA = {
           "qt_original": 1.0,
           "cortado": false,
           "codprod": "6255",
+          "codfilial": "4",
+          "pvenda": 86.28
+        },
+        {
+          "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "industria": "TATUZINHO",
+          "qt": 3,
+          "val": 258.84,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "cortado": false,
+          "codprod": "7207",
           "codfilial": "4",
           "pvenda": 86.28
         },
@@ -88239,20 +88287,6 @@ const PEDIDOS_DATA = {
       "total": 107805.67,
       "itens": [
         {
-          "desc": "EASY BOOZE LATA 24X270ML RED MINT",
-          "industria": "TATUZINHO",
-          "qt": 10,
-          "val": 1332.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 10.0,
-          "cortado": false,
-          "codprod": "2970",
-          "codfilial": "1",
-          "pvenda": 133.2
-        },
-        {
           "desc": "EASY BOOZE LATA 24X269ML SPRITZ",
           "industria": "TATUZINHO",
           "qt": 4,
@@ -88277,6 +88311,20 @@ const PEDIDOS_DATA = {
           "qt_original": 15.0,
           "cortado": false,
           "codprod": "2969",
+          "codfilial": "1",
+          "pvenda": 133.2
+        },
+        {
+          "desc": "EASY BOOZE LATA 24X270ML RED MINT",
+          "industria": "TATUZINHO",
+          "qt": 10,
+          "val": 1332.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 10.0,
+          "cortado": false,
+          "codprod": "2970",
           "codfilial": "1",
           "pvenda": 133.2
         },
@@ -88365,20 +88413,6 @@ const PEDIDOS_DATA = {
           "pvenda": 131.0
         },
         {
-          "desc": "MARTINI RISERVA AMBRATTO 750 ML",
-          "industria": "BACARDI",
-          "qt": 12,
-          "val": 1722.52,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "cortado": false,
-          "codprod": "1787",
-          "codfilial": "1",
-          "pvenda": 143.54
-        },
-        {
           "desc": "LICOR BANANINHA CARIOCA 750ML",
           "industria": "BANANINHA CARIOCA",
           "qt": 24,
@@ -88419,6 +88453,20 @@ const PEDIDOS_DATA = {
           "codprod": "169",
           "codfilial": "1",
           "pvenda": 35.64
+        },
+        {
+          "desc": "MARTINI RISERVA AMBRATTO 750 ML",
+          "industria": "BACARDI",
+          "qt": 12,
+          "val": 1722.52,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "1787",
+          "codfilial": "1",
+          "pvenda": 143.54
         },
         {
           "desc": "MARTINI ROSATO 750 ML",
@@ -88519,20 +88567,6 @@ const PEDIDOS_DATA = {
           "pvenda": 20.71
         },
         {
-          "desc": "WHISKY JIM BEAM APPLE 1L",
-          "industria": "BEAM SUNTORY",
-          "qt": 60,
-          "val": 5994.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 60.0,
-          "cortado": false,
-          "codprod": "3151",
-          "codfilial": "1",
-          "pvenda": 99.9
-        },
-        {
           "desc": "TERRAZAS EL YAIMA COSECHA 375ML",
           "industria": "HENNESSY",
           "qt": 6,
@@ -88573,6 +88607,20 @@ const PEDIDOS_DATA = {
           "codprod": "418",
           "codfilial": "1",
           "pvenda": 22.21
+        },
+        {
+          "desc": "WHISKY JIM BEAM APPLE 1L",
+          "industria": "BEAM SUNTORY",
+          "qt": 60,
+          "val": 5994.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 60.0,
+          "cortado": false,
+          "codprod": "3151",
+          "codfilial": "1",
+          "pvenda": 99.9
         },
         {
           "desc": "WHISKY JIM BEAM HONEY 1L",
@@ -88722,20 +88770,6 @@ const PEDIDOS_DATA = {
           "pvenda": 101.29
         },
         {
-          "desc": "ST PIERRE VIDRO SUGAR FREE LN 275X12",
-          "industria": "TATUZINHO",
-          "qt": 14,
-          "val": 793.1,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 14.0,
-          "cortado": false,
-          "codprod": "3176",
-          "codfilial": "1",
-          "pvenda": 56.65
-        },
-        {
           "desc": "ST PIERRE VIDRO GINGER LN 12X275ML",
           "industria": "TATUZINHO",
           "qt": 16,
@@ -88774,6 +88808,20 @@ const PEDIDOS_DATA = {
           "qt_original": 17.0,
           "cortado": false,
           "codprod": "3177",
+          "codfilial": "1",
+          "pvenda": 56.65
+        },
+        {
+          "desc": "ST PIERRE VIDRO SUGAR FREE LN 275X12",
+          "industria": "TATUZINHO",
+          "qt": 14,
+          "val": 793.1,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 14.0,
+          "cortado": false,
+          "codprod": "3176",
           "codfilial": "1",
           "pvenda": 56.65
         },
@@ -89633,20 +89681,6 @@ const PEDIDOS_DATA = {
       "total": 2345.4,
       "itens": [
         {
-          "desc": "VILLA ROSA TINTO 750ML",
-          "industria": "CASTAS",
-          "qt": 30,
-          "val": 867.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 30.0,
-          "cortado": false,
-          "codprod": "2614",
-          "codfilial": "4",
-          "pvenda": 28.9
-        },
-        {
           "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
           "industria": "CASA PERINI",
           "qt": 24,
@@ -89659,6 +89693,20 @@ const PEDIDOS_DATA = {
           "codprod": "2781",
           "codfilial": "4",
           "pvenda": 32.7
+        },
+        {
+          "desc": "VILLA ROSA TINTO 750ML",
+          "industria": "CASTAS",
+          "qt": 30,
+          "val": 867.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 30.0,
+          "cortado": false,
+          "codprod": "2614",
+          "codfilial": "4",
+          "pvenda": 28.9
         },
         {
           "desc": "VILLA ROSA  ROSE 750ML",
@@ -89836,20 +89884,6 @@ const PEDIDOS_DATA = {
           "pvenda": 28.9
         },
         {
-          "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "industria": "CASA PERINI",
-          "qt": 18,
-          "val": 588.6,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 18.0,
-          "cortado": false,
-          "codprod": "2781",
-          "codfilial": "4",
-          "pvenda": 32.7
-        },
-        {
           "desc": "VILLA ROSA TINTO 750ML",
           "industria": "CASTAS",
           "qt": 30,
@@ -89890,6 +89924,20 @@ const PEDIDOS_DATA = {
           "codprod": "484",
           "codfilial": "4",
           "pvenda": 84.66
+        },
+        {
+          "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "industria": "CASA PERINI",
+          "qt": 18,
+          "val": 588.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 18.0,
+          "cortado": false,
+          "codprod": "2781",
+          "codfilial": "4",
+          "pvenda": 32.7
         }
       ],
       "tem_corte": false,
@@ -91144,20 +91192,6 @@ const PEDIDOS_DATA = {
       "total": 369.54,
       "itens": [
         {
-          "desc": "GIN ROCKS STRAWBERRY 1000ML",
-          "industria": "FANTE",
-          "qt": 6,
-          "val": 135.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "cortado": false,
-          "codprod": "3642",
-          "codfilial": "4",
-          "pvenda": 22.5
-        },
-        {
           "desc": "ESPUMANTE ALUD ROSE 750ML",
           "industria": "CASTAS",
           "qt": 6,
@@ -91170,6 +91204,20 @@ const PEDIDOS_DATA = {
           "codprod": "3063",
           "codfilial": "4",
           "pvenda": 26.9
+        },
+        {
+          "desc": "GIN ROCKS STRAWBERRY 1000ML",
+          "industria": "FANTE",
+          "qt": 6,
+          "val": 135.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "3642",
+          "codfilial": "4",
+          "pvenda": 22.5
         },
         {
           "desc": "VINHO TINTO QUINTA DO MORGADO 750ML",
@@ -103910,20 +103958,6 @@ const PEDIDOS_DATA = {
           "pvenda": 49.9
         },
         {
-          "desc": "RED BULL MELANCIA 250ML CX C/24",
-          "industria": "RED BULL",
-          "qt": 2,
-          "val": 345.12,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "2799",
-          "codfilial": "2",
-          "pvenda": 172.56
-        },
-        {
           "desc": "RED BULL SUGAR FREE 24X250ML",
           "industria": "RED BULL",
           "qt": 1,
@@ -103964,6 +103998,20 @@ const PEDIDOS_DATA = {
           "codprod": "4880",
           "codfilial": "2",
           "pvenda": 179.76
+        },
+        {
+          "desc": "RED BULL MELANCIA 250ML CX C/24",
+          "industria": "RED BULL",
+          "qt": 2,
+          "val": 345.12,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "2799",
+          "codfilial": "2",
+          "pvenda": 172.56
         }
       ],
       "tem_corte": false,
@@ -104399,20 +104447,6 @@ const PEDIDOS_DATA = {
       "total": 8677.2,
       "itens": [
         {
-          "desc": "RED BULL ZERO  24X250ML",
-          "industria": "RED BULL",
-          "qt": 5,
-          "val": 898.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 5.0,
-          "cortado": false,
-          "codprod": "5387",
-          "codfilial": "2",
-          "pvenda": 179.76
-        },
-        {
           "desc": "RED BULL 24X250ML",
           "industria": "RED BULL",
           "qt": 25,
@@ -104423,6 +104457,20 @@ const PEDIDOS_DATA = {
           "qt_original": 25.0,
           "cortado": false,
           "codprod": "3",
+          "codfilial": "2",
+          "pvenda": 179.76
+        },
+        {
+          "desc": "RED BULL ZERO  24X250ML",
+          "industria": "RED BULL",
+          "qt": 5,
+          "val": 898.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 5.0,
+          "cortado": false,
+          "codprod": "5387",
           "codfilial": "2",
           "pvenda": 179.76
         },
@@ -104547,20 +104595,6 @@ const PEDIDOS_DATA = {
       "total": 4000.8,
       "itens": [
         {
-          "desc": "VINHO TINTO QUINTA DO MORGADO 1LT",
-          "industria": "FANTE",
-          "qt": 36,
-          "val": 644.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 36.0,
-          "cortado": false,
-          "codprod": "3817",
-          "codfilial": "4",
-          "pvenda": 17.9
-        },
-        {
           "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
           "industria": "CASA PERINI",
           "qt": 36,
@@ -104573,6 +104607,20 @@ const PEDIDOS_DATA = {
           "codprod": "663",
           "codfilial": "4",
           "pvenda": 33.9
+        },
+        {
+          "desc": "VINHO TINTO QUINTA DO MORGADO 1LT",
+          "industria": "FANTE",
+          "qt": 36,
+          "val": 644.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 36.0,
+          "cortado": false,
+          "codprod": "3817",
+          "codfilial": "4",
+          "pvenda": 17.9
         },
         {
           "desc": "VINHO TINTO QUINTA DO MORGADO 750ML",
@@ -105318,20 +105366,6 @@ const PEDIDOS_DATA = {
           "pvenda": 59.88
         },
         {
-          "desc": "NECTAR MISTO GOIABA 24X200ML KIDS",
-          "industria": "TIAL",
-          "qt": 1,
-          "val": 47.76,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "6228",
-          "codfilial": "2",
-          "pvenda": 47.76
-        },
-        {
           "desc": "NECTAR DE MARACUJA 24X200ML KIDS",
           "industria": "TIAL",
           "qt": 1,
@@ -105372,6 +105406,20 @@ const PEDIDOS_DATA = {
           "codprod": "6346",
           "codfilial": "2",
           "pvenda": 59.88
+        },
+        {
+          "desc": "NECTAR MISTO GOIABA 24X200ML KIDS",
+          "industria": "TIAL",
+          "qt": 1,
+          "val": 47.76,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "6228",
+          "codfilial": "2",
+          "pvenda": 47.76
         },
         {
           "desc": "NECTAR MISTO LARANJA E PERA 24X200ML KID",
@@ -105536,20 +105584,6 @@ const PEDIDOS_DATA = {
       "total": 1224.73,
       "itens": [
         {
-          "desc": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
-          "industria": "JURUPINGA",
-          "qt": 6,
-          "val": 136.98,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "cortado": false,
-          "codprod": "1212",
-          "codfilial": "4",
-          "pvenda": 22.83
-        },
-        {
           "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
           "industria": "CASA PERINI",
           "qt": 6,
@@ -105562,6 +105596,20 @@ const PEDIDOS_DATA = {
           "codprod": "663",
           "codfilial": "4",
           "pvenda": 34.5
+        },
+        {
+          "desc": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
+          "industria": "JURUPINGA",
+          "qt": 6,
+          "val": 136.98,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "1212",
+          "codfilial": "4",
+          "pvenda": 22.83
         },
         {
           "desc": "VODKA ORLOFF 1L",
@@ -105914,20 +105962,6 @@ const PEDIDOS_DATA = {
           "pvenda": 64.91
         },
         {
-          "desc": "VODKA ORLOFF 1L",
-          "industria": "PERNOD",
-          "qt": 12,
-          "val": 231.72,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "cortado": false,
-          "codprod": "235",
-          "codfilial": "4",
-          "pvenda": 19.31
-        },
-        {
           "desc": "RUM BACARDI LIMON 700ML",
           "industria": "BACARDI",
           "qt": 1,
@@ -105954,6 +105988,20 @@ const PEDIDOS_DATA = {
           "codprod": "3819",
           "codfilial": "4",
           "pvenda": 12.55
+        },
+        {
+          "desc": "VODKA ORLOFF 1L",
+          "industria": "PERNOD",
+          "qt": 12,
+          "val": 231.72,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "235",
+          "codfilial": "4",
+          "pvenda": 19.31
         },
         {
           "desc": "RUM MONTILLA OURO 1L",
@@ -106327,20 +106375,6 @@ const PEDIDOS_DATA = {
       "total": 931.8,
       "itens": [
         {
-          "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "industria": "TATUZINHO",
-          "qt": 5,
-          "val": 431.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 5.0,
-          "cortado": false,
-          "codprod": "6259",
-          "codfilial": "4",
-          "pvenda": 86.28
-        },
-        {
           "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
           "industria": "TATUZINHO",
           "qt": 2,
@@ -106365,6 +106399,20 @@ const PEDIDOS_DATA = {
           "qt_original": 2.0,
           "cortado": false,
           "codprod": "6256",
+          "codfilial": "4",
+          "pvenda": 86.28
+        },
+        {
+          "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "industria": "TATUZINHO",
+          "qt": 5,
+          "val": 431.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 5.0,
+          "cortado": false,
+          "codprod": "6259",
           "codfilial": "4",
           "pvenda": 86.28
         },
@@ -112671,20 +112719,6 @@ const PEDIDOS_DATA = {
           "pvenda": 174.96
         },
         {
-          "desc": "RED BULL MELANCIA 250ML CX C/24",
-          "industria": "RED BULL",
-          "qt": 2,
-          "val": 349.92,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "2799",
-          "codfilial": "2",
-          "pvenda": 174.96
-        },
-        {
           "desc": "RED BULL ZERO  24X250ML",
           "industria": "RED BULL",
           "qt": 1,
@@ -112723,6 +112757,20 @@ const PEDIDOS_DATA = {
           "qt_original": 2.0,
           "cortado": false,
           "codprod": "3065",
+          "codfilial": "2",
+          "pvenda": 174.96
+        },
+        {
+          "desc": "RED BULL MELANCIA 250ML CX C/24",
+          "industria": "RED BULL",
+          "qt": 2,
+          "val": 349.92,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "2799",
           "codfilial": "2",
           "pvenda": 174.96
         }
@@ -114093,20 +114141,6 @@ const PEDIDOS_DATA = {
       "total": 2898.96,
       "itens": [
         {
-          "desc": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
-          "industria": "TATUZINHO",
-          "qt": 1,
-          "val": 155.28,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "6334",
-          "codfilial": "4",
-          "pvenda": 155.28
-        },
-        {
           "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
           "industria": "TATUZINHO",
           "qt": 10,
@@ -114147,6 +114181,20 @@ const PEDIDOS_DATA = {
           "codprod": "6259",
           "codfilial": "4",
           "pvenda": 86.28
+        },
+        {
+          "desc": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
+          "industria": "TATUZINHO",
+          "qt": 1,
+          "val": 155.28,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "6334",
+          "codfilial": "4",
+          "pvenda": 155.28
         },
         {
           "desc": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
@@ -114366,20 +114414,6 @@ const PEDIDOS_DATA = {
       "total": 879.07,
       "itens": [
         {
-          "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-          "industria": "HENNESSY",
-          "qt": 1,
-          "val": 73.9,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "3764",
-          "codfilial": "4",
-          "pvenda": 73.9
-        },
-        {
           "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
           "industria": "CASA PERINI",
           "qt": 12,
@@ -114392,6 +114426,20 @@ const PEDIDOS_DATA = {
           "codprod": "663",
           "codfilial": "4",
           "pvenda": 32.9
+        },
+        {
+          "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "industria": "HENNESSY",
+          "qt": 1,
+          "val": 73.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "3764",
+          "codfilial": "4",
+          "pvenda": 73.9
         },
         {
           "desc": "CHANDON RESERVE BRUT ROSE 750ML",
@@ -114548,20 +114596,6 @@ const PEDIDOS_DATA = {
       "total": 914.62,
       "itens": [
         {
-          "desc": "CONHAQUE DREHER 900ML",
-          "industria": "CAMPARI",
-          "qt": 12,
-          "val": 199.32,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "cortado": false,
-          "codprod": "290",
-          "codfilial": "4",
-          "pvenda": 16.61
-        },
-        {
           "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
           "industria": "CASA PERINI",
           "qt": 12,
@@ -114574,6 +114608,20 @@ const PEDIDOS_DATA = {
           "codprod": "663",
           "codfilial": "4",
           "pvenda": 32.9
+        },
+        {
+          "desc": "CONHAQUE DREHER 900ML",
+          "industria": "CAMPARI",
+          "qt": 12,
+          "val": 199.32,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "290",
+          "codfilial": "4",
+          "pvenda": 16.61
         },
         {
           "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
@@ -117719,20 +117767,6 @@ const PEDIDOS_DATA = {
       "total": 955.2,
       "itens": [
         {
-          "desc": "MOVING BOOSTER LIMAO 24X310ML",
-          "industria": "TATUZINHO",
-          "qt": 2,
-          "val": 309.6,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "6253",
-          "codfilial": "4",
-          "pvenda": 154.8
-        },
-        {
           "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
           "industria": "TATUZINHO",
           "qt": 2,
@@ -117771,6 +117805,20 @@ const PEDIDOS_DATA = {
           "qt_original": 2.0,
           "cortado": false,
           "codprod": "6254",
+          "codfilial": "4",
+          "pvenda": 154.8
+        },
+        {
+          "desc": "MOVING BOOSTER LIMAO 24X310ML",
+          "industria": "TATUZINHO",
+          "qt": 2,
+          "val": 309.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "6253",
           "codfilial": "4",
           "pvenda": 154.8
         }
@@ -117950,20 +117998,6 @@ const PEDIDOS_DATA = {
       "total": 1459.2,
       "itens": [
         {
-          "desc": "MOVING BOOSTER LIMAO 24X310ML",
-          "industria": "TATUZINHO",
-          "qt": 2,
-          "val": 309.6,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "6253",
-          "codfilial": "4",
-          "pvenda": 154.8
-        },
-        {
           "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
           "industria": "TATUZINHO",
           "qt": 5,
@@ -118002,6 +118036,20 @@ const PEDIDOS_DATA = {
           "qt_original": 2.0,
           "cortado": false,
           "codprod": "6254",
+          "codfilial": "4",
+          "pvenda": 154.8
+        },
+        {
+          "desc": "MOVING BOOSTER LIMAO 24X310ML",
+          "industria": "TATUZINHO",
+          "qt": 2,
+          "val": 309.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "6253",
           "codfilial": "4",
           "pvenda": 154.8
         }
@@ -118507,20 +118555,6 @@ const PEDIDOS_DATA = {
       "total": 5038.2,
       "itens": [
         {
-          "desc": "CHANDON PASSION ON ICE 750 ML",
-          "industria": "HENNESSY",
-          "qt": 12,
-          "val": 910.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "cortado": false,
-          "codprod": "3766",
-          "codfilial": "4",
-          "pvenda": 75.9
-        },
-        {
           "desc": "ESPUM CASA PERINI BRUT 750ML",
           "industria": "CASA PERINI",
           "qt": 12,
@@ -118561,6 +118595,20 @@ const PEDIDOS_DATA = {
           "codprod": "666",
           "codfilial": "4",
           "pvenda": 38.9
+        },
+        {
+          "desc": "CHANDON PASSION ON ICE 750 ML",
+          "industria": "HENNESSY",
+          "qt": 12,
+          "val": 910.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "3766",
+          "codfilial": "4",
+          "pvenda": 75.9
         },
         {
           "desc": "WHISKY BALLANTINE S SUNSHINE 700ML",
@@ -118626,20 +118674,6 @@ const PEDIDOS_DATA = {
       "total": 832.44,
       "itens": [
         {
-          "desc": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
-          "industria": "JURUPINGA",
-          "qt": 3,
-          "val": 77.7,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 3.0,
-          "cortado": false,
-          "codprod": "1212",
-          "codfilial": "2",
-          "pvenda": 25.9
-        },
-        {
           "desc": "LICOR CAN FIREBALL CX C/ 6X50ML",
           "industria": "AURORA",
           "qt": 6,
@@ -118680,6 +118714,20 @@ const PEDIDOS_DATA = {
           "codprod": "4304",
           "codfilial": "2",
           "pvenda": 15.9
+        },
+        {
+          "desc": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
+          "industria": "JURUPINGA",
+          "qt": 3,
+          "val": 77.7,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "cortado": false,
+          "codprod": "1212",
+          "codfilial": "2",
+          "pvenda": 25.9
         },
         {
           "desc": "WHISKY BALLANTINE S SUNSHINE 700ML",
@@ -118770,20 +118818,6 @@ const PEDIDOS_DATA = {
       "total": 5679.6,
       "itens": [
         {
-          "desc": "CERRO DE PEDRA RESERVA TANNAT TTO 750ML",
-          "industria": "CASTAS",
-          "qt": 3,
-          "val": 239.7,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 3.0,
-          "cortado": false,
-          "codprod": "5561",
-          "codfilial": "2",
-          "pvenda": 79.9
-        },
-        {
           "desc": "VINHO PEYRASSOL LA CROIX ROSE 750ML",
           "industria": "CASTAS",
           "qt": 3,
@@ -118824,6 +118858,20 @@ const PEDIDOS_DATA = {
           "codprod": "3891",
           "codfilial": "2",
           "pvenda": 114.9
+        },
+        {
+          "desc": "CERRO DE PEDRA RESERVA TANNAT TTO 750ML",
+          "industria": "CASTAS",
+          "qt": 3,
+          "val": 239.7,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "cortado": false,
+          "codprod": "5561",
+          "codfilial": "2",
+          "pvenda": 79.9
         },
         {
           "desc": "HUMB. CANALE DENARIO RESERVA MALBEC",
@@ -119187,20 +119235,6 @@ const PEDIDOS_DATA = {
       "total": 727.5,
       "itens": [
         {
-          "desc": "RUM BACARDI SUPERIOR 700ML",
-          "industria": "BACARDI",
-          "qt": 3,
-          "val": 107.7,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 3.0,
-          "cortado": false,
-          "codprod": "5048",
-          "codfilial": "2",
-          "pvenda": 35.9
-        },
-        {
           "desc": "VODCA SMIRNOFF RED 998 ML",
           "industria": "DIAGEO",
           "qt": 5,
@@ -119241,6 +119275,20 @@ const PEDIDOS_DATA = {
           "codprod": "266",
           "codfilial": "2",
           "pvenda": 89.9
+        },
+        {
+          "desc": "RUM BACARDI SUPERIOR 700ML",
+          "industria": "BACARDI",
+          "qt": 3,
+          "val": 107.7,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "cortado": false,
+          "codprod": "5048",
+          "codfilial": "2",
+          "pvenda": 35.9
         },
         {
           "desc": "WHISKY JIM BEAM APPLE 1L",
@@ -119556,20 +119604,6 @@ const PEDIDOS_DATA = {
           "pvenda": 154.43
         },
         {
-          "desc": "RC ATUM SOLIDO NATURAL 24X170G",
-          "industria": "ROBINSON CRUSOE",
-          "qt": 2,
-          "val": 391.92,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "5585",
-          "codfilial": "1",
-          "pvenda": 195.96
-        },
-        {
           "desc": "RC ATUM RALADO NATURAL 24X140G",
           "industria": "ROBINSON CRUSOE",
           "qt": 2,
@@ -119610,6 +119644,20 @@ const PEDIDOS_DATA = {
           "codprod": "5583",
           "codfilial": "1",
           "pvenda": 142.74
+        },
+        {
+          "desc": "RC ATUM SOLIDO NATURAL 24X170G",
+          "industria": "ROBINSON CRUSOE",
+          "qt": 2,
+          "val": 391.92,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "5585",
+          "codfilial": "1",
+          "pvenda": 195.96
         },
         {
           "desc": "RC ATUM SOLIDO OLEO 24X170G",
@@ -120009,20 +120057,6 @@ const PEDIDOS_DATA = {
       "total": 12579.84,
       "itens": [
         {
-          "desc": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
-          "industria": "ROBINSON CRUSOE",
-          "qt": 2,
-          "val": 308.86,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "7331",
-          "codfilial": "1",
-          "pvenda": 154.43
-        },
-        {
           "desc": "RC ATUM PEDACOS NATURAL 24X140G",
           "industria": "ROBINSON CRUSOE",
           "qt": 2,
@@ -120033,6 +120067,20 @@ const PEDIDOS_DATA = {
           "qt_original": 2.0,
           "cortado": false,
           "codprod": "5762",
+          "codfilial": "1",
+          "pvenda": 154.43
+        },
+        {
+          "desc": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+          "industria": "ROBINSON CRUSOE",
+          "qt": 2,
+          "val": 308.86,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "7331",
           "codfilial": "1",
           "pvenda": 154.43
         },
@@ -120174,20 +120222,6 @@ const PEDIDOS_DATA = {
       "total": 8065.38,
       "itens": [
         {
-          "desc": "RC ATUM PEDACOS EM OLEO 24X140G",
-          "industria": "ROBINSON CRUSOE",
-          "qt": 2,
-          "val": 308.86,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "5759",
-          "codfilial": "1",
-          "pvenda": 154.43
-        },
-        {
           "desc": "RC ATUM PEDACOS NATURAL 24X140G",
           "industria": "ROBINSON CRUSOE",
           "qt": 2,
@@ -120212,6 +120246,20 @@ const PEDIDOS_DATA = {
           "qt_original": 2.0,
           "cortado": false,
           "codprod": "7331",
+          "codfilial": "1",
+          "pvenda": 154.43
+        },
+        {
+          "desc": "RC ATUM PEDACOS EM OLEO 24X140G",
+          "industria": "ROBINSON CRUSOE",
+          "qt": 2,
+          "val": 308.86,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "5759",
           "codfilial": "1",
           "pvenda": 154.43
         },
@@ -120339,20 +120387,6 @@ const PEDIDOS_DATA = {
       "total": 10251.24,
       "itens": [
         {
-          "desc": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
-          "industria": "ROBINSON CRUSOE",
-          "qt": 2,
-          "val": 308.86,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "7331",
-          "codfilial": "1",
-          "pvenda": 154.43
-        },
-        {
           "desc": "RC ATUM PEDACOS NATURAL 24X140G",
           "industria": "ROBINSON CRUSOE",
           "qt": 2,
@@ -120363,6 +120397,20 @@ const PEDIDOS_DATA = {
           "qt_original": 2.0,
           "cortado": false,
           "codprod": "5762",
+          "codfilial": "1",
+          "pvenda": 154.43
+        },
+        {
+          "desc": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+          "industria": "ROBINSON CRUSOE",
+          "qt": 2,
+          "val": 308.86,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "7331",
           "codfilial": "1",
           "pvenda": 154.43
         },
@@ -120557,20 +120605,6 @@ const PEDIDOS_DATA = {
       "total": 1272.0,
       "itens": [
         {
-          "desc": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
-          "industria": "FANTE",
-          "qt": 24,
-          "val": 429.6,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 24.0,
-          "cortado": false,
-          "codprod": "7095",
-          "codfilial": "2",
-          "pvenda": 17.9
-        },
-        {
           "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
           "industria": "FANTE",
           "qt": 72,
@@ -120583,6 +120617,20 @@ const PEDIDOS_DATA = {
           "codprod": "7081",
           "codfilial": "2",
           "pvenda": 11.7
+        },
+        {
+          "desc": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
+          "industria": "FANTE",
+          "qt": 24,
+          "val": 429.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 24.0,
+          "cortado": false,
+          "codprod": "7095",
+          "codfilial": "2",
+          "pvenda": 17.9
         }
       ],
       "tem_corte": false,
@@ -120754,20 +120802,6 @@ const PEDIDOS_DATA = {
       "total": 47182.8,
       "itens": [
         {
-          "desc": "WHISKY JIM BEAM APPLE 1L",
-          "industria": "BEAM SUNTORY",
-          "qt": 132,
-          "val": 12658.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 132.0,
-          "cortado": false,
-          "codprod": "3151",
-          "codfilial": "2",
-          "pvenda": 95.9
-        },
-        {
           "desc": "WHISKY JIM BEAM WHITE 1L",
           "industria": "BEAM SUNTORY",
           "qt": 132,
@@ -120792,6 +120826,20 @@ const PEDIDOS_DATA = {
           "qt_original": 96.0,
           "cortado": false,
           "codprod": "1526",
+          "codfilial": "2",
+          "pvenda": 95.9
+        },
+        {
+          "desc": "WHISKY JIM BEAM APPLE 1L",
+          "industria": "BEAM SUNTORY",
+          "qt": 132,
+          "val": 12658.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 132.0,
+          "cortado": false,
+          "codprod": "3151",
           "codfilial": "2",
           "pvenda": 95.9
         },
@@ -121882,20 +121930,6 @@ const PEDIDOS_DATA = {
       "total": 1701.0,
       "itens": [
         {
-          "desc": "ESPUMANTE ALUD ROSE 750ML",
-          "industria": "CASTAS",
-          "qt": 12,
-          "val": 346.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "cortado": false,
-          "codprod": "3063",
-          "codfilial": "4",
-          "pvenda": 28.9
-        },
-        {
           "desc": "CHANDON RESERVE BRUT ROSE 750ML",
           "industria": "HENNESSY",
           "qt": 6,
@@ -121936,6 +121970,20 @@ const PEDIDOS_DATA = {
           "codprod": "3764",
           "codfilial": "4",
           "pvenda": 73.9
+        },
+        {
+          "desc": "ESPUMANTE ALUD ROSE 750ML",
+          "industria": "CASTAS",
+          "qt": 12,
+          "val": 346.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "3063",
+          "codfilial": "4",
+          "pvenda": 28.9
         }
       ],
       "tem_corte": false,
@@ -124585,20 +124633,6 @@ const PEDIDOS_DATA = {
           "pvenda": 22.9
         },
         {
-          "desc": "CACHACA VELHO BARREIRO 910 ML",
-          "industria": "TATUZINHO",
-          "qt": 12,
-          "val": 144.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "cortado": false,
-          "codprod": "381",
-          "codfilial": "4",
-          "pvenda": 12.0
-        },
-        {
           "desc": "GIN ROCKS STRAWBERRY 1000ML",
           "industria": "FANTE",
           "qt": 6,
@@ -124639,6 +124673,20 @@ const PEDIDOS_DATA = {
           "codprod": "237",
           "codfilial": "4",
           "pvenda": 64.9
+        },
+        {
+          "desc": "CACHACA VELHO BARREIRO 910 ML",
+          "industria": "TATUZINHO",
+          "qt": 12,
+          "val": 144.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "381",
+          "codfilial": "4",
+          "pvenda": 12.0
         }
       ],
       "tem_corte": false,
@@ -124809,20 +124857,6 @@ const PEDIDOS_DATA = {
       "total": 1621.8,
       "itens": [
         {
-          "desc": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
-          "industria": "FANTE",
-          "qt": 24,
-          "val": 347.76,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 24.0,
-          "cortado": false,
-          "codprod": "6744",
-          "codfilial": "4",
-          "pvenda": 14.49
-        },
-        {
           "desc": "VINHO BORDO QUINTA DO MORGADO 1LT",
           "industria": "FANTE",
           "qt": 12,
@@ -124849,6 +124883,20 @@ const PEDIDOS_DATA = {
           "codprod": "3816",
           "codfilial": "4",
           "pvenda": 17.49
+        },
+        {
+          "desc": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
+          "industria": "FANTE",
+          "qt": 24,
+          "val": 347.76,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 24.0,
+          "cortado": false,
+          "codprod": "6744",
+          "codfilial": "4",
+          "pvenda": 14.49
         },
         {
           "desc": "VINHO TINTO QUINTA DO MORGADO 1LT",
@@ -125348,20 +125396,6 @@ const PEDIDOS_DATA = {
           "pvenda": 154.43
         },
         {
-          "desc": "RC ATUM RALADO OLEO 24X140G",
-          "industria": "ROBINSON CRUSOE",
-          "qt": 2,
-          "val": 285.48,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "5583",
-          "codfilial": "1",
-          "pvenda": 142.74
-        },
-        {
           "desc": "RC ATUM PEDACOS EM OLEO 24X140G",
           "industria": "ROBINSON CRUSOE",
           "qt": 2,
@@ -125400,6 +125434,20 @@ const PEDIDOS_DATA = {
           "qt_original": 2.0,
           "cortado": false,
           "codprod": "5582",
+          "codfilial": "1",
+          "pvenda": 142.74
+        },
+        {
+          "desc": "RC ATUM RALADO OLEO 24X140G",
+          "industria": "ROBINSON CRUSOE",
+          "qt": 2,
+          "val": 285.48,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "5583",
           "codfilial": "1",
           "pvenda": 142.74
         },
@@ -127951,20 +127999,6 @@ const PEDIDOS_DATA = {
           "pvenda": 153.36
         },
         {
-          "desc": "RC SARDINHA EM OLEO 50X125G",
-          "industria": "ROBINSON CRUSOE",
-          "qt": 2,
-          "val": 499.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "5579",
-          "codfilial": "2",
-          "pvenda": 249.5
-        },
-        {
           "desc": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
           "industria": "ROBINSON CRUSOE",
           "qt": 1,
@@ -128019,6 +128053,20 @@ const PEDIDOS_DATA = {
           "codprod": "6633",
           "codfilial": "2",
           "pvenda": 119.9
+        },
+        {
+          "desc": "RC SARDINHA EM OLEO 50X125G",
+          "industria": "ROBINSON CRUSOE",
+          "qt": 2,
+          "val": 499.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "5579",
+          "codfilial": "2",
+          "pvenda": 249.5
         }
       ],
       "tem_corte": false,
@@ -128070,20 +128118,6 @@ const PEDIDOS_DATA = {
           "pvenda": 191.76
         },
         {
-          "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-          "industria": "ROBINSON CRUSOE",
-          "qt": 1,
-          "val": 153.36,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "7332",
-          "codfilial": "2",
-          "pvenda": 153.36
-        },
-        {
           "desc": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
           "industria": "ROBINSON CRUSOE",
           "qt": 3,
@@ -128122,6 +128156,20 @@ const PEDIDOS_DATA = {
           "qt_original": 1.0,
           "cortado": false,
           "codprod": "5583",
+          "codfilial": "2",
+          "pvenda": 153.36
+        },
+        {
+          "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+          "industria": "ROBINSON CRUSOE",
+          "qt": 1,
+          "val": 153.36,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "7332",
           "codfilial": "2",
           "pvenda": 153.36
         },
@@ -129460,20 +129508,6 @@ const PEDIDOS_DATA = {
       "total": 517.68,
       "itens": [
         {
-          "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "industria": "TATUZINHO",
-          "qt": 2,
-          "val": 172.56,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "6256",
-          "codfilial": "4",
-          "pvenda": 86.28
-        },
-        {
           "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
           "industria": "TATUZINHO",
           "qt": 2,
@@ -129484,6 +129518,20 @@ const PEDIDOS_DATA = {
           "qt_original": 2.0,
           "cortado": false,
           "codprod": "6259",
+          "codfilial": "4",
+          "pvenda": 86.28
+        },
+        {
+          "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "industria": "TATUZINHO",
+          "qt": 2,
+          "val": 172.56,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "6256",
           "codfilial": "4",
           "pvenda": 86.28
         },
@@ -129796,20 +129844,6 @@ const PEDIDOS_DATA = {
       "total": 1328.4,
       "itens": [
         {
-          "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "industria": "CASA PERINI",
-          "qt": 6,
-          "val": 233.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "cortado": false,
-          "codprod": "2781",
-          "codfilial": "4",
-          "pvenda": 38.9
-        },
-        {
           "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
           "industria": "CASA PERINI",
           "qt": 12,
@@ -129848,6 +129882,20 @@ const PEDIDOS_DATA = {
           "qt_original": 6.0,
           "cortado": false,
           "codprod": "664",
+          "codfilial": "4",
+          "pvenda": 38.9
+        },
+        {
+          "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "industria": "CASA PERINI",
+          "qt": 6,
+          "val": 233.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "2781",
           "codfilial": "4",
           "pvenda": 38.9
         }
@@ -130601,20 +130649,6 @@ const PEDIDOS_DATA = {
       "total": 1673.76,
       "itens": [
         {
-          "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "industria": "TATUZINHO",
-          "qt": 2,
-          "val": 172.56,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "6257",
-          "codfilial": "4",
-          "pvenda": 86.28
-        },
-        {
           "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
           "industria": "TATUZINHO",
           "qt": 2,
@@ -130639,6 +130673,20 @@ const PEDIDOS_DATA = {
           "qt_original": 2.0,
           "cortado": false,
           "codprod": "6256",
+          "codfilial": "4",
+          "pvenda": 86.28
+        },
+        {
+          "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "industria": "TATUZINHO",
+          "qt": 2,
+          "val": 172.56,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "6257",
           "codfilial": "4",
           "pvenda": 86.28
         },
@@ -130762,20 +130810,6 @@ const PEDIDOS_DATA = {
       "total": 2701.6,
       "itens": [
         {
-          "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "industria": "CASA PERINI",
-          "qt": 6,
-          "val": 233.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "cortado": false,
-          "codprod": "666",
-          "codfilial": "4",
-          "pvenda": 38.9
-        },
-        {
           "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
           "industria": "CASA PERINI",
           "qt": 12,
@@ -130800,6 +130834,20 @@ const PEDIDOS_DATA = {
           "qt_original": 6.0,
           "cortado": false,
           "codprod": "664",
+          "codfilial": "4",
+          "pvenda": 38.9
+        },
+        {
+          "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "industria": "CASA PERINI",
+          "qt": 6,
+          "val": 233.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "666",
           "codfilial": "4",
           "pvenda": 38.9
         },
@@ -131035,20 +131083,6 @@ const PEDIDOS_DATA = {
           "pvenda": 86.28
         },
         {
-          "desc": "MOVING JUICE PROTEIN LARANJA 12X300ML",
-          "industria": "TATUZINHO",
-          "qt": 2,
-          "val": 172.56,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "7204",
-          "codfilial": "4",
-          "pvenda": 86.28
-        },
-        {
           "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
           "industria": "TATUZINHO",
           "qt": 2,
@@ -131087,6 +131121,20 @@ const PEDIDOS_DATA = {
           "qt_original": 2.0,
           "cortado": false,
           "codprod": "6257",
+          "codfilial": "4",
+          "pvenda": 86.28
+        },
+        {
+          "desc": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+          "industria": "TATUZINHO",
+          "qt": 2,
+          "val": 172.56,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "7204",
           "codfilial": "4",
           "pvenda": 86.28
         },
@@ -131476,20 +131524,6 @@ const PEDIDOS_DATA = {
       "total": 1059.0,
       "itens": [
         {
-          "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "industria": "CASA PERINI",
-          "qt": 6,
-          "val": 233.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "cortado": false,
-          "codprod": "666",
-          "codfilial": "4",
-          "pvenda": 38.9
-        },
-        {
           "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
           "industria": "CASA PERINI",
           "qt": 18,
@@ -131514,6 +131548,20 @@ const PEDIDOS_DATA = {
           "qt_original": 6.0,
           "cortado": false,
           "codprod": "664",
+          "codfilial": "4",
+          "pvenda": 38.9
+        },
+        {
+          "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "industria": "CASA PERINI",
+          "qt": 6,
+          "val": 233.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "666",
           "codfilial": "4",
           "pvenda": 38.9
         }
@@ -131742,20 +131790,6 @@ const PEDIDOS_DATA = {
       "total": 430.8,
       "itens": [
         {
-          "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "industria": "CASA PERINI",
-          "qt": 6,
-          "val": 233.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "cortado": false,
-          "codprod": "666",
-          "codfilial": "4",
-          "pvenda": 38.9
-        },
-        {
           "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
           "industria": "CASA PERINI",
           "qt": 6,
@@ -131768,6 +131802,20 @@ const PEDIDOS_DATA = {
           "codprod": "663",
           "codfilial": "4",
           "pvenda": 32.9
+        },
+        {
+          "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "industria": "CASA PERINI",
+          "qt": 6,
+          "val": 233.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "666",
+          "codfilial": "4",
+          "pvenda": 38.9
         }
       ],
       "tem_corte": false,
@@ -134921,20 +134969,6 @@ const PEDIDOS_DATA = {
       "total": 1426.09,
       "itens": [
         {
-          "desc": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
-          "industria": "FANTE",
-          "qt": 1,
-          "val": 81.9,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "7096",
-          "codfilial": "2",
-          "pvenda": 81.9
-        },
-        {
           "desc": "VINHO ARESTI RESERVA CARMENERE 750ML",
           "industria": "CASTAS",
           "qt": 2,
@@ -134977,6 +135011,20 @@ const PEDIDOS_DATA = {
           "pvenda": 28.9
         },
         {
+          "desc": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
+          "industria": "FANTE",
+          "qt": 1,
+          "val": 81.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "7096",
+          "codfilial": "2",
+          "pvenda": 81.9
+        },
+        {
           "desc": "CACHACA TATUZINHO PET 750 ML",
           "industria": "TATUZINHO",
           "qt": 1,
@@ -134989,20 +135037,6 @@ const PEDIDOS_DATA = {
           "codprod": "4677",
           "codfilial": "2",
           "pvenda": 3.99
-        },
-        {
-          "desc": "ESPU MOSCATEL ROSE QNTA DO MORGADO 660ML",
-          "industria": "FANTE",
-          "qt": 3,
-          "val": 65.7,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 3.0,
-          "cortado": false,
-          "codprod": "7103",
-          "codfilial": "2",
-          "pvenda": 21.9
         },
         {
           "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
@@ -135031,6 +135065,20 @@ const PEDIDOS_DATA = {
           "codprod": "4688",
           "codfilial": "2",
           "pvenda": 74.9
+        },
+        {
+          "desc": "ESPU MOSCATEL ROSE QNTA DO MORGADO 660ML",
+          "industria": "FANTE",
+          "qt": 3,
+          "val": 65.7,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "cortado": false,
+          "codprod": "7103",
+          "codfilial": "2",
+          "pvenda": 21.9
         },
         {
           "desc": "GIN MARINA 750ML",
@@ -135194,20 +135242,6 @@ const PEDIDOS_DATA = {
       "total": 575.2,
       "itens": [
         {
-          "desc": "4 PACK RED BULL SF POMELO 4X250ML",
-          "industria": "RED BULL",
-          "qt": 3,
-          "val": 86.28,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 3.0,
-          "cortado": false,
-          "codprod": "4881",
-          "codfilial": "2",
-          "pvenda": 28.76
-        },
-        {
           "desc": "RED BULL TROPICAL 24X250ML",
           "industria": "RED BULL",
           "qt": 1,
@@ -135232,6 +135266,20 @@ const PEDIDOS_DATA = {
           "qt_original": 5.0,
           "cortado": false,
           "codprod": "4602",
+          "codfilial": "2",
+          "pvenda": 28.76
+        },
+        {
+          "desc": "4 PACK RED BULL SF POMELO 4X250ML",
+          "industria": "RED BULL",
+          "qt": 3,
+          "val": 86.28,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "cortado": false,
+          "codprod": "4881",
           "codfilial": "2",
           "pvenda": 28.76
         },
@@ -135289,20 +135337,6 @@ const PEDIDOS_DATA = {
           "pvenda": 79.9
         },
         {
-          "desc": "VINHO ARESTI ESTATE S. CHARDONNAY 750ML",
-          "industria": "CASTAS",
-          "qt": 6,
-          "val": 269.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "cortado": false,
-          "codprod": "4235",
-          "codfilial": "2",
-          "pvenda": 44.9
-        },
-        {
           "desc": "VINHO ARESTI ESTATE S. CAB SAUV 750ML",
           "industria": "CASTAS",
           "qt": 12,
@@ -135343,6 +135377,20 @@ const PEDIDOS_DATA = {
           "codprod": "3011",
           "codfilial": "2",
           "pvenda": 34.9
+        },
+        {
+          "desc": "VINHO ARESTI ESTATE S. CHARDONNAY 750ML",
+          "industria": "CASTAS",
+          "qt": 6,
+          "val": 269.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "4235",
+          "codfilial": "2",
+          "pvenda": 44.9
         },
         {
           "desc": "VINHO ARESTI ESTATE S. SAUV BLANC 750ML",
@@ -135465,20 +135513,6 @@ const PEDIDOS_DATA = {
       "total": 1280.28,
       "itens": [
         {
-          "desc": "APERITIVO APEROL 750 ML",
-          "industria": "CAMPARI",
-          "qt": 4,
-          "val": 167.6,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 4.0,
-          "cortado": false,
-          "codprod": "644",
-          "codfilial": "2",
-          "pvenda": 41.9
-        },
-        {
           "desc": "VODKA ABSOLUT 1L",
           "industria": "PERNOD",
           "qt": 4,
@@ -135519,6 +135553,20 @@ const PEDIDOS_DATA = {
           "codprod": "484",
           "codfilial": "2",
           "pvenda": 70.9
+        },
+        {
+          "desc": "APERITIVO APEROL 750 ML",
+          "industria": "CAMPARI",
+          "qt": 4,
+          "val": 167.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 4.0,
+          "cortado": false,
+          "codprod": "644",
+          "codfilial": "2",
+          "pvenda": 41.9
         },
         {
           "desc": "RED BULL TROPICAL 24X250ML",
@@ -135939,20 +135987,6 @@ const PEDIDOS_DATA = {
       "total": 1775.58,
       "itens": [
         {
-          "desc": "RC ATUM RALADO NATURAL 24X140G",
-          "industria": "ROBINSON CRUSOE",
-          "qt": 1,
-          "val": 191.76,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "5582",
-          "codfilial": "2",
-          "pvenda": 191.76
-        },
-        {
           "desc": "RC SARDINHA EM OLEO 50X125G",
           "industria": "ROBINSON CRUSOE",
           "qt": 5,
@@ -135977,6 +136011,20 @@ const PEDIDOS_DATA = {
           "qt_original": 1.0,
           "cortado": false,
           "codprod": "5762",
+          "codfilial": "2",
+          "pvenda": 191.76
+        },
+        {
+          "desc": "RC ATUM RALADO NATURAL 24X140G",
+          "industria": "ROBINSON CRUSOE",
+          "qt": 1,
+          "val": 191.76,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "5582",
           "codfilial": "2",
           "pvenda": 191.76
         },
@@ -136233,20 +136281,6 @@ const PEDIDOS_DATA = {
       "total": 1756.8,
       "itens": [
         {
-          "desc": "VILLA ROSA TINTO 750ML",
-          "industria": "CASTAS",
-          "qt": 30,
-          "val": 867.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 30.0,
-          "cortado": false,
-          "codprod": "2614",
-          "codfilial": "4",
-          "pvenda": 28.9
-        },
-        {
           "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
           "industria": "CASA PERINI",
           "qt": 6,
@@ -136271,6 +136305,20 @@ const PEDIDOS_DATA = {
           "qt_original": 24.0,
           "cortado": false,
           "codprod": "2703",
+          "codfilial": "4",
+          "pvenda": 28.9
+        },
+        {
+          "desc": "VILLA ROSA TINTO 750ML",
+          "industria": "CASTAS",
+          "qt": 30,
+          "val": 867.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 30.0,
+          "cortado": false,
+          "codprod": "2614",
           "codfilial": "4",
           "pvenda": 28.9
         }
@@ -136345,20 +136393,6 @@ const PEDIDOS_DATA = {
       "total": 4016.28,
       "itens": [
         {
-          "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "industria": "TATUZINHO",
-          "qt": 2,
-          "val": 164.06,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "6257",
-          "codfilial": "4",
-          "pvenda": 82.03
-        },
-        {
           "desc": "AGUA NA CAIXA 12X500ML",
           "industria": "AGUA NA CAIXA",
           "qt": 3,
@@ -136397,6 +136431,20 @@ const PEDIDOS_DATA = {
           "qt_original": 2.0,
           "cortado": false,
           "codprod": "6255",
+          "codfilial": "4",
+          "pvenda": 82.03
+        },
+        {
+          "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "industria": "TATUZINHO",
+          "qt": 2,
+          "val": 164.06,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "6257",
           "codfilial": "4",
           "pvenda": 82.03
         },
@@ -138069,20 +138117,6 @@ const PEDIDOS_DATA = {
       "total": 1314.49,
       "itens": [
         {
-          "desc": "WHISKY BALLANTINE S SUNSHINE 700ML",
-          "industria": "PERNOD",
-          "qt": 12,
-          "val": 573.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "cortado": false,
-          "codprod": "4843",
-          "codfilial": "4",
-          "pvenda": 47.75
-        },
-        {
           "desc": "GIN ROCKS STRAWBERRY 1000ML",
           "industria": "FANTE",
           "qt": 6,
@@ -138123,6 +138157,20 @@ const PEDIDOS_DATA = {
           "codprod": "4346",
           "codfilial": "4",
           "pvenda": 78.58
+        },
+        {
+          "desc": "WHISKY BALLANTINE S SUNSHINE 700ML",
+          "industria": "PERNOD",
+          "qt": 12,
+          "val": 573.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "4843",
+          "codfilial": "4",
+          "pvenda": 47.75
         }
       ],
       "tem_corte": false,
@@ -138272,20 +138320,6 @@ const PEDIDOS_DATA = {
       "total": 1756.0,
       "itens": [
         {
-          "desc": "RC SARDINHA EM OLEO 50X125G",
-          "industria": "ROBINSON CRUSOE",
-          "qt": 5,
-          "val": 1097.5,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 5.0,
-          "cortado": false,
-          "codprod": "5579",
-          "codfilial": "1",
-          "pvenda": 219.5
-        },
-        {
           "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
           "industria": "ROBINSON CRUSOE",
           "qt": 3,
@@ -138296,6 +138330,20 @@ const PEDIDOS_DATA = {
           "qt_original": 3.0,
           "cortado": false,
           "codprod": "5580",
+          "codfilial": "1",
+          "pvenda": 219.5
+        },
+        {
+          "desc": "RC SARDINHA EM OLEO 50X125G",
+          "industria": "ROBINSON CRUSOE",
+          "qt": 5,
+          "val": 1097.5,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 5.0,
+          "cortado": false,
+          "codprod": "5579",
           "codfilial": "1",
           "pvenda": 219.5
         }
@@ -138431,20 +138479,6 @@ const PEDIDOS_DATA = {
       "total": 878.0,
       "itens": [
         {
-          "desc": "RC SARDINHA EM OLEO 50X125G",
-          "industria": "ROBINSON CRUSOE",
-          "qt": 2,
-          "val": 439.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "5579",
-          "codfilial": "1",
-          "pvenda": 219.5
-        },
-        {
           "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
           "industria": "ROBINSON CRUSOE",
           "qt": 2,
@@ -138455,6 +138489,20 @@ const PEDIDOS_DATA = {
           "qt_original": 2.0,
           "cortado": false,
           "codprod": "5580",
+          "codfilial": "1",
+          "pvenda": 219.5
+        },
+        {
+          "desc": "RC SARDINHA EM OLEO 50X125G",
+          "industria": "ROBINSON CRUSOE",
+          "qt": 2,
+          "val": 439.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "5579",
           "codfilial": "1",
           "pvenda": 219.5
         }
@@ -139009,20 +139057,6 @@ const PEDIDOS_DATA = {
       "total": 1411.2,
       "itens": [
         {
-          "desc": "ESPUMANTE ALUD BRANCO 750ML",
-          "industria": "CASTAS",
-          "qt": 12,
-          "val": 346.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "cortado": false,
-          "codprod": "3011",
-          "codfilial": "4",
-          "pvenda": 28.9
-        },
-        {
           "desc": "VILLA ROSA TINTO 750ML",
           "industria": "CASTAS",
           "qt": 12,
@@ -139061,6 +139095,20 @@ const PEDIDOS_DATA = {
           "qt_original": 12.0,
           "cortado": false,
           "codprod": "3063",
+          "codfilial": "4",
+          "pvenda": 28.9
+        },
+        {
+          "desc": "ESPUMANTE ALUD BRANCO 750ML",
+          "industria": "CASTAS",
+          "qt": 12,
+          "val": 346.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "3011",
           "codfilial": "4",
           "pvenda": 28.9
         }
@@ -139198,20 +139246,6 @@ const PEDIDOS_DATA = {
       "total": 1560.6,
       "itens": [
         {
-          "desc": "VILLA ROSA TINTO 750ML",
-          "industria": "CASTAS",
-          "qt": 30,
-          "val": 867.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 30.0,
-          "cortado": false,
-          "codprod": "2614",
-          "codfilial": "4",
-          "pvenda": 28.9
-        },
-        {
           "desc": "VILLA ROSA  ROSE 750ML",
           "industria": "CASTAS",
           "qt": 24,
@@ -139222,6 +139256,20 @@ const PEDIDOS_DATA = {
           "qt_original": 24.0,
           "cortado": false,
           "codprod": "2703",
+          "codfilial": "4",
+          "pvenda": 28.9
+        },
+        {
+          "desc": "VILLA ROSA TINTO 750ML",
+          "industria": "CASTAS",
+          "qt": 30,
+          "val": 867.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 30.0,
+          "cortado": false,
+          "codprod": "2614",
           "codfilial": "4",
           "pvenda": 28.9
         }
@@ -139247,20 +139295,6 @@ const PEDIDOS_DATA = {
       "total": 2437.98,
       "itens": [
         {
-          "desc": "RED BULL 24X250ML",
-          "industria": "RED BULL",
-          "qt": 5,
-          "val": 898.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 5.0,
-          "cortado": false,
-          "codprod": "3",
-          "codfilial": "2",
-          "pvenda": 179.76
-        },
-        {
           "desc": "AMARULA CREAM 12X750ML +6 COPOS DUBAI",
           "industria": "INTERFOOD",
           "qt": 1,
@@ -139285,6 +139319,20 @@ const PEDIDOS_DATA = {
           "qt_original": 1.0,
           "cortado": false,
           "codprod": "2799",
+          "codfilial": "2",
+          "pvenda": 179.76
+        },
+        {
+          "desc": "RED BULL 24X250ML",
+          "industria": "RED BULL",
+          "qt": 5,
+          "val": 898.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 5.0,
+          "cortado": false,
+          "codprod": "3",
           "codfilial": "2",
           "pvenda": 179.76
         },
@@ -141256,20 +141304,6 @@ const PEDIDOS_DATA = {
       "total": 510.48,
       "itens": [
         {
-          "desc": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
-          "industria": "JURUPINGA",
-          "qt": 12,
-          "val": 273.84,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "cortado": false,
-          "codprod": "1212",
-          "codfilial": "4",
-          "pvenda": 22.82
-        },
-        {
           "desc": "ESPUMANTE ALUD ROSE 750ML",
           "industria": "CASTAS",
           "qt": 6,
@@ -141282,6 +141316,20 @@ const PEDIDOS_DATA = {
           "codprod": "3063",
           "codfilial": "4",
           "pvenda": 26.9
+        },
+        {
+          "desc": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
+          "industria": "JURUPINGA",
+          "qt": 12,
+          "val": 273.84,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "1212",
+          "codfilial": "4",
+          "pvenda": 22.82
         },
         {
           "desc": "WHISKY BLACK STONE 1LT",
@@ -143540,20 +143588,6 @@ const PEDIDOS_DATA = {
       "total": 1653.6,
       "itens": [
         {
-          "desc": "GIN ROCKS WATERMELON 1000ML",
-          "industria": "FANTE",
-          "qt": 18,
-          "val": 396.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 18.0,
-          "cortado": false,
-          "codprod": "4689",
-          "codfilial": "4",
-          "pvenda": 22.0
-        },
-        {
           "desc": "CONHAQUE DOMECQ 1L",
           "industria": "PERNOD",
           "qt": 12,
@@ -143592,6 +143626,20 @@ const PEDIDOS_DATA = {
           "qt_original": 12.0,
           "cortado": false,
           "codprod": "3643",
+          "codfilial": "4",
+          "pvenda": 22.0
+        },
+        {
+          "desc": "GIN ROCKS WATERMELON 1000ML",
+          "industria": "FANTE",
+          "qt": 18,
+          "val": 396.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 18.0,
+          "cortado": false,
+          "codprod": "4689",
           "codfilial": "4",
           "pvenda": 22.0
         },
@@ -143750,20 +143798,6 @@ const PEDIDOS_DATA = {
       "total": 2203.2,
       "itens": [
         {
-          "desc": "GIN ROCKS WATERMELON 1000ML",
-          "industria": "FANTE",
-          "qt": 18,
-          "val": 396.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 18.0,
-          "cortado": false,
-          "codprod": "4689",
-          "codfilial": "4",
-          "pvenda": 22.0
-        },
-        {
           "desc": "CONHAQUE DOMECQ 1L",
           "industria": "PERNOD",
           "qt": 12,
@@ -143802,6 +143836,20 @@ const PEDIDOS_DATA = {
           "qt_original": 12.0,
           "cortado": false,
           "codprod": "3643",
+          "codfilial": "4",
+          "pvenda": 22.0
+        },
+        {
+          "desc": "GIN ROCKS WATERMELON 1000ML",
+          "industria": "FANTE",
+          "qt": 18,
+          "val": 396.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 18.0,
+          "cortado": false,
+          "codprod": "4689",
           "codfilial": "4",
           "pvenda": 22.0
         },
@@ -144058,20 +144106,6 @@ const PEDIDOS_DATA = {
           "pvenda": 17.49
         },
         {
-          "desc": "VINHO BCO SUAVE QUINTA DO MORGADO 750ML",
-          "industria": "FANTE",
-          "qt": 12,
-          "val": 173.88,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "cortado": false,
-          "codprod": "7106",
-          "codfilial": "4",
-          "pvenda": 14.49
-        },
-        {
           "desc": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
           "industria": "FANTE",
           "qt": 24,
@@ -144110,6 +144144,20 @@ const PEDIDOS_DATA = {
           "qt_original": 12.0,
           "cortado": false,
           "codprod": "3814",
+          "codfilial": "4",
+          "pvenda": 14.49
+        },
+        {
+          "desc": "VINHO BCO SUAVE QUINTA DO MORGADO 750ML",
+          "industria": "FANTE",
+          "qt": 12,
+          "val": 173.88,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "7106",
           "codfilial": "4",
           "pvenda": 14.49
         },
@@ -144338,20 +144386,6 @@ const PEDIDOS_DATA = {
           "pvenda": 33.5
         },
         {
-          "desc": "CACHACA JOIA DA SERRA OURO 1L",
-          "industria": "HOB",
-          "qt": 12,
-          "val": 390.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "cortado": false,
-          "codprod": "4598",
-          "codfilial": "4",
-          "pvenda": 32.5
-        },
-        {
           "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
           "industria": "TATUZINHO",
           "qt": 3,
@@ -144392,6 +144426,20 @@ const PEDIDOS_DATA = {
           "codprod": "6257",
           "codfilial": "4",
           "pvenda": 82.03
+        },
+        {
+          "desc": "CACHACA JOIA DA SERRA OURO 1L",
+          "industria": "HOB",
+          "qt": 12,
+          "val": 390.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "4598",
+          "codfilial": "4",
+          "pvenda": 32.5
         },
         {
           "desc": "CACHACA JOIA DA SERRA TRADICIONAL 1L",
@@ -144527,20 +144575,6 @@ const PEDIDOS_DATA = {
           "pvenda": 82.03
         },
         {
-          "desc": "CACHACA JOIA DA SERRA OURO 1L",
-          "industria": "HOB",
-          "qt": 12,
-          "val": 390.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "cortado": false,
-          "codprod": "4598",
-          "codfilial": "4",
-          "pvenda": 32.5
-        },
-        {
           "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
           "industria": "TATUZINHO",
           "qt": 2,
@@ -144581,6 +144615,20 @@ const PEDIDOS_DATA = {
           "codprod": "6253",
           "codfilial": "4",
           "pvenda": 151.8
+        },
+        {
+          "desc": "CACHACA JOIA DA SERRA OURO 1L",
+          "industria": "HOB",
+          "qt": 12,
+          "val": 390.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "4598",
+          "codfilial": "4",
+          "pvenda": 32.5
         },
         {
           "desc": "CACHACA JOIA DA SERRA TRADICIONAL 1L",
@@ -145337,20 +145385,6 @@ const PEDIDOS_DATA = {
       "total": 658.08,
       "itens": [
         {
-          "desc": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
-          "industria": "TATUZINHO",
-          "qt": 1,
-          "val": 95.52,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "4885",
-          "codfilial": "2",
-          "pvenda": 95.52
-        },
-        {
           "desc": "ST PIERRE LATA PINK LEMON LT 24X270ML",
           "industria": "TATUZINHO",
           "qt": 1,
@@ -145389,6 +145423,20 @@ const PEDIDOS_DATA = {
           "qt_original": 1.0,
           "cortado": false,
           "codprod": "4884",
+          "codfilial": "2",
+          "pvenda": 95.52
+        },
+        {
+          "desc": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+          "industria": "TATUZINHO",
+          "qt": 1,
+          "val": 95.52,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "4885",
           "codfilial": "2",
           "pvenda": 95.52
         },
@@ -145432,20 +145480,6 @@ const PEDIDOS_DATA = {
       "total": 477.6,
       "itens": [
         {
-          "desc": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
-          "industria": "TATUZINHO",
-          "qt": 2,
-          "val": 191.04,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "4885",
-          "codfilial": "2",
-          "pvenda": 95.52
-        },
-        {
           "desc": "ST PIERRE ZERO LATA GREEN APPLE 24X310ML",
           "industria": "TATUZINHO",
           "qt": 1,
@@ -145484,6 +145518,20 @@ const PEDIDOS_DATA = {
           "qt_original": 1.0,
           "cortado": false,
           "codprod": "4884",
+          "codfilial": "2",
+          "pvenda": 95.52
+        },
+        {
+          "desc": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+          "industria": "TATUZINHO",
+          "qt": 2,
+          "val": 191.04,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "4885",
           "codfilial": "2",
           "pvenda": 95.52
         }
@@ -146367,20 +146415,6 @@ const PEDIDOS_DATA = {
       "total": 4728.4,
       "itens": [
         {
-          "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
-          "industria": "AURORA",
-          "qt": 4,
-          "val": 499.6,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 4.0,
-          "cortado": false,
-          "codprod": "857",
-          "codfilial": "2",
-          "pvenda": 124.9
-        },
-        {
           "desc": "VODCA SMIRNOFF RED 998 ML",
           "industria": "DIAGEO",
           "qt": 6,
@@ -146407,6 +146441,20 @@ const PEDIDOS_DATA = {
           "codprod": "2505",
           "codfilial": "2",
           "pvenda": 16.6
+        },
+        {
+          "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "industria": "AURORA",
+          "qt": 4,
+          "val": 499.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 4.0,
+          "cortado": false,
+          "codprod": "857",
+          "codfilial": "2",
+          "pvenda": 124.9
         },
         {
           "desc": "LICOR BALLENA MORANGO 750 ML",
@@ -148389,20 +148437,6 @@ const PEDIDOS_DATA = {
           "pvenda": 33.9
         },
         {
-          "desc": "VINHO TINTO QUINTA DO MORGADO 750ML",
-          "industria": "FANTE",
-          "qt": 48,
-          "val": 667.2,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 48.0,
-          "cortado": false,
-          "codprod": "3814",
-          "codfilial": "4",
-          "pvenda": 13.9
-        },
-        {
           "desc": "VINHO BORDO QUINTA DO MORGADO 1LT",
           "industria": "FANTE",
           "qt": 36,
@@ -148443,6 +148477,20 @@ const PEDIDOS_DATA = {
           "codprod": "3817",
           "codfilial": "4",
           "pvenda": 17.9
+        },
+        {
+          "desc": "VINHO TINTO QUINTA DO MORGADO 750ML",
+          "industria": "FANTE",
+          "qt": 48,
+          "val": 667.2,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 48.0,
+          "cortado": false,
+          "codprod": "3814",
+          "codfilial": "4",
+          "pvenda": 13.9
         }
       ],
       "tem_corte": false,
@@ -148881,20 +148929,6 @@ const PEDIDOS_DATA = {
       "total": 4496.7,
       "itens": [
         {
-          "desc": "VILLA ROSA TINTO 750ML",
-          "industria": "CASTAS",
-          "qt": 24,
-          "val": 717.6,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 24.0,
-          "cortado": false,
-          "codprod": "2614",
-          "codfilial": "4",
-          "pvenda": 29.9
-        },
-        {
           "desc": "VINHO VILLA ROSA FRISANTE ROSE",
           "industria": "CASTAS",
           "qt": 6,
@@ -148937,18 +148971,18 @@ const PEDIDOS_DATA = {
           "pvenda": 12.52
         },
         {
-          "desc": "ESPU MOSCATEL ROSE QNTA DO MORGADO 660ML",
-          "industria": "FANTE",
-          "qt": 12,
-          "val": 260.4,
+          "desc": "VILLA ROSA TINTO 750ML",
+          "industria": "CASTAS",
+          "qt": 24,
+          "val": 717.6,
           "qtfalta": 0.0,
           "qtcortada": 0.0,
           "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
+          "qt_original": 24.0,
           "cortado": false,
-          "codprod": "7103",
+          "codprod": "2614",
           "codfilial": "4",
-          "pvenda": 21.7
+          "pvenda": 29.9
         },
         {
           "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
@@ -148963,6 +148997,20 @@ const PEDIDOS_DATA = {
           "codprod": "663",
           "codfilial": "4",
           "pvenda": 32.9
+        },
+        {
+          "desc": "ESPU MOSCATEL ROSE QNTA DO MORGADO 660ML",
+          "industria": "FANTE",
+          "qt": 12,
+          "val": 260.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "7103",
+          "codfilial": "4",
+          "pvenda": 21.7
         },
         {
           "desc": "GIN ROCKS 1000ML",
@@ -150195,20 +150243,6 @@ const PEDIDOS_DATA = {
       "total": 463.06,
       "itens": [
         {
-          "desc": "MARTINI BIANCO 750 ML",
-          "industria": "BACARDI",
-          "qt": 2,
-          "val": 77.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "37",
-          "codfilial": "2",
-          "pvenda": 38.9
-        },
-        {
           "desc": "RED BULL MELANCIA 250ML CX C/24",
           "industria": "RED BULL",
           "qt": 1,
@@ -150249,6 +150283,20 @@ const PEDIDOS_DATA = {
           "codprod": "3151",
           "codfilial": "2",
           "pvenda": 70.9
+        },
+        {
+          "desc": "MARTINI BIANCO 750 ML",
+          "industria": "BACARDI",
+          "qt": 2,
+          "val": 77.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "37",
+          "codfilial": "2",
+          "pvenda": 38.9
         }
       ],
       "tem_corte": false,
@@ -150374,20 +150422,6 @@ const PEDIDOS_DATA = {
       "total": 10206.0,
       "itens": [
         {
-          "desc": "WHISKY JIM BEAM BLACK CHERRY 1L",
-          "industria": "BEAM SUNTORY",
-          "qt": 12,
-          "val": 1134.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "cortado": false,
-          "codprod": "5273",
-          "codfilial": "4",
-          "pvenda": 94.5
-        },
-        {
           "desc": "WHISKY JIM BEAM APPLE 1L",
           "industria": "BEAM SUNTORY",
           "qt": 12,
@@ -150398,6 +150432,20 @@ const PEDIDOS_DATA = {
           "qt_original": 12.0,
           "cortado": false,
           "codprod": "3151",
+          "codfilial": "4",
+          "pvenda": 94.5
+        },
+        {
+          "desc": "WHISKY JIM BEAM BLACK CHERRY 1L",
+          "industria": "BEAM SUNTORY",
+          "qt": 12,
+          "val": 1134.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "5273",
           "codfilial": "4",
           "pvenda": 94.5
         },
@@ -150640,20 +150688,6 @@ const PEDIDOS_DATA = {
           "pvenda": 180.82
         },
         {
-          "desc": "RUM BACARDI MOJITO 700ML",
-          "industria": "BACARDI",
-          "qt": 36,
-          "val": 898.92,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 36.0,
-          "cortado": false,
-          "codprod": "5032",
-          "codfilial": "4",
-          "pvenda": 24.97
-        },
-        {
           "desc": "MARTINI BIANCO 750 ML",
           "industria": "BACARDI",
           "qt": 36,
@@ -150694,6 +150728,20 @@ const PEDIDOS_DATA = {
           "codprod": "246",
           "codfilial": "4",
           "pvenda": 35.5
+        },
+        {
+          "desc": "RUM BACARDI MOJITO 700ML",
+          "industria": "BACARDI",
+          "qt": 36,
+          "val": 898.92,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 36.0,
+          "cortado": false,
+          "codprod": "5032",
+          "codfilial": "4",
+          "pvenda": 24.97
         },
         {
           "desc": "RUM BACARDI GOLD 980ML",
@@ -151291,20 +151339,6 @@ const PEDIDOS_DATA = {
           "pvenda": 88.8
         },
         {
-          "desc": "PINATI NUTS ORIGINAL 20X30G",
-          "industria": "PINATI",
-          "qt": 2,
-          "val": 77.6,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "5231",
-          "codfilial": "1",
-          "pvenda": 38.8
-        },
-        {
           "desc": "PINATI NUTS COCO 16X4X25G",
           "industria": "PINATI",
           "qt": 1,
@@ -151345,6 +151379,20 @@ const PEDIDOS_DATA = {
           "codprod": "5255",
           "codfilial": "1",
           "pvenda": 88.8
+        },
+        {
+          "desc": "PINATI NUTS ORIGINAL 20X30G",
+          "industria": "PINATI",
+          "qt": 2,
+          "val": 77.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "5231",
+          "codfilial": "1",
+          "pvenda": 38.8
         },
         {
           "desc": "PINATI DOUBLE BAR BANANA AMENDOIM 16X35G",
@@ -151477,20 +151525,6 @@ const PEDIDOS_DATA = {
           "pvenda": 29.9
         },
         {
-          "desc": "GIN ROCKS STRAWBERRY 1000ML",
-          "industria": "FANTE",
-          "qt": 6,
-          "val": 135.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "cortado": false,
-          "codprod": "3642",
-          "codfilial": "4",
-          "pvenda": 22.5
-        },
-        {
           "desc": "VILLA ROSA BRANCO 750ML",
           "industria": "CASTAS",
           "qt": 6,
@@ -151531,6 +151565,20 @@ const PEDIDOS_DATA = {
           "codprod": "69",
           "codfilial": "4",
           "pvenda": 21.09
+        },
+        {
+          "desc": "GIN ROCKS STRAWBERRY 1000ML",
+          "industria": "FANTE",
+          "qt": 6,
+          "val": 135.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "3642",
+          "codfilial": "4",
+          "pvenda": 22.5
         },
         {
           "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
@@ -152677,20 +152725,6 @@ const PEDIDOS_DATA = {
       "total": 1607.94,
       "itens": [
         {
-          "desc": "WHISKY GENTLEMAN JACK 1L",
-          "industria": "BROWN",
-          "qt": 6,
-          "val": 893.88,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "cortado": false,
-          "codprod": "603",
-          "codfilial": "4",
-          "pvenda": 148.98
-        },
-        {
           "desc": "VODKA BELVEDERE 700 ML",
           "industria": "HENNESSY",
           "qt": 6,
@@ -152703,6 +152737,20 @@ const PEDIDOS_DATA = {
           "codprod": "3771",
           "codfilial": "4",
           "pvenda": 119.01
+        },
+        {
+          "desc": "WHISKY GENTLEMAN JACK 1L",
+          "industria": "BROWN",
+          "qt": 6,
+          "val": 893.88,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "603",
+          "codfilial": "4",
+          "pvenda": 148.98
         }
       ],
       "tem_corte": false,
@@ -152976,20 +153024,6 @@ const PEDIDOS_DATA = {
           "pvenda": 6.1
         },
         {
-          "desc": "PINATI NUTS ZERO COCO 16X4X25G",
-          "industria": "PINATI",
-          "qt": 4,
-          "val": 355.2,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 4.0,
-          "cortado": false,
-          "codprod": "5254",
-          "codfilial": "1",
-          "pvenda": 88.8
-        },
-        {
           "desc": "DP DADINHO ZERO ACUCAR 90G",
           "industria": "DADINHO",
           "qt": 120,
@@ -153028,6 +153062,20 @@ const PEDIDOS_DATA = {
           "qt_original": 4.0,
           "cortado": false,
           "codprod": "5262",
+          "codfilial": "1",
+          "pvenda": 88.8
+        },
+        {
+          "desc": "PINATI NUTS ZERO COCO 16X4X25G",
+          "industria": "PINATI",
+          "qt": 4,
+          "val": 355.2,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 4.0,
+          "cortado": false,
+          "codprod": "5254",
           "codfilial": "1",
           "pvenda": 88.8
         },
@@ -153088,20 +153136,6 @@ const PEDIDOS_DATA = {
           "pvenda": 50.24
         },
         {
-          "desc": "DP DADINHO BITZ AO LEITE 105G",
-          "industria": "DADINHO",
-          "qt": 120,
-          "val": 458.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 120.0,
-          "cortado": false,
-          "codprod": "7356",
-          "codfilial": "1",
-          "pvenda": 3.82
-        },
-        {
           "desc": "PINATI DB WHEY AVELA E LEITE 12X50G",
           "industria": "PINATI",
           "qt": 6,
@@ -153142,6 +153176,20 @@ const PEDIDOS_DATA = {
           "codprod": "7354",
           "codfilial": "1",
           "pvenda": 28.62
+        },
+        {
+          "desc": "DP DADINHO BITZ AO LEITE 105G",
+          "industria": "DADINHO",
+          "qt": 120,
+          "val": 458.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 120.0,
+          "cortado": false,
+          "codprod": "7356",
+          "codfilial": "1",
+          "pvenda": 3.82
         }
       ],
       "tem_corte": false,
@@ -153789,20 +153837,6 @@ const PEDIDOS_DATA = {
           "pvenda": 21.7
         },
         {
-          "desc": "SAKE AZUMA KIRIN SOFT 740ML",
-          "industria": "KIRIN",
-          "qt": 6,
-          "val": 133.62,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "cortado": false,
-          "codprod": "2509",
-          "codfilial": "4",
-          "pvenda": 22.27
-        },
-        {
           "desc": "LICOR STOCK KIWI 720 ML",
           "industria": "STOCK",
           "qt": 6,
@@ -153843,6 +153877,20 @@ const PEDIDOS_DATA = {
           "codprod": "178",
           "codfilial": "4",
           "pvenda": 20.45
+        },
+        {
+          "desc": "SAKE AZUMA KIRIN SOFT 740ML",
+          "industria": "KIRIN",
+          "qt": 6,
+          "val": 133.62,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "2509",
+          "codfilial": "4",
+          "pvenda": 22.27
         },
         {
           "desc": "VINHO TINTO QUINTA DO MORGADO 750ML",
@@ -154388,20 +154436,6 @@ const PEDIDOS_DATA = {
       "total": 2067.68,
       "itens": [
         {
-          "desc": "RC ATUM PEDACOS EM OLEO 24X140G",
-          "industria": "ROBINSON CRUSOE",
-          "qt": 1,
-          "val": 191.76,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "5759",
-          "codfilial": "2",
-          "pvenda": 191.76
-        },
-        {
           "desc": "RC ATUM PEDACOS NATURAL 24X140G",
           "industria": "ROBINSON CRUSOE",
           "qt": 1,
@@ -154412,6 +154446,20 @@ const PEDIDOS_DATA = {
           "qt_original": 1.0,
           "cortado": false,
           "codprod": "5762",
+          "codfilial": "2",
+          "pvenda": 191.76
+        },
+        {
+          "desc": "RC ATUM PEDACOS EM OLEO 24X140G",
+          "industria": "ROBINSON CRUSOE",
+          "qt": 1,
+          "val": 191.76,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "5759",
           "codfilial": "2",
           "pvenda": 191.76
         },
@@ -154637,20 +154685,6 @@ const PEDIDOS_DATA = {
           "pvenda": 151.36
         },
         {
-          "desc": "RC ATUM SOLIDO OLEO 24X170G",
-          "industria": "ROBINSON CRUSOE",
-          "qt": 2,
-          "val": 417.12,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "5586",
-          "codfilial": "2",
-          "pvenda": 208.56
-        },
-        {
           "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
           "industria": "ROBINSON CRUSOE",
           "qt": 1,
@@ -154689,6 +154723,20 @@ const PEDIDOS_DATA = {
           "qt_original": 2.0,
           "cortado": false,
           "codprod": "5585",
+          "codfilial": "2",
+          "pvenda": 208.56
+        },
+        {
+          "desc": "RC ATUM SOLIDO OLEO 24X170G",
+          "industria": "ROBINSON CRUSOE",
+          "qt": 2,
+          "val": 417.12,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "5586",
           "codfilial": "2",
           "pvenda": 208.56
         },
@@ -155690,20 +155738,6 @@ const PEDIDOS_DATA = {
       "total": 5308.2,
       "itens": [
         {
-          "desc": "VILLA ROSA BRANCO 750ML",
-          "industria": "CASTAS",
-          "qt": 18,
-          "val": 412.2,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 18.0,
-          "cortado": false,
-          "codprod": "2613",
-          "codfilial": "4",
-          "pvenda": 22.9
-        },
-        {
           "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
           "industria": "CASA PERINI",
           "qt": 120,
@@ -155730,6 +155764,20 @@ const PEDIDOS_DATA = {
           "codprod": "3766",
           "codfilial": "4",
           "pvenda": 79.0
+        },
+        {
+          "desc": "VILLA ROSA BRANCO 750ML",
+          "industria": "CASTAS",
+          "qt": 18,
+          "val": 412.2,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 18.0,
+          "cortado": false,
+          "codprod": "2613",
+          "codfilial": "4",
+          "pvenda": 22.9
         }
       ],
       "tem_corte": false,
@@ -155949,20 +155997,6 @@ const PEDIDOS_DATA = {
       "total": 1201.8,
       "itens": [
         {
-          "desc": "VILLA ROSA  ROSE 750ML",
-          "industria": "CASTAS",
-          "qt": 6,
-          "val": 137.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "cortado": false,
-          "codprod": "2703",
-          "codfilial": "4",
-          "pvenda": 22.9
-        },
-        {
           "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
           "industria": "CASA PERINI",
           "qt": 24,
@@ -155987,6 +156021,20 @@ const PEDIDOS_DATA = {
           "qt_original": 12.0,
           "cortado": false,
           "codprod": "2613",
+          "codfilial": "4",
+          "pvenda": 22.9
+        },
+        {
+          "desc": "VILLA ROSA  ROSE 750ML",
+          "industria": "CASTAS",
+          "qt": 6,
+          "val": 137.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "2703",
           "codfilial": "4",
           "pvenda": 22.9
         }
@@ -156290,20 +156338,6 @@ const PEDIDOS_DATA = {
       "total": 2290.14,
       "itens": [
         {
-          "desc": "ESPUM MOSCATEL QUINTA DO MORGADO 660ML",
-          "industria": "FANTE",
-          "qt": 6,
-          "val": 130.2,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "cortado": false,
-          "codprod": "7102",
-          "codfilial": "4",
-          "pvenda": 21.7
-        },
-        {
           "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
           "industria": "CASA PERINI",
           "qt": 12,
@@ -156316,6 +156350,20 @@ const PEDIDOS_DATA = {
           "codprod": "663",
           "codfilial": "4",
           "pvenda": 32.9
+        },
+        {
+          "desc": "ESPUM MOSCATEL QUINTA DO MORGADO 660ML",
+          "industria": "FANTE",
+          "qt": 6,
+          "val": 130.2,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "7102",
+          "codfilial": "4",
+          "pvenda": 21.7
         },
         {
           "desc": "ESPU MOSCATEL ROSE QNTA DO MORGADO 660ML",
@@ -156479,20 +156527,6 @@ const PEDIDOS_DATA = {
           "pvenda": 21.7
         },
         {
-          "desc": "RUM MONTILLA OURO 1L",
-          "industria": "PERNOD",
-          "qt": 6,
-          "val": 122.7,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "cortado": false,
-          "codprod": "178",
-          "codfilial": "4",
-          "pvenda": 20.45
-        },
-        {
           "desc": "GIN ROCKS 1000ML",
           "industria": "FANTE",
           "qt": 6,
@@ -156533,6 +156567,20 @@ const PEDIDOS_DATA = {
           "codprod": "69",
           "codfilial": "4",
           "pvenda": 19.3
+        },
+        {
+          "desc": "RUM MONTILLA OURO 1L",
+          "industria": "PERNOD",
+          "qt": 6,
+          "val": 122.7,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "178",
+          "codfilial": "4",
+          "pvenda": 20.45
         },
         {
           "desc": "VINHO TINTO QUINTA DO MORGADO 750ML",
@@ -158566,20 +158614,6 @@ const PEDIDOS_DATA = {
       "total": 540.6,
       "itens": [
         {
-          "desc": "RC ATUM RALADO NATURAL 24X140G",
-          "industria": "ROBINSON CRUSOE",
-          "qt": 1,
-          "val": 141.6,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "5582",
-          "codfilial": "2",
-          "pvenda": 141.6
-        },
-        {
           "desc": "RC SARDINHA EM OLEO 50X125G",
           "industria": "ROBINSON CRUSOE",
           "qt": 1,
@@ -158606,6 +158640,20 @@ const PEDIDOS_DATA = {
           "codprod": "5580",
           "codfilial": "2",
           "pvenda": 199.5
+        },
+        {
+          "desc": "RC ATUM RALADO NATURAL 24X140G",
+          "industria": "ROBINSON CRUSOE",
+          "qt": 1,
+          "val": 141.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "5582",
+          "codfilial": "2",
+          "pvenda": 141.6
         }
       ],
       "tem_corte": false,
@@ -158980,20 +159028,6 @@ const PEDIDOS_DATA = {
           "pvenda": 8.97
         },
         {
-          "desc": "PINATI NUTS BANANA 20X30G",
-          "industria": "PINATI",
-          "qt": 2,
-          "val": 77.6,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "5240",
-          "codfilial": "1",
-          "pvenda": 38.8
-        },
-        {
           "desc": "DP DADINHO BITZ AO LEITE 105G",
           "industria": "DADINHO",
           "qt": 30,
@@ -159034,6 +159068,20 @@ const PEDIDOS_DATA = {
           "codprod": "7354",
           "codfilial": "1",
           "pvenda": 28.62
+        },
+        {
+          "desc": "PINATI NUTS BANANA 20X30G",
+          "industria": "PINATI",
+          "qt": 2,
+          "val": 77.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "5240",
+          "codfilial": "1",
+          "pvenda": 38.8
         },
         {
           "desc": "PINATI NUTS ZERO COCO 16X4X25G",
@@ -159155,20 +159203,6 @@ const PEDIDOS_DATA = {
           "pvenda": 15.26
         },
         {
-          "desc": "VODKA NATASHA 900ML",
-          "industria": "BACARDI",
-          "qt": 36,
-          "val": 588.96,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 36.0,
-          "cortado": false,
-          "codprod": "418",
-          "codfilial": "1",
-          "pvenda": 16.36
-        },
-        {
           "desc": "LICOR BALLENA MORANGO 750 ML",
           "industria": "BALLENA",
           "qt": 6,
@@ -159209,6 +159243,20 @@ const PEDIDOS_DATA = {
           "codprod": "1527",
           "codfilial": "1",
           "pvenda": 35.64
+        },
+        {
+          "desc": "VODKA NATASHA 900ML",
+          "industria": "BACARDI",
+          "qt": 36,
+          "val": 588.96,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 36.0,
+          "cortado": false,
+          "codprod": "418",
+          "codfilial": "1",
+          "pvenda": 16.36
         },
         {
           "desc": "WHISKY JIM BEAM WHITE 1L",
@@ -159334,20 +159382,6 @@ const PEDIDOS_DATA = {
           "pvenda": 88.8
         },
         {
-          "desc": "PINATI DOUBLE BAR BANANA AMENDOIM 16X35G",
-          "industria": "PINATI",
-          "qt": 4,
-          "val": 197.22,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 4.0,
-          "cortado": false,
-          "codprod": "7601",
-          "codfilial": "1",
-          "pvenda": 49.3
-        },
-        {
           "desc": "PINATI NUTS ZERO COCO 16X4X25G",
           "industria": "PINATI",
           "qt": 2,
@@ -159388,6 +159422,20 @@ const PEDIDOS_DATA = {
           "codprod": "5231",
           "codfilial": "1",
           "pvenda": 38.8
+        },
+        {
+          "desc": "PINATI DOUBLE BAR BANANA AMENDOIM 16X35G",
+          "industria": "PINATI",
+          "qt": 4,
+          "val": 197.22,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 4.0,
+          "cortado": false,
+          "codprod": "7601",
+          "codfilial": "1",
+          "pvenda": 49.3
         },
         {
           "desc": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
@@ -159509,20 +159557,6 @@ const PEDIDOS_DATA = {
           "pvenda": 15.26
         },
         {
-          "desc": "WHISKY JIM BEAM WHITE 1L",
-          "industria": "BEAM SUNTORY",
-          "qt": 12,
-          "val": 958.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "cortado": false,
-          "codprod": "484",
-          "codfilial": "1",
-          "pvenda": 79.9
-        },
-        {
           "desc": "LICOR BALLENA MORANGO 750 ML",
           "industria": "BALLENA",
           "qt": 6,
@@ -159563,6 +159597,20 @@ const PEDIDOS_DATA = {
           "codprod": "5034",
           "codfilial": "1",
           "pvenda": 39.21
+        },
+        {
+          "desc": "WHISKY JIM BEAM WHITE 1L",
+          "industria": "BEAM SUNTORY",
+          "qt": 12,
+          "val": 958.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "484",
+          "codfilial": "1",
+          "pvenda": 79.9
         }
       ],
       "tem_corte": false,
@@ -159688,20 +159736,6 @@ const PEDIDOS_DATA = {
           "pvenda": 38.8
         },
         {
-          "desc": "PINATI NUTS ORIGINAL 20X30G",
-          "industria": "PINATI",
-          "qt": 2,
-          "val": 77.6,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "5231",
-          "codfilial": "1",
-          "pvenda": 38.8
-        },
-        {
           "desc": "PINATI NUTS BANANA 16X4X30G",
           "industria": "PINATI",
           "qt": 1,
@@ -159742,6 +159776,20 @@ const PEDIDOS_DATA = {
           "codprod": "5255",
           "codfilial": "1",
           "pvenda": 88.8
+        },
+        {
+          "desc": "PINATI NUTS ORIGINAL 20X30G",
+          "industria": "PINATI",
+          "qt": 2,
+          "val": 77.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "5231",
+          "codfilial": "1",
+          "pvenda": 38.8
         },
         {
           "desc": "PINATI DOUBLE BAR BANANA AMENDOIM 16X35G",
@@ -160014,20 +160062,6 @@ const PEDIDOS_DATA = {
       "total": 828.24,
       "itens": [
         {
-          "desc": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
-          "industria": "TATUZINHO",
-          "qt": 1,
-          "val": 155.28,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "6334",
-          "codfilial": "4",
-          "pvenda": 155.28
-        },
-        {
           "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
           "industria": "TATUZINHO",
           "qt": 2,
@@ -160068,6 +160102,20 @@ const PEDIDOS_DATA = {
           "codprod": "6259",
           "codfilial": "4",
           "pvenda": 86.28
+        },
+        {
+          "desc": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
+          "industria": "TATUZINHO",
+          "qt": 1,
+          "val": 155.28,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "6334",
+          "codfilial": "4",
+          "pvenda": 155.28
         },
         {
           "desc": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
@@ -160879,20 +160927,6 @@ const PEDIDOS_DATA = {
           "pvenda": 29.2
         },
         {
-          "desc": "WHISKY JIM BEAM APPLE 1L",
-          "industria": "BEAM SUNTORY",
-          "qt": 3,
-          "val": 212.7,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 3.0,
-          "cortado": false,
-          "codprod": "3151",
-          "codfilial": "2",
-          "pvenda": 70.9
-        },
-        {
           "desc": "LICOR ESDIEGOZAMORA 43 + 2 COPO",
           "industria": "AURORA",
           "qt": 2,
@@ -160933,6 +160967,20 @@ const PEDIDOS_DATA = {
           "codprod": "416",
           "codfilial": "2",
           "pvenda": 99.9
+        },
+        {
+          "desc": "WHISKY JIM BEAM APPLE 1L",
+          "industria": "BEAM SUNTORY",
+          "qt": 3,
+          "val": 212.7,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "cortado": false,
+          "codprod": "3151",
+          "codfilial": "2",
+          "pvenda": 70.9
         },
         {
           "desc": "WHISKY JIM BEAM WHITE 1L",
@@ -161781,20 +161829,6 @@ const PEDIDOS_DATA = {
       "total": 2893.79,
       "itens": [
         {
-          "desc": "ST PIERRE VIDRO GINGER LN 12X275ML",
-          "industria": "TATUZINHO",
-          "qt": 2,
-          "val": 113.28,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "3310",
-          "codfilial": "1",
-          "pvenda": 56.64
-        },
-        {
           "desc": "ST PIERRE ZERO AGUA DE COCO LT 24X310ML",
           "industria": "TATUZINHO",
           "qt": 1,
@@ -161807,6 +161841,20 @@ const PEDIDOS_DATA = {
           "codprod": "6156",
           "codfilial": "1",
           "pvenda": 146.57
+        },
+        {
+          "desc": "ST PIERRE VIDRO GINGER LN 12X275ML",
+          "industria": "TATUZINHO",
+          "qt": 2,
+          "val": 113.28,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "3310",
+          "codfilial": "1",
+          "pvenda": 56.64
         },
         {
           "desc": "WHISKY BALLANTINE S FINEST 1L",
@@ -161914,20 +161962,6 @@ const PEDIDOS_DATA = {
           "pvenda": 134.4
         },
         {
-          "desc": "ST PIERRE LATA RED MINT LT 24X270ML",
-          "industria": "TATUZINHO",
-          "qt": 2,
-          "val": 216.48,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "3109",
-          "codfilial": "1",
-          "pvenda": 108.24
-        },
-        {
           "desc": "ST PIERRE VIDRO GINGER LN 12X275ML",
           "industria": "TATUZINHO",
           "qt": 3,
@@ -161966,6 +162000,20 @@ const PEDIDOS_DATA = {
           "qt_original": 2.0,
           "cortado": false,
           "codprod": "2965",
+          "codfilial": "1",
+          "pvenda": 108.24
+        },
+        {
+          "desc": "ST PIERRE LATA RED MINT LT 24X270ML",
+          "industria": "TATUZINHO",
+          "qt": 2,
+          "val": 216.48,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "3109",
           "codfilial": "1",
           "pvenda": 108.24
         },
@@ -162135,20 +162183,6 @@ const PEDIDOS_DATA = {
       "total": 1224.23,
       "itens": [
         {
-          "desc": "AMARULA C LIQUEUR 750 ML",
-          "industria": "INTERFOOD",
-          "qt": 1,
-          "val": 89.9,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "40",
-          "codfilial": "2",
-          "pvenda": 89.9
-        },
-        {
           "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
           "industria": "TATUZINHO",
           "qt": 3,
@@ -162189,6 +162223,20 @@ const PEDIDOS_DATA = {
           "codprod": "6255",
           "codfilial": "2",
           "pvenda": 94.7
+        },
+        {
+          "desc": "AMARULA C LIQUEUR 750 ML",
+          "industria": "INTERFOOD",
+          "qt": 1,
+          "val": 89.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "40",
+          "codfilial": "2",
+          "pvenda": 89.9
         },
         {
           "desc": "GIN ROCKS POCKET PET 12X200ML",
@@ -162665,20 +162713,6 @@ const PEDIDOS_DATA = {
           "pvenda": 31.89
         },
         {
-          "desc": "SMIRNOFF ICE GREEN APPLE (LONG) 24X275ML",
-          "industria": "DIAGEO",
-          "qt": 1,
-          "val": 139.9,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "6288",
-          "codfilial": "2",
-          "pvenda": 139.9
-        },
-        {
           "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
           "industria": "DIAGEO",
           "qt": 1,
@@ -162719,6 +162753,20 @@ const PEDIDOS_DATA = {
           "codprod": "100",
           "codfilial": "2",
           "pvenda": 114.9
+        },
+        {
+          "desc": "SMIRNOFF ICE GREEN APPLE (LONG) 24X275ML",
+          "industria": "DIAGEO",
+          "qt": 1,
+          "val": 139.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "6288",
+          "codfilial": "2",
+          "pvenda": 139.9
         },
         {
           "desc": "RUM MONTILLA OURO 1L",
@@ -163450,20 +163498,6 @@ const PEDIDOS_DATA = {
       "total": 1517.76,
       "itens": [
         {
-          "desc": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
-          "industria": "PINATI",
-          "qt": 20,
-          "val": 892.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 20.0,
-          "cortado": false,
-          "codprod": "5165",
-          "codfilial": "1",
-          "pvenda": 44.64
-        },
-        {
           "desc": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
           "industria": "PINATI",
           "qt": 10,
@@ -163474,6 +163508,20 @@ const PEDIDOS_DATA = {
           "qt_original": 10.0,
           "cortado": false,
           "codprod": "5167",
+          "codfilial": "1",
+          "pvenda": 44.64
+        },
+        {
+          "desc": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "industria": "PINATI",
+          "qt": 20,
+          "val": 892.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 20.0,
+          "cortado": false,
+          "codprod": "5165",
           "codfilial": "1",
           "pvenda": 44.64
         },
@@ -163517,20 +163565,6 @@ const PEDIDOS_DATA = {
       "total": 535.68,
       "itens": [
         {
-          "desc": "PINATI SIMPLE WHEY PISTACHE 16X35G",
-          "industria": "PINATI",
-          "qt": 10,
-          "val": 446.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 10.0,
-          "cortado": false,
-          "codprod": "5166",
-          "codfilial": "1",
-          "pvenda": 44.64
-        },
-        {
           "desc": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
           "industria": "PINATI",
           "qt": 2,
@@ -163541,6 +163575,20 @@ const PEDIDOS_DATA = {
           "qt_original": 2.0,
           "cortado": false,
           "codprod": "5165",
+          "codfilial": "1",
+          "pvenda": 44.64
+        },
+        {
+          "desc": "PINATI SIMPLE WHEY PISTACHE 16X35G",
+          "industria": "PINATI",
+          "qt": 10,
+          "val": 446.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 10.0,
+          "cortado": false,
+          "codprod": "5166",
           "codfilial": "1",
           "pvenda": 44.64
         }
@@ -164104,20 +164152,6 @@ const PEDIDOS_DATA = {
       "total": 1177.2,
       "itens": [
         {
-          "desc": "SMIRNOFF ICE GREEN APPLE (LONG) 24X275ML",
-          "industria": "DIAGEO",
-          "qt": 1,
-          "val": 139.9,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "6288",
-          "codfilial": "2",
-          "pvenda": 139.9
-        },
-        {
           "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
           "industria": "DIAGEO",
           "qt": 1,
@@ -164158,6 +164192,20 @@ const PEDIDOS_DATA = {
           "codprod": "40",
           "codfilial": "2",
           "pvenda": 89.9
+        },
+        {
+          "desc": "SMIRNOFF ICE GREEN APPLE (LONG) 24X275ML",
+          "industria": "DIAGEO",
+          "qt": 1,
+          "val": 139.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "6288",
+          "codfilial": "2",
+          "pvenda": 139.9
         },
         {
           "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
@@ -164819,20 +164867,6 @@ const PEDIDOS_DATA = {
           "pvenda": 31.9
         },
         {
-          "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "industria": "CASTAS",
-          "qt": 2,
-          "val": 159.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "2848",
-          "codfilial": "2",
-          "pvenda": 79.9
-        },
-        {
           "desc": "ESPUMANTE ALUD ROSE 750ML",
           "industria": "CASTAS",
           "qt": 6,
@@ -164873,6 +164907,20 @@ const PEDIDOS_DATA = {
           "codprod": "3051",
           "codfilial": "2",
           "pvenda": 69.9
+        },
+        {
+          "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "industria": "CASTAS",
+          "qt": 2,
+          "val": 159.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "2848",
+          "codfilial": "2",
+          "pvenda": 79.9
         },
         {
           "desc": "VINHO TROU DE LAPIN BORDEAUX BRANCO 750M",
@@ -165001,20 +165049,6 @@ const PEDIDOS_DATA = {
           "pvenda": 89.9
         },
         {
-          "desc": "VINHO ARESTI CABINA 56 SAUV BLANC 750ML",
-          "industria": "CASTAS",
-          "qt": 2,
-          "val": 129.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "4241",
-          "codfilial": "2",
-          "pvenda": 64.9
-        },
-        {
           "desc": "VINHO ARESTI TRISQUEL GRAN R SYRAH 750ML",
           "industria": "CASTAS",
           "qt": 2,
@@ -165055,6 +165089,20 @@ const PEDIDOS_DATA = {
           "codprod": "4245",
           "codfilial": "2",
           "pvenda": 79.9
+        },
+        {
+          "desc": "VINHO ARESTI CABINA 56 SAUV BLANC 750ML",
+          "industria": "CASTAS",
+          "qt": 2,
+          "val": 129.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "4241",
+          "codfilial": "2",
+          "pvenda": 64.9
         },
         {
           "desc": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
@@ -165850,20 +165898,6 @@ const PEDIDOS_DATA = {
       "total": 743.28,
       "itens": [
         {
-          "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-          "industria": "TATUZINHO",
-          "qt": 1,
-          "val": 94.68,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "7207",
-          "codfilial": "2",
-          "pvenda": 94.68
-        },
-        {
           "desc": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
           "industria": "TATUZINHO",
           "qt": 1,
@@ -165902,6 +165936,20 @@ const PEDIDOS_DATA = {
           "qt_original": 1.0,
           "cortado": false,
           "codprod": "6255",
+          "codfilial": "2",
+          "pvenda": 94.68
+        },
+        {
+          "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "industria": "TATUZINHO",
+          "qt": 1,
+          "val": 94.68,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "7207",
           "codfilial": "2",
           "pvenda": 94.68
         },
@@ -165959,20 +166007,6 @@ const PEDIDOS_DATA = {
       "total": 1647.6,
       "itens": [
         {
-          "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "industria": "TATUZINHO",
-          "qt": 5,
-          "val": 473.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 5.0,
-          "cortado": false,
-          "codprod": "6259",
-          "codfilial": "2",
-          "pvenda": 94.68
-        },
-        {
           "desc": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
           "industria": "TATUZINHO",
           "qt": 1,
@@ -166013,6 +166047,20 @@ const PEDIDOS_DATA = {
           "codprod": "6334",
           "codfilial": "2",
           "pvenda": 175.2
+        },
+        {
+          "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "industria": "TATUZINHO",
+          "qt": 5,
+          "val": 473.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 5.0,
+          "cortado": false,
+          "codprod": "6259",
+          "codfilial": "2",
+          "pvenda": 94.68
         },
         {
           "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
@@ -167015,20 +167063,6 @@ const PEDIDOS_DATA = {
       "total": 954.96,
       "itens": [
         {
-          "desc": "RED BULL 24X250ML",
-          "industria": "RED BULL",
-          "qt": 1,
-          "val": 179.76,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "3",
-          "codfilial": "2",
-          "pvenda": 179.76
-        },
-        {
           "desc": "VODCA SMIRNOFF RED 998 ML",
           "industria": "DIAGEO",
           "qt": 12,
@@ -167041,6 +167075,20 @@ const PEDIDOS_DATA = {
           "codprod": "16",
           "codfilial": "2",
           "pvenda": 27.9
+        },
+        {
+          "desc": "RED BULL 24X250ML",
+          "industria": "RED BULL",
+          "qt": 1,
+          "val": 179.76,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "3",
+          "codfilial": "2",
+          "pvenda": 179.76
         },
         {
           "desc": "APERITIVO CAMPARI 998ML",
@@ -167444,20 +167492,6 @@ const PEDIDOS_DATA = {
           "pvenda": 84.9
         },
         {
-          "desc": "WHISKY BALLANTINE S SUNSHINE 700ML",
-          "industria": "PERNOD",
-          "qt": 12,
-          "val": 706.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "cortado": false,
-          "codprod": "4843",
-          "codfilial": "2",
-          "pvenda": 58.9
-        },
-        {
           "desc": "WHISKY J WALKER BLACK LABEL 1L",
           "industria": "DIAGEO",
           "qt": 24,
@@ -167498,6 +167532,20 @@ const PEDIDOS_DATA = {
           "codprod": "16",
           "codfilial": "2",
           "pvenda": 27.9
+        },
+        {
+          "desc": "WHISKY BALLANTINE S SUNSHINE 700ML",
+          "industria": "PERNOD",
+          "qt": 12,
+          "val": 706.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "4843",
+          "codfilial": "2",
+          "pvenda": 58.9
         },
         {
           "desc": "VODKA ABSOLUT 1L",
@@ -168233,20 +168281,6 @@ const PEDIDOS_DATA = {
       "total": 2255.94,
       "itens": [
         {
-          "desc": "RUM BACARDI GOLD 980ML",
-          "industria": "BACARDI",
-          "qt": 6,
-          "val": 263.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "cortado": false,
-          "codprod": "35",
-          "codfilial": "2",
-          "pvenda": 43.9
-        },
-        {
           "desc": "CANTINA DA SERRA 1,5L",
           "industria": "COMARY",
           "qt": 36,
@@ -168273,6 +168307,20 @@ const PEDIDOS_DATA = {
           "codprod": "40",
           "codfilial": "2",
           "pvenda": 89.9
+        },
+        {
+          "desc": "RUM BACARDI GOLD 980ML",
+          "industria": "BACARDI",
+          "qt": 6,
+          "val": 263.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "35",
+          "codfilial": "2",
+          "pvenda": 43.9
         },
         {
           "desc": "PIRASSUNUNGA 51 965 ML",
@@ -168548,20 +168596,6 @@ const PEDIDOS_DATA = {
           "pvenda": 249.5
         },
         {
-          "desc": "RC ATUM RALADO OLEO 24X140G",
-          "industria": "ROBINSON CRUSOE",
-          "qt": 1,
-          "val": 153.36,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "5583",
-          "codfilial": "2",
-          "pvenda": 153.36
-        },
-        {
           "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
           "industria": "ROBINSON CRUSOE",
           "qt": 1,
@@ -168602,6 +168636,20 @@ const PEDIDOS_DATA = {
           "codprod": "6565",
           "codfilial": "2",
           "pvenda": 286.8
+        },
+        {
+          "desc": "RC ATUM RALADO OLEO 24X140G",
+          "industria": "ROBINSON CRUSOE",
+          "qt": 1,
+          "val": 153.36,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "5583",
+          "codfilial": "2",
+          "pvenda": 153.36
         }
       ],
       "tem_corte": false,
@@ -168713,20 +168761,6 @@ const PEDIDOS_DATA = {
       "total": 1284.96,
       "itens": [
         {
-          "desc": "VINHO TINTO QUINTA DO MORGADO 750ML",
-          "industria": "FANTE",
-          "qt": 12,
-          "val": 152.76,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "cortado": false,
-          "codprod": "3814",
-          "codfilial": "4",
-          "pvenda": 12.73
-        },
-        {
           "desc": "GIN ROCKS WATERMELON 1000ML",
           "industria": "FANTE",
           "qt": 6,
@@ -168753,6 +168787,20 @@ const PEDIDOS_DATA = {
           "codprod": "7081",
           "codfilial": "4",
           "pvenda": 11.5
+        },
+        {
+          "desc": "VINHO TINTO QUINTA DO MORGADO 750ML",
+          "industria": "FANTE",
+          "qt": 12,
+          "val": 152.76,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "3814",
+          "codfilial": "4",
+          "pvenda": 12.73
         },
         {
           "desc": "WHISKY BLACK STONE 1LT",
@@ -169245,20 +169293,6 @@ const PEDIDOS_DATA = {
       "total": 1314.36,
       "itens": [
         {
-          "desc": "APERITIVO CAMPARI 998ML",
-          "industria": "CAMPARI",
-          "qt": 6,
-          "val": 329.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "cortado": false,
-          "codprod": "447",
-          "codfilial": "2",
-          "pvenda": 54.9
-        },
-        {
           "desc": "VODCA SMIRNOFF RED 998 ML",
           "industria": "DIAGEO",
           "qt": 12,
@@ -169299,6 +169333,20 @@ const PEDIDOS_DATA = {
           "codprod": "3",
           "codfilial": "2",
           "pvenda": 179.76
+        },
+        {
+          "desc": "APERITIVO CAMPARI 998ML",
+          "industria": "CAMPARI",
+          "qt": 6,
+          "val": 329.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "447",
+          "codfilial": "2",
+          "pvenda": 54.9
         },
         {
           "desc": "NOSSO CHOP RED DRAFT VD 6X600ML",
@@ -169547,20 +169595,6 @@ const PEDIDOS_DATA = {
       "total": 1800.72,
       "itens": [
         {
-          "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "industria": "CASA PERINI",
-          "qt": 24,
-          "val": 784.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 24.0,
-          "cortado": false,
-          "codprod": "666",
-          "codfilial": "4",
-          "pvenda": 32.7
-        },
-        {
           "desc": "WHISKY JIM BEAM WHITE 1L",
           "industria": "BEAM SUNTORY",
           "qt": 12,
@@ -169573,6 +169607,20 @@ const PEDIDOS_DATA = {
           "codprod": "484",
           "codfilial": "4",
           "pvenda": 84.66
+        },
+        {
+          "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
+          "industria": "CASA PERINI",
+          "qt": 24,
+          "val": 784.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 24.0,
+          "cortado": false,
+          "codprod": "666",
+          "codfilial": "4",
+          "pvenda": 32.7
         }
       ],
       "tem_corte": false,
@@ -169595,20 +169643,6 @@ const PEDIDOS_DATA = {
       "obs": "ENTREGA AGENDADA PARA 01/06/2026 - HORARIO DAS 08 ÀS 15HS",
       "total": 5112.69,
       "itens": [
-        {
-          "desc": "MOVING BOOSTER LIMAO 24X310ML",
-          "industria": "TATUZINHO",
-          "qt": 5,
-          "val": 759.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 5.0,
-          "cortado": false,
-          "codprod": "6253",
-          "codfilial": "4",
-          "pvenda": 151.8
-        },
         {
           "desc": "WHISKY JIM BEAM WHITE 1L",
           "industria": "BEAM SUNTORY",
@@ -169648,6 +169682,20 @@ const PEDIDOS_DATA = {
           "qt_original": 5.0,
           "cortado": false,
           "codprod": "6254",
+          "codfilial": "4",
+          "pvenda": 151.8
+        },
+        {
+          "desc": "MOVING BOOSTER LIMAO 24X310ML",
+          "industria": "TATUZINHO",
+          "qt": 5,
+          "val": 759.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 5.0,
+          "cortado": false,
+          "codprod": "6253",
           "codfilial": "4",
           "pvenda": 151.8
         },
@@ -169974,20 +170022,6 @@ const PEDIDOS_DATA = {
       "total": 52323.88,
       "itens": [
         {
-          "desc": "SAQUE FUJI SECO 740ML",
-          "industria": "DIALCOOL",
-          "qt": 30,
-          "val": 621.3,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 30.0,
-          "cortado": false,
-          "codprod": "4804",
-          "codfilial": "1",
-          "pvenda": 20.71
-        },
-        {
           "desc": "WHISKY DEWARS 15 YO 750ML",
           "industria": "BACARDI",
           "qt": 18,
@@ -170028,6 +170062,20 @@ const PEDIDOS_DATA = {
           "codprod": "5032",
           "codfilial": "1",
           "pvenda": 35.64
+        },
+        {
+          "desc": "SAQUE FUJI SECO 740ML",
+          "industria": "DIALCOOL",
+          "qt": 30,
+          "val": 621.3,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 30.0,
+          "cortado": false,
+          "codprod": "4804",
+          "codfilial": "1",
+          "pvenda": 20.71
         },
         {
           "desc": "MARTINI ROSSO 750 ML",
@@ -170128,20 +170176,6 @@ const PEDIDOS_DATA = {
           "pvenda": 96.12
         },
         {
-          "desc": "EASY BOOZE VIDRO 12X275ML RED MINT",
-          "industria": "TATUZINHO",
-          "qt": 10,
-          "val": 742.7,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 10.0,
-          "cortado": false,
-          "codprod": "2971",
-          "codfilial": "1",
-          "pvenda": 74.27
-        },
-        {
           "desc": "EASY BOOZE VIDRO 12X275ML GINGER",
           "industria": "TATUZINHO",
           "qt": 6,
@@ -170180,6 +170214,20 @@ const PEDIDOS_DATA = {
           "qt_original": 12.0,
           "cortado": false,
           "codprod": "4792",
+          "codfilial": "1",
+          "pvenda": 74.27
+        },
+        {
+          "desc": "EASY BOOZE VIDRO 12X275ML RED MINT",
+          "industria": "TATUZINHO",
+          "qt": 10,
+          "val": 742.7,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 10.0,
+          "cortado": false,
+          "codprod": "2971",
           "codfilial": "1",
           "pvenda": 74.27
         },
@@ -170373,20 +170421,6 @@ const PEDIDOS_DATA = {
           "pvenda": 8.97
         },
         {
-          "desc": "PINATI NUTS ORIGINAL 16X4X30G",
-          "industria": "PINATI",
-          "qt": 1,
-          "val": 88.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "5265",
-          "codfilial": "1",
-          "pvenda": 88.8
-        },
-        {
           "desc": "PINATI NUTS BANANA 16X4X30G",
           "industria": "PINATI",
           "qt": 1,
@@ -170425,6 +170459,20 @@ const PEDIDOS_DATA = {
           "qt_original": 1.0,
           "cortado": false,
           "codprod": "5254",
+          "codfilial": "1",
+          "pvenda": 88.8
+        },
+        {
+          "desc": "PINATI NUTS ORIGINAL 16X4X30G",
+          "industria": "PINATI",
+          "qt": 1,
+          "val": 88.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "5265",
           "codfilial": "1",
           "pvenda": 88.8
         },
@@ -170944,20 +170992,6 @@ const PEDIDOS_DATA = {
       "total": 8597.46,
       "itens": [
         {
-          "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "industria": "CASTAS",
-          "qt": 6,
-          "val": 335.94,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "cortado": false,
-          "codprod": "2848",
-          "codfilial": "4",
-          "pvenda": 55.99
-        },
-        {
           "desc": "VINHO ADELE ROSE 750ML",
           "industria": "CASTAS",
           "qt": 18,
@@ -170998,6 +171032,20 @@ const PEDIDOS_DATA = {
           "codprod": "4925",
           "codfilial": "4",
           "pvenda": 55.9
+        },
+        {
+          "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "industria": "CASTAS",
+          "qt": 6,
+          "val": 335.94,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "2848",
+          "codfilial": "4",
+          "pvenda": 55.99
         },
         {
           "desc": "WHISKY JIM BEAM BLACK CHERRY 1L",
@@ -171126,20 +171174,6 @@ const PEDIDOS_DATA = {
           "pvenda": 32.7
         },
         {
-          "desc": "WHISKY JIM BEAM BLACK CHERRY 1L",
-          "industria": "BEAM SUNTORY",
-          "qt": 12,
-          "val": 1015.92,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "cortado": false,
-          "codprod": "5273",
-          "codfilial": "4",
-          "pvenda": 84.66
-        },
-        {
           "desc": "ESPUM CASA PERINI PROSECCO 750ML",
           "industria": "CASA PERINI",
           "qt": 12,
@@ -171180,6 +171214,20 @@ const PEDIDOS_DATA = {
           "codprod": "663",
           "codfilial": "4",
           "pvenda": 32.7
+        },
+        {
+          "desc": "WHISKY JIM BEAM BLACK CHERRY 1L",
+          "industria": "BEAM SUNTORY",
+          "qt": 12,
+          "val": 1015.92,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "5273",
+          "codfilial": "4",
+          "pvenda": 84.66
         },
         {
           "desc": "GIN LARIOS ORIGINAL 700ML",
@@ -172532,20 +172580,6 @@ const PEDIDOS_DATA = {
       "total": 963.36,
       "itens": [
         {
-          "desc": "NAVEIA BARISTA 12X1L",
-          "industria": "NAVEIA",
-          "qt": 2,
-          "val": 296.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "7389",
-          "codfilial": "1",
-          "pvenda": 148.2
-        },
-        {
           "desc": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
           "industria": "PINATI",
           "qt": 4,
@@ -172558,6 +172592,20 @@ const PEDIDOS_DATA = {
           "codprod": "5165",
           "codfilial": "1",
           "pvenda": 44.64
+        },
+        {
+          "desc": "NAVEIA BARISTA 12X1L",
+          "industria": "NAVEIA",
+          "qt": 2,
+          "val": 296.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "7389",
+          "codfilial": "1",
+          "pvenda": 148.2
         },
         {
           "desc": "NAVEIA CHOCOLATE 12X1L",
@@ -174342,20 +174390,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "CANTINA DA SERRA 1,5L",
-          "industria": "COMARY",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 24.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 24.0,
-          "qt_original": 24.0,
-          "cortado": true,
-          "codprod": "1518",
-          "codfilial": "4",
-          "pvenda": 9.19
-        },
-        {
           "desc": "VINHO TINTO QUINTA DO MORGADO 1LT",
           "industria": "FANTE",
           "qt": 0,
@@ -174382,6 +174416,20 @@ const PEDIDOS_DATA = {
           "codprod": "3814",
           "codfilial": "4",
           "pvenda": 14.49
+        },
+        {
+          "desc": "CANTINA DA SERRA 1,5L",
+          "industria": "COMARY",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 24.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 24.0,
+          "qt_original": 24.0,
+          "cortado": true,
+          "codprod": "1518",
+          "codfilial": "4",
+          "pvenda": 9.19
         },
         {
           "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
@@ -175242,20 +175290,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
-          "industria": "TATUZINHO",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 9.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 9.0,
-          "qt_original": 9.0,
-          "cortado": true,
-          "codprod": "6334",
-          "codfilial": "4",
-          "pvenda": 142.32
-        },
-        {
           "desc": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
           "industria": "TATUZINHO",
           "qt": 0,
@@ -175296,6 +175330,20 @@ const PEDIDOS_DATA = {
           "codprod": "5392",
           "codfilial": "4",
           "pvenda": 95.76
+        },
+        {
+          "desc": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
+          "industria": "TATUZINHO",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 9.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 9.0,
+          "qt_original": 9.0,
+          "cortado": true,
+          "codprod": "6334",
+          "codfilial": "4",
+          "pvenda": 142.32
         },
         {
           "desc": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
@@ -178930,20 +178978,6 @@ const PEDIDOS_DATA = {
           "pvenda": 105.9
         },
         {
-          "desc": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
-          "industria": "FANTE",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 24.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 24.0,
-          "qt_original": 24.0,
-          "cortado": true,
-          "codprod": "6744",
-          "codfilial": "2",
-          "pvenda": 12.5
-        },
-        {
           "desc": "ST PIERRE VIDRO RED MINT LN 275X12",
           "industria": "TATUZINHO",
           "qt": 0,
@@ -178982,6 +179016,20 @@ const PEDIDOS_DATA = {
           "qt_original": 24.0,
           "cortado": true,
           "codprod": "3814",
+          "codfilial": "2",
+          "pvenda": 12.5
+        },
+        {
+          "desc": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
+          "industria": "FANTE",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 24.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 24.0,
+          "qt_original": 24.0,
+          "cortado": true,
+          "codprod": "6744",
           "codfilial": "2",
           "pvenda": 12.5
         }
@@ -179420,20 +179468,6 @@ const PEDIDOS_DATA = {
           "pvenda": 19.9
         },
         {
-          "desc": "GUARAVITA NATURAL 24X290ML",
-          "industria": "VITON",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 2.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 2.0,
-          "qt_original": 2.0,
-          "cortado": true,
-          "codprod": "378",
-          "codfilial": "2",
-          "pvenda": 26.73
-        },
-        {
           "desc": "AGUA MINALBA C/ GAS 6X1,5L",
           "industria": "MINALBA",
           "qt": 0,
@@ -179474,6 +179508,20 @@ const PEDIDOS_DATA = {
           "codprod": "3106",
           "codfilial": "2",
           "pvenda": 20.9
+        },
+        {
+          "desc": "GUARAVITA NATURAL 24X290ML",
+          "industria": "VITON",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 2.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 2.0,
+          "qt_original": 2.0,
+          "cortado": true,
+          "codprod": "378",
+          "codfilial": "2",
+          "pvenda": 26.73
         }
       ],
       "tem_corte": true,
@@ -181396,20 +181444,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "industria": "ROBINSON CRUSOE",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 3.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 3.0,
-          "qt_original": 3.0,
-          "cortado": true,
-          "codprod": "5580",
-          "codfilial": "2",
-          "pvenda": 199.5
-        },
-        {
           "desc": "RC SARDINHA EM OLEO 50X125G",
           "industria": "ROBINSON CRUSOE",
           "qt": 0,
@@ -181420,6 +181454,20 @@ const PEDIDOS_DATA = {
           "qt_original": 5.0,
           "cortado": true,
           "codprod": "5579",
+          "codfilial": "2",
+          "pvenda": 199.5
+        },
+        {
+          "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "industria": "ROBINSON CRUSOE",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 3.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 3.0,
+          "qt_original": 3.0,
+          "cortado": true,
+          "codprod": "5580",
           "codfilial": "2",
           "pvenda": 199.5
         },
@@ -182466,20 +182514,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "industria": "TATUZINHO",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 20.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 20.0,
-          "qt_original": 20.0,
-          "cortado": true,
-          "codprod": "6257",
-          "codfilial": "4",
-          "pvenda": 84.0
-        },
-        {
           "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
           "industria": "TATUZINHO",
           "qt": 0,
@@ -182490,6 +182524,20 @@ const PEDIDOS_DATA = {
           "qt_original": 24.0,
           "cortado": true,
           "codprod": "6256",
+          "codfilial": "4",
+          "pvenda": 84.0
+        },
+        {
+          "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "industria": "TATUZINHO",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 20.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 20.0,
+          "qt_original": 20.0,
+          "cortado": true,
+          "codprod": "6257",
           "codfilial": "4",
           "pvenda": 84.0
         },
@@ -182760,20 +182808,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "industria": "TATUZINHO",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 1.0,
-          "qt_original": 1.0,
-          "cortado": true,
-          "codprod": "6259",
-          "codfilial": "2",
-          "pvenda": 94.7
-        },
-        {
           "desc": "4 PACK RED BULL ZERO",
           "industria": "RED BULL",
           "qt": 0,
@@ -182798,6 +182832,20 @@ const PEDIDOS_DATA = {
           "qt_original": 1.0,
           "cortado": true,
           "codprod": "7207",
+          "codfilial": "2",
+          "pvenda": 94.7
+        },
+        {
+          "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "industria": "TATUZINHO",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 1.0,
+          "qt_original": 1.0,
+          "cortado": true,
+          "codprod": "6259",
           "codfilial": "2",
           "pvenda": 94.7
         },
@@ -183706,20 +183754,6 @@ const PEDIDOS_DATA = {
           "pvenda": 168.0
         },
         {
-          "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-          "industria": "TATUZINHO",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 1.0,
-          "qt_original": 1.0,
-          "cortado": true,
-          "codprod": "6255",
-          "codfilial": "2",
-          "pvenda": 89.9
-        },
-        {
           "desc": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
           "industria": "TATUZINHO",
           "qt": 0,
@@ -183758,6 +183792,20 @@ const PEDIDOS_DATA = {
           "qt_original": 1.0,
           "cortado": true,
           "codprod": "7207",
+          "codfilial": "2",
+          "pvenda": 89.9
+        },
+        {
+          "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "industria": "TATUZINHO",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 1.0,
+          "qt_original": 1.0,
+          "cortado": true,
+          "codprod": "6255",
           "codfilial": "2",
           "pvenda": 89.9
         },
@@ -183998,20 +184046,6 @@ const PEDIDOS_DATA = {
           "pvenda": 59.3
         },
         {
-          "desc": "PINATI NUTS ORIGINAL 20X30G",
-          "industria": "PINATI",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 1.0,
-          "qt_original": 1.0,
-          "cortado": true,
-          "codprod": "5231",
-          "codfilial": "1",
-          "pvenda": 38.8
-        },
-        {
           "desc": "PINATI DB WHEY COOKIES AND CREAM 12X50G",
           "industria": "PINATI",
           "qt": 0,
@@ -184052,6 +184086,20 @@ const PEDIDOS_DATA = {
           "codprod": "5241",
           "codfilial": "1",
           "pvenda": 79.36
+        },
+        {
+          "desc": "PINATI NUTS ORIGINAL 20X30G",
+          "industria": "PINATI",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 1.0,
+          "qt_original": 1.0,
+          "cortado": true,
+          "codprod": "5231",
+          "codfilial": "1",
+          "pvenda": 38.8
         },
         {
           "desc": "PINATI NUTS BANANA 16X4X30G",
@@ -184322,20 +184370,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "CACHACA JOIA DA SERRA OURO 1L",
-          "industria": "HOB",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 6.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 6.0,
-          "qt_original": 6.0,
-          "cortado": true,
-          "codprod": "4598",
-          "codfilial": "4",
-          "pvenda": 32.5
-        },
-        {
           "desc": "WHISKY JIM BEAM WHITE 1L",
           "industria": "BEAM SUNTORY",
           "qt": 0,
@@ -184348,6 +184382,20 @@ const PEDIDOS_DATA = {
           "codprod": "484",
           "codfilial": "4",
           "pvenda": 94.9
+        },
+        {
+          "desc": "CACHACA JOIA DA SERRA OURO 1L",
+          "industria": "HOB",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 6.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 6.0,
+          "qt_original": 6.0,
+          "cortado": true,
+          "codprod": "4598",
+          "codfilial": "4",
+          "pvenda": 32.5
         },
         {
           "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
@@ -184488,20 +184536,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "CACHACA TATUZINHO PET 750 ML",
-          "industria": "TATUZINHO",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 6.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 6.0,
-          "qt_original": 6.0,
-          "cortado": true,
-          "codprod": "4677",
-          "codfilial": "2",
-          "pvenda": 3.99
-        },
-        {
           "desc": "COMARY MELFORT COQUETEL DE MEL 1L",
           "industria": "COMARY",
           "qt": 0,
@@ -184528,6 +184562,20 @@ const PEDIDOS_DATA = {
           "codprod": "64",
           "codfilial": "2",
           "pvenda": 28.9
+        },
+        {
+          "desc": "CACHACA TATUZINHO PET 750 ML",
+          "industria": "TATUZINHO",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 6.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 6.0,
+          "qt_original": 6.0,
+          "cortado": true,
+          "codprod": "4677",
+          "codfilial": "2",
+          "pvenda": 3.99
         }
       ],
       "tem_corte": true,
@@ -184553,20 +184601,6 @@ const PEDIDOS_DATA = {
       "obs": "",
       "total": 0.0,
       "itens": [
-        {
-          "desc": "VODKA ABSOLUT VANILLA 750ML",
-          "industria": "PERNOD",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 1.0,
-          "qt_original": 1.0,
-          "cortado": true,
-          "codprod": "1710",
-          "codfilial": "2",
-          "pvenda": 65.9
-        },
         {
           "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
           "industria": "TATUZINHO",
@@ -184606,6 +184640,20 @@ const PEDIDOS_DATA = {
           "qt_original": 3.0,
           "cortado": true,
           "codprod": "3429",
+          "codfilial": "2",
+          "pvenda": 65.9
+        },
+        {
+          "desc": "VODKA ABSOLUT VANILLA 750ML",
+          "industria": "PERNOD",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 1.0,
+          "qt_original": 1.0,
+          "cortado": true,
+          "codprod": "1710",
           "codfilial": "2",
           "pvenda": 65.9
         }
@@ -184714,20 +184762,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "industria": "CASA PERINI",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 1.0,
-          "qt_original": 1.0,
-          "cortado": true,
-          "codprod": "2781",
-          "codfilial": "2",
-          "pvenda": 42.0
-        },
-        {
           "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
           "industria": "CASA PERINI",
           "qt": 0,
@@ -184740,6 +184774,20 @@ const PEDIDOS_DATA = {
           "codprod": "663",
           "codfilial": "2",
           "pvenda": 32.9
+        },
+        {
+          "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "industria": "CASA PERINI",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 1.0,
+          "qt_original": 1.0,
+          "cortado": true,
+          "codprod": "2781",
+          "codfilial": "2",
+          "pvenda": 42.0
         },
         {
           "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
@@ -185892,20 +185940,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "REFRESCO DE MORANGO MINECRAFT 24X200ML",
-          "industria": "TIAL",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 1.0,
-          "qt_original": 1.0,
-          "cortado": true,
-          "codprod": "6049",
-          "codfilial": "2",
-          "pvenda": 42.96
-        },
-        {
           "desc": "RC SARDINHA MOLHO DE TOMATE 50X125G",
           "industria": "ROBINSON CRUSOE",
           "qt": 0,
@@ -185930,6 +185964,20 @@ const PEDIDOS_DATA = {
           "qt_original": 1.0,
           "cortado": true,
           "codprod": "6048",
+          "codfilial": "2",
+          "pvenda": 42.96
+        },
+        {
+          "desc": "REFRESCO DE MORANGO MINECRAFT 24X200ML",
+          "industria": "TIAL",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 1.0,
+          "qt_original": 1.0,
+          "cortado": true,
+          "codprod": "6049",
           "codfilial": "2",
           "pvenda": 42.96
         }
@@ -186200,20 +186248,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "AGUA MAMBA PROTEIN LIMAO E FRAMB 6X350ML",
-          "industria": "KAISER",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 1.0,
-          "qt_original": 1.0,
-          "cortado": true,
-          "codprod": "7794",
-          "codfilial": "2",
-          "pvenda": 59.1
-        },
-        {
           "desc": "AGUA NA LATA C/ GAS 12X310ML",
           "industria": "AGUA NA CAIXA",
           "qt": 0,
@@ -186238,6 +186272,20 @@ const PEDIDOS_DATA = {
           "qt_original": 1.0,
           "cortado": true,
           "codprod": "7793",
+          "codfilial": "2",
+          "pvenda": 59.1
+        },
+        {
+          "desc": "AGUA MAMBA PROTEIN LIMAO E FRAMB 6X350ML",
+          "industria": "KAISER",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 1.0,
+          "qt_original": 1.0,
+          "cortado": true,
+          "codprod": "7794",
           "codfilial": "2",
           "pvenda": 59.1
         },
@@ -186926,20 +186974,6 @@ const PEDIDOS_DATA = {
           "pvenda": 598.34
         },
         {
-          "desc": "WHISKY JIM BEAM APPLE 1L",
-          "industria": "BEAM SUNTORY",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 1.0,
-          "qt_original": 1.0,
-          "cortado": true,
-          "codprod": "3151",
-          "codfilial": "1",
-          "pvenda": 79.9
-        },
-        {
           "desc": "VEUVE CLICQUOT BRUT 750 ML",
           "industria": "HENNESSY",
           "qt": 0,
@@ -186980,6 +187014,20 @@ const PEDIDOS_DATA = {
           "codprod": "3054",
           "codfilial": "1",
           "pvenda": 146.49
+        },
+        {
+          "desc": "WHISKY JIM BEAM APPLE 1L",
+          "industria": "BEAM SUNTORY",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 1.0,
+          "qt_original": 1.0,
+          "cortado": true,
+          "codprod": "3151",
+          "codfilial": "1",
+          "pvenda": 79.9
         },
         {
           "desc": "WHISKY JIM BEAM HONEY 1L",
@@ -187136,20 +187184,6 @@ const PEDIDOS_DATA = {
           "pvenda": 53.29
         },
         {
-          "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-          "industria": "HENNESSY",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 1.0,
-          "qt_original": 1.0,
-          "cortado": true,
-          "codprod": "3764",
-          "codfilial": "1",
-          "pvenda": 101.99
-        },
-        {
           "desc": "VINHO LATITUD 33 CHARDONNAY 750 ML",
           "industria": "HENNESSY",
           "qt": 0,
@@ -187190,6 +187224,20 @@ const PEDIDOS_DATA = {
           "codprod": "3675",
           "codfilial": "1",
           "pvenda": 655.89
+        },
+        {
+          "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "industria": "HENNESSY",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 1.0,
+          "qt_original": 1.0,
+          "cortado": true,
+          "codprod": "3764",
+          "codfilial": "1",
+          "pvenda": 101.99
         },
         {
           "desc": "CHANDON RESERVE BRUT ROSE 750ML",
@@ -187414,20 +187462,6 @@ const PEDIDOS_DATA = {
           "pvenda": 32.9
         },
         {
-          "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "industria": "TATUZINHO",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 3.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 3.0,
-          "qt_original": 3.0,
-          "cortado": true,
-          "codprod": "6259",
-          "codfilial": "4",
-          "pvenda": 82.03
-        },
-        {
           "desc": "CHANDON PASSION ON ICE 750 ML",
           "industria": "HENNESSY",
           "qt": 0,
@@ -187454,6 +187488,20 @@ const PEDIDOS_DATA = {
           "codprod": "2613",
           "codfilial": "4",
           "pvenda": 22.9
+        },
+        {
+          "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "industria": "TATUZINHO",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 3.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 3.0,
+          "qt_original": 3.0,
+          "cortado": true,
+          "codprod": "6259",
+          "codfilial": "4",
+          "pvenda": 82.03
         },
         {
           "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
@@ -187650,20 +187698,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "WHISKY JIM BEAM HONEY 1L",
-          "industria": "BEAM SUNTORY",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 12.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 12.0,
-          "qt_original": 12.0,
-          "cortado": true,
-          "codprod": "1526",
-          "codfilial": "4",
-          "pvenda": 95.9
-        },
-        {
           "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
           "industria": "CASA PERINI",
           "qt": 0,
@@ -187676,6 +187710,20 @@ const PEDIDOS_DATA = {
           "codprod": "663",
           "codfilial": "4",
           "pvenda": 32.9
+        },
+        {
+          "desc": "WHISKY JIM BEAM HONEY 1L",
+          "industria": "BEAM SUNTORY",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 12.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 12.0,
+          "qt_original": 12.0,
+          "cortado": true,
+          "codprod": "1526",
+          "codfilial": "4",
+          "pvenda": 95.9
         },
         {
           "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
@@ -187844,20 +187892,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "VILLA ROSA TINTO 750ML",
-          "industria": "CASTAS",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 18.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 18.0,
-          "qt_original": 18.0,
-          "cortado": true,
-          "codprod": "2614",
-          "codfilial": "4",
-          "pvenda": 22.9
-        },
-        {
           "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
           "industria": "CASA PERINI",
           "qt": 0,
@@ -187882,6 +187916,20 @@ const PEDIDOS_DATA = {
           "qt_original": 12.0,
           "cortado": true,
           "codprod": "2613",
+          "codfilial": "4",
+          "pvenda": 22.9
+        },
+        {
+          "desc": "VILLA ROSA TINTO 750ML",
+          "industria": "CASTAS",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 18.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 18.0,
+          "qt_original": 18.0,
+          "cortado": true,
+          "codprod": "2614",
           "codfilial": "4",
           "pvenda": 22.9
         },
@@ -188052,20 +188100,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "VILLA ROSA BRANCO 750ML",
-          "industria": "CASTAS",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 6.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 6.0,
-          "qt_original": 6.0,
-          "cortado": true,
-          "codprod": "2613",
-          "codfilial": "4",
-          "pvenda": 22.9
-        },
-        {
           "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
           "industria": "CASA PERINI",
           "qt": 0,
@@ -188092,6 +188126,20 @@ const PEDIDOS_DATA = {
           "codprod": "3766",
           "codfilial": "4",
           "pvenda": 79.0
+        },
+        {
+          "desc": "VILLA ROSA BRANCO 750ML",
+          "industria": "CASTAS",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 6.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 6.0,
+          "qt_original": 6.0,
+          "cortado": true,
+          "codprod": "2613",
+          "codfilial": "4",
+          "pvenda": 22.9
         }
       ],
       "tem_corte": true
@@ -189032,20 +189080,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "HUMB. CANALE DENARIO RESERVA CAB. FRANC",
-          "industria": "CASTAS",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 1.0,
-          "qt_original": 1.0,
-          "cortado": true,
-          "codprod": "2898",
-          "codfilial": "2",
-          "pvenda": 58.62
-        },
-        {
           "desc": "CERRO DE PEDRA LARANJA JOVEM 750ML",
           "industria": "CASTAS",
           "qt": 0,
@@ -189072,6 +189106,20 @@ const PEDIDOS_DATA = {
           "codprod": "6291",
           "codfilial": "2",
           "pvenda": 84.36
+        },
+        {
+          "desc": "HUMB. CANALE DENARIO RESERVA CAB. FRANC",
+          "industria": "CASTAS",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 1.0,
+          "qt_original": 1.0,
+          "cortado": true,
+          "codprod": "2898",
+          "codfilial": "2",
+          "pvenda": 58.62
         },
         {
           "desc": "VINHO QUINTA DE VENTOZELO TOURI.NACIONAL",
@@ -190100,20 +190148,6 @@ const PEDIDOS_DATA = {
           "pvenda": 127.9
         },
         {
-          "desc": "COQUETEL BANANINHA REGGIANI 950ML",
-          "industria": "CATUABA",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 2.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 2.0,
-          "qt_original": 2.0,
-          "cortado": true,
-          "codprod": "2089",
-          "codfilial": "2",
-          "pvenda": 17.9
-        },
-        {
           "desc": "WHISKY BALLANTINE S FINEST 1L",
           "industria": "PERNOD",
           "qt": 0,
@@ -190154,6 +190188,20 @@ const PEDIDOS_DATA = {
           "codprod": "129",
           "codfilial": "2",
           "pvenda": 69.9
+        },
+        {
+          "desc": "COQUETEL BANANINHA REGGIANI 950ML",
+          "industria": "CATUABA",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 2.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 2.0,
+          "qt_original": 2.0,
+          "cortado": true,
+          "codprod": "2089",
+          "codfilial": "2",
+          "pvenda": 17.9
         }
       ],
       "tem_corte": true,
@@ -190558,20 +190606,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "CHANDON RESERVE BRUT ROSE 750ML",
-          "industria": "HENNESSY",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 6.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 6.0,
-          "qt_original": 6.0,
-          "cortado": true,
-          "codprod": "3759",
-          "codfilial": "2",
-          "pvenda": 75.9
-        },
-        {
           "desc": "ESPUMANTE ARESTI CHARDONNAY 187,5ML",
           "industria": "CASTAS",
           "qt": 0,
@@ -190612,6 +190646,20 @@ const PEDIDOS_DATA = {
           "codprod": "3764",
           "codfilial": "2",
           "pvenda": 74.9
+        },
+        {
+          "desc": "CHANDON RESERVE BRUT ROSE 750ML",
+          "industria": "HENNESSY",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 6.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 6.0,
+          "qt_original": 6.0,
+          "cortado": true,
+          "codprod": "3759",
+          "codfilial": "2",
+          "pvenda": 75.9
         },
         {
           "desc": "CHANDON PASSION ON ICE 750 ML",
@@ -191096,20 +191144,6 @@ const PEDIDOS_DATA = {
           "pvenda": 45.87
         },
         {
-          "desc": "NECTAR MISTO UVA E PERA 12X1000ML",
-          "industria": "TIAL",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 1.0,
-          "qt_original": 1.0,
-          "cortado": true,
-          "codprod": "5992",
-          "codfilial": "2",
-          "pvenda": 57.48
-        },
-        {
           "desc": "PINATI DB WHEY AVELA E LEITE 12X50G",
           "industria": "PINATI",
           "qt": 0,
@@ -191148,6 +191182,20 @@ const PEDIDOS_DATA = {
           "qt_original": 1.0,
           "cortado": true,
           "codprod": "5990",
+          "codfilial": "2",
+          "pvenda": 57.48
+        },
+        {
+          "desc": "NECTAR MISTO UVA E PERA 12X1000ML",
+          "industria": "TIAL",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 1.0,
+          "qt_original": 1.0,
+          "cortado": true,
+          "codprod": "5992",
           "codfilial": "2",
           "pvenda": 57.48
         },
@@ -191390,20 +191438,6 @@ const PEDIDOS_DATA = {
           "pvenda": 38.9
         },
         {
-          "desc": "AGUA MINALBA C/ GAS PREMIUM 12X300ML",
-          "industria": "MINALBA",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 1.0,
-          "qt_original": 1.0,
-          "cortado": true,
-          "codprod": "3504",
-          "codfilial": "2",
-          "pvenda": 56.9
-        },
-        {
           "desc": "MOVING JUICE PROTEIN UVA 12X300ML",
           "industria": "TATUZINHO",
           "qt": 0,
@@ -191416,6 +191450,20 @@ const PEDIDOS_DATA = {
           "codprod": "7206",
           "codfilial": "2",
           "pvenda": 87.6
+        },
+        {
+          "desc": "AGUA MINALBA C/ GAS PREMIUM 12X300ML",
+          "industria": "MINALBA",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 1.0,
+          "qt_original": 1.0,
+          "cortado": true,
+          "codprod": "3504",
+          "codfilial": "2",
+          "pvenda": 56.9
         },
         {
           "desc": "AGUA MINALBA S/ GAS PREMIUM 12X300ML",
@@ -191966,20 +192014,6 @@ const PEDIDOS_DATA = {
           "pvenda": 34.9
         },
         {
-          "desc": "VINHO CAVAS DE ORO CABERNET SAUV 750ML",
-          "industria": "CASTAS",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 3.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 3.0,
-          "qt_original": 3.0,
-          "cortado": true,
-          "codprod": "4574",
-          "codfilial": "2",
-          "pvenda": 41.9
-        },
-        {
           "desc": "VINHO CAVAS DE ORO BLEND  ROSADO 750ML",
           "industria": "CASTAS",
           "qt": 0,
@@ -192018,6 +192052,20 @@ const PEDIDOS_DATA = {
           "qt_original": 3.0,
           "cortado": true,
           "codprod": "4573",
+          "codfilial": "2",
+          "pvenda": 41.9
+        },
+        {
+          "desc": "VINHO CAVAS DE ORO CABERNET SAUV 750ML",
+          "industria": "CASTAS",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 3.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 3.0,
+          "qt_original": 3.0,
+          "cortado": true,
+          "codprod": "4574",
           "codfilial": "2",
           "pvenda": 41.9
         },
@@ -192190,20 +192238,6 @@ const PEDIDOS_DATA = {
           "pvenda": 24.9
         },
         {
-          "desc": "VINHO GRAVEDAD CAB. SAUV.",
-          "industria": "CASTAS",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 6.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 6.0,
-          "qt_original": 6.0,
-          "cortado": true,
-          "codprod": "2925",
-          "codfilial": "2",
-          "pvenda": 31.9
-        },
-        {
           "desc": "VILLA ROSA BRANCO 750ML",
           "industria": "CASTAS",
           "qt": 0,
@@ -192244,6 +192278,20 @@ const PEDIDOS_DATA = {
           "codprod": "2614",
           "codfilial": "2",
           "pvenda": 29.9
+        },
+        {
+          "desc": "VINHO GRAVEDAD CAB. SAUV.",
+          "industria": "CASTAS",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 6.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 6.0,
+          "qt_original": 6.0,
+          "cortado": true,
+          "codprod": "2925",
+          "codfilial": "2",
+          "pvenda": 31.9
         },
         {
           "desc": "VINHO GRAVEDAD CARMENERE 750ML",
@@ -192734,20 +192782,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "VODKA ORLOFF 1L",
-          "industria": "PERNOD",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 12.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 12.0,
-          "qt_original": 12.0,
-          "cortado": true,
-          "codprod": "235",
-          "codfilial": "4",
-          "pvenda": 19.48
-        },
-        {
           "desc": "RUM MONTILLA CARTA BRANCA 1L",
           "industria": "PERNOD",
           "qt": 0,
@@ -192788,6 +192822,20 @@ const PEDIDOS_DATA = {
           "codprod": "38",
           "codfilial": "4",
           "pvenda": 27.93
+        },
+        {
+          "desc": "VODKA ORLOFF 1L",
+          "industria": "PERNOD",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 12.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 12.0,
+          "qt_original": 12.0,
+          "cortado": true,
+          "codprod": "235",
+          "codfilial": "4",
+          "pvenda": 19.48
         },
         {
           "desc": "WHISKY BALLANTINE S FINEST 1L",
@@ -194054,20 +194102,6 @@ const PEDIDOS_DATA = {
           "pvenda": 65.28
         },
         {
-          "desc": "VEJA BAN ANTIBAC GAT 30% DESC 12X500ML",
-          "industria": "RECKITT",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 1.0,
-          "qt_original": 1.0,
-          "cortado": true,
-          "codprod": "7048",
-          "codfilial": "2",
-          "pvenda": 180.0
-        },
-        {
           "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
           "industria": "RECKITT",
           "qt": 0,
@@ -194108,6 +194142,20 @@ const PEDIDOS_DATA = {
           "codprod": "5208",
           "codfilial": "2",
           "pvenda": 85.5
+        },
+        {
+          "desc": "VEJA BAN ANTIBAC GAT 30% DESC 12X500ML",
+          "industria": "RECKITT",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 1.0,
+          "qt_original": 1.0,
+          "cortado": true,
+          "codprod": "7048",
+          "codfilial": "2",
+          "pvenda": 180.0
         },
         {
           "desc": "VEJA MULTIUSO/1BAN/1COZ PACK C/3 24X500M",
@@ -194252,20 +194300,6 @@ const PEDIDOS_DATA = {
           "pvenda": 104.9
         },
         {
-          "desc": "BLACK LABEL 50 ML CX/12",
-          "industria": "DIAGEO",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 1.0,
-          "qt_original": 1.0,
-          "cortado": true,
-          "codprod": "1837",
-          "codfilial": "2",
-          "pvenda": 239.9
-        },
-        {
           "desc": "VODCA SMIRNOFF RED 998 ML",
           "industria": "DIAGEO",
           "qt": 0,
@@ -194306,6 +194340,20 @@ const PEDIDOS_DATA = {
           "codprod": "2851",
           "codfilial": "2",
           "pvenda": 129.9
+        },
+        {
+          "desc": "BLACK LABEL 50 ML CX/12",
+          "industria": "DIAGEO",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 1.0,
+          "qt_original": 1.0,
+          "cortado": true,
+          "codprod": "1837",
+          "codfilial": "2",
+          "pvenda": 239.9
         }
       ],
       "tem_corte": true,
@@ -194458,20 +194506,6 @@ const PEDIDOS_DATA = {
           "pvenda": 20.9
         },
         {
-          "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-          "industria": "HENNESSY",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 6.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 6.0,
-          "qt_original": 6.0,
-          "cortado": true,
-          "codprod": "3764",
-          "codfilial": "2",
-          "pvenda": 69.9
-        },
-        {
           "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
           "industria": "MINALBA",
           "qt": 0,
@@ -194512,6 +194546,20 @@ const PEDIDOS_DATA = {
           "codprod": "7766",
           "codfilial": "2",
           "pvenda": 55.5
+        },
+        {
+          "desc": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "industria": "HENNESSY",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 6.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 6.0,
+          "qt_original": 6.0,
+          "cortado": true,
+          "codprod": "3764",
+          "codfilial": "2",
+          "pvenda": 69.9
         },
         {
           "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
@@ -194754,20 +194802,6 @@ const PEDIDOS_DATA = {
           "pvenda": 122.9
         },
         {
-          "desc": "GIN TANQUERAY  750 ML",
-          "industria": "DIAGEO",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 2.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 2.0,
-          "qt_original": 2.0,
-          "cortado": true,
-          "codprod": "266",
-          "codfilial": "2",
-          "pvenda": 92.0
-        },
-        {
           "desc": "VODKA CIROC 750 ML",
           "industria": "DIAGEO",
           "qt": 0,
@@ -194808,6 +194842,20 @@ const PEDIDOS_DATA = {
           "codprod": "18",
           "codfilial": "2",
           "pvenda": 162.9
+        },
+        {
+          "desc": "GIN TANQUERAY  750 ML",
+          "industria": "DIAGEO",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 2.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 2.0,
+          "qt_original": 2.0,
+          "cortado": true,
+          "codprod": "266",
+          "codfilial": "2",
+          "pvenda": 92.0
         }
       ],
       "tem_corte": true,
@@ -195042,20 +195090,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "RED BULL SUGAR FREE 24X250ML",
-          "industria": "RED BULL",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 1.0,
-          "qt_original": 1.0,
-          "cortado": true,
-          "codprod": "315",
-          "codfilial": "2",
-          "pvenda": 179.76
-        },
-        {
           "desc": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
           "industria": "PINATI",
           "qt": 0,
@@ -195094,6 +195128,20 @@ const PEDIDOS_DATA = {
           "qt_original": 1.0,
           "cortado": true,
           "codprod": "3065",
+          "codfilial": "2",
+          "pvenda": 179.76
+        },
+        {
+          "desc": "RED BULL SUGAR FREE 24X250ML",
+          "industria": "RED BULL",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 1.0,
+          "qt_original": 1.0,
+          "cortado": true,
+          "codprod": "315",
           "codfilial": "2",
           "pvenda": 179.76
         }
@@ -195294,20 +195342,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "RUM BACARDI SUPERIOR CARTA BRANCA 980ML",
-          "industria": "BACARDI",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 120.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 120.0,
-          "qt_original": 120.0,
-          "cortado": true,
-          "codprod": "34",
-          "codfilial": "1",
-          "pvenda": 35.0
-        },
-        {
           "desc": "MARTINI ROSSO 750 ML",
           "industria": "BACARDI",
           "qt": 0,
@@ -195334,6 +195368,20 @@ const PEDIDOS_DATA = {
           "codprod": "504",
           "codfilial": "1",
           "pvenda": 60.0
+        },
+        {
+          "desc": "RUM BACARDI SUPERIOR CARTA BRANCA 980ML",
+          "industria": "BACARDI",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 120.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 120.0,
+          "qt_original": 120.0,
+          "cortado": true,
+          "codprod": "34",
+          "codfilial": "1",
+          "pvenda": 35.0
         },
         {
           "desc": "APERITIVO LILLET 750ML",
@@ -195492,20 +195540,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "AMARULA C LIQUEUR 750 ML",
-          "industria": "INTERFOOD",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 1.0,
-          "qt_original": 1.0,
-          "cortado": true,
-          "codprod": "40",
-          "codfilial": "2",
-          "pvenda": 89.9
-        },
-        {
           "desc": "CANTINA DA SERRA 1,5L",
           "industria": "COMARY",
           "qt": 0,
@@ -195518,6 +195552,20 @@ const PEDIDOS_DATA = {
           "codprod": "1518",
           "codfilial": "2",
           "pvenda": 9.19
+        },
+        {
+          "desc": "AMARULA C LIQUEUR 750 ML",
+          "industria": "INTERFOOD",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 1.0,
+          "qt_original": 1.0,
+          "cortado": true,
+          "codprod": "40",
+          "codfilial": "2",
+          "pvenda": 89.9
         },
         {
           "desc": "RUM BACARDI GOLD 980ML",
@@ -195642,20 +195690,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "industria": "FANTE",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 2.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 2.0,
-          "qt_original": 2.0,
-          "cortado": true,
-          "codprod": "7081",
-          "codfilial": "2",
-          "pvenda": 13.99
-        },
-        {
           "desc": "ESPUM MOSCATEL QUINTA DO MORGADO 660ML",
           "industria": "FANTE",
           "qt": 0,
@@ -195682,6 +195716,20 @@ const PEDIDOS_DATA = {
           "codprod": "6571",
           "codfilial": "2",
           "pvenda": 102.0
+        },
+        {
+          "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "industria": "FANTE",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 2.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 2.0,
+          "qt_original": 2.0,
+          "cortado": true,
+          "codprod": "7081",
+          "codfilial": "2",
+          "pvenda": 13.99
         },
         {
           "desc": "VINHO TINTO QUINTA DO MORGADO 750ML",
@@ -195736,20 +195784,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-          "industria": "RECKITT",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 5.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 5.0,
-          "qt_original": 5.0,
-          "cortado": true,
-          "codprod": "7018",
-          "codfilial": "2",
-          "pvenda": 65.28
-        },
-        {
           "desc": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
           "industria": "RECKITT",
           "qt": 0,
@@ -195774,6 +195808,20 @@ const PEDIDOS_DATA = {
           "qt_original": 64.0,
           "cortado": true,
           "codprod": "7019",
+          "codfilial": "2",
+          "pvenda": 65.28
+        },
+        {
+          "desc": "VEJA MULTIUSO CAMPESTRE 24X500ML",
+          "industria": "RECKITT",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 5.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 5.0,
+          "qt_original": 5.0,
+          "cortado": true,
+          "codprod": "7018",
           "codfilial": "2",
           "pvenda": 65.28
         },
@@ -196260,20 +196308,6 @@ const PEDIDOS_DATA = {
           "pvenda": 27.5
         },
         {
-          "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
-          "industria": "NOSSO CHOPE",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 4.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 4.0,
-          "qt_original": 4.0,
-          "cortado": true,
-          "codprod": "7765",
-          "codfilial": "2",
-          "pvenda": 88.7
-        },
-        {
           "desc": "GIN INVICTUS MELANCIA 900ML",
           "industria": "INVICTUS",
           "qt": 0,
@@ -196314,6 +196348,20 @@ const PEDIDOS_DATA = {
           "codprod": "4009",
           "codfilial": "2",
           "pvenda": 9.99
+        },
+        {
+          "desc": "NOSSO CHOP RED DRAFT PET 12X600ML",
+          "industria": "NOSSO CHOPE",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 4.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 4.0,
+          "qt_original": 4.0,
+          "cortado": true,
+          "codprod": "7765",
+          "codfilial": "2",
+          "pvenda": 88.7
         },
         {
           "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
@@ -196452,20 +196500,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-          "industria": "TATUZINHO",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 0.0,
-          "cortado": false,
-          "codprod": "6255",
-          "codfilial": "2",
-          "pvenda": 94.7
-        },
-        {
           "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
           "industria": "TATUZINHO",
           "qt": 0,
@@ -196490,6 +196524,20 @@ const PEDIDOS_DATA = {
           "qt_original": 0.0,
           "cortado": false,
           "codprod": "6259",
+          "codfilial": "2",
+          "pvenda": 94.7
+        },
+        {
+          "desc": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+          "industria": "TATUZINHO",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 0.0,
+          "cortado": false,
+          "codprod": "6255",
           "codfilial": "2",
           "pvenda": 94.7
         },
@@ -196674,20 +196722,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
-          "industria": "CASTAS",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 1.0,
-          "qt_original": 1.0,
-          "cortado": true,
-          "codprod": "4569",
-          "codfilial": "4",
-          "pvenda": 32.5
-        },
-        {
           "desc": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
           "industria": "TATUZINHO",
           "qt": 0,
@@ -196728,6 +196762,20 @@ const PEDIDOS_DATA = {
           "codprod": "902",
           "codfilial": "4",
           "pvenda": 179.76
+        },
+        {
+          "desc": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
+          "industria": "CASTAS",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 1.0,
+          "qt_original": 1.0,
+          "cortado": true,
+          "codprod": "4569",
+          "codfilial": "4",
+          "pvenda": 32.5
         },
         {
           "desc": "GIN ROCKS STRAWBERRY 1000ML",
@@ -197432,20 +197480,6 @@ const PEDIDOS_DATA = {
           "pvenda": 65.28
         },
         {
-          "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "industria": "FANTE",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 36.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 36.0,
-          "qt_original": 36.0,
-          "cortado": true,
-          "codprod": "7081",
-          "codfilial": "2",
-          "pvenda": 11.7
-        },
-        {
           "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
           "industria": "RECKITT",
           "qt": 0,
@@ -197486,6 +197520,20 @@ const PEDIDOS_DATA = {
           "codprod": "7095",
           "codfilial": "2",
           "pvenda": 17.9
+        },
+        {
+          "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "industria": "FANTE",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 36.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 36.0,
+          "qt_original": 36.0,
+          "cortado": true,
+          "codprod": "7081",
+          "codfilial": "2",
+          "pvenda": 11.7
         }
       ],
       "tem_corte": true,
@@ -197540,20 +197588,6 @@ const PEDIDOS_DATA = {
           "pvenda": 28.6
         },
         {
-          "desc": "GIN ROCKS STRAWBERRY 1000ML",
-          "industria": "FANTE",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 6.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 6.0,
-          "qt_original": 6.0,
-          "cortado": true,
-          "codprod": "3642",
-          "codfilial": "4",
-          "pvenda": 22.03
-        },
-        {
           "desc": "IMPERADOR 900ML",
           "industria": "COMARY",
           "qt": 0,
@@ -197580,6 +197614,20 @@ const PEDIDOS_DATA = {
           "codprod": "663",
           "codfilial": "4",
           "pvenda": 34.9
+        },
+        {
+          "desc": "GIN ROCKS STRAWBERRY 1000ML",
+          "industria": "FANTE",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 6.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 6.0,
+          "qt_original": 6.0,
+          "cortado": true,
+          "codprod": "3642",
+          "codfilial": "4",
+          "pvenda": 22.03
         },
         {
           "desc": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
@@ -198062,20 +198110,6 @@ const PEDIDOS_DATA = {
           "pvenda": 39.9
         },
         {
-          "desc": "WHISKY JACK DANIELS APPLE 1L",
-          "industria": "BROWN",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 2.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 2.0,
-          "qt_original": 2.0,
-          "cortado": true,
-          "codprod": "2851",
-          "codfilial": "2",
-          "pvenda": 129.9
-        },
-        {
           "desc": "CHANDON RESERVE BRUT ROSE 750ML",
           "industria": "HENNESSY",
           "qt": 0,
@@ -198116,6 +198150,20 @@ const PEDIDOS_DATA = {
           "codprod": "2089",
           "codfilial": "2",
           "pvenda": 19.9
+        },
+        {
+          "desc": "WHISKY JACK DANIELS APPLE 1L",
+          "industria": "BROWN",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 2.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 2.0,
+          "qt_original": 2.0,
+          "cortado": true,
+          "codprod": "2851",
+          "codfilial": "2",
+          "pvenda": 129.9
         },
         {
           "desc": "WHISKY JACK DANIELS 1L",
@@ -198222,20 +198270,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "CONHAQUE DOMUS 900ML",
-          "industria": "51",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 6.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 6.0,
-          "qt_original": 6.0,
-          "cortado": true,
-          "codprod": "3919",
-          "codfilial": "4",
-          "pvenda": 10.06
-        },
-        {
           "desc": "AGUARDENTE OLD CESAR 88 965 ML",
           "industria": "CRS BRANDS",
           "qt": 0,
@@ -198248,6 +198282,20 @@ const PEDIDOS_DATA = {
           "codprod": "71",
           "codfilial": "4",
           "pvenda": 10.96
+        },
+        {
+          "desc": "CONHAQUE DOMUS 900ML",
+          "industria": "51",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 6.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 6.0,
+          "qt_original": 6.0,
+          "cortado": true,
+          "codprod": "3919",
+          "codfilial": "4",
+          "pvenda": 10.06
         },
         {
           "desc": "IMPERADOR 900ML",
@@ -198410,20 +198458,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "COQUETEL BANANINHA REGGIANI 950ML",
-          "industria": "CATUABA",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 12.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 12.0,
-          "qt_original": 12.0,
-          "cortado": true,
-          "codprod": "2089",
-          "codfilial": "4",
-          "pvenda": 15.79
-        },
-        {
           "desc": "AGUARDENTE OLD CESAR 88 965 ML",
           "industria": "CRS BRANDS",
           "qt": 0,
@@ -198436,6 +198470,20 @@ const PEDIDOS_DATA = {
           "codprod": "71",
           "codfilial": "4",
           "pvenda": 10.96
+        },
+        {
+          "desc": "COQUETEL BANANINHA REGGIANI 950ML",
+          "industria": "CATUABA",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 12.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 12.0,
+          "qt_original": 12.0,
+          "cortado": true,
+          "codprod": "2089",
+          "codfilial": "4",
+          "pvenda": 15.79
         },
         {
           "desc": "CONHAQUE DOMUS 900ML",
@@ -198522,20 +198570,6 @@ const PEDIDOS_DATA = {
           "pvenda": 123.61
         },
         {
-          "desc": "WHISKY JACK DANIELS FIRE 1L",
-          "industria": "BROWN",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 2.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 2.0,
-          "qt_original": 2.0,
-          "cortado": true,
-          "codprod": "2388",
-          "codfilial": "4",
-          "pvenda": 109.4
-        },
-        {
           "desc": "RUM MALIBU 750ML",
           "industria": "PERNOD",
           "qt": 0,
@@ -198576,6 +198610,20 @@ const PEDIDOS_DATA = {
           "codprod": "479",
           "codfilial": "4",
           "pvenda": 14.5
+        },
+        {
+          "desc": "WHISKY JACK DANIELS FIRE 1L",
+          "industria": "BROWN",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 2.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 2.0,
+          "qt_original": 2.0,
+          "cortado": true,
+          "codprod": "2388",
+          "codfilial": "4",
+          "pvenda": 109.4
         }
       ],
       "tem_corte": true
@@ -198868,20 +198916,6 @@ const PEDIDOS_DATA = {
           "pvenda": 92.9
         },
         {
-          "desc": "SMIRNOFF ICE TROPICAL (LONG) 24X275ML",
-          "industria": "DIAGEO",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 1.0,
-          "qt_original": 1.0,
-          "cortado": true,
-          "codprod": "6289",
-          "codfilial": "2",
-          "pvenda": 139.9
-        },
-        {
           "desc": "LICOR CAN FIREBALL CX C/ 6X50ML",
           "industria": "AURORA",
           "qt": 0,
@@ -198922,6 +198956,20 @@ const PEDIDOS_DATA = {
           "codprod": "1837",
           "codfilial": "2",
           "pvenda": 239.9
+        },
+        {
+          "desc": "SMIRNOFF ICE TROPICAL (LONG) 24X275ML",
+          "industria": "DIAGEO",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 1.0,
+          "qt_original": 1.0,
+          "cortado": true,
+          "codprod": "6289",
+          "codfilial": "2",
+          "pvenda": 139.9
         },
         {
           "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
@@ -198976,20 +199024,6 @@ const PEDIDOS_DATA = {
           "pvenda": 89.9
         },
         {
-          "desc": "TEQUILA J CUERVO SILVER 750ML",
-          "industria": "AURORA",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 1.0,
-          "qt_original": 1.0,
-          "cortado": true,
-          "codprod": "417",
-          "codfilial": "2",
-          "pvenda": 99.9
-        },
-        {
           "desc": "LIQUEUR AMARULA RASBERRY 750 ML",
           "industria": "INTERFOOD",
           "qt": 0,
@@ -199028,6 +199062,20 @@ const PEDIDOS_DATA = {
           "qt_original": 3.0,
           "cortado": true,
           "codprod": "416",
+          "codfilial": "2",
+          "pvenda": 99.9
+        },
+        {
+          "desc": "TEQUILA J CUERVO SILVER 750ML",
+          "industria": "AURORA",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 1.0,
+          "qt_original": 1.0,
+          "cortado": true,
+          "codprod": "417",
           "codfilial": "2",
           "pvenda": 99.9
         },
@@ -199368,20 +199416,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "PINATI NUTS COCO 20X30G",
-          "industria": "PINATI",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 1.0,
-          "qt_original": 1.0,
-          "cortado": true,
-          "codprod": "5241",
-          "codfilial": "2",
-          "pvenda": 44.31
-        },
-        {
           "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
           "industria": "RECKITT",
           "qt": 0,
@@ -199394,6 +199428,20 @@ const PEDIDOS_DATA = {
           "codprod": "7019",
           "codfilial": "2",
           "pvenda": 65.25
+        },
+        {
+          "desc": "PINATI NUTS COCO 20X30G",
+          "industria": "PINATI",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 1.0,
+          "qt_original": 1.0,
+          "cortado": true,
+          "codprod": "5241",
+          "codfilial": "2",
+          "pvenda": 44.31
         },
         {
           "desc": "PINATI SIMPLE WHEY CHOCO BELGA (4)16X35G",
@@ -199744,20 +199792,6 @@ const PEDIDOS_DATA = {
           "pvenda": 36.9
         },
         {
-          "desc": "4 PACK RED BULL 250ML",
-          "industria": "RED BULL",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 2.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 2.0,
-          "qt_original": 2.0,
-          "cortado": true,
-          "codprod": "997",
-          "codfilial": "2",
-          "pvenda": 65.52
-        },
-        {
           "desc": "ESPUM CASA PERINI MOSCATEL 750ML",
           "industria": "CASA PERINI",
           "qt": 0,
@@ -199796,6 +199830,20 @@ const PEDIDOS_DATA = {
           "qt_original": 2.0,
           "cortado": true,
           "codprod": "2699",
+          "codfilial": "2",
+          "pvenda": 65.52
+        },
+        {
+          "desc": "4 PACK RED BULL 250ML",
+          "industria": "RED BULL",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 2.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 2.0,
+          "qt_original": 2.0,
+          "cortado": true,
+          "codprod": "997",
           "codfilial": "2",
           "pvenda": 65.52
         }
@@ -200248,20 +200296,6 @@ const PEDIDOS_DATA = {
           "pvenda": 28.9
         },
         {
-          "desc": "4 PACK RED BULL MELANCIA",
-          "industria": "RED BULL",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 1.0,
-          "qt_original": 1.0,
-          "cortado": true,
-          "codprod": "2841",
-          "codfilial": "2",
-          "pvenda": 32.76
-        },
-        {
           "desc": "AGUA NA LATA C/ GAS 12X310ML",
           "industria": "AGUA NA CAIXA",
           "qt": 0,
@@ -200304,6 +200338,20 @@ const PEDIDOS_DATA = {
           "pvenda": 32.76
         },
         {
+          "desc": "4 PACK RED BULL MELANCIA",
+          "industria": "RED BULL",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 1.0,
+          "qt_original": 1.0,
+          "cortado": true,
+          "codprod": "2841",
+          "codfilial": "2",
+          "pvenda": 32.76
+        },
+        {
           "desc": "LIQUEUR CHAMBORD 750 ML",
           "industria": "BROWN",
           "qt": 0,
@@ -200342,20 +200390,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "GIN MARINA 750ML",
-          "industria": "HOB",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 1.0,
-          "qt_original": 1.0,
-          "cortado": true,
-          "codprod": "2949",
-          "codfilial": "2",
-          "pvenda": 39.9
-        },
-        {
           "desc": "COQUETEL BANANINHA REGGIANI 950ML",
           "industria": "CATUABA",
           "qt": 0,
@@ -200382,6 +200416,20 @@ const PEDIDOS_DATA = {
           "codprod": "640",
           "codfilial": "2",
           "pvenda": 117.9
+        },
+        {
+          "desc": "GIN MARINA 750ML",
+          "industria": "HOB",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 1.0,
+          "qt_original": 1.0,
+          "cortado": true,
+          "codprod": "2949",
+          "codfilial": "2",
+          "pvenda": 39.9
         },
         {
           "desc": "4 PACK RED BULL SF NECTARINA 4X250ML",
@@ -201556,20 +201604,6 @@ const PEDIDOS_DATA = {
           "pvenda": 116.96
         },
         {
-          "desc": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
-          "industria": "TATUZINHO",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 3.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 3.0,
-          "qt_original": 3.0,
-          "cortado": true,
-          "codprod": "3179",
-          "codfilial": "1",
-          "pvenda": 61.19
-        },
-        {
           "desc": "ST PIERRE VIDRO SUGAR FREE LN 275X12",
           "industria": "TATUZINHO",
           "qt": 0,
@@ -201610,6 +201644,20 @@ const PEDIDOS_DATA = {
           "codprod": "4605",
           "codfilial": "1",
           "pvenda": 116.96
+        },
+        {
+          "desc": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
+          "industria": "TATUZINHO",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 3.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 3.0,
+          "qt_original": 3.0,
+          "cortado": true,
+          "codprod": "3179",
+          "codfilial": "1",
+          "pvenda": 61.19
         },
         {
           "desc": "ST PIERRE LATA GINGER LT 24X270ML",
@@ -201744,20 +201792,6 @@ const PEDIDOS_DATA = {
           "pvenda": 109.36
         },
         {
-          "desc": "ST PIERRE LATA PALOMA LT 270MLX24",
-          "industria": "TATUZINHO",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 1.0,
-          "qt_original": 1.0,
-          "cortado": true,
-          "codprod": "4605",
-          "codfilial": "1",
-          "pvenda": 116.96
-        },
-        {
           "desc": "ST PIERRE LATA AGUA TONICA TRAD 24X270ML",
           "industria": "TATUZINHO",
           "qt": 0,
@@ -201796,6 +201830,20 @@ const PEDIDOS_DATA = {
           "qt_original": 1.0,
           "cortado": true,
           "codprod": "4604",
+          "codfilial": "1",
+          "pvenda": 116.96
+        },
+        {
+          "desc": "ST PIERRE LATA PALOMA LT 270MLX24",
+          "industria": "TATUZINHO",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 1.0,
+          "qt_original": 1.0,
+          "cortado": true,
+          "codprod": "4605",
           "codfilial": "1",
           "pvenda": 116.96
         },
@@ -202286,20 +202334,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "CHICLETE TRIDENT GRF BLUE 6X48G",
-          "industria": "MONDELEZ",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 1.0,
-          "qt_original": 1.0,
-          "cortado": true,
-          "codprod": "6794",
-          "codfilial": "1",
-          "pvenda": 51.35
-        },
-        {
           "desc": "CHICLETE TRIDENT CEREJA X TREME C/21 UN",
           "industria": "MONDELEZ",
           "qt": 0,
@@ -202312,6 +202346,20 @@ const PEDIDOS_DATA = {
           "codprod": "3959",
           "codfilial": "1",
           "pvenda": 33.0
+        },
+        {
+          "desc": "CHICLETE TRIDENT GRF BLUE 6X48G",
+          "industria": "MONDELEZ",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 1.0,
+          "qt_original": 1.0,
+          "cortado": true,
+          "codprod": "6794",
+          "codfilial": "1",
+          "pvenda": 51.35
         },
         {
           "desc": "CHICLETE TRIDENT GRF CITRUS 6X48G",
@@ -202432,20 +202480,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "GIN ROCKS STRAWBERRY 1000ML",
-          "industria": "FANTE",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 12.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 12.0,
-          "qt_original": 12.0,
-          "cortado": true,
-          "codprod": "3642",
-          "codfilial": "4",
-          "pvenda": 22.06
-        },
-        {
           "desc": "GIN ROCKS WATERMELON 1000ML",
           "industria": "FANTE",
           "qt": 0,
@@ -202456,6 +202490,20 @@ const PEDIDOS_DATA = {
           "qt_original": 6.0,
           "cortado": true,
           "codprod": "4689",
+          "codfilial": "4",
+          "pvenda": 22.06
+        },
+        {
+          "desc": "GIN ROCKS STRAWBERRY 1000ML",
+          "industria": "FANTE",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 12.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 12.0,
+          "qt_original": 12.0,
+          "cortado": true,
+          "codprod": "3642",
           "codfilial": "4",
           "pvenda": 22.06
         }
@@ -202880,20 +202928,6 @@ const PEDIDOS_DATA = {
           "pvenda": 32.99
         },
         {
-          "desc": "4 PACK RED BULL SUGAR FREE",
-          "industria": "RED BULL",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 1.0,
-          "qt_original": 1.0,
-          "cortado": true,
-          "codprod": "1093",
-          "codfilial": "1",
-          "pvenda": 31.96
-        },
-        {
           "desc": "CHICLETE TRIDENT MENTA C/ 14 UND",
           "industria": "MONDELEZ",
           "qt": 0,
@@ -202934,6 +202968,20 @@ const PEDIDOS_DATA = {
           "codprod": "997",
           "codfilial": "1",
           "pvenda": 31.49
+        },
+        {
+          "desc": "4 PACK RED BULL SUGAR FREE",
+          "industria": "RED BULL",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 1.0,
+          "qt_original": 1.0,
+          "cortado": true,
+          "codprod": "1093",
+          "codfilial": "1",
+          "pvenda": 31.96
         },
         {
           "desc": "4 PACK RED BULL ZERO",
@@ -203392,20 +203440,6 @@ const PEDIDOS_DATA = {
           "pvenda": 274.8
         },
         {
-          "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
-          "industria": "RECKITT",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 1.0,
-          "qt_original": 1.0,
-          "cortado": true,
-          "codprod": "7016",
-          "codfilial": "2",
-          "pvenda": 65.28
-        },
-        {
           "desc": "VANISH LIQUIDO WHITE GARAFFA 12X500ML",
           "industria": "RECKITT",
           "qt": 0,
@@ -203444,6 +203478,20 @@ const PEDIDOS_DATA = {
           "qt_original": 1.0,
           "cortado": true,
           "codprod": "7017",
+          "codfilial": "2",
+          "pvenda": 65.28
+        },
+        {
+          "desc": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
+          "industria": "RECKITT",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 1.0,
+          "qt_original": 1.0,
+          "cortado": true,
+          "codprod": "7016",
           "codfilial": "2",
           "pvenda": 65.28
         },
@@ -203560,20 +203608,6 @@ const PEDIDOS_DATA = {
           "pvenda": 31.9
         },
         {
-          "desc": "ESPUMANTE ALUD ROSE 750ML",
-          "industria": "CASTAS",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 2.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 2.0,
-          "qt_original": 2.0,
-          "cortado": true,
-          "codprod": "3063",
-          "codfilial": "2",
-          "pvenda": 26.9
-        },
-        {
           "desc": "VINHO FOODKILLER CAB. SAUV./ MERLOT",
           "industria": "CASTAS",
           "qt": 0,
@@ -203612,6 +203646,20 @@ const PEDIDOS_DATA = {
           "qt_original": 2.0,
           "cortado": true,
           "codprod": "3011",
+          "codfilial": "2",
+          "pvenda": 26.9
+        },
+        {
+          "desc": "ESPUMANTE ALUD ROSE 750ML",
+          "industria": "CASTAS",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 2.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 2.0,
+          "qt_original": 2.0,
+          "cortado": true,
+          "codprod": "3063",
           "codfilial": "2",
           "pvenda": 26.9
         },
@@ -203742,20 +203790,6 @@ const PEDIDOS_DATA = {
           "pvenda": 29.9
         },
         {
-          "desc": "VINHO CAVAS DE ORO MALBEC 750ML",
-          "industria": "CASTAS",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 2.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 2.0,
-          "qt_original": 2.0,
-          "cortado": true,
-          "codprod": "4572",
-          "codfilial": "2",
-          "pvenda": 36.9
-        },
-        {
           "desc": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
           "industria": "CASTAS",
           "qt": 0,
@@ -203794,6 +203828,20 @@ const PEDIDOS_DATA = {
           "qt_original": 2.0,
           "cortado": true,
           "codprod": "4573",
+          "codfilial": "2",
+          "pvenda": 36.9
+        },
+        {
+          "desc": "VINHO CAVAS DE ORO MALBEC 750ML",
+          "industria": "CASTAS",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 2.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 2.0,
+          "qt_original": 2.0,
+          "cortado": true,
+          "codprod": "4572",
           "codfilial": "2",
           "pvenda": 36.9
         },
@@ -203878,20 +203926,6 @@ const PEDIDOS_DATA = {
           "pvenda": 38.8
         },
         {
-          "desc": "PINATI DOUBLE BAR BANANA AMENDOIM 32X35G",
-          "industria": "PINATI",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 1.0,
-          "qt_original": 1.0,
-          "cortado": true,
-          "codprod": "5157",
-          "codfilial": "1",
-          "pvenda": 98.61
-        },
-        {
           "desc": "PINATI NUTS ZERO COCO 16X4X25G",
           "industria": "PINATI",
           "qt": 0,
@@ -203932,6 +203966,20 @@ const PEDIDOS_DATA = {
           "codprod": "5231",
           "codfilial": "1",
           "pvenda": 38.8
+        },
+        {
+          "desc": "PINATI DOUBLE BAR BANANA AMENDOIM 32X35G",
+          "industria": "PINATI",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 1.0,
+          "qt_original": 1.0,
+          "cortado": true,
+          "codprod": "5157",
+          "codfilial": "1",
+          "pvenda": 98.61
         },
         {
           "desc": "PINATI DOUBLE BAR BRIGADEIRO 32X35G",
@@ -204000,20 +204048,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "PINATI NUTS ORIGINAL 16X4X30G",
-          "industria": "PINATI",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 1.0,
-          "qt_original": 1.0,
-          "cortado": true,
-          "codprod": "5265",
-          "codfilial": "1",
-          "pvenda": 88.8
-        },
-        {
           "desc": "PINATI NUTS BANANA 16X4X30G",
           "industria": "PINATI",
           "qt": 0,
@@ -204052,6 +204086,20 @@ const PEDIDOS_DATA = {
           "qt_original": 1.0,
           "cortado": true,
           "codprod": "5254",
+          "codfilial": "1",
+          "pvenda": 88.8
+        },
+        {
+          "desc": "PINATI NUTS ORIGINAL 16X4X30G",
+          "industria": "PINATI",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 1.0,
+          "qt_original": 1.0,
+          "cortado": true,
+          "codprod": "5265",
           "codfilial": "1",
           "pvenda": 88.8
         },
@@ -205288,20 +205336,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "ICE 51 BALADA LONG NECK 24X275 ML",
-          "industria": "51",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 1.0,
-          "qt_original": 1.0,
-          "cortado": true,
-          "codprod": "110",
-          "codfilial": "2",
-          "pvenda": 114.9
-        },
-        {
           "desc": "NECTAR LARANJA TIAL 12X250ML",
           "industria": "TIAL",
           "qt": 0,
@@ -205328,6 +205362,20 @@ const PEDIDOS_DATA = {
           "codprod": "6013",
           "codfilial": "2",
           "pvenda": 34.3
+        },
+        {
+          "desc": "ICE 51 BALADA LONG NECK 24X275 ML",
+          "industria": "51",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 1.0,
+          "qt_original": 1.0,
+          "cortado": true,
+          "codprod": "110",
+          "codfilial": "2",
+          "pvenda": 114.9
         },
         {
           "desc": "ICE 51 MARACUJA LONG NECK 24X275ML",
@@ -205902,20 +205950,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-          "industria": "RECKITT",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 1.0,
-          "qt_original": 1.0,
-          "cortado": true,
-          "codprod": "7019",
-          "codfilial": "1",
-          "pvenda": 71.76
-        },
-        {
           "desc": "NG DOCE DE LEITE MUMU 350G",
           "industria": "NOIG",
           "qt": 0,
@@ -205954,6 +205988,20 @@ const PEDIDOS_DATA = {
           "qt_original": 1.0,
           "cortado": true,
           "codprod": "7016",
+          "codfilial": "1",
+          "pvenda": 71.76
+        },
+        {
+          "desc": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
+          "industria": "RECKITT",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 1.0,
+          "qt_original": 1.0,
+          "cortado": true,
+          "codprod": "7019",
           "codfilial": "1",
           "pvenda": 71.76
         },
@@ -206010,20 +206058,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "GUARAVITA NATURAL 24X290ML",
-          "industria": "VITON",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 1.0,
-          "qt_original": 1.0,
-          "cortado": true,
-          "codprod": "378",
-          "codfilial": "2",
-          "pvenda": 25.68
-        },
-        {
           "desc": "4 PACK RED BULL 250ML",
           "industria": "RED BULL",
           "qt": 0,
@@ -206036,6 +206070,20 @@ const PEDIDOS_DATA = {
           "codprod": "997",
           "codfilial": "2",
           "pvenda": 32.76
+        },
+        {
+          "desc": "GUARAVITA NATURAL 24X290ML",
+          "industria": "VITON",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 1.0,
+          "qt_original": 1.0,
+          "cortado": true,
+          "codprod": "378",
+          "codfilial": "2",
+          "pvenda": 25.68
         }
       ],
       "tem_corte": true,
@@ -206062,20 +206110,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "4 PACK RED BULL SF MAÇA 4X250ML",
-          "industria": "RED BULL",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 2.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 2.0,
-          "qt_original": 2.0,
-          "cortado": true,
-          "codprod": "6654",
-          "codfilial": "2",
-          "pvenda": 32.76
-        },
-        {
           "desc": "4 PACK RED BULL MORANGO PESSEGO",
           "industria": "RED BULL",
           "qt": 0,
@@ -206100,6 +206134,20 @@ const PEDIDOS_DATA = {
           "qt_original": 2.0,
           "cortado": true,
           "codprod": "4602",
+          "codfilial": "2",
+          "pvenda": 32.76
+        },
+        {
+          "desc": "4 PACK RED BULL SF MAÇA 4X250ML",
+          "industria": "RED BULL",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 2.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 2.0,
+          "qt_original": 2.0,
+          "cortado": true,
+          "codprod": "6654",
           "codfilial": "2",
           "pvenda": 32.76
         },
@@ -206930,20 +206978,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "PINATI NUTS COCO 16X4X25G",
-          "industria": "PINATI",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 1.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 1.0,
-          "qt_original": 1.0,
-          "cortado": true,
-          "codprod": "5262",
-          "codfilial": "1",
-          "pvenda": 34.72
-        },
-        {
           "desc": "PINATI SIMPLE WHEY PISTACHE 16X35G",
           "industria": "PINATI",
           "qt": 0,
@@ -206982,6 +207016,20 @@ const PEDIDOS_DATA = {
           "qt_original": 1.0,
           "cortado": true,
           "codprod": "5263",
+          "codfilial": "1",
+          "pvenda": 34.72
+        },
+        {
+          "desc": "PINATI NUTS COCO 16X4X25G",
+          "industria": "PINATI",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 1.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 1.0,
+          "qt_original": 1.0,
+          "cortado": true,
+          "codprod": "5262",
           "codfilial": "1",
           "pvenda": 34.72
         },
@@ -207102,20 +207150,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "TANQUERAY CX C/ 12X50ML",
-          "industria": "DIAGEO",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 0.0,
-          "cortado": false,
-          "codprod": "4020",
-          "codfilial": "2",
-          "pvenda": 136.58
-        },
-        {
           "desc": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
           "industria": "FANTE",
           "qt": 0,
@@ -207156,6 +207190,20 @@ const PEDIDOS_DATA = {
           "codprod": "4129",
           "codfilial": "2",
           "pvenda": 23.94
+        },
+        {
+          "desc": "TANQUERAY CX C/ 12X50ML",
+          "industria": "DIAGEO",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 0.0,
+          "cortado": false,
+          "codprod": "4020",
+          "codfilial": "2",
+          "pvenda": 136.58
         },
         {
           "desc": "GIN BEEFEATER 750ML",
@@ -207330,20 +207378,6 @@ const PEDIDOS_DATA = {
           "pvenda": 34.9
         },
         {
-          "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "industria": "TATUZINHO",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 5.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 5.0,
-          "qt_original": 5.0,
-          "cortado": true,
-          "codprod": "6256",
-          "codfilial": "4",
-          "pvenda": 82.03
-        },
-        {
           "desc": "WHISKY JIM BEAM HONEY 1L",
           "industria": "BEAM SUNTORY",
           "qt": 0,
@@ -207382,6 +207416,20 @@ const PEDIDOS_DATA = {
           "qt_original": 2.0,
           "cortado": true,
           "codprod": "6255",
+          "codfilial": "4",
+          "pvenda": 82.03
+        },
+        {
+          "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "industria": "TATUZINHO",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 5.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 5.0,
+          "qt_original": 5.0,
+          "cortado": true,
+          "codprod": "6256",
           "codfilial": "4",
           "pvenda": 82.03
         },
@@ -207802,20 +207850,6 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "NECTAR LARANJA 12X1000ML",
-          "industria": "TIAL",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 2.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 2.0,
-          "qt_original": 2.0,
-          "cortado": true,
-          "codprod": "5988",
-          "codfilial": "2",
-          "pvenda": 59.88
-        },
-        {
           "desc": "NECTAR DE MARACUJA 24X200ML KIDS",
           "industria": "TIAL",
           "qt": 0,
@@ -207856,6 +207890,20 @@ const PEDIDOS_DATA = {
           "codprod": "6030",
           "codfilial": "2",
           "pvenda": 26.28
+        },
+        {
+          "desc": "NECTAR LARANJA 12X1000ML",
+          "industria": "TIAL",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 2.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 2.0,
+          "qt_original": 2.0,
+          "cortado": true,
+          "codprod": "5988",
+          "codfilial": "2",
+          "pvenda": 59.88
         },
         {
           "desc": "NECTAR MACA TIAL 12X1000ML",
@@ -207942,20 +207990,6 @@ const PEDIDOS_DATA = {
           "pvenda": 59.88
         },
         {
-          "desc": "NECTAR PESSEGO 12X1000ML",
-          "industria": "TIAL",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 5.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 5.0,
-          "qt_original": 5.0,
-          "cortado": true,
-          "codprod": "5991",
-          "codfilial": "2",
-          "pvenda": 59.88
-        },
-        {
           "desc": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
           "industria": "TIAL",
           "qt": 0,
@@ -207968,6 +208002,20 @@ const PEDIDOS_DATA = {
           "codprod": "5982",
           "codfilial": "2",
           "pvenda": 47.76
+        },
+        {
+          "desc": "NECTAR PESSEGO 12X1000ML",
+          "industria": "TIAL",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 5.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 5.0,
+          "qt_original": 5.0,
+          "cortado": true,
+          "codprod": "5991",
+          "codfilial": "2",
+          "pvenda": 59.88
         },
         {
           "desc": "NECTAR PESSEGO TIAL 12X250ML",
@@ -208054,20 +208102,6 @@ const PEDIDOS_DATA = {
           "pvenda": 128.16
         },
         {
-          "desc": "SUCO UVA 100% TIAL 12X250ML",
-          "industria": "TIAL",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 3.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 3.0,
-          "qt_original": 3.0,
-          "cortado": true,
-          "codprod": "6006",
-          "codfilial": "2",
-          "pvenda": 38.17
-        },
-        {
           "desc": "AGUA DE COCO TIAL 12X1000ML",
           "industria": "TIAL",
           "qt": 0,
@@ -208106,6 +208140,20 @@ const PEDIDOS_DATA = {
           "qt_original": 2.0,
           "cortado": true,
           "codprod": "6008",
+          "codfilial": "2",
+          "pvenda": 38.17
+        },
+        {
+          "desc": "SUCO UVA 100% TIAL 12X250ML",
+          "industria": "TIAL",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 3.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 3.0,
+          "qt_original": 3.0,
+          "cortado": true,
+          "codprod": "6006",
           "codfilial": "2",
           "pvenda": 38.17
         },
@@ -208236,20 +208284,6 @@ const PEDIDOS_DATA = {
           "pvenda": 170.24
         },
         {
-          "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "industria": "TATUZINHO",
-          "qt": 0,
-          "val": 0.0,
-          "qtfalta": 5.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 5.0,
-          "qt_original": 5.0,
-          "cortado": true,
-          "codprod": "6256",
-          "codfilial": "2",
-          "pvenda": 85.2
-        },
-        {
           "desc": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
           "industria": "TATUZINHO",
           "qt": 0,
@@ -208274,6 +208308,20 @@ const PEDIDOS_DATA = {
           "qt_original": 5.0,
           "cortado": true,
           "codprod": "6255",
+          "codfilial": "2",
+          "pvenda": 85.2
+        },
+        {
+          "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "industria": "TATUZINHO",
+          "qt": 0,
+          "val": 0.0,
+          "qtfalta": 5.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 5.0,
+          "qt_original": 5.0,
+          "cortado": true,
+          "codprod": "6256",
           "codfilial": "2",
           "pvenda": 85.2
         },
