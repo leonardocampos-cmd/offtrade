@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "06/08/2026 18:08",
-  "total": 22300,
+  "atualizado_em": "07/08/2026 11:07",
+  "total": 22303,
   "clientes": [
     {
       "codcli": "38586",
@@ -60452,22 +60452,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "36035",
-      "razao": "BAEA UAI GASTROBAR LTDA",
-      "fantasia": "BAEA UAI GASTROBAR",
-      "bairro": "FONTE GRANDE",
-      "cidade": "CONTAGEM",
-      "cnpj": "43.957.168/0001-00",
-      "estado": "MG",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "37162",
       "razao": "BAFF S COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
       "fantasia": "BAFF S COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
@@ -84512,6 +84496,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "86707",
+      "razao": "CAFE E BAR PORTUENSE LTDA",
+      "fantasia": "BAR DO BOI",
+      "bairro": "CENTRO",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "33.075.961/0001-14",
+      "estado": "RJ",
+      "ramo": "OUTROS",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "155",
+      "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -120606,8 +120606,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "BAR",
       "key_account": false,
       "rede": "",
-      "codusur1": "355",
-      "nome_usur1": "ANDRE LUIZ",
+      "codusur1": "352",
+      "nome_usur1": "CAMILA ANTUNES",
       "codusur2": "343",
       "nome_usur2": "FERNANDO RISSON - OFF TRADE"
     },
@@ -164107,6 +164107,22 @@ const CLIENTES_RCA_DATA = {
       "cidade": "RIO DE JANEIRO",
       "cnpj": "03.030.117/0001-06",
       "estado": "RJ",
+      "ramo": "DELICATESSEN",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "35",
+      "nome_usur1": "LAIS POPPE VILLANOVA",
+      "codusur2": "156",
+      "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
+    },
+    {
+      "codcli": "8390",
+      "razao": "GOLDEN GREEN MANIA DELICATSSE LTDA",
+      "fantasia": "LE DEPANNEUR BARRA",
+      "bairro": "BARRA DA TIJUCA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "03.030.117/0001-06",
+      "estado": "RJ",
       "ramo": "RESTAURANTE",
       "key_account": false,
       "rede": "",
@@ -164704,8 +164720,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "159",
       "nome_usur1": "GISELLE BARFER - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "229",
+      "nome_usur2": "LUIZA HASSEN"
     },
     {
       "codcli": "81274",
@@ -174576,6 +174592,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "40883",
+      "razao": "IMPERIO DAS BEBIDAS CMBS LTDA",
+      "fantasia": "IMPERIO DAS BEBIDAS CMBS",
+      "bairro": "TABOAO",
+      "cidade": "DIADEMA",
+      "cnpj": "37.166.910/0001-59",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "512",
+      "nome_usur1": "WILLIAM GONCALVES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -203906,6 +203938,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "549",
       "nome_usur2": "FERNANDO GOMES"
+    },
+    {
+      "codcli": "62629",
+      "razao": "LEONARDO CAITANO DA COSTA ROSA 09905772790",
+      "fantasia": "LEO CAITANO ZE DELIVERY",
+      "bairro": "VARGEM PEQUENA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "35.586.356/0001-33",
+      "estado": "RJ",
+      "ramo": "BAR",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "10",
+      "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "30333",
@@ -252642,22 +252690,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "76333",
-      "razao": "NEOBUZIOS RESTAURANTE LTDA",
-      "fantasia": "NEO",
-      "bairro": "CENTRO (MANGUE)",
-      "cidade": "ARMACAO DOS BUZ",
-      "cnpj": "48.386.404/0001-91",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "313",
-      "nome_usur2": "ANDRE MATTOS"
     },
     {
       "codcli": "78308",
@@ -322420,6 +322452,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
+      "codcli": "52334",
+      "razao": "SUPER MERCADO ILHA DA PRINCESA LTDA",
+      "fantasia": "ILHA DA PRINCESA",
+      "bairro": "BARRA VELHA",
+      "cidade": "ILHABELA",
+      "cnpj": "50.319.870/0001-04",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "516",
+      "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "49805",
       "razao": "SUPER MERCADO JOIA LIMITADA",
       "fantasia": "SUPER MERCADO JOIA LIMITADA",
@@ -330302,8 +330350,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "232",
-      "nome_usur1": "ANDERSON CANAVEIS - OFF TRADE",
+      "codusur1": "318",
+      "nome_usur1": "MARCUS TANAMACHI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
