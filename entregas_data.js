@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "07/08/2026 14:07",
+  "atualizado_em": "07/08/2026 14:51",
   "data_rota": "07.08",
   "vendedores": [
     {
@@ -3290,6 +3290,31 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "144001762",
+          "numnota": "",
+          "data": "07/08/2026",
+          "cliente": "TEXAS HOUSE BURGERS HAMBURGUERIA GOURMET LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 383.4,
+          "itens": [
+            {
+              "desc": "SMIRNOFF RED PET 1750 ML",
+              "qt": 6,
+              "val": 207.0
+            },
+            {
+              "desc": "VINHO TINTO QUINTA DO MORGADO 750ML",
+              "qt": 12,
+              "val": 176.4
+            }
+          ]
+        },
+        {
           "numped": "144001761",
           "numnota": "",
           "data": "07/08/2026",
@@ -5655,7 +5680,38 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "379001369",
+          "numnota": "",
+          "data": "07/08/2026",
+          "cliente": "MONTES DOCES MARECHAL HERMES LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 288.5,
+          "itens": [
+            {
+              "desc": "GIN BEEFEATER 750ML",
+              "qt": 1,
+              "val": 69.9
+            },
+            {
+              "desc": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+              "qt": 1,
+              "val": 93.6
+            },
+            {
+              "desc": "LICOR ESP DIEGO ZAMORA 43 BARCELONA",
+              "qt": 1,
+              "val": 125.0
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [],
       "canceladas": [
         {
@@ -10894,7 +10950,28 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "419000777",
+          "numnota": "",
+          "data": "07/08/2026",
+          "cliente": "J C BOTECO DOS IRMAOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "data entrega: 10/07",
+          "total": 286.8,
+          "itens": [
+            {
+              "desc": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
+              "qt": 1,
+              "val": 286.8
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "419000673",
@@ -11677,6 +11754,26 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
+          "numped": "155004096",
+          "numnota": "",
+          "data": "07/08/2026",
+          "cliente": "XERE BAR E RESTAURANTE LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 419.4,
+          "itens": [
+            {
+              "desc": "HUMB. CANALE DENARIO SAUV. BLANC",
+              "qt": 6,
+              "val": 419.4
+            }
+          ]
+        },
+        {
           "numped": "155004093",
           "numnota": "",
           "data": "07/08/2026",
@@ -11718,6 +11815,41 @@ const ENTREGAS_DATA = {
               "desc": "RED BULL MELANCIA 250ML CX C/24",
               "qt": 3,
               "val": 517.68
+            }
+          ]
+        },
+        {
+          "numped": "155004095",
+          "numnota": "",
+          "data": "07/08/2026",
+          "cliente": "32.338.524 DEIVISON LUCIANO DE OLIVEIRA GALVAO",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 552.86,
+          "itens": [
+            {
+              "desc": "WHISKY BALLANTINE S FINEST 1L",
+              "qt": 3,
+              "val": 164.7
+            },
+            {
+              "desc": "GIN BEEFEATER 750ML",
+              "qt": 3,
+              "val": 179.7
+            },
+            {
+              "desc": "GIN BEEFEATER PINK 700ML",
+              "qt": 3,
+              "val": 179.7
+            },
+            {
+              "desc": "4 PACK RED BULL SF MAÇA 4X250ML",
+              "qt": 1,
+              "val": 28.76
             }
           ]
         },
