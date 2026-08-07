@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "07/08/2026 15:59",
-  "total": 22309,
+  "atualizado_em": "07/08/2026 16:18",
+  "total": 22308,
   "clientes": [
     {
       "codcli": "38586",
@@ -47360,22 +47360,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "81729",
-      "razao": "ANA PAULA DA SILVA DE OLIVEIRA",
-      "fantasia": "ANA PAULA DA SILVA DE OLIVEIR",
-      "bairro": "GAMBOA BELEM",
-      "cidade": "ANGRA DOS REIS",
-      "cnpj": "59.173.395/0001-77",
-      "estado": "RJ",
-      "ramo": "BOTECO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
