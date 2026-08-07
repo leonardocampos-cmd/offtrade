@@ -97,6 +97,35 @@ try:
 except Exception as e:
     print(f"[AVISO] Tabela de preços RJ indisponível ({str(e)[:100]}) — motivo fica sem preço de tabela")
 
+# "TABELA CASTAS" — produtos (majoritariamente vinhos) que só existem nessa
+# aba, fora da "TABELA" principal (ex.: COD CRC 4368, ARESTI ESTATE
+# SELECTION CABERNET SAUVIGNON). Só preenche o que falta na "TABELA" — não
+# sobrescreve preço já mapeado por lá.
+try:
+    _tab_castas = pd.read_excel(
+        _bpd.com_fallback(
+            _bpd.caminho_tabela_preco_rj,
+            r"G:\Drives compartilhados\EQUIPE DE VENDAS RJ\TABELA DE PREÇO RJ.xlsx",
+        ),
+        sheet_name='TABELA CASTAS', skiprows=5, dtype=str,
+    )
+    _tab_castas.columns = _tab_castas.columns.str.strip()
+    _tab_castas['PREÇO'] = pd.to_numeric(_tab_castas['PREÇO'].str.replace(',', '.'), errors='coerce').round(2)
+    _tab_castas['PREÇO PROMOCIONAL'] = pd.to_numeric(_tab_castas['PREÇO PROMOCIONAL'].str.replace(',', '.'), errors='coerce').round(2)
+    _tab_castas['COD CRC'] = _tab_castas['COD CRC'].astype(str).str.strip()
+    _novos = 0
+    for _, _r in _tab_castas.iterrows():
+        _cod = _r['COD CRC']
+        if _cod and _cod != 'nan' and _cod not in _precos_rj:
+            _precos_rj[_cod] = {
+                'preco_on':          _r['PREÇO'] if pd.notna(_r['PREÇO']) else None,
+                'preco_promocional': _r['PREÇO PROMOCIONAL'] if pd.notna(_r['PREÇO PROMOCIONAL']) else None,
+            }
+            _novos += 1
+    print(f"Tabela CASTAS: +{_novos} produto(s) adicionados ({len(_precos_rj)} no total)")
+except Exception as e:
+    print(f"[AVISO] Aba TABELA CASTAS indisponível ({str(e)[:100]}) — produtos só cadastrados lá ficam sem preço de tabela")
+
 
 def _preco_tabela(codprod):
     info = _precos_rj.get(str(codprod))
