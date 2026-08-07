@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "07/08/2026 14:29",
+  "atualizado_em": "07/08/2026 14:54",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -13775,6 +13775,20 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
+        "codcli": "94856",
+        "cliente": "42.641.133 SELMA REGINA DE ANDRADE",
+        "bairro": "BRAGA",
+        "dtultcomp": "14/07/2026",
+        "produtos": [
+          {
+            "produto": "ESPUMANTE ALUD BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 7,
+            "valor": 279.3
+          }
+        ]
+      },
+      {
         "codcli": "91738",
         "cliente": "53.743.471 ALDANA CAROLINA ASTORGA",
         "bairro": "MANGUINHOS",
@@ -13823,20 +13837,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "DIAGEO",
             "qt": 12,
             "valor": 334.8
-          }
-        ]
-      },
-      {
-        "codcli": "94856",
-        "cliente": "SELMA REGINA DE ANDRADE 84740493772",
-        "bairro": "BRAGA",
-        "dtultcomp": "14/07/2026",
-        "produtos": [
-          {
-            "produto": "ESPUMANTE ALUD BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 7,
-            "valor": 279.3
           }
         ]
       },
