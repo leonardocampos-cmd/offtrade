@@ -1,5 +1,5 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "07/08/2026 10:13",
+  "atualizado_em": "07/08/2026 11:05",
   "periodo_dias": 90,
   "fontes_indisponiveis": [],
   "pedidos_feitos": [
@@ -122,38 +122,84 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
-      "numped": "269000001",
+      "numped": "156003824",
       "numnota": "",
       "data": "07/08/2026",
       "data_ord": "2026-08-07",
-      "nome": "OZISLLAN RAMALHO DE SOUZA - OFF TRADE",
-      "cliente": "DISTRIBEER DISTRIBUIDORA DE BEBIDAS LTDA",
+      "nome": "MARILENA TRAGEL - OFF TRADE",
+      "cliente": "GOLDEN GREEN MANIA DELICATSSE LTDA",
       "sistema": "CRC",
-      "estado": "Sem Estado",
-      "supervisor": "EROCLES OLIVEIRA",
-      "gerente": "DANIEL DINIZ",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Bloqueado",
-      "motivo": "O Cliente esta bloqueado.",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :7207",
       "obs": "",
-      "total": 3816.9,
+      "total": 444.9,
       "itens": [
         {
-          "desc": "RED BULL SF NECTARINA 24X250ML",
-          "industria": "RED BULL",
-          "qt": 40,
-          "val": 3816.9,
+          "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+          "industria": "TATUZINHO",
+          "qt": 1,
+          "val": 89.9,
           "qtfalta": 0.0,
           "qtcortada": 0.0,
           "qtd_cortada_total": 0.0,
-          "qt_original": 40.0,
+          "qt_original": 1.0,
           "cortado": false,
-          "codprod": "5899",
+          "codprod": "7207",
           "codfilial": "2",
-          "pvenda": 95.42
+          "pvenda": 89.9
+        },
+        {
+          "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "industria": "TATUZINHO",
+          "qt": 1,
+          "val": 89.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "6259",
+          "codfilial": "2",
+          "pvenda": 89.9
+        },
+        {
+          "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "industria": "TATUZINHO",
+          "qt": 1,
+          "val": 89.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "6256",
+          "codfilial": "2",
+          "pvenda": 89.9
+        },
+        {
+          "desc": "MOVING JUICE PROTEIN LARANJA 12X300ML",
+          "industria": "TATUZINHO",
+          "qt": 2,
+          "val": 175.2,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "7204",
+          "codfilial": "2",
+          "pvenda": 87.6
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "motivo_codprod": "7207",
+      "motivo_produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+      "motivo_preco_digitado": 89.9,
+      "motivo_preco_tabela": 94.7
     },
     {
       "numped": "431001220",
@@ -486,6 +532,86 @@ const PEDIDOS_DATA = {
       "motivo_preco_tabela": 172.56
     },
     {
+      "numped": "431001221",
+      "numnota": "",
+      "data": "07/08/2026",
+      "data_ord": "2026-08-07",
+      "nome": "ADEILSON GONÇALVEZ - OFF TRADE",
+      "cliente": "ESTRELA AGUIAR DE REALENGO MERCADINHO LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :5583",
+      "obs": "",
+      "total": 559.6,
+      "itens": [
+        {
+          "desc": "RC ATUM RALADO NATURAL 24X140G",
+          "industria": "ROBINSON CRUSOE",
+          "qt": 1,
+          "val": 129.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "5582",
+          "codfilial": "2",
+          "pvenda": 129.9
+        },
+        {
+          "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+          "industria": "ROBINSON CRUSOE",
+          "qt": 1,
+          "val": 129.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "7332",
+          "codfilial": "2",
+          "pvenda": 129.9
+        },
+        {
+          "desc": "RC ATUM PEDACOS NATURAL 24X140G",
+          "industria": "ROBINSON CRUSOE",
+          "qt": 1,
+          "val": 169.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "5762",
+          "codfilial": "2",
+          "pvenda": 169.9
+        },
+        {
+          "desc": "RC ATUM RALADO OLEO 24X140G",
+          "industria": "ROBINSON CRUSOE",
+          "qt": 1,
+          "val": 129.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "5583",
+          "codfilial": "2",
+          "pvenda": 129.9
+        }
+      ],
+      "tem_corte": false,
+      "motivo_codprod": "5583",
+      "motivo_produto": "RC ATUM RALADO OLEO 24X140G",
+      "motivo_preco_digitado": 129.9,
+      "motivo_preco_tabela": 172.93
+    },
+    {
       "numped": "378000591",
       "numnota": "",
       "data": "07/08/2026",
@@ -550,6 +676,72 @@ const PEDIDOS_DATA = {
       "motivo_produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
       "motivo_preco_digitado": 66.5,
       "motivo_preco_tabela": 69.9
+    },
+    {
+      "numped": "153001360",
+      "numnota": "",
+      "data": "07/08/2026",
+      "data_ord": "2026-08-07",
+      "nome": "ANGELO NEVES SUZART - OFF TRADE",
+      "cliente": "MERCADO JARDINS DA ILHA LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :5991",
+      "obs": "entregar dia 10/08 com pagamento de descarga no valor de R$35,00",
+      "total": 402.36,
+      "itens": [
+        {
+          "desc": "NECTAR PESSEGO 12X1000ML",
+          "industria": "TIAL",
+          "qt": 1,
+          "val": 57.48,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "5991",
+          "codfilial": "2",
+          "pvenda": 57.48
+        },
+        {
+          "desc": "NECTAR MISTO UVA E PERA 12X1000ML",
+          "industria": "TIAL",
+          "qt": 3,
+          "val": 172.44,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "cortado": false,
+          "codprod": "5992",
+          "codfilial": "2",
+          "pvenda": 57.48
+        },
+        {
+          "desc": "NECTAR MANGA 12X1000ML",
+          "industria": "TIAL",
+          "qt": 3,
+          "val": 172.44,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "cortado": false,
+          "codprod": "5989",
+          "codfilial": "2",
+          "pvenda": 57.48
+        }
+      ],
+      "tem_corte": false,
+      "motivo_codprod": "5991",
+      "motivo_produto": "NECTAR PESSEGO 12X1000ML",
+      "motivo_preco_digitado": 57.48,
+      "motivo_preco_tabela": 72.69
     },
     {
       "numped": "433000225",
@@ -850,100 +1042,6 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false
-    },
-    {
-      "numped": "327009652",
-      "numnota": "",
-      "data": "07/08/2026",
-      "data_ord": "2026-08-07",
-      "nome": "JOÃO SANTOS - OFF TRADE",
-      "cliente": "RESTAURANTE E EMPORIO MORADA MEXICANA EIRELI",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "posicao": "Liberado",
-      "motivo": "Item com desconto acima do permitido :119",
-      "obs": "",
-      "total": 557.96,
-      "itens": [
-        {
-          "desc": "CERVEJA HEINEKEN LONG 24X330ML",
-          "industria": "HEINEKEN",
-          "qt": 1,
-          "val": 143.76,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "119",
-          "codfilial": "1",
-          "pvenda": 143.76
-        },
-        {
-          "desc": "TEQUILA EL JIMADOR BLANCO 750 ML",
-          "industria": "BROWN-FORMAN",
-          "qt": 1,
-          "val": 104.9,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "605",
-          "codfilial": "1",
-          "pvenda": 104.9
-        },
-        {
-          "desc": "XAROPE MONIN GRENADINE 700 ML",
-          "industria": "MONIN",
-          "qt": 2,
-          "val": 99.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "1035",
-          "codfilial": "1",
-          "pvenda": 49.9
-        },
-        {
-          "desc": "XAROPE MONIN ROMA 700 ML",
-          "industria": "MONIN",
-          "qt": 1,
-          "val": 49.9,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "1046",
-          "codfilial": "1",
-          "pvenda": 49.9
-        },
-        {
-          "desc": "YVY DESTILADO RUM GF 750ML",
-          "industria": "YVY",
-          "qt": 4,
-          "val": 159.6,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 4.0,
-          "cortado": false,
-          "codprod": "4139",
-          "codfilial": "1",
-          "pvenda": 39.9
-        }
-      ],
-      "tem_corte": false,
-      "motivo_codprod": "119",
-      "motivo_produto": "CERVEJA HEINEKEN LONG 24X330ML",
-      "motivo_preco_digitado": 143.76,
-      "motivo_preco_tabela": 149.9
     },
     {
       "numped": "327009653",
@@ -2555,25 +2653,11 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
-      "posicao": "Pendente",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "PRODUTO SEM ESTOQUE",
       "obs": "",
-      "total": 1332.0,
+      "total": 1003.92,
       "itens": [
-        {
-          "desc": "PINATI DOUBLE BAR BRIGADEIRO 32X35G",
-          "industria": "PINATI",
-          "qt": 2,
-          "val": 225.28,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "5220",
-          "codfilial": "1",
-          "pvenda": 112.64
-        },
         {
           "desc": "PINATI DOUBLE BAR COCO E AMENDOIM 32X35G",
           "industria": "PINATI",
@@ -2613,20 +2697,6 @@ const PEDIDOS_DATA = {
           "qt_original": 2.0,
           "cortado": false,
           "codprod": "5240",
-          "codfilial": "1",
-          "pvenda": 51.4
-        },
-        {
-          "desc": "PINATI NUTS ORIGINAL 20X30G",
-          "industria": "PINATI",
-          "qt": 2,
-          "val": 102.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "5231",
           "codfilial": "1",
           "pvenda": 51.4
         }
@@ -2753,7 +2823,7 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :5087",
       "obs": "",
       "total": 4136.0,
@@ -16144,59 +16214,6 @@ const PEDIDOS_DATA = {
       ],
       "tem_corte": false,
       "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "439000319",
-      "numnota": "419155",
-      "data": "05/08/2026",
-      "data_ord": "2026-08-05",
-      "nome": "MATEUS CARDOSO - OFF TRADE",
-      "cliente": "PORTO MIX DISTRIBUIDORA DE BEBIDAS E CONVENIÊNCIA LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :666",
-      "obs": "Data entrega: 06/08/26",
-      "total": 466.8,
-      "itens": [
-        {
-          "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "industria": "CASA PERINI",
-          "qt": 6,
-          "val": 221.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "cortado": false,
-          "codprod": "663",
-          "codfilial": "2",
-          "pvenda": 36.9
-        },
-        {
-          "desc": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "industria": "CASA PERINI",
-          "qt": 6,
-          "val": 245.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "cortado": false,
-          "codprod": "666",
-          "codfilial": "2",
-          "pvenda": 40.9
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE",
-      "motivo_codprod": "666",
-      "motivo_produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-      "motivo_preco_digitado": 40.9,
-      "motivo_preco_tabela": 42.9
     },
     {
       "numped": "439000321",
@@ -38359,41 +38376,6 @@ const PEDIDOS_DATA = {
       "status_log": "ABERTO"
     },
     {
-      "numped": "473000014",
-      "numnota": "7406",
-      "data": "03/08/2026",
-      "data_ord": "2026-08-03",
-      "nome": "MARCELO PEREIRA - OFF TRADE",
-      "cliente": "J. S. DIAS ARMAZEM",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 414.0,
-      "itens": [
-        {
-          "desc": "WHISKY PASSPORT 1L",
-          "industria": "PERNOD",
-          "qt": 12,
-          "val": 414.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "cortado": false,
-          "codprod": "246",
-          "codfilial": "1",
-          "pvenda": 34.5
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ABERTO"
-    },
-    {
       "numped": "474000056",
       "numnota": "7438",
       "data": "03/08/2026",
@@ -51760,41 +51742,6 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
-      "numped": "344000573",
-      "numnota": "126946",
-      "data": "31/07/2026",
-      "data_ord": "2026-07-31",
-      "nome": "TIAGO ANDRADE - OFF TRADE",
-      "cliente": "DISTRIBUIDORA CABRAL BEER LTDA",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 199.8,
-      "itens": [
-        {
-          "desc": "MINIATURA JAMESON 12 X 50ML",
-          "industria": "PERNOD",
-          "qt": 2,
-          "val": 199.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "3622",
-          "codfilial": "1",
-          "pvenda": 99.9
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
       "numped": "360000412",
       "numnota": "126915",
       "data": "31/07/2026",
@@ -62197,83 +62144,6 @@ const PEDIDOS_DATA = {
       "motivo_preco_tabela": 70.9
     },
     {
-      "numped": "327009576",
-      "numnota": "126733",
-      "data": "30/07/2026",
-      "data_ord": "2026-07-30",
-      "nome": "JOÃO SANTOS - OFF TRADE",
-      "cliente": "RESTAURANTE E EMPORIO MORADA MEXICANA EIRELI",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 528.2,
-      "itens": [
-        {
-          "desc": "TEQUILA EL JIMADOR BLANCO 750 ML",
-          "industria": "BROWN-FORMAN",
-          "qt": 3,
-          "val": 314.7,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 3.0,
-          "cortado": false,
-          "codprod": "605",
-          "codfilial": "1",
-          "pvenda": 104.9
-        },
-        {
-          "desc": "RUM BACARDI CARTA BLANCA 980 ML",
-          "industria": "BACARDI",
-          "qt": 2,
-          "val": 93.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "1736",
-          "codfilial": "1",
-          "pvenda": 46.9
-        },
-        {
-          "desc": "YVY DESTILADO VODKA 710ML",
-          "industria": "YVY",
-          "qt": 1,
-          "val": 39.9,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "3767",
-          "codfilial": "1",
-          "pvenda": 39.9
-        },
-        {
-          "desc": "YVY DESTILADO RUM LT 710ML",
-          "industria": "YVY",
-          "qt": 2,
-          "val": 79.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "4138",
-          "codfilial": "1",
-          "pvenda": 39.9
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
       "numped": "327009577",
       "numnota": "126734",
       "data": "30/07/2026",
@@ -72453,73 +72323,6 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
-      "numped": "327009555",
-      "numnota": "126664",
-      "data": "29/07/2026",
-      "data_ord": "2026-07-29",
-      "nome": "JOÃO SANTOS - OFF TRADE",
-      "cliente": "CULINARIA JAPAN GDA LTDA",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :119",
-      "obs": "restaurante Nashy Getulio Vargas",
-      "total": 671.04,
-      "itens": [
-        {
-          "desc": "RED BULL 250ML CAIXA C/24 UNID",
-          "industria": "RED BULL",
-          "qt": 1,
-          "val": 191.76,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "3",
-          "codfilial": "1",
-          "pvenda": 191.76
-        },
-        {
-          "desc": "CERVEJA HEINEKEN LONG 24X330ML",
-          "industria": "HEINEKEN",
-          "qt": 2,
-          "val": 287.52,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "119",
-          "codfilial": "1",
-          "pvenda": 143.76
-        },
-        {
-          "desc": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-          "industria": "RED BULL",
-          "qt": 1,
-          "val": 191.76,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "902",
-          "codfilial": "1",
-          "pvenda": 191.76
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "",
-      "motivo_codprod": "119",
-      "motivo_produto": "CERVEJA HEINEKEN LONG 24X330ML",
-      "motivo_preco_digitado": 143.76,
-      "motivo_preco_tabela": 149.9
-    },
-    {
       "numped": "327009556",
       "numnota": "126644",
       "data": "29/07/2026",
@@ -72634,59 +72437,6 @@ const PEDIDOS_DATA = {
       ],
       "tem_corte": false,
       "status_log": ""
-    },
-    {
-      "numped": "327009558",
-      "numnota": "126673",
-      "data": "29/07/2026",
-      "data_ord": "2026-07-29",
-      "nome": "JOÃO SANTOS - OFF TRADE",
-      "cliente": "SAKAI FOOD SERVICE LTDA",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :119",
-      "obs": "Restaurante Nashy contagem",
-      "total": 479.28,
-      "itens": [
-        {
-          "desc": "CERVEJA HEINEKEN LONG 24X330ML",
-          "industria": "HEINEKEN",
-          "qt": 2,
-          "val": 287.52,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "119",
-          "codfilial": "1",
-          "pvenda": 143.76
-        },
-        {
-          "desc": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-          "industria": "RED BULL",
-          "qt": 1,
-          "val": 191.76,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "902",
-          "codfilial": "1",
-          "pvenda": 191.76
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "",
-      "motivo_codprod": "119",
-      "motivo_produto": "CERVEJA HEINEKEN LONG 24X330ML",
-      "motivo_preco_digitado": 143.76,
-      "motivo_preco_tabela": 149.9
     },
     {
       "numped": "327009559",
@@ -72943,87 +72693,6 @@ const PEDIDOS_DATA = {
       ],
       "tem_corte": false,
       "status_log": ""
-    },
-    {
-      "numped": "327009561",
-      "numnota": "126677",
-      "data": "29/07/2026",
-      "data_ord": "2026-07-29",
-      "nome": "JOÃO SANTOS - OFF TRADE",
-      "cliente": "JT BARES LTDA",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :902",
-      "obs": "",
-      "total": 526.32,
-      "itens": [
-        {
-          "desc": "XAROPE MONIN TANGERINA (MANDARIM) 700ML",
-          "industria": "MONIN",
-          "qt": 1,
-          "val": 49.9,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "1051",
-          "codfilial": "1",
-          "pvenda": 49.9
-        },
-        {
-          "desc": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-          "industria": "RED BULL",
-          "qt": 1,
-          "val": 191.76,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "902",
-          "codfilial": "1",
-          "pvenda": 191.76
-        },
-        {
-          "desc": "RED BULL MELANCIA 24X250ML",
-          "industria": "RED BULL",
-          "qt": 1,
-          "val": 191.76,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "2799",
-          "codfilial": "1",
-          "pvenda": 191.76
-        },
-        {
-          "desc": "WHISKY J WALKER BLONDE 750 ML",
-          "industria": "DIAGEO",
-          "qt": 1,
-          "val": 92.9,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "3931",
-          "codfilial": "1",
-          "pvenda": 92.9
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "",
-      "motivo_codprod": "902",
-      "motivo_produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-      "motivo_preco_digitado": 191.76,
-      "motivo_preco_tabela": 172.56
     },
     {
       "numped": "327009562",
@@ -96650,45 +96319,6 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
-      "numped": "327009529",
-      "numnota": "126221",
-      "data": "24/07/2026",
-      "data_ord": "2026-07-24",
-      "nome": "JOÃO SANTOS - OFF TRADE",
-      "cliente": "SCP ADMINISTRADORA HOTEL PAMPULHA",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :119",
-      "obs": "Entrega segunda feira",
-      "total": 2156.4,
-      "itens": [
-        {
-          "desc": "CERVEJA HEINEKEN LONG 24X330ML",
-          "industria": "HEINEKEN",
-          "qt": 15,
-          "val": 2156.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 15.0,
-          "cortado": false,
-          "codprod": "119",
-          "codfilial": "1",
-          "pvenda": 143.76
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "",
-      "motivo_codprod": "119",
-      "motivo_produto": "CERVEJA HEINEKEN LONG 24X330ML",
-      "motivo_preco_digitado": 143.76,
-      "motivo_preco_tabela": 149.9
-    },
-    {
       "numped": "344000546",
       "numnota": "126191",
       "data": "24/07/2026",
@@ -99629,83 +99259,6 @@ const PEDIDOS_DATA = {
       ],
       "tem_corte": false,
       "status_log": ""
-    },
-    {
-      "numped": "516000009",
-      "numnota": "7011",
-      "data": "23/07/2026",
-      "data_ord": "2026-07-23",
-      "nome": "JOAQUIM ANGELO - OFF TRADE",
-      "cliente": "J.S. MORAES - BEBIDAS LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 1107.0,
-      "itens": [
-        {
-          "desc": "WHISKY BALLANTINE S FINEST 1L",
-          "industria": "PERNOD",
-          "qt": 6,
-          "val": 317.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "cortado": false,
-          "codprod": "237",
-          "codfilial": "1",
-          "pvenda": 52.9
-        },
-        {
-          "desc": "WHISKY PASSPORT 1L",
-          "industria": "PERNOD",
-          "qt": 12,
-          "val": 394.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "cortado": false,
-          "codprod": "246",
-          "codfilial": "1",
-          "pvenda": 32.9
-        },
-        {
-          "desc": "WHISKY PASSPORT APPLE 670ML",
-          "industria": "PERNOD",
-          "qt": 6,
-          "val": 197.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "cortado": false,
-          "codprod": "4284",
-          "codfilial": "1",
-          "pvenda": 32.9
-        },
-        {
-          "desc": "WHISKY PASSPORT HONEY 670ML",
-          "industria": "PERNOD",
-          "qt": 6,
-          "val": 197.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "cortado": false,
-          "codprod": "4804",
-          "codfilial": "1",
-          "pvenda": 32.9
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ABERTO"
     },
     {
       "numped": "493000039",
@@ -149839,41 +149392,6 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
-      "numped": "420000032",
-      "numnota": "6527",
-      "data": "08/07/2026",
-      "data_ord": "2026-07-08",
-      "nome": "KELLY RAMOS - OFF TRADE",
-      "cliente": "CASAS GUANABARA COMESTIVEIS LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Pedido com item abaixo do preço minimo.",
-      "obs": "PEDIDO - 10062286",
-      "total": 17038.8,
-      "itens": [
-        {
-          "desc": "LICOR ESP DIEGO ZAMORA 43 CHOCOLATE",
-          "industria": "AURORA",
-          "qt": 120,
-          "val": 17038.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 120.0,
-          "cortado": false,
-          "codprod": "3434",
-          "codfilial": "4",
-          "pvenda": 141.99
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
       "numped": "450000396",
       "numnota": "6518",
       "data": "08/07/2026",
@@ -164442,69 +163960,6 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
-      "numped": "417000358",
-      "numnota": "6085",
-      "data": "17/06/2026",
-      "data_ord": "2026-06-17",
-      "nome": "DIRLEI ARAUJO - OFF TRADE",
-      "cliente": "MULTI ANGRA 4 MERCADO LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 837.6,
-      "itens": [
-        {
-          "desc": "ESPUM CASA PERINI BRUT 750ML",
-          "industria": "CASA PERINI",
-          "qt": 6,
-          "val": 233.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "cortado": false,
-          "codprod": "664",
-          "codfilial": "4",
-          "pvenda": 38.9
-        },
-        {
-          "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "industria": "CASA PERINI",
-          "qt": 12,
-          "val": 394.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "cortado": false,
-          "codprod": "663",
-          "codfilial": "4",
-          "pvenda": 32.9
-        },
-        {
-          "desc": "ESPUM CASA PERINI ICE DEMI-SEC 750ML",
-          "industria": "CASA PERINI",
-          "qt": 6,
-          "val": 209.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "cortado": false,
-          "codprod": "2779",
-          "codfilial": "4",
-          "pvenda": 34.9
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "RETORNO"
-    },
-    {
       "numped": "153001224",
       "numnota": "404200",
       "data": "17/06/2026",
@@ -164745,69 +164200,6 @@ const PEDIDOS_DATA = {
       "motivo_produto": "NOSSO CHOP RED DRAFT VD 6X600ML",
       "motivo_preco_digitado": 55.5,
       "motivo_preco_tabela": 55.5
-    },
-    {
-      "numped": "417000355",
-      "numnota": "6045",
-      "data": "16/06/2026",
-      "data_ord": "2026-06-16",
-      "nome": "DIRLEI ARAUJO - OFF TRADE",
-      "cliente": "MULTI ANGRA 3 MERCADO LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 1071.0,
-      "itens": [
-        {
-          "desc": "ESPUM CASA PERINI PROSECCO 750ML",
-          "industria": "CASA PERINI",
-          "qt": 6,
-          "val": 233.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "cortado": false,
-          "codprod": "665",
-          "codfilial": "4",
-          "pvenda": 38.9
-        },
-        {
-          "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "industria": "CASA PERINI",
-          "qt": 12,
-          "val": 394.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "cortado": false,
-          "codprod": "663",
-          "codfilial": "4",
-          "pvenda": 32.9
-        },
-        {
-          "desc": "VINHO CASA PERINI CHARDONNAY 750ML",
-          "industria": "CASA PERINI",
-          "qt": 12,
-          "val": 442.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "cortado": false,
-          "codprod": "824",
-          "codfilial": "4",
-          "pvenda": 36.9
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "RETORNO"
     },
     {
       "numped": "450000331",
@@ -169425,7 +168817,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "388001085",
@@ -171589,7 +170981,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "motivo_codprod": "3",
       "motivo_produto": "RED BULL 24X250ML",
       "motivo_preco_digitado": 196.56,
@@ -171740,7 +171132,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "motivo_codprod": "378",
       "motivo_produto": "GUARAVITA NATURAL 24X290ML",
       "motivo_preco_digitado": 22.9,
@@ -171975,7 +171367,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "motivo_codprod": "64",
       "motivo_produto": "CONHAQUE DOMECQ 1L",
       "motivo_preco_digitado": 29.9,
@@ -172095,7 +171487,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "275000494",
@@ -172130,7 +171522,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "438000070",
@@ -172687,7 +172079,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "439000147",
@@ -172722,7 +172114,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "588002482",
@@ -172869,7 +172261,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "275000471",
@@ -172918,7 +172310,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": "VOLTOU"
     },
     {
       "numped": "91000332",
@@ -174325,7 +173717,7 @@ const PEDIDOS_DATA = {
       "total": 0.0,
       "itens": [
         {
-          "desc": "RED BULL SF NECTARINA 24X250ML",
+          "desc": "RED BULL SF NECTARINA CAIXA 24X250ML",
           "industria": "RED BULL",
           "qt": 0,
           "val": 0.0,
