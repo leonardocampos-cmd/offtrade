@@ -219,7 +219,11 @@ def _caminho_controle_notas_local(ano, mm):
 
 
 _status_por_nf: dict = {}
-for _ano, _mes in _meses_recentes():
+# Do mais antigo pro mais recente: uma NF pode aparecer em mais de um mês
+# (reentrega depois de "VOLTOU" etc.) — o mês mais recente tem que
+# sobrescrever o mais antigo, não o contrário (_meses_recentes() devolve
+# do mais recente pro mais antigo).
+for _ano, _mes in reversed(_meses_recentes()):
     _mm = f"{_mes:02d}"
     _upper = _MESES_PT_STATUS[_mm]
     try:
