@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "10/08/2026 10:35",
-  "total": 22365,
+  "atualizado_em": "10/08/2026 10:51",
+  "total": 22366,
   "clientes": [
     {
       "codcli": "38586",
@@ -198608,6 +198608,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "507",
       "nome_usur1": "JOAO AUGUSTO -  OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52354",
+      "razao": "L. M. FERRAZ DA SILVA",
+      "fantasia": "EMPORIO BIDECO",
+      "bairro": "CENTRO",
+      "cidade": "CUNHA",
+      "cnpj": "08.687.374/0001-39",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "466",
+      "nome_usur1": "DANIELLE DOS SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
