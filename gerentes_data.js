@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "10/08/2026 14:21",
+  "atualizado_em": "10/08/2026 14:38",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -1443,17 +1443,9 @@ const GERENTES_DATA = {
                 },
                 {
                   "nome": "NÁTALI DE OLIVEIRA - OFF TRADE",
-                  "rca": "419",
+                  "rca": "482",
                   "estado": "RJ",
                   "por_mes": {
-                    "Abr/26": {
-                      "fat": 75040.95,
-                      "qt": 1910
-                    },
-                    "Ago/26": {
-                      "fat": 17034.17,
-                      "qt": 366
-                    },
                     "Jul/26": {
                       "fat": 96562.28,
                       "qt": 3159
@@ -1461,6 +1453,14 @@ const GERENTES_DATA = {
                     "Jun/26": {
                       "fat": 113990.23,
                       "qt": 2736
+                    },
+                    "Abr/26": {
+                      "fat": 75040.95,
+                      "qt": 1910
+                    },
+                    "Ago/26": {
+                      "fat": 17034.17,
+                      "qt": 366
                     },
                     "Mai/26": {
                       "fat": 48729.23,
@@ -1474,7 +1474,7 @@ const GERENTES_DATA = {
                 },
                 {
                   "nome": "VIVIANI ALVES - OFF TRADE",
-                  "rca": "91",
+                  "rca": "119",
                   "estado": "RJ",
                   "por_mes": {
                     "Abr/26": {
@@ -3267,10 +3267,6 @@ const GERENTES_DATA = {
     {
       "nome": "Sem Estado",
       "por_mes": {
-        "Ago/26": {
-          "fat": 25436.07,
-          "qt": 200
-        },
         "Mai/26": {
           "fat": 11542.24,
           "qt": 118
@@ -3278,6 +3274,10 @@ const GERENTES_DATA = {
         "Mar/26": {
           "fat": 8527.02,
           "qt": 438
+        },
+        "Ago/26": {
+          "fat": 25436.07,
+          "qt": 200
         }
       },
       "gerentes": [
