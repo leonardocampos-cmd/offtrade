@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "10/08/2026 17:15",
+  "atualizado_em": "10/08/2026 17:36",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -1921,26 +1921,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33014",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "YVY",
-            "qt": 4,
-            "valor": 159.6
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "YVY",
-            "qt": 4,
-            "valor": 159.6
-          }
-        ]
-      },
-      {
         "codcli": "32871",
         "cliente": "ER COZINHA ARTESANAL LTDA",
         "bairro": "VILA DA SERRA",
@@ -1957,6 +1937,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "YVY",
             "qt": 6,
             "valor": 239.4
+          }
+        ]
+      },
+      {
+        "codcli": "33014",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "LOURDES",
+        "dtultcomp": "18/06/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 4,
+            "valor": 159.6
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 4,
+            "valor": 159.6
           }
         ]
       },
@@ -2123,20 +2123,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "YVY",
             "qt": 1,
             "valor": 39.9
-          }
-        ]
-      },
-      {
-        "codcli": "37430",
-        "cliente": "ALUGUEL DE KART MG LTDA",
-        "bairro": "VILA CLORIS",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 383.52
           }
         ]
       },
@@ -5472,26 +5458,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "BEAM SUNTORY",
             "qt": 12,
             "valor": 958.8
-          }
-        ]
-      },
-      {
-        "codcli": "33955",
-        "cliente": "TAUA RESORT CAETE LTDA",
-        "bairro": "ROCAS NOVA",
-        "dtultcomp": "20/07/2026",
-        "produtos": [
-          {
-            "produto": "RUM BACARDI CARTA BLANCA 980 ML",
-            "fantasia": "BACARDI",
-            "qt": 24,
-            "valor": 1077.6
-          },
-          {
-            "produto": "TEQUILA J CUERVO SILVER 750ML",
-            "fantasia": "AURORA",
-            "qt": 24,
-            "valor": 3117.6
           }
         ]
       },
