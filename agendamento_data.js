@@ -17407,11 +17407,11 @@ const AGENDAMENTO_DATA = {
           "cliente": "IMBATÍVEL - GRAN MARCHE",
           "cnpj": "28.480.886/0001-37",
           "filial": "PIRATININGA",
-          "valor": 10080.0,
-          "nf": "",
+          "valor": 9240.0,
+          "nf": "7300",
           "data_agendamento": "06/08/2026",
           "data_ord": "2026-08-06",
-          "status": "A FATURAR",
+          "status": "ENTREGUE",
           "obs": "EMBARCAR AS CAIXAS ORIGINAIS E ÍNTEGRAS . O PEDIDO SERÁ DEVOLVIDO SE FOREM FRACIONADOS.",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -25896,7 +25896,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "10/08/2026 16:44",
+  "atualizado_em": "10/08/2026 16:57",
   "comparativo": [
     {
       "msg_id": "19fdbe784cc15bdd",
