@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "10/08/2026 15:01",
-  "total": 22371,
+  "atualizado_em": "10/08/2026 15:17",
+  "total": 22370,
   "clientes": [
     {
       "codcli": "38586",
@@ -77186,22 +77186,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
-    },
-    {
-      "codcli": "59718",
-      "razao": "BOULANGERIE BICYCLETTE BARRA COMERCIO DE PAES ARTESANAIS LTD",
-      "fantasia": "LA BICYCLETTE BARRA",
-      "bairro": "BARRA DA TIJUCA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "41.265.861/0001-89",
-      "estado": "RJ",
-      "ramo": "PADARIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "93918",
