@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "10/08/2026 17:15",
-  "total": 22366,
+  "atualizado_em": "10/08/2026 17:36",
+  "total": 22365,
   "clientes": [
     {
       "codcli": "38586",
@@ -326690,22 +326690,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK"
-    },
-    {
-      "codcli": "93451",
-      "razao": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
-      "fantasia": "SUPERMARKET",
-      "bairro": "PORTO NOVO",
-      "cidade": "SAO GONCALO",
-      "cnpj": "08.628.825/0011-39",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "REDE SUPERMARKET",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "91840",
