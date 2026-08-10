@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "10/08/2026 15:17",
-  "total": 22370,
+  "atualizado_em": "10/08/2026 15:46",
+  "total": 22369,
   "clientes": [
     {
       "codcli": "38586",
@@ -160068,22 +160068,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "FERNANDA CAMBOIM"
     },
     {
-      "codcli": "80155",
-      "razao": "GASTRONOMIA NATURAL BAR E RESTAURANTE LTDA",
-      "fantasia": "SPRIZZA",
-      "bairro": "BARRA DA TIJUCA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "50.935.495/0001-19",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "19287",
       "razao": "GASTRONOMIA SUDAMERICANA RESTAURANTE LTDA",
       "fantasia": "LIMA COCINA PERUANA TIJUCA",
@@ -286324,6 +286308,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "23810",
+      "razao": "R DE C ORNELAS CUNHA",
+      "fantasia": "R DE C ORNELAS CUNHA",
+      "bairro": "MONTANHAO",
+      "cidade": "SAO BERNARDO DO CAMPO",
+      "cnpj": "30.085.687/0001-76",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "512",
+      "nome_usur1": "WILLIAM GONCALVES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "78295",
       "razao": "R E H PADARIA E CONFEITARIA LTDA",
       "fantasia": "R E H PADARIA E CONFEITARIA",
@@ -347630,8 +347630,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "COMERCIO VAREJISTA (GERAL)",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
+      "codusur1": "378",
+      "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -348288,22 +348288,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "94098",
-      "razao": "VINICIUS E KARINA COMERCIO DE BEBIDAS LTDA",
-      "fantasia": "DISTRIBUIDORA PORTUGUESITA",
-      "bairro": "JAPERI",
-      "cidade": "JAPERI",
-      "cnpj": "49.205.716/0001-14",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
