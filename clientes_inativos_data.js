@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "10/08/2026 16:47",
+  "atualizado_em": "10/08/2026 17:00",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -559,13 +559,13 @@ const INATIVOS_DATA = {
       ],
       "sem_compra": [
         {
-          "codcli": "89952",
-          "cliente": "POSTO DE COMBUSTIVEIS BICUIBA BRANCA LTDA",
-          "bairro": "BICUIBA",
-          "cidade": "SAQUAREMA",
-          "dtultcomp": "13/05/2026",
-          "dias": 89,
-          "media": 62.52
+          "codcli": "91861",
+          "cliente": "POSTO REI ETERNO LTDA",
+          "bairro": "COELHO NETO",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "20/04/2026",
+          "dias": 112,
+          "media": 0.0
         },
         {
           "codcli": "94235",
@@ -575,6 +575,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "13/05/2026",
           "dias": 89,
           "media": 208.94
+        },
+        {
+          "codcli": "89952",
+          "cliente": "POSTO DE COMBUSTIVEIS BICUIBA BRANCA LTDA",
+          "bairro": "BICUIBA",
+          "cidade": "SAQUAREMA",
+          "dtultcomp": "13/05/2026",
+          "dias": 89,
+          "media": 62.52
         },
         {
           "codcli": "79253",
@@ -595,15 +604,6 @@ const INATIVOS_DATA = {
           "media": 60.43
         },
         {
-          "codcli": "95175",
-          "cliente": "LATICINIOS DESIROGERS LTDA",
-          "bairro": "BANGU",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "29/05/2026",
-          "dias": 73,
-          "media": 103.13
-        },
-        {
           "codcli": "82480",
           "cliente": "CEREALISTA 90 DE SANTISSIMO LTDA",
           "bairro": "SENADOR CAMARA",
@@ -613,13 +613,13 @@ const INATIVOS_DATA = {
           "media": 0.0
         },
         {
-          "codcli": "94495",
-          "cliente": "23.674.855 JANICLEIDE AMABILIA DE SOUZA COSTA",
+          "codcli": "95175",
+          "cliente": "LATICINIOS DESIROGERS LTDA",
           "bairro": "BANGU",
           "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "08/06/2026",
-          "dias": 63,
-          "media": 95.23
+          "dtultcomp": "29/05/2026",
+          "dias": 73,
+          "media": 103.13
         },
         {
           "codcli": "82911",
@@ -631,6 +631,15 @@ const INATIVOS_DATA = {
           "media": 367.44
         },
         {
+          "codcli": "94495",
+          "cliente": "23.674.855 JANICLEIDE AMABILIA DE SOUZA COSTA",
+          "bairro": "BANGU",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "08/06/2026",
+          "dias": 63,
+          "media": 95.23
+        },
+        {
           "codcli": "91230",
           "cliente": "SUPERMERCADOS ADONAI LTDA",
           "bairro": "CAMPO GRANDE",
@@ -638,15 +647,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "10/06/2026",
           "dias": 61,
           "media": 19740.0
-        },
-        {
-          "codcli": "89944",
-          "cliente": "SAO BENTO DE ITAIPU AUTO POSTO LTDA",
-          "bairro": "SERRA GRANDE",
-          "cidade": "NITEROI",
-          "dtultcomp": "15/06/2026",
-          "dias": 56,
-          "media": 86.85
         },
         {
           "codcli": "76233",
@@ -665,6 +665,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "15/06/2026",
           "dias": 56,
           "media": 100.97
+        },
+        {
+          "codcli": "89944",
+          "cliente": "SAO BENTO DE ITAIPU AUTO POSTO LTDA",
+          "bairro": "SERRA GRANDE",
+          "cidade": "NITEROI",
+          "dtultcomp": "15/06/2026",
+          "dias": 56,
+          "media": 86.85
         },
         {
           "codcli": "90670",
@@ -694,6 +703,15 @@ const INATIVOS_DATA = {
           "media": 117.82
         },
         {
+          "codcli": "93380",
+          "cliente": "SUPERMERCADOS ADONAI LTDA",
+          "bairro": "KM 32",
+          "cidade": "NOVA IGUACU",
+          "dtultcomp": "30/06/2026",
+          "dias": 41,
+          "media": 1275.39
+        },
+        {
           "codcli": "93382",
           "cliente": "SUPERMERCADOS ADONAI LTDA",
           "bairro": "CURICICA",
@@ -710,15 +728,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "30/06/2026",
           "dias": 41,
           "media": 1802.11
-        },
-        {
-          "codcli": "93380",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "bairro": "KM 32",
-          "cidade": "NOVA IGUACU",
-          "dtultcomp": "30/06/2026",
-          "dias": 41,
-          "media": 1275.39
         },
         {
           "codcli": "93390",
@@ -6452,15 +6461,6 @@ const INATIVOS_DATA = {
           "media": 1522.0
         },
         {
-          "codcli": "85422",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S",
-          "bairro": "CENTRO",
-          "cidade": "VITORIA",
-          "dtultcomp": "25/05/2026",
-          "dias": 77,
-          "media": 1176.05
-        },
-        {
           "codcli": "85425",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "bairro": "CONSOLAÇÃO",
@@ -6468,6 +6468,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "25/05/2026",
           "dias": 77,
           "media": 901.91
+        },
+        {
+          "codcli": "85422",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S",
+          "bairro": "CENTRO",
+          "cidade": "VITORIA",
+          "dtultcomp": "25/05/2026",
+          "dias": 77,
+          "media": 1176.05
         },
         {
           "codcli": "85435",
@@ -6488,15 +6497,6 @@ const INATIVOS_DATA = {
           "media": 2349.64
         },
         {
-          "codcli": "85400",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "bairro": "PEDRA D'ÁGUA",
-          "cidade": "SAO MATEUS",
-          "dtultcomp": "28/05/2026",
-          "dias": 74,
-          "media": 2042.24
-        },
-        {
           "codcli": "85432",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "bairro": "MOVELAR",
@@ -6513,6 +6513,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "28/05/2026",
           "dias": 74,
           "media": 2397.3
+        },
+        {
+          "codcli": "85400",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "bairro": "PEDRA D'ÁGUA",
+          "cidade": "SAO MATEUS",
+          "dtultcomp": "28/05/2026",
+          "dias": 74,
+          "media": 2042.24
         },
         {
           "codcli": "85401",
@@ -6569,40 +6578,13 @@ const INATIVOS_DATA = {
           "media": 3360.43
         },
         {
-          "codcli": "76074",
-          "cliente": "DRIFT COM. DE ALIMENTOS SA",
-          "bairro": "COLINA DE LARANJEIRAS",
+          "codcli": "85441",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "bairro": "NOVO HORIZONTE",
           "cidade": "SERRA",
           "dtultcomp": "30/06/2026",
           "dias": 41,
-          "media": 505.92
-        },
-        {
-          "codcli": "76075",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
-          "bairro": "JARDIM DA PENHA",
-          "cidade": "VITORIA",
-          "dtultcomp": "30/06/2026",
-          "dias": 41,
-          "media": 3122.6
-        },
-        {
-          "codcli": "76072",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "bairro": "ITAPUÃ",
-          "cidade": "VILA VELHA",
-          "dtultcomp": "30/06/2026",
-          "dias": 41,
-          "media": 1487.8
-        },
-        {
-          "codcli": "82539",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "bairro": "CAMPO GRANDE",
-          "cidade": "CARIACICA",
-          "dtultcomp": "30/06/2026",
-          "dias": 41,
-          "media": 877.48
+          "media": 742.39
         },
         {
           "codcli": "85438",
@@ -6614,22 +6596,40 @@ const INATIVOS_DATA = {
           "media": 4863.14
         },
         {
-          "codcli": "85441",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "bairro": "NOVO HORIZONTE",
-          "cidade": "SERRA",
+          "codcli": "82539",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "bairro": "CAMPO GRANDE",
+          "cidade": "CARIACICA",
           "dtultcomp": "30/06/2026",
           "dias": 41,
-          "media": 742.39
+          "media": 877.48
         },
         {
-          "codcli": "85410",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "bairro": "ITAPUA",
+          "codcli": "76072",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "bairro": "ITAPUÃ",
           "cidade": "VILA VELHA",
           "dtultcomp": "30/06/2026",
           "dias": 41,
-          "media": 3872.42
+          "media": 1487.8
+        },
+        {
+          "codcli": "76075",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A",
+          "bairro": "JARDIM DA PENHA",
+          "cidade": "VITORIA",
+          "dtultcomp": "30/06/2026",
+          "dias": 41,
+          "media": 3122.6
+        },
+        {
+          "codcli": "76074",
+          "cliente": "DRIFT COM. DE ALIMENTOS SA",
+          "bairro": "COLINA DE LARANJEIRAS",
+          "cidade": "SERRA",
+          "dtultcomp": "30/06/2026",
+          "dias": 41,
+          "media": 505.92
         },
         {
           "codcli": "85896",
@@ -6641,13 +6641,13 @@ const INATIVOS_DATA = {
           "media": 3014.91
         },
         {
-          "codcli": "77449",
-          "cliente": "ARMAZEM SAO SEBASTIAO LTDA",
-          "bairro": "SANTO AGOSTINHO",
-          "cidade": "CASTELO",
-          "dtultcomp": "01/07/2026",
-          "dias": 40,
-          "media": 277.48
+          "codcli": "85410",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "bairro": "ITAPUA",
+          "cidade": "VILA VELHA",
+          "dtultcomp": "30/06/2026",
+          "dias": 41,
+          "media": 3872.42
         },
         {
           "codcli": "80859",
@@ -6659,6 +6659,15 @@ const INATIVOS_DATA = {
           "media": 75.45
         },
         {
+          "codcli": "77449",
+          "cliente": "ARMAZEM SAO SEBASTIAO LTDA",
+          "bairro": "SANTO AGOSTINHO",
+          "cidade": "CASTELO",
+          "dtultcomp": "01/07/2026",
+          "dias": 40,
+          "media": 277.48
+        },
+        {
           "codcli": "86391",
           "cliente": "ARMAZEM SAO SEBASTIAO LTDA",
           "bairro": "VILA ESPERANCA",
@@ -6668,15 +6677,6 @@ const INATIVOS_DATA = {
           "media": 277.48
         },
         {
-          "codcli": "76076",
-          "cliente": "DRIFT COM. DE ALIMENTOS SA",
-          "bairro": "SANTA LUCIA",
-          "cidade": "VITORIA",
-          "dtultcomp": "02/07/2026",
-          "dias": 39,
-          "media": 1985.0
-        },
-        {
           "codcli": "82537",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "bairro": "JARDIM CAMBURI",
@@ -6684,6 +6684,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "02/07/2026",
           "dias": 39,
           "media": 1339.0
+        },
+        {
+          "codcli": "76076",
+          "cliente": "DRIFT COM. DE ALIMENTOS SA",
+          "bairro": "SANTA LUCIA",
+          "cidade": "VITORIA",
+          "dtultcomp": "02/07/2026",
+          "dias": 39,
+          "media": 1985.0
         },
         {
           "codcli": "82540",
