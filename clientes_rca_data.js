@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "10/08/2026 16:59",
-  "total": 22367,
+  "atualizado_em": "10/08/2026 17:15",
+  "total": 22366,
   "clientes": [
     {
       "codcli": "38586",
@@ -210192,8 +210192,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "588",
       "nome_usur1": "W.S",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "468",
+      "nome_usur2": "RENATO JUNIOR - OFF TRADE"
     },
     {
       "codcli": "71796",
@@ -224050,22 +224050,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "30886",
-      "razao": "MARCOS VINICIUS PINA DE CASTRO CPF48674613691",
-      "fantasia": "MARGARIDA COZINHA MEDITERRANEA",
-      "bairro": "FUNCIONARIOS",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "30.116.257/0001-74",
-      "estado": "MG",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "351",
-      "nome_usur2": "MARIANA LAGES"
     },
     {
       "codcli": "50049",
@@ -238272,6 +238256,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52377",
+      "razao": "MERCADO SOARES DA LAGOINHA LTDA",
+      "fantasia": "MERCADO SOARES DA LAGOINHA",
+      "bairro": "LAGOINHA",
+      "cidade": "UBATUBA",
+      "cnpj": "10.519.000/0001-56",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "516",
+      "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -329150,8 +329150,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": true,
       "rede": "SUPERMERCADOS BH",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "388",
+      "nome_usur1": "EUDES MORGAN - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -329168,22 +329168,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "SUPERMERCADOS BH",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "91292",
-      "razao": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-      "fantasia": "SUPERMERCADOS BH",
-      "bairro": "PONTA DOS CASTELHANOS",
-      "cidade": "ANCHIETA",
-      "cnpj": "04.641.376/0385-32",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": true,
-      "rede": "SUPERMERCADOS BH",
-      "codusur1": "388",
-      "nome_usur1": "EUDES MORGAN - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
