@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "10/08/2026 17:07",
+  "atualizado_em": "10/08/2026 17:27",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -1732,8 +1732,8 @@ const GERENTES_DATA = {
           "qt": 132417
         },
         "Ago/26": {
-          "fat": 2145069.96,
-          "qt": 56254
+          "fat": 2177242.57,
+          "qt": 57076
         },
         "Jul/26": {
           "fat": 9504914.4,
@@ -1894,8 +1894,8 @@ const GERENTES_DATA = {
               "qt": 65863
             },
             "Ago/26": {
-              "fat": 1256217.0,
-              "qt": 30853
+              "fat": 1288389.61,
+              "qt": 31675
             },
             "Jul/26": {
               "fat": 5979640.51,
@@ -1926,8 +1926,8 @@ const GERENTES_DATA = {
                   "qt": 33395
                 },
                 "Ago/26": {
-                  "fat": 363986.35,
-                  "qt": 5755
+                  "fat": 364621.15,
+                  "qt": 5767
                 },
                 "Jul/26": {
                   "fat": 1420064.24,
@@ -2296,8 +2296,8 @@ const GERENTES_DATA = {
                   "estado": "SP",
                   "por_mes": {
                     "Ago/26": {
-                      "fat": 25359.53,
-                      "qt": 1028
+                      "fat": 25994.33,
+                      "qt": 1040
                     },
                     "Jul/26": {
                       "fat": 138644.23,
@@ -2322,8 +2322,8 @@ const GERENTES_DATA = {
                   "qt": 20767
                 },
                 "Ago/26": {
-                  "fat": 374241.76,
-                  "qt": 7972
+                  "fat": 375827.58,
+                  "qt": 8018
                 },
                 "Jul/26": {
                   "fat": 2695031.32,
@@ -2553,8 +2553,8 @@ const GERENTES_DATA = {
                   "estado": "SP",
                   "por_mes": {
                     "Ago/26": {
-                      "fat": 55393.95,
-                      "qt": 1658
+                      "fat": 56689.86,
+                      "qt": 1694
                     },
                     "Jul/26": {
                       "fat": 22257.3,
@@ -2664,8 +2664,8 @@ const GERENTES_DATA = {
                   "estado": "SP",
                   "por_mes": {
                     "Ago/26": {
-                      "fat": 626.67,
-                      "qt": 20
+                      "fat": 916.58,
+                      "qt": 30
                     },
                     "Jul/26": {
                       "fat": 8117.4,
@@ -2727,8 +2727,8 @@ const GERENTES_DATA = {
                   "qt": 22329
                 },
                 "Ago/26": {
-                  "fat": 517988.89,
-                  "qt": 17126
+                  "fat": 547940.88,
+                  "qt": 17890
                 },
                 "Jul/26": {
                   "fat": 1864544.95,
@@ -2758,8 +2758,8 @@ const GERENTES_DATA = {
                       "qt": 16391
                     },
                     "Ago/26": {
-                      "fat": 220305.25,
-                      "qt": 7561
+                      "fat": 247054.45,
+                      "qt": 8269
                     },
                     "Jul/26": {
                       "fat": 388536.55,
@@ -2991,8 +2991,8 @@ const GERENTES_DATA = {
                   "estado": "SP",
                   "por_mes": {
                     "Ago/26": {
-                      "fat": 8841.6,
-                      "qt": 164
+                      "fat": 9408.59,
+                      "qt": 178
                     },
                     "Jul/26": {
                       "fat": 173835.57,
@@ -3079,8 +3079,8 @@ const GERENTES_DATA = {
                       "qt": 2972
                     },
                     "Ago/26": {
-                      "fat": 32872.44,
-                      "qt": 1260
+                      "fat": 35508.24,
+                      "qt": 1302
                     },
                     "Jul/26": {
                       "fat": 352235.33,
