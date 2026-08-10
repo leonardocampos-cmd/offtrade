@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "10/08/2026 10:21",
-  "total": 22366,
+  "atualizado_em": "10/08/2026 10:35",
+  "total": 22365,
   "clientes": [
     {
       "codcli": "38586",
@@ -93430,7 +93430,7 @@ const CLIENTES_RCA_DATA = {
     {
       "codcli": "67267",
       "razao": "CATETE GRILL LTDA",
-      "fantasia": "CATETE GRILL LTDA",
+      "fantasia": "CATETE GRILL",
       "bairro": "CATETE",
       "cidade": "RIO DE JANEIRO",
       "cnpj": "01.549.561/0001-07",
@@ -93438,8 +93438,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "RESTAURANTE",
       "key_account": false,
       "rede": "",
-      "codusur1": "438",
-      "nome_usur1": "TAMIRES GOMES",
+      "codusur1": "445",
+      "nome_usur1": "MARIANA RESTUM",
       "codusur2": "378",
       "nome_usur2": "FABIO VALOTTI - OFF TRADE"
     },
@@ -127168,6 +127168,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52353",
+      "razao": "DRIELLE GARCES DA SILVA",
+      "fantasia": "D S COMERCIO DE BEBIDAS",
+      "bairro": "ESTUFA II",
+      "cidade": "UBATUBA",
+      "cnpj": "38.530.860/0001-00",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "516",
+      "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -198158,8 +198174,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "241",
+      "nome_usur1": "ZEINALDO DE OLIVEIRA - OFF TRADE",
       "codusur2": "43",
       "nome_usur2": "SOUZA"
     },
@@ -287236,22 +287252,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "63011",
-      "razao": "R.A BAR E LANCHONETE LTDA",
-      "fantasia": "PAVAO AZUL 2",
-      "bairro": "COPACABANA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "10.788.360/0001-53",
-      "estado": "RJ",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "79481",
       "razao": "R.A DESIGN LTDA",
       "fantasia": "RENATA ALT",
@@ -300274,22 +300274,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "319",
       "nome_usur2": "FERNANDA CAMBOIM"
-    },
-    {
-      "codcli": "90652",
-      "razao": "RIO BOAT CLUB LTDA",
-      "fantasia": "RIO BOAT CLUBE",
-      "bairro": "CATETE",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "59.890.441/0001-59",
-      "estado": "RJ",
-      "ramo": "EVENTOS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "71655",
@@ -346286,8 +346270,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "SPON",
+      "codusur1": "305",
+      "nome_usur1": "KAUA OLIVEIRA",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
