@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "10/08/2026 14:13",
+  "atualizado_em": "10/08/2026 14:30",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -1014,12 +1014,12 @@ const COMISSAO_DATA = {
       ],
       "ating_acumulado_total": 0.145657,
       "pct_premio": 0.00218485,
-      "liq_rigarr": 22792.2,
+      "liq_rigarr": 27799.4,
       "fat_castas": 2014.4,
       "teto_comissao": null,
-      "com_rigarr": 49.8,
+      "com_rigarr": 60.74,
       "com_castas": 4.4,
-      "comissao_estimada": 54.2
+      "comissao_estimada": 65.14
     },
     {
       "nome": "NÁTALI DE OLIVEIRA - OFF TRADE",
