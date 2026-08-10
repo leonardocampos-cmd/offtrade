@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "10/08/2026 12:29",
+  "atualizado_em": "10/08/2026 13:43",
   "total": 22368,
   "clientes": [
     {
@@ -36896,6 +36896,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "512",
       "nome_usur1": "WILLIAM GONCALVES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52361",
+      "razao": "ADEGA RUY RODRIGUEZ COMERCIO DE BEBIDAS LTDA",
+      "fantasia": "ADEGA RUY RODRIGUES",
+      "bairro": "RECANTO DO SOL I",
+      "cidade": "CAMPINAS",
+      "cnpj": "22.031.257/0001-43",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -110212,22 +110228,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "50990",
-      "razao": "CRISTIANE DE PAULA MENDES GRUSZKOWSKI SILVA 07611281747",
-      "fantasia": "PONTAL SEAFOOD",
-      "bairro": "JACAREPAGUA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "45.759.103/0001-78",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "312",
-      "nome_usur2": "LAYZ WERNECK"
-    },
-    {
       "codcli": "20954",
       "razao": "CRISTIANE F MARBA",
       "fantasia": "CRISTIANE F MARBA",
@@ -145623,7 +145623,7 @@ const CLIENTES_RCA_DATA = {
       "codcli": "92280",
       "razao": "F S DO AMARAL COMERCIO DE BEBIDAS E ALIMENTOS",
       "fantasia": "JF DISTRIBUIDORA",
-      "bairro": "SAO JOSE DO BARRETO",
+      "bairro": "PARQUE AEROPORTO",
       "cidade": "MACAE",
       "cnpj": "46.471.213/0001-00",
       "estado": "RJ",
@@ -177166,8 +177166,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "COMERCIO VAREJISTA (GERAL)",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
+      "codusur1": "378",
+      "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -177182,8 +177182,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "COMERCIO VAREJISTA (GERAL)",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
+      "codusur1": "378",
+      "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
       "codusur2": "343",
       "nome_usur2": "FERNANDO RISSON - OFF TRADE"
     },
@@ -187522,6 +187522,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "GISELLE BARFER - OFF TRADE",
       "codusur2": "229",
       "nome_usur2": "LUIZA HASSEN"
+    },
+    {
+      "codcli": "90510",
+      "razao": "JOELI CARVALHO BUFFET & EVENTOS LTDA",
+      "fantasia": "JOELI CARVALHO BUFFET & EVENTOS",
+      "bairro": "LAGOMAR",
+      "cidade": "MACAE",
+      "cnpj": "22.112.979/0001-22",
+      "estado": "RJ",
+      "ramo": "BUFFET",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "10",
+      "nome_usur1": "INATIVO3",
+      "codusur2": "43",
+      "nome_usur2": "SOUZA"
     },
     {
       "codcli": "91980",
@@ -332130,22 +332146,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
-      "codcli": "92242",
-      "razao": "TAKK GUD CAFE E PIZZA LTDA",
-      "fantasia": "GRAO &FORNO",
-      "bairro": "COPACABANA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "62.691.268/0001-74",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "61128",
