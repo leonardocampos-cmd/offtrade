@@ -1,12 +1,12 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "10/08/2026 16:53",
+  "atualizado_em": "10/08/2026 17:08",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 10,
   "dias_no_mes": 31,
   "dias_restantes": 21,
   "resumo": {
-    "fat": 3301058.31,
+    "fat": 3301148.01,
     "fat_ant": 2662409.84,
     "fat_ant_completo": 13925054.76,
     "pos": 624,
@@ -15,11 +15,11 @@ const METAS_GERAIS_DATA = {
   },
   "total": {
     "meta": 12300000.0,
-    "fat": 3301058.31,
+    "fat": 3301148.01,
     "fat_ant": 2662409.84,
     "fat_ant_completo": 13925054.76,
     "pct": 26.8,
-    "nec_dia": 428521.03
+    "nec_dia": 428516.76
   },
   "estados": [
     {
@@ -52,11 +52,11 @@ const METAS_GERAIS_DATA = {
       "estado": "ES",
       "label": "Espírito Santo",
       "meta": 1800000.0,
-      "fat": 243032.77,
+      "fat": 243122.47,
       "fat_ant": 107285.45,
       "pos": 27,
       "pct": 13.5,
-      "nec_dia": 74141.3,
+      "nec_dia": 74137.03,
       "fat_ant_completo": 736897.29,
       "pos_ant": 31,
       "pos_ant_completo": 91
@@ -298,12 +298,12 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "DADINHO",
-      "fat": 12102.78,
+      "fat": 12192.48,
       "fat_ant": 7862.86,
       "por_estado": {
         "RJ": 0.0,
         "SP": 0.0,
-        "ES": 12102.78,
+        "ES": 12192.48,
         "MG": 0.0
       }
     },
