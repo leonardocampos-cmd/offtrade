@@ -1,8 +1,186 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "10/08/2026 10:49",
+  "atualizado_em": "10/08/2026 12:05",
   "periodo_dias": 90,
   "fontes_indisponiveis": [],
   "pedidos_feitos": [
+    {
+      "numped": "439000324",
+      "numnota": "",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "MATEUS CARDOSO - OFF TRADE",
+      "cliente": "DAVID WESLEY FERREIRA DOS SANTOS 16810532765",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :129",
+      "obs": "Data entrega: 13/08/26",
+      "total": 858.82,
+      "itens": [
+        {
+          "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "industria": "CASA PERINI",
+          "qt": 6,
+          "val": 221.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "663",
+          "codfilial": "2",
+          "pvenda": 36.9
+        },
+        {
+          "desc": "VODKA ABSOLUT 1L",
+          "industria": "PERNOD",
+          "qt": 1,
+          "val": 59.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "129",
+          "codfilial": "2",
+          "pvenda": 59.9
+        },
+        {
+          "desc": "WHISKY BALLANTINE S FINEST 1L",
+          "industria": "PERNOD",
+          "qt": 1,
+          "val": 62.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "237",
+          "codfilial": "2",
+          "pvenda": 62.9
+        },
+        {
+          "desc": "CACHACA JOIA DA SERRA OURO 1L",
+          "industria": "HOB",
+          "qt": 2,
+          "val": 43.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "4598",
+          "codfilial": "2",
+          "pvenda": 21.9
+        },
+        {
+          "desc": "CACHACA JOIA DA SERRA TRADICIONAL 1L",
+          "industria": "HOB",
+          "qt": 2,
+          "val": 43.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "4343",
+          "codfilial": "2",
+          "pvenda": 21.9
+        },
+        {
+          "desc": "ST PIERRE LATA RED MINT LT 24X270ML",
+          "industria": "TATUZINHO",
+          "qt": 1,
+          "val": 95.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "3109",
+          "codfilial": "2",
+          "pvenda": 95.9
+        },
+        {
+          "desc": "ST PIERRE ZERO LATA TROPICAL LT 6X310ML",
+          "industria": "TATUZINHO",
+          "qt": 4,
+          "val": 91.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 4.0,
+          "cortado": false,
+          "codprod": "4506",
+          "codfilial": "2",
+          "pvenda": 22.9
+        },
+        {
+          "desc": "NECTAR ABACAXI 12X1000ML",
+          "industria": "TIAL",
+          "qt": 1,
+          "val": 59.88,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "5985",
+          "codfilial": "2",
+          "pvenda": 59.88
+        },
+        {
+          "desc": "NECTAR CAJU 12X1000ML",
+          "industria": "TIAL",
+          "qt": 1,
+          "val": 59.88,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "5986",
+          "codfilial": "2",
+          "pvenda": 59.88
+        },
+        {
+          "desc": "NECTAR GOIABA 12X1000ML",
+          "industria": "TIAL",
+          "qt": 1,
+          "val": 59.88,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "5987",
+          "codfilial": "2",
+          "pvenda": 59.88
+        },
+        {
+          "desc": "NECTAR MACA TIAL 12X1000ML",
+          "industria": "TIAL",
+          "qt": 1,
+          "val": 59.88,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "6346",
+          "codfilial": "2",
+          "pvenda": 59.88
+        }
+      ],
+      "tem_corte": false,
+      "motivo_codprod": "129",
+      "motivo_produto": "VODKA ABSOLUT 1L",
+      "motivo_preco_digitado": 59.9,
+      "motivo_preco_tabela": 59.9
+    },
     {
       "numped": "159005242",
       "numnota": "",
@@ -56,38 +234,42 @@ const PEDIDOS_DATA = {
       "motivo_preco_tabela": 172.56
     },
     {
-      "numped": "370001409",
+      "numped": "431001223",
       "numnota": "",
       "data": "10/08/2026",
       "data_ord": "2026-08-10",
-      "nome": "FRANZ BENEVIDES - OFF TRADE",
-      "cliente": "TERRAZZO DEI NONNI LTDA",
+      "nome": "ADEILSON GONÇALVEZ - OFF TRADE",
+      "cliente": "KVSO I COM PROD FAR LTDA",
       "sistema": "CRC",
-      "estado": "ES",
-      "supervisor": "SUPERVISOR HIBRIDO ES",
-      "gerente": "EROCLES OLIVEIRA",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Bloqueado (alçada)",
-      "motivo": "Pedido com item abaixo do preço minimo.",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :997",
       "obs": "",
-      "total": 29.16,
+      "total": 359.52,
       "itens": [
         {
           "desc": "4 PACK RED BULL 250ML",
           "industria": "RED BULL",
-          "qt": 1,
-          "val": 29.16,
+          "qt": 12,
+          "val": 359.52,
           "qtfalta": 0.0,
           "qtcortada": 0.0,
           "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
+          "qt_original": 12.0,
           "cortado": false,
           "codprod": "997",
-          "codfilial": "1",
-          "pvenda": 29.16
+          "codfilial": "2",
+          "pvenda": 29.96
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "motivo_codprod": "997",
+      "motivo_produto": "4 PACK RED BULL 250ML",
+      "motivo_preco_digitado": 29.96,
+      "motivo_preco_tabela": 33.96
     },
     {
       "numped": "388001239",
@@ -139,7 +321,7 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :7351",
       "obs": "",
       "total": 3701.16,
@@ -504,6 +686,138 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
+      "numped": "155004097",
+      "numnota": "",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "RAPHAEL SANTOS - OFF TRADE",
+      "cliente": "EMS COMERCIO DE ALIMENTOS DE IGUABA LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :3643",
+      "obs": "",
+      "total": 777.0,
+      "itens": [
+        {
+          "desc": "GIN ROCKS 1000ML",
+          "industria": "FANTE",
+          "qt": 6,
+          "val": 155.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "3643",
+          "codfilial": "2",
+          "pvenda": 25.9
+        },
+        {
+          "desc": "GIN ROCKS STRAWBERRY 1000ML",
+          "industria": "FANTE",
+          "qt": 12,
+          "val": 310.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "3642",
+          "codfilial": "2",
+          "pvenda": 25.9
+        },
+        {
+          "desc": "GIN ROCKS WATERMELON 1000ML",
+          "industria": "FANTE",
+          "qt": 12,
+          "val": 310.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "4689",
+          "codfilial": "2",
+          "pvenda": 25.9
+        }
+      ],
+      "tem_corte": false,
+      "motivo_codprod": "3643",
+      "motivo_produto": "GIN ROCKS 1000ML",
+      "motivo_preco_digitado": 25.9,
+      "motivo_preco_tabela": 29.2
+    },
+    {
+      "numped": "379001379",
+      "numnota": "",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "JORGE MACIEL - OFF TRADE",
+      "cliente": "MN GAZZOLI MERCEARIA LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :7332",
+      "obs": "",
+      "total": 322.72,
+      "itens": [
+        {
+          "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+          "industria": "ROBINSON CRUSOE",
+          "qt": 1,
+          "val": 132.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "7332",
+          "codfilial": "2",
+          "pvenda": 132.0
+        },
+        {
+          "desc": "VEJA MULTIUSO/1BAN/1COZ PACK C/3 24X500M",
+          "industria": "RECKITT",
+          "qt": 1,
+          "val": 133.2,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "4829",
+          "codfilial": "2",
+          "pvenda": 133.2
+        },
+        {
+          "desc": "4 PACK RED BULL 250ML",
+          "industria": "RED BULL",
+          "qt": 2,
+          "val": 57.52,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "997",
+          "codfilial": "2",
+          "pvenda": 28.76
+        }
+      ],
+      "tem_corte": false,
+      "motivo_codprod": "7332",
+      "motivo_produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+      "motivo_preco_digitado": 132.0,
+      "motivo_preco_tabela": 172.93
+    },
+    {
       "numped": "241000543",
       "numnota": "",
       "data": "10/08/2026",
@@ -608,40 +922,6 @@ const PEDIDOS_DATA = {
       "motivo_preco_tabela": 172.56
     },
     {
-      "numped": "370001410",
-      "numnota": "",
-      "data": "10/08/2026",
-      "data_ord": "2026-08-10",
-      "nome": "FRANZ BENEVIDES - OFF TRADE",
-      "cliente": "CHURRASCARIA E RESTAURANTE NOVA GAUCHAO LTDA",
-      "sistema": "CRC",
-      "estado": "ES",
-      "supervisor": "SUPERVISOR HIBRIDO ES",
-      "gerente": "EROCLES OLIVEIRA",
-      "status_ped": "",
-      "posicao": "Bloqueado (alçada)",
-      "motivo": "Pedido com item abaixo do preço minimo.",
-      "obs": "",
-      "total": 29.16,
-      "itens": [
-        {
-          "desc": "4 PACK RED BULL 250ML",
-          "industria": "RED BULL",
-          "qt": 1,
-          "val": 29.16,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "997",
-          "codfilial": "1",
-          "pvenda": 29.16
-        }
-      ],
-      "tem_corte": false
-    },
-    {
       "numped": "431001222",
       "numnota": "",
       "data": "10/08/2026",
@@ -705,7 +985,7 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :5305",
       "obs": "Entrega agendada para o dia   13/08/26.",
       "total": 4292.16,
@@ -831,6 +1111,400 @@ const PEDIDOS_DATA = {
           "codprod": "5485",
           "codfilial": "1",
           "pvenda": 8.99
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "463000055",
+      "numnota": "",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "ROBERTO DOS SANTOS - OFF TRADE",
+      "cliente": "AAGC COMERCIO VAREJISTA DE ALIMENTOS LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 391.86,
+      "itens": [
+        {
+          "desc": "RUM MONTILLA CARTA BRANCA 1L",
+          "industria": "PERNOD",
+          "qt": 6,
+          "val": 116.7,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "69",
+          "codfilial": "1",
+          "pvenda": 19.45
+        },
+        {
+          "desc": "MARTINI EXTRA DRY 750 ML",
+          "industria": "BACARDI",
+          "qt": 6,
+          "val": 179.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "169",
+          "codfilial": "1",
+          "pvenda": 29.9
+        },
+        {
+          "desc": "ICE 51 FRUIT LONG NECK 275ML-24 UND",
+          "industria": "COMPANHIA MULLER DE BEBIDAS",
+          "qt": 1,
+          "val": 95.76,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "4318",
+          "codfilial": "1",
+          "pvenda": 95.76
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "588003353",
+      "numnota": "",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "W.S",
+      "cliente": "JESSYCA VILAR DE OLIVEIRA 40904329879",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "O valor limite de credito foi excedido.  Vl. Ped.: 7188 Cred",
+      "obs": "",
+      "total": 7188.0,
+      "itens": [
+        {
+          "desc": "GIN BEEFEATER 750ML",
+          "industria": "PERNOD",
+          "qt": 120,
+          "val": 7188.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 120.0,
+          "cortado": false,
+          "codprod": "463",
+          "codfilial": "1",
+          "pvenda": 59.9
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "516000050",
+      "numnota": "",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "JOAQUIM ANGELO - OFF TRADE",
+      "cliente": "DRIELLE GARCES DA SILVA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 1415.46,
+      "itens": [
+        {
+          "desc": "WHISKY BUCHANANS 12 YEARS 1L",
+          "industria": "DIAGEO",
+          "qt": 3,
+          "val": 483.26,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "cortado": false,
+          "codprod": "18",
+          "codfilial": "1",
+          "pvenda": 161.09
+        },
+        {
+          "desc": "RUM BACARDI SUPERIOR CARTA BLANCA 980ML",
+          "industria": "BACARDI",
+          "qt": 3,
+          "val": 103.27,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "cortado": false,
+          "codprod": "34",
+          "codfilial": "1",
+          "pvenda": 34.42
+        },
+        {
+          "desc": "RUM BACARDI GOLD 980ML",
+          "industria": "BACARDI",
+          "qt": 3,
+          "val": 112.05,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "cortado": false,
+          "codprod": "35",
+          "codfilial": "1",
+          "pvenda": 37.35
+        },
+        {
+          "desc": "MARTINI BIANCO 750 ML",
+          "industria": "BACARDI",
+          "qt": 6,
+          "val": 173.69,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "37",
+          "codfilial": "1",
+          "pvenda": 28.95
+        },
+        {
+          "desc": "MARTINI EXTRA DRY 750 ML",
+          "industria": "BACARDI",
+          "qt": 3,
+          "val": 89.7,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "cortado": false,
+          "codprod": "169",
+          "codfilial": "1",
+          "pvenda": 29.9
+        },
+        {
+          "desc": "RUM MONTILLA OURO 1L",
+          "industria": "PERNOD",
+          "qt": 3,
+          "val": 58.35,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "cortado": false,
+          "codprod": "178",
+          "codfilial": "1",
+          "pvenda": 19.45
+        },
+        {
+          "desc": "VODKA ORLOFF 1L",
+          "industria": "PERNOD",
+          "qt": 6,
+          "val": 119.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "235",
+          "codfilial": "1",
+          "pvenda": 19.9
+        },
+        {
+          "desc": "GIN BEEFEATER 750ML",
+          "industria": "PERNOD",
+          "qt": 3,
+          "val": 182.7,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "cortado": false,
+          "codprod": "463",
+          "codfilial": "1",
+          "pvenda": 60.9
+        },
+        {
+          "desc": "MARTINI ROSSO 750 ML",
+          "industria": "BACARDI",
+          "qt": 3,
+          "val": 93.03,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "cortado": false,
+          "codprod": "1527",
+          "codfilial": "1",
+          "pvenda": 31.01
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "463000056",
+      "numnota": "",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "ROBERTO DOS SANTOS - OFF TRADE",
+      "cliente": "GABRIEL DE CARVALHO RIBEIRO",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 293.16,
+      "itens": [
+        {
+          "desc": "CONHAQUE DOMECQ 1L",
+          "industria": "PERNOD",
+          "qt": 3,
+          "val": 80.7,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "cortado": false,
+          "codprod": "64",
+          "codfilial": "1",
+          "pvenda": 26.9
+        },
+        {
+          "desc": "RUM MONTILLA CARTA BRANCA 1L",
+          "industria": "PERNOD",
+          "qt": 3,
+          "val": 58.35,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "cortado": false,
+          "codprod": "69",
+          "codfilial": "1",
+          "pvenda": 19.45
+        },
+        {
+          "desc": "RUM MONTILLA OURO 1L",
+          "industria": "PERNOD",
+          "qt": 3,
+          "val": 58.35,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "cortado": false,
+          "codprod": "178",
+          "codfilial": "1",
+          "pvenda": 19.45
+        },
+        {
+          "desc": "ICE 51 FRUIT LONG NECK 275ML-24 UND",
+          "industria": "COMPANHIA MULLER DE BEBIDAS",
+          "qt": 1,
+          "val": 95.76,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "4318",
+          "codfilial": "1",
+          "pvenda": 95.76
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "498000023",
+      "numnota": "",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "CELSO OLIVEIRA - OFF TRADE",
+      "cliente": "PAULO JOSE SALINA & CIA LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 738.3,
+      "itens": [
+        {
+          "desc": "CONHAQUE DOMECQ 1L",
+          "industria": "PERNOD",
+          "qt": 2,
+          "val": 55.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "64",
+          "codfilial": "1",
+          "pvenda": 27.9
+        },
+        {
+          "desc": "LICOR 43 DIEGO ZAMORA 700ML",
+          "industria": "AURORA",
+          "qt": 3,
+          "val": 350.7,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "cortado": false,
+          "codprod": "857",
+          "codfilial": "1",
+          "pvenda": 116.9
+        },
+        {
+          "desc": "CACHAÇA SAO FRANCISCO 970ML",
+          "industria": "PERNOD",
+          "qt": 12,
+          "val": 262.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "3668",
+          "codfilial": "1",
+          "pvenda": 21.9
+        },
+        {
+          "desc": "WHISKY PASSPORT HONEY 670ML",
+          "industria": "PERNOD",
+          "qt": 2,
+          "val": 69.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "4804",
+          "codfilial": "1",
+          "pvenda": 34.5
         }
       ],
       "tem_corte": false
@@ -994,6 +1668,74 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
+      "numped": "476000285",
+      "numnota": "",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "RODRIGO LIMA - OFF TRADE",
+      "cliente": "33.632.553 MONISE CRISTINA RAIZE DE ALMEIDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 394.8,
+      "itens": [
+        {
+          "desc": "WHISKY PASSPORT 1L",
+          "industria": "PERNOD",
+          "qt": 12,
+          "val": 394.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "246",
+          "codfilial": "1",
+          "pvenda": 32.9
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "588003351",
+      "numnota": "",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "W.S",
+      "cliente": "J. B. FERREIRA & CIA LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 5097.0,
+      "itens": [
+        {
+          "desc": "WHISKY CHIVAS REGAL XV 750ML",
+          "industria": "PERNOD",
+          "qt": 30,
+          "val": 5097.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 30.0,
+          "cortado": false,
+          "codprod": "2511",
+          "codfilial": "1",
+          "pvenda": 169.9
+        }
+      ],
+      "tem_corte": false
+    },
+    {
       "numped": "489000085",
       "numnota": "",
       "data": "10/08/2026",
@@ -1023,6 +1765,68 @@ const PEDIDOS_DATA = {
           "codprod": "4105",
           "codfilial": "1",
           "pvenda": 145.0
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "588003352",
+      "numnota": "",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "W.S",
+      "cliente": "BRASILEIRAO ATACADO COMERCIO DE PRODUTOS ALIMENTICIOS SOCIED",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 9882.0,
+      "itens": [
+        {
+          "desc": "VODKA ABSOLUT CITRON 750ML",
+          "industria": "PERNOD",
+          "qt": 60,
+          "val": 3294.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 60.0,
+          "cortado": false,
+          "codprod": "1333",
+          "codfilial": "1",
+          "pvenda": 54.9
+        },
+        {
+          "desc": "VODKA ABSOLUT VANILLA 750ML",
+          "industria": "PERNOD",
+          "qt": 60,
+          "val": 3294.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 60.0,
+          "cortado": false,
+          "codprod": "1710",
+          "codfilial": "1",
+          "pvenda": 54.9
+        },
+        {
+          "desc": "VODKA ABSOLUT RASPBERRY - 750ML",
+          "industria": "PERNOD",
+          "qt": 60,
+          "val": 3294.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 60.0,
+          "cortado": false,
+          "codprod": "3662",
+          "codfilial": "1",
+          "pvenda": 54.9
         }
       ],
       "tem_corte": false
@@ -1166,6 +1970,186 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
+      "numped": "344000607",
+      "numnota": "",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "TIAGO ANDRADE - OFF TRADE",
+      "cliente": "RBL EMPREENDIMENTOS  STUDIO BIKE VILA DA SERRA  BH LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "Item com desconto acima do permitido :4252",
+      "obs": "",
+      "total": 701.76,
+      "itens": [
+        {
+          "desc": "RED BULL 250ML CAIXA C/24 UNID",
+          "industria": "RED BULL",
+          "qt": 1,
+          "val": 175.44,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "3",
+          "codfilial": "1",
+          "pvenda": 175.44
+        },
+        {
+          "desc": "RED BULL SUMMER MELÃO MARACUJA  24X250ML",
+          "industria": "RED BULL",
+          "qt": 1,
+          "val": 175.44,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "4075",
+          "codfilial": "1",
+          "pvenda": 175.44
+        },
+        {
+          "desc": "RED BULL ZERO 24X250ML",
+          "industria": "RED BULL",
+          "qt": 1,
+          "val": 175.44,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "4252",
+          "codfilial": "1",
+          "pvenda": 175.44
+        },
+        {
+          "desc": "RED BULL MAÇA SF 250ML  C/24 UNID",
+          "industria": "RED BULL",
+          "qt": 1,
+          "val": 175.44,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "4396",
+          "codfilial": "1",
+          "pvenda": 175.44
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "327009665",
+      "numnota": "",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "JOÃO SANTOS - OFF TRADE",
+      "cliente": "ICARO FONSECA DOS SANTOS",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "cliente recebe apos 16:00 horas",
+      "total": 351.0,
+      "itens": [
+        {
+          "desc": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
+          "industria": "MONIN",
+          "qt": 2,
+          "val": 99.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "1037",
+          "codfilial": "1",
+          "pvenda": 49.9
+        },
+        {
+          "desc": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
+          "industria": "MONIN",
+          "qt": 1,
+          "val": 49.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "1039",
+          "codfilial": "1",
+          "pvenda": 49.9
+        },
+        {
+          "desc": "YVY DESTILADO GIN AR LT 710ML",
+          "industria": "YVY",
+          "qt": 1,
+          "val": 39.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "3764",
+          "codfilial": "1",
+          "pvenda": 39.9
+        },
+        {
+          "desc": "ST PIERRE ZERO PINK LEMON  310 ML",
+          "industria": "TATUZINHO",
+          "qt": 2,
+          "val": 53.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "4040",
+          "codfilial": "1",
+          "pvenda": 26.9
+        },
+        {
+          "desc": "ST PIERRE ZERO TROPICAL  310 ML",
+          "industria": "TATUZINHO",
+          "qt": 2,
+          "val": 53.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "4041",
+          "codfilial": "1",
+          "pvenda": 26.9
+        },
+        {
+          "desc": "ST PIERRE PALOMA 270MLX6",
+          "industria": "TATUZINHO",
+          "qt": 2,
+          "val": 53.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "4093",
+          "codfilial": "1",
+          "pvenda": 26.9
+        }
+      ],
+      "tem_corte": false
+    },
+    {
       "numped": "327009663",
       "numnota": "",
       "data": "10/08/2026",
@@ -1177,7 +2161,7 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :296",
       "obs": "cliente nao recebe no horario",
       "total": 1076.0,
@@ -1243,7 +2227,7 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :4446",
       "obs": "",
       "total": 1470.0,
@@ -1266,6 +2250,72 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
+      "numped": "327009664",
+      "numnota": "",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "JOÃO SANTOS - OFF TRADE",
+      "cliente": "RAFAEL ARAUJO GORI RESTAURANTE",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :3",
+      "obs": "Gori grill.",
+      "total": 561.36,
+      "itens": [
+        {
+          "desc": "RED BULL 250ML CAIXA C/24 UNID",
+          "industria": "RED BULL",
+          "qt": 1,
+          "val": 191.76,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "3",
+          "codfilial": "1",
+          "pvenda": 191.76
+        },
+        {
+          "desc": "VODKA ABSOLUT - 1 LITRO",
+          "industria": "PERNOD",
+          "qt": 3,
+          "val": 239.7,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "cortado": false,
+          "codprod": "129",
+          "codfilial": "1",
+          "pvenda": 79.9
+        },
+        {
+          "desc": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "industria": "PERNOD",
+          "qt": 1,
+          "val": 129.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "1767",
+          "codfilial": "1",
+          "pvenda": 129.9
+        }
+      ],
+      "tem_corte": false,
+      "motivo_codprod": "3",
+      "motivo_produto": "RED BULL 250ML CAIXA C/24 UNID",
+      "motivo_preco_digitado": 191.76,
+      "motivo_preco_tabela": 172.56
+    },
+    {
       "numped": "360000435",
       "numnota": "",
       "data": "10/08/2026",
@@ -1277,20 +2327,20 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
-      "posicao": "Bloqueado",
-      "motivo": "Item com desconto acima do permitido :4441",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "PRECO ABAIXO DO MINIMO PERMITIDO",
       "obs": "CD",
-      "total": 12054.0,
+      "total": 11907.0,
       "itens": [
         {
           "desc": "PURE MONIN MAÇA VERDE 330ML",
           "industria": "MONIN",
-          "qt": 30,
-          "val": 735.0,
+          "qt": 24,
+          "val": 588.0,
           "qtfalta": 0.0,
           "qtcortada": 0.0,
           "qtd_cortada_total": 0.0,
-          "qt_original": 30.0,
+          "qt_original": 24.0,
           "cortado": false,
           "codprod": "4451",
           "codfilial": "1",
@@ -1398,6 +2448,44 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
+      "numped": "360000437",
+      "numnota": "",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "LEANDRO OLIVEIRA - OFF TRADE",
+      "cliente": "SUPERMERCADO BAHAMAS S/A",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "Item com desconto acima do permitido :484",
+      "obs": "CD",
+      "total": 2380.8,
+      "itens": [
+        {
+          "desc": "WHISKY JIM BEAM WHITE 1L",
+          "industria": "BEAM SUNTORY",
+          "qt": 24,
+          "val": 2380.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 24.0,
+          "cortado": false,
+          "codprod": "484",
+          "codfilial": "1",
+          "pvenda": 99.2
+        }
+      ],
+      "tem_corte": false,
+      "motivo_codprod": "484",
+      "motivo_produto": "WHISKY JIM BEAM WHITE 1L",
+      "motivo_preco_digitado": 99.2,
+      "motivo_preco_tabela": 70.9
+    },
+    {
       "numped": "159005241",
       "numnota": "",
       "data": "09/08/2026",
@@ -1457,7 +2545,7 @@ const PEDIDOS_DATA = {
       "supervisor": "EROCLES OLIVEIRA",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 3355.11,
@@ -1495,7 +2583,7 @@ const PEDIDOS_DATA = {
       "supervisor": "EROCLES OLIVEIRA",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 9729.83,
@@ -3933,6 +5021,76 @@ const PEDIDOS_DATA = {
     }
   ],
   "faturados": [
+    {
+      "numped": "370001409",
+      "numnota": "43476",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "FRANZ BENEVIDES - OFF TRADE",
+      "cliente": "TERRAZZO DEI NONNI LTDA",
+      "sistema": "CRC",
+      "estado": "ES",
+      "supervisor": "SUPERVISOR HIBRIDO ES",
+      "gerente": "EROCLES OLIVEIRA",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
+      "obs": "",
+      "total": 29.16,
+      "itens": [
+        {
+          "desc": "4 PACK RED BULL 250ML",
+          "industria": "RED BULL",
+          "qt": 1,
+          "val": 29.16,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "997",
+          "codfilial": "1",
+          "pvenda": 29.16
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "370001410",
+      "numnota": "43477",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "FRANZ BENEVIDES - OFF TRADE",
+      "cliente": "CHURRASCARIA E RESTAURANTE NOVA GAUCHAO LTDA",
+      "sistema": "CRC",
+      "estado": "ES",
+      "supervisor": "SUPERVISOR HIBRIDO ES",
+      "gerente": "EROCLES OLIVEIRA",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
+      "obs": "",
+      "total": 29.16,
+      "itens": [
+        {
+          "desc": "4 PACK RED BULL 250ML",
+          "industria": "RED BULL",
+          "qt": 1,
+          "val": 29.16,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "997",
+          "codfilial": "1",
+          "pvenda": 29.16
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
     {
       "numped": "159005235",
       "numnota": "419844",
@@ -6862,7 +8020,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000447",
@@ -6932,7 +8090,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "468000134",
@@ -6967,7 +8125,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ABERTO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "512000045",
@@ -7030,7 +8188,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "512000048",
@@ -7065,7 +8223,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "512000049",
@@ -7100,7 +8258,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "515000029",
@@ -7149,7 +8307,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ABERTO"
+      "status_log": "CARREGADO"
     },
     {
       "numped": "515000030",
@@ -7226,7 +8384,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "516000048",
@@ -7345,7 +8503,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "493000048",
@@ -7380,7 +8538,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "507000006",
@@ -7415,7 +8573,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "507000007",
@@ -7478,7 +8636,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "433000225",
@@ -7527,7 +8685,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ABERTO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "433000226",
@@ -7611,7 +8769,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000228",
@@ -7646,7 +8804,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ABERTO"
+      "status_log": "CARREGADO"
     },
     {
       "numped": "433000229",
@@ -7681,7 +8839,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "469000065",
@@ -7786,7 +8944,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "469000066",
@@ -7891,7 +9049,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "469000067",
@@ -7982,7 +9140,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "469000068",
@@ -8059,7 +9217,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "476000283",
@@ -8094,7 +9252,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003328",
@@ -8178,7 +9336,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ABERTO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003332",
@@ -8227,7 +9385,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ABERTO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003333",
@@ -8262,7 +9420,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "588003334",
@@ -8367,7 +9525,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003335",
@@ -8500,7 +9658,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "588003336",
@@ -8549,7 +9707,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003337",
@@ -8654,7 +9812,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "588003338",
@@ -8703,7 +9861,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003341",
@@ -8822,7 +9980,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "588003342",
@@ -8871,7 +10029,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003344",
@@ -8906,7 +10064,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003346",
@@ -8969,7 +10127,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003347",
@@ -9060,7 +10218,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000138",
@@ -15577,7 +16735,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ABERTO"
+      "status_log": "CARREGADO"
     },
     {
       "numped": "475000041",
@@ -15612,7 +16770,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000430",
@@ -15759,7 +16917,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "426000433",
@@ -16011,7 +17169,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "426000437",
@@ -16347,7 +17505,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ABERTO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "512000044",
@@ -16494,7 +17652,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "516000045",
@@ -16655,7 +17813,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "516000046",
@@ -16760,7 +17918,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "516000047",
@@ -16879,7 +18037,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "518000004",
@@ -17229,7 +18387,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "493000047",
@@ -17418,7 +18576,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "510000011",
@@ -17789,7 +18947,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "474000058",
@@ -18006,7 +19164,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000280",
@@ -18139,7 +19297,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000281",
@@ -18293,7 +19451,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000084",
@@ -18524,7 +19682,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ABERTO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003322",
@@ -25810,7 +26968,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "460000166",
@@ -25845,7 +27003,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "460000167",
@@ -25880,7 +27038,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "460000168",
@@ -25915,7 +27073,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "460000169",
@@ -25964,7 +27122,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "460000170",
@@ -25999,7 +27157,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "460000171",
@@ -26062,7 +27220,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "460000172",
@@ -26097,7 +27255,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "460000173",
@@ -26174,7 +27332,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "460000174",
@@ -26678,7 +27836,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000429",
@@ -26783,7 +27941,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ABERTO"
+      "status_log": "CARREGADO"
     },
     {
       "numped": "466000065",
@@ -26818,7 +27976,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "468000130",
@@ -27021,7 +28179,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "513000004",
@@ -27084,7 +28242,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "513000005",
@@ -27336,7 +28494,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ABERTO"
+      "status_log": "CARREGADO"
     },
     {
       "numped": "516000037",
@@ -27385,7 +28543,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "516000038",
@@ -27434,7 +28592,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "516000039",
@@ -27525,7 +28683,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "516000041",
@@ -27616,7 +28774,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "516000042",
@@ -27721,7 +28879,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "516000043",
@@ -27798,7 +28956,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "518000002",
@@ -28246,7 +29404,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "471000052",
@@ -28379,7 +29537,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "472000063",
@@ -28414,7 +29572,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "472000064",
@@ -28449,7 +29607,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "472000065",
@@ -28498,7 +29656,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "461000175",
@@ -28771,7 +29929,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000277",
@@ -28806,7 +29964,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000081",
@@ -29009,7 +30167,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003314",
@@ -29247,7 +30405,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003318",
@@ -29324,7 +30482,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003319",
@@ -35289,7 +36447,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "426000426",
@@ -36353,7 +37511,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ABERTO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "515000022",
@@ -36556,7 +37714,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "516000036",
@@ -36675,7 +37833,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "518000001",
@@ -37480,7 +38638,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "473000015",
@@ -37599,7 +38757,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000178",
@@ -38096,7 +39254,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000269",
@@ -38131,7 +39289,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "476000270",
@@ -38166,7 +39324,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000271",
@@ -38215,7 +39373,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000272",
@@ -38278,7 +39436,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000273",
@@ -38355,7 +39513,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000274",
@@ -38404,7 +39562,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000275",
@@ -38439,7 +39597,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "477000079",
@@ -38782,7 +39940,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003307",
@@ -38908,7 +40066,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "588003309",
@@ -38943,7 +40101,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003310",
@@ -45674,7 +46832,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "491000020",
@@ -45744,7 +46902,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "510000005",
@@ -45849,7 +47007,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "472000061",
@@ -46248,7 +47406,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "476000267",
@@ -46283,7 +47441,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003292",
