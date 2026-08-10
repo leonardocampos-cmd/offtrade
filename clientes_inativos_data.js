@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "10/08/2026 15:02",
+  "atualizado_em": "10/08/2026 15:19",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -1963,15 +1963,6 @@ const INATIVOS_DATA = {
           "media": 493.0
         },
         {
-          "codcli": "95070",
-          "cliente": "DBPAIVA COMERCIO VAREJISTA LTDA",
-          "bairro": "XAVANTES",
-          "cidade": "BELFORD ROXO",
-          "dtultcomp": "22/05/2026",
-          "dias": 80,
-          "media": 131.37
-        },
-        {
           "codcli": "95072",
           "cliente": "MERCEARIA L F NOGUEIRA DO PARQUE SUECIA LTDA",
           "bairro": "SÃO JOSÉ",
@@ -1979,6 +1970,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "22/05/2026",
           "dias": 80,
           "media": 65.28
+        },
+        {
+          "codcli": "95070",
+          "cliente": "DBPAIVA COMERCIO VAREJISTA LTDA",
+          "bairro": "XAVANTES",
+          "cidade": "BELFORD ROXO",
+          "dtultcomp": "22/05/2026",
+          "dias": 80,
+          "media": 131.37
         },
         {
           "codcli": "91752",
@@ -2035,15 +2035,6 @@ const INATIVOS_DATA = {
           "media": 181.82
         },
         {
-          "codcli": "91468",
-          "cliente": "60.195.106 ARMANDO VAZ DA SILVA FILHO",
-          "bairro": "GRANDE RIO",
-          "cidade": "SAO JOAO DE MER",
-          "dtultcomp": "22/06/2026",
-          "dias": 49,
-          "media": 199.75
-        },
-        {
           "codcli": "91536",
           "cliente": "MERCEARIA E BAZAR DA FAMILIA LTDA",
           "bairro": "EDEN",
@@ -2051,6 +2042,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "22/06/2026",
           "dias": 49,
           "media": 170.27
+        },
+        {
+          "codcli": "91468",
+          "cliente": "60.195.106 ARMANDO VAZ DA SILVA FILHO",
+          "bairro": "GRANDE RIO",
+          "cidade": "SAO JOAO DE MER",
+          "dtultcomp": "22/06/2026",
+          "dias": 49,
+          "media": 199.75
         },
         {
           "codcli": "94336",
@@ -2062,6 +2062,15 @@ const INATIVOS_DATA = {
           "media": 111.2
         },
         {
+          "codcli": "94794",
+          "cliente": "M T FERREIRA DA SILVA",
+          "bairro": "COSMORAMA",
+          "cidade": "MESQUITA",
+          "dtultcomp": "24/06/2026",
+          "dias": 47,
+          "media": 196.6
+        },
+        {
           "codcli": "95491",
           "cliente": "L H REIS MERCADO LTDA",
           "bairro": "CHATUBA",
@@ -2071,13 +2080,13 @@ const INATIVOS_DATA = {
           "media": 0.0
         },
         {
-          "codcli": "94794",
-          "cliente": "M T FERREIRA DA SILVA",
-          "bairro": "COSMORAMA",
-          "cidade": "MESQUITA",
-          "dtultcomp": "24/06/2026",
-          "dias": 47,
-          "media": 196.6
+          "codcli": "60352",
+          "cliente": "MERCEARIA PEROLA DO SAO JOSE LTDA",
+          "bairro": "PARQUE SAO JOSE",
+          "cidade": "BELFORD ROXO",
+          "dtultcomp": "25/06/2026",
+          "dias": 46,
+          "media": 195.84
         },
         {
           "codcli": "94402",
@@ -2098,15 +2107,6 @@ const INATIVOS_DATA = {
           "media": 293.35
         },
         {
-          "codcli": "60352",
-          "cliente": "MERCEARIA PEROLA DO SAO JOSE LTDA",
-          "bairro": "PARQUE SAO JOSE",
-          "cidade": "BELFORD ROXO",
-          "dtultcomp": "25/06/2026",
-          "dias": 46,
-          "media": 195.84
-        },
-        {
           "codcli": "81057",
           "cliente": "MANDARIM CEREAIS E MERCEARIA LTDA",
           "bairro": "ENGENHEIRO BELFORD",
@@ -2114,15 +2114,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "26/06/2026",
           "dias": 45,
           "media": 1261.5
-        },
-        {
-          "codcli": "91428",
-          "cliente": "36.256.387 VALERIA NASCIMENTO DE AVELLAR",
-          "bairro": "CENTRO",
-          "cidade": "SAO JOAO DE MER",
-          "dtultcomp": "30/06/2026",
-          "dias": 41,
-          "media": 0.0
         },
         {
           "codcli": "91848",
@@ -2134,13 +2125,22 @@ const INATIVOS_DATA = {
           "media": 0.0
         },
         {
-          "codcli": "94869",
-          "cliente": "63.544.348 ALEXANDRE PEREIRA MARTINS",
-          "bairro": "BOM PASTOR",
-          "cidade": "BELFORD ROXO",
+          "codcli": "91428",
+          "cliente": "36.256.387 VALERIA NASCIMENTO DE AVELLAR",
+          "bairro": "CENTRO",
+          "cidade": "SAO JOAO DE MER",
+          "dtultcomp": "30/06/2026",
+          "dias": 41,
+          "media": 0.0
+        },
+        {
+          "codcli": "93889",
+          "cliente": "NOVO LATICINIO LTDA",
+          "bairro": "COELHO DA ROCHA",
+          "cidade": "SAO JOAO DE MER",
           "dtultcomp": "01/07/2026",
           "dias": 40,
-          "media": 202.86
+          "media": 1010.96
         },
         {
           "codcli": "91545",
@@ -2152,13 +2152,13 @@ const INATIVOS_DATA = {
           "media": 402.5
         },
         {
-          "codcli": "93889",
-          "cliente": "NOVO LATICINIO LTDA",
-          "bairro": "COELHO DA ROCHA",
-          "cidade": "SAO JOAO DE MER",
+          "codcli": "94869",
+          "cliente": "63.544.348 ALEXANDRE PEREIRA MARTINS",
+          "bairro": "BOM PASTOR",
+          "cidade": "BELFORD ROXO",
           "dtultcomp": "01/07/2026",
           "dias": 40,
-          "media": 1010.96
+          "media": 202.86
         },
         {
           "codcli": "91399",
@@ -2179,13 +2179,13 @@ const INATIVOS_DATA = {
           "media": 783.6
         },
         {
-          "codcli": "91508",
-          "cliente": "MN GAZZOLI MERCEARIA LTDA",
+          "codcli": "91492",
+          "cliente": "MERCEARIA SERNOR DE ANCHIETA LTDA",
           "bairro": "ANCHIETA",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "06/07/2026",
           "dias": 35,
-          "media": 605.46
+          "media": 1688.0
         },
         {
           "codcli": "82775",
@@ -2195,15 +2195,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "06/07/2026",
           "dias": 35,
           "media": 194.87
-        },
-        {
-          "codcli": "91492",
-          "cliente": "MERCEARIA SERNOR DE ANCHIETA LTDA",
-          "bairro": "ANCHIETA",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "06/07/2026",
-          "dias": 35,
-          "media": 1688.0
         },
         {
           "codcli": "95071",
@@ -6945,13 +6936,13 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [
         {
-          "codcli": "84597",
-          "cliente": "MAIS PAES PANIFICADORA LTDA",
-          "bairro": "CASTELANDIA",
+          "codcli": "84325",
+          "cliente": "ACADEMIA MEGA FITNESS LTDA",
+          "bairro": "VILA NOVA DE COLARES",
           "cidade": "SERRA",
           "dtultcomp": "12/05/2026",
           "dias": 90,
-          "media": 104.93
+          "media": 56.55
         },
         {
           "codcli": "84887",
@@ -6963,13 +6954,13 @@ const INATIVOS_DATA = {
           "media": 147.33
         },
         {
-          "codcli": "84325",
-          "cliente": "ACADEMIA MEGA FITNESS LTDA",
-          "bairro": "VILA NOVA DE COLARES",
+          "codcli": "84597",
+          "cliente": "MAIS PAES PANIFICADORA LTDA",
+          "bairro": "CASTELANDIA",
           "cidade": "SERRA",
           "dtultcomp": "12/05/2026",
           "dias": 90,
-          "media": 56.55
+          "media": 104.93
         },
         {
           "codcli": "84784",
@@ -6990,15 +6981,6 @@ const INATIVOS_DATA = {
           "media": 248.5
         },
         {
-          "codcli": "90537",
-          "cliente": "JIANWU QUI",
-          "bairro": "PARQUE RESIDENCIAL LARANJEIRAS",
-          "cidade": "SERRA",
-          "dtultcomp": "14/05/2026",
-          "dias": 88,
-          "media": 146.73
-        },
-        {
           "codcli": "84964",
           "cliente": "SUPERMARKET KIBARATO LIMITADA",
           "bairro": "PARQUE RESIDENCIAL LARANJEIRAS",
@@ -7006,6 +6988,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "14/05/2026",
           "dias": 88,
           "media": 136.79
+        },
+        {
+          "codcli": "90537",
+          "cliente": "JIANWU QUI",
+          "bairro": "PARQUE RESIDENCIAL LARANJEIRAS",
+          "cidade": "SERRA",
+          "dtultcomp": "14/05/2026",
+          "dias": 88,
+          "media": 146.73
         },
         {
           "codcli": "70787",
@@ -7098,15 +7089,6 @@ const INATIVOS_DATA = {
           "media": 0.0
         },
         {
-          "codcli": "80285",
-          "cliente": "MAYCON MENEGARDO CARES 11877086746",
-          "bairro": "SAO FRANCISCO",
-          "cidade": "SERRA",
-          "dtultcomp": "27/05/2026",
-          "dias": 75,
-          "media": 0.0
-        },
-        {
           "codcli": "89991",
           "cliente": "JAMILI DOS SANTOS MENEZES",
           "bairro": "VILA NOVA DE COLARES",
@@ -7116,18 +7098,27 @@ const INATIVOS_DATA = {
           "media": 65.52
         },
         {
-          "codcli": "94316",
-          "cliente": "ELOISA BORGES TRASPARDINI",
-          "bairro": "RESIDENCIAL JACARAIPE",
+          "codcli": "80285",
+          "cliente": "MAYCON MENEGARDO CARES 11877086746",
+          "bairro": "SAO FRANCISCO",
           "cidade": "SERRA",
-          "dtultcomp": "01/07/2026",
-          "dias": 40,
+          "dtultcomp": "27/05/2026",
+          "dias": 75,
           "media": 0.0
         },
         {
           "codcli": "94317",
           "cliente": "GUILHERME LEANDRO DE OLIVEIRA",
           "bairro": "JARDIM LIMOEIRO",
+          "cidade": "SERRA",
+          "dtultcomp": "01/07/2026",
+          "dias": 40,
+          "media": 0.0
+        },
+        {
+          "codcli": "94316",
+          "cliente": "ELOISA BORGES TRASPARDINI",
+          "bairro": "RESIDENCIAL JACARAIPE",
           "cidade": "SERRA",
           "dtultcomp": "01/07/2026",
           "dias": 40,
@@ -7160,6 +7151,15 @@ const INATIVOS_DATA = {
           "media": 378.73
         },
         {
+          "codcli": "82219",
+          "cliente": "M&N COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
+          "bairro": "BENFICA",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "29/05/2026",
+          "dias": 73,
+          "media": 2223.72
+        },
+        {
           "codcli": "95076",
           "cliente": "JOSE MARCELO LORES CARDOSO 00854168788",
           "bairro": "VILA KOSMOS",
@@ -7178,22 +7178,13 @@ const INATIVOS_DATA = {
           "media": 1645.0
         },
         {
-          "codcli": "82219",
-          "cliente": "M&N COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
-          "bairro": "BENFICA",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "29/05/2026",
-          "dias": 73,
-          "media": 2223.72
-        },
-        {
-          "codcli": "16159",
-          "cliente": "PORTAL RIO SUL ALIMENTOS E BEBIDAS EIRELLI",
-          "bairro": "PENHA CIRCULAR",
+          "codcli": "73082",
+          "cliente": "PAX SUPERMERCADOS LTDA.",
+          "bairro": "BENTO RIBEIRO",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/06/2026",
           "dias": 41,
-          "media": 529.52
+          "media": 7267.4
         },
         {
           "codcli": "3755",
@@ -7205,13 +7196,13 @@ const INATIVOS_DATA = {
           "media": 6794.4
         },
         {
-          "codcli": "73082",
-          "cliente": "PAX SUPERMERCADOS LTDA.",
-          "bairro": "BENTO RIBEIRO",
+          "codcli": "16159",
+          "cliente": "PORTAL RIO SUL ALIMENTOS E BEBIDAS EIRELLI",
+          "bairro": "PENHA CIRCULAR",
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/06/2026",
           "dias": 41,
-          "media": 7267.4
+          "media": 529.52
         }
       ],
       "novos": [
