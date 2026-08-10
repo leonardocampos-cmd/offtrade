@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "10/08/2026 14:30",
+  "atualizado_em": "10/08/2026 14:48",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -379,7 +379,7 @@ const COMISSAO_DATA = {
       ],
       "ating_acumulado_total": 0.151617,
       "pct_premio": 0.00227425,
-      "liq_rigarr": 16231.58,
+      "liq_rigarr": 16592.94,
       "fat_castas": 0.0,
       "teto_comissao": 2000.0,
       "com_rigarr": 303.23,
@@ -887,12 +887,12 @@ const COMISSAO_DATA = {
       ],
       "ating_acumulado_total": 0.388906,
       "pct_premio": 0.00583359,
-      "liq_rigarr": 9723.52,
+      "liq_rigarr": 9851.13,
       "fat_castas": 3108.16,
       "teto_comissao": null,
-      "com_rigarr": 56.72,
+      "com_rigarr": 57.47,
       "com_castas": 18.13,
-      "comissao_estimada": 74.85
+      "comissao_estimada": 75.6
     },
     {
       "nome": "DIOGO RAPOSO - OFF TRADE",
