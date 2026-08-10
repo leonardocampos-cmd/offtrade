@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "10/08/2026 16:08",
+  "atualizado_em": "10/08/2026 16:29",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -1093,6 +1093,20 @@ const NAO_POS_MG_DATA = {
             "fantasia": "TATUZINHO",
             "qt": 4,
             "valor": 95.76
+          }
+        ]
+      },
+      {
+        "codcli": "36737",
+        "cliente": "RECANTO INDUSTRIA E COMERCIO LTDA",
+        "bairro": "LOURDES",
+        "dtultcomp": "26/03/2026",
+        "produtos": [
+          {
+            "produto": "XAROPE 1883 DE LIMÃO SICILIANO 1LT",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 68.9
           }
         ]
       },
