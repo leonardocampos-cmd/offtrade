@@ -9591,5 +9591,81 @@
         "tipo_segmento": "OFF TRADE"
       }
     ]
+  },
+  "19fdd115c4884e18": {
+    "subject": "Re: PEDIDO MERCADO CORREO",
+    "data_email": "2026-08-07",
+    "blocos": []
+  },
+  "19fdd0e4c001473f": {
+    "subject": "PEDIDO MERCADO CORREO",
+    "data_email": "2026-08-07",
+    "blocos": []
+  },
+  "19fdcad42084ef07": {
+    "subject": "PEDIDO PÃO COM LETRAS - CLIENTE 89197",
+    "data_email": "2026-08-07",
+    "blocos": []
+  },
+  "19fdcaa80900c725": {
+    "subject": "PEDIDO - PÃO COM LETRAS",
+    "data_email": "2026-08-07",
+    "blocos": []
+  },
+  "19fdbe784cc15bdd": {
+    "subject": "Fwd: Pedido do cliente 89197 Pão com Letras",
+    "data_email": "2026-08-07",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "2320",
+            "descricao": "BEEFEATER PINK 700ML",
+            "qt": 18,
+            "preco": 69.9,
+            "total": 1258.2
+          },
+          {
+            "cod_prod": "5381",
+            "descricao": "WHISKY AME BUFFALO TRACE +1 COPO",
+            "qt": 1,
+            "preco": 139.0,
+            "total": 139.0
+          },
+          {
+            "cod_prod": "3781",
+            "descricao": "LICOR IT VILLA MASSA LIMONCELLO 700 ML",
+            "qt": 2,
+            "preco": 139.92,
+            "total": 279.84
+          },
+          {
+            "cod_prod": "417",
+            "descricao": "TEQUILA J CUERVO SILVER 750ML",
+            "qt": 3,
+            "preco": 99.9,
+            "total": 299.7
+          },
+          {
+            "cod_prod": "3837",
+            "descricao": "VINHO ARCAIA PINOT GRIGIO 375ML",
+            "qt": 12,
+            "preco": 30.9,
+            "total": 370.8
+          }
+        ],
+        "cod_cliente": "89197",
+        "razao_social": "PAO COM LETRAS PANIFICADORA LTDA.",
+        "fantasia": "SUPERPAO - PAISSANDU",
+        "cnpj": "05.951.912/0001-62",
+        "endereco": "PRAÇA MARCILIO DIAS, PAISSANDU - NOVA FRIBURGO",
+        "praca": "PAISSANDU",
+        "forma_pg": "Boleto",
+        "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ]
   }
 }
