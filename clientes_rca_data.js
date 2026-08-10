@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "10/08/2026 10:51",
-  "total": 22366,
+  "atualizado_em": "10/08/2026 12:07",
+  "total": 22368,
   "clientes": [
     {
       "codcli": "38586",
@@ -91328,6 +91328,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "50656",
+      "razao": "CARVALHO RIBEIRO & CIA LTDA",
+      "fantasia": "JARDIM DAS FLORES MERCADO",
+      "bairro": "CENTRO",
+      "cidade": "SANTA BRANCA",
+      "cnpj": "37.665.123/0001-51",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "463",
+      "nome_usur1": "ROBERTO DOS SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -186974,8 +186990,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "PADARIA",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
+      "codusur1": "344",
+      "nome_usur1": "TIAGO ANDRADE - OFF TRADE",
       "codusur2": "351",
       "nome_usur2": "MARIANA LAGES"
     },
@@ -256654,8 +256670,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "439",
+      "nome_usur1": "MATEUS CARDOSO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -321280,6 +321296,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "24789",
+      "razao": "SSI BRASIL COMERCIAL LTDA",
+      "fantasia": "SSI BRASIL",
+      "bairro": "BELA VISTA",
+      "cidade": "SAO PAULO",
+      "cnpj": "37.837.188/0001-37",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "512",
+      "nome_usur1": "WILLIAM GONCALVES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
