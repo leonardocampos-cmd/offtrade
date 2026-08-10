@@ -1,5 +1,5 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "10/08/2026 14:26",
+  "atualizado_em": "10/08/2026 14:44",
   "periodo_dias": 90,
   "fontes_indisponiveis": [],
   "pedidos_feitos": [
@@ -1118,6 +1118,100 @@ const PEDIDOS_DATA = {
       "motivo_preco_tabela": 172.56
     },
     {
+      "numped": "153001363",
+      "numnota": "",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "ANGELO NEVES SUZART - OFF TRADE",
+      "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :7095",
+      "obs": "entregar no dia 11/08 com pagamento de descarga no valor de R$60,00 por pal",
+      "total": 2511.36,
+      "itens": [
+        {
+          "desc": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
+          "industria": "FANTE",
+          "qt": 24,
+          "val": 429.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 24.0,
+          "cortado": false,
+          "codprod": "7095",
+          "codfilial": "2",
+          "pvenda": 17.9
+        },
+        {
+          "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "industria": "FANTE",
+          "qt": 96,
+          "val": 1142.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 96.0,
+          "cortado": false,
+          "codprod": "7081",
+          "codfilial": "2",
+          "pvenda": 11.9
+        },
+        {
+          "desc": "RC ATUM RALADO OLEO 24X140G",
+          "industria": "ROBINSON CRUSOE",
+          "qt": 2,
+          "val": 259.68,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "5583",
+          "codfilial": "2",
+          "pvenda": 129.84
+        },
+        {
+          "desc": "RC ATUM SOLIDO OLEO 24X170G",
+          "industria": "ROBINSON CRUSOE",
+          "qt": 2,
+          "val": 339.84,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "5586",
+          "codfilial": "2",
+          "pvenda": 169.92
+        },
+        {
+          "desc": "RC ATUM PEDACOS NATURAL 24X140G",
+          "industria": "ROBINSON CRUSOE",
+          "qt": 2,
+          "val": 339.84,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "5762",
+          "codfilial": "2",
+          "pvenda": 169.92
+        }
+      ],
+      "tem_corte": false,
+      "motivo_codprod": "7095",
+      "motivo_produto": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
+      "motivo_preco_digitado": 17.9,
+      "motivo_preco_tabela": 23.93
+    },
+    {
       "numped": "439000326",
       "numnota": "",
       "data": "10/08/2026",
@@ -1129,7 +1223,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :5583",
       "obs": "Data entrega: 13/08/26",
       "total": 153.36,
@@ -1219,7 +1313,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :5586",
       "obs": "Data entrega: 13/08/26",
       "total": 727.08,
@@ -1299,7 +1393,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :3648",
       "obs": "",
       "total": 994.8,
@@ -3307,7 +3401,7 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :119",
       "obs": "",
       "total": 675.9,
@@ -3362,142 +3456,56 @@ const PEDIDOS_DATA = {
       "motivo_preco_tabela": 149.9
     },
     {
-      "numped": "344000609",
+      "numped": "354000689",
       "numnota": "",
       "data": "10/08/2026",
       "data_ord": "2026-08-10",
-      "nome": "TIAGO ANDRADE - OFF TRADE",
-      "cliente": "8ZH7 RESTAURANTE LTDA",
+      "nome": "MATHEUS DE SOUZA - OFF TRADE",
+      "cliente": "PARANAIBA VALE DAS ORQUIDEAS ALIMENTOS LTDA",
       "sistema": "MGON",
       "estado": "MG",
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
-      "posicao": "Bloqueado (alçada)",
-      "motivo": "",
-      "obs": "ENTREGAR JUNTO AO PEDIDO",
-      "total": 24.6,
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :16",
+      "obs": "",
+      "total": 309.66,
       "itens": [
         {
-          "desc": "AZEITE DE OLIVA EV ESSENZA 500ML",
-          "industria": "CASTAS IMPORTADORA",
-          "qt": 1,
-          "val": 24.6,
+          "desc": "VODKA SMIRNOFF RED 998 ML",
+          "industria": "DIAGEO",
+          "qt": 6,
+          "val": 167.4,
           "qtfalta": 0.0,
           "qtcortada": 0.0,
           "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
+          "qt_original": 6.0,
           "cortado": false,
-          "codprod": "4383",
+          "codprod": "16",
           "codfilial": "1",
-          "pvenda": 24.6
+          "pvenda": 27.9
+        },
+        {
+          "desc": "VODKA ORLOFF 1L - DEST",
+          "industria": "BELA ATACADISTA LTDA",
+          "qt": 6,
+          "val": 142.26,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "3551",
+          "codfilial": "1",
+          "pvenda": 23.71
         }
       ],
-      "tem_corte": false
-    },
-    {
-      "numped": "327009665",
-      "numnota": "",
-      "data": "10/08/2026",
-      "data_ord": "2026-08-10",
-      "nome": "JOÃO SANTOS - OFF TRADE",
-      "cliente": "ICARO FONSECA DOS SANTOS",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "posicao": "Bloqueado (alçada)",
-      "motivo": "",
-      "obs": "cliente recebe apos 16:00 horas",
-      "total": 351.0,
-      "itens": [
-        {
-          "desc": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
-          "industria": "MONIN",
-          "qt": 2,
-          "val": 99.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "1037",
-          "codfilial": "1",
-          "pvenda": 49.9
-        },
-        {
-          "desc": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
-          "industria": "MONIN",
-          "qt": 1,
-          "val": 49.9,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "1039",
-          "codfilial": "1",
-          "pvenda": 49.9
-        },
-        {
-          "desc": "YVY DESTILADO GIN AR LT 710ML",
-          "industria": "YVY",
-          "qt": 1,
-          "val": 39.9,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "3764",
-          "codfilial": "1",
-          "pvenda": 39.9
-        },
-        {
-          "desc": "ST PIERRE ZERO PINK LEMON  310 ML",
-          "industria": "TATUZINHO",
-          "qt": 2,
-          "val": 53.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "4040",
-          "codfilial": "1",
-          "pvenda": 26.9
-        },
-        {
-          "desc": "ST PIERRE ZERO TROPICAL  310 ML",
-          "industria": "TATUZINHO",
-          "qt": 2,
-          "val": 53.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "4041",
-          "codfilial": "1",
-          "pvenda": 26.9
-        },
-        {
-          "desc": "ST PIERRE PALOMA 270MLX6",
-          "industria": "TATUZINHO",
-          "qt": 2,
-          "val": 53.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "4093",
-          "codfilial": "1",
-          "pvenda": 26.9
-        }
-      ],
-      "tem_corte": false
+      "tem_corte": false,
+      "motivo_codprod": "16",
+      "motivo_produto": "VODKA SMIRNOFF RED 998 ML",
+      "motivo_preco_digitado": 27.9,
+      "motivo_preco_tabela": 27.9
     },
     {
       "numped": "344000610",
@@ -3511,7 +3519,7 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :997",
       "obs": "",
       "total": 682.16,
@@ -3806,72 +3814,6 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
-      "numped": "327009664",
-      "numnota": "",
-      "data": "10/08/2026",
-      "data_ord": "2026-08-10",
-      "nome": "JOÃO SANTOS - OFF TRADE",
-      "cliente": "RAFAEL ARAUJO GORI RESTAURANTE",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "posicao": "Bloqueado (alçada)",
-      "motivo": "Item com desconto acima do permitido :3",
-      "obs": "Gori grill.",
-      "total": 561.36,
-      "itens": [
-        {
-          "desc": "RED BULL 250ML CAIXA C/24 UNID",
-          "industria": "RED BULL",
-          "qt": 1,
-          "val": 191.76,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "3",
-          "codfilial": "1",
-          "pvenda": 191.76
-        },
-        {
-          "desc": "VODKA ABSOLUT - 1 LITRO",
-          "industria": "PERNOD",
-          "qt": 3,
-          "val": 239.7,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 3.0,
-          "cortado": false,
-          "codprod": "129",
-          "codfilial": "1",
-          "pvenda": 79.9
-        },
-        {
-          "desc": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "industria": "PERNOD",
-          "qt": 1,
-          "val": 129.9,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "1767",
-          "codfilial": "1",
-          "pvenda": 129.9
-        }
-      ],
-      "tem_corte": false,
-      "motivo_codprod": "3",
-      "motivo_produto": "RED BULL 250ML CAIXA C/24 UNID",
-      "motivo_preco_digitado": 191.76,
-      "motivo_preco_tabela": 172.56
-    },
-    {
       "numped": "360000438",
       "numnota": "",
       "data": "10/08/2026",
@@ -4065,40 +4007,6 @@ const PEDIDOS_DATA = {
           "codprod": "4445",
           "codfilial": "1",
           "pvenda": 24.5
-        }
-      ],
-      "tem_corte": false
-    },
-    {
-      "numped": "344000608",
-      "numnota": "",
-      "data": "10/08/2026",
-      "data_ord": "2026-08-10",
-      "nome": "TIAGO ANDRADE - OFF TRADE",
-      "cliente": "DUARTE E FRAGA COMERCIO DE ALIMENTOS LTDA",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "posicao": "Bloqueado (alçada)",
-      "motivo": "",
-      "obs": "ENVIAR JUNTO AO PEDIDO",
-      "total": 24.6,
-      "itens": [
-        {
-          "desc": "AZEITE DE OLIVA EV ESSENZA 500ML",
-          "industria": "CASTAS IMPORTADORA",
-          "qt": 1,
-          "val": 24.6,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "4383",
-          "codfilial": "1",
-          "pvenda": 24.6
         }
       ],
       "tem_corte": false
@@ -6641,6 +6549,178 @@ const PEDIDOS_DATA = {
       "motivo_preco_tabela": 132.9
     },
     {
+      "numped": "327009664",
+      "numnota": "127836",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "JOÃO SANTOS - OFF TRADE",
+      "cliente": "RAFAEL ARAUJO GORI RESTAURANTE",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Item com desconto acima do permitido :3",
+      "obs": "Gori grill.",
+      "total": 561.36,
+      "itens": [
+        {
+          "desc": "RED BULL 250ML CAIXA C/24 UNID",
+          "industria": "RED BULL",
+          "qt": 1,
+          "val": 191.76,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "3",
+          "codfilial": "1",
+          "pvenda": 191.76
+        },
+        {
+          "desc": "VODKA ABSOLUT - 1 LITRO",
+          "industria": "PERNOD",
+          "qt": 3,
+          "val": 239.7,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "cortado": false,
+          "codprod": "129",
+          "codfilial": "1",
+          "pvenda": 79.9
+        },
+        {
+          "desc": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "industria": "PERNOD",
+          "qt": 1,
+          "val": 129.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "1767",
+          "codfilial": "1",
+          "pvenda": 129.9
+        }
+      ],
+      "tem_corte": false,
+      "status_log": "",
+      "motivo_codprod": "3",
+      "motivo_produto": "RED BULL 250ML CAIXA C/24 UNID",
+      "motivo_preco_digitado": 191.76,
+      "motivo_preco_tabela": 172.56
+    },
+    {
+      "numped": "327009665",
+      "numnota": "127837",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "JOÃO SANTOS - OFF TRADE",
+      "cliente": "ICARO FONSECA DOS SANTOS",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
+      "obs": "cliente recebe apos 16:00 horas",
+      "total": 351.0,
+      "itens": [
+        {
+          "desc": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
+          "industria": "MONIN",
+          "qt": 2,
+          "val": 99.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "1037",
+          "codfilial": "1",
+          "pvenda": 49.9
+        },
+        {
+          "desc": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
+          "industria": "MONIN",
+          "qt": 1,
+          "val": 49.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "1039",
+          "codfilial": "1",
+          "pvenda": 49.9
+        },
+        {
+          "desc": "YVY DESTILADO GIN AR LT 710ML",
+          "industria": "YVY",
+          "qt": 1,
+          "val": 39.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "3764",
+          "codfilial": "1",
+          "pvenda": 39.9
+        },
+        {
+          "desc": "ST PIERRE ZERO PINK LEMON  310 ML",
+          "industria": "TATUZINHO",
+          "qt": 2,
+          "val": 53.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "4040",
+          "codfilial": "1",
+          "pvenda": 26.9
+        },
+        {
+          "desc": "ST PIERRE ZERO TROPICAL  310 ML",
+          "industria": "TATUZINHO",
+          "qt": 2,
+          "val": 53.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "4041",
+          "codfilial": "1",
+          "pvenda": 26.9
+        },
+        {
+          "desc": "ST PIERRE PALOMA 270MLX6",
+          "industria": "TATUZINHO",
+          "qt": 2,
+          "val": 53.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "4093",
+          "codfilial": "1",
+          "pvenda": 26.9
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
       "numped": "344000607",
       "numnota": "127830",
       "data": "10/08/2026",
@@ -6698,6 +6778,76 @@ const PEDIDOS_DATA = {
           "codprod": "4396",
           "codfilial": "1",
           "pvenda": 175.44
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "344000608",
+      "numnota": "127841",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "TIAGO ANDRADE - OFF TRADE",
+      "cliente": "DUARTE E FRAGA COMERCIO DE ALIMENTOS LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
+      "obs": "ENVIAR JUNTO AO PEDIDO",
+      "total": 24.6,
+      "itens": [
+        {
+          "desc": "AZEITE DE OLIVA EV ESSENZA 500ML",
+          "industria": "CASTAS IMPORTADORA",
+          "qt": 1,
+          "val": 24.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "4383",
+          "codfilial": "1",
+          "pvenda": 24.6
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
+    },
+    {
+      "numped": "344000609",
+      "numnota": "127842",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "TIAGO ANDRADE - OFF TRADE",
+      "cliente": "8ZH7 RESTAURANTE LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "",
+      "obs": "ENTREGAR JUNTO AO PEDIDO",
+      "total": 24.6,
+      "itens": [
+        {
+          "desc": "AZEITE DE OLIVA EV ESSENZA 500ML",
+          "industria": "CASTAS IMPORTADORA",
+          "qt": 1,
+          "val": 24.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "4383",
+          "codfilial": "1",
+          "pvenda": 24.6
         }
       ],
       "tem_corte": false,
@@ -8645,87 +8795,6 @@ const PEDIDOS_DATA = {
       "motivo_preco_tabela": 172.56
     },
     {
-      "numped": "155004095",
-      "numnota": "419686",
-      "data": "07/08/2026",
-      "data_ord": "2026-08-07",
-      "nome": "RAPHAEL SANTOS - OFF TRADE",
-      "cliente": "32.338.524 DEIVISON LUCIANO DE OLIVEIRA GALVAO",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :463",
-      "obs": "",
-      "total": 552.86,
-      "itens": [
-        {
-          "desc": "GIN BEEFEATER PINK 700ML",
-          "industria": "PERNOD",
-          "qt": 3,
-          "val": 179.7,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 3.0,
-          "cortado": false,
-          "codprod": "2320",
-          "codfilial": "2",
-          "pvenda": 59.9
-        },
-        {
-          "desc": "WHISKY BALLANTINE S FINEST 1L",
-          "industria": "PERNOD",
-          "qt": 3,
-          "val": 164.7,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 3.0,
-          "cortado": false,
-          "codprod": "237",
-          "codfilial": "2",
-          "pvenda": 54.9
-        },
-        {
-          "desc": "4 PACK RED BULL SF MAÇA 4X250ML",
-          "industria": "RED BULL",
-          "qt": 1,
-          "val": 28.76,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "6654",
-          "codfilial": "2",
-          "pvenda": 28.76
-        },
-        {
-          "desc": "GIN BEEFEATER 750ML",
-          "industria": "PERNOD",
-          "qt": 3,
-          "val": 179.7,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 3.0,
-          "cortado": false,
-          "codprod": "463",
-          "codfilial": "2",
-          "pvenda": 59.9
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "",
-      "motivo_codprod": "463",
-      "motivo_produto": "GIN BEEFEATER 750ML",
-      "motivo_preco_digitado": 59.9,
-      "motivo_preco_tabela": 60.9
-    },
-    {
       "numped": "155004096",
       "numnota": "419699",
       "data": "07/08/2026",
@@ -8965,55 +9034,6 @@ const PEDIDOS_DATA = {
           "codprod": "4319",
           "codfilial": "2",
           "pvenda": 299.9
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "431001220",
-      "numnota": "419630",
-      "data": "07/08/2026",
-      "data_ord": "2026-08-07",
-      "nome": "ADEILSON GONÇALVEZ - OFF TRADE",
-      "cliente": "DR J - CONVENIENCIA LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 361.36,
-      "itens": [
-        {
-          "desc": "AMARULA C LIQUEUR 750 ML + 1 COPO",
-          "industria": "INTERFOOD",
-          "qt": 2,
-          "val": 221.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "7702",
-          "codfilial": "2",
-          "pvenda": 110.9
-        },
-        {
-          "desc": "VODKA SMIRNOFF 600 ML",
-          "industria": "DIAGEO",
-          "qt": 6,
-          "val": 139.56,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "cortado": false,
-          "codprod": "1779",
-          "codfilial": "2",
-          "pvenda": 23.26
         }
       ],
       "tem_corte": false,
@@ -9706,7 +9726,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000448",
@@ -10154,7 +10174,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "493000048",
@@ -10224,7 +10244,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "507000007",
@@ -10287,7 +10307,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "433000225",
@@ -19382,7 +19402,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "518000004",
@@ -19844,7 +19864,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "507000005",
@@ -19921,7 +19941,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "510000011",
@@ -28475,7 +28495,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "460000175",
@@ -28510,7 +28530,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "391000227",
@@ -38794,7 +38814,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "516000036",
@@ -38913,7 +38933,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "518000001",
@@ -41146,7 +41166,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "CARREGADO"
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "588003309",
@@ -170847,115 +170867,6 @@ const PEDIDOS_DATA = {
       "motivo_produto": "GIN ROCKS 1000ML",
       "motivo_preco_digitado": 25.49,
       "motivo_preco_tabela": 29.2
-    },
-    {
-      "numped": "156003549",
-      "numnota": "402088",
-      "data": "10/06/2026",
-      "data_ord": "2026-06-10",
-      "nome": "MARILENA TRAGEL - OFF TRADE",
-      "cliente": "OPEN MINI MERCADO LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :997",
-      "obs": "",
-      "total": 965.1,
-      "itens": [
-        {
-          "desc": "4 PACK RED BULL 250ML",
-          "industria": "RED BULL",
-          "qt": 3,
-          "val": 98.28,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 3.0,
-          "cortado": false,
-          "codprod": "997",
-          "codfilial": "2",
-          "pvenda": 32.76
-        },
-        {
-          "desc": "4 PACK RED BULL MELANCIA",
-          "industria": "RED BULL",
-          "qt": 2,
-          "val": 65.52,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "2841",
-          "codfilial": "2",
-          "pvenda": 32.76
-        },
-        {
-          "desc": "4 PACK RED BULL TROPICAL 4X250ML",
-          "industria": "RED BULL",
-          "qt": 3,
-          "val": 98.28,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 3.0,
-          "cortado": false,
-          "codprod": "2699",
-          "codfilial": "2",
-          "pvenda": 32.76
-        },
-        {
-          "desc": "4 PACK RED BULL ZERO",
-          "industria": "RED BULL",
-          "qt": 2,
-          "val": 65.52,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "cortado": false,
-          "codprod": "5384",
-          "codfilial": "2",
-          "pvenda": 32.76
-        },
-        {
-          "desc": "NOSSO CHOP RED DRAFT PET 6X1,5L",
-          "industria": "NOSSO CHOPE",
-          "qt": 3,
-          "val": 302.7,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 3.0,
-          "cortado": false,
-          "codprod": "7764",
-          "codfilial": "2",
-          "pvenda": 100.9
-        },
-        {
-          "desc": "VODCA SMIRNOFF RED 998 ML",
-          "industria": "DIAGEO",
-          "qt": 12,
-          "val": 334.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "cortado": false,
-          "codprod": "16",
-          "codfilial": "2",
-          "pvenda": 27.9
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "ENTREGUE",
-      "motivo_codprod": "997",
-      "motivo_produto": "4 PACK RED BULL 250ML",
-      "motivo_preco_digitado": 32.76,
-      "motivo_preco_tabela": 33.96
     },
     {
       "numped": "156003559",
