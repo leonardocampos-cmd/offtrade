@@ -1,25 +1,25 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "10/08/2026 15:10",
+  "atualizado_em": "10/08/2026 15:34",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 10,
   "dias_no_mes": 31,
   "dias_restantes": 21,
   "resumo": {
-    "fat": 3099391.42,
+    "fat": 3115016.05,
     "fat_ant": 2662409.84,
     "fat_ant_completo": 13925054.76,
-    "pos": 595,
+    "pos": 598,
     "pos_ant": 730,
     "pos_ant_completo": 1822
   },
   "total": {
     "meta": 12300000.0,
-    "fat": 3099391.42,
+    "fat": 3115016.05,
     "fat_ant": 2662409.84,
     "fat_ant_completo": 13925054.76,
-    "pct": 25.2,
-    "nec_dia": 438124.22
+    "pct": 25.3,
+    "nec_dia": 437380.19
   },
   "estados": [
     {
@@ -52,11 +52,11 @@ const METAS_GERAIS_DATA = {
       "estado": "ES",
       "label": "Espírito Santo",
       "meta": 1800000.0,
-      "fat": 220911.38,
+      "fat": 235177.95,
       "fat_ant": 107285.45,
-      "pos": 25,
-      "pct": 12.3,
-      "nec_dia": 75194.7,
+      "pos": 26,
+      "pct": 13.1,
+      "nec_dia": 74515.34,
       "fat_ant_completo": 736897.29,
       "pos_ant": 31,
       "pos_ant_completo": 91
@@ -65,11 +65,11 @@ const METAS_GERAIS_DATA = {
       "estado": "MG",
       "label": "Minas Gerais",
       "meta": 2100000.0,
-      "fat": 386959.46,
+      "fat": 388317.52,
       "fat_ant": 293030.44,
-      "pos": 79,
-      "pct": 18.4,
-      "nec_dia": 81573.36,
+      "pos": 81,
+      "pct": 18.5,
+      "nec_dia": 81508.69,
       "fat_ant_completo": 1911913.71,
       "pos_ant": 120,
       "pos_ant_completo": 266
@@ -89,13 +89,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "RED BULL",
-      "fat": 456049.54,
+      "fat": 456305.22,
       "fat_ant": 127719.7,
       "por_estado": {
         "RJ": 75439.98,
         "SP": 151165.44,
         "ES": 177058.6,
-        "MG": 52385.52
+        "MG": 52641.2
       }
     },
     {
@@ -143,6 +143,17 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
+      "fantasia": "TATUZINHO",
+      "fat": 74838.15,
+      "fat_ant": 67548.15,
+      "por_estado": {
+        "RJ": 52917.48,
+        "SP": 1354.5,
+        "ES": 18844.57,
+        "MG": 1721.6
+      }
+    },
+    {
       "fantasia": "CASTAS",
       "fat": 73679.22,
       "fat_ant": 45956.7,
@@ -155,24 +166,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "SEM FORNECEDOR",
-      "fat": 61751.52,
+      "fat": 61821.42,
       "fat_ant": 6327.81,
       "por_estado": {
         "RJ": 0.0,
         "SP": 247.4,
         "ES": 0.0,
-        "MG": 61504.12
-      }
-    },
-    {
-      "fantasia": "TATUZINHO",
-      "fat": 60571.58,
-      "fat_ant": 67548.15,
-      "por_estado": {
-        "RJ": 52917.48,
-        "SP": 1354.5,
-        "ES": 4578.0,
-        "MG": 1721.6
+        "MG": 61574.02
       }
     },
     {
@@ -330,6 +330,17 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
+      "fantasia": "HEINEKEN",
+      "fat": 8695.44,
+      "fat_ant": 17828.92,
+      "por_estado": {
+        "RJ": 0.0,
+        "SP": 0.0,
+        "ES": 0.0,
+        "MG": 8695.44
+      }
+    },
+    {
       "fantasia": "CASA PERINI",
       "fat": 8675.1,
       "fat_ant": 27598.2,
@@ -349,17 +360,6 @@ const METAS_GERAIS_DATA = {
         "SP": 0.0,
         "ES": 0.0,
         "MG": 8476.6
-      }
-    },
-    {
-      "fantasia": "HEINEKEN",
-      "fat": 7662.96,
-      "fat_ant": 17828.92,
-      "por_estado": {
-        "RJ": 0.0,
-        "SP": 0.0,
-        "ES": 0.0,
-        "MG": 7662.96
       }
     },
     {
