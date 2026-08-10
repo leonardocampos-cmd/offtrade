@@ -1,5 +1,5 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "10/08/2026 10:29",
+  "atualizado_em": "10/08/2026 10:44",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 10,
@@ -11,29 +11,29 @@ const METAS_GERAIS_DATA = {
     "fat_ant_completo": 13925054.76,
     "pos": 588,
     "pos_ant": 730,
-    "pos_ant_completo": 1823
+    "pos_ant_completo": 1822
   },
   "total": {
-    "meta": 13300000.0,
+    "meta": 12300000.0,
     "fat": 3079806.8,
     "fat_ant": 2662409.84,
     "fat_ant_completo": 13925054.76,
-    "pct": 23.2,
-    "nec_dia": 486675.87
+    "pct": 25.0,
+    "nec_dia": 439056.82
   },
   "estados": [
     {
       "estado": "RJ",
       "label": "Rio de Janeiro",
-      "meta": 3900000.0,
+      "meta": 2900000.0,
       "fat": 551770.38,
       "fat_ant": 573009.68,
       "pos": 195,
-      "pct": 14.1,
-      "nec_dia": 159439.51,
+      "pct": 19.0,
+      "nec_dia": 111820.46,
       "fat_ant_completo": 2745014.49,
       "pos_ant": 289,
-      "pos_ant_completo": 735
+      "pos_ant_completo": 734
     },
     {
       "estado": "SP",
