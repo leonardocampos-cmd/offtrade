@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "10/08/2026 14:47",
-  "total": 22370,
+  "atualizado_em": "10/08/2026 15:01",
+  "total": 22371,
   "clientes": [
     {
       "codcli": "38586",
@@ -30592,6 +30592,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "94128",
+      "razao": "64.225.512 WALLACE HENRIQUE DOS SANTOS",
+      "fantasia": "WALLACE HENRIQUE DOS SANTOS",
+      "bairro": "ARMAÇÃO",
+      "cidade": "ARMACAO DOS BUZ",
+      "cnpj": "64.225.512/0001-39",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "155",
+      "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -92144,6 +92160,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "391",
       "nome_usur1": "ANDRE SILVA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "33108",
+      "razao": "CASA DELAS COMERCIO E TURISMO LTDA",
+      "fantasia": "CASA DELAS",
+      "bairro": "CENTRO",
+      "cidade": "BAMBUI",
+      "cnpj": "02.085.128/0001-20",
+      "estado": "MG",
+      "ramo": "COMERCIO VAREJISTA (GERAL)",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "327",
+      "nome_usur1": "JOÃO SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -160670,8 +160702,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "CAFÉ/LANCHONETE",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
+      "codusur1": "327",
+      "nome_usur1": "JOÃO SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -351650,22 +351682,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "CAMILA ANTUNES",
       "codusur2": "331",
       "nome_usur2": "SAVIO NETO - OFF TRADE"
-    },
-    {
-      "codcli": "94128",
-      "razao": "WALLACE HENRIQUE DOS SANTOS",
-      "fantasia": "WALLACE HENRIQUE DOS SANTOS",
-      "bairro": "ARMAÇÃO",
-      "cidade": "ARMACAO DOS BUZ",
-      "cnpj": "64.225.512/0001-39",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "155",
-      "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "70859",
