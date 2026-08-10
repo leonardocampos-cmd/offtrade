@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "10/08/2026 17:10",
+  "atualizado_em": "10/08/2026 17:30",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -2785,14 +2785,14 @@ const CRUSOE_DATA = {
         {
           "rca": 153,
           "vendedor": "Angelo Neves Suzart",
-          "pedidos": 8,
+          "pedidos": 9,
           "positivacoes": 2,
-          "novos_skus": 15,
-          "faturamento": 12422.69,
+          "novos_skus": 16,
+          "faturamento": 13362.05,
           "pontos_positivacao": 10,
-          "pontos_novos_skus": 60,
-          "pontos_pedidos_valor": 12,
-          "pontos_total": 82,
+          "pontos_novos_skus": 64,
+          "pontos_pedidos_valor": 13,
+          "pontos_total": 87,
           "vendas": [
             {
               "numnota": "408274",
@@ -3101,6 +3101,43 @@ const CRUSOE_DATA = {
                       "pontos": 4
                     }
                   ]
+                }
+              ]
+            },
+            {
+              "numnota": "420040",
+              "data": "10/08/2026",
+              "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
+              "valor_pedido": 939.36,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$500-1000)",
+                  "pontos": 1
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC ATUM RALADO OLEO 24X140G",
+                  "qt": 2.0,
+                  "valor": 259.68,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM SOLIDO OLEO 24X170G",
+                  "qt": 2.0,
+                  "valor": 339.84,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+                  "qt": 2.0,
+                  "valor": 339.84,
+                  "pontuacoes": []
                 }
               ]
             }
