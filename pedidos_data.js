@@ -1,5 +1,5 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "10/08/2026 12:05",
+  "atualizado_em": "10/08/2026 12:27",
   "periodo_dias": 90,
   "fontes_indisponiveis": [],
   "pedidos_feitos": [
@@ -15,7 +15,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :129",
       "obs": "Data entrega: 13/08/26",
       "total": 858.82,
@@ -245,7 +245,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :997",
       "obs": "",
       "total": 359.52,
@@ -1668,6 +1668,144 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
+      "numped": "486000139",
+      "numnota": "",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "LEONARDO FLOREZI - OFF TRADE",
+      "cliente": "BRUNO STEVANATTO 43315533881",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 1159.8,
+      "itens": [
+        {
+          "desc": "LICOR COINTREAU 700 ML",
+          "industria": "INTERFOOD",
+          "qt": 9,
+          "val": 809.1,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 9.0,
+          "cortado": false,
+          "codprod": "272",
+          "codfilial": "1",
+          "pvenda": 89.9
+        },
+        {
+          "desc": "LICOR 43 DIEGO ZAMORA 700ML",
+          "industria": "AURORA",
+          "qt": 3,
+          "val": 350.7,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "cortado": false,
+          "codprod": "857",
+          "codfilial": "1",
+          "pvenda": 116.9
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "498000024",
+      "numnota": "",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "CELSO OLIVEIRA - OFF TRADE",
+      "cliente": "PAULO JOSE SALINA & CIA LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 431.77,
+      "itens": [
+        {
+          "desc": "RUM BACARDI SUPERIOR CARTA BLANCA 980ML",
+          "industria": "BACARDI",
+          "qt": 1,
+          "val": 34.42,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "34",
+          "codfilial": "1",
+          "pvenda": 34.42
+        },
+        {
+          "desc": "RUM BACARDI GOLD 980ML",
+          "industria": "BACARDI",
+          "qt": 1,
+          "val": 37.35,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "35",
+          "codfilial": "1",
+          "pvenda": 37.35
+        },
+        {
+          "desc": "MARTINI ROSATO 750 ML",
+          "industria": "BACARDI",
+          "qt": 1,
+          "val": 28.19,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "38",
+          "codfilial": "1",
+          "pvenda": 28.19
+        },
+        {
+          "desc": "CACHAÇA SAO FRANCISCO 970ML",
+          "industria": "PERNOD",
+          "qt": 12,
+          "val": 262.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "3668",
+          "codfilial": "1",
+          "pvenda": 21.9
+        },
+        {
+          "desc": "WHISKY PASSPORT HONEY 670ML",
+          "industria": "PERNOD",
+          "qt": 2,
+          "val": 69.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "4804",
+          "codfilial": "1",
+          "pvenda": 34.5
+        }
+      ],
+      "tem_corte": false
+    },
+    {
       "numped": "476000285",
       "numnota": "",
       "data": "10/08/2026",
@@ -2041,6 +2179,40 @@ const PEDIDOS_DATA = {
           "codprod": "4396",
           "codfilial": "1",
           "pvenda": 175.44
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "344000609",
+      "numnota": "",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "TIAGO ANDRADE - OFF TRADE",
+      "cliente": "8ZH7 RESTAURANTE LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "ENTREGAR JUNTO AO PEDIDO",
+      "total": 24.6,
+      "itens": [
+        {
+          "desc": "AZEITE DE OLIVA EV ESSENZA 500ML",
+          "industria": "CASTAS IMPORTADORA",
+          "qt": 1,
+          "val": 24.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "4383",
+          "codfilial": "1",
+          "pvenda": 24.6
         }
       ],
       "tem_corte": false
@@ -2443,6 +2615,40 @@ const PEDIDOS_DATA = {
           "codprod": "4445",
           "codfilial": "1",
           "pvenda": 24.5
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "344000608",
+      "numnota": "",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "TIAGO ANDRADE - OFF TRADE",
+      "cliente": "DUARTE E FRAGA COMERCIO DE ALIMENTOS LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "ENVIAR JUNTO AO PEDIDO",
+      "total": 24.6,
+      "itens": [
+        {
+          "desc": "AZEITE DE OLIVA EV ESSENZA 500ML",
+          "industria": "CASTAS IMPORTADORA",
+          "qt": 1,
+          "val": 24.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "4383",
+          "codfilial": "1",
+          "pvenda": 24.6
         }
       ],
       "tem_corte": false
