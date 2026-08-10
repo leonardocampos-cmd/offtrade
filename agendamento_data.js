@@ -719,6 +719,48 @@ const AGENDAMENTO_DATA = {
       "nome": "ANGELO NEVES SUZART - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "90486",
+          "cliente": "SUPERMERCADO RIO SUL DE SEROPEDICA LTDA",
+          "cnpj": "50.366.423/0001-06",
+          "filial": "SEROPEDICA",
+          "valor": 2117.52,
+          "nf": "7069",
+          "data_agendamento": "11/08/2026",
+          "data_ord": "2026-08-11",
+          "status": "FATURADO",
+          "obs": "Embarcar caixas originais e íntegras.",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "86195",
+          "cliente": "MERCADO RC DE MIGUEL PEREIRA",
+          "cnpj": "52.909.395/0001-43",
+          "filial": "MIGUEL PEREIRA",
+          "valor": 2179.8,
+          "nf": "7066",
+          "data_agendamento": "11/08/2026",
+          "data_ord": "2026-08-11",
+          "status": "FATURADO",
+          "obs": "Caixas e rótulos íntegros",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "90486",
+          "cliente": "SUPERMERCADO RIO SUL DE SEROPEDICA LTDA",
+          "cnpj": "50.366.423/0001-06",
+          "filial": "SEROPEDICA",
+          "valor": 1646.78,
+          "nf": "417778",
+          "data_agendamento": "11/08/2026",
+          "data_ord": "2026-08-11",
+          "status": "FATURADO",
+          "obs": "Embarcar caixas originais e íntegras.",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "91575",
           "cliente": "SUPERMERCADO VITORIA DA VILA LTDA",
           "cnpj": "26.175.533/0001-06",
@@ -737,54 +779,12 @@ const AGENDAMENTO_DATA = {
           "cliente": "SUPERMERCADO RIO SUL DE SEROPEDICA LTDA",
           "cnpj": "50.366.423/0001-06",
           "filial": "SEROPEDICA",
-          "valor": 2117.52,
-          "nf": "7069",
-          "data_agendamento": "10/08/2026",
-          "data_ord": "2026-08-10",
-          "status": "FATURADO",
-          "obs": "Embarcar caixas originais e íntegras.",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "86195",
-          "cliente": "MERCADO RC DE MIGUEL PEREIRA",
-          "cnpj": "52.909.395/0001-43",
-          "filial": "MIGUEL PEREIRA",
-          "valor": 2179.8,
-          "nf": "7066",
-          "data_agendamento": "10/08/2026",
-          "data_ord": "2026-08-10",
-          "status": "FATURADO",
-          "obs": "Caixas e rótulos íntegros",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "90486",
-          "cliente": "SUPERMERCADO RIO SUL DE SEROPEDICA LTDA",
-          "cnpj": "50.366.423/0001-06",
-          "filial": "SEROPEDICA",
           "valor": 0.0,
           "nf": "7068",
           "data_agendamento": "10/08/2026",
           "data_ord": "2026-08-10",
           "status": "EM ROTA",
           "obs": "Embarcar caixas originais e íntegras. BONIFICAÇÃO",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "90486",
-          "cliente": "SUPERMERCADO RIO SUL DE SEROPEDICA LTDA",
-          "cnpj": "50.366.423/0001-06",
-          "filial": "SEROPEDICA",
-          "valor": 1646.78,
-          "nf": "417778",
-          "data_agendamento": "10/08/2026",
-          "data_ord": "2026-08-10",
-          "status": "FATURADO",
-          "obs": "Embarcar caixas originais e íntegras.",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -825,7 +825,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7320",
           "data_agendamento": "07/08/2026",
           "data_ord": "2026-08-07",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "Caixas fechadas e sem avarias.",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -6221,7 +6221,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7319",
           "data_agendamento": "07/08/2026",
           "data_ord": "2026-08-07",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17249,6 +17249,34 @@ const AGENDAMENTO_DATA = {
       "nome": "LEANDRO SOUZA - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "28385",
+          "cliente": "BOM DE PRECO COMERCIO - REDE ECONOMIA",
+          "cnpj": "18.322.565/0002-31",
+          "filial": "SÃO GONÇALO",
+          "valor": 152.2,
+          "nf": "",
+          "data_agendamento": "11/08/2026",
+          "data_ord": "2026-08-11",
+          "status": "A FATURAR",
+          "obs": "CONTATO 21974318449 (VITORIA)",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "90415",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "cnpj": "08.628.825/0024-53",
+          "filial": "PENHA",
+          "valor": 1397.64,
+          "nf": "",
+          "data_agendamento": "11/08/2026",
+          "data_ord": "2026-08-11",
+          "status": "A FATURAR",
+          "obs": "SUPERMERCADO SUPERMAKET - BONIFICAÇÃO",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "9604",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0003-29",
@@ -17333,34 +17361,6 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "28385",
-          "cliente": "BOM DE PRECO COMERCIO - REDE ECONOMIA",
-          "cnpj": "18.322.565/0002-31",
-          "filial": "SÃO GONÇALO",
-          "valor": 152.2,
-          "nf": "",
-          "data_agendamento": "10/08/2026",
-          "data_ord": "2026-08-10",
-          "status": "A FATURAR",
-          "obs": "CONTATO 21974318449 (VITORIA)",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "90415",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-          "cnpj": "08.628.825/0024-53",
-          "filial": "PENHA",
-          "valor": 1397.64,
-          "nf": "",
-          "data_agendamento": "10/08/2026",
-          "data_ord": "2026-08-10",
-          "status": "A FATURAR",
-          "obs": "SUPERMERCADO SUPERMAKET - BONIFICAÇÃO",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
           "codigo_cliente": "80354",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18.322.565/0004-01",
@@ -17369,7 +17369,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6972",
           "data_agendamento": "07/08/2026",
           "data_ord": "2026-08-07",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "CONTATO 21974318449 (VITORIA)",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17383,7 +17383,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7094",
           "data_agendamento": "07/08/2026",
           "data_ord": "2026-08-07",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "CONTATO 21974318449 (VITORIA)",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17397,7 +17397,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7397",
           "data_agendamento": "07/08/2026",
           "data_ord": "2026-08-07",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "EMBARCAR AS CAIXAS ORIGINAIS E ÍNTEGRAS",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -22144,7 +22144,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7018",
           "data_agendamento": "07/08/2026",
           "data_ord": "2026-08-07",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO ELETRONICAMENTE",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -22158,7 +22158,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7015",
           "data_agendamento": "07/08/2026",
           "data_ord": "2026-08-07",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO ELETRONICAMENTE",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -22186,7 +22186,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7011",
           "data_agendamento": "07/08/2026",
           "data_ord": "2026-08-07",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO ELETRONICAMENTE",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -22200,7 +22200,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7013",
           "data_agendamento": "07/08/2026",
           "data_ord": "2026-08-07",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO ELETRONICAMENTE",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -25146,7 +25146,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7107",
           "data_agendamento": "07/08/2026",
           "data_ord": "2026-08-07",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -25160,7 +25160,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7098",
           "data_agendamento": "07/08/2026",
           "data_ord": "2026-08-07",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -25174,7 +25174,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7099",
           "data_agendamento": "07/08/2026",
           "data_ord": "2026-08-07",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -25188,7 +25188,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7106",
           "data_agendamento": "07/08/2026",
           "data_ord": "2026-08-07",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -25896,7 +25896,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "10/08/2026 16:27",
+  "atualizado_em": "10/08/2026 16:44",
   "comparativo": [
     {
       "msg_id": "19fdbe784cc15bdd",
