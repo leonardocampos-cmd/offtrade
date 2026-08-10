@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "10/08/2026 16:18",
+  "atualizado_em": "10/08/2026 16:20",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -13042,7 +13042,7 @@ const METAS_DATA = {
           "DTULTCOMP": "07/08/2026",
           "produtos": [
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "AGUA MINERAL S/G GRF PET 1X10L MINALBA"
             }
           ]
@@ -13102,7 +13102,7 @@ const METAS_DATA = {
               "DESCRICAO": "CERVEJA HEINEKEN - KEG 5 LITROS C/2 DESC"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "CERVEJA HEINEKEN ZERO LONG  24X330ML"
             },
             {
@@ -13190,7 +13190,7 @@ const METAS_DATA = {
               "DESCRICAO": "CERVEJA AMSTEL ULTRA LN 12X275ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "CERVEJA HEINEKEN ZERO LONG  24X330ML"
             },
             {
@@ -13206,7 +13206,7 @@ const METAS_DATA = {
           "DTULTCOMP": "05/08/2026",
           "produtos": [
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "CERVEJA HEINEKEN ZERO LONG  24X330ML"
             },
             {
@@ -22412,62 +22412,46 @@ const METAS_DATA = {
       "clientes_cadastrados": 0,
       "nao_positivados": [
         {
-          "CODCLI": "90901",
-          "CLIENTE": "ADL RESTAURANTE LTDA",
-          "BAIRROENT": "JUVEVE",
-          "DTULTCOMP": "06/08/2026",
-          "produtos": [
-            {
-              "FANTASIA": "None",
-              "DESCRICAO": "VINHO FOODKILLER CHARDONNAY 750ML"
-            },
-            {
-              "FANTASIA": "None",
-              "DESCRICAO": "VINHO FOODKILLER CARMENERE 750ML"
-            },
-            {
-              "FANTASIA": "None",
-              "DESCRICAO": "VINHO FOODKILLER CAB. SAUV./ MERLOT"
-            }
-          ]
-        },
-        {
           "CODCLI": "92356",
           "CLIENTE": "ALD COMERCIO DE ALIMENTOS LTDA",
           "BAIRROENT": "BIGORRILHO",
           "DTULTCOMP": "06/08/2026",
           "produtos": [
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO FOODKILLER CHARDONNAY 750ML"
+            },
+            {
+              "FANTASIA": "",
               "DESCRICAO": "VINHO FOODKILLER CARMENERE 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO FOODKILLER CAB. SAUV./ MERLOT"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VILLA ROSA TINTO 750ML"
-            },
-            {
-              "FANTASIA": "None",
-              "DESCRICAO": "VINHO FOODKILLER CHARDONNAY 750ML"
             }
           ]
         },
         {
-          "CODCLI": "92020",
-          "CLIENTE": "DIEGO BERNARDINO SILVA",
-          "BAIRROENT": "VILA IZABEL",
+          "CODCLI": "90901",
+          "CLIENTE": "ADL RESTAURANTE LTDA",
+          "BAIRROENT": "JUVEVE",
           "DTULTCOMP": "06/08/2026",
           "produtos": [
             {
-              "FANTASIA": "None",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO FOODKILLER CARMENERE 750ML"
             },
             {
-              "FANTASIA": "None",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CHADY 750ML"
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO FOODKILLER CAB. SAUV./ MERLOT"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO FOODKILLER CHARDONNAY 750ML"
             }
           ]
         },
@@ -22478,8 +22462,24 @@ const METAS_DATA = {
           "DTULTCOMP": "06/08/2026",
           "produtos": [
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
+            }
+          ]
+        },
+        {
+          "CODCLI": "92020",
+          "CLIENTE": "DIEGO BERNARDINO SILVA",
+          "BAIRROENT": "VILA IZABEL",
+          "DTULTCOMP": "06/08/2026",
+          "produtos": [
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CHADY 750ML"
             }
           ]
         },
@@ -22514,207 +22514,207 @@ const METAS_DATA = {
               "DESCRICAO": "VINHO LA TOGATA ROSSO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "ESPUMANTE ALUD BRANCO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "ESPUMANTE ALUD ROSE 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI TRISQUEL SAUV BLANC 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO CAZAS NOVAS COLHEITA 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI ESTATE S.  ROSE 187ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO CAVAS DE ORO BLEND TINTO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO CAVAS DE ORO BLEND BRANCO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VILLA ROSA COLHEITA BRANCO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VILLA ROSA GRANDE RESERVA BCO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VILLA ROSA COLHEITA ROSE 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VILLA ROSA COLHEITA TINTO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO VILLA ROSA RESERVA TINTO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VILLA ROSA COLHEITA TINTO 375ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO BCO ARCAIA PINOT GRIGIO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "MAXIME ROSE 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "CERRO DE PEDRA LARANJA JOVEM 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO CAVAS DE ORO TORRENTES BRANCO"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO PEYRASSOL LA CROIX ROSE 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "AZEITE ESSENZA D'ITALIA 5L"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI RESERVA CAB SAUV 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI RESERVA CARMENERE 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI RESERVA CHARDONNAY 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO PORTO DALVA COLHEIT 1967 TTO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO PORTO DALVA COLHEITA 2005 TTO 1,5L"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO PORTO DALVA 50 ANOS BRANCO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO PORTO DALVA 10 ANOS DECANTER TTO"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO PORTO DALVA 20 ANOS DECANTER TTO"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO PORTO DALVA COLHEITA GW 1971 500ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO PORTO DALVA COLHEI DRY WHITE 1968"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "PORTO DALVA 10 ANOS TINTO 4,5L"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARCAIA PINOT GRIGIO 375ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO BURDIZZO PRIMITIVO  375ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO DO PORTO DALVA 30 ANOS 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO DO PORTO DALVA TAWNY 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO DO PORTO DALVA WHITE 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO DO PORTO DALVA COLHEITA 1982 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO DO PORTO DALVA COLHEITA 1985 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO TINTO AZUL VENTOZELO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO BRANCO AZUL VENTOZELO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO QUINTA DE VENTOZELO TINTO RORIZ"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHOS VENTOZELO TOUR FRANCA+TOUR NACIO"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHOVENTOZELO SYRAH UNO+ SYRAH OAK MATU"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "HUMB. CANALE O.V RIESLING 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "HUMB. CANALE O.V PINOT NOIR 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "HUMB. CANALE DENARIO MALBEC 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "HUMB. CANALE DENARIO CAB. SAUV. 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "HUMB. CANALE DENARIO SAUV. BLANC"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ADELE ROSE 750ML"
             }
           ]
@@ -22732,42 +22732,42 @@ const METAS_DATA = {
           ]
         },
         {
-          "CODCLI": "90903",
-          "CLIENTE": "ADL BARIGUI LTDA",
-          "BAIRROENT": "MOSSUNGUE",
-          "DTULTCOMP": "16/07/2026",
-          "produtos": [
-            {
-              "FANTASIA": "None",
-              "DESCRICAO": "VINHO CAVAS DE ORO BLEND BRANCO 750ML"
-            },
-            {
-              "FANTASIA": "None",
-              "DESCRICAO": "VILLA ROSA TINTO 750ML"
-            }
-          ]
-        },
-        {
           "CODCLI": "90710",
           "CLIENTE": "ALPHA GASTRONOMIA LTDA",
           "BAIRROENT": "ALPHAVILLE GRACIOSA",
           "DTULTCOMP": "16/07/2026",
           "produtos": [
             {
-              "FANTASIA": "None",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
-            },
-            {
-              "FANTASIA": "None",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 750ML"
-            },
-            {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI ESTATE S. CARMENERE 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 750ML"
+            },
+            {
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI ESTATE S. PINOT NOIR"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
+            }
+          ]
+        },
+        {
+          "CODCLI": "90903",
+          "CLIENTE": "ADL BARIGUI LTDA",
+          "BAIRROENT": "MOSSUNGUE",
+          "DTULTCOMP": "16/07/2026",
+          "produtos": [
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VILLA ROSA TINTO 750ML"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO CAVAS DE ORO BLEND BRANCO 750ML"
             }
           ]
         },
@@ -22778,7 +22778,7 @@ const METAS_DATA = {
           "DTULTCOMP": "16/07/2026",
           "produtos": [
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "AZEITE ESSENZA D'ITALIA 5L"
             }
           ]
@@ -22790,7 +22790,7 @@ const METAS_DATA = {
           "DTULTCOMP": "16/07/2026",
           "produtos": [
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
             }
           ]
@@ -22802,20 +22802,20 @@ const METAS_DATA = {
           "DTULTCOMP": "14/07/2026",
           "produtos": [
             {
-              "FANTASIA": "None",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. MERLOT 750ML"
-            },
-            {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "SPINOGLIO TIERRA ALTA TANNAT RESERVA TTO"
             },
             {
-              "FANTASIA": "None",
-              "DESCRICAO": "VINHO TINTO BURDIZZO APPASSIMENTO 750ML"
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO ARESTI ESTATE S. MERLOT 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "HUMB. CANALE DENARIO RESERVA CAB. FRANC"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO TINTO BURDIZZO APPASSIMENTO 750ML"
             }
           ]
         },
@@ -22826,44 +22826,44 @@ const METAS_DATA = {
           "DTULTCOMP": "13/07/2026",
           "produtos": [
             {
-              "FANTASIA": "None",
-              "DESCRICAO": "BARBERA D'ALBA SUPERIORE 750ML"
-            },
-            {
-              "FANTASIA": "None",
-              "DESCRICAO": "VINHO LOS ALJIBES SYRAH  RED WINE 750ML"
-            },
-            {
-              "FANTASIA": "None",
-              "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
-            },
-            {
-              "FANTASIA": "None",
-              "DESCRICAO": "VINHO LOS ALJIBES TEMPRANILLO 750ML"
-            },
-            {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI TRISQUEL GRAN R SYRAH 750ML"
             },
             {
-              "FANTASIA": "None",
-              "DESCRICAO": "VINHO BCO ARCAIA PINOT GRIGIO 750ML"
+              "FANTASIA": "",
+              "DESCRICAO": "BARBERA D'ALBA SUPERIORE 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO LOS ALJIBES TEMPRANILLO 750ML"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
+            },
+            {
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 750ML"
             },
             {
-              "FANTASIA": "None",
-              "DESCRICAO": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML"
+              "FANTASIA": "",
+              "DESCRICAO": "DOLCETTO D'ALBA 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO LOS ALJIBES SYRAH  RED WINE 750ML"
+            },
+            {
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI ESTATE S. CARMENERE 750ML"
             },
             {
-              "FANTASIA": "None",
-              "DESCRICAO": "DOLCETTO D'ALBA 750ML"
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO BCO ARCAIA PINOT GRIGIO 750ML"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML"
             }
           ]
         },
@@ -22874,7 +22874,7 @@ const METAS_DATA = {
           "DTULTCOMP": "13/07/2026",
           "produtos": [
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "AZEITE ESSENZA D'ITALIA 5L"
             }
           ]
@@ -22886,327 +22886,327 @@ const METAS_DATA = {
           "DTULTCOMP": "30/06/2026",
           "produtos": [
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO DO PORTO DALVA WHITE 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO DO PORTO DALVA TAWNY RESERVA 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO BRANCO AZUL VENTOZELO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO BRANCO VENTOZELO RESERVA 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO BRANCO VENTOZELO VIOSINHO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO VILLA ROSA FRISANTE BRANCO"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO VILLA ROSA FRISANTE ROSE"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "HUMB. CANALE O.V MALBEC 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "HUMB. CANALE O.V RIESLING 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "HUMB. CANALE O.V SEMILLON 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "HUMB. CANALE O.V PINOT NOIR 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "HUMB. CANALE O.V PINOT NOIR ROSE 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "HUMB. CANALE BARZI BLEND TINTO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "HUMB. CANALE DENARIO MALBEC 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "HUMB. CANALE DENARIO SAUV. BLANC"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "HUMB. CANALE DENARIO RESERVA MALBEC"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "HUMB. CANALE DENARIO RESERVA PINOT NOIR"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARCAIA PINOT GRIGIO ROSE 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ADELE BRANCO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO FOODKILLER CAB. SAUV./ MERLOT"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO FOODKILLER CARMENERE 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO FOODKILLER CHARDONNAY 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "ESPUMANTE ALUD BRANCO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO BRANCO BURDIZZO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO TINTO BURDIZZO APPASSIMENTO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "ESPUMANTE ALUD ROSE 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "DOLCETTO D'ALBA 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "BARBERA D'ALBA SUPERIORE 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "BAROLO BUSSIA 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI ESTATE S. CARMENERE 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI ESTATE S. MERLOT 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI ESTATE S. CHADY 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI ESTATE S. PINOT NOIR"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI CABINA 56 CHARDONNAY 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "ESPUMANTE ARESTI MANDALA ROSE BRUT 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI TRISQUEL GRAN R SYRAH 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI TRISQUEL GRAN R GEWUR 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI TRIS. SERIES CAB SAUV 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI COD 380 ASSEMBLAGE 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO LOS ALJIBES PETIT VERDOT 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO LOS ALJIBES GRANACHA TINTOR. 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO LOS ALJIBES SYRAH  RED WINE 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO LOS ALJIBES ENCLAVE MONASTRE 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI ESTATE S.  ROSE 187ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO VINA MEIN BRANCO 2022 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO GRAN MEIN BRANCO 2021 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO QUINTALUNA 2021 BRANCO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO OSSIAN 2021 BRANCO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO MILSETENTAYSEIS 2020 TINTO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO CAVAS DE ORO BLEND TINTO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO CAVAS DE ORO BLEND BRANCO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO CAVAS DE ORO MALBEC 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO CAVAS DE ORO CABERNET SAUV 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO BRANCO RABIGATO VENTOZELO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VILLA ROSA COLHEITA BRANCO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VILLA ROSA RESERVA BRANCO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VILLA ROSA COLHEITA ROSE 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VILLA ROSA COLHEITA TINTO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO VILLA ROSA RESERVA TINTO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VILLA ROSA BRANCO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VILLA ROSA TINTO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO BCO ARCAIA PINOT GRIGIO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO TTO BERTOLI CHIANTI DOCG 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "ESPUMANTE ARESTI CHARDONNAY 187,5ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "ESPUMANTE ARESTI ROSE 187,5ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO FINCA FELIZ TESORO TTO BONARDA"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO FINCA FELIZ TESORO LA CIELITO"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO FINCA FELIZ TESORO TTO MALBEC"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO CAVAS DE ORO TORRENTES BRANCO"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO PEYRASSOL CHATEAU ROSE 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO PEYRASSOL LA CROIX ROSE 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "CHABLIS THIERRY LAFFAY BCO 2022 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "AZEITE ESSENZA D'ITALIA PREMIUM 5L"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO DO PORTO DALVA 10 ANOS OLD 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO DO PORTO DALVA 20 ANOS 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO DO PORTO DALVA TAWNY 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO DO PORTO DALVA RUBY 750ML"
             }
           ]
@@ -23230,7 +23230,7 @@ const METAS_DATA = {
           "DTULTCOMP": "12/06/2026",
           "produtos": [
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO FOODKILLER CAB. SAUV./ MERLOT"
             }
           ]
@@ -23242,7 +23242,7 @@ const METAS_DATA = {
           "DTULTCOMP": "22/05/2026",
           "produtos": [
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VILLA ROSA BRANCO 750ML"
             }
           ]
@@ -23254,7 +23254,7 @@ const METAS_DATA = {
           "DTULTCOMP": "22/05/2026",
           "produtos": [
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "ESPUMANTE ALUD BRANCO 750ML"
             }
           ]
