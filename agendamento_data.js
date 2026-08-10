@@ -719,6 +719,20 @@ const AGENDAMENTO_DATA = {
       "nome": "ANGELO NEVES SUZART - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "91575",
+          "cliente": "SUPERMERCADO VITORIA DA VILA LTDA",
+          "cnpj": "26.175.533/0001-06",
+          "filial": "DUQUE DE CAXIAS",
+          "valor": 3456.24,
+          "nf": "",
+          "data_agendamento": "11/08/2026",
+          "data_ord": "2026-08-11",
+          "status": "A FATURAR",
+          "obs": "EMBARCAR AS CAIXAS ORIGINAIS E ÍNTEGRAS",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "90486",
           "cliente": "SUPERMERCADO RIO SUL DE SEROPEDICA LTDA",
           "cnpj": "50.366.423/0001-06",
@@ -16119,6 +16133,20 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
+          "codigo_cliente": "6278",
+          "cliente": "SUPERMERCADOS MUNDIAL LTDA",
+          "cnpj": "33304981000110",
+          "filial": "INHAUMA",
+          "valor": 32656.32,
+          "nf": "",
+          "data_agendamento": "11/08/2026",
+          "data_ord": "2026-08-11",
+          "status": "A FATURAR",
+          "obs": "(PAGAMENTO NO PIX) - CADA SKU EM PALETTS DIFERENTES -  PALLET TEM QUE SER FILMADO",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "71185",
           "cliente": "ANB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS",
           "cnpj": "49.306.432/0001-14",
@@ -17273,6 +17301,34 @@ const AGENDAMENTO_DATA = {
           "data_ord": "2026-08-11",
           "status": "A FATURAR",
           "obs": "SUPERMERCADO SUPERMAKET - PRODUTOS EM ENCARTE",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "77079",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "cnpj": "05.546.194/0015-44",
+          "filial": "MARICA",
+          "valor": 5626.8,
+          "nf": "",
+          "data_agendamento": "11/08/2026",
+          "data_ord": "2026-08-11",
+          "status": "A FATURAR",
+          "obs": "Caixas e rótulos íntegros;",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "73217",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "cnpj": "05.546.194/0023-54",
+          "filial": "NOVA FRIBURGO",
+          "valor": 5626.8,
+          "nf": "",
+          "data_agendamento": "11/08/2026",
+          "data_ord": "2026-08-11",
+          "status": "A FATURAR",
+          "obs": "Caixas e rótulos íntegros;",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -25840,7 +25896,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "10/08/2026 14:27",
+  "atualizado_em": "10/08/2026 14:45",
   "comparativo": [
     {
       "msg_id": "19fdbe784cc15bdd",
