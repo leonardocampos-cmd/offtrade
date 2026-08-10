@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "10/08/2026 16:42",
+  "atualizado_em": "10/08/2026 16:56",
   "data_rota": "10.08",
   "vendedores": [
     {
@@ -1560,6 +1560,11 @@ const ENTREGAS_DATA = {
           "total": 827.46,
           "itens": [
             {
+              "desc": "NECTAR GOIABA 12X1000ML",
+              "qt": 1,
+              "val": 54.78
+            },
+            {
               "desc": "NECTAR PESSEGO 12X1000ML",
               "qt": 1,
               "val": 57.48
@@ -1573,11 +1578,6 @@ const ENTREGAS_DATA = {
               "desc": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
               "qt": 24,
               "val": 429.6
-            },
-            {
-              "desc": "NECTAR GOIABA 12X1000ML",
-              "qt": 1,
-              "val": 54.78
             }
           ]
         },
@@ -4431,7 +4431,7 @@ const ENTREGAS_DATA = {
           ]
         },
         {
-          "numped": "379001380",
+          "numped": "379001383",
           "numnota": "",
           "data": "10/08/2026",
           "cliente": "R F SANTANA MERCEARIA LTDA",
@@ -4472,6 +4472,31 @@ const ENTREGAS_DATA = {
               "desc": "RED BULL 24X250ML",
               "qt": 3,
               "val": 517.68
+            }
+          ]
+        },
+        {
+          "numped": "379001384",
+          "numnota": "",
+          "data": "10/08/2026",
+          "cliente": "BSCRJ DISTRIBUIDORA DE BEBIDAS E MERCEARIA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 517.68,
+          "itens": [
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 2,
+              "val": 345.12
+            },
+            {
+              "desc": "RED BULL MELANCIA 250ML CX C/24",
+              "qt": 1,
+              "val": 172.56
             }
           ]
         }
@@ -8097,41 +8122,6 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
-          "numped": "439000325",
-          "numnota": "",
-          "data": "10/08/2026",
-          "cliente": "NOVA BONFIM MERCEARIA DE ANGRA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "Data entrega: 13/08/26",
-          "total": 727.08,
-          "itens": [
-            {
-              "desc": "RC ATUM PEDACOS NATURAL 24X140G",
-              "qt": 1,
-              "val": 191.76
-            },
-            {
-              "desc": "CONHAQUE DOMECQ 1L",
-              "qt": 6,
-              "val": 173.4
-            },
-            {
-              "desc": "RC ATUM RALADO OLEO 24X140G",
-              "qt": 1,
-              "val": 153.36
-            },
-            {
-              "desc": "RC ATUM SOLIDO OLEO 24X170G",
-              "qt": 1,
-              "val": 208.56
-            }
-          ]
-        },
-        {
           "numped": "439000324",
           "numnota": "",
           "data": "10/08/2026",
@@ -8144,6 +8134,21 @@ const ENTREGAS_DATA = {
           "obs": "Data entrega: 13/08/26",
           "total": 858.82,
           "itens": [
+            {
+              "desc": "NECTAR ABACAXI 12X1000ML",
+              "qt": 1,
+              "val": 59.88
+            },
+            {
+              "desc": "NECTAR CAJU 12X1000ML",
+              "qt": 1,
+              "val": 59.88
+            },
+            {
+              "desc": "NECTAR GOIABA 12X1000ML",
+              "qt": 1,
+              "val": 59.88
+            },
             {
               "desc": "NECTAR MACA TIAL 12X1000ML",
               "qt": 1,
@@ -8183,21 +8188,41 @@ const ENTREGAS_DATA = {
               "desc": "CACHACA JOIA DA SERRA OURO 1L",
               "qt": 2,
               "val": 43.8
+            }
+          ]
+        },
+        {
+          "numped": "439000325",
+          "numnota": "",
+          "data": "10/08/2026",
+          "cliente": "NOVA BONFIM MERCEARIA DE ANGRA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Data entrega: 13/08/26",
+          "total": 727.08,
+          "itens": [
+            {
+              "desc": "RC ATUM PEDACOS NATURAL 24X140G",
+              "qt": 1,
+              "val": 191.76
             },
             {
-              "desc": "NECTAR ABACAXI 12X1000ML",
-              "qt": 1,
-              "val": 59.88
+              "desc": "CONHAQUE DOMECQ 1L",
+              "qt": 6,
+              "val": 173.4
             },
             {
-              "desc": "NECTAR CAJU 12X1000ML",
+              "desc": "RC ATUM RALADO OLEO 24X140G",
               "qt": 1,
-              "val": 59.88
+              "val": 153.36
             },
             {
-              "desc": "NECTAR GOIABA 12X1000ML",
+              "desc": "RC ATUM SOLIDO OLEO 24X170G",
               "qt": 1,
-              "val": 59.88
+              "val": 208.56
             }
           ]
         },
@@ -8722,7 +8747,33 @@ const ENTREGAS_DATA = {
           ]
         }
       ],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "419000778",
+          "numnota": "",
+          "data": "10/08/2026",
+          "cliente": "WESLEY DA SILVA NASCIMENTO 16108100745",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "data entrega: 11/08",
+          "total": 556.58,
+          "itens": [
+            {
+              "desc": "RED BULL MORANGO PESSEGO 24X250ML",
+              "qt": 3,
+              "val": 517.68
+            },
+            {
+              "desc": "PINATI SIMPLE WHEY PISTACHE 16X35G",
+              "qt": 1,
+              "val": 38.9
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "419000673",
