@@ -1,5 +1,5 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "10/08/2026 10:06",
+  "atualizado_em": "10/08/2026 10:18",
   "periodo_dias": 90,
   "fontes_indisponiveis": [],
   "pedidos_feitos": [
@@ -29525,41 +29525,6 @@ const PEDIDOS_DATA = {
           "codprod": "3764",
           "codfilial": "1",
           "pvenda": 39.9
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
-      "numped": "327009630",
-      "numnota": "127526",
-      "data": "05/08/2026",
-      "data_ord": "2026-08-05",
-      "nome": "JOÃO SANTOS - OFF TRADE",
-      "cliente": "EL MAI LTDA",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "entrega de 10:00as13:00",
-      "total": 538.8,
-      "itens": [
-        {
-          "desc": "ESPUMANTE ALUD BRANCO 750ML",
-          "industria": "CASTAS",
-          "qt": 12,
-          "val": 538.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "cortado": false,
-          "codprod": "3422",
-          "codfilial": "1",
-          "pvenda": 44.9
         }
       ],
       "tem_corte": false,
@@ -68820,73 +68785,6 @@ const PEDIDOS_DATA = {
       "status_log": ""
     },
     {
-      "numped": "327009592",
-      "numnota": "126880",
-      "data": "30/07/2026",
-      "data_ord": "2026-07-30",
-      "nome": "JOÃO SANTOS - OFF TRADE",
-      "cliente": "BAR E RESTAURANTE CORDEIRO EIRELI",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :266",
-      "obs": "cliente so recebe apos 10:00 horas",
-      "total": 1000.0,
-      "itens": [
-        {
-          "desc": "VODKA ORLOFF 1L",
-          "industria": "PERNOD",
-          "qt": 4,
-          "val": 107.2,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 4.0,
-          "cortado": false,
-          "codprod": "235",
-          "codfilial": "1",
-          "pvenda": 26.8
-        },
-        {
-          "desc": "GIN TANQUERAY  750 ML",
-          "industria": "DIAGEO",
-          "qt": 6,
-          "val": 563.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "cortado": false,
-          "codprod": "266",
-          "codfilial": "1",
-          "pvenda": 93.9
-        },
-        {
-          "desc": "GIN GORDONS 750 ML",
-          "industria": "DIAGEO",
-          "qt": 6,
-          "val": 329.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "cortado": false,
-          "codprod": "674",
-          "codfilial": "1",
-          "pvenda": 54.9
-        }
-      ],
-      "tem_corte": false,
-      "status_log": "",
-      "motivo_codprod": "266",
-      "motivo_produto": "GIN TANQUERAY  750 ML",
-      "motivo_preco_digitado": 93.9,
-      "motivo_preco_tabela": 89.9
-    },
-    {
       "numped": "344000566",
       "numnota": "126746",
       "data": "30/07/2026",
@@ -106077,41 +105975,6 @@ const PEDIDOS_DATA = {
       "motivo_preco_tabela": 21.9
     },
     {
-      "numped": "354000664",
-      "numnota": "126074",
-      "data": "23/07/2026",
-      "data_ord": "2026-07-23",
-      "nome": "MATHEUS DE SOUZA - OFF TRADE",
-      "cliente": "LATICINIOS DA LAPA LTDA",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 346.8,
-      "itens": [
-        {
-          "desc": "AZEITE DE OLIVA EV ESSENZA 500ML",
-          "industria": "CASTAS IMPORTADORA",
-          "qt": 12,
-          "val": 346.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "cortado": false,
-          "codprod": "4383",
-          "codfilial": "1",
-          "pvenda": 28.9
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
       "numped": "327009507",
       "numnota": "126021",
       "data": "23/07/2026",
@@ -137249,41 +137112,6 @@ const PEDIDOS_DATA = {
           "codprod": "3812",
           "codfilial": "1",
           "pvenda": 72.61
-        }
-      ],
-      "tem_corte": false,
-      "status_log": ""
-    },
-    {
-      "numped": "354000630",
-      "numnota": "125359",
-      "data": "16/07/2026",
-      "data_ord": "2026-07-16",
-      "nome": "MATHEUS DE SOUZA - OFF TRADE",
-      "cliente": "VAREJAO PLANALTO LTDA.",
-      "sistema": "MGON",
-      "estado": "MG",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 224.7,
-      "itens": [
-        {
-          "desc": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-          "industria": "DON LUIZ",
-          "qt": 3,
-          "val": 224.7,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 3.0,
-          "cortado": false,
-          "codprod": "4236",
-          "codfilial": "1",
-          "pvenda": 74.9
         }
       ],
       "tem_corte": false,
