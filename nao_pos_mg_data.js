@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "10/08/2026 16:29",
+  "atualizado_em": "10/08/2026 16:45",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -1599,20 +1599,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "31903",
-        "cliente": "CB BH COMERCIO DE ALIMENTOS LTDA",
-        "bairro": "BELVEDERE",
-        "dtultcomp": "09/06/2026",
-        "produtos": [
-          {
-            "produto": "VODKA ORLOFF 1,75L",
-            "fantasia": "PERNOD",
-            "qt": 15,
-            "valor": 643.5
-          }
-        ]
-      },
-      {
         "codcli": "38607",
         "cliente": "M&S COMERCIO DE ALIMENTO LTDA",
         "bairro": "LARANJEIRAS",
@@ -1935,26 +1921,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "32871",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "VILA DA SERRA",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "YVY",
-            "qt": 6,
-            "valor": 239.4
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "YVY",
-            "qt": 6,
-            "valor": 239.4
-          }
-        ]
-      },
-      {
         "codcli": "33014",
         "cliente": "ER COZINHA ARTESANAL LTDA",
         "bairro": "LOURDES",
@@ -1971,6 +1937,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "YVY",
             "qt": 4,
             "valor": 159.6
+          }
+        ]
+      },
+      {
+        "codcli": "32871",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "VILA DA SERRA",
+        "dtultcomp": "18/06/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 6,
+            "valor": 239.4
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 6,
+            "valor": 239.4
           }
         ]
       },
