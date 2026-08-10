@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "10/08/2026 15:19",
+  "atualizado_em": "10/08/2026 15:48",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -6389,13 +6389,49 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [
         {
-          "codcli": "85417",
+          "codcli": "85405",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "bairro": "JARDIM CAMBURI",
-          "cidade": "VITORIA",
-          "dtultcomp": "22/05/2026",
-          "dias": 80,
-          "media": 1530.1
+          "bairro": "CIVIT II",
+          "cidade": "SERRA",
+          "dtultcomp": "06/04/2026",
+          "dias": 126,
+          "media": 0.0
+        },
+        {
+          "codcli": "85402",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "bairro": "DAS LARANJEIRAS",
+          "cidade": "SERRA",
+          "dtultcomp": "16/04/2026",
+          "dias": 116,
+          "media": 0.0
+        },
+        {
+          "codcli": "94324",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "bairro": "SÃO DIOGO II",
+          "cidade": "SERRA",
+          "dtultcomp": "22/04/2026",
+          "dias": 110,
+          "media": 0.0
+        },
+        {
+          "codcli": "85427",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "bairro": "CAMPO GRANDE",
+          "cidade": "CARIACICA",
+          "dtultcomp": "04/05/2026",
+          "dias": 98,
+          "media": 300.64
+        },
+        {
+          "codcli": "85440",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "bairro": "SÃO PATRÍCIO",
+          "cidade": "SERRA",
+          "dtultcomp": "05/05/2026",
+          "dias": 97,
+          "media": 1180.85
         },
         {
           "codcli": "85416",
@@ -6407,13 +6443,13 @@ const INATIVOS_DATA = {
           "media": 1522.0
         },
         {
-          "codcli": "85407",
+          "codcli": "85417",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "bairro": "PLANALTO DE CARAPINA",
-          "cidade": "SERRA",
-          "dtultcomp": "25/05/2026",
-          "dias": 77,
-          "media": 2597.58
+          "bairro": "JARDIM CAMBURI",
+          "cidade": "VITORIA",
+          "dtultcomp": "22/05/2026",
+          "dias": 80,
+          "media": 1530.1
         },
         {
           "codcli": "85425",
@@ -6434,13 +6470,13 @@ const INATIVOS_DATA = {
           "media": 1176.05
         },
         {
-          "codcli": "85435",
+          "codcli": "85407",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "bairro": "CENTRO",
-          "cidade": "MARECHAL FLORIA",
-          "dtultcomp": "26/05/2026",
-          "dias": 76,
-          "media": 273.44
+          "bairro": "PLANALTO DE CARAPINA",
+          "cidade": "SERRA",
+          "dtultcomp": "25/05/2026",
+          "dias": 77,
+          "media": 2597.58
         },
         {
           "codcli": "85434",
@@ -6452,13 +6488,22 @@ const INATIVOS_DATA = {
           "media": 2349.64
         },
         {
-          "codcli": "85401",
+          "codcli": "85435",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "bairro": "CARLOS GERMANO NAUMANN",
-          "cidade": "COLATINA",
+          "bairro": "CENTRO",
+          "cidade": "MARECHAL FLORIA",
+          "dtultcomp": "26/05/2026",
+          "dias": 76,
+          "media": 273.44
+        },
+        {
+          "codcli": "85432",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "bairro": "MOVELAR",
+          "cidade": "LINHARES",
           "dtultcomp": "28/05/2026",
           "dias": 74,
-          "media": 4380.87
+          "media": 4063.21
         },
         {
           "codcli": "85400",
@@ -6470,6 +6515,15 @@ const INATIVOS_DATA = {
           "media": 2042.24
         },
         {
+          "codcli": "85401",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "bairro": "CARLOS GERMANO NAUMANN",
+          "cidade": "COLATINA",
+          "dtultcomp": "28/05/2026",
+          "dias": 74,
+          "media": 4380.87
+        },
+        {
           "codcli": "85433",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "bairro": "SHELL",
@@ -6477,15 +6531,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "28/05/2026",
           "dias": 74,
           "media": 2397.3
-        },
-        {
-          "codcli": "85432",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "bairro": "MOVELAR",
-          "cidade": "LINHARES",
-          "dtultcomp": "28/05/2026",
-          "dias": 74,
-          "media": 4063.21
         },
         {
           "codcli": "85411",
@@ -6533,33 +6578,6 @@ const INATIVOS_DATA = {
           "media": 3360.43
         },
         {
-          "codcli": "85410",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "bairro": "ITAPUA",
-          "cidade": "VILA VELHA",
-          "dtultcomp": "30/06/2026",
-          "dias": 41,
-          "media": 3872.42
-        },
-        {
-          "codcli": "85441",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "bairro": "NOVO HORIZONTE",
-          "cidade": "SERRA",
-          "dtultcomp": "30/06/2026",
-          "dias": 41,
-          "media": 742.39
-        },
-        {
-          "codcli": "85438",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "bairro": "PRAIA DA COSTA",
-          "cidade": "VILA VELHA",
-          "dtultcomp": "30/06/2026",
-          "dias": 41,
-          "media": 4863.14
-        },
-        {
           "codcli": "82539",
           "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
           "bairro": "CAMPO GRANDE",
@@ -6605,10 +6623,37 @@ const INATIVOS_DATA = {
           "media": 3014.91
         },
         {
-          "codcli": "86391",
+          "codcli": "85410",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "bairro": "ITAPUA",
+          "cidade": "VILA VELHA",
+          "dtultcomp": "30/06/2026",
+          "dias": 41,
+          "media": 3872.42
+        },
+        {
+          "codcli": "85441",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "bairro": "NOVO HORIZONTE",
+          "cidade": "SERRA",
+          "dtultcomp": "30/06/2026",
+          "dias": 41,
+          "media": 742.39
+        },
+        {
+          "codcli": "85438",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "bairro": "PRAIA DA COSTA",
+          "cidade": "VILA VELHA",
+          "dtultcomp": "30/06/2026",
+          "dias": 41,
+          "media": 4863.14
+        },
+        {
+          "codcli": "77449",
           "cliente": "ARMAZEM SAO SEBASTIAO LTDA",
-          "bairro": "VILA ESPERANCA",
-          "cidade": "VARGEM ALTA",
+          "bairro": "SANTO AGOSTINHO",
+          "cidade": "CASTELO",
           "dtultcomp": "01/07/2026",
           "dias": 40,
           "media": 277.48
@@ -6623,13 +6668,22 @@ const INATIVOS_DATA = {
           "media": 75.45
         },
         {
-          "codcli": "77449",
+          "codcli": "86391",
           "cliente": "ARMAZEM SAO SEBASTIAO LTDA",
-          "bairro": "SANTO AGOSTINHO",
-          "cidade": "CASTELO",
+          "bairro": "VILA ESPERANCA",
+          "cidade": "VARGEM ALTA",
           "dtultcomp": "01/07/2026",
           "dias": 40,
           "media": 277.48
+        },
+        {
+          "codcli": "82540",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "bairro": "PRAIA DE ITAPARICA",
+          "cidade": "VILA VELHA",
+          "dtultcomp": "02/07/2026",
+          "dias": 39,
+          "media": 538.96
         },
         {
           "codcli": "76076",
@@ -6648,15 +6702,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "02/07/2026",
           "dias": 39,
           "media": 1339.0
-        },
-        {
-          "codcli": "82540",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "bairro": "PRAIA DE ITAPARICA",
-          "cidade": "VILA VELHA",
-          "dtultcomp": "02/07/2026",
-          "dias": 39,
-          "media": 538.96
         },
         {
           "codcli": "85436",
