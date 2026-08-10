@@ -1,12 +1,12 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "10/08/2026 13:10",
+  "atualizado_em": "10/08/2026 14:02",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 10,
   "dias_no_mes": 31,
   "dias_restantes": 21,
   "resumo": {
-    "fat": 3080565.52,
+    "fat": 3080578.24,
     "fat_ant": 2662409.84,
     "fat_ant_completo": 13925054.76,
     "pos": 590,
@@ -15,11 +15,11 @@ const METAS_GERAIS_DATA = {
   },
   "total": {
     "meta": 12300000.0,
-    "fat": 3080565.52,
+    "fat": 3080578.24,
     "fat_ant": 2662409.84,
     "fat_ant_completo": 13925054.76,
     "pct": 25.0,
-    "nec_dia": 439020.69
+    "nec_dia": 439020.08
   },
   "estados": [
     {
@@ -39,11 +39,11 @@ const METAS_GERAIS_DATA = {
       "estado": "SP",
       "label": "São Paulo",
       "meta": 5500000.0,
-      "fat": 1938120.78,
+      "fat": 1937607.18,
       "fat_ant": 1689084.27,
-      "pos": 294,
+      "pos": 293,
       "pct": 35.2,
-      "nec_dia": 169613.3,
+      "nec_dia": 169637.75,
       "fat_ant_completo": 8531229.27,
       "pos_ant": 290,
       "pos_ant_completo": 731
@@ -65,11 +65,11 @@ const METAS_GERAIS_DATA = {
       "estado": "MG",
       "label": "Minas Gerais",
       "meta": 2100000.0,
-      "fat": 369762.98,
+      "fat": 370289.3,
       "fat_ant": 293030.44,
-      "pos": 76,
+      "pos": 77,
       "pct": 17.6,
-      "nec_dia": 82392.24,
+      "nec_dia": 82367.18,
       "fat_ant_completo": 1911913.71,
       "pos_ant": 120,
       "pos_ant_completo": 266
@@ -89,13 +89,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "RED BULL",
-      "fat": 454375.14,
+      "fat": 454901.46,
       "fat_ant": 127719.7,
       "por_estado": {
         "RJ": 74483.66,
         "SP": 151165.44,
         "ES": 177058.6,
-        "MG": 51667.44
+        "MG": 52193.76
       }
     },
     {
@@ -144,11 +144,11 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "CASTAS",
-      "fat": 74192.82,
+      "fat": 73679.22,
       "fat_ant": 45956.7,
       "por_estado": {
         "RJ": 43403.46,
-        "SP": 4458.36,
+        "SP": 3944.76,
         "ES": 0.0,
         "MG": 26331.0
       }
