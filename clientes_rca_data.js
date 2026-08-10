@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "10/08/2026 14:12",
+  "atualizado_em": "10/08/2026 14:29",
   "total": 22368,
   "clientes": [
     {
@@ -92148,22 +92148,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "33108",
-      "razao": "CASA DELAS COMERCIO E TURISMO LTDA",
-      "fantasia": "CASA DELAS",
-      "bairro": "CENTRO",
-      "cidade": "BAMBUI",
-      "cnpj": "02.085.128/0001-20",
-      "estado": "MG",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "69641",
       "razao": "CASA DO CANECO LTDA",
       "fantasia": "CASA DO CANECO LTDA",
@@ -157404,22 +157388,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "41.053.535/0001-08",
       "estado": "RJ",
       "ramo": "CAFETERIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "50432",
-      "razao": "G P DE LIRA COMERCIO DE BEBIDAS E MINIMERCADO",
-      "fantasia": "LIRA DISTRIBUIDORA",
-      "bairro": "SANTA ISABEL",
-      "cidade": "SAO GONCALO",
-      "cnpj": "28.888.609/0001-68",
-      "estado": "RJ",
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -326752,6 +326720,38 @@ const CLIENTES_RCA_DATA = {
       "rede": "REDE SUPERMARKET",
       "codusur1": "450",
       "nome_usur1": "LEANDRO SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "46348",
+      "razao": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
+      "fantasia": "SUPERMARKET",
+      "bairro": "SANTO ANTÔNIO",
+      "cidade": "DUQUE DE CAXIAS",
+      "cnpj": "08.628.825/0008-33",
+      "estado": "RJ",
+      "ramo": "COMERCIO VAREJISTA (GERAL)",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "158",
+      "nome_usur1": "JOSE MARCELO CARDOSO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "46351",
+      "razao": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
+      "fantasia": "SUPERMARKET",
+      "bairro": "PORTO NOVO",
+      "cidade": "SAO GONCALO",
+      "cnpj": "08.628.825/0011-39",
+      "estado": "RJ",
+      "ramo": "COMERCIO VAREJISTA (GERAL)",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "158",
+      "nome_usur1": "JOSE MARCELO CARDOSO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
