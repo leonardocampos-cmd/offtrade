@@ -3870,6 +3870,20 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
+          "codigo_cliente": "93451",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "cnpj": "08.628.825/0011-39",
+          "filial": "SÃO GONÇALO",
+          "valor": 498.6,
+          "nf": "",
+          "data_agendamento": "11/08/2026",
+          "data_ord": "2026-08-11",
+          "status": "A FATURAR",
+          "obs": "ENTREGA ATÉ ÁS 13H",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "2978",
           "cliente": "TORRE E CIA SUPERMERCADOS S/A",
           "cnpj": "07.760.885/0001-76",
@@ -15960,6 +15974,20 @@ const AGENDAMENTO_DATA = {
       "nome": "JORGE MACIEL - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "",
+          "cliente": "RAMAR COMERCIO DE PRODUTOS ALIMENTICIOS",
+          "cnpj": "13.487.380/0001-82",
+          "filial": "NOVA IGUAÇU",
+          "valor": 885.6,
+          "nf": "7258",
+          "data_agendamento": "11/08/2026",
+          "data_ord": "2026-08-11",
+          "status": "FATURADO",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "95634",
           "cliente": "RAMIGOS SUPERMERCADOS S.A",
           "cnpj": "11.552.261/0001-30",
@@ -16076,6 +16104,20 @@ const AGENDAMENTO_DATA = {
     {
       "nome": "JOSE MARCELO CARDOSO - OFF TRADE",
       "itens": [
+        {
+          "codigo_cliente": "18798",
+          "cliente": "EMPORIO DO CADEG LTDA",
+          "cnpj": "33.119.105/0001-13",
+          "filial": "BENFICA (CADEG)",
+          "valor": 1455.18,
+          "nf": "6409",
+          "data_agendamento": "11/08/2026",
+          "data_ord": "2026-08-11",
+          "status": "FATURADO",
+          "obs": "EMBARCAR AS CAIXAS ORIGINAIS E ÍNTEGRAS.",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
         {
           "codigo_cliente": "71185",
           "cliente": "ANB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS",
@@ -16240,20 +16282,6 @@ const AGENDAMENTO_DATA = {
           "data_agendamento": "10/07/2026",
           "data_ord": "2026-07-10",
           "status": "ENTREGUE",
-          "obs": "EMBARCAR AS CAIXAS ORIGINAIS E ÍNTEGRAS.",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "18798",
-          "cliente": "EMPORIO DO CADEG LTDA",
-          "cnpj": "33.119.105/0001-13",
-          "filial": "BENFICA (CADEG)",
-          "valor": 1455.18,
-          "nf": "6409",
-          "data_agendamento": "10/07/2026",
-          "data_ord": "2026-07-10",
-          "status": "FATURADO",
           "obs": "EMBARCAR AS CAIXAS ORIGINAIS E ÍNTEGRAS.",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17192,6 +17220,62 @@ const AGENDAMENTO_DATA = {
     {
       "nome": "LEANDRO SOUZA - OFF TRADE",
       "itens": [
+        {
+          "codigo_cliente": "9604",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "cnpj": "08.628.825/0003-29",
+          "filial": "PIRATININGA",
+          "valor": 2899.8,
+          "nf": "",
+          "data_agendamento": "11/08/2026",
+          "data_ord": "2026-08-11",
+          "status": "ENTREGUE",
+          "obs": "SUPERMERCADO SUPERMAKET - PRODUTOS EM ENCARTE",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "9603",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "cnpj": "08.628.825/0004-00",
+          "filial": "ITAIPU",
+          "valor": 706.8,
+          "nf": "",
+          "data_agendamento": "11/08/2026",
+          "data_ord": "2026-08-11",
+          "status": "A FATURAR",
+          "obs": "SUPERMERCADO SUPERMAKET - PRODUTOS EM ENCARTE",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "90411",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "cnpj": "08.628.825/0018-05",
+          "filial": "MESQUITA",
+          "valor": 2708.4,
+          "nf": "",
+          "data_agendamento": "11/08/2026",
+          "data_ord": "2026-08-11",
+          "status": "A FATURAR",
+          "obs": "SUPERMERCADO SUPERMAKET - PRODUTOS EM ENCARTE",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "78665",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "cnpj": "08.628.825/0022-91",
+          "filial": "DEL CASTILHO",
+          "valor": 4002.6,
+          "nf": "",
+          "data_agendamento": "11/08/2026",
+          "data_ord": "2026-08-11",
+          "status": "A FATURAR",
+          "obs": "SUPERMERCADO SUPERMAKET - PRODUTOS EM ENCARTE",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
         {
           "codigo_cliente": "28385",
           "cliente": "BOM DE PRECO COMERCIO - REDE ECONOMIA",
@@ -24976,8 +25060,8 @@ const AGENDAMENTO_DATA = {
           "filial": "PACIENCIA",
           "valor": 2386.2,
           "nf": "7101",
-          "data_agendamento": "10/08/2026",
-          "data_ord": "2026-08-10",
+          "data_agendamento": "11/08/2026",
+          "data_ord": "2026-08-11",
           "status": "FATURADO",
           "obs": "",
           "status_logistica": "",
@@ -25756,7 +25840,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "10/08/2026 14:11",
+  "atualizado_em": "10/08/2026 14:27",
   "comparativo": [
     {
       "msg_id": "19fdbe784cc15bdd",
