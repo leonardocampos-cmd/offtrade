@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "10/08/2026 14:29",
-  "total": 22368,
+  "atualizado_em": "10/08/2026 14:47",
+  "total": 22370,
   "clientes": [
     {
       "codcli": "38586",
@@ -154596,6 +154596,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "JADDE CARVALHO"
     },
     {
+      "codcli": "85344",
+      "razao": "FORCA MOTRIZ LTDA",
+      "fantasia": "FORCA MOTRIZ",
+      "bairro": "SAO LUIZ",
+      "cidade": "SANTA MARIA DE",
+      "cnpj": "49.196.654/0001-21",
+      "estado": "ES",
+      "ramo": "SERVIÇOS",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "35781",
       "razao": "FORCE MEAT COMERCIO E DISTRIBUICAO DE CARNES E DERIVADOS LTD",
       "fantasia": "FORCE MEAT COMERCIO E DISTRIBUICAO DE CA",
@@ -176818,6 +176834,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
+    },
+    {
+      "codcli": "75514",
+      "razao": "IRAJA ALIFE NINO RESTAURANTE LTDA",
+      "fantasia": "RAINHA BARRA",
+      "bairro": "BARRA DA TIJUCA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "35.962.527/0010-72",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "10",
+      "nome_usur1": "INATIVO3",
+      "codusur2": "229",
+      "nome_usur2": "LUIZA HASSEN"
     },
     {
       "codcli": "76271",
