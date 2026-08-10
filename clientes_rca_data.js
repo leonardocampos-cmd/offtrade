@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "10/08/2026 13:43",
+  "atualizado_em": "10/08/2026 14:12",
   "total": 22368,
   "clientes": [
     {
@@ -122283,11 +122283,11 @@ const CLIENTES_RCA_DATA = {
       "cidade": "SAO MATEUS",
       "cnpj": "35.674.932/0001-02",
       "estado": "ES",
-      "ramo": "MERCADO",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "269",
+      "nome_usur1": "OZISLLAN RAMALHO DE SOUZA - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
@@ -328964,22 +328964,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "85429",
-      "razao": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-      "fantasia": "SUPERMERCADOS BH",
-      "bairro": "SAO FRANCISCO",
-      "cidade": "CARIACICA",
-      "cnpj": "04.641.376/0303-96",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": true,
-      "rede": "SUPERMERCADOS BH",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "85430",
       "razao": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
       "fantasia": "SUPERMERCADOS BH",
@@ -329044,22 +329028,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "85440",
-      "razao": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-      "fantasia": "SUPERMERCADOS BH",
-      "bairro": "SÃO PATRÍCIO",
-      "cidade": "SERRA",
-      "cnpj": "04.641.376/0420-50",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": true,
-      "rede": "SUPERMERCADOS BH",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "85441",
       "razao": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
       "fantasia": "SUPERMERCADOS BH",
@@ -329082,6 +329050,22 @@ const CLIENTES_RCA_DATA = {
       "bairro": "DAS LARANJEIRAS",
       "cidade": "SERRA",
       "cnpj": "04.641.376/0342-00",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "key_account": true,
+      "rede": "SUPERMERCADOS BH",
+      "codusur1": "388",
+      "nome_usur1": "EUDES MORGAN - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "85409",
+      "razao": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+      "fantasia": "SUPERMERCADOS BH",
+      "bairro": "IBES",
+      "cidade": "VILA VELHA",
+      "cnpj": "04.641.376/0302-05",
       "estado": "ES",
       "ramo": "MERCADO",
       "key_account": true,
@@ -329120,6 +329104,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "SUPERMERCADOS BH",
       "codusur1": "388",
       "nome_usur1": "EUDES MORGAN - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "85835",
+      "razao": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+      "fantasia": "SUPERMERCADOS BH",
+      "bairro": "JARDIM CAMBURI",
+      "cidade": "VITORIA",
+      "cnpj": "04.641.376/0343-83",
+      "estado": "ES",
+      "ramo": "MERCADO",
+      "key_account": true,
+      "rede": "SUPERMERCADOS BH",
+      "codusur1": "10",
+      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
