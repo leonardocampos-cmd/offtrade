@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "10/08/2026 17:37",
+  "atualizado_em": "10/08/2026 17:59",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -13,10 +13,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 80000.0,
-          "realizado": 26288.74,
+          "realizado": 26806.42,
           "peso": 0.1,
-          "ating_meta": 0.328609,
-          "ating_acumulado": 0.032861
+          "ating_meta": 0.33508,
+          "ating_acumulado": 0.033508
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -53,10 +53,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO",
           "meta": 70.0,
-          "realizado": 27,
+          "realizado": 28,
           "peso": 0.65,
-          "ating_meta": 0.385714,
-          "ating_acumulado": 0.250714
+          "ating_meta": 0.4,
+          "ating_acumulado": 0.26
         },
         {
           "label": "POSITIVAÇÃO ESSENZA",
@@ -101,7 +101,7 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO RED BULL",
           "meta": 0.0,
-          "realizado": 8,
+          "realizado": 9,
           "peso": 0.0,
           "ating_meta": 0.0,
           "ating_acumulado": 0.0
@@ -123,14 +123,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.0125
         }
       ],
-      "ating_acumulado_total": 0.344581,
-      "pct_premio": 0.00516871,
+      "ating_acumulado_total": 0.354514,
+      "pct_premio": 0.00531771,
       "liq_rigarr": 20574.1,
       "fat_castas": 879.6,
       "teto_comissao": 3000.0,
-      "com_rigarr": 1033.74,
-      "com_castas": 4.55,
-      "comissao_estimada": 1038.29
+      "com_rigarr": 1063.54,
+      "com_castas": 4.68,
+      "comissao_estimada": 1068.22
     },
     {
       "nome": "FABIO VALOTTI - OFF TRADE",
@@ -521,10 +521,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 200000.0,
-          "realizado": 40572.07,
+          "realizado": 43784.77,
           "peso": 0.7,
-          "ating_meta": 0.20286,
-          "ating_acumulado": 0.142002
+          "ating_meta": 0.218924,
+          "ating_acumulado": 0.153247
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -537,10 +537,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO CASTAS",
           "meta": 10000.0,
-          "realizado": 8130.9,
+          "realizado": 8848.5,
           "peso": 0.1,
-          "ating_meta": 0.81309,
-          "ating_acumulado": 0.081309
+          "ating_meta": 0.88485,
+          "ating_acumulado": 0.088485
         },
         {
           "label": "FATURAMENTO HOB + AZEITE",
@@ -561,10 +561,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO",
           "meta": 50.0,
-          "realizado": 10,
+          "realizado": 11,
           "peso": 0.1,
-          "ating_meta": 0.2,
-          "ating_acumulado": 0.02
+          "ating_meta": 0.22,
+          "ating_acumulado": 0.022
         },
         {
           "label": "POSITIVAÇÃO ESSENZA",
@@ -625,20 +625,20 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO TIAL",
           "meta": 0.0,
-          "realizado": 3,
+          "realizado": 4,
           "peso": 0.0,
           "ating_meta": 0.0,
           "ating_acumulado": 0.0
         }
       ],
-      "ating_acumulado_total": 0.253127,
-      "pct_premio": 0.0037969,
+      "ating_acumulado_total": 0.273548,
+      "pct_premio": 0.00410322,
       "liq_rigarr": 21359.18,
-      "fat_castas": 8130.9,
+      "fat_castas": 8848.5,
       "teto_comissao": null,
-      "com_rigarr": 81.1,
-      "com_castas": 30.87,
-      "comissao_estimada": 111.97
+      "com_rigarr": 87.64,
+      "com_castas": 36.31,
+      "comissao_estimada": 123.95
     },
     {
       "nome": "DANIELLE MOURA - OFF TRADE",
@@ -775,10 +775,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 120000.0,
-          "realizado": 45122.11,
+          "realizado": 45814.31,
           "peso": 0.7,
-          "ating_meta": 0.376018,
-          "ating_acumulado": 0.263213
+          "ating_meta": 0.381786,
+          "ating_acumulado": 0.26725
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -815,10 +815,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO",
           "meta": 90.0,
-          "realizado": 43,
+          "realizado": 44,
           "peso": 0.1,
-          "ating_meta": 0.477778,
-          "ating_acumulado": 0.047778
+          "ating_meta": 0.488889,
+          "ating_acumulado": 0.048889
         },
         {
           "label": "POSITIVAÇÃO ESSENZA",
@@ -871,7 +871,7 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO TATUZINHO",
           "meta": 0.0,
-          "realizado": 24,
+          "realizado": 25,
           "peso": 0.0,
           "ating_meta": 0.0,
           "ating_acumulado": 0.0
@@ -885,14 +885,141 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.0
         }
       ],
-      "ating_acumulado_total": 0.38975,
-      "pct_premio": 0.00584625,
+      "ating_acumulado_total": 0.394898,
+      "pct_premio": 0.00592347,
       "liq_rigarr": 9851.13,
       "fat_castas": 3108.16,
       "teto_comissao": null,
-      "com_rigarr": 57.59,
-      "com_castas": 18.17,
-      "comissao_estimada": 75.76
+      "com_rigarr": 58.35,
+      "com_castas": 18.41,
+      "comissao_estimada": 76.76
+    },
+    {
+      "nome": "LEANDRO SOUZA - OFF TRADE",
+      "rca": "450",
+      "contrato": "EXECUTIVOS RJ",
+      "submetas": [
+        {
+          "label": "FATURAMENTO",
+          "meta": 250000.0,
+          "realizado": 41228.6,
+          "peso": 0.7,
+          "ating_meta": 0.164914,
+          "ating_acumulado": 0.11544
+        },
+        {
+          "label": "FATURAMENTO PERNOD",
+          "meta": 30000.0,
+          "realizado": 1398.0,
+          "peso": 0.05,
+          "ating_meta": 0.0466,
+          "ating_acumulado": 0.00233
+        },
+        {
+          "label": "FATURAMENTO CASTAS",
+          "meta": 10000.0,
+          "realizado": 6490.2,
+          "peso": 0.1,
+          "ating_meta": 0.64902,
+          "ating_acumulado": 0.064902
+        },
+        {
+          "label": "FATURAMENTO HOB + AZEITE",
+          "meta": 1500.0,
+          "realizado": 0.0,
+          "peso": 0.05,
+          "ating_meta": 0.0,
+          "ating_acumulado": 0.0
+        },
+        {
+          "label": "FATURAMENTO AZEITE",
+          "meta": 0.0,
+          "realizado": 0.0,
+          "peso": 0.0,
+          "ating_meta": 0.0,
+          "ating_acumulado": 0.0
+        },
+        {
+          "label": "POSITIVAÇÃO",
+          "meta": 45.0,
+          "realizado": 11,
+          "peso": 0.1,
+          "ating_meta": 0.244444,
+          "ating_acumulado": 0.024444
+        },
+        {
+          "label": "POSITIVAÇÃO ESSENZA",
+          "meta": 0.0,
+          "realizado": 0,
+          "peso": 0.0,
+          "ating_meta": 0.0,
+          "ating_acumulado": 0.0
+        },
+        {
+          "label": "POSITIVAÇÃO ESSENZA+HOB",
+          "meta": 0.0,
+          "realizado": 0,
+          "peso": 0.0,
+          "ating_meta": 0.0,
+          "ating_acumulado": 0.0
+        },
+        {
+          "label": "POSITIVAÇÃO HOB + AZEITE",
+          "meta": 0.0,
+          "realizado": 0,
+          "peso": 0.0,
+          "ating_meta": 0.0,
+          "ating_acumulado": 0.0
+        },
+        {
+          "label": "POSITIVAÇÃO PINATTI",
+          "meta": 0.0,
+          "realizado": 0,
+          "peso": 0.0,
+          "ating_meta": 0.0,
+          "ating_acumulado": 0.0
+        },
+        {
+          "label": "POSITIVAÇÃO RECKIT",
+          "meta": 0.0,
+          "realizado": 0,
+          "peso": 0.0,
+          "ating_meta": 0.0,
+          "ating_acumulado": 0.0
+        },
+        {
+          "label": "POSITIVAÇÃO RED BULL",
+          "meta": 0.0,
+          "realizado": 0,
+          "peso": 0.0,
+          "ating_meta": 0.0,
+          "ating_acumulado": 0.0
+        },
+        {
+          "label": "POSITIVAÇÃO TATUZINHO",
+          "meta": 0.0,
+          "realizado": 1,
+          "peso": 0.0,
+          "ating_meta": 0.0,
+          "ating_acumulado": 0.0
+        },
+        {
+          "label": "POSITIVAÇÃO TIAL",
+          "meta": 0.0,
+          "realizado": 0,
+          "peso": 0.0,
+          "ating_meta": 0.0,
+          "ating_acumulado": 0.0
+        }
+      ],
+      "ating_acumulado_total": 0.207116,
+      "pct_premio": 0.00310674,
+      "liq_rigarr": 16301.74,
+      "fat_castas": 6490.2,
+      "teto_comissao": null,
+      "com_rigarr": 50.65,
+      "com_castas": 20.16,
+      "comissao_estimada": 70.81
     },
     {
       "nome": "DIOGO RAPOSO - OFF TRADE",
@@ -1149,6 +1276,133 @@ const COMISSAO_DATA = {
       "comissao_estimada": 43.97
     },
     {
+      "nome": "JOSE MARCELO CARDOSO - OFF TRADE",
+      "rca": "158",
+      "contrato": "EXECUTIVOS RJ",
+      "submetas": [
+        {
+          "label": "FATURAMENTO",
+          "meta": 275000.0,
+          "realizado": 31828.08,
+          "peso": 0.7,
+          "ating_meta": 0.115738,
+          "ating_acumulado": 0.081017
+        },
+        {
+          "label": "FATURAMENTO PERNOD",
+          "meta": 20000.0,
+          "realizado": 0.0,
+          "peso": 0.05,
+          "ating_meta": 0.0,
+          "ating_acumulado": 0.0
+        },
+        {
+          "label": "FATURAMENTO CASTAS",
+          "meta": 12000.0,
+          "realizado": 0.0,
+          "peso": 0.1,
+          "ating_meta": 0.0,
+          "ating_acumulado": 0.0
+        },
+        {
+          "label": "FATURAMENTO HOB + AZEITE",
+          "meta": 1500.0,
+          "realizado": 0.0,
+          "peso": 0.05,
+          "ating_meta": 0.0,
+          "ating_acumulado": 0.0
+        },
+        {
+          "label": "FATURAMENTO AZEITE",
+          "meta": 0.0,
+          "realizado": 0.0,
+          "peso": 0.0,
+          "ating_meta": 0.0,
+          "ating_acumulado": 0.0
+        },
+        {
+          "label": "POSITIVAÇÃO",
+          "meta": 10.0,
+          "realizado": 1,
+          "peso": 0.1,
+          "ating_meta": 0.1,
+          "ating_acumulado": 0.01
+        },
+        {
+          "label": "POSITIVAÇÃO ESSENZA",
+          "meta": 0.0,
+          "realizado": 0,
+          "peso": 0.0,
+          "ating_meta": 0.0,
+          "ating_acumulado": 0.0
+        },
+        {
+          "label": "POSITIVAÇÃO ESSENZA+HOB",
+          "meta": 0.0,
+          "realizado": 0,
+          "peso": 0.0,
+          "ating_meta": 0.0,
+          "ating_acumulado": 0.0
+        },
+        {
+          "label": "POSITIVAÇÃO HOB + AZEITE",
+          "meta": 0.0,
+          "realizado": 0,
+          "peso": 0.0,
+          "ating_meta": 0.0,
+          "ating_acumulado": 0.0
+        },
+        {
+          "label": "POSITIVAÇÃO PINATTI",
+          "meta": 0.0,
+          "realizado": 0,
+          "peso": 0.0,
+          "ating_meta": 0.0,
+          "ating_acumulado": 0.0
+        },
+        {
+          "label": "POSITIVAÇÃO RECKIT",
+          "meta": 0.0,
+          "realizado": 0,
+          "peso": 0.0,
+          "ating_meta": 0.0,
+          "ating_acumulado": 0.0
+        },
+        {
+          "label": "POSITIVAÇÃO RED BULL",
+          "meta": 0.0,
+          "realizado": 0,
+          "peso": 0.0,
+          "ating_meta": 0.0,
+          "ating_acumulado": 0.0
+        },
+        {
+          "label": "POSITIVAÇÃO TATUZINHO",
+          "meta": 0.0,
+          "realizado": 0,
+          "peso": 0.0,
+          "ating_meta": 0.0,
+          "ating_acumulado": 0.0
+        },
+        {
+          "label": "POSITIVAÇÃO TIAL",
+          "meta": 0.0,
+          "realizado": 0,
+          "peso": 0.0,
+          "ating_meta": 0.0,
+          "ating_acumulado": 0.0
+        }
+      ],
+      "ating_acumulado_total": 0.091017,
+      "pct_premio": 0.00136525,
+      "liq_rigarr": 19879.92,
+      "fat_castas": 0.0,
+      "teto_comissao": null,
+      "com_rigarr": 27.14,
+      "com_castas": 0.0,
+      "comissao_estimada": 27.14
+    },
+    {
       "nome": "BARBARA CABRAL - OFF TRADE",
       "rca": "412",
       "contrato": "EXECUTIVOS RJ",
@@ -1276,133 +1530,6 @@ const COMISSAO_DATA = {
       "comissao_estimada": 22.69
     },
     {
-      "nome": "LEANDRO SOUZA - OFF TRADE",
-      "rca": "450",
-      "contrato": "EXECUTIVOS RJ",
-      "submetas": [
-        {
-          "label": "FATURAMENTO",
-          "meta": 250000.0,
-          "realizado": 22718.0,
-          "peso": 0.7,
-          "ating_meta": 0.090872,
-          "ating_acumulado": 0.06361
-        },
-        {
-          "label": "FATURAMENTO PERNOD",
-          "meta": 30000.0,
-          "realizado": 0.0,
-          "peso": 0.05,
-          "ating_meta": 0.0,
-          "ating_acumulado": 0.0
-        },
-        {
-          "label": "FATURAMENTO CASTAS",
-          "meta": 10000.0,
-          "realizado": 670.8,
-          "peso": 0.1,
-          "ating_meta": 0.06708,
-          "ating_acumulado": 0.006708
-        },
-        {
-          "label": "FATURAMENTO HOB + AZEITE",
-          "meta": 1500.0,
-          "realizado": 0.0,
-          "peso": 0.05,
-          "ating_meta": 0.0,
-          "ating_acumulado": 0.0
-        },
-        {
-          "label": "FATURAMENTO AZEITE",
-          "meta": 0.0,
-          "realizado": 0.0,
-          "peso": 0.0,
-          "ating_meta": 0.0,
-          "ating_acumulado": 0.0
-        },
-        {
-          "label": "POSITIVAÇÃO",
-          "meta": 45.0,
-          "realizado": 3,
-          "peso": 0.1,
-          "ating_meta": 0.066667,
-          "ating_acumulado": 0.006667
-        },
-        {
-          "label": "POSITIVAÇÃO ESSENZA",
-          "meta": 0.0,
-          "realizado": 0,
-          "peso": 0.0,
-          "ating_meta": 0.0,
-          "ating_acumulado": 0.0
-        },
-        {
-          "label": "POSITIVAÇÃO ESSENZA+HOB",
-          "meta": 0.0,
-          "realizado": 0,
-          "peso": 0.0,
-          "ating_meta": 0.0,
-          "ating_acumulado": 0.0
-        },
-        {
-          "label": "POSITIVAÇÃO HOB + AZEITE",
-          "meta": 0.0,
-          "realizado": 0,
-          "peso": 0.0,
-          "ating_meta": 0.0,
-          "ating_acumulado": 0.0
-        },
-        {
-          "label": "POSITIVAÇÃO PINATTI",
-          "meta": 0.0,
-          "realizado": 0,
-          "peso": 0.0,
-          "ating_meta": 0.0,
-          "ating_acumulado": 0.0
-        },
-        {
-          "label": "POSITIVAÇÃO RECKIT",
-          "meta": 0.0,
-          "realizado": 0,
-          "peso": 0.0,
-          "ating_meta": 0.0,
-          "ating_acumulado": 0.0
-        },
-        {
-          "label": "POSITIVAÇÃO RED BULL",
-          "meta": 0.0,
-          "realizado": 0,
-          "peso": 0.0,
-          "ating_meta": 0.0,
-          "ating_acumulado": 0.0
-        },
-        {
-          "label": "POSITIVAÇÃO TATUZINHO",
-          "meta": 0.0,
-          "realizado": 1,
-          "peso": 0.0,
-          "ating_meta": 0.0,
-          "ating_acumulado": 0.0
-        },
-        {
-          "label": "POSITIVAÇÃO TIAL",
-          "meta": 0.0,
-          "realizado": 0,
-          "peso": 0.0,
-          "ating_meta": 0.0,
-          "ating_acumulado": 0.0
-        }
-      ],
-      "ating_acumulado_total": 0.076985,
-      "pct_premio": 0.00115478,
-      "liq_rigarr": 16301.74,
-      "fat_castas": 670.8,
-      "teto_comissao": null,
-      "com_rigarr": 18.82,
-      "com_castas": 0.77,
-      "comissao_estimada": 19.59
-    },
-    {
       "nome": "MARIA LUIZA - OFF TRADE",
       "rca": "275",
       "contrato": "EXECUTIVOS RJ",
@@ -1523,133 +1650,6 @@ const COMISSAO_DATA = {
       "ating_acumulado_total": 0.0,
       "pct_premio": 0.0,
       "liq_rigarr": 66838.81,
-      "fat_castas": 0.0,
-      "teto_comissao": null,
-      "com_rigarr": 0.0,
-      "com_castas": 0.0,
-      "comissao_estimada": 0.0
-    },
-    {
-      "nome": "JOSE MARCELO CARDOSO - OFF TRADE",
-      "rca": "158",
-      "contrato": "EXECUTIVOS RJ",
-      "submetas": [
-        {
-          "label": "FATURAMENTO",
-          "meta": 275000.0,
-          "realizado": 0.0,
-          "peso": 0.7,
-          "ating_meta": 0.0,
-          "ating_acumulado": 0.0
-        },
-        {
-          "label": "FATURAMENTO PERNOD",
-          "meta": 20000.0,
-          "realizado": 0.0,
-          "peso": 0.05,
-          "ating_meta": 0.0,
-          "ating_acumulado": 0.0
-        },
-        {
-          "label": "FATURAMENTO CASTAS",
-          "meta": 12000.0,
-          "realizado": 0.0,
-          "peso": 0.1,
-          "ating_meta": 0.0,
-          "ating_acumulado": 0.0
-        },
-        {
-          "label": "FATURAMENTO HOB + AZEITE",
-          "meta": 1500.0,
-          "realizado": 0.0,
-          "peso": 0.05,
-          "ating_meta": 0.0,
-          "ating_acumulado": 0.0
-        },
-        {
-          "label": "FATURAMENTO AZEITE",
-          "meta": 0.0,
-          "realizado": 0.0,
-          "peso": 0.0,
-          "ating_meta": 0.0,
-          "ating_acumulado": 0.0
-        },
-        {
-          "label": "POSITIVAÇÃO",
-          "meta": 10.0,
-          "realizado": 0,
-          "peso": 0.1,
-          "ating_meta": 0.0,
-          "ating_acumulado": 0.0
-        },
-        {
-          "label": "POSITIVAÇÃO ESSENZA",
-          "meta": 0.0,
-          "realizado": 0,
-          "peso": 0.0,
-          "ating_meta": 0.0,
-          "ating_acumulado": 0.0
-        },
-        {
-          "label": "POSITIVAÇÃO ESSENZA+HOB",
-          "meta": 0.0,
-          "realizado": 0,
-          "peso": 0.0,
-          "ating_meta": 0.0,
-          "ating_acumulado": 0.0
-        },
-        {
-          "label": "POSITIVAÇÃO HOB + AZEITE",
-          "meta": 0.0,
-          "realizado": 0,
-          "peso": 0.0,
-          "ating_meta": 0.0,
-          "ating_acumulado": 0.0
-        },
-        {
-          "label": "POSITIVAÇÃO PINATTI",
-          "meta": 0.0,
-          "realizado": 0,
-          "peso": 0.0,
-          "ating_meta": 0.0,
-          "ating_acumulado": 0.0
-        },
-        {
-          "label": "POSITIVAÇÃO RECKIT",
-          "meta": 0.0,
-          "realizado": 0,
-          "peso": 0.0,
-          "ating_meta": 0.0,
-          "ating_acumulado": 0.0
-        },
-        {
-          "label": "POSITIVAÇÃO RED BULL",
-          "meta": 0.0,
-          "realizado": 0,
-          "peso": 0.0,
-          "ating_meta": 0.0,
-          "ating_acumulado": 0.0
-        },
-        {
-          "label": "POSITIVAÇÃO TATUZINHO",
-          "meta": 0.0,
-          "realizado": 0,
-          "peso": 0.0,
-          "ating_meta": 0.0,
-          "ating_acumulado": 0.0
-        },
-        {
-          "label": "POSITIVAÇÃO TIAL",
-          "meta": 0.0,
-          "realizado": 0,
-          "peso": 0.0,
-          "ating_meta": 0.0,
-          "ating_acumulado": 0.0
-        }
-      ],
-      "ating_acumulado_total": 0.0,
-      "pct_premio": 0.0,
-      "liq_rigarr": 19879.92,
       "fat_castas": 0.0,
       "teto_comissao": null,
       "com_rigarr": 0.0,
