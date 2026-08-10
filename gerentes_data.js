@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "10/08/2026 10:43",
+  "atualizado_em": "10/08/2026 11:56",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -35,8 +35,8 @@ const GERENTES_DATA = {
           "qt": 51894
         },
         "Ago/26": {
-          "fat": 195732.22,
-          "qt": 2671
+          "fat": 195790.54,
+          "qt": 2673
         }
       },
       "gerentes": [
@@ -67,8 +67,8 @@ const GERENTES_DATA = {
               "qt": 44286
             },
             "Ago/26": {
-              "fat": 195732.22,
-              "qt": 2671
+              "fat": 195790.54,
+              "qt": 2673
             }
           },
           "supervisores": [
@@ -171,8 +171,8 @@ const GERENTES_DATA = {
                   "qt": 23369
                 },
                 "Ago/26": {
-                  "fat": 116.64,
-                  "qt": 4
+                  "fat": 174.96,
+                  "qt": 6
                 }
               },
               "vendedores": [
@@ -184,6 +184,10 @@ const GERENTES_DATA = {
                     "Abr/26": {
                       "fat": 64827.08,
                       "qt": 1878
+                    },
+                    "Ago/26": {
+                      "fat": 58.32,
+                      "qt": 2
                     },
                     "Jul/26": {
                       "fat": 204.12,
@@ -1439,7 +1443,7 @@ const GERENTES_DATA = {
                 },
                 {
                   "nome": "NÁTALI DE OLIVEIRA - OFF TRADE",
-                  "rca": "482",
+                  "rca": "419",
                   "estado": "RJ",
                   "por_mes": {
                     "Jul/26": {
@@ -1470,7 +1474,7 @@ const GERENTES_DATA = {
                 },
                 {
                   "nome": "VIVIANI ALVES - OFF TRADE",
-                  "rca": "119",
+                  "rca": "91",
                   "estado": "RJ",
                   "por_mes": {
                     "Abr/26": {
