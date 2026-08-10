@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "10/08/2026 10:23",
+  "atualizado_em": "10/08/2026 10:37",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -5375,6 +5375,15 @@ const INATIVOS_DATA = {
         }
       ],
       "sem_compra": [
+        {
+          "codcli": "85155",
+          "cliente": "L MACHADO DE PONTES DEPOSITO DE BEBIDAS",
+          "bairro": "AQUARIUS (TAMOIOS)",
+          "cidade": "CABO FRIO",
+          "dtultcomp": "01/04/2026",
+          "dias": 131,
+          "media": 0.0
+        },
         {
           "codcli": "90319",
           "cliente": "62.299.341 VICTOR ALVARENGA SOUZA E SOUZA",
