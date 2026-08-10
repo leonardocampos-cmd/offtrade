@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "10/08/2026 14:43",
+  "atualizado_em": "10/08/2026 14:58",
   "data_rota": "10.08",
   "vendedores": [
     {
@@ -744,7 +744,53 @@ const ENTREGAS_DATA = {
     {
       "nome": "ANA CLARA FASSANO - OFF TRADE",
       "em_rota": [],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "471000516",
+          "numnota": "",
+          "data": "10/08/2026",
+          "cliente": "VALE FORMOSO IMPORTACAO E EXPORTACAO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 284.7,
+          "itens": [
+            {
+              "desc": "GIN TANQUERAY  750 ML",
+              "qt": 3,
+              "val": 284.7
+            }
+          ]
+        },
+        {
+          "numped": "471000515",
+          "numnota": "",
+          "data": "10/08/2026",
+          "cliente": "BAR E RESTAURANTE SOUSA SOUTO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 287.1,
+          "itens": [
+            {
+              "desc": "ST PIERRE LATA RED MINT LT 24X270ML",
+              "qt": 1,
+              "val": 95.9
+            },
+            {
+              "desc": "ESPUMANTE BRUT QUINTA DMORGADO 660ML",
+              "qt": 8,
+              "val": 191.2
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "471000385",
