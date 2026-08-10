@@ -1,31 +1,11 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "10/08/2026 14:58",
+  "atualizado_em": "10/08/2026 16:26",
   "data_rota": "10.08",
   "vendedores": [
     {
       "nome": "ADEILSON GONÇALVEZ - OFF TRADE",
       "em_rota": [],
       "nao_emitido": [
-        {
-          "numped": "431001223",
-          "numnota": "",
-          "data": "10/08/2026",
-          "cliente": "KVSO I COM PROD FAR LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 359.52,
-          "itens": [
-            {
-              "desc": "4 PACK RED BULL 250ML",
-              "qt": 12,
-              "val": 359.52
-            }
-          ]
-        },
         {
           "numped": "431001222",
           "numnota": "",
@@ -744,30 +724,11 @@ const ENTREGAS_DATA = {
     {
       "nome": "ANA CLARA FASSANO - OFF TRADE",
       "em_rota": [],
-      "nao_emitido": [
-        {
-          "numped": "471000516",
-          "numnota": "",
-          "data": "10/08/2026",
-          "cliente": "VALE FORMOSO IMPORTACAO E EXPORTACAO LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 284.7,
-          "itens": [
-            {
-              "desc": "GIN TANQUERAY  750 ML",
-              "qt": 3,
-              "val": 284.7
-            }
-          ]
-        },
+      "nao_emitido": [],
+      "emitido_s_rota": [
         {
           "numped": "471000515",
-          "numnota": "",
+          "numnota": "419993",
           "data": "10/08/2026",
           "cliente": "BAR E RESTAURANTE SOUSA SOUTO LTDA",
           "placa": "",
@@ -789,9 +750,27 @@ const ENTREGAS_DATA = {
               "val": 191.2
             }
           ]
-        }
-      ],
-      "emitido_s_rota": [
+        },
+        {
+          "numped": "471000516",
+          "numnota": "419961",
+          "data": "10/08/2026",
+          "cliente": "VALE FORMOSO IMPORTACAO E EXPORTACAO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 284.7,
+          "itens": [
+            {
+              "desc": "GIN TANQUERAY  750 ML",
+              "qt": 3,
+              "val": 284.7
+            }
+          ]
+        },
         {
           "numped": "471000385",
           "numnota": "408123",
@@ -1606,6 +1585,41 @@ const ENTREGAS_DATA = {
               "val": 429.6
             }
           ]
+        },
+        {
+          "numped": "153001364",
+          "numnota": "",
+          "data": "10/08/2026",
+          "cliente": "SUPERMERCADO RIO SUL DO LAUREANO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "entregar no dia 11/08 com pagamento de descarga no valor de R$60,00 por pal",
+          "total": 827.46,
+          "itens": [
+            {
+              "desc": "NECTAR GOIABA 12X1000ML",
+              "qt": 1,
+              "val": 54.78
+            },
+            {
+              "desc": "NECTAR PESSEGO 12X1000ML",
+              "qt": 1,
+              "val": 57.48
+            },
+            {
+              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+              "qt": 24,
+              "val": 285.6
+            },
+            {
+              "desc": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
+              "qt": 24,
+              "val": 429.6
+            }
+          ]
         }
       ],
       "emitido_s_rota": [
@@ -2064,7 +2078,7 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 663.7,
+          "total": 589.68,
           "itens": [
             {
               "desc": "RED BULL 24X250ML",
@@ -2075,11 +2089,6 @@ const ENTREGAS_DATA = {
               "desc": "RED BULL SUGAR FREE 24X250ML",
               "qt": 1,
               "val": 196.56
-            },
-            {
-              "desc": "GUARAVITON GINSENG 12X500ML",
-              "qt": 2,
-              "val": 74.02
             }
           ]
         }
@@ -2980,7 +2989,43 @@ const ENTREGAS_DATA = {
     {
       "nome": "FABIO VALOTTI - OFF TRADE",
       "em_rota": [],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "378000593",
+          "numnota": "",
+          "data": "10/08/2026",
+          "cliente": "ATAC E VAR DE BEBIDAS NOSSA SENHORA DE FATIMA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Favor entregar dia 11/08",
+          "total": 454.8,
+          "itens": [
+            {
+              "desc": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
+              "qt": 1,
+              "val": 132.0
+            },
+            {
+              "desc": "CONHAQUE DOMECQ 1L",
+              "qt": 2,
+              "val": 57.8
+            },
+            {
+              "desc": "CERVEJA HEINEKEN LONG 24X330ML",
+              "qt": 1,
+              "val": 132.0
+            },
+            {
+              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+              "qt": 2,
+              "val": 133.0
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "378000461",
@@ -3301,31 +3346,6 @@ const ENTREGAS_DATA = {
       "nome": "GISELLE BARFER - OFF TRADE",
       "em_rota": [],
       "nao_emitido": [
-        {
-          "numped": "159005242",
-          "numnota": "",
-          "data": "10/08/2026",
-          "cliente": "PORT FOOD COMERCIO INDUSTRIA DE ALIMENTOS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 345.12,
-          "itens": [
-            {
-              "desc": "RED BULL 24X250ML",
-              "qt": 1,
-              "val": 172.56
-            },
-            {
-              "desc": "RED BULL SUGAR FREE 24X250ML",
-              "qt": 1,
-              "val": 172.56
-            }
-          ]
-        },
         {
           "numped": "159005241",
           "numnota": "",
@@ -4381,6 +4401,51 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "379001380",
+          "numnota": "",
+          "data": "10/08/2026",
+          "cliente": "R F SANTANA MERCEARIA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 440.94,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 2,
+              "val": 345.18
+            },
+            {
+              "desc": "RED BULL SF NECTARINA 24X250ML",
+              "qt": 1,
+              "val": 95.76
+            }
+          ]
+        },
+        {
+          "numped": "379001382",
+          "numnota": "",
+          "data": "10/08/2026",
+          "cliente": "J R J 2005 COMERCIO DE BEBIDAS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 517.68,
+          "itens": [
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 3,
+              "val": 517.68
+            }
+          ]
+        },
+        {
           "numped": "379001381",
           "numnota": "",
           "data": "10/08/2026",
@@ -4407,61 +4472,6 @@ const ENTREGAS_DATA = {
               "desc": "RED BULL SF NECTARINA 24X250ML",
               "qt": 1,
               "val": 95.76
-            }
-          ]
-        },
-        {
-          "numped": "379001379",
-          "numnota": "",
-          "data": "10/08/2026",
-          "cliente": "MN GAZZOLI MERCEARIA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 322.72,
-          "itens": [
-            {
-              "desc": "4 PACK RED BULL 250ML",
-              "qt": 2,
-              "val": 57.52
-            },
-            {
-              "desc": "VEJA MULTIUSO/1BAN/1COZ PACK C/3 24X500M",
-              "qt": 1,
-              "val": 133.2
-            },
-            {
-              "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-              "qt": 1,
-              "val": 132.0
-            }
-          ]
-        },
-        {
-          "numped": "379001380",
-          "numnota": "",
-          "data": "10/08/2026",
-          "cliente": "R F SANTANA MERCEARIA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 440.94,
-          "itens": [
-            {
-              "desc": "RED BULL SF NECTARINA 24X250ML",
-              "qt": 1,
-              "val": 95.76
-            },
-            {
-              "desc": "RED BULL 24X250ML",
-              "qt": 2,
-              "val": 345.18
             }
           ]
         }
@@ -6564,10 +6574,11 @@ const ENTREGAS_DATA = {
     {
       "nome": "MARILENA TRAGEL - OFF TRADE",
       "em_rota": [],
-      "nao_emitido": [
+      "nao_emitido": [],
+      "emitido_s_rota": [
         {
           "numped": "156003827",
-          "numnota": "",
+          "numnota": "419921",
           "data": "10/08/2026",
           "cliente": "POSTO JULIO DE CASTILHO LIMITADA",
           "placa": "",
@@ -6576,22 +6587,15 @@ const ENTREGAS_DATA = {
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 254.0,
+          "total": 144.5,
           "itens": [
-            {
-              "desc": "AGUA MINALBA C/ GAS 6X1,5L",
-              "qt": 5,
-              "val": 109.5
-            },
             {
               "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
               "qt": 5,
               "val": 144.5
             }
           ]
-        }
-      ],
-      "emitido_s_rota": [
+        },
         {
           "numped": "156003654",
           "numnota": "407668",
@@ -9184,92 +9188,72 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
-          "numped": "155004098",
+          "numped": "155004099",
           "numnota": "",
           "data": "10/08/2026",
-          "cliente": "MINI MERCADO G MARKET LTDA",
+          "cliente": "YARA COSTA GOMES AMORIM 08790432703",
           "placa": "",
           "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 994.8,
+          "total": 517.68,
           "itens": [
             {
-              "desc": "AGUA MINERAL MINALBA S/ GAS 12X310ML",
-              "qt": 10,
-              "val": 145.0
-            },
-            {
-              "desc": "4 PACK RED BULL SUGAR FREE",
+              "desc": "RED BULL 24X250ML",
               "qt": 3,
-              "val": 89.88
-            },
-            {
-              "desc": "4 PACK RED BULL MORANGO PESSEGO",
-              "qt": 3,
-              "val": 89.88
-            },
-            {
-              "desc": "AGUA MINERAL MINALBA C/ GAS 12X310ML",
-              "qt": 12,
-              "val": 262.8
-            },
-            {
-              "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
-              "qt": 3,
-              "val": 86.7
-            },
-            {
-              "desc": "4 PACK RED BULL CEREJA",
-              "qt": 3,
-              "val": 89.88
-            },
-            {
-              "desc": "AGUA MINALBA S/ GAS PREMIUM 12X300ML",
-              "qt": 1,
-              "val": 50.9
-            },
-            {
-              "desc": "4 PACK RED BULL MELÃO C/ MARACUJA",
-              "qt": 3,
-              "val": 89.88
-            },
-            {
-              "desc": "4 PACK RED BULL SF NECTARINA 4X250ML",
-              "qt": 3,
-              "val": 89.88
+              "val": 517.68
             }
           ]
         },
         {
-          "numped": "155004097",
+          "numped": "155004100",
           "numnota": "",
           "data": "10/08/2026",
-          "cliente": "EMS COMERCIO DE ALIMENTOS DE IGUABA LTDA",
+          "cliente": "M.J.F BORGES BAR E RESTAURANTE",
           "placa": "",
           "rota": "",
           "status_ped": "",
           "status_log": "",
           "motivo": "",
           "obs": "",
-          "total": 777.0,
+          "total": 599.12,
           "itens": [
             {
-              "desc": "GIN ROCKS STRAWBERRY 1000ML",
-              "qt": 12,
-              "val": 310.8
+              "desc": "VODKA ABSOLUT 1L",
+              "qt": 4,
+              "val": 239.6
             },
             {
-              "desc": "GIN ROCKS 1000ML",
-              "qt": 6,
-              "val": 155.4
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 1,
+              "val": 179.76
             },
             {
-              "desc": "GIN ROCKS WATERMELON 1000ML",
-              "qt": 12,
-              "val": 310.8
+              "desc": "RED BULL MELANCIA 250ML CX C/24",
+              "qt": 1,
+              "val": 179.76
+            }
+          ]
+        },
+        {
+          "numped": "155004101",
+          "numnota": "",
+          "data": "10/08/2026",
+          "cliente": "RECANTO DO PONTAL DO ATALAIA EMPREENDIMENTOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 439.8,
+          "itens": [
+            {
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIUM 5L",
+              "qt": 2,
+              "val": 439.8
             }
           ]
         }
@@ -10228,26 +10212,6 @@ const ENTREGAS_DATA = {
       "nome": "ZEINALDO DE OLIVEIRA - OFF TRADE",
       "em_rota": [],
       "nao_emitido": [
-        {
-          "numped": "241000543",
-          "numnota": "",
-          "data": "10/08/2026",
-          "cliente": "38.200.029 CLAUDIO LUIZ PEREIRA FARIA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 539.28,
-          "itens": [
-            {
-              "desc": "RED BULL 24X250ML",
-              "qt": 3,
-              "val": 539.28
-            }
-          ]
-        },
         {
           "numped": "241000544",
           "numnota": "",
