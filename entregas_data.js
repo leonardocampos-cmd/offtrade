@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "10/08/2026 16:26",
+  "atualizado_em": "10/08/2026 16:42",
   "data_rota": "10.08",
   "vendedores": [
     {
@@ -20,12 +20,12 @@ const ENTREGAS_DATA = {
           "total": 259.8,
           "itens": [
             {
-              "desc": "RC ATUM RALADO OLEO 24X140G",
+              "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
               "qt": 1,
               "val": 129.9
             },
             {
-              "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+              "desc": "RC ATUM RALADO OLEO 24X140G",
               "qt": 1,
               "val": 129.9
             }
@@ -1547,46 +1547,6 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
-          "numped": "153001363",
-          "numnota": "",
-          "data": "10/08/2026",
-          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "entregar no dia 11/08 com pagamento de descarga no valor de R$60,00 por pal",
-          "total": 2511.36,
-          "itens": [
-            {
-              "desc": "RC ATUM RALADO OLEO 24X140G",
-              "qt": 2,
-              "val": 259.68
-            },
-            {
-              "desc": "RC ATUM SOLIDO OLEO 24X170G",
-              "qt": 2,
-              "val": 339.84
-            },
-            {
-              "desc": "RC ATUM PEDACOS NATURAL 24X140G",
-              "qt": 2,
-              "val": 339.84
-            },
-            {
-              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-              "qt": 96,
-              "val": 1142.4
-            },
-            {
-              "desc": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
-              "qt": 24,
-              "val": 429.6
-            }
-          ]
-        },
-        {
           "numped": "153001364",
           "numnota": "",
           "data": "10/08/2026",
@@ -1599,11 +1559,6 @@ const ENTREGAS_DATA = {
           "obs": "entregar no dia 11/08 com pagamento de descarga no valor de R$60,00 por pal",
           "total": 827.46,
           "itens": [
-            {
-              "desc": "NECTAR GOIABA 12X1000ML",
-              "qt": 1,
-              "val": 54.78
-            },
             {
               "desc": "NECTAR PESSEGO 12X1000ML",
               "qt": 1,
@@ -1618,6 +1573,51 @@ const ENTREGAS_DATA = {
               "desc": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
               "qt": 24,
               "val": 429.6
+            },
+            {
+              "desc": "NECTAR GOIABA 12X1000ML",
+              "qt": 1,
+              "val": 54.78
+            }
+          ]
+        },
+        {
+          "numped": "153001363",
+          "numnota": "",
+          "data": "10/08/2026",
+          "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "entregar no dia 11/08 com pagamento de descarga no valor de R$60,00 por pal",
+          "total": 2511.36,
+          "itens": [
+            {
+              "desc": "RC ATUM PEDACOS NATURAL 24X140G",
+              "qt": 2,
+              "val": 339.84
+            },
+            {
+              "desc": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+              "qt": 96,
+              "val": 1142.4
+            },
+            {
+              "desc": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
+              "qt": 24,
+              "val": 429.6
+            },
+            {
+              "desc": "RC ATUM RALADO OLEO 24X140G",
+              "qt": 2,
+              "val": 259.68
+            },
+            {
+              "desc": "RC ATUM SOLIDO OLEO 24X170G",
+              "qt": 2,
+              "val": 339.84
             }
           ]
         }
@@ -4401,6 +4401,36 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "379001381",
+          "numnota": "",
+          "data": "10/08/2026",
+          "cliente": "PAVUNA EXPRESS COMERCIO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 441.28,
+          "itens": [
+            {
+              "desc": "RED BULL SF NECTARINA 24X250ML",
+              "qt": 1,
+              "val": 95.76
+            },
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 1,
+              "val": 172.76
+            },
+            {
+              "desc": "RED BULL MELANCIA 250ML CX C/24",
+              "qt": 1,
+              "val": 172.76
+            }
+          ]
+        },
+        {
           "numped": "379001380",
           "numnota": "",
           "data": "10/08/2026",
@@ -4414,14 +4444,14 @@ const ENTREGAS_DATA = {
           "total": 440.94,
           "itens": [
             {
-              "desc": "RED BULL 24X250ML",
-              "qt": 2,
-              "val": 345.18
-            },
-            {
               "desc": "RED BULL SF NECTARINA 24X250ML",
               "qt": 1,
               "val": 95.76
+            },
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 2,
+              "val": 345.18
             }
           ]
         },
@@ -4442,36 +4472,6 @@ const ENTREGAS_DATA = {
               "desc": "RED BULL 24X250ML",
               "qt": 3,
               "val": 517.68
-            }
-          ]
-        },
-        {
-          "numped": "379001381",
-          "numnota": "",
-          "data": "10/08/2026",
-          "cliente": "PAVUNA EXPRESS COMERCIO LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 441.28,
-          "itens": [
-            {
-              "desc": "RED BULL TROPICAL 24X250ML",
-              "qt": 1,
-              "val": 172.76
-            },
-            {
-              "desc": "RED BULL MELANCIA 250ML CX C/24",
-              "qt": 1,
-              "val": 172.76
-            },
-            {
-              "desc": "RED BULL SF NECTARINA 24X250ML",
-              "qt": 1,
-              "val": 95.76
             }
           ]
         }
@@ -6574,7 +6574,58 @@ const ENTREGAS_DATA = {
     {
       "nome": "MARILENA TRAGEL - OFF TRADE",
       "em_rota": [],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "156003828",
+          "numnota": "",
+          "data": "10/08/2026",
+          "cliente": "POSTO DE ABASTECIMENTO SERVICOS E COM LINHA AMARELA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 786.9,
+          "itens": [
+            {
+              "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+              "qt": 1,
+              "val": 94.7
+            },
+            {
+              "desc": "VODCA SMIRNOFF RED 998 ML",
+              "qt": 4,
+              "val": 111.6
+            },
+            {
+              "desc": "GIN TANQUERAY  750 ML",
+              "qt": 1,
+              "val": 94.9
+            },
+            {
+              "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+              "qt": 2,
+              "val": 265.8
+            },
+            {
+              "desc": "COQUETEL BANANINHA REGGIANI 950ML",
+              "qt": 1,
+              "val": 19.3
+            },
+            {
+              "desc": "LICOR BALLENA MORANGO 750 ML",
+              "qt": 1,
+              "val": 105.9
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "156003827",
@@ -8059,6 +8110,11 @@ const ENTREGAS_DATA = {
           "total": 727.08,
           "itens": [
             {
+              "desc": "RC ATUM PEDACOS NATURAL 24X140G",
+              "qt": 1,
+              "val": 191.76
+            },
+            {
               "desc": "CONHAQUE DOMECQ 1L",
               "qt": 6,
               "val": 173.4
@@ -8072,11 +8128,6 @@ const ENTREGAS_DATA = {
               "desc": "RC ATUM SOLIDO OLEO 24X170G",
               "qt": 1,
               "val": 208.56
-            },
-            {
-              "desc": "RC ATUM PEDACOS NATURAL 24X140G",
-              "qt": 1,
-              "val": 191.76
             }
           ]
         },
@@ -8093,6 +8144,11 @@ const ENTREGAS_DATA = {
           "obs": "Data entrega: 13/08/26",
           "total": 858.82,
           "itens": [
+            {
+              "desc": "NECTAR MACA TIAL 12X1000ML",
+              "qt": 1,
+              "val": 59.88
+            },
             {
               "desc": "VODKA ABSOLUT 1L",
               "qt": 1,
@@ -8142,11 +8198,31 @@ const ENTREGAS_DATA = {
               "desc": "NECTAR GOIABA 12X1000ML",
               "qt": 1,
               "val": 59.88
+            }
+          ]
+        },
+        {
+          "numped": "439000327",
+          "numnota": "",
+          "data": "10/08/2026",
+          "cliente": "53.687.173 DIEGO FERREIRA PEREIRA DA SILVA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Data entrega: 13/08/26",
+          "total": 526.56,
+          "itens": [
+            {
+              "desc": "CONHAQUE DOMECQ 1L",
+              "qt": 12,
+              "val": 346.8
             },
             {
-              "desc": "NECTAR MACA TIAL 12X1000ML",
-              "qt": 1,
-              "val": 59.88
+              "desc": "4 PACK RED BULL 250ML",
+              "qt": 6,
+              "val": 179.76
             }
           ]
         },
@@ -9188,6 +9264,26 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "155004101",
+          "numnota": "",
+          "data": "10/08/2026",
+          "cliente": "RECANTO DO PONTAL DO ATALAIA EMPREENDIMENTOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 439.8,
+          "itens": [
+            {
+              "desc": "AZEITE  ESSENZA D'ITALIA PREMIUM 5L",
+              "qt": 2,
+              "val": 439.8
+            }
+          ]
+        },
+        {
           "numped": "155004099",
           "numnota": "",
           "data": "10/08/2026",
@@ -9234,26 +9330,6 @@ const ENTREGAS_DATA = {
               "desc": "RED BULL MELANCIA 250ML CX C/24",
               "qt": 1,
               "val": 179.76
-            }
-          ]
-        },
-        {
-          "numped": "155004101",
-          "numnota": "",
-          "data": "10/08/2026",
-          "cliente": "RECANTO DO PONTAL DO ATALAIA EMPREENDIMENTOS LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 439.8,
-          "itens": [
-            {
-              "desc": "AZEITE  ESSENZA D'ITALIA PREMIUM 5L",
-              "qt": 2,
-              "val": 439.8
             }
           ]
         }
@@ -10152,7 +10228,53 @@ const ENTREGAS_DATA = {
     {
       "nome": "VIVIANI ALVES - OFF TRADE",
       "em_rota": [],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "91000258",
+          "numnota": "",
+          "data": "10/08/2026",
+          "cliente": "EMPORIO MALELU COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 6674.4,
+          "itens": [
+            {
+              "desc": "VINHO LA TOGATA ROSSO 750ML",
+              "qt": 6,
+              "val": 1259.4
+            },
+            {
+              "desc": "VINHO LA TOGATA BRUNELLO ETQ AZUL 750ML",
+              "qt": 6,
+              "val": 2519.4
+            },
+            {
+              "desc": "VINHO LA TOGATA BARENGO 750ML",
+              "qt": 6,
+              "val": 749.4
+            },
+            {
+              "desc": "VINHO DO PORTO DALVA 10 ANOS OLD 750ML",
+              "qt": 6,
+              "val": 1259.4
+            },
+            {
+              "desc": "VINHO TINTO VENTOZELO RESERVA 750ML",
+              "qt": 6,
+              "val": 629.4
+            },
+            {
+              "desc": "VINHO MARQUES DE TEJARES FINCA DE LA FAM",
+              "qt": 6,
+              "val": 257.4
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [],
       "canceladas": [
         {
