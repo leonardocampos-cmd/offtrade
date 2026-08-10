@@ -1,12 +1,12 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "10/08/2026 12:22",
+  "atualizado_em": "10/08/2026 13:10",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 10,
   "dias_no_mes": 31,
   "dias_restantes": 21,
   "resumo": {
-    "fat": 3079865.12,
+    "fat": 3080565.52,
     "fat_ant": 2662409.84,
     "fat_ant_completo": 13925054.76,
     "pos": 590,
@@ -15,11 +15,11 @@ const METAS_GERAIS_DATA = {
   },
   "total": {
     "meta": 12300000.0,
-    "fat": 3079865.12,
+    "fat": 3080565.52,
     "fat_ant": 2662409.84,
     "fat_ant_completo": 13925054.76,
     "pct": 25.0,
-    "nec_dia": 439054.04
+    "nec_dia": 439020.69
   },
   "estados": [
     {
@@ -65,11 +65,11 @@ const METAS_GERAIS_DATA = {
       "estado": "MG",
       "label": "Minas Gerais",
       "meta": 2100000.0,
-      "fat": 369062.58,
+      "fat": 369762.98,
       "fat_ant": 293030.44,
       "pos": 76,
       "pct": 17.6,
-      "nec_dia": 82425.59,
+      "nec_dia": 82392.24,
       "fat_ant_completo": 1911913.71,
       "pos_ant": 120,
       "pos_ant_completo": 266
@@ -111,13 +111,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "DIAGEO",
-      "fat": 150115.98,
+      "fat": 149871.18,
       "fat_ant": 83413.89,
       "por_estado": {
         "RJ": 37193.18,
         "SP": 31046.78,
         "ES": 0.0,
-        "MG": 81876.02
+        "MG": 81631.22
       }
     },
     {
@@ -166,13 +166,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "TATUZINHO",
-      "fat": 60302.58,
+      "fat": 60410.18,
       "fat_ant": 67548.15,
       "por_estado": {
         "RJ": 52917.48,
         "SP": 1354.5,
         "ES": 4578.0,
-        "MG": 1452.6
+        "MG": 1560.2
       }
     },
     {
@@ -517,6 +517,17 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
+      "fantasia": "SELETA",
+      "fat": 927.4,
+      "fat_ant": 763.2,
+      "por_estado": {
+        "RJ": 0.0,
+        "SP": 0.0,
+        "ES": 0.0,
+        "MG": 927.4
+      }
+    },
+    {
       "fantasia": "51",
       "fat": 815.52,
       "fat_ant": 2445.66,
@@ -610,17 +621,6 @@ const METAS_GERAIS_DATA = {
       "fat_ant": 269.1,
       "por_estado": {
         "RJ": 219.3,
-        "SP": 0.0,
-        "ES": 0.0,
-        "MG": 0.0
-      }
-    },
-    {
-      "fantasia": "BOAZINHA",
-      "fat": 122.7,
-      "fat_ant": 0.0,
-      "por_estado": {
-        "RJ": 122.7,
         "SP": 0.0,
         "ES": 0.0,
         "MG": 0.0
