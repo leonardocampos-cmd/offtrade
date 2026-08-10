@@ -1,36 +1,36 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "10/08/2026 14:55",
+  "atualizado_em": "10/08/2026 15:10",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 10,
   "dias_no_mes": 31,
   "dias_restantes": 21,
   "resumo": {
-    "fat": 3097248.4,
+    "fat": 3099391.42,
     "fat_ant": 2662409.84,
     "fat_ant_completo": 13925054.76,
-    "pos": 592,
+    "pos": 595,
     "pos_ant": 730,
     "pos_ant_completo": 1822
   },
   "total": {
     "meta": 12300000.0,
-    "fat": 3097248.4,
+    "fat": 3099391.42,
     "fat_ant": 2662409.84,
     "fat_ant_completo": 13925054.76,
     "pct": 25.2,
-    "nec_dia": 438226.27
+    "nec_dia": 438124.22
   },
   "estados": [
     {
       "estado": "RJ",
       "label": "Rio de Janeiro",
       "meta": 2900000.0,
-      "fat": 551770.38,
+      "fat": 553913.4,
       "fat_ant": 573009.68,
-      "pos": 195,
-      "pct": 19.0,
-      "nec_dia": 111820.46,
+      "pos": 198,
+      "pct": 19.1,
+      "nec_dia": 111718.41,
       "fat_ant_completo": 2745014.49,
       "pos_ant": 289,
       "pos_ant_completo": 734
@@ -89,10 +89,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "RED BULL",
-      "fat": 455093.22,
+      "fat": 456049.54,
       "fat_ant": 127719.7,
       "por_estado": {
-        "RJ": 74483.66,
+        "RJ": 75439.98,
         "SP": 151165.44,
         "ES": 177058.6,
         "MG": 52385.52
@@ -133,10 +133,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "FANTE",
-      "fat": 94072.72,
+      "fat": 94849.72,
       "fat_ant": 42711.82,
       "por_estado": {
-        "RJ": 9999.22,
+        "RJ": 10776.22,
         "SP": 84073.5,
         "ES": 0.0,
         "MG": 0.0
@@ -243,10 +243,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "MINALBA",
-      "fat": 20059.8,
+      "fat": 20204.3,
       "fat_ant": 11814.5,
       "por_estado": {
-        "RJ": 20059.8,
+        "RJ": 20204.3,
         "SP": 0.0,
         "ES": 0.0,
         "MG": 0.0
@@ -364,10 +364,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "ROBINSON CRUSOE",
-      "fat": 6153.78,
+      "fat": 6285.78,
       "fat_ant": 75235.86,
       "por_estado": {
-        "RJ": 6153.78,
+        "RJ": 6285.78,
         "SP": 0.0,
         "ES": 0.0,
         "MG": 0.0
