@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "10/08/2026 15:01",
+  "atualizado_em": "10/08/2026 15:18",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -13,10 +13,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 80000.0,
-          "realizado": 25007.06,
+          "realizado": 25329.78,
           "peso": 0.1,
-          "ating_meta": 0.312588,
-          "ating_acumulado": 0.031259
+          "ating_meta": 0.316622,
+          "ating_acumulado": 0.031662
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -53,10 +53,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO",
           "meta": 70.0,
-          "realizado": 24,
+          "realizado": 25,
           "peso": 0.65,
-          "ating_meta": 0.342857,
-          "ating_acumulado": 0.222857
+          "ating_meta": 0.357143,
+          "ating_acumulado": 0.232143
         },
         {
           "label": "POSITIVAÇÃO ESSENZA",
@@ -93,7 +93,7 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO RECKIT",
           "meta": 0.0,
-          "realizado": 0,
+          "realizado": 1,
           "peso": 0.0,
           "ating_meta": 0.0,
           "ating_acumulado": 0.0
@@ -101,7 +101,7 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO RED BULL",
           "meta": 0.0,
-          "realizado": 5,
+          "realizado": 6,
           "peso": 0.0,
           "ating_meta": 0.0,
           "ating_acumulado": 0.0
@@ -123,14 +123,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.0125
         }
       ],
-      "ating_acumulado_total": 0.315122,
-      "pct_premio": 0.00472683,
+      "ating_acumulado_total": 0.324811,
+      "pct_premio": 0.00487216,
       "liq_rigarr": 20574.1,
       "fat_castas": 879.6,
       "teto_comissao": 3000.0,
-      "com_rigarr": 945.37,
-      "com_castas": 4.16,
-      "comissao_estimada": 949.53
+      "com_rigarr": 974.43,
+      "com_castas": 4.29,
+      "comissao_estimada": 978.72
     },
     {
       "nome": "FABIO VALOTTI - OFF TRADE",
@@ -267,10 +267,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 65000.0,
-          "realizado": 8206.79,
+          "realizado": 8566.31,
           "peso": 0.1,
-          "ating_meta": 0.126258,
-          "ating_acumulado": 0.012626
+          "ating_meta": 0.131789,
+          "ating_acumulado": 0.013179
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -307,10 +307,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO",
           "meta": 70.0,
-          "realizado": 13,
+          "realizado": 14,
           "peso": 0.65,
-          "ating_meta": 0.185714,
-          "ating_acumulado": 0.120714
+          "ating_meta": 0.2,
+          "ating_acumulado": 0.13
         },
         {
           "label": "POSITIVAÇÃO ESSENZA",
@@ -355,7 +355,7 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO RED BULL",
           "meta": 0.0,
-          "realizado": 5,
+          "realizado": 6,
           "peso": 0.0,
           "ating_meta": 0.0,
           "ating_acumulado": 0.0
@@ -377,14 +377,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.004167
         }
       ],
-      "ating_acumulado_total": 0.151617,
-      "pct_premio": 0.00227425,
+      "ating_acumulado_total": 0.161456,
+      "pct_premio": 0.00242184,
       "liq_rigarr": 16592.94,
       "fat_castas": 0.0,
       "teto_comissao": 2000.0,
-      "com_rigarr": 303.23,
+      "com_rigarr": 322.91,
       "com_castas": 0.0,
-      "comissao_estimada": 303.23
+      "comissao_estimada": 322.91
     },
     {
       "nome": "ANA CLARA FASSANO - OFF TRADE",
@@ -775,10 +775,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 120000.0,
-          "realizado": 44977.61,
+          "realizado": 45122.11,
           "peso": 0.7,
-          "ating_meta": 0.374813,
-          "ating_acumulado": 0.262369
+          "ating_meta": 0.376018,
+          "ating_acumulado": 0.263213
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -885,14 +885,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.0
         }
       ],
-      "ating_acumulado_total": 0.388906,
-      "pct_premio": 0.00583359,
+      "ating_acumulado_total": 0.38975,
+      "pct_premio": 0.00584625,
       "liq_rigarr": 9851.13,
       "fat_castas": 3108.16,
       "teto_comissao": null,
-      "com_rigarr": 57.47,
-      "com_castas": 18.13,
-      "comissao_estimada": 75.6
+      "com_rigarr": 57.59,
+      "com_castas": 18.17,
+      "comissao_estimada": 75.76
     },
     {
       "nome": "DIOGO RAPOSO - OFF TRADE",
