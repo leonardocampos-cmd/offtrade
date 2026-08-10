@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "10/08/2026 16:29",
-  "total": 22368,
+  "atualizado_em": "10/08/2026 16:45",
+  "total": 22367,
   "clientes": [
     {
       "codcli": "38586",
@@ -75964,22 +75964,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "42.767.956/0001-63",
       "estado": "RJ",
       "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "71302",
-      "razao": "BORA GELAR DISTRIBUIDORA LTDA",
-      "fantasia": "BORA GELAR",
-      "bairro": "CENTRO (MANILHA)",
-      "cidade": "ITABORAI",
-      "cnpj": "37.863.220/0001-59",
-      "estado": "RJ",
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
