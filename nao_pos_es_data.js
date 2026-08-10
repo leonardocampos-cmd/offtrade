@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "10/08/2026 15:41",
+  "atualizado_em": "10/08/2026 16:07",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -9921,6 +9921,13 @@ const NAO_POS_ES_DATA = {
         "codcli": "85437",
         "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
         "bairro": "PRAIA DA COSTA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "94324",
+        "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+        "bairro": "SÃO DIOGO II",
         "dtultcomp": "nan",
         "produtos": []
       },
