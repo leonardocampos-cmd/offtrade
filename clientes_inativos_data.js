@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "10/08/2026 16:31",
+  "atualizado_em": "10/08/2026 16:47",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -6434,15 +6434,6 @@ const INATIVOS_DATA = {
           "media": 1180.85
         },
         {
-          "codcli": "85416",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "bairro": "ILHA DE SANTA MARIA",
-          "cidade": "VITORIA",
-          "dtultcomp": "22/05/2026",
-          "dias": 80,
-          "media": 1522.0
-        },
-        {
           "codcli": "85417",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "bairro": "JARDIM CAMBURI",
@@ -6452,13 +6443,13 @@ const INATIVOS_DATA = {
           "media": 1530.1
         },
         {
-          "codcli": "85425",
+          "codcli": "85416",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "bairro": "CONSOLAÇÃO",
+          "bairro": "ILHA DE SANTA MARIA",
           "cidade": "VITORIA",
-          "dtultcomp": "25/05/2026",
-          "dias": 77,
-          "media": 901.91
+          "dtultcomp": "22/05/2026",
+          "dias": 80,
+          "media": 1522.0
         },
         {
           "codcli": "85422",
@@ -6470,22 +6461,13 @@ const INATIVOS_DATA = {
           "media": 1176.05
         },
         {
-          "codcli": "85407",
+          "codcli": "85425",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "bairro": "PLANALTO DE CARAPINA",
-          "cidade": "SERRA",
+          "bairro": "CONSOLAÇÃO",
+          "cidade": "VITORIA",
           "dtultcomp": "25/05/2026",
           "dias": 77,
-          "media": 2597.58
-        },
-        {
-          "codcli": "85434",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "bairro": "MARBRASA",
-          "cidade": "CACHOEIRO DE IT",
-          "dtultcomp": "26/05/2026",
-          "dias": 76,
-          "media": 2349.64
+          "media": 901.91
         },
         {
           "codcli": "85435",
@@ -6497,13 +6479,13 @@ const INATIVOS_DATA = {
           "media": 273.44
         },
         {
-          "codcli": "85432",
+          "codcli": "85434",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "bairro": "MOVELAR",
-          "cidade": "LINHARES",
-          "dtultcomp": "28/05/2026",
-          "dias": 74,
-          "media": 4063.21
+          "bairro": "MARBRASA",
+          "cidade": "CACHOEIRO DE IT",
+          "dtultcomp": "26/05/2026",
+          "dias": 76,
+          "media": 2349.64
         },
         {
           "codcli": "85400",
@@ -6515,13 +6497,13 @@ const INATIVOS_DATA = {
           "media": 2042.24
         },
         {
-          "codcli": "85401",
+          "codcli": "85432",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "bairro": "CARLOS GERMANO NAUMANN",
-          "cidade": "COLATINA",
+          "bairro": "MOVELAR",
+          "cidade": "LINHARES",
           "dtultcomp": "28/05/2026",
           "dias": 74,
-          "media": 4380.87
+          "media": 4063.21
         },
         {
           "codcli": "85433",
@@ -6531,6 +6513,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "28/05/2026",
           "dias": 74,
           "media": 2397.3
+        },
+        {
+          "codcli": "85401",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "bairro": "CARLOS GERMANO NAUMANN",
+          "cidade": "COLATINA",
+          "dtultcomp": "28/05/2026",
+          "dias": 74,
+          "media": 4380.87
         },
         {
           "codcli": "85411",
@@ -6578,22 +6569,13 @@ const INATIVOS_DATA = {
           "media": 3360.43
         },
         {
-          "codcli": "82539",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "bairro": "CAMPO GRANDE",
-          "cidade": "CARIACICA",
+          "codcli": "76074",
+          "cliente": "DRIFT COM. DE ALIMENTOS SA",
+          "bairro": "COLINA DE LARANJEIRAS",
+          "cidade": "SERRA",
           "dtultcomp": "30/06/2026",
           "dias": 41,
-          "media": 877.48
-        },
-        {
-          "codcli": "76072",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "bairro": "ITAPUÃ",
-          "cidade": "VILA VELHA",
-          "dtultcomp": "30/06/2026",
-          "dias": 41,
-          "media": 1487.8
+          "media": 505.92
         },
         {
           "codcli": "76075",
@@ -6605,31 +6587,31 @@ const INATIVOS_DATA = {
           "media": 3122.6
         },
         {
-          "codcli": "76074",
-          "cliente": "DRIFT COM. DE ALIMENTOS SA",
-          "bairro": "COLINA DE LARANJEIRAS",
-          "cidade": "SERRA",
-          "dtultcomp": "30/06/2026",
-          "dias": 41,
-          "media": 505.92
-        },
-        {
-          "codcli": "85896",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "bairro": "PLANALTO DE CARAPINA",
-          "cidade": "SERRA",
-          "dtultcomp": "30/06/2026",
-          "dias": 41,
-          "media": 3014.91
-        },
-        {
-          "codcli": "85410",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "bairro": "ITAPUA",
+          "codcli": "76072",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "bairro": "ITAPUÃ",
           "cidade": "VILA VELHA",
           "dtultcomp": "30/06/2026",
           "dias": 41,
-          "media": 3872.42
+          "media": 1487.8
+        },
+        {
+          "codcli": "82539",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "bairro": "CAMPO GRANDE",
+          "cidade": "CARIACICA",
+          "dtultcomp": "30/06/2026",
+          "dias": 41,
+          "media": 877.48
+        },
+        {
+          "codcli": "85438",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "bairro": "PRAIA DA COSTA",
+          "cidade": "VILA VELHA",
+          "dtultcomp": "30/06/2026",
+          "dias": 41,
+          "media": 4863.14
         },
         {
           "codcli": "85441",
@@ -6641,13 +6623,22 @@ const INATIVOS_DATA = {
           "media": 742.39
         },
         {
-          "codcli": "85438",
+          "codcli": "85410",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "bairro": "PRAIA DA COSTA",
+          "bairro": "ITAPUA",
           "cidade": "VILA VELHA",
           "dtultcomp": "30/06/2026",
           "dias": 41,
-          "media": 4863.14
+          "media": 3872.42
+        },
+        {
+          "codcli": "85896",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "bairro": "PLANALTO DE CARAPINA",
+          "cidade": "SERRA",
+          "dtultcomp": "30/06/2026",
+          "dias": 41,
+          "media": 3014.91
         },
         {
           "codcli": "77449",
@@ -6677,15 +6668,6 @@ const INATIVOS_DATA = {
           "media": 277.48
         },
         {
-          "codcli": "82540",
-          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-          "bairro": "PRAIA DE ITAPARICA",
-          "cidade": "VILA VELHA",
-          "dtultcomp": "02/07/2026",
-          "dias": 39,
-          "media": 538.96
-        },
-        {
           "codcli": "76076",
           "cliente": "DRIFT COM. DE ALIMENTOS SA",
           "bairro": "SANTA LUCIA",
@@ -6704,6 +6686,15 @@ const INATIVOS_DATA = {
           "media": 1339.0
         },
         {
+          "codcli": "82540",
+          "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+          "bairro": "PRAIA DE ITAPARICA",
+          "cidade": "VILA VELHA",
+          "dtultcomp": "02/07/2026",
+          "dias": 39,
+          "media": 538.96
+        },
+        {
           "codcli": "85436",
           "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
           "bairro": "CIVIT II",
@@ -6713,13 +6704,13 @@ const INATIVOS_DATA = {
           "media": 8895.51
         },
         {
-          "codcli": "79819",
-          "cliente": "SUPERMERCADOS CASAGRANDE LTDA",
-          "bairro": "NOSSA SENHORA DA CONCEIÇÃO",
-          "cidade": "LINHARES",
+          "codcli": "85439",
+          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+          "bairro": "JARDIM LIMOEIRO",
+          "cidade": "SERRA",
           "dtultcomp": "07/07/2026",
           "dias": 34,
-          "media": 36388.17
+          "media": 2361.82
         },
         {
           "codcli": "85437",
@@ -6731,13 +6722,13 @@ const INATIVOS_DATA = {
           "media": 3468.92
         },
         {
-          "codcli": "85439",
-          "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
-          "bairro": "JARDIM LIMOEIRO",
-          "cidade": "SERRA",
+          "codcli": "79819",
+          "cliente": "SUPERMERCADOS CASAGRANDE LTDA",
+          "bairro": "NOSSA SENHORA DA CONCEIÇÃO",
+          "cidade": "LINHARES",
           "dtultcomp": "07/07/2026",
           "dias": 34,
-          "media": 2361.82
+          "media": 36388.17
         },
         {
           "codcli": "85836",
