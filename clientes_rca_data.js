@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "10/08/2026 17:36",
-  "total": 22365,
+  "atualizado_em": "10/08/2026 17:59",
+  "total": 22364,
   "clientes": [
     {
       "codcli": "38586",
@@ -256244,22 +256244,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
-      "codcli": "85303",
-      "razao": "NOSSA SAIDEIRA BAR E LANCHONETE LTDA",
-      "fantasia": "NOSSA SAIDEIRA BAR E LANCHONETE",
-      "bairro": "RECREIO DOS BANDEIRANTES",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "60.349.950/0001-58",
-      "estado": "RJ",
-      "ramo": "CAFETERIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "71702",
       "razao": "NOSSA SENHORA DE GUADALUPE BAR E RESTAURANTE LTDA",
       "fantasia": "CLASSICOS",
@@ -260160,22 +260144,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "14557",
-      "razao": "OPCAO GOURMET LTDA",
-      "fantasia": "OP¿¿O GOURMET",
-      "bairro": "LARANJEIRAS",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "35.656.104/0001-33",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -325424,6 +325392,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "371",
       "nome_usur1": "CARLOS DE ALMEIDA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52378",
+      "razao": "SUPERMERCADO JARDIM DOS CALEGARIS LTDA",
+      "fantasia": "SUPERMERCADO JARDIM DOS CALEGARIS",
+      "bairro": "JARDIM DOS CALEGARIS",
+      "cidade": "PAULINIA",
+      "cnpj": "54.255.906/0001-86",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
