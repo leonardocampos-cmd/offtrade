@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "10/08/2026 16:08",
-  "total": 22369,
+  "atualizado_em": "10/08/2026 16:29",
+  "total": 22368,
   "clientes": [
     {
       "codcli": "38586",
@@ -32404,6 +32404,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LUIZA HASSEN"
     },
     {
+      "codcli": "57583",
+      "razao": "A HORA DO VINHO COMERCIO DE BEBIDAS LTDA",
+      "fantasia": "A HORA DO VINHO",
+      "bairro": "BARRA DA TIJUCA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "38.407.678/0001-66",
+      "estado": "RJ",
+      "ramo": "TABACARIA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "10",
+      "nome_usur1": "INATIVO3",
+      "codusur2": "319",
+      "nome_usur2": "FERNANDA CAMBOIM"
+    },
+    {
       "codcli": "72199",
       "razao": "A J DE MAGALHAES JUNIOR COMERCIO DE BEBIDAS",
       "fantasia": "MAGALHAES",
@@ -49920,22 +49936,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "33883",
-      "razao": "ANGU BAR E REST LTDA",
-      "fantasia": "ANGU BAR E REST",
-      "bairro": "LOURDES",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "53.996.491/0001-39",
-      "estado": "MG",
-      "ramo": "CAFÉ/LANCHONETE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -137136,22 +137136,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "72695",
-      "razao": "EMARKETT DISTRIBUIDORA LTDA",
-      "fantasia": "EMARKETT",
-      "bairro": "RECREIO DOS BANDEIRANTES",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "50.802.228/0001-73",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -249588,6 +249572,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "FERNANDO GOMES"
     },
     {
+      "codcli": "61895",
+      "razao": "MR. LENHA PIZZARIA E RESTAURANTE LTDA",
+      "fantasia": "MR. LENHA PIZZARIA",
+      "bairro": "BARRA DA TIJUCA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "03.890.185/0001-45",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "10",
+      "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "35710",
       "razao": "MR.POOL - RESTAURANTE LTDA",
       "fantasia": "MISTER GALLETO",
@@ -291812,22 +291812,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "80757",
-      "razao": "RECANTO DA ALICE LTDA",
-      "fantasia": "RECANTO DA ALICE",
-      "bairro": "LARANJEIRAS",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "48.686.965/0001-06",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "91806",
       "razao": "RECANTO DO PONTAL DO ATALAIA EMPREENDIMENTOS LTDA",
       "fantasia": "RECANTO DO PONTAL DO ATALAIA EMPREENDIME",
@@ -291886,8 +291870,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "OUTROS",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
+      "codusur1": "327",
+      "nome_usur1": "JOÃO SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
