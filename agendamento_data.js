@@ -853,7 +853,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7252",
           "data_agendamento": "05/08/2026",
           "data_ord": "2026-08-05",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "BONIFICAÇÃO",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -881,7 +881,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7253",
           "data_agendamento": "05/08/2026",
           "data_ord": "2026-08-05",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "Caixas e rótulos íntegros.",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -6235,7 +6235,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7256",
           "data_agendamento": "05/08/2026",
           "data_ord": "2026-08-05",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "Caixas e rótulos íntegros;",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -6249,7 +6249,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7254",
           "data_agendamento": "05/08/2026",
           "data_ord": "2026-08-05",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "Caixas e rótulos íntegros;",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -16138,10 +16138,10 @@ const AGENDAMENTO_DATA = {
           "cnpj": "33304981000110",
           "filial": "INHAUMA",
           "valor": 32656.32,
-          "nf": "",
+          "nf": "420074",
           "data_agendamento": "11/08/2026",
           "data_ord": "2026-08-11",
-          "status": "A FATURAR",
+          "status": "FATURADO",
           "obs": "(PAGAMENTO NO PIX) - CADA SKU EM PALETTS DIFERENTES -  PALLET TEM QUE SER FILMADO",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17439,7 +17439,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7051",
           "data_agendamento": "05/08/2026",
           "data_ord": "2026-08-05",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "Caixas e rótulos íntegros;",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -22312,7 +22312,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6964",
           "data_agendamento": "05/08/2026",
           "data_ord": "2026-08-05",
-          "status": "EM ROTA",
+          "status": "FATURADO",
           "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO ELETRONICAMENTE",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -25202,7 +25202,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7255",
           "data_agendamento": "05/08/2026",
           "data_ord": "2026-08-05",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -25896,7 +25896,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "10/08/2026 17:35",
+  "atualizado_em": "10/08/2026 17:57",
   "comparativo": [
     {
       "msg_id": "19fdbe784cc15bdd",
