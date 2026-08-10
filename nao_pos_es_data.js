@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "10/08/2026 14:46",
+  "atualizado_em": "10/08/2026 15:00",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -26894,6 +26894,50 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
+        "codcli": "94128",
+        "cliente": "64.225.512 WALLACE HENRIQUE DOS SANTOS",
+        "bairro": "ARMAÇÃO",
+        "dtultcomp": "22/07/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK RED BULL TROPICAL 4X250ML",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 89.88
+          },
+          {
+            "produto": "APERITIVO APEROL 750 ML",
+            "fantasia": "CAMPARI",
+            "qt": 1,
+            "valor": 47.9
+          },
+          {
+            "produto": "PIRASSUNUNGA 51 965 ML",
+            "fantasia": "51",
+            "qt": 2,
+            "valor": 27.0
+          },
+          {
+            "produto": "RED BULL 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 359.52
+          },
+          {
+            "produto": "VODCA SMIRNOFF RED 998 ML",
+            "fantasia": "DIAGEO",
+            "qt": 6,
+            "valor": 167.4
+          },
+          {
+            "produto": "WHISKY J WALKER RED LABEL 1L",
+            "fantasia": "DIAGEO",
+            "qt": 2,
+            "valor": 153.8
+          }
+        ]
+      },
+      {
         "codcli": "94665",
         "cliente": "EAS MERCADO E DEPOSITO DE BEBIDAS EM GERAL LTDA",
         "bairro": "PRAINHA",
@@ -27014,50 +27058,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "DIAGEO",
             "qt": 18,
             "valor": 898.2
-          }
-        ]
-      },
-      {
-        "codcli": "94128",
-        "cliente": "WALLACE HENRIQUE DOS SANTOS",
-        "bairro": "ARMAÇÃO",
-        "dtultcomp": "22/07/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL TROPICAL 4X250ML",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 89.88
-          },
-          {
-            "produto": "APERITIVO APEROL 750 ML",
-            "fantasia": "CAMPARI",
-            "qt": 1,
-            "valor": 47.9
-          },
-          {
-            "produto": "PIRASSUNUNGA 51 965 ML",
-            "fantasia": "51",
-            "qt": 2,
-            "valor": 27.0
-          },
-          {
-            "produto": "RED BULL 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 359.52
-          },
-          {
-            "produto": "VODCA SMIRNOFF RED 998 ML",
-            "fantasia": "DIAGEO",
-            "qt": 6,
-            "valor": 167.4
-          },
-          {
-            "produto": "WHISKY J WALKER RED LABEL 1L",
-            "fantasia": "DIAGEO",
-            "qt": 2,
-            "valor": 153.8
           }
         ]
       },
