@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "10/08/2026 12:09",
+  "atualizado_em": "10/08/2026 12:31",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -3918,6 +3918,15 @@ const INATIVOS_DATA = {
       ],
       "sem_compra": [
         {
+          "codcli": "92844",
+          "cliente": "NOVA BONFIM MERCEARIA DE ANGRA LTDA",
+          "bairro": "BONFIM",
+          "cidade": "ANGRA DOS REIS",
+          "dtultcomp": "25/03/2026",
+          "dias": 138,
+          "media": 0.0
+        },
+        {
           "codcli": "69309",
           "cliente": "MERCADO AVENIDA ANGRA LTDA",
           "bairro": "NOVA ANGRA (CUNHAMBEBE)",
@@ -3954,6 +3963,15 @@ const INATIVOS_DATA = {
           "media": 251.45
         },
         {
+          "codcli": "79318",
+          "cliente": "MULTI PARATY MERCADO LTDA",
+          "bairro": "PATITIBA",
+          "cidade": "PARATI",
+          "dtultcomp": "16/06/2026",
+          "dias": 55,
+          "media": 231.4
+        },
+        {
           "codcli": "8875",
           "cliente": "MULTI ANGRA MERCADO LTDA",
           "bairro": "CENTRO",
@@ -3970,51 +3988,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "16/06/2026",
           "dias": 55,
           "media": 357.0
-        },
-        {
-          "codcli": "79318",
-          "cliente": "MULTI PARATY MERCADO LTDA",
-          "bairro": "PATITIBA",
-          "cidade": "PARATI",
-          "dtultcomp": "16/06/2026",
-          "dias": 55,
-          "media": 231.4
-        },
-        {
-          "codcli": "92006",
-          "cliente": "MULTI ANGRA 4 MERCADO LTDA",
-          "bairro": "FRADE (CUNHAMBEBE)",
-          "cidade": "ANGRA DOS REIS",
-          "dtultcomp": "17/06/2026",
-          "dias": 54,
-          "media": 209.4
-        },
-        {
-          "codcli": "79320",
-          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
-          "bairro": "PARQUE DAS PALMEIRAS",
-          "cidade": "ANGRA DOS REIS",
-          "dtultcomp": "17/06/2026",
-          "dias": 54,
-          "media": 2475.68
-        },
-        {
-          "codcli": "8876",
-          "cliente": "MULTI PARATY MERCADO LTDA",
-          "bairro": "RJ",
-          "cidade": "PARATI",
-          "dtultcomp": "17/06/2026",
-          "dias": 54,
-          "media": 2059.6
-        },
-        {
-          "codcli": "8877",
-          "cliente": "MULTI PEREQUE MERCADO LTDA",
-          "bairro": "PARQUE MAMBUCADA",
-          "cidade": "ANGRA DOS REIS",
-          "dtultcomp": "17/06/2026",
-          "dias": 54,
-          "media": 495.52
         },
         {
           "codcli": "69866",
@@ -4035,6 +4008,42 @@ const INATIVOS_DATA = {
           "media": 2709.41
         },
         {
+          "codcli": "8877",
+          "cliente": "MULTI PEREQUE MERCADO LTDA",
+          "bairro": "PARQUE MAMBUCADA",
+          "cidade": "ANGRA DOS REIS",
+          "dtultcomp": "17/06/2026",
+          "dias": 54,
+          "media": 495.52
+        },
+        {
+          "codcli": "8876",
+          "cliente": "MULTI PARATY MERCADO LTDA",
+          "bairro": "RJ",
+          "cidade": "PARATI",
+          "dtultcomp": "17/06/2026",
+          "dias": 54,
+          "media": 2059.6
+        },
+        {
+          "codcli": "92006",
+          "cliente": "MULTI ANGRA 4 MERCADO LTDA",
+          "bairro": "FRADE (CUNHAMBEBE)",
+          "cidade": "ANGRA DOS REIS",
+          "dtultcomp": "17/06/2026",
+          "dias": 54,
+          "media": 209.4
+        },
+        {
+          "codcli": "79320",
+          "cliente": "MULTI ANGRA 3 MERCADO LTDA",
+          "bairro": "PARQUE DAS PALMEIRAS",
+          "cidade": "ANGRA DOS REIS",
+          "dtultcomp": "17/06/2026",
+          "dias": 54,
+          "media": 2475.68
+        },
+        {
           "codcli": "79061",
           "cliente": "LV FERREIRA COMERCIO E SERVICO LTDA",
           "bairro": "AEROPORTO (CUNHAMBEBE)",
@@ -4044,15 +4053,6 @@ const INATIVOS_DATA = {
           "media": 189.4
         },
         {
-          "codcli": "69045",
-          "cliente": "MERCADO S.A GARATUCAIA LTDA",
-          "bairro": "GARATUCAIA",
-          "cidade": "ANGRA DOS REIS",
-          "dtultcomp": "24/06/2026",
-          "dias": 47,
-          "media": 119.6
-        },
-        {
           "codcli": "75192",
           "cliente": "J. W. DISTRIBUIDORA DE BEBIDAS LTDA",
           "bairro": "PANTANAL",
@@ -4060,6 +4060,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "24/06/2026",
           "dias": 47,
           "media": 175.73
+        },
+        {
+          "codcli": "69045",
+          "cliente": "MERCADO S.A GARATUCAIA LTDA",
+          "bairro": "GARATUCAIA",
+          "cidade": "ANGRA DOS REIS",
+          "dtultcomp": "24/06/2026",
+          "dias": 47,
+          "media": 119.6
         },
         {
           "codcli": "69463",
@@ -10707,15 +10716,6 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [
         {
-          "codcli": "34011",
-          "cliente": "CASA RENA S/A",
-          "bairro": "MORRO DO ENGENHO",
-          "cidade": "ITAUNA",
-          "dtultcomp": "29/05/2026",
-          "dias": 73,
-          "media": 4317.0
-        },
-        {
           "codcli": "38378",
           "cliente": "CASA RENA S/A",
           "bairro": "GRACAS",
@@ -10723,6 +10723,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "29/05/2026",
           "dias": 73,
           "media": 1398.0
+        },
+        {
+          "codcli": "34011",
+          "cliente": "CASA RENA S/A",
+          "bairro": "MORRO DO ENGENHO",
+          "cidade": "ITAUNA",
+          "dtultcomp": "29/05/2026",
+          "dias": 73,
+          "media": 4317.0
         },
         {
           "codcli": "39508",
@@ -10859,6 +10868,15 @@ const INATIVOS_DATA = {
           "media": 718.8
         },
         {
+          "codcli": "38185",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE CRISTINA LTDA",
+          "bairro": "CONJUNTO CRISTINA (SÃO BENEDITO)",
+          "cidade": "SANTA LUZIA",
+          "dtultcomp": "03/07/2026",
+          "dias": 38,
+          "media": 807.67
+        },
+        {
           "codcli": "38177",
           "cliente": "MERCEARIA NASCIMENTO NOVO HORIZONTE LTDA",
           "bairro": "SANTA MARTA",
@@ -10866,24 +10884,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "03/07/2026",
           "dias": 38,
           "media": 390.17
-        },
-        {
-          "codcli": "38186",
-          "cliente": "SUPERMERCADO NOVO HORIZONTE SENHORA APARECIDA LTDA",
-          "bairro": "SUELY",
-          "cidade": "VESPASIANO",
-          "dtultcomp": "03/07/2026",
-          "dias": 38,
-          "media": 582.8
-        },
-        {
-          "codcli": "35033",
-          "cliente": "SUPERMERCADO NOVO HORIZONTE BOA ESPERANCA LTDA",
-          "bairro": "ESPERANCA (JUSTINOPOLIS)",
-          "cidade": "RIBEIRAO DAS NEVES",
-          "dtultcomp": "03/07/2026",
-          "dias": 38,
-          "media": 468.77
         },
         {
           "codcli": "35497",
@@ -10895,13 +10895,22 @@ const INATIVOS_DATA = {
           "media": 844.77
         },
         {
-          "codcli": "38185",
-          "cliente": "SUPERMERCADO NOVO HORIZONTE CRISTINA LTDA",
-          "bairro": "CONJUNTO CRISTINA (SÃO BENEDITO)",
-          "cidade": "SANTA LUZIA",
+          "codcli": "35033",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE BOA ESPERANCA LTDA",
+          "bairro": "ESPERANCA (JUSTINOPOLIS)",
+          "cidade": "RIBEIRAO DAS NEVES",
           "dtultcomp": "03/07/2026",
           "dias": 38,
-          "media": 807.67
+          "media": 468.77
+        },
+        {
+          "codcli": "38186",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE SENHORA APARECIDA LTDA",
+          "bairro": "SUELY",
+          "cidade": "VESPASIANO",
+          "dtultcomp": "03/07/2026",
+          "dias": 38,
+          "media": 582.8
         },
         {
           "codcli": "35451",
@@ -10931,6 +10940,15 @@ const INATIVOS_DATA = {
           "media": 1230.4
         },
         {
+          "codcli": "38180",
+          "cliente": "SUPERMERCADO NOVO HORIZONTE VENEZA LTDA",
+          "bairro": "VENEZA",
+          "cidade": "RIBEIRAO DAS NEVES",
+          "dtultcomp": "09/07/2026",
+          "dias": 32,
+          "media": 535.9
+        },
+        {
           "codcli": "35122",
           "cliente": "SUPERMERCADO NOVO HORIZONTE LIBERDADE PLUS LTDA",
           "bairro": "LIBERDADE",
@@ -10947,15 +10965,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "09/07/2026",
           "dias": 32,
           "media": 453.17
-        },
-        {
-          "codcli": "38180",
-          "cliente": "SUPERMERCADO NOVO HORIZONTE VENEZA LTDA",
-          "bairro": "VENEZA",
-          "cidade": "RIBEIRAO DAS NEVES",
-          "dtultcomp": "09/07/2026",
-          "dias": 32,
-          "media": 535.9
         }
       ],
       "novos": [
@@ -11039,6 +11048,15 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [
         {
+          "codcli": "34313",
+          "cliente": "JOAO VICTOR BERTOLOTTI MOURA DA COSTA RIBEIRO 06456781639",
+          "bairro": "BELVEDERE",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "16/04/2026",
+          "dias": 116,
+          "media": 0.0
+        },
+        {
           "codcli": "38344",
           "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
           "bairro": "CASTELO",
@@ -11075,15 +11093,6 @@ const INATIVOS_DATA = {
           "media": 486.77
         },
         {
-          "codcli": "31401",
-          "cliente": "DISTRIBUIDORA DE BEBIDAS SANTA RITA  LTDA",
-          "bairro": "SERRANO",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "28/05/2026",
-          "dias": 74,
-          "media": 94.2
-        },
-        {
           "codcli": "34478",
           "cliente": "8ZH7 RESTAURANTE LTDA",
           "bairro": "FUNCIONÁRIOS",
@@ -11091,6 +11100,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "28/05/2026",
           "dias": 74,
           "media": 1620.9
+        },
+        {
+          "codcli": "31401",
+          "cliente": "DISTRIBUIDORA DE BEBIDAS SANTA RITA  LTDA",
+          "bairro": "SERRANO",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "28/05/2026",
+          "dias": 74,
+          "media": 94.2
         },
         {
           "codcli": "30324",
@@ -11120,15 +11138,6 @@ const INATIVOS_DATA = {
           "media": 252.0
         },
         {
-          "codcli": "30204",
-          "cliente": "IDEAL COMERCIO DE ALIMENTOS LTDA",
-          "bairro": "BURITIS",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "05/06/2026",
-          "dias": 66,
-          "media": 415.8
-        },
-        {
           "codcli": "30705",
           "cliente": "RUA DO JASMIM ALIMENTOS E BEBIDAS LTDA",
           "bairro": "SANTO ANTÔNIO",
@@ -11136,6 +11145,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "05/06/2026",
           "dias": 66,
           "media": 199.6
+        },
+        {
+          "codcli": "30204",
+          "cliente": "IDEAL COMERCIO DE ALIMENTOS LTDA",
+          "bairro": "BURITIS",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "05/06/2026",
+          "dias": 66,
+          "media": 415.8
         },
         {
           "codcli": "34226",
@@ -11165,15 +11183,6 @@ const INATIVOS_DATA = {
           "media": 554.07
         },
         {
-          "codcli": "39473",
-          "cliente": "KTR BUFFET E PRODUCOES LTDA",
-          "bairro": "SANTA AMÉLIA",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "17/06/2026",
-          "dias": 54,
-          "media": 1704.23
-        },
-        {
           "codcli": "38892",
           "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
           "bairro": "SION",
@@ -11181,6 +11190,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "17/06/2026",
           "dias": 54,
           "media": 82.03
+        },
+        {
+          "codcli": "39473",
+          "cliente": "KTR BUFFET E PRODUCOES LTDA",
+          "bairro": "SANTA AMÉLIA",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "17/06/2026",
+          "dias": 54,
+          "media": 1704.23
         },
         {
           "codcli": "33356",
@@ -11246,15 +11264,6 @@ const INATIVOS_DATA = {
           "media": 1377.07
         },
         {
-          "codcli": "36027",
-          "cliente": "ORGANIZACAO MAAS LTDA",
-          "bairro": "ANCHIETA",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "08/07/2026",
-          "dias": 33,
-          "media": 290.03
-        },
-        {
           "codcli": "39578",
           "cliente": "BRPULLEYS INDUSTRIA, COMERCIO E SERVICOS LTDA",
           "bairro": "RIACHO DAS PEDRAS",
@@ -11264,13 +11273,13 @@ const INATIVOS_DATA = {
           "media": 1538.66
         },
         {
-          "codcli": "39394",
-          "cliente": "BAR E RESTAURANTE FONSECA LTDA",
-          "bairro": "SANTA TEREZA",
+          "codcli": "36027",
+          "cliente": "ORGANIZACAO MAAS LTDA",
+          "bairro": "ANCHIETA",
           "cidade": "BELO HORIZONTE",
-          "dtultcomp": "09/07/2026",
-          "dias": 32,
-          "media": 347.83
+          "dtultcomp": "08/07/2026",
+          "dias": 33,
+          "media": 290.03
         },
         {
           "codcli": "30059",
@@ -11280,6 +11289,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "09/07/2026",
           "dias": 32,
           "media": 701.67
+        },
+        {
+          "codcli": "39394",
+          "cliente": "BAR E RESTAURANTE FONSECA LTDA",
+          "bairro": "SANTA TEREZA",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "09/07/2026",
+          "dias": 32,
+          "media": 347.83
         },
         {
           "codcli": "33881",
