@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "10/08/2026 17:30",
+  "atualizado_em": "10/08/2026 17:53",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -366,18 +366,18 @@ const CRUSOE_DATA = {
         {
           "rca": 158,
           "vendedor": "Jose Marcelo Cardoso",
-          "pedidos": 1,
+          "pedidos": 2,
           "novos_skus": 2,
           "reativacoes": 0,
-          "faturamento": 166704.0,
+          "faturamento": 198532.08,
           "meta_definida": false,
           "meta_valor": null,
           "meta_atingida": false,
-          "pontos_pedidos": 1,
+          "pontos_pedidos": 2,
           "pontos_novos_skus": 10,
           "pontos_reativacoes": 0,
           "pontos_meta": 0,
-          "pontos_total": 11,
+          "pontos_total": 12,
           "vendas": [
             {
               "numnota": "415927",
@@ -412,6 +412,26 @@ const CRUSOE_DATA = {
                       "pontos": 5
                     }
                   ]
+                }
+              ]
+            },
+            {
+              "numnota": "420074",
+              "data": "10/08/2026",
+              "cliente": "SUPERMERCADOS MUNDIAL LTDA",
+              "valor_pedido": 31828.08,
+              "eventos": [
+                {
+                  "tipo": "pedido",
+                  "pontos": 1
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC ATUM SOLIDO YF EM OLIVA 12X170G",
+                  "qt": 269.0,
+                  "valor": 31828.08,
+                  "pontuacoes": []
                 }
               ]
             }
