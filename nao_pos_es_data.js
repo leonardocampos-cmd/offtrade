@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "10/08/2026 12:28",
+  "atualizado_em": "10/08/2026 13:41",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -28500,7 +28500,7 @@ const NAO_POS_ES_DATA = {
       {
         "codcli": "92280",
         "cliente": "F S DO AMARAL COMERCIO DE BEBIDAS E ALIMENTOS",
-        "bairro": "SAO JOSE DO BARRETO",
+        "bairro": "PARQUE AEROPORTO",
         "dtultcomp": "28/07/2026",
         "produtos": [
           {
