@@ -1,5 +1,5 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "10/08/2026 16:57",
+  "atualizado_em": "10/08/2026 17:13",
   "periodo_dias": 90,
   "fontes_indisponiveis": [],
   "pedidos_feitos": [
@@ -182,6 +182,72 @@ const PEDIDOS_DATA = {
       "motivo_preco_tabela": 59.9
     },
     {
+      "numped": "388001246",
+      "numnota": "",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "EUDES MORGAN - OFF TRADE",
+      "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+      "sistema": "CRC",
+      "estado": "ES",
+      "supervisor": "SUPERVISOR OFF - ES",
+      "gerente": "EROCLES OLIVEIRA",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :5048",
+      "obs": "Entrega agendada para o dia  12/08/26.",
+      "total": 1813.8,
+      "itens": [
+        {
+          "desc": "CACHACA VELHO BARREIRO 910 ML",
+          "industria": "TATUZINHO",
+          "qt": 60,
+          "val": 915.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 60.0,
+          "cortado": false,
+          "codprod": "381",
+          "codfilial": "1",
+          "pvenda": 15.26
+        },
+        {
+          "desc": "RUM BACARDI SUPERIOR 700ML",
+          "industria": "BACARDI",
+          "qt": 12,
+          "val": 427.68,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "5048",
+          "codfilial": "1",
+          "pvenda": 35.64
+        },
+        {
+          "desc": "RUM BACARDI GOLD 700ML",
+          "industria": "BACARDI",
+          "qt": 12,
+          "val": 470.52,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "5034",
+          "codfilial": "1",
+          "pvenda": 39.21
+        }
+      ],
+      "tem_corte": false,
+      "motivo_codprod": "5048",
+      "motivo_produto": "RUM BACARDI SUPERIOR 700ML",
+      "motivo_preco_digitado": 35.64,
+      "motivo_preco_tabela": 30.9
+    },
+    {
       "numped": "91000258",
       "numnota": "",
       "data": "10/08/2026",
@@ -322,6 +388,58 @@ const PEDIDOS_DATA = {
       "motivo_produto": "RC SARDINHA EM OLEO 50X125G",
       "motivo_preco_digitado": 232.86,
       "motivo_preco_tabela": 275.0
+    },
+    {
+      "numped": "379001385",
+      "numnota": "",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "JORGE MACIEL - OFF TRADE",
+      "cliente": "BSCRJ DISTRIBUIDORA DE BEBIDAS E MERCEARIA LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :3814",
+      "obs": "",
+      "total": 365.4,
+      "itens": [
+        {
+          "desc": "VINHO TINTO QUINTA DO MORGADO 750ML",
+          "industria": "FANTE",
+          "qt": 12,
+          "val": 173.88,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "3814",
+          "codfilial": "2",
+          "pvenda": 14.49
+        },
+        {
+          "desc": "RED BULL SF NECTARINA 24X250ML",
+          "industria": "RED BULL",
+          "qt": 2,
+          "val": 191.52,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "5899",
+          "codfilial": "2",
+          "pvenda": 95.76
+        }
+      ],
+      "tem_corte": false,
+      "motivo_codprod": "3814",
+      "motivo_produto": "VINHO TINTO QUINTA DO MORGADO 750ML",
+      "motivo_preco_digitado": 14.49,
+      "motivo_preco_tabela": 14.7
     },
     {
       "numped": "241000544",
@@ -546,6 +664,58 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
+      "numped": "431001224",
+      "numnota": "",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "ADEILSON GONÇALVEZ - OFF TRADE",
+      "cliente": "TALM COMERCIO DE BEBIDAS LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :997",
+      "obs": "",
+      "total": 649.82,
+      "itens": [
+        {
+          "desc": "KIT BRUT ROSE 7 GARRAFAS + BALDE",
+          "industria": "CASA PERINI",
+          "qt": 1,
+          "val": 299.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "4321",
+          "codfilial": "2",
+          "pvenda": 299.9
+        },
+        {
+          "desc": "4 PACK RED BULL 250ML",
+          "industria": "RED BULL",
+          "qt": 12,
+          "val": 349.92,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "997",
+          "codfilial": "2",
+          "pvenda": 29.16
+        }
+      ],
+      "tem_corte": false,
+      "motivo_codprod": "997",
+      "motivo_produto": "4 PACK RED BULL 250ML",
+      "motivo_preco_digitado": 29.16,
+      "motivo_preco_tabela": 33.96
+    },
+    {
       "numped": "155004099",
       "numnota": "",
       "data": "10/08/2026",
@@ -702,6 +872,180 @@ const PEDIDOS_DATA = {
       "motivo_preco_tabela": 172.56
     },
     {
+      "numped": "388001245",
+      "numnota": "",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "EUDES MORGAN - OFF TRADE",
+      "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+      "sistema": "CRC",
+      "estado": "ES",
+      "supervisor": "SUPERVISOR OFF - ES",
+      "gerente": "EROCLES OLIVEIRA",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :7351",
+      "obs": "Entrega agendada para o dia   12/08/26.",
+      "total": 2155.31,
+      "itens": [
+        {
+          "desc": "DP DADINHO TRAD 420GR",
+          "industria": "DADINHO",
+          "qt": 18,
+          "val": 304.92,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 18.0,
+          "cortado": false,
+          "codprod": "7351",
+          "codfilial": "1",
+          "pvenda": 16.94
+        },
+        {
+          "desc": "DP DADINHO TRAD SACHE 90G",
+          "industria": "DADINHO",
+          "qt": 40,
+          "val": 244.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 40.0,
+          "cortado": false,
+          "codprod": "7349",
+          "codfilial": "1",
+          "pvenda": 6.1
+        },
+        {
+          "desc": "DP DADINHO ZERO ACUCAR 90G",
+          "industria": "DADINHO",
+          "qt": 40,
+          "val": 358.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 40.0,
+          "cortado": false,
+          "codprod": "7350",
+          "codfilial": "1",
+          "pvenda": 8.97
+        },
+        {
+          "desc": "PINATI NUTS BANANA 20X30G",
+          "industria": "PINATI",
+          "qt": 1,
+          "val": 38.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "5240",
+          "codfilial": "1",
+          "pvenda": 38.8
+        },
+        {
+          "desc": "PINATI NUTS ZERO ORIGINAL 16X4X25G",
+          "industria": "PINATI",
+          "qt": 1,
+          "val": 88.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "5255",
+          "codfilial": "1",
+          "pvenda": 88.8
+        },
+        {
+          "desc": "PINATI DOUBLE BAR BANANA AMENDOIM 16X35G",
+          "industria": "PINATI",
+          "qt": 4,
+          "val": 197.22,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 4.0,
+          "cortado": false,
+          "codprod": "7601",
+          "codfilial": "1",
+          "pvenda": 49.3
+        },
+        {
+          "desc": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
+          "industria": "PINATI",
+          "qt": 4,
+          "val": 197.22,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 4.0,
+          "cortado": false,
+          "codprod": "7492",
+          "codfilial": "1",
+          "pvenda": 49.3
+        },
+        {
+          "desc": "PINATI DB WHEY AVELA E LEITE 12X50G",
+          "industria": "PINATI",
+          "qt": 1,
+          "val": 69.81,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "5258",
+          "codfilial": "1",
+          "pvenda": 69.81
+        },
+        {
+          "desc": "DP BOMBOM DADINHO ESPEC 198G",
+          "industria": "DADINHO",
+          "qt": 30,
+          "val": 197.7,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 30.0,
+          "cortado": false,
+          "codprod": "7352",
+          "codfilial": "1",
+          "pvenda": 6.59
+        },
+        {
+          "desc": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
+          "industria": "DADINHO",
+          "qt": 12,
+          "val": 343.44,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "7354",
+          "codfilial": "1",
+          "pvenda": 28.62
+        },
+        {
+          "desc": "DP DADINHO BITZ AO LEITE 105G",
+          "industria": "DADINHO",
+          "qt": 30,
+          "val": 114.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 30.0,
+          "cortado": false,
+          "codprod": "7356",
+          "codfilial": "1",
+          "pvenda": 3.82
+        }
+      ],
+      "tem_corte": false
+    },
+    {
       "numped": "155004101",
       "numnota": "",
       "data": "10/08/2026",
@@ -799,7 +1143,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :902",
       "obs": "",
       "total": 517.68,
@@ -889,7 +1233,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :3065",
       "obs": "data entrega: 11/08",
       "total": 556.58,
@@ -941,7 +1285,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :119",
       "obs": "Favor entregar dia 11/08",
       "total": 454.8,
@@ -1062,6 +1406,120 @@ const PEDIDOS_DATA = {
       "motivo_preco_tabela": 172.56
     },
     {
+      "numped": "155004104",
+      "numnota": "",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "RAPHAEL SANTOS - OFF TRADE",
+      "cliente": "XERE BAR E RESTAURANTE LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :4285",
+      "obs": "",
+      "total": 48.85,
+      "itens": [
+        {
+          "desc": "VINHO LOS ALJIBES (VA) BRANCO 750ML",
+          "industria": "CASTAS",
+          "qt": 1,
+          "val": 48.85,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "4285",
+          "codfilial": "2",
+          "pvenda": 48.85
+        }
+      ],
+      "tem_corte": false,
+      "motivo_codprod": "4285",
+      "motivo_produto": "VINHO LOS ALJIBES (VA) BRANCO 750ML",
+      "motivo_preco_digitado": 48.85,
+      "motivo_preco_tabela": 74.9
+    },
+    {
+      "numped": "155004102",
+      "numnota": "",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "RAPHAEL SANTOS - OFF TRADE",
+      "cliente": "CAMILA LAROCCA DA COSTA 05624011725",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "",
+      "obs": "",
+      "total": 358.6,
+      "itens": [
+        {
+          "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "industria": "DIAGEO",
+          "qt": 1,
+          "val": 132.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "296",
+          "codfilial": "2",
+          "pvenda": 132.9
+        },
+        {
+          "desc": "VODCA SMIRNOFF RED 998 ML",
+          "industria": "DIAGEO",
+          "qt": 1,
+          "val": 27.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "16",
+          "codfilial": "2",
+          "pvenda": 27.9
+        },
+        {
+          "desc": "WHISKY J WALKER RED LABEL 1L",
+          "industria": "DIAGEO",
+          "qt": 1,
+          "val": 77.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "313",
+          "codfilial": "2",
+          "pvenda": 77.9
+        },
+        {
+          "desc": "WHISKY JACK DANIELS 1L",
+          "industria": "BROWN",
+          "qt": 1,
+          "val": 119.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "cortado": false,
+          "codprod": "187",
+          "codfilial": "2",
+          "pvenda": 119.9
+        }
+      ],
+      "tem_corte": false
+    },
+    {
       "numped": "153001364",
       "numnota": "",
       "data": "10/08/2026",
@@ -1073,7 +1531,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :7095",
       "obs": "entregar no dia 11/08 com pagamento de descarga no valor de R$60,00 por pal",
       "total": 827.46,
@@ -1468,6 +1926,82 @@ const PEDIDOS_DATA = {
       "motivo_preco_tabela": 237.16
     },
     {
+      "numped": "155004103",
+      "numnota": "",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "RAPHAEL SANTOS - OFF TRADE",
+      "cliente": "XERE BAR E RESTAURANTE LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "",
+      "obs": "",
+      "total": 2157.1,
+      "itens": [
+        {
+          "desc": "HUMB. CANALE DENARIO SAUV. BLANC",
+          "industria": "CASTAS",
+          "qt": 12,
+          "val": 838.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "cortado": false,
+          "codprod": "2895",
+          "codfilial": "2",
+          "pvenda": 69.9
+        },
+        {
+          "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "industria": "CASTAS",
+          "qt": 8,
+          "val": 599.2,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 8.0,
+          "cortado": false,
+          "codprod": "2842",
+          "codfilial": "2",
+          "pvenda": 74.9
+        },
+        {
+          "desc": "VINHO LOS ALJIBES (VA) BRANCO 750ML",
+          "industria": "CASTAS",
+          "qt": 6,
+          "val": 449.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "4285",
+          "codfilial": "2",
+          "pvenda": 74.9
+        },
+        {
+          "desc": "VINHO CAZAS NOVAS COLHEITA 750ML",
+          "industria": "CASTAS",
+          "qt": 3,
+          "val": 269.7,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "cortado": false,
+          "codprod": "4271",
+          "codfilial": "2",
+          "pvenda": 89.9
+        }
+      ],
+      "tem_corte": false
+    },
+    {
       "numped": "388001243",
       "numnota": "",
       "data": "10/08/2026",
@@ -1643,7 +2177,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "",
       "obs": "",
       "total": 786.9,
@@ -2032,7 +2566,7 @@ const PEDIDOS_DATA = {
       "posicao": "Bloqueado (alçada)",
       "motivo": "",
       "obs": "",
-      "total": 348.26,
+      "total": 289.91,
       "itens": [
         {
           "desc": "CONHAQUE DOMECQ 1L",
@@ -2059,20 +2593,6 @@ const PEDIDOS_DATA = {
           "qt_original": 3.0,
           "cortado": false,
           "codprod": "69",
-          "codfilial": "1",
-          "pvenda": 19.45
-        },
-        {
-          "desc": "RUM MONTILLA OURO 1L",
-          "industria": "PERNOD",
-          "qt": 3,
-          "val": 58.35,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 3.0,
-          "cortado": false,
-          "codprod": "178",
           "codfilial": "1",
           "pvenda": 19.45
         },
@@ -2308,7 +2828,7 @@ const PEDIDOS_DATA = {
       "posicao": "Bloqueado (alçada)",
       "motivo": "",
       "obs": "",
-      "total": 596.9,
+      "total": 567.0,
       "itens": [
         {
           "desc": "MARTINI BIANCO 750 ML",
@@ -2337,20 +2857,6 @@ const PEDIDOS_DATA = {
           "codprod": "38",
           "codfilial": "1",
           "pvenda": 28.19
-        },
-        {
-          "desc": "MARTINI EXTRA DRY 750 ML",
-          "industria": "BACARDI",
-          "qt": 1,
-          "val": 29.9,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "cortado": false,
-          "codprod": "169",
-          "codfilial": "1",
-          "pvenda": 29.9
         },
         {
           "desc": "APERITIVO CAMPARI 998ML",
@@ -2449,6 +2955,68 @@ const PEDIDOS_DATA = {
           "codprod": "5649",
           "codfilial": "1",
           "pvenda": 39.9
+        }
+      ],
+      "tem_corte": false
+    },
+    {
+      "numped": "588003354",
+      "numnota": "",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "W.S",
+      "cliente": "COMERCIO DE BEBIDAS FORTALEZA LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 5659.95,
+      "itens": [
+        {
+          "desc": "RUM MONTILLA CRISTAL 1L",
+          "industria": "PERNOD",
+          "qt": 51,
+          "val": 991.95,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 51.0,
+          "cortado": false,
+          "codprod": "66",
+          "codfilial": "1",
+          "pvenda": 19.45
+        },
+        {
+          "desc": "RUM MONTILLA CARTA BRANCA 1L",
+          "industria": "PERNOD",
+          "qt": 120,
+          "val": 2334.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 120.0,
+          "cortado": false,
+          "codprod": "69",
+          "codfilial": "1",
+          "pvenda": 19.45
+        },
+        {
+          "desc": "RUM MONTILLA OURO 1L",
+          "industria": "PERNOD",
+          "qt": 120,
+          "val": 2334.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 120.0,
+          "cortado": false,
+          "codprod": "178",
+          "codfilial": "1",
+          "pvenda": 19.45
         }
       ],
       "tem_corte": false
@@ -3125,7 +3693,7 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "PRECO ABAIXO DO MINIMO PERMITIDO",
       "obs": "",
       "total": 1514.1,
@@ -3176,6 +3744,138 @@ const PEDIDOS_DATA = {
       "tem_corte": false
     },
     {
+      "numped": "327009671",
+      "numnota": "",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "JOÃO SANTOS - OFF TRADE",
+      "cliente": "COMERCIAL COLOMBO EIRELI",
+      "sistema": "MGON",
+      "estado": "MG",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "cliente so recebe apos 16:00 horas",
+      "total": 3122.9,
+      "itens": [
+        {
+          "desc": "VINHO CORSARINI MONTEPULCIANO 750ML",
+          "industria": "CASTAS",
+          "qt": 4,
+          "val": 279.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 4.0,
+          "cortado": false,
+          "codprod": "2945",
+          "codfilial": "1",
+          "pvenda": 69.9
+        },
+        {
+          "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "industria": "CASTAS",
+          "qt": 6,
+          "val": 479.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "2942",
+          "codfilial": "1",
+          "pvenda": 79.9
+        },
+        {
+          "desc": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "industria": "CASTAS",
+          "qt": 10,
+          "val": 769.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 10.0,
+          "cortado": false,
+          "codprod": "2943",
+          "codfilial": "1",
+          "pvenda": 76.9
+        },
+        {
+          "desc": "VINHO ADELE ROSE 750ML",
+          "industria": "CASTAS",
+          "qt": 5,
+          "val": 384.5,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 5.0,
+          "cortado": false,
+          "codprod": "3378",
+          "codfilial": "1",
+          "pvenda": 76.9
+        },
+        {
+          "desc": "HUMB. CANALE DENARIO MALBEC 750ML",
+          "industria": "CASTAS",
+          "qt": 6,
+          "val": 461.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "cortado": false,
+          "codprod": "3286",
+          "codfilial": "1",
+          "pvenda": 76.9
+        },
+        {
+          "desc": "ESPUMANTE ALUD BRANCO 750ML",
+          "industria": "CASTAS",
+          "qt": 2,
+          "val": 89.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "3422",
+          "codfilial": "1",
+          "pvenda": 44.9
+        },
+        {
+          "desc": "ESPUMANTE ALUD ROSE 750ML",
+          "industria": "CASTAS",
+          "qt": 4,
+          "val": 179.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 4.0,
+          "cortado": false,
+          "codprod": "3538",
+          "codfilial": "1",
+          "pvenda": 44.9
+        },
+        {
+          "desc": "HERDADE DO FREIXO TERROIR TINTO 750ML",
+          "industria": "CASTAS",
+          "qt": 4,
+          "val": 479.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 4.0,
+          "cortado": false,
+          "codprod": "4313",
+          "codfilial": "1",
+          "pvenda": 119.9
+        }
+      ],
+      "tem_corte": false
+    },
+    {
       "numped": "327009666",
       "numnota": "",
       "data": "10/08/2026",
@@ -3187,7 +3887,7 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :119",
       "obs": "cliente so recebe apos 16:00 horas",
       "total": 411.36,
@@ -3281,7 +3981,7 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :3764",
       "obs": "CD",
       "total": 11064.0,
@@ -3347,7 +4047,7 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :4384",
       "obs": "",
       "total": 259.9,
@@ -3381,7 +4081,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "O Cliente esta bloqueado.",
       "obs": "",
       "total": 449.0,
@@ -4786,11 +5486,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "",
-      "motivo_codprod": "2979",
-      "motivo_produto": "ST PIERRE LATA GINGER LT 24X270ML",
-      "motivo_preco_digitado": 101.29,
-      "motivo_preco_tabela": 99.9
+      "status_log": ""
     },
     {
       "numped": "388001241",
@@ -4886,6 +5582,181 @@ const PEDIDOS_DATA = {
       "motivo_produto": "RUM BACARDI LIMON 700ML",
       "motivo_preco_digitado": 35.64,
       "motivo_preco_tabela": 36.5
+    },
+    {
+      "numped": "388001244",
+      "numnota": "43493",
+      "data": "10/08/2026",
+      "data_ord": "2026-08-10",
+      "nome": "EUDES MORGAN - OFF TRADE",
+      "cliente": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+      "sistema": "CRC",
+      "estado": "ES",
+      "supervisor": "SUPERVISOR OFF - ES",
+      "gerente": "EROCLES OLIVEIRA",
+      "status_ped": "",
+      "posicao": "Faturado",
+      "motivo": "Pedido com item abaixo do preço minimo.",
+      "obs": "",
+      "total": 3652.36,
+      "itens": [
+        {
+          "desc": "DP DADINHO TRAD 420GR",
+          "industria": "DADINHO",
+          "qt": 72,
+          "val": 439.2,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 72.0,
+          "cortado": false,
+          "codprod": "7351",
+          "codfilial": "1",
+          "pvenda": 6.1
+        },
+        {
+          "desc": "DP DADINHO TRAD SACHE 90G",
+          "industria": "DADINHO",
+          "qt": 80,
+          "val": 717.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 80.0,
+          "cortado": false,
+          "codprod": "7349",
+          "codfilial": "1",
+          "pvenda": 8.97
+        },
+        {
+          "desc": "DP BOMBOM DADINHO ESPEC 198G",
+          "industria": "DADINHO",
+          "qt": 60,
+          "val": 395.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 60.0,
+          "cortado": false,
+          "codprod": "7352",
+          "codfilial": "1",
+          "pvenda": 6.59
+        },
+        {
+          "desc": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
+          "industria": "DADINHO",
+          "qt": 24,
+          "val": 686.88,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 24.0,
+          "cortado": false,
+          "codprod": "7354",
+          "codfilial": "1",
+          "pvenda": 28.62
+        },
+        {
+          "desc": "DP DADINHO BITZ AO LEITE 105G",
+          "industria": "DADINHO",
+          "qt": 60,
+          "val": 229.2,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 60.0,
+          "cortado": false,
+          "codprod": "7356",
+          "codfilial": "1",
+          "pvenda": 3.82
+        },
+        {
+          "desc": "PINATI NUTS BANANA 20X30G",
+          "industria": "PINATI",
+          "qt": 4,
+          "val": 155.2,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 4.0,
+          "cortado": false,
+          "codprod": "5240",
+          "codfilial": "1",
+          "pvenda": 38.8
+        },
+        {
+          "desc": "PINATI NUTS ZERO COCO 16X4X25G",
+          "industria": "PINATI",
+          "qt": 2,
+          "val": 177.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "5254",
+          "codfilial": "1",
+          "pvenda": 88.8
+        },
+        {
+          "desc": "PINATI NUTS ZERO ORIGINAL 16X4X25G",
+          "industria": "PINATI",
+          "qt": 2,
+          "val": 177.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "cortado": false,
+          "codprod": "5255",
+          "codfilial": "1",
+          "pvenda": 88.8
+        },
+        {
+          "desc": "PINATI DOUBLE BAR BANANA AMENDOIM 16X35G",
+          "industria": "PINATI",
+          "qt": 4,
+          "val": 197.22,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 4.0,
+          "cortado": false,
+          "codprod": "7601",
+          "codfilial": "1",
+          "pvenda": 49.3
+        },
+        {
+          "desc": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
+          "industria": "PINATI",
+          "qt": 4,
+          "val": 197.22,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 4.0,
+          "cortado": false,
+          "codprod": "7492",
+          "codfilial": "1",
+          "pvenda": 49.3
+        },
+        {
+          "desc": "PINATI DB WHEY AVELA E LEITE 12X50G",
+          "industria": "PINATI",
+          "qt": 4,
+          "val": 279.24,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 4.0,
+          "cortado": false,
+          "codprod": "5258",
+          "codfilial": "1",
+          "pvenda": 69.81
+        }
+      ],
+      "tem_corte": false,
+      "status_log": ""
     },
     {
       "numped": "155004097",
@@ -62094,11 +62965,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "",
-      "motivo_codprod": "1041",
-      "motivo_produto": "XAROPE MONIN GENGIBRE (GINGER) 700 ML",
-      "motivo_preco_digitado": 46.9,
-      "motivo_preco_tabela": 49.9
+      "status_log": ""
     },
     {
       "numped": "360000418",
@@ -85731,11 +86598,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "",
-      "motivo_codprod": "7493",
-      "motivo_produto": "PINATI DOUBLE BAR COCO E AMENDOIM 16X35G",
-      "motivo_preco_digitado": 50.24,
-      "motivo_preco_tabela": 59.9
+      "status_log": ""
     },
     {
       "numped": "388001221",
@@ -96812,11 +97675,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "",
-      "motivo_codprod": "2979",
-      "motivo_produto": "ST PIERRE LATA GINGER LT 24X270ML",
-      "motivo_preco_digitado": 101.29,
-      "motivo_preco_tabela": 99.9
+      "status_log": ""
     },
     {
       "numped": "388001215",
@@ -141384,11 +142243,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE",
-      "motivo_codprod": "7606",
-      "motivo_produto": "PINATI SLIM WHEY BEIJINHO (4) 16X35G",
-      "motivo_preco_digitado": 56.91,
-      "motivo_preco_tabela": 59.9
+      "status_log": "ENTREGUE"
     },
     {
       "numped": "153001307",
@@ -156127,11 +156982,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "RETORNO",
-      "motivo_codprod": "7550",
-      "motivo_produto": "RC ATUM SOLIDO YF EM OLIVA 12X170G",
-      "motivo_preco_digitado": 129.9,
-      "motivo_preco_tabela": 129.9
+      "status_log": "RETORNO"
     },
     {
       "numped": "508000003",
@@ -174074,7 +174925,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "388001085",
@@ -176039,7 +176890,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE",
+      "status_log": "",
       "motivo_codprod": "3",
       "motivo_produto": "RED BULL 24X250ML",
       "motivo_preco_digitado": 196.56,
@@ -176386,7 +177237,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE",
+      "status_log": "",
       "motivo_codprod": "64",
       "motivo_produto": "CONHAQUE DOMECQ 1L",
       "motivo_preco_digitado": 29.9,
@@ -176506,7 +177357,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "438000070",
@@ -177063,7 +177914,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "status_log": "ENTREGUE"
+      "status_log": ""
     },
     {
       "numped": "588002482",
@@ -194311,11 +195162,7 @@ const PEDIDOS_DATA = {
           "pvenda": 31.99
         }
       ],
-      "tem_corte": true,
-      "motivo_codprod": "7492",
-      "motivo_produto": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
-      "motivo_preco_digitado": 59.9,
-      "motivo_preco_tabela": 59.9
+      "tem_corte": true
     },
     {
       "numped": "476000083",
@@ -208763,11 +209610,7 @@ const PEDIDOS_DATA = {
           "pvenda": 24.9
         }
       ],
-      "tem_corte": true,
-      "motivo_codprod": "3556",
-      "motivo_produto": "COQUETEL CONTINI BRANCO 900ML",
-      "motivo_preco_digitado": 24.9,
-      "motivo_preco_tabela": 26.29
+      "tem_corte": true
     },
     {
       "numped": "156003368",
