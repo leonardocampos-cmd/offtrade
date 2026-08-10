@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "10/08/2026 10:35",
+  "atualizado_em": "10/08/2026 10:51",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -6916,6 +6916,13 @@ const NAO_POS_SP_DATA = {
             "valor": 394.8
           }
         ]
+      },
+      {
+        "codcli": "52354",
+        "cliente": "L. M. FERRAZ DA SILVA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
       },
       {
         "codcli": "49702",
