@@ -1,11 +1,31 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "10/08/2026 10:33",
+  "atualizado_em": "10/08/2026 14:25",
   "data_rota": "10.08",
   "vendedores": [
     {
       "nome": "ADEILSON GONÇALVEZ - OFF TRADE",
       "em_rota": [],
       "nao_emitido": [
+        {
+          "numped": "431001223",
+          "numnota": "",
+          "data": "10/08/2026",
+          "cliente": "KVSO I COM PROD FAR LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 359.52,
+          "itens": [
+            {
+              "desc": "4 PACK RED BULL 250ML",
+              "qt": 12,
+              "val": 359.52
+            }
+          ]
+        },
         {
           "numped": "431001222",
           "numnota": "",
@@ -20,12 +40,12 @@ const ENTREGAS_DATA = {
           "total": 259.8,
           "itens": [
             {
-              "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+              "desc": "RC ATUM RALADO OLEO 24X140G",
               "qt": 1,
               "val": 129.9
             },
             {
-              "desc": "RC ATUM RALADO OLEO 24X140G",
+              "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
               "qt": 1,
               "val": 129.9
             }
@@ -1428,19 +1448,14 @@ const ENTREGAS_DATA = {
           "total": 7842.4,
           "itens": [
             {
-              "desc": "WHISKY AME BUFFALO TRACE +1 COPO",
-              "qt": 1,
-              "val": 139.0
-            },
-            {
               "desc": "WHISKY CHIVAS REGAL 12 ANOS 1L",
               "qt": 6,
               "val": 599.4
             },
             {
-              "desc": "VODKA ABSOLUT 1L",
-              "qt": 12,
-              "val": 718.8
+              "desc": "WHISKY AME BUFFALO TRACE +1 COPO",
+              "qt": 1,
+              "val": 139.0
             },
             {
               "desc": "TEQUILA J CUERVO SILVER 750ML",
@@ -1476,6 +1491,11 @@ const ENTREGAS_DATA = {
               "desc": "VINHO ARCAIA PINOT GRIGIO 375ML",
               "qt": 12,
               "val": 370.8
+            },
+            {
+              "desc": "VODKA ABSOLUT 1L",
+              "qt": 12,
+              "val": 718.8
             }
           ]
         },
@@ -1960,6 +1980,11 @@ const ENTREGAS_DATA = {
           "total": 663.7,
           "itens": [
             {
+              "desc": "RED BULL 24X250ML",
+              "qt": 2,
+              "val": 393.12
+            },
+            {
               "desc": "RED BULL SUGAR FREE 24X250ML",
               "qt": 1,
               "val": 196.56
@@ -1968,11 +1993,6 @@ const ENTREGAS_DATA = {
               "desc": "GUARAVITON GINSENG 12X500ML",
               "qt": 2,
               "val": 74.02
-            },
-            {
-              "desc": "RED BULL 24X250ML",
-              "qt": 2,
-              "val": 393.12
             }
           ]
         }
@@ -4272,7 +4292,93 @@ const ENTREGAS_DATA = {
     {
       "nome": "JORGE MACIEL - OFF TRADE",
       "em_rota": [],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "379001381",
+          "numnota": "",
+          "data": "10/08/2026",
+          "cliente": "PAVUNA EXPRESS COMERCIO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 441.28,
+          "itens": [
+            {
+              "desc": "RED BULL TROPICAL 24X250ML",
+              "qt": 1,
+              "val": 172.76
+            },
+            {
+              "desc": "RED BULL MELANCIA 250ML CX C/24",
+              "qt": 1,
+              "val": 172.76
+            },
+            {
+              "desc": "RED BULL SF NECTARINA 24X250ML",
+              "qt": 1,
+              "val": 95.76
+            }
+          ]
+        },
+        {
+          "numped": "379001379",
+          "numnota": "",
+          "data": "10/08/2026",
+          "cliente": "MN GAZZOLI MERCEARIA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 322.72,
+          "itens": [
+            {
+              "desc": "4 PACK RED BULL 250ML",
+              "qt": 2,
+              "val": 57.52
+            },
+            {
+              "desc": "VEJA MULTIUSO/1BAN/1COZ PACK C/3 24X500M",
+              "qt": 1,
+              "val": 133.2
+            },
+            {
+              "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+              "qt": 1,
+              "val": 132.0
+            }
+          ]
+        },
+        {
+          "numped": "379001380",
+          "numnota": "",
+          "data": "10/08/2026",
+          "cliente": "R F SANTANA MERCEARIA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 440.94,
+          "itens": [
+            {
+              "desc": "RED BULL SF NECTARINA 24X250ML",
+              "qt": 1,
+              "val": 95.76
+            },
+            {
+              "desc": "RED BULL 24X250ML",
+              "qt": 2,
+              "val": 345.18
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [],
       "canceladas": [
         {
@@ -6371,7 +6477,33 @@ const ENTREGAS_DATA = {
     {
       "nome": "MARILENA TRAGEL - OFF TRADE",
       "em_rota": [],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "156003827",
+          "numnota": "",
+          "data": "10/08/2026",
+          "cliente": "POSTO JULIO DE CASTILHO LIMITADA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 254.0,
+          "itens": [
+            {
+              "desc": "AGUA MINALBA C/ GAS 6X1,5L",
+              "qt": 5,
+              "val": 109.5
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+              "qt": 5,
+              "val": 144.5
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "156003654",
@@ -7823,6 +7955,131 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "439000325",
+          "numnota": "",
+          "data": "10/08/2026",
+          "cliente": "NOVA BONFIM MERCEARIA DE ANGRA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Data entrega: 13/08/26",
+          "total": 727.08,
+          "itens": [
+            {
+              "desc": "CONHAQUE DOMECQ 1L",
+              "qt": 6,
+              "val": 173.4
+            },
+            {
+              "desc": "RC ATUM RALADO OLEO 24X140G",
+              "qt": 1,
+              "val": 153.36
+            },
+            {
+              "desc": "RC ATUM SOLIDO OLEO 24X170G",
+              "qt": 1,
+              "val": 208.56
+            },
+            {
+              "desc": "RC ATUM PEDACOS NATURAL 24X140G",
+              "qt": 1,
+              "val": 191.76
+            }
+          ]
+        },
+        {
+          "numped": "439000324",
+          "numnota": "",
+          "data": "10/08/2026",
+          "cliente": "DAVID WESLEY FERREIRA DOS SANTOS 16810532765",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Data entrega: 13/08/26",
+          "total": 858.82,
+          "itens": [
+            {
+              "desc": "VODKA ABSOLUT 1L",
+              "qt": 1,
+              "val": 59.9
+            },
+            {
+              "desc": "WHISKY BALLANTINE S FINEST 1L",
+              "qt": 1,
+              "val": 62.9
+            },
+            {
+              "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "qt": 6,
+              "val": 221.4
+            },
+            {
+              "desc": "ST PIERRE LATA RED MINT LT 24X270ML",
+              "qt": 1,
+              "val": 95.9
+            },
+            {
+              "desc": "CACHACA JOIA DA SERRA TRADICIONAL 1L",
+              "qt": 2,
+              "val": 43.8
+            },
+            {
+              "desc": "ST PIERRE ZERO LATA TROPICAL LT 6X310ML",
+              "qt": 4,
+              "val": 91.6
+            },
+            {
+              "desc": "CACHACA JOIA DA SERRA OURO 1L",
+              "qt": 2,
+              "val": 43.8
+            },
+            {
+              "desc": "NECTAR ABACAXI 12X1000ML",
+              "qt": 1,
+              "val": 59.88
+            },
+            {
+              "desc": "NECTAR CAJU 12X1000ML",
+              "qt": 1,
+              "val": 59.88
+            },
+            {
+              "desc": "NECTAR GOIABA 12X1000ML",
+              "qt": 1,
+              "val": 59.88
+            },
+            {
+              "desc": "NECTAR MACA TIAL 12X1000ML",
+              "qt": 1,
+              "val": 59.88
+            }
+          ]
+        },
+        {
+          "numped": "439000326",
+          "numnota": "",
+          "data": "10/08/2026",
+          "cliente": "NOVA BONFIM MERCEARIA DE ANGRA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "Data entrega: 13/08/26",
+          "total": 153.36,
+          "itens": [
+            {
+              "desc": "RC ATUM RALADO OLEO 24X140G",
+              "qt": 1,
+              "val": 153.36
+            }
+          ]
+        },
+        {
           "numped": "439000323",
           "numnota": "",
           "data": "07/08/2026",
@@ -8838,7 +9095,98 @@ const ENTREGAS_DATA = {
     {
       "nome": "RAPHAEL SANTOS - OFF TRADE",
       "em_rota": [],
-      "nao_emitido": [],
+      "nao_emitido": [
+        {
+          "numped": "155004098",
+          "numnota": "",
+          "data": "10/08/2026",
+          "cliente": "MINI MERCADO G MARKET LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 994.8,
+          "itens": [
+            {
+              "desc": "AGUA MINERAL MINALBA S/ GAS 12X310ML",
+              "qt": 10,
+              "val": 145.0
+            },
+            {
+              "desc": "4 PACK RED BULL SUGAR FREE",
+              "qt": 3,
+              "val": 89.88
+            },
+            {
+              "desc": "4 PACK RED BULL MORANGO PESSEGO",
+              "qt": 3,
+              "val": 89.88
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA C/ GAS 12X310ML",
+              "qt": 12,
+              "val": 262.8
+            },
+            {
+              "desc": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+              "qt": 3,
+              "val": 86.7
+            },
+            {
+              "desc": "4 PACK RED BULL CEREJA",
+              "qt": 3,
+              "val": 89.88
+            },
+            {
+              "desc": "AGUA MINALBA S/ GAS PREMIUM 12X300ML",
+              "qt": 1,
+              "val": 50.9
+            },
+            {
+              "desc": "4 PACK RED BULL MELÃO C/ MARACUJA",
+              "qt": 3,
+              "val": 89.88
+            },
+            {
+              "desc": "4 PACK RED BULL SF NECTARINA 4X250ML",
+              "qt": 3,
+              "val": 89.88
+            }
+          ]
+        },
+        {
+          "numped": "155004097",
+          "numnota": "",
+          "data": "10/08/2026",
+          "cliente": "EMS COMERCIO DE ALIMENTOS DE IGUABA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 777.0,
+          "itens": [
+            {
+              "desc": "GIN ROCKS STRAWBERRY 1000ML",
+              "qt": 12,
+              "val": 310.8
+            },
+            {
+              "desc": "GIN ROCKS 1000ML",
+              "qt": 6,
+              "val": 155.4
+            },
+            {
+              "desc": "GIN ROCKS WATERMELON 1000ML",
+              "qt": 12,
+              "val": 310.8
+            }
+          ]
+        }
+      ],
       "emitido_s_rota": [
         {
           "numped": "155003783",
@@ -9810,6 +10158,26 @@ const ENTREGAS_DATA = {
               "desc": "RED BULL 24X250ML",
               "qt": 3,
               "val": 539.28
+            }
+          ]
+        },
+        {
+          "numped": "241000544",
+          "numnota": "",
+          "data": "10/08/2026",
+          "cliente": "F S DO AMARAL COMERCIO DE BEBIDAS E ALIMENTOS",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 3468.0,
+          "itens": [
+            {
+              "desc": "CONHAQUE DOMECQ 1L",
+              "qt": 120,
+              "val": 3468.0
             }
           ]
         }
