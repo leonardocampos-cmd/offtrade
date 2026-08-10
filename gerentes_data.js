@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "10/08/2026 16:12",
+  "atualizado_em": "10/08/2026 16:18",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -3280,10 +3280,6 @@ const GERENTES_DATA = {
     {
       "nome": "Sem Estado",
       "por_mes": {
-        "Ago/26": {
-          "fat": 25436.07,
-          "qt": 200
-        },
         "Mai/26": {
           "fat": 11542.24,
           "qt": 118
@@ -3291,6 +3287,10 @@ const GERENTES_DATA = {
         "Mar/26": {
           "fat": 8527.02,
           "qt": 438
+        },
+        "Ago/26": {
+          "fat": 25436.07,
+          "qt": 200
         }
       },
       "gerentes": [
