@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "10/08/2026 12:07",
+  "atualizado_em": "10/08/2026 12:29",
   "total": 22368,
   "clientes": [
     {
@@ -159268,22 +159268,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "386",
-      "razao": "GALETO COPA RIO LTDA",
-      "fantasia": "COPA RIO",
-      "bairro": "COPACABANA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "34.174.813/0001-10",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "30156",
       "razao": "GALETO E ESPETO LTDA",
       "fantasia": "GALETO E ESPETO",
@@ -163042,6 +163026,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "319",
       "nome_usur2": "FERNANDA CAMBOIM"
+    },
+    {
+      "codcli": "90490",
+      "razao": "GINTECO ALMAR LTDA (CNPJ BAIXADO)",
+      "fantasia": "GINTECO ALMAR",
+      "bairro": "ROCHA MIRANDA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "60.274.185/0001-54",
+      "estado": "RJ",
+      "ramo": "BAR",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "10",
+      "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "57494",
