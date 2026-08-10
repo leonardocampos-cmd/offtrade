@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "10/08/2026 15:00",
+  "atualizado_em": "10/08/2026 15:17",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -1331,26 +1331,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "FANTE",
             "qt": 1,
             "valor": 6.82
-          }
-        ]
-      },
-      {
-        "codcli": "91424",
-        "cliente": "KVSO I COM PROD FAR LTDA",
-        "bairro": "REALENGO",
-        "dtultcomp": "13/07/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL 250ML",
-            "fantasia": "RED BULL",
-            "qt": 7,
-            "valor": 229.32
-          },
-          {
-            "produto": "GUARAVITA NATURAL 24X290ML",
-            "fantasia": "VITON",
-            "qt": 1,
-            "valor": 31.99
           }
         ]
       },
@@ -3012,44 +2992,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "95525",
-        "cliente": "G5 DROGARIAS LTDA",
-        "bairro": "COPACABANA",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "GUARAVITON GINSENG 12X500ML",
-            "fantasia": "VITON",
-            "qt": 1,
-            "valor": 31.89
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          }
-        ]
-      },
-      {
         "codcli": "95534",
         "cliente": "G5 DROGARIAS LTDA",
         "bairro": "IPANEMA",
@@ -3107,6 +3049,44 @@ const NAO_POS_ES_DATA = {
           },
           {
             "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          }
+        ]
+      },
+      {
+        "codcli": "95525",
+        "cliente": "G5 DROGARIAS LTDA",
+        "bairro": "COPACABANA",
+        "dtultcomp": "30/06/2026",
+        "produtos": [
+          {
+            "produto": "GUARAVITON GINSENG 12X500ML",
+            "fantasia": "VITON",
+            "qt": 1,
+            "valor": 31.89
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
             "fantasia": "TATUZINHO",
             "qt": 1,
             "valor": 94.68
@@ -11513,14 +11493,14 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95195",
+        "codcli": "95194",
         "cliente": "SUPERMERCADO E PADARIA TRARBACH LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "95194",
+        "codcli": "95195",
         "cliente": "SUPERMERCADO E PADARIA TRARBACH LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -15760,50 +15740,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "91508",
-        "cliente": "MN GAZZOLI MERCEARIA LTDA",
-        "bairro": "ANCHIETA",
-        "dtultcomp": "06/07/2026",
-        "produtos": [
-          {
-            "produto": "GUARAVITA NATURAL 24X290ML",
-            "fantasia": "VITON",
-            "qt": 20,
-            "valor": 513.95
-          },
-          {
-            "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
-            "fantasia": "PINATI",
-            "qt": 1,
-            "valor": 71.2
-          },
-          {
-            "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
-            "fantasia": "PINATI",
-            "qt": 1,
-            "valor": 38.9
-          },
-          {
-            "produto": "RC SARDINHA EM OLEO 50X125G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 199.5
-          },
-          {
-            "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 199.5
-          },
-          {
-            "produto": "VEJA MULTIUSO/1BAN/1COZ PACK C/3 24X500M",
-            "fantasia": "RECKITT",
-            "qt": 1,
-            "valor": 133.2
-          }
-        ]
-      },
-      {
         "codcli": "95071",
         "cliente": "MERCEARIA FERREIRA ZANCO LTDA",
         "bairro": "PARQUE AFONSO",
@@ -17141,9 +17077,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95672",
+        "codcli": "95665",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "PEDRA DE GUARATIBA",
+        "bairro": "GUARATIBA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "3754",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "RECREIO DOS BANDEIRANTES",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -17162,9 +17105,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "3754",
+        "codcli": "67821",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "RECREIO DOS BANDEIRANTES",
+        "bairro": "BARRA DA TIJUCA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -17172,27 +17115,6 @@ const NAO_POS_ES_DATA = {
         "codcli": "95668",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
         "bairro": "CASCADURA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "95673",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "PARADA DE LUCAS",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "95671",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "TANQUE",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "95670",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -17211,16 +17133,30 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95665",
+        "codcli": "95672",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "GUARATIBA",
+        "bairro": "PEDRA DE GUARATIBA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "67821",
+        "codcli": "95673",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "BARRA DA TIJUCA",
+        "bairro": "PARADA DE LUCAS",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95670",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95671",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "TANQUE",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -17655,9 +17591,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "90415",
+        "codcli": "78665",
         "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-        "bairro": "PENHA",
+        "bairro": "DEL CASTILHO",
         "dtultcomp": "10/06/2026",
         "produtos": [
           {
@@ -17693,9 +17629,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "78665",
+        "codcli": "90415",
         "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-        "bairro": "DEL CASTILHO",
+        "bairro": "PENHA",
         "dtultcomp": "10/06/2026",
         "produtos": [
           {
@@ -17769,9 +17705,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "90406",
+        "codcli": "90413",
         "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-        "bairro": "LARGO DA BATALHA",
+        "bairro": "VALVERDE",
         "dtultcomp": "11/06/2026",
         "produtos": [
           {
@@ -17807,9 +17743,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "90413",
+        "codcli": "90406",
         "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-        "bairro": "VALVERDE",
+        "bairro": "LARGO DA BATALHA",
         "dtultcomp": "11/06/2026",
         "produtos": [
           {
@@ -18273,9 +18209,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "61684",
+        "codcli": "80353",
         "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-        "bairro": "BARROCO (ITAIPUACU)",
+        "bairro": "FONSECA",
         "dtultcomp": "27/07/2026",
         "produtos": [
           {
@@ -18285,10 +18221,28 @@ const NAO_POS_ES_DATA = {
             "valor": 95.52
           },
           {
+            "produto": "ST PIERRE ZERO LATA PINK LEMON  24X310ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 95.52
+          },
+          {
+            "produto": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 95.52
+          },
+          {
+            "produto": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 95.52
+          },
+          {
             "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
             "fantasia": "FANTE",
-            "qt": 60,
-            "valor": 690.0
+            "qt": 36,
+            "valor": 414.0
           }
         ]
       },
@@ -18331,9 +18285,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "80353",
+        "codcli": "61684",
         "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-        "bairro": "FONSECA",
+        "bairro": "BARROCO (ITAIPUACU)",
         "dtultcomp": "27/07/2026",
         "produtos": [
           {
@@ -18343,28 +18297,10 @@ const NAO_POS_ES_DATA = {
             "valor": 95.52
           },
           {
-            "produto": "ST PIERRE ZERO LATA PINK LEMON  24X310ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 95.52
-          },
-          {
-            "produto": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 95.52
-          },
-          {
-            "produto": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 95.52
-          },
-          {
             "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
             "fantasia": "FANTE",
-            "qt": 36,
-            "valor": 414.0
+            "qt": 60,
+            "valor": 690.0
           }
         ]
       },
@@ -18460,6 +18396,48 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
+        "codcli": "91998",
+        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "91992",
+        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "91994",
+        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+        "bairro": "REALENGO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "92001",
+        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+        "bairro": "PAVUNA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "91996",
+        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+        "bairro": "BANGU",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "91984",
+        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+        "bairro": "PARQUE URUGUAIANA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "91993",
         "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
         "bairro": "COELHO NETO",
@@ -18509,41 +18487,6 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "91994",
-        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "REALENGO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "91992",
-        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "91984",
-        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "PARQUE URUGUAIANA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "92001",
-        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "PAVUNA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "91996",
-        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "BANGU",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "92003",
         "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
         "bairro": "PAVUNA",
@@ -18579,16 +18522,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "91998",
-        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "CENTRO",
+        "codcli": "28411",
+        "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+        "bairro": "PORTO VELHO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "28411",
-        "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-        "bairro": "PORTO VELHO",
+        "codcli": "90414",
+        "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+        "bairro": "INHAUMA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -18603,13 +18546,6 @@ const NAO_POS_ES_DATA = {
         "codcli": "90407",
         "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
         "bairro": "VIGA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "90414",
-        "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-        "bairro": "INHAUMA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -18974,6 +18910,32 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
+        "codcli": "79597",
+        "cliente": "DOM ATACAREJO S.A.",
+        "bairro": "INHAUMA",
+        "dtultcomp": "05/07/2025",
+        "produtos": [
+          {
+            "produto": "WHISKY JIM BEAM APPLE 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 36,
+            "valor": 2880.0
+          },
+          {
+            "produto": "WHISKY JIM BEAM HONEY 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 24,
+            "valor": 1920.0
+          },
+          {
+            "produto": "WHISKY JIM BEAM WHITE 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 36,
+            "valor": 2880.0
+          }
+        ]
+      },
+      {
         "codcli": "79595",
         "cliente": "DOM ATACAREJO S.A.",
         "bairro": "PARQUE PECUARIA",
@@ -19094,32 +19056,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "BEAM SUNTORY",
             "qt": 24,
             "valor": 1920.0
-          }
-        ]
-      },
-      {
-        "codcli": "79597",
-        "cliente": "DOM ATACAREJO S.A.",
-        "bairro": "INHAUMA",
-        "dtultcomp": "05/07/2025",
-        "produtos": [
-          {
-            "produto": "WHISKY JIM BEAM APPLE 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 36,
-            "valor": 2880.0
-          },
-          {
-            "produto": "WHISKY JIM BEAM HONEY 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 24,
-            "valor": 1920.0
-          },
-          {
-            "produto": "WHISKY JIM BEAM WHITE 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 36,
-            "valor": 2880.0
           }
         ]
       },
@@ -27008,20 +26944,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "54862",
-        "cliente": "EMS COMERCIO DE ALIMENTOS DE IGUABA LTDA",
-        "bairro": "CIDADE NOVA",
-        "dtultcomp": "22/07/2026",
-        "produtos": [
-          {
-            "produto": "GIN ROCKS WATERMELON 1000ML",
-            "fantasia": "FANTE",
-            "qt": 12,
-            "valor": 310.8
-          }
-        ]
-      },
-      {
         "codcli": "91715",
         "cliente": "PORTO MANGUINHOS BAR E RESTAURANTE LTDA",
         "bairro": "MANGUINHOS",
@@ -27885,16 +27807,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "94126",
+        "codcli": "85951",
         "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
-        "bairro": "CENTRO",
+        "bairro": "VILA NOVA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "85951",
+        "codcli": "94126",
         "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
-        "bairro": "VILA NOVA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
