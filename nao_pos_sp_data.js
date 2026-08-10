@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "10/08/2026 17:35",
+  "atualizado_em": "10/08/2026 17:58",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -11395,6 +11395,13 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
+        "codcli": "52107",
+        "cliente": "DAVID BARBOZA SUPERMERCADO LTDA",
+        "bairro": "PARQUE SÃO JORGE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "52103",
         "cliente": "DAVID BARBOZA SUPERMERCADO LTDA",
         "bairro": "SANTA FÉ",
@@ -11405,13 +11412,6 @@ const NAO_POS_SP_DATA = {
         "codcli": "52104",
         "cliente": "DAVID BARBOZA SUPERMERCADO LTDA",
         "bairro": "JARDIM MACUCOS",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "52107",
-        "cliente": "DAVID BARBOZA SUPERMERCADO LTDA",
-        "bairro": "PARQUE SÃO JORGE",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -11440,6 +11440,27 @@ const NAO_POS_SP_DATA = {
         "codcli": "51979",
         "cliente": "OFELIA SARRI MORETE",
         "bairro": "JARDIM VILLAGIO GHIRALDELLI",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52379",
+        "cliente": "SUPERMERCADO JARDIM DOS CALEGARIS LTDA",
+        "bairro": "VILA JOSÉ PAULINO NOGUEIRA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52378",
+        "cliente": "SUPERMERCADO JARDIM DOS CALEGARIS LTDA",
+        "bairro": "JARDIM DOS CALEGARIS",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52380",
+        "cliente": "SUPERMERCADO JARDIM DOS CALEGARIS LTDA",
+        "bairro": "CONJUNTO HABITACIONAL PADRE ANCHIETA",
         "dtultcomp": "nan",
         "produtos": []
       },
