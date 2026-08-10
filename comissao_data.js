@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "10/08/2026 15:46",
+  "atualizado_em": "10/08/2026 16:09",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -394,10 +394,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 65000.0,
-          "realizado": 4971.4,
+          "realizado": 5543.2,
           "peso": 0.1,
-          "ating_meta": 0.076483,
-          "ating_acumulado": 0.007648
+          "ating_meta": 0.08528,
+          "ating_acumulado": 0.008528
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -434,10 +434,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO",
           "meta": 50.0,
-          "realizado": 7,
+          "realizado": 8,
           "peso": 0.65,
-          "ating_meta": 0.14,
-          "ating_acumulado": 0.091
+          "ating_meta": 0.16,
+          "ating_acumulado": 0.104
         },
         {
           "label": "POSITIVAÇÃO ESSENZA",
@@ -490,10 +490,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO TATUZINHO",
           "meta": 15.0,
-          "realizado": 1,
+          "realizado": 2,
           "peso": 0.05,
-          "ating_meta": 0.066667,
-          "ating_acumulado": 0.003333
+          "ating_meta": 0.133333,
+          "ating_acumulado": 0.006667
         },
         {
           "label": "POSITIVAÇÃO TIAL",
@@ -504,14 +504,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.0
         }
       ],
-      "ating_acumulado_total": 0.101981,
-      "pct_premio": 0.00152972,
+      "ating_acumulado_total": 0.119195,
+      "pct_premio": 0.00178792,
       "liq_rigarr": 9146.96,
       "fat_castas": 358.8,
       "teto_comissao": 2000.0,
-      "com_rigarr": 203.96,
-      "com_castas": 0.55,
-      "comissao_estimada": 204.51
+      "com_rigarr": 238.39,
+      "com_castas": 0.64,
+      "comissao_estimada": 239.03
     },
     {
       "nome": "ANGELO NEVES SUZART - OFF TRADE",
