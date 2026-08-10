@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "10/08/2026 16:52",
+  "atualizado_em": "10/08/2026 17:07",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -35,8 +35,8 @@ const GERENTES_DATA = {
           "qt": 51894
         },
         "Ago/26": {
-          "fat": 217911.93,
-          "qt": 3381
+          "fat": 218001.63,
+          "qt": 3391
         }
       },
       "gerentes": [
@@ -67,8 +67,8 @@ const GERENTES_DATA = {
               "qt": 44286
             },
             "Ago/26": {
-              "fat": 217911.93,
-              "qt": 3381
+              "fat": 218001.63,
+              "qt": 3391
             }
           },
           "supervisores": [
@@ -332,8 +332,8 @@ const GERENTES_DATA = {
                   "qt": 5134
                 },
                 "Ago/26": {
-                  "fat": 62424.33,
-                  "qt": 2511
+                  "fat": 62514.03,
+                  "qt": 2521
                 },
                 "Jul/26": {
                   "fat": 1149420.35,
@@ -409,8 +409,8 @@ const GERENTES_DATA = {
                       "qt": 3702
                     },
                     "Ago/26": {
-                      "fat": 48360.88,
-                      "qt": 2331
+                      "fat": 48450.58,
+                      "qt": 2341
                     },
                     "Jul/26": {
                       "fat": 1002789.93,
@@ -1149,7 +1149,7 @@ const GERENTES_DATA = {
                 },
                 {
                   "nome": "DIRLEI ARAUJO - OFF TRADE",
-                  "rca": "554",
+                  "rca": "417",
                   "estado": "RJ",
                   "por_mes": {
                     "Abr/26": {
@@ -3280,6 +3280,10 @@ const GERENTES_DATA = {
     {
       "nome": "Sem Estado",
       "por_mes": {
+        "Ago/26": {
+          "fat": 25436.07,
+          "qt": 200
+        },
         "Mai/26": {
           "fat": 11542.24,
           "qt": 118
@@ -3287,10 +3291,6 @@ const GERENTES_DATA = {
         "Mar/26": {
           "fat": 8527.02,
           "qt": 438
-        },
-        "Ago/26": {
-          "fat": 25436.07,
-          "qt": 200
         }
       },
       "gerentes": [
