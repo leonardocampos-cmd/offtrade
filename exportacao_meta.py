@@ -220,6 +220,196 @@ _vh['MES_STR'] = _vh['MES'].apply(_mes_pt)
 
 _vh_grouped = _vh.groupby(['VENDEDOR', 'MES_STR'])
 
+# ── Pedidos cancelados/cortados, item a item (pra aparecer em "Faturamento do
+# mês", pedido do usuário em 2026-08-10) ──────────────────────────────────────
+# _vh (PCMOV) não tem esses itens: cancelado nunca gera movimento (mesma razão
+# de _query_historico_cancelados/_query_historico_cortes_pre_nf, mas aqui item
+# a item em vez de somado por mês, pra listar na tabela de vendas do vendedor).
+# Mesma janela de _query_vendas_historico (6 meses) — não os 12 do histórico.
+#
+# 3 fontes distintas:
+#  1. Cancelado TOTAL pós-NF: PBI_PCPEDI.STATUS='CANCELADA' (todo o pedido).
+#  2. Cancelado TOTAL pré-NF: view PEDIDOS_CANCELADOS (nunca chega a existir
+#     em PCPEDC/PBI_PCPEDI — ver [[project_faturamento_mes_cancelados]]).
+#     thekings não tem essa view — excluída da lista de schemas já na config,
+#     não deixa a query tentar e falhar (evita matar engine_theking pro resto
+#     do processo, mesmo cuidado do bloco de histórico acima).
+#  3. Corte PARCIAL de item, dentro de pedido que faturou (QTFALTA + PCCORTEI
+#     — mesma lógica de pedidos.py::_item_pedido/_extrair_cortados). QTFALTA
+#     tem semântica duvidosa (ver memória project_qtfalta_semantica_duvidosa)
+#     — o valor cortado aqui é aproximado, mesma limitação já aceita em
+#     pedidos.py pra essa mesma conta.
+
+_VH_CONFIGS_SEM_THEKINGS = [c for c in _VH_CONFIGS if c[0] != "thekings"]
+
+
+def _nome_filter_ped(extra_nomes=None):
+    nome_f = "PED.NOME LIKE '%OFF TRADE%'"
+    if extra_nomes:
+        nome_f = "(" + nome_f + " OR " + " OR ".join(f"PED.NOME LIKE '{p}'" for p in extra_nomes) + ")"
+    return nome_f
+
+
+def _query_vendas_cancelados_pos_nf(schema, filtro_filial="(1, 2, 4)", filtro_estent=None, extra_nomes=None):
+    s = schema.upper()
+    extra_filial = f"\n          AND PED.CODFILIAL IN {filtro_filial}" if filtro_filial else ""
+    extra_estent = f"\n          AND U.ESTADO = '{filtro_estent}'" if filtro_estent else ""
+    return f"""
+        SELECT
+            PED.DATA AS DATA, PED.CODCLI AS CODCLI, PED.CLIENTE AS CLIENTE,
+            PED.DESCRICAO AS PRODUTO, PED.FANTASIA_FORNEC AS FANTASIA,
+            PED.QT AS QT, PED.TOTAL AS VALOR,
+            PED.CODUSUR AS CODUSUR, U.NOME AS NOME_ORACLE
+        FROM {s}.PBI_PCPEDI PED
+        JOIN {s}.PCUSUARI U ON U.CODUSUR = PED.CODUSUR
+        WHERE PED.DATA >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -5)
+          AND PED.STATUS = 'CANCELADA'
+          AND {_nome_filter_ped(extra_nomes)}{extra_filial}{extra_estent}
+    """
+
+
+def _query_vendas_cancelados_pre_nf(schema, filtro_estent=None, extra_nomes=None):
+    s = schema.upper()
+    extra_estent = f"\n          AND U.ESTADO = '{filtro_estent}'" if filtro_estent else ""
+    return f"""
+        SELECT
+            PC.DATACANC AS DATA, PC.DESCRICAO AS PRODUTO,
+            PC.QT AS QT, PC.SUBTOT AS VALOR,
+            U.CODUSUR AS CODUSUR, U.NOME AS NOME_ORACLE
+        FROM {s}.PEDIDOS_CANCELADOS PC
+        JOIN {s}.PCUSUARI U ON U.CODUSUR = TO_NUMBER(SUBSTR(PC.NUMPED, 1, LENGTH(PC.NUMPED) - 6))
+        WHERE PC.DATACANC >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -5)
+          AND {_nome_filter(extra_nomes)}{extra_estent}
+    """
+
+
+def _query_vendas_corte_parcial(schema, filtro_filial="(1, 2, 4)", filtro_estent=None, extra_nomes=None):
+    s = schema.upper()
+    extra_filial = f"\n          AND PED.CODFILIAL IN {filtro_filial}" if filtro_filial else ""
+    extra_estent = f"\n          AND U.ESTADO = '{filtro_estent}'" if filtro_estent else ""
+    return f"""
+        SELECT
+            PED.DATA AS DATA, PED.CODCLI AS CODCLI, PED.CLIENTE AS CLIENTE,
+            PED.DESCRICAO AS PRODUTO, PED.FANTASIA_FORNEC AS FANTASIA,
+            PED.CODUSUR AS CODUSUR, U.NOME AS NOME_ORACLE,
+            PED.QTFALTA AS QTFALTA, PED.PVENDA AS PVENDA,
+            NVL(CT.QTCORTADA, 0) AS QTCORTADA
+        FROM {s}.PBI_PCPEDI PED
+        JOIN {s}.PCUSUARI U ON U.CODUSUR = PED.CODUSUR
+        LEFT JOIN (
+            SELECT NUMPED, CODPROD, CODFILIAL, SUM(QTCORTADA) AS QTCORTADA
+            FROM {s}.PCCORTEI
+            WHERE DATA >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -5)
+            GROUP BY NUMPED, CODPROD, CODFILIAL
+        ) CT ON CT.NUMPED = PED.NUMPED AND CT.CODPROD = PED.CODPROD
+             AND NVL(CT.CODFILIAL, 'x') = NVL(PED.CODFILIAL, 'x')
+        WHERE PED.DATA >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -5)
+          AND PED.NUMNOTA IS NOT NULL
+          AND NVL(PED.STATUS, 'X') != 'CANCELADA'
+          AND {_nome_filter_ped(extra_nomes)}{extra_filial}{extra_estent}
+    """
+
+
+def _carregar_item_level(query_fn, configs, sufixo, usa_filial=True):
+    if usa_filial:
+        chamadas = [
+            (query_fn(_s, filtro_filial=_ff, filtro_estent=_fe, extra_nomes=_en), _e, f"{_n}_{sufixo}")
+            for _s, _e, _n, _ff, _fe, _emp, _en, _to in configs
+        ]
+    else:
+        chamadas = [
+            (query_fn(_s, filtro_estent=_fe, extra_nomes=_en), _e, f"{_n}_{sufixo}")
+            for _s, _e, _n, _ff, _fe, _emp, _en, _to in configs
+        ]
+    partes = []
+    for (_s, _e, _n, _ff, _fe, _emp, _en, _to), _res in zip(configs, carregar_paralelo(chamadas)):
+        if isinstance(_res, Exception):
+            print(f"[AVISO] {_n}_{sufixo} falhou — ignorado")
+        else:
+            partes.append(_res)
+    if not partes:
+        return pd.DataFrame()
+    return pd.concat(partes, ignore_index=True)
+
+
+_vc_cancel_pos = _carregar_item_level(_query_vendas_cancelados_pos_nf, _VH_CONFIGS, "vd_cancel_pos")
+_vc_cancel_pre = _carregar_item_level(_query_vendas_cancelados_pre_nf, _VH_CONFIGS_SEM_THEKINGS, "vd_cancel_pre", usa_filial=False)
+_vc_corte      = _carregar_item_level(_query_vendas_corte_parcial, _VH_CONFIGS, "vd_corte")
+
+_itens_extra_por_vendedor: dict = {}
+
+
+def _registrar_item_extra(nome_oracle, mes_str, item):
+    nome_disp = _oracle_to_display.get(nome_oracle, nome_oracle)
+    if not nome_disp:
+        return
+    _itens_extra_por_vendedor.setdefault(nome_disp, {}).setdefault(mes_str, []).append(item)
+
+
+if not _vc_cancel_pos.empty:
+    _vc_cancel_pos['DATA'] = pd.to_datetime(_vc_cancel_pos['DATA'], errors='coerce')
+    _vc_cancel_pos = _vc_cancel_pos[_vc_cancel_pos['DATA'].notna()]
+    for _, row in _vc_cancel_pos.iterrows():
+        _registrar_item_extra(row['NOME_ORACLE'], _mes_pt(row['DATA']), {
+            'data':      row['DATA'].strftime('%d/%m/%Y'),
+            'codcli':    str(row.get('CODCLI') or ''),
+            'cliente':   str(row.get('CLIENTE') or ''),
+            'produto':   str(row.get('PRODUTO') or ''),
+            'fantasia':  str(row.get('FANTASIA') or ''),
+            'qt':        int(pd.to_numeric(row.get('QT'), errors='coerce') or 0),
+            'valor':     round(float(pd.to_numeric(row.get('VALOR'), errors='coerce') or 0), 2),
+            'tipo':      'Cancelado',
+            'offtrade':  True,
+            'devolvido': False,
+            'cancelado': True,
+            'cancelado_parcial': False,
+        })
+    print(f"OK vendas: {len(_vc_cancel_pos)} item(ns) cancelado(s) pós-NF")
+
+if not _vc_cancel_pre.empty:
+    _vc_cancel_pre['DATA'] = pd.to_datetime(_vc_cancel_pre['DATA'], errors='coerce')
+    _vc_cancel_pre = _vc_cancel_pre[_vc_cancel_pre['DATA'].notna()]
+    for _, row in _vc_cancel_pre.iterrows():
+        _registrar_item_extra(row['NOME_ORACLE'], _mes_pt(row['DATA']), {
+            'data':      row['DATA'].strftime('%d/%m/%Y'),
+            'codcli':    '',
+            'cliente':   '',
+            'produto':   str(row.get('PRODUTO') or ''),
+            'fantasia':  '',
+            'qt':        int(pd.to_numeric(row.get('QT'), errors='coerce') or 0),
+            'valor':     round(float(pd.to_numeric(row.get('VALOR'), errors='coerce') or 0), 2),
+            'tipo':      'Cancelado',
+            'offtrade':  True,
+            'devolvido': False,
+            'cancelado': True,
+            'cancelado_parcial': False,
+        })
+    print(f"OK vendas: {len(_vc_cancel_pre)} item(ns) cancelado(s) pré-NF")
+
+if not _vc_corte.empty:
+    _vc_corte['DATA']      = pd.to_datetime(_vc_corte['DATA'], errors='coerce')
+    _vc_corte['QTFALTA']   = pd.to_numeric(_vc_corte['QTFALTA'], errors='coerce').fillna(0)
+    _vc_corte['QTCORTADA'] = pd.to_numeric(_vc_corte['QTCORTADA'], errors='coerce').fillna(0)
+    _vc_corte['PVENDA']    = pd.to_numeric(_vc_corte['PVENDA'], errors='coerce').fillna(0)
+    _vc_corte['QTD_CORTADA_TOTAL'] = _vc_corte['QTCORTADA'] + _vc_corte['QTFALTA']
+    _vc_corte = _vc_corte[(_vc_corte['DATA'].notna()) & (_vc_corte['QTD_CORTADA_TOTAL'] > 0)]
+    for _, row in _vc_corte.iterrows():
+        _registrar_item_extra(row['NOME_ORACLE'], _mes_pt(row['DATA']), {
+            'data':      row['DATA'].strftime('%d/%m/%Y'),
+            'codcli':    str(row.get('CODCLI') or ''),
+            'cliente':   str(row.get('CLIENTE') or ''),
+            'produto':   str(row.get('PRODUTO') or ''),
+            'fantasia':  str(row.get('FANTASIA') or ''),
+            'qt':        round(float(row['QTD_CORTADA_TOTAL']), 2),
+            'valor':     round(float(row['PVENDA']) * float(row['QTD_CORTADA_TOTAL']), 2),
+            'tipo':      'Corte parcial',
+            'offtrade':  True,
+            'devolvido': False,
+            'cancelado': False,
+            'cancelado_parcial': True,
+        })
+    print(f"OK vendas: {len(_vc_corte)} item(ns) com corte parcial")
+
 # ── Clientes cadastrados no mês ──────────────────────────────────────────────
 # Usa o mês mais recente do arquivo de metas para evitar zero no início do mês
 
@@ -388,8 +578,6 @@ def _query_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=None, extr
         LEFT JOIN {s}.PCCLIENT C ON M.CODCLI = C.CODCLI
         WHERE M.DTMOV >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -12)
           AND M.CODOPER IN ('S', 'SB')
-          AND M.NUMNOTADEV IS NULL
-          AND M.DTCANCEL IS NULL
           AND {nome_f}{extra_filial}{extra_estent}
         GROUP BY TRUNC(M.DTMOV, 'MM'), M.CODUSUR, U.NOME
     """
@@ -419,6 +607,108 @@ _hist_raw['MES']         = pd.to_datetime(_hist_raw['MES'], errors='coerce')
 _hist_raw['FATURAMENTO'] = pd.to_numeric(_hist_raw['FATURAMENTO'], errors='coerce').fillna(0)
 _hist_raw['POSITIVACAO'] = pd.to_numeric(_hist_raw['POSITIVACAO'], errors='coerce').fillna(0).astype(int)
 _hist_raw['CODUSUR']     = pd.to_numeric(_hist_raw['CODUSUR'], errors='coerce')
+
+# ── Pedidos cancelados (para o gráfico de Faturamento por Mês) ────────────────
+# Pedido cancelado não gera linha em PCMOV (a fonte de _query_historico acima)
+# — mesma limitação já documentada em pedidos.py: o valor cancelado só existe
+# em PBI_PCPEDI (STATUS='CANCELADA'), então soma à parte e junta em _hist_raw.
+# Confirmado pelo usuário em 2026-08-10 (histórico não mostrava cancelados
+# mesmo depois de tirar o filtro DTCANCEL de PCMOV).
+
+def _query_historico_cancelados(schema, filtro_filial="(1, 2, 4)", filtro_estent=None, extra_nomes=None):
+    s = schema.upper()
+    extra_filial = f"\n          AND PED.CODFILIAL IN {filtro_filial}" if filtro_filial else ""
+    extra_estent = f"\n          AND U.ESTADO = '{filtro_estent}'" if filtro_estent else ""
+    nome_f = "PED.NOME LIKE '%OFF TRADE%'"
+    if extra_nomes:
+        nome_f = "(" + nome_f + " OR " + " OR ".join(f"PED.NOME LIKE '{p}'" for p in extra_nomes) + ")"
+    return f"""
+        SELECT
+            TRUNC(PED.DATA, 'MM') AS MES,
+            PED.CODUSUR            AS CODUSUR,
+            U.NOME                  AS NOME_ORACLE,
+            SUM(PED.TOTAL)         AS FATURAMENTO
+        FROM {s}.PBI_PCPEDI PED
+        JOIN {s}.PCUSUARI U ON U.CODUSUR = PED.CODUSUR
+        WHERE PED.DATA >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -12)
+          AND PED.STATUS = 'CANCELADA'
+          AND {nome_f}{extra_filial}{extra_estent}
+        GROUP BY TRUNC(PED.DATA, 'MM'), PED.CODUSUR, U.NOME
+    """
+
+_chamadas_hist_cancel = [
+    (_query_historico_cancelados(_s, filtro_filial=_ff, filtro_estent=_fe, extra_nomes=_en), _e, f"{_n}_cancel")
+    for _s, _e, _n, _ff, _fe, _en, _to in _HIST_CONFIGS
+]
+_hist_cancel_parts = []
+for (_s, _e, _n, _ff, _fe, _en, _to), _res in zip(_HIST_CONFIGS, carregar_paralelo(_chamadas_hist_cancel)):
+    if isinstance(_res, Exception):
+        print(f"[AVISO] {_n}_cancel falhou — ignorado (cancelados dessa base ficam de fora do histórico)")
+    else:
+        _res['POSITIVACAO'] = 0
+        _hist_cancel_parts.append(_res)
+if _hist_cancel_parts:
+    _hist_cancel_raw = pd.concat(_hist_cancel_parts, ignore_index=True)
+    _hist_cancel_raw['MES']         = pd.to_datetime(_hist_cancel_raw['MES'], errors='coerce')
+    _hist_cancel_raw['FATURAMENTO'] = pd.to_numeric(_hist_cancel_raw['FATURAMENTO'], errors='coerce').fillna(0)
+    _hist_cancel_raw['POSITIVACAO'] = 0
+    _hist_cancel_raw['CODUSUR']     = pd.to_numeric(_hist_cancel_raw['CODUSUR'], errors='coerce')
+    _hist_raw = pd.concat([_hist_raw, _hist_cancel_raw], ignore_index=True)
+    print(f"OK histórico de cancelados (PBI_PCPEDI): {len(_hist_cancel_raw)} linha(s) somadas ao Faturamento por Mês")
+
+# ── Pedidos cortados antes de gerar pedido/NF (view PEDIDOS_CANCELADOS) ───────
+# Confirmado pelo usuário em 2026-08-10 com os pedidos 144001762/144001763
+# (Diogo Raposo): esses NUMPED nem chegam a existir em PCPEDC/PBI_PCPEDI —
+# o corte acontece antes de qualquer linha ser gravada lá, e só fica
+# registrado nessa view (motivo='CORTE'). A view não tem CODUSUR direto, mas
+# o próprio NUMPED é CODUSUR + sequência de 6 dígitos (confirmado batendo
+# NUMPED x CODUSUR em CRC.PCPEDC pra vários vendedores, ex. CODUSUR 91 →
+# NUMPED '91000001', CODUSUR 144 → '144000...'), então extrai CODUSUR pela
+# própria string. thekings não tem essa view (ORA-00942) — excluído já na
+# config abaixo (_HIST_CONFIGS_SEM_THEKINGS), não tenta consultar: deixar a
+# tentativa falhar (3 retentativas + 10s de espera cada) marcaria
+# engine_theking como morto pro resto do processo em meta.py::_FONTES_MORTAS
+# (chave é id(engine), não a query), derrubando de quebra outras consultas a
+# thekings mais adiante no mesmo script (ex.: hier_thekings) — bug real
+# visto rodando local em 2026-08-10 antes desse ajuste.
+
+_HIST_CONFIGS_SEM_THEKINGS = [c for c in _HIST_CONFIGS if c[0] != "thekings"]
+
+def _query_historico_cortes_pre_nf(schema, filtro_estent=None, extra_nomes=None):
+    s = schema.upper()
+    extra_estent = f"\n          AND U.ESTADO = '{filtro_estent}'" if filtro_estent else ""
+    nome_f = _nome_filter(extra_nomes)
+    return f"""
+        SELECT
+            TRUNC(PC.DATACANC, 'MM') AS MES,
+            U.CODUSUR                 AS CODUSUR,
+            U.NOME                     AS NOME_ORACLE,
+            SUM(PC.SUBTOT)            AS FATURAMENTO
+        FROM {s}.PEDIDOS_CANCELADOS PC
+        JOIN {s}.PCUSUARI U ON U.CODUSUR = TO_NUMBER(SUBSTR(PC.NUMPED, 1, LENGTH(PC.NUMPED) - 6))
+        WHERE PC.DATACANC >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -12)
+          AND {nome_f}{extra_estent}
+        GROUP BY TRUNC(PC.DATACANC, 'MM'), U.CODUSUR, U.NOME
+    """
+
+_chamadas_hist_corte = [
+    (_query_historico_cortes_pre_nf(_s, filtro_estent=_fe, extra_nomes=_en), _e, f"{_n}_corte_pre_nf")
+    for _s, _e, _n, _ff, _fe, _en, _to in _HIST_CONFIGS_SEM_THEKINGS
+]
+_hist_corte_parts = []
+for (_s, _e, _n, _ff, _fe, _en, _to), _res in zip(_HIST_CONFIGS_SEM_THEKINGS, carregar_paralelo(_chamadas_hist_corte)):
+    if isinstance(_res, Exception):
+        print(f"[AVISO] {_n}_corte_pre_nf falhou — ignorado (cortes pré-NF dessa base ficam de fora do histórico)")
+    else:
+        _hist_corte_parts.append(_res)
+if _hist_corte_parts:
+    _hist_corte_raw = pd.concat(_hist_corte_parts, ignore_index=True)
+    _hist_corte_raw['MES']         = pd.to_datetime(_hist_corte_raw['MES'], errors='coerce')
+    _hist_corte_raw['FATURAMENTO'] = pd.to_numeric(_hist_corte_raw['FATURAMENTO'], errors='coerce').fillna(0)
+    _hist_corte_raw['POSITIVACAO'] = 0
+    _hist_corte_raw['CODUSUR']     = pd.to_numeric(_hist_corte_raw['CODUSUR'], errors='coerce')
+    _hist_raw = pd.concat([_hist_raw, _hist_corte_raw], ignore_index=True)
+    print(f"OK histórico de cortes pré-NF (PEDIDOS_CANCELADOS): {len(_hist_corte_raw)} linha(s) somadas ao Faturamento por Mês")
 
 def monthly_series(nome_oracle):
     df = _hist_raw[_hist_raw['NOME_ORACLE'] == nome_oracle].copy()
@@ -611,7 +901,19 @@ for _, row in _vh.iterrows():
         'tipo':    {'SB': 'Bonificado', 'ED': 'Devolução'}.get(str(row.get('CODOPER', 'S')).upper(), 'Venda'),
         'offtrade': row['OFFTRADE'] == 'S',
         'devolvido': bool(row['DEVOLVIDO']),
+        'cancelado': False,
+        'cancelado_parcial': False,
     })
+
+# Mescla os itens de cancelado/corte parcial (não vêm de _vh/PCMOV — ver bloco
+# acima) — pode incluir mês que _vh não tinha nenhuma venda válida, então
+# _meses_str precisa ser recalculado incluindo esses meses também.
+for v_nome, por_mes in _itens_extra_por_vendedor.items():
+    for mes, itens in por_mes.items():
+        _por_vendedor_hist.setdefault(v_nome, {}).setdefault(mes, []).extend(itens)
+
+_meses_extra = {mes for por_mes in _itens_extra_por_vendedor.values() for mes in por_mes}
+_meses_str = sorted(set(_meses_str) | _meses_extra, key=_mes_sort_key, reverse=True)
 
 _rcas_map = {v['nome']: v['rca'] for v in vendedores_out}
 
@@ -811,3 +1113,48 @@ try:
     print("OK GitHub Pages atualizado.")
 except subprocess.CalledProcessError:
     print("[AVISO] git push falhou — ignorado, pipeline continua.")
+
+# ── Publica direto em /opt/offtrade-static (site) ─────────────────────────────
+# Esse script saiu do main.py (roda sozinho, cron próprio) — o deploy padrão
+# (deploy_static_vps.py) IGNORA esses 4 arquivos de propósito (ver comentário
+# EXCLUDE_JS lá: cópia local congelada sobrescrevia o dado fresco da VPS,
+# incidente de 2026-08-07). Então esse script publica os próprios arquivos
+# direto, sem depender de mais ninguém: shutil quando já está rodando na
+# própria VPS (OFFTRADE_RUNTIME=vps, sem precisar de rede), SFTP quando roda
+# local — inclusive quando roda local especificamente PORQUE a VPS não
+# alcança CASTAS (rede interna, ver [[project_banco_castas_rede_local]]),
+# pedido do usuário em 2026-08-10 pra esse caso não ficar só no braço.
+_ARQUIVOS_PUBLICAR = ["metas_data.js", "vendas_data.js", "gerentes_data.js", "fontes_status_data.js"]
+
+def _publicar_static():
+    if os.getenv("OFFTRADE_RUNTIME", "local") == "vps":
+        import shutil
+        destino = "/opt/offtrade-static"
+        for fname in _ARQUIVOS_PUBLICAR:
+            origem = Path(__file__).parent / fname
+            if origem.exists():
+                shutil.copy(origem, os.path.join(destino, fname))
+        print(f"OK - {len(_ARQUIVOS_PUBLICAR)} arquivo(s) copiados para {destino} (publicação local, sem rede)")
+        return
+    try:
+        import paramiko
+        from dotenv import load_dotenv
+        load_dotenv(Path(__file__).parent / ".env")
+        vps_ip       = os.getenv("VPS_IP", "147.79.107.137")
+        vps_user     = os.getenv("VPS_USER", "root")
+        vps_password = os.getenv("VPS_PASSWORD", "")
+        client = paramiko.SSHClient()
+        client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+        client.connect(vps_ip, port=22, username=vps_user, password=vps_password, timeout=20)
+        sftp = client.open_sftp()
+        for fname in _ARQUIVOS_PUBLICAR:
+            origem = Path(__file__).parent / fname
+            if origem.exists():
+                sftp.put(str(origem), f"/opt/offtrade-static/{fname}")
+        sftp.close()
+        client.close()
+        print(f"OK - {len(_ARQUIVOS_PUBLICAR)} arquivo(s) publicados em /opt/offtrade-static via SFTP")
+    except Exception as e:
+        print(f"[AVISO] publicação direta em /opt/offtrade-static falhou ({str(e)[:150]}) — ignorado, site fica com a versão anterior até a próxima execução.")
+
+_publicar_static()

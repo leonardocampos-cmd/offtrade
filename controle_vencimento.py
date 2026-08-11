@@ -21,7 +21,7 @@ from urllib.parse import quote_plus
 
 import oracledb
 import pandas as pd
-from sqlalchemy import create_engine, text
+from sqlalchemy import bindparam, create_engine, text
 from dotenv import load_dotenv
 from flask import Flask, Blueprint, request, redirect, url_for, render_template, Response, abort
 
@@ -75,6 +75,21 @@ def _buscar_produtos(termo: str) -> list[dict]:
         {"codprod": int(r["CODPROD"]), "descricao": (r["DESCRICAO"] or "").strip()}
         for _, r in df.iterrows()
     ]
+
+
+def _descricoes_atuais(codigos: list[int]) -> dict[int, str]:
+    """Descrição vigente na PCPRODUT pros códigos informados — a listagem usa
+    isso pra mostrar o nome atual do produto, não o que ficou salvo no
+    registro (pode ter mudado no Winthor desde o cadastro)."""
+    if not codigos:
+        return {}
+    stmt = text(
+        "SELECT CODPROD, DESCRICAO FROM CRC.PCPRODUT WHERE CODPROD IN :codigos"
+    ).bindparams(bindparam("codigos", expanding=True))
+    with engine.connect() as conn:
+        df = pd.read_sql(stmt, conn, params={"codigos": codigos})
+    df.columns = df.columns.str.upper()
+    return {int(r["CODPROD"]): (r["DESCRICAO"] or "").strip() for _, r in df.iterrows()}
 
 
 def _carregar_registros() -> dict:
@@ -197,6 +212,19 @@ def salvar():
 def listagem():
     registros = list(_carregar_registros().values())
     registros.sort(key=lambda r: r["data_vencimento"])
+
+    codigos = list({int(r["codprod"]) for r in registros if str(r.get("codprod", "")).isdigit()})
+    try:
+        descricoes = _descricoes_atuais(codigos)
+    except Exception:
+        # PCPRODUT indisponível (VPN fora do ar etc.) não pode derrubar a
+        # listagem — só mantém a descrição salva no registro.
+        descricoes = {}
+    for r in registros:
+        cod = r.get("codprod")
+        if cod and str(cod).isdigit() and int(cod) in descricoes:
+            r["produto"] = descricoes[int(cod)]
+
     return render_template(
         "vencimento_listagem.html",
         registros=registros,

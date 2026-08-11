@@ -44,13 +44,28 @@ PIPELINE_FILES = [
     "pipeline_watchdog.py",
     "report_diario_vendedor.py",
     "alerta_logistica_rj.py",
+    "alerta_pedidos_bloqueados.py",
     "email_pedidos.py",
+    "report_diario_pedidos.py",
     "baixar_planilhas_drive.py",
     "campanha_crusoe.py",
     "requirements.txt",
     "metas_config.json",
     "canhoto_status.json",
 ] + sorted(f.name for f in HERE.glob("exportacao_*.py"))
+
+# *.html (+ auth.js/vps_redirect.js e afins) — sem isso, /opt/offtrade-pipeline
+# fica congelado num commit git antigo (nunca dá "git pull", só recebe o que
+# está em PIPELINE_FILES) e o passo de deploy do main.py na própria VPS
+# (OFFTRADE_RUNTIME=vps: shutil.copy de *.html/*.js de offtrade-pipeline pra
+# offtrade-static, de hora em hora) reverte silenciosamente qualquer edição
+# de página feita aqui — publicada manualmente via deploy_static_vps.py, mas
+# desfeita no cron seguinte. Confirmado em 2026-08-10: metas.html no
+# offtrade-pipeline estava parado em commit de 05/08, sem as mudanças de
+# hoje. Não inclui os *_data.js gerados (esses vêm de outra fonte, os
+# próprios exportadores).
+PIPELINE_FILES += sorted(f.name for f in HERE.glob("*.html") if f.name != "exemplo.html")
+PIPELINE_FILES += ["auth.js", "auth_vendedor.js", "vps_redirect.js"]
 
 # Credenciais OAuth ja autorizadas localmente (refresh_token evita novo login)
 CREDENTIAL_FILES = [

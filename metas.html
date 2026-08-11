@@ -867,17 +867,28 @@ function buildVendasTable(lista) {
   if (!lista || lista.length === 0) {
     return `<div class="vendas-empty">Nenhuma venda registrada este mês.</div>`;
   }
-  const rows = lista.map(v => `
-    <tr${v.devolvido ? ' style="background:rgba(239,68,68,.1)"' : ''}>
+  const rows = lista.map(v => {
+    const destacar = v.devolvido || v.cancelado || v.cancelado_parcial;
+    const badge = v.cancelado
+      ? '<span style="font-size:.62rem;background:rgba(239,68,68,.15);color:#ef4444;border:1px solid rgba(239,68,68,.3);border-radius:4px;padding:1px 5px;font-weight:700">CANCELADO</span>'
+      : v.cancelado_parcial
+      ? '<span style="font-size:.62rem;background:rgba(249,115,22,.15);color:#f97316;border:1px solid rgba(249,115,22,.3);border-radius:4px;padding:1px 5px;font-weight:700">CORTE PARCIAL</span>'
+      : v.devolvido
+      ? '<span style="font-size:.62rem;background:rgba(239,68,68,.15);color:#ef4444;border:1px solid rgba(239,68,68,.3);border-radius:4px;padding:1px 5px;font-weight:700">DEVOLVIDO</span>'
+      : '';
+    const cor = (v.cancelado_parcial) ? '#f97316' : (destacar ? '#ef4444' : '');
+    return `
+    <tr${destacar ? ` style="background:${v.cancelado_parcial ? 'rgba(249,115,22,.1)' : 'rgba(239,68,68,.1)'}"` : ''}>
       <td class="vendas-date">${v.data || '—'}</td>
       <td>
         <div class="vendas-cli">${v.codcli ? v.codcli + ' · ' : ''}${v.cliente || '—'}</div>
-        <div class="vendas-prod" style="${v.devolvido ? 'color:#ef4444' : ''}">${v.produto || ''}${v.tipo === 'Bonificado' ? ' <span style="font-size:.62rem;background:rgba(34,197,94,.15);color:#22c55e;border:1px solid rgba(34,197,94,.3);border-radius:4px;padding:1px 5px;font-weight:700">BON</span>' : ''}${v.devolvido ? ' <span style="font-size:.62rem;background:rgba(239,68,68,.15);color:#ef4444;border:1px solid rgba(239,68,68,.3);border-radius:4px;padding:1px 5px;font-weight:700">DEVOLVIDO</span>' : ''}</div>
+        <div class="vendas-prod" style="${cor ? `color:${cor}` : ''}">${v.produto || ''}${v.tipo === 'Bonificado' ? ' <span style="font-size:.62rem;background:rgba(34,197,94,.15);color:#22c55e;border:1px solid rgba(34,197,94,.3);border-radius:4px;padding:1px 5px;font-weight:700">BON</span>' : ''}${badge ? ' ' + badge : ''}</div>
       </td>
       <td class="vendas-date" style="white-space:nowrap">${v.fantasia || '—'}</td>
       <td class="vendas-qt">${Number(v.qt).toLocaleString('pt-BR')}</td>
-      <td class="vendas-val"${v.devolvido ? ' style="color:#ef4444"' : ''}>${fmtFat(v.valor)}</td>
-    </tr>`).join('');
+      <td class="vendas-val"${cor ? ` style="color:${cor}"` : ''}>${fmtFat(v.valor)}</td>
+    </tr>`;
+  }).join('');
   return `
     <table class="vendas-table">
       <thead>
@@ -1123,14 +1134,39 @@ function _pm(v, mes) { return (v.por_mes || {})[mes] || {}; }
 function _mv(pm, campo, sub) { return ((pm[campo] || {})[sub]) || 0; }
 
 // Combina meses de METAS_DATA e VENDAS_DATA, ordenados do mais recente ao mais antigo
+const _MESES_ORD = ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'];
 function _todosMeses() {
-  const _ord = ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'];
-  const _key = m => { const [n, a] = m.split('/'); return (2000 + +a) * 12 + _ord.indexOf(n); };
+  const _key = m => { const [n, a] = m.split('/'); return (2000 + +a) * 12 + _MESES_ORD.indexOf(n); };
   const set = new Set([
     ...(METAS_DATA.meses || []),
     ...(typeof VENDAS_DATA !== 'undefined' ? VENDAS_DATA.meses : []),
   ]);
   return [...set].sort((a, b) => _key(b) - _key(a));
+}
+
+// Mês anterior no formato "Mmm/AA" (ex: "Ago/26" -> "Jul/26")
+function _mesAnterior(mes) {
+  const [n, a] = mes.split('/');
+  let idx = _MESES_ORD.indexOf(n) - 1;
+  let ano = +a;
+  if (idx < 0) { idx = 11; ano -= 1; }
+  return `${_MESES_ORD[idx]}/${String(ano).padStart(2, '0')}`;
+}
+
+// Quantos dias corridos tem o mês "Mmm/AA"
+function _diasNoMes(mes) {
+  const [n, a] = mes.split('/');
+  const idx = _MESES_ORD.indexOf(n);
+  return new Date(2000 + +a, idx + 1, 0).getDate();
+}
+
+// Dias corridos já passados no mês "Mmm/AA": se for o mês corrente de
+// verdade, é o dia de hoje; se for um mês já fechado (histórico), é o mês
+// inteiro — pra comparação com o mês anterior fazer sentido nos dois casos.
+function _diasPassadosNoMes(mes) {
+  const mesAtualReal = _todosMeses()[0];
+  if (mes === mesAtualReal) return new Date().getDate();
+  return _diasNoMes(mes);
 }
 
 // ── Download CSV ──────────────────────────────────────────
@@ -1228,9 +1264,9 @@ function exportarVendasCSV(nomeVendedor, mes) {
 
   const rows = [
     `VENDAS — ${nomeVendedor} — ${mes}`,
-    `Data${sep}CodCli${sep}Cliente${sep}Produto${sep}Fornecedor${sep}Tipo${sep}Devolvido${sep}Quantidade${sep}Valor (R$)`,
+    `Data${sep}CodCli${sep}Cliente${sep}Produto${sep}Fornecedor${sep}Tipo${sep}Devolvido${sep}Cancelado${sep}Quantidade${sep}Valor (R$)`,
     ...lista.map(s =>
-      `${s.data}${sep}${s.codcli || ''}${sep}${s.cliente}${sep}${s.produto}${sep}${s.fantasia || ''}${sep}${s.tipo || 'Venda'}${sep}${s.devolvido ? 'Sim' : 'Não'}${sep}${s.qt}${sep}${Number(s.valor).toFixed(2).replace('.', ',')}`
+      `${s.data}${sep}${s.codcli || ''}${sep}${s.cliente}${sep}${s.produto}${sep}${s.fantasia || ''}${sep}${s.tipo || 'Venda'}${sep}${s.devolvido ? 'Sim' : 'Não'}${sep}${s.cancelado ? 'Total' : (s.cancelado_parcial ? 'Parcial' : 'Não')}${sep}${s.qt}${sep}${Number(s.valor).toFixed(2).replace('.', ',')}`
     ),
   ];
 
@@ -1284,7 +1320,8 @@ function voltarParaTodos() {
 
 // ── Views ─────────────────────────────────────────────────
 
-const _POSICOES_PROBLEMA_PED = { 'Pendente': 1, 'Bloqueado': 1, 'Bloqueado (alçada)': 1 };
+// 'Bloqueado (alçada)' não entra — pedido explícito do usuário em 2026-08-10.
+const _POSICOES_PROBLEMA_PED = { 'Pendente': 1, 'Bloqueado': 1 };
 
 function _normNomePedido(s) {
   return (s || '').toUpperCase().replace(/\s*-?\s*OFF\s*TRADE\s*(SP|MG|ES)?\s*/gi, '').replace(/\s*-\s*$/, '').trim();
@@ -1353,9 +1390,9 @@ function renderDetail(v, mes) {
       </div>
       <div id="sec-metas" class="sec-body open">
         <div class="metas-grid" style="margin-top:12px">
-          ${_metaKpi('Faturamento', m('fat_tt') > 0 ? r('fat_tt') : _fatVendasMes(v.nome, mes), m('fat_tt'), 'fat')}
-          ${_metaKpi('Positivação', m('pos_tt') > 0 ? r('pos_tt') : _posVendasMes(v.nome, mes), m('pos_tt'), 'pos')}
-          ${_statKpi('Indústrias', r('industrias'))}
+          ${_metaKpi('Faturamento', m('fat_tt') > 0 ? r('fat_tt') : _fatVendasMes(v.nome, mes), m('fat_tt'), 'fat', _cmpMesAnterior(v, mes, 'fat_tt', 'fat'))}
+          ${_metaKpi('Positivação', m('pos_tt') > 0 ? r('pos_tt') : _posVendasMes(v.nome, mes), m('pos_tt'), 'pos', _cmpMesAnterior(v, mes, 'pos_tt', 'pos'))}
+          ${_statKpi('Indústrias', r('industrias'), _cmpMesAnterior(v, mes, 'industrias', 'pos'))}
         </div>
         ${_necHtml('fat_tt', fmtFat)}
         ${_necHtml('pos_tt', v2 => Number(v2).toFixed(1) + ' clientes')}
@@ -1383,7 +1420,7 @@ function renderDetail(v, mes) {
   // KPIs contam só vendas válidas — devolvidas ficam visíveis na tabela
   // (destacadas em vermelho) mas não entram no faturamento/clientes/itens do
   // topo, senão uma venda já estornada infla esses números.
-  const _vendasValidas = _vendas.filter(x => !x.devolvido);
+  const _vendasValidas = _vendas.filter(x => !x.devolvido && !x.cancelado && !x.cancelado_parcial);
   const _fatVend = _vendasValidas.reduce((s, x) => s + x.valor, 0);
   const _nCli    = new Set(_vendasValidas.filter(x => x.offtrade).map(x => x.codcli || x.cliente)).size;
   const _nItens  = _vendasValidas.reduce((s, x) => s + x.qt, 0);
@@ -1421,7 +1458,7 @@ function renderDetail(v, mes) {
 
   // ── Seção: Não positivados ────────────────────────────────
   const _npList = (v.nao_positivados || []).filter(c => {
-    const _comprou = new Set(_vendasDoMes(v.nome, mes).filter(s => !s.devolvido).map(s => s.cliente.trim().toUpperCase()));
+    const _comprou = new Set(_vendasDoMes(v.nome, mes).filter(s => !s.devolvido && !s.cancelado && !s.cancelado_parcial).map(s => s.cliente.trim().toUpperCase()));
     return !_comprou.has((c.CLIENTE || '').trim().toUpperCase());
   });
   const _nNP = _npList.length;
@@ -2077,8 +2114,8 @@ function toggleCardSec(id) {
 
 function toggleSec(id) { toggleCardSec(id); }
 
-function _metaKpi(label, real, meta, tipo) {
-  if (!meta || meta <= 0) return _statKpi(label, fmt(real, tipo));
+function _metaKpi(label, real, meta, tipo, cmp) {
+  if (!meta || meta <= 0) return _statKpi(label, fmt(real, tipo), cmp);
   const p   = Math.min(Math.round(pct(real, meta)), 999);
   const cls = pctClass(p);
   return `<div class="meta-kpi">
@@ -2086,13 +2123,36 @@ function _metaKpi(label, real, meta, tipo) {
     <div class="meta-kpi-vals pct-${cls}">${fmt(real, tipo)}</div>
     <div class="meta-kpi-sub">Objetivo: ${fmt(meta, tipo)} &middot; <span class="pct-${cls}">${p}%</span></div>
     <div class="bar-bg" style="margin-top:6px"><div class="bar-fill bar-${cls}" style="width:${Math.min(p,100)}%"></div></div>
+    ${cmp || ''}
   </div>`;
 }
 
-function _statKpi(label, val) {
+function _statKpi(label, val, cmp) {
   return `<div class="meta-kpi">
     <div class="meta-kpi-label">${label}</div>
     <div class="meta-kpi-vals">${val}</div>
+    ${cmp || ''}
+  </div>`;
+}
+
+// Linha "vs mês anterior" pro card de Objetivos: pega o realizado do mês
+// anterior e escala pela proporção de dias já passados nesse mês vs o total
+// de dias do mês anterior, pra comparar "no mesmo ritmo" em vez do total
+// cheio do mês anterior (que enganaria enquanto o mês atual mal começou).
+function _cmpMesAnterior(v, mes, campo, tipo) {
+  const mesAnt = _mesAnterior(mes);
+  const pmAnt = _pm(v, mesAnt);
+  const realAnt = _mv(pmAnt, campo, 'realizado');
+  if (!realAnt) return '';
+  const diasPassados = _diasPassadosNoMes(mes);
+  const diasMesAnt = _diasNoMes(mesAnt);
+  const proporcao = diasMesAnt > 0 ? Math.min(diasPassados / diasMesAnt, 1) : 0;
+  const valorProrata = realAnt * proporcao;
+  // Positivação/Indústrias são contagem (não faz sentido "3,7 clientes") —
+  // só Faturamento (tipo 'fat') mantém casas decimais (centavos).
+  const valorFmt = tipo === 'fat' ? valorProrata : Math.round(valorProrata);
+  return `<div class="meta-kpi-sub" style="margin-top:4px;color:var(--muted)">
+    ${mesAnt} (até dia ${diasPassados}): ${fmt(valorFmt, tipo)}
   </div>`;
 }
 
@@ -2120,13 +2180,13 @@ function _buildLinhaMeta(label, real, meta, tipo) {
 function _fatVendasMes(nomeVendedor, mes) {
   if (typeof VENDAS_DATA === 'undefined') return 0;
   return ((VENDAS_DATA.por_vendedor[nomeVendedor] || {})[mes] || [])
-    .filter(x => !x.devolvido).reduce((s, x) => s + x.valor, 0);
+    .filter(x => !x.devolvido && !x.cancelado && !x.cancelado_parcial).reduce((s, x) => s + x.valor, 0);
 }
 
 function _posVendasMes(nomeVendedor, mes) {
   if (typeof VENDAS_DATA === 'undefined') return 0;
   const vendas = (VENDAS_DATA.por_vendedor[nomeVendedor] || {})[mes] || [];
-  return new Set(vendas.filter(x => x.offtrade && !x.devolvido).map(x => x.codcli || x.cliente)).size;
+  return new Set(vendas.filter(x => x.offtrade && !x.devolvido && !x.cancelado && !x.cancelado_parcial).map(x => x.codcli || x.cliente)).size;
 }
 
 function _fatOrdenacao(v, mes) {

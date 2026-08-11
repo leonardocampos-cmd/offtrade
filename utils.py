@@ -96,7 +96,12 @@ def _init_oracle():
 
 def get_conn(db: str = "crc"):
     _init_oracle()
-    if db == "crc":
+    # SPON usa as credenciais do CRC, não as da VPN — mesmo esquema de
+    # meta.py (engine_spon conecta com crc_user/crc_pass, diferente de
+    # engine_theking/engine_mgon que usam VPN_USER/PASSWORD). Sem isso,
+    # _resolve_rca() batia ORA-00942 (tabela/view não existe) ao consultar
+    # SPON.PCUSUARI com o usuário errado (confirmado em 2026-08-06).
+    if db in ("crc", "sp"):
         user = os.getenv("CRC_USER", os.getenv("VPN_USER", "vpn"))
         password = os.getenv("CRC_PASSWORD", os.getenv("VPN_PASSWORD", ""))
     else:
@@ -245,6 +250,17 @@ def ensure_valid_token() -> dict:
     return token
 
 
+# PCUSUARI existe em várias bases, cada uma com vendedores diferentes
+# (mesmo esquema de exportacao_vendedores_auth.py) — CRC é só RJ. Um
+# vendedor de outro estado (ex: RCA 588/SP, cadastrado só em SPON) logava
+# normalmente no site estático mas caía em "Acesso não autorizado" aqui,
+# porque só CRC era consultada (confirmado em 2026-08-06 com
+# willianseto@unityatacado.com.br). CASTAS/GARRIDO ficam de fora: rodam em
+# IP interno que a VPS não alcança (memória "banco CASTAS só na rede
+# local") — não adianta tentar, só atrasaria o login com timeout.
+_SCHEMAS_PCUSUARI = [("crc", "CRC"), ("theking", "thekings"), ("sp", "SPON"), ("mg", "MGON")]
+
+
 def _resolve_rca():
     email = _decode_email(st.session_state["token"])
     if email.lower() in EMAILS_ADMIN:
@@ -254,12 +270,18 @@ def _resolve_rca():
             "admin": True,
         }
         return
-    try:
-        df = sql(
-            "SELECT CODUSUR, NOME FROM CRC.PCUSUARI "
-            "WHERE UPPER(TRIM(EMAIL)) = UPPER(:1) AND ROWNUM = 1",
-            params=[email.strip()],
-        )
+    erro_ultima_base = ""
+    for _db, _schema in _SCHEMAS_PCUSUARI:
+        try:
+            df = sql(
+                f"SELECT CODUSUR, NOME FROM {_schema}.PCUSUARI "
+                "WHERE UPPER(TRIM(EMAIL)) = UPPER(:1) AND ROWNUM = 1",
+                db=_db,
+                params=[email.strip()],
+            )
+        except Exception as e:
+            erro_ultima_base = str(e)
+            continue
         if not df.empty:
             st.session_state["rca_info"] = {
                 "codusur": int(df.iloc[0]["CODUSUR"]),
@@ -267,10 +289,8 @@ def _resolve_rca():
                 "email": email,
                 "admin": False,
             }
-        else:
-            st.session_state["rca_info"] = {"email": email, "bloqueado": True}
-    except Exception as e:
-        st.session_state["rca_info"] = {"email": email, "bloqueado": True, "erro": str(e)}
+            return
+    st.session_state["rca_info"] = {"email": email, "bloqueado": True, "erro": erro_ultima_base}
 
 
 # ── CSS ───────────────────────────────────────────────────────────────────────

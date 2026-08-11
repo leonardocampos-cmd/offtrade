@@ -6,7 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Base de Ataque Vinhos SP — OfftradeHub</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="base_ataque_vinhos_data.js"></script>
+  <script src="base_ataque_vinhos_geo_data.js"></script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
@@ -47,6 +50,15 @@
     .chart-wrap { position: relative; height: 230px; }
     .chart-wrap.tall { height: 270px; }
     @media (max-width: 860px) { .charts-grid { grid-template-columns: 1fr; } }
+
+    /* Mapa */
+    #map-cidades { height: 460px; border-radius: 10px; background: var(--card2); }
+    .leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--card2); color: var(--text); }
+    .leaflet-popup-content { font-size: .8rem; line-height: 1.5; margin: 10px 12px; }
+    .leaflet-popup-content b { color: var(--accent); }
+    .leaflet-container { font-family: inherit; }
+    .map-legenda { display: flex; align-items: center; gap: 16px; margin-top: 10px; font-size: .7rem; color: var(--muted); flex-wrap: wrap; }
+    .map-legenda .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 5px; vertical-align: middle; }
 
     /* Filtros */
     .filtros { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
@@ -147,6 +159,19 @@
 </section>
 
 <section>
+  <div class="chart-card">
+    <h3>Onde estão os clientes — bolha por cidade (tamanho = nº de clientes)</h3>
+    <div id="map-cidades"></div>
+    <div class="map-legenda">
+      <span><span class="dot" style="background:#f5c518"></span>Tamanho da bolha = clientes na cidade</span>
+      <span><span class="dot" style="background:#4ade80"></span>Maior % com cadastro</span>
+      <span><span class="dot" style="background:#64748b"></span>Menor % com cadastro</span>
+      <span id="map-cobertura" style="margin-left:auto"></span>
+    </div>
+  </div>
+</section>
+
+<section>
   <div class="section-title">Todos os clientes (4.867)</div>
   <div class="filtros" style="margin-bottom:14px">
     <select id="fil-cad" onchange="applyFilters()">
@@ -234,7 +259,62 @@ function init() {
   buildResumo();
   buildFiltros();
   buildCharts();
+  buildMap();
   applyFilters();
+}
+
+function buildMap() {
+  const geo = (typeof CIDADES_GEO !== 'undefined') ? CIDADES_GEO : {};
+
+  const porCidade = {};
+  D.clientes.forEach(c => {
+    if (!c.cidade) return;
+    const k = c.cidade;
+    const g = porCidade[k] || (porCidade[k] = { cidade: k, qtd: 0, comCadastro: 0, fat26: 0 });
+    g.qtd++;
+    if (c.temCadastro === 'Sim') g.comCadastro++;
+    g.fat26 += c.fat26 || 0;
+  });
+
+  const pontos = [];
+  let semCoord = 0;
+  Object.values(porCidade).forEach(g => {
+    const coord = geo[`${g.cidade}|SP`];
+    if (coord && coord.lat) {
+      pontos.push({ ...g, lat: coord.lat, lon: coord.lon });
+    } else {
+      semCoord += g.qtd;
+    }
+  });
+
+  const totalCidades = Object.keys(porCidade).length;
+  const coberto = D.clientes.length - semCoord;
+  document.getElementById('map-cobertura').textContent =
+    `${coberto.toLocaleString('pt-BR')} de ${D.clientes.length.toLocaleString('pt-BR')} clientes localizados (${pontos.length} de ${totalCidades} cidades)`;
+
+  const map = L.map('map-cidades', { scrollWheelZoom: false }).setView([-22.3, -48.8], 7);
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; OpenStreetMap &copy; CARTO',
+    maxZoom: 18,
+  }).addTo(map);
+
+  const maxQtd = Math.max(...pontos.map(p => p.qtd), 1);
+  pontos.forEach(p => {
+    const pct = p.qtd ? p.comCadastro / p.qtd : 0;
+    // Interpola cinza (sem cadastro) -> verde (com cadastro)
+    const r = Math.round(100 + (74 - 100) * pct);
+    const g = Math.round(116 + (222 - 116) * pct);
+    const b = Math.round(139 + (128 - 139) * pct);
+    const radius = 4 + 16 * Math.sqrt(p.qtd / maxQtd);
+    L.circleMarker([p.lat, p.lon], {
+      radius, weight: 1, color: '#1a1d27', fillColor: `rgb(${r},${g},${b})`, fillOpacity: 0.75,
+    }).bindPopup(`
+      <b>${p.cidade}</b><br>
+      ${p.qtd} cliente${p.qtd > 1 ? 's' : ''} na base de ataque<br>
+      ${p.comCadastro} com cadastro (${Math.round(pct * 100)}%)<br>
+      Faturamento 2026: ${fmtR(p.fat26)}
+    `).addTo(map);
+  });
 }
 
 function buildResumo() {

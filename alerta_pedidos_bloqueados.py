@@ -1,8 +1,10 @@
 """
 Alerta de pedidos bloqueados por WhatsApp — consulta ao vivo PCPEDC.POSICAO
-IN ('B','M') (bloqueado / bloqueado por alçada) em CRC, thekings, CASTAS,
-GARRIDO, SPON e MGON, só vendedor RJ (TABELA DE PREÇO RJ.xlsx só vale por
-lá — mesma limitação de conferencia_preco.py/pedidos.py). Envia pro WhatsApp
+IN ('B','P') (bloqueado / pendente) em CRC, thekings, CASTAS, GARRIDO, SPON
+e MGON, só vendedor RJ (TABELA DE PREÇO RJ.xlsx só vale por lá — mesma
+limitação de conferencia_preco.py/pedidos.py). 'M' (bloqueado por alçada)
+não entra — pedido explícito do usuário em 2026-08-10, aplicado também em
+metas.html (_POSICOES_PROBLEMA_PED). Envia pro WhatsApp
 de um número central (_NUMERO_DESTINO — pedido explícito do usuário em
 2026-08-06, não é mais o telefone do próprio vendedor), com o motivo
 enriquecido (produto + preço digitado vs. tabela) quando o bloqueio for por
@@ -66,7 +68,7 @@ def _query_bloqueados(schema, extra_nomes=None):
         JOIN {schema}.PCPEDC   PC ON PC.NUMPED = PED.NUMPED
         WHERE {nome_f}
           AND U.ESTADO = 'RJ'
-          AND PC.POSICAO IN ('B', 'M')
+          AND PC.POSICAO IN ('B', 'P')
           AND PED.DATA >= SYSDATE - 7
     """
 
@@ -125,6 +127,16 @@ try:
     print(f"Tabela CASTAS: +{_novos} produto(s) adicionados ({len(_precos_rj)} no total)")
 except Exception as e:
     print(f"[AVISO] Aba TABELA CASTAS indisponível ({str(e)[:100]}) — produtos só cadastrados lá ficam sem preço de tabela")
+
+# "TABELA OFF TRADE RJ - CRC" (mensal) — fallback pro que não está na TABELA
+# DE PREÇO RJ.xlsx/TABELA CASTAS. Só preenche o que falta, mesma regra das
+# duas acima. Pedido explícito do usuário em 2026-08-10.
+_novos_fallback = 0
+for _cod, _info in _bpd.carregar_precos_off_trade_fallback().items():
+    if _cod not in _precos_rj:
+        _precos_rj[_cod] = _info
+        _novos_fallback += 1
+print(f"Tabela OFF TRADE RJ - CRC: +{_novos_fallback} produto(s) adicionados ({len(_precos_rj)} no total)")
 
 
 def _preco_tabela(codprod):

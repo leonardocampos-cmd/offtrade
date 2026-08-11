@@ -129,11 +129,36 @@ def main():
         # processo, que também saiu daqui (ver abaixo). Sem consumidor
         # in-process, virou trabalho pesado à toa em todo run.
 
-        # exportacao_meta.py saiu daqui — roda sozinho a cada 15min via cron
-        # próprio na VPS (pedido em 2026-08-05, atualização mais frequente
-        # que o resto do pipeline). Rodar aqui também duplicaria a cada hora
-        # exatamente na mesma janela do cron de 15min, dois processos
-        # escrevendo metas_data.js/vendas_data.js ao mesmo tempo.
+        # exportacao_meta.py saiu do pipeline "principal" — roda sozinho a
+        # cada 15min via cron próprio na VPS (pedido em 2026-08-05,
+        # atualização mais frequente que o resto do pipeline). Rodar aqui
+        # DE NOVO na VPS duplicaria a cada hora exatamente na mesma janela do
+        # cron de 15min, dois processos escrevendo metas_data.js/vendas_data.js
+        # ao mesmo tempo — por isso só roda quando OFFTRADE_RUNTIME != 'vps'.
+        #
+        # Só na VPS, porém, a fonte CASTAS é inalcançável (rede interna, IP
+        # privado — ver memória project_banco_castas_rede_local): toda
+        # execução do cron de 15min fica estruturalmente sem CASTAS. Rodar
+        # aqui na execução LOCAL (hora em hora, já agendada) cobre esse
+        # buraco — o próprio exportacao_meta.py se publica direto em
+        # /opt/offtrade-static ao final (ver _publicar_static() nele), então
+        # não depende do deploy_static_vps.py (que ignora esses arquivos de
+        # propósito). Pedido do usuário em 2026-08-10.
+        if OFFTRADE_RUNTIME != "vps":
+            step("2b/8 - Metas + Histórico (metas_data.js, cobre CASTAS)")
+            try:
+                import subprocess, sys as _sys
+                result = subprocess.run(
+                    [_sys.executable, "exportacao_meta.py"],
+                    capture_output=True, text=True, timeout=900
+                )
+                print(result.stdout)
+                if result.returncode != 0:
+                    print("[AVISO] exportacao_meta falhou — ignorado, pipeline continua.")
+                    print(result.stderr)
+            except Exception:
+                print("[AVISO] exportacao_meta falhou — ignorado, pipeline continua.")
+                traceback.print_exc()
 
         step("3/8 - Metas Gerais por estado/indústria (metas_gerais_data.js)")
         try:

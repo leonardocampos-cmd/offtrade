@@ -99,6 +99,16 @@ def baixar_arquivo(nome: str, nome_saida: str = None, contains: bool = False) ->
     op = "contains" if contains else "="
     query = f"name {op} '{nome_escapado}' and trashed = false"
     arquivos = _buscar(query)
+    # A pasta do projeto (G:\Meu Drive\offtrade) fica DENTRO do Google Drive
+    # sincronizado — CACHE_DIR (planilhas_cache/) também sobe pro Drive junto,
+    # inclusive o marker ".mtime". Com contains=True (nome variável, ex:
+    # planilha mensal) isso pode se autoencontrar: o próprio cache (ou seu
+    # marker) aparece como resultado e, sendo recém-escrito, "vence" o
+    # arquivo real por modifiedTime mais novo — confirmado em 2026-08-10
+    # (caminho_tabela_off_trade_rj_crc pegando a própria cópia em cache em
+    # vez da planilha real). Marker nunca é o arquivo procurado, então é
+    # sempre seguro excluir.
+    arquivos = [a for a in arquivos if not a["name"].endswith(".mtime")]
     if not arquivos:
         if destino.exists():
             print(f"[AVISO] '{nome}' não encontrado no Drive — usando cópia em cache ({destino}).")
@@ -156,6 +166,58 @@ def caminho_profit_rj() -> Path:
     return baixar_arquivo(
         "Controle de ultima entrada, descontos-acréscimos e precificação RJ - versão 1.xlsb"
     )
+
+
+def caminho_tabela_off_trade_rj_crc() -> Path:
+    # Nome muda todo mês ("... - AGOSTO 2026.xlsx", "... - SETEMBRO 2026.xlsx"
+    # etc.) — busca por prefixo (contains=True) sempre pega a mais recente no
+    # Drive (ordenado por modifiedTime desc), sem precisar mexer no código a
+    # cada mês. nome_saida fixo mantém o cache estável (o marker .mtime já
+    # detecta troca de mês como "arquivo mudou" e rebaixa sozinho).
+    # nome_saida NÃO pode conter a substring de busca ("TABELA OFF TRADE RJ -
+    # CRC") — senão o próprio cache, sincronizado de volta pro Drive junto
+    # com o resto da pasta do projeto, se autoencontra numa busca futura (ver
+    # comentário em baixar_arquivo). Prefixo "_cache_" garante isso.
+    return baixar_arquivo(
+        "TABELA OFF TRADE RJ - CRC", nome_saida="_cache_off_trade_rj_crc_mensal.xlsx", contains=True
+    )
+
+
+def carregar_precos_off_trade_fallback() -> dict:
+    """Preço de fallback — só usado por quem chama pra completar CODPROD que
+    não está na TABELA DE PREÇO RJ.xlsx/TABELA CASTAS. Vem da aba "TABELA
+    RIGARR (ESPECIAL)" da planilha mensal caminho_tabela_off_trade_rj_crc().
+    Preço de tabela = menor entre "PREÇO OFF" e a coluna de promo (nome muda
+    todo mês, ex: "PREÇO PROMO JULHO"/"...AGOSTO" — localizada por prefixo
+    em vez de nome exato). Usado por alerta_pedidos_bloqueados.py,
+    pedidos.py e conferencia_preco.py — centralizado aqui pra não triplicar
+    o parsing nos três. Pedido explícito do usuário em 2026-08-10."""
+    import pandas as pd
+    precos: dict = {}
+    try:
+        caminho = caminho_tabela_off_trade_rj_crc()
+        df = pd.read_excel(caminho, sheet_name='TABELA RIGARR (ESPECIAL)', skiprows=3)
+        df.columns = df.columns.str.strip()
+        if 'COD' not in df.columns or 'PREÇO OFF' not in df.columns:
+            print("[AVISO] TABELA OFF TRADE RJ - CRC sem colunas esperadas (COD/PREÇO OFF) — fallback de preço ignorado")
+            return precos
+        col_promo = next((c for c in df.columns if c.upper().startswith('PREÇO PROMO')), None)
+        df['COD'] = df['COD'].astype(str).str.strip()
+        df['PREÇO OFF'] = pd.to_numeric(df['PREÇO OFF'], errors='coerce')
+        if col_promo:
+            df[col_promo] = pd.to_numeric(df[col_promo], errors='coerce')
+        for _, r in df.iterrows():
+            cod = r['COD']
+            if not cod or cod == 'nan':
+                continue
+            precos[cod] = {
+                'preco_on':          r['PREÇO OFF'] if pd.notna(r['PREÇO OFF']) else None,
+                'preco_promocional': (r[col_promo] if col_promo and pd.notna(r[col_promo]) else None),
+            }
+        print(f"Tabela OFF TRADE RJ - CRC (fallback): {len(precos)} produto(s) mapeado(s)")
+    except Exception as e:
+        print(f"[AVISO] Tabela OFF TRADE RJ - CRC indisponível ({str(e)[:100]}) — fallback de preço ignorado")
+    return precos
 
 
 def caminho_base_otd() -> Path:
@@ -318,7 +380,7 @@ if __name__ == "__main__":
     # também ele trava pra sempre do mesmo jeito (confirmado em 2026-07-20:
     # com_fallback já protegido, mas esse loop ainda travava o pipeline).
     for fn in (caminho_metas_rj, caminho_metas_sp, caminho_tabela_preco_rj,
-               caminho_preco_promo, caminho_profit_rj):
+               caminho_preco_promo, caminho_profit_rj, caminho_tabela_off_trade_rj_crc):
         try:
             _com_timeout_forcado(fn, DRIVE_TIMEOUT * 2)
         except Exception as e:

@@ -398,7 +398,7 @@ Cód: {row["CODCLI"]} &nbsp;|&nbsp; CNPJ: {cnpj_fmt}
             st.markdown("---")
             col_valor, col_prazo = st.columns(2)
             valor_pedido = col_valor.number_input("Valor do pedido (R$)", min_value=0.0, step=100.0, format="%.2f")
-            prazo_pagto  = col_prazo.selectbox("Prazo de pagamento (dias)", [7, 14, 21, 30, 45, 60, 90], index=3)
+            prazo_pagto  = col_prazo.selectbox("Prazo de pagamento (dias)", [7, 14, 21, 28, 30, 45, 60, 90], index=4)
 
             if bloqueado:
                 assunto   = f"Solicitação de Desbloqueio — {row['NOME']}"

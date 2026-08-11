@@ -625,6 +625,14 @@ def _agrupar(df, com_status_log=False):
             ],
         }
         item['tem_corte'] = any(it['cortado'] for it in item['itens'])
+        # Motivo real (PEDIDOS_CANCELADOS, por produto) tem prioridade sobre
+        # MOTIVOPOSICAO/FUNC_CANCEL (nível pedido, mais genérico) — mesma
+        # regra usada em _extrair_cortados. Pedido pode ter itens com motivos
+        # diferentes (ex: um sem estoque, outro com preço em desacordo); junta
+        # os distintos em vez de mostrar só o primeiro.
+        _motivos_reais = list(dict.fromkeys(it['motivo_corte'] for it in item['itens'] if it['motivo_corte']))
+        if _motivos_reais:
+            item['motivo'] = '; '.join(_motivos_reais)
         if com_status_log:
             _status = _status_log(nf, sistema) if nf else ''
             _rota = _rota_info(nf) if nf else None

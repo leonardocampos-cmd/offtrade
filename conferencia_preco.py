@@ -149,6 +149,22 @@ df = df.merge(profit[['CODIGO', 'CUSTO COM DESCONTO']], left_on='CODPROD', right
 
 df = df.rename(columns={'PREÇO': 'PREÇO ON'})
 
+# Fallback pra CODPROD sem preço na TABELA DE PREÇO RJ.xlsx: completa com a
+# planilha mensal "TABELA OFF TRADE RJ - CRC - <mês>.xlsx" (aba "TABELA
+# RIGARR (ESPECIAL)"). Só preenche PREÇO ON/PREÇO PROMOCIONAL vazios — não
+# mexe em PREÇO PROMO (fonte diferente, PREÇO PROMO_RJ.xlsx). Pedido
+# explícito do usuário em 2026-08-10.
+_precos_fallback = _bpd.carregar_precos_off_trade_fallback()
+if _precos_fallback:
+    _fallback_df = pd.DataFrame([
+        {'COD_FALLBACK': cod, 'PRECO_FALLBACK': info['preco_on'], 'PROMO_FALLBACK': info['preco_promocional']}
+        for cod, info in _precos_fallback.items()
+    ])
+    df = df.merge(_fallback_df, left_on='CODPROD', right_on='COD_FALLBACK', how='left')
+    df['PREÇO ON'] = df['PREÇO ON'].fillna(df['PRECO_FALLBACK'])
+    df['PREÇO PROMOCIONAL'] = df['PREÇO PROMOCIONAL'].fillna(df['PROMO_FALLBACK'])
+    df.drop(columns=['COD_FALLBACK', 'PRECO_FALLBACK', 'PROMO_FALLBACK'], inplace=True, errors='ignore')
+
 # Acima do LIMITADOR (ex.: "2 CX POR SKU"), o PREÇO PROMO da PREÇO PROMO_RJ.xlsx
 # deixa de valer pra linha — zera pra NaN antes de entrar na conferência.
 df['QT'] = pd.to_numeric(df['QT'], errors='coerce')

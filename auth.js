@@ -67,7 +67,15 @@ function _decodeEmailFromCookie() {
 }
 
 (function checkAuth() {
-  if (sessionStorage.getItem(_AUTH_KEY) === _AUTH_HASH) return;
+  // Não basta checar só rg_auth: metas.html tem um atalho de senha
+  // ("voltar para todos", sem Google SSO) que marca rg_auth sem nunca gravar
+  // rg_email nessa aba — daí quem navegasse dali direto pra uma página que
+  // reexige rg_email (base_ataque_vinhos.html, raiox_clientes_risco.html
+  // etc.) ficava bloqueado mesmo sendo gestor de verdade (confirmado em
+  // 2026-08-10, e-mail na lista de gestores mas rg_email vazio nessa aba).
+  // Por isso, mesmo com rg_auth já ok, ainda tenta preencher rg_email a
+  // partir do cookie antes de decidir se segue autenticado.
+  if (sessionStorage.getItem(_AUTH_KEY) === _AUTH_HASH && sessionStorage.getItem('rg_email')) return;
 
   // Sem isso, quem chega direto de uma página do Streamlit (Google OAuth,
   // cookie offtrade_token já presente — ex: botão "Voltar" em
@@ -90,6 +98,13 @@ function _decodeEmailFromCookie() {
     sessionStorage.setItem('rg_email', _email);
     return;
   }
+
+  // rg_auth já setado (ex: senha universal do metas.html) mas o cookie não
+  // deu um e-mail de gestor (sessão de vendedor, ou nenhum cookie) — segue
+  // autenticado no gate genérico (rg_auth), mas rg_email continua vazio de
+  // propósito: páginas que exigem e-mail nominal continuam bloqueando, isso
+  // é esperado (não é a mesma prova de identidade que o Google SSO dá).
+  if (sessionStorage.getItem(_AUTH_KEY) === _AUTH_HASH) return;
 
   sessionStorage.setItem('rg_redirect', location.pathname + location.search);
   location.replace('login.html');

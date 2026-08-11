@@ -1,0 +1,95 @@
+{
+  "5521992085320": [
+    {
+      "numped": "159005231",
+      "cliente": "COPACABANA CHAI POINT COMERCIO DE ALIMENTOS LTDA",
+      "motivo": "Item com desconto acima do permitido :4368",
+      "vendedor": "GISELLE BARFER - OFF TRADE",
+      "enviado_em": "2026-08-07T10:55:56.911984"
+    },
+    {
+      "numped": "156003824",
+      "cliente": "GOLDEN GREEN MANIA DELICATSSE LTDA",
+      "motivo": "Item com desconto acima do permitido :7207 — MOVING HYDRO P MELANCIA LIMAO 12X500ML (digitado R$ 89,90 · tabela R$ 94,70)",
+      "vendedor": "MARILENA TRAGEL - OFF TRADE",
+      "enviado_em": "2026-08-07T10:55:58.528236"
+    },
+    {
+      "numped": "153001360",
+      "cliente": "MERCADO JARDINS DA ILHA LTDA",
+      "motivo": "Item com desconto acima do permitido :5991 — NECTAR PESSEGO 12X1000ML (digitado R$ 57,48 · tabela R$ 72,69)",
+      "vendedor": "ANGELO NEVES SUZART - OFF TRADE",
+      "enviado_em": "2026-08-07T10:56:00.155029"
+    },
+    {
+      "numped": "159005231",
+      "cliente": "COPACABANA CHAI POINT COMERCIO DE ALIMENTOS LTDA",
+      "motivo": "Item com desconto acima do permitido :4368 — VINHO ARESTI ESTATE S. CAB SAUV 187ML (digitado R$ 13,90)",
+      "vendedor": "GISELLE BARFER - OFF TRADE",
+      "enviado_em": "2026-08-07T11:15:49.722306"
+    },
+    {
+      "numped": "159005241",
+      "cliente": "G & D ALIMENTOS E BEBIDAS LTDA",
+      "motivo": "O Cliente esta bloqueado. ",
+      "vendedor": "GISELLE BARFER - OFF TRADE",
+      "enviado_em": "2026-08-10T16:06:01.376319"
+    },
+    {
+      "numped": "378000593",
+      "cliente": "ATAC E VAR DE BEBIDAS NOSSA SENHORA DE FATIMA LTDA",
+      "motivo": "Item com desconto acima do permitido :119 — CERVEJA HEINEKEN LONG 24X330ML (digitado R$ 132,00 · tabela R$ 149,90)",
+      "vendedor": "FABIO VALOTTI - OFF TRADE",
+      "enviado_em": "2026-08-10T16:06:02.876317"
+    },
+    {
+      "numped": "379001380",
+      "cliente": "R F SANTANA MERCEARIA LTDA",
+      "motivo": "PRECO ABAIXO DO MINIMO PERMITIDO",
+      "vendedor": "JORGE MACIEL - OFF TRADE",
+      "enviado_em": "2026-08-10T16:06:04.371935"
+    },
+    {
+      "numped": "379001381",
+      "cliente": "PAVUNA EXPRESS COMERCIO LTDA",
+      "motivo": "Item com desconto acima do permitido :5899 — RED BULL SF NECTARINA 24X250ML (digitado R$ 95,76 · tabela R$ 172,56)",
+      "vendedor": "JORGE MACIEL - OFF TRADE",
+      "enviado_em": "2026-08-10T16:06:04.371935"
+    },
+    {
+      "numped": "379001382",
+      "cliente": "J R J 2005 COMERCIO DE BEBIDAS LTDA",
+      "motivo": "Item com desconto acima do permitido :3 — RED BULL 24X250ML (digitado R$ 172,56 · tabela R$ 172,56)",
+      "vendedor": "JORGE MACIEL - OFF TRADE",
+      "enviado_em": "2026-08-10T16:06:04.371935"
+    },
+    {
+      "numped": "241000544",
+      "cliente": "F S DO AMARAL COMERCIO DE BEBIDAS E ALIMENTOS",
+      "motivo": "O valor limite de credito foi excedido.  Vl. Ped.: 3468 Cred",
+      "vendedor": "ZEINALDO DE OLIVEIRA - OFF TRADE",
+      "enviado_em": "2026-08-10T16:06:05.848774"
+    },
+    {
+      "numped": "155004101",
+      "cliente": "RECANTO DO PONTAL DO ATALAIA EMPREENDIMENTOS LTDA",
+      "motivo": "Item com desconto acima do permitido :6532 — AZEITE  ESSENZA D'ITALIA PREMIUM 5L (digitado R$ 219,90 · tabela R$ 249,90)",
+      "vendedor": "RAPHAEL SANTOS - OFF TRADE",
+      "enviado_em": "2026-08-10T16:06:07.411787"
+    },
+    {
+      "numped": "155004099",
+      "cliente": "YARA COSTA GOMES AMORIM 08790432703",
+      "motivo": "Item com desconto acima do permitido :3 — RED BULL 24X250ML (digitado R$ 172,56 · tabela R$ 172,56)",
+      "vendedor": "RAPHAEL SANTOS - OFF TRADE",
+      "enviado_em": "2026-08-10T16:06:07.411787"
+    },
+    {
+      "numped": "153001363",
+      "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
+      "motivo": "Item com desconto acima do permitido :7095 — SUCO DE UVA TTO INT QNT DO MORGADO 1,5L (digitado R$ 17,90 · tabela R$ 23,93)",
+      "vendedor": "ANGELO NEVES SUZART - OFF TRADE",
+      "enviado_em": "2026-08-10T16:06:08.872093"
+    }
+  ]
+}

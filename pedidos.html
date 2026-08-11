@@ -258,7 +258,7 @@ const ABAS = [
   },
   {
     chave: 'cancelados', label: 'Cortados/Cancelados', cor: 'status-cancelado',
-    colExtra: null,
+    colExtra: { campo: 'motivo', label: 'Motivo', render: p => p.motivo ? _esc(p.motivo) : '<span class="status-none">—</span>' },
   },
   {
     chave: 'produtos_cortados', label: 'Produtos Cortados', cor: 'status-cortado', flat: true,
