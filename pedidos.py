@@ -64,12 +64,14 @@ def _query_pedidos(schema, extra_nomes=None, filiais=None):
                PED.DESCRICAO, PED.PVENDA, PED.QT, PED.QTFALTA, PED.TOTAL, PED.OBSENTREGA1,
                PED.FUNC_CANCEL, PC.POSICAO, PC.MOTIVOPOSICAO, PED.CODPROD, PED.CODFILIAL,
                PED.FORNECEDOR, PED.FANTASIA_FORNEC,
-               U.ESTADO AS ESTADO_VENDEDOR, S.NOME AS NOME_SUPERVISOR, G.NOMEGERENTE
+               U.ESTADO AS ESTADO_VENDEDOR, S.NOME AS NOME_SUPERVISOR, G.NOMEGERENTE,
+               CL.MUNICENT AS CIDADE_CLIENTE
         FROM {schema}.PBI_PCPEDI PED
-        LEFT JOIN {schema}.PCUSUARI  U ON U.CODUSUR        = PED.CODUSUR
-        LEFT JOIN {schema}.PCSUPERV  S ON U.CODSUPERVISOR  = S.CODSUPERVISOR
-        LEFT JOIN {schema}.PCGERENTE G ON S.CODGERENTE     = G.CODGERENTE
-        LEFT JOIN {schema}.PCPEDC    PC ON PC.NUMPED       = PED.NUMPED
+        LEFT JOIN {schema}.PCUSUARI  U  ON U.CODUSUR        = PED.CODUSUR
+        LEFT JOIN {schema}.PCSUPERV  S  ON U.CODSUPERVISOR  = S.CODSUPERVISOR
+        LEFT JOIN {schema}.PCGERENTE G  ON S.CODGERENTE     = G.CODGERENTE
+        LEFT JOIN {schema}.PCPEDC    PC ON PC.NUMPED        = PED.NUMPED
+        LEFT JOIN {schema}.PCCLIENT  CL ON CL.CODCLI        = PED.CODCLI
         WHERE {nome_f}
           {filial_f}
           AND PED.DATA >= SYSDATE - {DIAS_JANELA}
@@ -139,6 +141,7 @@ tabela_pedidos['DATA_DT']     = pd.to_datetime(tabela_pedidos['DATA'], errors='c
 tabela_pedidos['DATA']        = tabela_pedidos['DATA_DT'].dt.strftime('%d/%m/%Y')
 tabela_pedidos['STATUS']      = tabela_pedidos['STATUS'].fillna('').astype(str).str.strip()
 
+tabela_pedidos['CIDADE'] = tabela_pedidos['CIDADE_CLIENTE'].fillna('').astype(str).str.strip()
 tabela_pedidos['ESTADO'] = tabela_pedidos['ESTADO_VENDEDOR'].fillna('').astype(str).str.strip().str.upper().replace('', 'Sem Estado')
 tabela_pedidos['NOME_SUPERVISOR'] = tabela_pedidos['NOME_SUPERVISOR'].fillna('').astype(str).str.strip().replace('', 'Sem Supervisor')
 tabela_pedidos['NOMEGERENTE']     = tabela_pedidos['NOMEGERENTE'].fillna('').astype(str).str.strip().replace('', 'Sem Gerente')
@@ -248,6 +251,47 @@ for _ano, _mes in reversed(_meses_recentes()):
 
 print(f"Status de logística: {len(_status_por_nf)} NF(s) mapeada(s) (últimos {_meses_recentes.__defaults__[0]} meses)")
 
+# ── "Em rota" hoje (mesma lógica do entregas.py) ───────────────────────────
+# Um pedido está "em rota" quando a NF aparece na aba de HOJE da planilha
+# "Controle de Notas" com a coluna ROTA preenchida (rota = viagem do dia,
+# não o desfecho da entrega — isso é o STATUS, já coberto acima). Só cobre
+# NFs da logística RJ (CRC), mesma limitação do status_log.
+_hoje_d       = date.today()
+_hoje_str     = _hoje_d.strftime('%d.%m')
+_hoje_str_hif = _hoje_d.strftime('%d-%m')
+_rota_hoje_por_nf: dict = {}
+try:
+    _mm_hoje = f"{_hoje_d.month:02d}"
+    _upper_hoje = _MESES_PT_STATUS[_mm_hoje]
+    _caminho_hoje = _bpd.com_fallback(
+        lambda: _bpd.caminho_controle_notas(_mm_hoje, _upper_hoje, _hoje_d.year),
+        _caminho_controle_notas_local(_hoje_d.year, _mm_hoje),
+    )
+    _abas_hoje = pd.read_excel(_caminho_hoje, sheet_name=None)
+    _aba_hoje_nome = next((k for k in _abas_hoje if str(k) in (_hoje_str, _hoje_str_hif)), None)
+    _df_hoje = _abas_hoje[_aba_hoje_nome].copy() if _aba_hoje_nome else pd.DataFrame()
+    if not _df_hoje.empty and 'Nº NF' in _df_hoje.columns:
+        _df_hoje = _df_hoje[_df_hoje['Nº NF'].notna()].copy()
+        _df_hoje['NF_NUM'] = pd.to_numeric(_df_hoje['Nº NF'], errors='coerce')
+        _df_hoje = _df_hoje.dropna(subset=['NF_NUM']).drop_duplicates('NF_NUM')
+        for _, _r in _df_hoje.iterrows():
+            _rota_val = str(_r.get('ROTA', '') or '').strip()
+            if _rota_val:
+                _rota_hoje_por_nf[int(_r['NF_NUM'])] = {
+                    'rota':  _rota_val,
+                    'placa': str(_r.get('PLACA', '') or '').strip(),
+                }
+    print(f"Em rota hoje ({_hoje_str}): {len(_rota_hoje_por_nf)} NF(s) | aba: {_aba_hoje_nome or 'não encontrada'}")
+except Exception as e:
+    print(f"[AVISO] Rota de hoje indisponível ({str(e)[:80]}) — 'em rota' fica sem dado")
+
+
+def _rota_info(numnota):
+    try:
+        return _rota_hoje_por_nf.get(int(float(numnota)))
+    except (TypeError, ValueError):
+        return None
+
 # ── Status de entrega SP (Canhoto Digital / ComprovaFácil) ────────────────────
 # Cache gerado por canhoto_digital.py (scraping, roda separado — ver esse
 # arquivo). Cobre só pedidos do sistema SPON; outras bases ficam sem status
@@ -346,6 +390,16 @@ try:
     print(f"Tabela CASTAS: +{_novos} produto(s) adicionados ({len(_precos_rj)} no total)")
 except Exception as e:
     print(f"[AVISO] Aba TABELA CASTAS indisponível ({str(e)[:100]}) — produtos só cadastrados lá ficam sem preço de tabela")
+
+# "TABELA OFF TRADE RJ - CRC" (mensal) — fallback pro que não está na TABELA
+# DE PREÇO RJ.xlsx/TABELA CASTAS. Só preenche o que falta, mesma regra das
+# duas acima. Pedido explícito do usuário em 2026-08-10.
+_novos_fallback = 0
+for _cod, _info in _bpd.carregar_precos_off_trade_fallback().items():
+    if _cod not in _precos_rj:
+        _precos_rj[_cod] = _info
+        _novos_fallback += 1
+print(f"Tabela OFF TRADE RJ - CRC: +{_novos_fallback} produto(s) adicionados ({len(_precos_rj)} no total)")
 
 
 def _preco_tabela(codprod: str):
@@ -497,6 +551,7 @@ def _agrupar(df, com_status_log=False):
             'cliente':    _s(r0['CLIENTE']),
             'sistema':    _s(sistema),
             'estado':     _s(r0['ESTADO']),
+            'cidade':     _s(r0['CIDADE']),
             'supervisor': _s(r0['NOME_SUPERVISOR']),
             'gerente':    _s(r0['NOMEGERENTE']),
             'status_ped': _s(r0['STATUS']),
@@ -511,7 +566,16 @@ def _agrupar(df, com_status_log=False):
         }
         item['tem_corte'] = any(it['cortado'] for it in item['itens'])
         if com_status_log:
-            item['status_log'] = _status_log(nf, sistema) if nf else ''
+            _status = _status_log(nf, sistema) if nf else ''
+            _rota = _rota_info(nf) if nf else None
+            item['em_rota'] = _rota is not None
+            item['rota']    = _rota['rota']  if _rota else ''
+            item['placa']   = _rota['placa'] if _rota else ''
+            # Controle de Notas só preenche STATUS (ENTREGUE/RETORNO/etc.)
+            # depois do desfecho da entrega — enquanto a NF só tem ROTA
+            # atribuída (sem desfecho ainda), mostra "EM ROTA" na coluna
+            # Status Logística em vez de deixar em branco.
+            item['status_log'] = _status if _status else ('EM ROTA' if _rota is not None else '')
         _preco_motivo = _preco_motivo_bloqueio(item)
         if _preco_motivo:
             (item['motivo_codprod'], item['motivo_produto'],
@@ -541,6 +605,7 @@ def _extrair_cortados(pedidos_agrupados):
                 'cliente':    p['cliente'],
                 'sistema':    p['sistema'],
                 'estado':     p['estado'],
+                'cidade':     p['cidade'],
                 'supervisor': p['supervisor'],
                 'gerente':    p['gerente'],
                 'status_ped': p['status_ped'],

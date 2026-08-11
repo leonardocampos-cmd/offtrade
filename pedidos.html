@@ -128,6 +128,7 @@
     .status-log-cancelada { background: rgba(239,68,68,.15);  color: var(--red); }
     .status-log-outro     { background: var(--card2); border: 1px solid var(--border); color: var(--text); }
     .status-log-carregado { background: rgba(59,130,246,.15);  color: var(--blue); }
+    .status-log-emrota    { background: rgba(34,197,94,.15);   color: var(--green); }
     .status-log-aberto    { background: var(--card2); border: 1px solid var(--border); color: var(--muted); }
     .badge-agendado {
       display: inline-block; background: rgba(59,130,246,.15); color: var(--blue);
@@ -136,6 +137,11 @@
     }
     .badge-corte {
       display: inline-block; background: rgba(249,115,22,.15); color: var(--orange);
+      border-radius: 20px; padding: 1px 8px; font-size: .68rem; font-weight: 700;
+      white-space: nowrap;
+    }
+    .badge-rota {
+      display: inline-block; background: rgba(34,197,94,.15); color: var(--green);
       border-radius: 20px; padding: 1px 8px; font-size: .68rem; font-weight: 700;
       white-space: nowrap;
     }
@@ -266,6 +272,7 @@ const THEAD_PADRAO = `
   <th onclick="ordenarPor('data')">Data</th>
   <th class="hide-mob" onclick="ordenarPor('nome')">Vendedor</th>
   <th class="hide-mob" onclick="ordenarPor('estado')">Estado</th>
+  <th class="hide-mob" onclick="ordenarPor('cidade')">Cidade</th>
   <th onclick="ordenarPor('cliente')">Cliente</th>
   <th id="th-extra"></th>
   <th onclick="ordenarPor('total')">Total</th>
@@ -322,7 +329,7 @@ const STATUS_OPCOES = [
 ];
 
 if (!DATA) {
-  document.getElementById('tbody').innerHTML = '<tr><td colspan="8" class="empty">Dados não encontrados. Execute pedidos.py para gerar pedidos_data.js.</td></tr>';
+  document.getElementById('tbody').innerHTML = '<tr><td colspan="10" class="empty">Dados não encontrados. Execute pedidos.py para gerar pedidos_data.js.</td></tr>';
 } else {
   document.getElementById('header-sub').textContent =
     'Atualizado ' + DATA.atualizado_em + ' · últimos ' + DATA.periodo_dias + ' dias';
@@ -378,7 +385,7 @@ function montarStatusLog() {
 
 function _totalColunas() {
   if (_abaAtual === 'produtos_cortados') return 8;
-  return _abaAtual === 'pedidos_feitos' ? 8 : 9;
+  return _abaAtual === 'pedidos_feitos' ? 9 : 10;
 }
 
 function trocarAba(chave) {
@@ -826,7 +833,8 @@ function aplicarFiltro() {
       <td>${_esc(p.data)}</td>
       <td class="hide-mob"><span class="rca-badge">${_esc((p.nome || '').replace(' - OFF TRADE',''))}</span></td>
       <td class="hide-mob">${_esc(p.estado)}</td>
-      <td>${_esc(p.cliente)}${agendado ? ` <span class="badge-agendado">📅 ${agendado}</span>` : ''}${(_abaAtual === 'faturados' && p.tem_corte) ? ` <span class="badge-corte">✂ CORTE PARCIAL</span>` : ''}${_abaAtual === 'pedidos_feitos' ? _posicaoBadge(p.posicao) : ''}</td>
+      <td class="hide-mob">${_esc(p.cidade)}</td>
+      <td>${_esc(p.cliente)}${agendado ? ` <span class="badge-agendado">📅 ${agendado}</span>` : ''}${(_abaAtual === 'faturados' && p.tem_corte) ? ` <span class="badge-corte">✂ CORTE PARCIAL</span>` : ''}${(_abaAtual === 'faturados' && p.em_rota) ? ` <span class="badge-rota">🚚 EM ROTA${p.rota ? ': ' + _esc(p.rota) : ''}</span>` : ''}${_abaAtual === 'pedidos_feitos' ? _posicaoBadge(p.posicao) : ''}</td>
       <td>${abaInfo.colExtra.render(p)}</td>
       <td>${brl(p.total)}</td>
     </tr>
@@ -908,6 +916,7 @@ function _statusLogBadge(status) {
     (s === 'ENTREGUE' || s.includes('ENTREGA TOTAL') || s === 'COMPROVADO') ? 'status-log-entregue'
     : (s === 'RETORNO' || s.includes('ENTREGA PARCIAL')) ? 'status-log-retorno'
     : s === 'CANCELADA' ? 'status-log-cancelada'
+    : s === 'EM ROTA' ? 'status-log-emrota'
     : s === 'CARREGADO' ? 'status-log-carregado'
     : s === 'ABERTO' ? 'status-log-aberto'
     : 'status-log-outro';
@@ -957,7 +966,7 @@ function exportarCSV() {
   }
 
   const abaInfo = ABAS.find(a => a.chave === _abaAtual);
-  const header = ['Pedido','NF','Data','Vendedor','Estado','Cliente', abaInfo.colExtra.label, 'Produto', 'Qtd', 'Valor Produto', 'Total Pedido'];
+  const header = ['Pedido','NF','Data','Vendedor','Estado','Cidade','Cliente', abaInfo.colExtra.label, 'Produto', 'Qtd', 'Valor Produto', 'Total Pedido'];
   const linhas = lista.flatMap(p => {
     const itens = (p.itens && p.itens.length) ? p.itens : [{ desc: '', qt: '', val: '' }];
     return itens.map(it => [
@@ -966,6 +975,7 @@ function exportarCSV() {
       p.data,
       (p.nome || '').replace(' - OFF TRADE',''),
       p.estado,
+      p.cidade,
       p.cliente,
       p[abaInfo.colExtra.campo],
       it.desc,
