@@ -520,6 +520,13 @@ def _item_pedido(sistema, numped, row):
     # Goose): 126 + 164 + 382 = 672.
     qtd_cortada_total = qtcortada + qtfalta
     _pvenda = pd.to_numeric(row.get('PVENDA'), errors='coerce')
+    # Preço unitário: TOTAL/QT do que foi faturado é mais confiável (reflete
+    # desconto/negociação real da nota); só cai pro PVENDA digitado quando o
+    # item inteiro foi cortado (QT=0, sem nota pra calcular a partir dela).
+    _preco_unit = (float(row['TOTAL']) / qt) if qt > 0 else (
+        float(_pvenda) if pd.notna(_pvenda) else None
+    )
+    _valor_cortado = round(qtd_cortada_total * _preco_unit, 2) if _preco_unit is not None else None
     return {
         'desc':              _s(row['DESCRICAO']),
         'industria':         _s(row.get('FANTASIA_FORNEC')) or _s(row.get('FORNECEDOR')),
@@ -529,6 +536,7 @@ def _item_pedido(sistema, numped, row):
         'qtcortada':         qtcortada,
         'qtd_cortada_total': qtd_cortada_total,
         'qt_original':       qt + qtd_cortada_total,
+        'valor_cortado':     _valor_cortado,
         'cortado':           qtd_cortada_total > 0,
         'codprod':   _int_s(row['CODPROD_NUM']),
         'codfilial': _int_s(row['CODFILIAL_NUM']),
@@ -620,6 +628,7 @@ def _extrair_cortados(pedidos_agrupados):
                 'qtcortada':         it['qtcortada'],
                 'qtd_cortada_total': it['qtd_cortada_total'],
                 'qt_original':       it['qt_original'],
+                'valor_cortado': it['valor_cortado'],
                 'val':        it['val'],
                 'total':      it['val'],
             })
