@@ -92,6 +92,25 @@ def _query_cortes(schema):
     """
 
 
+def _query_motivo_corte(schema):
+    """PEDIDOS_CANCELADOS.MOTIVO tem o motivo de verdade por produto (ex:
+    "CORTE TOTAL NO CARREGAMENTO", "FALTA DE PRODUTO") — bem mais específico
+    que MOTIVOPOSICAO (PCPEDC, nível pedido). Cobre tanto corte total pré-NF
+    quanto corte parcial dentro de pedido já faturado (confirmado: NUMPED
+    352000099 aparece aqui E em PBI_PCPEDI com NUMNOTA preenchido)."""
+    return f"""
+        SELECT NUMPED, CODPROD, MOTIVO, DATACANC
+        FROM {schema}.PEDIDOS_CANCELADOS
+        WHERE DATACANC >= SYSDATE - {DIAS_JANELA}
+    """
+
+
+# thekings não tem essa view (ORA-00942, mesmo motivo documentado em
+# exportacao_meta.py) — excluída daqui pra não derrubar engine_theking pro
+# resto do script (3 retentativas + 10s cada por fonte morta).
+_SOURCES_COM_MOTIVO_CORTE = [s for s in _SOURCES if s[0] != 'thekings']
+
+
 _parts = []
 _fontes_indisponiveis = []
 _chamadas_pedidos = [
@@ -128,6 +147,28 @@ for (_nome, _eng, _extra, _filiais), _res in zip(_SOURCES, carregar_paralelo(_ch
         except (TypeError, ValueError):
             continue
         _cortes_lookup[_chave] = _cortes_lookup.get(_chave, 0.0) + float(_row['QTCORTADA'] or 0)
+
+# ── Motivo real do corte (PEDIDOS_CANCELADOS.MOTIVO) por (SISTEMA, NUMPED, CODPROD) ──
+_motivo_corte_lookup = {}
+_chamadas_motivo_corte = [
+    (_query_motivo_corte(_nome), _eng, f"motivo_corte_{_nome}")
+    for _nome, _eng, _extra, _filiais in _SOURCES_COM_MOTIVO_CORTE
+]
+for (_nome, _eng, _extra, _filiais), _res in zip(_SOURCES_COM_MOTIVO_CORTE, carregar_paralelo(_chamadas_motivo_corte)):
+    if isinstance(_res, Exception):
+        print(f"[AVISO] motivo_corte_{_nome} falhou ({str(_res)[:80]}) — ignorado (motivo de corte dessa base cai pro motivo genérico)")
+        continue
+    _res.columns = _res.columns.str.upper()
+    _res['DATACANC'] = pd.to_datetime(_res['DATACANC'], errors='coerce')
+    _res = _res.sort_values('DATACANC')  # último (mais recente) sobrescreve os anteriores no loop abaixo
+    for _, _row in _res.iterrows():
+        try:
+            _chave = (_nome, int(_row['NUMPED']), int(_row['CODPROD']))
+        except (TypeError, ValueError):
+            continue
+        _motivo = str(_row['MOTIVO'] or '').strip()
+        if _motivo:
+            _motivo_corte_lookup[_chave] = _motivo
 
 tabela_pedidos = pd.concat(_parts, ignore_index=True)
 tabela_pedidos.columns = tabela_pedidos.columns.str.upper()
@@ -509,6 +550,16 @@ def _corte_real(sistema, numped, codprod_num, codfilial_num):
     return _cortes_lookup.get(chave, 0.0)
 
 
+def _motivo_corte(sistema, numped, codprod_num):
+    """Motivo real do corte (PEDIDOS_CANCELADOS.MOTIVO), ou '' se não achou
+    (produto sem corte registrado nessa view, ou base sem a view)."""
+    try:
+        chave = (sistema, int(numped), int(codprod_num))
+    except (TypeError, ValueError):
+        return ''
+    return _motivo_corte_lookup.get(chave, '')
+
+
 def _item_pedido(sistema, numped, row):
     qt = int(row['QT'])
     qtfalta = float(row['QTFALTA'])
@@ -537,6 +588,7 @@ def _item_pedido(sistema, numped, row):
         'qtd_cortada_total': qtd_cortada_total,
         'qt_original':       qt + qtd_cortada_total,
         'valor_cortado':     _valor_cortado,
+        'motivo_corte':      _motivo_corte(sistema, numped, row['CODPROD_NUM']),
         'cortado':           qtd_cortada_total > 0,
         'codprod':   _int_s(row['CODPROD_NUM']),
         'codfilial': _int_s(row['CODFILIAL_NUM']),
@@ -618,7 +670,7 @@ def _extrair_cortados(pedidos_agrupados):
                 'gerente':    p['gerente'],
                 'status_ped': p['status_ped'],
                 'posicao':    p['posicao'],
-                'motivo':     p['motivo'],
+                'motivo':     it['motivo_corte'] or p['motivo'],
                 'desc':       it['desc'],
                 'industria':  it['industria'],
                 'codprod':    it['codprod'],

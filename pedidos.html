@@ -288,6 +288,7 @@ const THEAD_CORTADOS = `
   <th class="hide-mob" onclick="ordenarPor('industria')">Indústria</th>
   <th onclick="ordenarPor('qtd_cortada_total')">Qtd Cortada</th>
   <th onclick="ordenarPor('valor_cortado')">Valor Cortado</th>
+  <th onclick="ordenarPor('motivo')">Motivo</th>
   <th onclick="ordenarPor('saldo_estoque')">Saldo Estoque</th>
 `;
 
@@ -391,7 +392,7 @@ function montarStatusLog() {
 }
 
 function _totalColunas() {
-  if (_abaAtual === 'produtos_cortados') return 9;
+  if (_abaAtual === 'produtos_cortados') return 10;
   if (_abaAtual === 'pedidos_feitos') return 9;
   const abaInfo = ABAS.find(a => a.chave === _abaAtual);
   return (abaInfo && abaInfo.colExtra) ? 10 : 9;
@@ -828,6 +829,7 @@ function aplicarFiltro() {
         <td class="hide-mob">${_esc(p.industria) || '<span class="cod">—</span>'}</td>
         <td>${p.qtd_cortada_total} <span style="color:var(--muted)">/ ${p.qt_original}</span></td>
         <td>${p.valor_cortado != null ? brl(p.valor_cortado) : '<span class="status-none">—</span>'}</td>
+        <td>${p.motivo ? _esc(p.motivo) : '<span class="status-none">—</span>'}</td>
         <td>${_saldoBadge(p.saldo_estoque)}</td>
       </tr>`).join('');
     return;
@@ -955,7 +957,7 @@ function exportarCSV() {
   const lista = _filtrados();
 
   if (_abaAtual === 'produtos_cortados') {
-    const header = ['Data', 'Vendedor', 'Estado', 'Cliente', 'Pedido', 'Produto', 'Indústria', 'Qtd Cortada', 'Qtd Pedida', 'Valor Cortado', 'Saldo Estoque'];
+    const header = ['Data', 'Vendedor', 'Estado', 'Cliente', 'Pedido', 'Produto', 'Indústria', 'Qtd Cortada', 'Qtd Pedida', 'Valor Cortado', 'Motivo', 'Saldo Estoque'];
     const linhas = lista.map(p => [
       p.data,
       (p.nome || '').replace(' - OFF TRADE', ''),
@@ -967,6 +969,7 @@ function exportarCSV() {
       p.qtd_cortada_total,
       p.qt_original,
       p.valor_cortado ?? '',
+      p.motivo,
       p.saldo_estoque ?? '',
     ].map(v => `"${String(v ?? '').replace(/"/g, '""')}"`).join(';'));
     const csv = '﻿' + [header.join(';'), ...linhas].join('\r\n');
