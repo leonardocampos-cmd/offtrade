@@ -258,7 +258,7 @@ const ABAS = [
   },
   {
     chave: 'cancelados', label: 'Cortados/Cancelados', cor: 'status-cancelado',
-    colExtra: { campo: 'motivo', label: 'Motivo', render: p => p.motivo ? _esc(p.motivo) : '<span class="status-none">—</span>' },
+    colExtra: null,
   },
   {
     chave: 'produtos_cortados', label: 'Produtos Cortados', cor: 'status-cortado', flat: true,
@@ -355,8 +355,14 @@ function montarTabs() {
     theadRow.innerHTML = THEAD_PADRAO;
     const abaInfo = ABAS.find(a => a.chave === _abaAtual);
     const th = document.getElementById('th-extra');
-    th.textContent = abaInfo.colExtra.label;
-    th.onclick = () => ordenarPor(abaInfo.colExtra.campo);
+    if (abaInfo.colExtra) {
+      th.style.display = '';
+      th.textContent = abaInfo.colExtra.label;
+      th.onclick = () => ordenarPor(abaInfo.colExtra.campo);
+    } else {
+      th.style.display = 'none';
+      th.onclick = null;
+    }
     document.getElementById('th-nf').style.display = _abaAtual === 'pedidos_feitos' ? 'none' : '';
   }
 
@@ -385,7 +391,9 @@ function montarStatusLog() {
 
 function _totalColunas() {
   if (_abaAtual === 'produtos_cortados') return 8;
-  return _abaAtual === 'pedidos_feitos' ? 9 : 10;
+  if (_abaAtual === 'pedidos_feitos') return 9;
+  const abaInfo = ABAS.find(a => a.chave === _abaAtual);
+  return (abaInfo && abaInfo.colExtra) ? 10 : 9;
 }
 
 function trocarAba(chave) {
@@ -835,7 +843,7 @@ function aplicarFiltro() {
       <td class="hide-mob">${_esc(p.estado)}</td>
       <td class="hide-mob">${_esc(p.cidade)}</td>
       <td>${_esc(p.cliente)}${agendado ? ` <span class="badge-agendado">📅 ${agendado}</span>` : ''}${(_abaAtual === 'faturados' && p.tem_corte) ? ` <span class="badge-corte">✂ CORTE PARCIAL</span>` : ''}${(_abaAtual === 'faturados' && p.em_rota) ? ` <span class="badge-rota">🚚 EM ROTA${p.rota ? ': ' + _esc(p.rota) : ''}</span>` : ''}${_abaAtual === 'pedidos_feitos' ? _posicaoBadge(p.posicao) : ''}</td>
-      <td>${abaInfo.colExtra.render(p)}</td>
+      ${abaInfo.colExtra ? `<td>${abaInfo.colExtra.render(p)}</td>` : ''}
       <td>${brl(p.total)}</td>
     </tr>
     <tr class="linha-itens ${expandido ? '' : 'oculta'}" id="itens-${_esc(chave)}">
@@ -966,7 +974,7 @@ function exportarCSV() {
   }
 
   const abaInfo = ABAS.find(a => a.chave === _abaAtual);
-  const header = ['Pedido','NF','Data','Vendedor','Estado','Cidade','Cliente','Agendamento', abaInfo.colExtra.label, 'Produto', 'Qtd', 'Valor Produto', 'Total Pedido'];
+  const header = ['Pedido','NF','Data','Vendedor','Estado','Cidade','Cliente','Agendamento', ...(abaInfo.colExtra ? [abaInfo.colExtra.label] : []), 'Produto', 'Qtd', 'Valor Produto', 'Total Pedido'];
   const linhas = lista.flatMap(p => {
     const itens = (p.itens && p.itens.length) ? p.itens : [{ desc: '', qt: '', val: '' }];
     return itens.map(it => [
@@ -978,7 +986,7 @@ function exportarCSV() {
       p.cidade,
       p.cliente,
       _agendamento(p.obs) || '',
-      p[abaInfo.colExtra.campo],
+      ...(abaInfo.colExtra ? [p[abaInfo.colExtra.campo]] : []),
       it.desc,
       it.qt,
       it.val,
