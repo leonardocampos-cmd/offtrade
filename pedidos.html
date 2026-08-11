@@ -966,7 +966,7 @@ function exportarCSV() {
   }
 
   const abaInfo = ABAS.find(a => a.chave === _abaAtual);
-  const header = ['Pedido','NF','Data','Vendedor','Estado','Cidade','Cliente', abaInfo.colExtra.label, 'Produto', 'Qtd', 'Valor Produto', 'Total Pedido'];
+  const header = ['Pedido','NF','Data','Vendedor','Estado','Cidade','Cliente','Agendamento', abaInfo.colExtra.label, 'Produto', 'Qtd', 'Valor Produto', 'Total Pedido'];
   const linhas = lista.flatMap(p => {
     const itens = (p.itens && p.itens.length) ? p.itens : [{ desc: '', qt: '', val: '' }];
     return itens.map(it => [
@@ -977,6 +977,7 @@ function exportarCSV() {
       p.estado,
       p.cidade,
       p.cliente,
+      _agendamento(p.obs) || '',
       p[abaInfo.colExtra.campo],
       it.desc,
       it.qt,
