@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "12/08/2026 11:04",
+  "atualizado_em": "12/08/2026 11:39",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -379,7 +379,7 @@ const COMISSAO_DATA = {
       ],
       "ating_acumulado_total": 0.193381,
       "pct_premio": 0.00290071,
-      "liq_rigarr": 19692.91,
+      "liq_rigarr": 20053.19,
       "fat_castas": 0.0,
       "teto_comissao": 2000.0,
       "com_rigarr": 386.76,
@@ -1395,12 +1395,12 @@ const COMISSAO_DATA = {
       ],
       "ating_acumulado_total": 0.192588,
       "pct_premio": 0.00288882,
-      "liq_rigarr": 12260.3,
+      "liq_rigarr": 12637.8,
       "fat_castas": 5059.2,
       "teto_comissao": null,
-      "com_rigarr": 35.42,
+      "com_rigarr": 36.51,
       "com_castas": 14.62,
-      "comissao_estimada": 50.04
+      "comissao_estimada": 51.13
     },
     {
       "nome": "BARBARA CABRAL - OFF TRADE",
@@ -1522,12 +1522,12 @@ const COMISSAO_DATA = {
       ],
       "ating_acumulado_total": 0.094738,
       "pct_premio": 0.00142107,
-      "liq_rigarr": 16845.58,
+      "liq_rigarr": 17138.62,
       "fat_castas": 793.5,
       "teto_comissao": null,
-      "com_rigarr": 23.94,
+      "com_rigarr": 24.36,
       "com_castas": 1.13,
-      "comissao_estimada": 25.07
+      "comissao_estimada": 25.49
     },
     {
       "nome": "MARIA LUIZA - OFF TRADE",
