@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "12/08/2026 17:56",
+  "atualizado_em": "12/08/2026 18:22",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -14,6 +14,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "07/02/2026",
           "dias": 186,
+          "rca_bloqueio": "N",
           "media": 0.0
         }
       ],
@@ -374,6 +375,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "27/04/2026",
           "dias": 107,
+          "rca_bloqueio": "N",
           "media": 149.8
         }
       ],
@@ -419,6 +421,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "07/01/2025",
           "dias": 582,
+          "rca_bloqueio": "S",
           "media": 0.0
         }
       ],
@@ -436,6 +439,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "06/05/2026",
           "dias": 98,
+          "rca_bloqueio": "N",
           "media": 442.93
         },
         {
@@ -445,6 +449,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "09/12/2025",
           "dias": 246,
+          "rca_bloqueio": "N",
           "media": 256.0
         },
         {
@@ -454,6 +459,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/09/2025",
           "dias": 335,
+          "rca_bloqueio": "N",
           "media": 348.57
         },
         {
@@ -463,16 +469,8 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "25/03/2026",
           "dias": 140,
+          "rca_bloqueio": "N",
           "media": 179.27
-        },
-        {
-          "codcli": "82475",
-          "cliente": "MERCADOS BRAGA LTDA",
-          "bairro": "BANGU",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "27/01/2026",
-          "dias": 197,
-          "media": 1812.72
         },
         {
           "codcli": "82474",
@@ -481,6 +479,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "05/02/2026",
           "dias": 188,
+          "rca_bloqueio": "N",
           "media": 707.28
         },
         {
@@ -490,7 +489,18 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "26/01/2026",
           "dias": 198,
+          "rca_bloqueio": "N",
           "media": 1568.31
+        },
+        {
+          "codcli": "82475",
+          "cliente": "MERCADOS BRAGA LTDA",
+          "bairro": "BANGU",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "27/01/2026",
+          "dias": 197,
+          "rca_bloqueio": "N",
+          "media": 1812.72
         },
         {
           "codcli": "84371",
@@ -499,6 +509,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "03/04/2026",
           "dias": 131,
+          "rca_bloqueio": "N",
           "media": 0.0
         }
       ],
@@ -743,6 +754,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -752,6 +764,7 @@ const INATIVOS_DATA = {
           "cidade": "INDAIATUBA",
           "dtultcomp": "13/12/2024",
           "dias": 607,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -761,6 +774,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "28/10/2025",
           "dias": 288,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -770,6 +784,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "30/10/2024",
           "dias": 651,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -779,6 +794,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -788,6 +804,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "17/03/2026",
           "dias": 148,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -797,6 +814,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -806,15 +824,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": null,
           "dias": null,
-          "media": 0.0
-        },
-        {
-          "codcli": "80916",
-          "cliente": "URCA COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
-          "bairro": "JARDIM MODELO",
-          "cidade": "SAO PAULO",
-          "dtultcomp": "13/12/2024",
-          "dias": 607,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -824,6 +834,17 @@ const INATIVOS_DATA = {
           "cidade": "GUARULHOS",
           "dtultcomp": "13/12/2024",
           "dias": 607,
+          "rca_bloqueio": "N",
+          "media": 0.0
+        },
+        {
+          "codcli": "80916",
+          "cliente": "URCA COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
+          "bairro": "JARDIM MODELO",
+          "cidade": "SAO PAULO",
+          "dtultcomp": "13/12/2024",
+          "dias": 607,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -833,6 +854,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "13/12/2024",
           "dias": 607,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -842,6 +864,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -851,6 +874,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "09/11/2020",
           "dias": 2102,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -860,6 +884,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "06/02/2026",
           "dias": 187,
+          "rca_bloqueio": "N",
           "media": 238.8
         },
         {
@@ -869,6 +894,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "15/09/2022",
           "dias": 1427,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -878,6 +904,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -887,6 +914,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -896,6 +924,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "18/11/2015",
           "dias": 3920,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -905,6 +934,7 @@ const INATIVOS_DATA = {
           "cidade": "GUARULHOS",
           "dtultcomp": "04/03/2024",
           "dias": 891,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -914,6 +944,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "25/03/2026",
           "dias": 140,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -923,6 +954,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "07/12/2020",
           "dias": 2074,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -932,6 +964,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -941,6 +974,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/01/2014",
           "dias": 4577,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -950,6 +984,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "19/10/2023",
           "dias": 1028,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -959,6 +994,7 @@ const INATIVOS_DATA = {
           "cidade": "NITEROI",
           "dtultcomp": "16/04/2014",
           "dias": 4501,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -968,6 +1004,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "14/09/2020",
           "dias": 2158,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -977,6 +1014,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "01/04/2022",
           "dias": 1594,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -986,6 +1024,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/01/2014",
           "dias": 4577,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -995,6 +1034,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "10/03/2026",
           "dias": 155,
+          "rca_bloqueio": "N",
           "media": 8944.0
         },
         {
@@ -1004,6 +1044,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/09/2020",
           "dias": 2161,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1013,6 +1054,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/09/2020",
           "dias": 2142,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1022,6 +1064,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/09/2020",
           "dias": 2142,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1031,6 +1074,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "04/10/2016",
           "dias": 3599,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1040,6 +1084,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "18/01/2016",
           "dias": 3859,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1049,6 +1094,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "26/04/2014",
           "dias": 4491,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1058,6 +1104,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "19/09/2018",
           "dias": 2884,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1067,6 +1114,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "20/10/2020",
           "dias": 2122,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1076,6 +1124,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "05/01/2016",
           "dias": 3872,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1085,6 +1134,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "12/10/2016",
           "dias": 3591,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1094,6 +1144,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "06/05/2017",
           "dias": 3385,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1103,6 +1154,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "06/12/2023",
           "dias": 980,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1112,6 +1164,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "26/03/2019",
           "dias": 2696,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1121,6 +1174,7 @@ const INATIVOS_DATA = {
           "cidade": "NITEROI",
           "dtultcomp": "20/05/2014",
           "dias": 4467,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1130,6 +1184,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/01/2014",
           "dias": 4578,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1139,6 +1194,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/08/2016",
           "dias": 3634,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1148,6 +1204,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "20/08/2015",
           "dias": 4010,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1157,6 +1214,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/01/2014",
           "dias": 4577,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1166,6 +1224,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/01/2014",
           "dias": 4578,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1175,6 +1234,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/01/2014",
           "dias": 4577,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1184,6 +1244,7 @@ const INATIVOS_DATA = {
           "cidade": "NITEROI",
           "dtultcomp": "09/11/2015",
           "dias": 3929,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1193,6 +1254,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "17/04/2014",
           "dias": 4500,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1202,6 +1264,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "19/03/2018",
           "dias": 3068,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1211,6 +1274,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "25/04/2014",
           "dias": 4492,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1220,6 +1284,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "28/01/2014",
           "dias": 4579,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1229,6 +1294,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/01/2014",
           "dias": 4577,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1238,6 +1304,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "07/05/2026",
           "dias": 97,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1247,6 +1314,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "20/06/2023",
           "dias": 1149,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1256,6 +1324,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "03/04/2017",
           "dias": 3418,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1265,6 +1334,7 @@ const INATIVOS_DATA = {
           "cidade": "MAGE",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1274,6 +1344,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "03/12/2020",
           "dias": 2078,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1283,6 +1354,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "20/03/2018",
           "dias": 3067,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1292,6 +1364,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "13/10/2015",
           "dias": 3956,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1301,6 +1374,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "02/09/2024",
           "dias": 709,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1310,6 +1384,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/01/2017",
           "dias": 3500,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1319,6 +1394,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "12/03/2018",
           "dias": 3075,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1328,6 +1404,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "15/02/2019",
           "dias": 2735,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1337,6 +1414,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "13/05/2019",
           "dias": 2648,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1346,6 +1424,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "08/04/2026",
           "dias": 126,
+          "rca_bloqueio": "N",
           "media": 196.0
         },
         {
@@ -1355,6 +1434,7 @@ const INATIVOS_DATA = {
           "cidade": "RIBEIRAO PRETO",
           "dtultcomp": "20/01/2026",
           "dias": 204,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1364,6 +1444,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1373,6 +1454,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1382,6 +1464,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "18/12/2024",
           "dias": 602,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1391,6 +1474,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "08/01/2026",
           "dias": 216,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1400,6 +1484,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "11/07/2023",
           "dias": 1128,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1409,6 +1494,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "24/08/2022",
           "dias": 1449,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1418,6 +1504,7 @@ const INATIVOS_DATA = {
           "cidade": "NITEROI",
           "dtultcomp": "04/06/2016",
           "dias": 3721,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1427,6 +1514,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1436,6 +1524,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "25/05/2015",
           "dias": 4097,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1445,6 +1534,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "19/10/2020",
           "dias": 2123,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1454,6 +1544,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "16/04/2026",
           "dias": 118,
+          "rca_bloqueio": "N",
           "media": 319.2
         },
         {
@@ -1463,6 +1554,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "16/04/2026",
           "dias": 118,
+          "rca_bloqueio": "N",
           "media": 319.2
         },
         {
@@ -1472,6 +1564,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "16/04/2026",
           "dias": 118,
+          "rca_bloqueio": "N",
           "media": 319.2
         },
         {
@@ -1481,6 +1574,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "07/05/2026",
           "dias": 97,
+          "rca_bloqueio": "N",
           "media": 319.2
         },
         {
@@ -1490,6 +1584,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1499,6 +1594,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "18/09/2025",
           "dias": 328,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1508,6 +1604,7 @@ const INATIVOS_DATA = {
           "cidade": "OSASCO",
           "dtultcomp": "07/12/2022",
           "dias": 1344,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1517,6 +1614,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/06/2019",
           "dias": 2601,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1526,6 +1624,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "01/06/2015",
           "dias": 4090,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1535,6 +1634,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1544,6 +1644,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "22/07/2020",
           "dias": 2212,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1553,6 +1654,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "22/07/2020",
           "dias": 2212,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1562,6 +1664,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "09/10/2020",
           "dias": 2133,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1571,6 +1674,7 @@ const INATIVOS_DATA = {
           "cidade": "VALINHOS",
           "dtultcomp": "23/09/2022",
           "dias": 1419,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1580,6 +1684,7 @@ const INATIVOS_DATA = {
           "cidade": "CAIEIRAS",
           "dtultcomp": "12/03/2026",
           "dias": 153,
+          "rca_bloqueio": "N",
           "media": 3593.6
         },
         {
@@ -1589,6 +1694,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "07/12/2020",
           "dias": 2074,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1598,6 +1704,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "18/04/2018",
           "dias": 3038,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1607,6 +1714,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1616,6 +1724,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1625,6 +1734,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1634,6 +1744,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "01/06/2023",
           "dias": 1168,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1643,6 +1754,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "04/11/2020",
           "dias": 2107,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1652,6 +1764,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "13/04/2016",
           "dias": 3773,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1661,6 +1774,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1670,6 +1784,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1679,6 +1794,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "06/04/2016",
           "dias": 3780,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1688,6 +1804,7 @@ const INATIVOS_DATA = {
           "cidade": "JARINU",
           "dtultcomp": "09/03/2026",
           "dias": 156,
+          "rca_bloqueio": "N",
           "media": 207.2
         },
         {
@@ -1697,6 +1814,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "10/08/2022",
           "dias": 1463,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1706,6 +1824,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "24/08/2022",
           "dias": 1449,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1715,6 +1834,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "14/05/2015",
           "dias": 4108,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1724,6 +1844,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO ROQUE",
           "dtultcomp": "20/02/2026",
           "dias": 173,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1733,6 +1854,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "10/03/2026",
           "dias": 155,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1742,6 +1864,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "06/05/2025",
           "dias": 463,
+          "rca_bloqueio": "N",
           "media": 438.56
         },
         {
@@ -1751,6 +1874,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "04/04/2022",
           "dias": 1591,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1760,6 +1884,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "15/06/2015",
           "dias": 4076,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1769,6 +1894,7 @@ const INATIVOS_DATA = {
           "cidade": "CAJAMAR",
           "dtultcomp": "27/04/2026",
           "dias": 107,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1778,6 +1904,7 @@ const INATIVOS_DATA = {
           "cidade": "ARARUAMA",
           "dtultcomp": "20/07/2015",
           "dias": 4041,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1787,6 +1914,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO CAETANO DO SUL",
           "dtultcomp": "22/02/2024",
           "dias": 902,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1796,6 +1924,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "21/07/2020",
           "dias": 2213,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1805,6 +1934,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "19/12/2022",
           "dias": 1332,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1814,6 +1944,7 @@ const INATIVOS_DATA = {
           "cidade": "JAPERI",
           "dtultcomp": "29/04/2014",
           "dias": 4488,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1823,6 +1954,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "11/05/2023",
           "dias": 1189,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1832,6 +1964,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "22/05/2014",
           "dias": 4465,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1841,6 +1974,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "31/07/2014",
           "dias": 4395,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1850,6 +1984,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "26/04/2016",
           "dias": 3760,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1859,6 +1994,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "22/08/2024",
           "dias": 720,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1868,6 +2004,7 @@ const INATIVOS_DATA = {
           "cidade": "ITABORAI",
           "dtultcomp": "19/03/2019",
           "dias": 2703,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1877,6 +2014,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "28/12/2022",
           "dias": 1323,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1886,6 +2024,7 @@ const INATIVOS_DATA = {
           "cidade": "TABOAO DA SERRA",
           "dtultcomp": "02/10/2023",
           "dias": 1045,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1895,6 +2034,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "22/12/2025",
           "dias": 233,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1904,6 +2044,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1913,6 +2054,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "01/12/2020",
           "dias": 2080,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1922,6 +2064,7 @@ const INATIVOS_DATA = {
           "cidade": "EMBU",
           "dtultcomp": "04/05/2026",
           "dias": 100,
+          "rca_bloqueio": "N",
           "media": 5959.45
         },
         {
@@ -1931,6 +2074,7 @@ const INATIVOS_DATA = {
           "cidade": "CAMPINAS",
           "dtultcomp": "23/12/2024",
           "dias": 597,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1940,6 +2084,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1949,6 +2094,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/04/2015",
           "dias": 4123,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1958,6 +2104,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "18/07/2022",
           "dias": 1486,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1967,6 +2114,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "16/01/2026",
           "dias": 208,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1976,6 +2124,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/11/2020",
           "dias": 2081,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1985,6 +2134,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -1994,6 +2144,7 @@ const INATIVOS_DATA = {
           "cidade": "NITEROI",
           "dtultcomp": "24/06/2020",
           "dias": 2240,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2003,6 +2154,7 @@ const INATIVOS_DATA = {
           "cidade": "ARRAIAL DO CABO",
           "dtultcomp": "31/07/2015",
           "dias": 4030,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2012,6 +2164,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "05/05/2014",
           "dias": 4482,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2021,6 +2174,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2030,6 +2184,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "13/12/2021",
           "dias": 1703,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2039,6 +2194,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/04/2014",
           "dias": 4506,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2048,6 +2204,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "10/10/2023",
           "dias": 1037,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2057,6 +2214,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2066,6 +2224,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "07/02/2014",
           "dias": 4569,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2075,6 +2234,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "02/12/2020",
           "dias": 2079,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2084,6 +2244,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "06/12/2024",
           "dias": 614,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2093,6 +2254,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/02/2014",
           "dias": 4565,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2102,6 +2264,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "06/11/2020",
           "dias": 2105,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2111,6 +2274,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2120,6 +2284,7 @@ const INATIVOS_DATA = {
           "cidade": "SEROPEDICA",
           "dtultcomp": "19/01/2019",
           "dias": 2762,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2129,6 +2294,7 @@ const INATIVOS_DATA = {
           "cidade": "CAMPINAS",
           "dtultcomp": "19/03/2026",
           "dias": 146,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2138,6 +2304,7 @@ const INATIVOS_DATA = {
           "cidade": "DIADEMA",
           "dtultcomp": "26/12/2022",
           "dias": 1325,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2147,6 +2314,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "22/03/2019",
           "dias": 2700,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2156,6 +2324,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2165,6 +2334,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO GONCALO",
           "dtultcomp": "14/09/2020",
           "dias": 2158,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2174,6 +2344,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "10/05/2019",
           "dias": 2651,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2183,6 +2354,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "17/05/2018",
           "dias": 3009,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2192,6 +2364,7 @@ const INATIVOS_DATA = {
           "cidade": "CAJAMAR",
           "dtultcomp": "30/04/2026",
           "dias": 104,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2201,6 +2374,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "09/11/2020",
           "dias": 2102,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2210,6 +2384,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2219,6 +2394,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "17/11/2020",
           "dias": 2094,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2228,6 +2404,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "30/11/2023",
           "dias": 986,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2237,6 +2414,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "31/07/2015",
           "dias": 4030,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2246,6 +2424,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "04/04/2016",
           "dias": 3782,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2255,6 +2434,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "09/11/2020",
           "dias": 2102,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2264,6 +2444,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "19/10/2020",
           "dias": 2123,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2273,6 +2454,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "27/12/2016",
           "dias": 3515,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2282,6 +2464,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "19/02/2026",
           "dias": 174,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2291,6 +2474,7 @@ const INATIVOS_DATA = {
           "cidade": "NITEROI",
           "dtultcomp": "04/08/2017",
           "dias": 3295,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2300,6 +2484,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "16/12/2015",
           "dias": 3892,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2309,6 +2494,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2318,6 +2504,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2327,6 +2514,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "10/07/2014",
           "dias": 4416,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2336,6 +2524,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2345,6 +2534,7 @@ const INATIVOS_DATA = {
           "cidade": "SAQUAREMA",
           "dtultcomp": "14/12/2015",
           "dias": 3894,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2354,6 +2544,7 @@ const INATIVOS_DATA = {
           "cidade": "OSASCO",
           "dtultcomp": "22/11/2022",
           "dias": 1359,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2363,6 +2554,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "14/07/2022",
           "dias": 1490,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2372,6 +2564,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "03/12/2015",
           "dias": 3905,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2381,6 +2574,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/10/2016",
           "dias": 3592,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2390,6 +2584,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2399,6 +2594,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2408,6 +2604,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "02/12/2022",
           "dias": 1349,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2417,6 +2614,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "20/07/2022",
           "dias": 1484,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2426,6 +2624,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "25/11/2022",
           "dias": 1356,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2435,6 +2634,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "21/06/2016",
           "dias": 3704,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2444,6 +2644,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2453,6 +2654,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2462,6 +2664,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/10/2020",
           "dias": 2113,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2471,6 +2674,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "23/06/2022",
           "dias": 1511,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2480,6 +2684,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2489,6 +2694,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/07/2016",
           "dias": 3666,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2498,6 +2704,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/12/2014",
           "dias": 4262,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2507,6 +2714,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2516,6 +2724,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/10/2020",
           "dias": 2113,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2525,6 +2734,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "01/08/2020",
           "dias": 2202,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2534,6 +2744,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2543,6 +2754,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "01/08/2020",
           "dias": 2202,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2552,6 +2764,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "01/08/2020",
           "dias": 2202,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2561,6 +2774,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "01/08/2020",
           "dias": 2202,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2570,6 +2784,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "01/08/2020",
           "dias": 2202,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2579,6 +2794,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "07/12/2020",
           "dias": 2074,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2588,6 +2804,7 @@ const INATIVOS_DATA = {
           "cidade": "QUEIMADOS",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2597,6 +2814,7 @@ const INATIVOS_DATA = {
           "cidade": "QUEIMADOS",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2606,6 +2824,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "01/08/2020",
           "dias": 2202,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2615,6 +2834,7 @@ const INATIVOS_DATA = {
           "cidade": "SAQUAREMA",
           "dtultcomp": "25/06/2015",
           "dias": 4066,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2624,6 +2844,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "26/10/2017",
           "dias": 3212,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2633,6 +2854,7 @@ const INATIVOS_DATA = {
           "cidade": "ARRAIAL DO CABO",
           "dtultcomp": "31/07/2015",
           "dias": 4030,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2642,6 +2864,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "16/04/2014",
           "dias": 4501,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2651,6 +2874,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "09/06/2014",
           "dias": 4447,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2660,6 +2884,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2669,6 +2894,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/01/2014",
           "dias": 4577,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2678,6 +2904,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "14/04/2016",
           "dias": 3772,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2687,6 +2914,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "04/04/2016",
           "dias": 3782,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2696,6 +2924,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "16/07/2020",
           "dias": 2218,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2705,6 +2934,7 @@ const INATIVOS_DATA = {
           "cidade": "DUQUE DE CAXIAS",
           "dtultcomp": "13/06/2014",
           "dias": 4443,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2714,6 +2944,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2723,6 +2954,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2732,6 +2964,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2741,6 +2974,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "21/10/2015",
           "dias": 3948,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2750,6 +2984,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "22/07/2020",
           "dias": 2212,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2759,6 +2994,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "22/09/2020",
           "dias": 2150,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2768,6 +3004,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2777,6 +3014,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "01/08/2020",
           "dias": 2202,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2786,6 +3024,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "05/04/2016",
           "dias": 3781,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2795,6 +3034,7 @@ const INATIVOS_DATA = {
           "cidade": "NOVA IGUACU",
           "dtultcomp": "13/06/2014",
           "dias": 4443,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2804,6 +3044,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "05/10/2020",
           "dias": 2137,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2813,6 +3054,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "17/04/2014",
           "dias": 4500,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2822,6 +3064,7 @@ const INATIVOS_DATA = {
           "cidade": "ARARUAMA",
           "dtultcomp": "27/07/2015",
           "dias": 4034,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2831,6 +3074,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/01/2014",
           "dias": 4577,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2840,6 +3084,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "15/11/2025",
           "dias": 270,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2849,6 +3094,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/08/2019",
           "dias": 2539,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2858,6 +3104,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "08/10/2020",
           "dias": 2134,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2867,6 +3114,7 @@ const INATIVOS_DATA = {
           "cidade": "ARRAIAL DO CABO",
           "dtultcomp": "27/07/2015",
           "dias": 4034,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2876,6 +3124,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2885,6 +3134,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "05/02/2018",
           "dias": 3110,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2894,6 +3144,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2903,6 +3154,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "21/07/2020",
           "dias": 2213,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2912,6 +3164,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "12/05/2015",
           "dias": 4110,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2921,6 +3174,7 @@ const INATIVOS_DATA = {
           "cidade": "ITAPEVI",
           "dtultcomp": "23/09/2024",
           "dias": 688,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2930,6 +3184,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/06/2014",
           "dias": 4426,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2939,6 +3194,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "23/07/2020",
           "dias": 2211,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2948,6 +3204,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/11/2017",
           "dias": 3178,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2957,6 +3214,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "22/07/2020",
           "dias": 2212,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2966,6 +3224,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2975,6 +3234,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "21/10/2020",
           "dias": 2121,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2984,6 +3244,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "12/05/2015",
           "dias": 4110,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -2993,6 +3254,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/01/2014",
           "dias": 4577,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3002,6 +3264,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3011,6 +3274,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3020,6 +3284,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "21/07/2020",
           "dias": 2213,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3029,6 +3294,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "24/06/2015",
           "dias": 4067,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3038,6 +3304,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "09/12/2015",
           "dias": 3899,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3047,6 +3314,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "01/08/2020",
           "dias": 2202,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3056,6 +3324,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "31/01/2017",
           "dias": 3480,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3065,6 +3334,7 @@ const INATIVOS_DATA = {
           "cidade": "BELFORD ROXO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3074,6 +3344,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "14/09/2015",
           "dias": 3985,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3083,6 +3354,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "19/02/2026",
           "dias": 174,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3092,6 +3364,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "31/05/2016",
           "dias": 3725,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3101,6 +3374,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "25/07/2020",
           "dias": 2209,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3110,6 +3384,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3119,6 +3394,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/01/2014",
           "dias": 4577,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3128,6 +3404,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "08/07/2015",
           "dias": 4053,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3137,6 +3414,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3146,6 +3424,7 @@ const INATIVOS_DATA = {
           "cidade": "NOVA IGUACU",
           "dtultcomp": "21/03/2018",
           "dias": 3066,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3155,6 +3434,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/04/2018",
           "dias": 3045,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3164,6 +3444,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3173,6 +3454,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3182,6 +3464,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "08/07/2015",
           "dias": 4053,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3191,6 +3474,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "31/10/2014",
           "dias": 4303,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3200,6 +3484,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "22/12/2015",
           "dias": 3886,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3209,6 +3494,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "07/02/2018",
           "dias": 3108,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3218,6 +3504,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "10/09/2015",
           "dias": 3989,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3227,6 +3514,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/10/2020",
           "dias": 2113,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3236,6 +3524,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/01/2014",
           "dias": 4577,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3245,6 +3534,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "17/12/2015",
           "dias": 3891,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3254,6 +3544,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "05/02/2014",
           "dias": 4571,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3263,6 +3554,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "27/01/2014",
           "dias": 4580,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3272,6 +3564,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3281,6 +3574,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "14/12/2015",
           "dias": 3894,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3290,6 +3584,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "07/01/2016",
           "dias": 3870,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3299,6 +3594,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "17/03/2018",
           "dias": 3070,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3308,6 +3604,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/10/2020",
           "dias": 2113,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3317,6 +3614,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "14/08/2020",
           "dias": 2189,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3326,6 +3624,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "02/05/2014",
           "dias": 4485,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3335,6 +3634,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "16/02/2016",
           "dias": 3830,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3344,6 +3644,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "25/01/2016",
           "dias": 3852,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3353,6 +3654,7 @@ const INATIVOS_DATA = {
           "cidade": "DUQUE DE CAXIAS",
           "dtultcomp": "17/12/2015",
           "dias": 3891,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3362,6 +3664,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3371,6 +3674,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "28/12/2015",
           "dias": 3880,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3380,6 +3684,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO GONCALO",
           "dtultcomp": "25/03/2014",
           "dias": 4523,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3389,6 +3694,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "07/04/2016",
           "dias": 3779,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3398,6 +3704,7 @@ const INATIVOS_DATA = {
           "cidade": "NOVA IGUACU",
           "dtultcomp": "08/05/2014",
           "dias": 4479,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3407,6 +3714,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "20/01/2016",
           "dias": 3857,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3416,6 +3724,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/10/2015",
           "dias": 3939,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3425,6 +3734,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3434,6 +3744,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "27/07/2018",
           "dias": 2938,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3443,6 +3754,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "21/07/2020",
           "dias": 2213,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3452,6 +3764,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/04/2014",
           "dias": 4488,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3461,6 +3774,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "08/04/2014",
           "dias": 4509,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3470,6 +3784,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3479,6 +3794,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "28/07/2020",
           "dias": 2206,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3488,6 +3804,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "26/03/2014",
           "dias": 4522,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3497,6 +3814,7 @@ const INATIVOS_DATA = {
           "cidade": "PETROPOLIS",
           "dtultcomp": "15/06/2018",
           "dias": 2980,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3506,6 +3824,7 @@ const INATIVOS_DATA = {
           "cidade": "JUNDIAI",
           "dtultcomp": "16/07/2025",
           "dias": 392,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3515,6 +3834,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "28/08/2019",
           "dias": 2541,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3524,6 +3844,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3533,6 +3854,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/01/2014",
           "dias": 4577,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3542,6 +3864,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "26/04/2016",
           "dias": 3760,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3551,6 +3874,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "13/11/2014",
           "dias": 4290,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3560,6 +3884,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "10/04/2026",
           "dias": 124,
+          "rca_bloqueio": "N",
           "media": 14776.0
         },
         {
@@ -3569,6 +3894,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "20/06/2016",
           "dias": 3705,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3578,6 +3904,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "23/09/2015",
           "dias": 3976,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3587,6 +3914,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "12/01/2016",
           "dias": 3865,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3596,6 +3924,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3605,6 +3934,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "03/12/2020",
           "dias": 2078,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3614,6 +3944,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3623,6 +3954,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "31/07/2014",
           "dias": 4395,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3632,6 +3964,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "14/10/2015",
           "dias": 3955,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3641,6 +3974,7 @@ const INATIVOS_DATA = {
           "cidade": "CARIACICA",
           "dtultcomp": "01/12/2020",
           "dias": 2080,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3650,6 +3984,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/01/2014",
           "dias": 4577,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3659,6 +3994,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO GONCALO",
           "dtultcomp": "02/04/2014",
           "dias": 4515,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3668,6 +4004,7 @@ const INATIVOS_DATA = {
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "08/12/2018",
           "dias": 2804,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3677,6 +4014,7 @@ const INATIVOS_DATA = {
           "cidade": "PARATI",
           "dtultcomp": "08/12/2018",
           "dias": 2804,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3686,6 +4024,7 @@ const INATIVOS_DATA = {
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "08/12/2018",
           "dias": 2804,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3695,6 +4034,7 @@ const INATIVOS_DATA = {
           "cidade": "VOLTA REDONDA",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3704,6 +4044,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "20/05/2022",
           "dias": 1545,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3713,6 +4054,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "22/03/2023",
           "dias": 1239,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3722,6 +4064,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3731,6 +4074,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "17/04/2024",
           "dias": 847,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3740,6 +4084,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3749,6 +4094,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3758,6 +4104,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "21/02/2014",
           "dias": 4555,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3767,6 +4114,7 @@ const INATIVOS_DATA = {
           "cidade": "VILA VELHA",
           "dtultcomp": "12/09/2018",
           "dias": 2891,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3776,6 +4124,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "02/08/2016",
           "dias": 3662,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3785,6 +4134,7 @@ const INATIVOS_DATA = {
           "cidade": "ARRAIAL DO CABO",
           "dtultcomp": "31/07/2015",
           "dias": 4030,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3794,6 +4144,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "25/11/2020",
           "dias": 2086,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3803,6 +4154,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "21/09/2017",
           "dias": 3247,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3812,6 +4164,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3821,6 +4174,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "28/10/2015",
           "dias": 3941,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3830,6 +4184,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3839,6 +4194,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3848,6 +4204,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO GONCALO",
           "dtultcomp": "03/11/2015",
           "dias": 3935,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3857,6 +4214,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "18/11/2014",
           "dias": 4285,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3866,6 +4224,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "24/09/2015",
           "dias": 3975,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3875,6 +4234,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "12/03/2016",
           "dias": 3805,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3884,6 +4244,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "04/01/2016",
           "dias": 3873,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3893,6 +4254,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/01/2014",
           "dias": 4577,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3902,6 +4264,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/01/2014",
           "dias": 4578,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3911,6 +4274,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "23/01/2017",
           "dias": 3488,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3920,6 +4284,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3929,6 +4294,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "25/01/2017",
           "dias": 3486,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3938,6 +4304,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "21/03/2015",
           "dias": 4162,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3947,6 +4314,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "13/04/2016",
           "dias": 3773,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3956,6 +4324,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "26/11/2020",
           "dias": 2085,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3965,6 +4334,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "06/05/2015",
           "dias": 4116,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3974,6 +4344,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/03/2017",
           "dias": 3422,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3983,6 +4354,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/07/2015",
           "dias": 4032,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -3992,6 +4364,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "08/10/2015",
           "dias": 3961,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4001,6 +4374,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "10/11/2015",
           "dias": 3928,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4010,6 +4384,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "17/06/2015",
           "dias": 4074,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4019,6 +4394,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "04/01/2016",
           "dias": 3873,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4028,6 +4404,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "13/05/2015",
           "dias": 4109,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4037,6 +4414,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "14/12/2016",
           "dias": 3528,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4046,6 +4424,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "10/04/2018",
           "dias": 3046,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4055,6 +4434,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4064,6 +4444,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "07/04/2018",
           "dias": 3049,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4073,6 +4454,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "17/08/2015",
           "dias": 4013,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4082,6 +4464,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4091,6 +4474,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "01/12/2016",
           "dias": 3541,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4100,6 +4484,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4109,6 +4494,7 @@ const INATIVOS_DATA = {
           "cidade": "NITEROI",
           "dtultcomp": "21/03/2014",
           "dias": 4527,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4118,6 +4504,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "26/04/2016",
           "dias": 3760,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4127,6 +4514,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "20/11/2014",
           "dias": 4283,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4136,6 +4524,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "18/05/2016",
           "dias": 3738,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4145,6 +4534,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "08/09/2015",
           "dias": 3991,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4154,6 +4544,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "02/09/2015",
           "dias": 3997,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4163,6 +4554,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/06/2015",
           "dias": 4080,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4172,6 +4564,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4181,6 +4574,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "08/09/2015",
           "dias": 3991,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4190,6 +4584,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "22/08/2019",
           "dias": 2547,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4199,6 +4594,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "26/01/2016",
           "dias": 3851,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4208,6 +4604,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "16/07/2020",
           "dias": 2218,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4217,6 +4614,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/05/2017",
           "dias": 3361,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4226,6 +4624,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "25/01/2018",
           "dias": 3121,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4235,6 +4634,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4244,6 +4644,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "23/09/2016",
           "dias": 3610,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4253,6 +4654,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "26/03/2014",
           "dias": 4522,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4262,6 +4664,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/06/2016",
           "dias": 3696,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4271,6 +4674,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "07/12/2015",
           "dias": 3901,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4280,6 +4684,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "04/06/2016",
           "dias": 3721,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4289,6 +4694,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "06/07/2016",
           "dias": 3689,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4298,6 +4704,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "09/07/2016",
           "dias": 3686,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4307,6 +4714,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "02/06/2016",
           "dias": 3723,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4316,6 +4724,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "20/06/2016",
           "dias": 3705,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4325,6 +4734,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "10/04/2014",
           "dias": 4507,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4334,6 +4744,7 @@ const INATIVOS_DATA = {
           "cidade": "NITEROI",
           "dtultcomp": "22/08/2016",
           "dias": 3642,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4343,6 +4754,7 @@ const INATIVOS_DATA = {
           "cidade": "CAMPINAS",
           "dtultcomp": "05/05/2022",
           "dias": 1560,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4352,6 +4764,7 @@ const INATIVOS_DATA = {
           "cidade": "INDAIATUBA",
           "dtultcomp": "07/06/2022",
           "dias": 1527,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4361,6 +4774,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "20/06/2025",
           "dias": 418,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4370,6 +4784,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "16/03/2016",
           "dias": 3801,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4379,6 +4794,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "20/06/2016",
           "dias": 3705,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4388,6 +4804,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "31/08/2020",
           "dias": 2172,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4397,6 +4814,7 @@ const INATIVOS_DATA = {
           "cidade": "NILOPOLIS",
           "dtultcomp": "21/10/2020",
           "dias": 2121,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4406,6 +4824,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "13/03/2018",
           "dias": 3074,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4415,6 +4834,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "01/12/2020",
           "dias": 2080,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4424,6 +4844,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "05/10/2020",
           "dias": 2137,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4433,6 +4854,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "07/02/2020",
           "dias": 2378,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4442,6 +4864,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "02/05/2016",
           "dias": 3754,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4451,6 +4874,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "21/03/2018",
           "dias": 3066,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4460,6 +4884,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "18/01/2016",
           "dias": 3859,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4469,6 +4894,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4478,6 +4904,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "31/03/2018",
           "dias": 3056,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4487,6 +4914,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "19/10/2020",
           "dias": 2123,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4496,6 +4924,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "17/02/2020",
           "dias": 2368,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4505,6 +4934,7 @@ const INATIVOS_DATA = {
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "09/01/2020",
           "dias": 2407,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4514,6 +4944,7 @@ const INATIVOS_DATA = {
           "cidade": "BELFORD ROXO",
           "dtultcomp": "05/04/2016",
           "dias": 3781,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4523,6 +4954,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "13/08/2019",
           "dias": 2556,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4532,6 +4964,7 @@ const INATIVOS_DATA = {
           "cidade": "GUARULHOS",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4541,6 +4974,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "27/11/2015",
           "dias": 3911,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4550,6 +4984,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "26/01/2016",
           "dias": 3851,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4559,6 +4994,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "04/12/2024",
           "dias": 616,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4568,6 +5004,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "21/02/2018",
           "dias": 3094,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4577,6 +5014,7 @@ const INATIVOS_DATA = {
           "cidade": "QUEIMADOS",
           "dtultcomp": "15/05/2014",
           "dias": 4472,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4586,6 +5024,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO CAETANO DO SUL",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4595,6 +5034,7 @@ const INATIVOS_DATA = {
           "cidade": "CAMPINAS",
           "dtultcomp": "21/04/2026",
           "dias": 113,
+          "rca_bloqueio": "N",
           "media": 2628.8
         },
         {
@@ -4604,6 +5044,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4613,6 +5054,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "30/06/2023",
           "dias": 1139,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4622,6 +5064,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "18/02/2014",
           "dias": 4558,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4631,6 +5074,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "28/10/2015",
           "dias": 3941,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4640,6 +5084,7 @@ const INATIVOS_DATA = {
           "cidade": "BARUERI",
           "dtultcomp": "07/04/2025",
           "dias": 492,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4649,6 +5094,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "07/04/2025",
           "dias": 492,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4658,6 +5104,7 @@ const INATIVOS_DATA = {
           "cidade": "BARUERI",
           "dtultcomp": "07/04/2025",
           "dias": 492,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4667,6 +5114,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "07/04/2025",
           "dias": 492,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4676,6 +5124,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "07/04/2025",
           "dias": 492,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4685,6 +5134,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4694,6 +5144,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "07/06/2016",
           "dias": 3718,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4703,6 +5154,7 @@ const INATIVOS_DATA = {
           "cidade": "CARAPICUIBA",
           "dtultcomp": "26/07/2024",
           "dias": 747,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4712,6 +5164,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/04/2020",
           "dias": 2296,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4721,6 +5174,7 @@ const INATIVOS_DATA = {
           "cidade": "DUQUE DE CAXIAS",
           "dtultcomp": "20/05/2015",
           "dias": 4102,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4730,6 +5184,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "14/03/2014",
           "dias": 4534,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4739,6 +5194,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "09/05/2014",
           "dias": 4478,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4748,6 +5204,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO BERNARDO DO CAMPO",
           "dtultcomp": "16/04/2026",
           "dias": 118,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4757,6 +5214,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4766,6 +5224,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "05/03/2018",
           "dias": 3082,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4775,6 +5234,7 @@ const INATIVOS_DATA = {
           "cidade": "DUQUE DE CAXIAS",
           "dtultcomp": "30/07/2018",
           "dias": 2935,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4784,6 +5244,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "09/05/2014",
           "dias": 4478,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4793,6 +5254,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "05/12/2018",
           "dias": 2807,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4802,6 +5264,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "17/06/2025",
           "dias": 421,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4811,6 +5274,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "14/05/2019",
           "dias": 2647,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4820,6 +5284,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "21/02/2014",
           "dias": 4555,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4829,6 +5294,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "14/05/2014",
           "dias": 4473,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4838,6 +5304,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4847,6 +5314,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/03/2019",
           "dias": 2711,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4856,6 +5324,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "05/10/2015",
           "dias": 3964,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4865,6 +5334,7 @@ const INATIVOS_DATA = {
           "cidade": "JARINU",
           "dtultcomp": "09/03/2026",
           "dias": 156,
+          "rca_bloqueio": "N",
           "media": 207.2
         },
         {
@@ -4874,6 +5344,7 @@ const INATIVOS_DATA = {
           "cidade": "JARINU",
           "dtultcomp": "12/03/2026",
           "dias": 153,
+          "rca_bloqueio": "N",
           "media": 207.2
         },
         {
@@ -4883,6 +5354,7 @@ const INATIVOS_DATA = {
           "cidade": "SAQUAREMA",
           "dtultcomp": "25/06/2015",
           "dias": 4066,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4892,6 +5364,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "26/01/2016",
           "dias": 3851,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4901,6 +5374,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "21/02/2014",
           "dias": 4555,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4910,6 +5384,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4919,6 +5394,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/07/2015",
           "dias": 4031,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4928,6 +5404,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "05/11/2015",
           "dias": 3933,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4937,6 +5414,7 @@ const INATIVOS_DATA = {
           "cidade": "NITEROI",
           "dtultcomp": "15/03/2019",
           "dias": 2707,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4946,6 +5424,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "04/04/2016",
           "dias": 3782,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4955,6 +5434,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/07/2020",
           "dias": 2204,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4964,6 +5444,7 @@ const INATIVOS_DATA = {
           "cidade": "NITEROI",
           "dtultcomp": "28/10/2020",
           "dias": 2114,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4973,6 +5454,7 @@ const INATIVOS_DATA = {
           "cidade": "INDAIATUBA",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4982,6 +5464,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "04/04/2016",
           "dias": 3782,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -4991,6 +5474,7 @@ const INATIVOS_DATA = {
           "cidade": "NOVA IGUACU",
           "dtultcomp": "05/04/2016",
           "dias": 3781,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5000,6 +5484,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "28/10/2019",
           "dias": 2480,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5009,6 +5494,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "25/03/2020",
           "dias": 2331,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5018,6 +5504,7 @@ const INATIVOS_DATA = {
           "cidade": "NITEROI",
           "dtultcomp": "25/03/2020",
           "dias": 2331,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5027,6 +5514,7 @@ const INATIVOS_DATA = {
           "cidade": "NITEROI",
           "dtultcomp": "25/03/2020",
           "dias": 2331,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5036,6 +5524,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/07/2020",
           "dias": 2205,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5045,6 +5534,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/11/2015",
           "dias": 3908,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5054,6 +5544,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "20/08/2018",
           "dias": 2914,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5063,6 +5554,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/08/2019",
           "dias": 2539,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5072,6 +5564,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/06/2019",
           "dias": 2601,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5081,6 +5574,7 @@ const INATIVOS_DATA = {
           "cidade": "PARATI",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5090,6 +5584,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "20/12/2018",
           "dias": 2792,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5099,6 +5594,7 @@ const INATIVOS_DATA = {
           "cidade": "ITABORAI",
           "dtultcomp": "07/01/2019",
           "dias": 2774,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5108,6 +5604,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO JOAO DE MER",
           "dtultcomp": "13/07/2016",
           "dias": 3682,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5117,6 +5614,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "14/07/2023",
           "dias": 1125,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5126,6 +5624,7 @@ const INATIVOS_DATA = {
           "cidade": "BARUERI",
           "dtultcomp": "13/10/2023",
           "dias": 1034,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5135,6 +5634,7 @@ const INATIVOS_DATA = {
           "cidade": "CARAPICUIBA",
           "dtultcomp": "20/09/2023",
           "dias": 1057,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5144,6 +5644,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "13/09/2023",
           "dias": 1064,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5153,6 +5654,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "21/02/2024",
           "dias": 903,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5162,6 +5664,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "06/08/2020",
           "dias": 2197,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5171,6 +5674,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "06/07/2015",
           "dias": 4055,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5180,6 +5684,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "31/03/2026",
           "dias": 134,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5189,6 +5694,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "14/09/2016",
           "dias": 3619,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5198,6 +5704,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "14/05/2015",
           "dias": 4108,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5207,6 +5714,7 @@ const INATIVOS_DATA = {
           "cidade": "DUQUE DE CAXIAS",
           "dtultcomp": "14/06/2016",
           "dias": 3711,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5216,6 +5724,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "25/06/2016",
           "dias": 3700,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5225,6 +5734,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5234,6 +5744,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "25/06/2016",
           "dias": 3700,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5243,6 +5754,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5252,6 +5764,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "14/06/2016",
           "dias": 3711,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5261,6 +5774,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "27/12/2018",
           "dias": 2785,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5270,6 +5784,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "25/06/2016",
           "dias": 3700,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5279,6 +5794,7 @@ const INATIVOS_DATA = {
           "cidade": "PIRACICABA",
           "dtultcomp": "18/10/2024",
           "dias": 663,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5288,6 +5804,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "15/03/2018",
           "dias": 3072,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5297,6 +5814,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "01/06/2017",
           "dias": 3359,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5306,6 +5824,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "14/04/2016",
           "dias": 3772,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5315,6 +5834,7 @@ const INATIVOS_DATA = {
           "cidade": "ALEGRE",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5324,6 +5844,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "02/02/2016",
           "dias": 3844,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5333,6 +5854,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "23/07/2020",
           "dias": 2211,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5342,6 +5864,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "13/07/2021",
           "dias": 1856,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5351,6 +5874,7 @@ const INATIVOS_DATA = {
           "cidade": "VALINHOS",
           "dtultcomp": "16/05/2022",
           "dias": 1549,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5360,6 +5884,7 @@ const INATIVOS_DATA = {
           "cidade": "VITORIA",
           "dtultcomp": "12/06/2018",
           "dias": 2983,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5369,6 +5894,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "14/07/2021",
           "dias": 1855,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5378,6 +5904,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/06/2019",
           "dias": 2601,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5387,6 +5914,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "01/06/2015",
           "dias": 4090,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5396,6 +5924,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "10/10/2022",
           "dias": 1402,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5405,6 +5934,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "23/01/2026",
           "dias": 201,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5414,6 +5944,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5423,6 +5954,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "28/12/2021",
           "dias": 1688,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5432,6 +5964,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/04/2018",
           "dias": 3026,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5441,6 +5974,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "16/03/2023",
           "dias": 1245,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5450,6 +5984,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "26/11/2025",
           "dias": 259,
+          "rca_bloqueio": "N",
           "media": 0.0
         }
       ],
@@ -5477,6 +6012,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "S",
           "media": 0.0
         },
         {
@@ -5486,6 +6022,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "23/05/2025",
           "dias": 446,
+          "rca_bloqueio": "S",
           "media": 0.0
         },
         {
@@ -5495,6 +6032,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "26/06/2025",
           "dias": 412,
+          "rca_bloqueio": "S",
           "media": 517.9
         },
         {
@@ -5504,6 +6042,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "06/05/2025",
           "dias": 463,
+          "rca_bloqueio": "S",
           "media": 312.85
         },
         {
@@ -5513,6 +6052,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "27/06/2025",
           "dias": 411,
+          "rca_bloqueio": "S",
           "media": 0.0
         },
         {
@@ -5522,6 +6062,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "S",
           "media": 0.0
         },
         {
@@ -5531,6 +6072,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "S",
           "media": 0.0
         }
       ],
@@ -5548,6 +6090,7 @@ const INATIVOS_DATA = {
           "cidade": "NITEROI",
           "dtultcomp": "11/04/2026",
           "dias": 123,
+          "rca_bloqueio": "N",
           "media": 845.96
         }
       ],
@@ -5575,6 +6118,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/09/2024",
           "dias": 700,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5584,6 +6128,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "27/02/2026",
           "dias": 166,
+          "rca_bloqueio": "N",
           "media": 68.23
         },
         {
@@ -5593,6 +6138,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "14/04/2023",
           "dias": 1216,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5602,6 +6148,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "28/04/2026",
           "dias": 106,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5611,6 +6158,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "09/06/2025",
           "dias": 429,
+          "rca_bloqueio": "N",
           "media": 958.13
         },
         {
@@ -5620,6 +6168,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "17/10/2025",
           "dias": 299,
+          "rca_bloqueio": "N",
           "media": 197.44
         },
         {
@@ -5629,6 +6178,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/12/2025",
           "dias": 244,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5638,6 +6188,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/12/2025",
           "dias": 225,
+          "rca_bloqueio": "N",
           "media": 0.0
         }
       ],
@@ -5900,6 +6451,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/03/2026",
           "dias": 135,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -5909,6 +6461,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/12/2025",
           "dias": 225,
+          "rca_bloqueio": "N",
           "media": 15.04
         }
       ],
@@ -6009,6 +6562,7 @@ const INATIVOS_DATA = {
           "cidade": "CABO FRIO",
           "dtultcomp": "27/04/2026",
           "dias": 107,
+          "rca_bloqueio": "N",
           "media": 819.96
         },
         {
@@ -6018,6 +6572,7 @@ const INATIVOS_DATA = {
           "cidade": "CABO FRIO",
           "dtultcomp": "03/03/2026",
           "dias": 162,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -6027,6 +6582,7 @@ const INATIVOS_DATA = {
           "cidade": "MACAE",
           "dtultcomp": "06/04/2026",
           "dias": 128,
+          "rca_bloqueio": "N",
           "media": 2904.5
         }
       ],
@@ -6388,6 +6944,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "29/01/2025",
           "dias": 560,
+          "rca_bloqueio": "S",
           "media": 0.0
         },
         {
@@ -6397,6 +6954,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "09/05/2025",
           "dias": 460,
+          "rca_bloqueio": "S",
           "media": 57.37
         },
         {
@@ -6406,6 +6964,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "10/12/2024",
           "dias": 610,
+          "rca_bloqueio": "S",
           "media": 0.0
         },
         {
@@ -6415,6 +6974,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "S",
           "media": 0.0
         },
         {
@@ -6424,6 +6984,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "26/12/2025",
           "dias": 229,
+          "rca_bloqueio": "S",
           "media": 0.0
         },
         {
@@ -6433,6 +6994,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "06/10/2025",
           "dias": 310,
+          "rca_bloqueio": "S",
           "media": 0.0
         },
         {
@@ -6442,6 +7004,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "15/03/2023",
           "dias": 1246,
+          "rca_bloqueio": "S",
           "media": 0.0
         }
       ],
@@ -6459,6 +7022,7 @@ const INATIVOS_DATA = {
           "cidade": "NILOPOLIS",
           "dtultcomp": "24/04/2026",
           "dias": 110,
+          "rca_bloqueio": "N",
           "media": 62.6
         },
         {
@@ -6468,6 +7032,7 @@ const INATIVOS_DATA = {
           "cidade": "NOVA IGUACU",
           "dtultcomp": "05/12/2025",
           "dias": 250,
+          "rca_bloqueio": "N",
           "media": 0.0
         }
       ],
@@ -6793,6 +7358,7 @@ const INATIVOS_DATA = {
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -6802,6 +7368,7 @@ const INATIVOS_DATA = {
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "20/05/2025",
           "dias": 449,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -6811,6 +7378,7 @@ const INATIVOS_DATA = {
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -6820,6 +7388,7 @@ const INATIVOS_DATA = {
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -6829,6 +7398,7 @@ const INATIVOS_DATA = {
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "11/05/2026",
           "dias": 93,
+          "rca_bloqueio": "N",
           "media": 101.36
         },
         {
@@ -6838,6 +7408,7 @@ const INATIVOS_DATA = {
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "31/03/2026",
           "dias": 134,
+          "rca_bloqueio": "N",
           "media": 38.67
         },
         {
@@ -6847,6 +7418,7 @@ const INATIVOS_DATA = {
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "20/05/2025",
           "dias": 449,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -6856,6 +7428,7 @@ const INATIVOS_DATA = {
           "cidade": "CACHOEIRO DE IT",
           "dtultcomp": "11/05/2026",
           "dias": 93,
+          "rca_bloqueio": "N",
           "media": 215.98
         }
       ],
@@ -7072,6 +7645,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7081,6 +7655,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "27/01/2025",
           "dias": 562,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7090,6 +7665,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "22/11/2021",
           "dias": 1724,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7099,6 +7675,7 @@ const INATIVOS_DATA = {
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7108,6 +7685,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "23/05/2023",
           "dias": 1177,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7117,6 +7695,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/09/2024",
           "dias": 700,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7126,6 +7705,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7135,6 +7715,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7144,6 +7725,7 @@ const INATIVOS_DATA = {
           "cidade": "ARARUAMA",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7153,6 +7735,7 @@ const INATIVOS_DATA = {
           "cidade": "NITEROI",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7162,6 +7745,7 @@ const INATIVOS_DATA = {
           "cidade": "DUQUE DE CAXIAS",
           "dtultcomp": "30/07/2024",
           "dias": 743,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7171,6 +7755,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7180,6 +7765,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7189,6 +7775,7 @@ const INATIVOS_DATA = {
           "cidade": "ARARUAMA",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7198,6 +7785,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PEDRO DA AL",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7207,6 +7795,7 @@ const INATIVOS_DATA = {
           "cidade": "NITEROI",
           "dtultcomp": "10/02/2025",
           "dias": 548,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7216,6 +7805,7 @@ const INATIVOS_DATA = {
           "cidade": "DUQUE DE CAXIAS",
           "dtultcomp": "29/12/2025",
           "dias": 226,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7225,6 +7815,7 @@ const INATIVOS_DATA = {
           "cidade": "ARARUAMA",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7234,6 +7825,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7243,6 +7835,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7252,6 +7845,7 @@ const INATIVOS_DATA = {
           "cidade": "NITEROI",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7261,6 +7855,7 @@ const INATIVOS_DATA = {
           "cidade": "NITEROI",
           "dtultcomp": "15/03/2024",
           "dias": 880,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7270,6 +7865,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7279,6 +7875,7 @@ const INATIVOS_DATA = {
           "cidade": "SAQUAREMA",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7288,6 +7885,7 @@ const INATIVOS_DATA = {
           "cidade": "ARARUAMA",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7297,6 +7895,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7306,6 +7905,7 @@ const INATIVOS_DATA = {
           "cidade": "NITEROI",
           "dtultcomp": "10/12/2025",
           "dias": 245,
+          "rca_bloqueio": "N",
           "media": 521.17
         },
         {
@@ -7315,6 +7915,7 @@ const INATIVOS_DATA = {
           "cidade": "SAQUAREMA",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7324,6 +7925,7 @@ const INATIVOS_DATA = {
           "cidade": "SILVA JARDIM",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7333,6 +7935,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7342,6 +7945,7 @@ const INATIVOS_DATA = {
           "cidade": "ARARUAMA",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7351,6 +7955,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7360,6 +7965,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7369,6 +7975,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7378,6 +7985,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7387,6 +7995,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "28/03/2023",
           "dias": 1233,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7396,6 +8005,7 @@ const INATIVOS_DATA = {
           "cidade": "NITEROI",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7405,6 +8015,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7414,6 +8025,7 @@ const INATIVOS_DATA = {
           "cidade": "CABO FRIO",
           "dtultcomp": "20/12/2022",
           "dias": 1331,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7423,6 +8035,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7432,6 +8045,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO GONCALO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7441,6 +8055,7 @@ const INATIVOS_DATA = {
           "cidade": "NITEROI",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7450,6 +8065,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7459,6 +8075,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7468,6 +8085,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7477,6 +8095,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "05/11/2024",
           "dias": 645,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7486,6 +8105,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7495,6 +8115,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "08/05/2024",
           "dias": 826,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7504,6 +8125,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7513,6 +8135,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/08/2022",
           "dias": 1462,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7522,6 +8145,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "30/03/2023",
           "dias": 1231,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7531,6 +8155,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7540,6 +8165,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "03/10/2024",
           "dias": 678,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7549,6 +8175,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "13/06/2023",
           "dias": 1156,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7558,6 +8185,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7567,6 +8195,7 @@ const INATIVOS_DATA = {
           "cidade": "NITEROI",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7576,6 +8205,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7585,6 +8215,7 @@ const INATIVOS_DATA = {
           "cidade": "NITEROI",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7594,6 +8225,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO GONCALO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7603,6 +8235,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7612,6 +8245,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7621,6 +8255,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "08/08/2025",
           "dias": 369,
+          "rca_bloqueio": "N",
           "media": 198.53
         },
         {
@@ -7630,6 +8265,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7639,6 +8275,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "15/06/2023",
           "dias": 1154,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7648,6 +8285,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7657,6 +8295,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7666,6 +8305,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "19/12/2023",
           "dias": 967,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7675,6 +8315,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7684,6 +8325,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7693,6 +8335,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7702,6 +8345,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7711,6 +8355,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7720,6 +8365,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7729,6 +8375,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7738,6 +8385,7 @@ const INATIVOS_DATA = {
           "cidade": "NITEROI",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7747,6 +8395,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7756,6 +8405,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7765,6 +8415,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7774,6 +8425,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "08/07/2021",
           "dias": 1861,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7783,6 +8435,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7792,6 +8445,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7801,6 +8455,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7810,6 +8465,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO GONCALO",
           "dtultcomp": "16/12/2022",
           "dias": 1335,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7819,6 +8475,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7828,6 +8485,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "10/10/2022",
           "dias": 1402,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7837,6 +8495,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7846,6 +8505,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7855,6 +8515,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7864,6 +8525,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "04/11/2021",
           "dias": 1742,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7873,6 +8535,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "15/07/2022",
           "dias": 1489,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7882,6 +8545,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "03/01/2023",
           "dias": 1317,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7891,6 +8555,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "01/12/2020",
           "dias": 2080,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7900,6 +8565,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7909,6 +8575,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7918,6 +8585,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "22/02/2024",
           "dias": 902,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7927,6 +8595,7 @@ const INATIVOS_DATA = {
           "cidade": "NITEROI",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7936,6 +8605,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7945,6 +8615,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7954,6 +8625,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -7963,6 +8635,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         }
       ],
@@ -8396,6 +9069,7 @@ const INATIVOS_DATA = {
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "10/03/2026",
           "dias": 155,
+          "rca_bloqueio": "N",
           "media": 907.4
         },
         {
@@ -8405,6 +9079,7 @@ const INATIVOS_DATA = {
           "cidade": "ANGRA DOS REIS",
           "dtultcomp": "10/03/2026",
           "dias": 155,
+          "rca_bloqueio": "N",
           "media": 139.6
         }
       ],
@@ -8640,6 +9315,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "28/12/2020",
           "dias": 2053,
+          "rca_bloqueio": "S",
           "media": 0.0
         },
         {
@@ -8649,6 +9325,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "03/02/2024",
           "dias": 921,
+          "rca_bloqueio": "S",
           "media": 0.0
         }
       ],
@@ -8666,6 +9343,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "15/08/2025",
           "dias": 362,
+          "rca_bloqueio": "N",
           "media": 0.0
         }
       ],
@@ -8774,6 +9452,7 @@ const INATIVOS_DATA = {
           "cidade": "CABO FRIO",
           "dtultcomp": "15/07/2025",
           "dias": 393,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -8783,6 +9462,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "13/03/2026",
           "dias": 152,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -8792,6 +9472,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "29/01/2026",
           "dias": 195,
+          "rca_bloqueio": "N",
           "media": 4247.62
         },
         {
@@ -8801,6 +9482,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "15/12/2025",
           "dias": 240,
+          "rca_bloqueio": "N",
           "media": 597.52
         },
         {
@@ -8810,6 +9492,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "19/11/2025",
           "dias": 266,
+          "rca_bloqueio": "N",
           "media": 591.27
         },
         {
@@ -8819,6 +9502,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": "13/01/2026",
           "dias": 211,
+          "rca_bloqueio": "N",
           "media": 220.03
         },
         {
@@ -8828,6 +9512,7 @@ const INATIVOS_DATA = {
           "cidade": "ARMACAO DOS BUZ",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         }
       ],
@@ -9135,6 +9820,7 @@ const INATIVOS_DATA = {
           "cidade": "CANELA",
           "dtultcomp": "28/12/2023",
           "dias": 958,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9144,6 +9830,7 @@ const INATIVOS_DATA = {
           "cidade": "MARINGA",
           "dtultcomp": "12/12/2025",
           "dias": 243,
+          "rca_bloqueio": "N",
           "media": 529.91
         },
         {
@@ -9153,6 +9840,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "12/09/2025",
           "dias": 334,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9162,6 +9850,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "16/10/2025",
           "dias": 300,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9171,6 +9860,7 @@ const INATIVOS_DATA = {
           "cidade": "FLORIANOPOLIS",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9180,6 +9870,7 @@ const INATIVOS_DATA = {
           "cidade": "NATAL",
           "dtultcomp": "31/10/2025",
           "dias": 285,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9189,6 +9880,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "21/11/2025",
           "dias": 264,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9198,6 +9890,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "16/10/2025",
           "dias": 300,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9207,6 +9900,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9216,6 +9910,7 @@ const INATIVOS_DATA = {
           "cidade": "PINHAIS",
           "dtultcomp": "15/12/2025",
           "dias": 240,
+          "rca_bloqueio": "N",
           "media": 740.0
         },
         {
@@ -9225,6 +9920,7 @@ const INATIVOS_DATA = {
           "cidade": "MARINGA",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9234,6 +9930,7 @@ const INATIVOS_DATA = {
           "cidade": "NATAL",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9243,6 +9940,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "16/10/2025",
           "dias": 300,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9252,6 +9950,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "13/11/2025",
           "dias": 272,
+          "rca_bloqueio": "N",
           "media": 464.67
         },
         {
@@ -9261,6 +9960,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "25/11/2025",
           "dias": 260,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9270,6 +9970,7 @@ const INATIVOS_DATA = {
           "cidade": "TERESOPOLIS",
           "dtultcomp": "13/01/2021",
           "dias": 2037,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9279,6 +9980,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "11/02/2022",
           "dias": 1643,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9288,6 +9990,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "18/11/2025",
           "dias": 267,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9297,6 +10000,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "18/03/2026",
           "dias": 147,
+          "rca_bloqueio": "N",
           "media": 20742.53
         },
         {
@@ -9306,6 +10010,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9315,6 +10020,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9324,6 +10030,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "15/12/2025",
           "dias": 240,
+          "rca_bloqueio": "N",
           "media": 104.0
         },
         {
@@ -9333,6 +10040,7 @@ const INATIVOS_DATA = {
           "cidade": "FLORIANOPOLIS",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9342,6 +10050,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "28/11/2025",
           "dias": 257,
+          "rca_bloqueio": "N",
           "media": 1700.0
         },
         {
@@ -9351,6 +10060,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "03/12/2020",
           "dias": 2078,
+          "rca_bloqueio": "S",
           "media": 0.0
         },
         {
@@ -9360,6 +10070,7 @@ const INATIVOS_DATA = {
           "cidade": "PORTO ALEGRE",
           "dtultcomp": "26/01/2026",
           "dias": 198,
+          "rca_bloqueio": "N",
           "media": 1318.0
         },
         {
@@ -9369,6 +10080,7 @@ const INATIVOS_DATA = {
           "cidade": "ITAJAI",
           "dtultcomp": "01/12/2025",
           "dias": 254,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9378,6 +10090,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "17/02/2023",
           "dias": 1272,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9387,6 +10100,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "13/11/2025",
           "dias": 272,
+          "rca_bloqueio": "N",
           "media": 90.0
         },
         {
@@ -9396,6 +10110,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "14/11/2025",
           "dias": 271,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9405,6 +10120,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "13/11/2025",
           "dias": 272,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9414,6 +10130,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "17/12/2025",
           "dias": 238,
+          "rca_bloqueio": "N",
           "media": 270.0
         },
         {
@@ -9423,6 +10140,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "24/03/2023",
           "dias": 1237,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9432,6 +10150,7 @@ const INATIVOS_DATA = {
           "cidade": "ITAJAI",
           "dtultcomp": "28/10/2025",
           "dias": 288,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9441,6 +10160,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "29/10/2025",
           "dias": 287,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9450,6 +10170,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "06/04/2026",
           "dias": 128,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9459,6 +10180,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "17/12/2025",
           "dias": 238,
+          "rca_bloqueio": "N",
           "media": 320.0
         },
         {
@@ -9468,6 +10190,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "21/03/2025",
           "dias": 509,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9477,6 +10200,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "26/07/2025",
           "dias": 382,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9486,6 +10210,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "16/10/2025",
           "dias": 300,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9495,6 +10220,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "28/10/2024",
           "dias": 653,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9504,6 +10230,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "13/11/2025",
           "dias": 272,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9513,6 +10240,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "06/03/2023",
           "dias": 1255,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9522,6 +10250,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9531,6 +10260,7 @@ const INATIVOS_DATA = {
           "cidade": "ITAJAI",
           "dtultcomp": "27/04/2023",
           "dias": 1203,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9540,6 +10270,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "31/07/2023",
           "dias": 1108,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9549,6 +10280,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "16/10/2025",
           "dias": 300,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9558,6 +10290,7 @@ const INATIVOS_DATA = {
           "cidade": "PORTO ALEGRE",
           "dtultcomp": "02/05/2024",
           "dias": 832,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9567,6 +10300,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9576,6 +10310,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "19/12/2025",
           "dias": 236,
+          "rca_bloqueio": "N",
           "media": 2058.0
         },
         {
@@ -9585,6 +10320,7 @@ const INATIVOS_DATA = {
           "cidade": "PORTO ALEGRE",
           "dtultcomp": "02/01/2024",
           "dias": 953,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9594,6 +10330,7 @@ const INATIVOS_DATA = {
           "cidade": "PORTO ALEGRE",
           "dtultcomp": "13/03/2024",
           "dias": 882,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9603,6 +10340,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "29/10/2025",
           "dias": 287,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9612,6 +10350,7 @@ const INATIVOS_DATA = {
           "cidade": "BALNEARIO CAMBO",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9621,6 +10360,7 @@ const INATIVOS_DATA = {
           "cidade": "MANGARATIBA",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9630,6 +10370,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "13/11/2025",
           "dias": 272,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9639,6 +10380,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "03/12/2025",
           "dias": 252,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9648,6 +10390,7 @@ const INATIVOS_DATA = {
           "cidade": "MARINGA",
           "dtultcomp": "21/09/2022",
           "dias": 1421,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9657,6 +10400,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "21/11/2025",
           "dias": 264,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9666,6 +10410,7 @@ const INATIVOS_DATA = {
           "cidade": "FLORIANOPOLIS",
           "dtultcomp": "02/12/2024",
           "dias": 618,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9675,6 +10420,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9684,6 +10430,7 @@ const INATIVOS_DATA = {
           "cidade": "FLORIANOPOLIS",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9693,6 +10440,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "05/12/2025",
           "dias": 250,
+          "rca_bloqueio": "N",
           "media": 1195.7
         },
         {
@@ -9702,6 +10450,7 @@ const INATIVOS_DATA = {
           "cidade": "MARICA",
           "dtultcomp": "01/11/2024",
           "dias": 649,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9711,6 +10460,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "13/11/2025",
           "dias": 272,
+          "rca_bloqueio": "N",
           "media": 2120.0
         },
         {
@@ -9720,6 +10470,7 @@ const INATIVOS_DATA = {
           "cidade": "MARINGA",
           "dtultcomp": "06/04/2024",
           "dias": 858,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9729,6 +10480,7 @@ const INATIVOS_DATA = {
           "cidade": "MARINGA",
           "dtultcomp": "06/04/2024",
           "dias": 858,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9738,6 +10490,7 @@ const INATIVOS_DATA = {
           "cidade": "MARINGA",
           "dtultcomp": "06/04/2024",
           "dias": 858,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9747,6 +10500,7 @@ const INATIVOS_DATA = {
           "cidade": "SERRA",
           "dtultcomp": "16/12/2025",
           "dias": 239,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9756,6 +10510,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "15/12/2025",
           "dias": 240,
+          "rca_bloqueio": "N",
           "media": 553.2
         },
         {
@@ -9765,6 +10520,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "21/05/2021",
           "dias": 1909,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9774,6 +10530,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "28/01/2026",
           "dias": 196,
+          "rca_bloqueio": "N",
           "media": 1610.88
         },
         {
@@ -9783,6 +10540,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "18/11/2025",
           "dias": 267,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9792,6 +10550,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "17/12/2025",
           "dias": 238,
+          "rca_bloqueio": "N",
           "media": 291.6
         },
         {
@@ -9801,6 +10560,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "20/05/2021",
           "dias": 1910,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9810,6 +10570,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "07/12/2020",
           "dias": 2074,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9819,6 +10580,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "13/11/2025",
           "dias": 272,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9828,6 +10590,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "16/10/2025",
           "dias": 300,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9837,6 +10600,7 @@ const INATIVOS_DATA = {
           "cidade": "PORTO ALEGRE",
           "dtultcomp": "13/08/2024",
           "dias": 729,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9846,6 +10610,7 @@ const INATIVOS_DATA = {
           "cidade": "CANELA",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9855,6 +10620,7 @@ const INATIVOS_DATA = {
           "cidade": "MARINGA",
           "dtultcomp": "10/12/2025",
           "dias": 245,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9864,6 +10630,7 @@ const INATIVOS_DATA = {
           "cidade": "FLORIANOPOLIS",
           "dtultcomp": "06/01/2025",
           "dias": 583,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9873,6 +10640,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "28/11/2024",
           "dias": 622,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9882,6 +10650,7 @@ const INATIVOS_DATA = {
           "cidade": "MARINGA",
           "dtultcomp": "27/03/2023",
           "dias": 1234,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9891,6 +10660,7 @@ const INATIVOS_DATA = {
           "cidade": "FLORIANOPOLIS",
           "dtultcomp": "26/12/2024",
           "dias": 594,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9900,6 +10670,7 @@ const INATIVOS_DATA = {
           "cidade": "GUARULHOS",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9909,6 +10680,7 @@ const INATIVOS_DATA = {
           "cidade": "PORTO ALEGRE",
           "dtultcomp": "12/06/2025",
           "dias": 426,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9918,6 +10690,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "31/03/2026",
           "dias": 134,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9927,6 +10700,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "28/11/2024",
           "dias": 622,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9936,6 +10710,7 @@ const INATIVOS_DATA = {
           "cidade": "ITAJAI",
           "dtultcomp": "05/01/2023",
           "dias": 1315,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9945,6 +10720,7 @@ const INATIVOS_DATA = {
           "cidade": "PORTO ALEGRE",
           "dtultcomp": "18/08/2023",
           "dias": 1090,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9954,6 +10730,7 @@ const INATIVOS_DATA = {
           "cidade": "PORTO ALEGRE",
           "dtultcomp": "25/01/2024",
           "dias": 930,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9963,6 +10740,7 @@ const INATIVOS_DATA = {
           "cidade": "MARINGA",
           "dtultcomp": "07/11/2022",
           "dias": 1374,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9972,6 +10750,7 @@ const INATIVOS_DATA = {
           "cidade": "GRAMADO",
           "dtultcomp": "11/07/2022",
           "dias": 1493,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9981,6 +10760,7 @@ const INATIVOS_DATA = {
           "cidade": "FLORIANOPOLIS",
           "dtultcomp": "07/01/2025",
           "dias": 582,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9990,6 +10770,7 @@ const INATIVOS_DATA = {
           "cidade": "MARINGA",
           "dtultcomp": "30/11/2023",
           "dias": 986,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -9999,6 +10780,7 @@ const INATIVOS_DATA = {
           "cidade": "MARINGA",
           "dtultcomp": "17/10/2023",
           "dias": 1030,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -10008,6 +10790,7 @@ const INATIVOS_DATA = {
           "cidade": "MARINGA",
           "dtultcomp": "17/10/2023",
           "dias": 1030,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -10017,6 +10800,7 @@ const INATIVOS_DATA = {
           "cidade": "CURITIBA",
           "dtultcomp": "18/02/2025",
           "dias": 540,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -10026,6 +10810,7 @@ const INATIVOS_DATA = {
           "cidade": "PORTO ALEGRE",
           "dtultcomp": "09/06/2022",
           "dias": 1525,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -10035,6 +10820,7 @@ const INATIVOS_DATA = {
           "cidade": "PORTO ALEGRE",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         }
       ],
@@ -10062,6 +10848,7 @@ const INATIVOS_DATA = {
           "cidade": "CASIMIRO DE ABR",
           "dtultcomp": "26/11/2025",
           "dias": 259,
+          "rca_bloqueio": "N",
           "media": 89.67
         },
         {
@@ -10071,6 +10858,7 @@ const INATIVOS_DATA = {
           "cidade": "RIO DAS OSTRAS",
           "dtultcomp": "11/11/2025",
           "dias": 274,
+          "rca_bloqueio": "N",
           "media": 7246.08
         }
       ],
@@ -12742,6 +13530,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "12/06/2025",
           "dias": 426,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -12751,6 +13540,7 @@ const INATIVOS_DATA = {
           "cidade": "VARZEA PAULISTA",
           "dtultcomp": "13/04/2026",
           "dias": 121,
+          "rca_bloqueio": "N",
           "media": 514.8
         },
         {
@@ -12760,6 +13550,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "08/05/2026",
           "dias": 96,
+          "rca_bloqueio": "N",
           "media": 12525.32
         },
         {
@@ -12769,6 +13560,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "23/01/2026",
           "dias": 201,
+          "rca_bloqueio": "N",
           "media": 1357.0
         }
       ],
@@ -12949,6 +13741,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "09/04/2026",
           "dias": 125,
+          "rca_bloqueio": "N",
           "media": 6463.6
         },
         {
@@ -12958,6 +13751,7 @@ const INATIVOS_DATA = {
           "cidade": "PAULINIA",
           "dtultcomp": "20/01/2026",
           "dias": 204,
+          "rca_bloqueio": "N",
           "media": 3826.0
         },
         {
@@ -12967,6 +13761,7 @@ const INATIVOS_DATA = {
           "cidade": "JUNDIAI",
           "dtultcomp": "28/10/2021",
           "dias": 1749,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -12976,6 +13771,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "16/03/2026",
           "dias": 149,
+          "rca_bloqueio": "N",
           "media": 6803.1
         },
         {
@@ -12985,6 +13781,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "16/03/2026",
           "dias": 149,
+          "rca_bloqueio": "N",
           "media": 4472.0
         },
         {
@@ -12994,6 +13791,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "16/12/2024",
           "dias": 604,
+          "rca_bloqueio": "N",
           "media": 0.0
         }
       ],
@@ -18668,6 +19466,7 @@ const INATIVOS_DATA = {
           "cidade": "VARGINHA",
           "dtultcomp": "29/06/2023",
           "dias": 1140,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -18677,6 +19476,7 @@ const INATIVOS_DATA = {
           "cidade": "CONSELHEIRO LAFAIETE",
           "dtultcomp": "30/01/2026",
           "dias": 194,
+          "rca_bloqueio": "N",
           "media": 622.4
         },
         {
@@ -18686,6 +19486,7 @@ const INATIVOS_DATA = {
           "cidade": "CONSELHEIRO LAFAIETE",
           "dtultcomp": "28/04/2026",
           "dias": 106,
+          "rca_bloqueio": "N",
           "media": 139.8
         },
         {
@@ -18695,6 +19496,7 @@ const INATIVOS_DATA = {
           "cidade": "CONSELHEIRO LAFAIETE",
           "dtultcomp": "28/04/2026",
           "dias": 106,
+          "rca_bloqueio": "N",
           "media": 264.0
         },
         {
@@ -18704,6 +19506,7 @@ const INATIVOS_DATA = {
           "cidade": "BRUMADINHO",
           "dtultcomp": "25/01/2024",
           "dias": 930,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -18713,6 +19516,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "27/10/2025",
           "dias": 289,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -18722,6 +19526,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -18731,6 +19536,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "10/03/2025",
           "dias": 520,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -18740,6 +19546,7 @@ const INATIVOS_DATA = {
           "cidade": "BETIM",
           "dtultcomp": "29/04/2026",
           "dias": 105,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -18749,6 +19556,7 @@ const INATIVOS_DATA = {
           "cidade": "CONTAGEM",
           "dtultcomp": "15/07/2025",
           "dias": 393,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -18758,6 +19566,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "02/08/2024",
           "dias": 740,
+          "rca_bloqueio": "N",
           "media": 1413.43
         },
         {
@@ -18767,6 +19576,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "10/04/2025",
           "dias": 489,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -18776,6 +19586,7 @@ const INATIVOS_DATA = {
           "cidade": "GOVERNADOR VALADARES",
           "dtultcomp": "12/11/2024",
           "dias": 638,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -18785,6 +19596,7 @@ const INATIVOS_DATA = {
           "cidade": "BETIM",
           "dtultcomp": "26/09/2024",
           "dias": 685,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -18794,6 +19606,7 @@ const INATIVOS_DATA = {
           "cidade": "CONTAGEM",
           "dtultcomp": "26/03/2025",
           "dias": 504,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -18803,6 +19616,7 @@ const INATIVOS_DATA = {
           "cidade": "CONTAGEM",
           "dtultcomp": "10/03/2026",
           "dias": 155,
+          "rca_bloqueio": "N",
           "media": 11404.6
         },
         {
@@ -18812,6 +19626,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "09/04/2026",
           "dias": 125,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -18821,6 +19636,7 @@ const INATIVOS_DATA = {
           "cidade": "BARBACENA",
           "dtultcomp": "22/05/2025",
           "dias": 447,
+          "rca_bloqueio": "N",
           "media": 657.49
         },
         {
@@ -18830,6 +19646,7 @@ const INATIVOS_DATA = {
           "cidade": "CONTAGEM",
           "dtultcomp": "28/10/2025",
           "dias": 288,
+          "rca_bloqueio": "N",
           "media": 12776.2
         },
         {
@@ -18839,6 +19656,7 @@ const INATIVOS_DATA = {
           "cidade": "CONTAGEM",
           "dtultcomp": "20/01/2025",
           "dias": 569,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -18848,6 +19666,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "03/07/2025",
           "dias": 405,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -18857,6 +19676,7 @@ const INATIVOS_DATA = {
           "cidade": "IPATINGA",
           "dtultcomp": "30/08/2024",
           "dias": 712,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -18866,6 +19686,7 @@ const INATIVOS_DATA = {
           "cidade": "IPATINGA",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -18875,6 +19696,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "04/07/2025",
           "dias": 404,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -18884,6 +19706,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "05/01/2022",
           "dias": 1680,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -18893,6 +19716,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "07/02/2024",
           "dias": 917,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -18902,6 +19726,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "12/02/2025",
           "dias": 546,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -18911,6 +19736,7 @@ const INATIVOS_DATA = {
           "cidade": "NOVA LIMA",
           "dtultcomp": "13/06/2022",
           "dias": 1521,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -18920,6 +19746,7 @@ const INATIVOS_DATA = {
           "cidade": "SANTA LUZIA",
           "dtultcomp": "26/07/2024",
           "dias": 747,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -18929,6 +19756,7 @@ const INATIVOS_DATA = {
           "cidade": "LAGOA SANTA",
           "dtultcomp": "02/12/2025",
           "dias": 253,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -18938,6 +19766,7 @@ const INATIVOS_DATA = {
           "cidade": "RIBEIRAO DAS NEVES",
           "dtultcomp": "21/03/2025",
           "dias": 509,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -18947,6 +19776,7 @@ const INATIVOS_DATA = {
           "cidade": "RIBEIRAO DAS NEVES",
           "dtultcomp": "19/09/2024",
           "dias": 692,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -18956,6 +19786,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "20/02/2025",
           "dias": 538,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -18965,6 +19796,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "06/11/2024",
           "dias": 644,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -18974,6 +19806,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "29/01/2026",
           "dias": 195,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -18983,6 +19816,7 @@ const INATIVOS_DATA = {
           "cidade": "SABARA",
           "dtultcomp": "09/12/2024",
           "dias": 611,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -18992,6 +19826,7 @@ const INATIVOS_DATA = {
           "cidade": "JUIZ DE FORA",
           "dtultcomp": "22/10/2025",
           "dias": 294,
+          "rca_bloqueio": "N",
           "media": 1498.0
         },
         {
@@ -19001,6 +19836,7 @@ const INATIVOS_DATA = {
           "cidade": "PARA DE MINAS",
           "dtultcomp": "14/10/2024",
           "dias": 667,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19010,6 +19846,7 @@ const INATIVOS_DATA = {
           "cidade": "CONTAGEM",
           "dtultcomp": "18/02/2025",
           "dias": 540,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19019,6 +19856,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "19/11/2024",
           "dias": 631,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19028,6 +19866,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "27/11/2024",
           "dias": 623,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19037,6 +19876,7 @@ const INATIVOS_DATA = {
           "cidade": "VESPASIANO",
           "dtultcomp": "10/04/2026",
           "dias": 124,
+          "rca_bloqueio": "N",
           "media": 11280.0
         },
         {
@@ -19046,6 +19886,7 @@ const INATIVOS_DATA = {
           "cidade": "RIBEIRAO DAS NEVES",
           "dtultcomp": "15/04/2025",
           "dias": 484,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19055,6 +19896,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "09/12/2024",
           "dias": 611,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19064,6 +19906,7 @@ const INATIVOS_DATA = {
           "cidade": "BETIM",
           "dtultcomp": "07/05/2024",
           "dias": 827,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19073,6 +19916,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "29/01/2026",
           "dias": 195,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19082,6 +19926,7 @@ const INATIVOS_DATA = {
           "cidade": "BETIM",
           "dtultcomp": "13/01/2026",
           "dias": 211,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19091,6 +19936,7 @@ const INATIVOS_DATA = {
           "cidade": "LAGOA SANTA",
           "dtultcomp": "18/03/2026",
           "dias": 147,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19100,6 +19946,7 @@ const INATIVOS_DATA = {
           "cidade": "CONTAGEM",
           "dtultcomp": "09/12/2024",
           "dias": 611,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19109,6 +19956,7 @@ const INATIVOS_DATA = {
           "cidade": "LAGOA SANTA",
           "dtultcomp": "27/01/2025",
           "dias": 562,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19118,6 +19966,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "06/02/2025",
           "dias": 552,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19127,6 +19976,7 @@ const INATIVOS_DATA = {
           "cidade": "BETIM",
           "dtultcomp": "20/01/2025",
           "dias": 569,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19136,6 +19986,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "09/07/2024",
           "dias": 764,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19145,6 +19996,7 @@ const INATIVOS_DATA = {
           "cidade": "NOVA LIMA",
           "dtultcomp": "03/04/2024",
           "dias": 861,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19154,6 +20006,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "07/04/2026",
           "dias": 127,
+          "rca_bloqueio": "N",
           "media": 135.7
         },
         {
@@ -19163,6 +20016,7 @@ const INATIVOS_DATA = {
           "cidade": "LUZ",
           "dtultcomp": "24/04/2024",
           "dias": 840,
+          "rca_bloqueio": "N",
           "media": 367.2
         },
         {
@@ -19172,6 +20026,7 @@ const INATIVOS_DATA = {
           "cidade": "VICOSA",
           "dtultcomp": "12/01/2026",
           "dias": 212,
+          "rca_bloqueio": "N",
           "media": 2807.8
         },
         {
@@ -19181,6 +20036,7 @@ const INATIVOS_DATA = {
           "cidade": "ITABIRITO",
           "dtultcomp": "12/09/2024",
           "dias": 699,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19190,6 +20046,7 @@ const INATIVOS_DATA = {
           "cidade": "ITABIRITO",
           "dtultcomp": "12/09/2024",
           "dias": 699,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19199,6 +20056,7 @@ const INATIVOS_DATA = {
           "cidade": "OURO PRETO",
           "dtultcomp": "12/09/2024",
           "dias": 699,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19208,6 +20066,7 @@ const INATIVOS_DATA = {
           "cidade": "CONGONHAS",
           "dtultcomp": "12/09/2024",
           "dias": 699,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19217,6 +20076,7 @@ const INATIVOS_DATA = {
           "cidade": "MARIANA",
           "dtultcomp": "09/09/2024",
           "dias": 702,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19226,6 +20086,7 @@ const INATIVOS_DATA = {
           "cidade": "ITABIRITO",
           "dtultcomp": "12/09/2024",
           "dias": 699,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19235,6 +20096,7 @@ const INATIVOS_DATA = {
           "cidade": "OURO PRETO",
           "dtultcomp": "12/09/2024",
           "dias": 699,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19244,6 +20106,7 @@ const INATIVOS_DATA = {
           "cidade": "JUIZ DE FORA",
           "dtultcomp": "26/12/2024",
           "dias": 594,
+          "rca_bloqueio": "N",
           "media": 286.0
         },
         {
@@ -19253,6 +20116,7 @@ const INATIVOS_DATA = {
           "cidade": "VICOSA",
           "dtultcomp": "24/03/2025",
           "dias": 506,
+          "rca_bloqueio": "N",
           "media": 2331.99
         },
         {
@@ -19262,6 +20126,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "30/12/2024",
           "dias": 590,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19271,6 +20136,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "03/04/2024",
           "dias": 861,
+          "rca_bloqueio": "N",
           "media": 377.6
         },
         {
@@ -19280,6 +20146,7 @@ const INATIVOS_DATA = {
           "cidade": "SANTA LUZIA",
           "dtultcomp": "03/06/2025",
           "dias": 435,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19289,6 +20156,7 @@ const INATIVOS_DATA = {
           "cidade": "POCOS DE CALDAS",
           "dtultcomp": "16/10/2024",
           "dias": 665,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19298,6 +20166,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "02/01/2026",
           "dias": 222,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19307,6 +20176,7 @@ const INATIVOS_DATA = {
           "cidade": "CONTAGEM",
           "dtultcomp": "01/12/2025",
           "dias": 254,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19316,6 +20186,7 @@ const INATIVOS_DATA = {
           "cidade": "CONTAGEM",
           "dtultcomp": "11/04/2025",
           "dias": 488,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19325,6 +20196,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "12/08/2025",
           "dias": 365,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19334,6 +20206,7 @@ const INATIVOS_DATA = {
           "cidade": "CONTAGEM",
           "dtultcomp": "03/09/2024",
           "dias": 708,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19343,6 +20216,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "10/11/2025",
           "dias": 275,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19352,6 +20226,7 @@ const INATIVOS_DATA = {
           "cidade": "CAPITOLIO",
           "dtultcomp": "21/03/2025",
           "dias": 509,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19361,6 +20236,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "09/10/2025",
           "dias": 307,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19370,6 +20246,7 @@ const INATIVOS_DATA = {
           "cidade": "BETIM",
           "dtultcomp": "30/09/2025",
           "dias": 316,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19379,6 +20256,7 @@ const INATIVOS_DATA = {
           "cidade": "SARZEDO",
           "dtultcomp": "27/08/2024",
           "dias": 715,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19388,6 +20266,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "11/06/2025",
           "dias": 427,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19397,6 +20276,7 @@ const INATIVOS_DATA = {
           "cidade": "BETIM",
           "dtultcomp": "31/07/2024",
           "dias": 742,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19406,6 +20286,7 @@ const INATIVOS_DATA = {
           "cidade": "BETIM",
           "dtultcomp": "07/11/2024",
           "dias": 643,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19415,6 +20296,7 @@ const INATIVOS_DATA = {
           "cidade": "CONTAGEM",
           "dtultcomp": "10/03/2025",
           "dias": 520,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19424,6 +20306,7 @@ const INATIVOS_DATA = {
           "cidade": "ANDRADAS",
           "dtultcomp": "28/11/2025",
           "dias": 257,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19433,6 +20316,7 @@ const INATIVOS_DATA = {
           "cidade": "JACUTINGA",
           "dtultcomp": "19/11/2025",
           "dias": 266,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19442,6 +20326,7 @@ const INATIVOS_DATA = {
           "cidade": "RIBEIRAO DAS NEVES",
           "dtultcomp": "25/03/2026",
           "dias": 140,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19451,6 +20336,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "21/07/2022",
           "dias": 1483,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19460,6 +20346,7 @@ const INATIVOS_DATA = {
           "cidade": "BETIM",
           "dtultcomp": "19/05/2025",
           "dias": 450,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19469,6 +20356,7 @@ const INATIVOS_DATA = {
           "cidade": "PIRAPORA",
           "dtultcomp": "07/10/2024",
           "dias": 674,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19478,6 +20366,7 @@ const INATIVOS_DATA = {
           "cidade": "UBERABA",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19487,6 +20376,7 @@ const INATIVOS_DATA = {
           "cidade": "PARACATU",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19496,6 +20386,7 @@ const INATIVOS_DATA = {
           "cidade": "PARA DE MINAS",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19505,6 +20396,7 @@ const INATIVOS_DATA = {
           "cidade": "TRES CORACOES",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19514,6 +20406,7 @@ const INATIVOS_DATA = {
           "cidade": "ARAXA",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19523,6 +20416,7 @@ const INATIVOS_DATA = {
           "cidade": "LAVRAS",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19532,6 +20426,7 @@ const INATIVOS_DATA = {
           "cidade": "BARBACENA",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19541,6 +20436,7 @@ const INATIVOS_DATA = {
           "cidade": "PASSOS",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19550,6 +20446,7 @@ const INATIVOS_DATA = {
           "cidade": "ITAUNA",
           "dtultcomp": "15/04/2024",
           "dias": 849,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19559,6 +20456,7 @@ const INATIVOS_DATA = {
           "cidade": "TEOFILO OTONI",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19568,6 +20466,7 @@ const INATIVOS_DATA = {
           "cidade": "CONSELHEIRO LAFAIETE",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19577,6 +20476,7 @@ const INATIVOS_DATA = {
           "cidade": "CONTAGEM",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19586,6 +20486,7 @@ const INATIVOS_DATA = {
           "cidade": "VARGINHA",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19595,6 +20496,7 @@ const INATIVOS_DATA = {
           "cidade": "DIVINOPOLIS",
           "dtultcomp": "15/04/2024",
           "dias": 849,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19604,6 +20506,7 @@ const INATIVOS_DATA = {
           "cidade": "UBERLANDIA",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19613,6 +20516,7 @@ const INATIVOS_DATA = {
           "cidade": "ITABIRA",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19622,6 +20526,7 @@ const INATIVOS_DATA = {
           "cidade": "UNAI",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19631,6 +20536,7 @@ const INATIVOS_DATA = {
           "cidade": "SAO JOAO DEL REI",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19640,6 +20546,7 @@ const INATIVOS_DATA = {
           "cidade": "POCOS DE CALDAS",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19649,6 +20556,7 @@ const INATIVOS_DATA = {
           "cidade": "JOAO MONLEVADE",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19658,6 +20566,7 @@ const INATIVOS_DATA = {
           "cidade": "PATOS DE MINAS",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19667,6 +20576,7 @@ const INATIVOS_DATA = {
           "cidade": "CURVELO",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19676,6 +20586,7 @@ const INATIVOS_DATA = {
           "cidade": "PATROCINIO",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19685,6 +20596,7 @@ const INATIVOS_DATA = {
           "cidade": "UBERLANDIA",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19694,6 +20606,7 @@ const INATIVOS_DATA = {
           "cidade": "BOM DESPACHO",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19703,6 +20616,7 @@ const INATIVOS_DATA = {
           "cidade": "CAMPO BELO",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19712,6 +20626,7 @@ const INATIVOS_DATA = {
           "cidade": "MONTE CARMELO",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19721,6 +20636,7 @@ const INATIVOS_DATA = {
           "cidade": "JANAUBA",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19730,6 +20646,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "28/07/2025",
           "dias": 380,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19739,6 +20656,7 @@ const INATIVOS_DATA = {
           "cidade": "NOVA LIMA",
           "dtultcomp": "15/04/2024",
           "dias": 849,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19748,6 +20666,7 @@ const INATIVOS_DATA = {
           "cidade": "JUIZ DE FORA",
           "dtultcomp": "14/08/2024",
           "dias": 728,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19757,6 +20676,7 @@ const INATIVOS_DATA = {
           "cidade": "JOAO PINHEIRO",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19766,6 +20686,7 @@ const INATIVOS_DATA = {
           "cidade": "LEOPOLDINA",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19775,6 +20696,7 @@ const INATIVOS_DATA = {
           "cidade": "CARATINGA",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19784,6 +20706,7 @@ const INATIVOS_DATA = {
           "cidade": "CONGONHAS",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19793,6 +20716,7 @@ const INATIVOS_DATA = {
           "cidade": "TRES PONTAS",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19802,6 +20726,7 @@ const INATIVOS_DATA = {
           "cidade": "MONTES CLAROS",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19811,6 +20736,7 @@ const INATIVOS_DATA = {
           "cidade": "MONTES CLAROS",
           "dtultcomp": "15/04/2024",
           "dias": 849,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19820,6 +20746,7 @@ const INATIVOS_DATA = {
           "cidade": "VESPASIANO",
           "dtultcomp": "15/04/2024",
           "dias": 849,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19829,6 +20756,7 @@ const INATIVOS_DATA = {
           "cidade": "BETIM",
           "dtultcomp": "08/08/2024",
           "dias": 734,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19838,6 +20766,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19847,6 +20776,7 @@ const INATIVOS_DATA = {
           "cidade": "EXTREMA",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19856,6 +20786,7 @@ const INATIVOS_DATA = {
           "cidade": "UBERABA",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19865,6 +20796,7 @@ const INATIVOS_DATA = {
           "cidade": "DIVINOPOLIS",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19874,6 +20806,7 @@ const INATIVOS_DATA = {
           "cidade": "CONTAGEM",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19883,6 +20816,7 @@ const INATIVOS_DATA = {
           "cidade": "SANTA LUZIA",
           "dtultcomp": "02/05/2025",
           "dias": 467,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19892,6 +20826,7 @@ const INATIVOS_DATA = {
           "cidade": "GOVERNADOR VALADARES",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19901,6 +20836,7 @@ const INATIVOS_DATA = {
           "cidade": "JUIZ DE FORA",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19910,6 +20846,7 @@ const INATIVOS_DATA = {
           "cidade": "UBERABA",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19919,6 +20856,7 @@ const INATIVOS_DATA = {
           "cidade": "SETE LAGOAS",
           "dtultcomp": "15/04/2024",
           "dias": 849,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19928,6 +20866,7 @@ const INATIVOS_DATA = {
           "cidade": "UBERLANDIA",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19937,6 +20876,7 @@ const INATIVOS_DATA = {
           "cidade": "CONTAGEM",
           "dtultcomp": "11/09/2024",
           "dias": 700,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19946,6 +20886,7 @@ const INATIVOS_DATA = {
           "cidade": "PATOS DE MINAS",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19955,6 +20896,7 @@ const INATIVOS_DATA = {
           "cidade": "ITUIUTABA",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19964,6 +20906,7 @@ const INATIVOS_DATA = {
           "cidade": "ALFENAS",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19973,6 +20916,7 @@ const INATIVOS_DATA = {
           "cidade": "POUSO ALEGRE",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19982,6 +20926,7 @@ const INATIVOS_DATA = {
           "cidade": "SANTANA DO PARAISO",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -19991,6 +20936,7 @@ const INATIVOS_DATA = {
           "cidade": "ARAPORA",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20000,6 +20946,7 @@ const INATIVOS_DATA = {
           "cidade": "MONTES CLAROS",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20009,6 +20956,7 @@ const INATIVOS_DATA = {
           "cidade": "UBA",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20018,6 +20966,7 @@ const INATIVOS_DATA = {
           "cidade": "ARAGUARI",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20027,6 +20976,7 @@ const INATIVOS_DATA = {
           "cidade": "UBERLANDIA",
           "dtultcomp": "16/04/2024",
           "dias": 848,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20036,6 +20986,7 @@ const INATIVOS_DATA = {
           "cidade": "BETIM",
           "dtultcomp": "15/05/2025",
           "dias": 454,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20045,6 +20996,7 @@ const INATIVOS_DATA = {
           "cidade": "MATOZINHOS",
           "dtultcomp": "04/02/2025",
           "dias": 554,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20054,6 +21006,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20063,6 +21016,7 @@ const INATIVOS_DATA = {
           "cidade": "SETE LAGOAS",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20072,6 +21026,7 @@ const INATIVOS_DATA = {
           "cidade": "VESPASIANO",
           "dtultcomp": "29/08/2024",
           "dias": 713,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20081,6 +21036,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "22/12/2025",
           "dias": 233,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20090,6 +21046,7 @@ const INATIVOS_DATA = {
           "cidade": "JUIZ DE FORA",
           "dtultcomp": "12/11/2025",
           "dias": 273,
+          "rca_bloqueio": "N",
           "media": 381.0
         },
         {
@@ -20099,6 +21056,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "26/12/2024",
           "dias": 594,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20108,6 +21066,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "30/09/2025",
           "dias": 316,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20117,6 +21076,7 @@ const INATIVOS_DATA = {
           "cidade": "CONTAGEM",
           "dtultcomp": "06/02/2026",
           "dias": 187,
+          "rca_bloqueio": "N",
           "media": 9384.48
         },
         {
@@ -20126,6 +21086,7 @@ const INATIVOS_DATA = {
           "cidade": "MURIAE",
           "dtultcomp": "11/02/2025",
           "dias": 547,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20135,6 +21096,7 @@ const INATIVOS_DATA = {
           "cidade": "PASSOS",
           "dtultcomp": "11/02/2025",
           "dias": 547,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20144,6 +21106,7 @@ const INATIVOS_DATA = {
           "cidade": "MANHUACU",
           "dtultcomp": "11/02/2025",
           "dias": 547,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20153,6 +21116,7 @@ const INATIVOS_DATA = {
           "cidade": "POCOS DE CALDAS",
           "dtultcomp": "28/05/2025",
           "dias": 441,
+          "rca_bloqueio": "N",
           "media": 983.2
         },
         {
@@ -20162,6 +21126,7 @@ const INATIVOS_DATA = {
           "cidade": "NOVA SERRANA",
           "dtultcomp": "16/04/2026",
           "dias": 118,
+          "rca_bloqueio": "N",
           "media": 11832.48
         },
         {
@@ -20171,6 +21136,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "06/03/2026",
           "dias": 159,
+          "rca_bloqueio": "N",
           "media": 6256.32
         },
         {
@@ -20180,6 +21146,7 @@ const INATIVOS_DATA = {
           "cidade": "RIBEIRAO DAS NEVES",
           "dtultcomp": "06/02/2026",
           "dias": 187,
+          "rca_bloqueio": "N",
           "media": 6256.32
         },
         {
@@ -20189,6 +21156,7 @@ const INATIVOS_DATA = {
           "cidade": "CONTAGEM",
           "dtultcomp": "12/11/2025",
           "dias": 273,
+          "rca_bloqueio": "N",
           "media": 5376.89
         },
         {
@@ -20198,6 +21166,7 @@ const INATIVOS_DATA = {
           "cidade": "LAGOA SANTA",
           "dtultcomp": "16/07/2024",
           "dias": 757,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20207,6 +21176,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "26/11/2024",
           "dias": 624,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20216,6 +21186,7 @@ const INATIVOS_DATA = {
           "cidade": "POCOS DE CALDAS",
           "dtultcomp": "12/02/2025",
           "dias": 546,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20225,6 +21196,7 @@ const INATIVOS_DATA = {
           "cidade": "JUIZ DE FORA",
           "dtultcomp": "13/11/2025",
           "dias": 272,
+          "rca_bloqueio": "N",
           "media": 9251.2
         },
         {
@@ -20234,6 +21206,7 @@ const INATIVOS_DATA = {
           "cidade": "NOVA LIMA",
           "dtultcomp": "26/12/2025",
           "dias": 229,
+          "rca_bloqueio": "N",
           "media": 165.6
         },
         {
@@ -20243,6 +21216,7 @@ const INATIVOS_DATA = {
           "cidade": "BETIM",
           "dtultcomp": "17/06/2025",
           "dias": 421,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20252,6 +21226,7 @@ const INATIVOS_DATA = {
           "cidade": "BETIM",
           "dtultcomp": "16/12/2024",
           "dias": 604,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20261,6 +21236,7 @@ const INATIVOS_DATA = {
           "cidade": "DIVINOPOLIS",
           "dtultcomp": "25/03/2025",
           "dias": 505,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20270,6 +21246,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "03/01/2025",
           "dias": 586,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20279,6 +21256,7 @@ const INATIVOS_DATA = {
           "cidade": "SANTA LUZIA",
           "dtultcomp": "17/10/2024",
           "dias": 664,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20288,6 +21266,7 @@ const INATIVOS_DATA = {
           "cidade": "BETIM",
           "dtultcomp": "22/07/2025",
           "dias": 386,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20297,6 +21276,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "30/09/2025",
           "dias": 316,
+          "rca_bloqueio": "N",
           "media": 208.53
         },
         {
@@ -20306,6 +21286,7 @@ const INATIVOS_DATA = {
           "cidade": "CONTAGEM",
           "dtultcomp": "11/02/2026",
           "dias": 182,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20315,6 +21296,7 @@ const INATIVOS_DATA = {
           "cidade": "SANTA LUZIA",
           "dtultcomp": "22/12/2025",
           "dias": 233,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20324,6 +21306,7 @@ const INATIVOS_DATA = {
           "cidade": "CONTAGEM",
           "dtultcomp": "09/08/2024",
           "dias": 733,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20333,6 +21316,7 @@ const INATIVOS_DATA = {
           "cidade": "CONSELHEIRO LAFAIETE",
           "dtultcomp": "15/03/2024",
           "dias": 880,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20342,6 +21326,7 @@ const INATIVOS_DATA = {
           "cidade": "GOVERNADOR VALADARES",
           "dtultcomp": "12/03/2026",
           "dias": 153,
+          "rca_bloqueio": "N",
           "media": 42000.0
         },
         {
@@ -20351,6 +21336,7 @@ const INATIVOS_DATA = {
           "cidade": "GOVERNADOR VALADARES",
           "dtultcomp": "25/06/2024",
           "dias": 778,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20360,6 +21346,7 @@ const INATIVOS_DATA = {
           "cidade": "TIMOTEO",
           "dtultcomp": "18/12/2024",
           "dias": 602,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20369,6 +21356,7 @@ const INATIVOS_DATA = {
           "cidade": "IPATINGA",
           "dtultcomp": "05/07/2024",
           "dias": 768,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20378,6 +21366,7 @@ const INATIVOS_DATA = {
           "cidade": "SANTA LUZIA",
           "dtultcomp": "02/09/2025",
           "dias": 344,
+          "rca_bloqueio": "N",
           "media": 5560.85
         },
         {
@@ -20387,6 +21376,7 @@ const INATIVOS_DATA = {
           "cidade": "SANTA LUZIA",
           "dtultcomp": "30/04/2026",
           "dias": 104,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20396,6 +21386,7 @@ const INATIVOS_DATA = {
           "cidade": "LAVRAS",
           "dtultcomp": "07/08/2025",
           "dias": 370,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20405,6 +21396,7 @@ const INATIVOS_DATA = {
           "cidade": "VARGINHA",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20414,6 +21406,7 @@ const INATIVOS_DATA = {
           "cidade": "VARGINHA",
           "dtultcomp": "14/01/2025",
           "dias": 575,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20423,6 +21416,7 @@ const INATIVOS_DATA = {
           "cidade": "IBIRITE",
           "dtultcomp": "28/08/2025",
           "dias": 349,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20432,6 +21426,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "12/05/2025",
           "dias": 457,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20441,6 +21436,7 @@ const INATIVOS_DATA = {
           "cidade": "VESPASIANO",
           "dtultcomp": "19/01/2026",
           "dias": 205,
+          "rca_bloqueio": "N",
           "media": 25788.96
         },
         {
@@ -20450,6 +21446,7 @@ const INATIVOS_DATA = {
           "cidade": "BARBACENA",
           "dtultcomp": "22/12/2022",
           "dias": 1329,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20459,6 +21456,7 @@ const INATIVOS_DATA = {
           "cidade": "NOVA LIMA",
           "dtultcomp": "16/01/2024",
           "dias": 939,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20468,6 +21466,7 @@ const INATIVOS_DATA = {
           "cidade": "NOVA LIMA",
           "dtultcomp": "05/07/2024",
           "dias": 768,
+          "rca_bloqueio": "N",
           "media": 1971.38
         },
         {
@@ -20477,6 +21476,7 @@ const INATIVOS_DATA = {
           "cidade": "RIBEIRAO DAS NEVES",
           "dtultcomp": "02/03/2026",
           "dias": 163,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20486,6 +21486,7 @@ const INATIVOS_DATA = {
           "cidade": "POCOS DE CALDAS",
           "dtultcomp": "01/10/2025",
           "dias": 315,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20495,6 +21496,7 @@ const INATIVOS_DATA = {
           "cidade": "SABARA",
           "dtultcomp": "23/01/2026",
           "dias": 201,
+          "rca_bloqueio": "N",
           "media": 0.0
         }
       ],
@@ -20512,6 +21514,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": null,
           "dias": null,
+          "rca_bloqueio": "N",
           "media": 0.0
         },
         {
@@ -20521,6 +21524,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "27/03/2024",
           "dias": 868,
+          "rca_bloqueio": "N",
           "media": 261.16
         }
       ],
@@ -20999,6 +22003,7 @@ const INATIVOS_DATA = {
           "cidade": "LEOPOLDINA",
           "dtultcomp": "06/05/2026",
           "dias": 98,
+          "rca_bloqueio": "N",
           "media": 0.0
         }
       ],
