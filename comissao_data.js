@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "12/08/2026 10:45",
+  "atualizado_em": "12/08/2026 11:04",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -1395,12 +1395,12 @@ const COMISSAO_DATA = {
       ],
       "ating_acumulado_total": 0.192588,
       "pct_premio": 0.00288882,
-      "liq_rigarr": 11960.3,
+      "liq_rigarr": 12260.3,
       "fat_castas": 5059.2,
       "teto_comissao": null,
-      "com_rigarr": 34.55,
+      "com_rigarr": 35.42,
       "com_castas": 14.62,
-      "comissao_estimada": 49.17
+      "comissao_estimada": 50.04
     },
     {
       "nome": "BARBARA CABRAL - OFF TRADE",
