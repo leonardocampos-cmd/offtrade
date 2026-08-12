@@ -191,7 +191,7 @@ function renderHead() {
     if (c.vsBase) extra += `<th>vs Base</th>`;
     return `<th onclick="setSort('${c.key}')">${c.label}${_sortCol===c.key?(_sortDir===1?' &#9650;':' &#9660;'):''}</th>${extra}`;
   }).join('');
-  document.getElementById('thead-row').innerHTML = (_visao==='vendedor' ? '<th>Time</th>' : '') + th;
+  document.getElementById('thead-row').innerHTML = (_visao==='vendedor' ? '<th>Gerente</th>' : '') + th;
 }
 
 function setSort(col) {
@@ -259,9 +259,9 @@ function aplicarFiltro() {
       const nomeCol = _visao === 'vendedor'
         ? `<td>${_esc(r.nome)} <span style="color:var(--muted);font-size:.68rem">(${_esc(r.estado)}/${_esc(r.sistema)})</span></td>`
         : `<td>${_esc(r.gerente)} <span style="color:var(--muted);font-size:.68rem">(${r.qtd_vendedores} vend.)</span></td>`;
-      const timeCol = _visao === 'vendedor' ? `<td><span class="time-badge">${_esc(r.time_label)}</span></td>` : '';
+      const gerenteCol = _visao === 'vendedor' ? `<td><span class="time-badge">${_esc(r.gerente)}</span></td>` : '';
       return `<tr>
-        ${timeCol}
+        ${gerenteCol}
         ${nomeCol}
         <td>${fmtN(r.base_cadastro)}</td>
         <td>${fmtN(r.base_ativa)}</td>
