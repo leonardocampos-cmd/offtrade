@@ -317,10 +317,16 @@ if (DATA && DATA.produtos_cortados) {
 }
 
 // 'total' do pedido cancelado é sempre 0 (nada foi faturado) — o que importa
-// pra essa aba é o valor cortado, somado a partir dos itens do pedido.
+// pra essa aba é o valor cortado. pedidos.py já manda 'valor_cortado_total'
+// (valor real de PEDIDOS_CANCELADOS.SUBTOT somado por pedido, mais confiável
+// que casar produto a produto — ver comentário em pedidos.py); só cai pra
+// somar os itens aqui se por algum motivo esse campo não vier (data.js
+// antigo, gerado antes dessa mudança).
 if (DATA && DATA.cancelados) {
   DATA.cancelados.forEach(p => {
-    p.valor_cortado_pedido = (p.itens || []).reduce((s, it) => s + (Number(it.valor_cortado) || 0), 0);
+    p.valor_cortado_pedido = p.valor_cortado_total != null
+      ? p.valor_cortado_total
+      : (p.itens || []).reduce((s, it) => s + (Number(it.valor_cortado) || 0), 0);
   });
 }
 

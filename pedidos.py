@@ -97,9 +97,13 @@ def _query_motivo_corte(schema):
     "CORTE TOTAL NO CARREGAMENTO", "FALTA DE PRODUTO") — bem mais específico
     que MOTIVOPOSICAO (PCPEDC, nível pedido). Cobre tanto corte total pré-NF
     quanto corte parcial dentro de pedido já faturado (confirmado: NUMPED
-    352000099 aparece aqui E em PBI_PCPEDI com NUMNOTA preenchido)."""
+    352000099 aparece aqui E em PBI_PCPEDI com NUMNOTA preenchido).
+
+    SUBTOT (QT*PVENDA registrado no momento do cancelamento) é o valor real
+    do corte — mais confiável que estimar via TOTAL/QT da nota (que em
+    cancelamento total é sempre 0, cai pro PVENDA "digitado" genérico)."""
     return f"""
-        SELECT NUMPED, CODPROD, MOTIVO, DATACANC
+        SELECT NUMPED, CODPROD, MOTIVO, DATACANC, QT, PVENDA, SUBTOT
         FROM {schema}.PEDIDOS_CANCELADOS
         WHERE DATACANC >= SYSDATE - {DIAS_JANELA}
     """
@@ -148,8 +152,17 @@ for (_nome, _eng, _extra, _filiais), _res in zip(_SOURCES, carregar_paralelo(_ch
             continue
         _cortes_lookup[_chave] = _cortes_lookup.get(_chave, 0.0) + float(_row['QTCORTADA'] or 0)
 
-# ── Motivo real do corte (PEDIDOS_CANCELADOS.MOTIVO) por (SISTEMA, NUMPED, CODPROD) ──
+# ── Motivo real do corte (PEDIDOS_CANCELADOS.MOTIVO), por (SISTEMA, NUMPED,
+# CODPROD), e valor real cortado (PEDIDOS_CANCELADOS.SUBTOT) por (SISTEMA,
+# NUMPED) — só por pedido, não por produto: a view registra produtos
+# cortados ao longo de todo o histórico do pedido (inclusive substituições
+# anteriores), então o CODPROD de lá pode não ter nenhuma relação com o
+# item atual do PBI_PCPEDI pro mesmo NUMPED (confirmado: pedido 431001229
+# tem 10 produtos no PBI_PCPEDI e 2 produtos completamente diferentes na
+# view) — juntar por produto atribuiria valor ao item errado. Somando por
+# pedido inteiro, o total fica confiável mesmo sem casar produto a produto.
 _motivo_corte_lookup = {}
+_valor_corte_pedido_lookup = {}
 _chamadas_motivo_corte = [
     (_query_motivo_corte(_nome), _eng, f"motivo_corte_{_nome}")
     for _nome, _eng, _extra, _filiais in _SOURCES_COM_MOTIVO_CORTE
@@ -169,6 +182,10 @@ for (_nome, _eng, _extra, _filiais), _res in zip(_SOURCES_COM_MOTIVO_CORTE, carr
         _motivo = str(_row['MOTIVO'] or '').strip()
         if _motivo:
             _motivo_corte_lookup[_chave] = _motivo
+        _subtot = pd.to_numeric(_row.get('SUBTOT'), errors='coerce')
+        if pd.notna(_subtot):
+            _chave_pedido = (_nome, int(_row['NUMPED']))
+            _valor_corte_pedido_lookup[_chave_pedido] = _valor_corte_pedido_lookup.get(_chave_pedido, 0.0) + float(_subtot)
 
 tabela_pedidos = pd.concat(_parts, ignore_index=True)
 tabela_pedidos.columns = tabela_pedidos.columns.str.upper()
@@ -560,6 +577,18 @@ def _motivo_corte(sistema, numped, codprod_num):
     return _motivo_corte_lookup.get(chave, '')
 
 
+def _valor_cortado_pedido(sistema, numped):
+    """Valor real cortado do pedido inteiro (soma de PEDIDOS_CANCELADOS.SUBTOT
+    por NUMPED), ou None se não achou (pedido sem registro nessa view, ou
+    base sem a view) — nesse caso cai pra soma do valor_cortado estimado por
+    item (qtd_cortada_total * preço), calculado em _agrupar."""
+    try:
+        chave = (sistema, int(numped))
+    except (TypeError, ValueError):
+        return None
+    return _valor_corte_pedido_lookup.get(chave)
+
+
 def _item_pedido(sistema, numped, row):
     qt = int(row['QT'])
     qtfalta = float(row['QTFALTA'])
@@ -625,6 +654,15 @@ def _agrupar(df, com_status_log=False):
             ],
         }
         item['tem_corte'] = any(it['cortado'] for it in item['itens'])
+        # Valor real cortado do pedido inteiro (soma de PEDIDOS_CANCELADOS.SUBTOT
+        # por NUMPED) tem prioridade sobre a soma dos valor_cortado estimados
+        # por item — ver docstring de _valor_cortado_pedido. Nome diferente de
+        # 'valor_cortado' (que já existe por item) pra não colidir.
+        _valor_real_pedido = _valor_cortado_pedido(sistema, numped)
+        item['valor_cortado_total'] = (
+            round(_valor_real_pedido, 2) if _valor_real_pedido is not None
+            else round(sum(it['valor_cortado'] or 0 for it in item['itens']), 2)
+        )
         # Motivo real (PEDIDOS_CANCELADOS, por produto) tem prioridade sobre
         # MOTIVOPOSICAO/FUNC_CANCEL (nível pedido, mais genérico) — mesma
         # regra usada em _extrair_cortados. Pedido pode ter itens com motivos
