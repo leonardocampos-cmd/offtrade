@@ -18,6 +18,7 @@ cred_drive.json
 # e saídas mensais geradas pelo pipeline — artefatos regenerados, não código.
 planilhas_cache/
 nao_positivados_*.xlsx
+report_pedidos_*.html
 
 # Inadimplencia: dado financeiro sensivel (nome de cliente + divida) —
 # so vai pra VPS (deploy_static_vps.py), nunca pro GitHub Pages publico.

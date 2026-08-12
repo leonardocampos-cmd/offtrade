@@ -50,7 +50,7 @@ DESTINATARIOS = [
     "marcus.tanamachi@rigarr.com.br",
     "daniel.diniz@rigarr.com.br",
 ]
-COPIA = "offtrade@rigarr.com.br"
+COPIA = "offtrade@rigarr.com.br, danielle.soares@rigarr.com.br"
 
 # (chave do payload, campo extra, label do campo extra, nome da aba)
 _ABAS_PEDIDOS = [
@@ -120,6 +120,7 @@ def _linhas_produtos_cortados(produtos, estoque_idx):
             'Indústria':     p.get('industria'),
             'Qtd Cortada':   p.get('qtd_cortada_total'),
             'Qtd Pedida':    p.get('qt_original'),
+            'Valor Cortado': p.get('valor_cortado'),
             'Saldo Estoque': saldo,
         })
     return pd.DataFrame(linhas)
@@ -129,17 +130,86 @@ def _filtrar_estado(lista, estado):
     return [p for p in lista if (p.get('estado') or '').strip().upper() == estado]
 
 
-def montar_planilha(payload, estoque_idx, estado):
+def _resumo(tabelas_pedidos, cortados_filtrados):
+    """tabelas_pedidos: lista de (aba, pedidos_filtrados) — um item por aba de
+    pedido (Pedidos Feitos/Faturados/Cortados-Cancelados). Conta e soma por
+    pedido (não por item, senão duplicaria valor entre os produtos)."""
+    linhas = []
+    for aba, pedidos in tabelas_pedidos:
+        if aba == 'Cortados-Cancelados':
+            # 'total' do pedido é sempre 0 aqui (nada foi faturado) — o valor
+            # que importa é o cortado, somado a partir dos itens.
+            valor = sum(it.get('valor_cortado') or 0 for p in pedidos for it in (p.get('itens') or []))
+            label_valor = f'{aba} — Valor Cortado'
+        else:
+            valor = sum(p.get('total') or 0 for p in pedidos)
+            label_valor = f'{aba} — Valor Total'
+        linhas.append({'Métrica': f'{aba} — Qtd Pedidos', 'Valor': len(pedidos)})
+        linhas.append({'Métrica': label_valor, 'Valor': round(valor, 2)})
+    linhas.append({'Métrica': 'Produtos Cortados — Qtd Itens', 'Valor': len(cortados_filtrados)})
+    linhas.append({
+        'Métrica': 'Produtos Cortados — Qtd Total Cortada',
+        'Valor': sum(p.get('qtd_cortada_total') or 0 for p in cortados_filtrados),
+    })
+    linhas.append({
+        'Métrica': 'Produtos Cortados — Valor Total Cortado',
+        'Valor': round(sum(p.get('valor_cortado') or 0 for p in cortados_filtrados), 2),
+    })
+    return pd.DataFrame(linhas)
+
+
+def montar_tabelas(payload, estoque_idx, estado):
+    """Retorna dict ordenado {nome_aba: DataFrame} — usado tanto pro .xlsx
+    (anexo do e-mail) quanto pro .html (preview local), pra não duplicar a
+    lógica de filtro/formatação entre os dois formatos."""
+    tabelas_pedidos = []
+    for chave, campo_extra, label_extra, aba in _ABAS_PEDIDOS:
+        pedidos_filtrados = _filtrar_estado(payload.get(chave, []), estado)
+        tabelas_pedidos.append((aba, pedidos_filtrados))
+
+    cortados_filtrados = _filtrar_estado(payload.get('produtos_cortados', []), estado)
+
+    tabelas = {'Resumo': _resumo(tabelas_pedidos, cortados_filtrados)}
+    for (chave, campo_extra, label_extra, aba), (_, pedidos_filtrados) in zip(_ABAS_PEDIDOS, tabelas_pedidos):
+        tabelas[aba] = _linhas_pedidos(pedidos_filtrados, campo_extra, label_extra)
+    tabelas['Produtos Cortados'] = _linhas_produtos_cortados(cortados_filtrados, estoque_idx)
+    return tabelas
+
+
+def montar_planilha(tabelas):
     buf = io.BytesIO()
     with pd.ExcelWriter(buf, engine='openpyxl') as writer:
-        for chave, campo_extra, label_extra, aba in _ABAS_PEDIDOS:
-            pedidos_filtrados = _filtrar_estado(payload.get(chave, []), estado)
-            _linhas_pedidos(pedidos_filtrados, campo_extra, label_extra).to_excel(
-                writer, sheet_name=aba, index=False)
-        cortados_filtrados = _filtrar_estado(payload.get('produtos_cortados', []), estado)
-        _linhas_produtos_cortados(cortados_filtrados, estoque_idx).to_excel(
-            writer, sheet_name='Produtos Cortados', index=False)
+        for aba, df in tabelas.items():
+            df.to_excel(writer, sheet_name=aba, index=False)
     return buf.getvalue()
+
+
+def montar_html(tabelas, estado, hoje_str):
+    secoes = []
+    for aba, df in tabelas.items():
+        secoes.append(f"<h2>{aba}</h2>\n" + df.to_html(index=False, na_rep='', border=0))
+    corpo = "\n".join(secoes)
+    return f"""<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Report Diário de Pedidos — {estado} — {hoje_str}</title>
+<style>
+  body {{ background:#0f1117; color:#e2e8f0; font-family:'Segoe UI',system-ui,sans-serif; padding:24px; }}
+  h1 {{ color:#3b82f6; font-size:1.3rem; }}
+  h2 {{ color:#f5c518; font-size:1rem; margin-top:32px; border-bottom:1px solid #2d3144; padding-bottom:6px; }}
+  table {{ border-collapse:collapse; width:100%; font-size:.85rem; margin-top:10px; }}
+  th, td {{ padding:6px 10px; border-bottom:1px solid #2d3144; text-align:left; white-space:nowrap; }}
+  th {{ background:#22263a; color:#94a3b8; text-transform:uppercase; font-size:.72rem; }}
+  tr:hover td {{ background:#1a1d27; }}
+</style>
+</head>
+<body>
+<h1>Report Diário de Pedidos — {estado} — {hoje_str}</h1>
+{corpo}
+</body>
+</html>
+"""
 
 
 def _get_service():
@@ -171,8 +241,8 @@ def enviar_report(service, destinatarios, arquivos, hoje_str, cc=None):
     estados_txt = " e ".join(estado for estado, _ in arquivos)
     corpo = (
         f"Segue em anexo o report diário de pedidos ({estados_txt}), um arquivo por "
-        "estado, cada um com 4 abas: Pedidos Feitos, Faturados, Cortados-Cancelados "
-        "e Produtos Cortados.\n\n"
+        "estado, cada um com 5 abas: Resumo, Pedidos Feitos, Faturados, "
+        "Cortados-Cancelados e Produtos Cortados.\n\n"
         f"Página completa e sempre atualizada: {PAGINA_URL}\n"
     )
     msg.attach(MIMEText(corpo, "plain"))
@@ -185,17 +255,35 @@ def enviar_report(service, destinatarios, arquivos, hoje_str, cc=None):
     return service.users().messages().send(userId="me", body={"raw": raw}).execute()
 
 
-def main():
+def gerar_previews(enviar=False):
+    """Monta as tabelas, salva os HTMLs de preview localmente (RJ e SP) e,
+    só se enviar=True, manda o e-mail de fato com os anexos .xlsx.
+
+    Padrão é enviar=False — pedido do usuário em 2026-08-12 pra sempre
+    revisar o conteúdo (via os HTMLs) antes de qualquer envio real."""
     payload = _carregar_js(PEDIDOS_JS, 'PEDIDOS_DATA')
     estoque_idx = _indice_estoque()
-    arquivos = [
-        (estado, montar_planilha(payload, estoque_idx, estado))
-        for estado in ESTADOS_INCLUIDOS
-    ]
-
     hoje_str = date.today().strftime('%d/%m/%Y')
-    destinatarios = [EMAIL_TESTE] if TEST_MODE else DESTINATARIOS
+    hoje_arquivo = hoje_str.replace('/', '-')
 
+    tabelas_por_estado = {
+        estado: montar_tabelas(payload, estoque_idx, estado)
+        for estado in ESTADOS_INCLUIDOS
+    }
+
+    html_paths = []
+    for estado, tabelas in tabelas_por_estado.items():
+        html_path = BASE / f"report_pedidos_{estado}_{hoje_arquivo}.html"
+        html_path.write_text(montar_html(tabelas, estado, hoje_str), encoding='utf-8')
+        html_paths.append(html_path)
+        print(f"Preview salvo: {html_path}")
+
+    if not enviar:
+        print("Envio NÃO disparado (enviar=False) — confira os HTMLs acima antes de rodar com enviar=True.")
+        return html_paths
+
+    arquivos = [(estado, montar_planilha(tabelas)) for estado, tabelas in tabelas_por_estado.items()]
+    destinatarios = [EMAIL_TESTE] if TEST_MODE else DESTINATARIOS
     cc = None if TEST_MODE else COPIA
     service = _get_service()
     enviar_report(service, destinatarios, arquivos, hoje_str, cc=cc)
@@ -203,6 +291,11 @@ def main():
           f"{f' (cc: {cc})' if cc else ''} ({', '.join(e for e, _ in arquivos)})")
     if TEST_MODE:
         print("[TEST_MODE=True] Lista real (Giovani/Allan/Marcus/Daniel) NÃO foi usada.")
+    return html_paths
+
+
+def main():
+    gerar_previews(enviar=True)
 
 
 if __name__ == "__main__":
