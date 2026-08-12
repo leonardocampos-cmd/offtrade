@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "12/08/2026 15:08",
+  "atualizado_em": "12/08/2026 15:35",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -1969,14 +1969,14 @@ const CRUSOE_DATA = {
         {
           "rca": 439,
           "vendedor": "Mateus Cardoso",
-          "pedidos": 8,
-          "positivacoes": 8,
-          "novos_skus": 23,
-          "faturamento": 14883.96,
-          "pontos_positivacao": 40,
-          "pontos_novos_skus": 92,
-          "pontos_pedidos_valor": 13,
-          "pontos_total": 145,
+          "pedidos": 9,
+          "positivacoes": 9,
+          "novos_skus": 26,
+          "faturamento": 15437.64,
+          "pontos_positivacao": 45,
+          "pontos_novos_skus": 104,
+          "pontos_pedidos_valor": 14,
+          "pontos_total": 163,
           "vendas": [
             {
               "numnota": "410357",
@@ -2362,6 +2362,57 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM SOLIDO NATURAL 24X170G",
                   "qt": 3.0,
                   "valor": 625.68,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "420705",
+              "data": "12/08/2026",
+              "cliente": "NOVA BONFIM MERCEARIA DE ANGRA LTDA",
+              "valor_pedido": 553.68,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$500-1000)",
+                  "pontos": 1
+                },
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC ATUM RALADO OLEO 24X140G",
+                  "qt": 1.0,
+                  "valor": 153.36,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM SOLIDO OLEO 24X170G",
+                  "qt": 1.0,
+                  "valor": 208.56,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+                  "qt": 1.0,
+                  "valor": 191.76,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
