@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "12/08/2026 17:25",
+  "atualizado_em": "12/08/2026 17:54",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -11179,13 +11179,6 @@ const NAO_POS_ES_DATA = {
         "codcli": "84018",
         "cliente": "JONAS NODARE LTDA",
         "bairro": "ES",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "84019",
-        "cliente": "JR DE LIMA LANCHONETE LTDA",
-        "bairro": "DOMINGOS MARTINS",
         "dtultcomp": "nan",
         "produtos": []
       },
