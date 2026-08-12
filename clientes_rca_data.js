@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "12/08/2026 11:04",
-  "total": 22046,
+  "atualizado_em": "12/08/2026 11:36",
+  "total": 22047,
   "clientes": [
     {
       "codcli": "38586",
@@ -29516,22 +29516,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "64.715.849/0001-24",
       "estado": "ES",
       "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "81985",
-      "razao": "64.771.283 GABRIEL KLUWEN JORDAO",
-      "fantasia": "64.771.283 GABRIEL KLUWEN JORDAO",
-      "bairro": "BANQUETA (CUNHAMBEBE)",
-      "cidade": "ANGRA DOS REIS",
-      "cnpj": "64.771.283/0001-58",
-      "estado": "RJ",
-      "ramo": "BAR",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -80980,22 +80964,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "75501",
-      "razao": "C M BAR E MERCEARIA DE GARATUCAIA LTDA",
-      "fantasia": "VERMELHINHO DE GARATUCAIA",
-      "bairro": "GARATUCAIA",
-      "cidade": "ANGRA DOS REIS",
-      "cnpj": "13.352.230/0001-61",
-      "estado": "RJ",
-      "ramo": "CAFE/LANCHONETE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "85196",
       "razao": "C M FERREIRA FARMACIA",
       "fantasia": "DROGARIA EL- ELYON",
@@ -89264,6 +89232,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "463",
       "nome_usur1": "ROBERTO DOS SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "46520",
+      "razao": "CARVALHO SOUSA DISTRIBUIDORA DE BEBIDAS LTDA",
+      "fantasia": "MATEUS BEBIDAS",
+      "bairro": "JOÃO ARANHA",
+      "cidade": "PAULINIA",
+      "cnpj": "51.706.983/0001-17",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "525",
+      "nome_usur1": "EVANDRO DORTA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -106352,22 +106336,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "489",
       "nome_usur1": "FERNANDO BERTIN - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "76039",
-      "razao": "COOPERATIVA DE TRABALHO E SERVICOS EDUCACIONAIS CAPACITAR LT",
-      "fantasia": "CEDUC",
-      "bairro": "JACUECANGA",
-      "cidade": "ANGRA DOS REIS",
-      "cnpj": "04.842.684/0001-20",
-      "estado": "RJ",
-      "ramo": "ENSINO/EDUCACAO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -145054,8 +145022,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "PADARIA",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
+      "codusur1": "327",
+      "nome_usur1": "JOÃO SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -177488,6 +177456,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "588",
       "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "49442",
+      "razao": "J. DA S. A. MINIMERCADO",
+      "fantasia": "J A BEBIDAS",
+      "bairro": "VILA QUAGGIO",
+      "cidade": "BAURU",
+      "cnpj": "56.636.800/0001-58",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "518",
+      "nome_usur1": "PAULO THOMAZI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -253700,22 +253684,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "81878",
-      "razao": "NUBIA DE SENA ROSA 08351024759",
-      "fantasia": "NUBIA DE SENA ROSA 08351024759",
-      "bairro": "BELEM",
-      "cidade": "ANGRA DOS REIS",
-      "cnpj": "31.443.677/0001-28",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "84021",
       "razao": "NUBIA MARIA GOMES KOBLIHA 00303425709",
       "fantasia": "NUBIA MARIA GOMES KOBLIHA",
@@ -313604,6 +313572,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "36025",
+      "razao": "SM FERREIRA COMERCIO E DISTRIBUICAO LTDA",
+      "fantasia": "RISCO DA NEBLINA ATACADO",
+      "bairro": "CAPUAVA",
+      "cidade": "MAUA",
+      "cnpj": "51.851.436/0001-25",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "512",
+      "nome_usur1": "WILLIAM GONCALVES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "50115",
       "razao": "SM RECREIO - COMERCIO DE ALIMENTOS LTDA.",
       "fantasia": "PADARIA SANTA MARTA RECREIO",
@@ -319154,6 +319138,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "343",
       "nome_usur2": "FERNANDO RISSON - OFF TRADE"
+    },
+    {
+      "codcli": "51216",
+      "razao": "SUPERMERCADO BAGARELLI LTDA",
+      "fantasia": "SUPERMERCADO BAGARELLI",
+      "bairro": "VILA NOVA PAULISTA",
+      "cidade": "PEDERNEIRAS",
+      "cnpj": "60.946.985/0001-74",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "491",
+      "nome_usur1": "GILSON DE OLIVEIRA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "30723",
@@ -335456,6 +335456,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52426",
+      "razao": "TUDO MARAVILHA SUPERMERCADO LTDA",
+      "fantasia": "TUDO MARAVILHA",
+      "bairro": "JARDIM PONTE GRANDE",
+      "cidade": "MOGI DAS CRUZES",
+      "cnpj": "31.884.848/0001-54",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "463",
+      "nome_usur1": "ROBERTO DOS SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
