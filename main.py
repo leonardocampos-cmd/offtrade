@@ -339,6 +339,21 @@ def main():
             print("[AVISO] exportacao_clientes_rca falhou — ignorado, pipeline continua.")
             traceback.print_exc()
 
+        step("8/9 - Performance Equipe (performance_equipe_data.js)")
+        try:
+            import subprocess, sys as _sys
+            result = subprocess.run(
+                [_sys.executable, "exportacao_performance_equipe.py"],
+                capture_output=True, text=True, timeout=900
+            )
+            print(result.stdout)
+            if result.returncode != 0:
+                print("[AVISO] exportacao_performance_equipe falhou — ignorado, pipeline continua.")
+                print(result.stderr)
+        except Exception:
+            print("[AVISO] exportacao_performance_equipe falhou — ignorado, pipeline continua.")
+            traceback.print_exc()
+
         step("8/9 - Comissão RJ Executivos/Pequenos Varejos (comissao_data.js)")
         try:
             import subprocess, sys as _sys

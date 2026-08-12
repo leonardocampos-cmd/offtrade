@@ -156,10 +156,10 @@ function init() {
 function _esc(s) { return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 
 const COLS = [
-  { key: 'nome', label: 'Vendedor', left: true },
+  { key: 'nome', label: 'Vendedor' },
   { key: 'base_cadastro', label: 'Base Cadastro' },
   { key: 'base_ativa', label: 'Base Ativa' },
-  { key: 'faturamento', label: 'Faturamento', vsAA: true, money: true },
+  { key: 'faturamento', label: 'Faturamento', vsAA: true },
   { key: 'positivacoes', label: 'Positivações', vsAA: true },
   { key: 'positivacoes_unicas', label: 'Pos. Únicas', vsAA: true, vsBase: true },
   { key: 'industrias', label: 'Indústrias' },
@@ -173,7 +173,7 @@ function renderHead() {
     let extra = '';
     if (c.vsAA) extra += `<th>vs ${ANO_ANTERIOR}</th>`;
     if (c.vsBase) extra += `<th>vs Base</th>`;
-    return `<th class="${c.left?'':''}" onclick="setSort('${c.key}')">${c.label}${_sortCol===c.key?(_sortDir===1?' &#9650;':' &#9660;'):''}</th>${extra}`;
+    return `<th onclick="setSort('${c.key}')">${c.label}${_sortCol===c.key?(_sortDir===1?' &#9650;':' &#9660;'):''}</th>${extra}`;
   }).join('');
   document.getElementById('thead-row').innerHTML = (_visao==='vendedor' ? '<th>Time</th>' : '') + th;
 }
@@ -249,7 +249,7 @@ function aplicarFiltro() {
 
 // ── Gráficos ─────────────────────────────────────────────────────────────
 const GRUPOS = [
-  { titulo: 'Faturamento', campo: 'faturamento', money: true },
+  { titulo: 'Faturamento', campo: 'faturamento' },
   { titulo: 'Positivação Única', campo: 'positivacoes_unicas' },
   { titulo: 'Qtd Indústrias / Cliente', campo: 'qtd_industria_cliente', media: true },
   { titulo: 'TDP (Soma de Itens Diferentes)', campo: 'tdp' },
@@ -279,11 +279,6 @@ function _agregarPorMes(linhas, ano, campo, media) {
   });
   const meses = Object.keys(soma).sort();
   return { meses, valores: meses.map(m => media ? soma[m]/n[m] : soma[m]) };
-}
-
-function _labelMes(m) {
-  const [y, mo] = m.split('-');
-  return new Date(y, mo-1, 1).toLocaleDateString('pt-BR', {month:'short'}).replace('.','');
 }
 
 function renderGraficos(linhas) {
