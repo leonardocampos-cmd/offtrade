@@ -9667,5 +9667,578 @@
         "tipo_segmento": "OFF TRADE"
       }
     ]
+  },
+  "19ff618b610c2f79": {
+    "subject": "PEDIDO CRC 04",
+    "data_email": "2026-08-12",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "1518",
+            "descricao": "CANTINA DA SERRA 1,5L",
+            "qt": 12,
+            "preco": 8.9,
+            "total": 106.8
+          },
+          {
+            "cod_prod": "6285",
+            "descricao": "CANTINA DA SERRA 750ML",
+            "qt": 12,
+            "preco": 4.0,
+            "total": 48.0
+          },
+          {
+            "cod_prod": "7777",
+            "descricao": "VINHO DOM BOSCO TINTO SUAVE",
+            "qt": 12,
+            "preco": 12.9,
+            "total": 154.8
+          },
+          {
+            "cod_prod": "296",
+            "descricao": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+            "qt": 2,
+            "preco": 127.0,
+            "total": 254.0
+          }
+        ],
+        "cod_cliente": "78947",
+        "razao_social": "SUPERMERCADO SHOW DE ECONOMIA LTDA.",
+        "fantasia": "SHOW DE ECONOMIA - JACAREPAGUA",
+        "cnpj": "49.949.145/0001-22",
+        "endereco": "AVENIDA ADAUTO BOTELHO, JACAREPAGUÁ - RIO DE JANEIRO",
+        "praca": "JACAREPAGUÁ",
+        "forma_pg": "Boleto",
+        "rca": "144 - DIOGO RAPOSO - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ]
+  },
+  "19ff6090c1cdbc89": {
+    "subject": "Fwd: Pedido do cliente 83909 RIO SUL DE XEREM",
+    "data_email": "2026-08-12",
+    "blocos": []
+  },
+  "19ff5d0bbae83882": {
+    "subject": "Pedido do cliente 83909 RIO SUL DE XEREM",
+    "data_email": "2026-08-12",
+    "blocos": []
+  },
+  "19ff282d62ce2b3d": {
+    "subject": "PEDIDO ZONA SUL - AGOSTO",
+    "data_email": "2026-08-11",
+    "blocos": []
+  },
+  "19ff18be3214fcc1": {
+    "subject": "PEDIDO MERCADO LEÃO - COD 95552",
+    "data_email": "2026-08-11",
+    "blocos": []
+  },
+  "19ff189d53e0be8e": {
+    "subject": "PEDIDO DO BIBI - 73314",
+    "data_email": "2026-08-11",
+    "blocos": []
+  },
+  "19ff187c136cfbe4": {
+    "subject": "PEDIDO CRC 04",
+    "data_email": "2026-08-11",
+    "blocos": []
+  },
+  "19ff1814e687b371": {
+    "subject": "PEDIDO CRC 04",
+    "data_email": "2026-08-11",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "479",
+            "descricao": "WHISKY CHANCELER 1L",
+            "qt": 60,
+            "preco": 14.9,
+            "total": 894.0
+          }
+        ],
+        "cod_cliente": "73317",
+        "razao_social": "MERCADINHO E HORTIFRUTI DO BIBI LTDA",
+        "fantasia": "MERCADINHO DO BIBI - REALENGO",
+        "cnpj": "49.994.998/0001-86",
+        "endereco": "RUA MESQUITA, REALENGO - RIO DE JANEIRO",
+        "praca": "REALENGO",
+        "forma_pg": "Boleto",
+        "rca": "144 - DIOGO RAPOSO - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ]
+  },
+  "19ff0546579f0699": {
+    "subject": "Pedido 27% - MAXFOODS",
+    "data_email": "2026-08-11",
+    "blocos": []
+  },
+  "19fed69394628f3f": {
+    "subject": "Re: PEDIDO MERCADO DONA ANA - COD 51189",
+    "data_email": "2026-08-10",
+    "blocos": []
+  },
+  "19fed66dcf9d9d38": {
+    "subject": "PEDIDO MERCADO DONA ANA - COD 51189",
+    "data_email": "2026-08-10",
+    "blocos": []
+  },
+  "19fed61fb80a7ef3": {
+    "subject": "Re: PEDIDO CRC 04",
+    "data_email": "2026-08-10",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "71",
+            "descricao": "AGUARDENTE OLD CESAR 88 965 ML",
+            "qt": 24,
+            "preco": 11.1,
+            "total": 266.4
+          }
+        ],
+        "cod_cliente": "51189",
+        "razao_social": "MERCADO DONA ANA EIRELI",
+        "fantasia": "MERCADO DONA ANA - JACAREPAGUA",
+        "cnpj": "41.738.497/0001-27",
+        "endereco": "ESTRADA DE JACAREPAGUA, JACAREPAGUA - RIO DE JANEIRO",
+        "praca": "JACAREPAGUA",
+        "forma_pg": "Boleto",
+        "rca": "144 - DIOGO RAPOSO - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ]
+  },
+  "19fed4028d666893": {
+    "subject": "Re: PEDIDO CRC 04",
+    "data_email": "2026-08-10",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "71",
+            "descricao": "AGUARDENTE OLD CESAR 88 965 ML",
+            "qt": 24,
+            "preco": 11.1,
+            "total": 266.4
+          }
+        ],
+        "cod_cliente": "51189",
+        "razao_social": "MERCADO DONA ANA EIRELI",
+        "fantasia": "MERCADO DONA ANA - JACAREPAGUA",
+        "cnpj": "41.738.497/0001-27",
+        "endereco": "ESTRADA DE JACAREPAGUA, JACAREPAGUA - RIO DE JANEIRO",
+        "praca": "JACAREPAGUA",
+        "forma_pg": "Boleto",
+        "rca": "144 - DIOGO RAPOSO - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ]
+  },
+  "19fed1caa49e93b5": {
+    "subject": "Fwd: PEDIDO MUNDIAL . URGENTE",
+    "data_email": "2026-08-10",
+    "blocos": []
+  },
+  "19fecf360b913a3d": {
+    "subject": "PEDIDO MUNDIAL . URGENTE",
+    "data_email": "2026-08-10",
+    "blocos": []
+  },
+  "19fecb6bf350a297": {
+    "subject": "Pedido Mundial . Urgente",
+    "data_email": "2026-08-10",
+    "blocos": []
+  },
+  "19fecb5cde1e2427": {
+    "subject": "Pedido do Cliente RIO SUL SUPREMO DA VILA",
+    "data_email": "2026-08-10",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "663",
+            "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+            "qt": 24,
+            "preco": 36.9,
+            "total": 885.6
+          },
+          {
+            "cod_prod": "4067",
+            "descricao": "VINHO VILLA ROSA FRISANTE BRANCO",
+            "qt": 12,
+            "preco": 29.9,
+            "total": 358.8
+          },
+          {
+            "cod_prod": "4068",
+            "descricao": "VINHO VILLA ROSA FRISANTE ROSE",
+            "qt": 12,
+            "preco": 29.9,
+            "total": 358.8
+          },
+          {
+            "cod_prod": "3814",
+            "descricao": "VINHO TINTO QUINTA DO MORGADO 750ML",
+            "qt": 24,
+            "preco": 14.49,
+            "total": 347.76
+          },
+          {
+            "cod_prod": "3816",
+            "descricao": "VINHO BORDO QUINTA DO MORGADO 750ML",
+            "qt": 24,
+            "preco": 17.9,
+            "total": 429.6
+          }
+        ],
+        "cod_cliente": "91575",
+        "razao_social": "SUPERMERCADO VITORIA DA VILA LTDA",
+        "fantasia": "VITORIA DA VILA - VILA SAO LUIS",
+        "cnpj": "26.175.533/0001-06",
+        "endereco": "AVENIDA PERIMETRAL PRUDENTE DE MORAIS, VILA SAO LUIS - DUQUE DE CAXIAS",
+        "praca": "VILA SAO LUIS",
+        "forma_pg": "Boleto",
+        "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ]
+  },
+  "19feca5dc24ec461": {
+    "subject": "Fwd: PEDIDO 2 LOJAS DO GMAP",
+    "data_email": "2026-08-10",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "484",
+            "descricao": "WHISKY JIM BEAM WHITE 1L",
+            "qt": 12,
+            "preco": 94.0,
+            "total": 1128.0
+          },
+          {
+            "cod_prod": "3151",
+            "descricao": "WHISKY JIM BEAM APPLE 1L",
+            "qt": 12,
+            "preco": 94.0,
+            "total": 1128.0
+          },
+          {
+            "cod_prod": "4570",
+            "descricao": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
+            "qt": 12,
+            "preco": 28.9,
+            "total": 346.8
+          },
+          {
+            "cod_prod": "2842",
+            "descricao": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+            "qt": 12,
+            "preco": 52.9,
+            "total": 634.8
+          },
+          {
+            "cod_prod": "2848",
+            "descricao": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+            "qt": 12,
+            "preco": 55.9,
+            "total": 670.8
+          },
+          {
+            "cod_prod": "2903",
+            "descricao": "VINHO ARCAIA PINOT GRIGIO ROSE 750ML",
+            "qt": 6,
+            "preco": 52.9,
+            "total": 317.4
+          },
+          {
+            "cod_prod": "4569",
+            "descricao": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
+            "qt": 18,
+            "preco": 28.9,
+            "total": 520.2
+          },
+          {
+            "cod_prod": "3051",
+            "descricao": "VINHO BRANCO BURDIZZO 750ML",
+            "qt": 12,
+            "preco": 55.9,
+            "total": 670.8
+          },
+          {
+            "cod_prod": "3828",
+            "descricao": "LATITUD 33 CABERNET SAUVIGNON",
+            "qt": 6,
+            "preco": 35.0,
+            "total": 210.0
+          }
+        ],
+        "cod_cliente": "77079",
+        "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
+        "fantasia": "SUPERMARKET",
+        "cnpj": "05.546.194/0015-44",
+        "endereco": "RUA BARAO DE INOA, 606, CENTRO - MARICA",
+        "praca": "CENTRO",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      },
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "484",
+            "descricao": "WHISKY JIM BEAM WHITE 1L",
+            "qt": 12,
+            "preco": 94.0,
+            "total": 1128.0
+          },
+          {
+            "cod_prod": "3151",
+            "descricao": "WHISKY JIM BEAM APPLE 1L",
+            "qt": 12,
+            "preco": 94.0,
+            "total": 1128.0
+          },
+          {
+            "cod_prod": "4570",
+            "descricao": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
+            "qt": 12,
+            "preco": 28.9,
+            "total": 346.8
+          },
+          {
+            "cod_prod": "2842",
+            "descricao": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+            "qt": 12,
+            "preco": 52.9,
+            "total": 634.8
+          },
+          {
+            "cod_prod": "2848",
+            "descricao": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+            "qt": 12,
+            "preco": 55.9,
+            "total": 670.8
+          },
+          {
+            "cod_prod": "2903",
+            "descricao": "VINHO ARCAIA PINOT GRIGIO ROSE 750ML",
+            "qt": 6,
+            "preco": 52.9,
+            "total": 317.4
+          },
+          {
+            "cod_prod": "4569",
+            "descricao": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
+            "qt": 18,
+            "preco": 28.9,
+            "total": 520.2
+          },
+          {
+            "cod_prod": "3051",
+            "descricao": "VINHO BRANCO BURDIZZO 750ML",
+            "qt": 12,
+            "preco": 55.9,
+            "total": 670.8
+          },
+          {
+            "cod_prod": "3828",
+            "descricao": "LATITUD 33 CABERNET SAUVIGNON",
+            "qt": 6,
+            "preco": 35.0,
+            "total": 210.0
+          }
+        ],
+        "cod_cliente": "73217",
+        "razao_social": "GMAP SUPERMERCADOS SA",
+        "fantasia": "GMAP SUPERMERCADOS",
+        "cnpj": "05.546.194/0023-54",
+        "endereco": "AVENIDA ALBERTO BRAUNE, 170, CENTRO - NOVA FRIBURGO",
+        "praca": "CENTRO",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ]
+  },
+  "19fec879f21e593b": {
+    "subject": "PEDIDO 2 LOJAS DO GMAP",
+    "data_email": "2026-08-10",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "484",
+            "descricao": "WHISKY JIM BEAM WHITE 1L",
+            "qt": 12,
+            "preco": 94.0,
+            "total": 1128.0
+          },
+          {
+            "cod_prod": "3151",
+            "descricao": "WHISKY JIM BEAM APPLE 1L",
+            "qt": 12,
+            "preco": 94.0,
+            "total": 1128.0
+          },
+          {
+            "cod_prod": "4570",
+            "descricao": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
+            "qt": 12,
+            "preco": 28.9,
+            "total": 346.8
+          },
+          {
+            "cod_prod": "2842",
+            "descricao": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+            "qt": 12,
+            "preco": 52.9,
+            "total": 634.8
+          },
+          {
+            "cod_prod": "2848",
+            "descricao": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+            "qt": 12,
+            "preco": 55.9,
+            "total": 670.8
+          },
+          {
+            "cod_prod": "2903",
+            "descricao": "VINHO ARCAIA PINOT GRIGIO ROSE 750ML",
+            "qt": 6,
+            "preco": 52.9,
+            "total": 317.4
+          },
+          {
+            "cod_prod": "4569",
+            "descricao": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
+            "qt": 18,
+            "preco": 28.9,
+            "total": 520.2
+          },
+          {
+            "cod_prod": "3051",
+            "descricao": "VINHO BRANCO BURDIZZO 750ML",
+            "qt": 12,
+            "preco": 55.9,
+            "total": 670.8
+          },
+          {
+            "cod_prod": "3828",
+            "descricao": "LATITUD 33 CABERNET SAUVIGNON",
+            "qt": 6,
+            "preco": 35.0,
+            "total": 210.0
+          }
+        ],
+        "cod_cliente": "77079",
+        "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
+        "fantasia": "SUPERMARKET",
+        "cnpj": "05.546.194/0015-44",
+        "endereco": "RUA BARAO DE INOA, 606, CENTRO - MARICA",
+        "praca": "CENTRO",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      },
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "484",
+            "descricao": "WHISKY JIM BEAM WHITE 1L",
+            "qt": 12,
+            "preco": 94.0,
+            "total": 1128.0
+          },
+          {
+            "cod_prod": "3151",
+            "descricao": "WHISKY JIM BEAM APPLE 1L",
+            "qt": 12,
+            "preco": 94.0,
+            "total": 1128.0
+          },
+          {
+            "cod_prod": "4570",
+            "descricao": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
+            "qt": 12,
+            "preco": 28.9,
+            "total": 346.8
+          },
+          {
+            "cod_prod": "2842",
+            "descricao": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+            "qt": 12,
+            "preco": 52.9,
+            "total": 634.8
+          },
+          {
+            "cod_prod": "2848",
+            "descricao": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+            "qt": 12,
+            "preco": 55.9,
+            "total": 670.8
+          },
+          {
+            "cod_prod": "2903",
+            "descricao": "VINHO ARCAIA PINOT GRIGIO ROSE 750ML",
+            "qt": 6,
+            "preco": 52.9,
+            "total": 317.4
+          },
+          {
+            "cod_prod": "4569",
+            "descricao": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
+            "qt": 18,
+            "preco": 28.9,
+            "total": 520.2
+          },
+          {
+            "cod_prod": "3051",
+            "descricao": "VINHO BRANCO BURDIZZO 750ML",
+            "qt": 12,
+            "preco": 55.9,
+            "total": 670.8
+          },
+          {
+            "cod_prod": "3828",
+            "descricao": "LATITUD 33 CABERNET SAUVIGNON",
+            "qt": 6,
+            "preco": 35.0,
+            "total": 210.0
+          }
+        ],
+        "cod_cliente": "73217",
+        "razao_social": "GMAP SUPERMERCADOS SA",
+        "fantasia": "GMAP SUPERMERCADOS",
+        "cnpj": "05.546.194/0023-54",
+        "endereco": "AVENIDA ALBERTO BRAUNE, 170, CENTRO - NOVA FRIBURGO",
+        "praca": "CENTRO",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ]
   }
 }

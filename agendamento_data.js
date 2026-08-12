@@ -25952,8 +25952,728 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "12/08/2026 10:10",
+  "atualizado_em": "12/08/2026 10:11",
   "comparativo": [
+    {
+      "msg_id": "19ff618b610c2f79",
+      "subject": "PEDIDO CRC 04",
+      "data_email": "2026-08-12",
+      "sistema": "CRC - 04",
+      "cod_cliente": "78947",
+      "razao_social": "SUPERMERCADO SHOW DE ECONOMIA LTDA.",
+      "fantasia": "SHOW DE ECONOMIA - JACAREPAGUA",
+      "cnpj": "49.949.145/0001-22",
+      "rca": "144 - DIOGO RAPOSO - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "1518",
+          "descricao": "CANTINA DA SERRA 1,5L",
+          "qt": 12,
+          "preco": 8.9,
+          "total": 106.8,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6285",
+          "descricao": "CANTINA DA SERRA 750ML",
+          "qt": 12,
+          "preco": 4.0,
+          "total": 48.0,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "7777",
+          "descricao": "VINHO DOM BOSCO TINTO SUAVE",
+          "qt": 12,
+          "preco": 12.9,
+          "total": 154.8,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "296",
+          "descricao": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "qt": 2,
+          "preco": 127.0,
+          "total": 254.0,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "19ff1814e687b371",
+      "subject": "PEDIDO CRC 04",
+      "data_email": "2026-08-11",
+      "sistema": "CRC - 04",
+      "cod_cliente": "73317",
+      "razao_social": "MERCADINHO E HORTIFRUTI DO BIBI LTDA",
+      "fantasia": "MERCADINHO DO BIBI - REALENGO",
+      "cnpj": "49.994.998/0001-86",
+      "rca": "144 - DIOGO RAPOSO - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "479",
+          "descricao": "WHISKY CHANCELER 1L",
+          "qt": 60,
+          "preco": 14.9,
+          "total": 894.0,
+          "qt_faturada": 60.0,
+          "valor_faturado": 894.0,
+          "status": "Faturado",
+          "nf": "7657",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "19fed61fb80a7ef3",
+      "subject": "Re: PEDIDO CRC 04",
+      "data_email": "2026-08-10",
+      "sistema": "CRC - 04",
+      "cod_cliente": "51189",
+      "razao_social": "MERCADO DONA ANA EIRELI",
+      "fantasia": "MERCADO DONA ANA - JACAREPAGUA",
+      "cnpj": "41.738.497/0001-27",
+      "rca": "144 - DIOGO RAPOSO - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "71",
+          "descricao": "AGUARDENTE OLD CESAR 88 965 ML",
+          "qt": 24,
+          "preco": 11.1,
+          "total": 266.4,
+          "qt_faturada": 24.0,
+          "valor_faturado": 266.4,
+          "status": "Faturado",
+          "nf": "7254",
+          "agendado": true
+        }
+      ]
+    },
+    {
+      "msg_id": "19fed4028d666893",
+      "subject": "Re: PEDIDO CRC 04",
+      "data_email": "2026-08-10",
+      "sistema": "CRC - 04",
+      "cod_cliente": "51189",
+      "razao_social": "MERCADO DONA ANA EIRELI",
+      "fantasia": "MERCADO DONA ANA - JACAREPAGUA",
+      "cnpj": "41.738.497/0001-27",
+      "rca": "144 - DIOGO RAPOSO - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "71",
+          "descricao": "AGUARDENTE OLD CESAR 88 965 ML",
+          "qt": 24,
+          "preco": 11.1,
+          "total": 266.4,
+          "qt_faturada": 24.0,
+          "valor_faturado": 266.4,
+          "status": "Faturado",
+          "nf": "7254",
+          "agendado": true
+        }
+      ]
+    },
+    {
+      "msg_id": "19fecb5cde1e2427",
+      "subject": "Pedido do Cliente RIO SUL SUPREMO DA VILA",
+      "data_email": "2026-08-10",
+      "sistema": "CRC - 04",
+      "cod_cliente": "91575",
+      "razao_social": "SUPERMERCADO VITORIA DA VILA LTDA",
+      "fantasia": "VITORIA DA VILA - VILA SAO LUIS",
+      "cnpj": "26.175.533/0001-06",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 24,
+          "preco": 36.9,
+          "total": 885.6,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4067",
+          "descricao": "VINHO VILLA ROSA FRISANTE BRANCO",
+          "qt": 12,
+          "preco": 29.9,
+          "total": 358.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 358.8,
+          "status": "Faturado",
+          "nf": "7437",
+          "agendado": true
+        },
+        {
+          "cod_prod": "4068",
+          "descricao": "VINHO VILLA ROSA FRISANTE ROSE",
+          "qt": 12,
+          "preco": 29.9,
+          "total": 358.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 358.8,
+          "status": "Faturado",
+          "nf": "7437",
+          "agendado": true
+        },
+        {
+          "cod_prod": "3814",
+          "descricao": "VINHO TINTO QUINTA DO MORGADO 750ML",
+          "qt": 24,
+          "preco": 14.49,
+          "total": 347.76,
+          "qt_faturada": 24.0,
+          "valor_faturado": 347.76,
+          "status": "Faturado",
+          "nf": "7437",
+          "agendado": true
+        },
+        {
+          "cod_prod": "3816",
+          "descricao": "VINHO BORDO QUINTA DO MORGADO 750ML",
+          "qt": 24,
+          "preco": 17.9,
+          "total": 429.6,
+          "qt_faturada": 24.0,
+          "valor_faturado": 429.6,
+          "status": "Faturado",
+          "nf": "7437",
+          "agendado": true
+        }
+      ]
+    },
+    {
+      "msg_id": "19feca5dc24ec461",
+      "subject": "Fwd: PEDIDO 2 LOJAS DO GMAP",
+      "data_email": "2026-08-10",
+      "sistema": "CRC - 04",
+      "cod_cliente": "77079",
+      "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "05.546.194/0015-44",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "484",
+          "descricao": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 12,
+          "preco": 94.0,
+          "total": 1128.0,
+          "qt_faturada": 12.0,
+          "valor_faturado": 1128.0,
+          "status": "Faturado",
+          "nf": "6760",
+          "agendado": true
+        },
+        {
+          "cod_prod": "3151",
+          "descricao": "WHISKY JIM BEAM APPLE 1L",
+          "qt": 12,
+          "preco": 94.0,
+          "total": 1128.0,
+          "qt_faturada": 12.0,
+          "valor_faturado": 1128.0,
+          "status": "Faturado",
+          "nf": "7429",
+          "agendado": true
+        },
+        {
+          "cod_prod": "4570",
+          "descricao": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
+          "qt": 12,
+          "preco": 28.9,
+          "total": 346.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 346.8,
+          "status": "Faturado",
+          "nf": "7429",
+          "agendado": true
+        },
+        {
+          "cod_prod": "2842",
+          "descricao": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "qt": 12,
+          "preco": 52.9,
+          "total": 634.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 634.8,
+          "status": "Faturado",
+          "nf": "7429",
+          "agendado": true
+        },
+        {
+          "cod_prod": "2848",
+          "descricao": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "qt": 12,
+          "preco": 55.9,
+          "total": 670.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 670.8,
+          "status": "Faturado",
+          "nf": "7429",
+          "agendado": true
+        },
+        {
+          "cod_prod": "2903",
+          "descricao": "VINHO ARCAIA PINOT GRIGIO ROSE 750ML",
+          "qt": 6,
+          "preco": 52.9,
+          "total": 317.4,
+          "qt_faturada": 6.0,
+          "valor_faturado": 317.4,
+          "status": "Faturado",
+          "nf": "7429",
+          "agendado": true
+        },
+        {
+          "cod_prod": "4569",
+          "descricao": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
+          "qt": 18,
+          "preco": 28.9,
+          "total": 520.2,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3051",
+          "descricao": "VINHO BRANCO BURDIZZO 750ML",
+          "qt": 12,
+          "preco": 55.9,
+          "total": 670.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 670.8,
+          "status": "Faturado",
+          "nf": "7429",
+          "agendado": true
+        },
+        {
+          "cod_prod": "3828",
+          "descricao": "LATITUD 33 CABERNET SAUVIGNON",
+          "qt": 6,
+          "preco": 35.0,
+          "total": 210.0,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "19feca5dc24ec461",
+      "subject": "Fwd: PEDIDO 2 LOJAS DO GMAP",
+      "data_email": "2026-08-10",
+      "sistema": "CRC - 04",
+      "cod_cliente": "73217",
+      "razao_social": "GMAP SUPERMERCADOS SA",
+      "fantasia": "GMAP SUPERMERCADOS",
+      "cnpj": "05.546.194/0023-54",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "484",
+          "descricao": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 12,
+          "preco": 94.0,
+          "total": 1128.0,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3151",
+          "descricao": "WHISKY JIM BEAM APPLE 1L",
+          "qt": 12,
+          "preco": 94.0,
+          "total": 1128.0,
+          "qt_faturada": 12.0,
+          "valor_faturado": 1128.0,
+          "status": "Faturado",
+          "nf": "7433",
+          "agendado": true
+        },
+        {
+          "cod_prod": "4570",
+          "descricao": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
+          "qt": 12,
+          "preco": 28.9,
+          "total": 346.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 346.8,
+          "status": "Faturado",
+          "nf": "7433",
+          "agendado": true
+        },
+        {
+          "cod_prod": "2842",
+          "descricao": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "qt": 12,
+          "preco": 52.9,
+          "total": 634.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 634.8,
+          "status": "Faturado",
+          "nf": "7433",
+          "agendado": true
+        },
+        {
+          "cod_prod": "2848",
+          "descricao": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "qt": 12,
+          "preco": 55.9,
+          "total": 670.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 670.8,
+          "status": "Faturado",
+          "nf": "7433",
+          "agendado": true
+        },
+        {
+          "cod_prod": "2903",
+          "descricao": "VINHO ARCAIA PINOT GRIGIO ROSE 750ML",
+          "qt": 6,
+          "preco": 52.9,
+          "total": 317.4,
+          "qt_faturada": 6.0,
+          "valor_faturado": 317.4,
+          "status": "Faturado",
+          "nf": "7433",
+          "agendado": true
+        },
+        {
+          "cod_prod": "4569",
+          "descricao": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
+          "qt": 18,
+          "preco": 28.9,
+          "total": 520.2,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3051",
+          "descricao": "VINHO BRANCO BURDIZZO 750ML",
+          "qt": 12,
+          "preco": 55.9,
+          "total": 670.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 670.8,
+          "status": "Faturado",
+          "nf": "7433",
+          "agendado": true
+        },
+        {
+          "cod_prod": "3828",
+          "descricao": "LATITUD 33 CABERNET SAUVIGNON",
+          "qt": 6,
+          "preco": 35.0,
+          "total": 210.0,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "19fec879f21e593b",
+      "subject": "PEDIDO 2 LOJAS DO GMAP",
+      "data_email": "2026-08-10",
+      "sistema": "CRC - 04",
+      "cod_cliente": "77079",
+      "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "05.546.194/0015-44",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "484",
+          "descricao": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 12,
+          "preco": 94.0,
+          "total": 1128.0,
+          "qt_faturada": 12.0,
+          "valor_faturado": 1128.0,
+          "status": "Faturado",
+          "nf": "6760",
+          "agendado": true
+        },
+        {
+          "cod_prod": "3151",
+          "descricao": "WHISKY JIM BEAM APPLE 1L",
+          "qt": 12,
+          "preco": 94.0,
+          "total": 1128.0,
+          "qt_faturada": 12.0,
+          "valor_faturado": 1128.0,
+          "status": "Faturado",
+          "nf": "7429",
+          "agendado": true
+        },
+        {
+          "cod_prod": "4570",
+          "descricao": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
+          "qt": 12,
+          "preco": 28.9,
+          "total": 346.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 346.8,
+          "status": "Faturado",
+          "nf": "7429",
+          "agendado": true
+        },
+        {
+          "cod_prod": "2842",
+          "descricao": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "qt": 12,
+          "preco": 52.9,
+          "total": 634.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 634.8,
+          "status": "Faturado",
+          "nf": "7429",
+          "agendado": true
+        },
+        {
+          "cod_prod": "2848",
+          "descricao": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "qt": 12,
+          "preco": 55.9,
+          "total": 670.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 670.8,
+          "status": "Faturado",
+          "nf": "7429",
+          "agendado": true
+        },
+        {
+          "cod_prod": "2903",
+          "descricao": "VINHO ARCAIA PINOT GRIGIO ROSE 750ML",
+          "qt": 6,
+          "preco": 52.9,
+          "total": 317.4,
+          "qt_faturada": 6.0,
+          "valor_faturado": 317.4,
+          "status": "Faturado",
+          "nf": "7429",
+          "agendado": true
+        },
+        {
+          "cod_prod": "4569",
+          "descricao": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
+          "qt": 18,
+          "preco": 28.9,
+          "total": 520.2,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3051",
+          "descricao": "VINHO BRANCO BURDIZZO 750ML",
+          "qt": 12,
+          "preco": 55.9,
+          "total": 670.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 670.8,
+          "status": "Faturado",
+          "nf": "7429",
+          "agendado": true
+        },
+        {
+          "cod_prod": "3828",
+          "descricao": "LATITUD 33 CABERNET SAUVIGNON",
+          "qt": 6,
+          "preco": 35.0,
+          "total": 210.0,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "19fec879f21e593b",
+      "subject": "PEDIDO 2 LOJAS DO GMAP",
+      "data_email": "2026-08-10",
+      "sistema": "CRC - 04",
+      "cod_cliente": "73217",
+      "razao_social": "GMAP SUPERMERCADOS SA",
+      "fantasia": "GMAP SUPERMERCADOS",
+      "cnpj": "05.546.194/0023-54",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "484",
+          "descricao": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 12,
+          "preco": 94.0,
+          "total": 1128.0,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3151",
+          "descricao": "WHISKY JIM BEAM APPLE 1L",
+          "qt": 12,
+          "preco": 94.0,
+          "total": 1128.0,
+          "qt_faturada": 12.0,
+          "valor_faturado": 1128.0,
+          "status": "Faturado",
+          "nf": "7433",
+          "agendado": true
+        },
+        {
+          "cod_prod": "4570",
+          "descricao": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
+          "qt": 12,
+          "preco": 28.9,
+          "total": 346.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 346.8,
+          "status": "Faturado",
+          "nf": "7433",
+          "agendado": true
+        },
+        {
+          "cod_prod": "2842",
+          "descricao": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "qt": 12,
+          "preco": 52.9,
+          "total": 634.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 634.8,
+          "status": "Faturado",
+          "nf": "7433",
+          "agendado": true
+        },
+        {
+          "cod_prod": "2848",
+          "descricao": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "qt": 12,
+          "preco": 55.9,
+          "total": 670.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 670.8,
+          "status": "Faturado",
+          "nf": "7433",
+          "agendado": true
+        },
+        {
+          "cod_prod": "2903",
+          "descricao": "VINHO ARCAIA PINOT GRIGIO ROSE 750ML",
+          "qt": 6,
+          "preco": 52.9,
+          "total": 317.4,
+          "qt_faturada": 6.0,
+          "valor_faturado": 317.4,
+          "status": "Faturado",
+          "nf": "7433",
+          "agendado": true
+        },
+        {
+          "cod_prod": "4569",
+          "descricao": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
+          "qt": 18,
+          "preco": 28.9,
+          "total": 520.2,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3051",
+          "descricao": "VINHO BRANCO BURDIZZO 750ML",
+          "qt": 12,
+          "preco": 55.9,
+          "total": 670.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 670.8,
+          "status": "Faturado",
+          "nf": "7433",
+          "agendado": true
+        },
+        {
+          "cod_prod": "3828",
+          "descricao": "LATITUD 33 CABERNET SAUVIGNON",
+          "qt": 6,
+          "preco": 35.0,
+          "total": 210.0,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
     {
       "msg_id": "19fdbe784cc15bdd",
       "subject": "Fwd: Pedido do cliente 89197 Pão com Letras",
@@ -26298,7 +27018,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 5880.0,
           "status": "Faturado",
           "nf": "7273, 7300",
-          "agendado": false
+          "agendado": true
         },
         {
           "cod_prod": "3830",
@@ -26310,7 +27030,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 3360.0,
           "status": "Faturado",
           "nf": "7273, 7300",
-          "agendado": false
+          "agendado": true
         },
         {
           "cod_prod": "3827",
@@ -26322,7 +27042,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 6720.0,
           "status": "Faturado",
           "nf": "7273, 7300",
-          "agendado": false
+          "agendado": true
         },
         {
           "cod_prod": "3826",
@@ -26334,7 +27054,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 3360.0,
           "status": "Faturado",
           "nf": "7273, 7300",
-          "agendado": false
+          "agendado": true
         }
       ]
     },
@@ -36646,11 +37366,11 @@ const AGENDAMENTO_DATA = {
           "qt": 18,
           "preco": 33.0,
           "total": 594.0,
-          "qt_faturada": 0.0,
-          "valor_faturado": 0.0,
-          "status": "Pendente",
-          "nf": "",
-          "agendado": false
+          "qt_faturada": 6.0,
+          "valor_faturado": 198.0,
+          "status": "Parcial",
+          "nf": "7431",
+          "agendado": true
         }
       ]
     },
