@@ -769,7 +769,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7437",
           "data_agendamento": "11/08/2026",
           "data_ord": "2026-08-11",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "EMBARCAR AS CAIXAS ORIGINAIS E ÍNTEGRAS",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -836,10 +836,10 @@ const AGENDAMENTO_DATA = {
           "cnpj": "33.475.000/0001-05",
           "filial": "PARADA ANGELICA",
           "valor": 1224.0,
-          "nf": "",
+          "nf": "7303",
           "data_agendamento": "06/08/2026",
           "data_ord": "2026-08-06",
-          "status": "A FATURAR",
+          "status": "ENTREGUE",
           "obs": "produtos em encarte.",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -6203,11 +6203,11 @@ const AGENDAMENTO_DATA = {
           "cliente": "MERCEARIA RECREIO FM",
           "cnpj": "55.438.902/0001-04",
           "filial": "RECREIO DOS BANDEIRANTES",
-          "valor": 1762.0,
-          "nf": "",
+          "valor": 1097.8,
+          "nf": "7656",
           "data_agendamento": "12/08/2026",
           "data_ord": "2026-08-12",
-          "status": "A FATURAR",
+          "status": "EM ROTA",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -6218,10 +6218,10 @@ const AGENDAMENTO_DATA = {
           "cnpj": "49.994.998/0001-86",
           "filial": "REALENGO",
           "valor": 894.0,
-          "nf": "",
+          "nf": "7657",
           "data_agendamento": "12/08/2026",
           "data_ord": "2026-08-12",
-          "status": "A FATURAR",
+          "status": "EM ROTA",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -16169,7 +16169,7 @@ const AGENDAMENTO_DATA = {
           "nf": "420074",
           "data_agendamento": "11/08/2026",
           "data_ord": "2026-08-11",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "(PAGAMENTO NO PIX) - CADA SKU EM PALETTS DIFERENTES -  PALLET TEM QUE SER FILMADO",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17285,7 +17285,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6780",
           "data_agendamento": "12/08/2026",
           "data_ord": "2026-08-12",
-          "status": "FATURADO",
+          "status": "ENTREGUE",
           "obs": "Caixas e rótulos íntegros;",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17299,7 +17299,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6781",
           "data_agendamento": "12/08/2026",
           "data_ord": "2026-08-12",
-          "status": "FATURADO",
+          "status": "ENTREGUE",
           "obs": "Caixas e rótulos íntegros; Bonificação",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17397,7 +17397,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7432",
           "data_agendamento": "11/08/2026",
           "data_ord": "2026-08-11",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "ENTREGA ATÉ ÁS 13H",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17411,7 +17411,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7436",
           "data_agendamento": "11/08/2026",
           "data_ord": "2026-08-11",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "SUPERMERCADO SUPERMAKET - BONIFICAÇÃO",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17425,7 +17425,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7430",
           "data_agendamento": "11/08/2026",
           "data_ord": "2026-08-11",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "SUPERMERCADO SUPERMAKET - PRODUTOS EM ENCARTE",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17439,7 +17439,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7434",
           "data_agendamento": "11/08/2026",
           "data_ord": "2026-08-11",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "SUPERMERCADO SUPERMAKET - PRODUTOS EM ENCARTE",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -22158,7 +22158,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7016",
           "data_agendamento": "07/08/2026",
           "data_ord": "2026-08-07",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO ELETRONICAMENTE",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -24941,8 +24941,8 @@ const AGENDAMENTO_DATA = {
           "cliente": "MERCADO IDEAL DE JACAREI LTDA",
           "cnpj": "09.567.039/0001-60",
           "filial": "MANGARATIBA",
-          "valor": 1571.04,
-          "nf": "",
+          "valor": 1303.68,
+          "nf": "7310",
           "data_agendamento": "06/08/2026",
           "data_ord": "2026-08-06",
           "status": "FATURADO",
@@ -24955,11 +24955,11 @@ const AGENDAMENTO_DATA = {
           "cliente": "JM LISAMAR SUPERMERCADO LTDA",
           "cnpj": "17.386.414/0001-01",
           "filial": "CONCEICAO DE JACAREI",
-          "valor": 645.6,
-          "nf": "",
+          "valor": 466.8,
+          "nf": "7301",
           "data_agendamento": "06/08/2026",
           "data_ord": "2026-08-06",
-          "status": "A FATURAR",
+          "status": "ENTREGUE",
           "obs": "ROTA DE VIAGEM",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -25952,7 +25952,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "12/08/2026 15:41",
+  "atualizado_em": "12/08/2026 17:24",
   "comparativo": [
     {
       "msg_id": "19ff618b610c2f79",
