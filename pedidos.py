@@ -279,7 +279,25 @@ def _caminho_controle_notas_local(ano, mm):
     return str(candidatos[0]) if candidatos else str(pasta_dir)
 
 
+_RE_ABA_DATA = re.compile(r'^(\d{1,2})[.\-](\d{1,2})$')
+
+
+def _data_da_aba(nome_aba, ano):
+    """Aba é nomeada 'dd.mm' ou 'dd-mm' (dia da rota/entrega) — mesmo padrão
+    já usado pra achar a aba de hoje (_hoje_str/_hoje_str_hif). Devolve
+    'YYYY-MM-DD' ou None se o nome não bater com esse padrão."""
+    m = _RE_ABA_DATA.match(str(nome_aba).strip())
+    if not m:
+        return None
+    dd, mm = int(m.group(1)), int(m.group(2))
+    try:
+        return date(ano, mm, dd).strftime('%Y-%m-%d')
+    except ValueError:
+        return None
+
+
 _status_por_nf: dict = {}
+_data_entrega_por_nf: dict = {}
 # Do mais antigo pro mais recente: uma NF pode aparecer em mais de um mês
 # (reentrega depois de "VOLTOU" etc.) — o mês mais recente tem que
 # sobrescrever o mais antigo, não o contrário (_meses_recentes() devolve
@@ -296,9 +314,10 @@ for _ano, _mes in reversed(_meses_recentes()):
     except Exception as _ex:
         print(f"[AVISO] Controle de Notas {_mm}/{_ano} indisponível ({str(_ex)[:80]}) — ignorado")
         continue
-    for _df_aba in _abas.values():
+    for _nome_aba, _df_aba in _abas.items():
         if 'Nº NF' not in _df_aba.columns or 'STATUS' not in _df_aba.columns:
             continue
+        _data_aba = _data_da_aba(_nome_aba, _ano)
         _sub = _df_aba[['Nº NF', 'STATUS']].copy()
         _sub['Nº NF'] = pd.to_numeric(_sub['Nº NF'], errors='coerce')
         _sub = _sub.dropna(subset=['Nº NF'])
@@ -306,6 +325,8 @@ for _ano, _mes in reversed(_meses_recentes()):
             _status = str(_r['STATUS']).strip().upper() if pd.notna(_r['STATUS']) else ''
             if _status:
                 _status_por_nf[int(_r['Nº NF'])] = _status
+                if _data_aba:
+                    _data_entrega_por_nf[int(_r['Nº NF'])] = _data_aba
 
 print(f"Status de logística: {len(_status_por_nf)} NF(s) mapeada(s) (últimos {_meses_recentes.__defaults__[0]} meses)")
 
@@ -355,8 +376,11 @@ def _rota_info(numnota):
 # arquivo). Cobre só pedidos do sistema SPON; outras bases ficam sem status
 # aqui mesmo (RJ já vem de _status_por_nf acima).
 
+_RE_ENTREGUE_EM = re.compile(r'Entregue em:\s*(\d{1,2})/(\d{1,2})/(\d{2,4})', re.IGNORECASE)
+
 _canhoto_path = Path(__file__).parent / 'canhoto_status.json'
 _canhoto_por_nf: dict = {}
+_canhoto_data_entrega_por_nf: dict = {}
 if _canhoto_path.exists():
     try:
         _canhoto_raw = json.loads(_canhoto_path.read_text(encoding='utf-8'))
@@ -364,6 +388,16 @@ if _canhoto_path.exists():
             nf: (info.get('sub_status') or info.get('status') or '')
             for nf, info in _canhoto_raw.items()
         }
+        # 'info' tem texto livre tipo "Entregue em: 15/07/2026 às 16:14".
+        for _nf, _info in _canhoto_raw.items():
+            _m = _RE_ENTREGUE_EM.search(_info.get('info') or '')
+            if _m:
+                _dd, _mm, _yy = int(_m.group(1)), int(_m.group(2)), _m.group(3)
+                _yy = int(_yy) if len(_yy) == 4 else 2000 + int(_yy)
+                try:
+                    _canhoto_data_entrega_por_nf[_nf] = date(_yy, _mm, _dd).strftime('%Y-%m-%d')
+                except ValueError:
+                    pass
         print(f"Canhoto Digital: {len(_canhoto_por_nf)} NF(s) mapeada(s) (cache local)")
     except Exception as e:
         print(f"Aviso: falha ao ler canhoto_status.json ({e})")
@@ -374,6 +408,18 @@ def _status_log(numnota, sistema=''):
         return _canhoto_por_nf.get(_nf_clean(numnota), '')
     try:
         return _status_por_nf.get(int(float(numnota)), '')
+    except (ValueError, TypeError):
+        return ''
+
+
+def _data_entrega(numnota, sistema=''):
+    """Data real de entrega (dd/mm/aaaa -> YYYY-MM-DD), ou '' se não achou —
+    RJ vem da aba (dia da rota) em Controle de Notas, SP do texto 'Entregue
+    em:' do Canhoto Digital."""
+    if sistema == 'SPON':
+        return _canhoto_data_entrega_por_nf.get(_nf_clean(numnota), '')
+    try:
+        return _data_entrega_por_nf.get(int(float(numnota)), '')
     except (ValueError, TypeError):
         return ''
 
@@ -682,6 +728,7 @@ def _agrupar(df, com_status_log=False):
             # atribuída (sem desfecho ainda), mostra "EM ROTA" na coluna
             # Status Logística em vez de deixar em branco.
             item['status_log'] = _status if _status else ('EM ROTA' if _rota is not None else '')
+            item['data_entrega'] = _data_entrega(nf, sistema) if nf else ''
         _preco_motivo = _preco_motivo_bloqueio(item)
         if _preco_motivo:
             (item['motivo_codprod'], item['motivo_produto'],

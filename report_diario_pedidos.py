@@ -21,7 +21,7 @@ import base64
 import json
 import re
 import io
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from email.mime.application import MIMEApplication
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -77,6 +77,11 @@ _RE_AGENDAMENTO = re.compile(
 _STATUS_ENTREGUE = {'ENTREGUE', 'COMPROVADO'}
 
 
+def _eh_status_entregue(status_log):
+    s = (status_log or '').strip().upper()
+    return s in _STATUS_ENTREGUE or 'ENTREGA TOTAL' in s
+
+
 def _parse_agendamento(obs):
     if not obs:
         return None
@@ -93,16 +98,18 @@ def _parse_agendamento(obs):
     return f'{dd}/{mm}/{yy}'
 
 
-def _dias_sem_entrega(status_log, agendamento_str):
-    """None se já entregue, sem obs de agendamento, ou agendamento no futuro."""
-    if not agendamento_str:
-        return None
-    s = (status_log or '').strip().upper()
-    if s in _STATUS_ENTREGUE or 'ENTREGA TOTAL' in s:
-        return None
-    dt = datetime.strptime(agendamento_str, '%d/%m/%Y').date()
-    dias = (date.today() - dt).days
-    return dias if dias > 0 else None
+def _filtrar_faturados_entregues_ontem(pedidos):
+    """Report diário (pedido do usuário em 2026-08-12): só entram na aba
+    Faturados os pedidos com status de entrega (ENTREGUE/COMPROVADO/ENTREGA
+    TOTAL — mesmo critério do badge verde em pedidos.html) cuja entrega
+    aconteceu no dia anterior ('data_entrega', ver pedidos.py). Só afeta o
+    report — pedidos.html continua mostrando todos os Faturados dos últimos
+    90 dias, sem esse filtro."""
+    ontem = (date.today() - timedelta(days=1)).strftime('%Y-%m-%d')
+    return [
+        p for p in pedidos
+        if _eh_status_entregue(p.get('status_log')) and p.get('data_entrega') == ontem
+    ]
 
 
 def _linhas_pedidos(pedidos, campo_extra, label_extra):
@@ -113,11 +120,8 @@ def _linhas_pedidos(pedidos, campo_extra, label_extra):
     for p in pedidos:
         itens = p.get('itens') or [{'desc': '', 'qt': '', 'val': ''}]
         # Agendamento (obs) aparece em qualquer aba — mesmo padrão do badge
-        # 📅 já mostrado em pedidos.html independente da aba. "Dias sem
-        # Entrega" só faz sentido depois de faturado, por isso continua
-        # exclusivo de Faturados.
+        # 📅 já mostrado em pedidos.html independente da aba.
         agendamento = _parse_agendamento(p.get('obs'))
-        dias_sem_entrega = _dias_sem_entrega(p.get(campo_extra), agendamento) if is_faturados else None
         # 'total' do pedido cancelado é sempre 0 (nada foi faturado) —
         # 'valor_cortado_total' (ver pedidos.py) é o valor real que importa.
         valor_total = p.get('valor_cortado_total') if is_cancelados else p.get('total')
@@ -137,7 +141,7 @@ def _linhas_pedidos(pedidos, campo_extra, label_extra):
                 'Agendamento':   agendamento,
             }
             if is_faturados:
-                linha['Dias sem Entrega'] = dias_sem_entrega
+                linha['Data Entrega'] = p.get('data_entrega') or ''
             linhas.append(linha)
     return pd.DataFrame(linhas)
 
@@ -204,18 +208,9 @@ def _resumo(tabelas_pedidos, cortados_filtrados):
         if aba == 'Pedidos Feitos':
             qtd_agendado = sum(1 for p in pedidos if _parse_agendamento(p.get('obs')))
             linhas.append({'Métrica': f'{aba} — Com Agendamento', 'Valor': qtd_agendado})
-        if aba == 'Faturados':
-            qtd_aberto = sum(1 for p in pedidos if (p.get('status_log') or '').strip().upper() == 'ABERTO')
-            linhas.append({'Métrica': f'{aba} — Notas em Aberto', 'Valor': qtd_aberto})
-
-            sem_status = [p for p in pedidos if not (p.get('status_log') or '').strip()]
-            linhas.append({'Métrica': f'{aba} — Sem Status/Entrega', 'Valor': len(sem_status)})
-            dias_atraso = [
-                d for p in sem_status
-                if (d := _dias_sem_entrega(p.get('status_log'), _parse_agendamento(p.get('obs')))) is not None
-            ]
-            if dias_atraso:
-                linhas.append({'Métrica': f'{aba} — Dias sem Entrega (máx)', 'Valor': max(dias_atraso)})
+        # Faturados agora já vem filtrado só pros entregues no dia anterior
+        # (_filtrar_faturados_entregues_ontem) — métricas de "sem status"/
+        # "notas em aberto" não fazem mais sentido aqui, removidas.
     linhas.append({'Métrica': 'Produtos Cortados — Qtd Itens', 'Valor': len(cortados_filtrados)})
     linhas.append({
         'Métrica': 'Produtos Cortados — Qtd Total Cortada',
@@ -235,6 +230,8 @@ def montar_tabelas(payload, estoque_idx, estado):
     tabelas_pedidos = []
     for chave, campo_extra, label_extra, aba in _ABAS_PEDIDOS:
         pedidos_filtrados = _filtrar_estado(payload.get(chave, []), estado)
+        if chave == 'faturados':
+            pedidos_filtrados = _filtrar_faturados_entregues_ontem(pedidos_filtrados)
         tabelas_pedidos.append((aba, pedidos_filtrados))
 
     cortados_filtrados = _filtrar_estado(payload.get('produtos_cortados', []), estado)
@@ -272,6 +269,38 @@ def _fmt_metrica(label, valor):
     return f'{int(valor):,}'.replace(',', '.')
 
 
+# Cor por aba — mesma linguagem visual de pedidos.html (accent por status),
+# só pra diferenciar as seções de relance na hora de rolar o e-mail.
+_ABA_COR = {
+    'Resumo':              '#f5c518',
+    'Pedidos Feitos':      '#60a5fa',
+    'Faturados':           '#4ade80',
+    'Cortados-Cancelados': '#ef4444',
+    'Produtos Cortados':   '#fb923c',
+}
+
+# Badge de status logística — mesmas categorias/cores de _statusLogBadge em
+# pedidos.html.
+_STATUS_BADGE_COR = [
+    (lambda s: s in ('ENTREGUE', 'COMPROVADO') or 'ENTREGA TOTAL' in s, '#4ade80'),
+    (lambda s: s == 'RETORNO' or 'ENTREGA PARCIAL' in s,                '#fb923c'),
+    (lambda s: s == 'CANCELADA',                                        '#ef4444'),
+    (lambda s: s == 'EM ROTA',                                          '#60a5fa'),
+    (lambda s: s == 'CARREGADO',                                        '#a78bfa'),
+    (lambda s: s == 'ABERTO',                                           '#eab308'),
+]
+
+
+def _status_badge_html(status):
+    s = str(status or '').strip().upper()
+    if not s or s == 'SEM STATUS':
+        cor = '#94a3b8'
+    else:
+        cor = next((c for teste, c in _STATUS_BADGE_COR if teste(s)), '#94a3b8')
+    label = status if status else 'Sem status'
+    return f"<span class='badge' style='background:{cor}22;color:{cor};border-color:{cor}55'>{label}</span>"
+
+
 def montar_html(tabelas, estado, hoje_str):
     resumo_df = tabelas.get('Resumo')
     secoes = []
@@ -288,33 +317,25 @@ def montar_html(tabelas, estado, hoje_str):
                 ]
                 resumo_aba = f"<div class='resumo-cards'>{''.join(cartoes)}</div>"
 
-        alerta = ''
-        if aba == 'Faturados' and 'Dias sem Entrega' in df.columns:
-            # Mesmo filtro do card "Sem Status/Entrega" do resumo (status_log
-            # vazio) — sem isso, pedidos com status tipo CANCELADA/RETORNO
-            # também contavam aqui com um "dias sem entrega" sem sentido pra
-            # esse alerta (ex.: agendamento antigo de um pedido já resolvido).
-            problema = df[(df['Status Logística'] == 'Sem status') & df['Dias sem Entrega'].notna()].drop_duplicates(subset=['Pedido'])
-            if not problema.empty:
-                maxd = int(problema['Dias sem Entrega'].max())
-                alerta = (
-                    f"<div class='alerta'>&#9888; {len(problema)} nota(s) faturada(s) sem status de "
-                    f"logística nem confirmação de entrega — até {maxd} dia(s) após a data agendada na obs.</div>"
-                )
-
         if aba == 'Resumo':
             linhas_html = "".join(
                 f"<tr><td>{row['Métrica']}</td><td class='num'>{_fmt_metrica(row['Métrica'], row['Valor'])}</td></tr>"
                 for _, row in df.iterrows()
             )
             tabela_html = f"<table><thead><tr><th>Métrica</th><th>Valor</th></tr></thead><tbody>{linhas_html}</tbody></table>"
+        elif aba == 'Faturados' and 'Status Logística' in df.columns:
+            df_render = df.copy()
+            df_render['Status Logística'] = df_render['Status Logística'].apply(_status_badge_html)
+            tabela_html = df_render.to_html(index=False, na_rep='', border=0, escape=False)
         else:
             tabela_html = df.to_html(index=False, na_rep='', border=0)
 
+        cor = _ABA_COR.get(aba, '#f5c518')
         aberto = ' open' if aba == 'Resumo' else ''
         secoes.append(
-            f"<details{aberto}><summary>{aba} <span class='qtd'>({len(df)})</span></summary>\n"
-            f"{resumo_aba}\n{alerta}\n{tabela_html}\n</details>"
+            f"<details{aberto} style='border-left:3px solid {cor}'>"
+            f"<summary style='color:{cor}'>{aba} <span class='qtd'>({len(df)})</span></summary>\n"
+            f"{resumo_aba}\n{tabela_html}\n</details>"
         )
     corpo = "\n".join(secoes)
     return f"""<!DOCTYPE html>
@@ -342,7 +363,7 @@ def montar_html(tabelas, estado, hoje_str):
   .card .lbl {{ font-size:.62rem; text-transform:uppercase; letter-spacing:.06em; color:#94a3b8; margin-bottom:4px; }}
   .card .val {{ font-size:1.15rem; font-weight:700; color:#e2e8f0; }}
   .card.money .val {{ color:#f5c518; }}
-  .alerta {{ margin-top:10px; padding:8px 12px; border-radius:8px; background:rgba(239,68,68,.15); border:1px solid #ef4444; color:#fca5a5; font-size:.82rem; }}
+  .badge {{ display:inline-block; padding:2px 9px; border-radius:99px; font-size:.72rem; font-weight:700; border:1px solid; white-space:nowrap; }}
 </style>
 </head>
 <body>
