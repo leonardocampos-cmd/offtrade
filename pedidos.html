@@ -275,7 +275,7 @@ const THEAD_PADRAO = `
   <th class="hide-mob" onclick="ordenarPor('cidade')">Cidade</th>
   <th onclick="ordenarPor('cliente')">Cliente</th>
   <th id="th-extra"></th>
-  <th onclick="ordenarPor('total')">Total</th>
+  <th id="th-total" onclick="ordenarPor('total')">Total</th>
 `;
 
 const THEAD_CORTADOS = `
@@ -314,6 +314,14 @@ function _saldoEstoque(item) {
 
 if (DATA && DATA.produtos_cortados) {
   DATA.produtos_cortados.forEach(p => { p.saldo_estoque = _saldoEstoque(p); });
+}
+
+// 'total' do pedido cancelado é sempre 0 (nada foi faturado) — o que importa
+// pra essa aba é o valor cortado, somado a partir dos itens do pedido.
+if (DATA && DATA.cancelados) {
+  DATA.cancelados.forEach(p => {
+    p.valor_cortado_pedido = (p.itens || []).reduce((s, it) => s + (Number(it.valor_cortado) || 0), 0);
+  });
 }
 
 let _abaAtual = 'pedidos_feitos';
@@ -365,6 +373,14 @@ function montarTabs() {
       th.onclick = null;
     }
     document.getElementById('th-nf').style.display = _abaAtual === 'pedidos_feitos' ? 'none' : '';
+    const thTotal = document.getElementById('th-total');
+    if (_abaAtual === 'cancelados') {
+      thTotal.textContent = 'Valor Cortado';
+      thTotal.onclick = () => ordenarPor('valor_cortado_pedido');
+    } else {
+      thTotal.textContent = 'Total';
+      thTotal.onclick = () => ordenarPor('total');
+    }
   }
 
   document.getElementById('ms-status').style.display = _abaAtual === 'pedidos_feitos' ? '' : 'none';
@@ -775,7 +791,8 @@ function _filtrados() {
 }
 
 function montarKpis(lista) {
-  const total = lista.reduce((s, p) => s + (Number(p.total) || 0), 0);
+  const cancelados = _abaAtual === 'cancelados';
+  const total = lista.reduce((s, p) => s + (Number(cancelados ? p.valor_cortado_pedido : p.total) || 0), 0);
   const qtdClientes = new Set(lista.map(p => p.cliente)).size;
   const flat = _abaAtual === 'produtos_cortados';
   const cardExtra = flat
@@ -790,7 +807,7 @@ function montarKpis(lista) {
     : '';
   document.getElementById('kpis').innerHTML = `
     <div class="kpi">
-      <div class="label">Valor Total</div>
+      <div class="label">${cancelados ? 'Valor Cortado' : 'Valor Total'}</div>
       <div class="val">${brl(total)}</div>
     </div>
     <div class="kpi">
@@ -850,7 +867,7 @@ function aplicarFiltro() {
       <td class="hide-mob">${_esc(p.cidade)}</td>
       <td>${_esc(p.cliente)}${agendado ? ` <span class="badge-agendado">📅 ${agendado}</span>` : ''}${(_abaAtual === 'faturados' && p.tem_corte) ? ` <span class="badge-corte">✂ CORTE PARCIAL</span>` : ''}${(_abaAtual === 'faturados' && p.em_rota) ? ` <span class="badge-rota">🚚 EM ROTA${p.rota ? ': ' + _esc(p.rota) : ''}</span>` : ''}${_abaAtual === 'pedidos_feitos' ? _posicaoBadge(p.posicao) : ''}</td>
       ${abaInfo.colExtra ? `<td>${abaInfo.colExtra.render(p)}</td>` : ''}
-      <td>${brl(p.total)}</td>
+      <td>${brl(_abaAtual === 'cancelados' ? p.valor_cortado_pedido : p.total)}</td>
     </tr>
     <tr class="linha-itens ${expandido ? '' : 'oculta'}" id="itens-${_esc(chave)}">
       <td colspan="${totalCols}">${_montarItens(p)}</td>
@@ -981,7 +998,8 @@ function exportarCSV() {
   }
 
   const abaInfo = ABAS.find(a => a.chave === _abaAtual);
-  const header = ['Pedido','NF','Data','Vendedor','Estado','Cidade','Cliente','Agendamento', ...(abaInfo.colExtra ? [abaInfo.colExtra.label] : []), 'Produto', 'Qtd', 'Valor Produto', 'Total Pedido'];
+  const cancelados = _abaAtual === 'cancelados';
+  const header = ['Pedido','NF','Data','Vendedor','Estado','Cidade','Cliente','Agendamento', ...(abaInfo.colExtra ? [abaInfo.colExtra.label] : []), 'Produto', 'Qtd', 'Valor Produto', cancelados ? 'Valor Cortado' : 'Total Pedido'];
   const linhas = lista.flatMap(p => {
     const itens = (p.itens && p.itens.length) ? p.itens : [{ desc: '', qt: '', val: '' }];
     return itens.map(it => [
@@ -997,7 +1015,7 @@ function exportarCSV() {
       it.desc,
       it.qt,
       it.val,
-      p.total,
+      cancelados ? p.valor_cortado_pedido : p.total,
     ].map(v => `"${String(v??'').replace(/"/g,'""')}"`).join(';'));
   });
 
