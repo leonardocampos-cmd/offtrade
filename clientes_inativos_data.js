@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "12/08/2026 17:42",
+  "atualizado_em": "12/08/2026 17:56",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -8820,15 +8820,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "13/01/2026",
           "dias": 211,
           "media": 220.03
-        },
-        {
-          "codcli": "50390",
-          "cliente": "MEGA MIX COMERCIO DE BEBIDAS LTDA",
-          "bairro": "CEM BRACAS",
-          "cidade": "ARMACAO DOS BUZ",
-          "dtultcomp": "12/03/2026",
-          "dias": 153,
-          "media": 456.22
         },
         {
           "codcli": "8782",
