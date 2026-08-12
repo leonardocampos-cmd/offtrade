@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "12/08/2026 11:39",
+  "atualizado_em": "12/08/2026 15:17",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -521,10 +521,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 200000.0,
-          "realizado": 46740.67,
+          "realizado": 45411.67,
           "peso": 0.7,
-          "ating_meta": 0.233703,
-          "ating_acumulado": 0.163592
+          "ating_meta": 0.227058,
+          "ating_acumulado": 0.158941
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -537,10 +537,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO CASTAS",
           "meta": 10000.0,
-          "realizado": 8848.5,
+          "realizado": 7519.5,
           "peso": 0.1,
-          "ating_meta": 0.88485,
-          "ating_acumulado": 0.088485
+          "ating_meta": 0.75195,
+          "ating_acumulado": 0.075195
         },
         {
           "label": "FATURAMENTO HOB + AZEITE",
@@ -561,10 +561,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO",
           "meta": 50.0,
-          "realizado": 12,
+          "realizado": 11,
           "peso": 0.1,
-          "ating_meta": 0.24,
-          "ating_acumulado": 0.024
+          "ating_meta": 0.22,
+          "ating_acumulado": 0.022
         },
         {
           "label": "POSITIVAÇÃO ESSENZA",
@@ -631,14 +631,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.0
         }
       ],
-      "ating_acumulado_total": 0.285893,
-      "pct_premio": 0.00428839,
+      "ating_acumulado_total": 0.265952,
+      "pct_premio": 0.00398928,
       "liq_rigarr": 40416.64,
-      "fat_castas": 8848.5,
+      "fat_castas": 7519.5,
       "teto_comissao": null,
-      "com_rigarr": 173.32,
-      "com_castas": 37.95,
-      "comissao_estimada": 211.27
+      "com_rigarr": 161.23,
+      "com_castas": 30.0,
+      "comissao_estimada": 191.23
     },
     {
       "nome": "LEANDRO SOUZA - OFF TRADE",
@@ -1029,18 +1029,18 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 120000.0,
-          "realizado": 52652.87,
+          "realizado": 54939.27,
           "peso": 0.7,
-          "ating_meta": 0.438774,
-          "ating_acumulado": 0.307142
+          "ating_meta": 0.457827,
+          "ating_acumulado": 0.320479
         },
         {
           "label": "FATURAMENTO PERNOD",
           "meta": 7000.0,
-          "realizado": 2255.72,
+          "realizado": 2419.42,
           "peso": 0.05,
-          "ating_meta": 0.322246,
-          "ating_acumulado": 0.016112
+          "ating_meta": 0.345631,
+          "ating_acumulado": 0.017282
         },
         {
           "label": "FATURAMENTO CASTAS",
@@ -1069,10 +1069,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO",
           "meta": 90.0,
-          "realizado": 47,
+          "realizado": 48,
           "peso": 0.1,
-          "ating_meta": 0.522222,
-          "ating_acumulado": 0.052222
+          "ating_meta": 0.533333,
+          "ating_acumulado": 0.053333
         },
         {
           "label": "POSITIVAÇÃO ESSENZA",
@@ -1125,7 +1125,7 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO TATUZINHO",
           "meta": 0.0,
-          "realizado": 27,
+          "realizado": 28,
           "peso": 0.0,
           "ating_meta": 0.0,
           "ating_acumulado": 0.0
@@ -1139,14 +1139,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.0
         }
       ],
-      "ating_acumulado_total": 0.438799,
-      "pct_premio": 0.00658198,
+      "ating_acumulado_total": 0.454417,
+      "pct_premio": 0.00681626,
       "liq_rigarr": 13359.23,
       "fat_castas": 3108.16,
       "teto_comissao": null,
-      "com_rigarr": 87.93,
-      "com_castas": 20.46,
-      "comissao_estimada": 108.39
+      "com_rigarr": 91.06,
+      "com_castas": 21.19,
+      "comissao_estimada": 112.25
     },
     {
       "nome": "DANIELLE MOURA - OFF TRADE",
@@ -1395,12 +1395,12 @@ const COMISSAO_DATA = {
       ],
       "ating_acumulado_total": 0.192588,
       "pct_premio": 0.00288882,
-      "liq_rigarr": 12637.8,
+      "liq_rigarr": 13481.18,
       "fat_castas": 5059.2,
       "teto_comissao": null,
-      "com_rigarr": 36.51,
+      "com_rigarr": 38.94,
       "com_castas": 14.62,
-      "comissao_estimada": 51.13
+      "comissao_estimada": 53.56
     },
     {
       "nome": "BARBARA CABRAL - OFF TRADE",
@@ -1522,12 +1522,12 @@ const COMISSAO_DATA = {
       ],
       "ating_acumulado_total": 0.094738,
       "pct_premio": 0.00142107,
-      "liq_rigarr": 17138.62,
+      "liq_rigarr": 17728.31,
       "fat_castas": 793.5,
       "teto_comissao": null,
-      "com_rigarr": 24.36,
+      "com_rigarr": 25.19,
       "com_castas": 1.13,
-      "comissao_estimada": 25.49
+      "comissao_estimada": 26.32
     },
     {
       "nome": "MARIA LUIZA - OFF TRADE",
