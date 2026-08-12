@@ -209,12 +209,14 @@ function _vendedoresFiltrados() {
   const time = document.getElementById('fil-time').value;
   const sistema = document.getElementById('fil-sistema').value;
   const uf = document.getElementById('fil-uf').value;
+  const tipo = document.getElementById('fil-tipo').value;
   const busca = document.getElementById('fil-busca').value.trim().toLowerCase();
   return D.vendedores.filter(r => {
     if (gerente && (r.gerente||'') !== gerente) return false;
     if (time && (r.time_label||'') !== time) return false;
     if (sistema && r.sistema !== sistema) return false;
     if (uf && r.estado !== uf) return false;
+    if (tipo && (r.tipo_vendedor||'') !== tipo) return false;
     if (busca && !(r.nome||'').toLowerCase().includes(busca)) return false;
     return true;
   });
