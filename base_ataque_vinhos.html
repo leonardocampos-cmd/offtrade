@@ -470,7 +470,10 @@ const COLS = [
   { key: 'diasSemComprar', label: 'Dias s/ Compra', num: true, mob: true },
   { key: 'situacao',    label: 'Situação' },
   { key: 'canal',       label: 'Canal', mob: true },
-  { key: 'oportunidadePdv', label: 'Oportunidade', num: true },
+  { key: 'totalVenda',        label: 'Total de Venda', num: true },
+  { key: 'shareOportunidade', label: 'Share PDV Oportunidade', num: true },
+  { key: 'shareHandler',      label: 'Share Handler Estado Canal', num: true },
+  { key: 'oportunidadePdv', label: 'Oportunidade por PDV', num: true },
 ];
 
 function renderHead() {
@@ -546,6 +549,9 @@ function renderTable() {
       <td class="num hide-mob" style="color:var(--muted)">${c.diasSemComprar!=null?c.diasSemComprar+'d':'—'}</td>
       <td><span class="badge ${STATUS_BADGE[c.situacaoMacro]||'badge-gray'}">${c.situacao}</span></td>
       <td class="hide-mob" style="color:var(--muted)">${c.canal||'—'}</td>
+      <td class="num" style="color:var(--muted)">${c.totalVenda!=null?fmtR(c.totalVenda):'—'}</td>
+      <td class="num" style="color:var(--muted)">${c.shareOportunidade!=null?(c.shareOportunidade*100).toFixed(1)+'%':'—'}</td>
+      <td class="num" style="color:var(--muted)">${c.shareHandler!=null?(c.shareHandler*100).toFixed(1)+'%':'—'}</td>
       <td class="num" style="color:${c.oportunidadePdv?'var(--blue)':'var(--muted)'}">${c.oportunidadePdv?fmtR(c.oportunidadePdv):'—'}</td>
     </tr>`).join('');
 
@@ -564,12 +570,12 @@ function renderTable() {
 function goPage(p) { _page = p; renderTable(); }
 
 function exportCSV() {
-  const headers = ['CNPJ','PDV','Rede','Bandeira','Cidade','Regional','Tem Cadastro','Cód Cliente','Cliente','RCA','Faturamento 2025','Faturamento 2026','Última Compra','Dias sem comprar','Situação','Canal','Oportunidade PDV'];
+  const headers = ['CNPJ','PDV','Rede','Bandeira','Cidade','Regional','Tem Cadastro','Cód Cliente','Cliente','RCA','Faturamento 2025','Faturamento 2026','Última Compra','Dias sem comprar','Situação','Canal','Total de Venda','Share PDV Oportunidade','Share Handler Estado Canal','Oportunidade por PDV'];
   const rows = [headers];
   _filtered.forEach(c => rows.push([
     c.cnpj, c.pdv, c.rede, c.bandeira, c.cidade, c.regional, c.temCadastro, c.codcli||'', c.cliente||'',
     c.rca||'', c.fat25||0, c.fat26||0, c.ultCompra||'', c.diasSemComprar!=null?c.diasSemComprar:'', c.situacao,
-    c.canal||'', c.oportunidadePdv||''
+    c.canal||'', c.totalVenda??'', c.shareOportunidade??'', c.shareHandler??'', c.oportunidadePdv||''
   ]));
   const csv = rows.map(r => r.map(v => `"${String(v==null?'':v).replace(/"/g,'""')}"`).join(';')).join('\n');
   const blob = new Blob(['﻿' + csv], {type: 'text/csv;charset=utf-8'});
