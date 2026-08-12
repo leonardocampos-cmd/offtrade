@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "12/08/2026 11:36",
+  "atualizado_em": "12/08/2026 15:15",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -1885,26 +1885,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33014",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "YVY",
-            "qt": 4,
-            "valor": 159.6
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "YVY",
-            "qt": 4,
-            "valor": 159.6
-          }
-        ]
-      },
-      {
         "codcli": "32871",
         "cliente": "ER COZINHA ARTESANAL LTDA",
         "bairro": "VILA DA SERRA",
@@ -1921,6 +1901,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "YVY",
             "qt": 6,
             "valor": 239.4
+          }
+        ]
+      },
+      {
+        "codcli": "33014",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "LOURDES",
+        "dtultcomp": "18/06/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 4,
+            "valor": 159.6
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 4,
+            "valor": 159.6
           }
         ]
       },
@@ -2863,70 +2863,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33682",
-        "cliente": "I.B.V. CAFETERIA LTDA",
-        "bairro": "SANTO AGOSTINHO",
-        "dtultcomp": "22/07/2026",
-        "produtos": [
-          {
-            "produto": "VODKA ABSOLUT - 1 LITRO",
-            "fantasia": "PERNOD",
-            "qt": 1,
-            "valor": 79.9
-          },
-          {
-            "produto": "WHISKY J WALKER BLACK LABEL 1L",
-            "fantasia": "DIAGEO",
-            "qt": 1,
-            "valor": 154.9
-          },
-          {
-            "produto": "WHISKY WALKER RED LABEL 1L",
-            "fantasia": "DIAGEO",
-            "qt": 1,
-            "valor": 72.9
-          }
-        ]
-      },
-      {
-        "codcli": "31632",
-        "cliente": "TONEL BEBIDAS LTDA",
-        "bairro": "SÃO PEDRO",
-        "dtultcomp": "22/07/2026",
-        "produtos": [
-          {
-            "produto": "APERITIVO APEROL 750 ML",
-            "fantasia": "",
-            "qt": 6,
-            "valor": 275.4
-          },
-          {
-            "produto": "APERITIVO CAMPARI 998 ML",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 598.8
-          },
-          {
-            "produto": "VODKA SMIRNOFF RED 998 ML",
-            "fantasia": "DIAGEO",
-            "qt": 24,
-            "valor": 717.6
-          },
-          {
-            "produto": "WHISKY JACK DANIELS 1L",
-            "fantasia": "BROWN-FORMAN",
-            "qt": 12,
-            "valor": 1558.8
-          },
-          {
-            "produto": "WHISKY WALKER RED LABEL 1L",
-            "fantasia": "DIAGEO",
-            "qt": 24,
-            "valor": 1749.6
-          }
-        ]
-      },
-      {
         "codcli": "37532",
         "cliente": "BEM QUE TEM HORTIFRUTI LTDA",
         "bairro": "SANTA LUCIA",
@@ -3281,32 +3217,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "BEAM SUNTORY",
             "qt": 1,
             "valor": 87.9
-          }
-        ]
-      },
-      {
-        "codcli": "33176",
-        "cliente": "BELLINI PRODUCOES DE EVENTOS LTDA",
-        "bairro": "SANTA ROSA",
-        "dtultcomp": "29/07/2026",
-        "produtos": [
-          {
-            "produto": "XAROPE MONIN FLOR DE SABUGUEIRO 700 ML",
-            "fantasia": "MONIN",
-            "qt": 60,
-            "valor": 2994.0
-          },
-          {
-            "produto": "XAROPE MONIN TORANJA 700 ML",
-            "fantasia": "MONIN",
-            "qt": 18,
-            "valor": 898.2
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "YVY",
-            "qt": 60,
-            "valor": 2394.0
           }
         ]
       },
@@ -5720,6 +5630,20 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "37072",
+        "cliente": "FINO SABOR RESTAURANTE E LANCHONETE LTDA",
+        "bairro": "SANTA LÚCIA",
+        "dtultcomp": "22/04/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL ZERO 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 424.08
+          }
+        ]
+      },
+      {
         "codcli": "38344",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
         "bairro": "CASTELO",
@@ -5870,9 +5794,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "39403",
+        "codcli": "30324",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "COMITECO",
+        "bairro": "BELVEDERE",
         "dtultcomp": "29/05/2026",
         "produtos": [
           {
@@ -5890,9 +5814,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30324",
+        "codcli": "39403",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "BELVEDERE",
+        "bairro": "COMITECO",
         "dtultcomp": "29/05/2026",
         "produtos": [
           {
@@ -6102,6 +6026,32 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "30323",
+        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
+        "bairro": "SANTO ANTONIO",
+        "dtultcomp": "23/06/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK RED BULL MELANCIA",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 89.88
+          },
+          {
+            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 89.88
+          },
+          {
+            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 179.76
+          }
+        ]
+      },
+      {
         "codcli": "38776",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
         "bairro": "ESTORIL",
@@ -6130,32 +6080,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "RED BULL",
             "qt": 1,
             "valor": 29.96
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 179.76
-          }
-        ]
-      },
-      {
-        "codcli": "30323",
-        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "SANTO ANTONIO",
-        "dtultcomp": "23/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 89.88
-          },
-          {
-            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 89.88
           },
           {
             "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
@@ -6884,32 +6808,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "DIAGEO",
             "qt": 12,
             "valor": 598.8
-          }
-        ]
-      },
-      {
-        "codcli": "34283",
-        "cliente": "ARCA SOLUCOES ALIMENTICIAS PARA COMERCIO LTDA",
-        "bairro": "NOVO GLORIA",
-        "dtultcomp": "28/07/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY JACK DANIELS 1L",
-            "fantasia": "BROWN-FORMAN",
-            "qt": 1,
-            "valor": 139.9
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "YVY",
-            "qt": 280,
-            "valor": 9128.0
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR GF 750ML",
-            "fantasia": "YVY",
-            "qt": 20,
-            "valor": 798.0
           }
         ]
       },
