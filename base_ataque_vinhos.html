@@ -128,7 +128,7 @@
     <li><span class="num">4</span><span>Quem é o <b>RCA</b> responsável no cadastro de cada cliente</span></li>
   </ul>
   <div class="brief-foot">
-    Fontes: <code>base_ataque_vinhos_SP_Rigarr.xlsx</code> (4.867 CNPJs) cruzado por CNPJ com as abas <code>Cadastro</code> (49.662 clientes) e <code>Vendas</code> (283 mil linhas, jan/2025–ago/2026) de <code>analise clientes vinho.xlsx</code>.
+    Fonte: planilha "Base Vinho.xlsx" (aba de CNPJs de SP) cruzada por CNPJ direto no cadastro/faturamento Oracle (SPON) — gerada por <code>exportacao_base_ataque_vinhos.py</code>, sempre atual (pode ser reexecutado a qualquer momento, diferente do cruzamento manual anterior).
     Situação calculada por recência de compra (≤30d ativo, 31-90d ativo com queda, +90d inativo) — exceto RCA&nbsp;10, que o ERP usa como carteira de <b>clientes inativos</b> independente da recência.
   </div>
 </section>
@@ -141,7 +141,7 @@
 <section>
   <div class="charts-grid">
     <div class="chart-card">
-      <h3>Situação dos 4.867 clientes</h3>
+      <h3 id="tit-situacao">Situação dos clientes</h3>
       <div class="chart-wrap"><canvas id="chart-situacao"></canvas></div>
     </div>
     <div class="chart-card">
@@ -172,7 +172,7 @@
 </section>
 
 <section>
-  <div class="section-title">Todos os clientes (4.867)</div>
+  <div class="section-title" id="tit-clientes">Todos os clientes</div>
   <div class="filtros" style="margin-bottom:14px">
     <select id="fil-cad" onchange="applyFilters()">
       <option value="">Cadastro: todos</option>
@@ -255,6 +255,8 @@ let _filtered = [];
 function init() {
   document.getElementById('sub').textContent = `Atualizado: ${D.atualizado_em} · ${D.clientes.length.toLocaleString('pt-BR')} clientes na base de ataque`;
   document.getElementById('brief-total').textContent = D.clientes.length.toLocaleString('pt-BR');
+  document.getElementById('tit-situacao').textContent = `Situação dos ${D.clientes.length.toLocaleString('pt-BR')} clientes`;
+  document.getElementById('tit-clientes').textContent = `Todos os clientes (${D.clientes.length.toLocaleString('pt-BR')})`;
 
   buildResumo();
   buildFiltros();
@@ -351,6 +353,11 @@ function buildResumo() {
     <div class="resumo-card" style="border-color:rgba(245,197,24,.4)">
       <div class="resumo-label">Faturamento 2026</div>
       <div class="resumo-val" style="font-size:1.15rem;color:var(--accent)">${fmtR(s.fat26Total)}</div>
+    </div>
+    <div class="resumo-card" style="border-color:rgba(96,165,250,.4)">
+      <div class="resumo-label">Oportunidade estimada</div>
+      <div class="resumo-val" style="font-size:1.15rem;color:var(--blue)">${fmtR(s.oportunidadeTotal||0)}</div>
+      <div class="resumo-sub">soma "Oportunidade por PDV" da base de ataque</div>
     </div>
   `;
 }
@@ -462,6 +469,8 @@ const COLS = [
   { key: 'fat26',       label: 'Fat. 2026', num: true },
   { key: 'diasSemComprar', label: 'Dias s/ Compra', num: true, mob: true },
   { key: 'situacao',    label: 'Situação' },
+  { key: 'canal',       label: 'Canal', mob: true },
+  { key: 'oportunidadePdv', label: 'Oportunidade', num: true },
 ];
 
 function renderHead() {
@@ -536,6 +545,8 @@ function renderTable() {
       <td class="num" style="font-weight:700;color:${c.fat26>0?'var(--accent)':'var(--muted)'}">${c.fat26>0?fmtR(c.fat26):'—'}</td>
       <td class="num hide-mob" style="color:var(--muted)">${c.diasSemComprar!=null?c.diasSemComprar+'d':'—'}</td>
       <td><span class="badge ${STATUS_BADGE[c.situacaoMacro]||'badge-gray'}">${c.situacao}</span></td>
+      <td class="hide-mob" style="color:var(--muted)">${c.canal||'—'}</td>
+      <td class="num" style="color:${c.oportunidadePdv?'var(--blue)':'var(--muted)'}">${c.oportunidadePdv?fmtR(c.oportunidadePdv):'—'}</td>
     </tr>`).join('');
 
   document.getElementById('lista').innerHTML = rows;
@@ -553,11 +564,12 @@ function renderTable() {
 function goPage(p) { _page = p; renderTable(); }
 
 function exportCSV() {
-  const headers = ['CNPJ','PDV','Rede','Bandeira','Cidade','Regional','Tem Cadastro','Cód Cliente','Cliente','RCA','Faturamento 2025','Faturamento 2026','Última Compra','Dias sem comprar','Situação'];
+  const headers = ['CNPJ','PDV','Rede','Bandeira','Cidade','Regional','Tem Cadastro','Cód Cliente','Cliente','RCA','Faturamento 2025','Faturamento 2026','Última Compra','Dias sem comprar','Situação','Canal','Oportunidade PDV'];
   const rows = [headers];
   _filtered.forEach(c => rows.push([
     c.cnpj, c.pdv, c.rede, c.bandeira, c.cidade, c.regional, c.temCadastro, c.codcli||'', c.cliente||'',
-    c.rca||'', c.fat25||0, c.fat26||0, c.ultCompra||'', c.diasSemComprar!=null?c.diasSemComprar:'', c.situacao
+    c.rca||'', c.fat25||0, c.fat26||0, c.ultCompra||'', c.diasSemComprar!=null?c.diasSemComprar:'', c.situacao,
+    c.canal||'', c.oportunidadePdv||''
   ]));
   const csv = rows.map(r => r.map(v => `"${String(v==null?'':v).replace(/"/g,'""')}"`).join(';')).join('\n');
   const blob = new Blob(['﻿' + csv], {type: 'text/csv;charset=utf-8'});
