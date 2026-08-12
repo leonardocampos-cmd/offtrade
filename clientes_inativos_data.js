@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "12/08/2026 17:28",
+  "atualizado_em": "12/08/2026 17:40",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -734,7 +734,7 @@ const INATIVOS_DATA = {
     },
     "BRYAN PALOPOLI - OFF TRADE": {
       "rca": "299",
-      "estado": "RJ",
+      "estado": "SP",
       "inativos": [
         {
           "codcli": "51963",
@@ -2148,7 +2148,7 @@ const INATIVOS_DATA = {
     },
     "MARA DEPOLLI - OFF TRADE": {
       "rca": "335",
-      "estado": "RJ",
+      "estado": "ES",
       "inativos": [
         {
           "codcli": "82546",
@@ -5867,7 +5867,7 @@ const INATIVOS_DATA = {
     },
     "BRUNO COSMO - OFF TRADE": {
       "rca": "458",
-      "estado": "RJ",
+      "estado": "ES",
       "inativos": [],
       "sem_compra": [
         {
@@ -5957,7 +5957,7 @@ const INATIVOS_DATA = {
     },
     "CARLOS TERRA - OFF TRADE": {
       "rca": "376",
-      "estado": "RJ",
+      "estado": "ES",
       "inativos": [],
       "sem_compra": [
         {
@@ -5983,7 +5983,7 @@ const INATIVOS_DATA = {
     },
     "DOUGLAS SCHADE - OFF TRADE": {
       "rca": "260",
-      "estado": "RJ",
+      "estado": "ES",
       "inativos": [],
       "sem_compra": [
         {
@@ -6198,7 +6198,7 @@ const INATIVOS_DATA = {
     },
     "ENEIVA RODRIGUES - OFF TRADE": {
       "rca": "230",
-      "estado": "RJ",
+      "estado": "ES",
       "inativos": [],
       "sem_compra": [
         {
@@ -6233,7 +6233,7 @@ const INATIVOS_DATA = {
     },
     "EUDES MORGAN - OFF TRADE": {
       "rca": "388",
-      "estado": "RJ",
+      "estado": "ES",
       "inativos": [],
       "sem_compra": [
         {
@@ -6548,7 +6548,7 @@ const INATIVOS_DATA = {
     },
     "FRANZ BENEVIDES - OFF TRADE": {
       "rca": "370",
-      "estado": "RJ",
+      "estado": "ES",
       "inativos": [],
       "sem_compra": [
         {
@@ -6772,7 +6772,7 @@ const INATIVOS_DATA = {
     },
     "JEAN MENEZES - OFF TRADE": {
       "rca": "336",
-      "estado": "RJ",
+      "estado": "ES",
       "inativos": [],
       "sem_compra": [
         {
@@ -7247,7 +7247,7 @@ const INATIVOS_DATA = {
     },
     "MARCELO DE SOUZA - OFF TRADE": {
       "rca": "508",
-      "estado": "RJ",
+      "estado": "ES",
       "inativos": [],
       "sem_compra": [
         {
@@ -7506,7 +7506,7 @@ const INATIVOS_DATA = {
     },
     "RAQUEL ARAUJO - OFF TRADE": {
       "rca": "442",
-      "estado": "RJ",
+      "estado": "ES",
       "inativos": [],
       "sem_compra": [
         {
@@ -11381,6 +11381,10 @@ const INATIVOS_DATA = {
                   "rca": "378"
                 },
                 {
+                  "nome": "FRANCISCO CARLOS MACIEL - OFF TRADE",
+                  "rca": "446"
+                },
+                {
                   "nome": "IVANILDO MAIA - OFF TRADE",
                   "rca": "460"
                 },
@@ -11433,66 +11437,6 @@ const INATIVOS_DATA = {
           ]
         },
         {
-          "nome": "DANIEL DINIZ",
-          "supervisores": [
-            {
-              "nome": "DANIEL DINIZ",
-              "vendedores": [
-                {
-                  "nome": "GISELLE BARFER - OFF TRADE",
-                  "rca": "159"
-                },
-                {
-                  "nome": "RAPHAEL SANTOS - OFF TRADE",
-                  "rca": "155"
-                },
-                {
-                  "nome": "ZEINALDO DE OLIVEIRA - OFF TRADE",
-                  "rca": "241"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "nome": "SP",
-      "gerentes": [
-        {
-          "nome": "DANIEL DINIZ",
-          "supervisores": [
-            {
-              "nome": "DANIEL DINIZ",
-              "vendedores": [
-                {
-                  "nome": "BRYAN PALOPOLI - OFF TRADE",
-                  "rca": "299"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "nome": "nan",
-      "gerentes": [
-        {
-          "nome": "ALLAN PAES",
-          "supervisores": [
-            {
-              "nome": "DANIELLE MOURA",
-              "vendedores": [
-                {
-                  "nome": "FRANCISCO CARLOS MACIEL - OFF TRADE",
-                  "rca": "446"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "nome": "CRC",
           "supervisores": [
             {
@@ -11537,6 +11481,10 @@ const INATIVOS_DATA = {
                   "rca": "248"
                 },
                 {
+                  "nome": "GISELLE BARFER - OFF TRADE",
+                  "rca": "159"
+                },
+                {
                   "nome": "JORGE LUIZ - OFF TRADE",
                   "rca": "406"
                 },
@@ -11549,12 +11497,20 @@ const INATIVOS_DATA = {
                   "rca": "247"
                 },
                 {
+                  "nome": "RAPHAEL SANTOS - OFF TRADE",
+                  "rca": "155"
+                },
+                {
                   "nome": "SAMARION DE SOUZA FONSECA - OFF TRADE",
                   "rca": "404"
                 },
                 {
                   "nome": "WEBERT FIGUEIREDO - OFF TRADE",
                   "rca": "245"
+                },
+                {
+                  "nome": "ZEINALDO DE OLIVEIRA - OFF TRADE",
+                  "rca": "241"
                 }
               ]
             },
@@ -11596,6 +11552,25 @@ const INATIVOS_DATA = {
                 {
                   "nome": "MARIA LUIZA - OFF TRADE",
                   "rca": "904"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "SP",
+      "gerentes": [
+        {
+          "nome": "DANIEL DINIZ",
+          "supervisores": [
+            {
+              "nome": "DANIEL DINIZ",
+              "vendedores": [
+                {
+                  "nome": "BRYAN PALOPOLI - OFF TRADE",
+                  "rca": "299"
                 }
               ]
             }
