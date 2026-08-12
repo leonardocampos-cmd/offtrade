@@ -96,6 +96,9 @@
     <select id="fil-tipo" onchange="aplicarFiltro()">
       <option value="">Tipo: todos</option>
     </select>
+    <select id="fil-mes" onchange="aplicarFiltro()">
+      <option value="">Mês: acumulado (YTD)</option>
+    </select>
     <input type="text" id="fil-busca" placeholder="&#128269; Buscar vendedor/gerente..." oninput="aplicarFiltro()" style="min-width:200px">
     <span id="filtro-aviso" style="font-size:.72rem;color:var(--muted);display:none">Time/Sistema/UF/busca filtram os gráficos e a lista de vendedores; a tabela por Gerente mostra sempre a equipe inteira de cada gerente.</span>
   </div>
@@ -165,6 +168,12 @@ function init() {
   const tiposUnicos = [...new Set(D.vendedores.map(v => v.tipo_vendedor))].sort((a,b) => a.localeCompare(b, 'pt-BR'));
   tiposUnicos.forEach(t => selTipo.insertAdjacentHTML('beforeend', `<option value="${_esc(t)}">${_esc(t)}</option>`));
 
+  const selMes = document.getElementById('fil-mes');
+  const mesesUnicos = new Set();
+  D.vendedores.forEach(v => Object.keys(v[ANO_ATUAL].mensal).forEach(m => mesesUnicos.add(m.slice(5))));
+  const NOMES_MES = ['','Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'];
+  [...mesesUnicos].sort().forEach(mm => selMes.insertAdjacentHTML('beforeend', `<option value="${mm}">${NOMES_MES[parseInt(mm)]}</option>`));
+
   renderHead();
   aplicarFiltro();
 }
@@ -233,6 +242,17 @@ function _linhaFiltrada() {
   });
 }
 
+// Sem mês selecionado: métricas do período inteiro (acumulado YTD, já vem
+// pronto em r[ano].metricas). Com mês: pega a fatia mensal de r[ano].mensal
+// — não tem 'positivacoes' (soma mensal) aí porque num mês só, soma mensal
+// e positivação única são a mesma coisa.
+function _metricasDoPeriodo(r, ano, mes) {
+  if (!mes) return r[ano].metricas;
+  const m = r[ano].mensal[`${ano}-${mes}`];
+  if (!m) return { faturamento: 0, positivacoes: 0, positivacoes_unicas: 0, industrias: 0, qtd_industria_cliente: 0, tdp: 0, qtd_sku_cliente: 0 };
+  return { ...m, positivacoes: m.positivacoes_unicas };
+}
+
 function _vsBadge(atual, anterior) {
   if (anterior == null || anterior === 0) return '';
   const diff = ((atual - anterior) / anterior) * 100;
@@ -250,12 +270,15 @@ function aplicarFiltro() {
     return (va - vb) * _sortDir;
   });
 
+  const mesSel = document.getElementById('fil-mes').value;
   const tbody = document.getElementById('tbody');
   if (!linhas.length) {
     tbody.innerHTML = `<tr><td colspan="16" class="empty-msg">Nenhum resultado para os filtros selecionados.</td></tr>`;
   } else {
     tbody.innerHTML = linhas.map(r => {
-      const mAtual = r[ANO_ATUAL].metricas, mAnt = r[ANO_ANTERIOR].metricas;
+      const mAtual = _metricasDoPeriodo(r, ANO_ATUAL, mesSel);
+      const mAnt = _metricasDoPeriodo(r, ANO_ANTERIOR, mesSel);
+      const vsBasePct = r.base_cadastro ? Math.round(100 * mAtual.positivacoes_unicas / r.base_cadastro) : null;
       const nomeCol = _visao === 'vendedor'
         ? `<td>${_esc(r.nome)} <span style="color:var(--muted);font-size:.68rem">(${_esc(r.estado)}/${_esc(r.sistema)})</span></td>`
         : `<td>${_esc(r.gerente)} <span style="color:var(--muted);font-size:.68rem">(${r.qtd_vendedores} vend.)</span></td>`;
@@ -267,7 +290,7 @@ function aplicarFiltro() {
         <td>${fmtN(r.base_ativa)}</td>
         <td>${fmtR(mAtual.faturamento)}</td><td>${_vsBadge(mAtual.faturamento, mAnt.faturamento)}</td>
         <td>${fmtN(mAtual.positivacoes)}</td><td>${_vsBadge(mAtual.positivacoes, mAnt.positivacoes)}</td>
-        <td>${fmtN(mAtual.positivacoes_unicas)}</td><td>${_vsBadge(mAtual.positivacoes_unicas, mAnt.positivacoes_unicas)}</td><td>${r.vs_base_pct!=null?r.vs_base_pct+'%':'—'}</td>
+        <td>${fmtN(mAtual.positivacoes_unicas)}</td><td>${_vsBadge(mAtual.positivacoes_unicas, mAnt.positivacoes_unicas)}</td><td>${vsBasePct!=null?vsBasePct+'%':'—'}</td>
         <td>${fmtN(mAtual.industrias)}</td>
         <td>${fmtN(mAtual.qtd_industria_cliente)}</td>
         <td>${fmtN(mAtual.tdp)}</td>
