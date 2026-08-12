@@ -21,6 +21,7 @@ import base64
 import json
 import re
 import io
+import unicodedata
 from datetime import date, datetime, timedelta
 from email.mime.application import MIMEApplication
 from email.mime.multipart import MIMEMultipart
@@ -82,6 +83,47 @@ def _eh_status_entregue(status_log):
     return s in _STATUS_ENTREGUE or 'ENTREGA TOTAL' in s
 
 
+def _normalizar(s):
+    s = unicodedata.normalize('NFKD', s or '').encode('ascii', 'ignore').decode('ascii')
+    return s.strip().upper()
+
+
+# Região Metropolitana do RJ (21 municípios, IBGE) — só ela tem tracking de
+# entrega via "Controle de Notas"; fora dela o pedido nunca vai ter status
+# nessa planilha, então "sem status" ali não é uma pendência de verdade.
+# Comparação por prefixo porque CIDADE_CLIENTE (Oracle) vem truncado em
+# alguns casos (ex.: "SAO JOAO DE MER" para "São João de Meriti").
+_REGIAO_METROPOLITANA_RJ = [_normalizar(c) for c in [
+    "Belford Roxo", "Cachoeiras de Macacu", "Duque de Caxias", "Guapimirim",
+    "Itaboraí", "Itaguaí", "Japeri", "Magé", "Maricá", "Mesquita",
+    "Nilópolis", "Niterói", "Nova Iguaçu", "Paracambi", "Queimados",
+    "Rio Bonito", "Rio de Janeiro", "São Gonçalo", "São João de Meriti",
+    "Seropédica", "Tanguá",
+]]
+
+
+def _eh_regiao_metropolitana_rj(cidade):
+    c = _normalizar(cidade)
+    if not c:
+        return False
+    return any(m.startswith(c) for m in _REGIAO_METROPOLITANA_RJ)
+
+
+def _status_display(p):
+    """Texto de status logística pra exibir no report: o status real se
+    tiver; senão 'AGUARDANDO ROTA DE ENTREGA' pra pedidos de fora da Região
+    Metropolitana do RJ (onde não existe tracking via Controle de Notas —
+    não é uma pendência de verdade, só ainda não tem rota atribuída);
+    'Sem status' pro resto (esses sim precisam de atenção — pedido do
+    usuário em 2026-08-12)."""
+    status = (p.get('status_log') or '').strip()
+    if status:
+        return status
+    if p.get('estado') == 'RJ' and not _eh_regiao_metropolitana_rj(p.get('cidade')):
+        return 'AGUARDANDO ROTA DE ENTREGA'
+    return 'Sem status'
+
+
 def _parse_agendamento(obs):
     if not obs:
         return None
@@ -123,10 +165,14 @@ def _dias_sem_entrega(status_log, agendamento_str):
     return dias if dias > 0 else None
 
 
+_STATUS_BLOQUEADO = {'BLOQUEADO', 'BLOQUEADO (ALÇADA)'}
+
+
 def _linhas_pedidos(pedidos, campo_extra, label_extra):
     linhas = []
     is_faturados = campo_extra == 'status_log'
     is_cancelados = campo_extra == 'motivo'
+    is_pedidos_feitos = campo_extra == 'sistema'
     col_total = 'Valor Cortado' if is_cancelados else 'Total Pedido'
     for p in pedidos:
         itens = p.get('itens') or [{'desc': '', 'qt': '', 'val': ''}]
@@ -145,7 +191,7 @@ def _linhas_pedidos(pedidos, campo_extra, label_extra):
                 'Vendedor':      (p.get('nome') or '').replace(' - OFF TRADE', ''),
                 'Estado':        p.get('estado'),
                 'Cliente':       p.get('cliente'),
-                label_extra:     (p.get(campo_extra) or 'Sem status') if is_faturados else p.get(campo_extra),
+                label_extra:     _status_display(p) if is_faturados else p.get(campo_extra),
                 'Produto':       it.get('desc'),
                 'Qtd':           it.get('qt'),
                 'Valor Produto': it.get('val'),
@@ -153,8 +199,12 @@ def _linhas_pedidos(pedidos, campo_extra, label_extra):
                 'Agendamento':   agendamento,
             }
             if is_faturados:
+                linha['Cidade'] = p.get('cidade') or ''
                 linha['Data Entrega'] = p.get('data_entrega') or ''
                 linha['Dias sem Entrega'] = dias_sem_entrega
+            if is_pedidos_feitos:
+                linha['Posição'] = p.get('posicao') or ''
+                linha['Motivo Bloqueio'] = p.get('motivo') if (p.get('posicao') or '').strip().upper() in _STATUS_BLOQUEADO else ''
             linhas.append(linha)
     return pd.DataFrame(linhas)
 
@@ -221,6 +271,8 @@ def _resumo(tabelas_pedidos, cortados_filtrados):
         if aba == 'Pedidos Feitos':
             qtd_agendado = sum(1 for p in pedidos if _parse_agendamento(p.get('obs')))
             linhas.append({'Métrica': f'{aba} — Com Agendamento', 'Valor': qtd_agendado})
+            qtd_bloqueado = sum(1 for p in pedidos if (p.get('posicao') or '').strip().upper() in _STATUS_BLOQUEADO)
+            linhas.append({'Métrica': f'{aba} — Bloqueados', 'Valor': qtd_bloqueado})
         if aba == 'Faturados':
             qtd_entregues = sum(1 for p in pedidos if _eh_status_entregue(p.get('status_log')))
             linhas.append({'Métrica': f'{aba} — Entregues (dia anterior)', 'Valor': qtd_entregues})
@@ -228,8 +280,14 @@ def _resumo(tabelas_pedidos, cortados_filtrados):
             qtd_aberto = sum(1 for p in pedidos if (p.get('status_log') or '').strip().upper() == 'ABERTO')
             linhas.append({'Métrica': f'{aba} — Notas em Aberto', 'Valor': qtd_aberto})
 
-            sem_status = [p for p in pedidos if not (p.get('status_log') or '').strip()]
+            # 'Sem status' de verdade (não conta os "aguardando rota" de fora
+            # da Região Metropolitana do RJ — esses não são uma pendência,
+            # só não têm tracking de entrega nessa região).
+            sem_status = [p for p in pedidos if _status_display(p) == 'Sem status']
             linhas.append({'Métrica': f'{aba} — Sem Status/Entrega', 'Valor': len(sem_status)})
+            qtd_aguardando_rota = sum(1 for p in pedidos if _status_display(p) == 'AGUARDANDO ROTA DE ENTREGA')
+            if qtd_aguardando_rota:
+                linhas.append({'Métrica': f'{aba} — Aguardando Rota (fora Região Metrop.)', 'Valor': qtd_aguardando_rota})
             dias_atraso = [
                 d for p in sem_status
                 if (d := _dias_sem_entrega(p.get('status_log'), _parse_agendamento(p.get('obs')))) is not None
@@ -318,7 +376,9 @@ _STATUS_BADGE_COR = [
 
 def _status_badge_html(status):
     s = str(status or '').strip().upper()
-    if not s or s == 'SEM STATUS':
+    if s == 'AGUARDANDO ROTA DE ENTREGA':
+        cor = '#38bdf8'
+    elif not s or s == 'SEM STATUS':
         cor = '#94a3b8'
     else:
         cor = next((c for teste, c in _STATUS_BADGE_COR if teste(s)), '#94a3b8')
@@ -356,6 +416,47 @@ def _tabela_faturados_com_filtro(df, table_id):
     return filtro_html, tabela_html
 
 
+def _posicao_badge_html(posicao):
+    s = str(posicao or '').strip().upper()
+    if s in _STATUS_BLOQUEADO:
+        cor = '#ef4444'
+    elif s == 'LIBERADO':
+        cor = '#4ade80'
+    elif s == 'PENDENTE':
+        cor = '#eab308'
+    elif not s:
+        return ''
+    else:
+        cor = '#94a3b8'
+    return f"<span class='badge' style='background:{cor}22;color:{cor};border-color:{cor}55'>{posicao}</span>"
+
+
+def _tabela_pedidos_feitos_com_destaque(df):
+    """Linha inteira com fundo vermelho quando bloqueado — pedido do usuário
+    em 2026-08-12 pra chamar atenção pros pedidos feitos travados."""
+    cols = list(df.columns)
+    header = ''.join(f'<th>{_esc(c)}</th>' for c in cols)
+    linhas = []
+    for _, row in df.iterrows():
+        bloqueado = str(row.get('Posição') or '').strip().upper() in _STATUS_BLOQUEADO
+        cells = ''.join(
+            f"<td>{_posicao_badge_html(row[c])}</td>" if c == 'Posição' else f"<td>{_esc(row[c])}</td>"
+            for c in cols
+        )
+        tr_style = " style='background:rgba(239,68,68,.12)'" if bloqueado else ''
+        linhas.append(f"<tr{tr_style}>{cells}</tr>")
+    return f"<table><thead><tr>{header}</tr></thead><tbody>{''.join(linhas)}</tbody></table>"
+
+
+def _cartoes_html(linhas_aba):
+    return ''.join(
+        f"<div class='card{' money' if _eh_moeda(row['Métrica']) else ''}'>"
+        f"<div class='lbl'>{row['Métrica'].split('—', 1)[1].strip()}</div>"
+        f"<div class='val'>{_fmt_metrica(row['Métrica'], row['Valor'])}</div></div>"
+        for _, row in linhas_aba.iterrows()
+    )
+
+
 def montar_html(tabelas, estado, hoje_str):
     resumo_df = tabelas.get('Resumo')
     secoes = []
@@ -364,20 +465,22 @@ def montar_html(tabelas, estado, hoje_str):
         if aba != 'Resumo' and resumo_df is not None:
             linhas_aba = resumo_df[resumo_df['Métrica'].str.startswith(f'{aba} — ')]
             if not linhas_aba.empty:
-                cartoes = [
-                    f"<div class='card{' money' if _eh_moeda(row['Métrica']) else ''}'>"
-                    f"<div class='lbl'>{row['Métrica'].split('—', 1)[1].strip()}</div>"
-                    f"<div class='val'>{_fmt_metrica(row['Métrica'], row['Valor'])}</div></div>"
-                    for _, row in linhas_aba.iterrows()
-                ]
-                resumo_aba = f"<div class='resumo-cards'>{''.join(cartoes)}</div>"
+                resumo_aba = f"<div class='resumo-cards'>{_cartoes_html(linhas_aba)}</div>"
 
         if aba == 'Resumo':
-            linhas_html = "".join(
-                f"<tr><td>{row['Métrica']}</td><td class='num'>{_fmt_metrica(row['Métrica'], row['Valor'])}</td></tr>"
-                for _, row in df.iterrows()
-            )
-            tabela_html = f"<table><thead><tr><th>Métrica</th><th>Valor</th></tr></thead><tbody>{linhas_html}</tbody></table>"
+            # Cartões agrupados por aba (mesmo visual das mini-seções abaixo)
+            # em vez de uma tabela Métrica/Valor achatada — pedido do
+            # usuário em 2026-08-12, mesmo se ficar com bastante linha.
+            abas_presentes = list(dict.fromkeys(m.split(' — ')[0] for m in df['Métrica']))
+            blocos = []
+            for pref in abas_presentes:
+                sub = df[df['Métrica'].str.startswith(f'{pref} — ')]
+                cor_sub = _ABA_COR.get(pref, '#f5c518')
+                blocos.append(
+                    f"<h3 style='color:{cor_sub}'>{pref}</h3>"
+                    f"<div class='resumo-cards'>{_cartoes_html(sub)}</div>"
+                )
+            tabela_html = ''.join(blocos)
         elif aba == 'Faturados' and 'Status Logística' in df.columns:
             filtro_html, tabela_html = _tabela_faturados_com_filtro(df, f'tbl-fat-{estado}')
             resumo_aba += filtro_html
@@ -387,6 +490,14 @@ def montar_html(tabelas, estado, hoje_str):
                 resumo_aba += (
                     f"<div class='alerta'>&#9888; {len(problema)} nota(s) faturada(s) sem status de "
                     f"logística nem confirmação de entrega — até {maxd} dia(s) após a data agendada na obs.</div>"
+                )
+        elif aba == 'Pedidos Feitos' and 'Posição' in df.columns:
+            tabela_html = _tabela_pedidos_feitos_com_destaque(df)
+            qtd_bloqueado = df[df['Posição'].str.upper().isin(_STATUS_BLOQUEADO)].drop_duplicates(subset=['Pedido'])
+            if not qtd_bloqueado.empty:
+                resumo_aba += (
+                    f"<div class='alerta'>&#9888; {len(qtd_bloqueado)} pedido(s) feito(s) bloqueado(s) — "
+                    "veja a coluna Motivo Bloqueio.</div>"
                 )
         else:
             tabela_html = df.to_html(index=False, na_rep='', border=0)

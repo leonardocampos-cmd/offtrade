@@ -163,6 +163,7 @@ for (_nome, _eng, _extra, _filiais), _res in zip(_SOURCES, carregar_paralelo(_ch
 # pedido inteiro, o total fica confiável mesmo sem casar produto a produto.
 _motivo_corte_lookup = {}
 _valor_corte_pedido_lookup = {}
+_motivo_corte_pedido_lookup = {}  # (SISTEMA, NUMPED) -> lista de motivos distintos (todos os produtos)
 _chamadas_motivo_corte = [
     (_query_motivo_corte(_nome), _eng, f"motivo_corte_{_nome}")
     for _nome, _eng, _extra, _filiais in _SOURCES_COM_MOTIVO_CORTE
@@ -180,11 +181,14 @@ for (_nome, _eng, _extra, _filiais), _res in zip(_SOURCES_COM_MOTIVO_CORTE, carr
         except (TypeError, ValueError):
             continue
         _motivo = str(_row['MOTIVO'] or '').strip()
+        _chave_pedido = (_nome, int(_row['NUMPED']))
         if _motivo:
             _motivo_corte_lookup[_chave] = _motivo
+            _motivo_corte_pedido_lookup.setdefault(_chave_pedido, [])
+            if _motivo not in _motivo_corte_pedido_lookup[_chave_pedido]:
+                _motivo_corte_pedido_lookup[_chave_pedido].append(_motivo)
         _subtot = pd.to_numeric(_row.get('SUBTOT'), errors='coerce')
         if pd.notna(_subtot):
-            _chave_pedido = (_nome, int(_row['NUMPED']))
             _valor_corte_pedido_lookup[_chave_pedido] = _valor_corte_pedido_lookup.get(_chave_pedido, 0.0) + float(_subtot)
 
 tabela_pedidos = pd.concat(_parts, ignore_index=True)
@@ -635,6 +639,18 @@ def _valor_cortado_pedido(sistema, numped):
     return _valor_corte_pedido_lookup.get(chave)
 
 
+def _motivos_corte_pedido(sistema, numped):
+    """Motivo(s) real(is) do pedido inteiro (PEDIDOS_CANCELADOS.MOTIVO,
+    todos os distintos daquele NUMPED, sem tentar casar produto — mesma
+    razão de _valor_cortado_pedido), ou '' se não achou nenhum."""
+    try:
+        chave = (sistema, int(numped))
+    except (TypeError, ValueError):
+        return ''
+    motivos = _motivo_corte_pedido_lookup.get(chave)
+    return '; '.join(motivos) if motivos else ''
+
+
 def _item_pedido(sistema, numped, row):
     qt = int(row['QT'])
     qtfalta = float(row['QTFALTA'])
@@ -709,14 +725,13 @@ def _agrupar(df, com_status_log=False):
             round(_valor_real_pedido, 2) if _valor_real_pedido is not None
             else round(sum(it['valor_cortado'] or 0 for it in item['itens']), 2)
         )
-        # Motivo real (PEDIDOS_CANCELADOS, por produto) tem prioridade sobre
-        # MOTIVOPOSICAO/FUNC_CANCEL (nível pedido, mais genérico) — mesma
-        # regra usada em _extrair_cortados. Pedido pode ter itens com motivos
-        # diferentes (ex: um sem estoque, outro com preço em desacordo); junta
-        # os distintos em vez de mostrar só o primeiro.
-        _motivos_reais = list(dict.fromkeys(it['motivo_corte'] for it in item['itens'] if it['motivo_corte']))
+        # Motivo real do pedido inteiro (PEDIDOS_CANCELADOS, por NUMPED — não
+        # por produto, mesma razão de valor_cortado_total acima) tem
+        # prioridade sobre MOTIVOPOSICAO/FUNC_CANCEL (nível pedido, mais
+        # genérico, vindo de PBI_PCPEDI).
+        _motivos_reais = _motivos_corte_pedido(sistema, numped)
         if _motivos_reais:
-            item['motivo'] = '; '.join(_motivos_reais)
+            item['motivo'] = _motivos_reais
         if com_status_log:
             _status = _status_log(nf, sistema) if nf else ''
             _rota = _rota_info(nf) if nf else None
