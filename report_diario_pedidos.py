@@ -98,18 +98,29 @@ def _parse_agendamento(obs):
     return f'{dd}/{mm}/{yy}'
 
 
-def _filtrar_faturados_entregues_ontem(pedidos):
-    """Report diário (pedido do usuário em 2026-08-12): só entram na aba
-    Faturados os pedidos com status de entrega (ENTREGUE/COMPROVADO/ENTREGA
-    TOTAL — mesmo critério do badge verde em pedidos.html) cuja entrega
-    aconteceu no dia anterior ('data_entrega', ver pedidos.py). Só afeta o
-    report — pedidos.html continua mostrando todos os Faturados dos últimos
-    90 dias, sem esse filtro."""
+def _filtrar_faturados_relatorio(pedidos):
+    """Report diário (ajustado em 2026-08-12): pedidos com status de entrega
+    (ENTREGUE/COMPROVADO/ENTREGA TOTAL — mesmo critério do badge verde em
+    pedidos.html) só entram se a entrega foi no dia anterior ('data_entrega',
+    ver pedidos.py) — senão o relatório reacumula toda entrega antiga já
+    resolvida. Pedidos com qualquer outro status (ainda sem desfecho: em
+    rota, aberto, cancelada, retorno, sem status...) entram sempre, sem
+    filtro de data, porque esses são os que ainda precisam de atenção. Só
+    afeta o report — pedidos.html continua mostrando tudo, sem esse filtro."""
     ontem = (date.today() - timedelta(days=1)).strftime('%Y-%m-%d')
     return [
         p for p in pedidos
-        if _eh_status_entregue(p.get('status_log')) and p.get('data_entrega') == ontem
+        if not _eh_status_entregue(p.get('status_log')) or p.get('data_entrega') == ontem
     ]
+
+
+def _dias_sem_entrega(status_log, agendamento_str):
+    """None se já entregue, sem obs de agendamento, ou agendamento no futuro."""
+    if not agendamento_str or _eh_status_entregue(status_log):
+        return None
+    dt = datetime.strptime(agendamento_str, '%d/%m/%Y').date()
+    dias = (date.today() - dt).days
+    return dias if dias > 0 else None
 
 
 def _linhas_pedidos(pedidos, campo_extra, label_extra):
@@ -122,6 +133,7 @@ def _linhas_pedidos(pedidos, campo_extra, label_extra):
         # Agendamento (obs) aparece em qualquer aba — mesmo padrão do badge
         # 📅 já mostrado em pedidos.html independente da aba.
         agendamento = _parse_agendamento(p.get('obs'))
+        dias_sem_entrega = _dias_sem_entrega(p.get(campo_extra), agendamento) if is_faturados else None
         # 'total' do pedido cancelado é sempre 0 (nada foi faturado) —
         # 'valor_cortado_total' (ver pedidos.py) é o valor real que importa.
         valor_total = p.get('valor_cortado_total') if is_cancelados else p.get('total')
@@ -142,6 +154,7 @@ def _linhas_pedidos(pedidos, campo_extra, label_extra):
             }
             if is_faturados:
                 linha['Data Entrega'] = p.get('data_entrega') or ''
+                linha['Dias sem Entrega'] = dias_sem_entrega
             linhas.append(linha)
     return pd.DataFrame(linhas)
 
@@ -208,9 +221,21 @@ def _resumo(tabelas_pedidos, cortados_filtrados):
         if aba == 'Pedidos Feitos':
             qtd_agendado = sum(1 for p in pedidos if _parse_agendamento(p.get('obs')))
             linhas.append({'Métrica': f'{aba} — Com Agendamento', 'Valor': qtd_agendado})
-        # Faturados agora já vem filtrado só pros entregues no dia anterior
-        # (_filtrar_faturados_entregues_ontem) — métricas de "sem status"/
-        # "notas em aberto" não fazem mais sentido aqui, removidas.
+        if aba == 'Faturados':
+            qtd_entregues = sum(1 for p in pedidos if _eh_status_entregue(p.get('status_log')))
+            linhas.append({'Métrica': f'{aba} — Entregues (dia anterior)', 'Valor': qtd_entregues})
+
+            qtd_aberto = sum(1 for p in pedidos if (p.get('status_log') or '').strip().upper() == 'ABERTO')
+            linhas.append({'Métrica': f'{aba} — Notas em Aberto', 'Valor': qtd_aberto})
+
+            sem_status = [p for p in pedidos if not (p.get('status_log') or '').strip()]
+            linhas.append({'Métrica': f'{aba} — Sem Status/Entrega', 'Valor': len(sem_status)})
+            dias_atraso = [
+                d for p in sem_status
+                if (d := _dias_sem_entrega(p.get('status_log'), _parse_agendamento(p.get('obs')))) is not None
+            ]
+            if dias_atraso:
+                linhas.append({'Métrica': f'{aba} — Dias sem Entrega (máx)', 'Valor': max(dias_atraso)})
     linhas.append({'Métrica': 'Produtos Cortados — Qtd Itens', 'Valor': len(cortados_filtrados)})
     linhas.append({
         'Métrica': 'Produtos Cortados — Qtd Total Cortada',
@@ -231,7 +256,7 @@ def montar_tabelas(payload, estoque_idx, estado):
     for chave, campo_extra, label_extra, aba in _ABAS_PEDIDOS:
         pedidos_filtrados = _filtrar_estado(payload.get(chave, []), estado)
         if chave == 'faturados':
-            pedidos_filtrados = _filtrar_faturados_entregues_ontem(pedidos_filtrados)
+            pedidos_filtrados = _filtrar_faturados_relatorio(pedidos_filtrados)
         tabelas_pedidos.append((aba, pedidos_filtrados))
 
     cortados_filtrados = _filtrar_estado(payload.get('produtos_cortados', []), estado)
@@ -356,6 +381,13 @@ def montar_html(tabelas, estado, hoje_str):
         elif aba == 'Faturados' and 'Status Logística' in df.columns:
             filtro_html, tabela_html = _tabela_faturados_com_filtro(df, f'tbl-fat-{estado}')
             resumo_aba += filtro_html
+            problema = df[(df['Status Logística'] == 'Sem status') & df['Dias sem Entrega'].notna()].drop_duplicates(subset=['Pedido'])
+            if not problema.empty:
+                maxd = int(problema['Dias sem Entrega'].max())
+                resumo_aba += (
+                    f"<div class='alerta'>&#9888; {len(problema)} nota(s) faturada(s) sem status de "
+                    f"logística nem confirmação de entrega — até {maxd} dia(s) após a data agendada na obs.</div>"
+                )
         else:
             tabela_html = df.to_html(index=False, na_rep='', border=0)
 
@@ -393,6 +425,7 @@ def montar_html(tabelas, estado, hoje_str):
   .card .val {{ font-size:1.15rem; font-weight:700; color:#e2e8f0; }}
   .card.money .val {{ color:#f5c518; }}
   .badge {{ display:inline-block; padding:2px 9px; border-radius:99px; font-size:.72rem; font-weight:700; border:1px solid; white-space:nowrap; }}
+  .alerta {{ margin-top:10px; padding:8px 12px; border-radius:8px; background:rgba(239,68,68,.15); border:1px solid #ef4444; color:#fca5a5; font-size:.82rem; }}
   .filtro-status {{ margin-top:10px; display:flex; align-items:center; gap:8px; font-size:.82rem; color:#94a3b8; }}
   .filtro-status select {{ background:#1a1d27; color:#e2e8f0; border:1px solid #2d3144; border-radius:6px; padding:5px 8px; font-size:.82rem; font-family:inherit; }}
 </style>
