@@ -1,7 +1,7 @@
 """
 Gera base_ataque_vinhos_data.js — cruza a "base de ataque" de vinhos de SP
-(planilha externa, aba 'Planilha1 (2)') por CNPJ com o cadastro/faturamento
-ATUAL da Rigarr em SPON.
+(planilha externa, aba 'Base') por CNPJ com o cadastro/faturamento ATUAL da
+Rigarr em SPON.
 
 Substitui o processo anterior (feito uma única vez em 2026-08-07 cruzando
 manualmente com um extrato "analise clientes vinho.xlsx" de Cadastro+Vendas,
@@ -29,7 +29,7 @@ from meta import engine_spon, carregar_dados
 
 BASE = Path(__file__).parent
 PLANILHA = Path.home() / "Downloads" / "Base Vinho.xlsx"
-ABA = "Planilha1 (2)"
+ABA = "Base"
 
 
 def _so_digitos(v):
