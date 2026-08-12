@@ -160,7 +160,7 @@ vendas['MES'] = pd.to_numeric(vendas['MES'], errors='coerce').astype('Int64')
 vendas['VALOR'] = pd.to_numeric(vendas['VALOR'], errors='coerce').fillna(0.0)
 vendas['NOME_RCA'] = vendas['NOME_RCA'].fillna('').str.strip()
 vendas['ESTADO'] = vendas['ESTADO'].fillna('Sem Estado').str.strip().str.upper()
-_TIPOVEND_LABEL = {'E': 'Externo', 'I': 'Interno', 'R': 'Representante', 'P': 'Praça'}
+_TIPOVEND_LABEL = {'E': 'Externo', 'I': 'Interno', 'R': 'Representante', 'P': 'Profissional'}
 vendas['TIPOVEND'] = vendas['TIPOVEND'].fillna('').str.strip().str.upper().map(_TIPOVEND_LABEL).fillna('Sem tipo')
 vendas['INDUSTRIA'] = vendas['INDUSTRIA'].fillna('Sem Indústria').str.strip()
 vendas = vendas.dropna(subset=['CODUSUR', 'ANO', 'MES'])
@@ -262,7 +262,7 @@ def _metricas(df):
 
 
 def _serie_mensal(df):
-    """{'YYYY-MM': {'faturamento':.., 'positivacoes_unicas':.., 'tdp':.., 'qtd_industria_cliente':..}}"""
+    """{'YYYY-MM': {'faturamento':.., 'positivacoes_unicas':.., 'tdp':.., 'qtd_industria_cliente':.., 'qtd_sku_cliente':..}}"""
     serie = {}
     for (ano, mes), grp in df.groupby(['ANO', 'MES']):
         chave = f"{int(ano)}-{int(mes):02d}"
@@ -272,6 +272,7 @@ def _serie_mensal(df):
             'industrias': int(grp['INDUSTRIA'].nunique()),
             'qtd_industria_cliente': round(float(grp.groupby('CODCLI')['INDUSTRIA'].nunique().mean()), 2),
             'tdp': int(grp['CODPROD'].nunique()),
+            'qtd_sku_cliente': round(float(grp.groupby('CODCLI')['CODPROD'].nunique().mean()), 2),
         }
     return serie
 
