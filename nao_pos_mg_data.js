@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "12/08/2026 11:03",
+  "atualizado_em": "12/08/2026 11:36",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -1093,6 +1093,20 @@ const NAO_POS_MG_DATA = {
             "fantasia": "TATUZINHO",
             "qt": 4,
             "valor": 95.76
+          }
+        ]
+      },
+      {
+        "codcli": "34350",
+        "cliente": "FAE INDUSTRIA E COMERCIO DE ALIMENTOS LTDA",
+        "bairro": "GUTIERREZ",
+        "dtultcomp": "09/03/2026",
+        "produtos": [
+          {
+            "produto": "CERVEJA HEINEKEN  LONG ZERO 24X330ML",
+            "fantasia": "HEINEKEN",
+            "qt": 5,
+            "valor": 706.8
           }
         ]
       },
