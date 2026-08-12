@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "12/08/2026 10:44",
+  "atualizado_em": "12/08/2026 11:03",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -11062,6 +11062,13 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
+        "codcli": "52425",
+        "cliente": "CUNHA CLARO SUPERMERCADO LTDA",
+        "bairro": "JARDIM PERIS",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "52104",
         "cliente": "DAVID BARBOZA SUPERMERCADO LTDA",
         "bairro": "JARDIM MACUCOS",
@@ -11069,16 +11076,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "52103",
+        "codcli": "52107",
         "cliente": "DAVID BARBOZA SUPERMERCADO LTDA",
-        "bairro": "SANTA FÉ",
+        "bairro": "PARQUE SÃO JORGE",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "52107",
+        "codcli": "52103",
         "cliente": "DAVID BARBOZA SUPERMERCADO LTDA",
-        "bairro": "PARQUE SÃO JORGE",
+        "bairro": "SANTA FÉ",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -11118,14 +11125,14 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51835",
+        "codcli": "51833",
         "cliente": "SUPERMERCADO IBIRAPUERA LTDA",
         "bairro": "JOAO ARANHA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51833",
+        "codcli": "51835",
         "cliente": "SUPERMERCADO IBIRAPUERA LTDA",
         "bairro": "JOAO ARANHA",
         "dtultcomp": "nan",
@@ -11139,16 +11146,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "52378",
+        "codcli": "52380",
         "cliente": "SUPERMERCADO JARDIM DOS CALEGARIS LTDA",
-        "bairro": "JARDIM DOS CALEGARIS",
+        "bairro": "CONJUNTO HABITACIONAL PADRE ANCHIETA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "52380",
+        "codcli": "52378",
         "cliente": "SUPERMERCADO JARDIM DOS CALEGARIS LTDA",
-        "bairro": "CONJUNTO HABITACIONAL PADRE ANCHIETA",
+        "bairro": "JARDIM DOS CALEGARIS",
         "dtultcomp": "nan",
         "produtos": []
       },
