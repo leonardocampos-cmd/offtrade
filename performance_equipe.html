@@ -81,6 +81,9 @@
       <button data-v="vendedor" class="on">Por Vendedor</button>
       <button data-v="gerente">Por Gerente</button>
     </div>
+    <select id="fil-gerente" onchange="aplicarFiltro()">
+      <option value="">Gerente: todos</option>
+    </select>
     <select id="fil-time" onchange="aplicarFiltro()">
       <option value="">Time: todos</option>
     </select>
@@ -89,6 +92,9 @@
     </select>
     <select id="fil-uf" onchange="aplicarFiltro()">
       <option value="">UF: todas</option>
+    </select>
+    <select id="fil-tipo" onchange="aplicarFiltro()">
+      <option value="">Tipo: todos</option>
     </select>
     <input type="text" id="fil-busca" placeholder="&#128269; Buscar vendedor/gerente..." oninput="aplicarFiltro()" style="min-width:200px">
     <span id="filtro-aviso" style="font-size:.72rem;color:var(--muted);display:none">Time/Sistema/UF/busca filtram os gráficos e a lista de vendedores; a tabela por Gerente mostra sempre a equipe inteira de cada gerente.</span>
@@ -141,6 +147,10 @@ function init() {
     renderHead(); aplicarFiltro();
   });
 
+  const selGer = document.getElementById('fil-gerente');
+  const gerentesUnicos = [...new Set(D.vendedores.map(v => v.gerente))].sort((a,b) => a.localeCompare(b, 'pt-BR'));
+  gerentesUnicos.forEach(g => selGer.insertAdjacentHTML('beforeend', `<option value="${_esc(g)}">${_esc(g)}</option>`));
+
   const selTime = document.getElementById('fil-time');
   const timesUnicos = [...new Set(D.vendedores.map(v => v.time_label))];
   timesUnicos.forEach(t => selTime.insertAdjacentHTML('beforeend', `<option value="${_esc(t)}">${_esc(t)}</option>`));
@@ -150,6 +160,10 @@ function init() {
 
   const selUf = document.getElementById('fil-uf');
   D.opcoes_filtro.ufs.forEach(u => selUf.insertAdjacentHTML('beforeend', `<option value="${_esc(u)}">${_esc(u)}</option>`));
+
+  const selTipo = document.getElementById('fil-tipo');
+  const tiposUnicos = [...new Set(D.vendedores.map(v => v.tipo_vendedor))].sort((a,b) => a.localeCompare(b, 'pt-BR'));
+  tiposUnicos.forEach(t => selTipo.insertAdjacentHTML('beforeend', `<option value="${_esc(t)}">${_esc(t)}</option>`));
 
   renderHead();
   aplicarFiltro();
@@ -191,11 +205,13 @@ function setSort(col) {
 // verdade, não dá pra recalcular no navegador sem os dados brutos por
 // cliente) — só filtra por nome do gerente na busca.
 function _vendedoresFiltrados() {
+  const gerente = document.getElementById('fil-gerente').value;
   const time = document.getElementById('fil-time').value;
   const sistema = document.getElementById('fil-sistema').value;
   const uf = document.getElementById('fil-uf').value;
   const busca = document.getElementById('fil-busca').value.trim().toLowerCase();
   return D.vendedores.filter(r => {
+    if (gerente && (r.gerente||'') !== gerente) return false;
     if (time && (r.time_label||'') !== time) return false;
     if (sistema && r.sistema !== sistema) return false;
     if (uf && r.estado !== uf) return false;
@@ -206,8 +222,10 @@ function _vendedoresFiltrados() {
 
 function _linhaFiltrada() {
   if (_visao === 'vendedor') return _vendedoresFiltrados();
+  const gerente = document.getElementById('fil-gerente').value;
   const busca = document.getElementById('fil-busca').value.trim().toLowerCase();
   return D.gerentes.filter(r => {
+    if (gerente && r.gerente !== gerente) return false;
     if (busca && !(r.gerente||'').toLowerCase().includes(busca)) return false;
     return true;
   });
