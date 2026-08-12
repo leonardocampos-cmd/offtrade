@@ -121,6 +121,21 @@ def _query_cadastro(schema):
     """
 
 
+def _query_hierarquia(schema):
+    """RCA -> supervisor -> gerente. Mesma estrutura de exportacao_meta.py
+    (_query_hierarquia). Nem toda base tem PCSUPERV/PCGERENTE — quem chamar
+    trata a exceção e cai pra 'Sem gerente'."""
+    return f"""
+        SELECT U.CODUSUR,
+               COALESCE(S.NOME, 'Sem supervisor') AS NOME_SUPERVISOR,
+               COALESCE(G.NOMEGERENTE, 'Sem gerente') AS NOME_GERENTE
+        FROM {schema}.PCUSUARI U
+        LEFT JOIN {schema}.PCSUPERV S ON U.CODSUPERVISOR = S.CODSUPERVISOR
+        LEFT JOIN {schema}.PCGERENTE G ON S.CODGERENTE = G.CODGERENTE
+        WHERE U.NOME LIKE '%OFF TRADE%'
+    """
+
+
 fontes_indisponiveis = []
 
 _chamadas_vendas = [(_query_vendas(nome), eng, f"perf_vendas_{nome}") for nome, eng in _SOURCES]
@@ -163,6 +178,22 @@ cadastro = pd.concat(_partes_cad, ignore_index=True) if _partes_cad else pd.Data
 for col in ('CODUSUR1', 'CODUSUR2'):
     cadastro[col] = pd.to_numeric(cadastro[col], errors='coerce')
 
+# ── Hierarquia (RCA -> gerente) — nem toda base tem PCSUPERV/PCGERENTE ──────
+_chamadas_hier = [(_query_hierarquia(nome), eng, f"perf_hierarquia_{nome}") for nome, eng in _SOURCES]
+_partes_hier = []
+for (nome, _eng), resultado in zip(_SOURCES, carregar_paralelo(_chamadas_hier)):
+    if isinstance(resultado, Exception):
+        print(f"[AVISO] perf_hierarquia_{nome} falhou ({str(resultado)[:100]}) — gerente fica 'Sem gerente' nessa base")
+        continue
+    resultado.columns = resultado.columns.str.upper()
+    resultado['SISTEMA'] = nome
+    _partes_hier.append(resultado)
+
+hierarquia = pd.concat(_partes_hier, ignore_index=True) if _partes_hier else pd.DataFrame(columns=['CODUSUR', 'NOME_SUPERVISOR', 'NOME_GERENTE', 'SISTEMA'])
+hierarquia['CODUSUR'] = pd.to_numeric(hierarquia['CODUSUR'], errors='coerce')
+hierarquia['CHAVE_RCA'] = hierarquia['SISTEMA'] + '-' + hierarquia['CODUSUR'].astype('Int64').astype(str)
+_gerente_por_chave = hierarquia.drop_duplicates(subset=['CHAVE_RCA']).set_index('CHAVE_RCA')['NOME_GERENTE'].to_dict()
+
 
 def _time_de(sistema, estado, codusur):
     if sistema in ('CRC',) and estado == 'RJ' and int(codusur) in TIMES_RJ:
@@ -179,6 +210,7 @@ _rca_info = (
     .copy()
 )
 _rca_info['TIME'] = _rca_info.apply(lambda r: _time_de(r['SISTEMA'], r['ESTADO'], r['CODUSUR']), axis=1)
+_rca_info['GERENTE'] = _rca_info['CHAVE_RCA'].map(_gerente_por_chave).fillna('Sem gerente')
 _rca_info['NOME_EXIBICAO'] = _rca_info['NOME_RCA'].str.replace(' - OFF TRADE', '', regex=False).str.replace('-OFF TRADE', '', regex=False).str.strip()
 
 # ── Base cadastro por RCA (cliente com CODUSUR1 ou CODUSUR2 == RCA) ────────
@@ -280,6 +312,7 @@ for _, r in _rca_info.iterrows():
         'estado': r['ESTADO'],
         'time': r['TIME'],
         'time_label': TIME_LABEL[r['TIME']],
+        'gerente': r['GERENTE'],
         'base_cadastro': base_cad,
         'base_ativa': int(_base_ativa_qtd.get(chave, 0)),
         'vs_base_pct': round(100 * pos_unicas_atual / base_cad, 1) if base_cad else None,
@@ -288,25 +321,27 @@ for _, r in _rca_info.iterrows():
     })
 vendedores.sort(key=lambda v: v[str(_ANO_ATUAL)]['metricas']['faturamento'], reverse=True)
 
-# ── Monta payload por time (recalcula do zero — nunique não soma entre RCAs) ──
-times = []
-for time_key in ['KEY_ACCOUNT', 'ATACAREJO', 'CONVENIENCE', 'OUTROS']:
-    chaves_time = set(_rca_info[_rca_info['TIME'] == time_key]['CHAVE_RCA'])
-    df_time = vendas[vendas['CHAVE_RCA'].isin(chaves_time)]
-    df_atual = df_time[df_time['ANO'] == _ANO_ATUAL]
-    df_anterior = df_time[df_time['ANO'] == _ANO_ANTERIOR]
-    base_cad_time = sum(_base_cadastro_qtd.get(c, 0) for c in chaves_time)
+# ── Monta payload por gerente (recalcula do zero — nunique não soma entre RCAs) ──
+# "MESMA VISÃO GERÊNCIA" do esboço = mesma tabela, rollup por gerente real
+# (hierarquia PCUSUARI->PCSUPERV->PCGERENTE), não por time comercial.
+gerentes = []
+for gerente_nome in sorted(_rca_info['GERENTE'].unique()):
+    chaves_ger = set(_rca_info[_rca_info['GERENTE'] == gerente_nome]['CHAVE_RCA'])
+    df_ger = vendas[vendas['CHAVE_RCA'].isin(chaves_ger)]
+    df_atual = df_ger[df_ger['ANO'] == _ANO_ATUAL]
+    df_anterior = df_ger[df_ger['ANO'] == _ANO_ANTERIOR]
+    base_cad_ger = sum(_base_cadastro_qtd.get(c, 0) for c in chaves_ger)
     pos_unicas_atual = int(df_atual['CODCLI'].nunique())
-    times.append({
-        'time': time_key,
-        'time_label': TIME_LABEL[time_key],
-        'qtd_vendedores': len(chaves_time),
-        'base_cadastro': base_cad_time,
-        'base_ativa': int(sum(_base_ativa_qtd.get(c, 0) for c in chaves_time)),
-        'vs_base_pct': round(100 * pos_unicas_atual / base_cad_time, 1) if base_cad_time else None,
+    gerentes.append({
+        'gerente': gerente_nome,
+        'qtd_vendedores': len(chaves_ger),
+        'base_cadastro': base_cad_ger,
+        'base_ativa': int(sum(_base_ativa_qtd.get(c, 0) for c in chaves_ger)),
+        'vs_base_pct': round(100 * pos_unicas_atual / base_cad_ger, 1) if base_cad_ger else None,
         str(_ANO_ATUAL):    _bloco_periodo(df_atual),
         str(_ANO_ANTERIOR): _bloco_periodo(df_anterior),
     })
+gerentes.sort(key=lambda g: g[str(_ANO_ATUAL)]['metricas']['faturamento'], reverse=True)
 
 # ── Opções de filtro (indústria -> SKUs, sistemas, UFs) ────────────────────
 _industrias_skus = {}
@@ -319,7 +354,7 @@ payload = {
     'ano_anterior': _ANO_ANTERIOR,
     'limite_ano_anterior': _LIMITE_ANO_ANTERIOR.strftime('%d/%m/%Y'),
     'vendedores': vendedores,
-    'times': times,
+    'gerentes': gerentes,
     'opcoes_filtro': {
         'sistemas': sorted(vendas['SISTEMA'].unique().tolist()),
         'ufs': sorted(vendas['ESTADO'].unique().tolist()),
@@ -333,7 +368,7 @@ out_path = Path(__file__).parent / "performance_equipe_data.js"
 with open(out_path, 'w', encoding='utf-8') as f:
     f.write(f"// Gerado automaticamente\nconst PERFORMANCE_EQUIPE_DATA = {json.dumps(payload, ensure_ascii=False)};\n")
 
-print(f"OK performance_equipe_data.js — {len(vendedores)} vendedor(es), {len(times)} time(s), "
+print(f"OK performance_equipe_data.js — {len(vendedores)} vendedor(es), {len(gerentes)} gerente(s), "
       f"período {_ANO_ANTERIOR} (até {_LIMITE_ANO_ANTERIOR.strftime('%d/%m')}) vs {_ANO_ATUAL} (até hoje)")
 if fontes_indisponiveis:
     print(f"[AVISO] Fontes indisponíveis: {fontes_indisponiveis}")

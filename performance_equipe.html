@@ -79,7 +79,7 @@
   <div class="filtros">
     <div class="toggle-grupo" id="tg-visao">
       <button data-v="vendedor" class="on">Por Vendedor</button>
-      <button data-v="time">Por Time</button>
+      <button data-v="gerente">Por Gerente</button>
     </div>
     <select id="fil-time" onchange="aplicarFiltro()">
       <option value="">Time: todos</option>
@@ -90,7 +90,8 @@
     <select id="fil-uf" onchange="aplicarFiltro()">
       <option value="">UF: todas</option>
     </select>
-    <input type="text" id="fil-busca" placeholder="&#128269; Buscar vendedor..." oninput="aplicarFiltro()" style="min-width:200px">
+    <input type="text" id="fil-busca" placeholder="&#128269; Buscar vendedor/gerente..." oninput="aplicarFiltro()" style="min-width:200px">
+    <span id="filtro-aviso" style="font-size:.72rem;color:var(--muted);display:none">Time/Sistema/UF/busca filtram os gráficos e a lista de vendedores; a tabela por Gerente mostra sempre a equipe inteira de cada gerente.</span>
   </div>
 
   <div class="table-wrap">
@@ -123,7 +124,7 @@ const D = (typeof PERFORMANCE_EQUIPE_DATA !== 'undefined') ? PERFORMANCE_EQUIPE_
 const ANO_ATUAL = D ? D.ano_atual : null;
 const ANO_ANTERIOR = D ? D.ano_anterior : null;
 
-let _visao = 'vendedor'; // 'vendedor' | 'time'
+let _visao = 'vendedor'; // 'vendedor' | 'gerente'
 let _sortCol = 'faturamento', _sortDir = -1;
 
 const fmtR = v => 'R$ ' + (v||0).toLocaleString('pt-BR', {minimumFractionDigits:0, maximumFractionDigits:0});
@@ -136,6 +137,7 @@ function init() {
   document.querySelectorAll('#tg-visao button').forEach(b => b.onclick = () => {
     _visao = b.dataset.v;
     document.querySelectorAll('#tg-visao button').forEach(x => x.classList.toggle('on', x === b));
+    document.getElementById('filtro-aviso').style.display = _visao === 'gerente' ? '' : 'none';
     renderHead(); aplicarFiltro();
   });
 
@@ -183,20 +185,30 @@ function setSort(col) {
   renderHead(); aplicarFiltro();
 }
 
-function _linhaFiltrada() {
+// Vendedores filtrados por Time/Sistema/UF/busca — fonte única usada pelos
+// gráficos (sempre) e pela tabela (quando _visao === 'vendedor'). A tabela
+// "Por Gerente" usa D.gerentes direto (rollup pré-calculado por RCA de
+// verdade, não dá pra recalcular no navegador sem os dados brutos por
+// cliente) — só filtra por nome do gerente na busca.
+function _vendedoresFiltrados() {
   const time = document.getElementById('fil-time').value;
   const sistema = document.getElementById('fil-sistema').value;
   const uf = document.getElementById('fil-uf').value;
   const busca = document.getElementById('fil-busca').value.trim().toLowerCase();
-
-  let base = _visao === 'vendedor' ? D.vendedores : D.times;
-  return base.filter(r => {
+  return D.vendedores.filter(r => {
     if (time && (r.time_label||'') !== time) return false;
-    if (_visao === 'vendedor') {
-      if (sistema && r.sistema !== sistema) return false;
-      if (uf && r.estado !== uf) return false;
-      if (busca && !(r.nome||'').toLowerCase().includes(busca)) return false;
-    }
+    if (sistema && r.sistema !== sistema) return false;
+    if (uf && r.estado !== uf) return false;
+    if (busca && !(r.nome||'').toLowerCase().includes(busca)) return false;
+    return true;
+  });
+}
+
+function _linhaFiltrada() {
+  if (_visao === 'vendedor') return _vendedoresFiltrados();
+  const busca = document.getElementById('fil-busca').value.trim().toLowerCase();
+  return D.gerentes.filter(r => {
+    if (busca && !(r.gerente||'').toLowerCase().includes(busca)) return false;
     return true;
   });
 }
@@ -212,8 +224,8 @@ function _vsBadge(atual, anterior) {
 function aplicarFiltro() {
   let linhas = _linhaFiltrada();
   linhas = [...linhas].sort((a, b) => {
-    const va = _sortCol === 'nome' ? (a.nome||a.time_label||'') : (a[ANO_ATUAL]?.metricas?.[_sortCol] ?? a[_sortCol] ?? 0);
-    const vb = _sortCol === 'nome' ? (b.nome||b.time_label||'') : (b[ANO_ATUAL]?.metricas?.[_sortCol] ?? b[_sortCol] ?? 0);
+    const va = _sortCol === 'nome' ? (a.nome||a.gerente||'') : (a[ANO_ATUAL]?.metricas?.[_sortCol] ?? a[_sortCol] ?? 0);
+    const vb = _sortCol === 'nome' ? (b.nome||b.gerente||'') : (b[ANO_ATUAL]?.metricas?.[_sortCol] ?? b[_sortCol] ?? 0);
     if (typeof va === 'string') return va.localeCompare(vb, 'pt-BR') * _sortDir;
     return (va - vb) * _sortDir;
   });
@@ -226,7 +238,7 @@ function aplicarFiltro() {
       const mAtual = r[ANO_ATUAL].metricas, mAnt = r[ANO_ANTERIOR].metricas;
       const nomeCol = _visao === 'vendedor'
         ? `<td>${_esc(r.nome)} <span style="color:var(--muted);font-size:.68rem">(${_esc(r.estado)}/${_esc(r.sistema)})</span></td>`
-        : `<td>${_esc(r.time_label)} <span style="color:var(--muted);font-size:.68rem">(${r.qtd_vendedores} vend.)</span></td>`;
+        : `<td>${_esc(r.gerente)} <span style="color:var(--muted);font-size:.68rem">(${r.qtd_vendedores} vend.)</span></td>`;
       const timeCol = _visao === 'vendedor' ? `<td><span class="time-badge">${_esc(r.time_label)}</span></td>` : '';
       return `<tr>
         ${timeCol}
@@ -244,7 +256,11 @@ function aplicarFiltro() {
     }).join('');
   }
 
-  renderGraficos(linhas);
+  // Gráficos sempre agregam da lista de vendedores filtrada (Time/Sistema/
+  // UF/busca) — independente da visão da tabela, senão os filtros de
+  // Sistema/UF não tinham efeito nenhum quando a tabela estava em "Por
+  // Gerente" (bug reportado em 2026-08-12).
+  renderGraficos(_vendedoresFiltrados());
 }
 
 // ── Gráficos ─────────────────────────────────────────────────────────────
