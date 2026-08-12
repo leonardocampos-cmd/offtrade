@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "12/08/2026 15:15",
-  "total": 22044,
+  "atualizado_em": "12/08/2026 15:43",
+  "total": 22043,
   "clientes": [
     {
       "codcli": "38586",
@@ -101730,22 +101730,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
-    },
-    {
-      "codcli": "38436",
-      "razao": "COMERCIAL GOMES SILVEIRA LTDA",
-      "fantasia": "COMERCIAL GOMES SILVEIRA",
-      "bairro": "CENTRO",
-      "cidade": "DIVINOPOLIS",
-      "cnpj": "12.020.040/0001-84",
-      "estado": "MG",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "549",
-      "nome_usur2": "FERNANDO GOMES"
     },
     {
       "codcli": "30423",
@@ -286174,8 +286158,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "CANTINA",
       "key_account": false,
       "rede": "",
-      "codusur1": "112",
-      "nome_usur1": "LUCAS MATIAS",
+      "codusur1": "147",
+      "nome_usur1": "THIAGO MENDES",
       "codusur2": "378",
       "nome_usur2": "FABIO VALOTTI - OFF TRADE"
     },
