@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <script src="auth.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Performance Equipe — OfftradeHub</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+  <script src="performance_equipe_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --card2: #22263a;
+      --accent: #f5c518; --blue: #60a5fa; --text: #e2e8f0; --muted: #94a3b8;
+      --border: #2d3144; --green: #4ade80; --red: #ef4444;
+    }
+    body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; min-height: 100vh; padding: 16px; }
+    header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; padding-bottom: 14px; border-bottom: 1px solid var(--border); gap: 12px; flex-wrap: wrap; }
+    header h1 { font-size: 1.2rem; font-weight: 800; color: var(--accent); }
+    header p { font-size: .72rem; color: var(--muted); margin-top: 3px; }
+    .btn { display: inline-flex; align-items: center; gap: 6px; padding: 7px 14px; border-radius: 8px; background: var(--card); border: 1px solid var(--border); color: var(--text); font-size: .8rem; font-weight: 600; text-decoration: none; cursor: pointer; }
+    .btn:hover { border-color: var(--accent); }
+    .btn.on { background: var(--accent); color: #0f1117; border-color: var(--accent); }
+
+    section { margin-bottom: 22px; }
+    .section-title { font-size: .72rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin-bottom: 10px; font-weight: 700; }
+
+    .filtros { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 14px; }
+    select, input[type=text] {
+      background: var(--card); border: 1px solid var(--border); color: var(--text);
+      padding: 8px 12px; border-radius: 8px; font-size: .82rem; font-family: inherit; outline: none; min-width: 160px;
+    }
+    select:focus, input[type=text]:focus { border-color: var(--accent); }
+    .toggle-grupo { display: flex; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+    .toggle-grupo button { background: var(--card); color: var(--muted); border: none; padding: 8px 14px; font-size: .82rem; font-weight: 600; cursor: pointer; font-family: inherit; }
+    .toggle-grupo button.on { background: var(--accent); color: #0f1117; }
+
+    .table-wrap { overflow-x: auto; background: var(--card); border: 1px solid var(--border); border-radius: 12px; }
+    table { width: 100%; border-collapse: collapse; font-size: .78rem; }
+    th { background: var(--card2); color: var(--muted); font-size: .64rem; text-transform: uppercase; letter-spacing: .05em; padding: 9px 10px; text-align: right; border-bottom: 1px solid var(--border); white-space: nowrap; cursor: pointer; user-select: none; }
+    th:first-child, td:first-child { text-align: left; position: sticky; left: 0; background: var(--card); }
+    th:hover { color: var(--accent); }
+    td { padding: 8px 10px; border-bottom: 1px solid var(--border); text-align: right; white-space: nowrap; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: var(--card2); }
+    .vs { font-size: .7rem; margin-left: 4px; }
+    .vs.up { color: var(--green); } .vs.down { color: var(--red); }
+    .time-badge { display: inline-block; padding: 2px 8px; border-radius: 99px; font-size: .66rem; font-weight: 700; background: rgba(96,165,250,.15); color: var(--blue); border: 1px solid rgba(96,165,250,.3); }
+    .empty-msg { padding: 24px; text-align: center; color: var(--muted); font-size: .82rem; }
+
+    .charts-grupo { margin-bottom: 26px; }
+    .charts-grupo h3 { font-size: .9rem; font-weight: 700; color: var(--accent); margin-bottom: 10px; }
+    .charts-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+    @media (max-width: 1000px) { .charts-grid { grid-template-columns: 1fr; } }
+    .chart-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 14px; }
+    .chart-card h4 { font-size: .74rem; font-weight: 700; color: var(--muted); margin-bottom: 8px; text-transform: uppercase; letter-spacing: .04em; }
+    .chart-wrap { position: relative; height: 220px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>&#128202; Performance Equipe</h1>
+    <p id="sub">—</p>
+  </div>
+  <a class="btn" href="index.html">&#8962; Home</a>
+</header>
+
+<div id="blocked" style="display:none;padding:60px 16px;text-align:center;color:var(--muted)">
+  <div style="font-size:2rem;margin-bottom:10px">&#128274;</div>
+  <div style="font-size:.95rem;font-weight:700;color:var(--text)">Página restrita a gestores</div>
+  <div style="font-size:.8rem;margin-top:6px">Sua conta não tem acesso a este painel.</div>
+</div>
+
+<div id="app">
+
+<section>
+  <div class="filtros">
+    <div class="toggle-grupo" id="tg-visao">
+      <button data-v="vendedor" class="on">Por Vendedor</button>
+      <button data-v="time">Por Time</button>
+    </div>
+    <select id="fil-time" onchange="aplicarFiltro()">
+      <option value="">Time: todos</option>
+    </select>
+    <select id="fil-sistema" onchange="aplicarFiltro()">
+      <option value="">Sistema: todos</option>
+    </select>
+    <select id="fil-uf" onchange="aplicarFiltro()">
+      <option value="">UF: todas</option>
+    </select>
+    <input type="text" id="fil-busca" placeholder="&#128269; Buscar vendedor..." oninput="aplicarFiltro()" style="min-width:200px">
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <thead><tr id="thead-row"></tr></thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+</section>
+
+<section id="secao-graficos"></section>
+
+</div><!-- /#app -->
+
+<script>
+const GESTORES_PERMITIDOS = [
+  'danielle.soares@rigarr.com.br', 'allan.correa@rigarr.com.br', 'leonardo.campos@rigarr.com.br',
+  'alexsandro.nunes@rigarr.com.br', 'giovani.cabral@rigarr.com.br', 'kaliel.caro@rigarr.com.br',
+  'artur.furlan@rigarr.com.br', 'daniel.diniz@rigarr.com.br', 'marcus.tanamachi@rigarr.com.br',
+  'geovanna.lescano@rigarr.com.br', 'fernando.risson@rigarr.com.br', 'erocles.oliveira@rigarr.com.br',
+  'andre.massensini@rigarr.com.br', 'priscilla.zambrano@rigarr.com.br', 'anderson.canaveis@rigarr.com.br',
+];
+const _emailAtual = (sessionStorage.getItem('rg_email') || '').toLowerCase();
+if (!GESTORES_PERMITIDOS.includes(_emailAtual)) {
+  document.getElementById('app').style.display = 'none';
+  document.getElementById('blocked').style.display = '';
+}
+
+const D = (typeof PERFORMANCE_EQUIPE_DATA !== 'undefined') ? PERFORMANCE_EQUIPE_DATA : null;
+const ANO_ATUAL = D ? D.ano_atual : null;
+const ANO_ANTERIOR = D ? D.ano_anterior : null;
+
+let _visao = 'vendedor'; // 'vendedor' | 'time'
+let _sortCol = 'faturamento', _sortDir = -1;
+
+const fmtR = v => 'R$ ' + (v||0).toLocaleString('pt-BR', {minimumFractionDigits:0, maximumFractionDigits:0});
+const fmtN = v => (v==null ? '—' : v.toLocaleString('pt-BR', {maximumFractionDigits:1}));
+
+function init() {
+  document.getElementById('sub').textContent =
+    `Atualizado: ${D.atualizado_em} · ${ANO_ANTERIOR} (até ${D.limite_ano_anterior}) vs ${ANO_ATUAL} (até hoje) — mesmo período`;
+
+  document.querySelectorAll('#tg-visao button').forEach(b => b.onclick = () => {
+    _visao = b.dataset.v;
+    document.querySelectorAll('#tg-visao button').forEach(x => x.classList.toggle('on', x === b));
+    renderHead(); aplicarFiltro();
+  });
+
+  const selTime = document.getElementById('fil-time');
+  const timesUnicos = [...new Set(D.vendedores.map(v => v.time_label))];
+  timesUnicos.forEach(t => selTime.insertAdjacentHTML('beforeend', `<option value="${_esc(t)}">${_esc(t)}</option>`));
+
+  const selSis = document.getElementById('fil-sistema');
+  D.opcoes_filtro.sistemas.forEach(s => selSis.insertAdjacentHTML('beforeend', `<option value="${_esc(s)}">${_esc(s)}</option>`));
+
+  const selUf = document.getElementById('fil-uf');
+  D.opcoes_filtro.ufs.forEach(u => selUf.insertAdjacentHTML('beforeend', `<option value="${_esc(u)}">${_esc(u)}</option>`));
+
+  renderHead();
+  aplicarFiltro();
+}
+
+function _esc(s) { return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+const COLS = [
+  { key: 'nome', label: 'Vendedor', left: true },
+  { key: 'base_cadastro', label: 'Base Cadastro' },
+  { key: 'base_ativa', label: 'Base Ativa' },
+  { key: 'faturamento', label: 'Faturamento', vsAA: true, money: true },
+  { key: 'positivacoes', label: 'Positivações', vsAA: true },
+  { key: 'positivacoes_unicas', label: 'Pos. Únicas', vsAA: true, vsBase: true },
+  { key: 'industrias', label: 'Indústrias' },
+  { key: 'qtd_industria_cliente', label: 'Qtd Ind/Cliente' },
+  { key: 'tdp', label: 'TDP' },
+  { key: 'qtd_sku_cliente', label: 'Qtd SKU/Cliente' },
+];
+
+function renderHead() {
+  const th = COLS.map(c => {
+    let extra = '';
+    if (c.vsAA) extra += `<th>vs ${ANO_ANTERIOR}</th>`;
+    if (c.vsBase) extra += `<th>vs Base</th>`;
+    return `<th class="${c.left?'':''}" onclick="setSort('${c.key}')">${c.label}${_sortCol===c.key?(_sortDir===1?' &#9650;':' &#9660;'):''}</th>${extra}`;
+  }).join('');
+  document.getElementById('thead-row').innerHTML = (_visao==='vendedor' ? '<th>Time</th>' : '') + th;
+}
+
+function setSort(col) {
+  if (_sortCol === col) { _sortDir *= -1; } else { _sortCol = col; _sortDir = -1; }
+  renderHead(); aplicarFiltro();
+}
+
+function _linhaFiltrada() {
+  const time = document.getElementById('fil-time').value;
+  const sistema = document.getElementById('fil-sistema').value;
+  const uf = document.getElementById('fil-uf').value;
+  const busca = document.getElementById('fil-busca').value.trim().toLowerCase();
+
+  let base = _visao === 'vendedor' ? D.vendedores : D.times;
+  return base.filter(r => {
+    if (time && (r.time_label||'') !== time) return false;
+    if (_visao === 'vendedor') {
+      if (sistema && r.sistema !== sistema) return false;
+      if (uf && r.estado !== uf) return false;
+      if (busca && !(r.nome||'').toLowerCase().includes(busca)) return false;
+    }
+    return true;
+  });
+}
+
+function _vsBadge(atual, anterior) {
+  if (anterior == null || anterior === 0) return '';
+  const diff = ((atual - anterior) / anterior) * 100;
+  const cls = diff >= 0 ? 'up' : 'down';
+  const sinal = diff >= 0 ? '+' : '';
+  return `<span class="vs ${cls}">${sinal}${diff.toFixed(0)}%</span>`;
+}
+
+function aplicarFiltro() {
+  let linhas = _linhaFiltrada();
+  linhas = [...linhas].sort((a, b) => {
+    const va = _sortCol === 'nome' ? (a.nome||a.time_label||'') : (a[ANO_ATUAL]?.metricas?.[_sortCol] ?? a[_sortCol] ?? 0);
+    const vb = _sortCol === 'nome' ? (b.nome||b.time_label||'') : (b[ANO_ATUAL]?.metricas?.[_sortCol] ?? b[_sortCol] ?? 0);
+    if (typeof va === 'string') return va.localeCompare(vb, 'pt-BR') * _sortDir;
+    return (va - vb) * _sortDir;
+  });
+
+  const tbody = document.getElementById('tbody');
+  if (!linhas.length) {
+    tbody.innerHTML = `<tr><td colspan="16" class="empty-msg">Nenhum resultado para os filtros selecionados.</td></tr>`;
+  } else {
+    tbody.innerHTML = linhas.map(r => {
+      const mAtual = r[ANO_ATUAL].metricas, mAnt = r[ANO_ANTERIOR].metricas;
+      const nomeCol = _visao === 'vendedor'
+        ? `<td>${_esc(r.nome)} <span style="color:var(--muted);font-size:.68rem">(${_esc(r.estado)}/${_esc(r.sistema)})</span></td>`
+        : `<td>${_esc(r.time_label)} <span style="color:var(--muted);font-size:.68rem">(${r.qtd_vendedores} vend.)</span></td>`;
+      const timeCol = _visao === 'vendedor' ? `<td><span class="time-badge">${_esc(r.time_label)}</span></td>` : '';
+      return `<tr>
+        ${timeCol}
+        ${nomeCol}
+        <td>${fmtN(r.base_cadastro)}</td>
+        <td>${fmtN(r.base_ativa)}</td>
+        <td>${fmtR(mAtual.faturamento)}</td><td>${_vsBadge(mAtual.faturamento, mAnt.faturamento)}</td>
+        <td>${fmtN(mAtual.positivacoes)}</td><td>${_vsBadge(mAtual.positivacoes, mAnt.positivacoes)}</td>
+        <td>${fmtN(mAtual.positivacoes_unicas)}</td><td>${_vsBadge(mAtual.positivacoes_unicas, mAnt.positivacoes_unicas)}</td><td>${r.vs_base_pct!=null?r.vs_base_pct+'%':'—'}</td>
+        <td>${fmtN(mAtual.industrias)}</td>
+        <td>${fmtN(mAtual.qtd_industria_cliente)}</td>
+        <td>${fmtN(mAtual.tdp)}</td>
+        <td>${fmtN(mAtual.qtd_sku_cliente)}</td>
+      </tr>`;
+    }).join('');
+  }
+
+  renderGraficos(linhas);
+}
+
+// ── Gráficos ─────────────────────────────────────────────────────────────
+const GRUPOS = [
+  { titulo: 'Faturamento', campo: 'faturamento', money: true },
+  { titulo: 'Positivação Única', campo: 'positivacoes_unicas' },
+  { titulo: 'Qtd Indústrias / Cliente', campo: 'qtd_industria_cliente', media: true },
+  { titulo: 'TDP (Soma de Itens Diferentes)', campo: 'tdp' },
+];
+let _charts = [];
+
+function _agregarPorUF(linhas, ano, campo, media) {
+  const soma = {}, n = {};
+  linhas.forEach(r => {
+    const porUf = r[ano].por_uf;
+    Object.entries(porUf).forEach(([uf, m]) => {
+      soma[uf] = (soma[uf]||0) + (m[campo]||0);
+      n[uf] = (n[uf]||0) + 1;
+    });
+  });
+  const ufs = Object.keys(soma).sort();
+  return { labels: ufs, valores: ufs.map(u => media ? soma[u]/n[u] : soma[u]) };
+}
+
+function _agregarPorMes(linhas, ano, campo, media) {
+  const soma = {}, n = {};
+  linhas.forEach(r => {
+    Object.entries(r[ano].mensal).forEach(([mes, m]) => {
+      soma[mes] = (soma[mes]||0) + (m[campo]||0);
+      n[mes] = (n[mes]||0) + 1;
+    });
+  });
+  const meses = Object.keys(soma).sort();
+  return { meses, valores: meses.map(m => media ? soma[m]/n[m] : soma[m]) };
+}
+
+function _labelMes(m) {
+  const [y, mo] = m.split('-');
+  return new Date(y, mo-1, 1).toLocaleDateString('pt-BR', {month:'short'}).replace('.','');
+}
+
+function renderGraficos(linhas) {
+  _charts.forEach(c => c.destroy());
+  _charts = [];
+  const secao = document.getElementById('secao-graficos');
+  secao.innerHTML = GRUPOS.map((g, i) => `
+    <div class="charts-grupo">
+      <h3>${g.titulo}</h3>
+      <div class="charts-grid">
+        <div class="chart-card"><h4>Por UF</h4><div class="chart-wrap"><canvas id="c-uf-${i}"></canvas></div></div>
+        <div class="chart-card"><h4>Acumulado</h4><div class="chart-wrap"><canvas id="c-ac-${i}"></canvas></div></div>
+        <div class="chart-card"><h4>Mês a Mês</h4><div class="chart-wrap"><canvas id="c-mm-${i}"></canvas></div></div>
+      </div>
+    </div>`).join('');
+
+  const CHART_DEFAULTS = {
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { labels: { color: '#94a3b8', font: { size: 10 }, boxWidth: 10 } } },
+    scales: {
+      x: { ticks: { color: '#94a3b8', font: { size: 9 } }, grid: { display: false } },
+      y: { ticks: { color: '#94a3b8', font: { size: 9 } }, grid: { color: '#2d3144' } },
+    },
+  };
+
+  GRUPOS.forEach((g, i) => {
+    const ufAtual = _agregarPorUF(linhas, ANO_ATUAL, g.campo, g.media);
+    const ufAnt = _agregarPorUF(linhas, ANO_ANTERIOR, g.campo, g.media);
+    const ufsTodas = [...new Set([...ufAtual.labels, ...ufAnt.labels])].sort();
+    _charts.push(new Chart(document.getElementById(`c-uf-${i}`), {
+      type: 'bar',
+      data: {
+        labels: ufsTodas,
+        datasets: [
+          { label: String(ANO_ANTERIOR), data: ufsTodas.map(u => ufAnt.valores[ufAnt.labels.indexOf(u)]||0), backgroundColor: 'rgba(148,163,184,.5)' },
+          { label: String(ANO_ATUAL), data: ufsTodas.map(u => ufAtual.valores[ufAtual.labels.indexOf(u)]||0), backgroundColor: 'rgba(245,197,24,.8)' },
+        ],
+      },
+      options: CHART_DEFAULTS,
+    }));
+
+    const mmAtual = _agregarPorMes(linhas, ANO_ATUAL, g.campo, g.media);
+    const mmAnt = _agregarPorMes(linhas, ANO_ANTERIOR, g.campo, g.media);
+    const mesesTodos = [...new Set([...mmAtual.meses.map(m=>m.slice(5)), ...mmAnt.meses.map(m=>m.slice(5))])].sort();
+    const valAnt = mesesTodos.map(m => { const idx = mmAnt.meses.findIndex(x=>x.endsWith(m)); return idx>=0 ? mmAnt.valores[idx] : null; });
+    const valAtual = mesesTodos.map(m => { const idx = mmAtual.meses.findIndex(x=>x.endsWith(m)); return idx>=0 ? mmAtual.valores[idx] : null; });
+    _charts.push(new Chart(document.getElementById(`c-mm-${i}`), {
+      type: 'bar',
+      data: {
+        labels: mesesTodos.map(m => new Date(2000, parseInt(m)-1, 1).toLocaleDateString('pt-BR',{month:'short'}).replace('.','')),
+        datasets: [
+          { label: String(ANO_ANTERIOR), data: valAnt, backgroundColor: 'rgba(148,163,184,.5)' },
+          { label: String(ANO_ATUAL), data: valAtual, backgroundColor: 'rgba(245,197,24,.8)' },
+        ],
+      },
+      options: CHART_DEFAULTS,
+    }));
+
+    const acAnt = []; let accAnt = 0;
+    valAnt.forEach(v => { accAnt += (v||0); acAnt.push(accAnt); });
+    const acAtual = []; let accAtual = 0;
+    valAtual.forEach(v => { accAtual += (v||0); acAtual.push(accAtual); });
+    _charts.push(new Chart(document.getElementById(`c-ac-${i}`), {
+      type: 'line',
+      data: {
+        labels: mesesTodos.map(m => new Date(2000, parseInt(m)-1, 1).toLocaleDateString('pt-BR',{month:'short'}).replace('.','')),
+        datasets: [
+          { label: String(ANO_ANTERIOR), data: acAnt, borderColor: '#94a3b8', backgroundColor: 'transparent', tension: .3 },
+          { label: String(ANO_ATUAL), data: acAtual, borderColor: '#f5c518', backgroundColor: 'transparent', tension: .3 },
+        ],
+      },
+      options: CHART_DEFAULTS,
+    }));
+  });
+}
+
+if (GESTORES_PERMITIDOS.includes(_emailAtual)) {
+  if (!D) {
+    document.getElementById('tbody').innerHTML = '<tr><td class="empty-msg">Erro: performance_equipe_data.js não encontrado.</td></tr>';
+  } else {
+    init();
+  }
+}
+</script>
+</body>
+</html>
