@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "12/08/2026 10:27",
+  "atualizado_em": "12/08/2026 10:44",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -9318,6 +9318,13 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
+        "codcli": "52423",
+        "cliente": "A.F. CAMPOS BAR",
+        "bairro": "ARARIBÁ",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "52327",
         "cliente": "ADEGA BARBOSA COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
         "bairro": "JARDIM OLARIA",
@@ -9367,13 +9374,6 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "52209",
-        "cliente": "CONDE SUPERMERCADO LTDA",
-        "bairro": "ITAGUÁ",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "52207",
         "cliente": "CONDE SUPERMERCADO LTDA",
         "bairro": "CENTRO",
@@ -9388,9 +9388,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "52212",
+        "codcli": "52209",
         "cliente": "CONDE SUPERMERCADO LTDA",
-        "bairro": "ENSEADA",
+        "bairro": "ITAGUÁ",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -9412,6 +9412,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "52208",
         "cliente": "CONDE SUPERMERCADO LTDA",
         "bairro": "ITAGUÁ",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52212",
+        "cliente": "CONDE SUPERMERCADO LTDA",
+        "bairro": "ENSEADA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -11111,6 +11118,13 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
+        "codcli": "51835",
+        "cliente": "SUPERMERCADO IBIRAPUERA LTDA",
+        "bairro": "JOAO ARANHA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "51833",
         "cliente": "SUPERMERCADO IBIRAPUERA LTDA",
         "bairro": "JOAO ARANHA",
@@ -11125,16 +11139,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51835",
-        "cliente": "SUPERMERCADO IBIRAPUERA LTDA",
-        "bairro": "JOAO ARANHA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "52379",
+        "codcli": "52378",
         "cliente": "SUPERMERCADO JARDIM DOS CALEGARIS LTDA",
-        "bairro": "VILA JOSÉ PAULINO NOGUEIRA",
+        "bairro": "JARDIM DOS CALEGARIS",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -11146,9 +11153,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "52378",
+        "codcli": "52379",
         "cliente": "SUPERMERCADO JARDIM DOS CALEGARIS LTDA",
-        "bairro": "JARDIM DOS CALEGARIS",
+        "bairro": "VILA JOSÉ PAULINO NOGUEIRA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -11156,6 +11163,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "52416",
         "cliente": "SUPERMERCADO MADEAN LTDA",
         "bairro": "JARDIM PICERNO II",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52422",
+        "cliente": "SUPERMERCADO UNIAO WENG LTDA",
+        "bairro": "JARDIM DO SOL",
         "dtultcomp": "nan",
         "produtos": []
       },
