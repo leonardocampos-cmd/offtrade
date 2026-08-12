@@ -1,25 +1,25 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "12/08/2026 17:17",
+  "atualizado_em": "12/08/2026 17:45",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 12,
   "dias_no_mes": 31,
   "dias_restantes": 19,
   "resumo": {
-    "fat": 4312122.68,
+    "fat": 4311321.32,
     "fat_ant": 2800425.49,
     "fat_ant_completo": 13873062.23,
-    "pos": 753,
+    "pos": 754,
     "pos_ant": 761,
     "pos_ant_completo": 1808
   },
   "total": {
     "meta": 12300000.0,
-    "fat": 4312122.68,
+    "fat": 4311321.32,
     "fat_ant": 2800425.49,
     "fat_ant_completo": 13873062.23,
     "pct": 35.1,
-    "nec_dia": 420414.6
+    "nec_dia": 420456.77
   },
   "estados": [
     {
@@ -52,11 +52,11 @@ const METAS_GERAIS_DATA = {
       "estado": "ES",
       "label": "Espírito Santo",
       "meta": 1800000.0,
-      "fat": 296365.08,
+      "fat": 293934.12,
       "fat_ant": 107285.45,
       "pos": 36,
-      "pct": 16.5,
-      "nec_dia": 79138.68,
+      "pct": 16.3,
+      "nec_dia": 79266.63,
       "fat_ant_completo": 735785.95,
       "pos_ant": 31,
       "pos_ant_completo": 90
@@ -65,11 +65,11 @@ const METAS_GERAIS_DATA = {
       "estado": "MG",
       "label": "Minas Gerais",
       "meta": 2100000.0,
-      "fat": 662082.72,
+      "fat": 663712.32,
       "fat_ant": 293030.44,
-      "pos": 110,
-      "pct": 31.5,
-      "nec_dia": 75679.86,
+      "pos": 111,
+      "pct": 31.6,
+      "nec_dia": 75594.09,
       "fat_ant_completo": 1899957.21,
       "pos_ant": 120,
       "pos_ant_completo": 265
@@ -144,23 +144,23 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "CASTAS",
-      "fat": 109121.48,
+      "fat": 110751.08,
       "fat_ant": 55136.0,
       "por_estado": {
         "RJ": 60518.96,
         "SP": 14355.92,
         "ES": 0.0,
-        "MG": 34246.6
+        "MG": 35876.2
       }
     },
     {
       "fantasia": "TATUZINHO",
-      "fat": 87926.27,
+      "fat": 85495.31,
       "fat_ant": 74264.22,
       "por_estado": {
         "RJ": 57999.68,
         "SP": 1354.5,
-        "ES": 25803.13,
+        "ES": 23372.17,
         "MG": 2768.96
       }
     },
