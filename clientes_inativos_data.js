@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "12/08/2026 18:29",
+  "atualizado_em": "12/08/2026 18:41",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -23274,6 +23274,46 @@ const INATIVOS_DATA = {
               ]
             }
           ]
+        },
+        {
+          "nome": "GERENTE PARAMETRIZACAO",
+          "supervisores": [
+            {
+              "nome": "PATRICK MORAES",
+              "vendedores": [
+                {
+                  "nome": "INATIVO",
+                  "rca": "10"
+                },
+                {
+                  "nome": "INATIVOS",
+                  "rca": "42"
+                }
+              ]
+            },
+            {
+              "nome": "TELEVENDAS",
+              "vendedores": [
+                {
+                  "nome": "INATIVO - TELEVENDAS",
+                  "rca": "200"
+                }
+              ]
+            },
+            {
+              "nome": "VENDEDOR 05",
+              "vendedores": [
+                {
+                  "nome": "INATIVO2",
+                  "rca": "71"
+                },
+                {
+                  "nome": "INATIVO5",
+                  "rca": "76"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -23382,11 +23422,67 @@ const INATIVOS_DATA = {
           "nome": "CRC",
           "supervisores": [
             {
+              "nome": "GRANDE VITORIA",
+              "vendedores": [
+                {
+                  "nome": "BENNER COSTA - INATIVO",
+                  "rca": "183"
+                }
+              ]
+            },
+            {
+              "nome": "PATRICK MORAES",
+              "vendedores": [
+                {
+                  "nome": "INATIVOS",
+                  "rca": "42"
+                }
+              ]
+            },
+            {
+              "nome": "RCAs INATIVOS",
+              "vendedores": [
+                {
+                  "nome": "ALYSSON RODRIGUES - INATIVO",
+                  "rca": "195"
+                },
+                {
+                  "nome": "FERNANDA FERREIRA (INATIVO)",
+                  "rca": "131"
+                },
+                {
+                  "nome": "INATIVO3",
+                  "rca": "10"
+                },
+                {
+                  "nome": "INATIVO4",
+                  "rca": "7"
+                }
+              ]
+            },
+            {
               "nome": "SUPERVISOR - ES",
               "vendedores": [
                 {
                   "nome": "DIEGO PAULINO - OFF TRADE",
                   "rca": "444"
+                }
+              ]
+            },
+            {
+              "nome": "VENDEDOR 05",
+              "vendedores": [
+                {
+                  "nome": "INATIVO1",
+                  "rca": "61"
+                },
+                {
+                  "nome": "INATIVO2",
+                  "rca": "71"
+                },
+                {
+                  "nome": "INATIVO5",
+                  "rca": "76"
                 }
               ]
             }
@@ -23489,11 +23585,80 @@ const INATIVOS_DATA = {
           "nome": "GERENTE PARAMETRIZACAO",
           "supervisores": [
             {
+              "nome": "GRANDE VITORIA",
+              "vendedores": [
+                {
+                  "nome": "BENNER COSTA - INATIVO",
+                  "rca": "183"
+                }
+              ]
+            },
+            {
               "nome": "PATRICK MORAES",
               "vendedores": [
                 {
+                  "nome": "INATIVOS",
+                  "rca": "42"
+                },
+                {
                   "nome": "MARIA LUIZA - OFF TRADE",
                   "rca": "904"
+                }
+              ]
+            },
+            {
+              "nome": "RCAs INATIVOS",
+              "vendedores": [
+                {
+                  "nome": "ALYSSON RODRIGUES - INATIVO",
+                  "rca": "195"
+                },
+                {
+                  "nome": "FERNANDA FERREIRA (INATIVO)",
+                  "rca": "131"
+                },
+                {
+                  "nome": "INATIVO",
+                  "rca": "570"
+                },
+                {
+                  "nome": "INATIVO3",
+                  "rca": "10"
+                },
+                {
+                  "nome": "INATIVO4",
+                  "rca": "7"
+                }
+              ]
+            },
+            {
+              "nome": "VENDEDOR 05",
+              "vendedores": [
+                {
+                  "nome": "INATIVO1",
+                  "rca": "61"
+                },
+                {
+                  "nome": "INATIVO2",
+                  "rca": "71"
+                },
+                {
+                  "nome": "INATIVO5",
+                  "rca": "76"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "KYVIA",
+          "supervisores": [
+            {
+              "nome": "KYVIA",
+              "vendedores": [
+                {
+                  "nome": "CLIENTES INATIVOS",
+                  "rca": "679"
                 }
               ]
             }
@@ -23517,6 +23682,65 @@ const INATIVOS_DATA = {
                 {
                   "nome": "W.S",
                   "rca": "588"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "GERENTE ATACADO",
+          "supervisores": [
+            {
+              "nome": "PATRICK MORAES",
+              "vendedores": [
+                {
+                  "nome": "INATIVOS",
+                  "rca": "42"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "GERENTE COMERCIAL",
+          "supervisores": [
+            {
+              "nome": "EDUARDO BRANQUINHO",
+              "vendedores": [
+                {
+                  "nome": "INATIVO",
+                  "rca": "154"
+                }
+              ]
+            },
+            {
+              "nome": "VENDEDOR 05",
+              "vendedores": [
+                {
+                  "nome": "INATIVO1",
+                  "rca": "61"
+                },
+                {
+                  "nome": "INATIVO2",
+                  "rca": "71"
+                },
+                {
+                  "nome": "INATIVO5",
+                  "rca": "76"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "Leonardo Milan",
+          "supervisores": [
+            {
+              "nome": "Leonardo Milan",
+              "vendedores": [
+                {
+                  "nome": "VIVIANI ALVES - INATIVO",
+                  "rca": "430"
                 }
               ]
             }
@@ -23632,6 +23856,10 @@ const INATIVOS_DATA = {
                 {
                   "nome": "BRYAN PALOPOLI - OFF TRADE",
                   "rca": "399"
+                },
+                {
+                  "nome": "BRYAN PALOPOLI - OFF TRADE - INATIVO",
+                  "rca": "299"
                 },
                 {
                   "nome": "CARLOS TERRA - OFF TRADE",
