@@ -88,6 +88,7 @@ def _query_vendas(schema):
     pra evitar duplicar round-trips."""
     return f"""
         SELECT M.CODUSUR, U.NOME AS NOME_RCA, COALESCE(U.ESTADO, 'Sem Estado') AS ESTADO,
+               COALESCE(U.TIPOVEND, 'Sem tipo') AS TIPOVEND,
                M.CODCLI, M.CODFORNEC, COALESCE(F.FANTASIA, F.FORNECEDOR) AS INDUSTRIA,
                M.CODPROD,
                EXTRACT(YEAR FROM M.DTMOV)  AS ANO,
@@ -105,7 +106,7 @@ def _query_vendas(schema):
             OR
             (M.DTMOV >= DATE '{_ANO_ATUAL}-01-01' AND M.DTMOV <= TRUNC(SYSDATE))
           )
-        GROUP BY M.CODUSUR, U.NOME, U.ESTADO, M.CODCLI, M.CODFORNEC,
+        GROUP BY M.CODUSUR, U.NOME, U.ESTADO, U.TIPOVEND, M.CODCLI, M.CODFORNEC,
                  COALESCE(F.FANTASIA, F.FORNECEDOR), M.CODPROD,
                  EXTRACT(YEAR FROM M.DTMOV), EXTRACT(MONTH FROM M.DTMOV)
     """
@@ -159,6 +160,8 @@ vendas['MES'] = pd.to_numeric(vendas['MES'], errors='coerce').astype('Int64')
 vendas['VALOR'] = pd.to_numeric(vendas['VALOR'], errors='coerce').fillna(0.0)
 vendas['NOME_RCA'] = vendas['NOME_RCA'].fillna('').str.strip()
 vendas['ESTADO'] = vendas['ESTADO'].fillna('Sem Estado').str.strip().str.upper()
+_TIPOVEND_LABEL = {'E': 'Externo', 'I': 'Interno', 'R': 'Representante', 'P': 'Praça'}
+vendas['TIPOVEND'] = vendas['TIPOVEND'].fillna('').str.strip().str.upper().map(_TIPOVEND_LABEL).fillna('Sem tipo')
 vendas['INDUSTRIA'] = vendas['INDUSTRIA'].fillna('Sem Indústria').str.strip()
 vendas = vendas.dropna(subset=['CODUSUR', 'ANO', 'MES'])
 vendas['CHAVE_RCA'] = vendas['SISTEMA'] + '-' + vendas['CODUSUR'].astype(int).astype(str)
@@ -206,7 +209,7 @@ def _time_de(sistema, estado, codusur):
 _rca_info = (
     vendas.sort_values(['ANO', 'MES'])
     .drop_duplicates(subset=['CHAVE_RCA'], keep='last')
-    [['CHAVE_RCA', 'SISTEMA', 'CODUSUR', 'NOME_RCA', 'ESTADO']]
+    [['CHAVE_RCA', 'SISTEMA', 'CODUSUR', 'NOME_RCA', 'ESTADO', 'TIPOVEND']]
     .copy()
 )
 _rca_info['TIME'] = _rca_info.apply(lambda r: _time_de(r['SISTEMA'], r['ESTADO'], r['CODUSUR']), axis=1)
@@ -313,6 +316,7 @@ for _, r in _rca_info.iterrows():
         'time': r['TIME'],
         'time_label': TIME_LABEL[r['TIME']],
         'gerente': r['GERENTE'],
+        'tipo_vendedor': r['TIPOVEND'],
         'base_cadastro': base_cad,
         'base_ativa': int(_base_ativa_qtd.get(chave, 0)),
         'vs_base_pct': round(100 * pos_unicas_atual / base_cad, 1) if base_cad else None,
