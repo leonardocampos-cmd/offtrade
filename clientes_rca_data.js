@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "12/08/2026 17:26",
+  "atualizado_em": "12/08/2026 17:55",
   "total": 22025,
   "clientes": [
     {
@@ -182976,8 +182976,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "588",
       "nome_usur1": "W.S",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "511",
+      "nome_usur2": "ALEXANDRE SOUZA - OFF TRADE"
     },
     {
       "codcli": "29526",
@@ -189122,22 +189122,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
-      "codcli": "84019",
-      "razao": "JR DE LIMA LANCHONETE LTDA",
-      "fantasia": "DUE FRATELLI",
-      "bairro": "DOMINGOS MARTINS",
-      "cidade": "DOMINGOS MARTIN",
-      "cnpj": "29.773.056/0001-60",
-      "estado": "ES",
-      "ramo": "CAFETERIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "370",
-      "nome_usur1": "FRANZ BENEVIDES - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "67769",
@@ -225568,8 +225552,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "588",
       "nome_usur1": "W.S",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur2": "461",
+      "nome_usur2": "SUELY SANTOS - OFF TRADE"
     },
     {
       "codcli": "35864",
@@ -228171,7 +228155,23 @@ const CLIENTES_RCA_DATA = {
       "cidade": "ARMACAO DOS BUZ",
       "cnpj": "01.392.122/0001-33",
       "estado": "RJ",
-      "ramo": "MERCADO",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "152",
+      "nome_usur1": "PEDRO RANGEL",
+      "codusur2": "155",
+      "nome_usur2": "RAPHAEL SANTOS - OFF TRADE"
+    },
+    {
+      "codcli": "50390",
+      "razao": "MEGA MIX COMERCIO DE BEBIDAS LTDA",
+      "fantasia": "DEPOSITO DE BEBIDAS AVENIDA",
+      "bairro": "CEM BRACAS",
+      "cidade": "ARMACAO DOS BUZ",
+      "cnpj": "01.392.122/0001-33",
+      "estado": "RJ",
+      "ramo": "COMERCIO VAREJISTA (GERAL)",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
