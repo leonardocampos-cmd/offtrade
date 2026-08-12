@@ -1,5 +1,5 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "12/08/2026 10:05",
+  "atualizado_em": "12/08/2026 10:21",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 12,
@@ -7,17 +7,17 @@ const METAS_GERAIS_DATA = {
   "dias_restantes": 19,
   "resumo": {
     "fat": 4200861.89,
-    "fat_ant": 2806836.25,
-    "fat_ant_completo": 13886515.12,
+    "fat_ant": 2801622.49,
+    "fat_ant_completo": 13880701.16,
     "pos": 727,
-    "pos_ant": 764,
-    "pos_ant_completo": 1811
+    "pos_ant": 763,
+    "pos_ant_completo": 1810
   },
   "total": {
     "meta": 12300000.0,
     "fat": 4200861.89,
-    "fat_ant": 2806836.25,
-    "fat_ant_completo": 13886515.12,
+    "fat_ant": 2801622.49,
+    "fat_ant_completo": 13880701.16,
     "pct": 34.2,
     "nec_dia": 426270.43
   },
@@ -27,13 +27,13 @@ const METAS_GERAIS_DATA = {
       "label": "Rio de Janeiro",
       "meta": 2900000.0,
       "fat": 582659.46,
-      "fat_ant": 648549.15,
+      "fat_ant": 643335.39,
       "pos": 244,
       "pct": 20.1,
       "nec_dia": 121965.29,
-      "fat_ant_completo": 2733771.58,
-      "pos_ant": 311,
-      "pos_ant_completo": 733
+      "fat_ant_completo": 2727957.62,
+      "pos_ant": 310,
+      "pos_ant_completo": 732
     },
     {
       "estado": "SP",
@@ -134,7 +134,7 @@ const METAS_GERAIS_DATA = {
     {
       "fantasia": "FANTE",
       "fat": 118273.55,
-      "fat_ant": 54210.1,
+      "fat_ant": 51458.5,
       "por_estado": {
         "RJ": 16816.05,
         "SP": 101457.5,
@@ -156,7 +156,7 @@ const METAS_GERAIS_DATA = {
     {
       "fantasia": "TATUZINHO",
       "fat": 84959.87,
-      "fat_ant": 75505.98,
+      "fat_ant": 74264.22,
       "por_estado": {
         "RJ": 56594.48,
         "SP": 1354.5,
@@ -354,7 +354,7 @@ const METAS_GERAIS_DATA = {
     {
       "fantasia": "CASA PERINI",
       "fat": 11739.8,
-      "fat_ant": 34796.4,
+      "fat_ant": 33576.0,
       "por_estado": {
         "RJ": 11739.8,
         "SP": 0.0,
