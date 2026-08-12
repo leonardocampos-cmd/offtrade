@@ -1,5 +1,5 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "12/08/2026 09:33",
+  "atualizado_em": "12/08/2026 09:56",
   "periodo_dias": 90,
   "fontes_indisponiveis": [],
   "pedidos_feitos": [
@@ -54,7 +54,8 @@ const PEDIDOS_DATA = {
           "pvenda": 94.7
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "468000143",
@@ -91,7 +92,8 @@ const PEDIDOS_DATA = {
           "pvenda": 16.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "468000142",
@@ -128,7 +130,8 @@ const PEDIDOS_DATA = {
           "pvenda": 83.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "486000149",
@@ -165,7 +168,8 @@ const PEDIDOS_DATA = {
           "pvenda": 89.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "497000017",
@@ -218,7 +222,8 @@ const PEDIDOS_DATA = {
           "pvenda": 8.99
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "468000144",
@@ -255,7 +260,8 @@ const PEDIDOS_DATA = {
           "pvenda": 69.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "486000150",
@@ -324,7 +330,8 @@ const PEDIDOS_DATA = {
           "pvenda": 95.0
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "344000630",
@@ -362,6 +369,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "motivo_codprod": "4237",
       "motivo_produto": "WHISKY BALLANTINES SUNSHINE 700ML",
       "motivo_preco_digitado": 59.9,
@@ -482,7 +490,8 @@ const PEDIDOS_DATA = {
           "pvenda": 26.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "156003837",
@@ -904,6 +913,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "motivo_codprod": "7096",
       "motivo_produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
       "motivo_preco_digitado": 81.9,
@@ -922,7 +932,7 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :5167",
       "obs": "",
       "total": 489.6,
@@ -961,6 +971,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "motivo_codprod": "5167",
       "motivo_produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
       "motivo_preco_digitado": 40.8,
@@ -1001,7 +1012,8 @@ const PEDIDOS_DATA = {
           "pvenda": 26.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "458000016",
@@ -1016,7 +1028,7 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :5088",
       "obs": "",
       "total": 223.36,
@@ -1038,7 +1050,8 @@ const PEDIDOS_DATA = {
           "pvenda": 55.84
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "458000015",
@@ -1053,7 +1066,7 @@ const PEDIDOS_DATA = {
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :5088",
       "obs": "",
       "total": 446.72,
@@ -1091,7 +1104,8 @@ const PEDIDOS_DATA = {
           "pvenda": 55.84
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 223.36
     },
     {
       "numped": "439000328",
@@ -1129,6 +1143,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "motivo_codprod": "3440",
       "motivo_produto": "CACHACA SELETA PRATA 1L",
       "motivo_preco_digitado": 33.9,
@@ -1185,7 +1200,8 @@ const PEDIDOS_DATA = {
           "pvenda": 167.76
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "388001252",
@@ -1366,7 +1382,8 @@ const PEDIDOS_DATA = {
           "pvenda": 3.82
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "388001253",
@@ -1548,6 +1565,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "motivo_codprod": "4718",
       "motivo_produto": "RUM BACARDI BIG APPLE 700ML",
       "motivo_preco_digitado": 35.64,
@@ -1589,6 +1607,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "motivo_codprod": "3",
       "motivo_produto": "RED BULL 24X250ML",
       "motivo_preco_digitado": 167.75,
@@ -1630,6 +1649,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "motivo_codprod": "3",
       "motivo_produto": "RED BULL 24X250ML",
       "motivo_preco_digitado": 167.76,
@@ -1702,7 +1722,8 @@ const PEDIDOS_DATA = {
           "pvenda": 32.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "465000046",
@@ -1755,7 +1776,8 @@ const PEDIDOS_DATA = {
           "pvenda": 21.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "476000299",
@@ -1792,7 +1814,8 @@ const PEDIDOS_DATA = {
           "pvenda": 104.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "507000008",
@@ -1845,7 +1868,8 @@ const PEDIDOS_DATA = {
           "pvenda": 19.45
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "476000296",
@@ -1914,7 +1938,8 @@ const PEDIDOS_DATA = {
           "pvenda": 144.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "489000087",
@@ -1951,7 +1976,8 @@ const PEDIDOS_DATA = {
           "pvenda": 149.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "476000294",
@@ -2036,7 +2062,8 @@ const PEDIDOS_DATA = {
           "pvenda": 20.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "476000298",
@@ -2073,7 +2100,8 @@ const PEDIDOS_DATA = {
           "pvenda": 52.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "475000043",
@@ -2158,7 +2186,8 @@ const PEDIDOS_DATA = {
           "pvenda": 59.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "476000293",
@@ -2195,7 +2224,8 @@ const PEDIDOS_DATA = {
           "pvenda": 32.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "516000052",
@@ -2232,7 +2262,8 @@ const PEDIDOS_DATA = {
           "pvenda": 26.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "476000297",
@@ -2301,7 +2332,8 @@ const PEDIDOS_DATA = {
           "pvenda": 109.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "467000070",
@@ -2354,7 +2386,8 @@ const PEDIDOS_DATA = {
           "pvenda": 8.79
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "508000010",
@@ -2487,7 +2520,8 @@ const PEDIDOS_DATA = {
           "pvenda": 20.5
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "439000324",
@@ -2685,6 +2719,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "motivo_codprod": "129",
       "motivo_produto": "VODKA ABSOLUT 1L",
       "motivo_preco_digitado": 59.9,
@@ -2742,6 +2777,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "motivo_codprod": "997",
       "motivo_produto": "4 PACK RED BULL 250ML",
       "motivo_preco_digitado": 29.96,
@@ -2783,6 +2819,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "motivo_codprod": "5583",
       "motivo_produto": "RC ATUM RALADO OLEO 24X140G",
       "motivo_preco_digitado": 153.36,
@@ -2872,6 +2909,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "motivo_codprod": "5586",
       "motivo_produto": "RC ATUM SOLIDO OLEO 24X170G",
       "motivo_preco_digitado": 208.56,
@@ -2928,7 +2966,8 @@ const PEDIDOS_DATA = {
           "pvenda": 46.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "476000291",
@@ -2965,7 +3004,8 @@ const PEDIDOS_DATA = {
           "pvenda": 52.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "476000290",
@@ -3082,7 +3122,8 @@ const PEDIDOS_DATA = {
           "pvenda": 139.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "476000292",
@@ -3167,7 +3208,8 @@ const PEDIDOS_DATA = {
           "pvenda": 13.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "476000286",
@@ -3236,7 +3278,8 @@ const PEDIDOS_DATA = {
           "pvenda": 19.45
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "476000284",
@@ -3289,7 +3332,8 @@ const PEDIDOS_DATA = {
           "pvenda": 109.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "513000006",
@@ -3358,7 +3402,8 @@ const PEDIDOS_DATA = {
           "pvenda": 21.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "476000285",
@@ -3395,7 +3440,8 @@ const PEDIDOS_DATA = {
           "pvenda": 32.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "475000042",
@@ -3448,7 +3494,8 @@ const PEDIDOS_DATA = {
           "pvenda": 109.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "476000288",
@@ -3501,7 +3548,8 @@ const PEDIDOS_DATA = {
           "pvenda": 116.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "489000085",
@@ -3538,7 +3586,8 @@ const PEDIDOS_DATA = {
           "pvenda": 145.0
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "470000038",
@@ -3687,7 +3736,8 @@ const PEDIDOS_DATA = {
           "pvenda": 30.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "476000287",
@@ -3724,7 +3774,8 @@ const PEDIDOS_DATA = {
           "pvenda": 32.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "489000086",
@@ -3825,7 +3876,8 @@ const PEDIDOS_DATA = {
           "pvenda": 56.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "354000689",
@@ -3879,6 +3931,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "motivo_codprod": "16",
       "motivo_produto": "VODKA SMIRNOFF RED 998 ML",
       "motivo_preco_digitado": 27.9,
@@ -3935,7 +3988,8 @@ const PEDIDOS_DATA = {
           "pvenda": 227.5
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 284.7
     },
     {
       "numped": "489000083",
@@ -3972,7 +4026,8 @@ const PEDIDOS_DATA = {
           "pvenda": 225.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "489000084",
@@ -4009,7 +4064,8 @@ const PEDIDOS_DATA = {
           "pvenda": 149.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "588003231",
@@ -4062,7 +4118,8 @@ const PEDIDOS_DATA = {
           "pvenda": 32.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "588003196",
@@ -4099,7 +4156,8 @@ const PEDIDOS_DATA = {
           "pvenda": 79.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 9588.0
     },
     {
       "numped": "588003193",
@@ -4168,7 +4226,8 @@ const PEDIDOS_DATA = {
           "pvenda": 99.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 1148.0
     },
     {
       "numped": "425000153",
@@ -4205,7 +4264,8 @@ const PEDIDOS_DATA = {
           "pvenda": 99.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "471000014",
@@ -4483,6 +4543,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "motivo_codprod": "246",
       "motivo_produto": "WHISKY PASSPORT 1L",
       "motivo_preco_digitado": 33.6,
@@ -4540,6 +4601,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "motivo_codprod": "64",
       "motivo_produto": "CONHAQUE DOMECQ 1L",
       "motivo_preco_digitado": 25.9,
@@ -4581,6 +4643,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "motivo_codprod": "64",
       "motivo_produto": "CONHAQUE DOMECQ 1L",
       "motivo_preco_digitado": 24.99,
@@ -4621,7 +4684,8 @@ const PEDIDOS_DATA = {
           "pvenda": 20.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     }
   ],
   "faturados": [
@@ -4693,6 +4757,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": true,
       "rota": "NITEROI+ RECOLHA VITAL BRASIL+ EV VITAL BRASIL",
       "placa": "",
@@ -4754,6 +4819,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": true,
       "rota": "BUZIOS",
       "placa": "",
@@ -4831,6 +4897,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": true,
       "rota": "ILHA+ SÃO CRISTOVÃO",
       "placa": "",
@@ -4904,6 +4971,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": true,
       "rota": "BUZIOS",
       "placa": "",
@@ -4965,6 +5033,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 372.82,
       "em_rota": true,
       "rota": "ILHA+ SÃO CRISTOVÃO",
       "placa": "",
@@ -5022,6 +5091,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": true,
       "rota": "Z. OESTE",
       "placa": "",
@@ -5067,6 +5137,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": true,
       "rota": "Z. OESTE",
       "placa": "",
@@ -5124,6 +5195,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": true,
       "rota": "SUL 1",
       "placa": "",
@@ -5217,6 +5289,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 65.7,
       "em_rota": true,
       "rota": "RECREIO",
       "placa": "",
@@ -5258,6 +5331,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -5303,6 +5377,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -5376,6 +5451,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": true,
       "rota": "BUZIOS",
       "placa": "",
@@ -5453,6 +5529,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": true,
       "rota": "SUL 1",
       "placa": "",
@@ -5498,6 +5575,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -5555,6 +5633,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": true,
       "rota": "BUZIOS",
       "placa": "",
@@ -5904,6 +5983,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 499.9,
       "em_rota": true,
       "rota": "TAQUARA",
       "placa": "",
@@ -5993,6 +6073,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 87.6,
       "em_rota": true,
       "rota": "SANTO CRISTO+ CENTRO",
       "placa": "",
@@ -6034,6 +6115,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": true,
       "rota": "CABO FRIO",
       "placa": "",
@@ -6111,6 +6193,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": true,
       "rota": "BUZIOS",
       "placa": "",
@@ -6236,6 +6319,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 182.16,
       "em_rota": true,
       "rota": "CAXIAS",
       "placa": "",
@@ -6329,6 +6413,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": true,
       "rota": "BUZIOS",
       "placa": "",
@@ -6422,6 +6507,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": true,
       "rota": "BUZIOS",
       "placa": "",
@@ -6479,6 +6565,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 354.6,
       "em_rota": true,
       "rota": "TAQUARA",
       "placa": "",
@@ -6536,6 +6623,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": true,
       "rota": "CABO FRIO",
       "placa": "",
@@ -6581,6 +6669,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -6686,6 +6775,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": true,
       "rota": "NITEROI+ RECOLHA VITAL BRASIL+ EV VITAL BRASIL",
       "placa": "",
@@ -6747,6 +6837,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 189.4,
       "em_rota": true,
       "rota": "ILHA+ SÃO CRISTOVÃO",
       "placa": "",
@@ -6916,6 +7007,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": true,
       "rota": "ILHA+ SÃO CRISTOVÃO",
       "placa": "",
@@ -6957,6 +7049,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -6998,6 +7091,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": true,
       "rota": "NOVA IGUAÇU",
       "placa": "",
@@ -7075,6 +7169,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": true,
       "rota": "RECREIO",
       "placa": "",
@@ -7132,6 +7227,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 1240.0,
       "em_rota": true,
       "rota": "SUL 1",
       "placa": "",
@@ -7173,6 +7269,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": true,
       "rota": "SUL 1",
       "placa": "",
@@ -7214,6 +7311,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": true,
       "rota": "SANTO CRISTO+ CENTRO",
       "placa": "",
@@ -7255,6 +7353,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -7296,6 +7395,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -7401,6 +7501,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -7442,6 +7543,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -7499,6 +7601,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -7572,10 +7675,11 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000236",
@@ -7613,6 +7717,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -7718,10 +7823,11 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000238",
@@ -7775,6 +7881,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -7880,10 +7987,11 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "469000069",
@@ -7921,10 +8029,11 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "472000066",
@@ -7994,10 +8103,11 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 47.88,
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "461000179",
@@ -8099,6 +8209,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -8140,10 +8251,11 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": ""
+      "status_log": "CARREGADO"
     },
     {
       "numped": "425000190",
@@ -8213,10 +8325,11 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 86.61,
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": ""
+      "status_log": "EXCLUIDO"
     },
     {
       "numped": "588003357",
@@ -8254,6 +8367,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -8295,10 +8409,11 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 350.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000144",
@@ -8400,10 +8515,11 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000146",
@@ -8441,10 +8557,11 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000148",
@@ -8482,10 +8599,11 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "349000320",
@@ -8603,6 +8721,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -8772,6 +8891,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -8893,6 +9013,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -9030,6 +9151,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -9167,6 +9289,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -9304,6 +9427,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -9457,6 +9581,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -9594,6 +9719,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -9763,6 +9889,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -9804,6 +9931,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -9845,6 +9973,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -9886,6 +10015,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -9927,6 +10057,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -9968,6 +10099,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -10009,6 +10141,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -10050,6 +10183,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -10091,6 +10225,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -10132,6 +10267,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -10173,6 +10309,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -10314,6 +10451,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 1200.96,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -10407,6 +10545,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -10500,6 +10639,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 220.5,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -10545,6 +10685,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -10590,6 +10731,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -10631,6 +10773,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -10672,6 +10815,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -10713,6 +10857,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -10754,6 +10899,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -10847,6 +10993,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -10892,6 +11039,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -10949,6 +11097,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 167.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -11022,6 +11171,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 217.6,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -11079,6 +11229,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -11152,6 +11303,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 191.76,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -11261,6 +11413,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 129.9,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -11306,6 +11459,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -11395,6 +11549,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -11468,6 +11623,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -11525,6 +11681,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -11598,6 +11755,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -11723,6 +11881,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -11848,6 +12007,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -11925,6 +12085,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -11982,6 +12143,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -12087,6 +12249,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 184.56,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -12128,6 +12291,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -12173,6 +12337,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 141.36,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -12246,6 +12411,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -12335,6 +12501,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -12412,6 +12579,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -12521,6 +12689,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -12642,6 +12811,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -12683,6 +12853,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -12760,6 +12931,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -12801,6 +12973,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -12986,6 +13159,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 250.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -13107,6 +13281,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 94.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -13148,6 +13323,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -13189,6 +13365,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -13246,6 +13423,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -13367,6 +13545,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -13520,6 +13699,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 475.1,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -13641,6 +13821,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 1141.22,
       "em_rota": true,
       "rota": "BARRA",
       "placa": "",
@@ -13686,6 +13867,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": true,
       "rota": "CABO FRIO",
       "placa": "",
@@ -13731,6 +13913,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -13808,6 +13991,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": true,
       "rota": "CABO FRIO",
       "placa": "",
@@ -13933,6 +14117,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -14022,6 +14207,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -14099,6 +14285,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -14156,6 +14343,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -14281,6 +14469,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -14322,6 +14511,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -14523,6 +14713,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 2558.6,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -14568,6 +14759,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -14613,6 +14805,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 968.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -14686,6 +14879,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -14759,6 +14953,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": true,
       "rota": "BUZIOS",
       "placa": "",
@@ -14820,6 +15015,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -14957,6 +15153,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -15046,6 +15243,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": true,
       "rota": "BUZIOS",
       "placa": "",
@@ -15135,6 +15333,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -15224,6 +15423,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -15269,6 +15469,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -15438,6 +15639,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 219.0,
       "em_rota": true,
       "rota": "NITEROI+ RECOLHA VITAL BRASIL+ EV VITAL BRASIL",
       "placa": "",
@@ -15659,6 +15861,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 88.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -15844,6 +16047,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -15889,6 +16093,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": true,
       "rota": "BUZIOS",
       "placa": "",
@@ -16094,6 +16299,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -16167,6 +16373,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -16372,6 +16579,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -16557,6 +16765,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -16730,6 +16939,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 88.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -16787,6 +16997,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -16832,6 +17043,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -16937,6 +17149,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -17142,6 +17355,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -17199,6 +17413,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -17308,6 +17523,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -17349,6 +17565,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -17406,6 +17623,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -17447,6 +17665,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 109.5,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -17488,6 +17707,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": true,
       "rota": "MACAÉ + RIO DAS OSTRAS",
       "placa": "",
@@ -17561,6 +17781,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -17606,6 +17827,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -17679,6 +17901,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -17736,6 +17959,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -17841,6 +18065,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -17982,6 +18207,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -18039,6 +18265,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 74.02,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -18084,55 +18311,11 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 95.76,
       "em_rota": false,
       "rota": "",
       "placa": "",
       "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "431001223",
-      "numnota": "419907",
-      "data": "10/08/2026",
-      "data_ord": "2026-08-10",
-      "nome": "ADEILSON GONÇALVEZ - OFF TRADE",
-      "cliente": "KVSO I COM PROD FAR LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "cidade": "RIO DE JANEIRO",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :997",
-      "obs": "",
-      "total": 359.52,
-      "itens": [
-        {
-          "desc": "4 PACK RED BULL 250ML",
-          "industria": "RED BULL",
-          "qt": 12,
-          "val": 359.52,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "997",
-          "codfilial": "2",
-          "pvenda": 29.96
-        }
-      ],
-      "tem_corte": false,
-      "em_rota": false,
-      "rota": "",
-      "placa": "",
-      "status_log": "ENTREGUE",
-      "motivo_codprod": "997",
-      "motivo_produto": "4 PACK RED BULL 250ML",
-      "motivo_preco_digitado": 29.96,
-      "motivo_preco_tabela": 33.96
     },
     {
       "numped": "379001379",
@@ -18202,6 +18385,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -18247,6 +18431,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": true,
       "rota": "CABO FRIO",
       "placa": "",
@@ -18308,6 +18493,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -18353,6 +18539,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 191.52,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -18478,6 +18665,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -18583,6 +18771,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -18640,6 +18829,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -18697,6 +18887,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -18754,6 +18945,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -18827,6 +19019,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -18900,6 +19093,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -18989,6 +19183,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -19062,6 +19257,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -19151,6 +19347,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -19224,6 +19421,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -19281,10 +19479,11 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "468000138",
@@ -19386,6 +19585,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 233.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -19427,6 +19627,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -19468,6 +19669,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -19557,6 +19759,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 2583.0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -19630,6 +19833,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 2334.0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -19719,6 +19923,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -19856,6 +20061,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 170.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -19929,6 +20135,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -20018,6 +20225,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 116.9,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -20123,6 +20331,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -20180,6 +20389,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -20237,6 +20447,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -20278,6 +20489,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -20351,10 +20563,11 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "433000235",
@@ -20408,6 +20621,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -20465,6 +20679,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 615.0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -20506,6 +20721,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -20579,6 +20795,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -20652,6 +20869,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 58.35,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -20757,10 +20975,11 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 58.35,
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "425000188",
@@ -20814,10 +21033,11 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": ""
+      "status_log": "ENTREGA TOTAL"
     },
     {
       "numped": "477000088",
@@ -20855,10 +21075,11 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "588003351",
@@ -20896,6 +21117,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 2208.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -20969,6 +21191,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -21010,6 +21233,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -21051,6 +21275,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 3325.95,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -21092,10 +21317,11 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "547008626",
@@ -21156,7 +21382,7 @@ const PEDIDOS_DATA = {
           "qtcortada": 0.0,
           "qtd_cortada_total": 0.0,
           "qt_original": 960.0,
-          "valor_cortado": 88320.0,
+          "valor_cortado": 0.0,
           "motivo_corte": "CORTE",
           "cortado": false,
           "codprod": "2917",
@@ -21181,6 +21407,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 176640.0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -21350,10 +21577,11 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 29.9,
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "486000142",
@@ -21407,10 +21635,11 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 159.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "371000330",
@@ -21496,6 +21725,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -21537,6 +21767,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 460.5,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -21610,6 +21841,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -21687,6 +21919,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -21812,6 +22045,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -21901,6 +22135,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 55.9,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -21946,6 +22181,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -21991,6 +22227,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -22068,6 +22305,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -22125,6 +22363,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -22282,6 +22521,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -22403,6 +22643,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 191.76,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -22512,6 +22753,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 348.0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -22569,6 +22811,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -22642,6 +22885,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 175.44,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -22683,6 +22927,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -22724,6 +22969,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -22925,6 +23171,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -23002,6 +23249,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -23047,6 +23295,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -23104,6 +23353,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -23257,6 +23507,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -23298,6 +23549,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -23339,6 +23591,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -23416,6 +23669,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -23477,6 +23731,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": true,
       "rota": "MACAÉ + RIO DAS OSTRAS",
       "placa": "",
@@ -23518,6 +23773,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -23559,6 +23815,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -23600,6 +23857,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -23641,6 +23899,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -23826,6 +24085,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -23867,6 +24127,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 313.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -23940,6 +24201,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 89.9,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -23985,6 +24247,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -24030,6 +24293,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 166.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -24075,6 +24339,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -24132,6 +24397,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -24209,6 +24475,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -24250,6 +24517,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -24291,6 +24559,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -24352,6 +24621,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -24393,6 +24663,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -24482,6 +24753,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -24527,6 +24799,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -24588,6 +24861,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 94.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -24697,6 +24971,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -24742,6 +25017,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -24783,6 +25059,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -24828,6 +25105,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -24997,6 +25275,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -25154,6 +25433,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 167.76,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -25247,6 +25527,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -25308,6 +25589,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -25316,83 +25598,6 @@ const PEDIDOS_DATA = {
       "motivo_produto": "CONHAQUE DREHER 900ML",
       "motivo_preco_digitado": 16.7,
       "motivo_preco_tabela": 20.9
-    },
-    {
-      "numped": "379001376",
-      "numnota": "419801",
-      "data": "07/08/2026",
-      "data_ord": "2026-08-07",
-      "nome": "JORGE MACIEL - OFF TRADE",
-      "cliente": "MONTES DOCES MARECHAL HERMES LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "cidade": "RIO DE JANEIRO",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :4884",
-      "obs": "",
-      "total": 257.9,
-      "itens": [
-        {
-          "desc": "VINHO FRISANTE ROSE QUINTA MORGADO 750ML",
-          "industria": "FANTE",
-          "qt": 1,
-          "val": 24.5,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "7100",
-          "codfilial": "2",
-          "pvenda": 24.5
-        },
-        {
-          "desc": "GIN BEEFEATER 750ML",
-          "industria": "PERNOD",
-          "qt": 2,
-          "val": 139.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "463",
-          "codfilial": "2",
-          "pvenda": 69.9
-        },
-        {
-          "desc": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
-          "industria": "TATUZINHO",
-          "qt": 1,
-          "val": 93.6,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "4884",
-          "codfilial": "2",
-          "pvenda": 93.6
-        }
-      ],
-      "tem_corte": false,
-      "em_rota": false,
-      "rota": "",
-      "placa": "",
-      "status_log": "ENTREGUE",
-      "motivo_codprod": "4884",
-      "motivo_produto": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
-      "motivo_preco_digitado": 93.6,
-      "motivo_preco_tabela": 95.9
     },
     {
       "numped": "379001371",
@@ -25478,6 +25683,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -25603,6 +25809,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 376.72,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -25644,6 +25851,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -25689,6 +25897,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 229.92,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -25842,6 +26051,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 167.76,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -25903,6 +26113,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -25948,6 +26159,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -26073,6 +26285,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 67.5,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -26146,6 +26359,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -26223,6 +26437,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -26268,6 +26483,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -26405,6 +26621,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -26446,6 +26663,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -26487,6 +26705,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -26560,6 +26779,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -26665,6 +26885,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -26754,10 +26975,11 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "426000445",
@@ -26795,6 +27017,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -26836,6 +27059,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -26877,6 +27101,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -26918,6 +27143,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -26959,10 +27185,11 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": ""
+      "status_log": "ABERTO"
     },
     {
       "numped": "468000134",
@@ -27000,6 +27227,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -27073,6 +27301,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 83.9,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -27130,6 +27359,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -27187,6 +27417,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -27228,6 +27459,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -27269,6 +27501,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -27326,6 +27559,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -27415,6 +27649,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -27552,6 +27787,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -27593,6 +27829,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -27666,6 +27903,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 359.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -27707,6 +27945,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -27764,6 +28003,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -27821,6 +28061,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -27910,6 +28151,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -28127,6 +28369,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 58.35,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -28184,6 +28427,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -28225,6 +28469,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -28298,6 +28543,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 448.2,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -28355,6 +28601,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -28396,6 +28643,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -28453,6 +28701,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -28494,6 +28743,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -28615,6 +28865,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -28736,6 +28987,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -28841,6 +29093,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -28930,6 +29183,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 240.36,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -29035,6 +29289,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 8169.0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -29140,6 +29395,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -29181,6 +29437,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -29238,6 +29495,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -29279,6 +29537,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -29320,6 +29579,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -29377,6 +29637,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -29434,6 +29695,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -29491,6 +29753,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -29532,6 +29795,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -29653,6 +29917,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -29806,6 +30071,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -29863,6 +30129,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -29984,6 +30251,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -30041,6 +30309,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -30098,6 +30367,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -30235,6 +30505,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 3721.16,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -30292,6 +30563,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 233.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -30333,6 +30605,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -30438,6 +30711,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -30511,6 +30785,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 701.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -30680,6 +30955,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 4041.0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -31025,6 +31301,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 1195.2,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -31098,6 +31375,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -31159,6 +31437,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -31268,6 +31547,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -31325,6 +31605,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -31450,6 +31731,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 2876.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -31555,6 +31837,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -31612,6 +31895,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -31685,6 +31969,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -31746,6 +32031,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -31839,6 +32125,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -31900,6 +32187,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -31989,6 +32277,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -32062,6 +32351,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -32103,6 +32393,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -32144,6 +32435,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -32217,6 +32509,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -32386,6 +32679,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -32447,6 +32741,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -32520,6 +32815,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -32641,6 +32937,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -32682,6 +32979,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 275.0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -32775,6 +33073,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 117.0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -32868,6 +33167,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -32945,6 +33245,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -32990,6 +33291,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -33035,6 +33337,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 262.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -33076,6 +33379,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 333.6,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -33185,6 +33489,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -33262,6 +33567,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -33339,6 +33645,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -33492,6 +33799,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 186.5,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -33533,6 +33841,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 333.6,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -33690,6 +33999,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -33751,6 +34061,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -33888,6 +34199,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -33929,6 +34241,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -34086,6 +34399,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 221.3,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -34147,6 +34461,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -34256,6 +34571,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 57.48,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -34301,6 +34617,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 109.5,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -34438,6 +34755,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 145.08,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -34511,6 +34829,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 189.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -34552,6 +34871,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -34721,6 +35041,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -34762,6 +35083,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -34807,6 +35129,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -34868,6 +35191,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 130.9,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -34961,6 +35285,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -35022,6 +35347,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 89.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -35191,6 +35517,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 94.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -35248,6 +35575,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -35325,6 +35653,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -35450,6 +35779,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 87.6,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -35635,6 +35965,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 219.0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -35692,6 +36023,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -35785,6 +36117,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 34.3,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -35846,6 +36179,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -35951,6 +36285,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -35996,6 +36331,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -36121,6 +36457,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -36166,6 +36503,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -36259,6 +36597,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -36352,6 +36691,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 2624.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -36493,6 +36833,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -36634,6 +36975,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 162.0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -36691,6 +37033,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -36736,6 +37079,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -36797,6 +37141,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 94.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -36902,6 +37247,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -36991,6 +37337,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -37032,6 +37379,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -37089,6 +37437,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -37178,6 +37527,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -37267,6 +37617,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -37340,6 +37691,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -37381,6 +37733,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -37422,6 +37775,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -37479,6 +37833,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -37552,6 +37907,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 1113.6,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -37593,6 +37949,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -37650,6 +38007,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 3721.16,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -37691,6 +38049,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 372.12,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -37764,6 +38123,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -37853,6 +38213,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 744.23,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -37926,6 +38287,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -37983,6 +38345,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -38056,6 +38419,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -38129,6 +38493,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -38202,6 +38567,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -38275,6 +38641,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -38316,6 +38683,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -38389,6 +38757,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -38430,6 +38799,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -38471,6 +38841,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 419.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -38560,6 +38931,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -38745,6 +39117,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 159.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -38866,6 +39239,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -39003,6 +39377,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -39044,6 +39419,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -39085,6 +39461,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -39334,6 +39711,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 167.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -39407,6 +39785,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -39464,6 +39843,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -39537,6 +39917,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 233.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -39626,6 +40007,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 77.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -39667,6 +40049,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -39708,6 +40091,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -39749,6 +40133,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -39806,6 +40191,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -39879,6 +40265,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 527.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -40000,6 +40387,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -40057,6 +40445,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -40130,6 +40519,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -40283,6 +40673,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -40388,6 +40779,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -40461,6 +40853,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -40630,6 +41023,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 159.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -40687,6 +41081,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -40728,6 +41123,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -40769,6 +41165,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -40810,6 +41207,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -40851,6 +41249,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -40908,6 +41307,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -41013,6 +41413,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -41054,6 +41455,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -41111,6 +41513,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 92.9,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -41168,6 +41571,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -41225,6 +41629,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -41270,6 +41675,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -41327,6 +41733,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -41372,6 +41779,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -41417,6 +41825,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -41474,6 +41883,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 79.9,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -41531,6 +41941,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 463.2,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -41572,6 +41983,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -41629,6 +42041,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -41786,6 +42199,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -41863,6 +42277,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -41988,6 +42403,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -42109,6 +42525,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -42234,6 +42651,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -42311,6 +42729,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 175.44,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -42384,6 +42803,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -42489,6 +42909,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -42546,6 +42967,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -42639,6 +43061,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -42680,6 +43103,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -42741,6 +43165,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -42782,6 +43207,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -42827,6 +43253,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -42888,6 +43315,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -42961,6 +43389,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -43006,6 +43435,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -43067,6 +43497,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -43176,6 +43607,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -43249,6 +43681,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -43514,6 +43947,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 303.2,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -43623,6 +44057,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 83.6,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -43716,6 +44151,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -43805,6 +44241,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -43878,6 +44315,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -43951,6 +44389,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -44008,6 +44447,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 94.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -44049,6 +44489,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -44094,6 +44535,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -44171,6 +44613,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -44276,6 +44719,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 93.03,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -44401,6 +44845,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 225.28,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -44442,6 +44887,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -44483,6 +44929,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -44556,6 +45003,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -44601,6 +45049,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -44662,6 +45111,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -44767,6 +45217,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -44824,6 +45275,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -44897,6 +45349,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 718.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -44990,6 +45443,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 94.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -45051,6 +45505,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -45096,6 +45551,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -45301,6 +45757,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -45390,6 +45847,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -45451,6 +45909,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -45496,6 +45955,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -45541,6 +46001,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -45618,6 +46079,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -45851,6 +46313,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 114.96,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -45896,6 +46359,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -46113,6 +46577,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -46202,6 +46667,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -46279,6 +46745,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -46356,6 +46823,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -46449,6 +46917,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -46494,6 +46963,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -46551,6 +47021,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -46628,6 +47099,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 58.68,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -46737,6 +47209,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -46858,6 +47331,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -47079,6 +47553,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -47232,6 +47707,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -47309,6 +47785,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -47434,6 +47911,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -47667,6 +48145,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 150.72,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -47712,6 +48191,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -48557,6 +49037,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -48630,6 +49111,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -48671,6 +49153,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -48712,6 +49195,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -48753,6 +49237,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -48794,6 +49279,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -48867,6 +49353,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 503.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -48908,6 +49395,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 503.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -48981,6 +49469,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -49022,6 +49511,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -49063,6 +49553,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -49120,6 +49611,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -49225,6 +49717,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 719.1,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -49282,6 +49775,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -49451,6 +49945,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -49492,6 +49987,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -49533,6 +50029,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -49606,6 +50103,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -49711,6 +50209,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 372.12,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -49768,6 +50267,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -49841,6 +50341,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -49882,6 +50383,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -49971,6 +50473,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -50092,6 +50595,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -50133,6 +50637,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -50190,6 +50695,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -50247,6 +50753,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -50352,6 +50859,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 41.0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -50457,6 +50965,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -50578,6 +51087,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -50635,6 +51145,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -50740,6 +51251,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -50813,6 +51325,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 251.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -50886,6 +51399,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -50927,6 +51441,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -51000,6 +51515,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -51041,6 +51557,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 167.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -51098,6 +51615,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -51139,6 +51657,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -51180,6 +51699,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -51253,6 +51773,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -51294,6 +51815,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -51335,6 +51857,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -51392,6 +51915,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -51449,6 +51973,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -51490,6 +52015,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -51611,6 +52137,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 709.9,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -51652,6 +52179,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -51693,6 +52221,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -51750,6 +52279,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -51791,6 +52321,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 251.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -51832,6 +52363,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -51889,6 +52421,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -51930,6 +52463,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -52003,6 +52537,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 419.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -52076,6 +52611,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -52117,6 +52653,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -52206,6 +52743,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -52295,6 +52833,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 6150.0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -52336,6 +52875,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -52457,6 +52997,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": true,
       "rota": "RECREIO",
       "placa": "",
@@ -52498,6 +53039,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -52635,6 +53177,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -52692,6 +53235,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 335.6,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -52781,6 +53325,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 246.0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -52870,6 +53415,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 104.9,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -52963,6 +53509,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -53040,6 +53587,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -53081,6 +53629,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 388.9,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -53122,6 +53671,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -53355,6 +53905,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 95.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -53412,6 +53963,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -53473,6 +54025,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -53534,6 +54087,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -53595,6 +54149,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -53688,6 +54243,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -53729,6 +54285,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -53802,6 +54359,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 83.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -53923,6 +54481,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -54000,6 +54559,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -54041,6 +54601,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -54114,6 +54675,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -54187,6 +54749,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -54260,6 +54823,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -54337,6 +54901,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -54730,6 +55295,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 333.1,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -54791,6 +55357,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -54836,6 +55403,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -54893,6 +55461,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -54986,6 +55555,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -55031,6 +55601,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -55088,6 +55659,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -55181,6 +55753,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -55226,6 +55799,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -55267,6 +55841,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -55312,6 +55887,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -55389,6 +55965,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -55450,6 +56027,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -55559,6 +56137,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -55636,6 +56215,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -55697,6 +56277,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -55742,6 +56323,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -55783,6 +56365,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -55824,6 +56407,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -55869,6 +56453,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -55946,6 +56531,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -56023,6 +56609,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -56116,6 +56703,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -56161,6 +56749,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -56202,6 +56791,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -56259,6 +56849,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -56300,6 +56891,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -56341,6 +56933,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -56386,6 +56979,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -56427,6 +57021,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -56484,6 +57079,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -56545,6 +57141,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -56590,6 +57187,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -56651,6 +57249,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 109.5,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -56740,6 +57339,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -56865,6 +57465,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 155.5,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -57038,6 +57639,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -57243,6 +57845,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 43.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -57336,6 +57939,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -57473,6 +58077,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 182.9,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -57530,6 +58135,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -57607,6 +58213,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 24.9,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -57648,6 +58255,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -57933,6 +58541,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 223.82,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -58042,6 +58651,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -58087,6 +58697,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -58132,6 +58743,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -58301,6 +58913,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 518.46,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -58362,71 +58975,11 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 114.96,
       "em_rota": false,
       "rota": "",
       "placa": "",
       "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "159005218",
-      "numnota": "418740",
-      "data": "04/08/2026",
-      "data_ord": "2026-08-04",
-      "nome": "GISELLE BARFER - OFF TRADE",
-      "cliente": "PIERRE EMPREENDIMENTO TURISTICO LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "cidade": "MACAE",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :3011",
-      "obs": "",
-      "total": 478.8,
-      "itens": [
-        {
-          "desc": "VINHO ARESTI ESTATE S. PINOT NOIR",
-          "industria": "CASTAS",
-          "qt": 6,
-          "val": 269.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "4237",
-          "codfilial": "2",
-          "pvenda": 44.9
-        },
-        {
-          "desc": "ESPUMANTE ALUD BRANCO 750ML",
-          "industria": "CASTAS",
-          "qt": 6,
-          "val": 209.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "3011",
-          "codfilial": "2",
-          "pvenda": 34.9
-        }
-      ],
-      "tem_corte": false,
-      "em_rota": false,
-      "rota": "",
-      "placa": "",
-      "status_log": "ENTREGUE",
-      "motivo_codprod": "3011",
-      "motivo_produto": "ESPUMANTE ALUD BRANCO 750ML",
-      "motivo_preco_digitado": 34.9,
-      "motivo_preco_tabela": 34.9
     },
     {
       "numped": "159005217",
@@ -58464,6 +59017,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -58525,6 +59079,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 119.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -58602,6 +59157,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -58771,6 +59327,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -58828,6 +59385,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -58869,6 +59427,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -58910,6 +59469,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -58951,6 +59511,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -58992,6 +59553,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -59033,6 +59595,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -59074,6 +59637,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -59131,6 +59695,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 119.9,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -59188,6 +59753,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -59261,6 +59827,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -59350,6 +59917,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -59455,6 +60023,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 717.6,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -59560,6 +60129,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -59649,6 +60219,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -59706,6 +60277,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -59779,6 +60351,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -59836,6 +60409,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -59957,6 +60531,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -60014,6 +60589,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -60071,6 +60647,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -60128,6 +60705,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 167.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -60249,6 +60827,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -60306,6 +60885,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -60347,6 +60927,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -60404,6 +60985,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -60445,6 +61027,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -60502,6 +61085,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -60575,6 +61159,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -60632,6 +61217,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -60673,6 +61259,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 1034.75,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -60794,6 +61381,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -60867,6 +61455,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -60908,6 +61497,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -60981,6 +61571,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -61022,6 +61613,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -61063,6 +61655,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -61104,6 +61697,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -61161,6 +61755,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 615.0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -61250,6 +61845,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -61307,6 +61903,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -61364,6 +61961,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -61421,6 +62019,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -61526,6 +62125,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -61599,6 +62199,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 940.2,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -61640,6 +62241,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -61681,6 +62283,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -61738,6 +62341,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -61811,6 +62415,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -61900,6 +62505,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -61957,6 +62563,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -61998,6 +62605,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -62103,6 +62711,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -62160,6 +62769,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -62217,6 +62827,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -62258,6 +62869,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 609.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -62299,6 +62911,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -62356,6 +62969,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -62445,6 +63059,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -62486,6 +63101,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -62543,6 +63159,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -62600,6 +63217,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -62645,6 +63263,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -62706,6 +63325,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -62751,6 +63371,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -62808,6 +63429,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -62929,6 +63551,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 92.28,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -63006,6 +63629,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -63051,6 +63675,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 191.76,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -63112,6 +63737,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 350.88,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -63169,6 +63795,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -63278,6 +63905,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -63383,6 +64011,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -63488,6 +64117,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 119.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -63561,6 +64191,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 119.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -63682,6 +64313,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -63823,6 +64455,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -63884,6 +64517,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -63941,6 +64575,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -63998,6 +64633,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -64167,6 +64803,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 219.0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -64240,6 +64877,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 219.0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -64429,6 +65067,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -64630,6 +65269,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -64787,6 +65427,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 65.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -64795,47 +65436,6 @@ const PEDIDOS_DATA = {
       "motivo_produto": "GIN BEEFEATER 750ML",
       "motivo_preco_digitado": 60.9,
       "motivo_preco_tabela": 60.9
-    },
-    {
-      "numped": "155004044",
-      "numnota": "417849",
-      "data": "03/08/2026",
-      "data_ord": "2026-08-03",
-      "nome": "RAPHAEL SANTOS - OFF TRADE",
-      "cliente": "DISTRIBUIDORA G MARKET EIRELI ME",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "cidade": "ARMACAO DOS BUZ",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 381.8,
-      "itens": [
-        {
-          "desc": "AGUA SAN PELLEGRINO C/GÁS 250ML",
-          "industria": "MINALBA",
-          "qt": 2,
-          "val": 381.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "670",
-          "codfilial": "2",
-          "pvenda": 190.9
-        }
-      ],
-      "tem_corte": false,
-      "em_rota": false,
-      "rota": "",
-      "placa": "",
-      "status_log": ""
     },
     {
       "numped": "144001743",
@@ -64905,6 +65505,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -64966,6 +65567,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -65059,6 +65661,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 65.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -65196,6 +65799,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -65273,6 +65877,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -65330,6 +65935,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -65695,6 +66301,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 17.64,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -65736,6 +66343,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -65744,47 +66352,6 @@ const PEDIDOS_DATA = {
       "motivo_produto": "RED BULL 24X250ML",
       "motivo_preco_digitado": 174.96,
       "motivo_preco_tabela": 172.56
-    },
-    {
-      "numped": "378000579",
-      "numnota": "417984",
-      "data": "03/08/2026",
-      "data_ord": "2026-08-03",
-      "nome": "FABIO VALOTTI - OFF TRADE",
-      "cliente": "PAN 2007 DAMASIO S GALETO LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "cidade": "RIO DE JANEIRO",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "Favor entregar dia 04/08",
-      "total": 359.8,
-      "itens": [
-        {
-          "desc": "WHISKY J WALKER BLACK LABEL 1L",
-          "industria": "DIAGEO",
-          "qt": 2,
-          "val": 359.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "449",
-          "codfilial": "2",
-          "pvenda": 179.9
-        }
-      ],
-      "tem_corte": false,
-      "em_rota": false,
-      "rota": "",
-      "placa": "",
-      "status_log": "ENTREGUE"
     },
     {
       "numped": "412001457",
@@ -65902,6 +66469,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 189.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -65947,6 +66515,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -66068,6 +66637,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -66145,6 +66715,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -66190,6 +66761,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -66263,6 +66835,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -66324,6 +66897,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -66513,6 +67087,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -66634,6 +67209,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 114.96,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -66642,83 +67218,6 @@ const PEDIDOS_DATA = {
       "motivo_produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
       "motivo_preco_digitado": 11.9,
       "motivo_preco_tabela": 19.28
-    },
-    {
-      "numped": "379001344",
-      "numnota": "418108",
-      "data": "03/08/2026",
-      "data_ord": "2026-08-03",
-      "nome": "JORGE MACIEL - OFF TRADE",
-      "cliente": "ACOUGUE METROPOLE DAS CARNES",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "cidade": "SAO JOAO DE MER",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :119",
-      "obs": "",
-      "total": 1051.4,
-      "itens": [
-        {
-          "desc": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
-          "industria": "DIAGEO",
-          "qt": 2,
-          "val": 539.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "20",
-          "codfilial": "2",
-          "pvenda": 269.9
-        },
-        {
-          "desc": "CERVEJA HEINEKEN LONG 24X330ML",
-          "industria": "KAISER",
-          "qt": 3,
-          "val": 383.7,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 3.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "119",
-          "codfilial": "2",
-          "pvenda": 127.9
-        },
-        {
-          "desc": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
-          "industria": "KAISER",
-          "qt": 1,
-          "val": 127.9,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "3154",
-          "codfilial": "2",
-          "pvenda": 127.9
-        }
-      ],
-      "tem_corte": false,
-      "em_rota": false,
-      "rota": "",
-      "placa": "",
-      "status_log": "ENTREGUE",
-      "motivo_codprod": "119",
-      "motivo_produto": "CERVEJA HEINEKEN LONG 24X330ML",
-      "motivo_preco_digitado": 127.9,
-      "motivo_preco_tabela": 149.9
     },
     {
       "numped": "156003759",
@@ -66804,6 +67303,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 65.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -67009,6 +67509,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 205.16,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -67246,6 +67747,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 94.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -67307,6 +67809,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -67364,6 +67867,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 179.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -67372,99 +67876,6 @@ const PEDIDOS_DATA = {
       "motivo_produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
       "motivo_preco_digitado": 89.9,
       "motivo_preco_tabela": 94.7
-    },
-    {
-      "numped": "155004048",
-      "numnota": "417907",
-      "data": "03/08/2026",
-      "data_ord": "2026-08-03",
-      "nome": "RAPHAEL SANTOS - OFF TRADE",
-      "cliente": "MINI MERCADO G MARKET LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "cidade": "NITEROI",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :2841",
-      "obs": "",
-      "total": 579.28,
-      "itens": [
-        {
-          "desc": "AGUA MINERAL MINALBA C/ GAS 12X310ML",
-          "industria": "MINALBA",
-          "qt": 10,
-          "val": 219.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 10.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "3107",
-          "codfilial": "2",
-          "pvenda": 21.9
-        },
-        {
-          "desc": "AGUA MINERAL MINALBA S/ GAS 12X310ML",
-          "industria": "MINALBA",
-          "qt": 10,
-          "val": 145.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 10.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "700",
-          "codfilial": "2",
-          "pvenda": 14.5
-        },
-        {
-          "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
-          "industria": "MINALBA",
-          "qt": 6,
-          "val": 125.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "3106",
-          "codfilial": "2",
-          "pvenda": 20.9
-        },
-        {
-          "desc": "4 PACK RED BULL MELANCIA",
-          "industria": "RED BULL",
-          "qt": 3,
-          "val": 89.88,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 3.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "2841",
-          "codfilial": "2",
-          "pvenda": 29.96
-        }
-      ],
-      "tem_corte": false,
-      "em_rota": false,
-      "rota": "",
-      "placa": "",
-      "status_log": "ENTREGUE",
-      "motivo_codprod": "2841",
-      "motivo_produto": "4 PACK RED BULL MELANCIA",
-      "motivo_preco_digitado": 29.96,
-      "motivo_preco_tabela": 33.96
     },
     {
       "numped": "388001229",
@@ -67582,6 +67993,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -67723,6 +68135,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 2805.9,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -67880,6 +68293,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -67921,6 +68335,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -68138,6 +68553,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -68179,6 +68595,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -68236,6 +68653,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 94.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -68297,6 +68715,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -68370,6 +68789,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -68459,6 +68879,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 183.6,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -68568,6 +68989,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -68693,6 +69115,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -68701,67 +69124,6 @@ const PEDIDOS_DATA = {
       "motivo_produto": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
       "motivo_preco_digitado": 25.9,
       "motivo_preco_tabela": 30.9
-    },
-    {
-      "numped": "379001349",
-      "numnota": "418112",
-      "data": "03/08/2026",
-      "data_ord": "2026-08-03",
-      "nome": "JORGE MACIEL - OFF TRADE",
-      "cliente": "RAINHA DO IRIS MERCADO LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "cidade": "SAO JOAO DE MER",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :5586",
-      "obs": "",
-      "total": 509.7,
-      "itens": [
-        {
-          "desc": "RC ATUM SOLIDO OLEO 24X170G",
-          "industria": "ROBINSON CRUSOE",
-          "qt": 1,
-          "val": 169.9,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "5586",
-          "codfilial": "2",
-          "pvenda": 169.9
-        },
-        {
-          "desc": "RC ATUM PEDACOS NATURAL 24X140G",
-          "industria": "ROBINSON CRUSOE",
-          "qt": 2,
-          "val": 339.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "5762",
-          "codfilial": "2",
-          "pvenda": 169.9
-        }
-      ],
-      "tem_corte": false,
-      "em_rota": false,
-      "rota": "",
-      "placa": "",
-      "status_log": "ENTREGUE",
-      "motivo_codprod": "5586",
-      "motivo_produto": "RC ATUM SOLIDO OLEO 24X170G",
-      "motivo_preco_digitado": 169.9,
-      "motivo_preco_tabela": 237.16
     },
     {
       "numped": "378000581",
@@ -68831,6 +69193,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -68892,6 +69255,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -68985,6 +69349,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -69042,6 +69407,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -69083,6 +69449,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -69140,6 +69507,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -69181,6 +69549,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -69222,6 +69591,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -69279,6 +69649,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -69320,6 +69691,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -69361,6 +69733,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -69402,6 +69775,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -69443,6 +69817,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -69484,6 +69859,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -69525,6 +69901,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -69566,6 +69943,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -69607,6 +69985,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -69696,6 +70075,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -69737,6 +70117,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -69778,6 +70159,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -69819,6 +70201,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -69860,6 +70243,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -69901,6 +70285,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -69974,6 +70359,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -70015,6 +70401,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -70088,6 +70475,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 193.5,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -70161,6 +70549,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -70218,6 +70607,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -70275,6 +70665,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -70316,6 +70707,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -70357,6 +70749,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -70398,6 +70791,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -70455,6 +70849,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -70496,6 +70891,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 191.76,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -70573,6 +70969,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -70650,6 +71047,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -70691,6 +71089,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -70752,6 +71151,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -70793,6 +71193,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -70870,6 +71271,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -70911,6 +71313,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -70972,6 +71375,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -71045,6 +71449,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -71118,6 +71523,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -71175,6 +71581,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -71376,6 +71783,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -71593,6 +72001,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -71634,6 +72043,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -71787,6 +72197,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -71876,6 +72287,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -71917,55 +72329,11 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
       "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "379001343",
-      "numnota": "417874",
-      "data": "01/08/2026",
-      "data_ord": "2026-08-01",
-      "nome": "JORGE MACIEL - OFF TRADE",
-      "cliente": "JUDITH COMERCIO DE ALIMENTOS LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "cidade": "BELFORD ROXO",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :5583",
-      "obs": "",
-      "total": 132.0,
-      "itens": [
-        {
-          "desc": "RC ATUM RALADO OLEO 24X140G",
-          "industria": "ROBINSON CRUSOE",
-          "qt": 1,
-          "val": 132.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "5583",
-          "codfilial": "2",
-          "pvenda": 132.0
-        }
-      ],
-      "tem_corte": false,
-      "em_rota": false,
-      "rota": "",
-      "placa": "",
-      "status_log": "ENTREGUE",
-      "motivo_codprod": "5583",
-      "motivo_produto": "RC ATUM RALADO OLEO 24X140G",
-      "motivo_preco_digitado": 132.0,
-      "motivo_preco_tabela": 172.93
     },
     {
       "numped": "419000761",
@@ -72179,6 +72547,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -72236,6 +72605,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -72325,6 +72695,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -72370,6 +72741,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -72459,6 +72831,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -72500,6 +72873,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -72589,6 +72963,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -72630,6 +73005,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -72719,6 +73095,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 1077.84,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -72780,6 +73157,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -72853,6 +73231,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -72942,6 +73321,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 35.71,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -73051,6 +73431,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -73172,6 +73553,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -73389,6 +73771,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -73446,6 +73829,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -73539,6 +73923,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -73584,6 +73969,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -73673,6 +74059,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -73842,6 +74229,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 23286.0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -73903,6 +74291,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -74008,6 +74397,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -74049,6 +74439,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -74110,6 +74501,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -74167,6 +74559,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -74208,6 +74601,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -74253,6 +74647,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -74298,6 +74693,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -74391,6 +74787,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 101.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -74436,6 +74833,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -74545,6 +74943,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -74590,6 +74989,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -74715,6 +75115,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -74872,6 +75273,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 1995.0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -75073,6 +75475,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 470.76,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -75294,6 +75697,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -75367,6 +75771,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -75428,6 +75833,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -75489,6 +75895,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -75710,6 +76117,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -75863,6 +76271,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -75908,6 +76317,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -75949,6 +76359,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -75990,6 +76401,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -76083,6 +76495,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -76172,6 +76585,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 124.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -76217,6 +76631,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 234.9,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -76278,6 +76693,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -76319,6 +76735,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -76360,6 +76777,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -76417,6 +76835,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -76522,6 +76941,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -76583,6 +77003,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -76644,6 +77065,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -76689,6 +77111,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -76750,6 +77173,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -76811,6 +77235,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -76984,6 +77409,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -77073,6 +77499,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -77466,6 +77893,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -77507,6 +77935,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -77628,6 +78057,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 1222.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -77669,6 +78099,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -77710,6 +78141,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -77751,6 +78183,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -77792,6 +78225,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -77849,6 +78283,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -77906,6 +78341,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -77963,6 +78399,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -78020,6 +78457,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -78109,6 +78547,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -78166,6 +78605,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -78207,6 +78647,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -78264,6 +78705,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -78369,6 +78811,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -78490,6 +78933,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -78531,6 +78975,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -78572,6 +79017,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -78693,6 +79139,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -78862,6 +79309,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -78919,6 +79367,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 108.9,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -78992,6 +79441,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -79033,6 +79483,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -79426,6 +79877,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -79483,6 +79935,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -79524,6 +79977,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -79629,6 +80083,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -79734,6 +80189,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -79823,6 +80279,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -79896,6 +80353,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -79969,6 +80427,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -80026,6 +80485,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 140.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -80083,6 +80543,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 328.5,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -80172,6 +80633,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -80213,6 +80675,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -80254,6 +80717,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -80311,6 +80775,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -80352,6 +80817,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -80569,6 +81035,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -80690,6 +81157,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -80779,6 +81247,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 658.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -80836,6 +81305,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -80989,6 +81459,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -81062,6 +81533,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -81103,6 +81575,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -81144,6 +81617,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -81185,6 +81659,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -81226,6 +81701,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -81283,6 +81759,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -81372,6 +81849,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -81477,6 +81955,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 99.9,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -81550,6 +82029,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -81591,6 +82071,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -81776,6 +82257,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -81833,6 +82315,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -81906,6 +82389,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -81947,6 +82431,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -82100,6 +82585,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -82173,6 +82659,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -82278,6 +82765,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -82367,6 +82855,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -82424,6 +82913,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -82497,6 +82987,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -82554,6 +83045,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -82611,6 +83103,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -82720,6 +83213,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 191.76,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -82793,6 +83287,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -82882,6 +83377,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -82959,6 +83455,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -83036,6 +83533,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -83141,6 +83639,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 231.6,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -83182,6 +83681,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -83227,6 +83727,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -83304,6 +83805,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -83349,6 +83851,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -83426,6 +83929,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 1577.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -83483,6 +83987,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -83544,6 +84049,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -83589,6 +84095,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -83682,6 +84189,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 73086.6,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -83803,6 +84311,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -83864,6 +84373,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -83969,6 +84479,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -84090,6 +84601,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -84211,6 +84723,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -84252,6 +84765,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -84293,6 +84807,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -84398,6 +84913,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 799.2,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -84475,6 +84991,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -84612,6 +85129,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -84669,6 +85187,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -84710,6 +85229,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -84831,6 +85351,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -84908,6 +85429,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -84965,6 +85487,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 70.9,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -85022,6 +85545,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -85063,6 +85587,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -85152,6 +85677,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -85209,6 +85735,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -85250,6 +85777,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -85307,6 +85835,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -85380,6 +85909,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 308.88,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -85629,6 +86159,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 355.2,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -85878,6 +86409,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -85923,6 +86455,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -86000,6 +86533,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -86045,6 +86579,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -86202,6 +86737,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -86243,6 +86779,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -86320,6 +86857,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -86409,6 +86947,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -86566,6 +87105,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -86607,6 +87147,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -86680,6 +87221,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -86789,6 +87331,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -86862,6 +87405,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -86907,6 +87451,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 389.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -86948,6 +87493,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -86993,6 +87539,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -87054,6 +87601,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -87227,6 +87775,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -87284,6 +87833,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -87565,6 +88115,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -87606,6 +88157,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -87647,6 +88199,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -87688,6 +88241,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -87729,6 +88283,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -87770,6 +88325,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -87811,6 +88367,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -87868,6 +88425,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 2582.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -87941,6 +88499,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -88046,6 +88605,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -88135,6 +88695,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -88192,6 +88753,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 694.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -88297,6 +88859,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 1389.6,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -88386,6 +88949,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 1006.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -88459,6 +89023,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -88564,6 +89129,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -88669,6 +89235,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -88758,6 +89325,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -88847,6 +89415,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 1006.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -88952,6 +89521,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -89041,6 +89611,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -89098,6 +89669,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 167.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -89203,6 +89775,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -89340,6 +89913,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -89413,6 +89987,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -89486,6 +90061,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -89575,6 +90151,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -89712,6 +90289,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -89753,6 +90331,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -89826,6 +90405,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -89931,6 +90511,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -90084,6 +90665,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -90189,6 +90771,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -90310,6 +90893,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -90383,6 +90967,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 62160.0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -90520,6 +91105,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -90689,6 +91275,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -90762,6 +91349,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 1098.9,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -90819,6 +91407,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -90876,6 +91465,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -90949,6 +91539,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -91006,6 +91597,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -91047,6 +91639,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -91104,6 +91697,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 645.6,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -91161,6 +91755,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -91202,6 +91797,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -91243,6 +91839,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -91300,6 +91897,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 419.5,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -91373,6 +91971,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -91478,6 +92077,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -91647,6 +92247,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -91688,6 +92289,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -91809,6 +92411,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -91850,6 +92453,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -91907,6 +92511,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -91948,6 +92553,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 419.6,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -91989,6 +92595,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -92110,6 +92717,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -92167,6 +92775,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 159.89,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -92208,6 +92817,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -92281,6 +92891,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 159.9,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -92322,6 +92933,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -92363,6 +92975,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 4765.2,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -92468,6 +93081,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -92509,6 +93123,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -92566,6 +93181,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -92623,6 +93239,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -92664,6 +93281,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -92833,6 +93451,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -92906,6 +93525,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -92970,7 +93590,7 @@ const PEDIDOS_DATA = {
           "qtcortada": 0.0,
           "qtd_cortada_total": 0.0,
           "qt_original": 24.0,
-          "valor_cortado": 490.08,
+          "valor_cortado": 0.0,
           "motivo_corte": "FATURADO ERRADO",
           "cortado": false,
           "codprod": "3551",
@@ -92979,6 +93599,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 490.08,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -93059,7 +93680,7 @@ const PEDIDOS_DATA = {
           "qtcortada": 0.0,
           "qtd_cortada_total": 0.0,
           "qt_original": 12.0,
-          "valor_cortado": 245.04,
+          "valor_cortado": 0.0,
           "motivo_corte": "FATURADO ERRADO",
           "cortado": false,
           "codprod": "3551",
@@ -93068,6 +93689,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 245.04,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -93148,7 +93770,7 @@ const PEDIDOS_DATA = {
           "qtcortada": 0.0,
           "qtd_cortada_total": 0.0,
           "qt_original": 24.0,
-          "valor_cortado": 490.08,
+          "valor_cortado": 0.0,
           "motivo_corte": "FATURADO ERRADO",
           "cortado": false,
           "codprod": "3551",
@@ -93157,6 +93779,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 490.08,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -93221,7 +93844,7 @@ const PEDIDOS_DATA = {
           "qtcortada": 0.0,
           "qtd_cortada_total": 0.0,
           "qt_original": 12.0,
-          "valor_cortado": 245.04,
+          "valor_cortado": 0.0,
           "motivo_corte": "FATURADO ERRADO",
           "cortado": false,
           "codprod": "3551",
@@ -93230,6 +93853,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 245.04,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -93278,7 +93902,7 @@ const PEDIDOS_DATA = {
           "qtcortada": 0.0,
           "qtd_cortada_total": 0.0,
           "qt_original": 24.0,
-          "valor_cortado": 490.08,
+          "valor_cortado": 0.0,
           "motivo_corte": "FATURADO ERRADO",
           "cortado": false,
           "codprod": "3551",
@@ -93287,6 +93911,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 490.08,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -93383,7 +94008,7 @@ const PEDIDOS_DATA = {
           "qtcortada": 0.0,
           "qtd_cortada_total": 0.0,
           "qt_original": 12.0,
-          "valor_cortado": 245.04,
+          "valor_cortado": 0.0,
           "motivo_corte": "FATURADO ERRADO",
           "cortado": false,
           "codprod": "3551",
@@ -93392,6 +94017,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 245.04,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -93472,7 +94098,7 @@ const PEDIDOS_DATA = {
           "qtcortada": 0.0,
           "qtd_cortada_total": 0.0,
           "qt_original": 24.0,
-          "valor_cortado": 490.08,
+          "valor_cortado": 0.0,
           "motivo_corte": "FATURADO ERRADO",
           "cortado": false,
           "codprod": "3551",
@@ -93481,6 +94107,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 490.08,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -93554,6 +94181,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -93627,6 +94255,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -93668,6 +94297,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -93713,6 +94343,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -93818,6 +94449,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -93927,6 +94559,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -94020,6 +94653,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 230.55,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -94093,6 +94727,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 55.9,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -94218,6 +94853,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -94311,6 +94947,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -94384,6 +95021,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -94425,6 +95063,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -94514,6 +95153,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -94571,6 +95211,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -94676,6 +95317,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -94749,6 +95391,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -94790,6 +95433,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -94831,6 +95475,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -94952,6 +95597,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -95009,6 +95655,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -95070,6 +95717,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -95111,6 +95759,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -95168,6 +95817,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -95213,6 +95863,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -95274,6 +95925,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -95331,6 +95983,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -95456,6 +96109,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -95501,6 +96155,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -95546,6 +96201,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -95591,6 +96247,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -95828,6 +96485,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -96029,6 +96687,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 116.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -96086,6 +96745,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -96131,6 +96791,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -96224,6 +96885,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -96333,6 +96995,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -96378,6 +97041,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -96439,6 +97103,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -96516,6 +97181,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 425.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -96577,6 +97243,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -96666,6 +97333,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -96759,6 +97427,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -96868,6 +97537,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -96913,6 +97583,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -97050,6 +97721,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -97123,6 +97795,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -97244,6 +97917,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -97289,6 +97963,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -97346,6 +98021,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -97419,6 +98095,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -97508,6 +98185,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -97569,6 +98247,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -97630,6 +98309,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -97671,6 +98351,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -97744,6 +98425,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -97833,6 +98515,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -98038,6 +98721,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -98115,6 +98799,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -98160,6 +98845,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -98221,6 +98907,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -98278,6 +98965,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -98367,6 +99055,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -98440,6 +99129,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -98485,6 +99175,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -98590,6 +99281,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -98667,6 +99359,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -98744,6 +99437,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 78.3,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -98805,6 +99499,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -98882,6 +99577,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -98971,6 +99667,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -99032,6 +99729,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -99121,6 +99819,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -99182,6 +99881,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -99227,6 +99927,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -99272,6 +99973,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 389.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -99313,6 +100015,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -99370,6 +100073,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -99479,6 +100183,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -99568,6 +100273,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -99661,6 +100367,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 70.9,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -99718,6 +100425,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -99779,6 +100487,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -99836,6 +100545,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -99957,6 +100667,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -100062,6 +100773,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -100199,6 +100911,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -100256,6 +100969,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -100377,6 +101091,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 251.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -100434,6 +101149,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -100539,6 +101255,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -100628,6 +101345,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -100717,6 +101435,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 503.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -100774,6 +101493,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -100815,6 +101535,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -100856,6 +101577,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -100913,6 +101635,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -100986,6 +101709,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 297.72,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -101059,6 +101783,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 297.72,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -101132,6 +101857,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -101205,6 +101931,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 1389.5,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -101278,6 +102005,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -101399,6 +102127,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -101440,6 +102169,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 479.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -101593,6 +102323,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -101666,6 +102397,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -101739,6 +102471,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -101828,6 +102561,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -102045,6 +102779,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 379.6,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -102118,6 +102853,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -102223,6 +102959,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -102296,6 +103033,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -102385,6 +103123,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -102442,6 +103181,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -102499,6 +103239,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -102556,6 +103297,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -102597,6 +103339,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -102670,6 +103413,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -102711,6 +103455,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -102752,6 +103497,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -102809,6 +103555,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 23.94,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -102898,6 +103645,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -102939,6 +103687,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -102996,6 +103745,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -103053,6 +103803,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -103094,6 +103845,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -103167,6 +103919,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 1138.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -103256,6 +104009,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -103313,6 +104067,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -103370,6 +104125,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -103411,6 +104167,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -103452,6 +104209,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 4777.5,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -103493,6 +104251,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -103534,6 +104293,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 2497.5,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -103703,6 +104463,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -103744,6 +104505,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -103801,6 +104563,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -103842,6 +104605,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 91.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -103883,6 +104647,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -103956,6 +104721,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -104013,6 +104779,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -104054,6 +104821,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 129.9,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -104095,6 +104863,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 372.12,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -104136,6 +104905,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -104200,7 +104970,7 @@ const PEDIDOS_DATA = {
           "qtcortada": 0.0,
           "qtd_cortada_total": 0.0,
           "qt_original": 12.0,
-          "valor_cortado": 245.04,
+          "valor_cortado": 0.0,
           "motivo_corte": "FATURADO ERRADO",
           "cortado": false,
           "codprod": "3551",
@@ -104209,6 +104979,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 245.04,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -104346,6 +105117,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -104439,6 +105211,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -104500,6 +105273,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -104557,6 +105331,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -104778,6 +105553,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -104855,6 +105631,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -104976,6 +105753,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -105033,6 +105811,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -105138,6 +105917,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -105195,6 +105975,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -105412,6 +106193,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 347.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -105453,6 +106235,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -105498,6 +106281,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -105607,6 +106391,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -105696,6 +106481,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -105757,6 +106543,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -105910,6 +106697,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -105967,6 +106755,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -106040,6 +106829,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -106081,6 +106871,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -106122,6 +106913,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -106199,6 +106991,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -106207,95 +107000,6 @@ const PEDIDOS_DATA = {
       "motivo_produto": "AGUA NA CAIXA 12X500ML",
       "motivo_preco_digitado": 32.9,
       "motivo_preco_tabela": 31.9
-    },
-    {
-      "numped": "378000545",
-      "numnota": "416445",
-      "data": "28/07/2026",
-      "data_ord": "2026-07-28",
-      "nome": "FABIO VALOTTI - OFF TRADE",
-      "cliente": "PANIFICACAO APOLLO LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "cidade": "RIO DE JANEIRO",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :5985",
-      "obs": "Favor entregar dia 29/07",
-      "total": 939.62,
-      "itens": [
-        {
-          "desc": "NECTAR CAJU 12X1000ML",
-          "industria": "TIAL",
-          "qt": 5,
-          "val": 289.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 5.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "5986",
-          "codfilial": "2",
-          "pvenda": 57.88
-        },
-        {
-          "desc": "NECTAR GOIABA 12X1000ML",
-          "industria": "TIAL",
-          "qt": 5,
-          "val": 289.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 5.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "5987",
-          "codfilial": "2",
-          "pvenda": 57.88
-        },
-        {
-          "desc": "NECTAR GOIABA TIAL 12X250ML",
-          "industria": "TIAL",
-          "qt": 2,
-          "val": 71.42,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "6030",
-          "codfilial": "2",
-          "pvenda": 35.71
-        },
-        {
-          "desc": "NECTAR LARANJA 12X1000ML",
-          "industria": "TIAL",
-          "qt": 5,
-          "val": 289.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 5.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "5988",
-          "codfilial": "2",
-          "pvenda": 57.88
-        }
-      ],
-      "tem_corte": false,
-      "em_rota": false,
-      "rota": "",
-      "placa": "",
-      "status_log": "ENTREGUE"
     },
     {
       "numped": "508000040",
@@ -106365,6 +107069,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -106410,6 +107115,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 221.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -106451,6 +107157,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -106620,6 +107327,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -106725,6 +107433,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -106814,6 +107523,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -106903,6 +107613,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -106976,6 +107687,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -107133,6 +107845,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -107206,6 +107919,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -107251,6 +107965,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 221.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -107404,6 +108119,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -107573,6 +108289,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -107666,6 +108383,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -107835,6 +108553,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -107912,6 +108631,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -107957,6 +108677,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -108034,6 +108755,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -108171,6 +108893,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -108232,6 +108955,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -108369,6 +109093,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -108442,6 +109167,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 319.6,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -108487,6 +109213,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -108576,6 +109303,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -108665,6 +109393,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 437.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -108754,6 +109483,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -108843,6 +109573,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -108932,6 +109663,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -109037,6 +109769,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -109078,6 +109811,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -109119,87 +109853,11 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
       "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "159005157",
-      "numnota": "416257",
-      "data": "28/07/2026",
-      "data_ord": "2026-07-28",
-      "nome": "GISELLE BARFER - OFF TRADE",
-      "cliente": "TCA COMERCIO CABO FRIO LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "cidade": "CABO FRIO",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :313",
-      "obs": "",
-      "total": 2894.2,
-      "itens": [
-        {
-          "desc": "WHISKY J WALKER RED LABEL 1L",
-          "industria": "DIAGEO",
-          "qt": 12,
-          "val": 850.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "313",
-          "codfilial": "2",
-          "pvenda": 70.9
-        },
-        {
-          "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
-          "industria": "AURORA",
-          "qt": 2,
-          "val": 245.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "857",
-          "codfilial": "2",
-          "pvenda": 122.9
-        },
-        {
-          "desc": "RED BULL 24X250ML",
-          "industria": "RED BULL",
-          "qt": 10,
-          "val": 1797.6,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 10.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "3",
-          "codfilial": "2",
-          "pvenda": 179.76
-        }
-      ],
-      "tem_corte": false,
-      "em_rota": false,
-      "rota": "",
-      "placa": "",
-      "status_log": "ENTREGUE",
-      "motivo_codprod": "313",
-      "motivo_produto": "WHISKY J WALKER RED LABEL 1L",
-      "motivo_preco_digitado": 70.9,
-      "motivo_preco_tabela": 76.9
     },
     {
       "numped": "155003992",
@@ -109253,6 +109911,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -109326,6 +109985,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -109451,6 +110111,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -109544,6 +110205,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 649.2,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -109589,6 +110251,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -109630,6 +110293,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -109691,6 +110355,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -109992,6 +110657,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -110213,6 +110879,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -110274,6 +110941,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -110495,6 +111163,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 359.84,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -110680,6 +111349,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -110741,6 +111411,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 559.0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -110834,6 +111505,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -110879,6 +111551,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -110920,6 +111593,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -111201,6 +111875,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -111246,6 +111921,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -111399,6 +112075,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 162.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -111540,6 +112217,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -111601,6 +112279,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -111662,6 +112341,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -111771,6 +112451,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -111832,6 +112513,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -111840,47 +112522,6 @@ const PEDIDOS_DATA = {
       "motivo_produto": "CATUABA SELVAGEM 900ML",
       "motivo_preco_digitado": 11.9,
       "motivo_preco_tabela": 15.2
-    },
-    {
-      "numped": "156003753",
-      "numnota": "416474",
-      "data": "28/07/2026",
-      "data_ord": "2026-07-28",
-      "nome": "MARILENA TRAGEL - OFF TRADE",
-      "cliente": "ROOFTOP METROPOLITANO BAR E EVENTOS LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "cidade": "RIO DE JANEIRO",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 651.0,
-      "itens": [
-        {
-          "desc": "AGUA MINERAL MAMBA WATER S/ GAS 12X350ML",
-          "industria": "KAISER",
-          "qt": 15,
-          "val": 651.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 15.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "7506",
-          "codfilial": "2",
-          "pvenda": 43.4
-        }
-      ],
-      "tem_corte": false,
-      "em_rota": false,
-      "rota": "",
-      "placa": "",
-      "status_log": "ENTREGUE"
     },
     {
       "numped": "431001190",
@@ -112110,6 +112751,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -112155,6 +112797,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -112196,6 +112839,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -112397,6 +113041,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -112506,6 +113151,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -112551,6 +113197,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -112628,6 +113275,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -112833,6 +113481,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -112874,6 +113523,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -112915,6 +113565,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -113036,6 +113687,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 622.64,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -113173,6 +113825,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 1128.59,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -113262,6 +113915,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -113415,6 +114069,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 275.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -113520,6 +114175,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -113641,6 +114297,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -113714,6 +114371,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -113755,6 +114413,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -113796,6 +114455,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -113837,6 +114497,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -113878,6 +114539,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -113919,6 +114581,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -113960,6 +114623,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -114017,6 +114681,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -114090,6 +114755,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -114147,6 +114813,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -114380,6 +115047,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 1198.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -114421,6 +115089,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -114510,6 +115179,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -114583,6 +115253,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -114640,6 +115311,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -114681,6 +115353,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -114722,6 +115395,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -114795,6 +115469,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -114836,6 +115511,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -114893,6 +115569,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -114934,6 +115611,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 752.39,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -115007,6 +115685,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -115112,6 +115791,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -115217,6 +115897,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -115258,6 +115939,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -115347,6 +116029,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -115404,6 +116087,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -115477,6 +116161,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -115534,6 +116219,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -115575,6 +116261,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -115632,6 +116319,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -115673,6 +116361,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -115730,6 +116419,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -115851,6 +116541,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -115892,6 +116583,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 299.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -115933,6 +116625,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 1198.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -115974,6 +116667,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -116031,6 +116725,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -116088,6 +116783,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -116129,6 +116825,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -116170,6 +116867,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -116259,6 +116957,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -116332,6 +117031,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 299.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -116373,6 +117073,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -116414,6 +117115,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -116471,6 +117173,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -116528,6 +117231,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -116569,6 +117273,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -116674,6 +117379,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -116779,6 +117485,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -116820,6 +117527,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -116877,6 +117585,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -116922,6 +117631,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -117027,6 +117737,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -117072,6 +117783,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -117161,6 +117873,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -117238,6 +117951,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -117295,6 +118009,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -117484,6 +118199,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -117589,6 +118305,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 43.9,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -117666,6 +118383,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -117727,6 +118445,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -117768,6 +118487,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -117776,51 +118496,6 @@ const PEDIDOS_DATA = {
       "motivo_produto": "YVY DESTILADO GIN MAR  LT 710ML",
       "motivo_preco_digitado": 34.9,
       "motivo_preco_tabela": 75.9
-    },
-    {
-      "numped": "155003971",
-      "numnota": "415679",
-      "data": "27/07/2026",
-      "data_ord": "2026-07-27",
-      "nome": "RAPHAEL SANTOS - OFF TRADE",
-      "cliente": "SB MONTENEGRO RESTAURANTE LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "cidade": "ARMACAO DOS BUZ",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :3011",
-      "obs": "",
-      "total": 789.6,
-      "itens": [
-        {
-          "desc": "ESPUMANTE ALUD BRANCO 750ML",
-          "industria": "CASTAS",
-          "qt": 24,
-          "val": 789.6,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 24.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "3011",
-          "codfilial": "2",
-          "pvenda": 32.9
-        }
-      ],
-      "tem_corte": false,
-      "em_rota": false,
-      "rota": "",
-      "placa": "",
-      "status_log": "",
-      "motivo_codprod": "3011",
-      "motivo_produto": "ESPUMANTE ALUD BRANCO 750ML",
-      "motivo_preco_digitado": 32.9,
-      "motivo_preco_tabela": 34.9
     },
     {
       "numped": "471000480",
@@ -117874,6 +118549,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -117882,172 +118558,6 @@ const PEDIDOS_DATA = {
       "motivo_produto": "WHISKY BOURBON MAKERS MARK 750 ML",
       "motivo_preco_digitado": 149.9,
       "motivo_preco_tabela": 149.9
-    },
-    {
-      "numped": "156003740",
-      "numnota": "416093",
-      "data": "27/07/2026",
-      "data_ord": "2026-07-27",
-      "nome": "MARILENA TRAGEL - OFF TRADE",
-      "cliente": "POSTO DE GASOLINA BARRAMAR LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "cidade": "RIO DE JANEIRO",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :7207",
-      "obs": "",
-      "total": 269.7,
-      "itens": [
-        {
-          "desc": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-          "industria": "TATUZINHO",
-          "qt": 1,
-          "val": 89.9,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "7207",
-          "codfilial": "2",
-          "pvenda": 89.9
-        },
-        {
-          "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "industria": "TATUZINHO",
-          "qt": 1,
-          "val": 89.9,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "6256",
-          "codfilial": "2",
-          "pvenda": 89.9
-        },
-        {
-          "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "industria": "TATUZINHO",
-          "qt": 1,
-          "val": 89.9,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "6257",
-          "codfilial": "2",
-          "pvenda": 89.9
-        }
-      ],
-      "tem_corte": false,
-      "em_rota": false,
-      "rota": "",
-      "placa": "",
-      "status_log": "ENTREGUE",
-      "motivo_codprod": "7207",
-      "motivo_produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-      "motivo_preco_digitado": 89.9,
-      "motivo_preco_tabela": 94.7
-    },
-    {
-      "numped": "156003741",
-      "numnota": "416021",
-      "data": "27/07/2026",
-      "data_ord": "2026-07-27",
-      "nome": "MARILENA TRAGEL - OFF TRADE",
-      "cliente": "BARRA GAS COM. E SERVICOS LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "cidade": "RIO DE JANEIRO",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 398.4,
-      "itens": [
-        {
-          "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
-          "industria": "MINALBA",
-          "qt": 5,
-          "val": 99.5,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 5.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "714",
-          "codfilial": "2",
-          "pvenda": 19.9
-        },
-        {
-          "desc": "AGUA MINALBA C/ GAS 6X1,5L",
-          "industria": "MINALBA",
-          "qt": 5,
-          "val": 109.5,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 5.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "3143",
-          "codfilial": "2",
-          "pvenda": 21.9
-        },
-        {
-          "desc": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "industria": "TATUZINHO",
-          "qt": 1,
-          "val": 94.7,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "6257",
-          "codfilial": "2",
-          "pvenda": 94.7
-        },
-        {
-          "desc": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "industria": "TATUZINHO",
-          "qt": 1,
-          "val": 94.7,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "6256",
-          "codfilial": "2",
-          "pvenda": 94.7
-        }
-      ],
-      "tem_corte": false,
-      "em_rota": false,
-      "rota": "",
-      "placa": "",
-      "status_log": "ENTREGUE"
     },
     {
       "numped": "156003739",
@@ -118149,6 +118659,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -118238,6 +118749,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -118295,6 +118807,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -118352,6 +118865,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 359.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -118429,6 +118943,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -118522,6 +119037,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -118567,6 +119083,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -118692,6 +119209,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -118797,6 +119315,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -118982,6 +119501,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -119071,6 +119591,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -119144,6 +119665,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -119201,6 +119723,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -119310,164 +119833,11 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
       "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "155003974",
-      "numnota": "415795",
-      "data": "27/07/2026",
-      "data_ord": "2026-07-27",
-      "nome": "RAPHAEL SANTOS - OFF TRADE",
-      "cliente": "LG RESTAURANTE LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "cidade": "ARMACAO DOS BUZ",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :3011",
-      "obs": "",
-      "total": 988.2,
-      "itens": [
-        {
-          "desc": "ESPUMANTE ALUD BRANCO 750ML",
-          "industria": "CASTAS",
-          "qt": 6,
-          "val": 179.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "3011",
-          "codfilial": "2",
-          "pvenda": 29.9
-        },
-        {
-          "desc": "HUMB. CANALE DENARIO MALBEC 750ML",
-          "industria": "CASTAS",
-          "qt": 6,
-          "val": 419.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "2893",
-          "codfilial": "2",
-          "pvenda": 69.9
-        },
-        {
-          "desc": "CERRO DE PEDRA PARCELAS MERLOT TINTO",
-          "industria": "CASTAS",
-          "qt": 6,
-          "val": 389.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "5557",
-          "codfilial": "2",
-          "pvenda": 64.9
-        }
-      ],
-      "tem_corte": false,
-      "em_rota": false,
-      "rota": "",
-      "placa": "",
-      "status_log": "",
-      "motivo_codprod": "3011",
-      "motivo_produto": "ESPUMANTE ALUD BRANCO 750ML",
-      "motivo_preco_digitado": 29.9,
-      "motivo_preco_tabela": 34.9
-    },
-    {
-      "numped": "155003983",
-      "numnota": "415973",
-      "data": "27/07/2026",
-      "data_ord": "2026-07-27",
-      "nome": "RAPHAEL SANTOS - OFF TRADE",
-      "cliente": "LG RESTAURANTE LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "cidade": "ARMACAO DOS BUZ",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :3011",
-      "obs": "",
-      "total": 958.2,
-      "itens": [
-        {
-          "desc": "VINHO CAVAS DE ORO TORRENTES BRANCO",
-          "industria": "CASTAS",
-          "qt": 6,
-          "val": 299.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "5820",
-          "codfilial": "2",
-          "pvenda": 49.9
-        },
-        {
-          "desc": "CERRO DE PEDRA CHARDONNAY JOVEM BCO",
-          "industria": "CASTAS",
-          "qt": 6,
-          "val": 479.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "5551",
-          "codfilial": "2",
-          "pvenda": 79.9
-        },
-        {
-          "desc": "ESPUMANTE ALUD BRANCO 750ML",
-          "industria": "CASTAS",
-          "qt": 6,
-          "val": 179.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "3011",
-          "codfilial": "2",
-          "pvenda": 29.9
-        }
-      ],
-      "tem_corte": false,
-      "em_rota": false,
-      "rota": "",
-      "placa": "",
-      "status_log": "",
-      "motivo_codprod": "3011",
-      "motivo_produto": "ESPUMANTE ALUD BRANCO 750ML",
-      "motivo_preco_digitado": 29.9,
-      "motivo_preco_tabela": 34.9
     },
     {
       "numped": "379001316",
@@ -119553,6 +119923,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -119642,6 +120013,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -120087,6 +120459,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -120400,6 +120773,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -120445,6 +120819,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -120486,6 +120861,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -120575,67 +120951,11 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
       "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "159005147",
-      "numnota": "416004",
-      "data": "27/07/2026",
-      "data_ord": "2026-07-27",
-      "nome": "GISELLE BARFER - OFF TRADE",
-      "cliente": "HUNA BISTRO LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "cidade": "ARMACAO DOS BUZ",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 2694.6,
-      "itens": [
-        {
-          "desc": "VINHO ARESTI ESTATE S. CARMENERE 750ML",
-          "industria": "CASTAS",
-          "qt": 36,
-          "val": 1796.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 36.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "4233",
-          "codfilial": "2",
-          "pvenda": 49.9
-        },
-        {
-          "desc": "VINHO ARESTI ESTATE S. CHARDONNAY 750ML",
-          "industria": "CASTAS",
-          "qt": 18,
-          "val": 898.2,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 18.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "4235",
-          "codfilial": "2",
-          "pvenda": 49.9
-        }
-      ],
-      "tem_corte": false,
-      "em_rota": false,
-      "rota": "",
-      "placa": "",
-      "status_log": ""
     },
     {
       "numped": "388001202",
@@ -120689,6 +121009,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -120750,6 +121071,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -120855,6 +121177,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -120928,6 +121251,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -121001,6 +121325,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -121126,6 +121451,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -121199,6 +121525,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -121244,6 +121571,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -121321,6 +121649,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 568.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -121329,111 +121658,6 @@ const PEDIDOS_DATA = {
       "motivo_produto": "PIRASSUNUNGA 51 965 ML",
       "motivo_preco_digitado": 13.29,
       "motivo_preco_tabela": 13.5
-    },
-    {
-      "numped": "155003979",
-      "numnota": "415975",
-      "data": "27/07/2026",
-      "data_ord": "2026-07-27",
-      "nome": "RAPHAEL SANTOS - OFF TRADE",
-      "cliente": "XERE BAR E RESTAURANTE LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "cidade": "ARMACAO DOS BUZ",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "ITEM NAO ATENDIDO, EXCLUIDO DO PEDIDO",
-      "obs": "",
-      "total": 1472.7,
-      "itens": [
-        {
-          "desc": "VINHO ARESTI ESTATE S. PINOT NOIR",
-          "industria": "CASTAS",
-          "qt": 4,
-          "val": 179.6,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 4.0,
-          "valor_cortado": 179.6,
-          "motivo_corte": "ITEM NAO ATENDIDO, EXCLUIDO DO PEDIDO",
-          "cortado": false,
-          "codprod": "4237",
-          "codfilial": "2",
-          "pvenda": 44.9
-        },
-        {
-          "desc": "HUMB. CANALE DENARIO SAUV. BLANC",
-          "industria": "CASTAS",
-          "qt": 8,
-          "val": 559.2,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 8.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "2895",
-          "codfilial": "2",
-          "pvenda": 69.9
-        },
-        {
-          "desc": "VINHO LOS ALJIBES (VA) BRANCO 750ML",
-          "industria": "CASTAS",
-          "qt": 2,
-          "val": 149.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 2.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "4285",
-          "codfilial": "2",
-          "pvenda": 74.9
-        },
-        {
-          "desc": "ESPUMANTE ALUD BRANCO 750ML",
-          "industria": "CASTAS",
-          "qt": 3,
-          "val": 104.7,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 3.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "3011",
-          "codfilial": "2",
-          "pvenda": 34.9
-        },
-        {
-          "desc": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "industria": "CASTAS",
-          "qt": 6,
-          "val": 479.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "2848",
-          "codfilial": "2",
-          "pvenda": 79.9
-        }
-      ],
-      "tem_corte": false,
-      "em_rota": false,
-      "rota": "",
-      "placa": "",
-      "status_log": ""
     },
     {
       "numped": "450000484",
@@ -121535,6 +121759,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -121676,6 +121901,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -121733,6 +121959,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -121806,6 +122033,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -121927,6 +122155,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -121988,6 +122217,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -122045,6 +122275,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 283.6,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -122214,6 +122445,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -122483,6 +122715,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -122588,6 +122821,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -122681,6 +122915,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -122962,6 +123197,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 88.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -123163,6 +123399,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -123171,51 +123408,6 @@ const PEDIDOS_DATA = {
       "motivo_produto": "LICOR BALLENA MORANGO 750 ML",
       "motivo_preco_digitado": 131.0,
       "motivo_preco_tabela": 105.9
-    },
-    {
-      "numped": "155003982",
-      "numnota": "415981",
-      "data": "27/07/2026",
-      "data_ord": "2026-07-27",
-      "nome": "RAPHAEL SANTOS - OFF TRADE",
-      "cliente": "NINA PASTA & BASTA RESTAURANTE LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "cidade": "CABO FRIO",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :2926",
-      "obs": "",
-      "total": 717.6,
-      "itens": [
-        {
-          "desc": "VINHO FOODKILLER CAB. SAUV./ MERLOT",
-          "industria": "CASTAS",
-          "qt": 24,
-          "val": 717.6,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 24.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "2926",
-          "codfilial": "2",
-          "pvenda": 29.9
-        }
-      ],
-      "tem_corte": false,
-      "em_rota": false,
-      "rota": "",
-      "placa": "",
-      "status_log": "ENTREGUE",
-      "motivo_codprod": "2926",
-      "motivo_produto": "VINHO FOODKILLER CAB. SAUV./ MERLOT",
-      "motivo_preco_digitado": 29.9,
-      "motivo_preco_tabela": 39.9
     },
     {
       "numped": "159005151",
@@ -123269,71 +123461,11 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
       "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "412001431",
-      "numnota": "415987",
-      "data": "27/07/2026",
-      "data_ord": "2026-07-27",
-      "nome": "BARBARA CABRAL - OFF TRADE",
-      "cliente": "COSTA VERDE GASTRONOMIA LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "cidade": "ITAGUAI",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :6532",
-      "obs": "",
-      "total": 510.7,
-      "itens": [
-        {
-          "desc": "AZEITE  ESSENZA D'ITALIA PREMIUM 5L",
-          "industria": "CASTAS",
-          "qt": 1,
-          "val": 199.9,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "6532",
-          "codfilial": "2",
-          "pvenda": 199.9
-        },
-        {
-          "desc": "VINHO VILLA ROSA FRISANTE ROSE",
-          "industria": "CASTAS",
-          "qt": 12,
-          "val": 310.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "4068",
-          "codfilial": "2",
-          "pvenda": 25.9
-        }
-      ],
-      "tem_corte": false,
-      "em_rota": false,
-      "rota": "",
-      "placa": "",
-      "status_log": "ENTREGUE",
-      "motivo_codprod": "6532",
-      "motivo_produto": "AZEITE  ESSENZA D'ITALIA PREMIUM 5L",
-      "motivo_preco_digitado": 199.9,
-      "motivo_preco_tabela": 249.9
     },
     {
       "numped": "388001205",
@@ -123419,6 +123551,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 1663.27,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -123427,79 +123560,6 @@ const PEDIDOS_DATA = {
       "motivo_produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
       "motivo_preco_digitado": 237.61,
       "motivo_preco_tabela": 275.0
-    },
-    {
-      "numped": "156003738",
-      "numnota": "415785",
-      "data": "27/07/2026",
-      "data_ord": "2026-07-27",
-      "nome": "MARILENA TRAGEL - OFF TRADE",
-      "cliente": "ROOFTOP METROPOLITANO BAR E EVENTOS LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "cidade": "RIO DE JANEIRO",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 559.4,
-      "itens": [
-        {
-          "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
-          "industria": "MINALBA",
-          "qt": 3,
-          "val": 59.7,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 3.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "714",
-          "codfilial": "2",
-          "pvenda": 19.9
-        },
-        {
-          "desc": "AGUA MINALBA C/ GAS 6X1,5L",
-          "industria": "MINALBA",
-          "qt": 3,
-          "val": 65.7,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 3.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "3143",
-          "codfilial": "2",
-          "pvenda": 21.9
-        },
-        {
-          "desc": "AGUA MINERAL MAMBA WATER S/ GAS 12X350ML",
-          "industria": "KAISER",
-          "qt": 10,
-          "val": 434.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 10.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "7506",
-          "codfilial": "2",
-          "pvenda": 43.4
-        }
-      ],
-      "tem_corte": false,
-      "em_rota": false,
-      "rota": "",
-      "placa": "",
-      "status_log": "ENTREGUE"
     },
     {
       "numped": "442000304",
@@ -123537,6 +123597,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -123674,55 +123735,11 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
       "status_log": ""
-    },
-    {
-      "numped": "241000533",
-      "numnota": "415934",
-      "data": "27/07/2026",
-      "data_ord": "2026-07-27",
-      "nome": "ZEINALDO DE OLIVEIRA - OFF TRADE",
-      "cliente": "LUCIANA DA SILVA PROCOPIO DAS NEVES 08399692794",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "cidade": "RIO DAS OSTRAS",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :1518",
-      "obs": "",
-      "total": 838.8,
-      "itens": [
-        {
-          "desc": "CANTINA DA SERRA 1,5L",
-          "industria": "COMARY",
-          "qt": 120,
-          "val": 838.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 120.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "1518",
-          "codfilial": "2",
-          "pvenda": 6.99
-        }
-      ],
-      "tem_corte": false,
-      "em_rota": false,
-      "rota": "",
-      "placa": "",
-      "status_log": "ENTREGUE",
-      "motivo_codprod": "1518",
-      "motivo_produto": "CANTINA DA SERRA 1,5L",
-      "motivo_preco_digitado": 6.99,
-      "motivo_preco_tabela": 10.4
     },
     {
       "numped": "159005155",
@@ -123808,6 +123825,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -123853,6 +123871,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 17992.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -123910,6 +123929,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -123967,6 +123987,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 1936.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -124088,6 +124109,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -124129,6 +124151,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -124234,6 +124257,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -124275,6 +124299,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -124348,6 +124373,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -124421,6 +124447,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -124510,6 +124537,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -124567,6 +124595,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -124608,6 +124637,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -124649,6 +124679,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -124690,6 +124721,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -124731,6 +124763,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -124772,6 +124805,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -124813,6 +124847,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -124886,6 +124921,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -124943,6 +124979,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 399.5,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -125096,6 +125133,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -125137,6 +125175,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -125178,6 +125217,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -125219,6 +125259,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -125260,6 +125301,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 51815.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -125317,6 +125359,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -125374,6 +125417,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 9870.0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -125463,6 +125507,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -125504,6 +125549,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 1118.6,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -125561,6 +125607,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -125606,6 +125653,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -125743,6 +125791,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 53.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -125784,6 +125833,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -125989,6 +126039,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -126174,6 +126225,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -126235,6 +126287,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -126276,6 +126329,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -126317,6 +126371,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -126374,6 +126429,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -126415,6 +126471,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -126456,6 +126513,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -126609,6 +126667,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -126650,6 +126709,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -126755,6 +126815,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -126848,6 +126909,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -127017,6 +127079,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -127062,6 +127125,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -127199,6 +127263,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -127256,6 +127321,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -127313,6 +127379,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 71.82,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -127370,6 +127437,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -127411,6 +127479,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -127596,6 +127665,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -127669,6 +127739,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -127934,6 +128005,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 58.35,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -128023,6 +128095,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -128144,6 +128217,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -128217,6 +128291,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -128274,6 +128349,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -128331,6 +128407,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -128388,6 +128465,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -128445,6 +128523,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -128502,6 +128581,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -128543,6 +128623,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -128632,6 +128713,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 69.9,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -128705,6 +128787,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -128778,6 +128861,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -128867,6 +128951,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -128908,6 +128993,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -128949,6 +129035,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -128990,6 +129077,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -129031,6 +129119,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -129072,6 +129161,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -129133,6 +129223,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -129174,6 +129265,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -129219,6 +129311,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 3830.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -129276,6 +129369,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -129317,6 +129411,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -129358,6 +129453,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -129415,6 +129511,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -129556,6 +129653,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -129601,6 +129699,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -129658,6 +129757,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -129699,6 +129799,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -129740,6 +129841,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -129845,6 +129947,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -129922,6 +130025,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -129999,6 +130103,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -130040,6 +130145,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -130161,6 +130267,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 57.48,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -130206,6 +130313,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -130295,6 +130403,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -130336,6 +130445,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -130445,6 +130555,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -130586,6 +130697,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -130643,6 +130755,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -130704,6 +130817,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -130781,6 +130895,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -130826,6 +130941,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -130919,6 +131035,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -130964,6 +131081,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -131005,6 +131123,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -131046,6 +131165,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -131087,6 +131207,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -131192,6 +131313,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -131297,6 +131419,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -131402,6 +131525,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -131491,6 +131615,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -131548,6 +131673,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -131605,6 +131731,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -131726,6 +131853,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -131815,6 +131943,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -131856,6 +131985,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -131977,6 +132107,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -132098,6 +132229,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -132219,6 +132351,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -132308,6 +132441,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -132413,6 +132547,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -132486,6 +132621,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -132575,6 +132711,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -132616,6 +132753,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -132705,6 +132843,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -132746,6 +132885,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -132787,6 +132927,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -132828,6 +132969,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -132869,6 +133011,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -132910,6 +133053,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -132967,6 +133111,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -133008,6 +133153,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -133049,6 +133195,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -133202,6 +133349,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 839.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -133355,6 +133503,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -133476,6 +133625,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -133537,6 +133687,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -133582,6 +133733,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -133671,6 +133823,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -133748,6 +133901,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -133825,6 +133979,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -133870,6 +134025,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -133947,6 +134103,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -134020,6 +134177,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -134065,6 +134223,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -134126,6 +134285,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -134203,6 +134363,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -134264,6 +134425,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -134341,6 +134503,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 748.5,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -134530,6 +134693,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -134671,6 +134835,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -134748,6 +134913,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -134793,6 +134959,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -134834,6 +135001,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -134927,6 +135095,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -135036,6 +135205,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -135097,6 +135267,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -135270,6 +135441,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -135347,6 +135519,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -135388,6 +135561,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -135481,6 +135655,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -135554,6 +135729,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -135679,6 +135855,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -135752,6 +135929,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -135793,6 +135971,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -135854,6 +136033,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -135899,6 +136079,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -135960,6 +136141,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -136021,6 +136203,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -136066,6 +136249,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 261.6,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -136219,6 +136403,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -136424,6 +136609,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 107.3,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -136545,6 +136731,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -136750,6 +136937,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -136903,6 +137091,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -137060,6 +137249,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -137165,6 +137355,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -137306,6 +137497,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 107.3,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -137379,6 +137571,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -137420,6 +137613,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -137477,6 +137671,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -137573,7 +137768,7 @@ const PEDIDOS_DATA = {
           "qtcortada": 0.0,
           "qtd_cortada_total": 0.0,
           "qt_original": 36.0,
-          "valor_cortado": 1722.0,
+          "valor_cortado": 0.0,
           "motivo_corte": "CORTE POR FALTA DE MERCADORIA",
           "cortado": false,
           "codprod": "3579",
@@ -137630,6 +137825,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 1722.0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -137799,6 +137995,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 7726.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -137872,6 +138069,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 479.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -137945,6 +138143,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -137986,6 +138185,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -138075,6 +138275,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -138116,6 +138317,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -138157,6 +138359,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -138214,6 +138417,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -138255,6 +138459,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -138296,6 +138501,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -138337,6 +138543,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -138442,6 +138649,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -138499,6 +138707,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -138572,6 +138781,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -138629,6 +138839,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -138718,6 +138929,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -139047,6 +139259,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 179.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -139168,6 +139381,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 239.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -139273,6 +139487,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -139362,6 +139577,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 239.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -139531,6 +139747,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 239.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -139684,6 +139901,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 419.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -139869,6 +140087,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -140006,6 +140225,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -140063,6 +140283,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -140328,6 +140549,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 339.5,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -140545,6 +140767,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 179.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -140650,6 +140873,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -140867,6 +141091,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -140988,6 +141213,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 1974.0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -141109,6 +141335,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -141150,6 +141377,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -141319,6 +141547,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 59.9,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -141360,6 +141589,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -141449,6 +141679,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -141586,6 +141817,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -141627,6 +141859,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -141668,6 +141901,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -141709,6 +141943,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -141750,6 +141985,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -141791,6 +142027,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -141832,6 +142069,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -141873,6 +142111,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -141914,6 +142153,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -142019,6 +142259,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 958.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -142092,6 +142333,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -142197,6 +142439,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 1974.0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -142254,6 +142497,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -142359,6 +142603,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -142400,6 +142645,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 1614.0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -142441,6 +142687,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -142482,6 +142729,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -142555,6 +142803,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -142644,6 +142893,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 718.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -142685,6 +142935,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -142758,6 +143009,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -142819,6 +143071,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -142896,6 +143149,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -142941,6 +143195,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -143062,6 +143317,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -143119,6 +143375,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -143192,6 +143449,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -143265,6 +143523,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -143310,6 +143569,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -143419,6 +143679,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -143556,6 +143817,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -143709,6 +143971,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -143782,6 +144045,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -143903,6 +144167,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -144056,6 +144321,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -144097,6 +144363,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -144138,6 +144405,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -144263,6 +144531,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -144308,6 +144577,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -144417,6 +144687,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -144462,6 +144733,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -144555,6 +144827,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -144628,6 +144901,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -144669,6 +144943,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -144762,6 +145037,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -145075,6 +145351,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 34.3,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -145136,6 +145413,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -145177,6 +145455,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -145254,6 +145533,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -145347,6 +145627,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -145388,6 +145669,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 997.5,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -145465,6 +145747,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -145510,6 +145793,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -145555,6 +145839,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -145660,6 +145945,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -145721,6 +146007,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -145762,6 +146049,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -145803,6 +146091,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -145860,6 +146149,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -145917,6 +146207,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -145974,6 +146265,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -146047,6 +146339,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -146088,6 +146381,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -146353,6 +146647,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -146394,6 +146689,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -146435,6 +146731,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 2875.2,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -146476,6 +146773,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -146517,6 +146815,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -146574,6 +146873,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -146727,6 +147027,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -146896,6 +147197,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -147081,6 +147383,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -147138,6 +147441,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -147227,6 +147531,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -147284,6 +147589,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 159.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -147357,6 +147663,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -147398,6 +147705,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -147567,6 +147875,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 414.0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -147608,6 +147917,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -147649,6 +147959,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -147754,6 +148065,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 1976.9,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -147811,6 +148123,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -147868,6 +148181,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -147925,6 +148239,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -147966,6 +148281,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -148167,6 +148483,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -148228,6 +148545,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -148273,6 +148591,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -148318,6 +148637,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -148363,6 +148683,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -148408,6 +148729,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -148501,6 +148823,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -148670,6 +148993,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -148711,6 +149035,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -148752,6 +149077,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -148760,63 +149086,6 @@ const PEDIDOS_DATA = {
       "motivo_produto": "WHISKY JIM BEAM CHERRY 1L",
       "motivo_preco_digitado": 74.19,
       "motivo_preco_tabela": 64.9
-    },
-    {
-      "numped": "159005072",
-      "numnota": "413617",
-      "data": "20/07/2026",
-      "data_ord": "2026-07-20",
-      "nome": "GISELLE BARFER - OFF TRADE",
-      "cliente": "PORT FOOD COMERCIO INDUSTRIA DE ALIMENTOS LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "cidade": "RIO DE JANEIRO",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 5249.0,
-      "itens": [
-        {
-          "desc": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
-          "industria": "MINALBA",
-          "qt": 185,
-          "val": 3681.5,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 185.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "714",
-          "codfilial": "2",
-          "pvenda": 19.9
-        },
-        {
-          "desc": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
-          "industria": "MINALBA",
-          "qt": 75,
-          "val": 1567.5,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 75.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "3106",
-          "codfilial": "2",
-          "pvenda": 20.9
-        }
-      ],
-      "tem_corte": false,
-      "em_rota": false,
-      "rota": "",
-      "placa": "",
-      "status_log": "ENTREGUE"
     },
     {
       "numped": "412001421",
@@ -148950,6 +149219,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -149043,6 +149313,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -149132,6 +149403,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -149253,6 +149525,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -149298,6 +149571,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -149355,6 +149629,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -149432,6 +149707,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -149477,6 +149753,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -149518,6 +149795,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -149595,6 +149873,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -149636,6 +149915,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -149725,6 +150005,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -149802,6 +150083,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 940.2,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -149847,6 +150129,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -149968,6 +150251,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -150013,6 +150297,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -150102,6 +150387,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -150147,6 +150433,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -150316,6 +150603,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -150505,6 +150793,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -150694,6 +150983,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -150787,6 +151077,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -150876,6 +151167,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -150933,6 +151225,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -151122,6 +151415,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -151263,6 +151557,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -151356,6 +151651,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -151401,6 +151697,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -151586,6 +151883,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -151803,6 +152101,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -151988,6 +152287,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -152177,6 +152477,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -152254,6 +152555,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -152315,6 +152617,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -152360,6 +152663,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -152449,6 +152753,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -152490,6 +152795,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -152563,6 +152869,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -152656,6 +152963,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -152761,6 +153069,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -152854,6 +153163,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -152975,6 +153285,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -153164,6 +153475,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -153353,6 +153665,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -153538,6 +153851,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -153675,6 +153989,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -153748,6 +154063,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -153949,6 +154265,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -153990,6 +154307,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -154063,6 +154381,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -154152,6 +154471,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -154193,6 +154513,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -154266,6 +154587,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -154307,6 +154629,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -154428,6 +154751,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -154549,6 +154873,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -154590,6 +154915,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -154695,6 +155021,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -154736,6 +155063,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -154809,6 +155137,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -154850,6 +155179,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -154907,6 +155237,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -155028,6 +155359,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -155181,6 +155513,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -155222,6 +155555,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -155295,6 +155629,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 257.28,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -155336,6 +155671,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -155445,6 +155781,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -155486,6 +155823,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -155527,6 +155865,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -155568,6 +155907,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -155737,6 +156077,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -155842,6 +156183,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -155947,6 +156289,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -156132,6 +156475,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -156273,6 +156617,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -156410,6 +156755,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 172.44,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -156455,6 +156801,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -156512,6 +156859,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -156601,6 +156949,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -156642,6 +156991,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -156731,6 +157081,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -156788,6 +157139,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -156861,6 +157213,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -156902,6 +157255,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -156959,6 +157313,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -157000,6 +157355,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -157057,6 +157413,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -157130,6 +157487,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -157219,6 +157577,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -157276,6 +157635,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -157397,6 +157757,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -157454,6 +157815,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -157495,6 +157857,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -157536,6 +157899,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -157593,6 +157957,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -157650,6 +158015,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -157707,6 +158073,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -157780,6 +158147,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -157821,6 +158189,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -157894,6 +158263,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -157935,6 +158305,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -157992,6 +158363,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -158081,6 +158453,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -158138,6 +158511,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -158183,6 +158557,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -158240,6 +158615,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -158345,6 +158721,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -158534,6 +158911,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -158671,6 +159049,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -158744,6 +159123,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -158929,6 +159309,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -159066,6 +159447,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -159107,6 +159489,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -159148,6 +159531,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -159237,6 +159621,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -159326,6 +159711,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -159531,6 +159917,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 634.5,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -159592,6 +159979,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -159701,6 +160089,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 176.04,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -159842,6 +160231,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 176.04,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -159935,6 +160325,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -160120,6 +160511,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -160209,6 +160601,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -160282,6 +160675,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -160355,6 +160749,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -160428,6 +160823,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -160501,6 +160897,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -160574,6 +160971,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -160647,6 +161045,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -160720,6 +161119,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -160809,6 +161209,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -160882,6 +161283,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -160955,6 +161357,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -161028,6 +161431,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -161101,6 +161505,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -161174,6 +161579,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -161247,6 +161653,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -161304,6 +161711,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -161377,6 +161785,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -161434,6 +161843,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -161507,6 +161917,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -161564,6 +161975,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -161701,6 +162113,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -161906,6 +162319,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -162107,6 +162521,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -162196,6 +162611,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -162285,6 +162701,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -162326,6 +162743,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -162399,6 +162817,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -162488,6 +162907,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -162561,6 +162981,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -162618,6 +163039,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -162691,6 +163113,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -162748,6 +163171,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -162821,6 +163245,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -162862,6 +163287,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -162903,6 +163329,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -162944,6 +163371,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -163001,6 +163429,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -163154,6 +163583,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -163195,6 +163625,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 199.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -163300,6 +163731,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -163357,6 +163789,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -163414,6 +163847,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -163519,6 +163953,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -163656,6 +164091,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -163809,6 +164245,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 1009.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -163914,6 +164351,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -163971,6 +164409,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -164044,6 +164483,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 1798.2,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -164197,6 +164637,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -164238,6 +164679,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 11988.0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -164279,6 +164721,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -164320,6 +164763,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -164361,6 +164805,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -164402,6 +164847,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -164475,6 +164921,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -164596,6 +165043,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -164749,6 +165197,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -164806,6 +165255,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -164927,6 +165377,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -164968,6 +165419,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -165057,6 +165509,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -165166,6 +165619,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -165239,6 +165693,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -165284,6 +165739,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -165341,6 +165797,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -165382,6 +165839,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -165523,6 +165981,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -165692,6 +166151,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -165753,6 +166213,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -165826,6 +166287,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -165867,6 +166329,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -165988,6 +166451,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -166029,6 +166493,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -166342,6 +166807,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 71.9,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -166447,6 +166913,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 50.84,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -166588,6 +167055,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 525.6,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -166633,6 +167101,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 326.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -166742,6 +167211,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -166815,6 +167285,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -166856,6 +167327,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -166929,6 +167401,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -167002,6 +167475,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -167043,6 +167517,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -167100,6 +167575,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -167141,6 +167617,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -167214,6 +167691,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -167287,6 +167765,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -167360,6 +167839,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -167449,6 +167929,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -167506,6 +167987,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 45676.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -167563,6 +168045,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -167604,6 +168087,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -167661,6 +168145,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -167718,6 +168203,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -167759,6 +168245,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -167880,6 +168367,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -167925,6 +168413,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 3830.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -167966,6 +168455,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -168027,6 +168517,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -168088,6 +168579,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -168149,6 +168641,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -168210,6 +168703,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -168303,6 +168797,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -168360,6 +168855,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -168401,6 +168897,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -168570,6 +169067,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -168631,6 +169129,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -168692,6 +169191,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -168737,6 +169237,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -168798,6 +169299,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -168859,6 +169361,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -168932,6 +169435,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -169005,6 +169509,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -169130,6 +169635,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 172.44,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -169223,6 +169729,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -169328,6 +169835,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -169401,6 +169909,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 1004.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -169442,6 +169951,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -169499,6 +170009,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -169572,6 +170083,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -169613,6 +170125,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 199.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -169686,6 +170199,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -169791,6 +170305,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -169864,6 +170379,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 4195.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -169905,6 +170421,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -170074,6 +170591,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -170163,6 +170681,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 299.7,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -170204,6 +170723,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -170245,6 +170765,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -170302,6 +170823,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -170363,6 +170885,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -170440,6 +170963,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -170481,6 +171005,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -170522,6 +171047,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -170563,6 +171089,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -170620,6 +171147,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 109680.0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -170709,6 +171237,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -170770,6 +171299,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 276.66,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -170875,6 +171405,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -170932,6 +171463,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -171005,6 +171537,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -171078,6 +171611,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -171155,83 +171689,11 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
       "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "450000414",
-      "numnota": "6658",
-      "data": "13/07/2026",
-      "data_ord": "2026-07-13",
-      "nome": "LEANDRO SOUZA - OFF TRADE",
-      "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "cidade": "MARICA",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "ENTREGA: 14/07",
-      "total": 371.64,
-      "itens": [
-        {
-          "desc": "ESPUMANTE ALUD ROSE 750ML",
-          "industria": "CASTAS",
-          "qt": 6,
-          "val": 161.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "3063",
-          "codfilial": "4",
-          "pvenda": 26.9
-        },
-        {
-          "desc": "WHISKY BLACK STONE 1LT",
-          "industria": "FANTE",
-          "qt": 6,
-          "val": 75.24,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "3819",
-          "codfilial": "4",
-          "pvenda": 12.54
-        },
-        {
-          "desc": "GIN ROCKS STRAWBERRY 1000ML",
-          "industria": "FANTE",
-          "qt": 6,
-          "val": 135.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "3642",
-          "codfilial": "4",
-          "pvenda": 22.5
-        }
-      ],
-      "tem_corte": false,
-      "em_rota": false,
-      "rota": "",
-      "placa": "",
-      "status_log": ""
     },
     {
       "numped": "450000412",
@@ -171301,6 +171763,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -171342,6 +171805,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -171383,6 +171847,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -171424,6 +171889,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -171609,6 +172075,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 479.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -171666,6 +172133,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -171707,6 +172175,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -171764,6 +172233,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -171837,6 +172307,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 1198.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -171894,6 +172365,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -171999,6 +172471,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -172092,6 +172565,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -172137,6 +172611,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -172214,6 +172689,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -172307,6 +172783,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 95.52,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -172400,6 +172877,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -172637,6 +173115,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -172774,6 +173253,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -172835,6 +173315,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -172892,6 +173373,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -172949,6 +173431,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 95.52,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -173054,6 +173537,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -173243,6 +173727,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -173428,6 +173913,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -173597,6 +174083,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -173670,6 +174157,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -173967,6 +174455,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -174008,6 +174497,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -174049,6 +174539,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -174090,6 +174581,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -174131,6 +174623,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -174172,6 +174665,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -174213,6 +174707,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -174254,6 +174749,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -174295,6 +174791,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -174336,6 +174833,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -174377,6 +174875,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -174418,6 +174917,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -174491,6 +174991,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 3673.98,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -174532,6 +175033,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -174573,6 +175075,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -174614,6 +175117,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -174719,6 +175223,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -174776,6 +175281,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -174849,6 +175355,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 562.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -174986,6 +175493,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -175059,6 +175567,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -175132,6 +175641,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -175173,6 +175683,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 72.0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -175218,6 +175729,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -175311,6 +175823,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -175528,6 +176041,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 997.5,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -175573,6 +176087,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -175710,6 +176225,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -175959,6 +176475,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -176064,6 +176581,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -176105,6 +176623,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -176178,6 +176697,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -176235,6 +176755,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -176308,6 +176829,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -176365,6 +176887,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -176422,6 +176945,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -176495,6 +177019,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -176764,6 +177289,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -176809,6 +177335,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -176882,6 +177409,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -176943,6 +177471,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -176988,6 +177517,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -177033,6 +177563,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -177078,6 +177609,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -177151,6 +177683,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -177224,6 +177757,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -177281,6 +177815,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -177374,6 +177909,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -177467,6 +178003,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -177652,6 +178189,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -177837,6 +178375,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -177878,6 +178417,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -177923,6 +178463,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -178080,6 +178621,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -178137,6 +178679,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -178246,6 +178789,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -178287,6 +178831,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -178332,6 +178877,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -178489,6 +179035,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -178754,6 +179301,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -178875,6 +179423,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -178948,6 +179497,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 71.76,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -179025,6 +179575,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -179066,6 +179617,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -179107,6 +179659,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -179148,6 +179701,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -179241,6 +179795,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -179302,6 +179857,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -179407,6 +179963,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -179512,6 +180069,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 1427.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -179557,6 +180115,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -179806,6 +180365,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 976.0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -179847,6 +180407,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -179908,6 +180469,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -179953,6 +180515,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -179994,6 +180557,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -180067,6 +180631,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -180380,6 +180945,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -180437,6 +181003,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -180498,6 +181065,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -180607,6 +181175,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -180664,6 +181233,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -180757,6 +181327,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 232.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -180814,6 +181385,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -180871,6 +181443,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -180944,6 +181517,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -181001,6 +181575,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -181042,6 +181617,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -181247,6 +181823,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 499.0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -181308,6 +181885,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -181385,6 +181963,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -181462,6 +182041,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -181539,6 +182119,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -181616,6 +182197,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -181673,6 +182255,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -181734,6 +182317,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -181795,6 +182379,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -181840,6 +182425,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -181885,6 +182471,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -181946,6 +182533,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -182135,143 +182723,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "em_rota": false,
-      "rota": "",
-      "placa": "",
-      "status_log": "ENTREGUE"
-    },
-    {
-      "numped": "450000373",
-      "numnota": "6315",
-      "data": "30/06/2026",
-      "data_ord": "2026-06-30",
-      "nome": "LEANDRO SOUZA - OFF TRADE",
-      "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "cidade": "MARICA",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "ENTREGAR 06/07",
-      "total": 1450.5,
-      "itens": [
-        {
-          "desc": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "industria": "CASA PERINI",
-          "qt": 12,
-          "val": 394.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "663",
-          "codfilial": "4",
-          "pvenda": 32.9
-        },
-        {
-          "desc": "ESPU MOSCATEL ROSE QNTA DO MORGADO 660ML",
-          "industria": "FANTE",
-          "qt": 6,
-          "val": 130.2,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "7103",
-          "codfilial": "4",
-          "pvenda": 21.7
-        },
-        {
-          "desc": "GIN ROCKS 1000ML",
-          "industria": "FANTE",
-          "qt": 6,
-          "val": 135.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "3643",
-          "codfilial": "4",
-          "pvenda": 22.5
-        },
-        {
-          "desc": "GIN ROCKS WATERMELON 1000ML",
-          "industria": "FANTE",
-          "qt": 12,
-          "val": 270.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "4689",
-          "codfilial": "4",
-          "pvenda": 22.5
-        },
-        {
-          "desc": "RUM MONTILLA CARTA BRANCA 1L",
-          "industria": "PERNOD",
-          "qt": 6,
-          "val": 115.8,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "69",
-          "codfilial": "4",
-          "pvenda": 19.3
-        },
-        {
-          "desc": "RUM MONTILLA OURO 1L",
-          "industria": "PERNOD",
-          "qt": 6,
-          "val": 122.7,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "178",
-          "codfilial": "4",
-          "pvenda": 20.45
-        },
-        {
-          "desc": "VINHO TINTO QUINTA DO MORGADO 750ML",
-          "industria": "FANTE",
-          "qt": 24,
-          "val": 282.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 24.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "3814",
-          "codfilial": "4",
-          "pvenda": 11.75
-        }
-      ],
-      "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -182345,6 +182797,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -182418,6 +182871,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -182491,6 +182945,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -182532,6 +182987,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -182573,6 +183029,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -182646,6 +183103,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -182687,6 +183145,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -182744,6 +183203,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -182817,6 +183277,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -182874,6 +183335,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -183079,6 +183541,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 249.5,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -183140,6 +183603,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -183197,6 +183661,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -183238,6 +183703,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -183279,6 +183745,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -183464,6 +183931,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -183537,6 +184005,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -183626,6 +184095,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -183735,6 +184205,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 1282.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -183888,6 +184359,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -183961,6 +184433,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -184066,6 +184539,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -184171,6 +184645,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -184244,6 +184719,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -184477,6 +184953,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -184598,6 +185075,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 473.06,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -184883,6 +185361,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -184988,6 +185467,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -185097,6 +185577,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -185330,6 +185811,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -185403,6 +185885,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -185448,6 +185931,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -185553,6 +186037,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -185802,6 +186287,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -185907,6 +186393,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -185984,6 +186471,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -186157,6 +186645,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -186198,6 +186687,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -186335,6 +186825,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -186380,6 +186871,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -186453,6 +186945,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -186494,6 +186987,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -186711,6 +187205,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -186804,6 +187299,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -186865,6 +187361,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -186906,6 +187403,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -186947,6 +187445,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 3776.4,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -187260,6 +187759,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -187321,6 +187821,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -187414,6 +187915,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 108.24,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -187567,6 +188069,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -187740,6 +188243,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -187813,6 +188317,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -187854,6 +188359,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -187911,6 +188417,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -187988,6 +188495,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -188081,6 +188589,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -188158,6 +188667,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -188199,6 +188709,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -188292,6 +188803,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -188413,6 +188925,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -188458,6 +188971,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -188499,6 +189013,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 480.0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -188540,6 +189055,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -188809,6 +189325,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -188854,6 +189371,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -188895,6 +189413,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -188968,6 +189487,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 1198.8,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -189089,6 +189609,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -189146,6 +189667,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -189191,6 +189713,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -189248,6 +189771,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -189309,6 +189833,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -189382,6 +189907,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -189427,6 +189953,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -189484,6 +190011,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -189753,6 +190281,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -189942,6 +190471,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -190079,6 +190609,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -190172,6 +190703,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -190213,6 +190745,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -190254,6 +190787,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -190295,6 +190829,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -190336,6 +190871,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -190825,6 +191361,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -190898,6 +191435,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -190943,6 +191481,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -191000,6 +191539,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -191185,6 +191725,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -191242,6 +191783,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -191319,6 +191861,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -191392,6 +191935,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -191517,6 +192061,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -191590,6 +192135,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 139.9,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -191747,6 +192293,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -191872,6 +192419,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -191965,6 +192513,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -192010,6 +192559,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -192199,6 +192749,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 193.5,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -192256,6 +192807,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -192345,6 +192897,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -192402,6 +192955,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -192539,6 +193093,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -192616,6 +193171,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -192661,6 +193217,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -192702,6 +193259,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -192775,6 +193333,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -192836,6 +193395,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -192925,6 +193485,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -192982,6 +193543,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -193059,6 +193621,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -193136,6 +193699,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 130.56,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -193433,6 +193997,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -193622,6 +194187,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -193679,6 +194245,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -193720,6 +194287,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -193761,6 +194329,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -193850,6 +194419,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -193923,6 +194493,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -193964,6 +194535,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -194057,6 +194629,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -194230,6 +194803,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -194335,6 +194909,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -194408,6 +194983,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -194513,6 +195089,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -194574,6 +195151,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -194727,6 +195305,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -194816,6 +195395,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -194921,6 +195501,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -195010,6 +195591,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -195051,6 +195633,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -195108,6 +195691,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -195149,6 +195733,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -195254,6 +195839,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -195299,6 +195885,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -195340,6 +195927,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -195381,6 +195969,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -195454,6 +196043,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -195499,6 +196089,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -195620,6 +196211,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -195677,6 +196269,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -195718,6 +196311,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -195759,6 +196353,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -196168,6 +196763,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -196209,6 +196805,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -196250,6 +196847,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -196483,6 +197081,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -196524,6 +197123,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -196565,6 +197165,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -196606,6 +197207,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -196651,6 +197253,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -196788,6 +197391,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -196829,6 +197433,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -196918,6 +197523,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -196959,6 +197565,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -197000,6 +197607,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -197041,6 +197649,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -197082,6 +197691,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -197187,6 +197797,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -197228,6 +197839,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -197321,6 +197933,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -197442,6 +198055,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -197499,6 +198113,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -197700,6 +198315,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -197741,6 +198357,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -197802,6 +198419,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -197895,6 +198513,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -197936,6 +198555,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -198041,6 +198661,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -198162,6 +198783,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -198251,6 +198873,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -198312,6 +198935,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -198369,6 +198993,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -198426,6 +199051,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -198483,6 +199109,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -198540,6 +199167,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -198661,6 +199289,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -198702,6 +199331,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -198743,6 +199373,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -198784,6 +199415,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -198857,6 +199489,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
+      "valor_cortado_total": 0,
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -198919,7 +199552,8 @@ const PEDIDOS_DATA = {
           "pvenda": 81.6
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 489.6
     },
     {
       "numped": "241000547",
@@ -198988,7 +199622,8 @@ const PEDIDOS_DATA = {
           "pvenda": 119.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 109.8
     },
     {
       "numped": "431001229",
@@ -199170,6 +199805,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 189.4,
       "motivo_codprod": "6054",
       "motivo_produto": "NECTAR DE MARACUJA 24X200ML KIDS",
       "motivo_preco_digitado": 40.56,
@@ -199227,6 +199863,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 259.8,
       "motivo_codprod": "5583",
       "motivo_produto": "RC ATUM RALADO OLEO 24X140G",
       "motivo_preco_digitado": 129.9,
@@ -199300,6 +199937,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 94.7,
       "motivo_codprod": "5983",
       "motivo_produto": "NECTAR MISTO PESSEGO E PERA 24X200ML KID",
       "motivo_preco_digitado": 40.56,
@@ -199357,6 +199995,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 339.96,
       "motivo_codprod": "3",
       "motivo_produto": "RED BULL 24X250ML",
       "motivo_preco_digitado": 172.56,
@@ -199430,6 +200069,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 696.96,
       "motivo_codprod": "3",
       "motivo_produto": "RED BULL 24X250ML",
       "motivo_preco_digitado": 179.76,
@@ -199470,7 +200110,8 @@ const PEDIDOS_DATA = {
           "pvenda": 46.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 562.8
     },
     {
       "numped": "344000615",
@@ -199603,7 +200244,8 @@ const PEDIDOS_DATA = {
           "pvenda": 46.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 745.46
     },
     {
       "numped": "388001240",
@@ -199800,7 +200442,8 @@ const PEDIDOS_DATA = {
           "pvenda": 69.81
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 3701.16
     },
     {
       "numped": "431001222",
@@ -199854,6 +200497,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 259.8,
       "motivo_codprod": "5583",
       "motivo_produto": "RC ATUM RALADO OLEO 24X140G",
       "motivo_preco_digitado": 129.9,
@@ -199895,6 +200539,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 3355.11,
       "motivo_codprod": "3",
       "motivo_produto": "RED BULL 24X250ML",
       "motivo_preco_digitado": 167.76,
@@ -200048,6 +200693,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 712.3,
       "motivo_codprod": "6255",
       "motivo_produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
       "motivo_preco_digitado": 89.9,
@@ -200249,6 +200895,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 183.14,
       "motivo_codprod": "6012",
       "motivo_produto": "NECTAR LARANJA TIAL 12X250ML",
       "motivo_preco_digitado": 17.88,
@@ -200305,7 +200952,8 @@ const PEDIDOS_DATA = {
           "pvenda": 310.8
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 513.6
     },
     {
       "numped": "378000025",
@@ -200359,6 +201007,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 18392.4,
       "motivo_codprod": "435",
       "motivo_produto": "WHISKY ROYAL SALUTE 700 ML",
       "motivo_preco_digitado": 699.0,
@@ -200431,7 +201080,8 @@ const PEDIDOS_DATA = {
           "pvenda": 45.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 5963.04
     },
     {
       "numped": "521000004",
@@ -200500,7 +201150,8 @@ const PEDIDOS_DATA = {
           "pvenda": 51.4
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 328.08
     },
     {
       "numped": "439000320",
@@ -200617,7 +201268,8 @@ const PEDIDOS_DATA = {
           "pvenda": 22.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 1524.24
     },
     {
       "numped": "155004071",
@@ -200686,7 +201338,8 @@ const PEDIDOS_DATA = {
           "pvenda": 42.32
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 91.61
     },
     {
       "numped": "378000583",
@@ -200756,6 +201409,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 46.8,
       "motivo_codprod": "1518",
       "motivo_produto": "CANTINA DA SERRA 1,5L",
       "motivo_preco_digitado": 9.19,
@@ -200828,7 +201482,8 @@ const PEDIDOS_DATA = {
           "pvenda": 182.16
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 37160.64
     },
     {
       "numped": "156003785",
@@ -201025,7 +201680,8 @@ const PEDIDOS_DATA = {
           "pvenda": 104.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "10000135",
@@ -201078,7 +201734,8 @@ const PEDIDOS_DATA = {
           "pvenda": 565.6
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 75520.8
     },
     {
       "numped": "232000027",
@@ -201115,7 +201772,8 @@ const PEDIDOS_DATA = {
           "pvenda": 47.76
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 49861.44
     },
     {
       "numped": "419000753",
@@ -201168,7 +201826,8 @@ const PEDIDOS_DATA = {
           "pvenda": 12.5
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 600.0
     },
     {
       "numped": "420000041",
@@ -201365,7 +202024,8 @@ const PEDIDOS_DATA = {
           "pvenda": 79.2
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 43276.32
     },
     {
       "numped": "153001332",
@@ -201531,6 +202191,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 708.14,
       "motivo_codprod": "6011",
       "motivo_produto": "NECTAR MANGA TIAL 12X250ML",
       "motivo_preco_digitado": 31.83,
@@ -201635,7 +202296,8 @@ const PEDIDOS_DATA = {
           "pvenda": 33.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 2179.8
     },
     {
       "numped": "91000393",
@@ -202488,7 +203150,8 @@ const PEDIDOS_DATA = {
           "pvenda": 64.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 3843.9
     },
     {
       "numped": "493000044",
@@ -202541,7 +203204,8 @@ const PEDIDOS_DATA = {
           "pvenda": 8.99
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "493000046",
@@ -202594,7 +203258,8 @@ const PEDIDOS_DATA = {
           "pvenda": 69.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 189.8
     },
     {
       "numped": "588003289",
@@ -202727,7 +203392,8 @@ const PEDIDOS_DATA = {
           "pvenda": 9.49
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "144001736",
@@ -202797,6 +203463,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 279.96,
       "motivo_codprod": "3433",
       "motivo_produto": "SMIRNOFF RED PET 1750 ML",
       "motivo_preco_digitado": 34.5,
@@ -202837,7 +203504,8 @@ const PEDIDOS_DATA = {
           "pvenda": 39.05
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 1405.69
     },
     {
       "numped": "159005188",
@@ -202890,7 +203558,8 @@ const PEDIDOS_DATA = {
           "pvenda": 93.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 212.7
     },
     {
       "numped": "419000735",
@@ -202928,6 +203597,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 250.0,
       "motivo_codprod": "5580",
       "motivo_produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
       "motivo_preco_digitado": 250.0,
@@ -202985,6 +203655,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 1396.5,
       "motivo_codprod": "5579",
       "motivo_produto": "RC SARDINHA EM OLEO 50X125G",
       "motivo_preco_digitado": 199.5,
@@ -203041,7 +203712,8 @@ const PEDIDOS_DATA = {
           "pvenda": 179.76
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 155312.64
     },
     {
       "numped": "471000494",
@@ -203095,6 +203767,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 256.76,
       "motivo_codprod": "3143",
       "motivo_produto": "AGUA MINALBA C/ GAS 6X1,5L",
       "motivo_preco_digitado": 18.9,
@@ -203136,6 +203809,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 1197.0,
       "motivo_codprod": "5580",
       "motivo_produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
       "motivo_preco_digitado": 199.5,
@@ -203193,6 +203867,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 331.5,
       "motivo_codprod": "5580",
       "motivo_produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
       "motivo_preco_digitado": 199.5,
@@ -203265,7 +203940,8 @@ const PEDIDOS_DATA = {
           "pvenda": 20.42
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 21949.8
     },
     {
       "numped": "378000020",
@@ -203334,7 +204010,8 @@ const PEDIDOS_DATA = {
           "pvenda": 20.42
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 22824.6
     },
     {
       "numped": "327009575",
@@ -203420,6 +204097,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 359.6,
       "motivo_codprod": "484",
       "motivo_produto": "WHISKY JIM BEAM WHITE 1L",
       "motivo_preco_digitado": 89.9,
@@ -203509,6 +204187,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 359.6,
       "motivo_codprod": "484",
       "motivo_produto": "WHISKY JIM BEAM WHITE 1L",
       "motivo_preco_digitado": 89.9,
@@ -203774,6 +204453,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 2165.02,
       "motivo_codprod": "3774",
       "motivo_produto": "TERRAZAS RESERVA CHARDONNAY 750 ML",
       "motivo_preco_digitado": 79.9,
@@ -203863,6 +204543,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 486.88,
       "motivo_codprod": "5804",
       "motivo_produto": "VINHO FREIXO TERROIR TINTO 750ML",
       "motivo_preco_digitado": 63.78,
@@ -203984,6 +204665,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 595.6,
       "motivo_codprod": "6571",
       "motivo_produto": "GIN ROCKS POCKET PET 12X200ML",
       "motivo_preco_digitado": 97.8,
@@ -204104,7 +204786,8 @@ const PEDIDOS_DATA = {
           "pvenda": 27.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 3850.3
     },
     {
       "numped": "10000097",
@@ -204381,7 +205064,8 @@ const PEDIDOS_DATA = {
           "pvenda": 29.93
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 44423.04
     },
     {
       "numped": "507000004",
@@ -204450,7 +205134,8 @@ const PEDIDOS_DATA = {
           "pvenda": 66.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "486000119",
@@ -204615,7 +205300,8 @@ const PEDIDOS_DATA = {
           "pvenda": 8.99
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 215.5
     },
     {
       "numped": "378000001",
@@ -204684,7 +205370,8 @@ const PEDIDOS_DATA = {
           "pvenda": 20.42
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 22824.6
     },
     {
       "numped": "378000004",
@@ -204753,7 +205440,8 @@ const PEDIDOS_DATA = {
           "pvenda": 20.42
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 21949.8
     },
     {
       "numped": "379001323",
@@ -204807,6 +205495,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 286.8,
       "motivo_codprod": "5583",
       "motivo_produto": "RC ATUM RALADO OLEO 24X140G",
       "motivo_preco_digitado": 132.0,
@@ -204895,7 +205584,8 @@ const PEDIDOS_DATA = {
           "pvenda": 20.5
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "469000056",
@@ -204964,7 +205654,8 @@ const PEDIDOS_DATA = {
           "pvenda": 79.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "461000156",
@@ -205049,7 +205740,8 @@ const PEDIDOS_DATA = {
           "pvenda": 104.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "588003230",
@@ -205102,7 +205794,8 @@ const PEDIDOS_DATA = {
           "pvenda": 84.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "588003234",
@@ -205171,7 +205864,8 @@ const PEDIDOS_DATA = {
           "pvenda": 139.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "159005152",
@@ -205224,7 +205918,8 @@ const PEDIDOS_DATA = {
           "pvenda": 45.58
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 74.93
     },
     {
       "numped": "379001312",
@@ -205342,6 +206037,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 1530.14,
       "motivo_codprod": "2710",
       "motivo_produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
       "motivo_preco_digitado": 62.9,
@@ -205382,7 +206078,8 @@ const PEDIDOS_DATA = {
           "pvenda": 39.05
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 1405.69
     },
     {
       "numped": "91000245",
@@ -205435,7 +206132,8 @@ const PEDIDOS_DATA = {
           "pvenda": 119.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 2385.6
     },
     {
       "numped": "91000246",
@@ -205488,7 +206186,8 @@ const PEDIDOS_DATA = {
           "pvenda": 74.93
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 236.22
     },
     {
       "numped": "431001182",
@@ -205525,7 +206224,8 @@ const PEDIDOS_DATA = {
           "pvenda": 179.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "419000727",
@@ -205658,7 +206358,8 @@ const PEDIDOS_DATA = {
           "pvenda": 12.5
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 1770.9
     },
     {
       "numped": "426000397",
@@ -205743,7 +206444,8 @@ const PEDIDOS_DATA = {
           "pvenda": 32.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 175.05
     },
     {
       "numped": "486000109",
@@ -205828,7 +206530,8 @@ const PEDIDOS_DATA = {
           "pvenda": 8.99
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "515000005",
@@ -205881,7 +206584,8 @@ const PEDIDOS_DATA = {
           "pvenda": 139.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 1438.8
     },
     {
       "numped": "431001161",
@@ -206014,7 +206718,8 @@ const PEDIDOS_DATA = {
           "pvenda": 105.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 71.76
     },
     {
       "numped": "391000218",
@@ -206051,7 +206756,8 @@ const PEDIDOS_DATA = {
           "pvenda": 21540.0
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 129240.0
     },
     {
       "numped": "498000015",
@@ -206104,7 +206810,8 @@ const PEDIDOS_DATA = {
           "pvenda": 8.99
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "156003725",
@@ -206206,6 +206913,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 623.86,
       "motivo_codprod": "378",
       "motivo_produto": "GUARAVITA NATURAL 24X290ML",
       "motivo_preco_digitado": 26.73,
@@ -206262,7 +206970,8 @@ const PEDIDOS_DATA = {
           "pvenda": 100.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 413.6
     },
     {
       "numped": "144001672",
@@ -206315,7 +207024,8 @@ const PEDIDOS_DATA = {
           "pvenda": 269.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "426000386",
@@ -206496,7 +207206,8 @@ const PEDIDOS_DATA = {
           "pvenda": 54.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "461000143",
@@ -206565,7 +207276,8 @@ const PEDIDOS_DATA = {
           "pvenda": 20.5
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "349000315",
@@ -206602,7 +207314,8 @@ const PEDIDOS_DATA = {
           "pvenda": 109.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 1318.8
     },
     {
       "numped": "327009479",
@@ -206639,7 +207352,8 @@ const PEDIDOS_DATA = {
           "pvenda": 104.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "450000454",
@@ -206676,7 +207390,8 @@ const PEDIDOS_DATA = {
           "pvenda": 33.0
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 594.0
     },
     {
       "numped": "155003917",
@@ -206745,7 +207460,8 @@ const PEDIDOS_DATA = {
           "pvenda": 269.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "155003918",
@@ -206815,6 +207531,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 464.98,
       "motivo_codprod": "2893",
       "motivo_produto": "HUMB. CANALE DENARIO MALBEC 750ML",
       "motivo_preco_digitado": 45.58,
@@ -206872,6 +207589,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 259.8,
       "motivo_codprod": "7332",
       "motivo_produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
       "motivo_preco_digitado": 129.9,
@@ -206928,7 +207646,8 @@ const PEDIDOS_DATA = {
           "pvenda": 139.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "349000307",
@@ -206981,7 +207700,8 @@ const PEDIDOS_DATA = {
           "pvenda": 67.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 31844.41
     },
     {
       "numped": "327009466",
@@ -207034,7 +207754,8 @@ const PEDIDOS_DATA = {
           "pvenda": 44.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "439000269",
@@ -207071,7 +207792,8 @@ const PEDIDOS_DATA = {
           "pvenda": 141.1
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "144001663",
@@ -207204,7 +207926,8 @@ const PEDIDOS_DATA = {
           "pvenda": 91.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 4824.7
     },
     {
       "numped": "155003902",
@@ -207290,6 +208013,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 2375.4,
       "motivo_codprod": "3011",
       "motivo_produto": "ESPUMANTE ALUD BRANCO 750ML",
       "motivo_preco_digitado": 32.9,
@@ -207379,6 +208103,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 158.7,
       "motivo_codprod": "663",
       "motivo_produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
       "motivo_preco_digitado": 34.9,
@@ -207467,7 +208192,8 @@ const PEDIDOS_DATA = {
           "pvenda": 105.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 511.2
     },
     {
       "numped": "471000447",
@@ -207504,7 +208230,8 @@ const PEDIDOS_DATA = {
           "pvenda": 179.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "497000007",
@@ -207717,7 +208444,8 @@ const PEDIDOS_DATA = {
           "pvenda": 54.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 314.7
     },
     {
       "numped": "159005069",
@@ -207915,6 +208643,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 772.0,
       "motivo_codprod": "3760",
       "motivo_produto": "CHANDON BABY BRUT ROSE 187 ML",
       "motivo_preco_digitado": 31.9,
@@ -208020,6 +208749,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 327.48,
       "motivo_codprod": "4370",
       "motivo_produto": "VINHO ARESTI ESTATE S.  ROSE 187ML",
       "motivo_preco_digitado": 14.9,
@@ -208076,7 +208806,8 @@ const PEDIDOS_DATA = {
           "pvenda": 36.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "431001144",
@@ -208113,7 +208844,8 @@ const PEDIDOS_DATA = {
           "pvenda": 191.76
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 131.64
     },
     {
       "numped": "378000499",
@@ -208183,6 +208915,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 303.36,
       "motivo_codprod": "997",
       "motivo_produto": "4 PACK RED BULL 250ML",
       "motivo_preco_digitado": 29.96,
@@ -208256,6 +208989,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 1474.08,
       "motivo_codprod": "2614",
       "motivo_produto": "VILLA ROSA TINTO 750ML",
       "motivo_preco_digitado": 29.9,
@@ -208393,6 +209127,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 1280.28,
       "motivo_codprod": "3151",
       "motivo_produto": "WHISKY JIM BEAM APPLE 1L",
       "motivo_preco_digitado": 70.9,
@@ -208513,7 +209248,8 @@ const PEDIDOS_DATA = {
           "pvenda": 202.8
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 2374.08
     },
     {
       "numped": "327009426",
@@ -208582,7 +209318,8 @@ const PEDIDOS_DATA = {
           "pvenda": 57.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 1821.0
     },
     {
       "numped": "155003873",
@@ -208619,7 +209356,8 @@ const PEDIDOS_DATA = {
           "pvenda": 190.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "439000253",
@@ -208721,6 +209459,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 472.2,
       "motivo_codprod": "2613",
       "motivo_produto": "VILLA ROSA BRANCO 750ML",
       "motivo_preco_digitado": 29.9,
@@ -208826,6 +209565,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 426.5,
       "motivo_codprod": "296",
       "motivo_produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
       "motivo_preco_digitado": 139.9,
@@ -208947,6 +209687,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 563.38,
       "motivo_codprod": "5384",
       "motivo_produto": "4 PACK RED BULL ZERO",
       "motivo_preco_digitado": 29.96,
@@ -209083,7 +209824,8 @@ const PEDIDOS_DATA = {
           "pvenda": 202.8
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 2576.88
     },
     {
       "numped": "318000009",
@@ -209184,7 +209926,8 @@ const PEDIDOS_DATA = {
           "pvenda": 562.8
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 437623.2
     },
     {
       "numped": "318000012",
@@ -209285,7 +210028,8 @@ const PEDIDOS_DATA = {
           "pvenda": 46.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 437623.2
     },
     {
       "numped": "588003044",
@@ -209322,7 +210066,8 @@ const PEDIDOS_DATA = {
           "pvenda": 39.94
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 199979.58
     },
     {
       "numped": "588003045",
@@ -209359,7 +210104,8 @@ const PEDIDOS_DATA = {
           "pvenda": 59.54
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 158971.8
     },
     {
       "numped": "486000077",
@@ -209460,7 +210206,8 @@ const PEDIDOS_DATA = {
           "pvenda": 99.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 1425.47
     },
     {
       "numped": "412001406",
@@ -209561,7 +210308,8 @@ const PEDIDOS_DATA = {
           "pvenda": 81.48
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 6603.24
     },
     {
       "numped": "439000247",
@@ -209615,6 +210363,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 264.7,
       "motivo_codprod": "100",
       "motivo_produto": "ICE 51 LIMAO LONG NECK 24X275ML",
       "motivo_preco_digitado": 120.9,
@@ -209672,6 +210421,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 326.1,
       "motivo_codprod": "3063",
       "motivo_produto": "ESPUMANTE ALUD ROSE 750ML",
       "motivo_preco_digitado": 34.9,
@@ -209728,7 +210478,8 @@ const PEDIDOS_DATA = {
           "pvenda": 42.96
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 199.5
     },
     {
       "numped": "378000489",
@@ -209845,7 +210596,8 @@ const PEDIDOS_DATA = {
           "pvenda": 51.49
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 132.94
     },
     {
       "numped": "378000491",
@@ -209963,6 +210715,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 563.38,
       "motivo_codprod": "5384",
       "motivo_produto": "4 PACK RED BULL ZERO",
       "motivo_preco_digitado": 29.96,
@@ -210035,7 +210788,8 @@ const PEDIDOS_DATA = {
           "pvenda": 182.16
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 39346.56
     },
     {
       "numped": "155003847",
@@ -210072,7 +210826,8 @@ const PEDIDOS_DATA = {
           "pvenda": 94.7
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 177.8
     },
     {
       "numped": "431001131",
@@ -210190,6 +210945,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 454.31,
       "motivo_codprod": "3643",
       "motivo_produto": "GIN ROCKS 1000ML",
       "motivo_preco_digitado": 25.9,
@@ -210342,7 +211098,8 @@ const PEDIDOS_DATA = {
           "pvenda": 23.94
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "486000066",
@@ -210843,7 +211600,8 @@ const PEDIDOS_DATA = {
           "pvenda": 54.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 6551.4
     },
     {
       "numped": "156003702",
@@ -210977,6 +211735,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 863.3,
       "motivo_codprod": "6253",
       "motivo_produto": "MOVING BOOSTER LIMAO 24X310ML",
       "motivo_preco_digitado": 168.0,
@@ -211033,7 +211792,8 @@ const PEDIDOS_DATA = {
           "pvenda": 141.1
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "471000410",
@@ -211102,7 +211862,8 @@ const PEDIDOS_DATA = {
           "pvenda": 53.15
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 53.15
     },
     {
       "numped": "155003834",
@@ -211188,6 +211949,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 3079.2,
       "motivo_codprod": "674",
       "motivo_produto": "GIN GORDONS 750 ML",
       "motivo_preco_digitado": 49.9,
@@ -211277,6 +212039,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 418.8,
       "motivo_codprod": "4677",
       "motivo_produto": "CACHACA TATUZINHO PET 750 ML",
       "motivo_preco_digitado": 3.99,
@@ -211429,7 +212192,8 @@ const PEDIDOS_DATA = {
           "pvenda": 151.8
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 3748.3
     },
     {
       "numped": "388001170",
@@ -211754,7 +212518,8 @@ const PEDIDOS_DATA = {
           "pvenda": 285.7
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 2976.46
     },
     {
       "numped": "476000174",
@@ -211791,7 +212556,8 @@ const PEDIDOS_DATA = {
           "pvenda": 104.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 123.24
     },
     {
       "numped": "471000404",
@@ -211893,6 +212659,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 433.24,
       "motivo_codprod": "3627",
       "motivo_produto": "BAER MATE LN  6X350ML",
       "motivo_preco_digitado": 35.94,
@@ -212046,6 +212813,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 761.2,
       "motivo_codprod": "663",
       "motivo_produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
       "motivo_preco_digitado": 32.9,
@@ -212119,6 +212887,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 1024.74,
       "motivo_codprod": "64",
       "motivo_produto": "CONHAQUE DOMECQ 1L",
       "motivo_preco_digitado": 28.9,
@@ -212208,6 +212977,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 453.0,
       "motivo_codprod": "3429",
       "motivo_produto": "VODKA ABSOLUT RASPBERRY 750ML",
       "motivo_preco_digitado": 65.9,
@@ -212297,6 +213067,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 1886.68,
       "motivo_codprod": "313",
       "motivo_produto": "WHISKY J WALKER RED LABEL 1L",
       "motivo_preco_digitado": 70.5,
@@ -212338,6 +213109,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 358.8,
       "motivo_codprod": "2614",
       "motivo_produto": "VILLA ROSA TINTO 750ML",
       "motivo_preco_digitado": 29.9,
@@ -212410,7 +213182,8 @@ const PEDIDOS_DATA = {
           "pvenda": 31.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 205.4
     },
     {
       "numped": "379001204",
@@ -212528,6 +213301,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 831.4,
       "motivo_codprod": "2710",
       "motivo_produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
       "motivo_preco_digitado": 62.9,
@@ -212584,7 +213358,8 @@ const PEDIDOS_DATA = {
           "pvenda": 114.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "344000453",
@@ -212637,7 +213412,8 @@ const PEDIDOS_DATA = {
           "pvenda": 90.33
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 693.64
     },
     {
       "numped": "450000387",
@@ -212786,7 +213562,8 @@ const PEDIDOS_DATA = {
           "pvenda": 51.96
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 1472.39
     },
     {
       "numped": "439000126",
@@ -212887,7 +213664,8 @@ const PEDIDOS_DATA = {
           "pvenda": 87.05
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 3519.51
     },
     {
       "numped": "391000198",
@@ -212924,7 +213702,8 @@ const PEDIDOS_DATA = {
           "pvenda": 120.0
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "475000026",
@@ -212977,7 +213756,8 @@ const PEDIDOS_DATA = {
           "pvenda": 99.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "468000088",
@@ -213030,7 +213810,8 @@ const PEDIDOS_DATA = {
           "pvenda": 28.99
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "327009353",
@@ -213195,7 +213976,8 @@ const PEDIDOS_DATA = {
           "pvenda": 57.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "159004982",
@@ -213297,6 +214079,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 1411.1,
       "motivo_codprod": "666",
       "motivo_produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
       "motivo_preco_digitado": 39.9,
@@ -213354,6 +214137,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 345.12,
       "motivo_codprod": "2799",
       "motivo_produto": "RED BULL MELANCIA 250ML CX C/24",
       "motivo_preco_digitado": 172.56,
@@ -213427,6 +214211,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 285.42,
       "motivo_codprod": "5580",
       "motivo_produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
       "motivo_preco_digitado": 199.5,
@@ -213579,7 +214364,8 @@ const PEDIDOS_DATA = {
           "pvenda": 22.5
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 680.29
     },
     {
       "numped": "462000012",
@@ -213664,7 +214450,8 @@ const PEDIDOS_DATA = {
           "pvenda": 34.5
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "159004967",
@@ -213701,7 +214488,8 @@ const PEDIDOS_DATA = {
           "pvenda": 89.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 427.6
     },
     {
       "numped": "159004969",
@@ -213931,6 +214719,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 467.3,
       "motivo_codprod": "5387",
       "motivo_produto": "RED BULL ZERO  24X250ML",
       "motivo_preco_digitado": 179.76,
@@ -213988,6 +214777,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 249.8,
       "motivo_codprod": "129",
       "motivo_produto": "VODKA ABSOLUT 1L",
       "motivo_preco_digitado": 59.9,
@@ -214077,6 +214867,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 319.64,
       "motivo_codprod": "2710",
       "motivo_produto": "CERVEJA HEINEKEN 12X473ML (LATAO)",
       "motivo_preco_digitado": 70.68,
@@ -214197,7 +214988,8 @@ const PEDIDOS_DATA = {
           "pvenda": 95.76
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 559.62
     },
     {
       "numped": "362000136",
@@ -214235,6 +215027,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 1078.2,
       "motivo_codprod": "4236",
       "motivo_produto": "COQUETEL ALCOÓLICO DON CREAM DULCE DE LE",
       "motivo_preco_digitado": 59.9,
@@ -214275,7 +215068,8 @@ const PEDIDOS_DATA = {
           "pvenda": 719.19
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 8630.28
     },
     {
       "numped": "388001145",
@@ -214728,7 +215522,8 @@ const PEDIDOS_DATA = {
           "pvenda": 183.09
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 3817.84
     },
     {
       "numped": "379001181",
@@ -214766,6 +215561,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 269.7,
       "motivo_codprod": "7702",
       "motivo_produto": "AMARULA C LIQUEUR 750 ML + 1 COPO",
       "motivo_preco_digitado": 89.9,
@@ -214807,6 +215603,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 269.7,
       "motivo_codprod": "7702",
       "motivo_produto": "AMARULA C LIQUEUR 750 ML + 1 COPO",
       "motivo_preco_digitado": 89.9,
@@ -214928,6 +215725,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 437.34,
       "motivo_codprod": "6256",
       "motivo_produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
       "motivo_preco_digitado": 94.68,
@@ -215000,7 +215798,8 @@ const PEDIDOS_DATA = {
           "pvenda": 22.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 1201.8
     },
     {
       "numped": "275000586",
@@ -215165,7 +215964,8 @@ const PEDIDOS_DATA = {
           "pvenda": 35.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 7485.03
     },
     {
       "numped": "275000583",
@@ -215298,7 +216098,8 @@ const PEDIDOS_DATA = {
           "pvenda": 35.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 5536.92
     },
     {
       "numped": "275000582",
@@ -215447,7 +216248,8 @@ const PEDIDOS_DATA = {
           "pvenda": 151.8
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 6747.96
     },
     {
       "numped": "275000585",
@@ -215564,7 +216366,8 @@ const PEDIDOS_DATA = {
           "pvenda": 82.03
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 4849.81
     },
     {
       "numped": "275000584",
@@ -215665,7 +216468,8 @@ const PEDIDOS_DATA = {
           "pvenda": 35.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 3427.66
     },
     {
       "numped": "275000588",
@@ -215734,7 +216538,8 @@ const PEDIDOS_DATA = {
           "pvenda": 22.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 1401.0
     },
     {
       "numped": "275000581",
@@ -215851,7 +216656,8 @@ const PEDIDOS_DATA = {
           "pvenda": 35.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 1892.52
     },
     {
       "numped": "371000265",
@@ -216112,7 +216918,8 @@ const PEDIDOS_DATA = {
           "pvenda": 12.99
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 1076.4
     },
     {
       "numped": "475000017",
@@ -216149,7 +216956,8 @@ const PEDIDOS_DATA = {
           "pvenda": 125.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "426000346",
@@ -216250,7 +217058,8 @@ const PEDIDOS_DATA = {
           "pvenda": 8.99
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "470000028",
@@ -216319,7 +217128,8 @@ const PEDIDOS_DATA = {
           "pvenda": 20.49
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 32456.16
     },
     {
       "numped": "257002415",
@@ -216405,6 +217215,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 135.8,
       "motivo_codprod": "997",
       "motivo_produto": "4 PACK RED BULL 250ML",
       "motivo_preco_digitado": 27.16,
@@ -216461,7 +217272,8 @@ const PEDIDOS_DATA = {
           "pvenda": 140.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 473.4
     },
     {
       "numped": "419000669",
@@ -216515,6 +217327,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 1167.6,
       "motivo_codprod": "6570",
       "motivo_produto": "AMARULA CREAM 12X750ML +6 COPOS DUBAI",
       "motivo_preco_digitado": 1080.0,
@@ -216603,7 +217416,8 @@ const PEDIDOS_DATA = {
           "pvenda": 52.0
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 2616.0
     },
     {
       "numped": "476000114",
@@ -216656,7 +217470,8 @@ const PEDIDOS_DATA = {
           "pvenda": 99.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "362000123",
@@ -216758,6 +217573,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 2972.5,
       "motivo_codprod": "313",
       "motivo_produto": "WHISKY WALKER RED LABEL 1L",
       "motivo_preco_digitado": 68.9,
@@ -216878,7 +217694,8 @@ const PEDIDOS_DATA = {
           "pvenda": 89.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "159004926",
@@ -216996,6 +217813,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 483.65,
       "motivo_codprod": "5554",
       "motivo_produto": "CERRO DE PEDRA LARANJA JOVEM 750ML",
       "motivo_preco_digitado": 84.29,
@@ -217084,7 +217902,8 @@ const PEDIDOS_DATA = {
           "pvenda": 25.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 1413.6
     },
     {
       "numped": "471000357",
@@ -217121,7 +217940,8 @@ const PEDIDOS_DATA = {
           "pvenda": 65.28
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "159004911",
@@ -217158,7 +217978,8 @@ const PEDIDOS_DATA = {
           "pvenda": 70.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "391000180",
@@ -217403,7 +218224,8 @@ const PEDIDOS_DATA = {
           "pvenda": 21.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "391000181",
@@ -217792,7 +218614,8 @@ const PEDIDOS_DATA = {
           "pvenda": 331.19
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 1680.6
     },
     {
       "numped": "360000312",
@@ -217926,6 +218749,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 1675.8,
       "motivo_codprod": "1039",
       "motivo_produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
       "motivo_preco_digitado": 39.9,
@@ -217967,6 +218791,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 23940.0,
       "motivo_codprod": "3334",
       "motivo_produto": "WHISKY PASSPORT HONEY 670ML",
       "motivo_preco_digitado": 39.9,
@@ -218008,6 +218833,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 429.6,
       "motivo_codprod": "2089",
       "motivo_produto": "COQUETEL BANANINHA REGGIANI 950ML",
       "motivo_preco_digitado": 17.9,
@@ -218048,7 +218874,8 @@ const PEDIDOS_DATA = {
           "pvenda": 30.0
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 30.0
     },
     {
       "numped": "431001072",
@@ -218085,7 +218912,8 @@ const PEDIDOS_DATA = {
           "pvenda": 59.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 59.9
     },
     {
       "numped": "431001073",
@@ -218122,7 +218950,8 @@ const PEDIDOS_DATA = {
           "pvenda": 30.0
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 30.0
     },
     {
       "numped": "379001124",
@@ -218320,6 +219149,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 836.02,
       "motivo_codprod": "7678",
       "motivo_produto": "GIN INVICTUS MACA VERDE 900ML",
       "motivo_preco_digitado": 12.99,
@@ -218377,6 +219207,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 2656.5,
       "motivo_codprod": "4843",
       "motivo_produto": "WHISKY BALLANTINE S SUNSHINE 700ML",
       "motivo_preco_digitado": 58.9,
@@ -218449,7 +219280,8 @@ const PEDIDOS_DATA = {
           "pvenda": 99.0
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 139200.0
     },
     {
       "numped": "470000013",
@@ -218518,7 +219350,8 @@ const PEDIDOS_DATA = {
           "pvenda": 99.0
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 139200.0
     },
     {
       "numped": "327009245",
@@ -218587,7 +219420,8 @@ const PEDIDOS_DATA = {
           "pvenda": 44.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "159004893",
@@ -218737,6 +219571,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 299.8,
       "motivo_codprod": "5029",
       "motivo_produto": "ESPUMANTE ARESTI CHARDONNAY 187,5ML",
       "motivo_preco_digitado": 14.9,
@@ -218906,6 +219741,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 431.51,
       "motivo_codprod": "7492",
       "motivo_produto": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
       "motivo_preco_digitado": 59.9,
@@ -218962,7 +219798,8 @@ const PEDIDOS_DATA = {
           "pvenda": 99.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "588002818",
@@ -219031,7 +219868,8 @@ const PEDIDOS_DATA = {
           "pvenda": 20.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "489000005",
@@ -219116,7 +219954,8 @@ const PEDIDOS_DATA = {
           "pvenda": 25.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "431001045",
@@ -219202,6 +220041,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 275.16,
       "motivo_codprod": "7017",
       "motivo_produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
       "motivo_preco_digitado": 71.76,
@@ -219819,6 +220659,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 143.64,
       "motivo_codprod": "3138",
       "motivo_produto": "WHISKY BUCHANANS 12 YEARS 750 ML",
       "motivo_preco_digitado": 126.9,
@@ -219875,7 +220716,8 @@ const PEDIDOS_DATA = {
           "pvenda": 95.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "431001044",
@@ -219961,6 +220803,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 514.26,
       "motivo_codprod": "7017",
       "motivo_produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
       "motivo_preco_digitado": 71.76,
@@ -220017,7 +220860,8 @@ const PEDIDOS_DATA = {
           "pvenda": 99.0
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 11880.0
     },
     {
       "numped": "362000115",
@@ -220070,7 +220914,8 @@ const PEDIDOS_DATA = {
           "pvenda": 187.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 11801.4
     },
     {
       "numped": "155003697",
@@ -220108,6 +220953,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 1797.6,
       "motivo_codprod": "3",
       "motivo_produto": "RED BULL 24X250ML",
       "motivo_preco_digitado": 179.76,
@@ -220613,6 +221459,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 5036.0,
       "motivo_codprod": "2927",
       "motivo_produto": "VINHO FOODKILLER CAB. SAUV. 750ML",
       "motivo_preco_digitado": 35.9,
@@ -220702,6 +221549,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 575.3,
       "motivo_codprod": "2949",
       "motivo_produto": "GIN MARINA 750ML",
       "motivo_preco_digitado": 39.9,
@@ -220742,7 +221590,8 @@ const PEDIDOS_DATA = {
           "pvenda": 39.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 877.8
     },
     {
       "numped": "238000756",
@@ -220779,7 +221628,8 @@ const PEDIDOS_DATA = {
           "pvenda": 32.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 36321.6
     },
     {
       "numped": "379001109",
@@ -220865,6 +221715,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 1584.0,
       "motivo_codprod": "7678",
       "motivo_produto": "GIN INVICTUS MACA VERDE 900ML",
       "motivo_preco_digitado": 12.0,
@@ -221065,7 +221916,8 @@ const PEDIDOS_DATA = {
           "pvenda": 110.44
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 4179.48
     },
     {
       "numped": "450000320",
@@ -221118,7 +221970,8 @@ const PEDIDOS_DATA = {
           "pvenda": 94.0
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 1128.0
     },
     {
       "numped": "412001347",
@@ -221235,7 +222088,8 @@ const PEDIDOS_DATA = {
           "pvenda": 26.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 2660.84
     },
     {
       "numped": "155003681",
@@ -221273,6 +222127,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 1797.6,
       "motivo_codprod": "3",
       "motivo_produto": "RED BULL 24X250ML",
       "motivo_preco_digitado": 179.76,
@@ -221330,6 +222185,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 300.8,
       "motivo_codprod": "100",
       "motivo_produto": "ICE 51 LIMAO LONG NECK 24X275ML",
       "motivo_preco_digitado": 120.9,
@@ -221435,6 +222291,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 262.36,
       "motivo_codprod": "3642",
       "motivo_produto": "GIN ROCKS STRAWBERRY 1000ML",
       "motivo_preco_digitado": 23.9,
@@ -221524,6 +222381,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 409.26,
       "motivo_codprod": "3249",
       "motivo_produto": "COQUETEL COMPOSTO PINK MOON 24X300ML",
       "motivo_preco_digitado": 99.9,
@@ -221580,7 +222438,8 @@ const PEDIDOS_DATA = {
           "pvenda": 49.8
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 307.2
     },
     {
       "numped": "433000080",
@@ -221649,7 +222508,8 @@ const PEDIDOS_DATA = {
           "pvenda": 72.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 7264.8
     },
     {
       "numped": "344000379",
@@ -221735,6 +222595,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 424.08,
       "motivo_codprod": "3",
       "motivo_produto": "RED BULL 250ML CAIXA C/24 UNID",
       "motivo_preco_digitado": 141.36,
@@ -221808,6 +222669,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 275.91,
       "motivo_codprod": "7016",
       "motivo_produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
       "motivo_preco_digitado": 71.76,
@@ -222073,6 +222935,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 44.31,
       "motivo_codprod": "3817",
       "motivo_produto": "VINHO TINTO QUINTA DO MORGADO 1LT",
       "motivo_preco_digitado": 18.9,
@@ -222113,7 +222976,8 @@ const PEDIDOS_DATA = {
           "pvenda": 49.99
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 131973.6
     },
     {
       "numped": "471000311",
@@ -222247,6 +223111,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 773.06,
       "motivo_codprod": "6917",
       "motivo_produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
       "motivo_preco_digitado": 65.28,
@@ -222384,6 +223249,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 1426.0,
       "motivo_codprod": "296",
       "motivo_produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
       "motivo_preco_digitado": 139.9,
@@ -222777,6 +223643,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 3254.25,
       "motivo_codprod": "3764",
       "motivo_produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
       "motivo_preco_digitado": 69.9,
@@ -222865,7 +223732,8 @@ const PEDIDOS_DATA = {
           "pvenda": 116.96
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 569.6
     },
     {
       "numped": "260001333",
@@ -223062,7 +223930,8 @@ const PEDIDOS_DATA = {
           "pvenda": 29.24
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 467.84
     },
     {
       "numped": "156003561",
@@ -223131,7 +224000,8 @@ const PEDIDOS_DATA = {
           "pvenda": 94.7
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 390.4
     },
     {
       "numped": "155003659",
@@ -223217,6 +224087,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 1391.6,
       "motivo_codprod": "2949",
       "motivo_produto": "GIN MARINA 750ML",
       "motivo_preco_digitado": 39.9,
@@ -223257,7 +224128,8 @@ const PEDIDOS_DATA = {
           "pvenda": 89.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "159004839",
@@ -223391,6 +224263,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 2915.2,
       "motivo_codprod": "7092",
       "motivo_produto": "AGUA MINERAL MINALBA S/ GAS 8X1,5L PET",
       "motivo_preco_digitado": 24.5,
@@ -223448,6 +224321,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 1320.8,
       "motivo_codprod": "119",
       "motivo_produto": "CERVEJA HEINEKEN LONG 24X330ML",
       "motivo_preco_digitado": 127.9,
@@ -223537,6 +224411,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 545.03,
       "motivo_codprod": "3",
       "motivo_produto": "RED BULL 24X250ML",
       "motivo_preco_digitado": 45.89,
@@ -223674,6 +224549,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 569.44,
       "motivo_codprod": "73",
       "motivo_produto": "PIRASSUNUNGA 51 965 ML",
       "motivo_preco_digitado": 12.5,
@@ -223714,7 +224590,8 @@ const PEDIDOS_DATA = {
           "pvenda": 64.8
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 129.6
     },
     {
       "numped": "310000021",
@@ -223791,7 +224668,7 @@ const PEDIDOS_DATA = {
           "qtcortada": 0.0,
           "qtd_cortada_total": 48.0,
           "qt_original": 48.0,
-          "valor_cortado": 622.8,
+          "valor_cortado": 2491.2,
           "motivo_corte": "DIGITAÇÃO ERRADO",
           "cortado": true,
           "codprod": "3662",
@@ -223799,7 +224676,8 @@ const PEDIDOS_DATA = {
           "pvenda": 51.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 622.8
     },
     {
       "numped": "542000189",
@@ -223852,7 +224730,8 @@ const PEDIDOS_DATA = {
           "pvenda": 105.35
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 842.8
     },
     {
       "numped": "344000358",
@@ -223905,7 +224784,8 @@ const PEDIDOS_DATA = {
           "pvenda": 225.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 1958.4
     },
     {
       "numped": "156003535",
@@ -224007,6 +224887,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 360.26,
       "motivo_codprod": "7081",
       "motivo_produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
       "motivo_preco_digitado": 13.99,
@@ -224080,6 +224961,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 719.04,
       "motivo_codprod": "3",
       "motivo_produto": "RED BULL 24X250ML",
       "motivo_preco_digitado": 179.76,
@@ -224169,6 +225051,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 5026.41,
       "motivo_codprod": "7017",
       "motivo_produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
       "motivo_preco_digitado": 65.25,
@@ -224257,7 +225140,8 @@ const PEDIDOS_DATA = {
           "pvenda": 65.28
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 1501.29
     },
     {
       "numped": "230000516",
@@ -224406,7 +225290,8 @@ const PEDIDOS_DATA = {
           "pvenda": 68.0
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 18320.4
     },
     {
       "numped": "156003534",
@@ -224572,6 +225457,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 2301.74,
       "motivo_codprod": "1518",
       "motivo_produto": "CANTINA DA SERRA 1,5L",
       "motivo_preco_digitado": 9.19,
@@ -224660,7 +225546,8 @@ const PEDIDOS_DATA = {
           "pvenda": 23.56
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 989.52
     },
     {
       "numped": "156003533",
@@ -224762,6 +225649,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 374.25,
       "motivo_codprod": "6571",
       "motivo_produto": "GIN ROCKS POCKET PET 12X200ML",
       "motivo_preco_digitado": 102.0,
@@ -224835,6 +225723,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 467.0,
       "motivo_codprod": "4843",
       "motivo_produto": "WHISKY BALLANTINE S SUNSHINE 700ML",
       "motivo_preco_digitado": 58.9,
@@ -224924,6 +225813,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 1296.0,
       "motivo_codprod": "7675",
       "motivo_produto": "GIN INVICTUS MELANCIA 900ML",
       "motivo_preco_digitado": 12.0,
@@ -225157,6 +226047,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 2354.42,
       "motivo_codprod": "16",
       "motivo_produto": "VODCA SMIRNOFF RED 998 ML",
       "motivo_preco_digitado": 27.5,
@@ -225309,7 +226200,8 @@ const PEDIDOS_DATA = {
           "pvenda": 48.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "370001381",
@@ -225347,6 +226239,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 5280.0,
       "motivo_codprod": "70",
       "motivo_produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
       "motivo_preco_digitado": 88.0,
@@ -225451,7 +226344,8 @@ const PEDIDOS_DATA = {
           "pvenda": 51.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 1245.6
     },
     {
       "numped": "419000632",
@@ -225632,7 +226526,8 @@ const PEDIDOS_DATA = {
           "pvenda": 105.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 1370.92
     },
     {
       "numped": "419000628",
@@ -225718,6 +226613,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 265.01,
       "motivo_codprod": "378",
       "motivo_produto": "GUARAVITA NATURAL 24X290ML",
       "motivo_preco_digitado": 26.73,
@@ -225758,7 +226654,8 @@ const PEDIDOS_DATA = {
           "pvenda": 62.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "327009069",
@@ -225859,7 +226756,8 @@ const PEDIDOS_DATA = {
           "pvenda": 89.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "144001494",
@@ -225960,7 +226858,8 @@ const PEDIDOS_DATA = {
           "pvenda": 52.13
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 1030.57
     },
     {
       "numped": "159004785",
@@ -226270,6 +227169,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 4248.74,
       "motivo_codprod": "902",
       "motivo_produto": "RED BULL TROPICAL 24X250ML",
       "motivo_preco_digitado": 179.76,
@@ -226391,6 +227291,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 1895.28,
       "motivo_codprod": "6917",
       "motivo_produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
       "motivo_preco_digitado": 65.28,
@@ -226591,7 +227492,8 @@ const PEDIDOS_DATA = {
           "pvenda": 109.4
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 1376.84
     },
     {
       "numped": "450000203",
@@ -226788,7 +227690,8 @@ const PEDIDOS_DATA = {
           "pvenda": 35.5
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 1459.28
     },
     {
       "numped": "450000208",
@@ -226969,7 +227872,8 @@ const PEDIDOS_DATA = {
           "pvenda": 14.5
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 1392.08
     },
     {
       "numped": "155003593",
@@ -227119,6 +228023,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 122.9,
       "motivo_codprod": "16",
       "motivo_produto": "VODCA SMIRNOFF RED 998 ML",
       "motivo_preco_digitado": 27.9,
@@ -227335,7 +228240,8 @@ const PEDIDOS_DATA = {
           "pvenda": 109.4
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 1653.22
     },
     {
       "numped": "450000195",
@@ -227548,7 +228454,8 @@ const PEDIDOS_DATA = {
           "pvenda": 109.4
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 1437.2
     },
     {
       "numped": "379001033",
@@ -227618,6 +228525,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 253.67,
       "motivo_codprod": "7702",
       "motivo_produto": "AMARULA C LIQUEUR 750 ML + 1 COPO",
       "motivo_preco_digitado": 89.9,
@@ -227722,7 +228630,8 @@ const PEDIDOS_DATA = {
           "pvenda": 99.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 4603.2
     },
     {
       "numped": "360000279",
@@ -227760,6 +228669,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 1546.6,
       "motivo_codprod": "3765",
       "motivo_produto": "YVY DESTILADO GIN TERRA LT 710ML",
       "motivo_preco_digitado": 20.9,
@@ -227800,7 +228710,8 @@ const PEDIDOS_DATA = {
           "pvenda": 59.6
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 13588.8
     },
     {
       "numped": "156003488",
@@ -227934,6 +228845,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 45.8,
       "motivo_codprod": "7096",
       "motivo_produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
       "motivo_preco_digitado": 78.9,
@@ -228023,6 +228935,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 5050.5,
       "motivo_codprod": "3",
       "motivo_produto": "RED BULL 24X250ML",
       "motivo_preco_digitado": 179.76,
@@ -228192,6 +229105,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 2144.68,
       "motivo_codprod": "7702",
       "motivo_produto": "AMARULA C LIQUEUR 750 ML + 1 COPO",
       "motivo_preco_digitado": 89.9,
@@ -228296,7 +229210,8 @@ const PEDIDOS_DATA = {
           "pvenda": 138.48
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 11909.28
     },
     {
       "numped": "419000614",
@@ -228350,6 +229265,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 250.5,
       "motivo_codprod": "7680",
       "motivo_produto": "SABOR DO SABOR WHISKY + COMBO TRAD",
       "motivo_preco_digitado": 9.8,
@@ -228422,7 +229338,8 @@ const PEDIDOS_DATA = {
           "pvenda": 69.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "153001165",
@@ -228524,6 +229441,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 455.51,
       "motivo_codprod": "7019",
       "motivo_produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
       "motivo_preco_digitado": 65.25,
@@ -228581,6 +229499,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 468.0,
       "motivo_codprod": "5583",
       "motivo_produto": "RC ATUM RALADO OLEO 24X140G",
       "motivo_preco_digitado": 141.6,
@@ -228622,6 +229541,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 2706.0,
       "motivo_codprod": "6043",
       "motivo_produto": "SUCO UVA 100% DO BEM 24X200ML",
       "motivo_preco_digitado": 66.0,
@@ -228742,7 +229662,8 @@ const PEDIDOS_DATA = {
           "pvenda": 87.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 57814.2
     },
     {
       "numped": "156003463",
@@ -228923,7 +229844,8 @@ const PEDIDOS_DATA = {
           "pvenda": 87.48
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 1382.3
     },
     {
       "numped": "156003460",
@@ -229169,6 +230091,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 3941.68,
       "motivo_codprod": "187",
       "motivo_produto": "WHISKY JACK DANIELS 1L",
       "motivo_preco_digitado": 122.9,
@@ -229289,7 +230212,8 @@ const PEDIDOS_DATA = {
           "pvenda": 64.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "344000285",
@@ -229406,7 +230330,8 @@ const PEDIDOS_DATA = {
           "pvenda": 55.07
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 737.16
     },
     {
       "numped": "155003555",
@@ -229492,6 +230417,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 415.5,
       "motivo_codprod": "640",
       "motivo_produto": "LICOR JAGERMEISTER 700 ML",
       "motivo_preco_digitado": 117.9,
@@ -229661,6 +230587,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 443.42,
       "motivo_codprod": "7102",
       "motivo_produto": "ESPUM MOSCATEL QUINTA DO MORGADO 660ML",
       "motivo_preco_digitado": 21.9,
@@ -229766,6 +230693,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 199.5,
       "motivo_codprod": "5586",
       "motivo_produto": "RC ATUM SOLIDO OLEO 24X170G",
       "motivo_preco_digitado": 186.58,
@@ -229806,7 +230734,8 @@ const PEDIDOS_DATA = {
           "pvenda": 191.76
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "379000996",
@@ -230100,6 +231029,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 659.92,
       "motivo_codprod": "7017",
       "motivo_produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
       "motivo_preco_digitado": 65.28,
@@ -230269,6 +231199,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 2460.6,
       "motivo_codprod": "266",
       "motivo_produto": "GIN TANQUERAY  750 ML",
       "motivo_preco_digitado": 98.9,
@@ -230309,7 +231240,8 @@ const PEDIDOS_DATA = {
           "pvenda": 289.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 289.9
     },
     {
       "numped": "439000168",
@@ -230378,7 +231310,8 @@ const PEDIDOS_DATA = {
           "pvenda": 27.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "159004698",
@@ -230416,6 +231349,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 299.6,
       "motivo_codprod": "7107",
       "motivo_produto": "APERITIVO LUCIA 750ML",
       "motivo_preco_digitado": 74.9,
@@ -230473,6 +231407,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 169.44,
       "motivo_codprod": "7019",
       "motivo_produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
       "motivo_preco_digitado": 71.76,
@@ -230513,7 +231448,8 @@ const PEDIDOS_DATA = {
           "pvenda": 58.8
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 59270.4
     },
     {
       "numped": "588002586",
@@ -230598,7 +231534,8 @@ const PEDIDOS_DATA = {
           "pvenda": 74.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "360000258",
@@ -230700,6 +231637,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 175690.2,
       "motivo_codprod": "40",
       "motivo_produto": "AMARULA C LIQUEUR 750 ML",
       "motivo_preco_digitado": 103.0,
@@ -230916,7 +231854,8 @@ const PEDIDOS_DATA = {
           "pvenda": 116.96
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 2517.22
     },
     {
       "numped": "260001279",
@@ -231113,7 +232052,8 @@ const PEDIDOS_DATA = {
           "pvenda": 116.96
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 1044.23
     },
     {
       "numped": "155003534",
@@ -231166,7 +232106,8 @@ const PEDIDOS_DATA = {
           "pvenda": 69.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "159004674",
@@ -231204,6 +232145,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 299.6,
       "motivo_codprod": "7107",
       "motivo_produto": "APERITIVO LUCIA 750ML",
       "motivo_preco_digitado": 74.9,
@@ -231308,7 +232250,8 @@ const PEDIDOS_DATA = {
           "pvenda": 49.9
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "299000068",
@@ -231409,7 +232352,8 @@ const PEDIDOS_DATA = {
           "pvenda": 80.91
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 2436.66
     },
     {
       "numped": "275000502",
@@ -231462,7 +232406,8 @@ const PEDIDOS_DATA = {
           "pvenda": 428.4
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 14022.0
     },
     {
       "numped": "327008915",
@@ -231564,6 +232509,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 565.44,
       "motivo_codprod": "315",
       "motivo_produto": "RED BULL SUGAR FREE  250 ML CX C/24",
       "motivo_preco_digitado": 141.36,
@@ -231749,6 +232695,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 1716.0,
       "motivo_codprod": "902",
       "motivo_produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
       "motivo_preco_digitado": 171.6,
@@ -231917,7 +232864,8 @@ const PEDIDOS_DATA = {
           "pvenda": 33.0
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 700.4
     },
     {
       "numped": "379000971",
@@ -231970,7 +232918,8 @@ const PEDIDOS_DATA = {
           "pvenda": 22.06
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 397.06
     },
     {
       "numped": "299000064",
@@ -232071,7 +233020,8 @@ const PEDIDOS_DATA = {
           "pvenda": 89.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 3087.0
     },
     {
       "numped": "360000246",
@@ -232188,7 +233138,8 @@ const PEDIDOS_DATA = {
           "pvenda": 45.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 1258.8
     },
     {
       "numped": "159004654",
@@ -232338,6 +233289,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 383.52,
       "motivo_codprod": "5899",
       "motivo_produto": "RED BULL SF NECTARINA 24X250ML",
       "motivo_preco_digitado": 143.76,
@@ -232587,6 +233539,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 3.55,
       "motivo_codprod": "5240",
       "motivo_produto": "PINATI NUTS BANANA 20X30G",
       "motivo_preco_digitado": 40.88,
@@ -232660,6 +233613,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 190.56,
       "motivo_codprod": "7016",
       "motivo_produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
       "motivo_preco_digitado": 65.28,
@@ -232828,7 +233782,8 @@ const PEDIDOS_DATA = {
           "pvenda": 214.5
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 3157.8
     },
     {
       "numped": "354000473",
@@ -232978,6 +233933,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 24619.68,
       "motivo_codprod": "315",
       "motivo_produto": "RED BULL SUGAR FREE  250 ML CX C/24",
       "motivo_preco_digitado": 200.16,
@@ -233050,7 +234006,8 @@ const PEDIDOS_DATA = {
           "pvenda": 32.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 592.2
     },
     {
       "numped": "471000206",
@@ -233600,6 +234557,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 94.7,
       "motivo_codprod": "6565",
       "motivo_produto": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
       "motivo_preco_digitado": 274.8,
@@ -233753,6 +234711,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 700.31,
       "motivo_codprod": "5240",
       "motivo_produto": "PINATI NUTS BANANA 20X30G",
       "motivo_preco_digitado": 38.8,
@@ -233954,6 +234913,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 966.71,
       "motivo_codprod": "5240",
       "motivo_produto": "PINATI NUTS BANANA 20X30G",
       "motivo_preco_digitado": 38.8,
@@ -234058,7 +235018,8 @@ const PEDIDOS_DATA = {
           "pvenda": 176.37
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 43759.76
     },
     {
       "numped": "344000222",
@@ -234176,6 +235137,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 141.36,
       "motivo_codprod": "997",
       "motivo_produto": "4 PACK  RED BULL",
       "motivo_preco_digitado": 23.56,
@@ -234345,6 +235307,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 492.16,
       "motivo_codprod": "2699",
       "motivo_produto": "4 PACK RED BULL TROPICAL",
       "motivo_preco_digitado": 30.76,
@@ -234449,7 +235412,8 @@ const PEDIDOS_DATA = {
           "pvenda": 63.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 28918.2
     },
     {
       "numped": "417000321",
@@ -234614,7 +235578,8 @@ const PEDIDOS_DATA = {
           "pvenda": 86.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 4723.2
     },
     {
       "numped": "144001422",
@@ -234684,6 +235649,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 1565.9,
       "motivo_codprod": "2228",
       "motivo_produto": "VODKA ABSOLUT CX C/ 12X 50ML",
       "motivo_preco_digitado": 89.9,
@@ -234740,7 +235706,8 @@ const PEDIDOS_DATA = {
           "pvenda": 34.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 418.8
     },
     {
       "numped": "431000923",
@@ -234906,6 +235873,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 1005.7,
       "motivo_codprod": "7024",
       "motivo_produto": "VEJA PESADA X14 PROMO 24X500ML",
       "motivo_preco_digitado": 210.4,
@@ -235010,7 +235978,8 @@ const PEDIDOS_DATA = {
           "pvenda": 127.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 25298.4
     },
     {
       "numped": "156003368",
@@ -235160,6 +236129,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 558.7,
       "motivo_codprod": "6012",
       "motivo_produto": "NECTAR LARANJA TIAL 12X250ML",
       "motivo_preco_digitado": 34.3,
@@ -235200,7 +236170,8 @@ const PEDIDOS_DATA = {
           "pvenda": 15.8
         }
       ],
-      "tem_corte": false
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "379000941",
@@ -235238,6 +236209,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 179.4,
       "motivo_codprod": "3556",
       "motivo_produto": "COQUETEL CONTINI BRANCO 900ML",
       "motivo_preco_digitado": 24.9,
@@ -235326,7 +236298,8 @@ const PEDIDOS_DATA = {
           "pvenda": 24.9
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 298.8
     },
     {
       "numped": "431000921",
@@ -235476,6 +236449,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
+      "valor_cortado_total": 119.76,
       "motivo_codprod": "110",
       "motivo_produto": "ICE 51 BALADA LONG NECK 24X275 ML",
       "motivo_preco_digitado": 114.9,
@@ -235516,7 +236490,8 @@ const PEDIDOS_DATA = {
           "pvenda": 23.5
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 4253.5
     },
     {
       "numped": "362000057",
@@ -235553,7 +236528,8 @@ const PEDIDOS_DATA = {
           "pvenda": 23.5
         }
       ],
-      "tem_corte": true
+      "tem_corte": true,
+      "valor_cortado_total": 4253.5
     }
   ],
   "produtos_cortados": [
@@ -263861,7 +264837,7 @@ const PEDIDOS_DATA = {
       "qtcortada": 0.0,
       "qtd_cortada_total": 48.0,
       "qt_original": 48.0,
-      "valor_cortado": 622.8,
+      "valor_cortado": 2491.2,
       "val": 0.0,
       "total": 0.0
     },
