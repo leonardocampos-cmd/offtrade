@@ -301,6 +301,36 @@ def _status_badge_html(status):
     return f"<span class='badge' style='background:{cor}22;color:{cor};border-color:{cor}55'>{label}</span>"
 
 
+def _esc(v):
+    if v is None or (isinstance(v, float) and pd.isna(v)):
+        return ''
+    return str(v).replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('"', '&quot;')
+
+
+def _tabela_faturados_com_filtro(df, table_id):
+    """Tabela com badge de status + dropdown JS pra filtrar linha por status
+    logística direto no HTML (pedido do usuário em 2026-08-12)."""
+    status_unicos = sorted({(v or 'Sem status') for v in df['Status Logística']})
+    opcoes = ''.join(f"<option value='{_esc(s)}'>{_esc(s)}</option>" for s in status_unicos)
+    filtro_html = (
+        f"<div class='filtro-status'><label for='{table_id}-sel'>Filtrar por status logística:</label>"
+        f"<select id='{table_id}-sel' onchange=\"filtrarStatus('{table_id}', this.value)\">"
+        f"<option value=''>Todos ({len(df)})</option>{opcoes}</select></div>"
+    )
+    cols = list(df.columns)
+    header = ''.join(f'<th>{_esc(c)}</th>' for c in cols)
+    linhas = []
+    for _, row in df.iterrows():
+        status_raw = row['Status Logística'] or 'Sem status'
+        cells = ''.join(
+            f"<td>{_status_badge_html(row[c])}</td>" if c == 'Status Logística' else f"<td>{_esc(row[c])}</td>"
+            for c in cols
+        )
+        linhas.append(f"<tr data-status=\"{_esc(status_raw)}\">{cells}</tr>")
+    tabela_html = f"<table id='{table_id}'><thead><tr>{header}</tr></thead><tbody>{''.join(linhas)}</tbody></table>"
+    return filtro_html, tabela_html
+
+
 def montar_html(tabelas, estado, hoje_str):
     resumo_df = tabelas.get('Resumo')
     secoes = []
@@ -324,9 +354,8 @@ def montar_html(tabelas, estado, hoje_str):
             )
             tabela_html = f"<table><thead><tr><th>Métrica</th><th>Valor</th></tr></thead><tbody>{linhas_html}</tbody></table>"
         elif aba == 'Faturados' and 'Status Logística' in df.columns:
-            df_render = df.copy()
-            df_render['Status Logística'] = df_render['Status Logística'].apply(_status_badge_html)
-            tabela_html = df_render.to_html(index=False, na_rep='', border=0, escape=False)
+            filtro_html, tabela_html = _tabela_faturados_com_filtro(df, f'tbl-fat-{estado}')
+            resumo_aba += filtro_html
         else:
             tabela_html = df.to_html(index=False, na_rep='', border=0)
 
@@ -364,11 +393,21 @@ def montar_html(tabelas, estado, hoje_str):
   .card .val {{ font-size:1.15rem; font-weight:700; color:#e2e8f0; }}
   .card.money .val {{ color:#f5c518; }}
   .badge {{ display:inline-block; padding:2px 9px; border-radius:99px; font-size:.72rem; font-weight:700; border:1px solid; white-space:nowrap; }}
+  .filtro-status {{ margin-top:10px; display:flex; align-items:center; gap:8px; font-size:.82rem; color:#94a3b8; }}
+  .filtro-status select {{ background:#1a1d27; color:#e2e8f0; border:1px solid #2d3144; border-radius:6px; padding:5px 8px; font-size:.82rem; font-family:inherit; }}
 </style>
 </head>
 <body>
 <h1>Report Diário de Pedidos — {estado} — {hoje_str}</h1>
 {corpo}
+<script>
+function filtrarStatus(tableId, valor) {{
+  var linhas = document.getElementById(tableId).querySelectorAll('tbody tr');
+  linhas.forEach(function(tr) {{
+    tr.style.display = (!valor || tr.getAttribute('data-status') === valor) ? '' : 'none';
+  }});
+}}
+</script>
 </body>
 </html>
 """
