@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "10/08/2026 17:53",
+  "atualizado_em": "12/08/2026 10:07",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -31,18 +31,18 @@ const CRUSOE_DATA = {
         {
           "rca": 275,
           "vendedor": "Maria Luiza",
-          "pedidos": 5,
-          "novos_skus": 19,
+          "pedidos": 4,
+          "novos_skus": 18,
           "reativacoes": 2,
-          "faturamento": 119082.02,
+          "faturamento": 108920.95,
           "meta_definida": false,
           "meta_valor": null,
           "meta_atingida": false,
-          "pontos_pedidos": 5,
-          "pontos_novos_skus": 95,
+          "pontos_pedidos": 4,
+          "pontos_novos_skus": 90,
           "pontos_reativacoes": 10,
           "pontos_meta": 0,
-          "pontos_total": 110,
+          "pontos_total": 104,
           "vendas": [
             {
               "numnota": "417035",
@@ -279,31 +279,6 @@ const CRUSOE_DATA = {
                   "qt": 184.0,
                   "valor": 31342.31,
                   "pontuacoes": []
-                }
-              ]
-            },
-            {
-              "numnota": "417170",
-              "data": "30/07/2026",
-              "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
-              "valor_pedido": 10161.07,
-              "eventos": [
-                {
-                  "tipo": "pedido",
-                  "pontos": 1
-                }
-              ],
-              "itens": [
-                {
-                  "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
-                  "qt": 84.0,
-                  "valor": 10161.07,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 5
-                    }
-                  ]
                 }
               ]
             },
