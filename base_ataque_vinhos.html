@@ -188,6 +188,9 @@
     <select id="fil-cidade" onchange="applyFilters()">
       <option value="">Cidade: todas</option>
     </select>
+    <select id="fil-grupo" onchange="applyFilters()">
+      <option value="">Grupo de Lojas: todos</option>
+    </select>
     <input type="text" id="fil-busca" placeholder="&#128269; Buscar PDV, rede, CNPJ ou cliente..." oninput="applyFilters()" style="min-width:260px;flex:1">
   </div>
 
@@ -380,6 +383,10 @@ function buildFiltros() {
   const cidades = [...new Set(D.clientes.map(c => c.cidade).filter(Boolean))].sort();
   const selCid = document.getElementById('fil-cidade');
   cidades.forEach(c => selCid.insertAdjacentHTML('beforeend', `<option value="${c}">${c}</option>`));
+
+  const grupos = [...new Set(D.clientes.map(c => c.grupoLojas).filter(Boolean))].sort();
+  const selGrupo = document.getElementById('fil-grupo');
+  grupos.forEach(g => selGrupo.insertAdjacentHTML('beforeend', `<option value="${g}">${g}</option>`));
 }
 
 function buildCharts() {
@@ -470,6 +477,7 @@ const COLS = [
   { key: 'diasSemComprar', label: 'Dias s/ Compra', num: true, mob: true },
   { key: 'situacao',    label: 'Situação' },
   { key: 'canal',       label: 'Canal', mob: true },
+  { key: 'grupoLojas',  label: 'Grupo de Lojas', mob: true },
   { key: 'totalVenda',        label: 'Total de Venda', num: true },
   { key: 'shareOportunidade', label: 'Share PDV Oportunidade', num: true },
   { key: 'shareHandler',      label: 'Share Handler Estado Canal', num: true },
@@ -496,6 +504,7 @@ function applyFilters() {
   const sit    = document.getElementById('fil-sit').value;
   const rca    = document.getElementById('fil-rca').value;
   const cidade = document.getElementById('fil-cidade').value;
+  const grupo  = document.getElementById('fil-grupo').value;
   const busca  = document.getElementById('fil-busca').value.trim().toLowerCase();
 
   _filtered = D.clientes.filter(c => {
@@ -503,6 +512,7 @@ function applyFilters() {
     if (sit && c.situacaoMacro !== sit) return false;
     if (rca && c.rca !== rca) return false;
     if (cidade && c.cidade !== cidade) return false;
+    if (grupo && c.grupoLojas !== grupo) return false;
     if (busca) {
       const hay = `${c.pdv||''} ${c.rede||''} ${c.bandeira||''} ${c.cnpj||''} ${c.cliente||''}`.toLowerCase();
       if (!hay.includes(busca)) return false;
@@ -549,6 +559,7 @@ function renderTable() {
       <td class="num hide-mob" style="color:var(--muted)">${c.diasSemComprar!=null?c.diasSemComprar+'d':'—'}</td>
       <td><span class="badge ${STATUS_BADGE[c.situacaoMacro]||'badge-gray'}">${c.situacao}</span></td>
       <td class="hide-mob" style="color:var(--muted)">${c.canal||'—'}</td>
+      <td class="hide-mob" style="color:var(--muted)">${c.grupoLojas||'—'}</td>
       <td class="num" style="color:var(--muted)">${c.totalVenda!=null?fmtR(c.totalVenda):'—'}</td>
       <td class="num" style="color:var(--muted)">${c.shareOportunidade!=null?(c.shareOportunidade*100).toFixed(1)+'%':'—'}</td>
       <td class="num" style="color:var(--muted)">${c.shareHandler!=null?(c.shareHandler*100).toFixed(1)+'%':'—'}</td>
@@ -570,12 +581,12 @@ function renderTable() {
 function goPage(p) { _page = p; renderTable(); }
 
 function exportCSV() {
-  const headers = ['CNPJ','PDV','Rede','Bandeira','Cidade','Regional','Tem Cadastro','Cód Cliente','Cliente','RCA','Faturamento 2025','Faturamento 2026','Última Compra','Dias sem comprar','Situação','Canal','Total de Venda','Share PDV Oportunidade','Share Handler Estado Canal','Oportunidade por PDV'];
+  const headers = ['CNPJ','PDV','Rede','Bandeira','Cidade','Regional','Tem Cadastro','Cód Cliente','Cliente','RCA','Faturamento 2025','Faturamento 2026','Última Compra','Dias sem comprar','Situação','Canal','Grupo de Lojas','Total de Venda','Share PDV Oportunidade','Share Handler Estado Canal','Oportunidade por PDV'];
   const rows = [headers];
   _filtered.forEach(c => rows.push([
     c.cnpj, c.pdv, c.rede, c.bandeira, c.cidade, c.regional, c.temCadastro, c.codcli||'', c.cliente||'',
     c.rca||'', c.fat25||0, c.fat26||0, c.ultCompra||'', c.diasSemComprar!=null?c.diasSemComprar:'', c.situacao,
-    c.canal||'', c.totalVenda??'', c.shareOportunidade??'', c.shareHandler??'', c.oportunidadePdv||''
+    c.canal||'', c.grupoLojas||'', c.totalVenda??'', c.shareOportunidade??'', c.shareHandler??'', c.oportunidadePdv||''
   ]));
   const csv = rows.map(r => r.map(v => `"${String(v==null?'':v).replace(/"/g,'""')}"`).join(';')).join('\n');
   const blob = new Blob(['﻿' + csv], {type: 'text/csv;charset=utf-8'});
