@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "12/08/2026 17:47",
+  "atualizado_em": "13/08/2026 10:08",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -31,18 +31,18 @@ const CRUSOE_DATA = {
         {
           "rca": 275,
           "vendedor": "Maria Luiza",
-          "pedidos": 4,
-          "novos_skus": 18,
+          "pedidos": 6,
+          "novos_skus": 22,
           "reativacoes": 2,
-          "faturamento": 108920.95,
+          "faturamento": 120976.15,
           "meta_definida": false,
           "meta_valor": null,
           "meta_atingida": false,
-          "pontos_pedidos": 4,
-          "pontos_novos_skus": 90,
+          "pontos_pedidos": 6,
+          "pontos_novos_skus": 110,
           "pontos_reativacoes": 10,
           "pontos_meta": 0,
-          "pontos_total": 104,
+          "pontos_total": 126,
           "vendas": [
             {
               "numnota": "417035",
@@ -333,6 +333,78 @@ const CRUSOE_DATA = {
                   "qt": 20.0,
                   "valor": 2273.65,
                   "pontuacoes": []
+                }
+              ]
+            },
+            {
+              "numnota": "420965",
+              "data": "12/08/2026",
+              "cliente": "DRIFT COMERCIO DE ALIMENTOS S A",
+              "valor_pedido": 5023.0,
+              "eventos": [
+                {
+                  "tipo": "pedido",
+                  "pontos": 1
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 15.0,
+                  "valor": 3013.8,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 5
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 10.0,
+                  "valor": 2009.2,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "420967",
+              "data": "12/08/2026",
+              "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+              "valor_pedido": 7032.2,
+              "eventos": [
+                {
+                  "tipo": "pedido",
+                  "pontos": 1
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 30.0,
+                  "valor": 6027.6,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 5
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 5.0,
+                  "valor": 1004.6,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 5
+                    }
+                  ]
                 }
               ]
             }
@@ -3486,7 +3558,7 @@ const CRUSOE_DATA = {
           "rca": 379,
           "vendedor": "Jorge Maciel",
           "clientes_gourmet": 0,
-          "faturamento": 10165.48,
+          "faturamento": 11023.48,
           "faturamento_gourmet": 0.0,
           "pontos_total": 0,
           "vendas": []
