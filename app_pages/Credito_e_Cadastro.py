@@ -396,34 +396,39 @@ Cód: {row["CODCLI"]} &nbsp;|&nbsp; CNPJ: {cnpj_fmt}
             )
 
             st.markdown("---")
-            col_valor, col_prazo = st.columns(2)
-            valor_pedido = col_valor.number_input("Valor do pedido (R$)", min_value=0.0, step=100.0, format="%.2f")
-            prazo_pagto  = col_prazo.selectbox("Prazo de pagamento (dias)", [7, 14, 21, 28, 30, 35, 42, 45, 60, 90], index=4)
+            # st.form + st.form_submit_button em vez de widgets soltos + st.button:
+            # a tentativa anterior (comentário removido) achava que st.button já
+            # bastava, mas number_input/selectbox só sincronizam o valor digitado
+            # pro backend em change/blur — clicar direto no botão sem tirar o foco
+            # do campo ainda podia disparar o rerun com o valor antigo (0,00/index
+            # padrão). Dentro de um form, os widgets só aplicam o valor quando o
+            # form_submit_button é clicado, então o valor atual sempre é capturado
+            # (confirmado bug reportado pelo usuário em 2026-08-13: valor e prazo
+            # não apareciam na mensagem).
+            with st.form("form_limite_pedido"):
+                col_valor, col_prazo = st.columns(2)
+                valor_pedido = col_valor.number_input("Valor do pedido (R$)", min_value=0.0, step=100.0, format="%.2f")
+                prazo_pagto  = col_prazo.selectbox("Prazo de pagamento (dias)", [7, 14, 21, 28, 30, 35, 42, 45, 60, 90], index=4)
 
-            if bloqueado:
-                assunto   = f"Solicitação de Desbloqueio — {row['NOME']}"
-                corpo     = f"Solicitação de desbloqueio de cliente.\n\n{info_cliente}\n\nPodem realizar o desbloqueio?\n\nObrigado!"
-                label_btn = "Solicitar Desbloqueio pelo WhatsApp"
-            else:
-                assunto     = f"Solicitação de Limite — {row['NOME']}"
-                valor_linha = f"Valor do Pedido    : {fmt_brl(valor_pedido)}" if valor_pedido > 0 else ""
-                prazo_linha = f"Prazo de Pagamento : {prazo_pagto} dias"
-                corpo       = (
-                    f"Solicitação de aumento de limite de crédito.\n\n{info_cliente}\n"
-                    + (f"{valor_linha}\n" if valor_linha else "")
-                    + f"{prazo_linha}\n"
-                    + f"\nPodem realizar o ajuste?\n\nObrigado!"
-                )
-                label_btn = "Solicitar Aumento de Limite pelo WhatsApp"
+                if bloqueado:
+                    assunto   = f"Solicitação de Desbloqueio — {row['NOME']}"
+                    corpo     = f"Solicitação de desbloqueio de cliente.\n\n{info_cliente}\n\nPodem realizar o desbloqueio?\n\nObrigado!"
+                    label_btn = "Solicitar Desbloqueio pelo WhatsApp"
+                else:
+                    assunto     = f"Solicitação de Limite — {row['NOME']}"
+                    valor_linha = f"Valor do Pedido    : {fmt_brl(valor_pedido)}" if valor_pedido > 0 else ""
+                    prazo_linha = f"Prazo de Pagamento : {prazo_pagto} dias"
+                    corpo       = (
+                        f"Solicitação de aumento de limite de crédito.\n\n{info_cliente}\n"
+                        + (f"{valor_linha}\n" if valor_linha else "")
+                        + f"{prazo_linha}\n"
+                        + f"\nPodem realizar o ajuste?\n\nObrigado!"
+                    )
+                    label_btn = "Solicitar Aumento de Limite pelo WhatsApp"
 
-            # Link fixo (<a href>) não é widget do Streamlit — não dispara rerun,
-            # então se o usuário digitar o valor e clicar direto no botão sem
-            # antes tirar o foco do campo (blur), o href some renderizado ainda
-            # com o valor antigo (0,00) da última rerun, e a mensagem sai sem o
-            # valor digitado. Corrigido com st.button: o clique nele já carrega
-            # o valor atual do number_input na mesma rerun, então o link só é
-            # montado (e mostrado) depois que o valor mais recente foi capturado.
-            if st.button(f"📲 {label_btn}", use_container_width=True):
+                enviado = st.form_submit_button(f"📲 {label_btn}", use_container_width=True)
+
+            if enviado:
                 msg_wa = urllib.parse.quote(f"{assunto}\n\n{corpo}")
                 wa_url = f"https://wa.me/{WHATSAPP_FINANCEIRO}?text={msg_wa}"
                 st.markdown(
