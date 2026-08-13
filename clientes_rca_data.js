@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "13/08/2026 12:31",
-  "total": 22029,
+  "atualizado_em": "13/08/2026 13:57",
+  "total": 22034,
   "clientes": [
     {
       "codcli": "38586",
@@ -69438,8 +69438,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "241",
+      "nome_usur1": "ZEINALDO DE OLIVEIRA - OFF TRADE",
       "codusur2": "43",
       "nome_usur2": "SOUZA"
     },
@@ -89424,6 +89424,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "39686",
+      "razao": "CASA CAJU LTDA",
+      "fantasia": "CASA CAJU LTDA",
+      "bairro": "SERRA VERDE (VENDA NOVA)",
+      "cidade": "BELO HORIZONTE",
+      "cnpj": "64.252.335/0001-80",
+      "estado": "MG",
+      "ramo": "LANCHONETE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "327",
+      "nome_usur1": "JOÃO SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -136260,6 +136276,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "39688",
+      "razao": "EMPORIO FP LTDA",
+      "fantasia": "BOMBOM NIERE",
+      "bairro": "SERRA VERDE (VENDA NOVA)",
+      "cidade": "BELO HORIZONTE",
+      "cnpj": "47.253.413/0001-41",
+      "estado": "MG",
+      "ramo": "COMERCIO VAREJISTA (GERAL)",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "327",
+      "nome_usur1": "JOÃO SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "51963",
       "razao": "EMPORIO FREI CANECA LTDA",
       "fantasia": "EMPORIO FREI CANECA",
@@ -142944,6 +142976,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "39687",
+      "razao": "F J RESTAURANTE LTDA",
+      "fantasia": "PANELINHA MINAS",
+      "bairro": "SERRA VERDE (VENDA NOVA)",
+      "cidade": "BELO HORIZONTE",
+      "cnpj": "53.590.268/0001-97",
+      "estado": "MG",
+      "ramo": "COMERCIO VAREJISTA (GERAL)",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "327",
+      "nome_usur1": "JOÃO SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -152468,6 +152516,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "39684",
+      "razao": "FPP RESTAURANTE LTDA",
+      "fantasia": "DOS TEMPOS DA VOVO",
+      "bairro": "SERRA VERDE (VENDA NOVA)",
+      "cidade": "BELO HORIZONTE",
+      "cnpj": "52.727.049/0001-44",
+      "estado": "MG",
+      "ramo": "COMERCIO VAREJISTA (GERAL)",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "327",
+      "nome_usur1": "JOÃO SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "50465",
       "razao": "FPS - COMERCIO E IMPORTACAO DE ALIMENTOS E BEBIDAS EIRELI",
       "fantasia": "SOMMELIER VINHOS",
@@ -160626,22 +160690,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "93424",
-      "razao": "GIRO ALTO SUPERMERCADO LTDA",
-      "fantasia": "SUPERMERCADO GIRO ALTO",
-      "bairro": "KUBITSCHEK",
-      "cidade": "GUARAPARI",
-      "cnpj": "51.570.511/0001-80",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "91860",
@@ -179632,6 +179680,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "39685",
+      "razao": "JARDIM 360 LTDA",
+      "fantasia": "JARDIM 360 LTDA",
+      "bairro": "SERRA VERDE (VENDA NOVA)",
+      "cidade": "BELO HORIZONTE",
+      "cnpj": "64.207.352/0001-03",
+      "estado": "MG",
+      "ramo": "LANCHONETE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "327",
+      "nome_usur1": "JOÃO SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -237732,6 +237796,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "81471",
+      "razao": "MERCEARIA SACHINHO LTDA",
+      "fantasia": "MERCEARIA SACHINHO",
+      "bairro": "VARGEM PEQUENA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "33.177.403/0001-60",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "144",
+      "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "36862",
       "razao": "MERCEARIA SANTA LUZIA COLORADO LTDA",
       "fantasia": "MERCEARIA SANTA LUZIA",
@@ -241810,22 +241890,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
-    },
-    {
-      "codcli": "81294",
-      "razao": "MINIMERCADO PRAIA EXPRESS PARADOR LTDA",
-      "fantasia": "MINIMERCADO PRAIA EXPRESS PARADOR",
-      "bairro": "PRAIA DE ITAPARICA",
-      "cidade": "VILA VELHA",
-      "cnpj": "30.279.570/0001-23",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
     },
     {
       "codcli": "50386",
@@ -285444,6 +285508,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "41520",
+      "razao": "RANTOS LTDARIGUES SANTOS LTDA",
+      "fantasia": "RENASCER COMERCIO DE PRODUTOS ALIMENTICIOS",
+      "bairro": "VILA LIVIERO",
+      "cidade": "SAO PAULO",
+      "cnpj": "44.133.434/0001-35",
+      "estado": "SP",
+      "ramo": "MERCEARIA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "520",
+      "nome_usur1": "JOVELINA LISBOA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "30902",
       "razao": "RAPHAEL ALEXANDRINO DAMASIO",
       "fantasia": "RAPHAEL ALEXANDRINO DAMASIO",
@@ -290772,6 +290852,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "39683",
+      "razao": "RESTAURANTE CASA CAJU LTDA",
+      "fantasia": "CASA CAJU",
+      "bairro": "POMPÉIA",
+      "cidade": "BELO HORIZONTE",
+      "cnpj": "67.742.532/0001-75",
+      "estado": "MG",
+      "ramo": "RESTAURANTE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "327",
+      "nome_usur1": "JOÃO SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "74367",
       "razao": "RESTAURANTE CASA MOHAMED ALIMENTOS LTDA",
       "fantasia": "CASA MOHAMED",
@@ -291856,22 +291952,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "439",
       "nome_usur1": "MATEUS CARDOSO - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "71321",
-      "razao": "RESTAURANTE E LANCHONETE CARTAXO LTDA",
-      "fantasia": "LANCHES DAS S ANAS",
-      "bairro": "COSMOS",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "24.642.070/0001-01",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -305938,22 +306018,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "351",
       "nome_usur2": "MARIANA LAGES"
-    },
-    {
-      "codcli": "93664",
-      "razao": "SAMBA RIO COPA I LTDA",
-      "fantasia": "SAMBA RIO COPA I",
-      "bairro": "COPACABANA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "62.118.968/0001-74",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "72848",
@@ -333792,6 +333856,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "431",
       "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "39689",
+      "razao": "TORRE CAFE LTDA",
+      "fantasia": "TORRE CAFE LTDA",
+      "bairro": "SERRA VERDE (VENDA NOVA)",
+      "cidade": "BELO HORIZONTE",
+      "cnpj": "49.047.911/0001-63",
+      "estado": "MG",
+      "ramo": "LANCHONETE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "327",
+      "nome_usur1": "JOÃO SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
