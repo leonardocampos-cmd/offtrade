@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "13/08/2026 11:50",
+  "atualizado_em": "13/08/2026 12:08",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -1264,6 +1264,13 @@ const NAO_POS_SP_DATA = {
             "valor": 279.8
           }
         ]
+      },
+      {
+        "codcli": "52455",
+        "cliente": "COMERCIO DE GENEROS ALIMENTICIOS PARQUE BOTURUSSU LTDA",
+        "bairro": "PARQUE BOTURUSSU",
+        "dtultcomp": "nan",
+        "produtos": []
       },
       {
         "codcli": "52307",
