@@ -1,5 +1,5 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "13/08/2026 11:45",
+  "atualizado_em": "13/08/2026 12:02",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 13,
@@ -11,7 +11,7 @@ const METAS_GERAIS_DATA = {
     "fat_ant_completo": NaN,
     "pos": 790,
     "pos_ant": 846,
-    "pos_ant_completo": 1811
+    "pos_ant_completo": 1810
   },
   "total": {
     "meta": 12300000.0,
@@ -31,9 +31,9 @@ const METAS_GERAIS_DATA = {
       "pos": 271,
       "pct": 24.8,
       "nec_dia": 121234.66,
-      "fat_ant_completo": 2720509.82,
+      "fat_ant_completo": 2720110.12,
       "pos_ant": 339,
-      "pos_ant_completo": 730
+      "pos_ant_completo": 729
     },
     {
       "estado": "SP",
