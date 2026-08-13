@@ -1,4 +1,4 @@
-// Gerado em 13/08/2026 12:11
+// Gerado em 13/08/2026 12:33
 const VENDEDORES_AUTH = {
   "156": [
     {

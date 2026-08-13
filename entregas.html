@@ -573,8 +573,16 @@ if (!D) {
     '<p style="color:var(--red);padding:24px">Erro: entregas_data.js não encontrado. Execute entregas.py primeiro.</p>';
 } else {
   const dataRota = D.data_rota || '';
+  let alertaSub = '';
+  if (D.alerta_data) {
+    const hojeIso = new Date().toISOString().slice(0, 10);
+    if (D.alerta_data !== hojeIso) {
+      const [ay, am, ad] = D.alerta_data.split('-');
+      alertaSub = `  ·  ⚠ "Não Entregue" ainda é do alerta de ${ad}/${am}/${ay} (sem e-mail novo hoje)`;
+    }
+  }
   document.getElementById('header-sub').textContent =
-    `Atualizado: ${D.atualizado_em}${dataRota ? '  ·  Rota: ' + dataRota : ''}`;
+    `Atualizado: ${D.atualizado_em}${dataRota ? '  ·  Rota: ' + dataRota : ''}${alertaSub}`;
 
   if (_urlV) {
     // Modo vendedor: trava no nome da URL, não mostra seletor

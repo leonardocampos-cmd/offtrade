@@ -274,8 +274,34 @@ function _statusPedidoInfoV(status) {
     case 'corte_parcial': return { label: 'CORTE PARCIAL', cor: '#f97316', bg: 'rgba(249,115,22,.1)' };
     case 'devolvido':     return { label: 'DEVOLVIDO',     cor: '#a855f7', bg: 'rgba(168,85,247,.1)' };
     case 'bonificado':    return { label: 'BONIFICAÇÃO',   cor: '#3b82f6', bg: 'rgba(59,130,246,.1)' };
+    case 'nao_emitido':   return { label: 'PEDIDO FEITO',  cor: 'var(--muted)', bg: 'rgba(148,163,184,.08)' };
     default:              return { label: 'EMITIDO',       cor: '#22c55e', bg: '' };
   }
+}
+
+var _NOMES_MES_ABREV = ['','Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'];
+function _mesDoPedido(dataOrd) {
+  if (!dataOrd) return '';
+  var partes = dataOrd.split('-');
+  return _NOMES_MES_ABREV[parseInt(partes[1], 10)] + '/' + partes[0].slice(2);
+}
+
+function _pedidosNaoEmitidos(nomeVendedor, mes) {
+  if (typeof PEDIDOS_DATA === 'undefined' || !PEDIDOS_DATA.pedidos_feitos) return [];
+  var alvo = _normNomePedido(nomeVendedor);
+  return PEDIDOS_DATA.pedidos_feitos
+    .filter(function(p) { return _normNomePedido(p.nome) === alvo && _mesDoPedido(p.data_ord) === mes; })
+    .map(function(p) {
+      return {
+        data: p.data, codcli: '', cliente: p.cliente,
+        itens: (p.itens || []).map(function(it) {
+          return { produto: it.desc, fantasia: it.industria, qt: it.qt, valor: it.val, numped: p.numped, nunota: '' };
+        }),
+        valor: p.total,
+        qt: (p.itens || []).reduce(function(s, it) { return s + (it.qt || 0); }, 0),
+        status: 'nao_emitido',
+      };
+    });
 }
 
 function _agruparPedidosV(lista) {
@@ -304,11 +330,12 @@ function _agruparPedidosV(lista) {
 
 var _pedidosAtuaisES = [];
 
-function buildVendasGrouped(lista, prefix) {
-  if (!lista || !lista.length)
+function buildVendasGrouped(lista, prefix, nome, mes) {
+  var pedidos = _agruparPedidosV(lista || []).concat(nome ? _pedidosNaoEmitidos(nome, mes) : []);
+  if (!pedidos.length)
     return '<div class="vendas-empty">Nenhuma venda registrada neste mes.</div>';
 
-  var pedidos = _agruparPedidosV(lista).sort(function(a, b) {
+  pedidos = pedidos.sort(function(a, b) {
     var pa = a.data.split('/'), pb = b.data.split('/');
     return new Date(pb[2], pb[1]-1, pb[0]) - new Date(pa[2], pa[1]-1, pa[0]);
   });
@@ -507,7 +534,7 @@ function _atualizarTabela(nome) {
     '<div><div class="kpi-label">Faturamento</div><div class="kpi-val">' + fmt(fat) + '</div></div>' +
     '<div><div class="kpi-label">Clientes</div><div class="kpi-val">' + pos + '</div></div>' +
     '<div><div class="kpi-label">Itens</div><div class="kpi-val">' + qt.toLocaleString('pt-BR') + '</div></div>';
-  document.getElementById('det-tabela').innerHTML = buildVendasGrouped(lista, 'fat-' + nome.replace(/\W/g,''));
+  document.getElementById('det-tabela').innerHTML = buildVendasGrouped(lista, 'fat-' + nome.replace(/\W/g,''), nome, mes);
 }
 
 var _POSICOES_PROBLEMA_PED = { 'Pendente': 1, 'Bloqueado': 1, 'Bloqueado (alçada)': 1 };

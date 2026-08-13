@@ -333,13 +333,24 @@ def _nf_clean(numnota):
         return str(numnota).strip()
 
 alertas_path = Path(__file__).parent / 'alertas_rj.json'
+_alerta_data_usada = ''
 if alertas_path.exists():
     try:
         _alertas_all = json.loads(alertas_path.read_text(encoding='utf-8'))
         hoje_iso = _hoje_d.isoformat()
-        _nfs_alerta = {item['nf']: item for item in _alertas_all.get(hoje_iso, [])}
+        _lista_hoje = _alertas_all.get(hoje_iso, [])
+        if _lista_hoje:
+            _alerta_data_usada = hoje_iso
+        else:
+            # Sem e-mail "ALERTA LOGÍSTICA RJ" hoje ainda — mantém a última
+            # informação disponível em vez de esvaziar "Não Entregue" (pedido
+            # do usuário em 2026-08-13: o e-mail de ontem chegou 8:46, hoje
+            # pode ainda não ter chegado na hora que o pipeline roda).
+            _datas_com_alerta = sorted(d for d, lst in _alertas_all.items() if lst)
+            _alerta_data_usada = _datas_com_alerta[-1] if _datas_com_alerta else ''
+        _nfs_alerta = {item['nf']: item for item in _alertas_all.get(_alerta_data_usada, [])}
         if _nfs_alerta:
-            print(f"Alertas de não entrega: {len(_nfs_alerta)} NF(s) para hoje")
+            print(f"Alertas de não entrega: {len(_nfs_alerta)} NF(s) de {_alerta_data_usada or 'hoje'}")
             _nfs_restantes = dict(_nfs_alerta)
             _vendedor_por_nome = {v['nome']: v for v in vendedores_out}
             for v in vendedores_out:
@@ -386,6 +397,7 @@ if alertas_path.exists():
 payload = {
     'atualizado_em': datetime.now().strftime('%d/%m/%Y %H:%M'),
     'data_rota':     hoje_str,
+    'alerta_data':   _alerta_data_usada,
     'vendedores':    vendedores_out,
 }
 

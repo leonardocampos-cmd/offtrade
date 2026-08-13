@@ -863,25 +863,6 @@ function buildRing(pctVal, realFmt, metaFmt) {
     </div>`;
 }
 
-function buildBar(name, realizado, meta, tipo) {
-  const p     = pct(realizado, meta);
-  const cls   = pctClass(p);
-  const pDisp = p > 999 ? '>999' : p.toFixed(0);
-  return `
-    <div class="metric">
-      <div class="metric-header">
-        <span class="metric-name">${name}</span>
-        <div class="metric-right">
-          <span class="metric-values">${fmt(realizado, tipo)} / ${fmt(meta, tipo)}</span>
-          <span class="metric-pct pct-${cls}">${pDisp}%</span>
-        </div>
-      </div>
-      <div class="bar-bg">
-        <div class="bar-fill bar-${cls}" style="width:${Math.min(p, 100)}%"></div>
-      </div>
-    </div>`;
-}
-
 // ── Pedidos agrupados (Faturamento do mês) ──────────────────────
 // Agrupa os itens (linha a linha) em pedidos/notas: chave preferida é
 // 'nunota' (NF) — corte parcial e venda faturada da MESMA nota caem na
@@ -952,8 +933,47 @@ function _statusPedidoInfo(p) {
     case 'corte_parcial': return { label: statusLog ? `CORTE PARCIAL · ${statusLog.toUpperCase()}` : 'CORTE PARCIAL', cor: '#f97316', bg: 'rgba(249,115,22,.1)' };
     case 'devolvido':     return { label: 'DEVOLVIDO',     cor: '#a855f7', bg: 'rgba(168,85,247,.1)' };
     case 'bonificado':    return { label: statusLog ? `BONIFICAÇÃO · ${statusLog.toUpperCase()}` : 'BONIFICAÇÃO', cor: '#3b82f6', bg: 'rgba(59,130,246,.1)' };
+    // Pedido feito mas ainda sem nota (NUMNOTA nulo em PBI_PCPEDI) — não
+    // conta faturamento/clientes/itens do topo (só vendas.js entra nisso),
+    // mas aparece na lista pra não "sumir" até virar nota de verdade
+    // (pedido do usuário em 2026-08-13).
+    case 'nao_emitido':   return { label: p.posicao ? `PEDIDO FEITO · ${p.posicao.toUpperCase()}` : 'PEDIDO FEITO', cor: 'var(--muted)', bg: 'rgba(148,163,184,.08)' };
     default:              return { label: 'EMITIDO',       cor: '#22c55e', bg: '' };
   }
+}
+
+// Cross-referencia PEDIDOS_DATA.pedidos_feitos (pedidos.py — mesma janela de
+// 90 dias) por vendedor, pra não-emitidos aparecerem no Faturamento do mês
+// mesmo sem ter gerado nota ainda.
+function _normNomePedidoRJ(s) {
+  return (s || '').toUpperCase().replace(/\s*-?\s*OFF\s*TRADE\s*(SP|MG|ES)?\s*/gi, '').replace(/\s*-\s*$/, '').trim();
+}
+
+const _NOMES_MES_ABREV = ['','Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'];
+function _mesDoPedido(dataOrd) {
+  if (!dataOrd) return '';
+  const [ano, mesNum] = dataOrd.split('-');
+  return `${_NOMES_MES_ABREV[parseInt(mesNum, 10)]}/${ano.slice(2)}`;
+}
+
+function _pedidosNaoEmitidos(nomeVendedor, mes) {
+  if (typeof PEDIDOS_DATA === 'undefined' || !PEDIDOS_DATA.pedidos_feitos) return [];
+  const alvo = _normNomePedidoRJ(nomeVendedor);
+  return PEDIDOS_DATA.pedidos_feitos
+    .filter(p => _normNomePedidoRJ(p.nome) === alvo && _mesDoPedido(p.data_ord) === mes)
+    .map(p => ({
+      chave: `PEDFEITO:${p.numped}`,
+      data: p.data, codcli: '', cliente: p.cliente,
+      sistema: p.sistema, nunota: '', posicao: p.posicao,
+      itens: (p.itens || []).map(it => ({
+        produto: it.desc, fantasia: it.industria, qt: it.qt, valor: it.val,
+        tipo: 'Venda', devolvido: false, cancelado: false, cancelado_parcial: false,
+        numped: p.numped, nunota: '',
+      })),
+      valor: p.total,
+      qt: (p.itens || []).reduce((s, it) => s + (it.qt || 0), 0),
+      status: 'nao_emitido', logistica: null,
+    }));
 }
 
 function _agruparPedidos(vendas) {
@@ -1573,6 +1593,18 @@ function renderDetail(v, mes) {
           ${_metaKpi('Faturamento', m('fat_tt') > 0 ? r('fat_tt') : _fatVendasMes(v.nome, mes), m('fat_tt'), 'fat', _cmpMesAnterior(v, mes, 'fat_tt', 'fat'))}
           ${_metaKpi('Positivação', m('pos_tt') > 0 ? r('pos_tt') : _posVendasMes(v.nome, mes), m('pos_tt'), 'pos', _cmpMesAnterior(v, mes, 'pos_tt', 'pos'))}
           ${_statKpi('Indústrias', r('industrias'), _cmpMesAnterior(v, mes, 'industrias', 'pos'))}
+          ${m('fat_castas')          > 0 ? _metaKpi('Castas',          r('fat_castas'),          m('fat_castas'),          'fat') : ''}
+          ${m('fat_hob_azeite')      > 0 ? _metaKpi('HOB + Azeite',    r('fat_hob_azeite'),      m('fat_hob_azeite'),      'fat') : ''}
+          ${m('fat_domecq_passport') > 0 ? _metaKpi('Domecq+Passport', r('fat_domecq_passport'), m('fat_domecq_passport'), 'fat') : ''}
+          ${m('fat_pernod')          > 0 ? _metaKpi('Fat. Pernod',     r('fat_pernod'),          m('fat_pernod'),          'fat') : ''}
+          ${m('pos_hob_azeite')      > 0 ? _metaKpi('Pos. HOB+Azeite', r('pos_hob_azeite'),      m('pos_hob_azeite'),      'pos') : ''}
+          ${m('pos_essenza_hob')     > 0 ? _metaKpi('Pos. Essenza+HOB',r('pos_essenza_hob'),     m('pos_essenza_hob'),     'pos') : ''}
+          ${m('pos_reckit')          > 0 ? _metaKpi('Pos. Reckitt',    r('pos_reckit'),          m('pos_reckit'),          'pos') : ''}
+          ${m('pos_crusoe')          > 0 ? _metaKpi('Pos. Crusoe',     r('pos_crusoe'),          m('pos_crusoe'),          'pos') : ''}
+          ${m('pos_tatuzinho')       > 0 ? _metaKpi('Pos. Tatuzinho',  r('pos_tatuzinho'),       m('pos_tatuzinho'),       'pos') : ''}
+          ${m('pos_tial')            > 0 ? _metaKpi('Pos. Tial',       r('pos_tial'),            m('pos_tial'),            'pos') : ''}
+          ${m('pos_redbull')         > 0 ? _metaKpi('Pos. Red Bull',   r('pos_redbull'),         m('pos_redbull'),         'pos') : ''}
+          ${m('pos_pinatti')         > 0 ? _metaKpi('Pos. Pinatti',    r('pos_pinatti'),         m('pos_pinatti'),         'pos') : ''}
         </div>
         ${_necHtml('fat_tt', fmtFat)}
         ${_necHtml('pos_tt', v2 => Number(v2).toFixed(1) + ' clientes')}
@@ -1580,18 +1612,6 @@ function renderDetail(v, mes) {
           <span class="stat-label">Cadastros no mês</span>
           <span class="stat-val">${v.clientes_cadastrados || 0}</span>
         </div>
-        ${m('fat_castas')          > 0 ? buildBar('Castas',          r('fat_castas'),          m('fat_castas'),          'fat') : ''}
-        ${m('fat_hob_azeite')      > 0 ? buildBar('HOB + Azeite',    r('fat_hob_azeite'),      m('fat_hob_azeite'),      'fat') : ''}
-        ${m('fat_domecq_passport') > 0 ? buildBar('Domecq+Passport', r('fat_domecq_passport'), m('fat_domecq_passport'), 'fat') : ''}
-        ${m('fat_pernod')          > 0 ? buildBar('Fat. Pernod',     r('fat_pernod'),          m('fat_pernod'),          'fat') : ''}
-        ${m('pos_hob_azeite')      > 0 ? buildBar('Pos. HOB+Azeite', r('pos_hob_azeite'),      m('pos_hob_azeite'),      'pos') : ''}
-        ${m('pos_essenza_hob')     > 0 ? buildBar('Pos. Essenza+HOB',r('pos_essenza_hob'),     m('pos_essenza_hob'),     'pos') : ''}
-        ${m('pos_reckit')          > 0 ? buildBar('Pos. Reckitt',    r('pos_reckit'),          m('pos_reckit'),          'pos') : ''}
-        ${m('pos_crusoe')          > 0 ? buildBar('Pos. Crusoe',     r('pos_crusoe'),          m('pos_crusoe'),          'pos') : ''}
-        ${m('pos_tatuzinho')       > 0 ? buildBar('Pos. Tatuzinho',  r('pos_tatuzinho'),       m('pos_tatuzinho'),       'pos') : ''}
-        ${m('pos_tial')            > 0 ? buildBar('Pos. Tial',       r('pos_tial'),            m('pos_tial'),            'pos') : ''}
-        ${m('pos_redbull')         > 0 ? buildBar('Pos. Red Bull',   r('pos_redbull'),         m('pos_redbull'),         'pos') : ''}
-        ${m('pos_pinatti')         > 0 ? buildBar('Pos. Pinatti',    r('pos_pinatti'),         m('pos_pinatti'),         'pos') : ''}
       </div>
     </div>`;
 
@@ -1605,7 +1625,10 @@ function renderDetail(v, mes) {
   const _fatVend = _vendasValidas.reduce((s, x) => s + x.valor, 0);
   const _nCli    = new Set(_vendasValidas.filter(x => x.offtrade).map(x => x.codcli || x.cliente)).size;
   const _nItens  = _vendasValidas.reduce((s, x) => s + x.qt, 0);
-  const _pedidos = _ordenarPedidosDesc(_agruparPedidos(_vendas));
+  const _pedidos = _ordenarPedidosDesc([
+    ..._agruparPedidos(_vendas),
+    ..._pedidosNaoEmitidos(v.nome, mes),
+  ]);
 
   const vendasHtml = `
     <div class="detail-card">
