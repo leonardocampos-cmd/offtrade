@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "13/08/2026 10:17",
+  "atualizado_em": "13/08/2026 10:45",
   "total": 22029,
   "clientes": [
     {
@@ -24258,22 +24258,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "91029",
-      "razao": "58.116.848 JOAO VICTOR MOTTA GUIMARAES",
-      "fantasia": "JOAO VICTOR MOTTA GUIMARAES",
-      "bairro": "NOVA CIDADE",
-      "cidade": "RIO DAS OSTRAS",
-      "cnpj": "58.116.848/0001-60",
-      "estado": "RJ",
-      "ramo": "MINI-MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "43",
-      "nome_usur2": "SOUZA"
     },
     {
       "codcli": "36564",
@@ -54578,6 +54562,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "47018",
+      "razao": "ATACADO TETS AL. XAVIER LTDA",
+      "fantasia": "ADEGA TETS",
+      "bairro": "PARQUE CONTINENTAL",
+      "cidade": "SAO VICENTE",
+      "cnpj": "51.290.894/0001-32",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "76860",
@@ -213156,22 +213156,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "74364",
-      "razao": "M&C DOCE SABOR LTDA",
-      "fantasia": "DOCE SABOR",
-      "bairro": "MARACANÃ",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "53.343.753/0001-66",
-      "estado": "RJ",
-      "ramo": "CAFETERIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "49728",
       "razao": "M&E MINIMERCADO LTDA",
       "fantasia": "M&E MINIMERCADO",
@@ -318784,6 +318768,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "51642",
+      "razao": "SUPERMERCADO APR LTDA",
+      "fantasia": "SUPERMERCADO APR",
+      "bairro": "PARQUE DAS BANDEIRAS",
+      "cidade": "SAO VICENTE",
+      "cnpj": "11.139.230/0001-52",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "500",
+      "nome_usur1": "PAULO MOREIRA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
