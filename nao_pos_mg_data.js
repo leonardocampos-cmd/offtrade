@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "13/08/2026 12:31",
+  "atualizado_em": "13/08/2026 13:56",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -817,38 +817,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37333",
-        "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "CENTRO",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 257.4
-          },
-          {
-            "produto": "VILLA ROSA ROSE 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 257.4
-          },
-          {
-            "produto": "VODKA ORLOFF 1L - DEST",
-            "fantasia": "",
-            "qt": 24,
-            "valor": 490.08
-          },
-          {
-            "produto": "WHISKY BALLANTINE'S FINEST 1L",
-            "fantasia": "PERNOD",
-            "qt": 3,
-            "valor": 177.54
-          }
-        ]
-      },
-      {
         "codcli": "37330",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "NOVA ERA",
@@ -901,6 +869,38 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "37333",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "CENTRO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 257.4
+          },
+          {
+            "produto": "VILLA ROSA ROSE 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 257.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 24,
+            "valor": 490.08
+          },
+          {
+            "produto": "WHISKY BALLANTINE'S FINEST 1L",
+            "fantasia": "PERNOD",
+            "qt": 3,
+            "valor": 177.54
+          }
+        ]
+      },
+      {
         "codcli": "37909",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "MUARAMA",
@@ -929,32 +929,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "PERNOD",
             "qt": 3,
             "valor": 177.54
-          }
-        ]
-      },
-      {
-        "codcli": "37335",
-        "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "CENTRO",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA TINTO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 257.4
-          },
-          {
-            "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 461.4
-          },
-          {
-            "produto": "VODKA ORLOFF 1L - DEST",
-            "fantasia": "",
-            "qt": 24,
-            "valor": 490.08
           }
         ]
       },
@@ -993,6 +967,32 @@ const NAO_POS_MG_DATA = {
             "fantasia": "PERNOD",
             "qt": 3,
             "valor": 177.54
+          }
+        ]
+      },
+      {
+        "codcli": "37335",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "CENTRO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA TINTO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 257.4
+          },
+          {
+            "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 461.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 24,
+            "valor": 490.08
           }
         ]
       },
@@ -3017,38 +3017,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "31673",
-        "cliente": "ESQUINA DO CHOPP JARA LTDA",
-        "bairro": "INDAIA",
-        "dtultcomp": "28/07/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-            "fantasia": "HEINEKEN",
-            "qt": 20,
-            "valor": 2875.2
-          },
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 191.76
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 191.76
-          },
-          {
-            "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
-            "fantasia": "DIAGEO",
-            "qt": 2,
-            "valor": 261.6
-          }
-        ]
-      },
-      {
         "codcli": "33004",
         "cliente": "ROGERIA BARBOSA ALVES COIMBRA",
         "bairro": "ESTORIL",
@@ -3517,6 +3485,41 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "39686",
+        "cliente": "CASA CAJU LTDA",
+        "bairro": "SERRA VERDE (VENDA NOVA)",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39688",
+        "cliente": "EMPORIO FP LTDA",
+        "bairro": "SERRA VERDE (VENDA NOVA)",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39687",
+        "cliente": "F J RESTAURANTE LTDA",
+        "bairro": "SERRA VERDE (VENDA NOVA)",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39684",
+        "cliente": "FPP RESTAURANTE LTDA",
+        "bairro": "SERRA VERDE (VENDA NOVA)",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39685",
+        "cliente": "JARDIM 360 LTDA",
+        "bairro": "SERRA VERDE (VENDA NOVA)",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "39649",
         "cliente": "REQUINTE BARTENDER DRINKS LTDA",
         "bairro": "RIACHO DAS PEDRAS",
@@ -3524,9 +3527,23 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
+        "codcli": "39683",
+        "cliente": "RESTAURANTE CASA CAJU LTDA",
+        "bairro": "POMPÉIA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "39632",
         "cliente": "ROTA BEBIDAS LTDA",
         "bairro": "JARDIM AMÉRICA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39689",
+        "cliente": "TORRE CAFE LTDA",
+        "bairro": "SERRA VERDE (VENDA NOVA)",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -5454,9 +5471,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "39403",
+        "codcli": "30324",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "COMITECO",
+        "bairro": "BELVEDERE",
         "dtultcomp": "29/05/2026",
         "produtos": [
           {
@@ -5474,9 +5491,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30324",
+        "codcli": "39403",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "BELVEDERE",
+        "bairro": "COMITECO",
         "dtultcomp": "29/05/2026",
         "produtos": [
           {
@@ -5518,26 +5535,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "CASTAS",
             "qt": 18,
             "valor": 808.2
-          }
-        ]
-      },
-      {
-        "codcli": "30705",
-        "cliente": "RUA DO JASMIM ALIMENTOS E BEBIDAS LTDA",
-        "bairro": "SANTO ANTÔNIO",
-        "dtultcomp": "05/06/2026",
-        "produtos": [
-          {
-            "produto": "ESPUMANTE ALUD BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 269.4
-          },
-          {
-            "produto": "VINHO ARESTI EST SEL PINOT NOIR 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 329.4
           }
         ]
       },
@@ -5686,32 +5683,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30323",
-        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "SANTO ANTONIO",
-        "dtultcomp": "23/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 89.88
-          },
-          {
-            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 89.88
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 179.76
-          }
-        ]
-      },
-      {
         "codcli": "38776",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
         "bairro": "ESTORIL",
@@ -5740,6 +5711,32 @@ const NAO_POS_MG_DATA = {
             "fantasia": "RED BULL",
             "qt": 1,
             "valor": 29.96
+          },
+          {
+            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 179.76
+          }
+        ]
+      },
+      {
+        "codcli": "30323",
+        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
+        "bairro": "SANTO ANTONIO",
+        "dtultcomp": "23/06/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK RED BULL MELANCIA",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 89.88
+          },
+          {
+            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 89.88
           },
           {
             "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
@@ -6402,38 +6399,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "DIAGEO",
             "qt": 7,
             "valor": 349.3
-          }
-        ]
-      },
-      {
-        "codcli": "37162",
-        "cliente": "BAFF S COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
-        "bairro": "GUTIERREZ",
-        "dtultcomp": "27/07/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK  RED BULL MORANGO PESSEGO",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 87.72
-          },
-          {
-            "produto": "4 PACK RED BULL TROPICAL",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 87.72
-          },
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 175.44
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 175.44
           }
         ]
       },
