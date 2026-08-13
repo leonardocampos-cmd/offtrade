@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "13/08/2026 15:16",
-  "total": 22036,
+  "atualizado_em": "13/08/2026 15:39",
+  "total": 22035,
   "clientes": [
     {
       "codcli": "38586",
@@ -116306,22 +116306,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "73159",
-      "razao": "DEU B.O RESTAURANTE E BAR LTDA",
-      "fantasia": "DEU B O",
-      "bairro": "MÉIER",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "52.082.770/0001-24",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "312",
-      "nome_usur2": "LAYZ WERNECK"
     },
     {
       "codcli": "82046",
