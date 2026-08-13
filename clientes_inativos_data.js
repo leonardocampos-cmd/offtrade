@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "13/08/2026 10:47",
+  "atualizado_em": "13/08/2026 11:08",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -17407,15 +17407,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "03/07/2026",
           "dias": 41,
           "media": 1534.4
-        },
-        {
-          "codcli": "50772",
-          "cliente": "SUPERMERCADO TAQUARAL LTDA",
-          "bairro": "TAQUARAL",
-          "cidade": "CAMPINAS",
-          "dtultcomp": "14/07/2026",
-          "dias": 30,
-          "media": 2111.1
         }
       ],
       "novos": [
@@ -17472,6 +17463,15 @@ const INATIVOS_DATA = {
           "media": 99.77
         },
         {
+          "codcli": "49701",
+          "cliente": "MERCADINHO IRMAOS DOMINGOS LTDA",
+          "bairro": "JARDIM QUARTO CENTENÁRIO",
+          "cidade": "MAUA",
+          "dtultcomp": "30/05/2026",
+          "dias": 75,
+          "media": 399.6
+        },
+        {
           "codcli": "49700",
           "cliente": "MERCADO JARDIM ZAIRA LOJA II LTDA",
           "bairro": "JARDIM ZAIRA",
@@ -17481,8 +17481,8 @@ const INATIVOS_DATA = {
           "media": 399.6
         },
         {
-          "codcli": "49697",
-          "cliente": "SUPERMERCADO NEVADA LTDA",
+          "codcli": "49699",
+          "cliente": "MERCADO JARDIM ZAIRA LTDA",
           "bairro": "JARDIM ZAIRA",
           "cidade": "MAUA",
           "dtultcomp": "30/05/2026",
@@ -17499,17 +17499,8 @@ const INATIVOS_DATA = {
           "media": 399.6
         },
         {
-          "codcli": "49701",
-          "cliente": "MERCADINHO IRMAOS DOMINGOS LTDA",
-          "bairro": "JARDIM QUARTO CENTENÁRIO",
-          "cidade": "MAUA",
-          "dtultcomp": "30/05/2026",
-          "dias": 75,
-          "media": 399.6
-        },
-        {
-          "codcli": "49699",
-          "cliente": "MERCADO JARDIM ZAIRA LTDA",
+          "codcli": "49697",
+          "cliente": "SUPERMERCADO NEVADA LTDA",
           "bairro": "JARDIM ZAIRA",
           "cidade": "MAUA",
           "dtultcomp": "30/05/2026",
@@ -17580,15 +17571,6 @@ const INATIVOS_DATA = {
           "media": 589.51
         },
         {
-          "codcli": "50388",
-          "cliente": "COMERCIAL SANTA ISABEL MAIS LTDA",
-          "bairro": "CENTRO",
-          "cidade": "SANTA ISABEL",
-          "dtultcomp": "10/06/2026",
-          "dias": 64,
-          "media": 0.0
-        },
-        {
           "codcli": "50337",
           "cliente": "FAMILIA PIRES DOCES LTDA",
           "bairro": "CENTRO",
@@ -17598,13 +17580,22 @@ const INATIVOS_DATA = {
           "media": 299.77
         },
         {
-          "codcli": "50263",
-          "cliente": "CATANHO E CATANHO LTDA",
+          "codcli": "50388",
+          "cliente": "COMERCIAL SANTA ISABEL MAIS LTDA",
           "bairro": "CENTRO",
           "cidade": "SANTA ISABEL",
           "dtultcomp": "10/06/2026",
           "dias": 64,
-          "media": 1331.4
+          "media": 0.0
+        },
+        {
+          "codcli": "50266",
+          "cliente": "SUPER MERCADO STILUS LTDA",
+          "bairro": "CRUZEIRO",
+          "cidade": "SANTA ISABEL",
+          "dtultcomp": "10/06/2026",
+          "dias": 64,
+          "media": 780.28
         },
         {
           "codcli": "50264",
@@ -17616,13 +17607,13 @@ const INATIVOS_DATA = {
           "media": 526.8
         },
         {
-          "codcli": "50266",
-          "cliente": "SUPER MERCADO STILUS LTDA",
-          "bairro": "CRUZEIRO",
+          "codcli": "50263",
+          "cliente": "CATANHO E CATANHO LTDA",
+          "bairro": "CENTRO",
           "cidade": "SANTA ISABEL",
           "dtultcomp": "10/06/2026",
           "dias": 64,
-          "media": 780.28
+          "media": 1331.4
         },
         {
           "codcli": "50339",
@@ -17642,15 +17633,6 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [
         {
-          "codcli": "51652",
-          "cliente": "SUPERMERCADO TALISMA DE SAO VICENTE LTDA",
-          "bairro": "VILA MARGARIDA",
-          "cidade": "SAO VICENTE",
-          "dtultcomp": "11/07/2026",
-          "dias": 33,
-          "media": 303.16
-        },
-        {
           "codcli": "51531",
           "cliente": "MANOEL BERNARDINA DE ALMEIDA EMPORIO",
           "bairro": "SABOO",
@@ -17658,6 +17640,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "11/07/2026",
           "dias": 33,
           "media": 234.84
+        },
+        {
+          "codcli": "51652",
+          "cliente": "SUPERMERCADO TALISMA DE SAO VICENTE LTDA",
+          "bairro": "VILA MARGARIDA",
+          "cidade": "SAO VICENTE",
+          "dtultcomp": "11/07/2026",
+          "dias": 33,
+          "media": 303.16
         }
       ],
       "novos": [
