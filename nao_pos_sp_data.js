@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "13/08/2026 10:15",
+  "atualizado_em": "13/08/2026 10:44",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -11969,46 +11969,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "50903",
-        "cliente": "REDE SUPERMERCADOS CONFIANCA LTDA",
-        "bairro": "PARQUE NOVO MUNDO",
-        "dtultcomp": "09/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN BEEFEATER PINK 700ML",
-            "fantasia": "PERNOD",
-            "qt": 6,
-            "valor": 389.4
-          },
-          {
-            "produto": "WHISKY JACK DANIELS 1L",
-            "fantasia": "BROWN",
-            "qt": 12,
-            "valor": 1198.8
-          }
-        ]
-      },
-      {
-        "codcli": "50902",
-        "cliente": "REDE SUPERMERCADOS CONFIANCA LTDA",
-        "bairro": "SÍTIO DO PIQUERI",
-        "dtultcomp": "09/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN BEEFEATER PINK 700ML",
-            "fantasia": "PERNOD",
-            "qt": 6,
-            "valor": 389.4
-          },
-          {
-            "produto": "WHISKY JACK DANIELS 1L",
-            "fantasia": "BROWN",
-            "qt": 12,
-            "valor": 1198.8
-          }
-        ]
-      },
-      {
         "codcli": "50897",
         "cliente": "REDE SUPERMERCADOS CONFIANCA LTDA",
         "bairro": "JARDIM PERI",
@@ -12039,6 +11999,46 @@ const NAO_POS_SP_DATA = {
             "fantasia": "PERNOD",
             "qt": 12,
             "valor": 778.8
+          },
+          {
+            "produto": "WHISKY JACK DANIELS 1L",
+            "fantasia": "BROWN",
+            "qt": 12,
+            "valor": 1198.8
+          }
+        ]
+      },
+      {
+        "codcli": "50902",
+        "cliente": "REDE SUPERMERCADOS CONFIANCA LTDA",
+        "bairro": "SÍTIO DO PIQUERI",
+        "dtultcomp": "09/06/2026",
+        "produtos": [
+          {
+            "produto": "GIN BEEFEATER PINK 700ML",
+            "fantasia": "PERNOD",
+            "qt": 6,
+            "valor": 389.4
+          },
+          {
+            "produto": "WHISKY JACK DANIELS 1L",
+            "fantasia": "BROWN",
+            "qt": 12,
+            "valor": 1198.8
+          }
+        ]
+      },
+      {
+        "codcli": "50903",
+        "cliente": "REDE SUPERMERCADOS CONFIANCA LTDA",
+        "bairro": "PARQUE NOVO MUNDO",
+        "dtultcomp": "09/06/2026",
+        "produtos": [
+          {
+            "produto": "GIN BEEFEATER PINK 700ML",
+            "fantasia": "PERNOD",
+            "qt": 6,
+            "valor": 389.4
           },
           {
             "produto": "WHISKY JACK DANIELS 1L",
@@ -14552,16 +14552,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "52081",
+        "codcli": "52084",
         "cliente": "VBBR CONVENIENCIA S. A.",
-        "bairro": "LAGEADINHO",
+        "bairro": "JARDIM PEDROSO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "52084",
+        "codcli": "52081",
         "cliente": "VBBR CONVENIENCIA S. A.",
-        "bairro": "JARDIM PEDROSO",
+        "bairro": "LAGEADINHO",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -14859,14 +14859,14 @@ const NAO_POS_SP_DATA = {
           {
             "produto": "GIN BEEFEATER 750ML",
             "fantasia": "PERNOD",
-            "qt": 1,
-            "valor": 69.9
+            "qt": 2,
+            "valor": 129.8
           },
           {
             "produto": "GIN BEEFEATER 750ML",
             "fantasia": "PERNOD",
-            "qt": 2,
-            "valor": 129.8
+            "qt": 1,
+            "valor": 69.9
           },
           {
             "produto": "GIN BEEFEATER BLACKBERRY 700ML",
@@ -14890,13 +14890,13 @@ const NAO_POS_SP_DATA = {
             "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
             "fantasia": "PERNOD",
             "qt": 1,
-            "valor": 62.9
+            "valor": 54.9
           },
           {
             "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
             "fantasia": "PERNOD",
             "qt": 1,
-            "valor": 54.9
+            "valor": 62.9
           },
           {
             "produto": "VODKA ABSOLUT TABASCO 750ML",
@@ -15334,16 +15334,16 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "52343",
+        "codcli": "52347",
         "cliente": "ATALAIA COMERCIO ATACADISTA DE PRODUTOS ALIMENTICIOS LTDA",
-        "bairro": "JARDIM IRMÃ DOLORES",
+        "bairro": "VILA MARGARIDA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "52347",
+        "codcli": "52343",
         "cliente": "ATALAIA COMERCIO ATACADISTA DE PRODUTOS ALIMENTICIOS LTDA",
-        "bairro": "VILA MARGARIDA",
+        "bairro": "JARDIM IRMÃ DOLORES",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -15355,9 +15355,23 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "52341",
-        "cliente": "SUPERMERCADO IRMAOS COSTA LTDA",
-        "bairro": "CENTRO",
+        "codcli": "51642",
+        "cliente": "SUPERMERCADO APR LTDA",
+        "bairro": "PARQUE DAS BANDEIRAS",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51637",
+        "cliente": "SUPERMERCADO APR LTDA",
+        "bairro": "REAL",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51634",
+        "cliente": "SUPERMERCADO APR LTDA",
+        "bairro": "FLORIDA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -15365,6 +15379,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "52342",
         "cliente": "SUPERMERCADO IRMAOS COSTA LTDA",
         "bairro": "SAMAMBAIA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52341",
+        "cliente": "SUPERMERCADO IRMAOS COSTA LTDA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -15545,16 +15566,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51863",
+        "codcli": "51864",
         "cliente": "SANTO COMERCIO E IMPORTACAO DE PRODUTOS ALIMENTICIOS LTDA",
-        "bairro": "VILA BARCELONA",
+        "bairro": "WANEL VILLE",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51864",
+        "codcli": "51863",
         "cliente": "SANTO COMERCIO E IMPORTACAO DE PRODUTOS ALIMENTICIOS LTDA",
-        "bairro": "WANEL VILLE",
+        "bairro": "VILA BARCELONA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -19457,6 +19478,38 @@ const NAO_POS_SP_DATA = {
             "fantasia": "MOET HENNESY",
             "qt": 48,
             "valor": 3761.76
+          }
+        ]
+      },
+      {
+        "codcli": "47018",
+        "cliente": "ATACADO TETS AL. XAVIER LTDA",
+        "bairro": "PARQUE CONTINENTAL",
+        "dtultcomp": "08/01/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL CAIXA 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 432,
+            "valor": 71435.52
+          },
+          {
+            "produto": "RED BULL MELANCIA CAIXA 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 144,
+            "valor": 23811.84
+          },
+          {
+            "produto": "RED BULL MORANGO PESSEGO CAIXA 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 100,
+            "valor": 16536.0
+          },
+          {
+            "produto": "RED BULL TROPICAL EDITION CAIXA 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 50,
+            "valor": 8268.0
           }
         ]
       },
