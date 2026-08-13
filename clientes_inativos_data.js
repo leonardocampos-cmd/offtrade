@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "13/08/2026 11:39",
+  "atualizado_em": "13/08/2026 11:53",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -14748,6 +14748,15 @@ const INATIVOS_DATA = {
         }
       ],
       "novos": [
+        {
+          "codcli": "52455",
+          "cliente": "COMERCIO DE GENEROS ALIMENTICIOS PARQUE BOTURUSSU LTDA",
+          "bairro": "PARQUE BOTURUSSU",
+          "cidade": "SAO PAULO",
+          "dtcadastro": "13/08/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
         {
           "codcli": "52307",
           "cliente": "JOSE E PINHEIRO BEBIDAS",
