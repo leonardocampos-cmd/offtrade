@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "13/08/2026 11:51",
+  "atualizado_em": "13/08/2026 12:09",
   "total": 22029,
   "clientes": [
     {
@@ -14546,22 +14546,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE"
-    },
-    {
-      "codcli": "79166",
-      "razao": "50.614.889 RENILDA IZIQUIEL DOS SANTOS VIEIRA",
-      "fantasia": "50.614.889 RENILDA IZIQUIEL DOS SANTOS V",
-      "bairro": "ARIRO (CUNHAMBEBE)",
-      "cidade": "ANGRA DOS REIS",
-      "cnpj": "50.614.889/0001-75",
-      "estado": "RJ",
-      "ramo": "ADEGA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "81736",
@@ -103906,6 +103890,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JEAN MENEZES - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "52455",
+      "razao": "COMERCIO DE GENEROS ALIMENTICIOS PARQUE BOTURUSSU LTDA",
+      "fantasia": "SUPERMERCADOS PARQUE BOTURUSSU",
+      "bairro": "PARQUE BOTURUSSU",
+      "cidade": "SAO PAULO",
+      "cnpj": "07.228.658/0001-02",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "492",
+      "nome_usur1": "ANDERSON MOTTA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "94758",
