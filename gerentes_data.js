@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "13/08/2026 11:14",
+  "atualizado_em": "13/08/2026 11:29",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -1165,7 +1165,7 @@ const GERENTES_DATA = {
                 },
                 {
                   "nome": "DIRLEI ARAUJO - OFF TRADE",
-                  "rca": "554",
+                  "rca": "417",
                   "estado": "RJ",
                   "por_mes": {
                     "Abr/26": {
