@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "13/08/2026 10:45",
-  "total": 22029,
+  "atualizado_em": "13/08/2026 11:06",
+  "total": 22030,
   "clientes": [
     {
       "codcli": "38586",
@@ -164832,6 +164832,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "42443",
+      "razao": "GUILHERME HENRIQUE SILVA FAVARO COMERCIO DE BEBIDAS LTDA",
+      "fantasia": "ADEGA 2 IRMAOS",
+      "bairro": "JARDIM SÃO JUDAS TADEU",
+      "cidade": "SAO JOSE DOS CAMPOS",
+      "cnpj": "52.805.585/0001-10",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "460",
+      "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
