@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "12/08/2026 17:54",
+  "atualizado_em": "13/08/2026 10:16",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -817,6 +817,38 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "37333",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "CENTRO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 257.4
+          },
+          {
+            "produto": "VILLA ROSA ROSE 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 257.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 24,
+            "valor": 490.08
+          },
+          {
+            "produto": "WHISKY BALLANTINE'S FINEST 1L",
+            "fantasia": "PERNOD",
+            "qt": 3,
+            "valor": 177.54
+          }
+        ]
+      },
+      {
         "codcli": "37330",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "NOVA ERA",
@@ -869,38 +901,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37333",
-        "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "CENTRO",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 257.4
-          },
-          {
-            "produto": "VILLA ROSA ROSE 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 257.4
-          },
-          {
-            "produto": "VODKA ORLOFF 1L - DEST",
-            "fantasia": "",
-            "qt": 24,
-            "valor": 490.08
-          },
-          {
-            "produto": "WHISKY BALLANTINE'S FINEST 1L",
-            "fantasia": "PERNOD",
-            "qt": 3,
-            "valor": 177.54
-          }
-        ]
-      },
-      {
         "codcli": "37909",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "MUARAMA",
@@ -917,44 +917,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "CASTAS",
             "qt": 12,
             "valor": 514.8
-          },
-          {
-            "produto": "VODKA ORLOFF 1L - DEST",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 245.04
-          },
-          {
-            "produto": "WHISKY BALLANTINE'S FINEST 1L",
-            "fantasia": "PERNOD",
-            "qt": 3,
-            "valor": 177.54
-          }
-        ]
-      },
-      {
-        "codcli": "35222",
-        "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "JARDIM ANA MARIA",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA TINTO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 257.4
-          },
-          {
-            "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 461.4
-          },
-          {
-            "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
-            "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 586.8
           },
           {
             "produto": "VODKA ORLOFF 1L - DEST",
@@ -993,6 +955,44 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 24,
             "valor": 490.08
+          }
+        ]
+      },
+      {
+        "codcli": "35222",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "JARDIM ANA MARIA",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA TINTO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 257.4
+          },
+          {
+            "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 461.4
+          },
+          {
+            "produto": "VINHO FOODKILLER CHARDONNAY 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 586.8
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 245.04
+          },
+          {
+            "produto": "WHISKY BALLANTINE'S FINEST 1L",
+            "fantasia": "PERNOD",
+            "qt": 3,
+            "valor": 177.54
           }
         ]
       },
@@ -1097,20 +1097,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "34350",
-        "cliente": "FAE INDUSTRIA E COMERCIO DE ALIMENTOS LTDA",
-        "bairro": "GUTIERREZ",
-        "dtultcomp": "09/03/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN  LONG ZERO 24X330ML",
-            "fantasia": "HEINEKEN",
-            "qt": 5,
-            "valor": 706.8
-          }
-        ]
-      },
-      {
         "codcli": "36737",
         "cliente": "RECANTO INDUSTRIA E COMERCIO LTDA",
         "bairro": "LOURDES",
@@ -1207,56 +1193,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "BEAM SUNTORY",
             "qt": 1,
             "valor": 89.9
-          }
-        ]
-      },
-      {
-        "codcli": "32775",
-        "cliente": "BAR RESTAURANTE E LANCHONETE TDL LTDA",
-        "bairro": "SANTO ANTONIO",
-        "dtultcomp": "21/05/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK  RED BULL",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 63.92
-          },
-          {
-            "produto": "4 PACK RED BULL TROPICAL",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 31.96
-          },
-          {
-            "produto": "CACHACA SELETA 1000ML",
-            "fantasia": "SELETA",
-            "qt": 1,
-            "valor": 44.9
-          },
-          {
-            "produto": "GIN TANQUERAY  750 ML",
-            "fantasia": "DIAGEO",
-            "qt": 1,
-            "valor": 98.9
-          },
-          {
-            "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
-            "fantasia": "AURORA",
-            "qt": 1,
-            "valor": 147.9
-          },
-          {
-            "produto": "VODKA ABSOLUT - 1 LITRO",
-            "fantasia": "PERNOD",
-            "qt": 1,
-            "valor": 79.9
-          },
-          {
-            "produto": "XAROPE 1883 DE TANGERINA 1L",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 68.9
           }
         ]
       },
@@ -2377,44 +2313,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30347",
-        "cliente": "DUARTE DISTRIBUIDORA DE BEBIDAS LTDA",
-        "bairro": "ANGOLA",
-        "dtultcomp": "09/07/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK  RED BULL",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 31.96
-          },
-          {
-            "produto": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
-            "fantasia": "DIAGEO",
-            "qt": 6,
-            "valor": 1193.4
-          },
-          {
-            "produto": "WHISKY JACK DANIELS BLACKBERRY 1L",
-            "fantasia": "BROWN-FORMAN",
-            "qt": 12,
-            "valor": 1678.8
-          },
-          {
-            "produto": "WHISKY WALKER RED LABEL 1L",
-            "fantasia": "DIAGEO",
-            "qt": 12,
-            "valor": 874.8
-          },
-          {
-            "produto": "XAROPE  MONIN CARAMELO SALGADO 700 ML",
-            "fantasia": "MONIN",
-            "qt": 3,
-            "valor": 149.7
-          }
-        ]
-      },
-      {
         "codcli": "33048",
         "cliente": "PEDROZA DISTRIBUIDORA DE BEBIDAS LTDA",
         "bairro": "NITERÓI",
@@ -3147,44 +3045,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "DIAGEO",
             "qt": 2,
             "valor": 261.6
-          }
-        ]
-      },
-      {
-        "codcli": "31643",
-        "cliente": "GISELE ATAIDE ANDRADE",
-        "bairro": "BARRO PRETO",
-        "dtultcomp": "28/07/2026",
-        "produtos": [
-          {
-            "produto": "APERITIVO APEROL 750 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 97.8
-          },
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 383.52
-          },
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 191.76
-          },
-          {
-            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 191.76
-          },
-          {
-            "produto": "VODKA ABSOLUT TABASCO - 750 ML",
-            "fantasia": "PERNOD",
-            "qt": 1,
-            "valor": 85.9
           }
         ]
       },
@@ -4572,172 +4432,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "38187",
-        "cliente": "SUPERMERCADO NOVO HORIZONTE MELO VIANA LTDA",
-        "bairro": "MELO VIANA (MELO VIANA)",
-        "dtultcomp": "08/07/2026",
-        "produtos": [
-          {
-            "produto": "BEEFEATER PINK 700ML",
-            "fantasia": "PERNOD",
-            "qt": 2,
-            "valor": 169.8
-          },
-          {
-            "produto": "GIN ORLOFF 1L",
-            "fantasia": "PERNOD",
-            "qt": 2,
-            "valor": 99.8
-          },
-          {
-            "produto": "RUM BACARDI CARTA BLANCA 980 ML",
-            "fantasia": "BACARDI",
-            "qt": 2,
-            "valor": 97.8
-          },
-          {
-            "produto": "RUM MALIBU 750 ML",
-            "fantasia": "PERNOD",
-            "qt": 2,
-            "valor": 109.8
-          },
-          {
-            "produto": "TEQUILA J CUERVO GOLD 750ML",
-            "fantasia": "AURORA",
-            "qt": 2,
-            "valor": 259.8
-          },
-          {
-            "produto": "TEQUILA J CUERVO SILVER 750ML",
-            "fantasia": "AURORA",
-            "qt": 2,
-            "valor": 259.8
-          },
-          {
-            "produto": "WHISKY BALLANTINES 10 YO 1L",
-            "fantasia": "PERNOD",
-            "qt": 2,
-            "valor": 199.8
-          }
-        ]
-      },
-      {
-        "codcli": "38181",
-        "cliente": "SUPERMERCADO NOVOS HORIZONTES METROPOLITANO LTDA",
-        "bairro": "FAZENDA CASTRO",
-        "dtultcomp": "08/07/2026",
-        "produtos": [
-          {
-            "produto": "MARTINI BIANCO 750 ML",
-            "fantasia": "BACARDI",
-            "qt": 2,
-            "valor": 87.8
-          },
-          {
-            "produto": "MARTINI EXTRA DRY 750 ML",
-            "fantasia": "BACARDI",
-            "qt": 2,
-            "valor": 87.8
-          },
-          {
-            "produto": "RUM BACARDI MOJITO 980ML",
-            "fantasia": "BACARDI",
-            "qt": 2,
-            "valor": 97.8
-          },
-          {
-            "produto": "TEQUILA J CUERVO GOLD 750ML",
-            "fantasia": "AURORA",
-            "qt": 2,
-            "valor": 259.8
-          },
-          {
-            "produto": "TEQUILA J CUERVO SILVER 750ML",
-            "fantasia": "AURORA",
-            "qt": 2,
-            "valor": 259.8
-          }
-        ]
-      },
-      {
-        "codcli": "38183",
-        "cliente": "SUPERMERCADO NOVO HORIZONTE JARDIM LAGUNA LTDA",
-        "bairro": "JARDIM LAGUNA",
-        "dtultcomp": "09/07/2026",
-        "produtos": [
-          {
-            "produto": "AMARULA C LIQUEUR 750 ML",
-            "fantasia": "AURORA",
-            "qt": 1,
-            "valor": 119.9
-          },
-          {
-            "produto": "TEQUILA J CUERVO GOLD 750ML",
-            "fantasia": "AURORA",
-            "qt": 2,
-            "valor": 259.8
-          },
-          {
-            "produto": "TEQUILA J CUERVO SILVER 750ML",
-            "fantasia": "AURORA",
-            "qt": 1,
-            "valor": 129.9
-          }
-        ]
-      },
-      {
-        "codcli": "35122",
-        "cliente": "SUPERMERCADO NOVO HORIZONTE LIBERDADE PLUS LTDA",
-        "bairro": "LIBERDADE",
-        "dtultcomp": "09/07/2026",
-        "produtos": [
-          {
-            "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
-            "fantasia": "AURORA",
-            "qt": 1,
-            "valor": 159.9
-          },
-          {
-            "produto": "MARTINI BIANCO 750 ML",
-            "fantasia": "BACARDI",
-            "qt": 2,
-            "valor": 87.8
-          },
-          {
-            "produto": "WHISKY BALLANTINES SUNSHINE 700ML",
-            "fantasia": "PERNOD",
-            "qt": 4,
-            "valor": 239.6
-          }
-        ]
-      },
-      {
-        "codcli": "38180",
-        "cliente": "SUPERMERCADO NOVO HORIZONTE VENEZA LTDA",
-        "bairro": "VENEZA",
-        "dtultcomp": "09/07/2026",
-        "produtos": [
-          {
-            "produto": "AMARULA C LIQUEUR 750 ML",
-            "fantasia": "AURORA",
-            "qt": 1,
-            "valor": 119.9
-          },
-          {
-            "produto": "MARTINI ROSATO 750 ML",
-            "fantasia": "BACARDI",
-            "qt": 2,
-            "valor": 87.8
-          },
-          {
-            "produto": "TEQUILA J CUERVO SILVER 750ML",
-            "fantasia": "AURORA",
-            "qt": 1,
-            "valor": 129.9
-          }
-        ]
-      },
-      {
         "codcli": "31571",
         "cliente": "PARANAIBA EXPRESS",
         "bairro": "ALPHAVILLE VESPASIANO",
@@ -4906,26 +4600,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "DIAGEO",
             "qt": 6,
             "valor": 335.4
-          }
-        ]
-      },
-      {
-        "codcli": "35500",
-        "cliente": "SUPERMERCADO NOVO HORIZONTE NASCIMENTO LTDA.",
-        "bairro": "SAO FRANCISCO DE ASSIS",
-        "dtultcomp": "14/07/2026",
-        "produtos": [
-          {
-            "produto": "AMARULA C LIQUEUR 750 ML",
-            "fantasia": "AURORA",
-            "qt": 1,
-            "valor": 119.9
-          },
-          {
-            "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750 M",
-            "fantasia": "BALLENA",
-            "qt": 2,
-            "valor": 231.8
           }
         ]
       },
@@ -7090,26 +6764,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "PERNOD",
             "qt": 12,
             "valor": 1318.8
-          }
-        ]
-      },
-      {
-        "codcli": "33979",
-        "cliente": "BERNARDO GONCALVES DOMINGOS DE ABREU",
-        "bairro": "JARDIM DE ALÁ",
-        "dtultcomp": "21/07/2026",
-        "produtos": [
-          {
-            "produto": "VODKA SMIRNOFF RED 998 ML",
-            "fantasia": "DIAGEO",
-            "qt": 36,
-            "valor": 882.0
-          },
-          {
-            "produto": "WHISKY WALKER RED LABEL 1L",
-            "fantasia": "DIAGEO",
-            "qt": 36,
-            "valor": 2444.4
           }
         ]
       },
