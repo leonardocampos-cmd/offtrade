@@ -7,6 +7,7 @@
   <title>Objetivos OFF TRADE RJ</title>
   <script src="metas_data.js"></script>
   <script src="vendas_data.js"></script>
+  <script src="pedidos_data.js"></script>
   <script src="amarula_data.js"></script>
   <script src="crusoe_data.js"></script>
   <script src="gerentes_data.js"></script>
@@ -896,8 +897,50 @@ function _chavePedido(v, idx) {
   return `ITEM:${idx}`;
 }
 
-function _statusPedidoInfo(status) {
-  switch (status) {
+// Cruza com pedidos_data.js (pedidos.py) por sistema+número da nota, pra
+// mostrar o status de logística real (EM ROTA, ENTREGUE, etc — Controle de
+// Notas / Canhoto Digital) em vez de só "EMITIDO" — pedido do usuário em
+// 2026-08-13, mesma fonte que pedidos.html já usa. Só cobre pedidos.py::
+// DIAS_JANELA (90 dias) — fora dessa janela, cai de volta pra "EMITIDO"
+// genérico (sem dado de logística disponível).
+const _logisticaPorChave = {};
+if (typeof PEDIDOS_DATA !== 'undefined' && PEDIDOS_DATA.faturados) {
+  PEDIDOS_DATA.faturados.forEach(p => {
+    if (p.sistema && p.numnota) _logisticaPorChave[`${p.sistema}|${p.numnota}`] = p;
+  });
+}
+
+function _logisticaDoPedido(sistema, nunota) {
+  if (!sistema || !nunota) return null;
+  return _logisticaPorChave[`${sistema}|${nunota}`] || null;
+}
+
+// Mesma classificação de cor que pedidos.html::_statusLogBadge (mantém o
+// mesmo semáforo visual entre as duas páginas).
+function _corLogistico(statusRaw) {
+  const s = (statusRaw || '').toUpperCase();
+  if (s === 'ENTREGUE' || s.includes('ENTREGA TOTAL') || s === 'COMPROVADO')
+    return { cor: '#22c55e', bg: 'rgba(34,197,94,.1)' };
+  if (s === 'RETORNO' || s.includes('ENTREGA PARCIAL'))
+    return { cor: '#f97316', bg: 'rgba(249,115,22,.1)' };
+  if (s === 'CANCELADA')
+    return { cor: '#ef4444', bg: 'rgba(239,68,68,.1)' };
+  if (s === 'EM ROTA')
+    return { cor: '#22c55e', bg: 'rgba(34,197,94,.1)' };
+  if (s === 'CARREGADO')
+    return { cor: '#3b82f6', bg: 'rgba(59,130,246,.1)' };
+  return { cor: 'var(--muted)', bg: '' }; // ABERTO ou outro
+}
+
+function _statusPedidoInfo(p) {
+  if (p.status === 'emitido' && p.logistica) {
+    const statusTxt = p.logistica.status_log || (p.logistica.em_rota ? 'EM ROTA' : '');
+    if (statusTxt) {
+      const { cor, bg } = _corLogistico(statusTxt);
+      return { label: statusTxt.toUpperCase(), cor, bg };
+    }
+  }
+  switch (p.status) {
     case 'cancelado':     return { label: 'CANCELADO',     cor: '#ef4444', bg: 'rgba(239,68,68,.1)' };
     case 'corte_parcial': return { label: 'CORTE PARCIAL', cor: '#f97316', bg: 'rgba(249,115,22,.1)' };
     case 'devolvido':     return { label: 'DEVOLVIDO',     cor: '#a855f7', bg: 'rgba(168,85,247,.1)' };
@@ -913,6 +956,7 @@ function _agruparPedidos(vendas) {
     if (!grupos.has(chave)) {
       grupos.set(chave, {
         chave, data: v.data, codcli: v.codcli, cliente: v.cliente,
+        sistema: v.sistema, nunota: v.nunota,
         itens: [], valor: 0, qt: 0,
       });
     }
@@ -927,7 +971,8 @@ function _agruparPedidos(vendas) {
     else if (g.itens.some(it => it.cancelado_parcial)) status = 'corte_parcial';
     else if (g.itens.every(it => it.devolvido)) status = 'devolvido';
     else if (g.itens.every(it => it.tipo === 'Bonificado')) status = 'bonificado';
-    return { ...g, status };
+    const logistica = status === 'emitido' ? _logisticaDoPedido(g.sistema, g.nunota) : null;
+    return { ...g, status, logistica };
   });
 }
 
@@ -946,8 +991,8 @@ function buildPedidosTable(pedidos) {
     return `<div class="vendas-empty">Nenhum pedido registrado este mês.</div>`;
   }
   const rows = pedidos.map((p, idx) => {
-    const info = _statusPedidoInfo(p.status);
-    const destacar = p.status !== 'emitido';
+    const info = _statusPedidoInfo(p);
+    const destacar = !!info.bg;
     const ref = p.itens[0];
     const numPedido = ref.nunota ? `NF ${ref.nunota}` : (ref.numped ? `Ped ${ref.numped}` : '—');
     return `
@@ -983,7 +1028,7 @@ function buildPedidosTable(pedidos) {
 function abrirDetalhesPedido(idx) {
   const p = _pedidosAtuais[idx];
   if (!p) return;
-  const info = _statusPedidoInfo(p.status);
+  const info = _statusPedidoInfo(p);
   const ref = p.itens[0];
   const numPedido = ref.nunota ? `Nota ${ref.nunota}` : (ref.numped ? `Pedido ${ref.numped}` : 'Sem identificador');
   const itensHtml = p.itens.map(it => `
@@ -1009,6 +1054,7 @@ function abrirDetalhesPedido(idx) {
           </div>
           <span style="font-size:.68rem;background:${info.bg || 'rgba(34,197,94,.15)'};color:${info.cor};border:1px solid ${info.cor}55;border-radius:5px;padding:2px 8px;font-weight:700;white-space:nowrap">${info.label}</span>
         </div>
+        ${p.logistica && (p.logistica.rota || p.logistica.data_entrega) ? `<div style="font-size:.74rem;color:var(--muted);margin-top:6px">${p.logistica.rota ? `Rota: ${p.logistica.rota}${p.logistica.placa ? ' · Placa ' + p.logistica.placa : ''}` : ''}${p.logistica.rota && p.logistica.data_entrega ? ' &middot; ' : ''}${p.logistica.data_entrega ? `Entrega: ${p.logistica.data_entrega.split('-').reverse().join('/')}` : ''}</div>` : ''}
         <table class="vendas-table" style="margin-top:12px">
           <thead>
             <tr><th>Produto</th><th>Fornecedor</th><th style="text-align:right">Qtde</th><th style="text-align:right">Valor</th></tr>

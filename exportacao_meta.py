@@ -155,7 +155,7 @@ def _query_vendas_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=Non
         SELECT
             TRUNC(M.DTMOV, 'MM')            AS MES,
             TO_CHAR(M.DTMOV, 'DD/MM/YYYY') AS DATA,
-            M.NUNOTA                        AS NUNOTA,
+            M.NUMNOTA                       AS NUNOTA,
             M.CODCLI,
             C.CLIENTE,
             M.DESCRICAO                     AS PRODUTO,
@@ -199,6 +199,10 @@ for (_s, _e, _n, _ff, _fe, _emp, _en, _to), _res in zip(_VH_CONFIGS, carregar_pa
         FONTES_INDISPONIVEIS.append(_n)
     else:
         _res['EMPRESA'] = _emp
+        # Mesmo valor de 'sistema' usado em pedidos.py (SISTEMA, ver
+        # pedidos.py::_SOURCES) — permite cruzar pedido por sistema+numnota
+        # entre vendas_data.js e pedidos_data.js (status de logística).
+        _res['SISTEMA'] = _s
         _vh_parts.append(_res)
 _vh = pd.concat(_vh_parts, ignore_index=True)
 _vh['MES']    = pd.to_datetime(_vh['MES'],   errors='coerce')
@@ -329,6 +333,9 @@ def _carregar_item_level(query_fn, configs, sufixo, usa_filial=True):
         if isinstance(_res, Exception):
             print(f"[AVISO] {_n}_{sufixo} falhou — ignorado")
         else:
+            # Mesmo valor de 'sistema' de pedidos.py — cruza com pedidos_data.js
+            # por sistema+numnota (status de logística) em metas.html.
+            _res['SISTEMA'] = _s
             partes.append(_res)
     if not partes:
         return pd.DataFrame()
@@ -379,6 +386,7 @@ if not _vc_cancel_pos.empty:
             'cancelado_parcial': False,
             'numped':    _id_str(row.get('NUMPED')),
             'nunota':    '',
+            'sistema':   str(row.get('SISTEMA') or ''),
         })
     print(f"OK vendas: {len(_vc_cancel_pos)} item(ns) cancelado(s) pós-NF")
 
@@ -401,6 +409,7 @@ if not _vc_cancel_pre.empty:
             'cancelado_parcial': False,
             'numped':    _id_str(row.get('NUMPED')),
             'nunota':    '',
+            'sistema':   str(row.get('SISTEMA') or ''),
         })
     print(f"OK vendas: {len(_vc_cancel_pre)} item(ns) cancelado(s) pré-NF")
 
@@ -426,11 +435,13 @@ if not _vc_corte.empty:
             'cancelado': False,
             'cancelado_parcial': True,
             'numped':    _id_str(row.get('NUMPED')),
-            # NUMNOTA aqui é o mesmo campo que M.NUNOTA na venda faturada
-            # (PCMOV) — quando bate, o item de corte se junta ao pedido já
+            # PED.NUMNOTA (PBI_PCPEDI) aqui é o mesmo campo que M.NUMNOTA na
+            # venda faturada (PCMOV) — quando bate, o item de corte se junta
+            # ao pedido já
             # faturado no agrupamento do metas.html; quando não bate (schemas
             # onde os dois não coincidem), vira uma linha própria mesmo assim.
             'nunota':    _id_str(row.get('NUMNOTA')),
+            'sistema':   str(row.get('SISTEMA') or ''),
         })
     print(f"OK vendas: {len(_vc_corte)} item(ns) com corte parcial")
 
@@ -929,6 +940,7 @@ for _, row in _vh.iterrows():
         'cancelado_parcial': False,
         'numped':  '',
         'nunota':  _id_str(row.get('NUNOTA')),
+        'sistema': str(row.get('SISTEMA') or ''),
     })
 
 # Mescla os itens de cancelado/corte parcial (não vêm de _vh/PCMOV — ver bloco
