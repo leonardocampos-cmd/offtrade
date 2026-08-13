@@ -10,7 +10,7 @@
   // Normaliza nomes tipo "vendas_CASTAS"/"cadastros_CASTAS"/"historico_CASTAS"
   // para só "CASTAS" — cada *_DATA pode listar várias tabelas da mesma base
   // indisponível, e o popup deve mostrar a base uma vez só.
-  var BASES_CONHECIDAS = ['CRC', 'thekings', 'CASTAS', 'GARRIDO', 'SPON', 'MGON'];
+  var BASES_CONHECIDAS = ['CRC', 'thekings', 'CASTAS', 'GARRIDO', 'SPON', 'MGON', 'BLENDED'];
   function normalizarFonte(nome) {
     for (var i = 0; i < BASES_CONHECIDAS.length; i++) {
       if (nome.toLowerCase().indexOf(BASES_CONHECIDAS[i].toLowerCase()) !== -1) {

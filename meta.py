@@ -59,6 +59,16 @@ engine_mgon = create_engine(
     pool_recycle=3600,
     connect_args={"expire_time": 2}
 )
+# BLENDED (SP) — adicionado em 2026-08-13, pedido do usuário: operação nova
+# em São Paulo, schema BLENDED dentro do banco BLENDED_OCI (tnsnames.ora).
+# Mesma credencial genérica VPN_USER/VPN_PASSWORD das outras bases (CASTAS,
+# GARRIDO, MGON, thekings).
+engine_blended = create_engine(
+    f'oracle+oracledb://{user}:{password}@blended_oci',
+    pool_pre_ping=True,
+    pool_recycle=3600,
+    connect_args={"expire_time": 2}
+)
 
 # Nomes das fontes (bancos Oracle) que falharam nesta execução — usado para
 # avisar o usuário em metas.html que os resultados podem estar incompletos.

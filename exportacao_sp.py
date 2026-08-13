@@ -1,7 +1,19 @@
-# exportacao_sp.py — Gera vendas_sp_data.js a partir do banco SP (spon_oci, schema sp)
+# exportacao_sp.py — Gera vendas_sp_data.js pros vendedores de SP.
+# Vendas de SP não moram só no schema SPON (spon_oci) — existem vendedores
+# ESTADO='SP' "escondidos" em CRC/CASTAS também (confirmado em 2026-08-13:
+# 1 RCA em CRC, 1 em CASTAS; thekings/GARRIDO/MGON não têm nenhum hoje, mas
+# ficam configurados por segurança) — pedido do usuário: "as vendas de SP
+# devem ser buscadas em todos os sistemas". GARRIDO fica de fora: não tem
+# PCUSUARI.ESTADO preenchido em nenhuma linha, não dá pra distinguir SP ali
+# sem outro sinal. BLENDED é uma fonte adicional nova (banco BLENDED_OCI,
+# schema BLENDED) — lá TODOS os OFF TRADE têm ESTADO nulo (confirmado
+# 2026-08-13), então é tratada como schema inteiro = SP (mesma lógica que
+# CASTAS/GARRIDO já usam em exportacao_meta.py: schema inteiro = uma
+# empresa/região, sem precisar de filtro de estado).
 import json
 import os
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import pandas as pd
 import oracledb
 from sqlalchemy import create_engine
@@ -12,7 +24,7 @@ from dotenv import load_dotenv
 load_dotenv(Path(__file__).parent / ".env")
 
 from utils import ORACLE_LIB, git_commit_push
-from meta import _com_timeout_forcado
+from meta import _com_timeout_forcado, engine, engine_theking, engine_castas, engine_mgon, engine_blended
 oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
 
 user     = os.environ["SPON_USER"]
@@ -25,6 +37,16 @@ engine_sp = create_engine(
     pool_recycle=3600,
     connect_args={"expire_time": 2}
 )
+
+# (nome_fonte, engine, schema, filtra_por_estado)
+_SP_SOURCES = [
+    ("SPON",      engine_sp,       "SPON",     True),
+    ("CRC",       engine,          "CRC",      True),
+    ("thekings",  engine_theking,  "THEKINGS", True),
+    ("CASTAS",    engine_castas,   "CASTAS",   True),
+    ("MGON",      engine_mgon,     "MGON",     True),
+    ("BLENDED",   engine_blended,  "BLENDED",  False),
+]
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -69,38 +91,63 @@ def carregar_dados(query, engine, nome='tabela', max_tentativas=3, timeout_por_t
             else:
                 raise e
 
-# ── Query: vendas SP (últimos 6 meses) ───────────────────────────────────────
-# Ajuste CODFILIAL se necessário para filtrar apenas filiais SP relevantes
+# ── Query: vendas SP (últimos 12 meses), uma por fonte ───────────────────────
+# filtra_por_estado=True: schema tem múltiplos estados, restringe a SP.
+# filtra_por_estado=False: schema inteiro já é considerado SP (BLENDED, sem
+# ESTADO preenchido) — mesmo padrão de CASTAS/GARRIDO em exportacao_meta.py.
 
-QUERY_VENDAS_SP = """
-    SELECT
-        TRUNC(M.DTMOV, 'MM')            AS MES,
-        TO_CHAR(M.DTMOV, 'DD/MM/YYYY') AS DATA,
-        M.CODCLI,
-        C.CLIENTE,
-        M.DESCRICAO                     AS PRODUTO,
-        F.FANTASIA,
-        M.QT,
-        (M.PUNIT * M.QT)               AS VALOR,
-        U.NOME                          AS NOME_ORACLE,
-        U.CODUSUR                       AS CODUSUR,
-        C.OFFTRADE                      AS OFFTRADE
-    FROM SPON.PCMOV M
-    JOIN SPON.PCUSUARI U  ON M.CODUSUR  = U.CODUSUR
-    LEFT JOIN SPON.PCCLIENT C ON M.CODCLI = C.CODCLI
-    JOIN SPON.PCPRODUT P  ON M.CODPROD  = P.CODPROD
-    JOIN SPON.PCFORNEC F  ON P.CODFORNEC = F.CODFORNEC
-    WHERE M.DTMOV >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -12)
-      AND M.CODOPER = 'S'
-      AND M.NUMNOTADEV IS NULL
-      AND M.DTCANCEL  IS NULL
-      AND (U.NOME LIKE '%OFF TRADE%' OR U.NOME = 'W.S')
-      AND U.ESTADO = 'SP'
-"""
+def _query_vendas_sp(schema, filtra_por_estado):
+    extra_estado = "\n      AND U.ESTADO = 'SP'" if filtra_por_estado else ""
+    return f"""
+        SELECT
+            TRUNC(M.DTMOV, 'MM')            AS MES,
+            TO_CHAR(M.DTMOV, 'DD/MM/YYYY') AS DATA,
+            M.CODCLI,
+            C.CLIENTE,
+            M.DESCRICAO                     AS PRODUTO,
+            F.FANTASIA,
+            M.QT,
+            (M.PUNIT * M.QT)               AS VALOR,
+            U.NOME                          AS NOME_ORACLE,
+            U.CODUSUR                       AS CODUSUR,
+            C.OFFTRADE                      AS OFFTRADE
+        FROM {schema}.PCMOV M
+        JOIN {schema}.PCUSUARI U  ON M.CODUSUR  = U.CODUSUR
+        LEFT JOIN {schema}.PCCLIENT C ON M.CODCLI = C.CODCLI
+        JOIN {schema}.PCPRODUT P  ON M.CODPROD  = P.CODPROD
+        JOIN {schema}.PCFORNEC F  ON P.CODFORNEC = F.CODFORNEC
+        WHERE M.DTMOV >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -12)
+          AND M.CODOPER = 'S'
+          AND M.NUMNOTADEV IS NULL
+          AND M.DTCANCEL  IS NULL
+          AND (U.NOME LIKE '%OFF TRADE%' OR U.NOME = 'W.S'){extra_estado}
+    """
 
-# ── Carrega e limpa dados ─────────────────────────────────────────────────────
+# ── Carrega e limpa dados (todas as fontes em paralelo) ──────────────────────
 
-_vh = carregar_dados(QUERY_VENDAS_SP, engine_sp, "vendas_SP")
+_partes_vh = []
+with ThreadPoolExecutor(max_workers=len(_SP_SOURCES)) as _ex:
+    _futuros = {
+        _ex.submit(carregar_dados, _query_vendas_sp(_schema, _fe), _eng, f"vendas_SP_{_nome}"): _nome
+        for _nome, _eng, _schema, _fe in _SP_SOURCES
+    }
+    for _fut in as_completed(_futuros):
+        _nome = _futuros[_fut]
+        try:
+            _df = _fut.result()
+            if not _df.empty:
+                # CODUSUR é atribuído independentemente por sistema — dois
+                # vendedores diferentes em bases diferentes podem ter o
+                # mesmo número (mesmo motivo de meta.py::nome_display_por_oracle).
+                # Marca a origem pra nunca agrupar/mapear só por CODUSUR cru.
+                _df['SISTEMA'] = _nome
+                _partes_vh.append(_df)
+        except Exception as _ex_err:
+            print(f"[AVISO] vendas_SP_{_nome} falhou ({str(_ex_err)[:100]}) — ignorada")
+
+if not _partes_vh:
+    raise RuntimeError("Nenhuma fonte de vendas SP disponível — todas as bases Oracle estão fora do ar.")
+_vh = pd.concat(_partes_vh, ignore_index=True)
 
 _vh['MES']      = pd.to_datetime(_vh['MES'],   errors='coerce')
 _vh['QT']       = pd.to_numeric(_vh['QT'],     errors='coerce').fillna(0).astype(int)
@@ -125,9 +172,15 @@ _vh = _vh[_vh['VENDEDOR'].notna() & (_vh['VENDEDOR'] != '')].copy()
 print(f"Vendedores SP encontrados: {sorted(_vh['VENDEDOR'].unique())}")
 
 # ── Monta mapa nome → RCA ─────────────────────────────────────────────────────
-
+# Fica com o CODUSUR cru (não "SISTEMA/CODUSUR"): sp.html compara isso contra
+# sessionStorage.rg_vendedor.rca no login (VENDEDORES_AUTH, também por
+# CODUSUR cru — ver exportacao_vendedores_auth.py e o caso Jeter) — prefixar
+# aqui quebraria esse match e derrubaria o acesso do vendedor à própria
+# página. Colisão de CODUSUR entre sistemas não é problema aqui porque a
+# chave do dict já é o NOME (uma pessoa só), diferente de _codusur_nome
+# abaixo (que resolve o sentido contrário e precisa do par SISTEMA+CODUSUR).
 _rcas: dict[str, str] = {}
-for _, row in _vh[['VENDEDOR', 'CODUSUR']].drop_duplicates().iterrows():
+for _, row in _vh[['VENDEDOR', 'CODUSUR']].drop_duplicates(subset=['VENDEDOR']).iterrows():
     _rcas[row['VENDEDOR']] = str(int(row['CODUSUR']))
 
 # ── Metas SP ──────────────────────────────────────────────────────────────────
@@ -215,17 +268,19 @@ for _, row in _vh.iterrows():
 
 # ── Realizado SP (pré-calculado com mesma lógica do CALCULOS_META) ────────────
 
+# Agrupa por (SISTEMA, CODUSUR), não só CODUSUR — número colide entre bases
+# (ver aviso sobre SISTEMA acima).
 _CALCULOS_SP = {
-    'fat':         lambda df: df.groupby('CODUSUR')['VALOR'].sum(),
-    'pos':         lambda df: df[df['OFFTRADE'] == 'S'].groupby('CODUSUR')['CODCLI'].nunique(),
-    'fat_pernod':  lambda df: df[df['FANTASIA'].str.contains('PERNOD',     na=False, case=False)].groupby('CODUSUR')['VALOR'].sum(),
-    'fat_crs':     lambda df: df[df['FANTASIA'].str.contains('CRS BRANDS', na=False, case=False)].groupby('CODUSUR')['VALOR'].sum(),
-    'fat_essenza': lambda df: df[df['PRODUTO'].str.contains('ESSENZA',     na=False, case=False)].groupby('CODUSUR')['VALOR'].sum(),
+    'fat':         lambda df: df.groupby(['SISTEMA', 'CODUSUR'])['VALOR'].sum(),
+    'pos':         lambda df: df[df['OFFTRADE'] == 'S'].groupby(['SISTEMA', 'CODUSUR'])['CODCLI'].nunique(),
+    'fat_pernod':  lambda df: df[df['FANTASIA'].str.contains('PERNOD',     na=False, case=False)].groupby(['SISTEMA', 'CODUSUR'])['VALOR'].sum(),
+    'fat_crs':     lambda df: df[df['FANTASIA'].str.contains('CRS BRANDS', na=False, case=False)].groupby(['SISTEMA', 'CODUSUR'])['VALOR'].sum(),
+    'fat_essenza': lambda df: df[df['PRODUTO'].str.contains('ESSENZA',     na=False, case=False)].groupby(['SISTEMA', 'CODUSUR'])['VALOR'].sum(),
 }
 
 _codusur_nome = {
-    str(int(row['CODUSUR'])): row['VENDEDOR']
-    for _, row in _vh[['CODUSUR', 'VENDEDOR']].drop_duplicates().iterrows()
+    (row['SISTEMA'], int(row['CODUSUR'])): row['VENDEDOR']
+    for _, row in _vh[['SISTEMA', 'CODUSUR', 'VENDEDOR']].drop_duplicates().iterrows()
     if pd.notna(row['CODUSUR'])
 }
 
@@ -235,8 +290,8 @@ for _mes_ts in _meses_vh:
     _df_mes  = _vh[_vh['MES'] == _mes_ts]
     for _key, _fn in _CALCULOS_SP.items():
         try:
-            for _codusur, _val in _fn(_df_mes).items():
-                _nome = _codusur_nome.get(str(int(_codusur)), str(_codusur))
+            for (_sistema, _codusur), _val in _fn(_df_mes).items():
+                _nome = _codusur_nome.get((_sistema, int(_codusur)), f"{_sistema}/{_codusur}")
                 _realizado_sp.setdefault(_nome, {}).setdefault(_mes_str, {})[_key] = round(float(_val), 2)
         except Exception:
             pass

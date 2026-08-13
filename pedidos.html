@@ -254,7 +254,10 @@ const ABAS = [
   },
   {
     chave: 'faturados', label: 'Faturados', cor: 'status-faturado',
-    colExtra: { campo: 'status_log', label: 'Status Logística', render: p => _statusLogBadge(p.status_log) },
+    colExtra: {
+      campo: 'status_log', label: 'Status Logística',
+      render: p => `<span class="cod">${_esc(p.sistema)}</span> ${_statusLogBadge(p.status_log)}`,
+    },
   },
   {
     chave: 'cancelados', label: 'Cortados/Cancelados', cor: 'status-cancelado',
@@ -1005,7 +1008,8 @@ function exportarCSV() {
 
   const abaInfo = ABAS.find(a => a.chave === _abaAtual);
   const cancelados = _abaAtual === 'cancelados';
-  const header = ['Pedido','NF','Data','Vendedor','Estado','Cidade','Cliente','Agendamento', ...(abaInfo.colExtra ? [abaInfo.colExtra.label] : []), 'Produto', 'Qtd', 'Valor Produto', cancelados ? 'Valor Cortado' : 'Total Pedido'];
+  const mostraSistema = _abaAtual === 'faturados';
+  const header = ['Pedido','NF','Data','Vendedor','Estado','Cidade','Cliente','Agendamento', ...(mostraSistema ? ['Sistema'] : []), ...(abaInfo.colExtra ? [abaInfo.colExtra.label] : []), 'Produto', 'Qtd', 'Valor Produto', cancelados ? 'Valor Cortado' : 'Total Pedido'];
   const linhas = lista.flatMap(p => {
     const itens = (p.itens && p.itens.length) ? p.itens : [{ desc: '', qt: '', val: '' }];
     return itens.map(it => [
@@ -1017,6 +1021,7 @@ function exportarCSV() {
       p.cidade,
       p.cliente,
       _agendamento(p.obs) || '',
+      ...(mostraSistema ? [p.sistema] : []),
       ...(abaInfo.colExtra ? [p[abaInfo.colExtra.campo]] : []),
       it.desc,
       it.qt,

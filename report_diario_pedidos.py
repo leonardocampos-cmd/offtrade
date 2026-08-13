@@ -188,13 +188,17 @@ def _linhas_pedidos(pedidos, campo_extra, label_extra):
                 'Pedido':        p.get('numped'),
                 'NF':            p.get('numnota'),
                 'Data':          p.get('data'),
+                'DataOrd':       p.get('data_ord'),
                 'Vendedor':      (p.get('nome') or '').replace(' - OFF TRADE', ''),
                 'Estado':        p.get('estado'),
                 'Cliente':       p.get('cliente'),
                 label_extra:     _status_display(p) if is_faturados else p.get(campo_extra),
                 'Produto':       it.get('desc'),
-                'Qtd':           it.get('qt'),
-                'Valor Produto': it.get('val'),
+                # Cancelados: 'qt'/'val' (faturado) são sempre 0 — o que
+                # importa aqui é o que foi cortado de verdade (pedido do
+                # usuário em 2026-08-12: Qtd/Valor Produto zerados na aba).
+                'Qtd':           it.get('qtd_cortada_total') if is_cancelados else it.get('qt'),
+                'Valor Produto': it.get('valor_cortado') if is_cancelados else it.get('val'),
                 col_total:       valor_total,
                 'Agendamento':   agendamento,
             }
@@ -229,19 +233,22 @@ def _linhas_produtos_cortados(produtos, estoque_idx):
             fil, prod = int(p.get('codfilial')), int(p.get('codprod'))
             saldo = estoque_idx.get((str(p.get('sistema') or '').upper(), fil, prod))
         except (TypeError, ValueError):
-            saldo = None
+            fil, saldo = None, None
         linhas.append({
             'Data':          p.get('data'),
+            'DataOrd':       p.get('data_ord'),
             'Vendedor':      (p.get('nome') or '').replace(' - OFF TRADE', ''),
             'Estado':        p.get('estado'),
             'Cliente':       p.get('cliente'),
             'Pedido':        p.get('numped'),
             'Produto':       p.get('desc'),
+            'Cód Produto':   p.get('codprod'),
             'Indústria':     p.get('industria'),
             'Qtd Cortada':   p.get('qtd_cortada_total'),
             'Qtd Pedida':    p.get('qt_original'),
             'Valor Cortado': p.get('valor_cortado'),
             'Saldo Estoque': saldo,
+            'CodFilial':     fil,
         })
     return pd.DataFrame(linhas)
 
@@ -334,7 +341,7 @@ def montar_planilha(tabelas):
     buf = io.BytesIO()
     with pd.ExcelWriter(buf, engine='openpyxl') as writer:
         for aba, df in tabelas.items():
-            df.to_excel(writer, sheet_name=aba, index=False)
+            df.drop(columns=['DataOrd', 'CodFilial'], errors='ignore').to_excel(writer, sheet_name=aba, index=False)
         if 'Resumo' in tabelas:
             ws = writer.sheets['Resumo']
             df_resumo = tabelas['Resumo']
@@ -392,27 +399,66 @@ def _esc(v):
     return str(v).replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('"', '&quot;')
 
 
+# Colunas de item (Produto/Qtd/Valor Produto) saem da linha-mestre e viram a
+# mini-tabela por trás do botão "Ver detalhes" — DataOrd é só uso interno.
+_COLS_ITEM = ('DataOrd', 'Produto', 'Qtd', 'Valor Produto')
+
+
+def _linha_detalhes(table_id, idx, grupo, colspan):
+    """Linha-mestre por pedido (1 por pedido, não por item) com botão 'Ver
+    detalhes' que expande os produtos numa mini-tabela — pedido do usuário
+    em 2026-08-12, antes cada produto poluía a tabela como uma linha solta."""
+    det_id = f'{table_id}-det-{idx}'
+    n = len(grupo)
+    itens_html = ''.join(
+        f"<tr><td>{_esc(r['Produto'])}</td><td>{_esc(r['Qtd'])}</td><td>{_esc(r['Valor Produto'])}</td></tr>"
+        for _, r in grupo.iterrows()
+    )
+    botao = (
+        f"<button type='button' class='btn-detalhes' data-target='{det_id}'>"
+        f"Ver detalhes ({n})</button>"
+    )
+    detalhes = (
+        f"<tr class='detalhes-row' id='{det_id}' style='display:none'>"
+        f"<td colspan='{colspan}'><table class='mini-produtos'><thead><tr>"
+        f"<th>Produto</th><th>Qtd</th><th>Valor Produto</th></tr></thead>"
+        f"<tbody>{itens_html}</tbody></table></td></tr>"
+    )
+    return botao, detalhes
+
+
 def _tabela_faturados_com_filtro(df, table_id):
     """Tabela com badge de status + dropdown JS pra filtrar linha por status
-    logística direto no HTML (pedido do usuário em 2026-08-12)."""
+    logística direto no HTML (pedido do usuário em 2026-08-12). Cada linha
+    também leva data-data (data do pedido, 'DataOrd' — AAAA-MM-DD) pro
+    filtro global de data (pedido do usuário em 2026-08-12)."""
     status_unicos = sorted({(v or 'Sem status') for v in df['Status Logística']})
     opcoes = ''.join(f"<option value='{_esc(s)}'>{_esc(s)}</option>" for s in status_unicos)
     filtro_html = (
         f"<div class='filtro-status'><label for='{table_id}-sel'>Filtrar por status logística:</label>"
-        f"<select id='{table_id}-sel' onchange=\"filtrarStatus('{table_id}', this.value)\">"
-        f"<option value=''>Todos ({len(df)})</option>{opcoes}</select></div>"
+        f"<select id='{table_id}-sel' onchange=\"aplicarFiltros()\">"
+        f"<option value=''>Todos ({df['Pedido'].nunique()})</option>{opcoes}</select></div>"
     )
-    cols = list(df.columns)
-    header = ''.join(f'<th>{_esc(c)}</th>' for c in cols)
+    cols = [c for c in df.columns if c not in _COLS_ITEM]
+    header = ''.join(f'<th>{_esc(c)}</th>' for c in cols) + '<th>Detalhes</th>'
     linhas = []
-    for _, row in df.iterrows():
+    for idx, (_, grupo) in enumerate(df.groupby('Pedido', sort=False)):
+        row = grupo.iloc[0]
         status_raw = row['Status Logística'] or 'Sem status'
         cells = ''.join(
             f"<td>{_status_badge_html(row[c])}</td>" if c == 'Status Logística' else f"<td>{_esc(row[c])}</td>"
             for c in cols
         )
-        linhas.append(f"<tr data-status=\"{_esc(status_raw)}\">{cells}</tr>")
-    tabela_html = f"<table id='{table_id}'><thead><tr>{header}</tr></thead><tbody>{''.join(linhas)}</tbody></table>"
+        botao, detalhes = _linha_detalhes(table_id, idx, grupo, len(cols) + 1)
+        linhas.append(
+            f"<tr data-status=\"{_esc(status_raw)}\" data-data=\"{_esc(row.get('DataOrd'))}\" "
+            f"data-pedido=\"{_esc(row.get('Pedido'))}\" data-valor=\"{_esc(row.get('Total Pedido'))}\" "
+            f"data-dias=\"{_esc(row.get('Dias sem Entrega'))}\">{cells}<td>{botao}</td></tr>{detalhes}"
+        )
+    tabela_html = (
+        f"<table id='{table_id}' class='tbl-filtravel' data-aba='Faturados'>"
+        f"<thead><tr>{header}</tr></thead><tbody>{''.join(linhas)}</tbody></table>"
+    )
     return filtro_html, tabela_html
 
 
@@ -431,26 +477,89 @@ def _posicao_badge_html(posicao):
     return f"<span class='badge' style='background:{cor}22;color:{cor};border-color:{cor}55'>{posicao}</span>"
 
 
-def _tabela_pedidos_feitos_com_destaque(df):
+def _tabela_pedidos_feitos_com_destaque(df, table_id):
     """Linha inteira com fundo vermelho quando bloqueado — pedido do usuário
-    em 2026-08-12 pra chamar atenção pros pedidos feitos travados."""
-    cols = list(df.columns)
-    header = ''.join(f'<th>{_esc(c)}</th>' for c in cols)
+    em 2026-08-12 pra chamar atenção pros pedidos feitos travados. Cada
+    linha também leva data-data pro filtro global de data, e uma por pedido
+    (não por item) com botão 'Ver detalhes' pros produtos."""
+    cols = [c for c in df.columns if c not in _COLS_ITEM]
+    header = ''.join(f'<th>{_esc(c)}</th>' for c in cols) + '<th>Detalhes</th>'
     linhas = []
-    for _, row in df.iterrows():
+    for idx, (_, grupo) in enumerate(df.groupby('Pedido', sort=False)):
+        row = grupo.iloc[0]
         bloqueado = str(row.get('Posição') or '').strip().upper() in _STATUS_BLOQUEADO
+        agendado = bool(row.get('Agendamento'))
         cells = ''.join(
             f"<td>{_posicao_badge_html(row[c])}</td>" if c == 'Posição' else f"<td>{_esc(row[c])}</td>"
             for c in cols
         )
         tr_style = " style='background:rgba(239,68,68,.12)'" if bloqueado else ''
-        linhas.append(f"<tr{tr_style}>{cells}</tr>")
-    return f"<table><thead><tr>{header}</tr></thead><tbody>{''.join(linhas)}</tbody></table>"
+        botao, detalhes = _linha_detalhes(table_id, idx, grupo, len(cols) + 1)
+        linhas.append(
+            f"<tr{tr_style} data-data=\"{_esc(row.get('DataOrd'))}\" data-pedido=\"{_esc(row.get('Pedido'))}\" "
+            f"data-valor=\"{_esc(row.get('Total Pedido'))}\" data-agendamento=\"{'1' if agendado else ''}\" "
+            f"data-bloqueado=\"{'1' if bloqueado else ''}\">{cells}<td>{botao}</td></tr>{detalhes}"
+        )
+    return (
+        f"<table id='{table_id}' class='tbl-filtravel' data-aba='Pedidos Feitos'>"
+        f"<thead><tr>{header}</tr></thead><tbody>{''.join(linhas)}</tbody></table>"
+    )
+
+
+def _tabela_cortados_cancelados_com_data(df, table_id):
+    """Mesmo tratamento de data-data das outras tabelas, com data-pedido/
+    data-valor pro JS recalcular Qtd Pedidos/Valor Cortado dos cartões
+    quando o filtro de data muda, e uma linha-mestre por pedido com botão
+    'Ver detalhes' pros produtos cortados (pedido do usuário em 2026-08-12)."""
+    cols = [c for c in df.columns if c not in _COLS_ITEM]
+    header = ''.join(f'<th>{_esc(c)}</th>' for c in cols) + '<th>Detalhes</th>'
+    linhas = []
+    for idx, (_, grupo) in enumerate(df.groupby('Pedido', sort=False)):
+        row = grupo.iloc[0]
+        cells = ''.join(f'<td>{_esc(row[c])}</td>' for c in cols)
+        botao, detalhes = _linha_detalhes(table_id, idx, grupo, len(cols) + 1)
+        linhas.append(
+            f"<tr data-data=\"{_esc(row.get('DataOrd'))}\" data-pedido=\"{_esc(row.get('Pedido'))}\" "
+            f"data-valor=\"{_esc(row.get('Valor Cortado'))}\">{cells}<td>{botao}</td></tr>{detalhes}"
+        )
+    return (
+        f"<table id='{table_id}' class='tbl-filtravel' data-aba='Cortados-Cancelados'>"
+        f"<thead><tr>{header}</tr></thead><tbody>{''.join(linhas)}</tbody></table>"
+    )
+
+
+def _tabela_produtos_cortados_com_data(df, table_id):
+    """Aqui os cartões (Qtd Itens/Qtd Total Cortada/Valor Total Cortado) são
+    somados por item, sem deduplicar por pedido — cada linha já é um item
+    cortado (pedido do usuário em 2026-08-12). Os data-* extras (codprod/
+    industria/produtonome/codfilial/saldo) alimentam o ranking por produto
+    (Indústria/Produto/Cód Produto/Qtd Cortada/Saldo Estoque) que o JS
+    recalcula ao lado, deduplicando o Saldo Estoque por filial pra não somar
+    o mesmo saldo repetido entre pedidos do mesmo produto (pedido do usuário
+    em 2026-08-12) — sem mexer nos cartões acima."""
+    cols = [c for c in df.columns if c not in ('DataOrd', 'CodFilial')]
+    header = ''.join(f'<th>{_esc(c)}</th>' for c in cols)
+    linhas = []
+    for _, row in df.iterrows():
+        cells = ''.join(f'<td>{_esc(row[c])}</td>' for c in cols)
+        linhas.append(
+            f"<tr data-data=\"{_esc(row.get('DataOrd'))}\" data-qtdcortada=\"{_esc(row.get('Qtd Cortada'))}\" "
+            f"data-valorcortado=\"{_esc(row.get('Valor Cortado'))}\" data-codprod=\"{_esc(row.get('Cód Produto'))}\" "
+            f"data-industria=\"{_esc(row.get('Indústria'))}\" data-produtonome=\"{_esc(row.get('Produto'))}\" "
+            f"data-codfilial=\"{_esc(row.get('CodFilial'))}\" data-saldo=\"{_esc(row.get('Saldo Estoque'))}\">{cells}</tr>"
+        )
+    return (
+        f"<table id='{table_id}' class='tbl-filtravel' data-aba='Produtos Cortados'>"
+        f"<thead><tr>{header}</tr></thead><tbody>{''.join(linhas)}</tbody></table>"
+    )
 
 
 def _cartoes_html(linhas_aba):
+    """data-metrica identifica o cartão pro JS recalcular o valor quando o
+    filtro de data muda (pedido do usuário em 2026-08-12: filtro não
+    atualizava os cartões, só as linhas das tabelas)."""
     return ''.join(
-        f"<div class='card{' money' if _eh_moeda(row['Métrica']) else ''}'>"
+        f"<div class='card{' money' if _eh_moeda(row['Métrica']) else ''}' data-metrica=\"{_esc(row['Métrica'])}\">"
         f"<div class='lbl'>{row['Métrica'].split('—', 1)[1].strip()}</div>"
         f"<div class='val'>{_fmt_metrica(row['Métrica'], row['Valor'])}</div></div>"
         for _, row in linhas_aba.iterrows()
@@ -492,13 +601,22 @@ def montar_html(tabelas, estado, hoje_str):
                     f"logística nem confirmação de entrega — até {maxd} dia(s) após a data agendada na obs.</div>"
                 )
         elif aba == 'Pedidos Feitos' and 'Posição' in df.columns:
-            tabela_html = _tabela_pedidos_feitos_com_destaque(df)
+            tabela_html = _tabela_pedidos_feitos_com_destaque(df, f'tbl-ped-{estado}')
             qtd_bloqueado = df[df['Posição'].str.upper().isin(_STATUS_BLOQUEADO)].drop_duplicates(subset=['Pedido'])
             if not qtd_bloqueado.empty:
                 resumo_aba += (
                     f"<div class='alerta'>&#9888; {len(qtd_bloqueado)} pedido(s) feito(s) bloqueado(s) — "
                     "veja a coluna Motivo Bloqueio.</div>"
                 )
+        elif aba == 'Cortados-Cancelados' and 'DataOrd' in df.columns:
+            tabela_html = _tabela_cortados_cancelados_com_data(df, f'tbl-canc-{estado}')
+        elif aba == 'Produtos Cortados' and 'DataOrd' in df.columns:
+            tabela_html = _tabela_produtos_cortados_com_data(df, f'tbl-cort-{estado}')
+            # Ranking por produto (Indústria/Produto/Cód Produto/Qtd Cortada/
+            # Saldo Estoque) — construído e recalculado inteiramente em JS a
+            # partir das linhas visíveis da tabela acima, sem tocar nos
+            # cartões de resumo (pedido do usuário em 2026-08-12).
+            resumo_aba += f"<div id='ranking-cort-{estado}' class='ranking-produtos'></div>"
         else:
             tabela_html = df.to_html(index=False, na_rep='', border=0)
 
@@ -539,18 +657,219 @@ def montar_html(tabelas, estado, hoje_str):
   .alerta {{ margin-top:10px; padding:8px 12px; border-radius:8px; background:rgba(239,68,68,.15); border:1px solid #ef4444; color:#fca5a5; font-size:.82rem; }}
   .filtro-status {{ margin-top:10px; display:flex; align-items:center; gap:8px; font-size:.82rem; color:#94a3b8; }}
   .filtro-status select {{ background:#1a1d27; color:#e2e8f0; border:1px solid #2d3144; border-radius:6px; padding:5px 8px; font-size:.82rem; font-family:inherit; }}
+  .filtro-data {{ margin-top:14px; display:flex; align-items:center; gap:8px; flex-wrap:wrap; font-size:.82rem; color:#94a3b8; }}
+  .filtro-data input {{ background:#1a1d27; color:#e2e8f0; border:1px solid #2d3144; border-radius:6px; padding:5px 8px; font-size:.82rem; font-family:inherit; }}
+  .filtro-data button {{ background:#1a1d27; color:#e2e8f0; border:1px solid #2d3144; border-radius:6px; padding:5px 10px; font-size:.82rem; font-family:inherit; cursor:pointer; }}
+  .filtro-data button:hover {{ background:#22263a; }}
+  .btn-detalhes {{ background:#1a1d27; color:#e2e8f0; border:1px solid #2d3144; border-radius:6px; padding:4px 10px; font-size:.75rem; font-family:inherit; cursor:pointer; white-space:nowrap; }}
+  .btn-detalhes:hover {{ border-color:#f5c518; color:#f5c518; }}
+  .detalhes-row td {{ background:#12141c; padding:8px 10px 8px 26px; }}
+  .mini-produtos {{ width:100%; font-size:.8rem; margin-top:0; }}
+  .mini-produtos th {{ background:transparent; color:#94a3b8; font-size:.68rem; padding:4px 8px; }}
+  .mini-produtos td {{ padding:4px 8px; border-bottom:1px solid #232738; white-space:normal; }}
+  .ranking-produtos {{ margin-top:14px; }}
+  .ranking-produtos h4 {{ font-size:.78rem; color:#94a3b8; text-transform:uppercase; letter-spacing:.05em; margin-bottom:6px; }}
+  .ranking-tabela td:nth-child(4), .ranking-tabela td:nth-child(5) {{ text-align:right; font-variant-numeric:tabular-nums; }}
+  .sem-dado {{ color:#94a3b8; font-size:.82rem; padding:8px 0; }}
 </style>
 </head>
 <body>
 <h1>Report Diário de Pedidos — {estado} — {hoje_str}</h1>
+<div class='filtro-data'>
+  <label for='data-de'>Data do pedido — de:</label>
+  <input type='date' id='data-de' oninput='aplicarFiltros()'>
+  <label for='data-ate'>até:</label>
+  <input type='date' id='data-ate' oninput='aplicarFiltros()'>
+  <button type='button' onclick="document.getElementById('data-de').value='';document.getElementById('data-ate').value='';aplicarFiltros()">Limpar</button>
+</div>
 {corpo}
 <script>
-function filtrarStatus(tableId, valor) {{
-  var linhas = document.getElementById(tableId).querySelectorAll('tbody tr');
-  linhas.forEach(function(tr) {{
-    tr.style.display = (!valor || tr.getAttribute('data-status') === valor) ? '' : 'none';
+function aplicarFiltros() {{
+  var de = document.getElementById('data-de').value;
+  var ate = document.getElementById('data-ate').value;
+  document.querySelectorAll('table.tbl-filtravel').forEach(function(tabela) {{
+    var sel = document.getElementById(tabela.id + '-sel');
+    var statusFiltro = sel ? sel.value : '';
+    tabela.querySelectorAll('tbody tr').forEach(function(tr) {{
+      if (tr.classList.contains('detalhes-row')) return;
+      var d = tr.getAttribute('data-data') || '';
+      var okData = (!de || !d || d >= de) && (!ate || !d || d <= ate);
+      var okStatus = !statusFiltro || tr.getAttribute('data-status') === statusFiltro;
+      var visivel = okData && okStatus;
+      tr.style.display = visivel ? '' : 'none';
+      var det = tr.nextElementSibling;
+      if (!visivel && det && det.classList.contains('detalhes-row')) {{
+        det.style.display = 'none';
+      }}
+    }});
+    atualizarCards(tabela);
+    if (tabela.dataset.aba === 'Produtos Cortados') atualizarRankingProdutos(tabela);
   }});
 }}
+
+function escHtml(s) {{
+  return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}}
+
+// Ranking por produto (Indústria/Produto/Cód Produto/Qtd Cortada/Saldo
+// Estoque), recalculado a partir das linhas visíveis da tabela de Produtos
+// Cortados — Qtd Cortada soma todas as ocorrências, Saldo Estoque dedup por
+// filial (mesmo produto/filial repetido em vários pedidos não pode somar o
+// mesmo saldo várias vezes). Não mexe nos cartões de resumo acima (pedido
+// do usuário em 2026-08-12).
+function atualizarRankingProdutos(tabela) {{
+  var container = document.getElementById(tabela.id.replace('tbl-', 'ranking-'));
+  if (!container) return;
+  var visiveis = Array.prototype.filter.call(tabela.querySelectorAll('tbody tr'), function(tr) {{
+    return tr.style.display !== 'none';
+  }});
+
+  var porProduto = {{}};
+  visiveis.forEach(function(tr) {{
+    var cp = tr.getAttribute('data-codprod');
+    if (!cp) return;
+    if (!porProduto[cp]) {{
+      porProduto[cp] = {{
+        industria: tr.getAttribute('data-industria') || '',
+        produto: tr.getAttribute('data-produtonome') || '',
+        codprod: cp,
+        qtd: 0,
+        saldos: {{}}
+      }};
+    }}
+    var g = porProduto[cp];
+    g.qtd += parseFloat(tr.getAttribute('data-qtdcortada') || '0') || 0;
+    var fil = tr.getAttribute('data-codfilial');
+    var saldo = tr.getAttribute('data-saldo');
+    if (fil && saldo && !(fil in g.saldos)) {{
+      g.saldos[fil] = parseFloat(saldo) || 0;
+    }}
+  }});
+
+  var lista = Object.keys(porProduto).map(function(cp) {{
+    var g = porProduto[cp];
+    var saldoTotal = 0;
+    Object.keys(g.saldos).forEach(function(fil) {{ saldoTotal += g.saldos[fil]; }});
+    g.saldoTotal = saldoTotal;
+    return g;
+  }}).sort(function(a, b) {{ return b.qtd - a.qtd; }});
+
+  if (!lista.length) {{
+    container.innerHTML = "<h4>Ranking por produto</h4><div class='sem-dado'>Nenhum produto cortado no período filtrado.</div>";
+    return;
+  }}
+
+  var linhas = lista.map(function(g) {{
+    return '<tr><td>' + escHtml(g.industria) + '</td><td>' + escHtml(g.produto) + '</td><td>' +
+      escHtml(g.codprod) + '</td><td>' + Math.round(g.qtd).toLocaleString('pt-BR') + '</td><td>' +
+      g.saldoTotal.toLocaleString('pt-BR') + '</td></tr>';
+  }}).join('');
+
+  container.innerHTML =
+    "<h4>Ranking por produto</h4><table class='ranking-tabela'><thead><tr><th>Indústria</th>" +
+    "<th>Produto</th><th>Cód Produto</th><th>Qtd Cortada</th><th>Saldo Estoque</th></tr></thead>" +
+    "<tbody>" + linhas + "</tbody></table>";
+}}
+
+// Botão "Ver detalhes" de cada pedido — expande/colapsa a mini-tabela de
+// produtos logo abaixo (pedido do usuário em 2026-08-12).
+document.addEventListener('click', function(e) {{
+  var btn = e.target.closest('.btn-detalhes');
+  if (!btn) return;
+  var alvo = document.getElementById(btn.dataset.target);
+  if (!alvo) return;
+  var aberto = alvo.style.display !== 'none';
+  alvo.style.display = aberto ? 'none' : 'table-row';
+  var m = btn.textContent.match(/\(\d+\)/);
+  btn.textContent = (aberto ? 'Ver detalhes ' : 'Ocultar detalhes ') + (m ? m[0] : '');
+}});
+
+function fmtMetrica(label, valor) {{
+  if (label.toLowerCase().indexOf('valor') !== -1) {{
+    return 'R$ ' + valor.toLocaleString('pt-BR', {{minimumFractionDigits: 2, maximumFractionDigits: 2}});
+  }}
+  return Math.round(valor).toLocaleString('pt-BR');
+}}
+
+function setCard(metrica, valor) {{
+  document.querySelectorAll('[data-metrica="' + metrica.replace(/"/g, '\\\\"') + '"] .val').forEach(function(el) {{
+    el.textContent = fmtMetrica(metrica, valor);
+  }});
+}}
+
+// Recalcula os cartões de resumo (Qtd Pedidos, Valor Total, Entregues...) a
+// partir das linhas ainda visíveis depois do filtro de data/status — sem
+// isso os cartões ficavam com os números do dia inteiro mesmo filtrando as
+// tabelas (pedido do usuário em 2026-08-12).
+function atualizarCards(tabela) {{
+  var aba = tabela.dataset.aba;
+  if (!aba) return;
+  var visiveis = Array.prototype.filter.call(tabela.querySelectorAll('tbody tr'), function(tr) {{
+    return tr.style.display !== 'none';
+  }});
+
+  if (aba === 'Produtos Cortados') {{
+    var qtdTotal = 0, valorTotal = 0;
+    visiveis.forEach(function(tr) {{
+      qtdTotal += parseFloat(tr.getAttribute('data-qtdcortada') || '0') || 0;
+      valorTotal += parseFloat(tr.getAttribute('data-valorcortado') || '0') || 0;
+    }});
+    setCard('Produtos Cortados — Qtd Itens', visiveis.length);
+    setCard('Produtos Cortados — Qtd Total Cortada', qtdTotal);
+    setCard('Produtos Cortados — Valor Total Cortado', valorTotal);
+    return;
+  }}
+
+  var pedidosVistos = {{}}, somaValor = 0;
+  var agendados = {{}}, bloqueados = {{}};
+  var entregues = {{}}, abertos = {{}}, semStatus = {{}}, aguardandoRota = {{}};
+  var diasMax = null;
+
+  visiveis.forEach(function(tr) {{
+    var ped = tr.getAttribute('data-pedido');
+    if (!ped) return;
+    if (!(ped in pedidosVistos)) {{
+      pedidosVistos[ped] = true;
+      somaValor += parseFloat(tr.getAttribute('data-valor') || '0') || 0;
+    }}
+    if (tr.getAttribute('data-agendamento') === '1') agendados[ped] = true;
+    if (tr.getAttribute('data-bloqueado') === '1') bloqueados[ped] = true;
+    var status = tr.getAttribute('data-status');
+    if (status) {{
+      var su = status.toUpperCase();
+      if (su === 'ENTREGUE' || su === 'COMPROVADO' || su.indexOf('ENTREGA TOTAL') !== -1) {{
+        entregues[ped] = true;
+      }} else if (su === 'ABERTO') {{
+        abertos[ped] = true;
+      }} else if (status === 'Sem status') {{
+        semStatus[ped] = true;
+        var dias = parseFloat(tr.getAttribute('data-dias'));
+        if (!isNaN(dias)) diasMax = (diasMax === null) ? dias : Math.max(diasMax, dias);
+      }} else if (status === 'AGUARDANDO ROTA DE ENTREGA') {{
+        aguardandoRota[ped] = true;
+      }}
+    }}
+  }});
+
+  setCard(aba + ' — Qtd Pedidos', Object.keys(pedidosVistos).length);
+  setCard(aba + (aba === 'Cortados-Cancelados' ? ' — Valor Cortado' : ' — Valor Total'), somaValor);
+
+  if (aba === 'Pedidos Feitos') {{
+    setCard(aba + ' — Com Agendamento', Object.keys(agendados).length);
+    setCard(aba + ' — Bloqueados', Object.keys(bloqueados).length);
+  }}
+  if (aba === 'Faturados') {{
+    setCard(aba + ' — Entregues (dia anterior)', Object.keys(entregues).length);
+    setCard(aba + ' — Notas em Aberto', Object.keys(abertos).length);
+    setCard(aba + ' — Sem Status/Entrega', Object.keys(semStatus).length);
+    setCard(aba + ' — Aguardando Rota (fora Região Metrop.)', Object.keys(aguardandoRota).length);
+    if (diasMax !== null) setCard(aba + ' — Dias sem Entrega (máx)', diasMax);
+  }}
+}}
+
+// Popula o ranking por produto já na primeira carga da página, sem esperar
+// o usuário mexer no filtro de data (pedido do usuário em 2026-08-12).
+aplicarFiltros();
 </script>
 </body>
 </html>

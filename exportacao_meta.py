@@ -155,6 +155,7 @@ def _query_vendas_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=Non
         SELECT
             TRUNC(M.DTMOV, 'MM')            AS MES,
             TO_CHAR(M.DTMOV, 'DD/MM/YYYY') AS DATA,
+            M.NUNOTA                        AS NUNOTA,
             M.CODCLI,
             C.CLIENTE,
             M.DESCRICAO                     AS PRODUTO,
@@ -204,6 +205,7 @@ _vh['MES']    = pd.to_datetime(_vh['MES'],   errors='coerce')
 _vh['QT']     = pd.to_numeric(_vh['QT'],     errors='coerce').fillna(0).astype(int)
 _vh['VALOR']  = pd.to_numeric(_vh['VALOR'],  errors='coerce').fillna(0).round(2)
 _vh['RCA']    = pd.to_numeric(_vh['RCA'],    errors='coerce')
+_vh['NUNOTA'] = pd.to_numeric(_vh['NUNOTA'], errors='coerce')
 _vh['CLIENTE']  = _vh['CLIENTE'].fillna(_vh['CODCLI'])
 _vh['FANTASIA'] = _vh['FANTASIA'].fillna('')
 _vh['PRODUTO']  = _vh['PRODUTO'].fillna('')
@@ -258,7 +260,7 @@ def _query_vendas_cancelados_pos_nf(schema, filtro_filial="(1, 2, 4)", filtro_es
         SELECT
             PED.DATA AS DATA, PED.CODCLI AS CODCLI, PED.CLIENTE AS CLIENTE,
             PED.DESCRICAO AS PRODUTO, PED.FANTASIA_FORNEC AS FANTASIA,
-            PED.QT AS QT, PED.TOTAL AS VALOR,
+            PED.QT AS QT, PED.TOTAL AS VALOR, PED.NUMPED AS NUMPED,
             PED.CODUSUR AS CODUSUR, U.NOME AS NOME_ORACLE
         FROM {s}.PBI_PCPEDI PED
         JOIN {s}.PCUSUARI U ON U.CODUSUR = PED.CODUSUR
@@ -274,7 +276,7 @@ def _query_vendas_cancelados_pre_nf(schema, filtro_estent=None, extra_nomes=None
     return f"""
         SELECT
             PC.DATACANC AS DATA, PC.DESCRICAO AS PRODUTO,
-            PC.QT AS QT, PC.SUBTOT AS VALOR,
+            PC.QT AS QT, PC.SUBTOT AS VALOR, PC.NUMPED AS NUMPED,
             U.CODUSUR AS CODUSUR, U.NOME AS NOME_ORACLE
         FROM {s}.PEDIDOS_CANCELADOS PC
         JOIN {s}.PCUSUARI U ON U.CODUSUR = TO_NUMBER(SUBSTR(PC.NUMPED, 1, LENGTH(PC.NUMPED) - 6))
@@ -292,6 +294,7 @@ def _query_vendas_corte_parcial(schema, filtro_filial="(1, 2, 4)", filtro_estent
             PED.DATA AS DATA, PED.CODCLI AS CODCLI, PED.CLIENTE AS CLIENTE,
             PED.DESCRICAO AS PRODUTO, PED.FANTASIA_FORNEC AS FANTASIA,
             PED.CODUSUR AS CODUSUR, U.NOME AS NOME_ORACLE,
+            PED.NUMPED AS NUMPED, PED.NUMNOTA AS NUMNOTA,
             PED.QTFALTA AS QTFALTA, PED.PVENDA AS PVENDA,
             NVL(CT.QTCORTADA, 0) AS QTCORTADA
         FROM {s}.PBI_PCPEDI PED
@@ -339,6 +342,17 @@ _vc_corte      = _carregar_item_level(_query_vendas_corte_parcial, _VH_CONFIGS, 
 _itens_extra_por_vendedor: dict = {}
 
 
+def _id_str(v):
+    """NUMPED/NUNOTA vêm do Oracle como NUMBER (viram float no pandas) —
+    formata sem casas decimais, ou '' se vazio/não numérico."""
+    if v is None or (isinstance(v, float) and pd.isna(v)):
+        return ''
+    try:
+        return str(int(float(v)))
+    except (TypeError, ValueError):
+        return str(v).strip()
+
+
 def _registrar_item_extra(nome_oracle, mes_str, item):
     nome_disp = _oracle_to_display.get(nome_oracle, nome_oracle)
     if not nome_disp:
@@ -363,6 +377,8 @@ if not _vc_cancel_pos.empty:
             'devolvido': False,
             'cancelado': True,
             'cancelado_parcial': False,
+            'numped':    _id_str(row.get('NUMPED')),
+            'nunota':    '',
         })
     print(f"OK vendas: {len(_vc_cancel_pos)} item(ns) cancelado(s) pós-NF")
 
@@ -383,6 +399,8 @@ if not _vc_cancel_pre.empty:
             'devolvido': False,
             'cancelado': True,
             'cancelado_parcial': False,
+            'numped':    _id_str(row.get('NUMPED')),
+            'nunota':    '',
         })
     print(f"OK vendas: {len(_vc_cancel_pre)} item(ns) cancelado(s) pré-NF")
 
@@ -407,6 +425,12 @@ if not _vc_corte.empty:
             'devolvido': False,
             'cancelado': False,
             'cancelado_parcial': True,
+            'numped':    _id_str(row.get('NUMPED')),
+            # NUMNOTA aqui é o mesmo campo que M.NUNOTA na venda faturada
+            # (PCMOV) — quando bate, o item de corte se junta ao pedido já
+            # faturado no agrupamento do metas.html; quando não bate (schemas
+            # onde os dois não coincidem), vira uma linha própria mesmo assim.
+            'nunota':    _id_str(row.get('NUMNOTA')),
         })
     print(f"OK vendas: {len(_vc_corte)} item(ns) com corte parcial")
 
@@ -903,6 +927,8 @@ for _, row in _vh.iterrows():
         'devolvido': bool(row['DEVOLVIDO']),
         'cancelado': False,
         'cancelado_parcial': False,
+        'numped':  '',
+        'nunota':  _id_str(row.get('NUNOTA')),
     })
 
 # Mescla os itens de cancelado/corte parcial (não vêm de _vh/PCMOV — ver bloco

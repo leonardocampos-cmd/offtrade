@@ -368,6 +368,24 @@
     .vendas-val   { text-align: right; color: var(--accent); white-space: nowrap; font-weight: 600; }
     .vendas-empty { color: var(--muted); font-size: 0.8rem; padding: 12px 0; }
 
+    /* Modal de detalhes do pedido */
+    .modal-overlay {
+      position: fixed; inset: 0; background: rgba(0,0,0,0.65);
+      display: flex; align-items: center; justify-content: center;
+      z-index: 999; padding: 16px;
+    }
+    .modal-pedido {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 20px; max-width: 560px; width: 100%;
+      max-height: 80vh; overflow-y: auto;
+    }
+    .modal-pedido-header {
+      display: flex; justify-content: space-between; align-items: flex-start;
+      gap: 10px; flex-wrap: wrap;
+    }
+    .modal-pedido-title { font-size: 0.95rem; font-weight: 700; color: var(--text); }
+    .modal-pedido-sub { font-size: 0.76rem; color: var(--muted); margin-top: 3px; }
+
     .prev-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -863,30 +881,88 @@ function buildBar(name, realizado, meta, tipo) {
     </div>`;
 }
 
-function buildVendasTable(lista) {
-  if (!lista || lista.length === 0) {
-    return `<div class="vendas-empty">Nenhuma venda registrada este mês.</div>`;
+// ── Pedidos agrupados (Faturamento do mês) ──────────────────────
+// Agrupa os itens (linha a linha) em pedidos/notas: chave preferida é
+// 'nunota' (NF) — corte parcial e venda faturada da MESMA nota caem na
+// mesma chave quando o Oracle usa o mesmo número pros dois campos (nem
+// sempre bate entre schemas, aí o corte vira uma linha própria mesmo assim,
+// ver exportacao_meta.py). Sem nunota, usa 'numped' (cancelado antes de
+// virar nota não tem nunota). Sem nenhum dos dois, cada item vira seu
+// próprio "pedido" de 1 item (não deveria acontecer com os dados atuais,
+// é só rede de segurança).
+function _chavePedido(v, idx) {
+  if (v.nunota) return `NF:${v.nunota}`;
+  if (v.numped) return `PED:${v.numped}`;
+  return `ITEM:${idx}`;
+}
+
+function _statusPedidoInfo(status) {
+  switch (status) {
+    case 'cancelado':     return { label: 'CANCELADO',     cor: '#ef4444', bg: 'rgba(239,68,68,.1)' };
+    case 'corte_parcial': return { label: 'CORTE PARCIAL', cor: '#f97316', bg: 'rgba(249,115,22,.1)' };
+    case 'devolvido':     return { label: 'DEVOLVIDO',     cor: '#a855f7', bg: 'rgba(168,85,247,.1)' };
+    case 'bonificado':    return { label: 'BONIFICAÇÃO',   cor: '#3b82f6', bg: 'rgba(59,130,246,.1)' };
+    default:              return { label: 'EMITIDO',       cor: '#22c55e', bg: '' };
   }
-  const rows = lista.map(v => {
-    const destacar = v.devolvido || v.cancelado || v.cancelado_parcial;
-    const badge = v.cancelado
-      ? '<span style="font-size:.62rem;background:rgba(239,68,68,.15);color:#ef4444;border:1px solid rgba(239,68,68,.3);border-radius:4px;padding:1px 5px;font-weight:700">CANCELADO</span>'
-      : v.cancelado_parcial
-      ? '<span style="font-size:.62rem;background:rgba(249,115,22,.15);color:#f97316;border:1px solid rgba(249,115,22,.3);border-radius:4px;padding:1px 5px;font-weight:700">CORTE PARCIAL</span>'
-      : v.devolvido
-      ? '<span style="font-size:.62rem;background:rgba(239,68,68,.15);color:#ef4444;border:1px solid rgba(239,68,68,.3);border-radius:4px;padding:1px 5px;font-weight:700">DEVOLVIDO</span>'
-      : '';
-    const cor = (v.cancelado_parcial) ? '#f97316' : (destacar ? '#ef4444' : '');
+}
+
+function _agruparPedidos(vendas) {
+  const grupos = new Map();
+  vendas.forEach((v, idx) => {
+    const chave = _chavePedido(v, idx);
+    if (!grupos.has(chave)) {
+      grupos.set(chave, {
+        chave, data: v.data, codcli: v.codcli, cliente: v.cliente,
+        itens: [], valor: 0, qt: 0,
+      });
+    }
+    const g = grupos.get(chave);
+    g.itens.push(v);
+    g.valor += v.valor;
+    g.qt += v.qt;
+  });
+  return Array.from(grupos.values()).map(g => {
+    let status = 'emitido';
+    if (g.itens.some(it => it.cancelado)) status = 'cancelado';
+    else if (g.itens.some(it => it.cancelado_parcial)) status = 'corte_parcial';
+    else if (g.itens.every(it => it.devolvido)) status = 'devolvido';
+    else if (g.itens.every(it => it.tipo === 'Bonificado')) status = 'bonificado';
+    return { ...g, status };
+  });
+}
+
+function _ordenarPedidosDesc(lista) {
+  return lista.slice().sort((a, b) => {
+    const [da, ma, ya] = a.data.split('/'); const [db, mb, yb] = b.data.split('/');
+    return new Date(yb, mb-1, db) - new Date(ya, ma-1, da);
+  });
+}
+
+let _pedidosAtuais = [];
+
+function buildPedidosTable(pedidos) {
+  _pedidosAtuais = pedidos;
+  if (!pedidos || pedidos.length === 0) {
+    return `<div class="vendas-empty">Nenhum pedido registrado este mês.</div>`;
+  }
+  const rows = pedidos.map((p, idx) => {
+    const info = _statusPedidoInfo(p.status);
+    const destacar = p.status !== 'emitido';
+    const ref = p.itens[0];
+    const numPedido = ref.nunota ? `NF ${ref.nunota}` : (ref.numped ? `Ped ${ref.numped}` : '—');
     return `
-    <tr${destacar ? ` style="background:${v.cancelado_parcial ? 'rgba(249,115,22,.1)' : 'rgba(239,68,68,.1)'}"` : ''}>
-      <td class="vendas-date">${v.data || '—'}</td>
+    <tr${destacar ? ` style="background:${info.bg}"` : ''}>
+      <td class="vendas-date">${p.data || '—'}</td>
       <td>
-        <div class="vendas-cli">${v.codcli ? v.codcli + ' · ' : ''}${v.cliente || '—'}</div>
-        <div class="vendas-prod" style="${cor ? `color:${cor}` : ''}">${v.produto || ''}${v.tipo === 'Bonificado' ? ' <span style="font-size:.62rem;background:rgba(34,197,94,.15);color:#22c55e;border:1px solid rgba(34,197,94,.3);border-radius:4px;padding:1px 5px;font-weight:700">BON</span>' : ''}${badge ? ' ' + badge : ''}</div>
+        <div class="vendas-cli">${p.codcli ? p.codcli + ' · ' : ''}${p.cliente || '—'}</div>
+        <div class="vendas-prod">
+          ${numPedido} &middot; ${p.itens.length} ${p.itens.length === 1 ? 'item' : 'itens'}
+          <span style="font-size:.62rem;background:${info.bg || 'rgba(34,197,94,.15)'};color:${info.cor};border:1px solid ${info.cor}55;border-radius:4px;padding:1px 5px;font-weight:700;margin-left:4px">${info.label}</span>
+        </div>
       </td>
-      <td class="vendas-date" style="white-space:nowrap">${v.fantasia || '—'}</td>
-      <td class="vendas-qt">${Number(v.qt).toLocaleString('pt-BR')}</td>
-      <td class="vendas-val"${cor ? ` style="color:${cor}"` : ''}>${fmtFat(v.valor)}</td>
+      <td class="vendas-qt">${Number(p.qt).toLocaleString('pt-BR')}</td>
+      <td class="vendas-val" style="color:${info.cor || 'var(--accent)'}">${fmtFat(p.valor)}</td>
+      <td style="text-align:right"><button class="btn" style="padding:4px 10px;font-size:.7rem" onclick="abrirDetalhesPedido(${idx})">Ver detalhes</button></td>
     </tr>`;
   }).join('');
   return `
@@ -894,14 +970,61 @@ function buildVendasTable(lista) {
       <thead>
         <tr>
           <th>Data</th>
-          <th>Cliente / Produto</th>
-          <th>Fornecedor</th>
+          <th>Cliente / Pedido</th>
           <th style="text-align:right">Qtde</th>
           <th style="text-align:right">Valor</th>
+          <th></th>
         </tr>
       </thead>
       <tbody>${rows}</tbody>
     </table>`;
+}
+
+function abrirDetalhesPedido(idx) {
+  const p = _pedidosAtuais[idx];
+  if (!p) return;
+  const info = _statusPedidoInfo(p.status);
+  const ref = p.itens[0];
+  const numPedido = ref.nunota ? `Nota ${ref.nunota}` : (ref.numped ? `Pedido ${ref.numped}` : 'Sem identificador');
+  const itensHtml = p.itens.map(it => `
+    <tr>
+      <td>
+        ${it.produto || '—'}
+        ${it.tipo === 'Bonificado' ? ' <span style="font-size:.6rem;color:#3b82f6;font-weight:700">BON</span>' : ''}
+        ${it.devolvido ? ' <span style="font-size:.6rem;color:#a855f7;font-weight:700">DEV</span>' : ''}
+        ${it.cancelado ? ' <span style="font-size:.6rem;color:#ef4444;font-weight:700">CANCELADO</span>' : ''}
+        ${it.cancelado_parcial ? ' <span style="font-size:.6rem;color:#f97316;font-weight:700">CORTE</span>' : ''}
+      </td>
+      <td style="color:var(--muted);white-space:nowrap">${it.fantasia || '—'}</td>
+      <td style="text-align:right">${Number(it.qt).toLocaleString('pt-BR')}</td>
+      <td style="text-align:right">${fmtFat(it.valor)}</td>
+    </tr>`).join('');
+  const html = `
+    <div class="modal-overlay" id="modal-pedido-overlay" onclick="if(event.target===this) fecharDetalhesPedido()">
+      <div class="modal-pedido">
+        <div class="modal-pedido-header">
+          <div>
+            <div class="modal-pedido-title">${numPedido}</div>
+            <div class="modal-pedido-sub">${p.data || '—'} &middot; ${p.codcli ? p.codcli + ' · ' : ''}${p.cliente || '—'}</div>
+          </div>
+          <span style="font-size:.68rem;background:${info.bg || 'rgba(34,197,94,.15)'};color:${info.cor};border:1px solid ${info.cor}55;border-radius:5px;padding:2px 8px;font-weight:700;white-space:nowrap">${info.label}</span>
+        </div>
+        <table class="vendas-table" style="margin-top:12px">
+          <thead>
+            <tr><th>Produto</th><th>Fornecedor</th><th style="text-align:right">Qtde</th><th style="text-align:right">Valor</th></tr>
+          </thead>
+          <tbody>${itensHtml}</tbody>
+        </table>
+        <div style="text-align:right;margin-top:10px;font-weight:700;color:var(--text)">Total: ${fmtFat(p.valor)}</div>
+        <button class="btn" style="margin-top:14px" onclick="fecharDetalhesPedido()">Fechar</button>
+      </div>
+    </div>`;
+  document.body.insertAdjacentHTML('beforeend', html);
+}
+
+function fecharDetalhesPedido() {
+  const el = document.getElementById('modal-pedido-overlay');
+  if (el) el.remove();
 }
 
 function buildNaoPosTable(lista) {
@@ -1417,13 +1540,15 @@ function renderDetail(v, mes) {
 
   // ── Seção: Faturamento do mês ─────────────────────────────
   const _vendas  = _ordenarVendasDesc(_vendasDoMes(v.nome, mes));
-  // KPIs contam só vendas válidas — devolvidas ficam visíveis na tabela
-  // (destacadas em vermelho) mas não entram no faturamento/clientes/itens do
-  // topo, senão uma venda já estornada infla esses números.
+  // KPIs contam só vendas válidas — devolvidas/canceladas/cortadas ficam
+  // visíveis na tabela (destacadas por cor, agrupadas por pedido) mas não
+  // entram no faturamento/clientes/itens do topo, senão uma venda já
+  // estornada infla esses números.
   const _vendasValidas = _vendas.filter(x => !x.devolvido && !x.cancelado && !x.cancelado_parcial);
   const _fatVend = _vendasValidas.reduce((s, x) => s + x.valor, 0);
   const _nCli    = new Set(_vendasValidas.filter(x => x.offtrade).map(x => x.codcli || x.cliente)).size;
   const _nItens  = _vendasValidas.reduce((s, x) => s + x.qt, 0);
+  const _pedidos = _ordenarPedidosDesc(_agruparPedidos(_vendas));
 
   const vendasHtml = `
     <div class="detail-card">
@@ -1440,7 +1565,7 @@ function renderDetail(v, mes) {
           <div><div class="kpi-label">Clientes</div><div class="kpi-val">${_nCli}</div></div>
           <div><div class="kpi-label">Itens</div><div class="kpi-val">${_nItens.toLocaleString('pt-BR')}</div></div>
         </div>
-        ${buildVendasTable(_vendas)}
+        ${buildPedidosTable(_pedidos)}
         ${_vendas.length > 0 ? `<div style="text-align:right;margin-top:10px"><button class="btn btn-dl" onclick="exportarVendasCSV('${v.nome}', '${mes}')">&#8595; Baixar CSV</button></div>` : ''}
       </div>
     </div>`;

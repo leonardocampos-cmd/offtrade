@@ -84,9 +84,6 @@
     <select id="fil-gerente" onchange="aplicarFiltro()">
       <option value="">Gerente: todos</option>
     </select>
-    <select id="fil-time" onchange="aplicarFiltro()">
-      <option value="">Time: todos</option>
-    </select>
     <select id="fil-sistema" onchange="aplicarFiltro()">
       <option value="">Sistema: todos</option>
     </select>
@@ -96,11 +93,14 @@
     <select id="fil-tipo" onchange="aplicarFiltro()">
       <option value="">Tipo: todos</option>
     </select>
+    <select id="fil-industria" onchange="aplicarFiltro()">
+      <option value="">Indústria: todas</option>
+    </select>
     <select id="fil-mes" onchange="aplicarFiltro()">
       <option value="">Mês: acumulado (YTD)</option>
     </select>
     <input type="text" id="fil-busca" placeholder="&#128269; Buscar vendedor/gerente..." oninput="aplicarFiltro()" style="min-width:200px">
-    <span id="filtro-aviso" style="font-size:.72rem;color:var(--muted);display:none">Time/Sistema/UF/busca filtram os gráficos e a lista de vendedores; a tabela por Gerente mostra sempre a equipe inteira de cada gerente.</span>
+    <span id="filtro-aviso" style="font-size:.72rem;color:var(--muted);display:none"></span>
   </div>
 
   <div class="table-wrap">
@@ -146,7 +146,6 @@ function init() {
   document.querySelectorAll('#tg-visao button').forEach(b => b.onclick = () => {
     _visao = b.dataset.v;
     document.querySelectorAll('#tg-visao button').forEach(x => x.classList.toggle('on', x === b));
-    document.getElementById('filtro-aviso').style.display = _visao === 'gerente' ? '' : 'none';
     renderHead(); aplicarFiltro();
   });
 
@@ -154,15 +153,14 @@ function init() {
   const gerentesUnicos = [...new Set(D.vendedores.map(v => v.gerente))].sort((a,b) => a.localeCompare(b, 'pt-BR'));
   gerentesUnicos.forEach(g => selGer.insertAdjacentHTML('beforeend', `<option value="${_esc(g)}">${_esc(g)}</option>`));
 
-  const selTime = document.getElementById('fil-time');
-  const timesUnicos = [...new Set(D.vendedores.map(v => v.time_label))];
-  timesUnicos.forEach(t => selTime.insertAdjacentHTML('beforeend', `<option value="${_esc(t)}">${_esc(t)}</option>`));
-
   const selSis = document.getElementById('fil-sistema');
   D.opcoes_filtro.sistemas.forEach(s => selSis.insertAdjacentHTML('beforeend', `<option value="${_esc(s)}">${_esc(s)}</option>`));
 
   const selUf = document.getElementById('fil-uf');
   D.opcoes_filtro.ufs.forEach(u => selUf.insertAdjacentHTML('beforeend', `<option value="${_esc(u)}">${_esc(u)}</option>`));
+
+  const selInd = document.getElementById('fil-industria');
+  D.opcoes_filtro.industrias.forEach(i => selInd.insertAdjacentHTML('beforeend', `<option value="${_esc(i)}">${_esc(i)}</option>`));
 
   const selTipo = document.getElementById('fil-tipo');
   const tiposUnicos = [...new Set(D.vendedores.map(v => v.tipo_vendedor))].sort((a,b) => a.localeCompare(b, 'pt-BR'));
@@ -187,10 +185,10 @@ const COLS = [
   { key: 'faturamento', label: 'Faturamento', vsAA: true },
   { key: 'positivacoes', label: 'Positivações', vsAA: true },
   { key: 'positivacoes_unicas', label: 'Pos. Únicas', vsAA: true, vsBase: true },
-  { key: 'industrias', label: 'Indústrias' },
-  { key: 'qtd_industria_cliente', label: 'Qtd Ind/Cliente' },
-  { key: 'tdp', label: 'TDP' },
-  { key: 'qtd_sku_cliente', label: 'Qtd SKU/Cliente' },
+  { key: 'industrias', label: 'Indústrias', vsAA: true },
+  { key: 'qtd_industria_cliente', label: 'Qtd Ind/Cliente', vsAA: true },
+  { key: 'tdp', label: 'TDP', vsAA: true },
+  { key: 'qtd_sku_cliente', label: 'Qtd SKU/Cliente', vsAA: true },
 ];
 
 function renderHead() {
@@ -208,21 +206,22 @@ function setSort(col) {
   renderHead(); aplicarFiltro();
 }
 
-// Vendedores filtrados por Time/Sistema/UF/busca — fonte única usada pelos
+// Vendedores filtrados por Sistema/UF/busca — fonte única usada pelos
 // gráficos (sempre) e pela tabela (quando _visao === 'vendedor'). A tabela
 // "Por Gerente" usa D.gerentes direto (rollup pré-calculado por RCA de
 // verdade, não dá pra recalcular no navegador sem os dados brutos por
 // cliente) — só filtra por nome do gerente na busca.
 function _vendedoresFiltrados() {
   const gerente = document.getElementById('fil-gerente').value;
-  const time = document.getElementById('fil-time').value;
   const sistema = document.getElementById('fil-sistema').value;
   const uf = document.getElementById('fil-uf').value;
   const tipo = document.getElementById('fil-tipo').value;
   const busca = document.getElementById('fil-busca').value.trim().toLowerCase();
+  // Indústria não filtra QUAIS vendedores aparecem (não é atributo do
+  // vendedor, é um recorte das vendas dele) — só afeta as métricas exibidas,
+  // aplicado em _metricasDoPeriodo. Todo vendedor continua na lista.
   return D.vendedores.filter(r => {
     if (gerente && (r.gerente||'') !== gerente) return false;
-    if (time && (r.time_label||'') !== time) return false;
     if (sistema && r.sistema !== sistema) return false;
     if (uf && r.estado !== uf) return false;
     if (tipo && (r.tipo_vendedor||'') !== tipo) return false;
@@ -242,14 +241,26 @@ function _linhaFiltrada() {
   });
 }
 
+const _METRICAS_ZERO = { faturamento: 0, positivacoes: 0, positivacoes_unicas: 0, industrias: 0, qtd_industria_cliente: 0, tdp: 0, qtd_sku_cliente: 0 };
+
 // Sem mês selecionado: métricas do período inteiro (acumulado YTD, já vem
 // pronto em r[ano].metricas). Com mês: pega a fatia mensal de r[ano].mensal
 // — não tem 'positivacoes' (soma mensal) aí porque num mês só, soma mensal
 // e positivação única são a mesma coisa.
+// Indústria selecionada tem prioridade sobre mês: por_industria só vem
+// acumulado do ano (não cruza com mês, ver exportacao_performance_equipe.py
+// _serie_por_industria) — indústrias/qtd_industria_cliente não fazem
+// sentido recortados numa única indústria, ficam null ('—' no fmtN).
 function _metricasDoPeriodo(r, ano, mes) {
+  const industria = document.getElementById('fil-industria').value;
+  if (industria) {
+    const m = (r[ano].por_industria || {})[industria];
+    if (!m) return { ..._METRICAS_ZERO, industrias: null, qtd_industria_cliente: null };
+    return { ...m, positivacoes: m.positivacoes_unicas, industrias: null, qtd_industria_cliente: null };
+  }
   if (!mes) return r[ano].metricas;
   const m = r[ano].mensal[`${ano}-${mes}`];
-  if (!m) return { faturamento: 0, positivacoes: 0, positivacoes_unicas: 0, industrias: 0, qtd_industria_cliente: 0, tdp: 0, qtd_sku_cliente: 0 };
+  if (!m) return _METRICAS_ZERO;
   return { ...m, positivacoes: m.positivacoes_unicas };
 }
 
@@ -273,7 +284,7 @@ function aplicarFiltro() {
   const mesSel = document.getElementById('fil-mes').value;
   const tbody = document.getElementById('tbody');
   if (!linhas.length) {
-    tbody.innerHTML = `<tr><td colspan="16" class="empty-msg">Nenhum resultado para os filtros selecionados.</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="20" class="empty-msg">Nenhum resultado para os filtros selecionados.</td></tr>`;
   } else {
     tbody.innerHTML = linhas.map(r => {
       const mAtual = _metricasDoPeriodo(r, ANO_ATUAL, mesSel);
@@ -291,19 +302,33 @@ function aplicarFiltro() {
         <td>${fmtR(mAtual.faturamento)}</td><td>${_vsBadge(mAtual.faturamento, mAnt.faturamento)}</td>
         <td>${fmtN(mAtual.positivacoes)}</td><td>${_vsBadge(mAtual.positivacoes, mAnt.positivacoes)}</td>
         <td>${fmtN(mAtual.positivacoes_unicas)}</td><td>${_vsBadge(mAtual.positivacoes_unicas, mAnt.positivacoes_unicas)}</td><td>${vsBasePct!=null?vsBasePct+'%':'—'}</td>
-        <td>${fmtN(mAtual.industrias)}</td>
-        <td>${fmtN(mAtual.qtd_industria_cliente)}</td>
-        <td>${fmtN(mAtual.tdp)}</td>
-        <td>${fmtN(mAtual.qtd_sku_cliente)}</td>
+        <td>${fmtN(mAtual.industrias)}</td><td>${_vsBadge(mAtual.industrias, mAnt.industrias)}</td>
+        <td>${fmtN(mAtual.qtd_industria_cliente)}</td><td>${_vsBadge(mAtual.qtd_industria_cliente, mAnt.qtd_industria_cliente)}</td>
+        <td>${fmtN(mAtual.tdp)}</td><td>${_vsBadge(mAtual.tdp, mAnt.tdp)}</td>
+        <td>${fmtN(mAtual.qtd_sku_cliente)}</td><td>${_vsBadge(mAtual.qtd_sku_cliente, mAnt.qtd_sku_cliente)}</td>
       </tr>`;
     }).join('');
   }
 
-  // Gráficos sempre agregam da lista de vendedores filtrada (Time/Sistema/
+  _atualizarAvisoFiltro();
+
+  // Gráficos sempre agregam da lista de vendedores filtrada (Sistema/
   // UF/busca) — independente da visão da tabela, senão os filtros de
   // Sistema/UF não tinham efeito nenhum quando a tabela estava em "Por
-  // Gerente" (bug reportado em 2026-08-12).
+  // Gerente" (bug reportado em 2026-08-12). Indústria não entra aqui: os
+  // gráficos (mensal/por_uf) não têm recorte por indústria, ver
+  // _metricasDoPeriodo.
   renderGraficos(_vendedoresFiltrados());
+}
+
+function _atualizarAvisoFiltro() {
+  const industria = document.getElementById('fil-industria').value;
+  const partes = [];
+  if (_visao === 'gerente') partes.push('a tabela por Gerente mostra sempre a equipe inteira de cada gerente (Sistema/UF/busca só filtram os gráficos)');
+  if (industria) partes.push('filtro de Indústria só afeta a tabela e sempre mostra o acumulado do ano (ignora o filtro de Mês) — os gráficos continuam somando todas as indústrias');
+  const el = document.getElementById('filtro-aviso');
+  el.textContent = partes.length ? partes.join('; ') + '.' : '';
+  el.style.display = partes.length ? '' : 'none';
 }
 
 // ── Gráficos ─────────────────────────────────────────────────────────────

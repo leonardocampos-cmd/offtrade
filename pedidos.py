@@ -62,7 +62,7 @@ def _query_pedidos(schema, extra_nomes=None, filiais=None):
     return f"""
         SELECT PED.NUMPED, PED.NUMNOTA, PED.NOME, PED.DATA, PED.CODUSUR, PED.CLIENTE, PED.STATUS,
                PED.DESCRICAO, PED.PVENDA, PED.QT, PED.QTFALTA, PED.TOTAL, PED.OBSENTREGA1,
-               PED.FUNC_CANCEL, PC.POSICAO, PC.MOTIVOPOSICAO, PED.CODPROD, PED.CODFILIAL,
+               PED.FUNC_CANCEL, PC.POSICAO, PC.MOTIVOPOSICAO, PC.VLBONIFIC, PED.CODPROD, PED.CODFILIAL,
                PED.FORNECEDOR, PED.FANTASIA_FORNEC,
                U.ESTADO AS ESTADO_VENDEDOR, S.NOME AS NOME_SUPERVISOR, G.NOMEGERENTE,
                CL.MUNICENT AS CIDADE_CLIENTE
@@ -197,6 +197,7 @@ tabela_pedidos['TOTAL']       = pd.to_numeric(tabela_pedidos['TOTAL'], errors='c
 tabela_pedidos['QT']          = pd.to_numeric(tabela_pedidos['QT'],    errors='coerce').fillna(0).astype(int)
 tabela_pedidos['QTFALTA']     = pd.to_numeric(tabela_pedidos['QTFALTA'], errors='coerce').fillna(0)
 tabela_pedidos['NUMNOTA_NUM'] = pd.to_numeric(tabela_pedidos['NUMNOTA'], errors='coerce')
+tabela_pedidos['VLBONIFIC_NUM'] = pd.to_numeric(tabela_pedidos['VLBONIFIC'], errors='coerce').fillna(0)
 tabela_pedidos['CODPROD_NUM']   = pd.to_numeric(tabela_pedidos['CODPROD'], errors='coerce')
 tabela_pedidos['CODFILIAL_NUM'] = pd.to_numeric(tabela_pedidos['CODFILIAL'], errors='coerce')
 tabela_pedidos['DATA_DT']     = pd.to_datetime(tabela_pedidos['DATA'], errors='coerce')
@@ -587,11 +588,25 @@ if _pcprest_partes:
 # Corte parcial (entregou parte, faltou parte) fica dentro de Faturados
 # mesmo, só marca quais itens foram cortados (ver _agrupar/'tem_corte').
 
+_numpeds_pagos_str = {str(int(n)) for n in _numpeds_pagos}
+# Bonificação costuma vir com a "parcela" quitada no mesmo dia (não é
+# cobrança de verdade, o sistema já lança paga) — a regra de "saiu de
+# Faturados quando todas as parcelas foram pagas" existe pra tirar pedido
+# realmente quitado da tela, mas pra bonificação isso tirava o pedido antes
+# da entrega/logística ser acompanhada (pedido do usuário em 2026-08-12,
+# ver NF 7302/450000509: VLBONIFIC=517.68, parcela paga no mesmo dia).
+_numpeds_bonificacao = set(
+    tabela_pedidos.loc[tabela_pedidos['VLBONIFIC_NUM'] > 0, 'NUMPED'].astype(str)
+)
+
 _cancelados = tabela_pedidos[tabela_pedidos['STATUS'] == 'CANCELADA']
 _faturados  = tabela_pedidos[
     tabela_pedidos['NUMNOTA_NUM'].notna()
     & (tabela_pedidos['STATUS'] != 'CANCELADA')
-    & ~tabela_pedidos['NUMPED'].astype(str).isin({str(int(n)) for n in _numpeds_pagos})
+    & (
+        ~tabela_pedidos['NUMPED'].astype(str).isin(_numpeds_pagos_str)
+        | tabela_pedidos['NUMPED'].astype(str).isin(_numpeds_bonificacao)
+    )
 ]
 _feitos     = tabela_pedidos[
     tabela_pedidos['NUMNOTA_NUM'].isna() & (tabela_pedidos['STATUS'] != 'CANCELADA')

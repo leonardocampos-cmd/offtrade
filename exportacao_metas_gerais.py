@@ -34,13 +34,32 @@ SPON_USER = os.getenv("SPON_USER",     USER)
 SPON_PASS = os.getenv("SPON_PASSWORD", PASSWORD)
 _SPON_DSN = os.getenv("DSN_SP", "spon_oci")
 
-# Bases: dsn → lista de (estado, filiais_or_None)
-# RJ e ES compartilham o mesmo Oracle (crc_oci), diferem pela filial
+# Bases: dsn → lista de (estado, filiais_or_None, estado_filtro_or_None)
+# RJ e ES compartilham o mesmo Oracle (crc_oci), diferem pela filial.
+#
+# SP não vem só de SPON: existem vendedores ESTADO='SP' "escondidos" em CRC
+# e CASTAS também (confirmado em 2026-08-13: 1 RCA em CRC, 1 em CASTAS —
+# thekings/MGON não têm nenhum hoje, mas ficam configurados por segurança),
+# e BLENDED é uma fonte adicional nova (banco BLENDED_OCI, schema BLENDED) —
+# pedido do usuário: "as vendas de SP devem ser buscadas em todos os
+# sistemas". GARRIDO fica de fora: não tem PCUSUARI.ESTADO preenchido em
+# nenhuma linha, não dá pra distinguir SP ali sem outro sinal. Essas fontes
+# extras usam "estado_filtro" (WHERE PCUSUARI.ESTADO = ...) em vez de
+# filiais, porque não sabemos a filial certa dessas linhas nesses schemas —
+# BLENDED nem tem ESTADO preenchido (todos os OFF TRADE lá são nulos),
+# então é tratada como schema inteiro = SP, sem estado_filtro (mesma lógica
+# que CASTAS/GARRIDO já usam em exportacao_meta.py: schema inteiro = uma
+# empresa/região, sem precisar filtrar por estado).
 BASES = [
-    {"dsn": os.getenv("DSN_RJ", "crc_oci"),   "schema": "CRC",  "estado": "RJ", "filiais": ["2", "4"]},
-    {"dsn": os.getenv("DSN_ES", "crc_oci"),   "schema": "CRC",  "estado": "ES", "filiais": ["1"]},
-    {"dsn": os.getenv("DSN_SP", "spon_oci"),  "schema": "SPON", "estado": "SP", "filiais": ["1", "2"]},
-    {"dsn": os.getenv("DSN_MG", "mgon_oci"),  "schema": "MGON", "estado": "MG", "filiais": ["1","2"]},
+    {"dsn": os.getenv("DSN_RJ", "crc_oci"),   "schema": "CRC",      "estado": "RJ", "filiais": ["2", "4"], "estado_filtro": None},
+    {"dsn": os.getenv("DSN_ES", "crc_oci"),   "schema": "CRC",      "estado": "ES", "filiais": ["1"],      "estado_filtro": None},
+    {"dsn": os.getenv("DSN_SP", "spon_oci"),  "schema": "SPON",     "estado": "SP", "filiais": ["1", "2"], "estado_filtro": None},
+    {"dsn": os.getenv("DSN_MG", "mgon_oci"),  "schema": "MGON",     "estado": "MG", "filiais": ["1","2"],  "estado_filtro": None},
+    {"dsn": os.getenv("DSN_RJ", "crc_oci"),        "schema": "CRC",      "estado": "SP", "filiais": None, "estado_filtro": "SP"},
+    {"dsn": os.getenv("DSN_THEKING", "theking_oci"), "schema": "THEKINGS", "estado": "SP", "filiais": None, "estado_filtro": "SP"},
+    {"dsn": os.getenv("DSN_CASTAS", "10.131.62.40:1576/?service_name=CASTASPRD"), "schema": "CASTAS", "estado": "SP", "filiais": None, "estado_filtro": "SP"},
+    {"dsn": os.getenv("DSN_MG", "mgon_oci"),       "schema": "MGON",     "estado": "SP", "filiais": None, "estado_filtro": "SP"},
+    {"dsn": os.getenv("DSN_BLENDED", "blended_oci"), "schema": "BLENDED", "estado": "SP", "filiais": None, "estado_filtro": None},
 ]
 
 # RJ e SP têm meta mensal cadastrada por vendedor nas planilhas do Drive
@@ -87,16 +106,17 @@ def _ler_com_retry(engine, query: str, estado: str, max_tentativas: int = 3) -> 
 
 # ── Query agregada por indústria ───────────────────────────────────────────────
 
-def _where(schema: str, filiais: list | None, mes_offset: int, limit_day: bool) -> tuple[str, str, str]:
+def _where(schema: str, filiais: list | None, mes_offset: int, limit_day: bool, estado_filtro: str | None = None) -> tuple[str, str, str, str]:
     p          = f"{schema}."
     ref        = "SYSDATE" if mes_offset == 0 else f"ADD_MONTHS(SYSDATE, {mes_offset})"
     fil_clause = f"AND PCMOV.CODFILIAL IN ({','.join(filiais)})" if filiais else ""
     day_clause = "AND EXTRACT(DAY FROM PCMOV.DTMOV) <= EXTRACT(DAY FROM SYSDATE)" if limit_day else ""
-    return p, ref, fil_clause, day_clause
+    est_clause = f"AND PCUSUARI.ESTADO = '{estado_filtro}'" if estado_filtro else ""
+    return p, ref, fil_clause, day_clause, est_clause
 
 
-def _query_industria(schema: str, filiais: list | None, mes_offset: int = 0, limit_day: bool = False) -> str:
-    p, ref, fil_clause, day_clause = _where(schema, filiais, mes_offset, limit_day)
+def _query_industria(schema: str, filiais: list | None, mes_offset: int = 0, limit_day: bool = False, estado_filtro: str | None = None) -> str:
+    p, ref, fil_clause, day_clause, est_clause = _where(schema, filiais, mes_offset, limit_day, estado_filtro)
     return f"""
         SELECT PCFORNEC.FANTASIA                     AS FANTASIA,
                SUM(PCMOV.PUNIT * PCMOV.QT)          AS FATURAMENTO,
@@ -107,16 +127,16 @@ def _query_industria(schema: str, filiais: list | None, mes_offset: int = 0, lim
         JOIN {p}PCFORNEC  ON PCPRODUT.CODFORNEC = PCFORNEC.CODFORNEC
         JOIN {p}PCCLIENT  ON PCMOV.CODCLI       = PCCLIENT.CODCLI
         WHERE TRUNC(PCMOV.DTMOV, 'MM') = TRUNC({ref}, 'MM')
-          {day_clause} {fil_clause}
+          {day_clause} {fil_clause} {est_clause}
           AND PCMOV.CODOPER = 'S' AND PCMOV.NUMNOTADEV IS NULL AND PCMOV.DTCANCEL IS NULL
           AND (PCUSUARI.NOME LIKE '%OFF TRADE%' OR PCUSUARI.NOME LIKE '%W.S%')
         GROUP BY PCFORNEC.FANTASIA
     """
 
 
-def _query_totais(schema: str, filiais: list | None, mes_offset: int = 0, limit_day: bool = False) -> str:
+def _query_totais(schema: str, filiais: list | None, mes_offset: int = 0, limit_day: bool = False, estado_filtro: str | None = None) -> str:
     """Totais reais (positivação sem dupla contagem entre indústrias)."""
-    p, ref, fil_clause, day_clause = _where(schema, filiais, mes_offset, limit_day)
+    p, ref, fil_clause, day_clause, est_clause = _where(schema, filiais, mes_offset, limit_day, estado_filtro)
     return f"""
         SELECT SUM(PCMOV.PUNIT * PCMOV.QT)    AS FATURAMENTO,
                COUNT(DISTINCT CASE WHEN PCCLIENT.OFFTRADE = 'S' THEN PCCLIENT.CODCLI END) AS POSITIVADOS
@@ -124,7 +144,7 @@ def _query_totais(schema: str, filiais: list | None, mes_offset: int = 0, limit_
         JOIN {p}PCUSUARI ON PCMOV.CODUSUR = PCUSUARI.CODUSUR
         JOIN {p}PCCLIENT ON PCMOV.CODCLI  = PCCLIENT.CODCLI
         WHERE TRUNC(PCMOV.DTMOV, 'MM') = TRUNC({ref}, 'MM')
-          {day_clause} {fil_clause}
+          {day_clause} {fil_clause} {est_clause}
           AND PCMOV.CODOPER = 'S' AND PCMOV.NUMNOTADEV IS NULL AND PCMOV.DTCANCEL IS NULL
           AND (PCUSUARI.NOME LIKE '%OFF TRADE%' OR PCUSUARI.NOME LIKE '%W.S%')
     """
@@ -135,7 +155,7 @@ def _carregar(mes_offset: int = 0, limit_day: bool = False) -> pd.DataFrame:
     engines = {}   # cache de engines por dsn
 
     for cfg in BASES:
-        dsn, schema, estado, filiais = cfg["dsn"], cfg["schema"], cfg["estado"], cfg["filiais"]
+        dsn, schema, estado, filiais, estado_filtro = cfg["dsn"], cfg["schema"], cfg["estado"], cfg["filiais"], cfg.get("estado_filtro")
         if not dsn:
             print(f"  [skip] {estado}: DSN não configurado")
             continue
@@ -159,8 +179,8 @@ def _carregar(mes_offset: int = 0, limit_day: bool = False) -> pd.DataFrame:
                 continue
 
         try:
-            print(f"  Consultando {estado} ({schema} filiais={filiais})…")
-            df = _ler_com_retry(engines[dsn], _query_industria(schema, filiais, mes_offset, limit_day), estado)
+            print(f"  Consultando {estado} ({schema} filiais={filiais} estado_filtro={estado_filtro})…")
+            df = _ler_com_retry(engines[dsn], _query_industria(schema, filiais, mes_offset, limit_day, estado_filtro), f"{estado}/{schema}")
             df.columns   = df.columns.str.upper()
             df["ESTADO"] = estado
             df["FATURAMENTO"] = pd.to_numeric(df["FATURAMENTO"], errors="coerce").fillna(0)
@@ -169,9 +189,9 @@ def _carregar(mes_offset: int = 0, limit_day: bool = False) -> pd.DataFrame:
             frames.append(df)
             print(f"    OK {len(df)} indústrias, fat={df['FATURAMENTO'].sum():,.0f}")
         except Exception as e:
-            print(f"  [aviso] {estado}: falhou após retries — {str(e)[:100]} — desconsiderado, cálculo segue com os demais estados.")
-            if estado not in FONTES_INDISPONIVEIS:
-                FONTES_INDISPONIVEIS.append(estado)
+            print(f"  [aviso] {estado}/{schema}: falhou após retries — {str(e)[:100]} — desconsiderado, cálculo segue com os demais estados.")
+            if f"{estado}/{schema}" not in FONTES_INDISPONIVEIS:
+                FONTES_INDISPONIVEIS.append(f"{estado}/{schema}")
 
     if not frames:
         return pd.DataFrame(columns=["FANTASIA", "FATURAMENTO", "POSITIVADOS", "ESTADO"])
@@ -179,11 +199,13 @@ def _carregar(mes_offset: int = 0, limit_day: bool = False) -> pd.DataFrame:
 
 
 def _carregar_totais(mes_offset: int = 0, limit_day: bool = False) -> dict:
-    """Retorna {estado: {fat, pos}} com positivação sem dupla contagem."""
+    """Retorna {estado: {fat, pos}} com positivação sem dupla contagem.
+    Vários registros de BASES podem apartar pro mesmo estado (ex: SP vem de
+    SPON + CRC + CASTAS + BLENDED) — acumula em vez de sobrescrever."""
     result  = {}
     engines = {}
     for cfg in BASES:
-        dsn, schema, estado, filiais = cfg["dsn"], cfg["schema"], cfg["estado"], cfg["filiais"]
+        dsn, schema, estado, filiais, estado_filtro = cfg["dsn"], cfg["schema"], cfg["estado"], cfg["filiais"], cfg.get("estado_filtro")
         if not dsn:
             continue
         if dsn not in engines:
@@ -202,15 +224,21 @@ def _carregar_totais(mes_offset: int = 0, limit_day: bool = False) -> dict:
             except Exception:
                 continue
         try:
-            row = _ler_com_retry(engines[dsn], _query_totais(schema, filiais, mes_offset, limit_day), estado)
+            row = _ler_com_retry(engines[dsn], _query_totais(schema, filiais, mes_offset, limit_day, estado_filtro), f"{estado}/{schema}")
             row.columns = row.columns.str.upper()
             fat = float(pd.to_numeric(row["FATURAMENTO"].iloc[0], errors="coerce") or 0)
             pos = int(pd.to_numeric(row["POSITIVADOS"].iloc[0], errors="coerce") or 0)
-            result[estado] = {"fat": round(fat, 2), "pos": pos}
+            acc = result.setdefault(estado, {"fat": 0.0, "pos": 0})
+            acc["fat"] = round(acc["fat"] + fat, 2)
+            # Positivação soma direto (não deduplica cliente entre schemas
+            # diferentes) — mesmo cliente cadastrado em duas bases distintas
+            # do Winthor é caso raro o bastante pra não valer a complexidade
+            # de cruzar CODCLI entre schemas aqui.
+            acc["pos"] = acc["pos"] + pos
         except Exception as e:
-            print(f"  [aviso totais] {estado}: falhou após retries — {str(e)[:100]} — desconsiderado, cálculo segue com os demais estados.")
-            if estado not in FONTES_INDISPONIVEIS:
-                FONTES_INDISPONIVEIS.append(estado)
+            print(f"  [aviso totais] {estado}/{schema}: falhou após retries — {str(e)[:100]} — desconsiderado, cálculo segue com os demais estados.")
+            if f"{estado}/{schema}" not in FONTES_INDISPONIVEIS:
+                FONTES_INDISPONIVEIS.append(f"{estado}/{schema}")
     return result
 
 

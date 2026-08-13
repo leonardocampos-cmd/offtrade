@@ -291,11 +291,28 @@ def _serie_por_uf(df):
     return serie
 
 
+def _serie_por_industria(df):
+    """{'INDUSTRIA': {'faturamento':.., 'positivacoes_unicas':.., 'tdp':.., 'qtd_sku_cliente':..}} —
+    usado pelo filtro de Indústria em performance_equipe.html (só recorta a
+    tabela, período acumulado; não cruza com mês/UF pra não explodir o
+    tamanho do payload — 131 indústrias x 153 vendedores x 2 anos)."""
+    serie = {}
+    for industria, grp in df.groupby('INDUSTRIA'):
+        serie[industria] = {
+            'faturamento': round(float(grp['VALOR'].sum()), 2),
+            'positivacoes_unicas': int(grp['CODCLI'].nunique()),
+            'tdp': int(grp['CODPROD'].nunique()),
+            'qtd_sku_cliente': round(float(grp.groupby('CODCLI')['CODPROD'].nunique().mean()), 2),
+        }
+    return serie
+
+
 def _bloco_periodo(df):
     return {
         'metricas': _metricas(df),
         'mensal': _serie_mensal(df),
         'por_uf': _serie_por_uf(df),
+        'por_industria': _serie_por_industria(df),
     }
 
 

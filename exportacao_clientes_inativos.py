@@ -39,7 +39,13 @@ SCHEMAS = [
     # (schema_prefix, dsn, nome_filter, estado, user, pwd)
     ("CRC",     "crc_oci",     "U.NOME LIKE '%OFF TRADE%'",                             "RJ", _crc_user, _crc_pass),
     ("thekings","theking_oci", "U.NOME LIKE '%OFF TRADE%'",                             "RJ", None, None),
-    ("SPON",    "spon_oci",    "(U.NOME LIKE '%OFF TRADE%' OR U.NOME LIKE '%W.S%')",    "SP", None, None),
+    # SPON usa as credenciais do CRC, não as da VPN (mesmo esquema de
+    # meta.py/utils.py — confirmado em 2026-08-06 e de novo em 2026-08-12
+    # aqui: sem isso todo SPON falha com ORA-00942 "table or view does not
+    # exist", que é só um erro de permissão disfarçado — o vendedor
+    # conectado com credencial errada não tem grant pra ver
+    # SPON.PCUSUARI/PCCLIENT).
+    ("SPON",    "spon_oci",    "(U.NOME LIKE '%OFF TRADE%' OR U.NOME LIKE '%W.S%')",    "SP", _crc_user, _crc_pass),
     ("MGON",    "mgon_oci",    "U.NOME LIKE '%OFF TRADE%'",                             "MG", None, None),
 ]
 
@@ -61,15 +67,24 @@ def _q_media(s, nf):
 
 
 def _q_inativos(s, nf):
+    # RCA "inativo" aqui não é U.BLOQUEIO (a maioria desses RCAs está com
+    # BLOQUEIO='N' mesmo já tendo saído — confirmado em 2026-08-12: "ALYSSON
+    # RODRIGUES - INATIVO", "BENNER COSTA - INATIVO" etc. no CRC, todos
+    # BLOQUEIO='N') — o sinal real é o próprio U.NOME passar a conter
+    # "INATIVO" quando o RCA sai (renomeado manualmente pelo cadastro).
     return f"""
     SELECT C.CODCLI, C.CLIENTE, C.BAIRROENT AS BAIRRO, C.MUNICENT AS CIDADE,
            TO_CHAR(C.DTULTCOMP,  'DD/MM/YYYY') AS DTULTCOMP,
            TRUNC(SYSDATE) - TRUNC(C.DTULTCOMP) AS DIAS,
-           U.NOME AS NOME_RCA, U.CODUSUR AS RCA
+           U.NOME AS NOME_RCA, U.CODUSUR AS RCA,
+           CASE WHEN UPPER(U.NOME) LIKE '%INATIVO%' THEN 'S' ELSE 'N' END AS RCA_INATIVO
     FROM {s}.PCCLIENT C
     JOIN {s}.PCUSUARI U ON C.CODUSUR2 = U.CODUSUR
     WHERE C.BLOQUEIO = 'S' AND C.CODUSUR1 = 10
-      AND {nf}
+      -- {nf} sozinho (U.NOME LIKE '%OFF TRADE%') excluiria de vez o cliente
+      -- cujo RCA foi renomeado pra "... - INATIVO" ao sair (não bate mais
+      -- com '%OFF TRADE%') — confirmado em 2026-08-12, ver comentário acima.
+      AND ({nf} OR UPPER(U.NOME) LIKE '%INATIVO%')
     ORDER BY U.NOME, C.CLIENTE
     """
 
@@ -189,7 +204,7 @@ for schema, dsn, nome_filter, estado, usr, pwd in SCHEMAS:
 
     for label, query, cat, cols, mapa_media in [
         (f"inativos_{schema}",   _q_inativos(schema, nome_filter),   "inativos",
-         ["CODCLI","CLIENTE","BAIRRO","CIDADE","DTULTCOMP","DIAS"], _media_map_inativos),
+         ["CODCLI","CLIENTE","BAIRRO","CIDADE","DTULTCOMP","DIAS","RCA_INATIVO"], _media_map_inativos),
         (f"sem_compra_{schema}", _q_sem_compra(schema, nome_filter), "sem_compra",
          ["CODCLI","CLIENTE","BAIRRO","CIDADE","DTULTCOMP","DIAS"], _media_map),
         (f"novos_{schema}",      _q_novos(schema, nome_filter),      "novos",
@@ -215,6 +230,12 @@ for schema, dsn, nome_filter, estado, usr, pwd in SCHEMAS:
 
 # ── Hierarquia (estado → gerente → supervisor → vendedor) ────────────────────
 def _q_hier(s, nf):
+    # Mesmo alargamento de _q_inativos: RCA renomeado pra "... - INATIVO" ao
+    # sair não bate mais com '%OFF TRADE%' nem com BLOQUEIO='N' — sem isso,
+    # ficava fora da árvore Gerente/Supervisor inteira mesmo com o vínculo
+    # (CODSUPERVISOR) intacto, e o cliente dele nunca aparecia filtrando por
+    # esse gerente/supervisor (confirmado em 2026-08-12: BRYAN PALOPOLI -
+    # OFF TRADE - INATIVO, BLOQUEIO='S', ainda vinculado a MARCUS TANAMACHI).
     return f"""
     SELECT U.CODUSUR, U.NOME AS NOME_VENDEDOR, U.ESTADO AS ESTADO_VENDEDOR,
            S.CODSUPERVISOR, S.NOME AS NOME_SUPERVISOR,
@@ -222,28 +243,52 @@ def _q_hier(s, nf):
     FROM {s}.PCUSUARI U
     LEFT JOIN {s}.PCSUPERV  S ON U.CODSUPERVISOR = S.CODSUPERVISOR
     LEFT JOIN {s}.PCGERENTE G ON S.CODGERENTE     = G.CODGERENTE
-    WHERE {nf} AND U.BLOQUEIO = 'N'
+    WHERE ({nf} OR UPPER(U.NOME) LIKE '%INATIVO%')
+      AND (U.BLOQUEIO = 'N' OR UPPER(U.NOME) LIKE '%INATIVO%')
     """
 
 _hier_emp = {}
+# nome_vendedor -> estado real (ESTADO_VENDEDOR), pra corrigir por_vendedor
+# depois — o schema CRC sozinho mistura RJ/SP/ES (mesma conexão Oracle, só
+# distinguidos pelo campo U.ESTADO por vendedor), então o 'estado' fixo da
+# tupla de SCHEMAS usado em por_vendedor está errado pra quem não é RJ de
+# fato (confirmado em 2026-08-12: BRYAN PALOPOLI é SP e MARA DEPOLLI é ES,
+# ambos gravados como "RJ" em por_vendedor antes desse fix).
+_nome_para_estado = {}
 for schema, dsn, nome_filter, estado, usr, pwd in SCHEMAS:
     eng = _eng(dsn, usr, pwd)
     df  = _load(_q_hier(schema, nome_filter), eng, f"hier_{schema}")
     if df.empty:
         continue
     for _, r in df.iterrows():
-        codusur = str(r.get("CODUSUR") or "").strip()
-        nome_v  = str(r.get("NOME_VENDEDOR") or "").strip()
-        est_v   = str(r.get("ESTADO_VENDEDOR") or estado or "").strip()
+        codusur    = str(r.get("CODUSUR") or "").strip()
+        nome_v     = str(r.get("NOME_VENDEDOR") or "").strip()
+        raw_estado = r.get("ESTADO_VENDEDOR")
+        # pd.notna() em vez de "or" puro: um NaN de verdade (pandas, campo
+        # vazio no Oracle) é *truthy* em Python (bool(float('nan')) == True),
+        # então "raw_estado or estado" nunca caía no fallback e virava a
+        # string literal "nan" — 5 gerentes (23 vendedores) foram parar numa
+        # categoria fantasma "nan" em vez do estado real/fallback da conexão
+        # (confirmado em 2026-08-12, ver clientes_inativos_data.js gerado).
+        est_v   = str(raw_estado).strip() if pd.notna(raw_estado) else ""
         ger     = str(r.get("NOMEGERENTE")    or "").strip() or "Sem Gerente"
         sup     = str(r.get("NOME_SUPERVISOR") or "").strip() or "Sem Supervisor"
         if not nome_v:
             continue
         est_key = est_v or estado or "Sem Estado"
+        if est_key != "Sem Estado":
+            _nome_para_estado[nome_v] = est_key
         e_ = _hier_emp.setdefault(est_key, {"nome": est_key, "gerentes": {}})
         g_ = e_["gerentes"].setdefault(ger, {"nome": ger, "supervisores": {}})
         s_ = g_["supervisores"].setdefault(sup, {"nome": sup, "vendedores": {}})
         s_["vendedores"][nome_v] = {"nome": nome_v, "rca": codusur}
+
+# Corrige o estado de por_vendedor com o valor real por vendedor (acima) —
+# sem isso, todo mundo herdava o estado fixo da conexão Oracle de origem
+# (ex: todo mundo do schema CRC virava "RJ", mesmo vendedores de SP/ES).
+for nome_v, estado_real in _nome_para_estado.items():
+    if nome_v in por_vendedor:
+        por_vendedor[nome_v]["estado"] = estado_real
 
 hierarquia = []
 for est_data in sorted(_hier_emp.values(), key=lambda x: x["nome"]):
