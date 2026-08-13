@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "13/08/2026 11:06",
-  "total": 22030,
+  "atualizado_em": "13/08/2026 11:21",
+  "total": 22029,
   "clientes": [
     {
       "codcli": "38586",
@@ -317346,22 +317346,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "378",
       "nome_usur2": "FABIO VALOTTI - OFF TRADE"
-    },
-    {
-      "codcli": "80209",
-      "razao": "STUDIO MAR DE ARTES MARCIAIS LTDA",
-      "fantasia": "STUDIO MAR CARLSON GRACIE",
-      "bairro": "RECREIO DOS BANDEIRANTES",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "52.872.406/0001-68",
-      "estado": "RJ",
-      "ramo": "OUTROS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "84784",
