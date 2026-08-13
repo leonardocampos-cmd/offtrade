@@ -932,19 +932,26 @@ function _corLogistico(statusRaw) {
   return { cor: 'var(--muted)', bg: '' }; // ABERTO ou outro
 }
 
+function _statusLogTexto(logistica) {
+  if (!logistica) return '';
+  return logistica.status_log || (logistica.em_rota ? 'EM ROTA' : '');
+}
+
 function _statusPedidoInfo(p) {
-  if (p.status === 'emitido' && p.logistica) {
-    const statusTxt = p.logistica.status_log || (p.logistica.em_rota ? 'EM ROTA' : '');
-    if (statusTxt) {
-      const { cor, bg } = _corLogistico(statusTxt);
-      return { label: statusTxt.toUpperCase(), cor, bg };
-    }
+  const statusLog = _statusLogTexto(p.logistica);
+  if (p.status === 'emitido' && statusLog) {
+    const { cor, bg } = _corLogistico(statusLog);
+    return { label: statusLog.toUpperCase(), cor, bg };
   }
   switch (p.status) {
     case 'cancelado':     return { label: 'CANCELADO',     cor: '#ef4444', bg: 'rgba(239,68,68,.1)' };
-    case 'corte_parcial': return { label: 'CORTE PARCIAL', cor: '#f97316', bg: 'rgba(249,115,22,.1)' };
+    // Corte parcial mantém a cor/destaque de corte, mas mostra o status de
+    // logística ao lado quando existe (pedido do usuário em 2026-08-13) —
+    // pedido pode ter sido cortado E já estar em rota/entregue com o
+    // restante.
+    case 'corte_parcial': return { label: statusLog ? `CORTE PARCIAL · ${statusLog.toUpperCase()}` : 'CORTE PARCIAL', cor: '#f97316', bg: 'rgba(249,115,22,.1)' };
     case 'devolvido':     return { label: 'DEVOLVIDO',     cor: '#a855f7', bg: 'rgba(168,85,247,.1)' };
-    case 'bonificado':    return { label: 'BONIFICAÇÃO',   cor: '#3b82f6', bg: 'rgba(59,130,246,.1)' };
+    case 'bonificado':    return { label: statusLog ? `BONIFICAÇÃO · ${statusLog.toUpperCase()}` : 'BONIFICAÇÃO', cor: '#3b82f6', bg: 'rgba(59,130,246,.1)' };
     default:              return { label: 'EMITIDO',       cor: '#22c55e', bg: '' };
   }
 }
@@ -971,7 +978,11 @@ function _agruparPedidos(vendas) {
     else if (g.itens.some(it => it.cancelado_parcial)) status = 'corte_parcial';
     else if (g.itens.every(it => it.devolvido)) status = 'devolvido';
     else if (g.itens.every(it => it.tipo === 'Bonificado')) status = 'bonificado';
-    const logistica = status === 'emitido' ? _logisticaDoPedido(g.sistema, g.nunota) : null;
+    // Cancelado/devolvido não têm nota faturada com rota real (cancelado
+    // nunca chega a sair, devolvido é a nota de estorno) — só busca
+    // logística pros status que podem coexistir com uma entrega em curso.
+    const logistica = (status === 'emitido' || status === 'corte_parcial' || status === 'bonificado')
+      ? _logisticaDoPedido(g.sistema, g.nunota) : null;
     return { ...g, status, logistica };
   });
 }
