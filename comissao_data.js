@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "13/08/2026 13:59",
+  "atualizado_em": "13/08/2026 14:39",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -1029,26 +1029,26 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 120000.0,
-          "realizado": 61641.95,
+          "realizado": 63799.95,
           "peso": 0.7,
-          "ating_meta": 0.513683,
-          "ating_acumulado": 0.359578
+          "ating_meta": 0.531666,
+          "ating_acumulado": 0.372166
         },
         {
           "label": "FATURAMENTO PERNOD",
           "meta": 7000.0,
-          "realizado": 2747.62,
+          "realizado": 3005.22,
           "peso": 0.05,
-          "ating_meta": 0.392517,
-          "ating_acumulado": 0.019626
+          "ating_meta": 0.429317,
+          "ating_acumulado": 0.021466
         },
         {
           "label": "FATURAMENTO CASTAS",
           "meta": 9000.0,
-          "realizado": 3188.06,
+          "realizado": 3711.76,
           "peso": 0.1,
-          "ating_meta": 0.354229,
-          "ating_acumulado": 0.035423
+          "ating_meta": 0.412418,
+          "ating_acumulado": 0.041242
         },
         {
           "label": "FATURAMENTO HOB + AZEITE",
@@ -1069,10 +1069,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO",
           "meta": 90.0,
-          "realizado": 54,
+          "realizado": 55,
           "peso": 0.1,
-          "ating_meta": 0.6,
-          "ating_acumulado": 0.06
+          "ating_meta": 0.611111,
+          "ating_acumulado": 0.061111
         },
         {
           "label": "POSITIVAÇÃO ESSENZA",
@@ -1139,14 +1139,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.0
         }
       ],
-      "ating_acumulado_total": 0.503415,
-      "pct_premio": 0.00755122,
+      "ating_acumulado_total": 0.524773,
+      "pct_premio": 0.00787159,
       "liq_rigarr": 15060.07,
-      "fat_castas": 3188.06,
+      "fat_castas": 3711.76,
       "teto_comissao": null,
-      "com_rigarr": 113.72,
-      "com_castas": 24.07,
-      "comissao_estimada": 137.79
+      "com_rigarr": 118.55,
+      "com_castas": 29.22,
+      "comissao_estimada": 147.77
     },
     {
       "nome": "MARIA LUIZA - OFF TRADE",
@@ -1657,5 +1657,8 @@ const COMISSAO_DATA = {
       "comissao_estimada": 34.48
     }
   ],
-  "fontes_indisponiveis": []
+  "fontes_indisponiveis": [
+    "comissao_liquidado_CASTAS",
+    "comissao_vendas_CASTAS"
+  ]
 };
