@@ -723,11 +723,11 @@ const AGENDAMENTO_DATA = {
           "cliente": "MERCADO RC DE MIGUEL PEREIRA",
           "cnpj": "52.909.395/0001-43",
           "filial": "MIGUEL PEREIRA",
-          "valor": 2179.8,
-          "nf": "7066",
+          "valor": 1329.0,
+          "nf": "7114",
           "data_agendamento": "13/08/2026",
           "data_ord": "2026-08-13",
-          "status": "FATURADO",
+          "status": "CANCELADO",
           "obs": "Caixas e rótulos íntegros",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17355,7 +17355,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7302",
           "data_agendamento": "13/08/2026",
           "data_ord": "2026-08-13",
-          "status": "A FATURAR",
+          "status": "FATURADO",
           "obs": "SUPERMERCADO SUPERMAKET - BONIFICAÇÃO",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -24931,7 +24931,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6517",
           "data_agendamento": "13/08/2026",
           "data_ord": "2026-08-13",
-          "status": "FATURADO",
+          "status": "CANCELADO",
           "obs": "ROTA DE VIAGEM",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -25952,7 +25952,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "12/08/2026 17:53",
+  "atualizado_em": "13/08/2026 10:15",
   "comparativo": [
     {
       "msg_id": "19ff618b610c2f79",
