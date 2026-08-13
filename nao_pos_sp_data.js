@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "13/08/2026 12:30",
+  "atualizado_em": "13/08/2026 13:55",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -9490,16 +9490,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "52089",
+        "codcli": "52091",
         "cliente": "MARIA MARCIA GONCALVES ALVES 35199667866",
-        "bairro": "VILA NOSSA SENHORA APARECIDA",
+        "bairro": "POIARES",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "52091",
+        "codcli": "52089",
         "cliente": "MARIA MARCIA GONCALVES ALVES 35199667866",
-        "bairro": "POIARES",
+        "bairro": "VILA NOSSA SENHORA APARECIDA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -9806,6 +9806,15 @@ const NAO_POS_SP_DATA = {
         "codcli": "51932",
         "cliente": "NINKI SUPERMERCADOS LTDA",
         "bairro": "CASA VERDE ALTA",
+        "dtultcomp": "nan",
+        "produtos": []
+      }
+    ],
+    "JOVELINA LISBOA": [
+      {
+        "codcli": "41520",
+        "cliente": "RANTOS LTDARIGUES SANTOS LTDA",
+        "bairro": "VILA LIVIERO",
         "dtultcomp": "nan",
         "produtos": []
       }
