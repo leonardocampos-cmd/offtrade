@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "13/08/2026 12:33",
+  "atualizado_em": "13/08/2026 14:00",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -22184,6 +22184,69 @@ const INATIVOS_DATA = {
       ],
       "novos": [
         {
+          "codcli": "39689",
+          "cliente": "TORRE CAFE LTDA",
+          "bairro": "SERRA VERDE (VENDA NOVA)",
+          "cidade": "BELO HORIZONTE",
+          "dtcadastro": "28/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "39688",
+          "cliente": "EMPORIO FP LTDA",
+          "bairro": "SERRA VERDE (VENDA NOVA)",
+          "cidade": "BELO HORIZONTE",
+          "dtcadastro": "28/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "39687",
+          "cliente": "F J RESTAURANTE LTDA",
+          "bairro": "SERRA VERDE (VENDA NOVA)",
+          "cidade": "BELO HORIZONTE",
+          "dtcadastro": "28/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "39686",
+          "cliente": "CASA CAJU LTDA",
+          "bairro": "SERRA VERDE (VENDA NOVA)",
+          "cidade": "BELO HORIZONTE",
+          "dtcadastro": "28/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "39685",
+          "cliente": "JARDIM 360 LTDA",
+          "bairro": "SERRA VERDE (VENDA NOVA)",
+          "cidade": "BELO HORIZONTE",
+          "dtcadastro": "28/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "39684",
+          "cliente": "FPP RESTAURANTE LTDA",
+          "bairro": "SERRA VERDE (VENDA NOVA)",
+          "cidade": "BELO HORIZONTE",
+          "dtcadastro": "28/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "39683",
+          "cliente": "RESTAURANTE CASA CAJU LTDA",
+          "bairro": "POMPÉIA",
+          "cidade": "BELO HORIZONTE",
+          "dtcadastro": "28/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
           "codcli": "39649",
           "cliente": "REQUINTE BARTENDER DRINKS LTDA",
           "bairro": "RIACHO DAS PEDRAS",
@@ -22919,18 +22982,18 @@ const INATIVOS_DATA = {
           "media": 94.2
         },
         {
-          "codcli": "39403",
+          "codcli": "30324",
           "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-          "bairro": "COMITECO",
+          "bairro": "BELVEDERE",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "29/05/2026",
           "dias": 76,
           "media": 123.04
         },
         {
-          "codcli": "30324",
+          "codcli": "39403",
           "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-          "bairro": "BELVEDERE",
+          "bairro": "COMITECO",
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "29/05/2026",
           "dias": 76,
@@ -22953,15 +23016,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "05/06/2026",
           "dias": 69,
           "media": 415.8
-        },
-        {
-          "codcli": "30705",
-          "cliente": "RUA DO JASMIM ALIMENTOS E BEBIDAS LTDA",
-          "bairro": "SANTO ANTÔNIO",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "05/06/2026",
-          "dias": 69,
-          "media": 199.6
         },
         {
           "codcli": "34226",
@@ -22991,15 +23045,6 @@ const INATIVOS_DATA = {
           "media": 554.07
         },
         {
-          "codcli": "39473",
-          "cliente": "KTR BUFFET E PRODUCOES LTDA",
-          "bairro": "SANTA AMÉLIA",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "17/06/2026",
-          "dias": 57,
-          "media": 1704.23
-        },
-        {
           "codcli": "38892",
           "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
           "bairro": "SION",
@@ -23007,6 +23052,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "17/06/2026",
           "dias": 57,
           "media": 82.03
+        },
+        {
+          "codcli": "39473",
+          "cliente": "KTR BUFFET E PRODUCOES LTDA",
+          "bairro": "SANTA AMÉLIA",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "17/06/2026",
+          "dias": 57,
+          "media": 1704.23
         },
         {
           "codcli": "38776",
@@ -23063,15 +23117,6 @@ const INATIVOS_DATA = {
           "media": 1538.66
         },
         {
-          "codcli": "36021",
-          "cliente": "MFB COMERCIAL LTDA",
-          "bairro": "VALE DO SERENO",
-          "cidade": "NOVA LIMA",
-          "dtultcomp": "08/07/2026",
-          "dias": 36,
-          "media": 1377.07
-        },
-        {
           "codcli": "36027",
           "cliente": "ORGANIZACAO MAAS LTDA",
           "bairro": "ANCHIETA",
@@ -23079,6 +23124,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "08/07/2026",
           "dias": 36,
           "media": 290.03
+        },
+        {
+          "codcli": "36021",
+          "cliente": "MFB COMERCIAL LTDA",
+          "bairro": "VALE DO SERENO",
+          "cidade": "NOVA LIMA",
+          "dtultcomp": "08/07/2026",
+          "dias": 36,
+          "media": 1377.07
         },
         {
           "codcli": "30059",
@@ -23117,15 +23171,6 @@ const INATIVOS_DATA = {
           "media": 465.93
         },
         {
-          "codcli": "37500",
-          "cliente": "ESTORIL CONVENIENCIA LTDA",
-          "bairro": "AEROPORTO",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "13/07/2026",
-          "dias": 31,
-          "media": 592.32
-        },
-        {
           "codcli": "31850",
           "cliente": "LA MACELLERIA VILA DA SERRA ACOUGUE GOURMET E RESTAURANTE LT",
           "bairro": "VILA DA SERRA",
@@ -23133,6 +23178,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "13/07/2026",
           "dias": 31,
           "media": 117.8
+        },
+        {
+          "codcli": "37500",
+          "cliente": "ESTORIL CONVENIENCIA LTDA",
+          "bairro": "AEROPORTO",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "13/07/2026",
+          "dias": 31,
+          "media": 592.32
         },
         {
           "codcli": "34010",
@@ -23153,7 +23207,17 @@ const INATIVOS_DATA = {
           "media": 867.2
         }
       ],
-      "novos": []
+      "novos": [
+        {
+          "codcli": "39800",
+          "cliente": "POSTO CJ LTDA",
+          "bairro": "CIDADE JARDIM",
+          "cidade": "BELO HORIZONTE",
+          "dtcadastro": "13/08/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        }
+      ]
     },
     "WILLIAM ALVES DA SILVA - OFF TRADE": {
       "rca": "349",
