@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "13/08/2026 12:10",
+  "atualizado_em": "13/08/2026 12:33",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -760,12 +760,12 @@ const COMISSAO_DATA = {
       ],
       "ating_acumulado_total": 0.223397,
       "pct_premio": 0.00335096,
-      "liq_rigarr": 57183.62,
+      "liq_rigarr": 57444.72,
       "fat_castas": 2154.0,
       "teto_comissao": null,
-      "com_rigarr": 191.62,
+      "com_rigarr": 192.49,
       "com_castas": 7.22,
-      "comissao_estimada": 198.84
+      "comissao_estimada": 199.71
     },
     {
       "nome": "LEANDRO SOUZA - OFF TRADE",
