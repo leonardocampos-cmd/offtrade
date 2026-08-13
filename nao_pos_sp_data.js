@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "13/08/2026 10:44",
+  "atualizado_em": "13/08/2026 11:06",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -6112,6 +6112,13 @@ const NAO_POS_SP_DATA = {
             "valor": 149.7
           }
         ]
+      },
+      {
+        "codcli": "42443",
+        "cliente": "GUILHERME HENRIQUE SILVA FAVARO COMERCIO DE BEBIDAS LTDA",
+        "bairro": "JARDIM SÃO JUDAS TADEU",
+        "dtultcomp": "nan",
+        "produtos": []
       },
       {
         "codcli": "51901",
