@@ -66,6 +66,25 @@
     .np-cli-ic    { font-size: .6rem; color: var(--muted); margin-left: 6px; }
     .np-prods     { display: none; background: var(--card2); border-radius: 8px; padding: 8px 10px; margin: 4px 0 8px; }
     .np-prods.open { display: block; }
+    .vendas-empty { color: var(--muted); font-size: .82rem; padding: 12px 0; }
+
+    /* Modal de detalhes do pedido */
+    .modal-overlay {
+      position: fixed; inset: 0; background: rgba(0,0,0,0.65);
+      display: flex; align-items: center; justify-content: center;
+      z-index: 999; padding: 16px;
+    }
+    .modal-pedido {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 20px; max-width: 560px; width: 100%;
+      max-height: 80vh; overflow-y: auto;
+    }
+    .modal-pedido-header {
+      display: flex; justify-content: space-between; align-items: flex-start;
+      gap: 10px; flex-wrap: wrap;
+    }
+    .modal-pedido-title { font-size: 0.95rem; font-weight: 700; color: var(--text); }
+    .modal-pedido-sub { font-size: 0.76rem; color: var(--muted); margin-top: 3px; }
 
     .search-wrap { margin-bottom: 16px; }
     .search-input { width: 100%; background: var(--card); border: 1px solid var(--border); color: var(--text); border-radius: 10px; padding: 10px 14px; font-size: .88rem; outline: none; }
@@ -237,30 +256,117 @@ function toggleCli(id) {
   if (ic) ic.textContent = o ? '▲' : '▼';
 }
 
+// ── Faturamento agrupado por pedido/nota ──────────────────────────────────────
+// Mesmo padrão de metas.html/sp.html (pedido do usuário em 2026-08-13, sem
+// status de logística aqui) — agrupa por NUNOTA (venda faturada) ou NUMPED
+// (cancelado antes de virar nota), classifica por status e mostra num modal.
+
+function _chavePedidoV(v, idx) {
+  if (v.nunota) return 'NF:' + v.nunota;
+  if (v.numped) return 'PED:' + v.numped;
+  return 'ITEM:' + idx;
+}
+
+function _statusPedidoInfoV(status) {
+  switch (status) {
+    case 'cancelado':     return { label: 'CANCELADO',     cor: '#ef4444', bg: 'rgba(239,68,68,.1)' };
+    case 'corte_parcial': return { label: 'CORTE PARCIAL', cor: '#f97316', bg: 'rgba(249,115,22,.1)' };
+    case 'devolvido':     return { label: 'DEVOLVIDO',     cor: '#a855f7', bg: 'rgba(168,85,247,.1)' };
+    case 'bonificado':    return { label: 'BONIFICAÇÃO',   cor: '#3b82f6', bg: 'rgba(59,130,246,.1)' };
+    default:              return { label: 'EMITIDO',       cor: '#22c55e', bg: '' };
+  }
+}
+
+function _agruparPedidosV(lista) {
+  var grupos = [], keyMap = {};
+  lista.forEach(function(v, idx) {
+    var key = _chavePedidoV(v, idx);
+    if (!(key in keyMap)) {
+      keyMap[key] = grupos.length;
+      grupos.push({ data: v.data, codcli: v.codcli, cliente: v.cliente, itens: [], valor: 0, qt: 0 });
+    }
+    var g = grupos[keyMap[key]];
+    g.itens.push(v);
+    g.valor += v.valor;
+    g.qt += v.qt;
+  });
+  grupos.forEach(function(g) {
+    var status = 'emitido';
+    if (g.itens.some(function(it) { return it.cancelado; })) status = 'cancelado';
+    else if (g.itens.some(function(it) { return it.cancelado_parcial; })) status = 'corte_parcial';
+    else if (g.itens.every(function(it) { return it.devolvido; })) status = 'devolvido';
+    else if (g.itens.every(function(it) { return it.tipo === 'Bonificado'; })) status = 'bonificado';
+    g.status = status;
+  });
+  return grupos;
+}
+
+var _pedidosAtuaisMG = [];
+
 function buildVendasGrouped(lista, prefix) {
   if (!lista || !lista.length)
     return '<div class="vendas-empty">Nenhuma venda registrada neste mes.</div>';
-  var groups = [], keyMap = {};
-  lista.forEach(function(v) {
-    var key = (v.codcli || v.cliente) + '|' + v.data;
-    if (!(key in keyMap)) { keyMap[key] = groups.length; groups.push({codcli:v.codcli,cliente:v.cliente,data:v.data,fat:0,produtos:[]}); }
-    var g = groups[keyMap[key]]; g.fat += v.valor;
-    g.produtos.push({produto:v.produto,fantasia:v.fantasia,qt:v.qt,valor:v.valor});
+
+  var pedidos = _agruparPedidosV(lista).sort(function(a, b) {
+    var pa = a.data.split('/'), pb = b.data.split('/');
+    return new Date(pb[2], pb[1]-1, pb[0]) - new Date(pa[2], pa[1]-1, pa[0]);
   });
-  return groups.map(function(g, i) {
-    var gId = prefix + '-vg-' + i;
-    var rows = g.produtos.map(function(p) {
-      return '<tr><td><div>' + (p.produto||'—') + '</div><div class="td-muted" style="font-size:.7rem">' + (p.fantasia||'') + '</div></td>' +
-        '<td class="td-right td-muted">' + p.qt + '</td><td class="td-right">' + fmt(p.valor) + '</td></tr>';
-    }).join('');
-    return '<div class="np-cli-row" onclick="toggleCli(\'' + gId + '\')">' +
-      '<div><span class="np-cli-name">' + (g.cliente||'—') + '</span></div>' +
-      '<div style="display:flex;align-items:center"><span class="np-cli-date">' + (g.data||'') + '</span>' +
-      '<span id="' + gId + '-ic" class="np-cli-ic">▼</span></div></div>' +
-      '<div id="' + gId + '" class="np-prods"><table class="tbl"><thead><tr>' +
-      '<th>Produto / Fornecedor</th><th class="td-right">Qtde</th><th class="td-right">Valor</th>' +
-      '</tr></thead><tbody>' + rows + '</tbody></table></div>';
+  _pedidosAtuaisMG = pedidos;
+
+  return pedidos.map(function(p, i) {
+    var info = _statusPedidoInfoV(p.status);
+    var ref  = p.itens[0];
+    var numPedido = ref.nunota ? 'NF ' + ref.nunota : (ref.numped ? 'Ped ' + ref.numped : '—');
+    return '<div class="np-cli-row"' + (info.bg ? ' style="background:' + info.bg + '"' : '') + '>' +
+        '<div><span class="np-cli-name">' + (p.cliente || '—') + '</span>' +
+          '<span style="font-size:.62rem;background:' + (info.bg || 'rgba(34,197,94,.15)') + ';color:' + info.cor + ';border:1px solid ' + info.cor + '55;border-radius:4px;padding:1px 5px;font-weight:700;margin-left:6px">' + info.label + '</span></div>' +
+        '<div style="display:flex;align-items:center">' +
+          '<span class="np-cli-date">' + numPedido + ' &middot; ' + p.itens.length + (p.itens.length === 1 ? ' item' : ' itens') + ' &middot; ' + fmt(p.valor) + '</span>' +
+          '<button class="btn" style="padding:3px 8px;font-size:.66rem;margin-left:8px" onclick="abrirDetalhesPedidoMG(' + i + ')">Ver detalhes</button>' +
+        '</div>' +
+      '</div>';
   }).join('');
+}
+
+function abrirDetalhesPedidoMG(idx) {
+  var p = _pedidosAtuaisMG[idx];
+  if (!p) return;
+  var info = _statusPedidoInfoV(p.status);
+  var ref  = p.itens[0];
+  var numPedido = ref.nunota ? 'Nota ' + ref.nunota : (ref.numped ? 'Pedido ' + ref.numped : 'Sem identificador');
+  var itensHtml = p.itens.map(function(it) {
+    return '<tr>' +
+      '<td>' + (it.produto || '—') +
+        (it.tipo === 'Bonificado' ? ' <span style="font-size:.6rem;color:#3b82f6;font-weight:700">BON</span>' : '') +
+        (it.devolvido ? ' <span style="font-size:.6rem;color:#a855f7;font-weight:700">DEV</span>' : '') +
+        (it.cancelado ? ' <span style="font-size:.6rem;color:#ef4444;font-weight:700">CANCELADO</span>' : '') +
+        (it.cancelado_parcial ? ' <span style="font-size:.6rem;color:#f97316;font-weight:700">CORTE</span>' : '') +
+      '</td>' +
+      '<td class="td-muted" style="white-space:nowrap">' + (it.fantasia || '—') + '</td>' +
+      '<td class="td-right">' + it.qt + '</td>' +
+      '<td class="td-right">' + fmt(it.valor) + '</td>' +
+    '</tr>';
+  }).join('');
+  var html =
+    '<div class="modal-overlay" id="modal-pedido-overlay-mg" onclick="if(event.target===this) fecharDetalhesPedidoMG()">' +
+      '<div class="modal-pedido">' +
+        '<div class="modal-pedido-header">' +
+          '<div><div class="modal-pedido-title">' + numPedido + '</div>' +
+          '<div class="modal-pedido-sub">' + (p.data || '—') + ' &middot; ' + (p.codcli ? p.codcli + ' · ' : '') + (p.cliente || '—') + '</div></div>' +
+          '<span style="font-size:.68rem;background:' + (info.bg || 'rgba(34,197,94,.15)') + ';color:' + info.cor + ';border:1px solid ' + info.cor + '55;border-radius:5px;padding:2px 8px;font-weight:700;white-space:nowrap">' + info.label + '</span>' +
+        '</div>' +
+        '<table class="tbl" style="margin-top:12px"><thead><tr><th>Produto</th><th>Fornecedor</th><th class="td-right">Qtde</th><th class="td-right">Valor</th></tr></thead>' +
+        '<tbody>' + itensHtml + '</tbody></table>' +
+        '<div style="text-align:right;margin-top:10px;font-weight:700">Total: ' + fmt(p.valor) + '</div>' +
+        '<button class="btn" style="margin-top:14px" onclick="fecharDetalhesPedidoMG()">Fechar</button>' +
+      '</div>' +
+    '</div>';
+  document.body.insertAdjacentHTML('beforeend', html);
+}
+
+function fecharDetalhesPedidoMG() {
+  var el = document.getElementById('modal-pedido-overlay-mg');
+  if (el) el.remove();
 }
 
 function copiarLink(nome, btn) {
@@ -376,9 +482,12 @@ function _atualizarTabela(nome) {
     return new Date(pb[2],pb[1]-1,pb[0]) - new Date(pa[2],pa[1]-1,pa[0]);
   });
   var res = (D.resumo && D.resumo[nome] && D.resumo[nome][mes]) || {};
-  var fat = res.fat || lista.reduce(function(s,r){return s+r.valor;},0);
-  var qt  = lista.reduce(function(s,r){return s+r.qt;},0);
-  var pos = res.pos !== undefined ? res.pos : new Set(lista.filter(function(r){return r.offtrade;}).map(function(r){return r.codcli||r.cliente;})).size;
+  // KPIs contam só venda válida — cancelado/corte/devolvido ficam visíveis
+  // na lista (destacados por cor) mas não inflam o faturamento do topo.
+  var listaValida = lista.filter(function(r){return !r.devolvido && !r.cancelado && !r.cancelado_parcial;});
+  var fat = res.fat || listaValida.reduce(function(s,r){return s+r.valor;},0);
+  var qt  = listaValida.reduce(function(s,r){return s+r.qt;},0);
+  var pos = res.pos !== undefined ? res.pos : new Set(listaValida.filter(function(r){return r.offtrade;}).map(function(r){return r.codcli||r.cliente;})).size;
   var ant = res.fat_ant || 0;
   var anoAnt = res.fat_ano_ant || 0;
   document.getElementById('det-kpis').innerHTML =

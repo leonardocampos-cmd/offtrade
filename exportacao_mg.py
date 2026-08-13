@@ -1,5 +1,5 @@
 # exportacao_mg.py — Gera vendas_mg_data.js (MGON filiais 1 e 2 = MG)
-import json, time, os
+import json, time, os, re
 import pandas as pd
 import oracledb
 from sqlalchemy import create_engine
@@ -61,23 +61,25 @@ QUERY_VENDAS_MG = """
     SELECT
         TRUNC(M.DTMOV, 'MM')            AS MES,
         TO_CHAR(M.DTMOV, 'DD/MM/YYYY') AS DATA,
+        M.NUMNOTA                       AS NUNOTA,
         M.CODCLI,
         C.CLIENTE,
         M.DESCRICAO                     AS PRODUTO,
         F.FANTASIA,
         M.QT,
         (M.PUNIT * M.QT)               AS VALOR,
+        M.CODOPER,
         U.NOME                          AS NOME_ORACLE,
         U.CODUSUR                       AS CODUSUR,
-        C.OFFTRADE                      AS OFFTRADE
+        C.OFFTRADE                      AS OFFTRADE,
+        CASE WHEN M.CODOPER = 'ED' OR M.NUMNOTADEV IS NOT NULL THEN 'S' ELSE 'N' END AS DEVOLVIDO
     FROM MGON.PCMOV M
     JOIN MGON.PCUSUARI U  ON M.CODUSUR   = U.CODUSUR
     LEFT JOIN MGON.PCCLIENT C ON M.CODCLI = C.CODCLI
     JOIN MGON.PCPRODUT P  ON M.CODPROD   = P.CODPROD
     JOIN MGON.PCFORNEC F  ON P.CODFORNEC = F.CODFORNEC
     WHERE M.DTMOV >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -12)
-      AND M.CODOPER = 'S'
-      AND M.NUMNOTADEV IS NULL
+      AND M.CODOPER IN ('S', 'SB', 'ED')
       AND M.DTCANCEL  IS NULL
       AND M.CODFILIAL IN (1, 2)
       AND U.NOME LIKE '%OFF TRADE%'
@@ -88,10 +90,12 @@ _vh = carregar_dados(QUERY_VENDAS_MG, engine_mg, "vendas_MG")
 _vh['MES']      = pd.to_datetime(_vh['MES'],   errors='coerce')
 _vh['QT']       = pd.to_numeric(_vh['QT'],     errors='coerce').fillna(0).astype(int)
 _vh['VALOR']    = pd.to_numeric(_vh['VALOR'],  errors='coerce').fillna(0).round(2)
+_vh['NUNOTA']   = pd.to_numeric(_vh['NUNOTA'], errors='coerce')
 _vh['CLIENTE']  = _vh['CLIENTE'].fillna(_vh['CODCLI'].astype(str))
 _vh['FANTASIA'] = _vh['FANTASIA'].fillna('')
 _vh['PRODUTO']  = _vh['PRODUTO'].fillna('')
 _vh['OFFTRADE'] = _vh['OFFTRADE'].fillna('N')
+_vh['DEVOLVIDO'] = _vh['DEVOLVIDO'].fillna('N') == 'S'
 _vh['MES_STR']  = _vh['MES'].apply(_mes_pt)
 _vh['VENDEDOR'] = (
     _vh['NOME_ORACLE']
@@ -100,6 +104,173 @@ _vh['VENDEDOR'] = (
 )
 _vh = _vh[_vh['VENDEDOR'].notna() & (_vh['VENDEDOR'] != '')].copy()
 print(f"Vendedores MG: {sorted(_vh['VENDEDOR'].unique())}")
+
+# ── Pedidos cancelados/cortados, item a item (mesma lógica de
+# exportacao_meta.py/exportacao_sp.py — status de nota, sem status de
+# logística, pedido do usuário em 2026-08-13) ────────────────────────────────
+
+
+def _id_str(v):
+    if v is None or (isinstance(v, float) and pd.isna(v)):
+        return ''
+    try:
+        return str(int(float(v)))
+    except (TypeError, ValueError):
+        return str(v).strip()
+
+
+def _limpar_nome_vendedor(nome):
+    s = re.sub(r'\s*-?\s*OFF\s*TRADE\s*', '', str(nome or ''), flags=re.IGNORECASE)
+    return s.strip().upper()
+
+
+_QUERY_MG_CANCEL_POS = """
+    SELECT
+        PED.DATA AS DATA, PED.CODCLI AS CODCLI, PED.CLIENTE AS CLIENTE,
+        PED.DESCRICAO AS PRODUTO, PED.FANTASIA_FORNEC AS FANTASIA,
+        PED.QT AS QT, PED.TOTAL AS VALOR, PED.NUMPED AS NUMPED,
+        PED.CODUSUR AS CODUSUR, U.NOME AS NOME_ORACLE
+    FROM MGON.PBI_PCPEDI PED
+    JOIN MGON.PCUSUARI U ON U.CODUSUR = PED.CODUSUR
+    WHERE PED.DATA >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -12)
+      AND PED.STATUS = 'CANCELADA'
+      AND PED.CODFILIAL IN (1, 2)
+      AND U.NOME LIKE '%OFF TRADE%'
+      AND U.ESTADO = 'MG'
+"""
+
+_QUERY_MG_CANCEL_PRE = """
+    SELECT
+        PC.DATACANC AS DATA, PC.DESCRICAO AS PRODUTO,
+        PC.QT AS QT, PC.SUBTOT AS VALOR, PC.NUMPED AS NUMPED,
+        U.CODUSUR AS CODUSUR, U.NOME AS NOME_ORACLE
+    FROM MGON.PEDIDOS_CANCELADOS PC
+    JOIN MGON.PCUSUARI U ON U.CODUSUR = TO_NUMBER(SUBSTR(PC.NUMPED, 1, LENGTH(PC.NUMPED) - 6))
+    WHERE PC.DATACANC >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -12)
+      AND U.NOME LIKE '%OFF TRADE%'
+      AND U.ESTADO = 'MG'
+"""
+
+_QUERY_MG_CORTE = """
+    SELECT
+        PED.DATA AS DATA, PED.CODCLI AS CODCLI, PED.CLIENTE AS CLIENTE,
+        PED.DESCRICAO AS PRODUTO, PED.FANTASIA_FORNEC AS FANTASIA,
+        PED.CODUSUR AS CODUSUR, U.NOME AS NOME_ORACLE,
+        PED.NUMPED AS NUMPED, PED.NUMNOTA AS NUMNOTA,
+        PED.QTFALTA AS QTFALTA, PED.PVENDA AS PVENDA,
+        NVL(CT.QTCORTADA, 0) AS QTCORTADA
+    FROM MGON.PBI_PCPEDI PED
+    JOIN MGON.PCUSUARI U ON U.CODUSUR = PED.CODUSUR
+    LEFT JOIN (
+        SELECT NUMPED, CODPROD, CODFILIAL, SUM(QTCORTADA) AS QTCORTADA
+        FROM MGON.PCCORTEI
+        WHERE DATA >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -12)
+        GROUP BY NUMPED, CODPROD, CODFILIAL
+    ) CT ON CT.NUMPED = PED.NUMPED AND CT.CODPROD = PED.CODPROD
+         AND NVL(CT.CODFILIAL, 'x') = NVL(PED.CODFILIAL, 'x')
+    WHERE PED.DATA >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -12)
+      AND PED.NUMNOTA IS NOT NULL
+      AND NVL(PED.STATUS, 'X') != 'CANCELADA'
+      AND PED.CODFILIAL IN (1, 2)
+      AND U.NOME LIKE '%OFF TRADE%'
+      AND U.ESTADO = 'MG'
+"""
+
+_itens_extra_por_vendedor: dict = {}
+
+
+def _registrar_item_extra(nome_oracle, mes_str, item):
+    nome_disp = _limpar_nome_vendedor(nome_oracle)
+    if not nome_disp:
+        return
+    _itens_extra_por_vendedor.setdefault(nome_disp, {}).setdefault(mes_str, []).append(item)
+
+
+try:
+    _vc_cancel_pos = carregar_dados(_QUERY_MG_CANCEL_POS, engine_mg, "mg_cancel_pos")
+except Exception as _e:
+    print(f"[AVISO] mg_cancel_pos falhou ({str(_e)[:100]}) — ignorado")
+    _vc_cancel_pos = pd.DataFrame()
+try:
+    _vc_cancel_pre = carregar_dados(_QUERY_MG_CANCEL_PRE, engine_mg, "mg_cancel_pre")
+except Exception as _e:
+    print(f"[AVISO] mg_cancel_pre falhou ({str(_e)[:100]}) — ignorado (base pode não ter a view)")
+    _vc_cancel_pre = pd.DataFrame()
+try:
+    _vc_corte = carregar_dados(_QUERY_MG_CORTE, engine_mg, "mg_corte")
+except Exception as _e:
+    print(f"[AVISO] mg_corte falhou ({str(_e)[:100]}) — ignorado")
+    _vc_corte = pd.DataFrame()
+
+if not _vc_cancel_pos.empty:
+    _vc_cancel_pos['DATA'] = pd.to_datetime(_vc_cancel_pos['DATA'], errors='coerce')
+    _vc_cancel_pos = _vc_cancel_pos[_vc_cancel_pos['DATA'].notna()]
+    for _, row in _vc_cancel_pos.iterrows():
+        _registrar_item_extra(row['NOME_ORACLE'], _mes_pt(row['DATA']), {
+            'data':      row['DATA'].strftime('%d/%m/%Y'),
+            'codcli':    str(row.get('CODCLI') or ''),
+            'cliente':   str(row.get('CLIENTE') or ''),
+            'produto':   str(row.get('PRODUTO') or ''),
+            'fantasia':  str(row.get('FANTASIA') or ''),
+            'qt':        int(pd.to_numeric(row.get('QT'), errors='coerce') or 0),
+            'valor':     round(float(pd.to_numeric(row.get('VALOR'), errors='coerce') or 0), 2),
+            'tipo':      'Cancelado',
+            'offtrade':  True,
+            'devolvido': False,
+            'cancelado': True,
+            'cancelado_parcial': False,
+            'numped':    _id_str(row.get('NUMPED')),
+            'nunota':    '',
+        })
+    print(f"OK vendas MG: {len(_vc_cancel_pos)} item(ns) cancelado(s) pós-NF")
+
+if not _vc_cancel_pre.empty:
+    _vc_cancel_pre['DATA'] = pd.to_datetime(_vc_cancel_pre['DATA'], errors='coerce')
+    _vc_cancel_pre = _vc_cancel_pre[_vc_cancel_pre['DATA'].notna()]
+    for _, row in _vc_cancel_pre.iterrows():
+        _registrar_item_extra(row['NOME_ORACLE'], _mes_pt(row['DATA']), {
+            'data':      row['DATA'].strftime('%d/%m/%Y'),
+            'codcli':    '',
+            'cliente':   '',
+            'produto':   str(row.get('PRODUTO') or ''),
+            'fantasia':  '',
+            'qt':        int(pd.to_numeric(row.get('QT'), errors='coerce') or 0),
+            'valor':     round(float(pd.to_numeric(row.get('VALOR'), errors='coerce') or 0), 2),
+            'tipo':      'Cancelado',
+            'offtrade':  True,
+            'devolvido': False,
+            'cancelado': True,
+            'cancelado_parcial': False,
+            'numped':    _id_str(row.get('NUMPED')),
+            'nunota':    '',
+        })
+    print(f"OK vendas MG: {len(_vc_cancel_pre)} item(ns) cancelado(s) pré-NF")
+
+if not _vc_corte.empty:
+    _vc_corte['DATA']      = pd.to_datetime(_vc_corte['DATA'], errors='coerce')
+    _vc_corte['QTFALTA']   = pd.to_numeric(_vc_corte['QTFALTA'], errors='coerce').fillna(0)
+    _vc_corte['QTCORTADA'] = pd.to_numeric(_vc_corte['QTCORTADA'], errors='coerce').fillna(0)
+    _vc_corte['PVENDA']    = pd.to_numeric(_vc_corte['PVENDA'], errors='coerce').fillna(0)
+    _vc_corte['QTD_CORTADA_TOTAL'] = _vc_corte['QTCORTADA'] + _vc_corte['QTFALTA']
+    _vc_corte = _vc_corte[(_vc_corte['DATA'].notna()) & (_vc_corte['QTD_CORTADA_TOTAL'] > 0)]
+    for _, row in _vc_corte.iterrows():
+        _registrar_item_extra(row['NOME_ORACLE'], _mes_pt(row['DATA']), {
+            'data':      row['DATA'].strftime('%d/%m/%Y'),
+            'codcli':    str(row.get('CODCLI') or ''),
+            'cliente':   str(row.get('CLIENTE') or ''),
+            'produto':   str(row.get('PRODUTO') or ''),
+            'fantasia':  str(row.get('FANTASIA') or ''),
+            'qt':        round(float(row['QTD_CORTADA_TOTAL']), 2),
+            'valor':     round(float(row['PVENDA']) * float(row['QTD_CORTADA_TOTAL']), 2),
+            'tipo':      'Corte parcial',
+            'offtrade':  True,
+            'devolvido': False,
+            'cancelado': False,
+            'cancelado_parcial': True,
+            'numped':    _id_str(row.get('NUMPED')),
+            'nunota':    _id_str(row.get('NUMNOTA')),
+        })
+    print(f"OK vendas MG: {len(_vc_corte)} item(ns) com corte parcial")
 
 _meses_vh  = sorted(_vh['MES'].dropna().unique(), reverse=True)
 _meses_str = [_mes_pt(m) for m in _meses_vh]
@@ -123,16 +294,36 @@ for _, row in _vh.iterrows():
         'fantasia': str(row['FANTASIA']),
         'qt':       int(row['QT']),
         'valor':    float(row['VALOR']),
+        'tipo':     {'SB': 'Bonificado', 'ED': 'Devolução'}.get(str(row.get('CODOPER', 'S')).upper(), 'Venda'),
         'offtrade': row['OFFTRADE'] == 'S',
+        'devolvido': bool(row['DEVOLVIDO']),
+        'cancelado': False,
+        'cancelado_parcial': False,
+        'numped':   '',
+        'nunota':   _id_str(row.get('NUNOTA')),
     })
 
+# Mescla os itens de cancelado/corte parcial — pode incluir mês que _vh não
+# tinha nenhuma venda válida, então _meses_str precisa ser recalculado
+# incluindo esses meses também.
+for v_nome, por_mes in _itens_extra_por_vendedor.items():
+    for mes, itens in por_mes.items():
+        _por_vendedor.setdefault(v_nome, {}).setdefault(mes, []).extend(itens)
+
+_meses_extra = {mes for por_mes in _itens_extra_por_vendedor.values() for mes in por_mes}
+_meses_str = sorted(set(_meses_str) | _meses_extra, key=_mes_sort_key, reverse=True)
+_meses_sorted = sorted(_meses_str, key=_mes_sort_key, reverse=True)
+
 # ── Resumo: fat, fat_ant, pos por vendedor/mês ───────────────────────────────
+# Só venda válida entra no KPI — cancelado/corte/devolvido ficam visíveis na
+# lista (destacados por cor no front-end) mas não inflam o faturamento.
 
 _resumo: dict = {}
 for nome, meses_data in _por_vendedor.items():
     for mes, vendas in meses_data.items():
-        fat = round(sum(v['valor'] for v in vendas), 2)
-        pos = len(set(v['codcli'] for v in vendas if v['offtrade']))
+        validas = [v for v in vendas if not v['devolvido'] and not v['cancelado'] and not v['cancelado_parcial']]
+        fat = round(sum(v['valor'] for v in validas), 2)
+        pos = len(set(v['codcli'] for v in validas if v['offtrade']))
         _resumo.setdefault(nome, {})[mes] = {'fat': fat, 'pos': pos, 'fat_ant': 0.0, 'fat_ano_ant': 0.0}
 
 for nome in _resumo:
