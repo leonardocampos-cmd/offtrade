@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "13/08/2026 15:39",
+  "atualizado_em": "13/08/2026 16:04",
   "total": 22035,
   "clientes": [
     {
@@ -57670,7 +57670,7 @@ const CLIENTES_RCA_DATA = {
     {
       "codcli": "79033",
       "razao": "AVITA COMERCIO DE BEBIDAS LTDA",
-      "fantasia": "COMECIAL CASA GRANDE",
+      "fantasia": "AVITA COMERCIO DE BEBIDAS",
       "bairro": "BELA AURORA",
       "cidade": "CARIACICA",
       "cnpj": "01.271.499/0001-34",
@@ -57678,8 +57678,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": true,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
@@ -141252,6 +141252,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "38918",
+      "razao": "ESTR COMERCIO E PARTICIPACOES LTDA.",
+      "fantasia": "EMPORIO SANTA THEREZINHA - RIBEIRAO",
+      "bairro": "VILA DO GOLF",
+      "cidade": "RIBEIRAO PRETO",
+      "cnpj": "20.160.565/0001-43",
+      "estado": "SP",
+      "ramo": "RESTAURANTE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "425",
+      "nome_usur1": "BRUNO BARBOSA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "70821",
       "razao": "ESTRADA DA CACHAMORRA OLEOS LUBRIFICANTES LTDA",
       "fantasia": "ESTRADA DA CACHAMORRA OLEOS LUBRIFICANTE",
@@ -142956,22 +142972,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "20.502.250/0001-37",
       "estado": "RJ",
       "ramo": "PADARIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "93327",
-      "razao": "F J BAR RESTAURANTE E LANCHONETE LTDA",
-      "fantasia": "BOTECO QUE DA GOSTO",
-      "bairro": "CENTRO",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "62.658.260/0001-06",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -339796,12 +339796,12 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "MARILENA TRAGEL - OFF TRADE"
     },
     {
-      "codcli": "82350",
+      "codcli": "82355",
       "razao": "VBBR CONVENIENCIA S. A.",
-      "fantasia": "VBBR CONVENIENCIA S. A.",
-      "bairro": "TIJUCA",
+      "fantasia": "VBBR CONVENIENCIA",
+      "bairro": "PRACA DA BANDEIRA",
       "cidade": "RIO DE JANEIRO",
-      "cnpj": "50.883.026/0007-99",
+      "cnpj": "50.883.026/0006-08",
       "estado": "RJ",
       "ramo": "CONVENIENCIA",
       "key_account": false,
