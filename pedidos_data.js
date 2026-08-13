@@ -1,5 +1,5 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "13/08/2026 11:49",
+  "atualizado_em": "13/08/2026 12:07",
   "periodo_dias": 90,
   "fontes_indisponiveis": [],
   "pedidos_feitos": [
@@ -698,16 +698,16 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Bloqueado",
-      "motivo": "Item com desconto acima do permitido :3249",
+      "posicao": "Liberado",
+      "motivo": "PRECO ABAIXO DO MINIMO PERMITIDO",
       "obs": "Favor entregar dia 14/08",
-      "total": 300.85,
+      "total": 320.85,
       "itens": [
         {
           "desc": "COQUETEL COMPOSTO PINK MOON 24X300ML",
           "industria": "COMARY",
           "qt": 1,
-          "val": 59.9,
+          "val": 79.9,
           "qtfalta": 0.0,
           "qtcortada": 0.0,
           "qtd_cortada_total": 0.0,
@@ -717,7 +717,7 @@ const PEDIDOS_DATA = {
           "cortado": false,
           "codprod": "3249",
           "codfilial": "2",
-          "pvenda": 59.9
+          "pvenda": 79.9
         },
         {
           "desc": "CONHAQUE DREHER 900ML",
@@ -785,11 +785,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": false,
-      "valor_cortado_total": 0,
-      "motivo_codprod": "3249",
-      "motivo_produto": "COQUETEL COMPOSTO PINK MOON 24X300ML",
-      "motivo_preco_digitado": 59.9,
-      "motivo_preco_tabela": 104.4
+      "valor_cortado_total": 0
     },
     {
       "numped": "431001236",
@@ -1742,7 +1738,7 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :3",
       "obs": "",
       "total": 350.88,
@@ -1800,7 +1796,7 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :3585",
       "obs": "Restaurante Nashy",
       "total": 1054.32,
@@ -1870,7 +1866,7 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :119",
       "obs": "Restaurante Nashy apos 10:00",
       "total": 766.8,
@@ -2044,7 +2040,7 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "",
       "obs": "",
       "total": 1029.6,
@@ -2082,7 +2078,7 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :119",
       "obs": "Restaurante Nashy",
       "total": 718.8,
@@ -2124,7 +2120,7 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :119",
       "obs": "cliente so recebe apos 15:00 horas",
       "total": 2005.68,
@@ -2186,6 +2182,48 @@ const PEDIDOS_DATA = {
       "motivo_preco_tabela": 149.9
     },
     {
+      "numped": "354000702",
+      "numnota": "",
+      "data": "13/08/2026",
+      "data_ord": "2026-08-13",
+      "nome": "MATHEUS DE SOUZA - OFF TRADE",
+      "cliente": "VAREJAO AVENIDA LIMITADA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "cidade": "CAETE",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :674",
+      "obs": "pedido:249173",
+      "total": 2539.2,
+      "itens": [
+        {
+          "desc": "GIN GORDONS 750 ML",
+          "industria": "DIAGEO",
+          "qt": 48,
+          "val": 2539.2,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 48.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "674",
+          "codfilial": "1",
+          "pvenda": 52.9
+        }
+      ],
+      "tem_corte": false,
+      "valor_cortado_total": 0,
+      "motivo_codprod": "674",
+      "motivo_produto": "GIN GORDONS 750 ML",
+      "motivo_preco_digitado": 52.9,
+      "motivo_preco_tabela": 55.9
+    },
+    {
       "numped": "327009711",
       "numnota": "",
       "data": "13/08/2026",
@@ -2198,7 +2236,7 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :3",
       "obs": "Restaurante Nashy contagem",
       "total": 862.8,
@@ -2364,6 +2402,80 @@ const PEDIDOS_DATA = {
       "motivo_produto": "WHISKY JIM BEAM CHERRY 1L",
       "motivo_preco_digitado": 74.19,
       "motivo_preco_tabela": 64.9
+    },
+    {
+      "numped": "354000703",
+      "numnota": "",
+      "data": "13/08/2026",
+      "data_ord": "2026-08-13",
+      "nome": "MATHEUS DE SOUZA - OFF TRADE",
+      "cliente": "VAREJAO AVENIDA LIMITADA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "cidade": "CAETE",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :66",
+      "obs": "pedido:249174",
+      "total": 2498.4,
+      "itens": [
+        {
+          "desc": "RUM MONTILLA CRISTAL 1000 ML",
+          "industria": "PERNOD",
+          "qt": 24,
+          "val": 530.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 24.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "66",
+          "codfilial": "1",
+          "pvenda": 22.1
+        },
+        {
+          "desc": "RUM MONTILLA OURO 1000ML",
+          "industria": "PERNOD",
+          "qt": 24,
+          "val": 530.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 24.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "178",
+          "codfilial": "1",
+          "pvenda": 22.1
+        },
+        {
+          "desc": "WHISKY BALLANTINE'S FINEST 1L DEST",
+          "industria": "BELA ATACADISTA LTDA",
+          "qt": 24,
+          "val": 1437.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 24.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "4376",
+          "codfilial": "1",
+          "pvenda": 59.9
+        }
+      ],
+      "tem_corte": false,
+      "valor_cortado_total": 0,
+      "motivo_codprod": "66",
+      "motivo_produto": "RUM MONTILLA CRISTAL 1000 ML",
+      "motivo_preco_digitado": 22.1,
+      "motivo_preco_tabela": 21.9
     },
     {
       "numped": "412001472",
@@ -60745,129 +60857,6 @@ const PEDIDOS_DATA = {
       "motivo_produto": "RC ATUM RALADO OLEO 24X140G",
       "motivo_preco_digitado": 149.09,
       "motivo_preco_tabela": 172.93
-    },
-    {
-      "numped": "91000256",
-      "numnota": "418935",
-      "data": "05/08/2026",
-      "data_ord": "2026-08-05",
-      "nome": "VIVIANI ALVES - OFF TRADE",
-      "cliente": "EMPORIO MALELU COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "cidade": "GUARULHOS",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "",
-      "total": 6674.4,
-      "itens": [
-        {
-          "desc": "VINHO QUINTA DE VENTOZELO LOCI 750ML",
-          "industria": "CASTAS",
-          "qt": 6,
-          "val": 629.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "4795",
-          "codfilial": "2",
-          "pvenda": 104.9
-        },
-        {
-          "desc": "VINHO MARQUES DE TEJARES FINCA DE LA FAM",
-          "industria": "CASTAS",
-          "qt": 6,
-          "val": 257.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "4667",
-          "codfilial": "2",
-          "pvenda": 42.9
-        },
-        {
-          "desc": "VINHO LA TOGATA BARENGO 750ML",
-          "industria": "CASTAS",
-          "qt": 6,
-          "val": 749.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "3101",
-          "codfilial": "2",
-          "pvenda": 124.9
-        },
-        {
-          "desc": "VINHO LA TOGATA ROSSO 750ML",
-          "industria": "CASTAS",
-          "qt": 6,
-          "val": 1259.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "3018",
-          "codfilial": "2",
-          "pvenda": 209.9
-        },
-        {
-          "desc": "VINHO LA TOGATA BRUNELLO ETQ AZUL 750ML",
-          "industria": "CASTAS",
-          "qt": 6,
-          "val": 2519.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "3019",
-          "codfilial": "2",
-          "pvenda": 419.9
-        },
-        {
-          "desc": "VINHO DO PORTO DALVA 10 ANOS OLD 750ML",
-          "industria": "CASTAS",
-          "qt": 6,
-          "val": 1259.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 6.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "3875",
-          "codfilial": "2",
-          "pvenda": 209.9
-        }
-      ],
-      "tem_corte": false,
-      "valor_cortado_total": 0,
-      "em_rota": false,
-      "rota": "",
-      "placa": "",
-      "status_log": "",
-      "data_entrega": ""
     },
     {
       "numped": "156003798",
@@ -123814,11 +123803,7 @@ const PEDIDOS_DATA = {
       "rota": "",
       "placa": "",
       "status_log": "",
-      "data_entrega": "",
-      "motivo_codprod": "7493",
-      "motivo_produto": "PINATI DOUBLE BAR COCO E AMENDOIM 16X35G",
-      "motivo_preco_digitado": 50.24,
-      "motivo_preco_tabela": 59.9
+      "data_entrega": ""
     },
     {
       "numped": "388001221",
@@ -132717,11 +132702,7 @@ const PEDIDOS_DATA = {
       "rota": "",
       "placa": "",
       "status_log": "",
-      "data_entrega": "",
-      "motivo_codprod": "2979",
-      "motivo_produto": "ST PIERRE LATA GINGER LT 24X270ML",
-      "motivo_preco_digitado": 101.29,
-      "motivo_preco_tabela": 99.9
+      "data_entrega": ""
     },
     {
       "numped": "388001216",
@@ -173850,97 +173831,6 @@ const PEDIDOS_DATA = {
       "placa": "",
       "status_log": "",
       "data_entrega": ""
-    },
-    {
-      "numped": "439000264",
-      "numnota": "414536",
-      "data": "16/07/2026",
-      "data_ord": "2026-07-16",
-      "nome": "MATEUS CARDOSO - OFF TRADE",
-      "cliente": "50.614.889 RENILDA IZIQUIEL DOS SANTOS VIEIRA",
-      "sistema": "CRC",
-      "estado": "RJ",
-      "cidade": "ANGRA DOS REIS",
-      "supervisor": "DANIELLE MOURA",
-      "gerente": "ALLAN PAES",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "Data entrega; 23/07/23",
-      "total": 399.7,
-      "itens": [
-        {
-          "desc": "VODKA ABSOLUT TABASCO 750ML",
-          "industria": "PERNOD",
-          "qt": 1,
-          "val": 59.9,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "7639",
-          "codfilial": "2",
-          "pvenda": 59.9
-        },
-        {
-          "desc": "CACHACA VELHO BARREIRO 910 ML",
-          "industria": "TATUZINHO",
-          "qt": 12,
-          "val": 162.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 12.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "381",
-          "codfilial": "2",
-          "pvenda": 13.5
-        },
-        {
-          "desc": "COQUETEL BANANINHA REGGIANI 950ML",
-          "industria": "CATUABA",
-          "qt": 3,
-          "val": 57.9,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 3.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "2089",
-          "codfilial": "2",
-          "pvenda": 19.3
-        },
-        {
-          "desc": "WHISKY JACK DANIELS APPLE 1L",
-          "industria": "BROWN",
-          "qt": 1,
-          "val": 119.9,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 1.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "2851",
-          "codfilial": "2",
-          "pvenda": 119.9
-        }
-      ],
-      "tem_corte": false,
-      "valor_cortado_total": 0,
-      "em_rota": false,
-      "rota": "",
-      "placa": "",
-      "status_log": "RETORNO",
-      "data_entrega": "2026-07-23"
     },
     {
       "numped": "412001416",
@@ -222098,8 +221988,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ENTREGUE",
-      "data_entrega": "2026-05-30"
+      "status_log": "",
+      "data_entrega": ""
     },
     {
       "numped": "144001465",
@@ -222141,8 +222031,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ENTREGUE",
-      "data_entrega": "2026-05-30"
+      "status_log": "",
+      "data_entrega": ""
     },
     {
       "numped": "144001471",
@@ -222494,8 +222384,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ENTREGUE",
-      "data_entrega": "2026-05-30"
+      "status_log": "",
+      "data_entrega": ""
     },
     {
       "numped": "299000072",
@@ -223213,8 +223103,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ENTREGUE",
-      "data_entrega": "2026-05-29",
+      "status_log": "",
+      "data_entrega": "",
       "motivo_codprod": "2848",
       "motivo_produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
       "motivo_preco_digitado": 55.1,
@@ -224757,8 +224647,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ENTREGUE",
-      "data_entrega": "2026-05-29"
+      "status_log": "",
+      "data_entrega": ""
     },
     {
       "numped": "336002009",
@@ -224985,8 +224875,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ENTREGUE",
-      "data_entrega": "2026-05-28",
+      "status_log": "",
+      "data_entrega": "",
       "motivo_codprod": "4233",
       "motivo_produto": "VINHO ARESTI ESTATE S. CARMENERE 750ML",
       "motivo_preco_digitado": 34.41,
@@ -225880,8 +225770,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ENTREGUE",
-      "data_entrega": "2026-05-27"
+      "status_log": "",
+      "data_entrega": ""
     },
     {
       "numped": "159004692",
@@ -225923,8 +225813,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ENTREGUE",
-      "data_entrega": "2026-05-27",
+      "status_log": "",
+      "data_entrega": "",
       "motivo_codprod": "2848",
       "motivo_produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
       "motivo_preco_digitado": 55.1,
@@ -226017,8 +225907,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ENTREGUE",
-      "data_entrega": "2026-05-27"
+      "status_log": "",
+      "data_entrega": ""
     },
     {
       "numped": "336002007",
@@ -226277,8 +226167,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ENTREGUE",
-      "data_entrega": "2026-05-27"
+      "status_log": "",
+      "data_entrega": ""
     },
     {
       "numped": "299000070",
@@ -226909,8 +226799,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ENTREGUE",
-      "data_entrega": "2026-05-26",
+      "status_log": "",
+      "data_entrega": "",
       "motivo_codprod": "2893",
       "motivo_produto": "HUMB. CANALE DENARIO MALBEC 750ML",
       "motivo_preco_digitado": 48.21,
@@ -227159,8 +227049,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ENTREGUE",
-      "data_entrega": "2026-05-26",
+      "status_log": "",
+      "data_entrega": "",
       "motivo_codprod": "3838",
       "motivo_produto": "VINHO BURDIZZO PRIMITIVO  375ML",
       "motivo_preco_digitado": 27.79,
@@ -227329,8 +227219,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ENTREGUE",
-      "data_entrega": "2026-05-27",
+      "status_log": "",
+      "data_entrega": "",
       "motivo_codprod": "4369",
       "motivo_produto": "VINHO ARESTI ESTATE S CHARDONNAY 187,5ML",
       "motivo_preco_digitado": 12.34,
@@ -227419,8 +227309,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ENTREGUE",
-      "data_entrega": "2026-05-26"
+      "status_log": "",
+      "data_entrega": ""
     },
     {
       "numped": "342000147",
@@ -227899,8 +227789,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ENTREGUE",
-      "data_entrega": "2026-05-25",
+      "status_log": "",
+      "data_entrega": "",
       "motivo_codprod": "3",
       "motivo_produto": "RED BULL 24X250ML",
       "motivo_preco_digitado": 196.56,
@@ -228257,8 +228147,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ENTREGUE",
-      "data_entrega": "2026-05-22"
+      "status_log": "",
+      "data_entrega": ""
     },
     {
       "numped": "156003415",
@@ -228300,8 +228190,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ENTREGUE",
-      "data_entrega": "2026-05-22"
+      "status_log": "",
+      "data_entrega": ""
     },
     {
       "numped": "155003520",
@@ -228391,8 +228281,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ENTREGUE",
-      "data_entrega": "2026-05-22",
+      "status_log": "",
+      "data_entrega": "",
       "motivo_codprod": "3011",
       "motivo_produto": "ESPUMANTE ALUD BRANCO 750ML",
       "motivo_preco_digitado": 28.5,
@@ -228550,8 +228440,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ENTREGUE",
-      "data_entrega": "2026-05-22"
+      "status_log": "",
+      "data_entrega": ""
     },
     {
       "numped": "159004665",
@@ -229332,8 +229222,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ENTREGUE",
-      "data_entrega": "2026-05-21"
+      "status_log": "",
+      "data_entrega": ""
     },
     {
       "numped": "379000968",
@@ -229391,8 +229281,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ENTREGUE",
-      "data_entrega": "2026-05-21"
+      "status_log": "",
+      "data_entrega": ""
     },
     {
       "numped": "388001011",
@@ -229592,8 +229482,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ENTREGUE",
-      "data_entrega": "2026-05-21"
+      "status_log": "",
+      "data_entrega": ""
     },
     {
       "numped": "156003411",
@@ -229667,8 +229557,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ENTREGUE",
-      "data_entrega": "2026-05-21"
+      "status_log": "",
+      "data_entrega": ""
     },
     {
       "numped": "156003412",
@@ -229742,8 +229632,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ENTREGUE",
-      "data_entrega": "2026-05-21"
+      "status_log": "",
+      "data_entrega": ""
     },
     {
       "numped": "426000227",
@@ -230284,8 +230174,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ENTREGUE",
-      "data_entrega": "2026-05-20"
+      "status_log": "",
+      "data_entrega": ""
     },
     {
       "numped": "155003510",
@@ -230359,8 +230249,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ENTREGUE",
-      "data_entrega": "2026-05-21",
+      "status_log": "",
+      "data_entrega": "",
       "motivo_codprod": "3011",
       "motivo_produto": "ESPUMANTE ALUD BRANCO 750ML",
       "motivo_preco_digitado": 28.5,
@@ -230422,8 +230312,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ENTREGUE",
-      "data_entrega": "2026-05-21",
+      "status_log": "",
+      "data_entrega": "",
       "motivo_codprod": "5804",
       "motivo_produto": "VINHO FREIXO TERROIR TINTO 750ML",
       "motivo_preco_digitado": 64.21,
@@ -230485,8 +230375,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ENTREGUE",
-      "data_entrega": "2026-05-21",
+      "status_log": "",
+      "data_entrega": "",
       "motivo_codprod": "2842",
       "motivo_produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
       "motivo_preco_digitado": 51.66,
@@ -230988,8 +230878,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ENTREGUE",
-      "data_entrega": "2026-05-19",
+      "status_log": "",
+      "data_entrega": "",
       "motivo_codprod": "2893",
       "motivo_produto": "HUMB. CANALE DENARIO MALBEC 750ML",
       "motivo_preco_digitado": 48.21,
@@ -231035,8 +230925,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ENTREGUE",
-      "data_entrega": "2026-05-19",
+      "status_log": "",
+      "data_entrega": "",
       "motivo_codprod": "2848",
       "motivo_produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
       "motivo_preco_digitado": 55.1,
@@ -231098,8 +230988,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ENTREGUE",
-      "data_entrega": "2026-05-19"
+      "status_log": "",
+      "data_entrega": ""
     },
     {
       "numped": "336001987",
@@ -231291,8 +231181,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ENTREGUE",
-      "data_entrega": "2026-05-20"
+      "status_log": "",
+      "data_entrega": ""
     },
     {
       "numped": "426000213",
@@ -252231,11 +252121,7 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
-      "valor_cortado_total": 431.51,
-      "motivo_codprod": "7492",
-      "motivo_produto": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
-      "motivo_preco_digitado": 59.9,
-      "motivo_preco_tabela": 59.9
+      "valor_cortado_total": 431.51
     },
     {
       "numped": "476000083",
