@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "13/08/2026 13:56",
+  "atualizado_em": "13/08/2026 14:33",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -5471,9 +5471,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30324",
+        "codcli": "39403",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "BELVEDERE",
+        "bairro": "COMITECO",
         "dtultcomp": "29/05/2026",
         "produtos": [
           {
@@ -5491,9 +5491,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "39403",
+        "codcli": "30324",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "COMITECO",
+        "bairro": "BELVEDERE",
         "dtultcomp": "29/05/2026",
         "produtos": [
           {
@@ -6617,6 +6617,13 @@ const NAO_POS_MG_DATA = {
             "valor": 174.96
           }
         ]
+      },
+      {
+        "codcli": "39800",
+        "cliente": "POSTO CJ LTDA",
+        "bairro": "CIDADE JARDIM",
+        "dtultcomp": "nan",
+        "produtos": []
       }
     ],
     "WILLIAM ALVES DA SILVA": [
