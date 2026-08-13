@@ -1,5 +1,5 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "13/08/2026 11:35",
+  "atualizado_em": "13/08/2026 11:49",
   "periodo_dias": 90,
   "fontes_indisponiveis": [],
   "pedidos_feitos": [
@@ -162243,53 +162243,6 @@ const PEDIDOS_DATA = {
       "motivo_produto": "GIN GORDONS 750 ML",
       "motivo_preco_digitado": 49.9,
       "motivo_preco_tabela": 55.9
-    },
-    {
-      "numped": "354000659",
-      "numnota": "125732",
-      "data": "21/07/2026",
-      "data_ord": "2026-07-21",
-      "nome": "MATHEUS DE SOUZA - OFF TRADE",
-      "cliente": "SUPERMERCADOS CIDADE LTDA",
-      "sistema": "MGON",
-      "estado": "MG",
-      "cidade": "VESPASIANO",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "Item com desconto acima do permitido :313",
-      "obs": "",
-      "total": 2444.4,
-      "itens": [
-        {
-          "desc": "WHISKY WALKER RED LABEL 1L",
-          "industria": "DIAGEO",
-          "qt": 36,
-          "val": 2444.4,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 36.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "313",
-          "codfilial": "1",
-          "pvenda": 67.9
-        }
-      ],
-      "tem_corte": false,
-      "valor_cortado_total": 0,
-      "em_rota": false,
-      "rota": "",
-      "placa": "",
-      "status_log": "",
-      "data_entrega": "",
-      "motivo_codprod": "313",
-      "motivo_produto": "WHISKY WALKER RED LABEL 1L",
-      "motivo_preco_digitado": 67.9,
-      "motivo_preco_tabela": 76.9
     },
     {
       "numped": "360000371",
