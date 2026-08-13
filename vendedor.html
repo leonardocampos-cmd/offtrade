@@ -224,8 +224,15 @@
       RCA  = paramRca;
       NOME = vdParam ? vdParam.nome : 'RCA ' + paramRca;
     } else {
+      // Cada estado tem sua própria página de vendas — sem isso, todo
+      // vendedor caía direto em metas.html (só RJ), mesmo bug documentado
+      // em login.html::_PAGINA_POR_ESTADO (2026-07-24), mas aqui pra quem
+      // chega direto em vendedor.html (bookmark, botão "Painel") em vez de
+      // passar pelo login. Mesmo mapa de login.html.
+      const _PAGINA_POR_ESTADO = { MG: 'mg.html', SP: 'sp.html', ES: 'es.html' };
       const sess = getVendedorSession();
-      location.replace('metas.html?vendedor=' + encodeURIComponent(sess.nome));
+      const pagina = _PAGINA_POR_ESTADO[(sess.estado || '').toUpperCase()] || 'metas.html';
+      location.replace(pagina + '?vendedor=' + encodeURIComponent(sess.nome));
     }
 
     // Header

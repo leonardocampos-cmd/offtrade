@@ -291,7 +291,7 @@
       if (!resp.ok) { showErro(resp.motivo || 'Senha incorreta.'); return; }
 
       sessionStorage.setItem('rg_vendedor', JSON.stringify({
-        rca, nome: vendedor.nome, email: vendedor.email
+        rca, nome: vendedor.nome, email: vendedor.email, estado: vendedor.estado
       }));
       _setSsoCookieParaEmail(vendedor.email);
       _doRedirect(rca, vendedor);
@@ -323,7 +323,7 @@
           google.accounts.id.revoke(email, () => {});
           return;
         }
-        sessionStorage.setItem('rg_vendedor', JSON.stringify({ rca, nome: vendedor.nome, email: vendedor.email }));
+        sessionStorage.setItem('rg_vendedor', JSON.stringify({ rca, nome: vendedor.nome, email: vendedor.email, estado: vendedor.estado }));
         _setSsoCookie(response.credential);
         _doRedirect(rca, vendedor);
         return;
