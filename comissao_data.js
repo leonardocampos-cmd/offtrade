@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "13/08/2026 10:46",
+  "atualizado_em": "13/08/2026 11:08",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -760,12 +760,12 @@ const COMISSAO_DATA = {
       ],
       "ating_acumulado_total": 0.223397,
       "pct_premio": 0.00335096,
-      "liq_rigarr": 55901.42,
+      "liq_rigarr": 57183.62,
       "fat_castas": 2154.0,
       "teto_comissao": null,
-      "com_rigarr": 187.32,
+      "com_rigarr": 191.62,
       "com_castas": 7.22,
-      "comissao_estimada": 194.54
+      "comissao_estimada": 198.84
     },
     {
       "nome": "LEANDRO SOUZA - OFF TRADE",
@@ -1029,26 +1029,26 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 120000.0,
-          "realizado": 61641.95,
+          "realizado": 64158.15,
           "peso": 0.7,
-          "ating_meta": 0.513683,
-          "ating_acumulado": 0.359578
+          "ating_meta": 0.534651,
+          "ating_acumulado": 0.374256
         },
         {
           "label": "FATURAMENTO PERNOD",
           "meta": 7000.0,
-          "realizado": 2747.62,
+          "realizado": 3005.22,
           "peso": 0.05,
-          "ating_meta": 0.392517,
-          "ating_acumulado": 0.019626
+          "ating_meta": 0.429317,
+          "ating_acumulado": 0.021466
         },
         {
           "label": "FATURAMENTO CASTAS",
           "meta": 9000.0,
-          "realizado": 3188.06,
+          "realizado": 3711.76,
           "peso": 0.1,
-          "ating_meta": 0.354229,
-          "ating_acumulado": 0.035423
+          "ating_meta": 0.412418,
+          "ating_acumulado": 0.041242
         },
         {
           "label": "FATURAMENTO HOB + AZEITE",
@@ -1069,10 +1069,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO",
           "meta": 90.0,
-          "realizado": 54,
+          "realizado": 55,
           "peso": 0.1,
-          "ating_meta": 0.6,
-          "ating_acumulado": 0.06
+          "ating_meta": 0.611111,
+          "ating_acumulado": 0.061111
         },
         {
           "label": "POSITIVAÇÃO ESSENZA",
@@ -1139,14 +1139,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.0
         }
       ],
-      "ating_acumulado_total": 0.503415,
-      "pct_premio": 0.00755122,
+      "ating_acumulado_total": 0.526863,
+      "pct_premio": 0.00790294,
       "liq_rigarr": 15060.07,
-      "fat_castas": 3188.06,
+      "fat_castas": 3711.76,
       "teto_comissao": null,
-      "com_rigarr": 113.72,
-      "com_castas": 24.07,
-      "comissao_estimada": 137.79
+      "com_rigarr": 119.02,
+      "com_castas": 29.33,
+      "comissao_estimada": 148.35
     },
     {
       "nome": "MARIA LUIZA - OFF TRADE",
