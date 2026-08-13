@@ -559,19 +559,31 @@ function buildVendasGrouped(lista, prefix) {
   });
   _pedidosAtuaisSP = pedidos;
 
-  return pedidos.map(function(p, i) {
+  // Mesma tabela de metas.html (Data/Cliente-Pedido/Qtde/Valor/botão) —
+  // pedido do usuário: layout igual ao RJ.
+  var rows = pedidos.map(function(p, i) {
     var info = _statusPedidoInfoV(p.status);
     var ref  = p.itens[0];
     var numPedido = ref.nunota ? 'NF ' + ref.nunota : (ref.numped ? 'Ped ' + ref.numped : '—');
-    return '<div class="np-cli-row"' + (info.bg ? ' style="background:' + info.bg + '"' : '') + '>' +
-        '<div><span class="np-cli-name">' + (p.cliente || '—') + '</span>' +
-          '<span style="font-size:.62rem;background:' + (info.bg || 'rgba(34,197,94,.15)') + ';color:' + info.cor + ';border:1px solid ' + info.cor + '55;border-radius:4px;padding:1px 5px;font-weight:700;margin-left:6px">' + info.label + '</span></div>' +
-        '<div style="display:flex;align-items:center">' +
-          '<span class="np-cli-date">' + numPedido + ' &middot; ' + p.itens.length + (p.itens.length === 1 ? ' item' : ' itens') + ' &middot; ' + fmtFat(p.valor) + '</span>' +
-          '<button class="btn" style="padding:3px 8px;font-size:.66rem;margin-left:8px" onclick="abrirDetalhesPedidoSP(' + i + ')">Ver detalhes</button>' +
+    return '<tr' + (info.bg ? ' style="background:' + info.bg + '"' : '') + '>' +
+      '<td class="vendas-date">' + (p.data || '—') + '</td>' +
+      '<td>' +
+        '<div class="vendas-cli">' + (p.codcli ? p.codcli + ' · ' : '') + (p.cliente || '—') + '</div>' +
+        '<div class="vendas-prod">' +
+          numPedido + ' &middot; ' + p.itens.length + (p.itens.length === 1 ? ' item' : ' itens') +
+          '<span style="font-size:.62rem;background:' + (info.bg || 'rgba(34,197,94,.15)') + ';color:' + info.cor + ';border:1px solid ' + info.cor + '55;border-radius:4px;padding:1px 5px;font-weight:700;margin-left:4px">' + info.label + '</span>' +
         '</div>' +
-      '</div>';
+      '</td>' +
+      '<td class="vendas-qt">' + Number(p.qt).toLocaleString('pt-BR') + '</td>' +
+      '<td class="vendas-val" style="color:' + (info.cor || 'var(--accent)') + '">' + fmtFat(p.valor) + '</td>' +
+      '<td style="text-align:right"><button class="btn" style="padding:4px 10px;font-size:.7rem" onclick="abrirDetalhesPedidoSP(' + i + ')">Ver detalhes</button></td>' +
+    '</tr>';
   }).join('');
+
+  return '<table class="vendas-table"><thead><tr>' +
+      '<th>Data</th><th>Cliente / Pedido</th><th style="text-align:right">Qtde</th>' +
+      '<th style="text-align:right">Valor</th><th></th>' +
+    '</tr></thead><tbody>' + rows + '</tbody></table>';
 }
 
 function abrirDetalhesPedidoSP(idx) {
