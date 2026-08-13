@@ -711,16 +711,13 @@ function _atualizarTabelaSP(nome) {
   var meta = _getMeta(nome, mes);
   var real = ((VENDAS_SP_DATA.realizado || {})[nome] || {})[mes] || {};
 
-  var fatAnt    = real.fat_ant || 0;
-  var fatAnoAnt = real.fat_ano_ant || 0;
+  // Mesmos 3 cards simples de metas.html (Faturamento/Clientes/Itens) — o
+  // comparativo com objetivo/mes anterior fica só no card "Objetivos"
+  // (evita duplicar a mesma informação em dois lugares, pedido do usuário).
   document.getElementById('vendas-kpis').innerHTML =
-    '<div><div class="kpi-label">Faturamento</div><div class="kpi-val">' + fmtFat(fat) + '</div>' +
-      (meta && meta.fat ? '<div style="font-size:.7rem;color:var(--muted)">Objetivo: ' + fmtFat(meta.fat) + '</div>' : '') +
-      (fatAnt ? '<div style="font-size:.7rem;color:var(--muted)">Ant: ' + fmtFat(fatAnt) + ' ' + varHtml(fat, fatAnt) + '</div>' : '') +
-      (fatAnoAnt ? '<div style="font-size:.7rem;color:var(--muted)">Mesmo mes ano anterior: ' + fmtFat(fatAnoAnt) + ' ' + varHtml(fat, fatAnoAnt) + '</div>' : '') + '</div>' +
-    '<div><div class="kpi-label">Itens</div><div class="kpi-val">' + qt.toLocaleString('pt-BR') + '</div></div>' +
-    '<div><div class="kpi-label">Positivados</div><div class="kpi-val">' + (real.pos !== undefined ? real.pos : nCli) + '</div>' +
-      (meta && meta.pos ? '<div style="font-size:.7rem;color:var(--muted)">Objetivo: ' + meta.pos + '</div>' : '') + '</div>';
+    '<div><div class="kpi-label">Faturamento</div><div class="kpi-val">' + fmtFat(fat) + '</div></div>' +
+    '<div><div class="kpi-label">Clientes</div><div class="kpi-val">' + (real.pos !== undefined ? real.pos : nCli) + '</div></div>' +
+    '<div><div class="kpi-label">Itens</div><div class="kpi-val">' + qt.toLocaleString('pt-BR') + '</div></div>';
 
   var cardObjetivos = document.getElementById('card-objetivos');
   if (meta) {

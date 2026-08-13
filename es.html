@@ -489,14 +489,12 @@ function _atualizarTabela(nome) {
   var fat = res.fat || listaValida.reduce(function(s,r){return s+r.valor;},0);
   var qt  = listaValida.reduce(function(s,r){return s+r.qt;},0);
   var pos = res.pos !== undefined ? res.pos : new Set(listaValida.filter(function(r){return r.offtrade;}).map(function(r){return r.codcli||r.cliente;})).size;
-  var ant = res.fat_ant || 0;
-  var anoAnt = res.fat_ano_ant || 0;
+  // Mesmos 3 cards simples de metas.html (Faturamento/Clientes/Itens),
+  // sem comparativo misturado — pedido do usuário: layout igual ao RJ.
   document.getElementById('det-kpis').innerHTML =
-    '<div><div class="kpi-label">Faturamento</div><div class="kpi-val">' + fmt(fat) + '</div>' +
-      (ant ? '<div style="font-size:.7rem;color:var(--muted)">Ant: ' + fmt(ant) + ' ' + varHtml(fat,ant) + '</div>' : '') +
-      (anoAnt ? '<div style="font-size:.7rem;color:var(--muted)">Mesmo mes ano anterior: ' + fmt(anoAnt) + ' ' + varHtml(fat,anoAnt) + '</div>' : '') + '</div>' +
-    '<div><div class="kpi-label">Itens</div><div class="kpi-val">' + qt.toLocaleString('pt-BR') + '</div></div>' +
-    '<div><div class="kpi-label">Positivados</div><div class="kpi-val">' + pos + '</div></div>';
+    '<div><div class="kpi-label">Faturamento</div><div class="kpi-val">' + fmt(fat) + '</div></div>' +
+    '<div><div class="kpi-label">Clientes</div><div class="kpi-val">' + pos + '</div></div>' +
+    '<div><div class="kpi-label">Itens</div><div class="kpi-val">' + qt.toLocaleString('pt-BR') + '</div></div>';
   document.getElementById('det-tabela').innerHTML = buildVendasGrouped(lista, 'fat-' + nome.replace(/\W/g,''));
 }
 
