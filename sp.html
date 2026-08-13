@@ -722,7 +722,7 @@ function _atualizarTabelaSP(nome) {
     '<div><div class="kpi-label">Positivados</div><div class="kpi-val">' + (real.pos !== undefined ? real.pos : nCli) + '</div>' +
       (meta && meta.pos ? '<div style="font-size:.7rem;color:var(--muted)">Objetivo: ' + meta.pos + '</div>' : '') + '</div>';
 
-  var metasHtml = '';
+  var cardObjetivos = document.getElementById('card-objetivos');
   if (meta) {
     var kpis = [
       ['Faturamento Total', real.fat  !== undefined ? real.fat  : fat,  meta.fat],
@@ -732,12 +732,13 @@ function _atualizarTabelaSP(nome) {
     if (meta.fat_crs)     kpis.push(['Fat. CRS',     real.fat_crs     || 0, meta.fat_crs]);
     if (meta.fat_essenza) kpis.push(['Fat. Essenza',  real.fat_essenza || 0, meta.fat_essenza]);
 
-    metasHtml = '<div class="metas-grid">' +
-      kpis.map(function(k) { return _metaKpi(k[0], k[1], k[2]); }).join('') +
-    '</div>';
+    document.getElementById('vendas-metas').innerHTML =
+      kpis.map(function(k) { return _metaKpi(k[0], k[1], k[2]); }).join('');
+    cardObjetivos.style.display = '';
+  } else {
+    cardObjetivos.style.display = 'none';
   }
 
-  document.getElementById('vendas-metas').innerHTML = metasHtml;
   document.getElementById('vendas-tabela').innerHTML = buildVendasGrouped(lista, 'fat-' + nome.replace(/\W/g,''));
 }
 
@@ -814,6 +815,18 @@ function renderVendasSP(nome) {
     '</div>' +
     _buildAvisoPedidos(nome) +
 
+    // Seção: Objetivos (mesma organização de metas.html — só aparece se o
+    // vendedor tiver meta cadastrada, ver _atualizarTabelaSP)
+    '<div class="detail-card" id="card-objetivos" style="display:none">' +
+      '<div class="sec-header" onclick="toggleSec(\'sec-metas\')">' +
+        '<div class="sec-title" style="color:var(--accent)">Objetivos</div>' +
+        '<span id="sec-metas-ic" class="sec-ic open">▼</span>' +
+      '</div>' +
+      '<div id="sec-metas" class="sec-body open">' +
+        '<div id="vendas-metas" class="metas-grid" style="margin-top:12px"></div>' +
+      '</div>' +
+    '</div>' +
+
     // Seção: Faturamento do mês
     '<div class="detail-card">' +
       '<div class="sec-header" onclick="toggleSec(\'sec-fat\')">' +
@@ -824,7 +837,6 @@ function renderVendasSP(nome) {
       '</div>' +
       '<div id="sec-fat" class="sec-body open">' +
         '<div id="vendas-kpis" class="vendas-kpis" style="margin-top:14px"></div>' +
-        '<div id="vendas-metas" style="margin-bottom:14px"></div>' +
         '<div id="vendas-tabela"></div>' +
       '</div>' +
     '</div>' +
