@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "13/08/2026 10:20",
+  "atualizado_em": "13/08/2026 10:47",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -17712,6 +17712,33 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM NOVA REPÚBLICA",
           "cidade": "CUBATAO",
           "dtcadastro": "29/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "51642",
+          "cliente": "SUPERMERCADO APR LTDA",
+          "bairro": "PARQUE DAS BANDEIRAS",
+          "cidade": "SAO VICENTE",
+          "dtcadastro": "09/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "51637",
+          "cliente": "SUPERMERCADO APR LTDA",
+          "bairro": "REAL",
+          "cidade": "PRAIA GRANDE",
+          "dtcadastro": "09/07/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
+          "codcli": "51634",
+          "cliente": "SUPERMERCADO APR LTDA",
+          "bairro": "FLORIDA",
+          "cidade": "PRAIA GRANDE",
+          "dtcadastro": "09/07/2026",
           "dtultcomp": null,
           "media": 0.0
         }
