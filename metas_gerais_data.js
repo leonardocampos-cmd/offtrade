@@ -1,5 +1,5 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "13/08/2026 14:24",
+  "atualizado_em": "13/08/2026 15:05",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 13,
@@ -11,7 +11,7 @@ const METAS_GERAIS_DATA = {
     "fat_ant_completo": NaN,
     "pos": 789,
     "pos_ant": 846,
-    "pos_ant_completo": 1805
+    "pos_ant_completo": 1804
   },
   "total": {
     "meta": 12300000.0,
@@ -31,9 +31,9 @@ const METAS_GERAIS_DATA = {
       "pos": 269,
       "pct": 20.4,
       "nec_dia": 128280.51,
-      "fat_ant_completo": 2715319.66,
+      "fat_ant_completo": 2711484.46,
       "pos_ant": 339,
-      "pos_ant_completo": 727
+      "pos_ant_completo": 726
     },
     {
       "estado": "SP",
@@ -65,11 +65,11 @@ const METAS_GERAIS_DATA = {
       "estado": "MG",
       "label": "Minas Gerais",
       "meta": 2100000.0,
-      "fat": 717778.66,
+      "fat": 752146.9,
       "fat_ant": 347379.5,
       "pos": 125,
-      "pct": 34.2,
-      "nec_dia": 76790.07,
+      "pct": 35.8,
+      "nec_dia": 74880.73,
       "fat_ant_completo": 1885272.81,
       "pos_ant": 135,
       "pos_ant_completo": 265
@@ -111,13 +111,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "DIAGEO",
-      "fat": 341785.97,
+      "fat": 353725.97,
       "fat_ant": 91382.61,
       "por_estado": {
         "RJ": 49580.88,
         "SP": 41457.71,
         "ES": 0.0,
-        "MG": 250747.38
+        "MG": 262687.38
       }
     },
     {
@@ -209,6 +209,17 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
+      "fantasia": "BEAM SUNTORY",
+      "fat": 42941.8,
+      "fat_ant": 104162.26,
+      "por_estado": {
+        "RJ": 5661.1,
+        "SP": 0.0,
+        "ES": 0.0,
+        "MG": 37280.7
+      }
+    },
+    {
       "fantasia": "AURORA",
       "fat": 37306.02,
       "fat_ant": 138890.74,
@@ -283,17 +294,6 @@ const METAS_GERAIS_DATA = {
         "SP": 0.0,
         "ES": 0.0,
         "MG": 22205.9
-      }
-    },
-    {
-      "fantasia": "BEAM SUNTORY",
-      "fat": 20513.56,
-      "fat_ant": 104162.26,
-      "por_estado": {
-        "RJ": 5661.1,
-        "SP": 0.0,
-        "ES": 0.0,
-        "MG": 14852.46
       }
     },
     {
