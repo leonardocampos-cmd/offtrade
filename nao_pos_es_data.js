@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "13/08/2026 14:33",
+  "atualizado_em": "13/08/2026 15:16",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -15,38 +15,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "MINALBA",
             "qt": 30,
             "valor": 415.8
-          }
-        ]
-      },
-      {
-        "codcli": "94097",
-        "cliente": "MERCADO RG LTDA",
-        "bairro": "TAQUARA",
-        "dtultcomp": "30/03/2026",
-        "produtos": [
-          {
-            "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 0,
-            "valor": 0.0
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 0,
-            "valor": 0.0
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 0,
-            "valor": 0.0
-          },
-          {
-            "produto": "MOVING PROTEIN AGUA DE COCO 12X300ML",
-            "fantasia": "TATUZINHO",
-            "qt": 0,
-            "valor": 0.0
           }
         ]
       },
@@ -529,38 +497,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "RECKITT",
             "qt": 2,
             "valor": 143.52
-          }
-        ]
-      },
-      {
-        "codcli": "94985",
-        "cliente": "MERCADINHO RIO LISBOA LTDA",
-        "bairro": "PENHA CIRCULAR",
-        "dtultcomp": "16/06/2026",
-        "produtos": [
-          {
-            "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
-            "fantasia": "PINATI",
-            "qt": 1,
-            "valor": 71.2
-          },
-          {
-            "produto": "PINATI PROTEIN CUPS AMENDOIM 18X21G",
-            "fantasia": "PINATI",
-            "qt": 1,
-            "valor": 95.9
-          },
-          {
-            "produto": "PINATI PROTEIN CUPS AVELA 18X21G",
-            "fantasia": "PINATI",
-            "qt": 1,
-            "valor": 95.9
-          },
-          {
-            "produto": "PINATI PROTEIN CUPS COOKIES 18X21G",
-            "fantasia": "PINATI",
-            "qt": 1,
-            "valor": 95.9
           }
         ]
       },
@@ -1877,92 +1813,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "94251",
-        "cliente": "MSP COM DE ALIMENTO LTDA",
-        "bairro": "REALENGO",
-        "dtultcomp": "28/07/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL 250ML",
-            "fantasia": "RED BULL",
-            "qt": 6,
-            "valor": 179.76
-          },
-          {
-            "produto": "4 PACK RED BULL CEREJA",
-            "fantasia": "RED BULL",
-            "qt": 4,
-            "valor": 119.84
-          },
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "RED BULL",
-            "qt": 6,
-            "valor": 179.76
-          },
-          {
-            "produto": "4 PACK RED BULL MELÃO C/ MARACUJA",
-            "fantasia": "RED BULL",
-            "qt": 6,
-            "valor": 179.76
-          },
-          {
-            "produto": "4 PACK RED BULL MORANGO PESSEGO",
-            "fantasia": "RED BULL",
-            "qt": 6,
-            "valor": 179.76
-          },
-          {
-            "produto": "4 PACK RED BULL SF AMORA",
-            "fantasia": "RED BULL",
-            "qt": 6,
-            "valor": 179.76
-          },
-          {
-            "produto": "4 PACK RED BULL SF BLUEBERRY BAUNILHA",
-            "fantasia": "RED BULL",
-            "qt": 6,
-            "valor": 179.76
-          },
-          {
-            "produto": "4 PACK RED BULL SF MAÇA 4X250ML",
-            "fantasia": "RED BULL",
-            "qt": 6,
-            "valor": 179.76
-          },
-          {
-            "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
-            "fantasia": "RED BULL",
-            "qt": 6,
-            "valor": 179.76
-          },
-          {
-            "produto": "4 PACK RED BULL SF POMELO 4X250ML",
-            "fantasia": "RED BULL",
-            "qt": 6,
-            "valor": 179.76
-          },
-          {
-            "produto": "4 PACK RED BULL SUGAR FREE",
-            "fantasia": "RED BULL",
-            "qt": 6,
-            "valor": 179.76
-          },
-          {
-            "produto": "4 PACK RED BULL TROPICAL 4X250ML",
-            "fantasia": "RED BULL",
-            "qt": 6,
-            "valor": 179.76
-          },
-          {
-            "produto": "4 PACK RED BULL ZERO",
-            "fantasia": "RED BULL",
-            "qt": 6,
-            "valor": 179.76
-          }
-        ]
-      },
-      {
         "codcli": "91465",
         "cliente": "3 IRMAOS COMERCIO DE ALIMENTOS E PRODUTOS DESCARTAVEIS LTDA",
         "bairro": "REALENGO",
@@ -2829,9 +2679,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "95525",
+        "codcli": "95534",
         "cliente": "G5 DROGARIAS LTDA",
-        "bairro": "COPACABANA",
+        "bairro": "IPANEMA",
         "dtultcomp": "30/06/2026",
         "produtos": [
           {
@@ -2867,9 +2717,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "95534",
+        "codcli": "95525",
         "cliente": "G5 DROGARIAS LTDA",
-        "bairro": "IPANEMA",
+        "bairro": "COPACABANA",
         "dtultcomp": "30/06/2026",
         "produtos": [
           {
@@ -5200,68 +5050,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "FANTE",
             "qt": 24,
             "valor": 285.6
-          }
-        ]
-      },
-      {
-        "codcli": "84320",
-        "cliente": "MERCADO JV DUQUE DE CAXIAS LTDA",
-        "bairro": "PARQUE NOVA ESPERANÇA",
-        "dtultcomp": "27/07/2026",
-        "produtos": [
-          {
-            "produto": "NECTAR GOIABA 12X1000ML",
-            "fantasia": "TIAL",
-            "qt": 5,
-            "valor": 272.4
-          },
-          {
-            "produto": "NECTAR LARANJA 12X1000ML",
-            "fantasia": "TIAL",
-            "qt": 2,
-            "valor": 108.96
-          },
-          {
-            "produto": "NECTAR MACA TIAL 12X1000ML",
-            "fantasia": "TIAL",
-            "qt": 1,
-            "valor": 54.48
-          },
-          {
-            "produto": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
-            "fantasia": "TIAL",
-            "qt": 2,
-            "valor": 71.52
-          },
-          {
-            "produto": "NECTAR PESSEGO 12X1000ML",
-            "fantasia": "TIAL",
-            "qt": 3,
-            "valor": 163.44
-          },
-          {
-            "produto": "REFRESCO DE LARANJA MINECRAFT 24X200ML",
-            "fantasia": "TIAL",
-            "qt": 1,
-            "valor": 47.76
-          },
-          {
-            "produto": "REFRESCO DE MARACUJA MINECRAFT 24X200ML",
-            "fantasia": "TIAL",
-            "qt": 1,
-            "valor": 47.78
-          },
-          {
-            "produto": "REFRESCO DE MORANGO MINECRAFT 24X200ML",
-            "fantasia": "TIAL",
-            "qt": 3,
-            "valor": 143.28
-          },
-          {
-            "produto": "REFRESCO DE UVA MINECRAFT 24X200ML",
-            "fantasia": "TIAL",
-            "qt": 3,
-            "valor": 143.28
           }
         ]
       },
@@ -15151,20 +14939,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "91545",
-        "cliente": "N B XIMENES MERCEARIA LTDA",
-        "bairro": "TOMAZINHO",
-        "dtultcomp": "01/07/2026",
-        "produtos": [
-          {
-            "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
-            "fantasia": "CRS BRANDS",
-            "qt": 24,
-            "valor": 309.6
-          }
-        ]
-      },
-      {
         "codcli": "93889",
         "cliente": "NOVO LATICINIO LTDA",
         "bairro": "COELHO DA ROCHA",
@@ -16482,7 +16256,42 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "67821",
+        "codcli": "95673",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "PARADA DE LUCAS",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95671",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "TANQUE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95670",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95665",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "GUARATIBA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "3754",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "RECREIO DOS BANDEIRANTES",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "67822",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
         "bairro": "BARRA DA TIJUCA",
         "dtultcomp": "nan",
@@ -16492,6 +16301,13 @@ const NAO_POS_ES_DATA = {
         "codcli": "95669",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
         "bairro": "RECREIO DOS BANDEIRANTES",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "67821",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "BARRA DA TIJUCA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -16510,9 +16326,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95673",
+        "codcli": "95666",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "PARADA DE LUCAS",
+        "bairro": "CAMPO GRANDE",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -16524,51 +16340,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95666",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "CAMPO GRANDE",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "95671",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "TANQUE",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "67822",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "BARRA DA TIJUCA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "3754",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "RECREIO DOS BANDEIRANTES",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "95665",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "GUARATIBA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "93791",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
         "bairro": "BARRA DA TIJUCA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "95670",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -26192,6 +25966,13 @@ const NAO_POS_ES_DATA = {
             "valor": 271.6
           }
         ]
+      },
+      {
+        "codcli": "96022",
+        "cliente": "59.010.052 MARIANA DE ARRUDA SANTOS",
+        "bairro": "VAZ LOBO",
+        "dtultcomp": "nan",
+        "produtos": []
       },
       {
         "codcli": "96013",
