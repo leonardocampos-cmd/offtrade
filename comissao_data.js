@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "13/08/2026 15:40",
+  "atualizado_em": "13/08/2026 16:05",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -267,18 +267,18 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 65000.0,
-          "realizado": 12410.74,
+          "realizado": 12600.09,
           "peso": 0.1,
-          "ating_meta": 0.190934,
-          "ating_acumulado": 0.019093
+          "ating_meta": 0.193848,
+          "ating_acumulado": 0.019385
         },
         {
           "label": "FATURAMENTO PERNOD",
           "meta": 3000.0,
-          "realizado": 1479.0,
+          "realizado": 1565.7,
           "peso": 0.05,
-          "ating_meta": 0.493,
-          "ating_acumulado": 0.02465
+          "ating_meta": 0.5219,
+          "ating_acumulado": 0.026095
         },
         {
           "label": "FATURAMENTO CASTAS",
@@ -291,9 +291,9 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO HOB + AZEITE",
           "meta": 1000.0,
-          "realizado": 45.95,
+          "realizado": 91.9,
           "peso": 0.0,
-          "ating_meta": 0.04595,
+          "ating_meta": 0.0919,
           "ating_acumulado": 0.0
         },
         {
@@ -307,10 +307,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO",
           "meta": 50.0,
-          "realizado": 12,
+          "realizado": 13,
           "peso": 0.65,
-          "ating_meta": 0.24,
-          "ating_acumulado": 0.156
+          "ating_meta": 0.26,
+          "ating_acumulado": 0.169
         },
         {
           "label": "POSITIVAÇÃO ESSENZA",
@@ -323,7 +323,7 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO ESSENZA+HOB",
           "meta": 0.0,
-          "realizado": 1,
+          "realizado": 2,
           "peso": 0.0,
           "ating_meta": 0.0,
           "ating_acumulado": 0.0
@@ -331,7 +331,7 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO HOB + AZEITE",
           "meta": 0.0,
-          "realizado": 1,
+          "realizado": 2,
           "peso": 0.0,
           "ating_meta": 0.0,
           "ating_acumulado": 0.0
@@ -377,14 +377,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.008333
         }
       ],
-      "ating_acumulado_total": 0.211409,
-      "pct_premio": 0.00317114,
+      "ating_acumulado_total": 0.226146,
+      "pct_premio": 0.00339219,
       "liq_rigarr": 20879.24,
       "fat_castas": 0.0,
       "teto_comissao": 2000.0,
-      "com_rigarr": 422.82,
+      "com_rigarr": 452.29,
       "com_castas": 0.0,
-      "comissao_estimada": 422.82
+      "comissao_estimada": 452.29
     },
     {
       "nome": "ANA CLARA FASSANO - OFF TRADE",
@@ -1537,10 +1537,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 150000.0,
-          "realizado": 9588.46,
+          "realizado": 9732.96,
           "peso": 0.7,
-          "ating_meta": 0.063923,
-          "ating_acumulado": 0.044746
+          "ating_meta": 0.064886,
+          "ating_acumulado": 0.04542
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -1647,14 +1647,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.0
         }
       ],
-      "ating_acumulado_total": 0.10389,
-      "pct_premio": 0.00155835,
+      "ating_acumulado_total": 0.104564,
+      "pct_premio": 0.00156846,
       "liq_rigarr": 20986.01,
       "fat_castas": 1142.5,
       "teto_comissao": null,
-      "com_rigarr": 32.7,
-      "com_castas": 1.78,
-      "comissao_estimada": 34.48
+      "com_rigarr": 32.92,
+      "com_castas": 1.79,
+      "comissao_estimada": 34.71
     }
   ],
   "fontes_indisponiveis": []
