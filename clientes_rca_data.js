@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "12/08/2026 17:55",
-  "total": 22025,
+  "atualizado_em": "13/08/2026 10:17",
+  "total": 22029,
   "clientes": [
     {
       "codcli": "38586",
@@ -34720,6 +34720,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "461",
       "nome_usur1": "SUELY SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52451",
+      "razao": "ADEGA DO IVONALDO LTDA",
+      "fantasia": "ADEGA DO VAL",
+      "bairro": "VILA NOGUEIRA",
+      "cidade": "DIADEMA",
+      "cnpj": "50.478.491/0001-59",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "512",
+      "nome_usur1": "WILLIAM GONCALVES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -104404,6 +104420,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
     {
+      "codcli": "52450",
+      "razao": "COMPRE SUPER BEM SUPERMERCADOS LTDA",
+      "fantasia": "COMPRE SUPER BEM SUPERMERCADOS",
+      "bairro": "VILA JOÃO RAMALHO",
+      "cidade": "SANTO ANDRE",
+      "cnpj": "56.331.523/0002-56",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "512",
+      "nome_usur1": "WILLIAM GONCALVES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "23011",
       "razao": "COMPREX POA ATACADO DE ALIMENTOS E BEBIDAS LTDA",
       "fantasia": "ATACADO COMPREX",
@@ -156980,22 +157012,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "83983",
-      "razao": "GARDEN BRASA BARRA 2 RESTAURANTE E PIZZARIA LTDA",
-      "fantasia": "GARDEN BRASA ITANHANGA",
-      "bairro": "ITANHANGA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "52.989.798/0001-40",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "78744",
       "razao": "GARDEN BRASA REALENGO RESTAURANTE LTDA",
       "fantasia": "GARDEN BRASA REALENGO",
@@ -185392,6 +185408,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "25117",
+      "razao": "JORGE TOMIO AKAKI",
+      "fantasia": "JORGE TOMIO AKAKI",
+      "bairro": "PARQUE CAPUAVA",
+      "cidade": "SANTO ANDRE",
+      "cnpj": "17.793.587/0001-36",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "512",
+      "nome_usur1": "WILLIAM GONCALVES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -245710,8 +245742,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "OUTROS",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
@@ -251698,6 +251730,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "TIAGO ANDRADE - OFF TRADE",
       "codusur2": "351",
       "nome_usur2": "MARIANA LAGES"
+    },
+    {
+      "codcli": "52447",
+      "razao": "NONATA HORTIFRUTI MINIMERCADO ROTISSERIE E PRODUTOS ALIMENTI",
+      "fantasia": "NONATA HORTIFRUTI MINIMERCADO ROTISSERIE",
+      "bairro": "CASA BRANCA",
+      "cidade": "SANTO ANDRE",
+      "cnpj": "39.750.038/0001-17",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "512",
+      "nome_usur1": "WILLIAM GONCALVES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "92169",
@@ -277966,8 +278014,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "153",
+      "nome_usur1": "ANGELO NEVES SUZART - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -280592,22 +280640,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "30654",
-      "razao": "QUINZE BOTEQUIM LTDA.",
-      "fantasia": "QUINZE BOTEQUIM",
-      "bairro": "CENTRO",
-      "cidade": "ALFENAS",
-      "cnpj": "10.293.005/0001-03",
-      "estado": "MG",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -287022,8 +287054,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": true,
       "rede": "REALMAR DISTRIBUIDORA",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "508",
+      "nome_usur1": "MARCELO DE SOUZA - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
     },
@@ -315012,6 +315044,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "73039",
+      "razao": "SORRENTO ALIMENTOS LTDA",
+      "fantasia": "ETTORE",
+      "bairro": "BARRA DA TIJUCA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "52.202.742/0001-01",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "10",
+      "nome_usur1": "INATIVO3",
+      "codusur2": "319",
+      "nome_usur2": "FERNANDA CAMBOIM"
+    },
+    {
       "codcli": "4307",
       "razao": "SORRISO CARIOCA BAR BEBIDAS E ALIMENTOS",
       "fantasia": "SORRISO CARIOCA QR99A/B",
@@ -320532,6 +320580,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "FERNANDO RISSON - OFF TRADE"
     },
     {
+      "codcli": "52448",
+      "razao": "SUPERMERCADO KATUCHA COMERCIO DE ALIMENTOS LTDA",
+      "fantasia": "SUPERMERCADO KATUCHA COMERCIO DE ALIMENTOS",
+      "bairro": "VILA FACHINI",
+      "cidade": "SAO PAULO",
+      "cnpj": "09.942.315/0001-22",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "512",
+      "nome_usur1": "WILLIAM GONCALVES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "48318",
       "razao": "SUPERMERCADO KAÇULA LTDA",
       "fantasia": "KAÇULA CENTRO DE DISTRIBUIÇÃO",
@@ -324782,8 +324846,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "153",
+      "nome_usur1": "ANGELO NEVES SUZART - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -342286,8 +342350,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "153",
+      "nome_usur1": "ANGELO NEVES SUZART - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
