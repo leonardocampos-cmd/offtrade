@@ -6199,6 +6199,34 @@ const AGENDAMENTO_DATA = {
       "nome": "DIOGO RAPOSO - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "81685",
+          "cliente": "L DO ROSARIO COELHO DEPOSITO DE BEBIDAS",
+          "cnpj": "26.533.534/0001-77",
+          "filial": "PACIENCIA",
+          "valor": 1798.5,
+          "nf": "",
+          "data_agendamento": "14/08/2026",
+          "data_ord": "2026-08-14",
+          "status": "A FATURAR",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "92136",
+          "cliente": "KAUE ALVES DA SILVA",
+          "cnpj": "63.529.210/0001-91",
+          "filial": "OSWALDO CRUZ",
+          "valor": 9601.3,
+          "nf": "",
+          "data_agendamento": "14/08/2026",
+          "data_ord": "2026-08-14",
+          "status": "A FATURAR",
+          "obs": "Caixas e rótulos íntegros",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "95552",
           "cliente": "MERCEARIA RECREIO FM",
           "cnpj": "55.438.902/0001-04",
@@ -25952,7 +25980,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "13/08/2026 15:14",
+  "atualizado_em": "13/08/2026 15:37",
   "comparativo": [
     {
       "msg_id": "19ff618b610c2f79",
