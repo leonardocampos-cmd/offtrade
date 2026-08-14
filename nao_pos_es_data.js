@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "14/08/2026 13:29",
+  "atualizado_em": "14/08/2026 13:43",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -8940,6 +8940,13 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
+        "codcli": "96040",
+        "cliente": "67.555.512 THIAGO DE OLIVEIRA CARDOSO",
+        "bairro": "PADRE MIGUEL",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "82750",
         "cliente": "ACOUGUE CAJUTI LTDA",
         "bairro": "TIJUCA",
@@ -8961,13 +8968,6 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95805",
-        "cliente": "GUARATIBA SUPERMERCADO & ALIMENTOS LTDA",
-        "bairro": "BARRA DE GUARATIBA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "95804",
         "cliente": "GUARATIBA SUPERMERCADO & ALIMENTOS LTDA",
         "bairro": "GUARATIBA",
@@ -8975,14 +8975,21 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95807",
+        "codcli": "95806",
         "cliente": "GUARATIBA SUPERMERCADO & ALIMENTOS LTDA",
         "bairro": "GUARATIBA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "95806",
+        "codcli": "95805",
+        "cliente": "GUARATIBA SUPERMERCADO & ALIMENTOS LTDA",
+        "bairro": "BARRA DE GUARATIBA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95807",
         "cliente": "GUARATIBA SUPERMERCADO & ALIMENTOS LTDA",
         "bairro": "GUARATIBA",
         "dtultcomp": "nan",
