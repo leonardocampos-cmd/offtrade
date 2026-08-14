@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "14/08/2026 10:15",
+  "atualizado_em": "14/08/2026 10:31",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -760,12 +760,12 @@ const COMISSAO_DATA = {
       ],
       "ating_acumulado_total": 0.281906,
       "pct_premio": 0.00422859,
-      "liq_rigarr": 45314.93,
+      "liq_rigarr": 45709.33,
       "fat_castas": 7519.5,
       "teto_comissao": null,
-      "com_rigarr": 191.62,
+      "com_rigarr": 193.29,
       "com_castas": 31.8,
-      "comissao_estimada": 223.42
+      "comissao_estimada": 225.09
     },
     {
       "nome": "MARILENA TRAGEL - OFF TRADE",
@@ -1141,12 +1141,12 @@ const COMISSAO_DATA = {
       ],
       "ating_acumulado_total": 0.091017,
       "pct_premio": 0.00136525,
-      "liq_rigarr": 115637.95,
+      "liq_rigarr": 116953.95,
       "fat_castas": 0.0,
       "teto_comissao": null,
-      "com_rigarr": 157.87,
+      "com_rigarr": 159.67,
       "com_castas": 0.0,
-      "comissao_estimada": 157.87
+      "comissao_estimada": 159.67
     },
     {
       "nome": "MARIA LUIZA - OFF TRADE",
