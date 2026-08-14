@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "14/08/2026 17:08",
-  "total": 22034,
+  "atualizado_em": "14/08/2026 17:26",
+  "total": 22033,
   "clientes": [
     {
       "codcli": "38586",
@@ -319418,22 +319418,6 @@ const CLIENTES_RCA_DATA = {
       "bairro": "CENTRO",
       "cidade": "JARINU",
       "cnpj": "67.057.315/0001-46",
-      "estado": "SP",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "SPON",
-      "codusur2": "399",
-      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
-    },
-    {
-      "codcli": "48281",
-      "razao": "SUPERMERCADO CATROQUE LTDA",
-      "fantasia": "SUPERMERCADO CATROQUE",
-      "bairro": "MARACANA",
-      "cidade": "JARINU",
-      "cnpj": "67.057.315/0002-27",
       "estado": "SP",
       "ramo": "MERCADO",
       "key_account": false,
