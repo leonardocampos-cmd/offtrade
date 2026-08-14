@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "14/08/2026 14:14",
+  "atualizado_em": "14/08/2026 14:33",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -17004,6 +17004,15 @@ const INATIVOS_DATA = {
         }
       ],
       "novos": [
+        {
+          "codcli": "52484",
+          "cliente": "CONVENIENCIA TODO DIA DE VIRADOURO LTDA.",
+          "bairro": "VILA SAO PEDRO",
+          "cidade": "VIRADOURO",
+          "dtcadastro": "14/08/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
         {
           "codcli": "52483",
           "cliente": "ELIAS FERNANDO DE OLIVEIRA LTDA",
