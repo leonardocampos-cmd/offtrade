@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "14/08/2026 15:45",
+  "atualizado_em": "14/08/2026 16:05",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -13140,7 +13140,7 @@ const METAS_DATA = {
           "DTULTCOMP": "13/08/2026",
           "produtos": [
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "AGUA MINERAL S/G GRF PET 1X10L MINALBA"
             }
           ]
@@ -13156,7 +13156,7 @@ const METAS_DATA = {
               "DESCRICAO": "CERV HEINEKEN ULT 0,350LT CART12UN PBR"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "CERVEJA HEINEKEN ZERO LONG  24X330ML"
             },
             {
@@ -13396,7 +13396,7 @@ const METAS_DATA = {
               "DESCRICAO": "CERVEJA AMSTEL ULTRA LN 12X275ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "CERVEJA HEINEKEN ZERO LONG  24X330ML"
             },
             {
@@ -13412,7 +13412,7 @@ const METAS_DATA = {
           "DTULTCOMP": "05/08/2026",
           "produtos": [
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "CERVEJA HEINEKEN ZERO LONG  24X330ML"
             },
             {
@@ -22492,7 +22492,7 @@ const METAS_DATA = {
           "DTULTCOMP": "13/08/2026",
           "produtos": [
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
             }
           ]
@@ -22548,19 +22548,19 @@ const METAS_DATA = {
           "DTULTCOMP": "06/08/2026",
           "produtos": [
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO FOODKILLER CHARDONNAY 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO FOODKILLER CARMENERE 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO FOODKILLER CAB. SAUV./ MERLOT"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VILLA ROSA TINTO 750ML"
             }
           ]
@@ -22572,11 +22572,11 @@ const METAS_DATA = {
           "DTULTCOMP": "06/08/2026",
           "produtos": [
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI ESTATE S. CHADY 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
             }
           ]
@@ -22588,15 +22588,15 @@ const METAS_DATA = {
           "DTULTCOMP": "06/08/2026",
           "produtos": [
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO FOODKILLER CARMENERE 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO FOODKILLER CAB. SAUV./ MERLOT"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO FOODKILLER CHARDONNAY 750ML"
             }
           ]
@@ -22608,7 +22608,7 @@ const METAS_DATA = {
           "DTULTCOMP": "06/08/2026",
           "produtos": [
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
             }
           ]
@@ -22620,24 +22620,12 @@ const METAS_DATA = {
           "DTULTCOMP": "16/07/2026",
           "produtos": [
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO CAVAS DE ORO BLEND BRANCO 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VILLA ROSA TINTO 750ML"
-            }
-          ]
-        },
-        {
-          "CODCLI": "91141",
-          "CLIENTE": "OLARIA BARIGUI COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
-          "BAIRROENT": "ABRANCHES",
-          "DTULTCOMP": "16/07/2026",
-          "produtos": [
-            {
-              "FANTASIA": "None",
-              "DESCRICAO": "AZEITE ESSENZA D'ITALIA 5L"
             }
           ]
         },
@@ -22648,20 +22636,32 @@ const METAS_DATA = {
           "DTULTCOMP": "16/07/2026",
           "produtos": [
             {
-              "FANTASIA": "None",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
-            },
-            {
-              "FANTASIA": "None",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. PINOT NOIR"
-            },
-            {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI ESTATE S. CARMENERE 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 750ML"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO ARESTI ESTATE S. PINOT NOIR"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
+            }
+          ]
+        },
+        {
+          "CODCLI": "91141",
+          "CLIENTE": "OLARIA BARIGUI COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+          "BAIRROENT": "ABRANCHES",
+          "DTULTCOMP": "16/07/2026",
+          "produtos": [
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "AZEITE ESSENZA D'ITALIA 5L"
             }
           ]
         },
@@ -22672,20 +22672,20 @@ const METAS_DATA = {
           "DTULTCOMP": "14/07/2026",
           "produtos": [
             {
-              "FANTASIA": "None",
-              "DESCRICAO": "SPINOGLIO TIERRA ALTA TANNAT RESERVA TTO"
-            },
-            {
-              "FANTASIA": "None",
-              "DESCRICAO": "HUMB. CANALE DENARIO RESERVA CAB. FRANC"
-            },
-            {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI ESTATE S. MERLOT 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
+              "DESCRICAO": "HUMB. CANALE DENARIO RESERVA CAB. FRANC"
+            },
+            {
+              "FANTASIA": "",
               "DESCRICAO": "VINHO TINTO BURDIZZO APPASSIMENTO 750ML"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "SPINOGLIO TIERRA ALTA TANNAT RESERVA TTO"
             }
           ]
         },
@@ -22696,44 +22696,44 @@ const METAS_DATA = {
           "DTULTCOMP": "13/07/2026",
           "produtos": [
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO LOS ALJIBES SYRAH  RED WINE 750ML"
             },
             {
-              "FANTASIA": "None",
-              "DESCRICAO": "BARBERA D'ALBA SUPERIORE 750ML"
-            },
-            {
-              "FANTASIA": "None",
-              "DESCRICAO": "DOLCETTO D'ALBA 750ML"
-            },
-            {
-              "FANTASIA": "None",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CARMENERE 750ML"
-            },
-            {
-              "FANTASIA": "None",
-              "DESCRICAO": "VINHO BCO ARCAIA PINOT GRIGIO 750ML"
-            },
-            {
-              "FANTASIA": "None",
-              "DESCRICAO": "VINHO LOS ALJIBES TEMPRANILLO 750ML"
-            },
-            {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI TRISQUEL GRAN R SYRAH 750ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CARMENERE 750ML"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 750ML"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO LOS ALJIBES TEMPRANILLO 750ML"
+            },
+            {
+              "FANTASIA": "",
               "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
             },
             {
-              "FANTASIA": "None",
-              "DESCRICAO": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML"
+              "FANTASIA": "",
+              "DESCRICAO": "BARBERA D'ALBA SUPERIORE 750ML"
             },
             {
-              "FANTASIA": "None",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 750ML"
+              "FANTASIA": "",
+              "DESCRICAO": "DOLCETTO D'ALBA 750ML"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO BCO ARCAIA PINOT GRIGIO 750ML"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML"
             }
           ]
         },
@@ -22744,7 +22744,7 @@ const METAS_DATA = {
           "DTULTCOMP": "13/07/2026",
           "produtos": [
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "AZEITE ESSENZA D'ITALIA 5L"
             }
           ]
@@ -22768,7 +22768,7 @@ const METAS_DATA = {
           "DTULTCOMP": "12/06/2026",
           "produtos": [
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VINHO FOODKILLER CAB. SAUV./ MERLOT"
             }
           ]
@@ -22780,7 +22780,7 @@ const METAS_DATA = {
           "DTULTCOMP": "22/05/2026",
           "produtos": [
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "VILLA ROSA BRANCO 750ML"
             }
           ]
@@ -22792,7 +22792,7 @@ const METAS_DATA = {
           "DTULTCOMP": "22/05/2026",
           "produtos": [
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "ESPUMANTE ALUD BRANCO 750ML"
             }
           ]
@@ -22806,22 +22806,22 @@ const METAS_DATA = {
         },
         {
           "mes": "Sep/25",
-          "fat": 58692.04,
+          "fat": 77774.04,
           "pos": 2
         },
         {
           "mes": "Oct/25",
-          "fat": 505151.14,
+          "fat": 515614.54,
           "pos": 8
         },
         {
           "mes": "Nov/25",
-          "fat": 457627.32,
+          "fat": 459876.12,
           "pos": 20
         },
         {
           "mes": "Dec/25",
-          "fat": 164128.42,
+          "fat": 440998.42,
           "pos": 14
         },
         {
@@ -26139,7 +26139,7 @@ const METAS_DATA = {
           }
         }
       },
-      "clientes_cadastrados": 2,
+      "clientes_cadastrados": 3,
       "nao_positivados": [
         {
           "CODCLI": "81046",
@@ -30096,10 +30096,5 @@ const METAS_DATA = {
       }
     }
   ],
-  "fontes_indisponiveis": [
-    "cadastros_BLENDED",
-    "historico_BLENDED",
-    "map_rca_BLENDED",
-    "vendas_hist_BLENDED"
-  ]
+  "fontes_indisponiveis": []
 };
