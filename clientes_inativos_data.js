@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "14/08/2026 13:45",
+  "atualizado_em": "14/08/2026 13:59",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -17579,6 +17579,15 @@ const INATIVOS_DATA = {
         }
       ],
       "novos": [
+        {
+          "codcli": "52481",
+          "cliente": "66.335.254 DIOGO DA SILVA",
+          "bairro": "SANTA CLAUDINA",
+          "cidade": "VINHEDO",
+          "dtcadastro": "14/08/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
         {
           "codcli": "52084",
           "cliente": "VBBR CONVENIENCIA S. A.",
