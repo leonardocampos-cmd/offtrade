@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "14/08/2026 12:12",
-  "total": 22024,
+  "atualizado_em": "14/08/2026 13:11",
+  "total": 22026,
   "clientes": [
     {
       "codcli": "38586",
@@ -101984,6 +101984,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "588",
       "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52477",
+      "razao": "COMERCIAL MAR AZUL LTDA",
+      "fantasia": "COMERCIAL MAR AZUL",
+      "bairro": "JARDIM VIRGÍNIA",
+      "cidade": "GUARUJA",
+      "cnpj": "67.521.847/0001-92",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "507",
+      "nome_usur1": "JOAO AUGUSTO -  OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -291666,6 +291682,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "TIAGO ANDRADE - OFF TRADE",
       "codusur2": "549",
       "nome_usur2": "FERNANDO GOMES"
+    },
+    {
+      "codcli": "96039",
+      "razao": "RESTAURANTE E CHURRASCARIA RIO NEGRO LTDA",
+      "fantasia": "RESTAURANTE E CHURRASCARIA RIO NEGRO LTD",
+      "bairro": "SEAC",
+      "cidade": "SAO MATEUS",
+      "cnpj": "28.700.362/0001-04",
+      "estado": "ES",
+      "ramo": "RESTAURANTE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "269",
+      "nome_usur1": "OZISLLAN RAMALHO DE SOUZA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "95983",
