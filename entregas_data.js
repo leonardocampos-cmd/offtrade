@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "14/08/2026 13:55",
+  "atualizado_em": "14/08/2026 14:09",
   "data_rota": "14.08",
   "alerta_data": "2026-08-06",
   "vendedores": [
@@ -73,26 +73,6 @@ const ENTREGAS_DATA = {
         }
       ],
       "nao_emitido": [
-        {
-          "numped": "431001247",
-          "numnota": "",
-          "data": "14/08/2026",
-          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
-          "placa": "",
-          "rota": "",
-          "status_ped": "",
-          "status_log": "",
-          "motivo": "",
-          "obs": "",
-          "total": 255.94,
-          "itens": [
-            {
-              "desc": "GUARAVITA NATURAL 24X290ML",
-              "qt": 8,
-              "val": 255.94
-            }
-          ]
-        },
         {
           "numped": "431001248",
           "numnota": "",
@@ -175,6 +155,26 @@ const ENTREGAS_DATA = {
               "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
               "qt": 1,
               "val": 129.9
+            }
+          ]
+        },
+        {
+          "numped": "431001247",
+          "numnota": "",
+          "data": "14/08/2026",
+          "cliente": "CANTINA QUINTAL CARIOCA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 255.94,
+          "itens": [
+            {
+              "desc": "GUARAVITA NATURAL 24X290ML",
+              "qt": 8,
+              "val": 255.94
             }
           ]
         },
@@ -998,6 +998,36 @@ const ENTREGAS_DATA = {
       "em_rota": [],
       "nao_emitido": [
         {
+          "numped": "471000531",
+          "numnota": "",
+          "data": "14/08/2026",
+          "cliente": "CAFE E BAR REDENTOR LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 361.56,
+          "itens": [
+            {
+              "desc": "4 PACK RED BULL ZERO",
+              "qt": 1,
+              "val": 28.76
+            },
+            {
+              "desc": "4 PACK RED BULL 250ML",
+              "qt": 5,
+              "val": 143.8
+            },
+            {
+              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+              "qt": 3,
+              "val": 189.0
+            }
+          ]
+        },
+        {
           "numped": "471000528",
           "numnota": "",
           "data": "14/08/2026",
@@ -1029,6 +1059,66 @@ const ENTREGAS_DATA = {
               "desc": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
               "qt": 1,
               "val": 285.6
+            }
+          ]
+        },
+        {
+          "numped": "471000532",
+          "numnota": "",
+          "data": "14/08/2026",
+          "cliente": "PARADA DA RESENHA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "cliente abre 10:30",
+          "total": 315.0,
+          "itens": [
+            {
+              "desc": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+              "qt": 5,
+              "val": 315.0
+            }
+          ]
+        },
+        {
+          "numped": "471000530",
+          "numnota": "",
+          "data": "14/08/2026",
+          "cliente": "BARBUDO DISTRIBUIDORA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1035.36,
+          "itens": [
+            {
+              "desc": "RED BULL ZERO  24X250ML",
+              "qt": 6,
+              "val": 1035.36
+            }
+          ]
+        },
+        {
+          "numped": "471000529",
+          "numnota": "",
+          "data": "14/08/2026",
+          "cliente": "BAR E RESTAURANTE SOUSA SOUTO LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 1078.8,
+          "itens": [
+            {
+              "desc": "AMARULA C LIQUEUR 750 ML",
+              "qt": 12,
+              "val": 1078.8
             }
           ]
         }
@@ -2470,6 +2560,41 @@ const ENTREGAS_DATA = {
               "desc": "GIN ROCKS 1000ML",
               "qt": 1,
               "val": 25.9
+            }
+          ]
+        },
+        {
+          "numped": "412001477",
+          "numnota": "",
+          "data": "14/08/2026",
+          "cliente": "WSC MERCADO E MERCEARIA LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 391.62,
+          "itens": [
+            {
+              "desc": "ICE 51 LIMAO LONG NECK 24X275ML",
+              "qt": 1,
+              "val": 120.9
+            },
+            {
+              "desc": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+              "qt": 1,
+              "val": 132.9
+            },
+            {
+              "desc": "CACHACA TATUZINHO PET 750 ML",
+              "qt": 2,
+              "val": 7.98
+            },
+            {
+              "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+              "qt": 1,
+              "val": 129.84
             }
           ]
         }
