@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "14/08/2026 17:06",
+  "atualizado_em": "14/08/2026 17:25",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -10497,9 +10497,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "52107",
+        "codcli": "52104",
         "cliente": "DAVID BARBOZA SUPERMERCADO LTDA",
-        "bairro": "PARQUE SÃO JORGE",
+        "bairro": "JARDIM MACUCOS",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -10511,9 +10511,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "52104",
+        "codcli": "52107",
         "cliente": "DAVID BARBOZA SUPERMERCADO LTDA",
-        "bairro": "JARDIM MACUCOS",
+        "bairro": "PARQUE SÃO JORGE",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -10579,6 +10579,20 @@ const NAO_POS_SP_DATA = {
         "codcli": "48279",
         "cliente": "EMPORIO CATROQUE LTDA",
         "bairro": "ALAMBIQUE",
+        "dtultcomp": "09/03/2026",
+        "produtos": [
+          {
+            "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+            "fantasia": "CASTAS",
+            "qt": 2,
+            "valor": 621.6
+          }
+        ]
+      },
+      {
+        "codcli": "48278",
+        "cliente": "SUPERMERCADO CATROQUE LTDA",
+        "bairro": "CENTRO",
         "dtultcomp": "09/03/2026",
         "produtos": [
           {
