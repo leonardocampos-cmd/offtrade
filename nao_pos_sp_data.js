@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "14/08/2026 13:43",
+  "atualizado_em": "14/08/2026 13:57",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -6550,6 +6550,13 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
+        "codcli": "52480",
+        "cliente": "BEER EXPRESS ADEGA IRACEMAPOLIS LTDA",
+        "bairro": "JARDIM CAROLINA OMETTO PAVAN",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "52250",
         "cliente": "SHALOM AGUA E BEBIDAS LTDA.",
         "bairro": "JARDIM SÃO MIGUEL",
@@ -7819,6 +7826,38 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
+        "codcli": "51690",
+        "cliente": "SERTOP OPERACAO E GESTAO DO VAREJO ALIMENTICIO LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "22/07/2026",
+        "produtos": [
+          {
+            "produto": "GIN ROCKS 1LT",
+            "fantasia": "FANTE",
+            "qt": 6,
+            "valor": 123.0
+          },
+          {
+            "produto": "SMIRNOFF ICE 24X275ML LONG",
+            "fantasia": "DIAGEO",
+            "qt": 2,
+            "valor": 251.8
+          },
+          {
+            "produto": "WHISKY BALLANTINE S FINEST 1L",
+            "fantasia": "PERNOD",
+            "qt": 3,
+            "valor": 158.7
+          },
+          {
+            "produto": "WHISKY JACK DANIELS 1L",
+            "fantasia": "BROWN",
+            "qt": 3,
+            "valor": 299.7
+          }
+        ]
+      },
+      {
         "codcli": "51685",
         "cliente": "SERTOP OPERACAO E GESTAO DO VAREJO ALIMENTICIO LTDA",
         "bairro": "CENTRO",
@@ -7847,38 +7886,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "PERNOD",
             "qt": 12,
             "valor": 238.8
-          },
-          {
-            "produto": "WHISKY JACK DANIELS 1L",
-            "fantasia": "BROWN",
-            "qt": 3,
-            "valor": 299.7
-          }
-        ]
-      },
-      {
-        "codcli": "51690",
-        "cliente": "SERTOP OPERACAO E GESTAO DO VAREJO ALIMENTICIO LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "22/07/2026",
-        "produtos": [
-          {
-            "produto": "GIN ROCKS 1LT",
-            "fantasia": "FANTE",
-            "qt": 6,
-            "valor": 123.0
-          },
-          {
-            "produto": "SMIRNOFF ICE 24X275ML LONG",
-            "fantasia": "DIAGEO",
-            "qt": 2,
-            "valor": 251.8
-          },
-          {
-            "produto": "WHISKY BALLANTINE S FINEST 1L",
-            "fantasia": "PERNOD",
-            "qt": 3,
-            "valor": 158.7
           },
           {
             "produto": "WHISKY JACK DANIELS 1L",
@@ -8263,49 +8270,21 @@ const NAO_POS_SP_DATA = {
           {
             "produto": "VODCA SMIRNOFF RED 998 ML",
             "fantasia": "DIAGEO",
-            "qt": 6,
-            "valor": 173.4
+            "qt": 12,
+            "valor": 346.8
           },
           {
             "produto": "VODCA SMIRNOFF RED 998 ML",
             "fantasia": "DIAGEO",
-            "qt": 12,
-            "valor": 346.8
+            "qt": 6,
+            "valor": 173.4
           }
         ]
-      },
-      {
-        "codcli": "51822",
-        "cliente": "D. NASTARO SUPERMERCADOS LTDA",
-        "bairro": "PERDIZES",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51821",
-        "cliente": "D. NASTARO SUPERMERCADOS LTDA",
-        "bairro": "SANTA TEREZINHA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51830",
-        "cliente": "D. NASTARO SUPERMERCADOS LTDA",
-        "bairro": "JARDIM ALGODOAL",
-        "dtultcomp": "nan",
-        "produtos": []
       },
       {
         "codcli": "51823",
         "cliente": "D. NASTARO SUPERMERCADOS LTDA",
         "bairro": "PAULICÉIA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "51824",
-        "cliente": "D. NASTARO SUPERMERCADOS LTDA",
-        "bairro": "NOSSA SENHORA DE LOURDES",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -8317,9 +8296,44 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
+        "codcli": "51821",
+        "cliente": "D. NASTARO SUPERMERCADOS LTDA",
+        "bairro": "SANTA TEREZINHA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51822",
+        "cliente": "D. NASTARO SUPERMERCADOS LTDA",
+        "bairro": "PERDIZES",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51830",
+        "cliente": "D. NASTARO SUPERMERCADOS LTDA",
+        "bairro": "JARDIM ALGODOAL",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51824",
+        "cliente": "D. NASTARO SUPERMERCADOS LTDA",
+        "bairro": "NOSSA SENHORA DE LOURDES",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "51825",
         "cliente": "NASTARO E NICOLETI SUPERMERCADOS LTDA",
         "bairro": "VILA INDUSTRIAL",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51547",
+        "cliente": "SUPERMERCADO ARMELIN LTDA",
+        "bairro": "VILA FATIMA",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -12666,6 +12680,22 @@ const NAO_POS_SP_DATA = {
         ]
       }
     ],
+    "MARCUS TANAMACHI": [
+      {
+        "codcli": "47449",
+        "cliente": "FAMILIA LIMA RODRIGUES LTDA",
+        "bairro": "JARDIM SÃO VICENTE",
+        "dtultcomp": "23/07/2026",
+        "produtos": [
+          {
+            "produto": "CACHAÇA SAO FRANCISCO 970ML",
+            "fantasia": "PERNOD",
+            "qt": 660,
+            "valor": 13794.0
+          }
+        ]
+      }
+    ],
     "MARIA PEREIRA": [
       {
         "codcli": "52079",
@@ -13732,14 +13762,14 @@ const NAO_POS_SP_DATA = {
           {
             "produto": "GIN ROCKS STRAWBERRY 1LT",
             "fantasia": "FANTE",
-            "qt": 20,
-            "valor": 410.8
+            "qt": 24,
+            "valor": 492.96
           },
           {
             "produto": "GIN ROCKS STRAWBERRY 1LT",
             "fantasia": "FANTE",
-            "qt": 24,
-            "valor": 492.96
+            "qt": 20,
+            "valor": 410.8
           },
           {
             "produto": "GIN ROCKS WATERMELON 1LT",
@@ -13968,9 +13998,23 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
+        "codcli": "52481",
+        "cliente": "66.335.254 DIOGO DA SILVA",
+        "bairro": "SANTA CLAUDINA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "51424",
         "cliente": "CAMP MOTOS COMERCIO DE MOTOCICLETAS LTDA",
         "bairro": "VILA NOVA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52082",
+        "cliente": "VBBR CONVENIENCIA S. A.",
+        "bairro": "FIGUEIRA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -13992,13 +14036,6 @@ const NAO_POS_SP_DATA = {
         "codcli": "52081",
         "cliente": "VBBR CONVENIENCIA S. A.",
         "bairro": "LAGEADINHO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "52082",
-        "cliente": "VBBR CONVENIENCIA S. A.",
-        "bairro": "FIGUEIRA",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -22576,20 +22613,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "40359",
-        "cliente": "BRASILEIRAO ATACADO COMERCIO DE PRODUTOS ALIMENTICIOS SOCIED",
-        "bairro": "JARDIM MITUZI",
-        "dtultcomp": "23/07/2026",
-        "produtos": [
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 120,
-            "valor": 9588.0
-          }
-        ]
-      },
-      {
         "codcli": "40361",
         "cliente": "BRASILEIRAO ATACADO COMERCIO DE PRODUTOS ALIMENTICIOS SOCIED",
         "bairro": "PARQUE SANTA TERESA",
@@ -22600,6 +22623,20 @@ const NAO_POS_SP_DATA = {
             "fantasia": "BALLENA",
             "qt": 180,
             "valor": 14382.0
+          }
+        ]
+      },
+      {
+        "codcli": "40359",
+        "cliente": "BRASILEIRAO ATACADO COMERCIO DE PRODUTOS ALIMENTICIOS SOCIED",
+        "bairro": "JARDIM MITUZI",
+        "dtultcomp": "23/07/2026",
+        "produtos": [
+          {
+            "produto": "LICOR BALLENA MORANGO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 120,
+            "valor": 9588.0
           }
         ]
       },
@@ -22678,20 +22715,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "PERNOD",
             "qt": 360,
             "valor": 9684.0
-          }
-        ]
-      },
-      {
-        "codcli": "47449",
-        "cliente": "FAMILIA LIMA RODRIGUES LTDA",
-        "bairro": "JARDIM SÃO VICENTE",
-        "dtultcomp": "23/07/2026",
-        "produtos": [
-          {
-            "produto": "CACHAÇA SAO FRANCISCO 970ML",
-            "fantasia": "PERNOD",
-            "qt": 660,
-            "valor": 13794.0
           }
         ]
       },
