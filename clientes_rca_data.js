@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "14/08/2026 13:30",
-  "total": 22026,
+  "atualizado_em": "14/08/2026 13:43",
+  "total": 22028,
   "clientes": [
     {
       "codcli": "38586",
@@ -30112,6 +30112,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "155",
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "96040",
+      "razao": "67.555.512 THIAGO DE OLIVEIRA CARDOSO",
+      "fantasia": "THIAGO DE OLIVEIRA CARDOSO",
+      "bairro": "PADRE MIGUEL",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "67.555.512/0001-95",
+      "estado": "RJ",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "144",
+      "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -68992,6 +69008,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52480",
+      "razao": "BEER EXPRESS ADEGA IRACEMAPOLIS LTDA",
+      "fantasia": "BEER EXPRESS ADEGA IRACEMAPOLIS",
+      "bairro": "JARDIM CAROLINA OMETTO PAVAN",
+      "cidade": "IRACEMAPOLIS",
+      "cnpj": "63.063.219/0001-50",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "490",
+      "nome_usur1": "DOUGLAS TEIXEIRA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
